@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/myth/eledove_shiny.png"
+      "texture": "cobblemon:textures/pokemon/myth/eledove.png"
     },
     {
       "aspects": [
@@ -26,7 +26,7 @@
         "female",
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/myth/eledove_female_shiny.png"
+      "texture": "cobblemon:textures/pokemon/myth/eledove_female.png"
     }
   ]
 }

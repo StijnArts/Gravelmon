@@ -611,14 +611,6 @@ public class GravelmonStarters {
                         )
                 ));
         GravelmonStarterManager.registerNewStarter(null,
-                createCategory("Aldao",
-                        List.of(
-                                "Pupfleur level=10",
-                                "Cubby level=10",
-                                "Nymbble level=10"
-                        )
-                ));
-        GravelmonStarterManager.registerNewStarter(null,
                 createCategory("Ivris",
                         List.of(
                                 "Hezard level=10",

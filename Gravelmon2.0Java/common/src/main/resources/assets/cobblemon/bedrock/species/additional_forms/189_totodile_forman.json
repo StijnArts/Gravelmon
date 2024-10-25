@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_formantotodile",
-      "texture": "cobblemon:textures/pokemon/generation2/formantotodile_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation2/formantotodile.png",
       "layers": [
         {
           "name": "glow"

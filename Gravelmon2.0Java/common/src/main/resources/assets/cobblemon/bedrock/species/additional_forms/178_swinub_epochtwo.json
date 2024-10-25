@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_epochswinubone",
-      "texture": "cobblemon:textures/pokemon/generation2/epochswinubone_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation2/epochswinubone.png",
       "layers": [
         {
           "name": "glow"

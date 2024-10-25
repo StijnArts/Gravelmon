@@ -65,7 +65,7 @@ public class Tubedude extends drai.dev.data.pokemon.Pokemon {
                         76,
                         156,
                         96),
-                List.of(Ability.SLIPN'SLIDE), Ability.SLIPN'SLIDE,
+                List.of(Ability.SLIPNSLIDE), Ability.SLIPNSLIDE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,

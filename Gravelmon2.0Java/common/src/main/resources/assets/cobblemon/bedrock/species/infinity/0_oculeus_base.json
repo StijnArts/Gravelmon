@@ -4,30 +4,16 @@
   "variations": [
     {
       "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:infinity_oculeus",
-      "model": "cobblemon:infinity_oculeus.geo",
-      "texture": "cobblemon:textures/pokemon/infinity/oculeus/oculeus.png",
-      "layers": [
-        {
-          "name": "emmisive",
-          "texture":"cobblemon:textures/pokemon/infinity/oculeus/oculeus_translucent.png",
-          "emissive": true,
-          "translucent": true
-        }
-      ]
+      "texture": "cobblemon:textures/pokemon/infinity/oculeus.png",
+      "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/infinity/oculeus/oculeus_shiny.png",
-      "layers": [
-        {
-          "name": "emmisive",
-          "texture":"cobblemon:textures/pokemon/infinity/oculeus/oculeus_shiny_translucent.png",
-          "emissive": true,
-          "translucent": true
-        }
-      ]
-    }  ]
+      "texture": "cobblemon:textures/pokemon/infinity/oculeus.png"
+    }
+  ]
 }

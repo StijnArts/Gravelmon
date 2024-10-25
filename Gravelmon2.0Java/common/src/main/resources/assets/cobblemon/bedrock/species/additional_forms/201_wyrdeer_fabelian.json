@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation8_fabelianwyrdeer",
-      "texture": "cobblemon:textures/pokemon/generation8/fabelianwyrdeer_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation8/fabelianwyrdeer.png",
       "layers": [
         {
           "name": "glow"

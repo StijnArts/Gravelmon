@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_relicgogoat",
-      "texture": "cobblemon:textures/pokemon/generation6/relicgogoat_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation6/relicgogoat.png",
       "layers": [
         {
           "name": "glow"

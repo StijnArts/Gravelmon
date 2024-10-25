@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation8_ayreianhattrem",
-      "texture": "cobblemon:textures/pokemon/generation8/ayreianhattrem_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation8/ayreianhattrem.png",
       "layers": [
         {
           "name": "glow"

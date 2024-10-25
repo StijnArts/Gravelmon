@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation7_varitasiansteenee",
-      "texture": "cobblemon:textures/pokemon/generation7/varitasiansteenee_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation7/varitasiansteenee.png",
       "layers": [
         {
           "name": "glow"

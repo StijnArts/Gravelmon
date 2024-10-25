@@ -4,30 +4,16 @@
   "variations": [
     {
       "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:infinity_arkhaos",
-      "model": "cobblemon:infinity_arkhaos.geo",
-      "texture": "cobblemon:textures/pokemon/infinity/arkhaos/arkhaos.png",
-      "layers": [
-        {
-          "name": "emmisive",
-          "texture":"cobblemon:textures/pokemon/infinity/arkhaos/arkhaos_emissive.png",
-          "emissive": true,
-          "translucent": true
-        }
-      ]
+      "texture": "cobblemon:textures/pokemon/infinity/arkhaos.png",
+      "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/infinity/arkhaos/arkhaos_shiny.png",
-      "layers": [
-        {
-          "name": "emmisive",
-          "texture":"cobblemon:textures/pokemon/infinity/arkhaos/arkhaos_shiny_emissive.png",
-          "emissive": true,
-          "translucent": true
-        }
-      ]
-    }  ]
+      "texture": "cobblemon:textures/pokemon/infinity/arkhaos.png"
+    }
+  ]
 }

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation9_ayreianquaxwell",
-      "texture": "cobblemon:textures/pokemon/generation9/ayreianquaxwell_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation9/ayreianquaxwell.png",
       "layers": [
         {
           "name": "glow"

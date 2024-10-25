@@ -144,8 +144,84 @@
   "weight": 1128,
   "aspects": ["epoch"],
   "cannotDynamax": false
+},
+{
+  "name": "Lagoonan",
+  "primaryType": "grass",
+  "secondaryType": "steel",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 75,
+    "defence": 77,
+    "special_attack": 70,
+    "special_defence": 105,
+    "speed": 94
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 253,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy"
+  ],
+  "moves": [
+    "1:absorb",
+    "1:metalclaw"  ],
+  "labels": [
+    "lagoone",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.lagoonantinkaton.desc"
+  ],
+  "baseScale": 0.2833333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 3,
+    "speed": 0
+  },
+  "height": 17,
+  "weight": 1128,
+  "aspects": ["lagoonan"],
+  "cannotDynamax": false
 }
 ], "features": [
-"epoch"
+"epoch",
+"lagoonan"
   ]
 }

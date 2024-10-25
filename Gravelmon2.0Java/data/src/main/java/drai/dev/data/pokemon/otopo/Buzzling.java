@@ -78,7 +78,7 @@ public class Buzzling extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.STRING_SHOT,1),
                         new MoveLearnSetEntry(Move.SCREECH,7),
-                        new MoveLearnSetEntry(Move.BUGBITEN,12)                        ),
+                        new MoveLearnSetEntry(Move.BUG_BITE,12)                        ),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

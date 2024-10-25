@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_aristosiankangaskhan",
-      "texture": "cobblemon:textures/pokemon/generation1/aristosiankangaskhan_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation1/aristosiankangaskhan.png",
       "layers": [
         {
           "name": "glow"

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_epochbeautifly",
-      "texture": "cobblemon:textures/pokemon/generation3/epochbeautifly_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation3/epochbeautifly.png",
       "layers": [
         {
           "name": "glow"

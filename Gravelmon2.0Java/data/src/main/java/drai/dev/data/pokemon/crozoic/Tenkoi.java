@@ -75,10 +75,10 @@ public class Tenkoi extends drai.dev.data.pokemon.Pokemon {
                 List.of("Based on: Scapanorhynchus"),
                 List.of(),
                 List.of(
-                        new MoveLearnSetEntry(Move.SOULCHOMPN,1),
+                        new MoveLearnSetEntry(Move.SOULCHOMP,1),
                         new MoveLearnSetEntry(Move.SHEDFANGS,1),
-                        new MoveLearnSetEntry(Move.ODORSLEUTHN,1),
-                        new MoveLearnSetEntry(Move.PSYCHICFANGSN,1)                        ),
+                        new MoveLearnSetEntry(Move.ODOR_SLEUTH,1),
+                        new MoveLearnSetEntry(Move.PSYCHIC_FANGS,1)                        ),
                 List.of(Label.CROZOIC),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

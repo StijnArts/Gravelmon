@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_eghomarill",
-      "texture": "cobblemon:textures/pokemon/generation2/eghomarill_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation2/eghomarill.png",
       "layers": [
         {
           "name": "glow"

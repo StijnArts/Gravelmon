@@ -65,7 +65,7 @@ public class Deepfried extends drai.dev.data.pokemon.Pokemon {
                         90,
                         83,
                         81),
-                List.of(Ability.ELECTROMORPHOSIS,Ability.STATIC), Ability.LIGHTNINGROD,
+                List.of(Ability.ELECTROMORPHOSIS,Ability.STATIC), Ability.LIGHTNING_ROD,
                 0, 0,
                 new Stats(0,0,0,2,0,0), 0,
                 0.5,

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:ferroa_crozoicanchainscraw",
-      "texture": "cobblemon:textures/pokemon/ferroa/crozoicanchainscraw_shiny.png",
+      "texture": "cobblemon:textures/pokemon/ferroa/crozoicanchainscraw.png",
       "layers": [
         {
           "name": "glow"

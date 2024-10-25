@@ -65,7 +65,7 @@ public class Puppetickle extends drai.dev.data.pokemon.Pokemon {
                         40,
                         42,
                         62),
-                List.of(Ability.CUTECHARM), Ability.CUTECHARM,
+                List.of(Ability.CUTE_CHARM), Ability.CUTE_CHARM,
                 0, 0,
                 new Stats(0,1,0,0,0,0), 0,
                 0.5,

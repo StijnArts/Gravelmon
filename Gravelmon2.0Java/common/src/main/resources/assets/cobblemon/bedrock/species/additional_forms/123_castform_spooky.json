@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_spookycastform",
-      "texture": "cobblemon:textures/pokemon/generation3/spookycastform_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation3/spookycastform.png",
       "layers": [
         {
           "name": "glow"

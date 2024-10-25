@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation8_kaskadiandubwool",
-      "texture": "cobblemon:textures/pokemon/generation8/kaskadiandubwool_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation8/kaskadiandubwool.png",
       "layers": [
         {
           "name": "glow"

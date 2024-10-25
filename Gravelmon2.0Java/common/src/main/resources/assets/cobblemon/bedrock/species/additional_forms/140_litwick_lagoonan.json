@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_lagoonanlitwick",
-      "texture": "cobblemon:textures/pokemon/generation5/lagoonanlitwick_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation5/lagoonanlitwick.png",
       "layers": [
         {
           "name": "glow"

@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/sage/snogre_shiny.png"
+      "texture": "cobblemon:textures/pokemon/sage/snogre.png"
     },
     {
       "aspects": [
@@ -26,7 +26,7 @@
         "female",
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/sage/snogre_female_shiny.png"
+      "texture": "cobblemon:textures/pokemon/sage/snogre_female.png"
     }
   ]
 }

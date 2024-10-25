@@ -4,16 +4,16 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:xenoverse_pepequeno.geo",
+      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:xenoverse_pepequeno",
-      "texture": "cobblemon:textures/pokemon/xenoverse/pepequeno/pepequeno.png",
+      "texture": "cobblemon:textures/pokemon/xenoverse/pepequeno.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/xenoverse/pepequeno/pepequeno_shiny.png"
+      "texture": "cobblemon:textures/pokemon/xenoverse/pepequeno.png"
     }
   ]
 }

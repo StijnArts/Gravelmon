@@ -65,7 +65,7 @@ public class Flamingle extends drai.dev.data.pokemon.Pokemon {
                         75,
                         45,
                         55),
-                List.of(Ability.ROMANTIC), Ability.CUTECHARM,
+                List.of(Ability.ROMANTIC), Ability.CUTE_CHARM,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,

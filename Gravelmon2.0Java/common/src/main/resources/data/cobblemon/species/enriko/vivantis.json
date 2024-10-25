@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vivantis",
-  "nationalPokedexNumber": 1939,
+  "nationalPokedexNumber": 1938,
   "primaryType": "grass",
   "secondaryType": "bug",
   "abilities": [
@@ -71,7 +71,7 @@
   "pokedex": [
     "cobblemon.species.vivantis.desc"
   ],
-  "preEvolution": "ensencoon",
+  "preEvolution": "savantis",
   "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,

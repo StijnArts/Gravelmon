@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_hubiansmeargle",
-      "texture": "cobblemon:textures/pokemon/generation2/hubiansmeargle_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation2/hubiansmeargle.png",
       "layers": [
         {
           "name": "glow"

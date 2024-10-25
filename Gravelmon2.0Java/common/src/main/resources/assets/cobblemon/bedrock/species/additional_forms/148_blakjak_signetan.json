@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:deneb_signetanblakjak",
-      "texture": "cobblemon:textures/pokemon/deneb/signetanblakjak_shiny.png",
+      "texture": "cobblemon:textures/pokemon/deneb/signetanblakjak.png",
       "layers": [
         {
           "name": "glow"

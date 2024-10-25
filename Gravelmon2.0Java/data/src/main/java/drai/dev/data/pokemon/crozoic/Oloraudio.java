@@ -75,16 +75,16 @@ public class Oloraudio extends drai.dev.data.pokemon.Pokemon {
                 List.of("Its booming call is amplified by the resonating chamber on its forehead. The glowing, shifting stripe along its sides resembles a wavelength of audio. This stripe distorts whenever it's making loud sounds."),
                 List.of(),
                 List.of(
-                        new MoveLearnSetEntry(Move.PSYCHICNOISEN,1),
+                        new MoveLearnSetEntry(Move.PSYCHICNOISE,1),
                         new MoveLearnSetEntry(Move.RESONATE,1),
                         new MoveLearnSetEntry(Move.SUPERSONIC,1),
                         new MoveLearnSetEntry(Move.BOOMBURST,1),
                         new MoveLearnSetEntry(Move.HIGH_HORSEPOWER,1),
-                        new MoveLearnSetEntry(Move.UPROARN,1),
+                        new MoveLearnSetEntry(Move.UPROAR,1),
                         new MoveLearnSetEntry(Move.GLOWSIGNAL,1),
                         new MoveLearnSetEntry(Move.SING,1),
                         new MoveLearnSetEntry(Move.STOMP,1),
-                        new MoveLearnSetEntry(Move.PSYSHOCKN,1)                        ),
+                        new MoveLearnSetEntry(Move.PSYSHOCK,1)                        ),
                 List.of(Label.CROZOIC),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_ayreianswablu",
-      "texture": "cobblemon:textures/pokemon/generation3/ayreianswablu_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation3/ayreianswablu.png",
       "layers": [
         {
           "name": "glow"

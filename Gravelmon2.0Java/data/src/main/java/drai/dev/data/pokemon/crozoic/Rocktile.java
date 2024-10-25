@@ -76,13 +76,13 @@ public class Rocktile extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.CIRCLE_THROW,1),
-                        new MoveLearnSetEntry(Move.UPPERHANDN,1),
+                        new MoveLearnSetEntry(Move.UPPERHAND,1),
                         new MoveLearnSetEntry(Move.HEAD_SMASH,1),
                         new MoveLearnSetEntry(Move.ROCK_THROW,1),
                         new MoveLearnSetEntry(Move.STONE_EDGE,1),
-                        new MoveLearnSetEntry(Move.SANDTOMBN,1),
+                        new MoveLearnSetEntry(Move.SAND_TOMB,1),
                         new MoveLearnSetEntry(Move.SEISMIC_TOSS,1),
-                        new MoveLearnSetEntry(Move.FLINGN,1)                        ),
+                        new MoveLearnSetEntry(Move.FLING,1)                        ),
                 List.of(Label.CROZOIC),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

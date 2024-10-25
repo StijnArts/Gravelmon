@@ -65,7 +65,7 @@ public class Omeledoodle extends drai.dev.data.pokemon.Pokemon {
                         80,
                         60,
                         80),
-                List.of(Ability.EARLYBIRD), Ability.FLUFFY,
+                List.of(Ability.EARLY_BIRD), Ability.FLUFFY,
                 0, 0,
                 new Stats(3,0,0,0,0,0), 0,
                 0.5,

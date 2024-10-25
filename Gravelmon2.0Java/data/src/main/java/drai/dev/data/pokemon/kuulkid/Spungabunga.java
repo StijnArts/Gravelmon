@@ -65,7 +65,7 @@ public class Spungabunga extends drai.dev.data.pokemon.Pokemon {
                         65,
                         72,
                         84),
-                List.of(Ability.WATER_ABSORB), Ability.ROCKHEAD,
+                List.of(Ability.WATER_ABSORB), Ability.ROCK_HEAD,
                 0, 0,
                 new Stats(0,2,1,0,0,0), 0,
                 0.5,

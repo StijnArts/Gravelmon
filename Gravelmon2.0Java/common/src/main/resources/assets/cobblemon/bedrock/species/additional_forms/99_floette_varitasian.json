@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_varitasianfloette",
-      "texture": "cobblemon:textures/pokemon/generation6/varitasianfloette_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation6/varitasianfloette.png",
       "layers": [
         {
           "name": "glow"

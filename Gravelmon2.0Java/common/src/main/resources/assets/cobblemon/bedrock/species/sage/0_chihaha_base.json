@@ -4,16 +4,16 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:sage_chihaha.geo",
+      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:sage_chihaha",
-      "texture": "cobblemon:textures/pokemon/sage/chihaha/chihaha.png",
+      "texture": "cobblemon:textures/pokemon/sage/chihaha.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/sage/chihaha/chihaha_shiny.png"
+      "texture": "cobblemon:textures/pokemon/sage/chihaha.png"
     }
   ]
 }

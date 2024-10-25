@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation7_epochmudsdale",
-      "texture": "cobblemon:textures/pokemon/generation7/epochmudsdale_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation7/epochmudsdale.png",
       "layers": [
         {
           "name": "glow"

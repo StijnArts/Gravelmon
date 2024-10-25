@@ -1,21 +1,19 @@
 {
   "species": "cobblemon:gorochu",
-  "order": 1,
+  "order": 0,
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:infinity_gorochu.geo",
+      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:infinity_gorochu",
-      "texture": "cobblemon:textures/pokemon/infinity/gorochu/gorochu.png",
-      "layers": [
-        {}
-      ]
+      "texture": "cobblemon:textures/pokemon/infinity/gorochu.png",
+      "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/infinity/gorochu/gorochu_shiny.png"
+      "texture": "cobblemon:textures/pokemon/infinity/gorochu.png"
     }
   ]
 }

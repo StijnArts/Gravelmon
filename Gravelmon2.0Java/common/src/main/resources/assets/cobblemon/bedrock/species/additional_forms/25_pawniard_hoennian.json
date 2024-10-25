@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_hoennianpawniard",
-      "texture": "cobblemon:textures/pokemon/generation5/hoennianpawniard_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation5/hoennianpawniard.png",
       "layers": [
         {
           "name": "glow"

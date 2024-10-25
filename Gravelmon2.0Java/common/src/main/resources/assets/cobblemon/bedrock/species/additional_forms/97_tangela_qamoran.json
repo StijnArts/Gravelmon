@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_qamorantangela",
-      "texture": "cobblemon:textures/pokemon/generation1/qamorantangela_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation1/qamorantangela.png",
       "layers": [
         {
           "name": "glow"

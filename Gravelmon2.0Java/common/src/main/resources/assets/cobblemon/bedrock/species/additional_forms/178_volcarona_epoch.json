@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_epochvolcarona",
-      "texture": "cobblemon:textures/pokemon/generation5/epochvolcarona_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation5/epochvolcarona.png",
       "layers": [
         {
           "name": "glow"

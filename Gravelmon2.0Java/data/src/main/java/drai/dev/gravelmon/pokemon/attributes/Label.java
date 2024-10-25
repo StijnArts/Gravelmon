@@ -102,7 +102,7 @@ public enum Label {
     MASTENIAN,
     FORM,
     KORZA,
-    RAIAN, PALMIA, NORSE, TRIZOR, ALDAO, BAGO, FRA, IVRIS, ELB(), FABEL(), FERRAN(), AROMA(), SAHL(), MAHAL(), BORAZUL(), KUULKID();
+    RAIAN, PALMIA, NORSE, TRIZOR, ALDAO, BAGO, FRA, IVRIS, ELB(), FABEL(), FERRAN(), AROMA(), SAHL(), MAHAL(), BORAZUL(), KUULKID(), MIKITARI();
 
     private String name;
     Label(String name){

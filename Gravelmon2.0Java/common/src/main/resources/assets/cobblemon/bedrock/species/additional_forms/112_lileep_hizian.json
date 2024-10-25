@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_hizianlileep",
-      "texture": "cobblemon:textures/pokemon/generation3/hizianlileep_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation3/hizianlileep.png",
       "layers": [
         {
           "name": "glow"

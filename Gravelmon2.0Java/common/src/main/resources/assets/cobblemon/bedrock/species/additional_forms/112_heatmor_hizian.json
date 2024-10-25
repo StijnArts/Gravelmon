@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_hizianheatmor",
-      "texture": "cobblemon:textures/pokemon/generation5/hizianheatmor_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation5/hizianheatmor.png",
       "layers": [
         {
           "name": "glow"

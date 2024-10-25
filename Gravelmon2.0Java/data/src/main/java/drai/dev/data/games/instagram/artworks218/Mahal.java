@@ -13,6 +13,16 @@ public class Mahal extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new Honylin().setUsesBigModel());
+        pokemon.add(new Madhulin().setUsesBigModel());
+        pokemon.add(new Sabandolin().setUsesBigModel());
+        pokemon.add(new Saany().setUsesBigModel());
+        pokemon.add(new Saanarak().setUsesBigModel());
+        pokemon.add(new Kobarak().setUsesBigModel());
+        pokemon.add(new Wavalo().setUsesBigModel());
+        pokemon.add(new Chigalo().setUsesBigModel());
+        pokemon.add(new Buffaware().setUsesBigModel());
+
         pokemon.add(new Kyudoeye().setUsesBigModel());
         pokemon.add(new Typhogun().setUsesBigModel());
         pokemon.add(new Bushidurai().setUsesBigModel());
@@ -87,10 +97,10 @@ public class Mahal extends drai.dev.data.games.registry.Game {
         pokemon.add(new Camocout().setUsesBigModel());
         pokemon.add(new Reacon().setUsesBigModel());
         pokemon.add(new Generaron().setUsesBigModel());
-        pokemon.add(new Burflorodon().setUsesBigModel());
-        pokemon.add(new Iroflorodos().setUsesBigModel());
-        pokemon.add(new Burgustodon().setUsesBigModel());
-        pokemon.add(new Irogustodos().setUsesBigModel());
+        pokemon.add(new Burflorodon().setUsesBigModel()); //fossils
+        pokemon.add(new Iroflorodos().setUsesBigModel()); //fossils
+        pokemon.add(new Burgustodon().setUsesBigModel()); //fossils
+        pokemon.add(new Irogustodos().setUsesBigModel()); //fossils
         pokemon.add(new Farbaay().setUsesBigModel());
         pokemon.add(new Capronze().setUsesBigModel());
         pokemon.add(new Armanta().setUsesBigModel());
@@ -107,15 +117,6 @@ public class Mahal extends drai.dev.data.games.registry.Game {
         pokemon.add(new Makarial().setUsesBigModel());
         pokemon.add(new Makarotus().setUsesBigModel());
         pokemon.add(new Dragonice().setUsesBigModel());
-        pokemon.add(new Honylin().setUsesBigModel());
-        pokemon.add(new Madhulin().setUsesBigModel());
-        pokemon.add(new Sabandolin().setUsesBigModel());
-        pokemon.add(new Saany().setUsesBigModel());
-        pokemon.add(new Saanarak().setUsesBigModel());
-        pokemon.add(new Kobarak().setUsesBigModel());
-        pokemon.add(new Wavalo().setUsesBigModel());
-        pokemon.add(new Chigalo().setUsesBigModel());
-        pokemon.add(new Buffaware().setUsesBigModel());
         pokemon.add(new Regiwater().setUsesBigModel());
         pokemon.add(new Regigrass().setUsesBigModel());
         pokemon.add(new Ivorata().setUsesBigModel());

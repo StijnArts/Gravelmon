@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation8_varitasianalcremie",
-      "texture": "cobblemon:textures/pokemon/generation8/varitasianalcremie_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation8/varitasianalcremie.png",
       "layers": [
         {
           "name": "glow"

@@ -4,15 +4,16 @@
   "variations": [
     {
       "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:infinity_draconeon",
-      "model": "cobblemon:infinity_draconeon.geo",
-      "texture": "cobblemon:textures/pokemon/infinity/draconeon/draconeon.png",
+      "texture": "cobblemon:textures/pokemon/infinity/draconeon.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/infinity/draconeon/draconeon_shiny.png"
-    }  ]
+      "texture": "cobblemon:textures/pokemon/infinity/draconeon.png"
+    }
+  ]
 }

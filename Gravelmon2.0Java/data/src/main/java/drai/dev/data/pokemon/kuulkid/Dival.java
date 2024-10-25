@@ -65,7 +65,7 @@ public class Dival extends drai.dev.data.pokemon.Pokemon {
                         108,
                         82,
                         89),
-                List.of(Ability.CUTECHARM), Ability.CUTECHARM,
+                List.of(Ability.CUTE_CHARM), Ability.CUTE_CHARM,
                 0, 0,
                 new Stats(0,0,0,2,0,0), 0,
                 0.5,

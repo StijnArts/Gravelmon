@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_deltasunflora",
-      "texture": "cobblemon:textures/pokemon/generation2/deltasunflora_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation2/deltasunflora.png",
       "layers": [
         {
           "name": "glow"

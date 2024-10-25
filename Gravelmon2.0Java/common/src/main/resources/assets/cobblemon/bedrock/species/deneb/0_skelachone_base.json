@@ -4,15 +4,16 @@
   "variations": [
     {
       "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:deneb_skelachone",
-      "model": "cobblemon:deneb_skelachone.geo",
-      "texture": "cobblemon:textures/pokemon/deneb/skelachone/skelachone.png",
+      "texture": "cobblemon:textures/pokemon/deneb/skelachone.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/deneb/skelachone/skelachone_shiny.png"
-    }  ]
+      "texture": "cobblemon:textures/pokemon/deneb/skelachone.png"
+    }
+  ]
 }

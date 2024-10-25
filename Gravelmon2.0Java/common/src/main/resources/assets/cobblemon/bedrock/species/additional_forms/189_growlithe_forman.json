@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_formangrowlithe",
-      "texture": "cobblemon:textures/pokemon/generation1/formangrowlithe_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation1/formangrowlithe.png",
       "layers": [
         {
           "name": "glow"

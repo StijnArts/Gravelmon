@@ -76,7 +76,7 @@ public class Ginkorale extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.DISARMING_VOICE,1),
-                        new MoveLearnSetEntry(Move.INGRAINN,1),
+                        new MoveLearnSetEntry(Move.INGRAIN,1),
                         new MoveLearnSetEntry(Move.SILVER_WIND,1),
                         new MoveLearnSetEntry(Move.TRI_ATTACK,1),
                         new MoveLearnSetEntry(Move.TEETER_DANCE,1),
@@ -86,11 +86,11 @@ public class Ginkorale extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MAGICAL_LEAF,1),
                         new MoveLearnSetEntry(Move.SYNTHESIS,1),
                         new MoveLearnSetEntry(Move.LEAF_TORNADO,1),
-                        new MoveLearnSetEntry(Move.LOVELARIATN,1),
+                        new MoveLearnSetEntry(Move.LOVELARIAT,1),
                         new MoveLearnSetEntry(Move.AROMATHERAPY,1),
                         new MoveLearnSetEntry(Move.WOOD_HAMMER,1),
                         new MoveLearnSetEntry(Move.HEAL_BELL,1),
-                        new MoveLearnSetEntry(Move.CHEERFULSHOUTN,1)                        ),
+                        new MoveLearnSetEntry(Move.CHEERFULSHOUT,1)                        ),
                 List.of(Label.CROZOIC),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

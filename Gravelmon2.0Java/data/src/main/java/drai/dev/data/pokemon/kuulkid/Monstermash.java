@@ -65,7 +65,7 @@ public class Monstermash extends drai.dev.data.pokemon.Pokemon {
                         67,
                         75,
                         73),
-                List.of(Ability.CUTECHARM), Ability.INTIMIDATE,
+                List.of(Ability.CUTE_CHARM), Ability.INTIMIDATE,
                 0, 0,
                 new Stats(1,1,0,0,0,0), 0,
                 0.5,

@@ -3,6 +3,7 @@ package drai.dev.data.games.pokemmo;
 
 import drai.dev.data.pokemon.amavi.*;
 import drai.dev.data.pokemon.dhiome.*;
+import drai.dev.data.pokemon.kuulkid.*;
 import drai.dev.data.pokemon.mushi.*;
 import drai.dev.data.pokemon.theos.*;
 import drai.dev.data.pokemon.kuria.*;

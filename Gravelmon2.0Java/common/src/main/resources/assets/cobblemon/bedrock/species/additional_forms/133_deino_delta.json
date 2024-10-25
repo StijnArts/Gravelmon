@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_deltadeino",
-      "texture": "cobblemon:textures/pokemon/generation5/deltadeino_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation5/deltadeino.png",
       "layers": [
         {
           "name": "glow"
@@ -77,7 +77,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_deltadeino",
-      "texture": "cobblemon:textures/pokemon/generation5/deltadeino_female_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation5/deltadeino_female.png",
       "layers": []
     }
   ]

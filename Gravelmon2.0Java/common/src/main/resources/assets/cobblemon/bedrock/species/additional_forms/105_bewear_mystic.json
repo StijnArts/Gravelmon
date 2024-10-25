@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation7_mysticbewear",
-      "texture": "cobblemon:textures/pokemon/generation7/mysticbewear_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation7/mysticbewear.png",
       "layers": [
         {
           "name": "glow"

@@ -65,7 +65,7 @@ public class Leapfrogs extends drai.dev.data.pokemon.Pokemon {
                         56,
                         54,
                         59),
-                List.of(Ability.SYNCHRONIZE), Ability.FRIENDGUARD,
+                List.of(Ability.SYNCHRONIZE), Ability.FRIEND_GUARD,
                 0, 0,
                 new Stats(1,1,0,0,0,0), 0,
                 0.5,

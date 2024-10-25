@@ -4,15 +4,16 @@
   "variations": [
     {
       "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:blazingemerald_chrysalix",
-      "model": "cobblemon:blazingemerald_chrysalix.geo",
-      "texture": "cobblemon:textures/pokemon/blazingemerald/chrysalix/chrysalix.png",
+      "texture": "cobblemon:textures/pokemon/blazingemerald/chrysalix.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/blazingemerald/chrysalix/chrysalix_shiny.png"
-    }  ]
+      "texture": "cobblemon:textures/pokemon/blazingemerald/chrysalix.png"
+    }
+  ]
 }

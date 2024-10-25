@@ -4,15 +4,16 @@
   "variations": [
     {
       "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:deneb_valentide",
-      "model": "cobblemon:deneb_valentide.geo",
-      "texture": "cobblemon:textures/pokemon/deneb/valentide/valentide.png",
+      "texture": "cobblemon:textures/pokemon/deneb/valentide.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/deneb/valentide/valentide_shiny.png"
-    }  ]
+      "texture": "cobblemon:textures/pokemon/deneb/valentide.png"
+    }
+  ]
 }

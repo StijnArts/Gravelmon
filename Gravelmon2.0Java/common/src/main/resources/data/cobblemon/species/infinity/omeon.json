@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "omeon",
-  "nationalPokedexNumber": 1414,
+  "nationalPokedexNumber": 1413,
   "primaryType": "ghost",
   "abilities": [
     "superluck",
@@ -49,11 +49,6 @@
   "drops": {
     "amount": "1",
     "entries": [
-      {
-        "item": "gravelmon:amaze_drive",
-        "quantityRange": "1-1",
-        "percentage": 40
-      },
       {
         "item": "cobblemon:dusk_stone",
         "quantityRange": "1-1",

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_eghogarbodor",
-      "texture": "cobblemon:textures/pokemon/generation5/eghogarbodor_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation5/eghogarbodor.png",
       "layers": [
         {
           "name": "glow"

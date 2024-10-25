@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_epochswoobat",
-      "texture": "cobblemon:textures/pokemon/generation5/epochswoobat_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation5/epochswoobat.png",
       "layers": [
         {
           "name": "glow"

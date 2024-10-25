@@ -76,7 +76,7 @@ public class Clonector extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
-                        new MoveLearnSetEntry(Move.BUGBITEN,1)                        ),
+                        new MoveLearnSetEntry(Move.BUG_BITE,1)                        ),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

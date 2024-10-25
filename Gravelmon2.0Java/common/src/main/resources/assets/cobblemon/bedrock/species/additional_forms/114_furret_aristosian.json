@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_aristosianfurret",
-      "texture": "cobblemon:textures/pokemon/generation2/aristosianfurret_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation2/aristosianfurret.png",
       "layers": [
         {
           "name": "glow"

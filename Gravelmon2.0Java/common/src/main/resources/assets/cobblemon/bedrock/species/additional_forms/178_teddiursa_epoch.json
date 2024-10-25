@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_epochteddiursa",
-      "texture": "cobblemon:textures/pokemon/generation2/epochteddiursa_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation2/epochteddiursa.png",
       "layers": [
         {
           "name": "glow"

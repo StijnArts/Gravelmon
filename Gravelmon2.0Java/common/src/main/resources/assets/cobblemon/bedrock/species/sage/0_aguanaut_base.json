@@ -4,15 +4,16 @@
   "variations": [
     {
       "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:sage_aguanaut",
-      "model": "cobblemon:sage_aguanaut.geo",
-      "texture": "cobblemon:textures/pokemon/sage/aguanaut/aguanaut.png",
+      "texture": "cobblemon:textures/pokemon/sage/aguanaut.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/sage/aguanaut/aguanaut_shiny.png"
-    }  ]
+      "texture": "cobblemon:textures/pokemon/sage/aguanaut.png"
+    }
+  ]
 }

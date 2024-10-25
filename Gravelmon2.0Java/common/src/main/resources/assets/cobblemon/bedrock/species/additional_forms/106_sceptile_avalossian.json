@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_avalossiansceptile",
-      "texture": "cobblemon:textures/pokemon/generation3/avalossiansceptile_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation3/avalossiansceptile.png",
       "layers": [
         {
           "name": "glow"

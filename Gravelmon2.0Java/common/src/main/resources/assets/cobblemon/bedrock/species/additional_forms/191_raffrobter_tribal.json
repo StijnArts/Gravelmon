@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:raian_tribalraffrobter",
-      "texture": "cobblemon:textures/pokemon/raian/tribalraffrobter_shiny.png",
+      "texture": "cobblemon:textures/pokemon/raian/tribalraffrobter.png",
       "layers": [
         {
           "name": "glow"

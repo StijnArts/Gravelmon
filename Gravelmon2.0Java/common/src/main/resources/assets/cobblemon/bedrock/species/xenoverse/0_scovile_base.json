@@ -4,16 +4,16 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:xenoverse_scovile.geo",
+      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:xenoverse_scovile",
-      "texture": "cobblemon:textures/pokemon/xenoverse/scovile/scovile.png",
+      "texture": "cobblemon:textures/pokemon/xenoverse/scovile.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/xenoverse/scovile/scovile_shiny.png"
+      "texture": "cobblemon:textures/pokemon/xenoverse/scovile.png"
     }
   ]
 }

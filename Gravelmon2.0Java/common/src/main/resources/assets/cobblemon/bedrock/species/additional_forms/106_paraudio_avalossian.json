@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:uranium_avalossianparaudio",
-      "texture": "cobblemon:textures/pokemon/uranium/avalossianparaudio_shiny.png",
+      "texture": "cobblemon:textures/pokemon/uranium/avalossianparaudio.png",
       "layers": [
         {
           "name": "glow"

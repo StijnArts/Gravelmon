@@ -7,8 +7,8 @@
         "fabelian"
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation4_fabeliansnorunt",
-      "texture": "cobblemon:textures/pokemon/generation4/fabeliansnorunt.png",
+      "poser": "cobblemon:generation3_fabeliansnorunt",
+      "texture": "cobblemon:textures/pokemon/generation3/fabeliansnorunt.png",
       "layers": [
         {
           "name": "glow"
@@ -36,8 +36,8 @@
         "shiny"
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation4_fabeliansnorunt",
-      "texture": "cobblemon:textures/pokemon/generation4/fabeliansnorunt_shiny.png",
+      "poser": "cobblemon:generation3_fabeliansnorunt",
+      "texture": "cobblemon:textures/pokemon/generation3/fabeliansnorunt.png",
       "layers": [
         {
           "name": "glow"

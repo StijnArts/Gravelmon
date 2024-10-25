@@ -2,9 +2,9 @@
    "target": "cobblemon:golbat",
   "evolutions": [
     {
-      "id": "golbat_omeon",
+      "id": "golbat_probat",
       "variant": "item_interact",
-      "result": "omeon",
+      "result": "probat",
       "consumeHeldItem": false,
       "learnableMoves": [    "psychic"],
       "requirements": [

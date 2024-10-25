@@ -92,9 +92,9 @@ public class Aldao extends drai.dev.data.games.registry.Game {
         pokemon.add(new Skylion().setUsesBigModel());
         pokemon.add(new Hochiki().setUsesBigModel());
         pokemon.add(new Gorriotto().setUsesBigModel());
-        pokemon.add(new Chawrecks().setUsesBigModel());
+        pokemon.add(new Chawrecks().setUsesBigModel()); //fossils
         pokemon.add(new Radiwrecks().setUsesBigModel());
-        pokemon.add(new Pternair().setUsesBigModel());
+        pokemon.add(new Pternair().setUsesBigModel()); //fossils
         pokemon.add(new Pteragon().setUsesBigModel());
         pokemon.add(new Titanoth().setUsesBigModel());
         pokemon.add(new Digasdon().setUsesBigModel());
@@ -132,9 +132,9 @@ public class Aldao extends drai.dev.data.games.registry.Game {
         pokemon.add(new Manticrown().setUsesBigModel());
         pokemon.add(new Glowbug().setUsesBigModel());
         pokemon.add(new Glitterbulb().setUsesBigModel());
-        pokemon.add(new Branceros().setUsesBigModel());
+        pokemon.add(new Branceros().setUsesBigModel()); //fossil
         pokemon.add(new Trenceros().setUsesBigModel());
-        pokemon.add(new Icephan().setUsesBigModel());
+        pokemon.add(new Icephan().setUsesBigModel()); //fossil
         pokemon.add(new Mastogleys().setUsesBigModel());
         pokemon.add(new Scub().setUsesBigModel());
         pokemon.add(new Pangoleo().setUsesBigModel());

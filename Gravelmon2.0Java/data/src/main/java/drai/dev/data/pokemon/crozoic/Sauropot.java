@@ -65,7 +65,7 @@ public class Sauropot extends drai.dev.data.pokemon.Pokemon {
                         0,
                         0,
                         0),
-                List.of(Ability.CLOUDNINE,Ability.SAND_VEIL), Ability.STEADFAST,
+                List.of(Ability.CLOUD_NINE,Ability.SAND_VEIL), Ability.STEADFAST,
                 23, 2950,
                 new Stats(0,0,0,0,0,0), 120,
                 0.5,
@@ -75,7 +75,7 @@ public class Sauropot extends drai.dev.data.pokemon.Pokemon {
                 List.of("Rock Rumble  Rock"),
                 List.of(),
                 List.of(
-                        new MoveLearnSetEntry(Move.ROCKRUMBLEN,"tm")                        ),
+                        new MoveLearnSetEntry(Move.ROCK_RUMBLE,"tm")                        ),
                 List.of(Label.CROZOIC),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

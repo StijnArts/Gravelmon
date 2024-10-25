@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_vesitanfloette",
-      "texture": "cobblemon:textures/pokemon/generation6/vesitanfloette_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation6/vesitanfloette.png",
       "layers": [
         {
           "name": "glow"

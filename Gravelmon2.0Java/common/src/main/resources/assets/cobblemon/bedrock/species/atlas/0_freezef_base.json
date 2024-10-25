@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/atlas/freezef_shiny.png"
+      "texture": "cobblemon:textures/pokemon/atlas/freezef.png"
     }
   ]
 }

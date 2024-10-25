@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_zappycastform",
-      "texture": "cobblemon:textures/pokemon/generation3/zappycastform_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation3/zappycastform.png",
       "layers": [
         {
           "name": "glow"

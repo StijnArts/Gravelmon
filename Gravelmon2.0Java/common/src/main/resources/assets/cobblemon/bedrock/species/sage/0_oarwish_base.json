@@ -4,15 +4,16 @@
   "variations": [
     {
       "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:sage_oarwish",
-      "model": "cobblemon:sage_oarwish.geo",
-      "texture": "cobblemon:textures/pokemon/sage/oarwish/oarwish.png",
+      "texture": "cobblemon:textures/pokemon/sage/oarwish.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/sage/oarwish/oarwish_shiny.png"
-    }  ]
+      "texture": "cobblemon:textures/pokemon/sage/oarwish.png"
+    }
+  ]
 }

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_relicspinda",
-      "texture": "cobblemon:textures/pokemon/generation3/relicspinda_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation3/relicspinda.png",
       "layers": [
         {
           "name": "glow"

@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/umbra/psypole_shiny.png"
+      "texture": "cobblemon:textures/pokemon/umbra/psypole.png"
     },
     {
       "aspects": [
@@ -26,7 +26,7 @@
         "female",
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/umbra/psypole_female_shiny.png"
+      "texture": "cobblemon:textures/pokemon/umbra/psypole_female.png"
     }
   ]
 }

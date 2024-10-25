@@ -77,14 +77,15 @@ public class Ferran extends drai.dev.data.games.registry.Game {
         pokemon.add(new Viras().setUsesBigModel());
         pokemon.add(new Viradle().setUsesBigModel());
         pokemon.add(new Tracoon().setUsesBigModel());
+        pokemon.add(new Garbagoon().setUsesBigModel());
         pokemon.add(new Pechick().setUsesBigModel());
         pokemon.add(new Pegrow().setUsesBigModel());
         pokemon.add(new Jungrowl().setUsesBigModel());
-        pokemon.add(new Gorilagma().setUsesBigModel());
+        pokemon.add(new Gorilagma().setUsesBigModel()); //fossil
         pokemon.add(new Calameteo().setUsesBigModel());
-        pokemon.add(new Forestryx().setUsesBigModel());
+        pokemon.add(new Forestryx().setUsesBigModel()); //fossil
         pokemon.add(new Bulldozon().setUsesBigModel());
-        pokemon.add(new Poanter().setUsesBigModel());
+        pokemon.add(new Poanter().setUsesBigModel()); //fossil
         pokemon.add(new Smiloachur().setUsesBigModel());
         pokemon.add(new Babybara().setUsesBigModel());
         pokemon.add(new Capypapa().setUsesBigModel());

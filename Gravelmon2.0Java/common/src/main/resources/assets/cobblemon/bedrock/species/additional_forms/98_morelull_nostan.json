@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation7_nostanmorelull",
-      "texture": "cobblemon:textures/pokemon/generation7/nostanmorelull_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation7/nostanmorelull.png",
       "layers": [
         {
           "name": "glow"

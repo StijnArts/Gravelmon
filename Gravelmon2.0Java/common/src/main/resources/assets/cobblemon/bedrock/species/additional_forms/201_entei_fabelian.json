@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_fabelianentei",
-      "texture": "cobblemon:textures/pokemon/generation2/fabelianentei_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation2/fabelianentei.png",
       "layers": [
         {
           "name": "glow"

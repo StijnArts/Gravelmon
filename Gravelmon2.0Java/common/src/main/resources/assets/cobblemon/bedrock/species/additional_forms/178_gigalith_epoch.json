@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_epochgigalith",
-      "texture": "cobblemon:textures/pokemon/generation5/epochgigalith_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation5/epochgigalith.png",
       "layers": [
         {
           "name": "glow"

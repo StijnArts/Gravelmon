@@ -4,15 +4,16 @@
   "variations": [
     {
       "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:deneb_tentyrant",
-      "model": "cobblemon:deneb_tentyrant.geo",
-      "texture": "cobblemon:textures/pokemon/deneb/tentyrant/tentyrant.png",
+      "texture": "cobblemon:textures/pokemon/deneb/tentyrant.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/deneb/tentyrant/tentyrant_shiny.png"
-    }  ]
+      "texture": "cobblemon:textures/pokemon/deneb/tentyrant.png"
+    }
+  ]
 }

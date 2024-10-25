@@ -81,10 +81,10 @@ public class Taltael extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RUSHDOWN,1),
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.GROWL,1),
-                        new MoveLearnSetEntry(Move.LASTRESORTN,1),
+                        new MoveLearnSetEntry(Move.LAST_RESORT,1),
                         new MoveLearnSetEntry(Move.DETECT,1),
                         new MoveLearnSetEntry(Move.FEATHER_DANCE,1),
-                        new MoveLearnSetEntry(Move.TAILSLAPN,1)                        ),
+                        new MoveLearnSetEntry(Move.TAIL_SLAP,1)                        ),
                 List.of(Label.CROZOIC),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

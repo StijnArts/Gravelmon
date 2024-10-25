@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation8_epochhattrem",
-      "texture": "cobblemon:textures/pokemon/generation8/epochhattrem_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation8/epochhattrem.png",
       "layers": [
         {
           "name": "glow"

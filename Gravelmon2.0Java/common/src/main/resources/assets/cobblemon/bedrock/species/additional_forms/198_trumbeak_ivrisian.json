@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation7_ivrisiantrumbeak",
-      "texture": "cobblemon:textures/pokemon/generation7/ivrisiantrumbeak_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation7/ivrisiantrumbeak.png",
       "layers": [
         {
           "name": "glow"

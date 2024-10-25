@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_epochgastrodontwo",
-      "texture": "cobblemon:textures/pokemon/generation4/epochgastrodontwo_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation4/epochgastrodontwo.png",
       "layers": [
         {
           "name": "glow"

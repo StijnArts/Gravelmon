@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_deltadrifloon",
-      "texture": "cobblemon:textures/pokemon/generation4/deltadrifloon_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation4/deltadrifloon.png",
       "layers": [
         {
           "name": "glow"

@@ -4,29 +4,29 @@
   "variations": [
     {
       "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:sage_foliat",
-      "model": "cobblemon:sage_foliat.geo",
-      "texture": "cobblemon:textures/pokemon/sage/foliat/foliat.png",
+      "texture": "cobblemon:textures/pokemon/sage/foliat.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/sage/foliat/foliat_shiny.png"
+      "texture": "cobblemon:textures/pokemon/sage/foliat.png"
     },
     {
       "aspects": [
         "female"
       ],
-      "texture": "cobblemon:textures/pokemon/sage/foliat/foliat_female.png"
+      "texture": "cobblemon:textures/pokemon/sage/foliat_female.png"
     },
     {
       "aspects": [
-        "shiny",
-		"female"
+        "female",
+        "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/sage/foliat/foliat_shiny_female.png"
+      "texture": "cobblemon:textures/pokemon/sage/foliat_female.png"
     }
   ]
 }

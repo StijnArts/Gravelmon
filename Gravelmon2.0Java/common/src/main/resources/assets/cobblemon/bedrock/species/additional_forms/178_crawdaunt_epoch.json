@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_epochcrawdaunt",
-      "texture": "cobblemon:textures/pokemon/generation3/epochcrawdaunt_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation3/epochcrawdaunt.png",
       "layers": [
         {
           "name": "glow"

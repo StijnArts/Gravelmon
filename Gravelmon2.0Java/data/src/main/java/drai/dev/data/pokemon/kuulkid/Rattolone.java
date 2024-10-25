@@ -65,7 +65,7 @@ public class Rattolone extends drai.dev.data.pokemon.Pokemon {
                         32,
                         45,
                         43),
-                List.of(Ability.FRUGAL(N)), Ability.FRUGAL(N),
+                List.of(Ability.FRUGAL), Ability.FRUGAL,
                 0, 0,
                 new Stats(0,0,0,0,1,0), 0,
                 0.5,

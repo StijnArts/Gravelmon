@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_deltamawile",
-      "texture": "cobblemon:textures/pokemon/generation3/deltamawile_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation3/deltamawile.png",
       "layers": [
         {
           "name": "glow"

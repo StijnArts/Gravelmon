@@ -4,15 +4,16 @@
   "variations": [
     {
       "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:infinity_porygonx",
-      "model": "cobblemon:infinity_porygonx.geo",
-      "texture": "cobblemon:textures/pokemon/infinity/porygonx/porygonx.png",
+      "texture": "cobblemon:textures/pokemon/infinity/porygonx.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/infinity/porygonx/porygonx_shiny.png"
-    }  ]
+      "texture": "cobblemon:textures/pokemon/infinity/porygonx.png"
+    }
+  ]
 }

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_epochchespin",
-      "texture": "cobblemon:textures/pokemon/generation6/epochchespin_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation6/epochchespin.png",
       "layers": [
         {
           "name": "glow"

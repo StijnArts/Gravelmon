@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_novranstoutland",
-      "texture": "cobblemon:textures/pokemon/generation5/novranstoutland_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation5/novranstoutland.png",
       "layers": [
         {
           "name": "glow"

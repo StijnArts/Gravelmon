@@ -65,7 +65,7 @@ public class Clobstrich extends drai.dev.data.pokemon.Pokemon {
                         20,
                         20,
                         95),
-                List.of(Ability.ROCKHEAD), Ability.MOLDBREAKER,
+                List.of(Ability.ROCK_HEAD), Ability.MOLD_BREAKER,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,

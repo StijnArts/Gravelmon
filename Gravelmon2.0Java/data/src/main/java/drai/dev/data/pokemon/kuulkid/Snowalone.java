@@ -65,7 +65,7 @@ public class Snowalone extends drai.dev.data.pokemon.Pokemon {
                         85,
                         97,
                         50),
-                List.of(Ability.MATINGCALL(N)), Ability.MATINGCALL(N),
+                List.of(Ability.MATINGCALL), Ability.MATINGCALL,
                 0, 0,
                 new Stats(0,0,0,1,1,0), 0,
                 0.5,

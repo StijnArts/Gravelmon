@@ -75,7 +75,7 @@ public class Dauspector extends drai.dev.data.pokemon.Pokemon {
                 List.of("It dunks its head in water and uses its teeth to comb out nuggets of valuable metals. Gold is its preferred meal and forms the brilliant golden color of its wing membranes."),
                 List.of(),
                 List.of(
-                        new MoveLearnSetEntry(Move.ROCKBLASTN,1),
+                        new MoveLearnSetEntry(Move.ROCK_BLAST,1),
                         new MoveLearnSetEntry(Move.STEEL_WING,1),
                         new MoveLearnSetEntry(Move.THIEF,1),
                         new MoveLearnSetEntry(Move.GOLD_BREAKER,1),

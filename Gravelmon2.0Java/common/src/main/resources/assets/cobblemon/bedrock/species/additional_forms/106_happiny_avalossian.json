@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_avalossianhappiny",
-      "texture": "cobblemon:textures/pokemon/generation4/avalossianhappiny_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation4/avalossianhappiny.png",
       "layers": [
         {
           "name": "glow"

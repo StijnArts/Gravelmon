@@ -65,7 +65,7 @@ public class Jungljunior extends drai.dev.data.pokemon.Pokemon {
                         40,
                         42,
                         45),
-                List.of(Ability.PICKUP), Ability.MOLDBREAKER,
+                List.of(Ability.PICKUP), Ability.MOLD_BREAKER,
                 0, 0,
                 new Stats(0,1,0,0,0,0), 0,
                 0.5,

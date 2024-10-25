@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_norsegible",
-      "texture": "cobblemon:textures/pokemon/generation4/norsegible_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation4/norsegible.png",
       "layers": [
         {
           "name": "glow"

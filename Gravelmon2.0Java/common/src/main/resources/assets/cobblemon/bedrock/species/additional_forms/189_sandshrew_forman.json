@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_formansandshrew",
-      "texture": "cobblemon:textures/pokemon/generation1/formansandshrew_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation1/formansandshrew.png",
       "layers": [
         {
           "name": "glow"

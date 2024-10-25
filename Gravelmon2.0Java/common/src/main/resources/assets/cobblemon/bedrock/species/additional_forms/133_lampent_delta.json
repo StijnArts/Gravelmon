@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_deltalampent",
-      "texture": "cobblemon:textures/pokemon/generation5/deltalampent_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation5/deltalampent.png",
       "layers": [
         {
           "name": "glow"

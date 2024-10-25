@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_hiziananorith",
-      "texture": "cobblemon:textures/pokemon/generation3/hiziananorith_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation3/hiziananorith.png",
       "layers": [
         {
           "name": "glow"

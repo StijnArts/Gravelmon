@@ -65,7 +65,7 @@ public class Gustwee extends drai.dev.data.pokemon.Pokemon {
                         0,
                         0,
                         0),
-                List.of(Ability.WINDRIDER,Ability.GALE_WINGS), Ability.AERILATE,
+                List.of(Ability.WIND_RIDER,Ability.GALE_WINGS), Ability.AERILATE,
                 5, 51,
                 new Stats(0,0,0,0,0,0), 190,
                 0.5,

@@ -75,7 +75,7 @@ public class Trilobrite extends drai.dev.data.pokemon.Pokemon {
                 List.of("Using the gem on its forehead to light the way, dark caves are no problem for Trilobrite. They slowly work to clear blocked cave entrances by eating away at fallen boulders."),
                 List.of(),
                 List.of(
-                        new MoveLearnSetEntry(Move.LURINGANTENNAN,1),
+                        new MoveLearnSetEntry(Move.LURINGANTENNA,1),
                         new MoveLearnSetEntry(Move.DIG,1),
                         new MoveLearnSetEntry(Move.AURORA_BEAM,1),
                         new MoveLearnSetEntry(Move.ROCK_CLIMB,1),
@@ -84,7 +84,7 @@ public class Trilobrite extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POWER_GEM,1),
                         new MoveLearnSetEntry(Move.IRON_HEAD,1),
                         new MoveLearnSetEntry(Move.ROCK_TOMB,1),
-                        new MoveLearnSetEntry(Move.ROLLOUTN,1),
+                        new MoveLearnSetEntry(Move.ROLLOUT,1),
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,1),
                         new MoveLearnSetEntry(Move.LIGHTUP,1),
                         new MoveLearnSetEntry(Move.FLASH,1),

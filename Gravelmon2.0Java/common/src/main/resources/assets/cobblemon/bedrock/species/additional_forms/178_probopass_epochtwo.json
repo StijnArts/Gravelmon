@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_epochprobopassone",
-      "texture": "cobblemon:textures/pokemon/generation4/epochprobopassone_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation4/epochprobopassone.png",
       "layers": [
         {
           "name": "glow"

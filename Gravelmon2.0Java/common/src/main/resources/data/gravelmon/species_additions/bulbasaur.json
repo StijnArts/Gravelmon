@@ -1,6 +1,5 @@
 {
    "target": "cobblemon:bulbasaur",
-  "preEvolution": "petishell",
    "forms": [{
   "name": "Forman",
   "primaryType": "ground",

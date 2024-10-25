@@ -65,7 +65,7 @@ public class Probat extends Pokemon {
                 0.28, 0.3,
                 List.of());
         setCanFly(true);
-        addAdditionalEvolution("golbat", new EvolutionEntry("omeon", EvolutionType.ITEM_INTERACT, false, List.of(new MoveLearnSetEntry(Move.PSYCHIC, "")),
+        addAdditionalEvolution("golbat", new EvolutionEntry("probat", EvolutionType.ITEM_INTERACT, false, List.of(new MoveLearnSetEntry(Move.PSYCHIC, "")),
                 List.of(),List.of(),"gravelmon:amaze_drive"));
     }
 }

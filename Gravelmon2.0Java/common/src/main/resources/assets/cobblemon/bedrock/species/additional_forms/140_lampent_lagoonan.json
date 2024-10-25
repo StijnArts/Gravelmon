@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_lagoonanlampent",
-      "texture": "cobblemon:textures/pokemon/generation5/lagoonanlampent_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation5/lagoonanlampent.png",
       "layers": [
         {
           "name": "glow"

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_formangeodude",
-      "texture": "cobblemon:textures/pokemon/generation1/formangeodude_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation1/formangeodude.png",
       "layers": [
         {
           "name": "glow"

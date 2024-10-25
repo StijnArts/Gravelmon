@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_avalossiangallade",
-      "texture": "cobblemon:textures/pokemon/generation4/avalossiangallade_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation4/avalossiangallade.png",
       "layers": [
         {
           "name": "glow"

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_epocharchen",
-      "texture": "cobblemon:textures/pokemon/generation5/epocharchen_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation5/epocharchen.png",
       "layers": [
         {
           "name": "glow"

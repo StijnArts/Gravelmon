@@ -1,6 +1,7 @@
 package drai.dev.data.games.original;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.arom.regional.*;
 import drai.dev.data.pokemon.elb.regional.*;
 import drai.dev.data.pokemon.fabel.regional.*;
 import drai.dev.data.pokemon.ferran.regional.*;
@@ -51,49 +52,50 @@ public class GenerationThree extends Game {
 
     @Override
     public void registerPokemon() {
-//        pokemon.add(new AromianChimecho("", Aspect.AROMIAN).setUsesBigModel()); //TODO
+        pokemon.add(new AromianChimecho("", Aspect.AROMIAN).setUsesBigModel()); //TODO
 
-//        pokemon.add(new FabelianRalts("", Aspect.FABELIAN).setUsesBigModel()); //TODO
-//        pokemon.add(new FabelianKirlia("", Aspect.FABELIAN).setUsesBigModel());
-//        pokemon.add(new FabelianSableye("", Aspect.FABELIAN).setUsesBigModel());
-//        pokemon.add(new FabelianSwablu("", Aspect.FABELIAN).setUsesBigModel());
-//        pokemon.add(new FabelianBeldum("", Aspect.FABELIAN).setUsesBigModel());
-//        pokemon.add(new FabelianMetang("", Aspect.FABELIAN).setUsesBigModel());
-//        pokemon.add(new FabelianMetagross("", Aspect.FABELIAN).setUsesBigModel());
-//
-//        pokemon.add(new MahalianTorkoal("", Aspect.MAHALIAN).setUsesBigModel()); //TODO
-//        pokemon.add(new MahalianPoochyena("", Aspect.MAHALIAN).setUsesBigModel());
-//        pokemon.add(new MahalianMightyena("", Aspect.MAHALIAN).setUsesBigModel());
-//
-//        pokemon.add(new ElbianSlakoth("", Aspect.ELBIAN).setUsesBigModel()); //TODO
-//        pokemon.add(new ElbianVigoroth("", Aspect.ELBIAN).setUsesBigModel());
-//        pokemon.add(new ElbianGulpin("", Aspect.ELBIAN).setUsesBigModel());
-//        pokemon.add(new ElbianSwalot("", Aspect.ELBIAN).setUsesBigModel());
-//
-//        pokemon.add(new FerranianBarboach("", Aspect.FERRANIAN).setUsesBigModel()); //TODO
-//        pokemon.add(new FerranianWhiscash("", Aspect.FERRANIAN).setUsesBigModel());
-//        pokemon.add(new FerranianSlakoth("", Aspect.FERRANIAN).setUsesBigModel());
-//        pokemon.add(new FerranianVigoroth("", Aspect.FERRANIAN).setUsesBigModel());
-//        pokemon.add(new FerranianWailord("", Aspect.FERRANIAN).setUsesBigModel());
-//        pokemon.add(new FerranianBagon("", Aspect.FERRANIAN).setUsesBigModel());
-//        pokemon.add(new FerranianShelgon("", Aspect.FERRANIAN).setUsesBigModel());
-//        pokemon.add(new FerranianSalamence("", Aspect.FERRANIAN).setUsesBigModel());
-//
-//        pokemon.add(new RaianianWhismur("", Aspect.RAIANIAN).setUsesBigModel()); //TODO
-//        pokemon.add(new RaianianLoudred("", Aspect.RAIANIAN).setUsesBigModel());
-//        pokemon.add(new RaianianExploud("", Aspect.RAIANIAN, new Stats(490, PHYSICAL_ATTACKER, List.of(HP))).setUsesBigModel());
-//        pokemon.add(new RaianianAbsol("", Aspect.RAIANIAN, new Stats(465, PHYSICAL_ATTACKER, List.of(ATTACK, ATTACK, ATTACK))).setUsesBigModel());
-//        pokemon.add(new RaianianSalamence("", Aspect.RAIANIAN, new Stats(600, SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))).setUsesBigModel());
-//
-//        //TODO
-//        pokemon.add(new TrizoranAbsol("", Aspect.TRIZORAN, new Stats(465, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))).setUsesBigModel());
-//
-//        //TODO
-//        pokemon.add(new NorseAbsol("", Aspect.NORSE, new Stats(465, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPEED))).setUsesBigModel());
-//
-//        pokemon.add(new FormanTreecko("", Aspect.FORMAN).setUsesBigModel());
-//        pokemon.add(new FormanTorchic("", Aspect.FORMAN).setUsesBigModel());
-//        pokemon.add(new FormanMudkip("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FabelianRalts("", Aspect.FABELIAN).setUsesBigModel()); //TODO
+        pokemon.add(new FabelianKirlia("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianSableye("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianSwablu("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianSnorunt("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianBeldum("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianMetang("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianMetagross("", Aspect.FABELIAN).setUsesBigModel());
+
+        pokemon.add(new MahalianTorkoal("", Aspect.MAHALIAN).setUsesBigModel()); //TODO
+        pokemon.add(new MahalianPoochyena("", Aspect.MAHALIAN).setUsesBigModel());
+        pokemon.add(new MahalianMightyena("", Aspect.MAHALIAN).setUsesBigModel());
+
+        pokemon.add(new ElbianSlakoth("", Aspect.ELBIAN).setUsesBigModel()); //TODO
+        pokemon.add(new ElbianVigoroth("", Aspect.ELBIAN).setUsesBigModel());
+        pokemon.add(new ElbianGulpin("", Aspect.ELBIAN).setUsesBigModel());
+        pokemon.add(new ElbianSwalot("", Aspect.ELBIAN).setUsesBigModel());
+
+        pokemon.add(new FerranianBarboach("", Aspect.FERRANIAN).setUsesBigModel()); //TODO
+        pokemon.add(new FerranianWhiscash("", Aspect.FERRANIAN).setUsesBigModel());
+        pokemon.add(new FerranianSlakoth("", Aspect.FERRANIAN).setUsesBigModel());
+        pokemon.add(new FerranianVigoroth("", Aspect.FERRANIAN).setUsesBigModel());
+        pokemon.add(new FerranianWailord("", Aspect.FERRANIAN).setUsesBigModel());
+        pokemon.add(new FerranianBagon("", Aspect.FERRANIAN).setUsesBigModel());
+        pokemon.add(new FerranianShelgon("", Aspect.FERRANIAN).setUsesBigModel());
+        pokemon.add(new FerranianSalamence("", Aspect.FERRANIAN).setUsesBigModel());
+
+        pokemon.add(new RaianianWhismur("", Aspect.RAIANIAN).setUsesBigModel()); //TODO
+        pokemon.add(new RaianianLoudred("", Aspect.RAIANIAN).setUsesBigModel());
+        pokemon.add(new RaianianExploud("", Aspect.RAIANIAN, new Stats(490, PHYSICAL_ATTACKER, List.of(HP))).setUsesBigModel());
+        pokemon.add(new RaianianAbsol("", Aspect.RAIANIAN, new Stats(465, PHYSICAL_ATTACKER, List.of(ATTACK, ATTACK, ATTACK))).setUsesBigModel());
+        pokemon.add(new RaianianSalamence("", Aspect.RAIANIAN, new Stats(600, SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))).setUsesBigModel());
+
+        //TODO
+        pokemon.add(new TrizoranAbsol("", Aspect.TRIZORAN, new Stats(465, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))).setUsesBigModel());
+
+        //TODO
+        pokemon.add(new NorseAbsol("", Aspect.NORSE, new Stats(465, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPEED))).setUsesBigModel());
+
+        pokemon.add(new FormanTreecko("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanTorchic("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanMudkip("", Aspect.FORMAN).setUsesBigModel());
 
 //        pokemon.add(new MystisianAbsol("", Aspect.MYSTISIAN)); TODO
 

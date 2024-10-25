@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_cefiranglalie",
-      "texture": "cobblemon:textures/pokemon/generation3/cefiranglalie_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation3/cefiranglalie.png",
       "layers": [
         {
           "name": "glow"

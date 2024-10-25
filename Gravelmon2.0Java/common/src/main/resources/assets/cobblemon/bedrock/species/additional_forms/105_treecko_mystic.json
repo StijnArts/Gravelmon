@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_mystictreecko",
-      "texture": "cobblemon:textures/pokemon/generation3/mystictreecko_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation3/mystictreecko.png",
       "layers": [
         {
           "name": "glow"

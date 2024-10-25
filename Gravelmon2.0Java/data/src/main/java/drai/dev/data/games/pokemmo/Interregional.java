@@ -3,6 +3,8 @@ package drai.dev.data.games.pokemmo;
 import drai.dev.data.pokemon.interregional.*;
 import drai.dev.data.pokemon.amavi.*;
 import drai.dev.data.pokemon.dhiome.*;
+import drai.dev.data.pokemon.interregional.Bactiny;
+import drai.dev.data.pokemon.interregional.Liquphage;
 import drai.dev.data.pokemon.mushi.*;
 import drai.dev.data.pokemon.theos.*;
 import drai.dev.data.pokemon.kuria.*;

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_junkrotom",
-      "texture": "cobblemon:textures/pokemon/generation4/junkrotom_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation4/junkrotom.png",
       "layers": [
         {
           "name": "glow"

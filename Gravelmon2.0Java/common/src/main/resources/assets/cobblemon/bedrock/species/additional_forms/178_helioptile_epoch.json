@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_epochhelioptile",
-      "texture": "cobblemon:textures/pokemon/generation6/epochhelioptile_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation6/epochhelioptile.png",
       "layers": [
         {
           "name": "glow"

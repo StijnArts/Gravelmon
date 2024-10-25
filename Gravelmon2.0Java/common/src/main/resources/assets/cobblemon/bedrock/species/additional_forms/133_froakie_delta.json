@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_deltafroakie",
-      "texture": "cobblemon:textures/pokemon/generation6/deltafroakie_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation6/deltafroakie.png",
       "layers": [
         {
           "name": "glow"

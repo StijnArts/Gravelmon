@@ -65,7 +65,7 @@ public class Skuhboom extends drai.dev.data.pokemon.Pokemon {
                         96,
                         68,
                         75),
-                List.of(Ability.STENCH,Ability.AFTERMATH), Ability.TOXICDEBRIS,
+                List.of(Ability.STENCH,Ability.AFTERMATH), Ability.TOXIC_DEBRIS,
                 0, 0,
                 new Stats(0,0,0,1,0,0), 0,
                 0.5,

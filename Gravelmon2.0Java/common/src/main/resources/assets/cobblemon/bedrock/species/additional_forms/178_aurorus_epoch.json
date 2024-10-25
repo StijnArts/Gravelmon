@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_epochaurorus",
-      "texture": "cobblemon:textures/pokemon/generation6/epochaurorus_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation6/epochaurorus.png",
       "layers": [
         {
           "name": "glow"

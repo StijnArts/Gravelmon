@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_epochbraviary",
-      "texture": "cobblemon:textures/pokemon/generation5/epochbraviary_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation5/epochbraviary.png",
       "layers": [
         {
           "name": "glow"

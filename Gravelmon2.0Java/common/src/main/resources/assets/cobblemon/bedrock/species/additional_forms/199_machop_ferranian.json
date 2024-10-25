@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_ferranianmachop",
-      "texture": "cobblemon:textures/pokemon/generation1/ferranianmachop_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation1/ferranianmachop.png",
       "layers": [
         {
           "name": "glow"

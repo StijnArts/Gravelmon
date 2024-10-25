@@ -65,7 +65,7 @@ public class Metanuki extends drai.dev.data.pokemon.Pokemon {
                         60,
                         90,
                         50),
-                List.of(Ability.LEVITATE), Ability.HEAVYMETAL,
+                List.of(Ability.LEVITATE), Ability.HEAVY_METAL,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_deltadunsparce",
-      "texture": "cobblemon:textures/pokemon/generation2/deltadunsparce_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation2/deltadunsparce.png",
       "layers": [
         {
           "name": "glow"

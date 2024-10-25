@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_norheimanunown",
-      "texture": "cobblemon:textures/pokemon/generation2/norheimanunown_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation2/norheimanunown.png",
       "layers": [
         {
           "name": "glow"

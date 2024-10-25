@@ -65,7 +65,7 @@ public class Bowlder extends drai.dev.data.pokemon.Pokemon {
                         42,
                         53,
                         55),
-                List.of(Ability.ROCKHEAD), Ability.SOLID_ROCK,
+                List.of(Ability.ROCK_HEAD), Ability.SOLID_ROCK,
                 0, 0,
                 new Stats(0,0,2,0,0,0), 0,
                 0.5,

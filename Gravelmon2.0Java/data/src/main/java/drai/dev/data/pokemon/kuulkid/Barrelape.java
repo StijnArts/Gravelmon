@@ -65,7 +65,7 @@ public class Barrelape extends drai.dev.data.pokemon.Pokemon {
                         60,
                         65,
                         74),
-                List.of(Ability.GORILLATACTICS), Ability.MOLDBREAKER,
+                List.of(Ability.GORILLA_TACTICS), Ability.MOLD_BREAKER,
                 0, 0,
                 new Stats(0,2,0,0,0,0), 0,
                 0.5,

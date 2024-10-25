@@ -65,7 +65,7 @@ public class Pebbowl extends drai.dev.data.pokemon.Pokemon {
                         22,
                         40,
                         45),
-                List.of(Ability.ROCKHEAD), Ability.SOLID_ROCK,
+                List.of(Ability.ROCK_HEAD), Ability.SOLID_ROCK,
                 0, 0,
                 new Stats(0,0,1,0,0,0), 0,
                 0.5,

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation7_fabelianmudbray",
-      "texture": "cobblemon:textures/pokemon/generation7/fabelianmudbray_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation7/fabelianmudbray.png",
       "layers": [
         {
           "name": "glow"

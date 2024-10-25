@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_formantyrogue",
-      "texture": "cobblemon:textures/pokemon/generation2/formantyrogue_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation2/formantyrogue.png",
       "layers": [
         {
           "name": "glow"

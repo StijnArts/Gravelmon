@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "petishell",
-  "nationalPokedexNumber": 1502,
+  "nationalPokedexNumber": 1501,
   "primaryType": "water",
   "abilities": [
     "keeneye"  ],
@@ -44,6 +44,16 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:air_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
   "moves": [
     "1:pound",
     "4:tailwhip",
@@ -121,9 +131,9 @@
       "permanent": true   
  },
     {
-      "id": "petishell_bulbasaur",
+      "id": "petishell_puffoon",
       "variant": "item_interact",
-      "result": "bulbasaur",
+      "result": "Puffoon",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

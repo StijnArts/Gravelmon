@@ -1,6 +1,388 @@
 {
    "target": "cobblemon:garchomp",
    "forms": [{
+  "name": "Aromian",
+  "primaryType": "dragon",
+  "secondaryType": "water",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 155,
+    "defence": 80,
+    "special_attack": 35,
+    "special_defence": 80,
+    "speed": 175
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:scratch",
+    "1:watergun",
+    "1:quickattack",
+    "1:flipturn"  ],
+  "labels": [
+    "aroma",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.aromiangarchomp.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 0,
+  "weight": 0,
+  "aspects": ["aromian"],
+  "cannotDynamax": false
+},
+{
+  "name": "Palmian",
+  "primaryType": "rock",
+  "secondaryType": "dragon",
+  "abilities": [
+    "sandstream",
+    "reckless"  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 175,
+    "defence": 115,
+    "special_attack": 45,
+    "special_defence": 90,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:rockthrow",
+    "1:scratch"  ],
+  "labels": [
+    "raian",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.palmiangarchomp.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 0,
+  "weight": 0,
+  "aspects": ["palmian"],
+  "cannotDynamax": false
+},
+{
+  "name": "Raianian",
+  "primaryType": "dragon",
+  "secondaryType": "grass",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 83,
+    "attack": 155,
+    "defence": 123,
+    "special_attack": 68,
+    "special_defence": 103,
+    "speed": 68
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:scratch",
+    "1:leafage"  ],
+  "labels": [
+    "raian",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.raianiangarchomp.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 0,
+  "weight": 0,
+  "aspects": ["raianian"],
+  "cannotDynamax": false
+},
+{
+  "name": "Trizoran",
+  "primaryType": "dragon",
+  "secondaryType": "electric",
+  "abilities": [
+    "motordrive"  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 40,
+    "defence": 85,
+    "special_attack": 155,
+    "special_defence": 85,
+    "speed": 155
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:scratch",
+    "1:thundershock",
+    "1:vacuumwave",
+    "1:vacuumwave"  ],
+  "labels": [
+    "raian",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.trizorangarchomp.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 0,
+  "weight": 0,
+  "aspects": ["trizoran"],
+  "cannotDynamax": false
+},
+{
+  "name": "Norse",
+  "primaryType": "dragon",
+  "secondaryType": "ice",
+  "abilities": [
+    "slushrush"  ],
+  "baseStats": {
+    "hp": 123,
+    "attack": 103,
+    "defence": 195,
+    "special_attack": 38,
+    "special_defence": 93,
+    "speed": 48
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:scratch",
+    "1:powdersnow",
+    "1:bulkup",
+    "1:bulkup"  ],
+  "labels": [
+    "raian",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.norsegarchomp.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 0,
+  "weight": 0,
+  "aspects": ["norse"],
+  "cannotDynamax": false
+},
+{
   "name": "Epoch",
   "primaryType": "ghost",
   "secondaryType": "dragon",
@@ -455,6 +837,11 @@
   "cannotDynamax": false
 }
 ], "features": [
+"aromian",
+"palmian",
+"raianian",
+"trizoran",
+"norse",
 "epoch",
 "epochtwo",
 "armiran"

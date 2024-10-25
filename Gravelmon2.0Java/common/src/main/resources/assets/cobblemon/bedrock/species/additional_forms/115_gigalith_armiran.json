@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_armirangigalith",
-      "texture": "cobblemon:textures/pokemon/generation5/armirangigalith_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation5/armirangigalith.png",
       "layers": [
         {
           "name": "glow"

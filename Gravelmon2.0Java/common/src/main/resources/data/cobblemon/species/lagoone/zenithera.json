@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "zenithera",
-  "nationalPokedexNumber": 1568,
+  "nationalPokedexNumber": 1567,
   "primaryType": "dark",
   "secondaryType": "electric",
   "abilities": [
@@ -69,7 +69,7 @@
   "pokedex": [
     "cobblemon.species.zenithera.desc"
   ],
-  "preEvolution": "felightnin",
+  "preEvolution": "felightning",
   "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,

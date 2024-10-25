@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_trizorangible",
-      "texture": "cobblemon:textures/pokemon/generation4/trizorangible_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation4/trizorangible.png",
       "layers": [
         {
           "name": "glow"

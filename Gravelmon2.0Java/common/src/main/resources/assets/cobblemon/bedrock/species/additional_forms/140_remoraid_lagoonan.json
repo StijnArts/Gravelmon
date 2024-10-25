@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_lagoonanremoraid",
-      "texture": "cobblemon:textures/pokemon/generation2/lagoonanremoraid_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation2/lagoonanremoraid.png",
       "layers": [
         {
           "name": "glow"

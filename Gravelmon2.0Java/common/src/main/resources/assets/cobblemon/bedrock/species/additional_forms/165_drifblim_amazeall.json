@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_amazealldrifblim",
-      "texture": "cobblemon:textures/pokemon/generation4/amazealldrifblim_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation4/amazealldrifblim.png",
       "layers": [
         {
           "name": "glow"

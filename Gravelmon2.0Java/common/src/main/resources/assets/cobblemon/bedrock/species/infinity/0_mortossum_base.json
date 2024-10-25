@@ -1,19 +1,19 @@
 {
   "species": "cobblemon:mortossum",
-  "order": 1,
+  "order": 0,
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:infinity_mortossum.geo",
+      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:infinity_mortossum",
-      "texture": "cobblemon:textures/pokemon/infinity/mortossum/mortossum.png",
+      "texture": "cobblemon:textures/pokemon/infinity/mortossum.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/infinity/mortossum/mortossum_shiny.png"
+      "texture": "cobblemon:textures/pokemon/infinity/mortossum.png"
     }
   ]
 }

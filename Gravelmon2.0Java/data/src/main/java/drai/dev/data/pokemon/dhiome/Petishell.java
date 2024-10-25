@@ -25,7 +25,7 @@ public class Petishell extends drai.dev.data.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("primorse", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"cobblemon:prism_scale"),
-                        new EvolutionEntry("bulbasaur", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        new EvolutionEntry("Puffoon", EvolutionType.ITEM_INTERACT, false, List.of(),
                                 List.of(),List.of(),"gravelmon:air_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),

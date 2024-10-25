@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "underrap",
-  "nationalPokedexNumber": 4929,
+  "nationalPokedexNumber": 4924,
   "primaryType": "ground",
   "secondaryType": "dark",
   "abilities": [
@@ -141,7 +141,7 @@
   "pokedex": [
     "cobblemon.species.underrap.desc"
   ],
-  "preEvolution": "gauza",
+  "preEvolution": "gauzerpent",
   "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,

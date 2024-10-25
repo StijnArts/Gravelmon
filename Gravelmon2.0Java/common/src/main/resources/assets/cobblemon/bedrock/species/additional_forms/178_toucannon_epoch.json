@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation7_epochtoucannon",
-      "texture": "cobblemon:textures/pokemon/generation7/epochtoucannon_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation7/epochtoucannon.png",
       "layers": [
         {
           "name": "glow"

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_mysticmarshtomp",
-      "texture": "cobblemon:textures/pokemon/generation3/mysticmarshtomp_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation3/mysticmarshtomp.png",
       "layers": [
         {
           "name": "glow"

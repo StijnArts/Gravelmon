@@ -4,15 +4,16 @@
   "variations": [
     {
       "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:deneb_dvaarak",
-      "model": "cobblemon:deneb_dvaarak.geo",
-      "texture": "cobblemon:textures/pokemon/deneb/dvaarak/dvaarak.png",
+      "texture": "cobblemon:textures/pokemon/deneb/dvaarak.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/deneb/dvaarak/dvaarak_shiny.png"
-    }  ]
+      "texture": "cobblemon:textures/pokemon/deneb/dvaarak.png"
+    }
+  ]
 }

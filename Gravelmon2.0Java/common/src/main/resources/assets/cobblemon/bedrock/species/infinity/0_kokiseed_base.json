@@ -4,15 +4,16 @@
   "variations": [
     {
       "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:infinity_kokiseed",
-      "model": "cobblemon:infinity_kokiseed.geo",
-      "texture": "cobblemon:textures/pokemon/infinity/kokiseed/kokiseed.png",
+      "texture": "cobblemon:textures/pokemon/infinity/kokiseed.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/infinity/kokiseed/kokiseed_shiny.png"
-    }  ]
+      "texture": "cobblemon:textures/pokemon/infinity/kokiseed.png"
+    }
+  ]
 }

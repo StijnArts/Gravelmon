@@ -65,7 +65,7 @@ public class Statchamp extends drai.dev.data.pokemon.Pokemon {
                         65,
                         60,
                         72),
-                List.of(Ability.SOLID_ROCK,Ability.BATTLE_ARMOR), Ability.MOLDBREAKER,
+                List.of(Ability.SOLID_ROCK,Ability.BATTLE_ARMOR), Ability.MOLD_BREAKER,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,

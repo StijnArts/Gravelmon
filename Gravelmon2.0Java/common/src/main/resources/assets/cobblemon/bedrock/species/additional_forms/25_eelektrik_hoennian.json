@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_hoennianeelektrik",
-      "texture": "cobblemon:textures/pokemon/generation5/hoennianeelektrik_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation5/hoennianeelektrik.png",
       "layers": [
         {
           "name": "glow"

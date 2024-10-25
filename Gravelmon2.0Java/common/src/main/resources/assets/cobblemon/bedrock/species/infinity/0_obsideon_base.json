@@ -4,15 +4,16 @@
   "variations": [
     {
       "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:infinity_obsideon",
-      "model": "cobblemon:infinity_obsideon.geo",
-      "texture": "cobblemon:textures/pokemon/infinity/obsideon/obsideon.png",
+      "texture": "cobblemon:textures/pokemon/infinity/obsideon.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/infinity/obsideon/obsideon_shiny.png"
-    }  ]
+      "texture": "cobblemon:textures/pokemon/infinity/obsideon.png"
+    }
+  ]
 }

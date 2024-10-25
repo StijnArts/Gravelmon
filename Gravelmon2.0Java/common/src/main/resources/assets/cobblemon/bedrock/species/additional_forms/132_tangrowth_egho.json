@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_eghotangrowth",
-      "texture": "cobblemon:textures/pokemon/generation4/eghotangrowth_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation4/eghotangrowth.png",
       "layers": [
         {
           "name": "glow"

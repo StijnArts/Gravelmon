@@ -65,7 +65,7 @@ public class Spudspark extends drai.dev.data.pokemon.Pokemon {
                         59,
                         45,
                         52),
-                List.of(Ability.STATIC), Ability.LIGHTNINGROD,
+                List.of(Ability.STATIC), Ability.LIGHTNING_ROD,
                 0, 0,
                 new Stats(0,0,0,1,0,0), 0,
                 0.5,

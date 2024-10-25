@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/lockemon/catteraxe_shiny.png"
+      "texture": "cobblemon:textures/pokemon/lockemon/catteraxe.png"
     },
     {
       "aspects": [
@@ -26,7 +26,7 @@
         "female",
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/lockemon/catteraxe_female_shiny.png"
+      "texture": "cobblemon:textures/pokemon/lockemon/catteraxe_female.png"
     }
   ]
 }

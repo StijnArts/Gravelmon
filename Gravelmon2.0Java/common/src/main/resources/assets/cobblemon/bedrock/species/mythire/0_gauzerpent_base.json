@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:gauzerpent",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_gauzerpent",
+      "texture": "cobblemon:textures/pokemon/mythire/gauzerpent.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mythire/gauzerpent.png"
+    }
+  ]
+}
