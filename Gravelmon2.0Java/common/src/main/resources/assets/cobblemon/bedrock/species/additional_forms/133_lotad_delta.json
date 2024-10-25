@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_deltalotad",
-      "texture": "cobblemon:textures/pokemon/generation3/deltalotad.png",
+      "texture": "cobblemon:textures/pokemon/generation3/deltalotad_shiny.png",
       "layers": [
         {
           "name": "glow"

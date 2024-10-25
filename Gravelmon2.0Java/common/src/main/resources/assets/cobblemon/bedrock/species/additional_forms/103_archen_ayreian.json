@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_ayreianarchen",
-      "texture": "cobblemon:textures/pokemon/generation5/ayreianarchen.png",
+      "texture": "cobblemon:textures/pokemon/generation5/ayreianarchen_shiny.png",
       "layers": [
         {
           "name": "glow"

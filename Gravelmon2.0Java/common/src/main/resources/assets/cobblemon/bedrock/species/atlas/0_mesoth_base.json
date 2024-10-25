@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/atlas/mesoth.png"
+      "texture": "cobblemon:textures/pokemon/atlas/mesoth_shiny.png"
     }
   ]
 }

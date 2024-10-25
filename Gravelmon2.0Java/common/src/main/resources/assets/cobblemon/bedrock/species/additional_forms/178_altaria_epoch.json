@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_epochaltaria",
-      "texture": "cobblemon:textures/pokemon/generation3/epochaltaria.png",
+      "texture": "cobblemon:textures/pokemon/generation3/epochaltaria_shiny.png",
       "layers": [
         {
           "name": "glow"

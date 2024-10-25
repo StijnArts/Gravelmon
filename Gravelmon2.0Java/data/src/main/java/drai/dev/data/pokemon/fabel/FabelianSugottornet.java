@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class FabelianSugottornet extends drai.dev.data.pokemon.Pokemon {
-    public FabelianSugottornet(String s, Aspect fabelian) {
-        super(s, fabelian,"Fabeliansugottornet",
+    public FabelianSugottornet(String name, Aspect aspect) {
+        super(name, aspect, "Fabeliansugottornet",
                 Type.BUG,Type.NORMAL,
                 new Stats(95,
                         70,
@@ -34,7 +34,7 @@ public class FabelianSugottornet extends drai.dev.data.pokemon.Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Fabeliansugottornet");
+           setLangFileName("Sugottornet");
 
     }
 

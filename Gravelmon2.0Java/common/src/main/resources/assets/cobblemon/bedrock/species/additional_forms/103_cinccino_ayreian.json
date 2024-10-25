@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_ayreiancinccino",
-      "texture": "cobblemon:textures/pokemon/generation5/ayreiancinccino.png",
+      "texture": "cobblemon:textures/pokemon/generation5/ayreiancinccino_shiny.png",
       "layers": [
         {
           "name": "glow"

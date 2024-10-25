@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/atlas/carnaceous.png"
+      "texture": "cobblemon:textures/pokemon/atlas/carnaceous_shiny.png"
     }
   ]
 }

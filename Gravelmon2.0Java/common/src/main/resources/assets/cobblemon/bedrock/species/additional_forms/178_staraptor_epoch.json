@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_epochstaraptor",
-      "texture": "cobblemon:textures/pokemon/generation4/epochstaraptor.png",
+      "texture": "cobblemon:textures/pokemon/generation4/epochstaraptor_shiny.png",
       "layers": [
         {
           "name": "glow"

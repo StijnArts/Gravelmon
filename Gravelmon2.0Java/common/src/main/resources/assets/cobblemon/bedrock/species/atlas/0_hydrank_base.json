@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/atlas/hydrank.png"
+      "texture": "cobblemon:textures/pokemon/atlas/hydrank_shiny.png"
     }
   ]
 }

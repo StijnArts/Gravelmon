@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_deltaserperior",
-      "texture": "cobblemon:textures/pokemon/generation5/deltaserperior.png",
+      "texture": "cobblemon:textures/pokemon/generation5/deltaserperior_shiny.png",
       "layers": [
         {
           "name": "glow"

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_hoenniansolosis",
-      "texture": "cobblemon:textures/pokemon/generation5/hoenniansolosis.png",
+      "texture": "cobblemon:textures/pokemon/generation5/hoenniansolosis_shiny.png",
       "layers": [
         {
           "name": "glow"

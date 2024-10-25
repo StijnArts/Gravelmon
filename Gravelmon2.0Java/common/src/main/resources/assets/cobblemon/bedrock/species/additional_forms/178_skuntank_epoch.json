@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_epochskuntank",
-      "texture": "cobblemon:textures/pokemon/generation4/epochskuntank.png",
+      "texture": "cobblemon:textures/pokemon/generation4/epochskuntank_shiny.png",
       "layers": [
         {
           "name": "glow"

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_eghobayleef",
-      "texture": "cobblemon:textures/pokemon/generation2/eghobayleef.png",
+      "texture": "cobblemon:textures/pokemon/generation2/eghobayleef_shiny.png",
       "layers": [
         {
           "name": "glow"

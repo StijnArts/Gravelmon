@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_raianianlucario",
-      "texture": "cobblemon:textures/pokemon/generation4/raianianlucario.png",
+      "texture": "cobblemon:textures/pokemon/generation4/raianianlucario_shiny.png",
       "layers": [
         {
           "name": "glow"

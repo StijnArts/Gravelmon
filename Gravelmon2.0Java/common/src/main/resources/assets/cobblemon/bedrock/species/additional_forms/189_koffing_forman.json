@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_formankoffing",
-      "texture": "cobblemon:textures/pokemon/generation1/formankoffing.png",
+      "texture": "cobblemon:textures/pokemon/generation1/formankoffing_shiny.png",
       "layers": [
         {
           "name": "glow"

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:atlas_okeniandustar",
-      "texture": "cobblemon:textures/pokemon/atlas/okeniandustar.png",
+      "texture": "cobblemon:textures/pokemon/atlas/okeniandustar_shiny.png",
       "layers": [
         {
           "name": "glow"

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation8_epochcentiskorch",
-      "texture": "cobblemon:textures/pokemon/generation8/epochcentiskorch.png",
+      "texture": "cobblemon:textures/pokemon/generation8/epochcentiskorch_shiny.png",
       "layers": [
         {
           "name": "glow"

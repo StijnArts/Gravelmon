@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_cefiranlilligant",
-      "texture": "cobblemon:textures/pokemon/generation5/cefiranlilligant.png",
+      "texture": "cobblemon:textures/pokemon/generation5/cefiranlilligant_shiny.png",
       "layers": [
         {
           "name": "glow"

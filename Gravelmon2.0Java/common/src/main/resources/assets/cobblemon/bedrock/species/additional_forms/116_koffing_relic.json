@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_relickoffing",
-      "texture": "cobblemon:textures/pokemon/generation1/relickoffing.png",
+      "texture": "cobblemon:textures/pokemon/generation1/relickoffing_shiny.png",
       "layers": [
         {
           "name": "glow"

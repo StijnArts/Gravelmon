@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_formanpinsir",
-      "texture": "cobblemon:textures/pokemon/generation1/formanpinsir.png",
+      "texture": "cobblemon:textures/pokemon/generation1/formanpinsir_shiny.png",
       "layers": [
         {
           "name": "glow"

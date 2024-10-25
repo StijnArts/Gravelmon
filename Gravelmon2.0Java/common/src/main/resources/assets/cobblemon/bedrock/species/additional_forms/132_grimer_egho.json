@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_eghogrimer",
-      "texture": "cobblemon:textures/pokemon/generation1/eghogrimer.png",
+      "texture": "cobblemon:textures/pokemon/generation1/eghogrimer_shiny.png",
       "layers": [
         {
           "name": "glow"

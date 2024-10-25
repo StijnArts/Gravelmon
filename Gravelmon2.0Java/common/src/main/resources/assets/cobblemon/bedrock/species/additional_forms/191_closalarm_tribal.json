@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:raian_tribalclosalarm",
-      "texture": "cobblemon:textures/pokemon/raian/tribalclosalarm.png",
+      "texture": "cobblemon:textures/pokemon/raian/tribalclosalarm_shiny.png",
       "layers": [
         {
           "name": "glow"

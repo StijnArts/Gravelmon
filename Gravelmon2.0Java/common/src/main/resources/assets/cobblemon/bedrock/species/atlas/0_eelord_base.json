@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/atlas/eelord.png"
+      "texture": "cobblemon:textures/pokemon/atlas/eelord_shiny.png"
     }
   ]
 }

@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/atlas/elastikrat.png"
+      "texture": "cobblemon:textures/pokemon/atlas/elastikrat_shiny.png"
     }
   ]
 }

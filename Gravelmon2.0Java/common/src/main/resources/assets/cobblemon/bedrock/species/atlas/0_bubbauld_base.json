@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/atlas/bubbauld.png"
+      "texture": "cobblemon:textures/pokemon/atlas/bubbauld_shiny.png"
     }
   ]
 }

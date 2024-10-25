@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/sage/viipii.png"
+      "texture": "cobblemon:textures/pokemon/sage/viipii_shiny.png"
     },
     {
       "aspects": [
@@ -26,7 +26,7 @@
         "female",
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/sage/viipii_female.png"
+      "texture": "cobblemon:textures/pokemon/sage/viipii_female_shiny.png"
     }
   ]
 }

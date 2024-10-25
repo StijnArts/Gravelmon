@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation8_seviiansizzlipede",
-      "texture": "cobblemon:textures/pokemon/generation8/seviiansizzlipede.png",
+      "texture": "cobblemon:textures/pokemon/generation8/seviiansizzlipede_shiny.png",
       "layers": [
         {
           "name": "glow"

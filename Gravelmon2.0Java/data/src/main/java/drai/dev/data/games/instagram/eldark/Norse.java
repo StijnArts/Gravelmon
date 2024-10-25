@@ -83,7 +83,7 @@ public class Norse extends drai.dev.data.games.registry.Game {
         pokemon.add(new Draukid().setUsesBigModel());
         pokemon.add(new Draudager().setUsesBigModel());
         pokemon.add(new Drauking(new Stats(525, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel());//Evolves into Vesghost
-        pokemon.add(new Roboi().setUsesBigModel());
+        pokemon.add(new Troboi().setUsesBigModel());
         pokemon.add(new Yetroll().setUsesBigModel());
         pokemon.add(new Drakotol(new Stats(525, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());//Evolves into Vesfighting
 
@@ -105,7 +105,7 @@ public class Norse extends drai.dev.data.games.registry.Game {
         pokemon.add(new Duneerr(new Stats(590, StatArchetype.SPECIAL_WALL, List.of(StatType.SPECIAL_DEFENCE))).setUsesBigModel());
 
         pokemon.add(new Scalasaur().setUsesBigModel());
-        pokemon.add(new Oxisaur().setUsesBigModel());
+        pokemon.add(new Toxisaur().setUsesBigModel());
         pokemon.add(new Biosaur(new Stats(525, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))).setUsesBigModel());//Evolves into Vesfairy
         pokemon.add(new Clawmander().setUsesBigModel());
         pokemon.add(new Armoreleon().setUsesBigModel());

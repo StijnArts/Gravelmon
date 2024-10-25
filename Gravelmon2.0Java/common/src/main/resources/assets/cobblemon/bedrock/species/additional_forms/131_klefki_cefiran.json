@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_cefiranklefki",
-      "texture": "cobblemon:textures/pokemon/generation6/cefiranklefki.png",
+      "texture": "cobblemon:textures/pokemon/generation6/cefiranklefki_shiny.png",
       "layers": [
         {
           "name": "glow"

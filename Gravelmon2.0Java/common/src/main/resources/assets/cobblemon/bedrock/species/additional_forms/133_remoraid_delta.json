@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_deltaremoraid",
-      "texture": "cobblemon:textures/pokemon/generation2/deltaremoraid.png",
+      "texture": "cobblemon:textures/pokemon/generation2/deltaremoraid_shiny.png",
       "layers": [
         {
           "name": "glow"

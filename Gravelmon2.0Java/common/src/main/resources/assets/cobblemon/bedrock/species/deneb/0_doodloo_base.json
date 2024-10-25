@@ -4,16 +4,15 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:deneb_doodloo",
-      "texture": "cobblemon:textures/pokemon/deneb/doodloo.png",
+      "model": "cobblemon:deneb_doodloo.geo",
+      "texture": "cobblemon:textures/pokemon/deneb/doodloo/doodloo.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/deneb/doodloo.png"
-    }
-  ]
+      "texture": "cobblemon:textures/pokemon/deneb/doodloo/doodloo_shiny.png"
+    }  ]
 }

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_epochnoivern",
-      "texture": "cobblemon:textures/pokemon/generation6/epochnoivern.png",
+      "texture": "cobblemon:textures/pokemon/generation6/epochnoivern_shiny.png",
       "layers": [
         {
           "name": "glow"

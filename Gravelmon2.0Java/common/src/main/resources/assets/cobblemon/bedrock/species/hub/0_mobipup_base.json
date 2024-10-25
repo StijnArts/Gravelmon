@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/hub/mobipup.png"
+      "texture": "cobblemon:textures/pokemon/hub/mobipup_shiny.png"
     }
   ]
 }

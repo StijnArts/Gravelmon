@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "jestruff",
-  "nationalPokedexNumber": 4785,
+  "nationalPokedexNumber": 4784,
   "primaryType": "dragon",
   "secondaryType": "dark",
   "abilities": [
@@ -37,7 +37,7 @@
     }
   },
   "catchRate": 255,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

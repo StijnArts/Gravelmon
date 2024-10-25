@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_relicroselia",
-      "texture": "cobblemon:textures/pokemon/generation3/relicroselia.png",
+      "texture": "cobblemon:textures/pokemon/generation3/relicroselia_shiny.png",
       "layers": [
         {
           "name": "glow"

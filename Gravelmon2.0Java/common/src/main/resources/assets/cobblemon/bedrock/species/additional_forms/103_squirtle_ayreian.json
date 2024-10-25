@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_ayreiansquirtle",
-      "texture": "cobblemon:textures/pokemon/generation1/ayreiansquirtle.png",
+      "texture": "cobblemon:textures/pokemon/generation1/ayreiansquirtle_shiny.png",
       "layers": [
         {
           "name": "glow"

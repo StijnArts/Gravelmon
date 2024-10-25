@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_mahalianlandorus",
-      "texture": "cobblemon:textures/pokemon/generation5/mahalianlandorus.png",
+      "texture": "cobblemon:textures/pokemon/generation5/mahalianlandorus_shiny.png",
       "layers": [
         {
           "name": "glow"

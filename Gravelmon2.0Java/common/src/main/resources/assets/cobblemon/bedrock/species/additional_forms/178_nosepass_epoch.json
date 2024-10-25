@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_epochnosepass",
-      "texture": "cobblemon:textures/pokemon/generation3/epochnosepass.png",
+      "texture": "cobblemon:textures/pokemon/generation3/epochnosepass_shiny.png",
       "layers": [
         {
           "name": "glow"

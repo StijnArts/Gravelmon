@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/form/macargold.png"
+      "texture": "cobblemon:textures/pokemon/form/macargold_shiny.png"
     }
   ]
 }

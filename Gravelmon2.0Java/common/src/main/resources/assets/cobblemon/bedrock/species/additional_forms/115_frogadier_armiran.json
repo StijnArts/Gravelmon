@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_armiranfrogadier",
-      "texture": "cobblemon:textures/pokemon/generation6/armiranfrogadier.png",
+      "texture": "cobblemon:textures/pokemon/generation6/armiranfrogadier_shiny.png",
       "layers": [
         {
           "name": "glow"

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_fabelianboldore",
-      "texture": "cobblemon:textures/pokemon/generation5/fabelianboldore.png",
+      "texture": "cobblemon:textures/pokemon/generation5/fabelianboldore_shiny.png",
       "layers": [
         {
           "name": "glow"

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_africanusancherrim",
-      "texture": "cobblemon:textures/pokemon/generation4/africanusancherrim.png",
+      "texture": "cobblemon:textures/pokemon/generation4/africanusancherrim_shiny.png",
       "layers": [
         {
           "name": "glow"

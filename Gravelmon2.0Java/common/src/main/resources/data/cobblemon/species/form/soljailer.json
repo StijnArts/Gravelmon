@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "soljailer",
-  "nationalPokedexNumber": 4839,
+  "nationalPokedexNumber": 4838,
   "primaryType": "rock",
   "secondaryType": "ghost",
   "abilities": [
@@ -37,7 +37,7 @@
     }
   },
   "catchRate": 52,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

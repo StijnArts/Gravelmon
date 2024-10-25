@@ -4,29 +4,29 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:sage_floressum",
-      "texture": "cobblemon:textures/pokemon/sage/floressum.png",
+      "model": "cobblemon:sage_floressum.geo",
+      "texture": "cobblemon:textures/pokemon/sage/floressum/floressum.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/sage/floressum.png"
+      "texture": "cobblemon:textures/pokemon/sage/floressum/floressum_shiny.png"
     },
     {
       "aspects": [
         "female"
       ],
-      "texture": "cobblemon:textures/pokemon/sage/floressum_female.png"
+      "texture": "cobblemon:textures/pokemon/sage/floressum/floressum_female.png"
     },
     {
       "aspects": [
         "female",
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/sage/floressum_female.png"
+      "texture": "cobblemon:textures/pokemon/sage/floressum/floressum_female_shiny.png"
     }
   ]
 }

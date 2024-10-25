@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_novranlapras",
-      "texture": "cobblemon:textures/pokemon/generation1/novranlapras.png",
+      "texture": "cobblemon:textures/pokemon/generation1/novranlapras_shiny.png",
       "layers": [
         {
           "name": "glow"

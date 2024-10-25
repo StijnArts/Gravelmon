@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_aromianaromatisse",
-      "texture": "cobblemon:textures/pokemon/generation6/aromianaromatisse.png",
+      "texture": "cobblemon:textures/pokemon/generation6/aromianaromatisse_shiny.png",
       "layers": [
         {
           "name": "glow"

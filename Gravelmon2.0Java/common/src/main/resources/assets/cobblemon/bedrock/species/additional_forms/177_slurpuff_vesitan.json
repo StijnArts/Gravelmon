@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_vesitanslurpuff",
-      "texture": "cobblemon:textures/pokemon/generation6/vesitanslurpuff.png",
+      "texture": "cobblemon:textures/pokemon/generation6/vesitanslurpuff_shiny.png",
       "layers": [
         {
           "name": "glow"

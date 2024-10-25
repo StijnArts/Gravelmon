@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_epochpinsir",
-      "texture": "cobblemon:textures/pokemon/generation1/epochpinsir.png",
+      "texture": "cobblemon:textures/pokemon/generation1/epochpinsir_shiny.png",
       "layers": [
         {
           "name": "glow"

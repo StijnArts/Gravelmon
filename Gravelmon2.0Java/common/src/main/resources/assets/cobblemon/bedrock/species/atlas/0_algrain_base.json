@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/atlas/algrain.png"
+      "texture": "cobblemon:textures/pokemon/atlas/algrain_shiny.png"
     }
   ]
 }

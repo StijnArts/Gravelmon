@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_hizianvenonat",
-      "texture": "cobblemon:textures/pokemon/generation1/hizianvenonat.png",
+      "texture": "cobblemon:textures/pokemon/generation1/hizianvenonat_shiny.png",
       "layers": [
         {
           "name": "glow"

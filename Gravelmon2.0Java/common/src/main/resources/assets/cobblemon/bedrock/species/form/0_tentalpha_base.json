@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/form/tentalpha.png"
+      "texture": "cobblemon:textures/pokemon/form/tentalpha_shiny.png"
     }
   ]
 }

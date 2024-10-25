@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation9_seviianlokix",
-      "texture": "cobblemon:textures/pokemon/generation9/seviianlokix.png",
+      "texture": "cobblemon:textures/pokemon/generation9/seviianlokix_shiny.png",
       "layers": [
         {
           "name": "glow"

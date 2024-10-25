@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_mythianzorua",
-      "texture": "cobblemon:textures/pokemon/generation5/mythianzorua.png",
+      "texture": "cobblemon:textures/pokemon/generation5/mythianzorua_shiny.png",
       "layers": [
         {
           "name": "glow"

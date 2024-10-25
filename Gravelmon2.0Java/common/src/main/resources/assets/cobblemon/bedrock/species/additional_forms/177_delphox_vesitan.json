@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_vesitandelphox",
-      "texture": "cobblemon:textures/pokemon/generation6/vesitandelphox.png",
+      "texture": "cobblemon:textures/pokemon/generation6/vesitandelphox_shiny.png",
       "layers": [
         {
           "name": "glow"

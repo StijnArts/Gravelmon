@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/atlas/berswade.png"
+      "texture": "cobblemon:textures/pokemon/atlas/berswade_shiny.png"
     }
   ]
 }

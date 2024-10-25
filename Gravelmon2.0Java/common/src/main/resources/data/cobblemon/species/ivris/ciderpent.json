@@ -7,12 +7,12 @@
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 85,
-    "attack": 45,
-    "defence": 73,
-    "special_attack": 125,
-    "special_defence": 81,
-    "speed": 73
+    "hp": 90,
+    "attack": 48,
+    "defence": 78,
+    "special_attack": 133,
+    "special_defence": 86,
+    "speed": 78
   },
   "behaviour": {
     "resting": {
@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 81,
+  "catchRate": 63,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,

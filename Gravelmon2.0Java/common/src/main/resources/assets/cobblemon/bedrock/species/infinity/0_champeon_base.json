@@ -4,16 +4,15 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:infinity_champeon",
-      "texture": "cobblemon:textures/pokemon/infinity/champeon.png",
+      "model": "cobblemon:infinity_champeon.geo",
+      "texture": "cobblemon:textures/pokemon/infinity/champeon/champeon.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/infinity/champeon.png"
-    }
-  ]
+      "texture": "cobblemon:textures/pokemon/infinity/champeon/champeon_shiny.png"
+    }  ]
 }

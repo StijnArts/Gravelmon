@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_epochcarracosta",
-      "texture": "cobblemon:textures/pokemon/generation5/epochcarracosta.png",
+      "texture": "cobblemon:textures/pokemon/generation5/epochcarracosta_shiny.png",
       "layers": [
         {
           "name": "glow"

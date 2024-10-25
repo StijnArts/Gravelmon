@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_norheimanwailmer",
-      "texture": "cobblemon:textures/pokemon/generation3/norheimanwailmer.png",
+      "texture": "cobblemon:textures/pokemon/generation3/norheimanwailmer_shiny.png",
       "layers": [
         {
           "name": "glow"

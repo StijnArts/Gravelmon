@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_epochcaterpie",
-      "texture": "cobblemon:textures/pokemon/generation1/epochcaterpie.png",
+      "texture": "cobblemon:textures/pokemon/generation1/epochcaterpie_shiny.png",
       "layers": [
         {
           "name": "glow"

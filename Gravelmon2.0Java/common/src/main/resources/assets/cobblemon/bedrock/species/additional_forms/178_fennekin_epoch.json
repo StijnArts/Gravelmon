@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_epochfennekin",
-      "texture": "cobblemon:textures/pokemon/generation6/epochfennekin.png",
+      "texture": "cobblemon:textures/pokemon/generation6/epochfennekin_shiny.png",
       "layers": [
         {
           "name": "glow"

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_yamaskx",
-      "texture": "cobblemon:textures/pokemon/generation5/yamaskx.png",
+      "texture": "cobblemon:textures/pokemon/generation5/yamaskx_shiny.png",
       "layers": [
         {
           "name": "glow"

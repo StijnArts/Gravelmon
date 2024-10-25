@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_raianiangabite",
-      "texture": "cobblemon:textures/pokemon/generation4/raianiangabite.png",
+      "texture": "cobblemon:textures/pokemon/generation4/raianiangabite_shiny.png",
       "layers": [
         {
           "name": "glow"

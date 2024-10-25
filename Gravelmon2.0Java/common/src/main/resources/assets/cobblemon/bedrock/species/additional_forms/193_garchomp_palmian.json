@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_palmiangarchomp",
-      "texture": "cobblemon:textures/pokemon/generation4/palmiangarchomp.png",
+      "texture": "cobblemon:textures/pokemon/generation4/palmiangarchomp_shiny.png",
       "layers": [
         {
           "name": "glow"

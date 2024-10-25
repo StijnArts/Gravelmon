@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "stakean",
-  "nationalPokedexNumber": 4811,
+  "nationalPokedexNumber": 4810,
   "primaryType": "grass",
   "secondaryType": "ground",
   "abilities": [
@@ -37,7 +37,7 @@
     }
   },
   "catchRate": 116,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

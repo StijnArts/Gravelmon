@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:raian_caveenvirock",
-      "texture": "cobblemon:textures/pokemon/raian/caveenvirock.png",
+      "texture": "cobblemon:textures/pokemon/raian/caveenvirock_shiny.png",
       "layers": [
         {
           "name": "glow"

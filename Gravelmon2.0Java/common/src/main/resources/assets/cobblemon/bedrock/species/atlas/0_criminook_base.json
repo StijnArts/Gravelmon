@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/atlas/criminook.png"
+      "texture": "cobblemon:textures/pokemon/atlas/criminook_shiny.png"
     }
   ]
 }

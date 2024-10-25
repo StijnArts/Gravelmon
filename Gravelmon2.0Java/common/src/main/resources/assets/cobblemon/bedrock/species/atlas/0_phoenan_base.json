@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/atlas/phoenan.png"
+      "texture": "cobblemon:textures/pokemon/atlas/phoenan_shiny.png"
     }
   ]
 }

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_formanabra",
-      "texture": "cobblemon:textures/pokemon/generation1/formanabra.png",
+      "texture": "cobblemon:textures/pokemon/generation1/formanabra_shiny.png",
       "layers": [
         {
           "name": "glow"

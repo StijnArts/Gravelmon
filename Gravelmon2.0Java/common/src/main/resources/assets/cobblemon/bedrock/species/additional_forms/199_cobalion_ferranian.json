@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_ferraniancobalion",
-      "texture": "cobblemon:textures/pokemon/generation5/ferraniancobalion.png",
+      "texture": "cobblemon:textures/pokemon/generation5/ferraniancobalion_shiny.png",
       "layers": [
         {
           "name": "glow"

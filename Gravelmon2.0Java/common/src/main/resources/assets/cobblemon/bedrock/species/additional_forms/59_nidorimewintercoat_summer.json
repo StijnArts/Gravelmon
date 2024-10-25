@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:flux_nidorimesummercoat",
-      "texture": "cobblemon:textures/pokemon/flux/nidorimesummercoat.png",
+      "texture": "cobblemon:textures/pokemon/flux/nidorimesummercoat_shiny.png",
       "layers": [
         {
           "name": "glow"

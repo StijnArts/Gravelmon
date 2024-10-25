@@ -4,16 +4,15 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:sage_aguade",
-      "texture": "cobblemon:textures/pokemon/sage/aguade.png",
+      "model": "cobblemon:sage_aguade.geo",
+      "texture": "cobblemon:textures/pokemon/sage/aguade/aguade.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/sage/aguade.png"
-    }
-  ]
+      "texture": "cobblemon:textures/pokemon/sage/aguade/aguade_shiny.png"
+    }  ]
 }

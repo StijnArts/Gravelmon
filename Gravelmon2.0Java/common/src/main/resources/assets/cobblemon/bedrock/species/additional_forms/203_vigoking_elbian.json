@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:ferran_elbianvigoking",
-      "texture": "cobblemon:textures/pokemon/ferran/elbianvigoking.png",
+      "texture": "cobblemon:textures/pokemon/ferran/elbianvigoking_shiny.png",
       "layers": [
         {
           "name": "glow"

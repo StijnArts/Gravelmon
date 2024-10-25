@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_vesitanbarbaracle",
-      "texture": "cobblemon:textures/pokemon/generation6/vesitanbarbaracle.png",
+      "texture": "cobblemon:textures/pokemon/generation6/vesitanbarbaracle_shiny.png",
       "layers": [
         {
           "name": "glow"

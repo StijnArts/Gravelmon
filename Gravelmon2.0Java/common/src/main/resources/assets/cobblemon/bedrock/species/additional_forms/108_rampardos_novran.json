@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_novranrampardos",
-      "texture": "cobblemon:textures/pokemon/generation4/novranrampardos.png",
+      "texture": "cobblemon:textures/pokemon/generation4/novranrampardos_shiny.png",
       "layers": [
         {
           "name": "glow"

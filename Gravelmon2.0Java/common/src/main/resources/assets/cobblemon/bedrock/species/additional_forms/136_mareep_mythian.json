@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_mythianmareep",
-      "texture": "cobblemon:textures/pokemon/generation2/mythianmareep.png",
+      "texture": "cobblemon:textures/pokemon/generation2/mythianmareep_shiny.png",
       "layers": [
         {
           "name": "glow"

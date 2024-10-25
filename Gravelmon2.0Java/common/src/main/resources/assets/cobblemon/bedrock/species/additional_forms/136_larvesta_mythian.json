@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_mythianlarvesta",
-      "texture": "cobblemon:textures/pokemon/generation5/mythianlarvesta.png",
+      "texture": "cobblemon:textures/pokemon/generation5/mythianlarvesta_shiny.png",
       "layers": [
         {
           "name": "glow"

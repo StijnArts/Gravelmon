@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bulblotel",
-  "nationalPokedexNumber": 4812,
+  "nationalPokedexNumber": 4811,
   "primaryType": "electric",
   "secondaryType": "dragon",
   "abilities": [
@@ -37,7 +37,7 @@
     }
   },
   "catchRate": 113,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

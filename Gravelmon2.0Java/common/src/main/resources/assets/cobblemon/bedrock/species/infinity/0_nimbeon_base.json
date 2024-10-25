@@ -4,16 +4,15 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:infinity_nimbeon",
-      "texture": "cobblemon:textures/pokemon/infinity/nimbeon.png",
+      "model": "cobblemon:infinity_nimbeon.geo",
+      "texture": "cobblemon:textures/pokemon/infinity/nimbeon/nimbeon.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/infinity/nimbeon.png"
-    }
-  ]
+      "texture": "cobblemon:textures/pokemon/infinity/nimbeon/nimbeon_shiny.png"
+    }  ]
 }

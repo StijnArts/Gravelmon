@@ -4,16 +4,15 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:infinity_sphynxeon",
-      "texture": "cobblemon:textures/pokemon/infinity/sphynxeon.png",
+      "model": "cobblemon:infinity_sphynxeon.geo",
+      "texture": "cobblemon:textures/pokemon/infinity/sphynxeon/sphynxeon.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/infinity/sphynxeon.png"
-    }
-  ]
+      "texture": "cobblemon:textures/pokemon/infinity/sphynxeon/sphynxeon_shiny.png"
+    }  ]
 }

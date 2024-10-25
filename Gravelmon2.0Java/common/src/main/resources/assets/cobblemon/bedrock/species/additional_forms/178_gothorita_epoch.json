@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_epochgothorita",
-      "texture": "cobblemon:textures/pokemon/generation5/epochgothorita.png",
+      "texture": "cobblemon:textures/pokemon/generation5/epochgothorita_shiny.png",
       "layers": [
         {
           "name": "glow"

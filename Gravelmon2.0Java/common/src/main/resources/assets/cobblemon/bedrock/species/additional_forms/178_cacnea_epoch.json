@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_epochcacnea",
-      "texture": "cobblemon:textures/pokemon/generation3/epochcacnea.png",
+      "texture": "cobblemon:textures/pokemon/generation3/epochcacnea_shiny.png",
       "layers": [
         {
           "name": "glow"

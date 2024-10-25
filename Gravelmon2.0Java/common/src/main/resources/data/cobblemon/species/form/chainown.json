@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chainown",
-  "nationalPokedexNumber": 4815,
+  "nationalPokedexNumber": 4814,
   "primaryType": "dragon",
   "secondaryType": "psychic",
   "abilities": [
@@ -37,7 +37,7 @@
     }
   },
   "catchRate": 43,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_mahalianbunnelby",
-      "texture": "cobblemon:textures/pokemon/generation6/mahalianbunnelby.png",
+      "texture": "cobblemon:textures/pokemon/generation6/mahalianbunnelby_shiny.png",
       "layers": [
         {
           "name": "glow"

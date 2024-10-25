@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_lagoonanfinneon",
-      "texture": "cobblemon:textures/pokemon/generation4/lagoonanfinneon.png",
+      "texture": "cobblemon:textures/pokemon/generation4/lagoonanfinneon_shiny.png",
       "layers": [
         {
           "name": "glow"

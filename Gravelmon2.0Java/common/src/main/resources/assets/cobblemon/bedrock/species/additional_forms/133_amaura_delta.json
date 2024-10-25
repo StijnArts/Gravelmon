@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_deltaamaura",
-      "texture": "cobblemon:textures/pokemon/generation6/deltaamaura.png",
+      "texture": "cobblemon:textures/pokemon/generation6/deltaamaura_shiny.png",
       "layers": [
         {
           "name": "glow"

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:xenoverse_scovilex",
-      "texture": "cobblemon:textures/pokemon/xenoverse/scovilex.png",
+      "texture": "cobblemon:textures/pokemon/xenoverse/scovilex_shiny.png",
       "layers": [
         {
           "name": "glow"

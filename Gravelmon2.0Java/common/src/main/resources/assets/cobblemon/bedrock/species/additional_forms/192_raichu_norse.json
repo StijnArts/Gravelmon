@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_norseraichu",
-      "texture": "cobblemon:textures/pokemon/generation1/norseraichu.png",
+      "texture": "cobblemon:textures/pokemon/generation1/norseraichu_shiny.png",
       "layers": [
         {
           "name": "glow"

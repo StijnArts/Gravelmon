@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_relicroserade",
-      "texture": "cobblemon:textures/pokemon/generation4/relicroserade.png",
+      "texture": "cobblemon:textures/pokemon/generation4/relicroserade_shiny.png",
       "layers": [
         {
           "name": "glow"

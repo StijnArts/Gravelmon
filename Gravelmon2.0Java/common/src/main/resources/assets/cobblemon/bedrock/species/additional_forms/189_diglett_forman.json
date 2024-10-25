@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_formandiglett",
-      "texture": "cobblemon:textures/pokemon/generation1/formandiglett.png",
+      "texture": "cobblemon:textures/pokemon/generation1/formandiglett_shiny.png",
       "layers": [
         {
           "name": "glow"

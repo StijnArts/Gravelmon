@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_epochwhismur",
-      "texture": "cobblemon:textures/pokemon/generation3/epochwhismur.png",
+      "texture": "cobblemon:textures/pokemon/generation3/epochwhismur_shiny.png",
       "layers": [
         {
           "name": "glow"

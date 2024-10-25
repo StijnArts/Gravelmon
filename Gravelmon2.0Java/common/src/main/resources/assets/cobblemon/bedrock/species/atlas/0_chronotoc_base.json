@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/atlas/chronotoc.png"
+      "texture": "cobblemon:textures/pokemon/atlas/chronotoc_shiny.png"
     }
   ]
 }

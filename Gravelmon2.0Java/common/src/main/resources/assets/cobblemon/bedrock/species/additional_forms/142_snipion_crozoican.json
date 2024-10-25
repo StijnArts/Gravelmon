@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:ferroa_crozoicansnipion",
-      "texture": "cobblemon:textures/pokemon/ferroa/crozoicansnipion.png",
+      "texture": "cobblemon:textures/pokemon/ferroa/crozoicansnipion_shiny.png",
       "layers": [
         {
           "name": "glow"

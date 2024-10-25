@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/atlas/compella.png"
+      "texture": "cobblemon:textures/pokemon/atlas/compella_shiny.png"
     }
   ]
 }

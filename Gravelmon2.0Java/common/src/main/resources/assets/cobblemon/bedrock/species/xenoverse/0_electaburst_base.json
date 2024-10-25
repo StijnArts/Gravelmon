@@ -4,16 +4,15 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:xenoverse_electaburst",
-      "texture": "cobblemon:textures/pokemon/xenoverse/electaburst.png",
+      "model": "cobblemon:xenoverse_electaburst.geo",
+      "texture": "cobblemon:textures/pokemon/xenoverse/electaburst/electaburst.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/xenoverse/electaburst.png"
-    }
-  ]
+      "texture": "cobblemon:textures/pokemon/xenoverse/electaburst/electaburst_shiny.png"
+    }  ]
 }

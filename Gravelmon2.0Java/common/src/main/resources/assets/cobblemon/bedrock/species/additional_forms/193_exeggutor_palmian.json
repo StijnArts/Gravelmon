@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_palmianexeggutor",
-      "texture": "cobblemon:textures/pokemon/generation1/palmianexeggutor.png",
+      "texture": "cobblemon:textures/pokemon/generation1/palmianexeggutor_shiny.png",
       "layers": [
         {
           "name": "glow"

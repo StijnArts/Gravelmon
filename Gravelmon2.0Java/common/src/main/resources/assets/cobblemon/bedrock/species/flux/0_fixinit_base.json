@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/flux/fixinit.png"
+      "texture": "cobblemon:textures/pokemon/flux/fixinit_shiny.png"
     }
   ]
 }

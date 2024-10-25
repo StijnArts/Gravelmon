@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_fabeliansuicune",
-      "texture": "cobblemon:textures/pokemon/generation2/fabeliansuicune.png",
+      "texture": "cobblemon:textures/pokemon/generation2/fabeliansuicune_shiny.png",
       "layers": [
         {
           "name": "glow"

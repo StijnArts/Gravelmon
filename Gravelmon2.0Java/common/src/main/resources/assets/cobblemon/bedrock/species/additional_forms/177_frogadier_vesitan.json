@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_vesitanfrogadier",
-      "texture": "cobblemon:textures/pokemon/generation6/vesitanfrogadier.png",
+      "texture": "cobblemon:textures/pokemon/generation6/vesitanfrogadier_shiny.png",
       "layers": [
         {
           "name": "glow"

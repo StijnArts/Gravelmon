@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/atlas/yolken.png"
+      "texture": "cobblemon:textures/pokemon/atlas/yolken_shiny.png"
     }
   ]
 }

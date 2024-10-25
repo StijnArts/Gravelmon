@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_epochcamerupt",
-      "texture": "cobblemon:textures/pokemon/generation3/epochcamerupt.png",
+      "texture": "cobblemon:textures/pokemon/generation3/epochcamerupt_shiny.png",
       "layers": [
         {
           "name": "glow"

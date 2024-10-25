@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "savagaitor",
-  "nationalPokedexNumber": 4788,
+  "nationalPokedexNumber": 4787,
   "primaryType": "dragon",
   "secondaryType": "fighting",
   "abilities": [
@@ -37,7 +37,7 @@
     }
   },
   "catchRate": 55,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

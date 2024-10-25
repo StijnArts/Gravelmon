@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/atlas/kelpush.png"
+      "texture": "cobblemon:textures/pokemon/atlas/kelpush_shiny.png"
     }
   ]
 }

@@ -4,16 +4,15 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:xenoverse_sputnink",
-      "texture": "cobblemon:textures/pokemon/xenoverse/sputnink.png",
+      "model": "cobblemon:sputnink.geo",
+      "texture": "cobblemon:textures/pokemon/xenoverse/sputnink/sputnink.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/xenoverse/sputnink.png"
-    }
-  ]
+      "texture": "cobblemon:textures/pokemon/xenoverse/sputnink/sputnink_shiny.png"
+    }  ]
 }

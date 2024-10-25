@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_deltanoivern",
-      "texture": "cobblemon:textures/pokemon/generation6/deltanoivern.png",
+      "texture": "cobblemon:textures/pokemon/generation6/deltanoivern_shiny.png",
       "layers": [
         {
           "name": "glow"

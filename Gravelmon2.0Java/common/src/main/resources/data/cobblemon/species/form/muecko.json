@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "muecko",
-  "nationalPokedexNumber": 4834,
+  "nationalPokedexNumber": 4833,
   "primaryType": "fighting",
   "abilities": [
     "keeneye"  ],
@@ -36,7 +36,7 @@
     }
   },
   "catchRate": 255,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

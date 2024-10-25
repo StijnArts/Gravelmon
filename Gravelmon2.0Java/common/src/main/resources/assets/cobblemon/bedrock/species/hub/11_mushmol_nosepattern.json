@@ -15,7 +15,7 @@
         "nose_pattern",
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/hub/mushmol.png"
+      "texture": "cobblemon:textures/pokemon/hub/mushmol_shiny.png"
     }
   ]
 }

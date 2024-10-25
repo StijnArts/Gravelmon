@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/flux/pouchelet.png"
+      "texture": "cobblemon:textures/pokemon/flux/pouchelet_shiny.png"
     }
   ]
 }

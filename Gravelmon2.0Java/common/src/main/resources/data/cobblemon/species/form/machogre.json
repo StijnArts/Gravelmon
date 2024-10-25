@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "machogre",
-  "nationalPokedexNumber": 4747,
+  "nationalPokedexNumber": 4746,
   "primaryType": "fighting",
   "secondaryType": "fairy",
   "abilities": [
@@ -37,7 +37,7 @@
     }
   },
   "catchRate": 255,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

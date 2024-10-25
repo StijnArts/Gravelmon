@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/atlas/scorchet.png"
+      "texture": "cobblemon:textures/pokemon/atlas/scorchet_shiny.png"
     }
   ]
 }

@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/atlas/brickler.png"
+      "texture": "cobblemon:textures/pokemon/atlas/brickler_shiny.png"
     }
   ]
 }

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_epochspinarak",
-      "texture": "cobblemon:textures/pokemon/generation2/epochspinarak.png",
+      "texture": "cobblemon:textures/pokemon/generation2/epochspinarak_shiny.png",
       "layers": [
         {
           "name": "glow"

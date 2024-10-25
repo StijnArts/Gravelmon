@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_sahlianvirizion",
-      "texture": "cobblemon:textures/pokemon/generation5/sahlianvirizion.png",
+      "texture": "cobblemon:textures/pokemon/generation5/sahlianvirizion_shiny.png",
       "layers": [
         {
           "name": "glow"

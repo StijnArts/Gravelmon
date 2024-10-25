@@ -83,7 +83,7 @@ public class GenerationTwo extends Game {
         pokemon.add(new NorseSentret("", Aspect.NORSE).setUsesBigModel());
         pokemon.add(new NorseFurret("", Aspect.NORSE, new Stats(415, StatArchetype.SPECIAL_WALL, List.of(StatType.HP))).setUsesBigModel());
 //
-        addFormianPokemon();
+        addFormanPokemon();
 
 //        pokemon.add(new PastelianLedyba("", Aspect.PASTELIAN)); TODO
 //        pokemon.add(new PastelianLedian("", Aspect.PASTELIAN));
@@ -271,7 +271,7 @@ public class GenerationTwo extends Game {
 
     }
 
-    private void addFormianPokemon() {
+    private void addFormanPokemon() {
 
         pokemon.add(new FormanChikorita("", Aspect.FORMAN).setUsesBigModel());
         pokemon.add(new FormanCyndaquil("", Aspect.FORMAN).setUsesBigModel());

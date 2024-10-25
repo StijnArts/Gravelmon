@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_mysticgrovyle",
-      "texture": "cobblemon:textures/pokemon/generation3/mysticgrovyle.png",
+      "texture": "cobblemon:textures/pokemon/generation3/mysticgrovyle_shiny.png",
       "layers": [
         {
           "name": "glow"

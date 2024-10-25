@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:xenoverse_shulongx",
-      "texture": "cobblemon:textures/pokemon/xenoverse/shulongx.png",
+      "texture": "cobblemon:textures/pokemon/xenoverse/shulongx_shiny.png",
       "layers": [
         {
           "name": "glow"

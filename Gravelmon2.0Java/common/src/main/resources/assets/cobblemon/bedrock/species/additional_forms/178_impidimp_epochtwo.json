@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation8_epochimpidimpone",
-      "texture": "cobblemon:textures/pokemon/generation8/epochimpidimpone.png",
+      "texture": "cobblemon:textures/pokemon/generation8/epochimpidimpone_shiny.png",
       "layers": [
         {
           "name": "glow"

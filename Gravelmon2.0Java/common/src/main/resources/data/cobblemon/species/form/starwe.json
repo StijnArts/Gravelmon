@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "starwe",
-  "nationalPokedexNumber": 4772,
+  "nationalPokedexNumber": 4771,
   "primaryType": "cosmic",
   "secondaryType": "psychic",
   "abilities": [
@@ -37,7 +37,7 @@
     }
   },
   "catchRate": 61,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

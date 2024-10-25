@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_epochpupitar",
-      "texture": "cobblemon:textures/pokemon/generation2/epochpupitar.png",
+      "texture": "cobblemon:textures/pokemon/generation2/epochpupitar_shiny.png",
       "layers": [
         {
           "name": "glow"

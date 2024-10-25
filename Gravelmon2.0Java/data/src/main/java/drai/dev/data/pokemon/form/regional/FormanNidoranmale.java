@@ -68,7 +68,7 @@ public class FormanNidoranmale extends drai.dev.data.pokemon.Pokemon {
                 List.of(Ability.MAGIC_GUARD), null,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,
-                0.0,
+                0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(),

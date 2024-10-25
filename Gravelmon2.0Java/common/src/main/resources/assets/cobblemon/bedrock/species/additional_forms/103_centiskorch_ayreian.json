@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation8_ayreiancentiskorch",
-      "texture": "cobblemon:textures/pokemon/generation8/ayreiancentiskorch.png",
+      "texture": "cobblemon:textures/pokemon/generation8/ayreiancentiskorch_shiny.png",
       "layers": [
         {
           "name": "glow"

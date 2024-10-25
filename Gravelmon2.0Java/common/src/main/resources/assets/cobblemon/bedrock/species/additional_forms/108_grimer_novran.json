@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_novrangrimer",
-      "texture": "cobblemon:textures/pokemon/generation1/novrangrimer.png",
+      "texture": "cobblemon:textures/pokemon/generation1/novrangrimer_shiny.png",
       "layers": [
         {
           "name": "glow"

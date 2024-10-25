@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/flux/albashell.png"
+      "texture": "cobblemon:textures/pokemon/flux/albashell_shiny.png"
     }
   ]
 }

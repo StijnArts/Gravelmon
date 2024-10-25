@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation7_epochdecidueye",
-      "texture": "cobblemon:textures/pokemon/generation7/epochdecidueye.png",
+      "texture": "cobblemon:textures/pokemon/generation7/epochdecidueye_shiny.png",
       "layers": [
         {
           "name": "glow"

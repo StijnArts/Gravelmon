@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_formanjigglypuff",
-      "texture": "cobblemon:textures/pokemon/generation1/formanjigglypuff.png",
+      "texture": "cobblemon:textures/pokemon/generation1/formanjigglypuff_shiny.png",
       "layers": [
         {
           "name": "glow"

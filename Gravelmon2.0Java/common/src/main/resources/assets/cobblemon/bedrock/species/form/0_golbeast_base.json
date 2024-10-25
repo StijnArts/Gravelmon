@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/form/golbeast.png"
+      "texture": "cobblemon:textures/pokemon/form/golbeast_shiny.png"
     }
   ]
 }

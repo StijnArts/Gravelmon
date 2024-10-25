@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/atlas/barkindle.png"
+      "texture": "cobblemon:textures/pokemon/atlas/barkindle_shiny.png"
     }
   ]
 }

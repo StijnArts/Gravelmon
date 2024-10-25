@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "everieon",
-  "nationalPokedexNumber": 4830,
+  "nationalPokedexNumber": 4829,
   "primaryType": "nuclear",
   "abilities": [
     "keeneye"  ],
@@ -36,7 +36,7 @@
     }
   },
   "catchRate": 61,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

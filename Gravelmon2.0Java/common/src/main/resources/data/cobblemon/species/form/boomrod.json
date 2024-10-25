@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "boomrod",
-  "nationalPokedexNumber": 4764,
+  "nationalPokedexNumber": 4763,
   "primaryType": "steel",
   "secondaryType": "fire",
   "abilities": [
@@ -37,7 +37,7 @@
     }
   },
   "catchRate": 78,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

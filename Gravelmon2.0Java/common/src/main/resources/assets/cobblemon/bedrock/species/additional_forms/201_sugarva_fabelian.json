@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:mahal_fabeliansugarva",
-      "texture": "cobblemon:textures/pokemon/mahal/fabeliansugarva.png",
+      "texture": "cobblemon:textures/pokemon/mahal/fabeliansugarva_shiny.png",
       "layers": [
         {
           "name": "glow"

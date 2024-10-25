@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_trizorangarchomp",
-      "texture": "cobblemon:textures/pokemon/generation4/trizorangarchomp.png",
+      "texture": "cobblemon:textures/pokemon/generation4/trizorangarchomp_shiny.png",
       "layers": [
         {
           "name": "glow"

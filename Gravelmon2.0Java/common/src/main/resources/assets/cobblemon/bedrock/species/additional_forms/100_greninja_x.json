@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_greninjax",
-      "texture": "cobblemon:textures/pokemon/generation6/greninjax.png",
+      "texture": "cobblemon:textures/pokemon/generation6/greninjax_shiny.png",
       "layers": [
         {
           "name": "glow"

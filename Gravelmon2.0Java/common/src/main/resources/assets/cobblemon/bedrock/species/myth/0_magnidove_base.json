@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/myth/magnidove.png"
+      "texture": "cobblemon:textures/pokemon/myth/magnidove_shiny.png"
     },
     {
       "aspects": [
@@ -26,7 +26,7 @@
         "female",
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/myth/magnidove_female.png"
+      "texture": "cobblemon:textures/pokemon/myth/magnidove_female_shiny.png"
     }
   ]
 }

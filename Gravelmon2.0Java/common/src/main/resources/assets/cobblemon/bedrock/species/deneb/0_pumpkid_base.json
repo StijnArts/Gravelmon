@@ -4,16 +4,15 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:deneb_pumpkid",
-      "texture": "cobblemon:textures/pokemon/deneb/pumpkid.png",
+      "model": "cobblemon:deneb_pumpkid.geo",
+      "texture": "cobblemon:textures/pokemon/deneb/pumpkid/pumpkid.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/deneb/pumpkid.png"
-    }
-  ]
+      "texture": "cobblemon:textures/pokemon/deneb/pumpkid/pumpkid_shiny.png"
+    }  ]
 }

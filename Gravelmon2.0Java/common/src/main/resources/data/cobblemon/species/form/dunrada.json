@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dunrada",
-  "nationalPokedexNumber": 4818,
+  "nationalPokedexNumber": 4817,
   "primaryType": "water",
   "secondaryType": "dragon",
   "abilities": [
@@ -37,7 +37,7 @@
     }
   },
   "catchRate": 66,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

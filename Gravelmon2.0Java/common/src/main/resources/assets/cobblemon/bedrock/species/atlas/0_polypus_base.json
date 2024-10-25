@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/atlas/polypus.png"
+      "texture": "cobblemon:textures/pokemon/atlas/polypus_shiny.png"
     }
   ]
 }

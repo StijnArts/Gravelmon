@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dradrio",
-  "nationalPokedexNumber": 4758,
+  "nationalPokedexNumber": 4757,
   "primaryType": "dragon",
   "secondaryType": "ice",
   "abilities": [
@@ -37,7 +37,7 @@
     }
   },
   "catchRate": 55,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

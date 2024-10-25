@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/flux/humborb.png"
+      "texture": "cobblemon:textures/pokemon/flux/humborb_shiny.png"
     }
   ]
 }

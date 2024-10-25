@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_formanfurret",
-      "texture": "cobblemon:textures/pokemon/generation2/formanfurret.png",
+      "texture": "cobblemon:textures/pokemon/generation2/formanfurret_shiny.png",
       "layers": [
         {
           "name": "glow"

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:raian_tribaldarcicle",
-      "texture": "cobblemon:textures/pokemon/raian/tribaldarcicle.png",
+      "texture": "cobblemon:textures/pokemon/raian/tribaldarcicle_shiny.png",
       "layers": [
         {
           "name": "glow"

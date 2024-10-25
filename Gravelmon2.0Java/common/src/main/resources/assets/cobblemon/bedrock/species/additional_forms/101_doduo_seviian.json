@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_seviiandoduo",
-      "texture": "cobblemon:textures/pokemon/generation1/seviiandoduo.png",
+      "texture": "cobblemon:textures/pokemon/generation1/seviiandoduo_shiny.png",
       "layers": [
         {
           "name": "glow"

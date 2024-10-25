@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_epochsalamence",
-      "texture": "cobblemon:textures/pokemon/generation3/epochsalamence.png",
+      "texture": "cobblemon:textures/pokemon/generation3/epochsalamence_shiny.png",
       "layers": [
         {
           "name": "glow"

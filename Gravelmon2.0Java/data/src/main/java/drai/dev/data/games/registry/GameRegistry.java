@@ -91,8 +91,8 @@ public class GameRegistry {
         games.add(new Atlas());
         games.add(new Amavi());
         games.add(new Cyare());
-        games.add(new Ferran());
 
+        games.add(new Ferran());
         games.add(new Mahal());
         games.add(new Fabel());
         games.add(new Arom());

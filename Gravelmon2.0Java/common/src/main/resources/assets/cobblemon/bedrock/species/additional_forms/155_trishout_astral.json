@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:xenoverse_trishoutastral",
-      "texture": "cobblemon:textures/pokemon/xenoverse/trishoutastral.png",
+      "texture": "cobblemon:textures/pokemon/xenoverse/trishoutastral_shiny.png",
       "layers": [
         {
           "name": "glow"

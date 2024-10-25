@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_vesitanhelioptile",
-      "texture": "cobblemon:textures/pokemon/generation6/vesitanhelioptile.png",
+      "texture": "cobblemon:textures/pokemon/generation6/vesitanhelioptile_shiny.png",
       "layers": [
         {
           "name": "glow"

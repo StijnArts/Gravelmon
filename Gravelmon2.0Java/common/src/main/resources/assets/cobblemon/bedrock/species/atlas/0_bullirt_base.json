@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/atlas/bullirt.png"
+      "texture": "cobblemon:textures/pokemon/atlas/bullirt_shiny.png"
     }
   ]
 }

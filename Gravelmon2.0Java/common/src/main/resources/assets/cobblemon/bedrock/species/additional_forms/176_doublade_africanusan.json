@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_africanusandoublade",
-      "texture": "cobblemon:textures/pokemon/generation6/africanusandoublade.png",
+      "texture": "cobblemon:textures/pokemon/generation6/africanusandoublade_shiny.png",
       "layers": [
         {
           "name": "glow"

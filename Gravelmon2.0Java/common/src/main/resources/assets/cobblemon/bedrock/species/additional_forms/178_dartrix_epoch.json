@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation7_epochdartrix",
-      "texture": "cobblemon:textures/pokemon/generation7/epochdartrix.png",
+      "texture": "cobblemon:textures/pokemon/generation7/epochdartrix_shiny.png",
       "layers": [
         {
           "name": "glow"

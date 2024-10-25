@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_mythianscyther",
-      "texture": "cobblemon:textures/pokemon/generation1/mythianscyther.png",
+      "texture": "cobblemon:textures/pokemon/generation1/mythianscyther_shiny.png",
       "layers": [
         {
           "name": "glow"

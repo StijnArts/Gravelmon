@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:ferroa_lostislandsloftival",
-      "texture": "cobblemon:textures/pokemon/ferroa/lostislandsloftival.png",
+      "texture": "cobblemon:textures/pokemon/ferroa/lostislandsloftival_shiny.png",
       "layers": [
         {
           "name": "glow"

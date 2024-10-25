@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/atlas/refhuge.png"
+      "texture": "cobblemon:textures/pokemon/atlas/refhuge_shiny.png"
     }
   ]
 }

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_ayreianivysaur",
-      "texture": "cobblemon:textures/pokemon/generation1/ayreianivysaur.png",
+      "texture": "cobblemon:textures/pokemon/generation1/ayreianivysaur_shiny.png",
       "layers": [
         {
           "name": "glow"

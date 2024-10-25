@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:xenoverse_saboltterrestrial",
-      "texture": "cobblemon:textures/pokemon/xenoverse/saboltterrestrial.png",
+      "texture": "cobblemon:textures/pokemon/xenoverse/saboltterrestrial_shiny.png",
       "layers": [
         {
           "name": "glow"

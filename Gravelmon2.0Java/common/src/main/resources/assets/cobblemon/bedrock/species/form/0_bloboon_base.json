@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/form/bloboon.png"
+      "texture": "cobblemon:textures/pokemon/form/bloboon_shiny.png"
     }
   ]
 }

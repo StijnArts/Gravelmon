@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "watu",
-  "nationalPokedexNumber": 4800,
+  "nationalPokedexNumber": 4799,
   "primaryType": "normal",
   "secondaryType": "water",
   "abilities": [
@@ -37,7 +37,7 @@
     }
   },
   "catchRate": 89,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

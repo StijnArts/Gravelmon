@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "egloom",
-  "nationalPokedexNumber": 4735,
+  "nationalPokedexNumber": 4734,
   "primaryType": "grass",
   "secondaryType": "dark",
   "abilities": [
@@ -37,7 +37,7 @@
     }
   },
   "catchRate": 255,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

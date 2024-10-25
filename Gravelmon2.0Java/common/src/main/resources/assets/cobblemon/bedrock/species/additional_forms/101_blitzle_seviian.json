@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_seviianblitzle",
-      "texture": "cobblemon:textures/pokemon/generation5/seviianblitzle.png",
+      "texture": "cobblemon:textures/pokemon/generation5/seviianblitzle_shiny.png",
       "layers": [
         {
           "name": "glow"

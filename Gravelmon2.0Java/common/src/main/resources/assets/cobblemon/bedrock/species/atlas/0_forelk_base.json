@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/atlas/forelk.png"
+      "texture": "cobblemon:textures/pokemon/atlas/forelk_shiny.png"
     }
   ]
 }

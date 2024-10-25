@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "groomoot",
-  "nationalPokedexNumber": 4802,
+  "nationalPokedexNumber": 4801,
   "primaryType": "grass",
   "secondaryType": "ghost",
   "abilities": [
@@ -37,7 +37,7 @@
     }
   },
   "catchRate": 82,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

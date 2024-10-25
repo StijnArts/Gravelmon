@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/atlas/hoowhip.png"
+      "texture": "cobblemon:textures/pokemon/atlas/hoowhip_shiny.png"
     }
   ]
 }

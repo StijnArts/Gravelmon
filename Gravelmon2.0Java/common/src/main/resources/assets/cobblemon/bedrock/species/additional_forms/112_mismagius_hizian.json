@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_hizianmismagius",
-      "texture": "cobblemon:textures/pokemon/generation4/hizianmismagius.png",
+      "texture": "cobblemon:textures/pokemon/generation4/hizianmismagius_shiny.png",
       "layers": [
         {
           "name": "glow"

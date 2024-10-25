@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lyocribell",
-  "nationalPokedexNumber": 4750,
+  "nationalPokedexNumber": 4749,
   "primaryType": "grass",
   "secondaryType": "water",
   "abilities": [
@@ -37,7 +37,7 @@
     }
   },
   "catchRate": 78,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

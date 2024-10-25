@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/atlas/lannelid.png"
+      "texture": "cobblemon:textures/pokemon/atlas/lannelid_shiny.png"
     }
   ]
 }

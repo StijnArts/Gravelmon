@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_epochscizor",
-      "texture": "cobblemon:textures/pokemon/generation2/epochscizor.png",
+      "texture": "cobblemon:textures/pokemon/generation2/epochscizor_shiny.png",
       "layers": [
         {
           "name": "glow"

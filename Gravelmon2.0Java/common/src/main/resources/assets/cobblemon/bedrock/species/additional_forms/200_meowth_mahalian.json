@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_mahalianmeowth",
-      "texture": "cobblemon:textures/pokemon/generation1/mahalianmeowth.png",
+      "texture": "cobblemon:textures/pokemon/generation1/mahalianmeowth_shiny.png",
       "layers": [
         {
           "name": "glow"

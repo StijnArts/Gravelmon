@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/atlas/carnibble.png"
+      "texture": "cobblemon:textures/pokemon/atlas/carnibble_shiny.png"
     }
   ]
 }

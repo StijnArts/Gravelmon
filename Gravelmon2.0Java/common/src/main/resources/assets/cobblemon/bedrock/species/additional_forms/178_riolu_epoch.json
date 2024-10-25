@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_epochriolu",
-      "texture": "cobblemon:textures/pokemon/generation4/epochriolu.png",
+      "texture": "cobblemon:textures/pokemon/generation4/epochriolu_shiny.png",
       "layers": [
         {
           "name": "glow"

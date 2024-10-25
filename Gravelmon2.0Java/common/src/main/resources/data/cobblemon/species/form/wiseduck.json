@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wiseduck",
-  "nationalPokedexNumber": 4740,
+  "nationalPokedexNumber": 4739,
   "primaryType": "psychic",
   "secondaryType": "flying",
   "abilities": [
@@ -37,7 +37,7 @@
     }
   },
   "catchRate": 55,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

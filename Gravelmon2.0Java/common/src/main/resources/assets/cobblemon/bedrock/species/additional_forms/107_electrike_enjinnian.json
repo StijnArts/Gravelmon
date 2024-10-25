@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_enjinnianelectrike",
-      "texture": "cobblemon:textures/pokemon/generation3/enjinnianelectrike.png",
+      "texture": "cobblemon:textures/pokemon/generation3/enjinnianelectrike_shiny.png",
       "layers": [
         {
           "name": "glow"

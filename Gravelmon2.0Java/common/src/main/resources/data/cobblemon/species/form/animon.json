@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "animon",
-  "nationalPokedexNumber": 4829,
+  "nationalPokedexNumber": 4828,
   "primaryType": "steel",
   "secondaryType": "nuclear",
   "abilities": [
@@ -37,7 +37,7 @@
     }
   },
   "catchRate": 124,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

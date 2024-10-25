@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_epochferrothorn",
-      "texture": "cobblemon:textures/pokemon/generation5/epochferrothorn.png",
+      "texture": "cobblemon:textures/pokemon/generation5/epochferrothorn_shiny.png",
       "layers": [
         {
           "name": "glow"

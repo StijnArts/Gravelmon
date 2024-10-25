@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "venomare",
-  "nationalPokedexNumber": 4801,
+  "nationalPokedexNumber": 4800,
   "primaryType": "poison",
   "secondaryType": "dark",
   "abilities": [
@@ -37,7 +37,7 @@
     }
   },
   "catchRate": 66,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

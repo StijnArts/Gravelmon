@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_varitasiantrevenant",
-      "texture": "cobblemon:textures/pokemon/generation6/varitasiantrevenant.png",
+      "texture": "cobblemon:textures/pokemon/generation6/varitasiantrevenant_shiny.png",
       "layers": [
         {
           "name": "glow"

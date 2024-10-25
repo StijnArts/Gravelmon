@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_formanspinarak",
-      "texture": "cobblemon:textures/pokemon/generation2/formanspinarak.png",
+      "texture": "cobblemon:textures/pokemon/generation2/formanspinarak_shiny.png",
       "layers": [
         {
           "name": "glow"

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation8_epochgrimmsnarlone",
-      "texture": "cobblemon:textures/pokemon/generation8/epochgrimmsnarlone.png",
+      "texture": "cobblemon:textures/pokemon/generation8/epochgrimmsnarlone_shiny.png",
       "layers": [
         {
           "name": "glow"

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kelocean",
-  "nationalPokedexNumber": 4755,
+  "nationalPokedexNumber": 4754,
   "primaryType": "water",
   "abilities": [
     "keeneye"  ],
@@ -36,7 +36,7 @@
     }
   },
   "catchRate": 77,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

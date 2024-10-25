@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:ferroa_lostislandspartae",
-      "texture": "cobblemon:textures/pokemon/ferroa/lostislandspartae.png",
+      "texture": "cobblemon:textures/pokemon/ferroa/lostislandspartae_shiny.png",
       "layers": [
         {
           "name": "glow"

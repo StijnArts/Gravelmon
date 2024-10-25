@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_epochdusknoir",
-      "texture": "cobblemon:textures/pokemon/generation4/epochdusknoir.png",
+      "texture": "cobblemon:textures/pokemon/generation4/epochdusknoir_shiny.png",
       "layers": [
         {
           "name": "glow"

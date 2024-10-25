@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_seviianclawitzer",
-      "texture": "cobblemon:textures/pokemon/generation6/seviianclawitzer.png",
+      "texture": "cobblemon:textures/pokemon/generation6/seviianclawitzer_shiny.png",
       "layers": [
         {
           "name": "glow"

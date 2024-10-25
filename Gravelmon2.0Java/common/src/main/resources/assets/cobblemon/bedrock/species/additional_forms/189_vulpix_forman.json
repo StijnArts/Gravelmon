@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_formanvulpix",
-      "texture": "cobblemon:textures/pokemon/generation1/formanvulpix.png",
+      "texture": "cobblemon:textures/pokemon/generation1/formanvulpix_shiny.png",
       "layers": [
         {
           "name": "glow"

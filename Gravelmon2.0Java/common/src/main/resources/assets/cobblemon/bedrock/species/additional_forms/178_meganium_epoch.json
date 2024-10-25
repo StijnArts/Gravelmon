@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_epochmeganium",
-      "texture": "cobblemon:textures/pokemon/generation2/epochmeganium.png",
+      "texture": "cobblemon:textures/pokemon/generation2/epochmeganium_shiny.png",
       "layers": [
         {
           "name": "glow"

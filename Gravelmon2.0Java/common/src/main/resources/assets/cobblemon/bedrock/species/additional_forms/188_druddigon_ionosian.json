@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_ionosiandruddigon",
-      "texture": "cobblemon:textures/pokemon/generation5/ionosiandruddigon.png",
+      "texture": "cobblemon:textures/pokemon/generation5/ionosiandruddigon_shiny.png",
       "layers": [
         {
           "name": "glow"

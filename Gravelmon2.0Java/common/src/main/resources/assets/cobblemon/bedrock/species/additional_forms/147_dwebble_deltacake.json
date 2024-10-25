@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_deltacakedwebble",
-      "texture": "cobblemon:textures/pokemon/generation5/deltacakedwebble.png",
+      "texture": "cobblemon:textures/pokemon/generation5/deltacakedwebble_shiny.png",
       "layers": [
         {
           "name": "glow"

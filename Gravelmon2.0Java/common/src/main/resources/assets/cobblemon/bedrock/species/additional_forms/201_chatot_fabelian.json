@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_fabelianchatot",
-      "texture": "cobblemon:textures/pokemon/generation4/fabelianchatot.png",
+      "texture": "cobblemon:textures/pokemon/generation4/fabelianchatot_shiny.png",
       "layers": [
         {
           "name": "glow"

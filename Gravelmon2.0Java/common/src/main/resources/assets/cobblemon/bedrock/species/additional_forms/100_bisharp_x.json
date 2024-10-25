@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_bisharpx",
-      "texture": "cobblemon:textures/pokemon/generation5/bisharpx.png",
+      "texture": "cobblemon:textures/pokemon/generation5/bisharpx_shiny.png",
       "layers": [
         {
           "name": "glow"

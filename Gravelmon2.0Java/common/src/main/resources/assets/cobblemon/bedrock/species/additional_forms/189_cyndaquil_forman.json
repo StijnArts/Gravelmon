@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_formancyndaquil",
-      "texture": "cobblemon:textures/pokemon/generation2/formancyndaquil.png",
+      "texture": "cobblemon:textures/pokemon/generation2/formancyndaquil_shiny.png",
       "layers": [
         {
           "name": "glow"

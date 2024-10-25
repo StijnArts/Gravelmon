@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_vesitanspritzee",
-      "texture": "cobblemon:textures/pokemon/generation6/vesitanspritzee.png",
+      "texture": "cobblemon:textures/pokemon/generation6/vesitanspritzee_shiny.png",
       "layers": [
         {
           "name": "glow"

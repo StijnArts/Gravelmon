@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_africanusanrapidash",
-      "texture": "cobblemon:textures/pokemon/generation1/africanusanrapidash.png",
+      "texture": "cobblemon:textures/pokemon/generation1/africanusanrapidash_shiny.png",
       "layers": [
         {
           "name": "glow"

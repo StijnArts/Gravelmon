@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_vesitanquilladin",
-      "texture": "cobblemon:textures/pokemon/generation6/vesitanquilladin.png",
+      "texture": "cobblemon:textures/pokemon/generation6/vesitanquilladin_shiny.png",
       "layers": [
         {
           "name": "glow"

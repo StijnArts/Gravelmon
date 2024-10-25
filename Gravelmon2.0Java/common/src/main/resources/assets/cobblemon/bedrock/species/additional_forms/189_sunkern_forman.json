@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_formansunkern",
-      "texture": "cobblemon:textures/pokemon/generation2/formansunkern.png",
+      "texture": "cobblemon:textures/pokemon/generation2/formansunkern_shiny.png",
       "layers": [
         {
           "name": "glow"

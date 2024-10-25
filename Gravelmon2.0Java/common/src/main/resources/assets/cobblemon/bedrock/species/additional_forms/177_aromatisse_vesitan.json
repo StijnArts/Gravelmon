@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_vesitanaromatisse",
-      "texture": "cobblemon:textures/pokemon/generation6/vesitanaromatisse.png",
+      "texture": "cobblemon:textures/pokemon/generation6/vesitanaromatisse_shiny.png",
       "layers": [
         {
           "name": "glow"

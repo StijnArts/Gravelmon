@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_mysticvoltorb",
-      "texture": "cobblemon:textures/pokemon/generation1/mysticvoltorb.png",
+      "texture": "cobblemon:textures/pokemon/generation1/mysticvoltorb_shiny.png",
       "layers": [
         {
           "name": "glow"

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "secrebuyo",
-  "nationalPokedexNumber": 4837,
+  "nationalPokedexNumber": 4836,
   "primaryType": "flying",
   "secondaryType": "ghost",
   "abilities": [
@@ -37,7 +37,7 @@
     }
   },
   "catchRate": 55,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

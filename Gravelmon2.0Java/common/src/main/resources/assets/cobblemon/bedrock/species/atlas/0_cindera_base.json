@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/atlas/cindera.png"
+      "texture": "cobblemon:textures/pokemon/atlas/cindera_shiny.png"
     }
   ]
 }

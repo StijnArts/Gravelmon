@@ -4,16 +4,16 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:sage_cowatti.geo",
       "poser": "cobblemon:sage_cowatti",
-      "texture": "cobblemon:textures/pokemon/sage/cowatti.png",
+      "texture": "cobblemon:textures/pokemon/sage/cowatti/cowatti.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/sage/cowatti.png"
+      "texture": "cobblemon:textures/pokemon/sage/cowatti/cowatti_shiny.png"
     }
   ]
 }

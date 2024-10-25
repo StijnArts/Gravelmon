@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kotora",
-  "nationalPokedexNumber": 4806,
+  "nationalPokedexNumber": 4805,
   "primaryType": "fire",
   "abilities": [
     "flashfire"  ],
@@ -36,7 +36,7 @@
     }
   },
   "catchRate": 255,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

@@ -4,16 +4,16 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:xenoverse_kungfur.geo",
       "poser": "cobblemon:xenoverse_kungfur",
-      "texture": "cobblemon:textures/pokemon/xenoverse/kungfur.png",
+      "texture": "cobblemon:textures/pokemon/xenoverse/kungfur/kungfur.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/xenoverse/kungfur.png"
+      "texture": "cobblemon:textures/pokemon/xenoverse/kungfur/kungfur_shiny.png"
     }
   ]
 }

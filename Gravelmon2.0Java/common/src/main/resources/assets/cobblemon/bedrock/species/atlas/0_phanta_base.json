@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/atlas/phanta.png"
+      "texture": "cobblemon:textures/pokemon/atlas/phanta_shiny.png"
     }
   ]
 }

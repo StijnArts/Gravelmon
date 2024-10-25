@@ -4,16 +4,15 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:sage_iguadium",
-      "texture": "cobblemon:textures/pokemon/sage/iguadium.png",
+      "model": "cobblemon:sage_iguadium.geo",
+      "texture": "cobblemon:textures/pokemon/sage/iguadium/iguadium.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/sage/iguadium.png"
-    }
-  ]
+      "texture": "cobblemon:textures/pokemon/sage/iguadium/iguadium_shiny.png"
+    }  ]
 }

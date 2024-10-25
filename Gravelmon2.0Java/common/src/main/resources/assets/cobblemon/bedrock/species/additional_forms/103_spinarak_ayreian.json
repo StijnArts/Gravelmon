@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_ayreianspinarak",
-      "texture": "cobblemon:textures/pokemon/generation2/ayreianspinarak.png",
+      "texture": "cobblemon:textures/pokemon/generation2/ayreianspinarak_shiny.png",
       "layers": [
         {
           "name": "glow"

@@ -4,16 +4,16 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:sage_bluffin.geo",
       "poser": "cobblemon:sage_bluffin",
-      "texture": "cobblemon:textures/pokemon/sage/bluffin.png",
+      "texture": "cobblemon:textures/pokemon/sage/bluffin/bluffin.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/sage/bluffin.png"
+      "texture": "cobblemon:textures/pokemon/sage/bluffin/bluffin_shiny.png"
     }
   ]
 }

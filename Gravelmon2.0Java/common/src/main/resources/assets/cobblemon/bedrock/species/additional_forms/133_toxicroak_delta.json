@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_deltatoxicroak",
-      "texture": "cobblemon:textures/pokemon/generation4/deltatoxicroak.png",
+      "texture": "cobblemon:textures/pokemon/generation4/deltatoxicroak_shiny.png",
       "layers": [
         {
           "name": "glow"

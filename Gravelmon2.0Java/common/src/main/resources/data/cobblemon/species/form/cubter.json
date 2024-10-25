@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cubter",
-  "nationalPokedexNumber": 4809,
+  "nationalPokedexNumber": 4808,
   "primaryType": "water",
   "abilities": [
     "swiftswim"  ],
@@ -36,7 +36,7 @@
     }
   },
   "catchRate": 255,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_hubiantogekiss",
-      "texture": "cobblemon:textures/pokemon/generation4/hubiantogekiss.png",
+      "texture": "cobblemon:textures/pokemon/generation4/hubiantogekiss_shiny.png",
       "layers": [
         {
           "name": "glow"

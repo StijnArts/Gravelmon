@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "katinop",
-  "nationalPokedexNumber": 4804,
+  "nationalPokedexNumber": 4803,
   "primaryType": "grass",
   "secondaryType": "fairy",
   "abilities": [
@@ -37,7 +37,7 @@
     }
   },
   "catchRate": 255,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

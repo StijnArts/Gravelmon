@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "siscorp",
-  "nationalPokedexNumber": 4825,
+  "nationalPokedexNumber": 4824,
   "primaryType": "water",
   "secondaryType": "poison",
   "abilities": [
@@ -37,7 +37,7 @@
     }
   },
   "catchRate": 84,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

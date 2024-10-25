@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation8_epochappletun",
-      "texture": "cobblemon:textures/pokemon/generation8/epochappletun.png",
+      "texture": "cobblemon:textures/pokemon/generation8/epochappletun_shiny.png",
       "layers": [
         {
           "name": "glow"

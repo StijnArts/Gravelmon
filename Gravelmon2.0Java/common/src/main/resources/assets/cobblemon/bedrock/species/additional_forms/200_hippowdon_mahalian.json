@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_mahalianhippowdon",
-      "texture": "cobblemon:textures/pokemon/generation4/mahalianhippowdon.png",
+      "texture": "cobblemon:textures/pokemon/generation4/mahalianhippowdon_shiny.png",
       "layers": [
         {
           "name": "glow"

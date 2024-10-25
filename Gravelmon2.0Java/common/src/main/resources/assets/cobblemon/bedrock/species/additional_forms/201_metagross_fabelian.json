@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_fabelianmetagross",
-      "texture": "cobblemon:textures/pokemon/generation3/fabelianmetagross.png",
+      "texture": "cobblemon:textures/pokemon/generation3/fabelianmetagross_shiny.png",
       "layers": [
         {
           "name": "glow"

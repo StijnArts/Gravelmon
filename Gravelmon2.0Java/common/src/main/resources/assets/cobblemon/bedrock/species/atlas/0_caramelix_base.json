@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/atlas/caramelix.png"
+      "texture": "cobblemon:textures/pokemon/atlas/caramelix_shiny.png"
     }
   ]
 }

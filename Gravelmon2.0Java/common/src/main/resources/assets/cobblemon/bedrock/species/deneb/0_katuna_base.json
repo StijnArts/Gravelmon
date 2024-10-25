@@ -4,16 +4,15 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:deneb_katuna",
-      "texture": "cobblemon:textures/pokemon/deneb/katuna.png",
+      "model": "cobblemon:deneb_katuna.geo",
+      "texture": "cobblemon:textures/pokemon/deneb/katuna/katuna.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/deneb/katuna.png"
-    }
-  ]
+      "texture": "cobblemon:textures/pokemon/deneb/katuna/katuna_shiny.png"
+    }  ]
 }

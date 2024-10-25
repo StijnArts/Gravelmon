@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:atlas_dhiomanpolynett",
-      "texture": "cobblemon:textures/pokemon/atlas/dhiomanpolynett.png",
+      "texture": "cobblemon:textures/pokemon/atlas/dhiomanpolynett_shiny.png",
       "layers": [
         {
           "name": "glow"

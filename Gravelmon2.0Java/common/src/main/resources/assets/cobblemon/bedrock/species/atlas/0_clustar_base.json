@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/atlas/clustar.png"
+      "texture": "cobblemon:textures/pokemon/atlas/clustar_shiny.png"
     }
   ]
 }

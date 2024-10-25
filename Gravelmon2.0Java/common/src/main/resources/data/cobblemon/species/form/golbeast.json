@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "golbeast",
-  "nationalPokedexNumber": 4754,
+  "nationalPokedexNumber": 4753,
   "primaryType": "rock",
   "secondaryType": "steel",
   "abilities": [
@@ -37,7 +37,7 @@
     }
   },
   "catchRate": 74,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

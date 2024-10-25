@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_hoennianqwilfish",
-      "texture": "cobblemon:textures/pokemon/generation2/hoennianqwilfish.png",
+      "texture": "cobblemon:textures/pokemon/generation2/hoennianqwilfish_shiny.png",
       "layers": [
         {
           "name": "glow"

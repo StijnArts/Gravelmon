@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/atlas/crocodily.png"
+      "texture": "cobblemon:textures/pokemon/atlas/crocodily_shiny.png"
     }
   ]
 }

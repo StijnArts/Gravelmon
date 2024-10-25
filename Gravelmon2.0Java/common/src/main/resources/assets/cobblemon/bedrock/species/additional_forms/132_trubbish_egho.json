@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_eghotrubbish",
-      "texture": "cobblemon:textures/pokemon/generation5/eghotrubbish.png",
+      "texture": "cobblemon:textures/pokemon/generation5/eghotrubbish_shiny.png",
       "layers": [
         {
           "name": "glow"

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_ayreiangourgeist",
-      "texture": "cobblemon:textures/pokemon/generation6/ayreiangourgeist.png",
+      "texture": "cobblemon:textures/pokemon/generation6/ayreiangourgeist_shiny.png",
       "layers": [
         {
           "name": "glow"

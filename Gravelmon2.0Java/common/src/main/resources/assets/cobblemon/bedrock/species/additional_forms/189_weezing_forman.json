@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_formanweezing",
-      "texture": "cobblemon:textures/pokemon/generation1/formanweezing.png",
+      "texture": "cobblemon:textures/pokemon/generation1/formanweezing_shiny.png",
       "layers": [
         {
           "name": "glow"

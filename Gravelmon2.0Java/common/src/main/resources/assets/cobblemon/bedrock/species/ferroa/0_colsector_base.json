@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/ferroa/colsector.png"
+      "texture": "cobblemon:textures/pokemon/ferroa/colsector_shiny.png"
     }
   ]
 }

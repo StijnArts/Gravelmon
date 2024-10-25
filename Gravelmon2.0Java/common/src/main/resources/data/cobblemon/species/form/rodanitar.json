@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rodanitar",
-  "nationalPokedexNumber": 4832,
+  "nationalPokedexNumber": 4831,
   "primaryType": "dragon",
   "secondaryType": "fire",
   "abilities": [
@@ -37,7 +37,7 @@
     }
   },
   "catchRate": 45,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

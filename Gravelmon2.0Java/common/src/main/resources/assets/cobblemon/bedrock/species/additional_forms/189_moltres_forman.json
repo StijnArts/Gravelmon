@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_formanmoltres",
-      "texture": "cobblemon:textures/pokemon/generation1/formanmoltres.png",
+      "texture": "cobblemon:textures/pokemon/generation1/formanmoltres_shiny.png",
       "layers": [
         {
           "name": "glow"

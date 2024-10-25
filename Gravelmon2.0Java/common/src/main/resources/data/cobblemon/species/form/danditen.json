@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "danditen",
-  "nationalPokedexNumber": 4805,
+  "nationalPokedexNumber": 4804,
   "primaryType": "grass",
   "secondaryType": "fairy",
   "abilities": [
@@ -37,7 +37,7 @@
     }
   },
   "catchRate": 96,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

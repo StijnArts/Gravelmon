@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_roseradex",
-      "texture": "cobblemon:textures/pokemon/generation4/roseradex.png",
+      "texture": "cobblemon:textures/pokemon/generation4/roseradex_shiny.png",
       "layers": [
         {
           "name": "glow"

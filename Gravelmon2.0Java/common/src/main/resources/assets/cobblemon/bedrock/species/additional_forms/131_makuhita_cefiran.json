@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_cefiranmakuhita",
-      "texture": "cobblemon:textures/pokemon/generation3/cefiranmakuhita.png",
+      "texture": "cobblemon:textures/pokemon/generation3/cefiranmakuhita_shiny.png",
       "layers": [
         {
           "name": "glow"

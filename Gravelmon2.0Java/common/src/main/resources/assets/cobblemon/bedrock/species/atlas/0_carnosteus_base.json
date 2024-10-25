@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/atlas/carnosteus.png"
+      "texture": "cobblemon:textures/pokemon/atlas/carnosteus_shiny.png"
     }
   ]
 }

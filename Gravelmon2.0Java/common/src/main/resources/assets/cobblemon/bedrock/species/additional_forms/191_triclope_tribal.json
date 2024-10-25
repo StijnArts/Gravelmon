@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:raian_tribaltriclope",
-      "texture": "cobblemon:textures/pokemon/raian/tribaltriclope.png",
+      "texture": "cobblemon:textures/pokemon/raian/tribaltriclope_shiny.png",
       "layers": [
         {
           "name": "glow"

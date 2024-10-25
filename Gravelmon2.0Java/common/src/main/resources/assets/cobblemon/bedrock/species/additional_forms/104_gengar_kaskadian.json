@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_kaskadiangengar",
-      "texture": "cobblemon:textures/pokemon/generation1/kaskadiangengar.png",
+      "texture": "cobblemon:textures/pokemon/generation1/kaskadiangengar_shiny.png",
       "layers": [
         {
           "name": "glow"

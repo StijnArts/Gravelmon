@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class ElbianVigoking extends drai.dev.data.pokemon.Pokemon {
-    public ElbianVigoking(String s, Aspect elbian) {
-        super(s, elbian, "Elbianvigoking",
+    public ElbianVigoking(String name, Aspect aspect) {
+        super(name, aspect, "Elbianvigoking",
                 Type.ELECTRIC,Type.NORMAL,
                 new Stats(67,
                         139,

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_deltaglalie",
-      "texture": "cobblemon:textures/pokemon/generation3/deltaglalie.png",
+      "texture": "cobblemon:textures/pokemon/generation3/deltaglalie_shiny.png",
       "layers": [
         {
           "name": "glow"

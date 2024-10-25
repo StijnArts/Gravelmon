@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/mythire/boxbuffer.png"
+      "texture": "cobblemon:textures/pokemon/mythire/boxbuffer_shiny.png"
     }
   ]
 }

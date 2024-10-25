@@ -4,16 +4,15 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:deneb_blakjak",
-      "texture": "cobblemon:textures/pokemon/deneb/blakjak.png",
+      "model": "cobblemon:deneb_blakjak.geo",
+      "texture": "cobblemon:textures/pokemon/deneb/blakjak/blakjak.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/deneb/blakjak.png"
-    }
-  ]
+      "texture": "cobblemon:textures/pokemon/deneb/blakjak/blakjak_shiny.png"
+    }  ]
 }

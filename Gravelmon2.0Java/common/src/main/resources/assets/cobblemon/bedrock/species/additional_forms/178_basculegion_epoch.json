@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation8_epochbasculegion",
-      "texture": "cobblemon:textures/pokemon/generation8/epochbasculegion.png",
+      "texture": "cobblemon:textures/pokemon/generation8/epochbasculegion_shiny.png",
       "layers": [
         {
           "name": "glow"

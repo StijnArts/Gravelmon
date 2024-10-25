@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:uranium_alteranowten",
-      "texture": "cobblemon:textures/pokemon/uranium/alteranowten.png",
+      "texture": "cobblemon:textures/pokemon/uranium/alteranowten_shiny.png",
       "layers": [
         {
           "name": "glow"

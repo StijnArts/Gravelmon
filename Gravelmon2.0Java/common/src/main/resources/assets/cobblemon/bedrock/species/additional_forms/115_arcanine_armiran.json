@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_armiranarcanine",
-      "texture": "cobblemon:textures/pokemon/generation1/armiranarcanine.png",
+      "texture": "cobblemon:textures/pokemon/generation1/armiranarcanine_shiny.png",
       "layers": [
         {
           "name": "glow"

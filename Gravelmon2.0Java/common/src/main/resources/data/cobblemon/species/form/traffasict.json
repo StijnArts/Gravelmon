@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "traffasict",
-  "nationalPokedexNumber": 4737,
+  "nationalPokedexNumber": 4736,
   "primaryType": "bug",
   "secondaryType": "ground",
   "abilities": [
@@ -37,7 +37,7 @@
     }
   },
   "catchRate": 126,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

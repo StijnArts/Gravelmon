@@ -4,16 +4,15 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:infinity_kokipound",
-      "texture": "cobblemon:textures/pokemon/infinity/kokipound.png",
+      "model": "cobblemon:infinity_kokipound.geo",
+      "texture": "cobblemon:textures/pokemon/infinity/kokipound/kokipound.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/infinity/kokipound.png"
-    }
-  ]
+      "texture": "cobblemon:textures/pokemon/infinity/kokipound/kokipound_shiny.png"
+    }  ]
 }

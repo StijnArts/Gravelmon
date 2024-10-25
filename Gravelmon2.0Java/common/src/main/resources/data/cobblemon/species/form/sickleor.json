@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sickleor",
-  "nationalPokedexNumber": 4819,
+  "nationalPokedexNumber": 4818,
   "primaryType": "bug",
   "secondaryType": "dark",
   "abilities": [
@@ -37,7 +37,7 @@
     }
   },
   "catchRate": 72,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

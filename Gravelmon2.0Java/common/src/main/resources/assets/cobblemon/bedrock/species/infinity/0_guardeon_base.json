@@ -4,16 +4,15 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:infinity_guardeon",
-      "texture": "cobblemon:textures/pokemon/infinity/guardeon.png",
+      "model": "cobblemon:infinity_guardeon.geo",
+      "texture": "cobblemon:textures/pokemon/infinity/guardeon/guardeon.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/infinity/guardeon.png"
-    }
-  ]
+      "texture": "cobblemon:textures/pokemon/infinity/guardeon/guardeon_shiny.png"
+    }  ]
 }

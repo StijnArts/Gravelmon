@@ -71,7 +71,6 @@ public class GenerationOne extends Game {
         pokemon.add(new MahalianStaryu("", Aspect.MAHALIAN).setUsesBigModel());
         pokemon.add(new MahalianRaichu("", Aspect.MAHALIAN).setUsesBigModel());
 
-        pokemon.add(new FerranianRhyhorn("", Aspect.FERRANIAN).setUsesBigModel()); //TODO
         pokemon.add(new FerranianMeowth("", Aspect.FERRANIAN).setUsesBigModel()); //TODO
         pokemon.add(new FerranianMachop("", Aspect.FERRANIAN).setUsesBigModel());
         pokemon.add(new FerranianMachoke("", Aspect.FERRANIAN).setUsesBigModel());

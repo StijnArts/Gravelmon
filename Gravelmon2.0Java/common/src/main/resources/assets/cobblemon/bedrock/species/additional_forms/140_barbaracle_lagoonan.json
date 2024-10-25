@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_lagoonanbarbaracle",
-      "texture": "cobblemon:textures/pokemon/generation6/lagoonanbarbaracle.png",
+      "texture": "cobblemon:textures/pokemon/generation6/lagoonanbarbaracle_shiny.png",
       "layers": [
         {
           "name": "glow"

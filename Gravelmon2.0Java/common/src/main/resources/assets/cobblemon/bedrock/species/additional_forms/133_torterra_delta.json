@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_deltatorterra",
-      "texture": "cobblemon:textures/pokemon/generation4/deltatorterra.png",
+      "texture": "cobblemon:textures/pokemon/generation4/deltatorterra_shiny.png",
       "layers": [
         {
           "name": "glow"

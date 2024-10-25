@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_mixrotom",
-      "texture": "cobblemon:textures/pokemon/generation4/mixrotom.png",
+      "texture": "cobblemon:textures/pokemon/generation4/mixrotom_shiny.png",
       "layers": [
         {
           "name": "glow"

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:daybreak_alolansandridger",
-      "texture": "cobblemon:textures/pokemon/daybreak/alolansandridger.png",
+      "texture": "cobblemon:textures/pokemon/daybreak/alolansandridger_shiny.png",
       "layers": [
         {
           "name": "glow"

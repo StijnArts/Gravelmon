@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/flux/grizzlet.png"
+      "texture": "cobblemon:textures/pokemon/flux/grizzlet_shiny.png"
     }
   ]
 }

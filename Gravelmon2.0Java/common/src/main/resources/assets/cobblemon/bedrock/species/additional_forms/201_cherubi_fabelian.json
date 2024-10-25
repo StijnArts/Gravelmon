@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_fabeliancherubi",
-      "texture": "cobblemon:textures/pokemon/generation4/fabeliancherubi.png",
+      "texture": "cobblemon:textures/pokemon/generation4/fabeliancherubi_shiny.png",
       "layers": [
         {
           "name": "glow"

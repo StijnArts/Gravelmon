@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wigglcream",
-  "nationalPokedexNumber": 4734,
+  "nationalPokedexNumber": 4733,
   "primaryType": "fairy",
   "secondaryType": "ice",
   "abilities": [
@@ -37,7 +37,7 @@
     }
   },
   "catchRate": 110,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_formansquirtle",
-      "texture": "cobblemon:textures/pokemon/generation1/formansquirtle.png",
+      "texture": "cobblemon:textures/pokemon/generation1/formansquirtle_shiny.png",
       "layers": [
         {
           "name": "glow"

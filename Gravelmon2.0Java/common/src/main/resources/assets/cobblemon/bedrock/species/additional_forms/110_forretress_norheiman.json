@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_norheimanforretress",
-      "texture": "cobblemon:textures/pokemon/generation2/norheimanforretress.png",
+      "texture": "cobblemon:textures/pokemon/generation2/norheimanforretress_shiny.png",
       "layers": [
         {
           "name": "glow"

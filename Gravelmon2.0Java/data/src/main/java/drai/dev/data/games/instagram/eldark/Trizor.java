@@ -59,7 +59,7 @@ public class Trizor extends drai.dev.data.games.registry.Game {
         pokemon.add(new Cattwo().setUsesBigModel());
         pokemon.add(new Fetrio(new Stats(510, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPEED))).setUsesBigModel());
         pokemon.add(new Alyops().setUsesBigModel());
-        pokemon.add(new Eenops().setUsesBigModel());
+        pokemon.add(new Teenops().setUsesBigModel());
         pokemon.add(new Eyesult(new Stats(500, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))).setUsesBigModel());
         pokemon.add(new Ugduck().setUsesBigModel());
         pokemon.add(new Swaqueen(new Stats(470, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))).setUsesBigModel());

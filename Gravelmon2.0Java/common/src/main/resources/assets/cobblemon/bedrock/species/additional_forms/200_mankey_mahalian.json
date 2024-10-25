@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_mahalianmankey",
-      "texture": "cobblemon:textures/pokemon/generation1/mahalianmankey.png",
+      "texture": "cobblemon:textures/pokemon/generation1/mahalianmankey_shiny.png",
       "layers": [
         {
           "name": "glow"

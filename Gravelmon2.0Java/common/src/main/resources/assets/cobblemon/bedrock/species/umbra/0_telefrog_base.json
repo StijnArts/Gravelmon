@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/umbra/telefrog.png"
+      "texture": "cobblemon:textures/pokemon/umbra/telefrog_shiny.png"
     },
     {
       "aspects": [
@@ -26,7 +26,7 @@
         "female",
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/umbra/telefrog_female.png"
+      "texture": "cobblemon:textures/pokemon/umbra/telefrog_female_shiny.png"
     }
   ]
 }

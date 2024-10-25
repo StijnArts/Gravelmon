@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/lockemon/catatomb.png"
+      "texture": "cobblemon:textures/pokemon/lockemon/catatomb_shiny.png"
     }
   ]
 }

@@ -4,16 +4,15 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:deneb_maelstream",
-      "texture": "cobblemon:textures/pokemon/deneb/maelstream.png",
+      "model": "cobblemon:deneb_maelstream.geo",
+      "texture": "cobblemon:textures/pokemon/deneb/maelstream/maelstream.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/deneb/maelstream.png"
-    }
-  ]
+      "texture": "cobblemon:textures/pokemon/deneb/maelstream/maelstream_shiny.png"
+    }  ]
 }

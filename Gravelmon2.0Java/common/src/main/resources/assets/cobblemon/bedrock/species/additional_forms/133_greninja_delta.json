@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_deltagreninja",
-      "texture": "cobblemon:textures/pokemon/generation6/deltagreninja.png",
+      "texture": "cobblemon:textures/pokemon/generation6/deltagreninja_shiny.png",
       "layers": [
         {
           "name": "glow"

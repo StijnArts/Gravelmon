@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pokus",
-  "nationalPokedexNumber": 4746,
+  "nationalPokedexNumber": 4745,
   "primaryType": "psychic",
   "secondaryType": "dark",
   "abilities": [
@@ -37,7 +37,7 @@
     }
   },
   "catchRate": 77,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

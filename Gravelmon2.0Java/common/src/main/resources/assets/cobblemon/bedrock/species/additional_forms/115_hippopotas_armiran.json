@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_armiranhippopotas",
-      "texture": "cobblemon:textures/pokemon/generation4/armiranhippopotas.png",
+      "texture": "cobblemon:textures/pokemon/generation4/armiranhippopotas_shiny.png",
       "layers": [
         {
           "name": "glow"

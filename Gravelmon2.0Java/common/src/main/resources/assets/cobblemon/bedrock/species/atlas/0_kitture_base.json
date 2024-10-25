@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/atlas/kitture.png"
+      "texture": "cobblemon:textures/pokemon/atlas/kitture_shiny.png"
     }
   ]
 }

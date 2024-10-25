@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/flux/chiklit.png"
+      "texture": "cobblemon:textures/pokemon/flux/chiklit_shiny.png"
     }
   ]
 }

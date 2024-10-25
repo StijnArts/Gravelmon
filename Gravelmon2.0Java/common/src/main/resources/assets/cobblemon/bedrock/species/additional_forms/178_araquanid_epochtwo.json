@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation7_epocharaquanidone",
-      "texture": "cobblemon:textures/pokemon/generation7/epocharaquanidone.png",
+      "texture": "cobblemon:textures/pokemon/generation7/epocharaquanidone_shiny.png",
       "layers": [
         {
           "name": "glow"

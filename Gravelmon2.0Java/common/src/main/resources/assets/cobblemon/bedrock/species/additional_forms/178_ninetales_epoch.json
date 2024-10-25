@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_epochninetales",
-      "texture": "cobblemon:textures/pokemon/generation1/epochninetales.png",
+      "texture": "cobblemon:textures/pokemon/generation1/epochninetales_shiny.png",
       "layers": [
         {
           "name": "glow"

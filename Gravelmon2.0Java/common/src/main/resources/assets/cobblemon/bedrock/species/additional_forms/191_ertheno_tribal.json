@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:raian_tribalertheno",
-      "texture": "cobblemon:textures/pokemon/raian/tribalertheno.png",
+      "texture": "cobblemon:textures/pokemon/raian/tribalertheno_shiny.png",
       "layers": [
         {
           "name": "glow"

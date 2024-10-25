@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation8_epochfrosmoth",
-      "texture": "cobblemon:textures/pokemon/generation8/epochfrosmoth.png",
+      "texture": "cobblemon:textures/pokemon/generation8/epochfrosmoth_shiny.png",
       "layers": [
         {
           "name": "glow"

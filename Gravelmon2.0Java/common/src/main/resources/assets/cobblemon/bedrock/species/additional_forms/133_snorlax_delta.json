@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_deltasnorlax",
-      "texture": "cobblemon:textures/pokemon/generation1/deltasnorlax.png",
+      "texture": "cobblemon:textures/pokemon/generation1/deltasnorlax_shiny.png",
       "layers": [
         {
           "name": "glow"

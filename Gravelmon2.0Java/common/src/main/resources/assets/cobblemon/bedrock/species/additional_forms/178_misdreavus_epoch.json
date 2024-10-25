@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_epochmisdreavus",
-      "texture": "cobblemon:textures/pokemon/generation2/epochmisdreavus.png",
+      "texture": "cobblemon:textures/pokemon/generation2/epochmisdreavus_shiny.png",
       "layers": [
         {
           "name": "glow"

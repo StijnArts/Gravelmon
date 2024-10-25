@@ -2,6 +2,7 @@ package drai.dev.data.games.instagram.eldark;
 
 
 import drai.dev.data.pokemon.form.*;
+import drai.dev.data.pokemon.form.regional.*;
 
 public class Form extends drai.dev.data.games.registry.Game {
     public Form() {
@@ -28,7 +29,6 @@ public class Form extends drai.dev.data.games.registry.Game {
         pokemon.add(new Raychu().setUsesBigModel());
         pokemon.add(new Toxslash().setUsesBigModel());
         pokemon.add(new Clefagon().setUsesBigModel());
-        pokemon.add(new Ninetails().setUsesBigModel());
         pokemon.add(new Wigglcream().setUsesBigModel());
         pokemon.add(new Egloom().setUsesBigModel());
         pokemon.add(new Egubloom().setUsesBigModel());

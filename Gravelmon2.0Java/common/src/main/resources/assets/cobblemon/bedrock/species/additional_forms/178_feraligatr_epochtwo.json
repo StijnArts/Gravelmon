@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_epochferaligatrone",
-      "texture": "cobblemon:textures/pokemon/generation2/epochferaligatrone.png",
+      "texture": "cobblemon:textures/pokemon/generation2/epochferaligatrone_shiny.png",
       "layers": [
         {
           "name": "glow"

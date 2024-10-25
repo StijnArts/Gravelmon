@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "golderis",
-  "nationalPokedexNumber": 4779,
+  "nationalPokedexNumber": 4778,
   "primaryType": "fighting",
   "secondaryType": "flying",
   "abilities": [
@@ -37,7 +37,7 @@
     }
   },
   "catchRate": 63,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

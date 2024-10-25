@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "apoar",
-  "nationalPokedexNumber": 4741,
+  "nationalPokedexNumber": 4740,
   "primaryType": "dark",
   "secondaryType": "fighting",
   "abilities": [
@@ -37,7 +37,7 @@
     }
   },
   "catchRate": 98,
-  "maleRatio": 0.0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",

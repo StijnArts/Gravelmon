@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_seviianmantine",
-      "texture": "cobblemon:textures/pokemon/generation2/seviianmantine.png",
+      "texture": "cobblemon:textures/pokemon/generation2/seviianmantine_shiny.png",
       "layers": [
         {
           "name": "glow"

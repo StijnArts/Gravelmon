@@ -13,7 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/sage/llamarsh.png"
+      "texture": "cobblemon:textures/pokemon/sage/llamarsh_shiny.png"
     },
     {
       "aspects": [
@@ -26,7 +26,7 @@
         "female",
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/sage/llamarsh_female.png"
+      "texture": "cobblemon:textures/pokemon/sage/llamarsh_female_shiny.png"
     }
   ]
 }

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_relicambipom",
-      "texture": "cobblemon:textures/pokemon/generation4/relicambipom.png",
+      "texture": "cobblemon:textures/pokemon/generation4/relicambipom_shiny.png",
       "layers": [
         {
           "name": "glow"
