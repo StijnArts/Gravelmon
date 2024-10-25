@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:glamamela",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:borazul_glamamela",
+      "texture": "cobblemon:textures/pokemon/borazul/glamamela.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/borazul/glamamela.png"
+    }
+  ]
+}

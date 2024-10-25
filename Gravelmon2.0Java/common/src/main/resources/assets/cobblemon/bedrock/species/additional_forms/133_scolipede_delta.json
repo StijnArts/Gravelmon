@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_deltascolipede",
-      "texture": "cobblemon:textures/pokemon/generation5/deltascolipede_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation5/deltascolipede.png",
       "layers": [
         {
           "name": "glow"

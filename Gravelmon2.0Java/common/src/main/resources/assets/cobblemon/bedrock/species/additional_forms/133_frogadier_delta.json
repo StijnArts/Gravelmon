@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_deltafrogadier",
-      "texture": "cobblemon:textures/pokemon/generation6/deltafrogadier_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation6/deltafrogadier.png",
       "layers": [
         {
           "name": "glow"

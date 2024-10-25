@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation7_hoennianmareanie",
-      "texture": "cobblemon:textures/pokemon/generation7/hoennianmareanie_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation7/hoennianmareanie.png",
       "layers": [
         {
           "name": "glow"

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_ferranianshelgon",
-      "texture": "cobblemon:textures/pokemon/generation3/ferranianshelgon_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation3/ferranianshelgon.png",
       "layers": [
         {
           "name": "glow"

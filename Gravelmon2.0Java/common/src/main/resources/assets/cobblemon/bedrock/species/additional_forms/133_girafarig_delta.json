@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_deltagirafarig",
-      "texture": "cobblemon:textures/pokemon/generation2/deltagirafarig_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation2/deltagirafarig.png",
       "layers": [
         {
           "name": "glow"

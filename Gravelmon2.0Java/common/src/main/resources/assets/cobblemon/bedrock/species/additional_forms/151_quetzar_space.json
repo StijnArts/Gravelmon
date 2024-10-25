@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:sage_quetzarspace",
-      "texture": "cobblemon:textures/pokemon/sage/quetzarspace_shiny.png",
+      "texture": "cobblemon:textures/pokemon/sage/quetzarspace.png",
       "layers": [
         {
           "name": "glow"

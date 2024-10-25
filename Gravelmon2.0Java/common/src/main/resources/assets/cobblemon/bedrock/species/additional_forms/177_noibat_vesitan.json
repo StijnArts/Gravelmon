@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_vesitannoibat",
-      "texture": "cobblemon:textures/pokemon/generation6/vesitannoibat_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation6/vesitannoibat.png",
       "layers": [
         {
           "name": "glow"

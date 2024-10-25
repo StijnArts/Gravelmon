@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation7_fabeliandhelmise",
-      "texture": "cobblemon:textures/pokemon/generation7/fabeliandhelmise_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation7/fabeliandhelmise.png",
       "layers": [
         {
           "name": "glow"

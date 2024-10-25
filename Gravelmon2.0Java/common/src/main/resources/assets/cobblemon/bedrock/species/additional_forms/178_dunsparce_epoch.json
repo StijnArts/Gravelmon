@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_epochdunsparce",
-      "texture": "cobblemon:textures/pokemon/generation2/epochdunsparce_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation2/epochdunsparce.png",
       "layers": [
         {
           "name": "glow"

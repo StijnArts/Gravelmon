@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_ayreianquilava",
-      "texture": "cobblemon:textures/pokemon/generation2/ayreianquilava_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation2/ayreianquilava.png",
       "layers": [
         {
           "name": "glow"

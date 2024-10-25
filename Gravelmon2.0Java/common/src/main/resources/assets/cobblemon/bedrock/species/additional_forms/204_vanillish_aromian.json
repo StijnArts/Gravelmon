@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_aromianvanillish",
-      "texture": "cobblemon:textures/pokemon/generation5/aromianvanillish_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation5/aromianvanillish.png",
       "layers": [
         {
           "name": "glow"

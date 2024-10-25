@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_raianiannoctowl",
-      "texture": "cobblemon:textures/pokemon/generation2/raianiannoctowl_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation2/raianiannoctowl.png",
       "layers": [
         {
           "name": "glow"

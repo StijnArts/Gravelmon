@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation8_fabelianpolteageist",
-      "texture": "cobblemon:textures/pokemon/generation8/fabelianpolteageist_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation8/fabelianpolteageist.png",
       "layers": [
         {
           "name": "glow"

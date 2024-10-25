@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation8_varitasianimpidimp",
-      "texture": "cobblemon:textures/pokemon/generation8/varitasianimpidimp_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation8/varitasianimpidimp.png",
       "layers": [
         {
           "name": "glow"

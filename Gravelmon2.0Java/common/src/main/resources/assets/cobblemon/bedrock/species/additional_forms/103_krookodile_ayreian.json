@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_ayreiankrookodile",
-      "texture": "cobblemon:textures/pokemon/generation5/ayreiankrookodile_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation5/ayreiankrookodile.png",
       "layers": [
         {
           "name": "glow"

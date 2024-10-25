@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_alteranzorua",
-      "texture": "cobblemon:textures/pokemon/generation5/alteranzorua_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation5/alteranzorua.png",
       "layers": [
         {
           "name": "glow"

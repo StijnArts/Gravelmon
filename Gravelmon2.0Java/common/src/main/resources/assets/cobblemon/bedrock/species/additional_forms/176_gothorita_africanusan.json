@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_africanusangothorita",
-      "texture": "cobblemon:textures/pokemon/generation5/africanusangothorita_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation5/africanusangothorita.png",
       "layers": [
         {
           "name": "glow"

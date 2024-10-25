@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_deltavolcarona",
-      "texture": "cobblemon:textures/pokemon/generation5/deltavolcarona_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation5/deltavolcarona.png",
       "layers": [
         {
           "name": "glow"

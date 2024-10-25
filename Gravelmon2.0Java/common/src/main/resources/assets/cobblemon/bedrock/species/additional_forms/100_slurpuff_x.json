@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_slurpuffx",
-      "texture": "cobblemon:textures/pokemon/generation6/slurpuffx_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation6/slurpuffx.png",
       "layers": [
         {
           "name": "glow"

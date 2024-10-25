@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_fabelianherdier",
-      "texture": "cobblemon:textures/pokemon/generation5/fabelianherdier_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation5/fabelianherdier.png",
       "layers": [
         {
           "name": "glow"

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_epochwalrein",
-      "texture": "cobblemon:textures/pokemon/generation3/epochwalrein_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation3/epochwalrein.png",
       "layers": [
         {
           "name": "glow"

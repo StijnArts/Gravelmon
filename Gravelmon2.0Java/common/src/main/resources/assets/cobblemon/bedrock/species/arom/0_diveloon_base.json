@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:diveloon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_diveloon",
+      "texture": "cobblemon:textures/pokemon/arom/diveloon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/diveloon.png"
+    }
+  ]
+}

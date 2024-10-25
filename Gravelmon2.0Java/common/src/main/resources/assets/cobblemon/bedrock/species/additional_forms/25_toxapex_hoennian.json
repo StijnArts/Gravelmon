@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation7_hoenniantoxapex",
-      "texture": "cobblemon:textures/pokemon/generation7/hoenniantoxapex_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation7/hoenniantoxapex.png",
       "layers": [
         {
           "name": "glow"

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_deltasolosis",
-      "texture": "cobblemon:textures/pokemon/generation5/deltasolosis_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation5/deltasolosis.png",
       "layers": [
         {
           "name": "glow"

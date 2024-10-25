@@ -7,8 +7,8 @@
         "forman"
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:form_formanteddiursa",
-      "texture": "cobblemon:textures/pokemon/form/formanteddiursa.png",
+      "poser": "cobblemon:generation2_formanteddiursa",
+      "texture": "cobblemon:textures/pokemon/generation2/formanteddiursa.png",
       "layers": [
         {
           "name": "glow"
@@ -20,7 +20,7 @@
           "name": "emissive"
         },
         {
-          "name": "emissive2"
+          "name": "transparentEmissive"
         },
         {
           "name": "flame"
@@ -36,8 +36,8 @@
         "shiny"
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:form_formanteddiursa",
-      "texture": "cobblemon:textures/pokemon/form/formanteddiursa_shiny.png",
+      "poser": "cobblemon:generation2_formanteddiursa",
+      "texture": "cobblemon:textures/pokemon/generation2/formanteddiursa.png",
       "layers": [
         {
           "name": "glow"
@@ -49,7 +49,7 @@
           "name": "emissive"
         },
         {
-          "name": "emissive2"
+          "name": "transparentEmissive"
         },
         {
           "name": "flame"

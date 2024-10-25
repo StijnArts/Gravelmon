@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation8_lagoonanhatterene",
-      "texture": "cobblemon:textures/pokemon/generation8/lagoonanhatterene_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation8/lagoonanhatterene.png",
       "layers": [
         {
           "name": "glow"

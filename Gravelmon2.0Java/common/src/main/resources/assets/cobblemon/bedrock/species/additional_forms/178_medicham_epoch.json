@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_epochmedicham",
-      "texture": "cobblemon:textures/pokemon/generation3/epochmedicham_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation3/epochmedicham.png",
       "layers": [
         {
           "name": "glow"

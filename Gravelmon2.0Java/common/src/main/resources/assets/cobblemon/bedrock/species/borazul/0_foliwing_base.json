@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:foliwing",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:borazul_foliwing",
+      "texture": "cobblemon:textures/pokemon/borazul/foliwing.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/borazul/foliwing.png"
+    }
+  ]
+}

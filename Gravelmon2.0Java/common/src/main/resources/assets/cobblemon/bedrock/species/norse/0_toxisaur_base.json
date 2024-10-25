@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:toxisaur",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_toxisaur",
+      "texture": "cobblemon:textures/pokemon/norse/toxisaur.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/toxisaur.png"
+    }
+  ]
+}

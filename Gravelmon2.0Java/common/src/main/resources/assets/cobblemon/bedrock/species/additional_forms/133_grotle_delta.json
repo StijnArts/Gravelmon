@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_deltagrotle",
-      "texture": "cobblemon:textures/pokemon/generation4/deltagrotle_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation4/deltagrotle.png",
       "layers": [
         {
           "name": "glow"

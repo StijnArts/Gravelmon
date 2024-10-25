@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_armirantyranitar",
-      "texture": "cobblemon:textures/pokemon/generation2/armirantyranitar_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation2/armirantyranitar.png",
       "layers": [
         {
           "name": "glow"

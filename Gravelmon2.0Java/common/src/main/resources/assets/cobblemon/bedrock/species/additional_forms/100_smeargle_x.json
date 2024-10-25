@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_smearglex",
-      "texture": "cobblemon:textures/pokemon/generation2/smearglex_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation2/smearglex.png",
       "layers": [
         {
           "name": "glow"

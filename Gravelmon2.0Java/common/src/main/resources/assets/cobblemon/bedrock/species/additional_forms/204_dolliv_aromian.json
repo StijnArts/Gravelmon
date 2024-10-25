@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation9_aromiandolliv",
-      "texture": "cobblemon:textures/pokemon/generation9/aromiandolliv_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation9/aromiandolliv.png",
       "layers": [
         {
           "name": "glow"

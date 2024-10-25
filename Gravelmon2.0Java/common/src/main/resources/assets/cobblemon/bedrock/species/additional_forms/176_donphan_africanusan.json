@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_africanusandonphan",
-      "texture": "cobblemon:textures/pokemon/generation2/africanusandonphan_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation2/africanusandonphan.png",
       "layers": [
         {
           "name": "glow"

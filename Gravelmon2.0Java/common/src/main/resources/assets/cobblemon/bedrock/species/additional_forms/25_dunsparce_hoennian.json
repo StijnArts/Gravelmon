@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_hoenniandunsparce",
-      "texture": "cobblemon:textures/pokemon/generation2/hoenniandunsparce_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation2/hoenniandunsparce.png",
       "layers": [
         {
           "name": "glow"

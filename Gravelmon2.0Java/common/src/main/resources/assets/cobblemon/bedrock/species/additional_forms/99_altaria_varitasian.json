@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_varitasianaltaria",
-      "texture": "cobblemon:textures/pokemon/generation3/varitasianaltaria_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation3/varitasianaltaria.png",
       "layers": [
         {
           "name": "glow"

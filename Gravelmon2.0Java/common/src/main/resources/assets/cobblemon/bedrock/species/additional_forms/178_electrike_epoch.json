@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_epochelectrike",
-      "texture": "cobblemon:textures/pokemon/generation3/epochelectrike_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation3/epochelectrike.png",
       "layers": [
         {
           "name": "glow"

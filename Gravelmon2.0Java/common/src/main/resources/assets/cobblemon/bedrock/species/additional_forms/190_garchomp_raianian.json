@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_raianiangarchomp",
-      "texture": "cobblemon:textures/pokemon/generation4/raianiangarchomp_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation4/raianiangarchomp.png",
       "layers": [
         {
           "name": "glow"

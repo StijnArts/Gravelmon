@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:felightning",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lagoone_felightning",
+      "texture": "cobblemon:textures/pokemon/lagoone/felightning.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lagoone/felightning.png"
+    }
+  ]
+}

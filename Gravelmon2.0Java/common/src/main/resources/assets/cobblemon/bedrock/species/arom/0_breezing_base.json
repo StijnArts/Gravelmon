@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:breezing",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_breezing",
+      "texture": "cobblemon:textures/pokemon/arom/breezing.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/breezing.png"
+    }
+  ]
+}

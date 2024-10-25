@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:garbagoon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferran_garbagoon",
+      "texture": "cobblemon:textures/pokemon/ferran/garbagoon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferran/garbagoon.png"
+    }
+  ]
+}

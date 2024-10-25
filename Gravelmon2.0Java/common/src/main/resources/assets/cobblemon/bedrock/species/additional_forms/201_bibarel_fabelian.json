@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_fabelianbibarel",
-      "texture": "cobblemon:textures/pokemon/generation4/fabelianbibarel_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation4/fabelianbibarel.png",
       "layers": [
         {
           "name": "glow"

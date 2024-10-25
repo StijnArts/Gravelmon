@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_epochzebstrika",
-      "texture": "cobblemon:textures/pokemon/generation5/epochzebstrika_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation5/epochzebstrika.png",
       "layers": [
         {
           "name": "glow"

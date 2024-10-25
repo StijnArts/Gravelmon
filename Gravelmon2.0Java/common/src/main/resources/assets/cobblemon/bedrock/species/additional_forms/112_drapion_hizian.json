@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_hiziandrapion",
-      "texture": "cobblemon:textures/pokemon/generation4/hiziandrapion_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation4/hiziandrapion.png",
       "layers": [
         {
           "name": "glow"

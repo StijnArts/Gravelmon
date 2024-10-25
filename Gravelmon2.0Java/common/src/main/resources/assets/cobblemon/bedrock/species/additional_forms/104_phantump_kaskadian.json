@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_kaskadianphantump",
-      "texture": "cobblemon:textures/pokemon/generation6/kaskadianphantump_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation6/kaskadianphantump.png",
       "layers": [
         {
           "name": "glow"

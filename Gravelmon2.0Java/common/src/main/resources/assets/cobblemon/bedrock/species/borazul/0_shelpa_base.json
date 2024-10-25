@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:shelpa",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:borazul_shelpa",
+      "texture": "cobblemon:textures/pokemon/borazul/shelpa.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/borazul/shelpa.png"
+    }
+  ]
+}

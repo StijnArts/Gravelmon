@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_twirlrotom",
-      "texture": "cobblemon:textures/pokemon/generation4/twirlrotom_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation4/twirlrotom.png",
       "layers": [
         {
           "name": "glow"

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_epochhoopa",
-      "texture": "cobblemon:textures/pokemon/generation6/epochhoopa_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation6/epochhoopa.png",
       "layers": [
         {
           "name": "glow"

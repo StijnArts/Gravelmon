@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_deltareuniclus",
-      "texture": "cobblemon:textures/pokemon/generation5/deltareuniclus_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation5/deltareuniclus.png",
       "layers": [
         {
           "name": "glow"

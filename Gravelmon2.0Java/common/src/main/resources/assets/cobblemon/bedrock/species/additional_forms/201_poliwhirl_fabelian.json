@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_fabelianpoliwhirl",
-      "texture": "cobblemon:textures/pokemon/generation1/fabelianpoliwhirl_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation1/fabelianpoliwhirl.png",
       "layers": [
         {
           "name": "glow"

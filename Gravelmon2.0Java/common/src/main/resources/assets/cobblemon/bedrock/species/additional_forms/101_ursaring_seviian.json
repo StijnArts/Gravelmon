@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_seviianursaring",
-      "texture": "cobblemon:textures/pokemon/generation2/seviianursaring_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation2/seviianursaring.png",
       "layers": [
         {
           "name": "glow"

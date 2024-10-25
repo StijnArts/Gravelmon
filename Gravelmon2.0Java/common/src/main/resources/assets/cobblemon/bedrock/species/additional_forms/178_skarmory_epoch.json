@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_epochskarmory",
-      "texture": "cobblemon:textures/pokemon/generation2/epochskarmory_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation2/epochskarmory.png",
       "layers": [
         {
           "name": "glow"

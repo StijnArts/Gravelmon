@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_novranvanillite",
-      "texture": "cobblemon:textures/pokemon/generation5/novranvanillite_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation5/novranvanillite.png",
       "layers": [
         {
           "name": "glow"

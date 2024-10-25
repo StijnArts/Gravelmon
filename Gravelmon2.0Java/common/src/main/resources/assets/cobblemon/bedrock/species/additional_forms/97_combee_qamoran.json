@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_qamorancombee",
-      "texture": "cobblemon:textures/pokemon/generation4/qamorancombee_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation4/qamorancombee.png",
       "layers": [
         {
           "name": "glow"

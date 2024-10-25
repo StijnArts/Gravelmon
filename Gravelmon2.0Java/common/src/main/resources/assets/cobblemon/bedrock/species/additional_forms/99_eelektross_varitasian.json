@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_varitasianeelektross",
-      "texture": "cobblemon:textures/pokemon/generation5/varitasianeelektross_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation5/varitasianeelektross.png",
       "layers": [
         {
           "name": "glow"

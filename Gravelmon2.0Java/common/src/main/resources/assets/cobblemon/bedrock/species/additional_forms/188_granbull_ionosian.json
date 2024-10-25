@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_ionosiangranbull",
-      "texture": "cobblemon:textures/pokemon/generation2/ionosiangranbull_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation2/ionosiangranbull.png",
       "layers": [
         {
           "name": "glow"

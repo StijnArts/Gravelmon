@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:troboi",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_troboi",
+      "texture": "cobblemon:textures/pokemon/norse/troboi.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/troboi.png"
+    }
+  ]
+}

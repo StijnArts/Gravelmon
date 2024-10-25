@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_epochjellicent",
-      "texture": "cobblemon:textures/pokemon/generation5/epochjellicent_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation5/epochjellicent.png",
       "layers": [
         {
           "name": "glow"

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_epochalakazam",
-      "texture": "cobblemon:textures/pokemon/generation1/epochalakazam_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation1/epochalakazam.png",
       "layers": [
         {
           "name": "glow"

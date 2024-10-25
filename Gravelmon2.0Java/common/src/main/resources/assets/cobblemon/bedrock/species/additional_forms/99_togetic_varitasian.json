@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_varitasiantogetic",
-      "texture": "cobblemon:textures/pokemon/generation2/varitasiantogetic_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation2/varitasiantogetic.png",
       "layers": [
         {
           "name": "glow"

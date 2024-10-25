@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_epochwailmer",
-      "texture": "cobblemon:textures/pokemon/generation3/epochwailmer_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation3/epochwailmer.png",
       "layers": [
         {
           "name": "glow"

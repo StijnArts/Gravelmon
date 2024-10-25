@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_fabelianspinarak",
-      "texture": "cobblemon:textures/pokemon/generation2/fabelianspinarak_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation2/fabelianspinarak.png",
       "layers": [
         {
           "name": "glow"

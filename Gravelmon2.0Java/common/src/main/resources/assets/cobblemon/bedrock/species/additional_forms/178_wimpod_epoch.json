@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation7_epochwimpod",
-      "texture": "cobblemon:textures/pokemon/generation7/epochwimpod_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation7/epochwimpod.png",
       "layers": [
         {
           "name": "glow"

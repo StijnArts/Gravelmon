@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_epochbinacle",
-      "texture": "cobblemon:textures/pokemon/generation6/epochbinacle_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation6/epochbinacle.png",
       "layers": [
         {
           "name": "glow"

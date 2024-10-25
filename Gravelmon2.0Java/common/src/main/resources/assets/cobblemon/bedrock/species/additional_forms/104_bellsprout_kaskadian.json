@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_kaskadianbellsprout",
-      "texture": "cobblemon:textures/pokemon/generation1/kaskadianbellsprout_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation1/kaskadianbellsprout.png",
       "layers": [
         {
           "name": "glow"

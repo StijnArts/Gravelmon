@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_fabelianbidoof",
-      "texture": "cobblemon:textures/pokemon/generation4/fabelianbidoof_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation4/fabelianbidoof.png",
       "layers": [
         {
           "name": "glow"

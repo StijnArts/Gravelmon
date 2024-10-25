@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_africanusanmachamp",
-      "texture": "cobblemon:textures/pokemon/generation1/africanusanmachamp_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation1/africanusanmachamp.png",
       "layers": [
         {
           "name": "glow"

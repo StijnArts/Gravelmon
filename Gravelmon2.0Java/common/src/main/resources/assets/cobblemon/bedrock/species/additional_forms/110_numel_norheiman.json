@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_norheimannumel",
-      "texture": "cobblemon:textures/pokemon/generation3/norheimannumel_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation3/norheimannumel.png",
       "layers": [
         {
           "name": "glow"

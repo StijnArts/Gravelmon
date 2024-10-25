@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_armiranfroakie",
-      "texture": "cobblemon:textures/pokemon/generation6/armiranfroakie_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation6/armiranfroakie.png",
       "layers": [
         {
           "name": "glow"

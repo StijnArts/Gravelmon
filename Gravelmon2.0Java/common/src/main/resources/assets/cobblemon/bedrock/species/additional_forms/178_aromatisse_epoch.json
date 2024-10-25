@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_epocharomatisse",
-      "texture": "cobblemon:textures/pokemon/generation6/epocharomatisse_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation6/epocharomatisse.png",
       "layers": [
         {
           "name": "glow"

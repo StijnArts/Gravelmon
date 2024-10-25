@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:fruibat",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:borazul_fruibat",
+      "texture": "cobblemon:textures/pokemon/borazul/fruibat.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/borazul/fruibat.png"
+    }
+  ]
+}

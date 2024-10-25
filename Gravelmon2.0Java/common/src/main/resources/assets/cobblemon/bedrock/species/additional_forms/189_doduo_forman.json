@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_formandoduo",
-      "texture": "cobblemon:textures/pokemon/generation1/formandoduo_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation1/formandoduo.png",
       "layers": [
         {
           "name": "glow"

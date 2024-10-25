@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_formandrowzee",
-      "texture": "cobblemon:textures/pokemon/generation1/formandrowzee_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation1/formandrowzee.png",
       "layers": [
         {
           "name": "glow"

@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation6_epochgoomy",
-      "texture": "cobblemon:textures/pokemon/generation6/epochgoomy_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation6/epochgoomy.png",
       "layers": [
         {
           "name": "glow"

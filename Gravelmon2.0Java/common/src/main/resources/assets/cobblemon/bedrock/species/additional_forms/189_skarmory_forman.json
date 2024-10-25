@@ -37,7 +37,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation2_formanskarmory",
-      "texture": "cobblemon:textures/pokemon/generation2/formanskarmory_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation2/formanskarmory.png",
       "layers": [
         {
           "name": "glow"
