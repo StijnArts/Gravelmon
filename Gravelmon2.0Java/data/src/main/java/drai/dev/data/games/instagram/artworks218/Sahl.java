@@ -13,6 +13,7 @@ public class Sahl extends drai.dev.data.games.registry.Game {
     @Override
     public void registerPokemon() {
 
+        pokemon.add(new Meikourkei().setUsesBigModel());
         pokemon.add(new Regifly().setUsesBigModel());
         pokemon.add(new Regibug().setUsesBigModel());
         pokemon.add(new Suimoru().setUsesBigModel());
