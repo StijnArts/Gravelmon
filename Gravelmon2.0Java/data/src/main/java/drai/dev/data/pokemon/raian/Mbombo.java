@@ -84,6 +84,7 @@ public class Mbombo extends drai.dev.data.pokemon.Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setHasGenderDifferences(true);
            setLangFileName("Mbombo");
 
     }

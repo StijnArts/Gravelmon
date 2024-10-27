@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:strinmmer",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_strinmmer",
+      "texture": "cobblemon:textures/pokemon/ivris/strinmmer.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/strinmmer.png"
+    }
+  ]
+}

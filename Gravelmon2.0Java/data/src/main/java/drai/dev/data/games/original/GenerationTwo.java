@@ -67,7 +67,6 @@ public class GenerationTwo extends Game {
         pokemon.add(new MahalianYanma("", Aspect.MAHALIAN).setUsesBigModel());
 
         pokemon.add(new IvrisianSmeargle("", Aspect.IVRISIAN).setUsesBigModel()); //TODO
-        pokemon.add(new IvrisianSteelix("", Aspect.IVRISIAN).setUsesBigModel());
 
         //TODO
         pokemon.add(new RaianianScizor("", Aspect.RAIANIAN, new Stats(500, BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))).setUsesBigModel());

@@ -97,7 +97,6 @@ public class Ivris extends drai.dev.data.games.registry.Game {
         pokemon.add(new Pizzalash().setUsesBigModel());
         pokemon.add(new Fibichou().setUsesBigModel());
         pokemon.add(new Lanterror().setUsesBigModel());
-        pokemon.add(new Clawncher().setUsesBigModel());
         pokemon.add(new Clawkilno().setUsesBigModel());
         pokemon.add(new Rhyqualo().setUsesBigModel());
         pokemon.add(new Rhylodon().setUsesBigModel());
@@ -135,7 +134,10 @@ public class Ivris extends drai.dev.data.games.registry.Game {
         pokemon.add(new Crispae().setUsesBigModel());
         pokemon.add(new Corekatrisp().setUsesBigModel());
         pokemon.add(new Chipzalcoatl().setUsesBigModel());
-        pokemon.add(new Wrrazal().setUsesBigModel());
+        pokemon.add(new Moroller().setUsesBigModel());
+        pokemon.add(new Strinmmer().setUsesBigModel());
+        pokemon.add(new Nartana().setUsesBigModel());
+        pokemon.add(new Wrrazal().setUsesBigModel()); //fossil
         pokemon.add(new Specterzal().setUsesBigModel());
         pokemon.add(new IronJaws().setUsesBigModel());
         pokemon.add(new AbyssalHunger().setUsesBigModel());

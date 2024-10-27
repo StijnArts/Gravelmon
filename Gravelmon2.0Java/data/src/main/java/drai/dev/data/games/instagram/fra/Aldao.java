@@ -17,7 +17,7 @@ public class Aldao extends drai.dev.data.games.registry.Game {
         pokemon.add(new Cubby().setUsesBigModel());
         pokemon.add(new Tigember().setUsesBigModel());
         pokemon.add(new Tigerage().setUsesBigModel());
-        pokemon.add(new Nymmble().setUsesBigModel());
+        pokemon.add(new Nymbble().setUsesBigModel());
         pokemon.add(new Nymbubble().setUsesBigModel());
         pokemon.add(new Dracodont().setUsesBigModel());
         pokemon.add(new Lilbil().setUsesBigModel());

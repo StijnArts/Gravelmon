@@ -5,6 +5,7 @@ import drai.dev.data.pokemon.africanus.regional.*;
 import drai.dev.data.pokemon.arom.regional.*;
 import drai.dev.data.pokemon.chaosinvestia.*;
 import drai.dev.data.pokemon.chaosinvestia.regional.*;
+import drai.dev.data.pokemon.ivris.*;
 import drai.dev.data.pokemon.ivris.regional.*;
 import drai.dev.data.pokemon.lagoone.regional.*;
 import drai.dev.data.pokemon.mahal.regional.*;
@@ -38,6 +39,7 @@ public class GenerationSix extends Game {
         pokemon.add(new MahalianDiggersby("", Aspect.MAHALIAN).setUsesBigModel());
 
         pokemon.add(new IvrisianSpritzee("", Aspect.IVRISIAN).setUsesBigModel()); //TODO
+        pokemon.add(new IvrisianClauncher("", Aspect.IVRISIAN).setUsesBigModel());
 
 //        pokemon.add(new PastelianFlabebe("", Aspect.PASTELIAN)); TODO
 //        pokemon.add(new PastelianFloette("", Aspect.PASTELIAN));

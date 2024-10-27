@@ -6,10 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Maxard extends drai.dev.data.pokemon.Pokemon {
-    public Maxard(Stats stats) {
+    public Maxard() {
         super("Maxard",
                 Type.GROUND,
-                stats,
+                new Stats(0,0,0,0,0,0),
                 List.of(), null,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

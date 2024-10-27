@@ -47,7 +47,7 @@ public class Raian extends drai.dev.data.games.registry.Game {
         pokemon.add(new Jaklaze(new Stats(450, BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))).setUsesBigModel());
         pokemon.add(new Dimolf().setUsesBigModel());
         pokemon.add(new Wultail(new Stats(454, BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE, StatType.ATTACK, StatType.ATTACK))).setUsesBigModel());
-        pokemon.add(new Maxard(new Stats(410, SPECIAL_WALL, List.of(SPECIAL_DEFENCE))).setUsesBigModel());
+        pokemon.add(new Maxard().setUsesBigModel());
         pokemon.add(new Triagon(new Stats(410, FAST_PHYSICAL_ATTACKER, List.of(SPEED))).setUsesBigModel());
 
         pokemon.add(new Snaprick().setUsesBigModel());
@@ -138,9 +138,9 @@ public class Raian extends drai.dev.data.games.registry.Game {
         pokemon.add(new Spiturtos(new Stats(500, FAST_PHYSICAL_ATTACKER, List.of(DEFENCE))).setUsesBigModel());
         pokemon.add(new Beninroz(new Stats(500, FAST_PHYSICAL_ATTACKER, List.of(SPEED))).setUsesBigModel());
 
-        pokemon.add(new Tryambeak().setUsesBigModel());
+        pokemon.add(new Tryambeak().setUsesBigModel()); //fossil
         pokemon.add(new Terrotryma(new Stats(460, PHYSICAL_ATTACKER, List.of(ATTACK))).setUsesBigModel());
-        pokemon.add(new Nodoo().setUsesBigModel());
+        pokemon.add(new Nodoo().setUsesBigModel()); //fossil
         pokemon.add(new Dodenius(new Stats(460, PHYSICAL_WALL, List.of(HP))).setUsesBigModel());
         pokemon.add(new Chamenetic().setUsesBigModel());
         pokemon.add(new Geneleon(new Stats(450, SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))).setUsesBigModel());
