@@ -2,7 +2,7 @@ package drai.dev.data.games.pokemmo;
 
 
 import drai.dev.data.pokemon.avalos.*;
-
+//Done
 public class Avalos extends drai.dev.data.games.registry.Game {
     public Avalos() {
         super("Fliga");
@@ -106,7 +106,7 @@ public class Avalos extends drai.dev.data.games.registry.Game {
         pokemon.add(new Newcleaur());
         pokemon.add(new Chilormangur());
         pokemon.add(new Operlogica());
-//        pokemon.add(new Wushenli()); todo
+        pokemon.add(new Wushenli());
     }
 
 }

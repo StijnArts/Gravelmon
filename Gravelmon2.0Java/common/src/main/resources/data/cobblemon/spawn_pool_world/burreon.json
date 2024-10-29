@@ -18,6 +18,7 @@
 "biomes": [ "#cobblemon:is_sandy" ],
         "canSeeSky": true
       }
+
     }
   ]
 }

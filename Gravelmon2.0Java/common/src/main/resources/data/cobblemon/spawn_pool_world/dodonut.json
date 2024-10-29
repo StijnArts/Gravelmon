@@ -18,6 +18,7 @@
 "biomes": [ "#cobblemon:is_tropical_island" ],
         "canSeeSky": true
       }
+
     }
   ]
 }

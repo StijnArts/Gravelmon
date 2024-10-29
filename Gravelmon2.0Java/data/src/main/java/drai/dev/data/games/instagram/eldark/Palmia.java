@@ -151,7 +151,7 @@ public class Palmia  extends drai.dev.data.games.registry.Game {
         pokemon.add(new Yeggrize(new Stats(580, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.SPEED))).setUsesBigModel());
         pokemon.add(new Pixirize(new Stats(580, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))).setUsesBigModel());
         pokemon.add(new Polurize(new Stats(580, StatArchetype.SPECIAL_WALL, List.of(StatType.SPECIAL_ATTACK))).setUsesBigModel());
-        pokemon.add(new Raprize(new Stats(580, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK, StatType.ATTACK))).setUsesBigModel());
+        pokemon.add(new Traprize(new Stats(580, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK, StatType.ATTACK))).setUsesBigModel());
         pokemon.add(new Glacerize(new Stats(580, StatArchetype.SPECIAL_WALL, List.of(StatType.HP))).setUsesBigModel());
         pokemon.add(new Boldurize(new Stats(580, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
         pokemon.add(new Kagenrize(new Stats(580, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());

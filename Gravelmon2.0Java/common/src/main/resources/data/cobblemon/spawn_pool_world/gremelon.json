@@ -18,6 +18,7 @@
 "biomes": [ "#cobblemon:has_season/summer" ],
         "canSeeSky": true
       }
+
     }
   ]
 }

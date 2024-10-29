@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:elesmoduct",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:crozoic_elesmoduct",
+      "texture": "cobblemon:textures/pokemon/crozoic/elesmoduct.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/crozoic/elesmoduct.png"
+    }
+  ]
+}

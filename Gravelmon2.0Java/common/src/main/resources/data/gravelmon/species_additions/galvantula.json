@@ -145,7 +145,7 @@
   "secondaryType": "ice",
   "abilities": [
     "compoundeyes",
-    "shielddust",
+    "SHIELD_DUST",
     "h:refrigerate"
   ],
   "baseStats": {

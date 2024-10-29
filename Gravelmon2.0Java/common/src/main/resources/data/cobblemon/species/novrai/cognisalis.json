@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cognisalis",
-  "nationalPokedexNumber": 6351,
+  "nationalPokedexNumber": 6379,
   "primaryType": "bug",
   "abilities": [
     "unnerve",

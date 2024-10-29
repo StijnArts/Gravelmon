@@ -73,7 +73,8 @@ public class Twintuff extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.HUMAN_LIKE),
                 List.of("- Rock ThrowSTAB Rock - Fling  Dark - Seismic TossSTAB Fighting - Upper Hand STAB Fighting - Circle ThrowSTAB Fighting - Stone EdgeSTAB Rock - Head SmashSTAB Rock - Sand Tomb  Ground"),
-                List.of(),
+                List.of(new EvolutionEntry("rocktile", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CIRCLE_THROW,1),
                         new MoveLearnSetEntry(Move.UPPERHAND,1),
@@ -85,8 +86,8 @@ public class Twintuff extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLING,1)                        ),
                 List.of(Label.CROZOIC),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 32, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

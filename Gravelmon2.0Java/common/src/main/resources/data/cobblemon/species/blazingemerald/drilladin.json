@@ -1,12 +1,12 @@
 {
   "implemented": true,
   "name": "drilladin",
-  "nationalPokedexNumber": 4844,
+  "nationalPokedexNumber": 4870,
   "primaryType": "bug",
   "secondaryType": "poison",
   "abilities": [
     "battlearmor",
-    "h:shielddust"
+    "h:SHIELD_DUST"
   ],
   "baseStats": {
     "hp": 110,

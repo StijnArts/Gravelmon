@@ -6,7 +6,7 @@
   "secondaryType": "normal",
   "abilities": [
     "fluffy",
-    "h:shielddust"
+    "h:SHIELD_DUST"
   ],
   "baseStats": {
     "hp": 80,

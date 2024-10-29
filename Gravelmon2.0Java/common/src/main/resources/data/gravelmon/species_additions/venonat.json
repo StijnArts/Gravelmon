@@ -100,7 +100,7 @@
   "primaryType": "bug",
   "secondaryType": "grass",
   "abilities": [
-    "shielddust",
+    "SHIELD_DUST",
     "protean",
     "h:tintedlens"
   ],
@@ -505,7 +505,7 @@
   "primaryType": "bug",
   "secondaryType": "ground",
   "abilities": [
-    "shielddust",
+    "SHIELD_DUST",
     "tintedlens"  ],
   "baseStats": {
     "hp": 60,

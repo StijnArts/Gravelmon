@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:tenchondri",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:crozoic_tenchondri",
+      "texture": "cobblemon:textures/pokemon/crozoic/tenchondri.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/crozoic/tenchondri.png"
+    }
+  ]
+}

@@ -18,6 +18,7 @@
 "biomes": [ "#minecraft:is_deep_ocean" ],
         "maxY": 40
       }
+
     }
   ]
 }

@@ -5,7 +5,7 @@
   "primaryType": "bug",
   "secondaryType": "grass",
   "abilities": [
-    "shielddust",
+    "SHIELD_DUST",
     "protean",
     "h:tintedlens"
   ],

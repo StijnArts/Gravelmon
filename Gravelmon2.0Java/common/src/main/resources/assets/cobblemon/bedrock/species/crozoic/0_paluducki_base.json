@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:paluducki",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:crozoic_paluducki",
+      "texture": "cobblemon:textures/pokemon/crozoic/paluducki.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/crozoic/paluducki.png"
+    }
+  ]
+}

@@ -18,6 +18,7 @@
 "biomes": [ "#cobblemon:is_mountain" ],
         "canSeeSky": true
       }
+
     }
   ]
 }

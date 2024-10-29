@@ -1,13 +1,13 @@
 {
   "implemented": true,
   "name": "cottoon",
-  "nationalPokedexNumber": 3729,
+  "nationalPokedexNumber": 3724,
   "primaryType": "bug",
   "secondaryType": "grass",
   "abilities": [
     "overcoat",
     "tanglinghair",
-    "h:shielddust"
+    "h:SHIELD_DUST"
   ],
   "baseStats": {
     "hp": 50,

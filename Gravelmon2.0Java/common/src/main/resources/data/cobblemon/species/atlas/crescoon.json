@@ -1,11 +1,11 @@
 {
   "implemented": true,
   "name": "crescoon",
-  "nationalPokedexNumber": 6672,
+  "nationalPokedexNumber": 6700,
   "primaryType": "bug",
   "secondaryType": "psychic",
   "abilities": [
-    "shielddust",
+    "SHIELD_DUST",
     "h:wonderskin"
   ],
   "baseStats": {

@@ -1,11 +1,11 @@
 {
   "implemented": true,
   "name": "bomblebee",
-  "nationalPokedexNumber": 3946,
+  "nationalPokedexNumber": 3941,
   "primaryType": "steel",
   "secondaryType": "bug",
   "abilities": [
-    "shielddust",
+    "SHIELD_DUST",
     "aftermath",
     "h:lightmetal"
   ],

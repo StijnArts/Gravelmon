@@ -18,6 +18,13 @@
 "biomes": [ "#cobblemon:is_jungle",
 "#minecraft:is_end" ]
       }
+
+,"weightMultiplier": {
+               "multiplier": 5.0,
+               "condition": {
+"neededNearbyBlocks": [
+                   "minecraft:sculk_sensor"               ]               }
+           }
     }
   ]
 }

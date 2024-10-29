@@ -19,6 +19,7 @@
 "biomes": [ "#cobblemon:is_warm_ocean" ],
         "canSeeSky": true
       }
+
     }
   ]
 }

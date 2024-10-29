@@ -18,6 +18,7 @@
 "biomes": [ "minecraft:birch_forest" ],
         "canSeeSky": true
       }
+
     }
   ]
 }

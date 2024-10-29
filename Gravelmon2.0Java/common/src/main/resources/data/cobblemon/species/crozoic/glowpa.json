@@ -1,0 +1,101 @@
+{
+  "implemented": true,
+  "name": "glowpa",
+  "nationalPokedexNumber": 4131,
+  "primaryType": "electric",
+  "secondaryType": "ice",
+  "abilities": [
+    "levitate"  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 81,
+    "defence": 48,
+    "special_attack": 23,
+    "special_defence": 48,
+    "speed": 69
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug",
+    "dragon"
+  ],
+  "moves": [
+    "1:thundershock",
+    "1:powdersnow",
+    "1:quickattack",
+    "1:quickattack"  ],
+  "labels": [
+    "crozoic",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.glowpa.desc"
+  ],
+  "preEvolution": "lumarva",
+  "evolutions": [
+    {
+      "id": "glowpa_cryoptera",
+      "variant": "level_up",
+      "result": "cryoptera",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.13333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 45,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

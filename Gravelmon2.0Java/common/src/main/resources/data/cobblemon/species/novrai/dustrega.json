@@ -1,11 +1,11 @@
 {
   "implemented": true,
   "name": "dustrega",
-  "nationalPokedexNumber": 6524,
+  "nationalPokedexNumber": 6552,
   "primaryType": "psychic",
   "secondaryType": "flying",
   "abilities": [
-    "shielddust",
+    "SHIELD_DUST",
     "magicguard",
     "h:telepathy"
   ],

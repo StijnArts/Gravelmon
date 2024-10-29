@@ -18,6 +18,7 @@
 "biomes": [ "#cobblemon:is_cave",
 "#cobblemon:nether/is_forest" ]
       }
+
     }
   ]
 }

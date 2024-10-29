@@ -6,7 +6,7 @@
   "secondaryType": "flying",
   "abilities": [
     "intimidate",
-    "h:shielddust"
+    "h:SHIELD_DUST"
   ],
   "baseStats": {
     "hp": 85,

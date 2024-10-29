@@ -132,12 +132,5 @@ public class Trizor extends drai.dev.data.games.registry.Game {
         pokemon.add(new Cyrok().setUsesBigModel());
         pokemon.add(new Golasma().setUsesBigModel());
         pokemon.add(new Crimsagon(new Stats(600, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
-        pokemon.add(new Nidoroyal(new Stats(570, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel());
-        pokemon.add(new Royaller(new Stats(570, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel());
-        pokemon.add(new Searoyal(new Stats(570, StatArchetype.BULKY_SUPPORT, List.of(StatType.SPEED))).setUsesBigModel());
-        pokemon.add(new Slowroyal(new Stats(570, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
-        pokemon.add(new Royaldra(new Stats(570, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPEED))).setUsesBigModel());
-
-
     }
 }

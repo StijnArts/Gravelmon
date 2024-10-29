@@ -17,6 +17,7 @@
       "condition": {
 "biomes": [ "#cobblemon:is_magical" ]
       }
+
     }
   ]
 }

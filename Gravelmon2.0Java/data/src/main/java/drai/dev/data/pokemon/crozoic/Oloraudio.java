@@ -56,15 +56,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Oloraudio extends drai.dev.data.pokemon.Pokemon {
-    public Oloraudio() {
+    public Oloraudio(Stats stats) {
         super("Oloraudio",
                 Type.PSYCHIC,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.CACOPHONY), Ability.CACOPHONY,
                 23, 2907,
                 new Stats(0,0,0,0,0,0), 65,
@@ -87,8 +82,8 @@ public class Oloraudio extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PSYSHOCK,1)                        ),
                 List.of(Label.CROZOIC),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 27, 47, 1.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

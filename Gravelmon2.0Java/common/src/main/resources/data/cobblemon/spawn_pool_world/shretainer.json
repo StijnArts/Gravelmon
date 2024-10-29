@@ -18,6 +18,7 @@
 "biomes": [ "#cobblemon:is_old_growth_taiga" ],
         "canSeeSky": true
       }
+
     }
   ]
 }

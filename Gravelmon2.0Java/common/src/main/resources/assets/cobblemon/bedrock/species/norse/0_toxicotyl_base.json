@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:toxicotyl",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_toxicotyl",
+      "texture": "cobblemon:textures/pokemon/norse/toxicotyl.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/toxicotyl.png"
+    }
+  ]
+}

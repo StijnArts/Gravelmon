@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:traprize",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_traprize",
+      "texture": "cobblemon:textures/pokemon/palmia/traprize.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/traprize.png"
+    }
+  ]
+}

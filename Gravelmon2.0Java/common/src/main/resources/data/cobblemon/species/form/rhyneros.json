@@ -1,11 +1,11 @@
 {
   "implemented": true,
   "name": "rhyneros",
-  "nationalPokedexNumber": 4769,
+  "nationalPokedexNumber": 4795,
   "primaryType": "bug",
   "secondaryType": "ground",
   "abilities": [
-    "shielddust"  ],
+    "SHIELD_DUST"  ],
   "baseStats": {
     "hp": 105,
     "attack": 109,

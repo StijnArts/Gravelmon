@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "dangoceras-1",
+      "pokemon": "dangoceras",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "rare",
+      "level": "35-54",
+      "weight": 0.6,
+      "condition": {
+"biomes": [ "#cobblemon:is_cold_ocean",
+"#cobblemon:is_frozen" ],
+        "canSeeSky": true
+      }
+
+    }
+  ]
+}

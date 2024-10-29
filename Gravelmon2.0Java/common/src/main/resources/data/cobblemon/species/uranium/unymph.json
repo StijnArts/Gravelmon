@@ -4,7 +4,7 @@
   "nationalPokedexNumber": 2533,
   "primaryType": "bug",
   "abilities": [
-    "shielddust",
+    "SHIELD_DUST",
     "compoundeyes",
     "h:suctioncups"
   ],

@@ -1,12 +1,12 @@
 {
   "implemented": true,
   "name": "regalocera",
-  "nationalPokedexNumber": 4670,
+  "nationalPokedexNumber": 4696,
   "primaryType": "bug",
   "secondaryType": "flying",
   "abilities": [
     "tintedlens",
-    "h:shielddust"
+    "h:SHIELD_DUST"
   ],
   "baseStats": {
     "hp": 50,

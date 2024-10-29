@@ -56,15 +56,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Traprize extends drai.dev.data.pokemon.Pokemon {
-    public Traprize() {
-        super("Traprize",
+    public Traprize(Stats stats) {
+        super("Raprize",
                 Type.GROUND,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.UNBOUNDSANDFORCE), null,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

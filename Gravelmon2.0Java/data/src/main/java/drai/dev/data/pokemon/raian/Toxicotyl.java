@@ -56,15 +56,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Toxicotyl extends drai.dev.data.pokemon.Pokemon {
-    public Toxicotyl() {
-        super("Toxicotyl",
+    public Toxicotyl(Stats stats) {
+        super("Oxicotyl",
                 Type.ROCK,Type.POISON,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.CORROSION), null,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

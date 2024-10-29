@@ -5,7 +5,7 @@
   "primaryType": "bug",
   "secondaryType": "rock",
   "abilities": [
-    "shielddust",
+    "SHIELD_DUST",
     "h:unnerve"
   ],
   "baseStats": {

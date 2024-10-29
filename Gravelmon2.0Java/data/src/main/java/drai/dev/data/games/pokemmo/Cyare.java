@@ -31,7 +31,7 @@ import drai.dev.data.pokemon.rica.Lumibuzz;
 import drai.dev.data.pokemon.rica.Snoosect;
 
 import java.util.*;
-
+//done
 public class Cyare extends drai.dev.data.games.registry.Game {
     public Cyare() {
         super("Cyare");

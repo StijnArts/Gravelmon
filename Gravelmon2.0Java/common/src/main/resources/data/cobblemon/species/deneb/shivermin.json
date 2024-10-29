@@ -1,12 +1,12 @@
 {
   "implemented": true,
   "name": "shivermin",
-  "nationalPokedexNumber": 5921,
+  "nationalPokedexNumber": 5948,
   "primaryType": "bug",
   "secondaryType": "ice",
   "abilities": [
     "compoundeyes",
-    "h:shielddust"
+    "h:SHIELD_DUST"
   ],
   "baseStats": {
     "hp": 55,

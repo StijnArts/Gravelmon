@@ -1,11 +1,11 @@
 {
   "implemented": true,
   "name": "titaneon",
-  "nationalPokedexNumber": 5564,
+  "nationalPokedexNumber": 5591,
   "primaryType": "steel",
   "abilities": [
     "sturdy",
-    "h:shielddust"
+    "h:SHIELD_DUST"
   ],
   "baseStats": {
     "hp": 100,

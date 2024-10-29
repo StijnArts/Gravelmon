@@ -22,7 +22,7 @@
   "secondaryType": "steel",
   "abilities": [
     "shedskin",
-    "shielddust",
+    "SHIELD_DUST",
     "h:wimpout"
   ],
   "baseStats": {

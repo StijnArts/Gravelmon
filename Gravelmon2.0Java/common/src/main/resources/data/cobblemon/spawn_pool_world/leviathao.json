@@ -18,6 +18,7 @@
 "biomes": [ "#cobblemon:is_cold_ocean" ],
         "maxY": 40
       }
+
     }
   ]
 }

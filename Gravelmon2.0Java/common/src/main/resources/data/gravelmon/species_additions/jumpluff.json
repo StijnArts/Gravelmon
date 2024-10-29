@@ -6,7 +6,7 @@
   "secondaryType": "sound",
   "abilities": [
     "levitate",
-    "shielddust",
+    "SHIELD_DUST",
     "h:snowwarning"
   ],
   "baseStats": {
@@ -137,7 +137,7 @@
   "primaryType": "bug",
   "secondaryType": "light",
   "abilities": [
-    "shielddust",
+    "SHIELD_DUST",
     "effectspore",
     "h:levitate"
   ],

@@ -5,7 +5,7 @@
   "primaryType": "bug",
   "abilities": [
     "shedskin",
-    "shielddust",
+    "SHIELD_DUST",
     "h:shellarmor"
   ],
   "baseStats": {

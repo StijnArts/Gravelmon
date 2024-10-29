@@ -5,7 +5,7 @@
   "primaryType": "bug",
   "secondaryType": "fire",
   "abilities": [
-    "shielddust",
+    "SHIELD_DUST",
     "adaptability",
     "h:flamebody"
   ],

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "elegyre",
-  "nationalPokedexNumber": 4164,
+  "nationalPokedexNumber": 4184,
   "primaryType": "flying",
   "abilities": [
     "windrider",
@@ -108,11 +108,14 @@
     "tm:whirlwind"  ],
   "labels": [
     "crozoic",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.elegyre.desc"
   ],
+  "preEvolution": "gustwee",
   "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,

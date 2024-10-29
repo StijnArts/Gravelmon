@@ -5,7 +5,7 @@
   "primaryType": "water",
   "abilities": [
     "shellarmor",
-    "h:shielddust"
+    "h:SHIELD_DUST"
   ],
   "baseStats": {
     "hp": 70,

@@ -23,8 +23,8 @@ public class Miniclod extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.MINERAL),
                 List.of("It can fully conceal itself in a cloud of sand in mere seconds. In spite of its tiny size, its tenacious will to survive will eventually pay off."),
-                List.of(new EvolutionEntry("stratopod", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))),
+                List.of(new EvolutionEntry("sauropot", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
                 List.of(       new MoveLearnSetEntry(Move.FOLLOW_ME,1),
                         new MoveLearnSetEntry(Move.ROTOTILLER,1),
                         new MoveLearnSetEntry(Move.EARTHQUAKE,1),
@@ -40,7 +40,7 @@ public class Miniclod extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.CROZOIC),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 35, 5, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 35, 5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DESERT, Biome.IS_LUSH))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -711,6 +711,38 @@ public class GravelmonFossilItems {
             ),
             "venom_fossil",
             "astralaxy");
+    public static RegistrySupplier<Item> STAG_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.PRESERVED_SKELETON.uncommon(),
+                    BaseCobblemonDigSites.MUD_PIT.uncommon(),
+                    BaseCobblemonDigSites.SUSPICIOUS_MOUND.uncommon()
+            ),
+            "stag_fossil",
+            "ruminelk");
+    public static RegistrySupplier<Item> PINKY_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.SUBMERGED_IMPACT.uncommon(),
+                    BaseCobblemonDigSites.MUD_PIT.uncommon(),
+                    BaseCobblemonDigSites.LUSH_DEN.uncommon()
+            ),
+            "pinky_fossil",
+            "petrosaur");
+    public static RegistrySupplier<Item> CREST_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.SUBMERGED_IMPACT.uncommon(),
+                    BaseCobblemonDigSites.MUD_PIT.uncommon(),
+                    BaseCobblemonDigSites.LUSH_DEN.uncommon()
+            ),
+            "crest_fossil",
+            "spinotap");
+    public static RegistrySupplier<Item> YITH_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.ERODED_PILLAR.uncommon(),
+                    BaseCobblemonDigSites.VIBRANT_HYDROTHERMAL_VENTS.uncommon(),
+                    BaseCobblemonDigSites.SUSPICIOUS_MOUND.uncommon()
+            ),
+            "yith_fossil",
+            "dregion");
 
     public static void touch() {}
 }

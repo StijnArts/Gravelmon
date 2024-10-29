@@ -19,6 +19,7 @@
 "biomes": [ "#cobblemon:is_badlands" ],
         "canSeeSky": true
       }
+
     }
   ]
 }

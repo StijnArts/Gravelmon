@@ -18,6 +18,7 @@
 "biomes": [ "#cobblemon:is_snowy_forest" ],
         "timeRange": "night"
       }
+
     }
   ]
 }

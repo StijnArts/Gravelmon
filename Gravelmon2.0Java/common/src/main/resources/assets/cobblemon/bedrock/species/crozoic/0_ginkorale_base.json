@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:ginkorale",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:crozoic_ginkorale",
+      "texture": "cobblemon:textures/pokemon/crozoic/ginkorale.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/crozoic/ginkorale.png"
+    }
+  ]
+}

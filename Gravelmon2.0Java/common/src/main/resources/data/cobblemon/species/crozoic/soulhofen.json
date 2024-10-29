@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "soulhofen",
-  "nationalPokedexNumber": 4158,
+  "nationalPokedexNumber": 4171,
   "primaryType": "rock",
   "secondaryType": "ghost",
   "abilities": [
@@ -120,11 +120,14 @@
     "tm:willowisp"  ],
   "labels": [
     "crozoic",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.soulhofen.desc"
   ],
+  "preEvolution": "fossoul",
   "evolutions": [
     {
       "id": "soulhofen_shaelseum",

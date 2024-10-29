@@ -18,7 +18,7 @@ import drai.dev.data.pokemon.dhiome.Puffoon;
 import drai.dev.data.attributes.*;
 
 import java.util.*;
-
+//done
 public class Dhiome extends drai.dev.data.games.registry.Game {
     public Dhiome() {
         super("Dhiome");
@@ -102,7 +102,7 @@ public class Dhiome extends drai.dev.data.games.registry.Game {
         pokemon.add(new Mandibrine(new Stats(423, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.SPEED, StatType.ATTACK))));
         pokemon.add(new Petrifern());
         pokemon.add(new Serrarbo());
-        pokemon.add(new Ruminelk()); //TODO FOSSIL
+        pokemon.add(new Ruminelk());
         pokemon.add(new Ancervus(new Stats(495, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))));
         pokemon.add(new Ampin());
         pokemon.add(new Sharquake());

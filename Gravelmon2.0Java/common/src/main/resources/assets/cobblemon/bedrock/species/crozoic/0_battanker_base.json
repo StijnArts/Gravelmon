@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:battanker",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:crozoic_battanker",
+      "texture": "cobblemon:textures/pokemon/crozoic/battanker.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/crozoic/battanker.png"
+    }
+  ]
+}

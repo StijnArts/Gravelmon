@@ -88,6 +88,7 @@ public class Pokemon {
     private Aspect formAdditionAspect;
     private Game game;
     private boolean usesBigModel = false;
+    private List<String> preferredBlocks = new ArrayList<>();
 
     public Pokemon(String name, Type primaryType, Type secondaryType, Stats stats, List<Ability> abilities, Ability hiddenAbility, int height, int weight, Stats evYield, int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup, int baseFriendship, int eggCycles, List<EggGroup> eggGroups, List<String> dexEntries, List<EvolutionEntry> evolutions, List<MoveLearnSetEntry> learnSet, List<Label> labels, int dropAmount, List<ItemDrop> drops, SpawnContext spawnContext, SpawnPool spawnPool, int minSpawnLevel, int maxSpawnLevel, double spawnWeight, List<SpawnCondition> spawnConditions, List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets, double baseScale, double portraitScale, List<PokemonForm> forms) {
         this(name, primaryType, stats, abilities, hiddenAbility, height, weight, evYield, catchRate, maleRatio, baseExperienceYield, experienceGroup, baseFriendship, eggCycles, eggGroups, dexEntries, evolutions, learnSet, labels, dropAmount, drops, spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight, spawnConditions, spawnAntiConditions, spawnPresets, baseScale, portraitScale, forms);
@@ -201,6 +202,7 @@ public class Pokemon {
 
     public static void postRegistration() {
         List<Pokemon> zeroStatPokemon = new ArrayList<>();
+        List<Pokemon> pokemonWithNoPreferredBlocks = new ArrayList<>();
         var evaluatedMons = new ArrayList<>();
         StringBuilder pokemonWithZeroCatchrate = new StringBuilder("Pokemon with 0 catch-rate: \n");
         StringBuilder pokemonWithZeroBaseStats = new StringBuilder("Pokemon with 0 Base Stats: \n");
@@ -222,6 +224,9 @@ public class Pokemon {
             }
             if (pokemon.stats.isEmpty()) {
                 zeroStatPokemon.add(pokemon);
+            }
+            if(pokemon.getPreferredBlocks().isEmpty()){
+                pokemonWithNoPreferredBlocks.add(pokemon);
             }
 
             for (EvolutionEntry evolutionEntry : pokemon.getEvolutions()) {
@@ -297,8 +302,6 @@ public class Pokemon {
             }
         }
         System.out.println(pokemonThatEvolveIntoThemselves);
-//        System.out.println(pokemonWithZeroBaseStats);
-//        System.out.println(pokemonWithZeroCatchrate);
         System.out.println(pokemonWithMoreThanTwoSpawnPresets);
         System.out.println("Evolution Items:");
         for (String item : EVOLUTION_ITEMS) System.out.println(item + ",");
@@ -323,6 +326,26 @@ public class Pokemon {
                     var evolutionStats = pokemonToCopy.get().stats;
                     pokemon.stats = new Stats(evolutionStats, 0.7);
                 }
+            }
+        }
+
+        for (int i = pokemonWithNoPreferredBlocks.size() - 1; i > -1; i--) {
+            var pokemon = pokemonWithNoPreferredBlocks.get(i);
+            if (!pokemon.evolutions.isEmpty()) {
+                Optional<Pokemon> pokemonToCopy = pokemon.evolutions.stream().map(evolutionEntry -> evolutionEntry.getResult().toLowerCase())
+//                            .filter(result -> POKEMON_REGISTRY.containsKey(result))
+                            .map(result -> {
+                                Pokemon pokemon1 = POKEMON_REGISTRY.get(result);
+                                if(pokemon1 == null && result.contains(" ")){
+                                    var split = result.split(" ");
+                                    pokemon1 = POKEMON_REGISTRY.get(split[1]+split[0]);
+                                }
+                                return pokemon1;
+                            })
+                            .filter(Objects::nonNull)
+                            .min(Comparator.comparing(pokemon1 -> pokemon1.stats.getTotal()));
+
+                pokemonToCopy.ifPresent(value -> pokemon.preferredBlocks = new ArrayList<>(value.getPreferredBlocks()));
             }
         }
         for (var pokemon : sortedPokemonList) {
@@ -966,7 +989,20 @@ public class Pokemon {
         return this;
     }
 
+    public Pokemon setPreferredBlocks(List<String> preferredBlocks) {
+        this.preferredBlocks.addAll(preferredBlocks);
+        return this;
+    }
+
     public boolean usesBigModel() {
         return usesBigModel;
+    }
+
+    public List<String> getPreferredBlocks() {
+        return preferredBlocks;
+    }
+
+    public boolean hasWeightMultiplier() {
+        return !getPreferredBlocks().isEmpty();
     }
 }

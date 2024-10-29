@@ -4,8 +4,6 @@ import drai.dev.data.games.registry.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
-import java.util.*;
 
 import java.io.*;
 import java.nio.file.*;
@@ -71,7 +69,28 @@ public class SpawnPoolWorldJSONWriter {
                 for (SpawnCondition spawnCondition : pokemon.getSpawnAntiConditions()) {
                     fileContents = conditionsToString(fileContents, spawnCondition);
                 }
-                fileContents+= "    }\n";
+                fileContents+= "    }";
+            }
+            if(!pokemon.hasWeightMultiplier()){
+                fileContents+="\n";
+            } else {
+                fileContents+="\n,\"weightMultiplier\": {\n" +
+                        "               \"multiplier\": 5.0,\n" +
+                        "               \"condition\": {\n";
+                if(!pokemon.getPreferredBlocks().isEmpty()){
+                    fileContents+= "\"neededNearbyBlocks\": [\n";
+                    for (int i = 0; i < pokemon.getPreferredBlocks().size(); i++) {
+                        fileContents+= "                   \""+pokemon.getPreferredBlocks().get(i)+"\"";
+                        if(i != pokemon.getPreferredBlocks().size() - 1){
+                            fileContents+=",\n";
+                        }
+                    }
+
+                    fileContents+= "               ]";
+                }
+
+                fileContents+="               }\n" +
+                        "           }\n";
             }
             fileContents+="    }\n" +
                     "  ]\n" +

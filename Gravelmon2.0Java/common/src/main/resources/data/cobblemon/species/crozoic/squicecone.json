@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "squicecone",
-  "nationalPokedexNumber": 4163,
+  "nationalPokedexNumber": 4179,
   "primaryType": "ice",
   "secondaryType": "water",
   "abilities": [
@@ -60,11 +60,14 @@
     "1:flipturn"  ],
   "labels": [
     "crozoic",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.squicecone.desc"
   ],
+  "preEvolution": "takoyuki",
   "baseScale": 0.48333333333333334,
   "hitbox": {
     "width": 6.0,

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:permiblaze",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:crozoic_permiblaze",
+      "texture": "cobblemon:textures/pokemon/crozoic/permiblaze.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/crozoic/permiblaze.png"
+    }
+  ]
+}

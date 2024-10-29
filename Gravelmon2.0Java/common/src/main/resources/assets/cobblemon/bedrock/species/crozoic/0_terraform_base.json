@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:terraform",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:crozoic_terraform",
+      "texture": "cobblemon:textures/pokemon/crozoic/terraform.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/crozoic/terraform.png"
+    }
+  ]
+}

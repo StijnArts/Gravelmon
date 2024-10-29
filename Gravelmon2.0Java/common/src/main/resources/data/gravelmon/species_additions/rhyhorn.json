@@ -80,7 +80,7 @@
   "primaryType": "bug",
   "secondaryType": "ground",
   "abilities": [
-    "shielddust"  ],
+    "SHIELD_DUST"  ],
   "baseStats": {
     "hp": 0,
     "attack": 0,

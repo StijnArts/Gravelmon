@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "stratopod",
-  "nationalPokedexNumber": 4144,
+  "nationalPokedexNumber": 4149,
   "primaryType": "ground",
   "abilities": [
     "cloudnine",
@@ -63,7 +63,7 @@
   "pokedex": [
     "cobblemon.species.stratopod.desc"
   ],
-  "preEvolution": "miniclod",
+  "preEvolution": "sauropot",
   "baseScale": 1.5833333333333333,
   "hitbox": {
     "width": 6.0,

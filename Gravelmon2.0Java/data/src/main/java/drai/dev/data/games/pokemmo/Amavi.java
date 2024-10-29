@@ -5,7 +5,7 @@ import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.amavi.*;
 
 import java.util.*;
-
+//Done
 public class Amavi extends drai.dev.data.games.registry.Game {
     public Amavi() {
         super("Amavi");

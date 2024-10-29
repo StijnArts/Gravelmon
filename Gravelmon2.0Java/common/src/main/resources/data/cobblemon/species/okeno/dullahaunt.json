@@ -1,10 +1,12 @@
 {
   "implemented": true,
   "name": "dullahaunt",
-  "nationalPokedexNumber": 5806,
+  "nationalPokedexNumber": 5833,
   "primaryType": "ghost",
   "abilities": [
-    "wanderingspirit"  ],
+    "wanderingspirit",
+    "h:wanderingspirit"
+  ],
   "baseStats": {
     "hp": 65,
     "attack": 75,

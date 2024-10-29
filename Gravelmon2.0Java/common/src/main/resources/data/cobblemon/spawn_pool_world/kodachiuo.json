@@ -19,6 +19,7 @@
 "#minecraft:is_ocean" ],
         "canSeeSky": true
       }
+
     }
   ]
 }

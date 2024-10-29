@@ -17,6 +17,7 @@
       "condition": {
 "biomes": [ "#minecraft:is_nether" ]
       }
+
     }
   ]
 }

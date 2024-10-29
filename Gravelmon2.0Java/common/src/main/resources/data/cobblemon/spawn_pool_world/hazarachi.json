@@ -19,6 +19,7 @@
 "biomes": [ "#minecraft:is_deep_ocean" ],
         "canSeeSky": true
       }
+
     }
   ]
 }

@@ -56,15 +56,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Tenchondri extends drai.dev.data.pokemon.Pokemon {
-    public Tenchondri() {
+    public Tenchondri(Stats stats) {
         super("Tenchondri",
                 Type.FAIRY,Type.GHOST,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.DEFIANT,Ability.ROUGH_SKIN), Ability.MARVEL_SCALE,
                 14, 810,
                 new Stats(0,0,0,0,0,0), 65,
@@ -77,13 +72,16 @@ public class Tenchondri extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.CROZOIC),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 35, 54, .6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CHERRY_GROVE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Tenchondri");
 
     }

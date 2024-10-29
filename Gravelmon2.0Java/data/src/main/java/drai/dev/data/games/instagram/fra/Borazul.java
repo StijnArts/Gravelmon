@@ -9,7 +9,7 @@ public class Borazul extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new Fruibat().setUsesBigModel()); //Renamed from Fruibat
+        pokemon.add(new Drubat().setUsesBigModel()); //Renamed from Fruibat
         pokemon.add(new Foliwing().setUsesBigModel());
         pokemon.add(new Acairadon().setUsesBigModel());
         pokemon.add(new Coaliz().setUsesBigModel());

@@ -1,11 +1,11 @@
 {
   "implemented": true,
   "name": "pupage",
-  "nationalPokedexNumber": 5733,
+  "nationalPokedexNumber": 5760,
   "primaryType": "bug",
   "secondaryType": "fairy",
   "abilities": [
-    "shielddust"  ],
+    "SHIELD_DUST"  ],
   "baseStats": {
     "hp": 40,
     "attack": 30,

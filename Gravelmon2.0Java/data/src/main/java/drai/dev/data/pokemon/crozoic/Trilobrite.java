@@ -73,7 +73,8 @@ public class Trilobrite extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_3,EggGroup.MINERAL),
                 List.of("Using the gem on its forehead to light the way, dark caves are no problem for Trilobrite. They slowly work to clear blocked cave entrances by eating away at fallen boulders."),
-                List.of(),
+                List.of(new EvolutionEntry("delvalite", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LURINGANTENNA,1),
                         new MoveLearnSetEntry(Move.DIG,1),
@@ -91,9 +92,9 @@ public class Trilobrite extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SIGNAL_BEAM,1)                        ),
                 List.of(Label.CROZOIC),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 4.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

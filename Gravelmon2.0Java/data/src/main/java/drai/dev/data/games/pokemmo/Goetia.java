@@ -11,7 +11,7 @@ import drai.dev.data.attributes.*;
 import java.util.*;
 
 import static drai.dev.data.attributes.StatType.*;
-
+//done
 public class Goetia extends drai.dev.data.games.registry.Game {
     public Goetia() {
         super("Goetia");
@@ -344,11 +344,11 @@ public class Goetia extends drai.dev.data.games.registry.Game {
         pokemon.add(new Atomant(new Stats(441, StatArchetype.SPECIAL_WALL, List.of(HP))));
         pokemon.add(new Mirorim());
         pokemon.add(new Abstrarts(new Stats(438, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
-        pokemon.add(new Petrosaur());    //TODO FOSSIL
+        pokemon.add(new Petrosaur());
         pokemon.add(new Quartzcoatl(new Stats(455, StatArchetype.PHYSICAL_ATTACKER, List.of(DEFENCE))));
-        pokemon.add(new Spinotap());    //TODO FOSSIL
+        pokemon.add(new Spinotap());
         pokemon.add(new Spinoscrap(new Stats(455, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER, List.of(ATTACK))));
-        pokemon.add(new Dregion());    //TODO FOSSIL
+        pokemon.add(new Dregion());
         pokemon.add(new Shalegion(new Stats(455, StatArchetype.PHYSICAL_WALL, List.of(HP))));
         pokemon.add(new Dessicat());
         pokemon.add(new Mummoth(new Stats(421, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))));

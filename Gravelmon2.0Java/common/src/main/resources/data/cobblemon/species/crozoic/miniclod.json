@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "miniclod",
-  "nationalPokedexNumber": 4143,
+  "nationalPokedexNumber": 4147,
   "primaryType": "ground",
   "abilities": [
     "cloudnine",
@@ -9,12 +9,12 @@
     "h:steadfast"
   ],
   "baseStats": {
-    "hp": 95,
-    "attack": 28,
-    "defence": 81,
-    "special_attack": 81,
-    "special_defence": 68,
-    "speed": 16
+    "hp": 66,
+    "attack": 19,
+    "defence": 56,
+    "special_attack": 56,
+    "special_defence": 47,
+    "speed": 11
   },
   "behaviour": {
     "resting": {
@@ -64,15 +64,15 @@
   ],
   "evolutions": [
     {
-      "id": "miniclod_stratopod",
+      "id": "miniclod_sauropot",
       "variant": "level_up",
-      "result": "stratopod",
+      "result": "sauropot",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 42
+          "minLevel": 22
         }
       ],
       "permanent": true   

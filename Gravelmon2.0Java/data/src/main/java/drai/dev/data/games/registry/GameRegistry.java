@@ -5,7 +5,7 @@ import drai.dev.data.games.instagram.artworks218.*;
 import drai.dev.data.games.instagram.eldark.*;
 import drai.dev.data.games.instagram.federex.*;
 import drai.dev.data.games.instagram.fra.*;
-import drai.dev.data.games.og.*;
+import drai.dev.data.games.other.*;
 import drai.dev.data.games.original.*;
 import drai.dev.data.games.pbs.*;
 import drai.dev.data.games.pokemmo.*;
@@ -51,8 +51,8 @@ public class GameRegistry {
 
         games.add(new Raian());
         games.add(new Norse());
-        games.add(new Trizor());
         games.add(new Palmia());
+        games.add(new Trizor());
         games.add(new Fra());
         games.add(new Borazul());
         games.add(new Bago());

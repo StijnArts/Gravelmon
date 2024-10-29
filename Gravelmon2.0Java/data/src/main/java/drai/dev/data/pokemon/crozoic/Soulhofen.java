@@ -105,7 +105,7 @@ public class Soulhofen extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WILLOWISP, "tm")),
                 List.of(Label.CROZOIC),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 51, .5, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 26, 51, .5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_CAVE, Biome.IS_MOUNTAIN))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

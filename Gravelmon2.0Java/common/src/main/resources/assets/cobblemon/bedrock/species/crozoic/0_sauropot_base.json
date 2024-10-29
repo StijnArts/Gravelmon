@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:sauropot",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:crozoic_sauropot",
+      "texture": "cobblemon:textures/pokemon/crozoic/sauropot.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/crozoic/sauropot.png"
+    }
+  ]
+}

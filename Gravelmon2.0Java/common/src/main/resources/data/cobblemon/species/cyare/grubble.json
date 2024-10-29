@@ -1,10 +1,10 @@
 {
   "implemented": true,
   "name": "grubble",
-  "nationalPokedexNumber": 7046,
+  "nationalPokedexNumber": 7074,
   "primaryType": "bug",
   "abilities": [
-    "shielddust"  ],
+    "SHIELD_DUST"  ],
   "baseStats": {
     "hp": 35,
     "attack": 35,

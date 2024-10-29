@@ -17,6 +17,7 @@
       "condition": {
 "biomes": [ "minecraft:birch_forest" ]
       }
+
     }
   ]
 }

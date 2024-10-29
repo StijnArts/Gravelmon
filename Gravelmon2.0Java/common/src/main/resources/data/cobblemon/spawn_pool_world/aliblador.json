@@ -19,6 +19,7 @@
 "biomes": [ "#cobblemon:is_desert" ],
         "canSeeSky": true
       }
+
     }
   ]
 }

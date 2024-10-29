@@ -1,13 +1,13 @@
 {
   "implemented": true,
   "name": "sedavlin",
-  "nationalPokedexNumber": 3730,
+  "nationalPokedexNumber": 3725,
   "primaryType": "bug",
   "secondaryType": "grass",
   "abilities": [
     "swarm",
     "chlorophyll",
-    "h:shielddust"
+    "h:SHIELD_DUST"
   ],
   "baseStats": {
     "hp": 60,

@@ -18,6 +18,7 @@
 "biomes": [ "#cobblemon:nether/is_wasteland" ],
         "canSeeSky": true
       }
+
     }
   ]
 }

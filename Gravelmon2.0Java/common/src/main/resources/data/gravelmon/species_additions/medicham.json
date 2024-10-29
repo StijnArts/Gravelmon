@@ -6,7 +6,7 @@
   "secondaryType": "fighting",
   "abilities": [
     "wonderskin",
-    "shielddust",
+    "SHIELD_DUST",
     "h:battlearmor"
   ],
   "baseStats": {

@@ -18,6 +18,7 @@
       "condition": {
 "biomes": [ "#cobblemon:is_cave" ]
       }
+
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
   "implemented": true,
   "name": "chimneoth",
-  "nationalPokedexNumber": 4868,
+  "nationalPokedexNumber": 4894,
   "primaryType": "bug",
   "secondaryType": "poison",
   "abilities": [
-    "shielddust",
+    "SHIELD_DUST",
     "unburden",
     "h:tintedlens"
   ],
