@@ -73,7 +73,8 @@ public class Seaguzzle extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Upon evolution, Seaguzzle's appetite evolves with it. Fortunately, its insatiable hunger has helped keep the local rodent population on Harsholme from exploding and affecting other ecosystems."),
-                List.of(),
+                List.of(new EvolutionEntry("gobblegannet", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SNATCH,1),
                         new MoveLearnSetEntry(Move.POUND,1),
@@ -143,8 +144,8 @@ public class Seaguzzle extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.UPROAR,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 18, 34, .9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

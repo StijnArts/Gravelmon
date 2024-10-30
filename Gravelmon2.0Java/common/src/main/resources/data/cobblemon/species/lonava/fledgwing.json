@@ -1,0 +1,165 @@
+{
+  "implemented": true,
+  "name": "fledgwing",
+  "nationalPokedexNumber": 4296,
+  "primaryType": "flying",
+  "abilities": [
+    "keeneye",
+    "windrider",
+    "h:galewings"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 45,
+    "defence": 50,
+    "special_attack": 45,
+    "special_defence": 50,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 61,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "1:peck",
+    "1:defensecurl",
+    "5:featherdance",
+    "9:quickattack",
+    "13:wingattack",
+    "17:twister",
+    "21:roost",
+    "25:aircutter",
+    "29:whirlwind",
+    "33:airslash",
+    "37:mirrormove",
+    "41:bravebird",
+    "45:hurricane",
+    "50:skyattack",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:airslash",
+    "tm:attract",
+    "tm:bide",
+    "tm:curse",
+    "tm:defog",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:dualwingbeat",
+    "tm:echoedvoice",
+    "tm:eggbomb",
+    "tm:endure",
+    "tm:facade",
+    "tm:featherdance",
+    "tm:feint",
+    "tm:fly",
+    "tm:focusenergy",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:mimic",
+    "tm:protect",
+    "tm:psychup",
+    "tm:rage",
+    "tm:raindance",
+    "tm:razorwind",
+    "tm:rest",
+    "tm:return",
+    "tm:reversal",
+    "tm:roost",
+    "tm:round",
+    "tm:safeguard",
+    "tm:scald",
+    "tm:secretpower",
+    "tm:skyattack",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:torment",
+    "tm:toxic",
+    "tm:uturn",
+    "tm:whirlwind",
+    "tm:workup",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:mudslap",
+    "tm:pluck"  ],
+  "labels": [
+    "lonava",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.fledgwing.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "fledgwing_sheardrop",
+      "variant": "level_up",
+      "result": "sheardrop",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 27
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 55,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

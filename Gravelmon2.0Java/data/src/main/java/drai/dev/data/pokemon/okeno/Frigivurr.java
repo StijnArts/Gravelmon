@@ -67,25 +67,18 @@ public class Frigivurr extends drai.dev.data.pokemon.Pokemon {
                         97),
                 List.of(Ability.SOUNDPROOF,Ability.UNNERVE), Ability.INSOMNIA,
                 12, 0,
-                new Stats(0,0,0,1,0,1), 0,
+                new Stats(0,0,0,1,0,1), 80,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("When hanging from cave ceilings, this Pokémon's glowing ears mimic a nightmarish face. If disturbed, it will encase whatever bothered it in ice."),
                 List.of(),
-                List.of(
-                        new MoveLearnSetEntry(Move.BOOMBURST,"tm"),
-                        new MoveLearnSetEntry(Move.CHARM,"tm"),
-                        new MoveLearnSetEntry(Move.ICE_SHARD,"tm"),
-                        new MoveLearnSetEntry(Move.ICICLE_CRASH,"tm"),
-                        new MoveLearnSetEntry(Move.FREEZEDRY,"tm"),
-                        new MoveLearnSetEntry(Move.SPIKES,"tm")                        ),
+                List.of(                    ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 49, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

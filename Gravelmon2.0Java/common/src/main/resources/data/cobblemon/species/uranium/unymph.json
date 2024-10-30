@@ -1,10 +1,10 @@
 {
   "implemented": true,
   "name": "unymph",
-  "nationalPokedexNumber": 2533,
+  "nationalPokedexNumber": 2545,
   "primaryType": "bug",
   "abilities": [
-    "SHIELD_DUST",
+    "shielddust",
     "compoundeyes",
     "h:suctioncups"
   ],

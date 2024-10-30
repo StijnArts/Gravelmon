@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "exovision-1",
+      "pokemon": "exovision",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "36-54",
+      "weight": 0.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_deep_dark" ]
+      }
+
+    }
+  ]
+}

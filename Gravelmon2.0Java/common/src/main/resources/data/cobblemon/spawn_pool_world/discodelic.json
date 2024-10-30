@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "discodelic-1",
+      "pokemon": "discodelic",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "38-56",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky",
+"#cobblemon:is_mushroom" ]
+      }
+
+    }
+  ]
+}

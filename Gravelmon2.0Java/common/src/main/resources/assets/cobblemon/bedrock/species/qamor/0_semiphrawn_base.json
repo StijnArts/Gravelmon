@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:semiphrawn",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:qamor_semiphrawn",
+      "texture": "cobblemon:textures/pokemon/qamor/semiphrawn.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/qamor/semiphrawn.png"
+    }
+  ]
+}

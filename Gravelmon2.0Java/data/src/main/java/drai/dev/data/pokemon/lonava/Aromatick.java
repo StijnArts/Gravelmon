@@ -73,7 +73,8 @@ public class Aromatick extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Disguising itself as a flower, Aromatick emits a sweet fragrance to lure in unsuspecting prey. Several diseases have been attributed to this Pokémon. As a result, many Lonavans refuse to wear shorts when walking through grass, even in Summer."),
-                List.of(),
+                List.of(new EvolutionEntry("fragrantick", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SWEET_SCENT,1),
                         new MoveLearnSetEntry(Move.PURSUIT,1),
@@ -149,9 +150,8 @@ public class Aromatick extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TWINEEDLE,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 34, 4.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FLORAL))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

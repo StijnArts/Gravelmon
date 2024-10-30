@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:oloraudio",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:embryo_oloraudio",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/oloraudio.png",
+      "layers": []
+    }
+  ]
+}

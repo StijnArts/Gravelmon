@@ -16,20 +16,20 @@ public class Brahmbash extends drai.dev.data.pokemon.Pokemon {
                         35,
                         30),
                 List.of(Ability.HUSTLE), Ability.ANGER_POINT,
-                0, 0,
+                6, 0,
                 new Stats(0,2,0,0,0,0), 120,
                 0.5,
                 63, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of(""),
-                List.of(),
+                List.of(new EvolutionEntry("bramoth", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(                        ),
                 List.of(Label.MUSHI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 35, 3.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

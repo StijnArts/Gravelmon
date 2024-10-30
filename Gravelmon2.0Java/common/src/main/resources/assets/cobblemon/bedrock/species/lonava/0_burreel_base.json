@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:burreel",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_burreel",
+      "texture": "cobblemon:textures/pokemon/lonava/burreel.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lonava/burreel.png"
+    }
+  ]
+}

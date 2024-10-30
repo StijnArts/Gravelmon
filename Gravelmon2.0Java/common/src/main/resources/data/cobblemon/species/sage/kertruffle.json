@@ -6,7 +6,7 @@
   "abilities": [
     "effectspore",
     "gluttony",
-    "h:SHIELD_DUST"
+    "h:shielddust"
   ],
   "baseStats": {
     "hp": 65,

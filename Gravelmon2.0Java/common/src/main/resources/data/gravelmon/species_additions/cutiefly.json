@@ -169,7 +169,7 @@
   "primaryType": "fire",
   "secondaryType": "fairy",
   "abilities": [
-    "SHIELD_DUST",
+    "shielddust",
     "reckless"  ],
   "baseStats": {
     "hp": 40,

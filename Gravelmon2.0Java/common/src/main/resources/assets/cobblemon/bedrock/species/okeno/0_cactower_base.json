@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:cactower",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_cactower",
+      "texture": "cobblemon:textures/pokemon/okeno/cactower.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/okeno/cactower.png"
+    }
+  ]
+}

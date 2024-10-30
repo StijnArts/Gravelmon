@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "codfather-1",
+      "pokemon": "codfather",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "38-52",
+      "weight": 0.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_warm_ocean" ]
+      }
+
+    }
+  ]
+}

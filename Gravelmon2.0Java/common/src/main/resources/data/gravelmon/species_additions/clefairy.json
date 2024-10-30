@@ -82,7 +82,7 @@
   "abilities": [
     "fairyaura",
     "mistysurge",
-    "h:SHIELD_DUST"
+    "h:shielddust"
   ],
   "baseStats": {
     "hp": 70,

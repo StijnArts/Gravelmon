@@ -1,11 +1,11 @@
 {
   "implemented": true,
   "name": "fluttereign",
-  "nationalPokedexNumber": 4421,
+  "nationalPokedexNumber": 4471,
   "primaryType": "bug",
   "secondaryType": "flying",
   "abilities": [
-    "SHIELD_DUST",
+    "shielddust",
     "swarm"  ],
   "baseStats": {
     "hp": 60,

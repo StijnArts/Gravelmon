@@ -218,7 +218,7 @@ public enum Ability {
     SHED_SKIN("shedskin", true),
     SHEER_FORCE("sheerforce", true),
     SHELL_ARMOR("shellarmor", true),
-    SHIELD_DUST("SHIELD_DUST", true),
+    SHIELD_DUST("shield_dust", true),
     SHIELDS_DOWN("shieldsdown", true),
     SIMPLE("simple", true),
     SKILL_LINK("skilllink", true),
@@ -789,7 +789,7 @@ public enum Ability {
     }
 
     Ability(String name, Boolean implemented){
-        this.name = name;
+        this.name = name.toLowerCase().replaceAll("_","");
         this.implemented = implemented;
     }
 

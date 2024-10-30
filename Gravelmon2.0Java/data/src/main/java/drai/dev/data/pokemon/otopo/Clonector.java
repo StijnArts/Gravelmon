@@ -75,17 +75,16 @@ public class Clonector extends drai.dev.data.pokemon.Pokemon {
                 List.of("Clonector resembles a variety of bee and wasp Pokemon, however it is unable to sting its opponent. Its colours deter predators, allowing it to forage for food freely."),
                 List.of(),
                 List.of(
-                        new MoveLearnSetEntry(Move.TACKLE,1),
-                        new MoveLearnSetEntry(Move.BUG_BITE,1)                        ),
+                ),
                 List.of(Label.OTOPO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 21, 43, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_TAIGA, Biome.IS_JUNGLE))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Clonector");
 
     }

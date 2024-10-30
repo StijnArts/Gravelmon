@@ -1,12 +1,12 @@
 {
   "implemented": true,
   "name": "nymphrost",
-  "nationalPokedexNumber": 5949,
+  "nationalPokedexNumber": 6032,
   "primaryType": "bug",
   "secondaryType": "ice",
   "abilities": [
     "compoundeyes",
-    "h:SHIELD_DUST"
+    "h:shielddust"
   ],
   "baseStats": {
     "hp": 90,

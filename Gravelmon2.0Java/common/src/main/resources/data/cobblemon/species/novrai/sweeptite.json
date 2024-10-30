@@ -1,10 +1,10 @@
 {
   "implemented": true,
   "name": "sweeptite",
-  "nationalPokedexNumber": 6551,
+  "nationalPokedexNumber": 6634,
   "primaryType": "psychic",
   "abilities": [
-    "SHIELD_DUST",
+    "shielddust",
     "magicguard",
     "h:telepathy"
   ],

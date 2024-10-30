@@ -26,16 +26,16 @@
       "id": "lagoonantinkatink-1",
       "pokemon": "tinkatink lagoonan",
       "presets": [
-          "natural"
+          "shipwreck"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "13-29",
+      "weight": 4.8,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_beach",
+"#minecraft:is_ocean" ],
         "canSeeSky": true
       }
     }

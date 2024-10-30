@@ -4,7 +4,7 @@
   "name": "Epoch",
   "primaryType": "bug",
   "abilities": [
-    "SHIELD_DUST",
+    "shielddust",
     "tintedlens",
     "h:swarm"
   ],

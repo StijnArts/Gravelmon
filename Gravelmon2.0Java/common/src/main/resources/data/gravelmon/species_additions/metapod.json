@@ -5,7 +5,7 @@
   "primaryType": "bug",
   "secondaryType": "fairy",
   "abilities": [
-    "SHIELD_DUST",
+    "shielddust",
     "tintedlens",
     "h:shedskin"
   ],

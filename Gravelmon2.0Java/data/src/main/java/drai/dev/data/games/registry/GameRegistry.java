@@ -9,6 +9,7 @@ import drai.dev.data.games.other.*;
 import drai.dev.data.games.original.*;
 import drai.dev.data.games.pbs.*;
 import drai.dev.data.games.pokemmo.*;
+import drai.dev.data.games.pokemmo.done.*;
 
 import java.util.*;
 

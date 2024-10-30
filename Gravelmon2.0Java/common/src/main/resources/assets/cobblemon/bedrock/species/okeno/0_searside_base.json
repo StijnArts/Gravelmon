@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:searside",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_searside",
+      "texture": "cobblemon:textures/pokemon/okeno/searside.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/okeno/searside.png"
+    }
+  ]
+}

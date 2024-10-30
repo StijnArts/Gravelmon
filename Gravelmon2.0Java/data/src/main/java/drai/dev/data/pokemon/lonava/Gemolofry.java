@@ -73,7 +73,8 @@ public class Gemolofry extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Gemolofry can detect whether a crystal or gemstone is authentic or not, making it popular amongst lapidarists and gemcutters. Despite its heavy gemstone encasing, it can swim very well."),
-                List.of(),
+                List.of(new EvolutionEntry("appreciafin", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:shiny_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.ROCK_POLISH,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),
@@ -171,11 +172,11 @@ public class Gemolofry extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYDRO_PUMP,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 13, 34, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NATURAL, SpawnPreset.GEMSTONES),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Gemolofry");

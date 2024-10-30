@@ -30,7 +30,6 @@ public class Vanguard extends Game {
         pokemon.add(new Tartot());
         pokemon.add(new Teranigrade());
         pokemon.add(new Setsarec());
-        //TODO
 //        pokemon.add(new Panvolt()); //MISSING ART
 //        pokemon.add(new Simivolt()); //MISSING ART
 //        pokemon.add(new Klawbby()); //MISSING ART
@@ -42,9 +41,9 @@ public class Vanguard extends Game {
         pokemon.add(new Togenix());
         pokemon.add(new Reapatisse());
         pokemon.add(new Habaneevil());
-        pokemon.add(new Gatiriopteryx()); //TODO fossil
-        pokemon.add(new Therapex()); //TODO fossil
-        pokemon.add(new Astralaxy()); //TODO fossil
+        pokemon.add(new Gatiriopteryx());
+        pokemon.add(new Therapex());
+        pokemon.add(new Astralaxy());
         pokemon.add(new Masimuthi());
         pokemon.add(new Wraifanggal());
         pokemon.add(new Mujineon());

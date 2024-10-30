@@ -1,11 +1,11 @@
 {
   "implemented": true,
   "name": "mothight",
-  "nationalPokedexNumber": 3923,
+  "nationalPokedexNumber": 3935,
   "primaryType": "bug",
   "secondaryType": "fighting",
   "abilities": [
-    "SHIELD_DUST",
+    "shielddust",
     "angerpoint",
     "h:heatproof"
   ],

@@ -73,7 +73,9 @@ public class Balanoral extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.AMORPHOUS),
                 List.of("Balanoral prefer shallower waters where they can absorb energy from sunlight. Anyone unfortunate enough to step on one will receive a nasty electric shock."),
-                List.of(),
+                List.of(new EvolutionEntry("comenoid", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day")))),
                 List.of(
                         new MoveLearnSetEntry(Move.THUNDER_SHOCK,1),
                         new MoveLearnSetEntry(Move.PECK,1),
@@ -173,13 +175,15 @@ public class Balanoral extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.COSMIC_POWER,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 11, 32, 3.7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER, SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Balanoral");
 
     }

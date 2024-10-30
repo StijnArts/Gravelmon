@@ -1,10 +1,10 @@
 {
   "implemented": true,
   "name": "cachoe",
-  "nationalPokedexNumber": 6746,
+  "nationalPokedexNumber": 6829,
   "primaryType": "bug",
   "abilities": [
-    "SHIELD_DUST",
+    "shielddust",
     "shedskin",
     "h:runaway"
   ],

@@ -1,11 +1,11 @@
 {
   "implemented": true,
   "name": "illuseon",
-  "nationalPokedexNumber": 5368,
+  "nationalPokedexNumber": 5425,
   "primaryType": "ghost",
   "abilities": [
     "magician",
-    "SHIELD_DUST",
+    "shielddust",
     "h:trace"
   ],
   "baseStats": {

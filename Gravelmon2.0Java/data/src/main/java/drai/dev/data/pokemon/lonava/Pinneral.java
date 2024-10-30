@@ -73,7 +73,8 @@ public class Pinneral extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.MINERAL),
                 List.of("Pinneral dive to the depths of the deepest oceans to collect scrap metal from ship wrecks. They then use these scraps to construction floating, impenetrable shelters to sleep in."),
-                List.of(),
+                List.of(new EvolutionEntry("walrust", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ACID_ARMOR,1),
                         new MoveLearnSetEntry(Move.POUND,1),
@@ -187,8 +188,8 @@ public class Pinneral extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SNORE,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 21, 45, 1.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

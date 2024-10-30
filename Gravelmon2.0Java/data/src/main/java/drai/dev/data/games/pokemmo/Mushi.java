@@ -23,16 +23,21 @@ public class Mushi extends drai.dev.data.games.registry.Game {
         pokemon.add(new Moffluffle());
         pokemon.add(new Hedodan());
         pokemon.add(new Noxisekt());
-//        pokemon.add(new Minicoo()); todo
-//        pokemon.add(new Nimbuzz());
-//        pokemon.add(new Shipilla());
-//        pokemon.add(new Koucoon());
-//        pokemon.add(new Brahmbash());
+
+        //done
+        pokemon.add(new Minicoo());
+        pokemon.add(new Nimbuzz());
+        pokemon.add(new Shipilla());
+        pokemon.add(new Koucoon());
+        pokemon.add(new Brahmbash());
         pokemon.add(new Bramoth());
-//        pokemon.add(new Bumbuzz()); todo
+        pokemon.add(new Bumbuzz());
+
         pokemon.add(new Kimfoo());
         pokemon.add(new Kamabukee());
-//        pokemon.add(new Convice()); todo
+        //done
+        pokemon.add(new Convice());
+
         pokemon.add(new Collemboo());
         pokemon.add(new Glastasma());
         pokemon.add(new Lavalux());

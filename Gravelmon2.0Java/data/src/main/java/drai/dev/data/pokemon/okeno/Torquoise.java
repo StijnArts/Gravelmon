@@ -15,8 +15,8 @@ public class Torquoise extends drai.dev.data.pokemon.Pokemon {
                         91,
                         102,
                         33),
-                List.of(Ability.CLEAR_BODY,Ability.ICE_BODY,Ability.MAGIC_GUARD), Ability.MAGIC_GUARD,
-                8, 165,
+                List.of(Ability.CLEAR_BODY,Ability.ICE_BODY), Ability.MAGIC_GUARD,
+                10, 165,
                 new Stats(0,0,2,0,0,0), 45,
                 0.5,
                 100, ExperienceGroup.ERRATIC,
@@ -43,10 +43,10 @@ public class Torquoise extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PIXIEDUST,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 32, 1.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SPRING, Biome.IS_SUMMER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

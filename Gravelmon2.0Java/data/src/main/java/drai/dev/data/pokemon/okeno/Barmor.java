@@ -23,7 +23,8 @@ public class Barmor extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Barmor use their tail feathers to scoop up clay and mud that they use to form a helmet. Because its head gets too heavy, it can't fly properly."),
-                List.of(),
+                List.of(new EvolutionEntry("beakapow", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AIRBUBBLE,1),
                         new MoveLearnSetEntry(Move.MUD_SPORT,4),
@@ -45,8 +46,8 @@ public class Barmor extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SPIKES,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 13, 32, 4.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

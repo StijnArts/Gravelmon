@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:gangill",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lagoone_gangill",
+      "texture": "cobblemon:textures/pokemon/lagoone/gangill.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lagoone/gangill.png"
+    }
+  ]
+}

@@ -1,11 +1,11 @@
 {
   "implemented": true,
   "name": "cobworm",
-  "nationalPokedexNumber": 2936,
+  "nationalPokedexNumber": 2948,
   "primaryType": "bug",
   "abilities": [
     "shedskin",
-    "SHIELD_DUST",
+    "shielddust",
     "h:shellarmor"
   ],
   "baseStats": {

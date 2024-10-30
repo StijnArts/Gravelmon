@@ -15,19 +15,19 @@ public class Beakapow extends drai.dev.data.pokemon.Pokemon {
                         73),
                 List.of(Ability.ROCK_HEAD,Ability.BATTLE_ARMOR,Ability.SOLID_ROCK), Ability.SOLID_ROCK,
                 8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 80,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.FLYING),
-                List.of("Spikes Ground"),
+                List.of(""),
                 List.of(),
                 List.of(
-                        new MoveLearnSetEntry(Move.SPIKES,"tm")                        ),
+                                              ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 31, 45, .8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

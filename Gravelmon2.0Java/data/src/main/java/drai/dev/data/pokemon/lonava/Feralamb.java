@@ -73,7 +73,8 @@ public class Feralamb extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("These rambunctious Pokémon are antisocial to the core, attacking anyone that passes by. The older a Feralamb, the more matted its fur."),
-                List.of(),
+                List.of(new EvolutionEntry("savagewe", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),
@@ -168,11 +169,11 @@ public class Feralamb extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AMNESIA,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 31, 5.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NATURAL, SpawnPreset.VILLAGE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Feralamb");

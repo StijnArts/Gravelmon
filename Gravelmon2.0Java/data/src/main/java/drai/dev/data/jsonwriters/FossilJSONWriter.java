@@ -106,7 +106,7 @@ public class FossilJSONWriter {
     }
 
     public static void createPlaceholderTextureIfNotExists(String filename, String resourcesDir) {
-        String textureDir = resourcesDir + "\\assets\\cobblemon\\textures\\fossil\\";
+        String textureDir = resourcesDir + "\\assets\\cobblemon\\textures\\fossils\\";
         File textureLocation = new File(textureDir + filename);
 
         if (!textureLocation.exists()) {

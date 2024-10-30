@@ -16,8 +16,8 @@ public class Furrbee extends drai.dev.data.pokemon.Pokemon {
                         60,
                         50),
                 List.of(Ability.HONEY_GATHER), Ability.HONEY_GATHER,
-                0, 0,
-                new Stats(1,0,0,1,0,0), 0,
+                8, 0,
+                new Stats(1,0,0,1,0,0), 110,
                 0.5,
                 138, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -27,13 +27,13 @@ public class Furrbee extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.OTOPO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 21, 43, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_TAIGA, Biome.IS_JUNGLE))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Furrbee");
 
     }

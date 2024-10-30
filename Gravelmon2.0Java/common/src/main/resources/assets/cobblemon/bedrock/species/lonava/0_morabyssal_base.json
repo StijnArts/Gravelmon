@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:morabyssal",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_morabyssal",
+      "texture": "cobblemon:textures/pokemon/lonava/morabyssal.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lonava/morabyssal.png"
+    }
+  ]
+}

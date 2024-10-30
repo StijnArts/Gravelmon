@@ -1,11 +1,11 @@
 {
   "implemented": true,
   "name": "tingillar",
-  "nationalPokedexNumber": 2712,
+  "nationalPokedexNumber": 2724,
   "primaryType": "bug",
   "abilities": [
     "swarm",
-    "h:SHIELD_DUST"
+    "h:shielddust"
   ],
   "baseStats": {
     "hp": 41,

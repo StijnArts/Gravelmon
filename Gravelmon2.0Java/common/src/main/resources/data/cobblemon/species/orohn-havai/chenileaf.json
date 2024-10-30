@@ -1,13 +1,13 @@
 {
   "implemented": true,
   "name": "chenileaf",
-  "nationalPokedexNumber": 3723,
+  "nationalPokedexNumber": 3735,
   "primaryType": "bug",
   "secondaryType": "grass",
   "abilities": [
     "swarm",
     "shedskin",
-    "h:SHIELD_DUST"
+    "h:shielddust"
   ],
   "baseStats": {
     "hp": 35,

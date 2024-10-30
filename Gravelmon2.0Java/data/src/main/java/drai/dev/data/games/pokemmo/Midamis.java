@@ -60,7 +60,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.chaosinvestia.regional.*;
 import drai.dev.data.pokemon.soulstones.*;
 import drai.dev.data.pokemon.soulstones.regional.*;
-
+//done
 public class Midamis extends drai.dev.data.games.registry.Game {
     public Midamis() {
         super("Midamis");

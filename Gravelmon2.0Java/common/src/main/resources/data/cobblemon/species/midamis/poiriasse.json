@@ -1,11 +1,11 @@
 {
   "implemented": true,
   "name": "poiriasse",
-  "nationalPokedexNumber": 5731,
+  "nationalPokedexNumber": 5788,
   "primaryType": "ice",
   "secondaryType": "poison",
   "abilities": [
-    "SHIELD_DUST",
+    "shielddust",
     "h:snowwarning"
   ],
   "baseStats": {

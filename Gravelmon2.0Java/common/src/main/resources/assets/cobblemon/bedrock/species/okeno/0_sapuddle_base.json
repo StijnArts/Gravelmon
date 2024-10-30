@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:sapuddle",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_sapuddle",
+      "texture": "cobblemon:textures/pokemon/okeno/sapuddle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/okeno/sapuddle.png"
+    }
+  ]
+}

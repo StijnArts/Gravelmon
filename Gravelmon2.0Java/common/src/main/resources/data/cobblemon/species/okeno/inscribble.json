@@ -1,11 +1,11 @@
 {
   "implemented": true,
   "name": "inscribble",
-  "nationalPokedexNumber": 5759,
+  "nationalPokedexNumber": 5817,
   "primaryType": "bug",
   "secondaryType": "fairy",
   "abilities": [
-    "SHIELD_DUST"  ],
+    "shielddust"  ],
   "baseStats": {
     "hp": 28,
     "attack": 30,

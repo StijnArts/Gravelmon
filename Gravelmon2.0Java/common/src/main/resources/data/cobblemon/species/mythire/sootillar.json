@@ -1,11 +1,11 @@
 {
   "implemented": true,
   "name": "sootillar",
-  "nationalPokedexNumber": 4892,
+  "nationalPokedexNumber": 4942,
   "primaryType": "bug",
   "secondaryType": "poison",
   "abilities": [
-    "SHIELD_DUST",
+    "shielddust",
     "unburden",
     "h:tintedlens"
   ],

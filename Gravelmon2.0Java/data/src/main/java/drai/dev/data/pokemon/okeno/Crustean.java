@@ -16,8 +16,8 @@ public class Crustean extends drai.dev.data.pokemon.Pokemon {
                         116,
                         59),
                 List.of(Ability.SHELL_ARMOR,Ability.STENCH), Ability.GOOEY,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                15, 0,
+                new Stats(0,0,0,0,0,0), 60,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -39,8 +39,8 @@ public class Crustean extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POISON_GAS,1)                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 43, .8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

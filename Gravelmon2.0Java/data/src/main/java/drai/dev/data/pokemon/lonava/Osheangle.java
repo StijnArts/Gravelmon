@@ -73,7 +73,8 @@ public class Osheangle extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_2,EggGroup.DRAGON),
                 List.of("Driven by a desire to burrow in deeper waters, Burreel evolves. Osheangle are extremely aggressive, and will eat anything that can fit in their mouth."),
-                List.of(),
+                List.of(new EvolutionEntry("morabyssal", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"55")))),
                 List.of(
                         new MoveLearnSetEntry(Move.MUDSLAP,1),
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),
@@ -162,13 +163,14 @@ public class Osheangle extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FISHIOUS_REND,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 6, 29, 5.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+        setCanBreathUnderwater(true);
            setLangFileName("Osheangle");
 
     }

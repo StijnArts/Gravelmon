@@ -1,5 +1,6 @@
 {
    "target": "cobblemon:tinkaton",
+  "preEvolution": "lagoonantinkatuff",
    "forms": [{
   "name": "Epoch",
   "primaryType": "ghost",

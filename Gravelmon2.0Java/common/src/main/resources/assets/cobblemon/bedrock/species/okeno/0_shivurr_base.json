@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:shivurr",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_shivurr",
+      "texture": "cobblemon:textures/pokemon/okeno/shivurr.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/okeno/shivurr.png"
+    }
+  ]
+}

@@ -73,6 +73,22 @@
     "cobblemon.species.qamorangrumpig.desc"
   ],
   "preEvolution": "spoink form=qamoran",
+  "evolutions": [
+    {
+      "id": "grumpig_grumpork",
+      "variant": "level_up",
+      "result": "grumpork",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 45
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,

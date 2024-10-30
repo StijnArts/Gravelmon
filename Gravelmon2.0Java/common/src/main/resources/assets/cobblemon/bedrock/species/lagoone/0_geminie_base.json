@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:geminie",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lagoone_geminie",
+      "texture": "cobblemon:textures/pokemon/lagoone/geminie.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lagoone/geminie.png"
+    }
+  ]
+}

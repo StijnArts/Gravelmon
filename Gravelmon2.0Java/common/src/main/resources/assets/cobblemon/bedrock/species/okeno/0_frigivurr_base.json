@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:frigivurr",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_frigivurr",
+      "texture": "cobblemon:textures/pokemon/okeno/frigivurr.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/okeno/frigivurr.png"
+    }
+  ]
+}

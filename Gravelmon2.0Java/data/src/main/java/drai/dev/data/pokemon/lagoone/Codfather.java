@@ -67,7 +67,7 @@ public class Codfather extends drai.dev.data.pokemon.Pokemon {
                         0),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 11, 332,
-                new Stats(0,0,0,0,0,2), 0,
+                new Stats(0,0,0,0,0,2), 70,
                 0.5,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -77,13 +77,15 @@ public class Codfather extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.LAGOONE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 38, 52, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Codfather");
 
     }

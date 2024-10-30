@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:erupshell",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_erupshell",
+      "texture": "cobblemon:textures/pokemon/okeno/erupshell.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/okeno/erupshell.png"
+    }
+  ]
+}

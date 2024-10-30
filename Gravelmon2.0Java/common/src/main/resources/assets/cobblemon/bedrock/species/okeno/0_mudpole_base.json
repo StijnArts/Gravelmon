@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:mudpole",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_mudpole",
+      "texture": "cobblemon:textures/pokemon/okeno/mudpole.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/okeno/mudpole.png"
+    }
+  ]
+}

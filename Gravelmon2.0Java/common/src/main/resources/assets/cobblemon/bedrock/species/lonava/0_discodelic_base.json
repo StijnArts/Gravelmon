@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:discodelic",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_discodelic",
+      "texture": "cobblemon:textures/pokemon/lonava/discodelic.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lonava/discodelic.png"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "implemented": true,
+  "name": "slitharjo",
+  "nationalPokedexNumber": 1380,
+  "primaryType": "ghost",
+  "secondaryType": "ground",
+  "abilities": [
+    "mimicry",
+    "infiltrator",
+    "h:regenerator"
+  ],
+  "baseStats": {
+    "hp": 130,
+    "attack": 70,
+    "defence": 60,
+    "special_attack": 95,
+    "special_defence": 60,
+    "speed": 100
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 181,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous",
+    "water_3"
+  ],
+  "moves": [
+    "1:mudslap",
+    "1:astonish",
+    "6:mudsport",
+    "10:shadowsneak",
+    "14:mudshot",
+    "17:feintattack",
+    "21:nightshade",
+    "24:mudbomb",
+    "27:recover",
+    "30:terrainpulse",
+    "33:camouflage",
+    "41:suckerpunch",
+    "45:mudslide",
+    "50:reflecttype",
+    "56:shadowball",
+    "60:glare",
+    "70:phantomforce",
+    "tm:refresh",
+    "tm:endure",
+    "tm:painsplit",
+    "tm:wringout",
+    "tm:mist",
+    "tm:haze",
+    "tm:coil",
+    "tm:gunkshot",
+    "tm:amnesia"  ],
+  "labels": [
+    "rica",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.slitharjo.desc"
+  ],
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 15,
+  "weight": 10,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

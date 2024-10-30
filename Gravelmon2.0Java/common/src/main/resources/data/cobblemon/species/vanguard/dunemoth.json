@@ -1,11 +1,11 @@
 {
   "implemented": true,
   "name": "dunemoth",
-  "nationalPokedexNumber": 5238,
+  "nationalPokedexNumber": 5295,
   "primaryType": "bug",
   "secondaryType": "ground",
   "abilities": [
-    "SHIELD_DUST",
+    "shielddust",
     "tintedlens"  ],
   "baseStats": {
     "hp": 70,

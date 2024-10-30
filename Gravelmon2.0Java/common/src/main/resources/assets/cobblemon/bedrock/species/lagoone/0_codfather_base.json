@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:codfather",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lagoone_codfather",
+      "texture": "cobblemon:textures/pokemon/lagoone/codfather.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lagoone/codfather.png"
+    }
+  ]
+}

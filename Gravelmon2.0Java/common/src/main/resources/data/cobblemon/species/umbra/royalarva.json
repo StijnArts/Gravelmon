@@ -1,10 +1,10 @@
 {
   "implemented": true,
   "name": "royalarva",
-  "nationalPokedexNumber": 4694,
+  "nationalPokedexNumber": 4744,
   "primaryType": "bug",
   "abilities": [
-    "SHIELD_DUST",
+    "shielddust",
     "h:runaway"
   ],
   "baseStats": {

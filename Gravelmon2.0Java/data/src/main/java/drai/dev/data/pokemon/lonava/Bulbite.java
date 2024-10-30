@@ -73,7 +73,8 @@ public class Bulbite extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("In the day, Bulbite screw themselves into empty lightbulb sockets in abandoned houses. They fly around at dusk absorbing electricity from power lines, generators, and the occasional electric car."),
-                List.of(),
+                List.of(new EvolutionEntry("lampire", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:electirizer")),
                 List.of(
                         new MoveLearnSetEntry(Move.CHARGE,1),
                         new MoveLearnSetEntry(Move.DUAL_WINGBEAT,1),
@@ -201,13 +202,15 @@ public class Bulbite extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WEATHER_BALL,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 32, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NATURAL, SpawnPreset.VILLAGE),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Bulbite");
 
     }

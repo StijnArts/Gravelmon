@@ -1,11 +1,11 @@
 {
   "implemented": true,
   "name": "cloakhrys",
-  "nationalPokedexNumber": 4893,
+  "nationalPokedexNumber": 4943,
   "primaryType": "bug",
   "secondaryType": "poison",
   "abilities": [
-    "SHIELD_DUST",
+    "shielddust",
     "unburden",
     "h:tintedlens"
   ],

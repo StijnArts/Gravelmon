@@ -1,11 +1,11 @@
 {
   "implemented": true,
   "name": "silxie",
-  "nationalPokedexNumber": 6747,
+  "nationalPokedexNumber": 6830,
   "primaryType": "bug",
   "secondaryType": "fairy",
   "abilities": [
-    "SHIELD_DUST",
+    "shielddust",
     "shedskin",
     "h:multiscale"
   ],

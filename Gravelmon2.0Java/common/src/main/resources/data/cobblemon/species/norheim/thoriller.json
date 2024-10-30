@@ -1,10 +1,10 @@
 {
   "implemented": true,
   "name": "thoriller",
-  "nationalPokedexNumber": 3935,
+  "nationalPokedexNumber": 3947,
   "primaryType": "bug",
   "abilities": [
-    "SHIELD_DUST",
+    "shielddust",
     "angerpoint",
     "h:runaway"
   ],

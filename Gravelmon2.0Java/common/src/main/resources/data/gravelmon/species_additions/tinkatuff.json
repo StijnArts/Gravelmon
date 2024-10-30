@@ -1,5 +1,6 @@
 {
    "target": "cobblemon:tinkatuff",
+  "preEvolution": "lagoonantinkatink",
    "forms": [{
   "name": "Epoch",
   "primaryType": "ghost",
@@ -214,6 +215,22 @@
   ],
   "pokedex": [
     "cobblemon.species.lagoonantinkatuff.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "tinkatuff_tinkaton",
+      "variant": "level_up",
+      "result": "tinkaton",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 38
+        }
+      ],
+      "permanent": true   
+ }
   ],
   "baseScale": 0.16666666666666666,
   "hitbox": {

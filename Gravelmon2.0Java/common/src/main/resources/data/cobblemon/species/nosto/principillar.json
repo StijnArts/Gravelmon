@@ -1,10 +1,10 @@
 {
   "implemented": true,
   "name": "principillar",
-  "nationalPokedexNumber": 4419,
+  "nationalPokedexNumber": 4469,
   "primaryType": "bug",
   "abilities": [
-    "SHIELD_DUST",
+    "shielddust",
     "swarm",
     "h:earlybird"
   ],

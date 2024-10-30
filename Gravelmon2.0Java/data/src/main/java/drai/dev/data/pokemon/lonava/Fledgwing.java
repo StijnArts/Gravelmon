@@ -73,7 +73,8 @@ public class Fledgwing extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Delicate and helpless, Fledgwing anchor themselves to the ground by burying their feet into long grass or sand to avoid being blown away in a strong breeze."),
-                List.of(),
+                List.of(new EvolutionEntry("sheardrop", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PECK,1),
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,1),
@@ -149,8 +150,8 @@ public class Fledgwing extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PLUCK,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 8, 34, 4.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

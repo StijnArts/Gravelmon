@@ -1,11 +1,11 @@
 {
   "implemented": true,
   "name": "mimoth",
-  "nationalPokedexNumber": 4424,
+  "nationalPokedexNumber": 4474,
   "primaryType": "bug",
   "secondaryType": "dark",
   "abilities": [
-    "SHIELD_DUST",
+    "shielddust",
     "h:intimidate"
   ],
   "baseStats": {

@@ -1,11 +1,11 @@
 {
   "implemented": true,
   "name": "proseed",
-  "nationalPokedexNumber": 5658,
+  "nationalPokedexNumber": 5715,
   "primaryType": "poison",
   "secondaryType": "psychic",
   "abilities": [
-    "SHIELD_DUST",
+    "shielddust",
     "h:levitate"
   ],
   "baseStats": {

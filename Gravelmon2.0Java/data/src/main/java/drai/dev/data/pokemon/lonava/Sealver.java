@@ -73,7 +73,8 @@ public class Sealver extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.MINERAL),
                 List.of("Their metallic bodies reflect light even underwater, making them easy for conservationists to track. They're often found sunbathing on beaches, or bobbing around harbours."),
-                List.of(),
+                List.of(new EvolutionEntry("pinneral", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ACID_ARMOR,1),
                         new MoveLearnSetEntry(Move.POUND,1),
@@ -185,8 +186,8 @@ public class Sealver extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SNORE,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 4, 27, 4.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

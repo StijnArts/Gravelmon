@@ -66,8 +66,8 @@ public class Marajar extends drai.dev.data.pokemon.Pokemon {
                         125,
                         41),
                 List.of(Ability.WATER_ABSORB), Ability.WATER_ABSORB,
-                0, 0,
-                new Stats(0,0,0,0,2,0), 0,
+                15, 0,
+                new Stats(0,0,0,0,2,0), 80,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -92,11 +92,10 @@ public class Marajar extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAL_BLOCK,1)                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 33, 54, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NATURAL, SpawnPreset.DESERT_PYRAMID),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Marajar");

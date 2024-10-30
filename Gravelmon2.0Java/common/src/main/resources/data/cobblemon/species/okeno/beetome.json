@@ -1,11 +1,11 @@
 {
   "implemented": true,
   "name": "beetome",
-  "nationalPokedexNumber": 5761,
+  "nationalPokedexNumber": 5819,
   "primaryType": "bug",
   "secondaryType": "fairy",
   "abilities": [
-    "SHIELD_DUST"  ],
+    "shielddust"  ],
   "baseStats": {
     "hp": 55,
     "attack": 80,

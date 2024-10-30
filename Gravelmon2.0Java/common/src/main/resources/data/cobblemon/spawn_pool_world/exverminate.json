@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "exverminate-1",
+      "pokemon": "exverminate",
+      "presets": [
+          "natural",
+          "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "21-42",
+      "weight": 1.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_overworld" ],
+        "canSeeSky": true,
+        "timeRange": "night"
+      }
+
+    }
+  ]
+}

@@ -1,12 +1,12 @@
 {
   "implemented": true,
   "name": "pestilint",
-  "nationalPokedexNumber": 2416,
+  "nationalPokedexNumber": 2428,
   "primaryType": "bug",
   "secondaryType": "normal",
   "abilities": [
     "fluffy",
-    "h:SHIELD_DUST"
+    "h:shielddust"
   ],
   "baseStats": {
     "hp": 80,

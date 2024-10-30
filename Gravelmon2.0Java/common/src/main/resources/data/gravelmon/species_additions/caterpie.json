@@ -80,7 +80,7 @@
   "primaryType": "bug",
   "secondaryType": "fairy",
   "abilities": [
-    "SHIELD_DUST"  ],
+    "shielddust"  ],
   "baseStats": {
     "hp": 45,
     "attack": 20,
@@ -173,7 +173,7 @@
   "primaryType": "bug",
   "secondaryType": "electric",
   "abilities": [
-    "SHIELD_DUST",
+    "shielddust",
     "h:runaway"
   ],
   "baseStats": {

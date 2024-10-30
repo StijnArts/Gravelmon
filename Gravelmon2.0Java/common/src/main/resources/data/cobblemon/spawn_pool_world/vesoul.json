@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "vesoul-1",
+      "pokemon": "vesoul",
+      "presets": [
+          "natural",
+          "desert_pyramid"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "13-33",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_desert" ]
+      }
+
+    }
+  ]
+}

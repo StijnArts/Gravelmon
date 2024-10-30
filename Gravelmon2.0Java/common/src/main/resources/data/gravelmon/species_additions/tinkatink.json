@@ -222,6 +222,22 @@
   "pokedex": [
     "cobblemon.species.lagoonantinkatink.desc"
   ],
+  "evolutions": [
+    {
+      "id": "tinkatink_tinkatuff",
+      "variant": "level_up",
+      "result": "tinkatuff",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 24
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
