@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:longjohn",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_longjohn",
+      "texture": "cobblemon:textures/pokemon/kuulkid/longjohn.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/longjohn.png"
+    }
+  ]
+}

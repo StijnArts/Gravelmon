@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:yograde",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:s?rin_yograde",
+      "texture": "cobblemon:textures/pokemon/s?rin/yograde.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/s?rin/yograde.png"
+    }
+  ]
+}

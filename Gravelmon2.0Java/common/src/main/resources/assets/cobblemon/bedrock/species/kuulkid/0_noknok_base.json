@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:noknok",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_noknok",
+      "texture": "cobblemon:textures/pokemon/kuulkid/noknok.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/noknok.png"
+    }
+  ]
+}

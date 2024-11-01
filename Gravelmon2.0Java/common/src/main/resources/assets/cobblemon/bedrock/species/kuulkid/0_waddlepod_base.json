@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:waddlepod",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_waddlepod",
+      "texture": "cobblemon:textures/pokemon/kuulkid/waddlepod.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/waddlepod.png"
+    }
+  ]
+}

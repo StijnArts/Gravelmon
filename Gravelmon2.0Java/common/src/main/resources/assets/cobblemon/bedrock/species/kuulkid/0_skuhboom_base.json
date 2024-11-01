@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:skuhboom",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_skuhboom",
+      "texture": "cobblemon:textures/pokemon/kuulkid/skuhboom.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/skuhboom.png"
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 package drai.dev.data.games.pokemmo;
 
 
-import drai.dev.data.pokemon.tokas.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.tokas.*;
 
 import java.util.*;
 public class Tokas extends drai.dev.data.games.registry.Game {

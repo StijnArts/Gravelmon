@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:kraboxa",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:s?rin_kraboxa",
+      "texture": "cobblemon:textures/pokemon/s?rin/kraboxa.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/s?rin/kraboxa.png"
+    }
+  ]
+}

@@ -1,7 +1,6 @@
 package drai.dev.data.games.pokemmo.done;
 
 
-import drai.dev.data.pokemon.enriko.Metrognome;
 import drai.dev.data.pokemon.enriko.*;
 //done
 public class Enriko extends drai.dev.data.games.registry.Game {

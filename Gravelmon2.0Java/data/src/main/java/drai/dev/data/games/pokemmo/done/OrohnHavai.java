@@ -1,7 +1,6 @@
 package drai.dev.data.games.pokemmo.done;
 
 import drai.dev.data.attributes.*;
-import drai.dev.data.pokemon.orohnhavai.Voidefish;
 import drai.dev.data.pokemon.atlas.Akrovern;
 import drai.dev.data.pokemon.atlas.Albivore;
 import drai.dev.data.pokemon.atlas.Carosella;

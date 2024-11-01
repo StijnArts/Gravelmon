@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:hogrod",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_hogrod",
+      "texture": "cobblemon:textures/pokemon/kuulkid/hogrod.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/hogrod.png"
+    }
+  ]
+}

@@ -1,8 +1,6 @@
 package drai.dev.data.games.pokemmo.done;
 
 import drai.dev.data.pokemon.novrai.*;
-import drai.dev.data.pokemon.novrai.Scuddle;
-import drai.dev.data.pokemon.novrai.Eggoo;
 //done
 public class Novrai extends drai.dev.data.games.registry.Game {
     public Novrai() {

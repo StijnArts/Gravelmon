@@ -1,13 +1,6 @@
 package drai.dev.data.games.pokemmo.done;
 
 import drai.dev.data.attributes.*;
-import drai.dev.data.pokemon.nosto.Brailien;
-import drai.dev.data.pokemon.nosto.Carrauntain;
-import drai.dev.data.pokemon.nosto.Cereboost;
-import drai.dev.data.pokemon.nosto.Fauxmingo;
-import drai.dev.data.pokemon.nosto.Marshun;
-import drai.dev.data.pokemon.nosto.Sedinane;
-import drai.dev.data.pokemon.nosto.Stalittle;
 import drai.dev.data.pokemon.nosto.*;
 
 import java.util.*;

@@ -2,7 +2,6 @@ package drai.dev.data.games.other;
 
 
 import drai.dev.data.games.registry.*;
-import drai.dev.data.pokemon.ayrei.Solacor;
 import drai.dev.data.pokemon.ayrei.*;
 
 public class Vanguard extends Game {

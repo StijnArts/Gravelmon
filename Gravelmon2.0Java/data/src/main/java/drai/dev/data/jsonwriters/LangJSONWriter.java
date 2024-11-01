@@ -1,11 +1,9 @@
 package drai.dev.data.jsonwriters;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.games.registry.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.*;
 import org.apache.commons.lang3.*;
 
 import java.io.*;

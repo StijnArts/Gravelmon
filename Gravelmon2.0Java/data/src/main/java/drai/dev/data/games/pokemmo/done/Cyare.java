@@ -24,7 +24,6 @@ import drai.dev.data.pokemon.atlas.Tomabi;
 import drai.dev.data.pokemon.atlas.Volpaca;
 import drai.dev.data.pokemon.atlas.*;
 import drai.dev.data.pokemon.cyare.*;
-import drai.dev.data.pokemon.cyare.Ghouster;
 import drai.dev.data.pokemon.rica.Conchorn;
 import drai.dev.data.pokemon.rica.Conium;
 import drai.dev.data.pokemon.rica.Lumibuzz;

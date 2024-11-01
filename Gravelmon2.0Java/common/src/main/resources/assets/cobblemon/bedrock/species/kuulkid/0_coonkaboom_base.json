@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:coonkaboom",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_coonkaboom",
+      "texture": "cobblemon:textures/pokemon/kuulkid/coonkaboom.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/coonkaboom.png"
+    }
+  ]
+}

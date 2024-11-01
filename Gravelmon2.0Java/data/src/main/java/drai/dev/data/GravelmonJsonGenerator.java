@@ -1,12 +1,9 @@
 package drai.dev.data;
 
-import com.mojang.authlib.minecraft.client.*;
 import drai.dev.data.games.registry.*;
-import drai.dev.gravelmon.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.jsonwriters.*;
 import drai.dev.data.pokemon.*;
-import drai.dev.data.pokemon.Pokemon;
+import drai.dev.gravelmon.*;
 import net.fabricmc.api.*;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.*;
 import net.minecraft.client.*;

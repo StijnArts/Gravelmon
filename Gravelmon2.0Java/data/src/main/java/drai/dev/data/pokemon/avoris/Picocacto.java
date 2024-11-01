@@ -5,11 +5,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
-
-import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
-import java.util.*;
-
 public class Picocacto extends drai.dev.data.pokemon.Pokemon {
     public Picocacto() {
         super("Picocacto",

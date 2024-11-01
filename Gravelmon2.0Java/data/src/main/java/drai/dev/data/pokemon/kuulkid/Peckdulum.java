@@ -66,8 +66,8 @@ public class Peckdulum extends drai.dev.data.pokemon.Pokemon {
                         65,
                         99),
                 List.of(Ability.OWNTEMPO), Ability.OWNTEMPO,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                15, 0,
+                new Stats(0,0,0,0,0,0), 80,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -77,13 +77,13 @@ public class Peckdulum extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.KUULKID),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 22, 51, .9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Peckdulum");
 
     }

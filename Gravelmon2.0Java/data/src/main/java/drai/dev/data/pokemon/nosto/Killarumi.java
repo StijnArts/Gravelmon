@@ -2,6 +2,7 @@ package drai.dev.data.pokemon.nosto;
 
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+
 import java.util.*;
 
 public class Killarumi extends drai.dev.data.pokemon.Pokemon {

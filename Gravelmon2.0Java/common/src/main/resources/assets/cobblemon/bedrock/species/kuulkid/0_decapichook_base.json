@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:decapichook",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_decapichook",
+      "texture": "cobblemon:textures/pokemon/kuulkid/decapichook.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/decapichook.png"
+    }
+  ]
+}

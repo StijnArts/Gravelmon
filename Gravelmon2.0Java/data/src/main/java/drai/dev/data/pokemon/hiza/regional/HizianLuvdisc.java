@@ -2,6 +2,7 @@ package drai.dev.data.pokemon.hiza.regional;
 
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+
 import java.util.*;
 
 public class HizianLuvdisc extends drai.dev.data.pokemon.Pokemon {

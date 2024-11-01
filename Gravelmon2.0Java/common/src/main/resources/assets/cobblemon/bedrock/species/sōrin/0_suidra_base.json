@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:suidra",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:s?rin_suidra",
+      "texture": "cobblemon:textures/pokemon/s?rin/suidra.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/s?rin/suidra.png"
+    }
+  ]
+}

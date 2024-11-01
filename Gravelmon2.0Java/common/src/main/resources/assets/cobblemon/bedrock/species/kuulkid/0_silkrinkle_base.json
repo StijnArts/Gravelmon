@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:silkrinkle",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_silkrinkle",
+      "texture": "cobblemon:textures/pokemon/kuulkid/silkrinkle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/silkrinkle.png"
+    }
+  ]
+}

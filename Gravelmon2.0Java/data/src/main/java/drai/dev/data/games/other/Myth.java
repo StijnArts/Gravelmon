@@ -1,11 +1,7 @@
 package drai.dev.data.games.other;
 
 import drai.dev.data.games.registry.*;
-import drai.dev.data.pokemon.myth.Dampurr;
-import drai.dev.data.pokemon.myth.Delugar;
-import drai.dev.data.pokemon.myth.Titaneon;
 import drai.dev.data.pokemon.myth.*;
-import drai.dev.data.pokemon.myth.Duneon;
 import drai.dev.data.pokemon.panjaea.Toxeon;
 
 public class Myth extends Game

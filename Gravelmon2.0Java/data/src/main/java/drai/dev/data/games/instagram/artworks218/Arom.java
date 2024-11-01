@@ -2,7 +2,6 @@ package drai.dev.data.games.instagram.artworks218;
 
 
 import drai.dev.data.pokemon.arom.*;
-import drai.dev.data.pokemon.arom.Romarlord;
 
 public class Arom extends drai.dev.data.games.registry.Game {
     public Arom() {

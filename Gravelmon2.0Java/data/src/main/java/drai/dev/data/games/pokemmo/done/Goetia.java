@@ -1,12 +1,10 @@
 package drai.dev.data.games.pokemmo.done;
 
 
+import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.goetia.*;
-import drai.dev.data.pokemon.goetia.Jelsparc;
-import drai.dev.data.pokemon.goetia.Lumini;
 import drai.dev.data.pokemon.oceane.Jawee;
 import drai.dev.data.pokemon.oceane.Jawsome;
-import drai.dev.data.attributes.*;
 
 import java.util.*;
 

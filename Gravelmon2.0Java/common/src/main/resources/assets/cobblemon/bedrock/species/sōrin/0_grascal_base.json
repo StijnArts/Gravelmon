@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:grascal",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:s?rin_grascal",
+      "texture": "cobblemon:textures/pokemon/s?rin/grascal.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/s?rin/grascal.png"
+    }
+  ]
+}

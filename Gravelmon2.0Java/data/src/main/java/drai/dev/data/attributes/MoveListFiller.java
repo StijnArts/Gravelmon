@@ -3,7 +3,6 @@ package drai.dev.data.attributes;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import org.jetbrains.annotations.*;
-import org.lwjgl.system.linux.*;
 
 import java.util.*;
 

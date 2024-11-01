@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:paracelium",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_paracelium",
+      "texture": "cobblemon:textures/pokemon/kuulkid/paracelium.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/paracelium.png"
+    }
+  ]
+}

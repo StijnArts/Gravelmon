@@ -2,7 +2,7 @@ package drai.dev.data.jsonwriters;
 
 import drai.dev.data.games.registry.*;
 
-import static drai.dev.data.jsonwriters.LanguageGenerator.generateLangFile;
+import static drai.dev.data.jsonwriters.LanguageGenerator.*;
 
 public class JSONOutputGenerator {
     public static void generate(String resourcesDir) {

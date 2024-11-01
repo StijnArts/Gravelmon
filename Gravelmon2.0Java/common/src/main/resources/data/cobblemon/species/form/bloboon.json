@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bloboon",
-  "nationalPokedexNumber": 4799,
+  "nationalPokedexNumber": 4977,
   "primaryType": "bug",
   "secondaryType": "water",
   "abilities": [
@@ -27,16 +27,16 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 120,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -70,7 +70,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 6,
   "weight": 0,
   "aspects": [],
 "features": [

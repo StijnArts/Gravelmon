@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:bambuzzle",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:s?rin_bambuzzle",
+      "texture": "cobblemon:textures/pokemon/s?rin/bambuzzle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/s?rin/bambuzzle.png"
+    }
+  ]
+}

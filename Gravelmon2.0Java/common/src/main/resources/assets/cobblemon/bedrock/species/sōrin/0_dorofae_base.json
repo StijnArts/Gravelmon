@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:dorofae",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:s?rin_dorofae",
+      "texture": "cobblemon:textures/pokemon/s?rin/dorofae.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/s?rin/dorofae.png"
+    }
+  ]
+}

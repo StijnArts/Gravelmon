@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:wrinklsphinx",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_wrinklsphinx",
+      "texture": "cobblemon:textures/pokemon/kuulkid/wrinklsphinx.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/wrinklsphinx.png"
+    }
+  ]
+}

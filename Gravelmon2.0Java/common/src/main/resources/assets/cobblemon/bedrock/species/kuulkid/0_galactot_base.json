@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:galactot",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_galactot",
+      "texture": "cobblemon:textures/pokemon/kuulkid/galactot.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/galactot.png"
+    }
+  ]
+}

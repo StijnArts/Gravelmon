@@ -1,11 +1,9 @@
 package drai.dev.data.games.pokemmo;
 
 
+import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.ayrei.Firomenis;
 import drai.dev.data.pokemon.ayrei.Merlicun;
-import drai.dev.data.pokemon.mongratis.*;
-import drai.dev.data.pokemon.mongratis.Baobaraffe;
-import drai.dev.data.pokemon.mongratis.Baoby;
 import drai.dev.data.pokemon.mongratis.Baulder;
 import drai.dev.data.pokemon.mongratis.Cobarett;
 import drai.dev.data.pokemon.mongratis.Hissiorite;
@@ -13,8 +11,8 @@ import drai.dev.data.pokemon.mongratis.Lavare;
 import drai.dev.data.pokemon.mongratis.Lavee;
 import drai.dev.data.pokemon.mongratis.Pythonova;
 import drai.dev.data.pokemon.mongratis.Tekagon;
+import drai.dev.data.pokemon.mongratis.*;
 import drai.dev.data.pokemon.myth.*;
-import drai.dev.data.attributes.*;
 
 import java.util.*;
 

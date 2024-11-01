@@ -2,7 +2,6 @@ package drai.dev.data.games.pokemmo;
 
 
 import drai.dev.data.pokemon.mikitari.*;
-import drai.dev.data.pokemon.mikitari.Stalat;
 import drai.dev.data.pokemon.mikitari.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 

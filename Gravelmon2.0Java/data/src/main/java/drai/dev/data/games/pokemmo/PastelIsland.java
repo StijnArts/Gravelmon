@@ -2,8 +2,6 @@ package drai.dev.data.games.pokemmo;
 
 
 import drai.dev.data.attributes.*;
-import drai.dev.data.pokemon.pastelisland.Panthevil;
-import drai.dev.data.pokemon.pastelisland.Rascat;
 import drai.dev.data.pokemon.pastelisland.*;
 
 import java.util.*;

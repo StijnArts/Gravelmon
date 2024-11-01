@@ -1,9 +1,8 @@
 package drai.dev.data.pokemon.lockemon.regional;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
-import drai.dev.data.util.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 

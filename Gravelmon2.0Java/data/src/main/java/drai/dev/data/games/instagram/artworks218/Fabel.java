@@ -2,8 +2,6 @@ package drai.dev.data.games.instagram.artworks218;
 
 
 import drai.dev.data.pokemon.fabel.*;
-import drai.dev.data.pokemon.fabel.regional.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Fabel extends drai.dev.data.games.registry.Game {
     public Fabel() {

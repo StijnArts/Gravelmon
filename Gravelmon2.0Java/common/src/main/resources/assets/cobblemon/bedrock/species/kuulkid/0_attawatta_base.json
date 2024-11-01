@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:attawatta",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_attawatta",
+      "texture": "cobblemon:textures/pokemon/kuulkid/attawatta.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/attawatta.png"
+    }
+  ]
+}

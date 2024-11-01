@@ -66,8 +66,8 @@ public class Monstache extends drai.dev.data.pokemon.Pokemon {
                         65,
                         70),
                 List.of(Ability.SCRAPPY), Ability.FILTER,
-                0, 0,
-                new Stats(0,0,0,2,0,0), 0,
+                6, 0,
+                new Stats(0,0,0,2,0,0), 60,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -77,11 +77,12 @@ public class Monstache extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.KUULKID),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 28, 45, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NATURAL, SpawnPreset.VILLAGE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Monstache");

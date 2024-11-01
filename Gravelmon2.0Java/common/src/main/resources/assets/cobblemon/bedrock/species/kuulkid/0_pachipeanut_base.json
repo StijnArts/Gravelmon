@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:pachipeanut",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_pachipeanut",
+      "texture": "cobblemon:textures/pokemon/kuulkid/pachipeanut.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/pachipeanut.png"
+    }
+  ]
+}

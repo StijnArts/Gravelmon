@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "silkrinkle-1",
+      "pokemon": "silkrinkle",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "1-11",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ]
+      }
+
+    }
+  ]
+}

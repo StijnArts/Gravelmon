@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:kippsie",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_kippsie",
+      "texture": "cobblemon:textures/pokemon/kuulkid/kippsie.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/kippsie.png"
+    }
+  ]
+}

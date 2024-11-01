@@ -64,6 +64,7 @@ public class MythianLapras extends Pokemon {
         this.setLangFileName("Lapras");
         this.setAvoidsLand(true);
         setCanSwim(true);
+        setCanWalkOnWater(true);
         setCanBreathUnderwater(true);
     }
 }

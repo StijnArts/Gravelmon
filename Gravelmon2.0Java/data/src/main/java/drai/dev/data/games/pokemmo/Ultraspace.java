@@ -1,10 +1,8 @@
 package drai.dev.data.games.pokemmo;
 
 
-
-import drai.dev.data.pokemon.ultraspace.*;
-import drai.dev.data.pokemon.ultraspace.Turfowl;
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.ultraspace.*;
 
 import java.util.*;
 

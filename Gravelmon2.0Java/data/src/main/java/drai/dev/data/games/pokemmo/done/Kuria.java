@@ -2,9 +2,6 @@ package drai.dev.data.games.pokemmo.done;
 
 
 import drai.dev.data.pokemon.kuria.*;
-import drai.dev.data.pokemon.kuria.Archemite;
-import drai.dev.data.pokemon.kuria.Conamite;
-import drai.dev.data.pokemon.kuria.Stalagtic;
 //done
 public class Kuria extends drai.dev.data.games.registry.Game {
     public Kuria() {

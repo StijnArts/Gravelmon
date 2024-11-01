@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:muleseye",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_muleseye",
+      "texture": "cobblemon:textures/pokemon/kuulkid/muleseye.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/muleseye.png"
+    }
+  ]
+}

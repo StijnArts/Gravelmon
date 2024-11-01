@@ -1,6 +1,7 @@
 package drai.dev.data.games.pokemmo.done;
 
 
+import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.atlas.Ampin;
 import drai.dev.data.pokemon.atlas.Bonafant;
 import drai.dev.data.pokemon.atlas.Dwarpy;
@@ -14,8 +15,6 @@ import drai.dev.data.pokemon.atlas.Surchin;
 import drai.dev.data.pokemon.atlas.Wisdaum;
 import drai.dev.data.pokemon.atlas.Wombabe;
 import drai.dev.data.pokemon.dhiome.*;
-import drai.dev.data.pokemon.dhiome.Puffoon;
-import drai.dev.data.attributes.*;
 
 import java.util.*;
 //done

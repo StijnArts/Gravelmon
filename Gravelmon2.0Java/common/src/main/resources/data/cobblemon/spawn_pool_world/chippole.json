@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "chippole-1",
+      "pokemon": "chippole",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "7-32",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ]
+      }
+
+    }
+  ]
+}

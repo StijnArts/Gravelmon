@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:beachu",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_beachu",
+      "texture": "cobblemon:textures/pokemon/kuulkid/beachu.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/beachu.png"
+    }
+  ]
+}

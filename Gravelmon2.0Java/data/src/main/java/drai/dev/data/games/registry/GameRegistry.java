@@ -5,8 +5,8 @@ import drai.dev.data.games.instagram.artworks218.*;
 import drai.dev.data.games.instagram.eldark.*;
 import drai.dev.data.games.instagram.federex.*;
 import drai.dev.data.games.instagram.fra.*;
-import drai.dev.data.games.other.*;
 import drai.dev.data.games.original.*;
+import drai.dev.data.games.other.*;
 import drai.dev.data.games.pbs.*;
 import drai.dev.data.games.pokemmo.*;
 import drai.dev.data.games.pokemmo.done.*;
@@ -47,6 +47,7 @@ public class GameRegistry {
         games.add(new Aristos());
         games.add(new Uranium());
         games.add(new Flux());
+        games.add(new Kuulkid());
         games.add(new Hiza());
         games.add(new Junnin());
 
@@ -101,5 +102,6 @@ public class GameRegistry {
         games.add(new Elb());
 
         games.add(new Goetia());
+        games.add(new Sorin());
     }
 }

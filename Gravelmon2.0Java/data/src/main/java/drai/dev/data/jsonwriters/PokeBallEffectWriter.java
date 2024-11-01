@@ -6,8 +6,6 @@ import java.io.*;
 import java.nio.file.*;
 import java.util.function.*;
 
-import static drai.dev.gravelmon.registries.GravelmonItems.POKE_BALLS;
-
 public class PokeBallEffectWriter {
     public static void writeEffects(String resourcesDir) {
         GravelmonItems.POKE_BALLS.stream().map(Supplier::get)

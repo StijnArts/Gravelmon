@@ -1,18 +1,13 @@
 package drai.dev.data.jsonwriters;
 
-import drai.dev.data.games.registry.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.io.*;
 import java.nio.file.*;
 import java.util.*;
-
-import static drai.dev.data.pokemon.Pokemon.ADDITIONAL_FORMS;
-import static drai.dev.data.pokemon.Pokemon.getKeysByValue;
 
 public class AdditionSpawnPoolWorldJSONWriter {
 

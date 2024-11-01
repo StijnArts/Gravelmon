@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:abominabull",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_abominabull",
+      "texture": "cobblemon:textures/pokemon/kuulkid/abominabull.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/abominabull.png"
+    }
+  ]
+}

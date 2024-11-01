@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:tomatoss",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_tomatoss",
+      "texture": "cobblemon:textures/pokemon/kuulkid/tomatoss.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/tomatoss.png"
+    }
+  ]
+}

@@ -2,6 +2,7 @@ package drai.dev.data.pokemon.enriko;
 
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+
 import java.util.*;
 
 public class Encyst extends drai.dev.data.pokemon.Pokemon {

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:bulkyago",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:s?rin_bulkyago",
+      "texture": "cobblemon:textures/pokemon/s?rin/bulkyago.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/s?rin/bulkyago.png"
+    }
+  ]
+}

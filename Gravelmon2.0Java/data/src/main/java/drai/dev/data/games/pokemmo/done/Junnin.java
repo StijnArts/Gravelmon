@@ -20,7 +20,6 @@ import drai.dev.data.pokemon.atlas.Stuckry;
 import drai.dev.data.pokemon.atlas.Wildyre;
 import drai.dev.data.pokemon.atlas.Withereen;
 import drai.dev.data.pokemon.junnin.*;
-import drai.dev.data.pokemon.junnin.Pharoar;
 
 //done
 public class Junnin extends drai.dev.data.games.registry.Game {

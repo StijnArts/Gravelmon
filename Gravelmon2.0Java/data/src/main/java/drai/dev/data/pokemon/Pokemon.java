@@ -2,10 +2,10 @@ package drai.dev.data.pokemon;
 
 import drai.dev.data.*;
 import drai.dev.data.attributes.*;
-import drai.dev.data.util.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.games.registry.*;
+import drai.dev.data.util.*;
 import drai.dev.gravelmon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 import org.apache.commons.lang3.*;
 import org.jetbrains.annotations.*;
 
@@ -68,6 +68,7 @@ public class Pokemon {
     private Boolean willSleepOnBed = false;
     private Boolean canBreathUnderwater = false;
     private Boolean canWalk = true;
+    private Boolean canWalkOnWater = false;
     private Boolean avoidsLand = false;
     private double baseScale;
     private final double portraitScale;
@@ -1004,5 +1005,13 @@ public class Pokemon {
 
     public boolean hasWeightMultiplier() {
         return !getPreferredBlocks().isEmpty();
+    }
+
+    public Boolean getCanWalkOnWater() {
+        return canWalkOnWater;
+    }
+
+    public void setCanWalkOnWater(Boolean canWalkOnWater) {
+        this.canWalkOnWater = canWalkOnWater;
     }
 }

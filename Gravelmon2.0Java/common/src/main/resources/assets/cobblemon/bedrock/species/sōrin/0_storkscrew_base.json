@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:storkscrew",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:s?rin_storkscrew",
+      "texture": "cobblemon:textures/pokemon/s?rin/storkscrew.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/s?rin/storkscrew.png"
+    }
+  ]
+}

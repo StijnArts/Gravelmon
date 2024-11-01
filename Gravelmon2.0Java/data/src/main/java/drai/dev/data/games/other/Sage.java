@@ -1,8 +1,8 @@
 package drai.dev.data.games.other;
 
 import drai.dev.data.games.registry.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.sage.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Sage extends Game {
 

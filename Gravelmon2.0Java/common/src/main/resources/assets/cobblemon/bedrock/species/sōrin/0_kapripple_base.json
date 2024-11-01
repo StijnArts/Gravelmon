@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:kapripple",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:s?rin_kapripple",
+      "texture": "cobblemon:textures/pokemon/s?rin/kapripple.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/s?rin/kapripple.png"
+    }
+  ]
+}

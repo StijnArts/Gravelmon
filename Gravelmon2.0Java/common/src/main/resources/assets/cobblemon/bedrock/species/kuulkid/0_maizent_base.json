@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:maizent",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_maizent",
+      "texture": "cobblemon:textures/pokemon/kuulkid/maizent.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/maizent.png"
+    }
+  ]
+}

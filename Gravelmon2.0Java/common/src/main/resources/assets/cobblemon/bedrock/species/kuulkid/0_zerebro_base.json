@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:zerebro",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_zerebro",
+      "texture": "cobblemon:textures/pokemon/kuulkid/zerebro.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/zerebro.png"
+    }
+  ]
+}

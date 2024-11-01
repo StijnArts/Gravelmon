@@ -1,10 +1,8 @@
 package drai.dev.data.games.pokemmo;
 
 
-import drai.dev.data.pokemon.mastenia.*;
-import drai.dev.data.pokemon.mastenia.Albamate;
-import drai.dev.data.pokemon.mastenia.Banshriek;
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.mastenia.*;
 
 import java.util.*;
 

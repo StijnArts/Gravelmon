@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:abysshark",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:s?rin_abysshark",
+      "texture": "cobblemon:textures/pokemon/s?rin/abysshark.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/s?rin/abysshark.png"
+    }
+  ]
+}

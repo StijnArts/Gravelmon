@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "tomatoss-1",
+      "pokemon": "tomatoss",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "13-32",
+      "weight": 4.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ]
+      }
+
+    }
+  ]
+}

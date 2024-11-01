@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:slidy",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_slidy",
+      "texture": "cobblemon:textures/pokemon/kuulkid/slidy.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/slidy.png"
+    }
+  ]
+}

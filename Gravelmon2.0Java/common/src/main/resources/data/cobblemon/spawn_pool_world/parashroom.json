@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "parashroom-1",
+      "pokemon": "parashroom",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "13-35",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical",
+"#cobblemon:is_mushroom" ],
+        "canSeeSky": true
+      }
+
+    }
+  ]
+}

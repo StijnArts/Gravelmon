@@ -1,0 +1,109 @@
+{
+  "implemented": true,
+  "name": "squarepair",
+  "nationalPokedexNumber": 2742,
+  "primaryType": "water",
+  "abilities": [
+    "waterabsorb"  ],
+  "baseStats": {
+    "hp": 71,
+    "attack": 75,
+    "defence": 68,
+    "special_attack": 56,
+    "special_defence": 63,
+    "speed": 54
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 220,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:watergun"  ],
+  "labels": [
+    "kuulkid",
+    "joke",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.squarepair.desc"
+  ],
+  "preEvolution": "spongebit",
+  "evolutions": [
+    {
+      "id": "squarepair_underssey",
+      "variant": "level_up",
+      "result": "underssey",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 42
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "squarepair_spungabunga",
+      "variant": "item_interact",
+      "result": "spungabunga",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:peat_block",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.18333333333333335,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 0,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,10 +1,8 @@
 package drai.dev.data.games.pokemmo;
 
 
-import drai.dev.data.pokemon.panjaea.*;
-
-import drai.dev.data.pokemon.panjaea.Dramingo;
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.panjaea.*;
 
 import java.util.*;
 

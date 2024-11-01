@@ -2,7 +2,6 @@ package drai.dev.data.games.instagram.eldark;
 
 
 import drai.dev.data.pokemon.form.*;
-import drai.dev.data.pokemon.form.regional.*;
 
 public class Form extends drai.dev.data.games.registry.Game {
     public Form() {

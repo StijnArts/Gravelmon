@@ -1,15 +1,14 @@
 package drai.dev.data.games.instagram.eldark;
 
 
-import drai.dev.data.pokemon.raian.*;
-import drai.dev.data.pokemon.raian.regional.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.raian.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
-import static drai.dev.data.attributes.StatType.*;
 import static drai.dev.data.attributes.StatArchetype.*;
+import static drai.dev.data.attributes.StatType.*;
 
 public class Raian extends drai.dev.data.games.registry.Game {
     public Raian() {

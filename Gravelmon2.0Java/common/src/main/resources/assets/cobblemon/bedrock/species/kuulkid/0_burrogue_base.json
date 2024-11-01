@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:burrogue",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_burrogue",
+      "texture": "cobblemon:textures/pokemon/kuulkid/burrogue.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/burrogue.png"
+    }
+  ]
+}

@@ -3,27 +3,27 @@ package drai.dev.data.games.original;
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.africanus.regional.*;
 import drai.dev.data.pokemon.arom.regional.*;
+import drai.dev.data.pokemon.ayrei.regional.*;
+import drai.dev.data.pokemon.blazingemerald.regional.*;
 import drai.dev.data.pokemon.chaosinvestia.*;
 import drai.dev.data.pokemon.chaosinvestia.regional.*;
-import drai.dev.data.pokemon.ivris.*;
-import drai.dev.data.pokemon.ivris.regional.*;
-import drai.dev.data.pokemon.lagoone.regional.*;
-import drai.dev.data.pokemon.mahal.regional.*;
-import drai.dev.data.pokemon.soulstones.regional.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.data.pokemon.blazingemerald.regional.*;
 import drai.dev.data.pokemon.daybreak.regional.*;
 import drai.dev.data.pokemon.hiza.regional.*;
 import drai.dev.data.pokemon.insurgence.delta.*;
+import drai.dev.data.pokemon.ivris.*;
+import drai.dev.data.pokemon.ivris.regional.*;
+import drai.dev.data.pokemon.lagoone.regional.*;
 import drai.dev.data.pokemon.lockemon.regional.*;
+import drai.dev.data.pokemon.mahal.regional.*;
 import drai.dev.data.pokemon.myth.regional.*;
 import drai.dev.data.pokemon.novrai.regional.*;
 import drai.dev.data.pokemon.opalo.regional.*;
 import drai.dev.data.pokemon.phoenixrising.regional.*;
 import drai.dev.data.pokemon.radicalred.*;
-import drai.dev.data.pokemon.ayrei.regional.*;
+import drai.dev.data.pokemon.soulstones.regional.*;
 import drai.dev.data.pokemon.varitas.regional.*;
 import drai.dev.data.pokemon.xenoverse.xspecies.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class GenerationSix extends Game {
     public GenerationSix() {

@@ -1,8 +1,6 @@
 package drai.dev.data.games.pokemmo.done;
 
 import drai.dev.data.attributes.*;
-import drai.dev.data.pokemon.norheim.Crudecay;
-import drai.dev.data.pokemon.norheim.Tadit;
 import drai.dev.data.pokemon.norheim.*;
 
 import java.util.*;

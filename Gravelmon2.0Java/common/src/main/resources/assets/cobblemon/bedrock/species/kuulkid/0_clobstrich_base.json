@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:clobstrich",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_clobstrich",
+      "texture": "cobblemon:textures/pokemon/kuulkid/clobstrich.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/clobstrich.png"
+    }
+  ]
+}

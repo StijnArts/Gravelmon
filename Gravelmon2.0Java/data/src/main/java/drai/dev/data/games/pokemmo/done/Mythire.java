@@ -1,7 +1,6 @@
 package drai.dev.data.games.pokemmo.done;
 
 import drai.dev.data.pokemon.mythire.*;
-import drai.dev.data.pokemon.mythire.Turbird;
 //done
 public class Mythire extends drai.dev.data.games.registry.Game {
     public Mythire() {

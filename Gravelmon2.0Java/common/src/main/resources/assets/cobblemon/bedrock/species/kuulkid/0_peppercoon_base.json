@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:peppercoon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_peppercoon",
+      "texture": "cobblemon:textures/pokemon/kuulkid/peppercoon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/peppercoon.png"
+    }
+  ]
+}

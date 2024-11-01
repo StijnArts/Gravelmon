@@ -2,11 +2,6 @@ package drai.dev.data.jsonwriters;
 
 
 import com.google.gson.*;
-import com.google.gson.JsonArray;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonPrimitive;
-import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
@@ -15,7 +10,7 @@ import java.io.*;
 import java.nio.file.*;
 import java.util.*;
 
-import static drai.dev.data.jsonwriters.SpeciesAssetsJSONWriter.createPlaceholderTextureIfNotExists;
+import static drai.dev.data.jsonwriters.SpeciesAssetsJSONWriter.*;
 
 
 public class AdditionalFormAssetsJSONWriter {

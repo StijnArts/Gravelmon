@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:mousei",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:s?rin_mousei",
+      "texture": "cobblemon:textures/pokemon/s?rin/mousei.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/s?rin/mousei.png"
+    }
+  ]
+}

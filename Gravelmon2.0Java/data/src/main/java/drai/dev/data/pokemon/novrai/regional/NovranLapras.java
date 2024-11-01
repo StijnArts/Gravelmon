@@ -137,6 +137,7 @@ public class NovranLapras extends drai.dev.data.pokemon.Pokemon {
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);
+        setCanWalkOnWater(true);
 
     }
 

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:smackarel",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:s?rin_smackarel",
+      "texture": "cobblemon:textures/pokemon/s?rin/smackarel.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/s?rin/smackarel.png"
+    }
+  ]
+}

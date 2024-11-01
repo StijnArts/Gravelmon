@@ -2,7 +2,6 @@ package drai.dev.data.games.pokemmo.done;
 
 import drai.dev.data.pokemon.avalos.Carcahawk;
 import drai.dev.data.pokemon.okeno.*;
-import drai.dev.data.pokemon.okeno.Coathief;
 //done
 public class Okeno extends drai.dev.data.games.registry.Game {
     public Okeno() {

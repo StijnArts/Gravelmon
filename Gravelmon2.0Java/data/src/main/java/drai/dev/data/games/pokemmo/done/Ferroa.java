@@ -2,7 +2,6 @@ package drai.dev.data.games.pokemmo.done;
 
 import drai.dev.data.pokemon.crozoic.*;
 import drai.dev.data.pokemon.ferroa.*;
-import drai.dev.data.pokemon.ferroa.Eyesi;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 //done

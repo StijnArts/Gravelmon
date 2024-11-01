@@ -2,7 +2,6 @@ package drai.dev.data.games.instagram.artworks218;
 
 
 import drai.dev.data.pokemon.fabel.*;
-import drai.dev.data.pokemon.fabel.regional.*;
 import drai.dev.data.pokemon.mahal.*;
 import drai.dev.data.pokemon.orohnhavai.Cottoon;
 import drai.dev.gravelmon.pokemon.attributes.*;

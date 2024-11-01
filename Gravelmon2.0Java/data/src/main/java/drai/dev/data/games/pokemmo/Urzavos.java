@@ -1,9 +1,8 @@
 package drai.dev.data.games.pokemmo;
 
 
-
-import drai.dev.data.pokemon.urzavos.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.urzavos.*;
 
 import java.util.*;
 

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:laddiebug",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_laddiebug",
+      "texture": "cobblemon:textures/pokemon/kuulkid/laddiebug.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/laddiebug.png"
+    }
+  ]
+}

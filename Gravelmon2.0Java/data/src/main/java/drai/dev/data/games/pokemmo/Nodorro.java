@@ -3,7 +3,6 @@ package drai.dev.data.games.pokemmo;
 
 import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.nodorro.*;
-import drai.dev.data.pokemon.nodorro.Scroul;
 import drai.dev.data.pokemon.olysos.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 

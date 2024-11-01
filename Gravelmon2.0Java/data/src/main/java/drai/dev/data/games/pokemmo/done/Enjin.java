@@ -1,10 +1,8 @@
 package drai.dev.data.games.pokemmo.done;
 
 
-import drai.dev.data.pokemon.enjin.*;
-import drai.dev.data.pokemon.enjin.Enchantowl;
-import drai.dev.data.pokemon.enjin.Teleprog;
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.enjin.*;
 
 import java.util.*;
 //done

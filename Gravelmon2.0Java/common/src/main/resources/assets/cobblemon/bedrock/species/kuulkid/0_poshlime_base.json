@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:poshlime",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_poshlime",
+      "texture": "cobblemon:textures/pokemon/kuulkid/poshlime.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/poshlime.png"
+    }
+  ]
+}

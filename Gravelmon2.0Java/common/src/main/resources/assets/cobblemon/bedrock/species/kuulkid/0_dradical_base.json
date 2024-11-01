@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:dradical",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_dradical",
+      "texture": "cobblemon:textures/pokemon/kuulkid/dradical.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/dradical.png"
+    }
+  ]
+}

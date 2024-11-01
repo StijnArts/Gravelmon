@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:straydaway",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_straydaway",
+      "texture": "cobblemon:textures/pokemon/kuulkid/straydaway.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/straydaway.png"
+    }
+  ]
+}

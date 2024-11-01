@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:dragangle",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:s?rin_dragangle",
+      "texture": "cobblemon:textures/pokemon/s?rin/dragangle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/s?rin/dragangle.png"
+    }
+  ]
+}

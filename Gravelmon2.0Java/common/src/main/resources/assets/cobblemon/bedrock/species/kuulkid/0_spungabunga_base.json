@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:spungabunga",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_spungabunga",
+      "texture": "cobblemon:textures/pokemon/kuulkid/spungabunga.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/spungabunga.png"
+    }
+  ]
+}

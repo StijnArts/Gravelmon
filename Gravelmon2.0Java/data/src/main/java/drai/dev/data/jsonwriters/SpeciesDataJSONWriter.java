@@ -1,19 +1,15 @@
 package drai.dev.data.jsonwriters;
 
-import drai.dev.data.games.registry.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.data.pokemon.*;
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
-
-import java.util.*;
-
+import drai.dev.data.games.registry.*;
+import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import org.jetbrains.annotations.*;
 
 import java.io.*;
 import java.nio.file.*;
+import java.util.*;
 
 public class SpeciesDataJSONWriter {
     public static void writeSpecies(Game game, String resourcesDir) {

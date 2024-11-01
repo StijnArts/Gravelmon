@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:dival",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_dival",
+      "texture": "cobblemon:textures/pokemon/kuulkid/dival.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/dival.png"
+    }
+  ]
+}

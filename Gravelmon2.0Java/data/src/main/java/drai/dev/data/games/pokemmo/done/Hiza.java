@@ -1,8 +1,6 @@
 package drai.dev.data.games.pokemmo.done;
 
 import drai.dev.data.pokemon.hiza.*;
-import drai.dev.data.pokemon.hiza.Narspike;
-import drai.dev.data.pokemon.hiza.Scorchion;
 //done
 public class Hiza extends drai.dev.data.games.registry.Game {
     public Hiza() {        super("Hiza");}

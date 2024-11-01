@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:chasmor",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:s?rin_chasmor",
+      "texture": "cobblemon:textures/pokemon/s?rin/chasmor.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/s?rin/chasmor.png"
+    }
+  ]
+}

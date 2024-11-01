@@ -1,16 +1,15 @@
 package drai.dev.data.games.original;
 
 import drai.dev.data.attributes.*;
-import drai.dev.data.pokemon.arom.regional.*;
-import drai.dev.data.pokemon.lagoone.regional.*;
-import drai.dev.data.pokemon.soulstones.regional.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.games.registry.*;
+import drai.dev.data.pokemon.arom.regional.*;
+import drai.dev.data.pokemon.ayrei.regional.*;
+import drai.dev.data.pokemon.lagoone.regional.*;
 import drai.dev.data.pokemon.norheim.regional.*;
 import drai.dev.data.pokemon.qamor.regional.*;
 import drai.dev.data.pokemon.radicalred.*;
-import drai.dev.data.pokemon.ayrei.
-regional.*;
+import drai.dev.data.pokemon.soulstones.regional.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 

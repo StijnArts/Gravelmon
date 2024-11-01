@@ -1,16 +1,6 @@
 package drai.dev.data.pokemon.neonintendo.regional;
 
 
-import drai.dev.data.pokemon.pastelisland.*;
-import drai.dev.data.pokemon.neonintendo.*;
-import drai.dev.data.pokemon.nodorro.*;
-import drai.dev.data.pokemon.orbis.*;
-import drai.dev.data.pokemon.avalos.*;
-import drai.dev.data.pokemon.ruskow.*;
-import drai.dev.data.pokemon.otopo.*;
-import drai.dev.data.pokemon.goetia.*;
-import drai.dev.data.pokemon.ionos.*;
-import drai.dev.data.pokemon.lagoone.*;
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 

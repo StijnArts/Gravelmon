@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:macaukong",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:s?rin_macaukong",
+      "texture": "cobblemon:textures/pokemon/s?rin/macaukong.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/s?rin/macaukong.png"
+    }
+  ]
+}

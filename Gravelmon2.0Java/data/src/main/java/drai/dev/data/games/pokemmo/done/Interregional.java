@@ -1,8 +1,6 @@
 package drai.dev.data.games.pokemmo.done;
 
 import drai.dev.data.pokemon.interregional.*;
-import drai.dev.data.pokemon.interregional.Bactiny;
-import drai.dev.data.pokemon.interregional.Liquphage;
 
 //done
 public class Interregional extends drai.dev.data.games.registry.Game {

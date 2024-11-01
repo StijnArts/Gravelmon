@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:ikachu",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:s?rin_ikachu",
+      "texture": "cobblemon:textures/pokemon/s?rin/ikachu.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/s?rin/ikachu.png"
+    }
+  ]
+}

@@ -1,27 +1,25 @@
 package drai.dev.data.games.original;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.africanus.regional.*;
 import drai.dev.data.pokemon.arom.regional.*;
-import drai.dev.data.pokemon.fabel.regional.*;
-import drai.dev.data.pokemon.ionos.regional.*;
-import drai.dev.data.pokemon.ivris.regional.*;
-import drai.dev.data.pokemon.mahal.regional.*;
-import drai.dev.data.pokemon.raian.regional.*;
-import drai.dev.data.pokemon.soulstones.regional.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.data.games.registry.*;
+import drai.dev.data.pokemon.avalos.regional.*;
+import drai.dev.data.pokemon.ayrei.regional.*;
 import drai.dev.data.pokemon.azure.regional.*;
 import drai.dev.data.pokemon.blazingemerald.regional.*;
 import drai.dev.data.pokemon.daybreak.regional.*;
-import drai.dev.data.pokemon.avalos.regional.*;
+import drai.dev.data.pokemon.fabel.regional.*;
 import drai.dev.data.pokemon.hiza.regional.*;
 import drai.dev.data.pokemon.hub.regional.*;
 import drai.dev.data.pokemon.infinity.regional.*;
 import drai.dev.data.pokemon.insurgence.delta.*;
 import drai.dev.data.pokemon.interregional.regional.*;
+import drai.dev.data.pokemon.ionos.regional.*;
+import drai.dev.data.pokemon.ivris.regional.*;
 import drai.dev.data.pokemon.lagoone.regional.*;
 import drai.dev.data.pokemon.lockemon.regional.*;
+import drai.dev.data.pokemon.mahal.regional.*;
 import drai.dev.data.pokemon.myth.regional.*;
 import drai.dev.data.pokemon.norheim.regional.*;
 import drai.dev.data.pokemon.novrai.regional.*;
@@ -29,16 +27,17 @@ import drai.dev.data.pokemon.opalo.regional.*;
 import drai.dev.data.pokemon.phoenixrising.regional.*;
 import drai.dev.data.pokemon.qamor.regional.*;
 import drai.dev.data.pokemon.radicalred.*;
+import drai.dev.data.pokemon.raian.regional.*;
 import drai.dev.data.pokemon.rica.regional.*;
-import drai.dev.data.pokemon.ayrei.regional.*;
+import drai.dev.data.pokemon.soulstones.regional.*;
 import drai.dev.data.pokemon.varitas.regional.*;
 import drai.dev.data.pokemon.xenoverse.xspecies.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
 import static drai.dev.data.attributes.StatArchetype.*;
-import static drai.dev.data.attributes.StatType.ATTACK;
-import static drai.dev.data.attributes.StatType.SPEED;
+import static drai.dev.data.attributes.StatType.*;
 
 public class GenerationFour extends Game {
     public GenerationFour() {

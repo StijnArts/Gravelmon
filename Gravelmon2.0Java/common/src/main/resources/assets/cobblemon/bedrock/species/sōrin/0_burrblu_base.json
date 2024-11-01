@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:burrblu",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:s?rin_burrblu",
+      "texture": "cobblemon:textures/pokemon/s?rin/burrblu.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/s?rin/burrblu.png"
+    }
+  ]
+}

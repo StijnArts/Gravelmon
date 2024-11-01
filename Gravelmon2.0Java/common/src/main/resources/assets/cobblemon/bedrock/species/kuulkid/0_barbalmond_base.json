@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:barbalmond",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_barbalmond",
+      "texture": "cobblemon:textures/pokemon/kuulkid/barbalmond.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/barbalmond.png"
+    }
+  ]
+}

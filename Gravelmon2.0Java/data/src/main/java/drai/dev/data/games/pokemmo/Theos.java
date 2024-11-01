@@ -2,7 +2,6 @@ package drai.dev.data.games.pokemmo;
 
 
 import drai.dev.data.pokemon.theos.*;
-import drai.dev.data.pokemon.theos.Yolkoo;
 
 public class Theos extends drai.dev.data.games.registry.Game {
     public Theos() {

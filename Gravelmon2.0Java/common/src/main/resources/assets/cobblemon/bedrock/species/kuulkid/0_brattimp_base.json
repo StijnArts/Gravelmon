@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:brattimp",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_brattimp",
+      "texture": "cobblemon:textures/pokemon/kuulkid/brattimp.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/brattimp.png"
+    }
+  ]
+}

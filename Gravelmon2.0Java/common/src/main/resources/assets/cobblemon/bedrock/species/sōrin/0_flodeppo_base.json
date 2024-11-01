@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:flodeppo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:s?rin_flodeppo",
+      "texture": "cobblemon:textures/pokemon/s?rin/flodeppo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/s?rin/flodeppo.png"
+    }
+  ]
+}

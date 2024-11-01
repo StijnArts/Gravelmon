@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:puppetickle",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_puppetickle",
+      "texture": "cobblemon:textures/pokemon/kuulkid/puppetickle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/puppetickle.png"
+    }
+  ]
+}

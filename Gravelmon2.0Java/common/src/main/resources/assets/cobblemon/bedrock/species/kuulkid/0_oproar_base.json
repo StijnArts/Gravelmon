@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:oproar",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_oproar",
+      "texture": "cobblemon:textures/pokemon/kuulkid/oproar.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/oproar.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:decaith",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuulkid_decaith",
+      "texture": "cobblemon:textures/pokemon/kuulkid/decaith.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuulkid/decaith.png"
+    }
+  ]
+}

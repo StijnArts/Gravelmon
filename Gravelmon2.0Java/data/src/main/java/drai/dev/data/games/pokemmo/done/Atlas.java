@@ -1,11 +1,9 @@
 package drai.dev.data.games.pokemmo.done;
 
 import drai.dev.data.pokemon.atlas.*;
-import drai.dev.data.pokemon.atlas.Polynett;
+import drai.dev.data.pokemon.dhiome.*;
 import drai.dev.data.pokemon.okeno.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-
-import drai.dev.data.pokemon.dhiome.*;
 
 //Done
 public class Atlas extends drai.dev.data.games.registry.Game {

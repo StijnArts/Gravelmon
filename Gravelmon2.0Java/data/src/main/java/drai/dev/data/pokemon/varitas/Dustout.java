@@ -2,7 +2,6 @@ package drai.dev.data.pokemon.varitas;
 
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelsextendedbattles.resorting.*;
 
 import java.util.*;
 

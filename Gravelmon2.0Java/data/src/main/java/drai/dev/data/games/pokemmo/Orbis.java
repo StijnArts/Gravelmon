@@ -1,10 +1,8 @@
 package drai.dev.data.games.pokemmo;
 
 
-import drai.dev.data.pokemon.orbis.Pomdan;
-import drai.dev.data.pokemon.orbis.*;
-import drai.dev.data.pokemon.orbis.Veradmin;
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.orbis.*;
 
 import java.util.*;
 

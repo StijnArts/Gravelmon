@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:onwel",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:s?rin_onwel",
+      "texture": "cobblemon:textures/pokemon/s?rin/onwel.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/s?rin/onwel.png"
+    }
+  ]
+}

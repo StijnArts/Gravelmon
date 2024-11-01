@@ -1,10 +1,6 @@
 package drai.dev.data.games.pokemmo.done;
 
 import drai.dev.data.attributes.*;
-import drai.dev.data.pokemon.atlas.Terbipan;
-import drai.dev.data.pokemon.atlas.Tulifun;
-import drai.dev.data.pokemon.atlas.Twoolepin;
-import drai.dev.data.pokemon.isiah.Jelectric;
 import drai.dev.data.pokemon.atlas.Bosteroid;
 import drai.dev.data.pokemon.atlas.Charnosaur;
 import drai.dev.data.pokemon.atlas.Eldoredo;
@@ -18,6 +14,9 @@ import drai.dev.data.pokemon.atlas.Muscolin;
 import drai.dev.data.pokemon.atlas.Nuggle;
 import drai.dev.data.pokemon.atlas.Piragmid;
 import drai.dev.data.pokemon.atlas.Tankyard;
+import drai.dev.data.pokemon.atlas.Terbipan;
+import drai.dev.data.pokemon.atlas.Tulifun;
+import drai.dev.data.pokemon.atlas.Twoolepin;
 import drai.dev.data.pokemon.isiah.*;
 
 import java.util.*;

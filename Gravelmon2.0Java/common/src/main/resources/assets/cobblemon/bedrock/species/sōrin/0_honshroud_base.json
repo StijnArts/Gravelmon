@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:honshroud",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:s?rin_honshroud",
+      "texture": "cobblemon:textures/pokemon/s?rin/honshroud.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/s?rin/honshroud.png"
+    }
+  ]
+}

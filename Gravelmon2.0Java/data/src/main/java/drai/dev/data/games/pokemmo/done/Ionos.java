@@ -1,10 +1,8 @@
 package drai.dev.data.games.pokemmo.done;
 
 
-import drai.dev.data.pokemon.ionos.*;
-import drai.dev.data.pokemon.ionos.Mimicorn;
-import drai.dev.data.pokemon.ionos.Mushi;
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.ionos.*;
 
 import java.util.*;
 //done
