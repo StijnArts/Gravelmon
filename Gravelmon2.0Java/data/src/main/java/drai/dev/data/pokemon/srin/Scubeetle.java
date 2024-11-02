@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Scubeetle extends drai.dev.data.pokemon.Pokemon {
-    public Scubeetle() {
+    public Scubeetle(Stats stats) {
         super("Scubeetle",
                 Type.ROCK,Type.BUG,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.WATER_ABSORB), Ability.SPEED_BOOST,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

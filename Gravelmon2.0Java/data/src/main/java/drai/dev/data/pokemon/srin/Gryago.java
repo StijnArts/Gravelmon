@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Gryago extends drai.dev.data.pokemon.Pokemon {
-    public Gryago() {
+    public Gryago(Stats stats) {
         super("Gryago",
                 Type.ICE,Type.GROUND,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.POISON_POINT,Ability.SNOW_WARNING), Ability.SHEER_FORCE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

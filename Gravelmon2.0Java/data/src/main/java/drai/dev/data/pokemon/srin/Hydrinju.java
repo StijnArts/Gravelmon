@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Hydrinju extends drai.dev.data.pokemon.Pokemon {
-    public Hydrinju() {
+    public Hydrinju(Stats stats) {
         super("Hydrinju",
                 Type.ROCK,Type.GRASS,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.WATER_ABSORB), Ability.STRONG_JAW,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

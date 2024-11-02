@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Stunzeed extends drai.dev.data.pokemon.Pokemon {
-    public Stunzeed() {
+    public Stunzeed(Stats stats) {
         super("Stunzeed",
                 Type.ELECTRIC,Type.GRASS,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.LEVITATE,Ability.ELECTRIC_SURGE), Ability.GRASSY_SURGE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

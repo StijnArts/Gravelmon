@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Tsuchigu extends drai.dev.data.pokemon.Pokemon {
-    public Tsuchigu() {
+    public Tsuchigu(Stats stats) {
         super("Tsuchigu",
                 Type.DARK,Type.FIRE,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

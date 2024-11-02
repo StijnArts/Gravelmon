@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Kuraichu extends drai.dev.data.pokemon.Pokemon {
-    public Kuraichu() {
+    public Kuraichu(Stats stats) {
         super("Kuraichu",
                 Type.DARK,Type.ELECTRIC,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.FLASH_FIRE,Ability.STATIC), Ability.DARK_AURA,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

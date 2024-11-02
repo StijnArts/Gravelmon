@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Omuhelm extends drai.dev.data.pokemon.Pokemon {
-    public Omuhelm() {
+    public Omuhelm(Stats stats) {
         super("Omuhelm",
                 Type.ROCK,Type.STEEL,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.WATER_ABSORB), Ability.SHARPNESS,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,
