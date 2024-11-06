@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:tidaltar",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mastenia_tidaltar",
+      "texture": "cobblemon:textures/pokemon/mastenia/tidaltar.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mastenia/tidaltar.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:worrish",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mastenia_worrish",
+      "texture": "cobblemon:textures/pokemon/mastenia/worrish.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mastenia/worrish.png"
+    }
+  ]
+}

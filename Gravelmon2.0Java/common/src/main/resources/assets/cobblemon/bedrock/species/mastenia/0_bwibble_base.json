@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:bwibble",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mastenia_bwibble",
+      "texture": "cobblemon:textures/pokemon/mastenia/bwibble.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mastenia/bwibble.png"
+    }
+  ]
+}

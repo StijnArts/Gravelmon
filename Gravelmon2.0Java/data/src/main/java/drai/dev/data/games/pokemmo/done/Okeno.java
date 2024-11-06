@@ -1,7 +1,10 @@
 package drai.dev.data.games.pokemmo.done;
 
 import drai.dev.data.pokemon.avalos.Carcahawk;
+import drai.dev.data.pokemon.mastenia.*;
 import drai.dev.data.pokemon.okeno.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
+
 //done
 public class Okeno extends drai.dev.data.games.registry.Game {
     public Okeno() {
@@ -23,7 +26,7 @@ public class Okeno extends drai.dev.data.games.registry.Game {
         pokemon.add(new Dopibara());
         var coathief = new Coathief();
         pokemon.add(coathief);
-//        pokemon.add(new MastenianCoathief("", Aspect.MASTENIAN));   Missing Stats
+        pokemon.add(new MastenianCoathief("", Aspect.MASTENIAN));
         pokemon.add(new Darskarf());
         pokemon.add(new Ookawatt());
         pokemon.add(new Inscribble());

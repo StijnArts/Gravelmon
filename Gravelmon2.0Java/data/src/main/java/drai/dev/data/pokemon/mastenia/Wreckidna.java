@@ -16,8 +16,8 @@ public class Wreckidna extends drai.dev.data.pokemon.Pokemon {
                         74,
                         84),
                 List.of(Ability.OVERGROW), Ability.RECKLESS,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                16, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.87,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -25,11 +25,11 @@ public class Wreckidna extends drai.dev.data.pokemon.Pokemon {
                 List.of("Their leaf-like quills are sharp and electrifying. There is no doubt that any Wreckidna will wreck anything in its path. While fueled by anger, they sometimes charge their opponents to protect their young. After their destruction, it is said to leave new soil where plants can grow."),
                 List.of(),
                 List.of(
-                        new MoveLearnSetEntry(Move.ROTOTILLER,1)                        ),
+                                                ),
                 List.of(Label.MASTENIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 53, 0.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

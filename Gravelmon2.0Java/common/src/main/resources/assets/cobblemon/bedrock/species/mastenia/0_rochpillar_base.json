@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:rochpillar",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mastenia_rochpillar",
+      "texture": "cobblemon:textures/pokemon/mastenia/rochpillar.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mastenia/rochpillar.png"
+    }
+  ]
+}

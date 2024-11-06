@@ -1,18 +1,18 @@
 {
   "implemented": true,
   "name": "sakurage",
-  "nationalPokedexNumber": 8390,
+  "nationalPokedexNumber": 8393,
   "primaryType": "psychic",
   "secondaryType": "grass",
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 155,
+    "attack": 44,
+    "defence": 68,
+    "special_attack": 68,
+    "special_defence": 207,
+    "speed": 25
   },
   "behaviour": {
     "resting": {
@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 32,
   "maleRatio": 0.0,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -47,7 +47,9 @@
   ],
   "moves": [
     "1:confusion",
-    "1:absorb"  ],
+    "1:absorb",
+    "1:bulkup",
+    "1:synthesis"  ],
   "labels": [
     "sorin",
     "not_modeled"

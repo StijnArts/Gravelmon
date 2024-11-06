@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:quagfire",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mastenia_quagfire",
+      "texture": "cobblemon:textures/pokemon/mastenia/quagfire.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mastenia/quagfire.png"
+    }
+  ]
+}

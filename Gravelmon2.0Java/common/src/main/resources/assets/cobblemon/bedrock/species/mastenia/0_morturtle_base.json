@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:morturtle",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mastenia_morturtle",
+      "texture": "cobblemon:textures/pokemon/mastenia/morturtle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mastenia/morturtle.png"
+    }
+  ]
+}

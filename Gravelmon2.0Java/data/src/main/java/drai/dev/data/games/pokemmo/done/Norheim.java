@@ -1,7 +1,9 @@
 package drai.dev.data.games.pokemmo.done;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.mastenia.*;
 import drai.dev.data.pokemon.norheim.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 //done
@@ -81,7 +83,7 @@ public class Norheim extends drai.dev.data.games.registry.Game {
                 List.of(StatType.HP))));
         var tadit = new Tadit();
         pokemon.add(tadit);
-//        pokemon.add(new MastenianTadit("", Aspect.MASTENIAN));   Missing Stats
+        pokemon.add(new MastenianTadit("", Aspect.MASTENIAN));
         pokemon.add(new Ribhit());
         pokemon.add(new Thikachoo(new Stats(435, StatArchetype.BULKY_SPECIAL_ATTACKER,
                 List.of(StatType.HP))));
@@ -179,7 +181,7 @@ public class Norheim extends drai.dev.data.games.registry.Game {
                 List.of(StatType.SPECIAL_ATTACK))));
         var crudecay = new Crudecay();
         pokemon.add(crudecay);
-//        pokemon.add(new MastenianCrudecay(crudecay.getPokedexNumber()));  Missing Stats
+        pokemon.add(new MastenianCrudecay("", Aspect.MASTENIAN));  //Missing Stats
         pokemon.add(new Hingjaw());
         pokemon.add(new Saberian());
         pokemon.add(new Wreggog());

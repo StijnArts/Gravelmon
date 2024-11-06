@@ -22,6 +22,7 @@ import drai.dev.data.pokemon.ionos.regional.*;
 import drai.dev.data.pokemon.ivris.regional.*;
 import drai.dev.data.pokemon.lockemon.regional.*;
 import drai.dev.data.pokemon.mahal.regional.*;
+import drai.dev.data.pokemon.mastenia.regional.*;
 import drai.dev.data.pokemon.myth.regional.*;
 import drai.dev.data.pokemon.norheim.regional.*;
 import drai.dev.data.pokemon.nosto.regional.*;
@@ -135,9 +136,9 @@ public class GenerationOne extends Game {
 //        pokemon.add(new NodorranKoffing("", Aspect.NODORRAN));
 //        pokemon.add(new NodorranWeezing("", Aspect.NODORRAN));
 
-//        pokemon.add(new MastenianTentacool("", Aspect.MASTENIAN)); TODO
-//        pokemon.add(new MastenianPsyduck("", Aspect.MASTENIAN)); TODO
-//        pokemon.add(new MastenianGolduck("", Aspect.MASTENIAN)); TODO
+        pokemon.add(new MastenianTentacool("", Aspect.MASTENIAN));
+        pokemon.add(new MastenianPsyduck("", Aspect.MASTENIAN));
+        pokemon.add(new MastenianGolduck("", Aspect.MASTENIAN));
 
         registerSoulstonesVariants();
 

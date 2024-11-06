@@ -12,6 +12,7 @@ import drai.dev.data.pokemon.flux.regional.*;
 import drai.dev.data.pokemon.ivris.regional.*;
 import drai.dev.data.pokemon.lockemon.regional.*;
 import drai.dev.data.pokemon.mahal.regional.*;
+import drai.dev.data.pokemon.mastenia.regional.*;
 import drai.dev.data.pokemon.nosto.regional.*;
 import drai.dev.data.pokemon.novrai.regional.*;
 import drai.dev.data.pokemon.qamor.regional.*;
@@ -48,7 +49,7 @@ public class GenerationSeven extends Game {
         pokemon.add(new IvrisianPikipek("", Aspect.IVRISIAN).setUsesBigModel()); //TODO
         pokemon.add(new IvrisianTrumbeak("", Aspect.IVRISIAN).setUsesBigModel());
 
-//        pokemon.add(new MastenianKomala("", Aspect.MASTENIAN, new Stats(0, StatArchetype.SPECIAL_WALL, List.of(StatType.SPEED)))); MISSING STATS
+        pokemon.add(new MastenianKomala("", Aspect.MASTENIAN, new Stats(0, StatArchetype.SPECIAL_WALL, List.of(StatType.SPEED))));
 
         registerSoulstonesVariants();
 

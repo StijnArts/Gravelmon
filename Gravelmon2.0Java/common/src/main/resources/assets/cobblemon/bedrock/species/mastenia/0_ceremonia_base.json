@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:ceremonia",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mastenia_ceremonia",
+      "texture": "cobblemon:textures/pokemon/mastenia/ceremonia.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mastenia/ceremonia.png"
+    }
+  ]
+}

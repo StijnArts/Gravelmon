@@ -17,7 +17,7 @@ public class Searopod extends drai.dev.data.pokemon.Pokemon {
                         67),
                 List.of(Ability.BLAZE), Ability.DROUGHT,
                 30, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.87,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -27,8 +27,8 @@ public class Searopod extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.MASTENIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 53, 0.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -11,8 +11,8 @@ public class MastenianVolbeat extends drai.dev.data.pokemon.Pokemon {
                 Type.BUG, Type.ELECTRIC,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                12, 0,
+                new Stats(0,0,0,0,0,0), 140,
                 1.0,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -22,8 +22,8 @@ public class MastenianVolbeat extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.MASTENIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 41, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

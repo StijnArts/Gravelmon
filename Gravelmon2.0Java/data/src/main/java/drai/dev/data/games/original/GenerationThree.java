@@ -21,6 +21,7 @@ import drai.dev.data.pokemon.insurgence.delta.*;
 import drai.dev.data.pokemon.ionos.regional.*;
 import drai.dev.data.pokemon.lockemon.regional.*;
 import drai.dev.data.pokemon.mahal.regional.*;
+import drai.dev.data.pokemon.mastenia.regional.*;
 import drai.dev.data.pokemon.neonintendo.regional.*;
 import drai.dev.data.pokemon.norheim.regional.*;
 import drai.dev.data.pokemon.novrai.regional.*;
@@ -106,12 +107,12 @@ public class GenerationThree extends Game {
 //        pokemon.add(new MastenianTorchic("", Aspect.MASTENIAN)); MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new MastenianCombusken("", Aspect.MASTENIAN)); MISSING ART
 //        pokemon.add(new MastenianMudkip("", Aspect.MASTENIAN)); MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new MastenianShroomish("", Aspect.MASTENIAN)); Missing Stats
-//        pokemon.add(new MastenianBreloom("", Aspect.MASTENIAN, new Stats(460, StatArchetype.FAST_SPECIAL_ATTACKER,
-//                List.of(StatType.SPEED, StatType.SPECIAL_ATTACK)))); Missing Stats
-//        pokemon.add(new MastenianIllumise("", Aspect.MASTENIAN)); MISSING ART
-//        pokemon.add(new MastenianVolbeat("", Aspect.MASTENIAN, new Stats(520, StatArchetype.FAST_SPECIAL_ATTACKER,
-//                List.of(StatType.SPEED, StatType.SPECIAL_ATTACK)))); Missing Stats
+        pokemon.add(new MastenianShroomish("", Aspect.MASTENIAN));
+        pokemon.add(new MastenianBreloom("", Aspect.MASTENIAN, new Stats(460, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED, StatType.SPECIAL_ATTACK))));
+//        pokemon.add(new MastenianIllumise("", Aspect.MASTENIAN));
+        pokemon.add(new MastenianVolbeat("", Aspect.MASTENIAN, new Stats(520, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED, StatType.SPECIAL_ATTACK))));
 
         registerSoulstonesVariants();
 

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:leturte",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mastenia_leturte",
+      "texture": "cobblemon:textures/pokemon/mastenia/leturte.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mastenia/leturte.png"
+    }
+  ]
+}

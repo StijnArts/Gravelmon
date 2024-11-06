@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:trancendo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mastenia_trancendo",
+      "texture": "cobblemon:textures/pokemon/mastenia/trancendo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mastenia/trancendo.png"
+    }
+  ]
+}

@@ -1,18 +1,18 @@
 {
   "implemented": true,
   "name": "nyokushi",
-  "nationalPokedexNumber": 8388,
+  "nationalPokedexNumber": 8391,
   "primaryType": "fairy",
   "secondaryType": "grass",
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 126,
+    "attack": 44,
+    "defence": 58,
+    "special_attack": 68,
+    "special_defence": 169,
+    "speed": 102
   },
   "behaviour": {
     "resting": {
@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 32,
   "maleRatio": 0.0,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -47,7 +47,11 @@
   ],
   "moves": [
     "1:disarmingvoice",
-    "1:absorb"  ],
+    "1:absorb",
+    "1:bulkup",
+    "1:synthesis",
+    "1:vacuumwave",
+    "1:vacuumwave"  ],
   "labels": [
     "sorin",
     "not_modeled"

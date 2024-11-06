@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:delfine",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mastenia_delfine",
+      "texture": "cobblemon:textures/pokemon/mastenia/delfine.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mastenia/delfine.png"
+    }
+  ]
+}

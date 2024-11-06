@@ -1,18 +1,18 @@
 {
   "implemented": true,
   "name": "honshroud",
-  "nationalPokedexNumber": 8392,
+  "nationalPokedexNumber": 8395,
   "primaryType": "ghost",
   "secondaryType": "fairy",
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 77,
+    "attack": 38,
+    "defence": 82,
+    "special_attack": 149,
+    "special_defence": 82,
+    "speed": 149
   },
   "behaviour": {
     "resting": {
@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 3,
   "maleRatio": 0.0,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -47,7 +47,9 @@
   ],
   "moves": [
     "1:lick",
-    "1:disarmingvoice"  ],
+    "1:disarmingvoice",
+    "1:vacuumwave",
+    "1:vacuumwave"  ],
   "labels": [
     "sorin",
     "not_modeled"

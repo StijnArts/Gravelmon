@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:abyssmulk",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mastenia_abyssmulk",
+      "texture": "cobblemon:textures/pokemon/mastenia/abyssmulk.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mastenia/abyssmulk.png"
+    }
+  ]
+}

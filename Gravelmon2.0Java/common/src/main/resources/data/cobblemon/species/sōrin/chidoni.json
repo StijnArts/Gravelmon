@@ -1,18 +1,18 @@
 {
   "implemented": true,
   "name": "chidoni",
-  "nationalPokedexNumber": 8304,
+  "nationalPokedexNumber": 8307,
   "primaryType": "ghost",
   "secondaryType": "flying",
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 65,
+    "attack": 34,
+    "defence": 69,
+    "special_attack": 117,
+    "special_defence": 69,
+    "speed": 99
   },
   "behaviour": {
     "resting": {
@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 98,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -47,7 +47,9 @@
   ],
   "moves": [
     "1:lick",
-    "1:gust"  ],
+    "1:gust",
+    "1:vacuumwave",
+    "1:vacuumwave"  ],
   "labels": [
     "sorin",
     "not_modeled"

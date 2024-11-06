@@ -2,6 +2,7 @@ package drai.dev.data.pokemon.mastenia;
 
 
 import drai.dev.data.attributes.*;
+import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
@@ -22,7 +23,7 @@ public class Cereusaur extends drai.dev.data.pokemon.Pokemon {
                 236, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.GRASS),
-                List.of("Evo Power GemSTAB Rock - Vine WhipSTAB Grass - Tackle Normal - Growl Normal - Leech Seed Grass - Petal DanceSTAB Grass 3 Growl Normal 7 Leech Seed Grass 9 Vine WhipSTAB Grass 13 Stomp Normal 13 Sleep Powder Grass 15 Take Down Normal 20 Razor LeafSTAB Grass 23 Amnesia Psychic 28 Growth Normal 31 Rock SlideSTAB Rock 39 Stealth Rock Rock 45 Synthesis Grass 50 Petal BlizzardSTAB Grass 53 Meteor BeamSTAB Rock 60 Head SmashSTAB Rock 77 Spiky Shield Grass"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.POWER_GEM,1),
@@ -140,13 +141,16 @@ public class Cereusaur extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRASSY_TERRAIN,"tm")                        ),
                 List.of(Label.MASTENIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 53, 0.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        addAdditionalEvolution("ivysaur", new EvolutionEntry("cereusaur", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_DESERT.getId() + ":" + Biome.IS_DESERT.getName() +"\""),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36"))));
            setLangFileName("Cereusaur");
 
     }

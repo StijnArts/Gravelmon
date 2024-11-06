@@ -1,17 +1,17 @@
 {
   "implemented": true,
   "name": "macaukong",
-  "nationalPokedexNumber": 8347,
+  "nationalPokedexNumber": 8350,
   "primaryType": "fighting",
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 125,
+    "attack": 37,
+    "defence": 81,
+    "special_attack": 90,
+    "special_defence": 106,
+    "speed": 45
   },
   "behaviour": {
     "resting": {
@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 80,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -45,7 +45,8 @@
     "field"
   ],
   "moves": [
-    "1:lowkick"  ],
+    "1:lowkick",
+    "1:drainpunch"  ],
   "labels": [
     "sorin",
     "not_modeled"

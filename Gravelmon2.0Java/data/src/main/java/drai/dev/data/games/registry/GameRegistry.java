@@ -103,5 +103,7 @@ public class GameRegistry {
 
         games.add(new Goetia());
         games.add(new Sorin());
+        games.add(new Mastenia());
+
     }
 }

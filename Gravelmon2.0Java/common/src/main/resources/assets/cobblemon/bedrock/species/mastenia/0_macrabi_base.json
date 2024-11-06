@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:macrabi",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mastenia_macrabi",
+      "texture": "cobblemon:textures/pokemon/mastenia/macrabi.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mastenia/macrabi.png"
+    }
+  ]
+}

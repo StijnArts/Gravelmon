@@ -35,17 +35,17 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 0,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "eggGroups": [
-    "field"
+
   ],
   "moves": [
-    "1:ember"  ],
+  ],
   "labels": [
     "bago",
     "not_modeled"

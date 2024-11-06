@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:crocoshy",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mastenia_crocoshy",
+      "texture": "cobblemon:textures/pokemon/mastenia/crocoshy.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mastenia/crocoshy.png"
+    }
+  ]
+}

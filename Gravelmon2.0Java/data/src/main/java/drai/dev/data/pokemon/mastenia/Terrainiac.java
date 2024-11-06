@@ -11,8 +11,8 @@ public class Terrainiac extends drai.dev.data.pokemon.Pokemon {
                 Type.DARK, Type.GRASS,
                 stats,
                 List.of(Ability.STRONG_JAW,Ability.INTIMIDATE), Ability.MOXIE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                17, 0,
+                new Stats(0,0,0,0,0,0), 70,
                 1.0,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -40,8 +40,8 @@ public class Terrainiac extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CRUNCH,1)                        ),
                 List.of(Label.MASTENIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 54, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FLORAL, Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

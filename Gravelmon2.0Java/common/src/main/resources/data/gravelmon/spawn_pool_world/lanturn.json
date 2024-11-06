@@ -22,6 +22,24 @@
     }
 ,
     {
+      "id": "mastenianlanturn-1",
+      "pokemon": "lanturn mastenian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "epochlanturn-1",
       "pokemon": "lanturn epoch",
       "presets": [

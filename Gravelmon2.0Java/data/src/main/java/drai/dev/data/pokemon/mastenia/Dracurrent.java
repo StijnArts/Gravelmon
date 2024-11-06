@@ -16,8 +16,8 @@ public class Dracurrent extends drai.dev.data.pokemon.Pokemon {
                         78,
                         102),
                 List.of(Ability.TORRENT), Ability.DRIZZLE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                19, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.87,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -27,13 +27,15 @@ public class Dracurrent extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.MASTENIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 53, 0.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Dracurrent");
 
     }

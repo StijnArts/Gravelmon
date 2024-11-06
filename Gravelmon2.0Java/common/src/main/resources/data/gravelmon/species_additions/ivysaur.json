@@ -1,5 +1,25 @@
 {
    "target": "cobblemon:ivysaur",
+  "evolutions": [
+    {
+      "id": "ivysaur_cereusaur",
+      "variant": "level_up",
+      "result": "cereusaur",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_desert"
+        },
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ],
+      "permanent": true   
+ }
+  ],
    "forms": [{
   "name": "Epoch",
   "primaryType": "ice",

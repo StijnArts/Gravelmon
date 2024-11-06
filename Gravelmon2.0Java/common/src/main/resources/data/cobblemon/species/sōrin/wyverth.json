@@ -1,18 +1,18 @@
 {
   "implemented": true,
   "name": "wyverth",
-  "nationalPokedexNumber": 8365,
+  "nationalPokedexNumber": 8368,
   "primaryType": "dragon",
   "secondaryType": "ground",
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 117,
+    "attack": 79,
+    "defence": 117,
+    "special_attack": 30,
+    "special_defence": 72,
+    "speed": 37
   },
   "behaviour": {
     "resting": {
@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 98,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -47,7 +47,9 @@
   ],
   "moves": [
     "1:scratch",
-    "1:mudslap"  ],
+    "1:mudslap",
+    "1:bulkup",
+    "1:shoreup"  ],
   "labels": [
     "sorin",
     "not_modeled"

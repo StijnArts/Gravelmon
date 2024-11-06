@@ -11,8 +11,8 @@ public class Bunelania extends drai.dev.data.pokemon.Pokemon {
                 Type.FAIRY,
                 stats,
                 List.of(Ability.PIXILATE), Ability.WATER_ABSORB,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                18, 0,
+                new Stats(0,0,0,0,0,0), 70,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -22,13 +22,15 @@ public class Bunelania extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.MASTENIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 41, 58, .6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Bunelania");
 
     }

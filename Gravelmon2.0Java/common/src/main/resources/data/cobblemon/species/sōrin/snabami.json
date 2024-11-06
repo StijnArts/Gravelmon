@@ -1,17 +1,17 @@
 {
   "implemented": true,
   "name": "snabami",
-  "nationalPokedexNumber": 8355,
+  "nationalPokedexNumber": 8358,
   "primaryType": "poison",
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 65,
+    "attack": 117,
+    "defence": 68,
+    "special_attack": 34,
+    "special_defence": 68,
+    "speed": 99
   },
   "behaviour": {
     "resting": {
@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 99,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -45,7 +45,8 @@
     "field"
   ],
   "moves": [
-    "1:acid"  ],
+    "1:poisonsting",
+    "1:quickattack"  ],
   "labels": [
     "sorin",
     "not_modeled"

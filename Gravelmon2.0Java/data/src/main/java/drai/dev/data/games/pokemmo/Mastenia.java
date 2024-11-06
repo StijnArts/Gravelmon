@@ -3,6 +3,7 @@ package drai.dev.data.games.pokemmo;
 
 import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.mastenia.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -30,12 +31,12 @@ public class Mastenia extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Henquinn()); MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new Chromerge());   MEMBER OF LINE NOT FINISHED
         pokemon.add(new Devidare(new Stats(420, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))));
-        pokemon.add(new Rochpillar());   
-        pokemon.add(new Roccoon());   
+        pokemon.add(new Rochpillar());
+        pokemon.add(new Roccoon());
         pokemon.add(new Papilitite(new Stats(412, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPEED))));
-        pokemon.add(new Burblu());   
-        pokemon.add(new Crestrike());   
-        pokemon.add(new Faewren(new Stats(451, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))));
+        pokemon.add(new Burblu());
+        pokemon.add(new Crestrike());
+        pokemon.add(new Faewren(new Stats(501, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))));
         pokemon.add(new Psychu(new Stats(432, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPEED))));
         pokemon.add(new Bombat());   
         pokemon.add(new Bombarbat(new Stats(421, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER, List.of(StatType.HP))));

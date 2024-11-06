@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:bombarbat",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mastenia_bombarbat",
+      "texture": "cobblemon:textures/pokemon/mastenia/bombarbat.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mastenia/bombarbat.png"
+    }
+  ]
+}

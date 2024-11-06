@@ -41,7 +41,7 @@ public class Pokemon {
     private final List<Label> labels;
     private final List<String> dexEntries;
     private String preEvolution;
-    private List<EvolutionEntry> evolutions;
+    private List<EvolutionEntry> evolutions = new ArrayList<>();
     private final int baseFriendship;
     private final Stats evYield;
     private final int height;
@@ -177,7 +177,7 @@ public class Pokemon {
         this.labels = new ArrayList<>(labels);
         this.labels.add(Label.NOT_MODELED);
         this.dexEntries = dexEntries;
-        this.evolutions = evolutions;
+        this.evolutions.addAll(evolutions);
         this.baseFriendship = baseFriendship;
         this.evYield = evYield;
         this.height = height;
@@ -992,6 +992,11 @@ public class Pokemon {
 
     public Pokemon setPreferredBlocks(List<String> preferredBlocks) {
         this.preferredBlocks.addAll(preferredBlocks);
+        return this;
+    }
+
+    public Pokemon addEvolutions(EvolutionEntry... preferredBlocks) {
+        this.evolutions.addAll(List.of(preferredBlocks));
         return this;
     }
 

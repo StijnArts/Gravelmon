@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:tecthanic",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mastenia_tecthanic",
+      "texture": "cobblemon:textures/pokemon/mastenia/tecthanic.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mastenia/tecthanic.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:mantism",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mastenia_mantism",
+      "texture": "cobblemon:textures/pokemon/mastenia/mantism.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mastenia/mantism.png"
+    }
+  ]
+}

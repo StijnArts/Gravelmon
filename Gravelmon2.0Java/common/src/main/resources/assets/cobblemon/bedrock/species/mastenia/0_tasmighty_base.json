@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:tasmighty",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mastenia_tasmighty",
+      "texture": "cobblemon:textures/pokemon/mastenia/tasmighty.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mastenia/tasmighty.png"
+    }
+  ]
+}

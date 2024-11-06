@@ -659,11 +659,11 @@ public class GravelmonStarters {
                         )
                 ));
         GravelmonStarterManager.registerNewStarter(null,
-                createCategory("Sorin",
+                createCategory("Mastenia",
                         List.of(
-                                "Grascal level=10",
-                                "Ochrab level=10",
-                                "Burrblu level=10"
+                                "Kididna level=10",
+                                "Platykid level=10",
+                                "Bwibble level=10"
                         )
                 ));
     }
