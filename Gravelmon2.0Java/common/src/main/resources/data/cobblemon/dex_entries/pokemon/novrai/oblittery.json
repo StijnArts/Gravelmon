@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:oblittery",
+  "speciesId": "cobblemon:oblittery",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

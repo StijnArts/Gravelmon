@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "ayreianalakazam-1",
-      "pokemon": "alakazam ayreian",
+      "pokemon": "alakazam-ayreian",
       "presets": [
           "natural"
       ],

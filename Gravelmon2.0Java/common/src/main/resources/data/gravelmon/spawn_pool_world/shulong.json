@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "shulongterrestrial-1",
-      "pokemon": "shulong terrestrial",
+      "pokemon": "shulong-terrestrial",
       "presets": [
           "underwater"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "shulongxenoversal-1",
-      "pokemon": "shulong xenoversal",
+      "pokemon": "shulong-xenoversal",
       "presets": [
           "underwater"
       ],
@@ -39,7 +39,7 @@
 ,
     {
       "id": "shulongastral-1",
-      "pokemon": "shulong astral",
+      "pokemon": "shulong-astral",
       "presets": [
           "underwater"
       ],
@@ -56,7 +56,7 @@
 ,
     {
       "id": "shulongx-1",
-      "pokemon": "shulong x",
+      "pokemon": "shulong-x",
       "presets": [
           "underwater"
       ],

@@ -1,7 +1,6 @@
 package drai.dev.data.games;
 
 import drai.dev.data.games.registry.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.vanguard.*;
 
 public class Vanguard extends Game {
@@ -11,26 +10,26 @@ public class Vanguard extends Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new Magnemelt());
-        pokemon.add(new Fleumingo());
-        pokemon.add(new Loathedisc());
-        pokemon.add(new Gyropass());
-        pokemon.add(new Amacorala());
-        pokemon.add(new Solacor());
-        pokemon.add(new Dunmyth());
-        pokemon.add(new Dundragon());
-        pokemon.add(new Merlicun());
-        pokemon.add(new Firomenis());
-        pokemon.add(new Wolfum());
-        pokemon.add(new Supiritto());
-        pokemon.add(new Infernadeer());
-        pokemon.add(new Cradecart());
-        pokemon.add(new Sylure());
-        pokemon.add(new Syrallure());
-        pokemon.add(new Syrenade());
-        pokemon.add(new Tartot());
-        pokemon.add(new Teranigrade());
-        pokemon.add(new Setsarec());
+        addNewPokemon(new Magnemelt());
+        addNewPokemon(new Fleumingo());
+        addNewPokemon(new Loathedisc());
+        addNewPokemon(new Gyropass());
+        addNewPokemon(new Amacorala());
+        addNewPokemon(new Solacor());
+        addNewPokemon(new Dunmyth());
+        addNewPokemon(new Dundragon());
+        addNewPokemon(new Merlicun());
+        addNewPokemon(new Firomenis());
+        addNewPokemon(new Wolfum());
+        addNewPokemon(new Supiritto());
+        addNewPokemon(new Infernadeer());
+        addNewPokemon(new Cradecart());
+        addNewPokemon(new Sylure());
+        addNewPokemon(new Syrallure());
+        addNewPokemon(new Syrenade());
+        addNewPokemon(new Tartot());
+        addNewPokemon(new Teranigrade());
+        addNewPokemon(new Setsarec());
 
     }
 }

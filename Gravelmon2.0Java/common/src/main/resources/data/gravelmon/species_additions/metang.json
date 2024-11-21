@@ -40,7 +40,6 @@
     }
   },
   "catchRate": 3,
-  "maleRatio": -1.0,
   "shoulderMountable": false,
   "baseExperienceYield": 147,
   "experienceGroup": "slow",
@@ -156,12 +155,12 @@
   "pokedex": [
     "cobblemon.species.deltaspidermetang.desc"
   ],
-  "preEvolution": "beldum form=deltaspider",
+  "preEvolution": "beldum form=delta_spider",
   "evolutions": [
     {
-      "id": "metang_metagross_deltaspider",
+      "id": "metang_metagross_delta_spider",
       "variant": "level_up",
-      "result": "metagross deltaspider",
+      "result": "metagross delta_spider",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -232,7 +231,6 @@
     }
   },
   "catchRate": 3,
-  "maleRatio": -1.0,
   "shoulderMountable": false,
   "baseExperienceYield": 147,
   "experienceGroup": "slow",
@@ -338,12 +336,12 @@
   "pokedex": [
     "cobblemon.species.deltaruinmetang.desc"
   ],
-  "preEvolution": "beldum form=deltaruin",
+  "preEvolution": "beldum form=delta_ruin",
   "evolutions": [
     {
-      "id": "metang_metagross_deltaruin",
+      "id": "metang_metagross_delta_ruin",
       "variant": "level_up",
-      "result": "metagross deltaruin",
+      "result": "metagross delta_ruin",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

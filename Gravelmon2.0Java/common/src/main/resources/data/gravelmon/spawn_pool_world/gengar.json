@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "havaiiangengar-1",
-      "pokemon": "gengar havaiian",
+      "pokemon": "gengar-havaiian",
       "presets": [
           "natural"
       ],
@@ -16,13 +16,13 @@
       "weight": 0.06,
       "condition": {
 "biomes": [ "#cobblemon:is_volvanic",
-"#cobblemon:is_soul_fire" ]
+"#cobblemon:nether/is_soul_fire" ]
       }
     }
 ,
     {
       "id": "gengarx-1",
-      "pokemon": "gengar x",
+      "pokemon": "gengar-x",
       "presets": [
           "natural"
       ],
@@ -38,7 +38,7 @@
 ,
     {
       "id": "ayreiangengar-1",
-      "pokemon": "gengar ayreian",
+      "pokemon": "gengar-ayreian",
       "presets": [
           "natural"
       ],
@@ -48,14 +48,14 @@
       "level": "41-58",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_wasteland" ],
+"biomes": [ "#cobblemon:nether/is_wasteland" ],
         "isRaining": true
       }
     }
 ,
     {
       "id": "kaskadiangengar-1",
-      "pokemon": "gengar kaskadian",
+      "pokemon": "gengar-kaskadian",
       "presets": [
           "natural"
       ],

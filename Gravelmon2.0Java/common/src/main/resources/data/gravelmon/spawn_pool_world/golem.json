@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltagolem-1",
-      "pokemon": "golem delta",
+      "pokemon": "golem-delta",
       "presets": [
           "jungle_pyramid"
       ],

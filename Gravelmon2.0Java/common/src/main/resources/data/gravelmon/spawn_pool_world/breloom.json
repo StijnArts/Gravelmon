@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "alteranbreloom-1",
-      "pokemon": "breloom alteran",
+      "pokemon": "breloom-alteran",
       "presets": [
           "natural"
       ],

@@ -238,8 +238,8 @@ public class Goetia extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Narpoon());   Missing Stats
 //        pokemon.add(new Hantom());   Missing Stats
 //        pokemon.add(new Spectouch());   Missing Stats
-        pokemon.add(new Jawee());
-        pokemon.add(new Jawsome());
+        addNewPokemon(new Jawee());
+        addNewPokemon(new Jawsome());
 //        pokemon.add(new Whirlybug());   Missing Stats
 //        pokemon.add(new Shellicopter());   Missing Stats
 //        pokemon.add(new Aviatrice());   Missing Stats
@@ -376,9 +376,9 @@ public class Goetia extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Palnemone());   Missing Stats
 //        pokemon.add(new Hermitwin());   Missing Stats
 //        pokemon.add(new Mermegg());   Missing Stats
-        pokemon.add(new Wermaid());
+        addNewPokemon(new Wermaid());
 //        pokemon.add(new Flowerm());   Missing Stats
-        pokemon.add(new Vermenace());
+        addNewPokemon(new Vermenace());
 //        pokemon.add(new Sushef());   Missing Stats
 //        pokemon.add(new Grillardin());   Missing Stats
 //        pokemon.add(new Kestrail());   Missing Stats
@@ -400,13 +400,13 @@ public class Goetia extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Poxopon());   Missing Stats
 //        pokemon.add(new Grimongrel());   Missing Stats
 //        pokemon.add(new Baiking());   Missing Stats
-        pokemon.add(new Caulderon());
+        addNewPokemon(new Caulderon());
 //        pokemon.add(new Seraphlea());   Missing Stats
 //        pokemon.add(new Nirvantis());   Missing Stats
-        pokemon.add(new Gargorgon());
-        pokemon.add(new Nitecrawler());
-        pokemon.add(new Hallowither());
-        pokemon.add(new Apeiron());
+        addNewPokemon(new Gargorgon());
+        addNewPokemon(new Nitecrawler());
+        addNewPokemon(new Hallowither());
+        addNewPokemon(new Apeiron());
 //        pokemon.add(new Kathekon());   Missing Stats
 //        pokemon.add(new Olgorkoi());   Missing Stats
 //        pokemon.add(new Telos());   Missing Stats

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltagirafarig-1",
-      "pokemon": "girafarig delta",
+      "pokemon": "girafarig-delta",
       "presets": [
           "natural"
       ],
@@ -15,7 +15,7 @@
       "level": "21-48",
       "weight": 2.2,
       "condition": {
-"biomes": [ "#cobblemon:is_desert" ]
+"biomes": [ "#cobblemon:nether/is_desert" ]
       }
     }
 

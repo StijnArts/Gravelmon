@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:hattrem-novran",
+  "speciesId": "cobblemon:hattrem",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Novran",
+      "unlockForms": [
+        "Novran"
+      ]
+    }
+  ],
+  "variations": []
+}

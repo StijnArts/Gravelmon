@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:terrachnid",
+  "speciesId": "cobblemon:terrachnid",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

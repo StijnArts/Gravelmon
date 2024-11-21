@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gremleaf",
+  "speciesId": "cobblemon:gremleaf",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

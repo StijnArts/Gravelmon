@@ -1,5 +1,6 @@
 plugins {
     id 'com.github.johnrengelman.shadow'
+    id 'org.jetbrains.kotlin.jvm' version "1.9.23"
 }
 
 architectury {
@@ -42,7 +43,7 @@ dependencies {
     modImplementation "com.cobblemon:neoforge:${cobblemon_file}"
     modImplementation "maven.modrinth:midnightlib:YeePowOJ"
     modImplementation "maven.modrinth:kotlin-for-forge:${kotlin_forge_file}"
-    modImplementation "maven.modrinth:packet-fixer:AScUisZl"
+    modImplementation "maven.modrinth:packet-fixer:${packet_fixer_neoforge_file}"
     modImplementation files("libs/gravels_extended_battles-neoforge-${gravelmon_file}.jar")
 }
 

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:meritrot",
+  "speciesId": "cobblemon:meritrot",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

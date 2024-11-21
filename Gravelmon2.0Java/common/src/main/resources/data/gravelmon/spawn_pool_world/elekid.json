@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltaelekid-1",
-      "pokemon": "elekid delta",
+      "pokemon": "elekid-delta",
       "presets": [
           "jungle_pyramid"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "elekidx-1",
-      "pokemon": "elekid x",
+      "pokemon": "elekid-x",
       "presets": [
           "natural"
       ],

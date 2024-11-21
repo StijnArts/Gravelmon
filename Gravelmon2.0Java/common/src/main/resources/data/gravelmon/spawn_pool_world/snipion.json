@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "crozoicansnipion-1",
-      "pokemon": "snipion crozoican",
+      "pokemon": "snipion-crozoican",
       "presets": [
           "underwater"
       ],

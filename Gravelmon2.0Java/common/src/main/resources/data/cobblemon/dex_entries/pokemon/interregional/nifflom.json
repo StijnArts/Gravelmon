@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:nifflom",
+  "speciesId": "cobblemon:nifflom",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

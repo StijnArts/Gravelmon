@@ -9,25 +9,25 @@ public class Ottora extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new Hopling());
-        pokemon.add(new Bunbush());
-        pokemon.add(new Inflagulo());
-        pokemon.add(new Wolverupt());
-        pokemon.add(new Guillie());
-        pokemon.add(new Deeluge());
-        pokemon.add(new Moosong());
-        pokemon.add(new Pinjure());
-        pokemon.add(new Stachick());
-        pokemon.add(new Shockite());
-        pokemon.add(new Floodle());
-        pokemon.add(new Civilarva());
-        pokemon.add(new Pupail());
-        pokemon.add(new Jueshika());
-        pokemon.add(new Aqquack());
-        pokemon.add(new Cabbrain());
-        pokemon.add(new Finook());
-        pokemon.add(new Aubat());
-        pokemon.add(new Dustbun());
+        addNewPokemon(new Hopling());
+        addNewPokemon(new Bunbush());
+        addNewPokemon(new Inflagulo());
+        addNewPokemon(new Wolverupt());
+        addNewPokemon(new Guillie());
+        addNewPokemon(new Deeluge());
+        addNewPokemon(new Moosong());
+        addNewPokemon(new Pinjure());
+        addNewPokemon(new Stachick());
+        addNewPokemon(new Shockite());
+        addNewPokemon(new Floodle());
+        addNewPokemon(new Civilarva());
+        addNewPokemon(new Pupail());
+        addNewPokemon(new Jueshika());
+        addNewPokemon(new Aqquack());
+        addNewPokemon(new Cabbrain());
+        addNewPokemon(new Finook());
+        addNewPokemon(new Aubat());
+        addNewPokemon(new Dustbun());
 //        pokemon.add(new Levieon());   Missing Stats
 //        pokemon.add(new Duneon());   Missing Stats
 //        pokemon.add(new Sporita());   Missing Stats

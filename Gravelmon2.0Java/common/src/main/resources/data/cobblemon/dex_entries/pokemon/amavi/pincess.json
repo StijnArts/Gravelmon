@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:pincess",
+  "speciesId": "cobblemon:pincess",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

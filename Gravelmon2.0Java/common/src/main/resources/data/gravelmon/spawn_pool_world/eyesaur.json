@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "crozoicaneyesaur-1",
-      "pokemon": "eyesaur crozoican",
+      "pokemon": "eyesaur-crozoican",
       "presets": [
           "natural"
       ],

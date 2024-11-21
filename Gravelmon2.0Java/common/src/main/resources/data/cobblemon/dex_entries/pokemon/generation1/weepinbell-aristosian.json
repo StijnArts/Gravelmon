@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:weepinbell-aristosian",
+  "speciesId": "cobblemon:weepinbell",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Aristosian",
+      "unlockForms": [
+        "Aristosian"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:hoppolat",
+  "speciesId": "cobblemon:hoppolat",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

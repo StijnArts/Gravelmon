@@ -11,7 +11,7 @@ public class Ruskow extends drai.dev.data.games.registry.Game {
     public void registerPokemon() {
 //        pokemon.add(new Eleplant());   Missing Stats
 //        pokemon.add(new Herbederm());   Missing Stats
-        pokemon.add(new Mammahonia());
+        addNewPokemon(new Mammahonia());
 //        pokemon.add(new Bollokin());   Missing Stats
 //        pokemon.add(new Flamabull());   Missing Stats
 //        pokemon.add(new Audhroch());   Missing Stats

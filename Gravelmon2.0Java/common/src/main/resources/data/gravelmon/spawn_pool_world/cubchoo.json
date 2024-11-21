@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "qamorancubchoo-1",
-      "pokemon": "cubchoo qamoran",
+      "pokemon": "cubchoo-qamoran",
       "presets": [
           "natural"
       ],
@@ -16,7 +16,7 @@
       "weight": 5.0,
       "condition": {
 "biomes": [ "#cobblemon:is_spooky",
-"#cobblemon:is_wasteland" ]
+"#cobblemon:nether/is_wasteland" ]
       }
     }
 

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:flurse",
+  "speciesId": "cobblemon:flurse",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

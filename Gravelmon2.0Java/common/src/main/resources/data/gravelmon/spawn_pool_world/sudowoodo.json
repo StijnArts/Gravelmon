@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "novransudowoodo-1",
-      "pokemon": "sudowoodo novran",
+      "pokemon": "sudowoodo-novran",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "amazeallsudowoodo-1",
-      "pokemon": "sudowoodo amaze_all",
+      "pokemon": "sudowoodo-amaze_all",
       "presets": [
           "natural"
       ],
@@ -32,7 +32,7 @@
       "level": "20-39",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#cobblemon:is_sparse" ],
+"biomes": [ "#cobblemon:has_density/sparse" ],
         "canSeeSky": true
       }
     }

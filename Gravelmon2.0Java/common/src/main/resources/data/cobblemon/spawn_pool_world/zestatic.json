@@ -15,7 +15,7 @@
       "level": "33-54",
       "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_summer" ],
+"biomes": [ "#cobblemon:has_season/summer" ],
         "canSeeSky": true
       }
     }

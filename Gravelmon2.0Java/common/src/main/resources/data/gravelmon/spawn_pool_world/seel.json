@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "qamoranseel-1",
-      "pokemon": "seel qamoran",
+      "pokemon": "seel-qamoran",
       "presets": [
           "underwater"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "norheimanseel-1",
-      "pokemon": "seel norheiman",
+      "pokemon": "seel-norheiman",
       "presets": [
           "village"
       ],
@@ -39,7 +39,7 @@
 ,
     {
       "id": "hoennianseel-1",
-      "pokemon": "seel hoennian",
+      "pokemon": "seel-hoennian",
       "presets": [
           "underwater"
       ],

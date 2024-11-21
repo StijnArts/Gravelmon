@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "interianarceus-1",
-      "pokemon": "arceus interian",
+      "pokemon": "arceus-interian",
       "presets": [
           "natural"
       ],

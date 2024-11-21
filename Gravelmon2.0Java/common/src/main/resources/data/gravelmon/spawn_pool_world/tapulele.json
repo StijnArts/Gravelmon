@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "tapulelex-1",
-      "pokemon": "tapulele x",
+      "pokemon": "tapulele-x",
       "presets": [
           "natural"
       ],

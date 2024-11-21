@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:volcarona-mythian",
+  "speciesId": "cobblemon:volcarona",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Mythian",
+      "unlockForms": [
+        "Mythian"
+      ]
+    }
+  ],
+  "variations": []
+}

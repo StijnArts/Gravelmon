@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltasunflora-1",
-      "pokemon": "sunflora delta",
+      "pokemon": "sunflora-delta",
       "presets": [
           "natural"
       ],
@@ -15,7 +15,7 @@
       "level": "22-39",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_crimson" ]
+"biomes": [ "#cobblemon:nether/is_crimson" ]
       }
     }
 

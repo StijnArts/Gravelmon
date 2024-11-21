@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:meowth-cefiran_fire",
+  "speciesId": "cobblemon:meowth",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Cefiranfire",
+      "unlockForms": [
+        "Cefiranfire"
+      ]
+    }
+  ],
+  "variations": []
+}

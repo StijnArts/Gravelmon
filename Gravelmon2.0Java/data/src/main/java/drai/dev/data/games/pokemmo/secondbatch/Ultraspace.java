@@ -53,7 +53,7 @@ public class Ultraspace extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Sharcoe());   Missing Stats
 //        pokemon.add(new 603878());   Missing Art
 //        pokemon.add(new Bullvanize());   Missing Stats
-        pokemon.add(new Craycrane());
+        addNewPokemon(new Craycrane());
 //        pokemon.add(new Kabrookie());   Missing Stats
 //        pokemon.add(new Monoki());   Missing Stats
 //        pokemon.add(new 35144());   Missing Stats
@@ -82,7 +82,7 @@ public class Ultraspace extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Dracoma());   Missing Stats
 //        pokemon.add(new Garlick());   Missing Stats
 //        pokemon.add(new Ghoulic());   Missing Stats Renamed from Gnarlic
-        pokemon.add(new Oniion());
+        addNewPokemon(new Oniion());
 //        pokemon.add(new 838783());   Missing Stats
 //        pokemon.add(new 841511());   Missing Stats
 //        pokemon.add(new 658638());   Missing Stats

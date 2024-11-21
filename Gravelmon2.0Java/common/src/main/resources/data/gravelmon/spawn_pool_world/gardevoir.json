@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "fligiangardevoir-1",
-      "pokemon": "gardevoir fligian",
+      "pokemon": "gardevoir-fligian",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "deltagardevoir-1",
-      "pokemon": "gardevoir delta",
+      "pokemon": "gardevoir-delta",
       "presets": [
           "natural"
       ],

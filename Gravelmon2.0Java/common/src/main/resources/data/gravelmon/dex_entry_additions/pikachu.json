@@ -1,0 +1,23 @@
+{
+  "entryId": "cobblemon:pikachu",
+  "forms": [
+    {
+      "displayForm": "Delta",
+      "unlockForms": [
+        "Delta"
+      ]
+    },
+    {
+      "displayForm": "Femalex",
+      "unlockForms": [
+        "Femalex"
+      ]
+    },
+    {
+      "displayForm": "Malex",
+      "unlockForms": [
+        "Malex"
+      ]
+    }
+  ]
+}

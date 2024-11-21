@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "varitasiantogepi-1",
-      "pokemon": "togepi varitasian",
+      "pokemon": "togepi-varitasian",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "hubiantogepi-1",
-      "pokemon": "togepi hubian",
+      "pokemon": "togepi-hubian",
       "presets": [
           "natural"
       ],

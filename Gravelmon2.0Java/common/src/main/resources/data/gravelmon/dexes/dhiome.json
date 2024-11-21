@@ -1,0 +1,19 @@
+{
+  "type": "cobblemon:simple_pokedex_def",
+  "sortOrder": 16,
+  "id": "gravelmon:dhiome",
+  "entries": [
+    "cobblemon:wombabe",
+    "cobblemon:korboral",
+    "cobblemon:dwarpy",
+    "cobblemon:bonafant",
+    "cobblemon:wisdaum",
+    "cobblemon:surchin",
+    "cobblemon:submurchin",
+    "cobblemon:nebulent",
+    "cobblemon:petrifern",
+    "cobblemon:serrarbo",
+    "cobblemon:ampin",
+    "cobblemon:sharquake"
+  ]
+}

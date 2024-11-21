@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "ayreianmeowscarada-1",
-      "pokemon": "meowscarada ayreian",
+      "pokemon": "meowscarada-ayreian",
       "presets": [
           "natural"
       ],

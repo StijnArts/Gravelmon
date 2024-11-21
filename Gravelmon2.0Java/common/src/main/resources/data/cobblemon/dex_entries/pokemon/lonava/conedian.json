@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:conedian",
+  "speciesId": "cobblemon:conedian",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

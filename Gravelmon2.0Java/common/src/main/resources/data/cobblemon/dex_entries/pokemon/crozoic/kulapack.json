@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:kulapack",
+  "speciesId": "cobblemon:kulapack",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

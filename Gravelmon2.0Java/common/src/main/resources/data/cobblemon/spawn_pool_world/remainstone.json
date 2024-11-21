@@ -15,7 +15,7 @@
       "level": "33-55",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_soul_sand" ],
+"biomes": [ "#cobblemon:nether/is_soul_sand" ],
         "canSeeSky": true
       }
     }

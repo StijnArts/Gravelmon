@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:hatchick",
+  "speciesId": "cobblemon:hatchick",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

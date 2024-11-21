@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:noxight",
+  "speciesId": "cobblemon:noxight",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

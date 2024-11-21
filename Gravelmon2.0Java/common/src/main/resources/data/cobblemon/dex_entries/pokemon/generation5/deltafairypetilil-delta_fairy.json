@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:deltafairypetilil-delta_fairy",
+  "speciesId": "cobblemon:deltafairypetilil",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Deltafairy",
+      "unlockForms": [
+        "Deltafairy"
+      ]
+    }
+  ],
+  "variations": []
+}

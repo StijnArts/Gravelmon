@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tropifox",
+  "speciesId": "cobblemon:tropifox",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

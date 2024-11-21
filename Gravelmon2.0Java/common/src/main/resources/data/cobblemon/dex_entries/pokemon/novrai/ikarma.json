@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ikarma",
+  "speciesId": "cobblemon:ikarma",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

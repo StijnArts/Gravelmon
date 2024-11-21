@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:astrowl",
+  "speciesId": "cobblemon:astrowl",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

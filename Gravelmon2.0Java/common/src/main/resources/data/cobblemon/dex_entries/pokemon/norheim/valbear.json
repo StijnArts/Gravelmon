@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:valbear",
+  "speciesId": "cobblemon:valbear",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

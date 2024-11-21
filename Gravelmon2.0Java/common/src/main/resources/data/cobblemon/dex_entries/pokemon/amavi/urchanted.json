@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:urchanted",
+  "speciesId": "cobblemon:urchanted",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

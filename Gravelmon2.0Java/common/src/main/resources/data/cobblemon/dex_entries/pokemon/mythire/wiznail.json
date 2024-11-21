@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:wiznail",
+  "speciesId": "cobblemon:wiznail",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

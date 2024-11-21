@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:beldum-delta_spider",
+  "speciesId": "cobblemon:beldum",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Deltaspider",
+      "unlockForms": [
+        "Deltaspider"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -15,7 +15,7 @@
       "level": "27-38",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_spring" ]
+"biomes": [ "#cobblemon:has_season/spring" ]
       }
     }
   ]

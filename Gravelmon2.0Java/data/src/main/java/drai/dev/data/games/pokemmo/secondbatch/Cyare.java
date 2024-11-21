@@ -33,12 +33,12 @@ public class Cyare extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new Scurley());
-        pokemon.add(new Burramble());
-        pokemon.add(new Bramboom());
-        pokemon.add(new Lamber());
-        pokemon.add(new Volpaca());
-        pokemon.add(new Sheruption());
+        addNewPokemon(new Scurley());
+        addNewPokemon(new Burramble());
+        addNewPokemon(new Bramboom());
+        addNewPokemon(new Lamber());
+        addNewPokemon(new Volpaca());
+        addNewPokemon(new Sheruption());
 //        pokemon.add(new Pengle()); Member of line Not Finished
 //        pokemon.add(new Twaddle()); Member of line Not Finished
 //        pokemon.add(new Pengalance());   Missing Art
@@ -52,9 +52,9 @@ public class Cyare extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Eaglory());   Missing Stats
 //        pokemon.add(new Cavole());   Missing Stats
 //        pokemon.add(new Cavident());   Missing Stats
-        pokemon.add(new Quetzap());
-        pokemon.add(new Shockatoo());
-        pokemon.add(new Kotukoatl());
+        addNewPokemon(new Quetzap());
+        addNewPokemon(new Shockatoo());
+        addNewPokemon(new Kotukoatl());
 //        pokemon.add(new Grainum());   Missing Stats
 //        pokemon.add(new Tomabi()); Member of line Not Finished
 //        pokemon.add(new Otamot()); Member of line Not Finished
@@ -93,8 +93,8 @@ public class Cyare extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Pocinder());   Missing Stats
 //        pokemon.add(new Quolcano());   Missing Stats
 //        pokemon.add(new Chimpunk());   Missing Stats
-        pokemon.add(new Snoosect());
-        pokemon.add(new Lumibuzz());
+        addNewPokemon(new Snoosect());
+        addNewPokemon(new Lumibuzz());
 //        pokemon.add(new Loticus());   Missing Stats
 //        pokemon.add(new Lotiluna());   Missing Stats
 //        pokemon.add(new Avipip());   Missing Stats
@@ -117,15 +117,15 @@ public class Cyare extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Littull());   Missing Stats
 //        pokemon.add(new Nobull());   Missing Stats
 //        pokemon.add(new Irritabull()); Member of line Not Finished
-        pokemon.add(new Orukul());
-        pokemon.add(new Tinguano());
-        pokemon.add(new Donguano());
+        addNewPokemon(new Orukul());
+        addNewPokemon(new Tinguano());
+        addNewPokemon(new Donguano());
 //        pokemon.add(new Khepharoh());   Missing Stats
 //        pokemon.add(new Poisstone());   Missing Stats
-        pokemon.add(new Conium());
-        pokemon.add(new Conchorn());
+        addNewPokemon(new Conium());
+        addNewPokemon(new Conchorn());
 //        pokemon.add(new Liquion());   Missing Stats
-        pokemon.add(new Cocopow());
+        addNewPokemon(new Cocopow());
 //        pokemon.add(new Chemko());   Missing Stats
 //        pokemon.add(new Kiwern());   Missing Stats
 //        pokemon.add(new Wetaket());   Missing Stats
@@ -152,14 +152,14 @@ public class Cyare extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Aquana());   Missing Stats
 //        pokemon.add(new Sakano());   Missing Stats
 //        pokemon.add(new DraphinCyare()); //Renamed from Draphin  Member of line Not Finished
-        pokemon.add(new Crebb());
-        pokemon.add(new Crustocean());
-        pokemon.add(new Impie());
-        pokemon.add(new Impulso());
-        pokemon.add(new Impers());
-        pokemon.add(new Imploda());
-        pokemon.add(new Impac());
-        pokemon.add(new Imprism());
+        addNewPokemon(new Crebb());
+        addNewPokemon(new Crustocean());
+        addNewPokemon(new Impie());
+        addNewPokemon(new Impulso());
+        addNewPokemon(new Impers());
+        addNewPokemon(new Imploda());
+        addNewPokemon(new Impac());
+        addNewPokemon(new Imprism());
 //        pokemon.add(new Solare());   Missing Stats
 //        pokemon.add(new Glaciare());   Missing Stats
 //        pokemon.add(new Pluvare());   Missing Stats

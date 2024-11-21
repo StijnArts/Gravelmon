@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltafrogadier-1",
-      "pokemon": "frogadier delta",
+      "pokemon": "frogadier-delta",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "armiranfrogadier-1",
-      "pokemon": "frogadier armiran",
+      "pokemon": "frogadier-armiran",
       "presets": [
           "natural"
       ],

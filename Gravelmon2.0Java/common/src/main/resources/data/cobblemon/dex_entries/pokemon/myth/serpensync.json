@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:serpensync",
+  "speciesId": "cobblemon:serpensync",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

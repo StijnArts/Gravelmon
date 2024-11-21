@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:standeolith",
+  "speciesId": "cobblemon:standeolith",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

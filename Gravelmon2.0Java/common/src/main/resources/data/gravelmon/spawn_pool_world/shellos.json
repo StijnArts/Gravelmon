@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "fligianshellos-1",
-      "pokemon": "shellos fligian",
+      "pokemon": "shellos-fligian",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "ricanshellos-1",
-      "pokemon": "shellos rican",
+      "pokemon": "shellos-rican",
       "presets": [
           "natural"
       ],

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "havaiianhaunter-1",
-      "pokemon": "haunter havaiian",
+      "pokemon": "haunter-havaiian",
       "presets": [
           "natural"
       ],
@@ -16,13 +16,13 @@
       "weight": 0.54,
       "condition": {
 "biomes": [ "#cobblemon:is_volvanic",
-"#cobblemon:is_soul_fire" ]
+"#cobblemon:nether/is_soul_fire" ]
       }
     }
 ,
     {
       "id": "haunterx-1",
-      "pokemon": "haunter x",
+      "pokemon": "haunter-x",
       "presets": [
           "natural"
       ],
@@ -38,7 +38,7 @@
 ,
     {
       "id": "ayreianhaunter-1",
-      "pokemon": "haunter ayreian",
+      "pokemon": "haunter-ayreian",
       "presets": [
           "natural"
       ],
@@ -48,14 +48,14 @@
       "level": "25-39",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_wasteland" ],
+"biomes": [ "#cobblemon:nether/is_wasteland" ],
         "isRaining": true
       }
     }
 ,
     {
       "id": "kaskadianhaunter-1",
-      "pokemon": "haunter kaskadian",
+      "pokemon": "haunter-kaskadian",
       "presets": [
           "natural"
       ],

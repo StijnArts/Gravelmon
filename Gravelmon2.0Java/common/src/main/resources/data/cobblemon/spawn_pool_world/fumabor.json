@@ -18,7 +18,7 @@
 "biomes": [ "#cobblemon:is_forest" ]
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_summer" ]    }
+"biomes": [ "#cobblemon:has_season/summer" ]    }
     }
   ]
 }

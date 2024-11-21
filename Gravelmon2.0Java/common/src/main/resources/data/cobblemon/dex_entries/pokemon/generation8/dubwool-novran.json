@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:dubwool-novran",
+  "speciesId": "cobblemon:dubwool",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Novran",
+      "unlockForms": [
+        "Novran"
+      ]
+    }
+  ],
+  "variations": []
+}

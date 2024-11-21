@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:coltroy",
+  "speciesId": "cobblemon:coltroy",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

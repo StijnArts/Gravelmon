@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:femimic",
+  "speciesId": "cobblemon:femimic",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

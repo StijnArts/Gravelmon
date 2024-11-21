@@ -1,6 +1,6 @@
 {
   "implemented": true,
-  "name": "nidorimewintercoat",
+  "name": "Nidorimewintercoat",
   "nationalPokedexNumber": 2564,
   "primaryType": "ice",
   "secondaryType": "ground",
@@ -76,7 +76,7 @@
   "pokedex": [
     "cobblemon.species.nidorimewintercoat.desc"
   ],
-  "preEvolution": "nidoranf form=alteranwintercoat",
+  "preEvolution": "nidoranf form=alteran_winter_coat",
   "evolutions": [
     {
       "id": "nidorimewintercoat_nidoregina",

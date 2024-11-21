@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:pidgeotto-mythian",
+  "speciesId": "cobblemon:pidgeotto",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Mythian",
+      "unlockForms": [
+        "Mythian"
+      ]
+    }
+  ],
+  "variations": []
+}

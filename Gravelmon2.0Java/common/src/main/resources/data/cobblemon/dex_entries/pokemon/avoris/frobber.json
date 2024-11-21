@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:frobber",
+  "speciesId": "cobblemon:frobber",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

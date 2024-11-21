@@ -1,0 +1,9 @@
+{
+  "type": "cobblemon:simple_pokedex_def",
+  "sortOrder": 44,
+  "id": "gravelmon:daybreak",
+  "entries": [
+    "cobblemon:sandridger",
+    "cobblemon:sandridger-alolan"
+  ]
+}

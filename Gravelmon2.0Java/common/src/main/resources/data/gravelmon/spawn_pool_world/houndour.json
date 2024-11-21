@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "norheimanhoundour-1",
-      "pokemon": "houndour norheiman",
+      "pokemon": "houndour-norheiman",
       "presets": [
           "natural"
       ],

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "eghobulbasaur-1",
-      "pokemon": "bulbasaur egho",
+      "pokemon": "bulbasaur-egho",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "deltabulbasaur-1",
-      "pokemon": "bulbasaur delta",
+      "pokemon": "bulbasaur-delta",
       "presets": [
           "natural"
       ],
@@ -40,7 +40,7 @@
 ,
     {
       "id": "ayreianbulbasaur-1",
-      "pokemon": "bulbasaur ayreian",
+      "pokemon": "bulbasaur-ayreian",
       "presets": [
           "natural"
       ],

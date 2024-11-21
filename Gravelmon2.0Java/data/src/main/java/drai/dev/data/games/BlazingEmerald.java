@@ -1,7 +1,6 @@
 package drai.dev.data.games;
 
 import drai.dev.data.games.registry.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.blazingemerald.*;
 
 public class BlazingEmerald extends Game {
@@ -11,19 +10,19 @@ public class BlazingEmerald extends Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new Oreon());
-        pokemon.add(new Muramoth());
-        pokemon.add(new Lucemoth());
-        pokemon.add(new Drilladin());
-        pokemon.add(new Drasparath());
-        pokemon.add(new Mallarki());
-        pokemon.add(new Silviper());
-        pokemon.add(new Zangoro());
-        pokemon.add(new Goolossal());
-        pokemon.add(new Chrysalix());
-        pokemon.add(new Slingray());
-        pokemon.add(new Bawlfrog());
-        pokemon.add(new Vitellion());
-        pokemon.add(new Metunn());
+        addNewPokemon(new Oreon());
+        addNewPokemon(new Muramoth());
+        addNewPokemon(new Lucemoth());
+        addNewPokemon(new Drilladin());
+        addNewPokemon(new Drasparath());
+        addNewPokemon(new Mallarki());
+        addNewPokemon(new Silviper());
+        addNewPokemon(new Zangoro());
+        addNewPokemon(new Goolossal());
+        addNewPokemon(new Chrysalix());
+        addNewPokemon(new Slingray());
+        addNewPokemon(new Bawlfrog());
+        addNewPokemon(new Vitellion());
+        addNewPokemon(new Metunn());
     }
 }

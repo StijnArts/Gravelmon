@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "novrangrimer-1",
-      "pokemon": "grimer novran",
+      "pokemon": "grimer-novran",
       "presets": [
           "natural"
       ],
@@ -23,7 +23,7 @@
 ,
     {
       "id": "eghogrimer-1",
-      "pokemon": "grimer egho",
+      "pokemon": "grimer-egho",
       "presets": [
           "natural"
       ],
@@ -33,15 +33,15 @@
       "level": "12-22",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_basalt",
-"#cobblemon:is_soul_sand",
-"#cobblemon:is_toxic" ]
+"biomes": [ "#cobblemon:nether/is_basalt",
+"#cobblemon:nether/is_soul_sand",
+"#cobblemon:nether/is_toxic" ]
       }
     }
 ,
     {
       "id": "deltagrimer-1",
-      "pokemon": "grimer delta",
+      "pokemon": "grimer-delta",
       "presets": [
           "natural"
       ],
@@ -59,7 +59,7 @@
 ,
     {
       "id": "ayreiangrimer-1",
-      "pokemon": "grimer ayreian",
+      "pokemon": "grimer-ayreian",
       "presets": [
           "village"
       ],

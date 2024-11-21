@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "deltafairypetilil-1",
+      "pokemon": "deltafairypetilil-delta_fairy",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "13-27",
+      "weight": 9.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical",
+"#cobblemon:is_floral" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

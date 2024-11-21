@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:oosail",
+  "speciesId": "cobblemon:oosail",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

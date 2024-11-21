@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:taraxaconk",
+  "speciesId": "cobblemon:taraxaconk",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

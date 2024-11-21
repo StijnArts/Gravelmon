@@ -1,0 +1,27 @@
+{
+  "type": "cobblemon:simple_pokedex_def",
+  "sortOrder": 46,
+  "id": "gravelmon:vanguard",
+  "entries": [
+    "cobblemon:magnemelt",
+    "cobblemon:fleumingo",
+    "cobblemon:loathedisc",
+    "cobblemon:gyropass",
+    "cobblemon:amacorala",
+    "cobblemon:solacor",
+    "cobblemon:dunmyth",
+    "cobblemon:dundragon",
+    "cobblemon:merlicun",
+    "cobblemon:firomenis",
+    "cobblemon:wolfum",
+    "cobblemon:supiritto",
+    "cobblemon:infernadeer",
+    "cobblemon:cradecart",
+    "cobblemon:sylure",
+    "cobblemon:syrallure",
+    "cobblemon:syrenade",
+    "cobblemon:tartot",
+    "cobblemon:teranigrade",
+    "cobblemon:setsarec"
+  ]
+}

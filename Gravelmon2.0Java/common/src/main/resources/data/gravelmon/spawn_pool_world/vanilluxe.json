@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "novranvanilluxe-1",
-      "pokemon": "vanilluxe novran",
+      "pokemon": "vanilluxe-novran",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "ayreianvanilluxe-1",
-      "pokemon": "vanilluxe ayreian",
+      "pokemon": "vanilluxe-ayreian",
       "presets": [
           "natural"
       ],
@@ -32,8 +32,8 @@
       "level": "35-57",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_basalt",
-"#cobblemon:is_wasteland" ]
+"biomes": [ "#cobblemon:nether/is_basalt",
+"#cobblemon:nether/is_wasteland" ]
       }
     }
 

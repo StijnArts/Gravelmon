@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "eghoquilava-1",
-      "pokemon": "quilava egho",
+      "pokemon": "quilava-egho",
       "presets": [
           "natural"
       ],
@@ -25,7 +25,7 @@
 ,
     {
       "id": "deltaquilava-1",
-      "pokemon": "quilava delta",
+      "pokemon": "quilava-delta",
       "presets": [
           "natural"
       ],
@@ -42,7 +42,7 @@
 ,
     {
       "id": "ayreianquilava-1",
-      "pokemon": "quilava ayreian",
+      "pokemon": "quilava-ayreian",
       "presets": [
           "natural"
       ],

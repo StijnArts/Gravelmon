@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:quetzar-space",
+  "speciesId": "cobblemon:quetzar",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Space",
+      "unlockForms": [
+        "Space"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -11,25 +11,25 @@ public class Aristos extends drai.dev.data.games.registry.Game {
     public void registerPokemon() {
 
 
-        pokemon.add(new Lanidos());
-        pokemon.add(new Ramvolt());
+        addNewPokemon(new Lanidos());
+        addNewPokemon(new Ramvolt());
 //        pokemon.add(new Tuckle()); Missing Art
-        pokemon.add(new Achiefd());
+        addNewPokemon(new Achiefd());
 //        pokemon.add(new Probotheos()); Missing Art
-        pokemon.add(new Kamurados());
-        pokemon.add(new Weeduza());
-        pokemon.add(new Tangorgon());
+        addNewPokemon(new Kamurados());
+        addNewPokemon(new Weeduza());
+        addNewPokemon(new Tangorgon());
 //        pokemon.add(new Soulix()); Missing Art
 //        pokemon.add(new Fledjed()); Missing Art
-        pokemon.add(new Kangazad());
+        addNewPokemon(new Kangazad());
 //        pokemon.add(new Paloarmo()); Missing Art Renamed from Pharoar
-        pokemon.add(new EPP_v11());
+        addNewPokemon(new EPP_v11());
 //        pokemon.add(new Cactrian()); Missing Art
 //        pokemon.add(new Spiribloom()); Missing Art
 //        pokemon.add(new Zoongus()); Missing Art
-        pokemon.add(new Kvadract());
-        pokemon.add(new Navatoria());
-        pokemon.add(new Sabroast());
+        addNewPokemon(new Kvadract());
+        addNewPokemon(new Navatoria());
+        addNewPokemon(new Sabroast());
     }
 
 }

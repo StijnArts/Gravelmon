@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:maimink",
+  "speciesId": "cobblemon:maimink",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

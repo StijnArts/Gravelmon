@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "hoenniandragapult-1",
-      "pokemon": "dragapult hoennian",
+      "pokemon": "dragapult-hoennian",
       "presets": [
           "natural"
       ],
@@ -15,8 +15,8 @@
       "level": "50-68",
       "weight": 0.054,
       "condition": {
-"biomes": [ "#cobblemon:is_basalt",
-"#cobblemon:is_soul_fire" ]
+"biomes": [ "#cobblemon:nether/is_basalt",
+"#cobblemon:nether/is_soul_fire" ]
       }
     }
 

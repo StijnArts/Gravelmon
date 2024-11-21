@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "eghoblastoise-1",
-      "pokemon": "blastoise egho",
+      "pokemon": "blastoise-egho",
       "presets": [
           "natural"
       ],
@@ -25,7 +25,7 @@
 ,
     {
       "id": "deltablastoise-1",
-      "pokemon": "blastoise delta",
+      "pokemon": "blastoise-delta",
       "presets": [
           "natural"
       ],
@@ -43,7 +43,7 @@
 ,
     {
       "id": "ayreianblastoise-1",
-      "pokemon": "blastoise ayreian",
+      "pokemon": "blastoise-ayreian",
       "presets": [
           "natural"
       ],

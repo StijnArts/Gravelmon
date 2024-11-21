@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "novranslowpoke-1",
-      "pokemon": "slowpoke novran",
+      "pokemon": "slowpoke-novran",
       "presets": [
           "natural"
       ],

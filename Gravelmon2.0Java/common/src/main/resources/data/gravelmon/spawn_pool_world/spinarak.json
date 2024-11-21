@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "aristosianspinarak-1",
-      "pokemon": "spinarak aristosian",
+      "pokemon": "spinarak-aristosian",
       "presets": [
           "natural"
       ],
@@ -24,7 +24,7 @@
 ,
     {
       "id": "ayreianspinarak-1",
-      "pokemon": "spinarak ayreian",
+      "pokemon": "spinarak-ayreian",
       "presets": [
           "natural"
       ],
@@ -34,7 +34,7 @@
       "level": "5-25",
       "weight": 5.4,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ]
+"biomes": [ "#cobblemon:nether/is_forest" ]
       }
     }
 

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:kleavor-mythian",
+  "speciesId": "cobblemon:kleavor",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Mythian",
+      "unlockForms": [
+        "Mythian"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:growlain",
+  "speciesId": "cobblemon:growlain",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

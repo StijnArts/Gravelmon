@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "novrancranidos-1",
-      "pokemon": "cranidos novran",
+      "pokemon": "cranidos-novran",
       "presets": [
           "natural"
       ],

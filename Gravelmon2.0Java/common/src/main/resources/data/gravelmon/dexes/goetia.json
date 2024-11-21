@@ -1,0 +1,16 @@
+{
+  "type": "cobblemon:simple_pokedex_def",
+  "sortOrder": 59,
+  "id": "gravelmon:goetia",
+  "entries": [
+    "cobblemon:jawee",
+    "cobblemon:jawsome",
+    "cobblemon:wermaid",
+    "cobblemon:vermenace",
+    "cobblemon:caulderon",
+    "cobblemon:gargorgon",
+    "cobblemon:nitecrawler",
+    "cobblemon:hallowither",
+    "cobblemon:apeiron"
+  ]
+}

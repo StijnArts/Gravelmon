@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tulifun",
+  "speciesId": "cobblemon:tulifun",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

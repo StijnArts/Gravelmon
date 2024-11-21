@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltafeebas-1",
-      "pokemon": "feebas delta",
+      "pokemon": "feebas-delta",
       "presets": [
           "natural"
       ],
@@ -21,7 +21,7 @@
 ,
     {
       "id": "seviianfeebas-1",
-      "pokemon": "feebas seviian",
+      "pokemon": "feebas-seviian",
       "presets": [
           "natural"
       ],

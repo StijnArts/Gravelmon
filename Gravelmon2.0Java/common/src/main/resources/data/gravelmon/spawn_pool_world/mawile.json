@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltamawile-1",
-      "pokemon": "mawile delta",
+      "pokemon": "mawile-delta",
       "presets": [
           "natural"
       ],

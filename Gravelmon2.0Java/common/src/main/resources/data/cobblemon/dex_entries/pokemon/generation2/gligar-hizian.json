@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gligar-hizian",
+  "speciesId": "cobblemon:gligar",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Hizian",
+      "unlockForms": [
+        "Hizian"
+      ]
+    }
+  ],
+  "variations": []
+}

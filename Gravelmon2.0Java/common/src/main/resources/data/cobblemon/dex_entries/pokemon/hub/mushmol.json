@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:mushmol",
+  "speciesId": "cobblemon:mushmol",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

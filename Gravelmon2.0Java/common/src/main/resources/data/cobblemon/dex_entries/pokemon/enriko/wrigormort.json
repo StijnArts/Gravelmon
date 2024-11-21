@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:wrigormort",
+  "speciesId": "cobblemon:wrigormort",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

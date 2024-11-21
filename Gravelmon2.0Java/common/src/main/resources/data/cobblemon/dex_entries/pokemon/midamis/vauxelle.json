@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:vauxelle",
+  "speciesId": "cobblemon:vauxelle",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

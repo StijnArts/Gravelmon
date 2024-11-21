@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "spiritombx-1",
-      "pokemon": "spiritomb x",
+      "pokemon": "spiritomb-x",
       "presets": [
           "natural"
       ],

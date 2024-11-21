@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:knapback",
+  "speciesId": "cobblemon:knapback",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

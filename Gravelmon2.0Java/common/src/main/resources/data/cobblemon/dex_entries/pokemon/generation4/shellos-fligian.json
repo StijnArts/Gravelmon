@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:shellos-fligian",
+  "speciesId": "cobblemon:shellos",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Fligian",
+      "unlockForms": [
+        "Fligian"
+      ]
+    }
+  ],
+  "variations": []
+}

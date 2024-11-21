@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "egholudicolo-1",
-      "pokemon": "ludicolo egho",
+      "pokemon": "ludicolo-egho",
       "presets": [
           "natural"
       ],
@@ -15,13 +15,13 @@
       "level": "39-49",
       "weight": 2.3,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ]
+"biomes": [ "#cobblemon:nether/is_forest" ]
       }
     }
 ,
     {
       "id": "deltaludicolo-1",
-      "pokemon": "ludicolo delta",
+      "pokemon": "ludicolo-delta",
       "presets": [
           "natural"
       ],

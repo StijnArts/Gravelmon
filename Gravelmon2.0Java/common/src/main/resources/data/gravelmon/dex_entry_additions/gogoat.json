@@ -1,0 +1,11 @@
+{
+  "entryId": "cobblemon:gogoat",
+  "forms": [
+    {
+      "displayForm": "Relic",
+      "unlockForms": [
+        "Relic"
+      ]
+    }
+  ]
+}

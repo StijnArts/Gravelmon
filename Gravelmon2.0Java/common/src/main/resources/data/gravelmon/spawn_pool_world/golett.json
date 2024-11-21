@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltagolett-1",
-      "pokemon": "golett delta",
+      "pokemon": "golett-delta",
       "presets": [
           "natural"
       ],
@@ -15,14 +15,14 @@
       "level": "12-43",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_desert" ],
+"biomes": [ "#cobblemon:nether/is_desert" ],
         "canSeeSky": true
       }
     }
 ,
     {
       "id": "kaskadiangolett-1",
-      "pokemon": "golett kaskadian",
+      "pokemon": "golett-kaskadian",
       "presets": [
           "natural"
       ],
@@ -39,7 +39,7 @@
 ,
     {
       "id": "cefirangolett-1",
-      "pokemon": "golett cefiran",
+      "pokemon": "golett-cefiran",
       "presets": [
           "natural"
       ],

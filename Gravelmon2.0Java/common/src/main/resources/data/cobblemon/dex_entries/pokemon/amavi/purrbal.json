@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:purrbal",
+  "speciesId": "cobblemon:purrbal",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

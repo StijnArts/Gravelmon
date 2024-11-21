@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "novrandragalge-1",
-      "pokemon": "dragalge novran",
+      "pokemon": "dragalge-novran",
       "presets": [
           "reef"
       ],

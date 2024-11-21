@@ -1,0 +1,18 @@
+{
+  "type": "cobblemon:simple_pokedex_def",
+  "sortOrder": 28,
+  "id": "gravelmon:aristos",
+  "entries": [
+    "cobblemon:lanidos",
+    "cobblemon:ramvolt",
+    "cobblemon:achiefd",
+    "cobblemon:kamurados",
+    "cobblemon:weeduza",
+    "cobblemon:tangorgon",
+    "cobblemon:kangazad",
+    "cobblemon:epp_v11",
+    "cobblemon:kvadract",
+    "cobblemon:navatoria",
+    "cobblemon:sabroast"
+  ]
+}

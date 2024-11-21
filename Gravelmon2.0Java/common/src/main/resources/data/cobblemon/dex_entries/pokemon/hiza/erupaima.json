@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:erupaima",
+  "speciesId": "cobblemon:erupaima",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

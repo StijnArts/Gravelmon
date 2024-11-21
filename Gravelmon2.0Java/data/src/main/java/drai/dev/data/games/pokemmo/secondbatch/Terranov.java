@@ -9,11 +9,11 @@ public class Terranov extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new Felyne());
-        pokemon.add(new Palico());
-        pokemon.add(new Canyne());
-        pokemon.add(new Palamute());
-        pokemon.add(new Spiribird());
+        addNewPokemon(new Felyne());
+        addNewPokemon(new Palico());
+        addNewPokemon(new Canyne());
+        addNewPokemon(new Palamute());
+        addNewPokemon(new Spiribird());
 //        pokemon.add(new Wiggler());   Missing Stats
 //        pokemon.add(new WigglerQueen());   Missing Stats
 //        pokemon.add(new Velocidrome());   Missing Stats
@@ -21,45 +21,45 @@ public class Terranov extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Iodrome());   Missing Stats
 //        pokemon.add(new Giadrome());   Missing Stats
 //        pokemon.add(new GreatJaggi());   Missing Stats
-        pokemon.add(new Izuchi());
-        pokemon.add(new GreatIzuchi());
-        pokemon.add(new Jagras());
-        pokemon.add(new GreatJagras());
+        addNewPokemon(new Izuchi());
+        addNewPokemon(new GreatIzuchi());
+        addNewPokemon(new Jagras());
+        addNewPokemon(new GreatJagras());
 //        pokemon.add(new Girros());   Missing Stats
 //        pokemon.add(new GreatGirros());   Missing Stats
 //        pokemon.add(new Dodogama());   Missing Stats
-        pokemon.add(new Arzuros());
-        pokemon.add(new KuluYaKu());
-        pokemon.add(new Wailnard());
-        pokemon.add(new Qurupeco());
-        pokemon.add(new Melynx());
+        addNewPokemon(new Arzuros());
+        addNewPokemon(new KuluYaKu());
+        addNewPokemon(new Wailnard());
+        addNewPokemon(new Qurupeco());
+        addNewPokemon(new Melynx());
 //        pokemon.add(new Konchu());   Missing Stats
-        pokemon.add(new YianKutKu());
-        pokemon.add(new YianGaruga());
-        pokemon.add(new Ludroth());
-        pokemon.add(new RoyalLudroth());
+        addNewPokemon(new YianKutKu());
+        addNewPokemon(new YianGaruga());
+        addNewPokemon(new Ludroth());
+        addNewPokemon(new RoyalLudroth());
 //        pokemon.add(new Congalala());   Missing Stats
-        pokemon.add(new PukeiPukei());
-        pokemon.add(new Baggi());
-        pokemon.add(new GreatBaggi());
-        pokemon.add(new Giggi());
-        pokemon.add(new Gigginox());
-        pokemon.add(new Tetsupole());
-        pokemon.add(new Tetsucabra());
+        addNewPokemon(new PukeiPukei());
+        addNewPokemon(new Baggi());
+        addNewPokemon(new GreatBaggi());
+        addNewPokemon(new Giggi());
+        addNewPokemon(new Gigginox());
+        addNewPokemon(new Tetsupole());
+        addNewPokemon(new Tetsucabra());
 //        pokemon.add(new Aknosom());   Missing Stats
 //        pokemon.add(new Hypnocatrice());   Missing Stats
 //        pokemon.add(new Duffel());   Missing Stats
 //        pokemon.add(new Beotodus());   Missing Stats
-        pokemon.add(new Hermitaur());
-        pokemon.add(new DaimyoHermitaur());
-        pokemon.add(new Ceanataur());
-        pokemon.add(new ShogunCeanataur());
+        addNewPokemon(new Hermitaur());
+        addNewPokemon(new DaimyoHermitaur());
+        addNewPokemon(new Ceanataur());
+        addNewPokemon(new ShogunCeanataur());
 //        pokemon.add(new Barroth());   Missing Stats
 //        pokemon.add(new Malfestio());   Missing Stats
 //        pokemon.add(new Gobul());   Missing Stats
 //        pokemon.add(new Gajau());   Missing Stats
 //        pokemon.add(new Jyuratodus());   Missing Stats
-        pokemon.add(new Paolumu());
+        addNewPokemon(new Paolumu());
 //        pokemon.add(new Blango());   Missing Stats
 //        pokemon.add(new Blangonga());   Missing Stats
 //        pokemon.add(new Tetranadon());   Missing Stats
@@ -75,60 +75,60 @@ public class Terranov extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Seltas());   Missing Stats
 //        pokemon.add(new SeltasQueen());   Missing Stats
 //        pokemon.add(new TobiKadachi());   Missing Stats
-        pokemon.add(new Anjanath());
+        addNewPokemon(new Anjanath());
 //        pokemon.add(new Odogaron());   Missing Stats
-        pokemon.add(new Legiana());
+        addNewPokemon(new Legiana());
 //        pokemon.add(new Najarala());   Missing Stats
 //        pokemon.add(new Uragaan());   Missing Stats
-        pokemon.add(new Nargacuga());
-        pokemon.add(new Rathian());
-        pokemon.add(new Rathalos());
-        pokemon.add(new Lagiacrus());
+        addNewPokemon(new Nargacuga());
+        addNewPokemon(new Rathian());
+        addNewPokemon(new Rathalos());
+        addNewPokemon(new Lagiacrus());
 //        pokemon.add(new Popo());   Missing Stats
-        pokemon.add(new Gammoth());
-        pokemon.add(new Astalos());
-        pokemon.add(new Mizutsune());
-        pokemon.add(new Glavenus());
-        pokemon.add(new Basarios());
-        pokemon.add(new Gravios());
-        pokemon.add(new Monoblos());
-        pokemon.add(new Diablos());
+        addNewPokemon(new Gammoth());
+        addNewPokemon(new Astalos());
+        addNewPokemon(new Mizutsune());
+        addNewPokemon(new Glavenus());
+        addNewPokemon(new Basarios());
+        addNewPokemon(new Gravios());
+        addNewPokemon(new Monoblos());
+        addNewPokemon(new Diablos());
 //        pokemon.add(new Barioth());   Missing Stats
-        pokemon.add(new Zinogre());
-        pokemon.add(new Brachydios());
-        pokemon.add(new Duramboros());
-        pokemon.add(new Lunagaron());
-        pokemon.add(new Magnamalo());
+        addNewPokemon(new Zinogre());
+        addNewPokemon(new Brachydios());
+        addNewPokemon(new Duramboros());
+        addNewPokemon(new Lunagaron());
+        addNewPokemon(new Magnamalo());
 //        pokemon.add(new Espinas());   Missing Stats
 //        pokemon.add(new Uroktor());   Missing Stats
-        pokemon.add(new Agnaktor());
-        pokemon.add(new Tigrex());
+        addNewPokemon(new Agnaktor());
+        addNewPokemon(new Tigrex());
 //        pokemon.add(new GossHarag());   Missing Stats
 //        pokemon.add(new Rachnoid());   Missing Stats
 //        pokemon.add(new RaknaKadaki());   Missing Stats
-        pokemon.add(new Seregios());
+        addNewPokemon(new Seregios());
 //        pokemon.add(new GoreMagala());   Missing Stats
 //        pokemon.add(new ShagaruMagala());   Missing Stats
-        pokemon.add(new Kirin());
-        pokemon.add(new Deviljho());
-        pokemon.add(new Bazelgeuse());
-        pokemon.add(new Rajang());
+        addNewPokemon(new Kirin());
+        addNewPokemon(new Deviljho());
+        addNewPokemon(new Bazelgeuse());
+        addNewPokemon(new Rajang());
 //        pokemon.add(new KushalaDaora());   Missing Stats
-        pokemon.add(new Teostra());
+        addNewPokemon(new Teostra());
 //        pokemon.add(new Chameleos());   Missing Stats
 //        pokemon.add(new ShenGaoren());   Missing Stats
-        pokemon.add(new Nergigante());
-        pokemon.add(new VaalHazak());
+        addNewPokemon(new Nergigante());
+        addNewPokemon(new VaalHazak());
 //        pokemon.add(new Velkhana());   Missing Stats
-        pokemon.add(new ZorahMagdaros());
-        pokemon.add(new Valstrax());
+        addNewPokemon(new ZorahMagdaros());
+        addNewPokemon(new Valstrax());
 //        pokemon.add(new Malzeno());   Missing Stats
 //        pokemon.add(new Ukanlos());   Missing Stats
 //        pokemon.add(new YamaTsukami());   Missing Stats
 //        pokemon.add(new Ceadeus());   Missing Stats
 //        pokemon.add(new Gogmazios());   Missing Stats
 //        pokemon.add(new Dalamadur());   Missing Stats
-        pokemon.add(new Ibushi());
+        addNewPokemon(new Ibushi());
 //        pokemon.add(new Narwa());   Missing Stats
 //        pokemon.add(new Gaismagorm());   Missing Stats
 //        pokemon.add(new Xenojiiva());   Missing Stats

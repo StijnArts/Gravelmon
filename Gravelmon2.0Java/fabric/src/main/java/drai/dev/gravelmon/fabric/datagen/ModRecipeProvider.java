@@ -5,20 +5,24 @@ import com.cobblemon.mod.common.api.tags.*;
 import drai.dev.gravelmon.registries.*;
 import net.fabricmc.fabric.api.datagen.v1.*;
 import net.fabricmc.fabric.api.datagen.v1.provider.*;
+import net.minecraft.core.*;
 import net.minecraft.data.recipes.*;
 import net.minecraft.tags.*;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.crafting.*;
 
+import java.util.concurrent.*;
 import java.util.function.*;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
-    public ModRecipeProvider(FabricDataOutput output) {
-        super(output);
+
+
+    public ModRecipeProvider(FabricDataOutput output, CompletableFuture<HolderLookup.Provider> registriesFuture) {
+        super(output, registriesFuture);
     }
 
     @Override
-    public void buildRecipes(Consumer<FinishedRecipe> exporter) {
+    public void buildRecipes(RecipeOutput exporter) {
         SimpleCookingRecipeBuilder.smelting(Ingredient.of(GravelmonBlocks.DEEPSLATE_SOLID_STONE_ORE.get()),
                         RecipeCategory.MISC, GravelmonItems.SOLID_STONE.get(), 0.1f,200)
                 .unlockedBy(RecipeProvider.getHasName(GravelmonBlocks.DEEPSLATE_SOLID_STONE_ORE.get()),
@@ -217,7 +221,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("AAA")
                 .pattern("ATA")
                 .pattern("AAA")
-                .define('T', ItemTags.MUSIC_DISCS)
+                .define('T', ItemTags.CREEPER_DROP_MUSIC_DISCS)
                 .define('A', Items.SCULK)
                 .unlockedBy("hasSculk", has(Items.SCULK))
                 .save(exporter);

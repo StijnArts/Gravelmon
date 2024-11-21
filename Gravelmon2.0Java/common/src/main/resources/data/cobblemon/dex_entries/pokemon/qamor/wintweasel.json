@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:wintweasel",
+  "speciesId": "cobblemon:wintweasel",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

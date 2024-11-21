@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:sagephant",
+  "speciesId": "cobblemon:sagephant",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

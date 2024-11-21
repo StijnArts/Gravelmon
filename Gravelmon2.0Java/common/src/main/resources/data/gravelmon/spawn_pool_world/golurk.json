@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltagolurk-1",
-      "pokemon": "golurk delta",
+      "pokemon": "golurk-delta",
       "presets": [
           "natural"
       ],
@@ -15,14 +15,14 @@
       "level": "44-70",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_desert" ],
+"biomes": [ "#cobblemon:nether/is_desert" ],
         "canSeeSky": true
       }
     }
 ,
     {
       "id": "cefirangolurk-1",
-      "pokemon": "golurk cefiran",
+      "pokemon": "golurk-cefiran",
       "presets": [
           "natural"
       ],

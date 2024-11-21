@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "mythianzorua-1",
-      "pokemon": "zorua mythian",
+      "pokemon": "zorua-mythian",
       "presets": [
           "natural"
       ],
@@ -17,14 +17,14 @@
       "condition": {
 "biomes": [ "#cobblemon:is_desert",
 "#cobblemon:is_volvanic",
-"#cobblemon:is_soul_fire" ],
+"#cobblemon:nether/is_soul_fire" ],
         "timeRange": "night"
       }
     }
 ,
     {
       "id": "alteranzorua-1",
-      "pokemon": "zorua alteran",
+      "pokemon": "zorua-alteran",
       "presets": [
           "natural"
       ],

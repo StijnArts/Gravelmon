@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:clawconut",
+  "speciesId": "cobblemon:clawconut",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:vanillite-fligian",
+  "speciesId": "cobblemon:vanillite",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Fligian",
+      "unlockForms": [
+        "Fligian"
+      ]
+    }
+  ],
+  "variations": []
+}

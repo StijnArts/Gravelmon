@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "hoenniandreepy-1",
-      "pokemon": "dreepy hoennian",
+      "pokemon": "dreepy-hoennian",
       "presets": [
           "natural"
       ],
@@ -15,8 +15,8 @@
       "level": "12-30",
       "weight": 5.4,
       "condition": {
-"biomes": [ "#cobblemon:is_basalt",
-"#cobblemon:is_soul_fire" ]
+"biomes": [ "#cobblemon:nether/is_basalt",
+"#cobblemon:nether/is_soul_fire" ]
       }
     }
 

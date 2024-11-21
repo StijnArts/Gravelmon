@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltaregice-1",
-      "pokemon": "regice delta",
+      "pokemon": "regice-delta",
       "presets": [
           "water_surface"
       ],

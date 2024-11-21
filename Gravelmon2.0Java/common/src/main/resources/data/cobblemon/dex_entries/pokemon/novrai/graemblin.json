@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:graemblin",
+  "speciesId": "cobblemon:graemblin",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

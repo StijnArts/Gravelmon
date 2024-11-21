@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:brawnze",
+  "speciesId": "cobblemon:brawnze",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

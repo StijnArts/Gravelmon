@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "kaskadiandiancie-1",
-      "pokemon": "diancie kaskadian",
+      "pokemon": "diancie-kaskadian",
       "presets": [
           "natural"
       ],

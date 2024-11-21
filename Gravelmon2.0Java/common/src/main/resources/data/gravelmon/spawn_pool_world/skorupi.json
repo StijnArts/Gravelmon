@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "hizianskorupi-1",
-      "pokemon": "skorupi hizian",
+      "pokemon": "skorupi-hizian",
       "presets": [
           "natural"
       ],

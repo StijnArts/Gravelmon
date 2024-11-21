@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "kaskadianjynx-1",
-      "pokemon": "jynx kaskadian",
+      "pokemon": "jynx-kaskadian",
       "presets": [
           "natural"
       ],

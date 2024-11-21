@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:wisopotron",
+  "speciesId": "cobblemon:wisopotron",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

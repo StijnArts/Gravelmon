@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "norheimanseadra-1",
-      "pokemon": "seadra norheiman",
+      "pokemon": "seadra-norheiman",
       "presets": [
           "natural"
       ],

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "norheimanvoltorb-1",
-      "pokemon": "voltorb norheiman",
+      "pokemon": "voltorb-norheiman",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "ayreianvoltorb-1",
-      "pokemon": "voltorb ayreian",
+      "pokemon": "voltorb-ayreian",
       "presets": [
           "natural"
       ],
@@ -32,13 +32,13 @@
       "level": "12-22",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_basalt" ]
+"biomes": [ "#cobblemon:nether/is_basalt" ]
       }
     }
 ,
     {
       "id": "mysticvoltorb-1",
-      "pokemon": "voltorb mystic",
+      "pokemon": "voltorb-mystic",
       "presets": [
           "natural"
       ],

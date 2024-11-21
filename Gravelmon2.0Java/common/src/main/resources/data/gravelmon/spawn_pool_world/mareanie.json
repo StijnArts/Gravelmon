@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "mareaniex-1",
-      "pokemon": "mareanie x",
+      "pokemon": "mareanie-x",
       "presets": [
           "natural"
       ],
@@ -21,7 +21,7 @@
 ,
     {
       "id": "hoennianmareanie-1",
-      "pokemon": "mareanie hoennian",
+      "pokemon": "mareanie-hoennian",
       "presets": [
           "amethyst_geode"
       ],

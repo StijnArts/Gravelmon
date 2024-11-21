@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:krustinger",
+  "speciesId": "cobblemon:krustinger",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

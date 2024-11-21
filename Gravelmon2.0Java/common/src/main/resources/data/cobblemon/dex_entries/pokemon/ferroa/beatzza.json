@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:beatzza",
+  "speciesId": "cobblemon:beatzza",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

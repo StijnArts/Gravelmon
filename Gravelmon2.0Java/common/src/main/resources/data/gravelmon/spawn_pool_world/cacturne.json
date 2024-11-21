@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "cacturnex-1",
-      "pokemon": "cacturne x",
+      "pokemon": "cacturne-x",
       "presets": [
           "natural"
       ],

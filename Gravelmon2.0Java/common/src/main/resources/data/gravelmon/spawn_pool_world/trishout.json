@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "trishoutterrestrial-1",
-      "pokemon": "trishout terrestrial",
+      "pokemon": "trishout-terrestrial",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "trishoutxenoversal-1",
-      "pokemon": "trishout xenoversal",
+      "pokemon": "trishout-xenoversal",
       "presets": [
           "natural"
       ],
@@ -39,7 +39,7 @@
 ,
     {
       "id": "trishoutastral-1",
-      "pokemon": "trishout astral",
+      "pokemon": "trishout-astral",
       "presets": [
           "natural"
       ],
@@ -56,7 +56,7 @@
 ,
     {
       "id": "trishoutx-1",
-      "pokemon": "trishout x",
+      "pokemon": "trishout-x",
       "presets": [
           "natural"
       ],

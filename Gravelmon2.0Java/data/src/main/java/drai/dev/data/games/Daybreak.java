@@ -4,7 +4,6 @@ import drai.dev.data.games.registry.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.daybreak.*;
 import drai.dev.data.pokemon.daybreak.regional.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Daybreak extends Game {
     public Daybreak() {
@@ -14,7 +13,7 @@ public class Daybreak extends Game {
     @Override
     public void registerPokemon() {
         var sandridger = new Sandridger();
-        pokemon.add(sandridger);
-        pokemon.add(new AlolanSandridger("", Aspect.ALOLAN));
+        addNewPokemon(sandridger);
+        addNewPokemon(new AlolanSandridger("", Aspect.ALOLAN));
     }
 }

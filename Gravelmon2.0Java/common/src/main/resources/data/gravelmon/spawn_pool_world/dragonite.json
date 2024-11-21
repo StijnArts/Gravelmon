@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltadragonite-1",
-      "pokemon": "dragonite delta",
+      "pokemon": "dragonite-delta",
       "presets": [
           "natural"
       ],

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:spinache",
+  "speciesId": "cobblemon:spinache",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lapras-mythian",
+  "speciesId": "cobblemon:lapras",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Mythian",
+      "unlockForms": [
+        "Mythian"
+      ]
+    }
+  ],
+  "variations": []
+}

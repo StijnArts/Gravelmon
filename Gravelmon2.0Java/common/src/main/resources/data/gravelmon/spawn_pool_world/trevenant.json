@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "varitasiantrevenant-1",
-      "pokemon": "trevenant varitasian",
+      "pokemon": "trevenant-varitasian",
       "presets": [
           "natural"
       ],
@@ -23,7 +23,7 @@
 ,
     {
       "id": "deltatrevenant-1",
-      "pokemon": "trevenant delta",
+      "pokemon": "trevenant-delta",
       "presets": [
           "natural"
       ],
@@ -38,12 +38,12 @@
       },
       "anticondition": {
 "biomes": [ "#cobblemon:is_plains",
-"#cobblemon:is_autumn" ]    }
+"#cobblemon:has_season/autumn" ]    }
     }
 ,
     {
       "id": "kaskadiantrevenant-1",
-      "pokemon": "trevenant kaskadian",
+      "pokemon": "trevenant-kaskadian",
       "presets": [
           "natural"
       ],
@@ -53,7 +53,7 @@
       "level": "30-52",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_fungus" ],
+"biomes": [ "#cobblemon:nether/is_fungus" ],
         "canSeeSky": true
       }
     }

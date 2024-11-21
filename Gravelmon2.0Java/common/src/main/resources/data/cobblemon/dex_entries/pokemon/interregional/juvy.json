@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:juvy",
+  "speciesId": "cobblemon:juvy",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

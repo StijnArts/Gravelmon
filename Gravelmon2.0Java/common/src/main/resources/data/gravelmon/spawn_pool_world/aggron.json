@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "hizianaggron-1",
-      "pokemon": "aggron hizian",
+      "pokemon": "aggron-hizian",
       "presets": [
           "natural"
       ],
@@ -23,7 +23,7 @@
 ,
     {
       "id": "deltaaggron-1",
-      "pokemon": "aggron delta",
+      "pokemon": "aggron-delta",
       "presets": [
           "natural"
       ],
@@ -33,15 +33,15 @@
       "level": "40-59",
       "weight": 0.0,
       "condition": {
-"biomes": [ "#cobblemon:is_soul_sand",
-"#cobblemon:is_soul_fire",
-"#cobblemon:is_basalt" ]
+"biomes": [ "#cobblemon:nether/is_soul_sand",
+"#cobblemon:nether/is_soul_fire",
+"#cobblemon:nether/is_basalt" ]
       }
     }
 ,
     {
       "id": "ayreianaggron-1",
-      "pokemon": "aggron ayreian",
+      "pokemon": "aggron-ayreian",
       "presets": [
           "near_lava"
       ],

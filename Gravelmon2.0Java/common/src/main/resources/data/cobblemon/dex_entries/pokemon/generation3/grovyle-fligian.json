@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:grovyle-fligian",
+  "speciesId": "cobblemon:grovyle",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Fligian",
+      "unlockForms": [
+        "Fligian"
+      ]
+    }
+  ],
+  "variations": []
+}

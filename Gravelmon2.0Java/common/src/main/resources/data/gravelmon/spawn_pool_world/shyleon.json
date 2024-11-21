@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "shyleonterrestrial-1",
-      "pokemon": "shyleon terrestrial",
+      "pokemon": "shyleon-terrestrial",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "shyleonxenoversal-1",
-      "pokemon": "shyleon xenoversal",
+      "pokemon": "shyleon-xenoversal",
       "presets": [
           "natural"
       ],
@@ -39,7 +39,7 @@
 ,
     {
       "id": "shyleonastral-1",
-      "pokemon": "shyleon astral",
+      "pokemon": "shyleon-astral",
       "presets": [
           "natural"
       ],
@@ -56,7 +56,7 @@
 ,
     {
       "id": "shyleonx-1",
-      "pokemon": "shyleon x",
+      "pokemon": "shyleon-x",
       "presets": [
           "natural"
       ],

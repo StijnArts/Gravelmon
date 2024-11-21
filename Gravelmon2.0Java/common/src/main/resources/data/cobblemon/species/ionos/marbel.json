@@ -1,6 +1,6 @@
 {
   "implemented": true,
-  "name": "marbel",
+  "name": "Marbel",
   "nationalPokedexNumber": 5047,
   "primaryType": "rock",
   "abilities": [
@@ -75,7 +75,7 @@
       "requirements": [
         {
           "variant": "biome",
-          "biomeCondition": "#cobblemon:is_spring"
+          "biomeCondition": "#cobblemon:has_season/spring"
         }
       ],
       "permanent": true   

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltariolu-1",
-      "pokemon": "riolu delta",
+      "pokemon": "riolu-delta",
       "presets": [
           "desert_pyramid"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "mythianriolu-1",
-      "pokemon": "riolu mythian",
+      "pokemon": "riolu-mythian",
       "presets": [
           "natural"
       ],
@@ -32,13 +32,13 @@
       "level": "12-28",
       "weight": 9.0,
       "condition": {
-"biomes": [ "#cobblemon:is_wasteland" ]
+"biomes": [ "#cobblemon:nether/is_wasteland" ]
       }
     }
 ,
     {
       "id": "mysticriolu-1",
-      "pokemon": "riolu mystic",
+      "pokemon": "riolu-mystic",
       "presets": [
           "natural"
       ],

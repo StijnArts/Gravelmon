@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:valialty",
+  "speciesId": "cobblemon:valialty",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

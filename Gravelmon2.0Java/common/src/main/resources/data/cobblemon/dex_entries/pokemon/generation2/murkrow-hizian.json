@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:murkrow-hizian",
+  "speciesId": "cobblemon:murkrow",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Hizian",
+      "unlockForms": [
+        "Hizian"
+      ]
+    }
+  ],
+  "variations": []
+}

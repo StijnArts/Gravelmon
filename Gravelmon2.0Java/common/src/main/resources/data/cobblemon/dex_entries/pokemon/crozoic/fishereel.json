@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:fishereel",
+  "speciesId": "cobblemon:fishereel",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

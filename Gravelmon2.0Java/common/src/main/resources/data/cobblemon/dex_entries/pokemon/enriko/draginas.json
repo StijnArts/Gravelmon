@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:draginas",
+  "speciesId": "cobblemon:draginas",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

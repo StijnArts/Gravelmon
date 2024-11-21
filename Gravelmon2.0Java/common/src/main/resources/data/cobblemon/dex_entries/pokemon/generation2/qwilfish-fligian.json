@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:qwilfish-fligian",
+  "speciesId": "cobblemon:qwilfish",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Fligian",
+      "unlockForms": [
+        "Fligian"
+      ]
+    }
+  ],
+  "variations": []
+}

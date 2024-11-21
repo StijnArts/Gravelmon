@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "eghochikorita-1",
-      "pokemon": "chikorita egho",
+      "pokemon": "chikorita-egho",
       "presets": [
           "natural"
       ],
@@ -26,7 +26,7 @@
 ,
     {
       "id": "ayreianchikorita-1",
-      "pokemon": "chikorita ayreian",
+      "pokemon": "chikorita-ayreian",
       "presets": [
           "natural"
       ],

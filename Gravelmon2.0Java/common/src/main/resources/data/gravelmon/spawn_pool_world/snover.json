@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "kaskadiansnover-1",
-      "pokemon": "snover kaskadian",
+      "pokemon": "snover-kaskadian",
       "presets": [
           "natural"
       ],
@@ -24,7 +24,7 @@
 ,
     {
       "id": "cefiransnover-1",
-      "pokemon": "snover cefiran",
+      "pokemon": "snover-cefiran",
       "presets": [
           "natural"
       ],

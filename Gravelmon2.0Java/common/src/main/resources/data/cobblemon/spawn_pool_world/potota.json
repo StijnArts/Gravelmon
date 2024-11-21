@@ -15,8 +15,8 @@
       "level": "17-33",
       "weight": 0.4,
       "condition": {
-"biomes": [ "#cobblemon:is_winter",
-"#cobblemon:is_autumn" ],
+"biomes": [ "#cobblemon:has_season/winter",
+"#cobblemon:has_season/autumn" ],
         "canSeeSky": true
       }
     }

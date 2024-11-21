@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "novrandruddigon-1",
-      "pokemon": "druddigon novran",
+      "pokemon": "druddigon-novran",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "hiziandruddigon-1",
-      "pokemon": "druddigon hizian",
+      "pokemon": "druddigon-hizian",
       "presets": [
           "natural"
       ],

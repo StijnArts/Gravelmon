@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:scyther-mythian",
+  "speciesId": "cobblemon:scyther",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Mythian",
+      "unlockForms": [
+        "Mythian"
+      ]
+    }
+  ],
+  "variations": []
+}

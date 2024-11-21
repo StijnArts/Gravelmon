@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "novrandubwool-1",
-      "pokemon": "dubwool novran",
+      "pokemon": "dubwool-novran",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "kaskadiandubwool-1",
-      "pokemon": "dubwool kaskadian",
+      "pokemon": "dubwool-kaskadian",
       "presets": [
           "natural"
       ],
@@ -33,7 +33,7 @@
       "weight": 1.0,
       "condition": {
 "biomes": [ "#cobblemon:is_volvanic",
-"#cobblemon:is_soul_fire" ],
+"#cobblemon:nether/is_soul_fire" ],
         "canSeeSky": true
       }
     }

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "scovilex-1",
-      "pokemon": "scovile x",
+      "pokemon": "scovile-x",
       "presets": [
           "natural"
       ],

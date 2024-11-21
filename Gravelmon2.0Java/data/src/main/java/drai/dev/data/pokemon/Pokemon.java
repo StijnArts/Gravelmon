@@ -111,7 +111,7 @@ public class Pokemon {
     private void addAdditionalForm(String originalPokemon, Pokemon pokemon) {
         var key = originalPokemon.toLowerCase();
         if (key.isBlank()) {
-            key = getClass().getSimpleName().toLowerCase().replaceAll(pokemon.getAdditionalAspect().getName().toLowerCase(), "");
+            key = getClass().getSimpleName().toLowerCase().replaceAll(pokemon.getAdditionalAspect().name().toLowerCase(), "");
         }
         var forms = ADDITIONAL_FORMS.computeIfAbsent(key, k -> new ArrayList<>());
         forms.add(pokemon);
@@ -246,7 +246,7 @@ public class Pokemon {
                     }
                     if (Pokemon.isAnAdditionalForm(pokemon)) {
                         var resultName = getKeysByValue(ADDITIONAL_FORMS, pokemon).stream().findFirst();
-                        resultName.ifPresent(s -> result.setPreEvolution(s + " form=" + pokemon.getAdditionalAspect().getName().toLowerCase()));
+                        resultName.ifPresent(s -> result.setPreEvolution(s + " form=" + pokemon.getAdditionalAspect().name().toLowerCase()));
                     } else {
                         result.setPreEvolution(pokemon.getCleanName());
                     }
@@ -281,7 +281,7 @@ public class Pokemon {
                         if (!isBasedOnOriginalPokemon(pokemon)) {
                             result.getLabels().add(Label.FAKEMON);
                         }
-                        String aspect = evolutionEntry.getAspects().stream().findFirst().isEmpty() ? "" : " form=" + evolutionEntry.getAspects().stream().findFirst().get().getName();
+                        String aspect = evolutionEntry.getAspects().stream().findFirst().isEmpty() ? "" : " form=" + evolutionEntry.getAspects().stream().findFirst().get().name();
                         result.setPreEvolution(pokemon.getCleanName() + aspect);
                     }
                 }
@@ -313,7 +313,7 @@ public class Pokemon {
                 if (result != null) {
                     if (isAnAdditionalForm(result)) {
                         var resultName = getKeysByValue(ADDITIONAL_FORMS, result).stream().findFirst();
-                        resultName.ifPresent(s -> evolutionEntry.setResult(s + " " + result.getAdditionalAspect().getName().toLowerCase()));
+                        resultName.ifPresent(s -> evolutionEntry.setResult(s + " " + result.getAdditionalAspect().name().toLowerCase()));
                     }
                 } else {
                     ADDITIONAL_PRE_EVOLUTIONS.put(evolutionEntry.getResult().toLowerCase(), pokemon.getCleanName());
@@ -329,7 +329,7 @@ public class Pokemon {
                     if (result != null) {
                         if (isAnAdditionalForm(result)) {
                             var resultName = getKeysByValue(ADDITIONAL_FORMS, result).stream().findFirst();
-                            resultName.ifPresent(s -> evolutionEntry.setResult(s + " " + result.getAdditionalAspect().getName().toLowerCase()));
+                            resultName.ifPresent(s -> evolutionEntry.setResult(s + " " + result.getAdditionalAspect().name().toLowerCase()));
                         }
                     }
                 }
@@ -375,7 +375,7 @@ public class Pokemon {
 
                     if (Pokemon.isAnAdditionalForm(pokemon)) {
                         var resultName = getKeysByValue(ADDITIONAL_FORMS, pokemon).stream().findFirst();
-                        resultName.ifPresent(s -> result.setPreEvolution(s + " form=" + pokemon.getAdditionalAspect().getName().toLowerCase()));
+                        resultName.ifPresent(s -> result.setPreEvolution(s + " form=" + pokemon.getAdditionalAspect().name().toLowerCase()));
                     } else {
                         result.setPreEvolution(pokemon.getCleanName());
                     }

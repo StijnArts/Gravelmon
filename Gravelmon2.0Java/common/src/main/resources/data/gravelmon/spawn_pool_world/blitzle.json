@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "seviianblitzle-1",
-      "pokemon": "blitzle seviian",
+      "pokemon": "blitzle-seviian",
       "presets": [
           "natural"
       ],

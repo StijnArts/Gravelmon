@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:dispariot",
+  "speciesId": "cobblemon:dispariot",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

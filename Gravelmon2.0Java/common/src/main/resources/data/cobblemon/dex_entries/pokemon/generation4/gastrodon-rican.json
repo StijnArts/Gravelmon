@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gastrodon-rican",
+  "speciesId": "cobblemon:gastrodon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Rican",
+      "unlockForms": [
+        "Rican"
+      ]
+    }
+  ],
+  "variations": []
+}

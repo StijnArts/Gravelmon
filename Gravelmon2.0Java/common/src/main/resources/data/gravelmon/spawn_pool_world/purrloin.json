@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltapurrloin-1",
-      "pokemon": "purrloin delta",
+      "pokemon": "purrloin-delta",
       "presets": [
           "natural"
       ],

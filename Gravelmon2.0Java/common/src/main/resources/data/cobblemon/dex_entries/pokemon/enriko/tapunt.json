@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tapunt",
+  "speciesId": "cobblemon:tapunt",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

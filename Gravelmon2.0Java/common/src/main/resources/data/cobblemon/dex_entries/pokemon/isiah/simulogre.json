@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:simulogre",
+  "speciesId": "cobblemon:simulogre",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

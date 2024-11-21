@@ -1,6 +1,6 @@
 {
   "implemented": true,
-  "name": "oreon",
+  "name": "Oreon",
   "nationalPokedexNumber": 3745,
   "primaryType": "poison",
   "abilities": [
@@ -57,7 +57,7 @@
     ]
   },
   "moves": [
-    "1:cookie_cut",
+    "1:cookiecut",
     "5:milkdrink",
     "14:lick",
     "22:acid",

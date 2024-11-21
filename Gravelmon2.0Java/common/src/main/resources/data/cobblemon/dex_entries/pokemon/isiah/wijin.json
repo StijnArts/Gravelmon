@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:wijin",
+  "speciesId": "cobblemon:wijin",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:metagross",
+  "forms": [
+    {
+      "displayForm": "Deltaspider",
+      "unlockForms": [
+        "Deltaspider"
+      ]
+    },
+    {
+      "displayForm": "Deltaruin",
+      "unlockForms": [
+        "Deltaruin"
+      ]
+    }
+  ]
+}

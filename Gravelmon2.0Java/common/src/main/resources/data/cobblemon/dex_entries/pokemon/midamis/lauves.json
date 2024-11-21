@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lauves",
+  "speciesId": "cobblemon:lauves",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

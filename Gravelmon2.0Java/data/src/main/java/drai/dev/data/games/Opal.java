@@ -1,7 +1,6 @@
 package drai.dev.data.games;
 
 import drai.dev.data.games.registry.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.opalo.*;
 
 public class Opal extends Game {
@@ -11,27 +10,27 @@ public class Opal extends Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new Snampery());
-        pokemon.add(new Descargot());
-        pokemon.add(new Gastesla());
-        pokemon.add(new Flasinge());
-        pokemon.add(new Shaboon());
-        pokemon.add(new Lunaye());
-        pokemon.add(new Swolphin());
-        pokemon.add(new Norspear());
-        pokemon.add(new Narvalor());
-        pokemon.add(new Cefireon());
+        addNewPokemon(new Snampery());
+        addNewPokemon(new Descargot());
+        addNewPokemon(new Gastesla());
+        addNewPokemon(new Flasinge());
+        addNewPokemon(new Shaboon());
+        addNewPokemon(new Lunaye());
+        addNewPokemon(new Swolphin());
+        addNewPokemon(new Norspear());
+        addNewPokemon(new Narvalor());
+        addNewPokemon(new Cefireon());
 
-        pokemon.add(new Polekin());
-        pokemon.add(new Fungorse());
-        pokemon.add(new Cervantrier());
-        pokemon.add(new Lugnis());
-        pokemon.add(new Luravit());
-        pokemon.add(new Luxpiravit());
-        pokemon.add(new Quisquite());
-        pokemon.add(new Gambarrel());
-        pokemon.add(new Bogaleon());
-        pokemon.add(new Astrem());
-        pokemon.add(new Unktena());
+        addNewPokemon(new Polekin());
+        addNewPokemon(new Fungorse());
+        addNewPokemon(new Cervantrier());
+        addNewPokemon(new Lugnis());
+        addNewPokemon(new Luravit());
+        addNewPokemon(new Luxpiravit());
+        addNewPokemon(new Quisquite());
+        addNewPokemon(new Gambarrel());
+        addNewPokemon(new Bogaleon());
+        addNewPokemon(new Astrem());
+        addNewPokemon(new Unktena());
     }
 }

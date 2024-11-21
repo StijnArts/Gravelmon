@@ -1,0 +1,32 @@
+{
+  "type": "cobblemon:simple_pokedex_def",
+  "sortOrder": 58,
+  "id": "gravelmon:cyare",
+  "entries": [
+    "cobblemon:scurley",
+    "cobblemon:burramble",
+    "cobblemon:bramboom",
+    "cobblemon:lamber",
+    "cobblemon:volpaca",
+    "cobblemon:sheruption",
+    "cobblemon:quetzap",
+    "cobblemon:shockatoo",
+    "cobblemon:kotukoatl",
+    "cobblemon:snoosect",
+    "cobblemon:lumibuzz",
+    "cobblemon:orukul",
+    "cobblemon:tinguano",
+    "cobblemon:donguano",
+    "cobblemon:conium",
+    "cobblemon:conchorn",
+    "cobblemon:cocopow",
+    "cobblemon:crebb",
+    "cobblemon:crustocean",
+    "cobblemon:impie",
+    "cobblemon:impulso",
+    "cobblemon:impers",
+    "cobblemon:imploda",
+    "cobblemon:impac",
+    "cobblemon:imprism"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:chainsnail",
+  "speciesId": "cobblemon:chainsnail",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:armanzer",
+  "speciesId": "cobblemon:armanzer",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

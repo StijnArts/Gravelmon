@@ -1,7 +1,6 @@
 package drai.dev.data.games;
 
 import drai.dev.data.games.registry.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.eternalforest.*;
 
 public class EternalForest extends Game {
@@ -11,30 +10,30 @@ public class EternalForest extends Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new Smettle());
-        pokemon.add(new Smyucca());
-        pokemon.add(new Demonagave());
-        pokemon.add(new Pachyball());
-        pokemon.add(new Pachyndou());
-        pokemon.add(new Pachyvory());
-        pokemon.add(new Squini());
-        pokemon.add(new Squinja());
-        pokemon.add(new Squartial());
-        pokemon.add(new Wormini());
-        pokemon.add(new Wormeel());
-        pokemon.add(new Malarva());
-        pokemon.add(new Mosdeng());
-        pokemon.add(new Mosboom());
-        pokemon.add(new Antager());
-        pokemon.add(new Antoldier());
-        pokemon.add(new Hamerry());
-        pokemon.add(new Hamysos());
-        pokemon.add(new Goatanaa());
-        pokemon.add(new Goaturly());
-        pokemon.add(new Pomara());
-        pokemon.add(new Dashean());
-        pokemon.add(new Boonny());
-        pokemon.add(new Rabball());
-        pokemon.add(new Lagorite());
+        addNewPokemon(new Smettle());
+        addNewPokemon(new Smyucca());
+        addNewPokemon(new Demonagave());
+        addNewPokemon(new Pachyball());
+        addNewPokemon(new Pachyndou());
+        addNewPokemon(new Pachyvory());
+        addNewPokemon(new Squini());
+        addNewPokemon(new Squinja());
+        addNewPokemon(new Squartial());
+        addNewPokemon(new Wormini());
+        addNewPokemon(new Wormeel());
+        addNewPokemon(new Malarva());
+        addNewPokemon(new Mosdeng());
+        addNewPokemon(new Mosboom());
+        addNewPokemon(new Antager());
+        addNewPokemon(new Antoldier());
+        addNewPokemon(new Hamerry());
+        addNewPokemon(new Hamysos());
+        addNewPokemon(new Goatanaa());
+        addNewPokemon(new Goaturly());
+        addNewPokemon(new Pomara());
+        addNewPokemon(new Dashean());
+        addNewPokemon(new Boonny());
+        addNewPokemon(new Rabball());
+        addNewPokemon(new Lagorite());
     }
 }

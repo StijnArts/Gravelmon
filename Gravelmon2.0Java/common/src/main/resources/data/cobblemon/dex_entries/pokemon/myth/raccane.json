@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:raccane",
+  "speciesId": "cobblemon:raccane",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

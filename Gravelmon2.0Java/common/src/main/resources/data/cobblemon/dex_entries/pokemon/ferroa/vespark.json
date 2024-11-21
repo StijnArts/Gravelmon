@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:vespark",
+  "speciesId": "cobblemon:vespark",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

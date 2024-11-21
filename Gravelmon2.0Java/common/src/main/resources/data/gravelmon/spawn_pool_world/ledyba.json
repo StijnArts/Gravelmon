@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "relicledyba-1",
-      "pokemon": "ledyba relic",
+      "pokemon": "ledyba-relic",
       "presets": [
           "natural"
       ],

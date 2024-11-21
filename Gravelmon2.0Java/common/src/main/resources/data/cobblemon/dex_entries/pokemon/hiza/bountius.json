@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:bountius",
+  "speciesId": "cobblemon:bountius",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

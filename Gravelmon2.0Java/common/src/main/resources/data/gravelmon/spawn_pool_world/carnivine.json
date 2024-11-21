@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "seviiancarnivine-1",
-      "pokemon": "carnivine seviian",
+      "pokemon": "carnivine-seviian",
       "presets": [
           "natural"
       ],

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:teayrant",
+  "speciesId": "cobblemon:teayrant",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:spiroll",
+  "speciesId": "cobblemon:spiroll",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:veilvid",
+  "speciesId": "cobblemon:veilvid",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

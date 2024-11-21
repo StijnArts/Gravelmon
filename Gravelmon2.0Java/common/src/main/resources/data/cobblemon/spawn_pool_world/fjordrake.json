@@ -20,7 +20,7 @@
       },
       "anticondition": {
 "biomes": [ "#cobblemon:is_beach",
-"#cobblemon:is_summer" ]    }
+"#cobblemon:has_season/summer" ]    }
     }
   ]
 }

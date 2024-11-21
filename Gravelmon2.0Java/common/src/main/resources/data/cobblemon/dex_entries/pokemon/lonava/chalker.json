@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:chalker",
+  "speciesId": "cobblemon:chalker",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

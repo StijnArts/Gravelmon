@@ -42,14 +42,14 @@ public class GravelmonBlocks {
         return BLOCKS.register(name, () -> new GravelmonApricornSaplingBlock(PLANT_PROPERTIES, apricorn));
     }
     public static  RegistrySupplier<Block> evolutionStoneOre(String name){
-        return BLOCKS.register(name, () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE), UniformInt.of(1, 2)));
+        return BLOCKS.register(name, () -> new DropExperienceBlock(UniformInt.of(1, 2), BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_ORE)));
     }
 
     public static void touch(){
         GravelmonFossilItems.touch();
     }
     public static  RegistrySupplier<Block> deepslateEvolutionStoneOre(String name){
-        return BLOCKS.register(name, () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_IRON_ORE), UniformInt.of(1, 2)));
+        return BLOCKS.register(name, () -> new DropExperienceBlock(UniformInt.of(1, 2), BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE_IRON_ORE)));
     }
 
     private static BlockBehaviour.Properties PLANT_PROPERTIES = BlockBehaviour.Properties.of().mapColor(MapColor.PLANT)

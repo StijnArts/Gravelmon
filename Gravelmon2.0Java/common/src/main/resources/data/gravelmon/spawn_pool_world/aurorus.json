@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltaaurorus-1",
-      "pokemon": "aurorus delta",
+      "pokemon": "aurorus-delta",
       "presets": [
           "reef"
       ],

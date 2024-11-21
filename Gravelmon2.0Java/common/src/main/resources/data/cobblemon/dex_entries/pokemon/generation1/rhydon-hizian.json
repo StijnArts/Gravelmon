@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:rhydon-hizian",
+  "speciesId": "cobblemon:rhydon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Hizian",
+      "unlockForms": [
+        "Hizian"
+      ]
+    }
+  ],
+  "variations": []
+}

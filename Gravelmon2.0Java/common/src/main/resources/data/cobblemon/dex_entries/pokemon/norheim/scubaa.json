@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:scubaa",
+  "speciesId": "cobblemon:scubaa",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

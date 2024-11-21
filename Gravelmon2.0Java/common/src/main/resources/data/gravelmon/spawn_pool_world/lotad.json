@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "egholotad-1",
-      "pokemon": "lotad egho",
+      "pokemon": "lotad-egho",
       "presets": [
           "natural"
       ],
@@ -15,13 +15,13 @@
       "level": "3-22",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ]
+"biomes": [ "#cobblemon:nether/is_forest" ]
       }
     }
 ,
     {
       "id": "deltalotad-1",
-      "pokemon": "lotad delta",
+      "pokemon": "lotad-delta",
       "presets": [
           "natural"
       ],

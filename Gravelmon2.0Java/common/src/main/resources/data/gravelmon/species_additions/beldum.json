@@ -40,7 +40,6 @@
     }
   },
   "catchRate": 3,
-  "maleRatio": -1.0,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "slow",
@@ -68,9 +67,9 @@
   ],
   "evolutions": [
     {
-      "id": "beldum_metang_deltaspider",
+      "id": "beldum_metang_delta_spider",
       "variant": "level_up",
-      "result": "metang deltaspider",
+      "result": "metang delta_spider",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -141,7 +140,6 @@
     }
   },
   "catchRate": 3,
-  "maleRatio": -1.0,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "slow",
@@ -162,9 +160,9 @@
   ],
   "evolutions": [
     {
-      "id": "beldum_metang_deltaruin",
+      "id": "beldum_metang_delta_ruin",
       "variant": "level_up",
-      "result": "metang deltaruin",
+      "result": "metang delta_ruin",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltashinx-1",
-      "pokemon": "shinx delta",
+      "pokemon": "shinx-delta",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "ayreianshinx-1",
-      "pokemon": "shinx ayreian",
+      "pokemon": "shinx-ayreian",
       "presets": [
           "natural"
       ],
@@ -39,7 +39,7 @@
 ,
     {
       "id": "kaskadianshinx-1",
-      "pokemon": "shinx kaskadian",
+      "pokemon": "shinx-kaskadian",
       "presets": [
           "natural"
       ],

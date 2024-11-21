@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "ayreianthwackey-1",
-      "pokemon": "thwackey ayreian",
+      "pokemon": "thwackey-ayreian",
       "presets": [
           "natural"
       ],
@@ -15,7 +15,7 @@
       "level": "16-29",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ]
+"biomes": [ "#cobblemon:nether/is_forest" ]
       }
     }
 

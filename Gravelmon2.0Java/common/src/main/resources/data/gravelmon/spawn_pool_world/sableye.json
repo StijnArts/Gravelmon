@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "enjinniansableye-1",
-      "pokemon": "sableye enjinnian",
+      "pokemon": "sableye-enjinnian",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "deltasableye-1",
-      "pokemon": "sableye delta",
+      "pokemon": "sableye-delta",
       "presets": [
           "natural"
       ],
@@ -32,14 +32,14 @@
       "level": "15-48",
       "weight": 3.2,
       "condition": {
-"biomes": [ "#cobblemon:is_basalt",
-"#cobblemon:is_desert" ]
+"biomes": [ "#cobblemon:nether/is_basalt",
+"#cobblemon:nether/is_desert" ]
       }
     }
 ,
     {
       "id": "cefiransableye-1",
-      "pokemon": "sableye cefiran",
+      "pokemon": "sableye-cefiran",
       "presets": [
           "natural"
       ],

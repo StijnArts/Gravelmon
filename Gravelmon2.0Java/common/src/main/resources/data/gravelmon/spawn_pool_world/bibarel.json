@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "kaskadianbibarel-1",
-      "pokemon": "bibarel kaskadian",
+      "pokemon": "bibarel-kaskadian",
       "presets": [
           "natural"
       ],

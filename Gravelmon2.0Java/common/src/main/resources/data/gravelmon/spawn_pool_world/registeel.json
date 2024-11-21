@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltaregisteel-1",
-      "pokemon": "registeel delta",
+      "pokemon": "registeel-delta",
       "presets": [
           "lava_surface"
       ],
@@ -15,7 +15,7 @@
       "level": "69-80",
       "weight": 3.0E-5,
       "condition": {
-"biomes": [ "#cobblemon:is_wasteland" ]
+"biomes": [ "#cobblemon:nether/is_wasteland" ]
       }
     }
 

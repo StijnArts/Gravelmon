@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:draybale",
+  "speciesId": "cobblemon:draybale",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

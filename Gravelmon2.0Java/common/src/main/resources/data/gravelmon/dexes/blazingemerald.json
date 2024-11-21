@@ -1,0 +1,21 @@
+{
+  "type": "cobblemon:simple_pokedex_def",
+  "sortOrder": 41,
+  "id": "gravelmon:blazingemerald",
+  "entries": [
+    "cobblemon:oreon",
+    "cobblemon:muramoth",
+    "cobblemon:lucemoth",
+    "cobblemon:drilladin",
+    "cobblemon:drasparath",
+    "cobblemon:mallarki",
+    "cobblemon:silviper",
+    "cobblemon:zangoro",
+    "cobblemon:goolossal",
+    "cobblemon:chrysalix",
+    "cobblemon:slingray",
+    "cobblemon:bawlfrog",
+    "cobblemon:vitellion",
+    "cobblemon:metunn"
+  ]
+}

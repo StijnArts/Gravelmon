@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "aristosianfurret-1",
-      "pokemon": "furret aristosian",
+      "pokemon": "furret-aristosian",
       "presets": [
           "natural"
       ],
@@ -20,7 +20,7 @@
         "canSeeSky": true
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_winter" ]    }
+"biomes": [ "#cobblemon:has_season/winter" ]    }
     }
 
 ]

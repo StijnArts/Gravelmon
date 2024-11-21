@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:hotroach",
+  "speciesId": "cobblemon:hotroach",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

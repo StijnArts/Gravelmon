@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "norheimanelectrode-1",
-      "pokemon": "electrode norheiman",
+      "pokemon": "electrode-norheiman",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "ayreianelectrode-1",
-      "pokemon": "electrode ayreian",
+      "pokemon": "electrode-ayreian",
       "presets": [
           "natural"
       ],
@@ -32,13 +32,13 @@
       "level": "31-54",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_basalt" ]
+"biomes": [ "#cobblemon:nether/is_basalt" ]
       }
     }
 ,
     {
       "id": "mysticelectrode-1",
-      "pokemon": "electrode mystic",
+      "pokemon": "electrode-mystic",
       "presets": [
           "natural"
       ],

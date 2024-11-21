@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:meowth-cefiran_electric",
+  "speciesId": "cobblemon:meowth",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Cefiranelectric",
+      "unlockForms": [
+        "Cefiranelectric"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:nidoranm-alteran_summer_coat",
+  "speciesId": "cobblemon:nidoranm",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Alteransummercoat",
+      "unlockForms": [
+        "Alteransummercoat"
+      ]
+    }
+  ],
+  "variations": []
+}

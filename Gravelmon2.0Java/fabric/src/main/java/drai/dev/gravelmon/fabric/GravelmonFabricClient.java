@@ -29,13 +29,6 @@ public class GravelmonFabricClient implements ClientModInitializer {
             var stackDescription = stack.getItem().getDescriptionId();
             var descriptionsForGravelmonBalls = GravelmonItems.POKE_BALLS.stream().flatMap(item->Stream.of(item.get().getDescriptionId())).toList();
             if (descriptionsForGravelmonBalls.contains(stackDescription)) {
-
-
-                if(stack.getTag() != null){
-                    if (!stack.getTag().getBoolean(DataKeys.HIDE_TOOLTIP)) {
-                        return Unit.INSTANCE;
-                    }
-                }
                 if(stackDescription.contains("nuzlocke")){
                     var language = Language.getInstance();
                     var key1 = this.baseLangKeyForItem(stack)+1;

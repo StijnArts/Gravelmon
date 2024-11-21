@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "novranlapras-1",
-      "pokemon": "lapras novran",
+      "pokemon": "lapras-novran",
       "presets": [
           "natural"
       ],
@@ -23,7 +23,7 @@
 ,
     {
       "id": "mythianlapras-1",
-      "pokemon": "lapras mythian",
+      "pokemon": "lapras-mythian",
       "presets": [
           "natural"
       ],
@@ -43,7 +43,7 @@
 ,
     {
       "id": "kaskadianlapras-1",
-      "pokemon": "lapras kaskadian",
+      "pokemon": "lapras-kaskadian",
       "presets": [
           "natural"
       ],

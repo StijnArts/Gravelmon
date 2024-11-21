@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltascizor-1",
-      "pokemon": "scizor delta",
+      "pokemon": "scizor-delta",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "mythianscizor-1",
-      "pokemon": "scizor mythian",
+      "pokemon": "scizor-mythian",
       "presets": [
           "natural"
       ],

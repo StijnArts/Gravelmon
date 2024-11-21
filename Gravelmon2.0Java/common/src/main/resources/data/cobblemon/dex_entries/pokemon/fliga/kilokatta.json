@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:kilokatta",
+  "speciesId": "cobblemon:kilokatta",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

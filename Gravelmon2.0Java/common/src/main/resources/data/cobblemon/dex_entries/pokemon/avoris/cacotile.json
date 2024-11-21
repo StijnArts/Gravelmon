@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:cacotile",
+  "speciesId": "cobblemon:cacotile",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

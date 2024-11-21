@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "avorianroselia-1",
-      "pokemon": "roselia avorian",
+      "pokemon": "roselia-avorian",
       "presets": [
           "natural"
       ],
@@ -15,13 +15,13 @@
       "level": "29-40",
       "weight": 0.9,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ]
+"biomes": [ "#cobblemon:nether/is_forest" ]
       }
     }
 ,
     {
       "id": "deltaroselia-1",
-      "pokemon": "roselia delta",
+      "pokemon": "roselia-delta",
       "presets": [
           "natural"
       ],
@@ -37,7 +37,7 @@
 ,
     {
       "id": "roseliax-1",
-      "pokemon": "roselia x",
+      "pokemon": "roselia-x",
       "presets": [
           "natural"
       ],
@@ -53,7 +53,7 @@
 ,
     {
       "id": "ayreianroselia-1",
-      "pokemon": "roselia ayreian",
+      "pokemon": "roselia-ayreian",
       "presets": [
           "natural"
       ],
@@ -70,7 +70,7 @@
 ,
     {
       "id": "relicroselia-1",
-      "pokemon": "roselia relic",
+      "pokemon": "roselia-relic",
       "presets": [
           "natural"
       ],

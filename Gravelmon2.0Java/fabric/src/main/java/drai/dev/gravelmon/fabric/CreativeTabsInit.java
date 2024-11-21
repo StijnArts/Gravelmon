@@ -144,7 +144,7 @@ public class CreativeTabsInit {
             entries.accept(GravelmonItems.HAFLI_BERRY.get().asItem().getDefaultInstance());
         });
 
-        ItemGroupEvents.modifyEntriesEvent(CobblemonItemGroups.getPOKEBALLS_KEY()).register(entries -> {
+        ItemGroupEvents.modifyEntriesEvent(CobblemonItemGroups.getUTILITY_ITEMS_KEY()).register(entries -> {
             entries.addAfter(CobblemonItems.CITRINE_BALL.asItem().getDefaultInstance(),
                     GravelmonItems.MAUVE_BALL.get().asItem().getDefaultInstance());
             entries.addAfter(CobblemonItems.CITRINE_BALL.asItem().getDefaultInstance(),
@@ -221,7 +221,7 @@ public class CreativeTabsInit {
         ItemGroupEvents.modifyEntriesEvent(CobblemonItemGroups.getARCHAEOLOGY_KEY()).register(entries -> {
             Consumer<ItemStack> fossilConsumer = (fossil)-> entries.addAfter(CobblemonItems.FOSSILIZED_DINO, fossil);
             Gravelmon.FOSSIL_MAP.forEach((key, value) -> {
-                var fossil = Fossils.INSTANCE.getByIdentifier(new ResourceLocation("cobblemon", value.split(" ")[0]));
+                var fossil = Fossils.INSTANCE.getByIdentifier(ResourceLocation.fromNamespaceAndPath("cobblemon", value.split(" ")[0]));
                 if(fossil == null) return;
                 if(SpeciesManager.containsBannedLabels(fossil.getResult().getSpecies(), fossil.getResult().getForm())) return;
                 fossilConsumer.accept(FOSSIL_ITEM_MAP.get(key).get().getDefaultInstance());

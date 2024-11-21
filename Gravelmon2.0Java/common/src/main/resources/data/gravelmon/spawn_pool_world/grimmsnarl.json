@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "novrangrimmsnarl-1",
-      "pokemon": "grimmsnarl novran",
+      "pokemon": "grimmsnarl-novran",
       "presets": [
           "natural"
       ],

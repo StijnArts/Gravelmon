@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "havaiiangastly-1",
-      "pokemon": "gastly havaiian",
+      "pokemon": "gastly-havaiian",
       "presets": [
           "natural"
       ],
@@ -16,13 +16,13 @@
       "weight": 5.4,
       "condition": {
 "biomes": [ "#cobblemon:is_volvanic",
-"#cobblemon:is_soul_fire" ]
+"#cobblemon:nether/is_soul_fire" ]
       }
     }
 ,
     {
       "id": "gastlyx-1",
-      "pokemon": "gastly x",
+      "pokemon": "gastly-x",
       "presets": [
           "natural"
       ],
@@ -38,7 +38,7 @@
 ,
     {
       "id": "ayreiangastly-1",
-      "pokemon": "gastly ayreian",
+      "pokemon": "gastly-ayreian",
       "presets": [
           "natural"
       ],
@@ -48,14 +48,14 @@
       "level": "12-22",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_wasteland" ],
+"biomes": [ "#cobblemon:nether/is_wasteland" ],
         "isRaining": true
       }
     }
 ,
     {
       "id": "kaskadiangastly-1",
-      "pokemon": "gastly kaskadian",
+      "pokemon": "gastly-kaskadian",
       "presets": [
           "natural"
       ],

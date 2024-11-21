@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "ayreianrillaboom-1",
-      "pokemon": "rillaboom ayreian",
+      "pokemon": "rillaboom-ayreian",
       "presets": [
           "natural"
       ],
@@ -15,7 +15,7 @@
       "level": "36-47",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ]
+"biomes": [ "#cobblemon:nether/is_forest" ]
       }
     }
 

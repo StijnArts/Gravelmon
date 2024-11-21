@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltasnorunt-1",
-      "pokemon": "snorunt delta",
+      "pokemon": "snorunt-delta",
       "presets": [
           "natural"
       ],
@@ -15,15 +15,15 @@
       "level": "15-41",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_fungus",
-"#cobblemon:is_mountain",
-"#cobblemon:is_desert" ]
+"biomes": [ "#cobblemon:nether/is_fungus",
+"#cobblemon:nether/is_mountain",
+"#cobblemon:nether/is_desert" ]
       }
     }
 ,
     {
       "id": "cefiransnorunt-1",
-      "pokemon": "snorunt cefiran",
+      "pokemon": "snorunt-cefiran",
       "presets": [
           "natural"
       ],

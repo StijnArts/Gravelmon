@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "seviiannymble-1",
-      "pokemon": "nymble seviian",
+      "pokemon": "nymble-seviian",
       "presets": [
           "natural"
       ],

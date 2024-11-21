@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "hoennianregigigas-1",
-      "pokemon": "regigigas hoennian",
+      "pokemon": "regigigas-hoennian",
       "presets": [
           "village"
       ],

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "kaskadiandiggersby-1",
-      "pokemon": "diggersby kaskadian",
+      "pokemon": "diggersby-kaskadian",
       "presets": [
           "natural"
       ],

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:faipan",
+  "speciesId": "cobblemon:faipan",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

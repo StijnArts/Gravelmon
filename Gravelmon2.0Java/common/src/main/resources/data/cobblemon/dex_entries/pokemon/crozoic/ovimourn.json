@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ovimourn",
+  "speciesId": "cobblemon:ovimourn",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

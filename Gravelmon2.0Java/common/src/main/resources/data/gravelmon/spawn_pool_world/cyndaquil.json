@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "eghocyndaquil-1",
-      "pokemon": "cyndaquil egho",
+      "pokemon": "cyndaquil-egho",
       "presets": [
           "natural"
       ],
@@ -25,7 +25,7 @@
 ,
     {
       "id": "deltacyndaquil-1",
-      "pokemon": "cyndaquil delta",
+      "pokemon": "cyndaquil-delta",
       "presets": [
           "natural"
       ],
@@ -42,7 +42,7 @@
 ,
     {
       "id": "ayreiancyndaquil-1",
-      "pokemon": "cyndaquil ayreian",
+      "pokemon": "cyndaquil-ayreian",
       "presets": [
           "natural"
       ],

@@ -4,42 +4,8 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltaberrydwebble-1",
-      "pokemon": "dwebble delta_berry",
-      "presets": [
-          "near_berry_bush"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "12-32",
-      "weight": 8.0,
-      "condition": {
-"biomes": [ "#cobblemon:is_overworld" ],
-        "canSeeSky": true
-      }
-    }
-,
-    {
-      "id": "deltacakedwebble-1",
-      "pokemon": "dwebble delta_cake",
-      "presets": [
-          "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "12-33",
-      "weight": 7.8,
-      "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
-        "canSeeSky": true
-      }
-    }
-,
-    {
       "id": "ayreiandwebble-1",
-      "pokemon": "dwebble ayreian",
+      "pokemon": "dwebble-ayreian",
       "presets": [
           "reef"
       ],

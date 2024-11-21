@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "mysticbewear-1",
-      "pokemon": "bewear mystic",
+      "pokemon": "bewear-mystic",
       "presets": [
           "natural"
       ],

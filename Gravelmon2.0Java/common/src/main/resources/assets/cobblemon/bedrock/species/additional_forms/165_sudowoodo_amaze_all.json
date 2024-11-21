@@ -1,0 +1,63 @@
+{
+  "species": "cobblemon:sudowoodo",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": [
+        "amaze_all"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_amazeallsudowoodo",
+      "texture": "cobblemon:textures/pokemon/generation2/amazeallsudowoodo.png",
+      "layers": [
+        {
+          "name": "glow"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "tail"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "amaze_all",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_amazeallsudowoodo",
+      "texture": "cobblemon:textures/pokemon/generation2/amazeallsudowoodo_shiny.png",
+      "layers": [
+        {
+          "name": "glow"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "tail"
+        }
+      ]
+    }
+  ]
+}

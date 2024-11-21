@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:magmead",
+  "speciesId": "cobblemon:magmead",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

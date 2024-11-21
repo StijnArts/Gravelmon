@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "qamoranweezing-1",
-      "pokemon": "weezing qamoran",
+      "pokemon": "weezing-qamoran",
       "presets": [
           "near_magma",
           "underwater"
@@ -24,7 +24,7 @@
 ,
     {
       "id": "deltaweezing-1",
-      "pokemon": "weezing delta",
+      "pokemon": "weezing-delta",
       "presets": [
           "natural"
       ],
@@ -41,7 +41,7 @@
 ,
     {
       "id": "relicweezing-1",
-      "pokemon": "weezing relic",
+      "pokemon": "weezing-relic",
       "presets": [
           "near_lava"
       ],
@@ -53,7 +53,7 @@
       "condition": {
 "biomes": [ "#cobblemon:is_mountain",
 "#cobblemon:is_volvanic",
-"#cobblemon:is_wasteland" ]
+"#cobblemon:nether/is_wasteland" ]
       }
     }
 

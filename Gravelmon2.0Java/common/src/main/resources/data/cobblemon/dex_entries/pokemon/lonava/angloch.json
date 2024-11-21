@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:angloch",
+  "speciesId": "cobblemon:angloch",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

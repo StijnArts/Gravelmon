@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:draborate",
+  "speciesId": "cobblemon:draborate",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

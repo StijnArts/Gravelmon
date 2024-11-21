@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltadarmanitan-1",
-      "pokemon": "darmanitan delta",
+      "pokemon": "darmanitan-delta",
       "presets": [
           "natural"
       ],

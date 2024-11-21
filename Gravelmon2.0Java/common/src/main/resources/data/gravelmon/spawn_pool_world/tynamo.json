@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "varitasiantynamo-1",
-      "pokemon": "tynamo varitasian",
+      "pokemon": "tynamo-varitasian",
       "presets": [
           "natural",
           "near_water"
@@ -23,7 +23,7 @@
 ,
     {
       "id": "hoenniantynamo-1",
-      "pokemon": "tynamo hoennian",
+      "pokemon": "tynamo-hoennian",
       "presets": [
           "natural"
       ],

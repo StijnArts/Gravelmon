@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltadrifblim-1",
-      "pokemon": "drifblim delta",
+      "pokemon": "drifblim-delta",
       "presets": [
           "natural"
       ],
@@ -24,7 +24,7 @@
 ,
     {
       "id": "ayreiandrifblim-1",
-      "pokemon": "drifblim ayreian",
+      "pokemon": "drifblim-ayreian",
       "presets": [
           "natural"
       ],
@@ -38,22 +38,6 @@
         "canSeeSky": true,
         "timeRange": "night",
         "isRaining": false
-      }
-    }
-,
-    {
-      "id": "amazealldrifblim-1",
-      "pokemon": "drifblim amaze_all",
-      "presets": [
-          "village"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "28-48",
-      "weight": 1.6,
-      "condition": {
-"biomes": [ "#cobblemon:is_temperate" ]
       }
     }
 

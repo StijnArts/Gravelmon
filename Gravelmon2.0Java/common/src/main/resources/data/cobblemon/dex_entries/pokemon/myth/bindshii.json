@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:bindshii",
+  "speciesId": "cobblemon:bindshii",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

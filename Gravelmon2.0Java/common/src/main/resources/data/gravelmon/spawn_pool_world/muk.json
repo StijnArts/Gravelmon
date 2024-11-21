@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "novranmuk-1",
-      "pokemon": "muk novran",
+      "pokemon": "muk-novran",
       "presets": [
           "natural"
       ],
@@ -23,7 +23,7 @@
 ,
     {
       "id": "eghomuk-1",
-      "pokemon": "muk egho",
+      "pokemon": "muk-egho",
       "presets": [
           "natural"
       ],
@@ -33,15 +33,15 @@
       "level": "38-44",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_basalt",
-"#cobblemon:is_soul_sand",
-"#cobblemon:is_toxic" ]
+"biomes": [ "#cobblemon:nether/is_basalt",
+"#cobblemon:nether/is_soul_sand",
+"#cobblemon:nether/is_toxic" ]
       }
     }
 ,
     {
       "id": "deltamuk-1",
-      "pokemon": "muk delta",
+      "pokemon": "muk-delta",
       "presets": [
           "natural"
       ],
@@ -59,7 +59,7 @@
 ,
     {
       "id": "ayreianmuk-1",
-      "pokemon": "muk ayreian",
+      "pokemon": "muk-ayreian",
       "presets": [
           "village"
       ],

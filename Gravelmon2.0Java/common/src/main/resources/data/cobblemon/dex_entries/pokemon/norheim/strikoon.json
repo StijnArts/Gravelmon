@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:strikoon",
+  "speciesId": "cobblemon:strikoon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

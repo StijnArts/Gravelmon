@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:taprint",
+  "speciesId": "cobblemon:taprint",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

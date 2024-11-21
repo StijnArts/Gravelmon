@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltadoduo-1",
-      "pokemon": "doduo delta",
+      "pokemon": "doduo-delta",
       "presets": [
           "natural"
       ],
@@ -21,7 +21,7 @@
 ,
     {
       "id": "seviiandoduo-1",
-      "pokemon": "doduo seviian",
+      "pokemon": "doduo-seviian",
       "presets": [
           "natural"
       ],

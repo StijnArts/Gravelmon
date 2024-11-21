@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "swirlixx-1",
-      "pokemon": "swirlix x",
+      "pokemon": "swirlix-x",
       "presets": [
           "natural"
       ],

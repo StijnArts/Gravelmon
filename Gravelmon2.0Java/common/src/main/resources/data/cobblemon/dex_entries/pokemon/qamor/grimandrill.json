@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:grimandrill",
+  "speciesId": "cobblemon:grimandrill",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

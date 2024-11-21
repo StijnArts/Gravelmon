@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "alterannidoranwintercoat-1",
-      "pokemon": "nidoranf alteran_winter_coat",
+      "pokemon": "nidoranf-alteran_winter_coat",
       "presets": [
           "natural"
       ],

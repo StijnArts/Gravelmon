@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "eldiwanmeowth-1",
-      "pokemon": "meowth eldiwan",
+      "pokemon": "meowth-eldiwan",
       "presets": [
           "natural"
       ],
@@ -23,7 +23,7 @@
 ,
     {
       "id": "cefiranmeowthfire-1",
-      "pokemon": "meowth cefiran_fire",
+      "pokemon": "meowth-cefiran_fire",
       "presets": [
           "natural"
       ],
@@ -40,7 +40,7 @@
 ,
     {
       "id": "cefiranmeowthice-1",
-      "pokemon": "meowth cefiran_ice",
+      "pokemon": "meowth-cefiran_ice",
       "presets": [
           "natural"
       ],
@@ -59,7 +59,7 @@
 ,
     {
       "id": "cefiranmeowthelectric-1",
-      "pokemon": "meowth cefiran_electric",
+      "pokemon": "meowth-cefiran_electric",
       "presets": [
           "natural"
       ],

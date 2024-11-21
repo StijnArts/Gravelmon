@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltahoopa-1",
-      "pokemon": "hoopa delta",
+      "pokemon": "hoopa-delta",
       "presets": [
           "natural"
       ],
@@ -23,7 +23,7 @@
 ,
     {
       "id": "deltahoopaunleashed-1",
-      "pokemon": "hoopa delta_unleashed",
+      "pokemon": "hoopa-delta_unleashed",
       "presets": [
           "natural"
       ],

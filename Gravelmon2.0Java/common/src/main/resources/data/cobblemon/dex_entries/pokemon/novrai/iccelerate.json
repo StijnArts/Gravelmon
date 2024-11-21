@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:iccelerate",
+  "speciesId": "cobblemon:iccelerate",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

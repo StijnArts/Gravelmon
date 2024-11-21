@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:fervole",
+  "speciesId": "cobblemon:fervole",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

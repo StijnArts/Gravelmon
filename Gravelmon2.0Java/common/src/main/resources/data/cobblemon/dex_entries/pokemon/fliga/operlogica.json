@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:operlogica",
+  "speciesId": "cobblemon:operlogica",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

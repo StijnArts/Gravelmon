@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "aristosianmareep-1",
-      "pokemon": "mareep aristosian",
+      "pokemon": "mareep-aristosian",
       "presets": [
           "natural"
       ],
@@ -24,7 +24,7 @@
 ,
     {
       "id": "mythianmareep-1",
-      "pokemon": "mareep mythian",
+      "pokemon": "mareep-mythian",
       "presets": [
           "natural"
       ],
@@ -34,7 +34,7 @@
       "level": "4-28",
       "weight": 9.0,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ]
+"biomes": [ "#cobblemon:nether/is_forest" ]
       }
     }
 

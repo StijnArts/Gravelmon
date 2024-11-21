@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:mosveratu",
+  "speciesId": "cobblemon:mosveratu",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

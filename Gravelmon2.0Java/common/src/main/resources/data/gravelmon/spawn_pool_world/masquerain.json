@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "norheimanmasquerain-1",
-      "pokemon": "masquerain norheiman",
+      "pokemon": "masquerain-norheiman",
       "presets": [
           "water_surface"
       ],

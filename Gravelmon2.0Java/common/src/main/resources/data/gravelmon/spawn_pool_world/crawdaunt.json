@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "norheimancrawdaunt-1",
-      "pokemon": "crawdaunt norheiman",
+      "pokemon": "crawdaunt-norheiman",
       "presets": [
           "underwater"
       ],

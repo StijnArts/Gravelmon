@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:malignat",
+  "speciesId": "cobblemon:malignat",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

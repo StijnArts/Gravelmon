@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:dryath",
+  "speciesId": "cobblemon:dryath",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

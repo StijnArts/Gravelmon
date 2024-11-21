@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:oxatear",
+  "speciesId": "cobblemon:oxatear",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

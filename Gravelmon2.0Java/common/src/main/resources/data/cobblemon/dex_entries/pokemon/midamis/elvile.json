@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:elvile",
+  "speciesId": "cobblemon:elvile",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

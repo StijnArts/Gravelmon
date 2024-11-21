@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "ayreianquaxwell-1",
-      "pokemon": "quaxwell ayreian",
+      "pokemon": "quaxwell-ayreian",
       "presets": [
           "natural"
       ],

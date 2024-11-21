@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "ayreianabra-1",
-      "pokemon": "abra ayreian",
+      "pokemon": "abra-ayreian",
       "presets": [
           "natural"
       ],

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:echoral",
+  "speciesId": "cobblemon:echoral",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

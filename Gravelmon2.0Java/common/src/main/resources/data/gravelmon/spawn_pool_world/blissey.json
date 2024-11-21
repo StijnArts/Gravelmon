@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "fligianblissey-1",
-      "pokemon": "blissey fligian",
+      "pokemon": "blissey-fligian",
       "presets": [
           "natural"
       ],
@@ -15,13 +15,13 @@
       "level": "43-56",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ]
+"biomes": [ "#cobblemon:nether/is_forest" ]
       }
     }
 ,
     {
       "id": "eghoblissey-1",
-      "pokemon": "blissey egho",
+      "pokemon": "blissey-egho",
       "presets": [
           "natural"
       ],

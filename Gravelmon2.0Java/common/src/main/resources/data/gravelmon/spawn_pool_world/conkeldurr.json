@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "kaskadianconkeldurr-1",
-      "pokemon": "conkeldurr kaskadian",
+      "pokemon": "conkeldurr-kaskadian",
       "presets": [
           "natural"
       ],

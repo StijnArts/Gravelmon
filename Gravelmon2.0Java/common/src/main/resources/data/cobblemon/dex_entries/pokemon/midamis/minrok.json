@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:minrok",
+  "speciesId": "cobblemon:minrok",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:growdup",
+  "speciesId": "cobblemon:growdup",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

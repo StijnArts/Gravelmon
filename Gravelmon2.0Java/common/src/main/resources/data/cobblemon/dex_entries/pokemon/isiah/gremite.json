@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gremite",
+  "speciesId": "cobblemon:gremite",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

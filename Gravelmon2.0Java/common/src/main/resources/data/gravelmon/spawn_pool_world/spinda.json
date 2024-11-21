@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "relicspinda-1",
-      "pokemon": "spinda relic",
+      "pokemon": "spinda-relic",
       "presets": [
           "natural"
       ],

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:spawnkey",
+  "speciesId": "cobblemon:spawnkey",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

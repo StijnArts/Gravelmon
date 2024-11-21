@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:sentret-aristosian",
+  "speciesId": "cobblemon:sentret",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Aristosian",
+      "unlockForms": [
+        "Aristosian"
+      ]
+    }
+  ],
+  "variations": []
+}

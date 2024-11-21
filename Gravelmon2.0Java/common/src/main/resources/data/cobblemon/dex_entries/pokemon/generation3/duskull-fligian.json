@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:duskull-fligian",
+  "speciesId": "cobblemon:duskull",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Fligian",
+      "unlockForms": [
+        "Fligian"
+      ]
+    }
+  ],
+  "variations": []
+}

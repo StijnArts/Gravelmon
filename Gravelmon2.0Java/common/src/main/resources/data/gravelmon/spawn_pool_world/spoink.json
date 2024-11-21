@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "qamoranspoink-1",
-      "pokemon": "spoink qamoran",
+      "pokemon": "spoink-qamoran",
       "presets": [
           "natural"
       ],

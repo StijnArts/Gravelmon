@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltayanma-1",
-      "pokemon": "yanma delta",
+      "pokemon": "yanma-delta",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "kaskadianyanma-1",
-      "pokemon": "yanma kaskadian",
+      "pokemon": "yanma-kaskadian",
       "presets": [
           "natural"
       ],

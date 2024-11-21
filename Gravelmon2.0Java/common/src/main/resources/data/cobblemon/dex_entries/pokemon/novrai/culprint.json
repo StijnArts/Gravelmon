@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:culprint",
+  "speciesId": "cobblemon:culprint",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

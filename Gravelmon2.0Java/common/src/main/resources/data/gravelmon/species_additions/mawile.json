@@ -56,67 +56,7 @@
     }
   },
   "catchRate": 45,
-  "maleRatio": 0.5,
   "shoulderMountable": false,
-"forms": [    {
-      "name": "Mega",
-      "primaryType": "grass",
-      "secondaryType": "dark",
-      "abilities": [
-    "arenatrap",
-,
-    "arenatrap",
-    "h:immunity"
-      ],
-      "baseScale": 0.09375,
-        "hitbox": {
-          "width": 6.0,
-          "height": 6.0,
-          "fixed": false
-      },
-      "baseStats": {
-        "hp": 50,
-        "attack": 105,
-        "defence": 125,
-        "special_attack": 55,
-        "special_defence": 95,
-        "speed": 50
-      },
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 199,
-      "baseFriendship": 70,
-      "evYield": {
-        "hp": 0,
-        "attack": 1,
-        "defence": 1,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "experienceGroup": "medium_slow",
-      "eggCycles": 50,
-      "eggGroups": [
-    "undiscovered"
-  ],  "drops": {
-    "amount": "0",
-    "entries": [
-
-    ]
-      },
-      "labels": [
-    "insurgence",
-    "not_modeled"
-      ],
-      "aspects": [
-        "mega"
-      ],
-      "height": 0,
-      "weight": 1100,
-      "cannotDynamax": false,
-      "battleOnly": true
-    }
-],
   "baseExperienceYield": 199,
   "experienceGroup": "medium_slow",
   "eggCycles": 50,

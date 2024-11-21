@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltawhirlipede-1",
-      "pokemon": "whirlipede delta",
+      "pokemon": "whirlipede-delta",
       "presets": [
           "natural"
       ],
@@ -15,7 +15,7 @@
       "level": "23-46",
       "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_wasteland" ]
+"biomes": [ "#cobblemon:nether/is_wasteland" ]
       }
     }
 

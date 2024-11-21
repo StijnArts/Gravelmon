@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:protebat",
+  "speciesId": "cobblemon:protebat",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

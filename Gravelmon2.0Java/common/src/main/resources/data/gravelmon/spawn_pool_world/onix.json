@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "hoennianonix-1",
-      "pokemon": "onix hoennian",
+      "pokemon": "onix-hoennian",
       "presets": [
           "natural"
       ],

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:nuzzeltama",
+  "speciesId": "cobblemon:nuzzeltama",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

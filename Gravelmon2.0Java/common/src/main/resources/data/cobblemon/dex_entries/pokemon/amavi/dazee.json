@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:dazee",
+  "speciesId": "cobblemon:dazee",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltasliggoo-1",
-      "pokemon": "sliggoo delta",
+      "pokemon": "sliggoo-delta",
       "presets": [
           "natural"
       ],

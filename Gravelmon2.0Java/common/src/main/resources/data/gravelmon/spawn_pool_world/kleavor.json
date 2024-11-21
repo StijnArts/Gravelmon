@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "mythiankleavor-1",
-      "pokemon": "kleavor mythian",
+      "pokemon": "kleavor-mythian",
       "presets": [
           "natural"
       ],

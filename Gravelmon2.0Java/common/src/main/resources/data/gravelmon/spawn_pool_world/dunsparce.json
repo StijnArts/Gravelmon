@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltadunsparce-1",
-      "pokemon": "dunsparce delta",
+      "pokemon": "dunsparce-delta",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "hoenniandunsparce-1",
-      "pokemon": "dunsparce hoennian",
+      "pokemon": "dunsparce-hoennian",
       "presets": [
           "natural"
       ],

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:chlorinse",
+  "speciesId": "cobblemon:chlorinse",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

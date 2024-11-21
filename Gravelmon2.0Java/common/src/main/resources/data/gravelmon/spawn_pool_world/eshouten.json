@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "alteraneshouten-1",
-      "pokemon": "eshouten alteran",
+      "pokemon": "eshouten-alteran",
       "presets": [
           "natural"
       ],

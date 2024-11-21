@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "eghotyphlosion-1",
-      "pokemon": "typhlosion egho",
+      "pokemon": "typhlosion-egho",
       "presets": [
           "natural"
       ],
@@ -25,7 +25,7 @@
 ,
     {
       "id": "deltatyphlosion-1",
-      "pokemon": "typhlosion delta",
+      "pokemon": "typhlosion-delta",
       "presets": [
           "natural"
       ],
@@ -42,7 +42,7 @@
 ,
     {
       "id": "ayreiantyphlosion-1",
-      "pokemon": "typhlosion ayreian",
+      "pokemon": "typhlosion-ayreian",
       "presets": [
           "natural"
       ],

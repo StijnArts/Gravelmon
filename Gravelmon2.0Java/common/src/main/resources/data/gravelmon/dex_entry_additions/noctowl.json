@@ -1,0 +1,23 @@
+{
+  "entryId": "cobblemon:noctowl",
+  "forms": [
+    {
+      "displayForm": "Enjinnian",
+      "unlockForms": [
+        "Enjinnian"
+      ]
+    },
+    {
+      "displayForm": "Egho",
+      "unlockForms": [
+        "Egho"
+      ]
+    },
+    {
+      "displayForm": "Delta",
+      "unlockForms": [
+        "Delta"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:eyecoon",
+  "speciesId": "cobblemon:eyecoon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

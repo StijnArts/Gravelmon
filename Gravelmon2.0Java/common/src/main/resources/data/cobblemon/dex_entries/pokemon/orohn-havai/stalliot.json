@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:stalliot",
+  "speciesId": "cobblemon:stalliot",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

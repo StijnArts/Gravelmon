@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "mythianampharos-1",
-      "pokemon": "ampharos mythian",
+      "pokemon": "ampharos-mythian",
       "presets": [
           "natural"
       ],
@@ -15,7 +15,7 @@
       "level": "30-51",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ]
+"biomes": [ "#cobblemon:nether/is_forest" ]
       }
     }
 

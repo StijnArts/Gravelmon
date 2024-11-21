@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:duolecule",
+  "speciesId": "cobblemon:duolecule",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

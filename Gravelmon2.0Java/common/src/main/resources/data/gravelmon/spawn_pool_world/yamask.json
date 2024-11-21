@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "varitasianyamask-1",
-      "pokemon": "yamask varitasian",
+      "pokemon": "yamask-varitasian",
       "presets": [
           "mansion"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "deltayamask-1",
-      "pokemon": "yamask delta",
+      "pokemon": "yamask-delta",
       "presets": [
           "natural"
       ],
@@ -39,7 +39,7 @@
 ,
     {
       "id": "yamaskx-1",
-      "pokemon": "yamask x",
+      "pokemon": "yamask-x",
       "presets": [
           "natural"
       ],

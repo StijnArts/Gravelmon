@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:ledian",
+  "forms": [
+    {
+      "displayForm": "Alteran",
+      "unlockForms": [
+        "Alteran"
+      ]
+    },
+    {
+      "displayForm": "Relic",
+      "unlockForms": [
+        "Relic"
+      ]
+    }
+  ]
+}

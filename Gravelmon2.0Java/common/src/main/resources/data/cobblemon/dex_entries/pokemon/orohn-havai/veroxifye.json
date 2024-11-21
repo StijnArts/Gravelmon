@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:veroxifye",
+  "speciesId": "cobblemon:veroxifye",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

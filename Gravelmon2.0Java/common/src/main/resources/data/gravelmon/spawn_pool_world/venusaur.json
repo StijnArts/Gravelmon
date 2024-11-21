@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "eghovenusaur-1",
-      "pokemon": "venusaur egho",
+      "pokemon": "venusaur-egho",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "deltavenusaur-1",
-      "pokemon": "venusaur delta",
+      "pokemon": "venusaur-delta",
       "presets": [
           "natural"
       ],
@@ -40,7 +40,7 @@
 ,
     {
       "id": "ayreianvenusaur-1",
-      "pokemon": "venusaur ayreian",
+      "pokemon": "venusaur-ayreian",
       "presets": [
           "natural"
       ],

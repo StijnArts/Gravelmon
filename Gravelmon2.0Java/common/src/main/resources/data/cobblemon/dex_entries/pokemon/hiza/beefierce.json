@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:beefierce",
+  "speciesId": "cobblemon:beefierce",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

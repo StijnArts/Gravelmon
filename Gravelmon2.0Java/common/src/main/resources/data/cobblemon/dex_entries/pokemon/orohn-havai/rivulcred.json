@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:rivulcred",
+  "speciesId": "cobblemon:rivulcred",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

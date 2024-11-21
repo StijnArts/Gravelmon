@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "kaskadianskuntank-1",
-      "pokemon": "skuntank kaskadian",
+      "pokemon": "skuntank-kaskadian",
       "presets": [
           "natural"
       ],

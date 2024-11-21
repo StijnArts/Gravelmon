@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "eghomagneton-1",
-      "pokemon": "magneton egho",
+      "pokemon": "magneton-egho",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "ayreianmagneton-1",
-      "pokemon": "magneton ayreian",
+      "pokemon": "magneton-ayreian",
       "presets": [
           "natural"
       ],
@@ -32,7 +32,7 @@
       "level": "30-46",
       "weight": 0.18,
       "condition": {
-"biomes": [ "#cobblemon:is_wasteland" ],
+"biomes": [ "#cobblemon:nether/is_wasteland" ],
         "canSeeSky": true
       }
     }

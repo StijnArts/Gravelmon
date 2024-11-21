@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltalucario-1",
-      "pokemon": "lucario delta",
+      "pokemon": "lucario-delta",
       "presets": [
           "desert_pyramid"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "mythianlucario-1",
-      "pokemon": "lucario mythian",
+      "pokemon": "lucario-mythian",
       "presets": [
           "natural"
       ],
@@ -32,13 +32,13 @@
       "level": "29-52",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_wasteland" ]
+"biomes": [ "#cobblemon:nether/is_wasteland" ]
       }
     }
 ,
     {
       "id": "mysticlucario-1",
-      "pokemon": "lucario mystic",
+      "pokemon": "lucario-mystic",
       "presets": [
           "natural"
       ],

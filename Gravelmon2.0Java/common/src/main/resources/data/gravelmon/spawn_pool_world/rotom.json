@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "solrotom-1",
-      "pokemon": "rotom sol",
+      "pokemon": "rotom-sol",
       "presets": [
           "mansion"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "swayrotom-1",
-      "pokemon": "rotom sway",
+      "pokemon": "rotom-sway",
       "presets": [
           "mansion"
       ],
@@ -39,7 +39,7 @@
 ,
     {
       "id": "brawlrotom-1",
-      "pokemon": "rotom brawl",
+      "pokemon": "rotom-brawl",
       "presets": [
           "mansion"
       ],
@@ -56,7 +56,7 @@
 ,
     {
       "id": "webrotom-1",
-      "pokemon": "rotom web",
+      "pokemon": "rotom-web",
       "presets": [
           "mansion"
       ],
@@ -73,7 +73,7 @@
 ,
     {
       "id": "junkrotom-1",
-      "pokemon": "rotom junk",
+      "pokemon": "rotom-junk",
       "presets": [
           "mansion"
       ],
@@ -90,7 +90,7 @@
 ,
     {
       "id": "homerotom-1",
-      "pokemon": "rotom home",
+      "pokemon": "rotom-home",
       "presets": [
           "mansion"
       ],
@@ -107,7 +107,7 @@
 ,
     {
       "id": "bassrotom-1",
-      "pokemon": "rotom bass",
+      "pokemon": "rotom-bass",
       "presets": [
           "mansion"
       ],
@@ -124,7 +124,7 @@
 ,
     {
       "id": "twirlrotom-1",
-      "pokemon": "rotom twirl",
+      "pokemon": "rotom-twirl",
       "presets": [
           "mansion"
       ],
@@ -141,7 +141,7 @@
 ,
     {
       "id": "mixrotom-1",
-      "pokemon": "rotom mix",
+      "pokemon": "rotom-mix",
       "presets": [
           "mansion"
       ],

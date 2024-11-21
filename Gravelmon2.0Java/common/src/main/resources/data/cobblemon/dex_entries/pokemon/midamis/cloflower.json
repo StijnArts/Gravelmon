@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:cloflower",
+  "speciesId": "cobblemon:cloflower",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

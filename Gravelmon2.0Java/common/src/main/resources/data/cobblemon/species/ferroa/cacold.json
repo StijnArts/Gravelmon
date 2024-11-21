@@ -1,6 +1,6 @@
 {
   "implemented": true,
-  "name": "cacold",
+  "name": "Cacold",
   "nationalPokedexNumber": 1836,
   "primaryType": "ice",
   "secondaryType": "bug",
@@ -86,7 +86,7 @@
       "requirements": [
         {
           "variant": "biome",
-          "biomeCondition": "#cobblemon:is_spring"
+          "biomeCondition": "#cobblemon:has_season/spring"
         }
       ],
       "permanent": true   

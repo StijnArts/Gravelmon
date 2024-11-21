@@ -14,7 +14,7 @@ public class CobblemonPlacedFeaturesMixin {
     @Inject(method = "of", at =@At("HEAD"), remap = false, cancellable = true)
     private void ofReplacement(String id, CallbackInfoReturnable<ResourceKey<PlacedFeature>> cir){
         if(id.equals("apricorn_trees")){
-            cir.setReturnValue(ResourceKey.create(Registries.PLACED_FEATURE, new ResourceLocation("gravelmon",id)));
+            cir.setReturnValue(ResourceKey.create(Registries.PLACED_FEATURE, ResourceLocation.fromNamespaceAndPath("gravelmon",id)));
             cir.cancel();
         }
     }

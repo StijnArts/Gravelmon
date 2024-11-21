@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "betaurayne-1",
-      "pokemon": "urayne beta",
+      "pokemon": "urayne-beta",
       "presets": [
           "natural"
       ],

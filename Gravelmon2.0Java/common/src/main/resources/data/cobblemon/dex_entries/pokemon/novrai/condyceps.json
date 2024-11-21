@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:condyceps",
+  "speciesId": "cobblemon:condyceps",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

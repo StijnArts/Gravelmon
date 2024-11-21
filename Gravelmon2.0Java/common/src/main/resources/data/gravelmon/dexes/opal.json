@@ -1,0 +1,28 @@
+{
+  "type": "cobblemon:simple_pokedex_def",
+  "sortOrder": 20,
+  "id": "gravelmon:opal",
+  "entries": [
+    "cobblemon:snampery",
+    "cobblemon:descargot",
+    "cobblemon:gastesla",
+    "cobblemon:flasinge",
+    "cobblemon:shaboon",
+    "cobblemon:lunaye",
+    "cobblemon:swolphin",
+    "cobblemon:norspear",
+    "cobblemon:narvalor",
+    "cobblemon:cefireon",
+    "cobblemon:polekin",
+    "cobblemon:fungorse",
+    "cobblemon:cervantrier",
+    "cobblemon:lugnis",
+    "cobblemon:luravit",
+    "cobblemon:luxpiravit",
+    "cobblemon:quisquite",
+    "cobblemon:gambarrel",
+    "cobblemon:bogaleon",
+    "cobblemon:astrem",
+    "cobblemon:unktena"
+  ]
+}

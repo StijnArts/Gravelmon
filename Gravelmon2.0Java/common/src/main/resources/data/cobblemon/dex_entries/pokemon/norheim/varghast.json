@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:varghast",
+  "speciesId": "cobblemon:varghast",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

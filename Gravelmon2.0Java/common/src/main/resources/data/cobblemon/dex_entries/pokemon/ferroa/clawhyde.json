@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:clawhyde",
+  "speciesId": "cobblemon:clawhyde",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

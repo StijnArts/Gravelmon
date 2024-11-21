@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:oreium",
+  "speciesId": "cobblemon:oreium",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

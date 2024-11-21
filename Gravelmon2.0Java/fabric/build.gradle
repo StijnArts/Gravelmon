@@ -55,8 +55,10 @@ dependencies {
 
     modImplementation "com.cobblemon:fabric:${cobblemon_file}"
     modImplementation "maven.modrinth:midnightlib:Ct1rAic5"
-    modImplementation "maven.modrinth:packet-fixer:djNw6g8u"
+    modImplementation "maven.modrinth:packet-fixer:${packet_fixer_fabric_file}"
     modImplementation files("libs/gravels_extended_battles-fabric-${gravelmon_file}.jar")
+    modImplementation("net.fabricmc:fabric-language-kotlin:${fabric_kotlin}")
+
 }
 
 def replaceProperties = [mod_id          : mod_id,

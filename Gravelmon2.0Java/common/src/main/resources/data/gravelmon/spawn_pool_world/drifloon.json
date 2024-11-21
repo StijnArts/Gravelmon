@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltadrifloon-1",
-      "pokemon": "drifloon delta",
+      "pokemon": "drifloon-delta",
       "presets": [
           "natural"
       ],
@@ -24,7 +24,7 @@
 ,
     {
       "id": "ayreiandrifloon-1",
-      "pokemon": "drifloon ayreian",
+      "pokemon": "drifloon-ayreian",
       "presets": [
           "natural"
       ],

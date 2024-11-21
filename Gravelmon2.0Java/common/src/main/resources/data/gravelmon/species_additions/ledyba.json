@@ -54,7 +54,6 @@
     }
   },
   "catchRate": 83,
-  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 53,
   "experienceGroup": "medium_slow",

@@ -9,24 +9,24 @@ public class HUB extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new Mobipup());
-        pokemon.add(new Nezutama());
-        pokemon.add(new Nuzzeltama());
-        pokemon.add(new Ovipter());
-        pokemon.add(new Hoppolat());
-        pokemon.add(new Brokenstein());
-        pokemon.add(new Monstricity());
-        pokemon.add(new Cadastrophe());
-        pokemon.add(new Gobblin());
-        pokemon.add(new Sheetrick());
-        pokemon.add(new Yokid());
-        pokemon.add(new Creshank());
-        pokemon.add(new Mushmol());
-        pokemon.add(new Mushpunky());
-        pokemon.add(new Mushilly());
-        pokemon.add(new Mushcary());
-        pokemon.add(new Sakurovix());
-        pokemon.add(new Nephelith());
+        addNewPokemon(new Mobipup());
+        addNewPokemon(new Nezutama());
+        addNewPokemon(new Nuzzeltama());
+        addNewPokemon(new Ovipter());
+        addNewPokemon(new Hoppolat());
+        addNewPokemon(new Brokenstein());
+        addNewPokemon(new Monstricity());
+        addNewPokemon(new Cadastrophe());
+        addNewPokemon(new Gobblin());
+        addNewPokemon(new Sheetrick());
+        addNewPokemon(new Yokid());
+        addNewPokemon(new Creshank());
+        addNewPokemon(new Mushmol());
+        addNewPokemon(new Mushpunky());
+        addNewPokemon(new Mushilly());
+        addNewPokemon(new Mushcary());
+        addNewPokemon(new Sakurovix());
+        addNewPokemon(new Nephelith());
     }
 
 }

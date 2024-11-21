@@ -1,0 +1,11 @@
+{
+  "entryId": "cobblemon:mudkip",
+  "forms": [
+    {
+      "displayForm": "Mystic",
+      "unlockForms": [
+        "Mystic"
+      ]
+    }
+  ]
+}

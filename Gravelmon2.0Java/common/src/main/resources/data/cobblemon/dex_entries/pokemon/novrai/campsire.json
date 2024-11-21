@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:campsire",
+  "speciesId": "cobblemon:campsire",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

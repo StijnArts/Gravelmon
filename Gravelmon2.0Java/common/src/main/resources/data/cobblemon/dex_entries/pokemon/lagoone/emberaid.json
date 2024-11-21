@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:emberaid",
+  "speciesId": "cobblemon:emberaid",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

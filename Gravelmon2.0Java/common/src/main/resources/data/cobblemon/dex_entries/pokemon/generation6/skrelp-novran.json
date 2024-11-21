@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:skrelp-novran",
+  "speciesId": "cobblemon:skrelp",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Novran",
+      "unlockForms": [
+        "Novran"
+      ]
+    }
+  ],
+  "variations": []
+}

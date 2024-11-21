@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:solarelo",
+  "speciesId": "cobblemon:solarelo",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

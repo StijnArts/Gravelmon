@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "hoennianteddiursa-1",
-      "pokemon": "teddiursa hoennian",
+      "pokemon": "teddiursa-hoennian",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "seviianteddiursa-1",
-      "pokemon": "teddiursa seviian",
+      "pokemon": "teddiursa-seviian",
       "presets": [
           "natural"
       ],
@@ -41,7 +41,7 @@
 ,
     {
       "id": "cefiranteddiursa-1",
-      "pokemon": "teddiursa cefiran",
+      "pokemon": "teddiursa-cefiran",
       "presets": [
           "natural"
       ],

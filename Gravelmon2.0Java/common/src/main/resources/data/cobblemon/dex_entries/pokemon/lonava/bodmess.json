@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:bodmess",
+  "speciesId": "cobblemon:bodmess",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

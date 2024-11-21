@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:kreakup",
+  "speciesId": "cobblemon:kreakup",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

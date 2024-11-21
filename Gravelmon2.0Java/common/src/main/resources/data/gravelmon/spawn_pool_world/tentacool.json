@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltatentacool-1",
-      "pokemon": "tentacool delta",
+      "pokemon": "tentacool-delta",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "hoenniantentacool-1",
-      "pokemon": "tentacool hoennian",
+      "pokemon": "tentacool-hoennian",
       "presets": [
           "underwater"
       ],
@@ -43,7 +43,7 @@
 ,
     {
       "id": "relictentacool-1",
-      "pokemon": "tentacool relic",
+      "pokemon": "tentacool-relic",
       "presets": [
           "underwater"
       ],

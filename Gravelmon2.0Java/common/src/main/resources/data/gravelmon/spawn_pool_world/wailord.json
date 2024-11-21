@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltawailord-1",
-      "pokemon": "wailord delta",
+      "pokemon": "wailord-delta",
       "presets": [
           "natural"
       ],

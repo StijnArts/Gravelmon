@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "fligiantreecko-1",
-      "pokemon": "treecko fligian",
+      "pokemon": "treecko-fligian",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "deltatreecko-1",
-      "pokemon": "treecko delta",
+      "pokemon": "treecko-delta",
       "presets": [
           "natural"
       ],
@@ -42,7 +42,7 @@
 ,
     {
       "id": "mystictreecko-1",
-      "pokemon": "treecko mystic",
+      "pokemon": "treecko-mystic",
       "presets": [
           "natural"
       ],

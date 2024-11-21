@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:nephelith",
+  "speciesId": "cobblemon:nephelith",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

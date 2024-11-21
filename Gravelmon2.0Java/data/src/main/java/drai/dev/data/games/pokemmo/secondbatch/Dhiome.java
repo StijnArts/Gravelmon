@@ -19,8 +19,8 @@ public class Dhiome extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Bubblebon());Member of line Not Finished
 //        pokemon.add(new Scufflebon());Member of line Not Finished
 //        pokemon.add(new Lochare());   Missing Art
-        pokemon.add(new Wombabe());
-        pokemon.add(new Korboral());
+        addNewPokemon(new Wombabe());
+        addNewPokemon(new Korboral());
 //        pokemon.add(new Cantarini());   Missing Stats
 //        pokemon.add(new Flavian());   Missing Art
 //        pokemon.add(new Carafowl());   Missing Art
@@ -55,11 +55,11 @@ public class Dhiome extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Thermate());   Missing Stats
 //        pokemon.add(new Babburn());   Missing Art
 //        pokemon.add(new Cropiki());   Missing Stats
-        pokemon.add(new Dwarpy());
-        pokemon.add(new Bonafant());
-        pokemon.add(new Wisdaum());
-        pokemon.add(new Surchin());
-        pokemon.add(new Submurchin());
+        addNewPokemon(new Dwarpy());
+        addNewPokemon(new Bonafant());
+        addNewPokemon(new Wisdaum());
+        addNewPokemon(new Surchin());
+        addNewPokemon(new Submurchin());
 //        pokemon.add(new Nimbleak());   Missing Stats
 //        pokemon.add(new Dojoku());   Missing Stats
 //        pokemon.add(new Fumaji());   Missing Stats
@@ -72,7 +72,7 @@ public class Dhiome extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Shisapien());   Missing Stats
 //        pokemon.add(new Silnun());   Missing Stats
 //        pokemon.add(new Amivelv());   Missing Stats
-        pokemon.add(new Nebulent());
+        addNewPokemon(new Nebulent());
 //        pokemon.add(new Draligne());Member of line Not Finished
 //        pokemon.add(new Mushcap());   Missing Stats
 //        pokemon.add(new Belyad());   Missing Stats
@@ -83,12 +83,12 @@ public class Dhiome extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Slugly());   Missing Stats
 //        pokemon.add(new Toxnail());   Missing Stats
 //        pokemon.add(new Mandibrine());   Missing Stats
-        pokemon.add(new Petrifern());
-        pokemon.add(new Serrarbo());
+        addNewPokemon(new Petrifern());
+        addNewPokemon(new Serrarbo());
 //        pokemon.add(new Ruminelk());   Missing Stats
 //        pokemon.add(new Ancervus());   Missing Stats
-        pokemon.add(new Ampin());
-        pokemon.add(new Sharquake());
+        addNewPokemon(new Ampin());
+        addNewPokemon(new Sharquake());
 //        pokemon.add(new Polykelp());   Missing Stats
 //        pokemon.add(new Venchill());   Missing Stats
 //        pokemon.add(new Fungeon());   Missing Stats

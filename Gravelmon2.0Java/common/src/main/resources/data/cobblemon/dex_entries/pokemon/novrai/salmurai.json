@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:salmurai",
+  "speciesId": "cobblemon:salmurai",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

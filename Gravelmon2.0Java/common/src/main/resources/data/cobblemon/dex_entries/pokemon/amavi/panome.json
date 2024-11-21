@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:panome",
+  "speciesId": "cobblemon:panome",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

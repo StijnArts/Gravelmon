@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ruffski",
+  "speciesId": "cobblemon:ruffski",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

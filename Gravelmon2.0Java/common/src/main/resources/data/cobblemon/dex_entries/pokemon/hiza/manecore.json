@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:manecore",
+  "speciesId": "cobblemon:manecore",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

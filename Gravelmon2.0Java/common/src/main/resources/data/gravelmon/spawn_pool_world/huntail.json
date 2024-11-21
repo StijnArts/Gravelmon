@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "novranhuntail-1",
-      "pokemon": "huntail novran",
+      "pokemon": "huntail-novran",
       "presets": [
           "reef"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "deltahuntail-1",
-      "pokemon": "huntail delta",
+      "pokemon": "huntail-delta",
       "presets": [
           "natural"
       ],

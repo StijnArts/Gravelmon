@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "aristosiansentret-1",
-      "pokemon": "sentret aristosian",
+      "pokemon": "sentret-aristosian",
       "presets": [
           "natural"
       ],
@@ -20,7 +20,7 @@
         "canSeeSky": true
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_winter" ]    }
+"biomes": [ "#cobblemon:has_season/winter" ]    }
     }
 
 ]

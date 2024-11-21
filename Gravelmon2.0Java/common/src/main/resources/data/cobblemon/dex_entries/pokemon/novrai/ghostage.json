@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ghostage",
+  "speciesId": "cobblemon:ghostage",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

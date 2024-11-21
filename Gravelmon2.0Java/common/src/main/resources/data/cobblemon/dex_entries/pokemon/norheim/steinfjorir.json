@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:steinfjorir",
+  "speciesId": "cobblemon:steinfjorir",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

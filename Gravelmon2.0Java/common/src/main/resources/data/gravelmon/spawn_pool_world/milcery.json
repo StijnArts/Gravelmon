@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "varitasianmilcery-1",
-      "pokemon": "milcery varitasian",
+      "pokemon": "milcery-varitasian",
       "presets": [
           "natural"
       ],

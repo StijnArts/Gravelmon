@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lucario-mythian",
+  "speciesId": "cobblemon:lucario",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Mythian",
+      "unlockForms": [
+        "Mythian"
+      ]
+    }
+  ],
+  "variations": []
+}

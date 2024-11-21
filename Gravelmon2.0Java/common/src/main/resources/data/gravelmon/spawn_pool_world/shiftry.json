@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltashiftry-1",
-      "pokemon": "shiftry delta",
+      "pokemon": "shiftry-delta",
       "presets": [
           "natural"
       ],

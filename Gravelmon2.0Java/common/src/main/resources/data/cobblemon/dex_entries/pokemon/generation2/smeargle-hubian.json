@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:smeargle-hubian",
+  "speciesId": "cobblemon:smeargle",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Hubian",
+      "unlockForms": [
+        "Hubian"
+      ]
+    }
+  ],
+  "variations": []
+}

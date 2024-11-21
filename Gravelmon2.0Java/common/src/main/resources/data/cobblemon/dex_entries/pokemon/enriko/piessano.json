@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:piessano",
+  "speciesId": "cobblemon:piessano",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

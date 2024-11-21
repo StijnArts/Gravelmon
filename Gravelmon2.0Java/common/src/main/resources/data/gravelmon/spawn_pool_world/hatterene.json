@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "novranhatterene-1",
-      "pokemon": "hatterene novran",
+      "pokemon": "hatterene-novran",
       "presets": [
           "natural"
       ],

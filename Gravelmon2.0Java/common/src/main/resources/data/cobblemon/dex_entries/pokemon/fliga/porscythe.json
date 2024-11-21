@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:porscythe",
+  "speciesId": "cobblemon:porscythe",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:teravat",
+  "speciesId": "cobblemon:teravat",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

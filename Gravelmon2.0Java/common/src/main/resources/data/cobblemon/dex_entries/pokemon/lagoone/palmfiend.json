@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:palmfiend",
+  "speciesId": "cobblemon:palmfiend",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

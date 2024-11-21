@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tankodile",
+  "speciesId": "cobblemon:tankodile",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

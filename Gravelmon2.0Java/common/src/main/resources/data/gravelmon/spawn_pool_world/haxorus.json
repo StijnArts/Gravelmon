@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltahaxorus-1",
-      "pokemon": "haxorus delta",
+      "pokemon": "haxorus-delta",
       "presets": [
           "natural"
       ],

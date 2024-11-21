@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "eghoazumarill-1",
-      "pokemon": "azumarill egho",
+      "pokemon": "azumarill-egho",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "kaskadianazumarill-1",
-      "pokemon": "azumarill kaskadian",
+      "pokemon": "azumarill-kaskadian",
       "presets": [
           "natural"
       ],

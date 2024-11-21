@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:woodtryle",
+  "speciesId": "cobblemon:woodtryle",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}
