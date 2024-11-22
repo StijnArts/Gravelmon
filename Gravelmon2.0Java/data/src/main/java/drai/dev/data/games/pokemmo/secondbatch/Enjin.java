@@ -34,6 +34,7 @@ public class Enjin extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Faunifer());   Missing Stats
 //        pokemon.add(new Sirain());   Missing Stats
 //        pokemon.add(new Budbun());Member of line Not Finished
+        addPokedexPokemon("hoothoot-enjinnian, noctowl-enjinnian");
         addNewPokemon(new Enchantowl());
 //        pokemon.add(new Chimini());   Missing Stats
 //        pokemon.add(new Aquamel());   Missing Stats
@@ -46,8 +47,10 @@ public class Enjin extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Raveclem());
 //        pokemon.add(new Galats());   Missing Stats
 //        pokemon.add(new Coldier());   Missing Stats
+        addPokedexPokemon("sableye-enjinnian");
         addNewPokemon(new Eyeziant());
         addNewPokemon(new Ghostea());
+        addPokedexPokemon("sinistea, polteageist");
 //        pokemon.add(new Bihaund());   Missing Stats
 //        pokemon.add(new Serpendage());Member of line Not Finished
 //        pokemon.add(new Jerbalm());  Member of line Not Finished
@@ -61,8 +64,7 @@ public class Enjin extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Rosival());   Missing Stats
 //        pokemon.add(new Roswain());   Missing Stats
         addNewPokemon(new Snooz());
-//        pokemon.add(new EnjinnianDrowzee(96)); //Missing Stats and wrong form
-//        pokemon.add(new EnjinnianHypno(97)); //Missing Stats and wrong form
+        addPokedexPokemon("drowzee, drowzee-enjinnian, hypno, hypno-enjinnian");
 //        pokemon.add(new Slamb());   Missing Stats
 //        pokemon.add(new Tenwreck());Member of line Not Finished
 //        pokemon.add(new Snouturf());Member of line Not Finished
@@ -78,6 +80,7 @@ public class Enjin extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Khthonion());
         addNewPokemon(new Cocoward());
         addNewPokemon(new Cocombat());
+        addPokedexPokemon("electrike-enjinnian, manectric-enjinnian");
 //        pokemon.add(new Lunectric());   Missing Stats
 //        pokemon.add(new Spikid());Member of line Not Finished
 //        pokemon.add(new Matchoppa());Member of line Not Finished

@@ -48,6 +48,7 @@ public class Deneb extends Game {
         var blakjak  = new Blakjak();
         addNewPokemon(blakjak);
         addNewPokemon(new SignetanBlakjak("", Aspect.SIGNETAN));
+        removePokedexPokemon("blakjak-signetan");
         addNewPokemon(new Maneko());
         addNewPokemon(new Bakeko());
         addNewPokemon(new Clotaku());
@@ -226,7 +227,9 @@ public class Deneb extends Game {
         addNewPokemon(new Ishiarare());
         addNewPokemon(new Dorisuton());
         addNewPokemon(new Rokunaito());
+        addPokedexPokemon("zangoose");
         addNewPokemon(new Viperzang());
+        addPokedexPokemon("seviper");
         addNewPokemon(new Sevicrush());
         addNewPokemon(new Shakutto());
         addNewPokemon(new Kureigu());
@@ -238,7 +241,9 @@ public class Deneb extends Game {
         addNewPokemon(new Madara());
         addNewPokemon(new Kodachiuo());
         addNewPokemon(new Surudoika());
+        addPokedexPokemon("skarmory");
         addNewPokemon(new Eameiru());
+        addPokedexPokemon("frutius");
         addNewPokemon(new Fruitius());
         addNewPokemon(new Rakusuna());
         addNewPokemon(new Sunankusu());
@@ -269,6 +274,8 @@ public class Deneb extends Game {
         addNewPokemon(new Garakasago());
         addNewPokemon(new Supaina());
         addNewPokemon(new Baretta());
+        addPokedexPokemon("poochyena");
+        addPokedexPokemon("mightyena");
         addNewPokemon(new Keruena());
         addNewPokemon(new Hanamimizu());
         addNewPokemon(new Tsuruborosu());
@@ -278,9 +285,15 @@ public class Deneb extends Game {
         addNewPokemon(new Yandeddo());
         addNewPokemon(new Dakkoala());
         addNewPokemon(new Koalashi());
+        addPokedexPokemon("slugma");
+        addPokedexPokemon("magcargo");
         addNewPokemon(new Magukigai());
+        addPokedexPokemon("finneon");
+        addPokedexPokemon("lumineon");
         addNewPokemon(new Tetoraito());
         addNewPokemon(new Pawahon());
+        addPokedexPokemon("combee");
+        addPokedexPokemon("vespiquen");
         addNewPokemon(new Granvesp());
         addNewPokemon(new Sukabi());
         addNewPokemon(new Kusomarume());
@@ -292,7 +305,11 @@ public class Deneb extends Game {
         addNewPokemon(new Yukidaru());
         addNewPokemon(new Doraiasu());
         addNewPokemon(new Elidon());
+        addPokedexPokemon("drowzee");
+        addPokedexPokemon("hypno");
         addNewPokemon(new Suripitto());
+        addPokedexPokemon("chingling");
+        addPokedexPokemon("chimecho");
         addNewPokemon(new Karakoron());
         addNewPokemon(new Demini());
         addNewPokemon(new Demiddul());

@@ -39,8 +39,11 @@ public class Interregional extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Conkamite());
         addNewPokemon(new Whirm());
         addNewPokemon(new Grappore());
+        addPokedexPokemon("spinda");
         addNewPokemon(new Panditsy());
+        addPokedexPokemon("zangoose");
         addNewPokemon(new Zangarsh());
+        addPokedexPokemon("smeargle");
         addNewPokemon(new Beagasso());
         addNewPokemon(new Onnidix());
         addNewPokemon(new Onnibud());
@@ -121,6 +124,7 @@ public class Interregional extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Slanbolos());
         addNewPokemon(new Oceausky());
         addNewPokemon(new Nifflom());
+        addPokedexPokemon("genesect-interian, arceus-interian, piplup-interian, prinplup-interian, empoleon-interian");
     }
 
 }

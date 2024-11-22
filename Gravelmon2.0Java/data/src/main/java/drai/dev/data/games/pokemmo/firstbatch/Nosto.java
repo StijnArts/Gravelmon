@@ -102,6 +102,7 @@ public class Nosto extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Signapsi());
         addNewPokemon(new Reneuron());
         addNewPokemon(new Brainergy());
+        addPokedexPokemon("morelull-nostan, shiinotic-nostan");
         addNewPokemon(new Primmella());
         addNewPokemon(new Primmadame());
         addNewPokemon(new Primmoiselle());
@@ -109,6 +110,7 @@ public class Nosto extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Fauxmingo());
         addNewPokemon(new Swandola());
         addNewPokemon(new Buldough());
+        addPokedexPokemon("diglett-nostan, dugtrio-nostan");
         addNewPokemon(new Duggout());
 
         addNewPokemon(new Seasaw());
@@ -121,6 +123,7 @@ public class Nosto extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Planebe());
         addNewPokemon(new Staurbor());
         addNewPokemon(new Mantaqua());
+        addPokedexPokemon("shellder-nostan, cloyster-nostan");
         addNewPokemon(new Merineon());
         addNewPokemon(new Teslax());
         addNewPokemon(new Zexalax());

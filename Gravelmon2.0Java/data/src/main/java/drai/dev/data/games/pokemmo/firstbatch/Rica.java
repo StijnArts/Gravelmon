@@ -117,8 +117,9 @@ public class Rica extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Mermew());
         addNewPokemon(new Clampurr());
         addNewPokemon(new Welking());
-//        pokemon.add(new Amourish()); //Missing Art
+//        pokemon.add(new Amourish()); //Missing Art //TOdo has art
 //        pokemon.add(new Glamoreef()); //Missing Art
+        addPokedexPokemon("shellos-rican, gastrodon-rican");
         addNewPokemon(new Sweetoad());
         addNewPokemon(new Spoocap());
         addNewPokemon(new Sporror());

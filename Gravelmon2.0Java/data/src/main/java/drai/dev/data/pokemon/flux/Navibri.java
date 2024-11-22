@@ -25,7 +25,8 @@ public class Navibri extends Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("It has a flawless sense of direction, and can memorize migratory routes across hundreds of miles. They act as scouts for the flock."),
-                List.of(),
+                List.of(new EvolutionEntry("turbolibri", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WING_ATTACK,1),
                         new MoveLearnSetEntry(Move.PECK,1),

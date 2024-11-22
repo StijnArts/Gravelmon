@@ -55,6 +55,7 @@ public class Qamor extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Coyohete());
         addNewPokemon(new Culponi());
         addNewPokemon(new Bronconvict());
+        addPokedexPokemon("tyrogue-qamoran, hitmonlee-qamoran, hitmonchan-qamoran, hitmontop-qamoran");
         addNewPokemon(new Aqube());
         addNewPokemon(new Wapolyp());
         addNewPokemon(new Seasnug());
@@ -62,6 +63,7 @@ public class Qamor extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Pudgey());
         addNewPokemon(new Flappetite());
         addNewPokemon(new Cavacreep());
+        addPokedexPokemon("psyduck-qamoran, golduck");
         addNewPokemon(new Gobbledyduck());
         addNewPokemon(new Virchia());
         addNewPokemon(new Impetal());
@@ -69,7 +71,9 @@ public class Qamor extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Munsun());
         addNewPokemon(new Thermoni());
         addNewPokemon(new Peritwinkle());
+        addPokedexPokemon("volbeat, illumise");
         addNewPokemon(new Keclekid());
+        addPokedexPokemon("kecleon");
         addNewPokemon(new Paposy());
         addNewPokemon(new Ancaleana());
         addNewPokemon(new Belublebug());
@@ -79,6 +83,7 @@ public class Qamor extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Sycelium());
         addNewPokemon(new Cerecybim());
         addNewPokemon(new Somberscribe());
+        addPokedexPokemon("seel-qamoran, dewgong-qamoran");
         addNewPokemon(new Grimgrin());
         addNewPokemon(new Gibboor());
         addNewPokemon(new Grimandrill());
@@ -95,6 +100,7 @@ public class Qamor extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Dashkite());
         addNewPokemon(new Zipstream());
         addNewPokemon(new Cassowatt());
+        addPokedexPokemon("rellor, rabsca-qamoran");
         addNewPokemon(new Planchelt());
         addNewPokemon(new Effigeam());
         addNewPokemon(new Hollowhusk());
@@ -103,6 +109,7 @@ public class Qamor extends drai.dev.data.games.registry.Game {
 
         addNewPokemon(new Servolt());
         addNewPokemon(new Joulereign());
+        addPokedexPokemon("cubchoo-qamoran, beartic-qamoran");
         addNewPokemon(new Chkachuru());
         addNewPokemon(new Parumpum());
         addNewPokemon(new Dokuduru());
@@ -115,10 +122,13 @@ public class Qamor extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Blubuoy());
         addNewPokemon(new Albacross());
         addNewPokemon(new Curbludgeon());
+        addPokedexPokemon("spoink-qamoran, grumpig-qamoran");
+        addPokedexPokemon("koffing-qamoran, weezing-qamoran");
         addNewPokemon(new Glamglob());
         addNewPokemon(new Lilpaca());
         addNewPokemon(new Pacalpine());
         addNewPokemon(new Chillichoya());
+        addPokedexPokemon("sandygast-qamoran");
         addNewPokemon(new Saguartic());
         addNewPokemon(new Palosstone());
         addNewPokemon(new Mightiro());
@@ -135,10 +145,22 @@ public class Qamor extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Vikice());
         addNewPokemon(new Valkryce());
         addNewPokemon(new Selkreeper());
+        addPokedexPokemon("combee-qamoran");
         addNewPokemon(new Vespidron());
         addNewPokemon(new Cryometry());
+        addPokedexPokemon("cryogonal");
         addNewPokemon(new Frijolop());
         addNewPokemon(new Crickochet());
+        addPokedexPokemon(
+                "eevee," +
+                        "vaporeon," +
+                        "jolteon," +
+                        "flareon," +
+                        "espeon," +
+                        "umbreon," +
+                        "leafeon," +
+                        "glaceon," +
+                        "sylveon");
         addNewPokemon(new EXEon());
     }
 }

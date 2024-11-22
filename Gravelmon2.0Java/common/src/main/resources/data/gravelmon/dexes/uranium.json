@@ -1,6 +1,6 @@
 {
   "type": "cobblemon:simple_pokedex_def",
-  "sortOrder": 29,
+  "sortOrder": 32,
   "id": "gravelmon:uranium",
   "entries": [
     "cobblemon:orchynx",
@@ -34,8 +34,6 @@
     "cobblemon:empirilla",
     "cobblemon:owten",
     "cobblemon:eshouten",
-    "cobblemon:owten-alteran",
-    "cobblemon:eshouten-alteran",
     "cobblemon:smore",
     "cobblemon:firoke",
     "cobblemon:brailip",
@@ -154,7 +152,6 @@
     "cobblemon:lanthan",
     "cobblemon:actan",
     "cobblemon:urayne",
-    "cobblemon:urayne-beta",
     "cobblemon:aotius",
     "cobblemon:mutios",
     "cobblemon:zephy"

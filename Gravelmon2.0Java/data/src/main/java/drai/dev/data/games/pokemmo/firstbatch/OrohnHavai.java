@@ -123,9 +123,11 @@ public class OrohnHavai extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Carosella());
         addNewPokemon(new Timingo());
         addNewPokemon(new Flambagant());
+        addPokedexPokemon("gastly-havaiian, haunter-havaiian, gengar-havaiian");
 //        pokemon.add(new Glimpid()); Member of line not finished
 //        pokemon.add(new Cryosect()); Missing Art
         addNewPokemon(new Hematick());
+        addNewPokemon(new Vorvosip());
         addNewPokemon(new Vorvosip());
         addNewPokemon(new Stegrump());
         addNewPokemon(new Stegovore());
@@ -196,6 +198,16 @@ public class OrohnHavai extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Camofirma());
         addNewPokemon(new Fyglow());
 //        pokemon.add(new Polighoul()); Missing art
+        addPokedexPokemon(
+                "eevee," +
+                        "vaporeon," +
+                        "jolteon," +
+                        "flareon," +
+                        "espeon," +
+                        "umbreon," +
+                        "leafeon," +
+                        "glaceon," +
+                        "sylveon");
         addNewPokemon(new Alpheon());
         addNewPokemon(new Eveon());
         addNewPokemon(new Tekichu(new Stats(410, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))));

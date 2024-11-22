@@ -6,7 +6,7 @@ public class Otopo extends drai.dev.data.games.registry.Game {
     public Otopo() {
         super("Otopo");
     }
-
+//TODO update and dex
     @Override
     public void registerPokemon() {
         addNewPokemon(new Elefern());

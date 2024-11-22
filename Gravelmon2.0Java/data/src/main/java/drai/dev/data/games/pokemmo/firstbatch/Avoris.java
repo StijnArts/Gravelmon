@@ -50,12 +50,14 @@ public class Avoris extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Elescent());
         addNewPokemon(new Aromaphant());
 //        pokemon.add(new Shooba()); Member of Line not Finished
+        addPokedexPokemon("maractus-avorian");
         addNewPokemon(new Maracabre());
         addNewPokemon(new Cacotile());
         addNewPokemon(new Tankodile());
         addNewPokemon(new Pyramud());
         addNewPokemon(new Pyradoom());
 //        pokemon.add(new Smolink()); Member of Line not Finished
+        addPokedexPokemon("mimejr, mrmime-avorian");
     }
 
 }

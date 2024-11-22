@@ -12,6 +12,20 @@
       ],
       "requiredContext": "cobblemon:moon_stone",
       "permanent": true   
+ },
+    {
+      "id": "mightyena_keruena",
+      "variant": "level_up",
+      "result": "keruena",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 39
+        }
+      ],
+      "permanent": true   
  }
   ],
   "drops": {

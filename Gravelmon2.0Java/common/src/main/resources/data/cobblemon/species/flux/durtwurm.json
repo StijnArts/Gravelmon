@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "Durtwurm",
-  "nationalPokedexNumber": 2558,
+  "nationalPokedexNumber": 2559,
   "primaryType": "bug",
   "secondaryType": "ground",
   "abilities": [
@@ -37,7 +37,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 120,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 125,

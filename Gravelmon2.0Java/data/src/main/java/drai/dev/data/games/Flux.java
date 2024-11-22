@@ -28,10 +28,12 @@ public class Flux extends Game {
         addNewPokemon(new Capymigo());
         addNewPokemon(new Humborb());
         addNewPokemon(new Navibri());
-//        pokemon.add(new Turbolibri()); Not Made yet
+        addNewPokemon(new Turbolibri());
+        addPokedexPokemon("ledyba, ledian-alteran");
         addNewPokemon(new Squrmy());
         addNewPokemon(new Durtwurm());
-//        pokemon.add(new Wurmiterra());  Not Made yetnido
+        addNewPokemon(new Wurmiterra());
+        addPokedexPokemon("owten-alteran, eshouten-alteran");
         addNewPokemon(new Tanupy());
         addNewPokemon(new Tanscure());
         addNewPokemon(new Sluchuu());
@@ -77,6 +79,7 @@ public class Flux extends Game {
         addNewPokemon(new Inflagetah());
         addNewPokemon(new Jerbolta());
         addNewPokemon(new Karmilarie());
+        addPokedexPokemon("ekans-alteran, arbok-alteran");
         addNewPokemon(new Cactana());
 //        pokemon.add(new AlteranChimical()); //unfinished
         addNewPokemon(new Emberge());

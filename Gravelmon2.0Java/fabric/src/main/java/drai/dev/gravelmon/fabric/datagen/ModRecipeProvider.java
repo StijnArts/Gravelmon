@@ -195,6 +195,42 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .save(exporter);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC,
+                        GravelmonBlocks.ASTRAL_STONE_BLOCK.get(),1)
+                .pattern("###")
+                .pattern("###")
+                .pattern("###")
+                .define('#', GravelmonItems.ASTRAL_STONE.get())
+                .unlockedBy("hasAstralStone", has(GravelmonItems.ASTRAL_STONE.get()))
+                .save(exporter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC,
+                        GravelmonBlocks.AIR_STONE_BLOCK.get(),1)
+                .pattern("###")
+                .pattern("###")
+                .pattern("###")
+                .define('#', GravelmonItems.AIR_STONE.get())
+                .unlockedBy("hasAirStone", has(GravelmonItems.AIR_STONE.get()))
+                .save(exporter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC,
+                        GravelmonBlocks.MYSTIC_STONE_BLOCK.get(),1)
+                .pattern("###")
+                .pattern("###")
+                .pattern("###")
+                .define('#', GravelmonItems.MYSTIC_STONE.get())
+                .unlockedBy("hasMysticStone", has(GravelmonItems.MYSTIC_STONE.get()))
+                .save(exporter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC,
+                        GravelmonBlocks.SOLID_STONE_BLOCK.get(),1)
+                .pattern("###")
+                .pattern("###")
+                .pattern("###")
+                .define('#', GravelmonItems.SOLID_STONE.get())
+                .unlockedBy("hasSolidStone", has(GravelmonItems.SOLID_STONE.get()))
+                .save(exporter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC,
                         GravelmonItems.QUANTUM_UPGRADE.get(),1)
                 .pattern("TLT")
                 .pattern("SAS")

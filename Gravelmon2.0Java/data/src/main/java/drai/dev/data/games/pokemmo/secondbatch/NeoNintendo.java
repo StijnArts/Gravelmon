@@ -12,6 +12,7 @@ public class NeoNintendo extends drai.dev.data.games.registry.Game {
     public void registerPokemon() {
 //        pokemon.add(new NeoZubat(41)); Member of line not finished
 //        pokemon.add(new NeoGeodude(74)); Member of line not finished
+        addPokedexPokemon("cacnea-neo");
         addNewPokemon(new Cactussle());
 //        pokemon.add(new NeoTurtwig(387));Member of line not finished
 //        pokemon.add(new NeoGrotle(388));Member of line not finished

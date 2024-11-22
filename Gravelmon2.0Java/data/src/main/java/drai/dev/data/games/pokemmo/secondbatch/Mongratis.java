@@ -7,7 +7,7 @@ public class Mongratis extends drai.dev.data.games.registry.Game {
     public Mongratis() {
         super("Mongratis");
     }
-
+    //TODO integrate pokedex
     @Override
     public void registerPokemon() {
         addNewPokemon(new Geckrow());
@@ -40,7 +40,6 @@ public class Mongratis extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Ariados(168));
         addNewPokemon(new Tormine());
         addNewPokemon(new Sunnydra());
-//        pokemon.add(new Luvdisc(370));
         addNewPokemon(new Shorelorn());
         addNewPokemon(new Cryscross());
 //        pokemon.add(new Wolfman());   Missing Stats

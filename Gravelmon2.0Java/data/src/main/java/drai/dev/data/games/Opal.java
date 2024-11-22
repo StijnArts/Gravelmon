@@ -2,6 +2,8 @@ package drai.dev.data.games;
 
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.opalo.*;
+import drai.dev.data.pokemon.opalo.regional.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Opal extends Game {
     public Opal() {
@@ -10,6 +12,7 @@ public class Opal extends Game {
 
     @Override
     public void registerPokemon() {
+        addPokedexPokemon("venomoth-cefiran, Diglett-cefiran, Dugtrio-cefiran, Meowth-cefiran, Persian-cefiran, Meowth-cefiran, Persian-cefiran, Meowth-cefiran, Persian-cefiran, Teddiursa-cefiran, Ursaring-cefiran, Slugma-cefiran, Magcargo-cefiran, Delibird-cefiran, Smeargle-cefiran, Makuhita-cefiran, Hariyama-cefiran, Sableye-cefiran, Numel-cefiran, Camerupt-cefiran, Vibrava-cefiran, Flygon-cefiran, Snorunt-cefiran, Glalie-cefiran, Froslass-cefiran, Snover-cefiran, Abomasnow-cefiran, Petilil-cefiran, Lilligant-cefiran, Gothitelle-cefiran, Golett-cefiran, Golurk-cefiran, Klefki-cefiran".toLowerCase());
         addNewPokemon(new Snampery());
         addNewPokemon(new Descargot());
         addNewPokemon(new Gastesla());

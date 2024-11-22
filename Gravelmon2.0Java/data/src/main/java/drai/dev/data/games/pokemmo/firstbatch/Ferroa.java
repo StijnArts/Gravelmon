@@ -73,6 +73,8 @@ public class Ferroa extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Eyesaur());
         addNewPokemon(new CrozoicanEyesi("eyesi", Aspect.CROZOICAN));
         addNewPokemon(new CrozoicanEyesaur("eyesaur", Aspect.CROZOICAN));
+        removePokedexPokemon("eyesi-crozoican");
+        removePokedexPokemon("eyesaur-crozoican");
         addNewPokemon(new Disructor());
         addNewPokemon(new Rhinozer());
         addNewPokemon(new Rhinolition());
@@ -100,9 +102,11 @@ public class Ferroa extends drai.dev.data.games.registry.Game {
         var partae = new Partae();
         addNewPokemon(partae);
         addNewPokemon(new LostIslandsPartae("", Aspect.LOST_ISLANDS));
+        removePokedexPokemon("partae-lost_islands");
         var loftival = new Loftival();
         addNewPokemon(loftival);
         addNewPokemon(new LostIslandsLoftival("", Aspect.LOST_ISLANDS));
+        removePokedexPokemon("loftival-lost_islands");
         addNewPokemon(new Hotdach());
         addNewPokemon(new Schnausage());
         addNewPokemon(new Hammerod());
@@ -187,9 +191,11 @@ public class Ferroa extends drai.dev.data.games.registry.Game {
         var snipion = new Snipion();
         addNewPokemon(snipion);
         addNewPokemon(new CrozoicanSnipion("", Aspect.CROZOICAN));
+        removePokedexPokemon("snipion-crozoican");
         var chainScraw = new Chainscraw();
         addNewPokemon(chainScraw);
         addNewPokemon(new CrozoicanChainscraw("", Aspect.CROZOICAN));
+        removePokedexPokemon("chainscraw-crozoican");
         addNewPokemon(new Enigmore());
         addNewPokemon(new Oculustrous());
         addNewPokemon(new Remainstone());

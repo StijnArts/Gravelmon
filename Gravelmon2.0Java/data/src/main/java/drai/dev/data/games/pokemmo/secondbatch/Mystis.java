@@ -7,7 +7,7 @@ public class Mystis extends drai.dev.data.games.registry.Game {
     public Mystis() {
         super("Mystis");
     }
-
+    //TODO dex integration
     @Override
     public void registerPokemon() {
         addNewPokemon(new Munchmite());

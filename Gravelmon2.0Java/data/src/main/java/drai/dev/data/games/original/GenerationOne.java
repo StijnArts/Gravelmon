@@ -1,6 +1,7 @@
 package drai.dev.data.games.original;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.enjin.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.aristos.regional.*;
@@ -48,6 +49,9 @@ public class GenerationOne extends Game {
         addNewPokemon(new FligianParas("", Aspect.FLIGIAN));
         addNewPokemon(new FligianParasect("", Aspect.FLIGIAN));
         addNewPokemon(new FligianChansey("", Aspect.FLIGIAN));
+
+        addNewPokemon(new EnjinnianDrowzee("", Aspect.ENJINNIAN));
+        addNewPokemon(new EnjinnianHypno("", Aspect.ENJINNIAN));
 
         addNewPokemon(new NovranSlowpoke("", Aspect.NOVRAN));
         addNewPokemon(new NovranSlowbro("", Aspect.NOVRAN));

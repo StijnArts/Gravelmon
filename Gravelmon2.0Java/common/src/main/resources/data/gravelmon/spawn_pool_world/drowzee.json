@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "enjinnian_drowzee-01",
+      "pokemon": "drowzee enjinnian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "8-33",
+      "weight": 5.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "timeRange": "night"
+      }
+    }
+  ]
+}

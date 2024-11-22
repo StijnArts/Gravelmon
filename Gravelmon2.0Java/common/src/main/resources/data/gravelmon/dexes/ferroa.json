@@ -1,6 +1,6 @@
 {
   "type": "cobblemon:simple_pokedex_def",
-  "sortOrder": 21,
+  "sortOrder": 23,
   "id": "gravelmon:ferroa",
   "entries": [
     "cobblemon:crabble",
@@ -61,8 +61,6 @@
     "cobblemon:erradio",
     "cobblemon:eyesi",
     "cobblemon:eyesaur",
-    "cobblemon:eyesi-crozoican",
-    "cobblemon:eyesaur-crozoican",
     "cobblemon:disructor",
     "cobblemon:rhinozer",
     "cobblemon:rhinolition",
@@ -168,9 +166,7 @@
     "cobblemon:glacicrawl",
     "cobblemon:velvedrake",
     "cobblemon:snipion",
-    "cobblemon:snipion-crozoican",
     "cobblemon:chainscraw",
-    "cobblemon:chainscraw-crozoican",
     "cobblemon:enigmore",
     "cobblemon:oculustrous",
     "cobblemon:remainstone",

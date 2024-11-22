@@ -50,5 +50,10 @@ public class ModBlockLootTables extends FabricBlockLootTableProvider {
                 createSilkTouchDispatchTable(GravelmonBlocks.DEEPSLATE_SOLID_STONE_ORE.get(),
                         applyExplosionCondition(GravelmonBlocks.DEEPSLATE_SOLID_STONE_ORE.get(),
                                 LootItem.lootTableItem(GravelmonItems.SOLID_STONE.get()))));
-        }
+
+        dropSelf(GravelmonBlocks.ASTRAL_STONE_BLOCK.get());
+        dropSelf(GravelmonBlocks.AIR_STONE_BLOCK.get());
+        dropSelf(GravelmonBlocks.MYSTIC_STONE_BLOCK.get());
+        dropSelf(GravelmonBlocks.SOLID_STONE_BLOCK.get());
+    }
 }

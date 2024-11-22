@@ -40,12 +40,15 @@ public class Novrai extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Tarantailor());
         addNewPokemon(new Peculine());
         addNewPokemon(new Quezabeast());
+        addPokedexPokemon("cherubi-novran, cherrim-novran");
         addNewPokemon(new Nectair());
         addNewPokemon(new Soarup());
+        addPokedexPokemon("lillipup, herdier-novran, stoutland-novran");
         addNewPokemon(new Vileech());
         addNewPokemon(new Encreech());
         addNewPokemon(new Yolkoo());
         addNewPokemon(new Cantankoo());
+        addPokedexPokemon("bonsly-novran, sudowoodo-novran");
         addNewPokemon(new Whispore());
         addNewPokemon(new Mysoleum());
         addNewPokemon(new Gorgarden());
@@ -77,6 +80,7 @@ public class Novrai extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Knapback());
         addNewPokemon(new Bulkpack());
         addNewPokemon(new Heftersack());
+        addPokedexPokemon("slowpoke-novran, slowbro-novran, slowking-novran");
         addNewPokemon(new Puppanzee());
         addNewPokemon(new Gorilloquy());
         addNewPokemon(new Drumble());
@@ -87,6 +91,7 @@ public class Novrai extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Stormendous());
         addNewPokemon(new Chillow());
         addNewPokemon(new Mattreeze());
+        addPokedexPokemon("wooloo-novran, dubwool-novran");
         addNewPokemon(new Kitterwaul());
         addNewPokemon(new Impawzible());
         addNewPokemon(new Gliderweb());
@@ -154,11 +159,13 @@ public class Novrai extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Glumbrella());
         addNewPokemon(new Pourasoul());
         addNewPokemon(new Spookebal());
+        addPokedexPokemon("clobbopus-novran, grapploct-novran");
         addNewPokemon(new Wrassure());
         addNewPokemon(new Wrassuage());
         addNewPokemon(new Wrassassin());
         addNewPokemon(new Baytate());
         addNewPokemon(new Perilscope());
+        addPokedexPokemon("skrelp-novran, dragalge-novran");
         addNewPokemon(new Nemosis());
         addNewPokemon(new Anembidex());
         addNewPokemon(new Jigglwiggl());
@@ -173,6 +180,7 @@ public class Novrai extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Upchick());
         addNewPokemon(new Carriannon());
 
+        addPokedexPokemon("hatenna-novran, hattrem-novran, hatterene-novran, impidimp-novran, morgrem-novran, grimmsnarl-novran, grimer-novran, muk-novran");
         addNewPokemon(new Kuloff());
         addNewPokemon(new Kuldown());
         addNewPokemon(new Ampaconda());
@@ -181,6 +189,8 @@ public class Novrai extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Carambug());
         addNewPokemon(new Spinostern());
         addNewPokemon(new Overroard());
+        addPokedexPokemon("cranidos-novran, rampardos-novran");
+        addPokedexPokemon("omanyte-novran, omastar-novran");
         addNewPokemon(new Cambryo());
         addNewPokemon(new Palaeodox());
         addNewPokemon(new Granvas());
@@ -190,6 +200,7 @@ public class Novrai extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Poxadoodle());
         addNewPokemon(new Minsect());
         addNewPokemon(new Crawlycane());
+        addPokedexPokemon("vanillite-novran, vanillish-novran, vanilluxe-novran");
         addNewPokemon(new Shivrr());
         addNewPokemon(new Icecreep());
         addNewPokemon(new Quaintbrush());
@@ -237,6 +248,7 @@ public class Novrai extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Forgenie());
         addNewPokemon(new Riskard());
         addNewPokemon(new Dektout());
+        addPokedexPokemon("druddigon-novran");
         addNewPokemon(new Puriphin());
         addNewPokemon(new Dumpback());
         addNewPokemon(new Allywag());
@@ -282,10 +294,14 @@ public class Novrai extends drai.dev.data.games.registry.Game {
 
         addNewPokemon(new Ballistyke());
         addNewPokemon(new Celestorch());
+        addPokedexPokemon("lapras-novran");
         addNewPokemon(new Whirlpoon());
         addNewPokemon(new Sirenaut());
         addNewPokemon(new Bristletoe());
         addNewPokemon(new Jollychaete());
+        addPokedexPokemon("clamperl");
+        addPokedexPokemon("huntail-novran");
+        addPokedexPokemon("gorebyss-novran");
         addNewPokemon(new Germelt());
         addNewPokemon(new Contagice());
         addNewPokemon(new Brumalaise());

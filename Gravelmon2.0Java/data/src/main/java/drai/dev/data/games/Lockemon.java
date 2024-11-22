@@ -31,18 +31,34 @@ public class Lockemon extends Game {
         addNewPokemon(new Apheed());
         addNewPokemon(new Musleafo());
         addNewPokemon(new Eecroach());
+        addPokedexPokemon("sandygast, palossand-kaskadian");
         addNewPokemon(new Clamtrip());
         addNewPokemon(new Rowviar());
         addNewPokemon(new Sanook());
+        addPokedexPokemon("azurill, marill-kaskadian, azumarill-kaskadian");
         addNewPokemon(new Tofrug());
         addNewPokemon(new Kaskazog());
         addNewPokemon(new Ananot());
         addNewPokemon(new Ananoop());
+        addPokedexPokemon("tropius-kaskadian, snover-kaskadian, abomasnow-kaskadian");
         addNewPokemon(new Mosster());
         addNewPokemon(new Mosskrat());
         addNewPokemon(new Catteraxe());
         addNewPokemon(new Catatomb());
+        //TODO add https://tofrugs-swamp.fandom.com/wiki/Skinka
+        addPokedexPokemon("sudowoodo-amaze_all, bidoof-kaskadian, bibarel-kaskadian, bunnelby-kaskadian, diggersby-kaskadian, gastly-kaskadian, haunter-kaskadian, gengar-kaskadian");
+        addPokedexPokemon(
+                "eevee," +
+                        "vaporeon," +
+                        "jolteon," +
+                        "flareon," +
+                        "espeon," +
+                        "umbreon," +
+                        "leafeon," +
+                        "glaceon," +
+                        "sylveon");
         addNewPokemon(new Enigmeon());
+        addPokedexPokemon("phantump-kaskadian, trevenant-kaskadian, drifloon, drifblim, drifblim-amaze_all");
         addNewPokemon(new Desoray());
         addNewPokemon(new Pudet());
         addNewPokemon(new Woond());
@@ -50,45 +66,58 @@ public class Lockemon extends Game {
         addNewPokemon(new Glashulimp());
         addNewPokemon(new Drout());
         addNewPokemon(new Guruchi());
+        addPokedexPokemon("guruchi-kaskadian, porygon, porygon2, porygonz");
         addNewPokemon(new PorygonOmega());
+        addPokedexPokemon("solosis-kaskadian, duosion-kaskadian, reuniclus-kaskadian");
         addNewPokemon(new Estoe());
         addNewPokemon(new Perpetua());
         addNewPokemon(new Tooburm());
+        addPokedexPokemon("drilbur, excadrill-kaskadian");
         addNewPokemon(new Detrarc());
         addNewPokemon(new Qayagus());
         addNewPokemon(new Auditaur());
         addNewPokemon(new Oxillery());
+        addPokedexPokemon("wooloo, dubwool-kaskadian, mienfoo, mienshao");
         addNewPokemon(new Mienflux());
         addNewPokemon(new Gneckle());
         addNewPokemon(new Rabyoose());
         addNewPokemon(new Tamroast());
         addNewPokemon(new Vitisquash());
         addNewPokemon(new Dionysseur());
+        addPokedexPokemon("aipom, ambipom-kaskadian, timburr, gurdurr-kaskadian, conkeldurr-kaskadian");
         addNewPokemon(new Umbralu());
         addNewPokemon(new Nomobjeka());
         addNewPokemon(new Kleptarak());
         addNewPokemon(new Kituff());
         addNewPokemon(new Beadamup());
+        addPokedexPokemon("stunky, skuntank-kaskadian, rattata, raticate-kaskadian");
         addNewPokemon(new Rascoom());
+        addPokedexPokemon("whismur, loudred, exploud-kaskadian, smoochum, jynx-kaskadian");
         addNewPokemon(new Faebril());
         addNewPokemon(new Botnyak());
+        addPokedexPokemon("castform");
         addNewPokemon(new Vendrom());
         addNewPokemon(new Buwuve());
         addNewPokemon(new Wasgrowl());
         addNewPokemon(new Worcane());
+        addPokedexPokemon("zubat, golbat, crobat");
         addNewPokemon(new Probat());
         addNewPokemon(new Jemineye());
         addNewPokemon(new Oracub());
         addNewPokemon(new Bearvoyance());
         addNewPokemon(new Folleming());
+        addPokedexPokemon("bellsprout-kaskadian");
         addNewPokemon(new Drosabell());
+        addPokedexPokemon("shinx-kaskadian, luxio-kaskadian, luxray-kaskadian, yanma-kaskadian");
         addNewPokemon(new Yanmage());
         addNewPokemon(new Bloomage());
         addNewPokemon(new Obsidious());
         addNewPokemon(new Mercryni());
         addNewPokemon(new Meraculisk());
+        addPokedexPokemon("crabrawler, crabominable-kaskadian, golett-kaskadian");
         addNewPokemon(new Golgre());
         addNewPokemon(new Prospectre());
+        addPokedexPokemon("lapras-kaskadian");
         addNewPokemon(new Skideer());
         addNewPokemon(new Yuleigh());
         addNewPokemon(new Feafurr());
@@ -103,6 +132,7 @@ public class Lockemon extends Game {
         addNewPokemon(new Manadza());
         addNewPokemon(new Arctikull());
         addNewPokemon(new Wicoot());
+        addPokedexPokemon("diancie-kaskadian");
         addNewPokemon(new Orbtholod());
         addNewPokemon(new Pestalation());
         addNewPokemon(new Revylon());

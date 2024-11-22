@@ -31,10 +31,12 @@ public class Ionos extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Woomask());Member of line Not Finished
 //        pokemon.add(new Madogo());   Missing Stats
 //        pokemon.add(new Sigiping());   Missing Stats
+        addPokedexPokemon("sigilyph");
         addNewPokemon(new Meaniechu());
         addNewPokemon(new Grubdew());
         addNewPokemon(new Lohopper());
         addNewPokemon(new Wisopotron());
+        addPokedexPokemon("ekans-ionosian, arbok-ionosian");
         addNewPokemon(new Dizzpin());
 //        pokemon.add(new Mobono());   Missing Stats
 //        pokemon.add(new Shinpanzee());   Missing Stats
@@ -42,11 +44,13 @@ public class Ionos extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Spikish());   Missing Stats
 //        pokemon.add(new Nommogo());   Missing Stats
 //        pokemon.add(new Felipom());   Missing Stats
+        addPokedexPokemon("munchlax-ionosian, snorlax-ionosian");
 //        pokemon.add(new Hogletwip());   Missing Art
 //        pokemon.add(new Warhog()); Member of line Not Finished  Missing Stats
         addNewPokemon(new Larveye());
         addNewPokemon(new Eyecoon());
         addNewPokemon(new Motholus());
+        addPokedexPokemon("smoochum-ionosian, jynx-ionosian");
 //        pokemon.add(new Golfish());   Missing Stats
 //        pokemon.add(new Jewereel());  Missing Stats
 //        pokemon.add(new Crabbot());   Missing Art
@@ -60,10 +64,12 @@ public class Ionos extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Blazellous());   Missing Stats
 //        pokemon.add(new 141599());   Missing Art
 //        pokemon.add(new Acheeva());Member of line Not Finished
+        addPokedexPokemon("girafarig-ionosian");
 //        pokemon.add(new Phantrella());   Missing Stats
 //        pokemon.add(new Rockadoo());   Missing Stats
 //        pokemon.add(new Stiltiwalka());   Missing Stats
 //        pokemon.add(new Leaplip());  Missing Name  Missing Stats
+        addPokedexPokemon("shuckle-ionosian");
 //        pokemon.add(new Loafey());   Missing Stats
 //        pokemon.add(new Leonier());   Missing Stats
 //        pokemon.add(new Leonet());   Missing Stats
@@ -95,10 +101,13 @@ public class Ionos extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Sunatee());    Missing Stats
 //        pokemon.add(new Exploroid());    Missing Stats
 //        pokemon.add(new Deoxavir());    Missing Stats
+        addPokedexPokemon("deoxys");
 //        pokemon.add(new Minore());   Missing Stats
 //        pokemon.add(new Orbiter());   Missing Stats
 //        pokemon.add(new Charger());   Missing Stats
+        addPokedexPokemon("relicanth");
 //        pokemon.add(new Relido()); Missing Name   Missing Stats
+        addPokedexPokemon("kecleon");
 //        pokemon.add(new Primecleon());   Missing Stats
 //        pokemon.add(new Aquapo()); Missing Name   Missing Stats
 //        pokemon.add(new Aquadon());   Missing Stats
@@ -110,11 +119,13 @@ public class Ionos extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new 765545());   Missing Art
 //        pokemon.add(new 945());   Missing Art Member of line Not Finished
 //        pokemon.add(new 387899());  Missing Name  Missing Stats
+        addPokedexPokemon("trapinch-ionosian, vibrava-ionosian, flygon-ionosian");
 //        pokemon.add(new Pharaferno());   Missing Stats
 //        pokemon.add(new Heloisk());   Missing Stats
         addNewPokemon(new Mumby());
         addNewPokemon(new Pharumm());
         addNewPokemon(new Caconie());
+        addPokedexPokemon("natu-ionosian, xatu-ionosian");
 //        pokemon.add(new Tennestrian());   Missing Stats
 //        pokemon.add(new Knightmor());Member of line Not Finished
 //        pokemon.add(new Eevvee());Member of line Not Finished
@@ -131,6 +142,9 @@ public class Ionos extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Cerbenos());   Missing Stats
         addNewPokemon(new Drahoggon());
         addNewPokemon(new Oldeture());
+        addPokedexPokemon("chikorita-ionosian, bayleef-ionosian, meganium-ionosian");
+        addPokedexPokemon("cyndaquil-ionosian, quilava-ionosian, typhlosion-ionosian");
+        addPokedexPokemon("totodile-ionosian, croconaw-ionosian, feraligatr-ionosian");
 //        pokemon.add(new Faunler());  Missing Stats
 //        pokemon.add(new Satyrnus());  Missing Stats
 //        pokemon.add(new Tauracho());Member of line Not Finished
@@ -160,12 +174,14 @@ public class Ionos extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Scubargon());  Missing Stats
 //        pokemon.add(new Sermurgon());  Missing Stats
 //        pokemon.add(new MrMind());   Missing Stats
+        addPokedexPokemon("snubbull, granbull-ionosian");
 //        pokemon.add(new Wiselicious());Member of line Not Finished
 //        pokemon.add(new Buggisk());   Missing Stats
 //        pokemon.add(new Clownfisk());   Missing Stats
 //        pokemon.add(new Sprawniple());   Missing Stats
 //        pokemon.add(new Angligh());   Missing Stats
 //        pokemon.add(new Tranoler());   Missing Stats
+        addPokedexPokemon("chatot");
 //        pokemon.add(new Chatart());   Missing Stats
         addNewPokemon(new Minkin());
         addNewPokemon(new Rivacal());
@@ -173,6 +189,9 @@ public class Ionos extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Clusturb());   Missing Stats
 //        pokemon.add(new Shortulp());   Missing Stats
 //        pokemon.add(new Antello());   Missing Stats
+        addPokedexPokemon("porygon");
+        addPokedexPokemon("porygon2");
+        addPokedexPokemon("porygonz");
         addNewPokemon(new PorygonY());
 //        pokemon.add(new Duelleon());   Missing Stats
 //        pokemon.add(new Fefae());   Missing Stats
@@ -183,6 +202,7 @@ public class Ionos extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Destructos());
         addNewPokemon(new Bubill());
         addNewPokemon(new Daimonize());
+        addPokedexPokemon("druddigon-ionosian");
 //        pokemon.add(new Gildthera());   Missing Stats
 //        pokemon.add(new Pythion());   Missing Stats
 //        pokemon.add(new Taurion());   Missing Stats

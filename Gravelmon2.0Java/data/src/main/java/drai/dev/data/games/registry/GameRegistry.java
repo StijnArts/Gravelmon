@@ -28,18 +28,21 @@ public class GameRegistry {
         games.add(new Rica());
         games.add(new Infinity());
         games.add(new Dhiome());
+        games.add(new Sevii());
         games.add(new Lagoone());
         games.add(new HUB());
         games.add(new Interregional());
         games.add(new Opal());
+        games.add(new PhoenixRising());
         games.add(new Ferroa());
         games.add(new Insurgence());
         games.add(new Enriko());
         games.add(new Xenoverse());
-        games.add(new Avoris());//TODO restore the old species files
+        games.add(new Avoris());
         games.add(new Oceane());
         games.add(new Varitas());
         games.add(new Aristos());
+        games.add(new Azure());
         games.add(new Uranium());
         games.add(new Flux());
         games.add(new Hiza());

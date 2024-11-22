@@ -27,6 +27,7 @@ public class HUB extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Mushcary());
         addNewPokemon(new Sakurovix());
         addNewPokemon(new Nephelith());
+        addPokedexPokemon("togepi-hubian, togetic-hubian, togekiss-hubian, smeargle-hubian");
     }
 
 }

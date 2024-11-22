@@ -7,7 +7,7 @@ public class Nodorro extends drai.dev.data.games.registry.Game {
     public Nodorro() {
         super("Nodorro");
     }
-
+    //TODO dex integration
     @Override
     public void registerPokemon() {
         addNewPokemon(new Faunox());

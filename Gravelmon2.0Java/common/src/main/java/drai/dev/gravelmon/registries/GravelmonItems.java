@@ -88,12 +88,16 @@ public class GravelmonItems {
     //Block Items
     public static RegistrySupplier<Item> ASTRAL_STONE_ORE = blockItem("astral_stone_ore_block_item", GravelmonBlocks.ASTRAL_STONE_ORE);
     public static RegistrySupplier<Item> DEEPSLATE_ASTRAL_STONE_ORE = blockItem("deepslate_astral_stone_ore_block_item", GravelmonBlocks.DEEPSLATE_ASTRAL_STONE_ORE);
+    public static RegistrySupplier<Item> ASTRAL_STONE_BLOCK = blockItem("astral_stone_block", GravelmonBlocks.ASTRAL_STONE_BLOCK);
     public static RegistrySupplier<Item> AIR_STONE_ORE = blockItem("air_stone_ore", GravelmonBlocks.AIR_STONE_ORE);
     public static RegistrySupplier<Item> DEEPSLATE_AIR_STONE_ORE = blockItem("deepslate_air_stone_ore", GravelmonBlocks.DEEPSLATE_AIR_STONE_ORE);
+    public static RegistrySupplier<Item> AIR_STONE_BLOCK = blockItem("air_stone_block", GravelmonBlocks.AIR_STONE_BLOCK);
     public static RegistrySupplier<Item> MYSTIC_STONE_ORE = blockItem("mystic_stone_ore", GravelmonBlocks.MYSTIC_STONE_ORE);
     public static RegistrySupplier<Item> DEEPSLATE_MYSTIC_STONE_ORE = blockItem("deepslate_mystic_stone_ore", GravelmonBlocks.DEEPSLATE_MYSTIC_STONE_ORE);
+    public static RegistrySupplier<Item> MYSTIC_STONE_BLOCK = blockItem("mystic_stone_block", GravelmonBlocks.MYSTIC_STONE_BLOCK);
     public static RegistrySupplier<Item> SOLID_STONE_ORE = blockItem("solid_stone_ore", GravelmonBlocks.SOLID_STONE_ORE);
     public static RegistrySupplier<Item> DEEPSLATE_SOLID_STONE_ORE = blockItem("deepslate_solid_stone_ore", GravelmonBlocks.DEEPSLATE_SOLID_STONE_ORE);
+    public static RegistrySupplier<Item> SOLID_STONE_BLOCK = blockItem("solid_stone_block", GravelmonBlocks.SOLID_STONE_BLOCK);
 
     //Pokeballs
     public static RegistrySupplier<PokeBallItem> MAUVE_BALL;

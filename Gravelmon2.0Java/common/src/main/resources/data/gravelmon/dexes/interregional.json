@@ -1,6 +1,6 @@
 {
   "type": "cobblemon:simple_pokedex_def",
-  "sortOrder": 19,
+  "sortOrder": 20,
   "id": "gravelmon:interregional",
   "entries": [
     "cobblemon:leafrog",
@@ -33,8 +33,11 @@
     "cobblemon:conkamite",
     "cobblemon:whirm",
     "cobblemon:grappore",
+    "cobblemon:spinda",
     "cobblemon:panditsy",
+    "cobblemon:zangoose",
     "cobblemon:zangarsh",
+    "cobblemon:smeargle",
     "cobblemon:beagasso",
     "cobblemon:onnidix",
     "cobblemon:onnibud",
@@ -111,6 +114,11 @@
     "cobblemon:mechrazore",
     "cobblemon:slanbolos",
     "cobblemon:oceausky",
-    "cobblemon:nifflom"
+    "cobblemon:nifflom",
+    "cobblemon:genesect-interian",
+    "cobblemon:arceus-interian",
+    "cobblemon:piplup-interian",
+    "cobblemon:prinplup-interian",
+    "cobblemon:empoleon-interian"
   ]
 }

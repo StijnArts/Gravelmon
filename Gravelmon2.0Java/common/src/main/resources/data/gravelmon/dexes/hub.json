@@ -1,6 +1,6 @@
 {
   "type": "cobblemon:simple_pokedex_def",
-  "sortOrder": 18,
+  "sortOrder": 19,
   "id": "gravelmon:hub",
   "entries": [
     "cobblemon:mobipup",
@@ -20,6 +20,10 @@
     "cobblemon:mushilly",
     "cobblemon:mushcary",
     "cobblemon:sakurovix",
-    "cobblemon:nephelith"
+    "cobblemon:nephelith",
+    "cobblemon:togepi-hubian",
+    "cobblemon:togetic-hubian",
+    "cobblemon:togekiss-hubian",
+    "cobblemon:smeargle-hubian"
   ]
 }

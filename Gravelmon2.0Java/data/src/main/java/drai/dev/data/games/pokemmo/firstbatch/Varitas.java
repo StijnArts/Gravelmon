@@ -63,6 +63,7 @@ public class Varitas extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Kwiklik());
         addNewPokemon(new Binarray(new Stats(476, StatArchetype.FAST_SPECIAL_WALL, List.of(StatType.SPEED))));
         addNewPokemon(new Purradox(new Stats(423, StatArchetype.FAST_SUPPORT, List.of(StatType.SPEED))));
+        addPokedexPokemon("impidimp-varitasian, morgrem-varitasian");
         addNewPokemon(new Grimpire(new Stats(510, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPEED))));
 //        pokemon.add(new Hatterage()); Missing Art;
 //        pokemon.add(new Knifish()); Missing Art
@@ -76,18 +77,22 @@ public class Varitas extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Snowbrawl());Missing Art
 //        pokemon.add(new Whizoom());Missing Art
 //        pokemon.add(new Urnaround());Missing Art
+        addPokedexPokemon("klink-varitasian, klang-varitasian");
         addNewPokemon(new Tanklang());
         addNewPokemon(new Goopipe());
         addNewPokemon(new Piplex());
         addNewPokemon(new Sinklutter(new Stats(512, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))));
 //        pokemon.add(new Galactix()); Missing Art
 //        pokemon.add(new Marowing()); Missing Art
+        addPokedexPokemon("wynaut, wobbuffet-varitasian, dunsparce");
 
         addNewPokemon(new Dustout(new Stats(498, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.SPEED))));
+        addPokedexPokemon("girafarig");
         addNewPokemon(new Kirinirik(new Stats(550, StatArchetype.MIXED_ATTACKER, List.of(StatType.SPEED))));
 //        pokemon.add(new Coreef()); Missing Art
 //        pokemon.add(new Jollibird()); Missing Art
 //        pokemon.add(new Smeartiste()); Missing Art
+        addPokedexPokemon("kecleon");
         addNewPokemon(new Concealeon());
         addNewPokemon(new Pestilint());
         addNewPokemon(new Carvesta());
@@ -100,19 +105,27 @@ public class Varitas extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Graceola());
         addNewPokemon(new Severm());
         addNewPokemon(new Infesteed());
+        addPokedexPokemon("bounsweet-varitasian, steenee-varitasian");
         addNewPokemon(new Frankensteen());
+        addPokedexPokemon("phantump-varitasian, trevenant-varitasian, flabebe-varitasian, floette-varitasian");
         addNewPokemon(new Sporges());
+        addPokedexPokemon("yamask-varitasian");
         addNewPokemon(new Mirrorigus());
+        addPokedexPokemon("swablu-varitasian, altaria-varitasian, porygon-varitasian, porygon2-varitasian");
         addNewPokemon(new Porygon0());
 //        pokemon.add(new Frostooth());Member of line Not Finished
 //        pokemon.add(new Jawcicle()); Missing Art
 //        pokemon.add(new Alliglacier()); Missing Art
+        addPokedexPokemon("tyrogue-varitasian, hitmonlee-varitasian, hitmonchan-varitasian, hitmontop-varitasian, munchlax-varitasian");
         addNewPokemon(new Snarlax());
+        addPokedexPokemon("tynamo-varitasian, eelektrik-varitasian, eelektross-varitasian");
         addNewPokemon(new Lasaur());
         addNewPokemon(new Lectrosaur());
         addNewPokemon(new Confectious());
         addNewPokemon(new Garbadjinn());
+        addPokedexPokemon("milcery-varitasian, alcremie-varitasian, togepi-varitasian, togetic-varitasian");
         addNewPokemon(new Togetect());
+        addPokedexPokemon("raikou-varitasian, entei-varitasian, suicune-varitasian");
     }
 
 }

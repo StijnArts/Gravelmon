@@ -1,6 +1,6 @@
 {
   "type": "cobblemon:simple_pokedex_def",
-  "sortOrder": 25,
+  "sortOrder": 27,
   "id": "gravelmon:avoris",
   "entries": [
     "cobblemon:fyrmite",
@@ -36,10 +36,13 @@
     "cobblemon:wrecktonic",
     "cobblemon:elescent",
     "cobblemon:aromaphant",
+    "cobblemon:maractus-avorian",
     "cobblemon:maracabre",
     "cobblemon:cacotile",
     "cobblemon:tankodile",
     "cobblemon:pyramud",
-    "cobblemon:pyradoom"
+    "cobblemon:pyradoom",
+    "cobblemon:mimejr",
+    "cobblemon:mrmime-avorian"
   ]
 }

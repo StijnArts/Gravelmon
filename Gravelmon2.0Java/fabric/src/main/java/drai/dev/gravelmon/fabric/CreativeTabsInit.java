@@ -100,17 +100,25 @@ public class CreativeTabsInit {
                     GravelmonItems.ASTRAL_STONE_ORE.get().asItem().getDefaultInstance());
             entries.addBefore(CobblemonItems.DAWN_STONE_ORE.asItem().getDefaultInstance(),
                     GravelmonItems.DEEPSLATE_ASTRAL_STONE_ORE.get().asItem().getDefaultInstance());
+            entries.addBefore(CobblemonItems.DAWN_STONE_BLOCK.asItem().getDefaultInstance(),
+                    GravelmonItems.AIR_STONE_BLOCK.get().asItem().getDefaultInstance());
+            entries.addBefore(CobblemonItems.DAWN_STONE_BLOCK.asItem().getDefaultInstance(),
+                    GravelmonItems.ASTRAL_STONE_BLOCK.get().asItem().getDefaultInstance());
 
             entries.addBefore(CobblemonItems.MOON_STONE_ORE.asItem().getDefaultInstance(),
                     GravelmonItems.MYSTIC_STONE_ORE.get().asItem().getDefaultInstance());
             entries.addBefore(CobblemonItems.MOON_STONE_ORE.asItem().getDefaultInstance(),
                     GravelmonItems.DEEPSLATE_MYSTIC_STONE_ORE.get().asItem().getDefaultInstance());
+            entries.addAfter(CobblemonItems.MOON_STONE_BLOCK.asItem().getDefaultInstance(),
+                    GravelmonItems.MYSTIC_STONE_BLOCK.get().asItem().getDefaultInstance());
 
             entries.addAfter(CobblemonItems.DEEPSLATE_SHINY_STONE_ORE.asItem().getDefaultInstance(),
                     GravelmonItems.DEEPSLATE_SOLID_STONE_ORE.get().asItem().getDefaultInstance());
             entries.addAfter(CobblemonItems.DEEPSLATE_SHINY_STONE_ORE.asItem().getDefaultInstance(),
                     GravelmonItems.SOLID_STONE_ORE.get().asItem().getDefaultInstance());
-            entries.accept(CobblemonItems.DEEPSLATE_SHINY_STONE_ORE.asItem().getDefaultInstance());
+            entries.addAfter(CobblemonItems.SHINY_STONE_BLOCK.asItem().getDefaultInstance(),
+                    GravelmonItems.SOLID_STONE_BLOCK.get().asItem().getDefaultInstance());
+
         });
 
         ItemGroupEvents.modifyEntriesEvent(CobblemonItemGroups.getHELD_ITEMS_KEY()).register(entries -> {

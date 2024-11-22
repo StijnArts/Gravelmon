@@ -19,7 +19,7 @@ public class Durtwurm extends Pokemon {
                         40),
                 List.of(Ability.WEAK_ARMOR, Ability.DRY_SKIN), Ability.DRY_SKIN,
                 5, 82,
-                new Stats(0,0,1,0,1,0), 255,
+                new Stats(0,0,1,0,1,0), 120,
                 0.5,
                 125, ExperienceGroup.FAST,
                 70,

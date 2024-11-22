@@ -7,7 +7,7 @@ public class Lagoone extends drai.dev.data.games.registry.Game {
     public Lagoone() {
         super("Lagoone");
     }
-
+//TODO add regionals after Webbewulf
     @Override
     public void registerPokemon() {
         addNewPokemon(new Leafin());
@@ -40,12 +40,14 @@ public class Lagoone extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Gigantuna());
         addNewPokemon(new Echolite());
         addNewPokemon(new Teravat());
+        addPokedexPokemon("chatot");
         addNewPokemon(new Symphot());
         addNewPokemon(new Clunch());
         addNewPokemon(new Locklusk());
         addNewPokemon(new Bountyrant());
         addNewPokemon(new Biscaneer());
         addNewPokemon(new Gingerbeard());
+        addPokedexPokemon("sableye-lagoonan");
         addNewPokemon(new Pesteeny());
         addNewPokemon(new Tadwobble());
         addNewPokemon(new Madhopple());
@@ -69,6 +71,7 @@ public class Lagoone extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Raizinger());
         addNewPokemon(new Sandime());
         addNewPokemon(new Starena());
+        addPokedexPokemon("litwick-lagoonan, lampent-lagoonan, chandelure-lagoonan, finneon-lagoonan, lumineon-lagoonan");
         addNewPokemon(new Gloomineon());
         addNewPokemon(new Boulblin());
         addNewPokemon(new Colossalgae());

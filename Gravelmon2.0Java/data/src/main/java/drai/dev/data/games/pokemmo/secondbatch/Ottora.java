@@ -6,7 +6,7 @@ public class Ottora extends drai.dev.data.games.registry.Game {
     public Ottora() {
         super("Ottora");
     }
-
+//TODO DEX
     @Override
     public void registerPokemon() {
         addNewPokemon(new Hopling());

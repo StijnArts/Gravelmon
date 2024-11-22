@@ -10,6 +10,7 @@ public class Infinity extends Game {
 
     @Override
     public void registerPokemon() {
+        addPokedexPokemon("bulbasaur-egho, ivysaur-egho, venusaur-egho, charmander-egho, charmeleon-egho, charizard-egho, squirtle-egho, wartortle-egho, blastoise-egho");
         //Lukpup line
         addNewPokemon(new Lukpup());
         addNewPokemon(new Lukagon());
@@ -28,18 +29,33 @@ public class Infinity extends Game {
         addNewPokemon(new Brutoad());
         addNewPokemon(new Godfrogger());
 
+        addPokedexPokemon("pichu, pikachu");
         addNewPokemon(new Gorochu());
+        addPokedexPokemon("nidoranf, nidorina, nidoqueen, nidoranm, nidorino, nidoking");
         addNewPokemon(new Nidorook());
-
+        addPokedexPokemon("dunsparce");
         addNewPokemon(new Quezsparce());
-
+        addPokedexPokemon("meowth, persian");
         addNewPokemon(new Faeralynx());
 
+        addPokedexPokemon("shellder-egho");
         addNewPokemon(new Skulkraken());
 
+        addPokedexPokemon("grimer-egho, muk-egho");
         addNewPokemon(new Oozma());
 
         //Eeveelutions
+
+        addPokedexPokemon(
+                "eevee," +
+                        "vaporeon," +
+                        "jolteon," +
+                        "flareon," +
+                        "espeon," +
+                        "umbreon," +
+                        "leafeon," +
+                        "glaceon," +
+                        "sylveon");
         //TODO add move vanish to eevee evolution moves
         addNewPokemon(new Omeon());
         //TODO add expert belt as evolution condition instead of black belt to eevee file
@@ -56,52 +72,46 @@ public class Infinity extends Game {
         //TODO add move eevoboost to eevee evolution moves
         addNewPokemon(new Eeveeon());
         addNewPokemon(new Vareon());
+        addPokedexPokemon("cubone, marowak");
         addNewPokemon(new Terathwack());
-
+        addPokedexPokemon("spearow-egho, fearow-egho, hoothoot-egho, noctowl-egho");
         addNewPokemon(new Grimfowl());
-
+        addPokedexPokemon("azurill-egho, marill-egho, azumarill-egho, trubbish-egho, garbodor-egho, swablu-egho, altaria-egho, lotad-egho, lombre-egho, ludicolo-egho, sunkern, sunflora");
         addNewPokemon(new Sunflorid());
-        //TODO add move brain freeze to jynx evolution moves
+        addPokedexPokemon("smoochum, jynx");
         addNewPokemon(new Sorcerice());
-
+        addPokedexPokemon("kecleon");
         addNewPokemon(new Kecleodon());
-
+        addPokedexPokemon("magnemite-egho, magneton-egho, magnezone-egho, tangela-egho, tangrowth-egho, poochyena, mightyena");
         addNewPokemon(new Wereyena());
-
         addNewPokemon(new Reaptide());
-
+        addPokedexPokemon("happiny-egho, chansey-egho, blissey-egho");
         //Kidfoot line
         addNewPokemon(new Kidfoot());
         addNewPokemon(new Snosquatch());
         addNewPokemon(new Grasquatch());
-
         //Arctusk line
         addNewPokemon(new Arctusk());
         addNewPokemon(new Gigantusk());
-
         //Iceros line
         addNewPokemon(new Iceros());
         addNewPokemon(new Glacieros());
-
         addNewPokemon(new Mockroach());
-
+        addPokedexPokemon("delibird");
         addNewPokemon(new Jollibird());
-
+        addPokedexPokemon("qwilfish");
         addNewPokemon(new Kablowfish());
-
-        //Scalarva line
         addNewPokemon(new Scalarva());
         addNewPokemon(new Dragalis());
         addNewPokemon(new Ceregal());
-
-        //Gargon line
         addNewPokemon(new Gargon());
         addNewPokemon(new Wardern());
         addNewPokemon(new Dragoyle());
-
+        addPokedexPokemon("porygon, porygon2, porygonz");
         addNewPokemon(new PorygonX());
 
         //Egho Oddish line
+        addPokedexPokemon("oddish-egho, gloom-egho");
         addNewPokemon(new Viledoom());
         addNewPokemon(new Mortossum());
 
@@ -111,10 +121,14 @@ public class Infinity extends Game {
         addNewPokemon(new Shroomage());
 
         addNewPokemon(new Calfpint());
+        addPokedexPokemon("tauros, miltank");
 
         addNewPokemon(new Arbird());
+        addPokedexPokemon("skarmory");
 
         //Girafarig evos
+        addPokedexPokemon("girafarig");
+        addPokedexPokemon("farigiraf");
         addNewPokemon(new Girafaraf());
         addNewPokemon(new Giragira());
 
@@ -125,6 +139,9 @@ public class Infinity extends Game {
         //Zapalope line
         addNewPokemon(new Zapalope());
         addNewPokemon(new Joltalope());
+        addPokedexPokemon("chikorita-egho, bayleef-egho, meganium-egho");
+        addPokedexPokemon("cyndaquil-egho, quilava-egho, typhlosion-egho");
+        addPokedexPokemon("totodile-egho, croconaw-egho, feraligatr-egho");
 
         addNewPokemon(new Mewthree());
 

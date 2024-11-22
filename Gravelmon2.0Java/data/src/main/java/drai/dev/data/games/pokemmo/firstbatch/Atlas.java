@@ -111,6 +111,7 @@ public class Atlas extends drai.dev.data.games.registry.Game {
         var crocodily = new Crocodily();
         addNewPokemon(crocodily);
 //        pokemon.add(new OkenianCrocodily(crocodily.getPokedexNumber())); //Member of line not Finished
+        pokedex.remove("crocodily-okenian");
         addNewPokemon(new Logrodile());
         addNewPokemon(new Jawligator());
         addNewPokemon(new Squirest());
@@ -130,6 +131,7 @@ public class Atlas extends drai.dev.data.games.registry.Game {
         var dustar = new Dustar();
         addNewPokemon(dustar);
         addNewPokemon(new OkenianDustar("", Aspect.OKENIAN));
+        pokedex.remove("dustar-okenian");
         addNewPokemon(new Clustar());
         addNewPokemon(new Astervoid());
         addNewPokemon(new Compella());

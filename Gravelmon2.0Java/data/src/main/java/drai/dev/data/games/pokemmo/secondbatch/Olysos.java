@@ -7,7 +7,7 @@ public class Olysos extends drai.dev.data.games.registry.Game {
     public Olysos() {
         super("Olysos");
     }
-
+    //TODO dex entries
     @Override
     public void registerPokemon() {
         addNewPokemon(new Cubtus());
