@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "cascotta-1",
+      "id": "cascotta-01",
       "pokemon": "cascotta",
       "presets": [
-          "near_water"
+        "near_water"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,8 +15,11 @@
       "level": "24-35",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_river" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_river"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

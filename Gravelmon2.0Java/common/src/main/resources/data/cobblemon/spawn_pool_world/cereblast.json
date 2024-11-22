@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "cereblast-1",
+      "id": "cereblast-01",
       "pokemon": "cereblast",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,13 @@
       "level": "51-65",
       "weight": 0.4,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+        "biomes": [
+          "#cobblemon:is_sky",
+          "#cobblemon:is_mountain"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

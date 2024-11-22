@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fawntom-1",
+      "id": "fawntom-01",
       "pokemon": "fawntom",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "6-28",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_taiga" ],
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ],
         "timeRange": "night"
       }
     }

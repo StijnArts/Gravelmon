@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltacofagrigus-1",
-      "pokemon": "cofagrigus-delta",
+      "id": "delta_cofagrigus-01",
+      "pokemon": "cofagrigus delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,18 @@
       "level": "34-58",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_deep_dark" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "cofagrigusx-1",
-      "pokemon": "cofagrigus-x",
+      "id": "x_cofagrigus-01",
+      "pokemon": "cofagrigus x",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,9 +34,10 @@
       "level": "34-46",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#minecraft:is_end" ]
+        "biomes": [
+          "#minecraft:is_end"
+        ]
       }
     }
-
-]
+  ]
 }

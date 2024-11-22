@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "darakuma-1",
+      "id": "darakuma-01",
       "pokemon": "darakuma",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "2-19",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

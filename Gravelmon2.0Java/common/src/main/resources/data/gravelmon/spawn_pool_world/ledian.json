@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "alteranledian-1",
-      "pokemon": "ledian-alteran",
+      "id": "alteran_ledian-01",
+      "pokemon": "ledian alteran",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,15 +15,16 @@
       "level": "18-39",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_arid" ]
+        "biomes": [
+          "#cobblemon:is_arid"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "relicledian-1",
-      "pokemon": "ledian-relic",
+      "id": "relic_ledian-01",
+      "pokemon": "ledian relic",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -31,9 +32,10 @@
       "level": "18-39",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ]
+        "biomes": [
+          "#cobblemon:is_magical"
+        ]
       }
     }
-
-]
+  ]
 }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltafeebas-1",
-      "pokemon": "feebas-delta",
+      "id": "delta_feebas-01",
+      "pokemon": "feebas delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,15 +15,16 @@
       "level": "10-22",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ]
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "seviianfeebas-1",
-      "pokemon": "feebas-seviian",
+      "id": "seviian_feebas-01",
+      "pokemon": "feebas seviian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -31,11 +32,15 @@
       "level": "10-20",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_swamp" ]
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ]
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_cold" ]    }
+        "biomes": [
+          "#cobblemon:is_cold"
+        ]
+      }
     }
-
-]
+  ]
 }

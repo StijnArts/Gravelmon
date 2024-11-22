@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "zerbrahg-1",
+      "id": "zerbrahg-01",
       "pokemon": "zerbrahg",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "37-53",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#minecraft:is_end",
-"#cobblemon:is_badlands" ]
+        "biomes": [
+          "#minecraft:is_end",
+          "#cobblemon:is_badlands"
+        ]
       }
     }
   ]

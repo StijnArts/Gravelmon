@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "wanupp-1",
+      "id": "wanupp-01",
       "pokemon": "wanupp",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "12-39",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_mushroom",
-"#cobblemon:is_taiga" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_mushroom",
+          "#cobblemon:is_taiga"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

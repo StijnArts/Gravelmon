@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mannovolt-1",
+      "id": "mannovolt-01",
       "pokemon": "mannovolt",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,7 +15,9 @@
       "level": "33-57",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#minecraft:is_deep_ocean" ],
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ],
         "maxY": 35
       }
     }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "antager-1",
+      "id": "antager-01",
       "pokemon": "antager",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "5-37",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_taiga" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

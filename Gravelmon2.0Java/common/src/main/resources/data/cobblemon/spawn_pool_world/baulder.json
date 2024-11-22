@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "baulder-1",
+      "id": "baulder-01",
       "pokemon": "baulder",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "3-22",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_badlands" ],
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
         "timeRange": "night"
       }
     }

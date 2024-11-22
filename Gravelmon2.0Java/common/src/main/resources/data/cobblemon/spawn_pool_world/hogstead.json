@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "hogstead-1",
+      "id": "hogstead-01",
       "pokemon": "hogstead",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "39-52",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "stumple-1",
+      "id": "stumple-01",
       "pokemon": "stumple",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,13 +15,19 @@
       "level": "4-28",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:has_season/summer",
-"#cobblemon:has_season/spring",
-"#cobblemon:has_season/winter" ]    }
+        "biomes": [
+          "#cobblemon:has_season/summer",
+          "#cobblemon:has_season/spring",
+          "#cobblemon:has_season/winter"
+        ]
+      }
     }
   ]
 }

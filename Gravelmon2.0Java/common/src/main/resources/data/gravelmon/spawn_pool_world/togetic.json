@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "varitasiantogetic-1",
-      "pokemon": "togetic-varitasian",
+      "id": "varitasian_togetic-01",
+      "pokemon": "togetic varitasian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,18 @@
       "level": "25-40",
       "weight": 0.9,
       "condition": {
-"biomes": [ "#cobblemon:is_mountain" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "hubiantogetic-1",
-      "pokemon": "togetic-hubian",
+      "id": "hubian_togetic-01",
+      "pokemon": "togetic hubian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,10 +34,12 @@
       "level": "25-40",
       "weight": 0.9,
       "condition": {
-"biomes": [ "#cobblemon:is_mountain" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

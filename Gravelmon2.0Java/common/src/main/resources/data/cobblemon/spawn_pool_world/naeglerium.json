@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "naeglerium-1",
+      "id": "naeglerium-01",
       "pokemon": "naeglerium",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "31-54",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_deep_dark" ]
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ]
       }
     }
   ]

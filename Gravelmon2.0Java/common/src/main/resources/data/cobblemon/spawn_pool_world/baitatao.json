@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "baitatao-1",
+      "id": "baitatao-01",
       "pokemon": "baitatao",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,7 +15,9 @@
       "level": "65-70",
       "weight": 5.0E-6,
       "condition": {
-"biomes": [ "#cobblemon:is_warm_ocean" ],
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ],
         "maxY": 40
       }
     }

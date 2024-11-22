@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "pheromage-1",
+      "id": "pheromage-01",
       "pokemon": "pheromage",
       "presets": [
-          "near_crops"
+        "near_crops"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "21-34",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_overworld" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

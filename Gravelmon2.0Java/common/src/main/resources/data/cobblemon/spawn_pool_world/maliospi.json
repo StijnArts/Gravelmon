@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "maliospi-1",
+      "id": "maliospi-01",
       "pokemon": "maliospi",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,7 +15,9 @@
       "level": "9-28",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_swamp" ],
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
         "timeRange": "night"
       }
     }

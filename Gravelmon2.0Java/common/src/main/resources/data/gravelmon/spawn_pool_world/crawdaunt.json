@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "norheimancrawdaunt-1",
-      "pokemon": "crawdaunt-norheiman",
+      "id": "norheiman_crawdaunt-01",
+      "pokemon": "crawdaunt norheiman",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,10 +15,12 @@
       "level": "30-54",
       "weight": 0.4,
       "condition": {
-"biomes": [ "#cobblemon:is_cold_ocean" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

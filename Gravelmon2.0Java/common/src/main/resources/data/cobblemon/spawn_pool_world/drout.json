@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "drout-1",
+      "id": "drout-01",
       "pokemon": "drout",
       "presets": [
-          "near_water"
+        "near_water"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,8 +15,11 @@
       "level": "22-56",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_badlands" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

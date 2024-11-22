@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "craud-1",
+      "id": "craud-01",
       "pokemon": "craud",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,11 +15,17 @@
       "level": "44-61",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:has_season/summer" ]    }
+        "biomes": [
+          "#cobblemon:has_season/summer"
+        ]
+      }
     }
   ]
 }

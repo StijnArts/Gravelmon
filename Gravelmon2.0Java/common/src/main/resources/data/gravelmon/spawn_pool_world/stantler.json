@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ayreianstantler-1",
-      "pokemon": "stantler-ayreian",
+      "id": "ayreian_stantler-01",
+      "pokemon": "stantler ayreian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,12 +15,14 @@
       "level": "16-46",
       "weight": 9.0,
       "condition": {
-"biomes": [ "#cobblemon:is_volvanic",
-"#cobblemon:is_badlands" ],
+        "biomes": [
+          "#cobblemon:is_volvanic",
+          "#cobblemon:is_badlands"
+        ],
         "timeRange": "day",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

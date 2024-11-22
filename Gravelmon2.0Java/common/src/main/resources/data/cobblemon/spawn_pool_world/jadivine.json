@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "jadivine-1",
+      "id": "jadivine-01",
       "pokemon": "jadivine",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "3-22",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_floral" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_sky",
+          "#cobblemon:is_floral"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

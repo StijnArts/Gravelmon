@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fumabor-1",
+      "id": "fumabor-01",
       "pokemon": "fumabor",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,15 @@
       "level": "17-37",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ]
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
       },
       "anticondition": {
-"biomes": [ "#cobblemon:has_season/summer" ]    }
+        "biomes": [
+          "#cobblemon:has_season/summer"
+        ]
+      }
     }
   ]
 }

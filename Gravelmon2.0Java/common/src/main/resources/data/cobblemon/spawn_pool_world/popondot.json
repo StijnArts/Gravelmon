@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "popondot-1",
+      "id": "popondot-01",
       "pokemon": "popondot",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "13-33",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_swamp" ],
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
         "timeRange": "day",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

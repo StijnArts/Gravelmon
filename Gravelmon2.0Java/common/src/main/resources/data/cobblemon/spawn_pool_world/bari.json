@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "bari-1",
+      "id": "bari-01",
       "pokemon": "bari",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "6-19",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_bamboo" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_bamboo"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

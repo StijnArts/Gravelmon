@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "oystr-1",
+      "id": "oystr-01",
       "pokemon": "oystr",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "seafloor",
@@ -15,8 +15,11 @@
       "level": "21-43",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cold_ocean" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

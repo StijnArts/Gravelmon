@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "diretom-1",
+      "id": "diretom-01",
       "pokemon": "diretom",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "3-22",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:nether/is_forest" ]
+        "biomes": [
+          "#cobblemon:nether/is_forest"
+        ]
       }
     }
   ]

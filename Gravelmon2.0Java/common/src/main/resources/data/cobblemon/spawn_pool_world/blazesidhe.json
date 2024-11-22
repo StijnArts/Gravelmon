@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "blazesidhe-1",
+      "id": "blazesidhe-01",
       "pokemon": "blazesidhe",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "36-61",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_volvanic",
-"#cobblemon:nether/is_crimson" ],
+        "biomes": [
+          "#cobblemon:is_volvanic",
+          "#cobblemon:nether/is_crimson"
+        ],
         "timeRange": "night"
       }
     }

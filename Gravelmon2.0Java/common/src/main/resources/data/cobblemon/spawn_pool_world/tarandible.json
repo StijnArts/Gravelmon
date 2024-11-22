@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "tarandible-1",
+      "id": "tarandible-01",
       "pokemon": "tarandible",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "28-48",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ],
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
         "timeRange": "night"
       }
     }

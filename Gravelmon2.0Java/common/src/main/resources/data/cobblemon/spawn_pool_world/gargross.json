@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "gargross-1",
+      "id": "gargross-01",
       "pokemon": "gargross",
       "presets": [
-          "mansion"
+        "mansion"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "6-27",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ]
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
       }
     }
   ]

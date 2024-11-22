@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltavespiquen-1",
-      "pokemon": "vespiquen-delta",
+      "id": "delta_vespiquen-01",
+      "pokemon": "vespiquen delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,10 @@
       "level": "12-43",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#minecraft:is_end" ]
+        "biomes": [
+          "#minecraft:is_end"
+        ]
       }
     }
-
-]
+  ]
 }

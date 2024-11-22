@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "armust-1",
+      "id": "armust-01",
       "pokemon": "armust",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "33-54",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cave" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_cave"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "chillnobyl-1",
+      "id": "chillnobyl-01",
       "pokemon": "chillnobyl",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -16,7 +16,8 @@
       "weight": 3.0,
       "condition": {
         "maxY": -20,
-        "canSeeSky": false
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

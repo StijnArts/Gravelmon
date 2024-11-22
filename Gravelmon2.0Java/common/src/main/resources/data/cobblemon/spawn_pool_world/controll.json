@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "controll-1",
+      "id": "controll-01",
       "pokemon": "controll",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "28-43",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_mushroom" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_mushroom"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

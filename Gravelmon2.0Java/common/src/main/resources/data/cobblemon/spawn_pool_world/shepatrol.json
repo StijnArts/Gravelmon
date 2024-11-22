@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "shepatrol-1",
+      "id": "shepatrol-01",
       "pokemon": "shepatrol",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "22-54",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_grassland" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_grassland"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "brainby-1",
+      "id": "brainby-01",
       "pokemon": "brainby",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,13 @@
       "level": "6-26",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+        "biomes": [
+          "#cobblemon:is_sky",
+          "#cobblemon:is_mountain"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "daimonize-1",
+      "id": "daimonize-01",
       "pokemon": "daimonize",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "40-57",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:nether/is_soul_sand" ]
+        "biomes": [
+          "#cobblemon:nether/is_soul_sand"
+        ]
       }
     }
   ]

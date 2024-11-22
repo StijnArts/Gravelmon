@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltadrifloon-1",
-      "pokemon": "drifloon-delta",
+      "id": "delta_drifloon-01",
+      "pokemon": "drifloon delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,18 +15,20 @@
       "level": "3-22",
       "weight": 1.8,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy_forest" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_snowy_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night",
         "isRaining": false
       }
-    }
-,
+    },
     {
-      "id": "ayreiandrifloon-1",
-      "pokemon": "drifloon-ayreian",
+      "id": "ayreian_drifloon-01",
+      "pokemon": "drifloon ayreian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,12 +36,14 @@
       "level": "3-22",
       "weight": 1.8,
       "condition": {
-"biomes": [ "minecraft:cherry_grove" ],
-        "canSeeSky": true,
+        "biomes": [
+          "minecraft:cherry_grove"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night",
         "isRaining": false
       }
     }
-
-]
+  ]
 }

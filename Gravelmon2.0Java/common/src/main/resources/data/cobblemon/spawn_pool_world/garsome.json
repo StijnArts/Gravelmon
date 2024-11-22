@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "garsome-1",
+      "id": "garsome-01",
       "pokemon": "garsome",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "44-56",
       "weight": 0.06,
       "condition": {
-"biomes": [ "#cobblemon:is_taiga" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       }
     }

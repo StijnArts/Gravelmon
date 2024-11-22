@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "dundragon-1",
+      "id": "dundragon-01",
       "pokemon": "dundragon",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,11 +15,17 @@
       "level": "42-67",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_overworld" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_deep_dark" ]    }
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ]
+      }
     }
   ]
 }

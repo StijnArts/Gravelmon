@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "necrosia-1",
+      "id": "necrosia-01",
       "pokemon": "necrosia",
       "presets": [
-          "mansion"
+        "mansion"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "35-55",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ]
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
       }
     }
   ]

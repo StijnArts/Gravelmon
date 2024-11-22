@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltashiftry-1",
-      "pokemon": "shiftry-delta",
+      "id": "delta_shiftry-01",
+      "pokemon": "shiftry delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,11 @@
       "level": "31-59",
       "weight": 0.02,
       "condition": {
-"biomes": [ "#cobblemon:is_mountain" ],
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ],
         "timeRange": "night"
       }
     }
-
-]
+  ]
 }

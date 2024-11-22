@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "tentyrant-1",
+      "id": "tentyrant-01",
       "pokemon": "tentyrant",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,8 +15,11 @@
       "level": "39-49",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#minecraft:is_deep_ocean" ],
-        "canSeeSky": false,
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
         "maxY": 30
       }
     }

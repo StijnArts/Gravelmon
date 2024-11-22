@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "dousear-1",
+      "id": "dousear-01",
       "pokemon": "dousear",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "29-54",
       "weight": 1.6,
       "condition": {
-"biomes": [ "#cobblemon:is_dripstone" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_dripstone"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

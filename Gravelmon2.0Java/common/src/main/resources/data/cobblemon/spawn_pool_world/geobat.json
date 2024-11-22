@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "geobat-1",
+      "id": "geobat-01",
       "pokemon": "geobat",
       "presets": [
-          "amethyst_geode"
+        "amethyst_geode"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "3-22",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cave" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_cave"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

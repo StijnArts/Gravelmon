@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "novisect-1",
+      "id": "novisect-01",
       "pokemon": "novisect",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "7-26",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_bamboo" ]
+        "biomes": [
+          "#cobblemon:is_bamboo"
+        ]
       }
     }
   ]

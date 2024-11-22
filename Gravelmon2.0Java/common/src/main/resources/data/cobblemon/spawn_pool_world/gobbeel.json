@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "gobbeel-1",
+      "id": "gobbeel-01",
       "pokemon": "gobbeel",
       "presets": [
-          "reef"
+        "reef"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,8 +15,11 @@
       "level": "7-29",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_warm_ocean" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

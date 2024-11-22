@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "pendodoom-1",
+      "id": "pendodoom-01",
       "pokemon": "pendodoom",
       "presets": [
-          "mansion"
+        "mansion"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "41-57",
       "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

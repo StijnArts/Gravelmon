@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "gourmaggot-1",
+      "id": "gourmaggot-01",
       "pokemon": "gourmaggot",
       "presets": [
-          "near_crops"
+        "near_crops"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "1-22",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_overworld" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

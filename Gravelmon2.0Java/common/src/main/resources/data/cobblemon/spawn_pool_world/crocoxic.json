@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "crocoxic-1",
+      "id": "crocoxic-01",
       "pokemon": "crocoxic",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,8 +15,11 @@
       "level": "37-56",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_badlands" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "royalarva-1",
+      "id": "royalarva-01",
       "pokemon": "royalarva",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "2-10",
       "weight": 9.0,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

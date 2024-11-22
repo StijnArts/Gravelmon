@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltaelectabuzz-1",
-      "pokemon": "electabuzz-delta",
+      "id": "delta_electabuzz-01",
+      "pokemon": "electabuzz delta",
       "presets": [
-          "jungle_pyramid"
+        "jungle_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,18 @@
       "level": "30-45",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_overworld" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
-    }
-,
+    },
     {
-      "id": "electabuzzx-1",
-      "pokemon": "electabuzz-x",
+      "id": "x_electabuzz-01",
+      "pokemon": "electabuzz x",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,9 +34,10 @@
       "level": "30-43",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#minecraft:is_end" ]
+        "biomes": [
+          "#minecraft:is_end"
+        ]
       }
     }
-
-]
+  ]
 }

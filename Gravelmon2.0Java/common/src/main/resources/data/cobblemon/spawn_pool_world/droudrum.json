@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "droudrum-1",
+      "id": "droudrum-01",
       "pokemon": "droudrum",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "33-56",
       "weight": 2.2,
       "condition": {
-"biomes": [ "#cobblemon:is_badlands" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "day"
       }
     }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "yuvirro-1",
+      "id": "yuvirro-01",
       "pokemon": "yuvirro",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,12 +15,18 @@
       "level": "33-47",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#cobblemon:is_forest",
-"#cobblemon:is_grassland" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_grassland"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:has_season/summer" ]    }
+        "biomes": [
+          "#cobblemon:has_season/summer"
+        ]
+      }
     }
   ]
 }

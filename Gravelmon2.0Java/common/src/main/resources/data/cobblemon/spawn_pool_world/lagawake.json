@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "lagawake-1",
+      "id": "lagawake-01",
       "pokemon": "lagawake",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "41-53",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy_forest" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_snowy_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

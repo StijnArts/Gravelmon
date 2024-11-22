@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "melabuzz-1",
+      "id": "melabuzz-01",
       "pokemon": "melabuzz",
       "presets": [
-          "honey_tree"
+        "honey_tree"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "1-15",
       "weight": 7.0,
       "condition": {
-"biomes": [ "#cobblemon:is_forest",
-"#cobblemon:is_plains" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_plains"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

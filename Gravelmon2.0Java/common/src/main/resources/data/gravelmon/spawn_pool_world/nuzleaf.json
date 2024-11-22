@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltanuzleaf-1",
-      "pokemon": "nuzleaf-delta",
+      "id": "delta_nuzleaf-01",
+      "pokemon": "nuzleaf delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,11 @@
       "level": "18-32",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_mountain" ],
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ],
         "timeRange": "night"
       }
     }
-
-]
+  ]
 }

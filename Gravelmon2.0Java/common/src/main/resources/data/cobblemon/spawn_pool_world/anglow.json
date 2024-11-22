@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "anglow-1",
+      "id": "anglow-01",
       "pokemon": "anglow",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "seafloor",
@@ -15,7 +15,9 @@
       "level": "22-43",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#minecraft:is_deep_ocean" ]
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ]
       }
     }
   ]

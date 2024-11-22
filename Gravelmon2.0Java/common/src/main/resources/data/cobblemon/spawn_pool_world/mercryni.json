@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mercryni-1",
+      "id": "mercryni-01",
       "pokemon": "mercryni",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "3-17",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_overworld" ],
-        "canSeeSky": false,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
         "maxY": 20
       }
     }

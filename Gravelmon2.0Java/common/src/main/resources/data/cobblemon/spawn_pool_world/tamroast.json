@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "tamroast-1",
+      "id": "tamroast-01",
       "pokemon": "tamroast",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "22-49",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_temperate",
-"#cobblemon:is_arid" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_temperate",
+          "#cobblemon:is_arid"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

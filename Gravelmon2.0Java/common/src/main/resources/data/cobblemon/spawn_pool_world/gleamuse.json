@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "gleamuse-1",
+      "id": "gleamuse-01",
       "pokemon": "gleamuse",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,11 +15,17 @@
       "level": "12-34",
       "weight": 3.8,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:has_season/summer" ]    }
+        "biomes": [
+          "#cobblemon:has_season/summer"
+        ]
+      }
     }
   ]
 }

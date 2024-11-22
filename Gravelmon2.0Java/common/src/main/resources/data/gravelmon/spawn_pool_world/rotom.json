@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "solrotom-1",
-      "pokemon": "rotom-sol",
+      "id": "sol_rotom-01",
+      "pokemon": "rotom sol",
       "presets": [
-          "mansion"
+        "mansion"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,18 @@
       "level": "40-65",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
-    }
-,
+    },
     {
-      "id": "swayrotom-1",
-      "pokemon": "rotom-sway",
+      "id": "sway_rotom-01",
+      "pokemon": "rotom sway",
       "presets": [
-          "mansion"
+        "mansion"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,16 +34,18 @@
       "level": "40-65",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
-    }
-,
+    },
     {
-      "id": "brawlrotom-1",
-      "pokemon": "rotom-brawl",
+      "id": "brawl_rotom-01",
+      "pokemon": "rotom brawl",
       "presets": [
-          "mansion"
+        "mansion"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -49,16 +53,18 @@
       "level": "40-65",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
-    }
-,
+    },
     {
-      "id": "webrotom-1",
-      "pokemon": "rotom-web",
+      "id": "web_rotom-01",
+      "pokemon": "rotom web",
       "presets": [
-          "mansion"
+        "mansion"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -66,16 +72,18 @@
       "level": "40-65",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
-    }
-,
+    },
     {
-      "id": "junkrotom-1",
-      "pokemon": "rotom-junk",
+      "id": "junk_rotom-01",
+      "pokemon": "rotom junk",
       "presets": [
-          "mansion"
+        "mansion"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -83,16 +91,18 @@
       "level": "40-65",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
-    }
-,
+    },
     {
-      "id": "homerotom-1",
-      "pokemon": "rotom-home",
+      "id": "home_rotom-01",
+      "pokemon": "rotom home",
       "presets": [
-          "mansion"
+        "mansion"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -100,16 +110,18 @@
       "level": "40-65",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
-    }
-,
+    },
     {
-      "id": "bassrotom-1",
-      "pokemon": "rotom-bass",
+      "id": "bass_rotom-01",
+      "pokemon": "rotom bass",
       "presets": [
-          "mansion"
+        "mansion"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -117,16 +129,18 @@
       "level": "40-65",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
-    }
-,
+    },
     {
-      "id": "twirlrotom-1",
-      "pokemon": "rotom-twirl",
+      "id": "twirl_rotom-01",
+      "pokemon": "rotom twirl",
       "presets": [
-          "mansion"
+        "mansion"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -134,16 +148,18 @@
       "level": "40-65",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
-    }
-,
+    },
     {
-      "id": "mixrotom-1",
-      "pokemon": "rotom-mix",
+      "id": "mix_rotom-01",
+      "pokemon": "rotom mix",
       "presets": [
-          "mansion"
+        "mansion"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -151,10 +167,12 @@
       "level": "40-65",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
-
-]
+  ]
 }

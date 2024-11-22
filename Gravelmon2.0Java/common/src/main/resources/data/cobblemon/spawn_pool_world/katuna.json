@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "katuna-1",
+      "id": "katuna-01",
       "pokemon": "katuna",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,8 +15,11 @@
       "level": "6-19",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ],
-        "canSeeSky": true
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

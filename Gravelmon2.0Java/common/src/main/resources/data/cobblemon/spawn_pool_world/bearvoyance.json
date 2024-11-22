@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "bearvoyance-1",
+      "id": "bearvoyance-01",
       "pokemon": "bearvoyance",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "3-17",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ]
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
       }
     }
   ]

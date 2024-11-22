@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "madieval-1",
+      "id": "madieval-01",
       "pokemon": "madieval",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,12 +15,17 @@
       "level": "34-54",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_badlands",
-"#cobblemon:is_magical" ],
+        "biomes": [
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_magical"
+        ],
         "timeRange": "day"
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_forest" ]    }
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
+      }
     }
   ]
 }

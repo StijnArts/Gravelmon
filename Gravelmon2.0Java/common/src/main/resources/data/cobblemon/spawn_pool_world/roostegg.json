@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "roostegg-1",
+      "id": "roostegg-01",
       "pokemon": "roostegg",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,11 +15,17 @@
       "level": "27-39",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_overworld" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_cold" ]    }
+        "biomes": [
+          "#cobblemon:is_cold"
+        ]
+      }
     }
   ]
 }

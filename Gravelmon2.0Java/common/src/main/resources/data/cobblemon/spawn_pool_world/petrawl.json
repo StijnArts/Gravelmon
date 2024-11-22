@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "petrawl-1",
+      "id": "petrawl-01",
       "pokemon": "petrawl",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "6-26",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cave" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_cave"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

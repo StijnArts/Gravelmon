@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "quwauzrel-1",
+      "id": "quwauzrel-01",
       "pokemon": "quwauzrel",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "34-56",
       "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_sky",
+          "#cobblemon:is_mountain"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

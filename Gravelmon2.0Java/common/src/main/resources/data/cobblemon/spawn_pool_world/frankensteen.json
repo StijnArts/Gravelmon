@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "frankensteen-1",
+      "id": "frankensteen-01",
       "pokemon": "frankensteen",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "39-51",
       "weight": 0.02,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ]
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
       }
     }
   ]

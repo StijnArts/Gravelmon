@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "berswade-1",
+      "id": "berswade-01",
       "pokemon": "berswade",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "16-46",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_beach" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_beach"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

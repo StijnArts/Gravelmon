@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "gruffle-1",
+      "id": "gruffle-01",
       "pokemon": "gruffle",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,11 +15,16 @@
       "level": "3-22",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_forest",
-"#cobblemon:is_mushroom" ]
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_mushroom"
+        ]
       },
       "anticondition": {
-"biomes": [ "#cobblemon:has_season/summer" ]    }
+        "biomes": [
+          "#cobblemon:has_season/summer"
+        ]
+      }
     }
   ]
 }

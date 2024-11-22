@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "wispern-1",
+      "id": "wispern-01",
       "pokemon": "wispern",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,13 @@
       "level": "3-28",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_jungle",
-"#cobblemon:is_tropical_island",
-"#cobblemon:is_tropical" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_tropical_island",
+          "#cobblemon:is_tropical"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       }
     }

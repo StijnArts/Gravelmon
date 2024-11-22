@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "scubug-1",
+      "id": "scubug-01",
       "pokemon": "scubug",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,9 +15,12 @@
       "level": "27-38",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_freshwater" ],
+        "biomes": [
+          "#cobblemon:is_freshwater"
+        ],
         "maxY": 40,
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

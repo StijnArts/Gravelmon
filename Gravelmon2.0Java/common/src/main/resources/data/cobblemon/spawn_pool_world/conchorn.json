@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "conchorn-1",
+      "id": "conchorn-01",
       "pokemon": "conchorn",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "seafloor",
@@ -15,8 +15,11 @@
       "level": "41-62",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#minecraft:is_deep_ocean" ],
-        "canSeeSky": true
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

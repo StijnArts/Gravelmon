@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "pottle-1",
+      "id": "pottle-01",
       "pokemon": "pottle",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "2-17",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_desert" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_desert"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

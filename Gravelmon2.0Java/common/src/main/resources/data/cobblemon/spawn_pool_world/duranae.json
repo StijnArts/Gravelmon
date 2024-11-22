@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "duranae-1",
+      "id": "duranae-01",
       "pokemon": "duranae",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "6-27",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cave" ]
+        "biomes": [
+          "#cobblemon:is_cave"
+        ]
       }
     }
   ]

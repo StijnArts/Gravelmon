@@ -4,11 +4,11 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "torpeed-1",
+      "id": "torpeed-01",
       "pokemon": "torpeed",
       "presets": [
-          "natural",
-          "underwater"
+        "natural",
+        "underwater"
       ],
       "type": "pokemon",
       "context": "surface",
@@ -16,9 +16,12 @@
       "level": "16-46",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_frozen",
-"#cobblemon:is_jungle" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_frozen",
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

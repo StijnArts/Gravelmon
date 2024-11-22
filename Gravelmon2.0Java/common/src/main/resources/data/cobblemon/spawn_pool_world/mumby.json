@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mumby-1",
+      "id": "mumby-01",
       "pokemon": "mumby",
       "presets": [
-          "desert_pyramid"
+        "desert_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "3-22",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_desert" ],
+        "biomes": [
+          "#cobblemon:is_desert"
+        ],
         "timeRange": "night",
-        "canSeeSky": false
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

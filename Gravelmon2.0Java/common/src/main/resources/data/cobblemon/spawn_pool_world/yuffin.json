@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "yuffin-1",
+      "id": "yuffin-01",
       "pokemon": "yuffin",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,13 +15,19 @@
       "level": "11-32",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cold_ocean",
-"#cobblemon:is_coast" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_cold_ocean",
+          "#cobblemon:is_coast"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:has_season/spring",
-"#cobblemon:has_season/summer" ]    }
+        "biomes": [
+          "#cobblemon:has_season/spring",
+          "#cobblemon:has_season/summer"
+        ]
+      }
     }
   ]
 }

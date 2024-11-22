@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ayreianfloragato-1",
-      "pokemon": "floragato-ayreian",
+      "id": "ayreian_floragato-01",
+      "pokemon": "floragato ayreian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,12 @@
       "level": "16-29",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

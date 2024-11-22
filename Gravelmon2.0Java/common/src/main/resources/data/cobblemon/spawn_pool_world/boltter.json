@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "boltter-1",
+      "id": "boltter-01",
       "pokemon": "boltter",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "32-47",
       "weight": 0.4,
       "condition": {
-"biomes": [ "#cobblemon:is_savanna" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

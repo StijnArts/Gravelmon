@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "droudrop-1",
+      "id": "droudrop-01",
       "pokemon": "droudrop",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "2-22",
       "weight": 7.0,
       "condition": {
-"biomes": [ "#cobblemon:is_badlands" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "day"
       }
     }

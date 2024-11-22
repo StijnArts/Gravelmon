@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "bysoderm-1",
+      "id": "bysoderm-01",
       "pokemon": "bysoderm",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "46-58",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#cobblemon:is_freezing" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

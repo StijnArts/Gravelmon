@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "qamoranhitmonlee-1",
-      "pokemon": "hitmonlee-qamoran",
+      "id": "qamoran_hitmonlee-01",
+      "pokemon": "hitmonlee qamoran",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,18 @@
       "level": "20-46",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "varitasianhitmonlee-1",
-      "pokemon": "hitmonlee-varitasian",
+      "id": "varitasian_hitmonlee-01",
+      "pokemon": "hitmonlee varitasian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,11 +34,13 @@
       "level": "20-46",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_mountain" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       }
     }
-
-]
+  ]
 }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "baufire-1",
+      "id": "baufire-01",
       "pokemon": "baufire",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "16-46",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_volvanic",
-"#cobblemon:nether/is_basalt" ]
+        "biomes": [
+          "#cobblemon:is_volvanic",
+          "#cobblemon:nether/is_basalt"
+        ]
       }
     }
   ]

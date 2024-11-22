@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltachinchou-1",
-      "pokemon": "chinchou-delta",
+      "id": "delta_chinchou-01",
+      "pokemon": "chinchou delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,17 @@
       "level": "3-22",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:nether/is_desert",
-"#cobblemon:nether/is_wasteland" ]
+        "biomes": [
+          "#cobblemon:nether/is_desert",
+          "#cobblemon:nether/is_wasteland"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "hoennianchinchou-1",
-      "pokemon": "chinchou-hoennian",
+      "id": "hoennian_chinchou-01",
+      "pokemon": "chinchou hoennian",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -32,10 +33,11 @@
       "level": "9-31",
       "weight": 5.4,
       "condition": {
-"biomes": [ "#minecraft:is_deep_ocean" ],
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ],
         "maxY": 48
       }
     }
-
-]
+  ]
 }

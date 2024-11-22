@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "urchum-1",
+      "id": "urchum-01",
       "pokemon": "urchum",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "seafloor",
@@ -15,9 +15,12 @@
       "level": "2-23",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cold_ocean",
-"#minecraft:is_deep_ocean" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_cold_ocean",
+          "#minecraft:is_deep_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

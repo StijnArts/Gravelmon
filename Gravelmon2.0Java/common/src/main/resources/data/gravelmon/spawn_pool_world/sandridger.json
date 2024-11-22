@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "alolansandridger-1",
-      "pokemon": "sandridger-alolan",
+      "id": "alolan_sandridger-01",
+      "pokemon": "sandridger alolan",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,10 @@
       "level": "38-54",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_glacial" ]
+        "biomes": [
+          "#cobblemon:is_glacial"
+        ]
       }
     }
-
-]
+  ]
 }

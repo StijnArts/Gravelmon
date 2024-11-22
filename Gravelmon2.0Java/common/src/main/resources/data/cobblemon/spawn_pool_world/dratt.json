@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "dratt-1",
+      "id": "dratt-01",
       "pokemon": "dratt",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "6-27",
       "weight": 7.0,
       "condition": {
-"biomes": [ "#cobblemon:is_floral" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_floral"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "pumacle-1",
+      "id": "pumacle-01",
       "pokemon": "pumacle",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "6-28",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_volvanic",
-"#cobblemon:nether/is_wasteland" ]
+        "biomes": [
+          "#cobblemon:is_volvanic",
+          "#cobblemon:nether/is_wasteland"
+        ]
       }
     }
   ]

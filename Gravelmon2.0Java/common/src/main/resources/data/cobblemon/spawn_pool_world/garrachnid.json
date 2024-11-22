@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "garrachnid-1",
+      "id": "garrachnid-01",
       "pokemon": "garrachnid",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "13-34",
       "weight": 0.8,
       "condition": {
-"biomes": [ "#cobblemon:is_deep_dark" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

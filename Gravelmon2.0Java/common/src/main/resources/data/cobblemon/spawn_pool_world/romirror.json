@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "romirror-1",
+      "id": "romirror-01",
       "pokemon": "romirror",
       "presets": [
-          "mansion"
+        "mansion"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "6-28",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

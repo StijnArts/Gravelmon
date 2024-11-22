@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "metalynx-1",
+      "id": "metalynx-01",
       "pokemon": "metalynx",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "28-51",
       "weight": 0.8,
       "condition": {
-"biomes": [ "#cobblemon:is_savanna" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

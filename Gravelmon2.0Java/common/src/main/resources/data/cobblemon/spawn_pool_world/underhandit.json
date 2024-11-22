@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "underhandit-1",
+      "id": "underhandit-01",
       "pokemon": "underhandit",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "28-49",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_temperate" ],
+        "biomes": [
+          "#cobblemon:is_temperate"
+        ],
         "timeRange": "night"
       }
     }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "rduckulus-1",
+      "id": "rduckulus-01",
       "pokemon": "rduckulus",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,12 +15,18 @@
       "level": "35-55",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_temperate" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_temperate"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "day"
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_spooky" ]    }
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      }
     }
   ]
 }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "desoray-1",
+      "id": "desoray-01",
       "pokemon": "desoray",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "25-58",
       "weight": 1.4,
       "condition": {
-"biomes": [ "#cobblemon:is_sandy" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_sandy"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

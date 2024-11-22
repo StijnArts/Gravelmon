@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "conductot-1",
+      "id": "conductot-01",
       "pokemon": "conductot",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "42-61",
       "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_jungle",
-"#cobblemon:is_sky" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_sky"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "day"
       }
     }

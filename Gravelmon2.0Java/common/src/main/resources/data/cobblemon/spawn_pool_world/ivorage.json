@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ivorage-1",
+      "id": "ivorage-01",
       "pokemon": "ivorage",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "42-56",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#cobblemon:is_savanna" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

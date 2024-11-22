@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mushpunky-1",
+      "id": "mushpunky-01",
       "pokemon": "mushpunky",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "13-32",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_taiga",
-"#cobblemon:is_mushroom" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_taiga",
+          "#cobblemon:is_mushroom"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

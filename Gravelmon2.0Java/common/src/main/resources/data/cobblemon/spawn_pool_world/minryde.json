@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "minryde-1",
+      "id": "minryde-01",
       "pokemon": "minryde",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "28-46",
       "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_lush" ]
+        "biomes": [
+          "#cobblemon:is_lush"
+        ]
       }
     }
   ]

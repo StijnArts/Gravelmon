@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "whirlibyg-1",
+      "id": "whirlibyg-01",
       "pokemon": "whirlibyg",
       "presets": [
-          "treetop"
+        "treetop"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,12 +15,18 @@
       "level": "3-22",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:has_season/summer",
-"#cobblemon:has_season/winter" ]    }
+        "biomes": [
+          "#cobblemon:has_season/summer",
+          "#cobblemon:has_season/winter"
+        ]
+      }
     }
   ]
 }

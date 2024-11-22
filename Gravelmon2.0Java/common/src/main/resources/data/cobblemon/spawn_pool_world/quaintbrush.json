@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "quaintbrush-1",
+      "id": "quaintbrush-01",
       "pokemon": "quaintbrush",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "3-22",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_overworld" ],
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
         "timeRange": "day",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

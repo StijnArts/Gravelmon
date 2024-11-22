@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "jawsome-1",
+      "id": "jawsome-01",
       "pokemon": "jawsome",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,12 +15,18 @@
       "level": "14-33",
       "weight": 1.2,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ],
-        "canSeeSky": true
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_cold_ocean",
-"#cobblemon:is_warm_ocean" ]    }
+        "biomes": [
+          "#cobblemon:is_cold_ocean",
+          "#cobblemon:is_warm_ocean"
+        ]
+      }
     }
   ]
 }

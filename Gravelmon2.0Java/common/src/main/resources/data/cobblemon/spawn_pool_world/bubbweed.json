@@ -4,11 +4,11 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "bubbweed-1",
+      "id": "bubbweed-01",
       "pokemon": "bubbweed",
       "presets": [
-          "underwater",
-          "foliage"
+        "underwater",
+        "foliage"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -16,10 +16,15 @@
       "level": "7-26",
       "weight": 4.6,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ]
+        "biomes": [
+          "#minecraft:is_ocean"
+        ]
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_cold_ocean" ]    }
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ]
+      }
     }
   ]
 }

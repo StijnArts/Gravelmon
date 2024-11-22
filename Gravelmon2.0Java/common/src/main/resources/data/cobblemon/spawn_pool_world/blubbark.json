@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "blubbark-1",
+      "id": "blubbark-01",
       "pokemon": "blubbark",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "19-38",
       "weight": 0.7,
       "condition": {
-"biomes": [ "#cobblemon:is_beach" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_beach"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

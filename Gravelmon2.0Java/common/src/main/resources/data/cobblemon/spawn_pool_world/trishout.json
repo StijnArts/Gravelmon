@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "trishout-1",
+      "id": "trishout-01",
       "pokemon": "trishout",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "3-22",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_jungle",
-"#minecraft:is_end" ]
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#minecraft:is_end"
+        ]
       }
     }
   ]

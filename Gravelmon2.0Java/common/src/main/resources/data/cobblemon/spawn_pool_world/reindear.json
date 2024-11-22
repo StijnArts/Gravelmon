@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "reindear-1",
+      "id": "reindear-01",
       "pokemon": "reindear",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "3-22",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy" ],
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ],
         "timeRange": "night"
       }
     }

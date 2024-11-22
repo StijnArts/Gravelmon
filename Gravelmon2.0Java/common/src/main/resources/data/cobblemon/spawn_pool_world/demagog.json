@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "demagog-1",
+      "id": "demagog-01",
       "pokemon": "demagog",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "31-47",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:nether/is_forest" ]
+        "biomes": [
+          "#cobblemon:nether/is_forest"
+        ]
       }
     }
   ]

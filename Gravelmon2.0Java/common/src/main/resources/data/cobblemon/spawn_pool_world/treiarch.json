@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "treiarch-1",
+      "id": "treiarch-01",
       "pokemon": "treiarch",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,9 +15,12 @@
       "level": "65-75",
       "weight": 6.0E-4,
       "condition": {
-"biomes": [ "#cobblemon:is_peak",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_peak",
+          "#cobblemon:is_mountain"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

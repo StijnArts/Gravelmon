@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "sensarat-1",
+      "id": "sensarat-01",
       "pokemon": "sensarat",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "21-43",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_jungle" ]
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ]
       }
     }
   ]

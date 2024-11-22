@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "speeda-1",
+      "id": "speeda-01",
       "pokemon": "speeda",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "30-56",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_savanna" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

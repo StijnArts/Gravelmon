@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "pengliff-1",
+      "id": "pengliff-01",
       "pokemon": "pengliff",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "6-28",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_frozen" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_frozen"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

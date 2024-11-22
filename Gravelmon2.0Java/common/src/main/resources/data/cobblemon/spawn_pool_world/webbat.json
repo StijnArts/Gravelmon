@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "webbat-1",
+      "id": "webbat-01",
       "pokemon": "webbat",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "2-17",
       "weight": 7.0,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

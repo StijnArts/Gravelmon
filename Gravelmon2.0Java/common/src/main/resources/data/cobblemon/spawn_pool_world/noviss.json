@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "noviss-1",
+      "id": "noviss-01",
       "pokemon": "noviss",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "3-22",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_tropical" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_tropical"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "jellysquish-1",
+      "id": "jellysquish-01",
       "pokemon": "jellysquish",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,8 +15,11 @@
       "level": "3-22",
       "weight": 3.8,
       "condition": {
-"biomes": [ "#cobblemon:is_frozen" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_frozen"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "grubait-1",
+      "id": "grubait-01",
       "pokemon": "grubait",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "1-12",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
         "timeRange": "day"
       }
     }

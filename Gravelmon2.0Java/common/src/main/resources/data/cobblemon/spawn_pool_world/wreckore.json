@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "wreckore-1",
+      "id": "wreckore-01",
       "pokemon": "wreckore",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "39-58",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_highlands" ],
+        "biomes": [
+          "#cobblemon:is_highlands"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

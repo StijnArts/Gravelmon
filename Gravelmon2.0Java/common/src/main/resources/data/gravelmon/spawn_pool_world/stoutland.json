@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "novranstoutland-1",
-      "pokemon": "stoutland-novran",
+      "id": "novran_stoutland-01",
+      "pokemon": "stoutland novran",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,12 @@
       "level": "32-50",
       "weight": 0.06,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy_forest" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_snowy_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

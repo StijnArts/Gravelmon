@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "swelephant-1",
+      "id": "swelephant-01",
       "pokemon": "swelephant",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "34-57",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_jungle" ],
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
         "timeRange": "day",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

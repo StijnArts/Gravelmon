@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "tessensei-1",
+      "id": "tessensei-01",
       "pokemon": "tessensei",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "33-53",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_bamboo" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_bamboo"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

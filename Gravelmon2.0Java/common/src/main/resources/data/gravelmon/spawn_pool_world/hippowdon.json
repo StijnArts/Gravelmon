@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "armiranhippowdon-1",
-      "pokemon": "hippowdon-armiran",
+      "id": "armiran_hippowdon-01",
+      "pokemon": "hippowdon armiran",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,11 +15,13 @@
       "level": "34-52",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_coast",
-"#cobblemon:is_beach" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_coast",
+          "#cobblemon:is_beach"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

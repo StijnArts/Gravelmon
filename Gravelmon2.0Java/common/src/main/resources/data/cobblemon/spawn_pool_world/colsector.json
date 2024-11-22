@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "colsector-1",
+      "id": "colsector-01",
       "pokemon": "colsector",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "14-42",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_desert" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_desert"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

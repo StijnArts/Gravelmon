@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "kitture-1",
+      "id": "kitture-01",
       "pokemon": "kitture",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "3-22",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_temperate" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_temperate"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

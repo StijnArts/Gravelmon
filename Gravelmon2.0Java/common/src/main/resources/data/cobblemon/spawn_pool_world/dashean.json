@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "dashean-1",
+      "id": "dashean-01",
       "pokemon": "dashean",
       "presets": [
-          "near_water"
+        "near_water"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "35-55",
       "weight": 0.4,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ],
-        "canSeeSky": true
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "dracruel-1",
+      "id": "dracruel-01",
       "pokemon": "dracruel",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "65-75",
       "weight": 6.0E-4,
       "condition": {
-"biomes": [ "#cobblemon:is_taiga" ],
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

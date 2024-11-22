@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "sasaggot-1",
+      "id": "sasaggot-01",
       "pokemon": "sasaggot",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "13-33",
       "weight": 2.0,
       "condition": {
-"biomes": [ "minecraft:cherry_grove" ],
+        "biomes": [
+          "minecraft:cherry_grove"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

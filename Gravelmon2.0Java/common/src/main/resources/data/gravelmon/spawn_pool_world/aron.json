@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "hizianaron-1",
-      "pokemon": "aron-hizian",
+      "id": "hizian_aron-01",
+      "pokemon": "aron hizian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,17 +15,19 @@
       "level": "5-27",
       "weight": 7.0,
       "condition": {
-"biomes": [ "#cobblemon:is_desert",
-"#cobblemon:is_badlands" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_desert",
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "deltaaron-1",
-      "pokemon": "aron-delta",
+      "id": "delta_aron-01",
+      "pokemon": "aron delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -33,27 +35,24 @@
       "level": "5-25",
       "weight": 7.0,
       "condition": {
-"biomes": [ "#cobblemon:nether/is_soul_sand",
-"#cobblemon:nether/is_soul_fire",
-"#cobblemon:nether/is_basalt" ]
+        "biomes": [
+          "#cobblemon:nether/is_soul_sand",
+          "#cobblemon:nether/is_soul_fire",
+          "#cobblemon:nether/is_basalt"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "ayreianaron-1",
-      "pokemon": "aron-ayreian",
+      "id": "ayreian_aron-01",
+      "pokemon": "aron ayreian",
       "presets": [
-          "near_lava"
+        "near_lava"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
       "level": "5-25",
-      "weight": 7.0,
-      "condition": {
-
-      }
+      "weight": 7.0
     }
-
-]
+  ]
 }

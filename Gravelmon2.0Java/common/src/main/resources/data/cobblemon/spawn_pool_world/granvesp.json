@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "granvesp-1",
+      "id": "granvesp-01",
       "pokemon": "granvesp",
       "presets": [
-          "honey_tree"
+        "honey_tree"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,13 +15,19 @@
       "level": "34-54",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_temperate" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_temperate"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "day",
         "isRaining": false
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_spooky" ]    }
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      }
     }
   ]
 }

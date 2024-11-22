@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "kitsurah-1",
+      "id": "kitsurah-01",
       "pokemon": "kitsurah",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,12 +15,18 @@
       "level": "36-58",
       "weight": 0.8,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:has_season/summer",
-"#cobblemon:has_season/winter" ]    }
+        "biomes": [
+          "#cobblemon:has_season/summer",
+          "#cobblemon:has_season/winter"
+        ]
+      }
     }
   ]
 }

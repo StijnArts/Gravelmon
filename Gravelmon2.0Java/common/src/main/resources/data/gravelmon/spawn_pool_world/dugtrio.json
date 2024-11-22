@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "nostandugtrio-1",
-      "pokemon": "dugtrio-nostan",
+      "id": "nostan_dugtrio-01",
+      "pokemon": "dugtrio nostan",
       "presets": [
-          "near_crops"
+        "near_crops"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,18 @@
       "level": "26-43",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_overworld" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "norheimandugtrio-1",
-      "pokemon": "dugtrio-norheiman",
+      "id": "norheiman_dugtrio-01",
+      "pokemon": "dugtrio norheiman",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,17 +34,19 @@
       "level": "26-46",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_taiga" ],
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "deltadugtrio-1",
-      "pokemon": "dugtrio-delta",
+      "id": "delta_dugtrio-01",
+      "pokemon": "dugtrio delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -50,17 +54,21 @@
       "level": "26-45",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_cold" ]
+        "biomes": [
+          "#cobblemon:is_cold"
+        ]
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_forest" ]    }
-    }
-,
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
+      }
+    },
     {
-      "id": "ayreiandugtrio-1",
-      "pokemon": "dugtrio-ayreian",
+      "id": "ayreian_dugtrio-01",
+      "pokemon": "dugtrio ayreian",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -68,18 +76,23 @@
       "level": "26-39",
       "weight": 0.9,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_forest" ]    }
-    }
-,
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
+      }
+    },
     {
-      "id": "cefirandugtrio-1",
-      "pokemon": "dugtrio-cefiran",
+      "id": "cefiran_dugtrio-01",
+      "pokemon": "dugtrio cefiran",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -87,9 +100,10 @@
       "level": "26-45",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_savanna" ]
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ]
       }
     }
-
-]
+  ]
 }

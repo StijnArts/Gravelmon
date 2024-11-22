@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ishiarare-1",
+      "id": "ishiarare-01",
       "pokemon": "ishiarare",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "6-19",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cave" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_cave"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "roytsar-1",
+      "id": "roytsar-01",
       "pokemon": "roytsar",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "65-70",
       "weight": 5.0E-6,
       "condition": {
-"biomes": [ "#cobblemon:is_bamboo" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_bamboo"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

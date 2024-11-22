@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ignuana-1",
+      "id": "ignuana-01",
       "pokemon": "ignuana",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "33-53",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_volvanic",
-"#cobblemon:nether/is_crimson" ]
+        "biomes": [
+          "#cobblemon:is_volvanic",
+          "#cobblemon:nether/is_crimson"
+        ]
       }
     }
   ]

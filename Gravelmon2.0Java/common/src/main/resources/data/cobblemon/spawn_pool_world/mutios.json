@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mutios-1",
+      "id": "mutios-01",
       "pokemon": "mutios",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "65-70",
       "weight": 5.0E-6,
       "condition": {
-"biomes": [ "#cobblemon:is_glacial" ],
+        "biomes": [
+          "#cobblemon:is_glacial"
+        ],
         "minY": 200
       }
     }

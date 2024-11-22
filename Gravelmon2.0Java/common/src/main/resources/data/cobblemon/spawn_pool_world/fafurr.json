@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fafurr-1",
+      "id": "fafurr-01",
       "pokemon": "fafurr",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,11 +15,17 @@
       "level": "24-48",
       "weight": 4.5,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy_forest" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_snowy_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_hills" ]    }
+        "biomes": [
+          "#cobblemon:is_hills"
+        ]
+      }
     }
   ]
 }

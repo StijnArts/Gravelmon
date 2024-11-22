@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "gararewl-1",
+      "id": "gararewl-01",
       "pokemon": "gararewl",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "32-61",
       "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_overworld" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

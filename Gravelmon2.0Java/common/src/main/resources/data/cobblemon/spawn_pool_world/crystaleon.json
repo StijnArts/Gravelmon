@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "crystaleon-1",
+      "id": "crystaleon-01",
       "pokemon": "crystaleon",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "44-56",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_overworld" ],
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
         "maxY": 0,
-        "canSeeSky": false
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

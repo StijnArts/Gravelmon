@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "armirangarchomp-1",
-      "pokemon": "garchomp-armiran",
+      "id": "armiran_garchomp-01",
+      "pokemon": "garchomp armiran",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,12 @@
       "level": "51-67",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
-
-]
+  ]
 }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "hyorhythm-1",
+      "id": "hyorhythm-01",
       "pokemon": "hyorhythm",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "18-31",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_highlands",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_highlands",
+          "#cobblemon:is_mountain"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

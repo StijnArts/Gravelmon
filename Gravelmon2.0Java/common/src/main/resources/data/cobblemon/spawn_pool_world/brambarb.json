@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "brambarb-1",
+      "id": "brambarb-01",
       "pokemon": "brambarb",
       "presets": [
-          "foliage"
+        "foliage"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "1-17",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_badlands",
-"#cobblemon:is_spooky" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_spooky"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

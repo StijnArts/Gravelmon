@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ballistikon-1",
+      "id": "ballistikon-01",
       "pokemon": "ballistikon",
       "presets": [
-          "shipwreck"
+        "shipwreck"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,7 +15,9 @@
       "level": "21-46",
       "weight": 3.8,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ]
+        "biomes": [
+          "#minecraft:is_ocean"
+        ]
       }
     }
   ]

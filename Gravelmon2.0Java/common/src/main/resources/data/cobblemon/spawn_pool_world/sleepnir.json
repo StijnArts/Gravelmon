@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "sleepnir-1",
+      "id": "sleepnir-01",
       "pokemon": "sleepnir",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "35-54",
       "weight": 0.4,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "contagice-1",
+      "id": "contagice-01",
       "pokemon": "contagice",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "35-47",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_sky",
+          "#cobblemon:is_mountain"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "isRaining": true,
         "timeRange": "night"
       }

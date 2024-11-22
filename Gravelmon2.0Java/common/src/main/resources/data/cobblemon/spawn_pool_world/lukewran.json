@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "lukewran-1",
+      "id": "lukewran-01",
       "pokemon": "lukewran",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "65-70",
       "weight": 5.0E-5,
       "condition": {
-"biomes": [ "#cobblemon:is_volvanic" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_volvanic"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "stelnova-1",
+      "id": "stelnova-01",
       "pokemon": "stelnova",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "49-57",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_thermal",
-"#cobblemon:is_volvanic" ]
+        "biomes": [
+          "#cobblemon:is_thermal",
+          "#cobblemon:is_volvanic"
+        ]
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "emberge-1",
+      "id": "emberge-01",
       "pokemon": "emberge",
       "presets": [
-          "near_lava"
+        "near_lava"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "22-54",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:nether/is_forest" ],
+        "biomes": [
+          "#cobblemon:nether/is_forest"
+        ],
         "timeRange": "day",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

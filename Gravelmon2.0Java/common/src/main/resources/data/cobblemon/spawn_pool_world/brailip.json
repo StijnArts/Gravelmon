@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "brailip-1",
+      "id": "brailip-01",
       "pokemon": "brailip",
       "presets": [
-          "reef"
+        "reef"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,8 +15,11 @@
       "level": "5-21",
       "weight": 1.5,
       "condition": {
-"biomes": [ "#cobblemon:is_warm_ocean" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

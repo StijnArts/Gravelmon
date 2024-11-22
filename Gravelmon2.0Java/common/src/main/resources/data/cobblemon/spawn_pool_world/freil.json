@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "freil-1",
+      "id": "freil-01",
       "pokemon": "freil",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "39-56",
       "weight": 0.6,
       "condition": {
-"biomes": [ "#cobblemon:is_magical",
-"#cobblemon:is_jungle" ],
-        "canSeeSky": day
+        "biomes": [
+          "#cobblemon:is_magical",
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

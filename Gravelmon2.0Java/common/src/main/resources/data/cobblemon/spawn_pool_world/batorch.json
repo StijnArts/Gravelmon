@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "batorch-1",
+      "id": "batorch-01",
       "pokemon": "batorch",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "3-22",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_badlands" ],
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

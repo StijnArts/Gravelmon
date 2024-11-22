@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "anvelid-1",
+      "id": "anvelid-01",
       "pokemon": "anvelid",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -16,7 +16,8 @@
       "weight": 0.4,
       "condition": {
         "maxY": 0,
-        "canSeeSky": false
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

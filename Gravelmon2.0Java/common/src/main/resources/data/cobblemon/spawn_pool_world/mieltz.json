@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mieltz-1",
+      "id": "mieltz-01",
       "pokemon": "mieltz",
       "presets": [
-          "honey_tree"
+        "honey_tree"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "13-25",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_forest",
-"#cobblemon:is_plains" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_plains"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "frosstitan-1",
+      "id": "frosstitan-01",
       "pokemon": "frosstitan",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "52-64",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

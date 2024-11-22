@@ -54,7 +54,7 @@
     "hydration",
     "h:swiftswim"
       ],
-      "baseScale": 0.05625,
+      "baseScale": 0.4,
         "hitbox": {
           "width": 6.0,
           "height": 6.0,

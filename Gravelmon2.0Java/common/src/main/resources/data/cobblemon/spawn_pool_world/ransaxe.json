@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ransaxe-1",
+      "id": "ransaxe-01",
       "pokemon": "ransaxe",
       "presets": [
-          "mineshaft"
+        "mineshaft"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "33-54",
       "weight": 1.5,
       "condition": {
-"biomes": [ "#cobblemon:is_cave" ]
+        "biomes": [
+          "#cobblemon:is_cave"
+        ]
       }
     }
   ]

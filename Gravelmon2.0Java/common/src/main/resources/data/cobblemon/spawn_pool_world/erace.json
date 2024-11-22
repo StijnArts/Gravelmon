@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "erace-1",
+      "id": "erace-01",
       "pokemon": "erace",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,8 @@
       "level": "50-55",
       "weight": 5.0E-4,
       "condition": {
-        "canSeeSky": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "minY": 251
       }
     }

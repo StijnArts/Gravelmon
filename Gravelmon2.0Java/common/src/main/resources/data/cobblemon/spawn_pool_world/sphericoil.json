@@ -4,11 +4,11 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "sphericoil-1",
+      "id": "sphericoil-01",
       "pokemon": "sphericoil",
       "presets": [
-          "village",
-          "natural"
+        "village",
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -16,8 +16,11 @@
       "level": "44-65",
       "weight": 0.02,
       "condition": {
-"biomes": [ "#cobblemon:is_overworld" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

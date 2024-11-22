@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "crabelette-1",
+      "id": "crabelette-01",
       "pokemon": "crabelette",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "31-48",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_beach" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_beach"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

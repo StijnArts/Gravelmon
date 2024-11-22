@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mouszerker-1",
+      "id": "mouszerker-01",
       "pokemon": "mouszerker",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "3-22",
       "weight": 0.4,
       "condition": {
-"biomes": [ "#cobblemon:is_cold" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_cold"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "day"
       }
     }

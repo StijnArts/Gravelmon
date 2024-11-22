@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "uroshella-1",
+      "id": "uroshella-01",
       "pokemon": "uroshella",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "37-52",
       "weight": 0.4,
       "condition": {
-"biomes": [ "#cobblemon:is_freezing",
-"#cobblemon:is_snowy" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_freezing",
+          "#cobblemon:is_snowy"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

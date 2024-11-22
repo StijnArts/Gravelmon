@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "shalazhimm-1",
+      "id": "shalazhimm-01",
       "pokemon": "shalazhimm",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "38-56",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "day"
       }
     }

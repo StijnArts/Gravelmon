@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "conflaracite-1",
+      "id": "conflaracite-01",
       "pokemon": "conflaracite",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "54-68",
       "weight": 0.42,
       "condition": {
-"biomes": [ "#cobblemon:is_cave" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_cave"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

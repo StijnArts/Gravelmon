@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "varghast-1",
+      "id": "varghast-01",
       "pokemon": "varghast",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "47-61",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#cobblemon:is_taiga" ],
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

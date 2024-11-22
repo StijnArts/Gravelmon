@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "stalacbite-1",
+      "id": "stalacbite-01",
       "pokemon": "stalacbite",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "4-26",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_dripstone" ]
+        "biomes": [
+          "#cobblemon:is_dripstone"
+        ]
       }
     }
   ]

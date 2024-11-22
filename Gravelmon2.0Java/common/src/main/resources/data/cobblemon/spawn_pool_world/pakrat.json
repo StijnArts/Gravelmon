@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "pakrat-1",
+      "id": "pakrat-01",
       "pokemon": "pakrat",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "2-17",
       "weight": 7.0,
       "condition": {
-"biomes": [ "#cobblemon:is_forest",
-"#cobblemon:is_grassland" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_grassland"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

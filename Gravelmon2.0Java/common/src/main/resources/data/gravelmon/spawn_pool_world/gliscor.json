@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "hiziangliscor-1",
-      "pokemon": "gliscor-hizian",
+      "id": "hizian_gliscor-01",
+      "pokemon": "gliscor hizian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,11 +15,13 @@
       "level": "38-51",
       "weight": 0.6,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy",
-"#cobblemon:is_peak" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_snowy",
+          "#cobblemon:is_peak"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

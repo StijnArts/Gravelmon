@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "skowl-1",
+      "id": "skowl-01",
       "pokemon": "skowl",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "6-24",
       "weight": 7.0,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ],
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
         "timeRange": "night"
       }
     }

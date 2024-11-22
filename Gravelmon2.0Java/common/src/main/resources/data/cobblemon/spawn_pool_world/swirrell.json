@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "swirrell-1",
+      "id": "swirrell-01",
       "pokemon": "swirrell",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,12 +15,18 @@
       "level": "9-27",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:has_season/summer",
-"#cobblemon:has_season/winter" ]    }
+        "biomes": [
+          "#cobblemon:has_season/summer",
+          "#cobblemon:has_season/winter"
+        ]
+      }
     }
   ]
 }

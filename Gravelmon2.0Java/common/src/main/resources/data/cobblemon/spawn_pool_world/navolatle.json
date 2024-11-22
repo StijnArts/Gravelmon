@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "navolatle-1",
+      "id": "navolatle-01",
       "pokemon": "navolatle",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "seafloor",
@@ -15,8 +15,11 @@
       "level": "34-55",
       "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_cold_ocean" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

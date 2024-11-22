@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "relicspinda-1",
-      "pokemon": "spinda-relic",
+      "id": "relic_spinda-01",
+      "pokemon": "spinda relic",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,11 +15,13 @@
       "level": "10-36",
       "weight": 9.9,
       "condition": {
-"biomes": [ "#cobblemon:is_mountain" ],
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

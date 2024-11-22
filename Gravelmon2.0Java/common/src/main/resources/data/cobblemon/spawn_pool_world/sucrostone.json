@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "sucrostone-1",
+      "id": "sucrostone-01",
       "pokemon": "sucrostone",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "38-45",
       "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "slingray-1",
+      "id": "slingray-01",
       "pokemon": "slingray",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "seafloor",
@@ -15,7 +15,9 @@
       "level": "34-56",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ]
+        "biomes": [
+          "#minecraft:is_ocean"
+        ]
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "phantrait-1",
+      "id": "phantrait-01",
       "pokemon": "phantrait",
       "presets": [
-          "mansion"
+        "mansion"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "6-29",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

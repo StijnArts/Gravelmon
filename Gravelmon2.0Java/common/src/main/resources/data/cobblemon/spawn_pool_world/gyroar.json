@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "gyroar-1",
+      "id": "gyroar-01",
       "pokemon": "gyroar",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "48-62",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#cobblemon:is_mountain",
-"#cobblemon:is_cave" ]
+        "biomes": [
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_cave"
+        ]
       }
     }
   ]

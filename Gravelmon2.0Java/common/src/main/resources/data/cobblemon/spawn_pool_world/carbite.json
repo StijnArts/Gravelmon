@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "carbite-1",
+      "id": "carbite-01",
       "pokemon": "carbite",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -16,7 +16,8 @@
       "weight": 5.4,
       "condition": {
         "maxY": 12,
-        "canSeeSky": false
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

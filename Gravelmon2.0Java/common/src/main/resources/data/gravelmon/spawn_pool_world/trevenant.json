@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "varitasiantrevenant-1",
-      "pokemon": "trevenant-varitasian",
+      "id": "varitasian_trevenant-01",
+      "pokemon": "trevenant varitasian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,17 +15,19 @@
       "level": "6-31",
       "weight": 1.8,
       "condition": {
-"biomes": [ "#cobblemon:is_taiga" ],
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ],
         "timeRange": "day",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "deltatrevenant-1",
-      "pokemon": "trevenant-delta",
+      "id": "delta_trevenant-01",
+      "pokemon": "trevenant delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -33,19 +35,24 @@
       "level": "30-52",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_floral" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_floral"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_plains",
-"#cobblemon:has_season/autumn" ]    }
-    }
-,
+        "biomes": [
+          "#cobblemon:is_plains",
+          "#cobblemon:has_season/autumn"
+        ]
+      }
+    },
     {
-      "id": "kaskadiantrevenant-1",
-      "pokemon": "trevenant-kaskadian",
+      "id": "kaskadian_trevenant-01",
+      "pokemon": "trevenant kaskadian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -53,10 +60,12 @@
       "level": "30-52",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:nether/is_fungus" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:nether/is_fungus"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

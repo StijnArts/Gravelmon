@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ayreianducklett-1",
-      "pokemon": "ducklett-ayreian",
+      "id": "ayreian_ducklett-01",
+      "pokemon": "ducklett ayreian",
       "presets": [
-          "near_water"
+        "near_water"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,13 +15,15 @@
       "level": "4-40",
       "weight": 4.0,
       "condition": {
-"biomes": [ "minecraft:cherry_grove",
-"#cobblemon:is_floral",
-"#cobblemon:is_magical" ],
-        "canSeeSky": true,
+        "biomes": [
+          "minecraft:cherry_grove",
+          "#cobblemon:is_floral",
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "day"
       }
     }
-
-]
+  ]
 }

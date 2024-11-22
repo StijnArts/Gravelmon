@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "gizzardon-1",
+      "id": "gizzardon-01",
       "pokemon": "gizzardon",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "48-58",
       "weight": 0.02,
       "condition": {
-"biomes": [ "#cobblemon:is_highlands",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_highlands",
+          "#cobblemon:is_mountain"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

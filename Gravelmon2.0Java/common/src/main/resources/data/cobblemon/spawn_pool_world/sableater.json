@@ -4,11 +4,11 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "sableater-1",
+      "id": "sableater-01",
       "pokemon": "sableater",
       "presets": [
-          "gemstones",
-          "natural"
+        "gemstones",
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -16,8 +16,11 @@
       "level": "36-52",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_overworld" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

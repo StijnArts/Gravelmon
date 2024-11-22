@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "kroach-1",
+      "id": "kroach-01",
       "pokemon": "kroach",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "1-22",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ]
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
       }
     }
   ]

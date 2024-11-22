@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltagoodra-1",
-      "pokemon": "goodra-delta",
+      "id": "delta_goodra-01",
+      "pokemon": "goodra delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,11 @@
       "level": "50-68",
       "weight": 0.4,
       "condition": {
-"biomes": [ "#cobblemon:is_arid" ],
+        "biomes": [
+          "#cobblemon:is_arid"
+        ],
         "isRaining": true
       }
     }
-
-]
+  ]
 }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "garbagull-1",
+      "id": "garbagull-01",
       "pokemon": "garbagull",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "25-41",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_swamp",
-"#cobblemon:is_coast" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_coast"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

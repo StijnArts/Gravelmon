@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "grainghoul-1",
+      "id": "grainghoul-01",
       "pokemon": "grainghoul",
       "presets": [
-          "near_crops"
+        "near_crops"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "33-55",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_overworld" ],
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

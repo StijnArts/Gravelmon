@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "xenogen-1",
+      "id": "xenogen-01",
       "pokemon": "xenogen",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "55-67",
       "weight": 2.5,
       "condition": {
-"biomes": [ "#cobblemon:is_deep_dark" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

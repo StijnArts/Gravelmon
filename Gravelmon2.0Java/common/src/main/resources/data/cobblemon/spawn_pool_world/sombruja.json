@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "sombruja-1",
+      "id": "sombruja-01",
       "pokemon": "sombruja",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "29-46",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ],
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
         "timeRange": "night"
       }
     }

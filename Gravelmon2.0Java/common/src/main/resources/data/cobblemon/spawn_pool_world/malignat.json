@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "malignat-1",
+      "id": "malignat-01",
       "pokemon": "malignat",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "3-22",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_swamp" ],
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
         "timeRange": "night"
       }
     }

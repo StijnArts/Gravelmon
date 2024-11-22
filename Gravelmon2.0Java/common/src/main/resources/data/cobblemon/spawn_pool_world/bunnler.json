@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "bunnler-1",
+      "id": "bunnler-01",
       "pokemon": "bunnler",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "13-33",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy" ]
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ]
       }
     }
   ]

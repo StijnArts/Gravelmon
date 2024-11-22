@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "baquini-1",
+      "id": "baquini-01",
       "pokemon": "baquini",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "3-22",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_warm_ocean" ],
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ],
         "timeRange": "day"
       }
     }

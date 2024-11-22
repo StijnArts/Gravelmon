@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "xenoqueen-1",
+      "id": "xenoqueen-01",
       "pokemon": "xenoqueen",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "66-80",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#cobblemon:is_deep_dark" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

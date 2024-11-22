@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltagraveler-1",
-      "pokemon": "graveler-delta",
+      "id": "delta_graveler-01",
+      "pokemon": "graveler delta",
       "presets": [
-          "jungle_pyramid"
+        "jungle_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,12 @@
       "level": "24-41",
       "weight": 0.7,
       "condition": {
-"biomes": [ "#cobblemon:is_jungle" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

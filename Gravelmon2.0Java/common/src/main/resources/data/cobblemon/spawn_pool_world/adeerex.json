@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "adeerex-1",
+      "id": "adeerex-01",
       "pokemon": "adeerex",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "28-49",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_old_growth_taiga" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_old_growth_taiga"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

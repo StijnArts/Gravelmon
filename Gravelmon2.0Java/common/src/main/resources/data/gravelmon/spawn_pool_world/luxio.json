@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltaluxio-1",
-      "pokemon": "luxio-delta",
+      "id": "delta_luxio-01",
+      "pokemon": "luxio delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,18 @@
       "level": "15-27",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#minecraft:is_nether" ],
-        "canSeeSky": false
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
-    }
-,
+    },
     {
-      "id": "ayreianluxio-1",
-      "pokemon": "luxio-ayreian",
+      "id": "ayreian_luxio-01",
+      "pokemon": "luxio ayreian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,16 +34,18 @@
       "level": "15-36",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_badlands" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "kaskadianluxio-1",
-      "pokemon": "luxio-kaskadian",
+      "id": "kaskadian_luxio-01",
+      "pokemon": "luxio kaskadian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -49,10 +53,12 @@
       "level": "15-36",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cold" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_cold"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

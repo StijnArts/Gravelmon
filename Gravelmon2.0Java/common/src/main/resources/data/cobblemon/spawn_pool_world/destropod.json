@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "destropod-1",
+      "id": "destropod-01",
       "pokemon": "destropod",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,12 +15,18 @@
       "level": "21-43",
       "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_coast" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_coast"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_beach",
-"#cobblemon:is_cold" ]    }
+        "biomes": [
+          "#cobblemon:is_beach",
+          "#cobblemon:is_cold"
+        ]
+      }
     }
   ]
 }

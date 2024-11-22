@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mushling-1",
+      "id": "mushling-01",
       "pokemon": "mushling",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,13 +15,19 @@
       "level": "5-28",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_taiga",
-"#cobblemon:is_magical",
-"#cobblemon:is_mushroom" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_taiga",
+          "#cobblemon:is_magical",
+          "#cobblemon:is_mushroom"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_snowy" ]    }
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ]
+      }
     }
   ]
 }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "volkydra-1",
+      "id": "volkydra-01",
       "pokemon": "volkydra",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "16-46",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_tropical" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_tropical"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

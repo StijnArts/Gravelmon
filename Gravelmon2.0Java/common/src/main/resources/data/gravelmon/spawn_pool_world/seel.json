@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "qamoranseel-1",
-      "pokemon": "seel-qamoran",
+      "id": "qamoran_seel-01",
+      "pokemon": "seel qamoran",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,16 +15,17 @@
       "level": "8-33",
       "weight": 9.0,
       "condition": {
-"biomes": [ "#cobblemon:is_warm_ocean",
-"#cobblemon:is_lush" ]
+        "biomes": [
+          "#cobblemon:is_warm_ocean",
+          "#cobblemon:is_lush"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "norheimanseel-1",
-      "pokemon": "seel-norheiman",
+      "id": "norheiman_seel-01",
+      "pokemon": "seel norheiman",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,16 +33,18 @@
       "level": "3-22",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_coast" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_coast"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "hoennianseel-1",
-      "pokemon": "seel-hoennian",
+      "id": "hoennian_seel-01",
+      "pokemon": "seel hoennian",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -49,14 +52,19 @@
       "level": "9-33",
       "weight": 9.0,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "minY": 48
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_cold",
-"#cobblemon:is_freezing" ]    }
+        "biomes": [
+          "#cobblemon:is_cold",
+          "#cobblemon:is_freezing"
+        ]
+      }
     }
-
-]
+  ]
 }

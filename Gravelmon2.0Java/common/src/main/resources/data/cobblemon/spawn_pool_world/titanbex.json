@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "titanbex-1",
+      "id": "titanbex-01",
       "pokemon": "titanbex",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "26-43",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_highlands" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_highlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

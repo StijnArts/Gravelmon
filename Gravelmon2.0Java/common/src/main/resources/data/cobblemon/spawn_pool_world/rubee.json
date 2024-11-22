@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "rubee-1",
+      "id": "rubee-01",
       "pokemon": "rubee",
       "presets": [
-          "mansion"
+        "mansion"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "6-27",
       "weight": 3.4,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "pyrall-1",
+      "id": "pyrall-01",
       "pokemon": "pyrall",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "3-22",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_volvanic",
-"#cobblemon:nether/is_basalt" ]
+        "biomes": [
+          "#cobblemon:is_volvanic",
+          "#cobblemon:nether/is_basalt"
+        ]
       }
     }
   ]

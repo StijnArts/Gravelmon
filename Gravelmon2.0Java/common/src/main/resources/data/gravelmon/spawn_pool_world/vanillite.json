@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fligianvanillite-1",
-      "pokemon": "vanillite-fligian",
+      "id": "fligian_vanillite-01",
+      "pokemon": "vanillite fligian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,17 +15,19 @@
       "level": "7-29",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy_forest" ],
+        "biomes": [
+          "#cobblemon:is_snowy_forest"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "novranvanillite-1",
-      "pokemon": "vanillite-novran",
+      "id": "novran_vanillite-01",
+      "pokemon": "vanillite novran",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -33,16 +35,18 @@
       "level": "5-37",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy_forest" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_snowy_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "ayreianvanillite-1",
-      "pokemon": "vanillite-ayreian",
+      "id": "ayreian_vanillite-01",
+      "pokemon": "vanillite ayreian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -50,10 +54,11 @@
       "level": "5-37",
       "weight": 4.5,
       "condition": {
-"biomes": [ "#cobblemon:nether/is_basalt",
-"#cobblemon:nether/is_wasteland" ]
+        "biomes": [
+          "#cobblemon:nether/is_basalt",
+          "#cobblemon:nether/is_wasteland"
+        ]
       }
     }
-
-]
+  ]
 }

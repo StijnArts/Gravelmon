@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "encefalug-1",
+      "id": "encefalug-01",
       "pokemon": "encefalug",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "36-56",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky",
-"#cobblemon:is_old_growth_taiga" ]
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_old_growth_taiga"
+        ]
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "eletta-1",
+      "id": "eletta-01",
       "pokemon": "eletta",
       "presets": [
-          "shipwreck"
+        "shipwreck"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,7 +15,9 @@
       "level": "7-28",
       "weight": 5.5,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ]
+        "biomes": [
+          "#minecraft:is_ocean"
+        ]
       }
     }
   ]

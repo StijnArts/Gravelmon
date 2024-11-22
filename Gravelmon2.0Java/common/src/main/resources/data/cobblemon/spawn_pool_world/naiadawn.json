@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "naiadawn-1",
+      "id": "naiadawn-01",
       "pokemon": "naiadawn",
       "presets": [
-          "freshwater"
+        "freshwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,8 +15,11 @@
       "level": "3-22",
       "weight": 5.6,
       "condition": {
-"biomes": [ "#cobblemon:is_river" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_river"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

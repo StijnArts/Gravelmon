@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltabisharp-1",
-      "pokemon": "bisharp-delta",
+      "id": "delta_bisharp-01",
+      "pokemon": "bisharp delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,18 +15,20 @@
       "level": "12-43",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_mountain",
-"#cobblemon:is_sky" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_sky"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "day"
       }
-    }
-,
+    },
     {
-      "id": "bisharpx-1",
-      "pokemon": "bisharp-x",
+      "id": "x_bisharp-01",
+      "pokemon": "bisharp x",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,15 +36,16 @@
       "level": "51-68",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#minecraft:is_end" ]
+        "biomes": [
+          "#minecraft:is_end"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "hoennianbisharp-1",
-      "pokemon": "bisharp-hoennian",
+      "id": "hoennian_bisharp-01",
+      "pokemon": "bisharp hoennian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -50,10 +53,12 @@
       "level": "50-65",
       "weight": 0.9,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

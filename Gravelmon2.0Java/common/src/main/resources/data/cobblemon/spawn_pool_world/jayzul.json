@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "jayzul-1",
+      "id": "jayzul-01",
       "pokemon": "jayzul",
       "presets": [
-          "treetop"
+        "treetop"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "4-22",
       "weight": 8.5,
       "condition": {
-"biomes": [ "#cobblemon:is_grassland" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_grassland"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

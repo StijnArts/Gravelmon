@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "felefox-1",
+      "id": "felefox-01",
       "pokemon": "felefox",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "3-22",
       "weight": 5.0,
       "condition": {
-"biomes": [ "minecraft:cherry_grove" ],
-        "canSeeSky": true
+        "biomes": [
+          "minecraft:cherry_grove"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

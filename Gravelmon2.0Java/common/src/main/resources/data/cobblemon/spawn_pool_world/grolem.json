@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "grolem-1",
+      "id": "grolem-01",
       "pokemon": "grolem",
       "presets": [
-          "jungle_pyramid"
+        "jungle_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "3-28",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_jungle" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

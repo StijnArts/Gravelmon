@@ -4,11 +4,11 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "salpackin-1",
+      "id": "salpackin-01",
       "pokemon": "salpackin",
       "presets": [
-          "underwater",
-          "ocean_monument"
+        "underwater",
+        "ocean_monument"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -16,8 +16,11 @@
       "level": "21-45",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ],
-        "canSeeSky": true
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

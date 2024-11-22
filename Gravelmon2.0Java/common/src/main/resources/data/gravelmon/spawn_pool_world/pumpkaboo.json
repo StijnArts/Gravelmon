@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ayreianpumpkaboo-1",
-      "pokemon": "pumpkaboo-ayreian",
+      "id": "ayreian_pumpkaboo-01",
+      "pokemon": "pumpkaboo ayreian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,11 +15,13 @@
       "level": "8-33",
       "weight": 5.4,
       "condition": {
-"biomes": [ "#cobblemon:is_floral" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_floral"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "day"
       }
     }
-
-]
+  ]
 }

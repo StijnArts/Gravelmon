@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "joulereign-1",
+      "id": "joulereign-01",
       "pokemon": "joulereign",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "31-53",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_savanna" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

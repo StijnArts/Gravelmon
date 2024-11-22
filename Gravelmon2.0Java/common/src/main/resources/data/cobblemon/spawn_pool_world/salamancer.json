@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "salamancer-1",
+      "id": "salamancer-01",
       "pokemon": "salamancer",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,8 +15,10 @@
       "level": "32-54",
       "weight": 3.8,
       "condition": {
-"biomes": [ "#cobblemon:is_lush",
-"#cobblemon:is_magical" ]
+        "biomes": [
+          "#cobblemon:is_lush",
+          "#cobblemon:is_magical"
+        ]
       }
     }
   ]

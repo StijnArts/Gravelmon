@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "necrow-1",
+      "id": "necrow-01",
       "pokemon": "necrow",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "28-39",
       "weight": 0.45,
       "condition": {
-"biomes": [ "#cobblemon:is_desert",
-"#cobblemon:is_badlands" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_desert",
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       }
     }

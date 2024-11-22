@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "novranmuk-1",
-      "pokemon": "muk-novran",
+      "id": "novran_muk-01",
+      "pokemon": "muk novran",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,17 +15,19 @@
       "level": "38-50",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_swamp" ],
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
         "timeRange": "day",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "eghomuk-1",
-      "pokemon": "muk-egho",
+      "id": "egho_muk-01",
+      "pokemon": "muk egho",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -33,17 +35,18 @@
       "level": "38-44",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:nether/is_basalt",
-"#cobblemon:nether/is_soul_sand",
-"#cobblemon:nether/is_toxic" ]
+        "biomes": [
+          "#cobblemon:nether/is_basalt",
+          "#cobblemon:nether/is_soul_sand",
+          "#cobblemon:nether/is_toxic"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "deltamuk-1",
-      "pokemon": "muk-delta",
+      "id": "delta_muk-01",
+      "pokemon": "muk delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -51,17 +54,19 @@
       "level": "31-58",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_desert" ],
+        "biomes": [
+          "#cobblemon:is_desert"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "ayreianmuk-1",
-      "pokemon": "muk-ayreian",
+      "id": "ayreian_muk-01",
+      "pokemon": "muk ayreian",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -69,10 +74,12 @@
       "level": "35-47",
       "weight": 0.18,
       "condition": {
-"biomes": [ "#cobblemon:is_beach" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_beach"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

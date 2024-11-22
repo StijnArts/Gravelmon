@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "icee-1",
+      "id": "icee-01",
       "pokemon": "icee",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,13 +15,19 @@
       "level": "3-22",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cave" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_cave"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "anticondition": {
-"biomes": [ "#cobblemon:has_season/spring",
-"#cobblemon:has_season/summer",
-"#cobblemon:has_season/autumn" ]    }
+        "biomes": [
+          "#cobblemon:has_season/spring",
+          "#cobblemon:has_season/summer",
+          "#cobblemon:has_season/autumn"
+        ]
+      }
     }
   ]
 }

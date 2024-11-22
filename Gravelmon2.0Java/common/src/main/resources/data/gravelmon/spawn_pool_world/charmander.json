@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "eghocharmander-1",
-      "pokemon": "charmander-egho",
+      "id": "egho_charmander-01",
+      "pokemon": "charmander egho",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,18 @@
       "level": "3-22",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_bamboo" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_bamboo"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "deltacharmander-1",
-      "pokemon": "charmander-delta",
+      "id": "delta_charmander-01",
+      "pokemon": "charmander delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,17 +34,19 @@
       "level": "3-22",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ],
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "ayreiancharmander-1",
-      "pokemon": "charmander-ayreian",
+      "id": "ayreian_charmander-01",
+      "pokemon": "charmander ayreian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -50,10 +54,12 @@
       "level": "3-22",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

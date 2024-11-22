@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "skirmaki-1",
+      "id": "skirmaki-01",
       "pokemon": "skirmaki",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "18-35",
       "weight": 2.2,
       "condition": {
-"biomes": [ "#cobblemon:is_tropical_island" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_tropical_island"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

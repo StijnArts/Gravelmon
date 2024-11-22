@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "astrowl-1",
+      "id": "astrowl-01",
       "pokemon": "astrowl",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "27-43",
       "weight": 0.4,
       "condition": {
-"biomes": [ "#cobblemon:is_taiga" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       }
     }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "luxi-1",
+      "id": "luxi-01",
       "pokemon": "luxi",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,11 +15,17 @@
       "level": "5-12",
       "weight": 9.0,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_hills" ]    }
+        "biomes": [
+          "#cobblemon:is_hills"
+        ]
+      }
     }
   ]
 }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "burnuki-1",
+      "id": "burnuki-01",
       "pokemon": "burnuki",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,13 @@
       "level": "12-43",
       "weight": 2.0,
       "condition": {
-"biomes": [ "minecraft:cherry_grove",
-"#cobblemon:is_bamboo" ],
+        "biomes": [
+          "minecraft:cherry_grove",
+          "#cobblemon:is_bamboo"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

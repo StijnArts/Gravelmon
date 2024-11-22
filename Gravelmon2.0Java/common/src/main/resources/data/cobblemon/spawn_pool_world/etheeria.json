@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "etheeria-1",
+      "id": "etheeria-01",
       "pokemon": "etheeria",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "44-65",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#minecraft:is_end" ]
+        "biomes": [
+          "#minecraft:is_end"
+        ]
       }
     }
   ]

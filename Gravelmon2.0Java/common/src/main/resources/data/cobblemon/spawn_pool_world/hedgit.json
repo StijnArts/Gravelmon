@@ -4,11 +4,11 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "hedgit-1",
+      "id": "hedgit-01",
       "pokemon": "hedgit",
       "presets": [
-          "village",
-          "foliage"
+        "village",
+        "foliage"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -16,8 +16,11 @@
       "level": "3-22",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:has_season/spring" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:has_season/spring"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

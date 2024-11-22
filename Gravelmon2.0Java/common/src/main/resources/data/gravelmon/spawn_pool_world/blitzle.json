@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "seviianblitzle-1",
-      "pokemon": "blitzle-seviian",
+      "id": "seviian_blitzle-01",
+      "pokemon": "blitzle seviian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,12 +15,16 @@
       "level": "12-34",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_plains" ]
+        "biomes": [
+          "#cobblemon:is_plains"
+        ]
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_temperate",
-"#cobblemon:is_arid" ]    }
+        "biomes": [
+          "#cobblemon:is_temperate",
+          "#cobblemon:is_arid"
+        ]
+      }
     }
-
-]
+  ]
 }

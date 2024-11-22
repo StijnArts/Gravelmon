@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "agacloakis-1",
+      "id": "agacloakis-01",
       "pokemon": "agacloakis",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,12 +15,18 @@
       "level": "36-58",
       "weight": 0.8,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_jungle",
-"#cobblemon:has_season/winter" ]    }
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#cobblemon:has_season/winter"
+        ]
+      }
     }
   ]
 }

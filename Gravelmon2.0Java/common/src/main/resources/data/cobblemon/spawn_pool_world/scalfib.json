@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "scalfib-1",
+      "id": "scalfib-01",
       "pokemon": "scalfib",
       "presets": [
-          "freshwater"
+        "freshwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,8 +15,11 @@
       "level": "11-36",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_swamp" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

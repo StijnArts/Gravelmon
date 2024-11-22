@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "vasquito-1",
+      "id": "vasquito-01",
       "pokemon": "vasquito",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "surface",
@@ -15,8 +15,11 @@
       "level": "23-32",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_swamp" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "kiell-1",
+      "id": "kiell-01",
       "pokemon": "kiell",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "1-19",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_mountain" ]
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ]
       }
     }
   ]

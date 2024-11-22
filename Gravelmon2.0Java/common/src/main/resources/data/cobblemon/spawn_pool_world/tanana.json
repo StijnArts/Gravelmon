@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "tanana-1",
+      "id": "tanana-01",
       "pokemon": "tanana",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "15-28",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_jungle" ]
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ]
       }
     }
   ]

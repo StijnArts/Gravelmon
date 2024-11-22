@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "hubiansmeargle-1",
-      "pokemon": "smeargle-hubian",
+      "id": "hubian_smeargle-01",
+      "pokemon": "smeargle hubian",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,18 @@
       "level": "11-25",
       "weight": 10.0,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "smearglex-1",
-      "pokemon": "smeargle-x",
+      "id": "x_smeargle-01",
+      "pokemon": "smeargle x",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,15 +34,16 @@
       "level": "30-43",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#minecraft:is_end" ]
+        "biomes": [
+          "#minecraft:is_end"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "cefiransmeargle-1",
-      "pokemon": "smeargle-cefiran",
+      "id": "cefiran_smeargle-01",
+      "pokemon": "smeargle cefiran",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -48,10 +51,12 @@
       "level": "11-25",
       "weight": 10.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cold" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_cold"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

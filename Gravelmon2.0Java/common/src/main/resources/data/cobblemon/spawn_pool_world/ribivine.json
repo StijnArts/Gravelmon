@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ribivine-1",
+      "id": "ribivine-01",
       "pokemon": "ribivine",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "25-43",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_jungle" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

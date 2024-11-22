@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ambug-1",
+      "id": "ambug-01",
       "pokemon": "ambug",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "11-35",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_old_growth_taiga" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_old_growth_taiga"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

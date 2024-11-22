@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "bombeetle-1",
+      "id": "bombeetle-01",
       "pokemon": "bombeetle",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "26-45",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
         "timeRange": "day"
       }
     }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "monymph-1",
+      "id": "monymph-01",
       "pokemon": "monymph",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,13 @@
       "level": "42-56",
       "weight": 0.4,
       "condition": {
-"biomes": [ "#cobblemon:is_badlands",
-"#cobblemon:is_spooky" ],
+        "biomes": [
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_spooky"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

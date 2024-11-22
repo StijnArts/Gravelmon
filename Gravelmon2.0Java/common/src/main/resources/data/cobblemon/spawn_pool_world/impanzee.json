@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "impanzee-1",
+      "id": "impanzee-01",
       "pokemon": "impanzee",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "16-46",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:nether/is_forest" ]
+        "biomes": [
+          "#cobblemon:nether/is_forest"
+        ]
       }
     }
   ]

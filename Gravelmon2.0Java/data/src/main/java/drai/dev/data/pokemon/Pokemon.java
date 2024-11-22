@@ -1,5 +1,6 @@
 package drai.dev.data.pokemon;
 
+import com.cobblemon.mod.common.api.spawning.*;
 import drai.dev.data.*;
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
@@ -859,5 +860,22 @@ public class Pokemon {
 
     public List<PokemonSpawnData> getSpawnData() {
         return spawnData;
+    }
+
+    public Pokemon createFishingSpawn(SpawnPool spawnPool, int minLevel, int maxLevel, double weight) {
+        return createFishingSpawn(spawnPool, minLevel, maxLevel, weight, new ArrayList<>());
+    }
+    public Pokemon createFishingSpawn(SpawnPool spawnPool, int minLevel, int maxLevel, double weight,
+                                      List<SpawnCondition> conditions) {
+        return createFishingSpawn(spawnPool, minLevel, maxLevel, weight, conditions, new ArrayList<>());
+    }
+        public Pokemon createFishingSpawn(SpawnPool spawnPool, int minLevel, int maxLevel, double weight,
+                                      List<SpawnCondition> conditions, List<SpawnCondition> antiConditions){
+        spawnData.add(new PokemonSpawnData(SpawnContext.FISHING, spawnPool,
+                minLevel, maxLevel,
+                weight,
+                conditions,
+                antiConditions, new ArrayList<>()));
+        return this;
     }
 }

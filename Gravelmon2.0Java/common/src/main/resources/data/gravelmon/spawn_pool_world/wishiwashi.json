@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "seviianwishiwashi-1",
-      "pokemon": "wishiwashi-seviian",
+      "id": "seviian_wishiwashi-01",
+      "pokemon": "wishiwashi seviian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,17 +15,18 @@
       "level": "12-56",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky",
-"#minecraft:is_deep_ocean" ],
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "#minecraft:is_deep_ocean"
+        ],
         "timeRange": "night"
       }
-    }
-,
+    },
     {
-      "id": "deepwishiwashi-1",
-      "pokemon": "wishiwashi-deep",
+      "id": "deep_wishiwashi-01",
+      "pokemon": "wishiwashi deep",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -33,10 +34,11 @@
       "level": "12-56",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#minecraft:is_deep_ocean" ],
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ],
         "maxY": 30
       }
     }
-
-]
+  ]
 }

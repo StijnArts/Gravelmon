@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "varitasiansteenee-1",
-      "pokemon": "steenee-varitasian",
+      "id": "varitasian_steenee-01",
+      "pokemon": "steenee varitasian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,10 @@
       "level": "18-29",
       "weight": 0.18,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ]
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
       }
     }
-
-]
+  ]
 }

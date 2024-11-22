@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "awespark-1",
+      "id": "awespark-01",
       "pokemon": "awespark",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "3-22",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_mountain",
-"#cobblemon:is_highlands" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_highlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

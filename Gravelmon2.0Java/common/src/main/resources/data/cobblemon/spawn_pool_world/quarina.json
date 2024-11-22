@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "quarina-1",
+      "id": "quarina-01",
       "pokemon": "quarina",
       "presets": [
-          "freshwater"
+        "freshwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,9 +15,12 @@
       "level": "3-22",
       "weight": 3.8,
       "condition": {
-"biomes": [ "#cobblemon:is_magical",
-"#cobblemon:is_forest" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_magical",
+          "#cobblemon:is_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

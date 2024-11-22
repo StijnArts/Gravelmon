@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "lukagon-1",
+      "id": "lukagon-01",
       "pokemon": "lukagon",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "45-56",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ],
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
         "isRaining": false,
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

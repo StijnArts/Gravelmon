@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "setsarec-1",
+      "id": "setsarec-01",
       "pokemon": "setsarec",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "42-68",
       "weight": 2.5,
       "condition": {
-"biomes": [ "#cobblemon:is_arid" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_arid"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

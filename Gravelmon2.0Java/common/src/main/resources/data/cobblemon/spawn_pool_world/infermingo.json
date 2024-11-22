@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "infermingo-1",
+      "id": "infermingo-01",
       "pokemon": "infermingo",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,11 @@
       "level": "35-54",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:nether/is_forest",
-"#cobblemon:is_volvanic",
-"#cobblemon:is_thermal" ]
+        "biomes": [
+          "#cobblemon:nether/is_forest",
+          "#cobblemon:is_volvanic",
+          "#cobblemon:is_thermal"
+        ]
       }
     }
   ]

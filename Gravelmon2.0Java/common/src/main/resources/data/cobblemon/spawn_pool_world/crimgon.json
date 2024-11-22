@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "crimgon-1",
+      "id": "crimgon-01",
       "pokemon": "crimgon",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "33-54",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cave" ],
+        "biomes": [
+          "#cobblemon:is_cave"
+        ],
         "maxY": 10,
-        "canSeeSky": false
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

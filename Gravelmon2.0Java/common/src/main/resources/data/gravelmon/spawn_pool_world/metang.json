@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltaspidermetang-1",
-      "pokemon": "metang-delta_spider",
+      "id": "delta_spider_metang-01",
+      "pokemon": "metang delta_spider",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,18 @@
       "level": "30-45",
       "weight": 0.9,
       "condition": {
-"biomes": [ "#cobblemon:is_jungle" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
-    }
-,
+    },
     {
-      "id": "deltaruinmetang-1",
-      "pokemon": "metang-delta_ruin",
+      "id": "delta_ruin_metang-01",
+      "pokemon": "metang delta_ruin",
       "presets": [
-          "jungle_pyramid"
+        "jungle_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,10 +34,12 @@
       "level": "30-45",
       "weight": 0.9,
       "condition": {
-"biomes": [ "#cobblemon:is_overworld" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
-
-]
+  ]
 }

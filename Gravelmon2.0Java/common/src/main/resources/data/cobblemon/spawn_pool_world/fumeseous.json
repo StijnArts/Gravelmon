@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fumeseous-1",
+      "id": "fumeseous-01",
       "pokemon": "fumeseous",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "45-59",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_desert" ],
+        "biomes": [
+          "#cobblemon:is_desert"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

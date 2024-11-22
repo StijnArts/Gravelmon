@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "delugar-1",
+      "id": "delugar-01",
       "pokemon": "delugar",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,11 +15,17 @@
       "level": "35-61",
       "weight": 2.3,
       "condition": {
-"biomes": [ "#cobblemon:is_coast" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_coast"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_beach" ]    }
+        "biomes": [
+          "#cobblemon:is_beach"
+        ]
+      }
     }
   ]
 }

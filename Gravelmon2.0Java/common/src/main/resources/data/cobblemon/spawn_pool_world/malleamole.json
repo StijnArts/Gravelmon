@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "malleamole-1",
+      "id": "malleamole-01",
       "pokemon": "malleamole",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,8 @@
       "level": "25-41",
       "weight": 4.0,
       "condition": {
-        "canSeeSky": false,
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
         "maxY": 20
       }
     }

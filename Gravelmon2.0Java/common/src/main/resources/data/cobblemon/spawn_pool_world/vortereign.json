@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "vortereign-1",
+      "id": "vortereign-01",
       "pokemon": "vortereign",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,8 +15,11 @@
       "level": "65-75",
       "weight": 6.0E-4,
       "condition": {
-"biomes": [ "#cobblemon:is_cold_ocean" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

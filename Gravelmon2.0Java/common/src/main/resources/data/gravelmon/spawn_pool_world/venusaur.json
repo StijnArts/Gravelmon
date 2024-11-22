@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "eghovenusaur-1",
-      "pokemon": "venusaur-egho",
+      "id": "egho_venusaur-01",
+      "pokemon": "venusaur egho",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,18 @@
       "level": "34-46",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_desert" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_desert"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "deltavenusaur-1",
-      "pokemon": "venusaur-delta",
+      "id": "delta_venusaur-01",
+      "pokemon": "venusaur delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,17 +34,19 @@
       "level": "32-45",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_magical",
-"#cobblemon:is_floral" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_magical",
+          "#cobblemon:is_floral"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "ayreianvenusaur-1",
-      "pokemon": "venusaur-ayreian",
+      "id": "ayreian_venusaur-01",
+      "pokemon": "venusaur ayreian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -50,11 +54,13 @@
       "level": "32-45",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_badlands" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       }
     }
-
-]
+  ]
 }

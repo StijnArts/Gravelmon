@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "oarora-1",
+      "id": "oarora-01",
       "pokemon": "oarora",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "38-54",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy" ],
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

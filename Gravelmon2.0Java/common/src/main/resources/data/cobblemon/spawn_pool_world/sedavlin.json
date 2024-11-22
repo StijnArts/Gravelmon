@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "sedavlin-1",
+      "id": "sedavlin-01",
       "pokemon": "sedavlin",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "12-31",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_jungle" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

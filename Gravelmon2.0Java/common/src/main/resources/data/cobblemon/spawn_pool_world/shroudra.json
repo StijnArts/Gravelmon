@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "shroudra-1",
+      "id": "shroudra-01",
       "pokemon": "shroudra",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,8 +15,11 @@
       "level": "58-76",
       "weight": 0.6,
       "condition": {
-"biomes": [ "#minecraft:is_deep_ocean" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "maxY": 30
       }
     }

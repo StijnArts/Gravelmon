@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "aerocea-1",
+      "id": "aerocea-01",
       "pokemon": "aerocea",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "52-64",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#cobblemon:is_sky" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_sky"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

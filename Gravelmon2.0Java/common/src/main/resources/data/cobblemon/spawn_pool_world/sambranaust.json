@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "sambranaust-1",
+      "id": "sambranaust-01",
       "pokemon": "sambranaust",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,12 +15,18 @@
       "level": "22-45",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:has_season/summer",
-"#cobblemon:has_season/winter" ]    }
+        "biomes": [
+          "#cobblemon:has_season/summer",
+          "#cobblemon:has_season/winter"
+        ]
+      }
     }
   ]
 }

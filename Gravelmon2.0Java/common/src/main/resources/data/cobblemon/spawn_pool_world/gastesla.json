@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "gastesla-1",
+      "id": "gastesla-01",
       "pokemon": "gastesla",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,13 +15,19 @@
       "level": "45-58",
       "weight": 0.8,
       "condition": {
-"biomes": [ "minecraft:cherry_grove",
-"#cobblemon:is_floral" ],
-        "canSeeSky": true
+        "biomes": [
+          "minecraft:cherry_grove",
+          "#cobblemon:is_floral"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_cold",
-"#cobblemon:is_arid" ]    }
+        "biomes": [
+          "#cobblemon:is_cold",
+          "#cobblemon:is_arid"
+        ]
+      }
     }
   ]
 }

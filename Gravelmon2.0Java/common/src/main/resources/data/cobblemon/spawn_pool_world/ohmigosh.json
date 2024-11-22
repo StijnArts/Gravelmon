@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ohmigosh-1",
+      "id": "ohmigosh-01",
       "pokemon": "ohmigosh",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "37-54",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ]
+        "biomes": [
+          "#cobblemon:is_magical"
+        ]
       }
     }
   ]

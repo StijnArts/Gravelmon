@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "frosillade-1",
+      "id": "frosillade-01",
       "pokemon": "frosillade",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "38-54",
       "weight": 0.6,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy_forest" ],
+        "biomes": [
+          "#cobblemon:is_snowy_forest"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

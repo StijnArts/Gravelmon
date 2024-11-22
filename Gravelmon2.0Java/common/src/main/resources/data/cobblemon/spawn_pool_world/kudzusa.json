@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "kudzusa-1",
+      "id": "kudzusa-01",
       "pokemon": "kudzusa",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,11 +15,17 @@
       "level": "31-54",
       "weight": 0.9,
       "condition": {
-"biomes": [ "#cobblemon:is_floral" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_floral"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_plains" ]    }
+        "biomes": [
+          "#cobblemon:is_plains"
+        ]
+      }
     }
   ]
 }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "cladobe-1",
+      "id": "cladobe-01",
       "pokemon": "cladobe",
       "presets": [
-          "trail_ruins"
+        "trail_ruins"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "3-22",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_desert" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_desert"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

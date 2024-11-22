@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "uranug-1",
+      "id": "uranug-01",
       "pokemon": "uranug",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "9-27",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_dripstone" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_dripstone"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

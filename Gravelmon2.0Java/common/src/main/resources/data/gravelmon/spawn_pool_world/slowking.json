@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "novranslowking-1",
-      "pokemon": "slowking-novran",
+      "id": "novran_slowking-01",
+      "pokemon": "slowking novran",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,10 @@
       "level": "37-49",
       "weight": 0.54,
       "condition": {
-"biomes": [ "#cobblemon:is_jungle" ]
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ]
       }
     }
-
-]
+  ]
 }

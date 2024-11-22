@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "hoofrost-1",
+      "id": "hoofrost-01",
       "pokemon": "hoofrost",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "11-32",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_tundra" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_tundra"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "meduzap-1",
+      "id": "meduzap-01",
       "pokemon": "meduzap",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "7-29",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:has_season/summer" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:has_season/summer"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "femurk-1",
+      "id": "femurk-01",
       "pokemon": "femurk",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "28-39",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_jungle" ],
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

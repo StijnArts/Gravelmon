@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "scovilex-1",
-      "pokemon": "scovile-x",
+      "id": "x_scovile-01",
+      "pokemon": "scovile x",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,10 @@
       "level": "30-43",
       "weight": 4.1,
       "condition": {
-"biomes": [ "#minecraft:is_end" ]
+        "biomes": [
+          "#minecraft:is_end"
+        ]
       }
     }
-
-]
+  ]
 }

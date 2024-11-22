@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "sonareon-1",
+      "id": "sonareon-01",
       "pokemon": "sonareon",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "44-56",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_deep_dark" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

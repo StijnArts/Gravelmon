@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mamagma-1",
+      "id": "mamagma-01",
       "pokemon": "mamagma",
       "presets": [
-          "near_magma"
+        "near_magma"
       ],
       "type": "pokemon",
       "context": "seafloor",
@@ -15,8 +15,11 @@
       "level": "33-54",
       "weight": 0.5,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ],
-        "canSeeSky": true
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mimectar-1",
+      "id": "mimectar-01",
       "pokemon": "mimectar",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,11 +15,17 @@
       "level": "22-45",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_floral" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_floral"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_forest" ]    }
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
+      }
     }
   ]
 }

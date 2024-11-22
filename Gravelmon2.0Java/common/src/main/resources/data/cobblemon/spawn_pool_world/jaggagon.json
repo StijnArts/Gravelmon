@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "jaggagon-1",
+      "id": "jaggagon-01",
       "pokemon": "jaggagon",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "22-47",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_freezing" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

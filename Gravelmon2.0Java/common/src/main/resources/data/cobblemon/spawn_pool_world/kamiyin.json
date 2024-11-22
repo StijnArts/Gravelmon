@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "kamiyin-1",
+      "id": "kamiyin-01",
       "pokemon": "kamiyin",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "65-75",
       "weight": 6.0E-4,
       "condition": {
-"biomes": [ "#cobblemon:is_bamboo" ]
+        "biomes": [
+          "#cobblemon:is_bamboo"
+        ]
       }
     }
   ]

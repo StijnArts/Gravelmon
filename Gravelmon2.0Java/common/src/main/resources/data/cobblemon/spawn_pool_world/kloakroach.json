@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "kloakroach-1",
+      "id": "kloakroach-01",
       "pokemon": "kloakroach",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "18-32",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ],
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
         "timeRange": "night"
       }
     }

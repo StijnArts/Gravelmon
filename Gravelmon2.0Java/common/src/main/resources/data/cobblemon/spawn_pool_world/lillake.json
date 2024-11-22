@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "lillake-1",
+      "id": "lillake-01",
       "pokemon": "lillake",
       "presets": [
-          "water_surface"
+        "water_surface"
       ],
       "type": "pokemon",
       "context": "surface",
@@ -15,8 +15,11 @@
       "level": "26-46",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_swamp" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

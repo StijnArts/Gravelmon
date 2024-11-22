@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "igniff-1",
+      "id": "igniff-01",
       "pokemon": "igniff",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "3-22",
       "weight": 3.8,
       "condition": {
-"biomes": [ "#cobblemon:is_volvanic",
-"#cobblemon:nether/is_wasteland" ]
+        "biomes": [
+          "#cobblemon:is_volvanic",
+          "#cobblemon:nether/is_wasteland"
+        ]
       }
     }
   ]

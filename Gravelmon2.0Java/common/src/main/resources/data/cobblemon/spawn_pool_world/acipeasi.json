@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "acipeasi-1",
+      "id": "acipeasi-01",
       "pokemon": "acipeasi",
       "presets": [
-          "near_crops"
+        "near_crops"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "3-22",
       "weight": 3.8,
       "condition": {
-"biomes": [ "#cobblemon:has_season/summer" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:has_season/summer"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

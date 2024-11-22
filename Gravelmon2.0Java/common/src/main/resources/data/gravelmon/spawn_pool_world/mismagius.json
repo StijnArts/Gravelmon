@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "norheimanmismagius-1",
-      "pokemon": "mismagius-norheiman",
+      "id": "norheiman_mismagius-01",
+      "pokemon": "mismagius norheiman",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,17 +15,19 @@
       "level": "39-50",
       "weight": 0.6,
       "condition": {
-"biomes": [ "#cobblemon:is_taiga" ],
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "hizianmismagius-1",
-      "pokemon": "mismagius-hizian",
+      "id": "hizian_mismagius-01",
+      "pokemon": "mismagius hizian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -33,18 +35,20 @@
       "level": "39-50",
       "weight": 0.6,
       "condition": {
-"biomes": [ "#cobblemon:is_island",
-"#cobblemon:is_jungle" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_island",
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       }
-    }
-,
+    },
     {
-      "id": "deltamismagius-1",
-      "pokemon": "mismagius-delta",
+      "id": "delta_mismagius-01",
+      "pokemon": "mismagius delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -52,12 +56,16 @@
       "level": "32-58",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cold" ],
+        "biomes": [
+          "#cobblemon:is_cold"
+        ],
         "timeRange": "night"
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_spooky" ]    }
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      }
     }
-
-]
+  ]
 }

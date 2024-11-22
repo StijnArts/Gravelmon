@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "garlikid-1",
+      "id": "garlikid-01",
       "pokemon": "garlikid",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "65-70",
       "weight": 6.0E-5,
       "condition": {
-"biomes": [ "#cobblemon:is_temperate" ]
+        "biomes": [
+          "#cobblemon:is_temperate"
+        ]
       }
     }
   ]

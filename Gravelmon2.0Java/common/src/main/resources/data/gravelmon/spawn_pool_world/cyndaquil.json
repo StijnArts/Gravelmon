@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "eghocyndaquil-1",
-      "pokemon": "cyndaquil-egho",
+      "id": "egho_cyndaquil-01",
+      "pokemon": "cyndaquil egho",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,19 +15,21 @@
       "level": "3-22",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_mountain",
-"#cobblemon:is_hills",
-"#cobblemon:is_highlands" ],
+        "biomes": [
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_hills",
+          "#cobblemon:is_highlands"
+        ],
         "isThundering": true,
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "deltacyndaquil-1",
-      "pokemon": "cyndaquil-delta",
+      "id": "delta_cyndaquil-01",
+      "pokemon": "cyndaquil delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -35,16 +37,17 @@
       "level": "3-22",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_overworld" ],
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
         "isThundering": true
       }
-    }
-,
+    },
     {
-      "id": "ayreiancyndaquil-1",
-      "pokemon": "cyndaquil-ayreian",
+      "id": "ayreian_cyndaquil-01",
+      "pokemon": "cyndaquil ayreian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -52,11 +55,13 @@
       "level": "3-22",
       "weight": 8.0,
       "condition": {
-"biomes": [ "minecraft:cherry_grove" ],
-        "canSeeSky": true,
+        "biomes": [
+          "minecraft:cherry_grove"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       }
     }
-
-]
+  ]
 }

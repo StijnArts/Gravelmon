@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltablaziken-1",
-      "pokemon": "blaziken-delta",
+      "id": "delta_blaziken-01",
+      "pokemon": "blaziken delta",
       "presets": [
-          "desert_pyramid"
+        "desert_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,15 +15,16 @@
       "level": "36-58",
       "weight": 0.8,
       "condition": {
-"biomes": [ "#cobblemon:is_desert" ]
+        "biomes": [
+          "#cobblemon:is_desert"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "ayreianblaziken-1",
-      "pokemon": "blaziken-ayreian",
+      "id": "ayreian_blaziken-01",
+      "pokemon": "blaziken ayreian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -31,17 +32,19 @@
       "level": "36-47",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ],
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "mysticblaziken-1",
-      "pokemon": "blaziken-mystic",
+      "id": "mystic_blaziken-01",
+      "pokemon": "blaziken mystic",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -49,10 +52,12 @@
       "level": "36-58",
       "weight": 0.8,
       "condition": {
-"biomes": [ "#cobblemon:is_badlands" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "elefjant-1",
+      "id": "elefjant-01",
       "pokemon": "elefjant",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "12-36",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_tundra" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_tundra"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltaremoraid-1",
-      "pokemon": "remoraid-delta",
+      "id": "delta_remoraid-01",
+      "pokemon": "remoraid delta",
       "presets": [
-          "lava_surface"
+        "lava_surface"
       ],
       "type": "pokemon",
       "context": "surface",
@@ -15,9 +15,10 @@
       "level": "3-22",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#minecraft:is_nether" ]
+        "biomes": [
+          "#minecraft:is_nether"
+        ]
       }
     }
-
-]
+  ]
 }

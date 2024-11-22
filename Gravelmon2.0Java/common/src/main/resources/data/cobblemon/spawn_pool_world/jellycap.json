@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "jellycap-1",
+      "id": "jellycap-01",
       "pokemon": "jellycap",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,11 +15,14 @@
       "level": "3-22",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_mushroom",
-"#cobblemon:is_taiga",
-"#cobblemon:is_old_growth_taiga",
-"#cobblemon:is_swamp" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_mushroom",
+          "#cobblemon:is_taiga",
+          "#cobblemon:is_old_growth_taiga",
+          "#cobblemon:is_swamp"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

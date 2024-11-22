@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "finpact-1",
+      "id": "finpact-01",
       "pokemon": "finpact",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,8 +15,11 @@
       "level": "30-54",
       "weight": 0.4,
       "condition": {
-"biomes": [ "#cobblemon:is_cave" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_cave"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

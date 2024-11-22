@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "pteroast-1",
+      "id": "pteroast-01",
       "pokemon": "pteroast",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "13-37",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_volvanic",
-"#cobblemon:nether/is_basalt" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_volvanic",
+          "#cobblemon:nether/is_basalt"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

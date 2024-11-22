@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ceresplit-1",
+      "id": "ceresplit-01",
       "pokemon": "ceresplit",
       "presets": [
-          "near_lava"
+        "near_lava"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "22-54",
       "weight": 7.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cave" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_cave"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "maxY": 20
       }
     }

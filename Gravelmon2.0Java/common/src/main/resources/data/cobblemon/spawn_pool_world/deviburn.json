@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deviburn-1",
+      "id": "deviburn-01",
       "pokemon": "deviburn",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,13 @@
       "level": "5-33",
       "weight": 10.0,
       "condition": {
-"biomes": [ "#cobblemon:is_thermal",
-"#cobblemon:is_volvanic",
-"#minecraft:is_nether" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_thermal",
+          "#cobblemon:is_volvanic",
+          "#minecraft:is_nether"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

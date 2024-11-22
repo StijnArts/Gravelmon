@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "interiangenesect-1",
-      "pokemon": "genesect-interian",
+      "id": "interian_genesect-01",
+      "pokemon": "genesect interian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,10 @@
       "level": "70-70",
       "weight": 3.0E-5,
       "condition": {
-"biomes": [ "#minecraft:is_end" ]
+        "biomes": [
+          "#minecraft:is_end"
+        ]
       }
     }
-
-]
+  ]
 }

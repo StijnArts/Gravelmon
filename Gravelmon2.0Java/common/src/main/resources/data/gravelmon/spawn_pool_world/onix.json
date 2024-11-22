@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "hoennianonix-1",
-      "pokemon": "onix-hoennian",
+      "id": "hoennian_onix-01",
+      "pokemon": "onix hoennian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,13 +15,16 @@
       "level": "14-39",
       "weight": 5.4,
       "condition": {
-"biomes": [ "#cobblemon:is_cold",
-"#cobblemon:is_freezing" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_cold",
+          "#cobblemon:is_freezing"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "anticondition": {
-"biomes": [  ]    }
+        "biomes": []
+      }
     }
-
-]
+  ]
 }

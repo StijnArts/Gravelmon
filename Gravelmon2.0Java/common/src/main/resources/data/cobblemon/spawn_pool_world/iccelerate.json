@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "iccelerate-1",
+      "id": "iccelerate-01",
       "pokemon": "iccelerate",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "33-54",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_freezing" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

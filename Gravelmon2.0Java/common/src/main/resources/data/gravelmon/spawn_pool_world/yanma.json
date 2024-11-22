@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltayanma-1",
-      "pokemon": "yanma-delta",
+      "id": "delta_yanma-01",
+      "pokemon": "yanma delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,18 @@
       "level": "11-39",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_jungle" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "kaskadianyanma-1",
-      "pokemon": "yanma-kaskadian",
+      "id": "kaskadian_yanma-01",
+      "pokemon": "yanma kaskadian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,10 +34,12 @@
       "level": "11-39",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

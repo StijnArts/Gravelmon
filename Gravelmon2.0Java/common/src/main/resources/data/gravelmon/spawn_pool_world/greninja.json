@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltagreninja-1",
-      "pokemon": "greninja-delta",
+      "id": "delta_greninja-01",
+      "pokemon": "greninja delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,18 @@
       "level": "36-59",
       "weight": 0.8,
       "condition": {
-"biomes": [ "#cobblemon:is_lush" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_lush"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "greninjax-1",
-      "pokemon": "greninja-x",
+      "id": "x_greninja-01",
+      "pokemon": "greninja x",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,15 +34,16 @@
       "level": "33-48",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#minecraft:is_end" ]
+        "biomes": [
+          "#minecraft:is_end"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "armirangreninja-1",
-      "pokemon": "greninja-armiran",
+      "id": "armiran_greninja-01",
+      "pokemon": "greninja armiran",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -48,10 +51,10 @@
       "level": "36-54",
       "weight": 0.2,
       "condition": {
-        "canSeeSky": false,
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
         "maxY": -20
       }
     }
-
-]
+  ]
 }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "carvanhax-1",
-      "pokemon": "carvanha-x",
+      "id": "x_carvanha-01",
+      "pokemon": "carvanha x",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,10 +15,11 @@
       "level": "15-34",
       "weight": 3.3,
       "condition": {
-"biomes": [ "#minecraft:is_end",
-"#minecraft:is_deep_ocean" ]
+        "biomes": [
+          "#minecraft:is_end",
+          "#minecraft:is_deep_ocean"
+        ]
       }
     }
-
-]
+  ]
 }

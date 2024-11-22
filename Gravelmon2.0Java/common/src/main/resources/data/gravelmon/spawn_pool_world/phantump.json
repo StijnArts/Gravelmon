@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "varitasianphantump-1",
-      "pokemon": "phantump-varitasian",
+      "id": "varitasian_phantump-01",
+      "pokemon": "phantump varitasian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,17 +15,19 @@
       "level": "6-31",
       "weight": 1.8,
       "condition": {
-"biomes": [ "#cobblemon:is_taiga" ],
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ],
         "timeRange": "day",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "deltaphantump-1",
-      "pokemon": "phantump-delta",
+      "id": "delta_phantump-01",
+      "pokemon": "phantump delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -33,19 +35,24 @@
       "level": "3-22",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_floral" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_floral"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_plains",
-"#cobblemon:has_season/autumn" ]    }
-    }
-,
+        "biomes": [
+          "#cobblemon:is_plains",
+          "#cobblemon:has_season/autumn"
+        ]
+      }
+    },
     {
-      "id": "kaskadianphantump-1",
-      "pokemon": "phantump-kaskadian",
+      "id": "kaskadian_phantump-01",
+      "pokemon": "phantump kaskadian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -53,10 +60,12 @@
       "level": "3-22",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:nether/is_fungus" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:nether/is_fungus"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

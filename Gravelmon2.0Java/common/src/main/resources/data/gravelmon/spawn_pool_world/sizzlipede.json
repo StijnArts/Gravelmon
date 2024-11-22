@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "seviiansizzlipede-1",
-      "pokemon": "sizzlipede-seviian",
+      "id": "seviian_sizzlipede-01",
+      "pokemon": "sizzlipede seviian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,15 +15,16 @@
       "level": "6-36",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_desert" ]
+        "biomes": [
+          "#cobblemon:is_desert"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "ayreiansizzlipede-1",
-      "pokemon": "sizzlipede-ayreian",
+      "id": "ayreian_sizzlipede-01",
+      "pokemon": "sizzlipede ayreian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -31,10 +32,11 @@
       "level": "6-36",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:nether/is_soul_sand",
-"#cobblemon:is_magical" ]
+        "biomes": [
+          "#cobblemon:nether/is_soul_sand",
+          "#cobblemon:is_magical"
+        ]
       }
     }
-
-]
+  ]
 }

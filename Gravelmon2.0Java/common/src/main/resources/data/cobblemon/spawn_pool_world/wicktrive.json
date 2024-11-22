@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "wicktrive-1",
+      "id": "wicktrive-01",
       "pokemon": "wicktrive",
       "presets": [
-          "foliage"
+        "foliage"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "15-30",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_badlands",
-"#cobblemon:is_spooky" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_spooky"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "norheimanrookidee-1",
-      "pokemon": "rookidee-norheiman",
+      "id": "norheiman_rookidee-01",
+      "pokemon": "rookidee norheiman",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,11 +15,13 @@
       "level": "1-25",
       "weight": 9.0,
       "condition": {
-"biomes": [ "#cobblemon:is_tundra",
-"#cobblemon:is_snowy_forest" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_tundra",
+          "#cobblemon:is_snowy_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "taomarin-1",
+      "id": "taomarin-01",
       "pokemon": "taomarin",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,12 +15,18 @@
       "level": "3-32",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_plains" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_plains"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_cold",
-"#cobblemon:is_temperate" ]    }
+        "biomes": [
+          "#cobblemon:is_cold",
+          "#cobblemon:is_temperate"
+        ]
+      }
     }
   ]
 }

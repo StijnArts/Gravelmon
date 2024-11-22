@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "kirinirik-1",
+      "id": "kirinirik-01",
       "pokemon": "kirinirik",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "41-65",
       "weight": 0.9,
       "condition": {
-"biomes": [ "minecraft:cherry_grove" ],
-        "canSeeSky": true
+        "biomes": [
+          "minecraft:cherry_grove"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

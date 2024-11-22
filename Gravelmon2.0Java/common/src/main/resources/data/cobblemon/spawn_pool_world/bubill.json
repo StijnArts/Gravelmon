@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "bubill-1",
+      "id": "bubill-01",
       "pokemon": "bubill",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "3-22",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:nether/is_forest" ]
+        "biomes": [
+          "#cobblemon:nether/is_forest"
+        ]
       }
     }
   ]

@@ -4,11 +4,11 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "drifsea-1",
+      "id": "drifsea-01",
       "pokemon": "drifsea",
       "presets": [
-          "underwater",
-          "foliage"
+        "underwater",
+        "foliage"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -16,10 +16,15 @@
       "level": "33-54",
       "weight": 1.2,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ]
+        "biomes": [
+          "#minecraft:is_ocean"
+        ]
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_cold_ocean" ]    }
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ]
+      }
     }
   ]
 }

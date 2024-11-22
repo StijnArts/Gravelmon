@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "carndy-1",
+      "id": "carndy-01",
       "pokemon": "carndy",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "3-22",
       "weight": 3.8,
       "condition": {
-"biomes": [ "#minecraft:is_nether" ]
+        "biomes": [
+          "#minecraft:is_nether"
+        ]
       }
     }
   ]

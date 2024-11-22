@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "salamink-1",
+      "id": "salamink-01",
       "pokemon": "salamink",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,7 +15,9 @@
       "level": "11-37",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cave" ]
+        "biomes": [
+          "#cobblemon:is_cave"
+        ]
       }
     }
   ]

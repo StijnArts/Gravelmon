@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "gagokin-1",
+      "id": "gagokin-01",
       "pokemon": "gagokin",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "34-55",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cold" ]
+        "biomes": [
+          "#cobblemon:is_cold"
+        ]
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltaservine-1",
-      "pokemon": "servine-delta",
+      "id": "delta_servine-01",
+      "pokemon": "servine delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,12 @@
       "level": "17-34",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_freshwater" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_freshwater"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
-
-]
+  ]
 }

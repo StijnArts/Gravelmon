@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "shulong-1",
+      "id": "shulong-01",
       "pokemon": "shulong",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,8 +15,10 @@
       "level": "3-22",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_jungle",
-"#minecraft:is_end" ]
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#minecraft:is_end"
+        ]
       }
     }
   ]

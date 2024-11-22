@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "growlain-1",
+      "id": "growlain-01",
       "pokemon": "growlain",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "65-75",
       "weight": 6.0E-4,
       "condition": {
-"biomes": [ "#cobblemon:is_volvanic" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_volvanic"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

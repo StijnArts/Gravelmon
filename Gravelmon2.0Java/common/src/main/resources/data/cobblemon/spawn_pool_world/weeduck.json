@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "weeduck-1",
+      "id": "weeduck-01",
       "pokemon": "weeduck",
       "presets": [
-          "freshwater"
+        "freshwater"
       ],
       "type": "pokemon",
       "context": "surface",
@@ -15,8 +15,11 @@
       "level": "18-46",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

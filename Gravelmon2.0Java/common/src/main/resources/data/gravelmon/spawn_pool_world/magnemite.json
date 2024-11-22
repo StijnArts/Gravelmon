@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "eghomagnemite-1",
-      "pokemon": "magnemite-egho",
+      "id": "egho_magnemite-01",
+      "pokemon": "magnemite egho",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,15 +15,16 @@
       "level": "12-22",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_lush" ]
+        "biomes": [
+          "#cobblemon:is_lush"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "ayreianmagnemite-1",
-      "pokemon": "magnemite-ayreian",
+      "id": "ayreian_magnemite-01",
+      "pokemon": "magnemite ayreian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -31,10 +32,12 @@
       "level": "12-32",
       "weight": 1.8,
       "condition": {
-"biomes": [ "#cobblemon:nether/is_wasteland" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:nether/is_wasteland"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

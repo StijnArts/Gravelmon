@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ranconette-1",
+      "id": "ranconette-01",
       "pokemon": "ranconette",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,15 @@
       "level": "47-65",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ]
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_cold" ]    }
+        "biomes": [
+          "#cobblemon:is_cold"
+        ]
+      }
     }
   ]
 }

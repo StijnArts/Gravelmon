@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "quartzac-1",
+      "id": "quartzac-01",
       "pokemon": "quartzac",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,11 @@
       "level": "3-22",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cave",
-"#cobblemon:is_volvanic",
-"#cobblemon:nether/is_wasteland" ]
+        "biomes": [
+          "#cobblemon:is_cave",
+          "#cobblemon:is_volvanic",
+          "#cobblemon:nether/is_wasteland"
+        ]
       }
     }
   ]

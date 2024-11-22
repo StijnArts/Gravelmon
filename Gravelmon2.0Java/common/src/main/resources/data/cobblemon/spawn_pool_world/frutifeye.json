@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "frutifeye-1",
+      "id": "frutifeye-01",
       "pokemon": "frutifeye",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "8-31",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_jungle" ],
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
         "timeRange": "false",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

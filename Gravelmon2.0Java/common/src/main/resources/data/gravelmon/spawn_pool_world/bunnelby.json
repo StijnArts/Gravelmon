@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "kaskadianbunnelby-1",
-      "pokemon": "bunnelby-kaskadian",
+      "id": "kaskadian_bunnelby-01",
+      "pokemon": "bunnelby kaskadian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,12 +15,16 @@
       "level": "5-35",
       "weight": 9.0,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy" ]
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ]
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_forest",
-"#cobblemon:is_plains" ]    }
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_plains"
+        ]
+      }
     }
-
-]
+  ]
 }

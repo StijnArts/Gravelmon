@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "snosquatch-1",
+      "id": "snosquatch-01",
       "pokemon": "snosquatch",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "34-47",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_freezing" ],
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ],
         "isRaining": true,
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

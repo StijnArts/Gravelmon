@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "papillow-1",
+      "id": "papillow-01",
       "pokemon": "papillow",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "26-35",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ]
+        "biomes": [
+          "#cobblemon:is_magical"
+        ]
       }
     }
   ]

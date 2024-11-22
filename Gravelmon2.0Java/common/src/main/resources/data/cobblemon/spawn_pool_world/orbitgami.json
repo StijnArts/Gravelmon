@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "orbitgami-1",
+      "id": "orbitgami-01",
       "pokemon": "orbitgami",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,13 @@
       "level": "31-54",
       "weight": 0.3,
       "condition": {
-"biomes": [ "minecraft:cherry_grove",
-"#cobblemon:is_bamboo" ],
+        "biomes": [
+          "minecraft:cherry_grove",
+          "#cobblemon:is_bamboo"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

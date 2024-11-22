@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "spoocap-1",
+      "id": "spoocap-01",
       "pokemon": "spoocap",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,11 @@
       "level": "7-28",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky",
-"#cobblemon:is_magical",
-"#cobblemon:is_mushroom" ],
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_magical",
+          "#cobblemon:is_mushroom"
+        ],
         "timeRange": "night"
       }
     }

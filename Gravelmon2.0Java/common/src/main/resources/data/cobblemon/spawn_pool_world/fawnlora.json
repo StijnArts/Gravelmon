@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fawnlora-1",
+      "id": "fawnlora-01",
       "pokemon": "fawnlora",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,11 +15,17 @@
       "level": "3-22",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_taiga" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_snowy" ]    }
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ]
+      }
     }
   ]
 }

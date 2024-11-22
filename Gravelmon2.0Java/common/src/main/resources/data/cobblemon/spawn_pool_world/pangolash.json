@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "pangolash-1",
+      "id": "pangolash-01",
       "pokemon": "pangolash",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "25-49",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_arid" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_arid"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

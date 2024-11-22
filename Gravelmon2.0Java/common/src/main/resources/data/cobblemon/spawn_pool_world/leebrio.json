@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "leebrio-1",
+      "id": "leebrio-01",
       "pokemon": "leebrio",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "1-19",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
         "timeRange": "day"
       }
     }

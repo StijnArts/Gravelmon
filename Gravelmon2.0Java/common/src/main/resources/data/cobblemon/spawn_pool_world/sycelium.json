@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "sycelium-1",
+      "id": "sycelium-01",
       "pokemon": "sycelium",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,11 +15,16 @@
       "level": "25-36",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_mushroom",
-"#cobblemon:is_forest" ]
+        "biomes": [
+          "#cobblemon:is_mushroom",
+          "#cobblemon:is_forest"
+        ]
       },
       "anticondition": {
-"biomes": [ "#cobblemon:has_season/summer" ]    }
+        "biomes": [
+          "#cobblemon:has_season/summer"
+        ]
+      }
     }
   ]
 }

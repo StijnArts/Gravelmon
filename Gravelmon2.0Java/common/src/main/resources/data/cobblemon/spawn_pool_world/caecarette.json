@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "caecarette-1",
+      "id": "caecarette-01",
       "pokemon": "caecarette",
       "presets": [
-          "near_lava"
+        "near_lava"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "3-22",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_volvanic",
-"#minecraft:is_nether" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_volvanic",
+          "#minecraft:is_nether"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

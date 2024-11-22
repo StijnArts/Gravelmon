@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "egholudicolo-1",
-      "pokemon": "ludicolo-egho",
+      "id": "egho_ludicolo-01",
+      "pokemon": "ludicolo egho",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,15 +15,16 @@
       "level": "39-49",
       "weight": 2.3,
       "condition": {
-"biomes": [ "#cobblemon:nether/is_forest" ]
+        "biomes": [
+          "#cobblemon:nether/is_forest"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "deltaludicolo-1",
-      "pokemon": "ludicolo-delta",
+      "id": "delta_ludicolo-01",
+      "pokemon": "ludicolo delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -31,11 +32,13 @@
       "level": "38-58",
       "weight": 0.02,
       "condition": {
-"biomes": [ "#cobblemon:is_magical",
-"#cobblemon:is_spooky" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_magical",
+          "#cobblemon:is_spooky"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

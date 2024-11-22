@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "probat-1",
+      "id": "probat-01",
       "pokemon": "probat",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,19 +15,25 @@
       "level": "45-53",
       "weight": 0.02,
       "condition": {
-"biomes": [ "#cobblemon:is_forest",
-"#cobblemon:is_grassland",
-"#cobblemon:is_hills",
-"#cobblemon:is_jungle",
-"#cobblemon:is_sky",
-"#cobblemon:is_swamp" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_grassland",
+          "#cobblemon:is_hills",
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_sky",
+          "#cobblemon:is_swamp"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "isRaining": false,
         "timeRange": "night"
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_spooky",
-"#cobblemon:is_freezing" ]    }
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_freezing"
+        ]
+      }
     }
   ]
 }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltaregirock-1",
-      "pokemon": "regirock-delta",
+      "id": "delta_regirock-01",
+      "pokemon": "regirock delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,10 @@
       "level": "69-80",
       "weight": 3.0E-5,
       "condition": {
-"biomes": [ "#cobblemon:is_sandy" ]
+        "biomes": [
+          "#cobblemon:is_sandy"
+        ]
       }
     }
-
-]
+  ]
 }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "skelerogue-1",
+      "id": "skelerogue-01",
       "pokemon": "skelerogue",
       "presets": [
-          "shipwreck"
+        "shipwreck"
       ],
       "type": "pokemon",
       "context": "surface",
@@ -15,13 +15,19 @@
       "level": "40-55",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_beach",
-"#minecraft:is_ocean" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_beach",
+          "#minecraft:is_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_hills" ]    }
+        "biomes": [
+          "#cobblemon:is_hills"
+        ]
+      }
     }
   ]
 }

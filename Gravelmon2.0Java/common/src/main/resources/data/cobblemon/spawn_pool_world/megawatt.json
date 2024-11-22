@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "megawatt-1",
+      "id": "megawatt-01",
       "pokemon": "megawatt",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "42-63",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#cobblemon:is_taiga",
-"#cobblemon:is_old_growth_taiga" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_taiga",
+          "#cobblemon:is_old_growth_taiga"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

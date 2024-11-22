@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "quetzap-1",
+      "id": "quetzap-01",
       "pokemon": "quetzap",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "2-22",
       "weight": 7.0,
       "condition": {
-"biomes": [ "#cobblemon:is_grassland" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_grassland"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

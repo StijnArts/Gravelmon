@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "gemeral-1",
+      "id": "gemeral-01",
       "pokemon": "gemeral",
       "presets": [
-          "amethyst_geode"
+        "amethyst_geode"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "14-31",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cave" ]
+        "biomes": [
+          "#cobblemon:is_cave"
+        ]
       }
     }
   ]

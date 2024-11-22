@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "veyerus-1",
+      "id": "veyerus-01",
       "pokemon": "veyerus",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "32-47",
       "weight": 0.4,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy" ],
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ],
         "timeRange": "night"
       }
     }

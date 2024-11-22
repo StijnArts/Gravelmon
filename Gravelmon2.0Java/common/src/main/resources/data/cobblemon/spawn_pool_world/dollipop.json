@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "dollipop-1",
+      "id": "dollipop-01",
       "pokemon": "dollipop",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "29-41",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ]
+        "biomes": [
+          "#cobblemon:is_magical"
+        ]
       }
     }
   ]

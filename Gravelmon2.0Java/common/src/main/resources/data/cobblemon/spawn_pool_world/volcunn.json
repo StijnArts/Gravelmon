@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "volcunn-1",
+      "id": "volcunn-01",
       "pokemon": "volcunn",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "41-61",
       "weight": 0.4,
       "condition": {
-"biomes": [ "#cobblemon:is_volvanic" ]
+        "biomes": [
+          "#cobblemon:is_volvanic"
+        ]
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mambaboo-1",
+      "id": "mambaboo-01",
       "pokemon": "mambaboo",
       "presets": [
-          "illager_structures"
+        "illager_structures"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "32-54",
       "weight": 0.8,
       "condition": {
-"biomes": [ "#cobblemon:is_swamp" ]
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ]
       }
     }
   ]

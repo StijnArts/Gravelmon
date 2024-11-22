@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "nervreck-1",
+      "id": "nervreck-01",
       "pokemon": "nervreck",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "25-41",
       "weight": 1.5,
       "condition": {
-"biomes": [ "#cobblemon:is_highlands" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_highlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltafroslass-1",
-      "pokemon": "froslass-delta",
+      "id": "delta_froslass-01",
+      "pokemon": "froslass delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,15 +15,16 @@
       "level": "34-58",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:nether/is_desert" ]
+        "biomes": [
+          "#cobblemon:nether/is_desert"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "cefiranfroslass-1",
-      "pokemon": "froslass-cefiran",
+      "id": "cefiran_froslass-01",
+      "pokemon": "froslass cefiran",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -31,11 +32,13 @@
       "level": "41-48",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_savanna" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       }
     }
-
-]
+  ]
 }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "silviper-1",
+      "id": "silviper-01",
       "pokemon": "silviper",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "34-56",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_badlands" ],
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
         "timeRange": "day"
       }
     }

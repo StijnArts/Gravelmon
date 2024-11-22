@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "valvette-1",
+      "id": "valvette-01",
       "pokemon": "valvette",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "35-54",
       "weight": 1.0,
       "condition": {
-"biomes": [ "minecraft:cherry_grove" ],
-        "canSeeSky": true
+        "biomes": [
+          "minecraft:cherry_grove"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

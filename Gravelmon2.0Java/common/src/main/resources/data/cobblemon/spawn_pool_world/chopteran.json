@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "chopteran-1",
+      "id": "chopteran-01",
       "pokemon": "chopteran",
       "presets": [
-          "freshwater"
+        "freshwater"
       ],
       "type": "pokemon",
       "context": "surface",
@@ -15,9 +15,12 @@
       "level": "31-48",
       "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:has_season/spring",
-"#cobblemon:has_season/autumn" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:has_season/spring",
+          "#cobblemon:has_season/autumn"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

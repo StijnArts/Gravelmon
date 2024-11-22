@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltaberrydwebble-1",
-      "pokemon": "deltaberrydwebble-delta_berry",
+      "id": "delta_berry_deltaberrydwebble-01",
+      "pokemon": "deltaberrydwebble delta_berry",
       "presets": [
-          "near_berry_bush"
+        "near_berry_bush"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,12 @@
       "level": "12-32",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_overworld" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

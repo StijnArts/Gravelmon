@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "papalgae-1",
+      "id": "papalgae-01",
       "pokemon": "papalgae",
       "presets": [
-          "foliage"
+        "foliage"
       ],
       "type": "pokemon",
       "context": "seafloor",
@@ -15,8 +15,11 @@
       "level": "33-54",
       "weight": 0.5,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ],
-        "canSeeSky": true
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

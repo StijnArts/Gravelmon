@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "amazealldrifblim-1",
-      "pokemon": "amazealldrifblim-amaze_all",
+      "id": "amaze_all_amazealldrifblim-01",
+      "pokemon": "amazealldrifblim amaze_all",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,10 @@
       "level": "28-48",
       "weight": 1.6,
       "condition": {
-"biomes": [ "#cobblemon:is_temperate" ]
+        "biomes": [
+          "#cobblemon:is_temperate"
+        ]
       }
     }
-
-]
+  ]
 }

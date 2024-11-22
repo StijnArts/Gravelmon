@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "hiziansandaconda-1",
-      "pokemon": "sandaconda-hizian",
+      "id": "hizian_sandaconda-01",
+      "pokemon": "sandaconda hizian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,11 +15,13 @@
       "level": "36-50",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_volvanic",
-"#cobblemon:is_thermal" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_volvanic",
+          "#cobblemon:is_thermal"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fai-1",
+      "id": "fai-01",
       "pokemon": "fai",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "3-22",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_magical",
-"#cobblemon:is_jungle" ]
+        "biomes": [
+          "#cobblemon:is_magical",
+          "#cobblemon:is_jungle"
+        ]
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "qamoranbeartic-1",
-      "pokemon": "beartic-qamoran",
+      "id": "qamoran_beartic-01",
+      "pokemon": "beartic qamoran",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,11 @@
       "level": "37-60",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky",
-"#cobblemon:nether/is_wasteland" ]
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "#cobblemon:nether/is_wasteland"
+        ]
       }
     }
-
-]
+  ]
 }

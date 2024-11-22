@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "notillunar-1",
+      "id": "notillunar-01",
       "pokemon": "notillunar",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,10 +15,13 @@
       "level": "31-53",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ],
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
         "timeRange": "night",
         "isRaining": false,
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

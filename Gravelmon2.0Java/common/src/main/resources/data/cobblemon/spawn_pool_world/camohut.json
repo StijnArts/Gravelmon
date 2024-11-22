@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "camohut-1",
+      "id": "camohut-01",
       "pokemon": "camohut",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "7-31",
       "weight": 3.8,
       "condition": {
-"biomes": [ "#cobblemon:is_highlands" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_highlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

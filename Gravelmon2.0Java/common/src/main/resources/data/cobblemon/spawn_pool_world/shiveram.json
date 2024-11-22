@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "shiveram-1",
+      "id": "shiveram-01",
       "pokemon": "shiveram",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,12 +15,18 @@
       "level": "31-47",
       "weight": 0.03,
       "condition": {
-"biomes": [ "#cobblemon:is_freezing",
-"#cobblemon:is_snowy" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_freezing",
+          "#cobblemon:is_snowy"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_forest" ]    }
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
+      }
     }
   ]
 }

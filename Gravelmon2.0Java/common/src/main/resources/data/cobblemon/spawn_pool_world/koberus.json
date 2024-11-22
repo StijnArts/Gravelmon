@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "koberus-1",
+      "id": "koberus-01",
       "pokemon": "koberus",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,14 +15,20 @@
       "level": "29-45",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cave",
-"#cobblemon:is_highlands",
-"#cobblemon:is_hills" ],
+        "biomes": [
+          "#cobblemon:is_cave",
+          "#cobblemon:is_highlands",
+          "#cobblemon:is_hills"
+        ],
         "timeRange": "day",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_cold" ]    }
+        "biomes": [
+          "#cobblemon:is_cold"
+        ]
+      }
     }
   ]
 }

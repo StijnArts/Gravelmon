@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "yacuma-1",
+      "id": "yacuma-01",
       "pokemon": "yacuma",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,9 +15,12 @@
       "level": "50-55",
       "weight": 5.0E-4,
       "condition": {
-"biomes": [ "#minecraft:is_deep_ocean" ],
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ],
         "maxY": 10,
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

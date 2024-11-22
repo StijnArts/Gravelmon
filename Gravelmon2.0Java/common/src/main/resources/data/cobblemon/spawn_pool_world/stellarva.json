@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "stellarva-1",
+      "id": "stellarva-01",
       "pokemon": "stellarva",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "3-10",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_magical",
-"#cobblemon:is_forest" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_magical",
+          "#cobblemon:is_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       }
     }

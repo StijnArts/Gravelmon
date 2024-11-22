@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "jellodiac-1",
+      "id": "jellodiac-01",
       "pokemon": "jellodiac",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "32-48",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ]
+        "biomes": [
+          "#cobblemon:is_magical"
+        ]
       }
     }
   ]

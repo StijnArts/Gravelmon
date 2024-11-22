@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "swandola-1",
+      "id": "swandola-01",
       "pokemon": "swandola",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "surface",
@@ -15,8 +15,11 @@
       "level": "33-54",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#cobblemon:is_river" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_river"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

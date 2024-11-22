@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "insensei-1",
+      "id": "insensei-01",
       "pokemon": "insensei",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "33-51",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_bamboo" ]
+        "biomes": [
+          "#cobblemon:is_bamboo"
+        ]
       }
     }
   ]

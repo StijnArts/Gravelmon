@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "soarup-1",
+      "id": "soarup-01",
       "pokemon": "soarup",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "25-42",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_floral",
-"minecraft:cherry_grove" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_floral",
+          "minecraft:cherry_grove"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltaseedot-1",
-      "pokemon": "seedot-delta",
+      "id": "delta_seedot-01",
+      "pokemon": "seedot delta",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,11 @@
       "level": "3-28",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_overworld" ],
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
         "timeRange": "night"
       }
     }
-
-]
+  ]
 }

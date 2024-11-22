@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltadunsparce-1",
-      "pokemon": "dunsparce-delta",
+      "id": "delta_dunsparce-01",
+      "pokemon": "dunsparce delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "surface",
@@ -15,16 +15,18 @@
       "level": "12-39",
       "weight": 1.8,
       "condition": {
-"biomes": [ "#cobblemon:is_freshwater" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_freshwater"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
-    }
-,
+    },
     {
-      "id": "hoenniandunsparce-1",
-      "pokemon": "dunsparce-hoennian",
+      "id": "hoennian_dunsparce-01",
+      "pokemon": "dunsparce hoennian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,13 +34,18 @@
       "level": "12-41",
       "weight": 1.8,
       "condition": {
-"biomes": [ "#cobblemon:is_arid" ],
-        "canSeeSky": false,
+        "biomes": [
+          "#cobblemon:is_arid"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
         "maxY": 20
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_deep_dark" ]    }
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ]
+      }
     }
-
-]
+  ]
 }

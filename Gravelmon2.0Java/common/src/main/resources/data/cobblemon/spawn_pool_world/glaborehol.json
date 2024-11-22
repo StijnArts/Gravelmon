@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "glaborehol-1",
+      "id": "glaborehol-01",
       "pokemon": "glaborehol",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "29-44",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_cave" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_cave"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "nemosis-1",
+      "id": "nemosis-01",
       "pokemon": "nemosis",
       "presets": [
-          "reef"
+        "reef"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,8 +15,11 @@
       "level": "4-27",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_warm_ocean" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

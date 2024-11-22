@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "norheimanunown-1",
-      "pokemon": "unown-norheiman",
+      "id": "norheiman_unown-01",
+      "pokemon": "unown norheiman",
       "presets": [
-          "ruined_portal"
+        "ruined_portal"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,15 +15,16 @@
       "level": "3-22",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy" ]
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "unownearth-1",
-      "pokemon": "unown-earth",
+      "id": "earth_unown-01",
+      "pokemon": "unown earth",
       "presets": [
-          "end_city"
+        "end_city"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -31,15 +32,16 @@
       "level": "12-20",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#minecraft:is_end" ]
+        "biomes": [
+          "#minecraft:is_end"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "unownxenoverse-1",
-      "pokemon": "unown-xenoverse",
+      "id": "xenoverse_unown-01",
+      "pokemon": "unown xenoverse",
       "presets": [
-          "end_city"
+        "end_city"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -47,9 +49,10 @@
       "level": "12-20",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#minecraft:is_end" ]
+        "biomes": [
+          "#minecraft:is_end"
+        ]
       }
     }
-
-]
+  ]
 }

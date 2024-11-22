@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fungotta-1",
+      "id": "fungotta-01",
       "pokemon": "fungotta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,12 +15,17 @@
       "level": "3-22",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_mushroom",
-"#cobblemon:is_forest" ],
+        "biomes": [
+          "#cobblemon:is_mushroom",
+          "#cobblemon:is_forest"
+        ],
         "timeRange": "night"
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_jungle" ]    }
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ]
+      }
     }
   ]
 }

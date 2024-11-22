@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fleesquach-1",
+      "id": "fleesquach-01",
       "pokemon": "fleesquach",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "45-59",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_taiga" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

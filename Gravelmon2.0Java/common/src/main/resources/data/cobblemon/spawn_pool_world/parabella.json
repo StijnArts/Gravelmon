@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "parabella-1",
+      "id": "parabella-01",
       "pokemon": "parabella",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,8 +15,11 @@
       "level": "22-36",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#minecraft:is_deep_ocean" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "maxY": 30
       }
     }

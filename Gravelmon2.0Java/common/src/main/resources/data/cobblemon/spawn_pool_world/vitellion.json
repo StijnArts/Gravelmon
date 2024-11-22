@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "vitellion-1",
+      "id": "vitellion-01",
       "pokemon": "vitellion",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "10-40",
       "weight": 0.001,
       "condition": {
-"biomes": [ "#cobblemon:is_jungle" ],
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
         "timeRange": "night"
       }
     }

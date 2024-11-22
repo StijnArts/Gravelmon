@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "aristosianfurret-1",
-      "pokemon": "furret-aristosian",
+      "id": "aristosian_furret-01",
+      "pokemon": "furret aristosian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,13 +15,18 @@
       "level": "15-41",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_forest",
-"#cobblemon:is_lush" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_lush"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:has_season/winter" ]    }
+        "biomes": [
+          "#cobblemon:has_season/winter"
+        ]
+      }
     }
-
-]
+  ]
 }

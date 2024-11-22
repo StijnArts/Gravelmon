@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "pigid-1",
+      "id": "pigid-01",
       "pokemon": "pigid",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "3-22",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_freezing" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

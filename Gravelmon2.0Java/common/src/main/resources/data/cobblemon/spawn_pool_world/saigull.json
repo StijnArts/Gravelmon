@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "saigull-1",
+      "id": "saigull-01",
       "pokemon": "saigull",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "16-29",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_coast" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_coast"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "day"
       }
     }

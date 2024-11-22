@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "gassaster-1",
+      "id": "gassaster-01",
       "pokemon": "gassaster",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "33-48",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_deep_dark" ]
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ]
       }
     }
   ]

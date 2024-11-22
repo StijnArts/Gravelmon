@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "nurstork-1",
+      "id": "nurstork-01",
       "pokemon": "nurstork",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "30-54",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
         "timeRange": "day"
       }
     }

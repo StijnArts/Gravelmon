@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltawaterpetilil-1",
-      "pokemon": "deltawaterpetilil-delta_water",
+      "id": "delta_water_deltawaterpetilil-01",
+      "pokemon": "deltawaterpetilil delta_water",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,11 +15,15 @@
       "level": "13-27",
       "weight": 9.0,
       "condition": {
-"biomes": [ "#minecraft:is_deep_ocean" ]
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ]
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_cold" ]    }
+        "biomes": [
+          "#cobblemon:is_cold"
+        ]
+      }
     }
-
-]
+  ]
 }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "beastalk-1",
+      "id": "beastalk-01",
       "pokemon": "beastalk",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "16-46",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_lush",
-"#cobblemon:is_jungle" ]
+        "biomes": [
+          "#cobblemon:is_lush",
+          "#cobblemon:is_jungle"
+        ]
       }
     }
   ]

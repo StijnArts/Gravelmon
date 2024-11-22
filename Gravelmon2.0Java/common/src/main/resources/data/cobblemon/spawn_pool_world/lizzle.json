@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "lizzle-1",
+      "id": "lizzle-01",
       "pokemon": "lizzle",
       "presets": [
-          "reef"
+        "reef"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "2-22",
       "weight": 7.0,
       "condition": {
-"biomes": [ "#cobblemon:is_warm_ocean" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

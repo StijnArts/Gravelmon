@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "eghoivysaur-1",
-      "pokemon": "ivysaur-egho",
+      "id": "egho_ivysaur-01",
+      "pokemon": "ivysaur egho",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,18 @@
       "level": "16-28",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_desert" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_desert"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "deltaivysaur-1",
-      "pokemon": "ivysaur-delta",
+      "id": "delta_ivysaur-01",
+      "pokemon": "ivysaur delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,17 +34,19 @@
       "level": "16-29",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_magical",
-"#cobblemon:is_floral" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_magical",
+          "#cobblemon:is_floral"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "ayreianivysaur-1",
-      "pokemon": "ivysaur-ayreian",
+      "id": "ayreian_ivysaur-01",
+      "pokemon": "ivysaur ayreian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -50,11 +54,13 @@
       "level": "16-29",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_badlands" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       }
     }
-
-]
+  ]
 }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "pipkorn-1",
+      "id": "pipkorn-01",
       "pokemon": "pipkorn",
       "presets": [
-          "near_crops"
+        "near_crops"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "21-44",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_temperate" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_temperate"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

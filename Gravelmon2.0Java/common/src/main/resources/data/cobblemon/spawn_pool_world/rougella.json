@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "rougella-1",
+      "id": "rougella-01",
       "pokemon": "rougella",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,13 +15,19 @@
       "level": "50-67",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_sky",
+          "#cobblemon:is_mountain"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_temperate",
-"#cobblemon:is_arid" ]    }
+        "biomes": [
+          "#cobblemon:is_temperate",
+          "#cobblemon:is_arid"
+        ]
+      }
     }
   ]
 }

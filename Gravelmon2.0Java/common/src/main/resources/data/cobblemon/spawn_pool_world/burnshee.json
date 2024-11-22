@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "burnshee-1",
+      "id": "burnshee-01",
       "pokemon": "burnshee",
       "presets": [
-          "near_lava"
+        "near_lava"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "13-32",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#minecraft:is_nether" ],
-        "canSeeSky": true
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

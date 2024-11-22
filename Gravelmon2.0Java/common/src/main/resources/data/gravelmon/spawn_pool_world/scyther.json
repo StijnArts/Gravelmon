@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "hizianscyther-1",
-      "pokemon": "scyther-hizian",
+      "id": "hizian_scyther-01",
+      "pokemon": "scyther hizian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,18 @@
       "level": "25-50",
       "weight": 1.8,
       "condition": {
-"biomes": [ "minecraft:cherry_grove" ],
-        "canSeeSky": true
+        "biomes": [
+          "minecraft:cherry_grove"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "deltascyther-1",
-      "pokemon": "scyther-delta",
+      "id": "delta_scyther-01",
+      "pokemon": "scyther delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,16 +34,18 @@
       "level": "20-45",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_freezing" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "mythianscyther-1",
-      "pokemon": "scyther-mythian",
+      "id": "mythian_scyther-01",
+      "pokemon": "scyther mythian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -49,10 +53,11 @@
       "level": "20-50",
       "weight": 1.98,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ],
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
         "timeRange": "night"
       }
     }
-
-]
+  ]
 }

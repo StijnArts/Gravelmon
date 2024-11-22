@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "festiata-1",
+      "id": "festiata-01",
       "pokemon": "festiata",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "13-29",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_arid" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_arid"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

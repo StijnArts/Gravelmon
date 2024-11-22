@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "obsidious-1",
+      "id": "obsidious-01",
       "pokemon": "obsidious",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "36-58",
       "weight": 0.8,
       "condition": {
-"biomes": [ "#minecraft:is_nether",
-"#cobblemon:is_volvanic" ]
+        "biomes": [
+          "#minecraft:is_nether",
+          "#cobblemon:is_volvanic"
+        ]
       }
     }
   ]

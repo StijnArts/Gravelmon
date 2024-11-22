@@ -4,11 +4,11 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "polluga-1",
+      "id": "polluga-01",
       "pokemon": "polluga",
       "presets": [
-          "near_water",
-          "village"
+        "near_water",
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -16,8 +16,11 @@
       "level": "3-22",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_coast" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_coast"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

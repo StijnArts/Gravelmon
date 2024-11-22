@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "junkid-1",
+      "id": "junkid-01",
       "pokemon": "junkid",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "22-44",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_deep_dark" ]
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ]
       }
     }
   ]

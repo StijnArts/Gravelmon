@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "cefiranmagcargo-1",
-      "pokemon": "magcargo-cefiran",
+      "id": "cefiran_magcargo-01",
+      "pokemon": "magcargo cefiran",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,12 @@
       "level": "32-56",
       "weight": 0.18,
       "condition": {
-"biomes": [ "#cobblemon:is_deep_dark" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
-
-]
+  ]
 }

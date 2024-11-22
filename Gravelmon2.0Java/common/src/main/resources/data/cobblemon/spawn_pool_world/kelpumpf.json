@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "kelpumpf-1",
+      "id": "kelpumpf-01",
       "pokemon": "kelpumpf",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "8-33",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_swamp" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       }
     }

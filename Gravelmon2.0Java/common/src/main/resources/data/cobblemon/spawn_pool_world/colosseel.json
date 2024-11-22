@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "colosseel-1",
+      "id": "colosseel-01",
       "pokemon": "colosseel",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,13 +15,19 @@
       "level": "53-65",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cave" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_cave"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "anticondition": {
-"biomes": [ "#cobblemon:has_season/spring",
-"#cobblemon:has_season/summer",
-"#cobblemon:has_season/autumn" ]    }
+        "biomes": [
+          "#cobblemon:has_season/spring",
+          "#cobblemon:has_season/summer",
+          "#cobblemon:has_season/autumn"
+        ]
+      }
     }
   ]
 }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fulgeon-1",
+      "id": "fulgeon-01",
       "pokemon": "fulgeon",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "44-56",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_sky"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

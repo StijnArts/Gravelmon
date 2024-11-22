@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "volpaca-1",
+      "id": "volpaca-01",
       "pokemon": "volpaca",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,12 +15,18 @@
       "level": "20-38",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_highlands",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_highlands",
+          "#cobblemon:is_mountain"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_arid" ]    }
+        "biomes": [
+          "#cobblemon:is_arid"
+        ]
+      }
     }
   ]
 }

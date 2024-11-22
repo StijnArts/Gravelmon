@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "rolloch-1",
+      "id": "rolloch-01",
       "pokemon": "rolloch",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "6-27",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_mountain",
-"#cobblemon:is_cave" ]
+        "biomes": [
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_cave"
+        ]
       }
     }
   ]

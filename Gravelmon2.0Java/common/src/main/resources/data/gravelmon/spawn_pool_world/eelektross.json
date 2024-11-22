@@ -4,11 +4,11 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "varitasianeelektross-1",
-      "pokemon": "eelektross-varitasian",
+      "id": "varitasian_eelektross-01",
+      "pokemon": "eelektross varitasian",
       "presets": [
-          "natural",
-          "near_water"
+        "natural",
+        "near_water"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -16,16 +16,18 @@
       "level": "45-60",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_badlands" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "hoennianeelektross-1",
-      "pokemon": "eelektross-hoennian",
+      "id": "hoennian_eelektross-01",
+      "pokemon": "eelektross hoennian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -33,11 +35,13 @@
       "level": "52-68",
       "weight": 0.07,
       "condition": {
-"biomes": [ "#cobblemon:is_arid" ],
+        "biomes": [
+          "#cobblemon:is_arid"
+        ],
         "maxY": 40,
-        "canSeeSky": false
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
-
-]
+  ]
 }

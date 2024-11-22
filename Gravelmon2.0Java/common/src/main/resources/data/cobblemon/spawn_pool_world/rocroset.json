@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "rocroset-1",
+      "id": "rocroset-01",
       "pokemon": "rocroset",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "25-43",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ]
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
       }
     }
   ]

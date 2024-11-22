@@ -4,11 +4,11 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "jarmalade-1",
+      "id": "jarmalade-01",
       "pokemon": "jarmalade",
       "presets": [
-          "village",
-          "near_water"
+        "village",
+        "near_water"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -16,8 +16,11 @@
       "level": "3-22",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_temperate" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_temperate"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

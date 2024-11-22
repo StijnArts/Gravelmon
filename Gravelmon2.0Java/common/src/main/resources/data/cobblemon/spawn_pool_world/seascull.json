@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "seascull-1",
+      "id": "seascull-01",
       "pokemon": "seascull",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "31-54",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cold_ocean" ],
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

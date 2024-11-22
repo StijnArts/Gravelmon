@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "eletize-1",
+      "id": "eletize-01",
       "pokemon": "eletize",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,13 +15,19 @@
       "level": "28-44",
       "weight": 1.78,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_spooky",
-"#cobblemon:is_jungle",
-"#cobblemon:is_cold" ]    }
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_cold"
+        ]
+      }
     }
   ]
 }

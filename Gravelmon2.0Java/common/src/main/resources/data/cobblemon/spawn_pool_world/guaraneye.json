@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "guaraneye-1",
+      "id": "guaraneye-01",
       "pokemon": "guaraneye",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "28-49",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_jungle" ],
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
         "timeRange": "false",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

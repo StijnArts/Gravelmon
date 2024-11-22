@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "kobalt-1",
+      "id": "kobalt-01",
       "pokemon": "kobalt",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,14 +15,20 @@
       "level": "29-45",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cave",
-"#cobblemon:is_highlands",
-"#cobblemon:is_hills" ],
+        "biomes": [
+          "#cobblemon:is_cave",
+          "#cobblemon:is_highlands",
+          "#cobblemon:is_hills"
+        ],
         "timeRange": "night",
-        "canSeeSky": false
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_cold" ]    }
+        "biomes": [
+          "#cobblemon:is_cold"
+        ]
+      }
     }
   ]
 }

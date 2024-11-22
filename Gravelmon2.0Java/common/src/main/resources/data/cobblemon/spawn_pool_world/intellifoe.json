@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "intellifoe-1",
+      "id": "intellifoe-01",
       "pokemon": "intellifoe",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,13 @@
       "level": "37-55",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_grassland",
-"#cobblemon:is_mountain" ],
+        "biomes": [
+          "#cobblemon:is_grassland",
+          "#cobblemon:is_mountain"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

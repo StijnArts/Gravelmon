@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "cararalm-1",
+      "id": "cararalm-01",
       "pokemon": "cararalm",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,14 +15,20 @@
       "level": "24-56",
       "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_beach" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_beach"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "day"
       },
       "anticondition": {
-"biomes": [ "#minecraft:is_ocean",
-"#cobblemon:is_cold",
-"#cobblemon:is_coast" ]    }
+        "biomes": [
+          "#minecraft:is_ocean",
+          "#cobblemon:is_cold",
+          "#cobblemon:is_coast"
+        ]
+      }
     }
   ]
 }

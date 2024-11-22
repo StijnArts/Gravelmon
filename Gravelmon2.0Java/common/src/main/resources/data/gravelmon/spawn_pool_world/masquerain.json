@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "norheimanmasquerain-1",
-      "pokemon": "masquerain-norheiman",
+      "id": "norheiman_masquerain-01",
+      "pokemon": "masquerain norheiman",
       "presets": [
-          "water_surface"
+        "water_surface"
       ],
       "type": "pokemon",
       "context": "surface",
@@ -15,10 +15,12 @@
       "level": "22-45",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_taiga" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

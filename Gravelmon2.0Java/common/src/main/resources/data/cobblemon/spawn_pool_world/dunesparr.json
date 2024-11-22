@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "dunesparr-1",
+      "id": "dunesparr-01",
       "pokemon": "dunesparr",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,13 @@
       "level": "12-41",
       "weight": 1.8,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy",
-"#cobblemon:is_mountain",
-"#cobblemon:is_peak" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_snowy",
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_peak"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

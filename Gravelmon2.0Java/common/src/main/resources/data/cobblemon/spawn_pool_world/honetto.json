@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "honetto-1",
+      "id": "honetto-01",
       "pokemon": "honetto",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "16-37",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_deep_dark" ]
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ]
       }
     }
   ]

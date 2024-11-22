@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "glumence-1",
+      "id": "glumence-01",
       "pokemon": "glumence",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "3-22",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ],
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
         "timeRange": "night"
       }
     }

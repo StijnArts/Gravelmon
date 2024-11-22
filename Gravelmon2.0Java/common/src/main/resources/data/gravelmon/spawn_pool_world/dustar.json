@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "okeniandustar-1",
-      "pokemon": "dustar-okenian",
+      "id": "okenian_dustar-01",
+      "pokemon": "dustar okenian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,12 +15,14 @@
       "level": "3-24",
       "weight": 7.0,
       "condition": {
-"biomes": [ "#cobblemon:is_badlands",
-"#cobblemon:is_desert" ],
+        "biomes": [
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_desert"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "carapoma-1",
+      "id": "carapoma-01",
       "pokemon": "carapoma",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,13 +15,19 @@
       "level": "16-46",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:has_season/winter",
-"#cobblemon:has_season/summer",
-"#cobblemon:has_season/autumn" ]    }
+        "biomes": [
+          "#cobblemon:has_season/winter",
+          "#cobblemon:has_season/summer",
+          "#cobblemon:has_season/autumn"
+        ]
+      }
     }
   ]
 }

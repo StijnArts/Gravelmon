@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "capymigo-1",
+      "id": "capymigo-01",
       "pokemon": "capymigo",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,12 +15,18 @@
       "level": "20-44",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_highlands",
-"#cobblemon:is_hills" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_highlands",
+          "#cobblemon:is_hills"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_cold" ]    }
+        "biomes": [
+          "#cobblemon:is_cold"
+        ]
+      }
     }
   ]
 }

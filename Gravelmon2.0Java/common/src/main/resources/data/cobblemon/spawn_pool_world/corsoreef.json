@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "corsoreef-1",
+      "id": "corsoreef-01",
       "pokemon": "corsoreef",
       "presets": [
-          "reef"
+        "reef"
       ],
       "type": "pokemon",
       "context": "seafloor",
@@ -15,7 +15,9 @@
       "level": "43-67",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_warm_ocean" ]
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ]
       }
     }
   ]

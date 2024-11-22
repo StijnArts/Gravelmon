@@ -4,11 +4,11 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "glauqua-1",
+      "id": "glauqua-01",
       "pokemon": "glauqua",
       "presets": [
-          "water_surface",
-          "reef"
+        "water_surface",
+        "reef"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -16,13 +16,19 @@
       "level": "3-22",
       "weight": 4.5,
       "condition": {
-"biomes": [ "#cobblemon:is_lukewarm_ocean",
-"#cobblemon:is_warm_ocean" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_lukewarm_ocean",
+          "#cobblemon:is_warm_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#minecraft:is_deep_ocean",
-"#cobblemon:is_freshwater" ]    }
+        "biomes": [
+          "#minecraft:is_deep_ocean",
+          "#cobblemon:is_freshwater"
+        ]
+      }
     }
   ]
 }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "diagem-1",
+      "id": "diagem-01",
       "pokemon": "diagem",
       "presets": [
-          "ocean_ruins"
+        "ocean_ruins"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,8 +15,11 @@
       "level": "3-22",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_warm_ocean" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "enjinniansableye-1",
-      "pokemon": "sableye-enjinnian",
+      "id": "enjinnian_sableye-01",
+      "pokemon": "sableye enjinnian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,17 @@
       "level": "24-37",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_freezing" ],
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ],
         "timeRange": "night"
       }
-    }
-,
+    },
     {
-      "id": "deltasableye-1",
-      "pokemon": "sableye-delta",
+      "id": "delta_sableye-01",
+      "pokemon": "sableye delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,16 +33,17 @@
       "level": "15-48",
       "weight": 3.2,
       "condition": {
-"biomes": [ "#cobblemon:nether/is_basalt",
-"#cobblemon:nether/is_desert" ]
+        "biomes": [
+          "#cobblemon:nether/is_basalt",
+          "#cobblemon:nether/is_desert"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "cefiransableye-1",
-      "pokemon": "sableye-cefiran",
+      "id": "cefiran_sableye-01",
+      "pokemon": "sableye cefiran",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -49,10 +51,12 @@
       "level": "24-57",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_badlands" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
-
-]
+  ]
 }

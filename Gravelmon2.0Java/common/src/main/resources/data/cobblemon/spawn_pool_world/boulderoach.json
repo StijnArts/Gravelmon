@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "boulderoach-1",
+      "id": "boulderoach-01",
       "pokemon": "boulderoach",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "20-45",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_lush" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_lush"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

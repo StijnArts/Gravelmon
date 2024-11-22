@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "shelosene-1",
+      "id": "shelosene-01",
       "pokemon": "shelosene",
       "presets": [
-          "near_lava"
+        "near_lava"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -16,7 +16,8 @@
       "weight": 2.5,
       "condition": {
         "maxY": -40,
-        "canSeeSky": false
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

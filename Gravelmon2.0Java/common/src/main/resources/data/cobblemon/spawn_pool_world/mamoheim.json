@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mamoheim-1",
+      "id": "mamoheim-01",
       "pokemon": "mamoheim",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "41-54",
       "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_tundra" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_tundra"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "daikongus-1",
+      "id": "daikongus-01",
       "pokemon": "daikongus",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "22-43",
       "weight": 0.8,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "day"
       }
     }

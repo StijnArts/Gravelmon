@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltadarmanitan-1",
-      "pokemon": "darmanitan-delta",
+      "id": "delta_darmanitan-01",
+      "pokemon": "darmanitan delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,11 @@
       "level": "35-58",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ],
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
         "timeRange": "night"
       }
     }
-
-]
+  ]
 }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ayreianflygon-1",
-      "pokemon": "flygon-ayreian",
+      "id": "ayreian_flygon-01",
+      "pokemon": "flygon ayreian",
       "presets": [
-          "foliage"
+        "foliage"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,18 @@
       "level": "45-67",
       "weight": 1.0,
       "condition": {
-"biomes": [ "minecraft:cherry_grove" ],
-        "canSeeSky": true
+        "biomes": [
+          "minecraft:cherry_grove"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "cefiranflygon-1",
-      "pokemon": "flygon-cefiran",
+      "id": "cefiran_flygon-01",
+      "pokemon": "flygon cefiran",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,10 +34,12 @@
       "level": "45-52",
       "weight": 0.02,
       "condition": {
-"biomes": [ "#cobblemon:is_jungle" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

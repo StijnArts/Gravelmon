@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "lanthan-1",
+      "id": "lanthan-01",
       "pokemon": "lanthan",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "65-70",
       "weight": 5.0E-6,
       "condition": {
-"biomes": [ "#cobblemon:is_badlands" ],
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
         "maxY": 30
       }
     }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "skelacian-1",
+      "id": "skelacian-01",
       "pokemon": "skelacian",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,9 +15,12 @@
       "level": "33-56",
       "weight": 0.02,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ],
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

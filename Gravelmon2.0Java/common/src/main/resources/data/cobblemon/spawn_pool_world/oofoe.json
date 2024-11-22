@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "oofoe-1",
+      "id": "oofoe-01",
       "pokemon": "oofoe",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,13 @@
       "level": "7-33",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_grassland",
-"#cobblemon:is_mountain" ],
+        "biomes": [
+          "#cobblemon:is_grassland",
+          "#cobblemon:is_mountain"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

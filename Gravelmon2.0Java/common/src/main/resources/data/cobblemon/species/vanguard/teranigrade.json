@@ -54,7 +54,7 @@
     "unaware",
     "h:filter"
       ],
-      "baseScale": 0.2625,
+      "baseScale": 0.4,
         "hitbox": {
           "width": 6.0,
           "height": 6.0,
@@ -179,7 +179,7 @@
     "unaware",
     "h:filter"
       ],
-      "baseScale": 0.2625,
+      "baseScale": 0.4,
         "hitbox": {
           "width": 6.0,
           "height": 6.0,
@@ -301,7 +301,7 @@
     "unaware",
     "h:filter"
       ],
-      "baseScale": 0.2625,
+      "baseScale": 0.4,
         "hitbox": {
           "width": 6.0,
           "height": 6.0,

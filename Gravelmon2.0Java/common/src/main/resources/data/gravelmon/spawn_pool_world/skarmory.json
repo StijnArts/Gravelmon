@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "hoennianskarmory-1",
-      "pokemon": "skarmory-hoennian",
+      "id": "hoennian_skarmory-01",
+      "pokemon": "skarmory hoennian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,12 +15,14 @@
       "level": "20-46",
       "weight": 10.0,
       "condition": {
-"biomes": [ "#cobblemon:is_thermal",
-"#cobblemon:nether/is_basalt",
-"#cobblemon:nether/is_soul_sand" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_thermal",
+          "#cobblemon:nether/is_basalt",
+          "#cobblemon:nether/is_soul_sand"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

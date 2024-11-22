@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "kivirial-1",
+      "id": "kivirial-01",
       "pokemon": "kivirial",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "55-67",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_mountain" ]
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ]
       }
     }
   ]

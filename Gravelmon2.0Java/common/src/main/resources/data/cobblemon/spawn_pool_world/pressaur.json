@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "pressaur-1",
+      "id": "pressaur-01",
       "pokemon": "pressaur",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -16,7 +16,8 @@
       "weight": 0.54,
       "condition": {
         "maxY": -10,
-        "canSeeSky": false
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

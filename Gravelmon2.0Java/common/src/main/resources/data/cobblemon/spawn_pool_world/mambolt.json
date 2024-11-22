@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mambolt-1",
+      "id": "mambolt-01",
       "pokemon": "mambolt",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "5-27",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_jungle" ]
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ]
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "punkyhunk-1",
+      "id": "punkyhunk-01",
       "pokemon": "punkyhunk",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "3-22",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_highlands" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_highlands"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

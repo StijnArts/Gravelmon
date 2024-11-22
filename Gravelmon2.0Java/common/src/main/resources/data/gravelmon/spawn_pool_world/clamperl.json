@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltaclamperl-1",
-      "pokemon": "clamperl-delta",
+      "id": "delta_clamperl-01",
+      "pokemon": "clamperl delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "seafloor",
@@ -15,9 +15,10 @@
       "level": "15-34",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ]
+        "biomes": [
+          "#cobblemon:is_magical"
+        ]
       }
     }
-
-]
+  ]
 }

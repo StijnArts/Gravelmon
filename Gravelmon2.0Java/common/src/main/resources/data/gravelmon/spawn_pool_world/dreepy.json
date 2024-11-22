@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "hoenniandreepy-1",
-      "pokemon": "dreepy-hoennian",
+      "id": "hoennian_dreepy-01",
+      "pokemon": "dreepy hoennian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,11 @@
       "level": "12-30",
       "weight": 5.4,
       "condition": {
-"biomes": [ "#cobblemon:nether/is_basalt",
-"#cobblemon:nether/is_soul_fire" ]
+        "biomes": [
+          "#cobblemon:nether/is_basalt",
+          "#cobblemon:nether/is_soul_fire"
+        ]
       }
     }
-
-]
+  ]
 }

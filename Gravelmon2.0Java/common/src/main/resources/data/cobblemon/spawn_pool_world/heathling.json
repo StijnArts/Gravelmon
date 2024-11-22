@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "heathling-1",
+      "id": "heathling-01",
       "pokemon": "heathling",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,11 @@
       "level": "3-22",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:nether/is_forest",
-"#cobblemon:is_volvanic",
-"#cobblemon:is_thermal" ]
+        "biomes": [
+          "#cobblemon:nether/is_forest",
+          "#cobblemon:is_volvanic",
+          "#cobblemon:is_thermal"
+        ]
       }
     }
   ]

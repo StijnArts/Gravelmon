@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "uselake-1",
+      "id": "uselake-01",
       "pokemon": "uselake",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,11 +15,17 @@
       "level": "1-33",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_freshwater" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_freshwater"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_swamp" ]    }
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ]
+      }
     }
   ]
 }

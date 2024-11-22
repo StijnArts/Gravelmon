@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "granderosa-1",
+      "id": "granderosa-01",
       "pokemon": "granderosa",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "42-57",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ]
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
       }
     }
   ]

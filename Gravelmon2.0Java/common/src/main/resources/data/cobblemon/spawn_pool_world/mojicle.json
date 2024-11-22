@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mojicle-1",
+      "id": "mojicle-01",
       "pokemon": "mojicle",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,9 +15,12 @@
       "level": "8-27",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cold_ocean" ],
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

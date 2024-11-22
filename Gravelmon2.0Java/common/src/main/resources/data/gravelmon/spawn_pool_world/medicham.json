@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltamedicham-1",
-      "pokemon": "medicham-delta",
+      "id": "delta_medicham-01",
+      "pokemon": "medicham delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,13 +15,18 @@
       "level": "30-54",
       "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_floral",
-"#cobblemon:is_forest" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_floral",
+          "#cobblemon:is_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_cold" ]    }
+        "biomes": [
+          "#cobblemon:is_cold"
+        ]
+      }
     }
-
-]
+  ]
 }

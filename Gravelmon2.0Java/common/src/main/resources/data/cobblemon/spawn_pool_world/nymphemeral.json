@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "nymphemeral-1",
+      "id": "nymphemeral-01",
       "pokemon": "nymphemeral",
       "presets": [
-          "freshwater"
+        "freshwater"
       ],
       "type": "pokemon",
       "context": "surface",
@@ -15,8 +15,11 @@
       "level": "25-45",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_river" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_river"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       }
     }

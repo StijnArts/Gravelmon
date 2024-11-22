@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltalanturn-1",
-      "pokemon": "lanturn-delta",
+      "id": "delta_lanturn-01",
+      "pokemon": "lanturn delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,17 @@
       "level": "27-44",
       "weight": 0.8,
       "condition": {
-"biomes": [ "#cobblemon:nether/is_desert",
-"#cobblemon:nether/is_wasteland" ]
+        "biomes": [
+          "#cobblemon:nether/is_desert",
+          "#cobblemon:nether/is_wasteland"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "hoennianlanturn-1",
-      "pokemon": "lanturn-hoennian",
+      "id": "hoennian_lanturn-01",
+      "pokemon": "lanturn hoennian",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -32,10 +33,11 @@
       "level": "33-56",
       "weight": 0.54,
       "condition": {
-"biomes": [ "#minecraft:is_deep_ocean" ],
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ],
         "maxY": 40
       }
     }
-
-]
+  ]
 }

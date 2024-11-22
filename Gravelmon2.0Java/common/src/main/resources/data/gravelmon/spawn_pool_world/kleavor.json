@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mythiankleavor-1",
-      "pokemon": "kleavor-mythian",
+      "id": "mythian_kleavor-01",
+      "pokemon": "kleavor mythian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,11 @@
       "level": "50-55",
       "weight": 0.02,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ],
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
         "timeRange": "night"
       }
     }
-
-]
+  ]
 }

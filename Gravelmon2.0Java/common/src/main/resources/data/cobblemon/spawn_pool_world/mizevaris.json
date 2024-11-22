@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mizevaris-1",
+      "id": "mizevaris-01",
       "pokemon": "mizevaris",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "65-75",
       "weight": 6.0E-4,
       "condition": {
-"biomes": [ "#cobblemon:is_cave",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_cave",
+          "#cobblemon:is_mountain"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

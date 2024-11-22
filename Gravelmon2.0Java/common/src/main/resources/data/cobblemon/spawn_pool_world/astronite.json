@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "astronite-1",
+      "id": "astronite-01",
       "pokemon": "astronite",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "41-65",
       "weight": 3.4,
       "condition": {
-"biomes": [ "#cobblemon:is_badlands",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_mountain"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       }
     }

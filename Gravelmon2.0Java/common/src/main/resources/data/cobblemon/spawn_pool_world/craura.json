@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "craura-1",
+      "id": "craura-01",
       "pokemon": "craura",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "17-36",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
         "timeRange": "day"
       }
     }

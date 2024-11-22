@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fligiantreecko-1",
-      "pokemon": "treecko-fligian",
+      "id": "fligian_treecko-01",
+      "pokemon": "treecko fligian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,50 +15,62 @@
       "level": "3-22",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_mountain" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "delta_treecko-01",
+      "pokemon": "treecko delta",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "3-22",
+      "weight": 8.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_plains"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_cold",
+          "#cobblemon:is_arid"
+        ]
+      }
+    },
+    {
+      "id": "mystic_treecko-01",
+      "pokemon": "treecko mystic",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "3-22",
+      "weight": 8.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_cold",
+          "#cobblemon:is_arid"
+        ]
       }
     }
-,
-    {
-      "id": "deltatreecko-1",
-      "pokemon": "treecko-delta",
-      "presets": [
-          "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "ultra-rare",
-      "level": "3-22",
-      "weight": 8.0,
-      "condition": {
-"biomes": [ "#cobblemon:is_plains" ],
-        "canSeeSky": true
-      },
-      "anticondition": {
-"biomes": [ "#cobblemon:is_cold",
-"#cobblemon:is_arid" ]    }
-    }
-,
-    {
-      "id": "mystictreecko-1",
-      "pokemon": "treecko-mystic",
-      "presets": [
-          "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "ultra-rare",
-      "level": "3-22",
-      "weight": 8.0,
-      "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
-        "canSeeSky": true
-      },
-      "anticondition": {
-"biomes": [ "#cobblemon:is_cold",
-"#cobblemon:is_arid" ]    }
-    }
-
-]
+  ]
 }

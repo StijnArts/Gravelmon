@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "stalad-1",
+      "id": "stalad-01",
       "pokemon": "stalad",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "3-22",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_dripstone" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_dripstone"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

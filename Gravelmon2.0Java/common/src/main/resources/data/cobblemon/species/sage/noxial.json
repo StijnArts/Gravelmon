@@ -54,7 +54,7 @@
     "aftermath",
     "h:liquidooze"
       ],
-      "baseScale": 0.16875,
+      "baseScale": 0.4,
         "hitbox": {
           "width": 6.0,
           "height": 6.0,

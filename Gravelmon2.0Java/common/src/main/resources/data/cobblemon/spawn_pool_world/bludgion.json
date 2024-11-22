@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "bludgion-1",
+      "id": "bludgion-01",
       "pokemon": "bludgion",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "23-45",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_peak" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_peak"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

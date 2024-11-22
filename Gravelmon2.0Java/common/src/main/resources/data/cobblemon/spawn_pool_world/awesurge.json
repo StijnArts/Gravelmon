@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "awesurge-1",
+      "id": "awesurge-01",
       "pokemon": "awesurge",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "39-58",
       "weight": 0.4,
       "condition": {
-"biomes": [ "#cobblemon:is_mountain",
-"#cobblemon:is_highlands" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_highlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

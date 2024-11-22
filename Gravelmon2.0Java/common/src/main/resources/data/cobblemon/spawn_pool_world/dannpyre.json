@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "dannpyre-1",
+      "id": "dannpyre-01",
       "pokemon": "dannpyre",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "28-44",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_temperate" ],
-        "canSeeSky": false,
+        "biomes": [
+          "#cobblemon:is_temperate"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
         "timeRange": "night"
       }
     }

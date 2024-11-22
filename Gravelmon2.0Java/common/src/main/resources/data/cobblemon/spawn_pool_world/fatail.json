@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fatail-1",
+      "id": "fatail-01",
       "pokemon": "fatail",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "31-56",
       "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky",
-"#cobblemon:is_swamp" ],
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_swamp"
+        ],
         "timeRange": "night"
       }
     }

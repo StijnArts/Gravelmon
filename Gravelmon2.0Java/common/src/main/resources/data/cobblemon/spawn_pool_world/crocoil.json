@@ -4,11 +4,11 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "crocoil-1",
+      "id": "crocoil-01",
       "pokemon": "crocoil",
       "presets": [
-          "natural",
-          "underwater"
+        "natural",
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -16,8 +16,11 @@
       "level": "23-46",
       "weight": 0.8,
       "condition": {
-"biomes": [ "#cobblemon:is_swamp" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

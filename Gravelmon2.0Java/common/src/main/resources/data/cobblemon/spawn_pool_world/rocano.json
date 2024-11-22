@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "rocano-1",
+      "id": "rocano-01",
       "pokemon": "rocano",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,13 @@
       "level": "6-28",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_tropical_island",
-"#cobblemon:nether/is_basalt",
-"#cobblemon:is_volvanic" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_tropical_island",
+          "#cobblemon:nether/is_basalt",
+          "#cobblemon:is_volvanic"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

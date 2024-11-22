@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ospredator-1",
+      "id": "ospredator-01",
       "pokemon": "ospredator",
       "presets": [
-          "near_water"
+        "near_water"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "32-56",
       "weight": 0.7,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

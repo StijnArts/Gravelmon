@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "vacule-1",
+      "id": "vacule-01",
       "pokemon": "vacule",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "21-38",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sandy" ],
+        "biomes": [
+          "#cobblemon:is_sandy"
+        ],
         "timeRange": "day",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "hiziangligar-1",
-      "pokemon": "gligar-hizian",
+      "id": "hizian_gligar-01",
+      "pokemon": "gligar hizian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,11 +15,13 @@
       "level": "18-43",
       "weight": 5.4,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy",
-"#cobblemon:is_peak" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_snowy",
+          "#cobblemon:is_peak"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "clusteorus-1",
+      "id": "clusteorus-01",
       "pokemon": "clusteorus",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,13 @@
       "level": "25-44",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#minecraft:is_end",
-"#cobblemon:is_badlands",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+        "biomes": [
+          "#minecraft:is_end",
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_mountain"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

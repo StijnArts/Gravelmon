@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltaserperior-1",
-      "pokemon": "serperior-delta",
+      "id": "delta_serperior-01",
+      "pokemon": "serperior delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,12 @@
       "level": "36-57",
       "weight": 0.8,
       "condition": {
-"biomes": [ "#cobblemon:is_freshwater" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_freshwater"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
-
-]
+  ]
 }

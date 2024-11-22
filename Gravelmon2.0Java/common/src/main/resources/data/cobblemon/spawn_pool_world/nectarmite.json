@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "nectarmite-1",
+      "id": "nectarmite-01",
       "pokemon": "nectarmite",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "28-45",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_desert" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_desert"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

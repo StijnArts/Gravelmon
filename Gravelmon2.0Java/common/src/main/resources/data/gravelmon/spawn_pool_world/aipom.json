@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fligianaipom-1",
-      "pokemon": "aipom-fligian",
+      "id": "fligian_aipom-01",
+      "pokemon": "aipom fligian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,17 @@
       "level": "3-22",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ],
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
         "timeRange": "night"
       }
-    }
-,
+    },
     {
-      "id": "deltaaipom-1",
-      "pokemon": "aipom-delta",
+      "id": "delta_aipom-01",
+      "pokemon": "aipom delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,16 +33,17 @@
       "level": "12-36",
       "weight": 5.4,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ],
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
         "timeRange": "night"
       }
-    }
-,
+    },
     {
-      "id": "relicaipom-1",
-      "pokemon": "aipom-relic",
+      "id": "relic_aipom-01",
+      "pokemon": "aipom relic",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -49,13 +51,17 @@
       "level": "15-36",
       "weight": 5.4,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ]
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_jungle",
-"#cobblemon:is_plains",
-"#cobblemon:is_plateau" ]    }
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_plains",
+          "#cobblemon:is_plateau"
+        ]
+      }
     }
-
-]
+  ]
 }

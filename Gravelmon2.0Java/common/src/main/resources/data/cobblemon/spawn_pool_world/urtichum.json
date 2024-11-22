@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "urtichum-1",
+      "id": "urtichum-01",
       "pokemon": "urtichum",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "seafloor",
@@ -15,9 +15,12 @@
       "level": "19-32",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_cold_ocean",
-"#minecraft:is_deep_ocean" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_cold_ocean",
+          "#minecraft:is_deep_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

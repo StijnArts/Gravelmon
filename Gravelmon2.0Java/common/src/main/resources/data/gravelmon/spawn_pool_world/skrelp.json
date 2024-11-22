@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "novranskrelp-1",
-      "pokemon": "skrelp-novran",
+      "id": "novran_skrelp-01",
+      "pokemon": "skrelp novran",
       "presets": [
-          "reef"
+        "reef"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,9 +15,10 @@
       "level": "7-32",
       "weight": 9.0,
       "condition": {
-"biomes": [ "#cobblemon:is_warm_ocean" ]
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ]
       }
     }
-
-]
+  ]
 }

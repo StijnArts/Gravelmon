@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltawailord-1",
-      "pokemon": "wailord-delta",
+      "id": "delta_wailord-01",
+      "pokemon": "wailord delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,11 +15,13 @@
       "level": "40-62",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy" ],
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ],
         "isRaining": true,
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

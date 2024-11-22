@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltafroakie-1",
-      "pokemon": "froakie-delta",
+      "id": "delta_froakie-01",
+      "pokemon": "froakie delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,18 @@
       "level": "3-22",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_lush" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_lush"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "armiranfroakie-1",
-      "pokemon": "froakie-armiran",
+      "id": "armiran_froakie-01",
+      "pokemon": "froakie armiran",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,10 +34,10 @@
       "level": "3-22",
       "weight": 8.0,
       "condition": {
-        "canSeeSky": false,
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
         "maxY": 10
       }
     }
-
-]
+  ]
 }

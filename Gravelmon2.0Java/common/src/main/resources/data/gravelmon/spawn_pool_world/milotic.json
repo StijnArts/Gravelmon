@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltamilotic-1",
-      "pokemon": "milotic-delta",
+      "id": "delta_milotic-01",
+      "pokemon": "milotic delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,15 +15,16 @@
       "level": "30-57",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ]
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "seviianmilotic-1",
-      "pokemon": "milotic-seviian",
+      "id": "seviian_milotic-01",
+      "pokemon": "milotic seviian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -31,11 +32,15 @@
       "level": "30-55",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_swamp" ]
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ]
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_cold" ]    }
+        "biomes": [
+          "#cobblemon:is_cold"
+        ]
+      }
     }
-
-]
+  ]
 }

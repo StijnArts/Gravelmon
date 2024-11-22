@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ayreiankadabra-1",
-      "pokemon": "kadabra-ayreian",
+      "id": "ayreian_kadabra-01",
+      "pokemon": "kadabra ayreian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,13 +15,18 @@
       "level": "25-42",
       "weight": 0.9,
       "condition": {
-"biomes": [ "#cobblemon:is_bamboo" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_bamboo"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_forest" ]    }
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
+      }
     }
-
-]
+  ]
 }

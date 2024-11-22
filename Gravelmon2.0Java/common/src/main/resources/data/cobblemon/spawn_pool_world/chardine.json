@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "chardine-1",
+      "id": "chardine-01",
       "pokemon": "chardine",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,9 +15,12 @@
       "level": "3-22",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_swamp",
-"#cobblemon:is_sandy" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_sandy"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

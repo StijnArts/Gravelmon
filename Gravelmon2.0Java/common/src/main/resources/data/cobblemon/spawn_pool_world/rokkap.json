@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "rokkap-1",
+      "id": "rokkap-01",
       "pokemon": "rokkap",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "6-27",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_highlands",
-"#cobblemon:is_mountain" ],
+        "biomes": [
+          "#cobblemon:is_highlands",
+          "#cobblemon:is_mountain"
+        ],
         "timeRange": "night"
       }
     }

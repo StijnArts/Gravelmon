@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "frozeal-1",
+      "id": "frozeal-01",
       "pokemon": "frozeal",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,9 +15,12 @@
       "level": "25-45",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cold_ocean",
-"#cobblemon:is_frozen" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_cold_ocean",
+          "#cobblemon:is_frozen"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

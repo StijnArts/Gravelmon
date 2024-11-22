@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "norheimannumel-1",
-      "pokemon": "numel-norheiman",
+      "id": "norheiman_numel-01",
+      "pokemon": "numel norheiman",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,18 +15,23 @@
       "level": "6-31",
       "weight": 5.4,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_forest" ]    }
-    }
-,
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
+      }
+    },
     {
-      "id": "deltanumel-1",
-      "pokemon": "numel-delta",
+      "id": "delta_numel-01",
+      "pokemon": "numel delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,17 +39,19 @@
       "level": "3-22",
       "weight": 12.0,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy" ],
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ],
         "isRaining": true,
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "ayreiannumel-1",
-      "pokemon": "numel-ayreian",
+      "id": "ayreian_numel-01",
+      "pokemon": "numel ayreian",
       "presets": [
-          "near_water"
+        "near_water"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -52,16 +59,18 @@
       "level": "12-30",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_desert" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_desert"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "cefirannumel-1",
-      "pokemon": "numel-cefiran",
+      "id": "cefiran_numel-01",
+      "pokemon": "numel cefiran",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -69,10 +78,12 @@
       "level": "12-30",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_savanna" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

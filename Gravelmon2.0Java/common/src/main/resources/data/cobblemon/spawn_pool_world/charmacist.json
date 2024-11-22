@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "charmacist-1",
+      "id": "charmacist-01",
       "pokemon": "charmacist",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "32-49",
       "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

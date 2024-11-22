@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "gobidus-1",
+      "id": "gobidus-01",
       "pokemon": "gobidus",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,12 +15,18 @@
       "level": "41-65",
       "weight": 3.8,
       "condition": {
-"biomes": [ "#cobblemon:is_desert" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_desert"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_hills",
-"#cobblemon:is_plateau" ]    }
+        "biomes": [
+          "#cobblemon:is_hills",
+          "#cobblemon:is_plateau"
+        ]
+      }
     }
   ]
 }

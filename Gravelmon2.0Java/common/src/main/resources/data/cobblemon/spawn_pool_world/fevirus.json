@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fevirus-1",
+      "id": "fevirus-01",
       "pokemon": "fevirus",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "32-48",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:has_season/winter" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:has_season/winter"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "hiziannosepass-1",
-      "pokemon": "nosepass-hizian",
+      "id": "hizian_nosepass-01",
+      "pokemon": "nosepass hizian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,18 @@
       "level": "13-38",
       "weight": 5.4,
       "condition": {
-"biomes": [ "#cobblemon:is_badlands" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "ayreiannosepass-1",
-      "pokemon": "nosepass-ayreian",
+      "id": "ayreian_nosepass-01",
+      "pokemon": "nosepass ayreian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,10 +34,12 @@
       "level": "16-37",
       "weight": 5.94,
       "condition": {
-"biomes": [ "#cobblemon:is_badlands" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
-
-]
+  ]
 }

@@ -229,7 +229,7 @@ public class GenerationOne extends Game {
 
     private void addHoennianPokemon() {
         addNewPokemon(new HoennianVenonat("", Aspect.HOENNIAN));
-        addNewPokemon(new HoennianTentacool("", Aspect.HOENNIAN));
+        addNewPokemon(new HoennianTentacool("", Aspect.HOENNIAN).createFishingSpawn(SpawnPool.COMMON, 9, 34, 5.4));
         addNewPokemon(new HoennianTentacruel("", Aspect.HOENNIAN));
         addNewPokemon(new HoennianDodrio("", Aspect.HOENNIAN));
         addNewPokemon(new HoennianSeel("", Aspect.HOENNIAN));

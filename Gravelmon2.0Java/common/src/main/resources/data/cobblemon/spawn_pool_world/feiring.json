@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "feiring-1",
+      "id": "feiring-01",
       "pokemon": "feiring",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "3-22",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_mountain",
-"#cobblemon:is_magical" ]
+        "biomes": [
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_magical"
+        ]
       }
     }
   ]

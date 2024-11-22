@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "varitasianmilcery-1",
-      "pokemon": "milcery-varitasian",
+      "id": "varitasian_milcery-01",
+      "pokemon": "milcery varitasian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,10 @@
       "level": "2-27",
       "weight": 9.0,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ]
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
       }
     }
-
-]
+  ]
 }

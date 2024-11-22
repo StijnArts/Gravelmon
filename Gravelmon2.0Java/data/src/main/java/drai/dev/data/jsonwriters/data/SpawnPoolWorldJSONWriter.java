@@ -6,7 +6,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.data.attributes.*;
 import org.jetbrains.annotations.*;
-
 import java.io.*;
 import java.nio.file.*;
 import java.util.*;
@@ -29,7 +28,7 @@ public class SpawnPoolWorldJSONWriter {
     }
 
     private static void writeSpawn(Pokemon pokemon, String dir, Gson gson) throws IOException {
-        if(!pokemon.isNew() && Pokemon.FOSSIL_POKEMON.contains(pokemon)) return;
+        if(!pokemon.isNew() || Pokemon.FOSSIL_POKEMON.contains(pokemon)) return;
         var spawnPool = createSpawnPoolJson();
         JsonArray spawns = spawnPool.getAsJsonArray("spawns");
         createSpawnJson(spawns, pokemon.getCleanName(), null, pokemon.getSpawnData());
@@ -54,30 +53,35 @@ public class SpawnPoolWorldJSONWriter {
     }
 
     public static void createSpawnJson(JsonArray spawns, String pokemonName, @Nullable String formName, List<PokemonSpawnData> spawnData){
-        spawnData.forEach(pokemonSpawnData -> {
+        for (int i = 0; i < spawnData.size(); i++) {
+            var pokemonSpawnData = spawnData.get(i);
             JsonObject spawnJson = new JsonObject();
-            spawnJson.addProperty("id", (formName!=null ? "_" + formName : "") + pokemonName + "-1");
-            spawnJson.addProperty("pokemon", pokemonName + (formName!=null ? " " + formName : ""));
-            var presets = new JsonArray();
-            for(SpawnPreset spawnPreset : pokemonSpawnData.spawnPresets()){
-                presets.add(spawnPreset.getName().toLowerCase());
+            spawnJson.addProperty("id", (formName!=null ? formName.toLowerCase() + "_": "") + pokemonName + "-"+i+1);
+            spawnJson.addProperty("pokemon", pokemonName + (formName!=null ? " " + formName.toLowerCase() : ""));
+            if(!pokemonSpawnData.spawnPresets().isEmpty()){
+                var presets = new JsonArray();
+                spawnJson.add("presets", presets);
+                for(SpawnPreset spawnPreset : pokemonSpawnData.spawnPresets()){
+                    presets.add(spawnPreset.getName().toLowerCase());
+                }
             }
             spawnJson.addProperty("type", "pokemon");
             spawnJson.addProperty("context", pokemonSpawnData.spawnContext().getName());
             spawnJson.addProperty("bucket", pokemonSpawnData.spawnPool().getName());
             spawnJson.addProperty("level", pokemonSpawnData.minSpawnLevel()+"-"+pokemonSpawnData.maxSpawnLevel());
             spawnJson.addProperty("weight", pokemonSpawnData.spawnWeight());
-            var condition = new JsonObject();
-            spawnJson.add("condition", condition);
-            pokemonSpawnData.spawnConditions().forEach(spawnCondition -> processCondition(condition, spawnCondition));
+            if(!pokemonSpawnData.spawnConditions().isEmpty()){
+                var condition = new JsonObject();
+                spawnJson.add("condition", condition);
+                pokemonSpawnData.spawnConditions().forEach(spawnCondition -> processCondition(condition, spawnCondition));
+            }
             if(!pokemonSpawnData.spawnAntiConditions().isEmpty()) {
                 var antiCondition = new JsonObject();
                 spawnJson.add("anticondition", antiCondition);
                 pokemonSpawnData.spawnAntiConditions().forEach(spawnCondition -> processCondition(antiCondition, spawnCondition));
             }
             spawns.add(spawnJson);
-        });
-
+        }
     }
 
     public static void processCondition(JsonObject condition, SpawnCondition spawnCondition) {
@@ -100,9 +104,12 @@ public class SpawnPoolWorldJSONWriter {
             if(spawnCondition.getConditionKind().getValueType().equals("boolean")){
                 condition.addProperty(spawnCondition.getConditionKind().getName(), Boolean.parseBoolean(spawnCondition.getCondition()));
             } else{
-                condition.addProperty(spawnCondition.getConditionKind().getName(), spawnCondition.getCondition());
+                try {
+                    condition.addProperty(spawnCondition.getConditionKind().getName(),Integer.parseInt(spawnCondition.getCondition()));
+                } catch (NumberFormatException e) {
+                    condition.addProperty(spawnCondition.getConditionKind().getName(), spawnCondition.getCondition());
+                }
             }
-
         }
     }
 }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltaoctillery-1",
-      "pokemon": "octillery-delta",
+      "id": "delta_octillery-01",
+      "pokemon": "octillery delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,10 @@
       "level": "25-54",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:nether/is_wasteland" ]
+        "biomes": [
+          "#cobblemon:nether/is_wasteland"
+        ]
       }
     }
-
-]
+  ]
 }

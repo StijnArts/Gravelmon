@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "lavarator-1",
+      "id": "lavarator-01",
       "pokemon": "lavarator",
       "presets": [
-          "near_lava"
+        "near_lava"
       ],
       "type": "pokemon",
       "context": "surface",
@@ -15,7 +15,9 @@
       "level": "43-67",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#minecraft:is_nether" ]
+        "biomes": [
+          "#minecraft:is_nether"
+        ]
       }
     }
   ]

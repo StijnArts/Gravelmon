@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "qamorancubchoo-1",
-      "pokemon": "cubchoo-qamoran",
+      "id": "qamoran_cubchoo-01",
+      "pokemon": "cubchoo qamoran",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,11 @@
       "level": "5-40",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky",
-"#cobblemon:nether/is_wasteland" ]
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "#cobblemon:nether/is_wasteland"
+        ]
       }
     }
-
-]
+  ]
 }

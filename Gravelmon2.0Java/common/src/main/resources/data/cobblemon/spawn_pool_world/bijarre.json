@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "bijarre-1",
+      "id": "bijarre-01",
       "pokemon": "bijarre",
       "presets": [
-          "trail_ruins"
+        "trail_ruins"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "3-22",
       "weight": 3.8,
       "condition": {
-"biomes": [ "#cobblemon:is_overworld" ]
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
       }
     }
   ]

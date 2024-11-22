@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "bloomare-1",
+      "id": "bloomare-01",
       "pokemon": "bloomare",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "31-54",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ],
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

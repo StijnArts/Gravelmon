@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "novrangrimmsnarl-1",
-      "pokemon": "grimmsnarl-novran",
+      "id": "novran_grimmsnarl-01",
+      "pokemon": "grimmsnarl novran",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,12 @@
       "level": "42-55",
       "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_sandy" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_sandy"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

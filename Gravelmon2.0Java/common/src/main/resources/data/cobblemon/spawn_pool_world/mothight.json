@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mothight-1",
+      "id": "mothight-01",
       "pokemon": "mothight",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "21-41",
       "weight": 0.6,
       "condition": {
-"biomes": [ "#cobblemon:is_taiga",
-"#cobblemon:is_snowy_forest" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_taiga",
+          "#cobblemon:is_snowy_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       }
     }

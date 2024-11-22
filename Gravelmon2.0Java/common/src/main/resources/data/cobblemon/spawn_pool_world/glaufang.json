@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "glaufang-1",
+      "id": "glaufang-01",
       "pokemon": "glaufang",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "21-38",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky",
-"#cobblemon:is_taiga" ],
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_taiga"
+        ],
         "timeRange": "night"
       }
     }

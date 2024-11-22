@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "salmini-1",
+      "id": "salmini-01",
       "pokemon": "salmini",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,11 +15,16 @@
       "level": "5-21",
       "weight": 4.5,
       "condition": {
-"biomes": [ "#cobblemon:is_river" ]
+        "biomes": [
+          "#cobblemon:is_river"
+        ]
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_arid",
-"#cobblemon:is_temperate" ]    }
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_temperate"
+        ]
+      }
     }
   ]
 }

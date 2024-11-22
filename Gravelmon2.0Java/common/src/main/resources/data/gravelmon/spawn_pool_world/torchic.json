@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltatorchic-1",
-      "pokemon": "torchic-delta",
+      "id": "delta_torchic-01",
+      "pokemon": "torchic delta",
       "presets": [
-          "desert_pyramid"
+        "desert_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,15 +15,16 @@
       "level": "3-22",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_desert" ]
+        "biomes": [
+          "#cobblemon:is_desert"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "ayreiantorchic-1",
-      "pokemon": "torchic-ayreian",
+      "id": "ayreian_torchic-01",
+      "pokemon": "torchic ayreian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -31,17 +32,19 @@
       "level": "3-22",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ],
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "mystictorchic-1",
-      "pokemon": "torchic-mystic",
+      "id": "mystic_torchic-01",
+      "pokemon": "torchic mystic",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -49,10 +52,12 @@
       "level": "3-22",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_badlands" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

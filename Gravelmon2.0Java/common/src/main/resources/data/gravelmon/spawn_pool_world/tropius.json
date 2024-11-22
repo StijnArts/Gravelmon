@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "hiziantropius-1",
-      "pokemon": "tropius-hizian",
+      "id": "hizian_tropius-01",
+      "pokemon": "tropius hizian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,19 +15,24 @@
       "level": "15-45",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:has_season/summer" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:has_season/summer"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_jungle",
-"#cobblemon:is_desert" ]    }
-    }
-,
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_desert"
+        ]
+      }
+    },
     {
-      "id": "aristosiantropius-1",
-      "pokemon": "tropius-aristosian",
+      "id": "aristosian_tropius-01",
+      "pokemon": "tropius aristosian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -35,17 +40,19 @@
       "level": "15-45",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_tropical_island",
-"#cobblemon:is_island" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_tropical_island",
+          "#cobblemon:is_island"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "kaskadiantropius-1",
-      "pokemon": "tropius-kaskadian",
+      "id": "kaskadian_tropius-01",
+      "pokemon": "tropius kaskadian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -53,10 +60,12 @@
       "level": "15-45",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_old_growth_taiga" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_old_growth_taiga"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

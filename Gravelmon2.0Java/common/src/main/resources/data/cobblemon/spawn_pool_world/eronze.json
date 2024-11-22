@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "eronze-1",
+      "id": "eronze-01",
       "pokemon": "eronze",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "50-55",
       "weight": 5.0E-4,
       "condition": {
-        "canSeeSky": false,
-"biomes": [ "#cobblemon:is_overworld" ]
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
       }
     }
   ]

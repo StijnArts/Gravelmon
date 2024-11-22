@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mousense-1",
+      "id": "mousense-01",
       "pokemon": "mousense",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "1-21",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_jungle" ]
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ]
       }
     }
   ]

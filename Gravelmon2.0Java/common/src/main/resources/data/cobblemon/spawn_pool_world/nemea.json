@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "nemea-1",
+      "id": "nemea-01",
       "pokemon": "nemea",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,7 +15,9 @@
       "level": "65-70",
       "weight": 5.0E-6,
       "condition": {
-"biomes": [ "#cobblemon:is_savanna" ],
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ],
         "maxY": 40
       }
     }

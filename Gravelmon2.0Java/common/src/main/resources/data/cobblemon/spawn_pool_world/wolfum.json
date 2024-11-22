@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "wolfum-1",
+      "id": "wolfum-01",
       "pokemon": "wolfum",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "4-37",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cold" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_cold"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       }
     }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "jollibird-1",
+      "id": "jollibird-01",
       "pokemon": "jollibird",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,13 @@
       "level": "44-56",
       "weight": 1.2,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy",
-"#cobblemon:is_mountain" ],
+        "biomes": [
+          "#cobblemon:is_snowy",
+          "#cobblemon:is_mountain"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

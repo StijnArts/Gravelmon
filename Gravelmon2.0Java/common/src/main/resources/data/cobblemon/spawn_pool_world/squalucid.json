@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "squalucid-1",
+      "id": "squalucid-01",
       "pokemon": "squalucid",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,9 +15,12 @@
       "level": "36-58",
       "weight": 0.8,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ],
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
         "maxY": 10,
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "dramsama-1",
+      "id": "dramsama-01",
       "pokemon": "dramsama",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "42-67",
       "weight": 1.5,
       "condition": {
-"biomes": [ "#cobblemon:is_magical",
-"#cobblemon:is_spooky" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_magical",
+          "#cobblemon:is_spooky"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

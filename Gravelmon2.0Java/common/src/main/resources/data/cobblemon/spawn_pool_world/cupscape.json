@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "cupscape-1",
+      "id": "cupscape-01",
       "pokemon": "cupscape",
       "presets": [
-          "reef"
+        "reef"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,7 +15,9 @@
       "level": "2-23",
       "weight": 5.5,
       "condition": {
-"biomes": [ "#cobblemon:is_warm_ocean" ]
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ]
       }
     }
   ]

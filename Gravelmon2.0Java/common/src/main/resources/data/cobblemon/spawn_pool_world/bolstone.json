@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "bolstone-1",
+      "id": "bolstone-01",
       "pokemon": "bolstone",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,11 @@
       "level": "26-42",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_highlands",
-"#cobblemon:is_mountain",
-"#cobblemon:is_cave" ]
+        "biomes": [
+          "#cobblemon:is_highlands",
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_cave"
+        ]
       }
     }
   ]

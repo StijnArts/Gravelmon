@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "medissin-1",
+      "id": "medissin-01",
       "pokemon": "medissin",
       "presets": [
-          "illager_structures"
+        "illager_structures"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "3-22",
       "weight": 3.8,
       "condition": {
-"biomes": [ "#cobblemon:is_swamp" ]
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ]
       }
     }
   ]

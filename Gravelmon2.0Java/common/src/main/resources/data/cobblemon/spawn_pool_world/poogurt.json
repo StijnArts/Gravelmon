@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "poogurt-1",
+      "id": "poogurt-01",
       "pokemon": "poogurt",
       "presets": [
-          "near_crops"
+        "near_crops"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,8 @@
       "level": "16-28",
       "weight": 2.0,
       "condition": {
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

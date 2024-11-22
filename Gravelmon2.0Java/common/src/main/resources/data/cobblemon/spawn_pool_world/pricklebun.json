@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "pricklebun-1",
+      "id": "pricklebun-01",
       "pokemon": "pricklebun",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,13 @@
       "level": "3-22",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_badlands",
-"#cobblemon:is_desert" ],
+        "biomes": [
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_desert"
+        ],
         "timeRange": "day",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

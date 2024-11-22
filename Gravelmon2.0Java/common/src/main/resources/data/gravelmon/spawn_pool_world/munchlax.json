@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "varitasianmunchlax-1",
-      "pokemon": "munchlax-varitasian",
+      "id": "varitasian_munchlax-01",
+      "pokemon": "munchlax varitasian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,17 +15,19 @@
       "level": "24-39",
       "weight": 9.0,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky",
-"#cobblemon:is_badlands" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "deltamunchlax-1",
-      "pokemon": "munchlax-delta",
+      "id": "delta_munchlax-01",
+      "pokemon": "munchlax delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -33,11 +35,13 @@
       "level": "5-23",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_floral" ],
+        "biomes": [
+          "#cobblemon:is_floral"
+        ],
         "timeRange": "day",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

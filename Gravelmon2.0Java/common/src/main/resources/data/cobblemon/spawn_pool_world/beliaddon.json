@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "beliaddon-1",
+      "id": "beliaddon-01",
       "pokemon": "beliaddon",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "72-88",
       "weight": 0.6,
       "condition": {
-"biomes": [ "#minecraft:is_nether" ]
+        "biomes": [
+          "#minecraft:is_nether"
+        ]
       }
     }
   ]

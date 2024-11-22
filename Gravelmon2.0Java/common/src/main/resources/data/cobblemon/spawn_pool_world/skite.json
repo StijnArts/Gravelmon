@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "skite-1",
+      "id": "skite-01",
       "pokemon": "skite",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "12-37",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cold" ],
+        "biomes": [
+          "#cobblemon:is_cold"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

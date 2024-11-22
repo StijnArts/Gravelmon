@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "cherrish-1",
+      "id": "cherrish-01",
       "pokemon": "cherrish",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,12 +15,18 @@
       "level": "14-31",
       "weight": 0.7,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:has_season/winter",
-"#cobblemon:has_season/summer" ]    }
+        "biomes": [
+          "#cobblemon:has_season/winter",
+          "#cobblemon:has_season/summer"
+        ]
+      }
     }
   ]
 }

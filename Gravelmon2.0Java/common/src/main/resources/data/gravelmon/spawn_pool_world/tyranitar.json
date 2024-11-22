@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "tyranitarx-1",
-      "pokemon": "tyranitar-x",
+      "id": "x_tyranitar-01",
+      "pokemon": "tyranitar x",
       "presets": [
-          "end_city"
+        "end_city"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,15 +15,16 @@
       "level": "55-70",
       "weight": 0.5,
       "condition": {
-"biomes": [ "#minecraft:is_end" ]
+        "biomes": [
+          "#minecraft:is_end"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "armirantyranitar-1",
-      "pokemon": "tyranitar-armiran",
+      "id": "armiran_tyranitar-01",
+      "pokemon": "tyranitar armiran",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -31,11 +32,13 @@
       "level": "51-67",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_volvanic",
-"#minecraft:is_nether" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_volvanic",
+          "#minecraft:is_nether"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
-
-]
+  ]
 }

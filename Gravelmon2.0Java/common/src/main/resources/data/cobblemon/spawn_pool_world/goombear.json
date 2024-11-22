@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "goombear-1",
+      "id": "goombear-01",
       "pokemon": "goombear",
       "presets": [
-          "near_campfire"
+        "near_campfire"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "32-56",
       "weight": 7.0,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ]
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
       }
     }
   ]

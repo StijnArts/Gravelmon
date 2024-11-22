@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "cindera-1",
+      "id": "cindera-01",
       "pokemon": "cindera",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "3-22",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_thermal",
-"#cobblemon:is_volvanic" ]
+        "biomes": [
+          "#cobblemon:is_thermal",
+          "#cobblemon:is_volvanic"
+        ]
       }
     }
   ]

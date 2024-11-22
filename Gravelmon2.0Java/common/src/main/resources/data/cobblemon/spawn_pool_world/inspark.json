@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "inspark-1",
+      "id": "inspark-01",
       "pokemon": "inspark",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,13 @@
       "level": "1-17",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_volvanic",
-"minecraft:cherry_grove" ],
+        "biomes": [
+          "#cobblemon:is_volvanic",
+          "minecraft:cherry_grove"
+        ],
         "timeRange": "day",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

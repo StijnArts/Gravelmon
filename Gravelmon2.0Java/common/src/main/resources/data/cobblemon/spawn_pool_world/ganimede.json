@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ganimede-1",
+      "id": "ganimede-01",
       "pokemon": "ganimede",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,7 +15,9 @@
       "level": "65-70",
       "weight": 5.0E-6,
       "condition": {
-"biomes": [ "#cobblemon:is_sky" ],
+        "biomes": [
+          "#cobblemon:is_sky"
+        ],
         "maxY": 40
       }
     }

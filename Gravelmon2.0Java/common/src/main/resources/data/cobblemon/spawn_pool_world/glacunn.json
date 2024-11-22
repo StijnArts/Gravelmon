@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "glacunn-1",
+      "id": "glacunn-01",
       "pokemon": "glacunn",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "41-61",
       "weight": 0.4,
       "condition": {
-"biomes": [ "#cobblemon:is_freezing" ]
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ]
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "reparine-1",
+      "id": "reparine-01",
       "pokemon": "reparine",
       "presets": [
-          "near_water"
+        "near_water"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "48-58",
       "weight": 0.8,
       "condition": {
-"biomes": [ "#cobblemon:is_island",
-"#cobblemon:is_tropical_island" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_island",
+          "#cobblemon:is_tropical_island"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

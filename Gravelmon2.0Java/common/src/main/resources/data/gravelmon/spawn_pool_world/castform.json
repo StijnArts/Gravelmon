@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "gutsycastform-1",
-      "pokemon": "castform-gutsy",
+      "id": "gutsy_castform-01",
+      "pokemon": "castform gutsy",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,16 @@
       "level": "5-60",
       "weight": 1.0,
       "condition": {
-        "canSeeSky": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "isRaining": true
       }
-    }
-,
+    },
     {
-      "id": "windycastform-1",
-      "pokemon": "castform-windy",
+      "id": "windy_castform-01",
+      "pokemon": "castform windy",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,16 +32,16 @@
       "level": "5-60",
       "weight": 1.0,
       "condition": {
-        "canSeeSky": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "isRaining": true
       }
-    }
-,
+    },
     {
-      "id": "smoggycastform-1",
-      "pokemon": "castform-smoggy",
+      "id": "smoggy_castform-01",
+      "pokemon": "castform smoggy",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -49,16 +49,16 @@
       "level": "5-60",
       "weight": 1.0,
       "condition": {
-        "canSeeSky": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "isRaining": true
       }
-    }
-,
+    },
     {
-      "id": "dustycastform-1",
-      "pokemon": "castform-dusty",
+      "id": "dusty_castform-01",
+      "pokemon": "castform dusty",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -66,16 +66,16 @@
       "level": "5-60",
       "weight": 1.0,
       "condition": {
-        "canSeeSky": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "isRaining": true
       }
-    }
-,
+    },
     {
-      "id": "sandycastform-1",
-      "pokemon": "castform-sandy",
+      "id": "sandy_castform-01",
+      "pokemon": "castform sandy",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -83,16 +83,16 @@
       "level": "5-60",
       "weight": 1.0,
       "condition": {
-        "canSeeSky": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "isRaining": true
       }
-    }
-,
+    },
     {
-      "id": "swarmycastform-1",
-      "pokemon": "castform-swarmy",
+      "id": "swarmy_castform-01",
+      "pokemon": "castform swarmy",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -100,16 +100,16 @@
       "level": "5-60",
       "weight": 1.0,
       "condition": {
-        "canSeeSky": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "isRaining": true
       }
-    }
-,
+    },
     {
-      "id": "spookycastform-1",
-      "pokemon": "castform-spooky",
+      "id": "spooky_castform-01",
+      "pokemon": "castform spooky",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -117,16 +117,16 @@
       "level": "5-60",
       "weight": 1.0,
       "condition": {
-        "canSeeSky": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "isRaining": true
       }
-    }
-,
+    },
     {
-      "id": "whirlycastform-1",
-      "pokemon": "castform-whirly",
+      "id": "whirly_castform-01",
+      "pokemon": "castform whirly",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -134,16 +134,16 @@
       "level": "5-60",
       "weight": 1.0,
       "condition": {
-        "canSeeSky": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "isRaining": true
       }
-    }
-,
+    },
     {
-      "id": "allergycastform-1",
-      "pokemon": "castform-allergy",
+      "id": "allergy_castform-01",
+      "pokemon": "castform allergy",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -151,16 +151,16 @@
       "level": "5-60",
       "weight": 1.0,
       "condition": {
-        "canSeeSky": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "isRaining": true
       }
-    }
-,
+    },
     {
-      "id": "zappycastform-1",
-      "pokemon": "castform-zappy",
+      "id": "zappy_castform-01",
+      "pokemon": "castform zappy",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -168,16 +168,16 @@
       "level": "5-60",
       "weight": 1.0,
       "condition": {
-        "canSeeSky": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "isRaining": true
       }
-    }
-,
+    },
     {
-      "id": "zennycastform-1",
-      "pokemon": "castform-zenny",
+      "id": "zenny_castform-01",
+      "pokemon": "castform zenny",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -185,16 +185,16 @@
       "level": "5-60",
       "weight": 1.0,
       "condition": {
-        "canSeeSky": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "isRaining": true
       }
-    }
-,
+    },
     {
-      "id": "sorcerycastform-1",
-      "pokemon": "castform-sorcery",
+      "id": "sorcery_castform-01",
+      "pokemon": "castform sorcery",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -202,16 +202,16 @@
       "level": "5-60",
       "weight": 1.0,
       "condition": {
-        "canSeeSky": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "isRaining": true
       }
-    }
-,
+    },
     {
-      "id": "shadycastform-1",
-      "pokemon": "castform-shady",
+      "id": "shady_castform-01",
+      "pokemon": "castform shady",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -219,16 +219,16 @@
       "level": "5-60",
       "weight": 1.0,
       "condition": {
-        "canSeeSky": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "isRaining": true
       }
-    }
-,
+    },
     {
-      "id": "lovelycastform-1",
-      "pokemon": "castform-lovely",
+      "id": "lovely_castform-01",
+      "pokemon": "castform lovely",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -236,10 +236,10 @@
       "level": "5-60",
       "weight": 1.0,
       "condition": {
-        "canSeeSky": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "isRaining": true
       }
     }
-
-]
+  ]
 }

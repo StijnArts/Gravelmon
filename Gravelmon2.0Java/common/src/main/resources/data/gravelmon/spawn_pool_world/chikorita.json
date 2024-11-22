@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "eghochikorita-1",
-      "pokemon": "chikorita-egho",
+      "id": "egho_chikorita-01",
+      "pokemon": "chikorita egho",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,20 +15,25 @@
       "level": "3-22",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_island",
-"#cobblemon:is_tropical_island" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_island",
+          "#cobblemon:is_tropical_island"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_arid",
-"#cobblemon:is_cold" ]    }
-    }
-,
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_cold"
+        ]
+      }
+    },
     {
-      "id": "ayreianchikorita-1",
-      "pokemon": "chikorita-ayreian",
+      "id": "ayreian_chikorita-01",
+      "pokemon": "chikorita ayreian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -36,11 +41,13 @@
       "level": "3-22",
       "weight": 8.0,
       "condition": {
-"biomes": [ "minecraft:cherry_grove" ],
-        "canSeeSky": true,
+        "biomes": [
+          "minecraft:cherry_grove"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "day"
       }
     }
-
-]
+  ]
 }

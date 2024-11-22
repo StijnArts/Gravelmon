@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "planite-1",
+      "id": "planite-01",
       "pokemon": "planite",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "20-46",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_dripstone" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_dripstone"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

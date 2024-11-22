@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltanoivern-1",
-      "pokemon": "noivern-delta",
+      "id": "delta_noivern-01",
+      "pokemon": "noivern delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,15 +15,16 @@
       "level": "48-58",
       "weight": 0.9,
       "condition": {
-"biomes": [ "#minecraft:is_end" ]
+        "biomes": [
+          "#minecraft:is_end"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "seviiannoivern-1",
-      "pokemon": "noivern-seviian",
+      "id": "seviian_noivern-01",
+      "pokemon": "noivern seviian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -31,16 +32,17 @@
       "level": "54-67",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ],
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
         "timeRange": "night"
       }
-    }
-,
+    },
     {
-      "id": "mythiannoivern-1",
-      "pokemon": "noivern-mythian",
+      "id": "mythian_noivern-01",
+      "pokemon": "noivern mythian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -48,16 +50,17 @@
       "level": "45-61",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_glacial" ],
+        "biomes": [
+          "#cobblemon:is_glacial"
+        ],
         "timeRange": "night"
       }
-    }
-,
+    },
     {
-      "id": "ayreiannoivern-1",
-      "pokemon": "noivern-ayreian",
+      "id": "ayreian_noivern-01",
+      "pokemon": "noivern ayreian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -65,11 +68,13 @@
       "level": "35-67",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "day"
       }
     }
-
-]
+  ]
 }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "unirval-1",
+      "id": "unirval-01",
       "pokemon": "unirval",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,8 +15,11 @@
       "level": "41-57",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_frozen" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_frozen"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

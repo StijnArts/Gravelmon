@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "visiangel-1",
+      "id": "visiangel-01",
       "pokemon": "visiangel",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "42-56",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_magical" ],
+        "biomes": [
+          "#cobblemon:is_sky",
+          "#cobblemon:is_magical"
+        ],
         "timeRange": "day"
       }
     }

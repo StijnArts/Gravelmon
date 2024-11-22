@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "alpico-1",
+      "id": "alpico-01",
       "pokemon": "alpico",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,13 +15,19 @@
       "level": "38-56",
       "weight": 4.5,
       "condition": {
-"biomes": [ "#cobblemon:is_mountain",
-"#cobblemon:is_hills" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_hills"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_arid",
-"#cobblemon:is_temperate" ]    }
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_temperate"
+        ]
+      }
     }
   ]
 }

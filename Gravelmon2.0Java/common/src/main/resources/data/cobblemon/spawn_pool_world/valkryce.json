@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "valkryce-1",
+      "id": "valkryce-01",
       "pokemon": "valkryce",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "32-46",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_freezing" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

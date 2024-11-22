@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "seviianmantine-1",
-      "pokemon": "mantine-seviian",
+      "id": "seviian_mantine-01",
+      "pokemon": "mantine seviian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "seafloor",
@@ -15,11 +15,15 @@
       "level": "37-55",
       "weight": 0.4,
       "condition": {
-"biomes": [ "#minecraft:is_deep_ocean" ]
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ]
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_cold" ]    }
+        "biomes": [
+          "#cobblemon:is_cold"
+        ]
+      }
     }
-
-]
+  ]
 }

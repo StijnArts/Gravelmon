@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "melant-1",
+      "id": "melant-01",
       "pokemon": "melant",
       "presets": [
-          "near_lava"
+        "near_lava"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "6-26",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#minecraft:is_nether" ],
-        "canSeeSky": true
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

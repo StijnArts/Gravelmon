@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "eghomarill-1",
-      "pokemon": "marill-egho",
+      "id": "egho_marill-01",
+      "pokemon": "marill egho",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,18 @@
       "level": "12-22",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_badlands" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "kaskadianmarill-1",
-      "pokemon": "marill-kaskadian",
+      "id": "kaskadian_marill-01",
+      "pokemon": "marill kaskadian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,11 +34,13 @@
       "level": "12-22",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_swamp",
-"#cobblemon:is_jungle" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

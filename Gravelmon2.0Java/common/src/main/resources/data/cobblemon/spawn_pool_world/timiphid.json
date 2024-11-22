@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "timiphid-1",
+      "id": "timiphid-01",
       "pokemon": "timiphid",
       "presets": [
-          "freshwater"
+        "freshwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,12 +15,18 @@
       "level": "2-15",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_forest",
-"#cobblemon:is_grassland" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_grassland"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#minecraft:is_ocean" ]    }
+        "biomes": [
+          "#minecraft:is_ocean"
+        ]
+      }
     }
   ]
 }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "kelbanast-1",
+      "id": "kelbanast-01",
       "pokemon": "kelbanast",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "37-53",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#cobblemon:is_highlands" ],
+        "biomes": [
+          "#cobblemon:is_highlands"
+        ],
         "timeRange": "day",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

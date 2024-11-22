@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "hizianvenomoth-1",
-      "pokemon": "venomoth-hizian",
+      "id": "hizian_venomoth-01",
+      "pokemon": "venomoth hizian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,18 @@
       "level": "31-45",
       "weight": 0.6,
       "condition": {
-"biomes": [ "#cobblemon:is_grassland" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_grassland"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "cefiranvenomoth-1",
-      "pokemon": "venomoth-cefiran",
+      "id": "cefiran_venomoth-01",
+      "pokemon": "venomoth cefiran",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,9 +34,10 @@
       "level": "31-45",
       "weight": 0.6,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ]
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
       }
     }
-
-]
+  ]
 }

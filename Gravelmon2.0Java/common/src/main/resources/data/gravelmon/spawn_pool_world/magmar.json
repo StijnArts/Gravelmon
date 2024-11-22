@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltamagmar-1",
-      "pokemon": "magmar-delta",
+      "id": "delta_magmar-01",
+      "pokemon": "magmar delta",
       "presets": [
-          "ocean_monument"
+        "ocean_monument"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,12 @@
       "level": "30-49",
       "weight": 0.9,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ],
-        "canSeeSky": false
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
-
-]
+  ]
 }

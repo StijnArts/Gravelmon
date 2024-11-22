@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "venowhal-1",
+      "id": "venowhal-01",
       "pokemon": "venowhal",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,9 +15,12 @@
       "level": "25-44",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cold_ocean",
-"#cobblemon:is_frozen" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_cold_ocean",
+          "#cobblemon:is_frozen"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]
