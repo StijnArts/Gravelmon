@@ -49,14 +49,7 @@ public class Pokemon {
     private Boolean cannotDynamax = false;
     private Boolean isNew = true;
     private boolean hasGenderDifferences = false;
-    private final SpawnContext spawnContext;
-    private final SpawnPool spawnPool;
-    private final int minSpawnLevel;
-    private final int maxSpawnLevel;
-    private final double spawnWeight;
-    private final List<SpawnCondition> spawnConditions;
-    private final List<SpawnCondition> spawnAntiConditions;
-    private final List<SpawnPreset> spawnPresets;
+    private final List<PokemonSpawnData> spawnData = new ArrayList();
     private Boolean canFly = false;
     private int lightLevelMinSleep = 0;
     private int lightLevelMaxSleep = 6;
@@ -171,14 +164,7 @@ public class Pokemon {
         this.evYield = evYield;
         this.height = height;
         this.weight = weight;
-        this.spawnContext = spawnContext;
-        this.spawnPool = spawnPool;
-        this.minSpawnLevel = minSpawnLevel;
-        this.maxSpawnLevel = maxSpawnLevel;
-        this.spawnWeight = spawnWeight;
-        this.spawnConditions = spawnConditions;
-        this.spawnAntiConditions = spawnAntiConditions;
-        this.spawnPresets = spawnPresets;
+        this.spawnData.add(new PokemonSpawnData(spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight, spawnConditions, spawnAntiConditions, spawnPresets));
         this.baseScale = Math.max((double) height / 10 / 6, 0.1);
         this.hitboxWidth = 6;
         this.hitboxHeight = 6;
@@ -200,13 +186,16 @@ public class Pokemon {
         for (var pokemon : sortedPokemonList) {
             if (pokemon.getCatchRate() == 0)
                 pokemonWithZeroCatchrate.append(pokemon.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ").append(pokemon.getCleanName()).append(",\n");
-            if (pokemon.spawnPresets.size() > 1) {
-                pokemonWithMoreThanTwoSpawnPresets.append(pokemon.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ").append(pokemon.getCleanName()).append(", being: ");
-                for (var preset : pokemon.spawnPresets) {
-                    pokemonWithMoreThanTwoSpawnPresets.append(preset).append(",");
+            for (var spawnData : pokemon.getSpawnData()){
+                if (spawnData.spawnPresets().size() > 1) {
+                    pokemonWithMoreThanTwoSpawnPresets.append(pokemon.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ").append(pokemon.getCleanName()).append(", being: ");
+                    for (var preset : spawnData.spawnPresets()) {
+                        pokemonWithMoreThanTwoSpawnPresets.append(preset).append(",");
+                    }
+                    pokemonWithMoreThanTwoSpawnPresets.append("\n");
                 }
-                pokemonWithMoreThanTwoSpawnPresets.append("\n");
             }
+
             if (pokemon.getEggGroups().isEmpty()) {
                 pokemon.eggGroups = new ArrayList<>(pokemon.eggGroups);
                 pokemon.eggGroups.add(EggGroup.FIELD);
@@ -630,38 +619,6 @@ public class Pokemon {
         return hasGenderDifferences;
     }
 
-    public SpawnContext getSpawnContext() {
-        return spawnContext;
-    }
-
-    public SpawnPool getSpawnPool() {
-        return spawnPool;
-    }
-
-    public int getMinSpawnLevel() {
-        return minSpawnLevel;
-    }
-
-    public int getMaxSpawnLevel() {
-        return maxSpawnLevel;
-    }
-
-    public double getSpawnWeight() {
-        return spawnWeight;
-    }
-
-    public List<SpawnCondition> getSpawnConditions() {
-        return spawnConditions;
-    }
-
-    public List<SpawnCondition> getSpawnAntiConditions() {
-        return spawnAntiConditions;
-    }
-
-    public List<SpawnPreset> getSpawnPresets() {
-        return spawnPresets;
-    }
-
     public Boolean canFly() {
         return canFly;
     }
@@ -898,5 +855,9 @@ public class Pokemon {
 
     public void setLearnSet(List<MoveLearnSetEntry> moves){
         this.learnSet = moves;
+    }
+
+    public List<PokemonSpawnData> getSpawnData() {
+        return spawnData;
     }
 }

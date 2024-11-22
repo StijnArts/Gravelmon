@@ -1,5 +1,6 @@
 package drai.dev.data.attributes;
 
+import com.cobblemon.mod.common.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
@@ -28,14 +29,7 @@ public class PokemonForm {
     private List<EvolutionEntry> evolutions;
     private Boolean cannotDynamax = false;
     private Boolean isBattleOnly;
-    private List<SpawnCondition> spawnConditions;
-    private List<SpawnCondition> spawnAntiConditions;
-    private int minSpawnLevel;
-    private int maxSpawnLevel;
-    private double spawnWeight;
-    private SpawnContext spawnContext;
-    private SpawnPool spawnPool;
-    private List<SpawnPreset> spawnPresets;
+    private final List<PokemonSpawnData> spawnData = new ArrayList<>();
     private List<String> dexEntries;
     private List<drai.dev.data.attributes.ItemDrop> drops;
     private int dropAmount;
@@ -103,17 +97,10 @@ public class PokemonForm {
         this.weight = weight;
         this.evolutions = evolutions;
         this.isBattleOnly = isBattleOnly;
-        this.spawnConditions = spawnConditions;
-        this.minSpawnLevel = minSpawnLevel;
-        this.maxSpawnLevel = maxSpawnLevel;
-        this.spawnWeight = spawnWeight;
-        this.spawnContext = spawnContext;
-        this.spawnPool = spawnPool;
-        this.spawnPresets = spawnPresets;
+        this.spawnData.add(new PokemonSpawnData(spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight, spawnConditions, spawnAntiConditions, spawnPresets));
         this.dexEntries = dexEntries;
         this.dropAmount = dropAmount;
         this.drops = new ArrayList<>();
-        this.spawnAntiConditions = spawnAntiConditions;
         this.baseScale = baseScale;
         this.portraitScale = portraitScale;
         this.labels.addAll(labels);
@@ -146,41 +133,8 @@ public class PokemonForm {
                        double baseScale, double portraitScale
 
     ) {
-        this.name = name;
-        this.primaryType = primaryType;
+        this(name, isBattleOnly, primaryType, stats, abilities, hiddenAbility, height, weight, evYield, catchRate, maleRatio, baseExperienceYield, experienceGroup, baseFriendship, eggCycles, eggGroups, aspects, dexEntries, evolutions, learnSet, labels, dropAmount, drops, spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight, spawnConditions, spawnAntiConditions, spawnPresets, baseScale, portraitScale);
         this.secondaryType = secondaryType;
-        this.abilities = abilities;
-        this.hiddenAbility = hiddenAbility;
-        this.stats = stats;
-        this.catchRate = catchRate;
-        this.maleRatio = maleRatio;
-        this.baseExperienceYield = baseExperienceYield;
-        this.baseFriendship = baseFriendship;
-        this.evYield = evYield;
-        this.experienceGroup = experienceGroup;
-        this.eggCycles = eggCycles;
-        this.eggGroups = eggGroups;
-        this.learnSet = learnSet;
-        this.aspects = aspects;
-        this.height = height;
-        this.weight = weight;
-        this.evolutions = evolutions;
-        this.isBattleOnly = isBattleOnly;
-        this.spawnConditions = spawnConditions;
-        this.minSpawnLevel = minSpawnLevel;
-        this.maxSpawnLevel = maxSpawnLevel;
-        this.spawnWeight = spawnWeight;
-        this.spawnContext = spawnContext;
-        this.spawnPool = spawnPool;
-        this.spawnPresets = spawnPresets;
-        this.dexEntries = dexEntries;
-        this.dropAmount = dropAmount;
-        this.drops = new ArrayList<>();
-        this.spawnAntiConditions = spawnAntiConditions;
-        this.baseScale = (double)(height*1.5)/10/8;
-        this.portraitScale = 0.3;
-        this.labels.addAll(labels);
-        this.labels.add(Label.NOT_MODELED);
     }
 
     public void setPreEvolution(String cleanName) {
@@ -283,34 +237,6 @@ public class PokemonForm {
         return isBattleOnly;
     }
 
-    public List<SpawnCondition> getSpawnConditions() {
-        return spawnConditions;
-    }
-
-    public SpawnContext getSpawnContext() {
-        return spawnContext;
-    }
-
-    public SpawnPool getSpawnPool() {
-        return spawnPool;
-    }
-
-    public int getMinSpawnLevel() {
-        return minSpawnLevel;
-    }
-
-    public int getMaxSpawnLevel() {
-        return maxSpawnLevel;
-    }
-
-    public double getSpawnWeight() {
-        return spawnWeight;
-    }
-
-    public List<SpawnPreset> getSpawnPresets() {
-        return spawnPresets;
-    }
-
     public List<String> getDexEntries() {
         return dexEntries;
     }
@@ -319,9 +245,6 @@ public class PokemonForm {
         return drops;
     }
 
-    public List<SpawnCondition> getSpawnAntiConditions() {
-        return spawnAntiConditions;
-    }
 
     public int getDropAmount() {
         return dropAmount;
@@ -361,5 +284,9 @@ public class PokemonForm {
 
     public void setHiddenAbility(Ability ability) {
         this.hiddenAbility = ability;
+    }
+
+    public List<PokemonSpawnData> getSpawnData() {
+        return spawnData;
     }
 }
