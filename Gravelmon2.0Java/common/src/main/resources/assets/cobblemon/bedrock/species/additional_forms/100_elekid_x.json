@@ -1,0 +1,23 @@
+{
+  "species": "cobblemon:elekid",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": [
+        "x"
+      ],
+      "model": "cobblemon:generation2_elekidx.geo",
+      "poser": "cobblemon:generation2_elekidx",
+      "texture": "cobblemon:textures/pokemon/generation2/elekidx/elekidx.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "x",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation2/elekidx/elekidx_shiny.png",
+      "layers": []
+    }
+  ]
+}

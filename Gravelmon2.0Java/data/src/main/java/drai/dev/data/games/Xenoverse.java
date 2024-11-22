@@ -146,8 +146,8 @@ public class Xenoverse extends Game {
                 "carvanha-x," +
                 "sharpedo-x," +
                 "pyukumuku-x," +
-                "pikachu-malex," +
-                "pikachu-femalex," +
+                "pikachu-male_x," +
+                "pikachu-female_x," +
                 "joltik-x," +
                 "galvantula-x," +
                 "smeargle-x," +
@@ -176,10 +176,10 @@ public class Xenoverse extends Game {
                 "tyranitar-x," +
                 "ditto-x," +
                 "aegislash-x," +
-                "tapu-fini-x," +
-                "tapu-lele-x," +
-                "tapu-koko-x," +
-                "tapu-bulu-x," +
+                "tapufini-x," +
+                "tapulele-x," +
+                "tapukoko-x," +
+                "tapubulu-x," +
                 "dragalisk-x," +
                 "shyleon-x," +
                 "trishout-x," +

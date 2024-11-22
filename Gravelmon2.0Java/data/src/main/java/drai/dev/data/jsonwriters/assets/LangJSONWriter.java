@@ -10,6 +10,7 @@ import org.apache.commons.lang3.*;
 
 import java.io.*;
 import java.nio.file.*;
+import java.util.*;
 
 public class LangJSONWriter {
     private static JsonObject contents = new JsonObject();
@@ -33,11 +34,27 @@ public class LangJSONWriter {
         for(var split : splitName){
             builder.append(StringUtils.capitalize(split)).append(" ");
         }
-        return name.trim();
+        return builder.toString().trim();
     }
 
     public static void writeForm(Aspect aspect){
-        contents.addProperty("cobblemon.ui.pokedex.info.form."+ GravelmonUtils.getCleanName(aspect.getName()),StringUtils.capitalize(aspect.getName()));
+        var specialAspects = new HashMap<Aspect, String>();
+        specialAspects.put(Aspect.MALE_X, "X (Male)");
+        specialAspects.put(Aspect.FEMALE_X, "X (Female)");
+        specialAspects.put(Aspect.CEFIRAN_ELECTRIC, "Cefiran (Electric)");
+        specialAspects.put(Aspect.CEFIRAN_FIRE, "Cefiran (Fire)");
+        specialAspects.put(Aspect.CEFIRAN_ICE, "Cefiran (Ice)");
+        specialAspects.put(Aspect.DELTA_BERRY, "Delta (Berry)");
+        specialAspects.put(Aspect.DELTA_CAKE, "Delta (Cake)");
+        specialAspects.put(Aspect.DELTA_RUIN, "Delta (Ruin)");
+        specialAspects.put(Aspect.DELTA_WATER, "Delta (Water)");
+        specialAspects.put(Aspect.DELTA_SPIDER,  "Delta (Spider)");
+        specialAspects.put(Aspect.DELTA_FAIRY,  "Delta (Fairy)");
+        specialAspects.put(Aspect.DELTA_UNLEASHED,  "Delta (Unleashed)");
+        specialAspects.put(Aspect.ALTERAN_SUMMER_COAT, "Alteran (Summer Coat");
+        specialAspects.put(Aspect.ALTERAN_WINTER_COAT, "Alteran (Winter Coat");
+        var name = specialAspects.containsKey(aspect) ? specialAspects.get(aspect) : StringUtils.capitalize(aspect.getName());
+        contents.addProperty("cobblemon.ui.pokedex.info.form."+ GravelmonUtils.getCleanName(aspect.getName()),name);
     }
 
     private static void writePokemon(Pokemon pokemon) {
@@ -52,9 +69,7 @@ public class LangJSONWriter {
 
             if(!pokemon.getDexEntries().isEmpty()){
                 for (String entry : pokemon.getDexEntries()) {
-                    contents.addProperty("cobblemon.species." + pokemon.getCleanName() + ".desc",
-                            (pokemon.getAdditionalAspect() != null ? "["+ StringUtils.capitalize(pokemon.getAdditionalAspect().name().toLowerCase().replaceAll("_"," ")) + " " +
-                                    StringUtils.capitalize(Pokemon.getKeysByValue(Pokemon.ADDITIONAL_FORMS, pokemon).stream().findFirst().get()) +"] " : "") + entry);
+                    contents.addProperty("cobblemon.species." + pokemon.getCleanName() + ".desc", entry);
                     dexEntryCounter++;
                 }
             }
