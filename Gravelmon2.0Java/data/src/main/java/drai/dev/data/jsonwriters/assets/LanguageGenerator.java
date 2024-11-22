@@ -18,7 +18,6 @@ public class LanguageGenerator {
         LangJSONWriter.writeTranslationKey("block.gravelmon.mystic_stone_ore","Mystic Stone Ore");
         LangJSONWriter.writeTranslationKey("block.gravelmon.deepslate_mystic_stone_ore","Deepslate Mystic Stone Ore");
 
-
         //evolution items
         LangJSONWriter.writeTranslationKey("item.gravelmon.astral_stone","Astral Stone");
         LangJSONWriter.writeTranslationKey("item.gravelmon.varia_stone","Varia Stone");
@@ -65,6 +64,8 @@ public class LanguageGenerator {
         LangJSONWriter.writeTranslationKey("item.gravelmon.moss_shard","Moss Shard");
         LangJSONWriter.writeTranslationKey("item.gravelmon.pretty_ribbon","Pretty Ribbon");
         LangJSONWriter.writeTranslationKey("item.gravelmon.dark_rock","Dark Rock");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.orange_apricorn","Orange Apricorn");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.purple_apricorn","Purple Apricorn");
         Gravelmon.FOSSIL_MAP.keySet().forEach(fossil->{
             LangJSONWriter.writeTranslationKey("item.gravelmon."+fossil, StringUtils.capitalize(fossil.replaceAll("_"," ")));
         });
