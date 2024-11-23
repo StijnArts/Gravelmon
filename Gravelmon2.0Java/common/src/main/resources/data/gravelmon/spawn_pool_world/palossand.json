@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "kaskadianpalossand-1",
+      "id": "kaskadian_palossand-01",
       "pokemon": "palossand kaskadian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,10 @@
       "level": "42-55",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_highlands" ]
+        "biomes": [
+          "#cobblemon:is_highlands"
+        ]
       }
     }
-
-]
+  ]
 }

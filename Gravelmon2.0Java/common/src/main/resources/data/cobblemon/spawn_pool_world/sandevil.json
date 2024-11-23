@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "sandevil-1",
+      "id": "sandevil-01",
       "pokemon": "sandevil",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "26-42",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sandy" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_sandy"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

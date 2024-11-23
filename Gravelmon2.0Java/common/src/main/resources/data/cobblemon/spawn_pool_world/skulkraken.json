@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "skulkraken-1",
+      "id": "skulkraken-01",
       "pokemon": "skulkraken",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "seafloor",
@@ -15,12 +15,18 @@
       "level": "20-34",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#minecraft:is_ocean",
-"#minecraft:is_deep_ocean" ],
-        "canSeeSky": true
+        "biomes": [
+          "#minecraft:is_ocean",
+          "#minecraft:is_deep_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_freezing" ]    }
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ]
+      }
     }
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "entryId": "cobblemon:scyther",
+  "forms": [
+    {
+      "displayForm": "Hizian",
+      "unlockForms": [
+        "Hizian"
+      ]
+    },
+    {
+      "displayForm": "Delta",
+      "unlockForms": [
+        "Delta"
+      ]
+    },
+    {
+      "displayForm": "Mythian",
+      "unlockForms": [
+        "Mythian"
+      ]
+    }
+  ]
+}

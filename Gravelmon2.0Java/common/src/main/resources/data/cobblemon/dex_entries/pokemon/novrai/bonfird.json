@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:bonfird",
+  "speciesId": "cobblemon:bonfird",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "twinkluppy-1",
+      "id": "twinkluppy-01",
       "pokemon": "twinkluppy",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,10 +15,13 @@
       "level": "3-22",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ],
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
         "timeRange": "night",
         "isRaining": false,
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

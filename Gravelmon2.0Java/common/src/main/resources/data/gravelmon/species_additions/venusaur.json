@@ -40,7 +40,6 @@
     }
   },
   "catchRate": 45,
-  "maleRatio": 0.875,
   "shoulderMountable": false,
   "baseExperienceYield": 236,
   "experienceGroup": "medium_slow",
@@ -206,64 +205,7 @@
     }
   },
   "catchRate": 45,
-  "maleRatio": 0.5,
   "shoulderMountable": false,
-"forms": [    {
-      "name": "Mega",
-      "primaryType": "psychic",
-      "secondaryType": "fairy",
-      "abilities": [
-    "hubris",
-    "h:regenerator"
-      ],
-      "baseScale": 2.0,
-        "hitbox": {
-          "width": 1.5,
-          "height": 1.4,
-          "fixed": false
-      },
-      "baseStats": {
-        "hp": 80,
-        "attack": 100,
-        "defence": 123,
-        "special_attack": 122,
-        "special_defence": 120,
-        "speed": 80
-      },
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 263,
-      "baseFriendship": 70,
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 2,
-        "special_defence": 1,
-        "speed": 0
-      },
-      "experienceGroup": "medium_slow",
-      "eggCycles": 50,
-      "eggGroups": [
-    "undiscovered"
-  ],  "drops": {
-    "amount": "0",
-    "entries": [
-
-    ]
-      },
-      "labels": [
-    "insurgence"
-      ],
-      "aspects": [
-        "mega"
-      ],
-      "height": 2,
-      "weight": 10000,
-      "cannotDynamax": false,
-      "battleOnly": true
-    }
-],
   "baseExperienceYield": 263,
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
@@ -444,7 +386,6 @@
     }
   },
   "catchRate": 45,
-  "maleRatio": 0.875,
   "shoulderMountable": false,
   "baseExperienceYield": 129,
   "experienceGroup": "medium_slow",

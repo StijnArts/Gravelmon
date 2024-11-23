@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "charcool-1",
+      "id": "charcool-01",
       "pokemon": "charcool",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "33-55",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_volvanic",
-"#cobblemon:is_forest" ]
+        "biomes": [
+          "#cobblemon:is_volvanic",
+          "#cobblemon:nether/is_forest"
+        ]
       }
     }
   ]

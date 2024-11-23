@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "cryoptera-1",
+      "id": "cryoptera-01",
       "pokemon": "cryoptera",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "31-52",
       "weight": 1.5,
       "condition": {
-"biomes": [ "#cobblemon:is_freezing" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

@@ -1,7 +1,6 @@
 package drai.dev.data.games.pokemmo.firstbatch;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.atlas.Akrovern;
 import drai.dev.data.pokemon.atlas.Albivore;
 import drai.dev.data.pokemon.atlas.Carosella;
@@ -33,189 +32,201 @@ public class OrohnHavai extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new Ekopi());
-        pokemon.add(new Ekoraft());
-        pokemon.add(new Expertri());
-        pokemon.add(new Flaero());
-        pokemon.add(new Impferno());
-        pokemon.add(new Pyrovern());
-        pokemon.add(new Kelpony());
-        pokemon.add(new Maritide());
-        pokemon.add(new Reefallion());
-        pokemon.add(new Chenileaf());
-        pokemon.add(new Cottoon());
-        pokemon.add(new Sedavlin());
-        pokemon.add(new Warblu());
-        pokemon.add(new Territore());
-        pokemon.add(new Warshrike());
+        addNewPokemon(new Ekopi());
+        addNewPokemon(new Ekoraft());
+        addNewPokemon(new Expertri());
+        addNewPokemon(new Flaero());
+        addNewPokemon(new Impferno());
+        addNewPokemon(new Pyrovern());
+        addNewPokemon(new Kelpony());
+        addNewPokemon(new Maritide());
+        addNewPokemon(new Reefallion());
+        addNewPokemon(new Chenileaf());
+        addNewPokemon(new Cottoon());
+        addNewPokemon(new Sedavlin());
+        addNewPokemon(new Warblu());
+        addNewPokemon(new Territore());
+        addNewPokemon(new Warshrike());
 //        pokemon.add(new Troopant()); Missing art
 //        pokemon.add(new Antzooka()); Missing art
-        pokemon.add(new Goosea());
-        pokemon.add(new Neinei());
-        pokemon.add(new Zapillar());
-        pokemon.add(new Zapcoon());
-        pokemon.add(new Zaptenna());
-        pokemon.add(new Thistling());
-        pokemon.add(new Withettle());
-        pokemon.add(new Bonzumi());
-        pokemon.add(new Bonzire());
-        pokemon.add(new Imbumi());
-        pokemon.add(new Frossit());
-        pokemon.add(new Petumi());
-        pokemon.add(new Fleuroma());
-        pokemon.add(new Dorentu());
-        pokemon.add(new Grandorent());
-        pokemon.add(new Eriegle());
-        pokemon.add(new Albivore());
-        pokemon.add(new Emperiegle());
-        pokemon.add(new Elfini());
-        pokemon.add(new Aidelf());
-        pokemon.add(new Mousense());
-        pokemon.add(new Sensarat());
-        pokemon.add(new Spartzle());
-        pokemon.add(new Eletize());
-        pokemon.add(new Slickitty());
-        pokemon.add(new Axeleraze());
-        pokemon.add(new Kroach());
-        pokemon.add(new Kloakroach());
-        pokemon.add(new Timiby());
-        pokemon.add(new Nervreck());
-        pokemon.add(new Wreckore());
-        pokemon.add(new Lilabaa());
-        pokemon.add(new Lulabaa());
-        pokemon.add(new Glumence());
-        pokemon.add(new Glumexin());
-        pokemon.add(new Nursee());
-        pokemon.add(new Nurturse());
-        pokemon.add(new Chiroo());
-        pokemon.add(new Trairoo());
-        pokemon.add(new Luvenny());
-        pokemon.add(new Suavenny());
-        pokemon.add(new Pebblent());
-        pokemon.add(new Rocroset());
-        pokemon.add(new Granderosa(new Stats(512, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER,
+        addNewPokemon(new Goosea());
+        addNewPokemon(new Neinei());
+        addNewPokemon(new Zapillar());
+        addNewPokemon(new Zapcoon());
+        addNewPokemon(new Zaptenna());
+        addNewPokemon(new Thistling());
+        addNewPokemon(new Withettle());
+        addNewPokemon(new Bonzumi());
+        addNewPokemon(new Bonzire());
+        addNewPokemon(new Imbumi());
+        addNewPokemon(new Frossit());
+        addNewPokemon(new Petumi());
+        addNewPokemon(new Fleuroma());
+        addNewPokemon(new Dorentu());
+        addNewPokemon(new Grandorent());
+        addNewPokemon(new Eriegle());
+        addNewPokemon(new Albivore());
+        addNewPokemon(new Emperiegle());
+        addNewPokemon(new Elfini());
+        addNewPokemon(new Aidelf());
+        addNewPokemon(new Mousense());
+        addNewPokemon(new Sensarat());
+        addNewPokemon(new Spartzle());
+        addNewPokemon(new Eletize());
+        addNewPokemon(new Slickitty());
+        addNewPokemon(new Axeleraze());
+        addNewPokemon(new Kroach());
+        addNewPokemon(new Kloakroach());
+        addNewPokemon(new Timiby());
+        addNewPokemon(new Nervreck());
+        addNewPokemon(new Wreckore());
+        addNewPokemon(new Lilabaa());
+        addNewPokemon(new Lulabaa());
+        addNewPokemon(new Glumence());
+        addNewPokemon(new Glumexin());
+        addNewPokemon(new Nursee());
+        addNewPokemon(new Nurturse());
+        addNewPokemon(new Chiroo());
+        addNewPokemon(new Trairoo());
+        addNewPokemon(new Luvenny());
+        addNewPokemon(new Suavenny());
+        addNewPokemon(new Pebblent());
+        addNewPokemon(new Rocroset());
+        addNewPokemon(new Granderosa(new Stats(512, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER,
                 List.of(StatType.DEFENCE))));
-        pokemon.add(new Reefermal());
-        pokemon.add(new Veilvid());
-        pokemon.add(new Brambarb());
-        pokemon.add(new Wickvine());
-        pokemon.add(new Wicktrive());
-        pokemon.add(new Winklit());
-        pokemon.add(new Gleamur());
-        pokemon.add(new Pixiechu());
+        addNewPokemon(new Reefermal());
+        addNewPokemon(new Veilvid());
+        addNewPokemon(new Brambarb());
+        addNewPokemon(new Wickvine());
+        addNewPokemon(new Wicktrive());
+        addNewPokemon(new Winklit());
+        addNewPokemon(new Gleamur());
+        addNewPokemon(new Pixiechu());
         var chemecko = new Chemecko();
-        pokemon.add(chemecko);
+        addNewPokemon(chemecko);
 //        pokemon.add(new AvorianChemecko(chemecko.getPokedexNumber()));
-        pokemon.add(new Molozard());
-        pokemon.add(new Twirpant());
-        pokemon.add(new Kombantis());
-        pokemon.add(new Barbenin());
-        pokemon.add(new Scoprikon());
+        addNewPokemon(new Molozard());
+        addNewPokemon(new Twirpant());
+        addNewPokemon(new Kombantis());
+        addNewPokemon(new Barbenin());
+        addNewPokemon(new Scoprikon());
 
-        pokemon.add(new Kraklam());
-        pokemon.add(new Krakshen());
-        pokemon.add(new Caraprisma());
-        pokemon.add(new Clawconut());
-        pokemon.add(new Clawgigus());
-        pokemon.add(new Fribitad());
-        pokemon.add(new Ribivine());
-        pokemon.add(new Meritrot());
-        pokemon.add(new Stalliot());
-        pokemon.add(new Carosella());
-        pokemon.add(new Timingo());
-        pokemon.add(new Flambagant());
+        addNewPokemon(new Kraklam());
+        addNewPokemon(new Krakshen());
+        addNewPokemon(new Caraprisma());
+        addNewPokemon(new Clawconut());
+        addNewPokemon(new Clawgigus());
+        addNewPokemon(new Fribitad());
+        addNewPokemon(new Ribivine());
+        addNewPokemon(new Meritrot());
+        addNewPokemon(new Stalliot());
+        addNewPokemon(new Carosella());
+        addNewPokemon(new Timingo());
+        addNewPokemon(new Flambagant());
+        addPokedexPokemon("gastly-havaiian, haunter-havaiian, gengar-havaiian");
 //        pokemon.add(new Glimpid()); Member of line not finished
 //        pokemon.add(new Cryosect()); Missing Art
-        pokemon.add(new Hematick());
-        pokemon.add(new Vorvosip());
-        pokemon.add(new Stegrump());
-        pokemon.add(new Stegovore());
-        pokemon.add(new Devostoric());
-        pokemon.add(new Petirex());
-        pokemon.add(new Wreckasaur());
-        pokemon.add(new Arrocknid());
-        pokemon.add(new Exoroknid());
-        pokemon.add(new Kragodon(new Stats(415, StatArchetype.PHYSICAL_WALL, List.of(StatType.HP))));
-        pokemon.add(new Therasloth());
-        pokemon.add(new Slotherror());
-        pokemon.add(new Pitopyre(new Stats(378, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPEED))));
-        pokemon.add(new Wooble());
-        pokemon.add(new Snowool());
-        pokemon.add(new Shiveram());
-        pokemon.add(new Burnuki(new Stats(388, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPEED))));
-        pokemon.add(new Turtelisk());
-        pokemon.add(new Karaggon());
-        pokemon.add(new Akrovern());
-        pokemon.add(new Glozard());
-        pokemon.add(new Radizorb());
-        pokemon.add(new Radiaze());
-        pokemon.add(new Clastroid());
-        pokemon.add(new Colistroid());
-        pokemon.add(new Galixoid());
-        pokemon.add(new Ferobite());
-        pokemon.add(new Purswayer());
-        pokemon.add(new Fortibal());
-        pokemon.add(new Armodieval());
-        pokemon.add(new Chillimp(new Stats(345, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))));
-        pokemon.add(new Pinxie());
-        pokemon.add(new Cosminx());
+        addNewPokemon(new Hematick());
+        addNewPokemon(new Vorvosip());
+        addNewPokemon(new Vorvosip());
+        addNewPokemon(new Stegrump());
+        addNewPokemon(new Stegovore());
+        addNewPokemon(new Devostoric());
+        addNewPokemon(new Petirex());
+        addNewPokemon(new Wreckasaur());
+        addNewPokemon(new Arrocknid());
+        addNewPokemon(new Exoroknid());
+        addNewPokemon(new Kragodon(new Stats(415, StatArchetype.PHYSICAL_WALL, List.of(StatType.HP))));
+        addNewPokemon(new Therasloth());
+        addNewPokemon(new Slotherror());
+        addNewPokemon(new Pitopyre(new Stats(378, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPEED))));
+        addNewPokemon(new Wooble());
+        addNewPokemon(new Snowool());
+        addNewPokemon(new Shiveram());
+        addNewPokemon(new Burnuki(new Stats(388, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPEED))));
+        addNewPokemon(new Turtelisk());
+        addNewPokemon(new Karaggon());
+        addNewPokemon(new Akrovern());
+        addNewPokemon(new Glozard());
+        addNewPokemon(new Radizorb());
+        addNewPokemon(new Radiaze());
+        addNewPokemon(new Clastroid());
+        addNewPokemon(new Colistroid());
+        addNewPokemon(new Galixoid());
+        addNewPokemon(new Ferobite());
+        addNewPokemon(new Purswayer());
+        addNewPokemon(new Fortibal());
+        addNewPokemon(new Armodieval());
+        addNewPokemon(new Chillimp(new Stats(345, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))));
+        addNewPokemon(new Pinxie());
+        addNewPokemon(new Cosminx());
 //        pokemon.add(new Konchore()); Missing Stats
 //        pokemon.add(new Neptide()); Missing Art
 //        pokemon.add(new Lemomi()); Missing Stats
 //        pokemon.add(new Shelmissy()); Missing Art
 //        pokemon.add(new Empressea()); Missing Art
-        pokemon.add(new Sharfin());
-        pokemon.add(new Thrashark());
-        pokemon.add(new Abyssoul());
-        pokemon.add(new Voidevour());
+        addNewPokemon(new Sharfin());
+        addNewPokemon(new Thrashark());
+        addNewPokemon(new Abyssoul());
+        addNewPokemon(new Voidevour());
 //        pokemon.add(new Gargobble()); Missing Art
 //        pokemon.add(new Garglizer()); Member of line not finished
-        pokemon.add(new Ruffski());
-        pokemon.add(new Arblizen());
-        pokemon.add(new Siberizen());
-        pokemon.add(new Pipsicle());
-        pokemon.add(new Wilspri());
-        pokemon.add(new Trillowee());
+        addNewPokemon(new Ruffski());
+        addNewPokemon(new Arblizen());
+        addNewPokemon(new Siberizen());
+        addNewPokemon(new Pipsicle());
+        addNewPokemon(new Wilspri());
+        addNewPokemon(new Trillowee());
 
-        pokemon.add(new Oreglyph());
-        pokemon.add(new Geoglyphic(new Stats(476, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))));
+        addNewPokemon(new Oreglyph());
+        addNewPokemon(new Geoglyphic(new Stats(476, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))));
 //        pokemon.add(new Eskiflurr()); Missing art
-        pokemon.add(new Tasticky());
-        pokemon.add(new Tadapt());
-        pokemon.add(new Thornment());
-        pokemon.add(new Phrilter());
-        pokemon.add(new Vortexol());
-        pokemon.add(new Elecko());
-        pokemon.add(new Foxsye());
-        pokemon.add(new Veroxifye());
+        addNewPokemon(new Tasticky());
+        addNewPokemon(new Tadapt());
+        addNewPokemon(new Thornment());
+        addNewPokemon(new Phrilter());
+        addNewPokemon(new Vortexol());
+        addNewPokemon(new Elecko());
+        addNewPokemon(new Foxsye());
+        addNewPokemon(new Veroxifye());
 //        pokemon.add(new Chainect()); Missing art
 //        pokemon.add(new Chainector()); Missing art
-        pokemon.add(new Tundrill());
+        addNewPokemon(new Tundrill());
 //        pokemon.add(new Malakele()); Missing art
 //        pokemon.add(new Kahukele()); Missing art
-        pokemon.add(new Camohut());
-        pokemon.add(new Camofirma());
-        pokemon.add(new Fyglow());
+        addNewPokemon(new Camohut());
+        addNewPokemon(new Camofirma());
+        addNewPokemon(new Fyglow());
 //        pokemon.add(new Polighoul()); Missing art
-        pokemon.add(new Alpheon());
-        pokemon.add(new Eveon());
-        pokemon.add(new Tekichu(new Stats(410, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))));
-        pokemon.add(new Finray());
-        pokemon.add(new Ogoprowl());
-        pokemon.add(new Sephysar());
+        addPokedexPokemon(
+                "eevee," +
+                        "vaporeon," +
+                        "jolteon," +
+                        "flareon," +
+                        "espeon," +
+                        "umbreon," +
+                        "leafeon," +
+                        "glaceon," +
+                        "sylveon");
+        addNewPokemon(new Alpheon());
+        addNewPokemon(new Eveon());
+        addNewPokemon(new Tekichu(new Stats(410, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))));
+        addNewPokemon(new Finray());
+        addNewPokemon(new Ogoprowl());
+        addNewPokemon(new Sephysar());
 //        pokemon.add(new Vexigon()); Member of line not finished
 //        pokemon.add(new Noxareo()); Missing art
 //        pokemon.add(new Darcastro()); Member of line not finished
-        pokemon.add(new Rivulcred());
-        pokemon.add(new Valecred());
+        addNewPokemon(new Rivulcred());
+        addNewPokemon(new Valecred());
 //        pokemon.add(new Drazephir()); Missing art
-        pokemon.add(new Netherval());
-        pokemon.add(new Quadrossal());
-        pokemon.add(new Infiluv());
+        addNewPokemon(new Netherval());
+        addNewPokemon(new Quadrossal());
+        addNewPokemon(new Infiluv());
 //        pokemon.add(new Obideion()); Missing art
 //        pokemon.add(new Generion()); Missing art
 //        pokemon.add(new Indureion()); Missing art
-        pokemon.add(new Zedakazm());
+        addNewPokemon(new Zedakazm());
 //        pokemon.add(new Intelix()); Missing art
 //        pokemon.add(new Nectavian()); Missing art
 

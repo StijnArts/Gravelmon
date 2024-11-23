@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "stargazaur-1",
+      "id": "stargazaur-01",
       "pokemon": "stargazaur",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "36-46",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_mountain" ],
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

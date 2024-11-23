@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "kaskadianraticate-1",
+      "id": "kaskadian_raticate-01",
       "pokemon": "raticate kaskadian",
       "presets": [
-          "near_lava"
+        "near_lava"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,11 @@
       "level": "20-41",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_freezing",
-"#cobblemon:is_snowy" ]
+        "biomes": [
+          "#cobblemon:is_freezing",
+          "#cobblemon:is_snowy"
+        ]
       }
     }
-
-]
+  ]
 }

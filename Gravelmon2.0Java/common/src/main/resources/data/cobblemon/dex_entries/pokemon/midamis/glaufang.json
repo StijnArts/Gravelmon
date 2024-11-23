@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:glaufang",
+  "speciesId": "cobblemon:glaufang",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

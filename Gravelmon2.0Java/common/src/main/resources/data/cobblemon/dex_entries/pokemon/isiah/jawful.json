@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:jawful",
+  "speciesId": "cobblemon:jawful",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

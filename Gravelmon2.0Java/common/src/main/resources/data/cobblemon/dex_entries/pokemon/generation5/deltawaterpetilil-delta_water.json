@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:deltawaterpetilil-delta_water",
+  "speciesId": "cobblemon:deltawaterpetilil",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Deltawater",
+      "unlockForms": [
+        "Deltawater"
+      ]
+    }
+  ],
+  "variations": []
+}

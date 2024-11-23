@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "hizianheatmor-1",
+      "id": "hizian_heatmor-01",
       "pokemon": "heatmor hizian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,17 @@
       "level": "23-48",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_wasteland",
-"#cobblemon:is_crimson" ]
+        "biomes": [
+          "#cobblemon:nether/is_wasteland",
+          "#cobblemon:nether/is_crimson"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "deltaheatmor-1",
+      "id": "delta_heatmor-01",
       "pokemon": "heatmor delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,9 +33,10 @@
       "level": "18-51",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#minecraft:is_end" ]
+        "biomes": [
+          "#minecraft:is_end"
+        ]
       }
     }
-
-]
+  ]
 }

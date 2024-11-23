@@ -1,0 +1,23 @@
+{
+  "entryId": "cobblemon:bisharp",
+  "forms": [
+    {
+      "displayForm": "Delta",
+      "unlockForms": [
+        "Delta"
+      ]
+    },
+    {
+      "displayForm": "X",
+      "unlockForms": [
+        "X"
+      ]
+    },
+    {
+      "displayForm": "Hoennian",
+      "unlockForms": [
+        "Hoennian"
+      ]
+    }
+  ]
+}

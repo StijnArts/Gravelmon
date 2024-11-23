@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "desplash-1",
+      "id": "desplash-01",
       "pokemon": "desplash",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,12 +15,18 @@
       "level": "6-25",
       "weight": 3.8,
       "condition": {
-"biomes": [ "#cobblemon:is_coast" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_coast"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_beach",
-"#cobblemon:is_cold" ]    }
+        "biomes": [
+          "#cobblemon:is_beach",
+          "#cobblemon:is_cold"
+        ]
+      }
     }
   ]
 }

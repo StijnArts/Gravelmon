@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:barbenin",
+  "speciesId": "cobblemon:barbenin",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

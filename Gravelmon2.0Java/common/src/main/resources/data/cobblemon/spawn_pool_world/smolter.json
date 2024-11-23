@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "smolter-1",
+      "id": "smolter-01",
       "pokemon": "smolter",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "12-36",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_thermal",
-"#cobblemon:is_volvanic" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_thermal",
+          "#cobblemon:is_volvanic"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

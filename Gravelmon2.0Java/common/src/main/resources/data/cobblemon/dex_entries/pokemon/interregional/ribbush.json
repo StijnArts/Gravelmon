@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ribbush",
+  "speciesId": "cobblemon:ribbush",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

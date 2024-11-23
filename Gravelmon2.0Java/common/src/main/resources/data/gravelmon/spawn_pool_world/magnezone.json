@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "eghomagnezone-1",
+      "id": "egho_magnezone-01",
       "pokemon": "magnezone egho",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,12 @@
       "level": "44-55",
       "weight": 2.2,
       "condition": {
-"biomes": [ "#cobblemon:is_lush" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_lush"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
-
-]
+  ]
 }

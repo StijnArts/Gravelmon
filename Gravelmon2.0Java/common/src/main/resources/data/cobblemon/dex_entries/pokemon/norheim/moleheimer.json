@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:moleheimer",
+  "speciesId": "cobblemon:moleheimer",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

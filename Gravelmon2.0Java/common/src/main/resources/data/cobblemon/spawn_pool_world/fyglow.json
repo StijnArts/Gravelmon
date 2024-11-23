@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fyglow-1",
+      "id": "fyglow-01",
       "pokemon": "fyglow",
       "presets": [
-          "near_water"
+        "near_water"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,11 +15,14 @@
       "level": "7-32",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_grassland",
-"#cobblemon:is_forest",
-"#cobblemon:is_swamp" ],
+        "biomes": [
+          "#cobblemon:is_grassland",
+          "#cobblemon:is_forest",
+          "#cobblemon:is_swamp"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

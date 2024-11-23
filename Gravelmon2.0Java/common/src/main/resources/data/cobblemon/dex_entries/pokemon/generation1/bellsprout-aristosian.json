@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:bellsprout-aristosian",
+  "speciesId": "cobblemon:bellsprout",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Aristosian",
+      "unlockForms": [
+        "Aristosian"
+      ]
+    }
+  ],
+  "variations": []
+}

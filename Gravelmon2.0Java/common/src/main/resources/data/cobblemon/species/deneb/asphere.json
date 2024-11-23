@@ -1,7 +1,7 @@
 {
   "implemented": true,
-  "name": "asphere",
-  "nationalPokedexNumber": 4783,
+  "name": "Asphere",
+  "nationalPokedexNumber": 4786,
   "primaryType": "fire",
   "secondaryType": "dragon",
   "abilities": [
@@ -48,7 +48,7 @@
       "secondaryType": "dragon",
       "abilities": [
     "marvelscale"      ],
-      "baseScale": 0.9375,
+      "baseScale": 1.4,
         "hitbox": {
           "width": 6.0,
           "height": 6.0,
@@ -105,7 +105,7 @@
       "secondaryType": "dragon",
       "abilities": [
     "marvelscale"      ],
-      "baseScale": 0.9375,
+      "baseScale": 1.4,
         "hitbox": {
           "width": 6.0,
           "height": 6.0,

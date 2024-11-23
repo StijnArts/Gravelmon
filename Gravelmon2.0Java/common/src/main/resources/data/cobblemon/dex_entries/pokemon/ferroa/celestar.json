@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:celestar",
+  "speciesId": "cobblemon:celestar",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

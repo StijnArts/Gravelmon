@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:motholus",
+  "speciesId": "cobblemon:motholus",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

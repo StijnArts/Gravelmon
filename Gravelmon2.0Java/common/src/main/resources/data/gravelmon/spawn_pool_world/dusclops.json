@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fligiandusclops-1",
+      "id": "fligian_dusclops-01",
       "pokemon": "dusclops fligian",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,10 +15,11 @@
       "level": "37-52",
       "weight": 0.4,
       "condition": {
-"biomes": [ "#minecraft:is_deep_ocean" ],
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ],
         "timeRange": "night"
       }
     }
-
-]
+  ]
 }

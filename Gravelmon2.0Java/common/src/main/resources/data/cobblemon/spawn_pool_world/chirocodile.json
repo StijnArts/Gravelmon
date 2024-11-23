@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "chirocodile-1",
+      "id": "chirocodile-01",
       "pokemon": "chirocodile",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,12 +15,18 @@
       "level": "35-52",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_arid" ],
+        "biomes": [
+          "#cobblemon:is_arid"
+        ],
         "timeRange": "night",
-        "canSeeSky": false
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_cave" ]    }
+        "biomes": [
+          "#cobblemon:is_cave"
+        ]
+      }
     }
   ]
 }

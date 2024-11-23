@@ -4,7 +4,6 @@ import drai.dev.data.games.registry.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.daybreak.*;
 import drai.dev.data.pokemon.daybreak.regional.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Daybreak extends Game {
     public Daybreak() {
@@ -13,8 +12,11 @@ public class Daybreak extends Game {
 
     @Override
     public void registerPokemon() {
-        var sandridger = new Sandridger();
-        pokemon.add(sandridger);
-        pokemon.add(new AlolanSandridger("", Aspect.ALOLAN));
+        addPokedexPokemon("treecko, grovyle, sceptile, sceptile-armiran, froakie-armiran, frogadier-armiran, " +
+                "greninja-armiran, taillow, swellow, swellow-armiran, sandshrew, sandshrew-alolan, sandslash, sandslash-alolan");
+        addNewPokemon(new Sandridger());
+        addNewPokemon(new AlolanSandridger("", Aspect.ALOLAN));
+        addPokedexPokemon("growlithe-armiran, arcanine-armiran, roggenrola-armiran, boldore-armiran, gigalith-armiran, " +
+                "hippopotas-armiran, hippowdon-armiran, larvitar, pupitar, tyranitar, tyranitar-armiran, gible, gabite, garchomp, garchomp-armiran");
     }
 }

@@ -1,0 +1,23 @@
+{
+  "entryId": "cobblemon:tropius",
+  "forms": [
+    {
+      "displayForm": "Hizian",
+      "unlockForms": [
+        "Hizian"
+      ]
+    },
+    {
+      "displayForm": "Aristosian",
+      "unlockForms": [
+        "Aristosian"
+      ]
+    },
+    {
+      "displayForm": "Kaskadian",
+      "unlockForms": [
+        "Kaskadian"
+      ]
+    }
+  ]
+}

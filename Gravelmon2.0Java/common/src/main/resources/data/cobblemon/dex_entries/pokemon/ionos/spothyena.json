@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:spothyena",
+  "speciesId": "cobblemon:spothyena",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

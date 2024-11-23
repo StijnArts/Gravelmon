@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "soappo-1",
+      "id": "soappo-01",
       "pokemon": "soappo",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "surface",
@@ -15,12 +15,18 @@
       "level": "18-33",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_river" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_river"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_winter",
-"#cobblemon:is_autumn" ]    }
+        "biomes": [
+          "#cobblemon:has_season/winter",
+          "#cobblemon:has_season/autumn"
+        ]
+      }
     }
   ]
 }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "vasegeist-1",
+      "id": "vasegeist-01",
       "pokemon": "vasegeist",
       "presets": [
-          "desert_pyramid"
+        "desert_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "41-64",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_desert" ],
+        "biomes": [
+          "#cobblemon:is_desert"
+        ],
         "timeRange": "night"
       }
     }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "anglure-1",
+      "id": "anglure-01",
       "pokemon": "anglure",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "seafloor",
@@ -15,7 +15,9 @@
       "level": "3-22",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#minecraft:is_deep_ocean" ]
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ]
       }
     }
   ]

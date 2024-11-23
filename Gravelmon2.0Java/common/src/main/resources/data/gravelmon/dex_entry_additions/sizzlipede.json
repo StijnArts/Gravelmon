@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:sizzlipede",
+  "forms": [
+    {
+      "displayForm": "Seviian",
+      "unlockForms": [
+        "Seviian"
+      ]
+    },
+    {
+      "displayForm": "Ayreian",
+      "unlockForms": [
+        "Ayreian"
+      ]
+    }
+  ]
+}

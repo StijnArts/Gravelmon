@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:oldeture",
+  "speciesId": "cobblemon:oldeture",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:quadrossal",
+  "speciesId": "cobblemon:quadrossal",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

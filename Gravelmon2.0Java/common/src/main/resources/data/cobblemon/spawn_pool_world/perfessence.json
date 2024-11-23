@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "perfessence-1",
+      "id": "perfessence-01",
       "pokemon": "perfessence",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,12 +15,18 @@
       "level": "23-43",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_summer",
-"#cobblemon:is_spooky" ]    }
+        "biomes": [
+          "#cobblemon:has_season/summer",
+          "#cobblemon:is_spooky"
+        ]
+      }
     }
   ]
 }

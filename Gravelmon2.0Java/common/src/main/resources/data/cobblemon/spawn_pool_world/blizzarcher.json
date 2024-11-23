@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "blizzarcher-1",
+      "id": "blizzarcher-01",
       "pokemon": "blizzarcher",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "23-45",
       "weight": 1.2,
       "condition": {
-"biomes": [ "#cobblemon:is_freezing" ],
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

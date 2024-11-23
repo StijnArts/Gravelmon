@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "skelachone-1",
+      "id": "skelachone-01",
       "pokemon": "skelachone",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,8 +15,11 @@
       "level": "36-54",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       }
     }

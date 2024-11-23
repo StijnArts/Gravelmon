@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:growlithe-aristosian",
+  "speciesId": "cobblemon:growlithe",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Aristosian",
+      "unlockForms": [
+        "Aristosian"
+      ]
+    }
+  ],
+  "variations": []
+}

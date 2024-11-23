@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltaroserade-1",
+      "id": "delta_roserade-01",
       "pokemon": "roserade delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,15 +15,16 @@
       "level": "30-48",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ]
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "roseradex-1",
+      "id": "x_roserade-01",
       "pokemon": "roserade x",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -31,15 +32,16 @@
       "level": "34-57",
       "weight": 1.6,
       "condition": {
-"biomes": [ "#minecraft:is_end" ]
+        "biomes": [
+          "#minecraft:is_end"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "ayreianroserade-1",
+      "id": "ayreian_roserade-01",
       "pokemon": "roserade ayreian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -47,16 +49,18 @@
       "level": "41-58",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#cobblemon:is_taiga" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "relicroserade-1",
+      "id": "relic_roserade-01",
       "pokemon": "roserade relic",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -64,11 +68,15 @@
       "level": "41-51",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ]
+        "biomes": [
+          "#cobblemon:is_magical"
+        ]
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_floral" ]    }
+        "biomes": [
+          "#cobblemon:is_floral"
+        ]
+      }
     }
-
-]
+  ]
 }

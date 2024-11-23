@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mountunn-1",
+      "id": "mountunn-01",
       "pokemon": "mountunn",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "41-61",
       "weight": 0.4,
       "condition": {
-"biomes": [ "#cobblemon:is_mountain" ]
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ]
       }
     }
   ]

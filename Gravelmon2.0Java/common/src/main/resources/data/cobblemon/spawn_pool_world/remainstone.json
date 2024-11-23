@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "remainstone-1",
+      "id": "remainstone-01",
       "pokemon": "remainstone",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "33-55",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_soul_sand" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:nether/is_soul_sand"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

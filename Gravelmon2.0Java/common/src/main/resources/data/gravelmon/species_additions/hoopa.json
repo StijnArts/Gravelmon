@@ -36,7 +36,6 @@
     }
   },
   "catchRate": 3,
-  "maleRatio": -1.0,
   "shoulderMountable": false,
   "baseExperienceYield": 300,
   "experienceGroup": "slow",
@@ -160,9 +159,9 @@
   ],
   "evolutions": [
     {
-      "id": "hoopa_hoopa_deltaunleashed",
+      "id": "hoopa_hoopa_delta_unleashed",
       "variant": "item_interact",
-      "result": "hoopa deltaunleashed",
+      "result": "hoopa delta_unleashed",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -228,7 +227,6 @@
     }
   },
   "catchRate": 3,
-  "maleRatio": -1.0,
   "shoulderMountable": false,
   "baseExperienceYield": 300,
   "experienceGroup": "slow",

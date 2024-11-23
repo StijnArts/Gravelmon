@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "jawson-1",
+      "id": "jawson-01",
       "pokemon": "jawson",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "seafloor",
@@ -15,11 +15,17 @@
       "level": "22-45",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ],
-        "canSeeSky": true
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_cold_ocean" ]    }
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ]
+      }
     }
   ]
 }

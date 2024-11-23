@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:hornaval",
+  "speciesId": "cobblemon:hornaval",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

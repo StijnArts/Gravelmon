@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltafrogadier-1",
+      "id": "delta_frogadier-01",
       "pokemon": "frogadier delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,18 @@
       "level": "16-33",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_lush" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_lush"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "armiranfrogadier-1",
+      "id": "armiran_frogadier-01",
       "pokemon": "frogadier armiran",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,10 +34,10 @@
       "level": "16-33",
       "weight": 2.0,
       "condition": {
-        "canSeeSky": false,
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
         "maxY": 0
       }
     }
-
-]
+  ]
 }

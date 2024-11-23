@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "crozoicanchainscraw-1",
+      "id": "crozoican_chainscraw-01",
       "pokemon": "chainscraw crozoican",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "seafloor",
@@ -15,9 +15,10 @@
       "level": "40-57",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_warm_ocean" ]
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ]
       }
     }
-
-]
+  ]
 }

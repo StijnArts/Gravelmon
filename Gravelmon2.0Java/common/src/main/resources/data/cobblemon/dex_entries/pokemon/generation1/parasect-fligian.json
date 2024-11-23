@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:parasect-fligian",
+  "speciesId": "cobblemon:parasect",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Fligian",
+      "unlockForms": [
+        "Fligian"
+      ]
+    }
+  ],
+  "variations": []
+}

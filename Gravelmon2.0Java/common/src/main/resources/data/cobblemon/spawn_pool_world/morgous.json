@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "morgous-1",
+      "id": "morgous-01",
       "pokemon": "morgous",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "65-75",
       "weight": 6.0E-4,
       "condition": {
-"biomes": [ "#cobblemon:is_deep_dark" ]
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ]
       }
     }
   ]

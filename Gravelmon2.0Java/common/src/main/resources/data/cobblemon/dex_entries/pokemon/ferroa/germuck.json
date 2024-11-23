@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:germuck",
+  "speciesId": "cobblemon:germuck",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

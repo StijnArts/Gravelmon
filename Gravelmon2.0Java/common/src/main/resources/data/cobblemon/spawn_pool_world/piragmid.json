@@ -4,11 +4,11 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "piragmid-1",
+      "id": "piragmid-01",
       "pokemon": "piragmid",
       "presets": [
-          "gemstones",
-          "natural"
+        "gemstones",
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -16,9 +16,12 @@
       "level": "21-35",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_overworld" ],
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
         "minY": 0,
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

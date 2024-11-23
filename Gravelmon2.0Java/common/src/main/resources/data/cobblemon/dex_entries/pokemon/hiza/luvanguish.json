@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:luvanguish",
+  "speciesId": "cobblemon:luvanguish",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "rascoom-1",
+      "id": "rascoom-01",
       "pokemon": "rascoom",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "22-45",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_arid" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_arid"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

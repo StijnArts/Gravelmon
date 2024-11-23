@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:albat",
+  "speciesId": "cobblemon:albat",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

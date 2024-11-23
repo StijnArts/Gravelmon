@@ -4,11 +4,11 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "rasgold-1",
+      "id": "rasgold-01",
       "pokemon": "rasgold",
       "presets": [
-          "mineshaft",
-          "gemstones"
+        "mineshaft",
+        "gemstones"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -16,7 +16,9 @@
       "level": "7-34",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cave" ]
+        "biomes": [
+          "#cobblemon:is_cave"
+        ]
       }
     }
   ]

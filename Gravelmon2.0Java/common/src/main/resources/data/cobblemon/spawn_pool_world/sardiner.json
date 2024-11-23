@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "sardiner-1",
+      "id": "sardiner-01",
       "pokemon": "sardiner",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,9 +15,12 @@
       "level": "13-29",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ],
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

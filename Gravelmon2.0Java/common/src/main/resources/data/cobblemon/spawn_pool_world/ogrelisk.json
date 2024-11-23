@@ -4,19 +4,16 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ogrelisk-1",
+      "id": "ogrelisk-01",
       "pokemon": "ogrelisk",
       "presets": [
-          "jungle_pyramid"
+        "jungle_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "65-75",
-      "weight": 5.0E-4,
-      "condition": {
-
-      }
+      "weight": 5.0E-4
     }
   ]
 }

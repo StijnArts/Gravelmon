@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:puriphin",
+  "speciesId": "cobblemon:puriphin",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

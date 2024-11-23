@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "orangutao-1",
+      "id": "orangutao-01",
       "pokemon": "orangutao",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,12 +15,18 @@
       "level": "34-49",
       "weight": 0.8,
       "condition": {
-"biomes": [ "#cobblemon:is_plains" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_plains"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_cold",
-"#cobblemon:is_temperate" ]    }
+        "biomes": [
+          "#cobblemon:is_cold",
+          "#cobblemon:is_temperate"
+        ]
+      }
     }
   ]
 }

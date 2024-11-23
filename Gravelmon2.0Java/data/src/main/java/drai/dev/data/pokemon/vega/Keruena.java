@@ -90,5 +90,7 @@ public class Keruena extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.4, 0.3,
                 List.of());
+        addAdditionalEvolution("mightyena", new EvolutionEntry("keruena", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"39"))));
     }
 }

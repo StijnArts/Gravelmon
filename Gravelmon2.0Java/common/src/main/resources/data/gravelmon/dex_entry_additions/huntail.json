@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:huntail",
+  "forms": [
+    {
+      "displayForm": "Novran",
+      "unlockForms": [
+        "Novran"
+      ]
+    },
+    {
+      "displayForm": "Delta",
+      "unlockForms": [
+        "Delta"
+      ]
+    }
+  ]
+}

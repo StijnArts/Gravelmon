@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "eameiru-1",
+      "id": "eameiru-01",
       "pokemon": "eameiru",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "41-58",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sandy",
-"#cobblemon:is_sky" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_sandy",
+          "#cobblemon:is_sky"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "day"
       }
     }

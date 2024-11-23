@@ -11,7 +11,6 @@ import drai.dev.data.pokemon.novrai.regional.*;
 import drai.dev.data.pokemon.radicalred.*;
 import drai.dev.data.pokemon.vanguard.regional.*;
 import drai.dev.data.pokemon.varitas.regional.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class GenerationEight extends Game {
     public GenerationEight() {
@@ -20,27 +19,27 @@ public class GenerationEight extends Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new NovranWooloo("", Aspect.NOVRAN));
-        pokemon.add(new NovranDubwool("", Aspect.NOVRAN));
-        pokemon.add(new NovranClobbopus("", Aspect.NOVRAN));
-        pokemon.add(new NovranGrapploct("", Aspect.NOVRAN));
-        pokemon.add(new NovranHatenna("", Aspect.NOVRAN));
-        pokemon.add(new NovranHattrem("", Aspect.NOVRAN));
-        pokemon.add(new NovranHatterene("", Aspect.NOVRAN));
-        pokemon.add(new NovranImpidimp("", Aspect.NOVRAN));
-        pokemon.add(new NovranMorgrem("", Aspect.NOVRAN));
-        pokemon.add(new NovranGrimmsnarl("", Aspect.NOVRAN));
+        addNewPokemon(new NovranWooloo("", Aspect.NOVRAN));
+        addNewPokemon(new NovranDubwool("", Aspect.NOVRAN));
+        addNewPokemon(new NovranClobbopus("", Aspect.NOVRAN).fishingSpawnFromExisting());
+        addNewPokemon(new NovranGrapploct("", Aspect.NOVRAN));
+        addNewPokemon(new NovranHatenna("", Aspect.NOVRAN));
+        addNewPokemon(new NovranHattrem("", Aspect.NOVRAN));
+        addNewPokemon(new NovranHatterene("", Aspect.NOVRAN));
+        addNewPokemon(new NovranImpidimp("", Aspect.NOVRAN));
+        addNewPokemon(new NovranMorgrem("", Aspect.NOVRAN));
+        addNewPokemon(new NovranGrimmsnarl("", Aspect.NOVRAN));
 
-        pokemon.add(new NorheimanRookidee("", Aspect.NORHEIMAN));
-        pokemon.add(new NorheimanCorvisquire("", Aspect.NORHEIMAN));
-        pokemon.add(new NorheimanFalinks("", Aspect.NORHEIMAN));
+        addNewPokemon(new NorheimanRookidee("", Aspect.NORHEIMAN));
+        addNewPokemon(new NorheimanCorvisquire("", Aspect.NORHEIMAN));
+        addNewPokemon(new NorheimanFalinks("", Aspect.NORHEIMAN));
 
 //        pokemon.add(new VaritasianHatenna(856)); Member of line Not Finished
 //        pokemon.add(new VaritasianHattrem(857)); Missing Art
-        pokemon.add(new VaritasianImpidimp("", Aspect.VARITASIAN));
-        pokemon.add(new VaritasianMorgrem("", Aspect.VARITASIAN));
-        pokemon.add(new VaritasianMilcery("", Aspect.VARITASIAN));
-        pokemon.add(new VaritasianAlcremie("", Aspect.VARITASIAN));
+        addNewPokemon(new VaritasianImpidimp("", Aspect.VARITASIAN));
+        addNewPokemon(new VaritasianMorgrem("", Aspect.VARITASIAN));
+        addNewPokemon(new VaritasianMilcery("", Aspect.VARITASIAN));
+        addNewPokemon(new VaritasianAlcremie("", Aspect.VARITASIAN));
 //        pokemon.add(new VaritasianDreepy(885)); Member of line Not Finished
 //        pokemon.add(new VaritasianDrakloak(886)); Missing Art
 //        pokemon.add(new VaritasianDragapult(887)); Missing Art
@@ -49,30 +48,30 @@ public class GenerationEight extends Game {
 //        pokemon.add(new HavaiianDottler(825)); Missing Art
 //        pokemon.add(new HavaiianOrbeetle(826)); Missing Art
 //
-        pokemon.add(new HizianSilicobra("", Aspect.HIZIAN));
-        pokemon.add(new HizianSandaconda("", Aspect.HIZIAN));
+        addNewPokemon(new HizianSilicobra("", Aspect.HIZIAN));
+        addNewPokemon(new HizianSandaconda("", Aspect.HIZIAN));
 
           //Pokemon Blazing Emerald
-        pokemon.add(new HoennianDreepy("", Aspect.HOENNIAN));
-        pokemon.add(new HoennianDrakloak("", Aspect.HOENNIAN));
-        pokemon.add(new HoennianDragapult("", Aspect.HOENNIAN));
+        addNewPokemon(new HoennianDreepy("", Aspect.HOENNIAN));
+        addNewPokemon(new HoennianDrakloak("", Aspect.HOENNIAN));
+        addNewPokemon(new HoennianDragapult("", Aspect.HOENNIAN));
 
         //Radical Red
-        pokemon.add(new SeviianSizzlipede("", Aspect.SEVIIAN));
-        pokemon.add(new SeviianCentiskorch("", Aspect.SEVIIAN));
+        addNewPokemon(new SeviianSizzlipede("", Aspect.SEVIIAN));
+        addNewPokemon(new SeviianCentiskorch("", Aspect.SEVIIAN));
 
         //Myth
-        pokemon.add(new MythianKleavor("", Aspect.MYTHIAN));
+        addNewPokemon(new MythianKleavor("", Aspect.MYTHIAN));
 
         //Vanguard
-        pokemon.add(new AyreianGrookey("", Aspect.AYREIAN));
-        pokemon.add(new AyreianThwackey("", Aspect.AYREIAN));
-        pokemon.add(new AyreianRillaboom("", Aspect.AYREIAN));
-        pokemon.add(new AyreianSizzlipede("", Aspect.AYREIAN));
-        pokemon.add(new AyreianCentiskorch("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianGrookey("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianThwackey("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianRillaboom("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianSizzlipede("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianCentiskorch("", Aspect.AYREIAN));
 
         //Kaskadian
-        pokemon.add(new KaskadianDubwool("", Aspect.KASKADIAN));
+        addNewPokemon(new KaskadianDubwool("", Aspect.KASKADIAN));
 
     }
 }

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:laundronaut",
+  "speciesId": "cobblemon:laundronaut",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

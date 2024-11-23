@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:pengoof",
+  "speciesId": "cobblemon:pengoof",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

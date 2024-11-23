@@ -1,0 +1,23 @@
+{
+  "entryId": "cobblemon:grovyle",
+  "forms": [
+    {
+      "displayForm": "Fligian",
+      "unlockForms": [
+        "Fligian"
+      ]
+    },
+    {
+      "displayForm": "Delta",
+      "unlockForms": [
+        "Delta"
+      ]
+    },
+    {
+      "displayForm": "Mystic",
+      "unlockForms": [
+        "Mystic"
+      ]
+    }
+  ]
+}

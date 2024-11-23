@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltalopunny-1",
+      "id": "delta_lopunny-01",
       "pokemon": "lopunny delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,10 @@
       "level": "28-45",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_desert" ]
+        "biomes": [
+          "#cobblemon:is_desert"
+        ]
       }
     }
-
-]
+  ]
 }

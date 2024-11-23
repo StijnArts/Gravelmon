@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "skravroom-1",
+      "id": "skravroom-01",
       "pokemon": "skravroom",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,13 @@
       "level": "34-57",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_plains",
-"#cobblemon:is_badlands",
-"#cobblemon:is_desert" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_plains",
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_desert"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

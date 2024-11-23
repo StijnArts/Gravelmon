@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:drifloon",
+  "forms": [
+    {
+      "displayForm": "Delta",
+      "unlockForms": [
+        "Delta"
+      ]
+    },
+    {
+      "displayForm": "Ayreian",
+      "unlockForms": [
+        "Ayreian"
+      ]
+    }
+  ]
+}

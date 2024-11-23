@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "manadza-1",
+      "id": "manadza-01",
       "pokemon": "manadza",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "69-70",
       "weight": 5.0E-4,
       "condition": {
-"biomes": [ "#cobblemon:is_summer" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:has_season/summer"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

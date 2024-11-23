@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "enjinnian_hypno-01",
+      "pokemon": "hypno enjinnian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "26-51",
+      "weight": 0.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "timeRange": "night"
+      }
+    }
+  ]
+}

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltamawile-1",
+      "id": "delta_mawile-01",
       "pokemon": "mawile delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,11 +15,13 @@
       "level": "16-38",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_floral" ],
+        "biomes": [
+          "#cobblemon:is_floral"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

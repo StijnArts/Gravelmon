@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "pourasoul-1",
+      "id": "pourasoul-01",
       "pokemon": "pourasoul",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,13 @@
       "level": "31-54",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_temperate" ],
+        "biomes": [
+          "#cobblemon:is_temperate"
+        ],
         "isRaining": true,
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

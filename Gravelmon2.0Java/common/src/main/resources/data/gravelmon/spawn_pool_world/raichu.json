@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltaraichu-1",
+      "id": "delta_raichu-01",
       "pokemon": "raichu delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,17 +15,19 @@
       "level": "34-54",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_highlands" ],
+        "biomes": [
+          "#cobblemon:is_highlands"
+        ],
         "timeRange": "day",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "raichux-1",
+      "id": "x_raichu-01",
       "pokemon": "raichu x",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -33,9 +35,10 @@
       "level": "33-48",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#minecraft:is_end" ]
+        "biomes": [
+          "#minecraft:is_end"
+        ]
       }
     }
-
-]
+  ]
 }

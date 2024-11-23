@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:wrestlegent",
+  "speciesId": "cobblemon:wrestlegent",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:bumpnotic",
+  "speciesId": "cobblemon:bumpnotic",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

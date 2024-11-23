@@ -4,11 +4,11 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "carcoral-1",
+      "id": "carcoral-01",
       "pokemon": "carcoral",
       "presets": [
-          "reef",
-          "underwater"
+        "reef",
+        "underwater"
       ],
       "type": "pokemon",
       "context": "seafloor",
@@ -16,7 +16,9 @@
       "level": "36-58",
       "weight": 0.8,
       "condition": {
-"biomes": [ "#cobblemon:is_warm_ocean" ]
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ]
       }
     }
   ]

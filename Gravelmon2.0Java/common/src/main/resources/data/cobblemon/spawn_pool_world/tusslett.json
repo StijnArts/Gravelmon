@@ -4,11 +4,11 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "tusslett-1",
+      "id": "tusslett-01",
       "pokemon": "tusslett",
       "presets": [
-          "natural",
-          "village"
+        "natural",
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -16,9 +16,12 @@
       "level": "5-25",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_temperate",
-"#cobblemon:is_arid" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_temperate",
+          "#cobblemon:is_arid"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

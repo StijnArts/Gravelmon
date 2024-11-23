@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:echomori",
+  "speciesId": "cobblemon:echomori",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

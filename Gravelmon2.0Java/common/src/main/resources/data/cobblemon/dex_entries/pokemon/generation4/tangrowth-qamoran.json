@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tangrowth-qamoran",
+  "speciesId": "cobblemon:tangrowth",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Qamoran",
+      "unlockForms": [
+        "Qamoran"
+      ]
+    }
+  ],
+  "variations": []
+}

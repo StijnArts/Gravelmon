@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltapichu-1",
+      "id": "delta_pichu-01",
       "pokemon": "pichu delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,11 +15,13 @@
       "level": "2-17",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_highlands" ],
+        "biomes": [
+          "#cobblemon:is_highlands"
+        ],
         "timeRange": "day",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

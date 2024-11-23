@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:larvesta",
+  "forms": [
+    {
+      "displayForm": "Delta",
+      "unlockForms": [
+        "Delta"
+      ]
+    },
+    {
+      "displayForm": "Mythian",
+      "unlockForms": [
+        "Mythian"
+      ]
+    }
+  ]
+}

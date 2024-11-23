@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "avorianroselia-1",
+      "id": "avorian_roselia-01",
       "pokemon": "roselia avorian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,15 +15,16 @@
       "level": "29-40",
       "weight": 0.9,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ]
+        "biomes": [
+          "#cobblemon:nether/is_forest"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "deltaroselia-1",
+      "id": "delta_roselia-01",
       "pokemon": "roselia delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -31,15 +32,16 @@
       "level": "18-30",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ]
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "roseliax-1",
+      "id": "x_roselia-01",
       "pokemon": "roselia x",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -47,15 +49,16 @@
       "level": "21-36",
       "weight": 0.6,
       "condition": {
-"biomes": [ "#minecraft:is_end" ]
+        "biomes": [
+          "#minecraft:is_end"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "ayreianroselia-1",
+      "id": "ayreian_roselia-01",
       "pokemon": "roselia ayreian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -63,16 +66,18 @@
       "level": "29-40",
       "weight": 0.9,
       "condition": {
-"biomes": [ "#cobblemon:is_taiga" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "relicroselia-1",
+      "id": "relic_roselia-01",
       "pokemon": "roselia relic",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -80,11 +85,15 @@
       "level": "29-40",
       "weight": 0.9,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ]
+        "biomes": [
+          "#cobblemon:is_magical"
+        ]
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_floral" ]    }
+        "biomes": [
+          "#cobblemon:is_floral"
+        ]
+      }
     }
-
-]
+  ]
 }

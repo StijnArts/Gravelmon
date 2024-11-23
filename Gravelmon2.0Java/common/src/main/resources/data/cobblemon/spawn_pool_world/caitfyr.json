@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "caitfyr-1",
+      "id": "caitfyr-01",
       "pokemon": "caitfyr",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "17-39",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_volvanic",
-"#cobblemon:is_crimson" ],
+        "biomes": [
+          "#cobblemon:is_volvanic",
+          "#cobblemon:nether/is_crimson"
+        ],
         "timeRange": "night"
       }
     }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltaregice-1",
+      "id": "delta_regice-01",
       "pokemon": "regice delta",
       "presets": [
-          "water_surface"
+        "water_surface"
       ],
       "type": "pokemon",
       "context": "surface",
@@ -15,10 +15,11 @@
       "level": "69-80",
       "weight": 0.003,
       "condition": {
-"biomes": [ "#cobblemon:is_sandy" ],
+        "biomes": [
+          "#cobblemon:is_sandy"
+        ],
         "isThundering": true
       }
     }
-
-]
+  ]
 }

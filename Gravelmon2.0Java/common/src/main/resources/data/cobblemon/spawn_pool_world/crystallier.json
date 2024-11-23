@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "crystallier-1",
+      "id": "crystallier-01",
       "pokemon": "crystallier",
       "presets": [
-          "amethyst_geode"
+        "amethyst_geode"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "35-52",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_dripstone",
-"#cobblemon:is_cave" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_dripstone",
+          "#cobblemon:is_cave"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "handren-1",
+      "id": "handren-01",
       "pokemon": "handren",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,11 +15,17 @@
       "level": "11-34",
       "weight": 0.5,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ],
-        "canSeeSky": true
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_cold_ocean" ]    }
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ]
+      }
     }
   ]
 }

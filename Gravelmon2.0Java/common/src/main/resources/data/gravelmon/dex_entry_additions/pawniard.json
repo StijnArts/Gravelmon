@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:pawniard",
+  "forms": [
+    {
+      "displayForm": "Delta",
+      "unlockForms": [
+        "Delta"
+      ]
+    },
+    {
+      "displayForm": "Hoennian",
+      "unlockForms": [
+        "Hoennian"
+      ]
+    }
+  ]
+}

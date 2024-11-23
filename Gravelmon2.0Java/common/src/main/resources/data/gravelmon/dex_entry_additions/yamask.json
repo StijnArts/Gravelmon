@@ -1,0 +1,23 @@
+{
+  "entryId": "cobblemon:yamask",
+  "forms": [
+    {
+      "displayForm": "Varitasian",
+      "unlockForms": [
+        "Varitasian"
+      ]
+    },
+    {
+      "displayForm": "Delta",
+      "unlockForms": [
+        "Delta"
+      ]
+    },
+    {
+      "displayForm": "X",
+      "unlockForms": [
+        "X"
+      ]
+    }
+  ]
+}

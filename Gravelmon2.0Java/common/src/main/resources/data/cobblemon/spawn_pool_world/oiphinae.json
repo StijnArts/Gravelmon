@@ -4,11 +4,11 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "oiphinae-1",
+      "id": "oiphinae-01",
       "pokemon": "oiphinae",
       "presets": [
-          "near_magma",
-          "underwater"
+        "near_magma",
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -16,8 +16,11 @@
       "level": "21-43",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ],
-        "canSeeSky": true
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

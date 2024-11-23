@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "havaiiangastly-1",
+      "id": "havaiian_gastly-01",
       "pokemon": "gastly havaiian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,17 @@
       "level": "6-31",
       "weight": 5.4,
       "condition": {
-"biomes": [ "#cobblemon:is_volvanic",
-"#cobblemon:is_soul_fire" ]
+        "biomes": [
+          "#cobblemon:is_volvanic",
+          "#cobblemon:nether/is_soul_fire"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "gastlyx-1",
+      "id": "x_gastly-01",
       "pokemon": "gastly x",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,15 +33,16 @@
       "level": "12-22",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#minecraft:is_end" ]
+        "biomes": [
+          "#minecraft:is_end"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "ayreiangastly-1",
+      "id": "ayreian_gastly-01",
       "pokemon": "gastly ayreian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -48,16 +50,17 @@
       "level": "12-22",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_wasteland" ],
+        "biomes": [
+          "#cobblemon:nether/is_wasteland"
+        ],
         "isRaining": true
       }
-    }
-,
+    },
     {
-      "id": "kaskadiangastly-1",
+      "id": "kaskadian_gastly-01",
       "pokemon": "gastly kaskadian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -65,10 +68,11 @@
       "level": "12-22",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_temperate" ],
+        "biomes": [
+          "#cobblemon:is_temperate"
+        ],
         "isRaining": true
       }
     }
-
-]
+  ]
 }

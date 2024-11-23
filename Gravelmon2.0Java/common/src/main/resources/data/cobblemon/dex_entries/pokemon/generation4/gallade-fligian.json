@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gallade-fligian",
+  "speciesId": "cobblemon:gallade",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Fligian",
+      "unlockForms": [
+        "Fligian"
+      ]
+    }
+  ],
+  "variations": []
+}

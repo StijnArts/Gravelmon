@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tropichomp",
+  "speciesId": "cobblemon:tropichomp",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

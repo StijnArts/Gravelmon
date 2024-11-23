@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "corsage-1",
+      "id": "corsage-01",
       "pokemon": "corsage",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "23-41",
       "weight": 1.3,
       "condition": {
-"biomes": [ "#cobblemon:is_floral" ],
+        "biomes": [
+          "#cobblemon:is_floral"
+        ],
         "timeRange": "day",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

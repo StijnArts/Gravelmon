@@ -1,0 +1,23 @@
+{
+  "entryId": "cobblemon:lapras",
+  "forms": [
+    {
+      "displayForm": "Novran",
+      "unlockForms": [
+        "Novran"
+      ]
+    },
+    {
+      "displayForm": "Mythian",
+      "unlockForms": [
+        "Mythian"
+      ]
+    },
+    {
+      "displayForm": "Kaskadian",
+      "unlockForms": [
+        "Kaskadian"
+      ]
+    }
+  ]
+}

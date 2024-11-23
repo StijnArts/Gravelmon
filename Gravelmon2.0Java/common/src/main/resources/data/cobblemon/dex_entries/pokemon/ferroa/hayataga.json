@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:hayataga",
+  "speciesId": "cobblemon:hayataga",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

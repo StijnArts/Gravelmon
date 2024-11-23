@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltavenipede-1",
+      "id": "delta_venipede-01",
       "pokemon": "venipede delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,10 @@
       "level": "6-21",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_wasteland" ]
+        "biomes": [
+          "#cobblemon:nether/is_wasteland"
+        ]
       }
     }
-
-]
+  ]
 }

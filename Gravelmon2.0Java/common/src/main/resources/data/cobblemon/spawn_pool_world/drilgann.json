@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "drilgann-1",
+      "id": "drilgann-01",
       "pokemon": "drilgann",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "34-56",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_plains" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_plains"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

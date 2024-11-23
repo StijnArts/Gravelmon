@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "jigglwiggl-1",
+      "id": "jigglwiggl-01",
       "pokemon": "jigglwiggl",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "7-26",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_mushroom",
-"#cobblemon:is_magical" ]
+        "biomes": [
+          "#cobblemon:is_mushroom",
+          "#cobblemon:is_magical"
+        ]
       }
     }
   ]

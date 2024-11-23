@@ -79,7 +79,6 @@
     }
   },
   "catchRate": 90,
-  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 154,
   "experienceGroup": "medium_fast",
@@ -130,7 +129,7 @@
   "pokedex": [
     "cobblemon.species.cefiranpersianfire.desc"
   ],
-  "preEvolution": "meowth form=cefiranfire",
+  "preEvolution": "meowth form=cefiran_fire",
   "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
@@ -190,7 +189,6 @@
     }
   },
   "catchRate": 90,
-  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 154,
   "experienceGroup": "medium_fast",
@@ -241,7 +239,7 @@
   "pokedex": [
     "cobblemon.species.cefiranpersianice.desc"
   ],
-  "preEvolution": "meowth form=cefiranice",
+  "preEvolution": "meowth form=cefiran_ice",
   "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
@@ -301,7 +299,6 @@
     }
   },
   "catchRate": 90,
-  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 154,
   "experienceGroup": "medium_fast",
@@ -352,7 +349,7 @@
   "pokedex": [
     "cobblemon.species.cefiranpersianelectric.desc"
   ],
-  "preEvolution": "meowth form=cefiranelectric",
+  "preEvolution": "meowth form=cefiran_electric",
   "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,

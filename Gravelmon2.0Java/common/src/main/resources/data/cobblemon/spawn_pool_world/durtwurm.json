@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "durtwurm-1",
+      "id": "durtwurm-01",
       "pokemon": "durtwurm",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,11 +15,17 @@
       "level": "16-29",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_plains" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_plains"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_cold" ]    }
+        "biomes": [
+          "#cobblemon:is_cold"
+        ]
+      }
     }
   ]
 }

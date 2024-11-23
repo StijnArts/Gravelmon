@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:staracula",
+  "speciesId": "cobblemon:staracula",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

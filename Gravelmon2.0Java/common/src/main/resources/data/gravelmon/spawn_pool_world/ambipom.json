@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltaambipom-1",
+      "id": "delta_ambipom-01",
       "pokemon": "ambipom delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,17 @@
       "level": "34-56",
       "weight": 5.4,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ],
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
         "timeRange": "night"
       }
-    }
-,
+    },
     {
-      "id": "relicambipom-1",
+      "id": "relic_ambipom-01",
       "pokemon": "ambipom relic",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,19 +33,23 @@
       "level": "32-48",
       "weight": 0.6,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ]
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_jungle",
-"#cobblemon:is_plains",
-"#cobblemon:is_plateau" ]    }
-    }
-,
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_plains",
+          "#cobblemon:is_plateau"
+        ]
+      }
+    },
     {
-      "id": "kaskadianambipom-1",
+      "id": "kaskadian_ambipom-01",
       "pokemon": "ambipom kaskadian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -52,12 +57,16 @@
       "level": "32-48",
       "weight": 0.6,
       "condition": {
-"biomes": [ "#cobblemon:is_mountain",
-"#cobblemon:is_volvanic" ]
+        "biomes": [
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_volvanic"
+        ]
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_forest" ]    }
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
+      }
     }
-
-]
+  ]
 }

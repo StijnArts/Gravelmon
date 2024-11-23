@@ -1,0 +1,23 @@
+{
+  "entryId": "cobblemon:koffing",
+  "forms": [
+    {
+      "displayForm": "Qamoran",
+      "unlockForms": [
+        "Qamoran"
+      ]
+    },
+    {
+      "displayForm": "Delta",
+      "unlockForms": [
+        "Delta"
+      ]
+    },
+    {
+      "displayForm": "Relic",
+      "unlockForms": [
+        "Relic"
+      ]
+    }
+  ]
+}

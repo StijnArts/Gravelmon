@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "terrahorn-1",
+      "id": "terrahorn-01",
       "pokemon": "terrahorn",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "41-65",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_lush" ]
+        "biomes": [
+          "#cobblemon:is_lush"
+        ]
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "necromanos-1",
+      "id": "necromanos-01",
       "pokemon": "necromanos",
       "presets": [
-          "mansion"
+        "mansion"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "45-58",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

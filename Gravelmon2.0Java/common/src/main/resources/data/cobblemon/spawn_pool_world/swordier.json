@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "swordier-1",
+      "id": "swordier-01",
       "pokemon": "swordier",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,11 +15,17 @@
       "level": "36-58",
       "weight": 0.8,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ],
-        "canSeeSky": true
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_warm_ocean" ]    }
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ]
+      }
     }
   ]
 }

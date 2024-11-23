@@ -1,6 +1,6 @@
 {
   "implemented": true,
-  "name": "chimaooze",
+  "name": "Chimaooze",
   "nationalPokedexNumber": 2160,
   "primaryType": "poison",
   "secondaryType": "ground",
@@ -45,7 +45,7 @@
       "secondaryType": "fighting",
       "abilities": [
     "keeneye"      ],
-      "baseScale": 1.4625,
+      "baseScale": 1.4,
         "hitbox": {
           "width": 6.0,
           "height": 6.0,

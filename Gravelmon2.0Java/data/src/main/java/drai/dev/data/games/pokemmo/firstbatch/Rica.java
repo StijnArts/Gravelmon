@@ -15,152 +15,153 @@ public class Rica extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new Cotylit());
-        pokemon.add(new Cotyleaf());
-        pokemon.add(new Nymphlora());
-        pokemon.add(new Bunfin());
-        pokemon.add(new Arsinge());
-        pokemon.add(new Rupsen());
-        pokemon.add(new Mirmoor());
-        pokemon.add(new Sloowin());
-        pokemon.add(new Atrocean());
-        pokemon.add(new Skurrel());
-        pokemon.add(new Sparskia());
-        pokemon.add(new Sparruff());
-        pokemon.add(new Wingale());
-        pokemon.add(new Yuvirro());
-        pokemon.add(new Archick());
-        pokemon.add(new Terundra());
-        pokemon.add(new Pupsea());
-        pokemon.add(new Blubbark());
-        pokemon.add(new Sealord());
-        pokemon.add(new Merjestic());
-        pokemon.add(new Cyton());
-        pokemon.add(new Kaidon());
-        pokemon.add(new Skunfume());
-        pokemon.add(new Perfessence());
-        pokemon.add(new Tinion());
-        pokemon.add(new Onioni());
-        pokemon.add(new Leekadon());
-        pokemon.add(new Larmidge());
-        pokemon.add(new Dormidge());
-        pokemon.add(new Chirmidge());
-        pokemon.add(new Ostrodd());
-        pokemon.add(new Orbizarre());
-        pokemon.add(new Tadport());
-        pokemon.add(new Psionewt());
-        pokemon.add(new Desmodon());
-        pokemon.add(new Leaflit());
-        pokemon.add(new Fauxiage());
-        pokemon.add(new Fluffaux());
-        pokemon.add(new Lepillusion());
-        pokemon.add(new Tapirunt());
-        pokemon.add(new Voltapir());
-        pokemon.add(new Odonymph());
-        pokemon.add(new Nymbide());
-        pokemon.add(new Dranax());
-        pokemon.add(new Skulmet());
-        pokemon.add(new Femurk());
-        pokemon.add(new Foromen());
-        pokemon.add(new Chirpunch());
-        pokemon.add(new Taekowl());
-        pokemon.add(new Minilith());
-        pokemon.add(new Bolstone());
-        pokemon.add(new Terrouldite());
-        pokemon.add(new Cosmite());
-        pokemon.add(new Shiverel());
-        pokemon.add(new Stoatzen());
-        pokemon.add(new Trinctite());
-        pokemon.add(new Crystallier());
-        pokemon.add(new Garrachnid());
-        pokemon.add(new Anau());
-        pokemon.add(new Sunole());
-        pokemon.add(new Baskilisk());
-        pokemon.add(new Solana());
-        pokemon.add(new Tusslett());
-        pokemon.add(new Rufooster());
-        pokemon.add(new Odorable());
-        pokemon.add(new Rabite());
-        pokemon.add(new Bubbweed());
-        pokemon.add(new Drifsea());
-        pokemon.add(new Starphin());
-        pokemon.add(new Lunorca());
-        pokemon.add(new Gupplash());
-        pokemon.add(new Arowish());
-        pokemon.add(new Tarspook());
-        pokemon.add(new Spookaye());
+        addNewPokemon(new Cotylit());
+        addNewPokemon(new Cotyleaf());
+        addNewPokemon(new Nymphlora());
+        addNewPokemon(new Bunfin());
+        addNewPokemon(new Arsinge());
+        addNewPokemon(new Rupsen());
+        addNewPokemon(new Mirmoor().fishingSpawnFromExisting());
+        addNewPokemon(new Sloowin());
+        addNewPokemon(new Atrocean());
+        addNewPokemon(new Skurrel());
+        addNewPokemon(new Sparskia());
+        addNewPokemon(new Sparruff());
+        addNewPokemon(new Wingale());
+        addNewPokemon(new Yuvirro());
+        addNewPokemon(new Archick());
+        addNewPokemon(new Terundra());
+        addNewPokemon(new Pupsea());
+        addNewPokemon(new Blubbark());
+        addNewPokemon(new Sealord());
+        addNewPokemon(new Merjestic());
+        addNewPokemon(new Cyton());
+        addNewPokemon(new Kaidon());
+        addNewPokemon(new Skunfume());
+        addNewPokemon(new Perfessence());
+        addNewPokemon(new Tinion());
+        addNewPokemon(new Onioni());
+        addNewPokemon(new Leekadon());
+        addNewPokemon(new Larmidge());
+        addNewPokemon(new Dormidge());
+        addNewPokemon(new Chirmidge());
+        addNewPokemon(new Ostrodd().fishingSpawnFromExisting());
+        addNewPokemon(new Orbizarre());
+        addNewPokemon(new Tadport());
+        addNewPokemon(new Psionewt());
+        addNewPokemon(new Desmodon());
+        addNewPokemon(new Leaflit());
+        addNewPokemon(new Fauxiage());
+        addNewPokemon(new Fluffaux());
+        addNewPokemon(new Lepillusion());
+        addNewPokemon(new Tapirunt());
+        addNewPokemon(new Voltapir());
+        addNewPokemon(new Odonymph());
+        addNewPokemon(new Nymbide());
+        addNewPokemon(new Dranax());
+        addNewPokemon(new Skulmet());
+        addNewPokemon(new Femurk());
+        addNewPokemon(new Foromen());
+        addNewPokemon(new Chirpunch());
+        addNewPokemon(new Taekowl());
+        addNewPokemon(new Minilith());
+        addNewPokemon(new Bolstone());
+        addNewPokemon(new Terrouldite());
+        addNewPokemon(new Cosmite());
+        addNewPokemon(new Shiverel());
+        addNewPokemon(new Stoatzen());
+        addNewPokemon(new Trinctite());
+        addNewPokemon(new Crystallier());
+        addNewPokemon(new Garrachnid());
+        addNewPokemon(new Anau());
+        addNewPokemon(new Sunole());
+        addNewPokemon(new Baskilisk());
+        addNewPokemon(new Solana());
+        addNewPokemon(new Tusslett());
+        addNewPokemon(new Rufooster());
+        addNewPokemon(new Odorable());
+        addNewPokemon(new Rabite());
+        addNewPokemon(new Bubbweed().fishingSpawnFromExisting());
+        addNewPokemon(new Drifsea());
+        addNewPokemon(new Starphin().fishingSpawnFromExisting());
+        addNewPokemon(new Lunorca().fishingSpawnFromExisting());
+        addNewPokemon(new Gupplash().fishingSpawnFromExisting());
+        addNewPokemon(new Arowish().fishingSpawnFromExisting());
+        addNewPokemon(new Tarspook());
+        addNewPokemon(new Spookaye());
 
-        pokemon.add(new Fleetle());
-        pokemon.add(new Vorasect());
-        pokemon.add(new Crabot());
-        pokemon.add(new Craborg());
-        pokemon.add(new Mambolt());
-        pokemon.add(new Anaconduct());
-        pokemon.add(new Colobud());
-        pokemon.add(new Makakari());
-        pokemon.add(new Embear());
-        pokemon.add(new Bearserk());
-        pokemon.add(new Fumabor());
-        pokemon.add(new Crocoil());
-        pokemon.add(new Platypoint());
-        pokemon.add(new Platoxic());
-        pokemon.add(new Siamouth());
-        pokemon.add(new Toxito());
-        pokemon.add(new Leaflow());
-        pokemon.add(new Plecobble());
-        pokemon.add(new Granikan());
-        pokemon.add(new Spinox());
-        pokemon.add(new Impuck());
-        pokemon.add(new Impifaun());
-        pokemon.add(new Leptric());
-        pokemon.add(new Energeel());
-        pokemon.add(new Mermew());
-        pokemon.add(new Clampurr());
-        pokemon.add(new Welking());
-//        pokemon.add(new Amourish()); //Missing Art
-//        pokemon.add(new Glamoreef()); //Missing Art
-        pokemon.add(new Sweetoad());
-        pokemon.add(new Spoocap());
-        pokemon.add(new Sporror());
-        pokemon.add(new Bloogoo());
-        pokemon.add(new Lazyrd());
-        pokemon.add(new Ampeck());
-        pokemon.add(new Boombird());
+        addNewPokemon(new Fleetle());
+        addNewPokemon(new Vorasect());
+        addNewPokemon(new Crabot());
+        addNewPokemon(new Craborg());
+        addNewPokemon(new Mambolt());
+        addNewPokemon(new Anaconduct());
+        addNewPokemon(new Colobud());
+        addNewPokemon(new Makakari());
+        addNewPokemon(new Embear());
+        addNewPokemon(new Bearserk());
+        addNewPokemon(new Fumabor());
+        addNewPokemon(new Crocoil().fishingSpawnFromExisting());
+        addNewPokemon(new Platypoint());
+        addNewPokemon(new Platoxic());
+        addNewPokemon(new Siamouth().fishingSpawnFromExisting());
+        addNewPokemon(new Toxito());
+        addNewPokemon(new Leaflow());
+        addNewPokemon(new Plecobble());
+        addNewPokemon(new Granikan());
+        addNewPokemon(new Spinox());
+        addNewPokemon(new Impuck());
+        addNewPokemon(new Impifaun());
+        addNewPokemon(new Leptric().fishingSpawnFromExisting());
+        addNewPokemon(new Energeel().fishingSpawnFromExisting());
+        addNewPokemon(new Mermew());
+        addNewPokemon(new Clampurr());
+        addNewPokemon(new Welking());
+//        pokemon.add(new Amourish().fishingSpawnFromExisting()); //Missing Art //TOdo has art
+//        pokemon.add(new Glamoreef().fishingSpawnFromExisting()); //Missing Art
+        addPokedexPokemon("shellos-rican, gastrodon-rican");
+        addNewPokemon(new Sweetoad());
+        addNewPokemon(new Spoocap());
+        addNewPokemon(new Sporror());
+        addNewPokemon(new Bloogoo());
+        addNewPokemon(new Lazyrd());
+        addNewPokemon(new Ampeck());
+        addNewPokemon(new Boombird());
 //        pokemon.add(new mara()); //Missing Art
 //        pokemon.add(new Torkit()); //Member of Line not Finished
 //        pokemon.add(new Scimitear()); //Missing Art
 //        pokemon.add(new Seroseed());//Missing Art
 //        pokemon.add(new Conipine());//Missing Art
-        pokemon.add(new Ailember());
-        pokemon.add(new Genetorch());
+        addNewPokemon(new Ailember());
+        addNewPokemon(new Genetorch());
 //        pokemon.add(new Wasplode()); //Missing Art
-        pokemon.add(new Pichip());
-        pokemon.add(new Shifuu());
-        pokemon.add(new Delibo());
-        pokemon.add(new Helibo());
-        pokemon.add(new Drocopter());
-        pokemon.add(new Coliber());
-        pokemon.add(new Coliboom());
+        addNewPokemon(new Pichip());
+        addNewPokemon(new Shifuu());
+        addNewPokemon(new Delibo());
+        addNewPokemon(new Helibo());
+        addNewPokemon(new Drocopter());
+        addNewPokemon(new Coliber());
+        addNewPokemon(new Coliboom());
 //        pokemon.add(new Dracoma()); //Missing Art
 //        pokemon.add(new Atmotail()); //Missing Art
 //        pokemon.add(new Predapex()); //Missing Art
-        pokemon.add(new Barnub());
-        pokemon.add(new Detritan());
-        pokemon.add(new Moreel());
-        pokemon.add(new Darscale());
+        addNewPokemon(new Barnub());
+        addNewPokemon(new Detritan());
+        addNewPokemon(new Moreel().fishingSpawnFromExisting());
+        addNewPokemon(new Darscale().fishingSpawnFromExisting());
 //        pokemon.add(new tubeworm()); //Missing Art
-//        pokemon.add(new Toratoll()); //Member of Line not Finished
+//        pokemon.add(new Toratoll().fishingSpawnFromExisting()); //Member of Line not Finished
 //        pokemon.add(new Arcain()); //Missing Art
-        pokemon.add(new Fridgid());
-        pokemon.add(new Cirritwirl());
-        pokemon.add(new Torricane());
-        pokemon.add(new Pixiflake());
-        pokemon.add(new Wyvet());
-        pokemon.add(new Draybow());
-        pokemon.add(new Delphair());
-        pokemon.add(new Aerocea());
-        pokemon.add(new Tardidure());
-        pokemon.add(new Etornal());
+        addNewPokemon(new Fridgid().fishingSpawnFromExisting());
+        addNewPokemon(new Cirritwirl());
+        addNewPokemon(new Torricane());
+        addNewPokemon(new Pixiflake());
+        addNewPokemon(new Wyvet());
+        addNewPokemon(new Draybow());
+        addNewPokemon(new Delphair());
+        addNewPokemon(new Aerocea());
+        addNewPokemon(new Tardidure());
+        addNewPokemon(new Etornal());
 //        pokemon.add(new Hyaenom()); //Member of Line not Finished
 //        pokemon.add(new Ravidont()); //Missing Art
 //        pokemon.add(new Sarcrush()); //Member of Line not Finished
@@ -171,10 +172,10 @@ public class Rica extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Darabble()); //Member of Line not Finished
 //        pokemon.add(new Rovorage()); //Missing Art
 //        pokemon.add(new Helluster()); //Member of Line not Finished
-        pokemon.add(new Tunnelid());
+        addNewPokemon(new Tunnelid());
 //        pokemon.add(new Yamiju()); //Missing Art
 //        pokemon.add(new Taranturem()); //Missing Art
-        pokemon.add(new Solios());
+        addNewPokemon(new Solios());
 
     }
 

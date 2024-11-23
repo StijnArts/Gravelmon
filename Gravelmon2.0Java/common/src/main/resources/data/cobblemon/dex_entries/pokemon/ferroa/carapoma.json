@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:carapoma",
+  "speciesId": "cobblemon:carapoma",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:azumarill",
+  "forms": [
+    {
+      "displayForm": "Egho",
+      "unlockForms": [
+        "Egho"
+      ]
+    },
+    {
+      "displayForm": "Kaskadian",
+      "unlockForms": [
+        "Kaskadian"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:blissey",
+  "forms": [
+    {
+      "displayForm": "Fligian",
+      "unlockForms": [
+        "Fligian"
+      ]
+    },
+    {
+      "displayForm": "Egho",
+      "unlockForms": [
+        "Egho"
+      ]
+    }
+  ]
+}

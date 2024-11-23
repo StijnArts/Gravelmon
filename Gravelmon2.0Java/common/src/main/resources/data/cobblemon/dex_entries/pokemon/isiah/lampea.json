@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lampea",
+  "speciesId": "cobblemon:lampea",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

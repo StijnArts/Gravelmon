@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:carchankle",
+  "speciesId": "cobblemon:carchankle",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "malloon-1",
+      "id": "malloon-01",
       "pokemon": "malloon",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "27-45",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_sky" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_sky"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:dubwool",
+  "forms": [
+    {
+      "displayForm": "Novran",
+      "unlockForms": [
+        "Novran"
+      ]
+    },
+    {
+      "displayForm": "Kaskadian",
+      "unlockForms": [
+        "Kaskadian"
+      ]
+    }
+  ]
+}

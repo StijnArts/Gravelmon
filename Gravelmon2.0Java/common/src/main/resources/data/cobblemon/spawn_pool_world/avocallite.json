@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "avocallite-1",
+      "id": "avocallite-01",
       "pokemon": "avocallite",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "28-43",
       "weight": 0.4,
       "condition": {
-"biomes": [ "#cobblemon:is_tropical" ],
+        "biomes": [
+          "#cobblemon:is_tropical"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "piessano-1",
+      "id": "piessano-01",
       "pokemon": "piessano",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "23-45",
       "weight": 0.8,
       "condition": {
-"biomes": [ "#cobblemon:is_tropical" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_tropical"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

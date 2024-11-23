@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "sandridger-1",
+      "id": "sandridger-01",
       "pokemon": "sandridger",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "40-54",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_arid",
-"#cobblemon:is_desert" ]
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_desert"
+        ]
       }
     }
   ]

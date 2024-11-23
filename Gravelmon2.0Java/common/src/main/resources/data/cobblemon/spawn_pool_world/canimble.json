@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "canimble-1",
+      "id": "canimble-01",
       "pokemon": "canimble",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "3-22",
       "weight": 7.0,
       "condition": {
-"biomes": [ "#cobblemon:is_savanna" ],
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ],
         "isRaining": true,
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

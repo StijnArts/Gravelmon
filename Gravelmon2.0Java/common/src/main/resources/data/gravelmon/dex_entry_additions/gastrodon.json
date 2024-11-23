@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:gastrodon",
+  "forms": [
+    {
+      "displayForm": "Fligian",
+      "unlockForms": [
+        "Fligian"
+      ]
+    },
+    {
+      "displayForm": "Rican",
+      "unlockForms": [
+        "Rican"
+      ]
+    }
+  ]
+}

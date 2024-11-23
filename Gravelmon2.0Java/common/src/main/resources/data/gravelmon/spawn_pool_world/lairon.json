@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "hizianlairon-1",
+      "id": "hizian_lairon-01",
       "pokemon": "lairon hizian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,17 +15,19 @@
       "level": "32-50",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_desert",
-"#cobblemon:is_badlands" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_desert",
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "deltalairon-1",
+      "id": "delta_lairon-01",
       "pokemon": "lairon delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -33,27 +35,24 @@
       "level": "30-49",
       "weight": 0.7,
       "condition": {
-"biomes": [ "#cobblemon:is_soul_sand",
-"#cobblemon:is_soul_fire",
-"#cobblemon:is_basalt" ]
+        "biomes": [
+          "#cobblemon:nether/is_soul_sand",
+          "#cobblemon:nether/is_soul_fire",
+          "#cobblemon:nether/is_basalt"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "ayreianlairon-1",
+      "id": "ayreian_lairon-01",
       "pokemon": "lairon ayreian",
       "presets": [
-          "near_lava"
+        "near_lava"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
       "level": "32-50",
-      "weight": 2.0,
-      "condition": {
-
-      }
+      "weight": 2.0
     }
-
-]
+  ]
 }

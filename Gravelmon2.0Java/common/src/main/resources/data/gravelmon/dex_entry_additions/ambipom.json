@@ -1,0 +1,23 @@
+{
+  "entryId": "cobblemon:ambipom",
+  "forms": [
+    {
+      "displayForm": "Delta",
+      "unlockForms": [
+        "Delta"
+      ]
+    },
+    {
+      "displayForm": "Relic",
+      "unlockForms": [
+        "Relic"
+      ]
+    },
+    {
+      "displayForm": "Kaskadian",
+      "unlockForms": [
+        "Kaskadian"
+      ]
+    }
+  ]
+}

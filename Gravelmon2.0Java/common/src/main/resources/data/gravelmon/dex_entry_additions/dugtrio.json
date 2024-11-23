@@ -1,0 +1,35 @@
+{
+  "entryId": "cobblemon:dugtrio",
+  "forms": [
+    {
+      "displayForm": "Nostan",
+      "unlockForms": [
+        "Nostan"
+      ]
+    },
+    {
+      "displayForm": "Norheiman",
+      "unlockForms": [
+        "Norheiman"
+      ]
+    },
+    {
+      "displayForm": "Delta",
+      "unlockForms": [
+        "Delta"
+      ]
+    },
+    {
+      "displayForm": "Ayreian",
+      "unlockForms": [
+        "Ayreian"
+      ]
+    },
+    {
+      "displayForm": "Cefiran",
+      "unlockForms": [
+        "Cefiran"
+      ]
+    }
+  ]
+}

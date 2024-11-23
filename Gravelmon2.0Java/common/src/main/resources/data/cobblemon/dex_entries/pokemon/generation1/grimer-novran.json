@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:grimer-novran",
+  "speciesId": "cobblemon:grimer",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Novran",
+      "unlockForms": [
+        "Novran"
+      ]
+    }
+  ],
+  "variations": []
+}

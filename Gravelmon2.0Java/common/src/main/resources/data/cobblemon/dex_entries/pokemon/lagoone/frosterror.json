@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:frosterror",
+  "speciesId": "cobblemon:frosterror",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

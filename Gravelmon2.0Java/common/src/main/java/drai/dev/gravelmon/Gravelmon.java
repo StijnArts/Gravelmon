@@ -20,8 +20,6 @@ public class Gravelmon
 	public static final Map<String, String> FOSSIL_MAP = new HashMap<>();
 	public static final Map<String, Supplier<Item>> FOSSIL_ITEM_MAP = new HashMap<>();
 
-
-
 	public static void init() {
 		GravelmonBlocks.touch();
 		GravelmonItems.touch();

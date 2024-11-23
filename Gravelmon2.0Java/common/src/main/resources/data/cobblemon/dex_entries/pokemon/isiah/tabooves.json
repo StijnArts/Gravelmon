@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tabooves",
+  "speciesId": "cobblemon:tabooves",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "hizianmisdreavus-1",
+      "id": "hizian_misdreavus-01",
       "pokemon": "misdreavus hizian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,18 +15,20 @@
       "level": "19-44",
       "weight": 5.4,
       "condition": {
-"biomes": [ "#cobblemon:is_island",
-"#cobblemon:is_jungle" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_island",
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       }
-    }
-,
+    },
     {
-      "id": "deltamisdreavus-1",
+      "id": "delta_misdreavus-01",
       "pokemon": "misdreavus delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,12 +36,16 @@
       "level": "14-43",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cold" ],
+        "biomes": [
+          "#cobblemon:is_cold"
+        ],
         "timeRange": "night"
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_spooky" ]    }
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      }
     }
-
-]
+  ]
 }

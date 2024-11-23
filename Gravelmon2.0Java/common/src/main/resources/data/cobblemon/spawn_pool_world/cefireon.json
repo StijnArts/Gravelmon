@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "cefireon-1",
+      "id": "cefireon-01",
       "pokemon": "cefireon",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "44-56",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_savanna" ],
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ],
         "timeRange": "day",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

@@ -1,7 +1,7 @@
 {
   "implemented": true,
-  "name": "bulkpack",
-  "nationalPokedexNumber": 5119,
+  "name": "Bulkpack",
+  "nationalPokedexNumber": 5122,
   "primaryType": "fighting",
   "abilities": [
     "pickup",

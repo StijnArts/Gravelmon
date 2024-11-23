@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:slakoth-fligian",
+  "speciesId": "cobblemon:slakoth",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Fligian",
+      "unlockForms": [
+        "Fligian"
+      ]
+    }
+  ],
+  "variations": []
+}

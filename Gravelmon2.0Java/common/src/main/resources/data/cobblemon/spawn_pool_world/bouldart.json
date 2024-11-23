@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "bouldart-1",
+      "id": "bouldart-01",
       "pokemon": "bouldart",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "32-46",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_mountain",
-"#cobblemon:is_cave" ]
+        "biomes": [
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_cave"
+        ]
       }
     }
   ]

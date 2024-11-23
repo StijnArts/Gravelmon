@@ -40,7 +40,6 @@
     }
   },
   "catchRate": 60,
-  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 174,
   "experienceGroup": "fluctuating",
@@ -207,7 +206,6 @@
     }
   },
   "catchRate": 60,
-  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 174,
   "experienceGroup": "fluctuating",
@@ -329,146 +327,9 @@
   "weight": 150,
   "aspects": ["ayreian"],
   "cannotDynamax": false
-},
-{
-  "name": "Amazeall",
-  "primaryType": "ghost",
-  "secondaryType": "steel",
-  "abilities": [
-    "pickup",
-    "levitate"  ],
-  "baseStats": {
-    "hp": 150,
-    "attack": 70,
-    "defence": 44,
-    "special_attack": 80,
-    "special_defence": 54,
-    "speed": 100
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 174,
-  "experienceGroup": "fluctuating",
-  "eggCycles": 51,
-  "eggGroups": [
-    "amorphous"
-  ],
-  "moves": [
-    "1:astonish",
-    "1:focusenergy",
-    "1:gust",
-    "1:minimize",
-    "1:strengthsap",
-    "12:steelwing",
-    "16:hex",
-    "20:shadowball",
-    "24:ironhead",
-    "31:selfdestruct",
-    "36:flashcannon",
-    "42:batonpass",
-    "48:tailwind",
-    "54:explosion",
-    "egg:clearsmog",
-    "egg:defog",
-    "egg:disable",
-    "egg:haze",
-    "egg:hypnosis",
-    "egg:memento",
-    "tm:protect",
-    "tm:autotomize",
-    "tm:psybeam",
-    "tm:thief",
-    "tm:facade",
-    "tm:steelwing",
-    "tm:hex",
-    "tm:swift",
-    "tm:icywind",
-    "tm:aircutter",
-    "tm:storedpower",
-    "tm:nightshade",
-    "tm:fling",
-    "tm:endure",
-    "tm:sunnyday",
-    "tm:raindance",
-    "tm:airslash",
-    "tm:bodyslam",
-    "tm:sleeptalk",
-    "tm:thunderwave",
-    "tm:rest",
-    "tm:imprison",
-    "tm:fly",
-    "tm:skillswap",
-    "tm:substitute",
-    "tm:willowisp",
-    "tm:trick",
-    "tm:tailwind",
-    "tm:shadowball",
-    "tm:psychic",
-    "tm:thunderbolt",
-    "tm:amnesia",
-    "tm:calmmind",
-    "tm:helpinghand",
-    "tm:batonpass",
-    "tm:phantomforce",
-    "tm:gigaimpact",
-    "tm:trickroom",
-    "tm:hyperbeam",
-    "tm:thunder",
-    "tm:terablast"  ],
-  "labels": [
-    "lockemon",
-    "gen4",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.amazealldrifblim.desc"
-  ],
-  "baseScale": 0.19999999999999998,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 12,
-  "weight": 150,
-  "aspects": ["amaze_all"],
-  "cannotDynamax": false
 }
 ], "features": [
 "delta",
-"ayreian",
-"amaze_all"
+"ayreian"
   ]
 }

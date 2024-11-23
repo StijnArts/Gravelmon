@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "balacier-1",
+      "id": "balacier-01",
       "pokemon": "balacier",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,7 +15,9 @@
       "level": "44-65",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_frozen" ]
+        "biomes": [
+          "#cobblemon:is_frozen"
+        ]
       }
     }
   ]

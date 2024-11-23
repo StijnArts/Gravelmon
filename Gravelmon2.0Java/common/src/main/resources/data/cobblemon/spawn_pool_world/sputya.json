@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "sputya-1",
+      "id": "sputya-01",
       "pokemon": "sputya",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,7 +15,9 @@
       "level": "44-67",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky" ],
+        "biomes": [
+          "#cobblemon:is_sky"
+        ],
         "minY": 200
       }
     }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "terundra-1",
+      "id": "terundra-01",
       "pokemon": "terundra",
       "presets": [
-          "water_surface"
+        "water_surface"
       ],
       "type": "pokemon",
       "context": "surface",
@@ -15,9 +15,12 @@
       "level": "22-45",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_beach",
-"#cobblemon:is_cold" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_beach",
+          "#cobblemon:is_cold"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

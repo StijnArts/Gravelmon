@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "snuffellow-1",
+      "id": "snuffellow-01",
       "pokemon": "snuffellow",
       "presets": [
-          "near_lava"
+        "near_lava"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,11 @@
       "level": "3-22",
       "weight": 3.8,
       "condition": {
-"biomes": [ "#cobblemon:is_volvanic",
-"#cobblemon:is_basalt",
-"#cobblemon:is_wasteland" ]
+        "biomes": [
+          "#cobblemon:is_volvanic",
+          "#cobblemon:nether/is_basalt",
+          "#cobblemon:nether/is_wasteland"
+        ]
       }
     }
   ]

@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:impidimp",
+  "forms": [
+    {
+      "displayForm": "Novran",
+      "unlockForms": [
+        "Novran"
+      ]
+    },
+    {
+      "displayForm": "Varitasian",
+      "unlockForms": [
+        "Varitasian"
+      ]
+    }
+  ]
+}

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "puffume-1",
+      "id": "puffume-01",
       "pokemon": "puffume",
       "presets": [
-          "mansion"
+        "mansion"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "12-39",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_badlands",
-"#cobblemon:is_sky" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_sky"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

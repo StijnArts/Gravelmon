@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "lumishroom-1",
+      "id": "lumishroom-01",
       "pokemon": "lumishroom",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "3-28",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_lush",
-"#cobblemon:is_mushroom" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_lush",
+          "#cobblemon:is_mushroom"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:behitle",
+  "speciesId": "cobblemon:behitle",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

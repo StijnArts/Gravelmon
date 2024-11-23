@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "raunny-1",
+      "id": "raunny-01",
       "pokemon": "raunny",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,11 @@
       "level": "3-22",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cave",
-"#cobblemon:is_highlands",
-"#cobblemon:is_mountain" ]
+        "biomes": [
+          "#cobblemon:is_cave",
+          "#cobblemon:is_highlands",
+          "#cobblemon:is_mountain"
+        ]
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "toxapexx-1",
+      "id": "x_toxapex-01",
       "pokemon": "toxapex x",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,15 +15,16 @@
       "level": "38-57",
       "weight": 0.7,
       "condition": {
-"biomes": [ "#minecraft:is_end" ]
+        "biomes": [
+          "#minecraft:is_end"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "hoenniantoxapex-1",
+      "id": "hoennian_toxapex-01",
       "pokemon": "toxapex hoennian",
       "presets": [
-          "amethyst_geode"
+        "amethyst_geode"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -31,9 +32,9 @@
       "level": "40-55",
       "weight": 0.9,
       "condition": {
-        "canSeeSky": false
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
-
-]
+  ]
 }

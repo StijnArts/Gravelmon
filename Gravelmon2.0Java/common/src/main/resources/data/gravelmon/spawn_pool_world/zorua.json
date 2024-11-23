@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mythianzorua-1",
+      "id": "mythian_zorua-01",
       "pokemon": "zorua mythian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,18 +15,19 @@
       "level": "15-25",
       "weight": 9.0,
       "condition": {
-"biomes": [ "#cobblemon:is_desert",
-"#cobblemon:is_volvanic",
-"#cobblemon:is_soul_fire" ],
+        "biomes": [
+          "#cobblemon:is_desert",
+          "#cobblemon:is_volvanic",
+          "#cobblemon:nether/is_soul_fire"
+        ],
         "timeRange": "night"
       }
-    }
-,
+    },
     {
-      "id": "alteranzorua-1",
+      "id": "alteran_zorua-01",
       "pokemon": "zorua alteran",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,10 +35,11 @@
       "level": "15-25",
       "weight": 9.0,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
         "timeRange": "night"
       }
     }
-
-]
+  ]
 }

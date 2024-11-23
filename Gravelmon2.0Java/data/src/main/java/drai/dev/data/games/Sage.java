@@ -3,7 +3,6 @@ package drai.dev.data.games;
 import drai.dev.data.games.registry.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.sage.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Sage extends Game {
 
@@ -15,433 +14,433 @@ public class Sage extends Game {
     @Override
     public void registerPokemon() {
         //Foliat Line
-        pokemon.add(new Foliat());
-        pokemon.add(new Florabri());
-        pokemon.add(new Floressum());
+        addNewPokemon(new Foliat());
+        addNewPokemon(new Florabri());
+        addNewPokemon(new Floressum());
 
         //Kidling line
-        pokemon.add(new Kidling());
-        pokemon.add(new Pyroat());
-        pokemon.add(new Flairees());
+        addNewPokemon(new Kidling());
+        addNewPokemon(new Pyroat());
+        addNewPokemon(new Flairees());
 
         //Aguade line
-        pokemon.add(new Aguade());
-        pokemon.add(new Iguadium());
-        pokemon.add(new Aguanaut());
+        addNewPokemon(new Aguade().fishingSpawnFromExisting());
+        addNewPokemon(new Iguadium());
+        addNewPokemon(new Aguanaut());
 
         //Harpee line
-        pokemon.add(new Harpee());
-        pokemon.add(new Aquilor());
-        pokemon.add(new Warquila());
+        addNewPokemon(new Harpee());
+        addNewPokemon(new Aquilor());
+        addNewPokemon(new Warquila());
 
         //Capig line
-        pokemon.add(new Capig());
-        pokemon.add(new Capabara());
+        addNewPokemon(new Capig());
+        addNewPokemon(new Capabara());
 
         //Avalynx line
-        pokemon.add(new Cubzero());
-        pokemon.add(new Avalynx());
+        addNewPokemon(new Cubzero());
+        addNewPokemon(new Avalynx());
 
         //Fawning line
-        pokemon.add(new Fawning());
-        pokemon.add(new Llamarsh());
-        pokemon.add(new Buckston());
+        addNewPokemon(new Fawning());
+        addNewPokemon(new Llamarsh());
+        addNewPokemon(new Buckston());
 
         //Pengliff line
-        pokemon.add(new Pengliff());
-        pokemon.add(new Penglacier());
+        addNewPokemon(new Pengliff());
+        addNewPokemon(new Penglacier());
 
         //Bluffin Line
-        pokemon.add(new Bluffin());
-        pokemon.add(new Burrmudail());
+        addNewPokemon(new Bluffin());
+        addNewPokemon(new Burrmudail());
 
         //Koblin line
-        pokemon.add(new Koblin());
-        pokemon.add(new Koberus());
-        pokemon.add(new Kobalt());
+        addNewPokemon(new Koblin());
+        addNewPokemon(new Koberus());
+        addNewPokemon(new Kobalt());
 
         //Pebblosa line
-        pokemon.add(new Pebblosa());
-        pokemon.add(new Terratetra());
-        pokemon.add(new Gigaard());
+        addNewPokemon(new Pebblosa());
+        addNewPokemon(new Terratetra());
+        addNewPokemon(new Gigaard());
 
-        pokemon.add(new Cowatti());
+        addNewPokemon(new Cowatti());
 
         //Snome Line
-        pokemon.add(new Snome());
-        pokemon.add(new Snogre());
+        addNewPokemon(new Snome());
+        addNewPokemon(new Snogre());
 
         //Taomarin Line
-        pokemon.add(new Taomarin());
-        pokemon.add(new Orangutao());
+        addNewPokemon(new Taomarin());
+        addNewPokemon(new Orangutao());
 
         //Larvabidae Line
-        pokemon.add(new Larvabidae());
-        pokemon.add(new Caranox());
-        pokemon.add(new Carajoule());
-        pokemon.add(new Caracrust());
+        addNewPokemon(new Larvabidae());
+        addNewPokemon(new Caranox());
+        addNewPokemon(new Carajoule());
+        addNewPokemon(new Caracrust());
 
         //Musburry Line
-        pokemon.add(new Musburry());
-        pokemon.add(new Musbushel());
+        addNewPokemon(new Musburry());
+        addNewPokemon(new Musbushel());
 
-        pokemon.add(new Berratel());
+        addNewPokemon(new Berratel());
 
         //Growmeo line
-        pokemon.add(new Growmeo());
-        pokemon.add(new Montegrew());
+        addNewPokemon(new Growmeo());
+        addNewPokemon(new Montegrew());
 
         //Tuliep line
-        pokemon.add(new Tuliep());
-        pokemon.add(new Capulilly());
+        addNewPokemon(new Tuliep());
+        addNewPokemon(new Capulilly());
 
-        pokemon.add(new Dreamdery());
+        addNewPokemon(new Dreamdery());
 
-        pokemon.add(new Macabra());
+        addNewPokemon(new Macabra());
 
         //Kertruffle line
-        pokemon.add(new Kertruffle());
-        pokemon.add(new Mosshroom());
-        pokemon.add(new Lumishroom());
-        pokemon.add(new Perishroom());
+        addNewPokemon(new Kertruffle());
+        addNewPokemon(new Mosshroom());
+        addNewPokemon(new Lumishroom());
+        addNewPokemon(new Perishroom());
 
         //Rocano line
-        pokemon.add(new Rocano());
-        pokemon.add(new Volcaroc());
-        pokemon.add(new Volcoalder());
+        addNewPokemon(new Rocano());
+        addNewPokemon(new Volcaroc());
+        addNewPokemon(new Volcoalder());
 
         //Pounther line
-        pokemon.add(new Pounther());
-        pokemon.add(new Jaguile());
+        addNewPokemon(new Pounther());
+        addNewPokemon(new Jaguile());
 
         //Neureka line
-        pokemon.add(new Neureka());
-        pokemon.add(new Cerebrulb());
+        addNewPokemon(new Neureka());
+        addNewPokemon(new Cerebrulb());
 
         //Peppit line
-        pokemon.add(new Peppit());
-        pokemon.add(new Hoppanero());
-        pokemon.add(new Scovalope());
+        addNewPokemon(new Peppit());
+        addNewPokemon(new Hoppanero());
+        addNewPokemon(new Scovalope());
 
         //Pawter line
-        pokemon.add(new Pawter());
-        pokemon.add(new Hurricanine());
+        addNewPokemon(new Pawter());
+        addNewPokemon(new Hurricanine());
 
         //Skullarva line
-        pokemon.add(new Skullarva());
-        pokemon.add(new Maskoon());
-        pokemon.add(new Mortasque());
+        addNewPokemon(new Skullarva());
+        addNewPokemon(new Maskoon());
+        addNewPokemon(new Mortasque());
 
         //Vectol line
-        pokemon.add(new Vectol());
-        pokemon.add(new Vectol2());
+        addNewPokemon(new Vectol());
+        addNewPokemon(new Vectol2());
 
         //Bouwee line
-        pokemon.add(new Bouwee());
-        pokemon.add(new Scubug());
+        addNewPokemon(new Bouwee());
+        addNewPokemon(new Scubug());
 
         //Totter line
-        pokemon.add(new Totter());
-        pokemon.add(new Cascotta());
-        pokemon.add(new Lutrajet());
+        addNewPokemon(new Totter());
+        addNewPokemon(new Cascotta());
+        addNewPokemon(new Lutrajet());
 
         //Alpint line
-        pokemon.add(new Alpint());
-        pokemon.add(new Forusk());
+        addNewPokemon(new Alpint());
+        addNewPokemon(new Forusk());
 
         //Platypow line
-        pokemon.add(new Platypow());
-        pokemon.add(new Platikhao());
+        addNewPokemon(new Platypow());
+        addNewPokemon(new Platikhao());
 
         //Cuppy line
-        pokemon.add(new Cuppy());
-        pokemon.add(new Fettlekish());
+        addNewPokemon(new Cuppy().fishingSpawnFromExisting());
+        addNewPokemon(new Fettlekish());
 
-        pokemon.add(new Shibalbat());
+        addNewPokemon(new Shibalbat());
 
-        pokemon.add(new Nobunata());
+        addNewPokemon(new Nobunata());
 
         //Psybex line
-        pokemon.add(new Psybex());
-        pokemon.add(new Gnuru());
+        addNewPokemon(new Psybex());
+        addNewPokemon(new Gnuru());
 
         //Flowger line
-        pokemon.add(new Flowger());
-        pokemon.add(new Bullotus());
+        addNewPokemon(new Flowger().fishingSpawnFromExisting());
+        addNewPokemon(new Bullotus());
 
-        pokemon.add(new Burrowl());
+        addNewPokemon(new Burrowl());
 
-        pokemon.add(new Magowl());
+        addNewPokemon(new Magowl());
 
         //Craliber line
-        pokemon.add(new Craliber());
-        pokemon.add(new Crawglock());
+        addNewPokemon(new Craliber());
+        addNewPokemon(new Crawglock());
 
         //Leafish Line
-        pokemon.add(new Leafish());
-        pokemon.add(new Chlorofin());
+        addNewPokemon(new Leafish().fishingSpawnFromExisting());
+        addNewPokemon(new Chlorofin());
 
         //Quibble Line
-        pokemon.add(new Quibble());
-        pokemon.add(new Fowattle());
-        pokemon.add(new Turkistador());
+        addNewPokemon(new Quibble());
+        addNewPokemon(new Fowattle());
+        addNewPokemon(new Turkistador());
 
         //Sedirrot line
-        pokemon.add(new Sedirrot());
-        pokemon.add(new Condesa());
+        addNewPokemon(new Sedirrot());
+        addNewPokemon(new Condesa());
 
         //Cardinite line
-        pokemon.add(new Cardinite());
-        pokemon.add(new Chardinal());
+        addNewPokemon(new Cardinite());
+        addNewPokemon(new Chardinal());
 
-        pokemon.add(new Skurrow());
+        addNewPokemon(new Skurrow());
 
-        pokemon.add(new Somberado());
+        addNewPokemon(new Somberado());
 
         //Phlask line
-        pokemon.add(new Phlask());
-        pokemon.add(new Noxial());
-        pokemon.add(new Fumighast());
+        addNewPokemon(new Phlask());
+        addNewPokemon(new Noxial());
+        addNewPokemon(new Fumighast());
 
         //Atomite line
-        pokemon.add(new Atomite());
-        pokemon.add(new Orbatom());
+        addNewPokemon(new Atomite());
+        addNewPokemon(new Orbatom());
 
         //Squink line
-        pokemon.add(new Squink());
-        pokemon.add(new Squidrift());
+        addNewPokemon(new Squink().fishingSpawnFromExisting());
+        addNewPokemon(new Squidrift());
 
-        pokemon.add(new Boarealis());
+        addNewPokemon(new Boarealis());
 
         //Chelonite line
-        pokemon.add(new Chelonite());
-        pokemon.add(new Galaxagos());
+        addNewPokemon(new Chelonite());
+        addNewPokemon(new Galaxagos());
 
-        pokemon.add(new Magnitogre());
+        addNewPokemon(new Magnitogre());
 
         //minarac line
-        pokemon.add(new Minarac());
-        pokemon.add(new Trenchula());
+        addNewPokemon(new Minarac());
+        addNewPokemon(new Trenchula());
 
         //Pottle line
-        pokemon.add(new Pottle());
-        pokemon.add(new Trikotta());
-        pokemon.add(new Terrorcotta());
+        addNewPokemon(new Pottle());
+        addNewPokemon(new Trikotta());
+        addNewPokemon(new Terrorcotta());
 
         //Pueblant line
-        pokemon.add(new Pueblant());
-        pokemon.add(new Cahokisect());
+        addNewPokemon(new Pueblant());
+        addNewPokemon(new Cahokisect());
 
         //Cobrasket line
-        pokemon.add(new Cobrasket());
-        pokemon.add(new Charmbra());
+        addNewPokemon(new Cobrasket());
+        addNewPokemon(new Charmbra());
 
         //Cairup line
-        pokemon.add(new Cairup());
-        pokemon.add(new Kairoglyph());
+        addNewPokemon(new Cairup());
+        addNewPokemon(new Kairoglyph());
 
         //Necronite line
-        pokemon.add(new Necronite());
-        pokemon.add(new Gravollum());
+        addNewPokemon(new Necronite());
+        addNewPokemon(new Gravollum());
 
         //Diloweed line
-        pokemon.add(new Diloweed());
-        pokemon.add(new Pangolash());
+        addNewPokemon(new Diloweed());
+        addNewPokemon(new Pangolash());
 
         //Ignishell line
-        pokemon.add(new Ignishell());
-        pokemon.add(new Shelosene());
-        pokemon.add(new Flarrapin());
+        addNewPokemon(new Ignishell());
+        addNewPokemon(new Shelosene());
+        addNewPokemon(new Flarrapin());
 
         //Desoula line
-        pokemon.add(new Desoula());
-        pokemon.add(new Necrow());
-        pokemon.add(new Vultergyst());
+        addNewPokemon(new Desoula());
+        addNewPokemon(new Necrow());
+        addNewPokemon(new Vultergyst());
 
         //Dinkywink line
-        pokemon.add(new Dinkywink());
-        pokemon.add(new Dunkywunkr());
+        addNewPokemon(new Dinkywink());
+        addNewPokemon(new Dunkywunkr());
 
         //Calphite line
-        pokemon.add(new Calphite());
-        pokemon.add(new Indrolith());
+        addNewPokemon(new Calphite());
+        addNewPokemon(new Indrolith());
 
-        pokemon.add(new Solacari());
+        addNewPokemon(new Solacari());
 
-        pokemon.add(new Nurshary());
+        addNewPokemon(new Nurshary().fishingSpawnFromExisting());
 
         //Loneleaf line
-        pokemon.add(new Loneleaf());
-        pokemon.add(new Forthorn());
+        addNewPokemon(new Loneleaf());
+        addNewPokemon(new Forthorn());
 
         //Coltergeist line
-        pokemon.add(new Coltergeist());
-        pokemon.add(new Fantasmare());
+        addNewPokemon(new Coltergeist());
+        addNewPokemon(new Fantasmare());
 
         //Chihah line
-        pokemon.add(new Chihaha());
-        pokemon.add(new Howlequin());
+        addNewPokemon(new Chihaha());
+        addNewPokemon(new Howlequin());
 
         //Chegrin line
-        pokemon.add(new Chegrin());
-        pokemon.add(new Cheshade());
+        addNewPokemon(new Chegrin());
+        addNewPokemon(new Cheshade());
 
         //Doppole line
-        pokemon.add(new Doppole());
-        pokemon.add(new Artifish());
+        addNewPokemon(new Doppole());
+        addNewPokemon(new Artifish());
 
-        pokemon.add(new Thoraxe());
+        addNewPokemon(new Thoraxe());
 
         //Pomparunt line
-        pokemon.add(new Pomparunt());
-        pokemon.add(new Pompagoon());
-        pokemon.add(new Hyekuza());
+        addNewPokemon(new Pomparunt());
+        addNewPokemon(new Pompagoon());
+        addNewPokemon(new Hyekuza());
 
-        pokemon.add(new Erycoon());
+        addNewPokemon(new Erycoon());
 
-        pokemon.add(new Leukoon());
+        addNewPokemon(new Leukoon());
 
         //Toxito line
-        pokemon.add(new Toxito());
-        pokemon.add(new Sanguito());
+        addNewPokemon(new Toxito());
+        addNewPokemon(new Sanguito());
 
         //Orett line
-        pokemon.add(new Orett());
-        pokemon.add(new Anvelid());
-        pokemon.add(new Magroplex());
+        addNewPokemon(new Orett());
+        addNewPokemon(new Anvelid());
+        addNewPokemon(new Magroplex());
 
-        pokemon.add(new Viipii());
+        addNewPokemon(new Viipii());
 
         //Chilloth line
-        pokemon.add(new Chilloth());
-        pokemon.add(new Soakoth());
+        addNewPokemon(new Chilloth());
+        addNewPokemon(new Soakoth());
 
         //Chayan line
-        pokemon.add(new Chayan());
-        pokemon.add(new Macuarrior());
-        pokemon.add(new Ocerumi());
+        addNewPokemon(new Chayan());
+        addNewPokemon(new Macuarrior());
+        addNewPokemon(new Ocerumi());
 
         //Fortifry line
-        pokemon.add(new Fortifry());
-        pokemon.add(new Oarwish());
+        addNewPokemon(new Fortifry().fishingSpawnFromExisting());
+        addNewPokemon(new Oarwish().fishingSpawnFromExisting());
 
-        pokemon.add(new Smashiary());
+        addNewPokemon(new Smashiary());
 
         //Slatic line
-        pokemon.add(new Slatic());
-        pokemon.add(new Telsion());
-        pokemon.add(new Chameleohm());
+        addNewPokemon(new Slatic());
+        addNewPokemon(new Telsion());
+        addNewPokemon(new Chameleohm());
 
         //Glauqua line
-        pokemon.add(new Glauqua());
-        pokemon.add(new Hydranticus());
+        addNewPokemon(new Glauqua());
+        addNewPokemon(new Hydranticus());
 
         //Lintle line
-        pokemon.add(new Lintle());
-        pokemon.add(new Silkinder());
-        pokemon.add(new Paramoth());
+        addNewPokemon(new Lintle());
+        addNewPokemon(new Silkinder());
+        addNewPokemon(new Paramoth());
 
         //Parapy line
-        pokemon.add(new Parapy());
-        pokemon.add(new Mawasite());
+        addNewPokemon(new Parapy());
+        addNewPokemon(new Mawasite());
 
         //Chimpoca line
-        pokemon.add(new Chimpoca());
-        pokemon.add(new Simayan());
-        pokemon.add(new Monkezuma());
+        addNewPokemon(new Chimpoca());
+        addNewPokemon(new Simayan());
+        addNewPokemon(new Monkezuma());
 
         //Enigmite line
-        pokemon.add(new Enigmite());
-        pokemon.add(new Enigmantis());
+        addNewPokemon(new Enigmite());
+        addNewPokemon(new Enigmantis());
 
         //Arjibi line
-        pokemon.add(new Arjibi());
-        pokemon.add(new Royjibiv());
+        addNewPokemon(new Arjibi().fishingSpawnFromExisting());
+        addNewPokemon(new Royjibiv());
 
         //Barracute line
-        pokemon.add(new Barracute());
-        pokemon.add(new Jawgodon());
+        addNewPokemon(new Barracute().fishingSpawnFromExisting());
+        addNewPokemon(new Jawgodon());
 
         //Drosire line
-        pokemon.add(new Drosire());
-        pokemon.add(new Sunduke());
+        addNewPokemon(new Drosire());
+        addNewPokemon(new Sunduke());
 
         //Wispern line
-        pokemon.add(new Wispern());
-        pokemon.add(new Phantern());
+        addNewPokemon(new Wispern());
+        addNewPokemon(new Phantern());
 
         //Glocto line
-        pokemon.add(new Glocto());
-        pokemon.add(new Lavoon());
+        addNewPokemon(new Glocto().fishingSpawnFromExisting());
+        addNewPokemon(new Lavoon());
 
         //Gilla line
-        pokemon.add(new Gilla());
-        pokemon.add(new Hornizard());
-        pokemon.add(new Ankillosore());
+        addNewPokemon(new Gilla());
+        addNewPokemon(new Hornizard());
+        addNewPokemon(new Ankillosore());
 
         //Bazilisk line
-        pokemon.add(new Bazilisk());
-        pokemon.add(new Ornitherb());
-        pokemon.add(new Dilophlora());
+        addNewPokemon(new Bazilisk());
+        addNewPokemon(new Ornitherb());
+        addNewPokemon(new Dilophlora());
 
-        pokemon.add(new Baboom());
+        addNewPokemon(new Baboom());
 
         //Icetope line
-        pokemon.add(new Icetope());
-        pokemon.add(new Chillnobyl());
+        addNewPokemon(new Icetope());
+        addNewPokemon(new Chillnobyl());
 
         //Wendingo line
-        pokemon.add(new Wendingo());
-        pokemon.add(new Carnibal());
+        addNewPokemon(new Wendingo());
+        addNewPokemon(new Carnibal());
 
         //Luchito line
-        pokemon.add(new Luchito());
-        pokemon.add(new Eluchadon());
+        addNewPokemon(new Luchito());
+        addNewPokemon(new Eluchadon());
 
         //Grolem line
-        pokemon.add(new Grolem());
-        pokemon.add(new Comossus());
+        addNewPokemon(new Grolem());
+        addNewPokemon(new Comossus());
 
         //Larvyn line
-        pokemon.add(new Larvyn());
-        pokemon.add(new Dracoon());
-        pokemon.add(new Basilect());
+        addNewPokemon(new Larvyn());
+        addNewPokemon(new Dracoon());
+        addNewPokemon(new Basilect());
 
         //Carbite line
-        pokemon.add(new Carbite());
-        pokemon.add(new Pressaur());
-        pokemon.add(new Diamat());
+        addNewPokemon(new Carbite());
+        addNewPokemon(new Pressaur());
+        addNewPokemon(new Diamat());
 
         //Quecko line
-        pokemon.add(new Quecko());
-        pokemon.add(new Tozecko());
+        addNewPokemon(new Quecko());
+        addNewPokemon(new Tozecko());
 
         //Crakling line
-        pokemon.add(new Crakling());
-        pokemon.add(new Fuelong());
+        addNewPokemon(new Crakling());
+        addNewPokemon(new Fuelong());
 
         //Draggar line
-        pokemon.add(new Draggar());
-        pokemon.add(new Ragnarow());
+        addNewPokemon(new Draggar());
+        addNewPokemon(new Ragnarow());
 
-        pokemon.add(new Eronze());
+        addNewPokemon(new Eronze());
 
-        pokemon.add(new Erion());
+        addNewPokemon(new Erion());
 
-        pokemon.add(new Erace());
+        addNewPokemon(new Erace());
 
-        pokemon.add(new Patama());
+        addNewPokemon(new Patama());
 
-        pokemon.add(new Machima());
+        addNewPokemon(new Machima());
 
-        pokemon.add(new Yacuma());
+        addNewPokemon(new Yacuma());
 
         var quetzar = new Quetzar();
-        pokemon.add(quetzar);
-        pokemon.add(new QuetzarSpace("", Aspect.SPACE));
+        addNewPokemon(quetzar);
+        addNewPokemon(new QuetzarSpace("", Aspect.SPACE));
 
-        pokemon.add(new Xochi());
+        addNewPokemon(new Xochi());
 
-        pokemon.add(new Xotec());
+        addNewPokemon(new Xotec());
     }
 }

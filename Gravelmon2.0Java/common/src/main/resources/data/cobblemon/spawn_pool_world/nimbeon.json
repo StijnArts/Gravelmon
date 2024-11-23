@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "nimbeon-1",
+      "id": "nimbeon-01",
       "pokemon": "nimbeon",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "44-56",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_plains" ],
+        "biomes": [
+          "#cobblemon:is_plains"
+        ],
         "timeRange": "day",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

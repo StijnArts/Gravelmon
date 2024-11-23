@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:tyrogue",
+  "forms": [
+    {
+      "displayForm": "Qamoran",
+      "unlockForms": [
+        "Qamoran"
+      ]
+    },
+    {
+      "displayForm": "Varitasian",
+      "unlockForms": [
+        "Varitasian"
+      ]
+    }
+  ]
+}

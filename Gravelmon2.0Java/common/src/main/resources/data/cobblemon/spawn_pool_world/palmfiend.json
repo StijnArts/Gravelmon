@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "palmfiend-1",
+      "id": "palmfiend-01",
       "pokemon": "palmfiend",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "23-45",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_tropical_island" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_tropical_island"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

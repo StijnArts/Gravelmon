@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:mareep-mythian",
+  "speciesId": "cobblemon:mareep",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Mythian",
+      "unlockForms": [
+        "Mythian"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:parabella",
+  "speciesId": "cobblemon:parabella",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

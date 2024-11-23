@@ -39,65 +39,7 @@
     }
   },
   "catchRate": 90,
-  "maleRatio": 0.5,
   "shoulderMountable": false,
-"forms": [    {
-      "name": "Mega",
-      "primaryType": "fairy",
-      "secondaryType": "ground",
-      "abilities": [
-    "athenian",
-    "h:athenian"
-      ],
-      "baseScale": 0.24375,
-        "hitbox": {
-          "width": 6.0,
-          "height": 6.0,
-          "fixed": false
-      },
-      "baseStats": {
-        "hp": 60,
-        "attack": 100,
-        "defence": 85,
-        "special_attack": 80,
-        "special_defence": 85,
-        "speed": 100
-      },
-      "catchRate": 90,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 144,
-      "baseFriendship": 70,
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 1
-      },
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "eggGroups": [
-    "undiscovered"
-  ],  "drops": {
-    "amount": "0",
-    "entries": [
-
-    ]
-      },
-      "labels": [
-    "insurgence",
-    "not_modeled"
-      ],
-      "aspects": [
-        "mega"
-      ],
-      "height": 1,
-      "weight": 3150,
-      "cannotDynamax": false,
-      "battleOnly": true
-    }
-],
   "baseExperienceYield": 144,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,

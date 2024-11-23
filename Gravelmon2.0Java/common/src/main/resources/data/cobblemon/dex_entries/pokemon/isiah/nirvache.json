@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:nirvache",
+  "speciesId": "cobblemon:nirvache",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

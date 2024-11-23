@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "kerohelion-1",
+      "id": "kerohelion-01",
       "pokemon": "kerohelion",
       "presets": [
-          "trail_ruins"
+        "trail_ruins"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "55-65",
       "weight": 0.01,
       "condition": {
-"biomes": [ "#cobblemon:is_overworld" ]
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
       }
     }
   ]

@@ -100,17 +100,25 @@ public class CreativeTabsInit {
                     GravelmonItems.ASTRAL_STONE_ORE.get().asItem().getDefaultInstance());
             entries.addBefore(CobblemonItems.DAWN_STONE_ORE.asItem().getDefaultInstance(),
                     GravelmonItems.DEEPSLATE_ASTRAL_STONE_ORE.get().asItem().getDefaultInstance());
+            entries.addBefore(CobblemonItems.DAWN_STONE_BLOCK.asItem().getDefaultInstance(),
+                    GravelmonItems.AIR_STONE_BLOCK.get().asItem().getDefaultInstance());
+            entries.addBefore(CobblemonItems.DAWN_STONE_BLOCK.asItem().getDefaultInstance(),
+                    GravelmonItems.ASTRAL_STONE_BLOCK.get().asItem().getDefaultInstance());
 
             entries.addBefore(CobblemonItems.MOON_STONE_ORE.asItem().getDefaultInstance(),
                     GravelmonItems.MYSTIC_STONE_ORE.get().asItem().getDefaultInstance());
             entries.addBefore(CobblemonItems.MOON_STONE_ORE.asItem().getDefaultInstance(),
                     GravelmonItems.DEEPSLATE_MYSTIC_STONE_ORE.get().asItem().getDefaultInstance());
+            entries.addAfter(CobblemonItems.MOON_STONE_BLOCK.asItem().getDefaultInstance(),
+                    GravelmonItems.MYSTIC_STONE_BLOCK.get().asItem().getDefaultInstance());
 
             entries.addAfter(CobblemonItems.DEEPSLATE_SHINY_STONE_ORE.asItem().getDefaultInstance(),
                     GravelmonItems.DEEPSLATE_SOLID_STONE_ORE.get().asItem().getDefaultInstance());
             entries.addAfter(CobblemonItems.DEEPSLATE_SHINY_STONE_ORE.asItem().getDefaultInstance(),
                     GravelmonItems.SOLID_STONE_ORE.get().asItem().getDefaultInstance());
-            entries.accept(CobblemonItems.DEEPSLATE_SHINY_STONE_ORE.asItem().getDefaultInstance());
+            entries.addAfter(CobblemonItems.SHINY_STONE_BLOCK.asItem().getDefaultInstance(),
+                    GravelmonItems.SOLID_STONE_BLOCK.get().asItem().getDefaultInstance());
+
         });
 
         ItemGroupEvents.modifyEntriesEvent(CobblemonItemGroups.getHELD_ITEMS_KEY()).register(entries -> {
@@ -144,7 +152,7 @@ public class CreativeTabsInit {
             entries.accept(GravelmonItems.HAFLI_BERRY.get().asItem().getDefaultInstance());
         });
 
-        ItemGroupEvents.modifyEntriesEvent(CobblemonItemGroups.getPOKEBALLS_KEY()).register(entries -> {
+        ItemGroupEvents.modifyEntriesEvent(CobblemonItemGroups.getUTILITY_ITEMS_KEY()).register(entries -> {
             entries.addAfter(CobblemonItems.CITRINE_BALL.asItem().getDefaultInstance(),
                     GravelmonItems.MAUVE_BALL.get().asItem().getDefaultInstance());
             entries.addAfter(CobblemonItems.CITRINE_BALL.asItem().getDefaultInstance(),
@@ -221,7 +229,7 @@ public class CreativeTabsInit {
         ItemGroupEvents.modifyEntriesEvent(CobblemonItemGroups.getARCHAEOLOGY_KEY()).register(entries -> {
             Consumer<ItemStack> fossilConsumer = (fossil)-> entries.addAfter(CobblemonItems.FOSSILIZED_DINO, fossil);
             Gravelmon.FOSSIL_MAP.forEach((key, value) -> {
-                var fossil = Fossils.INSTANCE.getByIdentifier(new ResourceLocation("cobblemon", value.split(" ")[0]));
+                var fossil = Fossils.INSTANCE.getByIdentifier(ResourceLocation.fromNamespaceAndPath("cobblemon", value.split(" ")[0]));
                 if(fossil == null) return;
                 if(SpeciesManager.containsBannedLabels(fossil.getResult().getSpecies(), fossil.getResult().getForm())) return;
                 fossilConsumer.accept(FOSSIL_ITEM_MAP.get(key).get().getDefaultInstance());

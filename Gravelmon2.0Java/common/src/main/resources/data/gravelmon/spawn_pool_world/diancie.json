@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "kaskadiandiancie-1",
+      "id": "kaskadian_diancie-01",
       "pokemon": "diancie kaskadian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,11 +15,13 @@
       "level": "50-70",
       "weight": 2.0E-5,
       "condition": {
-"biomes": [ "#cobblemon:is_mountain",
-"#cobblemon:is_sky" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_sky"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

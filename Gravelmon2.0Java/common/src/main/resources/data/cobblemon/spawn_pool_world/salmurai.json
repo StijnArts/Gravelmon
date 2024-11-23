@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "salmurai-1",
+      "id": "salmurai-01",
       "pokemon": "salmurai",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,9 +15,12 @@
       "level": "36-56",
       "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_bamboo",
-"minecraft:cherry_grove" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_bamboo",
+          "minecraft:cherry_grove"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

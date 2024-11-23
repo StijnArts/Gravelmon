@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ayreiangumshoos-1",
+      "id": "ayreian_gumshoos-01",
       "pokemon": "gumshoos ayreian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,10 @@
       "level": "5-25",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_taiga" ]
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ]
       }
     }
-
-]
+  ]
 }

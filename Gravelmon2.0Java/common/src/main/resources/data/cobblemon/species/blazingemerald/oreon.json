@@ -1,7 +1,7 @@
 {
   "implemented": true,
-  "name": "oreon",
-  "nationalPokedexNumber": 3745,
+  "name": "Oreon",
+  "nationalPokedexNumber": 3748,
   "primaryType": "poison",
   "abilities": [
     "stickyhold",
@@ -57,7 +57,7 @@
     ]
   },
   "moves": [
-    "1:cookie_cut",
+    "1:cookiecut",
     "5:milkdrink",
     "14:lick",
     "22:acid",

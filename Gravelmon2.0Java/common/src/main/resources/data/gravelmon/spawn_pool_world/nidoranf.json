@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "alterannidoranwintercoat-1",
+      "id": "alteran_winter_coat_nidoranf-01",
       "pokemon": "nidoranf alteran_winter_coat",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,11 +15,13 @@
       "level": "5-27",
       "weight": 9.0,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy",
-"#cobblemon:is_snowy_forest" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_snowy",
+          "#cobblemon:is_snowy_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

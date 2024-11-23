@@ -4,11 +4,11 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "cordachin-1",
+      "id": "cordachin-01",
       "pokemon": "cordachin",
       "presets": [
-          "underwater",
-          "foliage"
+        "underwater",
+        "foliage"
       ],
       "type": "pokemon",
       "context": "seafloor",
@@ -16,8 +16,11 @@
       "level": "13-34",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ],
-        "canSeeSky": true
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

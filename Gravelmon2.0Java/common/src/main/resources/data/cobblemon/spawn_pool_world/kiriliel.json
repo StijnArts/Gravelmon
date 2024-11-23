@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "kiriliel-1",
+      "id": "kiriliel-01",
       "pokemon": "kiriliel",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "31-54",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_mountain" ]
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ]
       }
     }
   ]

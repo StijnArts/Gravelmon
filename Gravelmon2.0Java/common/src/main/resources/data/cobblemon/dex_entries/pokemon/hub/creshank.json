@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:creshank",
+  "speciesId": "cobblemon:creshank",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

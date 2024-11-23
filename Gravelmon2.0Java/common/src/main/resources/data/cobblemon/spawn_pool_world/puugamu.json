@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "puugamu-1",
+      "id": "puugamu-01",
       "pokemon": "puugamu",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,12 +15,18 @@
       "level": "25-47",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_grassland" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_grassland"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "day"
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_arid" ]    }
+        "biomes": [
+          "#cobblemon:is_arid"
+        ]
+      }
     }
   ]
 }

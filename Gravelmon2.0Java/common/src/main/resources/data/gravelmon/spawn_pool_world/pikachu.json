@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltapikachu-1",
+      "id": "delta_pikachu-01",
       "pokemon": "pikachu delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,17 +15,19 @@
       "level": "12-31",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_highlands" ],
+        "biomes": [
+          "#cobblemon:is_highlands"
+        ],
         "timeRange": "day",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "pikachufemalex-1",
+      "id": "female_x_pikachu-01",
       "pokemon": "pikachu female_x",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -33,15 +35,16 @@
       "level": "12-33",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#minecraft:is_end" ]
+        "biomes": [
+          "#minecraft:is_end"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "pikachumalex-1",
+      "id": "male_x_pikachu-01",
       "pokemon": "pikachu male_x",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -49,9 +52,10 @@
       "level": "12-33",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#minecraft:is_end" ]
+        "biomes": [
+          "#minecraft:is_end"
+        ]
       }
     }
-
-]
+  ]
 }

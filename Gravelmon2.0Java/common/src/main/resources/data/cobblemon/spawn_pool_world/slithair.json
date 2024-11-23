@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "slithair-1",
+      "id": "slithair-01",
       "pokemon": "slithair",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "32-54",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_magical",
-"#cobblemon:is_sandy" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_magical",
+          "#cobblemon:is_sandy"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       }
     }

@@ -1,5 +1,6 @@
 package drai.dev.gravelmon.fabric.datagen;
 
+import com.cobblemon.mod.common.api.tags.*;
 import drai.dev.gravelmon.registries.*;
 import net.fabricmc.fabric.api.datagen.v1.*;
 import net.fabricmc.fabric.api.datagen.v1.provider.*;
@@ -24,7 +25,6 @@ public class ModBlockTagGenerator extends FabricTagProvider.BlockTagProvider {
                         GravelmonBlocks.DEEPSLATE_MYSTIC_STONE_ORE.get(),
                         GravelmonBlocks.SOLID_STONE_ORE.get(),
                         GravelmonBlocks.DEEPSLATE_SOLID_STONE_ORE.get());
-
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(GravelmonBlocks.DEEPSLATE_ASTRAL_STONE_ORE.get(),

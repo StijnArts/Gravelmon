@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:vibrava",
+  "forms": [
+    {
+      "displayForm": "Ayreian",
+      "unlockForms": [
+        "Ayreian"
+      ]
+    },
+    {
+      "displayForm": "Cefiran",
+      "unlockForms": [
+        "Cefiran"
+      ]
+    }
+  ]
+}

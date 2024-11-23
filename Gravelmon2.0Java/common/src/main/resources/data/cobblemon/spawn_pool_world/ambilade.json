@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ambilade-1",
+      "id": "ambilade-01",
       "pokemon": "ambilade",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "5-28",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_badlands" ]
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ]
       }
     }
   ]

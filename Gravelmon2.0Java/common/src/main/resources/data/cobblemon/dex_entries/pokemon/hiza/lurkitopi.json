@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lurkitopi",
+  "speciesId": "cobblemon:lurkitopi",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

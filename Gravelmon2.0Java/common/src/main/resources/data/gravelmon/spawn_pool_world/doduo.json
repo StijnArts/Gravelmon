@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltadoduo-1",
+      "id": "delta_doduo-01",
       "pokemon": "doduo delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,15 +15,16 @@
       "level": "8-31",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#minecraft:is_end" ]
+        "biomes": [
+          "#minecraft:is_end"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "seviiandoduo-1",
+      "id": "seviian_doduo-01",
       "pokemon": "doduo seviian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -31,14 +32,19 @@
       "level": "6-31",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_island" ],
+        "biomes": [
+          "#cobblemon:is_island"
+        ],
         "timeRange": "day",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_cold",
-"#cobblemon:is_arid" ]    }
+        "biomes": [
+          "#cobblemon:is_cold",
+          "#cobblemon:is_arid"
+        ]
+      }
     }
-
-]
+  ]
 }

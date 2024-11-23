@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:turbolibri",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_turbolibri",
+      "texture": "cobblemon:textures/pokemon/flux/turbolibri.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/flux/turbolibri_shiny.png"
+    }
+  ]
+}

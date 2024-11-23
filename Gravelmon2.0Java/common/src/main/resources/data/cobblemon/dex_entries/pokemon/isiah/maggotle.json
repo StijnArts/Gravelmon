@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:maggotle",
+  "speciesId": "cobblemon:maggotle",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:grumpig-qamoran",
+  "speciesId": "cobblemon:grumpig",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Qamoran",
+      "unlockForms": [
+        "Qamoran"
+      ]
+    }
+  ],
+  "variations": []
+}

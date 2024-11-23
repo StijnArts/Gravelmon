@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "aristosianspinarak-1",
+      "id": "aristosian_spinarak-01",
       "pokemon": "spinarak aristosian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,18 +15,20 @@
       "level": "1-25",
       "weight": 5.4,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night",
         "isRaining": false
       }
-    }
-,
+    },
     {
-      "id": "ayreianspinarak-1",
+      "id": "ayreian_spinarak-01",
       "pokemon": "spinarak ayreian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,9 +36,10 @@
       "level": "5-25",
       "weight": 5.4,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ]
+        "biomes": [
+          "#cobblemon:nether/is_forest"
+        ]
       }
     }
-
-]
+  ]
 }

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:brokenstein",
+  "speciesId": "cobblemon:brokenstein",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

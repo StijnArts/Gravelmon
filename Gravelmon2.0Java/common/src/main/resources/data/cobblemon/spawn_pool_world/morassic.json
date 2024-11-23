@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "morassic-1",
+      "id": "morassic-01",
       "pokemon": "morassic",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "36-58",
       "weight": 0.8,
       "condition": {
-"biomes": [ "#cobblemon:is_lush",
-"#cobblemon:is_jungle" ]
+        "biomes": [
+          "#cobblemon:is_lush",
+          "#cobblemon:is_jungle"
+        ]
       }
     }
   ]

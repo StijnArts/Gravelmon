@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mawasite-1",
+      "id": "mawasite-01",
       "pokemon": "mawasite",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,11 +15,17 @@
       "level": "4-15",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_lukewarm_ocean" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_lukewarm_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_freshwater" ]    }
+        "biomes": [
+          "#cobblemon:is_freshwater"
+        ]
+      }
     }
   ]
 }

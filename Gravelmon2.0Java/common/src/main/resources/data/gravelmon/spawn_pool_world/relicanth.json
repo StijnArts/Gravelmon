@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ayreianrelicanth-1",
+      "id": "ayreian_relicanth-01",
       "pokemon": "relicanth ayreian",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,10 +15,10 @@
       "level": "20-48",
       "weight": 10.0,
       "condition": {
-        "canSeeSky": false,
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
         "maxY": 0
       }
     }
-
-]
+  ]
 }

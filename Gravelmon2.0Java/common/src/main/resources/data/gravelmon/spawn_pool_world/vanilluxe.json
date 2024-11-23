@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "novranvanilluxe-1",
+      "id": "novran_vanilluxe-01",
       "pokemon": "vanilluxe novran",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,18 @@
       "level": "43-57",
       "weight": 0.4,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy_forest" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_snowy_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "ayreianvanilluxe-1",
+      "id": "ayreian_vanilluxe-01",
       "pokemon": "vanilluxe ayreian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,10 +34,11 @@
       "level": "35-57",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_basalt",
-"#cobblemon:is_wasteland" ]
+        "biomes": [
+          "#cobblemon:nether/is_basalt",
+          "#cobblemon:nether/is_wasteland"
+        ]
       }
     }
-
-]
+  ]
 }

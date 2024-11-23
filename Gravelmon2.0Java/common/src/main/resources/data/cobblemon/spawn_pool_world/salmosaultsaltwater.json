@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "salmosaultsaltwater-1",
+      "id": "salmosaultsaltwater-01",
       "pokemon": "salmosaultsaltwater",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,11 +15,16 @@
       "level": "24-49",
       "weight": 4.5,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ]
+        "biomes": [
+          "#minecraft:is_ocean"
+        ]
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_arid",
-"#cobblemon:is_temperate" ]    }
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_temperate"
+        ]
+      }
     }
   ]
 }

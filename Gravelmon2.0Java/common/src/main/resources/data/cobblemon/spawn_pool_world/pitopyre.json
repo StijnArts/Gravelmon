@@ -4,11 +4,11 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "pitopyre-1",
+      "id": "pitopyre-01",
       "pokemon": "pitopyre",
       "presets": [
-          "near_lava",
-          "natural"
+        "near_lava",
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -16,8 +16,10 @@
       "level": "11-42",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_volvanic",
-"#cobblemon:is_cave" ]
+        "biomes": [
+          "#cobblemon:is_volvanic",
+          "#cobblemon:is_cave"
+        ]
       }
     }
   ]

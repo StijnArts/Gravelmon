@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ragnarow-1",
+      "id": "ragnarow-01",
       "pokemon": "ragnarow",
       "presets": [
-          "water_surface"
+        "water_surface"
       ],
       "type": "pokemon",
       "context": "surface",
@@ -15,12 +15,18 @@
       "level": "43-58",
       "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_cold_ocean",
-"#cobblemon:is_frozen" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_cold_ocean",
+          "#cobblemon:is_frozen"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_freshwater" ]    }
+        "biomes": [
+          "#cobblemon:is_freshwater"
+        ]
+      }
     }
   ]
 }

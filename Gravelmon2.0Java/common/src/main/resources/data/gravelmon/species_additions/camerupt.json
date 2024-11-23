@@ -38,64 +38,7 @@
     }
   },
   "catchRate": 150,
-  "maleRatio": 0.5,
   "shoulderMountable": false,
-"forms": [    {
-      "name": "Mega",
-      "primaryType": "poison",
-      "abilities": [
-    "keeneye",
-    "h:liquidooze"
-      ],
-      "baseScale": 0.48,
-        "hitbox": {
-          "width": 6.0,
-          "height": 6.0,
-          "fixed": false
-      },
-      "baseStats": {
-        "hp": 70,
-        "attack": 120,
-        "defence": 100,
-        "special_attack": 145,
-        "special_defence": 105,
-        "speed": 20
-      },
-      "catchRate": 150,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 161,
-      "baseFriendship": 70,
-      "evYield": {
-        "hp": 0,
-        "attack": 1,
-        "defence": 0,
-        "special_attack": 1,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "eggGroups": [
-    "undiscovered"
-  ],  "drops": {
-    "amount": "0",
-    "entries": [
-
-    ]
-      },
-      "labels": [
-    "insurgence",
-    "not_modeled"
-      ],
-      "aspects": [
-        "mega"
-      ],
-      "height": 0,
-      "weight": 2400,
-      "cannotDynamax": false,
-      "battleOnly": true
-    }
-],
   "baseExperienceYield": 161,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
@@ -253,7 +196,6 @@
     }
   },
   "catchRate": 255,
-  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 61,
   "experienceGroup": "medium_fast",
@@ -412,7 +354,6 @@
     }
   },
   "catchRate": 150,
-  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 161,
   "experienceGroup": "medium_fast",

@@ -4,11 +4,11 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "qamoranweezing-1",
+      "id": "qamoran_weezing-01",
       "pokemon": "weezing qamoran",
       "presets": [
-          "near_magma",
-          "underwater"
+        "near_magma",
+        "underwater"
       ],
       "type": "pokemon",
       "context": "seafloor",
@@ -16,17 +16,19 @@
       "level": "9-34",
       "weight": 1.8,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_sky",
+          "#cobblemon:is_mountain"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "deltaweezing-1",
+      "id": "delta_weezing-01",
       "pokemon": "weezing delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,16 +36,16 @@
       "level": "35-57",
       "weight": 2.0,
       "condition": {
-        "canSeeSky": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "isThundering": true
       }
-    }
-,
+    },
     {
-      "id": "relicweezing-1",
+      "id": "relic_weezing-01",
       "pokemon": "weezing relic",
       "presets": [
-          "near_lava"
+        "near_lava"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -51,11 +53,12 @@
       "level": "35-49",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_mountain",
-"#cobblemon:is_volvanic",
-"#cobblemon:is_wasteland" ]
+        "biomes": [
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_volvanic",
+          "#cobblemon:nether/is_wasteland"
+        ]
       }
     }
-
-]
+  ]
 }

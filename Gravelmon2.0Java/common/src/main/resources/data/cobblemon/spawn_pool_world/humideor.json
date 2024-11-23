@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "humideor-1",
+      "id": "humideor-01",
       "pokemon": "humideor",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,11 @@
       "level": "35-51",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain",
-"#minecraft:is_end" ],
+        "biomes": [
+          "#cobblemon:is_sky",
+          "#cobblemon:is_mountain",
+          "#minecraft:is_end"
+        ],
         "timeRange": "night"
       }
     }

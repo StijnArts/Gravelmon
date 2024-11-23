@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "lavent-1",
+      "id": "lavent-01",
       "pokemon": "lavent",
       "presets": [
-          "stronghold"
+        "stronghold"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,7 +15,9 @@
       "level": "33-57",
       "weight": 5.5,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ]
+        "biomes": [
+          "#minecraft:is_ocean"
+        ]
       }
     }
   ]

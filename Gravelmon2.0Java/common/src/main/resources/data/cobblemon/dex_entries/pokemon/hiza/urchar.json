@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:urchar",
+  "speciesId": "cobblemon:urchar",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

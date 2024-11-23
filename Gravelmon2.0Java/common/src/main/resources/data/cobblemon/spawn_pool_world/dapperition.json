@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "dapperition-1",
+      "id": "dapperition-01",
       "pokemon": "dapperition",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "40-65",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#cobblemon:is_temperate" ],
+        "biomes": [
+          "#cobblemon:is_temperate"
+        ],
         "timeRange": "night"
       }
     }

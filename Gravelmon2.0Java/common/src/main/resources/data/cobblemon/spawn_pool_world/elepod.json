@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "elepod-1",
+      "id": "elepod-01",
       "pokemon": "elepod",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,9 +15,12 @@
       "level": "8-27",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_warm_ocean" ],
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

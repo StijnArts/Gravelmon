@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:dustar-okenian",
+  "speciesId": "cobblemon:dustar",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Okenian",
+      "unlockForms": [
+        "Okenian"
+      ]
+    }
+  ],
+  "variations": []
+}

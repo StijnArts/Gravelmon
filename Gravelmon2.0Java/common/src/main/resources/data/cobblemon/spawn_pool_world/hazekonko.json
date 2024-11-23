@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "hazekonko-1",
+      "id": "hazekonko-01",
       "pokemon": "hazekonko",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "16-37",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cold" ]
+        "biomes": [
+          "#cobblemon:is_cold"
+        ]
       }
     }
   ]

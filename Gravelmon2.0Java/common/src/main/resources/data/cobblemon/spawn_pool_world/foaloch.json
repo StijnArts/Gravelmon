@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "foaloch-1",
+      "id": "foaloch-01",
       "pokemon": "foaloch",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "surface",
@@ -15,13 +15,19 @@
       "level": "6-27",
       "weight": 3.8,
       "condition": {
-"biomes": [ "#cobblemon:is_forest",
-"#cobblemon:is_swamp" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_swamp"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_winter",
-"#cobblemon:is_summer" ]    }
+        "biomes": [
+          "#cobblemon:has_season/winter",
+          "#cobblemon:has_season/summer"
+        ]
+      }
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:mitorch",
+  "speciesId": "cobblemon:mitorch",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:eelektrik",
+  "forms": [
+    {
+      "displayForm": "Varitasian",
+      "unlockForms": [
+        "Varitasian"
+      ]
+    },
+    {
+      "displayForm": "Hoennian",
+      "unlockForms": [
+        "Hoennian"
+      ]
+    }
+  ]
+}

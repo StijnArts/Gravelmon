@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:gorebyss",
+  "forms": [
+    {
+      "displayForm": "Novran",
+      "unlockForms": [
+        "Novran"
+      ]
+    },
+    {
+      "displayForm": "Delta",
+      "unlockForms": [
+        "Delta"
+      ]
+    }
+  ]
+}

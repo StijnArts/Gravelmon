@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "paow-1",
+      "id": "paow-01",
       "pokemon": "paow",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "13-37",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_bamboo",
-"minecraft:cherry_grove" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_bamboo",
+          "minecraft:cherry_grove"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       }
     }

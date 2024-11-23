@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ensencoon",
+  "speciesId": "cobblemon:ensencoon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

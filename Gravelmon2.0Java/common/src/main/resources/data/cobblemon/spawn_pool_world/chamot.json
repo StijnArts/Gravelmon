@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "chamot-1",
+      "id": "chamot-01",
       "pokemon": "chamot",
       "presets": [
-          "trail_ruins"
+        "trail_ruins"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "6-28",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sandy" ]
+        "biomes": [
+          "#cobblemon:is_sandy"
+        ]
       }
     }
   ]

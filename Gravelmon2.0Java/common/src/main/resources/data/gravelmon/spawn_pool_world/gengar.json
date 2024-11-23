@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "havaiiangengar-1",
+      "id": "havaiian_gengar-01",
       "pokemon": "gengar havaiian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,17 @@
       "level": "36-50",
       "weight": 0.06,
       "condition": {
-"biomes": [ "#cobblemon:is_volvanic",
-"#cobblemon:is_soul_fire" ]
+        "biomes": [
+          "#cobblemon:is_volvanic",
+          "#cobblemon:nether/is_soul_fire"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "gengarx-1",
+      "id": "x_gengar-01",
       "pokemon": "gengar x",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,15 +33,16 @@
       "level": "36-57",
       "weight": 1.2,
       "condition": {
-"biomes": [ "#minecraft:is_end" ]
+        "biomes": [
+          "#minecraft:is_end"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "ayreiangengar-1",
+      "id": "ayreian_gengar-01",
       "pokemon": "gengar ayreian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -48,16 +50,17 @@
       "level": "41-58",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_wasteland" ],
+        "biomes": [
+          "#cobblemon:nether/is_wasteland"
+        ],
         "isRaining": true
       }
-    }
-,
+    },
     {
-      "id": "kaskadiangengar-1",
+      "id": "kaskadian_gengar-01",
       "pokemon": "gengar kaskadian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -65,10 +68,11 @@
       "level": "36-56",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_temperate" ],
+        "biomes": [
+          "#cobblemon:is_temperate"
+        ],
         "isRaining": true
       }
     }
-
-]
+  ]
 }

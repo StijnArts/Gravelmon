@@ -4,19 +4,16 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "chesture-1",
+      "id": "chesture-01",
       "pokemon": "chesture",
       "presets": [
-          "jungle_pyramid"
+        "jungle_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
       "level": "21-54",
-      "weight": 6.0,
-      "condition": {
-
-      }
+      "weight": 6.0
     }
   ]
 }

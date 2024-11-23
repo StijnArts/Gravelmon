@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "sandrill-1",
+      "id": "sandrill-01",
       "pokemon": "sandrill",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "36-55",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#cobblemon:is_sandy" ]
+        "biomes": [
+          "#cobblemon:is_sandy"
+        ]
       }
     }
   ]

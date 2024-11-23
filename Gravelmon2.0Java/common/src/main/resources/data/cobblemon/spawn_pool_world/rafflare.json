@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "rafflare-1",
+      "id": "rafflare-01",
       "pokemon": "rafflare",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "23-43",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_volvanic",
-"#cobblemon:is_wasteland" ]
+        "biomes": [
+          "#cobblemon:is_volvanic",
+          "#cobblemon:nether/is_wasteland"
+        ]
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltasunflora-1",
+      "id": "delta_sunflora-01",
       "pokemon": "sunflora delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,10 @@
       "level": "22-39",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_crimson" ]
+        "biomes": [
+          "#cobblemon:nether/is_crimson"
+        ]
       }
     }
-
-]
+  ]
 }

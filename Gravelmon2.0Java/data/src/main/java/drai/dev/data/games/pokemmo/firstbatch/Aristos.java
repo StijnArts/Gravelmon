@@ -10,26 +10,34 @@ public class Aristos extends drai.dev.data.games.registry.Game {
     @Override
     public void registerPokemon() {
 
-
-        pokemon.add(new Lanidos());
-        pokemon.add(new Ramvolt());
+        addPokedexPokemon("sentret-aristosian, furret-aristosian, spinarak-aristosian");
+        addNewPokemon(new Lanidos());
+        addPokedexPokemon("bellsprout-aristosian, weepinbell-aristosian, victreebel-aristosian," +
+                "mareep-aristosian, flaaffy-aristosian");
+        addNewPokemon(new Ramvolt());
 //        pokemon.add(new Tuckle()); Missing Art
-        pokemon.add(new Achiefd());
-//        pokemon.add(new Probotheos()); Missing Art
-        pokemon.add(new Kamurados());
-        pokemon.add(new Weeduza());
-        pokemon.add(new Tangorgon());
+        addPokedexPokemon("farfetchd");
+        addNewPokemon(new Achiefd());
+        addPokedexPokemon("growlithe-aristosian, arcanine-aristosian");
+//        pokemon.add(new Probotheos()); Missing Art'
+
+        addPokedexPokemon("magikarp, gyarados, tropius-aristosian");
+        addNewPokemon(new Kamurados());
+        addNewPokemon(new Weeduza());
+        addPokedexPokemon("tangela");
+        addNewPokemon(new Tangorgon());
 //        pokemon.add(new Soulix()); Missing Art
 //        pokemon.add(new Fledjed()); Missing Art
-        pokemon.add(new Kangazad());
+        addNewPokemon(new Kangazad());
+        addPokedexPokemon("kangaskhan-aristosian");
 //        pokemon.add(new Paloarmo()); Missing Art Renamed from Pharoar
-        pokemon.add(new EPP_v11());
+        addNewPokemon(new EPP_v11());
 //        pokemon.add(new Cactrian()); Missing Art
 //        pokemon.add(new Spiribloom()); Missing Art
 //        pokemon.add(new Zoongus()); Missing Art
-        pokemon.add(new Kvadract());
-        pokemon.add(new Navatoria());
-        pokemon.add(new Sabroast());
+        addNewPokemon(new Kvadract());
+        addNewPokemon(new Navatoria());
+        addNewPokemon(new Sabroast());
     }
 
 }

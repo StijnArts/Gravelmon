@@ -4,19 +4,16 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "harvinger-1",
+      "id": "harvinger-01",
       "pokemon": "harvinger",
       "presets": [
-          "mansion"
+        "mansion"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "65-75",
-      "weight": 5.0E-4,
-      "condition": {
-
-      }
+      "weight": 5.0E-4
     }
   ]
 }

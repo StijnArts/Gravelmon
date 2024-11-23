@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "gavile-1",
+      "id": "gavile-01",
       "pokemon": "gavile",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,12 +15,18 @@
       "level": "3-22",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_arid" ],
+        "biomes": [
+          "#cobblemon:is_arid"
+        ],
         "timeRange": "night",
-        "canSeeSky": false
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_cave" ]    }
+        "biomes": [
+          "#cobblemon:is_cave"
+        ]
+      }
     }
   ]
 }

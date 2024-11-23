@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "delphair-1",
+      "id": "delphair-01",
       "pokemon": "delphair",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "11-32",
       "weight": 2.1,
       "condition": {
-"biomes": [ "#cobblemon:is_sky" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_sky"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

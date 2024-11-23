@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "novrancranidos-1",
+      "id": "novran_cranidos-01",
       "pokemon": "cranidos novran",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,12 @@
       "level": "11-36",
       "weight": 9.0,
       "condition": {
-"biomes": [ "#cobblemon:is_volvanic" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_volvanic"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:wahundo",
+  "speciesId": "cobblemon:wahundo",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

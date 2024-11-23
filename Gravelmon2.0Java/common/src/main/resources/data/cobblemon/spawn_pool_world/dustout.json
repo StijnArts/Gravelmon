@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "dustout-1",
+      "id": "dustout-01",
       "pokemon": "dustout",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "43-61",
       "weight": 0.5,
       "condition": {
-"biomes": [ "minecraft:cherry_grove" ]
+        "biomes": [
+          "minecraft:cherry_grove"
+        ]
       }
     }
   ]

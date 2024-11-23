@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "varitasianaltaria-1",
+      "id": "varitasian_altaria-01",
       "pokemon": "altaria varitasian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,18 @@
       "level": "3-22",
       "weight": 0.02,
       "condition": {
-"biomes": [ "#cobblemon:is_grassland" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_grassland"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "eghoaltaria-1",
+      "id": "egho_altaria-01",
       "pokemon": "altaria egho",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,17 +34,19 @@
       "level": "35-50",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy" ],
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ],
         "timeRange": "day",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "ayreianaltaria-1",
+      "id": "ayreian_altaria-01",
       "pokemon": "altaria ayreian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -50,13 +54,15 @@
       "level": "30-54",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_bamboo",
-"minecraft:cherry_grove",
-"#cobblemon:is_volvanic" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_bamboo",
+          "minecraft:cherry_grove",
+          "#cobblemon:is_volvanic"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "isRaining": true
       }
     }
-
-]
+  ]
 }

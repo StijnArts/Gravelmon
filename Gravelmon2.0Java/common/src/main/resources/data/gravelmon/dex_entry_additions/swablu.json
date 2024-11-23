@@ -1,0 +1,23 @@
+{
+  "entryId": "cobblemon:swablu",
+  "forms": [
+    {
+      "displayForm": "Varitasian",
+      "unlockForms": [
+        "Varitasian"
+      ]
+    },
+    {
+      "displayForm": "Egho",
+      "unlockForms": [
+        "Egho"
+      ]
+    },
+    {
+      "displayForm": "Ayreian",
+      "unlockForms": [
+        "Ayreian"
+      ]
+    }
+  ]
+}

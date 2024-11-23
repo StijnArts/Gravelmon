@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltaluxray-1",
+      "id": "delta_luxray-01",
       "pokemon": "luxray delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,18 @@
       "level": "30-45",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#minecraft:is_nether" ],
-        "canSeeSky": false
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
-    }
-,
+    },
     {
-      "id": "ayreianluxray-1",
+      "id": "ayreian_luxray-01",
       "pokemon": "luxray ayreian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,16 +34,18 @@
       "level": "30-52",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_badlands" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "kaskadianluxray-1",
+      "id": "kaskadian_luxray-01",
       "pokemon": "luxray kaskadian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -49,10 +53,12 @@
       "level": "30-52",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cold" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_cold"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

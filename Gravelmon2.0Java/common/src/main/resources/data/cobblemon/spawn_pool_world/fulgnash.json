@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fulgnash-1",
+      "id": "fulgnash-01",
       "pokemon": "fulgnash",
       "presets": [
-          "trail_ruins"
+        "trail_ruins"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "32-54",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_arid",
-"#cobblemon:is_temperate" ],
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_temperate"
+        ],
         "timeRange": "night"
       }
     }

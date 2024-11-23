@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "snomagnon-1",
+      "id": "snomagnon-01",
       "pokemon": "snomagnon",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "12-37",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cold" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_cold"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

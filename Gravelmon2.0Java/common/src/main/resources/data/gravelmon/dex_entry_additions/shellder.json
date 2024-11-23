@@ -1,0 +1,23 @@
+{
+  "entryId": "cobblemon:shellder",
+  "forms": [
+    {
+      "displayForm": "Nostan",
+      "unlockForms": [
+        "Nostan"
+      ]
+    },
+    {
+      "displayForm": "Norheiman",
+      "unlockForms": [
+        "Norheiman"
+      ]
+    },
+    {
+      "displayForm": "Egho",
+      "unlockForms": [
+        "Egho"
+      ]
+    }
+  ]
+}

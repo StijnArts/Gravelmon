@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:nincada-fligian",
+  "speciesId": "cobblemon:nincada",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Fligian",
+      "unlockForms": [
+        "Fligian"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "egholombre-1",
+      "id": "egho_lombre-01",
       "pokemon": "lombre egho",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,15 +15,16 @@
       "level": "21-34",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ]
+        "biomes": [
+          "#cobblemon:nether/is_forest"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "deltalombre-1",
+      "id": "delta_lombre-01",
       "pokemon": "lombre delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -31,11 +32,13 @@
       "level": "18-39",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_magical",
-"#cobblemon:is_spooky" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_magical",
+          "#cobblemon:is_spooky"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

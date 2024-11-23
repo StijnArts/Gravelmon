@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:mossowl",
+  "speciesId": "cobblemon:mossowl",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

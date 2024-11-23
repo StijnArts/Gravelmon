@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltasnorlax-1",
+      "id": "delta_snorlax-01",
       "pokemon": "snorlax delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,11 +15,13 @@
       "level": "20-43",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_floral" ],
+        "biomes": [
+          "#cobblemon:is_floral"
+        ],
         "timeRange": "day",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "furiousc-1",
+      "id": "furiousc-01",
       "pokemon": "furiousc",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "seafloor",
@@ -15,11 +15,17 @@
       "level": "31-49",
       "weight": 0.4,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ],
-        "canSeeSky": true
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_warm_ocean" ]    }
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ]
+      }
     }
   ]
 }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "hoatrex-1",
+      "id": "hoatrex-01",
       "pokemon": "hoatrex",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "55-65",
       "weight": 6.0E-4,
       "condition": {
-"biomes": [ "#cobblemon:is_savanna" ]
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ]
       }
     }
   ]

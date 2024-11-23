@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "basille-1",
+      "id": "basille-01",
       "pokemon": "basille",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,12 +15,18 @@
       "level": "6-19",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_forest",
-"#cobblemon:is_floral" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_floral"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_snowy" ]    }
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ]
+      }
     }
   ]
 }

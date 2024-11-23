@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:uselake",
+  "speciesId": "cobblemon:uselake",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "hantama-1",
+      "id": "hantama-01",
       "pokemon": "hantama",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "22-44",
       "weight": 3.4,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky",
-"#cobblemon:is_bamboo" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_bamboo"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       }
     }

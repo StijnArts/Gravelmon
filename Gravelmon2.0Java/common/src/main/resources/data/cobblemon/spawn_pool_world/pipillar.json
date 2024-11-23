@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "pipillar-1",
+      "id": "pipillar-01",
       "pokemon": "pipillar",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,12 +15,18 @@
       "level": "1-16",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_winter",
-"#cobblemon:is_summer" ]    }
+        "biomes": [
+          "#cobblemon:has_season/winter",
+          "#cobblemon:has_season/summer"
+        ]
+      }
     }
   ]
 }

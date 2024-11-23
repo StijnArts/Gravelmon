@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltareuniclus-1",
+      "id": "delta_reuniclus-01",
       "pokemon": "reuniclus delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,15 +15,16 @@
       "level": "48-68",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ]
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "hoennianreuniclus-1",
+      "id": "hoennian_reuniclus-01",
       "pokemon": "reuniclus hoennian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -31,20 +32,25 @@
       "level": "50-65",
       "weight": 0.09,
       "condition": {
-"biomes": [ "#cobblemon:is_jungle" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "day"
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_cold",
-"#cobblemon:is_temperate" ]    }
-    }
-,
+        "biomes": [
+          "#cobblemon:is_cold",
+          "#cobblemon:is_temperate"
+        ]
+      }
+    },
     {
-      "id": "kaskadianreuniclus-1",
+      "id": "kaskadian_reuniclus-01",
       "pokemon": "reuniclus kaskadian",
       "presets": [
-          "reef"
+        "reef"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -52,20 +58,25 @@
       "level": "32-45",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#cobblemon:is_warm_ocean" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "day"
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_cold",
-"#cobblemon:is_temperate" ]    }
-    }
-,
+        "biomes": [
+          "#cobblemon:is_cold",
+          "#cobblemon:is_temperate"
+        ]
+      }
+    },
     {
-      "id": "mysticreuniclus-1",
+      "id": "mystic_reuniclus-01",
       "pokemon": "reuniclus mystic",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -73,11 +84,13 @@
       "level": "32-45",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#minecraft:is_deep_ocean" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "maxY": 30
       }
     }
-
-]
+  ]
 }

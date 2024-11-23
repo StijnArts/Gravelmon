@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:vanilluxe-novran",
+  "speciesId": "cobblemon:vanilluxe",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Novran",
+      "unlockForms": [
+        "Novran"
+      ]
+    }
+  ],
+  "variations": []
+}

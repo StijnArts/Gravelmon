@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:snipion-crozoican",
+  "speciesId": "cobblemon:snipion",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Crozoican",
+      "unlockForms": [
+        "Crozoican"
+      ]
+    }
+  ],
+  "variations": []
+}

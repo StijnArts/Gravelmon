@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "florange-1",
+      "id": "florange-01",
       "pokemon": "florange",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,15 @@
       "level": "15-28",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_floral" ]
+        "biomes": [
+          "#cobblemon:is_floral"
+        ]
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_grassland" ]    }
+        "biomes": [
+          "#cobblemon:is_grassland"
+        ]
+      }
     }
   ]
 }

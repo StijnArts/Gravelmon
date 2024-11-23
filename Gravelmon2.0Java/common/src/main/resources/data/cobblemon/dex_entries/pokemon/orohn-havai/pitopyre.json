@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:pitopyre",
+  "speciesId": "cobblemon:pitopyre",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:valcurie",
+  "speciesId": "cobblemon:valcurie",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

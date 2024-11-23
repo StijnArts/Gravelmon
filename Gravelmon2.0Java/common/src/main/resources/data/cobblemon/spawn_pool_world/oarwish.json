@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "oarwish-1",
+      "id": "oarwish-01",
       "pokemon": "oarwish",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,13 +15,19 @@
       "level": "40-56",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_river",
-"#cobblemon:is_cold_ocean" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_river",
+          "#cobblemon:is_cold_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_temperate",
-"#cobblemon:is_arid" ]    }
+        "biomes": [
+          "#cobblemon:is_temperate",
+          "#cobblemon:is_arid"
+        ]
+      }
     }
   ]
 }

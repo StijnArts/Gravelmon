@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mewthree-1",
+      "id": "mewthree-01",
       "pokemon": "mewthree",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "70-70",
       "weight": 1.0E-4,
       "condition": {
-"biomes": [ "#minecraft:is_end" ],
+        "biomes": [
+          "#minecraft:is_end"
+        ],
         "maxY": 30,
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

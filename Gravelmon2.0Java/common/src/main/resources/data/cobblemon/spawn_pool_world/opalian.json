@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "opalian-1",
+      "id": "opalian-01",
       "pokemon": "opalian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "34-52",
       "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_cave",
-"#cobblemon:is_mountain" ]
+        "biomes": [
+          "#cobblemon:is_cave",
+          "#cobblemon:is_mountain"
+        ]
       }
     }
   ]

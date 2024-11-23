@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:urchimpale",
+  "speciesId": "cobblemon:urchimpale",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -4,11 +4,11 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "polypod-1",
+      "id": "polypod-01",
       "pokemon": "polypod",
       "presets": [
-          "reef",
-          "underwater"
+        "reef",
+        "underwater"
       ],
       "type": "pokemon",
       "context": "seafloor",
@@ -16,7 +16,9 @@
       "level": "16-46",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_warm_ocean" ]
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ]
       }
     }
   ]

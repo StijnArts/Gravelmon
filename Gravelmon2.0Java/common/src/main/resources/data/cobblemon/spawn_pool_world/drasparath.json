@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "drasparath-1",
+      "id": "drasparath-01",
       "pokemon": "drasparath",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,12 +15,18 @@
       "level": "40-60",
       "weight": 1.8,
       "condition": {
-"biomes": [ "#cobblemon:is_arid" ],
-        "canSeeSky": false,
+        "biomes": [
+          "#cobblemon:is_arid"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
         "maxY": 0
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_deep_dark" ]    }
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ]
+      }
     }
   ]
 }

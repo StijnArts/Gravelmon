@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "cosminx-1",
+      "id": "cosminx-01",
       "pokemon": "cosminx",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,13 @@
       "level": "34-54",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain",
-"#cobblemon:is_plateau" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_sky",
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_plateau"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       }
     }

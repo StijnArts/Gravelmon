@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:buzzover",
+  "speciesId": "cobblemon:buzzover",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

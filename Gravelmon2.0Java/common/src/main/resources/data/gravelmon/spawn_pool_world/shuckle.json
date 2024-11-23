@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltashuckle-1",
+      "id": "delta_shuckle-01",
       "pokemon": "shuckle delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,15 +15,16 @@
       "level": "15-50",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ]
+        "biomes": [
+          "#cobblemon:nether/is_forest"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "hoennianshuckle-1",
+      "id": "hoennian_shuckle-01",
       "pokemon": "shuckle hoennian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -31,10 +32,12 @@
       "level": "12-27",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_jungle" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
-
-]
+  ]
 }

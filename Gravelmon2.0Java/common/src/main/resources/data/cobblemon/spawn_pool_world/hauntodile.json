@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "hauntodile-1",
+      "id": "hauntodile-01",
       "pokemon": "hauntodile",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,11 @@
       "level": "18-44",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_savanna",
-"#cobblemon:is_badlands",
-"#cobblemon:is_desert" ],
+        "biomes": [
+          "#cobblemon:is_savanna",
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_desert"
+        ],
         "timeRange": "night"
       }
     }

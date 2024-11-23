@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:rabsca-qamoran",
+  "speciesId": "cobblemon:rabsca",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Qamoran",
+      "unlockForms": [
+        "Qamoran"
+      ]
+    }
+  ],
+  "variations": []
+}

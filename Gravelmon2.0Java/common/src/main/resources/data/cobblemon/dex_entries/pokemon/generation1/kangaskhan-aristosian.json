@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:kangaskhan-aristosian",
+  "speciesId": "cobblemon:kangaskhan",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Aristosian",
+      "unlockForms": [
+        "Aristosian"
+      ]
+    }
+  ],
+  "variations": []
+}

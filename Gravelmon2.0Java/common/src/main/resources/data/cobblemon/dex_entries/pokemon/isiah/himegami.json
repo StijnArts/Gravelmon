@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:himegami",
+  "speciesId": "cobblemon:himegami",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

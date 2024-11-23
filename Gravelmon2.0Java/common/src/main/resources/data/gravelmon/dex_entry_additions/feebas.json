@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:feebas",
+  "forms": [
+    {
+      "displayForm": "Delta",
+      "unlockForms": [
+        "Delta"
+      ]
+    },
+    {
+      "displayForm": "Seviian",
+      "unlockForms": [
+        "Seviian"
+      ]
+    }
+  ]
+}

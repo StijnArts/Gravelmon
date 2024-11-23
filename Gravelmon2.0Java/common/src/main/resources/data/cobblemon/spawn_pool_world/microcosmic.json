@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "microcosmic-1",
+      "id": "microcosmic-01",
       "pokemon": "microcosmic",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "37-53",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cold" ],
-        "canSeeSky": false,
+        "biomes": [
+          "#cobblemon:is_cold"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
         "timeRange": "day"
       }
     }

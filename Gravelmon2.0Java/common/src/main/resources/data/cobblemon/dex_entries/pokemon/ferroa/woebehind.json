@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:woebehind",
+  "speciesId": "cobblemon:woebehind",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:nyanyum",
+  "speciesId": "cobblemon:nyanyum",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

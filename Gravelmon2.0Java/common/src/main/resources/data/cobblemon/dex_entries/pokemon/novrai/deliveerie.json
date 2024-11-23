@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:deliveerie",
+  "speciesId": "cobblemon:deliveerie",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

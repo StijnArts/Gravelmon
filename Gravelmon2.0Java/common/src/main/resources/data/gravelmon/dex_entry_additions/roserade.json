@@ -1,0 +1,29 @@
+{
+  "entryId": "cobblemon:roserade",
+  "forms": [
+    {
+      "displayForm": "Delta",
+      "unlockForms": [
+        "Delta"
+      ]
+    },
+    {
+      "displayForm": "X",
+      "unlockForms": [
+        "X"
+      ]
+    },
+    {
+      "displayForm": "Ayreian",
+      "unlockForms": [
+        "Ayreian"
+      ]
+    },
+    {
+      "displayForm": "Relic",
+      "unlockForms": [
+        "Relic"
+      ]
+    }
+  ]
+}

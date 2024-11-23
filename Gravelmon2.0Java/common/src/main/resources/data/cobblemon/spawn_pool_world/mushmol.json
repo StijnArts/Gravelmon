@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mushmol-1",
+      "id": "mushmol-01",
       "pokemon": "mushmol",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "1-15",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_taiga",
-"#cobblemon:is_mushroom" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_taiga",
+          "#cobblemon:is_mushroom"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

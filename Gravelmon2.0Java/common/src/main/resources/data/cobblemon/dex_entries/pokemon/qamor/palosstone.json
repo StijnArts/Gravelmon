@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:palosstone",
+  "speciesId": "cobblemon:palosstone",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "exfinguish-1",
+      "id": "exfinguish-01",
       "pokemon": "exfinguish",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,7 +15,9 @@
       "level": "29-46",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_cold_ocean" ],
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ],
         "timeRange": "night"
       }
     }

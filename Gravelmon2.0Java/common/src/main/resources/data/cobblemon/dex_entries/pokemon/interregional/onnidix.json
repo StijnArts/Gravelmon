@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:onnidix",
+  "speciesId": "cobblemon:onnidix",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

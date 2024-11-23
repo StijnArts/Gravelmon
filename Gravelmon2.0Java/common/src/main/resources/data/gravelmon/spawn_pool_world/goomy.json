@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltagoomy-1",
+      "id": "delta_goomy-01",
       "pokemon": "goomy delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,15 +15,16 @@
       "level": "3-22",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_arid" ]
+        "biomes": [
+          "#cobblemon:is_arid"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "hoenniangoomy-1",
+      "id": "hoennian_goomy-01",
       "pokemon": "goomy hoennian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -31,11 +32,13 @@
       "level": "5-30",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_jungle" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "day"
       }
     }
-
-]
+  ]
 }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "laxish-1",
+      "id": "laxish-01",
       "pokemon": "laxish",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,12 +15,18 @@
       "level": "3-22",
       "weight": 2.4,
       "condition": {
-"biomes": [ "#cobblemon:is_winter",
-"#cobblemon:is_autumn" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:has_season/winter",
+          "#cobblemon:has_season/autumn"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#minecraft:is_ocean" ]    }
+        "biomes": [
+          "#minecraft:is_ocean"
+        ]
+      }
     }
   ]
 }

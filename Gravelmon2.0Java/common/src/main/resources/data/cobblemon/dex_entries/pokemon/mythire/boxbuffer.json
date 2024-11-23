@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:boxbuffer",
+  "speciesId": "cobblemon:boxbuffer",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

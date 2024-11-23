@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:pleech",
+  "speciesId": "cobblemon:pleech",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

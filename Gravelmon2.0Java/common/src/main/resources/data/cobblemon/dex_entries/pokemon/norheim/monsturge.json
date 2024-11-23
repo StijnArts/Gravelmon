@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:monsturge",
+  "speciesId": "cobblemon:monsturge",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

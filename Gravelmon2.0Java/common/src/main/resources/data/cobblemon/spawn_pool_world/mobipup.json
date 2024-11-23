@@ -4,19 +4,16 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mobipup-1",
+      "id": "mobipup-01",
       "pokemon": "mobipup",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
       "level": "3-22",
-      "weight": 3.8,
-      "condition": {
-
-      }
+      "weight": 3.8
     }
   ]
 }

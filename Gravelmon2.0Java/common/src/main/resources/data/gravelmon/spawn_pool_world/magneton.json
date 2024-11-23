@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "eghomagneton-1",
+      "id": "egho_magneton-01",
       "pokemon": "magneton egho",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,18 @@
       "level": "22-34",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_lush" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_lush"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
-    }
-,
+    },
     {
-      "id": "ayreianmagneton-1",
+      "id": "ayreian_magneton-01",
       "pokemon": "magneton ayreian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,10 +34,12 @@
       "level": "30-46",
       "weight": 0.18,
       "condition": {
-"biomes": [ "#cobblemon:is_wasteland" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:nether/is_wasteland"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

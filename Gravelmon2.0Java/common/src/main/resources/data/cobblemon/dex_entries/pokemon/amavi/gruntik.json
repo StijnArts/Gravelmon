@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gruntik",
+  "speciesId": "cobblemon:gruntik",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

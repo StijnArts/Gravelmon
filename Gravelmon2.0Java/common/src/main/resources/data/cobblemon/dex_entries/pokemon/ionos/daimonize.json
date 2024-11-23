@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:daimonize",
+  "speciesId": "cobblemon:daimonize",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

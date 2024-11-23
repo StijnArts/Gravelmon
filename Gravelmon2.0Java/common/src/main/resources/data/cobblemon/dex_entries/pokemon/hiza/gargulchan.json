@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gargulchan",
+  "speciesId": "cobblemon:gargulchan",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

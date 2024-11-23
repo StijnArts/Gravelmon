@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "anemace-1",
+      "id": "anemace-01",
       "pokemon": "anemace",
       "presets": [
-          "reef"
+        "reef"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,9 +15,12 @@
       "level": "33-48",
       "weight": 0.4,
       "condition": {
-"biomes": [ "#cobblemon:is_warm_ocean" ],
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ],
         "timeRange": "day",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

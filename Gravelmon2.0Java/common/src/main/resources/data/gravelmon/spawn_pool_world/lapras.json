@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "novranlapras-1",
+      "id": "novran_lapras-01",
       "pokemon": "lapras novran",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "seafloor",
@@ -15,17 +15,19 @@
       "level": "29-54",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ],
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
         "isThundering": true,
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "mythianlapras-1",
+      "id": "mythian_lapras-01",
       "pokemon": "lapras mythian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -33,19 +35,23 @@
       "level": "20-53",
       "weight": 10.0,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ],
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
         "isThundering": true
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_cold",
-"#cobblemon:is_frozen" ]    }
-    }
-,
+        "biomes": [
+          "#cobblemon:is_cold",
+          "#cobblemon:is_frozen"
+        ]
+      }
+    },
     {
-      "id": "kaskadianlapras-1",
+      "id": "kaskadian_lapras-01",
       "pokemon": "lapras kaskadian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -53,9 +59,10 @@
       "level": "20-53",
       "weight": 10.0,
       "condition": {
-"biomes": [ "#cobblemon:is_warm_ocean" ]
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ]
       }
     }
-
-]
+  ]
 }

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:norsery",
+  "speciesId": "cobblemon:norsery",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "phrilter-1",
+      "id": "phrilter-01",
       "pokemon": "phrilter",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "28-45",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_volvanic",
-"#minecraft:is_nether" ]
+        "biomes": [
+          "#cobblemon:is_volvanic",
+          "#minecraft:is_nether"
+        ]
       }
     }
   ]

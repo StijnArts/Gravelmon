@@ -10,103 +10,119 @@ public class Fliga extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new Aggronut());
-        pokemon.add(new Kerbunsta());
-        pokemon.add(new Harebinger());
-        pokemon.add(new Meltuff());
-        pokemon.add(new Magrumble());
-        pokemon.add(new Obsidious());
-        pokemon.add(new Nibblish());
-        pokemon.add(new Vicera());
-        pokemon.add(new Marawder());
-        pokemon.add(new Squirelutton());
-        pokemon.add(new Muncheek());
-        pokemon.add(new Scuffbill());
-        pokemon.add(new Balaefax());
-        pokemon.add(new Larintenant());
-        pokemon.add(new Shinodea());
-        pokemon.add(new Larvhilt());
-        pokemon.add(new Cutlassp());
-        pokemon.add(new Beani());
-        pokemon.add(new Setsubean());
-        pokemon.add(new Sconsimese());
-        pokemon.add(new Kashigan());
-        pokemon.add(new Atillohunn());
-        pokemon.add(new Calaloof());
-        pokemon.add(new Cephalofear());
-        pokemon.add(new Scarasoil());
-        pokemon.add(new Bowlaphod());
+        addNewPokemon(new Aggronut());
+        addNewPokemon(new Kerbunsta());
+        addNewPokemon(new Harebinger());
+        addNewPokemon(new Meltuff());
+        addNewPokemon(new Magrumble());
+        addNewPokemon(new Obsidious());
+        addNewPokemon(new Nibblish());
+        addNewPokemon(new Vicera());
+        addNewPokemon(new Marawder());
+        addNewPokemon(new Squirelutton());
+        addNewPokemon(new Muncheek());
+        addNewPokemon(new Scuffbill());
+        addNewPokemon(new Balaefax());
+        addPokedexPokemon("wingull, pelipper");
+        addNewPokemon(new Larintenant());
+        addPokedexPokemon("nincada-avalossian");
+        addNewPokemon(new Shinodea());
+        addNewPokemon(new Larvhilt());
+        addNewPokemon(new Cutlassp());
+        addNewPokemon(new Beani());
+        addNewPokemon(new Setsubean());
+        addNewPokemon(new Sconsimese());
+        addNewPokemon(new Kashigan());
+        addPokedexPokemon("kangaskhan");
+        addNewPokemon(new Atillohunn());
+        addPokedexPokemon("shellos-avalossian, gastrodon-avalossian");
+        addNewPokemon(new Calaloof());
+        addNewPokemon(new Cephalofear());
+        addNewPokemon(new Scarasoil());
+        addNewPokemon(new Bowlaphod());
 //        pokemon.add(new Froselot());   Missing Art
-        pokemon.add(new Budy());
-        pokemon.add(new Growdup());
+        addNewPokemon(new Budy());
+        addNewPokemon(new Growdup());
+        addPokedexPokemon("bellsprout-avalossian, weepinbell-avalossian, victreebel-avalossian");
 //        pokemon.add(new Devapup());   Missing Art
 //        pokemon.add(new Dingorous());   Missing Art
-        pokemon.add(new Pollutail());
-        pokemon.add(new Oiphinae());
-        pokemon.add(new Hazarachi());
-        pokemon.add(new Gallostone());
-        pokemon.add(new Opalian());
-        pokemon.add(new Slambizom());
-        pokemon.add(new Macaqdeath());
-        pokemon.add(new Cocyfish());
-        pokemon.add(new Maliospi());
-        pokemon.add(new Helsteteri());
-        pokemon.add(new Twillowl());
-        pokemon.add(new Astrowl());
-        pokemon.add(new Nyaqua());
-        pokemon.add(new Whiskereef());
-        pokemon.add(new Intelattod());
-        pokemon.add(new Slynx());
-        pokemon.add(new Tragobite());
-        pokemon.add(new Sphyrnizor());
-        pokemon.add(new Carchankle());
-        pokemon.add(new Meekat());
-        pokemon.add(new Kilokatta());
-        pokemon.add(new Sproutle());
-        pokemon.add(new Dyramic());
-        pokemon.add(new Porscythe());
-        pokemon.add(new Krakacobra());
-        pokemon.add(new Fairywoo());
-        pokemon.add(new Therierrrm());
-        pokemon.add(new Fomen());
-        pokemon.add(new Spirix());
-        pokemon.add(new Impuglist());
-        pokemon.add(new Tarturough());
+        addPokedexPokemon("happiny-avalossian, chansey-avalossian, blissey-avalossian");
+        addNewPokemon(new Pollutail());
+        addNewPokemon(new Oiphinae());
+        addNewPokemon(new Hazarachi());
+        addNewPokemon(new Gallostone());
+        addNewPokemon(new Opalian());
+        addPokedexPokemon("paras-avalossian, parasect-avalossian, aipom-avalossian");
+        addNewPokemon(new Slambizom());
+        addNewPokemon(new Macaqdeath());
+        addNewPokemon(new Cocyfish());
+        addNewPokemon(new Maliospi());
+        addNewPokemon(new Helsteteri());
+        addPokedexPokemon("ralts-avalossian, kirlia-avalossian, gardevoir-avalossian, gallade-avalossian");
+        addNewPokemon(new Twillowl());
+        addNewPokemon(new Astrowl());
+        addNewPokemon(new Nyaqua());
+        addNewPokemon(new Whiskereef());
+        addNewPokemon(new Intelattod());
+        addPokedexPokemon("meowth, persian");
+        addNewPokemon(new Slynx());
+        addNewPokemon(new Tragobite());
+        addNewPokemon(new Sphyrnizor());
+        addNewPokemon(new Carchankle());
+        addPokedexPokemon("treecko-avalossian, grovyle-avalossian, sceptile-avalossian");
+        addNewPokemon(new Meekat());
+        addNewPokemon(new Kilokatta());
+        addPokedexPokemon("cufant-avalossian, copperajah-avalossian");
+        addNewPokemon(new Sproutle());
+        addNewPokemon(new Dyramic());
+        addNewPokemon(new Porscythe());
+        addNewPokemon(new Krakacobra());
+        addNewPokemon(new Fairywoo());
+        addPokedexPokemon("slakoth-avalossian, vigoroth-avalossian");
+        addNewPokemon(new Therierrrm());
+        addNewPokemon(new Fomen());
+        addNewPokemon(new Spirix());
+        addNewPokemon(new Impuglist());
+        addNewPokemon(new Tarturough());
 //        pokemon.add(new Mitecron()); Member of line Not Finished
-        pokemon.add(new Vanillurgy());
-        pokemon.add(new Repteptile());
-        pokemon.add(new Uroshella());
+        addPokedexPokemon("vanillite-avalossian, vanillish-avalossian");
+        addNewPokemon(new Vanillurgy());
+        addNewPokemon(new Repteptile());
+        addNewPokemon(new Uroshella());
+        addPokedexPokemon("paraudio-avalossian");
 //        pokemon.add(new Paraudio());   Missing Art
 //        pokemon.add(new Paraboom());   Missing Art
-        pokemon.add(new Barbray());
-        pokemon.add(new Alternatron());
-        pokemon.add(new Mousprite());
-        pokemon.add(new Mouscalibur());
-        pokemon.add(new Mouszerker());
-        pokemon.add(new Snowtus());
-        pokemon.add(new Nerimbe());
+        addPokedexPokemon("qwilfish-avalossian");
+        addNewPokemon(new Barbray());
+        addNewPokemon(new Alternatron());
+        addNewPokemon(new Mousprite());
+        addNewPokemon(new Mouscalibur());
+        addNewPokemon(new Mouszerker());
+        addNewPokemon(new Snowtus());
+        addNewPokemon(new Nerimbe());
+        addPokedexPokemon("duskull-avalossian, dusclops-avalossian, dusknoir-avalossian");
 //        pokemon.add(new Asabuv());   Missing Art
 //        pokemon.add(new Sobalo());   Missing Art
-        pokemon.add(new Bowvine());
-        pokemon.add(new Stingpin());
+        addNewPokemon(new Bowvine());
+        addNewPokemon(new Stingpin());
 //        pokemon.add(new Slith()); Member of line Not Finished
 //        pokemon.add(new Amalgin());   Missing Stats
 //        pokemon.add(new Chimericon()); Member of line Not Finished
-        pokemon.add(new Growlain());
+        addNewPokemon(new Growlain());
 //        pokemon.add(new Tristous());   Missing Art
 //        pokemon.add(new Lancarot());   Missing Art
 //        pokemon.add(new Bedavare());   Missing Art
-        pokemon.add(new Morgous());
+        addNewPokemon(new Morgous());
 //        pokemon.add(new Merlinus());   Missing Art
 //        pokemon.add(new Galahaus());   Missing Art
 //        pokemon.add(new Arthuriac());   Missing Art
-        pokemon.add(new Calligraphis());
-        pokemon.add(new Andracarina());
-        pokemon.add(new Hullk());
-        pokemon.add(new Julimese());
-        pokemon.add(new Newcleaur());
-        pokemon.add(new Chilormangur());
-        pokemon.add(new Operlogica());
+        addNewPokemon(new Calligraphis());
+        addNewPokemon(new Andracarina());
+        addNewPokemon(new Hullk());
+        addNewPokemon(new Julimese());
+        addNewPokemon(new Newcleaur());
+        addNewPokemon(new Chilormangur());
+        addNewPokemon(new Operlogica());
     }
 
 }

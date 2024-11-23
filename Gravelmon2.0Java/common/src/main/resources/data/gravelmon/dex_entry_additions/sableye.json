@@ -1,0 +1,23 @@
+{
+  "entryId": "cobblemon:sableye",
+  "forms": [
+    {
+      "displayForm": "Enjinnian",
+      "unlockForms": [
+        "Enjinnian"
+      ]
+    },
+    {
+      "displayForm": "Delta",
+      "unlockForms": [
+        "Delta"
+      ]
+    },
+    {
+      "displayForm": "Cefiran",
+      "unlockForms": [
+        "Cefiran"
+      ]
+    }
+  ]
+}

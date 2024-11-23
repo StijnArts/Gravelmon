@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fligianhappiny-1",
+      "id": "fligian_happiny-01",
       "pokemon": "happiny fligian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,15 +15,16 @@
       "level": "1-22",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ]
+        "biomes": [
+          "#cobblemon:nether/is_forest"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "eghohappiny-1",
+      "id": "egho_happiny-01",
       "pokemon": "happiny egho",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -31,11 +32,13 @@
       "level": "12-22",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_savanna" ],
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ],
         "timeRange": "day",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "nostandiglett-1",
+      "id": "nostan_diglett-01",
       "pokemon": "diglett nostan",
       "presets": [
-          "near_crops"
+        "near_crops"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,18 @@
       "level": "2-27",
       "weight": 19.0,
       "condition": {
-"biomes": [ "#cobblemon:is_overworld" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "norheimandiglett-1",
+      "id": "norheiman_diglett-01",
       "pokemon": "diglett norheiman",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,17 +34,19 @@
       "level": "5-25",
       "weight": 9.0,
       "condition": {
-"biomes": [ "#cobblemon:is_taiga" ],
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "deltadiglett-1",
+      "id": "delta_diglett-01",
       "pokemon": "diglett delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -50,17 +54,21 @@
       "level": "5-25",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_cold" ]
+        "biomes": [
+          "#cobblemon:is_cold"
+        ]
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_forest" ]    }
-    }
-,
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
+      }
+    },
     {
-      "id": "ayreiandiglett-1",
+      "id": "ayreian_diglett-01",
       "pokemon": "diglett ayreian",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -68,18 +76,23 @@
       "level": "8-26",
       "weight": 9.0,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_forest" ]    }
-    }
-,
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
+      }
+    },
     {
-      "id": "cefirandiglett-1",
+      "id": "cefiran_diglett-01",
       "pokemon": "diglett cefiran",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -87,9 +100,10 @@
       "level": "5-25",
       "weight": 9.0,
       "condition": {
-"biomes": [ "#cobblemon:is_savanna" ]
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ]
       }
     }
-
-]
+  ]
 }

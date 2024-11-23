@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "pyropteryx-1",
+      "id": "pyropteryx-01",
       "pokemon": "pyropteryx",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "32-45",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "day"
       }
     }

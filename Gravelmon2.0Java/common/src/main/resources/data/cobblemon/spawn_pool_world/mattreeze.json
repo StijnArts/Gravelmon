@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mattreeze-1",
+      "id": "mattreeze-01",
       "pokemon": "mattreeze",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "26-39",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_cold" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_cold"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

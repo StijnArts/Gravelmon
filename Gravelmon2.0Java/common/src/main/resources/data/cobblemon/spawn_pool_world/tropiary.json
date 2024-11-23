@@ -4,11 +4,11 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "tropiary-1",
+      "id": "tropiary-01",
       "pokemon": "tropiary",
       "presets": [
-          "village",
-          "foliage"
+        "village",
+        "foliage"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -16,8 +16,11 @@
       "level": "33-55",
       "weight": 0.4,
       "condition": {
-"biomes": [ "#cobblemon:is_spring" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:has_season/spring"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

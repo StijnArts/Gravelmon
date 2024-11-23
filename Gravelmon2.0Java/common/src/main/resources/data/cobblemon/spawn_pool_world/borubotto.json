@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "borubotto-1",
+      "id": "borubotto-01",
       "pokemon": "borubotto",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "45-59",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#cobblemon:is_cold" ]
+        "biomes": [
+          "#cobblemon:is_cold"
+        ]
       }
     }
   ]

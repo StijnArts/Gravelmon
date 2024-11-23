@@ -1,0 +1,29 @@
+{
+  "entryId": "cobblemon:meowth",
+  "forms": [
+    {
+      "displayForm": "Eldiwan",
+      "unlockForms": [
+        "Eldiwan"
+      ]
+    },
+    {
+      "displayForm": "Cefiranfire",
+      "unlockForms": [
+        "Cefiranfire"
+      ]
+    },
+    {
+      "displayForm": "Cefiranice",
+      "unlockForms": [
+        "Cefiranice"
+      ]
+    },
+    {
+      "displayForm": "Cefiranelectric",
+      "unlockForms": [
+        "Cefiranelectric"
+      ]
+    }
+  ]
+}

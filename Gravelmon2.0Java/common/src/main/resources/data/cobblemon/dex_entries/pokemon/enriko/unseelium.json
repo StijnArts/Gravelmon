@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:unseelium",
+  "speciesId": "cobblemon:unseelium",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

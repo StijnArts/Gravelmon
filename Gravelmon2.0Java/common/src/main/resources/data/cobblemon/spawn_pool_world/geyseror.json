@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "geyseror-1",
+      "id": "geyseror-01",
       "pokemon": "geyseror",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "43-65",
       "weight": 0.4,
       "condition": {
-"biomes": [ "#cobblemon:is_dripstone" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_dripstone"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

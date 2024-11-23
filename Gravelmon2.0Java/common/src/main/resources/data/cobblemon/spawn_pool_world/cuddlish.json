@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "cuddlish-1",
+      "id": "cuddlish-01",
       "pokemon": "cuddlish",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,12 +15,18 @@
       "level": "3-22",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#minecraft:is_deep_ocean" ],
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_beach" ]    }
+        "biomes": [
+          "#cobblemon:is_beach"
+        ]
+      }
     }
   ]
 }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "eghofearow-1",
+      "id": "egho_fearow-01",
       "pokemon": "fearow egho",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,12 +15,14 @@
       "level": "25-38",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#cobblemon:is_hills",
-"#cobblemon:is_temperate" ],
+        "biomes": [
+          "#cobblemon:is_hills",
+          "#cobblemon:is_temperate"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

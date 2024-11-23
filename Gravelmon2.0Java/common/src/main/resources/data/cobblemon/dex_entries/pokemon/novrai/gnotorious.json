@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gnotorious",
+  "speciesId": "cobblemon:gnotorious",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

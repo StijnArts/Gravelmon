@@ -1,7 +1,7 @@
 {
   "implemented": true,
-  "name": "marbel",
-  "nationalPokedexNumber": 5047,
+  "name": "Marbel",
+  "nationalPokedexNumber": 5050,
   "primaryType": "rock",
   "abilities": [
     "magicbounce",
@@ -75,7 +75,7 @@
       "requirements": [
         {
           "variant": "biome",
-          "biomeCondition": "#cobblemon:is_spring"
+          "biomeCondition": "#cobblemon:has_season/spring"
         }
       ],
       "permanent": true   

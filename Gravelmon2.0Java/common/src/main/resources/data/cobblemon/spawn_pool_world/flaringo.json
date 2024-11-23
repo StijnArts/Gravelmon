@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "flaringo-1",
+      "id": "flaringo-01",
       "pokemon": "flaringo",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,11 @@
       "level": "26-43",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_forest",
-"#cobblemon:is_volvanic",
-"#cobblemon:is_thermal" ]
+        "biomes": [
+          "#cobblemon:nether/is_forest",
+          "#cobblemon:is_volvanic",
+          "#cobblemon:is_thermal"
+        ]
       }
     }
   ]

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:prospecktor",
+  "speciesId": "cobblemon:prospecktor",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

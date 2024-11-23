@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "leafish-1",
+      "id": "leafish-01",
       "pokemon": "leafish",
       "presets": [
-          "foliage"
+        "foliage"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,12 +15,18 @@
       "level": "4-25",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_river" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_river"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_arid",
-"#cobblemon:is_cold" ]    }
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_cold"
+        ]
+      }
     }
   ]
 }

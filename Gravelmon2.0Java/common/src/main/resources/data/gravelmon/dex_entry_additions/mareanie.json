@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:mareanie",
+  "forms": [
+    {
+      "displayForm": "X",
+      "unlockForms": [
+        "X"
+      ]
+    },
+    {
+      "displayForm": "Hoennian",
+      "unlockForms": [
+        "Hoennian"
+      ]
+    }
+  ]
+}

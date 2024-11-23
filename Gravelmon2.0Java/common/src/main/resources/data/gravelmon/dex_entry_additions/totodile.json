@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:totodile",
+  "forms": [
+    {
+      "displayForm": "Egho",
+      "unlockForms": [
+        "Egho"
+      ]
+    },
+    {
+      "displayForm": "Ayreian",
+      "unlockForms": [
+        "Ayreian"
+      ]
+    }
+  ]
+}

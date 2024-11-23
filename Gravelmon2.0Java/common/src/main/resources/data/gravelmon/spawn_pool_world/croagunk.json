@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltacroagunk-1",
+      "id": "delta_croagunk-01",
       "pokemon": "croagunk delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,11 @@
       "level": "12-36",
       "weight": 9.0,
       "condition": {
-"biomes": [ "#cobblemon:is_wasteland",
-"#cobblemon:is_crimson" ]
+        "biomes": [
+          "#cobblemon:nether/is_wasteland",
+          "#cobblemon:nether/is_crimson"
+        ]
       }
     }
-
-]
+  ]
 }

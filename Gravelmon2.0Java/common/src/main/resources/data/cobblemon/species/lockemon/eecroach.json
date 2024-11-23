@@ -1,7 +1,7 @@
 {
   "implemented": true,
-  "name": "eecroach",
-  "nationalPokedexNumber": 3473,
+  "name": "Eecroach",
+  "nationalPokedexNumber": 3476,
   "primaryType": "grass",
   "secondaryType": "bug",
   "abilities": [
@@ -45,7 +45,7 @@
       "secondaryType": "dragon",
       "abilities": [
     "keeneye"      ],
-      "baseScale": 1.9125,
+      "baseScale": 1.4,
         "hitbox": {
           "width": 6.0,
           "height": 6.0,

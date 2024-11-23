@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "kaskadianabomasnow-1",
+      "id": "kaskadian_abomasnow-01",
       "pokemon": "abomasnow kaskadian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,18 +15,23 @@
       "level": "40-65",
       "weight": 0.9,
       "condition": {
-"biomes": [ "#cobblemon:is_taiga" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_snowy" ]    }
-    }
-,
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ]
+      }
+    },
     {
-      "id": "cefiranabomasnow-1",
+      "id": "cefiran_abomasnow-01",
       "pokemon": "abomasnow cefiran",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,10 +39,12 @@
       "level": "40-65",
       "weight": 0.9,
       "condition": {
-"biomes": [ "#cobblemon:is_swamp" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:aquarrior",
+  "speciesId": "cobblemon:aquarrior",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

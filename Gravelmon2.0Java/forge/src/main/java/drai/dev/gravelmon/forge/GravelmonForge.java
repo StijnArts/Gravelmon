@@ -12,11 +12,11 @@ import net.minecraft.*;
 import net.minecraft.client.renderer.*;
 import net.minecraft.locale.*;
 import net.minecraft.network.chat.*;
+import net.minecraft.resources.*;
 import net.minecraft.world.item.*;
-import net.minecraftforge.client.event.*;
-import net.minecraftforge.eventbus.api.*;
-import net.minecraftforge.fml.common.*;
-import net.minecraftforge.fml.javafmlmod.*;
+import net.neoforged.bus.api.*;
+import net.neoforged.fml.common.*;
+import net.neoforged.neoforge.client.event.*;
 
 import java.util.stream.*;
 
@@ -27,19 +27,14 @@ public class GravelmonForge {
     public static int TYPE_COUNT = 18;
     public GravelmonForge() {
 		// Submit our event bus to let architectury register our content on the right time
-        EventBuses.registerModEventBus(Gravelmon.MOD_ID, FMLJavaModLoadingContext.get().getModEventBus());
-            Gravelmon.init();
+//        EventBuses.registerModEventBus(Gravelmon.MOD_ID, FMLJavaModLoadingContext.get().getModEventBus()); todo
+        Gravelmon.init();
         PlatformEvents.CLIENT_ITEM_TOOLTIP.subscribe(Priority.LOWEST, itemTooltipEvent -> {
             var stack = itemTooltipEvent.getStack();
             var lines = itemTooltipEvent.getLines();
             var stackDescription = stack.getItem().getDescriptionId();
             var descriptionsForGravelmonBalls = GravelmonItems.POKE_BALLS.stream().flatMap(item-> Stream.of(item.get().getDescriptionId())).toList();
             if (descriptionsForGravelmonBalls.contains(stackDescription)) {
-                if(stack.getTag() != null){
-                    if (!stack.getTag().getBoolean(DataKeys.HIDE_TOOLTIP)) {
-                        return Unit.INSTANCE;
-                    }
-                }
                 var language = Language.getInstance();
                 if(stackDescription.contains("nuzlocke")){
                     var key1 = baseLangKeyForItem(stack)+1;
@@ -63,10 +58,10 @@ public class GravelmonForge {
     @SubscribeEvent
     public static void onRegisterNamedRenderTypes(RegisterNamedRenderTypesEvent event)
     {
-        event.register("gravelmon:orange_apricorn", RenderType.cutout(), Sheets.cutoutBlockSheet());
-        event.register("gravelmon:purple_apricorn", RenderType.cutout(), Sheets.cutoutBlockSheet());
-        event.register("gravelmon:purple_apricorn_sapling", RenderType.cutout(), Sheets.cutoutBlockSheet());
-        event.register("gravelmon:orange_apricorn_sapling", RenderType.cutout(), Sheets.cutoutBlockSheet());
+        event.register(ResourceLocation.fromNamespaceAndPath("gravelmon","orange_apricorn"), RenderType.cutout(), Sheets.cutoutBlockSheet());
+        event.register(ResourceLocation.fromNamespaceAndPath("gravelmon","purple_apricorn"), RenderType.cutout(), Sheets.cutoutBlockSheet());
+        event.register(ResourceLocation.fromNamespaceAndPath("gravelmon","purple_apricorn_sapling"), RenderType.cutout(), Sheets.cutoutBlockSheet());
+        event.register(ResourceLocation.fromNamespaceAndPath("gravelmon","orange_apricorn_sapling"), RenderType.cutout(), Sheets.cutoutBlockSheet());
     }
 
 

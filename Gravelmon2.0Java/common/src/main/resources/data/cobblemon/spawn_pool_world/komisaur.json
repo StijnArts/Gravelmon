@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "komisaur-1",
+      "id": "komisaur-01",
       "pokemon": "komisaur",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,13 @@
       "level": "3-22",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#minecraft:is_end",
-"#cobblemon:is_badlands",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+        "biomes": [
+          "#minecraft:is_end",
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_mountain"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

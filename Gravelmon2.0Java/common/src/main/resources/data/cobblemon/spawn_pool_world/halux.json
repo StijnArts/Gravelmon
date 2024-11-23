@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "halux-1",
+      "id": "halux-01",
       "pokemon": "halux",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "3-22",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_magical" ],
+        "biomes": [
+          "#cobblemon:is_sky",
+          "#cobblemon:is_magical"
+        ],
         "timeRange": "day"
       }
     }

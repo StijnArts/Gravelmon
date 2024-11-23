@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "norheimanvoltorb-1",
+      "id": "norheiman_voltorb-01",
       "pokemon": "voltorb norheiman",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,18 @@
       "level": "8-33",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_mountain" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "ayreianvoltorb-1",
+      "id": "ayreian_voltorb-01",
       "pokemon": "voltorb ayreian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,15 +34,16 @@
       "level": "12-22",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_basalt" ]
+        "biomes": [
+          "#cobblemon:nether/is_basalt"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "mysticvoltorb-1",
+      "id": "mystic_voltorb-01",
       "pokemon": "voltorb mystic",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -48,9 +51,10 @@
       "level": "12-22",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ]
+        "biomes": [
+          "#cobblemon:is_magical"
+        ]
       }
     }
-
-]
+  ]
 }

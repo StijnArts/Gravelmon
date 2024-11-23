@@ -4,11 +4,11 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "altarath-1",
+      "id": "altarath-01",
       "pokemon": "altarath",
       "presets": [
-          "underwater",
-          "near_magma"
+        "underwater",
+        "near_magma"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -16,8 +16,11 @@
       "level": "41-51",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ],
-        "canSeeSky": true
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

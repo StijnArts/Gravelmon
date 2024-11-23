@@ -4,11 +4,11 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "marawder-1",
+      "id": "marawder-01",
       "pokemon": "marawder",
       "presets": [
-          "underwater",
-          "natural"
+        "underwater",
+        "natural"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -16,8 +16,11 @@
       "level": "36-58",
       "weight": 0.8,
       "condition": {
-"biomes": [ "#cobblemon:is_jungle" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

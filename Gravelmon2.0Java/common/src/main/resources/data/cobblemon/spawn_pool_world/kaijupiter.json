@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "kaijupiter-1",
+      "id": "kaijupiter-01",
       "pokemon": "kaijupiter",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "52-65",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_mountain" ],
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

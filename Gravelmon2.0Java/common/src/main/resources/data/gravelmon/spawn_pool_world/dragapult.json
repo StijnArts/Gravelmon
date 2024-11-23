@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "hoenniandragapult-1",
+      "id": "hoennian_dragapult-01",
       "pokemon": "dragapult hoennian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,11 @@
       "level": "50-68",
       "weight": 0.054,
       "condition": {
-"biomes": [ "#cobblemon:is_basalt",
-"#cobblemon:is_soul_fire" ]
+        "biomes": [
+          "#cobblemon:nether/is_basalt",
+          "#cobblemon:nether/is_soul_fire"
+        ]
       }
     }
-
-]
+  ]
 }

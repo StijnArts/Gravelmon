@@ -1,0 +1,23 @@
+{
+  "entryId": "cobblemon:arcanine",
+  "forms": [
+    {
+      "displayForm": "Aristosian",
+      "unlockForms": [
+        "Aristosian"
+      ]
+    },
+    {
+      "displayForm": "Delta",
+      "unlockForms": [
+        "Delta"
+      ]
+    },
+    {
+      "displayForm": "Armiran",
+      "unlockForms": [
+        "Armiran"
+      ]
+    }
+  ]
+}

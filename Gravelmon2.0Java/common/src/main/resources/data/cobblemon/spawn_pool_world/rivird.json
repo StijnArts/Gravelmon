@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "rivird-1",
+      "id": "rivird-01",
       "pokemon": "rivird",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,12 +15,18 @@
       "level": "6-19",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_beach",
-"#minecraft:is_ocean" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_beach",
+          "#minecraft:is_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_cold" ]    }
+        "biomes": [
+          "#cobblemon:is_cold"
+        ]
+      }
     }
   ]
 }

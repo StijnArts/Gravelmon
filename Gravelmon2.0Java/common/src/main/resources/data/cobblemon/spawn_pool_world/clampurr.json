@@ -4,11 +4,11 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "clampurr-1",
+      "id": "clampurr-01",
       "pokemon": "clampurr",
       "presets": [
-          "underwater",
-          "reef"
+        "underwater",
+        "reef"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -16,7 +16,9 @@
       "level": "28-43",
       "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_warm_ocean" ]
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ]
       }
     }
   ]

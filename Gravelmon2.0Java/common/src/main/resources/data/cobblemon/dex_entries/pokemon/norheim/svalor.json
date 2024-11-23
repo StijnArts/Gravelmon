@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:svalor",
+  "speciesId": "cobblemon:svalor",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

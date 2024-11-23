@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:kragodon",
+  "speciesId": "cobblemon:kragodon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

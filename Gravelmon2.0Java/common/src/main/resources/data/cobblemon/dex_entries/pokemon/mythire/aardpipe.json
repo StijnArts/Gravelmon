@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:aardpipe",
+  "speciesId": "cobblemon:aardpipe",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

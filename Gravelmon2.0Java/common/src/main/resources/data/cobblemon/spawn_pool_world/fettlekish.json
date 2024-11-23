@@ -4,11 +4,11 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fettlekish-1",
+      "id": "fettlekish-01",
       "pokemon": "fettlekish",
       "presets": [
-          "underwater",
-          "reef"
+        "underwater",
+        "reef"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -16,8 +16,10 @@
       "level": "30-45",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_warm_ocean",
-"#cobblemon:is_lukewarm_ocean" ]
+        "biomes": [
+          "#cobblemon:is_warm_ocean",
+          "#cobblemon:is_lukewarm_ocean"
+        ]
       }
     }
   ]

@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:togepi",
+  "forms": [
+    {
+      "displayForm": "Varitasian",
+      "unlockForms": [
+        "Varitasian"
+      ]
+    },
+    {
+      "displayForm": "Hubian",
+      "unlockForms": [
+        "Hubian"
+      ]
+    }
+  ]
+}

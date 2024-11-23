@@ -7,6 +7,8 @@ pluginManagement {
     }
 }
 
+rootProject.name = 'gravelmon'
+
 include("common")
 include("data")
 include("fabric")

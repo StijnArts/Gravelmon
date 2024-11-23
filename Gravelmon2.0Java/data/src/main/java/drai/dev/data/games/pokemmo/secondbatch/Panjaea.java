@@ -35,7 +35,7 @@ public class Panjaea extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Smallet());   Missing Stats
 //        pokemon.add(new Stormmer());   Missing Stats
 //        pokemon.add(new Kikkyu());   Missing Stats
-        pokemon.add(new Necreon());
+        addNewPokemon(new Necreon());
 //        pokemon.add(new Tauroot());   Missing Stats
 //        pokemon.add(new Taurmor());   Missing Stats
 //        pokemon.add(new Minothorn());   Missing Stats
@@ -70,7 +70,7 @@ public class Panjaea extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Cardinoir());   Missing Stats
 //        pokemon.add(new Cardinuit());   Missing Stats
 //        pokemon.add(new Ramster());   Missing Stats
-        pokemon.add(new Bladeon());
+        addNewPokemon(new Bladeon());
 //        pokemon.add(new Bumblebaa());   Missing Stats
 //        pokemon.add(new Womball());   Missing Stats
 //        pokemon.add(new Wombatant());   Missing Stats
@@ -122,7 +122,7 @@ public class Panjaea extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Rutabug());   Missing Stats
 //        pokemon.add(new Turniptero());   Missing Stats
 //        pokemon.add(new Queenbeet());   Missing Stats
-        pokemon.add(new Waspeon());
+        addNewPokemon(new Waspeon());
 //        pokemon.add(new Stemur());   Missing Stats
 //        pokemon.add(new Vandalaye());   Missing Stats
 //        pokemon.add(new Madarascal());   Missing Stats
@@ -153,7 +153,7 @@ public class Panjaea extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Beakat());   Missing Stats
 //        pokemon.add(new Fowland());   Missing Stats
 //        pokemon.add(new Seismyth());   Missing Stats
-        pokemon.add(new Toxeon());
+        addNewPokemon(new Toxeon());
     }
 
 }

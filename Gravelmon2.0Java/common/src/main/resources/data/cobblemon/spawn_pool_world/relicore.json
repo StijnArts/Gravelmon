@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "relicore-1",
+      "id": "relicore-01",
       "pokemon": "relicore",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,7 +15,9 @@
       "level": "48-66",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#minecraft:is_deep_ocean" ]
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ]
       }
     }
   ]

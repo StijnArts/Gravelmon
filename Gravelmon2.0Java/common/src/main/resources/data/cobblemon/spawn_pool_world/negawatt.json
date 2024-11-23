@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "negawatt-1",
+      "id": "negawatt-01",
       "pokemon": "negawatt",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,11 +15,16 @@
       "level": "44-67",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_overworld" ],
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
         "isThundering": true
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_highlands" ]    }
+        "biomes": [
+          "#cobblemon:is_highlands"
+        ]
+      }
     }
   ]
 }

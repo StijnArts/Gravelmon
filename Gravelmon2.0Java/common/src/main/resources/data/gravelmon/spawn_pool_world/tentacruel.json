@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltatentacruel-1",
+      "id": "delta_tentacruel-01",
       "pokemon": "tentacruel delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,18 @@
       "level": "39-57",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_jungle" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "hoenniantentacruel-1",
+      "id": "hoennian_tentacruel-01",
       "pokemon": "tentacruel hoennian",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -32,20 +34,25 @@
       "level": "30-52",
       "weight": 0.9,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "maxY": 48
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_cold",
-"#cobblemon:is_freezing" ]    }
-    }
-,
+        "biomes": [
+          "#cobblemon:is_cold",
+          "#cobblemon:is_freezing"
+        ]
+      }
+    },
     {
-      "id": "relictentacruel-1",
+      "id": "relic_tentacruel-01",
       "pokemon": "tentacruel relic",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -53,13 +60,18 @@
       "level": "30-47",
       "weight": 0.9,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "maxY": 30
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_warm_ocean" ]    }
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ]
+      }
     }
-
-]
+  ]
 }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "frosterror-1",
+      "id": "frosterror-01",
       "pokemon": "frosterror",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "52-63",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#cobblemon:is_freezing" ]
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ]
       }
     }
   ]

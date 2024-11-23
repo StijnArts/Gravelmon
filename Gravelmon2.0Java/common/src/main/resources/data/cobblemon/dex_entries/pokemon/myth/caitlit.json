@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:caitlit",
+  "speciesId": "cobblemon:caitlit",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

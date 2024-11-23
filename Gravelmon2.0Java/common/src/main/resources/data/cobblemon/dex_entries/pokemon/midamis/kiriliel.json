@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:kiriliel",
+  "speciesId": "cobblemon:kiriliel",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

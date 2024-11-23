@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:gallade",
+  "forms": [
+    {
+      "displayForm": "Fligian",
+      "unlockForms": [
+        "Fligian"
+      ]
+    },
+    {
+      "displayForm": "Delta",
+      "unlockForms": [
+        "Delta"
+      ]
+    }
+  ]
+}

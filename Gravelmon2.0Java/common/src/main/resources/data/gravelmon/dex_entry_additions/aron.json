@@ -1,0 +1,23 @@
+{
+  "entryId": "cobblemon:aron",
+  "forms": [
+    {
+      "displayForm": "Hizian",
+      "unlockForms": [
+        "Hizian"
+      ]
+    },
+    {
+      "displayForm": "Delta",
+      "unlockForms": [
+        "Delta"
+      ]
+    },
+    {
+      "displayForm": "Ayreian",
+      "unlockForms": [
+        "Ayreian"
+      ]
+    }
+  ]
+}

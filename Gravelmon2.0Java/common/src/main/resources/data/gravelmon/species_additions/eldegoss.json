@@ -10,7 +10,7 @@
       "requirements": [
         {
           "variant": "biome",
-          "biomeCondition": "#cobblemon:is_autumn"
+          "biomeCondition": "#cobblemon:has_season/autumn"
         }
       ],
       "permanent": true   

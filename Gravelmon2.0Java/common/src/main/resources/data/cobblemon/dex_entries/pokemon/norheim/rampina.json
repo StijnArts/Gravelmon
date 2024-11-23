@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:rampina",
+  "speciesId": "cobblemon:rampina",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

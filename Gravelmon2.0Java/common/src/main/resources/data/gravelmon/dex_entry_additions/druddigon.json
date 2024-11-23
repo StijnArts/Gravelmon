@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:druddigon",
+  "forms": [
+    {
+      "displayForm": "Novran",
+      "unlockForms": [
+        "Novran"
+      ]
+    },
+    {
+      "displayForm": "Hizian",
+      "unlockForms": [
+        "Hizian"
+      ]
+    }
+  ]
+}

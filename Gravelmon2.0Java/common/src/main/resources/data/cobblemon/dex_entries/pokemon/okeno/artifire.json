@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:artifire",
+  "speciesId": "cobblemon:artifire",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

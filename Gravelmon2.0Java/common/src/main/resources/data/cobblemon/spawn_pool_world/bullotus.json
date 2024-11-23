@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "bullotus-1",
+      "id": "bullotus-01",
       "pokemon": "bullotus",
       "presets": [
-          "water_surface"
+        "water_surface"
       ],
       "type": "pokemon",
       "context": "surface",
@@ -15,9 +15,32 @@
       "level": "4-25",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_swamp",
-"#cobblemon:is_freshwater" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_freshwater"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "blue_bullotus-01",
+      "pokemon": "bullotus blue",
+      "presets": [
+        "water_surface"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "uncommon",
+      "level": "4-25",
+      "weight": 2.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_freshwater"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

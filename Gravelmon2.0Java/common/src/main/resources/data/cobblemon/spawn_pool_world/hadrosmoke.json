@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "hadrosmoke-1",
+      "id": "hadrosmoke-01",
       "pokemon": "hadrosmoke",
       "presets": [
-          "near_lava"
+        "near_lava"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,11 @@
       "level": "35-45",
       "weight": 0.6,
       "condition": {
-"biomes": [ "#cobblemon:is_volvanic",
-"#cobblemon:is_basalt",
-"#cobblemon:is_wasteland" ]
+        "biomes": [
+          "#cobblemon:is_volvanic",
+          "#cobblemon:nether/is_basalt",
+          "#cobblemon:nether/is_wasteland"
+        ]
       }
     }
   ]

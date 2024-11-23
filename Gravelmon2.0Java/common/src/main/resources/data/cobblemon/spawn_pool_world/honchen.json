@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "honchen-1",
+      "id": "honchen-01",
       "pokemon": "honchen",
       "presets": [
-          "water_surface"
+        "water_surface"
       ],
       "type": "pokemon",
       "context": "surface",
@@ -15,9 +15,12 @@
       "level": "31-55",
       "weight": 2.6,
       "condition": {
-"biomes": [ "#cobblemon:is_bamboo" ],
+        "biomes": [
+          "#cobblemon:is_bamboo"
+        ],
         "isRaining": false,
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

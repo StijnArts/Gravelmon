@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:larintenant",
+  "speciesId": "cobblemon:larintenant",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

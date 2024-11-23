@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gleamur",
+  "speciesId": "cobblemon:gleamur",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

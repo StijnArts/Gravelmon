@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:catastropod",
+  "speciesId": "cobblemon:catastropod",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "poiriasse-1",
+      "id": "poiriasse-01",
       "pokemon": "poiriasse",
       "presets": [
-          "near_water"
+        "near_water"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "31-54",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy" ]
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ]
       }
     }
   ]

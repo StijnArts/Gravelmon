@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "signetanblakjak-1",
+      "id": "signetan_blakjak-01",
       "pokemon": "blakjak signetan",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,12 +15,16 @@
       "level": "18-43",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ],
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
         "timeRange": "night"
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_coast" ]    }
+        "biomes": [
+          "#cobblemon:is_coast"
+        ]
+      }
     }
-
-]
+  ]
 }

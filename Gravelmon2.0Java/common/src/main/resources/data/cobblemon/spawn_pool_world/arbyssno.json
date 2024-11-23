@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "arbyssno-1",
+      "id": "arbyssno-01",
       "pokemon": "arbyssno",
       "presets": [
-          "near_water"
+        "near_water"
       ],
       "type": "pokemon",
       "context": "seafloor",
@@ -15,7 +15,9 @@
       "level": "35-53",
       "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_cave" ]
+        "biomes": [
+          "#cobblemon:is_cave"
+        ]
       }
     }
   ]

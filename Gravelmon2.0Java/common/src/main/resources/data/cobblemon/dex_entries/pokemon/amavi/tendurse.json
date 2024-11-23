@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tendurse",
+  "speciesId": "cobblemon:tendurse",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

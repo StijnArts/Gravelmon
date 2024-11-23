@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "pyrockit-1",
+      "id": "pyrockit-01",
       "pokemon": "pyrockit",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "3-22",
       "weight": 3.8,
       "condition": {
-"biomes": [ "minecraft:cherry_grove" ],
+        "biomes": [
+          "minecraft:cherry_grove"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

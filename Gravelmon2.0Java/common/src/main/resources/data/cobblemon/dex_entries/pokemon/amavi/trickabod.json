@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:trickabod",
+  "speciesId": "cobblemon:trickabod",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

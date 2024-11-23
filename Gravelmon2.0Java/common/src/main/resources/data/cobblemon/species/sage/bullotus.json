@@ -1,6 +1,6 @@
 {
   "implemented": true,
-  "name": "bullotus",
+  "name": "Bullotus",
   "nationalPokedexNumber": 1109,
   "primaryType": "grass",
   "secondaryType": "water",
@@ -54,7 +54,7 @@
     "hydration",
     "h:leafguard"
       ],
-      "baseScale": 0.225,
+      "baseScale": 0.4,
         "hitbox": {
           "width": 6.0,
           "height": 6.0,
@@ -85,7 +85,7 @@
       "eggGroups": [
     "water_1",
     "grass"
-  ],  "preEvolution": "flowger form=blue",
+  ],  "preEvolution": "flowger form=BLUE",
 
   "moves": [
     "1:uproar",

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "blubelrog-1",
+      "id": "blubelrog-01",
       "pokemon": "blubelrog",
       "presets": [
-          "near_water"
+        "near_water"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,13 +15,19 @@
       "level": "36-58",
       "weight": 1.2,
       "condition": {
-"biomes": [ "#cobblemon:is_overworld" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#minecraft:is_ocean",
-"#cobblemon:is_cold",
-"#cobblemon:is_coast" ]    }
+        "biomes": [
+          "#minecraft:is_ocean",
+          "#cobblemon:is_cold",
+          "#cobblemon:is_coast"
+        ]
+      }
     }
   ]
 }

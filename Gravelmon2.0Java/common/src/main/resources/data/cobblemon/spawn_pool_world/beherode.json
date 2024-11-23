@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "beherode-1",
+      "id": "beherode-01",
       "pokemon": "beherode",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,11 @@
       "level": "43-62",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#cobblemon:is_volvanic",
-"#cobblemon:is_cave",
-"#cobblemon:is_badlands" ]
+        "biomes": [
+          "#cobblemon:is_volvanic",
+          "#cobblemon:is_cave",
+          "#cobblemon:is_badlands"
+        ]
       }
     }
   ]

@@ -1,0 +1,23 @@
+{
+  "entryId": "cobblemon:electrode",
+  "forms": [
+    {
+      "displayForm": "Norheiman",
+      "unlockForms": [
+        "Norheiman"
+      ]
+    },
+    {
+      "displayForm": "Ayreian",
+      "unlockForms": [
+        "Ayreian"
+      ]
+    },
+    {
+      "displayForm": "Mystic",
+      "unlockForms": [
+        "Mystic"
+      ]
+    }
+  ]
+}

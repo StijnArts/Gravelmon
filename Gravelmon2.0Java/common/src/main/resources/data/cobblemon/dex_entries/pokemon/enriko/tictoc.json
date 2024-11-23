@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tictoc",
+  "speciesId": "cobblemon:tictoc",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "impuglist-1",
+      "id": "impuglist-01",
       "pokemon": "impuglist",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "9-28",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_wasteland" ]
+        "biomes": [
+          "#cobblemon:nether/is_wasteland"
+        ]
       }
     }
   ]

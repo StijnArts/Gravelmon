@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "beestical-1",
+      "id": "beestical-01",
       "pokemon": "beestical",
       "presets": [
-          "honey_tree"
+        "honey_tree"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "28-54",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_spring" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:has_season/spring"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

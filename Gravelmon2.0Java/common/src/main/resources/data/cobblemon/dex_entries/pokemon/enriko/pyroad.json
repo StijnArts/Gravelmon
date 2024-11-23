@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:pyroad",
+  "speciesId": "cobblemon:pyroad",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

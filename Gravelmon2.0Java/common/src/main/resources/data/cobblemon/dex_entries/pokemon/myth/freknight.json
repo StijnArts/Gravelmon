@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:freknight",
+  "speciesId": "cobblemon:freknight",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

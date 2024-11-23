@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "eghomeganium-1",
+      "id": "egho_meganium-01",
       "pokemon": "meganium egho",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,20 +15,25 @@
       "level": "32-49",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_island",
-"#cobblemon:is_tropical_island" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_island",
+          "#cobblemon:is_tropical_island"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_arid",
-"#cobblemon:is_cold" ]    }
-    }
-,
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_cold"
+        ]
+      }
+    },
     {
-      "id": "ayreianmeganium-1",
+      "id": "ayreian_meganium-01",
       "pokemon": "meganium ayreian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -36,11 +41,13 @@
       "level": "36-47",
       "weight": 0.2,
       "condition": {
-"biomes": [ "minecraft:cherry_grove" ],
-        "canSeeSky": true,
+        "biomes": [
+          "minecraft:cherry_grove"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "day"
       }
     }
-
-]
+  ]
 }

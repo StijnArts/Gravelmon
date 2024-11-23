@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "raccolossus-1",
+      "id": "raccolossus-01",
       "pokemon": "raccolossus",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,11 +15,17 @@
       "level": "43-67",
       "weight": 2.2,
       "condition": {
-"biomes": [ "#cobblemon:is_wasteland" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:nether/is_wasteland"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_cold" ]    }
+        "biomes": [
+          "#cobblemon:is_cold"
+        ]
+      }
     }
   ]
 }

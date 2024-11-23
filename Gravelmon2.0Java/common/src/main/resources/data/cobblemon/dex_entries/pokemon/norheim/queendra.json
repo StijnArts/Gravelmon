@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:queendra",
+  "speciesId": "cobblemon:queendra",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

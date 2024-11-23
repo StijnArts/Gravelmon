@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "faipan-1",
+      "id": "faipan-01",
       "pokemon": "faipan",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "39-56",
       "weight": 0.6,
       "condition": {
-"biomes": [ "#cobblemon:is_magical",
-"#cobblemon:is_jungle" ],
-        "canSeeSky": night
+        "biomes": [
+          "#cobblemon:is_magical",
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

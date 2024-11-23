@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:yoikid",
+  "speciesId": "cobblemon:yoikid",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

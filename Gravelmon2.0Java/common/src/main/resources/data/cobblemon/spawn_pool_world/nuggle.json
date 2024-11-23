@@ -4,11 +4,11 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "nuggle-1",
+      "id": "nuggle-01",
       "pokemon": "nuggle",
       "presets": [
-          "gemstones",
-          "natural"
+        "gemstones",
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -16,9 +16,12 @@
       "level": "2-22",
       "weight": 9.0,
       "condition": {
-"biomes": [ "#cobblemon:is_overworld" ],
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
         "minY": 0,
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "hellsire-1",
+      "id": "hellsire-01",
       "pokemon": "hellsire",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "65-75",
       "weight": 3.0E-5,
       "condition": {
-"biomes": [ "#cobblemon:is_wasteland" ]
+        "biomes": [
+          "#cobblemon:nether/is_wasteland"
+        ]
       }
     }
   ]

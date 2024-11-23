@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gastrodon-fligian",
+  "speciesId": "cobblemon:gastrodon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Fligian",
+      "unlockForms": [
+        "Fligian"
+      ]
+    }
+  ],
+  "variations": []
+}

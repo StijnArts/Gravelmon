@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:nuggle",
+  "speciesId": "cobblemon:nuggle",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

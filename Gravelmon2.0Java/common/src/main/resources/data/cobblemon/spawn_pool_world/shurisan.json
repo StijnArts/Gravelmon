@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "shurisan-1",
+      "id": "shurisan-01",
       "pokemon": "shurisan",
       "presets": [
-          "foliage"
+        "foliage"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "28-43",
       "weight": 0.4,
       "condition": {
-"biomes": [ "minecraft:cherry_grove",
-"#cobblemon:is_bamboo" ],
-        "canSeeSky": true
+        "biomes": [
+          "minecraft:cherry_grove",
+          "#cobblemon:is_bamboo"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

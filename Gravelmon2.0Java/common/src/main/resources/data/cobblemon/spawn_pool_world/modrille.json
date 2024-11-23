@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "modrille-1",
+      "id": "modrille-01",
       "pokemon": "modrille",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "11-42",
       "weight": 2.5,
       "condition": {
-"biomes": [ "#cobblemon:is_plains" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_plains"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

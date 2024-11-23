@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:bristletoe",
+  "speciesId": "cobblemon:bristletoe",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

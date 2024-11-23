@@ -25,14 +25,14 @@
     ]
   },
   "depends": {
-    "fabricloader": ">=${loader_version}",
+    "fabricloader": ">=${fabric_loader_version}",
     "minecraft": ">=${minecraft_version}",
-    "java": ">=17",
+    "java": ">=21",
     "fabric-api": "*",
-    "cobblemon": ">=1.5.2",
+    "cobblemon": ">=1.6.0",
     "architectury": ">=9.1",
     "packetfixer": ">=1.1",
-    "gravels_extended_battles": ">=1.4"
+    "gravels_extended_battles": ">=1.5"
   },
   "mixins": [
     "gravelmon.mixins.json"

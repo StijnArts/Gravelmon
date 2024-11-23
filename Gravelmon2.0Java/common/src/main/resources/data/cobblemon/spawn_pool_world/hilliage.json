@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "hilliage-1",
+      "id": "hilliage-01",
       "pokemon": "hilliage",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "19-32",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_floral" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_floral"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

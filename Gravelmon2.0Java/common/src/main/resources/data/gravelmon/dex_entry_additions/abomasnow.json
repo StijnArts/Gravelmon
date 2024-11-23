@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:abomasnow",
+  "forms": [
+    {
+      "displayForm": "Kaskadian",
+      "unlockForms": [
+        "Kaskadian"
+      ]
+    },
+    {
+      "displayForm": "Cefiran",
+      "unlockForms": [
+        "Cefiran"
+      ]
+    }
+  ]
+}

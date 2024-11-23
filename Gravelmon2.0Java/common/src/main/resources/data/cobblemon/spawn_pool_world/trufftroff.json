@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "trufftroff-1",
+      "id": "trufftroff-01",
       "pokemon": "trufftroff",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,11 +15,16 @@
       "level": "35-53",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_forest",
-"#cobblemon:is_mushroom" ]
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_mushroom"
+        ]
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_summer" ]    }
+        "biomes": [
+          "#cobblemon:has_season/summer"
+        ]
+      }
     }
   ]
 }

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "chanterra-1",
+      "id": "chanterra-01",
       "pokemon": "chanterra",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,12 +15,17 @@
       "level": "28-43",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_mushroom",
-"#cobblemon:is_forest" ],
+        "biomes": [
+          "#cobblemon:is_mushroom",
+          "#cobblemon:is_forest"
+        ],
         "timeRange": "night"
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_jungle" ]    }
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ]
+      }
     }
   ]
 }

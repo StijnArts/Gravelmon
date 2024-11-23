@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "peckabone-1",
+      "id": "peckabone-01",
       "pokemon": "peckabone",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "29-43",
       "weight": 0.4,
       "condition": {
-"biomes": [ "#cobblemon:is_badlands",
-"#cobblemon:is_desert" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_desert"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "day"
       }
     }

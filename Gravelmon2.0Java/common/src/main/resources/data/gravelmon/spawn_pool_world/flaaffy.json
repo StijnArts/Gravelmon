@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "aristosianflaaffy-1",
+      "id": "aristosian_flaaffy-01",
       "pokemon": "flaaffy aristosian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,18 +15,23 @@
       "level": "15-37",
       "weight": 0.9,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_hills" ]    }
-    }
-,
+        "biomes": [
+          "#cobblemon:is_hills"
+        ]
+      }
+    },
     {
-      "id": "mythianflaaffy-1",
+      "id": "mythian_flaaffy-01",
       "pokemon": "flaaffy mythian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,9 +39,10 @@
       "level": "15-36",
       "weight": 0.9,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ]
+        "biomes": [
+          "#cobblemon:nether/is_forest"
+        ]
       }
     }
-
-]
+  ]
 }

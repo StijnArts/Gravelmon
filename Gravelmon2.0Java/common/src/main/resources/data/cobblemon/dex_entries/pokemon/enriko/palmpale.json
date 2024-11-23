@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:palmpale",
+  "speciesId": "cobblemon:palmpale",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

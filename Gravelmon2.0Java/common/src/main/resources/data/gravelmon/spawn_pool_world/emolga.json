@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltaemolga-1",
+      "id": "delta_emolga-01",
       "pokemon": "emolga delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,15 +15,16 @@
       "level": "12-43",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_crimson" ]
+        "biomes": [
+          "#cobblemon:nether/is_crimson"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "hoennianemolga-1",
+      "id": "hoennian_emolga-01",
       "pokemon": "emolga hoennian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -31,10 +32,11 @@
       "level": "12-32",
       "weight": 1.9,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ],
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
         "timeRange": "night"
       }
     }
-
-]
+  ]
 }

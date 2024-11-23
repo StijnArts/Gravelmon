@@ -4,11 +4,11 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "damasoar-1",
+      "id": "damasoar-01",
       "pokemon": "damasoar",
       "presets": [
-          "natural",
-          "underwater"
+        "natural",
+        "underwater"
       ],
       "type": "pokemon",
       "context": "surface",
@@ -16,9 +16,12 @@
       "level": "36-58",
       "weight": 0.8,
       "condition": {
-"biomes": [ "#cobblemon:is_frozen",
-"#cobblemon:is_jungle" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_frozen",
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

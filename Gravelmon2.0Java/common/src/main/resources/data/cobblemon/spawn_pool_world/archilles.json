@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "archilles-1",
+      "id": "archilles-01",
       "pokemon": "archilles",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "29-64",
       "weight": 0.8,
       "condition": {
-"biomes": [ "#cobblemon:is_lush" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_lush"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

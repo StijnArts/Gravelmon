@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "zallut-1",
+      "id": "zallut-01",
       "pokemon": "zallut",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "6-28",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#minecraft:is_end",
-"#cobblemon:is_badlands" ]
+        "biomes": [
+          "#minecraft:is_end",
+          "#cobblemon:is_badlands"
+        ]
       }
     }
   ]

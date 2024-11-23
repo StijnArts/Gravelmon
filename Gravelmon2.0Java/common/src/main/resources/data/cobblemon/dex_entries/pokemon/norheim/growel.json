@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:growel",
+  "speciesId": "cobblemon:growel",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

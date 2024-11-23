@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:kirlia-fligian",
+  "speciesId": "cobblemon:kirlia",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Fligian",
+      "unlockForms": [
+        "Fligian"
+      ]
+    }
+  ],
+  "variations": []
+}

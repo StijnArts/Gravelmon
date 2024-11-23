@@ -1,0 +1,23 @@
+{
+  "entryId": "cobblemon:maractus",
+  "forms": [
+    {
+      "displayForm": "Avorian",
+      "unlockForms": [
+        "Avorian"
+      ]
+    },
+    {
+      "displayForm": "Delta",
+      "unlockForms": [
+        "Delta"
+      ]
+    },
+    {
+      "displayForm": "Hoennian",
+      "unlockForms": [
+        "Hoennian"
+      ]
+    }
+  ]
+}

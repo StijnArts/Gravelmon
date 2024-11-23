@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:sudowoodo",
+  "forms": [
+    {
+      "displayForm": "Novran",
+      "unlockForms": [
+        "Novran"
+      ]
+    },
+    {
+      "displayForm": "Amazeall",
+      "unlockForms": [
+        "Amazeall"
+      ]
+    }
+  ]
+}

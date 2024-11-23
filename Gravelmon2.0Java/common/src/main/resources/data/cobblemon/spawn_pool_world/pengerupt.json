@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "pengerupt-1",
+      "id": "pengerupt-01",
       "pokemon": "pengerupt",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "35-52",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_volvanic" ]
+        "biomes": [
+          "#cobblemon:is_volvanic"
+        ]
       }
     }
   ]

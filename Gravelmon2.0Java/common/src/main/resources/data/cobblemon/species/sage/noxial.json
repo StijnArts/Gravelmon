@@ -1,6 +1,6 @@
 {
   "implemented": true,
-  "name": "noxial",
+  "name": "Noxial",
   "nationalPokedexNumber": 1126,
   "primaryType": "poison",
   "secondaryType": "ghost",
@@ -54,7 +54,7 @@
     "aftermath",
     "h:liquidooze"
       ],
-      "baseScale": 0.16875,
+      "baseScale": 0.4,
         "hitbox": {
           "width": 6.0,
           "height": 6.0,

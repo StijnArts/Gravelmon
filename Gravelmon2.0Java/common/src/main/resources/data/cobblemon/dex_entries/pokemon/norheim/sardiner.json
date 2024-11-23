@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:sardiner",
+  "speciesId": "cobblemon:sardiner",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

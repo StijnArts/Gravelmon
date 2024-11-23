@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "cerarmor-1",
+      "id": "cerarmor-01",
       "pokemon": "cerarmor",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "31-53",
       "weight": 0.4,
       "condition": {
-"biomes": [ "#cobblemon:is_volvanic" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_volvanic"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:skitty-hizian",
+  "speciesId": "cobblemon:skitty",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Hizian",
+      "unlockForms": [
+        "Hizian"
+      ]
+    }
+  ],
+  "variations": []
+}

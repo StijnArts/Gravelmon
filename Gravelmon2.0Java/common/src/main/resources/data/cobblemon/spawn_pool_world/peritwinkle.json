@@ -4,11 +4,11 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "peritwinkle-1",
+      "id": "peritwinkle-01",
       "pokemon": "peritwinkle",
       "presets": [
-          "freshwater",
-          "natural"
+        "freshwater",
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -16,7 +16,8 @@
       "level": "3-22",
       "weight": 10.0,
       "condition": {
-        "canSeeSky": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night",
         "isRaining": true
       }

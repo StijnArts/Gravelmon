@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:raccolossus",
+  "speciesId": "cobblemon:raccolossus",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

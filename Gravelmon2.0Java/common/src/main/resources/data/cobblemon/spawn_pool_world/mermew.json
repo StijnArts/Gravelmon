@@ -4,11 +4,11 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mermew-1",
+      "id": "mermew-01",
       "pokemon": "mermew",
       "presets": [
-          "underwater",
-          "reef"
+        "underwater",
+        "reef"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -16,7 +16,9 @@
       "level": "7-29",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_warm_ocean" ]
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ]
       }
     }
   ]

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:scrapiteer",
+  "speciesId": "cobblemon:scrapiteer",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

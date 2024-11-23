@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ledybulk-1",
+      "id": "ledybulk-01",
       "pokemon": "ledybulk",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,13 +15,19 @@
       "level": "39-51",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_temperate" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_temperate"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night",
         "isRaining": false
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_freezing" ]    }
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ]
+      }
     }
   ]
 }

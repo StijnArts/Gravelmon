@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ayreianarchen-1",
+      "id": "ayreian_archen-01",
       "pokemon": "archen ayreian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,12 @@
       "level": "9-32",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_lush" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_lush"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
-
-]
+  ]
 }

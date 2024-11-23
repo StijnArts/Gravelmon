@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "decomposite-1",
+      "id": "decomposite-01",
       "pokemon": "decomposite",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "43-62",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_mushroom" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_mushroom"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

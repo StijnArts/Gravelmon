@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "sarcospike-1",
+      "id": "sarcospike-01",
       "pokemon": "sarcospike",
       "presets": [
-          "desert_pyramid"
+        "desert_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,11 @@
       "level": "45-58",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_desert" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_desert"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
     }
   ]

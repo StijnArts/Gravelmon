@@ -7,17 +7,17 @@ public class Mongratis extends drai.dev.data.games.registry.Game {
     public Mongratis() {
         super("Mongratis");
     }
-
+    //TODO integrate pokedex
     @Override
     public void registerPokemon() {
-        pokemon.add(new Geckrow());
-        pokemon.add(new Goanopy());
-        pokemon.add(new Varanitor());
+        addNewPokemon(new Geckrow());
+        addNewPokemon(new Goanopy());
+        addNewPokemon(new Varanitor());
 //        pokemon.add(new Ninoala());   Missing Stats
 //        pokemon.add(new Koaninja());   Missing Stats
 //        pokemon.add(new Anu());   Missing Stats
-        pokemon.add(new Baoby());
-        pokemon.add(new Baobaraffe());
+        addNewPokemon(new Baoby());
+        addNewPokemon(new Baobaraffe());
 //        pokemon.add(new Nuenflu());   Missing Stats
 //        pokemon.add(new Drashimi());   Missing Stats
 //        pokemon.add(new Tsushimi());   Missing Stats
@@ -31,26 +31,25 @@ public class Mongratis extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Webruiser());   Missing Stats
 //        pokemon.add(new Pilfetch());   Missing Stats
 //        pokemon.add(new Criminalis());   Missing Stats
-        pokemon.add(new Pasturlo());
-        pokemon.add(new Brambull());
-        pokemon.add(new Maizotaur());
+        addNewPokemon(new Pasturlo());
+        addNewPokemon(new Brambull());
+        addNewPokemon(new Maizotaur());
 //        pokemon.add(new Minamai());   Missing Stats
 //        pokemon.add(new Marelstorm());   Missing Stats
 //        pokemon.add(new Spinarak(167));
 //        pokemon.add(new Ariados(168));
-        pokemon.add(new Tormine());
-        pokemon.add(new Sunnydra());
-//        pokemon.add(new Luvdisc(370));
-        pokemon.add(new Shorelorn());
-        pokemon.add(new Cryscross());
+        addNewPokemon(new Tormine());
+        addNewPokemon(new Sunnydra());
+        addNewPokemon(new Shorelorn());
+        addNewPokemon(new Cryscross());
 //        pokemon.add(new Wolfman());   Missing Stats
 //        pokemon.add(new Warwolf());   Missing Stats
 //        pokemon.add(new Trantima());   Missing Stats
 //        pokemon.add(new Gireamer());   Missing Stats
 //        pokemon.add(new Nitmarig());   Missing Stats
-        pokemon.add(new Moosid());
-        pokemon.add(new Egoelk());
-        pokemon.add(new Suprago());
+        addNewPokemon(new Moosid());
+        addNewPokemon(new Egoelk());
+        addNewPokemon(new Suprago());
 //        pokemon.add(new Timberry());   Missing Stats
 //        pokemon.add(new Howliage());   Missing Stats
 //        pokemon.add(new Botanine());   Missing Stats
@@ -68,7 +67,7 @@ public class Mongratis extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Tuffettry());   Missing Stats
 //        pokemon.add(new Raskit());   Missing Stats
 //        pokemon.add(new Scruffian());   Missing Stats
-        pokemon.add(new Dynabit());
+        addNewPokemon(new Dynabit());
 //        pokemon.add(new Pompet());   Missing Stats
 //        pokemon.add(new Pomprim());   Missing Stats
 //        pokemon.add(new Droopig());   Missing Stats
@@ -76,8 +75,8 @@ public class Mongratis extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Kankwart());   Missing Stats
 //        pokemon.add(new Kankryst());   Missing Stats
 //        pokemon.add(new Kankersaur());   Missing Stats
-        pokemon.add(new Impurp());
-        pokemon.add(new Nymfusha());
+        addNewPokemon(new Impurp());
+        addNewPokemon(new Nymfusha());
 //        pokemon.add(new Samoald());   Missing Stats
 //        pokemon.add(new Bombustoad());   Missing Stats
 //        pokemon.add(new Sligment());   Missing Stats
@@ -125,7 +124,7 @@ public class Mongratis extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Vampingo());   Missing Stats
 //        pokemon.add(new Scarambi());   Missing Stats
 //        pokemon.add(new Scaroptu());   Missing Stats
-        pokemon.add(new Snowly());
+        addNewPokemon(new Snowly());
 //        pokemon.add(new Strunk());   Missing Stats
 //        pokemon.add(new Kalaxodon());   Missing Stats
 //        pokemon.add(new Curlusk());   Missing Stats
@@ -135,7 +134,7 @@ public class Mongratis extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Larvalpha());   Missing Stats
 //        pokemon.add(new Puteba());   Missing Stats
 //        pokemon.add(new Imagamma());   Missing Stats
-        pokemon.add(new Plantid());
+        addNewPokemon(new Plantid());
 //        pokemon.add(new Reaphid());   Missing Stats
 //        pokemon.add(new Rootsy());   Missing Stats
 //        pokemon.add(new Roogilist());   Missing Stats
@@ -198,7 +197,7 @@ public class Mongratis extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Nemesusa());   Missing Stats
 //        pokemon.add(new Fencival());   Missing Stats
 //        pokemon.add(new Enderbird());   Missing Stats
-        pokemon.add(new Lizquent());
+        addNewPokemon(new Lizquent());
     }
 
 }

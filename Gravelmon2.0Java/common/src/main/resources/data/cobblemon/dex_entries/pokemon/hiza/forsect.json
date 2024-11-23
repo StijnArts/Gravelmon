@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:forsect",
+  "speciesId": "cobblemon:forsect",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

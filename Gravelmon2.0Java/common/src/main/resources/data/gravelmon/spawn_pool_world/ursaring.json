@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "hoennianursaring-1",
+      "id": "hoennian_ursaring-01",
       "pokemon": "ursaring hoennian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,18 @@
       "level": "12-27",
       "weight": 0.18,
       "condition": {
-"biomes": [ "#cobblemon:is_jungle" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "seviianursaring-1",
+      "id": "seviian_ursaring-01",
       "pokemon": "ursaring seviian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,18 +34,22 @@
       "level": "28-55",
       "weight": 0.18,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ],
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
         "timeRange": "night"
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_cold" ]    }
-    }
-,
+        "biomes": [
+          "#cobblemon:is_cold"
+        ]
+      }
+    },
     {
-      "id": "cefiranursaring-1",
+      "id": "cefiran_ursaring-01",
       "pokemon": "ursaring cefiran",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -51,10 +57,12 @@
       "level": "12-27",
       "weight": 0.18,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy_forest" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_snowy_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

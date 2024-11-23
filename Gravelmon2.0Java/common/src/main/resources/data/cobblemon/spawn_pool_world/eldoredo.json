@@ -4,11 +4,11 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "eldoredo-1",
+      "id": "eldoredo-01",
       "pokemon": "eldoredo",
       "presets": [
-          "gemstones",
-          "natural"
+        "gemstones",
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -16,9 +16,12 @@
       "level": "41-56",
       "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_overworld" ],
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
         "minY": 0,
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

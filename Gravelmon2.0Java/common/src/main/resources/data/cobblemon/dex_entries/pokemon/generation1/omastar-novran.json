@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:omastar-novran",
+  "speciesId": "cobblemon:omastar",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Novran",
+      "unlockForms": [
+        "Novran"
+      ]
+    }
+  ],
+  "variations": []
+}

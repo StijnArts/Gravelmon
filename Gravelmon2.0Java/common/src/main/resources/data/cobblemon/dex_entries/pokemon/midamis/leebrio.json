@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:leebrio",
+  "speciesId": "cobblemon:leebrio",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

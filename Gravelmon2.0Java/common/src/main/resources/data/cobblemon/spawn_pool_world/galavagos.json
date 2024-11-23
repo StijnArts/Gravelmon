@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "galavagos-1",
+      "id": "galavagos-01",
       "pokemon": "galavagos",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,11 @@
       "level": "45-66",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_mountain",
-"#cobblemon:is_thermal",
-"#cobblemon:is_basalt" ]
+        "biomes": [
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_thermal",
+          "#cobblemon:nether/is_basalt"
+        ]
       }
     }
   ]

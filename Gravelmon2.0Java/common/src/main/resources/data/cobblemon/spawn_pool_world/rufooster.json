@@ -4,11 +4,11 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "rufooster-1",
+      "id": "rufooster-01",
       "pokemon": "rufooster",
       "presets": [
-          "natural",
-          "village"
+        "natural",
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -16,9 +16,12 @@
       "level": "28-42",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_temperate",
-"#cobblemon:is_arid" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_temperate",
+          "#cobblemon:is_arid"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

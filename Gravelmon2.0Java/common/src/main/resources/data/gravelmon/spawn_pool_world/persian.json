@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "cefiranpersianfire-1",
+      "id": "cefiran_fire_persian-01",
       "pokemon": "persian cefiran_fire",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,17 +15,19 @@
       "level": "28-44",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_savanna" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       }
-    }
-,
+    },
     {
-      "id": "cefiranpersianice-1",
+      "id": "cefiran_ice_persian-01",
       "pokemon": "persian cefiran_ice",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -33,19 +35,24 @@
       "level": "28-44",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_forest" ]    }
-    }
-,
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
+      }
+    },
     {
-      "id": "cefiranpersianelectric-1",
+      "id": "cefiran_electric_persian-01",
       "pokemon": "persian cefiran_electric",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -53,13 +60,18 @@
       "level": "28-44",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_badlands" ],
-        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_forest" ]    }
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
+      }
     }
-
-]
+  ]
 }

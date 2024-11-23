@@ -1,0 +1,23 @@
+{
+  "entryId": "cobblemon:persian",
+  "forms": [
+    {
+      "displayForm": "Cefiranfire",
+      "unlockForms": [
+        "Cefiranfire"
+      ]
+    },
+    {
+      "displayForm": "Cefiranice",
+      "unlockForms": [
+        "Cefiranice"
+      ]
+    },
+    {
+      "displayForm": "Cefiranelectric",
+      "unlockForms": [
+        "Cefiranelectric"
+      ]
+    }
+  ]
+}

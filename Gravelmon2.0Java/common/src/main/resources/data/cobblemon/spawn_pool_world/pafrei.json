@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "pafrei-1",
+      "id": "pafrei-01",
       "pokemon": "pafrei",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "26-43",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_magical",
-"#cobblemon:is_jungle" ]
+        "biomes": [
+          "#cobblemon:is_magical",
+          "#cobblemon:is_jungle"
+        ]
       }
     }
   ]

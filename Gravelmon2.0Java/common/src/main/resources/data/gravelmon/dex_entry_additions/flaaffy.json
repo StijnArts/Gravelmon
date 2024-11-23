@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:flaaffy",
+  "forms": [
+    {
+      "displayForm": "Aristosian",
+      "unlockForms": [
+        "Aristosian"
+      ]
+    },
+    {
+      "displayForm": "Mythian",
+      "unlockForms": [
+        "Mythian"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:aggroroo",
+  "speciesId": "cobblemon:aggroroo",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

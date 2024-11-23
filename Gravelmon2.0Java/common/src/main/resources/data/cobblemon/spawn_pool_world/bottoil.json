@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "bottoil-1",
+      "id": "bottoil-01",
       "pokemon": "bottoil",
       "presets": [
-          "illager_structures"
+        "illager_structures"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "3-22",
       "weight": 7.0,
       "condition": {
-"biomes": [ "#cobblemon:is_swamp" ]
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ]
       }
     }
   ]

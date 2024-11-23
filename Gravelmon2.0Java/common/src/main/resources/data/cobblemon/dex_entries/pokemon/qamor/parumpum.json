@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:parumpum",
+  "speciesId": "cobblemon:parumpum",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

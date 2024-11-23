@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "hollotite-1",
+      "id": "hollotite-01",
       "pokemon": "hollotite",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "7-32",
       "weight": 7.0,
       "condition": {
-"biomes": [ "#cobblemon:is_dripstone" ]
+        "biomes": [
+          "#cobblemon:is_dripstone"
+        ]
       }
     }
   ]

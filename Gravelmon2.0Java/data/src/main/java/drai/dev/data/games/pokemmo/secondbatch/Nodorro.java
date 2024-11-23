@@ -7,28 +7,28 @@ public class Nodorro extends drai.dev.data.games.registry.Game {
     public Nodorro() {
         super("Nodorro");
     }
-
+    //TODO dex integration
     @Override
     public void registerPokemon() {
-        pokemon.add(new Faunox());
-        pokemon.add(new oxboy());
-        pokemon.add(new Sylvotaur());
-        pokemon.add(new Mouslit());
-        pokemon.add(new Ignimus());
-        pokemon.add(new Necromus());
-        pokemon.add(new Feloam());
-        pokemon.add(new Mistiger());
-        pokemon.add(new Torahaze());
-        pokemon.add(new Haffy());
-        pokemon.add(new Baldawk());
-        pokemon.add(new Stoadent());
-        pokemon.add(new Amiesel());
+        addNewPokemon(new Faunox());
+        addNewPokemon(new oxboy());
+        addNewPokemon(new Sylvotaur());
+        addNewPokemon(new Mouslit());
+        addNewPokemon(new Ignimus());
+        addNewPokemon(new Necromus());
+        addNewPokemon(new Feloam());
+        addNewPokemon(new Mistiger());
+        addNewPokemon(new Torahaze());
+        addNewPokemon(new Haffy());
+        addNewPokemon(new Baldawk());
+        addNewPokemon(new Stoadent());
+        addNewPokemon(new Amiesel());
 //        pokemon.add(new Rattata(19));
-        pokemon.add(new Ratamie());
+        addNewPokemon(new Ratamie());
 //        pokemon.add(new Caterpie(10));
 //        pokemon.add(new Metapod(11));
-        pokemon.add(new Betterfree());
-        pokemon.add(new Imicada());
+        addNewPokemon(new Betterfree());
+        addNewPokemon(new Imicada());
 //        pokemon.add(new Suncada());   Missing Stats
 //        pokemon.add(new Sunkern(191));
 //        pokemon.add(new Sunflora(192));
@@ -36,7 +36,7 @@ public class Nodorro extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Gloom(44));
 //        pokemon.add(new Vileplume(45));
 //        pokemon.add(new Bellossom(182));
-        pokemon.add(new Lumiscent());
+        addNewPokemon(new Lumiscent());
 //        pokemon.add(new Azurill(298));
 //        pokemon.add(new Marill(183));
 //        pokemon.add(new Azumarill(184));
@@ -46,11 +46,11 @@ public class Nodorro extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Yanmega(469));
 //        pokemon.add(new Psyduck(54));
 //        pokemon.add(new Golduck(55));
-        pokemon.add(new Koiver());
-        pokemon.add(new Koyshi());
-        pokemon.add(new Rockillo());
-        pokemon.add(new Armarolla());
-        pokemon.add(new Armodrilla());
+        addNewPokemon(new Koiver());
+        addNewPokemon(new Koyshi());
+        addNewPokemon(new Rockillo());
+        addNewPokemon(new Armarolla());
+        addNewPokemon(new Armodrilla());
 //        pokemon.add(new Diglett(50));   Missing Stats
 //        pokemon.add(new Dugtrio(51));   Missing Stats
 //        pokemon.add(new Geodude(74));   Missing Stats
@@ -59,16 +59,16 @@ public class Nodorro extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Machop(66));
 //        pokemon.add(new Machoke(67));
 //        pokemon.add(new Machamp(68));
-        pokemon.add(new hakid());
+        addNewPokemon(new hakid());
 //        pokemon.add(new Hackile());   Missing Stats
 //        pokemon.add(new Conkeldurr(534));   Missing Art
-        pokemon.add(new furanea());
-        pokemon.add(new Taranchusk());
-        pokemon.add(new Trashic());
-        pokemon.add(new Crabbish());
+        addNewPokemon(new furanea());
+        addNewPokemon(new Taranchusk());
+        addNewPokemon(new Trashic());
+        addNewPokemon(new Crabbish());
 //        pokemon.add(new Magikarp(129));
 //        pokemon.add(new Gyarados(130));
-        pokemon.add(new Leavat());
+        addNewPokemon(new Leavat());
 //        pokemon.add(new Falpire());   Missing Art
 //        pokemon.add(new Teddiursa(216));
 //        pokemon.add(new Ursaring(217));
@@ -82,29 +82,29 @@ public class Nodorro extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Beartic(614));
 //        pokemon.add(new Ekans(23));
 //        pokemon.add(new Arbok(24));
-        pokemon.add(new Simburn());
-        pokemon.add(new Felectroar());
-        pokemon.add(new kibinusu());
-        pokemon.add(new Afripup());
+        addNewPokemon(new Simburn());
+        addNewPokemon(new Felectroar());
+        addNewPokemon(new kibinusu());
+        addNewPokemon(new Afripup());
 //        pokemon.add(new Papadoooge());   Missing Art
 //        pokemon.add(new Cubone(104));
 //        pokemon.add(new Marowak(105));
 //        pokemon.add(new Kangaskhan(115));
 //        pokemon.add(new Desertsnail());   Missing Art
 //        pokemon.add(new Desertsnail2());   Missing Art
-        pokemon.add(new Snaize());
+        addNewPokemon(new Snaize());
 //        pokemon.add(new Mimicorn());   Missing Art
 //        pokemon.add(new Dracorn());   Missing Art
 //        pokemon.add(new Bonsly(438));
 //        pokemon.add(new Sudowoodo(185));
 //        pokemon.add(new Nosepass(299));
 //        pokemon.add(new Probopass(476));
-        pokemon.add(new Balldude());
+        addNewPokemon(new Balldude());
 //        pokemon.add(new Ballevo());   Missing Art
 //        pokemon.add(new Koffing(109));
 //        pokemon.add(new Weezing(110));
-        pokemon.add(new Choaking());
-        pokemon.add(new Cerojolt());
+        addNewPokemon(new Choaking());
+        addNewPokemon(new Cerojolt());
 //        pokemon.add(new Budew(406));
 //        pokemon.add(new Roselia(315));
 //        pokemon.add(new Roserade(407));
@@ -124,38 +124,38 @@ public class Nodorro extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Soapup());   Missing Art
 //        pokemon.add(new Soapherd());   Missing Art
 //        pokemon.add(new Penumbillar());   Missing Art
-        pokemon.add(new Particoon());
+        addNewPokemon(new Particoon());
 //        pokemon.add(new Totalimoth());   Missing Art
 //        pokemon.add(new Rockdude());   Missing Art
-        pokemon.add(new Rostone());
-        pokemon.add(new Electone());
-        pokemon.add(new Gravatone());
-        pokemon.add(new Moistone());
-        pokemon.add(new Aquatone());
-        pokemon.add(new Meltone());
-        pokemon.add(new Firerock2());
-        pokemon.add(new Pastone());
-        pokemon.add(new Mosstone());
+        addNewPokemon(new Rostone());
+        addNewPokemon(new Electone());
+        addNewPokemon(new Gravatone());
+        addNewPokemon(new Moistone());
+        addNewPokemon(new Aquatone());
+        addNewPokemon(new Meltone());
+        addNewPokemon(new Firerock2());
+        addNewPokemon(new Pastone());
+        addNewPokemon(new Mosstone());
 //        pokemon.add(new Buckalf());   Missing Art
 //        pokemon.add(new Camel2());   Missing Art
-        pokemon.add(new Runnabun());
+        addNewPokemon(new Runnabun());
 //        pokemon.add(new TReggs());   Missing Art
 //        pokemon.add(new Deerling(585));   Missing Art
 //        pokemon.add(new Sawsbuck(586));   Missing Art
-        pokemon.add(new Crabip());
-        pokemon.add(new Scissorab());
-        pokemon.add(new Crabruner());
+        addNewPokemon(new Crabip());
+        addNewPokemon(new Scissorab());
+        addNewPokemon(new Crabruner());
 //        pokemon.add(new Yamask(562));
 //        pokemon.add(new Cofagrigus(563));
 //        pokemon.add(new Gastly(92));
 //        pokemon.add(new Haunter(93));
 //        pokemon.add(new Gengar(94));
-        pokemon.add(new Snolm());
-        pokemon.add(new Snowder());
-        pokemon.add(new Frauster());
-        pokemon.add(new Marment()); //Renamed from Scroul
-        pokemon.add(new Magisbook());
-        pokemon.add(new Prudexwell());
+        addNewPokemon(new Snolm());
+        addNewPokemon(new Snowder());
+        addNewPokemon(new Frauster());
+        addNewPokemon(new Marment()); //Renamed from Scroul
+        addNewPokemon(new Magisbook());
+        addNewPokemon(new Prudexwell());
 //        pokemon.add(new Onix(95));
 //        pokemon.add(new Steelix(208));
 //        pokemon.add(new Deino(633));
@@ -167,31 +167,31 @@ public class Nodorro extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Tynamo(602));
 //        pokemon.add(new Eelektrik(603));
 //        pokemon.add(new Eelektross(604));   Missing Art
-        pokemon.add(new Clusk());
-        pokemon.add(new Nimbusk());
-        pokemon.add(new Yuheffo());
-        pokemon.add(new Ufo2());
+        addNewPokemon(new Clusk());
+        addNewPokemon(new Nimbusk());
+        addNewPokemon(new Yuheffo());
+        addNewPokemon(new Ufo2());
 //        pokemon.add(new Drifloon(425));
 //        pokemon.add(new Drifblim(426));
 //        pokemon.add(new 446848());   Missing Art
 //        pokemon.add(new Pillowghost());   Missing Art
-        pokemon.add(new Hatgic());
-        pokemon.add(new Hoodrikus());
-        pokemon.add(new puppesite());
-        pokemon.add(new Akaineko());
-        pokemon.add(new Squink());
-        pokemon.add(new Inquidy());
-        pokemon.add(new krakuid());
-        pokemon.add(new Sarqua());
-        pokemon.add(new Slifin()); //Renamed from Sharfin
-        pokemon.add(new Draquafin());
-        pokemon.add(new Pirook());
+        addNewPokemon(new Hatgic());
+        addNewPokemon(new Hoodrikus());
+        addNewPokemon(new puppesite());
+        addNewPokemon(new Akaineko());
+        addNewPokemon(new Squink());
+        addNewPokemon(new Inquidy());
+        addNewPokemon(new krakuid());
+        addNewPokemon(new Sarqua());
+        addNewPokemon(new Slifin()); //Renamed from Sharfin
+        addNewPokemon(new Draquafin());
+        addNewPokemon(new Pirook());
 //        pokemon.add(new Jacksparrow());   Missing Art
-        pokemon.add(new Virusyte());
-        pokemon.add(new Orcawhale());
-        pokemon.add(new Terranguis());
-        pokemon.add(new Leviathrus());
-        pokemon.add(new Scaelicius());
+        addNewPokemon(new Virusyte());
+        addNewPokemon(new Orcawhale());
+        addNewPokemon(new Terranguis());
+        addNewPokemon(new Leviathrus());
+        addNewPokemon(new Scaelicius());
 //        pokemon.add(new Treecko(252));
 //        pokemon.add(new Grovyle(253));
 //        pokemon.add(new Sceptile(254));   Missing Art
@@ -202,9 +202,9 @@ public class Nodorro extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Monferno(391));
 //        pokemon.add(new Infernape(392));
 //        pokemon.add(new Kuruhinomi());   Missing Stats
-        pokemon.add(new Kanyonomi());
+        addNewPokemon(new Kanyonomi());
 //        pokemon.add(new Kyokinomi());   Missing Stats
-        pokemon.add(new Protagobits());
+        addNewPokemon(new Protagobits());
 //        pokemon.add(new Rayquaza(384));
 //        pokemon.add(new Cresselia(488));   Missing Stats
 //        pokemon.add(new Darkrai(491));   Missing Stats

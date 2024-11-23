@@ -1,0 +1,23 @@
+{
+  "entryId": "cobblemon:ursaring",
+  "forms": [
+    {
+      "displayForm": "Hoennian",
+      "unlockForms": [
+        "Hoennian"
+      ]
+    },
+    {
+      "displayForm": "Seviian",
+      "unlockForms": [
+        "Seviian"
+      ]
+    },
+    {
+      "displayForm": "Cefiran",
+      "unlockForms": [
+        "Cefiran"
+      ]
+    }
+  ]
+}

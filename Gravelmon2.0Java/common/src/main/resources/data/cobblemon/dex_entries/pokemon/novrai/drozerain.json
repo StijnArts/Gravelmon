@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:drozerain",
+  "speciesId": "cobblemon:drozerain",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

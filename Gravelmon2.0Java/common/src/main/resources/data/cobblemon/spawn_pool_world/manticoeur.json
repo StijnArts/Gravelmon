@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "manticoeur-1",
+      "id": "manticoeur-01",
       "pokemon": "manticoeur",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,8 +15,10 @@
       "level": "3-22",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky",
-"#cobblemon:is_swamp" ],
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_swamp"
+        ],
         "timeRange": "night"
       }
     }

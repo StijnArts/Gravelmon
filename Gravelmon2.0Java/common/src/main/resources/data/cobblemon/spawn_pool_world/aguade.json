@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "aguade-1",
+      "id": "aguade-01",
       "pokemon": "aguade",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "3-22",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_coast" ]
+        "biomes": [
+          "#cobblemon:is_coast"
+        ]
       }
     }
   ]

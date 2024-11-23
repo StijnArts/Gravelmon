@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:basculips",
+  "speciesId": "cobblemon:basculips",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

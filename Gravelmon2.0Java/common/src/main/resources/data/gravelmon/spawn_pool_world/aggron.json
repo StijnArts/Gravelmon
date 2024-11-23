@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "hizianaggron-1",
+      "id": "hizian_aggron-01",
       "pokemon": "aggron hizian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,17 +15,19 @@
       "level": "42-60",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_desert",
-"#cobblemon:is_badlands" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_desert",
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "deltaaggron-1",
+      "id": "delta_aggron-01",
       "pokemon": "aggron delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -33,27 +35,24 @@
       "level": "40-59",
       "weight": 0.0,
       "condition": {
-"biomes": [ "#cobblemon:is_soul_sand",
-"#cobblemon:is_soul_fire",
-"#cobblemon:is_basalt" ]
+        "biomes": [
+          "#cobblemon:nether/is_soul_sand",
+          "#cobblemon:nether/is_soul_fire",
+          "#cobblemon:nether/is_basalt"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "ayreianaggron-1",
+      "id": "ayreian_aggron-01",
       "pokemon": "aggron ayreian",
       "presets": [
-          "near_lava"
+        "near_lava"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
       "level": "42-67",
-      "weight": 2.0,
-      "condition": {
-
-      }
+      "weight": 2.0
     }
-
-]
+  ]
 }

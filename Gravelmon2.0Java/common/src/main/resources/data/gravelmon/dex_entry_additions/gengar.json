@@ -1,0 +1,29 @@
+{
+  "entryId": "cobblemon:gengar",
+  "forms": [
+    {
+      "displayForm": "Havaiian",
+      "unlockForms": [
+        "Havaiian"
+      ]
+    },
+    {
+      "displayForm": "X",
+      "unlockForms": [
+        "X"
+      ]
+    },
+    {
+      "displayForm": "Ayreian",
+      "unlockForms": [
+        "Ayreian"
+      ]
+    },
+    {
+      "displayForm": "Kaskadian",
+      "unlockForms": [
+        "Kaskadian"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:weeduck",
+  "speciesId": "cobblemon:weeduck",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

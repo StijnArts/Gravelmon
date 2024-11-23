@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "seviianlokix-1",
+      "id": "seviian_lokix-01",
       "pokemon": "lokix seviian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,10 @@
       "level": "24-41",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_bamboo" ]
+        "biomes": [
+          "#cobblemon:is_bamboo"
+        ]
       }
     }
-
-]
+  ]
 }

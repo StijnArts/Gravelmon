@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "agapray-1",
+      "id": "agapray-01",
       "pokemon": "agapray",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "34-53",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_temperate" ]
+        "biomes": [
+          "#cobblemon:is_temperate"
+        ]
       }
     }
   ]

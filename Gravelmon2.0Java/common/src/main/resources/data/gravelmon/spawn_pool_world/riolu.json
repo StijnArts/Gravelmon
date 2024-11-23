@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltariolu-1",
+      "id": "delta_riolu-01",
       "pokemon": "riolu delta",
       "presets": [
-          "desert_pyramid"
+        "desert_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,18 @@
       "level": "12-30",
       "weight": 5.4,
       "condition": {
-"biomes": [ "#cobblemon:is_desert" ],
-        "canSeeSky": false
+        "biomes": [
+          "#cobblemon:is_desert"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       }
-    }
-,
+    },
     {
-      "id": "mythianriolu-1",
+      "id": "mythian_riolu-01",
       "pokemon": "riolu mythian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,15 +34,16 @@
       "level": "12-28",
       "weight": 9.0,
       "condition": {
-"biomes": [ "#cobblemon:is_wasteland" ]
+        "biomes": [
+          "#cobblemon:nether/is_wasteland"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "mysticriolu-1",
+      "id": "mystic_riolu-01",
       "pokemon": "riolu mystic",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -48,11 +51,13 @@
       "level": "12-28",
       "weight": 9.0,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
-
-]
+  ]
 }

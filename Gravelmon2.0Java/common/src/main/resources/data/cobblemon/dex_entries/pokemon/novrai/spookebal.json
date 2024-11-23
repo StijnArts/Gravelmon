@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:spookebal",
+  "speciesId": "cobblemon:spookebal",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

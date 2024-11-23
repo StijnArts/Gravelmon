@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "aguanaut-1",
+      "id": "aguanaut-01",
       "pokemon": "aguanaut",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "32-42",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#cobblemon:is_coast" ]
+        "biomes": [
+          "#cobblemon:is_coast"
+        ]
       }
     }
   ]

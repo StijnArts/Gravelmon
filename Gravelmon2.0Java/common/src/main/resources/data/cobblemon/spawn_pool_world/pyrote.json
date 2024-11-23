@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "pyrote-1",
+      "id": "pyrote-01",
       "pokemon": "pyrote",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,12 @@
       "level": "33-54",
       "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_badlands" ],
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
         "timeRange": "night",
-        "canSeeSky": true
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

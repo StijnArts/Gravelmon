@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:trepinject",
+  "speciesId": "cobblemon:trepinject",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

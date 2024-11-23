@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "deltaavalugg-1",
+      "id": "delta_avalugg-01",
       "pokemon": "avalugg delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,10 +15,11 @@
       "level": "40-58",
       "weight": 0.8,
       "condition": {
-"biomes": [ "#cobblemon:is_wasteland",
-"#cobblemon:is_desert" ]
+        "biomes": [
+          "#cobblemon:nether/is_wasteland",
+          "#cobblemon:nether/is_desert"
+        ]
       }
     }
-
-]
+  ]
 }

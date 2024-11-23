@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gliderweb",
+  "speciesId": "cobblemon:gliderweb",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

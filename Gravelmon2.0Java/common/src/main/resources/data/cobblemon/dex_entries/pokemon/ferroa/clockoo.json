@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:clockoo",
+  "speciesId": "cobblemon:clockoo",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

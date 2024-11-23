@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "accerval-1",
+      "id": "accerval-01",
       "pokemon": "accerval",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "2-19",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_savanna" ]
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ]
       }
     }
   ]

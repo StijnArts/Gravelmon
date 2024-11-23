@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "aristosiansentret-1",
+      "id": "aristosian_sentret-01",
       "pokemon": "sentret aristosian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,13 +15,18 @@
       "level": "4-21",
       "weight": 9.0,
       "condition": {
-"biomes": [ "#cobblemon:is_forest",
-"#cobblemon:is_lush" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_lush"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_winter" ]    }
+        "biomes": [
+          "#cobblemon:has_season/winter"
+        ]
+      }
     }
-
-]
+  ]
 }

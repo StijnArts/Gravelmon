@@ -39,7 +39,6 @@
     }
   },
   "catchRate": 190,
-  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 58,
   "experienceGroup": "medium_fast",
@@ -198,7 +197,6 @@
     }
   },
   "catchRate": 190,
-  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 58,
   "experienceGroup": "medium_fast",
@@ -247,9 +245,9 @@
   ],
   "evolutions": [
     {
-      "id": "meowth_persian_cefiranfire",
+      "id": "meowth_persian_cefiran_fire",
       "variant": "level_up",
-      "result": "persian cefiranfire",
+      "result": "persian cefiran_fire",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -320,7 +318,6 @@
     }
   },
   "catchRate": 190,
-  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 58,
   "experienceGroup": "medium_fast",
@@ -369,9 +366,9 @@
   ],
   "evolutions": [
     {
-      "id": "meowth_persian_cefiranice",
+      "id": "meowth_persian_cefiran_ice",
       "variant": "level_up",
-      "result": "persian cefiranice",
+      "result": "persian cefiran_ice",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -442,7 +439,6 @@
     }
   },
   "catchRate": 190,
-  "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 58,
   "experienceGroup": "medium_fast",
@@ -491,9 +487,9 @@
   ],
   "evolutions": [
     {
-      "id": "meowth_persian_cefiranelectric",
+      "id": "meowth_persian_cefiran_electric",
       "variant": "level_up",
-      "result": "persian cefiranelectric",
+      "result": "persian cefiran_electric",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

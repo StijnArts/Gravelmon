@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "tarturough-1",
+      "id": "tarturough-01",
       "pokemon": "tarturough",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "34-53",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_wasteland" ]
+        "biomes": [
+          "#cobblemon:nether/is_wasteland"
+        ]
       }
     }
   ]

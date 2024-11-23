@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:vomelet",
+  "speciesId": "cobblemon:vomelet",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "sharpedox-1",
+      "id": "x_sharpedo-01",
       "pokemon": "sharpedo x",
       "presets": [
-          "underwater"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,10 +15,11 @@
       "level": "30-47",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#minecraft:is_end",
-"#minecraft:is_deep_ocean" ]
+        "biomes": [
+          "#minecraft:is_end",
+          "#minecraft:is_deep_ocean"
+        ]
       }
     }
-
-]
+  ]
 }

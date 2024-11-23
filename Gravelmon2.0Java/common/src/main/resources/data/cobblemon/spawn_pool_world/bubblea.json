@@ -4,19 +4,16 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "bubblea-1",
+      "id": "bubblea-01",
       "pokemon": "bubblea",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "uncommon",
       "level": "7-34",
-      "weight": 4.0,
-      "condition": {
-
-      }
+      "weight": 4.0
     }
   ]
 }

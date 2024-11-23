@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:misdreavus",
+  "forms": [
+    {
+      "displayForm": "Hizian",
+      "unlockForms": [
+        "Hizian"
+      ]
+    },
+    {
+      "displayForm": "Delta",
+      "unlockForms": [
+        "Delta"
+      ]
+    }
+  ]
+}

@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "qamorantangrowth-1",
+      "id": "qamoran_tangrowth-01",
       "pokemon": "tangrowth qamoran",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,18 @@
       "level": "36-56",
       "weight": 0.2,
       "condition": {
-"biomes": [ "minecraft:cherry_grove" ],
-        "canSeeSky": true
+        "biomes": [
+          "minecraft:cherry_grove"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "eghotangrowth-1",
+      "id": "egho_tangrowth-01",
       "pokemon": "tangrowth egho",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,16 +34,18 @@
       "level": "32-44",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_cold" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_cold"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "deltatangrowth-1",
+      "id": "delta_tangrowth-01",
       "pokemon": "tangrowth delta",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -49,16 +53,18 @@
       "level": "12-35",
       "weight": 1.8,
       "condition": {
-"biomes": [ "#cobblemon:is_desert" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_desert"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "hoenniantangrowth-1",
+      "id": "hoennian_tangrowth-01",
       "pokemon": "tangrowth hoennian",
       "presets": [
-          "village"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -66,13 +72,18 @@
       "level": "34-57",
       "weight": 0.18,
       "condition": {
-"biomes": [ "#cobblemon:is_plains" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_plains"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_cold",
-"#cobblemon:is_temperate" ]    }
+        "biomes": [
+          "#cobblemon:is_cold",
+          "#cobblemon:is_temperate"
+        ]
+      }
     }
-
-]
+  ]
 }

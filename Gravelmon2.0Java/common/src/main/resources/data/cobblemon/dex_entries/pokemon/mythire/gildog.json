@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gildog",
+  "speciesId": "cobblemon:gildog",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

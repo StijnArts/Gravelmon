@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "minilith-1",
+      "id": "minilith-01",
       "pokemon": "minilith",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,9 +15,11 @@
       "level": "3-22",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_highlands",
-"#cobblemon:is_mountain",
-"#cobblemon:is_cave" ]
+        "biomes": [
+          "#cobblemon:is_highlands",
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_cave"
+        ]
       }
     }
   ]

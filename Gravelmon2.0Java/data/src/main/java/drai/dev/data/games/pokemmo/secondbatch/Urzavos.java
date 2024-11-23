@@ -9,17 +9,17 @@ public class Urzavos extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new Spritten());
-        pokemon.add(new Predageist());
-        pokemon.add(new Phanther());
+        addNewPokemon(new Spritten());
+        addNewPokemon(new Predageist());
+        addNewPokemon(new Phanther());
 //        pokemon.add(new Ambystar());   Missing Stats
 //        pokemon.add(new Amphibula());   Missing Stats
 //        pokemon.add(new Galaxalotl());   Missing Stats
 //        pokemon.add(new Psyalii());   Missing Stats
 //        pokemon.add(new Dusynap());   Missing Stats
 //        pokemon.add(new Injelligent());   Missing Stats
-        pokemon.add(new Squiruff());
-        pokemon.add(new Scuffrel());
+        addNewPokemon(new Squiruff());
+        addNewPokemon(new Scuffrel());
 //        pokemon.add(new Peap());   Missing Stats
 //        pokemon.add(new Peafuddle());   Missing Stats
 //        pokemon.add(new Peadazzled());   Missing Stats
@@ -36,8 +36,8 @@ public class Urzavos extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Aracknit());   Missing Stats
 //        pokemon.add(new Rodoll());   Missing Stats
 //        pokemon.add(new Verplushie());   Missing Stats
-        pokemon.add(new Brrbear());
-        pokemon.add(new Brrzolt());
+        addNewPokemon(new Brrbear());
+        addNewPokemon(new Brrzolt());
 //        pokemon.add(new Plumbee());   Missing Stats
 //        pokemon.add(new Pupoke());   Missing Stats
 //        pokemon.add(new Briarasp());   Missing Stats
@@ -48,7 +48,7 @@ public class Urzavos extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Snatchirp());   Missing Stats
 //        pokemon.add(new Corvosene());   Missing Stats
 //        pokemon.add(new Constellapin());   Missing Stats
-        pokemon.add(new Ichorot());
+        addNewPokemon(new Ichorot());
 //        pokemon.add(new Statikub());   Missing Stats
 //        pokemon.add(new Urzap());   Missing Stats
 //        pokemon.add(new Batteary());   Missing Stats
@@ -60,12 +60,12 @@ public class Urzavos extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Parasuck());   Missing Stats
 //        pokemon.add(new Hemorobbin());   Missing Stats
 //        pokemon.add(new Sedimollusk());   Missing Stats
-        pokemon.add(new Gastropow());
+        addNewPokemon(new Gastropow());
 //        pokemon.add(new Souropod());   Missing Stats
 //        pokemon.add(new Apatoplek());   Missing Stats
-        pokemon.add(new Mosshroud());
-        pokemon.add(new Murkreep());
-        pokemon.add(new Bateeny());
+        addNewPokemon(new Mosshroud());
+        addNewPokemon(new Murkreep());
+        addNewPokemon(new Bateeny());
 //        pokemon.add(new Bathemoth());   Missing Stats
 //        pokemon.add(new Boyopod());   Missing Stats
     }

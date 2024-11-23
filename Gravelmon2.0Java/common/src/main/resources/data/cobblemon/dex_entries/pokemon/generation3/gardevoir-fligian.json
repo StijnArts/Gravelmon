@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gardevoir-fligian",
+  "speciesId": "cobblemon:gardevoir",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Fligian",
+      "unlockForms": [
+        "Fligian"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,6 +1,6 @@
 {
   "implemented": true,
-  "name": "navibri",
+  "name": "Navibri",
   "nationalPokedexNumber": 2556,
   "primaryType": "flying",
   "secondaryType": "normal",
@@ -71,6 +71,22 @@
     "cobblemon.species.navibri.desc"
   ],
   "preEvolution": "humborb",
+  "evolutions": [
+    {
+      "id": "navibri_turbolibri",
+      "variant": "level_up",
+      "result": "turbolibri",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 34
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,

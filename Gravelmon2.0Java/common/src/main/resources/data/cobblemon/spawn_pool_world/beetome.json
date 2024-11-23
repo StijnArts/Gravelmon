@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "beetome-1",
+      "id": "beetome-01",
       "pokemon": "beetome",
       "presets": [
-          "near_bookshelves"
+        "near_bookshelves"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,9 @@
       "level": "16-32",
       "weight": 0.6,
       "condition": {
-"biomes": [ "#cobblemon:is_overworld" ]
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
       }
     }
   ]

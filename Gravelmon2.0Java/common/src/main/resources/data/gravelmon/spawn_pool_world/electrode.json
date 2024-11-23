@@ -4,10 +4,10 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "norheimanelectrode-1",
+      "id": "norheiman_electrode-01",
       "pokemon": "electrode norheiman",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,16 +15,18 @@
       "level": "31-54",
       "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_mountain" ],
-        "canSeeSky": true
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
-    }
-,
+    },
     {
-      "id": "ayreianelectrode-1",
+      "id": "ayreian_electrode-01",
       "pokemon": "electrode ayreian",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,15 +34,16 @@
       "level": "31-54",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_basalt" ]
+        "biomes": [
+          "#cobblemon:nether/is_basalt"
+        ]
       }
-    }
-,
+    },
     {
-      "id": "mysticelectrode-1",
+      "id": "mystic_electrode-01",
       "pokemon": "electrode mystic",
       "presets": [
-          "natural"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -48,9 +51,10 @@
       "level": "31-54",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ]
+        "biomes": [
+          "#cobblemon:is_magical"
+        ]
       }
     }
-
-]
+  ]
 }
