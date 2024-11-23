@@ -10,126 +10,143 @@ public class Infinity extends Game {
 
     @Override
     public void registerPokemon() {
+        addPokedexPokemon("bulbasaur-egho, ivysaur-egho, venusaur-egho, charmander-egho, charmeleon-egho, charizard-egho, squirtle-egho, wartortle-egho, blastoise-egho");
         //Lukpup line
-        pokemon.add(new Lukpup());
-        pokemon.add(new Lukagon());
+        addNewPokemon(new Lukpup());
+        addNewPokemon(new Lukagon());
         //Kokiseed line
-        pokemon.add(new Kokiseed());
-        pokemon.add(new Kokipound());
-        pokemon.add(new Kokismash());
+        addNewPokemon(new Kokiseed());
+        addNewPokemon(new Kokipound());
+        addNewPokemon(new Kokismash());
 
         //Chargo line
-        pokemon.add(new Chargo());
-        pokemon.add(new Burnaram());
-        pokemon.add(new Psysteed());
+        addNewPokemon(new Chargo());
+        addNewPokemon(new Burnaram());
+        addNewPokemon(new Psysteed());
 
         //Darpole line
-        pokemon.add(new Darpole());
-        pokemon.add(new Brutoad());
-        pokemon.add(new Godfrogger());
+        addNewPokemon(new Darpole().fishingSpawnFromExisting());
+        addNewPokemon(new Brutoad());
+        addNewPokemon(new Godfrogger());
 
-        pokemon.add(new Gorochu());
-        pokemon.add(new Nidorook());
+        addPokedexPokemon("pichu, pikachu");
+        addNewPokemon(new Gorochu());
+        addPokedexPokemon("nidoranf, nidorina, nidoqueen, nidoranm, nidorino, nidoking");
+        addNewPokemon(new Nidorook());
+        addPokedexPokemon("dunsparce");
+        addNewPokemon(new Quezsparce());
+        addPokedexPokemon("meowth, persian");
+        addNewPokemon(new Faeralynx());
 
-        pokemon.add(new Quezsparce());
+        addPokedexPokemon("shellder-egho");
+        addNewPokemon(new Skulkraken());
 
-        pokemon.add(new Faeralynx());
-
-        pokemon.add(new Skulkraken());
-
-        pokemon.add(new Oozma());
+        addPokedexPokemon("grimer-egho, muk-egho");
+        addNewPokemon(new Oozma());
 
         //Eeveelutions
+
+        addPokedexPokemon(
+                "eevee," +
+                        "vaporeon," +
+                        "jolteon," +
+                        "flareon," +
+                        "espeon," +
+                        "umbreon," +
+                        "leafeon," +
+                        "glaceon," +
+                        "sylveon");
         //TODO add move vanish to eevee evolution moves
-        pokemon.add(new Omeon());
+        addNewPokemon(new Omeon());
         //TODO add expert belt as evolution condition instead of black belt to eevee file
-        pokemon.add(new Champeon());
-        pokemon.add(new Lepideon());
-        pokemon.add(new Guardeon());
+        addNewPokemon(new Champeon());
+        addNewPokemon(new Lepideon());
+        addNewPokemon(new Guardeon());
         //TODO add move pressurize to eevee evolution moves
-        pokemon.add(new Obsideon());
+        addNewPokemon(new Obsideon());
         //TODO add move venom swipe to eevee evolution moves
-        pokemon.add(new Scorpeon());
-        pokemon.add(new Sphynxeon());
-        pokemon.add(new Nimbeon());
-        pokemon.add(new Draconeon());
+        addNewPokemon(new Scorpeon());
+        addNewPokemon(new Sphynxeon());
+        addNewPokemon(new Nimbeon());
+        addNewPokemon(new Draconeon());
         //TODO add move eevoboost to eevee evolution moves
-        pokemon.add(new Eeveeon());
-        pokemon.add(new Vareon());
-        pokemon.add(new Terathwack());
-
-        pokemon.add(new Grimfowl());
-
-        pokemon.add(new Sunflorid());
-        //TODO add move brain freeze to jynx evolution moves
-        pokemon.add(new Sorcerice());
-
-        pokemon.add(new Kecleodon());
-
-        pokemon.add(new Wereyena());
-
-        pokemon.add(new Reaptide());
-
+        addNewPokemon(new Eeveeon());
+        addNewPokemon(new Vareon());
+        addPokedexPokemon("cubone, marowak");
+        addNewPokemon(new Terathwack());
+        addPokedexPokemon("spearow-egho, fearow-egho, hoothoot-egho, noctowl-egho");
+        addNewPokemon(new Grimfowl());
+        addPokedexPokemon("azurill-egho, marill-egho, azumarill-egho, trubbish-egho, garbodor-egho, swablu-egho, altaria-egho, lotad-egho, lombre-egho, ludicolo-egho, sunkern, sunflora");
+        addNewPokemon(new Sunflorid());
+        addPokedexPokemon("smoochum, jynx");
+        addNewPokemon(new Sorcerice());
+        addPokedexPokemon("kecleon");
+        addNewPokemon(new Kecleodon());
+        addPokedexPokemon("magnemite-egho, magneton-egho, magnezone-egho, tangela-egho, tangrowth-egho, poochyena, mightyena");
+        addNewPokemon(new Wereyena());
+        addNewPokemon(new Reaptide().fishingSpawnFromExisting());
+        addPokedexPokemon("happiny-egho, chansey-egho, blissey-egho");
         //Kidfoot line
-        pokemon.add(new Kidfoot());
-        pokemon.add(new Snosquatch());
-        pokemon.add(new Grasquatch());
-
+        addNewPokemon(new Kidfoot());
+        addNewPokemon(new Snosquatch());
+        addNewPokemon(new Grasquatch());
         //Arctusk line
-        pokemon.add(new Arctusk());
-        pokemon.add(new Gigantusk());
-
+        addNewPokemon(new Arctusk());
+        addNewPokemon(new Gigantusk());
         //Iceros line
-        pokemon.add(new Iceros());
-        pokemon.add(new Glacieros());
-
-        pokemon.add(new Mockroach());
-
-        pokemon.add(new Jollibird());
-
-        pokemon.add(new Kablowfish());
-
-        //Scalarva line
-        pokemon.add(new Scalarva());
-        pokemon.add(new Dragalis());
-        pokemon.add(new Ceregal());
-
-        //Gargon line
-        pokemon.add(new Gargon());
-        pokemon.add(new Wardern());
-        pokemon.add(new Dragoyle());
-
-        pokemon.add(new PorygonX());
+        addNewPokemon(new Iceros());
+        addNewPokemon(new Glacieros());
+        addNewPokemon(new Mockroach());
+        addPokedexPokemon("delibird");
+        addNewPokemon(new Jollibird());
+        addPokedexPokemon("qwilfish");
+        addNewPokemon(new Kablowfish());
+        addNewPokemon(new Scalarva());
+        addNewPokemon(new Dragalis());
+        addNewPokemon(new Ceregal());
+        addNewPokemon(new Gargon());
+        addNewPokemon(new Wardern());
+        addNewPokemon(new Dragoyle());
+        addPokedexPokemon("porygon, porygon2, porygonz");
+        addNewPokemon(new PorygonX());
 
         //Egho Oddish line
-        pokemon.add(new Viledoom());
-        pokemon.add(new Mortossum());
+        addPokedexPokemon("oddish-egho, gloom-egho");
+        addNewPokemon(new Viledoom());
+        addNewPokemon(new Mortossum());
 
         //Mushling line
-        pokemon.add(new Mushling());
-        pokemon.add(new Psycholyte());
-        pokemon.add(new Shroomage());
+        addNewPokemon(new Mushling());
+        addNewPokemon(new Psycholyte());
+        addNewPokemon(new Shroomage());
 
-        pokemon.add(new Calfpint());
+        addNewPokemon(new Calfpint());
+        addPokedexPokemon("tauros, miltank");
 
-        pokemon.add(new Arbird());
+        addNewPokemon(new Arbird());
+        addPokedexPokemon("skarmory");
 
         //Girafarig evos
-        pokemon.add(new Girafaraf());
-        pokemon.add(new Giragira());
+        addPokedexPokemon("girafarig");
+        addPokedexPokemon("farigiraf");
+        addNewPokemon(new Girafaraf());
+        addNewPokemon(new Giragira());
 
         //Whave line
-        pokemon.add(new Whave());
-        pokemon.add(new Orcabyss());
+        addNewPokemon(new Whave().fishingSpawnFromExisting());
+        addNewPokemon(new Orcabyss().fishingSpawnFromExisting());
 
         //Zapalope line
-        pokemon.add(new Zapalope());
-        pokemon.add(new Joltalope());
+        addNewPokemon(new Zapalope());
+        addNewPokemon(new Joltalope());
+        addPokedexPokemon("chikorita-egho, bayleef-egho, meganium-egho");
+        addPokedexPokemon("cyndaquil-egho, quilava-egho, typhlosion-egho");
+        addPokedexPokemon("totodile-egho, croconaw-egho, feraligatr-egho");
 
-        pokemon.add(new Mewthree());
+        addNewPokemon(new Mewthree());
 
-        pokemon.add(new Oculeus());
+        addNewPokemon(new Oculeus());
 
-        pokemon.add(new Arkhaos());
+        addNewPokemon(new Arkhaos());
     }
 }

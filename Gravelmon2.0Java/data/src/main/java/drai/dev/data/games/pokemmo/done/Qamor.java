@@ -13,7 +13,6 @@ public class Qamor extends drai.dev.data.games.registry.Game {
     @Override
     public void registerPokemon() {
         pokemon.add(new Albat());
-        pokemon.add(new Albat());
         pokemon.add(new Gremleaf());
         pokemon.add(new Tropifox());
         pokemon.add(new Kindlet());
@@ -56,6 +55,7 @@ public class Qamor extends drai.dev.data.games.registry.Game {
         pokemon.add(new Coyohete());
         pokemon.add(new Culponi());
         pokemon.add(new Bronconvict());
+        addPokedexPokemon("tyrogue-qamoran, hitmonlee-qamoran, hitmonchan-qamoran, hitmontop-qamoran");
         pokemon.add(new Aqube());
         pokemon.add(new Wapolyp());
         pokemon.add(new Seasnug());
@@ -63,14 +63,17 @@ public class Qamor extends drai.dev.data.games.registry.Game {
         pokemon.add(new Pudgey());
         pokemon.add(new Flappetite());
         pokemon.add(new Cavacreep());
+        addPokedexPokemon("psyduck-qamoran, golduck");
         pokemon.add(new Gobbledyduck());
         pokemon.add(new Virchia());
         pokemon.add(new Impetal());
         pokemon.add(new Numby());
         pokemon.add(new Munsun());
         pokemon.add(new Thermoni());
+        addPokedexPokemon("volbeat, illumise");
         pokemon.add(new Peritwinkle());
         pokemon.add(new Keclekid());
+        addPokedexPokemon("kecleon");
         pokemon.add(new Paposy());
         pokemon.add(new Ancaleana());
         pokemon.add(new Belublebug());
@@ -80,6 +83,7 @@ public class Qamor extends drai.dev.data.games.registry.Game {
         pokemon.add(new Sycelium());
         pokemon.add(new Cerecybim());
         pokemon.add(new Somberscribe());
+        addPokedexPokemon("seel-qamoran, dewgong-qamoran");
         pokemon.add(new Grimgrin());
         pokemon.add(new Gibboor());
         pokemon.add(new Grimandrill());
@@ -99,6 +103,7 @@ public class Qamor extends drai.dev.data.games.registry.Game {
         pokemon.add(new Dashkite());
         pokemon.add(new Zipstream());
         pokemon.add(new Cassowatt());
+        addPokedexPokemon("rellor, rabsca-qamoran");
         pokemon.add(new Spooksew());
         pokemon.add(new Effigeam());
         pokemon.add(new Hollowhusk());
@@ -110,6 +115,7 @@ public class Qamor extends drai.dev.data.games.registry.Game {
 
         pokemon.add(new Servolt());
         pokemon.add(new Joulereign());
+        addPokedexPokemon("cubchoo-qamoran, beartic-qamoran");
         pokemon.add(new Chkachuru());
         pokemon.add(new Parumpum());
         pokemon.add(new Dokudurru());
@@ -122,11 +128,14 @@ public class Qamor extends drai.dev.data.games.registry.Game {
         pokemon.add(new Blubuoy());
         pokemon.add(new Albacross());
         pokemon.add(new Curbludgeon());
+        addPokedexPokemon("spoink-qamoran, grumpig-qamoran");
+        addPokedexPokemon("koffing-qamoran, weezing-qamoran");
         pokemon.add(new Grumpork());
         pokemon.add(new Glamglob());
         pokemon.add(new Lilpaca());
         pokemon.add(new Pacalpine());
         pokemon.add(new Chillichoya());
+        addPokedexPokemon("sandygast-qamoran");
         pokemon.add(new Saguartic());
         pokemon.add(new Palosstone());
         pokemon.add(new Mightiro());
@@ -135,18 +144,30 @@ public class Qamor extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Coldron()); //Missing Art
 //        pokemon.add(new Burrboil()); //Missing Art
 //        pokemon.add(new Frigitank()); //Missing Art
-        pokemon.add(new Frodent());
-        pokemon.add(new Bunbrisk());
-        pokemon.add(new Wintweasel());
-        pokemon.add(new Madrursa());
-        pokemon.add(new Nordirk());
-        pokemon.add(new Vikice());
-        pokemon.add(new Valkryce());
-        pokemon.add(new Selkreeper());
-        pokemon.add(new Vespidron());
-        pokemon.add(new Cryometry());
-        pokemon.add(new Frijolop());
-        pokemon.add(new Crickochet());
-        pokemon.add(new EXEon());
+        addNewPokemon(new Frodent());
+        addNewPokemon(new Bunbrisk());
+        addNewPokemon(new Wintweasel());
+        addNewPokemon(new Madrursa());
+        addNewPokemon(new Nordirk());
+        addNewPokemon(new Vikice());
+        addNewPokemon(new Valkryce());
+        addNewPokemon(new Selkreeper());
+        addPokedexPokemon("combee-qamoran");
+        addNewPokemon(new Vespidron());
+        addNewPokemon(new Cryometry());
+        addPokedexPokemon("cryogonal");
+        addNewPokemon(new Frijolop());
+        addNewPokemon(new Crickochet());
+        addPokedexPokemon(
+                "eevee," +
+                        "vaporeon," +
+                        "jolteon," +
+                        "flareon," +
+                        "espeon," +
+                        "umbreon," +
+                        "leafeon," +
+                        "glaceon," +
+                        "sylveon");
+        addNewPokemon(new EXEon());
     }
 }

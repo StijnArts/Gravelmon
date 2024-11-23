@@ -22,7 +22,7 @@ public class Rica extends drai.dev.data.games.registry.Game {
         pokemon.add(new Bunfin());
         pokemon.add(new Arsinge());
         pokemon.add(new Rupsen());
-        pokemon.add(new Mirmoor());
+        pokemon.add(new Mirmoor().fishingSpawnFromExisting());
         pokemon.add(new Sloowin());
         pokemon.add(new Atrocean());
         pokemon.add(new Skurrel());
@@ -46,7 +46,7 @@ public class Rica extends drai.dev.data.games.registry.Game {
         pokemon.add(new Larmidge());
         pokemon.add(new Dormidge());
         pokemon.add(new Chirmidge());
-        pokemon.add(new Ostrodd());
+        pokemon.add(new Ostrodd().fishingSpawnFromExisting());
         pokemon.add(new Orbizarre());
         pokemon.add(new Tadport());
         pokemon.add(new Psionewt());
@@ -82,12 +82,12 @@ public class Rica extends drai.dev.data.games.registry.Game {
         pokemon.add(new Rufooster());
         pokemon.add(new Odorable());
         pokemon.add(new Rabite());
-        pokemon.add(new Bubbweed());
+        pokemon.add(new Bubbweed().fishingSpawnFromExisting());
         pokemon.add(new Drifsea());
-        pokemon.add(new Starphin());
-        pokemon.add(new Lunorca());
-        pokemon.add(new Gupplash());
-        pokemon.add(new Arowish());
+        pokemon.add(new Starphin().fishingSpawnFromExisting());
+        pokemon.add(new Lunorca().fishingSpawnFromExisting());
+        pokemon.add(new Gupplash().fishingSpawnFromExisting());
+        pokemon.add(new Arowish().fishingSpawnFromExisting());
         pokemon.add(new Tarspook());
         pokemon.add(new Spookaye());
 
@@ -102,10 +102,10 @@ public class Rica extends drai.dev.data.games.registry.Game {
         pokemon.add(new Embear());
         pokemon.add(new Bearserk());
         pokemon.add(new Fumabor());
-        pokemon.add(new Crocoil());
+        pokemon.add(new Crocoil().fishingSpawnFromExisting());
         pokemon.add(new Platypoint());
         pokemon.add(new Platoxic());
-        pokemon.add(new Siamouth());
+        pokemon.add(new Siamouth().fishingSpawnFromExisting());
         pokemon.add(new Toxito());
         pokemon.add(new Leaflow());
         pokemon.add(new Plecobble());
@@ -113,13 +113,15 @@ public class Rica extends drai.dev.data.games.registry.Game {
         pokemon.add(new Spinox());
         pokemon.add(new Impuck());
         pokemon.add(new Impifaun());
-        pokemon.add(new Leptric());
-        pokemon.add(new Energeel());
+        pokemon.add(new Leptric().fishingSpawnFromExisting());
+        pokemon.add(new Energeel().fishingSpawnFromExisting());
         pokemon.add(new Mermew());
         pokemon.add(new Clampurr());
         pokemon.add(new Welking());
+        //todo has art now
 //        pokemon.add(new Amourish()); //Missing Art
 //        pokemon.add(new Glamoreef()); //Missing Art
+        addPokedexPokemon("shellos-rican, gastrodon-rican");
         pokemon.add(new Sweetoad());
         pokemon.add(new Spoocap());
         pokemon.add(new Sporror());
@@ -132,8 +134,8 @@ public class Rica extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Scimitear()); //Missing Art
 //        pokemon.add(new Seroseed());//Missing Art
 //        pokemon.add(new Conipine());//Missing Art
-        pokemon.add(new Ailember());
-        pokemon.add(new Genetorch());
+        addNewPokemon(new Ailember());
+        addNewPokemon(new Genetorch());
 //        pokemon.add(new Wasplode()); //Missing Art
         pokemon.add(new Pichip());
         pokemon.add(new Shifuu());
@@ -153,18 +155,18 @@ public class Rica extends drai.dev.data.games.registry.Game {
         pokemon.add(new Moreel());
         pokemon.add(new Darscale());
 //        pokemon.add(new tubeworm()); //Missing Art
-//        pokemon.add(new Toratoll()); //Member of Line not Finished
+//        pokemon.add(new Toratoll().fishingSpawnFromExisting()); //Member of Line not Finished
 //        pokemon.add(new Arcain()); //Missing Art
-        pokemon.add(new Fridgid());
-        pokemon.add(new Cirritwirl());
-        pokemon.add(new Torricane());
-        pokemon.add(new Pixiflake());
-        pokemon.add(new Wyvet());
-        pokemon.add(new Draybow());
-        pokemon.add(new Delphair());
-        pokemon.add(new Aerocea());
-        pokemon.add(new Tardidure());
-        pokemon.add(new Etornal());
+        addNewPokemon(new Fridgid().fishingSpawnFromExisting());
+        addNewPokemon(new Cirritwirl());
+        addNewPokemon(new Torricane());
+        addNewPokemon(new Pixiflake());
+        addNewPokemon(new Wyvet());
+        addNewPokemon(new Draybow());
+        addNewPokemon(new Delphair());
+        addNewPokemon(new Aerocea());
+        addNewPokemon(new Tardidure());
+        addNewPokemon(new Etornal());
 //        pokemon.add(new Hyaenom()); //Member of Line not Finished
 //        pokemon.add(new Ravidont()); //Missing Art
 //        pokemon.add(new Sarcrush()); //Member of Line not Finished
@@ -175,10 +177,10 @@ public class Rica extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Darabble()); //Member of Line not Finished
 //        pokemon.add(new Rovorage()); //Missing Art
 //        pokemon.add(new Helluster()); //Member of Line not Finished
-        pokemon.add(new Tunnelid());
+        addNewPokemon(new Tunnelid());
 //        pokemon.add(new Yamiju()); //Missing Art
 //        pokemon.add(new Taranturem()); //Missing Art
-        pokemon.add(new Solios());
+        addNewPokemon(new Solios());
 
     }
 

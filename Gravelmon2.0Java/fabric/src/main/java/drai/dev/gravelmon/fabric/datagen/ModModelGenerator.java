@@ -22,12 +22,16 @@ public class ModModelGenerator extends FabricModelProvider {
     public void generateBlockStateModels(BlockModelGenerators blockStateModelGenerator) {
         blockStateModelGenerator.createTrivialCube(GravelmonBlocks.ASTRAL_STONE_ORE.get());
         blockStateModelGenerator.createTrivialCube(GravelmonBlocks.DEEPSLATE_ASTRAL_STONE_ORE.get());
+        blockStateModelGenerator.createTrivialCube(GravelmonBlocks.ASTRAL_STONE_BLOCK.get());
         blockStateModelGenerator.createTrivialCube(GravelmonBlocks.AIR_STONE_ORE.get());
         blockStateModelGenerator.createTrivialCube(GravelmonBlocks.DEEPSLATE_AIR_STONE_ORE.get());
+        blockStateModelGenerator.createTrivialCube(GravelmonBlocks.AIR_STONE_BLOCK.get());
         blockStateModelGenerator.createTrivialCube(GravelmonBlocks.MYSTIC_STONE_ORE.get());
         blockStateModelGenerator.createTrivialCube(GravelmonBlocks.DEEPSLATE_MYSTIC_STONE_ORE.get());
+        blockStateModelGenerator.createTrivialCube(GravelmonBlocks.MYSTIC_STONE_BLOCK.get());
         blockStateModelGenerator.createTrivialCube(GravelmonBlocks.SOLID_STONE_ORE.get());
         blockStateModelGenerator.createTrivialCube(GravelmonBlocks.DEEPSLATE_SOLID_STONE_ORE.get());
+        blockStateModelGenerator.createTrivialCube(GravelmonBlocks.SOLID_STONE_BLOCK.get());
     }
 
     @Override

@@ -1,7 +1,12 @@
 package drai.dev.gravelmon.apricorn;
 
+import com.cobblemon.mod.common.api.apricorn.*;
+import com.cobblemon.mod.common.api.events.*;
+import com.cobblemon.mod.common.api.events.farming.*;
 import com.cobblemon.mod.common.api.tags.*;
 import com.cobblemon.mod.common.block.*;
+import com.mojang.serialization.*;
+import com.mojang.serialization.codecs.*;
 import kotlin.Unit;
 import kotlin.jvm.functions.*;
 import net.minecraft.core.*;
@@ -23,11 +28,18 @@ import net.minecraft.world.phys.shapes.*;
 import org.jetbrains.annotations.*;
 
 public class GravelmonApricornBlock extends HorizontalDirectionalBlock implements BonemealableBlock, ShearableBlock {
+    public static final MapCodec<GravelmonApricornBlock> CODEC = RecordCodecBuilder.mapCodec((instance)->
+            instance.group(propertiesCodec(), GravelmonApricorns.CODEC.fieldOf("apricorn")
+                            .forGetter(GravelmonApricornBlock::getApricorn))
+                    .apply(instance, GravelmonApricornBlock::new)
+    );
     public static IntegerProperty AGE;
     public static final DirectionProperty FACING;
     public static int MAX_AGE;
     public static int MIN_AGE;
     public GravelmonApricorns apricorn;
+
+
     public GravelmonApricornBlock(Properties properties, GravelmonApricorns apricorn) {
         super(properties);
         this.registerDefaultState(this.defaultBlockState().setValue(AGE,MIN_AGE).setValue(FACING,Direction.NORTH));
@@ -88,7 +100,7 @@ public class GravelmonApricornBlock extends HorizontalDirectionalBlock implement
         return getVoxelShape(state);
     }
     @Override
-    public boolean isPathfindable(BlockState state, BlockGetter level, BlockPos pos, PathComputationType type) {
+    public boolean isPathfindable(BlockState state,  PathComputationType type) {
         return false;
     }
     private VoxelShape getVoxelShape(BlockState state) {
@@ -103,6 +115,15 @@ public class GravelmonApricornBlock extends HorizontalDirectionalBlock implement
         return shape;
     }
     @Override
+    protected MapCodec<? extends HorizontalDirectionalBlock> codec() {
+        return CODEC;
+    }
+
+    public GravelmonApricorns getApricorn() {
+        return apricorn;
+    }
+
+    @Override
     public BlockState rotate(BlockState state, Rotation rotation) {
         return (BlockState)state.setValue(FACING, rotation.rotate(state.getValue(FACING)));
     }
@@ -112,28 +133,26 @@ public class GravelmonApricornBlock extends HorizontalDirectionalBlock implement
         return state.rotate(mirror.getRotation(state.getValue(FACING)));
     }
     @Override
-    public BlockState updateShape(BlockState state, Direction direction, BlockState neighborState, LevelAccessor level, BlockPos pos, BlockPos neighborPos) {
+    public @NotNull BlockState updateShape(BlockState state, Direction direction, BlockState neighborState, LevelAccessor level, BlockPos pos, BlockPos neighborPos) {
         return (direction == state.getValue(FACING) && !state.canSurvive(level, pos)) ? Blocks.AIR.defaultBlockState() :
         super.updateShape(state, direction, neighborState, level, pos, neighborPos);
     }
 
     @Override
-    public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hit) {
+    public @NotNull InteractionResult useWithoutItem(BlockState state, Level level, BlockPos pos, Player player, BlockHitResult hit) {
         if (state.getValue(AGE) != MAX_AGE) {
-            return super.use(state, level, pos, player, hand, hit);
+            return super.useWithoutItem(state, level, pos, player, hit);
         }
 
-        var resetState = this.harvest(level, state, pos);
-        level.gameEvent(GameEvent.BLOCK_CHANGE, pos, GameEvent.Context.of(player, resetState));
-
-        if (!level.isClientSide) {
-            level.playSound(null, pos.getX(), pos.getY(), pos.getZ(), SoundEvents.ITEM_PICKUP, SoundSource.NEUTRAL, 0.7F, 1.4F);
-        }
-        return InteractionResult.PASS;
+        doHarvest(level, state, pos, player);
+        return InteractionResult.SUCCESS;
     }
-    public ItemStack getCloneItemStack(BlockGetter level, BlockPos pos, BlockState state) {
+
+    @Override
+    public ItemStack getCloneItemStack(LevelReader levelReader, BlockPos blockPos, BlockState blockState) {
         return new ItemStack(apricorn.getItem());
     }
+
     @Override
     public boolean attemptShear(@NotNull Level world, @NotNull BlockState state, @NotNull BlockPos pos, @NotNull Function0<Unit> function0) {
         if (state.getValue(AGE) != MAX_AGE) {
@@ -147,7 +166,7 @@ public class GravelmonApricornBlock extends HorizontalDirectionalBlock implement
     }
 
     @Override
-    public boolean isValidBonemealTarget(LevelReader level, BlockPos pos, BlockState state, boolean isClient) {
+    public boolean isValidBonemealTarget(LevelReader level, BlockPos pos, BlockState state) {
         return state.getValue(AGE) < MAX_AGE;
     }
 
@@ -161,14 +180,35 @@ public class GravelmonApricornBlock extends HorizontalDirectionalBlock implement
         level.setBlock(pos, state.setValue(AGE, state.getValue(AGE) + 1), 2);
     }
 
+    @Override
+    protected void attack(BlockState blockState, Level level, BlockPos blockPos, Player player) {
+        if (blockState.getValue(AGE) != MAX_AGE) {
+            super.attack(blockState, level, blockPos, player);
+        }
+
+        doHarvest(level, blockState, blockPos, player);
+    }
+
     public BlockState harvest(Level world, BlockState state, BlockPos pos)  {
         // Uses loot tables, to change the drops use 'data/cobblemon/loot_tables/blocks/<color>_apricorn.json'
-        Block.dropResources(state, world, pos);
+        popResource(world, pos, new ItemStack(apricorn.getItem()));
         // Don't use default as we want to keep the facing
         var resetState = state.setValue(AGE, MIN_AGE);
         world.setBlock(pos, resetState, Block.UPDATE_CLIENTS);
         return resetState;
     }
+
+    private void doHarvest(Level world, BlockState state, BlockPos pos, Player player) {
+        var resetState = this.harvest(world, state, pos);
+        world.gameEvent(GameEvent.BLOCK_CHANGE, pos, GameEvent.Context.of(player, resetState));
+
+        if (!world.isClientSide) {
+            if(world instanceof ServerLevel serverLevel){
+                serverLevel.playSound(null, pos, SoundEvents.ITEM_PICKUP, SoundSource.BLOCKS, 0.7F, 1.4F);
+            }
+        }
+    }
+
     private static VoxelShape[] NORTH_AABB;
     private static VoxelShape[] SOUTH_AABB;
     private static VoxelShape[] EAST_AABB;

@@ -164,8 +164,8 @@ public class Okeno extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Adobrick()); //Missing Art
 //        pokemon.add(new Adobuild()); //Missing Art
 //        pokemon.add(new Concretech()); //Missing Art
-        pokemon.add(new Lundrey());
-        pokemon.add(new Dirthrown());
+        addNewPokemon(new Lundrey());
+        addNewPokemon(new Dirthrown());
 //        pokemon.add(new Roacheap()); //Missing Art
 //        pokemon.add(new Roaproach()); //Missing Art
 //        pokemon.add(new Rorscharf()); //Missing Art
@@ -178,21 +178,21 @@ public class Okeno extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Virack()); //Missing Art
 //        pokemon.add(new Bacteary()); //Missing Art
 //        pokemon.add(new Allergix()); //Member of line not Finished
-        pokemon.add(new Duolecule());
-        pokemon.add(new Valvacid());
-        pokemon.add(new Larvomit());
-        pokemon.add(new Drogaster());
+        addNewPokemon(new Duolecule());
+        addNewPokemon(new Valvacid());
+        addNewPokemon(new Larvomit());
+        addNewPokemon(new Drogaster());
 //        pokemon.add(new Bysect()); //Missing Art
-        pokemon.add(new Mycerial());
-        pokemon.add(new Unfortunist());
-        pokemon.add(new Dullahaunt());
-        pokemon.add(new Ombrella());
+        addNewPokemon(new Mycerial());
+        addNewPokemon(new Unfortunist());
+        addNewPokemon(new Dullahaunt());
+        addNewPokemon(new Ombrella());
 //        pokemon.add(new Komrant()); //Missing Art
 //        pokemon.add(new Kombatant()); //Missing Art
 //        pokemon.add(new Komandant()); //Member of line not Finished
 //        pokemon.add(new Ohvni()); //Missing Art
-        pokemon.add(new Carnation());
-        pokemon.add(new Corsage());
+        addNewPokemon(new Carnation());
+        addNewPokemon(new Corsage());
 //        pokemon.add(new Kisadee()); //Missing Art
 //        pokemon.add(new Warbleer()); //Missing Art
 //        pokemon.add(new Gnatsure()); //Missing Art
@@ -213,9 +213,9 @@ public class Okeno extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Pyrotile()); //Missing Art
 //        pokemon.add(new Tropiguana()); //Missing Art
 //        pokemon.add(new Brazilisk()); //Missing Art
-        pokemon.add(new Selveger());
-        pokemon.add(new Hoatrex());
-        pokemon.add(new Gnetic());
+        addNewPokemon(new Selveger());
+        addNewPokemon(new Hoatrex());
+        addNewPokemon(new Gnetic());
 
     }
 

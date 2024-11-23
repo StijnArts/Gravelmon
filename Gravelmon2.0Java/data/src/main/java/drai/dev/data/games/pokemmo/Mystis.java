@@ -7,10 +7,9 @@ public class Mystis extends drai.dev.data.games.registry.Game {
     public Mystis() {
         super("Mystis");
     }
-
+    //TODO dex integration
     @Override
     public void registerPokemon() {
-
         pokemon.add(new Munchmite());
         pokemon.add(new Larbor());
         pokemon.add(new Anbrosia());
@@ -106,19 +105,19 @@ public class Mystis extends drai.dev.data.games.registry.Game {
         pokemon.add(new Drakrash());
 //        pokemon.add(new Hummingale()); MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new 410468());   Missing Art
-        pokemon.add(new Staretue());
+        addNewPokemon(new Staretue());
 //        pokemon.add(new Snowpent());   Missing Art
 //        pokemon.add(new Blizerpent());   Missing Art
-        pokemon.add(new Burrawn());
-        pokemon.add(new Delvster());
-        pokemon.add(new Cephouch());
-        pokemon.add(new Satchacle());
-        pokemon.add(new Kragken());
-        pokemon.add(new Shocenti());
-        pokemon.add(new Escalaze());
-        pokemon.add(new Lamprobe());
-        pokemon.add(new Grabbem());
-        pokemon.add(new Guardihand());
+        addNewPokemon(new Burrawn());
+        addNewPokemon(new Delvster());
+        addNewPokemon(new Cephouch());
+        addNewPokemon(new Satchacle());
+        addNewPokemon(new Kragken());
+        addNewPokemon(new Shocenti());
+        addNewPokemon(new Escalaze());
+        addNewPokemon(new Lamprobe());
+        addNewPokemon(new Grabbem());
+        addNewPokemon(new Guardihand());
 //        pokemon.add(new Cotteeny());   Missing Art
 //        pokemon.add(new Flowerbed());   Missing Art
         pokemon.add(new Drakuleech());
@@ -153,18 +152,18 @@ public class Mystis extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Salmonock());   Missing Art
 //        pokemon.add(new Bearrier());   Missing Art
 //        pokemon.add(new Urstaunch());   Missing Art
-        pokemon.add(new Minifing());
-        pokemon.add(new Blokkead());
-        pokemon.add(new Manacule());
-        pokemon.add(new Possion());
-        pokemon.add(new Bubbeldam());
-        pokemon.add(new Sorcehorress());
-        pokemon.add(new Explodaph());
+        addNewPokemon(new Minifing());
+        addNewPokemon(new Blokkead());
+        addNewPokemon(new Manacule());
+        addNewPokemon(new Possion());
+        addNewPokemon(new Bubbeldam());
+        addNewPokemon(new Sorcehorress());
+        addNewPokemon(new Explodaph());
 //        pokemon.add(new Seedandy());   Missing Art
 //        pokemon.add(new Dandylil());   Missing Art
 //        pokemon.add(new Dandylove());   Missing Art
-        pokemon.add(new Disasteroid());
-        pokemon.add(new Utsuki());
+        addNewPokemon(new Disasteroid());
+        addNewPokemon(new Utsuki());
     }
 
 }

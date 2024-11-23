@@ -7,18 +7,15 @@ import net.minecraft.world.level.block.grower.*;
 import net.minecraft.world.level.levelgen.feature.*;
 import org.jetbrains.annotations.*;
 
-public class GravelmonApricornTreeGrower extends AbstractTreeGrower {
+import java.util.*;
+
+public class GravelmonApricornTreeGrower extends TreeGrower {
     private final GravelmonApricorns apricorn;
 
     public GravelmonApricornTreeGrower(GravelmonApricorns apricorn){
+        super(apricorn.name().toLowerCase(Locale.ROOT), Optional.empty(),
+                Optional.of(apricorn.getConfiguredFeature()),
+                Optional.empty());
         this.apricorn = apricorn;
-    }
-    @Nullable
-    @Override
-    protected ResourceKey<ConfiguredFeature<?, ?>> getConfiguredFeature(RandomSource random, boolean hasFlowers) {
-        return switch(apricorn){
-            case PURPLE -> GravelmonConfiguredFeatures.PURPLE_APRICORN_TREE_KEY;
-            case ORANGE -> GravelmonConfiguredFeatures.ORANGE_APRICORN_TREE_KEY;
-        };
     }
 }

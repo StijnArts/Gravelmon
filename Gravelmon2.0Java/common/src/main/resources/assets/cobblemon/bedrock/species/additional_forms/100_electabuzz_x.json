@@ -35,8 +35,6 @@
         "x",
         "shiny"
       ],
-      "model": "cobblemon:generation1_electabuzzx.geo",
-      "poser": "cobblemon:generation1_electabuzzx",
       "texture": "cobblemon:textures/pokemon/generation1/electabuzzx/electabuzzx_shiny.png",
       "layers": [
         {

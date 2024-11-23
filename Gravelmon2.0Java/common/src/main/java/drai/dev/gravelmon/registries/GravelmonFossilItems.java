@@ -513,7 +513,7 @@ public class GravelmonFossilItems {
     public static RegistrySupplier<Item> BASKET_FOSSIL = fossilItem(
             List.of(
                     BaseCobblemonDigSites.FROZEN_POND.uncommon(),
-                    new ResourceLocation("cobblemon", "fossils/prehistoric_tuff_pit")
+                    ResourceLocation.fromNamespaceAndPath("cobblemon", "fossils/prehistoric_tuff_pit")
             ),
             "basket_fossil",
             "chillaxo");
@@ -625,7 +625,7 @@ public class GravelmonFossilItems {
     public static RegistrySupplier<Item> WEBBED_FOSSIL = fossilItem(
             List.of(
                     BaseCobblemonDigSites.SUSPICIOUS_MOUND.uncommon(),
-                    new ResourceLocation("cobblemon", "fossils/prehistoric_meteorite_pond")
+                    ResourceLocation.fromNamespaceAndPath("cobblemon", "fossils/prehistoric_meteorite_pond")
             ),
             "webbed_fossil",
             "hungrebe");
@@ -673,7 +673,7 @@ public class GravelmonFossilItems {
             "palagaia");
     public static RegistrySupplier<Item> RAMPART_FOSSIL = fossilItem(
             List.of(
-                    new ResourceLocation("cobblemon", "fossils/prehistoric_tuff_pit"),
+                    ResourceLocation.fromNamespaceAndPath("cobblemon", "fossils/prehistoric_tuff_pit"),
                     BaseCobblemonDigSites.FROZEN_SPIKE.uncommon()
             ),
             "rampart_fossil",

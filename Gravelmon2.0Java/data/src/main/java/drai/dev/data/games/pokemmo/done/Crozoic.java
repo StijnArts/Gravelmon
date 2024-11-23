@@ -5,7 +5,6 @@ import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.crozoic.*;
 
 import java.util.*;
-//done
 public class Crozoic extends drai.dev.data.games.registry.Game {
     public Crozoic() {
         super("Crozoic");
@@ -13,11 +12,11 @@ public class Crozoic extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new Arovee());
+        addNewPokemon(new Arovee());
 //        pokemon.add(new Dinari());   Member of line Not Finished
-        pokemon.add(new Picant());
-        pokemon.add(new Surveilant());
-        pokemon.add(new Hellantern(new Stats(434, StatArchetype.FAST_PHYSICAL_ATTACKER,
+        addNewPokemon(new Picant());
+        addNewPokemon(new Surveilant());
+        addNewPokemon(new Hellantern(new Stats(434, StatArchetype.FAST_PHYSICAL_ATTACKER,
                 List.of(StatType.ATTACK, StatType.ATTACK, StatType.SPEED))));
         pokemon.add(new Glizyrup(new Stats(342, StatArchetype.FAST_SUPPORT, List.of(StatType.SPEED))));
         pokemon.add(new Pekohmu(new Stats(412, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPEED))));

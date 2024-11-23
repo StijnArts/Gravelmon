@@ -10,7 +10,7 @@ public class Olysos extends drai.dev.data.games.registry.Game {
     public Olysos() {
         super("Olysos");
     }
-
+    //TODO dex entries
     @Override
     public void registerPokemon() {
         pokemon.add(new Cubtus());
@@ -32,7 +32,7 @@ public class Olysos extends drai.dev.data.games.registry.Game {
         pokemon.add(new Inferpillar());
         pokemon.add(new Flamupet());
         pokemon.add(new Flamothra(new Stats(420, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+                List.of(StatType.SPEED))));
 //        pokemon.add(new Gnaphid());   MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new Locusteror());   Missing Art
 //        pokemon.add(new Punling());   MEMBER OF LINE NOT FINISHED
@@ -91,7 +91,7 @@ public class Olysos extends drai.dev.data.games.registry.Game {
         pokemon.add(new Skarawel());
 //        pokemon.add(new Traplat());MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new Trapolem());   Missing Art
-        pokemon.add(new Allnown());
+        addNewPokemon(new Allnown());
 //        pokemon.add(new Mageleon());   Missing Art
 //        pokemon.add(new Chereon());   Missing Art
         pokemon.add(new Rustank());
@@ -140,7 +140,7 @@ public class Olysos extends drai.dev.data.games.registry.Game {
         pokemon.add(new Zombark(new Stats(380, StatArchetype.FAST_SUPPORT,
                 List.of(StatType.SPEED))));
         pokemon.add(new Serenine(new Stats(380, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+                List.of(StatType.SPEED))));
     }
 
 }

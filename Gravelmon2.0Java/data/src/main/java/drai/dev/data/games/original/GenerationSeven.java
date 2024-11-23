@@ -59,31 +59,31 @@ public class GenerationSeven extends Game {
 
         pokemon.add(new QamoranSandygast("", Aspect.QAMORAN));
 
-        pokemon.add(new NostanMorelull("", Aspect.NOSTAN));
-        pokemon.add(new NostanShiinotic("", Aspect.NOSTAN, new Stats(405, StatArchetype.SPECIAL_WALL, List.of(StatType.SPEED))));
+        addNewPokemon(new NostanMorelull("", Aspect.NOSTAN));
+        addNewPokemon(new NostanShiinotic("", Aspect.NOSTAN, new Stats(405, StatArchetype.SPECIAL_WALL, List.of(StatType.SPEED))));
 
-        pokemon.add(new VaritasianBounsweet("", Aspect.VARITASIAN));
-        pokemon.add(new VaritasianSteenee("", Aspect.VARITASIAN));
+        addNewPokemon(new VaritasianBounsweet("", Aspect.VARITASIAN));
+        addNewPokemon(new VaritasianSteenee("", Aspect.VARITASIAN));
 
         //X-Species (Xenoverse)
-        pokemon.add(new MareanieX("", Aspect.X));
-        pokemon.add(new ToxapexX("Toxapex", Aspect.X));
-        pokemon.add(new PyukumukuX("", Aspect.X));
-        pokemon.add(new TapuKokoX("", Aspect.X));
-        pokemon.add(new TapuLeleX("", Aspect.X));
-        pokemon.add(new TapuBuluX("", Aspect.X));
-        pokemon.add(new TapuFiniX("", Aspect.X));
+        addNewPokemon(new MareanieX("", Aspect.X));
+        addNewPokemon(new ToxapexX("Toxapex", Aspect.X));
+        addNewPokemon(new PyukumukuX("", Aspect.X));
+        addNewPokemon(new TapuKokoX("", Aspect.X));
+        addNewPokemon(new TapuLeleX("", Aspect.X));
+        addNewPokemon(new TapuBuluX("", Aspect.X));
+        addNewPokemon(new TapuFiniX("", Aspect.X));
 
         //Pokemon Blazing Emerald
-        pokemon.add(new HoennianMareanie("", Aspect.HOENNIAN));
-        pokemon.add(new HoennianToxapex("", Aspect.HOENNIAN));
+        addNewPokemon(new HoennianMareanie("", Aspect.HOENNIAN));
+        addNewPokemon(new HoennianToxapex("", Aspect.HOENNIAN));
 
         //Radical Red
-        pokemon.add(new SeviianWishiwashi("", Aspect.SEVIIAN));
-        pokemon.add(new SeviianDhelmise("", Aspect.SEVIIAN));
+        addNewPokemon(new SeviianWishiwashi("", Aspect.SEVIIAN).fishingSpawnFromExisting());
+        addNewPokemon(new SeviianDhelmise("", Aspect.SEVIIAN).fishingSpawnFromExisting());
 
         //Pokemon Flux
-        pokemon.add(new DeepWishiwashi("", Aspect.DEEP));
+        addNewPokemon(new DeepWishiwashi("", Aspect.DEEP));
 
         //Vanguard
         pokemon.add(new AyreianCutiefly("", Aspect.AYREIAN));
@@ -98,8 +98,8 @@ public class GenerationSeven extends Game {
         pokemon.add(new KaskadianBruxish("", Aspect.KASKADIAN));
 
         //Azure (Mystic)
-        pokemon.add(new MysticStufful("", Aspect.MYSTIC));
-        pokemon.add(new MysticBewear("", Aspect.MYSTIC));
+        addNewPokemon(new MysticStufful("", Aspect.MYSTIC));
+        addNewPokemon(new MysticBewear("", Aspect.MYSTIC));
 
     }
 

@@ -1,12 +1,16 @@
 package drai.dev.data.games.registry;
 
+import com.google.gson.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.*;
 
 import java.util.*;
 
 public abstract class Game {
     protected String name;
-    protected List<Pokemon> pokemon = new ArrayList<>();
+    protected List<Pokemon> newPokemon = new ArrayList<>();
+    protected List<String> pokedex = new ArrayList<>();
+    protected List<String> additionalPokedexPokemon = new ArrayList<>();
     public Game(String name){
         this.name = name;
         registerPokemon();
@@ -15,11 +19,47 @@ public abstract class Game {
     public String getName(){
         return name;
     }
-    public List<Pokemon> getPokemon(){
-        return pokemon;
+    public List<Pokemon> getNewPokemon(){
+        return newPokemon;
+    }
+    public List<String> getPokedex(){
+        return pokedex;
     }
 
     public void init() {
-        pokemon.forEach(pokemon1 -> pokemon1.setGame(this));
+        newPokemon.forEach(pokemon1 -> pokemon1.setGame(this));
+    }
+    public void addNewPokemon(Pokemon pokemon){
+        newPokemon.add(pokemon);
+        if(Pokemon.isAnAdditionalForm(pokemon)) {
+            pokedex.add("cobblemon:"+Pokemon.getKeysByValue(Pokemon.ADDITIONAL_FORMS, pokemon).stream().findFirst().get()+
+                    "-"+pokemon.getAdditionalAspect().name().toLowerCase());
+            return;
+        }
+        pokedex.add("cobblemon:"+pokemon.getCleanName());
+    }
+
+    public List<String> getAdditionalPokedex() {
+        return additionalPokedexPokemon;
+    }
+
+    public void addPokedexPokemon(String... pokemonNames){
+        for (int i = 0; i < pokemonNames.length; i++) {
+            var name = pokemonNames[i];
+            if(!name.contains(",")) addPokedexPokemon(name); else {
+                var splitEntries = name.split(",");
+                for (int j = 0; j < splitEntries.length; j++) {
+                    addPokedexPokemon(splitEntries[j]);
+                }
+            }
+        }
+    }
+
+    private void addPokedexPokemon(String pokemon){
+        pokedex.add("cobblemon:"+ pokemon.trim().toLowerCase());
+    }
+
+    public void removePokedexPokemon(String pokemonName) {
+        pokedex.remove("cobblemon:"+pokemonName.toLowerCase().trim());
     }
 }

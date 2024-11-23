@@ -1,5 +1,6 @@
 package drai.dev.data.pokemon;
 
+import com.cobblemon.mod.common.api.spawning.*;
 import drai.dev.data.*;
 import drai.dev.data.attributes.*;
 import drai.dev.data.games.registry.*;
@@ -9,6 +10,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import org.apache.commons.lang3.*;
 import org.jetbrains.annotations.*;
 
+import java.sql.*;
 import java.util.*;
 import java.util.stream.*;
 
@@ -49,14 +51,7 @@ public class Pokemon {
     private Boolean cannotDynamax = false;
     private Boolean isNew = true;
     private boolean hasGenderDifferences = false;
-    private final SpawnContext spawnContext;
-    private final SpawnPool spawnPool;
-    private final int minSpawnLevel;
-    private final int maxSpawnLevel;
-    private final double spawnWeight;
-    private final List<SpawnCondition> spawnConditions;
-    private final List<SpawnCondition> spawnAntiConditions;
-    private final List<SpawnPreset> spawnPresets;
+    private final List<PokemonSpawnData> spawnData = new ArrayList<>();
     private Boolean canFly = false;
     private int lightLevelMinSleep = 0;
     private int lightLevelMaxSleep = 6;
@@ -114,7 +109,7 @@ public class Pokemon {
     private void addAdditionalForm(String originalPokemon, Pokemon pokemon) {
         var key = originalPokemon.toLowerCase();
         if (key.isBlank()) {
-            key = getClass().getSimpleName().toLowerCase().replaceAll(pokemon.getAdditionalAspect().getName(), "");
+            key = getClass().getSimpleName().toLowerCase().replaceAll(pokemon.getAdditionalAspect().name().toLowerCase(), "");
         }
         String className = getClass().getSimpleName();
         for (int i = 0; i < 20; i++) {
@@ -182,14 +177,7 @@ public class Pokemon {
         this.evYield = evYield;
         this.height = height;
         this.weight = weight;
-        this.spawnContext = spawnContext;
-        this.spawnPool = spawnPool;
-        this.minSpawnLevel = minSpawnLevel;
-        this.maxSpawnLevel = maxSpawnLevel;
-        this.spawnWeight = spawnWeight;
-        this.spawnConditions = spawnConditions;
-        this.spawnAntiConditions = spawnAntiConditions;
-        this.spawnPresets = spawnPresets;
+        this.spawnData.add(new PokemonSpawnData(spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight, spawnConditions, spawnAntiConditions, spawnPresets));
         this.baseScale = Math.max((double) height / 10 / 6, 0.1);
         this.hitboxWidth = 6;
         this.hitboxHeight = 6;
@@ -212,13 +200,16 @@ public class Pokemon {
         for (var pokemon : sortedPokemonList) {
             if (pokemon.getCatchRate() == 0)
                 pokemonWithZeroCatchrate.append(pokemon.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ").append(pokemon.getCleanName()).append(",\n");
-            if (pokemon.spawnPresets.size() > 1) {
-                pokemonWithMoreThanTwoSpawnPresets.append(pokemon.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ").append(pokemon.getCleanName()).append(", being: ");
-                for (var preset : pokemon.spawnPresets) {
-                    pokemonWithMoreThanTwoSpawnPresets.append(preset).append(",");
+            for (var spawnData : pokemon.getSpawnData()){
+                if (spawnData.spawnPresets().size() > 1) {
+                    pokemonWithMoreThanTwoSpawnPresets.append(pokemon.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ").append(pokemon.getCleanName()).append(", being: ");
+                    for (var preset : spawnData.spawnPresets()) {
+                        pokemonWithMoreThanTwoSpawnPresets.append(preset).append(",");
+                    }
+                    pokemonWithMoreThanTwoSpawnPresets.append("\n");
                 }
-                pokemonWithMoreThanTwoSpawnPresets.append("\n");
             }
+
             if (pokemon.getEggGroups().isEmpty()) {
                 pokemon.eggGroups = new ArrayList<>(pokemon.eggGroups);
                 pokemon.eggGroups.add(EggGroup.FIELD);
@@ -261,7 +252,7 @@ public class Pokemon {
                     }
                     if (Pokemon.isAnAdditionalForm(pokemon)) {
                         var resultName = getKeysByValue(ADDITIONAL_FORMS, pokemon).stream().findFirst();
-                        resultName.ifPresent(s -> result.setPreEvolution(s + " form=" + pokemon.getAdditionalAspect().getName().toLowerCase()));
+                        resultName.ifPresent(s -> result.setPreEvolution(s + " form=" + pokemon.getAdditionalAspect().name().toLowerCase()));
                     } else {
                         result.setPreEvolution(pokemon.getCleanName());
                     }
@@ -296,7 +287,7 @@ public class Pokemon {
                         if (!isBasedOnOriginalPokemon(pokemon)) {
                             result.getLabels().add(Label.FAKEMON);
                         }
-                        String aspect = evolutionEntry.getAspects().stream().findFirst().isEmpty() ? "" : " form=" + evolutionEntry.getAspects().stream().findFirst().get().getName();
+                        String aspect = evolutionEntry.getAspects().stream().findFirst().isEmpty() ? "" : " form=" + evolutionEntry.getAspects().stream().findFirst().get().name();
                         result.setPreEvolution(pokemon.getCleanName() + aspect);
                     }
                 }
@@ -355,7 +346,7 @@ public class Pokemon {
                 if (result != null) {
                     if (isAnAdditionalForm(result)) {
                         var resultName = getKeysByValue(ADDITIONAL_FORMS, result).stream().findFirst();
-                        resultName.ifPresent(s -> evolutionEntry.setResult(s + " " + result.getAdditionalAspect().getName().toLowerCase()));
+                        resultName.ifPresent(s -> evolutionEntry.setResult(s + " " + result.getAdditionalAspect().name().toLowerCase()));
                     }
                 } else {
                     ADDITIONAL_PRE_EVOLUTIONS.put(evolutionEntry.getResult().toLowerCase(), pokemon.getCleanName());
@@ -371,7 +362,7 @@ public class Pokemon {
                     if (result != null) {
                         if (isAnAdditionalForm(result)) {
                             var resultName = getKeysByValue(ADDITIONAL_FORMS, result).stream().findFirst();
-                            resultName.ifPresent(s -> evolutionEntry.setResult(s + " " + result.getAdditionalAspect().getName().toLowerCase()));
+                            resultName.ifPresent(s -> evolutionEntry.setResult(s + " " + result.getAdditionalAspect().name().toLowerCase()));
                         }
                     }
                 }
@@ -435,7 +426,7 @@ public class Pokemon {
 
                     if (Pokemon.isAnAdditionalForm(pokemon)) {
                         var resultName = getKeysByValue(ADDITIONAL_FORMS, pokemon).stream().findFirst();
-                        resultName.ifPresent(s -> result.setPreEvolution(s + " form=" + pokemon.getAdditionalAspect().getName().toLowerCase()));
+                        resultName.ifPresent(s -> result.setPreEvolution(s + " form=" + pokemon.getAdditionalAspect().name().toLowerCase()));
                     } else {
                         result.setPreEvolution(pokemon.getCleanName());
                     }
@@ -714,38 +705,6 @@ public class Pokemon {
         return hasGenderDifferences;
     }
 
-    public SpawnContext getSpawnContext() {
-        return spawnContext;
-    }
-
-    public SpawnPool getSpawnPool() {
-        return spawnPool;
-    }
-
-    public int getMinSpawnLevel() {
-        return minSpawnLevel;
-    }
-
-    public int getMaxSpawnLevel() {
-        return maxSpawnLevel;
-    }
-
-    public double getSpawnWeight() {
-        return spawnWeight;
-    }
-
-    public List<SpawnCondition> getSpawnConditions() {
-        return spawnConditions;
-    }
-
-    public List<SpawnCondition> getSpawnAntiConditions() {
-        return spawnAntiConditions;
-    }
-
-    public List<SpawnPreset> getSpawnPresets() {
-        return spawnPresets;
-    }
-
     public Boolean canFly() {
         return canFly;
     }
@@ -1018,5 +977,51 @@ public class Pokemon {
 
     public void setCanWalkOnWater(Boolean canWalkOnWater) {
         this.canWalkOnWater = canWalkOnWater;
+    }
+
+    public List<PokemonSpawnData> getSpawnData() {
+        return spawnData;
+    }
+
+    public Pokemon createFishingSpawn(SpawnPool spawnPool, int minLevel, int maxLevel, double weight) {
+        return createFishingSpawn(spawnPool, minLevel, maxLevel, weight, new ArrayList<>());
+    }
+    public Pokemon createFishingSpawn(SpawnPool spawnPool, int minLevel, int maxLevel, double weight,
+                                      List<SpawnCondition> conditions) {
+        return createFishingSpawn(spawnPool, minLevel, maxLevel, weight, conditions, new ArrayList<>());
+    }
+        public Pokemon createFishingSpawn(SpawnPool spawnPool, int minLevel, int maxLevel, double weight,
+                                      List<SpawnCondition> conditions, List<SpawnCondition> antiConditions){
+        spawnData.add(new PokemonSpawnData(SpawnContext.FISHING, spawnPool,
+                minLevel, maxLevel,
+                weight,
+                conditions,
+                antiConditions, new ArrayList<>()));
+        return this;
+    }
+
+    public Pokemon fishingSpawnFromExisting(List<SpawnCondition> additionalConditions){
+        var firstSpawnData = spawnData.get(0);
+        if (firstSpawnData != null) {
+            var conditions = new ArrayList<>(filterConditionsForFishing(firstSpawnData.spawnConditions()));
+            conditions.addAll(additionalConditions);
+            var antiConditions = new ArrayList<>(filterConditionsForFishing(firstSpawnData.spawnAntiConditions()));
+            createFishingSpawn(firstSpawnData.spawnPool(), firstSpawnData.minSpawnLevel(), firstSpawnData.maxSpawnLevel(), firstSpawnData.spawnWeight(), conditions, antiConditions);
+        }
+        return this;
+    }
+
+    private static @NotNull List<SpawnCondition> filterConditionsForFishing(List<SpawnCondition> firstSpawnData) {
+        return firstSpawnData
+                .stream()
+                .filter(spawnCondition -> spawnCondition.getConditionKind() == SpawnConditionType.BIOMES
+                        || spawnCondition.getConditionKind() == SpawnConditionType.MOONPHASE
+                        || spawnCondition.getConditionKind() == SpawnConditionType.IS_THUNDERING
+                        || spawnCondition.getConditionKind() == SpawnConditionType.TIMERANGE
+                        || spawnCondition.getConditionKind() == SpawnConditionType.IS_RAINING).toList();
+    }
+
+    public Pokemon fishingSpawnFromExisting(){
+        return fishingSpawnFromExisting(List.of());
     }
 }

@@ -35,8 +35,6 @@
         "x",
         "shiny"
       ],
-      "model": "cobblemon:generation2_elekidx.geo",
-      "poser": "cobblemon:generation2_elekidx",
       "texture": "cobblemon:textures/pokemon/generation2/elekidx/elekidx_shiny.png",
       "layers": [
         {

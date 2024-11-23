@@ -2,9 +2,9 @@ package drai.dev.data.games.other;
 
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.avalos.regional.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.flux.regional.*;
 import drai.dev.data.pokemon.uranium.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Uranium extends Game {
     public Uranium() { super("Uranium"); }
@@ -43,6 +43,8 @@ public class Uranium extends Game {
         var eshouten = new Eshouten(); pokemon.add(eshouten);
         pokemon.add(new AlteranOwten("", Aspect.ALTERAN));
         pokemon.add(new AlteranEshouten("", Aspect.ALTERAN));
+        removePokedexPokemon("owten-alteran");
+        removePokedexPokemon("eshouten-alteran");
         pokemon.add(new Smore());
         pokemon.add(new Firoke());
         pokemon.add(new Brailip());
@@ -79,6 +81,7 @@ public class Uranium extends Game {
         pokemon.add(new S51A());
         pokemon.add(new Paraudio());
         pokemon.add(new AvalossianParaudio("", Aspect.AVALOSSIAN));
+        removePokedexPokemon("paraudio-avalossian");
         pokemon.add(new Paraboom());
         pokemon.add(new Chimical());
         pokemon.add(new Chimaconda());
@@ -162,11 +165,12 @@ public class Uranium extends Game {
         pokemon.add(new Lanthan());
         pokemon.add(new Actan());
         var urayne = new Urayne();
-        pokemon.add(urayne);
-        pokemon.add(new BetaUrayne("", Aspect.BETA));
-        pokemon.add(new Aotius());
-        pokemon.add(new Mutios());
-        pokemon.add(new Zephy());
+        addNewPokemon(urayne);
+        addNewPokemon(new BetaUrayne("", Aspect.BETA));
+        removePokedexPokemon("urayne-beta");
+        addNewPokemon(new Aotius());
+        addNewPokemon(new Mutios());
+        addNewPokemon(new Zephy());
 
     }
 }

@@ -10,14 +10,14 @@ public class Realidea extends Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new Meadew());
-        pokemon.add(new Ninfae());
-        pokemon.add(new Faeuna());
-        pokemon.add(new Mousic());
-        pokemon.add(new Rabatuta());
-        pokemon.add(new Flamelin());
-        pokemon.add(new Gulliby());
-        pokemon.add(new Saigull());
-        pokemon.add(new Seaghoul());
+        addNewPokemon(new Meadew());
+        addNewPokemon(new Ninfae());
+        addNewPokemon(new Faeuna());
+        addNewPokemon(new Mousic());
+        addNewPokemon(new Rabatuta());
+        addNewPokemon(new Flamelin());
+        addNewPokemon(new Gulliby());
+        addNewPokemon(new Saigull());
+        addNewPokemon(new Seaghoul());
     }
 }

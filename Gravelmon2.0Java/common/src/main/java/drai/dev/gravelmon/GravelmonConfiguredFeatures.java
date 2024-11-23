@@ -8,7 +8,7 @@ public class GravelmonConfiguredFeatures {
     public static ResourceKey<ConfiguredFeature<?,?>> PURPLE_APRICORN_TREE_KEY = of("purple_apricorn_tree");
     public static ResourceKey<ConfiguredFeature<?,?>> ORANGE_APRICORN_TREE_KEY = of("orange_apricorn_tree");
     private static ResourceKey<ConfiguredFeature<?,?>> of(String id) {
-        return ResourceKey.create(Registries.CONFIGURED_FEATURE, new ResourceLocation("gravelmon",id));
+        return ResourceKey.create(Registries.CONFIGURED_FEATURE, ResourceLocation.fromNamespaceAndPath("gravelmon",id));
     }
 
 }

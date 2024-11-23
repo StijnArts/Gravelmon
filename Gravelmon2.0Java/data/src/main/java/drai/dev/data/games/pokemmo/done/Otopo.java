@@ -10,7 +10,7 @@ public class Otopo extends drai.dev.data.games.registry.Game {
     public Otopo() {
         super("Otopo");
     }
-
+//TODO update and dex
     @Override
     public void registerPokemon() {
         pokemon.add(new Elefern());
@@ -143,24 +143,24 @@ public class Otopo extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Alpalpa());   Missing Stats
 //        pokemon.add(new Pacalaya());   Missing Stats
 //        pokemon.add(new Molooze());   Missing Stats
-        pokemon.add(new Escargoo());
+        addNewPokemon(new Escargoo());
 //        pokemon.add(new Tundrimp());   Missing Stats
 //        pokemon.add(new Gigice());   Missing Stats
 //        pokemon.add(new Froskijo());   Missing Stats
 //        pokemon.add(new Wintweet());   Missing Stats
 //        pokemon.add(new Frosbeak());   Missing Stats
-        pokemon.add(new Glaceor());
-        pokemon.add(new Iceteroid());
-        pokemon.add(new Pangoloo());
-        pokemon.add(new Snoat());
+        addNewPokemon(new Glaceor());
+        addNewPokemon(new Iceteroid());
+        addNewPokemon(new Pangoloo());
+        addNewPokemon(new Snoat());
 //        pokemon.add(new Glacermine());   Missing Stats
 //        pokemon.add(new Toyrosaur());   Missing Stats
 //        pokemon.add(new Stegotoy());   Missing Stats
 //        pokemon.add(new Jellestrial());   Missing Stats
-        pokemon.add(new Medusien());
+        addNewPokemon(new Medusien());
 //        pokemon.add(new Tantan());   Missing Stats
 //        pokemon.add(new Natugnaro());   Missing Stats
-        pokemon.add(new Ankarmor());
+        addNewPokemon(new Ankarmor());
 //        pokemon.add(new Ankyolith());   Missing Stats
 //        pokemon.add(new Therospine());   Missing Stats
 //        pokemon.add(new Theroroar());   Missing Stats
@@ -181,10 +181,10 @@ public class Otopo extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Caratarge());   Missing Stats
 //        pokemon.add(new Pavapace());   Missing Stats
 //        pokemon.add(new Geonigma());   Missing Stats
-        pokemon.add(new Smokwi());
+        addNewPokemon(new Smokwi());
 //        pokemon.add(new Iguava());   Missing Stats
 //        pokemon.add(new Modovoldo());   Missing Stats
-        pokemon.add(new Jackajolt());
+        addNewPokemon(new Jackajolt());
 //        pokemon.add(new Panburn());   Missing Stats
 //        pokemon.add(new Panblaze());   Missing Stats
 //        pokemon.add(new Flamhopper());   Missing Stats
@@ -192,24 +192,24 @@ public class Otopo extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Thanatis());   Missing Stats
 //        pokemon.add(new Unode());   Missing Stats
 //        pokemon.add(new Dioduo());   Missing Stats
-        pokemon.add(new Quadrarity());
+        addNewPokemon(new Quadrarity());
 //        pokemon.add(new Cisburn());   Missing Stats
 //        pokemon.add(new Foaltasm());   Missing Stats
 //        pokemon.add(new Stallighast());   Missing Stats
-        pokemon.add(new Robutler());
-        pokemon.add(new Waitroid());
+        addNewPokemon(new Robutler());
+        addNewPokemon(new Waitroid());
 //        pokemon.add(new Pinacier());   Missing Stats
-        pokemon.add(new Narcicle());
+        addNewPokemon(new Narcicle());
 //        pokemon.add(new Gulpit());   Missing Stats
 //        pokemon.add(new Sparrawk());   Missing Stats
 //        pokemon.add(new Falswain());   Missing Stats
-        pokemon.add(new Naviator());
-        pokemon.add(new Callimeeko());
-        pokemon.add(new Quokkute());
-        pokemon.add(new Coralpus());
+        addNewPokemon(new Naviator());
+        addNewPokemon(new Callimeeko());
+        addNewPokemon(new Quokkute());
+        addNewPokemon(new Coralpus());
 //        pokemon.add(new Paratorte());   Missing Stats
-        pokemon.add(new Vegebun());
-        pokemon.add(new Grinyan());
+        addNewPokemon(new Vegebun());
+        addNewPokemon(new Grinyan());
 //        pokemon.add(new Talpastar());   Missing Stats
 //        pokemon.add(new Cassoworry());   Missing Stats
 //        pokemon.add(new Flysh());   Missing Stats
@@ -233,38 +233,38 @@ public class Otopo extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Latarajee());   Missing Stats
 //        pokemon.add(new Goraseed());   Missing Stats
 //        pokemon.add(new Mandroxica());   Missing Stats
-        pokemon.add(new Cryzlect());
+        addNewPokemon(new Cryzlect());
 //        pokemon.add(new Perfomask());   Missing Stats
-        pokemon.add(new Perlusc());
+        addNewPokemon(new Perlusc());
 //        pokemon.add(new Nacrelusc());   Missing Stats
 //        pokemon.add(new Poisnip());   Missing Stats
 //        pokemon.add(new Scyrmpion());   Missing Stats
 //        pokemon.add(new Submurchible());   Missing Stats
 //        pokemon.add(new Timekreepa());   Missing Stats
 //        pokemon.add(new Compawtriot());   Missing Stats
-        pokemon.add(new Tamanome());
-        pokemon.add(new Tamakomu());
-        pokemon.add(new Honokomu());
-        pokemon.add(new Tatakomu());
-        pokemon.add(new Mizukomu());
-        pokemon.add(new Majokomu());
-        pokemon.add(new Damakomu());
-        pokemon.add(new Sokukomu());
+        addNewPokemon(new Tamanome());
+        addNewPokemon(new Tamakomu());
+        addNewPokemon(new Honokomu());
+        addNewPokemon(new Tatakomu());
+        addNewPokemon(new Mizukomu());
+        addNewPokemon(new Majokomu());
+        addNewPokemon(new Damakomu());
+        addNewPokemon(new Sokukomu());
 //        pokemon.add(new Leafdra());   Missing Stats
 //        pokemon.add(new Terradra());   Missing Stats
-        pokemon.add(new Flamdra());
-        pokemon.add(new Vulcadra());
+        addNewPokemon(new Flamdra());
+        addNewPokemon(new Vulcadra());
 //        pokemon.add(new Oceadra());   Missing Stats
 //        pokemon.add(new Peladra());   Missing Stats
-        pokemon.add(new Vivizard());
-        pokemon.add(new Prizmazor());
-        pokemon.add(new Faberon());
-        pokemon.add(new Dragerg());
-        pokemon.add(new Anarchaic());
+        addNewPokemon(new Vivizard());
+        addNewPokemon(new Prizmazor());
+        addNewPokemon(new Faberon());
+        addNewPokemon(new Dragerg());
+        addNewPokemon(new Anarchaic());
 //        pokemon.add(new Orderion());   Missing Stats
-        pokemon.add(new Harpiveran());
-        pokemon.add(new Esoterra());
-        pokemon.add(new Axolovl());
+        addNewPokemon(new Harpiveran());
+        addNewPokemon(new Esoterra());
+        addNewPokemon(new Axolovl());
     }
 
 }

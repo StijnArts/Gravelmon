@@ -330,34 +330,34 @@ public abstract class PokeBallsMixin {
     private GravelmonPokeBall createFromDefaults(String name){
         return createDefault(name,
                 new MultiplierModifier(1F , (condition1, condition2) -> true),
-                List.of(),0.8F,new ResourceLocation("gravelmon",name),
-                new ResourceLocation("gravelmon",name+"_model"));
+                List.of(),0.8F,ResourceLocation.fromNamespaceAndPath("gravelmon",name),
+                ResourceLocation.fromNamespaceAndPath("gravelmon",name+"_model"));
     }
 
     private GravelmonPokeBall createFromDefaults(String name, List<CaptureEffect> effects){
         return createDefault(name,
                 new MultiplierModifier(1F , (condition1, condition2) -> true),
-                effects,0.8F,new ResourceLocation("gravelmon",name),
-                new ResourceLocation("gravelmon",name+"_model"));
+                effects,0.8F,ResourceLocation.fromNamespaceAndPath("gravelmon",name),
+                ResourceLocation.fromNamespaceAndPath("gravelmon",name+"_model"));
     }
 
     private GravelmonPokeBall createFromDefaults(String name, float multiplier){
         return createDefault(name,
                 new MultiplierModifier(multiplier , (condition1, condition2) -> true),
-                List.of(),0.8F,new ResourceLocation("gravelmon",name),
-                new ResourceLocation("gravelmon",name+"_model"));
+                List.of(),0.8F,ResourceLocation.fromNamespaceAndPath("gravelmon",name),
+                ResourceLocation.fromNamespaceAndPath("gravelmon",name+"_model"));
     }
 
     private GravelmonPokeBall createFromDefaults(String name, CatchRateModifier multiplierModifier){
         return createDefault(name,
                 multiplierModifier,
-                List.of(),0.8F,new ResourceLocation("gravelmon",name),
-                new ResourceLocation("gravelmon",name+"_model"));
+                List.of(),0.8F,ResourceLocation.fromNamespaceAndPath("gravelmon",name),
+                ResourceLocation.fromNamespaceAndPath("gravelmon",name+"_model"));
     }
 
     private GravelmonPokeBall createDefault(String name, CatchRateModifier multiplierModifier,
                                    List<CaptureEffect> effects, float waterDragValue, ResourceLocation model2d, ResourceLocation model3d){
-        var identifier = new ResourceLocation("cobblemon", name);
+        var identifier = ResourceLocation.fromNamespaceAndPath("cobblemon", name);
         var pokeball = new GravelmonPokeBall(identifier, multiplierModifier,
                 effects, waterDragValue, model2d, model3d, 1, false);
         defaults.put(identifier, pokeball);

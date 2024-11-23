@@ -105,60 +105,60 @@ public class GenerationSix extends Game {
 //        pokemon.add(new VesitanXerneas("", Aspect.VESITAN));
 //        pokemon.add(new VesitanYveltal("", Aspect.VESITAN));
 
-        pokemon.add(new NovranSkrelp("Skrelp", Aspect.NOVRAN));
-        pokemon.add(new NovranDragalge("Dragalge", Aspect.NOVRAN));
+        addNewPokemon(new NovranSkrelp("Skrelp", Aspect.NOVRAN));
+        addNewPokemon(new NovranDragalge("Dragalge", Aspect.NOVRAN));
 
-        pokemon.add(new VaritasianFlabebe("Flabebe", Aspect.VARITASIAN));
-        pokemon.add(new VaritasianFloette("Floette", Aspect.VARITASIAN));
-        pokemon.add(new VaritasianPhantump("Phantump", Aspect.VARITASIAN));
-        pokemon.add(new VaritasianTrevenant("Trevenant", Aspect.VARITASIAN));
+        addNewPokemon(new VaritasianFlabebe("Flabebe", Aspect.VARITASIAN));
+        addNewPokemon(new VaritasianFloette("Floette", Aspect.VARITASIAN));
+        addNewPokemon(new VaritasianPhantump("Phantump", Aspect.VARITASIAN));
+        addNewPokemon(new VaritasianTrevenant("Trevenant", Aspect.VARITASIAN));
 
-        pokemon.add(new HizianLitleo("Litleo", Aspect.HIZIAN));
-        pokemon.add(new HizianPyroar("Pyroar", Aspect.HIZIAN));
+        addNewPokemon(new HizianLitleo("Litleo", Aspect.HIZIAN));
+        addNewPokemon(new HizianPyroar("Pyroar", Aspect.HIZIAN));
 
 //        pokemon.add(new AristosianLitleo(667)); Missing Art
 
 
         //Pokemon Insurgance
-        pokemon.add(new DeltaFroakie("Froakie", Aspect.DELTA));
-        pokemon.add(new DeltaFrogadier("Frogadier", Aspect.DELTA));
-        pokemon.add(new DeltaGreninja("Greninja", Aspect.DELTA));
-        pokemon.add(new DeltaAmaura("Amaura", Aspect.DELTA));
-        pokemon.add(new DeltaAurorus("Aurorus", Aspect.DELTA));
-        pokemon.add(new DeltaGoomy("Goomy", Aspect.DELTA));
-        pokemon.add(new DeltaSliggoo("Sliggoo", Aspect.DELTA));
-        pokemon.add(new DeltaGoodra("Goodra", Aspect.DELTA));
-        pokemon.add(new DeltaPhantump("Phantump", Aspect.DELTA));
-        pokemon.add(new DeltaTrevenant("Trevenant", Aspect.DELTA));
-        pokemon.add(new DeltaBergmite("Bergmite", Aspect.DELTA));
-        pokemon.add(new DeltaAvalugg("Avalugg", Aspect.DELTA));
-        pokemon.add(new DeltaNoibat("Noibat", Aspect.DELTA));
-        pokemon.add(new DeltaNoivern("Noivern", Aspect.DELTA));
-        pokemon.add(new DeltaHoopa("Hoopa", Aspect.DELTA));
-        pokemon.add(new DeltaHoopaUnleashed("Hoopa", Aspect.DELTA_UNLEASHED));
+        addNewPokemon(new DeltaFroakie("Froakie", Aspect.DELTA));
+        addNewPokemon(new DeltaFrogadier("Frogadier", Aspect.DELTA));
+        addNewPokemon(new DeltaGreninja("Greninja", Aspect.DELTA));
+        addNewPokemon(new DeltaAmaura("Amaura", Aspect.DELTA));
+        addNewPokemon(new DeltaAurorus("Aurorus", Aspect.DELTA));
+        addNewPokemon(new DeltaGoomy("Goomy", Aspect.DELTA));
+        addNewPokemon(new DeltaSliggoo("Sliggoo", Aspect.DELTA));
+        addNewPokemon(new DeltaGoodra("Goodra", Aspect.DELTA));
+        addNewPokemon(new DeltaPhantump("Phantump", Aspect.DELTA));
+        addNewPokemon(new DeltaTrevenant("Trevenant", Aspect.DELTA));
+        addNewPokemon(new DeltaBergmite("Bergmite", Aspect.DELTA));
+        addNewPokemon(new DeltaAvalugg("Avalugg", Aspect.DELTA));
+        addNewPokemon(new DeltaNoibat("Noibat", Aspect.DELTA));
+        addNewPokemon(new DeltaNoivern("Noivern", Aspect.DELTA));
+        addNewPokemon(new DeltaHoopa("Hoopa", Aspect.DELTA));
+        addNewPokemon(new DeltaHoopaUnleashed("Hoopa", Aspect.DELTA_UNLEASHED));
 
         //X-Species (Xenoverse)
-        pokemon.add(new GreninjaX("Greninja", Aspect.X));
-        pokemon.add(new AegislashX("Aegislash", Aspect.X));
-        pokemon.add(new SwirlixX("Swirlix", Aspect.X));
-        pokemon.add(new SlurpuffX("Slurpuff", Aspect.X));
+        addNewPokemon(new GreninjaX("Greninja", Aspect.X));
+        addNewPokemon(new AegislashX("Aegislash", Aspect.X));
+        addNewPokemon(new SwirlixX("Swirlix", Aspect.X));
+        addNewPokemon(new SlurpuffX("Slurpuff", Aspect.X));
 
         //Pokemon Blazing Emerald
-        pokemon.add(new HoennianGoomy("Goomy", Aspect.HOENNIAN));
+        addNewPokemon(new HoennianGoomy("Goomy", Aspect.HOENNIAN));
 
         //Radical Red
-        pokemon.add(new SeviianClauncher("Clauncher", Aspect.SEVIIAN));
-        pokemon.add(new SeviianClawitzer("Clawitzer", Aspect.SEVIIAN));
-        pokemon.add(new SeviianNoibat("Noibat", Aspect.SEVIIAN));
-        pokemon.add(new SeviianNoivern("Noivern", Aspect.SEVIIAN));
+        addNewPokemon(new SeviianClauncher("Clauncher", Aspect.SEVIIAN));
+        addNewPokemon(new SeviianClawitzer("Clawitzer", Aspect.SEVIIAN));
+        addNewPokemon(new SeviianNoibat("Noibat", Aspect.SEVIIAN));
+        addNewPokemon(new SeviianNoivern("Noivern", Aspect.SEVIIAN));
 
         //Myth
-        pokemon.add(new MythianNoivern("Noivern", Aspect.MYTHIAN));
+        addNewPokemon(new MythianNoivern("Noivern", Aspect.MYTHIAN));
 
         //Daybreak
-        pokemon.add(new ArmiranFroakie("Froakie", Aspect.ARMIRAN));
-        pokemon.add(new ArmiranFrogadier("Frogadier", Aspect.ARMIRAN));
-        pokemon.add(new ArmiranGreninja("Greninja", Aspect.ARMIRAN));
+        addNewPokemon(new ArmiranFroakie("Froakie", Aspect.ARMIRAN));
+        addNewPokemon(new ArmiranFrogadier("Frogadier", Aspect.ARMIRAN));
+        addNewPokemon(new ArmiranGreninja("Greninja", Aspect.ARMIRAN));
 
         //Vanguard
         pokemon.add(new AyreianSkiddo("", Aspect.AYREIAN));
@@ -178,18 +178,18 @@ public class GenerationSix extends Game {
         pokemon.add(new AyreianNoivern("Noivern", Aspect.AYREIAN));
 
         //Phoenix Rising
-        pokemon.add(new RelicSkiddo("Skiddo", Aspect.RELIC));
-        pokemon.add(new RelicGogoat("Gogoat", Aspect.RELIC));
+        addNewPokemon(new RelicSkiddo("Skiddo", Aspect.RELIC));
+        addNewPokemon(new RelicGogoat("Gogoat", Aspect.RELIC));
 
         //Kaskadian
-        pokemon.add(new KaskadianBunnelby("Bunnelby", Aspect.KASKADIAN));
-        pokemon.add(new KaskadianDiggersby("Diggersby", Aspect.KASKADIAN));
-        pokemon.add(new KaskadianPhantump("Phantump", Aspect.KASKADIAN));
-        pokemon.add(new KaskadianTrevenant("Trevenant", Aspect.KASKADIAN));
-        pokemon.add(new KaskadianDiancie("Diancie", Aspect.KASKADIAN));
+        addNewPokemon(new KaskadianBunnelby("Bunnelby", Aspect.KASKADIAN));
+        addNewPokemon(new KaskadianDiggersby("Diggersby", Aspect.KASKADIAN));
+        addNewPokemon(new KaskadianPhantump("Phantump", Aspect.KASKADIAN));
+        addNewPokemon(new KaskadianTrevenant("Trevenant", Aspect.KASKADIAN));
+        addNewPokemon(new KaskadianDiancie("Diancie", Aspect.KASKADIAN));
 
         //Pokemon Opalo
-        pokemon.add(new CefiranKlefki("Klefki", Aspect.CEFIRAN));
+        addNewPokemon(new CefiranKlefki("Klefki", Aspect.CEFIRAN));
     }
 
     private void registerSoulstonesVariants() {
