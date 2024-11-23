@@ -56,7 +56,7 @@ public abstract class Game {
     }
 
     private void addPokedexPokemon(String pokemon){
-        pokedex.add("cobblemon:"+ pokemon);
+        pokedex.add("cobblemon:"+ pokemon.trim().toLowerCase());
     }
 
     public void removePokedexPokemon(String pokemonName) {

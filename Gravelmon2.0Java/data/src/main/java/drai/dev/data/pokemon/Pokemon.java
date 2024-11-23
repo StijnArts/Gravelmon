@@ -10,6 +10,7 @@ import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import org.jetbrains.annotations.*;
 
+import java.sql.*;
 import java.util.*;
 import java.util.stream.*;
 
@@ -877,5 +878,29 @@ public class Pokemon {
                 conditions,
                 antiConditions, new ArrayList<>()));
         return this;
+    }
+
+    public Pokemon fishingSpawnFromExisting(List<SpawnCondition> additionalConditions){
+        var firstSpawnData = spawnData.get(0);
+        if (firstSpawnData != null) {
+            var conditions = new ArrayList<>(filterConditionsForFishing(firstSpawnData.spawnConditions()));
+            conditions.addAll(additionalConditions);
+            var antiConditions = new ArrayList<>(filterConditionsForFishing(firstSpawnData.spawnAntiConditions()));
+            createFishingSpawn(firstSpawnData.spawnPool(), firstSpawnData.minSpawnLevel(), firstSpawnData.maxSpawnLevel(), firstSpawnData.spawnWeight(), conditions, antiConditions);
+        }
+        return this;
+    }
+
+    private static @NotNull List<SpawnCondition> filterConditionsForFishing(List<SpawnCondition> firstSpawnData) {
+        return firstSpawnData
+                .stream()
+                .filter(spawnCondition -> spawnCondition.getConditionKind() == SpawnConditionType.BIOMES
+                        || spawnCondition.getConditionKind() == SpawnConditionType.MOONPHASE
+                        || spawnCondition.getConditionKind() == SpawnConditionType.IS_THUNDERING
+                        || spawnCondition.getConditionKind() == SpawnConditionType.IS_RAINING).toList();
+    }
+
+    public Pokemon fishingSpawnFromExisting(){
+        return fishingSpawnFromExisting(List.of());
     }
 }
