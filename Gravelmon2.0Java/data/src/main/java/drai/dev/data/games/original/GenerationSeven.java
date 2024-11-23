@@ -45,8 +45,8 @@ public class GenerationSeven extends Game {
         addNewPokemon(new HoennianToxapex("", Aspect.HOENNIAN));
 
         //Radical Red
-        addNewPokemon(new SeviianWishiwashi("", Aspect.SEVIIAN));
-        addNewPokemon(new SeviianDhelmise("", Aspect.SEVIIAN));
+        addNewPokemon(new SeviianWishiwashi("", Aspect.SEVIIAN).fishingSpawnFromExisting());
+        addNewPokemon(new SeviianDhelmise("", Aspect.SEVIIAN).fishingSpawnFromExisting());
 
         //Pokemon Flux
         addNewPokemon(new DeepWishiwashi("", Aspect.DEEP));

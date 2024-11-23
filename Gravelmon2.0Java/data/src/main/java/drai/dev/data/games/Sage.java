@@ -24,7 +24,7 @@ public class Sage extends Game {
         addNewPokemon(new Flairees());
 
         //Aguade line
-        addNewPokemon(new Aguade());
+        addNewPokemon(new Aguade().fishingSpawnFromExisting());
         addNewPokemon(new Iguadium());
         addNewPokemon(new Aguanaut());
 
@@ -153,7 +153,7 @@ public class Sage extends Game {
         addNewPokemon(new Platikhao());
 
         //Cuppy line
-        addNewPokemon(new Cuppy());
+        addNewPokemon(new Cuppy().fishingSpawnFromExisting());
         addNewPokemon(new Fettlekish());
 
         addNewPokemon(new Shibalbat());
@@ -165,7 +165,7 @@ public class Sage extends Game {
         addNewPokemon(new Gnuru());
 
         //Flowger line
-        addNewPokemon(new Flowger());
+        addNewPokemon(new Flowger().fishingSpawnFromExisting());
         addNewPokemon(new Bullotus());
 
         addNewPokemon(new Burrowl());
@@ -177,7 +177,7 @@ public class Sage extends Game {
         addNewPokemon(new Crawglock());
 
         //Leafish Line
-        addNewPokemon(new Leafish());
+        addNewPokemon(new Leafish().fishingSpawnFromExisting());
         addNewPokemon(new Chlorofin());
 
         //Quibble Line
@@ -207,7 +207,7 @@ public class Sage extends Game {
         addNewPokemon(new Orbatom());
 
         //Squink line
-        addNewPokemon(new Squink());
+        addNewPokemon(new Squink().fishingSpawnFromExisting());
         addNewPokemon(new Squidrift());
 
         addNewPokemon(new Boarealis());
@@ -267,7 +267,7 @@ public class Sage extends Game {
 
         addNewPokemon(new Solacari());
 
-        addNewPokemon(new Nurshary());
+        addNewPokemon(new Nurshary().fishingSpawnFromExisting());
 
         //Loneleaf line
         addNewPokemon(new Loneleaf());
@@ -321,8 +321,8 @@ public class Sage extends Game {
         addNewPokemon(new Ocerumi());
 
         //Fortifry line
-        addNewPokemon(new Fortifry());
-        addNewPokemon(new Oarwish());
+        addNewPokemon(new Fortifry().fishingSpawnFromExisting());
+        addNewPokemon(new Oarwish().fishingSpawnFromExisting());
 
         addNewPokemon(new Smashiary());
 
@@ -354,11 +354,11 @@ public class Sage extends Game {
         addNewPokemon(new Enigmantis());
 
         //Arjibi line
-        addNewPokemon(new Arjibi());
+        addNewPokemon(new Arjibi().fishingSpawnFromExisting());
         addNewPokemon(new Royjibiv());
 
         //Barracute line
-        addNewPokemon(new Barracute());
+        addNewPokemon(new Barracute().fishingSpawnFromExisting());
         addNewPokemon(new Jawgodon());
 
         //Drosire line
@@ -370,7 +370,7 @@ public class Sage extends Game {
         addNewPokemon(new Phantern());
 
         //Glocto line
-        addNewPokemon(new Glocto());
+        addNewPokemon(new Glocto().fishingSpawnFromExisting());
         addNewPokemon(new Lavoon());
 
         //Gilla line

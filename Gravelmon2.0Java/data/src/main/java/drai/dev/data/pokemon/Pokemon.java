@@ -897,6 +897,7 @@ public class Pokemon {
                 .filter(spawnCondition -> spawnCondition.getConditionKind() == SpawnConditionType.BIOMES
                         || spawnCondition.getConditionKind() == SpawnConditionType.MOONPHASE
                         || spawnCondition.getConditionKind() == SpawnConditionType.IS_THUNDERING
+                        || spawnCondition.getConditionKind() == SpawnConditionType.TIMERANGE
                         || spawnCondition.getConditionKind() == SpawnConditionType.IS_RAINING).toList();
     }
 

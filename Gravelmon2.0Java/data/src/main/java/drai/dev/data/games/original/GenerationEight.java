@@ -21,7 +21,7 @@ public class GenerationEight extends Game {
     public void registerPokemon() {
         addNewPokemon(new NovranWooloo("", Aspect.NOVRAN));
         addNewPokemon(new NovranDubwool("", Aspect.NOVRAN));
-        addNewPokemon(new NovranClobbopus("", Aspect.NOVRAN));
+        addNewPokemon(new NovranClobbopus("", Aspect.NOVRAN).fishingSpawnFromExisting());
         addNewPokemon(new NovranGrapploct("", Aspect.NOVRAN));
         addNewPokemon(new NovranHatenna("", Aspect.NOVRAN));
         addNewPokemon(new NovranHattrem("", Aspect.NOVRAN));

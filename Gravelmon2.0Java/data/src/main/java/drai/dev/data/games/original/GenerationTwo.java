@@ -216,7 +216,7 @@ public class GenerationTwo extends Game {
         addNewPokemon(new EghoCyndaquil("cyndaquil", Aspect.EGHO));
         addNewPokemon(new EghoQuilava("quilava", Aspect.EGHO));
         addNewPokemon(new EghoTyphlosion("typhlosion", Aspect.EGHO));
-        addNewPokemon(new EghoTotodile("totodile", Aspect.EGHO));
+        addNewPokemon(new EghoTotodile("totodile", Aspect.EGHO).fishingSpawnFromExisting());
         addNewPokemon(new EghoCroconaw("croconaw", Aspect.EGHO));
         addNewPokemon(new EghoFeraligatr("feraligatr", Aspect.EGHO));
         addNewPokemon(new EghoHoothoot("hoothoot", Aspect.EGHO));

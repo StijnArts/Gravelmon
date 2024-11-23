@@ -102,7 +102,7 @@ public class GenerationThree extends Game {
         addXPokemon();
 
         //Radical Red
-        addNewPokemon(new SeviianFeebas("Feebas", Aspect.SEVIIAN));
+        addNewPokemon(new SeviianFeebas("Feebas", Aspect.SEVIIAN).fishingSpawnFromExisting());
         addNewPokemon(new SeviianMilotic("Milotic", Aspect.SEVIIAN));
 
         //Pokemon Flux

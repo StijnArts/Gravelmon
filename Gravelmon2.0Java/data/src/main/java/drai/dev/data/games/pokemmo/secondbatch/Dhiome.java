@@ -58,7 +58,7 @@ public class Dhiome extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Dwarpy());
         addNewPokemon(new Bonafant());
         addNewPokemon(new Wisdaum());
-        addNewPokemon(new Surchin());
+        addNewPokemon(new Surchin().fishingSpawnFromExisting());
         addNewPokemon(new Submurchin());
 //        pokemon.add(new Nimbleak());   Missing Stats
 //        pokemon.add(new Dojoku());   Missing Stats

@@ -319,7 +319,7 @@ public class GenerationOne extends Game {
         addNewPokemon(new EghoMagneton("", Aspect.EGHO));
         addNewPokemon(new EghoGrimer("", Aspect.EGHO));
         addNewPokemon(new EghoMuk("", Aspect.EGHO));
-        addNewPokemon(new EghoShellder("", Aspect.EGHO));
+        addNewPokemon(new EghoShellder("", Aspect.EGHO).fishingSpawnFromExisting());
         addNewPokemon(new EghoChansey("", Aspect.EGHO));
         addNewPokemon(new EghoTangela("", Aspect.EGHO));
     }

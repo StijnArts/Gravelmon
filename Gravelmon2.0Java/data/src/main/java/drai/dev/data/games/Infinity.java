@@ -25,7 +25,7 @@ public class Infinity extends Game {
         addNewPokemon(new Psysteed());
 
         //Darpole line
-        addNewPokemon(new Darpole());
+        addNewPokemon(new Darpole().fishingSpawnFromExisting());
         addNewPokemon(new Brutoad());
         addNewPokemon(new Godfrogger());
 
@@ -84,7 +84,7 @@ public class Infinity extends Game {
         addNewPokemon(new Kecleodon());
         addPokedexPokemon("magnemite-egho, magneton-egho, magnezone-egho, tangela-egho, tangrowth-egho, poochyena, mightyena");
         addNewPokemon(new Wereyena());
-        addNewPokemon(new Reaptide());
+        addNewPokemon(new Reaptide().fishingSpawnFromExisting());
         addPokedexPokemon("happiny-egho, chansey-egho, blissey-egho");
         //Kidfoot line
         addNewPokemon(new Kidfoot());
@@ -133,8 +133,8 @@ public class Infinity extends Game {
         addNewPokemon(new Giragira());
 
         //Whave line
-        addNewPokemon(new Whave());
-        addNewPokemon(new Orcabyss());
+        addNewPokemon(new Whave().fishingSpawnFromExisting());
+        addNewPokemon(new Orcabyss().fishingSpawnFromExisting());
 
         //Zapalope line
         addNewPokemon(new Zapalope());

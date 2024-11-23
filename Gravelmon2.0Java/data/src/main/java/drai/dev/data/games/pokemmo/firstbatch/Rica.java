@@ -21,7 +21,7 @@ public class Rica extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Bunfin());
         addNewPokemon(new Arsinge());
         addNewPokemon(new Rupsen());
-        addNewPokemon(new Mirmoor());
+        addNewPokemon(new Mirmoor().fishingSpawnFromExisting());
         addNewPokemon(new Sloowin());
         addNewPokemon(new Atrocean());
         addNewPokemon(new Skurrel());
@@ -45,7 +45,7 @@ public class Rica extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Larmidge());
         addNewPokemon(new Dormidge());
         addNewPokemon(new Chirmidge());
-        addNewPokemon(new Ostrodd());
+        addNewPokemon(new Ostrodd().fishingSpawnFromExisting());
         addNewPokemon(new Orbizarre());
         addNewPokemon(new Tadport());
         addNewPokemon(new Psionewt());
@@ -81,12 +81,12 @@ public class Rica extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Rufooster());
         addNewPokemon(new Odorable());
         addNewPokemon(new Rabite());
-        addNewPokemon(new Bubbweed());
+        addNewPokemon(new Bubbweed().fishingSpawnFromExisting());
         addNewPokemon(new Drifsea());
-        addNewPokemon(new Starphin());
-        addNewPokemon(new Lunorca());
-        addNewPokemon(new Gupplash());
-        addNewPokemon(new Arowish());
+        addNewPokemon(new Starphin().fishingSpawnFromExisting());
+        addNewPokemon(new Lunorca().fishingSpawnFromExisting());
+        addNewPokemon(new Gupplash().fishingSpawnFromExisting());
+        addNewPokemon(new Arowish().fishingSpawnFromExisting());
         addNewPokemon(new Tarspook());
         addNewPokemon(new Spookaye());
 
@@ -101,10 +101,10 @@ public class Rica extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Embear());
         addNewPokemon(new Bearserk());
         addNewPokemon(new Fumabor());
-        addNewPokemon(new Crocoil());
+        addNewPokemon(new Crocoil().fishingSpawnFromExisting());
         addNewPokemon(new Platypoint());
         addNewPokemon(new Platoxic());
-        addNewPokemon(new Siamouth());
+        addNewPokemon(new Siamouth().fishingSpawnFromExisting());
         addNewPokemon(new Toxito());
         addNewPokemon(new Leaflow());
         addNewPokemon(new Plecobble());
@@ -112,13 +112,13 @@ public class Rica extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Spinox());
         addNewPokemon(new Impuck());
         addNewPokemon(new Impifaun());
-        addNewPokemon(new Leptric());
-        addNewPokemon(new Energeel());
+        addNewPokemon(new Leptric().fishingSpawnFromExisting());
+        addNewPokemon(new Energeel().fishingSpawnFromExisting());
         addNewPokemon(new Mermew());
         addNewPokemon(new Clampurr());
         addNewPokemon(new Welking());
-//        pokemon.add(new Amourish()); //Missing Art //TOdo has art
-//        pokemon.add(new Glamoreef()); //Missing Art
+//        pokemon.add(new Amourish().fishingSpawnFromExisting()); //Missing Art //TOdo has art
+//        pokemon.add(new Glamoreef().fishingSpawnFromExisting()); //Missing Art
         addPokedexPokemon("shellos-rican, gastrodon-rican");
         addNewPokemon(new Sweetoad());
         addNewPokemon(new Spoocap());
@@ -147,12 +147,12 @@ public class Rica extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Predapex()); //Missing Art
         addNewPokemon(new Barnub());
         addNewPokemon(new Detritan());
-        addNewPokemon(new Moreel());
-        addNewPokemon(new Darscale());
+        addNewPokemon(new Moreel().fishingSpawnFromExisting());
+        addNewPokemon(new Darscale().fishingSpawnFromExisting());
 //        pokemon.add(new tubeworm()); //Missing Art
-//        pokemon.add(new Toratoll()); //Member of Line not Finished
+//        pokemon.add(new Toratoll().fishingSpawnFromExisting()); //Member of Line not Finished
 //        pokemon.add(new Arcain()); //Missing Art
-        addNewPokemon(new Fridgid());
+        addNewPokemon(new Fridgid().fishingSpawnFromExisting());
         addNewPokemon(new Cirritwirl());
         addNewPokemon(new Torricane());
         addNewPokemon(new Pixiflake());

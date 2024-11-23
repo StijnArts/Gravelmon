@@ -35,8 +35,8 @@ public class GenerationFour extends Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new LagoonanFinneon("", Aspect.LAGOONAN));
-        addNewPokemon(new LagoonanLumineon("", Aspect.LAGOONAN));
+        addNewPokemon(new LagoonanFinneon("", Aspect.LAGOONAN).fishingSpawnFromExisting());
+        addNewPokemon(new LagoonanLumineon("", Aspect.LAGOONAN).fishingSpawnFromExisting());
 
 //        pokemon.add(new IonosianShellos(422));   Missing Stats
 //        pokemon.add(new IonosianGastrodon(423));   Missing Art

@@ -10,13 +10,13 @@ public class Lagoone extends drai.dev.data.games.registry.Game {
 //TODO add regionals after Webbewulf
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Leafin());
+        addNewPokemon(new Leafin().fishingSpawnFromExisting());
         addNewPokemon(new Sharkage());
         addNewPokemon(new Sharcleave());
-        addNewPokemon(new Torshell());
+        addNewPokemon(new Torshell().fishingSpawnFromExisting());
         addNewPokemon(new Emberaid());
         addNewPokemon(new Galliente());
-        addNewPokemon(new Squigill());
+        addNewPokemon(new Squigill().fishingSpawnFromExisting());
         addNewPokemon(new Whirlamari());
         addNewPokemon(new Douseidon());
         addNewPokemon(new Pillunge());
@@ -36,13 +36,13 @@ public class Lagoone extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Dynamight());
         addNewPokemon(new Cregg());
         addNewPokemon(new Crabelette());
-        addNewPokemon(new Sardive());
-        addNewPokemon(new Gigantuna());
+        addNewPokemon(new Sardive().fishingSpawnFromExisting());
+        addNewPokemon(new Gigantuna().fishingSpawnFromExisting());
         addNewPokemon(new Echolite());
         addNewPokemon(new Teravat());
         addPokedexPokemon("chatot");
         addNewPokemon(new Symphot());
-        addNewPokemon(new Clunch());
+        addNewPokemon(new Clunch().fishingSpawnFromExisting());
         addNewPokemon(new Locklusk());
         addNewPokemon(new Bountyrant());
         addNewPokemon(new Biscaneer());
@@ -53,7 +53,7 @@ public class Lagoone extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Madhopple());
         addNewPokemon(new Jadivine());
         addNewPokemon(new Galegant());
-        addNewPokemon(new Tidakeet());
+        addNewPokemon(new Tidakeet().fishingSpawnFromExisting());
         addNewPokemon(new Bumpnotic());
         addNewPokemon(new Shrizzler());
         addNewPokemon(new Flintlaw());
@@ -65,7 +65,7 @@ public class Lagoone extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Coldera());
         addNewPokemon(new Coldozer());
         addNewPokemon(new Frosterror());
-        addNewPokemon(new Scubeel()); //Renamed from moreel
+        addNewPokemon(new Scubeel().fishingSpawnFromExisting()); //Renamed from moreel
         addNewPokemon(new Clankeel());
         addNewPokemon(new Nimbun());
         addNewPokemon(new Raizinger());
