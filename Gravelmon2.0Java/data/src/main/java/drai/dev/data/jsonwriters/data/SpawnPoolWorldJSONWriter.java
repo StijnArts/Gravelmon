@@ -91,8 +91,8 @@ public class SpawnPoolWorldJSONWriter {
                     condition.add("neededNearbyBlocks", neededNearbyBlocks);
                     pokemonSpawnData.preferredBlocks().forEach(neededNearbyBlocks::add);
                 }
-                spawns.add(spawnJson);
             }
+            spawns.add(spawnJson);
         }
     }
 
