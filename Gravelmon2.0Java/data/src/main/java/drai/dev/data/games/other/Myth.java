@@ -12,46 +12,46 @@ public class Myth extends Game
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new Snick());
-        pokemon.add(new Torsnail());
-        pokemon.add(new Wavstisnail());
-        pokemon.add(new Swove());
-        pokemon.add(new Eledove());
-        pokemon.add(new Magnidove());
-        pokemon.add(new Dampurr());
-        pokemon.add(new Soakcuff());
-        pokemon.add(new Delugar());
-        pokemon.add(new Caitlit());
-        pokemon.add(new Caitfyr());
-        pokemon.add(new Blazesidhe());
-        pokemon.add(new Waelin());
-        pokemon.add(new Skreychee());
-        pokemon.add(new Bindshii());
-        pokemon.add(new Slinkee());
-        pokemon.add(new Elinkee());
-        pokemon.add(new Serpensync());
-        pokemon.add(new Cocoling());
-        pokemon.add(new Coconab());
-        pokemon.add(new Cocofested());
-        pokemon.add(new Chimeaura());
-        pokemon.add(new Raccane());
-        pokemon.add(new Draccane());
-        pokemon.add(new Raccolossus());
-        pokemon.add(new Combateon());
-        pokemon.add(new Crystaleon());
-        pokemon.add(new Toxeon());
-        pokemon.add(new Spectreon());
-        pokemon.add(new Aereon());
-        pokemon.add(new Duneon());
-        pokemon.add(new Titaneon());
-        pokemon.add(new Ascenteon());
-        pokemon.add(new Sonareon());
-        pokemon.add(new Stingeon()); //Used to be called Scorpeon but dupe
-        pokemon.add(new Plaineon());
-        pokemon.add(new Fenrour());
-        pokemon.add(new Lihgeri());
-        pokemon.add(new Freknight());
-        pokemon.add(new Phenelpha());
-        pokemon.add(new Hummony());
+        addNewPokemon(new Snick());
+        addNewPokemon(new Torsnail());
+        addNewPokemon(new Wavstisnail());
+        addNewPokemon(new Swove());
+        addNewPokemon(new Eledove());
+        addNewPokemon(new Magnidove());
+        addNewPokemon(new Dampurr());
+        addNewPokemon(new Soakcuff());
+        addNewPokemon(new Delugar());
+        addNewPokemon(new Caitlit());
+        addNewPokemon(new Caitfyr());
+        addNewPokemon(new Blazesidhe());
+        addNewPokemon(new Waelin());
+        addNewPokemon(new Skreychee());
+        addNewPokemon(new Bindshii());
+        addNewPokemon(new Slinkee());
+        addNewPokemon(new Elinkee());
+        addNewPokemon(new Serpensync());
+        addNewPokemon(new Cocoling());
+        addNewPokemon(new Coconab());
+        addNewPokemon(new Cocofested());
+        addNewPokemon(new Chimeaura());
+        addNewPokemon(new Raccane());
+        addNewPokemon(new Draccane());
+        addNewPokemon(new Raccolossus());
+        addNewPokemon(new Combateon());
+        addNewPokemon(new Crystaleon());
+        addNewPokemon(new Toxeon());
+        addNewPokemon(new Spectreon());
+        addNewPokemon(new Aereon());
+        addNewPokemon(new Duneon());
+        addNewPokemon(new Titaneon());
+        addNewPokemon(new Ascenteon());
+        addNewPokemon(new Sonareon());
+        addNewPokemon(new Stingeon()); //Used to be called Scorpeon but dupe
+        addNewPokemon(new Plaineon());
+        addNewPokemon(new Fenrour());
+        addNewPokemon(new Lihgeri());
+        addNewPokemon(new Freknight());
+        addNewPokemon(new Phenelpha());
+        addNewPokemon(new Hummony());
     }
 }

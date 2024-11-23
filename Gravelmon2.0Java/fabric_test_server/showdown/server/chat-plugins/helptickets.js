@@ -871,7 +871,7 @@ async function getBattleLog(battle, noReplay = false) {
         const identifier = `${name || ""}-${species}`;
         if (seenPokemon.has(identifier))
           continue;
-        seenPokemon.add(identifier);
+        seenaddNewPokemon(identifier);
         name = name?.trim() || "";
         monTable[slot].push({
           species,
@@ -929,7 +929,7 @@ async function getBattleLog(battle, noReplay = false) {
           const setId = `${name || ""}-${species}`;
           if (seenPokemon.has(setId))
             continue;
-          seenPokemon.add(setId);
+          seenaddNewPokemon(setId);
           mons[id].push({
             species,
             // don't want to see a name if it's the same as the species

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:galliente",
+  "speciesId": "cobblemon:galliente",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,108 @@
+{
+  "implemented": true,
+  "name": "Mermegg",
+  "nationalPokedexNumber": 8258,
+  "primaryType": "water",
+  "secondaryType": "fairy",
+  "abilities": [
+    "wonderskin",
+    "hydration",
+    "h:shellarmor"
+  ],
+  "baseStats": {
+    "hp": 59,
+    "attack": 38,
+    "defence": 77,
+    "special_attack": 59,
+    "special_defence": 73,
+    "speed": 35
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 162,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:bubble",
+    "1:growl",
+    "3:peck",
+    "3:quickattack",
+    "9:babydolleyes",
+    "12:wish",
+    "15:disarmingvoice",
+    "18:aquajet",
+    "20:screech",
+    "21:waterpulse",
+    "24:swordsdance",
+    "29:toxic"  ],
+  "labels": [
+    "goetia",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.mermegg.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "mermegg_wermaid",
+      "variant": "level_up",
+      "result": "wermaid",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 23
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 0,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

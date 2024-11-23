@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:aurinel",
+  "speciesId": "cobblemon:aurinel",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

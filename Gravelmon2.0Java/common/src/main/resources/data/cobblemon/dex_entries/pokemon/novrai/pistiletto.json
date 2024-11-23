@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:pistiletto",
+  "speciesId": "cobblemon:pistiletto",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

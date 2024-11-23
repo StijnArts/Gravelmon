@@ -65,7 +65,7 @@ public class Oceane extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Medissin());
         addNewPokemon(new Mambaboo());
         addNewPokemon(new Floink());
-//        pokemon.add(new AFloink()); Missing Stats
+//        addNewPokemon(new AFloink()); Missing Stats
         addNewPokemon(new Hypnode());
         addNewPokemon(new Cupscape());
         addNewPokemon(new Nodescape());
@@ -76,7 +76,7 @@ public class Oceane extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Ziptide());
         addNewPokemon(new Moreen());
         addNewPokemon(new Salpackin(new Stats(376, StatArchetype.FAST_SUPPORT, List.of(StatType.SPEED))));
-//        pokemon.add(new ASalpackin()); Missing Stats
+//        addNewPokemon(new ASalpackin()); Missing Stats
         addNewPokemon(new Eletta());
         addNewPokemon(new Sentresha());
         addNewPokemon(new Origalleon());

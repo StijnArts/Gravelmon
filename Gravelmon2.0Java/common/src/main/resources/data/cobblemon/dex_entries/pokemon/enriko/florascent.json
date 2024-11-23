@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:florascent",
+  "speciesId": "cobblemon:florascent",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

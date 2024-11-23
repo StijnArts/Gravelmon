@@ -1,0 +1,104 @@
+{
+  "implemented": true,
+  "name": "Spawnkey",
+  "nationalPokedexNumber": 7160,
+  "primaryType": "fire",
+  "abilities": [
+    "blaze",
+    "h:prankster"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 60,
+    "defence": 45,
+    "special_attack": 45,
+    "special_defence": 35,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.75,
+  "shoulderMountable": false,
+  "baseExperienceYield": 65,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:leer",
+    "1:scratch",
+    "7:ember",
+    "9:taunt",
+    "13:bite",
+    "20:firepunch",
+    "27:fakeout",
+    "32:knockoff",
+    "42:crunch",
+    "48:blazekick"  ],
+  "labels": [
+    "amavi",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.spawnkey.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "spawnkey_impanzee",
+      "variant": "level_up",
+      "result": "impanzee",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 6,
+  "weight": 73,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

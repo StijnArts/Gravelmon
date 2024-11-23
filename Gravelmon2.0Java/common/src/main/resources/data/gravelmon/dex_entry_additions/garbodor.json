@@ -1,0 +1,23 @@
+{
+  "entryId": "cobblemon:garbodor",
+  "forms": [
+    {
+      "displayForm": "Mahalian",
+      "unlockForms": [
+        "Mahalian"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Egho",
+      "unlockForms": [
+        "Egho"
+      ]
+    }
+  ]
+}

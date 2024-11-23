@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:capsudier",
+  "speciesId": "cobblemon:capsudier",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

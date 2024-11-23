@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:springily",
+  "speciesId": "cobblemon:springily",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

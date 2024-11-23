@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:mushcary",
+  "speciesId": "cobblemon:mushcary",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

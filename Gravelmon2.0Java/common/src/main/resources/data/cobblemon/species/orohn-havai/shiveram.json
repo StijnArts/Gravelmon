@@ -1,0 +1,97 @@
+{
+  "implemented": true,
+  "name": "Shiveram",
+  "nationalPokedexNumber": 4007,
+  "primaryType": "ice",
+  "secondaryType": "normal",
+  "abilities": [
+    "snowcloak",
+    "reckless",
+    "h:furcoat"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 90,
+    "defence": 130,
+    "special_attack": 50,
+    "special_defence": 80,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 54,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 183,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:babydolleyes",
+    "3:powdersnow",
+    "7:icywind",
+    "10:cottonspore",
+    "12:mist",
+    "16:cottonguard",
+    "19:iceshard",
+    "23:takedown",
+    "25:nobleroar",
+    "30:rockclimb",
+    "34:avalanche",
+    "36:rest",
+    "41:blizzard",
+    "44:headcharge"  ],
+  "labels": [
+    "orohnhavai",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.shiveram.desc"
+  ],
+  "preEvolution": "snowool",
+  "baseScale": 0.2833333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 3,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 17,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

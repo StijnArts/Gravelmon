@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:pternair",
+  "speciesId": "cobblemon:pternair",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

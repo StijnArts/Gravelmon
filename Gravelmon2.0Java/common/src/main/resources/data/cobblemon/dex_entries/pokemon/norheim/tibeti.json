@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tibeti",
+  "speciesId": "cobblemon:tibeti",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:thornydid",
+  "speciesId": "cobblemon:thornydid",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

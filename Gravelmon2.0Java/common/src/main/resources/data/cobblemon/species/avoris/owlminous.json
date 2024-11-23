@@ -1,0 +1,102 @@
+{
+  "implemented": true,
+  "name": "Owlminous",
+  "nationalPokedexNumber": 2271,
+  "primaryType": "flying",
+  "secondaryType": "ghost",
+  "abilities": [
+    "keeneye",
+    "h:insomnia"
+  ],
+  "baseStats": {
+    "hp": 66,
+    "attack": 95,
+    "defence": 71,
+    "special_attack": 85,
+    "special_defence": 118,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 30,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 179,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "1:pursuit",
+    "11:wingattack",
+    "14:meanlook",
+    "19:screech",
+    "22:ominouswind",
+    "26:airslash",
+    "29:crushclaw",
+    "31:curse",
+    "37:shadowclaw",
+    "45:perishsong",
+    "51:phantomforce",
+    "55:nastyplot",
+    "61:bravebird",
+    "69:futuresight",
+    "tm:willowisp",
+    "tm:toxic",
+    "tm:shadowball",
+    "tm:darkpulse",
+    "tm:sludgebomb",
+    "tm:rockslide"  ],
+  "labels": [
+    "avoris",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.owlminous.desc"
+  ],
+  "preEvolution": "skowl",
+  "baseScale": 0.3,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "height": 18,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

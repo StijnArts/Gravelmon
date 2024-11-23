@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:baufire",
+  "speciesId": "cobblemon:baufire",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

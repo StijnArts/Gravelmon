@@ -1,0 +1,22 @@
+{
+  "type": "cobblemon:simple_pokedex_def",
+  "sortOrder": 42,
+  "id": "gravelmon:fra",
+  "entries": [
+    "cobblemon:yuvixy",
+    "cobblemon:kyubicane",
+    "cobblemon:awootic",
+    "cobblemon:huskinu",
+    "cobblemon:burrolar",
+    "cobblemon:potling",
+    "cobblemon:potthos",
+    "cobblemon:gardelem",
+    "cobblemon:kaizora",
+    "cobblemon:duozora",
+    "cobblemon:trizedora",
+    "cobblemon:fiestavia",
+    "cobblemon:pipengi",
+    "cobblemon:volantile",
+    "cobblemon:dradivetl"
+  ]
+}

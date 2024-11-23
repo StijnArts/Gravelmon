@@ -1,0 +1,168 @@
+{
+   "target": "cobblemon:solrock",
+  "evolutions": [
+    {
+      "id": "solrock_planite",
+      "variant": "item_interact",
+      "result": "planite",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:sun_stone",
+      "permanent": true   
+ }
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:sun_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+      },
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "fire",
+  "secondaryType": "cosmic",
+  "abilities": [
+    "overcoat",
+    "flamebody",
+    "h:flashfire"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 110,
+    "defence": 100,
+    "special_attack": 85,
+    "special_defence": 55,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "shoulderMountable": false,
+  "baseExperienceYield": 154,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "57:flareblitz",
+    "1:harden",
+    "1:tackle",
+    "13:rockpolish",
+    "29:cosmicpower",
+    "9:flamewheel",
+    "25:rockslide",
+    "45:stonesurge",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:bulldoze",
+    "tm:burningjealousy",
+    "tm:calmmind",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:energyball",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:geomancy",
+    "tm:gigadrain",
+    "tm:heatwave",
+    "tm:hiddenpower",
+    "tm:incinerate",
+    "tm:ironhead",
+    "tm:memento",
+    "tm:meteorbeam",
+    "tm:moonblast",
+    "tm:mudslide",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:powergem",
+    "tm:protect",
+    "tm:psychic",
+    "tm:quicksand",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:scorchingsands",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:weatherball",
+    "tm:willowisp",
+    "tm:wish",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:solarblade",
+    "egg:photongeyser",
+    "egg:rockblast"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochsolrock.desc"
+  ],
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 12,
+  "weight": 1540,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch"
+  ]
+}

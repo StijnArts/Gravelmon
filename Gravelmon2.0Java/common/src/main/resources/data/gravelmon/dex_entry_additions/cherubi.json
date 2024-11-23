@@ -1,0 +1,29 @@
+{
+  "entryId": "cobblemon:cherubi",
+  "forms": [
+    {
+      "displayForm": "Fabelian",
+      "unlockForms": [
+        "Fabelian"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Africanusan",
+      "unlockForms": [
+        "Africanusan"
+      ]
+    },
+    {
+      "displayForm": "Novran",
+      "unlockForms": [
+        "Novran"
+      ]
+    }
+  ]
+}

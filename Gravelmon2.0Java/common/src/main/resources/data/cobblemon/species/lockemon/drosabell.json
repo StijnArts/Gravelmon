@@ -1,0 +1,134 @@
+{
+  "implemented": true,
+  "name": "Drosabell",
+  "nationalPokedexNumber": 4601,
+  "primaryType": "grass",
+  "abilities": [
+    "triage",
+    "h:effectspore"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 80,
+    "defence": 70,
+    "special_attack": 100,
+    "special_defence": 80,
+    "speed": 35
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 137,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass"
+  ],
+  "moves": [
+    "1:vinewhip",
+    "7:growth",
+    "11:wrap",
+    "13:sleeppowder",
+    "15:poisonpowder",
+    "17:stunspore",
+    "23:psybeam",
+    "27:knockoff",
+    "29:sweetscent",
+    "35:psychicterrain",
+    "39:razorleaf",
+    "41:healpulse",
+    "47:slam",
+    "52:powerwhip",
+    "egg:clearsmog",
+    "egg:ingrain",
+    "egg:strengthsap",
+    "egg:suckerpunch",
+    "egg:synthesis",
+    "egg:tickle",
+    "egg:worryseed",
+    "tm:protect",
+    "tm:acidspray",
+    "tm:thief",
+    "tm:trailblaze",
+    "tm:pounce",
+    "tm:facade",
+    "tm:magicalleaf",
+    "tm:venoshock",
+    "tm:endure",
+    "tm:sunnyday",
+    "tm:bulletseed",
+    "tm:sleeptalk",
+    "tm:seedbomb",
+    "tm:reflect",
+    "tm:grassknot",
+    "tm:poisonjab",
+    "tm:rest",
+    "tm:swordsdance",
+    "tm:leechlife",
+    "tm:substitute",
+    "tm:gigadrain",
+    "tm:energyball",
+    "tm:encore",
+    "tm:grassyterrain",
+    "tm:sludgebomb",
+    "tm:leafstorm",
+    "tm:solarbeam",
+    "tm:terablast",
+    "tm:toxic",
+    "tm:knockoff",
+    "tm:lunge",
+    "tm:weatherball",
+    "tm:grassyglide"  ],
+  "labels": [
+    "lockemon",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.drosabell.desc"
+  ],
+  "preEvolution": "bellsprout form=kaskadian",
+  "baseScale": 0.16666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 64,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

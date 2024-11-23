@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:rattata-palmian",
+  "speciesId": "cobblemon:rattata",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Palmian",
+      "unlockForms": [
+        "Palmian"
+      ]
+    }
+  ],
+  "variations": []
+}

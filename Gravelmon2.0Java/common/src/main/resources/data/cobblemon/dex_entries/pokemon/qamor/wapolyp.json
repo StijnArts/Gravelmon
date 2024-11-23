@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:wapolyp",
+  "speciesId": "cobblemon:wapolyp",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

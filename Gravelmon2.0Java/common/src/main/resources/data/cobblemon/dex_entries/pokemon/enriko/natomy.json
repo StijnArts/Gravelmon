@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:natomy",
+  "speciesId": "cobblemon:natomy",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

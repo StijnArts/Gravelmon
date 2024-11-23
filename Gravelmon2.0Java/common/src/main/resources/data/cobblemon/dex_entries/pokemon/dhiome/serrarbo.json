@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:serrarbo",
+  "speciesId": "cobblemon:serrarbo",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

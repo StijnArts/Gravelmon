@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tapiruin",
+  "speciesId": "cobblemon:tapiruin",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

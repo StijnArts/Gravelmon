@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:perilscope",
+  "speciesId": "cobblemon:perilscope",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

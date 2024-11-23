@@ -1,0 +1,18 @@
+{
+  "type": "cobblemon:simple_pokedex_def",
+  "sortOrder": 30,
+  "id": "gravelmon:africanus",
+  "entries": [
+    "cobblemon:petiolis",
+    "cobblemon:virilis",
+    "cobblemon:lupercalis",
+    "cobblemon:harregg",
+    "cobblemon:igneagle",
+    "cobblemon:imperiavem",
+    "cobblemon:hipporos",
+    "cobblemon:equxic",
+    "cobblemon:marecampus",
+    "cobblemon:houndplut",
+    "cobblemon:fawniae"
+  ]
+}

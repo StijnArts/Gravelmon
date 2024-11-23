@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:turteller",
+  "speciesId": "cobblemon:turteller",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

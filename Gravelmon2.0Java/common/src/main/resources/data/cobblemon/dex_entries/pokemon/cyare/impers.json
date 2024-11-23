@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:impers",
+  "speciesId": "cobblemon:impers",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

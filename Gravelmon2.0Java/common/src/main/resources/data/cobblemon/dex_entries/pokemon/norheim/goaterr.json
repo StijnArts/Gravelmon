@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:goaterr",
+  "speciesId": "cobblemon:goaterr",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

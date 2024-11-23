@@ -1,0 +1,97 @@
+{
+  "implemented": true,
+  "name": "Stegrump",
+  "nationalPokedexNumber": 3994,
+  "primaryType": "rock",
+  "secondaryType": "ground",
+  "abilities": [
+    "sturdy",
+    "h:battlearmor"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 70,
+    "defence": 90,
+    "special_attack": 35,
+    "special_defence": 55,
+    "speed": 25
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 72,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster"
+  ],
+  "moves": [
+    "1:mudslap",
+    "5:yawn",
+    "9:harden",
+    "14:rocktomb",
+    "19:bulldoze",
+    "23:ancientpower",
+    "27:takedown",
+    "32:rockslide",
+    "36:spikes",
+    "41:earthquake",
+    "45:stealthrock",
+    "50:stoneedge",
+    "54:rest",
+    "tm:doubleedge",
+    "tm:endure",
+    "tm:magnitude",
+    "tm:rockblast",
+    "tm:rockclimb"  ],
+  "labels": [
+    "orohnhavai",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.stegrump.desc"
+  ],
+  "baseScale": 0.16666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

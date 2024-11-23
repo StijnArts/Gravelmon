@@ -1,0 +1,79 @@
+{
+  "implemented": true,
+  "name": "Cerakeet",
+  "nationalPokedexNumber": 1612,
+  "primaryType": "flying",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 72,
+    "attack": 65,
+    "defence": 115,
+    "special_attack": 65,
+    "special_defence": 94,
+    "speed": 54
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 70,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_3"
+  ],
+  "moves": [
+    "1:gust",
+    "1:bulkup",
+    "1:healbell"  ],
+  "labels": [
+    "lagoone",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.cerakeet.desc"
+  ],
+  "baseScale": 0.2333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 14,
+  "weight": 20,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

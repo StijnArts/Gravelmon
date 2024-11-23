@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:boshishe",
+  "speciesId": "cobblemon:boshishe",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

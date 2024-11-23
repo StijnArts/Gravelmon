@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:nimbairy",
+  "speciesId": "cobblemon:nimbairy",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,29 @@
+{
+  "entryId": "cobblemon:milotic",
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Delta",
+      "unlockForms": [
+        "Delta"
+      ]
+    },
+    {
+      "displayForm": "Seviian",
+      "unlockForms": [
+        "Seviian"
+      ]
+    }
+  ]
+}

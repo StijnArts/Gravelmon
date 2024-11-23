@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:rampede",
+  "speciesId": "cobblemon:rampede",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

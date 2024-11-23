@@ -1,0 +1,104 @@
+{
+   "target": "cobblemon:silcoon",
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "bug",
+  "secondaryType": "psychic",
+  "abilities": [
+    "telepathy",
+    "clearbody",
+    "h:overcoat"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 20,
+    "defence": 55,
+    "special_attack": 15,
+    "special_defence": 50,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "shoulderMountable": false,
+  "baseExperienceYield": 72,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:harden",
+    "5:confusion",
+    "1:infestation",
+    "10:strugglebug",
+    "1:stringshot",
+    "tm:irondefense",
+    "tm:strugglebug"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochsilcoon.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "silcoon_epoch_beautifly",
+      "variant": "level_up",
+      "result": "epoch beautifly",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 15
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 100,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch"
+  ]
+}

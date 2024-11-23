@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:shenbit",
+  "speciesId": "cobblemon:shenbit",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

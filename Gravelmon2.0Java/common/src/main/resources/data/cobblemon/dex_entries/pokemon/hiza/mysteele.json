@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:mysteele",
+  "speciesId": "cobblemon:mysteele",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:calispade",
+  "speciesId": "cobblemon:calispade",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

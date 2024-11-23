@@ -1,0 +1,106 @@
+{
+  "implemented": true,
+  "name": "Folicero",
+  "nationalPokedexNumber": 3072,
+  "primaryType": "grass",
+  "abilities": [
+    "overgrow",
+    "h:grasspelt"
+  ],
+  "baseStats": {
+    "hp": 68,
+    "attack": 53,
+    "defence": 60,
+    "special_attack": 40,
+    "special_defence": 60,
+    "speed": 39
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass"
+  ],
+  "moves": [
+    "1:absorb",
+    "1:tackle",
+    "1:withdraw",
+    "13:razorleaf",
+    "17:curse",
+    "22:bite",
+    "27:megadrain",
+    "32:leechseed",
+    "37:synthesis",
+    "42:crunch",
+    "47:gigadrain",
+    "52:leafstorm"  ],
+  "labels": [
+    "hiza",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.folicero.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "folicero_verblunt",
+      "variant": "level_up",
+      "result": "verblunt",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.11666666666666665,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

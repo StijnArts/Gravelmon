@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:withettle",
+  "speciesId": "cobblemon:withettle",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

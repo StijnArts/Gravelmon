@@ -46,94 +46,94 @@ public class GenerationThree extends Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new AromianChimecho("", Aspect.AROMIAN).setUsesBigModel()); //TODO
+        addNewPokemon(new AromianChimecho("", Aspect.AROMIAN).setUsesBigModel()); //TODO
 
-        pokemon.add(new FabelianRalts("", Aspect.FABELIAN).setUsesBigModel()); //TODO
-        pokemon.add(new FabelianKirlia("", Aspect.FABELIAN).setUsesBigModel());
-        pokemon.add(new FabelianSableye("", Aspect.FABELIAN).setUsesBigModel());
-        pokemon.add(new FabelianSwablu("", Aspect.FABELIAN).setUsesBigModel());
-        pokemon.add(new FabelianSnorunt("", Aspect.FABELIAN).setUsesBigModel());
-        pokemon.add(new FabelianBeldum("", Aspect.FABELIAN).setUsesBigModel());
-        pokemon.add(new FabelianMetang("", Aspect.FABELIAN).setUsesBigModel());
-        pokemon.add(new FabelianMetagross("", Aspect.FABELIAN).setUsesBigModel());
+        addNewPokemon(new FabelianRalts("", Aspect.FABELIAN).setUsesBigModel()); //TODO
+        addNewPokemon(new FabelianKirlia("", Aspect.FABELIAN).setUsesBigModel());
+        addNewPokemon(new FabelianSableye("", Aspect.FABELIAN).setUsesBigModel());
+        addNewPokemon(new FabelianSwablu("", Aspect.FABELIAN).setUsesBigModel());
+        addNewPokemon(new FabelianSnorunt("", Aspect.FABELIAN).setUsesBigModel());
+        addNewPokemon(new FabelianBeldum("", Aspect.FABELIAN).setUsesBigModel());
+        addNewPokemon(new FabelianMetang("", Aspect.FABELIAN).setUsesBigModel());
+        addNewPokemon(new FabelianMetagross("", Aspect.FABELIAN).setUsesBigModel());
 
-        pokemon.add(new MahalianTorkoal("", Aspect.MAHALIAN).setUsesBigModel()); //TODO
-        pokemon.add(new MahalianPoochyena("", Aspect.MAHALIAN).setUsesBigModel());
-        pokemon.add(new MahalianMightyena("", Aspect.MAHALIAN).setUsesBigModel());
+        addNewPokemon(new MahalianTorkoal("", Aspect.MAHALIAN).setUsesBigModel()); //TODO
+        addNewPokemon(new MahalianPoochyena("", Aspect.MAHALIAN).setUsesBigModel());
+        addNewPokemon(new MahalianMightyena("", Aspect.MAHALIAN).setUsesBigModel());
 
-        pokemon.add(new ElbianSlakoth("", Aspect.ELBIAN).setUsesBigModel()); //TODO
-        pokemon.add(new ElbianVigoroth("", Aspect.ELBIAN).setUsesBigModel());
-        pokemon.add(new ElbianGulpin("", Aspect.ELBIAN).setUsesBigModel());
-        pokemon.add(new ElbianSwalot("", Aspect.ELBIAN).setUsesBigModel());
+        addNewPokemon(new ElbianSlakoth("", Aspect.ELBIAN).setUsesBigModel()); //TODO
+        addNewPokemon(new ElbianVigoroth("", Aspect.ELBIAN).setUsesBigModel());
+        addNewPokemon(new ElbianGulpin("", Aspect.ELBIAN).setUsesBigModel());
+        addNewPokemon(new ElbianSwalot("", Aspect.ELBIAN).setUsesBigModel());
 
-        pokemon.add(new FerranianBarboach("", Aspect.FERRANIAN).setUsesBigModel()); //TODO
-        pokemon.add(new FerranianWhiscash("", Aspect.FERRANIAN).setUsesBigModel());
-        pokemon.add(new FerranianSlakoth("", Aspect.FERRANIAN).setUsesBigModel());
-        pokemon.add(new FerranianVigoroth("", Aspect.FERRANIAN).setUsesBigModel());
-        pokemon.add(new FerranianWailord("", Aspect.FERRANIAN).setUsesBigModel());
-        pokemon.add(new FerranianBagon("", Aspect.FERRANIAN).setUsesBigModel());
-        pokemon.add(new FerranianShelgon("", Aspect.FERRANIAN).setUsesBigModel());
-        pokemon.add(new FerranianSalamence("", Aspect.FERRANIAN).setUsesBigModel());
+        addNewPokemon(new FerranianBarboach("", Aspect.FERRANIAN).setUsesBigModel()); //TODO
+        addNewPokemon(new FerranianWhiscash("", Aspect.FERRANIAN).setUsesBigModel());
+        addNewPokemon(new FerranianSlakoth("", Aspect.FERRANIAN).setUsesBigModel());
+        addNewPokemon(new FerranianVigoroth("", Aspect.FERRANIAN).setUsesBigModel());
+        addNewPokemon(new FerranianWailord("", Aspect.FERRANIAN).setUsesBigModel());
+        addNewPokemon(new FerranianBagon("", Aspect.FERRANIAN).setUsesBigModel());
+        addNewPokemon(new FerranianShelgon("", Aspect.FERRANIAN).setUsesBigModel());
+        addNewPokemon(new FerranianSalamence("", Aspect.FERRANIAN).setUsesBigModel());
 
-        pokemon.add(new RaianianWhismur("", Aspect.RAIANIAN).setUsesBigModel()); //TODO
-        pokemon.add(new RaianianLoudred("", Aspect.RAIANIAN).setUsesBigModel());
-        pokemon.add(new RaianianExploud("", Aspect.RAIANIAN, new Stats(490, PHYSICAL_ATTACKER, List.of(HP))).setUsesBigModel());
-        pokemon.add(new RaianianAbsol("", Aspect.RAIANIAN, new Stats(465, PHYSICAL_ATTACKER, List.of(ATTACK, ATTACK, ATTACK))).setUsesBigModel());
-        pokemon.add(new RaianianSalamence("", Aspect.RAIANIAN, new Stats(600, SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))).setUsesBigModel());
-
-        //TODO
-        pokemon.add(new TrizoranAbsol("", Aspect.TRIZORAN, new Stats(465, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))).setUsesBigModel());
+        addNewPokemon(new RaianianWhismur("", Aspect.RAIANIAN).setUsesBigModel()); //TODO
+        addNewPokemon(new RaianianLoudred("", Aspect.RAIANIAN).setUsesBigModel());
+        addNewPokemon(new RaianianExploud("", Aspect.RAIANIAN, new Stats(490, PHYSICAL_ATTACKER, List.of(HP))).setUsesBigModel());
+        addNewPokemon(new RaianianAbsol("", Aspect.RAIANIAN, new Stats(465, PHYSICAL_ATTACKER, List.of(ATTACK, ATTACK, ATTACK))).setUsesBigModel());
+        addNewPokemon(new RaianianSalamence("", Aspect.RAIANIAN, new Stats(600, SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))).setUsesBigModel());
 
         //TODO
-        pokemon.add(new NorseAbsol("", Aspect.NORSE, new Stats(465, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPEED))).setUsesBigModel());
+        addNewPokemon(new TrizoranAbsol("", Aspect.TRIZORAN, new Stats(465, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))).setUsesBigModel());
 
-        pokemon.add(new FormanTreecko("", Aspect.FORMAN).setUsesBigModel());
-        pokemon.add(new FormanTorchic("", Aspect.FORMAN).setUsesBigModel());
-        pokemon.add(new FormanMudkip("", Aspect.FORMAN).setUsesBigModel());
+        //TODO
+        addNewPokemon(new NorseAbsol("", Aspect.NORSE, new Stats(465, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPEED))).setUsesBigModel());
 
-//        pokemon.add(new MystisianAbsol("", Aspect.MYSTISIAN)); TODO
+        addNewPokemon(new FormanTreecko("", Aspect.FORMAN).setUsesBigModel());
+        addNewPokemon(new FormanTorchic("", Aspect.FORMAN).setUsesBigModel());
+        addNewPokemon(new FormanMudkip("", Aspect.FORMAN).setUsesBigModel());
 
-//        pokemon.add(new OlysosianMightyena("", Aspect.OLYSOSIAN)); TODO
-//        pokemon.add(new OlysosianPoochyena("", Aspect.OLYSOSIAN));
+//        addNewPokemon(new MystisianAbsol("", Aspect.MYSTISIAN)); TODO
 
-//        pokemon.add(new NodorranTreecko("", Aspect.NODORRAN));  MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new NodorranGrovyle("", Aspect.NODORRAN)); MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new NodorranSceptile("", Aspect.NODORRAN)); Missing art
-//        pokemon.add(new NodorranNosepass("", Aspect.NODORRAN)); TODO
+//        addNewPokemon(new OlysosianMightyena("", Aspect.OLYSOSIAN)); TODO
+//        addNewPokemon(new OlysosianPoochyena("", Aspect.OLYSOSIAN));
 
-//        pokemon.add(new MastenianTreecko("", Aspect.MASTENIAN)); MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new MastenianGrovyle("", Aspect.MASTENIAN)); MISSING ART
-//        pokemon.add(new MastenianTorchic("", Aspect.MASTENIAN)); MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new MastenianCombusken("", Aspect.MASTENIAN)); MISSING ART
-//        pokemon.add(new MastenianMudkip("", Aspect.MASTENIAN)); MEMBER OF LINE NOT FINISHED
-        pokemon.add(new MastenianShroomish("", Aspect.MASTENIAN));
-        pokemon.add(new MastenianBreloom("", Aspect.MASTENIAN, new Stats(460, StatArchetype.FAST_SPECIAL_ATTACKER,
+//        addNewPokemon(new NodorranTreecko("", Aspect.NODORRAN));  MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new NodorranGrovyle("", Aspect.NODORRAN)); MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new NodorranSceptile("", Aspect.NODORRAN)); Missing art
+//        addNewPokemon(new NodorranNosepass("", Aspect.NODORRAN)); TODO
+
+//        addNewPokemon(new MastenianTreecko("", Aspect.MASTENIAN)); MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new MastenianGrovyle("", Aspect.MASTENIAN)); MISSING ART
+//        addNewPokemon(new MastenianTorchic("", Aspect.MASTENIAN)); MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new MastenianCombusken("", Aspect.MASTENIAN)); MISSING ART
+//        addNewPokemon(new MastenianMudkip("", Aspect.MASTENIAN)); MEMBER OF LINE NOT FINISHED
+        addNewPokemon(new MastenianShroomish("", Aspect.MASTENIAN));
+        addNewPokemon(new MastenianBreloom("", Aspect.MASTENIAN, new Stats(460, StatArchetype.FAST_SPECIAL_ATTACKER,
                 List.of(StatType.SPEED, StatType.SPECIAL_ATTACK))));
-//        pokemon.add(new MastenianIllumise("", Aspect.MASTENIAN));
-        pokemon.add(new MastenianVolbeat("", Aspect.MASTENIAN, new Stats(520, StatArchetype.FAST_SPECIAL_ATTACKER,
+//        addNewPokemon(new MastenianIllumise("", Aspect.MASTENIAN));
+        addNewPokemon(new MastenianVolbeat("", Aspect.MASTENIAN, new Stats(520, StatArchetype.FAST_SPECIAL_ATTACKER,
                 List.of(StatType.SPEED, StatType.SPECIAL_ATTACK))));
 
         registerSoulstonesVariants();
 
-        pokemon.add(new IonosianTrapinch("", Aspect.IONOSIAN));
-        pokemon.add(new IonosianVibrava("", Aspect.IONOSIAN));
-        pokemon.add(new IonosianFlygon("", Aspect.IONOSIAN, new Stats(520, StatArchetype.FAST_SPECIAL_ATTACKER,
+        addNewPokemon(new IonosianTrapinch("", Aspect.IONOSIAN));
+        addNewPokemon(new IonosianVibrava("", Aspect.IONOSIAN));
+        addNewPokemon(new IonosianFlygon("", Aspect.IONOSIAN, new Stats(520, StatArchetype.FAST_SPECIAL_ATTACKER,
                 List.of(StatType.SPEED, StatType.SPECIAL_ATTACK))));
 
-        pokemon.add(new AvalossianTreecko("Treecko", Aspect.AVALOSSIAN));
-        pokemon.add(new AvalossianGrovyle("Grovyle", Aspect.AVALOSSIAN));
-        pokemon.add(new AvalossianSceptile("Sceptile", Aspect.AVALOSSIAN));
-        pokemon.add(new AvalossianRalts("Ralts", Aspect.AVALOSSIAN));
-        pokemon.add(new AvalossianKirlia("Kirlia", Aspect.AVALOSSIAN));
-        pokemon.add(new AvalossianGardevoir("Gardevoir", Aspect.AVALOSSIAN));
-        pokemon.add(new AvalossianSlakoth("Slakoth", Aspect.AVALOSSIAN));
-        pokemon.add(new AvalossianVigoroth("Vigoroth", Aspect.AVALOSSIAN));
-        pokemon.add(new AvalossianNincada("Nincada", Aspect.AVALOSSIAN));
-        pokemon.add(new AvalossianDuskull("Duskull", Aspect.AVALOSSIAN));
-        pokemon.add(new AvalossianDusclops("Dusclops", Aspect.AVALOSSIAN));
+        addNewPokemon(new AvalossianTreecko("Treecko", Aspect.AVALOSSIAN));
+        addNewPokemon(new AvalossianGrovyle("Grovyle", Aspect.AVALOSSIAN));
+        addNewPokemon(new AvalossianSceptile("Sceptile", Aspect.AVALOSSIAN));
+        addNewPokemon(new AvalossianRalts("Ralts", Aspect.AVALOSSIAN));
+        addNewPokemon(new AvalossianKirlia("Kirlia", Aspect.AVALOSSIAN));
+        addNewPokemon(new AvalossianGardevoir("Gardevoir", Aspect.AVALOSSIAN));
+        addNewPokemon(new AvalossianSlakoth("Slakoth", Aspect.AVALOSSIAN));
+        addNewPokemon(new AvalossianVigoroth("Vigoroth", Aspect.AVALOSSIAN));
+        addNewPokemon(new AvalossianNincada("Nincada", Aspect.AVALOSSIAN));
+        addNewPokemon(new AvalossianDuskull("Duskull", Aspect.AVALOSSIAN));
+        addNewPokemon(new AvalossianDusclops("Dusclops", Aspect.AVALOSSIAN));
 
-        pokemon.add(new EnjinnianElectrike("", Aspect.ENJINNIAN));
-        pokemon.add(new EnjinnianManectric("", Aspect.ENJINNIAN));
+        addNewPokemon(new EnjinnianElectrike("", Aspect.ENJINNIAN));
+        addNewPokemon(new EnjinnianManectric("", Aspect.ENJINNIAN));
 
         addNewPokemon(new EnjinnianSableye("Sableye", Aspect.ENJINNIAN));
 
@@ -171,9 +171,9 @@ public class GenerationThree extends Game {
         addNewPokemon(new HizianTropius("Tropius", Aspect.HIZIAN));
         addNewPokemon(new HizianLuvdisc("Luvdisc", Aspect.HIZIAN));
 
-//        pokemon.add(new AristosianNumel(322)); Missing Art
-//        pokemon.add(new AristosianTaillow(276)); Member of line not finished
-//        pokemon.add(new AristosianNosepass(299)); Missing Art
+//        addNewPokemon(new AristosianNumel(322)); Missing Art
+//        addNewPokemon(new AristosianTaillow(276)); Member of line not finished
+//        addNewPokemon(new AristosianNosepass(299)); Missing Art
         addNewPokemon(new AristosianTropius("Tropius", Aspect.ARISTOSIAN));
 
         addEghoPokemon();
@@ -195,60 +195,60 @@ public class GenerationThree extends Game {
         addNewPokemon(new ArmiranSwellow("Swellow", Aspect.ARMIRAN));
 
         //Vanguard
-        pokemon.add(new AyreianTreecko("", Aspect.AYREIAN));
-        pokemon.add(new AyreianGrovyle("", Aspect.AYREIAN));
-        pokemon.add(new AyreianSceptile("", Aspect.AYREIAN));
-        pokemon.add(new AyreianZigzagoon("", Aspect.AYREIAN));
-        pokemon.add(new AyreianLinoone("", Aspect.AYREIAN));
-        pokemon.add(new AyreianShroomish("", Aspect.AYREIAN));
-        pokemon.add(new AyreianBreloom("", Aspect.AYREIAN));
-        pokemon.add(new AyreianRalts("", Aspect.AYREIAN));
-        pokemon.add(new AyreianKirlia("", Aspect.AYREIAN));
-        pokemon.add(new AyreianGardevoir("", Aspect.AYREIAN));
-        pokemon.add(new AyreianTropius("", Aspect.AYREIAN));
-        pokemon.add(new AyreianSnorunt("", Aspect.AYREIAN));
-        pokemon.add(new AyreianGlalie("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianTreecko("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianGrovyle("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianSceptile("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianZigzagoon("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianLinoone("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianShroomish("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianBreloom("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianRalts("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianKirlia("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianGardevoir("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianTropius("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianSnorunt("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianGlalie("", Aspect.AYREIAN));
 
-        pokemon.add(new AyreianTorchic("Torchic", Aspect.AYREIAN));
-        pokemon.add(new AyreianCombusken("Combusken", Aspect.AYREIAN));
-        pokemon.add(new AyreianBlaziken("Blaziken", Aspect.AYREIAN));
-        pokemon.add(new AyreianNosepass("Nosepass", Aspect.AYREIAN));
-        pokemon.add(new AyreianAron("Aron", Aspect.AYREIAN));
-        pokemon.add(new AyreianLairon("Lairon", Aspect.AYREIAN));
-        pokemon.add(new AyreianAggron("Aggron", Aspect.AYREIAN));
-        pokemon.add(new AyreianRoselia("Roselia", Aspect.AYREIAN));
-        pokemon.add(new AyreianNumel("Numel", Aspect.AYREIAN));
-        pokemon.add(new AyreianCamerupt("Camerupt", Aspect.AYREIAN));
-        pokemon.add(new AyreianTrapinch("Trapinch", Aspect.AYREIAN));
-        pokemon.add(new AyreianVibrava("Vibrava", Aspect.AYREIAN));
-        pokemon.add(new AyreianFlygon("Flygon", Aspect.AYREIAN));
-        pokemon.add(new AyreianSwablu("Swablu", Aspect.AYREIAN));
-        pokemon.add(new AyreianAltaria("Altaria", Aspect.AYREIAN));
-        pokemon.add(new AyreianLunatone("Lunatone", Aspect.AYREIAN));
-        pokemon.add(new AyreianRelicanth("Relicanth", Aspect.AYREIAN));
-        pokemon.add(new AyreianLuvdisc("Luvdisc", Aspect.AYREIAN));
+        addNewPokemon(new AyreianTorchic("Torchic", Aspect.AYREIAN));
+        addNewPokemon(new AyreianCombusken("Combusken", Aspect.AYREIAN));
+        addNewPokemon(new AyreianBlaziken("Blaziken", Aspect.AYREIAN));
+        addNewPokemon(new AyreianNosepass("Nosepass", Aspect.AYREIAN));
+        addNewPokemon(new AyreianAron("Aron", Aspect.AYREIAN));
+        addNewPokemon(new AyreianLairon("Lairon", Aspect.AYREIAN));
+        addNewPokemon(new AyreianAggron("Aggron", Aspect.AYREIAN));
+        addNewPokemon(new AyreianRoselia("Roselia", Aspect.AYREIAN));
+        addNewPokemon(new AyreianNumel("Numel", Aspect.AYREIAN));
+        addNewPokemon(new AyreianCamerupt("Camerupt", Aspect.AYREIAN));
+        addNewPokemon(new AyreianTrapinch("Trapinch", Aspect.AYREIAN));
+        addNewPokemon(new AyreianVibrava("Vibrava", Aspect.AYREIAN));
+        addNewPokemon(new AyreianFlygon("Flygon", Aspect.AYREIAN));
+        addNewPokemon(new AyreianSwablu("Swablu", Aspect.AYREIAN));
+        addNewPokemon(new AyreianAltaria("Altaria", Aspect.AYREIAN));
+        addNewPokemon(new AyreianLunatone("Lunatone", Aspect.AYREIAN));
+        addNewPokemon(new AyreianRelicanth("Relicanth", Aspect.AYREIAN));
+        addNewPokemon(new AyreianLuvdisc("Luvdisc", Aspect.AYREIAN));
 
         //Phoenix Rising
         addNewPokemon(new RelicRoselia("Roselia", Aspect.RELIC));
         addNewPokemon(new RelicSpinda("Spinda", Aspect.RELIC));
 
         //Kaskadian
-        pokemon.add(new KaskadianExploud("Exploud", Aspect.KASKADIAN));
-        pokemon.add(new GutsyCastform("Castform", Aspect.GUTSY));
-        pokemon.add(new WindyCastform("Castform", Aspect.WINDY));
-        pokemon.add(new SmoggyCastform("Castform", Aspect.SMOGGY));
-        pokemon.add(new DustyCastform("Castform", Aspect.DUSTY));
-        pokemon.add(new SandyCastform("Castform", Aspect.SANDY));
-        pokemon.add(new SwarmyCastform("Castform", Aspect.SWARMY));
-        pokemon.add(new SpookyCastform("Castform", Aspect.SPOOKY));
-        pokemon.add(new WhirlyCastform("Castform", Aspect.WHIRLY));
-        pokemon.add(new AllergyCastform("Castform", Aspect.ALLERGY));
-        pokemon.add(new ZappyCastform("Castform", Aspect.ZAPPY));
-        pokemon.add(new ZennyCastform("Castform", Aspect.ZENNY));
-        pokemon.add(new SorceryCastform("Castform", Aspect.SORCERY));
-        pokemon.add(new ShadyCastform("Castform", Aspect.SHADY));
-        pokemon.add(new LovelyCastform("Castform", Aspect.LOVELY));
-        pokemon.add(new KaskadianTropius("Tropius", Aspect.KASKADIAN).setUsesBigModel());
+        addNewPokemon(new KaskadianExploud("Exploud", Aspect.KASKADIAN));
+        addNewPokemon(new GutsyCastform("Castform", Aspect.GUTSY));
+        addNewPokemon(new WindyCastform("Castform", Aspect.WINDY));
+        addNewPokemon(new SmoggyCastform("Castform", Aspect.SMOGGY));
+        addNewPokemon(new DustyCastform("Castform", Aspect.DUSTY));
+        addNewPokemon(new SandyCastform("Castform", Aspect.SANDY));
+        addNewPokemon(new SwarmyCastform("Castform", Aspect.SWARMY));
+        addNewPokemon(new SpookyCastform("Castform", Aspect.SPOOKY));
+        addNewPokemon(new WhirlyCastform("Castform", Aspect.WHIRLY));
+        addNewPokemon(new AllergyCastform("Castform", Aspect.ALLERGY));
+        addNewPokemon(new ZappyCastform("Castform", Aspect.ZAPPY));
+        addNewPokemon(new ZennyCastform("Castform", Aspect.ZENNY));
+        addNewPokemon(new SorceryCastform("Castform", Aspect.SORCERY));
+        addNewPokemon(new ShadyCastform("Castform", Aspect.SHADY));
+        addNewPokemon(new LovelyCastform("Castform", Aspect.LOVELY));
+        addNewPokemon(new KaskadianTropius("Tropius", Aspect.KASKADIAN).setUsesBigModel());
 
         //Azure (Mystic)
         addNewPokemon(new MysticTreecko("Treecko", Aspect.MYSTIC));
@@ -277,127 +277,127 @@ public class GenerationThree extends Game {
     }
 
     private void registerSoulstonesVariants() {
-        pokemon.add(new EpochTreecko("", Aspect.EPOCH));
-        pokemon.add(new EpochGrovyle("", Aspect.EPOCH));
-        pokemon.add(new EpochSceptile("", Aspect.EPOCH));
-        pokemon.add(new EpochMudkip("", Aspect.EPOCH));
-        pokemon.add(new EpochMarshtomp("", Aspect.EPOCH));
-        pokemon.add(new EpochSwampert("", Aspect.EPOCH));
-        pokemon.add(new EpochMudkipOne("", Aspect.EPOCH));
-        pokemon.add(new EpochMarshtompOne("", Aspect.EPOCH));
-        pokemon.add(new EpochSwampertOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochTreecko("", Aspect.EPOCH));
+        addNewPokemon(new EpochGrovyle("", Aspect.EPOCH));
+        addNewPokemon(new EpochSceptile("", Aspect.EPOCH));
+        addNewPokemon(new EpochMudkip("", Aspect.EPOCH));
+        addNewPokemon(new EpochMarshtomp("", Aspect.EPOCH));
+        addNewPokemon(new EpochSwampert("", Aspect.EPOCH));
+        addNewPokemon(new EpochMudkipOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochMarshtompOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochSwampertOne("", Aspect.EPOCH));
 
-        pokemon.add(new EpochWailmer("", Aspect.EPOCH));
-        pokemon.add(new EpochWailord("", Aspect.EPOCH));
-        pokemon.add(new EpochNosepass("", Aspect.EPOCH));
-        pokemon.add(new EpochGulpin("", Aspect.EPOCH));
-        pokemon.add(new EpochSwalot("", Aspect.EPOCH));
-        pokemon.add(new EpochBaltoy("", Aspect.EPOCH));
-        pokemon.add(new EpochClaydol("", Aspect.EPOCH));
-        pokemon.add(new EpochLunatone("", Aspect.EPOCH));
-        pokemon.add(new EpochSolrock("", Aspect.EPOCH));
-        pokemon.add(new EpochShroomish("", Aspect.EPOCH));
-        pokemon.add(new EpochBreloom("", Aspect.EPOCH));
-        pokemon.add(new EpochCarvanha("", Aspect.EPOCH));
-        pokemon.add(new EpochSharpedo("", Aspect.EPOCH));
-        pokemon.add(new EpochSnorunt("", Aspect.EPOCH));
-        pokemon.add(new EpochGlalie("", Aspect.EPOCH));
-        pokemon.add(new EpochSableye("", Aspect.EPOCH));
-        pokemon.add(new EpochSwablu("", Aspect.EPOCH));
-        pokemon.add(new EpochAltaria("", Aspect.EPOCH));
-        pokemon.add(new EpochDuskull("", Aspect.EPOCH));
-        pokemon.add(new EpochDusclops("", Aspect.EPOCH));
-        pokemon.add(new EpochAron("", Aspect.EPOCH));
-        pokemon.add(new EpochLairon("", Aspect.EPOCH));
-        pokemon.add(new EpochAggron("", Aspect.EPOCH));
-        pokemon.add(new EpochWurmple("", Aspect.EPOCH));
-        pokemon.add(new EpochSilcoon("", Aspect.EPOCH));
-        pokemon.add(new EpochBeautifly("", Aspect.EPOCH));
-        pokemon.add(new EpochWurmpleOne("", Aspect.EPOCH));
-        pokemon.add(new EpochCascoon("", Aspect.EPOCH));
-        pokemon.add(new EpochDustox("", Aspect.EPOCH));
-        pokemon.add(new EpochFeebas("", Aspect.EPOCH));
-        pokemon.add(new EpochMilotic("", Aspect.EPOCH));
-        pokemon.add(new EpochSeedot("", Aspect.EPOCH));
-        pokemon.add(new EpochNuzleaf("", Aspect.EPOCH));
-        pokemon.add(new EpochShiftry("", Aspect.EPOCH));
-        pokemon.add(new EpochRalts("", Aspect.EPOCH));
-        pokemon.add(new EpochKirlia("", Aspect.EPOCH));
-        pokemon.add(new EpochGardevoir("", Aspect.EPOCH));
-        pokemon.add(new EpochNumel("", Aspect.EPOCH));
-        pokemon.add(new EpochCamerupt("", Aspect.EPOCH));
-        pokemon.add(new EpochAzurill("", Aspect.EPOCH));
-        pokemon.add(new EpochPoochyena("", Aspect.EPOCH));
-        pokemon.add(new EpochMightyena("", Aspect.EPOCH));
-        pokemon.add(new EpochAbsol("", Aspect.EPOCH));
-        pokemon.add(new EpochBeldum("", Aspect.EPOCH));
-        pokemon.add(new EpochMetang("", Aspect.EPOCH));
-        pokemon.add(new EpochMetagross("", Aspect.EPOCH));
-        pokemon.add(new EpochMeditite("", Aspect.EPOCH));
-        pokemon.add(new EpochMedicham("", Aspect.EPOCH));
-        pokemon.add(new EpochNincada("", Aspect.EPOCH));
-        pokemon.add(new EpochNinjask("", Aspect.EPOCH));
-        pokemon.add(new EpochShedinja("", Aspect.EPOCH));
-        pokemon.add(new EpochLileep("", Aspect.EPOCH));
-        pokemon.add(new EpochCradily("", Aspect.EPOCH));
-        pokemon.add(new EpochCacnea("", Aspect.EPOCH));
-        pokemon.add(new EpochCacturne("", Aspect.EPOCH));
-        pokemon.add(new EpochTaillow("", Aspect.EPOCH));
-        pokemon.add(new EpochSwellow("", Aspect.EPOCH));
-        pokemon.add(new EpochSpheal("", Aspect.EPOCH));
-        pokemon.add(new EpochSealeo("", Aspect.EPOCH));
-        pokemon.add(new EpochWalrein("", Aspect.EPOCH));
-        pokemon.add(new EpochSurskit("", Aspect.EPOCH));
-        pokemon.add(new EpochMasquerain("", Aspect.EPOCH));
-        pokemon.add(new EpochWingull("", Aspect.EPOCH));
-        pokemon.add(new EpochPelipper("", Aspect.EPOCH));
-        pokemon.add(new EpochElectrike("", Aspect.EPOCH));
-        pokemon.add(new EpochManectric("", Aspect.EPOCH));
-        pokemon.add(new EpochTorkoal("", Aspect.EPOCH));
-        pokemon.add(new EpochRoselia("", Aspect.EPOCH));
-        pokemon.add(new EpochAbsolOne("", Aspect.EPOCH));
-        pokemon.add(new EpochSableyeOne("", Aspect.EPOCH));
-        pokemon.add(new EpochSwabluOne("", Aspect.EPOCH));
-        pokemon.add(new EpochAltariaOne("", Aspect.EPOCH));
-        pokemon.add(new EpochSurskitOne("", Aspect.EPOCH));
-        pokemon.add(new EpochMasquerainOne("", Aspect.EPOCH));
-        pokemon.add(new EpochClamperl("", Aspect.EPOCH));
-        pokemon.add(new EpochHuntail("", Aspect.EPOCH));
-        pokemon.add(new EpochGorebyss("", Aspect.EPOCH));
-        pokemon.add(new EpochSkittyOne("", Aspect.EPOCH));
-        pokemon.add(new EpochDelcattyOne("", Aspect.EPOCH));
-        pokemon.add(new EpochNumelOne("", Aspect.EPOCH));
-        pokemon.add(new EpochCameruptOne("", Aspect.EPOCH));
-        pokemon.add(new EpochZigzagoon("", Aspect.EPOCH));
-        pokemon.add(new EpochLinoone("", Aspect.EPOCH));
-        pokemon.add(new EpochTrapinch("", Aspect.EPOCH));
-        pokemon.add(new EpochVibrava("", Aspect.EPOCH));
-        pokemon.add(new EpochFlygon("", Aspect.EPOCH));
-        pokemon.add(new EpochShuppet("", Aspect.EPOCH));
-        pokemon.add(new EpochBanette("", Aspect.EPOCH));
-        pokemon.add(new EpochWhismur("", Aspect.EPOCH));
-        pokemon.add(new EpochLoudred("", Aspect.EPOCH));
-        pokemon.add(new EpochExploud("", Aspect.EPOCH));
-        pokemon.add(new EpochCorphish("", Aspect.EPOCH));
-        pokemon.add(new EpochCrawdaunt("", Aspect.EPOCH));
-        pokemon.add(new EpochAnorith("", Aspect.EPOCH));
-        pokemon.add(new EpochArmaldo("", Aspect.EPOCH));
-        pokemon.add(new EpochBagon("", Aspect.EPOCH));
-        pokemon.add(new EpochShelgon("", Aspect.EPOCH));
-        pokemon.add(new EpochSalamence("", Aspect.EPOCH));
-        pokemon.add(new EpochNosepassOne("", Aspect.EPOCH));
-        pokemon.add(new EpochSlakoth("", Aspect.EPOCH));
-        pokemon.add(new EpochVigoroth("", Aspect.EPOCH));
-        pokemon.add(new EpochSlaking("", Aspect.EPOCH));
-        pokemon.add(new EpochChimecho("", Aspect.EPOCH));
-        pokemon.add(new EpochRoseliaOne("", Aspect.EPOCH));
-        pokemon.add(new EpochLotad("", Aspect.EPOCH));
-        pokemon.add(new EpochLombre("", Aspect.EPOCH));
-        pokemon.add(new EpochLudicolo("", Aspect.EPOCH));
-        pokemon.add(new EpochFeebasOne("", Aspect.EPOCH));
-        pokemon.add(new EpochMiloticOne("", Aspect.EPOCH));
-        pokemon.add(new EpochSkitty("", Aspect.EPOCH));
-        pokemon.add(new EpochDelcatty("", Aspect.EPOCH));
+        addNewPokemon(new EpochWailmer("", Aspect.EPOCH));
+        addNewPokemon(new EpochWailord("", Aspect.EPOCH));
+        addNewPokemon(new EpochNosepass("", Aspect.EPOCH));
+        addNewPokemon(new EpochGulpin("", Aspect.EPOCH));
+        addNewPokemon(new EpochSwalot("", Aspect.EPOCH));
+        addNewPokemon(new EpochBaltoy("", Aspect.EPOCH));
+        addNewPokemon(new EpochClaydol("", Aspect.EPOCH));
+        addNewPokemon(new EpochLunatone("", Aspect.EPOCH));
+        addNewPokemon(new EpochSolrock("", Aspect.EPOCH));
+        addNewPokemon(new EpochShroomish("", Aspect.EPOCH));
+        addNewPokemon(new EpochBreloom("", Aspect.EPOCH));
+        addNewPokemon(new EpochCarvanha("", Aspect.EPOCH));
+        addNewPokemon(new EpochSharpedo("", Aspect.EPOCH));
+        addNewPokemon(new EpochSnorunt("", Aspect.EPOCH));
+        addNewPokemon(new EpochGlalie("", Aspect.EPOCH));
+        addNewPokemon(new EpochSableye("", Aspect.EPOCH));
+        addNewPokemon(new EpochSwablu("", Aspect.EPOCH));
+        addNewPokemon(new EpochAltaria("", Aspect.EPOCH));
+        addNewPokemon(new EpochDuskull("", Aspect.EPOCH));
+        addNewPokemon(new EpochDusclops("", Aspect.EPOCH));
+        addNewPokemon(new EpochAron("", Aspect.EPOCH));
+        addNewPokemon(new EpochLairon("", Aspect.EPOCH));
+        addNewPokemon(new EpochAggron("", Aspect.EPOCH));
+        addNewPokemon(new EpochWurmple("", Aspect.EPOCH));
+        addNewPokemon(new EpochSilcoon("", Aspect.EPOCH));
+        addNewPokemon(new EpochBeautifly("", Aspect.EPOCH));
+        addNewPokemon(new EpochWurmpleOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochCascoon("", Aspect.EPOCH));
+        addNewPokemon(new EpochDustox("", Aspect.EPOCH));
+        addNewPokemon(new EpochFeebas("", Aspect.EPOCH));
+        addNewPokemon(new EpochMilotic("", Aspect.EPOCH));
+        addNewPokemon(new EpochSeedot("", Aspect.EPOCH));
+        addNewPokemon(new EpochNuzleaf("", Aspect.EPOCH));
+        addNewPokemon(new EpochShiftry("", Aspect.EPOCH));
+        addNewPokemon(new EpochRalts("", Aspect.EPOCH));
+        addNewPokemon(new EpochKirlia("", Aspect.EPOCH));
+        addNewPokemon(new EpochGardevoir("", Aspect.EPOCH));
+        addNewPokemon(new EpochNumel("", Aspect.EPOCH));
+        addNewPokemon(new EpochCamerupt("", Aspect.EPOCH));
+        addNewPokemon(new EpochAzurill("", Aspect.EPOCH));
+        addNewPokemon(new EpochPoochyena("", Aspect.EPOCH));
+        addNewPokemon(new EpochMightyena("", Aspect.EPOCH));
+        addNewPokemon(new EpochAbsol("", Aspect.EPOCH));
+        addNewPokemon(new EpochBeldum("", Aspect.EPOCH));
+        addNewPokemon(new EpochMetang("", Aspect.EPOCH));
+        addNewPokemon(new EpochMetagross("", Aspect.EPOCH));
+        addNewPokemon(new EpochMeditite("", Aspect.EPOCH));
+        addNewPokemon(new EpochMedicham("", Aspect.EPOCH));
+        addNewPokemon(new EpochNincada("", Aspect.EPOCH));
+        addNewPokemon(new EpochNinjask("", Aspect.EPOCH));
+        addNewPokemon(new EpochShedinja("", Aspect.EPOCH));
+        addNewPokemon(new EpochLileep("", Aspect.EPOCH));
+        addNewPokemon(new EpochCradily("", Aspect.EPOCH));
+        addNewPokemon(new EpochCacnea("", Aspect.EPOCH));
+        addNewPokemon(new EpochCacturne("", Aspect.EPOCH));
+        addNewPokemon(new EpochTaillow("", Aspect.EPOCH));
+        addNewPokemon(new EpochSwellow("", Aspect.EPOCH));
+        addNewPokemon(new EpochSpheal("", Aspect.EPOCH));
+        addNewPokemon(new EpochSealeo("", Aspect.EPOCH));
+        addNewPokemon(new EpochWalrein("", Aspect.EPOCH));
+        addNewPokemon(new EpochSurskit("", Aspect.EPOCH));
+        addNewPokemon(new EpochMasquerain("", Aspect.EPOCH));
+        addNewPokemon(new EpochWingull("", Aspect.EPOCH));
+        addNewPokemon(new EpochPelipper("", Aspect.EPOCH));
+        addNewPokemon(new EpochElectrike("", Aspect.EPOCH));
+        addNewPokemon(new EpochManectric("", Aspect.EPOCH));
+        addNewPokemon(new EpochTorkoal("", Aspect.EPOCH));
+        addNewPokemon(new EpochRoselia("", Aspect.EPOCH));
+        addNewPokemon(new EpochAbsolOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochSableyeOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochSwabluOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochAltariaOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochSurskitOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochMasquerainOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochClamperl("", Aspect.EPOCH));
+        addNewPokemon(new EpochHuntail("", Aspect.EPOCH));
+        addNewPokemon(new EpochGorebyss("", Aspect.EPOCH));
+        addNewPokemon(new EpochSkittyOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochDelcattyOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochNumelOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochCameruptOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochZigzagoon("", Aspect.EPOCH));
+        addNewPokemon(new EpochLinoone("", Aspect.EPOCH));
+        addNewPokemon(new EpochTrapinch("", Aspect.EPOCH));
+        addNewPokemon(new EpochVibrava("", Aspect.EPOCH));
+        addNewPokemon(new EpochFlygon("", Aspect.EPOCH));
+        addNewPokemon(new EpochShuppet("", Aspect.EPOCH));
+        addNewPokemon(new EpochBanette("", Aspect.EPOCH));
+        addNewPokemon(new EpochWhismur("", Aspect.EPOCH));
+        addNewPokemon(new EpochLoudred("", Aspect.EPOCH));
+        addNewPokemon(new EpochExploud("", Aspect.EPOCH));
+        addNewPokemon(new EpochCorphish("", Aspect.EPOCH));
+        addNewPokemon(new EpochCrawdaunt("", Aspect.EPOCH));
+        addNewPokemon(new EpochAnorith("", Aspect.EPOCH));
+        addNewPokemon(new EpochArmaldo("", Aspect.EPOCH));
+        addNewPokemon(new EpochBagon("", Aspect.EPOCH));
+        addNewPokemon(new EpochShelgon("", Aspect.EPOCH));
+        addNewPokemon(new EpochSalamence("", Aspect.EPOCH));
+        addNewPokemon(new EpochNosepassOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochSlakoth("", Aspect.EPOCH));
+        addNewPokemon(new EpochVigoroth("", Aspect.EPOCH));
+        addNewPokemon(new EpochSlaking("", Aspect.EPOCH));
+        addNewPokemon(new EpochChimecho("", Aspect.EPOCH));
+        addNewPokemon(new EpochRoseliaOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochLotad("", Aspect.EPOCH));
+        addNewPokemon(new EpochLombre("", Aspect.EPOCH));
+        addNewPokemon(new EpochLudicolo("", Aspect.EPOCH));
+        addNewPokemon(new EpochFeebasOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochMiloticOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochSkitty("", Aspect.EPOCH));
+        addNewPokemon(new EpochDelcatty("", Aspect.EPOCH));
 
     }
 

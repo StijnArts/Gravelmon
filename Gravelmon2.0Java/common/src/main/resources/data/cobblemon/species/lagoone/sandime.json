@@ -1,0 +1,106 @@
+{
+  "implemented": true,
+  "name": "Sandime",
+  "nationalPokedexNumber": 1579,
+  "primaryType": "ground",
+  "abilities": [
+    "sandveil",
+    "battlearmor",
+    "h:sandspit"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 70,
+    "defence": 70,
+    "special_attack": 40,
+    "special_defence": 40,
+    "speed": 30
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_3",
+    "amorphous"
+  ],
+  "moves": [
+    "1:spikes",
+    "21:dig",
+    "25:poweruppunch",
+    "28:smackdown",
+    "32:sandtomb",
+    "36:meditate",
+    "40:earthpower",
+    "44:superpower",
+    "50:earthquake",
+    "54:bellydrum"  ],
+  "labels": [
+    "lagoone",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.sandime.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "sandime_starena",
+      "variant": "level_up",
+      "result": "starena",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 29
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 50,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

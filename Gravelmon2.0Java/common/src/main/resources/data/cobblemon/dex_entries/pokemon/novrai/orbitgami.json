@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:orbitgami",
+  "speciesId": "cobblemon:orbitgami",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

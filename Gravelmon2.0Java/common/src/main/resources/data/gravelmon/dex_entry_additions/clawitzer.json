@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:clawitzer",
+  "forms": [
+    {
+      "displayForm": "Vesitan",
+      "unlockForms": [
+        "Vesitan"
+      ]
+    },
+    {
+      "displayForm": "Seviian",
+      "unlockForms": [
+        "Seviian"
+      ]
+    }
+  ]
+}

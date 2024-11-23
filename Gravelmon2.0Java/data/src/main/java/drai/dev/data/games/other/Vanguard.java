@@ -11,58 +11,79 @@ public class Vanguard extends Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new Magnemelt());
-        pokemon.add(new Fleumingo());
-        pokemon.add(new Loathedisc());
-        pokemon.add(new Gyropass());
-        pokemon.add(new Amacorala());
-        pokemon.add(new Solacor());
-        pokemon.add(new Dunmyth());
-        pokemon.add(new Dundragon());
-        pokemon.add(new Wolfum());
-        pokemon.add(new Supiritto());
-        pokemon.add(new Infernadeer());
-        pokemon.add(new Cradecart());
-        pokemon.add(new Sylure());
-        pokemon.add(new Syrallure());
-        pokemon.add(new Syrenade());
-        pokemon.add(new Tartot());
-        pokemon.add(new Teranigrade());
-        pokemon.add(new Setsarec());
-//        pokemon.add(new Panvolt()); //MISSING ART
-//        pokemon.add(new Simivolt()); //MISSING ART
-//        pokemon.add(new Klawbby()); //MISSING ART
-        pokemon.add(new Dunemoth());
-        pokemon.add(new Dofrio());
-        pokemon.add(new Siginome());
-        pokemon.add(new Khortares());
-        pokemon.add(new Reincarnape());
-        pokemon.add(new Togenix());
-        pokemon.add(new Reapatisse());
-        pokemon.add(new Habaneevil());
-        pokemon.add(new Gatiriopteryx());
-        pokemon.add(new Therapex());
-        pokemon.add(new Astralaxy());
-        pokemon.add(new Masimuthi());
-        pokemon.add(new Wraifanggal());
-        pokemon.add(new Mujineon());
-        pokemon.add(new Spareon());
-        pokemon.add(new Almireon());
-//        pokemon.add(new Quartzeon()); //MISSING ART
-        pokemon.add(new Evoleon());
-        pokemon.add(new Caeleon());
-        pokemon.add(new Saureon());
-        pokemon.add(new Burreon());
-        pokemon.add(new Halluceon());
-        pokemon.add(new Vultema());
-        pokemon.add(new Parlomai());
-        pokemon.add(new Valevant());
-        pokemon.add(new Narwail());
-        pokemon.add(new Morphias());
-//        pokemon.add(new Posuirin()); //MISSING ART
-        pokemon.add(new Svetrier());
-        pokemon.add(new Drukknir());
-        pokemon.add(new Sleihesnire());
-//        pokemon.add(new Golmachina()); //MISSING ART
+        addPokedexPokemon(("Bulbasaur-ayreian, Ivysaur-ayreian, Venusaur-ayreian, Charmander-ayreian, Charmeleon-ayreian, " +
+                "Charizard-ayreian, Squirtle-ayreian, Wartortle-ayreian, Blastoise-ayreian, Caterpie-ayreian, Metapod-ayreian, " +
+                "Butterfree-ayreian, Pidgey-ayreian, Pidgeotto-ayreian, Pidgeot-ayreian, Diglett-ayreian, Dugtrio-ayreian, " +
+                "Abra-ayreian, Kadabra-ayreian, Alakazam-ayreian, Grimer-ayreian, Muk-ayreian, Gastly-ayreian, Haunter-ayreian, " +
+                "Gengar-ayreian, Voltorb-ayreian, Electrode-ayreian, Pinsir-ayreian, Chikorita-ayreian, Bayleef-ayreian, " +
+                "Meganium-ayreian, Cyndaquil-ayreian, Quilava-ayreian, Typhlosion-ayreian, Totodile-ayreian, Croconaw-ayreian, " +
+                "Feraligatr-ayreian, Spinarak-ayreian, Ariados-ayreian, Stantler-ayreian, Torchic-ayreian, Combusken-ayreian, " +
+                "Blaziken-ayreian, Nosepass-ayreian, Aron-ayreian, Lairon-ayreian, Aggron-ayreian, Roselia-ayreian, Numel-ayreian, " +
+                "Camerupt-ayreian, Trapinch-ayreian, Vibrava-ayreian, Flygon-ayreian, Swablu-ayreian, Altaria-ayreian, " +
+                "Lunatone-ayreian, Relicanth-ayreian, Shinx-ayreian, Luxio-ayreian, Luxray-ayreian, Budew-ayreian, Roserade-ayreian, " +
+                "Drifloon-ayreian, Drifblim-ayreian, Dwebble-ayreian, Archen-ayreian, Archeops-ayreian, Minccino-ayreian, " +
+                "Cinccino-ayreian, Ducklett-ayreian, Swanna-ayreian, Vanillite-ayreian, Vanillish-ayreian, Vanilluxe-ayreian, " +
+                "Fletchling-ayreian, Fletchinder-ayreian, Pancham-ayreian, Pangoro-ayreian, Carbink-ayreian, Klefki-ayreian, " +
+                "Pumpkaboo-ayreian, Gourgeist-ayreian, Noibat-ayreian, Noivern-ayreian, Yungoos-ayreian, Gumshoos-ayreian, " +
+                "Grookey-ayreian, Thwackey-ayreian, Rillaboom-ayreian, Sizzlipede-ayreian, Centiskorch-ayreian, Sprigatito-ayreian, " +
+                "Floragato-ayreian, Meowscarada-ayreian, Quaxly-ayreian, Quaxwell-ayreian, Quaquaval-ayreian").toLowerCase());
+
+        addPokedexPokemon("magnemite-ayreian, magneton-ayreian");
+        addNewPokemon(new Magnemelt());
+        addNewPokemon(new Fleumingo());
+        addPokedexPokemon("luvdisc-ayreian");
+        addNewPokemon(new Loathedisc());
+        addNewPokemon(new Gyropass());
+        addPokedexPokemon("corsola");
+        addNewPokemon(new Amacorala());
+        addNewPokemon(new Solacor());
+        addPokedexPokemon("dunsparce");
+        addNewPokemon(new Dunmyth());
+        addNewPokemon(new Dundragon());
+        addNewPokemon(new Wolfum());
+        addNewPokemon(new Supiritto());
+        addNewPokemon(new Infernadeer());
+        addNewPokemon(new Cradecart());
+        addNewPokemon(new Sylure());
+        addNewPokemon(new Syrallure());
+        addNewPokemon(new Syrenade());
+        addNewPokemon(new Tartot());
+        addNewPokemon(new Teranigrade());
+        addNewPokemon(new Setsarec());
+//        addNewPokemon(new Panvolt()); //MISSING ART
+//        addNewPokemon(new Simivolt()); //MISSING ART
+//        addNewPokemon(new Klawbby()); //MISSING ART
+        addNewPokemon(new Dunemoth());
+        addNewPokemon(new Dofrio());
+        addNewPokemon(new Siginome());
+        addNewPokemon(new Khortares());
+        addNewPokemon(new Reincarnape());
+        addNewPokemon(new Togenix());
+        addNewPokemon(new Reapatisse());
+        addNewPokemon(new Habaneevil());
+        addNewPokemon(new Gatiriopteryx());
+        addNewPokemon(new Therapex());
+        addNewPokemon(new Astralaxy());
+        addNewPokemon(new Masimuthi());
+        addNewPokemon(new Wraifanggal());
+        addNewPokemon(new Mujineon());
+        addNewPokemon(new Spareon());
+        addNewPokemon(new Almireon());
+//        addNewPokemon(new Quartzeon()); //MISSING ART
+        addNewPokemon(new Evoleon());
+        addNewPokemon(new Caeleon());
+        addNewPokemon(new Saureon());
+        addNewPokemon(new Burreon());
+        addNewPokemon(new Halluceon());
+        addNewPokemon(new Vultema());
+        addNewPokemon(new Parlomai());
+        addNewPokemon(new Valevant());
+        addNewPokemon(new Narwail());
+        addNewPokemon(new Morphias());
+//        addNewPokemon(new Posuirin()); //MISSING ART
+        addNewPokemon(new Svetrier());
+        addNewPokemon(new Drukknir());
+        addNewPokemon(new Sleihesnire());
+//        addNewPokemon(new Golmachina()); //MISSING ART
     }
 }

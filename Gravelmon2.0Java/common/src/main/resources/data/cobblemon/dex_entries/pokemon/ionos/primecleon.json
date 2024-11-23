@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:primecleon",
+  "speciesId": "cobblemon:primecleon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:childer",
+  "speciesId": "cobblemon:childer",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

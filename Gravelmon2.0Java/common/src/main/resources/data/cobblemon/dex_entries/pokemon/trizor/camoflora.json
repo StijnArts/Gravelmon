@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:camoflora",
+  "speciesId": "cobblemon:camoflora",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

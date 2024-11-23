@@ -1,0 +1,23 @@
+{
+  "entryId": "cobblemon:spiritomb",
+  "forms": [
+    {
+      "displayForm": "Mahalian",
+      "unlockForms": [
+        "Mahalian"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "X",
+      "unlockForms": [
+        "X"
+      ]
+    }
+  ]
+}

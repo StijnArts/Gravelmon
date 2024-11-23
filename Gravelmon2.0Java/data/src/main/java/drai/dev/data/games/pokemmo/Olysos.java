@@ -13,133 +13,133 @@ public class Olysos extends drai.dev.data.games.registry.Game {
     //TODO dex entries
     @Override
     public void registerPokemon() {
-        pokemon.add(new Cubtus());
-        pokemon.add(new Paddorn());
-        pokemon.add(new Maanzagaro());
-        pokemon.add(new Flambah());
-        pokemon.add(new Ramligh());
-        pokemon.add(new Vulkynamo());
-        pokemon.add(new Sharkin());
-        pokemon.add(new Mawrine());
-        pokemon.add(new Orcanfrak());
-//        pokemon.add(new Phasmox());MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Teumixen());   Missing Art
-//        pokemon.add(new Arfruff());MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Laelupus());   Missing Art
-        pokemon.add(new Woodpeckit());
-        pokemon.add(new Peckster());
-        pokemon.add(new Peckussion());
-        pokemon.add(new Inferpillar());
-        pokemon.add(new Flamupet());
-        pokemon.add(new Flamothra(new Stats(420, StatArchetype.FAST_SPECIAL_ATTACKER,
+        addNewPokemon(new Cubtus());
+        addNewPokemon(new Paddorn());
+        addNewPokemon(new Maanzagaro());
+        addNewPokemon(new Flambah());
+        addNewPokemon(new Ramligh());
+        addNewPokemon(new Vulkynamo());
+        addNewPokemon(new Sharkin());
+        addNewPokemon(new Mawrine());
+        addNewPokemon(new Orcanfrak());
+//        addNewPokemon(new Phasmox());MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Teumixen());   Missing Art
+//        addNewPokemon(new Arfruff());MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Laelupus());   Missing Art
+        addNewPokemon(new Woodpeckit());
+        addNewPokemon(new Peckster());
+        addNewPokemon(new Peckussion());
+        addNewPokemon(new Inferpillar());
+        addNewPokemon(new Flamupet());
+        addNewPokemon(new Flamothra(new Stats(420, StatArchetype.FAST_SPECIAL_ATTACKER,
                 List.of(StatType.SPEED))));
-//        pokemon.add(new Gnaphid());   MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Locusteror());   Missing Art
-//        pokemon.add(new Punling());   MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Floretaya());   Missing Art
-//        pokemon.add(new Grandrupe());   Missing Art
-        pokemon.add(new Happetite());
-        pokemon.add(new Serposter());
-        pokemon.add(new Venobat());
-        pokemon.add(new Noseferatu(new Stats(430, StatArchetype.FAST_PHYSICAL_ATTACKER,
+//        addNewPokemon(new Gnaphid());   MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Locusteror());   Missing Art
+//        addNewPokemon(new Punling());   MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Floretaya());   Missing Art
+//        addNewPokemon(new Grandrupe());   Missing Art
+        addNewPokemon(new Happetite());
+        addNewPokemon(new Serposter());
+        addNewPokemon(new Venobat());
+        addNewPokemon(new Noseferatu(new Stats(430, StatArchetype.FAST_PHYSICAL_ATTACKER,
                 List.of(StatType.ATTACK))));
-        pokemon.add(new Tryprock());
-        pokemon.add(new Trypagnet());
-        pokemon.add(new Trypolisk());
-        pokemon.add(new Grimlin());
-        pokemon.add(new Grumpelstil());
-        pokemon.add(new Oozegrim());
-//        pokemon.add(new Kopiuzu());  MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Kebuzu());   Missing Art
-//        pokemon.add(new Purazu());   Missing Art
-//        pokemon.add(new Molore());MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Minerolt());   Missing Art
-//        pokemon.add(new Lunuhu());   MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Oracowl());   Missing Art
-//        pokemon.add(new Plagfowl());   MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Misphecy());   Missing Art
-//        pokemon.add(new Piedow());MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Ceryneer());   Missing Art
-//        pokemon.add(new Kabby());   MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Avalak());   Missing Art
-//        pokemon.add(new Bubby());   MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Coarsent());   Missing Art
-//        pokemon.add(new Yinyan());   MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Vivater());  MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Hydrona());   Missing Art
-//        pokemon.add(new Squishid());MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Squidgeist());   Missing Art
-//        pokemon.add(new Qoxipus());   MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Plaxista());   Missing Art
-//        pokemon.add(new Lapili());   MEMBER OF LINE NOT FINISHED
-        pokemon.add(new Tasmon());
-        pokemon.add(new Casanovil());
-//        pokemon.add(new Lavaleon());   MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Chamelaze());   Missing Art
-        pokemon.add(new Lavyrm());
-        pokemon.add(new Maganon());
-        pokemon.add(new Eruptinon());
-        pokemon.add(new Tortorge());
-        pokemon.add(new Alphayena(new Stats(500, StatArchetype.FAST_PHYSICAL_ATTACKER,
+        addNewPokemon(new Tryprock());
+        addNewPokemon(new Trypagnet());
+        addNewPokemon(new Trypolisk());
+        addNewPokemon(new Grimlin());
+        addNewPokemon(new Grumpelstil());
+        addNewPokemon(new Oozegrim());
+//        addNewPokemon(new Kopiuzu());  MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Kebuzu());   Missing Art
+//        addNewPokemon(new Purazu());   Missing Art
+//        addNewPokemon(new Molore());MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Minerolt());   Missing Art
+//        addNewPokemon(new Lunuhu());   MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Oracowl());   Missing Art
+//        addNewPokemon(new Plagfowl());   MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Misphecy());   Missing Art
+//        addNewPokemon(new Piedow());MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Ceryneer());   Missing Art
+//        addNewPokemon(new Kabby());   MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Avalak());   Missing Art
+//        addNewPokemon(new Bubby());   MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Coarsent());   Missing Art
+//        addNewPokemon(new Yinyan());   MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Vivater());  MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Hydrona());   Missing Art
+//        addNewPokemon(new Squishid());MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Squidgeist());   Missing Art
+//        addNewPokemon(new Qoxipus());   MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Plaxista());   Missing Art
+//        addNewPokemon(new Lapili());   MEMBER OF LINE NOT FINISHED
+        addNewPokemon(new Tasmon());
+        addNewPokemon(new Casanovil());
+//        addNewPokemon(new Lavaleon());   MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Chamelaze());   Missing Art
+        addNewPokemon(new Lavyrm());
+        addNewPokemon(new Maganon());
+        addNewPokemon(new Eruptinon());
+        addNewPokemon(new Tortorge());
+        addNewPokemon(new Alphayena(new Stats(500, StatArchetype.FAST_PHYSICAL_ATTACKER,
                 List.of(StatType.SPEED, StatType.ATTACK))));
-        pokemon.add(new Pepstep());
-        pokemon.add(new Devilance());
-//        pokemon.add(new Twoghast());   Missing Art
-//        pokemon.add(new Forcaken());   Missing Art
-//        pokemon.add(new Scroul());   MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Scrolock());   Missing Art
-        pokemon.add(new Skarawel());
-//        pokemon.add(new Traplat());MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Trapolem());   Missing Art
+        addNewPokemon(new Pepstep());
+        addNewPokemon(new Devilance());
+//        addNewPokemon(new Twoghast());   Missing Art
+//        addNewPokemon(new Forcaken());   Missing Art
+//        addNewPokemon(new Scroul());   MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Scrolock());   Missing Art
+        addNewPokemon(new Skarawel());
+//        addNewPokemon(new Traplat());MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Trapolem());   Missing Art
         addNewPokemon(new Allnown());
-//        pokemon.add(new Mageleon());   Missing Art
-//        pokemon.add(new Chereon());   Missing Art
-        pokemon.add(new Rustank());
-        pokemon.add(new Steamare());
-//        pokemon.add(new Artikit());   MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Sabretal());   Missing Art
-//        pokemon.add(new Solsaur());   MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Spinerno());   Missing Art
-//        pokemon.add(new Snugub());   MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Plushug());   Missing Art
-//        pokemon.add(new Draconaut());MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Nebulazer());   Missing Art
-//        pokemon.add(new Velocidron());   Missing Art
-//        pokemon.add(new Cupidove());   Missing Art
-//        pokemon.add(new Kismean());   Missing Art
-        pokemon.add(new Kryuu());
-        pokemon.add(new Kryoalis());
-        pokemon.add(new Phyuu());
-        pokemon.add(new Phosos());
-        pokemon.add(new Anyuu());
-        pokemon.add(new Anufelis());
-        pokemon.add(new Kaisaos());
-        pokemon.add(new Monokron());
-        pokemon.add(new Klepeck());
-        pokemon.add(new Magusong(new Stats(440, StatArchetype.FAST_SPECIAL_ATTACKER,
+//        addNewPokemon(new Mageleon());   Missing Art
+//        addNewPokemon(new Chereon());   Missing Art
+        addNewPokemon(new Rustank());
+        addNewPokemon(new Steamare());
+//        addNewPokemon(new Artikit());   MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Sabretal());   Missing Art
+//        addNewPokemon(new Solsaur());   MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Spinerno());   Missing Art
+//        addNewPokemon(new Snugub());   MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Plushug());   Missing Art
+//        addNewPokemon(new Draconaut());MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Nebulazer());   Missing Art
+//        addNewPokemon(new Velocidron());   Missing Art
+//        addNewPokemon(new Cupidove());   Missing Art
+//        addNewPokemon(new Kismean());   Missing Art
+        addNewPokemon(new Kryuu());
+        addNewPokemon(new Kryoalis());
+        addNewPokemon(new Phyuu());
+        addNewPokemon(new Phosos());
+        addNewPokemon(new Anyuu());
+        addNewPokemon(new Anufelis());
+        addNewPokemon(new Kaisaos());
+        addNewPokemon(new Monokron());
+        addNewPokemon(new Klepeck());
+        addNewPokemon(new Magusong(new Stats(440, StatArchetype.FAST_SPECIAL_ATTACKER,
                 List.of(StatType.SPECIAL_ATTACK))));
-//        pokemon.add(new Yukibi());   MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Yukiku());   Missing Art
-//        pokemon.add(new Safrion());   MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Saffry());   Missing Art
-//        pokemon.add(new Nagamufin());   MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Mediva());   Missing Art
-//        pokemon.add(new Ladivy());   Missing Art
-//        pokemon.add(new Terrino());   Missing Art
-//        pokemon.add(new Mermana());   Missing Art
-//        pokemon.add(new Fabumera());   Missing Art
-//        pokemon.add(new Dideep());   MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Searkat());   Missing Art
-//        pokemon.add(new Mosaile());   MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Krokoblok());   Missing Art
-//        pokemon.add(new Mosalegod());   Missing Art
-//        pokemon.add(new Flufflet());   Missing Art
-//        pokemon.add(new Chrysow());   Missing Art
-//        pokemon.add(new Worrym());   Missing Art
-//        pokemon.add(new Sangorko());   Missing Art
-        pokemon.add(new Zombark(new Stats(380, StatArchetype.FAST_SUPPORT,
+//        addNewPokemon(new Yukibi());   MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Yukiku());   Missing Art
+//        addNewPokemon(new Safrion());   MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Saffry());   Missing Art
+//        addNewPokemon(new Nagamufin());   MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Mediva());   Missing Art
+//        addNewPokemon(new Ladivy());   Missing Art
+//        addNewPokemon(new Terrino());   Missing Art
+//        addNewPokemon(new Mermana());   Missing Art
+//        addNewPokemon(new Fabumera());   Missing Art
+//        addNewPokemon(new Dideep());   MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Searkat());   Missing Art
+//        addNewPokemon(new Mosaile());   MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Krokoblok());   Missing Art
+//        addNewPokemon(new Mosalegod());   Missing Art
+//        addNewPokemon(new Flufflet());   Missing Art
+//        addNewPokemon(new Chrysow());   Missing Art
+//        addNewPokemon(new Worrym());   Missing Art
+//        addNewPokemon(new Sangorko());   Missing Art
+        addNewPokemon(new Zombark(new Stats(380, StatArchetype.FAST_SUPPORT,
                 List.of(StatType.SPEED))));
-        pokemon.add(new Serenine(new Stats(380, StatArchetype.FAST_SPECIAL_ATTACKER,
+        addNewPokemon(new Serenine(new Stats(380, StatArchetype.FAST_SPECIAL_ATTACKER,
                 List.of(StatType.SPEED))));
     }
 

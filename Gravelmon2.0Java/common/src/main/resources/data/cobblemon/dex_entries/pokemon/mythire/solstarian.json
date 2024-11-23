@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:solstarian",
+  "speciesId": "cobblemon:solstarian",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -16,11 +16,11 @@ public class Xenoverse extends Game {
     @Override
     public void registerPokemon() {
         Pokemon shyleon = new Shyleon().setPreferredBlocks(List.of("minecraft:sculk_sensor"));
-        pokemon.add(shyleon);
-        pokemon.add(new ShyleonTerrestrial("", Aspect.TERRESTRIAL));
-        pokemon.add(new ShyleonXenoversal("", Aspect.XENOVERSAL));
-        pokemon.add(new ShyleonAstral("", Aspect.ASTRAL));
-        pokemon.add(new ShyleonX("", Aspect.X));
+        addNewPokemon(shyleon);
+        addNewPokemon(new ShyleonTerrestrial("", Aspect.TERRESTRIAL));
+        addNewPokemon(new ShyleonXenoversal("", Aspect.XENOVERSAL));
+        addNewPokemon(new ShyleonAstral("", Aspect.ASTRAL));
+        addNewPokemon(new ShyleonX("", Aspect.X));
         removePokedexPokemon("shyleon-x");
         Pokemon trishout = new Trishout();
         addNewPokemon(trishout);
@@ -70,35 +70,35 @@ public class Xenoverse extends Game {
         addNewPokemon(new Wystearia());
         addNewPokemon(new Pepequeno());
         Pokemon scovile = new Scovile();
-        pokemon.add(scovile);
-        pokemon.add(new ScovileX("", Aspect.X));
+        addNewPokemon(scovile);
+        addNewPokemon(new ScovileX("", Aspect.X));
         removePokedexPokemon("scovile-x");
-        pokemon.add(new Excalibould());
-        pokemon.add(new Madieval());
-        pokemon.add(new Rockapye());
-        pokemon.add(new Troglolith());
-        pokemon.add(new Sputnink());
-        pokemon.add(new Nebyura());
-        pokemon.add(new Birigiri());
-        pokemon.add(new Chubiburny());
-        pokemon.add(new Goombear());
-        pokemon.add(new Manticoeur().setUsesBigModel());
-        pokemon.add(new Fatail().setUsesBigModel());
-        pokemon.add(new Reindear());
-        pokemon.add(new Reindigo());
-        pokemon.add(new Sosqwatch());
-        pokemon.add(new Vroombug());
-        pokemon.add(new Skravroom());
+        addNewPokemon(new Excalibould());
+        addNewPokemon(new Madieval());
+        addNewPokemon(new Rockapye());
+        addNewPokemon(new Troglolith());
+        addNewPokemon(new Sputnink());
+        addNewPokemon(new Nebyura());
+        addNewPokemon(new Birigiri());
+        addNewPokemon(new Chubiburny());
+        addNewPokemon(new Goombear());
+        addNewPokemon(new Manticoeur().setUsesBigModel());
+        addNewPokemon(new Fatail().setUsesBigModel());
+        addNewPokemon(new Reindear());
+        addNewPokemon(new Reindigo());
+        addNewPokemon(new Sosqwatch());
+        addNewPokemon(new Vroombug());
+        addNewPokemon(new Skravroom());
 
-        pokemon.add(new Chikaboo());
-        pokemon.add(new Peckabone());
-        pokemon.add(new Rexquiem());
-        pokemon.add(new Scaracno());
-        pokemon.add(new Scaracluo());
-        pokemon.add(new Scarphasmo());
-        pokemon.add(new Tokakle().setUsesBigModel());
-        pokemon.add(new Donanas());
-        pokemon.add(new Chimaooze());
+        addNewPokemon(new Chikaboo());
+        addNewPokemon(new Peckabone());
+        addNewPokemon(new Rexquiem());
+        addNewPokemon(new Scaracno());
+        addNewPokemon(new Scaracluo());
+        addNewPokemon(new Scarphasmo());
+        addNewPokemon(new Tokakle().setUsesBigModel());
+        addNewPokemon(new Donanas());
+        addNewPokemon(new Chimaooze());
         addPokedexPokemon(
                 "eevee," +
                         "vaporeon," +

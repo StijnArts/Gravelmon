@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:norewin",
+  "speciesId": "cobblemon:norewin",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:mrmime",
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Avorian",
+      "unlockForms": [
+        "Avorian"
+      ]
+    }
+  ]
+}

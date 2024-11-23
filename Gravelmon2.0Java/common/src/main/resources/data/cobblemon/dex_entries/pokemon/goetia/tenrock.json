@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tenrock",
+  "speciesId": "cobblemon:tenrock",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

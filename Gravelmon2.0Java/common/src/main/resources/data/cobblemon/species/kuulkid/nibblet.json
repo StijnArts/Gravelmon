@@ -1,0 +1,95 @@
+{
+  "implemented": true,
+  "name": "Nibblet",
+  "nationalPokedexNumber": 2842,
+  "primaryType": "steel",
+  "secondaryType": "normal",
+  "abilities": [
+    "keeneye",
+    "h:flareboost"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 43,
+    "defence": 60,
+    "special_attack": 42,
+    "special_defence": 45,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 160,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:metalclaw",
+    "1:tackle"  ],
+  "labels": [
+    "kuulkid",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.nibblet.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "nibblet_fondoom",
+      "variant": "item_interact",
+      "result": "fondoom",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:fire_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 0,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

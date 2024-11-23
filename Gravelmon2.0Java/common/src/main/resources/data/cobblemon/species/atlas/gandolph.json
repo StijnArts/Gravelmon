@@ -1,0 +1,147 @@
+{
+  "implemented": true,
+  "name": "Gandolph",
+  "nationalPokedexNumber": 6940,
+  "primaryType": "water",
+  "secondaryType": "psychic",
+  "abilities": [
+    "torrent",
+    "h:magician"
+  ],
+  "baseStats": {
+    "hp": 84,
+    "attack": 72,
+    "defence": 65,
+    "special_attack": 116,
+    "special_defence": 85,
+    "speed": 108
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 239,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "water_2"
+  ],
+  "moves": [
+    "4:tailwhip",
+    "6:bubble",
+    "9:supersonic",
+    "12:sonicboom",
+    "16:encore",
+    "18:psywave",
+    "22:waterpulse",
+    "25:psybeam",
+    "31:trick",
+    "34:brine",
+    "37:telekinesis",
+    "42:aquatail",
+    "47:synchronoise",
+    "54:psychic",
+    "60:roleplay",
+    "68:waterspout",
+    "tm:hydrocannon",
+    "tm:waterpledge",
+    "tm:attract",
+    "tm:blizzard",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:doubleteam",
+    "tm:dragontail",
+    "tm:echoedvoice",
+    "tm:energyball",
+    "tm:facade",
+    "tm:focusblast",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:snowscape",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:hypnosis",
+    "tm:icebeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:scald",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swagger",
+    "tm:taunt",
+    "tm:toxic",
+    "tm:trickroom",
+    "tm:waterpulse",
+    "tm:waterfall",
+    "tm:willowisp",
+    "tm:workup",
+    "tm:teleport",
+    "tm:hydropump"  ],
+  "labels": [
+    "atlas",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.gandolph.desc"
+  ],
+  "preEvolution": "finlock",
+  "baseScale": 0.3,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 18,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

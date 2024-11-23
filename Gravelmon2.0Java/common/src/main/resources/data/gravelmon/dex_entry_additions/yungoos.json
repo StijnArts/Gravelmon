@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:yungoos",
+  "forms": [
+    {
+      "displayForm": "Fabelian",
+      "unlockForms": [
+        "Fabelian"
+      ]
+    },
+    {
+      "displayForm": "Ayreian",
+      "unlockForms": [
+        "Ayreian"
+      ]
+    }
+  ]
+}

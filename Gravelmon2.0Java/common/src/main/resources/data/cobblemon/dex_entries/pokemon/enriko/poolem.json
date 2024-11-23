@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:poolem",
+  "speciesId": "cobblemon:poolem",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

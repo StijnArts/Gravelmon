@@ -20,6 +20,10 @@ public class LangJSONWriter {
         game.getNewPokemon().forEach(pokemon -> {writePokemon(pokemon);});
     }
 
+    public static void writeStarterCategories(){
+        GravelmonStarters.LANG_ENTRIES.forEach(LangJSONWriter::writeTranslationKey);
+    }
+
     public static void writeTranslationKey(String key, String text){
         contents.addProperty(key,text);
     }

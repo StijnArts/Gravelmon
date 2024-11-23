@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:slushound",
+  "speciesId": "cobblemon:slushound",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -20,18 +20,27 @@ public class AdditionSpawnPoolWorldJSONWriter {
         Pokemon.ADDITIONAL_FORMS.entrySet().forEach(set -> {
             try {
                 Files.createDirectories(new File(dir).toPath());
-                writeSpawn(set, dir, gson);
+                writeSpawn(set, dir, gson, resourcesDir);
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
         });
     }
 
-    private synchronized static void writeSpawn(Map.Entry<String, List<Pokemon>> set, String dir, Gson gson) throws IOException {
+    private synchronized static void writeSpawn(Map.Entry<String, List<Pokemon>> set, String dir, Gson gson, String resourcesDir) throws IOException {
         var spawnPool = createSpawnPoolJson();
         JsonArray spawns = spawnPool.getAsJsonArray("spawns");
         if (!set.getValue().isEmpty()) {
             for (Pokemon pokemon : set.getValue()) {
+                var aspect = pokemon.getAdditionalAspect().getName();
+                if(pokemon.getName().endsWith("One")) {
+                    aspect += "two";
+                    SpeciesFeaturesJSONWriter.writeFeature(aspect, resourcesDir);
+                }
+                if(pokemon.getName().endsWith("Two")) {
+                    aspect += "three";
+                    SpeciesFeaturesJSONWriter.writeFeature(aspect, resourcesDir);
+                }
                 if (Pokemon.FOSSIL_POKEMON.contains(pokemon)) continue;
                 SpawnPoolWorldJSONWriter.createSpawnJson(spawns, set.getKey(), pokemon.getAdditionalAspect().name().toLowerCase(), pokemon.getSpawnData());
                 for (PokemonForm form : pokemon.getForms()) {

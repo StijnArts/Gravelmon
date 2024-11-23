@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:cloyster",
+  "forms": [
+    {
+      "displayForm": "Forman",
+      "unlockForms": [
+        "Forman"
+      ]
+    },
+    {
+      "displayForm": "Nostan",
+      "unlockForms": [
+        "Nostan"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:albacross",
+  "speciesId": "cobblemon:albacross",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

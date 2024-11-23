@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:skite",
+  "speciesId": "cobblemon:skite",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

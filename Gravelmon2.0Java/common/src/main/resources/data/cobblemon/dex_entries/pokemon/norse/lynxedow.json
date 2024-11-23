@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lynxedow",
+  "speciesId": "cobblemon:lynxedow",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

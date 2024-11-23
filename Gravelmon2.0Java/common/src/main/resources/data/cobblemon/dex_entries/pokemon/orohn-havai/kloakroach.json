@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:kloakroach",
+  "speciesId": "cobblemon:kloakroach",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

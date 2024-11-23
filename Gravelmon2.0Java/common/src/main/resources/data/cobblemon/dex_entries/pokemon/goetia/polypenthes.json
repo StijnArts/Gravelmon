@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:polypenthes",
+  "speciesId": "cobblemon:polypenthes",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

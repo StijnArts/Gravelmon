@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:cascaprine",
+  "speciesId": "cobblemon:cascaprine",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

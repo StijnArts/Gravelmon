@@ -1,0 +1,157 @@
+{
+  "implemented": true,
+  "name": "Moppup",
+  "nationalPokedexNumber": 7004,
+  "primaryType": "normal",
+  "secondaryType": "water",
+  "abilities": [
+    "damp",
+    "ballfetch",
+    "h:fluffy"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 50,
+    "defence": 50,
+    "special_attack": 40,
+    "special_defence": 50,
+    "speed": 30
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 55,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:playnice",
+    "5:lick",
+    "14:lifedew",
+    "18:bubblebeam",
+    "22:covet",
+    "25:soak",
+    "29:muddywater",
+    "33:bodyslam",
+    "38:liquidation",
+    "44:playrough",
+    "50:doubleedge",
+    "tm:facade",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:return",
+    "tm:round",
+    "tm:echoedvoice",
+    "tm:fireblast",
+    "tm:flamethrower",
+    "tm:scald",
+    "tm:surf",
+    "tm:waterpulse",
+    "tm:waterfall",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:wildcharge",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:thief",
+    "tm:snarl",
+    "tm:blizzard",
+    "tm:icebeam",
+    "tm:rockslide",
+    "tm:dig",
+    "tm:attract",
+    "tm:doubleteam",
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:workup",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:raindance",
+    "tm:sunnyday",
+    "tm:snowscape",
+    "tm:sandstorm",
+    "tm:roar",
+    "tm:taunt",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:electricterrain",
+    "tm:grassyterrain",
+    "tm:mistyterrain",
+    "tm:psychicterrain",
+    "tm:helpinghand",
+    "tm:crunch",
+    "tm:thunderfang",
+    "tm:firefang",
+    "tm:icefang"  ],
+  "labels": [
+    "atlas",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.moppup.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "moppup_shampooch",
+      "variant": "level_up",
+      "result": "shampooch",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 23
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.11666666666666665,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

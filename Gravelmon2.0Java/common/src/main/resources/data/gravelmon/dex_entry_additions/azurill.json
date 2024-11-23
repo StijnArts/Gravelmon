@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:azurill",
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Egho",
+      "unlockForms": [
+        "Egho"
+      ]
+    }
+  ]
+}

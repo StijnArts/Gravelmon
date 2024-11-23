@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:jigglwiggl",
+  "speciesId": "cobblemon:jigglwiggl",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

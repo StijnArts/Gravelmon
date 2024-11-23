@@ -84,7 +84,7 @@ public class Nosto extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Aviafel());
         addNewPokemon(new Cursour());
         addNewPokemon(new Frankensour());
-//        pokemon.add(new Dragome()); Member of line Not Finished
+//        addNewPokemon(new Dragome()); Member of line Not Finished
         addNewPokemon(new Halux());
         addNewPokemon(new Visiangel());
         addNewPokemon(new Marshun());
@@ -95,7 +95,7 @@ public class Nosto extends drai.dev.data.games.registry.Game {
         addNewPokemon(new PixL());
         addNewPokemon(new Twinkluppy());
         addNewPokemon(new Notillunar(new Stats(421, StatArchetype.FAST_SUPPORT, List.of(StatType.SPEED))));
-//        pokemon.add(new dog());Member of line Not Finished
+//        addNewPokemon(new dog());Member of line Not Finished
         addNewPokemon(new Rosinella());
         addNewPokemon(new Sinsenella());
         addNewPokemon(new Dysmerella());

@@ -1,0 +1,161 @@
+{
+  "implemented": true,
+  "name": "Aragaunt",
+  "nationalPokedexNumber": 5218,
+  "primaryType": "dark",
+  "abilities": [
+    "unnerve",
+    "skilllink",
+    "h:technician"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 54,
+    "defence": 40,
+    "special_attack": 45,
+    "special_defence": 40,
+    "speed": 81
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 180,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 58,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug",
+    "monster"
+  ],
+  "moves": [
+    "1:leer",
+    "5:bite",
+    "7:spite",
+    "11:nightshade",
+    "15:furycutter",
+    "18:screech",
+    "22:feintattack",
+    "29:honeclaws",
+    "32:nightslash",
+    "37:drainlife",
+    "40:nightmare",
+    "44:suckerpunch",
+    "46:memento",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:attract",
+    "tm:bide",
+    "tm:brutalswing",
+    "tm:cut",
+    "tm:darkpulse",
+    "tm:doubleedge",
+    "tm:doubleteam",
+    "tm:dragonclaw",
+    "tm:dreameater",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:flash",
+    "tm:frustration",
+    "tm:grassknot",
+    "tm:hiddenpower",
+    "tm:infestation",
+    "tm:leechlife",
+    "tm:lowsweep",
+    "tm:mimic",
+    "tm:nastyplot",
+    "tm:payback",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:rage",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:thief",
+    "tm:torment",
+    "tm:toxic",
+    "tm:workup",
+    "tm:xscissor",
+    "tm:slash",
+    "tm:suddenstrike",
+    "tm:furyswipes",
+    "tm:grudge",
+    "tm:bounce",
+    "tm:psychocut"  ],
+  "labels": [
+    "mythire",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.aragaunt.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "aragaunt_arbyssno",
+      "variant": "level_up",
+      "result": "Arbyssno",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 12,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

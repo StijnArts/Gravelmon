@@ -1,0 +1,83 @@
+{
+  "implemented": true,
+  "name": "Lannatee",
+  "nationalPokedexNumber": 6510,
+  "primaryType": "fire",
+  "secondaryType": "flying",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 94,
+    "attack": 43,
+    "defence": 91,
+    "special_attack": 27,
+    "special_defence": 37,
+    "speed": 64
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 153,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:ember",
+    "1:peck",
+    "1:bulkup",
+    "1:bulkup",
+    "1:quickattack",
+    "1:quickattack"  ],
+  "labels": [
+    "ionos",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.lannatee.desc"
+  ],
+  "baseScale": 0.21666666666666667,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 13,
+  "weight": 0,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

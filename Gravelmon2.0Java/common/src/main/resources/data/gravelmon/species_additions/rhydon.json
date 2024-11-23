@@ -1,0 +1,114 @@
+{
+   "target": "cobblemon:rhydon",
+   "forms": [{
+  "name": "Hizian",
+  "primaryType": "ice",
+  "secondaryType": "fighting",
+  "abilities": [
+    "keeneye",
+    "h:thickfat"
+  ],
+  "baseStats": {
+    "hp": 105,
+    "attack": 130,
+    "defence": 120,
+    "special_attack": 45,
+    "special_defence": 45,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 60,
+  "shoulderMountable": false,
+  "baseExperienceYield": 170,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "monster"
+  ],
+  "moves": [
+    "1:ancientpower",
+    "1:flail",
+    "1:mudslap",
+    "1:powdersnow",
+    "1:tackle",
+    "15:iceshard",
+    "20:mist",
+    "25:endure",
+    "30:icywind",
+    "37:amnesia",
+    "44:takedown",
+    "51:earthquake",
+    "58:blizzard",
+    "65:thrash"  ],
+  "labels": [
+    "hiza",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.hizianrhydon.desc"
+  ],
+  "preEvolution": "rhyhorn form=hizian",
+  "evolutions": [
+    {
+      "id": "rhydon_rhyferal",
+      "variant": "level_up",
+      "result": "rhyferal",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 50
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.31666666666666665,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 19,
+  "weight": 165,
+  "aspects": ["hizian"],
+  "cannotDynamax": false
+}
+], "features": [
+"hizian"
+  ]
+}

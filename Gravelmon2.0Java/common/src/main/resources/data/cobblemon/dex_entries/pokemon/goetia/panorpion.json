@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:panorpion",
+  "speciesId": "cobblemon:panorpion",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,102 @@
+{
+  "implemented": true,
+  "name": "Kilokatta",
+  "nationalPokedexNumber": 5290,
+  "primaryType": "electric",
+  "secondaryType": "dark",
+  "abilities": [
+    "galvanize",
+    "lightningrod",
+    "h:electricsurge"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 96,
+    "defence": 50,
+    "special_attack": 112,
+    "special_defence": 65,
+    "speed": 100
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 158,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:sandattack",
+    "1:scratch",
+    "5:thundershock",
+    "10:scaryface",
+    "19:swift",
+    "24:voltswitch",
+    "28:detect",
+    "30:electricterrain",
+    "36:thunderbolt",
+    "40:nightdaze",
+    "45:risingvoltage",
+    "52:thunder",
+    "tm:meanlook",
+    "tm:lastresort",
+    "tm:assist",
+    "tm:assurance",
+    "tm:beatup",
+    "tm:paraboliccharge",
+    "tm:zingzap"  ],
+  "labels": [
+    "fliga",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.kilokatta.desc"
+  ],
+  "preEvolution": "meekat",
+  "baseScale": 0.21666666666666667,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 13,
+  "weight": 0,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

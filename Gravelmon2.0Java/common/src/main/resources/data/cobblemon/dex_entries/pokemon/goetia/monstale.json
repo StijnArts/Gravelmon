@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:monstale",
+  "speciesId": "cobblemon:monstale",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

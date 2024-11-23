@@ -1,0 +1,95 @@
+{
+  "implemented": true,
+  "name": "Moustiny",
+  "nationalPokedexNumber": 2736,
+  "primaryType": "dark",
+  "abilities": [
+    "scrappy",
+    "h:filter"
+  ],
+  "baseStats": {
+    "hp": 43,
+    "attack": 43,
+    "defence": 25,
+    "special_attack": 55,
+    "special_defence": 32,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 180,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:bite"  ],
+  "labels": [
+    "kuulkid",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.moustiny.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "moustiny_monstache",
+      "variant": "level_up",
+      "result": "monstache",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "growth"
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 0,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

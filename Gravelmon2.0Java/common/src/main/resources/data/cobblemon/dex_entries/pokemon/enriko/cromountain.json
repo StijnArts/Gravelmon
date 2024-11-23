@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:cromountain",
+  "speciesId": "cobblemon:cromountain",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

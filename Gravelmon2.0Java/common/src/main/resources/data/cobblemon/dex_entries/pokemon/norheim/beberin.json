@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:beberin",
+  "speciesId": "cobblemon:beberin",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

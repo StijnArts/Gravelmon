@@ -1,0 +1,100 @@
+{
+  "implemented": true,
+  "name": "Pearry",
+  "nationalPokedexNumber": 5622,
+  "primaryType": "grass",
+  "secondaryType": "flying",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 82,
+    "defence": 91,
+    "special_attack": 111,
+    "special_defence": 87,
+    "speed": 94
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.125,
+  "shoulderMountable": false,
+  "baseExperienceYield": 208,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass",
+    "flying"
+  ],
+  "moves": [
+    "1:absorb",
+    "1:frenzyplant",
+    "1:gust",
+    "1:scratch",
+    "1:solarbeam",
+    "1:tailwhip",
+    "1:typhoon",
+    "7:absorb",
+    "10:gust",
+    "13:razorleaf",
+    "16:growth",
+    "20:falseswipe",
+    "24:leaftornado",
+    "28:whirlwind",
+    "32:leafblade",
+    "36:energyball",
+    "39:bounce",
+    "46:synthesis",
+    "60:agility"  ],
+  "labels": [
+    "kuria",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.pearry.desc"
+  ],
+  "preEvolution": "peaf",
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 15,
+  "weight": 519,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

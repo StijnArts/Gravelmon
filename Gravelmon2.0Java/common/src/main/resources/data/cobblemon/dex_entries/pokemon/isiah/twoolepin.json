@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:twoolepin",
+  "speciesId": "cobblemon:twoolepin",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

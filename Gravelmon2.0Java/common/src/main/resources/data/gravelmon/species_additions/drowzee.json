@@ -1,0 +1,339 @@
+{
+   "target": "cobblemon:drowzee",
+  "preEvolution": "snooz",
+   "forms": [{
+  "name": "Forman",
+  "primaryType": "psychic",
+  "secondaryType": "electric",
+  "abilities": [
+    "static"  ],
+  "baseStats": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:confusion",
+    "1:thundershock"  ],
+  "labels": [
+    "form",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.formandrowzee.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 0,
+  "weight": 0,
+  "aspects": ["forman"],
+  "cannotDynamax": false
+},
+{
+  "name": "Epoch",
+  "primaryType": "dark",
+  "secondaryType": "fighting",
+  "abilities": [
+    "moldbreaker",
+    "h:moxie"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 75,
+    "defence": 60,
+    "special_attack": 43,
+    "special_defence": 45,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "shoulderMountable": false,
+  "baseExperienceYield": 66,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "human_like"
+  ],
+  "moves": [
+    "61:gunkshot",
+    "53:closecombat",
+    "45:spectralthief",
+    "11:bite",
+    "1:roar",
+    "1:block",
+    "1:rollingkick",
+    "33:falsesurrender",
+    "14:revenge",
+    "7:torment",
+    "17:swagger",
+    "29:bulkup",
+    "37:drainpunch",
+    "49:noretreat",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:closecombat",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:drainpunch",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:falseswipe",
+    "tm:firepunch",
+    "tm:flareblitz",
+    "tm:focusblast",
+    "tm:gunkshot",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:icepunch",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:memento",
+    "tm:meteormash",
+    "tm:mudslide",
+    "tm:nastyplot",
+    "tm:nobleroar",
+    "tm:outrage",
+    "tm:playrough",
+    "tm:poisonjab",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandtomb",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:superpower",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:thunderpunch",
+    "tm:toxic",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:suckerpunch",
+    "egg:foulplay",
+    "egg:corrosivegas",
+    "egg:pursuit",
+    "egg:cheapshot",
+    "egg:outrage"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochdrowzee.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "drowzee_epoch_hypno",
+      "variant": "level_up",
+      "result": "epoch hypno",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.26666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 16,
+  "weight": 756,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
+  "name": "Enjinnian",
+  "primaryType": "psychic",
+  "abilities": [
+    "insomnia",
+    "forewarn",
+    "h:innerfocus"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 48,
+    "defence": 45,
+    "special_attack": 43,
+    "special_defence": 90,
+    "speed": 42
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "shoulderMountable": false,
+  "baseExperienceYield": 66,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "human_like"
+  ],
+  "moves": [
+    "1:confusion"  ],
+  "labels": [
+    "enjin",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.enjinniandrowzee.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "drowzee_hypno_enjinnian",
+      "variant": "level_up",
+      "result": "hypno enjinnian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 26
+        },
+        {
+          "variant": "time_range",
+          "range": night
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.16666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 288,
+  "aspects": ["enjinnian"],
+  "cannotDynamax": false
+}
+], "features": [
+"forman",
+"epoch",
+"enjinnian"
+  ]
+}

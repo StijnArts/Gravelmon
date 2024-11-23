@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tarboraze",
+  "speciesId": "cobblemon:tarboraze",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

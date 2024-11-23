@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tomactus",
+  "speciesId": "cobblemon:tomactus",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

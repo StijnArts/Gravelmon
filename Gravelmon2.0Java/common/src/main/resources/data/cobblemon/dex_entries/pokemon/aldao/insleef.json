@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:insleef",
+  "speciesId": "cobblemon:insleef",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

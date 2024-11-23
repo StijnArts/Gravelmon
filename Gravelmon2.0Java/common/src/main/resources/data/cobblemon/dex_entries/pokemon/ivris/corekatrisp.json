@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:corekatrisp",
+  "speciesId": "cobblemon:corekatrisp",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

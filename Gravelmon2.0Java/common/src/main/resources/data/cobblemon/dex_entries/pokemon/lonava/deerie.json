@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:deerie",
+  "speciesId": "cobblemon:deerie",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

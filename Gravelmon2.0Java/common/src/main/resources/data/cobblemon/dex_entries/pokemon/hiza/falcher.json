@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:falcher",
+  "speciesId": "cobblemon:falcher",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

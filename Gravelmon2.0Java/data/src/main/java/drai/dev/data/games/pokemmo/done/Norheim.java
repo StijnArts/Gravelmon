@@ -85,10 +85,10 @@ public class Norheim extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Potota(new Stats(476, StatArchetype.FAST_SPECIAL_ATTACKER,
                 List.of(StatType.HP))));
         var tadit = new Tadit();
-        pokemon.add(tadit);
-        pokemon.add(new MastenianTadit("", Aspect.MASTENIAN));
-        pokemon.add(new Ribhit());
-        pokemon.add(new Thikachoo(new Stats(435, StatArchetype.BULKY_SPECIAL_ATTACKER,
+        addNewPokemon(tadit);
+        addNewPokemon(new MastenianTadit("", Aspect.MASTENIAN));
+        addNewPokemon(new Ribhit());
+        addNewPokemon(new Thikachoo(new Stats(435, StatArchetype.BULKY_SPECIAL_ATTACKER,
                 List.of(StatType.HP))));
         addPokedexPokemon("surskit");
         addPokedexPokemon("masquerain-norheiman");
@@ -134,8 +134,8 @@ public class Norheim extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Witherscence());
         addNewPokemon(new Slickle());
         addNewPokemon(new Stricklisk());
-//        pokemon.add(new Mudrake()); Missing Art
-//        pokemon.add(new Niidrake()); Member of Line not Finished
+//        addNewPokemon(new Mudrake()); Missing Art
+//        addNewPokemon(new Niidrake()); Member of Line not Finished
         addNewPokemon(new Eolid());
         addNewPokemon(new Eosoli());
         addNewPokemon(new Eoterra());
@@ -196,16 +196,16 @@ public class Norheim extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Mylili(new Stats(387, StatArchetype.MIXED_ATTACKER,
                 List.of(StatType.SPECIAL_ATTACK))));
         var crudecay = new Crudecay();
-        pokemon.add(crudecay);
-        pokemon.add(new MastenianCrudecay("", Aspect.MASTENIAN));  //Missing Stats
+        addNewPokemon(crudecay);
+        addNewPokemon(new MastenianCrudecay("", Aspect.MASTENIAN));  //Missing Stats
         removePokedexPokemon("crudecay-mastenian");
         addPokedexPokemon("shellder-norheiman");
-        pokemon.add(new Hingjaw());
-        pokemon.add(new Saberian());
+        addNewPokemon(new Hingjaw());
+        addNewPokemon(new Saberian());
         addPokedexPokemon("ditto-norheiman");
-        pokemon.add(new Wreggog());
-        pokemon.add(new Terrahorn());
-        pokemon.add(new Thoraxe(new Stats(500, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER,
+        addNewPokemon(new Wreggog());
+        addNewPokemon(new Terrahorn());
+        addNewPokemon(new Thoraxe(new Stats(500, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER,
                 List.of(StatType.DEFENCE))));
         addNewPokemon(new Dunesparr());
         addNewPokemon(new Milthunk(new Stats(490, StatArchetype.BULKY_SUPPORT,

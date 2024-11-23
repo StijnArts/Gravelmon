@@ -1,0 +1,14 @@
+{
+  "type": "cobblemon:simple_pokedex_def",
+  "sortOrder": 79,
+  "id": "gravelmon:sahl",
+  "entries": [
+    "cobblemon:meikourkei",
+    "cobblemon:regifly",
+    "cobblemon:regibug",
+    "cobblemon:suimoru",
+    "cobblemon:kinmoru",
+    "cobblemon:domoru",
+    "cobblemon:araemon"
+  ]
+}

@@ -43,7 +43,7 @@ public class SpeciesFeaturesJSONWriter {
                     "    \"isAspect\": true,\n" +
                     "    \"default\": false\n" +
                     "  }";
-
+            Files.createDirectories(new File(dir).toPath());
             BufferedWriter writer = new BufferedWriter(new FileWriter(dir+aspect.toLowerCase()+".json"));
             writer.write(fileContents);
             writer.close();

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:punibara",
+  "speciesId": "cobblemon:punibara",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:dwarpy",
+  "speciesId": "cobblemon:dwarpy",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

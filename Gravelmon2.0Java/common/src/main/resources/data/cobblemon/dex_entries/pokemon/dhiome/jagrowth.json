@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:jagrowth",
+  "speciesId": "cobblemon:jagrowth",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

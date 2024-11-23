@@ -8,76 +8,76 @@ public class Enriko extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new WoggleJr());
-        pokemon.add(new Plantis());
-        pokemon.add(new Savantis());
-        pokemon.add(new Vivantis());
-        pokemon.add(new Blastpole());
-        pokemon.add(new Wogfire());
-        pokemon.add(new Pyroad());
-        pokemon.add(new Aqualisk());
-        pokemon.add(new Pearlizz());
-        pokemon.add(new Reptide());
-        pokemon.add(new Whipcrat());
-        pokemon.add(new Ratonine());
-        pokemon.add(new Hogspur());
-        pokemon.add(new Knucquill());
-        pokemon.add(new Raddash());
-        pokemon.add(new Parceps());
-        pokemon.add(new Plastree());
-        pokemon.add(new Forestic());
-        pokemon.add(new Chemito());
-        pokemon.add(new Cyanidae());
-        pokemon.add(new Bagly());
-        pokemon.add(new Haggage());
-        pokemon.add(new Pooyo());
-        pokemon.add(new Poogurt());
-        pokemon.add(new Poolem());
-        pokemon.add(new Bulberry());
-        pokemon.add(new Florascent());
-        pokemon.add(new Gumuppi());
-        pokemon.add(new Finbred());
-        pokemon.add(new Tangrue());
-        pokemon.add(new Hangrove());
-        pokemon.add(new Eggue());
-        pokemon.add(new Vomelet());
-        pokemon.add(new Crawjabby());
-        pokemon.add(new Lobbercut());
-        pokemon.add(new Elekrab());
-        pokemon.add(new Krustinger());
-        pokemon.add(new Sakaline());
-        pokemon.add(new Amoebolt());
-        pokemon.add(new Dumpchin());
-        pokemon.add(new Urchimpale());
-        pokemon.add(new Schwincer());
-        pokemon.add(new Cleame());
-        pokemon.add(new Furiousc());
-        pokemon.add(new Clambat());
-        pokemon.add(new Mussuplex());
-        pokemon.add(new Maptus());
-        pokemon.add(new Diverguare());
-        pokemon.add(new Fungusite());
-        pokemon.add(new Controll());
-        pokemon.add(new Decomposite());
-        pokemon.add(new Dubalae());
-        pokemon.add(new Batterode());
-        pokemon.add(new Camelt());
-        pokemon.add(new Thermedary());
-        pokemon.add(new Womblock());
-        pokemon.add(new Harihary());
-        pokemon.add(new Wigfoot());
-        pokemon.add(new Fleesquach());
-        pokemon.add(new Conkid());
-        pokemon.add(new Bonkrete());
-        pokemon.add(new Khancrete());
-        pokemon.add(new Cemu());
-        pokemon.add(new Solkiwi());
-        pokemon.add(new Osstillery());
-        pokemon.add(new Figura());
-        pokemon.add(new Tofigur());
-//        pokemon.add(new Emdem()); Skipped
-//        pokemon.add(new Groney()); Skipped
-//        pokemon.add(new Meatburger()); Skipped
+        addNewPokemon(new WoggleJr());
+        addNewPokemon(new Plantis());
+        addNewPokemon(new Savantis());
+        addNewPokemon(new Vivantis());
+        addNewPokemon(new Blastpole());
+        addNewPokemon(new Wogfire());
+        addNewPokemon(new Pyroad());
+        addNewPokemon(new Aqualisk());
+        addNewPokemon(new Pearlizz());
+        addNewPokemon(new Reptide());
+        addNewPokemon(new Whipcrat());
+        addNewPokemon(new Ratonine());
+        addNewPokemon(new Hogspur());
+        addNewPokemon(new Knucquill());
+        addNewPokemon(new Raddash());
+        addNewPokemon(new Parceps());
+        addNewPokemon(new Plastree());
+        addNewPokemon(new Forestic());
+        addNewPokemon(new Chemito());
+        addNewPokemon(new Cyanidae());
+        addNewPokemon(new Bagly());
+        addNewPokemon(new Haggage());
+        addNewPokemon(new Pooyo());
+        addNewPokemon(new Poogurt());
+        addNewPokemon(new Poolem());
+        addNewPokemon(new Bulberry());
+        addNewPokemon(new Florascent());
+        addNewPokemon(new Gumuppi());
+        addNewPokemon(new Finbred());
+        addNewPokemon(new Tangrue());
+        addNewPokemon(new Hangrove());
+        addNewPokemon(new Eggue());
+        addNewPokemon(new Vomelet());
+        addNewPokemon(new Crawjabby());
+        addNewPokemon(new Lobbercut());
+        addNewPokemon(new Elekrab());
+        addNewPokemon(new Krustinger());
+        addNewPokemon(new Sakaline());
+        addNewPokemon(new Amoebolt());
+        addNewPokemon(new Dumpchin());
+        addNewPokemon(new Urchimpale());
+        addNewPokemon(new Schwincer());
+        addNewPokemon(new Cleame());
+        addNewPokemon(new Furiousc());
+        addNewPokemon(new Clambat());
+        addNewPokemon(new Mussuplex());
+        addNewPokemon(new Maptus());
+        addNewPokemon(new Diverguare());
+        addNewPokemon(new Fungusite());
+        addNewPokemon(new Controll());
+        addNewPokemon(new Decomposite());
+        addNewPokemon(new Dubalae());
+        addNewPokemon(new Batterode());
+        addNewPokemon(new Camelt());
+        addNewPokemon(new Thermedary());
+        addNewPokemon(new Womblock());
+        addNewPokemon(new Harihary());
+        addNewPokemon(new Wigfoot());
+        addNewPokemon(new Fleesquach());
+        addNewPokemon(new Conkid());
+        addNewPokemon(new Bonkrete());
+        addNewPokemon(new Khancrete());
+        addNewPokemon(new Cemu());
+        addNewPokemon(new Solkiwi());
+        addNewPokemon(new Osstillery());
+        addNewPokemon(new Figura());
+        addNewPokemon(new Tofigur());
+//        addNewPokemon(new Emdem()); Skipped
+//        addNewPokemon(new Groney()); Skipped
+//        addNewPokemon(new Meatburger()); Skipped
         addNewPokemon(new Velveil());
         addNewPokemon(new Lunartic());
         addNewPokemon(new Encyst());
@@ -224,16 +224,16 @@ public class Enriko extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Bysoderm());
         addNewPokemon(new Rubbison());
         addNewPokemon(new Microcosmic());
-//        pokemon.add(new Anexcell()); Member of line Not Finished
-//        pokemon.add(new Goolony()); Member of line Not Finished
-//        pokemon.add(new Stentorent()); Missing Art
-//        pokemon.add(new Sleetus()); Missing Stats Member of line Not Finished
+//        addNewPokemon(new Anexcell()); Member of line Not Finished
+//        addNewPokemon(new Goolony()); Member of line Not Finished
+//        addNewPokemon(new Stentorent()); Missing Art
+//        addNewPokemon(new Sleetus()); Missing Stats Member of line Not Finished
         addNewPokemon(new Artickey());
         addNewPokemon(new Mettlemaw());
         addNewPokemon(new Scourgeon());
         addNewPokemon(new Tenanchre());
         addNewPokemon(new Draginas());
-//        pokemon.add(new Fridgeraider()); Missing Art
+//        addNewPokemon(new Fridgeraider()); Missing Art
         addNewPokemon(new Biffka());
         addNewPokemon(new Nutzen());
 

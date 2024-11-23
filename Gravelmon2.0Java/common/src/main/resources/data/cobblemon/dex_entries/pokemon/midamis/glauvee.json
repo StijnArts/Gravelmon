@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:glauvee",
+  "speciesId": "cobblemon:glauvee",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

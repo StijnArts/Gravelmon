@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:denruu",
+  "speciesId": "cobblemon:denruu",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:corvisquire",
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Norheiman",
+      "unlockForms": [
+        "Norheiman"
+      ]
+    }
+  ]
+}

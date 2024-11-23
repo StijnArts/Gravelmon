@@ -1,0 +1,98 @@
+{
+  "implemented": true,
+  "name": "Thistelle",
+  "nationalPokedexNumber": 4165,
+  "primaryType": "poison",
+  "secondaryType": "grass",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 61,
+    "attack": 61,
+    "defence": 88,
+    "special_attack": 51,
+    "special_defence": 91,
+    "speed": 51
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:grassknot",
+    "1:bide",
+    "1:tackle",
+    "1:growth",
+    "5:absorb",
+    "8:megadrain",
+    "12:poisonpowder",
+    "12:stunspore",
+    "15:clearsmog",
+    "19:ingrain",
+    "22:takedown",
+    "26:gigadrain",
+    "29:sleeppowder",
+    "33:leechseed",
+    "36:synthesis",
+    "40:sludgebomb",
+    "43:energyball",
+    "47:ragepowder",
+    "50:worryseed",
+    "54:aromatherapy",
+    "57:solarbeam"  ],
+  "labels": [
+    "norheim",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.thistelle.desc"
+  ],
+  "baseScale": 0.13333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

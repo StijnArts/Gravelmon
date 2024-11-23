@@ -10,9 +10,9 @@ public class Soulstones extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new Galaxeon());
-        pokemon.add(new Prismeon());
-        pokemon.add(new Octaveon());
+        addNewPokemon(new Galaxeon());
+        addNewPokemon(new Prismeon());
+        addNewPokemon(new Octaveon());
     }
 
 }

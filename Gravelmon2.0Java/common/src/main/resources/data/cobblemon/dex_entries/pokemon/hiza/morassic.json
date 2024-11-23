@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:morassic",
+  "speciesId": "cobblemon:morassic",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

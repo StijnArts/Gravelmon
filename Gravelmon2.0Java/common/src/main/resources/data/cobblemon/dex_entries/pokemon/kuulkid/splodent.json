@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:splodent",
+  "speciesId": "cobblemon:splodent",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

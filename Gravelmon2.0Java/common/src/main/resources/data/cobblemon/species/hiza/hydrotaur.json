@@ -1,0 +1,141 @@
+{
+  "implemented": true,
+  "name": "Hydrotaur",
+  "nationalPokedexNumber": 2882,
+  "primaryType": "water",
+  "secondaryType": "fighting",
+  "abilities": [
+    "torrent",
+    "h:rockhead"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 108,
+    "defence": 82,
+    "special_attack": 70,
+    "special_defence": 107,
+    "speed": 83
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 245,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "water_1"
+  ],
+  "moves": [
+    "1:tailwhip",
+    "6:bubble",
+    "11:furyattack",
+    "16:focusenergy",
+    "19:whirlpool",
+    "20:poweruppunch",
+    "25:bubblebeam",
+    "27:aquatail",
+    "30:brickbreak",
+    "33:submission",
+    "36:ironhead",
+    "39:raindance",
+    "40:hydropump",
+    "44:headcharge",
+    "50:focuspunch",
+    "61:closecombat",
+    "tm:workup",
+    "tm:snowscape",
+    "tm:bulkup",
+    "tm:taunt",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:frustration",
+    "tm:earthquake",
+    "tm:return",
+    "tm:brickbreak",
+    "tm:rocktomb",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:lowsweep",
+    "tm:focusblast",
+    "tm:fling",
+    "tm:brutalswing",
+    "tm:smartstrike",
+    "tm:gigaimpact",
+    "tm:stoneedge",
+    "tm:bulldoze",
+    "tm:rockslide",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:wildcharge",
+    "tm:surf",
+    "tm:waterfall",
+    "tm:confide",
+    "tm:doubleedge",
+    "tm:headsmash",
+    "tm:fakeout",
+    "tm:counter",
+    "tm:focusblast",
+    "tm:waterspout",
+    "tm:aquajet"  ],
+  "labels": [
+    "hiza",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.hydrotaur.desc"
+  ],
+  "preEvolution": "bullfount",
+  "baseScale": 0.35000000000000003,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 3,
+    "speed": 0
+  },
+  "height": 21,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

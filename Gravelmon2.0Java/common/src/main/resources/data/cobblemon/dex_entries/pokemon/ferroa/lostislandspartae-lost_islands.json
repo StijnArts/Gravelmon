@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lostislandspartae-lost_islands",
+  "speciesId": "cobblemon:lostislandspartae",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Lostislands",
+      "unlockForms": [
+        "Lostislands"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -23,7 +23,7 @@ public class Ferroa extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Squalucid());
         addNewPokemon(new Chirunner());
         addNewPokemon(new Roaduner());
-//        pokemon.add(new Misthary()); Member of line Not Finished
+//        addNewPokemon(new Misthary()); Member of line Not Finished
         addNewPokemon(new Hoppoint());
         addNewPokemon(new Helmhide());
         addNewPokemon(new Durabarge());
@@ -140,8 +140,8 @@ public class Ferroa extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Lunarach());
         addNewPokemon(new Rotpot());
         addNewPokemon(new Woebehind());
-//        pokemon.add(new Choppup()); Member of line Not Finished
-//        pokemon.add(new Wolvaxe()); Missing Art
+//        addNewPokemon(new Choppup()); Member of line Not Finished
+//        addNewPokemon(new Wolvaxe()); Missing Art
         addNewPokemon(new Skuzzly());
         addNewPokemon(new Clockoo());
         addNewPokemon(new Nocturvian());
@@ -183,8 +183,8 @@ public class Ferroa extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Smolter());
         addNewPokemon(new Boilunk());
         addNewPokemon(new Crystabrawl());
-//        pokemon.add(new Gambowl()); Missing Art
-//        pokemon.add(new Gamphora()); Member of line Not Finished
+//        addNewPokemon(new Gambowl()); Missing Art
+//        addNewPokemon(new Gamphora()); Member of line Not Finished
         addNewPokemon(new Icicrawl());
         addNewPokemon(new Glacicrawl());
         addNewPokemon(new Velvedrake());
@@ -208,8 +208,8 @@ public class Ferroa extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Miserachnid());
         addNewPokemon(new Messoul());
         addNewPokemon(new Wastenaut());
-//        pokemon.add(new Draguma()); Member of line Not Finished
-//       pokemon.add(new Scivern()); Missing Art
+//        addNewPokemon(new Draguma()); Member of line Not Finished
+//       addNewPokemon(new Scivern()); Missing Art
         addNewPokemon(new Celestar());
         addNewPokemon(new Celestroid());
 

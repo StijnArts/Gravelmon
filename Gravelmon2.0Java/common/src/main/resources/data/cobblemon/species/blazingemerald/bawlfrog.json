@@ -1,0 +1,117 @@
+{
+  "implemented": true,
+  "name": "Bawlfrog",
+  "nationalPokedexNumber": 5111,
+  "primaryType": "water",
+  "secondaryType": "normal",
+  "abilities": [
+    "empathy"  ],
+  "baseStats": {
+    "hp": 190,
+    "attack": 38,
+    "defence": 78,
+    "special_attack": 83,
+    "special_defence": 88,
+    "speed": 43
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 200,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 51,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:watergun",
+    "5:lick",
+    "7:curse",
+    "11:faketears",
+    "17:uproar",
+    "24:whirlpool",
+    "32:flail",
+    "38:weepywail",
+    "43:painsplit",
+    "48:waterspout",
+    "tm:scald",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:veiledsky",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:freezedry",
+    "tm:irontail",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:shimmershot",
+    "tm:reflect",
+    "tm:sludgebomb",
+    "tm:gigaimpact",
+    "tm:facade",
+    "tm:secretpower",
+    "tm:rest",
+    "tm:surf",
+    "tm:flash",
+    "tm:waterfall",
+    "tm:dive",
+    "egg:followme"  ],
+  "labels": [
+    "blazing_emerald",
+    "joke",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.bawlfrog.desc"
+  ],
+  "baseScale": 0.16666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 226,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:carnivine",
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Seviian",
+      "unlockForms": [
+        "Seviian"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "implemented": true,
+  "name": "Matrimite",
+  "nationalPokedexNumber": 5663,
+  "primaryType": "bug",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 25,
+    "attack": 61,
+    "defence": 27,
+    "special_attack": 11,
+    "special_defence": 27,
+    "speed": 54
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:poisonsting",
+    "8:pursuit",
+    "11:scaryface",
+    "16:twineedle",
+    "19:beatup",
+    "22:focusenergy",
+    "25:flameburst",
+    "29:pinmissile",
+    "33:agility",
+    "37:uturn",
+    "41:suckerpunch",
+    "46:quickguard",
+    "51:flareblitz",
+    "56:fellstinger",
+    "62:finalgambit",
+    "68:overheat"  ],
+  "labels": [
+    "isiah",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.matrimite.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "matrimite_gremite",
+      "variant": "level_up",
+      "result": "gremite",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 15
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

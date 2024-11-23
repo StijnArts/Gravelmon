@@ -14,7 +14,7 @@ public class Norse extends drai.dev.data.games.registry.Game {
     @Override
     public void init() {
         super.init();
-        pokemon.forEach(pokemon1 -> {
+        newPokemon.forEach(pokemon1 -> {
             pokemon1.getLabels().remove(Label.RAIAN);
             pokemon1.getLabels().add(Label.NORSE);
         });
@@ -22,132 +22,132 @@ public class Norse extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new Loctus().setUsesBigModel());
-        pokemon.add(new Caclender().setUsesBigModel());
-        pokemon.add(new Okigon(new Stats(525, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPEED))).setUsesBigModel()); //Evolves into Vesgrass
-        pokemon.add(new Lavades().setUsesBigModel());
-        pokemon.add(new Hadcano().setUsesBigModel());
-        pokemon.add(new Surtacno(new Stats(525, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel()); //Evolves into Vesfire
-        pokemon.add(new Rayside().setUsesBigModel());
-        pokemon.add(new Royray().setUsesBigModel());
-        pokemon.add(new Aegiking(new Stats(525, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))).setUsesBigModel()); //Evolves into Veswater
+        addNewPokemon(new Loctus().setUsesBigModel());
+        addNewPokemon(new Caclender().setUsesBigModel());
+        addNewPokemon(new Okigon(new Stats(525, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPEED))).setUsesBigModel()); //Evolves into Vesgrass
+        addNewPokemon(new Lavades().setUsesBigModel());
+        addNewPokemon(new Hadcano().setUsesBigModel());
+        addNewPokemon(new Surtacno(new Stats(525, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel()); //Evolves into Vesfire
+        addNewPokemon(new Rayside().setUsesBigModel());
+        addNewPokemon(new Royray().setUsesBigModel());
+        addNewPokemon(new Aegiking(new Stats(525, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))).setUsesBigModel()); //Evolves into Veswater
 
-        pokemon.add(new Humu().setUsesBigModel());
-        pokemon.add(new Crodin().setUsesBigModel());
-        pokemon.add(new Crouinn(new Stats(494, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))).setUsesBigModel());
-        pokemon.add(new Ratatoby().setUsesBigModel());
-        pokemon.add(new Ratatosk(new Stats(440, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))).setUsesBigModel());
-        pokemon.add(new Larvaorg().setUsesBigModel());
-        pokemon.add(new Tanccoon().setUsesBigModel());
-        pokemon.add(new Tanshild(new Stats(450, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
-        pokemon.add(new Jotucoon().setUsesBigModel());
-        pokemon.add(new Manticorp(new Stats(450, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.SPEED, StatType.ATTACK))).setUsesBigModel());
-        pokemon.add(new Cloudbebe().setUsesBigModel());
-        pokemon.add(new Scandibe(new Stats(430, StatArchetype.FAST_SUPPORT, List.of(StatType.SPEED))).setUsesBigModel());
-        pokemon.add(new Elfachu(new Stats(460, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))).setUsesBigModel());
-        pokemon.add(new Roboar().setUsesBigModel());
-        pokemon.add(new Wisdisvini(new Stats(460, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel());
-        pokemon.add(new Daieenn(new Stats(590, StatArchetype.FAST_SPECIAL_WALL, List.of(StatType.SPECIAL_DEFENCE))).setUsesBigModel());
+        addNewPokemon(new Humu().setUsesBigModel());
+        addNewPokemon(new Crodin().setUsesBigModel());
+        addNewPokemon(new Crouinn(new Stats(494, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))).setUsesBigModel());
+        addNewPokemon(new Ratatoby().setUsesBigModel());
+        addNewPokemon(new Ratatosk(new Stats(440, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))).setUsesBigModel());
+        addNewPokemon(new Larvaorg().setUsesBigModel());
+        addNewPokemon(new Tanccoon().setUsesBigModel());
+        addNewPokemon(new Tanshild(new Stats(450, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
+        addNewPokemon(new Jotucoon().setUsesBigModel());
+        addNewPokemon(new Manticorp(new Stats(450, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.SPEED, StatType.ATTACK))).setUsesBigModel());
+        addNewPokemon(new Cloudbebe().setUsesBigModel());
+        addNewPokemon(new Scandibe(new Stats(430, StatArchetype.FAST_SUPPORT, List.of(StatType.SPEED))).setUsesBigModel());
+        addNewPokemon(new Elfachu(new Stats(460, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))).setUsesBigModel());
+        addNewPokemon(new Roboar().setUsesBigModel());
+        addNewPokemon(new Wisdisvini(new Stats(460, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel());
+        addNewPokemon(new Daieenn(new Stats(590, StatArchetype.FAST_SPECIAL_WALL, List.of(StatType.SPECIAL_DEFENCE))).setUsesBigModel());
 
-        pokemon.add(new Lizanir().setUsesBigModel());
-        pokemon.add(new Fafrotic().setUsesBigModel());
-        pokemon.add(new Fafreeze(new Stats(524, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel());//Evolves into Veselectric
-        pokemon.add(new Moroll().setUsesBigModel());
-        pokemon.add(new Megatro().setUsesBigModel());
-        pokemon.add(new Trolking(new Stats(524, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel());//Evolves into Vesground
-        pokemon.add(new Gloefa().setUsesBigModel());
-        pokemon.add(new Flotago().setUsesBigModel());
-        pokemon.add(new Highelfa(new Stats(524, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))).setUsesBigModel()); //Evolves into Vesflying
+        addNewPokemon(new Lizanir().setUsesBigModel());
+        addNewPokemon(new Fafrotic().setUsesBigModel());
+        addNewPokemon(new Fafreeze(new Stats(524, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel());//Evolves into Veselectric
+        addNewPokemon(new Moroll().setUsesBigModel());
+        addNewPokemon(new Megatro().setUsesBigModel());
+        addNewPokemon(new Trolking(new Stats(524, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel());//Evolves into Vesground
+        addNewPokemon(new Gloefa().setUsesBigModel());
+        addNewPokemon(new Flotago().setUsesBigModel());
+        addNewPokemon(new Highelfa(new Stats(524, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))).setUsesBigModel()); //Evolves into Vesflying
 
-        pokemon.add(new Floramic(new Stats(420, StatArchetype.FAST_SUPPORT, List.of(StatType.SPEED))).setUsesBigModel());
-        pokemon.add(new Garruff().setUsesBigModel());
-        pokemon.add(new Eitrgar(new Stats(440, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel());
-        pokemon.add(new Moeez().setUsesBigModel());
-        pokemon.add(new Froosorn(new Stats(450, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
-        pokemon.add(new Bereolf().setUsesBigModel());
-        pokemon.add(new Werowulf(new Stats(450, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel());
-        pokemon.add(new Dnaeon(new Stats(525, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))).setUsesBigModel());
-        pokemon.add(new Darteon(new Stats(525, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.SPEED))).setUsesBigModel());
-        pokemon.add(new Tiniweb().setUsesBigModel());
-        pokemon.add(new Rogider(new Stats(440, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.SPEED))).setUsesBigModel());
-        pokemon.add(new Lyngortos(new Stats(480, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.HP))).setUsesBigModel());
-        pokemon.add(new Whalyn(new Stats(480, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(StatType.HP))).setUsesBigModel());
-        pokemon.add(new Freyter(new Stats(490, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
-        pokemon.add(new Freytera(new Stats(490, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel());
-        pokemon.add(new Dvaleenn(new Stats(590, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel());
+        addNewPokemon(new Floramic(new Stats(420, StatArchetype.FAST_SUPPORT, List.of(StatType.SPEED))).setUsesBigModel());
+        addNewPokemon(new Garruff().setUsesBigModel());
+        addNewPokemon(new Eitrgar(new Stats(440, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel());
+        addNewPokemon(new Moeez().setUsesBigModel());
+        addNewPokemon(new Froosorn(new Stats(450, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
+        addNewPokemon(new Bereolf().setUsesBigModel());
+        addNewPokemon(new Werowulf(new Stats(450, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel());
+        addNewPokemon(new Dnaeon(new Stats(525, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))).setUsesBigModel());
+        addNewPokemon(new Darteon(new Stats(525, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.SPEED))).setUsesBigModel());
+        addNewPokemon(new Tiniweb().setUsesBigModel());
+        addNewPokemon(new Rogider(new Stats(440, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.SPEED))).setUsesBigModel());
+        addNewPokemon(new Lyngortos(new Stats(480, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.HP))).setUsesBigModel());
+        addNewPokemon(new Whalyn(new Stats(480, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(StatType.HP))).setUsesBigModel());
+        addNewPokemon(new Freyter(new Stats(490, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
+        addNewPokemon(new Freytera(new Stats(490, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel());
+        addNewPokemon(new Dvaleenn(new Stats(590, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel());
 
-        pokemon.add(new Bearmal().setUsesBigModel());
-        pokemon.add(new Claopaw().setUsesBigModel());
-        pokemon.add(new Velvetake(new Stats(525, StatArchetype.PHYSICAL_WALL, List.of(StatType.HP))).setUsesBigModel());//Evolves into Vesnormal
-        pokemon.add(new Draukid().setUsesBigModel());
-        pokemon.add(new Draudager().setUsesBigModel());
-        pokemon.add(new Drauking(new Stats(525, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel());//Evolves into Vesghost
-        pokemon.add(new Troboi().setUsesBigModel());
-        pokemon.add(new Yetroll().setUsesBigModel());
-        pokemon.add(new Drakotol(new Stats(525, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());//Evolves into Vesfighting
+        addNewPokemon(new Bearmal().setUsesBigModel());
+        addNewPokemon(new Claopaw().setUsesBigModel());
+        addNewPokemon(new Velvetake(new Stats(525, StatArchetype.PHYSICAL_WALL, List.of(StatType.HP))).setUsesBigModel());//Evolves into Vesnormal
+        addNewPokemon(new Draukid().setUsesBigModel());
+        addNewPokemon(new Draudager().setUsesBigModel());
+        addNewPokemon(new Drauking(new Stats(525, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel());//Evolves into Vesghost
+        addNewPokemon(new Troboi().setUsesBigModel());
+        addNewPokemon(new Yetroll().setUsesBigModel());
+        addNewPokemon(new Drakotol(new Stats(525, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());//Evolves into Vesfighting
 
-        pokemon.add(new Vedotel().setUsesBigModel());
-        pokemon.add(new Vedrawk(new Stats(470, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
-        pokemon.add(new Leafinx().setUsesBigModel());
-        pokemon.add(new Grelinx().setUsesBigModel());
-        pokemon.add(new Lynxedow(new Stats(530, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
-        pokemon.add(new Miscelliz().setUsesBigModel());
-        pokemon.add(new Bigabellz(new Stats(470, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER, List.of(StatType.HP))).setUsesBigModel());
-        pokemon.add(new Falrok().setUsesBigModel());
-        pokemon.add(new Cacorok().setUsesBigModel());
-        pokemon.add(new Centirok(new Stats(510, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
-        pokemon.add(new Mintrap(new Stats(310, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))).setUsesBigModel());
-        pokemon.add(new Smotrap(new Stats(310, StatArchetype.BULKY_SUPPORT, List.of(StatType.DEFENCE))).setUsesBigModel());
-        pokemon.add(new Needatrap(new Stats(310, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel());
-        pokemon.add(new Collectrap(new Stats(410, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
-        pokemon.add(new Rapnagon(new Stats(570, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
-        pokemon.add(new Duneerr(new Stats(590, StatArchetype.SPECIAL_WALL, List.of(StatType.SPECIAL_DEFENCE))).setUsesBigModel());
+        addNewPokemon(new Vedotel().setUsesBigModel());
+        addNewPokemon(new Vedrawk(new Stats(470, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
+        addNewPokemon(new Leafinx().setUsesBigModel());
+        addNewPokemon(new Grelinx().setUsesBigModel());
+        addNewPokemon(new Lynxedow(new Stats(530, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
+        addNewPokemon(new Miscelliz().setUsesBigModel());
+        addNewPokemon(new Bigabellz(new Stats(470, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER, List.of(StatType.HP))).setUsesBigModel());
+        addNewPokemon(new Falrok().setUsesBigModel());
+        addNewPokemon(new Cacorok().setUsesBigModel());
+        addNewPokemon(new Centirok(new Stats(510, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
+        addNewPokemon(new Mintrap(new Stats(310, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))).setUsesBigModel());
+        addNewPokemon(new Smotrap(new Stats(310, StatArchetype.BULKY_SUPPORT, List.of(StatType.DEFENCE))).setUsesBigModel());
+        addNewPokemon(new Needatrap(new Stats(310, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel());
+        addNewPokemon(new Collectrap(new Stats(410, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
+        addNewPokemon(new Rapnagon(new Stats(570, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
+        addNewPokemon(new Duneerr(new Stats(590, StatArchetype.SPECIAL_WALL, List.of(StatType.SPECIAL_DEFENCE))).setUsesBigModel());
 
-        pokemon.add(new Scalasaur().setUsesBigModel());
-        pokemon.add(new Toxisaur().setUsesBigModel());
-        pokemon.add(new Biosaur(new Stats(525, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))).setUsesBigModel());//Evolves into Vesfairy
-        pokemon.add(new Clawmander().setUsesBigModel());
-        pokemon.add(new Armoreleon().setUsesBigModel());
-        pokemon.add(new Knitzard(new Stats(534, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());//Evolves into Vessteel
-        pokemon.add(new Flortle().setUsesBigModel());
-        pokemon.add(new Emetortle().setUsesBigModel());
-        pokemon.add(new Carvtoise(new Stats(530, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel()); //Evolves into Vesdragon
+        addNewPokemon(new Scalasaur().setUsesBigModel());
+        addNewPokemon(new Toxisaur().setUsesBigModel());
+        addNewPokemon(new Biosaur(new Stats(525, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))).setUsesBigModel());//Evolves into Vesfairy
+        addNewPokemon(new Clawmander().setUsesBigModel());
+        addNewPokemon(new Armoreleon().setUsesBigModel());
+        addNewPokemon(new Knitzard(new Stats(534, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());//Evolves into Vessteel
+        addNewPokemon(new Flortle().setUsesBigModel());
+        addNewPokemon(new Emetortle().setUsesBigModel());
+        addNewPokemon(new Carvtoise(new Stats(530, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel()); //Evolves into Vesdragon
 
-        pokemon.add(new Lilcteria().setUsesBigModel());
-        pokemon.add(new Furirus(new Stats(460, StatArchetype.SPECIAL_WALL, List.of(StatType.SPECIAL_DEFENCE))).setUsesBigModel());
-        pokemon.add(new Duself().setUsesBigModel());
-        pokemon.add(new Dimelf(new Stats(450, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
-        pokemon.add(new Magelf(new Stats(450, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))).setUsesBigModel());
-        pokemon.add(new Stukin().setUsesBigModel());
-        pokemon.add(new Punkin(new Stats(440, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
-        pokemon.add(new Lygiest().setUsesBigModel());
-        pokemon.add(new Spectelyca(new Stats(470, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.SPEED))).setUsesBigModel());
-        pokemon.add(new Toxicotyl(new Stats(450, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
-        pokemon.add(new Eggower(new Stats(370, StatArchetype.BULKY_SUPPORT, List.of(StatType.DEFENCE))).setUsesBigModel());
-        pokemon.add(new Electroost(new Stats(460, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))).setUsesBigModel());
-        pokemon.add(new Hideklt().setUsesBigModel());
-        pokemon.add(new Furkeleton().setUsesBigModel());
-        pokemon.add(new Brutalice(new Stats(600, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel());
-        pokemon.add(new Durapbor(new Stats(590, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPEED))).setUsesBigModel());
+        addNewPokemon(new Lilcteria().setUsesBigModel());
+        addNewPokemon(new Furirus(new Stats(460, StatArchetype.SPECIAL_WALL, List.of(StatType.SPECIAL_DEFENCE))).setUsesBigModel());
+        addNewPokemon(new Duself().setUsesBigModel());
+        addNewPokemon(new Dimelf(new Stats(450, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
+        addNewPokemon(new Magelf(new Stats(450, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))).setUsesBigModel());
+        addNewPokemon(new Stukin().setUsesBigModel());
+        addNewPokemon(new Punkin(new Stats(440, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
+        addNewPokemon(new Lygiest().setUsesBigModel());
+        addNewPokemon(new Spectelyca(new Stats(470, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.SPEED))).setUsesBigModel());
+        addNewPokemon(new Toxicotyl(new Stats(450, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
+        addNewPokemon(new Eggower(new Stats(370, StatArchetype.BULKY_SUPPORT, List.of(StatType.DEFENCE))).setUsesBigModel());
+        addNewPokemon(new Electroost(new Stats(460, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))).setUsesBigModel());
+        addNewPokemon(new Hideklt().setUsesBigModel());
+        addNewPokemon(new Furkeleton().setUsesBigModel());
+        addNewPokemon(new Brutalice(new Stats(600, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel());
+        addNewPokemon(new Durapbor(new Stats(590, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPEED))).setUsesBigModel());
 
-        pokemon.add(new Uendrasil(new Stats(680, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.DEFENCE, StatType.ATTACK))).setUsesBigModel());
-        pokemon.add(new Uppdrasil(new Stats(680, StatArchetype.SPECIAL_WALL, List.of(StatType.SPECIAL_ATTACK, StatType.ATTACK))).setUsesBigModel());
-        pokemon.add(new Niddevour(new Stats(680, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))).setUsesBigModel());
-        pokemon.add(new Odirose(new Stats(600, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPEED))).setUsesBigModel());
-        pokemon.add(new Drostya(new Stats(600, StatArchetype.ALL_ROUND, List.of())).setUsesBigModel());
+        addNewPokemon(new Uendrasil(new Stats(680, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.DEFENCE, StatType.ATTACK))).setUsesBigModel());
+        addNewPokemon(new Uppdrasil(new Stats(680, StatArchetype.SPECIAL_WALL, List.of(StatType.SPECIAL_ATTACK, StatType.ATTACK))).setUsesBigModel());
+        addNewPokemon(new Niddevour(new Stats(680, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))).setUsesBigModel());
+        addNewPokemon(new Odirose(new Stats(600, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPEED))).setUsesBigModel());
+        addNewPokemon(new Drostya(new Stats(600, StatArchetype.ALL_ROUND, List.of())).setUsesBigModel());
 
-        pokemon.add(new Vesgrass(new Stats(580, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel());
-        pokemon.add(new Vesfire(new Stats(580, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPEED))).setUsesBigModel());
-        pokemon.add(new Veswater(new Stats(580, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
-        pokemon.add(new Veslectric(new Stats(580, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel());
-        pokemon.add(new Vesground(new Stats(580, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER, List.of(StatType.HP))).setUsesBigModel());
-        pokemon.add(new Vesflying(new Stats(580, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))).setUsesBigModel());
-        pokemon.add(new Vesnormal(new Stats(580, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.HP))).setUsesBigModel());
-        pokemon.add(new Vesghost(new Stats(580, StatArchetype.FAST_SUPPORT, List.of(StatType.SPECIAL_DEFENCE))).setUsesBigModel());
-        pokemon.add(new Vesfight(new Stats(580, StatArchetype.PHYSICAL_WALL, List.of(StatType.HP))).setUsesBigModel());
-        pokemon.add(new Vesdragon(new Stats(580, StatArchetype.BULKY_SUPPORT, List.of(StatType.HP))).setUsesBigModel());
-        pokemon.add(new Vessteel(new Stats(580, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK, StatType.DEFENCE))).setUsesBigModel());
-        pokemon.add(new Vesfairy(new Stats(580, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
+        addNewPokemon(new Vesgrass(new Stats(580, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel());
+        addNewPokemon(new Vesfire(new Stats(580, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPEED))).setUsesBigModel());
+        addNewPokemon(new Veswater(new Stats(580, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
+        addNewPokemon(new Veslectric(new Stats(580, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel());
+        addNewPokemon(new Vesground(new Stats(580, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER, List.of(StatType.HP))).setUsesBigModel());
+        addNewPokemon(new Vesflying(new Stats(580, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))).setUsesBigModel());
+        addNewPokemon(new Vesnormal(new Stats(580, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.HP))).setUsesBigModel());
+        addNewPokemon(new Vesghost(new Stats(580, StatArchetype.FAST_SUPPORT, List.of(StatType.SPECIAL_DEFENCE))).setUsesBigModel());
+        addNewPokemon(new Vesfight(new Stats(580, StatArchetype.PHYSICAL_WALL, List.of(StatType.HP))).setUsesBigModel());
+        addNewPokemon(new Vesdragon(new Stats(580, StatArchetype.BULKY_SUPPORT, List.of(StatType.HP))).setUsesBigModel());
+        addNewPokemon(new Vessteel(new Stats(580, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK, StatType.DEFENCE))).setUsesBigModel());
+        addNewPokemon(new Vesfairy(new Stats(580, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
 
     }
 }

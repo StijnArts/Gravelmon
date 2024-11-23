@@ -1,0 +1,93 @@
+{
+  "implemented": true,
+  "name": "Pelasquall",
+  "nationalPokedexNumber": 4106,
+  "primaryType": "water",
+  "secondaryType": "flying",
+  "abilities": [
+    "torrent",
+    "bigpecks",
+    "h:lightningrod"
+  ],
+  "baseStats": {
+    "hp": 87,
+    "attack": 95,
+    "defence": 75,
+    "special_attack": 108,
+    "special_defence": 90,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.87,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:bubble",
+    "6:peck",
+    "10:watergun",
+    "15:furyattack",
+    "19:aquajet",
+    "24:bite",
+    "28:featherdance",
+    "33:thunderbolt",
+    "37:airslash",
+    "42:bravebird"  ],
+  "labels": [
+    "norheim",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.pelasquall.desc"
+  ],
+  "preEvolution": "puffard",
+  "baseScale": 0.13333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

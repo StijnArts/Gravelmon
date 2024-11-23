@@ -91,7 +91,7 @@ public class Interregional extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Scrapiteer());
         addNewPokemon(new Cactabit());
         addNewPokemon(new Gymnozard());
-//        pokemon.add(new Lilytad()); Missing Art
+//        addNewPokemon(new Lilytad()); Missing Art
         addNewPokemon(new Tuxechik());
         addNewPokemon(new Juavarrior());
         addNewPokemon(new Luxereguin());
@@ -115,7 +115,7 @@ public class Interregional extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Acard());
         addNewPokemon(new Hiveum());
         addNewPokemon(new Gigantoid());
-//        pokemon.add(new Exwahyzee()); Missing Art
+//        addNewPokemon(new Exwahyzee()); Missing Art
         addNewPokemon(new Periyeti());
         addNewPokemon(new Magness());
         addNewPokemon(new Tyranntric());

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:rattataff",
+  "speciesId": "cobblemon:rattataff",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

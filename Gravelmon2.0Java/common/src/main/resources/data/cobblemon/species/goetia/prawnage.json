@@ -1,0 +1,82 @@
+{
+  "implemented": true,
+  "name": "Prawnage",
+  "nationalPokedexNumber": 8066,
+  "primaryType": "dragon",
+  "secondaryType": "fairy",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 74,
+    "attack": 39,
+    "defence": 64,
+    "special_attack": 92,
+    "special_defence": 88,
+    "speed": 64
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 116,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:scratch",
+    "1:disarmingvoice"  ],
+  "labels": [
+    "goetia",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.prawnage.desc"
+  ],
+  "preEvolution": "shromp",
+  "baseScale": 0.2333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 14,
+  "weight": 0,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

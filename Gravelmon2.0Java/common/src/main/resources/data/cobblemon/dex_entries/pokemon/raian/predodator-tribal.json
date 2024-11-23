@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:predodator-tribal",
+  "speciesId": "cobblemon:predodator",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Tribal",
+      "unlockForms": [
+        "Tribal"
+      ]
+    }
+  ],
+  "variations": []
+}

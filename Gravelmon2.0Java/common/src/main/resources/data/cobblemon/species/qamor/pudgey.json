@@ -1,0 +1,108 @@
+{
+  "implemented": true,
+  "name": "Pudgey",
+  "nationalPokedexNumber": 5376,
+  "primaryType": "normal",
+  "secondaryType": "flying",
+  "abilities": [
+    "gluttony"  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 45,
+    "defence": 75,
+    "special_attack": 40,
+    "special_defence": 50,
+    "speed": 20
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 33,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 50,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying",
+    "monster"
+  ],
+  "moves": [
+    "1:tackle",
+    "5:sandattack",
+    "9:gust",
+    "13:quickattack",
+    "17:whirlwind",
+    "21:twister",
+    "25:featherdance",
+    "29:agility",
+    "33:wingattack",
+    "37:roost",
+    "41:tailwind",
+    "45:aerialace",
+    "49:airslash",
+    "53:hurricane"  ],
+  "labels": [
+    "qamor",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.pudgey.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "pudgey_flappetite",
+      "variant": "level_up",
+      "result": "flappetite",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 33
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

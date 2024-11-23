@@ -1,0 +1,111 @@
+{
+  "implemented": true,
+  "name": "Purimodo",
+  "nationalPokedexNumber": 6213,
+  "primaryType": "ice",
+  "secondaryType": "fairy",
+  "abilities": [
+    "naturalcure",
+    "h:icebody"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 45,
+    "defence": 85,
+    "special_attack": 110,
+    "special_defence": 95,
+    "speed": 115
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": -1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 178,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy"
+  ],
+  "moves": [
+    "1:dazzlinggleam",
+    "1:powdersnow",
+    "1:harden",
+    "1:disarmingvoice",
+    "1:hail",
+    "6:hail",
+    "11:drainingkiss",
+    "15:mist",
+    "25:sweetscent",
+    "29:mirrorshot",
+    "34:recover",
+    "43:acidarmor",
+    "53:minimize",
+    "57:blizzard",
+    "62:sheercold",
+    "tm:waterpulse",
+    "tm:frostbite",
+    "tm:drainpunch",
+    "tm:frustration",
+    "tm:reflect",
+    "tm:cut",
+    "tm:strength",
+    "tutor:lick",
+    "tutor:sweetkiss",
+    "tutor:icywind",
+    "tutor:aurorabeam",
+    "tutor:charm",
+    "tutor:haze",
+    "tutor:iciclecrash"  ],
+  "labels": [
+    "deneb",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.purimodo.desc"
+  ],
+  "preEvolution": "switza",
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 12,
+  "weight": 243,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

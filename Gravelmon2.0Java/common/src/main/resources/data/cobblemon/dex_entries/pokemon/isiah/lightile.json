@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lightile",
+  "speciesId": "cobblemon:lightile",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

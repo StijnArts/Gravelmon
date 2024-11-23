@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:duomeleon",
+  "speciesId": "cobblemon:duomeleon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

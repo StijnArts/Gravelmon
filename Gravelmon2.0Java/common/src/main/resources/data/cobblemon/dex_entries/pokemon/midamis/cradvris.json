@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:cradvris",
+  "speciesId": "cobblemon:cradvris",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

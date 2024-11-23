@@ -1,0 +1,93 @@
+{
+  "implemented": true,
+  "name": "Calypstar",
+  "nationalPokedexNumber": 5354,
+  "primaryType": "ground",
+  "secondaryType": "water",
+  "abilities": [
+    "sapsipper"  ],
+  "baseStats": {
+    "hp": 112,
+    "attack": 72,
+    "defence": 72,
+    "special_attack": 72,
+    "special_defence": 72,
+    "speed": 52
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 158,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1",
+    "water_3"
+  ],
+  "moves": [
+    "5:tickle",
+    "9:watergun",
+    "12:stealthrock",
+    "16:bugbite",
+    "20:bubblebeam",
+    "26:mudbomb",
+    "30:payday",
+    "36:leechlife",
+    "39:dig",
+    "43:razorshell",
+    "47:liquidation",
+    "53:muddywater",
+    "58:mefirst",
+    "60:shellsmash",
+    "63:fissure"  ],
+  "labels": [
+    "qamor",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.calypstar.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

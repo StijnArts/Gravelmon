@@ -1,0 +1,105 @@
+{
+  "implemented": true,
+  "name": "Larmidge",
+  "nationalPokedexNumber": 1291,
+  "primaryType": "bug",
+  "secondaryType": "water",
+  "abilities": [
+    "swarm",
+    "h:adaptability"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 35,
+    "defence": 20,
+    "special_attack": 35,
+    "special_defence": 20,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 40,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:stringshot",
+    "7:bubble",
+    "9:bugbite",
+    "12:watersport",
+    "20:strugglebug",
+    "23:bubblebeam",
+    "26:endure",
+    "35:mudbomb",
+    "45:stickyweb",
+    "tm:stickyweb"  ],
+  "labels": [
+    "rica",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.larmidge.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "larmidge_dormidge",
+      "variant": "level_up",
+      "result": "dormidge",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 10
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 3,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

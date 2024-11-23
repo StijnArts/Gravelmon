@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gallade-avalossian",
+  "speciesId": "cobblemon:gallade",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Avalossian",
+      "unlockForms": [
+        "Avalossian"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:poppamo",
+  "speciesId": "cobblemon:poppamo",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

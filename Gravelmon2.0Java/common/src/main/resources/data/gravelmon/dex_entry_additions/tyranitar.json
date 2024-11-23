@@ -1,0 +1,23 @@
+{
+  "entryId": "cobblemon:tyranitar",
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "X",
+      "unlockForms": [
+        "X"
+      ]
+    },
+    {
+      "displayForm": "Armiran",
+      "unlockForms": [
+        "Armiran"
+      ]
+    }
+  ]
+}

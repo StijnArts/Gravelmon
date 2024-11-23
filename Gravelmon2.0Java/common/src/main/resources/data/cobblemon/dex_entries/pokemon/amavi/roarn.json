@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:roarn",
+  "speciesId": "cobblemon:roarn",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

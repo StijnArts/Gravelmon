@@ -1,0 +1,156 @@
+{
+  "implemented": true,
+  "name": "Conflagrace",
+  "nationalPokedexNumber": 6860,
+  "primaryType": "fire",
+  "secondaryType": "dragon",
+  "abilities": [
+    "earlybird",
+    "competitive",
+    "h:serenegrace"
+  ],
+  "baseStats": {
+    "hp": 63,
+    "attack": 71,
+    "defence": 63,
+    "special_attack": 114,
+    "special_defence": 109,
+    "speed": 110
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 186,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "1:peck",
+    "10:sing",
+    "13:captivate",
+    "17:flameburst",
+    "20:attract",
+    "24:twister",
+    "29:mysticalfire",
+    "35:burningjealousy",
+    "38:charm",
+    "41:airslash",
+    "47:lightscreen",
+    "52:morningsun",
+    "55:fierydance",
+    "65:dragondance",
+    "tm:dracometeor",
+    "tm:defog",
+    "tm:hypervoice",
+    "tm:refresh",
+    "tm:tailwind",
+    "tm:outrage",
+    "tm:mysticalfire",
+    "tm:skyattack",
+    "tm:magiccoat",
+    "tm:snore",
+    "tm:dragondance",
+    "tm:weatherball",
+    "tm:calmmind",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:roost",
+    "tm:safeguard",
+    "tm:solarbeam",
+    "tm:return",
+    "tm:airslash",
+    "tm:psychic",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:rest",
+    "tm:luckychant",
+    "tm:ancientpower",
+    "tm:signalbeam",
+    "tm:overheat",
+    "tm:curse",
+    "tm:willowisp",
+    "tm:flash",
+    "tm:gigaimpact",
+    "tm:dragonpulse",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:sleeptalk",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:naturalgift",
+    "tm:dazzlinggleam",
+    "tm:confide",
+    "tm:steelwing",
+    "tm:scorchingsands",
+    "tm:attract",
+    "tm:fly",
+    "tm:heatwave",
+    "tm:aircutter",
+    "tm:flareblitz",
+    "tm:spotlight",
+    "tm:dragonrage",
+    "tm:teeterdance",
+    "tm:sandattack",
+    "tm:bravebird"  ],
+  "labels": [
+    "novrai",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.conflagrace.desc"
+  ],
+  "preEvolution": "bonfird",
+  "baseScale": 0.18333333333333335,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

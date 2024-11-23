@@ -84,7 +84,6 @@ public class Pokemon {
     private Aspect formAdditionAspect;
     private Game game;
     private boolean usesBigModel = false;
-    private List<String> preferredBlocks = new ArrayList<>();
 
     public Pokemon(String name, Type primaryType, Type secondaryType, Stats stats, List<Ability> abilities, Ability hiddenAbility, int height, int weight, Stats evYield, int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup, int baseFriendship, int eggCycles, List<EggGroup> eggGroups, List<String> dexEntries, List<EvolutionEntry> evolutions, List<MoveLearnSetEntry> learnSet, List<Label> labels, int dropAmount, List<ItemDrop> drops, SpawnContext spawnContext, SpawnPool spawnPool, int minSpawnLevel, int maxSpawnLevel, double spawnWeight, List<SpawnCondition> spawnConditions, List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets, double baseScale, double portraitScale, List<PokemonForm> forms) {
         this(name, primaryType, stats, abilities, hiddenAbility, height, weight, evYield, catchRate, maleRatio, baseExperienceYield, experienceGroup, baseFriendship, eggCycles, eggGroups, dexEntries, evolutions, learnSet, labels, dropAmount, drops, spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight, spawnConditions, spawnAntiConditions, spawnPresets, baseScale, portraitScale, forms);
@@ -177,7 +176,7 @@ public class Pokemon {
         this.evYield = evYield;
         this.height = height;
         this.weight = weight;
-        this.spawnData.add(new PokemonSpawnData(spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight, spawnConditions, spawnAntiConditions, spawnPresets));
+        this.spawnData.add(new PokemonSpawnData(spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight, spawnConditions, spawnAntiConditions, spawnPresets, new ArrayList<>()));
         this.baseScale = Math.max((double) height / 10 / 6, 0.1);
         this.hitboxWidth = 6;
         this.hitboxHeight = 6;
@@ -208,6 +207,9 @@ public class Pokemon {
                     }
                     pokemonWithMoreThanTwoSpawnPresets.append("\n");
                 }
+                if(spawnData.preferredBlocks().isEmpty()){
+                    pokemonWithNoPreferredBlocks.add(pokemon);
+                }
             }
 
             if (pokemon.getEggGroups().isEmpty()) {
@@ -216,9 +218,6 @@ public class Pokemon {
             }
             if (pokemon.stats.isEmpty()) {
                 zeroStatPokemon.add(pokemon);
-            }
-            if(pokemon.getPreferredBlocks().isEmpty()){
-                pokemonWithNoPreferredBlocks.add(pokemon);
             }
 
             for (EvolutionEntry evolutionEntry : pokemon.getEvolutions()) {
@@ -337,7 +336,7 @@ public class Pokemon {
                             .filter(Objects::nonNull)
                             .min(Comparator.comparing(pokemon1 -> pokemon1.stats.getTotal()));
 
-                pokemonToCopy.ifPresent(value -> pokemon.preferredBlocks = new ArrayList<>(value.getPreferredBlocks()));
+                pokemonToCopy.ifPresent(value -> pokemon.spawnData.forEach(pokemonSpawnData -> pokemonSpawnData.preferredBlocks().addAll(value.spawnData.get(0).preferredBlocks())));
             }
         }
         for (var pokemon : sortedPokemonList) {
@@ -950,7 +949,7 @@ public class Pokemon {
     }
 
     public Pokemon setPreferredBlocks(List<String> preferredBlocks) {
-        this.preferredBlocks.addAll(preferredBlocks);
+        this.spawnData.stream().filter(pokemonSpawnData -> pokemonSpawnData.spawnContext() != SpawnContext.FISHING).forEach(pokemonSpawnData -> pokemonSpawnData.preferredBlocks().addAll(preferredBlocks));
         return this;
     }
 
@@ -961,14 +960,6 @@ public class Pokemon {
 
     public boolean usesBigModel() {
         return usesBigModel;
-    }
-
-    public List<String> getPreferredBlocks() {
-        return preferredBlocks;
-    }
-
-    public boolean hasWeightMultiplier() {
-        return !getPreferredBlocks().isEmpty();
     }
 
     public Boolean getCanWalkOnWater() {
@@ -996,7 +987,7 @@ public class Pokemon {
                 minLevel, maxLevel,
                 weight,
                 conditions,
-                antiConditions, new ArrayList<>()));
+                antiConditions, new ArrayList<>(), new ArrayList<>()));
         return this;
     }
 

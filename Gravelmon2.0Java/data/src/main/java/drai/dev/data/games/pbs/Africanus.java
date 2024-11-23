@@ -10,17 +10,17 @@ public class Africanus extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new Petiolis());
-        pokemon.add(new Virilis());
-        pokemon.add(new Lupercalis());
-        pokemon.add(new Harregg());
-        pokemon.add(new Igneagle());
-        pokemon.add(new Imperiavem());
-        pokemon.add(new Hipporos());
-        pokemon.add(new Equxic());
-        pokemon.add(new Marecampus());
-        pokemon.add(new Houndplut());
-        pokemon.add(new Fawniae());
+        addNewPokemon(new Petiolis());
+        addNewPokemon(new Virilis());
+        addNewPokemon(new Lupercalis());
+        addNewPokemon(new Harregg());
+        addNewPokemon(new Igneagle());
+        addNewPokemon(new Imperiavem());
+        addNewPokemon(new Hipporos());
+        addNewPokemon(new Equxic());
+        addNewPokemon(new Marecampus());
+        addNewPokemon(new Houndplut());
+        addNewPokemon(new Fawniae());
     }
 
 }

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tumbeaver",
+  "speciesId": "cobblemon:tumbeaver",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

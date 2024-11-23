@@ -1,0 +1,163 @@
+{
+   "target": "cobblemon:torracat",
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "fighting",
+  "secondaryType": "cosmic",
+  "abilities": [
+    "steadfast",
+    "scrappy",
+    "h:toughclaws"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 95,
+    "defence": 50,
+    "special_attack": 90,
+    "special_defence": 70,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "shoulderMountable": false,
+  "baseExperienceYield": 147,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "37:skyuppercut",
+    "14:honeclaws",
+    "33:meteormash",
+    "1:scratch",
+    "7:meditate",
+    "20:bite",
+    "29:doublekick",
+    "26:lowsweep",
+    "49:hammerarm",
+    "1:growl",
+    "10:machpunch",
+    "23:cometpunch",
+    "41:bulkup",
+    "tm:acrobatics",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:bulkup",
+    "tm:calmmind",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:cosmicpower",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:dragonclaw",
+    "tm:drainpunch",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:falseswipe",
+    "tm:firefang",
+    "tm:firepunch",
+    "tm:flareblitz",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:icefang",
+    "tm:icepunch",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:meteorbeam",
+    "tm:meteormash",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:playrough",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:swift",
+    "tm:taunt",
+    "tm:thunderfang",
+    "tm:thunderpunch",
+    "tm:toxic",
+    "tm:wildcharge",
+    "tm:wish",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochtorracat.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "torracat_epoch_incineroar",
+      "variant": "level_up",
+      "result": "epoch incineroar",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 34
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.11666666666666665,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 7,
+  "weight": 250,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch"
+  ]
+}

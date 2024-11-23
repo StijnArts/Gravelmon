@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:dashkite",
+  "speciesId": "cobblemon:dashkite",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

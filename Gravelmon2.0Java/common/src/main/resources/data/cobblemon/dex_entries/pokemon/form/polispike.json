@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:polispike",
+  "speciesId": "cobblemon:polispike",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

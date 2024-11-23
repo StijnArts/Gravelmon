@@ -1,0 +1,23 @@
+{
+  "entryId": "cobblemon:pichu",
+  "forms": [
+    {
+      "displayForm": "Norse",
+      "unlockForms": [
+        "Norse"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Delta",
+      "unlockForms": [
+        "Delta"
+      ]
+    }
+  ]
+}

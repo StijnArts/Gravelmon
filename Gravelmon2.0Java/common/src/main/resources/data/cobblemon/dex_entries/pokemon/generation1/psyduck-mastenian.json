@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:psyduck-mastenian",
+  "speciesId": "cobblemon:psyduck",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Mastenian",
+      "unlockForms": [
+        "Mastenian"
+      ]
+    }
+  ],
+  "variations": []
+}

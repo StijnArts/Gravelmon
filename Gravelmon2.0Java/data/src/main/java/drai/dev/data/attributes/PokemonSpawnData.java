@@ -6,5 +6,6 @@ import java.util.*;
 
 public record PokemonSpawnData(SpawnContext spawnContext, SpawnPool spawnPool, int minSpawnLevel, int maxSpawnLevel,
                                double spawnWeight, List<SpawnCondition> spawnConditions,
-                               List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets) {
+                               List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets, List<String> preferredBlocks) {
+
 }

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gnetic",
+  "speciesId": "cobblemon:gnetic",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

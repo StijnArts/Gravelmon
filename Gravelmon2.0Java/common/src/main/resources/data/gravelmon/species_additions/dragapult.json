@@ -1,0 +1,271 @@
+{
+   "target": "cobblemon:dragapult",
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "steel",
+  "secondaryType": "flying",
+  "abilities": [
+    "whitesmoke",
+    "infiltrator",
+    "h:weakarmor"
+  ],
+  "baseStats": {
+    "hp": 115,
+    "attack": 70,
+    "defence": 75,
+    "special_attack": 120,
+    "special_defence": 100,
+    "speed": 120
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "shoulderMountable": false,
+  "baseExperienceYield": 300,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "24:agility",
+    "63:hurricane",
+    "1:leer",
+    "1:airslash",
+    "4:supersonic",
+    "10:metalsound",
+    "16:aircutter",
+    "37:screech",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:bounce",
+    "tm:bravebird",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:coaching",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:crunch",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:echoedvoice",
+    "tm:electricterrain",
+    "tm:expandingforce",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:gyroball",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:hypervoice",
+    "tm:incinerate",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:magnetrise",
+    "tm:meteorbeam",
+    "tm:mirrorshot",
+    "tm:nastyplot",
+    "tm:nobleroar",
+    "tm:phantomforce",
+    "tm:playrough",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:risingvoltage",
+    "tm:round",
+    "tm:sleeptalk",
+    "tm:steelroller",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:swordsdance",
+    "tm:tailwind",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderfang",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:voltswitch",
+    "tm:weatherball",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochdragapult.desc"
+  ],
+  "baseScale": 0.5,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 30,
+  "weight": 500,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
+  "name": "Hoennian",
+  "primaryType": "fire",
+  "secondaryType": "dragon",
+  "abilities": [
+    "levitate",
+    "h:technician"
+  ],
+  "baseStats": {
+    "hp": 118,
+    "attack": 100,
+    "defence": 75,
+    "special_attack": 120,
+    "special_defence": 75,
+    "speed": 112
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "shoulderMountable": false,
+  "baseExperienceYield": 300,
+  "experienceGroup": "slow",
+  "eggCycles": 51,
+  "eggGroups": [
+    "amorphous",
+    "dragon"
+  ],
+  "moves": [
+    "tm:dragonclaw",
+    "tm:roar",
+    "tm:toxic",
+    "tm:pursuit",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:willowisp",
+    "tm:solarbeam",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:return",
+    "tm:shadowball",
+    "tm:shimmershot",
+    "tm:shockwave",
+    "tm:flamethrower",
+    "tm:sludgebomb",
+    "tm:fireblast",
+    "tm:gigaimpact",
+    "tm:facade",
+    "tm:secretpower",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:xscissor",
+    "tm:overheat",
+    "tm:cut",
+    "tm:fly",
+    "tm:strength",
+    "tm:flash",
+    "tm:rocksmash",
+    "egg:outrage",
+    "egg:revenge",
+    "1:ember",
+    "4:smokescreen",
+    "7:twister",
+    "14:bite",
+    "17:dragondance",
+    "26:sunnyday",
+    "34:dragonbreath",
+    "39:firespin",
+    "42:dragonpulse",
+    "46:flamewheel",
+    "50:devildarts",
+    "62:blastburn"  ],
+  "labels": [
+    "blazing_emerald",
+    "gen8",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.hoenniandragapult.desc"
+  ],
+  "preEvolution": "drakloak form=hoennian",
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 1.0,
+    "height": 1.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 32,
+  "weight": 889,
+  "aspects": ["hoennian"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch",
+"hoennian"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:pagune",
+  "speciesId": "cobblemon:pagune",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:kerbunsta",
+  "speciesId": "cobblemon:kerbunsta",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

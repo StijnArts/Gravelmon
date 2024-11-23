@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:chillade",
+  "speciesId": "cobblemon:chillade",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

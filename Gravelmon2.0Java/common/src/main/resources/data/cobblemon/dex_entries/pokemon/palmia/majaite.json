@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:majaite",
+  "speciesId": "cobblemon:majaite",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

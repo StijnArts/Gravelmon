@@ -1,0 +1,96 @@
+{
+  "implemented": true,
+  "name": "Malevoness",
+  "nationalPokedexNumber": 2284,
+  "primaryType": "dark",
+  "secondaryType": "bug",
+  "abilities": [
+    "compoundeyes",
+    "cutecharm",
+    "h:tintedlens"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 45,
+    "defence": 78,
+    "special_attack": 89,
+    "special_defence": 78,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:astonish",
+    "1:scratch",
+    "1:screech",
+    "1:quickattack",
+    "1:batonpass",
+    "6:quickattack",
+    "15:detect",
+    "19:pursuit",
+    "24:confuseray",
+    "28:feintattack",
+    "33:bugbuzz",
+    "37:agility",
+    "42:slash",
+    "46:xscissor",
+    "51:honeclaws",
+    "55:nightslash"  ],
+  "labels": [
+    "avoris",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.malevoness.desc"
+  ],
+  "baseScale": 0.2333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 14,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

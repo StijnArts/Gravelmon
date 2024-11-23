@@ -1,0 +1,95 @@
+{
+  "implemented": true,
+  "name": "Icigloo",
+  "nationalPokedexNumber": 5729,
+  "primaryType": "ice",
+  "abilities": [
+    "icebody",
+    "ironbarbs",
+    "h:aftermath"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 70,
+    "defence": 120,
+    "special_attack": 90,
+    "special_defence": 100,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 50,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 225,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:growl",
+    "1:tackle",
+    "5:powdersnow",
+    "10:mist",
+    "15:iceshard",
+    "20:snowscape",
+    "25:icywind",
+    "30:freezedry",
+    "35:afteryou",
+    "40:auroraveil",
+    "45:swagger",
+    "50:iciclecrash",
+    "55:sheercold"  ],
+  "labels": [
+    "isiah",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.icigloo.desc"
+  ],
+  "preEvolution": "dreice",
+  "baseScale": 0.2833333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 17,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

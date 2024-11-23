@@ -1,0 +1,158 @@
+{
+   "target": "cobblemon:beautifly",
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "bug",
+  "secondaryType": "psychic",
+  "abilities": [
+    "telepathy",
+    "psychicsurge"  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 50,
+    "defence": 70,
+    "special_attack": 90,
+    "special_defence": 90,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "shoulderMountable": false,
+  "baseExperienceYield": 178,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:harden",
+    "1:infestation",
+    "42:reflect",
+    "39:bugbuzz",
+    "36:extrasensory",
+    "42:lightscreen",
+    "14:hypnosis",
+    "30:signalbeam",
+    "1:psychicterrain",
+    "5:confusion",
+    "26:trick",
+    "53:quiverdance",
+    "10:strugglebug",
+    "22:silverwind",
+    "49:expandingforce",
+    "17:psybeam",
+    "1:stringshot",
+    "tm:airslash",
+    "tm:aromatherapy",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:bulletseed",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:drainingkiss",
+    "tm:dualwingbeat",
+    "tm:earthpower",
+    "tm:energyball",
+    "tm:focusblast",
+    "tm:furycutter",
+    "tm:gammaray",
+    "tm:gastroacid",
+    "tm:geomancy",
+    "tm:gigadrain",
+    "tm:grassyterrain",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:hivemind",
+    "tm:hurricane",
+    "tm:hypervoice",
+    "tm:leechlife",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:magicroom",
+    "tm:metronome",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:pollenpuff",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:synthesis",
+    "tm:tailglow",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:trickroom",
+    "tm:uturn",
+    "tm:weatherball",
+    "tm:wish",
+    "tm:wonderroom"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochbeautifly.desc"
+  ],
+  "baseScale": 0.16666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 284,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch"
+  ]
+}

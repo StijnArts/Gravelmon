@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:dambattoir",
+  "speciesId": "cobblemon:dambattoir",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

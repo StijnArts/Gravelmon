@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:furtune",
+  "speciesId": "cobblemon:furtune",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

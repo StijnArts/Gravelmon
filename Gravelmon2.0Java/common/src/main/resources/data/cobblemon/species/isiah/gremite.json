@@ -1,0 +1,111 @@
+{
+  "implemented": true,
+  "name": "Gremite",
+  "nationalPokedexNumber": 5664,
+  "primaryType": "bug",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 37,
+    "attack": 88,
+    "defence": 39,
+    "special_attack": 17,
+    "special_defence": 39,
+    "speed": 78
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:poisonsting",
+    "8:pursuit",
+    "11:scaryface",
+    "16:twineedle",
+    "19:beatup",
+    "22:focusenergy",
+    "25:flameburst",
+    "29:pinmissile",
+    "33:agility",
+    "37:uturn",
+    "41:suckerpunch",
+    "46:quickguard",
+    "51:flareblitz",
+    "56:fellstinger",
+    "62:finalgambit",
+    "68:overheat"  ],
+  "labels": [
+    "isiah",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.gremite.desc"
+  ],
+  "preEvolution": "matrimite",
+  "evolutions": [
+    {
+      "id": "gremite_militherm",
+      "variant": "level_up",
+      "result": "militherm",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 28
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:cuptus",
+  "speciesId": "cobblemon:cuptus",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

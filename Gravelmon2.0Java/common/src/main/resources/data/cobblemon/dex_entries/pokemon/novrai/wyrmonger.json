@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:wyrmonger",
+  "speciesId": "cobblemon:wyrmonger",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

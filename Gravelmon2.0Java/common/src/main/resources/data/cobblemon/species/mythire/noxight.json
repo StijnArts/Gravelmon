@@ -1,0 +1,137 @@
+{
+  "implemented": true,
+  "name": "Noxight",
+  "nationalPokedexNumber": 5161,
+  "primaryType": "poison",
+  "secondaryType": "flying",
+  "abilities": [
+    "intimidate",
+    "h:liquidooze"
+  ],
+  "baseStats": {
+    "hp": 120,
+    "attack": 40,
+    "defence": 40,
+    "special_attack": 120,
+    "special_defence": 65,
+    "speed": 100
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 170,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous",
+    "flying"
+  ],
+  "moves": [
+    "1:wingattack",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:attract",
+    "tm:bide",
+    "tm:bounce",
+    "tm:corrosivegas",
+    "tm:darkpulse",
+    "tm:defog",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:dreameater",
+    "tm:dualwingbeat",
+    "tm:explosion",
+    "tm:facade",
+    "tm:flash",
+    "tm:fly",
+    "tm:frustration",
+    "tm:grassknot",
+    "tm:gunkshot",
+    "tm:gyroball",
+    "tm:heatwave",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:icywind",
+    "tm:infestation",
+    "tm:lightscreen",
+    "tm:mimic",
+    "tm:nastyplot",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:rage",
+    "tm:raindance",
+    "tm:razorwind",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:roost",
+    "tm:round",
+    "tm:selfdestruct",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:torment",
+    "tm:toxic",
+    "tm:venoshock",
+    "tm:weatherball",
+    "tm:whirlwind"  ],
+  "labels": [
+    "mythire",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.noxight.desc"
+  ],
+  "baseScale": 0.2333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 14,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

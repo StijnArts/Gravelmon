@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:morgrem-novran",
+  "speciesId": "cobblemon:morgrem",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Novran",
+      "unlockForms": [
+        "Novran"
+      ]
+    }
+  ],
+  "variations": []
+}

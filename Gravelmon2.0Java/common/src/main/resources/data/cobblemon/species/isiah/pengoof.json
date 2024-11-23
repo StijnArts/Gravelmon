@@ -1,0 +1,96 @@
+{
+  "implemented": true,
+  "name": "Pengoof",
+  "nationalPokedexNumber": 5757,
+  "primaryType": "ice",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 77,
+    "attack": 44,
+    "defence": 95,
+    "special_attack": 98,
+    "special_defence": 75,
+    "speed": 33
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 50,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1",
+    "field"
+  ],
+  "moves": [
+    "1:pound",
+    "1:tickle",
+    "4:peck",
+    "7:powdersnow",
+    "11:swift",
+    "14:icywind",
+    "17:mist",
+    "21:tempest",
+    "24:doubleteam",
+    "27:aurorabeam",
+    "31:featherdance",
+    "34:tailwind",
+    "37:drillpeck",
+    "41:roost",
+    "44:blizzard",
+    "47:mirrormove"  ],
+  "labels": [
+    "isiah",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.pengoof.desc"
+  ],
+  "preEvolution": "slipole",
+  "baseScale": 0.2833333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 17,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

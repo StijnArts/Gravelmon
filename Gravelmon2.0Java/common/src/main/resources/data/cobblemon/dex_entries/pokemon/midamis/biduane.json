@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:biduane",
+  "speciesId": "cobblemon:biduane",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

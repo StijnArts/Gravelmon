@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:prinplup-interian",
+  "speciesId": "cobblemon:prinplup",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Interian",
+      "unlockForms": [
+        "Interian"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,92 @@
+{
+  "implemented": true,
+  "name": "Battanker",
+  "nationalPokedexNumber": 4353,
+  "primaryType": "fighting",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 108,
+    "attack": 92,
+    "defence": 128,
+    "special_attack": 38,
+    "special_defence": 83,
+    "speed": 46
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster",
+    "field"
+  ],
+  "moves": [
+    "1:bodypress",
+    "1:protect",
+    "1:spikes",
+    "1:magnitude",
+    "1:hammerarm",
+    "1:dragontail",
+    "1:bide",
+    "1:irontail",
+    "1:stomp",
+    "1:irondefense",
+    "1:lowsweep",
+    "1:wideguard"  ],
+  "labels": [
+    "crozoic",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.battanker.desc"
+  ],
+  "preEvolution": "battletail",
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 15,
+  "weight": 3600,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

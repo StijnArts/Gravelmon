@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:thermoni",
+  "speciesId": "cobblemon:thermoni",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:vivantis",
+  "speciesId": "cobblemon:vivantis",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:magester",
+  "speciesId": "cobblemon:magester",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

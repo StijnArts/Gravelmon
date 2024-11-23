@@ -1,0 +1,23 @@
+{
+  "entryId": "cobblemon:klink",
+  "forms": [
+    {
+      "displayForm": "Aromian",
+      "unlockForms": [
+        "Aromian"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Varitasian",
+      "unlockForms": [
+        "Varitasian"
+      ]
+    }
+  ]
+}

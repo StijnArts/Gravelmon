@@ -1,0 +1,334 @@
+{
+   "target": "cobblemon:turtwig",
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "dragon",
+  "secondaryType": "fire",
+  "abilities": [
+    "solidrock",
+    "flamebody",
+    "h:shellarmor"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 68,
+    "defence": 64,
+    "special_attack": 31,
+    "special_defence": 45,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster"
+  ],
+  "moves": [
+    "5:smokescreen",
+    "62:flareblitz",
+    "31:stealthrock",
+    "44:crunch",
+    "49:shellsmash",
+    "19:bulldoze",
+    "27:bodyslam",
+    "39:workup",
+    "12:tarshot",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:bulldoze",
+    "tm:burningjealousy",
+    "tm:closecombat",
+    "tm:crunch",
+    "tm:curse",
+    "tm:defog",
+    "tm:dracometeor",
+    "tm:dragonbreath",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:firefang",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:geomancy",
+    "tm:haze",
+    "tm:heatwave",
+    "tm:hiddenpower",
+    "tm:highhorsepower",
+    "tm:incinerate",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:meteorbeam",
+    "tm:mudslide",
+    "tm:mysticalfire",
+    "tm:outrage",
+    "tm:playrough",
+    "tm:powergem",
+    "tm:protect",
+    "tm:quicksand",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scaleshot",
+    "tm:scorchingsands",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:steelroller",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:taunt",
+    "tm:toxic",
+    "tm:willowisp",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:withdraw",
+    "egg:breakingswipe",
+    "egg:headbutt",
+    "egg:skullbash",
+    "egg:lavaplume",
+    "egg:eruption",
+    "egg:doubleedge",
+    "egg:amnesia",
+    "egg:heavyslam",
+    "egg:outrage",
+    "egg:heatcrash"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochturtwig.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "turtwig_epoch_grotle",
+      "variant": "level_up",
+      "result": "epoch grotle",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 18
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 102,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
+  "name": "Delta",
+  "primaryType": "water",
+  "secondaryType": "ground",
+  "abilities": [
+    "waterabsorb",
+    "h:swiftswim"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 68,
+    "defence": 64,
+    "special_attack": 45,
+    "special_defence": 55,
+    "speed": 31
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 45,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:tackle",
+    "5:withdraw",
+    "9:mudslap",
+    "13:razorshell",
+    "17:curse",
+    "21:mudshot",
+    "25:aquajet",
+    "29:aquaring",
+    "33:recover",
+    "37:waterfall",
+    "41:earthpower",
+    "45:waterspout",
+    "tm:bulldoze",
+    "tm:roar",
+    "tm:toxic",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:protect",
+    "tm:raindance",
+    "tm:frustration",
+    "tm:earthquake",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:sandstorm",
+    "tm:rocktomb",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:scald",
+    "tm:recycle",
+    "tm:focusblast",
+    "tm:brine",
+    "tm:payback",
+    "tm:stoneedge",
+    "tm:rockslide",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:achillesheel",
+    "tm:avalanche",
+    "tm:round",
+    "tm:captivate",
+    "tm:confide",
+    "tm:secretpower",
+    "tm:rocksmash",
+    "tm:surf",
+    "tm:waterfall",
+    "tm:dive",
+    "tutor:acid",
+    "tutor:ancientpower",
+    "tutor:aquatail",
+    "tutor:bodyslam",
+    "tutor:earthpower",
+    "tutor:endure",
+    "tutor:headbutt",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:mimic",
+    "tutor:mudslap",
+    "tutor:snore",
+    "tutor:stealthrock",
+    "tutor:waterpledge",
+    "tutor:waterpulse",
+    "tutor:whirlpool"  ],
+  "labels": [
+    "gen4",
+    "insurgence",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltaturtwig.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "turtwig_grotle_delta",
+      "variant": "level_up",
+      "result": "grotle delta",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 18
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 102,
+  "aspects": ["delta"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch",
+"delta"
+  ]
+}

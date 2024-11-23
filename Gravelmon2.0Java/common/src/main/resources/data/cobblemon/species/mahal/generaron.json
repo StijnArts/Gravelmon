@@ -1,0 +1,83 @@
+{
+  "implemented": true,
+  "name": "Generaron",
+  "nationalPokedexNumber": 7672,
+  "primaryType": "steel",
+  "secondaryType": "flying",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 54,
+    "defence": 134,
+    "special_attack": 35,
+    "special_defence": 46,
+    "speed": 81
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 99,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:metalclaw",
+    "1:peck",
+    "1:irondefense",
+    "1:bulkup",
+    "1:bulletpunch",
+    "1:quickattack"  ],
+  "labels": [
+    "mahal",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.generaron.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 0,
+  "weight": 0,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

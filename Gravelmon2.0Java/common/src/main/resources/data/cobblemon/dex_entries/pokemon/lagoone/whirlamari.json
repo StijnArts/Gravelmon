@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:whirlamari",
+  "speciesId": "cobblemon:whirlamari",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

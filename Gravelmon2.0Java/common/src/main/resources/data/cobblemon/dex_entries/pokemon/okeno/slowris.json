@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:slowris",
+  "speciesId": "cobblemon:slowris",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

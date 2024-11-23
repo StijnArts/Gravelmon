@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:aegle",
+  "speciesId": "cobblemon:aegle",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

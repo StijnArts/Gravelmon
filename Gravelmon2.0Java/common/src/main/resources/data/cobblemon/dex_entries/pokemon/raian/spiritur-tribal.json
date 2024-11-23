@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:spiritur-tribal",
+  "speciesId": "cobblemon:spiritur",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Tribal",
+      "unlockForms": [
+        "Tribal"
+      ]
+    }
+  ],
+  "variations": []
+}

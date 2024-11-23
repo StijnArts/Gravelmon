@@ -1,0 +1,130 @@
+{
+  "implemented": true,
+  "name": "Bashbee",
+  "nationalPokedexNumber": 7040,
+  "primaryType": "bug",
+  "abilities": [
+    "honeygather",
+    "swarm",
+    "h:immunity"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 40,
+    "defence": 50,
+    "special_attack": 40,
+    "special_defence": 60,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:supersonic",
+    "6:poisonsting",
+    "9:sweetscent",
+    "19:slam",
+    "23:naturalgift",
+    "31:signalbeam",
+    "35:uturn",
+    "45:bugbuzz",
+    "50:ragepowder",
+    "55:fellstinger",
+    "tm:facade",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:return",
+    "tm:round",
+    "tm:brickbreak",
+    "tm:uturn",
+    "tm:infestation",
+    "tm:signalbeam",
+    "tm:strugglebug",
+    "tm:leechlife",
+    "tm:aerialace",
+    "tm:acrobatics",
+    "tm:thief",
+    "tm:brutalswing",
+    "tm:poisonjab",
+    "tm:sludgebomb",
+    "tm:attract",
+    "tm:doubleteam",
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:workup",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:raindance",
+    "tm:sunnyday",
+    "tm:bulkup",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:toxic",
+    "tm:roost",
+    "tm:defog",
+    "tm:grassyterrain",
+    "tm:stunspore",
+    "tm:cottonspore",
+    "tm:beatup"  ],
+  "labels": [
+    "atlas",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.bashbee.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 3,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

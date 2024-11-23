@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:picant",
+  "speciesId": "cobblemon:picant",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

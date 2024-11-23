@@ -10,30 +10,30 @@ public class EternalForest extends Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new Smettle().setUsesBigModel());
-        pokemon.add(new Smyucca().setUsesBigModel());
-        pokemon.add(new Demonagave().setUsesBigModel());
-        pokemon.add(new Pachyball().setUsesBigModel());
-        pokemon.add(new Pachyndou().setUsesBigModel());
-        pokemon.add(new Pachyvory().setUsesBigModel());
-        pokemon.add(new Squini().setUsesBigModel());
-        pokemon.add(new Squinja().setUsesBigModel());
-        pokemon.add(new Squartial().setUsesBigModel());
-        pokemon.add(new Wormini().setUsesBigModel());
-        pokemon.add(new Wormeel().setUsesBigModel());
-        pokemon.add(new Malarva().setUsesBigModel());
-        pokemon.add(new Mosdeng().setUsesBigModel());
-        pokemon.add(new Mosboom().setUsesBigModel());
-        pokemon.add(new Antager().setUsesBigModel());
-        pokemon.add(new Antoldier().setUsesBigModel());
-        pokemon.add(new Hamerry().setUsesBigModel());
-        pokemon.add(new Hamysos().setUsesBigModel());
-        pokemon.add(new Goatanaa().setUsesBigModel());
-        pokemon.add(new Goaturly().setUsesBigModel());
-        pokemon.add(new Pomara().setUsesBigModel());
-        pokemon.add(new Dashean().setUsesBigModel());
-        pokemon.add(new Boonny().setUsesBigModel());
-        pokemon.add(new Rabball().setUsesBigModel());
-        pokemon.add(new Lagorite().setUsesBigModel());
+        addNewPokemon(new Smettle().setUsesBigModel());
+        addNewPokemon(new Smyucca().setUsesBigModel());
+        addNewPokemon(new Demonagave().setUsesBigModel());
+        addNewPokemon(new Pachyball().setUsesBigModel());
+        addNewPokemon(new Pachyndou().setUsesBigModel());
+        addNewPokemon(new Pachyvory().setUsesBigModel());
+        addNewPokemon(new Squini().setUsesBigModel());
+        addNewPokemon(new Squinja().setUsesBigModel());
+        addNewPokemon(new Squartial().setUsesBigModel());
+        addNewPokemon(new Wormini().setUsesBigModel());
+        addNewPokemon(new Wormeel().setUsesBigModel());
+        addNewPokemon(new Malarva().setUsesBigModel());
+        addNewPokemon(new Mosdeng().setUsesBigModel());
+        addNewPokemon(new Mosboom().setUsesBigModel());
+        addNewPokemon(new Antager().setUsesBigModel());
+        addNewPokemon(new Antoldier().setUsesBigModel());
+        addNewPokemon(new Hamerry().setUsesBigModel());
+        addNewPokemon(new Hamysos().setUsesBigModel());
+        addNewPokemon(new Goatanaa().setUsesBigModel());
+        addNewPokemon(new Goaturly().setUsesBigModel());
+        addNewPokemon(new Pomara().setUsesBigModel());
+        addNewPokemon(new Dashean().setUsesBigModel());
+        addNewPokemon(new Boonny().setUsesBigModel());
+        addNewPokemon(new Rabball().setUsesBigModel());
+        addNewPokemon(new Lagorite().setUsesBigModel());
     }
 }

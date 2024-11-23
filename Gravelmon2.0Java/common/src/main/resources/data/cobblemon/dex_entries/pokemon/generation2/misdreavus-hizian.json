@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:misdreavus-hizian",
+  "speciesId": "cobblemon:misdreavus",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Hizian",
+      "unlockForms": [
+        "Hizian"
+      ]
+    }
+  ],
+  "variations": []
+}

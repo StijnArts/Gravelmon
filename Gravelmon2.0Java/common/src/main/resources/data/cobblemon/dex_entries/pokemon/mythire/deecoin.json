@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:deecoin",
+  "speciesId": "cobblemon:deecoin",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

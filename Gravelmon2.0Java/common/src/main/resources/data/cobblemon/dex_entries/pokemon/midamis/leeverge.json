@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:leeverge",
+  "speciesId": "cobblemon:leeverge",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

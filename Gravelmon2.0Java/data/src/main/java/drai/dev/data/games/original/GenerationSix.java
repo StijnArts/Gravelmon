@@ -32,78 +32,78 @@ public class GenerationSix extends Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new AromianSpritzee("", Aspect.AROMIAN).setUsesBigModel()); //TODO
-        pokemon.add(new AromianAromatisse("", Aspect.AROMIAN).setUsesBigModel());
+        addNewPokemon(new AromianSpritzee("", Aspect.AROMIAN).setUsesBigModel()); //TODO
+        addNewPokemon(new AromianAromatisse("", Aspect.AROMIAN).setUsesBigModel());
 
-        pokemon.add(new MahalianBunnelby("", Aspect.MAHALIAN).setUsesBigModel()); //TODO
-        pokemon.add(new MahalianDiggersby("", Aspect.MAHALIAN).setUsesBigModel());
+        addNewPokemon(new MahalianBunnelby("", Aspect.MAHALIAN).setUsesBigModel()); //TODO
+        addNewPokemon(new MahalianDiggersby("", Aspect.MAHALIAN).setUsesBigModel());
 
-        pokemon.add(new IvrisianSpritzee("", Aspect.IVRISIAN).setUsesBigModel()); //TODO
-        pokemon.add(new IvrisianClauncher("", Aspect.IVRISIAN).setUsesBigModel());
+        addNewPokemon(new IvrisianSpritzee("", Aspect.IVRISIAN).setUsesBigModel()); //TODO
+        addNewPokemon(new IvrisianClauncher("", Aspect.IVRISIAN).setUsesBigModel());
 
-//        pokemon.add(new PastelianFlabebe("", Aspect.PASTELIAN)); TODO
-//        pokemon.add(new PastelianFloette("", Aspect.PASTELIAN));
+//        addNewPokemon(new PastelianFlabebe("", Aspect.PASTELIAN)); TODO
+//        addNewPokemon(new PastelianFloette("", Aspect.PASTELIAN));
 
-//        pokemon.add(new TheossianFlabebe("", Aspect.THEOSSIAN)); TODO
-//        pokemon.add(new TheossianFloette("", Aspect.THEOSSIAN));
-//        pokemon.add(new TheossianFlorges("", Aspect.THEOSSIAN));
+//        addNewPokemon(new TheossianFlabebe("", Aspect.THEOSSIAN)); TODO
+//        addNewPokemon(new TheossianFloette("", Aspect.THEOSSIAN));
+//        addNewPokemon(new TheossianFlorges("", Aspect.THEOSSIAN));
 
         registerSoulstonesVariants();
 
-        pokemon.add(new AfricanusanHonedge("", Aspect.AFRICANUSAN));
-        pokemon.add(new AfricanusanDoublade("", Aspect.AFRICANUSAN));
-        pokemon.add(new AfricanusanAegislash("", Aspect.AFRICANUSAN));
+        addNewPokemon(new AfricanusanHonedge("", Aspect.AFRICANUSAN));
+        addNewPokemon(new AfricanusanDoublade("", Aspect.AFRICANUSAN));
+        addNewPokemon(new AfricanusanAegislash("", Aspect.AFRICANUSAN));
 
-//       pokemon.add(new OttoranHonedge("", Aspect.OTTORAN)); TODO
-//       pokemon.add(new OttoranDoublade("", Aspect.OTTORAN));
+//       addNewPokemon(new OttoranHonedge("", Aspect.OTTORAN)); TODO
+//       addNewPokemon(new OttoranDoublade("", Aspect.OTTORAN));
 
-        pokemon.add(new LagoonanBinacle("", Aspect.LAGOONAN));
-        pokemon.add(new LagoonanBarbaracle("", Aspect.LAGOONAN));
+        addNewPokemon(new LagoonanBinacle("", Aspect.LAGOONAN));
+        addNewPokemon(new LagoonanBarbaracle("", Aspect.LAGOONAN));
 
-//        pokemon.add(new IonosianInkay("", Aspect.IONOSIAN));   Missing Art
+//        addNewPokemon(new IonosianInkay("", Aspect.IONOSIAN));   Missing Art
 
-        pokemon.add(new VesitanChespin("", Aspect.VESITAN));
-        pokemon.add(new VesitanQuilladin("", Aspect.VESITAN));
-        pokemon.add(new VesitanChesnaught("", Aspect.VESITAN));
-        pokemon.add(new VesitanFennekin("", Aspect.VESITAN));
-        pokemon.add(new VesitanBraixen("", Aspect.VESITAN));
-        pokemon.add(new VesitanDelphox("", Aspect.VESITAN));
-        pokemon.add(new VesitanFroakie("", Aspect.VESITAN));
-        pokemon.add(new VesitanFrogadier("", Aspect.VESITAN));
-        pokemon.add(new VesitanGreninja("", Aspect.VESITAN));
-        pokemon.add(new VesitanScatterbug("", Aspect.VESITAN));
-        pokemon.add(new VesitanSpewpa("", Aspect.VESITAN));
-        pokemon.add(new VesitanVivillon("", Aspect.VESITAN));
-        pokemon.add(new VesitanFlabebe("", Aspect.VESITAN));
-        pokemon.add(new VesitanFloette("", Aspect.VESITAN));
-        pokemon.add(new VesitanFlorges("", Aspect.VESITAN));
-        pokemon.add(new VesitanSkiddo("", Aspect.VESITAN));
-        pokemon.add(new VesitanGogoat("", Aspect.VESITAN));
-        pokemon.add(new VesitanSpritzee("", Aspect.VESITAN));
-        pokemon.add(new VesitanAromatisse("", Aspect.VESITAN));
-        pokemon.add(new VesitanSwirlix("", Aspect.VESITAN));
-        pokemon.add(new VesitanSlurpuff("", Aspect.VESITAN));
-        pokemon.add(new VesitanInkay("", Aspect.VESITAN));
-        pokemon.add(new VesitanMalamar("", Aspect.VESITAN));
-        pokemon.add(new VesitanBinacle("", Aspect.VESITAN));
-        pokemon.add(new VesitanBarbaracle("", Aspect.VESITAN));
-        pokemon.add(new VesitanSkrelp("", Aspect.VESITAN));
-        pokemon.add(new VesitanDragalge("", Aspect.VESITAN));
-        pokemon.add(new VesitanClauncher("", Aspect.VESITAN));
-        pokemon.add(new VesitanClawitzer("", Aspect.VESITAN));
-        pokemon.add(new VesitanHelioptile("", Aspect.VESITAN));
-        pokemon.add(new VesitanHeliolisk("", Aspect.VESITAN));
-        pokemon.add(new VesitanHawlucha("", Aspect.VESITAN));
-        pokemon.add(new VesitanDedenne("", Aspect.VESITAN));
-        pokemon.add(new VesitanGoomy("", Aspect.VESITAN));
-        pokemon.add(new VesitanSliggoo("", Aspect.VESITAN));
-        pokemon.add(new VesitanGoodra("", Aspect.VESITAN));
-        pokemon.add(new VesitanBergmite("", Aspect.VESITAN));
-        pokemon.add(new VesitanAvalugg("", Aspect.VESITAN));
-        pokemon.add(new VesitanNoibat("", Aspect.VESITAN));
-        pokemon.add(new VesitanNoivern("", Aspect.VESITAN));
-//        pokemon.add(new VesitanXerneas("", Aspect.VESITAN));
-//        pokemon.add(new VesitanYveltal("", Aspect.VESITAN));
+        addNewPokemon(new VesitanChespin("", Aspect.VESITAN));
+        addNewPokemon(new VesitanQuilladin("", Aspect.VESITAN));
+        addNewPokemon(new VesitanChesnaught("", Aspect.VESITAN));
+        addNewPokemon(new VesitanFennekin("", Aspect.VESITAN));
+        addNewPokemon(new VesitanBraixen("", Aspect.VESITAN));
+        addNewPokemon(new VesitanDelphox("", Aspect.VESITAN));
+        addNewPokemon(new VesitanFroakie("", Aspect.VESITAN));
+        addNewPokemon(new VesitanFrogadier("", Aspect.VESITAN));
+        addNewPokemon(new VesitanGreninja("", Aspect.VESITAN));
+        addNewPokemon(new VesitanScatterbug("", Aspect.VESITAN));
+        addNewPokemon(new VesitanSpewpa("", Aspect.VESITAN));
+        addNewPokemon(new VesitanVivillon("", Aspect.VESITAN));
+        addNewPokemon(new VesitanFlabebe("", Aspect.VESITAN));
+        addNewPokemon(new VesitanFloette("", Aspect.VESITAN));
+        addNewPokemon(new VesitanFlorges("", Aspect.VESITAN));
+        addNewPokemon(new VesitanSkiddo("", Aspect.VESITAN));
+        addNewPokemon(new VesitanGogoat("", Aspect.VESITAN));
+        addNewPokemon(new VesitanSpritzee("", Aspect.VESITAN));
+        addNewPokemon(new VesitanAromatisse("", Aspect.VESITAN));
+        addNewPokemon(new VesitanSwirlix("", Aspect.VESITAN));
+        addNewPokemon(new VesitanSlurpuff("", Aspect.VESITAN));
+        addNewPokemon(new VesitanInkay("", Aspect.VESITAN));
+        addNewPokemon(new VesitanMalamar("", Aspect.VESITAN));
+        addNewPokemon(new VesitanBinacle("", Aspect.VESITAN));
+        addNewPokemon(new VesitanBarbaracle("", Aspect.VESITAN));
+        addNewPokemon(new VesitanSkrelp("", Aspect.VESITAN));
+        addNewPokemon(new VesitanDragalge("", Aspect.VESITAN));
+        addNewPokemon(new VesitanClauncher("", Aspect.VESITAN));
+        addNewPokemon(new VesitanClawitzer("", Aspect.VESITAN));
+        addNewPokemon(new VesitanHelioptile("", Aspect.VESITAN));
+        addNewPokemon(new VesitanHeliolisk("", Aspect.VESITAN));
+        addNewPokemon(new VesitanHawlucha("", Aspect.VESITAN));
+        addNewPokemon(new VesitanDedenne("", Aspect.VESITAN));
+        addNewPokemon(new VesitanGoomy("", Aspect.VESITAN));
+        addNewPokemon(new VesitanSliggoo("", Aspect.VESITAN));
+        addNewPokemon(new VesitanGoodra("", Aspect.VESITAN));
+        addNewPokemon(new VesitanBergmite("", Aspect.VESITAN));
+        addNewPokemon(new VesitanAvalugg("", Aspect.VESITAN));
+        addNewPokemon(new VesitanNoibat("", Aspect.VESITAN));
+        addNewPokemon(new VesitanNoivern("", Aspect.VESITAN));
+//        addNewPokemon(new VesitanXerneas("", Aspect.VESITAN));
+//        addNewPokemon(new VesitanYveltal("", Aspect.VESITAN));
 
         addNewPokemon(new NovranSkrelp("Skrelp", Aspect.NOVRAN));
         addNewPokemon(new NovranDragalge("Dragalge", Aspect.NOVRAN));
@@ -116,7 +116,7 @@ public class GenerationSix extends Game {
         addNewPokemon(new HizianLitleo("Litleo", Aspect.HIZIAN));
         addNewPokemon(new HizianPyroar("Pyroar", Aspect.HIZIAN));
 
-//        pokemon.add(new AristosianLitleo(667)); Missing Art
+//        addNewPokemon(new AristosianLitleo(667)); Missing Art
 
 
         //Pokemon Insurgance
@@ -161,21 +161,21 @@ public class GenerationSix extends Game {
         addNewPokemon(new ArmiranGreninja("Greninja", Aspect.ARMIRAN));
 
         //Vanguard
-        pokemon.add(new AyreianSkiddo("", Aspect.AYREIAN));
-        pokemon.add(new AyreianGogoat("", Aspect.AYREIAN));
-        pokemon.add(new AyreianPhantump("", Aspect.AYREIAN));
-        pokemon.add(new AyreianTrevenant("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianSkiddo("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianGogoat("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianPhantump("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianTrevenant("", Aspect.AYREIAN));
 
-        pokemon.add(new AyreianFletchling("Fletchling", Aspect.AYREIAN));
-        pokemon.add(new AyreianFletchinder("Fletchinder", Aspect.AYREIAN));
-        pokemon.add(new AyreianPancham("Pancham", Aspect.AYREIAN));
-        pokemon.add(new AyreianPangoro("Pangoro", Aspect.AYREIAN));
-        pokemon.add(new AyreianCarbink("Carbink", Aspect.AYREIAN));
-        pokemon.add(new AyreianKlefki("Klefki", Aspect.AYREIAN));
-        pokemon.add(new AyreianPumpkaboo("Pumpkaboo", Aspect.AYREIAN));
-        pokemon.add(new AyreianGourgeist("Gourgeist", Aspect.AYREIAN));
-        pokemon.add(new AyreianNoibat("Noibat", Aspect.AYREIAN));
-        pokemon.add(new AyreianNoivern("Noivern", Aspect.AYREIAN));
+        addNewPokemon(new AyreianFletchling("Fletchling", Aspect.AYREIAN));
+        addNewPokemon(new AyreianFletchinder("Fletchinder", Aspect.AYREIAN));
+        addNewPokemon(new AyreianPancham("Pancham", Aspect.AYREIAN));
+        addNewPokemon(new AyreianPangoro("Pangoro", Aspect.AYREIAN));
+        addNewPokemon(new AyreianCarbink("Carbink", Aspect.AYREIAN));
+        addNewPokemon(new AyreianKlefki("Klefki", Aspect.AYREIAN));
+        addNewPokemon(new AyreianPumpkaboo("Pumpkaboo", Aspect.AYREIAN));
+        addNewPokemon(new AyreianGourgeist("Gourgeist", Aspect.AYREIAN));
+        addNewPokemon(new AyreianNoibat("Noibat", Aspect.AYREIAN));
+        addNewPokemon(new AyreianNoivern("Noivern", Aspect.AYREIAN));
 
         //Phoenix Rising
         addNewPokemon(new RelicSkiddo("Skiddo", Aspect.RELIC));
@@ -193,71 +193,71 @@ public class GenerationSix extends Game {
     }
 
     private void registerSoulstonesVariants() {
-        pokemon.add(new EpochFennekin("", Aspect.EPOCH));
-        pokemon.add(new EpochBraixen("", Aspect.EPOCH));
-        pokemon.add(new EpochDelphox("", Aspect.EPOCH));
-        pokemon.add(new EpochChespin("", Aspect.EPOCH));
-        pokemon.add(new EpochQuilladin("", Aspect.EPOCH));
-        pokemon.add(new EpochChesnaught("", Aspect.EPOCH));
-        pokemon.add(new EpochFroakie("", Aspect.EPOCH));
-        pokemon.add(new EpochFrogadier("", Aspect.EPOCH));
-        pokemon.add(new EpochGreninja("", Aspect.EPOCH));
+        addNewPokemon(new EpochFennekin("", Aspect.EPOCH));
+        addNewPokemon(new EpochBraixen("", Aspect.EPOCH));
+        addNewPokemon(new EpochDelphox("", Aspect.EPOCH));
+        addNewPokemon(new EpochChespin("", Aspect.EPOCH));
+        addNewPokemon(new EpochQuilladin("", Aspect.EPOCH));
+        addNewPokemon(new EpochChesnaught("", Aspect.EPOCH));
+        addNewPokemon(new EpochFroakie("", Aspect.EPOCH));
+        addNewPokemon(new EpochFrogadier("", Aspect.EPOCH));
+        addNewPokemon(new EpochGreninja("", Aspect.EPOCH));
 
-        pokemon.add(new EpochFletchling("", Aspect.EPOCH));
-        pokemon.add(new EpochFletchinder("", Aspect.EPOCH));
-        pokemon.add(new EpochTalonflame("", Aspect.EPOCH));
-        pokemon.add(new EpochBergmite("", Aspect.EPOCH));
-        pokemon.add(new EpochAvalugg("", Aspect.EPOCH));
-        pokemon.add(new EpochAmaura("", Aspect.EPOCH));
-        pokemon.add(new EpochAurorus("", Aspect.EPOCH));
-        pokemon.add(new EpochSkrelp("", Aspect.EPOCH));
-        pokemon.add(new EpochDragalge("", Aspect.EPOCH));
-        pokemon.add(new EpochLitleo("", Aspect.EPOCH));
-        pokemon.add(new EpochPyroar("", Aspect.EPOCH));
-        pokemon.add(new EpochSkiddo("", Aspect.EPOCH));
-        pokemon.add(new EpochGogoat("", Aspect.EPOCH));
-        pokemon.add(new EpochSwirlix("", Aspect.EPOCH));
-        pokemon.add(new EpochSlurpuff("", Aspect.EPOCH));
-        pokemon.add(new EpochSylveon("", Aspect.EPOCH));
-        pokemon.add(new EpochNoibat("", Aspect.EPOCH));
-        pokemon.add(new EpochNoivern("", Aspect.EPOCH));
-        pokemon.add(new EpochSpritzee("", Aspect.EPOCH));
-        pokemon.add(new EpochAromatisse("", Aspect.EPOCH));
-        pokemon.add(new EpochFurfrou("", Aspect.EPOCH));
-        pokemon.add(new EpochHonedge("", Aspect.EPOCH));
-        pokemon.add(new EpochHonedgeOne("", Aspect.EPOCH));
-        pokemon.add(new EpochHonedgeTwo("", Aspect.EPOCH));
-        pokemon.add(new EpochHonedgeThree("", Aspect.EPOCH));
-        pokemon.add(new EpochDoublade("", Aspect.EPOCH));
-        pokemon.add(new EpochDoubladeOne("", Aspect.EPOCH));
-        pokemon.add(new EpochDoubladeTwo("", Aspect.EPOCH));
-        pokemon.add(new EpochDoubladeThree("", Aspect.EPOCH));
-        pokemon.add(new EpochAegislash("", Aspect.EPOCH));
-        pokemon.add(new EpochAegislashOne("", Aspect.EPOCH));
-        pokemon.add(new EpochAegislashTwo("", Aspect.EPOCH));
-        pokemon.add(new EpochAegislashThree("", Aspect.EPOCH));
-        pokemon.add(new EpochEspurr("", Aspect.EPOCH));
-        pokemon.add(new EpochMeowstic("", Aspect.EPOCH));
-        pokemon.add(new EpochKlefki("", Aspect.EPOCH));
-        pokemon.add(new EpochTyrunt("", Aspect.EPOCH));
-        pokemon.add(new EpochTyrantrum("", Aspect.EPOCH));
-        pokemon.add(new EpochSpritzeeOne("", Aspect.EPOCH));
-        pokemon.add(new EpochAromatisseOne("", Aspect.EPOCH));
-        pokemon.add(new EpochCarbink("", Aspect.EPOCH));
-        pokemon.add(new EpochGoomy("", Aspect.EPOCH));
-        pokemon.add(new EpochSliggoo("", Aspect.EPOCH));
-        pokemon.add(new EpochGoodra("", Aspect.EPOCH));
-        pokemon.add(new EpochBinacle("", Aspect.EPOCH));
-        pokemon.add(new EpochBarbaracle("", Aspect.EPOCH));
-        pokemon.add(new EpochPhantump("", Aspect.EPOCH));
-        pokemon.add(new EpochTrevenant("", Aspect.EPOCH));
-        pokemon.add(new EpochHelioptile("", Aspect.EPOCH));
-        pokemon.add(new EpochHeliolisk("", Aspect.EPOCH));
-        pokemon.add(new EpochDedenne("", Aspect.EPOCH));
-        pokemon.add(new EpochFlabebe("", Aspect.EPOCH));
-        pokemon.add(new EpochFloette("", Aspect.EPOCH));
-        pokemon.add(new EpochFlorges("", Aspect.EPOCH));
-        pokemon.add(new EpochHoopa("", Aspect.EPOCH));
+        addNewPokemon(new EpochFletchling("", Aspect.EPOCH));
+        addNewPokemon(new EpochFletchinder("", Aspect.EPOCH));
+        addNewPokemon(new EpochTalonflame("", Aspect.EPOCH));
+        addNewPokemon(new EpochBergmite("", Aspect.EPOCH));
+        addNewPokemon(new EpochAvalugg("", Aspect.EPOCH));
+        addNewPokemon(new EpochAmaura("", Aspect.EPOCH));
+        addNewPokemon(new EpochAurorus("", Aspect.EPOCH));
+        addNewPokemon(new EpochSkrelp("", Aspect.EPOCH));
+        addNewPokemon(new EpochDragalge("", Aspect.EPOCH));
+        addNewPokemon(new EpochLitleo("", Aspect.EPOCH));
+        addNewPokemon(new EpochPyroar("", Aspect.EPOCH));
+        addNewPokemon(new EpochSkiddo("", Aspect.EPOCH));
+        addNewPokemon(new EpochGogoat("", Aspect.EPOCH));
+        addNewPokemon(new EpochSwirlix("", Aspect.EPOCH));
+        addNewPokemon(new EpochSlurpuff("", Aspect.EPOCH));
+        addNewPokemon(new EpochSylveon("", Aspect.EPOCH));
+        addNewPokemon(new EpochNoibat("", Aspect.EPOCH));
+        addNewPokemon(new EpochNoivern("", Aspect.EPOCH));
+        addNewPokemon(new EpochSpritzee("", Aspect.EPOCH));
+        addNewPokemon(new EpochAromatisse("", Aspect.EPOCH));
+        addNewPokemon(new EpochFurfrou("", Aspect.EPOCH));
+        addNewPokemon(new EpochHonedge("", Aspect.EPOCH));
+        addNewPokemon(new EpochHonedgeOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochHonedgeTwo("", Aspect.EPOCH));
+        addNewPokemon(new EpochHonedgeThree("", Aspect.EPOCH));
+        addNewPokemon(new EpochDoublade("", Aspect.EPOCH));
+        addNewPokemon(new EpochDoubladeOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochDoubladeTwo("", Aspect.EPOCH));
+        addNewPokemon(new EpochDoubladeThree("", Aspect.EPOCH));
+        addNewPokemon(new EpochAegislash("", Aspect.EPOCH));
+        addNewPokemon(new EpochAegislashOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochAegislashTwo("", Aspect.EPOCH));
+        addNewPokemon(new EpochAegislashThree("", Aspect.EPOCH));
+        addNewPokemon(new EpochEspurr("", Aspect.EPOCH));
+        addNewPokemon(new EpochMeowstic("", Aspect.EPOCH));
+        addNewPokemon(new EpochKlefki("", Aspect.EPOCH));
+        addNewPokemon(new EpochTyrunt("", Aspect.EPOCH));
+        addNewPokemon(new EpochTyrantrum("", Aspect.EPOCH));
+        addNewPokemon(new EpochSpritzeeOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochAromatisseOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochCarbink("", Aspect.EPOCH));
+        addNewPokemon(new EpochGoomy("", Aspect.EPOCH));
+        addNewPokemon(new EpochSliggoo("", Aspect.EPOCH));
+        addNewPokemon(new EpochGoodra("", Aspect.EPOCH));
+        addNewPokemon(new EpochBinacle("", Aspect.EPOCH));
+        addNewPokemon(new EpochBarbaracle("", Aspect.EPOCH));
+        addNewPokemon(new EpochPhantump("", Aspect.EPOCH));
+        addNewPokemon(new EpochTrevenant("", Aspect.EPOCH));
+        addNewPokemon(new EpochHelioptile("", Aspect.EPOCH));
+        addNewPokemon(new EpochHeliolisk("", Aspect.EPOCH));
+        addNewPokemon(new EpochDedenne("", Aspect.EPOCH));
+        addNewPokemon(new EpochFlabebe("", Aspect.EPOCH));
+        addNewPokemon(new EpochFloette("", Aspect.EPOCH));
+        addNewPokemon(new EpochFlorges("", Aspect.EPOCH));
+        addNewPokemon(new EpochHoopa("", Aspect.EPOCH));
 
     }
 }

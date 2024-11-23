@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:bonemancer",
+  "speciesId": "cobblemon:bonemancer",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

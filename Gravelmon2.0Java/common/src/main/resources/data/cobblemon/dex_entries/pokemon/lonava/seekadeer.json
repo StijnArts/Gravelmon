@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:seekadeer",
+  "speciesId": "cobblemon:seekadeer",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

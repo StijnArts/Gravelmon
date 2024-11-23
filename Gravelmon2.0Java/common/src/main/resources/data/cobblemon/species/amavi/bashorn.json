@@ -1,0 +1,124 @@
+{
+  "implemented": true,
+  "name": "Bashorn",
+  "nationalPokedexNumber": 7158,
+  "primaryType": "grass",
+  "secondaryType": "ground",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 95,
+    "defence": 105,
+    "special_attack": 40,
+    "special_defence": 55,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.75,
+  "shoulderMountable": false,
+  "baseExperienceYield": 145,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass",
+    "monster"
+  ],
+  "moves": [
+    "1:bonemerang",
+    "1:vinewhip",
+    "1:razorleaf",
+    "1:bodyslam",
+    "35:amnesia",
+    "43:seedbomb",
+    "50:bonerush",
+    "56:spikes",
+    "62:fissure",
+    "tm:dig",
+    "tm:dragonclaw",
+    "tm:roar",
+    "tm:bulkup",
+    "tm:bulletseed",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:gigadrain",
+    "tm:safeguard",
+    "tm:solarbeam",
+    "tm:irontail",
+    "tm:doubleteam",
+    "tm:return",
+    "tm:reflect",
+    "tm:rest",
+    "tm:attract",
+    "tm:facade"  ],
+  "labels": [
+    "amavi",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.bashorn.desc"
+  ],
+  "preEvolution": "ankleaf",
+  "evolutions": [
+    {
+      "id": "bashorn_tanklyo",
+      "variant": "level_up",
+      "result": "tanklyo",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 12,
+  "weight": 544,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

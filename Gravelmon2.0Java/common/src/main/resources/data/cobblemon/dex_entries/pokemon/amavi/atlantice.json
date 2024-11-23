@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:atlantice",
+  "speciesId": "cobblemon:atlantice",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:skeejack",
+  "speciesId": "cobblemon:skeejack",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

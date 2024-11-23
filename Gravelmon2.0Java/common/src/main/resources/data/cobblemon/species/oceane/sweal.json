@@ -1,0 +1,96 @@
+{
+  "implemented": true,
+  "name": "Sweal",
+  "nationalPokedexNumber": 2311,
+  "primaryType": "normal",
+  "abilities": [
+    "furcoat"  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 30,
+    "defence": 20,
+    "special_attack": 30,
+    "special_defence": 60,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 220,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 49,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:pound",
+    "1:growl",
+    "1:afteryou",
+    "1:cottonguard"  ],
+  "labels": [
+    "oceane",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.sweal.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "sweal_fleezer",
+      "variant": "level_up",
+      "result": "fleezer",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 34
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

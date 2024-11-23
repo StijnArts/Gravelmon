@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:corobelisk",
+  "speciesId": "cobblemon:corobelisk",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,85 @@
+{
+  "implemented": true,
+  "name": "Oloraudio",
+  "nationalPokedexNumber": 4340,
+  "primaryType": "psychic",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 122,
+    "attack": 36,
+    "defence": 80,
+    "special_attack": 88,
+    "special_defence": 103,
+    "speed": 44
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 65,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "dragon"
+  ],
+  "moves": [
+    "1:psychicnoise",
+    "1:supersonic",
+    "1:boomburst",
+    "1:highhorsepower",
+    "1:uproar",
+    "1:sing",
+    "1:stomp",
+    "1:psyshock"  ],
+  "labels": [
+    "crozoic",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.oloraudio.desc"
+  ],
+  "baseScale": 0.3833333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 23,
+  "weight": 2907,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

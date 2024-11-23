@@ -10,49 +10,49 @@ public class Mushi extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new Bewilt());
-        pokemon.add(new Twirleef());
-        pokemon.add(new Pestrina());
-        pokemon.add(new Pyroki());
-        pokemon.add(new Formidet());
-        pokemon.add(new Formillant());
-        pokemon.add(new Micronaut());
-        pokemon.add(new Divernaut());
-        pokemon.add(new Tarpress());
-        pokemon.add(new Kawaiiko());
-        pokemon.add(new Moffluffle());
-        pokemon.add(new Hedodan());
-        pokemon.add(new Noxisekt());
+        addNewPokemon(new Bewilt());
+        addNewPokemon(new Twirleef());
+        addNewPokemon(new Pestrina());
+        addNewPokemon(new Pyroki());
+        addNewPokemon(new Formidet());
+        addNewPokemon(new Formillant());
+        addNewPokemon(new Micronaut());
+        addNewPokemon(new Divernaut());
+        addNewPokemon(new Tarpress());
+        addNewPokemon(new Kawaiiko());
+        addNewPokemon(new Moffluffle());
+        addNewPokemon(new Hedodan());
+        addNewPokemon(new Noxisekt());
 
         //done
-        pokemon.add(new Minicoo());
-        pokemon.add(new Nimbuzz());
-        pokemon.add(new Shipilla());
-        pokemon.add(new Koucoon());
-        pokemon.add(new Brahmbash());
-        pokemon.add(new Bramoth());
-        pokemon.add(new Bumbuzz());
+        addNewPokemon(new Minicoo());
+        addNewPokemon(new Nimbuzz());
+        addNewPokemon(new Shipilla());
+        addNewPokemon(new Koucoon());
+        addNewPokemon(new Brahmbash());
+        addNewPokemon(new Bramoth());
+        addNewPokemon(new Bumbuzz());
 
-        pokemon.add(new Kimfoo());
-        pokemon.add(new Kamabukee());
+        addNewPokemon(new Kimfoo());
+        addNewPokemon(new Kamabukee());
         //done
-        pokemon.add(new Convice());
+        addNewPokemon(new Convice());
 
-        pokemon.add(new Collemboo());
-        pokemon.add(new Glastasma());
-        pokemon.add(new Lavalux());
-        pokemon.add(new Lampod());
-        pokemon.add(new Inzallum());
-        pokemon.add(new Sneacroach());
-        pokemon.add(new Stalroach()); //Renamed from Monstroach
-        pokemon.add(new Polvite());
-        pokemon.add(new Koromite());
-        pokemon.add(new Debribriz());
-        pokemon.add(new Terremotor());
-        pokemon.add(new Gomnom());
-        pokemon.add(new Caramello());
-        pokemon.add(new Goopest());
-        pokemon.add(new Shugatrix());
+        addNewPokemon(new Collemboo());
+        addNewPokemon(new Glastasma());
+        addNewPokemon(new Lavalux());
+        addNewPokemon(new Lampod());
+        addNewPokemon(new Inzallum());
+        addNewPokemon(new Sneacroach());
+        addNewPokemon(new Stalroach()); //Renamed from Monstroach
+        addNewPokemon(new Polvite());
+        addNewPokemon(new Koromite());
+        addNewPokemon(new Debribriz());
+        addNewPokemon(new Terremotor());
+        addNewPokemon(new Gomnom());
+        addNewPokemon(new Caramello());
+        addNewPokemon(new Goopest());
+        addNewPokemon(new Shugatrix());
     }
 
 }

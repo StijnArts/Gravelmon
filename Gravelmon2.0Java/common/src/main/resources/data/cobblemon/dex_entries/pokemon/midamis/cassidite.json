@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:cassidite",
+  "speciesId": "cobblemon:cassidite",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

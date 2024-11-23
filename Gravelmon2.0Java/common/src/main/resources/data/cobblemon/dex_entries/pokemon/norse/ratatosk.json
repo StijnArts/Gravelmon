@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ratatosk",
+  "speciesId": "cobblemon:ratatosk",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

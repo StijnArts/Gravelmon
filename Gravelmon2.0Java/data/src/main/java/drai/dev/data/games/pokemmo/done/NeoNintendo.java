@@ -10,17 +10,17 @@ public class NeoNintendo extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-//        pokemon.add(new NeoZubat(41)); Member of line not finished
-//        pokemon.add(new NeoGeodude(74)); Member of line not finished
+//        addNewPokemon(new NeoZubat(41)); Member of line not finished
+//        addNewPokemon(new NeoGeodude(74)); Member of line not finished
         addPokedexPokemon("cacnea-neo");
         addNewPokemon(new Cactussle());
-//        pokemon.add(new NeoTurtwig(387));Member of line not finished
-//        pokemon.add(new NeoGrotle(388));Member of line not finished
-//        pokemon.add(new NeoChimchar(390));Member of line not finished
-//        pokemon.add(new NeoMonferno(391));Member of line not finished
-//        pokemon.add(new NeoPiplup(393));Member of line not finished
-//        pokemon.add(new NeoPrinplup(394));Member of line not finished
-//        pokemon.add(new Velozolt()); TODO find other members of galar fossil group
+//        addNewPokemon(new NeoTurtwig(387));Member of line not finished
+//        addNewPokemon(new NeoGrotle(388));Member of line not finished
+//        addNewPokemon(new NeoChimchar(390));Member of line not finished
+//        addNewPokemon(new NeoMonferno(391));Member of line not finished
+//        addNewPokemon(new NeoPiplup(393));Member of line not finished
+//        addNewPokemon(new NeoPrinplup(394));Member of line not finished
+//        addNewPokemon(new Velozolt()); TODO find other members of galar fossil group
     }
 
 }

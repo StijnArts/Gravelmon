@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:weevoll",
+  "speciesId": "cobblemon:weevoll",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

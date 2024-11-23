@@ -1,0 +1,10 @@
+{
+  "type": "cobblemon:simple_pokedex_def",
+  "sortOrder": 80,
+  "id": "gravelmon:elb",
+  "entries": [
+    "cobblemon:sweeking",
+    "cobblemon:appafrigion",
+    "cobblemon:cervelot"
+  ]
+}

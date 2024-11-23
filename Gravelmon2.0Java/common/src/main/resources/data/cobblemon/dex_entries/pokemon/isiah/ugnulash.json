@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ugnulash",
+  "speciesId": "cobblemon:ugnulash",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

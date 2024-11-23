@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:eriegle",
+  "speciesId": "cobblemon:eriegle",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

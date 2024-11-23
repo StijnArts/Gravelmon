@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:terrakion",
+  "forms": [
+    {
+      "displayForm": "Sahlian",
+      "unlockForms": [
+        "Sahlian"
+      ]
+    },
+    {
+      "displayForm": "Ferranian",
+      "unlockForms": [
+        "Ferranian"
+      ]
+    }
+  ]
+}

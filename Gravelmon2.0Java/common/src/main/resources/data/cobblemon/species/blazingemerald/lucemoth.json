@@ -1,0 +1,118 @@
+{
+  "implemented": true,
+  "name": "Lucemoth",
+  "nationalPokedexNumber": 5102,
+  "primaryType": "bug",
+  "secondaryType": "fairy",
+  "abilities": [
+    "tactician",
+    "h:illuminate"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 65,
+    "defence": 100,
+    "special_attack": 85,
+    "special_defence": 100,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 70,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 161,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 51,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:faketears",
+    "5:hypnosis",
+    "9:taunt",
+    "13:feintattack",
+    "17:signalbeam",
+    "21:confuseray",
+    "31:darkpulse",
+    "36:hivemind",
+    "43:skillswap",
+    "49:nightshade",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:veiledsky",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:energyball",
+    "tm:solarbeam",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:brickbreak",
+    "tm:shimmershot",
+    "tm:shockwave",
+    "tm:gigaimpact",
+    "tm:facade",
+    "tm:secretpower",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:flash",
+    "tm:cosmicpower"  ],
+  "labels": [
+    "blazing_emerald",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.lucemoth.desc"
+  ],
+  "preEvolution": "venonat form=hoennian",
+  "baseScale": 0.3,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 18,
+  "weight": 630,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

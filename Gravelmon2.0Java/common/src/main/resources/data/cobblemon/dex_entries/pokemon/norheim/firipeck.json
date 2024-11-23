@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:firipeck",
+  "speciesId": "cobblemon:firipeck",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

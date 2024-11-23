@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:hitmonrize",
+  "speciesId": "cobblemon:hitmonrize",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

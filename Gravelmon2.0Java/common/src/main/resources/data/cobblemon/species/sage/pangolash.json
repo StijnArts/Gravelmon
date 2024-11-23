@@ -1,0 +1,148 @@
+{
+  "implemented": true,
+  "name": "Pangolash",
+  "nationalPokedexNumber": 1150,
+  "primaryType": "grass",
+  "secondaryType": "steel",
+  "abilities": [
+    "roughskin",
+    "sandforce",
+    "h:bulletproof"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 85,
+    "defence": 100,
+    "special_attack": 65,
+    "special_defence": 80,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 80,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 165,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 51,
+  "eggGroups": [
+    "grass",
+    "field"
+  ],
+  "moves": [
+    "1:spikes",
+    "1:irondefense",
+    "1:rapidspin",
+    "1:sandattack",
+    "5:metalclaw",
+    "9:defensecurl",
+    "13:razorleaf",
+    "17:gyroball",
+    "21:leafshield",
+    "25:bulldoze",
+    "29:steamroller",
+    "33:leechseed",
+    "37:ironhead",
+    "41:shieldbash",
+    "45:mimic",
+    "49:leafblade",
+    "53:dig",
+    "57:irontail",
+    "61:naturepower",
+    "65:sandstorm",
+    "tm:honeclaws",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:smackdown",
+    "tm:earthquake",
+    "tm:return",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:sandstorm",
+    "tm:rocktomb",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:gigadrain",
+    "tm:energyball",
+    "tm:endure",
+    "tm:rocksmash",
+    "tm:shadowclaw",
+    "tm:gigaimpact",
+    "tm:rockpolish",
+    "tm:stoneedge",
+    "tm:gyroball",
+    "tm:swordsdance",
+    "tm:bulldoze",
+    "tm:rockslide",
+    "tm:xscissor",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:sleeptalk",
+    "tm:bulletseed",
+    "tm:shieldbash",
+    "tm:cut",
+    "tm:strength"  ],
+  "labels": [
+    "sage",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.pangolash.desc"
+  ],
+  "preEvolution": "diloweed",
+  "baseScale": 0.16666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 865,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

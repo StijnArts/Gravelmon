@@ -1,0 +1,29 @@
+{
+  "entryId": "cobblemon:beldum",
+  "forms": [
+    {
+      "displayForm": "Fabelian",
+      "unlockForms": [
+        "Fabelian"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Deltaspider",
+      "unlockForms": [
+        "Deltaspider"
+      ]
+    },
+    {
+      "displayForm": "Deltaruin",
+      "unlockForms": [
+        "Deltaruin"
+      ]
+    }
+  ]
+}

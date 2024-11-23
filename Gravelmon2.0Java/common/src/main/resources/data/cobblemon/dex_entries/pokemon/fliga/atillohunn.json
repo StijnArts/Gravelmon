@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:atillohunn",
+  "speciesId": "cobblemon:atillohunn",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

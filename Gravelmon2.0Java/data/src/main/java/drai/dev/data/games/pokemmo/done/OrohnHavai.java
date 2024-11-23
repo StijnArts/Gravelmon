@@ -47,8 +47,8 @@ public class OrohnHavai extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Warblu());
         addNewPokemon(new Territore());
         addNewPokemon(new Warshrike());
-//        pokemon.add(new Troopant()); Missing art
-//        pokemon.add(new Antzooka()); Missing art
+//        addNewPokemon(new Troopant()); Missing art
+//        addNewPokemon(new Antzooka()); Missing art
         addNewPokemon(new Goosea());
         addNewPokemon(new Neinei());
         addNewPokemon(new Zapillar());
@@ -104,7 +104,7 @@ public class OrohnHavai extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Pixiechu());
         var chemecko = new Chemecko();
         addNewPokemon(chemecko);
-//        pokemon.add(new AvorianChemecko(chemecko.getPokedexNumber()));
+//        addNewPokemon(new AvorianChemecko(chemecko.getPokedexNumber()));
         addNewPokemon(new Molozard());
         addNewPokemon(new Twirpant());
         addNewPokemon(new Kombantis());
@@ -124,8 +124,8 @@ public class OrohnHavai extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Timingo());
         addNewPokemon(new Flambagant());
         addPokedexPokemon("gastly-havaiian, haunter-havaiian, gengar-havaiian");
-//        pokemon.add(new Glimpid()); Member of line not finished
-//        pokemon.add(new Cryosect()); Missing Art
+//        addNewPokemon(new Glimpid()); Member of line not finished
+//        addNewPokemon(new Cryosect()); Missing Art
         addNewPokemon(new Hematick());
         addNewPokemon(new Vorvosip());
         addNewPokemon(new Vorvosip());
@@ -160,17 +160,17 @@ public class OrohnHavai extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Chillimp(new Stats(345, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))));
         addNewPokemon(new Pinxie());
         addNewPokemon(new Cosminx());
-//        pokemon.add(new Konchore()); Missing Stats
-//        pokemon.add(new Neptide()); Missing Art
-//        pokemon.add(new Lemomi()); Missing Stats
-//        pokemon.add(new Shelmissy()); Missing Art
-//        pokemon.add(new Empressea()); Missing Art
-        pokemon.add(new Sharfin());
-        pokemon.add(new Thrashark());
-        pokemon.add(new Voidefish());
-        pokemon.add(new Voidevour());
-//        pokemon.add(new Gargobble()); Missing Art
-//        pokemon.add(new Garglizer()); Member of line not finished
+//        addNewPokemon(new Konchore()); Missing Stats
+//        addNewPokemon(new Neptide()); Missing Art
+//        addNewPokemon(new Lemomi()); Missing Stats
+//        addNewPokemon(new Shelmissy()); Missing Art
+//        addNewPokemon(new Empressea()); Missing Art
+        addNewPokemon(new Sharfin());
+        addNewPokemon(new Thrashark());
+        addNewPokemon(new Voidefish());
+        addNewPokemon(new Voidevour());
+//        addNewPokemon(new Gargobble()); Missing Art
+//        addNewPokemon(new Garglizer()); Member of line not finished
         addNewPokemon(new Ruffski());
         addNewPokemon(new Arblizen());
         addNewPokemon(new Siberizen());
@@ -180,7 +180,7 @@ public class OrohnHavai extends drai.dev.data.games.registry.Game {
 
         addNewPokemon(new Oreglyph());
         addNewPokemon(new Geoglyphic(new Stats(476, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))));
-//        pokemon.add(new Eskiflurr()); Missing art
+//        addNewPokemon(new Eskiflurr()); Missing art
         addNewPokemon(new Tasticky());
         addNewPokemon(new Tadapt());
         addNewPokemon(new Thornment());
@@ -189,15 +189,15 @@ public class OrohnHavai extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Elecko());
         addNewPokemon(new Foxsye());
         addNewPokemon(new Veroxifye());
-//        pokemon.add(new Chainect()); Missing art
-//        pokemon.add(new Chainector()); Missing art
+//        addNewPokemon(new Chainect()); Missing art
+//        addNewPokemon(new Chainector()); Missing art
         addNewPokemon(new Tundrill());
-//        pokemon.add(new Malakele()); Missing art
-//        pokemon.add(new Kahukele()); Missing art
+//        addNewPokemon(new Malakele()); Missing art
+//        addNewPokemon(new Kahukele()); Missing art
         addNewPokemon(new Camohut());
         addNewPokemon(new Camofirma());
         addNewPokemon(new Fyglow());
-//        pokemon.add(new Polighoul()); Missing art
+//        addNewPokemon(new Polighoul()); Missing art
         addPokedexPokemon(
                 "eevee," +
                         "vaporeon," +
@@ -214,21 +214,21 @@ public class OrohnHavai extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Finray());
         addNewPokemon(new Ogoprowl());
         addNewPokemon(new Sephysar());
-//        pokemon.add(new Vexigon()); Member of line not finished
-//        pokemon.add(new Noxareo()); Missing art
-//        pokemon.add(new Darcastro()); Member of line not finished
+//        addNewPokemon(new Vexigon()); Member of line not finished
+//        addNewPokemon(new Noxareo()); Missing art
+//        addNewPokemon(new Darcastro()); Member of line not finished
         addNewPokemon(new Rivulcred());
         addNewPokemon(new Valecred());
-//        pokemon.add(new Drazephir()); Missing art
+//        addNewPokemon(new Drazephir()); Missing art
         addNewPokemon(new Netherval());
         addNewPokemon(new Quadrossal());
         addNewPokemon(new Infiluv());
-//        pokemon.add(new Obideion()); Missing art
-//        pokemon.add(new Generion()); Missing art
-//        pokemon.add(new Indureion()); Missing art
+//        addNewPokemon(new Obideion()); Missing art
+//        addNewPokemon(new Generion()); Missing art
+//        addNewPokemon(new Indureion()); Missing art
         addNewPokemon(new Zedakazm());
-//        pokemon.add(new Intelix()); Missing art
-//        pokemon.add(new Nectavian()); Missing art
+//        addNewPokemon(new Intelix()); Missing art
+//        addNewPokemon(new Nectavian()); Missing art
 
     }
 

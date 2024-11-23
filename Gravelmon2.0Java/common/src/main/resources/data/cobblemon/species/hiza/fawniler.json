@@ -1,0 +1,152 @@
+{
+  "implemented": true,
+  "name": "Fawniler",
+  "nationalPokedexNumber": 3032,
+  "primaryType": "ice",
+  "secondaryType": "normal",
+  "abilities": [
+    "runaway",
+    "h:lightningrod"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 90,
+    "defence": 30,
+    "special_attack": 25,
+    "special_defence": 35,
+    "speed": 30
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 200,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 52,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:powdersnow",
+    "4:leer",
+    "7:mist",
+    "10:doublekick",
+    "13:sandattack",
+    "16:stomp",
+    "20:iceshard",
+    "24:assurance",
+    "28:iciclespear",
+    "32:snowscape",
+    "36:doubleteam",
+    "38:zenheadbutt",
+    "41:iciclecrash",
+    "46:doubleedge",
+    "50:megahorn",
+    "tm:aerialace",
+    "tm:attract",
+    "tm:auroraveil",
+    "tm:bide",
+    "tm:blizzard",
+    "tm:bounce",
+    "tm:counter",
+    "tm:cut",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:facade",
+    "tm:foulplay",
+    "tm:frostbreath",
+    "tm:frustration",
+    "tm:snowscape",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:ironhead",
+    "tm:megakick",
+    "tm:mimic",
+    "tm:naturepower",
+    "tm:playrough",
+    "tm:protect",
+    "tm:rage",
+    "tm:razorwind",
+    "tm:rest",
+    "tm:return",
+    "tm:rockslide",
+    "tm:round",
+    "tm:skullbash",
+    "tm:sleeptalk",
+    "tm:smartstrike",
+    "tm:strength",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:throatchop",
+    "tm:toxic",
+    "tm:weatherball",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "hiza",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.fawniler.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "fawniler_mawribou",
+      "variant": "level_up",
+      "result": "mawribou",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.13333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

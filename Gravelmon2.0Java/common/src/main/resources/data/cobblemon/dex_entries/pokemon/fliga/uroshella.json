@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:uroshella",
+  "speciesId": "cobblemon:uroshella",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,82 @@
+{
+  "implemented": true,
+  "name": "Parasight",
+  "nationalPokedexNumber": 8486,
+  "primaryType": "psychic",
+  "secondaryType": "bug",
+  "abilities": [
+    "analytic",
+    "dryskin",
+    "h:trace"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 105,
+    "defence": 80,
+    "special_attack": 75,
+    "special_defence": 90,
+    "speed": 30
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 93,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:psychicfangs",
+    "1:psychocut"  ],
+  "labels": [
+    "mastenia",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.parasight.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 0,
+  "weight": 0,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

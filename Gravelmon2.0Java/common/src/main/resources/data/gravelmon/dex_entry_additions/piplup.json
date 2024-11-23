@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:piplup",
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Interian",
+      "unlockForms": [
+        "Interian"
+      ]
+    }
+  ]
+}

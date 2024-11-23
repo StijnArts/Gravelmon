@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:stunzeed",
+  "speciesId": "cobblemon:stunzeed",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

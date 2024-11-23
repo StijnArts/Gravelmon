@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:longjohn",
+  "speciesId": "cobblemon:longjohn",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

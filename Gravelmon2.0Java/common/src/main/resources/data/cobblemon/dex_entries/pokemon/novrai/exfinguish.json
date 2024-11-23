@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:exfinguish",
+  "speciesId": "cobblemon:exfinguish",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

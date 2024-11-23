@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gecroak",
+  "speciesId": "cobblemon:gecroak",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

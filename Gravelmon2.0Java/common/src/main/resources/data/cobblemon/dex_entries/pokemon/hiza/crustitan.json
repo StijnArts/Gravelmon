@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:crustitan",
+  "speciesId": "cobblemon:crustitan",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

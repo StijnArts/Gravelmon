@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:houndour-norheiman",
+  "speciesId": "cobblemon:houndour",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Norheiman",
+      "unlockForms": [
+        "Norheiman"
+      ]
+    }
+  ],
+  "variations": []
+}

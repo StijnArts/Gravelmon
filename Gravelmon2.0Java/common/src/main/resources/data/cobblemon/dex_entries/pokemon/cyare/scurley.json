@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:scurley",
+  "speciesId": "cobblemon:scurley",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

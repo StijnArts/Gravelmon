@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:eiseith",
+  "speciesId": "cobblemon:eiseith",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

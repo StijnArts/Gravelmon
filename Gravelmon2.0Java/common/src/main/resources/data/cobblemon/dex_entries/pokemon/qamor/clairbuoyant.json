@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:clairbuoyant",
+  "speciesId": "cobblemon:clairbuoyant",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

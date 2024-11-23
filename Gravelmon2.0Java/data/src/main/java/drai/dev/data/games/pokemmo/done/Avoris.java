@@ -11,12 +11,12 @@ public class Avoris extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-//        pokemon.add(new Taramby()); Member of Line not Finished
-//        pokemon.add(new Rambliss()); Member of Line not Finished
-//        pokemon.add(new Scorxio()); Member of Line not Finished
-//        pokemon.add(new Toxiscore()); Member of Line not Finished
-//        pokemon.add(new Ekino()); Member of Line not Finished
-//        pokemon.add(new Wizquid()); Member of Line not Finished
+//        addNewPokemon(new Taramby()); Member of Line not Finished
+//        addNewPokemon(new Rambliss()); Member of Line not Finished
+//        addNewPokemon(new Scorxio()); Member of Line not Finished
+//        addNewPokemon(new Toxiscore()); Member of Line not Finished
+//        addNewPokemon(new Ekino()); Member of Line not Finished
+//        addNewPokemon(new Wizquid()); Member of Line not Finished
         addNewPokemon(new Fyrmite());
         addNewPokemon(new Carabomb());
         addNewPokemon(new Bombeezle());
@@ -31,35 +31,35 @@ public class Avoris extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Owlminous());
         addNewPokemon(new Mouskrow());
         addNewPokemon(new Mousummit());
-//        pokemon.add(new Flintzie()); Member of Line not Finished
-        pokemon.add(new Stumple());
-        pokemon.add(new Grample());
-        pokemon.add(new Echomori());
-        pokemon.add(new Sipsap());
-        pokemon.add(new Ransap());
-        pokemon.add(new Berricutie());
-        pokemon.add(new Frutanista());
-        pokemon.add(new Grabbit());
-        pokemon.add(new Frobber());
-        pokemon.add(new Attraknid());
-        pokemon.add(new Malevoness());
-        pokemon.add(new Picocacto());
-        pokemon.add(new Desperogue());
-        pokemon.add(new Desperasca());
-        pokemon.add(new Aridart());
-        pokemon.add(new Territhorn());
-        pokemon.add(new Wrecktonic());
-        pokemon.add(new Elescent());
-        pokemon.add(new Aromaphant());
-//        pokemon.add(new Madambrella()); //MISSING STATS
-//        pokemon.add(new Shooba()); Member of Line not Finished
+//        addNewPokemon(new Flintzie()); Member of Line not Finished
+        addNewPokemon(new Stumple());
+        addNewPokemon(new Grample());
+        addNewPokemon(new Echomori());
+        addNewPokemon(new Sipsap());
+        addNewPokemon(new Ransap());
+        addNewPokemon(new Berricutie());
+        addNewPokemon(new Frutanista());
+        addNewPokemon(new Grabbit());
+        addNewPokemon(new Frobber());
+        addNewPokemon(new Attraknid());
+        addNewPokemon(new Malevoness());
+        addNewPokemon(new Picocacto());
+        addNewPokemon(new Desperogue());
+        addNewPokemon(new Desperasca());
+        addNewPokemon(new Aridart());
+        addNewPokemon(new Territhorn());
+        addNewPokemon(new Wrecktonic());
+        addNewPokemon(new Elescent());
+        addNewPokemon(new Aromaphant());
+//        addNewPokemon(new Madambrella()); //MISSING STATS
+//        addNewPokemon(new Shooba()); Member of Line not Finished
         addPokedexPokemon("maractus-avorian");
         addNewPokemon(new Maracabre());
         addNewPokemon(new Cacotile());
         addNewPokemon(new Tankodile());
         addNewPokemon(new Pyramud());
         addNewPokemon(new Pyradoom());
-//        pokemon.add(new Smolink()); Member of Line not Finished
+//        addNewPokemon(new Smolink()); Member of Line not Finished
         addPokedexPokemon("mimejr, mrmime-avorian");
     }
 

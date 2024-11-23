@@ -1,0 +1,474 @@
+{
+   "target": "cobblemon:breloom",
+   "forms": [{
+  "name": "Mastenian",
+  "primaryType": "dragon",
+  "secondaryType": "grass",
+  "abilities": [
+    "effectspore",
+    "h:technician"
+  ],
+  "baseStats": {
+    "hp": 61,
+    "attack": 30,
+    "defence": 65,
+    "special_attack": 118,
+    "special_defence": 65,
+    "speed": 118
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 95,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:scratch",
+    "1:absorb",
+    "1:vacuumwave",
+    "1:vacuumwave"  ],
+  "labels": [
+    "mastenia",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.mastenianbreloom.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 0,
+  "weight": 0,
+  "aspects": ["mastenian"],
+  "cannotDynamax": false
+},
+{
+  "name": "Epoch",
+  "primaryType": "steel",
+  "secondaryType": "fighting",
+  "abilities": [
+    "analytic",
+    "trace",
+    "h:technician"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 95,
+    "defence": 110,
+    "special_attack": 70,
+    "special_defence": 95,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "shoulderMountable": false,
+  "baseExperienceYield": 161,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "10:sonicboom",
+    "1:tackle",
+    "39:thunderouskick",
+    "27:forcepalm",
+    "51:doublekick",
+    "66:explosion",
+    "13:spark",
+    "16:visegrip",
+    "25:camouflage",
+    "33:discharge",
+    "13:shockwave",
+    "36:ironhead",
+    "1:machpunch",
+    "44:screech",
+    "1:charge",
+    "30:metalburst",
+    "54:lockon",
+    "19:selfdestruct",
+    "1:thundershock",
+    "7:metalsound",
+    "61:volttackle",
+    "57:steelbeam",
+    "1:bulletpunch",
+    "54:zapcannon",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:bulkup",
+    "tm:chargebeam",
+    "tm:closecombat",
+    "tm:drainpunch",
+    "tm:electricterrain",
+    "tm:focusblast",
+    "tm:gyroball",
+    "tm:hiddenpower",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:magnetrise",
+    "tm:meteorbeam",
+    "tm:meteormash",
+    "tm:playrough",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:risingvoltage",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sleeptalk",
+    "tm:superpower",
+    "tm:tailglow",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochbreloom.desc"
+  ],
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 12,
+  "weight": 392,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
+  "name": "Alteran",
+  "primaryType": "grass",
+  "secondaryType": "poison",
+  "abilities": [
+    "effectspore",
+    "poisontouch",
+    "h:moldbreaker"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 100,
+    "defence": 80,
+    "special_attack": 75,
+    "special_defence": 75,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "shoulderMountable": false,
+  "baseExperienceYield": 161,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass",
+    "fairy"
+  ],
+  "moves": [
+    "1:poisontail",
+    "1:stunspore",
+    "1:curse",
+    "1:gigadrain",
+    "1:gastroacid",
+    "1:spore",
+    "1:absorb",
+    "1:tackle",
+    "1:poisonpowder",
+    "1:acidspray",
+    "12:ingrain",
+    "15:megadrain",
+    "19:venoshock",
+    "22:headbutt",
+    "28:zenheadbutt",
+    "33:sludgebomb",
+    "39:energyball",
+    "44:toxic",
+    "44:venomdrench",
+    "50:gunkshot",
+    "egg:charm",
+    "egg:faketears",
+    "egg:moonblast",
+    "egg:moonlight"  ],
+  "labels": [
+    "gen3",
+    "flux",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.alteranbreloom.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "breloom_brontoloom",
+      "variant": "level_up",
+      "result": "brontoloom",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 38
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 12,
+  "weight": 392,
+  "aspects": ["alteran"],
+  "cannotDynamax": false
+},
+{
+  "name": "Ayreian",
+  "primaryType": "poison",
+  "secondaryType": "ice",
+  "abilities": [
+    "corrosion",
+    "unburden"  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 60,
+    "defence": 80,
+    "special_attack": 70,
+    "special_defence": 130,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy",
+    "grass"
+  ],
+  "moves": [
+    "8:acid",
+    "1:tackle",
+    "22:aurorabeam",
+    "0:acidspray",
+    "12:icywind",
+    "29:amnesia",
+    "33:toxic",
+    "50:sludgewave",
+    "19:poisongas",
+    "15:toxicspikes",
+    "39:frostbreath",
+    "44:icebeam",
+    "5:stunspore",
+    "26:sludge",
+    "1:poisonsting",
+    "tm:attract",
+    "tm:bulletseed",
+    "tm:confide",
+    "tm:doubleteam",
+    "tm:drainpunch",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:focuspunch",
+    "tm:frustration",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:helpinghand",
+    "tm:hiddenpower",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:snatch",
+    "tm:snore",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:toxic",
+    "tm:venoshock",
+    "tm:worryseed",
+    "tm:icebeam",
+    "egg:faketears",
+    "egg:charm",
+    "egg:helpinghand",
+    "egg:worryseed",
+    "egg:wakeupslap",
+    "egg:seedbomb",
+    "egg:bulletseed",
+    "egg:focuspunch",
+    "egg:naturalgift",
+    "egg:drainpunch"  ],
+  "labels": [
+    "vanguard",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.ayreianbreloom.desc"
+  ],
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 12,
+  "weight": 392,
+  "aspects": ["ayreian"],
+  "cannotDynamax": false
+}
+], "features": [
+"mastenian",
+"epoch",
+"alteran",
+"ayreian"
+  ]
+}

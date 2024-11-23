@@ -1,0 +1,543 @@
+{
+   "target": "cobblemon:slowpoke",
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:slowpoke_tail",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+      },
+   "forms": [{
+  "name": "Forman",
+  "primaryType": "ghost",
+  "secondaryType": "water",
+  "abilities": [
+    "stench"  ],
+  "baseStats": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:lick",
+    "1:watergun"  ],
+  "labels": [
+    "form",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.formanslowpoke.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 0,
+  "weight": 0,
+  "aspects": ["forman"],
+  "cannotDynamax": false
+},
+{
+  "name": "Epoch",
+  "primaryType": "normal",
+  "abilities": [
+    "oblivious",
+    "owntempo",
+    "h:gluttony"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 60,
+    "defence": 60,
+    "special_attack": 15,
+    "special_defence": 40,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "shoulderMountable": false,
+  "baseExperienceYield": 63,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster",
+    "bug"
+  ],
+  "moves": [
+    "9:bugbite",
+    "24:skittersmack",
+    "1:tackle",
+    "1:stuffcheeks",
+    "5:covet",
+    "40:crunch",
+    "37:rest",
+    "43:doubleedge",
+    "1:sweetscent",
+    "47:hammerarm",
+    "18:yawn",
+    "1:growl",
+    "12:headbutt",
+    "28:playrough",
+    "56:gigaimpact",
+    "tm:aromatherapy",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:calmmind",
+    "tm:crunch",
+    "tm:drainingkiss",
+    "tm:earthpower",
+    "tm:energyball",
+    "tm:falseswipe",
+    "tm:furycutter",
+    "tm:gigadrain",
+    "tm:hiddenpower",
+    "tm:hivemind",
+    "tm:ironhead",
+    "tm:leechlife",
+    "tm:nastyplot",
+    "tm:nobleroar",
+    "tm:payday",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:safeguard",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:synthesis",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:uturn",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:amnesia",
+    "egg:curse",
+    "egg:achillesheel",
+    "egg:dizzypunch",
+    "egg:zenheadbutt",
+    "egg:steamroller",
+    "egg:rollout",
+    "egg:decorate"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochslowpoke.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "slowpoke_epoch_slowbro",
+      "variant": "level_up",
+      "result": "epoch slowbro",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "slowpoke_epoch_slowking",
+      "variant": "item_interact",
+      "result": "epoch slowking",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:silver_powder",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 12,
+  "weight": 360,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
+  "name": "Africanusan",
+  "primaryType": "ground",
+  "abilities": [
+    "dryskin"  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 75,
+    "defence": 60,
+    "special_attack": 25,
+    "special_defence": 30,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster",
+    "water_1"
+  ],
+  "moves": [
+    "19:disable",
+    "41:painsplit",
+    "45:dig",
+    "1:tackle",
+    "54:spikes",
+    "20:bite",
+    "14:sandattack",
+    "9:mudslap",
+    "24:yawn",
+    "5:growl",
+    "25:bulldoze",
+    "28:mudbomb",
+    "32:bodyslam",
+    "23:headbutt",
+    "36:workup",
+    "58:earthquake",
+    "egg:bellydrum",
+    "egg:block",
+    "egg:futuresight",
+    "egg:mefirst",
+    "egg:mudsport",
+    "egg:sleeptalk",
+    "egg:snore",
+    "egg:stomp",
+    "egg:wonderroom",
+    "egg:zenheadbutt"  ],
+  "labels": [
+    "africanus",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.africanusanslowpoke.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "slowpoke_slowking_africanusan",
+      "variant": "item_interact",
+      "result": "slowking africanusan",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:kings_rock",
+      "permanent": true   
+ },
+    {
+      "id": "slowpoke_slowbro_africanusan",
+      "variant": "level_up",
+      "result": "slowbro africanusan",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 27
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 12,
+  "weight": 360,
+  "aspects": ["africanusan"],
+  "cannotDynamax": false
+},
+{
+  "name": "Novran",
+  "primaryType": "bug",
+  "abilities": [
+    "honeygather",
+    "thickfat",
+    "h:regenerator"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 65,
+    "defence": 65,
+    "special_attack": 40,
+    "special_defence": 40,
+    "speed": 15
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "shoulderMountable": false,
+  "baseExperienceYield": 63,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster",
+    "water_1"
+  ],
+  "moves": [
+    "1:growl",
+    "5:infestation",
+    "9:sweetscent",
+    "14:bugbite",
+    "18:headbutt",
+    "35:slackoff",
+    "40:lunge",
+    "44:rest",
+    "48:bugbuzz",
+    "57:spitup",
+    "tm:headbutt",
+    "tm:zenheadbutt",
+    "tm:recycle",
+    "tm:floralhealing",
+    "tm:yawn",
+    "tm:refresh",
+    "tm:lunge",
+    "tm:snore",
+    "tm:bugbite",
+    "tm:pollenpuff",
+    "tm:skittersmack",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:protect",
+    "tm:safeguard",
+    "tm:earthquake",
+    "tm:return",
+    "tm:sludgebomb",
+    "tm:facade",
+    "tm:rest",
+    "tm:luckychant",
+    "tm:signalbeam",
+    "tm:curse",
+    "tm:bulldoze",
+    "tm:venoshock",
+    "tm:infestation",
+    "tm:irontail",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:triattack",
+    "tm:naturalgift",
+    "tm:confide",
+    "tm:attract",
+    "tm:leechlife",
+    "tm:aquatail",
+    "tm:strength",
+    "tm:stomp",
+    "tm:bellydrum",
+    "tm:petaldance",
+    "tm:mudsport",
+    "tm:belch"  ],
+  "labels": [
+    "novrai",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.novranslowpoke.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "slowpoke_slowbro_novran",
+      "variant": "level_up",
+      "result": "slowbro novran",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 37
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "slowpoke_slowking_novran",
+      "variant": "item_interact",
+      "result": "slowking novran",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "minecraft:honey_bottle",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 12,
+  "weight": 165,
+  "aspects": ["novran"],
+  "cannotDynamax": false
+}
+], "features": [
+"forman",
+"epoch",
+"africanusan",
+"novran"
+  ]
+}

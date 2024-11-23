@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lilpras",
+  "speciesId": "cobblemon:lilpras",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

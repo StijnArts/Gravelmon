@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ninfoxy",
+  "speciesId": "cobblemon:ninfoxy",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

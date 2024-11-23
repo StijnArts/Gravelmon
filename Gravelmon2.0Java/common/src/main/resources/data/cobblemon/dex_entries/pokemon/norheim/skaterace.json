@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:skaterace",
+  "speciesId": "cobblemon:skaterace",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

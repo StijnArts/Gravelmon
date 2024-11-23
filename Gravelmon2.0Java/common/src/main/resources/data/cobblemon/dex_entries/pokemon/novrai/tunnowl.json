@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tunnowl",
+  "speciesId": "cobblemon:tunnowl",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

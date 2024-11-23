@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:mylili",
+  "speciesId": "cobblemon:mylili",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

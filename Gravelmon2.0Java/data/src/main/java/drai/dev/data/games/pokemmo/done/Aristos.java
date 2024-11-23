@@ -17,27 +17,27 @@ public class Aristos extends drai.dev.data.games.registry.Game {
         addPokedexPokemon("bellsprout-aristosian, weepinbell-aristosian, victreebel-aristosian," +
                 "mareep-aristosian, flaaffy-aristosian");
         addNewPokemon(new Ramvolt());
-//        pokemon.add(new Tuckle()); Missing Art
+//        addNewPokemon(new Tuckle()); Missing Art
         addPokedexPokemon("farfetchd");
-        pokemon.add(new Achiefd());
+        addNewPokemon(new Achiefd());
         addPokedexPokemon("growlithe-aristosian, arcanine-aristosian");
-//        pokemon.add(new Probotheos()); Missing Art
+//        addNewPokemon(new Probotheos()); Missing Art
         addPokedexPokemon("magikarp, gyarados, tropius-aristosian");
-        pokemon.add(new Kamurados());
-//        pokemon.add(new Goobae()); //MISSING STATS
-        pokemon.add(new Weeduza());
+        addNewPokemon(new Kamurados());
+//        addNewPokemon(new Goobae()); //MISSING STATS
+        addNewPokemon(new Weeduza());
         addPokedexPokemon("tangela");
-        pokemon.add(new Tangorgon());
-//        pokemon.add(new Soulix()); Missing Art
-//        pokemon.add(new Fledjed()); Missing Art
+        addNewPokemon(new Tangorgon());
+//        addNewPokemon(new Soulix()); Missing Art
+//        addNewPokemon(new Fledjed()); Missing Art
         addNewPokemon(new Kangazad());
         addPokedexPokemon("kangaskhan-aristosian");
-//        pokemon.add(new Paloarmo()); Missing Art Renamed from Pharoar
-        pokemon.add(new EPP_v11());
-//        pokemon.add(new Pharoar()); Missing Art
-//        pokemon.add(new Cactrian()); Missing Art
-//        pokemon.add(new Spiribloom()); Missing Art
-//        pokemon.add(new Zoongus()); Missing Art
+//        addNewPokemon(new Paloarmo()); Missing Art Renamed from Pharoar
+        addNewPokemon(new EPP_v11());
+//        addNewPokemon(new Pharoar()); Missing Art
+//        addNewPokemon(new Cactrian()); Missing Art
+//        addNewPokemon(new Spiribloom()); Missing Art
+//        addNewPokemon(new Zoongus()); Missing Art
         addNewPokemon(new Kvadract());
         addNewPokemon(new Navatoria());
         addNewPokemon(new Sabroast());

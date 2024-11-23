@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:noviss",
+  "speciesId": "cobblemon:noviss",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

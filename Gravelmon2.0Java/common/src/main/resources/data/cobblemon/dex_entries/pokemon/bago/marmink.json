@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:marmink",
+  "speciesId": "cobblemon:marmink",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

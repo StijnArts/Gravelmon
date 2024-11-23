@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ucarya",
+  "speciesId": "cobblemon:ucarya",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:victreebel",
+  "forms": [
+    {
+      "displayForm": "Avalossian",
+      "unlockForms": [
+        "Avalossian"
+      ]
+    },
+    {
+      "displayForm": "Aristosian",
+      "unlockForms": [
+        "Aristosian"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:toxipixie",
+  "speciesId": "cobblemon:toxipixie",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

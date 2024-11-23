@@ -1,0 +1,114 @@
+{
+  "implemented": true,
+  "name": "Pichip",
+  "nationalPokedexNumber": 1375,
+  "primaryType": "rock",
+  "abilities": [
+    "guts"  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 70,
+    "defence": 70,
+    "special_attack": 35,
+    "special_defence": 60,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 71,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "mineral"
+  ],
+  "moves": [
+    "1:growl",
+    "9:focusenergy",
+    "13:smackdown",
+    "16:uproar",
+    "19:screech",
+    "21:pursuit",
+    "25:takedown",
+    "29:stealthrock",
+    "34:rockslide",
+    "39:quickguard",
+    "43:retaliate",
+    "48:hypervoice",
+    "54:stoneedge",
+    "tm:roar",
+    "tm:counter",
+    "tm:quickattack",
+    "tm:curse",
+    "tm:mirrorcoat",
+    "tm:superpower",
+    "tm:rockpolish",
+    "tm:playrough"  ],
+  "labels": [
+    "atlas",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.pichip.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "pichip_shifuu",
+      "variant": "level_up",
+      "result": "shifuu",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 190
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

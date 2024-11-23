@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:itcheep",
+  "speciesId": "cobblemon:itcheep",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

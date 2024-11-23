@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:duself",
+  "speciesId": "cobblemon:duself",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:rabullet",
+  "speciesId": "cobblemon:rabullet",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

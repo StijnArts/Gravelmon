@@ -1,0 +1,128 @@
+{
+  "implemented": true,
+  "name": "Machima",
+  "nationalPokedexNumber": 1249,
+  "primaryType": "flying",
+  "secondaryType": "ghost",
+  "abilities": [
+    "sandveil",
+    "h:sandrush"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 85,
+    "defence": 105,
+    "special_attack": 115,
+    "special_defence": 95,
+    "speed": 125
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 3,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 261,
+  "experienceGroup": "slow",
+  "eggCycles": 200,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:tailwind",
+    "1:gust",
+    "5:sandstorm",
+    "15:aircutter",
+    "20:whirlwind",
+    "30:ominouswind",
+    "35:airslash",
+    "45:shadowball",
+    "50:recover",
+    "60:extrasensory",
+    "65:aurasphere",
+    "70:hurricane",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:telekinesis",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:sandstorm",
+    "tm:rocktomb",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:energyball",
+    "tm:endure",
+    "tm:willowisp",
+    "tm:acrobatics",
+    "tm:payback",
+    "tm:retaliate",
+    "tm:gigaimpact",
+    "tm:flash",
+    "tm:psychup",
+    "tm:dreameater",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:trickroom",
+    "tm:darkpulse",
+    "tm:sleeptalk",
+    "tm:miraclewill",
+    "tm:fly"  ],
+  "labels": [
+    "sage",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.machima.desc"
+  ],
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 15,
+  "weight": 850,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:stunge",
+  "speciesId": "cobblemon:stunge",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

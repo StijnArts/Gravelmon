@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:pteroast",
+  "speciesId": "cobblemon:pteroast",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

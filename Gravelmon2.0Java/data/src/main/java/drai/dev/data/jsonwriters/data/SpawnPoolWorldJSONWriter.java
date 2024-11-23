@@ -80,7 +80,19 @@ public class SpawnPoolWorldJSONWriter {
                 spawnJson.add("anticondition", antiCondition);
                 pokemonSpawnData.spawnAntiConditions().forEach(spawnCondition -> processCondition(antiCondition, spawnCondition));
             }
-            spawns.add(spawnJson);
+            if(!pokemonSpawnData.preferredBlocks().isEmpty()){
+                var weightMultiplier = new JsonObject();
+                spawnJson.add("weightMultiplier", weightMultiplier);
+                weightMultiplier.addProperty("multiplier", 5.0f);
+                var condition = new JsonObject();
+                weightMultiplier.add("condition", condition);
+                if(!pokemonSpawnData.preferredBlocks().isEmpty()) {
+                    var neededNearbyBlocks = new JsonArray();
+                    condition.add("neededNearbyBlocks", neededNearbyBlocks);
+                    pokemonSpawnData.preferredBlocks().forEach(neededNearbyBlocks::add);
+                }
+                spawns.add(spawnJson);
+            }
         }
     }
 

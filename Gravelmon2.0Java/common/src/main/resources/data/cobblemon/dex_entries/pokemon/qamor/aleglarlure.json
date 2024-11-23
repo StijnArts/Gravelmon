@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:aleglarlure",
+  "speciesId": "cobblemon:aleglarlure",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,94 @@
+{
+  "implemented": true,
+  "name": "Saguartic",
+  "nationalPokedexNumber": 5441,
+  "primaryType": "ice",
+  "secondaryType": "grass",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 86,
+    "defence": 108,
+    "special_attack": 88,
+    "special_defence": 90,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:ingrain",
+    "6:leafage",
+    "10:aromaticmist",
+    "13:razorleaf",
+    "17:icywind",
+    "20:haze",
+    "24:synthesis",
+    "28:freezedry",
+    "32:seedbomb",
+    "35:leechseed",
+    "38:iciclecrash",
+    "42:magiccoat",
+    "46:aromatherapy",
+    "50:leafstorm"  ],
+  "labels": [
+    "qamor",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.saguartic.desc"
+  ],
+  "preEvolution": "chillichoya",
+  "baseScale": 0.9,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 54,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

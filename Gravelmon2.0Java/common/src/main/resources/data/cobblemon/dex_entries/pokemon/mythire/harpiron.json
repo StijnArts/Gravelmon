@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:harpiron",
+  "speciesId": "cobblemon:harpiron",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,4 +1,4 @@
-package drai.dev.data.games;
+package drai.dev.data.games.other;
 
 import drai.dev.data.games.registry.*;
 

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:wrinklsphinx",
+  "speciesId": "cobblemon:wrinklsphinx",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

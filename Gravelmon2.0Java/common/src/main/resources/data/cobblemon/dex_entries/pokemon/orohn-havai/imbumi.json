@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:imbumi",
+  "speciesId": "cobblemon:imbumi",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

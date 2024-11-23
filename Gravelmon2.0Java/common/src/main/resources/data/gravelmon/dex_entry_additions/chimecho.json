@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:chimecho",
+  "forms": [
+    {
+      "displayForm": "Aromian",
+      "unlockForms": [
+        "Aromian"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
+}

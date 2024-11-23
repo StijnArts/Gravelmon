@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:plumeron",
+  "speciesId": "cobblemon:plumeron",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

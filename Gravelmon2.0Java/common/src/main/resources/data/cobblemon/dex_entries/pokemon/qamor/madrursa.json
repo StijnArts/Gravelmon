@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:madrursa",
+  "speciesId": "cobblemon:madrursa",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

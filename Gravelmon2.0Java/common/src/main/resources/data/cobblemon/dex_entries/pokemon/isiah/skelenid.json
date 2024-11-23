@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:skelenid",
+  "speciesId": "cobblemon:skelenid",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

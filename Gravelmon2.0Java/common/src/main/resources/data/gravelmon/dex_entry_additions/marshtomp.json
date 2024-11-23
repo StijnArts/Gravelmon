@@ -1,0 +1,23 @@
+{
+  "entryId": "cobblemon:marshtomp",
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Mystic",
+      "unlockForms": [
+        "Mystic"
+      ]
+    }
+  ]
+}

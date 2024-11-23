@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:durassault",
+  "speciesId": "cobblemon:durassault",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

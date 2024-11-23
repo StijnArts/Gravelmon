@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:willowanne",
+  "speciesId": "cobblemon:willowanne",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

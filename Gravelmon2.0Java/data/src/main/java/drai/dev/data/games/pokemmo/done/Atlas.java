@@ -111,7 +111,7 @@ public class Atlas extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Tankton());
         var crocodily = new Crocodily();
         addNewPokemon(crocodily);
-//        pokemon.add(new OkenianCrocodily(crocodily.getPokedexNumber())); //Member of line not Finished
+//        addNewPokemon(new OkenianCrocodily(crocodily.getPokedexNumber())); //Member of line not Finished
         pokedex.remove("crocodily-okenian");
         addNewPokemon(new Logrodile());
         addNewPokemon(new Jawligator());
@@ -168,31 +168,31 @@ public class Atlas extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Stalagrunt());
         addNewPokemon(new Stalagang());
 
-        pokemon.add(new Freezef());
-        pokemon.add(new Treezen());
-        pokemon.add(new Echidnum());
-        pokemon.add(new Thundret());
-        pokemon.add(new Sandshar());
-        pokemon.add(new Sharkastle());
-        pokemon.add(new Wisper());
-        pokemon.add(new Wispette());
-        pokemon.add(new Bubbauld());
-        pokemon.add(new Bauldron());
-        pokemon.add(new Ghoulotine());
-        pokemon.add(new Guilloceive());
-        pokemon.add(new Needow());
-        pokemon.add(new Needoon());
-        pokemon.add(new Needella());
-        pokemon.add(new Polynett());
-        pokemon.add(new DhiomanPolynett("", Aspect.DHIOMAN));
-        pokemon.add(new Polyzap());
-        pokemon.add(new Jollancer());
-        pokemon.add(new Krillzaingel());
-        pokemon.add(new Algrain());
-        pokemon.add(new Kelpush());
-        pokemon.add(new Kelprash());
-        pokemon.add(new Gemmo());
-////        pokemon.add(new Torrojo()); Missing Art
+        addNewPokemon(new Freezef());
+        addNewPokemon(new Treezen());
+        addNewPokemon(new Echidnum());
+        addNewPokemon(new Thundret());
+        addNewPokemon(new Sandshar());
+        addNewPokemon(new Sharkastle());
+        addNewPokemon(new Wisper());
+        addNewPokemon(new Wispette());
+        addNewPokemon(new Bubbauld());
+        addNewPokemon(new Bauldron());
+        addNewPokemon(new Ghoulotine());
+        addNewPokemon(new Guilloceive());
+        addNewPokemon(new Needow());
+        addNewPokemon(new Needoon());
+        addNewPokemon(new Needella());
+        addNewPokemon(new Polynett());
+        addNewPokemon(new DhiomanPolynett("", Aspect.DHIOMAN));
+        addNewPokemon(new Polyzap());
+        addNewPokemon(new Jollancer());
+        addNewPokemon(new Krillzaingel());
+        addNewPokemon(new Algrain());
+        addNewPokemon(new Kelpush());
+        addNewPokemon(new Kelprash());
+        addNewPokemon(new Gemmo());
+////        addNewPokemon(new Torrojo()); Missing Art
         addNewPokemon(new Barrose());
         addNewPokemon(new Baobloat());
         addNewPokemon(new Festiata());
@@ -231,8 +231,8 @@ public class Atlas extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Glacyak());
         addNewPokemon(new Ragtoc());
         addNewPokemon(new Chronotoc());
-//        pokemon.add(new Glacyte()); Missing Art
-//        pokemon.add(new Zentipreeze()); Member of line Not Finished
+//        addNewPokemon(new Glacyte()); Missing Art
+//        addNewPokemon(new Zentipreeze()); Member of line Not Finished
         addNewPokemon(new Herokolus());
         addNewPokemon(new Diskobolus());
         addNewPokemon(new Atolus());
@@ -250,9 +250,9 @@ public class Atlas extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Yokeye());
         addNewPokemon(new Ghouch());
         addNewPokemon(new Spireye());
-//        pokemon.add(new Akute()); Member of line Not Finished
-//        pokemon.add(new Oburious()); Missing Art
-//        pokemon.add(new Anglondor()); Missing Art
+//        addNewPokemon(new Akute()); Member of line Not Finished
+//        addNewPokemon(new Oburious()); Missing Art
+//        addNewPokemon(new Anglondor()); Missing Art
         addNewPokemon(new Polypus());
         addNewPokemon(new Scubella());
         addNewPokemon(new Galaguana());

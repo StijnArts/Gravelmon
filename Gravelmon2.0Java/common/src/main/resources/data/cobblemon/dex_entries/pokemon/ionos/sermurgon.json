@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:sermurgon",
+  "speciesId": "cobblemon:sermurgon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,111 @@
+{
+  "implemented": true,
+  "name": "Dorsel",
+  "nationalPokedexNumber": 2394,
+  "primaryType": "water",
+  "abilities": [
+    "swiftswim",
+    "h:rattled"
+  ],
+  "baseStats": {
+    "hp": 44,
+    "attack": 81,
+    "defence": 47,
+    "special_attack": 23,
+    "special_defence": 47,
+    "speed": 68
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:brine",
+    "1:waterfall",
+    "1:razorshell",
+    "1:splash",
+    "1:watergun",
+    "1:babydolleyes",
+    "1:aquajet",
+    "12:waterpulse",
+    "16:yawn",
+    "19:flail",
+    "23:coralbreak",
+    "28:agility",
+    "34:raindance",
+    "39:aquatail",
+    "45:finalgambit",
+    "50:hypervoice",
+    "37:finalgambit"  ],
+  "labels": [
+    "varitas",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.dorsel.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "dorsel_riverous",
+      "variant": "level_up",
+      "result": "riverous",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 27
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

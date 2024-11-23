@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gloomineon",
+  "speciesId": "cobblemon:gloomineon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

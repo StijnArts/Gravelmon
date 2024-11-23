@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:rhyferal",
+  "speciesId": "cobblemon:rhyferal",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:huntail-novran",
+  "speciesId": "cobblemon:huntail",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Novran",
+      "unlockForms": [
+        "Novran"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:grillardin",
+  "speciesId": "cobblemon:grillardin",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

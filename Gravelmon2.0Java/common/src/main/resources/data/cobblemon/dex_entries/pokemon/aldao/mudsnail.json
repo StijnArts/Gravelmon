@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:mudsnail",
+  "speciesId": "cobblemon:mudsnail",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

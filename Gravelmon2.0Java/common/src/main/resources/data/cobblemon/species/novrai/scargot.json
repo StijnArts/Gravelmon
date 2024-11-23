@@ -1,0 +1,162 @@
+{
+  "implemented": true,
+  "name": "Scargot",
+  "nationalPokedexNumber": 6773,
+  "primaryType": "fire",
+  "secondaryType": "electric",
+  "abilities": [
+    "static",
+    "flamebody"  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 50,
+    "defence": 115,
+    "special_attack": 115,
+    "special_defence": 70,
+    "speed": 30
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 165,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous",
+    "water_1"
+  ],
+  "moves": [
+    "1:firespin",
+    "5:thundershock",
+    "9:growl",
+    "12:spark",
+    "16:incinerate",
+    "19:thunderwave",
+    "21:block",
+    "25:flameburst",
+    "28:risingvoltage",
+    "30:irondefense",
+    "33:poisonjab",
+    "37:shelltrap",
+    "41:discharge",
+    "46:shellsmash",
+    "50:fireblast",
+    "55:thunder",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:gunkshot",
+    "tm:refresh",
+    "tm:shockwave",
+    "tm:endeavor",
+    "tm:toxicthread",
+    "tm:snore",
+    "tm:electricterrain",
+    "tm:rapidspin",
+    "tm:focusenergy",
+    "tm:heatcrash",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:solarbeam",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:return",
+    "tm:painsplit",
+    "tm:flamethrower",
+    "tm:sludgebomb",
+    "tm:fireblast",
+    "tm:torment",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:rest",
+    "tm:rocksmash",
+    "tm:signalbeam",
+    "tm:overheat",
+    "tm:scald",
+    "tm:chargebeam",
+    "tm:curse",
+    "tm:willowisp",
+    "tm:flash",
+    "tm:explosion",
+    "tm:smartstrike",
+    "tm:gigaimpact",
+    "tm:voltswitch",
+    "tm:thunderwave",
+    "tm:venoshock",
+    "tm:infestation",
+    "tm:poisonjab",
+    "tm:swagger",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:wildcharge",
+    "tm:naturalgift",
+    "tm:magnetrise",
+    "tm:confide",
+    "tm:scorchingsands",
+    "tm:bodypress",
+    "tm:smackdown",
+    "tm:venomdrench",
+    "tm:attract",
+    "tm:heatwave",
+    "tm:acidspray",
+    "tm:pinmissile",
+    "tm:lavaplume",
+    "tm:spikes",
+    "tm:toxicspikes",
+    "tm:paraboliccharge"  ],
+  "labels": [
+    "novrai",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.scargot.desc"
+  ],
+  "baseScale": 0.18333333333333335,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:veswater",
+  "speciesId": "cobblemon:veswater",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

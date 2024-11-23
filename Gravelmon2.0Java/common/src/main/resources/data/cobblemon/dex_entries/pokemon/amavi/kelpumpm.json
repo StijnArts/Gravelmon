@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:kelpumpm",
+  "speciesId": "cobblemon:kelpumpm",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

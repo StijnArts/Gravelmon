@@ -1,0 +1,243 @@
+{
+   "target": "cobblemon:clefairy",
+   "forms": [{
+  "name": "Forman",
+  "primaryType": "fairy",
+  "secondaryType": "flying",
+  "abilities": [
+    "serenegrace"  ],
+  "baseStats": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:disarmingvoice",
+    "1:gust"  ],
+  "labels": [
+    "form",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.formanclefairy.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 0,
+  "weight": 0,
+  "aspects": ["forman"],
+  "cannotDynamax": false
+},
+{
+  "name": "Epoch",
+  "primaryType": "cosmic",
+  "secondaryType": "fairy",
+  "abilities": [
+    "fairyaura",
+    "mistysurge",
+    "h:shielddust"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 30,
+    "defence": 48,
+    "special_attack": 45,
+    "special_defence": 65,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 150,
+  "shoulderMountable": false,
+  "baseExperienceYield": 113,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy"
+  ],
+  "moves": [
+    "25:charm",
+    "25:captivate",
+    "50:moonblast",
+    "1:drainingkiss",
+    "4:sweetkiss",
+    "12:disarmingvoice",
+    "1:fairywind",
+    "47:dazzlinggleam",
+    "54:lunardance",
+    "1:stardust",
+    "22:mistyterrain",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:aromatherapy",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:bounce",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:drainingkiss",
+    "tm:dualwingbeat",
+    "tm:echoedvoice",
+    "tm:expandingforce",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:geomancy",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:hypervoice",
+    "tm:knockoff",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:memento",
+    "tm:meteorbeam",
+    "tm:meteormash",
+    "tm:metronome",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:payday",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:trickroom",
+    "tm:weatherball",
+    "tm:willowisp",
+    "tm:wish",
+    "tm:wonderroom",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochclefairy.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "clefairy_epoch_clefable",
+      "variant": "item_interact",
+      "result": "epoch clefable",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:moon_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 75,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+}
+], "features": [
+"forman",
+"epoch"
+  ]
+}

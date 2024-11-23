@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:mothmother",
+  "speciesId": "cobblemon:mothmother",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

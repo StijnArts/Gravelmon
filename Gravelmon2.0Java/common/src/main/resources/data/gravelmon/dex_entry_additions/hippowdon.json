@@ -1,0 +1,23 @@
+{
+  "entryId": "cobblemon:hippowdon",
+  "forms": [
+    {
+      "displayForm": "Mahalian",
+      "unlockForms": [
+        "Mahalian"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Armiran",
+      "unlockForms": [
+        "Armiran"
+      ]
+    }
+  ]
+}

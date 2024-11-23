@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:colibreeze",
+  "speciesId": "cobblemon:colibreeze",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

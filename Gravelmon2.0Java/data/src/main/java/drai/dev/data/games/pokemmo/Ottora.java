@@ -15,51 +15,51 @@ public class Ottora extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new OttoranHonedge("", Aspect.OTTORAN));
-        pokemon.add(new OttoranDoublade("", Aspect.OTTORAN));
+        addNewPokemon(new OttoranHonedge("", Aspect.OTTORAN));
+        addNewPokemon(new OttoranDoublade("", Aspect.OTTORAN));
 
-//        pokemon.add(new Hopling()); MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Bunbush()); MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Inflagulo());  MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Wolverupt()); MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Guillie()); MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Deeluge()); MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Moosong()); MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Pinjure()); MEMBER OF LINE NOT FINISHED
-        pokemon.add(new Stachick());
-        pokemon.add(new Shockite());
-//        pokemon.add(new Floodle()); MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Civilarva()); MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Pupail()); MEMBER OF LINE NOT FINISHED
-        pokemon.add(new Jueshika());
-//        pokemon.add(new Aqquack()); MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Cabbrain()); MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Finook()); MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Aubat()); MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Dustbun()); MEMBER OF LINE NOT FINISHED
-        pokemon.add(new Levieon(new Stats(525, StatArchetype.FAST_SPECIAL_ATTACKER,
+//        addNewPokemon(new Hopling()); MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Bunbush()); MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Inflagulo());  MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Wolverupt()); MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Guillie()); MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Deeluge()); MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Moosong()); MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Pinjure()); MEMBER OF LINE NOT FINISHED
+        addNewPokemon(new Stachick());
+        addNewPokemon(new Shockite());
+//        addNewPokemon(new Floodle()); MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Civilarva()); MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Pupail()); MEMBER OF LINE NOT FINISHED
+        addNewPokemon(new Jueshika());
+//        addNewPokemon(new Aqquack()); MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Cabbrain()); MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Finook()); MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Aubat()); MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Dustbun()); MEMBER OF LINE NOT FINISHED
+        addNewPokemon(new Levieon(new Stats(525, StatArchetype.FAST_SPECIAL_ATTACKER,
                 List.of(StatType.SPEED))));
-        pokemon.add(new Bankeon(new Stats(525, StatArchetype.FAST_SPECIAL_WALL,
+        addNewPokemon(new Bankeon(new Stats(525, StatArchetype.FAST_SPECIAL_WALL,
                 List.of(StatType.SPECIAL_DEFENCE)))); //renamed from duneon
-//        pokemon.add(new Sporita());   MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Doznale());   MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Impidimp(859));   MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Fawnt());   MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Salfurrr());   MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Specture());   MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Pidunce());   MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Minmallow());   MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new Netyke());   MEMBER OF LINE NOT FINISHED
-        pokemon.add(new Disix());
-        pokemon.add(new Diielve());
-        pokemon.add(new Giiem(new Stats(520, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER,
+//        addNewPokemon(new Sporita());   MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Doznale());   MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Impidimp(859));   MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Fawnt());   MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Salfurrr());   MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Specture());   MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Pidunce());   MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Minmallow());   MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Netyke());   MEMBER OF LINE NOT FINISHED
+        addNewPokemon(new Disix());
+        addNewPokemon(new Diielve());
+        addNewPokemon(new Giiem(new Stats(520, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER,
                 List.of(StatType.SPECIAL_DEFENCE))));
-        pokemon.add(new Howltlaw());
-        pokemon.add(new Aegistump(new Stats(500, StatArchetype.PHYSICAL_WALL,
+        addNewPokemon(new Howltlaw());
+        addNewPokemon(new Aegistump(new Stats(500, StatArchetype.PHYSICAL_WALL,
                 List.of(StatType.DEFENCE, StatType.DEFENCE, StatType.HP))));
-        pokemon.add(new Chainslash(new Stats(500, StatArchetype.FAST_PHYSICAL_ATTACKER,
+        addNewPokemon(new Chainslash(new Stats(500, StatArchetype.FAST_PHYSICAL_ATTACKER,
                 List.of(StatType.ATTACK, StatType.ATTACK, StatType.ATTACK))));
-        pokemon.add(new Copurr(new Stats(350, StatArchetype.FAST_SUPPORT,
+        addNewPokemon(new Copurr(new Stats(350, StatArchetype.FAST_SUPPORT,
                 List.of(StatType.DEFENCE))));
     }
 

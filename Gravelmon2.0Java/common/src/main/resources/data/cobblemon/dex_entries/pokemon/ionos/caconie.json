@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:caconie",
+  "speciesId": "cobblemon:caconie",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

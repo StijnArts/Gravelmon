@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:phoncrawl",
+  "speciesId": "cobblemon:phoncrawl",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:compoet",
+  "speciesId": "cobblemon:compoet",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:shellder-norheiman",
+  "speciesId": "cobblemon:shellder",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Norheiman",
+      "unlockForms": [
+        "Norheiman"
+      ]
+    }
+  ],
+  "variations": []
+}

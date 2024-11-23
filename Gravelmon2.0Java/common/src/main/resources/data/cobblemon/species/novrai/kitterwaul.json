@@ -1,0 +1,173 @@
+{
+  "implemented": true,
+  "name": "Kitterwaul",
+  "nationalPokedexNumber": 6697,
+  "primaryType": "dark",
+  "secondaryType": "fairy",
+  "abilities": [
+    "soundproof",
+    "contrary"  ],
+  "baseStats": {
+    "hp": 41,
+    "attack": 25,
+    "defence": 28,
+    "special_attack": 62,
+    "special_defence": 60,
+    "speed": 71
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 57,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:scratch",
+    "3:babydolleyes",
+    "7:assist",
+    "9:disarmingvoice",
+    "12:doubleteam",
+    "16:echoedvoice",
+    "19:snarl",
+    "22:confuseray",
+    "27:meanlook",
+    "30:nightdaze",
+    "34:phantomforce",
+    "38:hypervoice",
+    "41:moonblast",
+    "45:screech",
+    "53:minimize",
+    "56:perishsong",
+    "60:nastyplot",
+    "tm:healbell",
+    "tm:zenheadbutt",
+    "tm:recycle",
+    "tm:trick",
+    "tm:hypervoice",
+    "tm:knockoff",
+    "tm:foulplay",
+    "tm:shockwave",
+    "tm:icywind",
+    "tm:phantomforce",
+    "tm:suckerpunch",
+    "tm:magiccoat",
+    "tm:snore",
+    "tm:mistyterrain",
+    "tm:ominouswind",
+    "tm:encore",
+    "tm:nastyplot",
+    "tm:storedpower",
+    "tm:poltergeist",
+    "tm:skittersmack",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:protect",
+    "tm:raindance",
+    "tm:safeguard",
+    "tm:thunderbolt",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:painsplit",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:luckychant",
+    "tm:thief",
+    "tm:honeclaws",
+    "tm:waterpulse",
+    "tm:curse",
+    "tm:willowisp",
+    "tm:shadowclaw",
+    "tm:thunderwave",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:sleeptalk",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:trickroom",
+    "tm:triattack",
+    "tm:snarl",
+    "tm:naturalgift",
+    "tm:darkpulse",
+    "tm:confide",
+    "tm:skillswap",
+    "tm:attract",
+    "tm:hex",
+    "tm:cut",
+    "tm:pursuit",
+    "tm:topsyturvy",
+    "tm:wonderroom",
+    "tm:charm",
+    "tm:healblock",
+    "tm:miracleeye",
+    "tm:uproar"  ],
+  "labels": [
+    "novrai",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.kitterwaul.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "kitterwaul_impawzible",
+      "variant": "item_interact",
+      "result": "impawzible",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:moon_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 3,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

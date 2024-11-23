@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:grifowl",
+  "speciesId": "cobblemon:grifowl",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:glaby",
+  "speciesId": "cobblemon:glaby",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -2,6 +2,7 @@ package drai.dev.data.games.other;
 
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.flux.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Flux extends Game {
     public Flux() {super("Flux");}
@@ -52,17 +53,17 @@ public class Flux extends Game {
         addNewPokemon(new SalmosaultSaltwater());
         addNewPokemon(new Taroot());
         addNewPokemon(new Daikongus());
-//        pokemon.add(new Brontoloom()); Not Made yet
+//        addNewPokemon(new Brontoloom()); Not Made yet
         addNewPokemon(new Magief());
         addNewPokemon(new Corsuave());
-//        pokemon.add(new Raverogue()); Not Made yet
+//        addNewPokemon(new Raverogue()); Not Made yet
         addNewPokemon(new Zorotsune());
         addNewPokemon(new Nursa());
         addNewPokemon(new Cuspide());
         addNewPokemon(new Tarandible());
         addNewPokemon(new Gunafix());
         addNewPokemon(new Fixinit());
-//        pokemon.add(new Artifixt()); Not Made yet
+//        addNewPokemon(new Artifixt()); Not Made yet
         addNewPokemon(new Comite());
         addNewPokemon(new Cometeor());
         addNewPokemon(new Astronite());
@@ -72,15 +73,15 @@ public class Flux extends Game {
         addNewPokemon(new Insulatex());
         addNewPokemon(new Negawatt());
         addNewPokemon(new Sputya());
-//        pokemon.add(new Kosmisha()); Not Made yet
-//        pokemon.add(new Debrichka()); Not Made yet
+//        addNewPokemon(new Kosmisha()); Not Made yet
+//        addNewPokemon(new Debrichka()); Not Made yet
         addNewPokemon(new Flager());
         addNewPokemon(new Inflagetah());
         addNewPokemon(new Jerbolta());
         addNewPokemon(new Karmilarie());
         addPokedexPokemon("ekans-alteran, arbok-alteran");
         addNewPokemon(new Cactana());
-//        pokemon.add(new AlteranChimical()); //unfinished
+//        addNewPokemon(new AlteranChimical()); //unfinished
         addNewPokemon(new Emberge());
         addNewPokemon(new Aerapin());
         addNewPokemon(new Albashell());

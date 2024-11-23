@@ -9,24 +9,24 @@ public class Borazul extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new Drubat().setUsesBigModel()); //Renamed from Fruibat
-        pokemon.add(new Foliwing().setUsesBigModel());
-        pokemon.add(new Acairadon().setUsesBigModel());
-        pokemon.add(new Coaliz().setUsesBigModel());
-        pokemon.add(new Sizzlick().setUsesBigModel());
-        pokemon.add(new Apoiformer().setUsesBigModel());
-        pokemon.add(new Seaquin().setUsesBigModel());
-        pokemon.add(new Equamarin().setUsesBigModel());
-        pokemon.add(new Aquavallo().setUsesBigModel());
-        pokemon.add(new Humbird().setUsesBigModel());
-        pokemon.add(new Paradivia().setUsesBigModel());
-        pokemon.add(new Pitic().setUsesBigModel());
-        pokemon.add(new Shelpa().setUsesBigModel());
-        pokemon.add(new Moskiringe().setUsesBigModel());
-        pokemon.add(new Hibiskiss().setUsesBigModel());
-        pokemon.add(new Glamamela().setUsesBigModel());
-        pokemon.add(new Rootkie().setUsesBigModel());
-        pokemon.add(new Bambooton().setUsesBigModel());
+        addNewPokemon(new Drubat().setUsesBigModel()); //Renamed from Fruibat
+        addNewPokemon(new Foliwing().setUsesBigModel());
+        addNewPokemon(new Acairadon().setUsesBigModel());
+        addNewPokemon(new Coaliz().setUsesBigModel());
+        addNewPokemon(new Sizzlick().setUsesBigModel());
+        addNewPokemon(new Apoiformer().setUsesBigModel());
+        addNewPokemon(new Seaquin().setUsesBigModel());
+        addNewPokemon(new Equamarin().setUsesBigModel());
+        addNewPokemon(new Aquavallo().setUsesBigModel());
+        addNewPokemon(new Humbird().setUsesBigModel());
+        addNewPokemon(new Paradivia().setUsesBigModel());
+        addNewPokemon(new Pitic().setUsesBigModel());
+        addNewPokemon(new Shelpa().setUsesBigModel());
+        addNewPokemon(new Moskiringe().setUsesBigModel());
+        addNewPokemon(new Hibiskiss().setUsesBigModel());
+        addNewPokemon(new Glamamela().setUsesBigModel());
+        addNewPokemon(new Rootkie().setUsesBigModel());
+        addNewPokemon(new Bambooton().setUsesBigModel());
     }
 
 }

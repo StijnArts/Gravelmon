@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:watchog",
+  "forms": [
+    {
+      "displayForm": "Ferranian",
+      "unlockForms": [
+        "Ferranian"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
+}

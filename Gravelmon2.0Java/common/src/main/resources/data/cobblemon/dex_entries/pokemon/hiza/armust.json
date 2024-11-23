@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:armust",
+  "speciesId": "cobblemon:armust",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:clunch",
+  "speciesId": "cobblemon:clunch",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

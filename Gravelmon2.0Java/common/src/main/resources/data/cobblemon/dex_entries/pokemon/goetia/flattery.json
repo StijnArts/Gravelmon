@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:flattery",
+  "speciesId": "cobblemon:flattery",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

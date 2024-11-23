@@ -1,0 +1,153 @@
+{
+  "implemented": true,
+  "name": "Dimwatt",
+  "nationalPokedexNumber": 6715,
+  "primaryType": "electric",
+  "abilities": [
+    "dazzling",
+    "levitate",
+    "h:illuminate"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 20,
+    "defence": 40,
+    "special_attack": 75,
+    "special_defence": 30,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 180,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 53,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:flash",
+    "7:hiddenpower",
+    "12:spark",
+    "14:confuseray",
+    "16:chargebeam",
+    "19:lightscreen",
+    "23:risingvoltage",
+    "25:signalbeam",
+    "29:lusterpurge",
+    "34:discharge",
+    "37:spotlight",
+    "40:psyshock",
+    "45:thunderbolt",
+    "tm:headbutt",
+    "tm:zenheadbutt",
+    "tm:recycle",
+    "tm:trick",
+    "tm:shockwave",
+    "tm:magiccoat",
+    "tm:snore",
+    "tm:electricterrain",
+    "tm:powergem",
+    "tm:storedpower",
+    "tm:psyshock",
+    "tm:calmmind",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:solarbeam",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:reflect",
+    "tm:facade",
+    "tm:rest",
+    "tm:thief",
+    "tm:signalbeam",
+    "tm:chargebeam",
+    "tm:curse",
+    "tm:flash",
+    "tm:voltswitch",
+    "tm:thunderwave",
+    "tm:swagger",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:trickroom",
+    "tm:wildcharge",
+    "tm:triattack",
+    "tm:naturalgift",
+    "tm:magnetrise",
+    "tm:dazzlinggleam",
+    "tm:confide",
+    "tm:skillswap"  ],
+  "labels": [
+    "novrai",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.dimwatt.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "dimwatt_bulbright",
+      "variant": "level_up",
+      "result": "bulbright",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 18
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 2,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

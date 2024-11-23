@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:quaboom",
+  "speciesId": "cobblemon:quaboom",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

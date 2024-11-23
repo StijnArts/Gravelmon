@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:dormie",
+  "speciesId": "cobblemon:dormie",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

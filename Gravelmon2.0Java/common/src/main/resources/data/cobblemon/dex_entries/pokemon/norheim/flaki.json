@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:flaki",
+  "speciesId": "cobblemon:flaki",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:jinnister",
+  "speciesId": "cobblemon:jinnister",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

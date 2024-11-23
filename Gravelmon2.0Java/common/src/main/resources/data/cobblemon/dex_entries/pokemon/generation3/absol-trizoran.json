@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:absol-trizoran",
+  "speciesId": "cobblemon:absol",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Trizoran",
+      "unlockForms": [
+        "Trizoran"
+      ]
+    }
+  ],
+  "variations": []
+}

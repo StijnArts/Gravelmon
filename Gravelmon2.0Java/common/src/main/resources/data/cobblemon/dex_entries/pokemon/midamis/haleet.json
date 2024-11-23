@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:haleet",
+  "speciesId": "cobblemon:haleet",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

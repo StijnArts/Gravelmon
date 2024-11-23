@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:caecarette",
+  "speciesId": "cobblemon:caecarette",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

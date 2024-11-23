@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:udderling",
+  "speciesId": "cobblemon:udderling",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

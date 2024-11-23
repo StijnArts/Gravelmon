@@ -97,7 +97,7 @@ public class PokemonForm {
         this.weight = weight;
         this.evolutions = evolutions;
         this.isBattleOnly = isBattleOnly;
-        this.spawnData.add(new PokemonSpawnData(spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight, spawnConditions, spawnAntiConditions, spawnPresets));
+        this.spawnData.add(new PokemonSpawnData(spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight, spawnConditions, spawnAntiConditions, spawnPresets, new ArrayList<>()));
         this.dexEntries = dexEntries;
         this.dropAmount = dropAmount;
         this.drops = new ArrayList<>();

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:victreebel-avalossian",
+  "speciesId": "cobblemon:victreebel",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Avalossian",
+      "unlockForms": [
+        "Avalossian"
+      ]
+    }
+  ],
+  "variations": []
+}

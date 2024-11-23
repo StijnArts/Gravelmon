@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:kiell",
+  "speciesId": "cobblemon:kiell",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

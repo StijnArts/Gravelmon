@@ -1,0 +1,127 @@
+{
+  "implemented": true,
+  "name": "Byakuga",
+  "nationalPokedexNumber": 6347,
+  "primaryType": "ice",
+  "secondaryType": "electric",
+  "abilities": [
+    "rivalry",
+    "h:motordrive"
+  ],
+  "baseStats": {
+    "hp": 84,
+    "attack": 111,
+    "defence": 70,
+    "special_attack": 55,
+    "special_defence": 65,
+    "speed": 130
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 212,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:darkpulse",
+    "1:tackle",
+    "1:howl",
+    "1:powdersnow",
+    "1:darkroar",
+    "7:powdersnow",
+    "11:darkroar",
+    "14:charm",
+    "20:bite",
+    "24:hail",
+    "27:icywind",
+    "30:icefang",
+    "34:frostbreath",
+    "39:roar",
+    "43:crunch",
+    "53:frostbite",
+    "61:haze",
+    "68:blizzard",
+    "tm:waterpulse",
+    "tm:frostbite",
+    "tm:frustration",
+    "tm:dig",
+    "tm:aerialace",
+    "tm:cut",
+    "tm:strength",
+    "tutor:pursuit",
+    "tutor:tailwhip",
+    "tutor:feintattack",
+    "tutor:freezedry",
+    "tutor:honeclaws",
+    "tutor:agility",
+    "tutor:iciclecrash",
+    "tutor:wormhole",
+    "tutor:blackhole",
+    "egg:assist",
+    "egg:fakeout",
+    "egg:foulplay",
+    "egg:leer",
+    "egg:razorwind",
+    "egg:sheercold",
+    "egg:snarl",
+    "egg:snatch",
+    "egg:suckerpunch",
+    "egg:swift",
+    "egg:torment"  ],
+  "labels": [
+    "deneb",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.byakuga.desc"
+  ],
+  "preEvolution": "nyaga",
+  "baseScale": 0.31666666666666665,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 19,
+  "weight": 963,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

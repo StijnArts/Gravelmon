@@ -1,0 +1,99 @@
+{
+  "implemented": true,
+  "name": "Kippsie",
+  "nationalPokedexNumber": 2738,
+  "primaryType": "water",
+  "secondaryType": "flying",
+  "abilities": [
+    "swiftswim"  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 24,
+    "defence": 34,
+    "special_attack": 32,
+    "special_defence": 33,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 180,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:watergun",
+    "1:gust",
+    "1:healbell",
+    "1:healbell",
+    "1:vacuumwave",
+    "1:vacuumwave"  ],
+  "labels": [
+    "kuulkid",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.kippsie.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "kippsie_soarine",
+      "variant": "level_up",
+      "result": "soarine",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "fly"
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 5,
+  "weight": 0,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

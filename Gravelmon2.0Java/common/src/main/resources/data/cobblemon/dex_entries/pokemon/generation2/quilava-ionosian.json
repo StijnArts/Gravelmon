@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:quilava-ionosian",
+  "speciesId": "cobblemon:quilava",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ionosian",
+      "unlockForms": [
+        "Ionosian"
+      ]
+    }
+  ],
+  "variations": []
+}

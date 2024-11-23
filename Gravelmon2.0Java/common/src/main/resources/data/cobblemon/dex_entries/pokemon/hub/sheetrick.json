@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:sheetrick",
+  "speciesId": "cobblemon:sheetrick",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,10 @@
+{
+  "type": "cobblemon:simple_pokedex_def",
+  "sortOrder": 49,
+  "id": "gravelmon:soulstones",
+  "entries": [
+    "cobblemon:galaxeon",
+    "cobblemon:prismeon",
+    "cobblemon:octaveon"
+  ]
+}

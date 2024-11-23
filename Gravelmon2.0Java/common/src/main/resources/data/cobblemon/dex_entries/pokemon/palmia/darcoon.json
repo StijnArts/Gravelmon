@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:darcoon",
+  "speciesId": "cobblemon:darcoon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

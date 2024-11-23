@@ -1,0 +1,141 @@
+{
+  "implemented": true,
+  "name": "Electrocuke",
+  "nationalPokedexNumber": 1902,
+  "primaryType": "flying",
+  "secondaryType": "electric",
+  "abilities": [
+    "electricsurge",
+    "h:static"
+  ],
+  "baseStats": {
+    "hp": 130,
+    "attack": 45,
+    "defence": 75,
+    "special_attack": 80,
+    "special_defence": 75,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 160,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_3",
+    "dragon"
+  ],
+  "moves": [
+    "1:twister",
+    "1:hurricane",
+    "1:zingzap",
+    "1:iondeluge",
+    "1:charge",
+    "1:electricterrain",
+    "1:storedpower",
+    "1:recover",
+    "1:teeterdance",
+    "1:tailwind",
+    "1:luckychant",
+    "1:aircutter",
+    "1:thundershock",
+    "tm:attract",
+    "tm:bide",
+    "tm:blizzard",
+    "tm:chargebeam",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:dragonpulse",
+    "tm:dragonrage",
+    "tm:dreameater",
+    "tm:explosion",
+    "tm:facade",
+    "tm:fly",
+    "tm:focusblast",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:horndrill",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:lightscreen",
+    "tm:mimic",
+    "tm:protect",
+    "tm:rage",
+    "tm:raindance",
+    "tm:razorwind",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:selfdestruct",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:smartstrike",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:swift",
+    "tm:takedown",
+    "tm:thunder",
+    "tm:thunderwave",
+    "tm:thunderbolt",
+    "tm:toxic",
+    "tm:voltswitch",
+    "tm:whirlwind",
+    "tm:wildcharge",
+    "tm:workup"  ],
+  "labels": [
+    "ferroa",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.electrocuke.desc"
+  ],
+  "preEvolution": "denkyu",
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 12,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

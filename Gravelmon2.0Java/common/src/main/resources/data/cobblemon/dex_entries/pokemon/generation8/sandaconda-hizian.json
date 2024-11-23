@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:sandaconda-hizian",
+  "speciesId": "cobblemon:sandaconda",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Hizian",
+      "unlockForms": [
+        "Hizian"
+      ]
+    }
+  ],
+  "variations": []
+}

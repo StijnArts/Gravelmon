@@ -1,0 +1,104 @@
+{
+   "target": "cobblemon:lilligant",
+   "forms": [{
+  "name": "Cefiran",
+  "primaryType": "grass",
+  "secondaryType": "poison",
+  "abilities": [
+    "prankster",
+    "owntempo",
+    "h:leafguard"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 60,
+    "defence": 75,
+    "special_attack": 90,
+    "special_defence": 110,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "shoulderMountable": false,
+  "baseExperienceYield": 220,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass"
+  ],
+  "moves": [
+    "1:sludge",
+    "1:growth",
+    "1:leechseed",
+    "1:megadrain",
+    "1:synthesis",
+    "10:teeterdance",
+    "28:quiverdance",
+    "36:signalbeam",
+    "46:petaldance",
+    "55:sludgewave",
+    "60:venoshock",
+    "egg:tackle",
+    "egg:charm",
+    "egg:endure",
+    "egg:grasswhistle",
+    "egg:healingwish",
+    "egg:ingrain",
+    "egg:naturalgift",
+    "egg:sweetscent",
+    "egg:worryseed"  ],
+  "labels": [
+    "gen5",
+    "opal",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.cefiranlilligant.desc"
+  ],
+  "preEvolution": "petilil form=cefiran",
+  "baseScale": 0.18333333333333335,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 163,
+  "aspects": ["cefiran"],
+  "cannotDynamax": false
+}
+], "features": [
+"cefiran"
+  ]
+}

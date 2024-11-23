@@ -2,6 +2,7 @@ package drai.dev.data.games.other;
 
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.vega.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Deneb extends Game {
     public Deneb() {super("Deneb");}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:metagross-delta_ruin",
+  "speciesId": "cobblemon:metagross",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Deltaruin",
+      "unlockForms": [
+        "Deltaruin"
+      ]
+    }
+  ],
+  "variations": []
+}

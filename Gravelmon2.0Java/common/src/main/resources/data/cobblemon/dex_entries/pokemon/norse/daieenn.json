@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:daieenn",
+  "speciesId": "cobblemon:daieenn",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

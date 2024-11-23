@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:shadowl",
+  "speciesId": "cobblemon:shadowl",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,107 @@
+{
+  "implemented": true,
+  "name": "Hadrosmoke",
+  "nationalPokedexNumber": 5181,
+  "primaryType": "fire",
+  "abilities": [
+    "angerpoint",
+    "magmaarmor",
+    "h:whitesmoke"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 115,
+    "defence": 95,
+    "special_attack": 55,
+    "special_defence": 60,
+    "speed": 90
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 172,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster"
+  ],
+  "moves": [
+    "1:smokescreen",
+    "1:smog",
+    "1:incinerate",
+    "1:fireblast",
+    "1:flameburst",
+    "1:lockon",
+    "1:dragonbreath",
+    "1:whirlwind",
+    "1:stomp",
+    "1:causticbreath",
+    "tm:defog",
+    "tm:lastresort",
+    "tm:lowkick",
+    "tm:recycle",
+    "tm:snore",
+    "tm:uproar",
+    "tm:signalbeam",
+    "tm:dragonpulse",
+    "tm:gunkshot",
+    "tm:heatwave",
+    "tm:outrage",
+    "tm:stompingtantrum",
+    "tm:superpower",
+    "tm:burningjealousy",
+    "tm:scorchingsands"  ],
+  "labels": [
+    "mythire",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.hadrosmoke.desc"
+  ],
+  "preEvolution": "snuffellow",
+  "baseScale": 0.3,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 18,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

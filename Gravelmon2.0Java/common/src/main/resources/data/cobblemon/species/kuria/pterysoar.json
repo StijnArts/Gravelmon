@@ -1,0 +1,111 @@
+{
+  "implemented": true,
+  "name": "Pterysoar",
+  "nationalPokedexNumber": 5637,
+  "primaryType": "rock",
+  "secondaryType": "flying",
+  "abilities": [
+    "strongjaw",
+    "sandforce",
+    "h:unburden"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 95,
+    "defence": 55,
+    "special_attack": 70,
+    "special_defence": 55,
+    "speed": 85
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 144,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "dragon",
+    "flying"
+  ],
+  "moves": [
+    "1:harden",
+    "6:rockthrow",
+    "10:wingattack",
+    "17:mirrormove",
+    "20:block",
+    "25:rockblast",
+    "33:takedown",
+    "39:painsplit",
+    "46:stealthrock",
+    "52:skydrop",
+    "61:stoneedge"  ],
+  "labels": [
+    "kuria",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.pterysoar.desc"
+  ],
+  "preEvolution": "ferociraptor",
+  "evolutions": [
+    {
+      "id": "pterysoar_hoatzan",
+      "variant": "level_up",
+      "result": "hoatzan",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 44
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.16666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 226,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

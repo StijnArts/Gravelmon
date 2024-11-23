@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:anaither",
+  "speciesId": "cobblemon:anaither",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}
