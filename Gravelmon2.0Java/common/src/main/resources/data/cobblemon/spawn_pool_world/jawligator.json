@@ -2,5 +2,26 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "jawligator-01",
+      "pokemon": "jawligator",
+      "presets": [
+        "freshwater"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "uncommon",
+      "level": "42-58",
+      "weight": 0.7,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_swamp"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    }
+  ]
 }

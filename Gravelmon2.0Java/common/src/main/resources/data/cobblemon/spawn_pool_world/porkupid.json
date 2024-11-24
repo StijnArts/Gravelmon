@@ -2,5 +2,23 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "porkupid-01",
+      "pokemon": "porkupid",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "31-52",
+      "weight": 0.4,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical"
+        ]
+      }
+    }
+  ]
 }

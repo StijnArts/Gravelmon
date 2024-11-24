@@ -2,5 +2,41 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "epoch_lopunny-01",
+      "pokemon": "lopunny epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "34-54",
+      "weight": 0.2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "delta_lopunny-01",
+      "pokemon": "lopunny delta",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "28-45",
+      "weight": 0.3,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_desert"
+        ]
+      }
+    }
+  ]
 }

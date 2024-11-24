@@ -2,5 +2,24 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "monstale-01",
+      "pokemon": "monstale",
+      "presets": [
+        "underwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "rare",
+      "level": "35-60",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_beach"
+        ],
+        "timeRange": "night"
+      }
+    }
+  ]
 }

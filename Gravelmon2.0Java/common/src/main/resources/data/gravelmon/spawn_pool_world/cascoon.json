@@ -2,5 +2,23 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "epoch_cascoon-01",
+      "pokemon": "cascoon epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "11-26",
+      "weight": 0.8,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy_forest"
+        ]
+      }
+    }
+  ]
 }

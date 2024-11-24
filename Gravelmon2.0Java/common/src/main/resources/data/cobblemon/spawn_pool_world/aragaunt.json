@@ -2,5 +2,23 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "aragaunt-01",
+      "pokemon": "aragaunt",
+      "presets": [
+        "near_water"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cave"
+        ]
+      }
+    }
+  ]
 }

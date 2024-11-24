@@ -2,5 +2,23 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "silnun-01",
+      "pokemon": "silnun",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "3-26",
+      "weight": 3.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical"
+        ]
+      }
+    }
+  ]
 }

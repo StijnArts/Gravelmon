@@ -2,5 +2,23 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "nymfaun-01",
+      "pokemon": "nymfaun",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_old_growth_taiga"
+        ]
+      }
+    }
+  ]
 }

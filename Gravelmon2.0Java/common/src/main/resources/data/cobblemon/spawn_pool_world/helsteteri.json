@@ -2,5 +2,24 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "helsteteri-01",
+      "pokemon": "helsteteri",
+      "presets": [
+        "underwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "9-28",
+      "weight": 3.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
+        "timeRange": "night"
+      }
+    }
+  ]
 }

@@ -2,5 +2,59 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "epoch_magcargo-01",
+      "pokemon": "magcargo epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "38-54",
+      "weight": 0.4,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ]
+      }
+    },
+    {
+      "id": "epoch_magcargo-01",
+      "pokemon": "magcargo epoch",
+      "presets": [
+        "underwater"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "common",
+      "level": "33-52",
+      "weight": 0.4,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ]
+      }
+    },
+    {
+      "id": "cefiran_magcargo-01",
+      "pokemon": "magcargo cefiran",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "32-56",
+      "weight": 0.18,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
+      }
+    }
+  ]
 }

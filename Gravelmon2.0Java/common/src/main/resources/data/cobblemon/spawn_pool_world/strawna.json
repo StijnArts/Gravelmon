@@ -2,5 +2,23 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "strawna-01",
+      "pokemon": "strawna",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "25-44",
+      "weight": 1.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
+      }
+    }
+  ]
 }

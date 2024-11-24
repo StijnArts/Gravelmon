@@ -2,5 +2,23 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "monebu-01",
+      "pokemon": "monebu",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "15-23",
+      "weight": 3.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
+      }
+    }
+  ]
 }

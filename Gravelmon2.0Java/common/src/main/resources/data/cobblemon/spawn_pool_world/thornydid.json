@@ -2,5 +2,23 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "thornydid-01",
+      "pokemon": "thornydid",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "24-48",
+      "weight": 0.7,
+      "condition": {
+        "biomes": [
+          "minecraft:birch_forest"
+        ]
+      }
+    }
+  ]
 }

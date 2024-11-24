@@ -2,5 +2,23 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "honeyjou-01",
+      "pokemon": "honeyjou",
+      "presets": [
+        "honey_tree"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "8-35",
+      "weight": 7.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
+      }
+    }
+  ]
 }

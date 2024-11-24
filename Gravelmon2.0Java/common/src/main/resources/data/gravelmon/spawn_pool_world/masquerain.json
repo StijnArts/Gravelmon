@@ -2,5 +2,61 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "epoch_masquerain-01",
+      "pokemon": "masquerain epoch",
+      "presets": [
+        "freshwater"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "rare",
+      "level": "36-51",
+      "weight": 0.3,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_temperate"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "epoch_masquerain-01",
+      "pokemon": "masquerain epoch",
+      "presets": [
+        "foliage"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "25-41",
+      "weight": 0.6,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_tropical",
+          "#cobblemon:is_jungle"
+        ]
+      }
+    },
+    {
+      "id": "norheiman_masquerain-01",
+      "pokemon": "masquerain norheiman",
+      "presets": [
+        "water_surface"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "common",
+      "level": "22-45",
+      "weight": 0.2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    }
+  ]
 }

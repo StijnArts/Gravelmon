@@ -2,5 +2,23 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "peppit-01",
+      "pokemon": "peppit",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "6-28",
+      "weight": 8.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
+      }
+    }
+  ]
 }

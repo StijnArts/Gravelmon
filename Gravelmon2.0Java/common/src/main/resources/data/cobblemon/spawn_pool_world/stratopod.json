@@ -2,5 +2,24 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "stratopod-01",
+      "pokemon": "stratopod",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "42-67",
+      "weight": 0.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_desert",
+          "#cobblemon:is_lush"
+        ]
+      }
+    }
+  ]
 }

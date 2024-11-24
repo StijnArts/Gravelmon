@@ -2,5 +2,23 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "scaregrow-01",
+      "pokemon": "scaregrow",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "26-45",
+      "weight": 0.4,
+      "condition": {
+        "biomes": [
+          "minecraft:birch_forest"
+        ]
+      }
+    }
+  ]
 }

@@ -2,5 +2,23 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "nitpick-01",
+      "pokemon": "nitpick",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "2-36",
+      "weight": 4.6,
+      "condition": {
+        "biomes": [
+          "minecraft:birch_forest"
+        ]
+      }
+    }
+  ]
 }

@@ -2,5 +2,23 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "epoch_snom-01",
+      "pokemon": "snom epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "1-28",
+      "weight": 4.4,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ]
+      }
+    }
+  ]
 }

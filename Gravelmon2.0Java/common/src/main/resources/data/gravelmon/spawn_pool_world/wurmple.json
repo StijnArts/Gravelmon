@@ -2,5 +2,40 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "epoch_wurmple-01",
+      "pokemon": "wurmple epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "1-12",
+      "weight": 4.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      }
+    },
+    {
+      "id": "epoch_wurmple-01",
+      "pokemon": "wurmple epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "1-12",
+      "weight": 4.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy_forest"
+        ]
+      }
+    }
+  ]
 }

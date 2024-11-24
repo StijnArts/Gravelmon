@@ -2,5 +2,23 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "crestrap-01",
+      "pokemon": "crestrap",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "8-25",
+      "weight": 4.8,
+      "condition": {
+        "biomes": [
+          "minecraft:birch_forest"
+        ]
+      }
+    }
+  ]
 }

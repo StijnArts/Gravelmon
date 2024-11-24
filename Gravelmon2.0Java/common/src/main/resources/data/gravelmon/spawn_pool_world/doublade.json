@@ -2,5 +2,100 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "epoch_doublade-01",
+      "pokemon": "doublade epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "35-46",
+      "weight": 1.2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical"
+        ]
+      }
+    },
+    {
+      "id": "epoch_doublade-01",
+      "pokemon": "doublade epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "35-46",
+      "weight": 1.2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_taiga",
+          "#cobblemon:is_jungle"
+        ]
+      }
+    },
+    {
+      "id": "epoch_doublade-01",
+      "pokemon": "doublade epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "35-46",
+      "weight": 1.2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_old_growth_taiga"
+        ]
+      }
+    },
+    {
+      "id": "epoch_doublade-01",
+      "pokemon": "doublade epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "35-46",
+      "weight": 1.2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ]
+      }
+    },
+    {
+      "id": "africanusan_doublade-01",
+      "pokemon": "doublade africanusan",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "35-47",
+      "weight": 1.2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_savanna",
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    }
+  ]
 }

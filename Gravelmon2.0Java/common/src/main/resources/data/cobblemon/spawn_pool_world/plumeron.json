@@ -2,5 +2,23 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "plumeron-01",
+      "pokemon": "plumeron",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "13-32",
+      "weight": 4.4,
+      "condition": {
+        "biomes": [
+          "minecraft:birch_forest"
+        ]
+      }
+    }
+  ]
 }

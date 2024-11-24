@@ -2,5 +2,26 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "kodachiuo-01",
+      "pokemon": "kodachiuo",
+      "presets": [
+        "reef"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "common",
+      "level": "14-28",
+      "weight": 4.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean",
+          "#minecraft:is_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    }
+  ]
 }

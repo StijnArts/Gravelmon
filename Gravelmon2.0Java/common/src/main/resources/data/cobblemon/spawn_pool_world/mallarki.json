@@ -2,5 +2,23 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "mallarki-01",
+      "pokemon": "mallarki",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "34-56",
+      "weight": 1.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_bamboo"
+        ]
+      }
+    }
+  ]
 }

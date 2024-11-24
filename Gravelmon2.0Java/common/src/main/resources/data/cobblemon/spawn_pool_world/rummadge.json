@@ -2,5 +2,23 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "rummadge-01",
+      "pokemon": "rummadge",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "13-38",
+      "weight": 4.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ]
+      }
+    }
+  ]
 }

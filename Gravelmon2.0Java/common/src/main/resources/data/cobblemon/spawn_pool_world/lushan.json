@@ -2,5 +2,23 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "lushan-01",
+      "pokemon": "lushan",
+      "presets": [
+        "amethyst_geode"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "35-56",
+      "weight": 0.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cave"
+        ]
+      }
+    }
+  ]
 }

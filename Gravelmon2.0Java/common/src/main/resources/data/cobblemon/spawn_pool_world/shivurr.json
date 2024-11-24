@@ -2,5 +2,23 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "shivurr-01",
+      "pokemon": "shivurr",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "13-41",
+      "weight": 3.9,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cave"
+        ]
+      }
+    }
+  ]
 }

@@ -2,5 +2,42 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "epoch_skorupi-01",
+      "pokemon": "skorupi epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "9-31",
+      "weight": 4.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_sandy"
+        ]
+      }
+    },
+    {
+      "id": "hizian_skorupi-01",
+      "pokemon": "skorupi hizian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "12-39",
+      "weight": 6.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    }
+  ]
 }

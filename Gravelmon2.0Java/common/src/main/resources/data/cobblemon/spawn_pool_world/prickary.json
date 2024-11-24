@@ -2,5 +2,23 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "prickary-01",
+      "pokemon": "prickary",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "23-43",
+      "weight": 1.2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_old_growth_taiga"
+        ]
+      }
+    }
+  ]
 }

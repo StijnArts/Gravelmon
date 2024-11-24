@@ -2,5 +2,23 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "epoch_talonflame-01",
+      "pokemon": "talonflame epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "35-51",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy_forest"
+        ]
+      }
+    }
+  ]
 }

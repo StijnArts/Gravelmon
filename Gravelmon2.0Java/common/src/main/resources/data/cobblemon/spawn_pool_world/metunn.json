@@ -2,5 +2,21 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "metunn-01",
+      "pokemon": "metunn",
+      "presets": [
+        "jungle_pyramid"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70-100",
+      "weight": 1.0E-4,
+      "condition": {
+        "timeRange": "night"
+      }
+    }
+  ]
 }

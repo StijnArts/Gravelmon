@@ -2,5 +2,23 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "crystalker-01",
+      "pokemon": "crystalker",
+      "presets": [
+        "underwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "24-47",
+      "weight": 0.4,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_frozen"
+        ]
+      }
+    }
+  ]
 }

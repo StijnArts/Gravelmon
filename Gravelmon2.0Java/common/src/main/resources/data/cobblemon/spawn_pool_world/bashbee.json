@@ -2,5 +2,18 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "bashbee-01",
+      "pokemon": "bashbee",
+      "presets": [
+        "honey_tree"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "11-33",
+      "weight": 5.0
+    }
+  ]
 }

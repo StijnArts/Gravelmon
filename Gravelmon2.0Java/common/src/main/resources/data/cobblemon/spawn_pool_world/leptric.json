@@ -2,5 +2,38 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "leptric-01",
+      "pokemon": "leptric",
+      "presets": [
+        "underwater",
+        "reef"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "12-34",
+      "weight": 5.4,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ]
+      }
+    },
+    {
+      "id": "leptric-11",
+      "pokemon": "leptric",
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "uncommon",
+      "level": "12-34",
+      "weight": 5.4,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ]
+      }
+    }
+  ]
 }

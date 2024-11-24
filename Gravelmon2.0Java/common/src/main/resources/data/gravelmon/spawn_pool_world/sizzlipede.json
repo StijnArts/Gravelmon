@@ -2,5 +2,58 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "epoch_sizzlipede-01",
+      "pokemon": "sizzlipede epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "10-32",
+      "weight": 4.6,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      }
+    },
+    {
+      "id": "seviian_sizzlipede-01",
+      "pokemon": "sizzlipede seviian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "6-36",
+      "weight": 2.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_desert"
+        ]
+      }
+    },
+    {
+      "id": "ayreian_sizzlipede-01",
+      "pokemon": "sizzlipede ayreian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "6-36",
+      "weight": 2.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_soul_sand",
+          "#cobblemon:is_magical"
+        ]
+      }
+    }
+  ]
 }

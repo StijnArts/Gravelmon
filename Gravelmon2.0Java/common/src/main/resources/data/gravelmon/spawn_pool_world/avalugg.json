@@ -2,5 +2,60 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "epoch_avalugg-01",
+      "pokemon": "avalugg epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "37-53",
+      "weight": 0.4,
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_wasteland"
+        ]
+      }
+    },
+    {
+      "id": "vesitan_avalugg-01",
+      "pokemon": "avalugg vesitan",
+      "presets": [
+        "underwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "common",
+      "level": "37-48",
+      "weight": 0.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "delta_avalugg-01",
+      "pokemon": "avalugg delta",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "40-58",
+      "weight": 0.8,
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_wasteland",
+          "#cobblemon:nether/is_desert"
+        ]
+      }
+    }
+  ]
 }

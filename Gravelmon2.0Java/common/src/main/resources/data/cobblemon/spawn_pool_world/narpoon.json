@@ -2,5 +2,24 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "narpoon-01",
+      "pokemon": "narpoon",
+      "presets": [
+        "underwater",
+        "shipwreck"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "common",
+      "level": "11-35",
+      "weight": 5.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_ocean"
+        ]
+      }
+    }
+  ]
 }

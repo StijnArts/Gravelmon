@@ -2,5 +2,39 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "cuppy-01",
+      "pokemon": "cuppy",
+      "presets": [
+        "underwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "common",
+      "level": "4-25",
+      "weight": 2.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "cuppy-11",
+      "pokemon": "cuppy",
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "common",
+      "level": "4-25",
+      "weight": 2.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ]
+      }
+    }
+  ]
 }

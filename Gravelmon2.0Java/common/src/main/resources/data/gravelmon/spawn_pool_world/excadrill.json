@@ -2,5 +2,65 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "epoch_excadrill-01",
+      "pokemon": "excadrill epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "11-34",
+      "weight": 5.4,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cave"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "epoch_excadrill-01",
+      "pokemon": "excadrill epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "31-54",
+      "weight": 1.1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#minecraft:is_ocean"
+        ]
+      }
+    },
+    {
+      "id": "kaskadian_excadrill-01",
+      "pokemon": "excadrill kaskadian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-70",
+      "weight": 0.2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "timeRange": "night"
+      }
+    }
+  ]
 }

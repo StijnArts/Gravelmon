@@ -2,5 +2,25 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "oozma-01",
+      "pokemon": "oozma",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "44-56",
+      "weight": 1.2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_soul_sand",
+          "#cobblemon:nether/is_basalt",
+          "#cobblemon:nether/is_toxic"
+        ]
+      }
+    }
+  ]
 }

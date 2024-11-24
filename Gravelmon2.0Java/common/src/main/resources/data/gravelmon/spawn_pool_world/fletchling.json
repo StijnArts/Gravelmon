@@ -2,5 +2,43 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "epoch_fletchling-01",
+      "pokemon": "fletchling epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "4-23",
+      "weight": 5.4,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy_forest"
+        ]
+      }
+    },
+    {
+      "id": "ayreian_fletchling-01",
+      "pokemon": "fletchling ayreian",
+      "presets": [
+        "near_water"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "5-21",
+      "weight": 7.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "day"
+      }
+    }
+  ]
 }

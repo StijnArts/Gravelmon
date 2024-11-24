@@ -2,5 +2,23 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "cefiran_lilligant-01",
+      "pokemon": "lilligant cefiran",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "27-48",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "minecraft:cherry_grove"
+        ]
+      }
+    }
+  ]
 }

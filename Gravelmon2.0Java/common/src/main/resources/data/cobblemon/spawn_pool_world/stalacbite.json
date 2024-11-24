@@ -2,5 +2,23 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "stalacbite-01",
+      "pokemon": "stalacbite",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "4-26",
+      "weight": 6.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_dripstone"
+        ]
+      }
+    }
+  ]
 }

@@ -2,5 +2,39 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "arjibi-01",
+      "pokemon": "arjibi",
+      "presets": [
+        "underwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "rare",
+      "level": "4-25",
+      "weight": 7.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_arid"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "arjibi-11",
+      "pokemon": "arjibi",
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "rare",
+      "level": "4-25",
+      "weight": 7.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_arid"
+        ]
+      }
+    }
+  ]
 }

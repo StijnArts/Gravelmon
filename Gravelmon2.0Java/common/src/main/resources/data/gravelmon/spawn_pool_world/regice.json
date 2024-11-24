@@ -2,5 +2,24 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "delta_regice-01",
+      "pokemon": "regice delta",
+      "presets": [
+        "water_surface"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "ultra-rare",
+      "level": "69-80",
+      "weight": 0.003,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_sandy"
+        ],
+        "isThundering": true
+      }
+    }
+  ]
 }

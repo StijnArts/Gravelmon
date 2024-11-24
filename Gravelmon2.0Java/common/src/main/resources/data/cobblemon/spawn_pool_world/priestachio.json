@@ -2,5 +2,23 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "priestachio-01",
+      "pokemon": "priestachio",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "33-54",
+      "weight": 0.6,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ]
+      }
+    }
+  ]
 }

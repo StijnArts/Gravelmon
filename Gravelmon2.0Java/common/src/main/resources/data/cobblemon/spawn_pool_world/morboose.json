@@ -2,5 +2,24 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "morboose-01",
+      "pokemon": "morboose",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "40-64",
+      "weight": 0.3,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ],
+        "timeRange": "night"
+      }
+    }
+  ]
 }

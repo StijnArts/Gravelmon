@@ -2,5 +2,23 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "porpice-01",
+      "pokemon": "porpice",
+      "presets": [
+        "underwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "11-34",
+      "weight": 3.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_frozen"
+        ]
+      }
+    }
+  ]
 }

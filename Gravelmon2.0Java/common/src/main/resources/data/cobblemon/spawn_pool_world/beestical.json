@@ -2,5 +2,23 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "beestical-01",
+      "pokemon": "beestical",
+      "presets": [
+        "honey_tree"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "28-54",
+      "weight": 5.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:has_season/spring"
+        ]
+      }
+    }
+  ]
 }

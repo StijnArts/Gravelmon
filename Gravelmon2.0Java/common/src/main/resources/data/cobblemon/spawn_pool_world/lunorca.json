@@ -2,5 +2,41 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "lunorca-01",
+      "pokemon": "lunorca",
+      "presets": [
+        "underwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "37-51",
+      "weight": 0.3,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "lunorca-11",
+      "pokemon": "lunorca",
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "uncommon",
+      "level": "37-51",
+      "weight": 0.3,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "timeRange": "night"
+      }
+    }
+  ]
 }

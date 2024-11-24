@@ -2,5 +2,24 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "stelnova-01",
+      "pokemon": "stelnova",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "49-57",
+      "weight": 1.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_thermal",
+          "#cobblemon:is_volvanic"
+        ]
+      }
+    }
+  ]
 }

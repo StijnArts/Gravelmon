@@ -2,5 +2,24 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "barbavelry-01",
+      "pokemon": "barbavelry",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "31-56",
+      "weight": 2.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_taiga",
+          "#cobblemon:is_magical"
+        ]
+      }
+    }
+  ]
 }

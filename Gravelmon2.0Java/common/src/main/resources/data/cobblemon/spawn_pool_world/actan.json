@@ -2,5 +2,24 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "actan-01",
+      "pokemon": "actan",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "65-70",
+      "weight": 5.0E-6,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cold"
+        ],
+        "maxY": 30
+      }
+    }
+  ]
 }

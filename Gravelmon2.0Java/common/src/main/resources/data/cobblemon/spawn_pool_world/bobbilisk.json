@@ -2,5 +2,23 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "bobbilisk-01",
+      "pokemon": "bobbilisk",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "40-55",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ]
+      }
+    }
+  ]
 }

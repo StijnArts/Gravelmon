@@ -2,5 +2,32 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "fraxeel-01",
+      "pokemon": "fraxeel",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "39-49",
+      "weight": 2.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cave"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:has_season/spring",
+          "#cobblemon:has_season/summer",
+          "#cobblemon:has_season/autumn"
+        ]
+      }
+    }
+  ]
 }
