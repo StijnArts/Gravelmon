@@ -2,7 +2,7 @@
    "target": "cobblemon:bulbasaur",
    "forms": [{
   "name": "Egho",
-  "primaryType": "grass",
+  "primaryType": "digital",
   "secondaryType": "rock",
   "abilities": [
     "roughskin",
@@ -164,7 +164,7 @@
 },
 {
   "name": "Delta",
-  "primaryType": "fairy",
+  "primaryType": "light",
   "secondaryType": "psychic",
   "abilities": [
     "psychocall",
@@ -339,7 +339,7 @@
 },
 {
   "name": "Ayreian",
-  "primaryType": "dark",
+  "primaryType": "plastic",
   "secondaryType": "ground",
   "abilities": [
     "stamina",

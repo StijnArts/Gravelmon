@@ -2,7 +2,7 @@
    "target": "cobblemon:ivysaur",
    "forms": [{
   "name": "Egho",
-  "primaryType": "grass",
+  "primaryType": "shadow",
   "secondaryType": "rock",
   "abilities": [
     "roughskin",
@@ -168,7 +168,7 @@
 },
 {
   "name": "Delta",
-  "primaryType": "fairy",
+  "primaryType": "slime",
   "secondaryType": "psychic",
   "abilities": [
     "psychocall",
@@ -352,7 +352,7 @@
 },
 {
   "name": "Ayreian",
-  "primaryType": "dark",
+  "primaryType": "wind",
   "secondaryType": "ground",
   "abilities": [
     "stamina",
