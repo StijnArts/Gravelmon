@@ -231,6 +231,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .save(exporter);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC,
+                        GravelmonBlocks.VARIA_STONE_BLOCK.get(),1)
+                .pattern("###")
+                .pattern("###")
+                .pattern("###")
+                .define('#', GravelmonItems.VARIA_STONE.get())
+                .unlockedBy("hasVariaStone", has(GravelmonItems.VARIA_STONE.get()))
+                .save(exporter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC,
                         GravelmonItems.QUANTUM_UPGRADE.get(),1)
                 .pattern("TLT")
                 .pattern("SAS")

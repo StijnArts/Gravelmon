@@ -5,7 +5,7 @@ import com.cobblemon.mod.common.pokeball.*;
 import com.cobblemon.mod.common.pokemon.helditem.*;
 import dev.architectury.registry.registries.*;
 import drai.dev.gravelmon.*;
-import drai.dev.gravelmon.apricorn.*;
+import drai.dev.gravelmon.items.apricorn.*;
 import drai.dev.gravelsextendedbattles.loot.*;
 import net.minecraft.core.registries.*;
 import net.minecraft.resources.*;
@@ -97,6 +97,7 @@ public class GravelmonItems {
     public static RegistrySupplier<Item> SOLID_STONE_ORE = blockItem("solid_stone_ore", GravelmonBlocks.SOLID_STONE_ORE);
     public static RegistrySupplier<Item> DEEPSLATE_SOLID_STONE_ORE = blockItem("deepslate_solid_stone_ore", GravelmonBlocks.DEEPSLATE_SOLID_STONE_ORE);
     public static RegistrySupplier<Item> SOLID_STONE_BLOCK = blockItem("solid_stone_block", GravelmonBlocks.SOLID_STONE_BLOCK);
+    public static RegistrySupplier<Item> VARIA_STONE_BLOCK = blockItem("solid_stone_block", GravelmonBlocks.VARIA_STONE_BLOCK);
 
     //Pokeballs
     public static RegistrySupplier<PokeBallItem> MAUVE_BALL;

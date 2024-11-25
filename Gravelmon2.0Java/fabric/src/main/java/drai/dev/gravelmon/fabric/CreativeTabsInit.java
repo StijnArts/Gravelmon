@@ -118,6 +118,8 @@ public class CreativeTabsInit {
                     GravelmonItems.SOLID_STONE_ORE.get().asItem().getDefaultInstance());
             entries.addAfter(CobblemonItems.SHINY_STONE_BLOCK.asItem().getDefaultInstance(),
                     GravelmonItems.SOLID_STONE_BLOCK.get().asItem().getDefaultInstance());
+            entries.addAfter(CobblemonItems.ICE_STONE_BLOCK.asItem().getDefaultInstance(),
+                    GravelmonItems.VARIA_STONE_BLOCK.get().asItem().getDefaultInstance());
 
         });
 

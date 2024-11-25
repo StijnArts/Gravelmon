@@ -32,6 +32,7 @@ public class ModModelGenerator extends FabricModelProvider {
         blockStateModelGenerator.createTrivialCube(GravelmonBlocks.SOLID_STONE_ORE.get());
         blockStateModelGenerator.createTrivialCube(GravelmonBlocks.DEEPSLATE_SOLID_STONE_ORE.get());
         blockStateModelGenerator.createTrivialCube(GravelmonBlocks.SOLID_STONE_BLOCK.get());
+        blockStateModelGenerator.createTrivialCube(GravelmonBlocks.VARIA_STONE_BLOCK.get());
     }
 
     @Override

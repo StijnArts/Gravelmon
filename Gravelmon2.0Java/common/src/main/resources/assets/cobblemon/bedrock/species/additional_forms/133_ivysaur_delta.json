@@ -26,7 +26,7 @@
         "female",
         "delta"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:deltaivysaur.geo",
       "poser": "cobblemon:generation1_deltaivysaur",
       "texture": "cobblemon:textures/pokemon/generation1/deltaivysaur_female.png",
       "layers": []
@@ -37,7 +37,7 @@
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:deltaivysaur.geo",
       "poser": "cobblemon:generation1_deltaivysaur",
       "texture": "cobblemon:textures/pokemon/generation1/deltaivysaur_female_shiny.png",
       "layers": []

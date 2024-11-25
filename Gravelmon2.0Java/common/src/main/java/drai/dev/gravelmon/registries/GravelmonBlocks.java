@@ -1,7 +1,7 @@
 package drai.dev.gravelmon.registries;
 
 import dev.architectury.registry.registries.*;
-import drai.dev.gravelmon.apricorn.*;
+import drai.dev.gravelmon.items.apricorn.*;
 import net.minecraft.core.registries.*;
 import net.minecraft.util.valueproviders.*;
 import net.minecraft.world.level.block.*;
@@ -24,6 +24,7 @@ public class GravelmonBlocks {
     public static RegistrySupplier<Block> SOLID_STONE_ORE = evolutionStoneOre("solid_stone_ore");
     public static RegistrySupplier<Block> DEEPSLATE_SOLID_STONE_ORE = deepslateEvolutionStoneOre("deepslate_solid_stone_ore");
     public static RegistrySupplier<Block> SOLID_STONE_BLOCK = storageBlock("solid_stone_block");
+    public static RegistrySupplier<Block> VARIA_STONE_BLOCK = storageBlock("varia_stone_block");
 
 
     public static RegistrySupplier<GravelmonApricornBlock> PURPLE_APRICORN = apricornBlock("purple_apricorn", GravelmonApricorns.PURPLE);

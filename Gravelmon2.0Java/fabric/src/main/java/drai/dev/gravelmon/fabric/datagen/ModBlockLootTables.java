@@ -55,5 +55,6 @@ public class ModBlockLootTables extends FabricBlockLootTableProvider {
         dropSelf(GravelmonBlocks.AIR_STONE_BLOCK.get());
         dropSelf(GravelmonBlocks.MYSTIC_STONE_BLOCK.get());
         dropSelf(GravelmonBlocks.SOLID_STONE_BLOCK.get());
+        dropSelf(GravelmonBlocks.VARIA_STONE_BLOCK.get());
     }
 }
