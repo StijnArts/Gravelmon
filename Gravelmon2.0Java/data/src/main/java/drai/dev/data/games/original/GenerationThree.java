@@ -209,24 +209,24 @@ public class GenerationThree extends Game {
         addNewPokemon(new AyreianSnorunt("", Aspect.AYREIAN));
         addNewPokemon(new AyreianGlalie("", Aspect.AYREIAN));
 
-        addNewPokemon(new AyreianTorchic("Torchic", Aspect.AYREIAN));
-        addNewPokemon(new AyreianCombusken("Combusken", Aspect.AYREIAN));
-        addNewPokemon(new AyreianBlaziken("Blaziken", Aspect.AYREIAN));
-        addNewPokemon(new AyreianNosepass("Nosepass", Aspect.AYREIAN));
-        addNewPokemon(new AyreianAron("Aron", Aspect.AYREIAN));
-        addNewPokemon(new AyreianLairon("Lairon", Aspect.AYREIAN));
-        addNewPokemon(new AyreianAggron("Aggron", Aspect.AYREIAN));
-        addNewPokemon(new AyreianRoselia("Roselia", Aspect.AYREIAN));
-        addNewPokemon(new AyreianNumel("Numel", Aspect.AYREIAN));
-        addNewPokemon(new AyreianCamerupt("Camerupt", Aspect.AYREIAN));
-        addNewPokemon(new AyreianTrapinch("Trapinch", Aspect.AYREIAN));
-        addNewPokemon(new AyreianVibrava("Vibrava", Aspect.AYREIAN));
-        addNewPokemon(new AyreianFlygon("Flygon", Aspect.AYREIAN));
-        addNewPokemon(new AyreianSwablu("Swablu", Aspect.AYREIAN));
-        addNewPokemon(new AyreianAltaria("Altaria", Aspect.AYREIAN));
-        addNewPokemon(new AyreianLunatone("Lunatone", Aspect.AYREIAN));
-        addNewPokemon(new AyreianRelicanth("Relicanth", Aspect.AYREIAN));
-        addNewPokemon(new AyreianLuvdisc("Luvdisc", Aspect.AYREIAN));
+        addNewPokemon(new AyreianTorchic("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianCombusken("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianBlaziken("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianNosepass("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianAron("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianLairon("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianAggron("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianRoselia("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianNumel("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianCamerupt("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianTrapinch("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianVibrava("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianFlygon("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianSwablu("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianAltaria("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianLunatone("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianRelicanth("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianLuvdisc("", Aspect.AYREIAN));
 
         //Phoenix Rising
         addNewPokemon(new RelicRoselia("Roselia", Aspect.RELIC));

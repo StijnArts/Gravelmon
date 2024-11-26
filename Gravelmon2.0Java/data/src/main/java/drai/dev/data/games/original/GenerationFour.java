@@ -198,7 +198,7 @@ public class GenerationFour extends Game {
         addNewPokemon(new AyreianMunchlax("", Aspect.AYREIAN));
         addNewPokemon(new AyreianRiolu("", Aspect.AYREIAN));
         addNewPokemon(new AyreianLucario("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianMantyke("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianMantyke("", Aspect.AYREIAN).fishingSpawnFromExisting());
         addNewPokemon(new AyreianGallade("", Aspect.AYREIAN));
 
         addNewPokemon(new AyreianShinx("", Aspect.AYREIAN));

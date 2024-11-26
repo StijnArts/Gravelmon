@@ -166,16 +166,16 @@ public class GenerationSix extends Game {
         addNewPokemon(new AyreianPhantump("", Aspect.AYREIAN));
         addNewPokemon(new AyreianTrevenant("", Aspect.AYREIAN));
 
-        addNewPokemon(new AyreianFletchling("Fletchling", Aspect.AYREIAN));
-        addNewPokemon(new AyreianFletchinder("Fletchinder", Aspect.AYREIAN));
-        addNewPokemon(new AyreianPancham("Pancham", Aspect.AYREIAN));
-        addNewPokemon(new AyreianPangoro("Pangoro", Aspect.AYREIAN));
-        addNewPokemon(new AyreianCarbink("Carbink", Aspect.AYREIAN));
-        addNewPokemon(new AyreianKlefki("Klefki", Aspect.AYREIAN));
-        addNewPokemon(new AyreianPumpkaboo("Pumpkaboo", Aspect.AYREIAN));
-        addNewPokemon(new AyreianGourgeist("Gourgeist", Aspect.AYREIAN));
-        addNewPokemon(new AyreianNoibat("Noibat", Aspect.AYREIAN));
-        addNewPokemon(new AyreianNoivern("Noivern", Aspect.AYREIAN));
+        addNewPokemon(new AyreianFletchling("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianFletchinder("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianPancham("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianPangoro("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianCarbink("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianKlefki("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianPumpkaboo("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianGourgeist("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianNoibat("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianNoivern("", Aspect.AYREIAN));
 
         //Phoenix Rising
         addNewPokemon(new RelicSkiddo("Skiddo", Aspect.RELIC));

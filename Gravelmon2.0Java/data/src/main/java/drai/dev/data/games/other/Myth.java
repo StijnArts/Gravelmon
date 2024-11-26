@@ -37,6 +37,16 @@ public class Myth extends Game
         addNewPokemon(new Raccane());
         addNewPokemon(new Draccane());
         addNewPokemon(new Raccolossus());
+        addPokedexPokemon(
+                "eevee," +
+                        "vaporeon," +
+                        "jolteon," +
+                        "flareon," +
+                        "espeon," +
+                        "umbreon," +
+                        "leafeon," +
+                        "glaceon," +
+                        "sylveon");
         addNewPokemon(new Combateon());
         addNewPokemon(new Crystaleon());
         addNewPokemon(new Toxeon());

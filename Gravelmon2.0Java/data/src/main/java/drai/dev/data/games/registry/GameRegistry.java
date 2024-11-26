@@ -7,11 +7,6 @@ import drai.dev.data.games.instagram.federex.*;
 import drai.dev.data.games.instagram.fra.*;
 import drai.dev.data.games.original.*;
 import drai.dev.data.games.other.*;
-import drai.dev.data.games.other.EternalForest;
-import drai.dev.data.games.other.Lockemon;
-import drai.dev.data.games.other.Sage;
-import drai.dev.data.games.other.Umbra;
-import drai.dev.data.games.other.Vanguard;
 import drai.dev.data.games.pbs.*;
 import drai.dev.data.games.pokemmo.*;
 import drai.dev.data.games.pokemmo.done.*;
@@ -112,6 +107,6 @@ public class GameRegistry {
         games.add(new Goetia());
         games.add(new Sorin());
         games.add(new Mastenia());
-
+        games.add(new TimeWardens());
     }
 }
