@@ -19,6 +19,14 @@
           "#cobblemon:is_thermal",
           "#cobblemon:is_volvanic"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
       }
     }
   ]

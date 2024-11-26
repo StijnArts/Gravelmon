@@ -19,6 +19,14 @@
           "#minecraft:is_deep_ocean"
         ],
         "maxY": 38
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:amethyst_block"
+          ]
+        }
       }
     },
     {
@@ -36,6 +44,14 @@
         "biomes": [
           "#cobblemon:is_magical"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:raw_gold_block"
+          ]
+        }
       }
     }
   ]

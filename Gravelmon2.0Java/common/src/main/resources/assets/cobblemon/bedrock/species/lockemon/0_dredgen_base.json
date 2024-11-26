@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:dredgen",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_dredgen",
+      "texture": "cobblemon:textures/pokemon/lockemon/dredgen.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lockemon/dredgen.png"
+    }
+  ]
+}

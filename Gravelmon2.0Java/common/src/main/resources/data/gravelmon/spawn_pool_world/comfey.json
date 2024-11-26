@@ -19,6 +19,14 @@
         "biomes": [
           "#minecraft:is_ocean"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
+          ]
+        }
       }
     },
     {
@@ -38,6 +46,14 @@
           "#cobblemon:is_jungle",
           "#cobblemon:has_density/dense"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
       }
     }
   ]

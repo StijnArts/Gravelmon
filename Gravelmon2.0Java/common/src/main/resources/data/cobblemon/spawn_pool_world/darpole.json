@@ -21,6 +21,15 @@
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine",
+            "minecraft:prismarine"
+          ]
+        }
       }
     },
     {
@@ -36,6 +45,15 @@
           "#cobblemon:is_freshwater",
           "#cobblemon:is_swamp"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine",
+            "minecraft:prismarine"
+          ]
+        }
       }
     }
   ]

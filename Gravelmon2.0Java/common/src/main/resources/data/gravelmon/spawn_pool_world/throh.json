@@ -18,6 +18,14 @@
         "biomes": [
           "#cobblemon:nether/is_soul_sand"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:tuff"
+          ]
+        }
       }
     }
   ]

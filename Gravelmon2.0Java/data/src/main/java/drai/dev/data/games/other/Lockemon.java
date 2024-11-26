@@ -45,7 +45,16 @@ public class Lockemon extends Game {
         addNewPokemon(new Mosskrat());
         addNewPokemon(new Catteraxe().setUsesBigModel());
         addNewPokemon(new Catatomb().setUsesBigModel());
-        //TODO add https://tofrugs-swamp.fandom.com/wiki/Skinka
+        addNewPokemon(new Skinka().setUsesBigModel());
+        addNewPokemon(new Dredgen().setUsesBigModel());
+        addNewPokemon(new Stalagen().setUsesBigModel());
+        addNewPokemon(new Chromagen().setUsesBigModel());
+        addNewPokemon(new Aerogen().setUsesBigModel());
+        addNewPokemon(new Caragen().setUsesBigModel());
+        addNewPokemon(new Bludgen().setUsesBigModel());
+        addNewPokemon(new Pathagen().setUsesBigModel());
+        addNewPokemon(new Ectogen().setUsesBigModel());
+        addNewPokemon(new Legen().setUsesBigModel());
         addPokedexPokemon("sudowoodo-amaze_all, bidoof-kaskadian, bibarel-kaskadian, bunnelby-kaskadian, diggersby-kaskadian, gastly-kaskadian, haunter-kaskadian, gengar-kaskadian");
         addPokedexPokemon(
                 "eevee," +

@@ -19,6 +19,15 @@
           "#cobblemon:is_forest",
           "#cobblemon:is_grassland"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine",
+            "minecraft:prismarine"
+          ]
+        }
       }
     },
     {
@@ -34,6 +43,15 @@
           "#cobblemon:is_forest",
           "#cobblemon:is_grassland"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine",
+            "minecraft:prismarine"
+          ]
+        }
       }
     }
   ]

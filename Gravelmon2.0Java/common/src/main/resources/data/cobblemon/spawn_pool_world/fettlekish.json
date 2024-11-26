@@ -20,6 +20,14 @@
           "#cobblemon:is_warm_ocean",
           "#cobblemon:is_lukewarm_ocean"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     }
   ]

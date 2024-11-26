@@ -1,5 +1,6 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
+import com.cobblemon.mod.common.*;
 import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
@@ -18,10 +19,9 @@ public class DeltaFeebas extends Pokemon {
                 40, ExperienceGroup.FLUCTUATING,
                 70,
                 50, List.of(EggGroup.DELTA),
-                //TODO replace spell tag with cleanse tag when its implemented
                 List.of("A Delta Species discovered by 1ofthe4rocketbros. Though it desires to scare strangers, it is timid and oftentimes ends up frightening itself instead."),
                 List.of(new EvolutionEntry("deltamilotic", EvolutionType.LEVEL_UP, true, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"cobblemon:spell_tag\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"cobblemon:cleanse_tag\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SPLASH,1),
                         new MoveLearnSetEntry(Move.ASTONISH,15),

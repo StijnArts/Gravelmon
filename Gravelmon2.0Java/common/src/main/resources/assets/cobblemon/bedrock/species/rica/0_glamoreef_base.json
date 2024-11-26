@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:glamoreef",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_glamoreef",
+      "texture": "cobblemon:textures/pokemon/rica/glamoreef.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/rica/glamoreef.png"
+    }
+  ]
+}

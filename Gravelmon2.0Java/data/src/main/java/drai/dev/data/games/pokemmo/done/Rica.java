@@ -118,9 +118,8 @@ public class Rica extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Mermew());
         addNewPokemon(new Clampurr());
         addNewPokemon(new Welking());
-        //todo has art now
-//        addNewPokemon(new Amourish()); //Missing Art
-//        addNewPokemon(new Glamoreef()); //Missing Art
+        addNewPokemon(new Amourish());
+        addNewPokemon(new Glamoreef());
         addPokedexPokemon("shellos-rican, gastrodon-rican");
         addNewPokemon(new Sweetoad());
         addNewPokemon(new Spoocap());
@@ -130,13 +129,13 @@ public class Rica extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Ampeck());
         addNewPokemon(new Boombird());
         addNewPokemon(new Amara());
-//        addNewPokemon(new Torkit()); //Member of Line not Finished
-//        addNewPokemon(new Scimitear()); //Missing Art
+        addNewPokemon(new Torkit());
+        addNewPokemon(new Scimitear());
 //        addNewPokemon(new Seroseed());//Missing Art
 //        addNewPokemon(new Conipine());//Missing Art
         addNewPokemon(new Ailember());
         addNewPokemon(new Genetorch());
-//        addNewPokemon(new Wasplode()); //Missing Art
+        addNewPokemon(new Wasplode());
         addNewPokemon(new Pichip());
         addNewPokemon(new Shifuu());
         addNewPokemon(new Delibo());
@@ -151,6 +150,7 @@ public class Rica extends drai.dev.data.games.registry.Game {
 //        addNewPokemon(new Bactiny());//Member of Line not Finished
 //        addNewPokemon(new Liquphage());//Member of Line not Finished
 //        addNewPokemon(new Calcichor()); //Missing Art
+        addNewPokemon(new Barnub());
         addNewPokemon(new Detritan());
         addNewPokemon(new Moreel());
         addNewPokemon(new Darscale());

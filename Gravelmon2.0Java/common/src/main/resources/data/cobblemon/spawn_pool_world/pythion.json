@@ -20,6 +20,14 @@
           "#cobblemon:is_mountain"
         ],
         "maxY": -10
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:raw_gold_block"
+          ]
+        }
       }
     }
   ]

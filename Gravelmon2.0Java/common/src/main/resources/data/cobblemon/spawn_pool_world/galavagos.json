@@ -20,6 +20,14 @@
           "#cobblemon:is_thermal",
           "#cobblemon:nether/is_basalt"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
       }
     }
   ]

@@ -19,6 +19,14 @@
           "#cobblemon:is_forest",
           "#cobblemon:is_plains"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
       }
     }
   ]

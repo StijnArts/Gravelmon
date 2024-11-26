@@ -23,7 +23,6 @@ public class QuetzarSpace extends Pokemon {
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"1")),
                         List.of())),
                 List.of(
-                        //TODO check back for signature move
                         new MoveLearnSetEntry(Move.SCARY_FACE,1),
                         new MoveLearnSetEntry(Move.TWISTER,1),
                         new MoveLearnSetEntry(Move.SECRET_POWER,8),

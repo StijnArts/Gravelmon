@@ -13,7 +13,15 @@
       "context": "surface",
       "bucket": "common",
       "level": "45-66",
-      "weight": 0.02
+      "weight": 0.02,
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:tuff"
+          ]
+        }
+      }
     }
   ]
 }

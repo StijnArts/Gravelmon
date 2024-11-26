@@ -21,6 +21,15 @@
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass",
+            "minecraft:pink_stained_glass"
+          ]
+        }
       }
     },
     {
@@ -36,6 +45,15 @@
           "#minecraft:is_ocean"
         ],
         "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass",
+            "minecraft:pink_stained_glass"
+          ]
+        }
       }
     }
   ]

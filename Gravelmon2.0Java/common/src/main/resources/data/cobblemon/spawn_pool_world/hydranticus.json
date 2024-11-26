@@ -10,7 +10,7 @@
         "reef"
       ],
       "type": "pokemon",
-      "context": "submerged",
+      "context": "surface",
       "bucket": "rare",
       "level": "35-56",
       "weight": 3.5,
@@ -27,6 +27,14 @@
           "#minecraft:is_deep_ocean",
           "#cobblemon:is_freshwater"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     }
   ]

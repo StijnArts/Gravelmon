@@ -52,7 +52,6 @@ public class HoennianTangela extends Pokemon {
                         new MoveLearnSetEntry(Move.REVENGE,13),
                         new MoveLearnSetEntry(Move.KNOCK_OFF,19),
                         new MoveLearnSetEntry(Move.BULK_UP,22),
-                        //TODO change the evolution requirement to be bramble bash instead of needle arm.
                         new MoveLearnSetEntry(Move.NEEDLE_ARM,28),
                         new MoveLearnSetEntry(Move.BRAMBLE_BASH,34),
                         new MoveLearnSetEntry(Move.POISON_JAB,37),

@@ -295,7 +295,7 @@ public class GenerationOne extends Game {
         addNewPokemon(new KaskadianLapras("", Aspect.KASKADIAN));
 
         //Azure (Mystic)
-        addNewPokemon(new MysticVoltorb("", Aspect.MYSTIC));
+        addNewPokemon(new MysticVoltorb("", Aspect.MYSTIC).setPreferredBlocks("minecraft:amethyst_block"));
         addNewPokemon(new MysticElectrode("", Aspect.MYSTIC));
 
         //Pokemon Opalo

@@ -24,6 +24,15 @@
           "#cobblemon:is_jungle",
           "#cobblemon:is_taiga"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block",
+            "minecraft:moss_block"
+          ]
+        }
       }
     },
     {
@@ -44,6 +53,15 @@
           "#cobblemon:is_jungle",
           "#cobblemon:is_taiga"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block",
+            "minecraft:moss_block"
+          ]
+        }
       }
     }
   ]

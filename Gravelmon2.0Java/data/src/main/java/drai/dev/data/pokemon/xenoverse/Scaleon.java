@@ -3,6 +3,7 @@ package drai.dev.data.pokemon.xenoverse;
 import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelsextendedbattles.resorting.*;
 
 import java.util.*;
 
@@ -118,6 +119,7 @@ public class Scaleon extends Pokemon {
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);
         addAdditionalEvolution("eevee", new EvolutionEntry("scaleon", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.DRAGON_PULSE.getName()+"\""))));
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.DRAGON_PLEDGE.getName()+"\""))));
+        GravelmonMoveSubstitution.registerMoveInsertion("eevee", new MoveLearnSetEntry(Move.DRAGON_PLEDGE, 30));
     }
 }

@@ -18,6 +18,14 @@
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "isRaining": true
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:target_block"
+          ]
+        }
       }
     },
     {
@@ -35,6 +43,14 @@
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "isRaining": true
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:hay_block"
+          ]
+        }
       }
     },
     {
@@ -52,6 +68,14 @@
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "isRaining": true
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:cauldron"
+          ]
+        }
       }
     },
     {
@@ -69,6 +93,14 @@
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "isRaining": true
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_mud"
+          ]
+        }
       }
     },
     {
@@ -86,6 +118,14 @@
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "isRaining": true
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:tuff"
+          ]
+        }
       }
     },
     {
@@ -103,6 +143,14 @@
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "isRaining": true
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
       }
     },
     {
@@ -120,6 +168,14 @@
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "isRaining": true
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:bone_block"
+          ]
+        }
       }
     },
     {
@@ -137,6 +193,14 @@
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "isRaining": true
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
+          ]
+        }
       }
     },
     {
@@ -154,6 +218,14 @@
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "isRaining": true
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
       }
     },
     {
@@ -171,6 +243,14 @@
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "isRaining": true
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:redstone_block"
+          ]
+        }
       }
     },
     {
@@ -188,6 +268,14 @@
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "isRaining": true
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:amethyst_block"
+          ]
+        }
       }
     },
     {
@@ -205,6 +293,14 @@
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "isRaining": true
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:raw_gold_block"
+          ]
+        }
       }
     },
     {
@@ -222,6 +318,14 @@
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "isRaining": true
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:black_wool"
+          ]
+        }
       }
     },
     {
@@ -239,6 +343,14 @@
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "isRaining": true
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
+          ]
+        }
       }
     }
   ]

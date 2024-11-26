@@ -20,6 +20,14 @@
           "#cobblemon:is_cave",
           "#cobblemon:is_badlands"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:tuff"
+          ]
+        }
       }
     }
   ]

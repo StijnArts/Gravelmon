@@ -402,7 +402,7 @@
       "requirements": [
         {
           "variant": "held_item",
-          "itemCondition": "cobblemon:spell_tag"
+          "itemCondition": "cobblemon:cleanse_tag"
         }
       ],
       "permanent": true   

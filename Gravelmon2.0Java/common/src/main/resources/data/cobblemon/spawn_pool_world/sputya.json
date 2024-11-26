@@ -19,6 +19,14 @@
           "#cobblemon:is_sky"
         ],
         "minY": 200
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:hay_block"
+          ]
+        }
       }
     }
   ]

@@ -19,6 +19,14 @@
           "#minecraft:is_end"
         ],
         "minY": 200
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:purpur"
+          ]
+        }
       }
     }
   ]

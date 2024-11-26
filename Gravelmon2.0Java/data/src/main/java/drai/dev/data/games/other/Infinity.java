@@ -56,20 +56,15 @@ public class Infinity extends Game {
                         "leafeon," +
                         "glaceon," +
                         "sylveon");
-        //TODO add move vanish to eevee evolution moves
         addNewPokemon(new Omeon());
-        //TODO add expert belt as evolution condition instead of black belt to eevee file
         addNewPokemon(new Champeon());
         addNewPokemon(new Lepideon());
         addNewPokemon(new Guardeon());
-        //TODO add move pressurize to eevee evolution moves
         addNewPokemon(new Obsideon());
-        //TODO add move venom swipe to eevee evolution moves
         addNewPokemon(new Scorpeon());
         addNewPokemon(new Sphynxeon());
         addNewPokemon(new Nimbeon());
         addNewPokemon(new Draconeon());
-        //TODO add move eevoboost to eevee evolution moves
         addNewPokemon(new Eeveeon());
         addNewPokemon(new Vareon());
         addPokedexPokemon("cubone, marowak");

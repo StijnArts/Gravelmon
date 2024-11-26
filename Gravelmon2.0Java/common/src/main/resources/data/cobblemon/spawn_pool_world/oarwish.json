@@ -27,6 +27,15 @@
           "#cobblemon:is_temperate",
           "#cobblemon:is_arid"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine",
+            "minecraft:prismarine"
+          ]
+        }
       }
     },
     {
@@ -48,6 +57,15 @@
           "#cobblemon:is_temperate",
           "#cobblemon:is_arid"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine",
+            "minecraft:prismarine"
+          ]
+        }
       }
     }
   ]

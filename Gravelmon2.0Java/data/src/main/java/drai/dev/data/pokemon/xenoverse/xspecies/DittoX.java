@@ -21,7 +21,6 @@ public class DittoX extends Pokemon {
                 List.of("Following a great number of experiments, it became extremely unstable, but it developed the ability to Transform even without seeing its target."),
                 List.of(),
                 List.of(
-                        //TODO replace transform with X transform
                         new MoveLearnSetEntry(Move.X_TRANSFORM,1),
                         new MoveLearnSetEntry(Move.TRANSFORM,1)
                         ),

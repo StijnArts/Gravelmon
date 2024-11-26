@@ -22,6 +22,14 @@
         "maxSkyLight": 15,
         "timeRange": "night",
         "isRaining": false
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
       }
     }
   ]

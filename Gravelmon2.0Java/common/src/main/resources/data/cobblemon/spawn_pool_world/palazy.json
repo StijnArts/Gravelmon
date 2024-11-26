@@ -19,6 +19,14 @@
           "#cobblemon:is_volvanic",
           "#cobblemon:nether/is_soul_sand"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:raw_gold_block"
+          ]
+        }
       }
     }
   ]

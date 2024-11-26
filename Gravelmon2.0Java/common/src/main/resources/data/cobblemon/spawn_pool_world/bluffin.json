@@ -26,6 +26,14 @@
         "biomes": [
           "#cobblemon:is_plains"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_ice"
+          ]
+        }
       }
     }
   ]

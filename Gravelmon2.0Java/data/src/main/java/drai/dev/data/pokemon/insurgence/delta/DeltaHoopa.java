@@ -19,7 +19,6 @@ public class DeltaHoopa extends Pokemon {
                 70,
                 50, List.of(EggGroup.DELTA),
                 List.of("A Delta Species discovered by TerraTerraCotta. The clouds produced around its torso allow it to remain in the air even while it is asleep."),
-                //TODO replace with cloud bottle once implemented
                 List.of(new EvolutionEntry("deltahoopaunleashed", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"minecraft:bottle")),
                 List.of(

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "Champeon",
-  "nationalPokedexNumber": 1416,
+  "nationalPokedexNumber": 1422,
   "primaryType": "fighting",
   "abilities": [
     "scrappy",
@@ -50,7 +50,7 @@
     "amount": "1",
     "entries": [
       {
-        "item": "cobblemon:black_belt",
+        "item": "cobblemon:expert_belt",
         "quantityRange": "1-1",
         "percentage": 40
       }

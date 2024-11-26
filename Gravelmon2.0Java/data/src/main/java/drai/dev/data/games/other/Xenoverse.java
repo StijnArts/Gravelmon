@@ -15,7 +15,7 @@ public class Xenoverse extends Game {
 
     @Override
     public void registerPokemon() {
-        Pokemon shyleon = new Shyleon().setPreferredBlocks(List.of("minecraft:sculk_sensor"));
+        Pokemon shyleon = new Shyleon();
         addNewPokemon(shyleon);
         addNewPokemon(new ShyleonTerrestrial("", Aspect.TERRESTRIAL));
         addNewPokemon(new ShyleonXenoversal("", Aspect.XENOVERSAL));
@@ -109,10 +109,7 @@ public class Xenoverse extends Game {
                         "leafeon," +
                         "glaceon," +
                         "sylveon");
-        //TODO add sound pledge move to eevee learnset
-        //TODO change evolution requirement from round to sound pledge
         addNewPokemon(new Bandeon());
-        //TODO add dragon pledge move to eevee learnset
         addNewPokemon(new Scaleon());
         addPokedexPokemon("porygon," +
                 "porygon2," +

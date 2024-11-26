@@ -26,6 +26,14 @@
           "#cobblemon:has_season/spring",
           "#cobblemon:has_season/summer"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_ice"
+          ]
+        }
       }
     }
   ]

@@ -322,22 +322,9 @@ public class Pokemon {
 
         for (int i = pokemonWithNoPreferredBlocks.size() - 1; i > -1; i--) {
             var pokemon = pokemonWithNoPreferredBlocks.get(i);
-            if (!pokemon.evolutions.isEmpty()) {
-                Optional<Pokemon> pokemonToCopy = pokemon.evolutions.stream().map(evolutionEntry -> evolutionEntry.getResult().toLowerCase())
-//                            .filter(result -> POKEMON_REGISTRY.containsKey(result))
-                            .map(result -> {
-                                Pokemon pokemon1 = POKEMON_REGISTRY.get(result);
-                                if(pokemon1 == null && result.contains(" ")){
-                                    var split = result.split(" ");
-                                    pokemon1 = POKEMON_REGISTRY.get(split[1]+split[0]);
-                                }
-                                return pokemon1;
-                            })
-                            .filter(Objects::nonNull)
-                            .min(Comparator.comparing(pokemon1 -> pokemon1.stats.getTotal()));
-
-                pokemonToCopy.ifPresent(value -> pokemon.spawnData.forEach(pokemonSpawnData -> pokemonSpawnData.preferredBlocks().addAll(value.spawnData.get(0).preferredBlocks())));
-            }
+            pokemon.spawnData.forEach(pokemonSpawnData -> {
+                pokemonSpawnData.preferredBlocks().add(pokemon.primaryType.getPreferredBlock());
+            });
         }
         for (var pokemon : sortedPokemonList) {
             for (EvolutionEntry evolutionEntry : pokemon.getEvolutions()) {
@@ -948,8 +935,8 @@ public class Pokemon {
         return this;
     }
 
-    public Pokemon setPreferredBlocks(List<String> preferredBlocks) {
-        this.spawnData.stream().filter(pokemonSpawnData -> pokemonSpawnData.spawnContext() != SpawnContext.FISHING).forEach(pokemonSpawnData -> pokemonSpawnData.preferredBlocks().addAll(preferredBlocks));
+    public Pokemon setPreferredBlocks(String... preferredBlocks) {
+        this.spawnData.stream().filter(pokemonSpawnData -> pokemonSpawnData.spawnContext() != SpawnContext.FISHING).forEach(pokemonSpawnData -> pokemonSpawnData.preferredBlocks().addAll(List.of(preferredBlocks)));
         return this;
     }
 

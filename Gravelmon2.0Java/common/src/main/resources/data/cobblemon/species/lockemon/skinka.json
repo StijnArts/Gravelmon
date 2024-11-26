@@ -1,0 +1,254 @@
+{
+  "implemented": true,
+  "name": "Skinka",
+  "nationalPokedexNumber": 4568,
+  "primaryType": "normal",
+  "abilities": [
+    "roughskin",
+    "adaptability",
+    "h:protean"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 55,
+    "defence": 65,
+    "special_attack": 45,
+    "special_defence": 50,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 65,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "dragon"
+  ],
+  "moves": [
+    "1:tackle"  ],
+  "labels": [
+    "lockemon",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.skinka.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "skinka_dredgen",
+      "variant": "level_up",
+      "result": "dredgen",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 33
+        },
+        {
+          "variant": "party_member",
+          "target": "type=ground",
+          "contains": true
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "skinka_stalagen",
+      "variant": "level_up",
+      "result": "stalagen",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 33
+        },
+        {
+          "variant": "party_member",
+          "target": "type=rock",
+          "contains": true
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "skinka_chromagen",
+      "variant": "level_up",
+      "result": "chromagen",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 33
+        },
+        {
+          "variant": "party_member",
+          "target": "type=steel",
+          "contains": true
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "skinka_aerogen",
+      "variant": "level_up",
+      "result": "aerogen",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 33
+        },
+        {
+          "variant": "party_member",
+          "target": "type=flying",
+          "contains": true
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "skinka_caragen",
+      "variant": "level_up",
+      "result": "caragen",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 33
+        },
+        {
+          "variant": "party_member",
+          "target": "type=bug",
+          "contains": true
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "skinka_bludgen",
+      "variant": "level_up",
+      "result": "bludgen",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 33
+        },
+        {
+          "variant": "party_member",
+          "target": "type=fighting",
+          "contains": true
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "skinka_pathagen",
+      "variant": "level_up",
+      "result": "pathagen",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 33
+        },
+        {
+          "variant": "party_member",
+          "target": "type=poison",
+          "contains": true
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "skinka_ectogen",
+      "variant": "level_up",
+      "result": "ectogen",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 33
+        },
+        {
+          "variant": "party_member",
+          "target": "type=ghost",
+          "contains": true
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "skinka_legen",
+      "variant": "level_up",
+      "result": "legen",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 33
+        },
+        {
+          "variant": "party_member",
+          "target": "type=dragon",
+          "contains": true
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 65,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

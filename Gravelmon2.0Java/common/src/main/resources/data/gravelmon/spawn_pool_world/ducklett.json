@@ -20,6 +20,14 @@
           "#cobblemon:is_magical"
         ],
         "timeRange": "day"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:glowstone"
+          ]
+        }
       }
     },
     {
@@ -40,6 +48,14 @@
           "#cobblemon:is_magical"
         ],
         "timeRange": "day"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:hay_block"
+          ]
+        }
       }
     }
   ]

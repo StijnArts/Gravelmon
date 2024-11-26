@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:chromagen",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_chromagen",
+      "texture": "cobblemon:textures/pokemon/lockemon/chromagen.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lockemon/chromagen.png"
+    }
+  ]
+}

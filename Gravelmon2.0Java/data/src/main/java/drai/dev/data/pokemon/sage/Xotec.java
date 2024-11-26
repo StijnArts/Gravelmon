@@ -18,11 +18,9 @@ public class Xotec extends Pokemon {
                 270, ExperienceGroup.SLOW,
                 70,
                 300, List.of(EggGroup.UNDISCOVERED),
-                //TODO check back for pokedex entry
                 List.of(""),
                 List.of(),
                 List.of(
-                        //TODO check back for signature move
                         new MoveLearnSetEntry(Move.PAY_DAY,1),
                         new MoveLearnSetEntry(Move.HEAL_BELL,1),
                         new MoveLearnSetEntry(Move.POUND,1),

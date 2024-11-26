@@ -196,7 +196,7 @@
 },
 {
   "name": "Egho",
-  "primaryType": "shadow",
+  "primaryType": "grass",
   "secondaryType": "rock",
   "abilities": [
     "roughskin",
@@ -362,7 +362,7 @@
 },
 {
   "name": "Delta",
-  "primaryType": "slime",
+  "primaryType": "fairy",
   "secondaryType": "psychic",
   "abilities": [
     "psychocall",
@@ -546,7 +546,7 @@
 },
 {
   "name": "Ayreian",
-  "primaryType": "wind",
+  "primaryType": "dark",
   "secondaryType": "ground",
   "abilities": [
     "stamina",

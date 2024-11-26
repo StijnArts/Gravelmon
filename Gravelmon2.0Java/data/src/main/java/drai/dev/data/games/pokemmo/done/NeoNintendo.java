@@ -20,7 +20,7 @@ public class NeoNintendo extends drai.dev.data.games.registry.Game {
 //        addNewPokemon(new NeoMonferno(391));Member of line not finished
 //        addNewPokemon(new NeoPiplup(393));Member of line not finished
 //        addNewPokemon(new NeoPrinplup(394));Member of line not finished
-//        addNewPokemon(new Velozolt()); TODO find other members of galar fossil group
+//        addNewPokemon(new Velozolt());
     }
 
 }

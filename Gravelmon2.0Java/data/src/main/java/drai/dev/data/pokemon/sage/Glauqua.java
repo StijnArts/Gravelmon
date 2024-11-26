@@ -98,7 +98,7 @@ public class Glauqua extends Pokemon {
         this.setCanFly(true);
         setCanBreathUnderwater(true);
         setCanSwim(true);
-        //TODO make it walk on water
+        setCanWalkOnWater(true);
         this.setPortraitXYZ(0.1,2.0,0.0);
     }
 }

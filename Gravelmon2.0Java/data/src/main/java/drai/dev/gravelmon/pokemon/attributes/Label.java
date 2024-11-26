@@ -70,6 +70,7 @@ public enum Label {
     DHIOME("dhiome"),
     ENJIN("enjin"),
     AVALOS("fliga"),
+    FLIGA("fliga"),
     GOETIA("goetia"),
     IONOS("ionos"),
     KURIA("kuria"),
@@ -156,6 +157,7 @@ public enum Label {
             passwordProtectedLabels.put(URZAVOS, "scarfflesLooker");
             passwordProtectedLabels.put(SPION, "sketchyant");
             passwordProtectedLabels.put(AVALOS, "skur01Rocks");
+            passwordProtectedLabels.put(FLIGA, "skur01Rocks");
             passwordProtectedLabels.put(NOVRAI, "znogyrop");
             passwordProtectedLabels.put(PASTEL_ISLAND, "mysteriousIsland");
             passwordProtectedLabels.put(MYTH, "dramaQueen");

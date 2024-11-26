@@ -198,7 +198,6 @@ public class Hiza extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Moscryo());
         addNewPokemon(new Mosfrigid());
         addNewPokemon(new Skiito());
-        //TODO update
         addNewPokemon(new Umbette());
         addNewPokemon(new Parabella());
         addNewPokemon(new Drizzella());

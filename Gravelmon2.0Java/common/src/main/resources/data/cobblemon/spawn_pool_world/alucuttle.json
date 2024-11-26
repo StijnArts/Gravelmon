@@ -19,6 +19,14 @@
           "#minecraft:is_deep_ocean"
         ],
         "maxY": 20
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     }
   ]

@@ -29,6 +29,14 @@
           "#cobblemon:is_mountain",
           "#cobblemon:is_hills"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     }
   ]

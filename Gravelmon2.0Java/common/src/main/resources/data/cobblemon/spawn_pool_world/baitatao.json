@@ -19,6 +19,14 @@
           "#cobblemon:is_warm_ocean"
         ],
         "maxY": 40
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     }
   ]

@@ -28,6 +28,14 @@
           "#cobblemon:is_cold",
           "#cobblemon:is_coast"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
       }
     }
   ]

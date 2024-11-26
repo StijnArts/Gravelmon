@@ -19,6 +19,14 @@
           "#cobblemon:is_swamp",
           "#cobblemon:is_lush"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
       }
     }
   ]

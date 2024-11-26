@@ -236,7 +236,7 @@ public class GenerationFour extends Game {
         addNewPokemon(new MixRotom("", Aspect.MIX));
 
         //Azure (Mystic)
-        addNewPokemon(new MysticRiolu("", Aspect.MYSTIC));
+        addNewPokemon(new MysticRiolu("", Aspect.MYSTIC).setPreferredBlocks("minecraft:sandstone"));
         addNewPokemon(new MysticLucario("", Aspect.MYSTIC));
 
         //Pokemon Opalo

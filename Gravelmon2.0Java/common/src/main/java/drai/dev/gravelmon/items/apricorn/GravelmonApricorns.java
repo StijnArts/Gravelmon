@@ -18,7 +18,6 @@ public enum GravelmonApricorns implements StringRepresentable{
 
     public ItemLike getItem() {
         return switch (this){
-            //TODO CompostingChangeRegistry on fabric and forge
             case ORANGE -> GravelmonItems.ORANGE_APRICORN.get();
             case PURPLE -> GravelmonItems.PURPLE_APRICORN.get();
         };

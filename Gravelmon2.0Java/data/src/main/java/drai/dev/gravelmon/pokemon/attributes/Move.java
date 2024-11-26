@@ -1719,7 +1719,7 @@ public enum Move {
     REFORMAT(true),
     ROTTING_SPARKS(true),
     SACRIFICIAL_PACT(true),
-    SMART_STRIKE(true),//todo apply rename here marmar
+    SMART_STRIKE(true),
     SOUND_POUND(true),
     TROJAN_HORSE(true),
     FOG_HORN(true),

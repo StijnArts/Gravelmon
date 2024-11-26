@@ -27,6 +27,14 @@
           "#cobblemon:is_temperate",
           "#cobblemon:is_beach"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:tuff"
+          ]
+        }
       }
     }
   ]

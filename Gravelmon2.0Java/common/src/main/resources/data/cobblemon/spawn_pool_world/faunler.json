@@ -24,6 +24,14 @@
           "#cobblemon:is_jungle",
           "#cobblemon:is_snowy"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
       }
     }
   ]

@@ -26,6 +26,14 @@
           "#cobblemon:has_season/winter",
           "#cobblemon:has_season/autumn"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     }
   ]

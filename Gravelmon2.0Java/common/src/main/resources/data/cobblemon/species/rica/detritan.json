@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "Detritan",
-  "nationalPokedexNumber": 1383,
+  "nationalPokedexNumber": 1389,
   "primaryType": "rock",
   "secondaryType": "ghost",
   "abilities": [
@@ -118,11 +118,14 @@
     "tm:shadowbone"  ],
   "labels": [
     "rica",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.detritan.desc"
   ],
+  "preEvolution": "barnub",
   "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,

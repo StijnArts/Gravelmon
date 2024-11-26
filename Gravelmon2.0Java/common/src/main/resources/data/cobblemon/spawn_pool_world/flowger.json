@@ -21,6 +21,15 @@
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block",
+            "minecraft:moss_block"
+          ]
+        }
       }
     },
     {
@@ -36,6 +45,15 @@
           "#cobblemon:is_swamp",
           "#cobblemon:is_freshwater"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block",
+            "minecraft:moss_block"
+          ]
+        }
       }
     },
     {
@@ -56,6 +74,15 @@
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block",
+            "minecraft:moss_block"
+          ]
+        }
       }
     },
     {
@@ -71,6 +98,15 @@
           "#cobblemon:is_swamp",
           "#cobblemon:is_freshwater"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block",
+            "minecraft:moss_block"
+          ]
+        }
       }
     }
   ]

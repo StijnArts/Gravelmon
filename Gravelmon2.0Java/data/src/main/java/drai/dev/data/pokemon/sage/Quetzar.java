@@ -24,7 +24,6 @@ public class Quetzar extends Pokemon {
                                 new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"minecraft:ender_eye\"")),
                         List.of())),
                 List.of(
-                        //TODO check back for signature move
                         new MoveLearnSetEntry(Move.SCARY_FACE,1),
                         new MoveLearnSetEntry(Move.TWISTER,1),
                         new MoveLearnSetEntry(Move.NATURE_POWER,8),

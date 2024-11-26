@@ -13,7 +13,15 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "3-22",
-      "weight": 3.8
+      "weight": 3.8,
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
+          ]
+        }
+      }
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:pathagen",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_pathagen",
+      "texture": "cobblemon:textures/pokemon/lockemon/pathagen.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lockemon/pathagen.png"
+    }
+  ]
+}
