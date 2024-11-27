@@ -22,14 +22,16 @@ public class Aristos extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Achiefd());
         addPokedexPokemon("growlithe-aristosian, arcanine-aristosian");
 //        addNewPokemon(new Probotheos()); Missing Art
-        addPokedexPokemon("magikarp, gyarados, tropius-aristosian");
+        addPokedexPokemon("magikarp, gyarados");
         addNewPokemon(new Kamurados());
-//        addNewPokemon(new Goobae()); //MISSING STATS
+        addNewPokemon(new Goobae());
+        addPokedexPokemon("grimer, muk");
         addNewPokemon(new Weeduza());
         addPokedexPokemon("tangela");
         addNewPokemon(new Tangorgon());
 //        addNewPokemon(new Soulix()); Missing Art
 //        addNewPokemon(new Fledjed()); Missing Art
+        addPokedexPokemon("tropius-aristosian");
         addNewPokemon(new Kangazad());
         addPokedexPokemon("kangaskhan-aristosian");
 //        addNewPokemon(new Paloarmo()); Missing Art Renamed from Pharoar

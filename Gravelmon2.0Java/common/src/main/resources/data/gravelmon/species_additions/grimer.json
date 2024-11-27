@@ -1,5 +1,6 @@
 {
    "target": "cobblemon:grimer",
+  "preEvolution": "goobae",
    "forms": [{
   "name": "Forman",
   "primaryType": "ground",

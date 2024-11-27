@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:goobae",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aristos_goobae",
+      "texture": "cobblemon:textures/pokemon/aristos/goobae.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aristos/goobae.png"
+    }
+  ]
+}

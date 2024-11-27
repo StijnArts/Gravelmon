@@ -9,12 +9,12 @@ public class Goobae extends drai.dev.data.pokemon.Pokemon {
     public Goobae() {
         super("Goobae",
                 Type.POISON,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                new Stats(44,
+                        44,
+                        43,
+                        25,
+                        44,
+                        20),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 1, 30,
                 new Stats(1,0,0,0,0,0), 190,
@@ -23,17 +23,20 @@ public class Goobae extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("S O O N"),
-                List.of(),
+                List.of(new EvolutionEntry("grimer", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"190")))),
                 List.of(                        ),
                 List.of(Label.ARISTOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.COMMON, 3, 22, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.WATER_SURFACE),
                 0.28, 0.3,
                 List.of());
+        setCanWalkOnWater(true);
            setLangFileName("Goobae");
 
     }
