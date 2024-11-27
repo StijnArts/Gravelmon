@@ -15,8 +15,8 @@ public class Borazul extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Coaliz().setUsesBigModel());
         addNewPokemon(new Sizzlick().setUsesBigModel());
         addNewPokemon(new Apoiformer().setUsesBigModel());
-        addNewPokemon(new Seaquin().setUsesBigModel());
-        addNewPokemon(new Equamarin().setUsesBigModel());
+        addNewPokemon(new Seaquin().setUsesBigModel().fishingSpawnFromExisting());
+        addNewPokemon(new Equamarin().setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new Aquavallo().setUsesBigModel());
         addNewPokemon(new Humbird().setUsesBigModel());
         addNewPokemon(new Paradivia().setUsesBigModel());

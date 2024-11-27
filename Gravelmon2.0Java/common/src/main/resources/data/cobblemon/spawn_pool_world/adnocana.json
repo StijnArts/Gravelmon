@@ -7,17 +7,16 @@
       "id": "adnocana-01",
       "pokemon": "adnocana",
       "presets": [
-        "natural"
+        "underwater"
       ],
       "type": "pokemon",
-      "context": "grounded",
+      "context": "submerged",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "24-46",
+      "weight": 0.6,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "minecraft:mangrove_swamp"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

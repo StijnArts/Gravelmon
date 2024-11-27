@@ -106,6 +106,8 @@ public class Lagoone extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Drasalys());
         addNewPokemon(new Dralytra());
         addNewPokemon(new Cerakeet());
+        addNewPokemon(new Veneko());
+        addNewPokemon(new Toxunken());
         addNewPokemon(new Skullocaris());
         addNewPokemon(new Exovision());
         addNewPokemon(new Corabdis());

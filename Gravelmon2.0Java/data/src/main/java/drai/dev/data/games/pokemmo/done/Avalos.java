@@ -34,7 +34,7 @@ public class Avalos extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Sconsimese());
         addNewPokemon(new Kashigan());
         addPokedexPokemon("kangaskhan");
-        addNewPokemon(new Atillohunn());
+        addNewPokemon(new Jatilohunn());
         addPokedexPokemon("shellos-avalossian, gastrodon-avalossian");
         addNewPokemon(new Calaloof());
         addNewPokemon(new Cephalofear());
@@ -114,6 +114,7 @@ public class Avalos extends drai.dev.data.games.registry.Game {
 //        addNewPokemon(new Merlinus());   Missing Art
 //        addNewPokemon(new Galahaus());   Missing Art
 //        addNewPokemon(new Arthuriac());   Missing Art
+        addNewPokemon(new Marvelisk());
         addNewPokemon(new Calligraphis());
         addNewPokemon(new Andracarina());
         addNewPokemon(new Hullk());

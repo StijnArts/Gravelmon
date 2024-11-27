@@ -17,7 +17,7 @@ public class Aldao extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Cubby().setUsesBigModel());
         addNewPokemon(new Tigember().setUsesBigModel());
         addNewPokemon(new Tigerage().setUsesBigModel());
-        addNewPokemon(new Nymbble().setUsesBigModel());
+        addNewPokemon(new Nymbble().setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new Nymbubble().setUsesBigModel());
         addNewPokemon(new Dracodont().setUsesBigModel());
         addNewPokemon(new Lilbil().setUsesBigModel());
@@ -47,7 +47,7 @@ public class Aldao extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Mudsnail().setUsesBigModel());
         addNewPokemon(new Pitohood().setUsesBigModel());
         addNewPokemon(new Plaguwing().setUsesBigModel());
-        addNewPokemon(new Psypole().setUsesBigModel());
+        addNewPokemon(new Psypole().setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new Amphisage().setUsesBigModel());
         addNewPokemon(new Dustear().setUsesBigModel());
         addNewPokemon(new Bunnectric().setUsesBigModel());
@@ -81,12 +81,12 @@ public class Aldao extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Sprinther().setUsesBigModel());
         addNewPokemon(new Nyalectic().setUsesBigModel());
         addNewPokemon(new Chuchilla().setUsesBigModel());
-        addNewPokemon(new Sharpisc().setUsesBigModel());
-        addNewPokemon(new Sharkerel().setUsesBigModel());
+        addNewPokemon(new Sharpisc().setUsesBigModel().fishingSpawnFromExisting());
+        addNewPokemon(new Sharkerel().setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new Sworlin().setUsesBigModel());
-        addNewPokemon(new Moorlock().setUsesBigModel());
+        addNewPokemon(new Moorlock().setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new Morlocking().setUsesBigModel());
-        addNewPokemon(new Merminni().setUsesBigModel());
+        addNewPokemon(new Merminni().setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new Mariquinn().setUsesBigModel());
         addNewPokemon(new Fairlion().setUsesBigModel());
         addNewPokemon(new Skylion().setUsesBigModel());
@@ -106,7 +106,7 @@ public class Aldao extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Chiligon().setUsesBigModel());
         addNewPokemon(new Snowchic().setUsesBigModel());
         addNewPokemon(new Snowroc().setUsesBigModel());
-        addNewPokemon(new Bowfish().setUsesBigModel());
+        addNewPokemon(new Bowfish().setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new Arrowanna().setUsesBigModel());
         addNewPokemon(new Bascannon().setUsesBigModel());
         addNewPokemon(new Panpot().setUsesBigModel());
@@ -114,9 +114,9 @@ public class Aldao extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Bearboo().setUsesBigModel());
         addNewPokemon(new Techlyte().setUsesBigModel());
         addNewPokemon(new Technaut().setUsesBigModel());
-        addNewPokemon(new Coratle().setUsesBigModel());
+        addNewPokemon(new Coratle().setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new Sedimarine().setUsesBigModel());
-        addNewPokemon(new Sheltle().setUsesBigModel());
+        addNewPokemon(new Sheltle().setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new Shelmount().setUsesBigModel());
         addNewPokemon(new Chinder().setUsesBigModel());
         addNewPokemon(new Blazilisk().setUsesBigModel());
@@ -151,7 +151,7 @@ public class Aldao extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Asterave().setUsesBigModel());
         addNewPokemon(new Astradarna().setUsesBigModel());
         addNewPokemon(new Lakankilat().setUsesBigModel());
-        addNewPokemon(new Lakandagat().setUsesBigModel());
+        addNewPokemon(new Lakandagat().setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new Lakanlinog().setUsesBigModel());
     }
 

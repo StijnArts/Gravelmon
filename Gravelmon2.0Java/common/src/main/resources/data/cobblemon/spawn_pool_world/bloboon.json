@@ -7,16 +7,16 @@
       "id": "bloboon-01",
       "pokemon": "bloboon",
       "presets": [
-        "underwater"
+        "freshwater"
       ],
       "type": "pokemon",
-      "context": "seafloor",
-      "bucket": "rare",
-      "level": "8-35",
-      "weight": 1.1,
+      "context": "submerged",
+      "bucket": "common",
+      "level": "8-21",
+      "weight": 1.5,
       "condition": {
         "biomes": [
-          "#minecraft:is_deep_ocean"
+          "#cobblemon:is_swamp"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

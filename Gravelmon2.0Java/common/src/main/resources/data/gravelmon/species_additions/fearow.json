@@ -22,7 +22,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 104,
+  "catchRate": 110,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -49,12 +49,15 @@
     "1:peck"  ],
   "labels": [
     "form",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.formanfearow.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "spearow form=forman",
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -69,7 +72,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 16,
   "weight": 0,
   "aspects": ["forman"],
   "cannotDynamax": false

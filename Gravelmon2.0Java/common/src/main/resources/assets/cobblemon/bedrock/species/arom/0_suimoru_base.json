@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:suimoru",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_suimoru",
+      "texture": "cobblemon:textures/pokemon/arom/suimoru.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/suimoru.png"
+    }
+  ]
+}

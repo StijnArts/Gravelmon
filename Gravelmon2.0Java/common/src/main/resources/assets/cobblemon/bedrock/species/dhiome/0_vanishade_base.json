@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:vanishade",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:dhiome_vanishade",
+      "texture": "cobblemon:textures/pokemon/dhiome/vanishade.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/dhiome/vanishade.png"
+    }
+  ]
+}

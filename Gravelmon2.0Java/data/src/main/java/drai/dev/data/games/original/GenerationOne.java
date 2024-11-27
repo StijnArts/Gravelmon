@@ -59,19 +59,19 @@ public class GenerationOne extends Game {
         addNewPokemon(new FabelianOddish("", Aspect.FABELIAN).setUsesBigModel()); //TODO
         addNewPokemon(new FabelianGloom("", Aspect.FABELIAN).setUsesBigModel());
         addNewPokemon(new FabelianOnix("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianPoliwag("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianPoliwhirl("", Aspect.FABELIAN).setUsesBigModel());
+        addNewPokemon(new FabelianPoliwag("", Aspect.FABELIAN).setUsesBigModel().fishingSpawnFromExisting());
+        addNewPokemon(new FabelianPoliwhirl("", Aspect.FABELIAN).setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new FabelianMeowth("", Aspect.FABELIAN).setUsesBigModel());
         addNewPokemon(new FabelianRattata("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianSeel("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianDewgong("", Aspect.FABELIAN).setUsesBigModel());
+        addNewPokemon(new FabelianSeel("", Aspect.FABELIAN).setUsesBigModel().fishingSpawnFromExisting());
+        addNewPokemon(new FabelianDewgong("", Aspect.FABELIAN).setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new FabelianJynx("", Aspect.FABELIAN).setUsesBigModel());
 
         addNewPokemon(new MahalianMeowth("", Aspect.MAHALIAN).setUsesBigModel()); //TODO
         addNewPokemon(new MahalianMankey("", Aspect.MAHALIAN).setUsesBigModel());
-        addNewPokemon(new MahalianDratini("", Aspect.MAHALIAN).setUsesBigModel());
-        addNewPokemon(new MahalianDragonair("", Aspect.MAHALIAN).setUsesBigModel());
-        addNewPokemon(new MahalianStaryu("", Aspect.MAHALIAN).setUsesBigModel());
+        addNewPokemon(new MahalianDratini("", Aspect.MAHALIAN).setUsesBigModel().fishingSpawnFromExisting());
+        addNewPokemon(new MahalianDragonair("", Aspect.MAHALIAN).setUsesBigModel().fishingSpawnFromExisting());
+        addNewPokemon(new MahalianStaryu("", Aspect.MAHALIAN).setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new MahalianRaichu("", Aspect.MAHALIAN).setUsesBigModel());
 
         addNewPokemon(new FerranianMeowth("", Aspect.FERRANIAN).setUsesBigModel()); //TODO
@@ -81,8 +81,8 @@ public class GenerationOne extends Game {
         addNewPokemon(new FerranianLapras("", Aspect.FERRANIAN).setUsesBigModel());
 
         addNewPokemon(new IvrisianMeowth("", Aspect.IVRISIAN).setUsesBigModel()); //TODO
-        addNewPokemon(new IvrisianMagikarp("", Aspect.IVRISIAN).setUsesBigModel());
-        addNewPokemon(new IvrisianGyarados("", Aspect.IVRISIAN).setUsesBigModel());
+        addNewPokemon(new IvrisianMagikarp("", Aspect.IVRISIAN).setUsesBigModel().fishingSpawnFromExisting());
+        addNewPokemon(new IvrisianGyarados("", Aspect.IVRISIAN).setUsesBigModel().fishingSpawnFromExisting());
 
         addNewPokemon(new PalmianRattata("", Aspect.PALMIAN).setUsesBigModel()); //TODO
         addNewPokemon(new PalmianRaticate("", Aspect.PALMIAN).setUsesBigModel());
@@ -91,9 +91,9 @@ public class GenerationOne extends Game {
         addNewPokemon(new PalmianExeggutor("", Aspect.PALMIAN, new Stats(530, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.HP))).setUsesBigModel());
         addNewPokemon(new PalmianGrowlithe("", Aspect.PALMIAN).setUsesBigModel());
         addNewPokemon(new PalmianArcanine("", Aspect.PALMIAN, new Stats(555, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))).setUsesBigModel());
-        addNewPokemon(new PalmianMagikarp("", Aspect.PALMIAN).setUsesBigModel());
-        addNewPokemon(new PalmianPoliwag("", Aspect.PALMIAN).setUsesBigModel());
-        addNewPokemon(new PalmianPoliwhirl("", Aspect.PALMIAN).setUsesBigModel());
+        addNewPokemon(new PalmianMagikarp("", Aspect.PALMIAN).setUsesBigModel().fishingSpawnFromExisting());
+        addNewPokemon(new PalmianPoliwag("", Aspect.PALMIAN).setUsesBigModel().fishingSpawnFromExisting());
+        addNewPokemon(new PalmianPoliwhirl("", Aspect.PALMIAN).setUsesBigModel().fishingSpawnFromExisting());
 
         //TODO
         addNewPokemon(new RaianianArcanine("", Aspect.RAIANIAN, new Stats(555, FAST_SPECIAL_ATTACKER, List.of(SPEED))).setUsesBigModel());

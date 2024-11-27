@@ -2,6 +2,8 @@ package drai.dev.data.games.instagram.artworks218;
 
 
 import drai.dev.data.pokemon.arom.*;
+import drai.dev.data.pokemon.elb.*;
+import drai.dev.data.pokemon.sahl.*;
 
 public class Arom extends drai.dev.data.games.registry.Game {
     public Arom() {
@@ -40,8 +42,11 @@ public class Arom extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Danderain().setUsesBigModel());
         addNewPokemon(new Bloburchin().setUsesBigModel());
         addNewPokemon(new Bomburchin().setUsesBigModel());
+        removePokedexPokemon("kapsakid, scovillain");
         addNewPokemon(new Scornovilain().setUsesBigModel());
+        removePokedexPokemon("bonsly, sudowoodo");
         addNewPokemon(new Charcowoodo().setUsesBigModel());
+        removePokedexPokemon("tailow, swellow");
         addNewPokemon(new Swellaposs().setUsesBigModel());
         addNewPokemon(new Orphovi().setUsesBigModel());
         addNewPokemon(new Orthiator().setUsesBigModel());
@@ -51,12 +56,16 @@ public class Arom extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Zapplem().setUsesBigModel());
         addNewPokemon(new Terekko().setUsesBigModel());
         addNewPokemon(new Gekkerra().setUsesBigModel());
+        removePokedexPokemon("smoliv-aromian, dolliv-aromian");
         addNewPokemon(new Arbovino().setUsesBigModel());
+        removePokedexPokemon("shroomish, breloom");
         addNewPokemon(new Scippoloom().setUsesBigModel());
         addNewPokemon(new Leektonik().setUsesBigModel());
         addNewPokemon(new Leektoross().setUsesBigModel());
         addNewPokemon(new Sweepoke().setUsesBigModel());
         addNewPokemon(new Sweebro().setUsesBigModel());
+        addNewPokemon(new Sweeking().setUsesBigModel());
+        removePokedexPokemon("milkitt-aromian, feralassi-aromian");
         addNewPokemon(new Aromianmilkitt().setUsesBigModel());
         addNewPokemon(new Aromianferalassi().setUsesBigModel());
         addNewPokemon(new Stakebble().setUsesBigModel());
@@ -72,6 +81,8 @@ public class Arom extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Ciporror().setUsesBigModel());
         addNewPokemon(new Sinicecrea().setUsesBigModel());
         addNewPokemon(new Polcreagiced().setUsesBigModel());
+        addNewPokemon(new Appafrigion().setUsesBigModel());
+        removePokedexPokemon("vanillite-aromian, vanillish-aromian");
         addNewPokemon(new Chocolluxe().setUsesBigModel());
         addNewPokemon(new Frequenfly().setUsesBigModel());
         addNewPokemon(new Mothamantra().setUsesBigModel());
@@ -79,6 +90,7 @@ public class Arom extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Flowacarpa().setUsesBigModel());
         addNewPokemon(new Numeal().setUsesBigModel());
         addNewPokemon(new Glacerus().setUsesBigModel());
+        removePokedexPokemon("klink-aromian, klang-aromian");
         addNewPokemon(new Klinkopta().setUsesBigModel());
         addNewPokemon(new Poiduck().setUsesBigModel());
         addNewPokemon(new Velduck().setUsesBigModel());
@@ -86,15 +98,21 @@ public class Arom extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Tanghetti().setUsesBigModel());
         addNewPokemon(new Puddacuta().setUsesBigModel());
         addNewPokemon(new Tiramisoul().setUsesBigModel());
+        removePokedexPokemon("elgyem, beheeyem");
         addNewPokemon(new Gemineeyem().setUsesBigModel());
+        removePokedexPokemon("swirlix, slurpuff");
         addNewPokemon(new Slurruff().setUsesBigModel());
+        removePokedexPokemon("milcery-fabelian, alcheesie");
         addNewPokemon(new Formagie().setUsesBigModel());
         addNewPokemon(new Bancon().setUsesBigModel());
         addNewPokemon(new Tesoroink().setUsesBigModel());
         addNewPokemon(new Terowl().setUsesBigModel());
         addNewPokemon(new Tarostrix().setUsesBigModel());
+        removePokedexPokemon("scraggy, scrafty");
         addNewPokemon(new Scraponey().setUsesBigModel());
+        removePokedexPokemon("remoraid, octillery");
         addNewPokemon(new Whalship().setUsesBigModel());
+        removePokedexPokemon("slugma, magcargo");
         addNewPokemon(new Vespargo().setUsesBigModel());
         addNewPokemon(new Gondozia().setUsesBigModel());
         addNewPokemon(new Romarlord().setUsesBigModel());
@@ -107,42 +125,72 @@ public class Arom extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Puppoof().setUsesBigModel());
         addNewPokemon(new Doggoof().setUsesBigModel());
         addNewPokemon(new Madromooff().setUsesBigModel());
+        removePokedexPokemon("stonjourner-aromian");
         addNewPokemon(new Stonleaner().setUsesBigModel());
+        removePokedexPokemon("spritzee-aromian, aromatisse-aromian");
         addNewPokemon(new Aromiasma().setUsesBigModel());
         addNewPokemon(new Cutelon().setUsesBigModel());
         addNewPokemon(new Loafelon().setUsesBigModel());
         addNewPokemon(new Caebelon().setUsesBigModel());
-        addNewPokemon(new Breabatch().setUsesBigModel());
+        addNewPokemon(new Breabatch().setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new Breabecue().setUsesBigModel());
         addNewPokemon(new Clavase().setUsesBigModel());
         addNewPokemon(new Terapota().setUsesBigModel());
         addNewPokemon(new Reptifia().setUsesBigModel());
         addNewPokemon(new Ferraraptor().setUsesBigModel());
-        addNewPokemon(new Sponpoi().setUsesBigModel());
+        addNewPokemon(new Sponpoi().setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new Ritturtell().setUsesBigModel());
         addNewPokemon(new Poironell().setUsesBigModel());
+        removePokedexPokemon("charcadet, armarouge, ceruledge");
         addNewPokemon(new Amethius().setUsesBigModel());
+        removePokedexPokemon("gible, gabite-aromian, garchomp-aromian");
         addNewPokemon(new Brickonet().setUsesBigModel());
         addNewPokemon(new Twallgon().setUsesBigModel());
         addNewPokemon(new Strowacor().setUsesBigModel());
+        removePokedexPokemon("slakoth-elbian, vigoroth-elbian, vigoking-elbian, gulpin-aromian, swalot-aromian");
+        addNewPokemon(new Cervelot().setUsesBigModel());
+        removePokedexPokemon("sentret-aromian, furret-aromian");
         addNewPokemon(new Justret().setUsesBigModel());
+        removePokedexPokemon("chingling, chimecho-aromian");
         addNewPokemon(new Belldong().setUsesBigModel());
         addNewPokemon(new Diveloon().setUsesBigModel());
         addNewPokemon(new Diveblim().setUsesBigModel());
         addNewPokemon(new Divemarine().setUsesBigModel());
+        removePokedexPokemon("snubbull, granbull");
         addNewPokemon(new Terribull().setUsesBigModel());
+        removePokedexPokemon("ekans, arbok");
         addNewPokemon(new Twiparok().setUsesBigModel());
+        removePokedexPokemon("meowth-aromian");
         addNewPokemon(new Purrow().setUsesBigModel());
+        removePokedexPokemon("rhyhorn-aromian");
         addNewPokemon(new Tricerior().setUsesBigModel());
         addNewPokemon(new Clouffing().setUsesBigModel());
         addNewPokemon(new Breezing().setUsesBigModel());
+        removePokedexPokemon("lediba, ledian");
         addNewPokemon(new Lumedian().setUsesBigModel());
+
+        removePokedexPokemon("sunkern, sunflora");
+        addNewPokemon(new Solaflora().setUsesBigModel());
+        removePokedexPokemon("lunatone");
+        addNewPokemon(new Glaciluna().setUsesBigModel());
+        removePokedexPokemon("solrock");
+        addNewPokemon(new Pyrosol().setUsesBigModel());
+        removePokedexPokemon("hooh-aromian, lugia-aromian");
+        addNewPokemon(new Tennomoru().setUsesBigModel());
         addNewPokemon(new Piozizi().setUsesBigModel());
         addNewPokemon(new Pioorso().setUsesBigModel());
         addNewPokemon(new Piopeca().setUsesBigModel());
         addNewPokemon(new Piokovu().setUsesBigModel());
+        addNewPokemon(new Regifly().setUsesBigModel());
+        addNewPokemon(new Regibug().setUsesBigModel());
+        removePokedexPokemon("cobalion-sahlian, terakion-sahlian, verizion-sahlian");
+        addNewPokemon(new Suimoru().setUsesBigModel());
+        addNewPokemon(new Kinmoru().setUsesBigModel());
+        addNewPokemon(new Domoru().setUsesBigModel());
+        addNewPokemon(new Araemon().setUsesBigModel());
         addNewPokemon(new Mokuonei().setUsesBigModel());
         addNewPokemon(new Kaimarei().setUsesBigModel());
+        addNewPokemon(new Meikourkei().setUsesBigModel());
     }
 
 }

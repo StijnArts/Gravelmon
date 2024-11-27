@@ -26,6 +26,31 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
+            "minecraft:raw_gold_block",
+            "minecraft:raw_gold_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mahalian_dratini-11",
+      "pokemon": "dratini mahalian",
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_sky",
+          "#cobblemon:is_mountain"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:raw_gold_block",
             "minecraft:raw_gold_block"
           ]
         }

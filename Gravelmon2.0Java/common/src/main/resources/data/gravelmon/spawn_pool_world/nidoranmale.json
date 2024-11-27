@@ -13,14 +13,12 @@
       "context": "grounded",
       "bucket": "common",
       "level": "3-22",
-      "weight": 3.8,
+      "weight": 5.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_magical"
         ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        "timeRange": "night"
       },
       "weightMultiplier": {
         "multiplier": 5.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "Glowfly",
-  "nationalPokedexNumber": 5000,
+  "nationalPokedexNumber": 5006,
   "primaryType": "bug",
   "secondaryType": "water",
   "abilities": [
@@ -22,7 +22,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -32,11 +32,11 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
-  "catchRate": 136,
+  "catchRate": 90,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -54,12 +54,15 @@
     "1:vacuumwave"  ],
   "labels": [
     "form",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.glowfly.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "bloboon",
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -74,7 +77,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 15,
   "weight": 0,
   "aspects": [],
 "features": [

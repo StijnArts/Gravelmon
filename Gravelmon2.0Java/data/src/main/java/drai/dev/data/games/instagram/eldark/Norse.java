@@ -28,7 +28,7 @@ public class Norse extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Lavades().setUsesBigModel());
         addNewPokemon(new Hadcano().setUsesBigModel());
         addNewPokemon(new Surtacno(new Stats(525, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel()); //Evolves into Vesfire
-        addNewPokemon(new Rayside().setUsesBigModel());
+        addNewPokemon(new Rayside().setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new Royray().setUsesBigModel());
         addNewPokemon(new Aegiking(new Stats(525, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))).setUsesBigModel()); //Evolves into Veswater
 
@@ -118,7 +118,7 @@ public class Norse extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Duself().setUsesBigModel());
         addNewPokemon(new Dimelf(new Stats(450, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
         addNewPokemon(new Magelf(new Stats(450, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))).setUsesBigModel());
-        addNewPokemon(new Stukin().setUsesBigModel());
+        addNewPokemon(new Stukin().setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new Punkin(new Stats(440, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
         addNewPokemon(new Lygiest().setUsesBigModel());
         addNewPokemon(new Spectelyca(new Stats(470, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.SPEED))).setUsesBigModel());
@@ -148,6 +148,7 @@ public class Norse extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Vesdragon(new Stats(580, StatArchetype.BULKY_SUPPORT, List.of(StatType.HP))).setUsesBigModel());
         addNewPokemon(new Vessteel(new Stats(580, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK, StatType.DEFENCE))).setUsesBigModel());
         addNewPokemon(new Vesfairy(new Stats(580, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
+        addPokedexPokemon("pichu-norse, pikachu-norse, raichu-norse, sentret-norse, furret-norse, absol-norse, gible-norse, gabite-norse, garchomp-norse");
 
     }
 }

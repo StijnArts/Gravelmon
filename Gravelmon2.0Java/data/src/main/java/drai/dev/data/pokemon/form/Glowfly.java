@@ -16,8 +16,8 @@ public class Glowfly extends drai.dev.data.pokemon.Pokemon {
                         115,
                         69),
                 List.of(Ability.WATER_ABSORB), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                15, 0,
+                new Stats(0,0,0,0,0,0), 90,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -27,13 +27,16 @@ public class Glowfly extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.FORM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 14, 35, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FRESHWATER),
                 0.28, 0.3,
                 List.of());
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setCanFly(true);
            setLangFileName("Glowfly");
 
     }

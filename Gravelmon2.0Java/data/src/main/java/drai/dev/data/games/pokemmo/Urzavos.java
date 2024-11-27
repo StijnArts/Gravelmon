@@ -104,6 +104,7 @@ public class Urzavos extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Lumineye());
         addNewPokemon(new Prickity());   
         addNewPokemon(new Ruffhaws());
+        addNewPokemon(new Chompupi());
     }
 
 }

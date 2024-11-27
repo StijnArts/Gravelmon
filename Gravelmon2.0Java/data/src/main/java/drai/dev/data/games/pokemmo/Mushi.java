@@ -53,6 +53,11 @@ public class Mushi extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Caramello());
         addNewPokemon(new Goopest());
         addNewPokemon(new Shugatrix());
+        addNewPokemon(new Sapeeko());
+        addNewPokemon(new Grobolt());
+        addNewPokemon(new Hydrone());
+        addNewPokemon(new Astronet());
+        addNewPokemon(new Terrantula());
     }
 
 }

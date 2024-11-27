@@ -72,6 +72,8 @@ public class Otopo extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Tatei());
         addNewPokemon(new Kyopir());
         addNewPokemon(new Piroyata());
+        addNewPokemon(new Fluffalo());
+        addNewPokemon(new Buffofluff());
         addNewPokemon(new Platypud());
         addNewPokemon(new Platypulse(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
                 List.of(StatType.SPEED))));
@@ -121,7 +123,7 @@ public class Otopo extends drai.dev.data.games.registry.Game {
                 List.of(StatType.SPEED))));
         addNewPokemon(new Cubrosus());
         addNewPokemon(new Feranther());
-        addNewPokemon(new Orialith());
+        addNewPokemon(new Orialisk());
         addNewPokemon(new Tripulcre());
         addNewPokemon(new Flittervolt());
         addNewPokemon(new Bakkabolt(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
@@ -153,6 +155,7 @@ public class Otopo extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Iceteroid());
         addNewPokemon(new Pangoloo());
         addNewPokemon(new Snoat());
+        addNewPokemon(new Sleasel());
 //        addNewPokemon(new Glacermine());   Missing Stats
 //        addNewPokemon(new Toyrosaur());   Missing Stats
 //        addNewPokemon(new Stegotoy());   Missing Stats
@@ -161,7 +164,7 @@ public class Otopo extends drai.dev.data.games.registry.Game {
 //        addNewPokemon(new Tantan());   Missing Stats
 //        addNewPokemon(new Natugnaro());   Missing Stats
         addNewPokemon(new Ankarmor());
-//        addNewPokemon(new Ankyolith());   Missing Stats
+//        addNewPokemon(new Kilosor());   Missing Stats
 //        addNewPokemon(new Therospine());   Missing Stats
 //        addNewPokemon(new Theroroar());   Missing Stats
 //        addNewPokemon(new Rapraider());   Missing Stats
@@ -227,7 +230,7 @@ public class Otopo extends drai.dev.data.games.registry.Game {
 //        addNewPokemon(new Buddaki());   Missing Stats
 //        addNewPokemon(new Jestar());   Missing Stats
 //        addNewPokemon(new Hornbeet());   Missing Stats
-//        addNewPokemon(new Butobeet());   Missing Stats
+//        addNewPokemon(new Tengushi());   Missing Stats
 //        addNewPokemon(new Adjie());   Missing Stats
 //        addNewPokemon(new Majee());   Missing Stats
 //        addNewPokemon(new Latarajee());   Missing Stats

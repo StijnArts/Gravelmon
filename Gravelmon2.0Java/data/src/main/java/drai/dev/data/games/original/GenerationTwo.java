@@ -62,7 +62,7 @@ public class GenerationTwo extends Game {
         addNewPokemon(new FabelianEntei("", Aspect.FABELIAN).setUsesBigModel());
         addNewPokemon(new FabelianSuicune("", Aspect.FABELIAN).setUsesBigModel());
 
-        addNewPokemon(new MahalianMantine("", Aspect.MAHALIAN).setUsesBigModel()); //TODO
+        addNewPokemon(new MahalianMantine("", Aspect.MAHALIAN).setUsesBigModel().fishingSpawnFromExisting()); //TODO
         addNewPokemon(new MahalianYanma("", Aspect.MAHALIAN).setUsesBigModel());
 
         addNewPokemon(new IvrisianSmeargle("", Aspect.IVRISIAN).setUsesBigModel()); //TODO
@@ -70,8 +70,8 @@ public class GenerationTwo extends Game {
         //TODO
         addNewPokemon(new RaianianScizor("", Aspect.RAIANIAN, new Stats(500, BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))).setUsesBigModel());
         addNewPokemon(new RaianianNoctowl("", Aspect.RAIANIAN, new Stats(542, BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))).setUsesBigModel());
-        addNewPokemon(new RaianianChinchou("", Aspect.RAIANIAN).setUsesBigModel());
-        addNewPokemon(new RaianianLanturn("", Aspect.RAIANIAN, new Stats(460, PHYSICAL_ATTACKER, List.of(SPECIAL_DEFENCE))).setUsesBigModel());
+        addNewPokemon(new RaianianChinchou("", Aspect.RAIANIAN).setUsesBigModel().fishingSpawnFromExisting());
+        addNewPokemon(new RaianianLanturn("", Aspect.RAIANIAN, new Stats(460, PHYSICAL_ATTACKER, List.of(SPECIAL_DEFENCE))).setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new RaianianPhanpy("", Aspect.RAIANIAN).setUsesBigModel());
         addNewPokemon(new RaianianDonphan("", Aspect.RAIANIAN, new Stats(500, SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))).setUsesBigModel());
 

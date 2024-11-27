@@ -26,6 +26,31 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
+            "minecraft:magma_block",
+            "minecraft:magma_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ferranian_barboach-11",
+      "pokemon": "barboach ferranian",
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_sky",
+          "#cobblemon:is_mountain"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block",
             "minecraft:magma_block"
           ]
         }

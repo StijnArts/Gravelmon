@@ -10,9 +10,6 @@ public class Elb extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Sweeking().setUsesBigModel());
-        addNewPokemon(new Appafrigion().setUsesBigModel());
-        addNewPokemon(new Cervelot().setUsesBigModel());
     }
 
 }

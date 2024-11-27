@@ -111,6 +111,7 @@ public class Dhiome extends drai.dev.data.games.registry.Game {
 //        addNewPokemon(new Pixidra());   Missing Art
         addNewPokemon(new Genbrisk(new Stats(640, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))));
         addNewPokemon(new Voltwin(new Stats(298, StatArchetype.FAST_SUPPORT, List.of(StatType.SPEED))));
+        addNewPokemon(new Vanishade(new Stats(298, StatArchetype.SPECIAL_WALL, List.of(StatType.SPEED))));
     }
 
 }

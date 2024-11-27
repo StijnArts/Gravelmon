@@ -46,15 +46,19 @@ public class Ivris extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Marbeast().setUsesBigModel());
         addNewPokemon(new Marmera().setUsesBigModel());
         addNewPokemon(new Marbellezza().setUsesBigModel());
+        addPokedexPokemon("riolu-ivrisian");
         addNewPokemon(new Lucumbra().setUsesBigModel());
+        addPokedexPokemon("magikarp-ivrisian");
+        addPokedexPokemon("gyarados-ivrisian");
+        addPokedexPokemon("spritzee-ivrisian");
         addNewPokemon(new Demictor().setUsesBigModel());
         addNewPokemon(new Scissect().setUsesBigModel());
         addNewPokemon(new Drassors().setUsesBigModel());
-        addNewPokemon(new Keletta().setUsesBigModel());
+        addNewPokemon(new Keletta().setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new Kelpelago().setUsesBigModel());
         addNewPokemon(new Faumo().setUsesBigModel());
         addNewPokemon(new Druidigo().setUsesBigModel());
-        addNewPokemon(new Bavis().setUsesBigModel());
+        addNewPokemon(new Bavis().setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new Monsarella().setUsesBigModel());
         addNewPokemon(new Cycliwasp().setUsesBigModel());
         addNewPokemon(new Bachist().setUsesBigModel()); //fossil
@@ -74,8 +78,8 @@ public class Ivris extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Sparcink().setUsesBigModel());
         addNewPokemon(new Oilittle().setUsesBigModel());
         addNewPokemon(new Olince().setUsesBigModel());
-        addNewPokemon(new Phingon().setUsesBigModel());
-        addNewPokemon(new Lyviasma().setUsesBigModel());
+        addNewPokemon(new Phingon().setUsesBigModel().fishingSpawnFromExisting());
+        addNewPokemon(new Lyviasma().setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new Lyviajira().setUsesBigModel());
         addNewPokemon(new Poetiny().setUsesBigModel());
         addNewPokemon(new Compoet().setUsesBigModel());
@@ -85,6 +89,7 @@ public class Ivris extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Prosciuthough().setUsesBigModel());
         addNewPokemon(new Cubwood().setUsesBigModel());
         addNewPokemon(new Silvursa().setUsesBigModel());
+        addPokedexPokemon("smeargle-ivrisian");
         addNewPokemon(new Renaisspect().setUsesBigModel());
         addNewPokemon(new Fridgegg().setUsesBigModel());
         addNewPokemon(new Phrosant().setUsesBigModel());
@@ -97,30 +102,61 @@ public class Ivris extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Pizzalash().setUsesBigModel());
         addNewPokemon(new Fibichou().setUsesBigModel());
         addNewPokemon(new Lanterror().setUsesBigModel());
+        addPokedexPokemon("meowth-ivrisian");
+        addPokedexPokemon("perrserker-ivrisian");
+        addPokedexPokemon("clawncher-ivrisian");
         addNewPokemon(new Clawkilno().setUsesBigModel());
-        addNewPokemon(new Rhyqualo().setUsesBigModel());
-        addNewPokemon(new Rhylodon().setUsesBigModel());
+        addNewPokemon(new Rhyqualo().setUsesBigModel().fishingSpawnFromExisting());
+        addNewPokemon(new Rhylodon().setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new Rhyptide().setUsesBigModel());
         addNewPokemon(new Chariolin().setUsesBigModel());
         addNewPokemon(new Pancery().setUsesBigModel());
         addNewPokemon(new Harlecream().setUsesBigModel());
+        addPokedexPokemon("pikipek-ivrisian");
+        addPokedexPokemon("trumbeak-ivrisian");
         addNewPokemon(new Brawlbeak().setUsesBigModel());
+        addPokedexPokemon(
+                "eevee," +
+                        "vaporeon," +
+                        "jolteon," +
+                        "flareon," +
+                        "espeon," +
+                        "umbreon," +
+                        "leafeon," +
+                        "glaceon," +
+                        "sylveon");
         addNewPokemon(new Belleon().setUsesBigModel());
-        addNewPokemon(new Gladavius().setUsesBigModel());
         addNewPokemon(new Ferreon().setUsesBigModel());
+        addPokedexPokemon("combee");
+        addPokedexPokemon("vespiquen");
+        addNewPokemon(new Gladavius().setUsesBigModel());
+        addPokedexPokemon("smoliv");
+        addPokedexPokemon("dolliv");
+        addPokedexPokemon("arboliva");
         addNewPokemon(new Wollivana().setUsesBigModel());
+        addPokedexPokemon("torkoal");
         addNewPokemon(new Torkuoco().setUsesBigModel());
+        addPokedexPokemon("kapsakid");
+        addPokedexPokemon("scovillain");
         addNewPokemon(new DraNduja().setUsesBigModel());
+        addPokedexPokemon("dunsparce");
+        addPokedexPokemon("dudunsparce");
         addNewPokemon(new Daudausparce().setUsesBigModel());
+        addPokedexPokemon("klawf");
         addNewPokemon(new Klawlosseus().setUsesBigModel());
+        addPokedexPokemon("clobbopus");
+        addPokedexPokemon("grapploct");
         addNewPokemon(new Krattleoct().setUsesBigModel());
-        addNewPokemon(new Zangrave().setUsesBigModel());
+        addPokedexPokemon("falinks");
         addNewPokemon(new Falegion().setUsesBigModel());
+        addPokedexPokemon("zangoose");
+        addNewPokemon(new Zangrave().setUsesBigModel());
+        addPokedexPokemon("seviper");
         addNewPokemon(new Viperoyal().setUsesBigModel());
         addNewPokemon(new Crokull().setUsesBigModel());
         addNewPokemon(new Gluttogator().setUsesBigModel());
         addNewPokemon(new Maschodile().setUsesBigModel());
-        addNewPokemon(new Pixsea().setUsesBigModel());
+        addNewPokemon(new Pixsea().setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new Equarea().setUsesBigModel());
         addNewPokemon(new Hydrocampa().setUsesBigModel());
         addNewPokemon(new Drastell().setUsesBigModel());
@@ -139,8 +175,8 @@ public class Ivris extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Nartana().setUsesBigModel());
         addNewPokemon(new Wrrazal().setUsesBigModel()); //fossil
         addNewPokemon(new Specterzal().setUsesBigModel());
-        addNewPokemon(new IronJaws().setUsesBigModel());
-        addNewPokemon(new AbyssalHunger().setUsesBigModel());
+        addNewPokemon(new IronJaws().setUsesBigModel().fishingSpawnFromExisting());
+        addNewPokemon(new AbyssalHunger().setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new IronFists().setUsesBigModel());
         addNewPokemon(new FuriousPunches().setUsesBigModel());
         addNewPokemon(new IronSail().setUsesBigModel());

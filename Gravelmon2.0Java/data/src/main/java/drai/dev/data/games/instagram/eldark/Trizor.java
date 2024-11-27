@@ -32,7 +32,7 @@ public class Trizor extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Gorisulfa(new Stats(530, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel());
         addNewPokemon(new Tecnorilla(new Stats(530, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
 
-        addNewPokemon(new Spactrish().setUsesBigModel());
+        addNewPokemon(new Spactrish().setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new Spacteel().setUsesBigModel());
         addNewPokemon(new Whaleist(new Stats(530, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
         addNewPokemon(new Tecnophin(new Stats(530, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPEED))).setUsesBigModel());
@@ -82,8 +82,10 @@ public class Trizor extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Gecgon().setUsesBigModel());
         addNewPokemon(new Phrygon().setUsesBigModel());
         addNewPokemon(new Igunagon(new Stats(540, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
+        addPokedexPokemon("baltoy, claydol");
         addNewPokemon(new Azagger(new Stats(545, StatArchetype.SPECIAL_WALL, List.of(StatType.SPECIAL_DEFENCE, StatType.DEFENCE))).setUsesBigModel());
 
+        addPokedexPokemon("skarmory-trizoran");
         addNewPokemon(new Azmory(new Stats(534, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
         addNewPokemon(new Rosper().setUsesBigModel());
         addNewPokemon(new Vetesper().setUsesBigModel());
@@ -95,7 +97,7 @@ public class Trizor extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Kapalze().setUsesBigModel());
         addNewPokemon(new Tutolar().setUsesBigModel());
         addNewPokemon(new Locanel(new Stats(530, StatArchetype.FAST_SPECIAL_WALL, List.of(StatType.SPECIAL_ATTACK))).setUsesBigModel());
-        addNewPokemon(new Dropico().setUsesBigModel());
+        addNewPokemon(new Dropico().setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new Droprock().setUsesBigModel());
         addNewPokemon(new Rexdew(new Stats(528, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
 
@@ -127,6 +129,7 @@ public class Trizor extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Collecjunk(new Stats(410, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel());
         addNewPokemon(new Rexagon(new Stats(580, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
 
+        addPokedexPokemon("gible-trizoran, gabite-trizoran, garchomp-trizoran, absol-trizoran, onix-trizoran");
         addNewPokemon(new Rayqunix(new Stats(510, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))).setUsesBigModel());
         addNewPokemon(new Cyrok().setUsesBigModel());
         addNewPokemon(new Golasma().setUsesBigModel());

@@ -28,6 +28,7 @@ public class Ferran extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Staphug().setUsesBigModel());
         addNewPokemon(new Staphoon().setUsesBigModel());
         addNewPokemon(new Starmortle().setUsesBigModel());
+        addPokedexPokemon("barboach-ferranian, whiscash-ferranian");
         addNewPokemon(new Whislong().setUsesBigModel());
         addNewPokemon(new Denhoru().setUsesBigModel());
         addNewPokemon(new Voodoll().setUsesBigModel());
@@ -36,12 +37,14 @@ public class Ferran extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Thoraco().setUsesBigModel());
         addNewPokemon(new Literay().setUsesBigModel());
         addNewPokemon(new Herocray().setUsesBigModel());
+        addPokedexPokemon("patrat-ferranian, watchog-ferranian");
         addNewPokemon(new Peanou().setUsesBigModel());
         addNewPokemon(new Peaster().setUsesBigModel());
         addNewPokemon(new Peamash().setUsesBigModel());
         addNewPokemon(new Firy().setUsesBigModel());
         addNewPokemon(new Flaritch().setUsesBigModel());
         addNewPokemon(new Flapurgess().setUsesBigModel());
+        addPokedexPokemon("applin-ferranian");
         addNewPokemon(new Jackozard().setUsesBigModel());
         addNewPokemon(new Yumkinpie().setUsesBigModel());
         addNewPokemon(new Froby().setUsesBigModel());
@@ -57,9 +60,10 @@ public class Ferran extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Cacteat().setUsesBigModel());
         addNewPokemon(new Cacturst().setUsesBigModel());
         addNewPokemon(new Labee().setUsesBigModel());
+        addPokedexPokemon("lapras-ferranian");
         addNewPokemon(new Flouzy().setUsesBigModel());
         addNewPokemon(new Bammerjet().setUsesBigModel());
-        addNewPokemon(new Clamoon().setUsesBigModel());
+        addNewPokemon(new Clamoon().setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new Bladark().setUsesBigModel());
         addNewPokemon(new Cauldrogeist().setUsesBigModel());
         addNewPokemon(new Clavase().setUsesBigModel());
@@ -68,6 +72,7 @@ public class Ferran extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Surpeg().setUsesBigModel());
         addNewPokemon(new Bloomeg().setUsesBigModel());
         addNewPokemon(new Hourghas().setUsesBigModel());
+        addPokedexPokemon("bagon-ferranian, shelgon-ferranian, salamence-ferranian");
         addNewPokemon(new Scorpait().setUsesBigModel());
         addNewPokemon(new Scorpunter().setUsesBigModel());
         addNewPokemon(new Hummagic().setUsesBigModel());
@@ -92,11 +97,13 @@ public class Ferran extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Machaunt().setUsesBigModel());
         addNewPokemon(new Pillarble().setUsesBigModel());
         addNewPokemon(new Carvarble().setUsesBigModel());
+        addPokedexPokemon("wailmer, wailord, wailord-ferranian");
         addNewPokemon(new Gargorble().setUsesBigModel());
         addNewPokemon(new Cunooty().setUsesBigModel());
         addNewPokemon(new Cunignite().setUsesBigModel());
         addNewPokemon(new Jelliamp().setUsesBigModel());
         addNewPokemon(new Jelliora().setUsesBigModel());
+        addPokedexPokemon("yamask-ferranian");
         addNewPokemon(new Chematrigus().setUsesBigModel());
         addNewPokemon(new Gerilliki().setUsesBigModel());
         addNewPokemon(new Beavel().setUsesBigModel());
@@ -106,8 +113,10 @@ public class Ferran extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Snoraktor().setUsesBigModel());
         addNewPokemon(new Mazzruggle().setUsesBigModel());
         addNewPokemon(new Mazzogre().setUsesBigModel());
+        addPokedexPokemon("slakoth-ferranian, vigoroth-ferranian");
         addNewPokemon(new Vigoking().setUsesBigModel());
         addNewPokemon(new ElbianVigoking("", Aspect.ELBIAN).setUsesBigModel());
+        removePokedexPokemon("vigoking-elbian");
         addNewPokemon(new Savawl().setUsesBigModel());
         addNewPokemon(new Savannage().setUsesBigModel());
         addNewPokemon(new Plasmind().setUsesBigModel());
@@ -117,7 +126,9 @@ public class Ferran extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Mantunfu().setUsesBigModel());
         addNewPokemon(new Glorm().setUsesBigModel());
         addNewPokemon(new Glowero().setUsesBigModel());
+        addPokedexPokemon("virizion-ferranian, terrakion-ferranian, cobalion-ferranian, bounsweet-ferranian");
         addNewPokemon(new Meleenee().setUsesBigModel());
+        removePokedexPokemon("meowth-ferranian");
         addNewPokemon(new Empeero().setUsesBigModel());
         addNewPokemon(new Perrinnip().setUsesBigModel());
         addNewPokemon(new Viceasus().setUsesBigModel());

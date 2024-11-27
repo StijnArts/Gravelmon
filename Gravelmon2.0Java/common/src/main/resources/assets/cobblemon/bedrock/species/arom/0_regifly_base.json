@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:regifly",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_regifly",
+      "texture": "cobblemon:textures/pokemon/arom/regifly.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/regifly.png"
+    }
+  ]
+}

@@ -66,24 +66,28 @@ public class FormanCaterpie extends drai.dev.data.pokemon.Pokemon {
                         0,
                         0),
                 List.of(Ability.WATER_ABSORB), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                5, 0,
+                new Stats(0,0,0,0,0,0), 255,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(),
                 List.of(""),
-                List.of(),
+                List.of(new EvolutionEntry("bloboon", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"8")))
+                ),
                 List.of(                        ),
                 List.of(Label.FORM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 3, 16, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FRESHWATER),
                 0.28, 0.3,
                 List.of());
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Caterpie");
 
     }

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "Bloboon",
-  "nationalPokedexNumber": 2859,
+  "nationalPokedexNumber": 2862,
   "primaryType": "bug",
   "secondaryType": "water",
   "abilities": [
@@ -43,7 +43,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
   ],
@@ -53,6 +53,22 @@
   ],
   "pokedex": [
     "cobblemon.species.bloboon.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "bloboon_glowfly",
+      "variant": "level_up",
+      "result": "Glowfly",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 14
+        }
+      ],
+      "permanent": true   
+ }
   ],
   "baseScale": 0.1,
   "hitbox": {

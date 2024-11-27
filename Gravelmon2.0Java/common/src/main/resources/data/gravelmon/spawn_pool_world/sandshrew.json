@@ -12,15 +12,12 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "9-31",
+      "weight": 4.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+          "#cobblemon:is_taiga"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

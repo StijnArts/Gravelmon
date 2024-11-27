@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:kinmoru",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_kinmoru",
+      "texture": "cobblemon:textures/pokemon/arom/kinmoru.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/kinmoru.png"
+    }
+  ]
+}

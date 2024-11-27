@@ -22,7 +22,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 51,
+  "catchRate": 45,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -51,12 +51,15 @@
     "1:quickattack"  ],
   "labels": [
     "form",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.formancrobat.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "golbat form=forman",
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -71,7 +74,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 18,
   "weight": 0,
   "aspects": ["forman"],
   "cannotDynamax": false

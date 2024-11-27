@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "Pitohood",
-  "nationalPokedexNumber": 3805,
+  "nationalPokedexNumber": 3778,
   "primaryType": "poison",
   "secondaryType": "flying",
   "abilities": [
@@ -43,7 +43,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
   ],

@@ -26,6 +26,31 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
+            "minecraft:packed_mud",
+            "minecraft:packed_mud"
+          ]
+        }
+      }
+    },
+    {
+      "id": "fabelian_poliwag-11",
+      "pokemon": "poliwag fabelian",
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_sky",
+          "#cobblemon:is_mountain"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_mud",
             "minecraft:packed_mud"
           ]
         }
@@ -54,6 +79,31 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
+            "minecraft:prismarine",
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
+      "id": "palmian_poliwag-11",
+      "pokemon": "poliwag palmian",
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_sky",
+          "#cobblemon:is_mountain"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine",
             "minecraft:prismarine"
           ]
         }

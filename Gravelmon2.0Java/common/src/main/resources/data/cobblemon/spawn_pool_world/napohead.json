@@ -26,6 +26,31 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
+            "minecraft:prismarine",
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
+      "id": "napohead-11",
+      "pokemon": "napohead",
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_sky",
+          "#cobblemon:is_mountain"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine",
             "minecraft:prismarine"
           ]
         }

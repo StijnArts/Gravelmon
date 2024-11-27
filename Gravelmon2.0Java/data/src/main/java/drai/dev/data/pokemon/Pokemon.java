@@ -163,6 +163,7 @@ public class Pokemon {
         this.experienceGroup = experienceGroup;
         this.eggCycles = eggCycles;
         this.eggGroups = eggGroups;
+        if(this.eggGroups.isEmpty()) this.eggGroups = new ArrayList<>(List.of(EggGroup.FIELD));
         this.dropAmount = dropAmount;
         this.drops = new ArrayList<>();
         this.pokedexNumber = GravelmonJsonGenerator.getDexCounter();
@@ -323,7 +324,7 @@ public class Pokemon {
         for (int i = pokemonWithNoPreferredBlocks.size() - 1; i > -1; i--) {
             var pokemon = pokemonWithNoPreferredBlocks.get(i);
             pokemon.spawnData.forEach(pokemonSpawnData -> {
-                pokemonSpawnData.preferredBlocks().add(pokemon.primaryType.getPreferredBlock());
+                if(pokemonSpawnData.preferredBlocks().isEmpty()) pokemonSpawnData.preferredBlocks().add(pokemon.primaryType.getPreferredBlock());
             });
         }
         for (var pokemon : sortedPokemonList) {

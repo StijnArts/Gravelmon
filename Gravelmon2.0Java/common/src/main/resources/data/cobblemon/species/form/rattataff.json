@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "Rattataff",
-  "nationalPokedexNumber": 5006,
+  "nationalPokedexNumber": 5012,
   "primaryType": "psychic",
   "abilities": [
     "unnerve"  ],
@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 122,
+  "catchRate": 90,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -48,12 +48,15 @@
     "1:confusion"  ],
   "labels": [
     "form",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.rattataff.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "rattata form=forman",
+  "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -68,7 +71,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 14,
   "weight": 0,
   "aspects": [],
 "features": [

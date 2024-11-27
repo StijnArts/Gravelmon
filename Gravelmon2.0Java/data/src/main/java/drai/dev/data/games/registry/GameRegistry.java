@@ -58,10 +58,10 @@ public class GameRegistry {
         games.add(new Norse());
         games.add(new Palmia());
         games.add(new Trizor());
-        games.add(new Fra());
-        games.add(new Borazul());
         games.add(new Bago());
         games.add(new Aldao());
+        games.add(new Fra());
+        games.add(new Borazul());
 
         games.add(new OrohnHavai());
         games.add(new EternalForest());
@@ -101,8 +101,6 @@ public class GameRegistry {
         games.add(new Mahal());
         games.add(new Fabel());
         games.add(new Arom());
-        games.add(new Sahl());
-        games.add(new Elb());
 
         games.add(new Goetia());
         games.add(new Sorin());

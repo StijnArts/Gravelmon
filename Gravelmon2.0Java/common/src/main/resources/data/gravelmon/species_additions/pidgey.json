@@ -6,12 +6,12 @@
   "abilities": [
     "galewings"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 44,
+    "attack": 23,
+    "defence": 47,
+    "special_attack": 81,
+    "special_defence": 47,
+    "speed": 68
   },
   "behaviour": {
     "resting": {
@@ -21,7 +21,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -44,13 +44,52 @@
     "field"
   ],
   "moves": [
-    "1:gust"  ],
+    "1:gust",
+    "1:vacuumwave"  ],
   "labels": [
     "form",
     "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.formanpidgey.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "pidgey_pidgobolt",
+      "variant": "item_interact",
+      "result": "pidgobolt",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:thunder_stone",
+      "permanent": true   
+ },
+    {
+      "id": "pidgey_Pidgoblast",
+      "variant": "item_interact",
+      "result": "Pidgoblast",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:fire_stone",
+      "permanent": true   
+ },
+    {
+      "id": "pidgey_Pidgoice",
+      "variant": "item_interact",
+      "result": "Pidgoice",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:ice_stone",
+      "permanent": true   
+ }
   ],
   "baseScale": 0.1,
   "hitbox": {
@@ -67,7 +106,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 6,
   "weight": 0,
   "aspects": ["forman"],
   "cannotDynamax": false

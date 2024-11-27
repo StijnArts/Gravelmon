@@ -23,13 +23,14 @@ public class FormanNidorina extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(),
                 List.of(""),
-                List.of(),
+                List.of(new EvolutionEntry("formannidoqueen", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:moon_stone")),
                 List.of(                        ),
                 List.of(Label.FORM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 15, 34, 1.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

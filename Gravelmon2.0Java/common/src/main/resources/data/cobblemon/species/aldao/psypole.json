@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "Psypole",
-  "nationalPokedexNumber": 3807,
+  "nationalPokedexNumber": 3780,
   "primaryType": "water",
   "abilities": [
     "keeneye"  ],
@@ -42,7 +42,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
   ],

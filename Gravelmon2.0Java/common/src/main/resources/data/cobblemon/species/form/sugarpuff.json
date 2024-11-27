@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "Sugarpuff",
-  "nationalPokedexNumber": 5014,
+  "nationalPokedexNumber": 5020,
   "primaryType": "fairy",
   "secondaryType": "ice",
   "abilities": [
@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 240,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -55,6 +55,22 @@
   "pokedex": [
     "cobblemon.species.sugarpuff.desc"
   ],
+  "evolutions": [
+    {
+      "id": "sugarpuff_jigglypuff_forman",
+      "variant": "level_up",
+      "result": "jigglypuff forman",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 190
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -70,7 +86,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 6,
   "weight": 0,
   "aspects": [],
 "features": [

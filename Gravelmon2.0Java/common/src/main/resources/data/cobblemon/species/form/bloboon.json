@@ -1,18 +1,18 @@
 {
   "implemented": true,
   "name": "Bloboon",
-  "nationalPokedexNumber": 4999,
+  "nationalPokedexNumber": 5005,
   "primaryType": "bug",
   "secondaryType": "water",
   "abilities": [
     "waterabsorb"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 60,
+    "attack": 21,
+    "defence": 28,
+    "special_attack": 32,
+    "special_defence": 80,
+    "speed": 48
   },
   "behaviour": {
     "resting": {
@@ -47,13 +47,36 @@
   ],
   "moves": [
     "1:strugglebug",
-    "1:watergun"  ],
+    "1:watergun",
+    "1:bulkup",
+    "1:bulkup",
+    "1:vacuumwave",
+    "1:vacuumwave"  ],
   "labels": [
     "form",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.bloboon.desc"
+  ],
+  "preEvolution": "caterpie form=forman",
+  "evolutions": [
+    {
+      "id": "bloboon_glowfly",
+      "variant": "level_up",
+      "result": "Glowfly",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 14
+        }
+      ],
+      "permanent": true   
+ }
   ],
   "baseScale": 0.1,
   "hitbox": {

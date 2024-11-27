@@ -5,9 +5,9 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-public class Atillohunn extends drai.dev.data.pokemon.Pokemon {
-    public Atillohunn() {
-        super("Atillohunn",
+public class Jatilohunn extends drai.dev.data.pokemon.Pokemon {
+    public Jatilohunn() {
+        super("Jatilohunn",
                 Type.NORMAL,
                 new Stats(110,
                         120,
@@ -22,7 +22,7 @@ public class Atillohunn extends drai.dev.data.pokemon.Pokemon {
                 172, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER),
-                List.of("Atillohunn often do not see their offspring until they're fully grown, as they are extremely aggressive with the same gender of their species. Despite this, they will defend their Kangaskhan mates with their life."),
+                List.of("Jatilohunn often do not see their offspring until they're fully grown, as they are extremely aggressive with the same gender of their species. Despite this, they will defend their Kangaskhan mates with their life."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
@@ -120,7 +120,7 @@ public class Atillohunn extends drai.dev.data.pokemon.Pokemon {
                 List.of(SpawnPreset.NATURAL, SpawnPreset.WILD),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Atillohunn");
+           setLangFileName("Jatilohunn");
 
     }
 

@@ -18,7 +18,7 @@ public class Fra extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Potling().setUsesBigModel());
         addNewPokemon(new Potthos().setUsesBigModel());
         addNewPokemon(new Gardelem().setUsesBigModel());
-        addNewPokemon(new Kaizora().setUsesBigModel());
+        addNewPokemon(new Kaizora().setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new Duozora().setUsesBigModel());
         addNewPokemon(new Trizedora().setUsesBigModel());
         addNewPokemon(new Fiestavia().setUsesBigModel());

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "Terapota",
-  "nationalPokedexNumber": 7547,
+  "nationalPokedexNumber": 7554,
   "primaryType": "ground",
   "secondaryType": "fire",
   "abilities": [
@@ -43,7 +43,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
   ],

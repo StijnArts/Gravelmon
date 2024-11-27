@@ -41,7 +41,7 @@ public class Raian extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Coatity().setUsesBigModel());
         addNewPokemon(new Bintat(new Stats(440, FAST_PHYSICAL_ATTACKER, List.of(ATTACK))).setUsesBigModel());
         addNewPokemon(new Chubchu().setUsesBigModel()); //Evolves into Elfachu from LastPoint
-        addNewPokemon(new Jakort().setUsesBigModel());
+        addNewPokemon(new Jakort().setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new Jaicicle(new Stats(450, BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))).setUsesBigModel());
         addNewPokemon(new Jaklaze(new Stats(450, BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))).setUsesBigModel());
         addNewPokemon(new Dimolf().setUsesBigModel());
@@ -59,7 +59,7 @@ public class Raian extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Evigekko().setUsesBigModel());
         addNewPokemon(new Predodator(new Stats(530, PHYSICAL_ATTACKER, List.of(ATTACK))).setUsesBigModel());
 
-        addNewPokemon(new Bubotus().setUsesBigModel());
+        addNewPokemon(new Bubotus().setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new Vamprquid(new Stats(440, SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))).setUsesBigModel());
         addNewPokemon(new Lileaf().setUsesBigModel());
         addNewPokemon(new Comfleaf().setUsesBigModel());
@@ -79,8 +79,8 @@ public class Raian extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Zesee().setUsesBigModel());
         addNewPokemon(new Soishell().setUsesBigModel());
         addNewPokemon(new Maestryme(new Stats(500, SPECIAL_ATTACKER, List.of(SPEED))).setUsesBigModel());
-        addNewPokemon(new Elphish().setUsesBigModel());
-        addNewPokemon(new Malactro(new Stats(460, SLOW_BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))).setUsesBigModel());
+        addNewPokemon(new Elphish().setUsesBigModel().fishingSpawnFromExisting());
+        addNewPokemon(new Malactro(new Stats(460, SLOW_BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))).setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new Cublog().setUsesBigModel());
         addNewPokemon(new Leoquare(new Stats(460, BULKY_SPECIAL_ATTACKER, List.of(SPEED))).setUsesBigModel());
 
@@ -106,7 +106,7 @@ public class Raian extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Gasular(new Stats(515, FAST_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))).setUsesBigModel());
         addNewPokemon(new Sphoild().setUsesBigModel());
         addNewPokemon(new Royalinx(new Stats(460, SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))).setUsesBigModel());
-        addNewPokemon(new Napohead(new Stats(420, PHYSICAL_WALL, List.of(HP))).setUsesBigModel());
+        addNewPokemon(new Napohead(new Stats(420, PHYSICAL_WALL, List.of(HP))).setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new Shargill(new Stats(430, FAST_PHYSICAL_ATTACKER, List.of(ATTACK))).setUsesBigModel());
         addNewPokemon(new Shielbow().setUsesBigModel());
         addNewPokemon(new Spearetle(new Stats(450, PHYSICAL_WALL, List.of(DEFENCE))).setUsesBigModel());
@@ -133,7 +133,7 @@ public class Raian extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Grouwary(new Stats(500, FAST_PHYSICAL_ATTACKER, List.of(HP))).setUsesBigModel());
         addNewPokemon(new Articture(new Stats(500, FAST_SUPPORT, List.of(SPEED))).setUsesBigModel());
         addNewPokemon(new Kiwalon(new Stats(500, BULKY_SUPPORT, List.of(DEFENCE))).setUsesBigModel());
-        addNewPokemon(new Gargaitor(new Stats(500, PHYSICAL_ATTACKER, List.of(ATTACK, HP))).setUsesBigModel());
+        addNewPokemon(new Gargaitor(new Stats(500, PHYSICAL_ATTACKER, List.of(ATTACK, HP))).setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new Spiturtos(new Stats(500, FAST_PHYSICAL_ATTACKER, List.of(DEFENCE))).setUsesBigModel());
         addNewPokemon(new Beninroz(new Stats(500, FAST_PHYSICAL_ATTACKER, List.of(SPEED))).setUsesBigModel());
 
@@ -150,6 +150,22 @@ public class Raian extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Sossnit(new Stats(590, FAST_PHYSICAL_ATTACKER, List.of(SPEED))).setUsesBigModel());
         addNewPokemon(new Trintity(new Stats(590, MIXED_WALL, List.of(SPEED))).setUsesBigModel());
         addNewPokemon(new Mawata(new Stats(600, ALL_ROUND, List.of(SPECIAL_DEFENCE))).setUsesBigModel());
+        addPokedexPokemon("growlithe, arcanine-raianian, scyther-raianian, scizor-raianian");
+        addPokedexPokemon(
+                "eevee," +
+                        "vaporeon," +
+                        "jolteon," +
+                        "flareon," +
+                        "espeon," +
+                        "umbreon," +
+                        "leafeon," +
+                        "glaceon," +
+                        "sylveon");
+        addNewPokemon(new Cloueon(new Stats(524, BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))).setUsesBigModel());
+
+        addPokedexPokemon("dratini, dragonair, dragonite-raianian, dragonite-raianiantwo, hoothoot, noctowl-raianian, chinchou-raianian" +
+                "lanturn-raianian, phanpy-raianian, donphan-raianian, whismur-raianian, loudred-raianian, exploud-raianian, absol-raianian, bagon, shelgon, salamence-raianian, " +
+                "gible-raianian, gabite-raianian, garchomp-raianian, riolu, lucario-raianian, ralts, kirlia, gardevoir, gallade, gallade-raianian");
         addNewPokemon(new TribalRaffrobter("", Aspect.TRIBAL, new Stats(580, BULKY_SUPPORT, List.of(DEFENCE))).setUsesBigModel());
         addNewPokemon(new TribalErtheno("", Aspect.TRIBAL, new Stats(580, BULKY_PHYSICAL_ATTACKER, List.of(HP))).setUsesBigModel());
         addNewPokemon(new TribalAmoxica("", Aspect.TRIBAL, new Stats(580, SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))).setUsesBigModel());
@@ -159,7 +175,6 @@ public class Raian extends drai.dev.data.games.registry.Game {
         addNewPokemon(new TribalDarcicle("", Aspect.TRIBAL, new Stats(580, BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))).setUsesBigModel());
         addNewPokemon(new TribalSecurider("", Aspect.TRIBAL, new Stats(580, SLOW_BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))).setUsesBigModel());
         addNewPokemon(new TribalClosalarm("", Aspect.TRIBAL, new Stats(580, SPECIAL_WALL, List.of(SPECIAL_DEFENCE, SPECIAL_DEFENCE))).setUsesBigModel());
-        addNewPokemon(new Cloueon(new Stats(524, BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))).setUsesBigModel());
     }
 
 }

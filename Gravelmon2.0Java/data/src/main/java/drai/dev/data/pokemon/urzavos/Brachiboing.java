@@ -22,7 +22,7 @@ public class Brachiboing extends drai.dev.data.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Name Origin: Brachio + boing THIS MON IS NOT FREE FOR PUBLIC USE. THIS MON IS NOT TO BE MODIFIED IN ANY WAY. IF YOU SEE THIS MON ANYWHERE ELSE OTHER THAN POKENGINE, OR POSTED ANYWHERE OTHER THAN BY THE FOLLOWING USERS: scarffles, scarfscrawls, scarffle2, THEN IT IS STOLEN. THAT GOES FOR ALL IMAGE ASSETS AS WELL (Sprite(s), icons, overworlds, and any other related image material)."),
+                List.of("Name Origin: Brachio + boing "),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.URZAVOS),

@@ -56,7 +56,7 @@ public class GenerationFour extends Game {
         addNewPokemon(new FabelianBidoof("", Aspect.FABELIAN).setUsesBigModel());
         addNewPokemon(new FabelianBibarel("", Aspect.FABELIAN).setUsesBigModel());
         addNewPokemon(new FabelianCherubi("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new MahalianMantyke("", Aspect.MAHALIAN).setUsesBigModel());
+        addNewPokemon(new MahalianMantyke("", Aspect.MAHALIAN).setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new MahalianSpiritomb("", Aspect.MAHALIAN).setUsesBigModel());
         addNewPokemon(new MahalianHippopotas("", Aspect.MAHALIAN).setUsesBigModel());
         addNewPokemon(new MahalianHippowdon("", Aspect.MAHALIAN).setUsesBigModel());

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:veneko",
+  "speciesId": "cobblemon:veneko",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:doggourd",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_doggourd",
+      "texture": "cobblemon:textures/pokemon/hiza/doggourd.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/hiza/doggourd.png"
+    }
+  ]
+}

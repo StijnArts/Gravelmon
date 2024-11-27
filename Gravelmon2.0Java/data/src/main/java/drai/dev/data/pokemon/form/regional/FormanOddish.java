@@ -66,19 +66,20 @@ public class FormanOddish extends drai.dev.data.pokemon.Pokemon {
                         0,
                         0),
                 List.of(Ability.PRANKSTER), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                7, 0,
+                new Stats(0,0,0,0,0,0), 220,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(),
                 List.of(""),
-                List.of(),
+                List.of(new EvolutionEntry("formangloom", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(                        ),
                 List.of(Label.FORM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 4.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

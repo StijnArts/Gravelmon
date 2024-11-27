@@ -16,8 +16,8 @@ public class Traffasict extends drai.dev.data.pokemon.Pokemon {
                         61,
                         17),
                 List.of(Ability.ARENA_TRAP), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                15, 0,
+                new Stats(0,0,0,0,0,0), 90,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -27,8 +27,8 @@ public class Traffasict extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.FORM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 26, 47, .8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

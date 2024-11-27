@@ -201,6 +201,9 @@ public class Hiza extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Umbette());
         addNewPokemon(new Parabella());
         addNewPokemon(new Drizzella());
+        addNewPokemon(new Pupkin());
+        addNewPokemon(new Doggourd());
+        addNewPokemon(new Jackhowl());
         addPokedexPokemon("rhyhorn-hizian, rhydon-hizian");
         addNewPokemon(new Rhyferal());
         addPokedexPokemon("nosepass-hizian");

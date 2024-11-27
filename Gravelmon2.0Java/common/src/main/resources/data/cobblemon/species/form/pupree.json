@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "Pupree",
-  "nationalPokedexNumber": 5013,
+  "nationalPokedexNumber": 5019,
   "primaryType": "ghost",
   "secondaryType": "fire",
   "abilities": [
@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 250,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -55,6 +55,22 @@
   "pokedex": [
     "cobblemon.species.pupree.desc"
   ],
+  "evolutions": [
+    {
+      "id": "pupree_vulpix_forman",
+      "variant": "level_up",
+      "result": "vulpix forman",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 190
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -70,7 +86,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 5,
   "weight": 0,
   "aspects": [],
 "features": [

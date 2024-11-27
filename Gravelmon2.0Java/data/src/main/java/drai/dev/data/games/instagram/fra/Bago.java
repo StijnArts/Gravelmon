@@ -12,7 +12,7 @@ public class Bago extends drai.dev.data.games.registry.Game {
     public void registerPokemon() {
         addNewPokemon(new Picact().setUsesBigModel());
         addNewPokemon(new Cactalop().setUsesBigModel());
-        addNewPokemon(new Shelspout().setUsesBigModel());
+        addNewPokemon(new Shelspout().setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new Deployster().setUsesBigModel());
         addNewPokemon(new Scrappet().setUsesBigModel());
         addNewPokemon(new Rubbleruin().setUsesBigModel());
@@ -23,7 +23,7 @@ public class Bago extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Furvoyant().setUsesBigModel());
         addNewPokemon(new Sheetom().setUsesBigModel());
         addNewPokemon(new SheetomXL().setUsesBigModel());
-        addNewPokemon(new Shrimpal().setUsesBigModel());
+        addNewPokemon(new Shrimpal().setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new Lobssir().setUsesBigModel());
         addNewPokemon(new Snorzza().setUsesBigModel());
         addNewPokemon(new Awoof().setUsesBigModel());
@@ -62,7 +62,7 @@ public class Bago extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Thermacula().setUsesBigModel());
         addNewPokemon(new Grabbug().setUsesBigModel());
         addNewPokemon(new Graprantula().setUsesBigModel());
-        addNewPokemon(new Berbary().setUsesBigModel());
+        addNewPokemon(new Berbary().setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new Barbaroca().setUsesBigModel());
         addNewPokemon(new Ninfoxy().setUsesBigModel());
         addNewPokemon(new Foshino().setUsesBigModel());

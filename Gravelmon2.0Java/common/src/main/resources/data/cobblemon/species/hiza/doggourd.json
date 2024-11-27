@@ -1,0 +1,185 @@
+{
+  "implemented": true,
+  "name": "Doggourd",
+  "nationalPokedexNumber": 3065,
+  "primaryType": "ghost",
+  "secondaryType": "grass",
+  "abilities": [
+    "flareboost",
+    "h:naturalcure"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 55,
+    "defence": 90,
+    "special_attack": 55,
+    "special_defence": 70,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 130,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass"
+  ],
+  "moves": [
+    "1:leer",
+    "1:astonish",
+    "5:vinewhip",
+    "8:bite",
+    "10:howl",
+    "12:willowisp",
+    "15:razorleaf",
+    "19:shadowsneak",
+    "22:firefang",
+    "26:trickortreat",
+    "30:crunch",
+    "33:seedbomb",
+    "36:shadowbone",
+    "40:flamethrower",
+    "45:phantomforce",
+    "tm:aromatherapy",
+    "tm:attract",
+    "tm:bide",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulletseed",
+    "tm:confide",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:dreameater",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:explosion",
+    "tm:facade",
+    "tm:firefang",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flash",
+    "tm:frustration",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grassyterrain",
+    "tm:headbutt",
+    "tm:hex",
+    "tm:hypervoice",
+    "tm:incinerate",
+    "tm:magicalleaf",
+    "tm:megadrain",
+    "tm:mimic",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:naturalgift",
+    "tm:ominouswind",
+    "tm:painsplit",
+    "tm:phantomforce",
+    "tm:poltergeist",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicfangs",
+    "tm:rage",
+    "tm:rest",
+    "tm:return",
+    "tm:rototiller",
+    "tm:round",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:secretpower",
+    "tm:seedbomb",
+    "tm:selfdestruct",
+    "tm:shadowball",
+    "tm:shadowsneak",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:snatch",
+    "tm:snore",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:thief",
+    "tm:willowisp"  ],
+  "labels": [
+    "hiza",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.doggourd.desc"
+  ],
+  "preEvolution": "pupkin",
+  "evolutions": [
+    {
+      "id": "doggourd_jackhowl",
+      "variant": "level_up",
+      "result": "jackhowl",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 38
+        },
+        {
+          "variant": "time_range",
+          "range": night
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.16666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 742,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

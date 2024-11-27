@@ -37,7 +37,7 @@ public class GenerationSeven extends Game {
         addNewPokemon(new FabelianMinior("", Aspect.FABELIAN).setUsesBigModel());
         addNewPokemon(new FabelianSandygast("", Aspect.FABELIAN).setUsesBigModel());
         addNewPokemon(new FabelianPyukumuku("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianDhelmise("", Aspect.FABELIAN).setUsesBigModel());
+        addNewPokemon(new FabelianDhelmise("", Aspect.FABELIAN).setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new FabelianMimikyu("", Aspect.FABELIAN).setUsesBigModel());
 
         addNewPokemon(new MahalianSandygast("", Aspect.MAHALIAN).setUsesBigModel()); //TODO

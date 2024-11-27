@@ -66,7 +66,7 @@ public class GenerationThree extends Game {
         addNewPokemon(new ElbianGulpin("", Aspect.ELBIAN).setUsesBigModel());
         addNewPokemon(new ElbianSwalot("", Aspect.ELBIAN).setUsesBigModel());
 
-        addNewPokemon(new FerranianBarboach("", Aspect.FERRANIAN).setUsesBigModel()); //TODO
+        addNewPokemon(new FerranianBarboach("", Aspect.FERRANIAN).setUsesBigModel().fishingSpawnFromExisting()); //TODO
         addNewPokemon(new FerranianWhiscash("", Aspect.FERRANIAN).setUsesBigModel());
         addNewPokemon(new FerranianSlakoth("", Aspect.FERRANIAN).setUsesBigModel());
         addNewPokemon(new FerranianVigoroth("", Aspect.FERRANIAN).setUsesBigModel());
