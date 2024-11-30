@@ -9,7 +9,7 @@ public class Form extends drai.dev.data.games.registry.Game {
     public Form() {
         super("form");
     }
-
+//https://www.instagram.com/pformedition/
     @Override
     public void registerPokemon() {
         addPokedexPokemon("Bulbasaur-forman");
@@ -164,7 +164,7 @@ public class Form extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Pinsiraff().setUsesBigModel());
         addPokedexPokemon("Tauros-forman");
         addPokedexPokemon("Magikarp-forman");
-        addNewPokemon(new Jormydos().setUsesBigModel());
+        addNewPokemon(new Jormydos().setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new Locras().setUsesBigModel());
         addPokedexPokemon("Lapras-forman");
         addPokedexPokemon("Ditto-forman");

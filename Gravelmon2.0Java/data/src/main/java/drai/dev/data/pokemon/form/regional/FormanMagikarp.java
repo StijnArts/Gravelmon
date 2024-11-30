@@ -16,24 +16,27 @@ public class FormanMagikarp extends drai.dev.data.pokemon.Pokemon {
                         0,
                         0),
                 List.of(Ability.ICE_BODY), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                12, 0,
+                new Stats(0,0,0,0,0,0), 255,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(),
                 List.of(""),
-                List.of(),
+                List.of(new EvolutionEntry("jormydos", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(                        ),
                 List.of(Label.FORM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 1, 41, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FROZEN_OCEAN))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Magikarp");
 
     }

@@ -16,8 +16,8 @@ public class Jormydos extends drai.dev.data.pokemon.Pokemon {
                         81,
                         117),
                 List.of(Ability.ABSOLUTEFREEZE), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                38, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -27,13 +27,15 @@ public class Jormydos extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.FORM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 36, 54, .6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FROZEN_OCEAN))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Jormydos");
 
     }

@@ -66,8 +66,8 @@ public class Golbeast extends drai.dev.data.pokemon.Pokemon {
                         83,
                         75),
                 List.of(Ability.IRON_BARBS), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                24, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -77,11 +77,11 @@ public class Golbeast extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.FORM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 39, 59, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NATURAL, SpawnPreset.GEMSTONES),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Golbeast");

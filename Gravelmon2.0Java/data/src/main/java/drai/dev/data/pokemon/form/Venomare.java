@@ -16,8 +16,8 @@ public class Venomare extends drai.dev.data.pokemon.Pokemon {
                         85,
                         77),
                 List.of(Ability.POISON_TOUCH), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                17, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -27,8 +27,8 @@ public class Venomare extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.FORM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 30, 51, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

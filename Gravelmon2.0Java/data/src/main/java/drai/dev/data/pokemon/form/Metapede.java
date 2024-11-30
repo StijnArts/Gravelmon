@@ -16,8 +16,8 @@ public class Metapede extends drai.dev.data.pokemon.Pokemon {
                         83,
                         75),
                 List.of(Ability.TOUGH_CLAWS), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                19, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -27,9 +27,8 @@ public class Metapede extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.FORM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 40, 67, .6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OLD_GROWTH_TAIGA))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

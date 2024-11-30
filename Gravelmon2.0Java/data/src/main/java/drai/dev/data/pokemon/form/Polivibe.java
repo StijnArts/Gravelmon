@@ -16,8 +16,8 @@ public class Polivibe extends drai.dev.data.pokemon.Pokemon {
                         92,
                         21),
                 List.of(Ability.WHITE_SMOKE), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                16, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -27,13 +27,14 @@ public class Polivibe extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.FORM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 37, 57, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Polivibe");
 
     }

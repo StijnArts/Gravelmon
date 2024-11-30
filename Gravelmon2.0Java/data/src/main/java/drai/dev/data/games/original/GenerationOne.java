@@ -360,7 +360,7 @@ public class GenerationOne extends Game {
         addNewPokemon(new FormanDoduo("", Aspect.FORMAN).setUsesBigModel());
         addNewPokemon(new FormanSeel("", Aspect.FORMAN).setUsesBigModel());
         addNewPokemon(new FormanGrimer("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanShellder("", Aspect.FORMAN).setUsesBigModel());
+        addNewPokemon(new FormanShellder("", Aspect.FORMAN).setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new FormanCloyster("", Aspect.FORMAN).setUsesBigModel());
         addNewPokemon(new FormanGastly("", Aspect.FORMAN).setUsesBigModel());
         addNewPokemon(new FormanHaunter("", Aspect.FORMAN).setUsesBigModel());
@@ -381,10 +381,10 @@ public class GenerationOne extends Game {
 //        addNewPokemon(new FormanChansey("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
 //        addNewPokemon(new FormanTangela("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
         addNewPokemon(new FormanKangaskhan("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanHorsea("", Aspect.FORMAN).setUsesBigModel());
+        addNewPokemon(new FormanHorsea("", Aspect.FORMAN).setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new FormanSeadra("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanGoldeen("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanStaryu("", Aspect.FORMAN).setUsesBigModel());
+        addNewPokemon(new FormanGoldeen("", Aspect.FORMAN).setUsesBigModel().fishingSpawnFromExisting());
+        addNewPokemon(new FormanStaryu("", Aspect.FORMAN).setUsesBigModel().fishingSpawnFromExisting());
 //        addNewPokemon(new FormanMrmime("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
         addNewPokemon(new FormanScyther("", Aspect.FORMAN).setUsesBigModel());
         addNewPokemon(new FormanJynx("", Aspect.FORMAN).setUsesBigModel());
@@ -392,7 +392,7 @@ public class GenerationOne extends Game {
 //        addNewPokemon(new FormanMagmar("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
         addNewPokemon(new FormanPinsir("", Aspect.FORMAN).setUsesBigModel());
         addNewPokemon(new FormanTauros("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanMagikarp("", Aspect.FORMAN).setUsesBigModel());
+        addNewPokemon(new FormanMagikarp("", Aspect.FORMAN).setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new FormanLapras("", Aspect.FORMAN).setUsesBigModel());
         addNewPokemon(new FormanDitto("", Aspect.FORMAN).setUsesBigModel());
         addNewPokemon(new FormanEevee("", Aspect.FORMAN).setUsesBigModel());
@@ -401,8 +401,8 @@ public class GenerationOne extends Game {
         addNewPokemon(new FormanArticuno("", Aspect.FORMAN).setUsesBigModel());
         addNewPokemon(new FormanZapdos("", Aspect.FORMAN).setUsesBigModel());
         addNewPokemon(new FormanMoltres("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanDratini("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanDragonair("", Aspect.FORMAN).setUsesBigModel());
+        addNewPokemon(new FormanDratini("", Aspect.FORMAN).setUsesBigModel().fishingSpawnFromExisting());
+        addNewPokemon(new FormanDragonair("", Aspect.FORMAN).setUsesBigModel().fishingSpawnFromExisting());
     }
 
     private void registerSoulstonesVariants() {

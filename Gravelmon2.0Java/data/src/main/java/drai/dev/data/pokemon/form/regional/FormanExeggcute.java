@@ -16,20 +16,20 @@ public class FormanExeggcute extends drai.dev.data.pokemon.Pokemon {
                         0,
                         0),
                 List.of(Ability.POISON_TOUCH), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                6, 0,
+                new Stats(0,0,0,0,0,0), 220,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(),
                 List.of(""),
-                List.of(),
+                List.of(new EvolutionEntry("exatoxicy", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:dusk_stone")),
                 List.of(                        ),
                 List.of(Label.FORM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 34, 4.7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OLD_GROWTH_TAIGA))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

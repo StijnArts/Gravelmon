@@ -66,8 +66,8 @@ public class Nownowl extends drai.dev.data.pokemon.Pokemon {
                         143,
                         19),
                 List.of(Ability.TELEPATHY), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                18, 0,
+                new Stats(0,0,0,0,0,0), 90,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -77,9 +77,9 @@ public class Nownowl extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.FORM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 21, 51, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

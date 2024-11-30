@@ -66,19 +66,20 @@ public class FormanGolduck extends drai.dev.data.pokemon.Pokemon {
                         0,
                         0),
                 List.of(Ability.TELEPATHY), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                17, 0,
+                new Stats(0,0,0,0,0,0), 75,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(),
                 List.of(""),
-                List.of(),
+                List.of(new EvolutionEntry("wiseduck", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"45")))),
                 List.of(                        ),
                 List.of(Label.FORM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 33, 56, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CHERRY_GROVE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

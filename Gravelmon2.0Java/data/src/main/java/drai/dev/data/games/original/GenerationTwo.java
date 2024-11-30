@@ -280,7 +280,7 @@ public class GenerationTwo extends Game {
         addNewPokemon(new FormanSpinarak("", Aspect.FORMAN).setUsesBigModel());
         addNewPokemon(new FormanAriados("", Aspect.FORMAN).setUsesBigModel());
         addNewPokemon(new FormanCrobat("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanChinchou("", Aspect.FORMAN).setUsesBigModel());
+        addNewPokemon(new FormanChinchou("", Aspect.FORMAN).setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new FormanTogepi("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
         addNewPokemon(new FormanNatu("", Aspect.FORMAN).setUsesBigModel());
         addNewPokemon(new FormanMareep("", Aspect.FORMAN).setUsesBigModel());
@@ -313,8 +313,8 @@ public class GenerationTwo extends Game {
         addNewPokemon(new FormanSlugma("", Aspect.FORMAN).setUsesBigModel());
 //        addNewPokemon(new FormanSwinub("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
 //        addNewPokemon(new FormanPiloswine("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
-        addNewPokemon(new FormanCorsola("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanRemoraid("", Aspect.FORMAN).setUsesBigModel());
+        addNewPokemon(new FormanCorsola("", Aspect.FORMAN).setUsesBigModel().fishingSpawnFromExisting());
+        addNewPokemon(new FormanRemoraid("", Aspect.FORMAN).setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new FormanDelibird("", Aspect.FORMAN).setUsesBigModel());
 //        addNewPokemon(new FormanMantine("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
         addNewPokemon(new FormanSkarmory("", Aspect.FORMAN).setUsesBigModel());
@@ -330,10 +330,10 @@ public class GenerationTwo extends Game {
         addNewPokemon(new FormanSmoochum("", Aspect.FORMAN).setUsesBigModel());
 //        addNewPokemon(new FormanElekid("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
 //        addNewPokemon(new FormanBlissey("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
-        addNewPokemon(new FormanLarvitar("", Aspect.FORMAN).setUsesBigModel());
         addNewPokemon(new FormanRaikou("", Aspect.FORMAN).setUsesBigModel());
         addNewPokemon(new FormanEntei("", Aspect.FORMAN).setUsesBigModel());
         addNewPokemon(new FormanSuicune("", Aspect.FORMAN).setUsesBigModel());
+        addNewPokemon(new FormanLarvitar("", Aspect.FORMAN).setUsesBigModel());
         addNewPokemon(new FormanLugia("", Aspect.FORMAN).setUsesBigModel());
         addNewPokemon(new FormanHooh("", Aspect.FORMAN).setUsesBigModel());
     }

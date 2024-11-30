@@ -16,22 +16,23 @@ public class FormanSnubbull extends drai.dev.data.pokemon.Pokemon {
                         0,
                         0),
                 List.of(Ability.THICK_FAT), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                6, 0,
+                new Stats(0,0,0,0,0,0), 190,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(),
                 List.of(""),
-                List.of(),
+                List.of(new EvolutionEntry("formangranbull", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"23")))),
                 List.of(                        ),
                 List.of(Label.FORM),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.VILLAGE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Snubbull");

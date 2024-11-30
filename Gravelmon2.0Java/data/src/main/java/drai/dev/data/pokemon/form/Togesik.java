@@ -66,8 +66,8 @@ public class Togesik extends drai.dev.data.pokemon.Pokemon {
                         91,
                         17),
                 List.of(Ability.LIQUID_OOZE), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                6, 0,
+                new Stats(0,0,0,0,0,0), 30,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -77,8 +77,8 @@ public class Togesik extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.FORM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 25, 45, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

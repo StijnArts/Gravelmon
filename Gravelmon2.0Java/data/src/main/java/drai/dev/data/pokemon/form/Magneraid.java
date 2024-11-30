@@ -9,15 +9,15 @@ public class Magneraid extends drai.dev.data.pokemon.Pokemon {
     public Magneraid() {
         super("Magneraid",
                 Type.NUCLEAR,Type.STEEL,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                new Stats(67,
+                        45,
+                        84,
+                        107,
+                        67,
+                        121),
                 List.of(Ability.ANALYTIC), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                15, 0,
+                new Stats(0,0,0,0,0,0), 90,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -27,13 +27,14 @@ public class Magneraid extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.FORM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 30, 51, .6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.VILLAGE),
                 0.28, 0.3,
                 List.of());
+        setPreferredBlocks("cobblemon:healing_machine");
+        setCanFly(true);
            setLangFileName("Magneraid");
 
     }

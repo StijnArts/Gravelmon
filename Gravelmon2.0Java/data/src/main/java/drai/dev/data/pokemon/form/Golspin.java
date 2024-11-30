@@ -16,22 +16,23 @@ public class Golspin extends drai.dev.data.pokemon.Pokemon {
                         0,
                         0),
                 List.of(Ability.IRON_BARBS), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                16, 0,
+                new Stats(0,0,0,0,0,0), 110,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(),
                 List.of(""),
-                List.of(),
+                List.of(new EvolutionEntry("golbeast", EvolutionType.TRADE, List.of(),
+                        List.of())),
                 List.of(                        ),
                 List.of(Label.FORM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 24, 45, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NATURAL, SpawnPreset.GEMSTONES),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Golspin");

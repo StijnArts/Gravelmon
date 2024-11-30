@@ -16,20 +16,20 @@ public class Littora extends drai.dev.data.pokemon.Pokemon {
                         0,
                         0),
                 List.of(Ability.FLASH_FIRE), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                11, 0,
+                new Stats(0,0,0,0,0,0), 150,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(),
                 List.of(""),
-                List.of(),
+                List.of(new EvolutionEntry("Fangtora", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:fire_stone")),
                 List.of(                        ),
                 List.of(Label.FORM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 18, 35, 1.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
