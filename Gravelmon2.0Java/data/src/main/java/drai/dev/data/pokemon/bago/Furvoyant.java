@@ -52,6 +52,7 @@ import drai.dev.data.pokemon.midamis.*;
 import drai.dev.data.pokemon.norheim.*;
 import drai.dev.data.pokemon.crozoic.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.util.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
@@ -66,8 +67,8 @@ public class Furvoyant extends drai.dev.data.pokemon.Pokemon {
                         143,
                         19),
                 List.of(), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                UnitConverter.feetToMeters(4, 8), 0,
+                new Stats(0,0,0,0,0,0), 120,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -77,8 +78,9 @@ public class Furvoyant extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.BAGO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 26, 47, .9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

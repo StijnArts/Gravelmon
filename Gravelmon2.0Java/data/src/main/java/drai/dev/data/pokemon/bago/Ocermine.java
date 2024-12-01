@@ -52,6 +52,7 @@ import drai.dev.data.pokemon.midamis.*;
 import drai.dev.data.pokemon.norheim.*;
 import drai.dev.data.pokemon.crozoic.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.util.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
@@ -65,9 +66,9 @@ public class Ocermine extends drai.dev.data.pokemon.Pokemon {
                         39,
                         77,
                         131),
-                List.of(), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                List.of(Ability.TORRENT), Ability.OVERCOAT,
+                UnitConverter.feetToMeters(5, 9), 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -77,13 +78,15 @@ public class Ocermine extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.BAGO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 53, 0.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Ocermine");
 
     }

@@ -10,6 +10,16 @@ public class Bago extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
+        addNewPokemon(new Cattail().setUsesBigModel());
+        addNewPokemon(new Taillico().setUsesBigModel());
+        addNewPokemon(new Felorest().setUsesBigModel());
+        addNewPokemon(new Searpent().setUsesBigModel());
+        addNewPokemon(new Serfiery().setUsesBigModel());
+        addNewPokemon(new Serfierno().setUsesBigModel());
+        addNewPokemon(new Marmink().setUsesBigModel());
+        addNewPokemon(new Marshten().setUsesBigModel());
+        addNewPokemon(new Ocermine().setUsesBigModel());
+
         addNewPokemon(new Picact().setUsesBigModel());
         addNewPokemon(new Cactalop().setUsesBigModel());
         addNewPokemon(new Shelspout().setUsesBigModel().fishingSpawnFromExisting());
@@ -38,23 +48,14 @@ public class Bago extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Dragovnir().setUsesBigModel());
         addNewPokemon(new Gheiflect().setUsesBigModel());
         addNewPokemon(new Remirrorse().setUsesBigModel());
-        addNewPokemon(new Cattail().setUsesBigModel());
-        addNewPokemon(new Taillico().setUsesBigModel());
-        addNewPokemon(new Felorest().setUsesBigModel());
         addNewPokemon(new Laflala().setUsesBigModel());
         addNewPokemon(new Lafhaha().setUsesBigModel());
         addNewPokemon(new Mawdile().setUsesBigModel());
         addNewPokemon(new Crocrunch().setUsesBigModel());
         addNewPokemon(new Moulcheese().setUsesBigModel());
         addNewPokemon(new Queshroom().setUsesBigModel());
-        addNewPokemon(new Searpent().setUsesBigModel());
-        addNewPokemon(new Serfiery().setUsesBigModel());
-        addNewPokemon(new Serfierno().setUsesBigModel());
         addNewPokemon(new Shrumb().setUsesBigModel());
         addNewPokemon(new Ramplant().setUsesBigModel());
-        addNewPokemon(new Marmink().setUsesBigModel());
-        addNewPokemon(new Marshten().setUsesBigModel());
-        addNewPokemon(new Ocermine().setUsesBigModel());
         addNewPokemon(new Djarni().setUsesBigModel());
         addNewPokemon(new Jinnister().setUsesBigModel());
         addNewPokemon(new Bombat().setUsesBigModel());
