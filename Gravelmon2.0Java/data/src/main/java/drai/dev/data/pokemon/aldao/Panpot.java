@@ -2,6 +2,7 @@ package drai.dev.data.pokemon.aldao;
 
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.util.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
@@ -16,7 +17,7 @@ public class Panpot extends drai.dev.data.pokemon.Pokemon {
                         0,
                         0),
                 List.of(), null,
-                0, 0,
+                UnitConverter.feetToMeters(0, 0), 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,

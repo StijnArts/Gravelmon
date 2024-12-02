@@ -33,7 +33,8 @@ public class Taratorcha extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.MIDAMIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 22, 37, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

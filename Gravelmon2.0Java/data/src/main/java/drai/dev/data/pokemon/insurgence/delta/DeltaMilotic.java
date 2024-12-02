@@ -123,7 +123,8 @@ public class DeltaMilotic extends Pokemon {
                 List.of(Label.GEN3,Label.INSURGENCE),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 30, 57, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,

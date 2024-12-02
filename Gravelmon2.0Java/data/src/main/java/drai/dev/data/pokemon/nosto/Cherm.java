@@ -69,7 +69,8 @@ public class Cherm extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.NOSTO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER,Biome.IS_SUMMER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

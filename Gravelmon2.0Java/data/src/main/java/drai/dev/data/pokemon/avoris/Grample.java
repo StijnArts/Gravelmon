@@ -41,7 +41,8 @@ public class Grample extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.AVORIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 54, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_SPRING, Biome.IS_TAIGA))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

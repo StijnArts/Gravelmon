@@ -70,7 +70,8 @@ public class Chigami extends Pokemon {
                 List.of(Label.XENOVERSE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 24, 8.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO))
+                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.3, 0.3,

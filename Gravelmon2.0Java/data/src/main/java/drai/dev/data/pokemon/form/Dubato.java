@@ -29,7 +29,8 @@ public class Dubato extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.FORM),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 42, 4.5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OLD_GROWTH_TAIGA))
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

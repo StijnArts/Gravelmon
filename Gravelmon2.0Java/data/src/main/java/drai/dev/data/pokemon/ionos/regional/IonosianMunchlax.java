@@ -37,7 +37,8 @@ public class IonosianMunchlax extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.IONOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER ,Biome.IS_SUMMER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

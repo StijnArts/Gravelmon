@@ -69,7 +69,8 @@ public class Mallarki extends Pokemon {
                 List.of(Label.BLAZING_EMERALD),
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 34, 56, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO))
+                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,

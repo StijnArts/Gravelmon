@@ -88,7 +88,8 @@ public class Leaflow extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.RICA),
                 0, List.of(
                 ), SpawnContext.SURFACE, SpawnPool.RARE, 9, 31, .6, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP, Biome.IS_FOREST))
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP, Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.WATER_SURFACE),
                 0.28, 0.3,

@@ -97,7 +97,8 @@ public class RelicRoselia extends Pokemon {
                 List.of(Label.PHOENIX_RISING, Label.GEN3),
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.COMMON, 29, 40, 0.9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL))
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FLORAL))),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,

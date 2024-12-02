@@ -129,6 +129,7 @@ public class AyreianAlakazam extends Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 45, 61, 0.1, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FOREST))),
                 List.of(SpawnPreset.NATURAL),

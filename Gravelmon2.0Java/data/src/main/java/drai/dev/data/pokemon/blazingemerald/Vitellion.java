@@ -48,6 +48,7 @@ public class Vitellion extends Pokemon {
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 10, 40, 0.001, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

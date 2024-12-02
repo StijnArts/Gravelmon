@@ -68,7 +68,8 @@ public class RelicLedian extends Pokemon {
                 List.of(Label.PHOENIX_RISING, Label.GEN2),
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.COMMON, 18, 39, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL))
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,

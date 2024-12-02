@@ -47,7 +47,8 @@ public class Shelswap extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.MYTHIRE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 21, 45, 2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

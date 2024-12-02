@@ -58,6 +58,7 @@ public class GameRegistry {
         games.add(new Norse());
         games.add(new Palmia());
         games.add(new Trizor());
+
         games.add(new Bago());
         games.add(new Aldao());
         games.add(new Fra());

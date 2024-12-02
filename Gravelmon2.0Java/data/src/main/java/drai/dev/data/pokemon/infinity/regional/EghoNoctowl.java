@@ -90,7 +90,8 @@ public class EghoNoctowl extends Pokemon {
                         new ItemDrop("minecraft:egg",50, 1,2),
                         new ItemDrop("minecraft:feather",50, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 20, 43, 5.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

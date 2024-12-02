@@ -91,7 +91,8 @@ public class Cuppa extends Pokemon {
                 List.of(Label.DENEB),
                 0,
                 List.of(), SpawnContext.SURFACE, SpawnPool.COMMON, 3, 19, 7.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL))
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NEAR_WATER),
                 0.4, 0.3,

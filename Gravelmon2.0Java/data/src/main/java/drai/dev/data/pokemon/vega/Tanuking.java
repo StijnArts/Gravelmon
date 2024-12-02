@@ -105,7 +105,8 @@ public class Tanuking extends Pokemon {
                 0,
                 List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 34, 55, 0.3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.4, 0.3,

@@ -78,7 +78,8 @@ public class Dielebi extends Pokemon {
                 List.of(Label.XENOVERSE),
                 6, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 75, 85, 0.0001, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FLORAL, Biome.IS_FOREST))
+                        new BiomeSpawnCondition(List.of(Biome.IS_FLORAL, Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 1, 0.7,

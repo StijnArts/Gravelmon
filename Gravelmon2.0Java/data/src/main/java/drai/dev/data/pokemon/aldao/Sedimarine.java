@@ -52,6 +52,7 @@ import drai.dev.data.pokemon.midamis.*;
 import drai.dev.data.pokemon.norheim.*;
 import drai.dev.data.pokemon.crozoic.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.util.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
@@ -66,7 +67,7 @@ public class Sedimarine extends drai.dev.data.pokemon.Pokemon {
                         77,
                         108),
                 List.of(), null,
-                0, 0,
+                UnitConverter.feetToMeters(0, 0), 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,

@@ -107,7 +107,8 @@ public class EpochToxapex extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.SOULSTONES),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 36, 51, .4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

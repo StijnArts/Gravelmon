@@ -29,7 +29,8 @@ public class Terraintula extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 18, 38, 1.1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

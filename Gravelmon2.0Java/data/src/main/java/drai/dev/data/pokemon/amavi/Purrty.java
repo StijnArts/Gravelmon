@@ -44,7 +44,8 @@ public class Purrty extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.AMAVI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 18, 32, .5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.VILLAGE),
                 0.28, 0.3,

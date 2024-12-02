@@ -109,7 +109,8 @@ public class EghoCharmeleon extends Pokemon {
                 2, List.of(
                         new ItemDrop("minecraft:coal",50, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 28, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO))
+                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.39, 0.3,

@@ -115,7 +115,8 @@ public class DeltaSolosis extends Pokemon {
                 List.of(Label.GEN5,Label.INSURGENCE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 35, 9.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.22, 0.3,

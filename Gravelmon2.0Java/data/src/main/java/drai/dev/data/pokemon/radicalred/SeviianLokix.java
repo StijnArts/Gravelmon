@@ -75,7 +75,8 @@ public class SeviianLokix extends Pokemon {
                 List.of(Label.RADICAL_RED, Label.GEN9),
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.COMMON, 24, 41, 0.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO))
+                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,

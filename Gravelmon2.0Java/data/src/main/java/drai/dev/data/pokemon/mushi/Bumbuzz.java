@@ -28,7 +28,8 @@ public class Bumbuzz extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.MUSHI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 16, 36, 1.5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_TAIGA, Biome.IS_JUNGLE))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

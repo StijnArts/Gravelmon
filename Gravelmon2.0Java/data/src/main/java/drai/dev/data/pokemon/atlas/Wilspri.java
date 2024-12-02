@@ -103,7 +103,8 @@ public class Wilspri extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.ATLAS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 2, 27, 6.7, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY, Biome.IS_FOREST))
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY, Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

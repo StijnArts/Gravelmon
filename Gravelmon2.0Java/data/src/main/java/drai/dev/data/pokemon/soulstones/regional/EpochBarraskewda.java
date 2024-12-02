@@ -101,7 +101,8 @@ public class EpochBarraskewda extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.SOULSTONES),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 34, 54, 1.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.FRESHWATER),
                 0.28, 0.3,

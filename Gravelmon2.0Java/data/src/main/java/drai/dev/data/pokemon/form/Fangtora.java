@@ -78,7 +78,8 @@ public class Fangtora extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.FORM),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 35, 55, .1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

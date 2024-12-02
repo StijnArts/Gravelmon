@@ -38,7 +38,8 @@ public class Mushcap extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.DHIOME),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 24, 2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MUSHROOM, Biome.IS_MAGICAL))
+                        new BiomeSpawnCondition(List.of(Biome.IS_MUSHROOM, Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

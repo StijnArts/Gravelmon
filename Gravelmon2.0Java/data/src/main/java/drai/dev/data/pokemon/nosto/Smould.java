@@ -104,7 +104,8 @@ public class Smould extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.PASTEL_ISLAND),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 29, 46, .1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MUSHROOM, Biome.IS_MAGICAL))
+                        new BiomeSpawnCondition(List.of(Biome.IS_MUSHROOM, Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

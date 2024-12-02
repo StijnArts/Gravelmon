@@ -47,7 +47,8 @@ public class Qayagus extends Pokemon {
                 List.of(Label.LOCKEMON),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 21, 44, 4.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NEAR_BERRY_BUSH),
                 0.28, 0.3,

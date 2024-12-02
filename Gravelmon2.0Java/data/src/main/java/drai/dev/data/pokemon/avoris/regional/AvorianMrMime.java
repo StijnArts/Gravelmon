@@ -59,7 +59,8 @@ public class AvorianMrMime extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.AVORIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 26, 46, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL))
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
                 List.of(SpawnPreset.VILLAGE),
                 0.28, 0.3,

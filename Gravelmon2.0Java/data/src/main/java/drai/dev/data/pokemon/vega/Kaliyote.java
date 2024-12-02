@@ -122,7 +122,8 @@ public class Kaliyote extends Pokemon {
                 List.of(Label.DENEB),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 22, 47, 3.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.UNDERWATER),
                 0.4, 0.3,

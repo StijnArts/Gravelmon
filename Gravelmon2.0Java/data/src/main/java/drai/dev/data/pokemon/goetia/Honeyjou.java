@@ -29,7 +29,8 @@ public class Honeyjou extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 8, 35, 7, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.HONEY_TREE),
                 0.28, 0.3,

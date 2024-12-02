@@ -84,7 +84,8 @@ public class Isopanzer extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.JUNNIN),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 31, 54, .4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

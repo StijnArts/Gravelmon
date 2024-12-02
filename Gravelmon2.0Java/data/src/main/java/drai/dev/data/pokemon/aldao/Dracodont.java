@@ -52,6 +52,7 @@ import drai.dev.data.pokemon.midamis.*;
 import drai.dev.data.pokemon.norheim.*;
 import drai.dev.data.pokemon.crozoic.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.util.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
@@ -66,8 +67,8 @@ public class Dracodont extends drai.dev.data.pokemon.Pokemon {
                         80,
                         116),
                 List.of(), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                UnitConverter.feetToMeters(4, 6), 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -77,13 +78,16 @@ public class Dracodont extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.ALDAO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 53, 0.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NATURAL, SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setCanFly(true);
            setLangFileName("Dracodont");
 
     }

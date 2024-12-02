@@ -96,7 +96,8 @@ public class RelicGogoat extends Pokemon {
                 List.of(Label.PHOENIX_RISING, Label.GEN6),
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 45, 9.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA))
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN))),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,

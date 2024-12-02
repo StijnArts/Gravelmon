@@ -82,7 +82,8 @@ public class Puripad extends Pokemon {
                 List.of(Label.UMBRA),
                 0, List.of(
                 ), SpawnContext.SURFACE, SpawnPool.COMMON, 28, 47, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.FRESHWATER),
                 0.22, 0.3,

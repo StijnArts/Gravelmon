@@ -80,7 +80,8 @@ public class Carapad extends Pokemon {
                 List.of(Label.UMBRA),
                 0, List.of(
                 ), SpawnContext.SURFACE, SpawnPool.COMMON, 7, 31, 5.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.FRESHWATER),
                 0.22, 0.3,

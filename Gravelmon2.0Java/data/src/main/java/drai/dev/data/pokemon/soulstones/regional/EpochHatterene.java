@@ -106,7 +106,8 @@ public class EpochHatterene extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.SOULSTONES),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 47, 57, .1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

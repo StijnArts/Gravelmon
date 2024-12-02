@@ -106,7 +106,8 @@ public class EpochArrokuda extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.SOULSTONES),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 11, 32, 5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.FRESHWATER),
                 0.28, 0.3,

@@ -87,7 +87,8 @@ public class Dislichen extends Pokemon {
                 List.of(Label.VEGA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 28, 4.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_LUSH, Biome.IS_FOREST))
+                        new BiomeSpawnCondition(List.of(Biome.IS_LUSH, Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

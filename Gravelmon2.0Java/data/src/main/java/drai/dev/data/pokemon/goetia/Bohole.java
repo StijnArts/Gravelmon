@@ -23,7 +23,8 @@ public class Bohole extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 23, 43, 2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.FRESHWATER),
                 0.28, 0.3,

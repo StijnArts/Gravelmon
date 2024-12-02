@@ -79,7 +79,8 @@ public class FormanWeedle extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.FORM),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 16, 5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA))
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

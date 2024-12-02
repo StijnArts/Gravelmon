@@ -82,7 +82,8 @@ public class AyreianYungoos extends Pokemon {
                 List.of(Label.VANGUARD, Label.GEN7),
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 25, 5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA))
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,

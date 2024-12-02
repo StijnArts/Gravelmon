@@ -91,7 +91,8 @@ public class RelicAmbipom extends Pokemon {
                 List.of(Label.PHOENIX_RISING, Label.GEN4),
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.RARE, 32, 48, 0.6, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_PLAINS, Biome.IS_PLATEAU))),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,

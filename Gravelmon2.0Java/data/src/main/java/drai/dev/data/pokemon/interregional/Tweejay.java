@@ -46,7 +46,8 @@ public class Tweejay extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.INTERREGIONAL),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 5.5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS, Biome.IS_FOREST))
+                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS, Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -40,7 +40,8 @@ public class Rumball extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.LAGOONE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 18, 32, .4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_TAIGA))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -72,7 +72,8 @@ public class RelicBudew extends Pokemon {
                 List.of(Label.PHOENIX_RISING, Label.GEN4),
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 28, 5.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL))
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FLORAL))),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,
