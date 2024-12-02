@@ -75,7 +75,7 @@ public class Plaguwing extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ALDAO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 24, 53, .8, List.of(

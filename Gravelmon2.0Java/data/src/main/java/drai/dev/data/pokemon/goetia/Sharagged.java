@@ -25,7 +25,7 @@ public class Sharagged extends drai.dev.data.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("sharchaic", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"44")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 24, 46, 1, List.of(

@@ -25,7 +25,7 @@ public class Invadien extends drai.dev.data.pokemon.Pokemon {
                 List.of("From the moment it evolves, it lies dormant inside its host and only emerges when ready to evolve once more. It may go unnoticed aside from the host’s appetite becoming ravenous."),
                 List.of(new EvolutionEntry("xenovader", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 24, 46, 1.1, List.of(

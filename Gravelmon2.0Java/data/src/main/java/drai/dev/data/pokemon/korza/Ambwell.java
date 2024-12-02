@@ -74,7 +74,7 @@ public class Ambwell extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("This mon likes to lay at the bottom of deep, quiet pools, favoring wells. A dip in the center of their shell collects coins and stuff that falls into their pool, enticing more prey to fall in."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

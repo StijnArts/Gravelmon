@@ -24,7 +24,7 @@ public class Arroweed extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.GRASS),
                 List.of("Arroweed like to carve rocks into the shape of its mask to help it blend in with them while siting in shallow water. It stands its tail up above the water's surface for photosynthesis."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

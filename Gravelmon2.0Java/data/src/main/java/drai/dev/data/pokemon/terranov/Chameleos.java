@@ -19,7 +19,7 @@ public class Chameleos extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Precious few sightings of this elder dragon have been recorded, leading to claims it can vanish into its environment like a chameleon. Witnesses report that it can spew a fog-like breath, which seems to come out of nowhere."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

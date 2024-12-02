@@ -25,7 +25,7 @@ public class Houndworm extends drai.dev.data.pokemon.Pokemon {
                 List.of("It constructs a disguise out of fur, keeping its head inside and pretending to be a puppy pokemon. It reveals its true self to those who are kind to it."),
                 List.of(new EvolutionEntry("wearwolf", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 32, 4, List.of(

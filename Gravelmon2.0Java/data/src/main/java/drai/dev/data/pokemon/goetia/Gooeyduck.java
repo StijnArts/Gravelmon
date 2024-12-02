@@ -25,7 +25,7 @@ public class Gooeyduck extends drai.dev.data.pokemon.Pokemon {
                 List.of("It squeezes its body with its shell to squirt out water at high speed. If it runs out of water, it will only be able to squeak. Many beachgoers think the sound is cute, to Gooeyduck’s distress."),
                 List.of(new EvolutionEntry("gooeygoose", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 7, 31, 4.4, List.of(

@@ -76,7 +76,7 @@ public class Grabbug extends drai.dev.data.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("graprantula", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.BAGO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 8, 32, 4.8, List.of(

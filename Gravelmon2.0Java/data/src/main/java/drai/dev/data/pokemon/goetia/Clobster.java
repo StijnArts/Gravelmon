@@ -19,7 +19,7 @@ public class Clobster extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It punches with such speed and force that the air pressure around its fists creates a destructive shock wave."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 33, 54, .7, List.of(

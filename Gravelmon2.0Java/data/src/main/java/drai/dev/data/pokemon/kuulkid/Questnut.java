@@ -29,7 +29,7 @@ public class Questnut extends drai.dev.data.pokemon.Pokemon {
                                 List.of(),List.of(),"minecraft:spider_eye"),
                         new EvolutionEntry("priestachio", EvolutionType.ITEM_INTERACT, false, List.of(),
                                 List.of(),List.of(),"cobblemon:lum_berry")),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 4.5, List.of(

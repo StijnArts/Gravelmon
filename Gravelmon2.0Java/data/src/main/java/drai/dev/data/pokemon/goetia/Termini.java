@@ -25,7 +25,7 @@ public class Termini extends drai.dev.data.pokemon.Pokemon {
                 List.of("It works tirelessly in its colony’s underground labyrinth. Their power lies in numbers."),
                 List.of(new EvolutionEntry("termulch", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 22, 4.7, List.of(

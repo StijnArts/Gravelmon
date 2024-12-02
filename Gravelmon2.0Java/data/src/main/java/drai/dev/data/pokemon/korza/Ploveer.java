@@ -24,7 +24,7 @@ public class Ploveer extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Though they nest near shorelines, Ploveer tend to wander far from the water as they practice flying. Their long legs allow them to wade through the water to find a meal."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

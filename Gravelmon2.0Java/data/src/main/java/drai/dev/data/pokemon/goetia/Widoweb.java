@@ -25,7 +25,7 @@ public class Widoweb extends drai.dev.data.pokemon.Pokemon {
                 List.of("The red silk it spins can be woven into luxurious fabric. It is notoriously difficult to cooperate with and often requires some sort of trade for its silk."),
                 List.of(new EvolutionEntry("widowitch", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 35, 4.7, List.of(

@@ -24,7 +24,7 @@ public class Ivitch extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("A compound in its leaves helps retain water, but causes itchiness on contact with skin. Ivitch hide among foliage close to trails, leading to many incidents of others brushing against their leaves."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

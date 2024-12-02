@@ -24,7 +24,7 @@ public class Slicoth extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Slowth are extremely slow Pokémon, but what they lack in speed they make up for in attack. Their claws are super sharp, capable of slicing down a tree with ease."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

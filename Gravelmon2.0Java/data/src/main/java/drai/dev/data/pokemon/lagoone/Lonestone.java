@@ -75,7 +75,7 @@ public class Lonestone extends drai.dev.data.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("geminie", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"cobblemon:moon_stone")),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.LAGOONE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 32, 4.3, List.of(

@@ -19,7 +19,7 @@ public class Cyclub extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("Added Oct 27 2021"),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ENJIN),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 42, 1.4, List.of(

@@ -24,7 +24,7 @@ public class Bubby extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_1),
                 List.of("They can do almost nothing and are exposed to danger. As a result, they hide in the depths of the ocean."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OLYSOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

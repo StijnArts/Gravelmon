@@ -19,7 +19,7 @@ public class Espergo extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Espergo’s consciousness is so powerful that it has transcended its body, which has become degenerated. It absorbs mental energy to make this astral projection more powerful at the expense of those around it."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 21, 45, .3, List.of(

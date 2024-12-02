@@ -19,7 +19,7 @@ public class Xenovader extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It ferociously subdues prey using its claws and stinger, immobilizing them before laying eggs nearby. If you appear to have outran it, it may simply be tailing you into a populated area."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 42, 58, .1, List.of(

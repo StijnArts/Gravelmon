@@ -19,7 +19,7 @@ public class Catfeine extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Coffee was invented after humans observed Catfeine grind and roast certain berries. They are able to brew drinks with effects ranging from HP restoration to stat increases to status healing."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 16, 41, 1.1, List.of(

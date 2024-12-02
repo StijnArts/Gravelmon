@@ -74,7 +74,7 @@ public class Stingfray extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_1),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.LAGOONE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 27, 45, 2.1, List.of(

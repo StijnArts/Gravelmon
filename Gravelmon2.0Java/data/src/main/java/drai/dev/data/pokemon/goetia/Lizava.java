@@ -19,7 +19,7 @@ public class Lizava extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It is known to expel powerful jets of steam and soot from its nostrils after emerging from its home in active volcanoes. Unlike Magmar, a pokemon that shares a similar ecological niche, Lizava is capable of living in colder volcanic regions as well as tropical ones."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 51, 2, List.of(

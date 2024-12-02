@@ -24,7 +24,7 @@ public class TheossianAriados extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Theosian Ariados have a powerful bite, causing immense pain for several days if bit. Their abdomen resembles a pumpkin allowing them to blend in with the crops when hunting."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -19,7 +19,7 @@ public class Permafruff extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD),
                 List.of("Mountaineers of Urzavos often keep these 'Mons on their team. They can sense avalanches, and should the worst happen, are strong enough to drag their trainers to safety, no matter how far that may be."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.URZAVOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

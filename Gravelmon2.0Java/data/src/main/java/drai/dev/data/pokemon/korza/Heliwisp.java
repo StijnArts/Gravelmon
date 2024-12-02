@@ -24,7 +24,7 @@ public class Heliwisp extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.GRASS,EggGroup.AMORPHOUS),
                 List.of("This pokemon is perpetually spinning through the air. The 'face' is actually a false husk on top of the true body."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

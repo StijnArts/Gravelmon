@@ -24,7 +24,7 @@ public class DaimyoHermitaur extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It defends itself by protecting its face with with its huge hard claws, deflecting any move thrown at it. It utilizes the skull of other large creatures it finds buried as its shell, its favorite being Monoblos'."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

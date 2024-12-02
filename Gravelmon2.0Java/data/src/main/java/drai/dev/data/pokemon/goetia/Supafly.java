@@ -19,7 +19,7 @@ public class Supafly extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Despite how bulky its hairs make it appear, it is an agile and stealthy predator that uses its proboscis as a dagger. It targets Beedrill hives and will pick them off one by one."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 51, .2, List.of(

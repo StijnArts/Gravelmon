@@ -25,7 +25,7 @@ public class Gustwee extends drai.dev.data.pokemon.Pokemon {
                 List.of("They fly in great numbers with incredible coordination. Sometimes, what might be mistaken for a cloud is actually a massive flock of Gustwee."),
                 List.of(new EvolutionEntry("elegyre", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CROZOIC),
                 0, List.of(
                 ), SpawnContext.SURFACE, SpawnPool.RARE, 14, 36, 4.5, List.of(

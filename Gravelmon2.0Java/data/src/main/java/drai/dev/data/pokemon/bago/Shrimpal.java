@@ -76,7 +76,7 @@ public class Shrimpal extends drai.dev.data.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("lobssir", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.BAGO),
                 0, List.of(
                 ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 12, 34, 5.1, List.of(

@@ -24,7 +24,7 @@ public class Colowag extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("This mon's weak and squishy body belies the dangerous bacteria living in its body. This bacteria causes violent illness in any that dare try to prey upon it."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

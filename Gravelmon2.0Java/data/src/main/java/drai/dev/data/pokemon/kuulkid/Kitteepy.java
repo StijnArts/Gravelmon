@@ -25,7 +25,7 @@ public class Kitteepy extends drai.dev.data.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("groggymog", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"cobblemon:awakening")),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 13, 38, 4, List.of(

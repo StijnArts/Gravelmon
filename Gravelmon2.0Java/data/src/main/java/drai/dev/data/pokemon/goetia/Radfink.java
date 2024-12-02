@@ -19,7 +19,7 @@ public class Radfink extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Infamous for being unruly and antagonistic, it quickly makes a nuisance of itself wherever it goes. It styles its hair with its toxic drool."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 22, 51, .7, List.of(

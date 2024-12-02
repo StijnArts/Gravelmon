@@ -25,7 +25,7 @@ public class Tomactus extends drai.dev.data.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("cactower", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"cobblemon:thunder_stone")),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OKENO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 43, 4.4, List.of(

@@ -24,7 +24,7 @@ public class Vortadus extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Vortadus are dangerous tricksters who like to play in storms with strong winds. They catch the debris caught in the winds and attach it to themselves to use in battle."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

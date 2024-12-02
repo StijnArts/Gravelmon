@@ -19,7 +19,7 @@ public class Bakkabolt extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FLYING,EggGroup.FIELD),
                 List.of("It glides freely over the sky during stormy days, blending in with the clouds. When enraged, it employs its piercing shriek to confuse attackers."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

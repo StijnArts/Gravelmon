@@ -24,7 +24,7 @@ public class Squidgeist extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_1,EggGroup.AMORPHOUS),
                 List.of("Squidgeist is the evolved form of Squishid. Its small size and white coloration help it blend into the ocean floor, but it has become more aggressive and territorial than its previous form. Its fins have grown longer and sharper, giving it greater speed and maneuverability. Squidgeist's red-marked tentacles are now more pronounced and intimidating, serving as a warning to potential predators. Its ghostly aura and spectral powers make it a fearsome and mysterious creature of the deep."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OLYSOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

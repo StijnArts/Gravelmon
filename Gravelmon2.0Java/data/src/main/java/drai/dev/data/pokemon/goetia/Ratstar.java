@@ -19,7 +19,7 @@ public class Ratstar extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Ratstar is a showy, boisterous Pokemon that always makes itself the center of attention. Its shouts sound like a wailing guitar."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 51, .4, List.of(

@@ -25,7 +25,7 @@ public class Ghoti extends drai.dev.data.pokemon.Pokemon {
                 List.of("Swarms of them float motionless in the deep sea, springing to life with voracious hunger when approached."),
                 List.of(new EvolutionEntry("inferatu", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"31")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 11, 36, 4, List.of(

@@ -19,7 +19,7 @@ public class Khepharoh extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Khepharoh is said to be the deity of the sun itself. It's fabled for its legendary treasure. Those who seek and find it will not live to tell the tale, or so the myth says."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 31, 54, 1.8, List.of(

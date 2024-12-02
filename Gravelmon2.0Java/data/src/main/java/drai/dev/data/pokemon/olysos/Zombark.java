@@ -19,7 +19,7 @@ public class Zombark extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("This is a Olysian entry for Mystis' Zombark's line. Permission by Dylando."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OLYSOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -25,7 +25,7 @@ public class Tunihag extends drai.dev.data.pokemon.Pokemon {
                 List.of("Tunihag is coated in a layer of slime that regenerates if damaged. It sits in groups all across the sea floor."),
                 List.of(new EvolutionEntry("hagnoz", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"cobblemon:water_stone")),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 8, 35, 4.4, List.of(

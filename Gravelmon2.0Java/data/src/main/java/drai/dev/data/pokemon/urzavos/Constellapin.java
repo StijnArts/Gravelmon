@@ -19,7 +19,7 @@ public class Constellapin extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FAIRY,EggGroup.FIELD),
                 List.of("Curious 'Mons that enjoy chasing games. They are often out at night during full moons, in which their ears glow and the starry pattern on their tails seem to swirl with color."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.URZAVOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

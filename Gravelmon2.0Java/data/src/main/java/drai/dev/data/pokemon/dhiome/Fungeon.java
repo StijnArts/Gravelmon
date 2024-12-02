@@ -19,7 +19,7 @@ public class Fungeon extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It has been exposed to humidity and as a result it inhaled fungi that led to its evolution. Its mushrooms are used for medicinal purposes."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.DHIOME),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 44, 56, 1.0, List.of(

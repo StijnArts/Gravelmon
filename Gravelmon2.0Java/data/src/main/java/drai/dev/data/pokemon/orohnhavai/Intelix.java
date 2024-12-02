@@ -25,7 +25,7 @@ public class Intelix extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Legend has it that Intelix appears upon birth of every being blessing it with talents and qualities, giving it its personality. And upon death it comes to guide the soul to the underworld, taking the gifts back in order to be reused in another soul's next life."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -19,7 +19,7 @@ public class Seraphlea extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Its wings conceal a void with enormous power. It appears out of nowhere."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(

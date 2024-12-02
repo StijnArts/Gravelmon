@@ -25,7 +25,7 @@ public class LagoonanTinkatuff extends drai.dev.data.pokemon.Pokemon {
                 List.of("They will tie scrap metal together with seaweed to make a huge hammer. Since the rusty metal is not durable, they are always looking for more."),
                 List.of(new EvolutionEntry("tinkaton", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.LAGOONE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 24, 44, 1.1, List.of(

@@ -19,7 +19,7 @@ public class AhtalKa extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("The golden empress of praying mantises resides in a huge, ruined castle. She flattens towns and fortresses, and uses the wreckage to build her lair ever larger. It's rumored that the Empress's Throne, as it is known, is strewn with golden cocoons and webbing, which contain stolen treasures."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -19,7 +19,7 @@ public class Gendrome extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Alpha monsters that lead packs of Genprey. Generally found in arid environments such as deserts. Paralyzing venom coats their highly developed fangs and claws, allowing them to immobilize their prey."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -75,7 +75,7 @@ public class FormanSeadra extends drai.dev.data.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("dradna", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"cobblemon:dragon_scale")),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.FORM),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 32, 46, 1.2, List.of(

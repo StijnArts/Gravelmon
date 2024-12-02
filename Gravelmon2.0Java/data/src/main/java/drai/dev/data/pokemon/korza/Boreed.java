@@ -24,7 +24,7 @@ public class Boreed extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("A small, fragile mon which burrows into shallow shores. Believed to not be a good swimmer, but was capable of quick getaways."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

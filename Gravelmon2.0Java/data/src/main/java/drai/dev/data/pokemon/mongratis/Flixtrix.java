@@ -19,7 +19,7 @@ public class Flixtrix extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Concept, design, name, type, sprites by Magiscarf on Deviant Art Originally made for Magiscarf's Calta Dex. Evo Line: Complete Submission for: Fakeathon 2020: Day 13 - Madagascar; Based on the aye-aye"),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -25,7 +25,7 @@ public class Pengblok extends drai.dev.data.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("pengloo", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"cobblemon:ice_stone")),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 17, 35, 1.7, List.of(

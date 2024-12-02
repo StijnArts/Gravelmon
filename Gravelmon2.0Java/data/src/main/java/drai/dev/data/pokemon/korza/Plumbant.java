@@ -24,7 +24,7 @@ public class Plumbant extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("In this creature's world, it is the dominant being. Plumbants control the bodies of useful creatures, and wiped out all other life. A gargantuan Plumbant can be seen from space, its body enveloping the planet."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -25,7 +25,7 @@ public class Bubupole extends drai.dev.data.pokemon.Pokemon {
                 List.of("Bubupole resides in craters with boiling hot water. In case of a steam eruption, they become extremely hot and usually land in the ocean. Its caudal fin controls the air flow while being airborn."),
                 List.of(new EvolutionEntry("geohertoad", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"19")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 5, 26, 4.4, List.of(

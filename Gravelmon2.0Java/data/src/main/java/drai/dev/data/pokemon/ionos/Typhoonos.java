@@ -19,7 +19,7 @@ public class Typhoonos extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Typherior has been granted the gift of spirit fire. Blue flames that gives off a cold sensation rather than hot. If a trainer befriends a Typherior, it may surrender on causing chaos and mayhem to the world of Pokémon."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 35, 51, .1, List.of(

@@ -19,7 +19,7 @@ public class TobiKadachi extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Fanged Wyverns inhabiting forest habitats. Sharp claws allow them to climb up tree trunks with ease, building up static electricity within their fur as they rub against the bark. They can also glide through the air, thanks to the membrane stretching between their front and hind legs."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

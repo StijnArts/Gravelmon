@@ -24,7 +24,7 @@ public class Tinvader extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Tinvaders seem to communicate in a language unintelligible to humans. They can fire a pulse from their arm cannons that can scan their surroundings for potential threats."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 43, .7, List.of(

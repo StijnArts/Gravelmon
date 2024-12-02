@@ -79,7 +79,7 @@ public class FormanPidgey extends drai.dev.data.pokemon.Pokemon {
                                 List.of(),List.of(),"cobblemon:fire_stone"),
                         new EvolutionEntry("Pidgoice", EvolutionType.ITEM_INTERACT, false, List.of(),
                                 List.of(),List.of(),"cobblemon:ice_stone")),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.FORM),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 7, 23, 5.4, List.of(

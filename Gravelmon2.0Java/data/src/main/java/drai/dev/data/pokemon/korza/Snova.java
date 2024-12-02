@@ -24,7 +24,7 @@ public class Snova extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Snova hide under snowpils and eat the grass beneath. Handling their fine silk for too long causes frostbite."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

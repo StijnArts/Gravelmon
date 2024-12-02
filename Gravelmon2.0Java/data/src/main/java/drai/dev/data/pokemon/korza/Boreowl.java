@@ -74,7 +74,7 @@ public class Boreowl extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Boreowl's downy feathers allow it to fly quickly and silently in the night air. Some of its feathers have a radiant glow when they catch the light. Because of this, Boreowl usually looks for prey while facing away from the moon to prevent being spotted."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

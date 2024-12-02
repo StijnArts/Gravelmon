@@ -19,7 +19,7 @@ public class Saccarin extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Once it attaches to a host, it is able to alter their hormones to transform their body. Since its discovery, it has become an asset for pokemon breeders."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 42, .7, List.of(

@@ -19,7 +19,7 @@ public class Canibble extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It carries around bones it uses as weapons, but cannot resist the urge to gnaw on them when it gets hungry. When the bones are rendered unusable, it will find new ones."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 11, 37, 1.6, List.of(

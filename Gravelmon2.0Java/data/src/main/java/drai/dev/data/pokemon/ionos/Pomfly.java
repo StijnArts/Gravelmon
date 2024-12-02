@@ -25,7 +25,7 @@ public class Pomfly extends drai.dev.data.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("snoutfly", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"12")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 23, 4.7, List.of(

@@ -24,7 +24,7 @@ public class Twaddle extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_1),
                 List.of("Twaddle have an acute sense of loyalty to those who feed it and take care of it. If itself is challenged, it will battle as it usually would - however, if it's family is threatened, Twaddle will fight with unbridled might."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

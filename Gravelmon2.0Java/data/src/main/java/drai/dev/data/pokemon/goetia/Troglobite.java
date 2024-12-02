@@ -25,7 +25,7 @@ public class Troglobite extends drai.dev.data.pokemon.Pokemon {
                 List.of("It holds onto its prey with one mouth while feeding on it using the other. It sometimes switches which mouth does what without even realizing it."),
                 List.of(new EvolutionEntry("troglobeast", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 21, 43, .3, List.of(

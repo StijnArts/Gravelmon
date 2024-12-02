@@ -19,7 +19,7 @@ public class Ocephus extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("With nice melodies they blow with their horns, Ocephus indicate that they are ready to mate. They are among the fastest marine creatures, reaching an astonishing 60 miles per hour."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 40, 56, .4, List.of(

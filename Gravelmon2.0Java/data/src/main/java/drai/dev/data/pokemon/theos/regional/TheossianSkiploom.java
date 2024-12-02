@@ -24,7 +24,7 @@ public class TheossianSkiploom extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Theosian Skiploom have hallow bodies filled with straw. They can often be seen jumping through the fields of farms."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

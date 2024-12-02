@@ -24,7 +24,7 @@ public class Melodra extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("When Melodra gets especially excited, small flames burst out of its head and shoulders. Having more holes on its body, it can make many more notes in its songs than it could as a Triller."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

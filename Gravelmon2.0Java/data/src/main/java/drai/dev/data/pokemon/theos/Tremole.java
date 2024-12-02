@@ -24,7 +24,7 @@ public class Tremole extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Tremole arms act as drills allowing it to dig large tunnels underground with ease. They constantly get into territory disputes with Burroworm, often caving in each others tunnels."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -24,7 +24,7 @@ public class Plasmuff extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Plasmuff are tiny bits of floating ectoplasm of sorts -illuminating orbs that are often caught on cameras. Their earmuffs are used to secure their hearing from the loud noises from their evolutions."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MASTENIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

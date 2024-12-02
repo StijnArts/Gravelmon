@@ -25,7 +25,7 @@ public class Kiddu extends drai.dev.data.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("formandoduo", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"190")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.FORM),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 2, 23, 5.4, List.of(

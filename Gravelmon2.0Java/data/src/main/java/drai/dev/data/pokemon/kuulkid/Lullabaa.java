@@ -27,7 +27,7 @@ public class Lullabaa extends drai.dev.data.pokemon.Pokemon {
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30"))),
                         new EvolutionEntry("insomnibaa", EvolutionType.ITEM_INTERACT, false, List.of(),
                                 List.of(),List.of(),"cobblemon:awakening")),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 41, 4, List.of(

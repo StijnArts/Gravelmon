@@ -24,7 +24,7 @@ public class Kesaphid extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Kesaphid subsist on tree fluids, drinking them dry before moving on to the next. Though cuddly-looking, disappearances have been linked to some who have tried to remove the mon from their host trees forcefully."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

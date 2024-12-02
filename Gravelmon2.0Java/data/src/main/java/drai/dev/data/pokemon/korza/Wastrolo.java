@@ -24,7 +24,7 @@ public class Wastrolo extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("With shells made of a glass-like substance, they may have struggled to carry their own weight through the water. Wastrolo are found most in shallower waters, where they could rest and stargaze."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

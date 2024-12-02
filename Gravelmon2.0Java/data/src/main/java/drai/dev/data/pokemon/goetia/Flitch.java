@@ -25,7 +25,7 @@ public class Flitch extends drai.dev.data.pokemon.Pokemon {
                 List.of("Flitch feed on the blood of larger pokemon, leaving an itchy bite. Flitch have been known to carry disease and are believed to have played a part during a well-known pandemic of Malease and Morbosis in ancient times."),
                 List.of(new EvolutionEntry("fitorfly", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 6, 23, 5.4, List.of(

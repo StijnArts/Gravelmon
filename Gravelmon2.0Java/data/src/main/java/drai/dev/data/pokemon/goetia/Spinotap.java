@@ -25,7 +25,7 @@ public class Spinotap extends drai.dev.data.pokemon.Pokemon {
                 List.of("Spinotap, an ancient Pokemon. Its prominent crest breaks the water’s surface before it savagely strikes its prey. Its evolved form Spinoscrap is said to have rivaled Tyrantrum."),
                 List.of(new EvolutionEntry("spinoscrap", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 37, 4, List.of(

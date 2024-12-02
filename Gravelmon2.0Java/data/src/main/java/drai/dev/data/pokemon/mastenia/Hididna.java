@@ -25,7 +25,7 @@ public class Hididna extends drai.dev.data.pokemon.Pokemon {
                 List.of("Hididna stores electric energy inside its spiny bush-like head. It is never at ease and is always thinking about its next move."),
                 List.of(new EvolutionEntry("wreckidna", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MASTENIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 40, 0.9, List.of(

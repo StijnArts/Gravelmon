@@ -24,7 +24,7 @@ public class Lumostra extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Small and plentiful, Lumostra are preyed upon by much of Laurea's ocean life. It's believed that they become active at night because they see the stars as others of their kind."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

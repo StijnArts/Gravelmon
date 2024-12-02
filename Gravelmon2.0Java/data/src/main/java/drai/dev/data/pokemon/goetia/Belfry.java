@@ -25,7 +25,7 @@ public class Belfry extends drai.dev.data.pokemon.Pokemon {
                 List.of("It appears near clocktowers at night, moving through the air in perfect silence. Its call, like a child’s scream, often startles people who wander into its territory."),
                 List.of(new EvolutionEntry("strigori", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 11, 32, 5, List.of(

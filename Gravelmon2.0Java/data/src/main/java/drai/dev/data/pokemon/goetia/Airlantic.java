@@ -19,7 +19,7 @@ public class Airlantic extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It saps electricity from Derangible and Jelightning to harness for itself. At full power, it can fly around the world in only 14 hours."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 25, 45, 1, List.of(

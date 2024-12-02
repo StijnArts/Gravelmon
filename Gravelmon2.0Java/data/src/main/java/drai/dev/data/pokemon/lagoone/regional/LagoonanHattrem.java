@@ -25,7 +25,7 @@ public class LagoonanHattrem extends drai.dev.data.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("hatterene lagoonan", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"52")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.LAGOONE),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 38, 54, 1, List.of(

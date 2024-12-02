@@ -24,7 +24,7 @@ public class Doomoire extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Doomoire's overflowing, powerful aura overtook its shell binding and has become one with the mon. Reading from its pages causes people to lose their minds from the dark knowledge written."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -25,7 +25,7 @@ public class FormanShellder extends drai.dev.data.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("formancloyster", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"cobblemon:fire_stone")),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.FORM),
                 0, List.of(
                 ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 8, 32, 5, List.of(

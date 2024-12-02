@@ -19,7 +19,7 @@ public class Velkhana extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Few records of Velkhana exist, as such, they remain shrouded in mystery. Their icy breath is so cold that it can form massive spires and walls of ice out of nowhere. Some reports indicate that Velkhana will freeze their rivals in order to establish their domain."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

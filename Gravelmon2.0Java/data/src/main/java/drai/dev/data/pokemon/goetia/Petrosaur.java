@@ -25,7 +25,7 @@ public class Petrosaur extends drai.dev.data.pokemon.Pokemon {
                 List.of("Petrosaur, the Ore Pokemon revived from the Wing Fossil. It used its rocky crest to slam into prey from above."),
                 List.of(new EvolutionEntry("quartzcoatl", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 37, 4, List.of(

@@ -25,7 +25,7 @@ public class IonosianNatu extends drai.dev.data.pokemon.Pokemon {
                 List.of("Unlike its Johtonian relative, Ionian Natu has a long pair of legs to make easier for it to spy on the vast, open landscapes where it resides. The stilt-like legs may also save it time when sinking into quicksand; as it often dozes off during long days of admiring the horizon. The former psychic ability of this Pokémon has blown away by the wind; a away of preparing it for its demise without knowing the cause of it."),
                 List.of(new EvolutionEntry("xatu ionosian", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 13, 32, 4.4, List.of(

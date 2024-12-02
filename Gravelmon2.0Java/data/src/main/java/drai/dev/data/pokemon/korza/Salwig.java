@@ -24,7 +24,7 @@ public class Salwig extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.BUG,EggGroup.MONSTER),
                 List.of("Capable of spraying boiling sulfuric water from its body as fast as a bullet. some believe that small Salwigs can crawl into ears and pinch your brain, but their pincers are in fact just for show and can barely grasp."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

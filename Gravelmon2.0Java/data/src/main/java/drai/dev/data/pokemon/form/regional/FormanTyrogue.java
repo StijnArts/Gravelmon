@@ -82,7 +82,7 @@ public class FormanTyrogue extends drai.dev.data.pokemon.Pokemon {
                         new EvolutionEntry("formanhitmontop", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36"),
                                         new EvolutionRequirementEntry(EvolutionRequirementCondition.RATIO,"EQUAL")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.FORM),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 21, 1.8, List.of(

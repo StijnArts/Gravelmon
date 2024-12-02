@@ -25,7 +25,7 @@ public class Tenrock extends drai.dev.data.pokemon.Pokemon {
                 List.of("Tenrock, a small spiny Pokemon that thrashes around when it hears music it likes. When they congregate, things gets very wild."),
                 List.of(new EvolutionEntry("ratstar", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"cobblemon:shiny_stone")),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 32, 4, List.of(

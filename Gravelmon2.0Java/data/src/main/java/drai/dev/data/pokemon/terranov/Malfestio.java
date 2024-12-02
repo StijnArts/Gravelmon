@@ -19,7 +19,7 @@ public class Malfestio extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Its pivoting neck is characteristic, and it's worth a look to see it turned completely around to look behind itself. Scales in its wings can scatter a pollen that can cause confuse its foes."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

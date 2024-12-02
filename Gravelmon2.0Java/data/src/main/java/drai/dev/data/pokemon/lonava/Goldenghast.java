@@ -24,7 +24,7 @@ public class Goldenghast extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Supposedly immortal, Goldenghast love nothing more than shiny metals. Churches often keep one around to protect their precious artefacts from thieves."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.LONAVA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 32, 54, 1.1, List.of(

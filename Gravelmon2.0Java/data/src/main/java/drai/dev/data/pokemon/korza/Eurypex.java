@@ -24,7 +24,7 @@ public class Eurypex extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Eurypex has a unique harpoon-like tail which can shoot far from its body, and break off into its prey. Its unique eyes can see farther than any other in the deep water."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

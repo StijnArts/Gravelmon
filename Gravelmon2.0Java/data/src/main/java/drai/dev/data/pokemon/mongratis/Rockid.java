@@ -24,7 +24,7 @@ public class Rockid extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Rockid love to climb to the highest point in sight. If too many gather in one place their headbutts will harden their rocky horns. More domesticated Rockid tend to see their horns curve due to petting and attention from humans."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

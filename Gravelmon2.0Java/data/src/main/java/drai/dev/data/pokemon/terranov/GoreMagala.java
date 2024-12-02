@@ -19,7 +19,7 @@ public class GoreMagala extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("A curious monster that, when threatened, scatters pollen-like scales that heighten its own senses while causing detrimental effects to any other creatures that inhale them. They're feared not only for their sinister appearance but also for the mysterious Frenzy virus they carry."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -20,7 +20,7 @@ public class Sunling extends drai.dev.data.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("Sunatee", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"cobblemon:sun_stone")),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 13, 34, 4, List.of(

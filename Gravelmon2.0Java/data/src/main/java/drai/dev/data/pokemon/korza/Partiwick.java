@@ -74,7 +74,7 @@ public class Partiwick extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("Enjoys showing up to parties and gatherings, cheering up small children. Lighting its head will still make it explode still, but Partiwick are now able to control its teleportation powers."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

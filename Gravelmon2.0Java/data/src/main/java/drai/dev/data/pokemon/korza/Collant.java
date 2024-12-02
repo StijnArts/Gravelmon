@@ -24,7 +24,7 @@ public class Collant extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Through extensive exploration, Collant are very knowledgable on their area and can tell when small changes occur. Often helps lost children back to human settlements, giving them foraged food to cheer them up."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

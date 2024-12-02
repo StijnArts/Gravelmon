@@ -19,7 +19,7 @@ public class Mutungus extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("When a Mushi evolves into a Mutungus it does so forcefully. This is due to strong levels of radiation. The source of the high levels of radiation are unknown but scientists believe that it comes from outer space. Certain groups of people believe that a very powerful Pokémon is the source of these both invisible and dangerous forces."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 56, .4, List.of(

@@ -25,7 +25,7 @@ public class Snotme extends drai.dev.data.pokemon.Pokemon {
                 List.of("It shapeshifts into other pokemon and even humans to play pranks, but loses its composure and botches the transformation easily."),
                 List.of(new EvolutionEntry("facsimilee", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.5, List.of(

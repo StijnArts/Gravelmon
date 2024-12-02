@@ -24,7 +24,7 @@ public class Quadrarity extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("The consequence of four Dioduo combining is Quadrarity. Due to the quick spinning of the electric, it blasts out in all directions."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

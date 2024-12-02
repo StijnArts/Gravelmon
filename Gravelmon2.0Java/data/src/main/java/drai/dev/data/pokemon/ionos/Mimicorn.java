@@ -19,7 +19,7 @@ public class Mimicorn extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("The decay product from the berries swallowed by Mimicorn eventually turns into filthy projectiles. The stem on its head works as a small cannon."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 34, 1.4, List.of(

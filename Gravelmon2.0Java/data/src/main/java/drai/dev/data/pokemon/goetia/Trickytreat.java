@@ -19,7 +19,7 @@ public class Trickytreat extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("The candy balls in its body rattle as it wobbles around. It ejects them and gives them to people to enjoy when it is happy."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 51, .3, List.of(

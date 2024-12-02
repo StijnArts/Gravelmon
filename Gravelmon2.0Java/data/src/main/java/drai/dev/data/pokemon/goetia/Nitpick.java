@@ -25,7 +25,7 @@ public class Nitpick extends drai.dev.data.pokemon.Pokemon {
                 List.of("It clings to the fur of larger Pokemon so it can suck their blood."),
                 List.of(new EvolutionEntry("cootiepie", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 2, 36, 4.6, List.of(

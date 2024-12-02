@@ -24,7 +24,7 @@ public class Turtramey extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("A bird mimic, this mon is found among trees bordering clearings. Turtramey burrow into tree trunks, leaving just their tail fans exposed."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

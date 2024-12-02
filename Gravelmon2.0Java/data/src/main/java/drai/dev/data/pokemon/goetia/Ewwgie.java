@@ -25,7 +25,7 @@ public class Ewwgie extends drai.dev.data.pokemon.Pokemon {
                 List.of("It begs to be picked up and hugged, but its skin is covered in mucus and unpleasant to the touch."),
                 List.of(new EvolutionEntry("skeezer", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"31")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 32, 3.8, List.of(

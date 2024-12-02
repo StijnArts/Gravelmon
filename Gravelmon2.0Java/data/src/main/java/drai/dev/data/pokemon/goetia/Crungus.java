@@ -25,7 +25,7 @@ public class Crungus extends drai.dev.data.pokemon.Pokemon {
                 List.of("It disguises itself as a bird pokemon’s nest by covering itself in twigs."),
                 List.of(new EvolutionEntry("sphingus", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 14, 31, 1.1, List.of(

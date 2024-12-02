@@ -24,7 +24,7 @@ public class Lacina extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_1,EggGroup.AMORPHOUS),
                 List.of("Lacina are known for their carefree and docile tendency. Their bodies are very squishy and transparent, showing the innards."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -25,7 +25,7 @@ public class Glacuda extends drai.dev.data.pokemon.Pokemon {
                 List.of("Glacuda uses its fins as sensors to guide itself while swimming through the darkest frozen lakes. They're also used to communicate with others."),
                 List.of(new EvolutionEntry("cryodra", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 31, 45, 5, List.of(

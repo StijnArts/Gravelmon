@@ -24,7 +24,7 @@ public class Hylera extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("A powerful creature from a different realm, where it is viewed as a Goddess. Hylera commands the elementals of its world, and has the power to warp time around itself."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

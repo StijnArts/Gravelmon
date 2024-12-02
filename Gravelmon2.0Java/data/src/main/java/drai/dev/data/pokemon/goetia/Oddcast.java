@@ -19,7 +19,7 @@ public class Oddcast extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It transmits radio waves to and from an unknown location. Attempting to decipher its messages with our current level of technology has proven impossible."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 34, 54, 1, List.of(

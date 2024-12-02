@@ -24,7 +24,7 @@ public class Scalink extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Scalink absorb heavy metals from the earth and deposit into bark, creating a strong armor. Believed to have rapid growth, Scalink must break and shed this bark often, and is vulnerable until a new bark forms."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

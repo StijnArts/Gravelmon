@@ -25,7 +25,7 @@ public class Avipip extends drai.dev.data.pokemon.Pokemon {
                 List.of("Avipip are rarely seen in the wild because they usually stay in their hidden nests, close to their mother. They don't leave until they evolve into Parasquack."),
                 List.of(new EvolutionEntry("parasquack", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 5.4, List.of(

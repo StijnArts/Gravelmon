@@ -25,7 +25,7 @@ public class Spitsen extends drai.dev.data.pokemon.Pokemon {
                 List.of("When it sees something new, it licks it thoroughly. It also licks things it has already seen. Its analytical skills make it valuable in areas covered with snow."),
                 List.of(new EvolutionEntry("salimute", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 29, 5.4, List.of(

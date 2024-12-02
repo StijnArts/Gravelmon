@@ -74,7 +74,7 @@ public class Chanacat extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_2),
                 List.of("This pokemon is the most abundant water-dwelling pokemon in the region. Their abundance lends to their popularity with fisherman and in local cuisine."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

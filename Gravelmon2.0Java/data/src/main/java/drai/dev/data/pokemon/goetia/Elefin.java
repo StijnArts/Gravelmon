@@ -25,7 +25,7 @@ public class Elefin extends drai.dev.data.pokemon.Pokemon {
                 List.of("It grabs onto things with its trunk to resist currents in its native rivers."),
                 List.of(new EvolutionEntry("makarel", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 9, 36, 4.6, List.of(

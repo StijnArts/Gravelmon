@@ -25,7 +25,7 @@ public class Vesoul extends drai.dev.data.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("marajar", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"cobblemon:moon_stone")),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OKENO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 13, 33, 4, List.of(

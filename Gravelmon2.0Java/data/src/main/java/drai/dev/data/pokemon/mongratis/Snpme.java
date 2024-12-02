@@ -24,7 +24,7 @@ public class Snpme extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Snome live deep inside mountains and come to the surface at night to scavenge for food. Because they are not used to living with other creatures they inadvertently damage crops and other plant life with their natural icy bodies."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

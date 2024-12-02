@@ -19,7 +19,7 @@ public class Troytron extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Troytron is powered up by the sun. With the many weapons hidden in its body, it can defeat an entire army in under a day."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 51, .5, List.of(

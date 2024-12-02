@@ -25,7 +25,7 @@ public class Lagoon extends drai.dev.data.pokemon.Pokemon {
                 List.of("It lives in remote jungles, hiding in the murky water. When its habitat is threatened, it retaliates with superhuman strength."),
                 List.of(new EvolutionEntry("billabong", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 18, 41, 1, List.of(

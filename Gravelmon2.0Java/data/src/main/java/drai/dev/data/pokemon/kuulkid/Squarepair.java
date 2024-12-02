@@ -27,7 +27,7 @@ public class Squarepair extends drai.dev.data.pokemon.Pokemon {
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42"))),
                         new EvolutionEntry("spungabunga", EvolutionType.ITEM_INTERACT, false, List.of(),
                                 List.of(),List.of(),"cobblemon:peat_block")),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID, Label.JOKE),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 18, 43, .9, List.of(

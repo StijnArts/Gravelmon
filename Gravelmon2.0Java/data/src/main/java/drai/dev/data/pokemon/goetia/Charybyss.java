@@ -19,7 +19,7 @@ public class Charybyss extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("The undulations of its bell create such powerful currents that tornadoes and whirlpools will form around it. Anything that gets tangled in its body is slowly digested. Together with Scyllabyss, they are called “The Disasters”."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 32, 53, .3, List.of(

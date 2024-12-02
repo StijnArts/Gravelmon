@@ -19,7 +19,7 @@ public class Epimedic extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It has a remarkable aptitude for healing, but is no longer used in medical fields due to personality quirks. Often cited are a pervasive desire to experiment, and a categorical refusal to wash its hands."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 54, .6, List.of(

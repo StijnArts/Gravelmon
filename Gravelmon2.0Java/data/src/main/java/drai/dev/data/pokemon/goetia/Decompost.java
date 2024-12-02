@@ -25,7 +25,7 @@ public class Decompost extends drai.dev.data.pokemon.Pokemon {
                 List.of("It breaks down garbage inside its body to create fertile soil. Some say it is the spirit of a farmer who couldn't leave their land."),
                 List.of(new EvolutionEntry("gorgompost", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 33, 4, List.of(

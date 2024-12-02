@@ -24,7 +24,7 @@ public class GreatBaggi extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Great Baggi are known to hunt in packs, having their underlings chase down their prey to dead ends. It spits a fluid which can put their prey and foes to sleep."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -19,7 +19,7 @@ public class Bansenbu extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Bansebu hold a stick of Bamboo, which they munch on constantly. If someone attempts to steal it, Bansebu goes into a blind rage which does not end until it is holding Bamboo again."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 25, 44, .4, List.of(

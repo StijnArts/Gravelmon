@@ -19,11 +19,12 @@ public class Haildeer extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Haildeer are amongst some children's favourite Pokémon, as they are said to be the ones who pull Santa's sleigh every Christmas Eve. Their noses light up and act like beacons during tough blizzards."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 45, 2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -19,7 +19,7 @@ public class Roswain extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Added Oct 27 2021 Etymology: rose + Gawain Evo line: Complete, although Jane had some ideas for a secondary form Origin: Created by JaneJewel for the April 2020 Around The World Fakeathon Day 8 prompt, United Kingdom"),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ENJIN),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 16, 43, 1.6, List.of(

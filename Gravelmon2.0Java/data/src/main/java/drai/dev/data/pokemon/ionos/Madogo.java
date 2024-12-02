@@ -19,7 +19,7 @@ public class Madogo extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("On the vast and dry plains of the Ionian savannahs, this form of Madogo may be found. It is worshipped by different bushmen and shamans and it aids them in battle if their bond is strong enough. Madogo (Savannah form) has the ability to scare away evil spirits, even itself if corrupted."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 48, 1.3, List.of(

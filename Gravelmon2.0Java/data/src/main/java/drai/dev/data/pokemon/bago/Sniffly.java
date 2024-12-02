@@ -76,7 +76,7 @@ public class Sniffly extends drai.dev.data.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("snotchoo", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"10")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.BAGO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 18, 5.1, List.of(

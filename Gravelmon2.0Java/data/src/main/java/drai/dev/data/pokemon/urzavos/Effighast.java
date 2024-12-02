@@ -19,7 +19,7 @@ public class Effighast extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.GRASS),
                 List.of("These 'Mons are a staple of every farmer's team in Urzavos, as they protect their fields from other 'Mons that seek to eat their crops or harass their livestock."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.URZAVOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

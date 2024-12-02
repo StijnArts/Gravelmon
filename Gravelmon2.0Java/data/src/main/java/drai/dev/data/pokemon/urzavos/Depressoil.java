@@ -19,7 +19,7 @@ public class Depressoil extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.MINERAL),
                 List.of("Having grown bitter, these 'Mons often scare travelers by coming out of the muddied waters and making guttural noises at them. A tamed 'Mon is rather pleasant."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.URZAVOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -24,7 +24,7 @@ public class Luminlite extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Luminlite cling to the walls of cave and wait for things to pass by it before stunning them with a beam of light. In the depths of caves, they flicker their lights in specific patterns to communicate with one another."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.URZAVOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

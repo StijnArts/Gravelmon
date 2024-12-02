@@ -24,7 +24,7 @@ public class Gulling extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("With limited flying prowess, Gullings linger along steep cliffs, skillfully catching updrafts to glide through the air."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

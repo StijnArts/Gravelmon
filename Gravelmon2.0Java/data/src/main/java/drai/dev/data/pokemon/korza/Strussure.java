@@ -24,7 +24,7 @@ public class Strussure extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("As Strussure are too powerful to help their colony build, they now aid in demolition of old or unsound structures. Their impacts with the ground can cause fissures in the earth, with the tremors felt hundreds of miles away."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

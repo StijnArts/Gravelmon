@@ -74,7 +74,7 @@ public class Angwilt extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Angwilt are drawn to those with deep emotional trauma, draining them of emotion until they feel nothing. Sometimes will lure people into situations to create sorrow to feed on in the future."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

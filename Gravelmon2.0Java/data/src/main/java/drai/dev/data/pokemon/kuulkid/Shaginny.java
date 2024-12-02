@@ -25,7 +25,7 @@ public class Shaginny extends drai.dev.data.pokemon.Pokemon {
                 List.of("The tangled, upkept formation of their fur makes Shaginnies exceedingly hard to groom. These pokemon are often prone to skin problems because of their inability to access the skin underneath their hair."),
                 List.of(new EvolutionEntry("cavicurl", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"21")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 28, 4.6, List.of(

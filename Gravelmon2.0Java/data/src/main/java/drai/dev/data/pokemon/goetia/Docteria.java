@@ -25,7 +25,7 @@ public class Docteria extends drai.dev.data.pokemon.Pokemon {
                 List.of("It feeds on filth and pestilence, storing contagions within its needle-like forelimbs. They were used by pokemon centers many centuries ago, long before various advances in modern medicine and the domestication of Chansey."),
                 List.of(new EvolutionEntry("epimedic", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 36, 3.5, List.of(

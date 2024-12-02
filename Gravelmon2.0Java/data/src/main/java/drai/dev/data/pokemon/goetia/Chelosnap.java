@@ -19,7 +19,7 @@ public class Chelosnap extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("The fringes on Chelosnap’s skin blur its silhouette as it lies underwater, allowing it to hide in plain sight. It stays still for so long, algae grows on its shell. Its jaws can rend a car in half."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 32, 54, .4, List.of(

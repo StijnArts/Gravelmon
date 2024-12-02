@@ -25,7 +25,7 @@ public class Trogleech extends drai.dev.data.pokemon.Pokemon {
                 List.of("A similar species to Bleech, it has adapted to life inside the darkest caves. Its aerodynamic body allows it to glide down onto targets to suck their blood."),
                 List.of(new EvolutionEntry("troglobite", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"21")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 32, 3.5, List.of(

@@ -19,7 +19,7 @@ public class Lemighty extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD,EggGroup.MONSTER),
                 List.of("Lemighty, despite its little stature, possesses incredible physical strength. A Lemighty will guard a herd of Arveeny to the death."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

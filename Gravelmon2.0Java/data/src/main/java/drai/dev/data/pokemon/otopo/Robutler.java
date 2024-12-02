@@ -24,7 +24,7 @@ public class Robutler extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MINERAL),
                 List.of("They were designed to assist trainers with everyday duties and housework who have hectic schedules. When it is angry, it finds it difficult to conceal its feelings and will change its countenance."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

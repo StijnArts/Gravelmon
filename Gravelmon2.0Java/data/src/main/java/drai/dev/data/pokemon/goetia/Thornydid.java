@@ -19,7 +19,7 @@ public class Thornydid extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("The sweet-smelling essence of its flower can be made into a perfume. Trying to take it by force will get you stabbed by its spines."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 24, 48, .7, List.of(

@@ -19,7 +19,7 @@ public class Prawnage extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It sends messages by bending waves of light into patterns that are invisible to all but its own kind."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 33, 54, .7, List.of(

@@ -24,7 +24,7 @@ public class Braculus extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Boreed which chose to root in place evolved into Braculus. Their great eyesight allowed them to see danger and hide within their hard shells and burrow."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

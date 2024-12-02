@@ -25,7 +25,7 @@ public class Mirorim extends drai.dev.data.pokemon.Pokemon {
                 List.of("It uses light to dazzle opponents and can reflect any attack from wherever it came."),
                 List.of(new EvolutionEntry("abstrarts", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"31")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 9, 32, 4.4, List.of(

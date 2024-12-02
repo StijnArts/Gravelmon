@@ -19,7 +19,7 @@ public class Orycterra extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Orycterra are confident Pokémon who love a challenging fight. Even if their foe has a high advantage, they will not stop until they've won the battle."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 25, 45, .5, List.of(

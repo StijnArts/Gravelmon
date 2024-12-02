@@ -25,7 +25,7 @@ public class Wizarda extends drai.dev.data.pokemon.Pokemon {
                 List.of("Wizarda is found in dark and stranded places, it's very shy to humans and mostly hides in dark places."),
                 List.of(new EvolutionEntry("wizadow", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 27, 3, List.of(

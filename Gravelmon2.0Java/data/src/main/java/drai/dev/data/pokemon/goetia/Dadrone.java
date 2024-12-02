@@ -25,7 +25,7 @@ public class Dadrone extends drai.dev.data.pokemon.Pokemon {
                 List.of("Its four wings give it supreme mobility in the air, allowing it to fly in all directions with equal prowess. It is the natural enemy of Balloony."),
                 List.of(new EvolutionEntry("airlantic", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 28, 5, List.of(

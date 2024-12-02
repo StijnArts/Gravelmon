@@ -25,7 +25,7 @@ public class Machogre extends drai.dev.data.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("machking", EvolutionType.TRADE, List.of(),
                         List.of())),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.FORM),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 28, 43, 1, List.of(

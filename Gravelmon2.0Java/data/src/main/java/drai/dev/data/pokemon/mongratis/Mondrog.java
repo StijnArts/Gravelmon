@@ -19,7 +19,7 @@ public class Mondrog extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Mondrog collect and store seeds on their backs which slowly grow into small, unique habitats. The hollows in its body are sometimes used as burrows or collect rainwater."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

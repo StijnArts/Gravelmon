@@ -25,7 +25,7 @@ public class Anemini extends drai.dev.data.pokemon.Pokemon {
                 List.of("Anemini are always full of energy, much to the dismay of people and pokemon around it. The tips of the tendrils above their heads cause a mild irritation to the touch."),
                 List.of(new EvolutionEntry("juggljelly", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(

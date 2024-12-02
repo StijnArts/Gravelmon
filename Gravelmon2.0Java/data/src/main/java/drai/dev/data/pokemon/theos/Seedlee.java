@@ -24,7 +24,7 @@ public class Seedlee extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Seedlee are easily scared, and will often disguise themselves as plant sprouts when sensing anyone nearby. They can release a potent scent from their petals if predators get too close."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

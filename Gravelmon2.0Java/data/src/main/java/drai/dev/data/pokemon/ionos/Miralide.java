@@ -24,7 +24,7 @@ public class Miralide extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Miralide is proud of its appearance and is not afraid to show it. A walk on a field or in the forest will leave a trail of flowers full of vibrant colors."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 53, 0.1, List.of(

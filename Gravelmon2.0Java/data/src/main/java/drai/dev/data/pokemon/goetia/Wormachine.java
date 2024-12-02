@@ -19,7 +19,7 @@ public class Wormachine extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It builds sandcastles to protect itself. As the castle grows in size, other pokemon may wish to take shelter inside and lend Wormachine their power."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 36, 1.87, List.of(

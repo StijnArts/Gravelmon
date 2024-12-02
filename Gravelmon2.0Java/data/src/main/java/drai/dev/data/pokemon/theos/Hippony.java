@@ -24,7 +24,7 @@ public class Hippony extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD,EggGroup.WATER_1),
                 List.of("Hippony are loved by young kids because of their playful attitude. They can create colorful bubbles, used to put on shows or to distract opponents in battle."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

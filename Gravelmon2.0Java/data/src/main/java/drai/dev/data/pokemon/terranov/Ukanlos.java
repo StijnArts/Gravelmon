@@ -19,7 +19,7 @@ public class Ukanlos extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("An enigmatic dragon sighted only deep within the most remote extremes. Its jaws are capable of crushing ice and rock alike. The natives of one region claim its appearance mirrors that of the white god of their legends."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

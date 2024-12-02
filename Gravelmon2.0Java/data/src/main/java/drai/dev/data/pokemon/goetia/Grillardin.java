@@ -19,7 +19,7 @@ public class Grillardin extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Grillardin is a skilled chef able to memorize recipes from all over the world. Even high-class Kalos dishes are within its abilities. It has a stern disposition, but only because it wants its Sushef apprentices to excel."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 54, .4, List.of(

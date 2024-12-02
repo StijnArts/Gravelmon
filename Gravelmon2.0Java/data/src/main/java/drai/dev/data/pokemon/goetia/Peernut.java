@@ -19,7 +19,7 @@ public class Peernut extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("The appendage on its head is edible and quickly grows back."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 43, 1.3, List.of(

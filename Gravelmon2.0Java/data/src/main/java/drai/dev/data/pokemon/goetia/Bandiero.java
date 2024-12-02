@@ -19,7 +19,7 @@ public class Bandiero extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It is a troublemaker with a hair-trigger temper, infamous for robbing travelers in the desert. It loves to strike during sandstorms."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 21, 45, 1.5, List.of(

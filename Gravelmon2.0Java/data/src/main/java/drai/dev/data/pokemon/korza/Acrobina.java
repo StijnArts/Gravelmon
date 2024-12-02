@@ -24,7 +24,7 @@ public class Acrobina extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("The graceful movement of Acrobina is always deliberate, poised, and powerful. They are extremely competitive in nature, and will never willingly quit a battle or otherwise, even if it's clearly outmatched."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

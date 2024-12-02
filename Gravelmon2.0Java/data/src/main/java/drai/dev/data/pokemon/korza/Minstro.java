@@ -24,7 +24,7 @@ public class Minstro extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Minstro are ancient fungal mons which grew very tall stalks. Their hollow body resonated well when they sang, and their stalks helped amplify their volume to reach out for miles."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

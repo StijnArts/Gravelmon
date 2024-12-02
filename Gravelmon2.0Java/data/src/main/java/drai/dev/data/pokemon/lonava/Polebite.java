@@ -74,7 +74,7 @@ public class Polebite extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Ecologically similar to Bulbite, Polebite swim in shallow ponds and urban canals. They charge up static as they swim, ready to share with any other of its species."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.LONAVA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 13, 34, 3.3, List.of(

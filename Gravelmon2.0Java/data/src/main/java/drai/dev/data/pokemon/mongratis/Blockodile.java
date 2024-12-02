@@ -19,7 +19,7 @@ public class Blockodile extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("To protect itself from direct sunlight it covers its body with dirt and debris from the jungle floor. It can stand still for so long that it looks like an old statue."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

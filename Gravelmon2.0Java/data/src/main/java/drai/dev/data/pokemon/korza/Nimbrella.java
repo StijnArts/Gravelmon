@@ -74,7 +74,7 @@ public class Nimbrella extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Nimbrella hide in low clouds and lower its string through them as bait. Folklore claims that people who disappear into thin air have been taken by a Nimbrella."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -24,7 +24,7 @@ public class Pirini extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Pirini float aimlessly above the ancient sea, waiting to spot unsuspecting prey along the surface. Their remains have never been found on dry land- superstition says they were cursed to never leave the water."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

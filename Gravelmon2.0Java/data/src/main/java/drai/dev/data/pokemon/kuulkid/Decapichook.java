@@ -24,7 +24,7 @@ public class Decapichook extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Despite seemingly having eyes, this pokemon is completely blind to its surroundings. Even after this pokemon fully passes, its ghostly head still remains."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 45, 1.5, List.of(

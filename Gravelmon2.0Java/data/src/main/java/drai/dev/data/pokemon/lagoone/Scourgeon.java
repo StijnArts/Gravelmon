@@ -74,7 +74,7 @@ public class Scourgeon extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_2),
                 List.of("While the ocean in Lagoone is flourishing with life, the rivers are rather empty in comparison, as Scourgeon will bully and drive away any smaller Pokemon."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.LAGOONE),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 31, 54, 2.2, List.of(

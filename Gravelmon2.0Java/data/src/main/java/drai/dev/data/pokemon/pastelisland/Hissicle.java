@@ -24,7 +24,7 @@ public class Hissicle extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_1),
                 List.of("Hissicle are patient and calm, and love swim gaudily through cold seas. They have a cold toxin in their body that chills those it bites."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.PASTEL_ISLAND),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

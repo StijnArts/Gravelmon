@@ -24,7 +24,7 @@ public class Bunursery extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Bunursery are very caring and calm Pokémon. Daycares often work along side them as they're very good with young Pokémon and taking care of Pokémon Eggs."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

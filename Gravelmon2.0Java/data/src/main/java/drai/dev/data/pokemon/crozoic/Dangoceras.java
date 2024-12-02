@@ -24,7 +24,7 @@ public class Dangoceras extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_3),
                 List.of("Its icy shell moved from its head to its tentacles to allow room for its three brains to grow, heightening its mental prowess to incredible degrees at the cost of its mobility."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CROZOIC),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 35, 54, .6, List.of(

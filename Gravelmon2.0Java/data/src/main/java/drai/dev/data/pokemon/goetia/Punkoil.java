@@ -19,7 +19,7 @@ public class Punkoil extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It emits strange energy wavelengths from its spines that cause nausea and cramping to whoever is in range. It has a habit of pestering people, even and especially those it is close to."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 55, 65, .01, List.of(

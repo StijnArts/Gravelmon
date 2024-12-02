@@ -24,7 +24,7 @@ public class Shroolie extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("The spores that Shroolie carelessly release from their bubbles can cause different effects, depending on how the Shroolie is feeling at the time."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

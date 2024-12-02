@@ -19,7 +19,7 @@ public class Volverdi extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Added Oct 27 2021 Etymology: volvox (a kind of green algae) + verde"),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ENJIN),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 13, 41, 6, List.of(

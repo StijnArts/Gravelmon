@@ -25,7 +25,7 @@ public class Refereef extends drai.dev.data.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("semiphrawn", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"21")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.QAMOR),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 25, 4.4, List.of(

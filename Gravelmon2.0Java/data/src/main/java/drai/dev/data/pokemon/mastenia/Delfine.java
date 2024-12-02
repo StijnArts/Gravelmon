@@ -19,7 +19,7 @@ public class Delfine extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MASTENIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 32, 58, .5, List.of(

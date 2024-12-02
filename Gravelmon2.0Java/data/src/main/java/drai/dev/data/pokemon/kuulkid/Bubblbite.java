@@ -25,7 +25,7 @@ public class Bubblbite extends drai.dev.data.pokemon.Pokemon {
                 List.of("Even at a young age, venom from a Bubblbite bite can be lethal. Wild pokemon are easily able to spot this pokemon's vibrant colouration and steer clear from them and its evolution."),
                 List.of(new EvolutionEntry("gumbarachnid", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 24, 3, List.of(

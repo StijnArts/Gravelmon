@@ -25,7 +25,7 @@ public class Termulch extends drai.dev.data.pokemon.Pokemon {
                 List.of("Termulch acts as a sentry, guarding the colony with its powerful jaws, stony armor, and a horn that sprays sticky webs. It shreds trees so Termini can harvest the raw materials. Only female Termulch evolve into Termajesty."),
                 List.of(new EvolutionEntry("termajesty", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 28, 46, 1.1, List.of(

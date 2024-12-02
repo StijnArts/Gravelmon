@@ -19,7 +19,7 @@ public class Morturtle extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Morturtle are calm and collected but fearsome in battle. They can projectile massive amounts of sand and rocks from their backs. Their shells are incredibly hard and are decorated with glass-like shards that are forged by leftover sand inside their shells. The shards break often however from their loud shots, leaving splinter around them."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MASTENIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

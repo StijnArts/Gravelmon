@@ -19,7 +19,7 @@ public class Necrophagus extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It stores prey inside its empty shell of a body, slowly draining them of life. Once it has finished, it places the mummified body in an underground tomb."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 32, 51, .5, List.of(

@@ -25,7 +25,7 @@ public class Crashlad extends drai.dev.data.pokemon.Pokemon {
                 List.of("It is a widely accepted theory that Crashlads came from another planet. It is still unclear to scientists if the metal plating worn by this pokemon is part of their skin."),
                 List.of(new EvolutionEntry("tinvader", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"cobblemon:upgrade")),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(

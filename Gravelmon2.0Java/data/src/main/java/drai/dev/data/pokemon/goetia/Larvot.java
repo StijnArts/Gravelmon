@@ -25,7 +25,7 @@ public class Larvot extends drai.dev.data.pokemon.Pokemon {
                 List.of("It latches onto the first organism it sees upon hatching and begins draining their energy."),
                 List.of(new EvolutionEntry("rabbot", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 4.5, List.of(

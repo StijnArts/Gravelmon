@@ -24,7 +24,7 @@ public class Stummacake extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("This Pokémon makes its home in the fabled chocolate river of the Kuulkid region. It consumes unhealthy amounts of candy each day, causing it to have constant stomach pains."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(

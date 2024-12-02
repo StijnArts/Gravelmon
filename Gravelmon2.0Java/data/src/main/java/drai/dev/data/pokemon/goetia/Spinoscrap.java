@@ -19,7 +19,7 @@ public class Spinoscrap extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Spinoscrap is a Pokemon that ruled the water the same way Tyrantrum ruled the land. It has a cunning, vicious personality and is fond of ambushes."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 40, 55, .4, List.of(

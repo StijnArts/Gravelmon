@@ -24,7 +24,7 @@ public class Colossile extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Colossile, in the past, would stick to its prey, dragging them into its body and eventually using the bones as armor. The head-like area containing a skull is merely a decoy."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

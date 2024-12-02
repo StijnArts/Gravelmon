@@ -24,7 +24,7 @@ public class Astorella extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Astorella's constant upward gaze is believed to be because they find each other using the stars. Their dark, glittering shells show star patterns unfamiliar to our modern sky."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

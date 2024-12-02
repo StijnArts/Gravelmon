@@ -19,7 +19,7 @@ public class Scarazor extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Vainly prideful of its black, intricately-patterned shell. When it finishes slashing and goring its enemies, it fusses over how dirty its horns have become."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 54, 1, List.of(

@@ -24,7 +24,7 @@ public class Urstaunch extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Urstaunch spend all day lying around in flowing rivers, causing massive blockages. A group of Urstaunch and Bearrier can block even the widest river, so they're led away from their lazing spot with some delicious food, like some fish or berries."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MYSTIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

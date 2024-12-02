@@ -24,7 +24,7 @@ public class Crimsal extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Crimsal wields powerful psychokinesis to protect itself and its family. It's the mascot of a regional baseball team, rivals to the Charzure team's mascot."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -25,7 +25,7 @@ public class Jelsparc extends drai.dev.data.pokemon.Pokemon {
                 List.of("Its tentacles contain special cells that shock whatever touches them. Its bell glows when its power is at maximum."),
                 List.of(new EvolutionEntry("jelightning", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 11, 35, 4.4, List.of(

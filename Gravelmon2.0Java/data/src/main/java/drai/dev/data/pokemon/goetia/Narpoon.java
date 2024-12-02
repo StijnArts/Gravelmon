@@ -19,7 +19,7 @@ public class Narpoon extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Narpoon, a Deep Sea Pokemon that fires barbs from its snout like harpoons. It stretches its arms to capture prey once speared."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 11, 35, 5, List.of(

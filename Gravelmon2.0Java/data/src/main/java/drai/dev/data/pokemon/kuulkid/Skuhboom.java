@@ -24,7 +24,7 @@ public class Skuhboom extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Skuhbooms store lethal amounts of stinky chemicals in their tails. When threatened, This pokemon sprays those chemicals at its foes."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 26, 54, .4, List.of(

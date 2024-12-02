@@ -24,7 +24,7 @@ public class TheossianJumpluff extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Jumpluff spend their time watching over fields by standing on their wood like tail. They do this to keep away bird Pokémon from feeding on the harvest."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -25,7 +25,7 @@ public class Rashie extends drai.dev.data.pokemon.Pokemon {
                 List.of("The fully developed tusks of Rashies make their playfighting incredibly dangerous. Rashies who bond at birth become lifelong hunting partners, never leaving one another's side."),
                 List.of(new EvolutionEntry("gnashrasher", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 7, 29, 3.6, List.of(

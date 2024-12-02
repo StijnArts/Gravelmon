@@ -24,7 +24,7 @@ public class Hemwee extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Hemwee are known for their ability to mimic sounds, particularly crying babies and children. Though they can mimic, they don't use real words, so it's just incoherent babbling."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

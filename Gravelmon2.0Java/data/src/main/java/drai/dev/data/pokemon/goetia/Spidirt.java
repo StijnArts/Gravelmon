@@ -25,7 +25,7 @@ public class Spidirt extends drai.dev.data.pokemon.Pokemon {
                 List.of("It spends so much time underground that seeing one is considered an omen of luck. Although quick to flee, it will fight tenaciously when cornered."),
                 List.of(new EvolutionEntry("terraintula", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 23, 5.4, List.of(

@@ -25,7 +25,7 @@ public class Lumini extends drai.dev.data.pokemon.Pokemon {
                 List.of("Lumini catches prey using silk lined with glowing mucus. When many of them are hunting, the cave ceilings they live on look like starry skies."),
                 List.of(new EvolutionEntry("lampupa", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 4.5, List.of(

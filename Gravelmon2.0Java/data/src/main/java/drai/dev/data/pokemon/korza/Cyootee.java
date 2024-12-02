@@ -24,7 +24,7 @@ public class Cyootee extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Kyootee lures pokemon in who think they'll be an easy meal with their cuteness, and then viciously attack with their surprisingly sharp teeth. They silently glide from tree to tree in order to find nests they can raid."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

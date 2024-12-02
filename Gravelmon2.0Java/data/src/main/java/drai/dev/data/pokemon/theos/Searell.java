@@ -24,7 +24,7 @@ public class Searell extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Searell can ignite the seeds it keeps in it's cheeks to use for attacks. With their tail being very fluffy and warm, smaller Pokémon love to curl up in them on cold nights."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

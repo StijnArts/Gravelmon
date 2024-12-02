@@ -24,7 +24,7 @@ public class Omeledoodle extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("The call of this pokemon can awake a pokemon from even the deepest of slumbers. For this reason, farmers keep this pokemon around to make sure they wake up on time."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 34, 56, .4, List.of(

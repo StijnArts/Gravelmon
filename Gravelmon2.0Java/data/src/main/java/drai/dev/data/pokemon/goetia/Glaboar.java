@@ -19,7 +19,7 @@ public class Glaboar extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("There is only one in each colony, resting at the heart of the colony’s labyrinthine nest. Although powerful, it relies on its legion of children and commands them with chemical signals."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 23, 48, .5, List.of(

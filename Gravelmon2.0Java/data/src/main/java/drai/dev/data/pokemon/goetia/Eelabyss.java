@@ -19,7 +19,7 @@ public class Eelabyss extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It lives at the bottom of the ocean. In spite of its slender body, it is able to eat prey several times its size using its incredibly elastic jaws."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 17, 43, .7, List.of(

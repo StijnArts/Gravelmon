@@ -25,7 +25,7 @@ public class Sapuddle extends drai.dev.data.pokemon.Pokemon {
                 List.of("They need humidity to survive. When the weather becomes too hot, they hibernate in burrows. It defeats Pokemon by grabbing them with its tongue and forcing them against its poisonous body."),
                 List.of(new EvolutionEntry("bulwart", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OKENO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 18, 44, .9, List.of(

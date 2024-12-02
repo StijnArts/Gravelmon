@@ -24,7 +24,7 @@ public class Sycoral extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Found only on deserted islands, Sycoral are hostile to anyone who sets foot in their territory. They will use countless tricks and curses to repel trespassers."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

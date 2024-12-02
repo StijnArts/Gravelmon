@@ -24,7 +24,7 @@ public class Hopling extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("As spring comes in, Hopling migrate in across hills from Northen Unova. They bathe in the sunlight to absorb energy."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTTORA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

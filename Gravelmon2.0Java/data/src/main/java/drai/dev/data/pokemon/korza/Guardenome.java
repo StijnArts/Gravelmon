@@ -24,7 +24,7 @@ public class Guardenome extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.HUMAN_LIKE,EggGroup.MINERAL),
                 List.of("Guardenome are gentle giants, preferring to avoid conflicts that will damage the plants in their care. Rather than becoming furious at their garden's damage, they will just be sad. --- New Ability: Gardener: 'Powers up Grass-type moves.'"),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -74,7 +74,7 @@ public class Ambrite extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Cavities in the shells maintain buoyancy so that Ambrite can swim gracefully through the sea with their tentacles. Their shells were their only remnants, the dazzling colors being well preserved."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

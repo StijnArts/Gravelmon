@@ -19,7 +19,7 @@ public class Stingray extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It emits beams from its abdomen that hypnotize other pokemon to do its bidding. It lays its egg inside pupating pokemon so they evolve into Stingray instead."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 16, 36, .8, List.of(

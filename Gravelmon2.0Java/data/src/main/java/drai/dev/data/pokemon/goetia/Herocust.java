@@ -19,7 +19,7 @@ public class Herocust extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("it trains every day so that it may protect those in need. It leaps into action when it hears a cry for help."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 22, 52, .6, List.of(

@@ -25,7 +25,7 @@ public class Chippole extends drai.dev.data.pokemon.Pokemon {
                 List.of("Chippole's shiny metallic tails help them quickly get away from potential predators. Their sweet flesh makes them a popular target for fisherman and campers."),
                 List.of(new EvolutionEntry("frogolate", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 7, 32, 4, List.of(

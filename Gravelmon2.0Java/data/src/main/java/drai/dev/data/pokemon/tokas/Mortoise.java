@@ -24,7 +24,7 @@ public class Mortoise extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("The skull shape on its head serves as a warning to those aware if its presence. Explosions result for those who are not."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TOKAS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

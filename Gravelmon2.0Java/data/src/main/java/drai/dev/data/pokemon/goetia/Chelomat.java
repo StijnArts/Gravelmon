@@ -25,7 +25,7 @@ public class Chelomat extends drai.dev.data.pokemon.Pokemon {
                 List.of("Chelomat is a slow-moving, carefree pokemon that camouflages into riverbeds when it lays down flat. It inhales air using its snorkel-like nose and can hold its breath for hours."),
                 List.of(new EvolutionEntry("chelosnap", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 6, 29, 4, List.of(

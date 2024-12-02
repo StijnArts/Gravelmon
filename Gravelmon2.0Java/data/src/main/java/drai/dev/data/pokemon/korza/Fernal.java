@@ -24,7 +24,7 @@ public class Fernal extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("The ground becomes fertile under this mon's steps. Early plant life which rooted in Fernal's body were believed to have healing properties."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

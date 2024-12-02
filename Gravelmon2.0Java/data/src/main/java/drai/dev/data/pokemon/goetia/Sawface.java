@@ -19,7 +19,7 @@ public class Sawface extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("The bladed teeth in its snout revolve fast enough to hack and tear through anything in its path. Unlike its blades, its wit tends to be dull."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 32, 51, .2, List.of(

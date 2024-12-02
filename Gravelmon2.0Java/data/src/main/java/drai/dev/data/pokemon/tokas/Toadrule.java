@@ -19,7 +19,7 @@ public class Toadrule extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Toadrules have been measured to have leapt 300 ft in the air, capable of defense in more ways than their weaker poison. Their four arms also operate independently from one another."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TOKAS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

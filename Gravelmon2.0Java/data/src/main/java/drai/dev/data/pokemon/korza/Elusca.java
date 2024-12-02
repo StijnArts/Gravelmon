@@ -24,7 +24,7 @@ public class Elusca extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("The patterns on Elusca's wings are used to disorient an attacker, and often a group will form with some distracting the foe while the others sap away at their body. Male Elusca are unable to store blood, but are considered an equal annoyance."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

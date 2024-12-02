@@ -25,7 +25,7 @@ public class Shiverish extends drai.dev.data.pokemon.Pokemon {
                 List.of("Shiverish usually dwell beneath frozen lakes and occasionally jump out of holes in the ice to catch sunlight. They use the sunlight to keep warm."),
                 List.of(new EvolutionEntry("glacuda", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 3, 22, 1, List.of(

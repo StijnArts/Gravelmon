@@ -19,7 +19,7 @@ public class Jelightning extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Nicknamed the “Stinging Storm”, it discharges electricity into the surrounding atmosphere to alter the weather. Its eye shines like a beacon in the dark."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 28, 45, .8, List.of(

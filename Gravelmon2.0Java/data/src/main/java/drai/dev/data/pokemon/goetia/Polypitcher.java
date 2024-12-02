@@ -25,7 +25,7 @@ public class Polypitcher extends drai.dev.data.pokemon.Pokemon {
                 List.of("Its foremost trap is filled with bouyant gas. Its powerful digestive enzymes may drip from above."),
                 List.of(new EvolutionEntry("polypenthes", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 27, 45, .6, List.of(

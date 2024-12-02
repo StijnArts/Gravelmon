@@ -19,7 +19,7 @@ public class Scragorge extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Its tail unrolls and anchors into the ground across crevasses to create a bridge. Its tongue, which is as strong as steel, is able to lift its entire body."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

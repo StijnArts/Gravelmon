@@ -24,7 +24,7 @@ public class Girdroll extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Girdroll's wings are rather small, but with a rolling start can be used to glide near indefinitely. Capable of reaching incredible speeds by rolling as a ball."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

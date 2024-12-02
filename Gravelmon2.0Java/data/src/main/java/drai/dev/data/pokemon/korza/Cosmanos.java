@@ -74,7 +74,7 @@ public class Cosmanos extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("Said to fly among the outskirts of the sky, watching over the world from destructive forces and will use his dormant power in the future to stop a calamity. Because of this, he's seen as a symbol of diligence and dedication."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

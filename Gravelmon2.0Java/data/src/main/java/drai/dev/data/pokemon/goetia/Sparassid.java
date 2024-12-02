@@ -19,7 +19,7 @@ public class Sparassid extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Sparassid’s unusual stature gives it an unusual advantage on other Fighting-type Pokemon in the boxing ring."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 51, 2.2, List.of(

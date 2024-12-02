@@ -24,7 +24,7 @@ public class Illubelle extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Because of their tiny size, Illubelle are experts at hiding just out of sight. They love to play and are fascinated with humans, so they often play tricks on those that wander into their woods."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

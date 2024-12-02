@@ -19,7 +19,7 @@ public class Wearwolf extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It seeks revenge on all those who betrayed its trust as a Houndworm. It has vowed never to leave its disguise, which it has made to reflect its tortured soul."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 25, 41, .4, List.of(

@@ -25,7 +25,7 @@ public class Medusting extends drai.dev.data.pokemon.Pokemon {
                 List.of("It is said that anyone who sees its true face will turn to stone, but the truth is that its tentacles have a mind of their own and attack anything that gets too close with paralytic toxins."),
                 List.of(new EvolutionEntry("charybyss", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"31")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 13, 32, 3, List.of(

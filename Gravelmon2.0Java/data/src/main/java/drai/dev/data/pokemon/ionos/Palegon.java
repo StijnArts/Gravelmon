@@ -19,7 +19,7 @@ public class Palegon extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Some Pokémon never see the light of day. One such Pokémon is Palegon, a cave dwelling, fire breathing lizard. A dragon whom is cold on the outside yet warm on the inside. At least the fire that burns within it. Palegon will only accept the strongest of trainers."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 35, 54, .4, List.of(

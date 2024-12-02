@@ -19,7 +19,7 @@ public class Shalegion extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Shalegion is shrouded in mystery, always searching for new data for unknown purposes. It shares a collective mental network with its species, allowing any Shalegion to access all information learned by every other."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 40, 55, .4, List.of(

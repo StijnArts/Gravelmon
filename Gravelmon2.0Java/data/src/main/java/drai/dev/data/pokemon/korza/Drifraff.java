@@ -24,7 +24,7 @@ public class Drifraff extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Though it acts tough, Drifraff are very shy and don't like leaving their wood shelter. They're often pulled onto shore because of this shelter, and need cast back into the water before drying out."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -19,7 +19,7 @@ public class Bulldrome extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Powerful alpha monsters that lead Bullfango herds. They mow down their prey with their sturdy tusks. Not only are they more aggressive than a regular Bullfango, but also far more alert."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

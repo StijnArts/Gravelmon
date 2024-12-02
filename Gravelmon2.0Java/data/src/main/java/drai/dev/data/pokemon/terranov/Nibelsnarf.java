@@ -19,7 +19,7 @@ public class Nibelsnarf extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Leviathans that have adapted to live in sandy areas. They burrow beneath the desert and locate prey aurally, then suck both the target and any surrounding sand into their maws. The gill-like organs in their mouths are thought to absorb nutrients."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

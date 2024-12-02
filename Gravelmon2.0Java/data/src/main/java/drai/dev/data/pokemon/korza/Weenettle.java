@@ -24,7 +24,7 @@ public class Weenettle extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.GRASS),
                 List.of("Each variety tends to have a certain type of personality, though it's not always the case. Weenettle's psychic abilities are limited, and just powerful enough to make it float."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -24,7 +24,7 @@ public class Acheeva extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Outrunning an Acheeva would be considered a new Pokémon World record. Reaching such high speed has an advantage when hunting down a slower foe, such as Blitzle and Blazelle."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 42, 1.5, List.of(

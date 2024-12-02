@@ -19,7 +19,7 @@ public class Spinnotaur extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It waits patiently underground until something gets in range of its horns. If it fails to destroy its target in one blow, it becomes agitated and panicked, making it even more dangerous."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 21, 45, 1.5, List.of(

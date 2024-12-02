@@ -29,7 +29,7 @@ public class Sukoi extends drai.dev.data.pokemon.Pokemon {
                         new EvolutionEntry("aquana", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32"),
                                         new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_RIVER.getId() + ":" + Biome.IS_RIVER.getName() +"\"")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 4, 28, 4, List.of(

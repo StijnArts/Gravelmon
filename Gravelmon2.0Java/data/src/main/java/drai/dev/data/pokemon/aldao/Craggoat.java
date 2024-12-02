@@ -67,19 +67,20 @@ public class Craggoat extends drai.dev.data.pokemon.Pokemon {
                         0,
                         0),
                 List.of(), null,
-                UnitConverter.feetToMeters(0, 0), 0,
-                new Stats(0,0,0,0,0,0), 0,
+                UnitConverter.feetToMeters(3, 6), 0,
+                new Stats(0,0,0,0,0,0), 110,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(),
                 List.of(""),
+                List.of(new EvolutionEntry("goattain", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:ice_stone")),
                 List.of(),
-                List.of(                        ),
                 List.of(Label.ALDAO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 30, 51, 1.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

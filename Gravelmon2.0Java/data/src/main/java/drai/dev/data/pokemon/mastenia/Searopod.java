@@ -24,7 +24,7 @@ public class Searopod extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Searopod are docile and friendly Pokémon. Don't mistake their kindness for weakness however as they can pack a powerful swing with their long necks along with their beaks. The leaves they gather from the tallest of trees are burnt to a crisp and makes a good meal."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MASTENIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 53, 0.1, List.of(

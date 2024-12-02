@@ -25,7 +25,7 @@ public class Plakiton extends drai.dev.data.pokemon.Pokemon {
                 List.of("Plakiton have endured for millions of years. Even though its shell is as hard and dense as the Earth’s mantle, it is always changing on the inside."),
                 List.of(new EvolutionEntry("astaron", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"45")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 25, 48, 1, List.of(

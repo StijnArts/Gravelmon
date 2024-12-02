@@ -25,7 +25,7 @@ public class Fuzzilk extends drai.dev.data.pokemon.Pokemon {
                 List.of("It is wrapped in a luxurious coat of silk, awaiting evolution. Clothing made from this material has been coveted for thousands of years."),
                 List.of(new EvolutionEntry("bombun", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 31, .9, List.of(

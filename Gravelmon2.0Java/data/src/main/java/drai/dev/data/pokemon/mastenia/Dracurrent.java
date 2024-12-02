@@ -24,7 +24,7 @@ public class Dracurrent extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Dracurrent's ship-like body gives them easy passage across any sea. They can grow incredibly old and are quick to gather knowledge from their journeys. By swimming rapidly in circles they create whirlpools; a similar method to a Pokémon found in Norheim. Their draconic powers grows strong from the raging oceans."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MASTENIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 53, 0.1, List.of(

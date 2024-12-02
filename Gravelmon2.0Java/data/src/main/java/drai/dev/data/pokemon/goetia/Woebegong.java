@@ -19,7 +19,7 @@ public class Woebegong extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It hates being seen so it blends into its surroundings and lies motionless when others are nearby. If it gets stepped on, it flies into a frenzy and escapes in tears."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 12, 35, 1.6, List.of(

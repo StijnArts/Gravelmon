@@ -74,7 +74,7 @@ public class Camobass extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Their body patterns are specialized for shallow water camouflage, to ambush prey both in water and along the shore. Popular among anglers and outdoorsman, featured as the mascot of a renowned outdoors store."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

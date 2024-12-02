@@ -24,7 +24,7 @@ public class Moleer extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Moleer have very poor eye sight and rely on their sense of smell to know their surroundings. Their tough claws allow them to break through rock with ease."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

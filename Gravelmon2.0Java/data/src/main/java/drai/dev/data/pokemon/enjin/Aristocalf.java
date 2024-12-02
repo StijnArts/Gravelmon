@@ -26,7 +26,7 @@ public class Aristocalf extends drai.dev.data.pokemon.Pokemon {
                 List.of(new EvolutionEntry("majestapir", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"53")))
                 ),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ENJIN),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 13, 35, 3.5, List.of(

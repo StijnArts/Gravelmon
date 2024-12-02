@@ -25,7 +25,7 @@ public class Nepolyp extends drai.dev.data.pokemon.Pokemon {
                 List.of("Each of its traps has its own mind, although whatever they catch will nourish all four."),
                 List.of(new EvolutionEntry("polypitcher", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 12, 34, 4, List.of(

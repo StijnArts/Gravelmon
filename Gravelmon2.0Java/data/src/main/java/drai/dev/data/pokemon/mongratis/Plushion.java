@@ -24,7 +24,7 @@ public class Plushion extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Because of its natural padding Plushion is unfazed by drops and falls, but will cry if its bow is torn. It enjoys snuggling next to trainers and will often get underfoot in an attempt to get closer."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

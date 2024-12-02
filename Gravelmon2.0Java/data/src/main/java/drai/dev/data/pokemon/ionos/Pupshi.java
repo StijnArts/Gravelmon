@@ -25,7 +25,7 @@ public class Pupshi extends drai.dev.data.pokemon.Pokemon {
                 List.of("Pupshi enjoys sunbathing on top of cliffs and on old ruins. It may not fear heights but it is terrified of the dark. To journey through the desert nights, it sparks a small fire to light up its surroundings."),
                 List.of(new EvolutionEntry("typhur", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 31, 5.4, List.of(

@@ -24,7 +24,7 @@ public class Dinon extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("An Ultra Beast born outside of its original home. Cunning and strong, Dinon refuses to have any way but its own. Its body radiates with heat and power."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

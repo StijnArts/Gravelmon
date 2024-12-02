@@ -24,7 +24,7 @@ public class Gargarius extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Gargarius can shoot water from great distances with precision, allowing them to perch farther away and higher up. Reliefs on buildings are often made in their image to keep them from nesting above and shooting at passerby."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

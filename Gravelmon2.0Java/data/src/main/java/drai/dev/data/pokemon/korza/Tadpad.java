@@ -24,7 +24,7 @@ public class Tadpad extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_1,EggGroup.GRASS),
                 List.of("Tadpad love playing in the rain, splashing in puddles or the shallow areas in creeks. The bulb atop its head grows bigger as it nears evolution."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

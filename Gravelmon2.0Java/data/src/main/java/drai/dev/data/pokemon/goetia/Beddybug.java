@@ -19,7 +19,7 @@ public class Beddybug extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Don’t be fooled- if you let one sleep in your bed, you’ll never get it to leave. It will drain energy from within your dreams, ensuring you never have a restful night again."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 34, 1.4, List.of(

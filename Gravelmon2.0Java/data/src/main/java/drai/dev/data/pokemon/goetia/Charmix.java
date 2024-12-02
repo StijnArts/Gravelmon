@@ -25,7 +25,7 @@ public class Charmix extends drai.dev.data.pokemon.Pokemon {
                 List.of("It comes in two varieties, the blue “Right Forme” and pink “Left Forme”. When two individuals of opposite orientations meet, they will attempt to interlock their horns. If a perfect fit is attained, they will evolve together into a Charmatch."),
                 List.of(new EvolutionEntry("Charmatch", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 29, 4.4, List.of(

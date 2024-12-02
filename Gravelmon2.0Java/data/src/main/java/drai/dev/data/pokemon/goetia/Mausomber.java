@@ -19,7 +19,7 @@ public class Mausomber extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("When people desecrate graveyards, they are drawn into Mausomber never to be seen again."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 41, 57, .3, List.of(

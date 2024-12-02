@@ -25,7 +25,7 @@ public class Hazrat extends drai.dev.data.pokemon.Pokemon {
                 List.of("Originally Mutant/Steel"),
                 List.of(new EvolutionEntry("atomant", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 36, 4, List.of(

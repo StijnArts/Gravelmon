@@ -27,7 +27,7 @@ public class Polibarb extends drai.dev.data.pokemon.Pokemon {
                         List.of(),List.of(),"cobblemon:dusk_stone"),
                         new EvolutionEntry("Polivibe", EvolutionType.ITEM_INTERACT, false, List.of(),
                                 List.of(),List.of(),"cobblemon:kings_rock")),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.FORM),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 25, 43, 1, List.of(

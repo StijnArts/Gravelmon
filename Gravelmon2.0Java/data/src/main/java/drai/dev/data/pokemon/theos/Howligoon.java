@@ -24,7 +24,7 @@ public class Howligoon extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Howligoon constantly fight for leadership, with the loudest howler being the Alpha of the tribe. When they're in a bad mood they will bang on their chest and go on a rampage."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

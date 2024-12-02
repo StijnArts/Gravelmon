@@ -24,7 +24,7 @@ public class Wyvle extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Wyvle keep their shells for protection of their soft, fragile bodies. Their scales are highly prized for their bright color and radiant shimmer."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

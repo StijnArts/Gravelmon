@@ -24,7 +24,7 @@ public class Dragite extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It hatches from the toughest of eggs, devouring the shell to build its rough carapace. Dragite is still growing and struggles to keep upright. It still lacks arms."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

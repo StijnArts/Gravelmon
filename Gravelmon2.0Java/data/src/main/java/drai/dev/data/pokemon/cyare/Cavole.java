@@ -25,7 +25,7 @@ public class Cavole extends drai.dev.data.pokemon.Pokemon {
                 List.of("Cavole are some of the most common household Pokemon to keep from how lovable and cute they are. They love nothing more than to eat food all day."),
                 List.of(new EvolutionEntry("cavident", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 27, 5.2, List.of(

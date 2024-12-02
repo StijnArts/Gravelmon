@@ -24,7 +24,7 @@ public class Parrate extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("A single Parrate often leads a crew of a dozen Gulling. They patrol beaches and boardwalks snatching anything shiny they can find."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

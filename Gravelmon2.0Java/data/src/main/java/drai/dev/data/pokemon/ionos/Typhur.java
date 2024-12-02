@@ -25,7 +25,7 @@ public class Typhur extends drai.dev.data.pokemon.Pokemon {
                 List.of("It always watches its back inside crypts and pyramids as it feels the presence of ghost Pokémon. Typhur is even scared of its own shadow, spitting fire against it."),
                 List.of(new EvolutionEntry("typhoonos", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 17, 41, 1.1, List.of(

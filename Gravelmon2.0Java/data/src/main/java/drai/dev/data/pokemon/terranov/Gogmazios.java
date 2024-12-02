@@ -19,7 +19,7 @@ public class Gogmazios extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Coated in a thick, sticky fluid, this massive elder dragon appears unhindered by the Dragonator lodged in its back. Eyewitness reports suggest that, despite its massive size, this mysterious behemoth is indeed capable of flight."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

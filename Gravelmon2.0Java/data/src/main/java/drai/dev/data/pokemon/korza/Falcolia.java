@@ -24,7 +24,7 @@ public class Falcolia extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("This frail mon stays wrapped in its rubbery casing, presumed to help protect against dangers. Falcolia's forehead is sensitive, catching even the smallest disturbances in water movement."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

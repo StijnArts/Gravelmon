@@ -25,7 +25,7 @@ public class Panboo extends drai.dev.data.pokemon.Pokemon {
                 List.of("Panboo are very possessive. Many girl trainers think they are cute, until they lose a watch or hairpin to one."),
                 List.of(new EvolutionEntry("bansenbu", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 23, 4, List.of(

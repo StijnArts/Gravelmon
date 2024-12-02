@@ -25,7 +25,7 @@ public class Pocinder extends drai.dev.data.pokemon.Pokemon {
                 List.of("Pocinder uses its tail like a whip and has the ability to cut trees down in one slash."),
                 List.of(new EvolutionEntry("quolcano", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 21, 43, 1.2, List.of(

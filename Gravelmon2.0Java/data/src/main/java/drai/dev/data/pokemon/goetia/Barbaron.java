@@ -19,7 +19,7 @@ public class Barbaron extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It is a merciless creature that even eats the bones of its prey."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 51, .5, List.of(

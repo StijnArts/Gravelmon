@@ -24,7 +24,7 @@ public class Boomian extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Upon evolution, Boomian immediately challenge the Alpha of their tribe. If they win, they leave their tribe and live in solidarity deeming them as too weak to be around."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

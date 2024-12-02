@@ -24,7 +24,7 @@ public class Iceteroid extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MINERAL),
                 List.of("Multiple Glaceor collide together to form Iceteroid. Iceteroid possesses extremely difficult-to-pierce armour, making it a dangerous opponent in battle."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -24,7 +24,7 @@ public class Virack extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.MINERAL),
                 List.of("These Pokemon live in abandoned laboratories, where they feed from old generators and chemical substances. Gatherings of them can lead computers to malfunction."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OKENO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

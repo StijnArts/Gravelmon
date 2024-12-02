@@ -24,7 +24,7 @@ public class Underssey extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Despite this pokemon's towering size, Their personality is comparable to a small child. To keep themselves entertained, Undersseys create bubbles from the large instrument atop their heads."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID, Label.JOKE),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 42, 57, .4, List.of(

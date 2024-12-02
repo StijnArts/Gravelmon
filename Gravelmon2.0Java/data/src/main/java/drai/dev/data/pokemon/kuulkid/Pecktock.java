@@ -25,7 +25,7 @@ public class Pecktock extends drai.dev.data.pokemon.Pokemon {
                 List.of("The tails of Pecktocks keep a consistent rhythm. In ancient times, these pokemon were used to measure short lengths of time."),
                 List.of(new EvolutionEntry("peckdulum", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 34, 4.5, List.of(

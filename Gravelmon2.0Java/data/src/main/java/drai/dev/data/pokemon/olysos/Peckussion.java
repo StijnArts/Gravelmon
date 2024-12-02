@@ -24,7 +24,7 @@ public class Peckussion extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FLYING),
                 List.of("Percudart are often taken as a quick detour for mail because they have an extemely keen sense of orientation. On confrontration, they dive towards you like a dart."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OLYSOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

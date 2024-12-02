@@ -19,7 +19,7 @@ public class Elklore extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD,EggGroup.GRASS),
                 List.of("An old Pokemon that is seldom seen these days. It can be located in the forest's darkest recesses. The Pokemon leaves a distinctive floral scent trailing behind it, which comes from the vegetation growing from its horns, which changes seasonally. The leader of the herd has the most spectacular horns."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

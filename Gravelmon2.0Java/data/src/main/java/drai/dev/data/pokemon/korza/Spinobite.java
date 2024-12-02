@@ -74,7 +74,7 @@ public class Spinobite extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Always practicing their aim, the ancient seabed is littered with spare darts. Believed to have a beneficial relationship with Crystoral, giving each other defense and protection."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -24,7 +24,7 @@ public class Titaneon extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD),
                 List.of("Titaneon came from an anonymous 'leak' of new Eeveelutions that were supposedly going to be in Sword+Shield and has been submitted to the Fakemon Festival Pack by PansyGum. These designs/sprites are originally from the Fakemon Festival Pack."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

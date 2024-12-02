@@ -19,7 +19,7 @@ public class Marrowite extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It mourns the Chumbas it could not keep safe. Forced to fend for itself, it slashes at everything that gets near it with its six bladed arms"),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 28, 51, .3, List.of(

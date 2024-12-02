@@ -25,7 +25,7 @@ public class Ventherm extends drai.dev.data.pokemon.Pokemon {
                 List.of("At the bottom of the ocean, deep within the trenches, there is no light. Life in the abyss is not sustained by the sun, but by undersea vents that spew chemicals."),
                 List.of(new EvolutionEntry("volchemo", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"41")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 13, 34, 3.8, List.of(

@@ -19,7 +19,7 @@ public class Feverm extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Coming into contact with its burning hairs causes inflammation and fever. Those rendered delirious with high temperature claim to have seen it floating above them as if taunting them."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 55, 65, .01, List.of(

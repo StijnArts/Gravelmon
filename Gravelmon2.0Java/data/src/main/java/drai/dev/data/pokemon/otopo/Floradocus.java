@@ -24,7 +24,7 @@ public class Floradocus extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Due to the utopian jungle climate, Floradocus can still be found rather than resurrected by fossils. Its skin has calcified as a result of its rapid growth, forming a bark-like covering on which bird Pokemon may build their nest."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

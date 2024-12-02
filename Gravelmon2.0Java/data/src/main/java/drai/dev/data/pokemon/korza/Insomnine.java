@@ -24,7 +24,7 @@ public class Insomnine extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Exclusively drawn to nightmares, Insomnine will force people into deep slumbers to induce them, not allowing them to wake until its business is done. The seeds from its coat are used to make strong sedatives and anesthesia."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

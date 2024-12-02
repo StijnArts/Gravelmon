@@ -19,7 +19,7 @@ public class Mefowl extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It uses its telepathic powers to corrupt people’s minds with anger and despair. It often tells people one head tells the truth and the other lies, but in truth, both heads love lying- especially when it causes harm."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 55, 65, .01, List.of(

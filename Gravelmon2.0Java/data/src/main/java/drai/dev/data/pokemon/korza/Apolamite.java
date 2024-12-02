@@ -24,7 +24,7 @@ public class Apolamite extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Apolamite gave its special fronds to mons who seemed to be sick or injured. The body was kept moist, to keep the fronds from wilting."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

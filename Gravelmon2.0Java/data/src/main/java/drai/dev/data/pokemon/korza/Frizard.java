@@ -24,7 +24,7 @@ public class Frizard extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("The shed skin is now much stronger, able to take a lot of abuse before breaking. Frizard purposefully frays the end of its tail to cause more damage when used as a whip."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

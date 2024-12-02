@@ -24,7 +24,7 @@ public class Alpalpa extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD),
                 List.of("Light on their feet, Alpalpa are found on the tundra plains of Otopo. Their fur, whilst not adapted for colder climates, does absorb water which freezes and glistens in the winter sun."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

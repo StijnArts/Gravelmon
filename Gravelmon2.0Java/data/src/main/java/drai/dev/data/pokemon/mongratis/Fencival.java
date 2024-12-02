@@ -19,7 +19,7 @@ public class Fencival extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It leaps into battle, heedless of the danger, enjoying duels so much it will even delay a fight it could easily win. It will not attack an opponent whose back is turned."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

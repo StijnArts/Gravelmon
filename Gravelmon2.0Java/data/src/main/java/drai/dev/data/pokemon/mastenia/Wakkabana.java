@@ -19,7 +19,7 @@ public class Wakkabana extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Wakkabana hunt in great numbers but are very capable fighters on their own. Native to the region, they gain power from fruits and berries that contains minerals with electrolytes, granting them the power to give off large quantities of electrical charges in return."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MASTENIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

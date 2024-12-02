@@ -24,7 +24,7 @@ public class Quokkute extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD,EggGroup.FAIRY),
                 List.of("Quokkute are the most affectionate of all Pokemon, and once they form a relationship with a trainer, they would never abandon them."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

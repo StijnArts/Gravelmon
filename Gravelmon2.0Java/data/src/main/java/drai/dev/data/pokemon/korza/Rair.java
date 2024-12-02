@@ -24,7 +24,7 @@ public class Rair extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Its body constantly oozes a slippery oil, allowing easy escape. This oil has a beautiful, colorful sheen but is highly toxic, so keep this mon away from children who may want to touch."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

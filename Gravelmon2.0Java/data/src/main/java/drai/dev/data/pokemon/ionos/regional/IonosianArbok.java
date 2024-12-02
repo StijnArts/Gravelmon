@@ -19,7 +19,7 @@ public class IonosianArbok extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Only found in dark, underground caves. Its hood can sometimes be seen blinking and whisper can be heard from its mouth."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 53, 1.1, List.of(

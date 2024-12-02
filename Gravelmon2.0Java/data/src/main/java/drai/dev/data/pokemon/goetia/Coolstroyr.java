@@ -19,7 +19,7 @@ public class Coolstroyr extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Coolstroyr is a powerful digger whose craggy exoskeleton withstands the pressure deep within the Earth’s crust. When all three drills spin in unison, not even tempered steel can defend against its advance"),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 38, 56, .1, List.of(

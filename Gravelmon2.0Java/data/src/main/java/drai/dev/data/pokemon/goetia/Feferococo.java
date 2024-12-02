@@ -19,7 +19,7 @@ public class Feferococo extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Kept by wealthy elite as living works of art, their skin is covered in intricate swirling patterns that inspired a whole movement centuries ago. As a result of their upper-class breeding, they tend to be hedonistic and vain."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 23, 54, .5, List.of(

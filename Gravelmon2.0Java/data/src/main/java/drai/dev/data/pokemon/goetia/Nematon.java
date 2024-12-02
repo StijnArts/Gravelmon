@@ -29,7 +29,7 @@ public class Nematon extends drai.dev.data.pokemon.Pokemon {
                                 List.of(),List.of(),"minecraft:hopper"),
                         new EvolutionEntry("trematon", EvolutionType.ITEM_INTERACT, false, List.of(),
                                 List.of(),List.of(),"minecraft:spider_eye")),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 3, 22, 5, List.of(

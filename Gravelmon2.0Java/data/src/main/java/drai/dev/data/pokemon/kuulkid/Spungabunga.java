@@ -24,7 +24,7 @@ public class Spungabunga extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID, Label.JOKE),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 42, 57, .4, List.of(

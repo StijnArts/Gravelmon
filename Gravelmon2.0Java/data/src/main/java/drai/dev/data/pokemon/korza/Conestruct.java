@@ -24,7 +24,7 @@ public class Conestruct extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("In their colonies, Conestruct will and watch the older members build things, learning from observation. They protect their soft bodies by wearing construction materials-- workers onsite often give them spare cones."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

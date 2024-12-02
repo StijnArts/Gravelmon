@@ -24,7 +24,7 @@ public class LagoonanTinkaton extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FAIRY),
                 List.of("They share a symbiotic relationship with Dhelmise who takes over the seaweed in its body. In trade they are allowed to use its heavy anchor as a makeshift hammer."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.LAGOONE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 38, 56, .4, List.of(

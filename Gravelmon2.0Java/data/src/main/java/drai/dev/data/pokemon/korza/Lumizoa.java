@@ -24,7 +24,7 @@ public class Lumizoa extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Lumizoa's bright illumination serves as a warning of the strong electricity coursing through it. Lumostra often hide in their skirts for protection, following as they navigate using the stars."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

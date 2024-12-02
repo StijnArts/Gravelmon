@@ -24,7 +24,7 @@ public class Unigenia extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Unigenia fossil remains have confused researchers since their discovery. The one consistency between specimens is a prominent spiralled horn on their supposed head."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

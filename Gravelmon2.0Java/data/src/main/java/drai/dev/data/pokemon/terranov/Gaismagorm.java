@@ -19,7 +19,7 @@ public class Gaismagorm extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("A gargantuan monster living in the darkest depths since ancient times. It has a symbiotic relationship with the Qurio, and feeds on their life force for energy."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

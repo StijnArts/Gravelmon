@@ -19,7 +19,7 @@ public class Cavident extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("??? go through a rebellious phase in the later years of their lives. They make a mess of their living spaces when their trainers aren't around. Though they may seem mean-spirited, they still very much love their owners."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 22, 45, 1.1, List.of(

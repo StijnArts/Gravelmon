@@ -25,7 +25,7 @@ public class Katybud extends drai.dev.data.pokemon.Pokemon {
                 List.of("It blends into its surroundings, moving only when there is no danger. Its arms and legs are covered in sharp spikes."),
                 List.of(new EvolutionEntry("thornydid", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"23")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 32, 4.4, List.of(

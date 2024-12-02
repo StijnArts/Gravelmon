@@ -24,7 +24,7 @@ public class Absby extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("This Ultra Beast comes from a cutesy world, where it eats everything and anything. Absby has the curious power to absorb and weaponize the essence of what it consumes. It can even transform into other creatures temporarily with this power."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

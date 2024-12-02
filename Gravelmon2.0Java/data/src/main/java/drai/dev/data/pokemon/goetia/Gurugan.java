@@ -25,7 +25,7 @@ public class Gurugan extends drai.dev.data.pokemon.Pokemon {
                 List.of("Its body is soft so it shoots sticky webs from its antennae as defense."),
                 List.of(new EvolutionEntry("guruvelt", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 31, 4.5, List.of(

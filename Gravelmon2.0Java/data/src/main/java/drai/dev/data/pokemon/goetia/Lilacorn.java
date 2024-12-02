@@ -25,7 +25,7 @@ public class Lilacorn extends drai.dev.data.pokemon.Pokemon {
                 List.of("The flowers growing on its back are said to have mystical properties, causing them to have been hunted nearly to extinction."),
                 List.of(new EvolutionEntry("wisterious", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 36, 4.5, List.of(

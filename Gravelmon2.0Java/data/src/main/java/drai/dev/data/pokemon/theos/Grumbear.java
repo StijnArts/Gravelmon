@@ -24,7 +24,7 @@ public class Grumbear extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("The only time Grumbear are at peace is when they're hibernating. If awoken too early, they will go into a frenzy attacking everything they see."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -24,7 +24,7 @@ public class Mimosape extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Often mistaken for a grass type, as its body is made to blend into the foliage around it. Mimosape give off a soporific aroma, letting it leisurely feast on other's memories, leaving them lost when they wake."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

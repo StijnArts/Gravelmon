@@ -19,7 +19,7 @@ public class Theftidee extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It stays transformed for so long, it may start believing itself to be its disguise. Authorities are still searching for a child who was revealed as a Theftidee one day."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 37, 52, .15, List.of(

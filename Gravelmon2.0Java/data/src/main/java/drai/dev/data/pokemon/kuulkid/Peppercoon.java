@@ -25,7 +25,7 @@ public class Peppercoon extends drai.dev.data.pokemon.Pokemon {
                 List.of("he source of Peppercoon's firey attacks come from its bushy tail, which glows a bright amber as it heats up. Trainers often have a hard time keeping a Peppercoons as they are always running off to explore their surroundings."),
                 List.of(new EvolutionEntry("krakoon", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(

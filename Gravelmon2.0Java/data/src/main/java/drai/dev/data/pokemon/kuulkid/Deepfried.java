@@ -24,7 +24,7 @@ public class Deepfried extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("The metallic armour that develops on Deepfried helps them control their unstable amounts of electricity. The electrical follicles protruding from their tops are highly dangerous when touched."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 28, 41, .6, List.of(

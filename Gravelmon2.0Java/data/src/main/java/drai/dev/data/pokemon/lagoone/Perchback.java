@@ -74,7 +74,7 @@ public class Perchback extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MINERAL),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.LAGOONE),
                 0, List.of(
                 ), SpawnContext.SURFACE, SpawnPool.ULTRA_RARE, 33, 65, .4, List.of(

@@ -24,7 +24,7 @@ public class Getzawyrm extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("As the symbiotic relationship reaches full potential, getzawyrms take on their dragon form, its minds fully merged and ferocious."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TOKAS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

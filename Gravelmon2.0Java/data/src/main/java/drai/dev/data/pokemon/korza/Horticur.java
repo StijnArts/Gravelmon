@@ -24,7 +24,7 @@ public class Horticur extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Once in a pack, Horticur becomes overconfident and antagonizes anything which trespasses into its territory. Though difficult to form, bonds made with this mon can never be broken."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

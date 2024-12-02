@@ -19,7 +19,7 @@ public class Pestileon extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("If you ever stumble across a Pestileon in the desert night or inside an old crypt, you are in bad luck. This Pokémon will always point you in the wrong direction with its long, pointy ears. Spending too much time with Pestileon will make you very sick. It is highly associated with plagues and is often the cause behind them."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 11, 35, .4, List.of(

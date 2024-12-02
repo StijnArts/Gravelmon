@@ -24,7 +24,7 @@ public class Pawoe extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Pawoe cry about anything, often creating situations to cry over on purpose. Their wails can be heard on quiet nights, sounding far away even if they're right beside you."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -25,7 +25,7 @@ public class Woomask extends drai.dev.data.pokemon.Pokemon {
                 List.of("Whenever a child gets lost in the wilderness, never to return, a Woomask may be found. If found, the finder must bring this mask Pokémon to the closest village. Then, the story has to be told to all children around so that they can bring this Pokémon through the land in the future to come."),
                 List.of(new EvolutionEntry("madogo", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"cobblemon:dusk_stone")),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 35, 1.3, List.of(

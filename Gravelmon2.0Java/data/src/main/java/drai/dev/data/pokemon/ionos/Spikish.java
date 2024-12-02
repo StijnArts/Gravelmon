@@ -25,7 +25,7 @@ public class Spikish extends drai.dev.data.pokemon.Pokemon {
                 List.of("Being the most common water living Pokémon in Ionia, Spikish also causes problems. The spiky fins on its body leaves rather itchy rashes and scratches."),
                 List.of(new EvolutionEntry("nommogo", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"cobblemon:leaf_stone")),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 13, 32, 4.4, List.of(

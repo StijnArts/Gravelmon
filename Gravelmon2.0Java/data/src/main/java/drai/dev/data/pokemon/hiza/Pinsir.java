@@ -24,7 +24,7 @@ public class Pinsir extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.BUG),
                 List.of("It can be seem sharpening its pincers on rocks and trees. Unlike its Kantonian form, it specializes in cutting instead of crushing."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.HIZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -24,7 +24,7 @@ public class Bellustria extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Bellustria's fragrant nectar is incredibly intoxicating. Groups will share nectar with each other in nightly reveries, singing and dancing in small forest clearings. Those that have tried joining one claim that, the closer they got, the farther it seemed to be, and end up lost."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -19,7 +19,7 @@ public class Nobull extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Nobull have had a bad reputation in the past due to appearance, but have proved themselves to be quite kind."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 53, .5, List.of(

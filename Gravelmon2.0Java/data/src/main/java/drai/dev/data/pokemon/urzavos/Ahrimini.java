@@ -19,7 +19,7 @@ public class Ahrimini extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FLYING,EggGroup.MONSTER),
                 List.of("Ahrimini often paralyze their prey with a striking glare before swooping in to attack them with its small, sharp claws."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.URZAVOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

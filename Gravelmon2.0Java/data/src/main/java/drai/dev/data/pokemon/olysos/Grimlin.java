@@ -24,7 +24,7 @@ public class Grimlin extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MONSTER),
                 List.of("Its oversized nose is a keen sensor, allowing it to sniff out potential prey or hidden treasures. Known for its aggressive nature, Grimlin is often spotted ambushing unsuspecting targets, stealing items, or playfully hurling rocks at travelers and reveling in their reactions."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OLYSOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

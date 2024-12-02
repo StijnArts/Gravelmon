@@ -19,7 +19,7 @@ public class Burstank extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Volatile chemicals in its abdomen are combined together to create explosive blasts. It may detonate if it becomes even slightly angered."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 45, 2.2, List.of(

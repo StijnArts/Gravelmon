@@ -27,7 +27,7 @@ public class Takoyuki extends drai.dev.data.pokemon.Pokemon {
                         List.of(),List.of(),"cobblemon:ice_stone"),
                         new EvolutionEntry("dangoceras", EvolutionType.ITEM_INTERACT, false, List.of(),
                                 List.of(),List.of(),"cobblemon:shiny_stone")),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CROZOIC),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 23, 47, 5.1, List.of(

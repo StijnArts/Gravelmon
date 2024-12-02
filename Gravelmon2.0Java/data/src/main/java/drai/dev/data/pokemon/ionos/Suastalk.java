@@ -19,7 +19,7 @@ public class Suastalk extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Stalking both people and Pokémon, it never means any harm. Suastalk is however easily caught sneaking around due to its terrible stench of fermented berries."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 41, 1.4, List.of(

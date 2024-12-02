@@ -29,7 +29,7 @@ public class Kangabo extends drai.dev.data.pokemon.Pokemon {
                         new EvolutionEntry("kangatank", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"200"),
                                         new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.FORM),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 2, 25, 5, List.of(

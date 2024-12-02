@@ -24,7 +24,7 @@ public class Furycane extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.DRAGON),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.LAGOONE),
                 0, List.of(
                 ), SpawnContext.SURFACE, SpawnPool.RARE, 40, 61, .5, List.of(

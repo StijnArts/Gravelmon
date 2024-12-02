@@ -19,7 +19,7 @@ public class Tuskoble extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Tuskoble is a majestic Pokemon with hide as hard as steel, immortalized centuries ago in medieval heraldry but thought to be mere legend until recently. It has a friendly disposition and appears before those who are pure of heart. It should not be underestimated though, as it fights for justice using its massive tusks."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 41, 54, .33, List.of(

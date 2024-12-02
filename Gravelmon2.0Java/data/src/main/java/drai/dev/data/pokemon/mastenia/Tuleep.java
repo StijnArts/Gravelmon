@@ -27,7 +27,7 @@ public class Tuleep extends drai.dev.data.pokemon.Pokemon {
                         List.of(),List.of(),"cobblemon:leaf_stone"),
                         new EvolutionEntry("terrainiac", EvolutionType.ITEM_INTERACT, false, List.of(),
                                 List.of(),List.of(),"cobblemon:dusk_stone")),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MASTENIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 21, 42, 1, List.of(

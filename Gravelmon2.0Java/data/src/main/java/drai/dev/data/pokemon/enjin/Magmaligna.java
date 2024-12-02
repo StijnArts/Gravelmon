@@ -19,7 +19,7 @@ public class Magmaligna extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD,EggGroup.DRAGON),
                 List.of("Added Oct 27 2021 Etymology: magma + [???] Evo line: Complete Origin: Created by JaneJewel for the April 2020 Around The World Fakeathon Day 4 prompt, Mexico"),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ENJIN),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 61, 1.1, List.of(

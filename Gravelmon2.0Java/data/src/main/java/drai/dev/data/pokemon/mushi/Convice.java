@@ -24,7 +24,7 @@ public class Convice extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.BUG),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MUSHI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 42, 1.1, List.of(

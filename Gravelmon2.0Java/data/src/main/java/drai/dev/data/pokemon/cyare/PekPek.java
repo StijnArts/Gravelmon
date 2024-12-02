@@ -25,7 +25,7 @@ public class PekPek extends drai.dev.data.pokemon.Pokemon {
                 List.of("Pek-Pek are extremely common in dark caves where nothing can be seen. They have supersonic hearing and night vision and use this to their advantage against others in the caves."),
                 List.of(new EvolutionEntry("vampeka", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"19")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 7, 23, 3.8, List.of(

@@ -24,7 +24,7 @@ public class Nayver extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("This Ultra Beast commands total control of its world's water. Nayver becomes nearly invisible when submerged in water, with only its neck staying solid and its body patterns eerily glowing."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

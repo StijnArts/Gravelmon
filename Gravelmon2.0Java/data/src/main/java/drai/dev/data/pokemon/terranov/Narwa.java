@@ -19,7 +19,7 @@ public class Narwa extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("An elder dragon and Wind Serpent Ibushi's 'queen.' Its thundersacs glow with accumulated electrical charge; it is thought that these organs therefore generate the powerful magnetic field that lifts the creature and anything around it high into the air."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

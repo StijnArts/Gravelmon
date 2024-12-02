@@ -19,7 +19,7 @@ public class Lorable extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Lorable lives in trees, emerging at night to hunt insects. Despite its cute appearance, it produces a powerful toxin in its horn and should not be allowed near small children."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 41, 1.7, List.of(

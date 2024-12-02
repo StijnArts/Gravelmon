@@ -24,7 +24,7 @@ public class GreatIzuchi extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("They live in small groups, leading three other Izuchi. They are extremely intelligent and organized while hunting as they can perfectly coordenate their movement and attacks with each other."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

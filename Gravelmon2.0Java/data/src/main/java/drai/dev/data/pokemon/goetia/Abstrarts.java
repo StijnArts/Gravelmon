@@ -19,7 +19,7 @@ public class Abstrarts extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("A bizarre being that rumor says can peer into alternate dimensions. Gazing into its mirrors traps you in illusions of your past."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 31, 54, .7, List.of(

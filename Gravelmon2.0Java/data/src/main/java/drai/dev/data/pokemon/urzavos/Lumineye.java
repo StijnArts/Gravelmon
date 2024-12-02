@@ -24,7 +24,7 @@ public class Lumineye extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("When enough Luminlite and Luminlux gather, they form Lumineye - A giant colony that thinks as one entity. Their harsh beam of light stuns any unfortunate enough to be caught in it. It can see through walls and solid stone for miles."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.URZAVOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

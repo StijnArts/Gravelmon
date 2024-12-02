@@ -24,7 +24,7 @@ public class Eluskeeter extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Eluskeeter are feared for their hypnotic powers and lust for blood. A single Eluskeeter can take enough blood from a victim to disable them for days, but the blood she takes can feed her babies for a very long time."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

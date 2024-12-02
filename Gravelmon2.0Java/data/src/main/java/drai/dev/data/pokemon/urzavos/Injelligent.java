@@ -19,7 +19,7 @@ public class Injelligent extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_3),
                 List.of("Cold and calculating, this 'Mon will not hesitate to bring down a foe by any means necessary. It often times itself to see just how fast it can dispatch its opponents, and often treats battling like solving a puzzle."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.URZAVOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

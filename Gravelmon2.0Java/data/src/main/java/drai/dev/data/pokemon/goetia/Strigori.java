@@ -25,7 +25,7 @@ public class Strigori extends drai.dev.data.pokemon.Pokemon {
                 List.of("It resides in abandoned buildings like old castles, where no one can disturb its brooding. It shields itself from the light with its cape-like wings."),
                 List.of(new EvolutionEntry("demontor", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"43")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 28, 45, 1.2, List.of(

@@ -24,7 +24,7 @@ public class Cactrian extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD),
                 List.of("The cacti on their backs are filled with water reserves, making them very hardy and capable of going a long time without food or water. If angered, they flail their necks around in an attempt to hit anyone around them with their thorns."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ARISTOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

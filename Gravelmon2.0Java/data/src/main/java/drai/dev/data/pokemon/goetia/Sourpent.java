@@ -19,7 +19,7 @@ public class Sourpent extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It grows a fruit that curses whoever eats it with aches, pains, and chronic conditions. It has innate knowledge of herbalism and tailors each fruit’s effect by absorbing different chemical compounds from nature."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 55, 65, .01, List.of(

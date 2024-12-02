@@ -19,7 +19,7 @@ public class Forowl extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FLYING),
                 List.of("Forowl is an expert at catching prey in the dark. This Pokémon's success is due to its exceptional vision, which helps it to see in low light, and its delicate, supple wings, which fly silently."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

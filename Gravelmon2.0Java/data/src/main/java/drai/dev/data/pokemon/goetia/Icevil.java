@@ -25,11 +25,12 @@ public class Icevil extends drai.dev.data.pokemon.Pokemon {
                 List.of("Icevil, the Frostbite Pokemon. It clamps down on anything that moves in the frozen tundra. If it bites a metal pole, its tongue will get stuck."),
                 List.of(new EvolutionEntry("thycicle", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 37, 4.5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST))
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

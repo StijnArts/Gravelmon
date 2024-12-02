@@ -19,7 +19,7 @@ public class Maraudair extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Historically, pirates owned Maraudair. They have an uncanny ability to detect even the tiniest gleam of riches from hundreds of kilometres away. Their treasures are strewn around their dens."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

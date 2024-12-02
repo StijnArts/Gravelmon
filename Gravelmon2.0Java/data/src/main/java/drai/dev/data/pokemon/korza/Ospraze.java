@@ -24,7 +24,7 @@ public class Ospraze extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("The undisputed ace of the Korzan skies. Its speed, agility, and deadly accuracy are unmatched. Ospraze tend to live around bodies of water, where it can hunt its prey like- literally and figuratively- fish in a barrel."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

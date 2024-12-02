@@ -25,7 +25,7 @@ public class Chainect extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("These Pokemon are being used to run small facilities and are used in tests regarding space-flight products. They feed on electricity by draining them from many sources. Chainect connect with other Chainect to transfer electricity."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

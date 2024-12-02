@@ -24,7 +24,7 @@ public class Crushaur extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Dragite evolves into Crushaur after eating all the pebbles surrounding its collar. Crushaur's jaw strength is incredible, allowing it to crack open even the toughest mineral deposits. Unfortunately, once they begin eating, they will not stop until they are completely satisfied, resulting in a hefty frame."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

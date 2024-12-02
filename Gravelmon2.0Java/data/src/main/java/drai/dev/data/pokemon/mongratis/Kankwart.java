@@ -24,7 +24,7 @@ public class Kankwart extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("The gemstones growing on its body are the result of exposure to an infectious agent. Over time more boils will emerge as more of its body becomes crystallized."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

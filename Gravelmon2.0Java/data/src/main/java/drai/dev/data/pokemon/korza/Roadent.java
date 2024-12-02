@@ -24,7 +24,7 @@ public class Roadent extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD),
                 List.of("Often crosses roads and routes with heavy traffic as a test of speed and skill. Its hide, on its own, isn't strong enough to protect from any collisions."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -19,7 +19,7 @@ public class Khezu extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Loathsome wyverns that dwell in caves and other dark places. All but blind, Khezu hunt by smell, using electric shocks to paralyze their prey before pouncing on them from the walls or ceiling."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

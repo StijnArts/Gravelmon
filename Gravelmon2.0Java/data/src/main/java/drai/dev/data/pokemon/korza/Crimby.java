@@ -24,7 +24,7 @@ public class Crimby extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("Crimby's body is very elastic and can absorb a lot of small damage. Radiates a lot of heat, making its body warm to the touch."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

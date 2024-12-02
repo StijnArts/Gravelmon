@@ -24,7 +24,7 @@ public class Teruhog extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Its fur has many more spots built for converting solar energy compared to its younger self. Teruhog now live in fields instead of around trees, to help maximize sunlight exposure."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

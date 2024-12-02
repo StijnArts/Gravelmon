@@ -24,7 +24,7 @@ public class Barrelape extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("As an act of aggression, this pokemon will violently beat its chest with its sturdy armoured hands, creating a sound similar to bongos. This pokemon will hoard large amounts of Nanab berries in their dens which they will defend with their life."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 33, 54, .3, List.of(

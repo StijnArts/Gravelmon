@@ -24,7 +24,7 @@ public class Artilloid extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Artilloid's hard plates allow it to lock in place and build up incredible pressure. The elastic body then allows its head to shoot outward with incredible speed, once that pressure is released."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -24,7 +24,7 @@ public class Furrbee extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.BUG),
                 List.of("According to several Pokefans, Furrbee make the greatest pollen of all Pokémon. Pollen from Furrbee is utilised in both human and Pokémon dishes."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 21, 43, 1, List.of(

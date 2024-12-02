@@ -25,7 +25,7 @@ public class Dasypudge extends drai.dev.data.pokemon.Pokemon {
                 List.of("Dasypudge's armor is not fully developed, so if it is attacked, it will curl into a ball and roll away."),
                 List.of(new EvolutionEntry("armordillo", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(

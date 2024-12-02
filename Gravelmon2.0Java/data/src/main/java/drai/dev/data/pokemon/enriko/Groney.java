@@ -24,7 +24,7 @@ public class Groney extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MONSTER,EggGroup.AMORPHOUS),
                 List.of("(Hemo type.) It swims through pools of ground meat like an eel in water. Occasionally a segment of its body pinches and breaks off, happening about four times a day."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ENRIKO, Label.JOKE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

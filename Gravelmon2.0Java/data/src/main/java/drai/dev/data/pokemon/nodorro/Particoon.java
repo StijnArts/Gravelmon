@@ -24,7 +24,7 @@ public class Particoon extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It has always been believed that this Pokemon has strong connections to the moon. As such, ancient cultures would keep and praise these Pokemon in hopes of appeasing the god of night."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.NODORRO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -25,7 +25,7 @@ public class Geohertoad extends drai.dev.data.pokemon.Pokemon {
                 List.of("Its body is covered by lightweight lava rock, making it possible for Geohertoad to ascend to the surface. Beware, S.S. Cactus."),
                 List.of(new EvolutionEntry("phrynotoad", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 20, 41, 1.1, List.of(

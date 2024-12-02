@@ -24,7 +24,7 @@ public class Urzap extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD),
                 List.of("Their fur seems to always be standing on end from how much static is stored in it. When they encounter a problem they cannot solve, they will heat their claws up and destroy said problem."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.URZAVOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

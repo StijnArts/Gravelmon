@@ -19,7 +19,7 @@ public class Volchemo extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Tublip are often found attached to Volchemo, blooming in order to feed off chemicals in its smoke. In exchange they allow Volchemo access to moves such as Ingrain, Synthesis and Giga Drain."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 41, 54, .4, List.of(

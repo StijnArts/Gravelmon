@@ -19,11 +19,12 @@ public class Alpaline extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Alpaline is a diehard fighter, and never gives up. It uses its claws, paws, mouth, and tail in battle."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 51, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST))
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

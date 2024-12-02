@@ -79,7 +79,7 @@ public class Dwarvnir extends drai.dev.data.pokemon.Pokemon {
                                 new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night"),
                                 new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:kings_rock\""),
                                 new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.BAGO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 35, 4.4, List.of(

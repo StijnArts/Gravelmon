@@ -25,7 +25,7 @@ public class Suglide extends drai.dev.data.pokemon.Pokemon {
                 List.of("It uses a cape of fur to fly through the trees. They huddle for warmth during snowstorms."),
                 List.of(new EvolutionEntry("coolugo", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 27, 4.4, List.of(

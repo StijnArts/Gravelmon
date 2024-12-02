@@ -19,7 +19,7 @@ public class Hiruleech extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It emerges from the swamp at night to search for fresh blood. Because it has no bones, it can squeeze under doors without difficulty."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 22, 41, .5, List.of(

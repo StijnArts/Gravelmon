@@ -24,7 +24,7 @@ public class Charnosaur extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MONSTER),
                 List.of("Charnosaur's smoke is as hot as fire itself. It can spew red-hot magma from its maw for self-defense."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ISIAH),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

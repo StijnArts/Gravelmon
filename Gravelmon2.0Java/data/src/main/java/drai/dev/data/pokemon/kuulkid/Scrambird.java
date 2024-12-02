@@ -25,7 +25,7 @@ public class Scrambird extends drai.dev.data.pokemon.Pokemon {
                 List.of("This pokemon is cloaked in a warm, pleasant aroma that often attracts the attention of small bug-type pokemon, making finding food for Scrambirds relatively easy."),
                 List.of(new EvolutionEntry("omeledoodle", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 15, 38, 1.1, List.of(

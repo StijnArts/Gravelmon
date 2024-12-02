@@ -26,7 +26,7 @@ public class Kippsie extends drai.dev.data.pokemon.Pokemon {
                 List.of("Kippsie use their fins to propel themselves out of the water. It is all Kippsie's dreams to fly and they will spend their entire lives trying."),
                 List.of(new EvolutionEntry("soarine", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.FLY.getName()+"\"")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 13, 41, 4.5, List.of(

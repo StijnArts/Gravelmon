@@ -25,7 +25,7 @@ public class Minicoo extends drai.dev.data.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("nimbuzz", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MUSHI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 2, 24, 3.7, List.of(

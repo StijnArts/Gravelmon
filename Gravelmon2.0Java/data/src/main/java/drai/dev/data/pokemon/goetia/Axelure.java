@@ -19,7 +19,7 @@ public class Axelure extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Pokemon in the deep sea sometimes find a small, glowing figure and come closer to play with it, only to get dragged into an Angelure’s jaws."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 23, 47, 2.1, List.of(

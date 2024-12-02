@@ -24,7 +24,7 @@ public class Taramby extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD),
                 List.of("Taramby playfully ram their horns against each other. After tiring themselves out, they like to sleep atop trees. They have a need to keep their habitat clean."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.AVORIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

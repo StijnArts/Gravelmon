@@ -24,7 +24,7 @@ public class Punchit extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("Often found wearing heavy bands on the wrists and ankles for weight training. Becoming stronger is Punchit's goal, but the small mon becomes overexerted easily."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

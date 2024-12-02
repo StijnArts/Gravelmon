@@ -24,7 +24,7 @@ public class Tolore extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.DRAGON),
                 List.of("Dolls of this mon are a common children's toy. Tolore are nearly impossible to find in the wild, only observed during exceptionally powerful thunderstorms, playing in the downpour."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -19,7 +19,7 @@ public class Mummoth extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Archaeologists attempting to claim the riches of an ancient temple incurred its wrath. Although slow and lumbering, it pursues its target relentlessly"),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 35, 58, .4, List.of(

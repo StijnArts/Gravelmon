@@ -24,7 +24,7 @@ public class Wareteef extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MINERAL),
                 List.of("An Osnap that has become corrupted and unable to contain itself or control its actions. Though dangerous to be around, this pokemon still want to make people happy."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

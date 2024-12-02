@@ -24,7 +24,7 @@ public class Turtlantis extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Once a common sight in the oceans surrounding Orbopolis; Turtlantis have dwindled in numbers due to the presence of plastic bags in the ocean. They are unable to differentiate between their main prey and Plastic bags due to human interference."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ORBIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

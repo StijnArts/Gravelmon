@@ -24,7 +24,7 @@ public class Flittervolt extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FLYING,EggGroup.FIELD),
                 List.of("A Pokémon with a body that resembles cottony clouds. They look for food when the weather is stormy, when most Pokémon would hide."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

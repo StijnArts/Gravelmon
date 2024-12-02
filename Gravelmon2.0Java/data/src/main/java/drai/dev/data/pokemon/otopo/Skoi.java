@@ -24,7 +24,7 @@ public class Skoi extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Skoi can travel at breakneck speeds despite its massive bulk. Skoi is utilised as a mode of transportation by certain trainers in Otopo."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

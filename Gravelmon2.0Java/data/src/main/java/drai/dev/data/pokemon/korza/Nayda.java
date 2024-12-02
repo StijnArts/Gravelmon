@@ -24,7 +24,7 @@ public class Nayda extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("An Ultra Beast born outside of its original home. Nayda's presence commands the same treatment as the highest royalty. Its body gives off a deathly chill."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

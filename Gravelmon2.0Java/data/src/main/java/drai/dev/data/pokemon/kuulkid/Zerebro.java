@@ -24,7 +24,7 @@ public class Zerebro extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Zerebros have harnessed the headaches caused by the ice-cold syrup that secretes from their heads to fire off powerful psychic attacks. Migrating Zerebros leave a distinct red trail behind them wherever they go."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 33, 54, .3, List.of(

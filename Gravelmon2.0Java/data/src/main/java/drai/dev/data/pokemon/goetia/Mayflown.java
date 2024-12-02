@@ -19,7 +19,7 @@ public class Mayflown extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("They emerge in the millions every spring, becoming an ample food source for many fish pokemon. Although small and frail, its tenacious life force is not to be underestimated."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 32, 2.4, List.of(

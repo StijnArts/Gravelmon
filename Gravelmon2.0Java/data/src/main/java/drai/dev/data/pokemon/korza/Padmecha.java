@@ -24,7 +24,7 @@ public class Padmecha extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Padmecha bore through the ground in search of water caverns, using sensors in their nose to detect their surroundings. Their bodies are not built for being aboveground, and have adapted to floating when needed."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

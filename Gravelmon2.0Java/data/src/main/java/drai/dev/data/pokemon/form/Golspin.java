@@ -25,7 +25,7 @@ public class Golspin extends drai.dev.data.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("golbeast", EvolutionType.TRADE, List.of(),
                         List.of())),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.FORM),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 24, 45, 2, List.of(

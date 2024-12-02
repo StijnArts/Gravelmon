@@ -24,7 +24,7 @@ public class Ichorot extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.GRASS),
                 List.of("Ichorot love to hang around in spooky forests and graveyards, gobbling up whatever debris is left behind. The ooze around the bottom of their mouths is foul, and not recommended for contact with skin."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.URZAVOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

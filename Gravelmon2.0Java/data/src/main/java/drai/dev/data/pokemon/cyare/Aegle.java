@@ -25,7 +25,7 @@ public class Aegle extends drai.dev.data.pokemon.Pokemon {
                 List.of("Though incredibly simple, Aegle have a honorable sense of what's right and wrong. They love to bring food they catch to their nests, which they perch on the highest cliff faces."),
                 List.of(new EvolutionEntry("eaglory", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 34, 3, List.of(

@@ -24,7 +24,7 @@ public class Toxiscore extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("They secrete venom from their sharp claws and tail. The flames they emit may also contain toxins. Being a combination of fire and poison proves them to be a deadly weapon, as their attacks can leave severe toxic burns. Toxiscore are known to harbor resentment toward people who mistreat them. As it grows more rage, so does the heat of their fire. These Pokémon are cunning and sly, strategizing their attacks in advance."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.AVORIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

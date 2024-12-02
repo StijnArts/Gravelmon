@@ -24,7 +24,7 @@ public class Sleetus extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Its true body is the red, wormlike thing. It is surrounded by a pink gel with strange properties, causing divers to see it as a harmless fish so it can suck their blood."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ENRIKO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -24,7 +24,7 @@ public class Mimicreep extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Mimicreep prefer to live in dark areas, where the orbs on its head glow enticingly, appearing almost like jewels in the low light. Some claim that it gains an orb for each soul it's taken."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

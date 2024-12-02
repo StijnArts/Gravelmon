@@ -24,7 +24,7 @@ public class Barode extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MINERAL),
                 List.of("Barode's hard teeth are specialized for scrayquaza minerals off of stalagmites. Jewel maniacs used to poach them for their teeth, but this practice has since been banned."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

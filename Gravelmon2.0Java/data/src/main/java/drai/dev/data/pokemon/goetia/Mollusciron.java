@@ -19,7 +19,7 @@ public class Mollusciron extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Its shell, made of layers of different hazardous metals, is nearly impervious to damage and it shrugs off even the most brutal attacks like nothing. It makes pilgrimages to lava flows at the bottom of the ocean to reinforce its armor."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 32, 54, .5, List.of(

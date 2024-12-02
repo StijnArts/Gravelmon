@@ -25,7 +25,7 @@ public class Balloony extends drai.dev.data.pokemon.Pokemon {
                 List.of("Balloony, the Balloon Pokemon. It generates an electric charge by rubbing against objects. Without this, it cannot fly and will lay on the ground deflated."),
                 List.of(new EvolutionEntry("derangible", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 13, 35, 4, List.of(

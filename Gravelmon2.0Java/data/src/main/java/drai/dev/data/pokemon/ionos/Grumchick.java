@@ -25,7 +25,7 @@ public class Grumchick extends drai.dev.data.pokemon.Pokemon {
                 List.of("Grumchick constantly fights brutally with its siblings. The one who’s proven to be the strongest is worthy to stay with its parents."),
                 List.of(new EvolutionEntry("horribill", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 34, 4, List.of(

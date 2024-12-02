@@ -25,7 +25,7 @@ public class Shockter extends drai.dev.data.pokemon.Pokemon {
                 List.of("It uses its special “Heart Monitor” organ to read electrical signals inside the body. Its high intellect allows it to learn medicine with ease, and even read and write human languages. However, its penmanship is atrocious."),
                 List.of(new EvolutionEntry("surgeon", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 11, 37, 3.8, List.of(

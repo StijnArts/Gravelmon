@@ -24,7 +24,7 @@ public class Rascat extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD),
                 List.of("These sly Pokémon sneak around, believing themselves to be invisible, when they are actually very much visible and adorable. Some people believe them to be omens of bad luck, but this is just superstition."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.PASTEL_ISLAND),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

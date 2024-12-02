@@ -24,7 +24,7 @@ public class TheossianBellsprout extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Theosian Bellsprout are much more vicious than other Bellsprout. Due to their darker nature, people try and avoid them as they're quick to lash out against anything that get close."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

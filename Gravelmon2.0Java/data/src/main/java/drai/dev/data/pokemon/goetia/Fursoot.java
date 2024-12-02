@@ -25,7 +25,7 @@ public class Fursoot extends drai.dev.data.pokemon.Pokemon {
                 List.of("Dust gets trapped in its fur, making it bad for trainers with allergies. It closes its false mouth to hide when scared."),
                 List.of(new EvolutionEntry("lousidogg", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"21")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 33, 4.4, List.of(

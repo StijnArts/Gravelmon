@@ -24,7 +24,7 @@ public class Grizzle extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Grizzle are quite grumpy. They can be found stomping through the woods destroying small trees and rocks."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

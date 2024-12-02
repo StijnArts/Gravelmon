@@ -24,7 +24,7 @@ public class Trackill extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Capable of sniping foes from a distance, or taking them down in hand-to-hand combat. Losing its camouflage pattern upon evolution, Trackill cover themselves in mud and weeds to blend into their surroundings."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

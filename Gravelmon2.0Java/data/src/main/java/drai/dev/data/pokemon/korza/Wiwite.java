@@ -24,7 +24,7 @@ public class Wiwite extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("The soft, downy wings allow Wiwite to lazily drift through the wind, or to swim along the water's surface. As long as its armored body stays safe, it can regrow these wings indefinitely- which predators take advantage of."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

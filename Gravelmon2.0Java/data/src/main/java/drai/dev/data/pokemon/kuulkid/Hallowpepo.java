@@ -26,7 +26,7 @@ public class Hallowpepo extends drai.dev.data.pokemon.Pokemon {
                 List.of(new EvolutionEntry("decaith", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
                                 new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "night")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 37, 4, List.of(

@@ -25,7 +25,7 @@ public class Mudpole extends drai.dev.data.pokemon.Pokemon {
                 List.of("It lives in mud, which it absorbs into a second skin. The mud forms blisters that are filled with poison, and if any Pokemon bites into it, they will be knocked out cold."),
                 List.of(new EvolutionEntry("sapuddle", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OKENO),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 3, 24, 3.8, List.of(

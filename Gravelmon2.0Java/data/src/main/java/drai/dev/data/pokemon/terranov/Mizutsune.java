@@ -24,7 +24,7 @@ public class Mizutsune extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Mizutsune are actually not very aggressive, but will go out on a rampage during mating seasons. They can create and spread bubbles which can slow down and cause their foes to trip."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

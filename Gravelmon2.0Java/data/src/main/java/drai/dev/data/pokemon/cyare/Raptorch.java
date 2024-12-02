@@ -25,7 +25,7 @@ public class Raptorch extends drai.dev.data.pokemon.Pokemon {
                 List.of("Raptorch's diet consists of meat and iron-ore. When it has eaten enough ore, it will evolve. This Pokémon has great eyesight and a vicious appetite."),
                 List.of(new EvolutionEntry("velosickle", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 41, 4, List.of(

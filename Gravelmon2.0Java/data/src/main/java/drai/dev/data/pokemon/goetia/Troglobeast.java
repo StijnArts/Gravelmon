@@ -19,7 +19,7 @@ public class Troglobeast extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Both heads believe they are the true one and the other is a fake. If an intruder enters their cavern, the heads will cooperate to tear it apart."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 37, 56, .1, List.of(

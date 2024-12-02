@@ -24,7 +24,7 @@ public class Bonferno extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Normally radiating an intense heat, this mon can dull itself to be warm to the touch. Its flame can never go out, requiring a constant fuel source. Without something for energy, the flame burns away at Bonferno's own body."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

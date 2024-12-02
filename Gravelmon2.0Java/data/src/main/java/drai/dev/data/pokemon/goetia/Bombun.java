@@ -19,7 +19,7 @@ public class Bombun extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Rarely seen outside of captivity, it lacks wings but makes up for it by jumping with its powerful legs. The fur around its neck is some of the finest in the world."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 24, 47, .2, List.of(

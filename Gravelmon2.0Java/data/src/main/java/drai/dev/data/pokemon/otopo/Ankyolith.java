@@ -24,7 +24,7 @@ public class Ankyolith extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MONSTER),
                 List.of("After hundreds of encounters, Ankarmor evolves into Ankyolith, as a result of being subjected to harsh assaults. It utilises its mace-tipped tail to defend itself as well as strike its foes."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

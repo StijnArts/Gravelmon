@@ -24,7 +24,7 @@ public class Mulic extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD),
                 List.of("Mulic are renowned for having a stubborn disposition, but also being hard workers. When tired, they can keep working using telekinetic power."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

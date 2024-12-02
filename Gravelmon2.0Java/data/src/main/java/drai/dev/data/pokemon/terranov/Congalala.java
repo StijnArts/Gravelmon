@@ -19,7 +19,7 @@ public class Congalala extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Large, pink-furred Fanged Beasts with an incredible appetite - especially for mushrooms, which the monster often carries around with them. They let rip almighty farts, the stench of which overwhelms opponents."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

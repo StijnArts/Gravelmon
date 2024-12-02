@@ -24,7 +24,7 @@ public class Glice extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Found hidden in dips of trails and roads, away from lights that give away their positoin. Many accidents occur from drivers, riders, and pedestrians not seeing Glice hidden in the road."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

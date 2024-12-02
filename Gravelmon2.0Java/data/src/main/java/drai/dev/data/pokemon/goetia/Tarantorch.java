@@ -25,7 +25,7 @@ public class Tarantorch extends drai.dev.data.pokemon.Pokemon {
                 List.of("It ignites the hairs on its abdomen before throwing them like projectiles. It may end up bald after an arduous battle, but the hairs grow back."),
                 List.of(new EvolutionEntry("charantula", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 40, 0.9, List.of(

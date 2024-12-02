@@ -19,7 +19,7 @@ public class Grunjerk extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("When a Grunje becomes brave enough to stand up for its friends, it evolves into Grunjerk. Despite its newfound sense of valor and brotherhood, it is still a derelict troublemaker."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 24, 45, .5, List.of(

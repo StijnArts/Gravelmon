@@ -24,7 +24,7 @@ public class Falin extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("An Ultra Beast born outside of its original home. Falin's hidden blades are incredibly sharp, and lie in wait for the perfect moment to strike its foes. It has the presence of a true hero."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

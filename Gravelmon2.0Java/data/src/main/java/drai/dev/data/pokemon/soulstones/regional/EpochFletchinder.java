@@ -102,7 +102,8 @@ public class EpochFletchinder extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.SOULSTONES),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 17, 32, 1.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST))
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -24,7 +24,7 @@ public class Wigdig extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Wigdig surface when it rains, as the water suffocates them underground. Moving in a circular motion helps them to steadily dig through the earth."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

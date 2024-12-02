@@ -24,7 +24,7 @@ public class Diplague extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Where they travel, death follows. Ancient dead wetlands are believed to be Diplague nesting grounds, as they very rarely show signs of other life."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

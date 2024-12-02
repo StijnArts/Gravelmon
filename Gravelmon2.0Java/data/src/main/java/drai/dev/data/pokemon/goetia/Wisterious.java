@@ -19,7 +19,7 @@ public class Wisterious extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Incredibly rare, it only appears before those who are pure of heart and will abandon those with ill intent. The greatest possible blessing is a special aroma from its flowers which induces feelings of euphoria. Although capable of great power, it abhors violence and is incredibly gentle and graceful."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 48, 1.1, List.of(

@@ -24,7 +24,7 @@ public class Trimmet extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FLYING),
                 List.of("Its small, light body allows it to hop around jungle canopies with ease. Its resemblance to a flower often helps to camouflage it from predators and also caused researchers to initially mistake it for Glimmet."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.VARITAS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

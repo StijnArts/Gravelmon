@@ -24,7 +24,7 @@ public class Cotteeny extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("This mon's appearance resembles a soft fluffy pillow. However, it would be more accurate to describe it as a seedpod, with sweet tasting seeds all around its fluff."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MYSTIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

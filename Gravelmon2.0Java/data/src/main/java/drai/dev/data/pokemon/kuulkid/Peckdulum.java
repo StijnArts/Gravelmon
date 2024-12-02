@@ -74,7 +74,7 @@ public class Peckdulum extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Scientists still question how this pokemon is able to fly with its hefty steel tail. At the stroke of midnight, Peckdulums will send out a call that is comparable to the chime of a large bell."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 22, 51, .9, List.of(

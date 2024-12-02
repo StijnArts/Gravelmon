@@ -24,7 +24,7 @@ public class Defendron extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("With unrivaled durability, Defendron are believed to have been very docile with no real predators. Modern science has still not found a way to replicate its bark alloy."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

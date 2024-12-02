@@ -24,7 +24,7 @@ public class Wastodon extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Never steal from a Wastodon's junkyard, as they keep track of every piece and will be driven into a fit of rage when anything is out of place. Favorite parts will be incorporated into its armor, leaving the rest to rust before eating."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

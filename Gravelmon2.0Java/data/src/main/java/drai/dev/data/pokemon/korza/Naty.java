@@ -24,7 +24,7 @@ public class Naty extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Small and frail, Naty hide in fields to camouflage. If no fields are available, they will gather in bunches to make their own camouflage together."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

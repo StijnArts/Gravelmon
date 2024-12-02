@@ -25,7 +25,7 @@ public class Sushef extends drai.dev.data.pokemon.Pokemon {
                 List.of("It takes pride in creating delicious food for others. It is common to see several working together under the direction of Grillardin."),
                 List.of(new EvolutionEntry("grillardin", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 31, 4, List.of(

@@ -74,7 +74,7 @@ public class Leapfrogs extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Leapfrogs are paired together at birth and share an unbreakable bond. If one Leapfrog falls, the other will take its place in battle."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 41, 2, List.of(

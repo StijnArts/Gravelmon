@@ -19,7 +19,7 @@ public class Urnada extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Urnada are said to be fountain statues that came to live by a magic spell. Many great powers house in their urns and they have never been spotted without."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 45, 2, List.of(

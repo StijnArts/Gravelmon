@@ -19,7 +19,7 @@ public class Lagombi extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("White fanged beasts with acute hearing and warm pelts adapted to cold climates. They slide around at high speeds without making any noise, allowing them to catch unsuspecting prey. Able to launch blocks of snow at enemies from afar."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

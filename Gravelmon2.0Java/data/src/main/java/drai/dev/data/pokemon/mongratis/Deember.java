@@ -19,7 +19,7 @@ public class Deember extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD,EggGroup.FAIRY),
                 List.of("Concept, Name, Type by Smiley Fakemon Front sprite TheGreatZeKro These designs/sprites are originally from the Fakemon Festival Pack. Evo line: Complete"),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

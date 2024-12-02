@@ -24,7 +24,7 @@ public class Armadealo extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Hired during ancient times as scouts and mercenaries by wealthy families. Breaking a deal with an Armadealo would mean putting your own life at risk."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 53, 0.1, List.of(

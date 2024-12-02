@@ -25,7 +25,7 @@ public class Mustmite extends drai.dev.data.pokemon.Pokemon {
                 List.of("They whip up a cloud of dust, pollen and other particulate matter wherever they go, triggering allergic reactions even in people with no record of allergies. When a large number assembles, it can be impossible to see through the filth."),
                 List.of(new EvolutionEntry("dustmighty", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA, Label.JOKE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 9, 32, 4.6, List.of(

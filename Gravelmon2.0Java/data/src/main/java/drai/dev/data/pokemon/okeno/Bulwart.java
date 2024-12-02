@@ -24,7 +24,7 @@ public class Bulwart extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Although slow-moving, this Pokemon is a formidable foe. Its low-frequency croaking destabilizes the ground, creating a sinkhole, then it lassos its prey with a tongue that can extend almost 3 meters!"),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OKENO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 38, 57, .3, List.of(

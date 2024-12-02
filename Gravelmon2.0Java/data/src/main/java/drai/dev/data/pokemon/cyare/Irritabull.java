@@ -19,7 +19,7 @@ public class Irritabull extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Irritabull were formerly confused with Nobull, causing Nobull's bad reputation. Irritabull angers easily and is difficult to tame."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 53, .5, List.of(

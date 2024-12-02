@@ -24,7 +24,7 @@ public class Kryuu extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("The body temperature is absolutely frigid. It#s scales are impossible to touch, as it immediately turns unfortunate souls to ice."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OLYSOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

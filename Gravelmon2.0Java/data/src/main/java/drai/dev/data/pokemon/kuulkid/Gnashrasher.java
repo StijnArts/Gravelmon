@@ -24,7 +24,7 @@ public class Gnashrasher extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("The heat that eminates from this pokemon's bright orange markings can be altered, allowing them to burn opponents by ramming into them when competing for mates or provide their young with a warm place to sleep during colder months."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 26, 54, .4, List.of(

@@ -25,7 +25,7 @@ public class Ponarian extends drai.dev.data.pokemon.Pokemon {
                 List.of("Ponarian, believed to be among the first Pokemon capable of reproduction. If cut in half, both parts will become a full Ponarian. It has survived for countless eons by adapting its type to match any environment."),
                 List.of(new EvolutionEntry("plakiton", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 23, 4.4, List.of(

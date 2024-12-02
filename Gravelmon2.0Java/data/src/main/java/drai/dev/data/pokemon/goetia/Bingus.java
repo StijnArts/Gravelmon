@@ -25,7 +25,7 @@ public class Bingus extends drai.dev.data.pokemon.Pokemon {
                 List.of("A common garden pest, it uses its horn for self defense."),
                 List.of(new EvolutionEntry("crungus", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"14")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 12, 5.2, List.of(

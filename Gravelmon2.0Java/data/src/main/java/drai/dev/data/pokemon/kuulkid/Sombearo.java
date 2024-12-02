@@ -26,7 +26,7 @@ public class Sombearo extends drai.dev.data.pokemon.Pokemon {
                 List.of(new EvolutionEntry("pandamoley", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
                                 new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(

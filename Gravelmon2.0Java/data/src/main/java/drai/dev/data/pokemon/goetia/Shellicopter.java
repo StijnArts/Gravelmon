@@ -19,7 +19,7 @@ public class Shellicopter extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It takes so much pride in its newfound flight that it ignores how uncontrollable it is. When it crashes, its rapidly-spinning blades cause collateral damage."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 51, .6, List.of(

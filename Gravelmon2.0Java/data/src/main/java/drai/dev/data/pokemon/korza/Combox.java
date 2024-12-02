@@ -24,7 +24,7 @@ public class Combox extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Combox are masters of patience, and are willing to wait for years until someone becomes tempted to hit their body. When its stitching falls apart, Combox will keep itself together through sheer will."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -75,7 +75,7 @@ public class FormanHaunter extends drai.dev.data.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("formangengar", EvolutionType.TRADE, List.of(),
                         List.of())),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.FORM),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 24, 41, 1.76, List.of(

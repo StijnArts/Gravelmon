@@ -19,7 +19,7 @@ public class Tuffettry extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Tuffettry craves excitement. If it encounters a dreary person it will attempt to cheer them by redecorating in bright colors. It is attracted to shiny, brightly-colored objects and prefers trainers who dress fashionably."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

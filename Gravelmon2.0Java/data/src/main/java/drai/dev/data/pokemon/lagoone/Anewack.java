@@ -24,7 +24,7 @@ public class Anewack extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_3),
                 List.of("Its poison and strong tentacles are enough to ward off most predators, but when it needs it can dettach from the ocean floor and swim away from danger."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.LAGOONE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

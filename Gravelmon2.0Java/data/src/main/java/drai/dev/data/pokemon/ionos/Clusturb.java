@@ -25,7 +25,7 @@ public class Clusturb extends drai.dev.data.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("Shortulp", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"cobblemon:thunder_stone")),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 19, 43, 1.2, List.of(

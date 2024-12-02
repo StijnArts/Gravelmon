@@ -24,7 +24,7 @@ public class TheossianSpinarak extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Theosian Spinarak hide out in fields camouflaged as pumpkins. At night, they raid farmer's crops and eat all they can find."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

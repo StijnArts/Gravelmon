@@ -24,7 +24,7 @@ public class Stalittle extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MINERAL),
                 List.of("Sturdy Pokémon that hide in caves full of mineral-rich water. The rocky spikes on their bodies are deposits of this water."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.PASTEL_ISLAND),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

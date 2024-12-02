@@ -19,7 +19,7 @@ public class Tublip extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Tublip, a Pokemon common in the dark trenches. In a world where life is nourished not by sunlight but by sulfur billowing from undersea volcanoes, this Poison-type Pokemon fills a niche normally held by Grass-types. It has a symbiotic relationship with Ventherm."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 21, 45, 2, List.of(

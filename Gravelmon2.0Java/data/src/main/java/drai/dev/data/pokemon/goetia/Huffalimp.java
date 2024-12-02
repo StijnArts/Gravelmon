@@ -19,7 +19,7 @@ public class Huffalimp extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("The gas it sprays from its trunk distorts the senses and causes strange hallucinations. It stores the gas in its belly, making it move as if floating on the moon."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 45, 2, List.of(

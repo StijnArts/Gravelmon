@@ -19,7 +19,7 @@ public class Armordillo extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Armordillo uses its hard head and large tail to damage the opponent in battle. It has one of the highest defenses of all Pokémon."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 25, 45, .5, List.of(

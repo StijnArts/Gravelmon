@@ -19,7 +19,7 @@ public class Traplure extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It casts its lure out into the water and waits for something to take the bait. This technique works best against prey that Traplure can actually overpower."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 23, 47, 2.1, List.of(

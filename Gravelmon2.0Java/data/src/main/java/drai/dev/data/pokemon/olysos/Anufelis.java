@@ -24,7 +24,7 @@ public class Anufelis extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("Legends speak of Anufelis guiding lost souls to their resting place or even back to life. Trainers brave the treacherous sandstorms of the Infernal Dunes in search of its temple, but few return, and the whereabouts of the Guardian remain a mystery."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OLYSOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

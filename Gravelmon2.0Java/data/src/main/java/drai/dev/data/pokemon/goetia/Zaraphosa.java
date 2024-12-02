@@ -19,7 +19,7 @@ public class Zaraphosa extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It makes its nest underground as it is too bulky and awkward to climb trees. It fires the hair on its back like needles, and may end up with bald spots until it grows back in."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 54, .4, List.of(

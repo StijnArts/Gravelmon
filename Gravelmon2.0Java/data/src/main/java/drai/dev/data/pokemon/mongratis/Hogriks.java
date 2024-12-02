@@ -19,7 +19,7 @@ public class Hogriks extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Losing the grass typing on evolution has made Hogriks' body much less susceptible to being blown down. Often found resting near small villages, Hogriks will let small Pokemon take refuge inside its fortified body."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

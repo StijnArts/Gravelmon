@@ -19,7 +19,7 @@ public class Polypenthes extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It brings the stench of decay wherever it floats. Rarely, a trap that breaks off may survive on its own."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 42, 59, .1, List.of(

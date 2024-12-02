@@ -24,7 +24,7 @@ public class Fandrake extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Fandrakes used to live in harsh, desolate environments where adaptations between males and females helped them to thrive. Large leaves on the males' tails help collect water, while females grow large, poisonous berries to use as weapons and protection."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

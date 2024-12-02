@@ -25,7 +25,7 @@ public class Diamondure extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Their indestructibly-hard heads polished to perfection captivate lovers of both toughness and beauty. It's believed that they all have one small structural weak point, the position of which is unique to each Diamondure."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.VARITAS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

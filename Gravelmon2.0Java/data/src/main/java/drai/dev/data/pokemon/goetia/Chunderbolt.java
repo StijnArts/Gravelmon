@@ -19,7 +19,7 @@ public class Chunderbolt extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Having found its way to its ancestral spawning ground, it has grown powerful and confident. It swims at a break-neck pace, stunning those around it"),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 32, 54, .4, List.of(

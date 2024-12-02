@@ -19,7 +19,7 @@ public class Lanternaria extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Its large, head-shaped horn is full of fire which causes it to glow and release an incense-like scent. Old reports of dragons in the rainforest are believed to be this Pokemon."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 45, .8, List.of(

@@ -19,7 +19,7 @@ public class Alatreon extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Blazing black dragons, so named for resembling both lightning and darkness. They mercilessly tear apart whoever touches their sharp scales. Elementally unstable, their actions can affect the very weather. Living natural disasters."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

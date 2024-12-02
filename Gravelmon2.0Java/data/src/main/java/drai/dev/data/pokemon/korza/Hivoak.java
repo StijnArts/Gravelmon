@@ -24,7 +24,7 @@ public class Hivoak extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("With a more potent compound, Hivoak's leaves are potent enough to send some to the hospital. Though more dangerous, this mon is easier to avoid because of their more vivid colors."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

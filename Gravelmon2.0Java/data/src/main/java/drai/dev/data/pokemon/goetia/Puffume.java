@@ -25,7 +25,7 @@ public class Puffume extends drai.dev.data.pokemon.Pokemon {
                 List.of("Puffume, a small pokemon that exhales a thick smoke from the port on the back of its head. It can breathe in any environment."),
                 List.of(new EvolutionEntry("smogstack", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 10, 34, 4, List.of(

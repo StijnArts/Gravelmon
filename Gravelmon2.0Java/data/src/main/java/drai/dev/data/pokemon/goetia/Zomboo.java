@@ -19,7 +19,7 @@ public class Zomboo extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("The result of a mishap involving fossil revival technology, it is a dull-witted abomination driven only by hunger. It is also very smelly."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 15, 45, .9, List.of(

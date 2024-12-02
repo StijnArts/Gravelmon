@@ -19,7 +19,7 @@ public class Billabong extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Billabong navigates deep, murky swamps with its fleshy barbels. They have historically been sighted in ocean areas, where old sailors mistook them for eldritch monsters."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 37, 56, .1, List.of(

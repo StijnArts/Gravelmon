@@ -25,7 +25,7 @@ public class Taratinder extends drai.dev.data.pokemon.Pokemon {
                 List.of("By dragging its paws along the patches on its abdomen, it sparks fire. The flames are weak, so it uses them as a distraction as it runs away."),
                 List.of(new EvolutionEntry("tarantorch", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(

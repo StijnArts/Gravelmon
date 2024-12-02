@@ -19,7 +19,7 @@ public class Iodrome extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Alpha monsters that lead packs of Ioprey. Their territories are made up of vast spans of land in volcanic regions. They attack by spitting an acrid venom that they store in specialized poison sacs."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

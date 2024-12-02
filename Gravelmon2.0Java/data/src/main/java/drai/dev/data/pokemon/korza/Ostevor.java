@@ -24,7 +24,7 @@ public class Ostevor extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Having grown too heavy to stay on land, Ostevor moves to deeper waters. The bark has become a metal plating on its body, while training hardened its mental fortitude."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

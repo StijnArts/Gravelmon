@@ -24,7 +24,7 @@ public class Troglish extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_2,EggGroup.WATER_1),
                 List.of("Found only in pools inside dark caves. Troglish are near blind, and rely on their other senses. Spelunkers nicknamed them the swimming skeletons because of their bioluminescent patterns."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

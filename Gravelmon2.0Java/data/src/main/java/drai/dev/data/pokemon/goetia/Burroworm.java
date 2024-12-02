@@ -19,7 +19,7 @@ public class Burroworm extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("The soil it carries around varies based on where it was born. It spins to confuse predators while escaping underground."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 32, 4.7, List.of(

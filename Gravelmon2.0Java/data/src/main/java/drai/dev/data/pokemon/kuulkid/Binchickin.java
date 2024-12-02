@@ -25,7 +25,7 @@ public class Binchickin extends drai.dev.data.pokemon.Pokemon {
                 List.of("Skittish by nature, these pokemon will scrounge up the scraps left by people and other pokemon. They are most common in urban areas and landfills."),
                 List.of(new EvolutionEntry("garbagegutz", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"cobblemon:metal_coat")),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 32, 3.8, List.of(

@@ -24,7 +24,7 @@ public class Transil extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Capable of rolling on the tire-like rings on their legs for fast travel. The cavity between its dome and body is large enough to carry small mons, who often hitch a ride on these gentle giants."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -19,7 +19,7 @@ public class Charmatch extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It derives its power from the synergy of the Charmix it evolved from. It is formed from both of them, but is in itself something entirely new."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 24, 47, 1, List.of(

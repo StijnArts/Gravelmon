@@ -19,7 +19,7 @@ public class Vasbar extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Vasbar lives in the most extreme environments, such as the bottom of the ocean and active volcanoes. It can even survive the vacuum of space."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 41, 1.1, List.of(

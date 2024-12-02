@@ -25,7 +25,7 @@ public class Psyphon extends drai.dev.data.pokemon.Pokemon {
                 List.of("Psyphon’s four bodies are mentally connected, sharing the same thoughts and senses."),
                 List.of(new EvolutionEntry("psydaria", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 13, 34, 3.4, List.of(

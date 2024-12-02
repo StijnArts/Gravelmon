@@ -19,7 +19,7 @@ public class GreatJaggi extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Alpha monsters that lead packs of Jaggi. At a certain age, males leave the pack to live on their own before returning to fight for the right to become leader. They have a very commanding presence. It has been said they can call and give complex orders to their pack with their howls and barks."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

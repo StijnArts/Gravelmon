@@ -25,7 +25,7 @@ public class Shelliphant extends drai.dev.data.pokemon.Pokemon {
                 List.of("This pokemon uses its long, flexible trunk to forage for nuts and berries on the ground and in small bushes. This pokemon has a certain fondness for peanuts and will become extra friendly when gifted one as a treat."),
                 List.of(new EvolutionEntry("tusknut", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(

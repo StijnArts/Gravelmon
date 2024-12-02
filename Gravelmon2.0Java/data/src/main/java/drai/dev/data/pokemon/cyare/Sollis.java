@@ -25,7 +25,7 @@ public class Sollis extends drai.dev.data.pokemon.Pokemon {
                 List.of("The power to control the sun gives it a very unsure nature. The orbs on its legs glow brightly whenever it uses these powers. The knobs on its head expand when they catch sunlight."),
                 List.of(new EvolutionEntry("sollord", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 41, 4, List.of(

@@ -25,7 +25,7 @@ public class Poachick extends drai.dev.data.pokemon.Pokemon {
                 List.of("Poachicks are often predated on by various other species of pokemon, putting guardian Omeledoodles and trainers on high alert when caring for them."),
                 List.of(new EvolutionEntry("scrambird", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"15")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 27, 4.5, List.of(

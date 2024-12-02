@@ -25,7 +25,7 @@ public class Goobae extends drai.dev.data.pokemon.Pokemon {
                 List.of("S O O N"),
                 List.of(new EvolutionEntry("grimer", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"190")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ARISTOS),
                 0, List.of(
                 ), SpawnContext.SURFACE, SpawnPool.COMMON, 3, 22, 4, List.of(

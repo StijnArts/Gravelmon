@@ -24,7 +24,7 @@ public class Baobaraffe extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Concept, design, sprites, name, and type by Princess-Phoenix This fakemon originates from Princess-Phoenix's 'Project Freemon' on DeviantArt. The original inspiration for this fakemon came from reading an article about how the baobab trees have huge fat trunks because it stores water in them, but due to droughts the trees were collapsing a few years ago. Evo line: Complete"),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.AVALOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

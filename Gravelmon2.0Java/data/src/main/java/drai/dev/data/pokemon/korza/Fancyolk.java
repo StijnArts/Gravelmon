@@ -24,7 +24,7 @@ public class Fancyolk extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Once a gift fit for royalty, the elite would be lucky to encounter this mon today. Fancyolk's shell is impenetrable, and sparkles beautifully in the light."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

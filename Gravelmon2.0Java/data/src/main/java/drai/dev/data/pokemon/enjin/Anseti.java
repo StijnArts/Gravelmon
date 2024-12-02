@@ -24,7 +24,7 @@ public class Anseti extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Added Oct 27 2021 Etymology: antenna + SETI"),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ENJIN),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 33, 1.3, List.of(

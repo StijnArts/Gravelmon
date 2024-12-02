@@ -24,7 +24,7 @@ public class Peap extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FLYING),
                 List.of("Peap attempt to use the eye-like markings on their inner wings to scare off predators. Other than that, they truly have no other forms of defense."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.URZAVOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

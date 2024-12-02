@@ -25,7 +25,7 @@ public class Spongebit extends drai.dev.data.pokemon.Pokemon {
                 List.of("This pokemon breathes seawater through the sizeable pores in its skin. Spongebits make their homes in discarded fruits that have sunken to the bottom of the ocean."),
                 List.of(new EvolutionEntry("squarepair", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID, Label.JOKE),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 4, 23, 3.8, List.of(

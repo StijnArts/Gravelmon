@@ -19,7 +19,7 @@ public class Plesioth extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Giant piscine wyverns with swift and varied underwater movements, as well as deadly breath and charging attacks. Plesioth are agitated by loud noises, so approach warily. Their favorite food is frogs."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

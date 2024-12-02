@@ -25,7 +25,7 @@ public class Fumball extends drai.dev.data.pokemon.Pokemon {
                 List.of("It is prone to tripping, causing it to roll around uncontrollably. Its shell has a sugary taste that varies between individuals."),
                 List.of(new EvolutionEntry("trickytreat", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 31, 3.6, List.of(

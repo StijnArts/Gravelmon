@@ -25,7 +25,7 @@ public class Golfish extends drai.dev.data.pokemon.Pokemon {
                 List.of("It can usually be sold for 5000 Pokémon Dollars in any Poké Mart."),
                 List.of(new EvolutionEntry("Jewereel", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 12, 32, 3.8, List.of(

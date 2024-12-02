@@ -19,7 +19,7 @@ public class Horribill extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("If two or more Grumchicks are born, Horribill will only raise one of them. This results in leaving the weaker chicks to their own faith."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 51, .4, List.of(

@@ -24,7 +24,7 @@ public class Sirudge extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Sirudge's hypnotic calls carry over great distances to draw prey in. If its habitat isn't suitably muddy, Sirudge uses special mucus to soften the soil."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -19,7 +19,7 @@ public class Marlequin extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("The bells on its tassels ring as it dances to music only it seems to hear. Unlike other clown-category Pokemon, it has a listless disposition, seeming almost dissociated from the world around it."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 34, 1.6, List.of(

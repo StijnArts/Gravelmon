@@ -19,7 +19,7 @@ public class Panseidon extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SURFACE, SpawnPool.ULTRA_RARE, 36, 53, 0.1, List.of(

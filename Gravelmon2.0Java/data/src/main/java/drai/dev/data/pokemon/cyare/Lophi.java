@@ -25,7 +25,7 @@ public class Lophi extends drai.dev.data.pokemon.Pokemon {
                 List.of("Lophi enjoys itself by blowing bubbles. The jewel on its forehead senses ultrasonic waves and thus impending danger. It will use its dolphin-like tail to propel itself into safety."),
                 List.of(new EvolutionEntry("ocephus", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 41, 4, List.of(

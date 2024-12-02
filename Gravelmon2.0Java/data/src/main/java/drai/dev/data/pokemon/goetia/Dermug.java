@@ -25,7 +25,7 @@ public class Dermug extends drai.dev.data.pokemon.Pokemon {
                 List.of("It scuttles around museums and taxidermy shops gnawing on the displays. Although they can be trained to eat household dirt, they still go after antiques."),
                 List.of(new EvolutionEntry("necrophagus", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 10, 34, 3.7, List.of(

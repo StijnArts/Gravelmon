@@ -19,7 +19,7 @@ public class Quolcano extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Quolcano are very territorial and burn trees to mark territory. They are known as arsons to many people."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 40, 54, .2, List.of(

@@ -19,7 +19,7 @@ public class Eaglory extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Putting honor first before anything else, Eaglory defend their nests with valor and justice. Eaglory were almost decided to be a mascot of a region before being told that a regular flag might be a better idea."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 53, .3, List.of(

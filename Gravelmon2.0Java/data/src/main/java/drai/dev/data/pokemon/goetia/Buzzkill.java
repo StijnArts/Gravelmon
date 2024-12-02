@@ -19,7 +19,7 @@ public class Buzzkill extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It uses the electric stingers concealed in its wrists to strike with perfect accuracy. It is the mortal enemy of Waruphosa."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 27, 43, .1, List.of(

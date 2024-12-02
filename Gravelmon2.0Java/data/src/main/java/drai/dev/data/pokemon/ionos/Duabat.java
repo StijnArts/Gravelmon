@@ -19,7 +19,7 @@ public class Duabat extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Duabat improves its stealth by covering itself in a dark cloud of smoke. Its diet consists of different minerals that sharpens Duabat’s bladed wings."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 36, 53, 0.1, List.of(

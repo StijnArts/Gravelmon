@@ -24,7 +24,7 @@ public class Pangoloo extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD),
                 List.of("Pangoloos live in the coldest parts of the world. Rangers in Otopo guard them to prevent poachers from collecting their frozen shell for Nevermeltice."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

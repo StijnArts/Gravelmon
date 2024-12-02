@@ -19,7 +19,7 @@ public class Coldfin extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD),
                 List.of("Added Oct 27 2021 Etymology: cold + dolphin + fin Evo line: Open to suggestions and submissions Origin: Created by JaneJewel for the April 2020 Around The World Fakeathon Day 21 prompt, Antarctica"),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ENJIN),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 11, 32, 4.4, List.of(

@@ -25,7 +25,7 @@ public class Candelaria extends drai.dev.data.pokemon.Pokemon {
                 List.of("The tip of its horn emits a small flame that smells like whatever sap it has eaten."),
                 List.of(new EvolutionEntry("lanternaria", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 27, 4.8, List.of(

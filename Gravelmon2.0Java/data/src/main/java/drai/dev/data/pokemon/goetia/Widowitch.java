@@ -19,7 +19,7 @@ public class Widowitch extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It uses its charms to put male pokemon in a trance. Eventually the victim reaches a point where he would willingly die for her sake….and that sake is always dinner."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 48, .8, List.of(

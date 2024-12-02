@@ -19,7 +19,7 @@ public class Neprechaun extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It is considered extraordinary luck to find one in the wild. Because of this, it was hunted to near extinction in its natural habitat."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 56, .2, List.of(

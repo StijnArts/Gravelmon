@@ -19,7 +19,7 @@ public class Enderbird extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("This Pokemon guards the edges of volcanic lakes, warning away other Pokemon who attempt to navigate across the surface. If its warning is ignored, it will attack."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

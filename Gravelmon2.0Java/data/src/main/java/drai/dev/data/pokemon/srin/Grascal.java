@@ -24,7 +24,7 @@ public class Grascal extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Grascal's day consists of collecting nuts along the tree-covered cliffside, only to throw them at its playmates. It creates whistle sounds to call for his gang of other Grascals."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.SORIN),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(

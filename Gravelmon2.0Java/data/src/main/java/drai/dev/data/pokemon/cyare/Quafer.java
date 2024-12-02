@@ -25,7 +25,7 @@ public class Quafer extends drai.dev.data.pokemon.Pokemon {
                 List.of("Nocturnal and colorblind, Quafer is rarely seen during daytime. They dig mazes of tunnels deep under the ground and burrow in deep in order to sleep undisturbed."),
                 List.of(new EvolutionEntry("orycterra", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(

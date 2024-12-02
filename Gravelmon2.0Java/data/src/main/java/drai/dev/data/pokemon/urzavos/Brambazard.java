@@ -19,7 +19,7 @@ public class Brambazard extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MONSTER,EggGroup.GRASS),
                 List.of("This mon has full control of the thorny vines that hang from its head, and often uses them to both attack and intimidate enemies."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.URZAVOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

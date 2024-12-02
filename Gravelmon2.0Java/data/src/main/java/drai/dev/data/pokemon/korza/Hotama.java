@@ -24,7 +24,7 @@ public class Hotama extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Hotama uses its cheeks to reverberate through the water in small bursts and communicate with others. When one senses trouble, their pond echos in these beats as they scatter for safety."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

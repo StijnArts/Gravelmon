@@ -25,7 +25,7 @@ public class Grunje extends drai.dev.data.pokemon.Pokemon {
                 List.of("It squats impudently in old buildings and alleyways, but runs away when anyone stronger than it comes by. In large numbers, they are bold enough to steal food from people."),
                 List.of(new EvolutionEntry("grunjerk", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(

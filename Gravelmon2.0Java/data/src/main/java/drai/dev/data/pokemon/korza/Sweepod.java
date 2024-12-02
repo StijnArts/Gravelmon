@@ -24,7 +24,7 @@ public class Sweepod extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.GRASS),
                 List.of("Sweepod are preyed on heavily by bug Pokémon. They secrete a thick, sweet sap that hardens into the shell around its body. As it grows older, it grows many layers."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

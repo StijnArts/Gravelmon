@@ -19,7 +19,7 @@ public class Safijiiva extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("The fully-grown form of Xeno'jiiva. It absorbs energy from its environment to heal itself and change the ecosystem."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

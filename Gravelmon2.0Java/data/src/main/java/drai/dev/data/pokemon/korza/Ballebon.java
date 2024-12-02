@@ -24,7 +24,7 @@ public class Ballebon extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Ballebon love to dance, and are eager to learn new techniques. The ribbons on their bodies can extend and be cut off without doing harm to the pokemon."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

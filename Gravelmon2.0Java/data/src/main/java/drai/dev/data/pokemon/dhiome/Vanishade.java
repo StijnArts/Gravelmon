@@ -19,7 +19,7 @@ public class Vanishade extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Vanishade's steel frame hides a malevolent spirit that preys on vanity. Those who gaze too long at their reflection in its surface find their vitality drained, leaving only a hollow shell of their former selves."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.DHIOME),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 31, 1.4, List.of(

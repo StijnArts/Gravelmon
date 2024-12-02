@@ -19,7 +19,7 @@ public class Tigearth extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It is said that a Terraintula who lives for 700 years becomes a Tigearth. Aggressive and crafty, folklore tells of a warrior who stopped Tigearth from preying on villages several times in his travels. The silk it lines its den with is harder than steel."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 38, 54, .1, List.of(

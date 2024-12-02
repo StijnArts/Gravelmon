@@ -25,7 +25,7 @@ public class Larvade extends drai.dev.data.pokemon.Pokemon {
                 List.of("It springs forth to grab the first living thing it sees after hatching. It cannot survive without clinging to a host and absorbing its power."),
                 List.of(new EvolutionEntry("invadien", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 31, 5.2, List.of(

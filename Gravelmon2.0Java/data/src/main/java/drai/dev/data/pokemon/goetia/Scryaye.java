@@ -19,7 +19,7 @@ public class Scryaye extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("When a Scry-aye looks into someone’s eyes, it can read their thoughts, memories, and even see into their future. It can lock onto a target and see them from miles away. Nothing escapes its sight."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 51, 1, List.of(

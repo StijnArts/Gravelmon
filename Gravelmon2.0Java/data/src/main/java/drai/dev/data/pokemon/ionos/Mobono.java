@@ -25,7 +25,7 @@ public class Mobono extends drai.dev.data.pokemon.Pokemon {
                 List.of("Head looks flat fix that"),
                 List.of(new EvolutionEntry("shinpanzee", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 32, 4.4, List.of(

@@ -19,7 +19,7 @@ public class Froll extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Froll do not like to leave their lairs even in winter, instead sending out Snome to gather food. A single Froll may sit in the same spot for years at a time, growing ever larger."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

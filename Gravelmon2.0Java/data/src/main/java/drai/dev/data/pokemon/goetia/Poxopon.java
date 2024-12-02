@@ -19,7 +19,7 @@ public class Poxopon extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Its mere touch causes people to break out in rashes and blemishes. It views inflicting its curse as a game and will listen to whoever invokes its name to “play” with their enemy."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 55, 65, .01, List.of(

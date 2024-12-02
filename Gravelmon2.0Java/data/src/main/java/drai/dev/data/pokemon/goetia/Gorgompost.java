@@ -19,7 +19,7 @@ public class Gorgompost extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It has grown resentful of people disrespecting the land it cultivates. If it catches polluters, they become returned to the earth."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 48, .4, List.of(

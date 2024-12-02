@@ -24,7 +24,7 @@ public class Faupent extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Faupent sit on the jungle floor imitaing a snake to scare away larger predators while waiting for bird Pokemon to fly overhead. When one does, they quickly shoot up and snatch them out of the sky."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

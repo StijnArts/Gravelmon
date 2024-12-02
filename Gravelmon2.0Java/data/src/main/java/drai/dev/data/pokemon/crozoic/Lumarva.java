@@ -25,7 +25,7 @@ public class Lumarva extends drai.dev.data.pokemon.Pokemon {
                 List.of("They live in groups that use coordinated flashes of light to confuse predators that would eat them. The glowing bulb on the end of its tail is highly nutritious and said to heighten the senses."),
                 List.of(new EvolutionEntry("glowpa", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CROZOIC),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 2, 22, 5.5, List.of(

@@ -19,7 +19,7 @@ public class Galaxalotl extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MONSTER,EggGroup.FAIRY),
                 List.of("A curious 'Mon that loves to hug all those it comes across, even stronger foes. They are stronger on clear, moonlit nights, and use a mysterious power to bounce around in the air."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.URZAVOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

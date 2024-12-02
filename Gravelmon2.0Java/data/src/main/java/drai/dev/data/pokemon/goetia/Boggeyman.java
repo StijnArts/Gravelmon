@@ -19,7 +19,7 @@ public class Boggeyman extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Local legends say it was once a human who now haunts the lake where they drowned. It acts violently towards anyone who enters its territory, rising from the muck to scare them off. It treats a discarded mask as if it were its face, but will replace it if it gets damaged."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 31, 56, .6, List.of(

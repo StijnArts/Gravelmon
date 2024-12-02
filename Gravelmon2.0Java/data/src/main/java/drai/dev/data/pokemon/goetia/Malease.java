@@ -19,7 +19,7 @@ public class Malease extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("One touch from its scythes is enough to transmit a potent toxin."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 13, 35, 1.2, List.of(

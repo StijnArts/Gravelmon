@@ -25,7 +25,7 @@ public class Radarent extends drai.dev.data.pokemon.Pokemon {
                 List.of("Radarent’s best friend is the soil where it burries itself and is also a place to ambush foes with surprise attacks. They don't place nice with other Pokemon."),
                 List.of(new EvolutionEntry("Sparkadillo", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(

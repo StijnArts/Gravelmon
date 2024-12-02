@@ -24,7 +24,7 @@ public class Brazilisk extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.DRAGON),
                 List.of("This Pokemon cannot be encountered in the wild because it has been led to extinction."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OKENO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

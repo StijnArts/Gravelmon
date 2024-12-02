@@ -24,7 +24,7 @@ public class LagoonanHatterene extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FAIRY),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.LAGOONE),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 38, 54, 1, List.of(

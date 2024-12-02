@@ -19,7 +19,7 @@ public class Decareca extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_3,EggGroup.MINERAL),
                 List.of("It stores almost a tonne of sand in its claws, which it may fire out at rapid speeds if it is assaulted."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

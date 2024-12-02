@@ -24,7 +24,7 @@ public class Luminlux extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("A towering colony of Luminlite become Luminlux - It has not yet harmonized all of its disparate parts, and thus skitters around erratically. Its many faces will flicker on and off randomly, disturbing those around it."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.URZAVOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

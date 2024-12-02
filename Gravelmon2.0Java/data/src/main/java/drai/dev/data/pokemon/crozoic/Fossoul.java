@@ -25,7 +25,7 @@ public class Fossoul extends drai.dev.data.pokemon.Pokemon {
                 List.of("The residual spirit energy inside the bones gave life to the rocky matrix around it. It bounds around on the two leg-like points as if it were in zero-gravity."),
                 List.of(new EvolutionEntry("soulhofen", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CROZOIC),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 11, 27, 3.5, List.of(

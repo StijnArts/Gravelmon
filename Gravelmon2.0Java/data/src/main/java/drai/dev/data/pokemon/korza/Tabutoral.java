@@ -24,7 +24,7 @@ public class Tabutoral extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Over time, Tabutoral grows via additional bodies and buildup of the tower. Inside the tower is a mess of labyrinthian burrows, connecting each body into one mass."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

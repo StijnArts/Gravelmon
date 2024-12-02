@@ -24,7 +24,7 @@ public class Beetile extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Beetile use their horn to chip away at trees, getting to the sap inside. When they're close to evolving, they will stick to the side of an object and not let go until they evolve."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

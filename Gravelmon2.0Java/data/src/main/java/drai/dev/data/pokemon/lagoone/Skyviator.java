@@ -74,7 +74,7 @@ public class Skyviator extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FLYING),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.LAGOONE),
                 0, List.of(
                 ), SpawnContext.SURFACE, SpawnPool.RARE, 33, 51, .4, List.of(

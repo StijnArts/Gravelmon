@@ -24,7 +24,7 @@ public class Spikard extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("This mon's spikes prevent predation by curling into a ball and helping anchor inside crevices. Spikard are capable of shooting red ooze from their eyelids, startling any threat long enough to hide or escape."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

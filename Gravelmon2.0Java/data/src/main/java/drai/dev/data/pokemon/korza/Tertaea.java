@@ -24,7 +24,7 @@ public class Tertaea extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("Said to once have devastating destructive power, Tertaea burrowed deep into the earth to save the world from herself. Because of this, she's seen as a symbol of resolve and self-control."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

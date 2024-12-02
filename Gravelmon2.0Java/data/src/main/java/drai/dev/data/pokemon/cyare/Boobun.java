@@ -19,7 +19,7 @@ public class Boobun extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Although small, Boobun has been known to hug amazingly strong which is thought to be given strength by the ghost inside it."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 26, 44, .8, List.of(

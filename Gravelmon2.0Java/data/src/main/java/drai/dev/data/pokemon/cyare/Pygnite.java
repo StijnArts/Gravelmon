@@ -25,7 +25,7 @@ public class Pygnite extends drai.dev.data.pokemon.Pokemon {
                 List.of("Pygnite still haven't mastered using the fire from their tails. They can't control their tail flames and may harm themselves using them."),
                 List.of(new EvolutionEntry("pocinder", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"21")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 28, 4.5, List.of(

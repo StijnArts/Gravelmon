@@ -24,7 +24,7 @@ public class Divona extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_1,EggGroup.AMORPHOUS),
                 List.of("Divona's former carefreeness has been changed to impishness, but still maintains a strong bond with its trainer. The more it grows, the less it eats, often going weeks without food."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

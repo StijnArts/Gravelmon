@@ -19,7 +19,7 @@ public class Queenival extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Added Oct 27 2021 Etymology: queen + carnival Evo line: TBD Origin: Created by JaneJewel for the April 2020 Around The World Fakeathon Day 5 prompt, Brazil"),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ENJIN),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 44, 2, List.of(

@@ -74,7 +74,7 @@ public class Cladeep extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Known of only from its whorl-shaped jaw growth, this mon is thought to have been a great danger of the sea. Its skin silences its movement in the water and allows it to approach prey without detection."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

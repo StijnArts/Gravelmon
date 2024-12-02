@@ -19,7 +19,7 @@ public class Charantula extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Its hairs are covered in microscopic barbs, anchoring them in the target as they burn. If all else fails, flames erupt from its six knees to burn everything to the ground."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 53, 0.1, List.of(

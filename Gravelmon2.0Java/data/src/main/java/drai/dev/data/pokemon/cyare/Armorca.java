@@ -19,7 +19,7 @@ public class Armorca extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Every spring, Armorca would swim to warmer waters to lay hundreds of eggs. They can be extremely aggresive while looking after their young and would do anything to protect them."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 23, 44, 2, List.of(

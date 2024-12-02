@@ -24,7 +24,7 @@ public class Seltas extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Swift, agile Neopterons that swoop down and attack their prey from the sky. They can also store a corrosive liquid inside themselves, which they can spray from their stinger-shaped abdomens."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

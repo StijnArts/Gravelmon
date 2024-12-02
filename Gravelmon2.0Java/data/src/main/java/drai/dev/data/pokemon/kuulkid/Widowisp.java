@@ -24,7 +24,7 @@ public class Widowisp extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("When a person enters a period of mourning, their grief manifests into a Widowisp. These pokemon are inconsolable and will tear up over even the smallest disturbances."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 45, 1.5, List.of(

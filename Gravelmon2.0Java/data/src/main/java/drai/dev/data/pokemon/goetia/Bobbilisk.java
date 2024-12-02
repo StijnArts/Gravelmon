@@ -19,7 +19,7 @@ public class Bobbilisk extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It stays underground with only its antennae exposed to detect prey. Nicknamed the “Gyarados Hunter”, it unveils its venomous jaws before it strikes."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 40, 55, .1, List.of(

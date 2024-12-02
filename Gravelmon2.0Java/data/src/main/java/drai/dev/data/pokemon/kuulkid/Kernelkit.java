@@ -75,7 +75,7 @@ public class Kernelkit extends drai.dev.data.pokemon.Pokemon {
                 List.of("When this pokemon is threatened, it can charge up power in the kernel on the end of its tail to create a loud popping sound. Contact with a Kernelkit's tail may produce a small, static shock."),
                 List.of(new EvolutionEntry("maizent", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 4.2, List.of(

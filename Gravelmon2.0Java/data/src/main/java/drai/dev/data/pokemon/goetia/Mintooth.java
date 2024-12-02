@@ -19,7 +19,7 @@ public class Mintooth extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It polishes its large stony tooth to keep it in top shape. It gives presents to those who take excellent care of their own teeth."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 11, 35, 2, List.of(

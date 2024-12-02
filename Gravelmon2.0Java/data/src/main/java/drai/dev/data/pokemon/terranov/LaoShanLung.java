@@ -19,7 +19,7 @@ public class LaoShanLung extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("A giant dragon that has only been rarely sighted. It periodically prowls close to inhabited areas, and the damage it causes is comparable to that wreaked by a natural disaster. Its habits are a mystery, and no one knows why it occasionally wanders. The Guild has built defensive barricades where they appear, but to what effect."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

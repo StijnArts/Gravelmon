@@ -26,7 +26,7 @@ public class Moustiny extends drai.dev.data.pokemon.Pokemon {
                 List.of("Despite the lack of an observed grooming behaviour, Moustiny's bristles always maintain a glossy sheen. Moustiny who reside in areas with a large human population will look slightly different to wild Moustiny as they will imitate popular moustache styles in their environment."),
                 List.of(new EvolutionEntry("monstache", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.GROWTH.getName()+"\"")))	),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 7, 32, 3, List.of(

@@ -74,7 +74,7 @@ public class Monstache extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("In the wild, Monstache are very aggressive and territorial. In-fighting within Monstache groups often happen between members with differing Moustache styles."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 28, 45, .5, List.of(

@@ -25,7 +25,7 @@ public class Lansquid extends drai.dev.data.pokemon.Pokemon {
                 List.of("By jetting water out of its siphon, it can shoot itself like a dart. It may accidentally get stuck in a rock or boat hull if it aims carelessly."),
                 List.of(new EvolutionEntry("calispade", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"21")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 3, 22, 4, List.of(

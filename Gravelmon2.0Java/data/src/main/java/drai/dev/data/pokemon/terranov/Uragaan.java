@@ -19,7 +19,7 @@ public class Uragaan extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Brute Wyverns with mighty jaws. The vibration from their bodies send the stones and ore stuck to them flying in all directions in deadly explosive attacks. They can also detonate Powderstones by striking them with incredible force with their chins."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

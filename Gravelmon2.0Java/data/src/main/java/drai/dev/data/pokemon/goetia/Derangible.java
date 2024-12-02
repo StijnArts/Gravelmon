@@ -19,7 +19,7 @@ public class Derangible extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It floats through the clouds, guided by electrical circuits in the atmosphere. The gas in its float becomes supercharged when it absorbs lightning."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 33, 54, .4, List.of(

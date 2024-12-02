@@ -24,7 +24,7 @@ public class Hoppuff extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Hoppuff can jump quiet high due to their springy legs. Don't be fooled by their cute appearance; Hoppuff can pack quite a punch with their ears."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -19,7 +19,7 @@ public class Scyllabyss extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It has an insatiable appetite that causes it to destroy and devour anything that comes near it. It becomes so blinded with hunger that its heads even attack eachother, only to regenerate moments later. Together with Charybyss, they are called “The Disasters”"),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 41, 61, .4, List.of(

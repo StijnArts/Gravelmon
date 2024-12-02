@@ -19,7 +19,7 @@ public class Webruiser extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Webruiser stands on its mandibles and swings at its foes with its legs, its thorax has a fake face to act as a punching bag for enemies. It may look dazed or confused as it stumbles around the battlefield, but this is a tactic to deter its opponents. Its punches are wild but calculated."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

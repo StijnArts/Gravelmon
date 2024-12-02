@@ -19,7 +19,7 @@ public class Sirenatee extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Its singing can make even a Primeape become calm and peaceful. The sea grass growing on its head is full of nutrients."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 23, 51, 2, List.of(

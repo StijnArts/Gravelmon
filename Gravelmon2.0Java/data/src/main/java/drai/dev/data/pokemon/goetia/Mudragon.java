@@ -19,7 +19,7 @@ public class Mudragon extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Mudragon, an amphibious Pokemon that burrows into the mud. It must stay moist."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 22, 51, .43, List.of(

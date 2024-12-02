@@ -25,7 +25,7 @@ public class Flattery extends drai.dev.data.pokemon.Pokemon {
                 List.of("Believed to have come from outer space, it absorbs electricity from human settlements. When it approaches, machines begin to malfunction."),
                 List.of(new EvolutionEntry("oddcast", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"cobblemon:thunder_stone")),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 27, 5, List.of(

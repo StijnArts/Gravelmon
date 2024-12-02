@@ -24,7 +24,7 @@ public class Rambliss extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Rambliss emanates an aroma that purifies the air and their surroundings. They release spores when in a blissful state, spreading happy vibes to those nearby. They like to keep their habitats clean and tidy. The flowers they grow produce a sweet aroma that calms people, which is why these Pokémon are popular in yoga and meditation. It is said to also purify and ward off any evil energy."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.AVORIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

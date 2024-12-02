@@ -19,7 +19,7 @@ public class Toxsick extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Its body is a crystal made of poison. It uses its DNA to create more of itself from hazardous toxins."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 41, 1.3, List.of(

@@ -24,7 +24,7 @@ public class Anorus extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Anorus love to eat electronics, sucking the energy from them until there's nothing left. It's ill-advised to keep one on the same team as an Electric-type Pokémon."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

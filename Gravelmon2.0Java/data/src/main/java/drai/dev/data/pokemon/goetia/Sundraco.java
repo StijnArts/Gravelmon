@@ -19,7 +19,7 @@ public class Sundraco extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("The sticky bulbs on its tail and fingertips are used to catch insects. It raises the flaps under its arms to absorb sunlight."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 24, 51, .6, List.of(

@@ -19,7 +19,7 @@ public class Inferatu extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It hypnotizes victims with its luminescent eyes before draining their life force"),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 32, 51, .4, List.of(

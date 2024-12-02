@@ -20,7 +20,7 @@ public class Gastare extends drai.dev.data.pokemon.Pokemon {
                 List.of("Gastare feeds on brainwaves, congregating towards the signals created by telekinesis. A single one is negligible, but en masse they can create a psychic jamming effect that can neutralize even an Alakazam."),
                 List.of(new EvolutionEntry("espergo", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"21")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 13, 32, 3, List.of(

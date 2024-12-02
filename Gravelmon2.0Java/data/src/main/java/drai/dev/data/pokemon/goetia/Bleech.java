@@ -25,7 +25,7 @@ public class Bleech extends drai.dev.data.pokemon.Pokemon {
                 List.of("When it smells blood, it swims over and clamps on with its mouth. Even a professional sumo wrestler cannot remove it until it has finished feeding."),
                 List.of(new EvolutionEntry("hiruleech", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(

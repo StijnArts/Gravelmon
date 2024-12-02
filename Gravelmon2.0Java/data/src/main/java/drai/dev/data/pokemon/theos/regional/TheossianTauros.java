@@ -24,7 +24,7 @@ public class TheossianTauros extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Theosian Tauros have very strong skulls, using them to charge opponents. At the end of their 3 tails are iron balls which they use as a flail if attacked from behind."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

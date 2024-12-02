@@ -25,7 +25,7 @@ public class Calispade extends drai.dev.data.pokemon.Pokemon {
                 List.of("Not often seen by fishermen due to living at the bottom of the sea, they were once believed to be evil spirits come to bring misfortune."),
                 List.of(new EvolutionEntry("archraken", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 21, 45, .5, List.of(

@@ -24,7 +24,7 @@ public class Porcupyre extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("The barbs that cover Porcupyre's body can be extremely painful, causing immediate 1st degree burns. It cools down its flame for people it trusts, however."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MYSTIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

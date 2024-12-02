@@ -19,7 +19,7 @@ public class Majestapir extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD),
                 List.of("Upon reaching enlightenment and evolving, Majestapir return to help lead their original establishment or start their own with their offspring."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ENJIN),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 53, 71, .3, List.of(

@@ -19,7 +19,7 @@ public class Sollord extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Sollord, nicknamed King of the Sun, use their heads to fend off any predators. Its connection with the sun is legendary, and it's often used in rainy seasons to prevent plants from drowning."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 40, 56, .4, List.of(

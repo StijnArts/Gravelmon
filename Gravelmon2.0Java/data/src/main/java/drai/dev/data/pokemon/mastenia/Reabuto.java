@@ -19,7 +19,7 @@ public class Reabuto extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Not much is known about Reabuto. But it is said to have hunted down larger prey than itself; and might have been the cause of the extinction of a certain fossil Pokémon."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MASTENIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

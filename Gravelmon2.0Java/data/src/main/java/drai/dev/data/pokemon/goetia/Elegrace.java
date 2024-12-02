@@ -19,7 +19,7 @@ public class Elegrace extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It communicates using dance, creating a rich visual language that varies from region to region."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 42, 2.4, List.of(

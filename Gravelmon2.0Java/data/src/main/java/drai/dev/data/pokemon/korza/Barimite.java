@@ -24,7 +24,7 @@ public class Barimite extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MINERAL),
                 List.of("When sleeping, Barimite sleep in clusters so large that they appear to be a normal part of the caverns they live in. It leisurely carves into cave walls as it travels."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

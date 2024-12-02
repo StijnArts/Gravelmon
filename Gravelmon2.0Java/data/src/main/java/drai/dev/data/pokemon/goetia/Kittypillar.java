@@ -25,7 +25,7 @@ public class Kittypillar extends drai.dev.data.pokemon.Pokemon {
                 List.of("Its fur is as soft and luxurious as the silk it spins. Having one visit your garden is a sign of great fortune."),
                 List.of(new EvolutionEntry("fuzzilk", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"13")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 17, 4.5, List.of(

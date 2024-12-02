@@ -19,7 +19,7 @@ public class Pozzombie extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It comes out at night to rummage through garbage. When in danger, all signs of life vanish from its body only for it to get back on its feet and walk away when scavengers come."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 23, 54, 2, List.of(

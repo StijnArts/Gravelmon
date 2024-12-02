@@ -76,7 +76,7 @@ public class FormanCaterpie extends drai.dev.data.pokemon.Pokemon {
                 List.of(new EvolutionEntry("bloboon", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"8")))
                 ),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.FORM),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 3, 16, 5, List.of(

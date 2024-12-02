@@ -19,7 +19,7 @@ public class Aristocarp extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("The production and consumption of Aristocarp caviar has become a symbol of the absurd levels of opulence and hedonism held by the upper class."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 32, 56, 1.5, List.of(

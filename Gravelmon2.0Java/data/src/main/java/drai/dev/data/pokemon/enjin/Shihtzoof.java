@@ -25,7 +25,7 @@ public class Shihtzoof extends drai.dev.data.pokemon.Pokemon {
                 List.of("Added Nov 1 2021 Habitat: cities and urban areas"),
                 List.of(new EvolutionEntry("priminpup", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ENJIN),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 34, 3.8, List.of(

@@ -25,7 +25,7 @@ public class Nepixie extends drai.dev.data.pokemon.Pokemon {
                 List.of("Upon birth, it seeks out a pitcher plant and makes a spiritual, symbiotic connection with it for life."),
                 List.of(new EvolutionEntry("neprite", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 8, 27, 4.4, List.of(

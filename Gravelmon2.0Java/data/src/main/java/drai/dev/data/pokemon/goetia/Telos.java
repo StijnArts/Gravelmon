@@ -19,7 +19,7 @@ public class Telos extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It drifts through space, living on a scale incomprehensible to humans. Astronauts landing on its surface encountered a lush yet bizarre ecosystem with a breathable atmosphere."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(

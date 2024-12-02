@@ -24,7 +24,7 @@ public class Lumbash extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Their constant chewing has strenthened their teeth, allowing them to bite through large trees with ease. They carry around said trees to use as a weapon."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

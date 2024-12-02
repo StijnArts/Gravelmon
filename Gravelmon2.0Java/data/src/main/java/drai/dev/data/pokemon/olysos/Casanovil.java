@@ -24,7 +24,7 @@ public class Casanovil extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD,EggGroup.MONSTER),
                 List.of("In moonlit caves, Casanovil's slender silhouette becomes even more elusive. It is said that the echoes of its haunting laughter linger, serving as a warning to those who dare trust too easily in the dark. Casanovil's alluring gaze can captivate even the most resolute trainers. Once ensnared, victims often find themselves drawn into a web of deception, their trust shattered by the Deceitful Devil Pokémon's cunning maneuvers."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OLYSOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

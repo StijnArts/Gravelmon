@@ -74,7 +74,7 @@ public class Burrind extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Burrind's corkscrew motion and hardened scales allow it to burrow through tough rock. It can puff out its rocky scales as a way to keep itself in the ground, or to appear bigger to threats."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

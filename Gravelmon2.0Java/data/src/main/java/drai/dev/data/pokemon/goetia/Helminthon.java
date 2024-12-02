@@ -19,7 +19,7 @@ public class Helminthon extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Unable to form legs from its mass, it prefers to remain stationary in sewers. This usually causes sanitation issues."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 31, 54, .4, List.of(

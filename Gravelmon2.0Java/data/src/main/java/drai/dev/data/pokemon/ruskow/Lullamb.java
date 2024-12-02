@@ -24,7 +24,7 @@ public class Lullamb extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("YOU CAN REDO MY SPRITES! I dont mind! I like your style!"),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.RUSKOW),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

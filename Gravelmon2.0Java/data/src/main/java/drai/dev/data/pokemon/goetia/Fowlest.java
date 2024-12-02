@@ -25,7 +25,7 @@ public class Fowlest extends drai.dev.data.pokemon.Pokemon {
                 List.of("Although it may seem sickly with its frequent coughing, it is actually preparing to spit out acid that can dissolve stone. It attacks anyone who stares at it for too long."),
                 List.of(new EvolutionEntry("krakatori", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"39")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 22, 48, .6, List.of(

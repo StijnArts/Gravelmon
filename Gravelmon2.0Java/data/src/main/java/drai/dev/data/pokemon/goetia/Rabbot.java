@@ -19,7 +19,7 @@ public class Rabbot extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("In the springtime, it leaves brightly-colored eggs scattered around like presents."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 19, 42, .7, List.of(

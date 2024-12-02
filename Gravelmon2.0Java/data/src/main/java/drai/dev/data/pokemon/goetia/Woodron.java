@@ -25,7 +25,7 @@ public class Woodron extends drai.dev.data.pokemon.Pokemon {
                 List.of("Woodron, called the “soldier of the forest”. It protects its home by harnessing the power of nature itself. Its hidden canons fire seeds like missiles."),
                 List.of(new EvolutionEntry("troytron", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 34, 4.2, List.of(

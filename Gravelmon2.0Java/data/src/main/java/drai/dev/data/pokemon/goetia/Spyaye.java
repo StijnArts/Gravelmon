@@ -25,7 +25,7 @@ public class Spyaye extends drai.dev.data.pokemon.Pokemon {
                 List.of("Spy-aye is a shy Pokemon, coming out only at night. It can see wavelengths of light humans cannot, such as infrared and ultraviolet. Rumors say its third eye can read minds and even see when you will die."),
                 List.of(new EvolutionEntry("scryaye", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 35, 5.1, List.of(

@@ -24,7 +24,7 @@ public class Sparkion extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("This mon detects surroundings using electric fields to make up for poor vision. It is almost impossible to find two positive or negative Sparkion together in the wild."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

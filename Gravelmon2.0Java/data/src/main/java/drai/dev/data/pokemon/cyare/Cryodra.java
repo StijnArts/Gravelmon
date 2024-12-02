@@ -24,7 +24,7 @@ public class Cryodra extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Cryodra occasionally emit a soft aura containg the seven colours of the rainbow. It is said that they are able to create massive auroras during the night."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 44, 58, .2, List.of(

@@ -24,7 +24,7 @@ public class Drakuleech extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It lives in dark caves, feasting on the lifeforce of unsuspecting passersby to grow stronger. Those it feasts on are reported to become very sick, looking almost lifeless."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MYSTIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

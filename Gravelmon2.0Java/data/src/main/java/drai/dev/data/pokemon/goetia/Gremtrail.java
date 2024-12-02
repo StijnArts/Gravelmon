@@ -19,7 +19,7 @@ public class Gremtrail extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It sprays noxious fumes while flying, leaving behind cloud-like trails in the sky. If it tries to spell messages with its trails, it will get dizzy and crash"),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 21, 45, 2, List.of(

@@ -25,7 +25,7 @@ public class Roccoon extends drai.dev.data.pokemon.Pokemon {
                 List.of("Roccon are vaguely shaped like chairs- or thrones to be specific. Their insides begins to buzz however when sitting on them, causing the victim to have a horrible seizure."),
                 List.of(new EvolutionEntry("Papilitite", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MASTENIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 12, 31, 1.1, List.of(

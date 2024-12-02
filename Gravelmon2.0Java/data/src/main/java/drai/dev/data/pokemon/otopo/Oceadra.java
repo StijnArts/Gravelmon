@@ -24,7 +24,7 @@ public class Oceadra extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_1,EggGroup.DRAGON),
                 List.of("Living in the deepest parts of the ocean, Oceadra enjoy a peaceful existance. They are believed to be a sign of longevity, so you're extremely lucky if you ever see one."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -19,7 +19,7 @@ public class Miasmog extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Legend says it is a restless spirit that vengefully haunts its place of death. It corrodes anything it touches with a mysterious tar."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 47, .4, List.of(

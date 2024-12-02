@@ -19,7 +19,7 @@ public class Glautillion extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Supremely vain and showy, Glautillion makes itself the center of attention at all times. It moves with such grace and refinement that it can balance a book on its head even while dancing."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 37, 56, .3, List.of(

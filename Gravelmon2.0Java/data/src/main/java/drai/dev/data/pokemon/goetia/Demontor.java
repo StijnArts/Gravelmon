@@ -19,7 +19,7 @@ public class Demontor extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It casts illusions that entrance its prey with their deepest desires, allowing it to feed without a struggle. Those whose life it has drained become its minions."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 43, 58, .2, List.of(

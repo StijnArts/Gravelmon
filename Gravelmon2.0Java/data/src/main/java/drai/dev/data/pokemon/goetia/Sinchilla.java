@@ -19,11 +19,12 @@ public class Sinchilla extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It saps the body heat from whoever it scurries on, causing shivering, chills, and fatigue. Its mini-chillas have their own consciousnesses and link onto each other’s tails so none of them ever get lost."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 55, 65, .01, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST))
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

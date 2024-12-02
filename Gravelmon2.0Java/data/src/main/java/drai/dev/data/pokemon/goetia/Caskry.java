@@ -25,7 +25,7 @@ public class Caskry extends drai.dev.data.pokemon.Pokemon {
                 List.of("It is born when a grave falls into neglect. Its mournful sobbing echoes in the night air."),
                 List.of(new EvolutionEntry("mausomber", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"41")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 42, 3, List.of(

@@ -24,7 +24,7 @@ public class Wyverserk extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("It once went on a rampage that destroyed half of the region, causing unforetold amounts of damage. It is said if you see Wyverserk, a battle will soon unfold."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MYSTIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

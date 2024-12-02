@@ -24,7 +24,7 @@ public class Flowter extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Flowter's body is tempered and strong enough to prey on its former predators. Because of their passive lifestyle, the head and tentacles often develop a generous coating of green algae."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

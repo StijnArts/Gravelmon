@@ -25,7 +25,7 @@ public class Dessicat extends drai.dev.data.pokemon.Pokemon {
                 List.of("It attacks anyone attempting to plunder its resting place. Those who escape it are plagued with bad luck."),
                 List.of(new EvolutionEntry("mummoth", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 35, 4, List.of(

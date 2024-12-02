@@ -25,7 +25,7 @@ public class Caesoil extends drai.dev.data.pokemon.Pokemon {
                 List.of("Caesoil has underdeveloped eyes so it uses its nose to find its way. It loses its gills and begins to breathe air as it matures."),
                 List.of(new EvolutionEntry("mudragon", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 1, 32, 4.4, List.of(

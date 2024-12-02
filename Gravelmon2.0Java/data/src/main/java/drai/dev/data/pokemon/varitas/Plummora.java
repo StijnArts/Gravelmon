@@ -24,7 +24,7 @@ public class Plummora extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FLYING),
                 List.of("When it spreads out the feathers around its neck, they refract light to create a brilliant bluish green glow. It uses this ability mainly for elaborate mating dances. This flower-like orientation of feathers is oddly similar to Glimmora which gave it its name"),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.VARITAS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

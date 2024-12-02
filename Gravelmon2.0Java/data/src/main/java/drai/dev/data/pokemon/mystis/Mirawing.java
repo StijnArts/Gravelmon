@@ -24,7 +24,7 @@ public class Mirawing extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Mirawing is the form Psyclaw takes when it fully realises its power for good. They shrink in size to grow wings, and use them to fly and bring light to everyone."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MYSTIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

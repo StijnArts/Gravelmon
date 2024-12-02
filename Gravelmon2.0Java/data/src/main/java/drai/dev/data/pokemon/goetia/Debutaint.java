@@ -25,7 +25,7 @@ public class Debutaint extends drai.dev.data.pokemon.Pokemon {
                 List.of("It has a fussy disposition, hating to do anything that might muss up its appearance. The strength of its poison is linked to how vibrant its colors are."),
                 List.of(new EvolutionEntry("promenude", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 29, 4.8, List.of(

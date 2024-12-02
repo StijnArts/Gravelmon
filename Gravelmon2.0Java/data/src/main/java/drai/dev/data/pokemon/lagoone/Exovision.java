@@ -74,7 +74,7 @@ public class Exovision extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_3),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.LAGOONE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 36, 54, .4, List.of(

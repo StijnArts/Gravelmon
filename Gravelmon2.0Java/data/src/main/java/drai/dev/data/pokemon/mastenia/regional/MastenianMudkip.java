@@ -24,7 +24,7 @@ public class MastenianMudkip extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Mastenian Mudkip bathes in mud rich in different minerals. Licking off rust of shipwrecks is considered a delicacy for it."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MASTENIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

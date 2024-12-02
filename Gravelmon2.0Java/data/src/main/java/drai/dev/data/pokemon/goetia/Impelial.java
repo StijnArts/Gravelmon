@@ -25,7 +25,7 @@ public class Impelial extends drai.dev.data.pokemon.Pokemon {
                 List.of("A small trickster that loves pranks and mischief, especially when someone is hurt by it. They are surprisingly loyal companions to users of the dark arts."),
                 List.of(new EvolutionEntry("ashmodeus", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"31")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 36, 4.5, List.of(

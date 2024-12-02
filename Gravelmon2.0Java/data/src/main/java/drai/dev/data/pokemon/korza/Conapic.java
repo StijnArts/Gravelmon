@@ -24,7 +24,7 @@ public class Conapic extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Boreed which became more active swimmers evolved into Conapic. Though fierce looking, their sharp teeth were believed to only be for scavenging."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

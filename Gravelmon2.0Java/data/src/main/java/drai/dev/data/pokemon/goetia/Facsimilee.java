@@ -25,7 +25,7 @@ public class Facsimilee extends drai.dev.data.pokemon.Pokemon {
                 List.of("It transforms into humans and tries to blend into society, but makes subtle mistakes that give it away. It comes up with complicated schemes to get whatever it wants"),
                 List.of(new EvolutionEntry("theftidee", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 22, 41, .5, List.of(

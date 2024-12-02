@@ -24,7 +24,7 @@ public class Kelocean extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.FORM),
                 0, List.of(
                 ), SpawnContext.SURFACE, SpawnPool.RARE, 40, 59, .6, List.of(

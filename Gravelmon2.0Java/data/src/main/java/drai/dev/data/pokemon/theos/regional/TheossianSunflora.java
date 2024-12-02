@@ -24,7 +24,7 @@ public class TheossianSunflora extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("The strong sunlight of Theos allows Theosian Sunflora to convert their excess energy into powerful solar attacks."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -19,7 +19,7 @@ public class Glowyrm extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Glowyrm is the final evolution of Lumini, a predator that runs swiftly and catches its enemies off guard. Because they use their lights to attract both prey and mates, they tend to be quite hostile."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 32, 51, .2, List.of(

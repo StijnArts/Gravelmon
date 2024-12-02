@@ -24,7 +24,7 @@ public class Quaduris extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("This Ultra Beast's world is created from the shells of giant, ancient Quaduris. The people of this world live in harmony with the creatures, using them to build their cities and as companions."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

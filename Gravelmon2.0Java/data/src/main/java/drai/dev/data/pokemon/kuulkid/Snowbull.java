@@ -25,7 +25,7 @@ public class Snowbull extends drai.dev.data.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("abominabull", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"minecraft:iron_helmet")),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 13, 43, 4.4, List.of(

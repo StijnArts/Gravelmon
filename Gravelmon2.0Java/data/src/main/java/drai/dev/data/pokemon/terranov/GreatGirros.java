@@ -19,7 +19,7 @@ public class GreatGirros extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Its fangs are contain a paralysing venom that can be inflicted on its foes with a single bite. Its red gills can make rattle-like noise, calling its pack from far away to aid it in battle."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

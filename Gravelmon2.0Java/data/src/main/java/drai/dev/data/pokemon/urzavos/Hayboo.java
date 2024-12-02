@@ -24,7 +24,7 @@ public class Hayboo extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.GRASS),
                 List.of("These 'Mons like to hide in dry grass, and often get scooped up into hay barrels. They are prolific in farm areas, and are looked on favorably as they pick weeds to weave into hats."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.URZAVOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

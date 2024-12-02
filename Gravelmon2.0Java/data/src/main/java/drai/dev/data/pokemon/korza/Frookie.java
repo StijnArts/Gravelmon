@@ -24,7 +24,7 @@ public class Frookie extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Frookie swing along treetops, though their grip isn't strong and they often fall to the ground. Their bodies secret a rubbery latex that hardens on the body, helping to absorb impact from these falls."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

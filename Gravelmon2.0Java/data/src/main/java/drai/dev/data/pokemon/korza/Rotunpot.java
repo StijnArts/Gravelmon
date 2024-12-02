@@ -24,7 +24,7 @@ public class Rotunpot extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Rotunpot will travel great distances in order to discover new places and food. Its large pouch can turn stored berries into a delicious and healthy juice."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

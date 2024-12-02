@@ -19,7 +19,7 @@ public class Hierophant extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It roams the land spreading the knowledge it attained from reaching enlightenment. It seeks to bring peace and understanding to the world."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 54, 2, List.of(

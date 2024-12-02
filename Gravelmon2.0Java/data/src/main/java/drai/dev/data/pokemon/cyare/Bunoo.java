@@ -25,7 +25,7 @@ public class Bunoo extends drai.dev.data.pokemon.Pokemon {
                 List.of("Buudoo is a spirit finding peace in a doll. Although cute, it likes to poke people."),
                 List.of(new EvolutionEntry("boobun", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 28, 5.4, List.of(

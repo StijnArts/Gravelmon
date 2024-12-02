@@ -19,7 +19,7 @@ public class Guruvelt extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It uses its webs to neutralize electricity and subdue its prey without issue."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 26, 51, .76, List.of(

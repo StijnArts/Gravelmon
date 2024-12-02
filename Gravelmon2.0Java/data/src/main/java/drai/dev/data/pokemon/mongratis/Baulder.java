@@ -24,7 +24,7 @@ public class Baulder extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Baulder carry around a rock given to them soon after birth by its parents. They gnaw on this rock every chance they get, as it seems to sharpen their teeth."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

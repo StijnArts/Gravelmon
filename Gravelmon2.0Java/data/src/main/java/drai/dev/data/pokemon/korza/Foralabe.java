@@ -24,7 +24,7 @@ public class Foralabe extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Foralabe's shell has a special compound which can manipulate light and become invisible within water. Once anything gets within reach, there is no escape from its psychic pull."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

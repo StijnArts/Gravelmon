@@ -24,7 +24,7 @@ public class Radarola extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MINERAL),
                 List.of("Researchers argue about whether this Pokémon should be considered a Mystian Roggenrola, as genetic studies have been inconclusive. It can emit weak electromagnetic pulses from the appendage on its head."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MYSTIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

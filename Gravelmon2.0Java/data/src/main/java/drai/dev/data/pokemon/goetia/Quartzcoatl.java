@@ -19,7 +19,7 @@ public class Quartzcoatl extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Quartzcoatl ruled the sky millions of years ago, shining with the colors of the rainbow. At least one survived into the age of humans where an ancient civilization revered it as a god."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 40, 55, .4, List.of(

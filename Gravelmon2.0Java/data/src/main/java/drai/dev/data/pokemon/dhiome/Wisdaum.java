@@ -24,7 +24,7 @@ public class Wisdaum extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD,EggGroup.HUMAN_LIKE),
                 List.of("It lives in seclusion, defending its tail with its four hands. It is said that the sound of its tail is the sound of enlightenment itself."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.DHIOME),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

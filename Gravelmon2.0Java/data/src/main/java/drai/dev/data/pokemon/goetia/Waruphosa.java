@@ -19,7 +19,7 @@ public class Waruphosa extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It uses its brutish strength to coerce other bug pokemon to do its bidding. Anyone who disputes the territory it claims for itself is crushed without mercy."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 54, .4, List.of(

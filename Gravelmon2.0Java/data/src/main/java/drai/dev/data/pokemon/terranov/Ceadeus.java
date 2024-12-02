@@ -19,7 +19,7 @@ public class Ceadeus extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Legendary elder dragons known as both 'shining giants of the depths' and 'great sea dragons.' Not confirmed to exist until recently. The Moga quakes were due to a Ceadeus butting its abnormally long horns into the earth."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

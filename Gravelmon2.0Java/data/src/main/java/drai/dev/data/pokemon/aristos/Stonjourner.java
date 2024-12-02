@@ -25,7 +25,7 @@ public class Stonjourner extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MINERAL),
                 List.of("It stands in grasslands, watching the sun's descent from zenith to horizon. This Pokemon has a talent for delivering dynamic kicks."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ARISTOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

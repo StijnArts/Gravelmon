@@ -24,7 +24,7 @@ public class Gumbarachnid extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Don't be fooled, the bright-coloured balls inside this pokemon's abdomen are its eggs and young. Gumbarachnids violently shake their abdomens when threatened, creating a disorienting rattling sound."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 21, 43, .3, List.of(

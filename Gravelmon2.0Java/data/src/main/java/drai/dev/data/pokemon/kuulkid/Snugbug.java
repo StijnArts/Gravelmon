@@ -27,7 +27,7 @@ public class Snugbug extends drai.dev.data.pokemon.Pokemon {
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"12"))),
                         new EvolutionEntry("mothmother", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"190")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 7, 18, 1, List.of(

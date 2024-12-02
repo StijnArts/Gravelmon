@@ -19,7 +19,7 @@ public class Monstale extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("The fog it emits causes sailors to hallucinate. It crashes into their ship with its massive tusks and drags them to the depths"),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 35, 60, .1, List.of(

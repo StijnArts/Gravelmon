@@ -19,11 +19,12 @@ public class Andrymir extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Andrymir is an ancient ancestor of Thycicle that ruled the ice age thousands of years ago. Anything caught in its double jaws is frozen solid and shattered."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 44, 59, .2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST))
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

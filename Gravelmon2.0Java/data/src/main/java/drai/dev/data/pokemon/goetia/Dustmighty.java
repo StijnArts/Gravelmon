@@ -19,7 +19,7 @@ public class Dustmighty extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Even its own nose is affected by the cloud of filth that wafts under it. It commands Mustmites as if they were an extension of itself."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA, Label.JOKE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 25, 42, .5, List.of(

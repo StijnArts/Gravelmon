@@ -25,7 +25,7 @@ public class Zapupa extends drai.dev.data.pokemon.Pokemon {
                 List.of("It lures other pokemon in using the bright glow of its body, only to shock and paralyze them."),
                 List.of(new EvolutionEntry("Buzzkill", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 15, 31, 1, List.of(

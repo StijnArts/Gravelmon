@@ -24,7 +24,7 @@ public class Lindrake extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Lindrake live deep within damp woods, rarely sighted. Their tail leaves shed often, and are swept up into piles to sleep in."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

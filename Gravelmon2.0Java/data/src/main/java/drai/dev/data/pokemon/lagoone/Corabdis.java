@@ -24,7 +24,7 @@ public class Corabdis extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("Many sailors don't acknowledge it as a Pokemon but as a sea devil. As it opens its massive claw, the vacuum creates huge whirlpools sinking down even the mightiest ships to the bottom of the sea."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.LAGOONE),
                 0, List.of(
                 ), SpawnContext.SEAFLOOR, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(

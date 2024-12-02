@@ -25,7 +25,7 @@ public class Corashu extends drai.dev.data.pokemon.Pokemon {
                 List.of("Corashu (Normal Form) is still getting used to dry land. Its insides contains water, making it possible to survive far away from any natural water source. While exploring more effectively, it transforms into an odd shaped coral, hovering around at high speeds."),
                 List.of(new EvolutionEntry("campullion", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 16, 40, 0.9, List.of(

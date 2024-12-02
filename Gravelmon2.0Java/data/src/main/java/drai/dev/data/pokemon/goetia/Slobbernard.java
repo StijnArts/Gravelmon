@@ -19,7 +19,7 @@ public class Slobbernard extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Despite its large size, it is gentle and sweet. Inside the container of ice it carries are items to aid travelers on snowy mountains. It has saved countless lives."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 34, 54, .1, List.of(

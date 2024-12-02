@@ -24,7 +24,7 @@ public class Qoxipus extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MONSTER,EggGroup.WATER_1),
                 List.of("The outer layer of its skin is covered with a poisonous liquid coming from devouring the toxic silt of the waters. It wouldn't be wise to touch."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OLYSOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

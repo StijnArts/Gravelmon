@@ -19,7 +19,7 @@ public class Bogchamp extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Having found its way to its ancestral spawning grounds, it has grown relaxed and complacent. Fishermen who try to catch it often feel as if they’re being taunted by it."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 32, 54, .4, List.of(

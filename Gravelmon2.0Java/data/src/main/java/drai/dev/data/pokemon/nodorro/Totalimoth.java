@@ -24,7 +24,7 @@ public class Totalimoth extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("For thousands of years, Totalimoth have been worshipped by ancient cultures as messangers of the moon. Legends say that every time Totalimoth lost faith in humanity, it was able to convince the moon to cover the sun as punishment."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.NODORRO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

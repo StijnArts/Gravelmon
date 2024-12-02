@@ -19,7 +19,7 @@ public class Liviscous extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It contaminates everything it touches with its secretions which cause sneezing and coughing. Even when at rest inside its kettle, built-up slime will suddenly spray out without any warning."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SEAFLOOR, SpawnPool.ULTRA_RARE, 55, 65, .01, List.of(

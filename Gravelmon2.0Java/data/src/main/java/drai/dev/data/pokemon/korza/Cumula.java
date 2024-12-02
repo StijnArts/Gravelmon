@@ -24,7 +24,7 @@ public class Cumula extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Cumula travels where the wind takes it. When the wind dies down, it tethers itself to high places, waiting for the wind to pick back up and carry it away again."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

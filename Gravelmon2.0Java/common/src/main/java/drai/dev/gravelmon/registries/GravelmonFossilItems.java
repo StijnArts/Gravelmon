@@ -838,6 +838,34 @@ public class GravelmonFossilItems {
             ),
             "filter_fossil",
             "dauspector");
+    public static RegistrySupplier<Item> RADIATION_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.SUNSCORCHED_REMAINS.uncommon(),
+                    BaseCobblemonDigSites.DRIPSTONE_OASIS.uncommon()
+            ),
+            "radiation_fossil",
+            "chawrecks");
+    public static RegistrySupplier<Item> CRESTED_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.SUNSCORCHED_REMAINS.uncommon(),
+                    BaseCobblemonDigSites.DRIPSTONE_OASIS.uncommon()
+            ),
+            "crested_fossil",
+            "pternair");
+    public static RegistrySupplier<Item> FROZEN_BRANCH = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.SUNSCORCHED_REMAINS.uncommon(),
+                    BaseCobblemonDigSites.DRIPSTONE_OASIS.uncommon()
+            ),
+            "frozen_branch",
+            "branceros");
+    public static RegistrySupplier<Item> TUSK_ICICLE = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.SUNSCORCHED_REMAINS.uncommon(),
+                    BaseCobblemonDigSites.DRIPSTONE_OASIS.uncommon()
+            ),
+            "tusk_icicle",
+            "icephan");
 
     public static void touch() {}
 }

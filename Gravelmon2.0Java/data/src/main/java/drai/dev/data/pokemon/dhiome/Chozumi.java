@@ -24,7 +24,7 @@ public class Chozumi extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD,EggGroup.FAIRY),
                 List.of("It communicates via signals transmitted from the tip of its tail. Its ears have adapted to pick up signals from miles away."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.DHIOME),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

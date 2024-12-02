@@ -19,7 +19,7 @@ public class Beelobuzz extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("An obnoxious pest that relentlessly pursues the smell of blood to feed on. When they begin to swarm, you had better take shelter before you’re covered in itchy bite marks."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 7, 28, 3, List.of(

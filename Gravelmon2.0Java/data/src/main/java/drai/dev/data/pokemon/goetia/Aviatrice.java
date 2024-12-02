@@ -19,7 +19,7 @@ public class Aviatrice extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It lives in the sky, never setting foot on the ground. By using its balloon to sense atmospheric conditions, it avoids getting caught in bad weather."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 51, .6, List.of(

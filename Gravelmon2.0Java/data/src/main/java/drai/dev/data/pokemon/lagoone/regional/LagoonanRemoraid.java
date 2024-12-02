@@ -27,7 +27,7 @@ public class LagoonanRemoraid extends drai.dev.data.pokemon.Pokemon {
                         List.of(),List.of(),"cobblemon:ice_stone"),
                         new EvolutionEntry("octillery lagoonan", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.LAGOONE),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 13, 36, 3.8, List.of(

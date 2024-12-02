@@ -67,15 +67,15 @@ public class Pteragon extends drai.dev.data.pokemon.Pokemon {
                         69,
                         118),
                 List.of(), null,
-                UnitConverter.feetToMeters(0, 0), 0,
-                new Stats(0,0,0,0,0,0), 0,
+                UnitConverter.feetToMeters(3, 4), 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ALDAO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
@@ -85,6 +85,7 @@ public class Pteragon extends drai.dev.data.pokemon.Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Pteragon");
 
     }

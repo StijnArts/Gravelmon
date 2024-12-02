@@ -25,7 +25,7 @@ public class Frogolate extends drai.dev.data.pokemon.Pokemon {
                 List.of("Frogolates are often skittish, keeping a safe distance from any threats that come their way. It is a common folktale that if you follow a Frogolate's tracks, it will lead to a flowing river of chocolate."),
                 List.of(new EvolutionEntry("freddophibian", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"minecraft:cocoa_beans")),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 20, 41, .4, List.of(

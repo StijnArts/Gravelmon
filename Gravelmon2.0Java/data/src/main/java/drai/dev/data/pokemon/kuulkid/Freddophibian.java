@@ -24,7 +24,7 @@ public class Freddophibian extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("The lumps on Freddophibian's back can be detached from their bodies rather easily. The liquid produced inside them is used to make most commercially made chocolate delicacies in the Kuulkid region."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 39, 56, .2, List.of(

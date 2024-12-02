@@ -19,7 +19,7 @@ public class GreatWroggi extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Wroggi are bird wyverns that travel in packs that are led by largest and most toxic member. Be careful when one raises its head and its poison sac expands signaling that it's about to spit a cloud of poisonous mist."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

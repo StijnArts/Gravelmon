@@ -25,7 +25,7 @@ public class Aukward extends drai.dev.data.pokemon.Pokemon {
                 List.of("It has poor sense of balance, which makes it self-conscious."),
                 List.of(new EvolutionEntry("puffoon", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 16, 41, 1.2, List.of(

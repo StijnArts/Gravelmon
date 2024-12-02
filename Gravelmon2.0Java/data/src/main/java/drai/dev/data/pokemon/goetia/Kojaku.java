@@ -25,7 +25,7 @@ public class Kojaku extends drai.dev.data.pokemon.Pokemon {
                 List.of("It is said that looking into its eyespots brings bad luck."),
                 List.of(new EvolutionEntry("fujaku", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 36, 4, List.of(

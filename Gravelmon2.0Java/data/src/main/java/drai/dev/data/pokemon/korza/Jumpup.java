@@ -24,7 +24,7 @@ public class Jumpup extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Friendly and energetic, Jumpup are popular with kids. Capable of jumping very high, but often don't watch where they land. Because of this, Jumpup spin safety threads to escape danger."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

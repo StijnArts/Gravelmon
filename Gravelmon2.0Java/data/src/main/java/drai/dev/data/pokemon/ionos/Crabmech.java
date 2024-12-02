@@ -24,7 +24,7 @@ public class Crabmech extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("This heavy Crustacea has a hard time leaving the bottom of the ocean due to its weight. Crabmech feeds on scrap such as the parts of a shipwreck."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

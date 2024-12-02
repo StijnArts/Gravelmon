@@ -19,7 +19,7 @@ public class Tenchondri extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_2),
                 List.of("It feeds on lost souls, detected with its sensitive nose. If you find yourself besieged by one, throw a handful of pepper at it, and it will sneeze, sending it back where it came from."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CROZOIC),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 35, 54, .6, List.of(

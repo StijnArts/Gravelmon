@@ -25,7 +25,7 @@ public class Rotegg extends drai.dev.data.pokemon.Pokemon {
                 List.of("Old stories say any pokemon egg can become a Rotegg if neglected or treated with ill intent. Its rancid odor gets stronger as it approaches evolution."),
                 List.of(new EvolutionEntry("fowlest", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 6, 32, 4, List.of(

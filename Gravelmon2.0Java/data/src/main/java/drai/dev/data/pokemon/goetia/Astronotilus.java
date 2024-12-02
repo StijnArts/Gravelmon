@@ -19,7 +19,7 @@ public class Astronotilus extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Its body is sealed inside an organic suit that protects it from atmospheric pressure. It inquisitively examines things with its tentacles for unknown purposes. We do not yet know where it came from."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 27, 51, 1.4, List.of(

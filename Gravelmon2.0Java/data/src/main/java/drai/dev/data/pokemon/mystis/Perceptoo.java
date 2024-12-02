@@ -24,7 +24,7 @@ public class Perceptoo extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FLYING),
                 List.of("It can use the blue spot on its forehead to see the future. Judging by how it reacts shortly after, a trainer can somewhat tell whats going to happen."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MYSTIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

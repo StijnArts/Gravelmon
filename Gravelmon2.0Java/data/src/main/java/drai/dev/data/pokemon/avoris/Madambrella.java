@@ -24,7 +24,7 @@ public class Madambrella extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Being sensitive to sunlight, they carry parasols for protection. They spend the night collecting and wearing valuable items of those that were once living."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.AVORIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

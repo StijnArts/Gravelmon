@@ -24,7 +24,7 @@ public class Stonk extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Stonk emits a strong-smelling, poisonous fume from the top of its shell, which deters predators. Its shell is very sturdy and able to take a lot of hits."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

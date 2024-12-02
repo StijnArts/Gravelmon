@@ -24,7 +24,7 @@ public class Orchespyre extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Orchespyre's wings are hollow, connected directly to the pokemon's inner flames, making the flames that burst out of them incredibly loud and hot. Orchespyre has a stance that it uses to intimidate foes."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.KORZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

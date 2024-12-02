@@ -25,7 +25,7 @@ public class Salimute extends drai.dev.data.pokemon.Pokemon {
                 List.of("Loyal and hardworking, it can pull a sled for a full day without tiring. Its drool creates a path on the ground that will lead you back to civilization if you follow it."),
                 List.of(new EvolutionEntry("slobbernard", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 17, 41, 1.1, List.of(

@@ -19,7 +19,7 @@ public class Aardvolt extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Static electricity courses through its body, causing its mane and tail to stand on end."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 37, 1.5, List.of(

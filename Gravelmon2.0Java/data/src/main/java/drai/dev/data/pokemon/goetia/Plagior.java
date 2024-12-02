@@ -19,7 +19,7 @@ public class Plagior extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("A parasite that takes control of its host’s body from within, leaving only once it finds its next host. It secretes toxins to prevent the host from fighting back as it slowly eats their soul."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 43, 1.5, List.of(

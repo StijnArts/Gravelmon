@@ -19,7 +19,7 @@ public class Phantrella extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Whether the sun is shining or the rain is pouring down, this Pokémon will do anything in order to protect you from the elements. The ferulle on its snout is rather small however and may not work as intended."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 41, 1.8, List.of(
