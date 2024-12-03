@@ -6,12 +6,12 @@
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 71,
+    "attack": 73,
+    "defence": 71,
+    "special_attack": 25,
+    "special_defence": 55,
+    "speed": 30
   },
   "behaviour": {
     "resting": {
@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 190,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -53,7 +53,23 @@
   "pokedex": [
     "cobblemon.species.scub.desc"
   ],
-  "baseScale": 0.1,
+  "evolutions": [
+    {
+      "id": "scub_pangoleo",
+      "variant": "level_up",
+      "result": "pangoleo",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.11666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -68,7 +84,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 7,
   "weight": 0,
   "aspects": [],
 "features": [

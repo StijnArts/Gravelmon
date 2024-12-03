@@ -7,17 +7,17 @@
       "id": "forman_dunsparce-01",
       "pokemon": "dunsparce forman",
       "presets": [
-        "natural"
+        "natural",
+        "near_water"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "13-32",
+      "weight": 6.75,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_forest"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -41,7 +41,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "6-25",
-      "weight": 4.0,
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#minecraft:is_end"
@@ -66,7 +66,7 @@
       "context": "surface",
       "bucket": "uncommon",
       "level": "12-39",
-      "weight": 1.8,
+      "weight": 2.7,
       "condition": {
         "biomes": [
           "#cobblemon:is_freshwater"
@@ -93,7 +93,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "12-41",
-      "weight": 1.8,
+      "weight": 2.7,
       "condition": {
         "biomes": [
           "#cobblemon:is_arid"

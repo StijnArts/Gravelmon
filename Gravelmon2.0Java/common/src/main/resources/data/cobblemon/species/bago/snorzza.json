@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "Snorzza",
-  "nationalPokedexNumber": 3698,
+  "nationalPokedexNumber": 3707,
   "primaryType": "normal",
   "abilities": [
     "keeneye"  ],
@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 147,
+  "catchRate": 70,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -53,7 +53,7 @@
   "pokedex": [
     "cobblemon.species.snorzza.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -68,7 +68,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 14,
   "weight": 0,
   "aspects": [],
 "features": [

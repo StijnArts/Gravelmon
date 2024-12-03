@@ -13,12 +13,14 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "5-25",
-      "weight": 3.0,
+      "weight": 4.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_mushroom",
           "#cobblemon:is_taiga"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

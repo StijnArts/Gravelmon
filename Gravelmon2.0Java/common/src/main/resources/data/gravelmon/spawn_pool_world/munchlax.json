@@ -13,11 +13,13 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "5-31",
-      "weight": 4.0,
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy_forest"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -38,11 +40,13 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "3-22",
-      "weight": 4.0,
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_forest"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
         "biomes": [
@@ -69,7 +73,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "24-39",
-      "weight": 9.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky",
@@ -97,7 +101,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "5-23",
-      "weight": 6.0,
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_floral"
@@ -125,7 +129,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "3-22",
-      "weight": 5.4,
+      "weight": 8.100000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"

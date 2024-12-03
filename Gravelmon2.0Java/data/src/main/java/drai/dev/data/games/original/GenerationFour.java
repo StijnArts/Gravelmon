@@ -67,7 +67,7 @@ public class GenerationFour extends Game {
         addNewPokemon(new PalmianGabite("", Aspect.PALMIAN).setUsesBigModel());
         addNewPokemon(new PalmianGarchomp("", Aspect.PALMIAN, new Stats(600, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.DEFENCE, StatType.ATTACK, StatType.ATTACK))).setUsesBigModel());
 
-        addNewPokemon(new RaianianGible("", Aspect.RAIANIAN).setUsesBigModel()); //TODO
+        addNewPokemon(new RaianianGible("", Aspect.RAIANIAN).setUsesBigModel());
         addNewPokemon(new RaianianGabite("", Aspect.RAIANIAN).setUsesBigModel());
         addNewPokemon(new RaianianGarchomp("", Aspect.RAIANIAN, new Stats(600, BULKY_SUPPORT, List.of(ATTACK, ATTACK, ATTACK))).setUsesBigModel());
         addNewPokemon(new RaianianLucario("", Aspect.RAIANIAN, new Stats(525, FAST_SPECIAL_ATTACKER, List.of(SPEED))).setUsesBigModel());
@@ -77,7 +77,7 @@ public class GenerationFour extends Game {
         addNewPokemon(new TrizoranGabite("", Aspect.TRIZORAN).setUsesBigModel());
         addNewPokemon(new TrizoranGarchomp("", Aspect.TRIZORAN, new Stats(600, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPEED, StatType.SPECIAL_ATTACK))).setUsesBigModel());
 
-        addNewPokemon(new NorseGible("", Aspect.NORSE).setUsesBigModel()); //TODO
+        addNewPokemon(new NorseGible("", Aspect.NORSE).setUsesBigModel());
         addNewPokemon(new NorseGabite("", Aspect.NORSE).setUsesBigModel());
         addNewPokemon(new NorseGarchomp("", Aspect.NORSE, new Stats(600, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE, StatType.DEFENCE, StatType.DEFENCE))).setUsesBigModel());
 

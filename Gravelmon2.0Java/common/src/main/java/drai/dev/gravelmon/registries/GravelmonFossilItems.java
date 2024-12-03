@@ -866,6 +866,20 @@ public class GravelmonFossilItems {
             ),
             "tusk_icicle",
             "icephan");
+    public static RegistrySupplier<Item> TERROR_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.SUSPICIOUS_MOUND.uncommon(),
+                    BaseCobblemonDigSites.FROZEN_SPIKE.uncommon()
+            ),
+            "terror_fossil",
+            "tryambeak");
+    public static RegistrySupplier<Item> BIG_BEAK_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.SUSPICIOUS_MOUND.uncommon(),
+                    BaseCobblemonDigSites.FROZEN_SPIKE.uncommon()
+            ),
+            "big_beak_fossil",
+            "nodoo");
 
     public static void touch() {}
 }

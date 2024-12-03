@@ -11,9 +11,9 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "rare",
+      "level": "13-38",
+      "weight": 8.100000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_sky",

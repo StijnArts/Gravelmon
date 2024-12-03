@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "35-54",
-      "weight": 0.2,
+      "weight": 0.30000000000000004,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"
@@ -41,7 +41,7 @@
       "context": "submerged",
       "bucket": "rare",
       "level": "45-60",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"
@@ -68,7 +68,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "52-68",
-      "weight": 0.07,
+      "weight": 0.10500000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_arid"

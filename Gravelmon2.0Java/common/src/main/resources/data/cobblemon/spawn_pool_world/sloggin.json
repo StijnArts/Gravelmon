@@ -13,7 +13,7 @@
       "context": "seafloor",
       "bucket": "uncommon",
       "level": "3-22",
-      "weight": 3.8,
+      "weight": 5.699999999999999,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"

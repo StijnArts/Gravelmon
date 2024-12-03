@@ -14,7 +14,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "9-28",
-      "weight": 5.4,
+      "weight": 8.100000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_beach"
@@ -41,7 +41,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "6-26",
-      "weight": 4.0,
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"

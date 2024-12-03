@@ -22,7 +22,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -55,6 +55,22 @@
   "pokedex": [
     "cobblemon.species.drubat.desc"
   ],
+  "evolutions": [
+    {
+      "id": "drubat_foliwing",
+      "variant": "level_up",
+      "result": "foliwing",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -70,7 +86,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 3,
   "weight": 0,
   "aspects": [],
 "features": [

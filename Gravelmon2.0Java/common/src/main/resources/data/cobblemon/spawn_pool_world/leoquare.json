@@ -7,17 +7,16 @@
       "id": "leoquare-01",
       "pokemon": "leoquare",
       "presets": [
-        "natural"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "34-56",
+      "weight": 1.0499999999999998,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_savanna"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

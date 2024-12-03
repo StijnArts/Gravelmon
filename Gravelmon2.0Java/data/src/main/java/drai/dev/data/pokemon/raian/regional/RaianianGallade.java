@@ -11,8 +11,8 @@ public class RaianianGallade extends drai.dev.data.pokemon.Pokemon {
                 Type.ELECTRIC,Type.FIGHTING,
                 stats,
                 List.of(), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                17, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -22,7 +22,7 @@ public class RaianianGallade extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 30, 52, 0.0625, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
@@ -30,7 +30,8 @@ public class RaianianGallade extends drai.dev.data.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("Gallade");
-
+            addAdditionalEvolution("kirlia", new EvolutionEntry("raianiangallade", EvolutionType.ITEM_INTERACT, false, List.of(),
+                    List.of(),List.of(),"cobblemon:thunder_stone"));
     }
 
 

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "Mawata",
-  "nationalPokedexNumber": 3321,
+  "nationalPokedexNumber": 3319,
   "primaryType": "fairy",
   "secondaryType": "water",
   "abilities": [
@@ -27,16 +27,16 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
-  "catchRate": 45,
+  "catchRate": 3,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -55,7 +55,7 @@
   "pokedex": [
     "cobblemon.species.mawata.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -70,7 +70,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 16,
   "weight": 0,
   "aspects": [],
 "features": [

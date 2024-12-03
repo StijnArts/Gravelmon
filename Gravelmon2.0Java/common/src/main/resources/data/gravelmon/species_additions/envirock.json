@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 181,
+  "catchRate": 100,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -69,7 +69,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 5,
   "weight": 0,
   "aspects": ["cave"],
   "cannotDynamax": false
@@ -110,7 +110,7 @@
         }
     }
   },
-  "catchRate": 181,
+  "catchRate": 100,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -147,7 +147,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 5,
   "weight": 0,
   "aspects": ["forest"],
   "cannotDynamax": false
@@ -184,11 +184,11 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
-  "catchRate": 185,
+  "catchRate": 100,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -225,7 +225,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 5,
   "weight": 0,
   "aspects": ["sea"],
   "cannotDynamax": false

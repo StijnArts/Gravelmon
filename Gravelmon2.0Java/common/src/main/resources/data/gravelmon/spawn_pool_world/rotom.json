@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "40-65",
-      "weight": 6.0,
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical"
@@ -40,7 +40,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "40-65",
-      "weight": 6.0,
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical"
@@ -67,7 +67,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "40-65",
-      "weight": 6.0,
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical"
@@ -94,7 +94,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "40-65",
-      "weight": 6.0,
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical"
@@ -121,7 +121,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "40-65",
-      "weight": 6.0,
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical"
@@ -148,7 +148,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "40-65",
-      "weight": 6.0,
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical"
@@ -175,7 +175,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "40-65",
-      "weight": 6.0,
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical"
@@ -202,7 +202,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "40-65",
-      "weight": 6.0,
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical"
@@ -229,7 +229,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "40-65",
-      "weight": 6.0,
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical"

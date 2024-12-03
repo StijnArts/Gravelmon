@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "13-42",
-      "weight": 3.0,
+      "weight": 4.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_savanna"

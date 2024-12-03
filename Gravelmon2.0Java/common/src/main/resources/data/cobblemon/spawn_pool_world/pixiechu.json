@@ -13,11 +13,13 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "27-49",
-      "weight": 0.02,
+      "weight": 0.03,
       "condition": {
         "biomes": [
-          "#cobblemon:is_magical"
-        ]
+          "#cobblemon:is_spooky"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

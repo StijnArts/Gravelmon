@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 58,
+  "catchRate": 45,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -56,7 +56,7 @@
   "pokedex": [
     "cobblemon.species.raianianlucario.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -71,7 +71,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 14,
   "weight": 0,
   "aspects": ["raianian"],
   "cannotDynamax": false

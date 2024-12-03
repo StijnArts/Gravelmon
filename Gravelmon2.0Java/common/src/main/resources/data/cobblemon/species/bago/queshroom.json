@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "Queshroom",
-  "nationalPokedexNumber": 3719,
+  "nationalPokedexNumber": 3725,
   "primaryType": "fairy",
   "secondaryType": "fire",
   "abilities": [
@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 107,
+  "catchRate": 90,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -50,12 +50,15 @@
     "1:ember"  ],
   "labels": [
     "bago",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.queshroom.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "moulcheese",
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -70,7 +73,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 12,
   "weight": 0,
   "aspects": [],
 "features": [

@@ -67,7 +67,6 @@ public class GenerationTwo extends Game {
 
         addNewPokemon(new IvrisianSmeargle("", Aspect.IVRISIAN).setUsesBigModel()); //TODO
 
-        //TODO
         addNewPokemon(new RaianianScizor("", Aspect.RAIANIAN, new Stats(500, BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))).setUsesBigModel());
         addNewPokemon(new RaianianNoctowl("", Aspect.RAIANIAN, new Stats(542, BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))).setUsesBigModel());
         addNewPokemon(new RaianianChinchou("", Aspect.RAIANIAN).setUsesBigModel().fishingSpawnFromExisting());
@@ -77,7 +76,7 @@ public class GenerationTwo extends Game {
 
         addNewPokemon(new TrizoranSkarmory("", Aspect.TRIZORAN).setUsesBigModel()); //TODO
 
-        addNewPokemon(new NorsePichu("", Aspect.NORSE).setUsesBigModel()); //TODO
+        addNewPokemon(new NorsePichu("", Aspect.NORSE).setUsesBigModel());
         addNewPokemon(new NorseSentret("", Aspect.NORSE).setUsesBigModel());
         addNewPokemon(new NorseFurret("", Aspect.NORSE, new Stats(415, StatArchetype.SPECIAL_WALL, List.of(StatType.HP))).setUsesBigModel());
 //

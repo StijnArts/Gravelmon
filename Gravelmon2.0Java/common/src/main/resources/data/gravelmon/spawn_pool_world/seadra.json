@@ -7,17 +7,16 @@
       "id": "forman_seadra-01",
       "pokemon": "seadra forman",
       "presets": [
-        "natural"
+        "underwater"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "32-46",
+      "weight": 1.7999999999999998,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#minecraft:is_deep_ocean"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -41,7 +40,7 @@
       "context": "submerged",
       "bucket": "common",
       "level": "24-38",
-      "weight": 1.1,
+      "weight": 1.6500000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -69,7 +68,7 @@
       "context": "submerged",
       "bucket": "uncommon",
       "level": "27-43",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"
@@ -96,7 +95,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "32-44",
-      "weight": 0.18,
+      "weight": 0.27,
       "condition": {
         "biomes": [
           "#cobblemon:is_cold_ocean"

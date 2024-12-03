@@ -13,11 +13,13 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "31-54",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical"
         ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "day"
       },
       "weightMultiplier": {

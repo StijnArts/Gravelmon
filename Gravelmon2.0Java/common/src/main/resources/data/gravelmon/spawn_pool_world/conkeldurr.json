@@ -13,11 +13,13 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "41-57",
-      "weight": 0.3,
+      "weight": 0.44999999999999996,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
         ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       },
       "weightMultiplier": {
@@ -39,11 +41,13 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "40-57",
-      "weight": 0.1,
+      "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
-          "#cobblemon:is_old_growth_taiga"
-        ]
+          "#cobblemon:is_spooky"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -64,11 +68,13 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "40-56",
-      "weight": 0.1,
+      "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_forest"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
         "biomes": [
@@ -95,11 +101,13 @@
       "context": "grounded",
       "bucket": "common",
       "level": "41-50",
-      "weight": 0.06,
+      "weight": 0.09,
       "condition": {
         "biomes": [
           "#cobblemon:is_forest"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

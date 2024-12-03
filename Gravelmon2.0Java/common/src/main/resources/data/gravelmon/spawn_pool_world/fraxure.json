@@ -13,7 +13,7 @@
       "context": "submerged",
       "bucket": "rare",
       "level": "37-46",
-      "weight": 0.54,
+      "weight": 0.81,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -40,7 +40,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "38-51",
-      "weight": 0.4,
+      "weight": 0.6000000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_mountain"

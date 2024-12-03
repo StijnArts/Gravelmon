@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "20-41",
-      "weight": 1.1,
+      "weight": 1.6500000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:has_season/summer",

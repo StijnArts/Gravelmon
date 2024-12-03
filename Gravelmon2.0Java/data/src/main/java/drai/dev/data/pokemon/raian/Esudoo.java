@@ -11,9 +11,9 @@ public class Esudoo extends drai.dev.data.pokemon.Pokemon {
                 Type.PSYCHIC,Type.DARK,
                 stats,
                 List.of(), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
-                0.5,
+                16, 0,
+                new Stats(0,0,0,0,0,0), 45,
+                0,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(),
@@ -22,8 +22,9 @@ public class Esudoo extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 36, 51, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

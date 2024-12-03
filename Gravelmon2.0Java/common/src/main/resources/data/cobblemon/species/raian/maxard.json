@@ -6,12 +6,12 @@
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 40,
+    "attack": 62,
+    "defence": 43,
+    "special_attack": 21,
+    "special_defence": 43,
+    "speed": 73
   },
   "behaviour": {
     "resting": {
@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 170,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -45,7 +45,9 @@
     "field"
   ],
   "moves": [
-    "1:mudslap"  ],
+    "1:mudslap",
+    "1:healbell",
+    "1:vacuumwave"  ],
   "labels": [
     "raian",
     "not_modeled"
@@ -53,7 +55,21 @@
   "pokedex": [
     "cobblemon.species.maxard.desc"
   ],
-  "baseScale": 0.1,
+  "evolutions": [
+    {
+      "id": "maxard_triagon",
+      "variant": "item_interact",
+      "result": "Triagon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:metal_coat",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -68,7 +84,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 8,
   "weight": 0,
   "aspects": [],
 "features": [

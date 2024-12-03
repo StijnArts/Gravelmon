@@ -7,12 +7,12 @@
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 54,
+    "attack": 69,
+    "defence": 79,
+    "special_attack": 45,
+    "special_defence": 67,
+    "speed": 45
   },
   "behaviour": {
     "resting": {
@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 90,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -47,13 +47,34 @@
   ],
   "moves": [
     "1:mudslap",
-    "1:absorb"  ],
+    "1:absorb",
+    "1:shoreup",
+    "1:synthesis",
+    "1:healbell",
+    "1:poisonpowder"  ],
   "labels": [
     "fra",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.potthos.desc"
+  ],
+  "preEvolution": "potling",
+  "evolutions": [
+    {
+      "id": "potthos_gardelem",
+      "variant": "item_interact",
+      "result": "gardelem",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:peat_block",
+      "permanent": true   
+ }
   ],
   "baseScale": 0.1,
   "hitbox": {
@@ -70,7 +91,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 5,
   "weight": 0,
   "aspects": [],
 "features": [

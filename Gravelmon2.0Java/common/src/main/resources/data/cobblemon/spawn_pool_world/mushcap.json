@@ -13,12 +13,14 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "5-24",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_mushroom",
           "#cobblemon:is_magical"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

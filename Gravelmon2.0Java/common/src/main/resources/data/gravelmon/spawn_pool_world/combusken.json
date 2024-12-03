@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "16-32",
-      "weight": 8.0,
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_desert"
@@ -38,14 +38,14 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "16-29",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
         ],
-        "timeRange": "night",
         "minSkyLight": 8,
-        "maxSkyLight": 15
+        "maxSkyLight": 15,
+        "timeRange": "night"
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -66,7 +66,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "16-40",
-      "weight": 0.9,
+      "weight": 1.35,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"

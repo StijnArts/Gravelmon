@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "9-32",
-      "weight": 4.0,
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "minecraft:cherry_grove",
@@ -41,7 +41,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "8-35",
-      "weight": 4.3,
+      "weight": 6.449999999999999,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"
@@ -75,7 +75,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "6-31",
-      "weight": 5.4,
+      "weight": 8.100000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"
@@ -107,7 +107,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "3-22",
-      "weight": 12.0,
+      "weight": 18.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"
@@ -135,7 +135,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "12-30",
-      "weight": 4.0,
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_desert"
@@ -162,7 +162,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "12-30",
-      "weight": 4.0,
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_savanna"

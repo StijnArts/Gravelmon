@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 106,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -48,12 +48,15 @@
     "1:leafage"  ],
   "labels": [
     "aldao",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.gorriotto.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "hochiki",
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -68,7 +71,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 12,
   "weight": 0,
   "aspects": [],
 "features": [

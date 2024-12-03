@@ -1,10 +1,12 @@
 {
   "implemented": true,
   "name": "Marmink",
-  "nationalPokedexNumber": 3725,
+  "nationalPokedexNumber": 3689,
   "primaryType": "water",
   "abilities": [
-    "keeneye"  ],
+    "torrent",
+    "h:overcoat"
+  ],
   "baseStats": {
     "hp": 0,
     "attack": 0,
@@ -31,11 +33,11 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -53,6 +55,22 @@
   "pokedex": [
     "cobblemon.species.marmink.desc"
   ],
+  "evolutions": [
+    {
+      "id": "marmink_marshten",
+      "variant": "level_up",
+      "result": "marshten",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -68,7 +86,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 5,
   "weight": 0,
   "aspects": [],
 "features": [

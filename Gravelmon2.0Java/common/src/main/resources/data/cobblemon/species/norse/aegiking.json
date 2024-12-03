@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 58,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -52,12 +52,15 @@
     "1:vacuumwave"  ],
   "labels": [
     "not_modeled",
+    "fakemon",
+    "fakemonevolution",
     "norse"
   ],
   "pokedex": [
     "cobblemon.species.aegiking.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "royray",
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -72,7 +75,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 27,
   "weight": 0,
   "aspects": [],
 "features": [

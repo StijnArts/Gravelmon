@@ -1,17 +1,17 @@
 {
   "implemented": true,
   "name": "Grouwary",
-  "nationalPokedexNumber": 3303,
+  "nationalPokedexNumber": 3301,
   "primaryType": "ground",
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 91,
-    "attack": 109,
-    "defence": 75,
-    "special_attack": 38,
-    "special_defence": 75,
-    "speed": 109
+    "hp": 100,
+    "attack": 120,
+    "defence": 83,
+    "special_attack": 42,
+    "special_defence": 83,
+    "speed": 120
   },
   "behaviour": {
     "resting": {
@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 72,
+  "catchRate": 30,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,

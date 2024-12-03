@@ -11,13 +11,13 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "rare",
+      "level": "24-53",
+      "weight": 3.75,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:nether/is_crimson",
+          "#cobblemon:nether/is_wasteland"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -41,7 +41,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "39-57",
-      "weight": 0.3,
+      "weight": 0.44999999999999996,
       "condition": {
         "biomes": [
           "#minecraft:is_end"
@@ -66,7 +66,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "12-30",
-      "weight": 5.4,
+      "weight": 8.100000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_desert"
@@ -93,7 +93,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "29-52",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_wasteland"
@@ -118,7 +118,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "31-54",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#minecraft:is_end"
@@ -143,7 +143,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "29-52",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical"

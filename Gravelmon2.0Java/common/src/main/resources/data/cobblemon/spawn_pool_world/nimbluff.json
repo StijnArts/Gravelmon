@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "24-43",
-      "weight": 1.4,
+      "weight": 2.0999999999999996,
       "condition": {
         "biomes": [
           "#cobblemon:is_sky",

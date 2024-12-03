@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "19-39",
-      "weight": 1.1,
+      "weight": 1.6500000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"
@@ -40,7 +40,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "21-42",
-      "weight": 1.1,
+      "weight": 1.6500000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"

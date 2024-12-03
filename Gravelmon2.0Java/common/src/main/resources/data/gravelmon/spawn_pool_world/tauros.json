@@ -7,20 +7,17 @@
       "id": "forman_tauros-01",
       "pokemon": "tauros forman",
       "presets": [
-        "natural"
+        "desert_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "rare",
+      "level": "23-43",
+      "weight": 2.4000000000000004,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+          "#cobblemon:is_desert"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -41,7 +38,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "23-45",
-      "weight": 0.4,
+      "weight": 0.6000000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"
@@ -68,7 +65,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "28-47",
-      "weight": 1.6,
+      "weight": 2.4000000000000004,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"

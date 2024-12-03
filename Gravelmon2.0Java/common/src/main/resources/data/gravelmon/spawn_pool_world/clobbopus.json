@@ -13,7 +13,7 @@
       "context": "seafloor",
       "bucket": "uncommon",
       "level": "9-31",
-      "weight": 4.4,
+      "weight": 6.6000000000000005,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -40,7 +40,7 @@
       "context": "submerged",
       "bucket": "uncommon",
       "level": "10-30",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_cold_ocean"
@@ -52,7 +52,6 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:target_block",
             "minecraft:target_block"
           ]
         }
@@ -65,7 +64,7 @@
       "context": "fishing",
       "bucket": "uncommon",
       "level": "10-30",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_cold_ocean"
@@ -75,7 +74,6 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:target_block",
             "minecraft:target_block"
           ]
         }

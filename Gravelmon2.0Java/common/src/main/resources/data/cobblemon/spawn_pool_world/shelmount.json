@@ -7,17 +7,17 @@
       "id": "shelmount-01",
       "pokemon": "shelmount",
       "presets": [
-        "natural"
+        "underwater",
+        "reef"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "40-61",
+      "weight": 0.6000000000000001,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_cold_ocean"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

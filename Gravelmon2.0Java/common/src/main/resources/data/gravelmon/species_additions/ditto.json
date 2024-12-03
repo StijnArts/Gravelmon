@@ -35,13 +35,13 @@
         }
     }
   },
-  "catchRate": 193,
+  "catchRate": 80,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "eggGroups": [
-    "field"
+    "undiscovered"
   ],
   "moves": [
     "1:acid"  ],
@@ -51,6 +51,20 @@
   ],
   "pokedex": [
     "cobblemon.species.formanditto.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "ditto_animon",
+      "variant": "item_interact",
+      "result": "animon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:metal_coat",
+      "permanent": true   
+ }
   ],
   "baseScale": 0.1,
   "hitbox": {
@@ -67,7 +81,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 6,
   "weight": 0,
   "aspects": ["forman"],
   "cannotDynamax": false

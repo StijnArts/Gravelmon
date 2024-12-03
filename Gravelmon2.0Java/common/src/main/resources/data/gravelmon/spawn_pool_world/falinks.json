@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "3-22",
-      "weight": 3.8,
+      "weight": 5.699999999999999,
       "condition": {
         "biomes": [
           "#cobblemon:is_sky",
@@ -41,7 +41,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "21-46",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#minecraft:is_end"
@@ -66,7 +66,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "22-47",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_beach",

@@ -6,12 +6,12 @@
   "abilities": [
     "sturdy"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 74,
+    "attack": 74,
+    "defence": 51,
+    "special_attack": 31,
+    "special_defence": 57,
+    "speed": 51
   },
   "behaviour": {
     "resting": {
@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 110,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -53,6 +53,46 @@
   "pokedex": [
     "cobblemon.species.kangabo.desc"
   ],
+  "evolutions": [
+    {
+      "id": "kangabo_kangaskhan_forman",
+      "variant": "level_up",
+      "result": "kangaskhan forman",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 200
+        },
+        {
+          "variant": "properties",
+          "target": gender=female,
+          "contains": true
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "kangabo_kangatank",
+      "variant": "level_up",
+      "result": "kangatank",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 200
+        },
+        {
+          "variant": "properties",
+          "target": gender=male,
+          "contains": true
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -68,7 +108,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 6,
   "weight": 0,
   "aspects": [],
 "features": [

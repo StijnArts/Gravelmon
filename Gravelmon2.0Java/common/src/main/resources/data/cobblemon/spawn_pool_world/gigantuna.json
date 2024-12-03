@@ -13,7 +13,7 @@
       "context": "submerged",
       "bucket": "common",
       "level": "31-54",
-      "weight": 0.3,
+      "weight": 0.44999999999999996,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"
@@ -25,7 +25,6 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:prismarine",
             "minecraft:prismarine"
           ]
         }
@@ -38,7 +37,7 @@
       "context": "fishing",
       "bucket": "common",
       "level": "31-54",
-      "weight": 0.3,
+      "weight": 0.44999999999999996,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"
@@ -48,7 +47,6 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:prismarine",
             "minecraft:prismarine"
           ]
         }

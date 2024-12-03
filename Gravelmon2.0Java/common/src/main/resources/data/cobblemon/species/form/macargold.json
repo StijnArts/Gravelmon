@@ -52,11 +52,14 @@
     "1:shoreup"  ],
   "labels": [
     "form",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.macargold.desc"
   ],
+  "preEvolution": "slugma form=forman",
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,

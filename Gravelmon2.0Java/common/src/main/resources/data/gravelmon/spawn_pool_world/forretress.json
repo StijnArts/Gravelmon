@@ -11,16 +11,20 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "31-51",
+      "weight": 1.2000000000000002,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_overworld"
         ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        "minSkyLight": 0,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -41,7 +45,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "33-54",
-      "weight": 1.0,
+      "weight": 1.5,
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
@@ -61,7 +65,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "31-47",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_old_growth_taiga"

@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "15-45",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:has_season/summer"
@@ -46,7 +46,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "15-45",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_tropical_island",
@@ -74,7 +74,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "15-45",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle",
@@ -102,7 +102,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "15-45",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_old_growth_taiga"

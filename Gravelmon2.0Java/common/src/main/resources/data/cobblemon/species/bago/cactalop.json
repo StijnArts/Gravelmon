@@ -1,10 +1,13 @@
 {
   "implemented": true,
   "name": "Cactalop",
-  "nationalPokedexNumber": 3684,
+  "nationalPokedexNumber": 3693,
   "primaryType": "grass",
   "abilities": [
-    "keeneye"  ],
+    "ironbarbs",
+    "waterabsorb",
+    "h:sandrush"
+  ],
   "baseStats": {
     "hp": 63,
     "attack": 113,
@@ -35,7 +38,7 @@
         }
     }
   },
-  "catchRate": 107,
+  "catchRate": 120,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -49,12 +52,15 @@
     "1:grassyglide"  ],
   "labels": [
     "bago",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.cactalop.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "picact",
+  "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -69,7 +75,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 14,
   "weight": 0,
   "aspects": [],
 "features": [

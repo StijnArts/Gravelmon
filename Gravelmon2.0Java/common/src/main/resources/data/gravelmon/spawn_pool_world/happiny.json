@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "5-25",
-      "weight": 5.4,
+      "weight": 8.100000000000001,
       "condition": {
         "biomes": [
           "#minecraft:is_end"
@@ -38,7 +38,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "1-22",
-      "weight": 4.0,
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_forest"
@@ -63,7 +63,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "12-22",
-      "weight": 5.0,
+      "weight": 7.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_savanna"

@@ -126,7 +126,7 @@
   "pokedex": [
     "cobblemon.species.formansuicune.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -141,7 +141,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 24,
   "weight": 0,
   "aspects": ["forman"],
   "cannotDynamax": false

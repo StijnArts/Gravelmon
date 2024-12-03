@@ -49,11 +49,14 @@
     "1:disarmingvoice"  ],
   "labels": [
     "form",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.formangranbull.desc"
   ],
+  "preEvolution": "snubbull form=forman",
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,

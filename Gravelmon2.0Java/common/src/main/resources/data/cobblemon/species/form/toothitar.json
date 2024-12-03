@@ -6,12 +6,12 @@
   "abilities": [
     "roughskin"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 60,
+    "attack": 108,
+    "defence": 63,
+    "special_attack": 32,
+    "special_defence": 63,
+    "speed": 91
   },
   "behaviour": {
     "resting": {
@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -45,15 +45,35 @@
     "field"
   ],
   "moves": [
-    "1:scratch"  ],
+    "1:scratch",
+    "1:quickattack"  ],
   "labels": [
     "form",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.toothitar.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "larvitar form=forman",
+  "evolutions": [
+    {
+      "id": "toothitar_rodanitar",
+      "variant": "level_up",
+      "result": "Rodanitar",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 55
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -68,7 +88,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 13,
   "weight": 0,
   "aspects": [],
 "features": [

@@ -7,20 +7,20 @@
       "id": "forman_geodude-01",
       "pokemon": "geodude forman",
       "presets": [
-        "natural"
+        "natural",
+        "gemstones"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "7-29",
+      "weight": 10.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_cave"
         ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -41,7 +41,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "12-23",
-      "weight": 4.0,
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_volvanic",
@@ -67,7 +67,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "3-22",
-      "weight": 3.8,
+      "weight": 5.699999999999999,
       "condition": {
         "biomes": [
           "#minecraft:is_end"
@@ -92,7 +92,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "10-30",
-      "weight": 7.0,
+      "weight": 10.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"

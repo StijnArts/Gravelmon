@@ -12,12 +12,11 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "6-33",
+      "weight": 7.199999999999999,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_beach"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -26,7 +25,6 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:prismarine",
             "minecraft:prismarine"
           ]
         }
@@ -38,19 +36,17 @@
       "type": "pokemon",
       "context": "fishing",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "6-33",
+      "weight": 7.199999999999999,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_beach"
         ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:prismarine",
             "minecraft:prismarine"
           ]
         }

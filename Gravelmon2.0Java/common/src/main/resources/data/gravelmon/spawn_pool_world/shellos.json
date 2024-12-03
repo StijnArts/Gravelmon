@@ -13,7 +13,7 @@
       "context": "seafloor",
       "bucket": "uncommon",
       "level": "6-31",
-      "weight": 1.3,
+      "weight": 1.9500000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -40,7 +40,7 @@
       "context": "seafloor",
       "bucket": "uncommon",
       "level": "6-31",
-      "weight": 1.3,
+      "weight": 1.9500000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -67,7 +67,7 @@
       "context": "seafloor",
       "bucket": "uncommon",
       "level": "6-31",
-      "weight": 1.3,
+      "weight": 1.9500000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -94,7 +94,7 @@
       "context": "seafloor",
       "bucket": "uncommon",
       "level": "6-31",
-      "weight": 1.3,
+      "weight": 1.9500000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -121,7 +121,7 @@
       "context": "seafloor",
       "bucket": "uncommon",
       "level": "6-31",
-      "weight": 1.3,
+      "weight": 1.9500000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -148,7 +148,7 @@
       "context": "seafloor",
       "bucket": "uncommon",
       "level": "6-31",
-      "weight": 1.3,
+      "weight": 1.9500000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -175,7 +175,7 @@
       "context": "seafloor",
       "bucket": "uncommon",
       "level": "6-31",
-      "weight": 1.3,
+      "weight": 1.9500000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -202,7 +202,7 @@
       "context": "seafloor",
       "bucket": "uncommon",
       "level": "6-31",
-      "weight": 1.3,
+      "weight": 1.9500000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -229,7 +229,7 @@
       "context": "seafloor",
       "bucket": "uncommon",
       "level": "6-31",
-      "weight": 1.3,
+      "weight": 1.9500000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -256,7 +256,7 @@
       "context": "seafloor",
       "bucket": "uncommon",
       "level": "6-31",
-      "weight": 1.3,
+      "weight": 1.9500000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -283,7 +283,7 @@
       "context": "seafloor",
       "bucket": "uncommon",
       "level": "6-31",
-      "weight": 1.3,
+      "weight": 1.9500000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -310,7 +310,7 @@
       "context": "seafloor",
       "bucket": "uncommon",
       "level": "6-31",
-      "weight": 1.3,
+      "weight": 1.9500000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -337,7 +337,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "7-27",
-      "weight": 3.0,
+      "weight": 4.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_cave"
@@ -364,7 +364,7 @@
       "context": "seafloor",
       "bucket": "common",
       "level": "8-22",
-      "weight": 3.0,
+      "weight": 4.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"

@@ -13,7 +13,7 @@
       "context": "submerged",
       "bucket": "uncommon",
       "level": "32-53",
-      "weight": 0.7,
+      "weight": 1.0499999999999998,
       "condition": {
         "biomes": [
           "#minecraft:is_deep_ocean"
@@ -39,7 +39,7 @@
       "context": "submerged",
       "bucket": "rare",
       "level": "30-49",
-      "weight": 0.5,
+      "weight": 0.75,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -66,11 +66,13 @@
       "context": "submerged",
       "bucket": "common",
       "level": "30-46",
-      "weight": 0.8,
+      "weight": 1.2000000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical"
         ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       },
       "weightMultiplier": {

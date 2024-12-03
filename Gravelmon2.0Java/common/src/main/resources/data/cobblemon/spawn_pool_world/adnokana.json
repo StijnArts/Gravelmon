@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "44-63",
-      "weight": 0.45,
+      "weight": 0.675,
       "condition": {
         "biomes": [
           "#cobblemon:is_arid"

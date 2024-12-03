@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 0,
+  "catchRate": 255,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -53,6 +53,22 @@
   "pokedex": [
     "cobblemon.species.bombat.desc"
   ],
+  "evolutions": [
+    {
+      "id": "bombat_thermobat",
+      "variant": "level_up",
+      "result": "thermobat",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -68,7 +84,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 3,
   "weight": 0,
   "aspects": [],
 "features": [

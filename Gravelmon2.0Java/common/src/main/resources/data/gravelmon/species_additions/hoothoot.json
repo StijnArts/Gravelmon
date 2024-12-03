@@ -1,5 +1,25 @@
 {
    "target": "cobblemon:hoothoot",
+  "evolutions": [
+    {
+      "id": "hoothoot_raianiannoctowl",
+      "variant": "level_up",
+      "result": "raianiannoctowl",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 22
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_mountain"
+        }
+      ],
+      "permanent": true   
+ }
+  ],
    "forms": [{
   "name": "Fabelian",
   "primaryType": "dark",
@@ -81,12 +101,12 @@
   "abilities": [
     "telepathy"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 84,
+    "attack": 23,
+    "defence": 37,
+    "special_attack": 49,
+    "special_defence": 100,
+    "speed": 13
   },
   "behaviour": {
     "resting": {
@@ -110,7 +130,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 220,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -120,7 +140,9 @@
   ],
   "moves": [
     "1:confusion",
-    "1:gust"  ],
+    "1:gust",
+    "1:bulkup",
+    "1:bulkup"  ],
   "labels": [
     "form",
     "not_modeled"
@@ -128,7 +150,23 @@
   "pokedex": [
     "cobblemon.species.formanhoothoot.desc"
   ],
-  "baseScale": 0.1,
+  "evolutions": [
+    {
+      "id": "hoothoot_nownowl",
+      "variant": "level_up",
+      "result": "nownowl",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 20
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -143,7 +181,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 8,
   "weight": 0,
   "aspects": ["forman"],
   "cannotDynamax": false

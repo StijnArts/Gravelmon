@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "25-40",
-      "weight": 0.9,
+      "weight": 1.35,
       "condition": {
         "biomes": [
           "#cobblemon:is_mountain"
@@ -40,7 +40,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "25-40",
-      "weight": 0.9,
+      "weight": 1.35,
       "condition": {
         "biomes": [
           "#cobblemon:is_mountain"
@@ -67,7 +67,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "3-22",
-      "weight": 5.4,
+      "weight": 8.100000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical"

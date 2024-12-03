@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "5-35",
-      "weight": 4.0,
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_volvanic"
@@ -40,7 +40,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "11-36",
-      "weight": 9.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_volvanic"

@@ -13,7 +13,7 @@
       "context": "submerged",
       "bucket": "common",
       "level": "3-22",
-      "weight": 2.4,
+      "weight": 3.5999999999999996,
       "condition": {
         "biomes": [
           "#cobblemon:has_season/winter",

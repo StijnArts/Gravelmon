@@ -7,20 +7,24 @@
       "id": "potling-01",
       "pokemon": "potling",
       "presets": [
-        "natural"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "13-35",
+      "weight": 7.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_overworld"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_arid"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

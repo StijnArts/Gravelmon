@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:chawrecks",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:embryo_chawrecks",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/chawrecks.png",
+      "layers": []
+    }
+  ]
+}

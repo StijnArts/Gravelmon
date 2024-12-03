@@ -13,11 +13,13 @@
       "context": "grounded",
       "bucket": "common",
       "level": "4-23",
-      "weight": 5.4,
+      "weight": 8.100000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy_forest"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -38,7 +40,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "5-21",
-      "weight": 7.0,
+      "weight": 10.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"

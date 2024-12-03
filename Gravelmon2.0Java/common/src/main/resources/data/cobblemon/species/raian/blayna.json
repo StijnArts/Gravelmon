@@ -7,12 +7,12 @@
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 94,
+    "attack": 67,
+    "defence": 79,
+    "special_attack": 28,
+    "special_defence": 61,
+    "speed": 34
   },
   "behaviour": {
     "resting": {
@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -47,15 +47,36 @@
   ],
   "moves": [
     "1:ember",
-    "1:mudslap"  ],
+    "1:mudslap",
+    "1:bulkup",
+    "1:shoreup"  ],
   "labels": [
     "raian",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.blayna.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "hymbr",
+  "evolutions": [
+    {
+      "id": "blayna_ertheno",
+      "variant": "level_up",
+      "result": "Ertheno",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -70,7 +91,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 9,
   "weight": 0,
   "aspects": [],
 "features": [

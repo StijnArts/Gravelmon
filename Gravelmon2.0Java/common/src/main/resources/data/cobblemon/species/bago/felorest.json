@@ -1,10 +1,12 @@
 {
   "implemented": true,
   "name": "Felorest",
-  "nationalPokedexNumber": 3713,
+  "nationalPokedexNumber": 3685,
   "primaryType": "grass",
   "abilities": [
-    "keeneye"  ],
+    "overgrow",
+    "h:effectspore"
+  ],
   "baseStats": {
     "hp": 73,
     "attack": 111,
@@ -35,7 +37,7 @@
         }
     }
   },
-  "catchRate": 66,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -49,12 +51,15 @@
     "1:grassyglide"  ],
   "labels": [
     "bago",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.felorest.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "taillico",
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -69,7 +74,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 15,
   "weight": 0,
   "aspects": [],
 "features": [

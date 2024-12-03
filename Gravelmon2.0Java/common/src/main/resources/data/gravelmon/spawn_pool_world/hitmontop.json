@@ -11,13 +11,12 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "20-46",
+      "weight": 0.30000000000000004,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_beach"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -41,11 +40,13 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "31-45",
-      "weight": 0.2,
+      "weight": 0.30000000000000004,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -66,11 +67,13 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "20-46",
-      "weight": 0.2,
+      "weight": 0.30000000000000004,
       "condition": {
         "biomes": [
-          "#cobblemon:is_magical"
-        ]
+          "#cobblemon:is_spooky"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -91,7 +94,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "20-46",
-      "weight": 0.2,
+      "weight": 0.30000000000000004,
       "condition": {
         "biomes": [
           "#cobblemon:is_mountain"
@@ -119,11 +122,13 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "20-46",
-      "weight": 0.2,
+      "weight": 0.30000000000000004,
       "condition": {
         "biomes": [
-          "#cobblemon:is_magical"
-        ]
+          "#cobblemon:is_spooky"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

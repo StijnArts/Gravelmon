@@ -1,17 +1,17 @@
 {
   "implemented": true,
   "name": "Gargaitor",
-  "nationalPokedexNumber": 3306,
+  "nationalPokedexNumber": 3304,
   "primaryType": "water",
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 108,
-    "attack": 129,
-    "defence": 70,
-    "special_attack": 41,
-    "special_defence": 79,
-    "speed": 70
+    "hp": 119,
+    "attack": 142,
+    "defence": 77,
+    "special_attack": 45,
+    "special_defence": 87,
+    "speed": 77
   },
   "behaviour": {
     "resting": {
@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 72,
+  "catchRate": 30,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -53,7 +53,7 @@
   "pokedex": [
     "cobblemon.species.gargaitor.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -68,7 +68,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 24,
   "weight": 0,
   "aspects": [],
 "features": [

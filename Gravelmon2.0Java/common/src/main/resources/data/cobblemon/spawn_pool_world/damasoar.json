@@ -14,7 +14,7 @@
       "context": "surface",
       "bucket": "ultra-rare",
       "level": "36-53",
-      "weight": 0.1,
+      "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_frozen",

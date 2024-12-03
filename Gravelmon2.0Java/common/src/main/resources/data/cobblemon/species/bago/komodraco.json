@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "Komodraco",
-  "nationalPokedexNumber": 3704,
+  "nationalPokedexNumber": 3713,
   "primaryType": "poison",
   "abilities": [
     "keeneye"  ],
@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 66,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -48,12 +48,15 @@
     "1:poisonsting"  ],
   "labels": [
     "bago",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.komodraco.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "komoxic",
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -68,7 +71,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 15,
   "weight": 0,
   "aspects": [],
 "features": [

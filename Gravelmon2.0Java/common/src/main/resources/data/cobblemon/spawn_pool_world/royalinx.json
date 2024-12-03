@@ -7,20 +7,17 @@
       "id": "royalinx-01",
       "pokemon": "royalinx",
       "presets": [
-        "natural"
+        "desert_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "33-54",
+      "weight": 1.0499999999999998,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+          "#cobblemon:is_desert"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

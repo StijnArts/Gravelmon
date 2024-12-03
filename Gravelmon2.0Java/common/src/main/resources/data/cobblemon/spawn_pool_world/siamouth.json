@@ -14,7 +14,7 @@
       "context": "submerged",
       "bucket": "rare",
       "level": "23-46",
-      "weight": 1.2,
+      "weight": 1.7999999999999998,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"
@@ -26,7 +26,6 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:prismarine",
             "minecraft:prismarine"
           ]
         }
@@ -39,7 +38,7 @@
       "context": "fishing",
       "bucket": "rare",
       "level": "23-46",
-      "weight": 1.2,
+      "weight": 1.7999999999999998,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"
@@ -49,7 +48,6 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:prismarine",
             "minecraft:prismarine"
           ]
         }

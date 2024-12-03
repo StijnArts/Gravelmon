@@ -11,9 +11,9 @@ public class Freyter extends drai.dev.data.pokemon.Pokemon {
                 Type.FIGHTING,
                 stats,
                 List.of(Ability.STEADFAST), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
-                0.5,
+                25, 0,
+                new Stats(0,0,0,0,0,0), 30,
+                1,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(),
@@ -22,8 +22,8 @@ public class Freyter extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 33, 48, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

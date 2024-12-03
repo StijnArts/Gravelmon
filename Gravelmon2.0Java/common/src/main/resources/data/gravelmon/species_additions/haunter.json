@@ -7,12 +7,12 @@
   "abilities": [
     "steadfast"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 49,
+    "attack": 76,
+    "defence": 52,
+    "special_attack": 26,
+    "special_defence": 52,
+    "speed": 90
   },
   "behaviour": {
     "resting": {
@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 120,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -46,15 +46,33 @@
   ],
   "moves": [
     "1:tackle",
-    "1:acid"  ],
+    "1:poisonsting",
+    "1:extremespeed",
+    "1:quickattack"  ],
   "labels": [
     "form",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.formanhaunter.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "gastly form=forman",
+  "evolutions": [
+    {
+      "id": "haunter_gengar_forman",
+      "variant": "trade",
+      "result": "gengar forman",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -69,7 +87,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 14,
   "weight": 0,
   "aspects": ["forman"],
   "cannotDynamax": false

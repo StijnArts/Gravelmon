@@ -1,11 +1,11 @@
 {
   "implemented": true,
   "name": "Serfierno",
-  "nationalPokedexNumber": 3722,
+  "nationalPokedexNumber": 3688,
   "primaryType": "fire",
   "secondaryType": "poison",
   "abilities": [
-    "keeneye"  ],
+    "blaze"  ],
   "baseStats": {
     "hp": 73,
     "attack": 39,
@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 66,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -52,11 +52,14 @@
     "1:vacuumwave"  ],
   "labels": [
     "bago",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.serfierno.desc"
   ],
+  "preEvolution": "serfiery",
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,

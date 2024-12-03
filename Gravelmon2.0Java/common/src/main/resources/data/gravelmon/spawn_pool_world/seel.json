@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "3-22",
-      "weight": 3.8,
+      "weight": 5.699999999999999,
       "condition": {
         "biomes": [
           "#cobblemon:is_sky",
@@ -26,7 +26,6 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:prismarine",
             "minecraft:prismarine"
           ]
         }
@@ -39,7 +38,7 @@
       "context": "fishing",
       "bucket": "common",
       "level": "3-22",
-      "weight": 3.8,
+      "weight": 5.699999999999999,
       "condition": {
         "biomes": [
           "#cobblemon:is_sky",
@@ -50,7 +49,6 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:prismarine",
             "minecraft:prismarine"
           ]
         }
@@ -64,16 +62,20 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "11-36",
+      "weight": 7.050000000000001,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_coast"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_beach"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -94,7 +96,7 @@
       "context": "submerged",
       "bucket": "uncommon",
       "level": "11-32",
-      "weight": 3.0,
+      "weight": 4.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_coast"
@@ -126,7 +128,7 @@
       "context": "submerged",
       "bucket": "common",
       "level": "8-33",
-      "weight": 9.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean",
@@ -152,7 +154,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "3-22",
-      "weight": 4.0,
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_coast"
@@ -179,7 +181,7 @@
       "context": "submerged",
       "bucket": "common",
       "level": "9-33",
-      "weight": 9.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"

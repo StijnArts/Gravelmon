@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "34-51",
-      "weight": 0.3,
+      "weight": 0.44999999999999996,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"
@@ -40,7 +40,7 @@
       "context": "surface",
       "bucket": "common",
       "level": "39-54",
-      "weight": 0.5,
+      "weight": 0.75,
       "condition": {
         "biomes": [
           "#minecraft:is_nether"
@@ -65,7 +65,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "38-50",
-      "weight": 0.2,
+      "weight": 0.30000000000000004,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"
@@ -93,7 +93,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "38-44",
-      "weight": 0.2,
+      "weight": 0.30000000000000004,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_basalt",
@@ -120,7 +120,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "31-58",
-      "weight": 0.2,
+      "weight": 0.30000000000000004,
       "condition": {
         "biomes": [
           "#cobblemon:is_desert"
@@ -148,7 +148,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "35-47",
-      "weight": 0.18,
+      "weight": 0.27,
       "condition": {
         "biomes": [
           "#cobblemon:is_beach"

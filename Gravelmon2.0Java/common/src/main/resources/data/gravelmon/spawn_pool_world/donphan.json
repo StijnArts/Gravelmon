@@ -7,17 +7,17 @@
       "id": "raianian_donphan-01",
       "pokemon": "donphan raianian",
       "presets": [
-        "natural"
+        "natural",
+        "near_water"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "25-48",
+      "weight": 1.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_desert"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -40,8 +40,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "25-48",
+      "weight": 0.8999999999999999,
       "condition": {
         "biomes": [
           "#cobblemon:is_sky",
@@ -69,7 +69,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "26-48",
-      "weight": 0.5,
+      "weight": 0.75,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"
@@ -102,7 +102,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "51-58",
-      "weight": 0.6,
+      "weight": 0.8999999999999999,
       "condition": {
         "biomes": [
           "#cobblemon:is_savanna"
@@ -129,7 +129,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "31-54",
-      "weight": 0.4,
+      "weight": 0.6000000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"

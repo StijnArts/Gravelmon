@@ -13,7 +13,7 @@
       "context": "surface",
       "bucket": "rare",
       "level": "41-54",
-      "weight": 0.5,
+      "weight": 0.75,
       "condition": {
         "biomes": [
           "#cobblemon:is_cold_ocean"

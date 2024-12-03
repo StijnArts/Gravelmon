@@ -14,7 +14,7 @@
       "context": "submerged",
       "bucket": "rare",
       "level": "23-46",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"
@@ -39,7 +39,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "23-44",
-      "weight": 2.3,
+      "weight": 3.4499999999999997,
       "condition": {
         "biomes": [
           "#cobblemon:is_tropical",

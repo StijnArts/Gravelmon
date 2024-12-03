@@ -11,16 +11,13 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "39-67",
+      "weight": 0.44999999999999996,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+          "#cobblemon:nether/is_basalt"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -41,7 +38,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "35-54",
-      "weight": 0.3,
+      "weight": 0.44999999999999996,
       "condition": {
         "biomes": [
           "#cobblemon:is_freezing"

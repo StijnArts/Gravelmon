@@ -75,7 +75,7 @@ public class GenerationThree extends Game {
         addNewPokemon(new FerranianShelgon("", Aspect.FERRANIAN).setUsesBigModel());
         addNewPokemon(new FerranianSalamence("", Aspect.FERRANIAN).setUsesBigModel());
 
-        addNewPokemon(new RaianianWhismur("", Aspect.RAIANIAN).setUsesBigModel()); //TODO
+        addNewPokemon(new RaianianWhismur("", Aspect.RAIANIAN).setUsesBigModel());
         addNewPokemon(new RaianianLoudred("", Aspect.RAIANIAN).setUsesBigModel());
         addNewPokemon(new RaianianExploud("", Aspect.RAIANIAN, new Stats(490, PHYSICAL_ATTACKER, List.of(HP))).setUsesBigModel());
         addNewPokemon(new RaianianAbsol("", Aspect.RAIANIAN, new Stats(465, PHYSICAL_ATTACKER, List.of(ATTACK, ATTACK, ATTACK))).setUsesBigModel());
@@ -84,7 +84,6 @@ public class GenerationThree extends Game {
         //TODO
         addNewPokemon(new TrizoranAbsol("", Aspect.TRIZORAN, new Stats(465, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))).setUsesBigModel());
 
-        //TODO
         addNewPokemon(new NorseAbsol("", Aspect.NORSE, new Stats(465, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPEED))).setUsesBigModel());
 
         addNewPokemon(new FormanTreecko("", Aspect.FORMAN).setUsesBigModel());

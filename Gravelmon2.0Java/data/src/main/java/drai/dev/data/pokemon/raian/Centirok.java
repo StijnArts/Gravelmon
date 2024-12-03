@@ -11,8 +11,8 @@ public class Centirok extends drai.dev.data.pokemon.Pokemon {
                 Type.ROCK,Type.BLOOD,
                 stats,
                 List.of(Ability.SOLID_ROCK), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                25, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -22,10 +22,10 @@ public class Centirok extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 40, 58, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

@@ -1,17 +1,17 @@
 {
   "implemented": true,
   "name": "Ariromode",
-  "nationalPokedexNumber": 3293,
+  "nationalPokedexNumber": 3291,
   "primaryType": "psychic",
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 154,
-    "attack": 59,
-    "defence": 159,
-    "special_attack": 38,
-    "special_defence": 38,
-    "speed": 21
+    "hp": 169,
+    "attack": 65,
+    "defence": 175,
+    "special_attack": 42,
+    "special_defence": 42,
+    "speed": 23
   },
   "behaviour": {
     "resting": {
@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 88,
+  "catchRate": 30,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -54,7 +54,7 @@
   "pokedex": [
     "cobblemon.species.ariromode.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -69,7 +69,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 16,
   "weight": 0,
   "aspects": [],
 "features": [

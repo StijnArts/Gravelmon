@@ -172,12 +172,12 @@
   "abilities": [
     "icebody"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 53,
+    "attack": 28,
+    "defence": 56,
+    "special_attack": 97,
+    "special_defence": 56,
+    "speed": 81
   },
   "behaviour": {
     "resting": {
@@ -192,12 +192,12 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -211,7 +211,9 @@
   ],
   "moves": [
     "1:watergun",
-    "1:powdersnow"  ],
+    "1:powdersnow",
+    "1:vacuumwave",
+    "1:vacuumwave"  ],
   "labels": [
     "form",
     "not_modeled"
@@ -219,7 +221,23 @@
   "pokedex": [
     "cobblemon.species.formanmagikarp.desc"
   ],
-  "baseScale": 0.1,
+  "evolutions": [
+    {
+      "id": "magikarp_jormydos",
+      "variant": "level_up",
+      "result": "jormydos",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 20
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -234,7 +252,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 12,
   "weight": 0,
   "aspects": ["forman"],
   "cannotDynamax": false

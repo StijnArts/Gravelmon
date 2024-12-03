@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 210,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -53,6 +53,22 @@
   "pokedex": [
     "cobblemon.species.kittur.desc"
   ],
+  "evolutions": [
+    {
+      "id": "kittur_meowth_forman",
+      "variant": "level_up",
+      "result": "meowth forman",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 190
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -68,7 +84,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 4,
   "weight": 0,
   "aspects": [],
 "features": [

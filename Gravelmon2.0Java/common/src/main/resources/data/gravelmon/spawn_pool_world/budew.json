@@ -13,12 +13,14 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "23-43",
-      "weight": 5.0,
+      "weight": 7.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_floral",
           "#cobblemon:is_magical"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -39,7 +41,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "2-23",
-      "weight": 5.0,
+      "weight": 7.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_tropical_island",
@@ -66,11 +68,13 @@
       "context": "grounded",
       "bucket": "common",
       "level": "2-18",
-      "weight": 5.0,
+      "weight": 7.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -91,7 +95,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "4-17",
-      "weight": 3.0,
+      "weight": 4.5,
       "condition": {
         "biomes": [
           "#minecraft:is_end"
@@ -116,7 +120,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "1-28",
-      "weight": 5.0,
+      "weight": 7.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_taiga"
@@ -143,11 +147,13 @@
       "context": "grounded",
       "bucket": "common",
       "level": "1-28",
-      "weight": 5.0,
+      "weight": 7.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_magical"
-        ]
+          "#cobblemon:is_spooky"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
         "biomes": [

@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "1-23",
-      "weight": 4.7,
+      "weight": 7.050000000000001,
       "condition": {
         "biomes": [
           "minecraft:birch_forest"

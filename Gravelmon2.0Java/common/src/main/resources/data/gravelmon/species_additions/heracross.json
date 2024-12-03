@@ -7,12 +7,12 @@
   "abilities": [
     "sturdy"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 66,
+    "attack": 97,
+    "defence": 56,
+    "special_attack": 35,
+    "special_defence": 62,
+    "speed": 56
   },
   "behaviour": {
     "resting": {
@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 150,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -54,7 +54,21 @@
   "pokedex": [
     "cobblemon.species.formanheracross.desc"
   ],
-  "baseScale": 0.1,
+  "evolutions": [
+    {
+      "id": "heracross_Herapaltin",
+      "variant": "item_interact",
+      "result": "Herapaltin",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:metal_coat",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -69,7 +83,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 16,
   "weight": 0,
   "aspects": ["forman"],
   "cannotDynamax": false

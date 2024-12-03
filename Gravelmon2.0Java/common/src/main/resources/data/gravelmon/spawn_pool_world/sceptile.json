@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "36-53",
-      "weight": 0.1,
+      "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"
@@ -40,7 +40,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "36-53",
-      "weight": 0.1,
+      "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_mountain"
@@ -67,7 +67,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "36-53",
-      "weight": 0.1,
+      "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_plains"
@@ -100,7 +100,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "34-51",
-      "weight": 0.02,
+      "weight": 0.03,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"
@@ -127,11 +127,13 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "36-53",
-      "weight": 0.1,
+      "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -152,11 +154,13 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "36-53",
-      "weight": 0.1,
+      "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
-          "#cobblemon:is_magical"
-        ]
+          "#cobblemon:is_spooky"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
         "biomes": [

@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "23-54",
-      "weight": 3.0,
+      "weight": 4.5,
       "condition": {
         "biomes": [
           "minecraft:cherry_grove"

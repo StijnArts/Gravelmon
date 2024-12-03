@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "36-58",
-      "weight": 2.5,
+      "weight": 3.75,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"

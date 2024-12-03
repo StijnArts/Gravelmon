@@ -13,11 +13,13 @@
       "context": "grounded",
       "bucket": "common",
       "level": "3-16",
-      "weight": 5.0,
+      "weight": 7.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_taiga"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -38,7 +40,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "1-11",
-      "weight": 5.0,
+      "weight": 7.5,
       "condition": {
         "biomes": [
           "#minecraft:is_end"

@@ -13,7 +13,7 @@
       "context": "seafloor",
       "bucket": "common",
       "level": "10-30",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean",
@@ -26,7 +26,6 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:prismarine",
             "minecraft:prismarine"
           ]
         }
@@ -39,7 +38,7 @@
       "context": "fishing",
       "bucket": "common",
       "level": "10-30",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean",
@@ -50,7 +49,6 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:prismarine",
             "minecraft:prismarine"
           ]
         }

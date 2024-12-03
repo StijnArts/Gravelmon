@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "3-22",
-      "weight": 3.8,
+      "weight": 5.699999999999999,
       "condition": {
         "biomes": [
           "#cobblemon:is_sky",
@@ -41,7 +41,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "26-43",
-      "weight": 1.1,
+      "weight": 1.6500000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"
@@ -67,7 +67,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "25-45",
-      "weight": 1.2,
+      "weight": 1.7999999999999998,
       "condition": {
         "biomes": [
           "#cobblemon:is_volvanic",
@@ -93,7 +93,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "35-54",
-      "weight": 0.4,
+      "weight": 0.6000000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy_forest"
@@ -121,7 +121,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "31-46",
-      "weight": 0.4,
+      "weight": 0.6000000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy_forest"
@@ -148,7 +148,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "24-43",
-      "weight": 1.5,
+      "weight": 2.25,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_basalt",

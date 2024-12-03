@@ -7,20 +7,19 @@
       "id": "forman_cyndaquil-01",
       "pokemon": "cyndaquil forman",
       "presets": [
-        "natural"
+        "mansion"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 13.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_spooky"
         ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -41,7 +40,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "5-31",
-      "weight": 9.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_deep_dark"
@@ -66,7 +65,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "5-31",
-      "weight": 9.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"
@@ -91,7 +90,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "5-31",
-      "weight": 9.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_volvanic",
@@ -117,7 +116,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "5-31",
-      "weight": 9.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_mountain",
@@ -147,7 +146,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "3-22",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_overworld"
@@ -173,7 +172,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "5-31",
-      "weight": 9.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "minecraft:cherry_grove"

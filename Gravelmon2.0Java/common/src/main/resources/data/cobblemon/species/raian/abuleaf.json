@@ -36,8 +36,8 @@
         }
     }
   },
-  "catchRate": 84,
-  "maleRatio": 0.5,
+  "catchRate": 45,
+  "maleRatio": 1.0,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -50,12 +50,15 @@
     "1:disarmingvoice"  ],
   "labels": [
     "raian",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.abuleaf.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "comfleaf",
+  "baseScale": 0.31666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -70,7 +73,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 19,
   "weight": 0,
   "aspects": [],
 "features": [

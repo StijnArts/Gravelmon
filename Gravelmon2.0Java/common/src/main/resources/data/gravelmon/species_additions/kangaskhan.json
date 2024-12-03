@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 78,
+  "catchRate": 45,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -47,12 +47,15 @@
     "1:rockthrow"  ],
   "labels": [
     "form",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.formankangaskhan.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "kangabo",
+  "baseScale": 0.3666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -67,7 +70,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 22,
   "weight": 0,
   "aspects": ["forman"],
   "cannotDynamax": false

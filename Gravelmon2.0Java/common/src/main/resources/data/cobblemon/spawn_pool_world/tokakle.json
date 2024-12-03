@@ -13,7 +13,7 @@
       "context": "surface",
       "bucket": "uncommon",
       "level": "4-25",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"
@@ -40,7 +40,7 @@
       "context": "surface",
       "bucket": "uncommon",
       "level": "4-25",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"
@@ -67,7 +67,7 @@
       "context": "surface",
       "bucket": "uncommon",
       "level": "4-25",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"
@@ -94,7 +94,7 @@
       "context": "surface",
       "bucket": "uncommon",
       "level": "4-25",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"
@@ -121,7 +121,7 @@
       "context": "surface",
       "bucket": "uncommon",
       "level": "4-25",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"
@@ -148,7 +148,7 @@
       "context": "surface",
       "bucket": "uncommon",
       "level": "4-25",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"

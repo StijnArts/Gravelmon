@@ -6,12 +6,12 @@
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 49,
+    "attack": 51,
+    "defence": 49,
+    "special_attack": 17,
+    "special_defence": 38,
+    "speed": 21
   },
   "behaviour": {
     "resting": {
@@ -31,7 +31,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -53,6 +53,22 @@
   "pokedex": [
     "cobblemon.species.dewtweet.desc"
   ],
+  "evolutions": [
+    {
+      "id": "dewtweet_saillard",
+      "variant": "level_up",
+      "result": "saillard",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 15
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -68,7 +84,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 4,
   "weight": 0,
   "aspects": [],
 "features": [

@@ -11,9 +11,9 @@ public class SeaEnvirock extends drai.dev.data.pokemon.Pokemon {
                 Type.ROCK, Type.WATER,
                 stats,
                 List.of(), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
-                0.5,
+                5, 0,
+                new Stats(0,0,0,0,0,0), 100,
+                -1,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(),
@@ -22,13 +22,13 @@ public class SeaEnvirock extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 13, 32, 2.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER, SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
+        setCanBreathUnderwater(true);
         setLangFileName("Envirock");
 
     }

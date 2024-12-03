@@ -13,12 +13,14 @@
       "context": "surface",
       "bucket": "rare",
       "level": "9-31",
-      "weight": 0.6,
+      "weight": 0.8999999999999999,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp",
-          "#cobblemon:is_forest"
-        ]
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

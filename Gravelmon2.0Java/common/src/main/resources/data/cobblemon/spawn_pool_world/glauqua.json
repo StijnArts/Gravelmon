@@ -14,7 +14,7 @@
       "context": "surface",
       "bucket": "common",
       "level": "3-22",
-      "weight": 4.5,
+      "weight": 6.75,
       "condition": {
         "biomes": [
           "#cobblemon:is_lukewarm_ocean",

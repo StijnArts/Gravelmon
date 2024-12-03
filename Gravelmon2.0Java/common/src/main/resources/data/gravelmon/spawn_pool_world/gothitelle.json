@@ -13,11 +13,13 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "41-58",
-      "weight": 0.1,
+      "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
         ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       },
       "weightMultiplier": {
@@ -39,7 +41,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "41-55",
-      "weight": 0.1,
+      "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"
@@ -67,7 +69,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "42-53",
-      "weight": 0.3,
+      "weight": 0.44999999999999996,
       "condition": {
         "biomes": [
           "#cobblemon:is_tropical_island",
@@ -96,7 +98,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "38-56",
-      "weight": 0.9,
+      "weight": 1.35,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_soul_fire"

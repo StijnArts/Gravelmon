@@ -13,11 +13,10 @@
       "context": "grounded",
       "bucket": "common",
       "level": "3-22",
-      "weight": 3.8,
+      "weight": 7.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_swamp"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -41,7 +40,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "3-22",
-      "weight": 5.0,
+      "weight": 7.5,
       "condition": {
         "biomes": [
           "#minecraft:is_end"
@@ -66,7 +65,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "3-28",
-      "weight": 9.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"
@@ -98,7 +97,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "4-28",
-      "weight": 9.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_forest"

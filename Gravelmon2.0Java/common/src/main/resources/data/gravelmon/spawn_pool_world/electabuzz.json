@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "30-47",
-      "weight": 1.1,
+      "weight": 1.6500000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"
@@ -40,7 +40,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "30-45",
-      "weight": 4.0,
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_overworld"
@@ -67,7 +67,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "30-43",
-      "weight": 0.1,
+      "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
           "#minecraft:is_end"

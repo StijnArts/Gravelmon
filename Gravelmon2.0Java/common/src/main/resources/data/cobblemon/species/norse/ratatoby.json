@@ -6,12 +6,12 @@
   "abilities": [
     "runaway"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 67,
+    "attack": 23,
+    "defence": 51,
+    "special_attack": 56,
+    "special_defence": 79,
+    "speed": 28
   },
   "behaviour": {
     "resting": {
@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 220,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -45,7 +45,8 @@
     "field"
   ],
   "moves": [
-    "1:tackle"  ],
+    "1:tackle",
+    "1:sleeptalk"  ],
   "labels": [
     "not_modeled",
     "norse"
@@ -53,7 +54,23 @@
   "pokedex": [
     "cobblemon.species.ratatoby.desc"
   ],
-  "baseScale": 0.1,
+  "evolutions": [
+    {
+      "id": "ratatoby_ratatosk",
+      "variant": "level_up",
+      "result": "Ratatosk",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 21
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -68,7 +85,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 8,
   "weight": 0,
   "aspects": [],
 "features": [

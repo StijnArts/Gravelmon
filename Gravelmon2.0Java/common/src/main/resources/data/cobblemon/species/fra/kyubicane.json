@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 84,
+  "catchRate": 60,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -48,12 +48,15 @@
     "1:watergun"  ],
   "labels": [
     "fra",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.kyubicane.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "yuvixy",
+  "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -68,7 +71,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 11,
   "weight": 0,
   "aspects": [],
 "features": [

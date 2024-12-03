@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 84,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -50,12 +50,15 @@
     "1:lick"  ],
   "labels": [
     "bago",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.jinnister.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "djarni",
+  "baseScale": 0.31666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -70,7 +73,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 19,
   "weight": 0,
   "aspects": [],
 "features": [

@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 3,
+  "catchRate": 30,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -56,7 +56,7 @@
   "pokedex": [
     "cobblemon.species.tribalspiritur.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.3833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -71,7 +71,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 23,
   "weight": 0,
   "aspects": ["tribal"],
   "cannotDynamax": false

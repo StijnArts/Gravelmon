@@ -11,16 +11,20 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 13.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_overworld"
         ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        "minSkyLight": 0,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -41,7 +45,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "5-31",
-      "weight": 9.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_freezing"
@@ -66,7 +70,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "5-31",
-      "weight": 9.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_soul_fire"
@@ -91,7 +95,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "5-31",
-      "weight": 9.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"
@@ -116,7 +120,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "5-31",
-      "weight": 9.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"
@@ -128,7 +132,6 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:prismarine",
             "minecraft:prismarine"
           ]
         }
@@ -141,7 +144,7 @@
       "context": "fishing",
       "bucket": "ultra-rare",
       "level": "5-31",
-      "weight": 9.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"
@@ -151,7 +154,6 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:prismarine",
             "minecraft:prismarine"
           ]
         }
@@ -167,7 +169,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "5-31",
-      "weight": 9.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "minecraft:cherry_grove"

@@ -13,7 +13,7 @@
       "context": "submerged",
       "bucket": "common",
       "level": "24-46",
-      "weight": 0.6,
+      "weight": 0.8999999999999999,
       "condition": {
         "biomes": [
           "minecraft:mangrove_swamp"

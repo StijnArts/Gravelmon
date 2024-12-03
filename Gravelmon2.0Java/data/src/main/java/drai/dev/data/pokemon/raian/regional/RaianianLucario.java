@@ -11,8 +11,8 @@ public class RaianianLucario extends drai.dev.data.pokemon.Pokemon {
                 Type.FIGHTING,Type.FIRE,
                 stats,
                 List.of(), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                14, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -22,15 +22,17 @@ public class RaianianLucario extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 24, 53, 2.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_CRIMSON, Biome.IS_NETHER_WASTELAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Lucario");
-
+            addAdditionalEvolution("riolu", new EvolutionEntry("raianianlucario", EvolutionType.LEVEL_UP, List.of(),
+                    List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"220"),
+                            new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_NETHER.getId() + ":" + Biome.IS_NETHER.getName() +"\""))));
     }
 
 

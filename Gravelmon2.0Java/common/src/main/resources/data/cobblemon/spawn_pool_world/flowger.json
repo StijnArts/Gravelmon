@@ -13,7 +13,7 @@
       "context": "surface",
       "bucket": "common",
       "level": "4-25",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp",
@@ -26,7 +26,6 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:moss_block",
             "minecraft:moss_block"
           ]
         }
@@ -39,7 +38,7 @@
       "context": "fishing",
       "bucket": "common",
       "level": "4-25",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp",
@@ -50,7 +49,6 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:moss_block",
             "minecraft:moss_block"
           ]
         }
@@ -66,7 +64,7 @@
       "context": "surface",
       "bucket": "common",
       "level": "4-25",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp",
@@ -79,7 +77,6 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:moss_block",
             "minecraft:moss_block"
           ]
         }
@@ -92,7 +89,7 @@
       "context": "fishing",
       "bucket": "common",
       "level": "4-25",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp",
@@ -103,7 +100,6 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:moss_block",
             "minecraft:moss_block"
           ]
         }

@@ -13,11 +13,13 @@
       "context": "grounded",
       "bucket": "common",
       "level": "15-23",
-      "weight": 0.2,
+      "weight": 0.30000000000000004,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical"
         ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "day"
       },
       "weightMultiplier": {
@@ -39,7 +41,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "20-36",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"

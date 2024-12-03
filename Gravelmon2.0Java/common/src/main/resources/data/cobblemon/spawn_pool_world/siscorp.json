@@ -7,20 +7,17 @@
       "id": "siscorp-01",
       "pokemon": "siscorp",
       "presets": [
-        "natural"
+        "underwater"
       ],
       "type": "pokemon",
-      "context": "grounded",
+      "context": "submerged",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "25-45",
+      "weight": 0.75,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+          "#cobblemon:is_cold_ocean"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

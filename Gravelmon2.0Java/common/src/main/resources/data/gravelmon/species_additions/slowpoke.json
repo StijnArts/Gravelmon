@@ -17,12 +17,12 @@
   "abilities": [
     "stench"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 74,
+    "attack": 25,
+    "defence": 88,
+    "special_attack": 74,
+    "special_defence": 62,
+    "speed": 14
   },
   "behaviour": {
     "resting": {
@@ -46,7 +46,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 220,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -56,7 +56,9 @@
   ],
   "moves": [
     "1:lick",
-    "1:watergun"  ],
+    "1:watergun",
+    "1:curse",
+    "1:bulkup"  ],
   "labels": [
     "form",
     "not_modeled"
@@ -64,7 +66,23 @@
   "pokedex": [
     "cobblemon.species.formanslowpoke.desc"
   ],
-  "baseScale": 0.1,
+  "evolutions": [
+    {
+      "id": "slowpoke_slowbro_forman",
+      "variant": "level_up",
+      "result": "slowbro forman",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 37
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -79,7 +97,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 9,
   "weight": 0,
   "aspects": ["forman"],
   "cannotDynamax": false

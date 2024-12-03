@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "Lafhaha",
-  "nationalPokedexNumber": 3715,
+  "nationalPokedexNumber": 3721,
   "primaryType": "fairy",
   "abilities": [
     "keeneye"  ],
@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 128,
+  "catchRate": 80,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -54,7 +54,7 @@
   "pokedex": [
     "cobblemon.species.lafhaha.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -69,7 +69,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 12,
   "weight": 0,
   "aspects": [],
 "features": [

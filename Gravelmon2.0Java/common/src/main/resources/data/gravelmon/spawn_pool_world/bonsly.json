@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "3-22",
-      "weight": 5.4,
+      "weight": 8.100000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_sandy"
@@ -41,7 +41,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "1-17",
-      "weight": 5.6,
+      "weight": 8.399999999999999,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy_forest"

@@ -27,12 +27,12 @@
   "abilities": [
     "steadfast"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 44,
+    "attack": 68,
+    "defence": 47,
+    "special_attack": 23,
+    "special_defence": 47,
+    "speed": 81
   },
   "behaviour": {
     "resting": {
@@ -56,7 +56,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 220,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -66,7 +66,11 @@
   ],
   "moves": [
     "1:strugglebug",
-    "1:lowkick"  ],
+    "1:lowkick",
+    "1:pollenpuff",
+    "1:coaching",
+    "1:vacuumwave",
+    "1:vacuumwave"  ],
   "labels": [
     "form",
     "not_modeled"
@@ -74,7 +78,23 @@
   "pokedex": [
     "cobblemon.species.formanvenonat.desc"
   ],
-  "baseScale": 0.1,
+  "evolutions": [
+    {
+      "id": "venonat_venowhip",
+      "variant": "level_up",
+      "result": "venowhip",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 33
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -89,7 +109,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 9,
   "weight": 0,
   "aspects": ["forman"],
   "cannotDynamax": false

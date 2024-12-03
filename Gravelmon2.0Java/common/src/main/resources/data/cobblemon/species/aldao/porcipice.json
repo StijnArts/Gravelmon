@@ -8,9 +8,9 @@
     "keeneye"  ],
   "baseStats": {
     "hp": 100,
-    "attack": 85,
+    "attack": 35,
     "defence": 118,
-    "special_attack": 35,
+    "special_attack": 85,
     "special_defence": 77,
     "speed": 42
   },
@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 95,
+  "catchRate": 80,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -52,12 +52,15 @@
     "1:bulkup"  ],
   "labels": [
     "aldao",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.porcipice.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "edgehog",
+  "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -72,7 +75,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 11,
   "weight": 0,
   "aspects": [],
 "features": [

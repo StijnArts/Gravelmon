@@ -14,7 +14,7 @@
       "context": "submerged",
       "bucket": "common",
       "level": "13-34",
-      "weight": 3.3,
+      "weight": 4.949999999999999,
       "condition": {
         "biomes": [
           "#cobblemon:is_overworld"

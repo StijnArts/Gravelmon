@@ -6,12 +6,12 @@
   "abilities": [
     "effectspore"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 43,
+    "attack": 63,
+    "defence": 37,
+    "special_attack": 22,
+    "special_defence": 41,
+    "speed": 37
   },
   "behaviour": {
     "resting": {
@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 235,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -44,13 +44,29 @@
     "field"
   ],
   "moves": [
-    "1:acid"  ],
+    "1:poisonsting"  ],
   "labels": [
     "form",
     "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.formanmareep.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "mareep_flaaffy_forman",
+      "variant": "level_up",
+      "result": "flaaffy forman",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 15
+        }
+      ],
+      "permanent": true   
+ }
   ],
   "baseScale": 0.1,
   "hitbox": {
@@ -67,7 +83,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 6,
   "weight": 0,
   "aspects": ["forman"],
   "cannotDynamax": false

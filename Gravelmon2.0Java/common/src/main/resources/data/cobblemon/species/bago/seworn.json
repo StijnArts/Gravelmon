@@ -1,17 +1,17 @@
 {
   "implemented": true,
   "name": "Seworn",
-  "nationalPokedexNumber": 3689,
+  "nationalPokedexNumber": 3698,
   "primaryType": "bug",
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 29,
+    "attack": 15,
+    "defence": 31,
+    "special_attack": 45,
+    "special_defence": 31,
+    "speed": 53
   },
   "behaviour": {
     "resting": {
@@ -53,6 +53,22 @@
   "pokedex": [
     "cobblemon.species.seworn.desc"
   ],
+  "evolutions": [
+    {
+      "id": "seworn_cloacoon",
+      "variant": "level_up",
+      "result": "cloacoon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 10
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -68,7 +84,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 2,
   "weight": 0,
   "aspects": [],
 "features": [

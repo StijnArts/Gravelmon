@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "6-25",
-      "weight": 6.0,
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"

@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 58,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -48,12 +48,15 @@
     "1:scratch"  ],
   "labels": [
     "form",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.helgold.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "sawtears",
+  "baseScale": 0.3833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -68,7 +71,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 23,
   "weight": 0,
   "aspects": [],
 "features": [

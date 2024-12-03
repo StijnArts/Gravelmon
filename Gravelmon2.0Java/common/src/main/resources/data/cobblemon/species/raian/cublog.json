@@ -7,12 +7,12 @@
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 70,
+    "attack": 24,
+    "defence": 53,
+    "special_attack": 59,
+    "special_defence": 70,
+    "speed": 42
   },
   "behaviour": {
     "resting": {
@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 150,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -55,7 +55,21 @@
   "pokedex": [
     "cobblemon.species.cublog.desc"
   ],
-  "baseScale": 0.1,
+  "evolutions": [
+    {
+      "id": "cublog_leoquare",
+      "variant": "item_interact",
+      "result": "Leoquare",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:metal_coat",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -70,7 +84,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 11,
   "weight": 0,
   "aspects": [],
 "features": [

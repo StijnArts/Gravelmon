@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "23-48",
-      "weight": 6.0,
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_wasteland",
@@ -39,7 +39,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "18-51",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#minecraft:is_end"

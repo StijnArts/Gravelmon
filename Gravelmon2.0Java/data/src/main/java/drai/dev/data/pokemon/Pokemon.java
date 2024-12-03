@@ -177,7 +177,7 @@ public class Pokemon {
         this.evYield = evYield;
         this.height = height;
         this.weight = weight;
-        this.spawnData.add(new PokemonSpawnData(spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight, spawnConditions, spawnAntiConditions, spawnPresets, new ArrayList<>()));
+        this.spawnData.add(new PokemonSpawnData(spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight*1.5, spawnConditions, spawnAntiConditions, spawnPresets, new ArrayList<>()));
         this.baseScale = Math.max((double) height / 10 / 6, 0.1);
         this.hitboxWidth = 6;
         this.hitboxHeight = 6;

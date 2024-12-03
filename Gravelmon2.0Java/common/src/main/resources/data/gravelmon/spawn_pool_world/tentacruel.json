@@ -13,7 +13,7 @@
       "context": "submerged",
       "bucket": "common",
       "level": "31-53",
-      "weight": 1.2,
+      "weight": 1.7999999999999998,
       "condition": {
         "biomes": [
           "#minecraft:is_deep_ocean",
@@ -41,7 +41,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "39-57",
-      "weight": 0.2,
+      "weight": 0.30000000000000004,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"
@@ -68,7 +68,7 @@
       "context": "submerged",
       "bucket": "common",
       "level": "30-52",
-      "weight": 0.9,
+      "weight": 1.35,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"
@@ -102,7 +102,7 @@
       "context": "submerged",
       "bucket": "common",
       "level": "30-47",
-      "weight": 0.9,
+      "weight": 1.35,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"

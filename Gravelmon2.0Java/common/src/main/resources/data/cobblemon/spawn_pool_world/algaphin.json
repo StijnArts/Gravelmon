@@ -7,17 +7,17 @@
       "id": "algaphin-01",
       "pokemon": "algaphin",
       "presets": [
-        "natural"
+        "freshwater",
+        "foliage"
       ],
       "type": "pokemon",
-      "context": "grounded",
+      "context": "submerged",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "27-51",
+      "weight": 0.75,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_river"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

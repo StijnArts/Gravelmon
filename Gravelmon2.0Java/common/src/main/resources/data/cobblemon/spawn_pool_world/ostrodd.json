@@ -13,7 +13,7 @@
       "context": "submerged",
       "bucket": "common",
       "level": "5-23",
-      "weight": 3.0,
+      "weight": 4.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_forest",
@@ -24,7 +24,6 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:prismarine",
             "minecraft:prismarine"
           ]
         }
@@ -37,7 +36,7 @@
       "context": "fishing",
       "bucket": "common",
       "level": "5-23",
-      "weight": 3.0,
+      "weight": 4.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_forest",
@@ -48,7 +47,6 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:prismarine",
             "minecraft:prismarine"
           ]
         }

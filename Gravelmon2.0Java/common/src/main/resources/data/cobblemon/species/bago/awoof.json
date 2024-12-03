@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "Awoof",
-  "nationalPokedexNumber": 3699,
+  "nationalPokedexNumber": 3708,
   "primaryType": "normal",
   "abilities": [
     "keeneye"  ],
@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 220,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -53,6 +53,22 @@
   "pokedex": [
     "cobblemon.species.awoof.desc"
   ],
+  "evolutions": [
+    {
+      "id": "awoof_wooffian",
+      "variant": "level_up",
+      "result": "wooffian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 20
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -68,7 +84,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 6,
   "weight": 0,
   "aspects": [],
 "features": [

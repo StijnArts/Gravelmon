@@ -53,7 +53,7 @@
   "pokedex": [
     "cobblemon.species.lakanlinog.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.11666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -68,7 +68,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 7,
   "weight": 0,
   "aspects": [],
 "features": [

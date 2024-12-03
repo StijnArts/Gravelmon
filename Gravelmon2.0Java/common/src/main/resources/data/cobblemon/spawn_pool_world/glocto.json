@@ -13,7 +13,7 @@
       "context": "seafloor",
       "bucket": "common",
       "level": "10-30",
-      "weight": 4.0,
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#minecraft:is_deep_ocean"
@@ -28,7 +28,6 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:prismarine",
             "minecraft:prismarine"
           ]
         }
@@ -41,7 +40,7 @@
       "context": "fishing",
       "bucket": "common",
       "level": "10-30",
-      "weight": 4.0,
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#minecraft:is_deep_ocean"
@@ -56,7 +55,6 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:prismarine",
             "minecraft:prismarine"
           ]
         }

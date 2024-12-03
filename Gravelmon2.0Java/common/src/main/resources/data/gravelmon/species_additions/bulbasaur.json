@@ -1,5 +1,6 @@
 {
    "target": "cobblemon:bulbasaur",
+  "preEvolution": "snotchoo",
    "forms": [{
   "name": "Forman",
   "primaryType": "ground",

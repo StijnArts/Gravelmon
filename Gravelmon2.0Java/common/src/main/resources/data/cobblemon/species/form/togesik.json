@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 126,
+  "catchRate": 30,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -52,11 +52,14 @@
     "1:bulkup"  ],
   "labels": [
     "form",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.togesik.desc"
   ],
+  "preEvolution": "togepi form=forman",
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -72,7 +75,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 6,
   "weight": 0,
   "aspects": [],
 "features": [

@@ -7,12 +7,12 @@
   "abilities": [
     "steadfast"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 58,
+    "attack": 84,
+    "defence": 49,
+    "special_attack": 30,
+    "special_defence": 55,
+    "speed": 49
   },
   "behaviour": {
     "resting": {
@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 180,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -55,7 +55,21 @@
   "pokedex": [
     "cobblemon.species.kurstraw.desc"
   ],
-  "baseScale": 0.1,
+  "evolutions": [
+    {
+      "id": "kurstraw_metakurs",
+      "variant": "item_interact",
+      "result": "Metakurs",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:dusk_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -70,7 +84,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 8,
   "weight": 0,
   "aspects": [],
 "features": [

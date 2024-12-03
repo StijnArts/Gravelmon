@@ -1,18 +1,18 @@
 {
   "implemented": true,
   "name": "Zonktress",
-  "nationalPokedexNumber": 3296,
+  "nationalPokedexNumber": 3294,
   "primaryType": "electric",
   "secondaryType": "ground",
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 109,
-    "attack": 92,
-    "defence": 109,
-    "special_attack": 38,
-    "special_defence": 104,
-    "speed": 46
+    "hp": 120,
+    "attack": 101,
+    "defence": 120,
+    "special_attack": 42,
+    "special_defence": 114,
+    "speed": 51
   },
   "behaviour": {
     "resting": {
@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 72,
+  "catchRate": 30,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -57,7 +57,7 @@
   "pokedex": [
     "cobblemon.species.zonktress.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -72,7 +72,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 17,
   "weight": 0,
   "aspects": [],
 "features": [

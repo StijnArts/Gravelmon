@@ -13,11 +13,13 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "6-31",
-      "weight": 5.4,
+      "weight": 8.100000000000001,
       "condition": {
         "biomes": [
-          "#cobblemon:is_magical"
-        ]
+          "#cobblemon:is_spooky"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -38,11 +40,13 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "6-31",
-      "weight": 5.4,
+      "weight": 8.100000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_forest"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
         "biomes": [
@@ -69,11 +73,13 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "6-31",
-      "weight": 5.4,
+      "weight": 8.100000000000001,
       "condition": {
         "biomes": [
-          "#cobblemon:is_old_growth_taiga"
-        ]
+          "#cobblemon:is_spooky"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -94,7 +100,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "6-31",
-      "weight": 5.4,
+      "weight": 8.100000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_mountain"
@@ -119,7 +125,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "11-32",
-      "weight": 5.4,
+      "weight": 8.100000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_savanna",

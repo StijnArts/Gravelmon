@@ -183,7 +183,7 @@
         }
     }
   },
-  "catchRate": 122,
+  "catchRate": 90,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -196,12 +196,15 @@
     "1:gust"  ],
   "labels": [
     "form",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.formanfurret.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "sentret form=forman",
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -216,7 +219,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 16,
   "weight": 0,
   "aspects": ["forman"],
   "cannotDynamax": false

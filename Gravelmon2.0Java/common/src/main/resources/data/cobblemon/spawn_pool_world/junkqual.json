@@ -14,7 +14,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "44-63",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_coast"

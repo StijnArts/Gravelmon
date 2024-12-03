@@ -7,12 +7,12 @@
   "abilities": [
     "regenerator"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 81,
+    "attack": 28,
+    "defence": 62,
+    "special_attack": 69,
+    "special_defence": 97,
+    "speed": 35
   },
   "behaviour": {
     "resting": {
@@ -27,16 +27,16 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 120,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -46,15 +46,34 @@
   ],
   "moves": [
     "1:watergun",
-    "1:confusion"  ],
+    "1:confusion",
+    "1:bulkup",
+    "1:bulkup"  ],
   "labels": [
     "form",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.formanseadra.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "horsea form=forman",
+  "evolutions": [
+    {
+      "id": "seadra_dradna",
+      "variant": "item_interact",
+      "result": "dradna",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:dragon_scale",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -69,7 +88,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 11,
   "weight": 0,
   "aspects": ["forman"],
   "cannotDynamax": false

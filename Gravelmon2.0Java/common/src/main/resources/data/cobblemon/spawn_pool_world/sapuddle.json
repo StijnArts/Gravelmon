@@ -14,7 +14,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "18-44",
-      "weight": 0.9,
+      "weight": 1.35,
       "condition": {
         "biomes": [
           "#cobblemon:is_cave"

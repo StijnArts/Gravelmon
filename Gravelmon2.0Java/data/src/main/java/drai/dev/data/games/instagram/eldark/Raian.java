@@ -1,6 +1,5 @@
 package drai.dev.data.games.instagram.eldark;
 
-
 import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.raian.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
@@ -116,26 +115,24 @@ public class Raian extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Parotish().setUsesBigModel());
         addNewPokemon(new Pentagle(new Stats(480, PHYSICAL_ATTACKER, List.of(SPEED))).setUsesBigModel());
 
-        addNewPokemon(new Chaontouka(new Stats(680, BULKY_PHYSICAL_ATTACKER, List.of(ATTACK))).setUsesBigModel());
-        addNewPokemon(new Ordabada(new Stats(680, BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))).setUsesBigModel());
-        addNewPokemon(new Jumpkret(new Stats(500, FAST_PHYSICAL_ATTACKER, List.of(SPEED))).setUsesBigModel());
-        addNewPokemon(new Jajagon(new Stats(500, PHYSICAL_ATTACKER, List.of(SPEED))).setUsesBigModel());
-        addNewPokemon(new Ariromode(new Stats(500, PHYSICAL_WALL, List.of(HP))).setUsesBigModel());
-        addNewPokemon(new Batacuila(new Stats(500, FAST_SPECIAL_WALL, List.of(SPEED))).setUsesBigModel());
-        addNewPokemon(new Shroheat(new Stats(500, FAST_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))).setUsesBigModel());
-        addNewPokemon(new Zonktress(new Stats(500, BULKY_PHYSICAL_ATTACKER, List.of(SPECIAL_DEFENCE))).setUsesBigModel());
-        addNewPokemon(new Pearcious(new Stats(500, FAST_SUPPORT, List.of(SPEED))).setUsesBigModel());
-        addNewPokemon(new Pullrog(new Stats(500, SLOW_BULKY_SPECIAL_ATTACKER, List.of(HP))).setUsesBigModel());
-        addNewPokemon(new Rugmamba(new Stats(500, FAST_SPECIAL_ATTACKER, List.of(SPEED, SPEED))).setUsesBigModel());
-        addNewPokemon(new Fashinda(new Stats(500, SPECIAL_WALL, List.of(SPEED))).setUsesBigModel());
-        addNewPokemon(new Glaciking(new Stats(500, BULKY_SPECIAL_ATTACKER, List.of(DEFENCE))).setUsesBigModel());
-        addNewPokemon(new Glaciqueen(new Stats(500, BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))).setUsesBigModel());
-        addNewPokemon(new Grouwary(new Stats(500, FAST_PHYSICAL_ATTACKER, List.of(HP))).setUsesBigModel());
-        addNewPokemon(new Articture(new Stats(500, FAST_SUPPORT, List.of(SPEED))).setUsesBigModel());
-        addNewPokemon(new Kiwalon(new Stats(500, BULKY_SUPPORT, List.of(DEFENCE))).setUsesBigModel());
-        addNewPokemon(new Gargaitor(new Stats(500, PHYSICAL_ATTACKER, List.of(ATTACK, HP))).setUsesBigModel().fishingSpawnFromExisting());
-        addNewPokemon(new Spiturtos(new Stats(500, FAST_PHYSICAL_ATTACKER, List.of(DEFENCE))).setUsesBigModel());
-        addNewPokemon(new Beninroz(new Stats(500, FAST_PHYSICAL_ATTACKER, List.of(SPEED))).setUsesBigModel());
+        addNewPokemon(new Jumpkret(new Stats(550, FAST_PHYSICAL_ATTACKER, List.of(SPEED))).setUsesBigModel());
+        addNewPokemon(new Jajagon(new Stats(550, PHYSICAL_ATTACKER, List.of(SPEED))).setUsesBigModel());
+        addNewPokemon(new Ariromode(new Stats(550, PHYSICAL_WALL, List.of(HP))).setUsesBigModel());
+        addNewPokemon(new Batacuila(new Stats(550, FAST_SPECIAL_WALL, List.of(SPEED))).setUsesBigModel());
+        addNewPokemon(new Shroheat(new Stats(550, FAST_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))).setUsesBigModel());
+        addNewPokemon(new Zonktress(new Stats(550, BULKY_PHYSICAL_ATTACKER, List.of(SPECIAL_DEFENCE))).setUsesBigModel());
+        addNewPokemon(new Pearcious(new Stats(550, FAST_SUPPORT, List.of(SPEED))).setUsesBigModel());
+        addNewPokemon(new Pullrog(new Stats(550, SLOW_BULKY_SPECIAL_ATTACKER, List.of(HP))).setUsesBigModel());
+        addNewPokemon(new Rugmamba(new Stats(550, FAST_SPECIAL_ATTACKER, List.of(SPEED, SPEED))).setUsesBigModel());
+        addNewPokemon(new Fashinda(new Stats(550, SPECIAL_WALL, List.of(SPEED))).setUsesBigModel());
+        addNewPokemon(new Glaciking(new Stats(550, BULKY_SPECIAL_ATTACKER, List.of(DEFENCE))).setUsesBigModel());
+        addNewPokemon(new Glaciqueen(new Stats(550, BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))).setUsesBigModel());
+        addNewPokemon(new Grouwary(new Stats(550, FAST_PHYSICAL_ATTACKER, List.of(HP))).setUsesBigModel());
+        addNewPokemon(new Articture(new Stats(550, FAST_SUPPORT, List.of(SPEED))).setUsesBigModel());
+        addNewPokemon(new Kiwalon(new Stats(550, BULKY_SUPPORT, List.of(DEFENCE))).setUsesBigModel());
+        addNewPokemon(new Gargaitor(new Stats(550, PHYSICAL_ATTACKER, List.of(ATTACK, HP))).setUsesBigModel().fishingSpawnFromExisting());
+        addNewPokemon(new Spiturtos(new Stats(550, FAST_PHYSICAL_ATTACKER, List.of(DEFENCE))).setUsesBigModel());
+        addNewPokemon(new Beninroz(new Stats(550, FAST_PHYSICAL_ATTACKER, List.of(SPEED))).setUsesBigModel());
 
         addNewPokemon(new Tryambeak().setUsesBigModel()); //fossil
         addNewPokemon(new Terrotryma(new Stats(460, PHYSICAL_ATTACKER, List.of(ATTACK))).setUsesBigModel());
@@ -144,7 +141,7 @@ public class Raian extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Chamenetic().setUsesBigModel());
         addNewPokemon(new Geneleon(new Stats(450, SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))).setUsesBigModel());
         addNewPokemon(new Grifowl().setUsesBigModel());
-        addNewPokemon(new Royaffin(new Stats(480, FAST_SPECIAL_ATTACKER, List.of(SPEED))).setUsesBigModel());
+        addNewPokemon(new Royaffin().setUsesBigModel());
         addNewPokemon(new Emperoffin(new Stats(480, BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))).setUsesBigModel());
         addNewPokemon(new Harminanka(new Stats(590, SLOW_BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))).setUsesBigModel());
         addNewPokemon(new Sossnit(new Stats(590, FAST_PHYSICAL_ATTACKER, List.of(SPEED))).setUsesBigModel());
@@ -175,6 +172,9 @@ public class Raian extends drai.dev.data.games.registry.Game {
         addNewPokemon(new TribalDarcicle("", Aspect.TRIBAL, new Stats(580, BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))).setUsesBigModel());
         addNewPokemon(new TribalSecurider("", Aspect.TRIBAL, new Stats(580, SLOW_BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))).setUsesBigModel());
         addNewPokemon(new TribalClosalarm("", Aspect.TRIBAL, new Stats(580, SPECIAL_WALL, List.of(SPECIAL_DEFENCE, SPECIAL_DEFENCE))).setUsesBigModel());
+
+        addNewPokemon(new Chaontouka(new Stats(680, BULKY_PHYSICAL_ATTACKER, List.of(ATTACK))).setUsesBigModel());
+        addNewPokemon(new Ordabada(new Stats(680, BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))).setUsesBigModel());
     }
 
 }

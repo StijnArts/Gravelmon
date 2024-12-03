@@ -13,7 +13,7 @@
       "context": "submerged",
       "bucket": "uncommon",
       "level": "27-48",
-      "weight": 0.9,
+      "weight": 1.35,
       "condition": {
         "biomes": [
           "#minecraft:is_deep_ocean"

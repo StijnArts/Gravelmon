@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "18-37",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"
@@ -41,11 +41,13 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "18-32",
-      "weight": 1.2,
+      "weight": 1.7999999999999998,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -66,11 +68,13 @@
       "context": "grounded",
       "bucket": "common",
       "level": "18-34",
-      "weight": 1.1,
+      "weight": 1.6500000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

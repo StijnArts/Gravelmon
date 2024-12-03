@@ -200,12 +200,15 @@
     "1:leafage"  ],
   "labels": [
     "raian",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.raianiangarchomp.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "gabite form=raianian",
+  "baseScale": 0.31666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -220,7 +223,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 19,
   "weight": 0,
   "aspects": ["raianian"],
   "cannotDynamax": false

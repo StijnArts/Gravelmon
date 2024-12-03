@@ -13,7 +13,7 @@
       "context": "submerged",
       "bucket": "rare",
       "level": "34-43",
-      "weight": 0.1,
+      "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_temperate"
@@ -40,7 +40,7 @@
       "context": "submerged",
       "bucket": "rare",
       "level": "34-43",
-      "weight": 0.1,
+      "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_temperate"
@@ -67,7 +67,7 @@
       "context": "submerged",
       "bucket": "rare",
       "level": "34-43",
-      "weight": 0.1,
+      "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_temperate"
@@ -94,7 +94,7 @@
       "context": "submerged",
       "bucket": "rare",
       "level": "34-43",
-      "weight": 0.1,
+      "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_temperate"

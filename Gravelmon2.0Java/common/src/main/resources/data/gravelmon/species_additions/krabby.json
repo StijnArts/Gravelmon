@@ -7,12 +7,12 @@
   "abilities": [
     "clearbody"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 72,
+    "attack": 72,
+    "defence": 85,
+    "special_attack": 25,
+    "special_defence": 60,
+    "speed": 14
   },
   "behaviour": {
     "resting": {
@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 225,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -46,13 +46,31 @@
   ],
   "moves": [
     "1:metalclaw",
-    "1:watergun"  ],
+    "1:watergun",
+    "1:irondefense",
+    "1:bulkup"  ],
   "labels": [
     "form",
     "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.formankrabby.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "krabby_kingcava",
+      "variant": "level_up",
+      "result": "kingcava",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 28
+        }
+      ],
+      "permanent": true   
+ }
   ],
   "baseScale": 0.1,
   "hitbox": {
@@ -69,7 +87,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 5,
   "weight": 0,
   "aspects": ["forman"],
   "cannotDynamax": false

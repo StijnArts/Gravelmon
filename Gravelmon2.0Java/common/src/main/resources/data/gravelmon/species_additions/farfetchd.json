@@ -65,12 +65,12 @@
   "abilities": [
     "sturdy"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 77,
+    "attack": 79,
+    "defence": 77,
+    "special_attack": 26,
+    "special_defence": 59,
+    "speed": 32
   },
   "behaviour": {
     "resting": {
@@ -94,7 +94,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 160,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -104,7 +104,9 @@
   ],
   "moves": [
     "1:rockthrow",
-    "1:tackle"  ],
+    "1:tackle",
+    "1:bulkup",
+    "1:sleeptalk"  ],
   "labels": [
     "form",
     "not_modeled"
@@ -112,7 +114,23 @@
   "pokedex": [
     "cobblemon.species.formanfarfetchd.desc"
   ],
-  "baseScale": 0.1,
+  "evolutions": [
+    {
+      "id": "farfetchd_Headfetchd",
+      "variant": "level_up",
+      "result": "Headfetchd",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -127,7 +145,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 11,
   "weight": 0,
   "aspects": ["forman"],
   "cannotDynamax": false

@@ -13,7 +13,7 @@
       "context": "surface",
       "bucket": "uncommon",
       "level": "22-41",
-      "weight": 1.8,
+      "weight": 2.7,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"

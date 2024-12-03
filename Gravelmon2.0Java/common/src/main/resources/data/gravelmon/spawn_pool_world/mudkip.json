@@ -7,20 +7,25 @@
       "id": "forman_mudkip-01",
       "pokemon": "mudkip forman",
       "presets": [
+        "gemstones",
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "rare",
+      "level": "5-31",
+      "weight": 13.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_overworld"
         ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        "minSkyLight": 0,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -41,7 +46,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "5-31",
-      "weight": 9.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#minecraft:is_end"
@@ -66,7 +71,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "5-31",
-      "weight": 9.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_cave"
@@ -91,7 +96,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "5-31",
-      "weight": 9.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"

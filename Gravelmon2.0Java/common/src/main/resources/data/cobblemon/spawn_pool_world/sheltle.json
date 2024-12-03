@@ -7,17 +7,17 @@
       "id": "sheltle-01",
       "pokemon": "sheltle",
       "presets": [
-        "natural"
+        "underwater",
+        "reef"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "13-38",
+      "weight": 6.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_cold_ocean"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -26,7 +26,6 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:prismarine",
             "minecraft:prismarine"
           ]
         }
@@ -37,20 +36,18 @@
       "pokemon": "sheltle",
       "type": "pokemon",
       "context": "fishing",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "13-38",
+      "weight": 6.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_cold_ocean"
         ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:prismarine",
             "minecraft:prismarine"
           ]
         }

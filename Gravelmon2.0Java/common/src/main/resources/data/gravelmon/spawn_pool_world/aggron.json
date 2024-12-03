@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "41-54",
-      "weight": 0.1,
+      "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_deep_dark"
@@ -38,7 +38,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "42-60",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_desert",
@@ -93,7 +93,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "42-67",
-      "weight": 2.0,
+      "weight": 3.0,
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {

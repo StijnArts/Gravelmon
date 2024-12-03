@@ -1,5 +1,53 @@
 {
    "target": "cobblemon:dragonair",
+  "evolutions": [
+    {
+      "id": "dragonair_raianiandragonite",
+      "variant": "level_up",
+      "result": "raianiandragonite",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 55
+        },
+        {
+          "variant": "properties",
+          "target": gender=female,
+          "contains": true
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_cold_ocean"
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "dragonair_dragoniteraianiantwo",
+      "variant": "level_up",
+      "result": "dragonite-raianiantwo",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 55
+        },
+        {
+          "variant": "properties",
+          "target": gender=female,
+          "contains": true
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_cold_ocean"
+        }
+      ],
+      "permanent": true   
+ }
+  ],
    "forms": [{
   "name": "Mahalian",
   "primaryType": "dragon",
@@ -81,12 +129,12 @@
   "abilities": [
     "lightningrod"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 60,
+    "attack": 32,
+    "defence": 63,
+    "special_attack": 91,
+    "special_defence": 63,
+    "speed": 108
   },
   "behaviour": {
     "resting": {
@@ -101,16 +149,16 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 45,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -120,15 +168,36 @@
   ],
   "moves": [
     "1:thundershock",
-    "1:scratch"  ],
+    "1:scratch",
+    "1:vacuumwave",
+    "1:vacuumwave"  ],
   "labels": [
     "form",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.formandragonair.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "dratini form=forman",
+  "evolutions": [
+    {
+      "id": "dragonair_dragorai",
+      "variant": "level_up",
+      "result": "dragorai",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 55
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.31666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -143,7 +212,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 19,
   "weight": 0,
   "aspects": ["forman"],
   "cannotDynamax": false

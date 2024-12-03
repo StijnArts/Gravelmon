@@ -13,7 +13,7 @@
       "context": "submerged",
       "bucket": "common",
       "level": "3-16",
-      "weight": 5.0,
+      "weight": 7.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"
@@ -40,11 +40,13 @@
       "context": "grounded",
       "bucket": "common",
       "level": "1-11",
-      "weight": 5.4,
+      "weight": 8.100000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical"
         ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "day"
       },
       "weightMultiplier": {
@@ -66,7 +68,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "2-19",
-      "weight": 10.0,
+      "weight": 15.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"

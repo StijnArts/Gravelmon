@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "5-60",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "minSkyLight": 8,
         "maxSkyLight": 15,
@@ -38,7 +38,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "5-60",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "minSkyLight": 8,
         "maxSkyLight": 15,
@@ -63,7 +63,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "5-60",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "minSkyLight": 8,
         "maxSkyLight": 15,
@@ -88,7 +88,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "5-60",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "minSkyLight": 8,
         "maxSkyLight": 15,
@@ -113,7 +113,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "5-60",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "minSkyLight": 8,
         "maxSkyLight": 15,
@@ -138,7 +138,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "5-60",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "minSkyLight": 8,
         "maxSkyLight": 15,
@@ -163,7 +163,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "5-60",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "minSkyLight": 8,
         "maxSkyLight": 15,
@@ -188,7 +188,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "5-60",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "minSkyLight": 8,
         "maxSkyLight": 15,
@@ -213,7 +213,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "5-60",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "minSkyLight": 8,
         "maxSkyLight": 15,
@@ -238,7 +238,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "5-60",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "minSkyLight": 8,
         "maxSkyLight": 15,
@@ -263,7 +263,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "5-60",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "minSkyLight": 8,
         "maxSkyLight": 15,
@@ -288,7 +288,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "5-60",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "minSkyLight": 8,
         "maxSkyLight": 15,
@@ -313,7 +313,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "5-60",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "minSkyLight": 8,
         "maxSkyLight": 15,
@@ -338,7 +338,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "5-60",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "minSkyLight": 8,
         "maxSkyLight": 15,

@@ -74,7 +74,7 @@
         }
     }
   },
-  "catchRate": 170,
+  "catchRate": 60,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -92,7 +92,7 @@
   "pokedex": [
     "cobblemon.species.formandelibird.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -107,7 +107,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 11,
   "weight": 0,
   "aspects": ["forman"],
   "cannotDynamax": false

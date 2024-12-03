@@ -7,26 +7,23 @@
       "id": "forman_magnemite-01",
       "pokemon": "magnemite forman",
       "presets": [
-        "natural"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "11-39",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+          "#cobblemon:is_overworld"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:iron_trap_door"
+            "cobblemon:healing_machine"
           ]
         }
       }
@@ -41,7 +38,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "9-32",
-      "weight": 5.1,
+      "weight": 7.6499999999999995,
       "condition": {
         "biomes": [
           "#minecraft:is_end"
@@ -66,7 +63,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "3-22",
-      "weight": 5.0,
+      "weight": 7.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_cave"
@@ -93,7 +90,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "12-22",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_lush"
@@ -118,7 +115,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "12-32",
-      "weight": 1.8,
+      "weight": 2.7,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_wasteland"

@@ -11,9 +11,9 @@ public class RaianianDragonite extends drai.dev.data.pokemon.Pokemon {
                 Type.DRAGON,Type.WATER,
                 stats,
                 List.of(), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
-                0.5,
+                27, 0,
+                new Stats(0,0,0,0,0,0), 30,
+                0,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(),
@@ -22,15 +22,21 @@ public class RaianianDragonite extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 55, 75, .05, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Dragonite");
-
+            addAdditionalEvolution("dragonair",new EvolutionEntry("raianiandragonite", EvolutionType.LEVEL_UP, List.of(),
+                    List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"55"),
+                            new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=female"),
+                            new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_COLD_OCEAN.getId() + ":" + Biome.IS_COLD_OCEAN.getName() +"\""))) );
     }
 
 

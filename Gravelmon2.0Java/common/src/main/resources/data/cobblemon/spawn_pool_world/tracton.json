@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "45-63",
-      "weight": 5.3,
+      "weight": 7.949999999999999,
       "condition": {
         "biomes": [
           "#cobblemon:is_cold"

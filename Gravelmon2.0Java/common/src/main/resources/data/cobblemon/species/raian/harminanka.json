@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "Harminanka",
-  "nationalPokedexNumber": 3318,
+  "nationalPokedexNumber": 3316,
   "primaryType": "water",
   "secondaryType": "ground",
   "abilities": [
@@ -57,7 +57,7 @@
   "pokedex": [
     "cobblemon.species.harminanka.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 1.4000000000000001,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -72,7 +72,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 84,
   "weight": 0,
   "aspects": [],
 "features": [

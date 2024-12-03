@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "13-41",
-      "weight": 4.0,
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#minecraft:is_end"
@@ -38,11 +38,13 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "13-41",
-      "weight": 3.8,
+      "weight": 5.699999999999999,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"
         ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       },
       "weightMultiplier": {
@@ -64,7 +66,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "12-34",
-      "weight": 4.0,
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_dripstone"

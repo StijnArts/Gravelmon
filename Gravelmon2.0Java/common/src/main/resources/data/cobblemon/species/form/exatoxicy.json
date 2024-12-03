@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 54,
+  "catchRate": 80,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -54,12 +54,15 @@
     "1:healbell"  ],
   "labels": [
     "form",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.exatoxicy.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "exeggcute form=forman",
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -74,7 +77,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 24,
   "weight": 0,
   "aspects": [],
 "features": [

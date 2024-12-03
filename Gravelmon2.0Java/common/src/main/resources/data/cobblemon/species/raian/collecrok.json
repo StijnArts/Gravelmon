@@ -7,12 +7,12 @@
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 84,
+    "attack": 29,
+    "defence": 64,
+    "special_attack": 86,
+    "special_defence": 84,
+    "speed": 35
   },
   "behaviour": {
     "resting": {
@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -47,7 +47,9 @@
   ],
   "moves": [
     "1:rockthrow",
-    "1:lowkick"  ],
+    "1:lowkick",
+    "1:bulkup",
+    "1:drainpunch"  ],
   "labels": [
     "raian",
     "not_modeled"
@@ -55,7 +57,39 @@
   "pokedex": [
     "cobblemon.species.collecrok.desc"
   ],
-  "baseScale": 0.1,
+  "evolutions": [
+    {
+      "id": "collecrok_dracnarok",
+      "variant": "level_up",
+      "result": "Dracnarok",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "party_member",
+          "target": "envirock",
+          "contains": true
+        },
+        {
+          "variant": "party_member",
+          "target": "envirock-cave",
+          "contains": true
+        },
+        {
+          "variant": "party_member",
+          "target": "envirock-forest",
+          "contains": true
+        },
+        {
+          "variant": "party_member",
+          "target": "envirock-sea",
+          "contains": true
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -70,7 +104,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 17,
   "weight": 0,
   "aspects": [],
 "features": [

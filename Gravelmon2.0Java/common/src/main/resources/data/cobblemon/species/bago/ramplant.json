@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "Ramplant",
-  "nationalPokedexNumber": 3724,
+  "nationalPokedexNumber": 3727,
   "primaryType": "grass",
   "abilities": [
     "keeneye"  ],
@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 89,
+  "catchRate": 90,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -49,12 +49,15 @@
     "1:synthesis"  ],
   "labels": [
     "bago",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ramplant.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "shrumb",
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -69,7 +72,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 12,
   "weight": 0,
   "aspects": [],
 "features": [

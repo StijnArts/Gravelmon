@@ -52,11 +52,14 @@
     "1:bulkup"  ],
   "labels": [
     "not_modeled",
+    "fakemon",
+    "fakemonevolution",
     "norse"
   ],
   "pokedex": [
     "cobblemon.species.ratatosk.desc"
   ],
+  "preEvolution": "ratatoby",
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,

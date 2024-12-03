@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "45-58",
-      "weight": 0.18,
+      "weight": 0.27,
       "condition": {
         "biomes": [
           "#cobblemon:is_cold_ocean"

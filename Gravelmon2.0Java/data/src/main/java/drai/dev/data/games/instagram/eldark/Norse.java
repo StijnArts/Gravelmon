@@ -25,7 +25,7 @@ public class Norse extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Loctus().setUsesBigModel());
         addNewPokemon(new Caclender().setUsesBigModel());
         addNewPokemon(new Okigon(new Stats(525, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPEED))).setUsesBigModel()); //Evolves into Vesgrass
-        addNewPokemon(new Lavades().setUsesBigModel());
+        addNewPokemon(new Lavades().setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new Hadcano().setUsesBigModel());
         addNewPokemon(new Surtacno(new Stats(525, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel()); //Evolves into Vesfire
         addNewPokemon(new Rayside().setUsesBigModel().fishingSpawnFromExisting());
@@ -66,11 +66,21 @@ public class Norse extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Froosorn(new Stats(450, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
         addNewPokemon(new Bereolf().setUsesBigModel());
         addNewPokemon(new Werowulf(new Stats(450, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel());
+        addPokedexPokemon(
+                "eevee," +
+                        "vaporeon," +
+                        "jolteon," +
+                        "flareon," +
+                        "espeon," +
+                        "umbreon," +
+                        "leafeon," +
+                        "glaceon," +
+                        "sylveon");
         addNewPokemon(new Dnaeon(new Stats(525, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))).setUsesBigModel());
         addNewPokemon(new Darteon(new Stats(525, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.SPEED))).setUsesBigModel());
         addNewPokemon(new Tiniweb().setUsesBigModel());
         addNewPokemon(new Rogider(new Stats(440, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.SPEED))).setUsesBigModel());
-        addNewPokemon(new Lyngortos(new Stats(480, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.HP))).setUsesBigModel());
+        addNewPokemon(new Lyngortos().setUsesBigModel());
         addNewPokemon(new Whalyn(new Stats(480, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(StatType.HP))).setUsesBigModel());
         addNewPokemon(new Freyter(new Stats(490, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
         addNewPokemon(new Freytera(new Stats(490, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).setUsesBigModel());
@@ -123,7 +133,7 @@ public class Norse extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Lygiest().setUsesBigModel());
         addNewPokemon(new Spectelyca(new Stats(470, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.SPEED))).setUsesBigModel());
         addNewPokemon(new Toxicotyl(new Stats(450, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).setUsesBigModel());
-        addNewPokemon(new Eggower(new Stats(370, StatArchetype.BULKY_SUPPORT, List.of(StatType.DEFENCE))).setUsesBigModel());
+        addNewPokemon(new Eggower().setUsesBigModel());
         addNewPokemon(new Electroost(new Stats(460, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))).setUsesBigModel());
         addNewPokemon(new Hideklt().setUsesBigModel());
         addNewPokemon(new Furkeleton().setUsesBigModel());

@@ -13,7 +13,7 @@
       "context": "submerged",
       "bucket": "rare",
       "level": "40-56",
-      "weight": 5.0,
+      "weight": 7.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_river",
@@ -32,7 +32,6 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:prismarine",
             "minecraft:prismarine"
           ]
         }
@@ -45,7 +44,7 @@
       "context": "fishing",
       "bucket": "rare",
       "level": "40-56",
-      "weight": 5.0,
+      "weight": 7.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_river",
@@ -62,7 +61,6 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:prismarine",
             "minecraft:prismarine"
           ]
         }

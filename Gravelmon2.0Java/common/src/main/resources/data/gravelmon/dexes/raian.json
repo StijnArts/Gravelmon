@@ -96,8 +96,6 @@
     "cobblemon:siagibon",
     "cobblemon:parotish",
     "cobblemon:pentagle",
-    "cobblemon:chaontouka",
-    "cobblemon:ordabada",
     "cobblemon:jumpkret",
     "cobblemon:jajagon",
     "cobblemon:ariromode",
@@ -177,6 +175,8 @@
     "cobblemon:predodator-tribal",
     "cobblemon:darcicle-tribal",
     "cobblemon:securider-tribal",
-    "cobblemon:closalarm-tribal"
+    "cobblemon:closalarm-tribal",
+    "cobblemon:chaontouka",
+    "cobblemon:ordabada"
   ]
 }

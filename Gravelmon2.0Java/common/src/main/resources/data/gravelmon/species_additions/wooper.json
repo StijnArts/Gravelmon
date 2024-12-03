@@ -6,12 +6,12 @@
   "abilities": [
     "static"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 52,
+    "attack": 28,
+    "defence": 45,
+    "special_attack": 65,
+    "special_defence": 50,
+    "speed": 57
   },
   "behaviour": {
     "resting": {
@@ -52,6 +52,22 @@
   "pokedex": [
     "cobblemon.species.formanwooper.desc"
   ],
+  "evolutions": [
+    {
+      "id": "wooper_Bulblotel",
+      "variant": "level_up",
+      "result": "Bulblotel",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 20
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -67,7 +83,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 4,
   "weight": 0,
   "aspects": ["forman"],
   "cannotDynamax": false

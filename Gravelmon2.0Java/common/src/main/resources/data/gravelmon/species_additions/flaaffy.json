@@ -6,12 +6,12 @@
   "abilities": [
     "effectspore"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 62,
+    "attack": 91,
+    "defence": 53,
+    "special_attack": 32,
+    "special_defence": 59,
+    "speed": 53
   },
   "behaviour": {
     "resting": {
@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 120,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -44,15 +44,34 @@
     "field"
   ],
   "moves": [
-    "1:acid"  ],
+    "1:poisonsting"  ],
   "labels": [
     "form",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.formanflaaffy.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "mareep form=forman",
+  "evolutions": [
+    {
+      "id": "flaaffy_Venomare",
+      "variant": "level_up",
+      "result": "Venomare",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -67,7 +86,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 8,
   "weight": 0,
   "aspects": ["forman"],
   "cannotDynamax": false

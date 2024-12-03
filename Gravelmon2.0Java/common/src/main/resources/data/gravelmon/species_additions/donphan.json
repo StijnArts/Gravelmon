@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 72,
+  "catchRate": 45,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -49,12 +49,15 @@
     "1:watergun"  ],
   "labels": [
     "raian",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.raianiandonphan.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "phanpy form=raianian",
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -69,7 +72,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 13,
   "weight": 0,
   "aspects": ["raianian"],
   "cannotDynamax": false
@@ -95,7 +98,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -109,7 +112,7 @@
         }
     }
   },
-  "catchRate": 72,
+  "catchRate": 60,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -122,12 +125,15 @@
     "1:quickattack"  ],
   "labels": [
     "form",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.formandonphan.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "phanpy form=forman",
+  "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -142,7 +148,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 11,
   "weight": 0,
   "aspects": ["forman"],
   "cannotDynamax": false

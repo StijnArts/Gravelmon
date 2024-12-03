@@ -1,17 +1,17 @@
 {
   "implemented": true,
   "name": "Spiturtos",
-  "nationalPokedexNumber": 3307,
+  "nationalPokedexNumber": 3305,
   "primaryType": "bug",
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 71,
-    "attack": 109,
-    "defence": 95,
-    "special_attack": 38,
-    "special_defence": 75,
-    "speed": 109
+    "hp": 78,
+    "attack": 120,
+    "defence": 105,
+    "special_attack": 42,
+    "special_defence": 83,
+    "speed": 120
   },
   "behaviour": {
     "resting": {
@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 72,
+  "catchRate": 30,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -54,7 +54,7 @@
   "pokedex": [
     "cobblemon.species.spiturtos.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -69,7 +69,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 15,
   "weight": 0,
   "aspects": [],
 "features": [

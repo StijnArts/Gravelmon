@@ -7,12 +7,12 @@
   "abilities": [
     "tangledfeet"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 55,
+    "attack": 70,
+    "defence": 49,
+    "special_attack": 58,
+    "special_defence": 49,
+    "speed": 44
   },
   "behaviour": {
     "resting": {
@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 190,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -54,6 +54,22 @@
   "pokedex": [
     "cobblemon.species.formannatu.desc"
   ],
+  "evolutions": [
+    {
+      "id": "natu_watu",
+      "variant": "level_up",
+      "result": "watu",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 25
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -69,7 +85,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 2,
   "weight": 0,
   "aspects": ["forman"],
   "cannotDynamax": false

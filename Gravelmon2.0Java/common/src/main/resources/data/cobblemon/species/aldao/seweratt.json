@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 125,
+  "catchRate": 90,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -54,12 +54,15 @@
     "1:toxic"  ],
   "labels": [
     "aldao",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.seweratt.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "sewerunt",
+  "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -74,7 +77,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 11,
   "weight": 0,
   "aspects": [],
 "features": [

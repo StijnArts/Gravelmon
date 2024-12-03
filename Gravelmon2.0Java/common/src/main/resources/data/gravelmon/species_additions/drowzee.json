@@ -8,12 +8,12 @@
   "abilities": [
     "static"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 59,
+    "attack": 31,
+    "defence": 51,
+    "special_attack": 86,
+    "special_defence": 56,
+    "speed": 51
   },
   "behaviour": {
     "resting": {
@@ -37,7 +37,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 220,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -55,7 +55,23 @@
   "pokedex": [
     "cobblemon.species.formandrowzee.desc"
   ],
-  "baseScale": 0.1,
+  "evolutions": [
+    {
+      "id": "drowzee_saitro",
+      "variant": "level_up",
+      "result": "saitro",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 26
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -70,7 +86,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 14,
   "weight": 0,
   "aspects": ["forman"],
   "cannotDynamax": false

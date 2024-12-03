@@ -7,17 +7,16 @@
       "id": "dragorai-01",
       "pokemon": "dragorai",
       "presets": [
-        "natural"
+        "underwater"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "ultra-rare",
+      "level": "55-70",
+      "weight": 0.045,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_beach"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "11-34",
-      "weight": 2.5,
+      "weight": 3.75,
       "condition": {
         "biomes": [
           "#cobblemon:is_cave"
@@ -38,11 +38,13 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "11-34",
-      "weight": 3.0,
+      "weight": 4.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical"
         ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       },
       "weightMultiplier": {
@@ -64,7 +66,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "3-22",
-      "weight": 8.0,
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#minecraft:is_end"
@@ -89,11 +91,13 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "12-34",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
         ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       },
       "weightMultiplier": {
@@ -115,11 +119,13 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "5-50",
-      "weight": 9.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical"
         ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "day"
       },
       "weightMultiplier": {

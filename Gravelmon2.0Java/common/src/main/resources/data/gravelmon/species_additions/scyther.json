@@ -7,12 +7,12 @@
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 76,
+    "attack": 26,
+    "defence": 58,
+    "special_attack": 78,
+    "special_defence": 76,
+    "speed": 32
   },
   "behaviour": {
     "resting": {
@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 45,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -54,7 +54,21 @@
   "pokedex": [
     "cobblemon.species.raianianscyther.desc"
   ],
-  "baseScale": 0.1,
+  "evolutions": [
+    {
+      "id": "scyther_scizor_raianian",
+      "variant": "item_interact",
+      "result": "scizor raianian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:moon_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -69,7 +83,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 16,
   "weight": 0,
   "aspects": ["raianian"],
   "cannotDynamax": false
@@ -81,12 +95,12 @@
   "abilities": [
     "moxie"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 49,
+    "attack": 90,
+    "defence": 52,
+    "special_attack": 26,
+    "special_defence": 52,
+    "speed": 76
   },
   "behaviour": {
     "resting": {
@@ -110,7 +124,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 45,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -120,7 +134,9 @@
   ],
   "moves": [
     "1:strugglebug",
-    "1:bite"  ],
+    "1:bite",
+    "1:uturn",
+    "1:quickattack"  ],
   "labels": [
     "form",
     "not_modeled"
@@ -128,7 +144,21 @@
   "pokedex": [
     "cobblemon.species.formanscyther.desc"
   ],
-  "baseScale": 0.1,
+  "evolutions": [
+    {
+      "id": "scyther_sickleor",
+      "variant": "item_interact",
+      "result": "sickleor",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:dusk_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -143,7 +173,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 15,
   "weight": 0,
   "aspects": ["forman"],
   "cannotDynamax": false

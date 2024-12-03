@@ -7,17 +7,16 @@
       "id": "dradna-01",
       "pokemon": "dradna",
       "presets": [
-        "natural"
+        "underwater"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "context": "submerged",
+      "bucket": "rare",
+      "level": "41-65",
+      "weight": 0.30000000000000004,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#minecraft:is_deep_ocean"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

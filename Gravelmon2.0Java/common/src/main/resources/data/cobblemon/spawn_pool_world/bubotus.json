@@ -7,17 +7,16 @@
       "id": "bubotus-01",
       "pokemon": "bubotus",
       "presets": [
-        "natural"
+        "underwater"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
+      "context": "submerged",
+      "bucket": "uncommon",
       "level": "3-22",
-      "weight": 3.8,
+      "weight": 6.6000000000000005,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_cold_ocean"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -26,7 +25,6 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:prismarine",
             "minecraft:prismarine"
           ]
         }
@@ -37,20 +35,18 @@
       "pokemon": "bubotus",
       "type": "pokemon",
       "context": "fishing",
-      "bucket": "common",
+      "bucket": "uncommon",
       "level": "3-22",
-      "weight": 3.8,
+      "weight": 6.6000000000000005,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_cold_ocean"
         ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:prismarine",
             "minecraft:prismarine"
           ]
         }

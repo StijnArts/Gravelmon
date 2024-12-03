@@ -6,12 +6,12 @@
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 52,
+    "attack": 77,
+    "defence": 45,
+    "special_attack": 28,
+    "special_defence": 50,
+    "speed": 45
   },
   "behaviour": {
     "resting": {
@@ -26,16 +26,16 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 150,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -53,7 +53,21 @@
   "pokedex": [
     "cobblemon.species.moorlock.desc"
   ],
-  "baseScale": 0.1,
+  "evolutions": [
+    {
+      "id": "moorlock_morlocking",
+      "variant": "item_interact",
+      "result": "morlocking",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:water_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -68,7 +82,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 9,
   "weight": 0,
   "aspects": [],
 "features": [

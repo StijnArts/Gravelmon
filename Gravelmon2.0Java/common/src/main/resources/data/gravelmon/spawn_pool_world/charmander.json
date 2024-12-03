@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "5-31",
-      "weight": 9.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_glacial"
@@ -40,7 +40,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "5-31",
-      "weight": 9.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"
@@ -67,11 +67,13 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "5-31",
-      "weight": 9.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_bamboo"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -92,14 +94,14 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "5-31",
-      "weight": 9.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
         ],
-        "timeRange": "night",
         "minSkyLight": 8,
-        "maxSkyLight": 15
+        "maxSkyLight": 15,
+        "timeRange": "night"
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -120,11 +122,13 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "5-31",
-      "weight": 9.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_magical"
-        ]
+          "#cobblemon:is_spooky"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

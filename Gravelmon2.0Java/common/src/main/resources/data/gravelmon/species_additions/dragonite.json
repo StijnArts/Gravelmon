@@ -27,16 +27,16 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
-  "catchRate": 45,
+  "catchRate": 30,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -56,7 +56,7 @@
   "pokedex": [
     "cobblemon.species.raianiandragonite.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -71,7 +71,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 27,
   "weight": 0,
   "aspects": ["raianian"],
   "cannotDynamax": false
@@ -112,7 +112,7 @@
         }
     }
   },
-  "catchRate": 45,
+  "catchRate": 30,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -132,7 +132,7 @@
   "pokedex": [
     "cobblemon.species.raianiandragoniteone.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.43333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -147,7 +147,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 26,
   "weight": 0,
   "aspects": ["raianiantwo"],
   "cannotDynamax": false

@@ -13,7 +13,7 @@
       "context": "submerged",
       "bucket": "uncommon",
       "level": "37-51",
-      "weight": 0.3,
+      "weight": 0.44999999999999996,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"
@@ -26,7 +26,6 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:pink_stained_glass",
             "minecraft:pink_stained_glass"
           ]
         }
@@ -39,7 +38,7 @@
       "context": "fishing",
       "bucket": "uncommon",
       "level": "37-51",
-      "weight": 0.3,
+      "weight": 0.44999999999999996,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"
@@ -50,7 +49,6 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:pink_stained_glass",
             "minecraft:pink_stained_glass"
           ]
         }

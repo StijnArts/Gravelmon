@@ -12,13 +12,13 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "35-56",
+      "weight": 1.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_overworld"
         ],
+        "isThundering": true,
         "minSkyLight": 8,
         "maxSkyLight": 15
       },
@@ -41,7 +41,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "33-54",
-      "weight": 4.0,
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_volvanic",
@@ -68,7 +68,7 @@
       "context": "seafloor",
       "bucket": "common",
       "level": "9-34",
-      "weight": 1.8,
+      "weight": 2.7,
       "condition": {
         "biomes": [
           "#cobblemon:is_sky",
@@ -96,7 +96,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "35-57",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "minSkyLight": 8,
         "maxSkyLight": 15,
@@ -121,7 +121,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "35-49",
-      "weight": 0.2,
+      "weight": 0.30000000000000004,
       "condition": {
         "biomes": [
           "#cobblemon:is_mountain",

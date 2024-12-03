@@ -13,7 +13,7 @@
       "context": "submerged",
       "bucket": "common",
       "level": "12-56",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky",
@@ -25,7 +25,6 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:bone_block",
             "minecraft:bone_block"
           ]
         }
@@ -38,7 +37,7 @@
       "context": "fishing",
       "bucket": "common",
       "level": "12-56",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky",
@@ -50,7 +49,6 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:bone_block",
             "minecraft:bone_block"
           ]
         }
@@ -66,7 +64,7 @@
       "context": "submerged",
       "bucket": "common",
       "level": "12-56",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "biomes": [
           "#minecraft:is_deep_ocean"

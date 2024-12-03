@@ -1,5 +1,29 @@
 {
    "target": "cobblemon:kirlia",
+  "evolutions": [
+    {
+      "id": "kirlia_raianiangallade",
+      "variant": "item_interact",
+      "result": "raianiangallade",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:thunder_stone",
+      "permanent": true   
+ }
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:thunder_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+      },
   "preEvolution": "ayreianralts",
    "forms": [{
   "name": "Fabelian",

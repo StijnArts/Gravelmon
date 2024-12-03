@@ -7,17 +7,16 @@
       "id": "parotish-01",
       "pokemon": "parotish",
       "presets": [
-        "natural"
+        "water_surface"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "context": "surface",
+      "bucket": "rare",
+      "level": "13-32",
+      "weight": 7.050000000000001,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_warm_ocean"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

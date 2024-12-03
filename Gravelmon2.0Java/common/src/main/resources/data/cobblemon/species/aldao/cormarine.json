@@ -32,7 +32,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -52,12 +52,15 @@
     "1:bulkup"  ],
   "labels": [
     "aldao",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.cormarine.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "saillard",
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -72,7 +75,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 13,
   "weight": 0,
   "aspects": [],
 "features": [

@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "20-42",
-      "weight": 0.8,
+      "weight": 1.2000000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_savanna"
@@ -40,11 +40,13 @@
       "context": "grounded",
       "bucket": "common",
       "level": "21-38",
-      "weight": 1.1,
+      "weight": 1.6500000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical"
         ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "day"
       },
       "weightMultiplier": {

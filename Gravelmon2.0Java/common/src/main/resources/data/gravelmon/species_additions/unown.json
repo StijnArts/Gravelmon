@@ -31,12 +31,12 @@
   "abilities": [
     "prankster"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 54,
+    "attack": 99,
+    "defence": 58,
+    "special_attack": 29,
+    "special_defence": 58,
+    "speed": 84
   },
   "behaviour": {
     "resting": {
@@ -46,7 +46,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -60,7 +60,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 190,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -70,13 +70,31 @@
   ],
   "moves": [
     "1:bite",
-    "1:confusion"  ],
+    "1:confusion",
+    "1:quickattack",
+    "1:agility"  ],
   "labels": [
     "form",
     "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.formanunown.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "unown_chainown",
+      "variant": "level_up",
+      "result": "chainown",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 45
+        }
+      ],
+      "permanent": true   
+ }
   ],
   "baseScale": 0.1,
   "hitbox": {
@@ -93,7 +111,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 4,
   "weight": 0,
   "aspects": ["forman"],
   "cannotDynamax": false

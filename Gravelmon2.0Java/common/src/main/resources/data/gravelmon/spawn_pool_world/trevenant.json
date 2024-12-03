@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "37-54",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_forest"
@@ -38,7 +38,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "6-31",
-      "weight": 1.8,
+      "weight": 2.7,
       "condition": {
         "biomes": [
           "#cobblemon:is_taiga"
@@ -66,7 +66,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "30-52",
-      "weight": 0.3,
+      "weight": 0.44999999999999996,
       "condition": {
         "biomes": [
           "#cobblemon:is_floral"
@@ -99,7 +99,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "31-54",
-      "weight": 0.4,
+      "weight": 0.6000000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"
@@ -127,7 +127,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "30-52",
-      "weight": 0.3,
+      "weight": 0.44999999999999996,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_fungus"

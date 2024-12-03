@@ -1,17 +1,17 @@
 {
   "implemented": true,
   "name": "Glaciking",
-  "nationalPokedexNumber": 3301,
+  "nationalPokedexNumber": 3299,
   "primaryType": "ice",
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 109,
-    "attack": 38,
-    "defence": 104,
-    "special_attack": 92,
-    "special_defence": 109,
-    "speed": 46
+    "hp": 120,
+    "attack": 42,
+    "defence": 114,
+    "special_attack": 101,
+    "special_defence": 120,
+    "speed": 51
   },
   "behaviour": {
     "resting": {
@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 72,
+  "catchRate": 30,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -54,7 +54,7 @@
   "pokedex": [
     "cobblemon.species.glaciking.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.43333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -69,7 +69,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 26,
   "weight": 0,
   "aspects": [],
 "features": [

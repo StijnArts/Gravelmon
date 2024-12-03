@@ -253,6 +253,18 @@
       "permanent": true   
  },
     {
+      "id": "eevee_cloueon",
+      "variant": "item_interact",
+      "result": "cloueon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:shiny_stone",
+      "permanent": true   
+ },
+    {
       "id": "eevee_alpheon",
       "variant": "level_up",
       "result": "alpheon",
@@ -726,6 +738,11 @@
         "percentage": 10
       },
       {
+        "item": "cobblemon:shiny_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
         "item": "cobblemon:moon_stone",
         "quantityRange": "1-1",
         "percentage": 10
@@ -867,7 +884,7 @@
         }
     }
   },
-  "catchRate": 110,
+  "catchRate": 170,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -884,7 +901,7 @@
   "pokedex": [
     "cobblemon.species.formaneevee.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -899,7 +916,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 12,
   "weight": 0,
   "aspects": ["forman"],
   "cannotDynamax": false

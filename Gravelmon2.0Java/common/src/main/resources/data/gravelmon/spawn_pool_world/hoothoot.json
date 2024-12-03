@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "3-22",
-      "weight": 3.8,
+      "weight": 5.699999999999999,
       "condition": {
         "biomes": [
           "#cobblemon:is_sky",
@@ -40,15 +40,15 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "6-31",
+      "weight": 6.75,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_magical"
         ],
         "minSkyLight": 8,
-        "maxSkyLight": 15
+        "maxSkyLight": 15,
+        "timeRange": "night"
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -69,7 +69,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "9-32",
-      "weight": 4.8,
+      "weight": 7.199999999999999,
       "condition": {
         "biomes": [
           "#cobblemon:is_sky",
@@ -98,7 +98,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "3-22",
-      "weight": 4.5,
+      "weight": 6.75,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy_forest"
@@ -125,7 +125,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "3-22",
-      "weight": 4.0,
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"
@@ -153,14 +153,14 @@
       "context": "grounded",
       "bucket": "common",
       "level": "3-22",
-      "weight": 4.0,
+      "weight": 6.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_taiga"
+          "#cobblemon:is_spooky"
         ],
-        "timeRange": "night",
         "minSkyLight": 8,
-        "maxSkyLight": 15
+        "maxSkyLight": 15,
+        "timeRange": "night"
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -181,7 +181,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "6-26",
-      "weight": 8.0,
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_freezing"

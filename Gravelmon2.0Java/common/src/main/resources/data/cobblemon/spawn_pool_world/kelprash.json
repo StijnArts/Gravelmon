@@ -13,7 +13,7 @@
       "context": "seafloor",
       "bucket": "rare",
       "level": "41-52",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"

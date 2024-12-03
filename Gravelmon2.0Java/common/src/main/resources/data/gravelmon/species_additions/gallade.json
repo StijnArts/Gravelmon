@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 62,
+  "catchRate": 45,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -44,6 +44,16 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:thunder_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:thundershock",
     "1:lowkick",
@@ -56,7 +66,7 @@
   "pokedex": [
     "cobblemon.species.raianiangallade.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -71,7 +81,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 17,
   "weight": 0,
   "aspects": ["raianian"],
   "cannotDynamax": false

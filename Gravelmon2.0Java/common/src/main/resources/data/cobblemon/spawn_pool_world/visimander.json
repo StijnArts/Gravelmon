@@ -13,7 +13,7 @@
       "context": "submerged",
       "bucket": "common",
       "level": "20-37",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_lush"

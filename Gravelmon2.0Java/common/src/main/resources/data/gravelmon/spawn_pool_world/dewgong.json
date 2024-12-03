@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "3-22",
-      "weight": 3.8,
+      "weight": 5.699999999999999,
       "condition": {
         "biomes": [
           "#cobblemon:is_sky",
@@ -26,7 +26,6 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:prismarine",
             "minecraft:prismarine"
           ]
         }
@@ -39,7 +38,7 @@
       "context": "fishing",
       "bucket": "common",
       "level": "3-22",
-      "weight": 3.8,
+      "weight": 5.699999999999999,
       "condition": {
         "biomes": [
           "#cobblemon:is_sky",
@@ -50,7 +49,6 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:prismarine",
             "minecraft:prismarine"
           ]
         }
@@ -66,7 +64,7 @@
       "context": "submerged",
       "bucket": "uncommon",
       "level": "38-53",
-      "weight": 0.3,
+      "weight": 0.44999999999999996,
       "condition": {
         "biomes": [
           "#cobblemon:is_coast"
@@ -98,7 +96,7 @@
       "context": "submerged",
       "bucket": "common",
       "level": "34-48",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean",
@@ -124,7 +122,7 @@
       "context": "submerged",
       "bucket": "common",
       "level": "33-56",
-      "weight": 0.9,
+      "weight": 1.35,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"

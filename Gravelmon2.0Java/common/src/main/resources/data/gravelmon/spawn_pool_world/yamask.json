@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "3-22",
-      "weight": 3.8,
+      "weight": 5.699999999999999,
       "condition": {
         "biomes": [
           "#cobblemon:is_sky",
@@ -41,7 +41,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "3-22",
-      "weight": 3.8,
+      "weight": 5.699999999999999,
       "condition": {
         "biomes": [
           "#cobblemon:is_sky",
@@ -69,7 +69,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "10-35",
-      "weight": 4.4,
+      "weight": 6.6000000000000005,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
@@ -96,7 +96,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "5-30",
-      "weight": 1.8,
+      "weight": 2.7,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
@@ -123,7 +123,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "5-24",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_deep_dark"
@@ -150,7 +150,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "12-32",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "biomes": [
           "#minecraft:is_end"

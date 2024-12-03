@@ -1,17 +1,17 @@
 {
   "implemented": true,
   "name": "Articture",
-  "nationalPokedexNumber": 3304,
+  "nationalPokedexNumber": 3302,
   "primaryType": "psychic",
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 67,
-    "attack": 67,
-    "defence": 84,
-    "special_attack": 63,
-    "special_defence": 67,
-    "speed": 141
+    "hp": 74,
+    "attack": 74,
+    "defence": 92,
+    "special_attack": 69,
+    "special_defence": 74,
+    "speed": 155
   },
   "behaviour": {
     "resting": {
@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 77,
+  "catchRate": 30,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -55,7 +55,7 @@
   "pokedex": [
     "cobblemon.species.articture.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -70,7 +70,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 15,
   "weight": 0,
   "aspects": [],
 "features": [

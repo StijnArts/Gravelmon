@@ -176,12 +176,12 @@
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 58,
+    "attack": 108,
+    "defence": 86,
+    "special_attack": 47,
+    "special_defence": 72,
+    "speed": 47
   },
   "behaviour": {
     "resting": {
@@ -205,7 +205,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 45,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -215,15 +215,34 @@
   ],
   "moves": [
     "1:scratch",
-    "1:absorb"  ],
+    "1:leafage"  ],
   "labels": [
     "raian",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.raianiangabite.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "gible form=raianian",
+  "evolutions": [
+    {
+      "id": "gabite_garchomp_raianian",
+      "variant": "level_up",
+      "result": "garchomp raianian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 48
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -238,7 +257,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 13,
   "weight": 0,
   "aspects": ["raianian"],
   "cannotDynamax": false

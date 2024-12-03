@@ -7,20 +7,39 @@
       "id": "jormydos-01",
       "pokemon": "jormydos",
       "presets": [
-        "natural"
+        "underwater"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "36-54",
+      "weight": 0.8999999999999999,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+          "#cobblemon:is_frozen"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_ice"
+          ]
+        }
+      }
+    },
+    {
+      "id": "jormydos-11",
+      "pokemon": "jormydos",
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "uncommon",
+      "level": "36-54",
+      "weight": 0.8999999999999999,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_frozen"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

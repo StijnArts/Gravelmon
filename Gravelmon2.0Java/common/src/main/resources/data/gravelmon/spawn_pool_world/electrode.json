@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "41-54",
-      "weight": 0.4,
+      "weight": 0.6000000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"
@@ -38,7 +38,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "39-54",
-      "weight": 1.1,
+      "weight": 1.6500000000000001,
       "condition": {
         "biomes": [
           "#minecraft:is_end"
@@ -63,7 +63,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "31-54",
-      "weight": 0.5,
+      "weight": 0.75,
       "condition": {
         "biomes": [
           "#cobblemon:is_mountain"
@@ -90,7 +90,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "31-54",
-      "weight": 0.2,
+      "weight": 0.30000000000000004,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_basalt"
@@ -115,11 +115,13 @@
       "context": "grounded",
       "bucket": "common",
       "level": "31-54",
-      "weight": 0.2,
+      "weight": 0.30000000000000004,
       "condition": {
         "biomes": [
-          "#cobblemon:is_magical"
-        ]
+          "#cobblemon:is_spooky"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

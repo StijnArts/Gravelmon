@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "Cloueon",
-  "nationalPokedexNumber": 3322,
+  "nationalPokedexNumber": 3320,
   "primaryType": "flying",
   "abilities": [
     "keeneye"  ],
@@ -21,7 +21,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -44,6 +44,16 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:shiny_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:gust",
     "1:bulkup"  ],

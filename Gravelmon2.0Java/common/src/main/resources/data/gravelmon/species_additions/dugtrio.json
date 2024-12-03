@@ -27,16 +27,16 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
-  "catchRate": 116,
+  "catchRate": 80,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -51,12 +51,15 @@
     "1:bulkup"  ],
   "labels": [
     "form",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.formandugtrio.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "diglett form=forman",
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -71,7 +74,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 13,
   "weight": 0,
   "aspects": ["forman"],
   "cannotDynamax": false

@@ -13,11 +13,13 @@
       "context": "grounded",
       "bucket": "common",
       "level": "35-51",
-      "weight": 0.15,
+      "weight": 0.22499999999999998,
       "condition": {
         "biomes": [
           "#cobblemon:is_forest"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
         "biomes": [

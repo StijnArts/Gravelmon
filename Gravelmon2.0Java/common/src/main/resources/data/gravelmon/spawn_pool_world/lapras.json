@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "3-22",
-      "weight": 3.8,
+      "weight": 5.699999999999999,
       "condition": {
         "biomes": [
           "#cobblemon:is_sky",
@@ -35,17 +35,16 @@
       "id": "forman_lapras-01",
       "pokemon": "lapras forman",
       "presets": [
-        "natural"
+        "underwater"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "context": "seafloor",
+      "bucket": "rare",
+      "level": "31-59",
+      "weight": 1.0499999999999998,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_warm_ocean"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -69,7 +68,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "23-46",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#minecraft:is_nether"
@@ -96,7 +95,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "32-54",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_savanna"
@@ -123,7 +122,7 @@
       "context": "seafloor",
       "bucket": "uncommon",
       "level": "29-54",
-      "weight": 4.0,
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"
@@ -151,7 +150,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "20-53",
-      "weight": 10.0,
+      "weight": 15.0,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"
@@ -183,7 +182,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "20-53",
-      "weight": 10.0,
+      "weight": 15.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -214,7 +213,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "20-53",
-      "weight": 10.0,
+      "weight": 15.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"

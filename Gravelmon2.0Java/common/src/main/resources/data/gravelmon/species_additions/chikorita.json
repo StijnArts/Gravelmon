@@ -6,12 +6,12 @@
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 44,
+    "attack": 65,
+    "defence": 38,
+    "special_attack": 23,
+    "special_defence": 42,
+    "speed": 38
   },
   "behaviour": {
     "resting": {
@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 45,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -52,7 +52,23 @@
   "pokedex": [
     "cobblemon.species.formanchikorita.desc"
   ],
-  "baseScale": 0.1,
+  "evolutions": [
+    {
+      "id": "chikorita_sawtears",
+      "variant": "level_up",
+      "result": "sawtears",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 14
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.11666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -67,7 +83,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 7,
   "weight": 0,
   "aspects": ["forman"],
   "cannotDynamax": false

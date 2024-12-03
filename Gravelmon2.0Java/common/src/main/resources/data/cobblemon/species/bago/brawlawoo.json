@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "Brawlawoo",
-  "nationalPokedexNumber": 3701,
+  "nationalPokedexNumber": 3710,
   "primaryType": "fighting",
   "abilities": [
     "keeneye"  ],
@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 72,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -53,7 +53,7 @@
   "pokedex": [
     "cobblemon.species.brawlawoo.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -68,7 +68,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 13,
   "weight": 0,
   "aspects": [],
 "features": [

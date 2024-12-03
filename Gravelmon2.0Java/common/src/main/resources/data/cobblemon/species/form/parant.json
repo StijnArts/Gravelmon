@@ -55,6 +55,22 @@
   "pokedex": [
     "cobblemon.species.parant.desc"
   ],
+  "evolutions": [
+    {
+      "id": "parant_paras_forman",
+      "variant": "level_up",
+      "result": "paras forman",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 12
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -70,7 +86,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 3,
   "weight": 0,
   "aspects": [],
 "features": [

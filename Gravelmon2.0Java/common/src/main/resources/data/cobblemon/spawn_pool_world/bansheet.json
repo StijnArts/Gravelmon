@@ -13,14 +13,14 @@
       "context": "grounded",
       "bucket": "common",
       "level": "14-33",
-      "weight": 3.8,
+      "weight": 5.699999999999999,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
         ],
-        "timeRange": "night",
         "minSkyLight": 0,
-        "maxSkyLight": 7
+        "maxSkyLight": 7,
+        "timeRange": "night"
       },
       "weightMultiplier": {
         "multiplier": 5.0,

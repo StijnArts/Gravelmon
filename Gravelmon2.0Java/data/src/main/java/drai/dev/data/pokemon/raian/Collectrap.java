@@ -11,22 +11,24 @@ public class Collectrap extends drai.dev.data.pokemon.Pokemon {
                 Type.ROCK,Type.DARK,
                 stats,
                 List.of(Ability.STURDY), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                17, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(),
                 List.of(""),
-                List.of(),
+                List.of(new EvolutionEntry("Rapnagon", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"\"smotrap\""),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"\"needatrap\""),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"\"mintrap\"")))),
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 45, .7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NETHER_FORTRESS),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Collectrap");

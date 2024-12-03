@@ -22,7 +22,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 96,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -52,12 +52,15 @@
     "1:vacuumwave"  ],
   "labels": [
     "aldao",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.pteragon.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "pternair",
+  "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -72,7 +75,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 10,
   "weight": 0,
   "aspects": [],
 "features": [

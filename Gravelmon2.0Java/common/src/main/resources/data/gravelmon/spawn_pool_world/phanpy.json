@@ -7,17 +7,17 @@
       "id": "raianian_phanpy-01",
       "pokemon": "phanpy raianian",
       "presets": [
-        "natural"
+        "natural",
+        "near_water"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
       "level": "3-22",
-      "weight": 3.8,
+      "weight": 6.75,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_desert"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -40,8 +40,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "13-32",
+      "weight": 6.75,
       "condition": {
         "biomes": [
           "#cobblemon:is_sky",
@@ -69,7 +69,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "8-29",
-      "weight": 3.8,
+      "weight": 5.699999999999999,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"
@@ -102,7 +102,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "3-22",
-      "weight": 3.8,
+      "weight": 5.699999999999999,
       "condition": {
         "biomes": [
           "#cobblemon:is_savanna"
@@ -129,7 +129,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "11-32",
-      "weight": 4.0,
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"

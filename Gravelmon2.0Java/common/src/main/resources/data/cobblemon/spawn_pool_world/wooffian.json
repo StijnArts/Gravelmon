@@ -7,17 +7,16 @@
       "id": "wooffian-01",
       "pokemon": "wooffian",
       "presets": [
-        "natural"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "21-43",
+      "weight": 1.6500000000000001,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_overworld"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

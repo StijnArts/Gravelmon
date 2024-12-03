@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "11-44",
-      "weight": 4.0,
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"
@@ -40,7 +40,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "5-43",
-      "weight": 3.0,
+      "weight": 4.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_lush"

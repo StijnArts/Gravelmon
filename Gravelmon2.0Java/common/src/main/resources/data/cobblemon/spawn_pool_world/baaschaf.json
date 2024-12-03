@@ -13,7 +13,7 @@
       "context": "surface",
       "bucket": "common",
       "level": "22-48",
-      "weight": 0.5,
+      "weight": 0.75,
       "condition": {
         "biomes": [
           "#cobblemon:is_plains"

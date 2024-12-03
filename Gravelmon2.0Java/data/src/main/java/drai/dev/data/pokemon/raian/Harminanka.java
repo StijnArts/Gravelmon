@@ -11,8 +11,8 @@ public class Harminanka extends drai.dev.data.pokemon.Pokemon {
                 Type.WATER,Type.GROUND,
                 stats,
                 List.of(Ability.TOTALBALANCE), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                84, 0,
+                new Stats(0,0,0,0,0,0), 3,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -22,9 +22,8 @@ public class Harminanka extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

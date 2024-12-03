@@ -13,7 +13,7 @@
       "context": "surface",
       "bucket": "rare",
       "level": "36-51",
-      "weight": 0.3,
+      "weight": 0.44999999999999996,
       "condition": {
         "biomes": [
           "#cobblemon:is_temperate"
@@ -39,12 +39,14 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "25-41",
-      "weight": 0.6,
+      "weight": 0.8999999999999999,
       "condition": {
         "biomes": [
           "#cobblemon:is_tropical",
           "#cobblemon:is_jungle"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -65,7 +67,7 @@
       "context": "surface",
       "bucket": "common",
       "level": "22-45",
-      "weight": 0.2,
+      "weight": 0.30000000000000004,
       "condition": {
         "biomes": [
           "#cobblemon:is_taiga"

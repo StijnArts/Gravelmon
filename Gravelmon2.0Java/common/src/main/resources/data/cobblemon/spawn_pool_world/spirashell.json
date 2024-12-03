@@ -13,7 +13,7 @@
       "context": "seafloor",
       "bucket": "common",
       "level": "11-21",
-      "weight": 1.1,
+      "weight": 1.6500000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"

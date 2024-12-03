@@ -7,12 +7,12 @@
   "abilities": [
     "liquidooze"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 61,
+    "attack": 21,
+    "defence": 61,
+    "special_attack": 61,
+    "special_defence": 63,
+    "speed": 11
   },
   "behaviour": {
     "resting": {
@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 160,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -46,13 +46,31 @@
   ],
   "moves": [
     "1:acid",
-    "1:disarmingvoice"  ],
+    "1:disarmingvoice",
+    "1:bulkup",
+    "1:bulkup"  ],
   "labels": [
     "form",
     "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.formantogepi.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "togepi_togesik",
+      "variant": "level_up",
+      "result": "togesik",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 190
+        }
+      ],
+      "permanent": true   
+ }
   ],
   "baseScale": 0.1,
   "hitbox": {
@@ -69,7 +87,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 4,
   "weight": 0,
   "aspects": ["forman"],
   "cannotDynamax": false

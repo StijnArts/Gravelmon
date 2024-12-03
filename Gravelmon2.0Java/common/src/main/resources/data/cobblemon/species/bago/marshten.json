@@ -1,10 +1,12 @@
 {
   "implemented": true,
   "name": "Marshten",
-  "nationalPokedexNumber": 3726,
+  "nationalPokedexNumber": 3690,
   "primaryType": "water",
   "abilities": [
-    "keeneye"  ],
+    "torrent",
+    "h:overcoat"
+  ],
   "baseStats": {
     "hp": 0,
     "attack": 0,
@@ -31,11 +33,11 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -48,12 +50,31 @@
     "1:watergun"  ],
   "labels": [
     "bago",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.marshten.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "marmink",
+  "evolutions": [
+    {
+      "id": "marshten_overmine",
+      "variant": "level_up",
+      "result": "overmine",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -68,7 +89,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 11,
   "weight": 0,
   "aspects": [],
 "features": [

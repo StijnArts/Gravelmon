@@ -1,17 +1,17 @@
 {
   "implemented": true,
   "name": "Kiwalon",
-  "nationalPokedexNumber": 3305,
+  "nationalPokedexNumber": 3303,
   "primaryType": "grass",
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 75,
-    "attack": 75,
-    "defence": 129,
-    "special_attack": 63,
-    "special_defence": 92,
-    "speed": 63
+    "hp": 83,
+    "attack": 83,
+    "defence": 142,
+    "special_attack": 69,
+    "special_defence": 101,
+    "speed": 69
   },
   "behaviour": {
     "resting": {
@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 72,
+  "catchRate": 30,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -55,7 +55,7 @@
   "pokedex": [
     "cobblemon.species.kiwalon.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -70,7 +70,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 17,
   "weight": 0,
   "aspects": [],
 "features": [

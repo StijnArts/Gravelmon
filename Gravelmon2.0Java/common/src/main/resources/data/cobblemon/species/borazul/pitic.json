@@ -7,12 +7,12 @@
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 34,
+    "attack": 17,
+    "defence": 35,
+    "special_attack": 51,
+    "special_defence": 35,
+    "speed": 61
   },
   "behaviour": {
     "resting": {
@@ -27,12 +27,12 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -47,13 +47,33 @@
   ],
   "moves": [
     "1:strugglebug",
-    "1:acid"  ],
+    "1:acid",
+    "1:pollenpuff",
+    "1:toxic",
+    "1:vacuumwave",
+    "1:vacuumwave"  ],
   "labels": [
     "borazul",
     "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.pitic.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "pitic_shelpa",
+      "variant": "level_up",
+      "result": "shelpa",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 10
+        }
+      ],
+      "permanent": true   
+ }
   ],
   "baseScale": 0.1,
   "hitbox": {
@@ -70,7 +90,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 2,
   "weight": 0,
   "aspects": [],
 "features": [

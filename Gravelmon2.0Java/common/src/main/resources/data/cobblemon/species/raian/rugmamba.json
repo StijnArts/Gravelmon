@@ -1,17 +1,17 @@
 {
   "implemented": true,
   "name": "Rugmamba",
-  "nationalPokedexNumber": 3299,
+  "nationalPokedexNumber": 3297,
   "primaryType": "poison",
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 68,
-    "attack": 35,
-    "defence": 72,
-    "special_attack": 105,
-    "special_defence": 72,
-    "speed": 145
+    "hp": 75,
+    "attack": 38,
+    "defence": 79,
+    "special_attack": 116,
+    "special_defence": 79,
+    "speed": 160
   },
   "behaviour": {
     "resting": {
@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 72,
+  "catchRate": 30,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -54,7 +54,7 @@
   "pokedex": [
     "cobblemon.species.rugmamba.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -69,7 +69,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 14,
   "weight": 0,
   "aspects": [],
 "features": [

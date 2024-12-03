@@ -6,12 +6,12 @@
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 58,
+    "attack": 72,
+    "defence": 64,
+    "special_attack": 30,
+    "special_defence": 56,
+    "speed": 50
   },
   "behaviour": {
     "resting": {
@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 80,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -48,12 +48,55 @@
     "1:lick"  ],
   "labels": [
     "raian",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.comfleaf.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "lileaf",
+  "evolutions": [
+    {
+      "id": "comfleaf_abuleaf",
+      "variant": "level_up",
+      "result": "Abuleaf",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 34
+        },
+        {
+          "variant": "properties",
+          "target": gender=male,
+          "contains": true
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "comfleaf_umleaf",
+      "variant": "level_up",
+      "result": "Umleaf",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 34
+        },
+        {
+          "variant": "properties",
+          "target": gender=female,
+          "contains": true
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -68,7 +111,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 8,
   "weight": 0,
   "aspects": [],
 "features": [

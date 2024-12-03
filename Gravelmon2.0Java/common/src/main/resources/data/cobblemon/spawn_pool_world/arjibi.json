@@ -13,7 +13,7 @@
       "context": "submerged",
       "bucket": "rare",
       "level": "4-25",
-      "weight": 7.0,
+      "weight": 10.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_arid"
@@ -25,7 +25,6 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:white_wool",
             "minecraft:white_wool"
           ]
         }
@@ -38,7 +37,7 @@
       "context": "fishing",
       "bucket": "rare",
       "level": "4-25",
-      "weight": 7.0,
+      "weight": 10.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_arid"
@@ -48,7 +47,6 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:white_wool",
             "minecraft:white_wool"
           ]
         }

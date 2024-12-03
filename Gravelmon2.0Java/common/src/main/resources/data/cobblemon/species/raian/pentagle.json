@@ -22,7 +22,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -32,11 +32,12 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
+            "canWalkOnWater": true,
             "canBreatheUnderwater": false
         }
     }
   },
-  "catchRate": 84,
+  "catchRate": 60,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -50,12 +51,15 @@
     "1:peck"  ],
   "labels": [
     "raian",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.pentagle.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "parotish",
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -70,7 +74,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 17,
   "weight": 0,
   "aspects": [],
 "features": [
