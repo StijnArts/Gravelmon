@@ -11,8 +11,8 @@ public class Niddevour extends drai.dev.data.pokemon.Pokemon {
                 Type.DRAGON,Type.BLOOD,
                 stats,
                 List.of(Ability.ENERGYDEVOUR), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                41, 0,
+                new Stats(0,0,0,0,0,0), 3,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -22,8 +22,8 @@ public class Niddevour extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OLD_GROWTH_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

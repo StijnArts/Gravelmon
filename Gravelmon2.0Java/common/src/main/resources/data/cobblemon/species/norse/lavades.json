@@ -26,12 +26,12 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": true
+            "avoidsLand": false
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": true
+            "canBreatheUnderwater": false
         }
     }
   },

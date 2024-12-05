@@ -7,20 +7,17 @@
       "id": "collectrap-01",
       "pokemon": "collectrap",
       "presets": [
-        "natural"
+        "nether_fortress"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
+      "bucket": "uncommon",
+      "level": "32-45",
+      "weight": 1.0499999999999998,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+          "#minecraft:is_nether"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

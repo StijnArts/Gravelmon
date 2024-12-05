@@ -7,12 +7,12 @@
   "abilities": [
     "roughskin"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 79,
+    "attack": 28,
+    "defence": 79,
+    "special_attack": 94,
+    "special_defence": 67,
+    "speed": 15
   },
   "behaviour": {
     "resting": {
@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -47,15 +47,36 @@
   ],
   "moves": [
     "1:scratch",
-    "1:acid"  ],
+    "1:acid",
+    "1:bulkup",
+    "1:bulkup"  ],
   "labels": [
     "not_modeled",
+    "fakemon",
+    "fakemonevolution",
     "norse"
   ],
   "pokedex": [
     "cobblemon.species.toxisaur.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "scalasaur",
+  "evolutions": [
+    {
+      "id": "toxisaur_biosaur",
+      "variant": "level_up",
+      "result": "Biosaur",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -70,7 +91,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 11,
   "weight": 0,
   "aspects": [],
 "features": [

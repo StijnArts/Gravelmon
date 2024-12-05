@@ -16,8 +16,8 @@ public class Jarboen extends drai.dev.data.pokemon.Pokemon {
                         0,
                         0),
                 List.of(Ability.VOLT_ABSORB,Ability.SOUNDPROOF), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                4, 0,
+                new Stats(0,0,0,0,0,0), 110,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -27,8 +27,8 @@ public class Jarboen extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 32, 1.3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

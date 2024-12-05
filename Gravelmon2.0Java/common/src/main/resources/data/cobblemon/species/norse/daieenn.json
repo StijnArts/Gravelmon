@@ -59,7 +59,7 @@
   "pokedex": [
     "cobblemon.species.daieenn.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.5499999999999999,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -74,7 +74,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 33,
   "weight": 0,
   "aspects": [],
 "features": [

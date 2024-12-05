@@ -11,8 +11,8 @@ public class Balan extends drai.dev.data.pokemon.Pokemon {
                 Type.DARK,Type.FAIRY,
                 stats,
                 List.of(Ability.BALANCE,Ability.SUPER_LUCK), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                23, 0,
+                new Stats(0,0,0,0,0,0), 30,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -22,15 +22,18 @@ public class Balan extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 43, 67, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Balan");
-
+            addAdditionalEvolution("absol", new EvolutionEntry("Balan", EvolutionType.LEVEL_UP, List.of(),
+                    List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.NIGHT_SLASH.getName()+"\""),
+                            new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.PLAY_ROUGH.getName()+"\""))));
+        setLangFileName("Balan");
     }
 
 

@@ -52,12 +52,15 @@
     "1:bulkup"  ],
   "labels": [
     "not_modeled",
+    "fakemon",
+    "fakemonevolution",
     "norse"
   ],
   "pokedex": [
     "cobblemon.species.brutalice.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "furkeleton",
+  "baseScale": 0.3833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -72,7 +75,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 23,
   "weight": 0,
   "aspects": [],
 "features": [

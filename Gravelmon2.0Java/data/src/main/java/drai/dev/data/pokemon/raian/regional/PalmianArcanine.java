@@ -11,8 +11,8 @@ public class PalmianArcanine extends drai.dev.data.pokemon.Pokemon {
                 Type.DARK,Type.GHOST,
                 stats,
                 List.of(Ability.CURSED_BODY), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                29, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -22,8 +22,9 @@ public class PalmianArcanine extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.RARE, 38, 58, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

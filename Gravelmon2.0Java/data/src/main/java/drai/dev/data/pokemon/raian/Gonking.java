@@ -11,8 +11,8 @@ public class Gonking extends drai.dev.data.pokemon.Pokemon {
                 Type.POISON,Type.DRAGON,
                 stats,
                 List.of(Ability.EXTREMETOXIC), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                26, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -22,8 +22,8 @@ public class Gonking extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 40, 65, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -11,8 +11,8 @@ public class Wingmite extends drai.dev.data.pokemon.Pokemon {
                 Type.BUG,Type.FLYING,
                 stats,
                 List.of(Ability.SOILFLIPPING), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                13, 0,
+                new Stats(0,0,0,0,0,0), 80,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -22,8 +22,9 @@ public class Wingmite extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 48, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

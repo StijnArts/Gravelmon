@@ -57,7 +57,7 @@
   "pokedex": [
     "cobblemon.species.uppdrasil.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 1.0666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -72,7 +72,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 64,
   "weight": 0,
   "aspects": [],
 "features": [

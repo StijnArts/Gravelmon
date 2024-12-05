@@ -343,12 +343,12 @@
   "abilities": [
     "slushrush"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 86,
+    "attack": 72,
+    "defence": 136,
+    "special_attack": 26,
+    "special_defence": 65,
+    "speed": 33
   },
   "behaviour": {
     "resting": {
@@ -368,11 +368,11 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 45,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -382,15 +382,36 @@
   ],
   "moves": [
     "1:scratch",
-    "1:powdersnow"  ],
+    "1:powdersnow",
+    "1:bulkup",
+    "1:bulkup"  ],
   "labels": [
     "raian",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.norsegabite.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "gible form=norse",
+  "evolutions": [
+    {
+      "id": "gabite_garchomp_norse",
+      "variant": "level_up",
+      "result": "garchomp norse",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 48
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -405,7 +426,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 14,
   "weight": 0,
   "aspects": ["norse"],
   "cannotDynamax": false

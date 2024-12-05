@@ -6,12 +6,12 @@
   "abilities": [
     "naturalcure"  ],
   "baseStats": {
-    "hp": 56,
-    "attack": 56,
-    "defence": 95,
-    "special_attack": 46,
-    "special_defence": 68,
-    "speed": 46
+    "hp": 45,
+    "attack": 24,
+    "defence": 48,
+    "special_attack": 82,
+    "special_defence": 48,
+    "speed": 70
   },
   "behaviour": {
     "resting": {
@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 147,
+  "catchRate": 180,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -46,14 +46,27 @@
   ],
   "moves": [
     "1:tackle",
-    "1:sleeptalk",
-    "1:healbell"  ],
+    "1:vacuumwave"  ],
   "labels": [
     "not_modeled",
     "norse"
   ],
   "pokedex": [
     "cobblemon.species.eggower.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "eggower_electroost",
+      "variant": "item_interact",
+      "result": "Electroost",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:thunder_stone",
+      "permanent": true   
+ }
   ],
   "baseScale": 0.1,
   "hitbox": {
@@ -70,7 +83,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 3,
   "weight": 0,
   "aspects": [],
 "features": [

@@ -22,7 +22,7 @@ public class SeaEnvirock extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(
-                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 13, 32, 2.2, List.of(
+                ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 13, 32, 2.2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
                 ), List.of(),
                 List.of(SpawnPreset.UNDERWATER, SpawnPreset.REEF),

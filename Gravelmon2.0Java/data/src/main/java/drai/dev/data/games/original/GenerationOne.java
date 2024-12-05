@@ -84,7 +84,7 @@ public class GenerationOne extends Game {
         addNewPokemon(new IvrisianMagikarp("", Aspect.IVRISIAN).setUsesBigModel().fishingSpawnFromExisting());
         addNewPokemon(new IvrisianGyarados("", Aspect.IVRISIAN).setUsesBigModel().fishingSpawnFromExisting());
 
-        addNewPokemon(new PalmianRattata("", Aspect.PALMIAN).setUsesBigModel()); //TODO
+        addNewPokemon(new PalmianRattata("", Aspect.PALMIAN).setUsesBigModel());
         addNewPokemon(new PalmianRaticate("", Aspect.PALMIAN).setUsesBigModel());
         addNewPokemon(new PalmianGastly("", Aspect.PALMIAN).setUsesBigModel());
         addNewPokemon(new PalmianExeggcute("", Aspect.PALMIAN).setUsesBigModel());
@@ -100,7 +100,7 @@ public class GenerationOne extends Game {
         addNewPokemon(new RaianianDragonite("", Aspect.RAIANIAN, new Stats(600, BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))).setUsesBigModel());
         addNewPokemon(new RaianianDragoniteOne("", Aspect.RAIANIAN, new Stats(600, BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))).setUsesBigModel());
 
-        addNewPokemon(new TrizoranOnix("", Aspect.TRIZORAN).setUsesBigModel()); //TODO
+        addNewPokemon(new TrizoranOnix("", Aspect.TRIZORAN).setUsesBigModel());
 
         addNewPokemon(new NorsePikachu("", Aspect.NORSE).setUsesBigModel());
         addNewPokemon(new NorseRaichu("", Aspect.NORSE, new Stats(485, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))).setUsesBigModel());

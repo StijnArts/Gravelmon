@@ -7,17 +7,19 @@
       "id": "aegiking-01",
       "pokemon": "aegiking",
       "presets": [
-        "natural"
+        "underwater"
       ],
       "type": "pokemon",
-      "context": "grounded",
+      "context": "submerged",
       "bucket": "ultra-rare",
       "level": "36-53",
       "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
-          "#cobblemon:nether/is_wasteland"
-        ]
+          "#cobblemon:is_warm_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

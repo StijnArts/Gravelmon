@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 45,
+  "catchRate": 3,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -70,7 +70,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 5,
   "weight": 0,
   "aspects": [],
 "features": [

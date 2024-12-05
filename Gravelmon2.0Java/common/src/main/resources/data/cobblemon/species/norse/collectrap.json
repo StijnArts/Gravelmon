@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 125,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -57,7 +57,34 @@
   "pokedex": [
     "cobblemon.species.collectrap.desc"
   ],
-  "baseScale": 0.1,
+  "evolutions": [
+    {
+      "id": "collectrap_rapnagon",
+      "variant": "level_up",
+      "result": "Rapnagon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "party_member",
+          "target": "smotrap",
+          "contains": true
+        },
+        {
+          "variant": "party_member",
+          "target": "needatrap",
+          "contains": true
+        },
+        {
+          "variant": "party_member",
+          "target": "mintrap",
+          "contains": true
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -72,7 +99,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 17,
   "weight": 0,
   "aspects": [],
 "features": [

@@ -63,7 +63,7 @@ public class GenerationFour extends Game {
 
         addNewPokemon(new IvrisianRiolu("", Aspect.IVRISIAN).setUsesBigModel()); //TODO
 
-        addNewPokemon(new PalmianGible("", Aspect.PALMIAN).setUsesBigModel()); //TODO
+        addNewPokemon(new PalmianGible("", Aspect.PALMIAN).setUsesBigModel());
         addNewPokemon(new PalmianGabite("", Aspect.PALMIAN).setUsesBigModel());
         addNewPokemon(new PalmianGarchomp("", Aspect.PALMIAN, new Stats(600, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.DEFENCE, StatType.ATTACK, StatType.ATTACK))).setUsesBigModel());
 
@@ -73,7 +73,7 @@ public class GenerationFour extends Game {
         addNewPokemon(new RaianianLucario("", Aspect.RAIANIAN, new Stats(525, FAST_SPECIAL_ATTACKER, List.of(SPEED))).setUsesBigModel());
         addNewPokemon(new RaianianGallade("", Aspect.RAIANIAN, new Stats(518, FAST_PHYSICAL_ATTACKER, List.of(SPEED))).setUsesBigModel());
 
-        addNewPokemon(new TrizoranGible("", Aspect.TRIZORAN).setUsesBigModel()); //TODO
+        addNewPokemon(new TrizoranGible("", Aspect.TRIZORAN).setUsesBigModel());
         addNewPokemon(new TrizoranGabite("", Aspect.TRIZORAN).setUsesBigModel());
         addNewPokemon(new TrizoranGarchomp("", Aspect.TRIZORAN, new Stats(600, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPEED, StatType.SPECIAL_ATTACK))).setUsesBigModel());
 

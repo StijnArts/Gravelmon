@@ -14,7 +14,7 @@ public class Nidorook extends Pokemon {
                 List.of(Ability.POISON_POINT, Ability.MERCILESS), Ability.SHEER_FORCE,
                 14, 768,
                 new Stats(0,2,0,0,0,2), 45,
-                1,
+                0.5,
                 214, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 52, List.of(EggGroup.FIELD, EggGroup.MONSTER),

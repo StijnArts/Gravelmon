@@ -11,8 +11,8 @@ public class Plateach extends drai.dev.data.pokemon.Pokemon {
                 Type.GRASS,Type.WATER,
                 stats,
                 List.of(Ability.SWIFT_SWIM), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                15, 0,
+                new Stats(0,0,0,0,0,0), 50,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -22,8 +22,8 @@ public class Plateach extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 25, 45, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -22,7 +22,7 @@ public class Smotrap extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 32, 2.2, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 32, 2.2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_NETHER_TOXIC))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -265,6 +265,30 @@
       "permanent": true   
  },
     {
+      "id": "eevee_Dnaeon",
+      "variant": "item_interact",
+      "result": "Dnaeon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "minecraft:spider_eye",
+      "permanent": true   
+ },
+    {
+      "id": "eevee_Darteon",
+      "variant": "item_interact",
+      "result": "Darteon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:poison_barb",
+      "permanent": true   
+ },
+    {
       "id": "eevee_alpheon",
       "variant": "level_up",
       "result": "alpheon",
@@ -739,6 +763,16 @@
       },
       {
         "item": "cobblemon:shiny_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:spider_eye",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:poison_barb",
         "quantityRange": "1-1",
         "percentage": 10
       },

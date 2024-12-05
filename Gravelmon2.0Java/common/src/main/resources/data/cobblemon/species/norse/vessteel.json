@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 3,
+  "catchRate": 20,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -45,6 +45,16 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:decorated_pot_sherds",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:metalclaw",
     "1:ember"  ],
@@ -55,7 +65,7 @@
   "pokedex": [
     "cobblemon.species.vessteel.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.43333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -70,7 +80,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 26,
   "weight": 0,
   "aspects": [],
 "features": [

@@ -109,7 +109,7 @@
         }
     }
   },
-  "catchRate": 125,
+  "catchRate": 120,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -122,12 +122,15 @@
     "1:bulkup"  ],
   "labels": [
     "raian",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.norsefurret.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "sentret form=norse",
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -142,7 +145,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 12,
   "weight": 0,
   "aspects": ["norse"],
   "cannotDynamax": false

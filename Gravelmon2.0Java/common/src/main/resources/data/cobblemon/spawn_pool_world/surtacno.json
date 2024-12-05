@@ -7,19 +7,17 @@
       "id": "surtacno-01",
       "pokemon": "surtacno",
       "presets": [
-        "underwater"
+        "natural"
       ],
       "type": "pokemon",
-      "context": "submerged",
+      "context": "grounded",
       "bucket": "ultra-rare",
       "level": "36-53",
       "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
-          "#cobblemon:is_warm_ocean"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+          "#cobblemon:nether/is_wasteland"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

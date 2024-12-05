@@ -74,7 +74,7 @@ public class GenerationTwo extends Game {
         addNewPokemon(new RaianianPhanpy("", Aspect.RAIANIAN).setUsesBigModel());
         addNewPokemon(new RaianianDonphan("", Aspect.RAIANIAN, new Stats(500, SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))).setUsesBigModel());
 
-        addNewPokemon(new TrizoranSkarmory("", Aspect.TRIZORAN).setUsesBigModel()); //TODO
+        addNewPokemon(new TrizoranSkarmory("", Aspect.TRIZORAN).setUsesBigModel());
 
         addNewPokemon(new NorsePichu("", Aspect.NORSE).setUsesBigModel());
         addNewPokemon(new NorseSentret("", Aspect.NORSE).setUsesBigModel());

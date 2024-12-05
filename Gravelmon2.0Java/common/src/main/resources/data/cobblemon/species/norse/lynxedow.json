@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 55,
+  "catchRate": 70,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -50,12 +50,15 @@
     "1:leafage"  ],
   "labels": [
     "not_modeled",
+    "fakemon",
+    "fakemonevolution",
     "norse"
   ],
   "pokedex": [
     "cobblemon.species.lynxedow.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "grelinx",
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -70,7 +73,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 17,
   "weight": 0,
   "aspects": [],
 "features": [

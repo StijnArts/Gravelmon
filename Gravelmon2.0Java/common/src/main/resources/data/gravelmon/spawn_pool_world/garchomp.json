@@ -122,13 +122,12 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
+      "bucket": "ultra-rare",
+      "level": "48-57",
+      "weight": 0.6000000000000001,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_frozen"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

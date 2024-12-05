@@ -7,17 +7,16 @@
       "id": "punkin-01",
       "pokemon": "punkin",
       "presets": [
-        "natural"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
+      "bucket": "uncommon",
+      "level": "32-51",
+      "weight": 0.75,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_coast"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

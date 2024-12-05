@@ -11,8 +11,8 @@ public class Flacowl extends drai.dev.data.pokemon.Pokemon {
                 Type.ICE,Type.FLYING,
                 stats,
                 List.of(Ability.ICYBODY,Ability.SNOW_WARNING), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                15, 0,
+                new Stats(0,0,0,0,0,0), 80,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -22,7 +22,7 @@ public class Flacowl extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 45, .4, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

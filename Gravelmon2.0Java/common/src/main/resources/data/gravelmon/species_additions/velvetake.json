@@ -1,0 +1,28 @@
+{
+   "target": "cobblemon:velvetake",
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:decorated_pot_sherds",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+      },
+  "evolutions": [
+    {
+      "id": "velvetake_Vesnormal",
+      "variant": "item_interact",
+      "result": "Vesnormal",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "minecraft:decorated_pot_sherds",
+      "permanent": true   
+ }
+  ]
+
+}

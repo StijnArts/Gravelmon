@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 100,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -48,12 +48,15 @@
     "1:bite"  ],
   "labels": [
     "not_modeled",
+    "fakemon",
+    "fakemonevolution",
     "norse"
   ],
   "pokedex": [
     "cobblemon.species.dimelf.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "duself",
+  "baseScale": 0.3666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -68,7 +71,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 22,
   "weight": 0,
   "aspects": [],
 "features": [

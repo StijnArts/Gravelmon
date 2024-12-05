@@ -36,8 +36,8 @@
         }
     }
   },
-  "catchRate": 100,
-  "maleRatio": 0.5,
+  "catchRate": 60,
+  "maleRatio": 1.0,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -52,12 +52,15 @@
     "1:irondefense"  ],
   "labels": [
     "not_modeled",
+    "fakemon",
+    "fakemonevolution",
     "norse"
   ],
   "pokedex": [
     "cobblemon.species.tanshild.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "tanccoon",
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -72,7 +75,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 16,
   "weight": 0,
   "aspects": [],
 "features": [

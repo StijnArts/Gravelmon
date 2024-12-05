@@ -55,7 +55,7 @@
   "pokedex": [
     "cobblemon.species.niddevour.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.6833333333333332,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -70,7 +70,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 41,
   "weight": 0,
   "aspects": [],
 "features": [

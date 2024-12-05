@@ -30,12 +30,12 @@
   "abilities": [
     "cutecharm"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 73,
+    "attack": 25,
+    "defence": 56,
+    "special_attack": 62,
+    "special_defence": 87,
+    "speed": 31
   },
   "behaviour": {
     "resting": {
@@ -59,7 +59,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 160,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -68,15 +68,33 @@
     "field"
   ],
   "moves": [
-    "1:disarmingvoice"  ],
+    "1:disarmingvoice",
+    "1:bulkup"  ],
   "labels": [
     "raian",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.norsepikachu.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "pichu form=norse",
+  "evolutions": [
+    {
+      "id": "pikachu_raichu_norse",
+      "variant": "item_interact",
+      "result": "raichu norse",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:shiny_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -91,7 +109,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 8,
   "weight": 0,
   "aspects": ["norse"],
   "cannotDynamax": false

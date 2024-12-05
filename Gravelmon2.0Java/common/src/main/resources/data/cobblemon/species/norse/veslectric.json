@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 3,
+  "catchRate": 20,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -57,7 +57,7 @@
   "pokedex": [
     "cobblemon.species.veslectric.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.43333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -72,7 +72,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 26,
   "weight": 0,
   "aspects": [],
 "features": [

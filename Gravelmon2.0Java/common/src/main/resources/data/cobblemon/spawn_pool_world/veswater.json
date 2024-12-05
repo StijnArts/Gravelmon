@@ -7,17 +7,16 @@
       "id": "veswater-01",
       "pokemon": "veswater",
       "presets": [
-        "natural"
+        "underwater"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
+      "context": "submerged",
+      "bucket": "ultra-rare",
+      "level": "55-65",
+      "weight": 0.015,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_warm_ocean"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

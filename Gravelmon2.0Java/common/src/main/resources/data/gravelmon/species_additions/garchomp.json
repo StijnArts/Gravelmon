@@ -336,7 +336,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -355,12 +355,15 @@
     "1:bulkup"  ],
   "labels": [
     "raian",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.norsegarchomp.desc"
   ],
-  "baseScale": 0.1,
+  "preEvolution": "gabite form=norse",
+  "baseScale": 0.3833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -375,7 +378,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 23,
   "weight": 0,
   "aspects": ["norse"],
   "cannotDynamax": false

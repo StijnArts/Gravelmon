@@ -11,8 +11,8 @@ public class Foxmi extends drai.dev.data.pokemon.Pokemon {
                 Type.SOUND,Type.GHOST,
                 stats,
                 List.of(Ability.SOUNDABSORB), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                17, 0,
+                new Stats(0,0,0,0,0,0), 50,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -22,8 +22,8 @@ public class Foxmi extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 54, .7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

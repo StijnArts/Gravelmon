@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 220,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
@@ -52,6 +52,22 @@
   "pokedex": [
     "cobblemon.species.norsepichu.desc"
   ],
+  "evolutions": [
+    {
+      "id": "pichu_pikachu_norse",
+      "variant": "level_up",
+      "result": "pikachu norse",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 190
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -67,7 +83,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 4,
   "weight": 0,
   "aspects": ["norse"],
   "cannotDynamax": false

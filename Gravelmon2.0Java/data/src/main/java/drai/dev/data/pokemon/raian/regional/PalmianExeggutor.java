@@ -11,8 +11,8 @@ public class PalmianExeggutor extends drai.dev.data.pokemon.Pokemon {
                 Type.GRASS,Type.GROUND,
                 stats,
                 List.of(Ability.CHLOROPHYLL,Ability.FLASH_FIRE), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                38, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -22,11 +22,11 @@ public class PalmianExeggutor extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 38, 54, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NATURAL, SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Exeggutor");

@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 46,
+  "catchRate": 20,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -45,6 +45,16 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:decorated_pot_sherds",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:lowkick",
     "1:bite",
@@ -57,7 +67,7 @@
   "pokedex": [
     "cobblemon.species.vesfight.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.3833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -72,7 +82,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "height": 23,
   "weight": 0,
   "aspects": [],
 "features": [

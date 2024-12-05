@@ -41,11 +41,10 @@
       "context": "grounded",
       "bucket": "common",
       "level": "3-22",
-      "weight": 5.699999999999999,
+      "weight": 8.100000000000001,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_snowy_forest"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
