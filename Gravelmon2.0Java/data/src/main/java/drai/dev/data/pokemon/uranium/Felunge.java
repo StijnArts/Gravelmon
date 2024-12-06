@@ -20,7 +20,7 @@ public class Felunge extends Pokemon {
                 100, List.of(EggGroup.FIELD),
                 List.of("FELUNGE are expert hunters, able to see in very low light and move without a sound. Many people keep them to deter pests such as CHYINMUNK."),
                 List.of(new EvolutionEntry("feliger", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.REST.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.REST.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH,1),
                         new MoveLearnSetEntry(Move.YAWN,1),

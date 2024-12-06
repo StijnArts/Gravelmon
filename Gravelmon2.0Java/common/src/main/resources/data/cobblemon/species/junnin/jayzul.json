@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Jayzul",
-  "nationalPokedexNumber": 3138,
   "primaryType": "normal",
   "secondaryType": "flying",
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 53,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "earlybird",
     "bigpecks",
@@ -17,37 +23,18 @@
     "special_defence": 33,
     "speed": 72
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 255,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 53,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "flying"
   ],
+  "drops": {},
   "moves": [
     "1:peck",
     "3:leer",
@@ -89,14 +76,18 @@
     "tm:thief",
     "tm:toxic",
     "tm:uturn",
-    "tm:workup"  ],
+    "tm:workup"
+  ],
   "labels": [
     "isiah",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.jayzul.desc"
+    "cobblemon.species.jayzul.desc1"
   ],
+  "height": 2,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "jayzul_jayzure",
@@ -107,31 +98,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 20
+          "minLevel": "20"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 3138,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 2,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

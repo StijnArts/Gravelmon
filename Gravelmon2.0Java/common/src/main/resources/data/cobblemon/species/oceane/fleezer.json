@@ -1,10 +1,18 @@
 {
-  "implemented": true,
   "name": "Fleezer",
-  "nationalPokedexNumber": 2321,
   "primaryType": "normal",
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 163,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "sweal",
+  "baseScale": 0.25,
+  "cannotDynamax": false,
   "abilities": [
-    "furcoat"  ],
+    "furcoat"
+  ],
   "baseStats": {
     "hp": 85,
     "attack": 90,
@@ -13,37 +21,18 @@
     "special_defence": 80,
     "speed": 70
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 75,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 163,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:doubleedge",
     "1:slackoff",
@@ -57,7 +46,8 @@
     "1:growl",
     "1:aquajet",
     "1:slam",
-    "1:nuzzle"  ],
+    "1:nuzzle"
+  ],
   "labels": [
     "oceane",
     "not_modeled",
@@ -65,28 +55,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.fleezer.desc"
+    "cobblemon.species.fleezer.desc1"
   ],
-  "preEvolution": "sweal",
-  "baseScale": 0.25,
+  "height": 15,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2321,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 15,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

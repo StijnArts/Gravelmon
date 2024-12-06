@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Shibalbat",
-  "nationalPokedexNumber": 1104,
   "primaryType": "rock",
   "secondaryType": "fire",
+  "catchRate": 65,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 167,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 60,
+  "baseFriendship": 70,
+  "baseScale": 0.2333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "pressure",
     "h:cursedbody"
@@ -16,37 +22,20 @@
     "special_defence": 104,
     "speed": 71
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
   },
-  "catchRate": 65,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 167,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 60,
   "eggGroups": [
     "mineral"
   ],
+  "drops": {
+    "amount": 2
+  },
   "moves": [
     "1:hypervoice",
     "1:rockthrow",
@@ -122,33 +111,50 @@
     "tutor:stealthrock",
     "tutor:steelwing",
     "tutor:superfang",
-    "tutor:uproar"  ],
+    "tutor:uproar"
+  ],
   "labels": [
     "sage",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.shibalbat.desc"
+    "cobblemon.species.shibalbat.desc1"
   ],
-  "baseScale": 0.2333333333333333,
+  "height": 14,
+  "weight": 1022,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1104,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 2,
-    "speed": 0
-  },
-  "height": 14,
-  "weight": 1022,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

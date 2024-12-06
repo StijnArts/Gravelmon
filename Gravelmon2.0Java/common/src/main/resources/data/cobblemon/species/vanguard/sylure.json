@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Sylure",
-  "nationalPokedexNumber": 5495,
   "primaryType": "poison",
   "secondaryType": "sound",
+  "catchRate": 60,
+  "maleRatio": 0.25,
+  "baseExperienceYield": 65,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "unaware",
     "h:regenerator"
@@ -16,38 +22,19 @@
     "special_defence": 68,
     "speed": 92
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 60,
-  "maleRatio": 0.25,
-  "shoulderMountable": false,
-  "baseExperienceYield": 65,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "water_1",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:echoedvoice",
     "1:growl",
@@ -125,14 +112,18 @@
     "tutor:weatherball",
     "tutor:whirlpool",
     "tutor:wonderroom",
-    "tutor:workup"  ],
+    "tutor:workup"
+  ],
   "labels": [
     "vanguard",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.sylure.desc"
+    "cobblemon.species.sylure.desc1"
   ],
+  "height": 6,
+  "weight": 27,
+  "aspects": [],
   "evolutions": [
     {
       "id": "sylure_syrallure",
@@ -143,31 +134,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 30
+          "minLevel": "30"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 5495,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 6,
-  "weight": 27,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

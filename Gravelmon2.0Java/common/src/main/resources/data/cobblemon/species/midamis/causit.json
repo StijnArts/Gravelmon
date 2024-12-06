@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Causit",
-  "nationalPokedexNumber": 5953,
   "primaryType": "water",
   "secondaryType": "flying",
+  "catchRate": 220,
+  "maleRatio": 0.75,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "swiftswim",
     "h:overcoat"
@@ -16,38 +22,19 @@
     "special_defence": 45,
     "speed": 50
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 220,
-  "maleRatio": 0.75,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "flying",
     "water_1"
   ],
+  "drops": {},
   "moves": [
     "1:bubble",
     "6:peck",
@@ -61,14 +48,18 @@
     "42:crunch",
     "tm:mist",
     "tm:haze",
-    "tm:iceball"  ],
+    "tm:iceball"
+  ],
   "labels": [
     "midamis",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.causit.desc"
+    "cobblemon.species.causit.desc1"
   ],
+  "height": 5,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "causit_cassidite",
@@ -79,31 +70,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 16
+          "minLevel": "16"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 5953,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 5,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Pendelf",
-  "nationalPokedexNumber": 4759,
   "primaryType": "fairy",
   "secondaryType": "steel",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 132,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "feiring",
+  "baseScale": 0.11666666666666665,
+  "cannotDynamax": false,
   "abilities": [
     "magicbounce",
     "lightmetal",
@@ -17,38 +24,19 @@
     "special_defence": 63,
     "speed": 63
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 132,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "fairy",
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:metalsound",
     "5:luckychant",
@@ -64,7 +52,8 @@
     "42:flashcannon",
     "47:calmmind",
     "50:storedpower",
-    "56:moonblast"  ],
+    "56:moonblast"
+  ],
   "labels": [
     "nosto",
     "not_modeled",
@@ -72,9 +61,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.pendelf.desc"
+    "cobblemon.species.pendelf.desc1"
   ],
-  "preEvolution": "feiring",
+  "height": 7,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "pendelf_encrona",
@@ -82,31 +73,41 @@
       "result": "encrona",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
-      "permanent": true   
- }
+      "requirements": [],
+      "permanent": true
+    }
   ],
-  "baseScale": 0.11666666666666665,
+  "nationalPokedexNumber": 4759,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 7,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

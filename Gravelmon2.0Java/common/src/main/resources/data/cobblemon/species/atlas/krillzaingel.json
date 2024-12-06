@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Krillzaingel",
-  "nationalPokedexNumber": 7093,
   "primaryType": "steel",
   "secondaryType": "fire",
+  "catchRate": 55,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 134,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.26666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "motordrive",
     "h:lightmetal"
@@ -16,37 +22,18 @@
     "special_defence": 40,
     "speed": 125
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 55,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 134,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "water_3"
   ],
+  "drops": {},
   "moves": [
     "1:smokescreen",
     "3:ember",
@@ -109,33 +96,50 @@
     "tm:thunderwave",
     "tm:toxic",
     "tm:willowisp",
-    "tm:electricterrain"  ],
+    "tm:electricterrain"
+  ],
   "labels": [
     "atlas",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.krillzaingel.desc"
+    "cobblemon.species.krillzaingel.desc1"
   ],
-  "baseScale": 0.26666666666666666,
+  "height": 16,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 7093,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 16,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Granderosa",
-  "nationalPokedexNumber": 3977,
   "primaryType": "rock",
   "secondaryType": "grass",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "rocroset",
+  "baseScale": 0.35000000000000003,
+  "cannotDynamax": false,
   "abilities": [
     "leafguard",
     "flowerveil",
@@ -17,37 +24,18 @@
     "special_defence": 94,
     "speed": 22
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:firstimpression",
     "6:vinewhip",
@@ -63,7 +51,8 @@
     "47:solarbeam",
     "51:aromatherapy",
     "55:snatch",
-    "60:powerwhip"  ],
+    "60:powerwhip"
+  ],
   "labels": [
     "orohnhavai",
     "not_modeled",
@@ -71,28 +60,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.granderosa.desc"
+    "cobblemon.species.granderosa.desc1"
   ],
-  "preEvolution": "rocroset",
-  "baseScale": 0.35000000000000003,
+  "height": 21,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 3977,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 21,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

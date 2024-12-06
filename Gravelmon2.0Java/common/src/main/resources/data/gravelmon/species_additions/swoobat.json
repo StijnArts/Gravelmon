@@ -1,133 +1,142 @@
 {
-   "target": "cobblemon:swoobat",
-   "forms": [{
-  "name": "Epoch",
-  "primaryType": "poison",
-  "secondaryType": "flying",
-  "abilities": [
-    "infiltrator",
-    "speedboost",
-    "h:guts"
-  ],
-  "baseStats": {
-    "hp": 87,
-    "attack": 107,
-    "defence": 55,
-    "special_attack": 114,
-    "special_defence": 57,
-    "speed": 65
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
+  "target": "cobblemon:swoobat",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "poison",
+      "secondaryType": "flying",
+      "catchRate": 100,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 149,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.15,
+      "cannotDynamax": false,
+      "abilities": [
+        "infiltrator",
+        "speedboost",
+        "h:guts"
+      ],
+      "baseStats": {
+        "hp": 87,
+        "attack": 107,
+        "defence": 55,
+        "special_attack": 114,
+        "special_defence": 57,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 2
+      },
+      "eggGroups": [
+        "flying",
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "47:plague",
+        "1:supersonic",
+        "1:crosspoison",
+        "19:doubleteam",
+        "43:crunch",
+        "11:wingattack",
+        "15:poisonfang",
+        "32:facade",
+        "tm:acidrain",
+        "tm:acrobatics",
+        "tm:airslash",
+        "tm:attract",
+        "tm:bravebird",
+        "tm:crunch",
+        "tm:darkpulse",
+        "tm:defog",
+        "tm:dragonbreath",
+        "tm:dualwingbeat",
+        "tm:expandingforce",
+        "tm:falseswipe",
+        "tm:firefang",
+        "tm:furycutter",
+        "tm:gastroacid",
+        "tm:gunkshot",
+        "tm:haze",
+        "tm:hiddenpower",
+        "tm:hurricane",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:return",
+        "tm:scaleshot",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snarl",
+        "tm:steelwing",
+        "tm:substitute",
+        "tm:tailwind",
+        "tm:taunt",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:workup"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochswoobat.desc1"
+      ],
+      "height": 9,
+      "weight": 105,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     }
-  },
-  "catchRate": 100,
-  "shoulderMountable": false,
-  "baseExperienceYield": 149,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "flying",
-    "field"
   ],
-  "moves": [
-    "47:plague",
-    "1:supersonic",
-    "1:crosspoison",
-    "19:doubleteam",
-    "43:crunch",
-    "11:wingattack",
-    "15:poisonfang",
-    "32:facade",
-    "tm:acidrain",
-    "tm:acrobatics",
-    "tm:airslash",
-    "tm:attract",
-    "tm:bravebird",
-    "tm:crunch",
-    "tm:darkpulse",
-    "tm:defog",
-    "tm:dragonbreath",
-    "tm:dualwingbeat",
-    "tm:expandingforce",
-    "tm:falseswipe",
-    "tm:firefang",
-    "tm:furycutter",
-    "tm:gastroacid",
-    "tm:gunkshot",
-    "tm:haze",
-    "tm:hiddenpower",
-    "tm:hurricane",
-    "tm:knockoff",
-    "tm:lashout",
-    "tm:nastyplot",
-    "tm:phantomforce",
-    "tm:playrough",
-    "tm:poisonfang",
-    "tm:poisonjab",
-    "tm:poltergeist",
-    "tm:protect",
-    "tm:psychicfangs",
-    "tm:rest",
-    "tm:return",
-    "tm:scaleshot",
-    "tm:sleeptalk",
-    "tm:sludgebomb",
-    "tm:sludgewave",
-    "tm:snarl",
-    "tm:steelwing",
-    "tm:substitute",
-    "tm:tailwind",
-    "tm:taunt",
-    "tm:toxic",
-    "tm:toxicspikes",
-    "tm:workup"  ],
-  "labels": [
-    "soulstones",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.epochswoobat.desc"
-  ],
-  "baseScale": 0.15,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 9,
-  "weight": 105,
-  "aspects": ["epoch"],
-  "cannotDynamax": false
-}
-], "features": [
-"epoch"
+  "features": [
+    "epoch"
   ]
 }

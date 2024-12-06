@@ -20,7 +20,7 @@ public class DeltaScyther extends Pokemon {
                 50, List.of(EggGroup.DELTA),
                 List.of("A Delta Species discovered by EchoTheThird. Its scythes are immensely sharp but also very fragile, and can easily be shattered when hit from the side."),
                 List.of(new EvolutionEntry("deltascizor", EvolutionType.LEVEL_UP, true, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"cobblemon:never_melt_ice\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "cobblemon:never_melt_ice")))),
                 List.of(
                         new MoveLearnSetEntry(Move.VACUUM_WAVE,1),
                         new MoveLearnSetEntry(Move.ICE_SHARD,1),

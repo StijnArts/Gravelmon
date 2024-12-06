@@ -24,7 +24,7 @@ public class Agog extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.GRASS),
                 List.of("Agog are kindhearted, often grouping together to protect vulnerable forest areas. It's said if you burn an Agog, accidentally or deliberately, the devil appears."),
                 List.of(new EvolutionEntry("demagog", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_NETHER.getId() + ":" + Biome.IS_NETHER.getName() +"\"")))
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_NETHER.getId() + ":" + Biome.IS_NETHER.getName())))
                 ),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),

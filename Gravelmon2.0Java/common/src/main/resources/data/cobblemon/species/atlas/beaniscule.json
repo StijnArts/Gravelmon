@@ -1,12 +1,19 @@
 {
-  "implemented": true,
   "name": "Beaniscule",
-  "nationalPokedexNumber": 7170,
   "primaryType": "fairy",
   "secondaryType": "grass",
+  "catchRate": 45,
+  "maleRatio": 0.75,
+  "baseExperienceYield": 75,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.11666666666666665,
+  "cannotDynamax": false,
   "abilities": [
     "rattled",
-    "runaway"  ],
+    "runaway"
+  ],
   "baseStats": {
     "hp": 61,
     "attack": 60,
@@ -15,38 +22,19 @@
     "special_defence": 52,
     "speed": 55
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.75,
-  "shoulderMountable": false,
-  "baseExperienceYield": 75,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "grass",
     "fairy"
   ],
+  "drops": {},
   "moves": [
     "1:wish",
     "5:watersport",
@@ -92,14 +80,18 @@
     "tm:calmmind",
     "tm:thunderwave",
     "tm:grassyterrain",
-    "tm:mistyterrain"  ],
+    "tm:mistyterrain"
+  ],
   "labels": [
     "atlas",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.beaniscule.desc"
+    "cobblemon.species.beaniscule.desc1"
   ],
+  "height": 7,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "beaniscule_beanormous",
@@ -110,31 +102,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 42
+          "minLevel": "42"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.11666666666666665,
+  "nationalPokedexNumber": 7170,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 7,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

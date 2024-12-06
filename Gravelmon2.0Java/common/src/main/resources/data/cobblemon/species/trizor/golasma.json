@@ -1,67 +1,27 @@
 {
-  "implemented": true,
   "name": "Golasma",
-  "nationalPokedexNumber": 3681,
   "primaryType": "rock",
   "secondaryType": "blood",
-  "abilities": [
-    "gooey"  ],
-  "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 255,
+  "catchRate": 45,
   "maleRatio": 0.5,
-  "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:rockthrow",
-    "1:bite"  ],
-  "labels": [
-    "not_modeled",
-    "trizor"
-  ],
-  "pokedex": [
-    "cobblemon.species.golasma.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
   "baseFriendship": 70,
+  "preEvolution": "cyrok",
+  "baseScale": 0.15,
+  "cannotDynamax": false,
+  "abilities": [
+    "gooey"
+  ],
+  "baseStats": {
+    "hp": 74,
+    "attack": 91,
+    "defence": 80,
+    "special_attack": 39,
+    "special_defence": 70,
+    "speed": 63
+  },
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -70,10 +30,73 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:rockthrow",
+    "1:bite"
+  ],
+  "labels": [
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution",
+    "trizor"
+  ],
+  "pokedex": [
+    "cobblemon.species.golasma.desc1"
+  ],
+  "height": 9,
   "weight": 0,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [
+    {
+      "id": "golasma_crimsagon",
+      "variant": "level_up",
+      "result": "Crimsagon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "55"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 3681,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

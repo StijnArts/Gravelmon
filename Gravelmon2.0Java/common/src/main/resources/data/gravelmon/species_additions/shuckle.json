@@ -1,512 +1,552 @@
 {
-   "target": "cobblemon:shuckle",
-   "forms": [{
-  "name": "Fabelian",
-  "primaryType": "bug",
-  "secondaryType": "poison",
-  "abilities": [
-    "keeneye"  ],
-  "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+  "target": "cobblemon:shuckle",
+  "forms": [
+    {
+      "name": "Fabelian",
+      "primaryType": "bug",
+      "secondaryType": "poison",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:strugglebug",
+        "1:acid"
+      ],
+      "labels": [
+        "fabel",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.fabelianshuckle.desc1"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "fabelian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
-    }
-  },
-  "catchRate": 255,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:strugglebug",
-    "1:acid"  ],
-  "labels": [
-    "fabel",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.fabelianshuckle.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 0,
-  "weight": 0,
-  "aspects": ["fabelian"],
-  "cannotDynamax": false
-},
-{
-  "name": "Forman",
-  "primaryType": "bug",
-  "secondaryType": "nuclear",
-  "abilities": [
-    "contrary"  ],
-  "baseStats": {
-    "hp": 63,
-    "attack": 67,
-    "defence": 130,
-    "special_attack": 67,
-    "special_defence": 130,
-    "speed": 46
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     },
-    "moving": {
-        "fly": {
-            "canFly": false
+    {
+      "name": "Forman",
+      "primaryType": "bug",
+      "secondaryType": "nuclear",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.19999999999999998,
+      "cannotDynamax": false,
+      "abilities": [
+        "contrary"
+      ],
+      "baseStats": {
+        "hp": 63,
+        "attack": 67,
+        "defence": 130,
+        "special_attack": 67,
+        "special_defence": 130,
+        "speed": 46
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:strugglebug",
+        "1:acid",
+        "1:bulkup",
+        "1:bulkup",
+        "1:pollenpuff",
+        "1:toxic"
+      ],
+      "labels": [
+        "form",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.formanshuckle.desc1"
+      ],
+      "height": 12,
+      "weight": 0,
+      "aspects": [
+        "forman"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
-    }
-  },
-  "catchRate": 120,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:strugglebug",
-    "1:acid",
-    "1:bulkup",
-    "1:bulkup",
-    "1:pollenpuff",
-    "1:toxic"  ],
-  "labels": [
-    "form",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.formanshuckle.desc"
-  ],
-  "baseScale": 0.19999999999999998,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 12,
-  "weight": 0,
-  "aspects": ["forman"],
-  "cannotDynamax": false
-},
-{
-  "name": "Ionosian",
-  "primaryType": "water",
-  "secondaryType": "bug",
-  "abilities": [
-    "keeneye"  ],
-  "baseStats": {
-    "hp": 88,
-    "attack": 37,
-    "defence": 180,
-    "special_attack": 16,
-    "special_defence": 105,
-    "speed": 67
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     },
-    "moving": {
-        "fly": {
-            "canFly": false
+    {
+      "name": "Ionosian",
+      "primaryType": "water",
+      "secondaryType": "bug",
+      "catchRate": 74,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 88,
+        "attack": 37,
+        "defence": 180,
+        "special_attack": 16,
+        "special_defence": 105,
+        "speed": 67
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:watergun",
+        "1:strugglebug",
+        "1:bulkup",
+        "1:bulkup",
+        "1:flipturn",
+        "1:uturn"
+      ],
+      "labels": [
+        "ionos",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ionosianshuckle.desc1"
+      ],
+      "height": 5,
+      "weight": 0,
+      "aspects": [
+        "ionosian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": true
+          }
         }
-    }
-  },
-  "catchRate": 74,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:watergun",
-    "1:strugglebug",
-    "1:bulkup",
-    "1:bulkup",
-    "1:flipturn",
-    "1:uturn"  ],
-  "labels": [
-    "ionos",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.ionosianshuckle.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 5,
-  "weight": 0,
-  "aspects": ["ionosian"],
-  "cannotDynamax": false
-},
-{
-  "name": "Delta",
-  "primaryType": "fighting",
-  "secondaryType": "steel",
-  "abilities": [
-    "sturdy",
-    "noguard",
-    "h:ironbarbs"
-  ],
-  "baseStats": {
-    "hp": 20,
-    "attack": 10,
-    "defence": 230,
-    "special_attack": 10,
-    "special_defence": 230,
-    "speed": 5
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     },
-    "moving": {
-        "fly": {
-            "canFly": false
+    {
+      "name": "Delta",
+      "primaryType": "fighting",
+      "secondaryType": "steel",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 177,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "sturdy",
+        "noguard",
+        "h:ironbarbs"
+      ],
+      "baseStats": {
+        "hp": 20,
+        "attack": 10,
+        "defence": 230,
+        "special_attack": 10,
+        "special_defence": 230,
+        "speed": 5
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:spikes",
+        "1:endure",
+        "1:cometpunch",
+        "1:bide",
+        "1:poweruppunch",
+        "5:detect",
+        "9:dizzypunch",
+        "12:seismictoss",
+        "16:focusenergy",
+        "20:rest",
+        "23:counter",
+        "27:irondefense",
+        "31:powertrick",
+        "34:metalsound",
+        "38:gyroball",
+        "42:focuspunch",
+        "45:powersplit",
+        "45:guardsplit",
+        "49:dynamicpunch",
+        "53:spikes",
+        "tm:toxic",
+        "tm:bulkup",
+        "tm:hiddenpower",
+        "tm:taunt",
+        "tm:hyperbeam",
+        "tm:protect",
+        "tm:frustration",
+        "tm:return",
+        "tm:brickbreak",
+        "tm:doubleteam",
+        "tm:reflect",
+        "tm:rocktomb",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:lowsweep",
+        "tm:recycle",
+        "tm:focusblast",
+        "tm:fling",
+        "tm:skillswap",
+        "tm:embargo",
+        "tm:explosion",
+        "tm:payback",
+        "tm:retaliate",
+        "tm:gigaimpact",
+        "tm:psychup",
+        "tm:thunderwave",
+        "tm:gyroball",
+        "tm:drainpunch",
+        "tm:grassknot",
+        "tm:swagger",
+        "tm:poweruppunch",
+        "tm:substitute",
+        "tm:flashcannon",
+        "tm:smackdown",
+        "tm:sleeptalk",
+        "tm:achillesheel",
+        "tm:round",
+        "tm:captivate",
+        "tm:confide",
+        "tm:spikes",
+        "tm:secretpower",
+        "tm:rocksmash",
+        "tm:workup",
+        "tm:strength",
+        "tutor:acid",
+        "tutor:afteryou",
+        "tutor:bind",
+        "tutor:block",
+        "tutor:bodyslam",
+        "tutor:counter",
+        "tutor:dynamicpunch",
+        "tutor:endeavor",
+        "tutor:endure",
+        "tutor:firepunch",
+        "tutor:focuspunch",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:icepunch",
+        "tutor:irondefense",
+        "tutor:ironhead",
+        "tutor:knockoff",
+        "tutor:lastresort",
+        "tutor:magiccoat",
+        "tutor:mimic",
+        "tutor:outrage",
+        "tutor:roleplay",
+        "tutor:seismictoss",
+        "tutor:snore",
+        "tutor:spite",
+        "tutor:superpower",
+        "tutor:thunderpunch",
+        "tutor:zenheadbutt"
+      ],
+      "labels": [
+        "gen2",
+        "insurgence",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.deltashuckle.desc1"
+      ],
+      "height": 6,
+      "weight": 410,
+      "aspects": [
+        "delta"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": false,
             "canBreatheUnderwater": true
+          }
         }
-    }
-  },
-  "catchRate": 190,
-  "shoulderMountable": false,
-  "baseExperienceYield": 177,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "undiscovered"
-  ],
-  "moves": [
-    "1:spikes",
-    "1:endure",
-    "1:cometpunch",
-    "1:bide",
-    "1:poweruppunch",
-    "5:detect",
-    "9:dizzypunch",
-    "12:seismictoss",
-    "16:focusenergy",
-    "20:rest",
-    "23:counter",
-    "27:irondefense",
-    "31:powertrick",
-    "34:metalsound",
-    "38:gyroball",
-    "42:focuspunch",
-    "45:powersplit",
-    "45:guardsplit",
-    "49:dynamicpunch",
-    "53:spikes",
-    "tm:toxic",
-    "tm:bulkup",
-    "tm:hiddenpower",
-    "tm:taunt",
-    "tm:hyperbeam",
-    "tm:protect",
-    "tm:frustration",
-    "tm:return",
-    "tm:brickbreak",
-    "tm:doubleteam",
-    "tm:reflect",
-    "tm:rocktomb",
-    "tm:facade",
-    "tm:rest",
-    "tm:attract",
-    "tm:lowsweep",
-    "tm:recycle",
-    "tm:focusblast",
-    "tm:fling",
-    "tm:skillswap",
-    "tm:embargo",
-    "tm:explosion",
-    "tm:payback",
-    "tm:retaliate",
-    "tm:gigaimpact",
-    "tm:psychup",
-    "tm:thunderwave",
-    "tm:gyroball",
-    "tm:drainpunch",
-    "tm:grassknot",
-    "tm:swagger",
-    "tm:poweruppunch",
-    "tm:substitute",
-    "tm:flashcannon",
-    "tm:smackdown",
-    "tm:sleeptalk",
-    "tm:achillesheel",
-    "tm:round",
-    "tm:captivate",
-    "tm:confide",
-    "tm:spikes",
-    "tm:secretpower",
-    "tm:rocksmash",
-    "tm:workup",
-    "tm:strength",
-    "tutor:acid",
-    "tutor:afteryou",
-    "tutor:bind",
-    "tutor:block",
-    "tutor:bodyslam",
-    "tutor:counter",
-    "tutor:dynamicpunch",
-    "tutor:endeavor",
-    "tutor:endure",
-    "tutor:firepunch",
-    "tutor:focuspunch",
-    "tutor:foulplay",
-    "tutor:helpinghand",
-    "tutor:icepunch",
-    "tutor:irondefense",
-    "tutor:ironhead",
-    "tutor:knockoff",
-    "tutor:lastresort",
-    "tutor:magiccoat",
-    "tutor:mimic",
-    "tutor:outrage",
-    "tutor:roleplay",
-    "tutor:seismictoss",
-    "tutor:snore",
-    "tutor:spite",
-    "tutor:superpower",
-    "tutor:thunderpunch",
-    "tutor:zenheadbutt"  ],
-  "labels": [
-    "gen2",
-    "insurgence",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.deltashuckle.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 6,
-  "weight": 410,
-  "aspects": ["delta"],
-  "cannotDynamax": false
-},
-{
-  "name": "Hoennian",
-  "primaryType": "grass",
-  "secondaryType": "rock",
-  "abilities": [
-    "effectspore",
-    "h:solidrock"
-  ],
-  "baseStats": {
-    "hp": 40,
-    "attack": 10,
-    "defence": 220,
-    "special_attack": 10,
-    "special_defence": 220,
-    "speed": 5
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     },
-    "moving": {
-        "fly": {
-            "canFly": false
+    {
+      "name": "Hoennian",
+      "primaryType": "grass",
+      "secondaryType": "rock",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 177,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.6,
+      "cannotDynamax": false,
+      "abilities": [
+        "effectspore",
+        "h:solidrock"
+      ],
+      "baseStats": {
+        "hp": 40,
+        "attack": 10,
+        "defence": 220,
+        "special_attack": 10,
+        "special_defence": 220,
+        "speed": 5
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "1:recycle",
+        "1:snatch",
+        "9:wrap",
+        "14:grasswhistle",
+        "23:ingrain",
+        "28:yawn",
+        "37:leechseed",
+        "tm:toxic",
+        "tm:bulletseed",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:protect",
+        "tm:energyball",
+        "tm:solarbeam",
+        "tm:earthquake",
+        "tm:return",
+        "tm:dig",
+        "tm:shimmershot",
+        "tm:sludgebomb",
+        "tm:sandstorm",
+        "tm:rocktomb",
+        "tm:facade",
+        "tm:secretpower",
+        "tm:rest",
+        "tm:attract",
+        "tm:strength",
+        "tm:flash",
+        "tm:rocksmash",
+        "egg:shellsmash"
+      ],
+      "labels": [
+        "gen2",
+        "blazing_emerald"
+      ],
+      "pokedex": [
+        "cobblemon.species.hoennianshuckle.desc1"
+      ],
+      "height": 6,
+      "weight": 205,
+      "aspects": [
+        "hoennian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
+      },
+      "hitbox": {
+        "width": 0.6,
+        "height": 0.6,
+        "fixed": false
+      }
     }
-  },
-  "catchRate": 190,
-  "shoulderMountable": false,
-  "baseExperienceYield": 177,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "bug"
   ],
-  "moves": [
-    "1:recycle",
-    "1:snatch",
-    "9:wrap",
-    "14:grasswhistle",
-    "23:ingrain",
-    "28:yawn",
-    "37:leechseed",
-    "tm:toxic",
-    "tm:bulletseed",
-    "tm:hiddenpower",
-    "tm:sunnyday",
-    "tm:protect",
-    "tm:energyball",
-    "tm:solarbeam",
-    "tm:earthquake",
-    "tm:return",
-    "tm:dig",
-    "tm:shimmershot",
-    "tm:sludgebomb",
-    "tm:sandstorm",
-    "tm:rocktomb",
-    "tm:facade",
-    "tm:secretpower",
-    "tm:rest",
-    "tm:attract",
-    "tm:strength",
-    "tm:flash",
-    "tm:rocksmash",
-    "egg:shellsmash"  ],
-  "labels": [
-    "gen2",
-    "blazing_emerald"
-  ],
-  "pokedex": [
-    "cobblemon.species.hoennianshuckle.desc"
-  ],
-  "baseScale": 0.6,
-  "hitbox": {
-    "width": 0.6,
-    "height": 0.6,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 6,
-  "weight": 205,
-  "aspects": ["hoennian"],
-  "cannotDynamax": false
-}
-], "features": [
-"fabelian",
-"forman",
-"ionosian",
-"delta",
-"hoennian"
+  "features": [
+    "fabelian",
+    "forman",
+    "ionosian",
+    "delta",
+    "hoennian"
   ]
 }

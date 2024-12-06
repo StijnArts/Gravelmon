@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Vinagruff",
-  "nationalPokedexNumber": 6017,
   "primaryType": "water",
   "secondaryType": "rock",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 239,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "bouldog",
+  "baseScale": 0.25,
+  "cannotDynamax": false,
   "abilities": [
     "torrent",
     "h:rockhead"
@@ -16,38 +23,19 @@
     "special_defence": 80,
     "speed": 72
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 3,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 239,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field",
     "water_1"
   ],
+  "drops": {},
   "moves": [
     "5:growl",
     "8:watergun",
@@ -125,7 +113,8 @@
     "tm:accelerock",
     "tm:headsmash",
     "tm:yawn",
-    "tm:acidspray"  ],
+    "tm:acidspray"
+  ],
   "labels": [
     "okeno",
     "not_modeled",
@@ -133,28 +122,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.vinagruff.desc"
+    "cobblemon.species.vinagruff.desc1"
   ],
-  "preEvolution": "bouldog",
-  "baseScale": 0.25,
+  "height": 15,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6017,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 3,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 15,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

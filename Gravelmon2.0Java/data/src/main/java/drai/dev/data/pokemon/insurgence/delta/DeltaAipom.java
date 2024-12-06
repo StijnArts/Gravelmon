@@ -20,7 +20,7 @@ public class DeltaAipom extends Pokemon {
                 50, List.of(EggGroup.DELTA),
                 List.of("A Delta Species discovered by SixteenDraws and EchoTheThird. It sneakily places the end of its tail on people's shoulders, making others wonder if they saw a white hand."),
                 List.of(new EvolutionEntry("deltaambipom", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.DOUBLE_HIT.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.DOUBLE_HIT.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.SCREECH,1),

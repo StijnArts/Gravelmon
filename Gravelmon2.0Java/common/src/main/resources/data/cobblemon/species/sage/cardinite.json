@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Cardinite",
-  "nationalPokedexNumber": 1121,
   "primaryType": "fire",
   "secondaryType": "flying",
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 72,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "earlybird",
     "flashfire",
@@ -17,37 +23,20 @@
     "special_defence": 40,
     "speed": 90
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 190,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 72,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "flying"
   ],
+  "drops": {
+    "amount": 4
+  },
   "moves": [
     "1:sandattack",
     "1:gust",
@@ -103,14 +92,18 @@
     "egg:ironhead",
     "egg:mirrormove",
     "egg:roost",
-    "egg:tailwind"  ],
+    "egg:tailwind"
+  ],
   "labels": [
     "sage",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.cardinite.desc"
+    "cobblemon.species.cardinite.desc1"
   ],
+  "height": 3,
+  "weight": 15,
+  "aspects": [],
   "evolutions": [
     {
       "id": "cardinite_chardinal",
@@ -121,31 +114,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 32
+          "minLevel": "32"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 1121,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 3,
-  "weight": 15,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

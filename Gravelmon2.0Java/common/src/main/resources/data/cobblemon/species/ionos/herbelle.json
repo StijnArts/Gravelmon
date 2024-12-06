@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Herbelle",
-  "nationalPokedexNumber": 6494,
   "primaryType": "grass",
   "secondaryType": "fairy",
+  "catchRate": 45,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "shrubbie",
+  "baseScale": 0.19999999999999998,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
   "baseStats": {
     "hp": 88,
     "attack": 43,
@@ -14,40 +22,22 @@
     "special_defence": 75,
     "speed": 52
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:absorb",
-    "1:disarmingvoice"  ],
+    "1:disarmingvoice"
+  ],
   "labels": [
     "ionos",
     "not_modeled",
@@ -55,9 +45,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.herbelle.desc"
+    "cobblemon.species.herbelle.desc1"
   ],
-  "preEvolution": "shrubbie",
+  "height": 12,
+  "weight": 0,
+  "aspects": [],
   "evolutions": [
     {
       "id": "herbelle_miralide",
@@ -68,31 +60,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 34
+          "minLevel": "34"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.19999999999999998,
+  "nationalPokedexNumber": 6494,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 12,
-  "weight": 0,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

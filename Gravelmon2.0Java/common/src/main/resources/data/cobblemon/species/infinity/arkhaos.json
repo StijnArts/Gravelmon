@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Arkhaos",
-  "nationalPokedexNumber": 1471,
   "primaryType": "cosmic",
+  "catchRate": 3,
+  "maleRatio": -1.0,
+  "baseExperienceYield": 400,
+  "experienceGroup": "slow",
+  "eggCycles": 39,
+  "baseFriendship": 70,
+  "baseScale": 1.0,
+  "cannotDynamax": false,
   "abilities": [
     "shedskin",
     "h:multiscale"
@@ -15,37 +21,18 @@
     "special_defence": 100,
     "speed": 188
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 4
   },
-  "catchRate": 3,
-  "maleRatio": -1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 400,
-  "experienceGroup": "slow",
-  "eggCycles": 39,
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {},
   "moves": [
     "1:extremespeed",
     "1:cosmicpower",
@@ -192,32 +179,49 @@
     "tutor:suckerpunch",
     "tutor:superpower",
     "tutor:thunderpunch",
-    "tutor:zenheadbutt"  ],
+    "tutor:zenheadbutt"
+  ],
   "labels": [
     "infinity"
   ],
   "pokedex": [
-    "cobblemon.species.arkhaos.desc"
+    "cobblemon.species.arkhaos.desc1"
   ],
-  "baseScale": 1.0,
+  "height": 880,
+  "weight": 8880,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1471,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 4.0,
     "height": 2.5,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 4
-  },
-  "height": 880,
-  "weight": 8880,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

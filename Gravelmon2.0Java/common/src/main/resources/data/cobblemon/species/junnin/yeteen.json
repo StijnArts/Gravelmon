@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Yeteen",
-  "nationalPokedexNumber": 3112,
   "primaryType": "grass",
   "secondaryType": "ice",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "yetini",
+  "baseScale": 0.13333333333333333,
+  "cannotDynamax": false,
   "abilities": [
-    "overgrow"  ],
+    "overgrow"
+  ],
   "baseStats": {
     "hp": 77,
     "attack": 89,
@@ -14,38 +22,19 @@
     "special_defence": 59,
     "speed": 68
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 142,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "human_like",
     "grass"
   ],
+  "drops": {},
   "moves": [
     "1:absorb",
     "1:powdersnow",
@@ -80,7 +69,8 @@
     "tm:rest",
     "tm:flatter",
     "tm:captivate",
-    "tm:charm"  ],
+    "tm:charm"
+  ],
   "labels": [
     "junnin",
     "not_modeled",
@@ -88,9 +78,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.yeteen.desc"
+    "cobblemon.species.yeteen.desc1"
   ],
-  "preEvolution": "yetini",
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "yeteen_yetitan",
@@ -101,31 +93,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 36
+          "minLevel": "36"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.13333333333333333,
+  "nationalPokedexNumber": 3112,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 8,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

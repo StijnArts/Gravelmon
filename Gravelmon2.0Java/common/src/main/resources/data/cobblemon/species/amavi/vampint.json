@@ -1,11 +1,18 @@
 {
-  "implemented": true,
   "name": "Vampint",
-  "nationalPokedexNumber": 7342,
   "primaryType": "bug",
   "secondaryType": "dark",
+  "catchRate": 220,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
   "baseStats": {
     "hp": 105,
     "attack": 15,
@@ -14,52 +21,36 @@
     "special_defence": 30,
     "speed": 100
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canWalkOnWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 220,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:infestation",
     "1:harden",
     "4:stringshot",
     "8:bite",
     "12:bugbite",
-    "17:protect"  ],
+    "17:protect"
+  ],
   "labels": [
     "amavi",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.vampint.desc"
+    "cobblemon.species.vampint.desc1"
   ],
+  "height": 3,
+  "weight": 0,
+  "aspects": [],
   "evolutions": [
     {
       "id": "vampint_vasquito",
@@ -70,31 +61,44 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 18
+          "minLevel": "18"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 7342,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false,
+        "canWalkOnWater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 3,
-  "weight": 0,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

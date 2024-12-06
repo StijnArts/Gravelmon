@@ -80,6 +80,6 @@ public class Combateon extends Pokemon {
                 List.of());
         this.setPortraitXYZ(0,1.8,0);
         addAdditionalEvolution("eevee", new EvolutionEntry("combateon", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.MACH_PUNCH.getName()+"\"")))	);
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.MACH_PUNCH.getName())))	);
     }
 }

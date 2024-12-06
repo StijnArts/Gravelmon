@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Cachoe",
-  "nationalPokedexNumber": 7036,
   "primaryType": "bug",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 123,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "silkch",
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "shielddust",
     "shedskin",
@@ -16,37 +23,18 @@
     "special_defence": 72,
     "speed": 30
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 123,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:stringshot",
     "10:harden",
@@ -54,7 +42,8 @@
     "20:bugbite",
     "25:spiderweb",
     "tm:strugglebug",
-    "tm:stickyweb"  ],
+    "tm:stickyweb"
+  ],
   "labels": [
     "atlas",
     "not_modeled",
@@ -62,9 +51,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.cachoe.desc"
+    "cobblemon.species.cachoe.desc1"
   ],
-  "preEvolution": "silkch",
+  "height": 5,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "cachoe_silxie",
@@ -75,31 +66,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 15
+          "minLevel": "15"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 7036,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 5,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

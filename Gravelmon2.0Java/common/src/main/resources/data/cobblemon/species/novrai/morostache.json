@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Morostache",
-  "nationalPokedexNumber": 6776,
   "primaryType": "dark",
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 70,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "tanglinghair",
     "h:prankster"
@@ -15,51 +21,19 @@
     "special_defence": 60,
     "speed": 50
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 100,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 70,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
   "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "gravelmon:prim_shears",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "gravelmon:hair_tonic",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
+    "amount": 1
   },
   "moves": [
     "1:covet",
@@ -137,14 +111,18 @@
     "tm:reversal",
     "tm:acupressure",
     "tm:nightslash",
-    "tm:uproar"  ],
+    "tm:uproar"
+  ],
   "labels": [
     "novrai",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.morostache.desc"
+    "cobblemon.species.morostache.desc1"
   ],
+  "height": 1,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "morostache_impostache",
@@ -152,44 +130,52 @@
       "result": "impostache",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
+      "requirements": [],
       "requiredContext": "gravelmon:prim_shears",
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "morostache_morosquatch",
       "variant": "item_interact",
       "result": "morosquatch",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
+      "requirements": [],
       "requiredContext": "gravelmon:hair_tonic",
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 6776,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 1,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

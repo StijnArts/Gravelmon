@@ -50,7 +50,7 @@ public class Draftbee extends drai.dev.data.pokemon.Pokemon {
 setCanFly(true);
         addAdditionalEvolution("combee", new EvolutionEntry("draftbee", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"21"),
-                        new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=male\""))));
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male"))));
     }
 
 

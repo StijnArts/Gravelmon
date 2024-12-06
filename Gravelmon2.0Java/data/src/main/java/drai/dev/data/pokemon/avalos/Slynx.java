@@ -138,7 +138,7 @@ public class Slynx extends drai.dev.data.pokemon.Pokemon {
                 List.of());
            setLangFileName("Slynx");
         addAdditionalEvolution("persian", new EvolutionEntry("slynx", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:razor_claw\"")))	);
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:razor_claw")))	);
 
     }
 

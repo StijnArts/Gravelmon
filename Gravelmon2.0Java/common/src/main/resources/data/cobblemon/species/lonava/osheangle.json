@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Osheangle",
-  "nationalPokedexNumber": 4486,
   "primaryType": "ground",
   "secondaryType": "grass",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 144,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "burreel",
+  "baseScale": 0.2833333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "sandforce",
     "h:intimidate"
@@ -16,38 +23,19 @@
     "special_defence": 55,
     "speed": 55
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 144,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_2",
     "dragon"
   ],
+  "drops": {},
   "moves": [
     "1:mudslap",
     "1:sandattack",
@@ -127,7 +115,8 @@
     "tm:shoreup",
     "tm:glare",
     "tm:coil",
-    "tm:fishiousrend"  ],
+    "tm:fishiousrend"
+  ],
   "labels": [
     "lonava",
     "not_modeled",
@@ -135,9 +124,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.osheangle.desc"
+    "cobblemon.species.osheangle.desc1"
   ],
-  "preEvolution": "burreel",
+  "height": 17,
+  "weight": 270,
+  "aspects": [],
   "evolutions": [
     {
       "id": "osheangle_morabyssal",
@@ -148,31 +139,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 55
+          "minLevel": "55"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.2833333333333333,
+  "nationalPokedexNumber": 4486,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 17,
-  "weight": 270,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

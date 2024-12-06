@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Fawniler",
-  "nationalPokedexNumber": 3042,
   "primaryType": "ice",
   "secondaryType": "normal",
+  "catchRate": 200,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 52,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.13333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "runaway",
     "h:lightningrod"
@@ -16,37 +22,18 @@
     "special_defence": 35,
     "speed": 30
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 200,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 52,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:powdersnow",
     "4:leer",
@@ -104,14 +91,18 @@
     "tm:throatchop",
     "tm:toxic",
     "tm:weatherball",
-    "tm:zenheadbutt"  ],
+    "tm:zenheadbutt"
+  ],
   "labels": [
     "hiza",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.fawniler.desc"
+    "cobblemon.species.fawniler.desc1"
   ],
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "fawniler_mawribou",
@@ -122,31 +113,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 30
+          "minLevel": "30"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.13333333333333333,
+  "nationalPokedexNumber": 3042,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 8,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

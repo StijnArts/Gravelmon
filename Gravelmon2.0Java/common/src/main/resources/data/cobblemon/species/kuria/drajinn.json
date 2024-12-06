@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Drajinn",
-  "nationalPokedexNumber": 5616,
   "primaryType": "dragon",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 175,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "dragurn",
+  "baseScale": 0.19999999999999998,
+  "cannotDynamax": false,
   "abilities": [
     "sturdy",
     "h:solidrock"
@@ -15,37 +22,18 @@
     "special_defence": 110,
     "speed": 40
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 175,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "dragon"
   ],
+  "drops": {},
   "moves": [
     "1:leer",
     "1:scratch",
@@ -64,7 +52,8 @@
     "39:swordsdance",
     "42:outrage",
     "45:guillotine",
-    "48:gigaimpact"  ],
+    "48:gigaimpact"
+  ],
   "labels": [
     "kuria",
     "not_modeled",
@@ -72,28 +61,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.drajinn.desc"
+    "cobblemon.species.drajinn.desc1"
   ],
-  "preEvolution": "dragurn",
-  "baseScale": 0.19999999999999998,
+  "height": 12,
+  "weight": 474,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5616,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 12,
-  "weight": 474,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

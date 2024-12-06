@@ -1,65 +1,26 @@
 {
-  "implemented": true,
   "name": "Flydore",
-  "nationalPokedexNumber": 3631,
   "primaryType": "bug",
-  "abilities": [
-    "tintedlens"  ],
-  "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 255,
+  "catchRate": 120,
   "maleRatio": 0.5,
-  "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:strugglebug"  ],
-  "labels": [
-    "not_modeled",
-    "trizor"
-  ],
-  "pokedex": [
-    "cobblemon.species.flydore.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
   "baseFriendship": 70,
+  "preEvolution": "maggenrola",
+  "baseScale": 0.16666666666666666,
+  "cannotDynamax": false,
+  "abilities": [
+    "tintedlens"
+  ],
+  "baseStats": {
+    "hp": 78,
+    "attack": 27,
+    "defence": 60,
+    "special_attack": 66,
+    "special_defence": 93,
+    "speed": 33
+  },
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -68,10 +29,68 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:strugglebug",
+    "1:bulkup"
+  ],
+  "labels": [
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution",
+    "trizor"
+  ],
+  "pokedex": [
+    "cobblemon.species.flydore.desc1"
+  ],
+  "height": 10,
   "weight": 0,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [
+    {
+      "id": "flydore_gigascath",
+      "variant": "trade",
+      "result": "Gigascath",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 3631,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

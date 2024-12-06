@@ -25,10 +25,10 @@ public class Crystalis extends drai.dev.data.pokemon.Pokemon {
                 List.of("When it evolves, Grubzero encases itself in its own ice and waits. It need not worry about predators, as no sane Pokemon would break open an ice block just to get such a small morsel."),
                 List.of(new EvolutionEntry("himilago", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=male\""))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male"))),
                                 new EvolutionEntry("bugsled", EvolutionType.LEVEL_UP, List.of(),
                                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
-                                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=female\"")))),
+                                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=female")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ICY_WIND,1),
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,26)                        ),

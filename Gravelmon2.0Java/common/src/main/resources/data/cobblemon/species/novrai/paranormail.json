@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Paranormail",
-  "nationalPokedexNumber": 6847,
   "primaryType": "ghost",
   "secondaryType": "flying",
+  "catchRate": 80,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 140,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "ghostage",
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "wanderingspirit",
     "windrider",
@@ -17,37 +24,18 @@
     "special_defence": 37,
     "speed": 105
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 80,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 140,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "amorphous"
   ],
+  "drops": {},
   "moves": [
     "1:nightshade",
     "10:payday",
@@ -127,7 +115,8 @@
     "tm:switcheroo",
     "tm:covet",
     "tm:slash",
-    "tm:astonish"  ],
+    "tm:astonish"
+  ],
   "labels": [
     "novrai",
     "not_modeled",
@@ -135,9 +124,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.paranormail.desc"
+    "cobblemon.species.paranormail.desc1"
   ],
-  "preEvolution": "ghostage",
+  "height": 3,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "paranormail_deliveerie",
@@ -145,32 +136,42 @@
       "result": "deliveerie",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
+      "requirements": [],
       "requiredContext": "cobblemon:dusk_stone",
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 6847,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 3,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

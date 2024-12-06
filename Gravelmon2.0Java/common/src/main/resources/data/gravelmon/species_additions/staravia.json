@@ -1,143 +1,151 @@
 {
-   "target": "cobblemon:staravia",
-   "forms": [{
-  "name": "Epoch",
-  "primaryType": "sound",
-  "secondaryType": "flying",
-  "abilities": [
-    "cloudnine",
-    "h:galewings"
-  ],
-  "baseStats": {
-    "hp": 60,
-    "attack": 25,
-    "defence": 65,
-    "special_attack": 80,
-    "special_defence": 70,
-    "speed": 55
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
+  "target": "cobblemon:staravia",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "sound",
+      "secondaryType": "flying",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 119,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "cloudnine",
+        "h:galewings"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 25,
+        "defence": 65,
+        "special_attack": 80,
+        "special_defence": 70,
+        "speed": 55
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 2
+      },
+      "eggGroups": [
+        "flying"
+      ],
+      "drops": {},
+      "moves": [
+        "5:sonicboom",
+        "21:round",
+        "42:airslash",
+        "1:sandattack",
+        "1:gust",
+        "24:tailwind",
+        "tm:acrobatics",
+        "tm:airslash",
+        "tm:attract",
+        "tm:bounce",
+        "tm:bravebird",
+        "tm:bulletseed",
+        "tm:charm",
+        "tm:defog",
+        "tm:dualwingbeat",
+        "tm:echoedvoice",
+        "tm:energyball",
+        "tm:falseswipe",
+        "tm:featherdance",
+        "tm:healbell",
+        "tm:hiddenpower",
+        "tm:hurricane",
+        "tm:hypervoice",
+        "tm:icywind",
+        "tm:knockoff",
+        "tm:mist",
+        "tm:mistyterrain",
+        "tm:playrough",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:sleeptalk",
+        "tm:soundbarrier",
+        "tm:steelwing",
+        "tm:substitute",
+        "tm:swift",
+        "tm:swordsdance",
+        "tm:tailwind",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:triattack",
+        "tm:weatherball",
+        "tm:wish",
+        "tm:workup"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochstaravia.desc1"
+      ],
+      "height": 6,
+      "weight": 155,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochstaravia_epoch_staraptor",
+          "variant": "level_up",
+          "result": "epoch staraptor",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "37"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     }
-  },
-  "catchRate": 120,
-  "shoulderMountable": false,
-  "baseExperienceYield": 119,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "flying"
   ],
-  "moves": [
-    "5:sonicboom",
-    "21:round",
-    "42:airslash",
-    "1:sandattack",
-    "1:gust",
-    "24:tailwind",
-    "tm:acrobatics",
-    "tm:airslash",
-    "tm:attract",
-    "tm:bounce",
-    "tm:bravebird",
-    "tm:bulletseed",
-    "tm:charm",
-    "tm:defog",
-    "tm:dualwingbeat",
-    "tm:echoedvoice",
-    "tm:energyball",
-    "tm:falseswipe",
-    "tm:featherdance",
-    "tm:healbell",
-    "tm:hiddenpower",
-    "tm:hurricane",
-    "tm:hypervoice",
-    "tm:icywind",
-    "tm:knockoff",
-    "tm:mist",
-    "tm:mistyterrain",
-    "tm:playrough",
-    "tm:protect",
-    "tm:rest",
-    "tm:return",
-    "tm:round",
-    "tm:safeguard",
-    "tm:sleeptalk",
-    "tm:soundbarrier",
-    "tm:steelwing",
-    "tm:substitute",
-    "tm:swift",
-    "tm:swordsdance",
-    "tm:tailwind",
-    "tm:taunt",
-    "tm:terrainpulse",
-    "tm:toxic",
-    "tm:triattack",
-    "tm:weatherball",
-    "tm:wish",
-    "tm:workup"  ],
-  "labels": [
-    "soulstones",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.epochstaravia.desc"
-  ],
-  "evolutions": [
-    {
-      "id": "staravia_epoch_staraptor",
-      "variant": "level_up",
-      "result": "epoch staraptor",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": 37
-        }
-      ],
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 6,
-  "weight": 155,
-  "aspects": ["epoch"],
-  "cannotDynamax": false
-}
-], "features": [
-"epoch"
+  "features": [
+    "epoch"
   ]
 }

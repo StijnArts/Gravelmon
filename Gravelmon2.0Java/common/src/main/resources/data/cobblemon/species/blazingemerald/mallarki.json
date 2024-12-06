@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Mallarki",
-  "nationalPokedexNumber": 5128,
   "primaryType": "fighting",
   "secondaryType": "flying",
+  "catchRate": 30,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 220,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 51,
+  "baseFriendship": 70,
+  "preEvolution": "farfetchd",
+  "baseScale": 0.16666666666666666,
+  "cannotDynamax": false,
   "abilities": [
-    "hypercutter"  ],
+    "hypercutter"
+  ],
   "baseStats": {
     "hp": 60,
     "attack": 110,
@@ -14,37 +22,18 @@
     "special_defence": 70,
     "speed": 110
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 30,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 220,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 51,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "egg:fakeout",
     "egg:knockoff",
@@ -87,35 +76,51 @@
     "31:swordsdance",
     "34:drillpeck",
     "38:skyuppercut",
-    "49:bravebird"  ],
+    "49:bravebird"
+  ],
   "labels": [
     "blazing_emerald",
     "not_modeled",
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.mallarki.desc"
+    "cobblemon.species.mallarki.desc1"
   ],
-  "preEvolution": "farfetchd",
-  "baseScale": 0.16666666666666666,
+  "height": 10,
+  "weight": 289,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5128,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 10,
-  "weight": 289,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

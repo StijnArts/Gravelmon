@@ -1,65 +1,26 @@
 {
-  "implemented": true,
   "name": "Tutolar",
-  "nationalPokedexNumber": 3647,
   "primaryType": "fire",
-  "abilities": [
-    "blaze"  ],
-  "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 255,
+  "catchRate": 45,
   "maleRatio": 0.5,
-  "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:ember"  ],
-  "labels": [
-    "not_modeled",
-    "trizor"
-  ],
-  "pokedex": [
-    "cobblemon.species.tutolar.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
   "baseFriendship": 70,
+  "preEvolution": "kapalze",
+  "baseScale": 0.19999999999999998,
+  "cannotDynamax": false,
+  "abilities": [
+    "blaze"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 28,
+    "defence": 37,
+    "special_attack": 58,
+    "special_defence": 93,
+    "speed": 65
+  },
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -68,10 +29,74 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:ember",
+    "1:bulkup",
+    "1:vacuumwave"
+  ],
+  "labels": [
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution",
+    "trizor"
+  ],
+  "pokedex": [
+    "cobblemon.species.tutolar.desc1"
+  ],
+  "height": 12,
   "weight": 0,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [
+    {
+      "id": "tutolar_locanel",
+      "variant": "level_up",
+      "result": "Locanel",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "34"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 3647,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

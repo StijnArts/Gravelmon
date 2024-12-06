@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Beetome",
-  "nationalPokedexNumber": 6026,
   "primaryType": "bug",
   "secondaryType": "fairy",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 178,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "pupage",
+  "baseScale": 0.11666666666666665,
+  "cannotDynamax": false,
   "abilities": [
-    "shielddust"  ],
+    "shielddust"
+  ],
   "baseStats": {
     "hp": 55,
     "attack": 80,
@@ -14,37 +22,18 @@
     "special_defence": 100,
     "speed": 42
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 3,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 178,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:roleplay",
     "17:bugbite",
@@ -56,7 +45,8 @@
     "36:embargo",
     "45:playrough",
     "50:magiccoat",
-    "55:megahorn"  ],
+    "55:megahorn"
+  ],
   "labels": [
     "okeno",
     "not_modeled",
@@ -64,28 +54,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.beetome.desc"
+    "cobblemon.species.beetome.desc1"
   ],
-  "preEvolution": "pupage",
-  "baseScale": 0.11666666666666665,
+  "height": 7,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6026,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 3,
-    "speed": 0
-  },
-  "height": 7,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

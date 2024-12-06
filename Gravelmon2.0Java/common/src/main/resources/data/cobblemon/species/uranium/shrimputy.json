@@ -1,11 +1,18 @@
 {
-  "implemented": true,
   "name": "Shrimputy",
-  "nationalPokedexNumber": 2592,
   "primaryType": "water",
   "secondaryType": "fire",
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 62,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
-    "sniper"  ],
+    "sniper"
+  ],
   "baseStats": {
     "hp": 43,
     "attack": 50,
@@ -14,38 +21,19 @@
     "special_defence": 35,
     "speed": 35
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 190,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 62,
-  "experienceGroup": "fluctuating",
-  "eggCycles": 100,
   "eggGroups": [
     "water_1",
     "water_3"
   ],
+  "drops": {},
   "moves": [
     "1:bubble",
     "1:watersport",
@@ -104,14 +92,18 @@
     "egg:aquajet",
     "egg:crabhammer",
     "egg:bulletseed",
-    "egg:soak"  ],
+    "egg:soak"
+  ],
   "labels": [
     "uranium",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.shrimputy.desc"
+    "cobblemon.species.shrimputy.desc1"
   ],
+  "height": 6,
+  "weight": 115,
+  "aspects": [],
   "evolutions": [
     {
       "id": "shrimputy_krilvolver",
@@ -122,31 +114,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 38
+          "minLevel": "38"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 2592,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 6,
-  "weight": 115,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

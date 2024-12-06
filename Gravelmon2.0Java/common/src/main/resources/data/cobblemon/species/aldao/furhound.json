@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Furhound",
-  "nationalPokedexNumber": 3769,
   "primaryType": "normal",
   "secondaryType": "fire",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "chiwaw",
+  "baseScale": 0.15,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
   "baseStats": {
     "hp": 98,
     "attack": 34,
@@ -14,59 +22,6 @@
     "special_defence": 98,
     "speed": 42
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:tackle",
-    "1:ember",
-    "1:sleeptalk",
-    "1:bulkup"  ],
-  "labels": [
-    "aldao",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
-  ],
-  "pokedex": [
-    "cobblemon.species.furhound.desc"
-  ],
-  "preEvolution": "chiwaw",
-  "baseScale": 0.15,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -75,10 +30,60 @@
     "special_defence": 0,
     "speed": 0
   },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:tackle",
+    "1:ember",
+    "1:sleeptalk",
+    "1:bulkup"
+  ],
+  "labels": [
+    "aldao",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.furhound.desc1"
+  ],
   "height": 9,
   "weight": 0,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 3769,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

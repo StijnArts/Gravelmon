@@ -21,7 +21,7 @@ public class Excalibould extends Pokemon {
                 List.of("This rock pile came to life thanks to the combative spirit of past paladins that inhabited the sword wedged in it."),
                 List.of(new EvolutionEntry("madieval", EvolutionType.LEVEL_UP, true, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"cobblemon:kings_rock\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "cobblemon:kings_rock")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ROCK_THROW,1),
                         new MoveLearnSetEntry(Move.HARDEN,1),

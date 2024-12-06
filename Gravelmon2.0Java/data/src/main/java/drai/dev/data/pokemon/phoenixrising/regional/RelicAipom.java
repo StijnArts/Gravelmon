@@ -20,7 +20,7 @@ public class RelicAipom extends Pokemon {
                 51, List.of(EggGroup.HUMAN_LIKE),
                 List.of("Relic Aipom are known for their throwing skills. Trees, and occasionally an unfortunate Trevenant, are their usual targets for practice."),
                 List.of(new EvolutionEntry("relicambipom", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\"TRIPLE_AXEL\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"TRIPLE_AXEL")))),
                 List.of(
                         new MoveLearnSetEntry(Move.KARATE_CHOP,1),
                         new MoveLearnSetEntry(Move.LEER,1),

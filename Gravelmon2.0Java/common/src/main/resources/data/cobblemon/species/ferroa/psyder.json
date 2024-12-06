@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Psyder",
-  "nationalPokedexNumber": 1889,
   "primaryType": "psychic",
   "secondaryType": "bug",
+  "catchRate": 160,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 62,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "keeneye",
     "h:analytic"
@@ -16,37 +22,18 @@
     "special_defence": 55,
     "speed": 50
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 160,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 62,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:acupressure",
     "5:confusion",
@@ -92,14 +79,18 @@
     "tm:psychocut",
     "tm:lunge",
     "tm:entrainment",
-    "tm:teeterdance"  ],
+    "tm:teeterdance"
+  ],
   "labels": [
     "ferroa",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.psyder.desc"
+    "cobblemon.species.psyder.desc1"
   ],
+  "height": 3,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "psyder_lunarach",
@@ -107,32 +98,42 @@
       "result": "lunarach",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
+      "requirements": [],
       "requiredContext": "cobblemon:moon_stone",
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 1889,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 3,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

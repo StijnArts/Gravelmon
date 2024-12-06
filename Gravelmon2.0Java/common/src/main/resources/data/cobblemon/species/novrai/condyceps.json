@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Condyceps",
-  "nationalPokedexNumber": 6692,
   "primaryType": "ground",
   "secondaryType": "bug",
+  "catchRate": 70,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 166,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "narysite",
+  "baseScale": 0.3,
+  "cannotDynamax": false,
   "abilities": [
     "dryskin",
     "hugepower",
@@ -17,38 +24,19 @@
     "special_defence": 125,
     "speed": 42
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
   },
-  "catchRate": 70,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 166,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field",
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:mudslap",
     "10:infestation",
@@ -127,7 +115,8 @@
     "tm:sandtomb",
     "tm:ragepowder",
     "tm:furyswipes",
-    "tm:bite"  ],
+    "tm:bite"
+  ],
   "labels": [
     "novrai",
     "not_modeled",
@@ -135,28 +124,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.condyceps.desc"
+    "cobblemon.species.condyceps.desc1"
   ],
-  "preEvolution": "narysite",
-  "baseScale": 0.3,
+  "height": 18,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6692,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 2,
-    "speed": 0
-  },
-  "height": 18,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

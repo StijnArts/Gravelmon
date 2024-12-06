@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Nerimbe",
-  "nationalPokedexNumber": 5334,
   "primaryType": "grass",
   "secondaryType": "ice",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 180,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "snowtus",
+  "baseScale": 0.39999999999999997,
+  "cannotDynamax": false,
   "abilities": [
     "icescales",
     "waterabsorb",
@@ -17,38 +24,19 @@
     "special_defence": 124,
     "speed": 105
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 3,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 180,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "grass",
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:watersport",
     "1:powdersnow",
@@ -121,7 +109,8 @@
     "tm:tripleaxel",
     "tm:watergun",
     "tm:weatherball",
-    "tm:whirlwind"  ],
+    "tm:whirlwind"
+  ],
   "labels": [
     "fliga",
     "not_modeled",
@@ -129,28 +118,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.nerimbe.desc"
+    "cobblemon.species.nerimbe.desc1"
   ],
-  "preEvolution": "snowtus",
-  "baseScale": 0.39999999999999997,
+  "height": 24,
+  "weight": 935,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5334,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 3,
-    "speed": 0
-  },
-  "height": 24,
-  "weight": 935,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

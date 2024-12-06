@@ -25,10 +25,10 @@ public class Cockapoll extends drai.dev.data.pokemon.Pokemon {
                 List.of("rayquazaapoll knows a lot about responsibility but rarely shows what it has been taught. Leading groups of cleffaatoto during great berry heists, wooperapoll is usually the worst of the bunch."),
                 List.of(new EvolutionEntry("sheagull", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=female\""))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=female"))),
                         new EvolutionEntry("pharature", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32"),
-                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=male\"")))),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),

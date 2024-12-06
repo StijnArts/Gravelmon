@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Algrain",
-  "nationalPokedexNumber": 7094,
   "primaryType": "grass",
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 63,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "waterabsorb",
     "damp",
@@ -16,37 +22,18 @@
     "special_defence": 46,
     "speed": 55
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 190,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 63,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "grass"
   ],
+  "drops": {},
   "moves": [
     "1:absorb",
     "5:watersport",
@@ -60,14 +47,18 @@
     "38:grassknot",
     "42:growth",
     "48:wringout",
-    "53:powerwhip"  ],
+    "53:powerwhip"
+  ],
   "labels": [
     "atlas",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.algrain.desc"
+    "cobblemon.species.algrain.desc1"
   ],
+  "height": 5,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "algrain_kelpush",
@@ -78,31 +69,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 26
+          "minLevel": "26"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 7094,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 5,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

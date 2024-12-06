@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Huskie",
-  "nationalPokedexNumber": 2780,
   "primaryType": "grass",
   "secondaryType": "water",
+  "catchRate": 160,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.11666666666666665,
+  "cannotDynamax": false,
   "abilities": [
     "sapsipper",
     "h:moxie"
@@ -16,68 +22,6 @@
     "special_defence": 43,
     "speed": 55
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 160,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:absorb",
-    "1:watergun"  ],
-  "labels": [
-    "kuulkid",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.huskie.desc"
-  ],
-  "evolutions": [
-    {
-      "id": "huskie_cocolobo",
-      "variant": "item_interact",
-      "result": "cocolobo",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-
-      ],
-      "requiredContext": "cobblemon:leaf_stone",
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.11666666666666665,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 0,
     "attack": 1,
@@ -86,10 +30,67 @@
     "special_defence": 0,
     "speed": 0
   },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:absorb",
+    "1:watergun"
+  ],
+  "labels": [
+    "kuulkid",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.huskie.desc1"
+  ],
   "height": 7,
   "weight": 0,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [
+    {
+      "id": "huskie_cocolobo",
+      "variant": "item_interact",
+      "result": "cocolobo",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:leaf_stone",
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 2780,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

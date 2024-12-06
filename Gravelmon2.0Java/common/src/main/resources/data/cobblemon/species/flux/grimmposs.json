@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Grimmposs",
-  "nationalPokedexNumber": 2672,
   "primaryType": "normal",
   "secondaryType": "ghost",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 175,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "pouchelet",
+  "baseScale": 0.19999999999999998,
+  "cannotDynamax": false,
   "abilities": [
     "adaptability",
     "stench",
@@ -17,37 +24,18 @@
     "special_defence": 101,
     "speed": 106
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 175,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:shadowsneak",
     "1:memento",
@@ -74,7 +62,8 @@
     "egg:feint",
     "egg:screech",
     "egg:yawn",
-    "egg:toxic"  ],
+    "egg:toxic"
+  ],
   "labels": [
     "flux",
     "not_modeled",
@@ -82,28 +71,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.grimmposs.desc"
+    "cobblemon.species.grimmposs.desc1"
   ],
-  "preEvolution": "pouchelet",
-  "baseScale": 0.19999999999999998,
+  "height": 12,
+  "weight": 150,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2672,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 12,
-  "weight": 150,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

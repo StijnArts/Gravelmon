@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Crunchawtle",
-  "nationalPokedexNumber": 6500,
   "primaryType": "water",
   "secondaryType": "ice",
+  "catchRate": 144,
+  "maleRatio": 0.87,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "chompper",
+  "baseScale": 0.18333333333333335,
+  "cannotDynamax": false,
   "abilities": [
     "torrent",
     "h:strongjaw"
@@ -16,37 +23,18 @@
     "special_defence": 71,
     "speed": 32
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 144,
-  "maleRatio": 0.87,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:withdraw",
     "1:tackle",
@@ -63,7 +51,8 @@
     "49:irondefense",
     "54:iciclecrash",
     "58:hydropump",
-    "63:shellsmash"  ],
+    "63:shellsmash"
+  ],
   "labels": [
     "ionos",
     "not_modeled",
@@ -71,9 +60,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.crunchawtle.desc"
+    "cobblemon.species.crunchawtle.desc1"
   ],
-  "preEvolution": "chompper",
+  "height": 11,
+  "weight": 0,
+  "aspects": [],
   "evolutions": [
     {
       "id": "crunchawtle_tormightier",
@@ -84,31 +75,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 34
+          "minLevel": "34"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.18333333333333335,
+  "nationalPokedexNumber": 6500,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 11,
-  "weight": 0,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

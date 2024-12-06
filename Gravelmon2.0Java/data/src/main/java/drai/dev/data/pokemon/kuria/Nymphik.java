@@ -24,7 +24,7 @@ public class Nymphik extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.BUG),
                 List.of("Nymphick will stay awake day and night fighting its targets, even if it is outmatched. While they aren't exactly the strongest, nobody can say that they aren't trying."),
                 List.of(new EvolutionEntry("hoppercut", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.SKY_UPPERCUT.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.SKY_UPPERCUT.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.SCUTTLEHOP,1),
                         new MoveLearnSetEntry(Move.LEER,5),

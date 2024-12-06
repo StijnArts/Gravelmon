@@ -1,10 +1,17 @@
 {
-  "implemented": true,
   "name": "Felipom",
-  "nationalPokedexNumber": 6524,
   "primaryType": "fairy",
+  "catchRate": 143,
+  "maleRatio": 0.15,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
   "baseStats": {
     "hp": 72,
     "attack": 57,
@@ -13,55 +20,6 @@
     "special_defence": 69,
     "speed": 47
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 143,
-  "maleRatio": 0.15,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:disarmingvoice",
-    "1:bulkup",
-    "1:healbell"  ],
-  "labels": [
-    "ionos",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.felipom.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -70,10 +28,57 @@
     "special_defence": 0,
     "speed": 0
   },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:disarmingvoice",
+    "1:bulkup",
+    "1:healbell"
+  ],
+  "labels": [
+    "ionos",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.felipom.desc1"
+  ],
   "height": 6,
   "weight": 0,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 6524,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

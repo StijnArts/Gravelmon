@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Simpaima",
-  "nationalPokedexNumber": 4955,
   "primaryType": "water",
+  "catchRate": 225,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 40,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.16666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "swiftswim",
     "h:simple"
@@ -15,38 +21,19 @@
     "special_defence": 55,
     "speed": 80
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 225,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 40,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_2",
     "dragon"
   ],
+  "drops": {},
   "moves": [
     "1:splash",
     "15:tackle",
@@ -77,49 +64,67 @@
     "tutor:bounce",
     "tutor:waterpulse",
     "tutor:aquatail",
-    "tutor:icywind"  ],
+    "tutor:icywind"
+  ],
   "labels": [
     "umbra",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.simpaima.desc"
+    "cobblemon.species.simpaima.desc1"
   ],
+  "height": 10,
+  "weight": 216,
+  "aspects": [],
   "evolutions": [
     {
       "id": "simpaima_arowisen",
       "variant": "level_up",
       "result": "arowisen",
       "consumeHeldItem": false,
-      "learnableMoves": [    "aurorabeam"],
+      "learnableMoves": [
+        "aurorabeam"
+      ],
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 20
+          "minLevel": "20"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.16666666666666666,
+  "nationalPokedexNumber": 4955,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 10,
-  "weight": 216,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

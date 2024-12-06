@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Jellycap",
-  "nationalPokedexNumber": 1541,
   "primaryType": "poison",
+  "catchRate": 225,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 66,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "effectspore",
     "liquidooze",
@@ -16,37 +22,18 @@
     "special_defence": 60,
     "speed": 25
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 225,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 66,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "grass"
   ],
+  "drops": {},
   "moves": [
     "1:leer",
     "3:wrap",
@@ -61,14 +48,18 @@
     "36:nightslash",
     "41:wringout",
     "46:coil",
-    "52:gunkshot"  ],
+    "52:gunkshot"
+  ],
   "labels": [
     "lagoone",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.jellycap.desc"
+    "cobblemon.species.jellycap.desc1"
   ],
+  "height": 6,
+  "weight": 82,
+  "aspects": [],
   "evolutions": [
     {
       "id": "jellycap_jellohat",
@@ -79,31 +70,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 25
+          "minLevel": "25"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 1541,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 6,
-  "weight": 82,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

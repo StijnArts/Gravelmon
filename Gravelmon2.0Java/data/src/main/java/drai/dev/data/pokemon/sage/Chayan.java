@@ -21,10 +21,10 @@ public class Chayan extends Pokemon {
                 List.of("Chayan is a born fighter, sparring with others mere hours after birth. It competes with others in challenges of skill and strength, striving to improve."),
                 List.of(new EvolutionEntry("macuarrior", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY, "\"gender=male\""))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY, "gender=male"))),
                         new EvolutionEntry("ocerumi", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25"),
-                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY, "\"gender=female\"")))),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY, "gender=female")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.FAKE_OUT,5),

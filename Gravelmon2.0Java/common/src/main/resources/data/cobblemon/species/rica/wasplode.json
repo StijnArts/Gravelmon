@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Wasplode",
-  "nationalPokedexNumber": 1379,
   "primaryType": "bug",
   "secondaryType": "fire",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 175,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.16666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "infiltrator",
     "h:flashfire"
@@ -16,37 +22,18 @@
     "special_defence": 65,
     "speed": 110
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 175,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:poisonsting",
     "8:pursuit",
@@ -65,33 +52,50 @@
     "62:finalgambit",
     "68:overheat",
     "tm:firstimpression",
-    "tm:burnup"  ],
+    "tm:burnup"
+  ],
   "labels": [
     "rica",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.wasplode.desc"
+    "cobblemon.species.wasplode.desc1"
   ],
-  "baseScale": 0.16666666666666666,
+  "height": 10,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1379,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 10,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

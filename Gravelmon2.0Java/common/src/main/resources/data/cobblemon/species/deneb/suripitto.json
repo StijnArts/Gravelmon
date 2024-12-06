@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Suripitto",
-  "nationalPokedexNumber": 6410,
   "primaryType": "psychic",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 197,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.31666666666666665,
+  "cannotDynamax": false,
   "abilities": [
     "insomnia",
     "h:innerfocus"
@@ -15,37 +21,18 @@
     "special_defence": 135,
     "speed": 72
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 3,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 197,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "human_like"
   ],
+  "drops": {},
   "moves": [
     "1:yawn",
     "1:somnismog",
@@ -89,33 +76,50 @@
     "egg:probepunch",
     "egg:roleplay",
     "egg:trickroom",
-    "egg:wish"  ],
+    "egg:wish"
+  ],
   "labels": [
     "deneb",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.suripitto.desc"
+    "cobblemon.species.suripitto.desc1"
   ],
-  "baseScale": 0.31666666666666665,
+  "height": 19,
+  "weight": 879,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6410,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 3,
-    "speed": 0
-  },
-  "height": 19,
-  "weight": 879,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

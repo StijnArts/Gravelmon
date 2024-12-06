@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Cascassidine",
-  "nationalPokedexNumber": 5955,
   "primaryType": "water",
   "secondaryType": "flying",
+  "catchRate": 50,
+  "maleRatio": 0.75,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "cassidite",
+  "baseScale": 0.3,
+  "cannotDynamax": false,
   "abilities": [
     "swiftswim",
     "h:overcoat"
@@ -16,38 +23,19 @@
     "special_defence": 85,
     "speed": 85
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 1,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 50,
-  "maleRatio": 0.75,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "flying",
     "monster"
   ],
+  "drops": {},
   "moves": [
     "1:furyattack",
     "1:leer",
@@ -63,7 +51,8 @@
     "62:thrash",
     "tm:mist",
     "tm:haze",
-    "tm:iceball"  ],
+    "tm:iceball"
+  ],
   "labels": [
     "midamis",
     "not_modeled",
@@ -71,28 +60,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.cascassidine.desc"
+    "cobblemon.species.cascassidine.desc1"
   ],
-  "preEvolution": "cassidite",
-  "baseScale": 0.3,
+  "height": 18,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5955,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 3,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 18,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

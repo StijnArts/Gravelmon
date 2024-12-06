@@ -25,7 +25,7 @@ public class Chichaw extends drai.dev.data.pokemon.Pokemon {
                 List.of("Chichaw show how they feel by how they bite you. Depending on if it bites gently or bites through flesh, it shows if it likes or dislikes you. Though even the gentle bites hurt."),
                 List.of(new EvolutionEntry("Terrevour", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_SWAMP.getId() + ":" + Biome.IS_SWAMP.getName() +"\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_SWAMP.getId() + ":" + Biome.IS_SWAMP.getName())))),
                 List.of(             new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.POWER_TRIP,1),
                         new MoveLearnSetEntry(Move.SAND_ATTACK,3),

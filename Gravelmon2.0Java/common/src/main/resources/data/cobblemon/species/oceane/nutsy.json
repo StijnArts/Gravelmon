@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Nutsy",
-  "nationalPokedexNumber": 2332,
   "primaryType": "grass",
+  "catchRate": 110,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 166,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.25,
+  "cannotDynamax": false,
   "abilities": [
     "rockhead",
     "klutz",
@@ -16,60 +22,6 @@
     "special_defence": 67,
     "speed": 73
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
-  },
-  "catchRate": 110,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 166,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "grass"
-  ],
-  "moves": [
-    "1:milkdrink",
-    "1:woodhammer",
-    "1:slam",
-    "1:headsmash",
-    "1:vinewhip",
-    "1:amnesia",
-    "1:rockthrow",
-    "1:barrage"  ],
-  "labels": [
-    "oceane",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.nutsy.desc"
-  ],
-  "baseScale": 0.25,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -78,10 +30,62 @@
     "special_defence": 0,
     "speed": 0
   },
+  "eggGroups": [
+    "grass"
+  ],
+  "drops": {},
+  "moves": [
+    "1:milkdrink",
+    "1:woodhammer",
+    "1:slam",
+    "1:headsmash",
+    "1:vinewhip",
+    "1:amnesia",
+    "1:rockthrow",
+    "1:barrage"
+  ],
+  "labels": [
+    "oceane",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.nutsy.desc1"
+  ],
   "height": 15,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 2332,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -20,9 +20,9 @@ public class Smore extends Pokemon {
                 100, List.of(EggGroup.BUG),
                 List.of("If a SMORE approaches your picnic, it's not trying to steal your food, it just wants attention. Still, some people are afraid of them."),
                 List.of(new EvolutionEntry("firoke", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.INCINERATE.getName()+"\""))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.INCINERATE.getName()))),
                         new EvolutionEntry("seikamater", EvolutionType.LEVEL_UP, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"gravelmon:royal_jelly\"")))),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"gravelmon:royal_jelly")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POISON_STING,1),
                         new MoveLearnSetEntry(Move.STRING_SHOT,1),

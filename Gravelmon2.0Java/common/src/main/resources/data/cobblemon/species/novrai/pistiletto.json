@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Pistiletto",
-  "nationalPokedexNumber": 6764,
   "primaryType": "grass",
   "secondaryType": "rock",
+  "catchRate": 70,
+  "maleRatio": 0.25,
+  "baseExperienceYield": 175,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "slippetal",
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "tangledfeet",
     "aromaveil",
@@ -17,38 +24,19 @@
     "special_defence": 113,
     "speed": 99
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
   },
-  "catchRate": 70,
-  "maleRatio": 0.25,
-  "shoulderMountable": false,
-  "baseExperienceYield": 175,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "grass",
     "fairy"
   ],
+  "drops": {},
   "moves": [
     "1:ingrain",
     "7:razorleaf",
@@ -132,7 +120,8 @@
     "tm:teeterdance",
     "tm:stomp",
     "tm:grasswhistle",
-    "tm:playrough"  ],
+    "tm:playrough"
+  ],
   "labels": [
     "novrai",
     "not_modeled",
@@ -140,28 +129,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.pistiletto.desc"
+    "cobblemon.species.pistiletto.desc1"
   ],
-  "preEvolution": "slippetal",
-  "baseScale": 0.1,
+  "height": 3,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6764,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 2,
-    "speed": 0
-  },
-  "height": 3,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

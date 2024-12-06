@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Primmadame",
-  "nationalPokedexNumber": 4736,
   "primaryType": "normal",
   "secondaryType": "flying",
+  "catchRate": 75,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 151,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "primmella",
+  "baseScale": 0.26666666666666666,
+  "cannotDynamax": false,
   "abilities": [
-    "queenlymajesty"  ],
+    "queenlymajesty"
+  ],
   "baseStats": {
     "hp": 80,
     "attack": 45,
@@ -14,37 +22,18 @@
     "special_defence": 100,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 75,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 151,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "fairy"
   ],
+  "drops": {},
   "moves": [
     "1:doubleslap",
     "5:disarmingvoice",
@@ -88,7 +77,8 @@
     "tm:lightscreen",
     "tm:reflect",
     "tm:rest",
-    "tm:raindance"  ],
+    "tm:raindance"
+  ],
   "labels": [
     "nosto",
     "not_modeled",
@@ -96,9 +86,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.primmadame.desc"
+    "cobblemon.species.primmadame.desc1"
   ],
-  "preEvolution": "primmella",
+  "height": 16,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "primmadame_primmoiselle",
@@ -109,31 +101,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 43
+          "minLevel": "43"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.26666666666666666,
+  "nationalPokedexNumber": 4736,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 16,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

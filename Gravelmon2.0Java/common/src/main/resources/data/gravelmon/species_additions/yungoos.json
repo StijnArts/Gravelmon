@@ -1,223 +1,237 @@
 {
-   "target": "cobblemon:yungoos",
-   "forms": [{
-  "name": "Fabelian",
-  "primaryType": "normal",
-  "secondaryType": "steel",
-  "abilities": [
-    "keeneye"  ],
-  "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 255,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:tackle",
-    "1:metalclaw"  ],
-  "labels": [
-    "fabel",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.fabelianyungoos.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 0,
-  "weight": 0,
-  "aspects": ["fabelian"],
-  "cannotDynamax": false
-},
-{
-  "name": "Ayreian",
-  "primaryType": "dark",
-  "abilities": [
-    "keeneye",
-    "h:adaptability"
-  ],
-  "baseStats": {
-    "hp": 48,
-    "attack": 100,
-    "defence": 40,
-    "special_attack": 45,
-    "special_defence": 30,
-    "speed": 40
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 127,
-  "shoulderMountable": false,
-  "baseExperienceYield": 51,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 51,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:tackle",
-    "3:leer",
-    "7:bite",
-    "10:mudslap",
-    "13:odorsleuth",
-    "16:bide",
-    "19:firefang",
-    "23:mudslap",
-    "27:nightslash",
-    "31:takedown",
-    "35:scaryface",
-    "39:crunch",
-    "43:hyperfang",
-    "47:yawn",
-    "51:thrash",
-    "55:suckerpunch",
-    "tutor:attract",
-    "tutor:confide",
-    "tutor:doubleteam",
-    "tutor:earthquake",
-    "tutor:echoedvoice",
-    "tutor:endeavor",
-    "tutor:endure",
-    "tutor:facade",
-    "tutor:frustration",
-    "tutor:hiddenpower",
-    "tutor:irontail",
-    "tutor:lastresort",
-    "tutor:payback",
-    "tutor:protect",
-    "tutor:rest",
-    "tutor:return",
-    "tutor:rocktomb",
-    "tutor:round",
-    "tutor:sandstorm",
-    "tutor:shockwave",
-    "tutor:sleeptalk",
-    "tutor:snore",
-    "tutor:stompingtantrum",
-    "tutor:substitute",
-    "tutor:superfang",
-    "tutor:swagger",
-    "tutor:taunt",
-    "tutor:thief",
-    "tutor:torment",
-    "tutor:toxic",
-    "tutor:uproar",
-    "tutor:uturn",
-    "tutor:workup",
-    "egg:revenge",
-    "egg:lastresort",
-    "egg:firefang",
-    "egg:icefang",
-    "egg:thunderfang"  ],
-  "labels": [
-    "vanguard",
-    "gen7",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.ayreianyungoos.desc"
-  ],
-  "evolutions": [
+  "target": "cobblemon:yungoos",
+  "forms": [
     {
-      "id": "yungoos_gumshoos_ayreian",
-      "variant": "item_interact",
-      "result": "gumshoos ayreian",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-
+      "name": "Fabelian",
+      "primaryType": "normal",
+      "secondaryType": "steel",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
       ],
-      "requiredContext": "cobblemon:dusk_stone",
-      "permanent": true   
- }
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:tackle",
+        "1:metalclaw"
+      ],
+      "labels": [
+        "fabel",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.fabelianyungoos.desc1"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "fabelian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+          }
+        }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Ayreian",
+      "primaryType": "dark",
+      "catchRate": 127,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 51,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye",
+        "h:adaptability"
+      ],
+      "baseStats": {
+        "hp": 48,
+        "attack": 100,
+        "defence": 40,
+        "special_attack": 45,
+        "special_defence": 30,
+        "speed": 40
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:tackle",
+        "3:leer",
+        "7:bite",
+        "10:mudslap",
+        "13:odorsleuth",
+        "16:bide",
+        "19:firefang",
+        "23:mudslap",
+        "27:nightslash",
+        "31:takedown",
+        "35:scaryface",
+        "39:crunch",
+        "43:hyperfang",
+        "47:yawn",
+        "51:thrash",
+        "55:suckerpunch",
+        "tutor:attract",
+        "tutor:confide",
+        "tutor:doubleteam",
+        "tutor:earthquake",
+        "tutor:echoedvoice",
+        "tutor:endeavor",
+        "tutor:endure",
+        "tutor:facade",
+        "tutor:frustration",
+        "tutor:hiddenpower",
+        "tutor:irontail",
+        "tutor:lastresort",
+        "tutor:payback",
+        "tutor:protect",
+        "tutor:rest",
+        "tutor:return",
+        "tutor:rocktomb",
+        "tutor:round",
+        "tutor:sandstorm",
+        "tutor:shockwave",
+        "tutor:sleeptalk",
+        "tutor:snore",
+        "tutor:stompingtantrum",
+        "tutor:substitute",
+        "tutor:superfang",
+        "tutor:swagger",
+        "tutor:taunt",
+        "tutor:thief",
+        "tutor:torment",
+        "tutor:toxic",
+        "tutor:uproar",
+        "tutor:uturn",
+        "tutor:workup",
+        "egg:revenge",
+        "egg:lastresort",
+        "egg:firefang",
+        "egg:icefang",
+        "egg:thunderfang"
+      ],
+      "labels": [
+        "vanguard",
+        "gen7",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianyungoos.desc1"
+      ],
+      "height": 4,
+      "weight": 60,
+      "aspects": [
+        "ayreian"
+      ],
+      "evolutions": [
+        {
+          "id": "ayreianyungoos_gumshoos_ayreian",
+          "variant": "item_interact",
+          "result": "gumshoos ayreian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:dusk_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+          }
+        }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
   ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 4,
-  "weight": 60,
-  "aspects": ["ayreian"],
-  "cannotDynamax": false
-}
-], "features": [
-"fabelian",
-"ayreian"
+  "features": [
+    "fabelian",
+    "ayreian"
   ]
 }

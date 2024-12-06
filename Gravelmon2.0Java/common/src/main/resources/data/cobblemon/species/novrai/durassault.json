@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Durassault",
-  "nationalPokedexNumber": 6744,
   "primaryType": "electric",
   "secondaryType": "fighting",
+  "catchRate": 45,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 230,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "oblittery",
+  "baseScale": 0.2833333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "voltabsorb",
     "ironfist",
@@ -17,37 +24,18 @@
     "special_defence": 85,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 230,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:acid",
     "12:chargebeam",
@@ -121,7 +109,8 @@
     "tm:confide",
     "tm:bodypress",
     "tm:stompingtantrum",
-    "tm:strength"  ],
+    "tm:strength"
+  ],
   "labels": [
     "novrai",
     "not_modeled",
@@ -129,28 +118,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.durassault.desc"
+    "cobblemon.species.durassault.desc1"
   ],
-  "preEvolution": "oblittery",
-  "baseScale": 0.2833333333333333,
+  "height": 17,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6744,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 3,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 17,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

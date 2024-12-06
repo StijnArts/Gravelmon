@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Magukigai",
-  "nationalPokedexNumber": 6396,
   "primaryType": "rock",
   "secondaryType": "fire",
+  "catchRate": 30,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 214,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "magcargo",
+  "baseScale": 0.2333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "magmaarmor",
     "flamebody",
@@ -17,38 +24,18 @@
     "special_defence": 95,
     "speed": 40
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canWalkOnWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 30,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 214,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "amorphous"
   ],
+  "drops": {},
   "moves": [
     "1:earthpower",
     "1:ember",
@@ -119,35 +106,52 @@
     "egg:smokescreen",
     "egg:spitup",
     "egg:stockpile",
-    "egg:swallow"  ],
+    "egg:swallow"
+  ],
   "labels": [
     "deneb",
     "not_modeled",
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.magukigai.desc"
+    "cobblemon.species.magukigai.desc1"
   ],
-  "preEvolution": "magcargo",
-  "baseScale": 0.2333333333333333,
+  "height": 14,
+  "weight": 1280,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6396,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false,
+        "canWalkOnWater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 14,
-  "weight": 1280,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

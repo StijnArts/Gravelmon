@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Gemolofry",
-  "nationalPokedexNumber": 4533,
   "primaryType": "rock",
+  "catchRate": 140,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 70,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "keeneye",
     "h:clearbody"
@@ -15,37 +21,18 @@
     "special_defence": 90,
     "speed": 30
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 140,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 70,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:rockpolish",
     "1:tackle",
@@ -136,14 +123,18 @@
     "tm:waterfall",
     "tm:weatherball",
     "tm:zenheadbutt",
-    "tm:hydropump"  ],
+    "tm:hydropump"
+  ],
   "labels": [
     "lonava",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.gemolofry.desc"
+    "cobblemon.species.gemolofry.desc1"
   ],
+  "height": 5,
+  "weight": 600,
+  "aspects": [],
   "evolutions": [
     {
       "id": "gemolofry_appreciafin",
@@ -151,32 +142,42 @@
       "result": "appreciafin",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
+      "requirements": [],
       "requiredContext": "cobblemon:shiny_stone",
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 4533,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 5,
-  "weight": 600,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

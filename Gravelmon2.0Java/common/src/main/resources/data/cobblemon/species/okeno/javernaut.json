@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Javernaut",
-  "nationalPokedexNumber": 6058,
   "primaryType": "ground",
   "secondaryType": "fighting",
+  "catchRate": 45,
+  "maleRatio": 0.75,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "porklay",
+  "baseScale": 0.35000000000000003,
+  "cannotDynamax": false,
   "abilities": [
     "thickfat",
     "h:scrappy"
@@ -16,61 +23,6 @@
     "special_defence": 66,
     "speed": 54
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 45,
-  "maleRatio": 0.75,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:hammerarm",
-    "tm:muddywater",
-    "tm:heavyslam",
-    "tm:bellydrum",
-    "tm:bodypress",
-    "tm:heatcrash"  ],
-  "labels": [
-    "okeno",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
-  ],
-  "pokedex": [
-    "cobblemon.species.javernaut.desc"
-  ],
-  "preEvolution": "porklay",
-  "baseScale": 0.35000000000000003,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 1,
     "attack": 2,
@@ -79,10 +31,62 @@
     "special_defence": 0,
     "speed": 0
   },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:hammerarm",
+    "tm:muddywater",
+    "tm:heavyslam",
+    "tm:bellydrum",
+    "tm:bodypress",
+    "tm:heatcrash"
+  ],
+  "labels": [
+    "okeno",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.javernaut.desc1"
+  ],
   "height": 21,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 6058,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

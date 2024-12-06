@@ -75,7 +75,7 @@ public class Gheiflect extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of(""),
                 List.of(new EvolutionEntry("remirrorse", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"minecraft:amethyst_shard\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"minecraft:amethyst_shard")))),
                 List.of(),
                 List.of(Label.BAGO),
                 0, List.of(

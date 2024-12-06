@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Blubbark",
-  "nationalPokedexNumber": 1281,
   "primaryType": "water",
   "secondaryType": "normal",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 138,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "pupsea",
+  "baseScale": 0.15,
+  "cannotDynamax": false,
   "abilities": [
     "rattled",
     "thickfat",
@@ -17,38 +24,19 @@
     "special_defence": 62,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 138,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field",
     "water_1"
   ],
+  "drops": {},
   "moves": [
     "1:growl",
     "5:watersport",
@@ -116,7 +104,8 @@
     "tm:howl",
     "tm:copycat",
     "tm:aquajet",
-    "tm:disarmingvoice"  ],
+    "tm:disarmingvoice"
+  ],
   "labels": [
     "rica",
     "not_modeled",
@@ -124,9 +113,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.blubbark.desc"
+    "cobblemon.species.blubbark.desc1"
   ],
-  "preEvolution": "pupsea",
+  "height": 9,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "blubbark_sealord",
@@ -137,16 +128,16 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 35
+          "minLevel": "35"
         },
         {
           "variant": "properties",
-          "target": "gender=male",
+          "target": "gender\u003dmale",
           "contains": true
         }
       ],
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "blubbark_merjestic",
       "variant": "level_up",
@@ -156,36 +147,48 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 35
+          "minLevel": "35"
         },
         {
           "variant": "properties",
-          "target": "gender=female",
+          "target": "gender\u003dfemale",
           "contains": true
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.15,
+  "nationalPokedexNumber": 1281,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 9,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Urchar",
-  "nationalPokedexNumber": 3049,
   "primaryType": "fire",
   "secondaryType": "poison",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 161,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "smalldering",
+  "baseScale": 0.21666666666666667,
+  "cannotDynamax": false,
   "abilities": [
     "poisonpoint",
     "h:waterabsorb"
@@ -16,37 +23,18 @@
     "special_defence": 110,
     "speed": 32
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 90,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 161,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "water_3"
   ],
+  "drops": {},
   "moves": [
     "1:poisongas",
     "1:scratch",
@@ -60,7 +48,8 @@
     "40:dragonpulse",
     "45:flamethrower",
     "50:toxic",
-    "55:endeavor"  ],
+    "55:endeavor"
+  ],
   "labels": [
     "hiza",
     "not_modeled",
@@ -68,28 +57,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.urchar.desc"
+    "cobblemon.species.urchar.desc1"
   ],
-  "preEvolution": "smalldering",
-  "baseScale": 0.21666666666666667,
+  "height": 13,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 3049,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 13,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

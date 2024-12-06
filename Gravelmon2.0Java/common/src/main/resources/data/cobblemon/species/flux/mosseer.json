@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Mosseer",
-  "nationalPokedexNumber": 2638,
   "primaryType": "grass",
   "secondaryType": "psychic",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "mozz",
+  "baseScale": 0.16666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "overgrow",
     "h:tintedlens"
@@ -16,38 +23,19 @@
     "special_defence": 75,
     "speed": 65
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 142,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "bug",
     "grass"
   ],
+  "drops": {},
   "moves": [
     "1:psybeam",
     "1:scratch",
@@ -65,7 +53,8 @@
     "egg:batonpass",
     "egg:stringshot",
     "egg:synthesis",
-    "egg:curse"  ],
+    "egg:curse"
+  ],
   "labels": [
     "flux",
     "not_modeled",
@@ -73,9 +62,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.mosseer.desc"
+    "cobblemon.species.mosseer.desc1"
   ],
-  "preEvolution": "mozz",
+  "height": 10,
+  "weight": 235,
+  "aspects": [],
   "evolutions": [
     {
       "id": "mosseer_daemoth",
@@ -86,31 +77,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 36
+          "minLevel": "36"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.16666666666666666,
+  "nationalPokedexNumber": 2638,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 10,
-  "weight": 235,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

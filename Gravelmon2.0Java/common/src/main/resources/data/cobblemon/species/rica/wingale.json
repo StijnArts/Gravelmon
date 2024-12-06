@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Wingale",
-  "nationalPokedexNumber": 1276,
   "primaryType": "normal",
   "secondaryType": "flying",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 135,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "sparruff",
+  "baseScale": 0.11666666666666665,
+  "cannotDynamax": false,
   "abilities": [
     "bigpecks",
     "h:earlybird"
@@ -16,37 +23,18 @@
     "special_defence": 58,
     "speed": 72
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 135,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "flying"
   ],
+  "drops": {},
   "moves": [
     "5:focusenergy",
     "8:gust",
@@ -102,7 +90,8 @@
     "tm:twister",
     "tm:uproar",
     "tm:mefirst",
-    "tm:defog"  ],
+    "tm:defog"
+  ],
   "labels": [
     "rica",
     "not_modeled",
@@ -110,9 +99,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.wingale.desc"
+    "cobblemon.species.wingale.desc1"
   ],
-  "preEvolution": "sparruff",
+  "height": 7,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "wingale_yuvirro",
@@ -123,31 +114,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 33
+          "minLevel": "33"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.11666666666666665,
+  "nationalPokedexNumber": 1276,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 7,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

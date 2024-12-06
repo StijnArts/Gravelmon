@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Dragalis",
-  "nationalPokedexNumber": 1450,
   "primaryType": "bug",
   "secondaryType": "dragon",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 140,
+  "experienceGroup": "slow",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "preEvolution": "scalarva",
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "compoundeyes",
     "h:intimidate"
@@ -16,38 +23,19 @@
     "special_defence": 65,
     "speed": 25
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 140,
-  "experienceGroup": "slow",
-  "eggCycles": 100,
   "eggGroups": [
     "bug",
     "dragon"
   ],
+  "drops": {},
   "moves": [
     "1:scaryface",
     "30:irondefense",
@@ -102,7 +90,8 @@
     "egg:leechlife",
     "egg:suckerpunch",
     "egg:swordsdance",
-    "egg:taunt"  ],
+    "egg:taunt"
+  ],
   "labels": [
     "infinity",
     "not_modeled",
@@ -110,9 +99,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.dragalis.desc"
+    "cobblemon.species.dragalis.desc1"
   ],
-  "preEvolution": "scalarva",
+  "height": 5,
+  "weight": 125,
+  "aspects": [],
   "evolutions": [
     {
       "id": "dragalis_ceregal",
@@ -123,31 +114,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 50
+          "minLevel": "50"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 1450,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 5,
-  "weight": 125,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Charger",
-  "nationalPokedexNumber": 6562,
   "primaryType": "rock",
   "secondaryType": "electric",
+  "catchRate": 65,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "orbiter",
+  "baseScale": 0.31666666666666665,
+  "cannotDynamax": false,
   "abilities": [
-    "levitate"  ],
+    "levitate"
+  ],
   "baseStats": {
     "hp": 132,
     "attack": 39,
@@ -14,59 +22,6 @@
     "special_defence": 77,
     "speed": 22
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 65,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:rockthrow",
-    "1:thundershock",
-    "1:bulkup",
-    "1:bulkup"  ],
-  "labels": [
-    "ionos",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
-  ],
-  "pokedex": [
-    "cobblemon.species.charger.desc"
-  ],
-  "preEvolution": "orbiter",
-  "baseScale": 0.31666666666666665,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -75,10 +30,60 @@
     "special_defence": 0,
     "speed": 0
   },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:rockthrow",
+    "1:thundershock",
+    "1:bulkup",
+    "1:bulkup"
+  ],
+  "labels": [
+    "ionos",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.charger.desc1"
+  ],
   "height": 19,
   "weight": 0,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 6562,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

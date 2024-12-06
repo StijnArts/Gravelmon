@@ -1,10 +1,18 @@
 {
-  "implemented": true,
   "name": "Snugbug",
-  "nationalPokedexNumber": 2719,
   "primaryType": "bug",
+  "catchRate": 110,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "silkrinkle",
+  "baseScale": 0.11666666666666665,
+  "cannotDynamax": false,
   "abilities": [
-    "shielddust"  ],
+    "shielddust"
+  ],
   "baseStats": {
     "hp": 30,
     "attack": 30,
@@ -13,39 +21,21 @@
     "special_defence": 50,
     "speed": 45
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 110,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
-    "1:strugglebug"  ],
+    "1:strugglebug"
+  ],
   "labels": [
     "kuulkid",
     "not_modeled",
@@ -53,9 +43,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.snugbug.desc"
+    "cobblemon.species.snugbug.desc1"
   ],
-  "preEvolution": "silkrinkle",
+  "height": 7,
+  "weight": 0,
+  "aspects": [],
   "evolutions": [
     {
       "id": "snugbug_clothmoff",
@@ -66,11 +58,11 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 12
+          "minLevel": "12"
         }
       ],
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "snugbug_mothmother",
       "variant": "level_up",
@@ -80,31 +72,43 @@
       "requirements": [
         {
           "variant": "friendship",
-          "amount": 190
+          "amount": "190"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.11666666666666665,
+  "nationalPokedexNumber": 2719,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 7,
-  "weight": 0,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

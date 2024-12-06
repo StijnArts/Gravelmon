@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Eluchadon",
-  "nationalPokedexNumber": 1230,
   "primaryType": "fighting",
   "secondaryType": "electric",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 173,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "luchito",
+  "baseScale": 0.2333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "stubborn",
     "h:hugepower"
@@ -16,38 +23,21 @@
     "special_defence": 64,
     "speed": 96
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 173,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "human_like",
     "field"
   ],
+  "drops": {
+    "amount": 2
+  },
   "moves": [
     "1:quickguard",
     "1:lowkick",
@@ -147,7 +137,8 @@
     "tutor:uproar",
     "tutor:vacuumwave",
     "tutor:zenheadbutt",
-    "egg:wideguard"  ],
+    "egg:wideguard"
+  ],
   "labels": [
     "sage",
     "not_modeled",
@@ -155,28 +146,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.eluchadon.desc"
+    "cobblemon.species.eluchadon.desc1"
   ],
-  "preEvolution": "luchito",
-  "baseScale": 0.2333333333333333,
+  "height": 14,
+  "weight": 577,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1230,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 14,
-  "weight": 577,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

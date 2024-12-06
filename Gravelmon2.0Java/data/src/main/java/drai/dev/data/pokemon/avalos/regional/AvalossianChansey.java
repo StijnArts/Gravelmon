@@ -24,7 +24,7 @@ public class AvalossianChansey extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FAIRY),
                 List.of(""),
                 List.of(new EvolutionEntry("Avalossianblissey", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:lucky_egg\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:lucky_egg")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.POUND,1),

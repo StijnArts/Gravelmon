@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Hididna",
-  "nationalPokedexNumber": 8430,
   "primaryType": "grass",
   "secondaryType": "electric",
+  "catchRate": 45,
+  "maleRatio": 0.87,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "kididna",
+  "baseScale": 0.15,
+  "cannotDynamax": false,
   "abilities": [
     "overgrow",
     "h:reckless"
@@ -16,40 +23,22 @@
     "special_defence": 51,
     "speed": 58
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.87,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:absorb",
-    "1:thundershock"  ],
+    "1:thundershock"
+  ],
   "labels": [
     "mastenia",
     "not_modeled",
@@ -57,9 +46,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.hididna.desc"
+    "cobblemon.species.hididna.desc1"
   ],
-  "preEvolution": "kididna",
+  "height": 9,
+  "weight": 0,
+  "aspects": [],
   "evolutions": [
     {
       "id": "hididna_wreckidna",
@@ -70,31 +61,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 36
+          "minLevel": "36"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.15,
+  "nationalPokedexNumber": 8430,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 9,
-  "weight": 0,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

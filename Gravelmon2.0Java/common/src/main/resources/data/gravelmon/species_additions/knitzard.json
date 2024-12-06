@@ -1,28 +1,18 @@
 {
-   "target": "cobblemon:knitzard",
+  "target": "cobblemon:knitzard",
   "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "minecraft:decorated_pot_sherds",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-      },
+    "amount": 3
+  },
   "evolutions": [
     {
-      "id": "knitzard_Vessteel",
+      "id": "knitzard_vessteel",
       "variant": "item_interact",
       "result": "Vessteel",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
+      "requirements": [],
       "requiredContext": "minecraft:decorated_pot_sherds",
-      "permanent": true   
- }
+      "permanent": true
+    }
   ]
-
 }

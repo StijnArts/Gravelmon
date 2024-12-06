@@ -1,11 +1,18 @@
 {
-  "implemented": true,
   "name": "Growlain",
-  "nationalPokedexNumber": 5340,
   "primaryType": "rock",
   "secondaryType": "dragon",
+  "catchRate": 35,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 261,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.7000000000000001,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
   "baseStats": {
     "hp": 80,
     "attack": 120,
@@ -14,37 +21,18 @@
     "special_defence": 70,
     "speed": 100
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 35,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 261,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {},
   "moves": [
     "1:harden",
     "1:rockthrow",
@@ -65,33 +53,50 @@
     "54:earthquake",
     "58:headsmash",
     "65:hyperbeam",
-    "69:meteormash"  ],
+    "69:meteormash"
+  ],
   "labels": [
     "fliga",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.growlain.desc"
+    "cobblemon.species.growlain.desc1"
   ],
-  "baseScale": 0.7000000000000001,
+  "height": 42,
+  "weight": 0,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5340,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 42,
-  "weight": 0,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

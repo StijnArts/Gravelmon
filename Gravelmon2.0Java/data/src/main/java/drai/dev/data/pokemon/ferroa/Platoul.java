@@ -23,7 +23,7 @@ public class Platoul extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MINERAL,EggGroup.AMORPHOUS),
                 List.of("It wears a piece of metal like a mask to shield its face. Historically, Platoul wore discarded shields and armor, though modern Platoul are often found holding on to pieces of scrap metal instead."),
                 List.of(new EvolutionEntry("victorelic", EvolutionType.LEVEL_UP, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:metal_coat\"")))
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:metal_coat")))
                 ),
                 List.of(
                         new MoveLearnSetEntry(Move.NIGHT_SHADE,1),

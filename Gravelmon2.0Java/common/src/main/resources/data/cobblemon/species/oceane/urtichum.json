@@ -1,10 +1,18 @@
 {
-  "implemented": true,
   "name": "Urtichum",
-  "nationalPokedexNumber": 2326,
   "primaryType": "poison",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 157,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "urchum",
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
-    "poisonpoint"  ],
+    "poisonpoint"
+  ],
   "baseStats": {
     "hp": 72,
     "attack": 88,
@@ -13,59 +21,6 @@
     "special_defence": 85,
     "speed": 34
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
-  },
-  "catchRate": 90,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 157,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
-  "eggGroups": [
-    "water_1"
-  ],
-  "moves": [
-    "1:explosion",
-    "1:gyroball",
-    "1:gunkshot",
-    "1:spikyshield"  ],
-  "labels": [
-    "oceane",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
-  ],
-  "pokedex": [
-    "cobblemon.species.urtichum.desc"
-  ],
-  "preEvolution": "urchum",
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -74,10 +29,60 @@
     "special_defence": 0,
     "speed": 0
   },
+  "eggGroups": [
+    "water_1"
+  ],
+  "drops": {},
+  "moves": [
+    "1:explosion",
+    "1:gyroball",
+    "1:gunkshot",
+    "1:spikyshield"
+  ],
+  "labels": [
+    "oceane",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.urtichum.desc1"
+  ],
   "height": 5,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 2326,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

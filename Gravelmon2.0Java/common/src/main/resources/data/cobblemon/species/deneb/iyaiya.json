@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Iyaiya",
-  "nationalPokedexNumber": 6392,
   "primaryType": "grass",
   "secondaryType": "poison",
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 58,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.7,
+  "cannotDynamax": false,
   "abilities": [
     "technician",
     "h:runaway"
@@ -16,38 +22,19 @@
     "special_defence": 44,
     "speed": 66
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 190,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 58,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "grass",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:absorb",
     "1:acid",
@@ -90,13 +77,17 @@
     "tm:terablast",
     "tm:toxic",
     "tm:grassyglide",
-    "tm:petalblizzard"  ],
+    "tm:petalblizzard"
+  ],
   "labels": [
     "deneb"
   ],
   "pokedex": [
-    "cobblemon.species.iyaiya.desc"
+    "cobblemon.species.iyaiya.desc1"
   ],
+  "height": 6,
+  "weight": 191,
+  "aspects": [],
   "evolutions": [
     {
       "id": "iyaiya_yandeddo",
@@ -104,32 +95,42 @@
       "result": "yandeddo",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
+      "requirements": [],
       "requiredContext": "cobblemon:leaf_stone",
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.7,
+  "nationalPokedexNumber": 6392,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 1.0,
     "height": 1.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 6,
-  "weight": 191,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

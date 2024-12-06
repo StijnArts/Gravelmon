@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Scaldrip",
-  "nationalPokedexNumber": 4453,
   "primaryType": "fire",
   "secondaryType": "water",
+  "catchRate": 180,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 48,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "keeneye",
     "h:waterabsorb"
@@ -16,38 +22,19 @@
     "special_defence": 36,
     "speed": 30
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 180,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 48,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "monster",
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:watersport",
     "6:watergun",
@@ -92,14 +79,18 @@
     "tm:rollout",
     "tm:superpower",
     "tm:firespin",
-    "tm:brine"  ],
+    "tm:brine"
+  ],
   "labels": [
     "lonava",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.scaldrip.desc"
+    "cobblemon.species.scaldrip.desc1"
   ],
+  "height": 3,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "scaldrip_dousear",
@@ -110,31 +101,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 29
+          "minLevel": "29"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 4453,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 3,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

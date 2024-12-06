@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Lugnis",
-  "nationalPokedexNumber": 1765,
   "primaryType": "fire",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "blaze",
     "h:unnerve"
@@ -15,37 +21,18 @@
     "special_defence": 52,
     "speed": 50
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 64,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:scratch",
     "1:growl",
@@ -73,14 +60,18 @@
     "egg:flareblitz",
     "egg:focuspunch",
     "egg:metalclaw",
-    "egg:nastyplot"  ],
+    "egg:nastyplot"
+  ],
   "labels": [
     "opal",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.lugnis.desc"
+    "cobblemon.species.lugnis.desc1"
   ],
+  "height": 6,
+  "weight": 300,
+  "aspects": [],
   "evolutions": [
     {
       "id": "lugnis_luravit",
@@ -91,31 +82,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 16
+          "minLevel": "16"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 1765,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 6,
-  "weight": 300,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

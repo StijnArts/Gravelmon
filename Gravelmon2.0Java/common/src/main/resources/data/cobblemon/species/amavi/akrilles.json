@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Akrilles",
-  "nationalPokedexNumber": 7286,
   "primaryType": "water",
   "secondaryType": "fighting",
+  "catchRate": 70,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "silter",
+  "baseScale": 0.2333333333333333,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
   "baseStats": {
     "hp": 5,
     "attack": 180,
@@ -14,37 +22,18 @@
     "special_defence": 5,
     "speed": 150
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 70,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:tailwhip",
     "6:bubble",
@@ -61,7 +50,8 @@
     "40:hydropump",
     "44:headcharge",
     "50:focuspunch",
-    "61:closecombat"  ],
+    "61:closecombat"
+  ],
   "labels": [
     "amavi",
     "not_modeled",
@@ -69,28 +59,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.akrilles.desc"
+    "cobblemon.species.akrilles.desc1"
   ],
-  "preEvolution": "silter",
-  "baseScale": 0.2333333333333333,
+  "height": 14,
+  "weight": 0,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 7286,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 14,
-  "weight": 0,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

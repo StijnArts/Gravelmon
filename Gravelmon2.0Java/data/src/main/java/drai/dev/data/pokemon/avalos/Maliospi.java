@@ -24,7 +24,7 @@ public class Maliospi extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Maliospi are deadly hunters that can infest riverbanks. They will swim so quickly that they have often had their scales fall of their body from the speeds they travel in the water. They also don't sleep, and only get rest when they've fainted in battle."),
                 List.of(new EvolutionEntry("helsteteri", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.DARK_PULSE.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.DARK_PULSE.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_GUN,1),
                         new MoveLearnSetEntry(Move.SCRATCH,1),

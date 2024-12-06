@@ -20,7 +20,7 @@ public class DeltaElectabuzz extends Pokemon {
                 50, List.of(EggGroup.DELTA),
                 List.of("After midnight they can be seen congregating on rooftops. However, they always make sure to return to their original positions before morning."),
                 List.of(new EvolutionEntry("deltaelectivire", EvolutionType.LEVEL_UP, true, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"cobblemon:electirizer\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "cobblemon:electirizer")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.LEER,1),

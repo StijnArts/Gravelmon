@@ -26,7 +26,7 @@ public class Zenpole extends drai.dev.data.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("amphisage", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"\"type=psychic\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"type=psychic")))),
                 List.of(),
                 List.of(Label.ALDAO),
                 0, List.of(

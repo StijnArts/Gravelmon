@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Cosmoose",
-  "nationalPokedexNumber": 5664,
   "primaryType": "cosmic",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 231,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "astralf",
+  "baseScale": 0.2833333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "oblivious",
     "sapsipper",
@@ -16,37 +23,18 @@
     "special_defence": 86,
     "speed": 63
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 231,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:confusion",
     "5:kinesis",
@@ -59,7 +47,8 @@
     "33:calmmind",
     "37:psychic",
     "41:psychup",
-    "57:recover"  ],
+    "57:recover"
+  ],
   "labels": [
     "kuria",
     "not_modeled",
@@ -67,28 +56,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.cosmoose.desc"
+    "cobblemon.species.cosmoose.desc1"
   ],
-  "preEvolution": "astralf",
-  "baseScale": 0.2833333333333333,
+  "height": 17,
+  "weight": 971,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5664,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 17,
-  "weight": 971,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,12 +1,20 @@
 {
-  "implemented": true,
   "name": "Manna",
-  "nationalPokedexNumber": 7004,
   "primaryType": "psychic",
   "secondaryType": "fairy",
+  "catchRate": 45,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 225,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "sisanne",
+  "baseScale": 0.3,
+  "cannotDynamax": false,
   "abilities": [
     "oblivious",
-    "forewarn"  ],
+    "forewarn"
+  ],
   "baseStats": {
     "hp": 100,
     "attack": 60,
@@ -15,37 +23,18 @@
     "special_defence": 111,
     "speed": 69
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 2,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 225,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "human_like"
   ],
+  "drops": {},
   "moves": [
     "1:pound",
     "4:foresight",
@@ -94,7 +83,8 @@
     "tm:psychicterrain",
     "tm:fly",
     "tm:destinybond",
-    "tm:healpulse"  ],
+    "tm:healpulse"
+  ],
   "labels": [
     "atlas",
     "not_modeled",
@@ -102,28 +92,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.manna.desc"
+    "cobblemon.species.manna.desc1"
   ],
-  "preEvolution": "sisanne",
-  "baseScale": 0.3,
+  "height": 18,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 7004,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 2,
-    "speed": 0
-  },
-  "height": 18,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

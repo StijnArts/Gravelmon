@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Feegremin",
-  "nationalPokedexNumber": 5988,
   "primaryType": "dark",
   "secondaryType": "water",
+  "catchRate": 70,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "feefish",
+  "baseScale": 0.26666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "hypercutter",
     "h:skilllink"
@@ -16,38 +23,19 @@
     "special_defence": 82,
     "speed": 63
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 70,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "water_1",
     "water_2"
   ],
+  "drops": {},
   "moves": [
     "1:watersport",
     "7:supersonic",
@@ -60,7 +48,8 @@
     "50:skullbash",
     "57:powertrip",
     "tm:bodyslam",
-    "tm:pinmissile"  ],
+    "tm:pinmissile"
+  ],
   "labels": [
     "midamis",
     "not_modeled",
@@ -68,28 +57,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.feegremin.desc"
+    "cobblemon.species.feegremin.desc1"
   ],
-  "preEvolution": "feefish",
-  "baseScale": 0.26666666666666666,
+  "height": 16,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5988,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 16,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

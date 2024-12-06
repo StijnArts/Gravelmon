@@ -31,8 +31,8 @@ public class Balan extends drai.dev.data.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
             addAdditionalEvolution("absol", new EvolutionEntry("Balan", EvolutionType.LEVEL_UP, List.of(),
-                    List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.NIGHT_SLASH.getName()+"\""),
-                            new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.PLAY_ROUGH.getName()+"\""))));
+                    List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.NIGHT_SLASH.getName()),
+                            new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.PLAY_ROUGH.getName()))));
         setLangFileName("Balan");
     }
 

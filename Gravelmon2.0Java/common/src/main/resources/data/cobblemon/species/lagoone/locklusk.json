@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Locklusk",
-  "nationalPokedexNumber": 1560,
   "primaryType": "water",
   "secondaryType": "steel",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 123,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "clunch",
+  "baseScale": 0.15,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
   "baseStats": {
     "hp": 50,
     "attack": 70,
@@ -14,37 +22,18 @@
     "special_defence": 55,
     "speed": 50
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 90,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 123,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_3"
   ],
+  "drops": {},
   "moves": [
     "1:watergun",
     "1:harden",
@@ -66,7 +55,8 @@
     "47:scald",
     "51:flashcannon",
     "55:irondefense",
-    "59:hydropump"  ],
+    "59:hydropump"
+  ],
   "labels": [
     "lagoone",
     "not_modeled",
@@ -74,9 +64,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.locklusk.desc"
+    "cobblemon.species.locklusk.desc1"
   ],
-  "preEvolution": "clunch",
+  "height": 9,
+  "weight": 320,
+  "aspects": [],
   "evolutions": [
     {
       "id": "locklusk_bountyrant",
@@ -87,31 +79,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 40
+          "minLevel": "40"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.15,
+  "nationalPokedexNumber": 1560,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 9,
-  "weight": 320,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

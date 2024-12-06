@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Impifaun",
-  "nationalPokedexNumber": 1359,
   "primaryType": "fairy",
   "secondaryType": "fighting",
+  "catchRate": 35,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 180,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "impuck",
+  "baseScale": 0.31666666666666665,
+  "cannotDynamax": false,
   "abilities": [
     "superluck",
     "h:prankster"
@@ -16,47 +23,20 @@
     "special_defence": 100,
     "speed": 90
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 35,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 180,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "human_like",
     "fairy"
   ],
   "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "gravelmon:ocarina",
-        "quantityRange": "1-1",
-        "percentage": 40
-      }
-    ]
+    "amount": 1
   },
   "moves": [
     "1:confide",
@@ -131,7 +111,8 @@
     "tm:rocksmash",
     "tm:strength",
     "tm:followme",
-    "tm:closecombat"  ],
+    "tm:closecombat"
+  ],
   "labels": [
     "rica",
     "not_modeled",
@@ -139,28 +120,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.impifaun.desc"
+    "cobblemon.species.impifaun.desc1"
   ],
-  "preEvolution": "impuck",
-  "baseScale": 0.31666666666666665,
+  "height": 19,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1359,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 19,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

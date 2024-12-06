@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Pachibrik",
-  "nationalPokedexNumber": 4395,
   "primaryType": "ice",
   "secondaryType": "normal",
+  "catchRate": 180,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.18333333333333335,
+  "cannotDynamax": false,
   "abilities": [
     "thickfat",
     "h:noguard"
@@ -16,38 +22,19 @@
     "special_defence": 83,
     "speed": 16
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 180,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "monster",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:protect",
     "1:lightscreen",
@@ -60,14 +47,18 @@
     "1:reflect",
     "1:powdersnow",
     "1:bodyslam",
-    "1:bulldoze"  ],
+    "1:bulldoze"
+  ],
   "labels": [
     "crozoic",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.pachibrik.desc"
+    "cobblemon.species.pachibrik.desc1"
   ],
+  "height": 11,
+  "weight": 1000,
+  "aspects": [],
   "evolutions": [
     {
       "id": "pachibrik_pachicorn",
@@ -78,31 +69,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 30
+          "minLevel": "30"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.18333333333333335,
+  "nationalPokedexNumber": 4395,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 11,
-  "weight": 1000,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -25,7 +25,7 @@ public class Chrystalis extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.BUG),
                 List.of("Pupentre live high up in the trees of thick canopies and reflect light in a wide variety of colors, resembling a chandelier. Their lights will attract prey for them to eat, and also confuse predators that might want to eat them."),
                 List.of(new EvolutionEntry("crysteavenly", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_MAGICAL.getId() + ":" + Biome.IS_MAGICAL.getName() +"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_MAGICAL.getId() + ":" + Biome.IS_MAGICAL.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.REFLECT,1),
                         new MoveLearnSetEntry(Move.STRING_SHOT,4),

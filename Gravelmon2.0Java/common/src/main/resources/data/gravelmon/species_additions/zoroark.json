@@ -1,244 +1,260 @@
 {
-   "target": "cobblemon:zoroark",
-   "forms": [{
-  "name": "Epoch",
-  "primaryType": "ice",
-  "secondaryType": "dark",
-  "abilities": [
-    "snowcloak",
-    "moxie",
-    "h:anticipation"
-  ],
-  "baseStats": {
-    "hp": 70,
-    "attack": 115,
-    "defence": 60,
-    "special_attack": 115,
-    "special_defence": 90,
-    "speed": 60
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+  "target": "cobblemon:zoroark",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "ice",
+      "secondaryType": "dark",
+      "catchRate": 100,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 179,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.26666666666666666,
+      "cannotDynamax": false,
+      "abilities": [
+        "snowcloak",
+        "moxie",
+        "h:anticipation"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 115,
+        "defence": 60,
+        "special_attack": 115,
+        "special_defence": 90,
+        "speed": 60
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "29:nightslash",
+        "58:honeclaws",
+        "1:leer",
+        "1:scratch",
+        "21:bite",
+        "33:icepunch",
+        "37:slash",
+        "45:iciclecrash",
+        "41:crunch",
+        "5:pursuit",
+        "13:snarl",
+        "17:icefang",
+        "1:iceshard",
+        "49:playrough",
+        "25:scaryface",
+        "tm:attract",
+        "tm:blizzard",
+        "tm:charm",
+        "tm:crunch",
+        "tm:darkpulse",
+        "tm:dragonclaw",
+        "tm:dragondance",
+        "tm:echoedvoice",
+        "tm:falseswipe",
+        "tm:firefang",
+        "tm:furycutter",
+        "tm:hail",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:icebeam",
+        "tm:icefang",
+        "tm:icepunch",
+        "tm:iciclespear",
+        "tm:icywind",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:memento",
+        "tm:mist",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:return",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:toxic",
+        "tm:tripleaxel",
+        "tm:workup",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochzoroark.desc1"
+      ],
+      "height": 16,
+      "weight": 811,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
-    }
-  },
-  "catchRate": 100,
-  "shoulderMountable": false,
-  "baseExperienceYield": 179,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "29:nightslash",
-    "58:honeclaws",
-    "1:leer",
-    "1:scratch",
-    "21:bite",
-    "33:icepunch",
-    "37:slash",
-    "45:iciclecrash",
-    "41:crunch",
-    "5:pursuit",
-    "13:snarl",
-    "17:icefang",
-    "1:iceshard",
-    "49:playrough",
-    "25:scaryface",
-    "tm:attract",
-    "tm:blizzard",
-    "tm:charm",
-    "tm:crunch",
-    "tm:darkpulse",
-    "tm:dragonclaw",
-    "tm:dragondance",
-    "tm:echoedvoice",
-    "tm:falseswipe",
-    "tm:firefang",
-    "tm:furycutter",
-    "tm:hail",
-    "tm:hiddenpower",
-    "tm:hypervoice",
-    "tm:icebeam",
-    "tm:icefang",
-    "tm:icepunch",
-    "tm:iciclespear",
-    "tm:icywind",
-    "tm:ironhead",
-    "tm:knockoff",
-    "tm:lashout",
-    "tm:memento",
-    "tm:mist",
-    "tm:nastyplot",
-    "tm:nobleroar",
-    "tm:phantomforce",
-    "tm:playrough",
-    "tm:poweruppunch",
-    "tm:protect",
-    "tm:psychicfangs",
-    "tm:rest",
-    "tm:return",
-    "tm:shadowball",
-    "tm:shadowpunch",
-    "tm:sleeptalk",
-    "tm:snarl",
-    "tm:swordsdance",
-    "tm:taunt",
-    "tm:toxic",
-    "tm:tripleaxel",
-    "tm:workup",
-    "tm:zenheadbutt"  ],
-  "labels": [
-    "soulstones",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.epochzoroark.desc"
-  ],
-  "baseScale": 0.26666666666666666,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 16,
-  "weight": 811,
-  "aspects": ["epoch"],
-  "cannotDynamax": false
-},
-{
-  "name": "Mythian",
-  "primaryType": "fire",
-  "abilities": [
-    "illusion",
-    "h:flamebody"
-  ],
-  "baseStats": {
-    "hp": 60,
-    "attack": 105,
-    "defence": 60,
-    "special_attack": 60,
-    "special_defence": 120,
-    "speed": 105
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     },
-    "moving": {
-        "fly": {
-            "canFly": false
+    {
+      "name": "Mythian",
+      "primaryType": "fire",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 179,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "zorua form\u003dmythian",
+      "baseScale": 0.26666666666666666,
+      "cannotDynamax": false,
+      "abilities": [
+        "illusion",
+        "h:flamebody"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 105,
+        "defence": 60,
+        "special_attack": 60,
+        "special_defence": 120,
+        "speed": 105
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 2,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:scratch",
+        "1:leer",
+        "4:torment",
+        "8:ember",
+        "12:flamewheel",
+        "16:willowisp",
+        "20:taunt",
+        "24:firefang",
+        "28:overheat",
+        "32:flamethrower",
+        "36:earthquake",
+        "40:fireblast",
+        "44:nastyplot",
+        "48:facade",
+        "56:flareblitz",
+        "65:hyperbeam",
+        "78:substitute",
+        "egg:snatch",
+        "egg:stockpile",
+        "egg:furyswipes",
+        "egg:counter",
+        "egg:reversal",
+        "egg:uproar",
+        "egg:swallow",
+        "egg:mefirst",
+        "egg:revenge",
+        "egg:finalgambit",
+        "egg:switcheroo"
+      ],
+      "labels": [
+        "gen5",
+        "myth",
+        "not_modeled",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.mythianzoroark.desc1"
+      ],
+      "height": 16,
+      "weight": 811,
+      "aspects": [
+        "mythian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     }
-  },
-  "catchRate": 45,
-  "shoulderMountable": false,
-  "baseExperienceYield": 179,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
   ],
-  "moves": [
-    "1:scratch",
-    "1:leer",
-    "4:torment",
-    "8:ember",
-    "12:flamewheel",
-    "16:willowisp",
-    "20:taunt",
-    "24:firefang",
-    "28:overheat",
-    "32:flamethrower",
-    "36:earthquake",
-    "40:fireblast",
-    "44:nastyplot",
-    "48:facade",
-    "56:flareblitz",
-    "65:hyperbeam",
-    "78:substitute",
-    "egg:snatch",
-    "egg:stockpile",
-    "egg:furyswipes",
-    "egg:counter",
-    "egg:reversal",
-    "egg:uproar",
-    "egg:swallow",
-    "egg:mefirst",
-    "egg:revenge",
-    "egg:finalgambit",
-    "egg:switcheroo"  ],
-  "labels": [
-    "gen5",
-    "myth",
-    "not_modeled",
-    "fakemonevolution"
-  ],
-  "pokedex": [
-    "cobblemon.species.mythianzoroark.desc"
-  ],
-  "preEvolution": "zorua form=mythian",
-  "baseScale": 0.26666666666666666,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 2,
-    "speed": 0
-  },
-  "height": 16,
-  "weight": 811,
-  "aspects": ["mythian"],
-  "cannotDynamax": false
-}
-], "features": [
-"epoch",
-"mythian"
+  "features": [
+    "epoch",
+    "mythian"
   ]
 }

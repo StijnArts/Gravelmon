@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Platikhao",
-  "nationalPokedexNumber": 1101,
   "primaryType": "fighting",
   "secondaryType": "poison",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 173,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "platypow",
+  "baseScale": 0.21666666666666667,
+  "cannotDynamax": false,
   "abilities": [
-    "poisontouch"  ],
+    "poisontouch"
+  ],
   "baseStats": {
     "hp": 70,
     "attack": 112,
@@ -14,38 +22,21 @@
     "special_defence": 85,
     "speed": 83
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 90,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 173,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field",
     "water_1"
   ],
+  "drops": {
+    "amount": 2
+  },
   "moves": [
     "1:reversal",
     "1:rollingkick",
@@ -139,7 +130,8 @@
     "egg:slam",
     "egg:smellingsalts",
     "egg:thrash",
-    "egg:tailslap"  ],
+    "egg:tailslap"
+  ],
   "labels": [
     "sage",
     "not_modeled",
@@ -147,28 +139,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.platikhao.desc"
+    "cobblemon.species.platikhao.desc1"
   ],
-  "preEvolution": "platypow",
-  "baseScale": 0.21666666666666667,
+  "height": 13,
+  "weight": 501,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1101,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 13,
-  "weight": 501,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

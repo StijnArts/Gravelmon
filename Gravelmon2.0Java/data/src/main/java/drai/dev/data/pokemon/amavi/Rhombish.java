@@ -25,7 +25,7 @@ public class Rhombish extends drai.dev.data.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("javelady", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=female\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=female")))),
                 List.of(         new MoveLearnSetEntry(Move.FAKE_TEARS,1),
                         new MoveLearnSetEntry(Move.BIDE,4),
                         new MoveLearnSetEntry(Move.LOW_KICK,8),

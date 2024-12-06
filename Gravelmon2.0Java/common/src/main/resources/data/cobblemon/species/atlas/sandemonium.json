@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Sandemonium",
-  "nationalPokedexNumber": 7107,
   "primaryType": "rock",
   "secondaryType": "dark",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 241,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "sandevil",
+  "baseScale": 0.4666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "roughskin",
     "defiant",
@@ -17,38 +24,19 @@
     "special_defence": 89,
     "speed": 41
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 241,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field",
     "dragon"
   ],
+  "drops": {},
   "moves": [
     "1:scratch",
     "3:sandattack",
@@ -112,7 +100,8 @@
     "tm:nightslash",
     "tm:agility",
     "tm:outrage",
-    "tm:magnitude"  ],
+    "tm:magnitude"
+  ],
   "labels": [
     "atlas",
     "not_modeled",
@@ -120,28 +109,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.sandemonium.desc"
+    "cobblemon.species.sandemonium.desc1"
   ],
-  "preEvolution": "sandevil",
-  "baseScale": 0.4666666666666666,
+  "height": 28,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 7107,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 3,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 28,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

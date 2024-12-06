@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Caltarcite",
-  "nationalPokedexNumber": 4449,
   "primaryType": "rock",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 175,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "altarock",
+  "baseScale": 0.21666666666666667,
+  "cannotDynamax": false,
   "abilities": [
     "rockhead",
     "sturdy",
@@ -16,37 +23,18 @@
     "special_defence": 80,
     "speed": 45
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 175,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:defensecurl",
     "9:mudsport",
@@ -103,7 +91,8 @@
     "tm:toxic",
     "tm:willowisp",
     "tm:workup",
-    "tm:wideguard"  ],
+    "tm:wideguard"
+  ],
   "labels": [
     "lonava",
     "not_modeled",
@@ -111,28 +100,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.caltarcite.desc"
+    "cobblemon.species.caltarcite.desc1"
   ],
-  "preEvolution": "altarock",
-  "baseScale": 0.21666666666666667,
+  "height": 13,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 4449,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 13,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

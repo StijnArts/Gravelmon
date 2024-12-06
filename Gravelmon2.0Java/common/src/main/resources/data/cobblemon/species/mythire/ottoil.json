@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Ottoil",
-  "nationalPokedexNumber": 5169,
   "primaryType": "poison",
+  "catchRate": 230,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 59,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.11666666666666665,
+  "cannotDynamax": false,
   "abilities": [
     "damp",
     "strongjaw",
@@ -16,37 +22,18 @@
     "special_defence": 50,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 230,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 59,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:poisongas",
     "1:scratch",
@@ -63,14 +50,18 @@
     "33:memento",
     "36:nightslash",
     "39:belch",
-    "42:explosion"  ],
+    "42:explosion"
+  ],
   "labels": [
     "mythire",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.ottoil.desc"
+    "cobblemon.species.ottoil.desc1"
   ],
+  "height": 7,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "ottoil_slithotter",
@@ -81,31 +72,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 28
+          "minLevel": "28"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.11666666666666665,
+  "nationalPokedexNumber": 5169,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 7,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

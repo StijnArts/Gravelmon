@@ -25,7 +25,7 @@ public class Anglow extends drai.dev.data.pokemon.Pokemon {
                 List.of("While Anglow's teeth look like they are for biting, they're actually a defense machanism. Not only does the intimidation often scare opponents, it's also extremely useful as the teeth are as hard as diamond, making it so that Anglow can block incoming attacks with it."),
                 List.of(new EvolutionEntry("alluard", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"44"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "night")))),
                 List.of(             new MoveLearnSetEntry(Move.NIGHT_SHADE,1),
                         new MoveLearnSetEntry(Move.TELEPORT,1),
                         new MoveLearnSetEntry(Move.ASTONISH,1),

@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Ninfae",
-  "nationalPokedexNumber": 1256,
   "primaryType": "grass",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 163,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "meadew",
+  "baseScale": 0.2333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "overgrow",
     "h:chlorophyll"
@@ -15,38 +22,19 @@
     "special_defence": 70,
     "speed": 75
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 163,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "monster",
     "grass"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "3:growl",
@@ -78,7 +66,8 @@
     "egg:petaldance",
     "egg:powerwhip",
     "egg:skullbash",
-    "egg:sludge"  ],
+    "egg:sludge"
+  ],
   "labels": [
     "realidea_system",
     "not_modeled",
@@ -86,9 +75,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.ninfae.desc"
+    "cobblemon.species.ninfae.desc1"
   ],
-  "preEvolution": "meadew",
+  "height": 14,
+  "weight": 330,
+  "aspects": [],
   "evolutions": [
     {
       "id": "ninfae_faeuna",
@@ -99,31 +90,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 34
+          "minLevel": "34"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.2333333333333333,
+  "nationalPokedexNumber": 1256,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 14,
-  "weight": 330,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

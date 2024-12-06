@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Grizzwave",
-  "nationalPokedexNumber": 5577,
   "primaryType": "sound",
   "secondaryType": "dark",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 200,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "raccoustic",
+  "baseScale": 0.2333333333333333,
+  "cannotDynamax": false,
   "abilities": [
-    "competitive"  ],
+    "competitive"
+  ],
   "baseStats": {
     "hp": 90,
     "attack": 100,
@@ -14,37 +22,18 @@
     "special_defence": 70,
     "speed": 130
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 200,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:tailwind",
     "1:shockwave",
@@ -61,7 +50,8 @@
     "38:thunderbolt",
     "46:hurricane",
     "54:overdrive",
-    "62:boomburst"  ],
+    "62:boomburst"
+  ],
   "labels": [
     "kuria",
     "not_modeled",
@@ -69,28 +59,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.grizzwave.desc"
+    "cobblemon.species.grizzwave.desc1"
   ],
-  "preEvolution": "raccoustic",
-  "baseScale": 0.2333333333333333,
+  "height": 14,
+  "weight": 182,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5577,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 3
-  },
-  "height": 14,
-  "weight": 182,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

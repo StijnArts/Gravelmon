@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Burrmudail",
-  "nationalPokedexNumber": 1047,
   "primaryType": "ice",
   "secondaryType": "flying",
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 167,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "bluffin",
+  "baseScale": 0.8,
+  "cannotDynamax": false,
   "abilities": [
     "keeneye",
     "iceslick",
@@ -17,37 +24,20 @@
     "special_defence": 70,
     "speed": 120
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 75,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 167,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "flying"
   ],
+  "drops": {
+    "amount": 2
+  },
   "moves": [
     "1:haze",
     "1:pound",
@@ -118,35 +108,51 @@
     "egg:psychup",
     "egg:skyattack",
     "egg:weatherball",
-    "egg:whirlwind"  ],
+    "egg:whirlwind"
+  ],
   "labels": [
     "sage",
     "fakemon",
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.burrmudail.desc"
+    "cobblemon.species.burrmudail.desc1"
   ],
-  "preEvolution": "bluffin",
-  "baseScale": 0.8,
+  "height": 14,
+  "weight": 244,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1047,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 1.0,
     "height": 0.8,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 14,
-  "weight": 244,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

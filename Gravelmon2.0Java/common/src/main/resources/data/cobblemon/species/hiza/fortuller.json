@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Fortuller",
-  "nationalPokedexNumber": 2975,
   "primaryType": "bug",
   "secondaryType": "psychic",
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.13333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "infiltrator",
     "h:forewarn"
@@ -16,37 +22,18 @@
     "special_defence": 100,
     "speed": 15
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 190,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 64,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:confusion",
     "1:defensecurl",
@@ -63,14 +50,18 @@
     "40:powerswap",
     "40:speedswap",
     "45:bugbuzz",
-    "50:psychic"  ],
+    "50:psychic"
+  ],
   "labels": [
     "hiza",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.fortuller.desc"
+    "cobblemon.species.fortuller.desc1"
   ],
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "fortuller_mysteele",
@@ -81,31 +72,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 30
+          "minLevel": "30"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.13333333333333333,
+  "nationalPokedexNumber": 2975,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 8,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

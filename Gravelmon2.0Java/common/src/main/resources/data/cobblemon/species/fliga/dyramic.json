@@ -1,12 +1,20 @@
 {
-  "implemented": true,
   "name": "Dyramic",
-  "nationalPokedexNumber": 5315,
   "primaryType": "grass",
   "secondaryType": "fighting",
+  "catchRate": 70,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 173,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "sproutle",
+  "baseScale": 0.25,
+  "cannotDynamax": false,
   "abilities": [
     "solidrock",
-    "ironfist"  ],
+    "ironfist"
+  ],
   "baseStats": {
     "hp": 93,
     "attack": 105,
@@ -15,38 +23,19 @@
     "special_defence": 93,
     "speed": 30
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 70,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 173,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "grass",
     "monster"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "1:harden",
@@ -89,7 +78,8 @@
     "tm:protect",
     "tm:shellsmash",
     "tm:woodhammer",
-    "tm:bodypress"  ],
+    "tm:bodypress"
+  ],
   "labels": [
     "fliga",
     "not_modeled",
@@ -97,28 +87,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.dyramic.desc"
+    "cobblemon.species.dyramic.desc1"
   ],
-  "preEvolution": "sproutle",
-  "baseScale": 0.25,
+  "height": 15,
+  "weight": 815,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5315,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 15,
-  "weight": 815,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

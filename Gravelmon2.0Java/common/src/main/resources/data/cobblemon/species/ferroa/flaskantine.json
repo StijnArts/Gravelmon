@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Flaskantine",
-  "nationalPokedexNumber": 1855,
   "primaryType": "poison",
   "secondaryType": "ice",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 175,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "germuck",
+  "baseScale": 0.16666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "liquidooze",
     "h:refrigerate"
@@ -16,37 +23,18 @@
     "special_defence": 55,
     "speed": 113
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 175,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "amorphous"
   ],
+  "drops": {},
   "moves": [
     "1:bind",
     "5:poisongas",
@@ -131,7 +119,8 @@
     "tm:scaryface",
     "tm:astonish",
     "tm:mudsport",
-    "tm:mudbomb"  ],
+    "tm:mudbomb"
+  ],
   "labels": [
     "ferroa",
     "not_modeled",
@@ -139,28 +128,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.flaskantine.desc"
+    "cobblemon.species.flaskantine.desc1"
   ],
-  "preEvolution": "germuck",
-  "baseScale": 0.16666666666666666,
+  "height": 10,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1855,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 10,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

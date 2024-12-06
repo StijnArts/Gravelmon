@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Shawkbird",
-  "nationalPokedexNumber": 2190,
   "primaryType": "electric",
   "secondaryType": "flying",
+  "catchRate": 125,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 108,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 32,
+  "baseFriendship": 70,
+  "preEvolution": "sparkowl",
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "bigpecks",
     "static",
@@ -17,37 +24,18 @@
     "special_defence": 54,
     "speed": 68
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 125,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 108,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 32,
   "eggGroups": [
     "flying"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "1:growl",
@@ -101,7 +89,8 @@
     "tutor:sleeptalk",
     "tutor:snore",
     "tutor:steelwing",
-    "tutor:tailwind"  ],
+    "tutor:tailwind"
+  ],
   "labels": [
     "xenoverse",
     "not_modeled",
@@ -109,9 +98,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.shawkbird.desc"
+    "cobblemon.species.shawkbird.desc1"
   ],
-  "preEvolution": "sparkowl",
+  "height": 5,
+  "weight": 55,
+  "aspects": [],
   "evolutions": [
     {
       "id": "shawkbird_harrowk",
@@ -122,31 +113,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 34
+          "minLevel": "34"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 2190,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 5,
-  "weight": 55,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

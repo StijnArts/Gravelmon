@@ -32,7 +32,7 @@ public class RaianianLucario extends drai.dev.data.pokemon.Pokemon {
            setLangFileName("Lucario");
             addAdditionalEvolution("riolu", new EvolutionEntry("raianianlucario", EvolutionType.LEVEL_UP, List.of(),
                     List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"220"),
-                            new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_NETHER.getId() + ":" + Biome.IS_NETHER.getName() +"\""))));
+                            new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_NETHER.getId() + ":" + Biome.IS_NETHER.getName()))));
     }
 
 

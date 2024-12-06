@@ -1,5 +1,5 @@
 {
-   "target": "cobblemon:indeedee",
+  "target": "cobblemon:indeedee",
   "evolutions": [
     {
       "id": "indeedee_parlomai",
@@ -10,13 +10,13 @@
       "requirements": [
         {
           "variant": "properties",
-          "target": "gender=female",
+          "target": "gender\u003dfemale",
           "contains": true
         }
       ],
       "requiredContext": "cobblemon:room_service",
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "indeedee_valevant",
       "variant": "item_interact",
@@ -26,179 +26,176 @@
       "requirements": [
         {
           "variant": "properties",
-          "target": "gender=male",
+          "target": "gender\u003dmale",
           "contains": true
         }
       ],
       "requiredContext": "cobblemon:room_service",
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
   "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "cobblemon:room_service",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "cobblemon:room_service",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-      },
-   "forms": [{
-  "name": "Epoch",
-  "primaryType": "poison",
-  "abilities": [
-    "stench",
-    "poisontouch",
-    "h:aftermath"
-  ],
-  "baseStats": {
-    "hp": 60,
-    "attack": 45,
-    "defence": 55,
-    "special_attack": 95,
-    "special_defence": 125,
-    "speed": 95
+    "amount": 3
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "poison",
+      "catchRate": 80,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 166,
+      "experienceGroup": "fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.15,
+      "cannotDynamax": false,
+      "abilities": [
+        "stench",
+        "poisontouch",
+        "h:aftermath"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 45,
+        "defence": 55,
+        "special_attack": 95,
+        "special_defence": 125,
+        "speed": 95
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy"
+      ],
+      "drops": {},
+      "moves": [
+        "1:corrosivegas",
+        "10:fling",
+        "1:acid",
+        "15:venoshock",
+        "25:gastroacid",
+        "35:obstruct",
+        "55:toxic",
+        "60:acidrain",
+        "50:sludgewave",
+        "45:sludgebomb",
+        "40:acidarmor",
+        "5:sludge",
+        "30:corrode",
+        "tm:acidrain",
+        "tm:attract",
+        "tm:bounce",
+        "tm:charm",
+        "tm:coaching",
+        "tm:confuseray",
+        "tm:corrosivegas",
+        "tm:cosmicpower",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:drainingkiss",
+        "tm:earthpower",
+        "tm:echoedvoice",
+        "tm:falseswipe",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:gastroacid",
+        "tm:geomancy",
+        "tm:gunkshot",
+        "tm:haze",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:meteorbeam",
+        "tm:metronome",
+        "tm:mist",
+        "tm:mistyterrain",
+        "tm:mudslide",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:psychicterrain",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snarl",
+        "tm:spikes",
+        "tm:substitute",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:mudshot",
+        "egg:mudslide",
+        "egg:muddywater"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochindeedee.desc1"
+      ],
+      "height": 9,
+      "weight": 280,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     }
-  },
-  "catchRate": 80,
-  "shoulderMountable": false,
-  "baseExperienceYield": 166,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "fairy"
   ],
-  "moves": [
-    "1:corrosivegas",
-    "10:fling",
-    "1:acid",
-    "15:venoshock",
-    "25:gastroacid",
-    "35:obstruct",
-    "55:toxic",
-    "60:acidrain",
-    "50:sludgewave",
-    "45:sludgebomb",
-    "40:acidarmor",
-    "5:sludge",
-    "30:corrode",
-    "tm:acidrain",
-    "tm:attract",
-    "tm:bounce",
-    "tm:charm",
-    "tm:coaching",
-    "tm:confuseray",
-    "tm:corrosivegas",
-    "tm:cosmicpower",
-    "tm:crunch",
-    "tm:curse",
-    "tm:darkpulse",
-    "tm:drainingkiss",
-    "tm:earthpower",
-    "tm:echoedvoice",
-    "tm:falseswipe",
-    "tm:focusblast",
-    "tm:gammaray",
-    "tm:gastroacid",
-    "tm:geomancy",
-    "tm:gunkshot",
-    "tm:haze",
-    "tm:hex",
-    "tm:hiddenpower",
-    "tm:knockoff",
-    "tm:lashout",
-    "tm:meteorbeam",
-    "tm:metronome",
-    "tm:mist",
-    "tm:mistyterrain",
-    "tm:mudslide",
-    "tm:nastyplot",
-    "tm:phantomforce",
-    "tm:playrough",
-    "tm:poisonfang",
-    "tm:poisonjab",
-    "tm:poltergeist",
-    "tm:possession",
-    "tm:protect",
-    "tm:psychicfangs",
-    "tm:psychicterrain",
-    "tm:rest",
-    "tm:return",
-    "tm:round",
-    "tm:safeguard",
-    "tm:shadowball",
-    "tm:shadowpunch",
-    "tm:sleeptalk",
-    "tm:sludgebomb",
-    "tm:sludgewave",
-    "tm:snarl",
-    "tm:spikes",
-    "tm:substitute",
-    "tm:taunt",
-    "tm:terrainpulse",
-    "tm:toxic",
-    "tm:toxicspikes",
-    "tm:wish",
-    "tm:workup",
-    "tm:zenheadbutt",
-    "egg:mudshot",
-    "egg:mudslide",
-    "egg:muddywater"  ],
-  "labels": [
-    "soulstones",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.epochindeedee.desc"
-  ],
-  "baseScale": 0.15,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 9,
-  "weight": 280,
-  "aspects": ["epoch"],
-  "cannotDynamax": false
-}
-], "features": [
-"epoch"
+  "features": [
+    "epoch"
   ]
 }

@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Dumpback",
-  "nationalPokedexNumber": 6870,
   "primaryType": "water",
   "secondaryType": "poison",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 185,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "puriphin",
+  "baseScale": 1.2,
+  "cannotDynamax": false,
   "abilities": [
     "clearbody",
     "h:filter"
@@ -16,38 +23,18 @@
     "special_defence": 85,
     "speed": 59
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canWalkOnWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 185,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_2"
   ],
+  "drops": {},
   "moves": [
     "1:mudsport",
     "8:watergun",
@@ -130,7 +117,8 @@
     "tm:bubble",
     "tm:helpinghand",
     "tm:mudshot",
-    "tm:slam"  ],
+    "tm:slam"
+  ],
   "labels": [
     "novrai",
     "not_modeled",
@@ -138,28 +126,44 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.dumpback.desc"
+    "cobblemon.species.dumpback.desc1"
   ],
-  "preEvolution": "puriphin",
-  "baseScale": 1.2,
+  "height": 72,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6870,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true,
+        "canWalkOnWater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 72,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

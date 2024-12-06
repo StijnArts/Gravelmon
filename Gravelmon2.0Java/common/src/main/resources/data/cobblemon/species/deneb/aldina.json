@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Aldina",
-  "nationalPokedexNumber": 6214,
   "primaryType": "ghost",
+  "catchRate": 3,
+  "maleRatio": -1.0,
+  "baseExperienceYield": 215,
+  "experienceGroup": "slow",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "insomnia",
     "h:synchronize"
@@ -15,37 +21,18 @@
     "special_defence": 100,
     "speed": 100
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
   },
-  "catchRate": 3,
-  "maleRatio": -1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 215,
-  "experienceGroup": "slow",
-  "eggCycles": 100,
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {},
   "moves": [
     "1:confuseray",
     "1:astonish",
@@ -90,15 +77,19 @@
     "tutor:rest",
     "tutor:toxic",
     "tutor:nastyplot",
-    "tutor:bugnoise"  ],
+    "tutor:bugnoise"
+  ],
   "labels": [
     "vega",
     "mythical",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.aldina.desc"
+    "cobblemon.species.aldina.desc1"
   ],
+  "height": 3,
+  "weight": 3,
+  "aspects": [],
   "evolutions": [
     {
       "id": "aldina_almaria",
@@ -109,31 +100,43 @@
       "requirements": [
         {
           "variant": "friendship",
-          "amount": 220
+          "amount": "220"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 6214,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 3
-  },
-  "height": 3,
-  "weight": 3,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

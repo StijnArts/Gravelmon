@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Virilis",
-  "nationalPokedexNumber": 2459,
   "primaryType": "grass",
   "secondaryType": "fairy",
+  "catchRate": 127,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "petiolis",
+  "baseScale": 0.16666666666666666,
+  "cannotDynamax": false,
   "abilities": [
-    "clearbody"  ],
+    "clearbody"
+  ],
   "baseStats": {
     "hp": 75,
     "attack": 54,
@@ -14,44 +22,26 @@
     "special_defence": 87,
     "speed": 83
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 127,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "18:leaftornado",
     "32:gigadrain",
     "28:magicalleaf",
     "20:drainingkiss",
     "36:dazzlinggleam",
-    "24:psybeam"  ],
+    "24:psybeam"
+  ],
   "labels": [
     "africanus",
     "not_modeled",
@@ -59,9 +49,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.virilis.desc"
+    "cobblemon.species.virilis.desc1"
   ],
-  "preEvolution": "petiolis",
+  "height": 10,
+  "weight": 370,
+  "aspects": [],
   "evolutions": [
     {
       "id": "virilis_lupercalis",
@@ -72,31 +64,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 35
+          "minLevel": "35"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.16666666666666666,
+  "nationalPokedexNumber": 2459,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 10,
-  "weight": 370,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Platypull",
-  "nationalPokedexNumber": 6689,
   "primaryType": "electric",
+  "catchRate": 220,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 49,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "magnetpull",
     "h:surgesurfer"
@@ -15,38 +21,19 @@
     "special_defence": 40,
     "speed": 34
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 220,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 49,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field",
     "water_1"
   ],
+  "drops": {},
   "moves": [
     "1:thundershock",
     "4:watersport",
@@ -118,14 +105,18 @@
     "tm:risingvoltage",
     "tm:dig",
     "tm:mudshot",
-    "tm:eggbomb"  ],
+    "tm:eggbomb"
+  ],
   "labels": [
     "novrai",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.platypull.desc"
+    "cobblemon.species.platypull.desc1"
   ],
+  "height": 4,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "platypull_magnetreme",
@@ -139,28 +130,40 @@
           "itemCondition": "cobblemon:metal_coat"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 6689,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 4,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

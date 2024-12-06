@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Muertapoise",
-  "nationalPokedexNumber": 4998,
   "primaryType": "water",
   "secondaryType": "ghost",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 147,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "modelfin",
+  "baseScale": 0.26666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "torrent",
     "h:cursedbody"
@@ -16,38 +23,19 @@
     "special_defence": 110,
     "speed": 84
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 147,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_1",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:shadowsneak",
     "1:destinybond",
@@ -120,7 +108,8 @@
     "tutor:trick",
     "tutor:icepunch",
     "tutor:liquidation",
-    "tutor:skillswap"  ],
+    "tutor:skillswap"
+  ],
   "labels": [
     "umbra",
     "not_modeled",
@@ -128,28 +117,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.muertapoise.desc"
+    "cobblemon.species.muertapoise.desc1"
   ],
-  "preEvolution": "modelfin",
-  "baseScale": 0.26666666666666666,
+  "height": 16,
+  "weight": 306,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 4998,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 16,
-  "weight": 306,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

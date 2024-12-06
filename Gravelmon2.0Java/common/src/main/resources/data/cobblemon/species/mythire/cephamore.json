@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Cephamore",
-  "nationalPokedexNumber": 5188,
   "primaryType": "poison",
   "secondaryType": "psychic",
+  "catchRate": 220,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 58,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "cutecharm",
     "suctioncups",
@@ -17,50 +23,35 @@
     "special_defence": 55,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 220,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 58,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "dragon",
     "water_3"
   ],
+  "drops": {},
   "moves": [
     "1:helpinghand",
     "1:allyswitch",
     "1:charm",
-    "1:constrict"  ],
+    "1:constrict"
+  ],
   "labels": [
     "mythire",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.cephamore.desc"
+    "cobblemon.species.cephamore.desc1"
   ],
+  "height": 2,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "cephamore_casanauta",
@@ -71,16 +62,16 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 18
+          "minLevel": "18"
         },
         {
           "variant": "properties",
-          "target": "gender=male",
+          "target": "gender\u003dmale",
           "contains": true
         }
       ],
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "cephamore_sirenara",
       "variant": "level_up",
@@ -90,36 +81,48 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 28
+          "minLevel": "28"
         },
         {
           "variant": "properties",
-          "target": "gender=female",
+          "target": "gender\u003dfemale",
           "contains": true
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 5188,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 2,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

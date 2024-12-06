@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Polykelp",
-  "nationalPokedexNumber": 1522,
   "primaryType": "water",
   "secondaryType": "electric",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "polynett form\u003ddhioman",
+  "baseScale": 0.35000000000000003,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
   "baseStats": {
     "hp": 85,
     "attack": 105,
@@ -14,37 +22,18 @@
     "special_defence": 81,
     "speed": 73
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:constrict",
     "5:supersonic",
@@ -96,7 +85,8 @@
     "tm:toxic",
     "tm:electricterrain",
     "tm:rapidspin",
-    "tm:soak"  ],
+    "tm:soak"
+  ],
   "labels": [
     "dhiome",
     "not_modeled",
@@ -104,28 +94,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.polykelp.desc"
+    "cobblemon.species.polykelp.desc1"
   ],
-  "preEvolution": "polynett form=dhioman",
-  "baseScale": 0.35000000000000003,
+  "height": 21,
+  "weight": 0,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1522,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 21,
-  "weight": 0,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

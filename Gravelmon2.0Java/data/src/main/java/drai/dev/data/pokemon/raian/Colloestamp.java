@@ -19,9 +19,9 @@ public class Colloestamp extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of(""),
                 List.of(new EvolutionEntry("Doomonic", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"\"Poltamp\""),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"\"Farstamp\""),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"\"Finstamp\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"Poltamp"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"Farstamp"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"Finstamp")))),
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(

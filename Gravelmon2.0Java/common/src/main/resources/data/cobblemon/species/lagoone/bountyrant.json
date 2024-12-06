@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Bountyrant",
-  "nationalPokedexNumber": 1561,
   "primaryType": "water",
   "secondaryType": "steel",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 260,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "locklusk",
+  "baseScale": 0.2333333333333333,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
   "baseStats": {
     "hp": 70,
     "attack": 90,
@@ -14,37 +22,18 @@
     "special_defence": 80,
     "speed": 65
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 3,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 260,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_3"
   ],
+  "drops": {},
   "moves": [
     "1:watergun",
     "1:harden",
@@ -66,7 +55,8 @@
     "47:scald",
     "51:flashcannon",
     "55:irondefense",
-    "59:hydropump"  ],
+    "59:hydropump"
+  ],
   "labels": [
     "lagoone",
     "not_modeled",
@@ -74,28 +64,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.bountyrant.desc"
+    "cobblemon.species.bountyrant.desc1"
   ],
-  "preEvolution": "locklusk",
-  "baseScale": 0.2333333333333333,
+  "height": 14,
+  "weight": 1420,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1561,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 3,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 14,
-  "weight": 1420,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

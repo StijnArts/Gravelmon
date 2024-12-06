@@ -53,6 +53,6 @@ public class CefiranVibrava extends Pokemon {
         setCanFly(true);
         addAdditionalEvolution("trapinch", new EvolutionEntry("vibrava cefiran", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
-                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_JUNGLE.getId() + ":" + Biome.IS_JUNGLE.getName() +"\""))));
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_JUNGLE.getId() + ":" + Biome.IS_JUNGLE.getName()))));
     }
 }

@@ -1,11 +1,18 @@
 {
-  "implemented": true,
   "name": "Vendrom",
-  "nationalPokedexNumber": 4615,
   "primaryType": "water",
   "secondaryType": "fire",
+  "catchRate": 5,
+  "maleRatio": -1.0,
+  "baseExperienceYield": 143,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.25,
+  "cannotDynamax": false,
   "abilities": [
-    "ancientbody"  ],
+    "ancientbody"
+  ],
   "baseStats": {
     "hp": 125,
     "attack": 65,
@@ -14,38 +21,19 @@
     "special_defence": 105,
     "speed": 45
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 5,
-  "maleRatio": -1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 143,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "water_3",
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:firespin",
     "1:steameruption",
@@ -64,33 +52,50 @@
     "66:hydropump",
     "78:flareblitz",
     "84:overheat",
-    "90:explosion"  ],
+    "90:explosion"
+  ],
   "labels": [
     "lockemon",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.vendrom.desc"
+    "cobblemon.species.vendrom.desc1"
   ],
-  "baseScale": 0.25,
+  "height": 15,
+  "weight": 4300,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 4615,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 15,
-  "weight": 4300,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

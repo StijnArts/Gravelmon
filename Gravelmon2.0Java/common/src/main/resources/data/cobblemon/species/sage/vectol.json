@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Vectol",
-  "nationalPokedexNumber": 1091,
   "primaryType": "poison",
+  "catchRate": 255,
+  "maleRatio": -1.0,
+  "baseExperienceYield": 67,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 39,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "voltabsorb",
     "feedback",
@@ -16,47 +22,20 @@
     "special_defence": 45,
     "speed": 72
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 255,
-  "maleRatio": -1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 67,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 39,
   "eggGroups": [
     "bug",
     "mineral"
   ],
   "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "gravelmon:corrupted_disc",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
+    "amount": 1
   },
   "moves": [
     "1:poisonsting",
@@ -125,14 +104,18 @@
     "tutor:spite",
     "tutor:swift",
     "tutor:uproar",
-    "tutor:wonderroom"  ],
+    "tutor:wonderroom"
+  ],
   "labels": [
     "sage",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.vectol.desc"
+    "cobblemon.species.vectol.desc1"
   ],
+  "height": 2,
+  "weight": 1,
+  "aspects": [],
   "evolutions": [
     {
       "id": "vectol_vectol2",
@@ -146,28 +129,40 @@
           "itemCondition": "gravelmon:corrupted_disc"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 1091,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 2,
-  "weight": 1,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

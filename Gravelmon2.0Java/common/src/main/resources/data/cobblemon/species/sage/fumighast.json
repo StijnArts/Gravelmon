@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Fumighast",
-  "nationalPokedexNumber": 1127,
   "primaryType": "poison",
   "secondaryType": "ghost",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 227,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 51,
+  "baseFriendship": 70,
+  "preEvolution": "noxial",
+  "baseScale": 0.2833333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "pollution",
     "aftermath",
@@ -17,37 +24,20 @@
     "special_defence": 115,
     "speed": 70
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 2,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 227,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 51,
   "eggGroups": [
     "amorphous"
   ],
+  "drops": {
+    "amount": 2
+  },
   "moves": [
     "1:poisongas",
     "1:smokescreen",
@@ -132,7 +122,8 @@
     "egg:nightshade",
     "egg:nightslash",
     "egg:ominouswind",
-    "egg:smokescreen"  ],
+    "egg:smokescreen"
+  ],
   "labels": [
     "sage",
     "not_modeled",
@@ -140,28 +131,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.fumighast.desc"
+    "cobblemon.species.fumighast.desc1"
   ],
-  "preEvolution": "noxial",
-  "baseScale": 0.2833333333333333,
+  "height": 17,
+  "weight": 43,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1127,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 2,
-    "speed": 0
-  },
-  "height": 17,
-  "weight": 43,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

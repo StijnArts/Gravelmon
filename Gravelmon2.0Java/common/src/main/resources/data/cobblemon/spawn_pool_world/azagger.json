@@ -7,17 +7,16 @@
       "id": "azagger-01",
       "pokemon": "azagger",
       "presets": [
-        "natural"
+        "jungle_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
+      "bucket": "rare",
+      "level": "41-65",
+      "weight": 0.44999999999999996,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_jungle"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

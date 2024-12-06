@@ -1,10 +1,17 @@
 {
-  "implemented": true,
   "name": "Feefish",
-  "nationalPokedexNumber": 5986,
   "primaryType": "water",
+  "catchRate": 180,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
-    "runaway"  ],
+    "runaway"
+  ],
   "baseStats": {
     "hp": 40,
     "attack": 60,
@@ -13,37 +20,18 @@
     "special_defence": 35,
     "speed": 95
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 180,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:pound",
     "4:growl",
@@ -57,14 +45,18 @@
     "32:whirlpool",
     "36:mist",
     "39:drillpeck",
-    "43:hydropump"  ],
+    "43:hydropump"
+  ],
   "labels": [
     "midamis",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.feefish.desc"
+    "cobblemon.species.feefish.desc1"
   ],
+  "height": 4,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "feefish_fencette",
@@ -75,15 +67,15 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 35
+          "minLevel": "35"
         },
         {
           "variant": "time_range",
           "range": "day"
         }
       ],
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "feefish_feegremin",
       "variant": "level_up",
@@ -93,35 +85,47 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 35
+          "minLevel": "35"
         },
         {
           "variant": "time_range",
           "range": "night"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 5986,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 4,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

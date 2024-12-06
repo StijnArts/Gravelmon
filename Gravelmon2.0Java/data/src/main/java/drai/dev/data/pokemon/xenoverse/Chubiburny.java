@@ -20,7 +20,7 @@ public class Chubiburny extends Pokemon {
                 32, List.of(EggGroup.MONSTER, EggGroup.FIELD),
                 List.of("Its pelt contains sugary high-calorie substances. It peacefully basks in the sunlight, ignoring Birigiri's bites."),
                 List.of(new EvolutionEntry("goombear", EvolutionType.LEVEL_UP, false, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"\"birigiri\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"birigiri")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,1),
                         new MoveLearnSetEntry(Move.LICK,1),

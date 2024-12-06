@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Galaxia",
-  "nationalPokedexNumber": 6285,
   "primaryType": "poison",
   "secondaryType": "psychic",
+  "catchRate": 60,
+  "maleRatio": -1.0,
+  "baseExperienceYield": 147,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.25,
+  "cannotDynamax": false,
   "abilities": [
     "serenegrace",
     "h:longreach"
@@ -16,37 +22,18 @@
     "special_defence": 77,
     "speed": 90
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": -1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 147,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:crosspoison",
     "1:acidspray",
@@ -76,33 +63,50 @@
     "tutor:clearsmog",
     "tutor:knockoff",
     "tutor:poisonjab",
-    "tutor:stardust"  ],
+    "tutor:stardust"
+  ],
   "labels": [
     "deneb",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.galaxia.desc"
+    "cobblemon.species.galaxia.desc1"
   ],
-  "baseScale": 0.25,
+  "height": 15,
+  "weight": 579,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6285,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 15,
-  "weight": 579,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

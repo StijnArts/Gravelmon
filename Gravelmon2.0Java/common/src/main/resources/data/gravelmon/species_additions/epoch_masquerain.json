@@ -1,4 +1,4 @@
 {
-   "target": "cobblemon:epoch_masquerain",
+  "target": "cobblemon:epoch_masquerain",
   "preEvolution": "epochsurskit"
 }

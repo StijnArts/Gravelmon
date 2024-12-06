@@ -20,7 +20,7 @@ public class DeltaMagmar extends Pokemon {
                 50, List.of(EggGroup.DELTA),
                 List.of("It can now breath underwater using the oxygen in the tank on its back. It returns to the surface once per week in order to refuel."),
                 List.of(new EvolutionEntry("deltamagmortar", EvolutionType.LEVEL_UP, true, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"cobblemon:magmarizer\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "cobblemon:magmarizer")))),
                 List.of(
                         new MoveLearnSetEntry(Move.METAL_CLAW,1),
                         new MoveLearnSetEntry(Move.LEER,1),

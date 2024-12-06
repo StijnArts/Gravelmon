@@ -110,7 +110,7 @@ public class Nimbeon extends Pokemon {
         this.setCanFly(true);
         this.setPreEvolution("eevee");
         addAdditionalEvolution("eevee", new EvolutionEntry("nimbeon", EvolutionType.LEVEL_UP, List.of(new MoveLearnSetEntry(Move.ROOST, "")),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"minecraft:feather\""),
-                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"\"day\""))));
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"minecraft:feather"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day"))));
     }
 }

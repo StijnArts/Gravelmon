@@ -1,10 +1,17 @@
 {
-  "implemented": true,
   "name": "Octaveon",
-  "nationalPokedexNumber": 4315,
   "primaryType": "sound",
+  "catchRate": 90,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 184,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.16666666666666666,
+  "cannotDynamax": false,
   "abilities": [
-    "owntempo"  ],
+    "owntempo"
+  ],
   "baseStats": {
     "hp": 65,
     "attack": 110,
@@ -13,46 +20,19 @@
     "special_defence": 110,
     "speed": 75
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 65,
+    "attack": 2,
+    "defence": 70,
+    "special_attack": 95,
+    "special_defence": 110,
+    "speed": 75
   },
-  "catchRate": 90,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 184,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
   "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "gravelmon:ocarina",
-        "quantityRange": "1-1",
-        "percentage": 40
-      }
-    ]
+    "amount": 1
   },
   "moves": [
     "40:darkpulse",
@@ -121,33 +101,50 @@
     "tm:wish",
     "tm:wonderroom",
     "tm:workup",
-    "tm:zenheadbutt"  ],
+    "tm:zenheadbutt"
+  ],
   "labels": [
     "soulstones",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.octaveon.desc"
+    "cobblemon.species.octaveon.desc1"
   ],
-  "baseScale": 0.16666666666666666,
+  "height": 10,
+  "weight": 290,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 4315,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 65,
-    "attack": 2,
-    "defence": 70,
-    "special_attack": 95,
-    "special_defence": 110,
-    "speed": 75
-  },
-  "height": 10,
-  "weight": 290,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

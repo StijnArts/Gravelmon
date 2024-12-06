@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Emberge",
-  "nationalPokedexNumber": 2700,
   "primaryType": "fire",
   "secondaryType": "ghost",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 54,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "flamebody",
     "h:regenerator"
@@ -16,57 +22,6 @@
     "special_defence": 65,
     "speed": 15
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 54,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "amorphous",
-    "flying"
-  ],
-  "moves": [
-    "1:willowisp",
-    "1:astonish",
-    "1:ember",
-    "1:softboiled"  ],
-  "labels": [
-    "flux",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.emberge.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -75,10 +30,59 @@
     "special_defence": 1,
     "speed": 0
   },
+  "eggGroups": [
+    "amorphous",
+    "flying"
+  ],
+  "drops": {},
+  "moves": [
+    "1:willowisp",
+    "1:astonish",
+    "1:ember",
+    "1:softboiled"
+  ],
+  "labels": [
+    "flux",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.emberge.desc1"
+  ],
   "height": 5,
   "weight": 150,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 2700,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

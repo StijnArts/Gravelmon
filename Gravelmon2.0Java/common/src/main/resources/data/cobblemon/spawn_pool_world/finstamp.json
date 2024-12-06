@@ -7,17 +7,17 @@
       "id": "finstamp-01",
       "pokemon": "finstamp",
       "presets": [
-        "natural"
+        "natural",
+        "near_water"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
+      "bucket": "rare",
+      "level": "13-32",
+      "weight": 3.3000000000000003,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_desert"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

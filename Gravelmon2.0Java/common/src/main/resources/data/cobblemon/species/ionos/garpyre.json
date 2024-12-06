@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Garpyre",
-  "nationalPokedexNumber": 6594,
   "primaryType": "fire",
   "secondaryType": "steel",
+  "catchRate": 149,
+  "maleRatio": 0.75,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "kinbat",
+  "baseScale": 0.11666666666666665,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
   "baseStats": {
     "hp": 52,
     "attack": 28,
@@ -14,42 +22,24 @@
     "special_defence": 55,
     "speed": 79
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 149,
-  "maleRatio": 0.75,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:ember",
     "1:metalclaw",
     "1:vacuumwave",
-    "1:vacuumwave"  ],
+    "1:vacuumwave"
+  ],
   "labels": [
     "ionos",
     "not_modeled",
@@ -57,9 +47,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.garpyre.desc"
+    "cobblemon.species.garpyre.desc1"
   ],
-  "preEvolution": "kinbat",
+  "height": 7,
+  "weight": 0,
+  "aspects": [],
   "evolutions": [
     {
       "id": "garpyre_duabat",
@@ -70,31 +62,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 32
+          "minLevel": "32"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.11666666666666665,
+  "nationalPokedexNumber": 6594,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 7,
-  "weight": 0,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Faebril",
-  "nationalPokedexNumber": 4613,
   "primaryType": "electric",
   "secondaryType": "fairy",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 143,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.21666666666666667,
+  "cannotDynamax": false,
   "abilities": [
     "healer",
     "h:regenerator"
@@ -16,38 +22,19 @@
     "special_defence": 110,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 143,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "human_like",
     "fairy"
   ],
+  "drops": {},
   "moves": [
     "1:nuzzle",
     "1:tailwhip",
@@ -64,33 +51,50 @@
     "55:wish",
     "60:thunder",
     "egg:covet",
-    "egg:tearfullook"  ],
+    "egg:tearfullook"
+  ],
   "labels": [
     "lockemon",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.faebril.desc"
+    "cobblemon.species.faebril.desc1"
   ],
-  "baseScale": 0.21666666666666667,
+  "height": 13,
+  "weight": 1231,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 4613,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 13,
-  "weight": 1231,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

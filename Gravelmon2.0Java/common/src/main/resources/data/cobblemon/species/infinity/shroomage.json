@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Shroomage",
-  "nationalPokedexNumber": 1460,
   "primaryType": "grass",
   "secondaryType": "psychic",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 150,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 62,
+  "baseFriendship": 70,
+  "preEvolution": "psycholyte",
+  "baseScale": 0.2833333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "magicguard",
     "h:poisonheal"
@@ -16,37 +23,18 @@
     "special_defence": 100,
     "speed": 76
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 150,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 62,
   "eggGroups": [
     "grass"
   ],
+  "drops": {},
   "moves": [
     "1:trickroom",
     "1:calmmind",
@@ -118,7 +106,8 @@
     "egg:healpulse",
     "egg:moonblast",
     "egg:recycle",
-    "egg:spore"  ],
+    "egg:spore"
+  ],
   "labels": [
     "sage",
     "not_modeled",
@@ -126,28 +115,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.shroomage.desc"
+    "cobblemon.species.shroomage.desc1"
   ],
-  "preEvolution": "psycholyte",
-  "baseScale": 0.2833333333333333,
+  "height": 17,
+  "weight": 300,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1460,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 3,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 17,
-  "weight": 300,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

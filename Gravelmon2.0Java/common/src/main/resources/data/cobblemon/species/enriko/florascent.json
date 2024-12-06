@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Florascent",
-  "nationalPokedexNumber": 1982,
   "primaryType": "grass",
   "secondaryType": "electric",
+  "catchRate": 70,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 140,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "bulberry",
+  "baseScale": 0.19999999999999998,
+  "cannotDynamax": false,
   "abilities": [
     "illuminate",
     "h:arenatrap"
@@ -16,37 +23,18 @@
     "special_defence": 105,
     "speed": 10
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 70,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 140,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "grass"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "5:synthesis",
@@ -58,7 +46,8 @@
     "39:thunderwave",
     "49:spore",
     "54:powerwhip",
-    "60:electricterrain"  ],
+    "60:electricterrain"
+  ],
   "labels": [
     "enriko",
     "not_modeled",
@@ -66,28 +55,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.florascent.desc"
+    "cobblemon.species.florascent.desc1"
   ],
-  "preEvolution": "bulberry",
-  "baseScale": 0.19999999999999998,
+  "height": 12,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1982,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 12,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

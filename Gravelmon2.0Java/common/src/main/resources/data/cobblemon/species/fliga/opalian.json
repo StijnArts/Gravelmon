@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Opalian",
-  "nationalPokedexNumber": 5297,
   "primaryType": "rock",
   "secondaryType": "fairy",
+  "catchRate": 55,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 125,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "gallostone",
+  "baseScale": 0.5,
+  "cannotDynamax": false,
   "abilities": [
     "illuminate",
     "soundproof",
@@ -17,38 +24,19 @@
     "special_defence": 120,
     "speed": 90
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
   },
-  "catchRate": 55,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 125,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "mineral",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:pound",
     "1:flash",
@@ -118,7 +106,8 @@
     "tm:round",
     "tm:echoedvoice",
     "tm:bulldoze",
-    "tm:confide"  ],
+    "tm:confide"
+  ],
   "labels": [
     "fliga",
     "not_modeled",
@@ -126,28 +115,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.opalian.desc"
+    "cobblemon.species.opalian.desc1"
   ],
-  "preEvolution": "gallostone",
-  "baseScale": 0.5,
+  "height": 30,
+  "weight": 3321,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5297,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 2,
-    "speed": 0
-  },
-  "height": 30,
-  "weight": 3321,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

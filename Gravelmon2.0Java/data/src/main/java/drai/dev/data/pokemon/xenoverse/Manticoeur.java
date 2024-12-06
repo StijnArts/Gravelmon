@@ -21,7 +21,7 @@ public class Manticoeur extends Pokemon {
                 List.of("This Pokemon has a moody temper. It lures prey with its sweet face, then sucker punches them using its stinger."),
                 List.of(new EvolutionEntry("fatail", EvolutionType.LEVEL_UP, false, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"160"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "night")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BABYDOLL_EYES,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),

@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Auldsparce",
-  "nationalPokedexNumber": 6307,
   "primaryType": "normal",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 185,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "dunsparce",
+  "baseScale": 0.65,
+  "cannotDynamax": false,
   "abilities": [
     "owntempo",
     "h:serenegrace"
@@ -15,37 +22,18 @@
     "special_defence": 75,
     "speed": 40
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 185,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:rage",
     "1:defensecurl",
@@ -124,35 +112,51 @@
     "egg:sunnyday",
     "egg:waterpulse",
     "egg:wildcharge",
-    "egg:zenheadbutt"  ],
+    "egg:zenheadbutt"
+  ],
   "labels": [
     "vega",
     "not_modeled",
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.auldsparce.desc"
+    "cobblemon.species.auldsparce.desc1"
   ],
-  "preEvolution": "dunsparce",
-  "baseScale": 0.65,
+  "height": 39,
+  "weight": 2045,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6307,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 39,
-  "weight": 2045,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

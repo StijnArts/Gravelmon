@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Oxatear",
-  "nationalPokedexNumber": 5872,
   "primaryType": "water",
   "secondaryType": "fighting",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "aqualf",
+  "baseScale": 0.31666666666666665,
+  "cannotDynamax": false,
   "abilities": [
     "torrent",
     "h:drizzle"
@@ -16,38 +23,19 @@
     "special_defence": 75,
     "speed": 85
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_1",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:aquajet",
     "40:raindance",
@@ -60,7 +48,8 @@
     "tm:substitute",
     "tm:endure",
     "tm:mirrorcoat",
-    "tm:brine"  ],
+    "tm:brine"
+  ],
   "labels": [
     "midamis",
     "not_modeled",
@@ -68,28 +57,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.oxatear.desc"
+    "cobblemon.species.oxatear.desc1"
   ],
-  "preEvolution": "aqualf",
-  "baseScale": 0.31666666666666665,
+  "height": 19,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5872,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 3,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 19,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

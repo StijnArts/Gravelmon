@@ -48,7 +48,7 @@ public class Kirinirik extends drai.dev.data.pokemon.Pokemon {
                 List.of());
            setLangFileName("Kirinirik");
         addAdditionalEvolution("girafarig", new EvolutionEntry("kirinirik", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.OUTRAGE.getName()+"\""))));
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.OUTRAGE.getName()))));
 
     }
 

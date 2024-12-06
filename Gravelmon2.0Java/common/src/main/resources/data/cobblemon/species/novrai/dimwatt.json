@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Dimwatt",
-  "nationalPokedexNumber": 6739,
   "primaryType": "electric",
+  "catchRate": 180,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 53,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "dazzling",
     "levitate",
@@ -16,37 +22,18 @@
     "special_defence": 30,
     "speed": 65
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 180,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 53,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:flash",
     "7:hiddenpower",
@@ -105,14 +92,18 @@
     "tm:magnetrise",
     "tm:dazzlinggleam",
     "tm:confide",
-    "tm:skillswap"  ],
+    "tm:skillswap"
+  ],
   "labels": [
     "novrai",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.dimwatt.desc"
+    "cobblemon.species.dimwatt.desc1"
   ],
+  "height": 2,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "dimwatt_bulbright",
@@ -123,31 +114,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 18
+          "minLevel": "18"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 6739,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 2,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

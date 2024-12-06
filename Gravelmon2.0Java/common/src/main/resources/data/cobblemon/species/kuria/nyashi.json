@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Nyashi",
-  "nationalPokedexNumber": 5598,
   "primaryType": "ghost",
   "secondaryType": "fighting",
+  "catchRate": 45,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 83,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "toughclaws",
     "h:shadowtag"
@@ -16,38 +22,19 @@
     "special_defence": 49,
     "speed": 90
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 45,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 83,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "monster",
     "human_like"
   ],
+  "drops": {},
   "moves": [
     "1:nightshade",
     "6:boneclub",
@@ -61,14 +48,18 @@
     "39:torment",
     "45:curse",
     "50:shadowball",
-    "53:bonemerang"  ],
+    "53:bonemerang"
+  ],
   "labels": [
     "kuria",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.nyashi.desc"
+    "cobblemon.species.nyashi.desc1"
   ],
+  "height": 6,
+  "weight": 55,
+  "aspects": [],
   "evolutions": [
     {
       "id": "nyashi_felinshii",
@@ -79,31 +70,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 35
+          "minLevel": "35"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 5598,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 6,
-  "weight": 55,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

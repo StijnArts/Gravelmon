@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Cupricorn",
-  "nationalPokedexNumber": 6141,
   "primaryType": "steel",
+  "catchRate": 180,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 96,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "sturdy",
     "h:rockhead"
@@ -15,37 +21,18 @@
     "special_defence": 30,
     "speed": 30
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 180,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 96,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "1:growl",
@@ -98,14 +85,18 @@
     "egg:spark",
     "egg:stardust",
     "egg:sunnyday",
-    "egg:wildcharge"  ],
+    "egg:wildcharge"
+  ],
   "labels": [
     "deneb",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.cupricorn.desc"
+    "cobblemon.species.cupricorn.desc1"
   ],
+  "height": 5,
+  "weight": 72,
+  "aspects": [],
   "evolutions": [
     {
       "id": "cupricorn_hornikel",
@@ -116,31 +107,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 18
+          "minLevel": "18"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 6141,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 5,
-  "weight": 72,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

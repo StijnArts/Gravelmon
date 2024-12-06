@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Correncid",
-  "nationalPokedexNumber": 6138,
   "primaryType": "water",
   "secondaryType": "poison",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 210,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "hydrush",
+  "baseScale": 0.2333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "torrent",
     "h:liquidooze"
@@ -16,38 +23,19 @@
     "special_defence": 90,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 210,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_1",
     "amorphous"
   ],
+  "drops": {},
   "moves": [
     "1:hydrocannon",
     "1:pound",
@@ -118,7 +106,8 @@
     "egg:smokescreen",
     "egg:snatch",
     "egg:snore",
-    "egg:waterpulse"  ],
+    "egg:waterpulse"
+  ],
   "labels": [
     "deneb",
     "not_modeled",
@@ -126,28 +115,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.correncid.desc"
+    "cobblemon.species.correncid.desc1"
   ],
-  "preEvolution": "hydrush",
-  "baseScale": 0.2333333333333333,
+  "height": 14,
+  "weight": 350,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6138,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 3,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 14,
-  "weight": 350,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

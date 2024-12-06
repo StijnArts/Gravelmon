@@ -1,12 +1,19 @@
 {
-  "implemented": true,
   "name": "Churlice",
-  "nationalPokedexNumber": 2377,
   "primaryType": "fire",
   "secondaryType": "rock",
+  "catchRate": 180,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.11666666666666665,
+  "cannotDynamax": false,
   "abilities": [
     "stickyhold",
-    "pressure"  ],
+    "pressure"
+  ],
   "baseStats": {
     "hp": 35,
     "attack": 44,
@@ -15,38 +22,19 @@
     "special_defence": 32,
     "speed": 30
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 180,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "fluctuating",
-  "eggCycles": 50,
   "eggGroups": [
     "water_3",
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:pound",
     "1:harden",
@@ -65,14 +53,18 @@
     "43:recover",
     "48:bodypress",
     "50:earthpower",
-    "55:eruption"  ],
+    "55:eruption"
+  ],
   "labels": [
     "oceane",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.churlice.desc"
+    "cobblemon.species.churlice.desc1"
   ],
+  "height": 7,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "churlice_torchurn",
@@ -83,31 +75,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 19
+          "minLevel": "19"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.11666666666666665,
+  "nationalPokedexNumber": 2377,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 7,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

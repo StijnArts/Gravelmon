@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Galaxagos",
-  "nationalPokedexNumber": 1134,
   "primaryType": "psychic",
   "secondaryType": "rock",
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 69,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 62,
+  "baseFriendship": 70,
+  "preEvolution": "chelonite",
+  "baseScale": 0.21666666666666667,
+  "cannotDynamax": false,
   "abilities": [
     "orbitaltide",
     "shellarmor",
@@ -17,38 +24,21 @@
     "special_defence": 155,
     "speed": 29
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
   },
-  "catchRate": 75,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 69,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 62,
   "eggGroups": [
     "monster",
     "mineral"
   ],
+  "drops": {
+    "amount": 4
+  },
   "moves": [
     "1:substitute",
     "1:rapidspin",
@@ -126,7 +116,8 @@
     "egg:moonlight",
     "egg:sandtomb",
     "egg:twister",
-    "egg:zenheadbutt"  ],
+    "egg:zenheadbutt"
+  ],
   "labels": [
     "sage",
     "not_modeled",
@@ -134,28 +125,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.galaxagos.desc"
+    "cobblemon.species.galaxagos.desc1"
   ],
-  "preEvolution": "chelonite",
-  "baseScale": 0.21666666666666667,
+  "height": 13,
+  "weight": 1954,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1134,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 2,
-    "speed": 0
-  },
-  "height": 13,
-  "weight": 1954,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

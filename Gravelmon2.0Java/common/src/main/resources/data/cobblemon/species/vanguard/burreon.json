@@ -1,10 +1,17 @@
 {
-  "implemented": true,
   "name": "Burreon",
-  "nationalPokedexNumber": 5520,
   "primaryType": "ground",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
   "baseStats": {
     "hp": 90,
     "attack": 110,
@@ -13,46 +20,19 @@
     "special_defence": 60,
     "speed": 65
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
   "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "cobblemon:soft_sand",
-        "quantityRange": "1-1",
-        "percentage": 40
-      }
-    ]
+    "amount": 1
   },
   "moves": [
     "1:copycat",
@@ -127,33 +107,50 @@
     "tm:bodypress",
     "tm:spikes",
     "tm:toxicspikes",
-    "tm:rollout"  ],
+    "tm:rollout"
+  ],
   "labels": [
     "vanguard",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.burreon.desc"
+    "cobblemon.species.burreon.desc1"
   ],
-  "baseScale": 0.1,
+  "height": 5,
+  "weight": 650,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5520,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 5,
-  "weight": 650,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

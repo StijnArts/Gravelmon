@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Pajay",
-  "nationalPokedexNumber": 2522,
   "primaryType": "fire",
   "secondaryType": "flying",
+  "catchRate": 180,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 216,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "preEvolution": "palij",
+  "baseScale": 0.3,
+  "cannotDynamax": false,
   "abilities": [
     "pressure",
     "h:flamebody"
@@ -16,37 +23,18 @@
     "special_defence": 80,
     "speed": 100
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 180,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 216,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 100,
   "eggGroups": [
     "flying"
   ],
+  "drops": {},
   "moves": [
     "1:willowisp",
     "1:peck",
@@ -110,7 +98,8 @@
     "egg:skyattack",
     "egg:steelwing",
     "egg:swagger",
-    "egg:uproar"  ],
+    "egg:uproar"
+  ],
   "labels": [
     "uranium",
     "not_modeled",
@@ -118,28 +107,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.pajay.desc"
+    "cobblemon.species.pajay.desc1"
   ],
-  "preEvolution": "palij",
-  "baseScale": 0.3,
+  "height": 18,
+  "weight": 282,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2522,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 18,
-  "weight": 282,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

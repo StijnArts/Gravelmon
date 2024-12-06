@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Pyropteryx",
-  "nationalPokedexNumber": 2642,
   "primaryType": "fire",
   "secondaryType": "flying",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 265,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "burnychus",
+  "baseScale": 0.2833333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "blaze",
     "h:toughclaws"
@@ -16,38 +23,19 @@
     "special_defence": 70,
     "speed": 125
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 265,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "flying",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:fly",
     "1:dragonclaw",
@@ -70,7 +58,8 @@
     "egg:laserfocus",
     "egg:headsmash",
     "egg:tailwind",
-    "egg:doubleedge"  ],
+    "egg:doubleedge"
+  ],
   "labels": [
     "flux",
     "not_modeled",
@@ -78,28 +67,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.pyropteryx.desc"
+    "cobblemon.species.pyropteryx.desc1"
   ],
-  "preEvolution": "burnychus",
-  "baseScale": 0.2833333333333333,
+  "height": 17,
+  "weight": 460,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2642,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 17,
-  "weight": 460,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

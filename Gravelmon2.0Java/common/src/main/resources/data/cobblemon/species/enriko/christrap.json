@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Christrap",
-  "nationalPokedexNumber": 2161,
   "primaryType": "ice",
   "secondaryType": "poison",
+  "catchRate": 110,
+  "maleRatio": 0.75,
+  "baseExperienceYield": 174,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.2833333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "arenatrap",
     "snowcloak",
@@ -17,37 +23,18 @@
     "special_defence": 75,
     "speed": 40
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 110,
-  "maleRatio": 0.75,
-  "shoulderMountable": false,
-  "baseExperienceYield": 174,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "monster"
   ],
+  "drops": {},
   "moves": [
     "1:growl",
     "6:poisongas",
@@ -63,34 +50,51 @@
     "40:bodyslam",
     "45:gunkshot",
     "52:blizzard",
-    "60:bellydrum"  ],
+    "60:bellydrum"
+  ],
   "labels": [
     "enriko",
     "joke",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.christrap.desc"
+    "cobblemon.species.christrap.desc1"
   ],
-  "baseScale": 0.2833333333333333,
+  "height": 17,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2161,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 17,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

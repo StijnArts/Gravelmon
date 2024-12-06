@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Phloxling",
-  "nationalPokedexNumber": 4653,
   "primaryType": "grass",
   "secondaryType": "flying",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 152,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "neschick",
+  "baseScale": 0.18333333333333335,
+  "cannotDynamax": false,
   "abilities": [
     "overgrow",
     "h:skilllink"
@@ -16,38 +23,19 @@
     "special_defence": 67,
     "speed": 95
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 152,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "grass",
     "flying"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "7:leafage",
@@ -99,7 +87,8 @@
     "tm:toxic",
     "tm:rest",
     "tm:steelwing",
-    "tm:captivate"  ],
+    "tm:captivate"
+  ],
   "labels": [
     "nosto",
     "not_modeled",
@@ -107,9 +96,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.phloxling.desc"
+    "cobblemon.species.phloxling.desc1"
   ],
-  "preEvolution": "neschick",
+  "height": 11,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "phloxling_mosstrich",
@@ -120,31 +111,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 36
+          "minLevel": "36"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.18333333333333335,
+  "nationalPokedexNumber": 4653,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 11,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

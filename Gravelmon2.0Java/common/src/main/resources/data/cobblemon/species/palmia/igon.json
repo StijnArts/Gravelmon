@@ -1,68 +1,27 @@
 {
-  "implemented": true,
   "name": "Igon",
-  "nationalPokedexNumber": 3502,
   "primaryType": "poison",
   "secondaryType": "dragon",
-  "abilities": [
-    "poisonpoint",
-    "poisontouch"  ],
-  "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 255,
+  "catchRate": 240,
   "maleRatio": 0.5,
-  "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:acid",
-    "1:scratch"  ],
-  "labels": [
-    "not_modeled",
-    "palmia"
-  ],
-  "pokedex": [
-    "cobblemon.species.igon.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
   "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
+  "abilities": [
+    "poisonpoint",
+    "poisontouch"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 30,
+    "defence": 94,
+    "special_attack": 19,
+    "special_defence": 19,
+    "speed": 11
+  },
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -71,10 +30,75 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:poisonsting",
+    "1:scratch",
+    "1:bulkup",
+    "1:bulkup",
+    "1:quickattack",
+    "1:quickattack"
+  ],
+  "labels": [
+    "not_modeled",
+    "palmia"
+  ],
+  "pokedex": [
+    "cobblemon.species.igon.desc1"
+  ],
+  "height": 4,
   "weight": 0,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [
+    {
+      "id": "igon_stingall",
+      "variant": "level_up",
+      "result": "Stingall",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "24"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 3502,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

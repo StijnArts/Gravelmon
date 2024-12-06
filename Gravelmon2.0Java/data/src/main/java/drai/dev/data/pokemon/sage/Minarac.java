@@ -20,7 +20,7 @@ public class Minarac extends Pokemon {
                 39, List.of(EggGroup.BUG),
                 List.of("Minarac digs elaborate tunnels to confuse its prey. Its constant search for gemstones also makes it a valuable companion for treasure-hunters."),
                 List.of(new EvolutionEntry("trenchula", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.DIG.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.DIG.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.RAPID_SPIN,1),
                         new MoveLearnSetEntry(Move.STRING_SHOT,1),

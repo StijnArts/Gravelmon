@@ -25,7 +25,7 @@ public class Tadpunk extends drai.dev.data.pokemon.Pokemon {
                 List.of("It will always follow the lead of the strongest fighter. It's flaky too, being quite likely to ditch a former ally if the tables start to turn."),
                 List.of(new EvolutionEntry("flatriarch", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=female\"")))
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=female")))
                 ),
                 List.of(
                         new MoveLearnSetEntry(Move.MUDSLAP,1),

@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Drasalys",
-  "nationalPokedexNumber": 1617,
   "primaryType": "bug",
   "secondaryType": "dragon",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 144,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "gobblelisk",
+  "baseScale": 0.13333333333333333,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
   "baseStats": {
     "hp": 50,
     "attack": 48,
@@ -14,40 +22,22 @@
     "special_defence": 94,
     "speed": 27
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 144,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:strugglebug",
-    "1:scratch"  ],
+    "1:scratch"
+  ],
   "labels": [
     "lagoone",
     "not_modeled",
@@ -55,9 +45,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.drasalys.desc"
+    "cobblemon.species.drasalys.desc1"
   ],
-  "preEvolution": "gobblelisk",
+  "height": 8,
+  "weight": 211,
+  "aspects": [],
   "evolutions": [
     {
       "id": "drasalys_dralytra",
@@ -68,31 +60,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 45
+          "minLevel": "45"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.13333333333333333,
+  "nationalPokedexNumber": 1617,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 8,
-  "weight": 211,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

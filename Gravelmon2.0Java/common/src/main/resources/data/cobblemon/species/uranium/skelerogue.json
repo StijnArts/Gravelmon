@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Skelerogue",
-  "nationalPokedexNumber": 2596,
   "primaryType": "ghost",
   "secondaryType": "fighting",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 70,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "preEvolution": "swabone",
+  "baseScale": 0.26666666666666666,
+  "cannotDynamax": false,
   "abilities": [
-    "scrappy"  ],
+    "scrappy"
+  ],
   "baseStats": {
     "hp": 55,
     "attack": 105,
@@ -14,38 +22,18 @@
     "special_defence": 65,
     "speed": 70
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canWalkOnWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 70,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 100,
   "eggGroups": [
     "human_like"
   ],
+  "drops": {},
   "moves": [
     "1:astonish",
     "1:thief",
@@ -127,7 +115,8 @@
     "egg:leafblade",
     "egg:swordsdance",
     "egg:glare",
-    "egg:sing"  ],
+    "egg:sing"
+  ],
   "labels": [
     "uranium",
     "not_modeled",
@@ -135,9 +124,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.skelerogue.desc"
+    "cobblemon.species.skelerogue.desc1"
   ],
-  "preEvolution": "swabone",
+  "height": 16,
+  "weight": 608,
+  "aspects": [],
   "evolutions": [
     {
       "id": "skelerogue_navighast",
@@ -148,31 +139,44 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 55
+          "minLevel": "55"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.26666666666666666,
+  "nationalPokedexNumber": 2596,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false,
+        "canWalkOnWater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 16,
-  "weight": 608,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

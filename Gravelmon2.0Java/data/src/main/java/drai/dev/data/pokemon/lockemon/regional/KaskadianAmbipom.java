@@ -109,6 +109,6 @@ public class KaskadianAmbipom extends Pokemon {
         this.setLangFileName("Ambipom");
         this.setPortraitXYZ(0.1,2.0,0.0);
         addAdditionalEvolution("aipom", new EvolutionEntry("ambipom kaskadian", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.ROCK_THROW.getName()+"\""))));
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.ROCK_THROW.getName()))));
     }
 }

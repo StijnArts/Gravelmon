@@ -20,9 +20,9 @@ public class Sabolt extends Pokemon {
                 41, List.of(EggGroup.UNDISCOVERED),
                 List.of("Information about this Pokemon is shrouded in mystery. It is said to have appeared after a power outage."),
                 List.of(new EvolutionEntry("saboltterrestrial", EvolutionType.LEVEL_UP, false, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:terrestrial_ring\""))),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "gravelmon:terrestrial_ring"))),
                         new EvolutionEntry("saboltxenoversal", EvolutionType.LEVEL_UP, false, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:xenoversal_ring\"")))),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "gravelmon:xenoversal_ring")))),
                 List.of(
                         new MoveLearnSetEntry(Move.THUNDER_SHOCK,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),

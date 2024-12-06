@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Serfiery",
-  "nationalPokedexNumber": 3687,
   "primaryType": "fire",
   "secondaryType": "poison",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "searpent",
+  "baseScale": 0.16666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "blaze",
     "h:corrosion"
@@ -16,42 +23,24 @@
     "special_defence": 53,
     "speed": 91
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:ember",
     "1:acid",
     "1:vacuumwave",
-    "1:vacuumwave"  ],
+    "1:vacuumwave"
+  ],
   "labels": [
     "bago",
     "not_modeled",
@@ -59,9 +48,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.serfiery.desc"
+    "cobblemon.species.serfiery.desc1"
   ],
-  "preEvolution": "searpent",
+  "height": 10,
+  "weight": 0,
+  "aspects": [],
   "evolutions": [
     {
       "id": "serfiery_serfierno",
@@ -72,31 +63,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 36
+          "minLevel": "36"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.16666666666666666,
+  "nationalPokedexNumber": 3687,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 10,
-  "weight": 0,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

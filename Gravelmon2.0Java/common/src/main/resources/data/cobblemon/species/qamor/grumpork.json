@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Grumpork",
-  "nationalPokedexNumber": 5460,
   "primaryType": "fighting",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 236,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "grumpig form\u003dqamoran",
+  "baseScale": 0.31666666666666665,
+  "cannotDynamax": false,
   "abilities": [
     "angerpoint",
     "unaware",
@@ -16,37 +23,18 @@
     "special_defence": 60,
     "speed": 90
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 236,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:circlethrow",
     "1:torment",
@@ -72,7 +60,8 @@
     "tm:fling",
     "tm:thunderfang",
     "tm:firefang",
-    "tm:icefang"  ],
+    "tm:icefang"
+  ],
   "labels": [
     "qamor",
     "not_modeled",
@@ -80,28 +69,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.grumpork.desc"
+    "cobblemon.species.grumpork.desc1"
   ],
-  "preEvolution": "grumpig form=qamoran",
-  "baseScale": 0.31666666666666665,
+  "height": 19,
+  "weight": 958,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5460,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 19,
-  "weight": 958,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

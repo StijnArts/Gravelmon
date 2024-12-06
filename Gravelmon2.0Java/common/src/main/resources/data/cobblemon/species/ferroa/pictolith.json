@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Pictolith",
-  "nationalPokedexNumber": 1864,
   "primaryType": "rock",
   "secondaryType": "fairy",
+  "catchRate": 190,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 65,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.18333333333333335,
+  "cannotDynamax": false,
   "abilities": [
     "stalwart",
     "friendguard",
@@ -17,37 +23,18 @@
     "special_defence": 55,
     "speed": 40
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 190,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 65,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:harden",
     "9:block",
@@ -77,14 +64,18 @@
     "tm:mistyexplosion",
     "tm:expandingforce",
     "tm:craftyshield",
-    "tm:moonlight"  ],
+    "tm:moonlight"
+  ],
   "labels": [
     "ferroa",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.pictolith.desc"
+    "cobblemon.species.pictolith.desc1"
   ],
+  "height": 11,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "pictolith_canvalith",
@@ -95,31 +86,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 30
+          "minLevel": "30"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.18333333333333335,
+  "nationalPokedexNumber": 1864,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 11,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

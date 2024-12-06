@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Springily",
-  "nationalPokedexNumber": 2275,
   "primaryType": "water",
   "secondaryType": "grass",
+  "catchRate": 220,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "leafguard",
     "raindish",
@@ -17,39 +23,19 @@
     "special_defence": 70,
     "speed": 30
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canWalkOnWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 220,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "grass",
     "fairy"
   ],
+  "drops": {},
   "moves": [
     "1:growl",
     "5:watergun",
@@ -63,14 +49,18 @@
     "34:gigadrain",
     "38:raindance",
     "42:energyball",
-    "46:hydropump"  ],
+    "46:hydropump"
+  ],
   "labels": [
     "avoris",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.springily.desc"
+    "cobblemon.species.springily.desc1"
   ],
+  "height": 6,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "springily_faelily",
@@ -81,31 +71,44 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 20
+          "minLevel": "20"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 2275,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true,
+        "canWalkOnWater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 6,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

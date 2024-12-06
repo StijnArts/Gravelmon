@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Muncheek",
-  "nationalPokedexNumber": 5275,
   "primaryType": "dark",
   "secondaryType": "normal",
+  "catchRate": 127,
+  "maleRatio": 1.0,
+  "baseExperienceYield": 151,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "squirelutton",
+  "baseScale": 0.25,
+  "cannotDynamax": false,
   "abilities": [
     "strongjaw",
     "cheekpouch",
@@ -17,37 +24,18 @@
     "special_defence": 85,
     "speed": 50
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 127,
-  "maleRatio": 1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 151,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:tailwhip",
     "1:bite",
@@ -102,7 +90,8 @@
     "tm:defensecurl",
     "tm:lastresort",
     "tm:bellydrum",
-    "tm:psychicfangs"  ],
+    "tm:psychicfangs"
+  ],
   "labels": [
     "fliga",
     "not_modeled",
@@ -110,28 +99,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.muncheek.desc"
+    "cobblemon.species.muncheek.desc1"
   ],
-  "preEvolution": "squirelutton",
-  "baseScale": 0.25,
+  "height": 15,
+  "weight": 786,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5275,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 15,
-  "weight": 786,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

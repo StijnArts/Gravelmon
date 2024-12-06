@@ -1,10 +1,17 @@
 {
-  "implemented": true,
   "name": "Pianon",
-  "nationalPokedexNumber": 6195,
   "primaryType": "normal",
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 138,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.2333333333333333,
+  "cannotDynamax": false,
   "abilities": [
-    "owntempo"  ],
+    "owntempo"
+  ],
   "baseStats": {
     "hp": 105,
     "attack": 70,
@@ -13,38 +20,19 @@
     "special_defence": 95,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 75,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 138,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "fairy",
     "human_like"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "1:growl",
@@ -121,33 +109,50 @@
     "egg:sleeptalk",
     "egg:snore",
     "egg:sunnyday",
-    "egg:swift"  ],
+    "egg:swift"
+  ],
   "labels": [
     "deneb",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.pianon.desc"
+    "cobblemon.species.pianon.desc1"
   ],
-  "baseScale": 0.2333333333333333,
+  "height": 14,
+  "weight": 311,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6195,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 14,
-  "weight": 311,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

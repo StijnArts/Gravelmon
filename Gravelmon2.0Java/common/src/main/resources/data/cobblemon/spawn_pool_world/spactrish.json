@@ -7,20 +7,17 @@
       "id": "spactrish-01",
       "pokemon": "spactrish",
       "presets": [
-        "natural"
+        "underwater"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
+      "context": "submerged",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 13.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+          "#minecraft:is_deep_ocean"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -36,13 +33,12 @@
       "pokemon": "spactrish",
       "type": "pokemon",
       "context": "fishing",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 13.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#minecraft:is_deep_ocean"
         ]
       },
       "weightMultiplier": {

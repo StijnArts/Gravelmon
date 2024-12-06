@@ -1,208 +1,222 @@
 {
-   "target": "cobblemon:metapod",
-   "forms": [{
-  "name": "Epoch",
-  "primaryType": "bug",
-  "secondaryType": "fairy",
-  "abilities": [
-    "shielddust",
-    "tintedlens",
-    "h:shedskin"
-  ],
-  "baseStats": {
-    "hp": 50,
-    "attack": 20,
-    "defence": 55,
-    "special_attack": 20,
-    "special_defence": 25,
-    "speed": 35
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+  "target": "cobblemon:metapod",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "bug",
+      "secondaryType": "fairy",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 72,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.11666666666666665,
+      "cannotDynamax": false,
+      "abilities": [
+        "shielddust",
+        "tintedlens",
+        "h:shedskin"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 20,
+        "defence": 55,
+        "special_attack": 20,
+        "special_defence": 25,
+        "speed": 35
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 2,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "1:harden",
+        "1:infestation",
+        "10:strugglebug",
+        "1:stringshot",
+        "tm:strugglebug",
+        "tm:irondefense"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochmetapod.desc1"
+      ],
+      "height": 7,
+      "weight": 99,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochmetapod_epoch_butterfree",
+          "variant": "level_up",
+          "result": "epoch butterfree",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "15"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
-    }
-  },
-  "catchRate": 120,
-  "shoulderMountable": false,
-  "baseExperienceYield": 72,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "bug"
-  ],
-  "moves": [
-    "1:harden",
-    "1:infestation",
-    "10:strugglebug",
-    "1:stringshot",
-    "tm:strugglebug",
-    "tm:irondefense"  ],
-  "labels": [
-    "soulstones",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.epochmetapod.desc"
-  ],
-  "evolutions": [
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
     {
-      "id": "metapod_epoch_butterfree",
-      "variant": "level_up",
-      "result": "epoch butterfree",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
+      "name": "Ayreian",
+      "primaryType": "bug",
+      "secondaryType": "electric",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 72,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "caterpie form\u003dayreian",
+      "baseScale": 0.11666666666666665,
+      "cannotDynamax": false,
+      "abilities": [
+        "shedskin",
+        "h:compoundeyes"
+      ],
+      "baseStats": {
+        "hp": 78,
+        "attack": 40,
+        "defence": 55,
+        "special_attack": 30,
+        "special_defence": 55,
+        "speed": 25
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 2,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "1:charge",
+        "1:harden",
+        "1:pursuit",
+        "1:stringshot",
+        "5:thunderwave",
+        "8:electroweb",
+        "13:irondefense",
+        "17:protect",
+        "tutor:bugbite",
+        "tutor:electroweb",
+        "tutor:irondefense"
+      ],
+      "labels": [
+        "gen1",
+        "vanguard",
+        "not_modeled",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianmetapod.desc1"
+      ],
+      "height": 7,
+      "weight": 99,
+      "aspects": [
+        "ayreian"
+      ],
+      "evolutions": [
         {
-          "variant": "level",
-          "minLevel": 15
+          "id": "ayreianmetapod_butterfree_ayreian",
+          "variant": "level_up",
+          "result": "butterfree ayreian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "20"
+            }
+          ],
+          "permanent": true
         }
       ],
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.11666666666666665,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 7,
-  "weight": 99,
-  "aspects": ["epoch"],
-  "cannotDynamax": false
-},
-{
-  "name": "Ayreian",
-  "primaryType": "bug",
-  "secondaryType": "electric",
-  "abilities": [
-    "shedskin",
-    "h:compoundeyes"
-  ],
-  "baseStats": {
-    "hp": 78,
-    "attack": 40,
-    "defence": 55,
-    "special_attack": 30,
-    "special_defence": 55,
-    "speed": 25
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     }
-  },
-  "catchRate": 120,
-  "shoulderMountable": false,
-  "baseExperienceYield": 72,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "bug"
   ],
-  "moves": [
-    "1:charge",
-    "1:harden",
-    "1:pursuit",
-    "1:stringshot",
-    "5:thunderwave",
-    "8:electroweb",
-    "13:irondefense",
-    "17:protect",
-    "tutor:bugbite",
-    "tutor:electroweb",
-    "tutor:irondefense"  ],
-  "labels": [
-    "gen1",
-    "vanguard",
-    "not_modeled",
-    "fakemonevolution"
-  ],
-  "pokedex": [
-    "cobblemon.species.ayreianmetapod.desc"
-  ],
-  "preEvolution": "caterpie form=ayreian",
-  "evolutions": [
-    {
-      "id": "metapod_butterfree_ayreian",
-      "variant": "level_up",
-      "result": "butterfree ayreian",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": 20
-        }
-      ],
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.11666666666666665,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 7,
-  "weight": 99,
-  "aspects": ["ayreian"],
-  "cannotDynamax": false
-}
-], "features": [
-"epoch",
-"ayreian"
+  "features": [
+    "epoch",
+    "ayreian"
   ]
 }

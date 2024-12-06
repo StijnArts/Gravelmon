@@ -1,11 +1,18 @@
 {
-  "implemented": true,
   "name": "Lumarva",
-  "nationalPokedexNumber": 4338,
   "primaryType": "electric",
   "secondaryType": "ice",
+  "catchRate": 200,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 54,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
-    "illuminate"  ],
+    "illuminate"
+  ],
   "baseStats": {
     "hp": 35,
     "attack": 40,
@@ -14,48 +21,33 @@
     "special_defence": 30,
     "speed": 70
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 200,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 54,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "bug",
     "dragon"
   ],
+  "drops": {},
   "moves": [
     "1:thundershock",
-    "1:powdersnow"  ],
+    "1:powdersnow"
+  ],
   "labels": [
     "crozoic",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.lumarva.desc"
+    "cobblemon.species.lumarva.desc1"
   ],
+  "height": 2,
+  "weight": 18,
+  "aspects": [],
   "evolutions": [
     {
       "id": "lumarva_glowpa",
@@ -66,31 +58,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 24
+          "minLevel": "24"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 4338,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 2,
-  "weight": 18,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

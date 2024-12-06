@@ -1,11 +1,18 @@
 {
-  "implemented": true,
   "name": "Solstarian",
-  "nationalPokedexNumber": 5262,
   "primaryType": "fire",
   "secondaryType": "dark",
+  "catchRate": 3,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 270,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.6333333333333333,
+  "cannotDynamax": false,
   "abilities": [
-    "drought"  ],
+    "drought"
+  ],
   "baseStats": {
     "hp": 80,
     "attack": 105,
@@ -14,37 +21,18 @@
     "special_defence": 90,
     "speed": 75
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 3,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 3,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 270,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {},
   "moves": [
     "1:lockon",
     "1:imprison",
@@ -140,33 +128,50 @@
     "tm:darkestlariat",
     "tm:highhorsepower",
     "tm:throatchop",
-    "tm:bodypress"  ],
+    "tm:bodypress"
+  ],
   "labels": [
     "mythire",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.solstarian.desc"
+    "cobblemon.species.solstarian.desc1"
   ],
-  "baseScale": 0.6333333333333333,
+  "height": 38,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5262,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 3,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 38,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

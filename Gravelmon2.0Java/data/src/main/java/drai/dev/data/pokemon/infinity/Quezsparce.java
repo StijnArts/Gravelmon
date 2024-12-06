@@ -166,6 +166,6 @@ public class Quezsparce extends Pokemon {
         this.setPortraitXYZ(0,1.8,0);
             this.setPreEvolution("dunsparce");
         addAdditionalEvolution("dunsparce", new EvolutionEntry("quezsparce", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.DRILL_RUN.getName()+"\""))));
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.DRILL_RUN.getName()))));
     }
 }

@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Lukagon",
-  "nationalPokedexNumber": 1405,
   "primaryType": "fairy",
   "secondaryType": "dragon",
+  "catchRate": 3,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 270,
+  "experienceGroup": "slow",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "preEvolution": "lukpup",
+  "baseScale": 0.39999999999999997,
+  "cannotDynamax": false,
   "abilities": [
     "fluffy",
     "h:triage"
@@ -16,38 +23,21 @@
     "special_defence": 92,
     "speed": 94
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 3,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 270,
-  "experienceGroup": "slow",
-  "eggCycles": 100,
   "eggGroups": [
     "dragon",
     "field"
   ],
+  "drops": {
+    "amount": 2
+  },
   "moves": [
     "1:dragondance",
     "1:dragonrush",
@@ -132,7 +122,8 @@
     "egg:earthpower",
     "egg:memento",
     "egg:psyshock",
-    "egg:worryseed"  ],
+    "egg:worryseed"
+  ],
   "labels": [
     "infinity",
     "not_modeled",
@@ -140,28 +131,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.lukagon.desc"
+    "cobblemon.species.lukagon.desc1"
   ],
-  "preEvolution": "lukpup",
-  "baseScale": 0.39999999999999997,
+  "height": 24,
+  "weight": 1230,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1405,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 3,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 24,
-  "weight": 1230,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

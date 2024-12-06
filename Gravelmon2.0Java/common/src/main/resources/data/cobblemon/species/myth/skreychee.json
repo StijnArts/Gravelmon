@@ -1,12 +1,20 @@
 {
-  "implemented": true,
   "name": "Skreychee",
-  "nationalPokedexNumber": 5836,
   "primaryType": "sound",
   "secondaryType": "fairy",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 164,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "preEvolution": "waelin",
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "levitate",
-    "tanglinghair"  ],
+    "tanglinghair"
+  ],
   "baseStats": {
     "hp": 50,
     "attack": 45,
@@ -15,38 +23,19 @@
     "special_defence": 85,
     "speed": 55
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 164,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 100,
   "eggGroups": [
     "human_like",
     "fairy"
   ],
+  "drops": {},
   "moves": [
     "1:bite",
     "1:screech",
@@ -71,7 +60,8 @@
     "egg:thunderbolt",
     "egg:sing",
     "egg:magicalleaf",
-    "egg:powergem"  ],
+    "egg:powergem"
+  ],
   "labels": [
     "myth",
     "not_modeled",
@@ -79,9 +69,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.skreychee.desc"
+    "cobblemon.species.skreychee.desc1"
   ],
-  "preEvolution": "waelin",
+  "height": 6,
+  "weight": 69,
+  "aspects": [],
   "evolutions": [
     {
       "id": "skreychee_bindshii",
@@ -92,31 +84,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 40
+          "minLevel": "40"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 5836,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 2,
-    "speed": 0
-  },
-  "height": 6,
-  "weight": 69,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

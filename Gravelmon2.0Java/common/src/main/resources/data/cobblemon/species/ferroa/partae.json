@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Partae",
-  "nationalPokedexNumber": 1857,
   "primaryType": "flying",
   "secondaryType": "fairy",
+  "catchRate": 225,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "keeneye",
     "h:dancer"
@@ -16,38 +22,19 @@
     "special_defence": 53,
     "speed": 72
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 225,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 64,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "fairy",
     "human_like"
   ],
+  "drops": {},
   "moves": [
     "1:playnice",
     "1:celebrate",
@@ -101,14 +88,18 @@
     "tm:torment",
     "tm:toxic",
     "tm:willowisp",
-    "tm:workup"  ],
+    "tm:workup"
+  ],
   "labels": [
     "ferroa",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.partae.desc"
+    "cobblemon.species.partae.desc1"
   ],
+  "height": 4,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "partae_loftival",
@@ -119,31 +110,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 210
+          "minLevel": "210"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 1857,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 4,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

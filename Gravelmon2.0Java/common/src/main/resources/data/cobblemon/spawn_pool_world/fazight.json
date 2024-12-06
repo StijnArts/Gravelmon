@@ -7,17 +7,16 @@
       "id": "fazight-01",
       "pokemon": "fazight",
       "presets": [
-        "natural"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
+      "bucket": "uncommon",
+      "level": "22-45",
+      "weight": 1.6500000000000001,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_desert"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

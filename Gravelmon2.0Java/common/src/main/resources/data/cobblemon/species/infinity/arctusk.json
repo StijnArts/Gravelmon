@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Arctusk",
-  "nationalPokedexNumber": 1442,
   "primaryType": "ice",
   "secondaryType": "normal",
+  "catchRate": 120,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 80,
+  "experienceGroup": "erratic",
+  "eggCycles": 48,
+  "baseFriendship": 70,
+  "baseScale": 0.18333333333333335,
+  "cannotDynamax": false,
   "abilities": [
     "sturdy",
     "h:simple"
@@ -16,38 +22,19 @@
     "special_defence": 80,
     "speed": 40
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 120,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 80,
-  "experienceGroup": "erratic",
-  "eggCycles": 48,
   "eggGroups": [
     "monster",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "1:playrough",
@@ -115,14 +102,18 @@
     "egg:irondefense",
     "egg:pressurize",
     "egg:shellsmash",
-    "egg:wildcharge"  ],
+    "egg:wildcharge"
+  ],
   "labels": [
     "infinity",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.arctusk.desc"
+    "cobblemon.species.arctusk.desc1"
   ],
+  "height": 11,
+  "weight": 1070,
+  "aspects": [],
   "evolutions": [
     {
       "id": "arctusk_gigantusk",
@@ -133,31 +124,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 30
+          "minLevel": "30"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.18333333333333335,
+  "nationalPokedexNumber": 1442,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 11,
-  "weight": 1070,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

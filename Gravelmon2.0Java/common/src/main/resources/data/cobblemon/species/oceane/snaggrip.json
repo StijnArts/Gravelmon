@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Snaggrip",
-  "nationalPokedexNumber": 2349,
   "primaryType": "steel",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 168,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "snaptrap",
+  "baseScale": 0.2333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "hypercutter",
     "h:sturdy"
@@ -15,37 +22,18 @@
     "special_defence": 65,
     "speed": 10
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 90,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 168,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:snaptrap",
     "1:clamp",
@@ -56,7 +44,8 @@
     "1:withdraw",
     "1:gyroball",
     "1:bite",
-    "1:thunderfang"  ],
+    "1:thunderfang"
+  ],
   "labels": [
     "oceane",
     "not_modeled",
@@ -64,28 +53,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.snaggrip.desc"
+    "cobblemon.species.snaggrip.desc1"
   ],
-  "preEvolution": "snaptrap",
-  "baseScale": 0.2333333333333333,
+  "height": 14,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2349,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 14,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

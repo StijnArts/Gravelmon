@@ -20,9 +20,9 @@ public class HoennianVenonat extends Pokemon {
                 51, List.of(EggGroup.BUG),
                 List.of("Timid by nature, the wild Venonat in Hoenn prefer to live in damp, dark places. Their large, glowing eyes can see clearly even in total blackness."),
                 List.of(new EvolutionEntry("muramoth", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=male\""))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male"))),
                         new EvolutionEntry("lucemoth", EvolutionType.LEVEL_UP, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=female\"")))),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=female")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.CONFUSE_RAY,5),

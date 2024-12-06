@@ -1,24 +1,30 @@
 package drai.dev.data.jsonwriters.data;
 
+import com.google.gson.*;
 import drai.dev.data.attributes.*;
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.*;
 import java.util.*;
+
+import drai.dev.data.util.*;
 import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import org.apache.commons.lang3.*;
-import org.jetbrains.annotations.*;
+
 import java.io.*;
 import java.nio.file.*;
 
 public class SpeciesDataJSONWriter {
+    private static String RESOURCES_DIR;
     public static void writeSpecies(Game game, String resourcesDir) {
+        RESOURCES_DIR = resourcesDir;
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
         game.getNewPokemon().forEach(pokemon -> {
             if (!Pokemon.isAnAdditionalForm(pokemon)) {
                 try {
                     var dir = resourcesDir + "\\data\\cobblemon\\species\\" + game.getName().toLowerCase() + "\\";
                     Files.createDirectories(new File(dir).toPath());
-                    writePokemon(pokemon, dir);
+                    writePokemon(pokemon, dir, gson);
                 } catch (IOException e) {
                     throw new RuntimeException(e);
                 }
@@ -26,507 +32,301 @@ public class SpeciesDataJSONWriter {
         });
     }
 
-    private static void writePokemon(Pokemon pokemon, String dir) throws IOException {
+    private static void writePokemon(Pokemon pokemon, String dir, Gson gson) throws IOException {
         if (pokemon.getPrimaryType() == null) {
             System.out.println(pokemon.getName());
         }
-        String fileContents =
-                "{\n" +
-                        "  \"implemented\": true,\n" +
-                        "  \"name\": \"" + StringUtils.capitalize(pokemon.getCleanName()) + "\",\n" +
-                        "  \"nationalPokedexNumber\": " + pokemon.getPokedexNumber() + ",\n" +
-                        "  \"primaryType\": \"" + pokemon.getPrimaryType().getName() + "\",\n";
-        if (pokemon.getSecondaryType() != null) {
-            fileContents += "  \"secondaryType\": \"" + pokemon.getSecondaryType().getName() + "\",\n";
-        }
-        fileContents += "  \"abilities\": [\n";
-        int abilities = 0;
-        boolean isFirstAbility = true;
-        for (Ability ability : pokemon.getAbilities()) {
-            if (ability.isImplemented()) {
-                if (isFirstAbility) {
-                    isFirstAbility = false;
-                } else {
-                    fileContents += ",\n";
-                }
-                fileContents += "    \"" + ability.getName() + "\"";
-                abilities++;
-            }
-        }
-        if (abilities == 0) {
-            fileContents += "    \"" + Ability.KEEN_EYE.getName() + "\"";
-        }
-        if (pokemon.getHiddenAbility() != null && pokemon.getHiddenAbility().isImplemented()) {
-            fileContents += ",\n    \"h:" + pokemon.getHiddenAbility().getName() + "\"\n";
-        }
-
-
-        fileContents += "  ],\n" +
-                "  \"baseStats\": {\n" +
-                "    \"hp\": " + pokemon.getStats().getHP() + ",\n" +
-                "    \"attack\": " + pokemon.getStats().getAttack() + ",\n" +
-                "    \"defence\": " + pokemon.getStats().getDefence() + ",\n" +
-                "    \"special_attack\": " + pokemon.getStats().getSpecialAttack() + ",\n" +
-                "    \"special_defence\": " + pokemon.getStats().getSpecialDefence() + ",\n" +
-                "    \"speed\": " + pokemon.getStats().getSpeed() + "\n" +
-                "  },\n" +
-                "  \"behaviour\": {\n" +
-                "    \"resting\": {\n" +
-                "        \"canSleep\": " + pokemon.canSleep() + ",\n" +
-                "        \"willSleepOnBed\": " + pokemon.willSleepOnBed() + "," +
-                "        \"depth\": \"normal\",\n" +
-                "        \"light\": \"" + pokemon.getLightLevelMinSleep() + "-" + pokemon.getLightLevelMaxSleep() + "\"\n" +
-                "    },\n" +
-                "    \"moving\": {\n" +
-                "        \"fly\": {\n" +
-                "            \"canFly\": " + pokemon.canFly() + "\n" +
-                "        },\n" +
-                "        \"canLook\": " + pokemon.canLookAround() + ",\n" +
-                "        \"walk\": {\n" +
-                "            \"canWalk\": " + pokemon.canWalk() + ",\n" +
-                "            \"avoidsLand\": " + pokemon.avoidsLand() + "\n" +
-                "        },\n" +
-                "        \"swim\": {\n" +
-                "            \"swimSpeed\": " + pokemon.getSwimSpeed() + ",\n" +
-                "            \"canSwimInWater\": " + pokemon.canSwim() + ",\n";
-        if(pokemon.getSpawnData().stream().anyMatch(data->data.spawnContext() == SpawnContext.SURFACE)) fileContents += "            \"canWalkOnWater\": true,\n";
-        fileContents +=
-                "            \"canBreatheUnderwater\": " + pokemon.canBreathUnderwater() + "\n" +
-                "        }\n" +
-                "    }\n" +
-                "  },\n" +
-                "  \"catchRate\": " + pokemon.getCatchRate() + ",\n" +
-                "  \"maleRatio\": " + pokemon.getMaleRatio() + ",\n" +
-                "  \"shoulderMountable\": " + pokemon.isShoulderMountable() + ",\n";
+        var fileContents = pokemonJsonObject(pokemon);
+        fileContents.addProperty("nationalPokedexNumber", pokemon.getPokedexNumber());
+        fileContents.addProperty("shoulderMountable", pokemon.isShoulderMountable());
         if (pokemon.getShoulderMountEffect() != null) {
-            fileContents += "\"shoulderEffects\": [\n" +
-                    "    \"" + pokemon.getShoulderMountEffect() + "\"\n" +
-                    "  ],";
+            var shoulderMountEffects = new JsonArray();
+            shoulderMountEffects.add(pokemon.getShoulderMountEffect());
+            fileContents.add("shoulderEffects", shoulderMountEffects);
         }
-        boolean isFirstForm = true;
+        fileContents.add("behaviour", getBehaviour(pokemon));
+        fileContents.add("hitbox", getHitbox(pokemon.getHitboxWidth(), pokemon.getHitboxHeight()));
+        fileContents.add("features", getFeatures(pokemon.getForms()));
+        fileContents.addProperty("implemented", true);
+        var forms = getForms(pokemon.getForms());
+        fileContents.add("forms", forms);
 
-        if (pokemon.getForms().size() > 0) {
-            fileContents += "\"forms\": [";
-            for (PokemonForm form : pokemon.getForms()) {
-                if (isFirstForm) {
-                    isFirstForm = false;
-                } else {
-                    fileContents += ",\n";
-                }
-                fileContents += generateForm(form, pokemon);
-            }
-            fileContents += "\n],\n";
-        }
-        fileContents += "  \"baseExperienceYield\": " + pokemon.getBaseExperienceYield() + ",\n" +
-                "  \"experienceGroup\": \"" + pokemon.getExperienceGroup().getName() + "\",\n" +
-                "  \"eggCycles\": " + pokemon.getEggCycles() + ",\n" +
-                "  \"eggGroups\": [\n";
-        boolean isFirstEggGroupEntry = true;
-        for (EggGroup eggGroup : pokemon.getEggGroups()) {
-            if (isFirstEggGroupEntry) {
-                isFirstEggGroupEntry = false;
-            } else {
-                fileContents += ",\n";
-            }
-            if (eggGroup.isImplemented()) {
-                fileContents += "    \"" + eggGroup.name().toLowerCase() + "\"";
-            } else {
-                fileContents += "    \"" + EggGroup.UNDISCOVERED.name().toLowerCase() + "\"";
-            }
-
-        }
-        fileContents += "\n  ],";
-        if (!pokemon.getDrops().isEmpty()) {
-            fileContents +=
-                    "\n  \"drops\": {\n" +
-                            "    \"amount\": \"" + pokemon.getDropAmount() + "\",\n" +
-                            "    \"entries\": [\n";
-            boolean isFirstDropEntry = true;
-            for (ItemDrop itemDrop : pokemon.getDrops()) {
-                if (isFirstDropEntry) {
-                    isFirstDropEntry = false;
-                } else {
-                    fileContents += ",\n";
-                }
-                fileContents += "      {\n" +
-                        "        \"item\": \"" + itemDrop.getItemId() + "\",\n" +
-                        "        \"quantityRange\": \"" + itemDrop.getQuantityMin() + "-" + itemDrop.getQuantityMax() + "\",\n" +
-                        "        \"percentage\": " + itemDrop.getChance() + "\n" +
-                        "      }";
-            }
-            fileContents += "\n    ]\n" +
-                    "  },";
-        }
-        fileContents += getMoves(pokemon.getLearnSet());
-        fileContents += "  \"labels\": [\n";
-        boolean isFirstLabelEntry = true;
-        for (Label label : pokemon.getLabels()) {
-            if (isFirstLabelEntry) {
-                isFirstLabelEntry = false;
-            } else {
-                fileContents += ",\n";
-            }
-            fileContents += "    \"" + label.getName() + "\"";
-        }
-        fileContents += "\n  ],\n" +
-                "  \"pokedex\": [\n";
-
-        if (pokemon.isNew()) {
-            fileContents += "    \"cobblemon.species." + pokemon.getCleanName() + ".desc\"\n";
-        } else {
-            int dexEntryCounter = 1;
-            for (String entry : pokemon.getDexEntries()) {
-                fileContents += "    \"cobblemon.species." + pokemon.getCleanName() + ".desc" + dexEntryCounter + "\"\n";
-                dexEntryCounter++;
-            }
-        }
-
-        fileContents += "  ],\n";
-        if (pokemon.getPreEvolution() != null) {
-            fileContents += "  \"preEvolution\": \"" + pokemon.getPreEvolution() + "\",\n";
-        }
-
-        fileContents = getEvolutions(pokemon, fileContents);
-
-        fileContents +=
-                "  \"baseScale\": " + pokemon.getBaseScale() + ",\n" +
-                        "  \"hitbox\": {\n" +
-                        "    \"width\": " + pokemon.getHitboxWidth() + ",\n" +
-                        "    \"height\": " + pokemon.getHitboxHeight() + ",\n" +
-                        "    \"fixed\": false\n" +
-                        "  },\n" +
-                        "  \"baseFriendship\": " + pokemon.getBaseFriendship() + ",\n" +
-                        "  \"evYield\": {\n" +
-                        "    \"hp\": " + pokemon.getEvYield().getHP() + ",\n" +
-                        "    \"attack\": " + pokemon.getEvYield().getAttack() + ",\n" +
-                        "    \"defence\": " + pokemon.getEvYield().getDefence() + ",\n" +
-                        "    \"special_attack\": " + pokemon.getEvYield().getSpecialAttack() + ",\n" +
-                        "    \"special_defence\": " + pokemon.getEvYield().getSpecialDefence() + ",\n" +
-                        "    \"speed\": " + pokemon.getEvYield().getSpeed() + "\n" +
-                        "  },\n" +
-                        "  \"height\": " + pokemon.getHeight() + ",\n" +
-                        "  \"weight\": " + pokemon.getWeight() + ",\n" +
-                        "  \"aspects\": [],\n" +
-                        "\"features\": [\n";
-        boolean isFirstFeatureEntry = true;
-        for (PokemonForm form : pokemon.getForms()) {
-            if (isFirstFeatureEntry) {
-                isFirstFeatureEntry = false;
-            } else {
-                fileContents += ",\n";
-            }
-            fileContents += "\"" + form.getCleanName() + "\"";
-        }
-        fileContents += "\n  ]," +
-                "  \"cannotDynamax\": " + pokemon.cannotDynamax() + "\n" +
-                "}";
         BufferedWriter writer = new BufferedWriter(new FileWriter(dir + pokemon.getCleanName() + ".json"));
-        writer.write(fileContents);
+        writer.write(gson.toJson(fileContents));
         writer.close();
-        /*if(pokemon.isModeled()){
-            String modelledDir = "C:\\Users\\Stijn\\Desktop\\Gravelmon\\packaging\\model release\\data\\cobblemon\\species\\"+game.getName().toLowerCase()+"\\";
-            BufferedWriter writerModeled = new BufferedWriter(new FileWriter(modelledDir+pokemon.getCleanName()+".json"));
-            writerModeled.write(fileContents);
-            writerModeled.close();
-        }*/
     }
 
-    @NotNull
-    private static String getMoves(List<MoveLearnSetEntry> learnSetEntries) {
-        var fileContents = "\n  \"moves\": [\n";
-        boolean isFirstLearnSetEntry = true;
-        var allowedTypes = new ArrayList<>(List.of("sound", "crystal", "nuclear", "cosmic"));
+    private static JsonObject pokemonJsonObject(AbstractPokemon abstractPokemon) {
+        var fileContents = new JsonObject();
+        String aspect = null;
+        if(abstractPokemon instanceof Pokemon pokemon && AbstractPokemon.isAnAdditionalForm(pokemon)){
+            aspect = getAccurateAspect(RESOURCES_DIR, pokemon);
+        }
+        var name = (aspect == null ? StringUtils.capitalize(abstractPokemon.getCleanName()): StringUtils.capitalize(aspect));
+        fileContents.addProperty("name", name);
+        fileContents.addProperty("primaryType", abstractPokemon.getPrimaryType().getName());
+        if (abstractPokemon.getSecondaryType() != null) {
+            fileContents.addProperty("secondaryType", abstractPokemon.getSecondaryType().getName());
+        }
+        fileContents.addProperty("catchRate", abstractPokemon.getCatchRate());
+        fileContents.addProperty("maleRatio", abstractPokemon.getMaleRatio());
+        fileContents.addProperty("baseExperienceYield", abstractPokemon.getBaseExperienceYield());
+        fileContents.addProperty("experienceGroup", abstractPokemon.getExperienceGroup().getName());
+        fileContents.addProperty("eggCycles", abstractPokemon.getEggCycles());
+        fileContents.addProperty("baseFriendship", abstractPokemon.getBaseFriendship());
+        if (abstractPokemon.getPreEvolution() != null) {
+            fileContents.addProperty("preEvolution", abstractPokemon.getPreEvolution());
+        }
+        fileContents.addProperty("baseScale", abstractPokemon.getBaseScale());
+        fileContents.addProperty("cannotDynamax", abstractPokemon.getCannotDynamax());
+        fileContents.add("abilities", getAbilities(abstractPokemon));
+        fileContents.add("baseStats", abstractPokemon.getStats().getJsonRepresentation());
+        fileContents.add("evYield", abstractPokemon.getEvYield().getJsonRepresentation());
+        fileContents.add("eggGroups", getEggGroups(abstractPokemon));
+        fileContents.add("drops", getDrops(abstractPokemon.getDropAmount(), abstractPokemon.getDrops()));
+        fileContents.add("moves", getMoves(abstractPokemon.getLearnSet()));
+        fileContents.add("labels", getLabels(abstractPokemon.getLabels()));
+        fileContents.add("pokedex", getPokedexEntries(abstractPokemon.getDexEntries(), abstractPokemon.getCleanName()));
+        fileContents.addProperty("height", abstractPokemon.getHeight());
+        fileContents.addProperty("weight", abstractPokemon.getWeight());
+        fileContents.add("aspects", getAspects(abstractPokemon.getAspects(), aspect));
+        fileContents.add("evolutions", getEvolutions(abstractPokemon.getEvolutions(), abstractPokemon.getCleanName()));
+
+        return fileContents;
+    }
+
+    public static <T extends AbstractPokemon> JsonElement getFeatures(List<T> forms) {
+        var features = new JsonArray();
+        for (var form : forms) {
+            if(form instanceof Pokemon pokemon&& AbstractPokemon.isAnAdditionalForm(pokemon)){
+                var aspect = getAccurateAspect(RESOURCES_DIR, pokemon);
+                features.add(aspect);
+                continue;
+            }
+            features.add(form.getCleanName());
+        }
+        return features;
+    }
+
+    private static JsonElement getAspects(List<Aspect> aspectList, String additionalSpeciesAspect) {
+        var aspects = new JsonArray();
+        if(additionalSpeciesAspect != null) {
+            aspects.add(additionalSpeciesAspect);
+            return aspects;
+        }
+
+        for (var aspect : aspectList) {
+            aspects.add(GravelmonUtils.getCleanName(aspect.getName()));
+        }
+        return aspects;
+    }
+
+    private static JsonElement getHitbox(double hitboxWidth, double hitboxHeight) {
+        var hitbox = new JsonObject();
+        hitbox.addProperty("width", hitboxWidth);
+        hitbox.addProperty("height", hitboxHeight);
+        hitbox.addProperty("fixed", false);
+        return hitbox;
+    }
+
+    private static JsonElement getPokedexEntries(List<String> entries, String cleanName) {
+        var pokedex = new JsonArray();
+        int dexEntryCounter = 1;
+        for (int i = 0; i < entries.size(); i++) {
+
+            pokedex.add("cobblemon.species." + cleanName + ".desc" + dexEntryCounter);
+        }
+        return pokedex;
+    }
+
+    private static JsonElement getLabels(List<Label> labelList) {
+        var labels = new JsonArray();
+        labelList.forEach(label -> labels.add(label.getName()));
+        return labels;
+    }
+
+    public static JsonElement getDrops(int dropAmount, List<ItemDrop> dropList) {
+        var drops = new JsonObject();
+        if (!dropList.isEmpty()) {
+            drops.addProperty("amount", dropAmount);
+            var entries = new JsonArray();
+            for (ItemDrop itemDrop : dropList) {
+                var entry = new JsonObject();
+                entries.add(entry);
+                entry.addProperty("item", itemDrop.getItemId());
+                entry.addProperty("quantityRange", itemDrop.getQuantityMin() + "-" + itemDrop.getQuantityMax());
+                entry.addProperty("percentage", itemDrop.getChance());
+            }
+        }
+        return drops;
+    }
+
+    private static JsonElement getEggGroups(AbstractPokemon pokemon) {
+        var eggGroups = new JsonArray();
+        for (EggGroup eggGroup : pokemon.getEggGroups()) {
+            if (eggGroup.isImplemented()) {
+                eggGroups.add(eggGroup.name().toLowerCase());
+            } else {
+                eggGroups.add(EggGroup.UNDISCOVERED.name().toLowerCase());
+            }
+
+        }
+        return eggGroups;
+    }
+
+    public static <T extends AbstractPokemon> JsonArray getForms(List<T> formList) {
+        var forms = new JsonArray();
+
+        if (formList.size() > 0) {
+            for (AbstractPokemon form : formList) {
+                forms.add(generateForm(form));
+            }
+        }
+        return forms;
+    }
+
+    private static String getAccurateAspect(String resourcesDir, Pokemon pokemon) {
+        var aspect = pokemon.getAdditionalAspect().getName();
+        var pokemonName = pokemon.getName();
+        for (int i = 0; i < 20; i++) {
+            String numberAsWord = EnglishNumberToWords.convert(i);
+            if(pokemonName.endsWith(StringUtils.capitalize(numberAsWord.toLowerCase()))){
+                aspect += EnglishNumberToWords.convert(i+1);
+                try {
+                    SpeciesFeaturesJSONWriter.writeFeature(aspect, resourcesDir);
+                } catch (IOException e) {
+                    System.out.println("oops");
+                }
+                return aspect;
+            }
+        }
+        return aspect.replaceAll("_", "");
+    }
+
+    private static JsonObject getBehaviour(Pokemon pokemon) {
+        var behaviour = new JsonObject();
+        var resting = new JsonObject();
+        resting.addProperty("canSleep", pokemon.canSleep());
+        resting.addProperty("willSleepOnBed", pokemon.willSleepOnBed());
+        resting.addProperty("depth", "normal");
+        resting.addProperty("light", pokemon.getLightLevelMinSleep() + "-" + pokemon.getLightLevelMaxSleep());
+        behaviour.add("resting", resting);
+        var moving = new JsonObject();
+        var fly = new JsonObject();
+        fly.addProperty("canFly", pokemon.canFly());
+        moving.add("fly", fly);
+        moving.addProperty("canLook", pokemon.canLookAround());
+        var walk = new JsonObject();
+        walk.addProperty("canWalk", pokemon.canWalk());
+        walk.addProperty("avoidsLand", pokemon.avoidsLand());
+        moving.add("walk", walk);
+        var swim = new JsonObject();
+        swim.addProperty("swimSpeed", pokemon.getSwimSpeed());
+        swim.addProperty("canSwimInWater", pokemon.canSwim());
+        swim.addProperty("canBreatheUnderwater", pokemon.canBreathUnderwater());
+        if (pokemon.getSpawnData().stream().anyMatch(data -> data.spawnContext() == SpawnContext.SURFACE))
+            swim.addProperty("canWalkOnWater", true);
+        moving.add("swim", swim);
+        behaviour.add("moving", moving);
+        return behaviour;
+    }
+
+    private static JsonArray getAbilities(AbstractPokemon pokemon) {
+        var abilities = new JsonArray();
+        int abilityCount = 0;
+        for (Ability ability : pokemon.getAbilities()) {
+            if (ability.isImplemented()) {
+                abilities.add(ability.getName());
+                abilityCount++;
+            }
+        }
+        if (abilityCount == 0) {
+            abilities.add(Ability.KEEN_EYE.getName());
+        }
+        if (pokemon.getHiddenAbility() != null && pokemon.getHiddenAbility().isImplemented()) {
+            abilities.add("h:" + pokemon.getHiddenAbility().getName());
+        }
+        return abilities;
+    }
+
+    private static JsonElement getMoves(List<MoveLearnSetEntry> learnSetEntries) {
+        var moves = new JsonArray();
         for (MoveLearnSetEntry moveLearnsetEntry : learnSetEntries) {
             var move = moveLearnsetEntry.getMove();
             var moveName = move.getName();
             if (move.isImplemented()) {
-                if (isFirstLearnSetEntry) {
-                    isFirstLearnSetEntry = false;
-                } else {
-                    fileContents += ",\n";
-                }
-                fileContents += "    \"" + moveLearnsetEntry.getCondition() + ":" + moveName + "\"";
+                moves.add(moveLearnsetEntry.getCondition() + ":" + moveName);
             }
         }
-        fileContents += "  ],\n";
-        return fileContents;
+        return moves;
     }
 
-    private static String getEvolutions(Pokemon pokemon, String fileContents) {
-        if (!pokemon.getEvolutions().isEmpty()) {
-            fileContents += "  \"evolutions\": [\n";
-            boolean isFirstEvolution = true;
-            for (EvolutionEntry evolution : pokemon.getEvolutions()) {
-                if (isFirstEvolution) {
-                    isFirstEvolution = false;
-                } else {
-                    fileContents += ",\n";
-                }
-                fileContents += "    {\n" +
-                        "      \"id\": \"" + pokemon.getCleanName() + "_" + GravelmonUtils.getCleanName(evolution.getResult()) + "\",\n" +
-                        "      \"variant\": \"" + evolution.getKind().getName() + "\",\n" +
-                        "      \"result\": \"" + evolution.getResult();
-                if (!evolution.getAspects().isEmpty()) {
-                    for (Aspect aspect : evolution.getAspects()) {
-                        fileContents += " " + aspect;
-                    }
-                }
-                fileContents += "\",\n" +
-                        "      \"consumeHeldItem\": " + evolution.consumesHeldItem() + ",\n";
-                if (evolution.hasMoves()) {
-                    fileContents += "      \"learnableMoves\": [";
-                    boolean isFirstLearnSetEntry = true;
-                    for (MoveLearnSetEntry moveLearnsetEntry : evolution.getMoves()) {
-                        if (moveLearnsetEntry.getMove().isImplemented()) {
-                            if (isFirstLearnSetEntry) {
-                                isFirstLearnSetEntry = false;
-                            } else {
-                                fileContents += ",\n";
-                            }
-                            fileContents += "    \"" + moveLearnsetEntry.getMove().getName() + "\"";
-                        }
-                    }
-                    fileContents += "],\n";
-                } else {
-                    fileContents += "      \"learnableMoves\": [],\n";
-                }
-                fileContents += "      \"requirements\": [\n";
-                boolean isFirstRequirement = true;
-                for (EvolutionRequirementEntry entry : evolution.getRequirements()) {
-                    if (isFirstRequirement) {
-                        isFirstRequirement = false;
-                    } else {
-                        fileContents += ",\n";
-                    }
-                    if (entry.getCondition().equals(EvolutionRequirementCondition.PARTY_MEMBER.getCondition())) {
-                        fileContents += "        {\n" +
-                                "          \"variant\": \"" + entry.getRequirementKind() + "\",\n" +
-                                "          \"" + entry.getCondition() + "\": " + entry.getConditionParameter() + ",\n" +
-                                "          \"contains\": true\n" +
-                                "        }";
-                    } else {
-                        fileContents += "        {\n" +
-                                "          \"variant\": \"" + entry.getRequirementKind() + "\",\n" +
-                                "          \"" + entry.getCondition() + "\": " + entry.getConditionParameter() + "\n" +
-                                "        }";
-                    }
-                }
-                fileContents += "\n      ]";
-                if (evolution.getRequiredContext() != null) {
-                    fileContents += ",\n" +
-                            "      \"requiredContext\": \"" + evolution.getRequiredContext() + "\"";
-                }
-                fileContents += ",\n" +
-                        "      \"permanent\": true";
-
-                fileContents += "   \n }";
+    public static JsonArray getEvolutions(List<EvolutionEntry> evolutionEntries, String original) {
+        var evolutions = new JsonArray();
+        if (!evolutionEntries.isEmpty()) {
+            for (EvolutionEntry evolution : evolutionEntries) {
+                evolutions.add(getEvolutionJson(evolution, original));
 
             }
-            fileContents += "\n  ],\n";
+        }
+        return evolutions;
+    }
+
+    private static JsonObject generateForm (AbstractPokemon form){
+        var fileContents = pokemonJsonObject(form);
+        if(form instanceof PokemonForm pokemonForm) {
+            fileContents.addProperty("battleOnly", pokemonForm.isBattleOnly());
+        } else if(form instanceof Pokemon pokemon){
+            fileContents.addProperty("shoulderMountable", pokemon.isShoulderMountable());
+            if (pokemon.getShoulderMountEffect() != null) {
+                var shoulderMountEffects = new JsonArray();
+                shoulderMountEffects.add(pokemon.getShoulderMountEffect());
+                fileContents.add("shoulderEffects", shoulderMountEffects);
+            }
+            fileContents.add("behaviour", getBehaviour(pokemon));
+            fileContents.add("hitbox", getHitbox(pokemon.getHitboxWidth(), pokemon.getHitboxHeight()));
         }
         return fileContents;
     }
 
-    private static String generateForm(PokemonForm form, Pokemon pokemon) {
-
-        String formString =
-                "    {\n" +
-                        "      \"name\": \"" + form.getFormName() + "\",\n";
-        if (!form.getDexEntries().isEmpty()) {
-            formString += "      \"pokedex\": [\n";
-            int dexEntryCounter = 1;
-            for (String entry : form.getDexEntries()) {
-                formString += "    \"cobblemon.species." + pokemon.getCleanName() + ".desc" + dexEntryCounter + "\"\n";
-                dexEntryCounter++;
+    private static JsonElement getEvolutionJson(EvolutionEntry evolution, String original) {
+        var evolutionJson = new JsonObject();
+        evolutionJson.addProperty("id", original + "_" + GravelmonUtils.getCleanName(evolution.getResult()));
+        evolutionJson.addProperty("variant", evolution.getKind().getName());
+        StringBuilder aspects = new StringBuilder();
+        if (!evolution.getAspects().isEmpty()) {
+            for (Aspect aspect : evolution.getAspects()) {
+                aspects.append(" ").append(aspect);
             }
-            formString += "  ],\n";
         }
-        formString += "      \"primaryType\": \"" + form.getPrimaryType().getName() + "\",\n";
+        evolutionJson.addProperty("result", evolution.getResult() + aspects);
+        evolutionJson.addProperty("consumeHeldItem", evolution.consumesHeldItem());
 
-        if (form.getSecondaryType() != null) {
-            formString += "      \"secondaryType\": \"" + form.getSecondaryType().getName() + "\",\n";
-        }
-        formString += "      \"abilities\": [\n";
-        int abilities = 0;
-        boolean isFirstAbility = true;
-        for (Ability ability : form.getAbilities()) {
-            if (ability.isImplemented()) {
-                if (isFirstAbility) {
-                    isFirstAbility = false;
-                } else {
-                    formString += ",\n";
+        var learnableMoves = new JsonArray();
+        evolutionJson.add("learnableMoves", learnableMoves);
+        if (evolution.hasMoves()) {
+            for (MoveLearnSetEntry moveLearnsetEntry : evolution.getMoves()) {
+                if (moveLearnsetEntry.getMove().isImplemented()) {
+                    learnableMoves.add(moveLearnsetEntry.getMove().getName());
                 }
-                formString += "    \"" + ability.getName() + "\"";
-                abilities++;
-            }
-        }
-        if (abilities == 0) {
-            formString += "    \"" + Ability.KEEN_EYE.getName() + "\"";
-        }
-
-        if (pokemon.getHiddenAbility() !=null && pokemon.getHiddenAbility().isImplemented()) {
-            formString += ",\n    \"h:" + pokemon.getHiddenAbility().getName() + "\"\n";
-        }
-
-        formString +=
-
-                "      ],\n" +
-                        "      \"baseScale\": " + form.getBaseScale() + ",\n" +
-                        "        \"hitbox\": {\n" +
-                        "          \"width\": " + pokemon.getHitboxWidth() + ",\n" +
-                        "          \"height\": " + pokemon.getHitboxHeight() + ",\n" +
-                        "          \"fixed\": false\n" +
-                        "      },\n" +
-                        "      \"baseStats\": {\n" +
-                        "        \"hp\": " + form.getStats().getHP() + ",\n" +
-                        "        \"attack\": " + form.getStats().getAttack() + ",\n" +
-                        "        \"defence\": " + form.getStats().getDefence() + ",\n" +
-                        "        \"special_attack\": " + form.getStats().getSpecialAttack() + ",\n" +
-                        "        \"special_defence\": " + form.getStats().getSpecialDefence() + ",\n" +
-                        "        \"speed\": " + form.getStats().getSpeed() + "\n" +
-                        "      },\n" +
-                        "      \"catchRate\": " + form.getCatchRate() + ",\n" +
-                        "      \"maleRatio\": " + form.getMaleRatio() + ",\n" +
-                        "      \"baseExperienceYield\": " + form.getBaseExperienceYield() + ",\n" +
-                        "      \"baseFriendship\": " + form.getBaseFriendship() + ",\n" +
-                        "      \"evYield\": {\n" +
-                        "        \"hp\": " + form.getEvYield().getHP() + ",\n" +
-                        "        \"attack\": " + form.getEvYield().getAttack() + ",\n" +
-                        "        \"defence\": " + form.getEvYield().getDefence() + ",\n" +
-                        "        \"special_attack\": " + form.getEvYield().getSpecialAttack() + ",\n" +
-                        "        \"special_defence\": " + form.getEvYield().getSpecialDefence() + ",\n" +
-                        "        \"speed\": " + form.getEvYield().getSpeed() + "\n" +
-                        "      },\n" +
-                        "      \"experienceGroup\": \"" + form.getExperienceGroup().getName() + "\",\n" +
-                        "      \"eggCycles\": " + form.getEggCycles() + ",\n" +
-                        "      \"eggGroups\": [\n";
-        boolean isFirstEggGroupEntry = true;
-        for (EggGroup eggGroup : pokemon.getEggGroups()) {
-            if (isFirstEggGroupEntry) {
-                isFirstEggGroupEntry = false;
-            } else {
-                formString += ",\n";
-            }
-            if (eggGroup.isImplemented()) {
-                formString += "    \"" + eggGroup.name().toLowerCase() + "\"";
-            } else {
-                formString += "    \"" + EggGroup.UNDISCOVERED.name().toLowerCase() + "\"";
             }
         }
 
-        formString += "\n  ],";
-        if (form.getPreEvolution() != null) {
-            formString += "  \"preEvolution\": \"" + form.getPreEvolution() + "\",\n";
+        var requirements = new JsonArray();
+        evolutionJson.add("requirements", requirements);
+        for (EvolutionRequirementEntry entry : evolution.getRequirements()) {
+            var entryJson = new JsonObject();
+            entryJson.addProperty("variant", entry.getRequirementKind());
+            entryJson.addProperty(entry.getCondition(), entry.getConditionParameter());
+            if (entry.getCondition().equals(EvolutionRequirementCondition.PARTY_MEMBER.getCondition()))
+                entryJson.addProperty("contains", true);
+            requirements.add(entryJson);
         }
-        if (!form.getLearnSet().isEmpty()) {
-            formString += getMoves(form.getLearnSet());
+        if (evolution.getRequiredContext() != null) {
+            evolutionJson.addProperty("requiredContext", evolution.getRequiredContext());
         }
-        formString += "  \"drops\": {\n" +
-                "    \"amount\": \"" + form.getDropAmount() + "\",\n" +
-                "    \"entries\": [\n";
-        boolean isFirstDropEntry = true;
-        for (ItemDrop itemDrop : form.getDrops()) {
-            if (isFirstDropEntry) {
-                isFirstDropEntry = false;
-            } else {
-                formString += ",\n";
-            }
-            formString += "      {\n" +
-                    "        \"item\": \"" + itemDrop.getItemId() + "\",\n" +
-                    "        \"quantityRange\": \"" + itemDrop.getQuantityMin() + "-" + itemDrop.getQuantityMax() + "\",\n" +
-                    "        \"percentage\": " + itemDrop.getChance() + "\n" +
-                    "      }";
-        }
-        formString += "\n    ]\n" +
-                "      },\n" +
-                "      \"labels\": [\n";
-        boolean isFirstLabelEntry = true;
-        for (Label label : form.getLabels()) {
-            if (isFirstLabelEntry) {
-                isFirstLabelEntry = false;
-            } else {
-                formString += ",\n";
-            }
-            formString += "    \"" + label.getName() + "\"";
-        }
-        formString += "\n      ],\n" +
-                "      \"aspects\": [\n";
-        boolean isFirstAspect = true;
-        for (Aspect aspect : form.getAspects()) {
-            if (isFirstAspect) {
-                isFirstAspect = false;
-            } else {
-                formString += ",\n";
-            }
-            formString += "        \"" + aspect.name().toLowerCase() + "\"";
-        }
-        formString += "\n      ],\n" +
-                "      \"height\": " + form.getHeight() / 10 + ",\n" +
-                "      \"weight\": " + form.getWeight() * 10 + ",\n";
-        if (!form.getEvolutions().isEmpty()) {
-            formString += "  \"evolutions\": [\n";
-            boolean isFirstEvolutionEntry = true;
-            for (EvolutionEntry evolution : form.getEvolutions()) {
-                if (isFirstEvolutionEntry) {
-                    isFirstEvolutionEntry = false;
-                } else {
-                    formString += ",\n";
-                }
-                formString += "    {\n" +
-                        "      \"id\": \"" + form.getCleanName() + "_" + pokemon.getCleanName() + "_" + evolution.getResult().split(" ")[0] + "\",\n" +
-                        "      \"variant\": \"" + evolution.getKind().getName() + "\",\n" +
-                        "      \"result\": \"" + evolution.getResult();
-                for (Aspect aspect : evolution.getAspects()) {
-                    formString += " " + aspect.name().toLowerCase().replaceAll("_", "");
-                }
-                formString += "\",\n" +
-                        "      \"consumeHeldItem\": " + evolution.consumesHeldItem() + ",\n";
-                if (evolution.hasMoves()) {
-                    formString += "\"learnableMoves\": [";
-                    boolean isFirstLearnSetEntryForm = true;
-                    for (MoveLearnSetEntry moveLearnsetEntry : evolution.getMoves()) {
-                        if (moveLearnsetEntry.getMove().isImplemented()) {
-                            if (isFirstLearnSetEntryForm) {
-                                isFirstLearnSetEntryForm = false;
-                            } else {
-                                formString += ",\n";
-                            }
-                            formString += "    \"" + moveLearnsetEntry.getCondition() + ":" + moveLearnsetEntry.getMove().getName() + "\"";
-                        }
-                    }
-                    formString += "],";
-                } else {
-                    formString += "      \"learnableMoves\": [],\n";
-                }
-                formString += "      \"requirements\": [\n";
-                boolean isFirstRequirement = true;
-                for (EvolutionRequirementEntry entry : evolution.getRequirements()) {
-                    if (isFirstRequirement) {
-                        isFirstRequirement = false;
-                    } else {
-                        formString += ",\n";
-                    }
+        evolutionJson.addProperty("permanent", true);
 
-                    formString += "        {\n" +
-                            "          \"variant\": \"" + entry.getRequirementKind() + "\",\n" +
-                            "          \"" + entry.getCondition() + "\": " + entry.getConditionParameter() + "\n" +
-                            "        }";
-                }
-                formString += "\n      ]";
-                if (evolution.getRequiredContext() != null) {
-                    formString += ",\n" +
-                            "      \"requiredContext\": \"" + evolution.getRequiredContext() + "\"";
-                }
-                formString += ",\n" +
-                        "      \"permanent\": true";
-
-                formString += "\n    }";
-            }
-            formString += "\n  ],\n";
-        }
-        formString += "      \"cannotDynamax\": " + form.cannotDynamax() + ",\n" +
-                "      \"battleOnly\": " + form.isBattleOnly() + "\n" +
-                "    }";
-        return formString;
+        return evolutionJson;
     }
 }

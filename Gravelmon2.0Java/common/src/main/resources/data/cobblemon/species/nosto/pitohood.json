@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Pitohood",
-  "nationalPokedexNumber": 4715,
   "primaryType": "poison",
   "secondaryType": "flying",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 116,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "pekaboo",
+  "baseScale": 0.21666666666666667,
+  "cannotDynamax": false,
   "abilities": [
     "poisonpoint",
     "h:merciless"
@@ -16,37 +23,18 @@
     "special_defence": 40,
     "speed": 58
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 116,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "flying"
   ],
+  "drops": {},
   "moves": [
     "5:peck",
     "1:moonblast",
@@ -116,7 +104,8 @@
     "tm:mistyterrain",
     "tm:swift",
     "tm:wish",
-    "tm:nastyplot"  ],
+    "tm:nastyplot"
+  ],
   "labels": [
     "nosto",
     "not_modeled",
@@ -124,9 +113,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.pitohood.desc"
+    "cobblemon.species.pitohood.desc1"
   ],
-  "preEvolution": "pekaboo",
+  "height": 13,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "pitohood_aviafel",
@@ -134,32 +125,42 @@
       "result": "aviafel",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
+      "requirements": [],
       "requiredContext": "cobblemon:dusk_stone",
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.21666666666666667,
+  "nationalPokedexNumber": 4715,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 13,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

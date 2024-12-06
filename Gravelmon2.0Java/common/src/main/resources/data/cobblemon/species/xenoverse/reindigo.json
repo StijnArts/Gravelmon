@@ -1,10 +1,18 @@
 {
-  "implemented": true,
   "name": "Reindigo",
-  "nationalPokedexNumber": 2234,
   "primaryType": "dark",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 183,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 32,
+  "baseFriendship": 70,
+  "preEvolution": "reindear",
+  "baseScale": 0.4166666666666667,
+  "cannotDynamax": false,
   "abilities": [
-    "defeatist"  ],
+    "defeatist"
+  ],
   "baseStats": {
     "hp": 110,
     "attack": 128,
@@ -13,38 +21,19 @@
     "special_defence": 108,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 183,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 32,
   "eggGroups": [
     "monster",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:payback",
     "1:scaryface",
@@ -114,7 +103,8 @@
     "tutor:sleeptalk",
     "tutor:snatch",
     "tutor:snore",
-    "tutor:superpower"  ],
+    "tutor:superpower"
+  ],
   "labels": [
     "xenoverse",
     "not_modeled",
@@ -122,28 +112,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.reindigo.desc"
+    "cobblemon.species.reindigo.desc1"
   ],
-  "preEvolution": "reindear",
-  "baseScale": 0.4166666666666667,
+  "height": 25,
+  "weight": 1200,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2234,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 25,
-  "weight": 1200,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

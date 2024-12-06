@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Whiskereef",
-  "nationalPokedexNumber": 5306,
   "primaryType": "water",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "nyaqua",
+  "baseScale": 0.25,
+  "cannotDynamax": false,
   "abilities": [
     "thickfat",
     "h:unaware"
@@ -15,38 +22,19 @@
     "special_defence": 95,
     "speed": 53
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 3,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 90,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "water_1",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:flipturn",
     "1:tackle",
@@ -60,7 +48,8 @@
     "37:bodyslam",
     "42:safeguard",
     "48:superpower",
-    "52:waterspout"  ],
+    "52:waterspout"
+  ],
   "labels": [
     "fliga",
     "not_modeled",
@@ -68,28 +57,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.whiskereef.desc"
+    "cobblemon.species.whiskereef.desc1"
   ],
-  "preEvolution": "nyaqua",
-  "baseScale": 0.25,
+  "height": 15,
+  "weight": 481,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5306,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 3,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 15,
-  "weight": 481,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

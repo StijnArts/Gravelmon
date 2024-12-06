@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Electeel",
-  "nationalPokedexNumber": 3127,
   "primaryType": "water",
   "secondaryType": "electric",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "liqueel",
+  "baseScale": 0.13333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "torrent",
     "h:voltabsorb"
@@ -16,38 +23,19 @@
     "special_defence": 78,
     "speed": 50
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 142,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_2",
     "monster"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "5:tailwhip",
@@ -97,7 +85,8 @@
     "tm:waterpulse",
     "tm:waterfall",
     "tm:wildcharge",
-    "tm:workup"  ],
+    "tm:workup"
+  ],
   "labels": [
     "isiah",
     "not_modeled",
@@ -105,9 +94,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.electeel.desc"
+    "cobblemon.species.electeel.desc1"
   ],
-  "preEvolution": "liqueel",
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "electeel_emporeel",
@@ -118,31 +109,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 36
+          "minLevel": "36"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.13333333333333333,
+  "nationalPokedexNumber": 3127,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 8,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

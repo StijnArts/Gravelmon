@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Batrix",
-  "nationalPokedexNumber": 3121,
   "primaryType": "fire",
   "secondaryType": "steel",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "batorch",
+  "baseScale": 0.13333333333333333,
+  "cannotDynamax": false,
   "abilities": [
-    "blaze"  ],
+    "blaze"
+  ],
   "baseStats": {
     "hp": 54,
     "attack": 82,
@@ -14,38 +22,19 @@
     "special_defence": 55,
     "speed": 74
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 142,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field",
     "flying"
   ],
+  "drops": {},
   "moves": [
     "1:scratch",
     "3:leer",
@@ -61,7 +50,8 @@
     "42:flamethrower",
     "47:autotomize",
     "53:fireblast",
-    "59:metalburst"  ],
+    "59:metalburst"
+  ],
   "labels": [
     "junnin",
     "not_modeled",
@@ -69,9 +59,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.batrix.desc"
+    "cobblemon.species.batrix.desc1"
   ],
-  "preEvolution": "batorch",
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "batrix_vamfire",
@@ -82,31 +74,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 34
+          "minLevel": "34"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.13333333333333333,
+  "nationalPokedexNumber": 3121,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 8,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,10 +1,17 @@
 {
-  "implemented": true,
   "name": "Questnut",
-  "nationalPokedexNumber": 2740,
   "primaryType": "grass",
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
-    "runaway"  ],
+    "runaway"
+  ],
   "baseStats": {
     "hp": 60,
     "attack": 30,
@@ -13,91 +20,6 @@
     "special_defence": 30,
     "speed": 55
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 255,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:absorb"  ],
-  "labels": [
-    "kuulkid",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.questnut.desc"
-  ],
-  "evolutions": [
-    {
-      "id": "questnut_barbalmond",
-      "variant": "item_interact",
-      "result": "barbalmond",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-
-      ],
-      "requiredContext": "minecraft:goat_horn",
-      "permanent": true   
- },
-    {
-      "id": "questnut_naturaecorn",
-      "variant": "item_interact",
-      "result": "naturaecorn",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-
-      ],
-      "requiredContext": "minecraft:spider_eye",
-      "permanent": true   
- },
-    {
-      "id": "questnut_priestachio",
-      "variant": "item_interact",
-      "result": "priestachio",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-
-      ],
-      "requiredContext": "cobblemon:lum_berry",
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -106,10 +28,86 @@
     "special_defence": 0,
     "speed": 0
   },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:absorb"
+  ],
+  "labels": [
+    "kuulkid",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.questnut.desc1"
+  ],
   "height": 3,
   "weight": 0,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [
+    {
+      "id": "questnut_barbalmond",
+      "variant": "item_interact",
+      "result": "barbalmond",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:goat_horn",
+      "permanent": true
+    },
+    {
+      "id": "questnut_naturaecorn",
+      "variant": "item_interact",
+      "result": "naturaecorn",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:spider_eye",
+      "permanent": true
+    },
+    {
+      "id": "questnut_priestachio",
+      "variant": "item_interact",
+      "result": "priestachio",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:lum_berry",
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 2740,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

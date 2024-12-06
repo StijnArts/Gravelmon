@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Ananoop",
-  "nationalPokedexNumber": 4570,
   "primaryType": "poison",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 160,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "ananot",
+  "baseScale": 0.13333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "dryskin",
     "liquidooze",
@@ -16,38 +23,19 @@
     "special_defence": 70,
     "speed": 50
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 90,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 160,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "amorphous",
     "grass"
   ],
+  "drops": {},
   "moves": [
     "1:pound",
     "5:yawn",
@@ -71,7 +59,8 @@
     "egg:destinybond",
     "egg:mudslap",
     "egg:smog",
-    "egg:stuffcheeks"  ],
+    "egg:stuffcheeks"
+  ],
   "labels": [
     "lockemon",
     "not_modeled",
@@ -79,28 +68,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.ananoop.desc"
+    "cobblemon.species.ananoop.desc1"
   ],
-  "preEvolution": "ananot",
-  "baseScale": 0.13333333333333333,
+  "height": 8,
+  "weight": 155,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 4570,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 8,
-  "weight": 155,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

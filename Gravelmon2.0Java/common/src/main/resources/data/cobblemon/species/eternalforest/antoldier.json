@@ -1,12 +1,20 @@
 {
-  "implemented": true,
   "name": "Antoldier",
-  "nationalPokedexNumber": 4089,
   "primaryType": "bug",
   "secondaryType": "fighting",
+  "catchRate": 140,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 137,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "antager",
+  "baseScale": 0.2333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "defeatist",
-    "defeatist"  ],
+    "defeatist"
+  ],
   "baseStats": {
     "hp": 75,
     "attack": 150,
@@ -15,37 +23,18 @@
     "special_defence": 45,
     "speed": 110
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 140,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 137,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:pound",
     "1:leer",
@@ -124,7 +113,8 @@
     "egg:thrash",
     "egg:knockoff",
     "egg:entrainment",
-    "egg:drillrun"  ],
+    "egg:drillrun"
+  ],
   "labels": [
     "eternal_forest",
     "not_modeled",
@@ -132,28 +122,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.antoldier.desc"
+    "cobblemon.species.antoldier.desc1"
   ],
-  "preEvolution": "antager",
-  "baseScale": 0.2333333333333333,
+  "height": 14,
+  "weight": 560,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 4089,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 14,
-  "weight": 560,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

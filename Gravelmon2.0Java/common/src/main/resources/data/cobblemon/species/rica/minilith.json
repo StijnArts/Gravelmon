@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Minilith",
-  "nationalPokedexNumber": 1313,
   "primaryType": "rock",
   "secondaryType": "ground",
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 61,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "solidrock",
     "sandforce",
@@ -17,37 +23,18 @@
     "special_defence": 58,
     "speed": 13
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 255,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 61,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:mudsport",
     "6:rockthrow",
@@ -103,14 +90,18 @@
     "tm:counter",
     "tm:bide",
     "tm:sandtomb",
-    "tm:bulldoze"  ],
+    "tm:bulldoze"
+  ],
   "labels": [
     "rica",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.minilith.desc"
+    "cobblemon.species.minilith.desc1"
   ],
+  "height": 5,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "minilith_bolstone",
@@ -121,31 +112,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 26
+          "minLevel": "26"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 1313,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 5,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

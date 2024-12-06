@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Baariette",
-  "nationalPokedexNumber": 2525,
   "primaryType": "dark",
   "secondaryType": "fighting",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 144,
+  "experienceGroup": "fast",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "preEvolution": "baaschaf",
+  "baseScale": 0.26666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "guts",
     "moxie",
@@ -17,39 +24,19 @@
     "special_defence": 85,
     "speed": 75
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canWalkOnWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 144,
-  "experienceGroup": "fast",
-  "eggCycles": 100,
   "eggGroups": [
     "field",
     "monster"
   ],
+  "drops": {},
   "moves": [
     "1:beatup",
     "1:lowkick",
@@ -134,7 +121,8 @@
     "egg:rollingkick",
     "egg:encore",
     "egg:counter",
-    "egg:rockslide"  ],
+    "egg:rockslide"
+  ],
   "labels": [
     "uranium",
     "not_modeled",
@@ -142,28 +130,44 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.baariette.desc"
+    "cobblemon.species.baariette.desc1"
   ],
-  "preEvolution": "baaschaf",
-  "baseScale": 0.26666666666666666,
+  "height": 16,
+  "weight": 718,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2525,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false,
+        "canWalkOnWater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 3,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 16,
-  "weight": 718,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Colonoodle",
-  "nationalPokedexNumber": 8098,
   "primaryType": "poison",
   "secondaryType": "dark",
+  "catchRate": 150,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "fluffloat",
+  "baseScale": 0.13333333333333333,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
   "baseStats": {
     "hp": 99,
     "attack": 28,
@@ -14,42 +22,24 @@
     "special_defence": 133,
     "speed": 16
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 150,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:acid",
     "1:bite",
     "1:bulkup",
-    "1:bulkup"  ],
+    "1:bulkup"
+  ],
   "labels": [
     "goetia",
     "not_modeled",
@@ -57,9 +47,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.colonoodle.desc"
+    "cobblemon.species.colonoodle.desc1"
   ],
-  "preEvolution": "fluffloat",
+  "height": 8,
+  "weight": 0,
+  "aspects": [],
   "evolutions": [
     {
       "id": "colonoodle_tenthereal",
@@ -70,31 +62,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 44
+          "minLevel": "44"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.13333333333333333,
+  "nationalPokedexNumber": 8098,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 8,
-  "weight": 0,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

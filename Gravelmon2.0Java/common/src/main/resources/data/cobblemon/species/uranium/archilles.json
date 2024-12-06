@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Archilles",
-  "nationalPokedexNumber": 2484,
   "primaryType": "fire",
   "secondaryType": "ground",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 243,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "baseScale": 0.31666666666666665,
+  "cannotDynamax": false,
   "abilities": [
     "flamebody",
     "h:blaze"
@@ -16,38 +22,19 @@
     "special_defence": 80,
     "speed": 125
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 243,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 100,
   "eggGroups": [
     "monster",
     "dragon"
   ],
+  "drops": {},
   "moves": [
     "1:scratch",
     "1:growl",
@@ -112,33 +99,50 @@
     "egg:bite",
     "egg:outrage",
     "egg:rockslide",
-    "egg:swordsdance"  ],
+    "egg:swordsdance"
+  ],
   "labels": [
     "uranium",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.archilles.desc"
+    "cobblemon.species.archilles.desc1"
   ],
-  "baseScale": 0.31666666666666665,
+  "height": 19,
+  "weight": 885,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2484,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 3
-  },
-  "height": 19,
-  "weight": 885,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

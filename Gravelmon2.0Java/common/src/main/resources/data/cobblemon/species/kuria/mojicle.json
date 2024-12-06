@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Mojicle",
-  "nationalPokedexNumber": 5602,
   "primaryType": "water",
   "secondaryType": "fairy",
+  "catchRate": 190,
+  "maleRatio": 0.25,
+  "baseExperienceYield": 77,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "swiftswim",
     "h:trace"
@@ -16,38 +22,19 @@
     "special_defence": 86,
     "speed": 40
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 190,
-  "maleRatio": 0.25,
-  "shoulderMountable": false,
-  "baseExperienceYield": 77,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "water_1",
     "water_2"
   ],
+  "drops": {},
   "moves": [
     "1:echoedvoice",
     "1:growl",
@@ -66,14 +53,18 @@
     "48:raindance",
     "50:moonblast",
     "55:perishsong",
-    "57:hydropump"  ],
+    "57:hydropump"
+  ],
   "labels": [
     "kuria",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.mojicle.desc"
+    "cobblemon.species.mojicle.desc1"
   ],
+  "height": 5,
+  "weight": 85,
+  "aspects": [],
   "evolutions": [
     {
       "id": "mojicle_evercle",
@@ -81,32 +72,42 @@
       "result": "evercle",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
+      "requirements": [],
       "requiredContext": "cobblemon:water_stone",
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 5602,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 5,
-  "weight": 85,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

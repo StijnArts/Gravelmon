@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Dauspector",
-  "nationalPokedexNumber": 4354,
   "primaryType": "flying",
   "secondaryType": "steel",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.19999999999999998,
+  "cannotDynamax": false,
   "abilities": [
     "keeneye",
     "h:pickpocket"
@@ -16,56 +22,6 @@
     "special_defence": 72,
     "speed": 122
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "flying"
-  ],
-  "moves": [
-    "1:rockblast",
-    "1:steelwing",
-    "1:thief",
-    "1:wingattack"  ],
-  "labels": [
-    "crozoic",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.dauspector.desc"
-  ],
-  "baseScale": 0.19999999999999998,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -74,10 +30,58 @@
     "special_defence": 0,
     "speed": 0
   },
+  "eggGroups": [
+    "flying"
+  ],
+  "drops": {},
+  "moves": [
+    "1:rockblast",
+    "1:steelwing",
+    "1:thief",
+    "1:wingattack"
+  ],
+  "labels": [
+    "crozoic",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.dauspector.desc1"
+  ],
   "height": 12,
   "weight": 320,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 4354,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

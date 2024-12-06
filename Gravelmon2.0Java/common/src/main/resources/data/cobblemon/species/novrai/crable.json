@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Crable",
-  "nationalPokedexNumber": 6645,
   "primaryType": "grass",
   "secondaryType": "electric",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 145,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "snipsnap",
+  "baseScale": 0.16666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "overgrow",
     "h:toughclaws"
@@ -16,38 +23,19 @@
     "special_defence": 64,
     "speed": 66
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 145,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "grass",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:growth",
     "10:visegrip",
@@ -124,7 +112,8 @@
     "tm:nightslash",
     "tm:agility",
     "tm:brine",
-    "tm:snaptrap"  ],
+    "tm:snaptrap"
+  ],
   "labels": [
     "novrai",
     "not_modeled",
@@ -132,9 +121,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.crable.desc"
+    "cobblemon.species.crable.desc1"
   ],
-  "preEvolution": "snipsnap",
+  "height": 10,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "crable_lobstrike",
@@ -145,31 +136,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 35
+          "minLevel": "35"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.16666666666666666,
+  "nationalPokedexNumber": 6645,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 10,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

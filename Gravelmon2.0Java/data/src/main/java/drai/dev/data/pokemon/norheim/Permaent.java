@@ -47,7 +47,7 @@ public class Permaent extends drai.dev.data.pokemon.Pokemon {
            setLangFileName("Permaent");
         addAdditionalEvolution("snover", new EvolutionEntry("permaent", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40"),
-                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_TAIGA.getId() + ":" + Biome.IS_TAIGA.getName() +"\""))));
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_TAIGA.getId() + ":" + Biome.IS_TAIGA.getName()))));
 
     }
 

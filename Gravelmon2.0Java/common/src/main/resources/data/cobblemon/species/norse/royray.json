@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Royray",
-  "nationalPokedexNumber": 3339,
   "primaryType": "water",
   "secondaryType": "flying",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "rayside",
+  "baseScale": 0.25,
+  "cannotDynamax": false,
   "abilities": [
-    "torrent"  ],
+    "torrent"
+  ],
   "baseStats": {
     "hp": 52,
     "attack": 28,
@@ -14,42 +22,24 @@
     "special_defence": 55,
     "speed": 79
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:watergun",
     "1:gust",
     "1:vacuumwave",
-    "1:vacuumwave"  ],
+    "1:vacuumwave"
+  ],
   "labels": [
     "not_modeled",
     "fakemon",
@@ -57,9 +47,11 @@
     "norse"
   ],
   "pokedex": [
-    "cobblemon.species.royray.desc"
+    "cobblemon.species.royray.desc1"
   ],
-  "preEvolution": "rayside",
+  "height": 15,
+  "weight": 0,
+  "aspects": [],
   "evolutions": [
     {
       "id": "royray_aegiking",
@@ -70,31 +62,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 36
+          "minLevel": "36"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.25,
+  "nationalPokedexNumber": 3339,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 15,
-  "weight": 0,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

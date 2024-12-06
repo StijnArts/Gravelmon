@@ -1,10 +1,17 @@
 {
-  "implemented": true,
   "name": "Curdwaul",
-  "nationalPokedexNumber": 6482,
   "primaryType": "normal",
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 50,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
   "baseStats": {
     "hp": 40,
     "attack": 75,
@@ -13,37 +20,18 @@
     "special_defence": 55,
     "speed": 35
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 255,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 50,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "amorphous"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "1:watersport",
@@ -82,33 +70,50 @@
     "tm:waterfall",
     "tm:whirlpool",
     "tm:thrash",
-    "tm:rollout"  ],
+    "tm:rollout"
+  ],
   "labels": [
     "enjin",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.curdwaul.desc"
+    "cobblemon.species.curdwaul.desc1"
   ],
-  "baseScale": 0.1,
+  "height": 1,
+  "weight": 16,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6482,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 1,
-  "weight": 16,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

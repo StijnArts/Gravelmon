@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Casanauta",
-  "nationalPokedexNumber": 5189,
   "primaryType": "poison",
   "secondaryType": "psychic",
+  "catchRate": 90,
+  "maleRatio": 1.0,
+  "baseExperienceYield": 175,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "cephamore",
+  "baseScale": 0.16666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "rivalry",
     "suctioncups",
@@ -17,38 +24,19 @@
     "special_defence": 95,
     "speed": 125
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 90,
-  "maleRatio": 1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 175,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "dragon",
     "water_3"
   ],
+  "drops": {},
   "moves": [
     "1:attract",
     "1:captivate",
@@ -101,7 +89,8 @@
     "tm:fling",
     "tm:nastyplot",
     "tm:toxic",
-    "tm:hypnosis"  ],
+    "tm:hypnosis"
+  ],
   "labels": [
     "mythire",
     "not_modeled",
@@ -109,28 +98,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.casanauta.desc"
+    "cobblemon.species.casanauta.desc1"
   ],
-  "preEvolution": "cephamore",
-  "baseScale": 0.16666666666666666,
+  "height": 10,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5189,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 10,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

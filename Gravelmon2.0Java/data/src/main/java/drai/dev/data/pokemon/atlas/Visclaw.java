@@ -24,7 +24,7 @@ public class Visclaw extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Visclaw stand next to one another when defending their home, acting as a sort of border to let other Pokemon know that they aren't welcome. If a Pokemon slips past them, they'll face the wrath of Visclaw's evolution..."),
                 List.of(new EvolutionEntry("Edifierce", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_MOUNTAIN.getId() + ":" + Biome.IS_MOUNTAIN.getName() +"\"")))
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_MOUNTAIN.getId() + ":" + Biome.IS_MOUNTAIN.getName())))
 
                 ),
                 List.of(

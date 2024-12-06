@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Javelady",
-  "nationalPokedexNumber": 7311,
   "primaryType": "normal",
   "secondaryType": "fighting",
+  "catchRate": 50,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "rhombish",
+  "baseScale": 0.2833333333333333,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
   "baseStats": {
     "hp": 80,
     "attack": 120,
@@ -14,37 +22,18 @@
     "special_defence": 75,
     "speed": 75
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 50,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:faketears",
     "4:bide",
@@ -57,7 +46,8 @@
     "28:endure",
     "32:brickbreak",
     "36:fakeout",
-    "39:flail"  ],
+    "39:flail"
+  ],
   "labels": [
     "amavi",
     "not_modeled",
@@ -65,28 +55,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.javelady.desc"
+    "cobblemon.species.javelady.desc1"
   ],
-  "preEvolution": "rhombish",
-  "baseScale": 0.2833333333333333,
+  "height": 17,
+  "weight": 0,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 7311,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 17,
-  "weight": 0,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,12 +1,19 @@
 {
-  "implemented": true,
   "name": "Tamarawk",
-  "nationalPokedexNumber": 7059,
   "primaryType": "normal",
   "secondaryType": "rock",
+  "catchRate": 25,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 70,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.18333333333333335,
+  "cannotDynamax": false,
   "abilities": [
     "oblivious",
-    "reckless"  ],
+    "reckless"
+  ],
   "baseStats": {
     "hp": 49,
     "attack": 73,
@@ -15,37 +22,18 @@
     "special_defence": 42,
     "speed": 65
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 25,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 70,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:growl",
     "5:rockthrow",
@@ -85,14 +73,18 @@
     "tm:wildcharge",
     "tm:workup",
     "tm:followme",
-    "tm:rockwrecker"  ],
+    "tm:rockwrecker"
+  ],
   "labels": [
     "atlas",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.tamarawk.desc"
+    "cobblemon.species.tamarawk.desc1"
   ],
+  "height": 11,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "tamarawk_bouldalo",
@@ -103,31 +95,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 43
+          "minLevel": "43"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.18333333333333335,
+  "nationalPokedexNumber": 7059,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 11,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

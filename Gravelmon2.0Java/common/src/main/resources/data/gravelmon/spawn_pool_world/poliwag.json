@@ -63,12 +63,11 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
+      "level": "13-32",
+      "weight": 7.199999999999999,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_swamp"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -88,12 +87,11 @@
       "type": "pokemon",
       "context": "fishing",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
+      "level": "13-32",
+      "weight": 7.199999999999999,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_swamp"
         ]
       },
       "weightMultiplier": {

@@ -20,9 +20,9 @@ public class DeltaClamperl extends Pokemon {
                 50, List.of(EggGroup.DELTA),
                 List.of("A Delta Species discovered by yungbro. It catches prey in its jaws by pretending to be an unassuming shellfish."),
                 List.of(new EvolutionEntry("deltahuntail", EvolutionType.LEVEL_UP, true, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"cobblemon:dragon_fang\""))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "cobblemon:dragon_fang"))),
                         new EvolutionEntry("deltagorebyss", EvolutionType.LEVEL_UP, true, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"cobblemon:dragon_scale\"")))),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "cobblemon:dragon_scale")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CLAMP,1),
                         new MoveLearnSetEntry(Move.TWISTER,1),

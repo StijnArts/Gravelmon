@@ -1,11 +1,18 @@
 {
-  "implemented": true,
   "name": "Ordovice",
-  "nationalPokedexNumber": 4400,
   "primaryType": "ice",
   "secondaryType": "dark",
+  "catchRate": 3,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 60,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.3,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
   "baseStats": {
     "hp": 83,
     "attack": 126,
@@ -14,60 +21,6 @@
     "special_defence": 87,
     "speed": 149
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
-  },
-  "catchRate": 3,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "undiscovered"
-  ],
-  "moves": [
-    "1:iciclecrash",
-    "1:assurance",
-    "1:sheercold",
-    "1:toxic",
-    "1:perishsong",
-    "1:punishment",
-    "1:healblock",
-    "1:screech"  ],
-  "labels": [
-    "crozoic",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.ordovice.desc"
-  ],
-  "baseScale": 0.3,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -76,10 +29,62 @@
     "special_defence": 0,
     "speed": 0
   },
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {},
+  "moves": [
+    "1:iciclecrash",
+    "1:assurance",
+    "1:sheercold",
+    "1:toxic",
+    "1:perishsong",
+    "1:punishment",
+    "1:healblock",
+    "1:screech"
+  ],
+  "labels": [
+    "crozoic",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.ordovice.desc1"
+  ],
   "height": 18,
   "weight": 2250,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 4400,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

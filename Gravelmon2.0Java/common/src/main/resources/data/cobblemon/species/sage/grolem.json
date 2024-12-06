@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Grolem",
-  "nationalPokedexNumber": 1231,
   "primaryType": "rock",
   "secondaryType": "grass",
+  "catchRate": 45,
+  "maleRatio": -1.0,
+  "baseExperienceYield": 61,
+  "experienceGroup": "slow",
+  "eggCycles": 76,
+  "baseFriendship": 70,
+  "baseScale": 0.13333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "sheerforce",
     "h:solarpower"
@@ -16,38 +22,21 @@
     "special_defence": 62,
     "speed": 40
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": -1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 61,
-  "experienceGroup": "slow",
-  "eggCycles": 76,
   "eggGroups": [
     "mineral",
     "grass"
   ],
+  "drops": {
+    "amount": 2
+  },
   "moves": [
     "1:bide",
     "1:rockthrow",
@@ -126,14 +115,18 @@
     "tutor:synthesis",
     "tutor:thunderpunch",
     "tutor:trick",
-    "tutor:zenheadbutt"  ],
+    "tutor:zenheadbutt"
+  ],
   "labels": [
     "sage",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.grolem.desc"
+    "cobblemon.species.grolem.desc1"
   ],
+  "height": 8,
+  "weight": 955,
+  "aspects": [],
   "evolutions": [
     {
       "id": "grolem_comossus",
@@ -144,31 +137,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 42
+          "minLevel": "42"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.13333333333333333,
+  "nationalPokedexNumber": 1231,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 8,
-  "weight": 955,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

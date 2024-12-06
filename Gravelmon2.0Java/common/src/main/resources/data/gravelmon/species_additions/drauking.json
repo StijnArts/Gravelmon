@@ -1,28 +1,18 @@
 {
-   "target": "cobblemon:drauking",
+  "target": "cobblemon:drauking",
   "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "minecraft:decorated_pot_sherds",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-      },
+    "amount": 3
+  },
   "evolutions": [
     {
-      "id": "drauking_Vesghost",
+      "id": "drauking_vesghost",
       "variant": "item_interact",
       "result": "Vesghost",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
+      "requirements": [],
       "requiredContext": "minecraft:decorated_pot_sherds",
-      "permanent": true   
- }
+      "permanent": true
+    }
   ]
-
 }

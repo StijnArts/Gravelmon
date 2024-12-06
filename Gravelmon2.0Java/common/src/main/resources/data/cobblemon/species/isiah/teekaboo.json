@@ -1,10 +1,17 @@
 {
-  "implemented": true,
   "name": "Teekaboo",
-  "nationalPokedexNumber": 5805,
   "primaryType": "ghost",
+  "catchRate": 170,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
   "baseStats": {
     "hp": 54,
     "attack": 39,
@@ -13,37 +20,18 @@
     "special_defence": 62,
     "speed": 52
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 170,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "amorphous"
   ],
+  "drops": {},
   "moves": [
     "1:knockoff",
     "1:screech",
@@ -59,14 +47,18 @@
     "45:snatch",
     "51:shadowclamp",
     "58:grudge",
-    "72:trick"  ],
+    "72:trick"
+  ],
   "labels": [
     "isiah",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.teekaboo.desc"
+    "cobblemon.species.teekaboo.desc1"
   ],
+  "height": 5,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "teekaboo_pendodoom",
@@ -77,31 +69,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 38
+          "minLevel": "38"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 5805,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 5,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

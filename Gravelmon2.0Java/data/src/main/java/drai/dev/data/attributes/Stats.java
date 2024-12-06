@@ -1,5 +1,7 @@
 package drai.dev.data.attributes;
 
+import com.google.gson.*;
+
 import java.util.*;
 
 public class Stats {
@@ -94,5 +96,16 @@ public class Stats {
 
     public boolean isEmpty() {
         return HP == 0 || attack == 0 || defence == 0 || specialAttack == 0 || specialDefence == 0 || speed == 0;
+    }
+
+    public JsonObject getJsonRepresentation(){
+        var statsJson = new JsonObject();
+        statsJson.addProperty("hp", HP);
+        statsJson.addProperty("attack", attack);
+        statsJson.addProperty("defence", defence);
+        statsJson.addProperty("special_attack", specialAttack);
+        statsJson.addProperty("special_defence", specialDefence);
+        statsJson.addProperty("speed", speed);
+        return statsJson;
     }
 }

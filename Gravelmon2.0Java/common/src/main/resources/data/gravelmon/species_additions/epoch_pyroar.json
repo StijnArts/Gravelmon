@@ -1,4 +1,4 @@
 {
-   "target": "cobblemon:epoch_pyroar",
+  "target": "cobblemon:epoch_pyroar",
   "preEvolution": "epochlitleo"
 }

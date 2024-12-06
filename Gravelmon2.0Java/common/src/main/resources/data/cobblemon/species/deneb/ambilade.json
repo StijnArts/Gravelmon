@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Ambilade",
-  "nationalPokedexNumber": 6301,
   "primaryType": "steel",
+  "catchRate": 190,
+  "maleRatio": 0.75,
+  "baseExperienceYield": 89,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.11666666666666665,
+  "cannotDynamax": false,
   "abilities": [
     "owntempo",
     "h:oblivious"
@@ -15,38 +21,19 @@
     "special_defence": 55,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 190,
-  "maleRatio": 0.75,
-  "shoulderMountable": false,
-  "baseExperienceYield": 89,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "mineral",
     "monster"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "1:tailwhip",
@@ -110,14 +97,18 @@
     "egg:sunnyday",
     "egg:superpower",
     "egg:thunderpunch",
-    "egg:zenheadbutt"  ],
+    "egg:zenheadbutt"
+  ],
   "labels": [
     "vega",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.ambilade.desc"
+    "cobblemon.species.ambilade.desc1"
   ],
+  "height": 7,
+  "weight": 125,
+  "aspects": [],
   "evolutions": [
     {
       "id": "ambilade_mandiblade",
@@ -128,11 +119,11 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 38
+          "minLevel": "38"
         }
       ],
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "ambilade_mercenade",
       "variant": "level_up",
@@ -142,31 +133,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 38
+          "minLevel": "38"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.11666666666666665,
+  "nationalPokedexNumber": 6301,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 7,
-  "weight": 125,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

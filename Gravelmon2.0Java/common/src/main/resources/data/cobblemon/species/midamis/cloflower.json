@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Cloflower",
-  "nationalPokedexNumber": 5893,
   "primaryType": "grass",
+  "catchRate": 190,
+  "maleRatio": 0.125,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "effectspore",
     "h:forewarn"
@@ -15,38 +21,19 @@
     "special_defence": 55,
     "speed": 35
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 190,
-  "maleRatio": 0.125,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "fairy",
     "grass"
   ],
+  "drops": {},
   "moves": [
     "1:growth",
     "6:stunspore",
@@ -66,14 +53,18 @@
     "tm:hypervoice",
     "tm:grasswhistle",
     "tm:magicalleaf",
-    "tm:naturalgift"  ],
+    "tm:naturalgift"
+  ],
   "labels": [
     "midamis",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.cloflower.desc"
+    "cobblemon.species.cloflower.desc1"
   ],
+  "height": 3,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "cloflower_petafleur",
@@ -84,31 +75,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 12
+          "minLevel": "12"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 5893,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 3,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

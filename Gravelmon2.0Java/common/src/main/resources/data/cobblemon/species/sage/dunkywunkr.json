@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Dunkywunkr",
-  "nationalPokedexNumber": 1158,
   "primaryType": "water",
   "secondaryType": "rock",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 173,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 76,
+  "baseFriendship": 70,
+  "preEvolution": "dinkywink",
+  "baseScale": 0.2833333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "rockhead",
     "swiftswim",
@@ -17,38 +24,21 @@
     "special_defence": 80,
     "speed": 90
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 173,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 76,
   "eggGroups": [
     "water_2",
     "monster"
   ],
+  "drops": {
+    "amount": 2
+  },
   "moves": [
     "1:headbutt",
     "1:tailwhip",
@@ -109,7 +99,8 @@
     "egg:irondefense",
     "egg:reversal",
     "egg:rockslide",
-    "egg:zenheadbutt"  ],
+    "egg:zenheadbutt"
+  ],
   "labels": [
     "sage",
     "not_modeled",
@@ -117,28 +108,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.dunkywunkr.desc"
+    "cobblemon.species.dunkywunkr.desc1"
   ],
-  "preEvolution": "dinkywink",
-  "baseScale": 0.2833333333333333,
+  "height": 17,
+  "weight": 1724,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1158,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 17,
-  "weight": 1724,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

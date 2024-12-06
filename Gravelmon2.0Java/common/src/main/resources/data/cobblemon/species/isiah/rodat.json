@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Rodat",
-  "nationalPokedexNumber": 5683,
   "primaryType": "normal",
+  "catchRate": 127,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 145,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "caviat",
+  "baseScale": 0.11666666666666665,
+  "cannotDynamax": false,
   "abilities": [
     "stench",
     "h:infiltrator"
@@ -15,37 +22,18 @@
     "special_defence": 42,
     "speed": 83
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 127,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 145,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "3:tailwhip",
@@ -62,7 +50,8 @@
     "32:suckerpunch",
     "36:swagger",
     "39:superfang",
-    "43:doubleedge"  ],
+    "43:doubleedge"
+  ],
   "labels": [
     "isiah",
     "not_modeled",
@@ -70,28 +59,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.rodat.desc"
+    "cobblemon.species.rodat.desc1"
   ],
-  "preEvolution": "caviat",
-  "baseScale": 0.11666666666666665,
+  "height": 7,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5683,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 7,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

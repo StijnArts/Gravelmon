@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Bouwee",
-  "nationalPokedexNumber": 1093,
   "primaryType": "bug",
   "secondaryType": "water",
+  "catchRate": 200,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 24,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "swiftswim",
     "stickyhold",
@@ -17,39 +23,21 @@
     "special_defence": 55,
     "speed": 70
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canWalkOnWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 200,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 24,
   "eggGroups": [
     "bug",
     "water_3"
   ],
+  "drops": {
+    "amount": 2
+  },
   "moves": [
     "1:splash",
     "1:watersport",
@@ -108,14 +96,18 @@
     "egg:irondefense",
     "egg:mudshot",
     "egg:psybeam",
-    "egg:scald"  ],
+    "egg:scald"
+  ],
   "labels": [
     "sage",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.bouwee.desc"
+    "cobblemon.species.bouwee.desc1"
   ],
+  "height": 2,
+  "weight": 11,
+  "aspects": [],
   "evolutions": [
     {
       "id": "bouwee_scubug",
@@ -129,28 +121,41 @@
           "move": "dive"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 1093,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false,
+        "canWalkOnWater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 2,
-  "weight": 11,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

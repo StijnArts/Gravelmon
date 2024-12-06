@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Enchantowl",
-  "nationalPokedexNumber": 6424,
   "primaryType": "psychic",
   "secondaryType": "fairy",
+  "catchRate": 30,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 239,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "noctowl form\u003denjinnian",
+  "baseScale": 0.3,
+  "cannotDynamax": false,
   "abilities": [
     "insomnia",
     "magicbounce",
@@ -17,37 +24,18 @@
     "special_defence": 125,
     "speed": 80
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 1
   },
-  "catchRate": 30,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 239,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "flying"
   ],
+  "drops": {},
   "moves": [
     "1:leer",
     "1:playrough",
@@ -138,7 +126,8 @@
     "tm:meanlook",
     "tm:supersonic",
     "tm:whirlwind",
-    "tm:agility"  ],
+    "tm:agility"
+  ],
   "labels": [
     "enjin",
     "not_modeled",
@@ -146,28 +135,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.enchantowl.desc"
+    "cobblemon.species.enchantowl.desc1"
   ],
-  "preEvolution": "noctowl form=enjinnian",
-  "baseScale": 0.3,
+  "height": 18,
+  "weight": 0,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6424,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 1
-  },
-  "height": 18,
-  "weight": 0,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

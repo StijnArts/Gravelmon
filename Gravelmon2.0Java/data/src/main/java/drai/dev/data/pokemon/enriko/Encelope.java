@@ -24,7 +24,7 @@ public class Encelope extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MONSTER,EggGroup.AMORPHOUS),
                 List.of("They are said to have come from a meteor strike. Encelope attempt to cover the heads of unsuspecting prey to feed off of their thoughts."),
                 List.of(new EvolutionEntry("controlyu", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.AMNESIA.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.AMNESIA.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.GRAVITY,1),
                         new MoveLearnSetEntry(Move.BIND,5),

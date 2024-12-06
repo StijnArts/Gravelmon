@@ -1,10 +1,18 @@
 {
-  "implemented": true,
   "name": "Sweetinel",
-  "nationalPokedexNumber": 2989,
   "primaryType": "fairy",
+  "catchRate": 30,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 180,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "lickitung form\u003dhizian",
+  "baseScale": 0.2833333333333333,
+  "cannotDynamax": false,
   "abilities": [
-    "sweetveil"  ],
+    "sweetveil"
+  ],
   "baseStats": {
     "hp": 105,
     "attack": 90,
@@ -13,37 +21,18 @@
     "special_defence": 100,
     "speed": 50
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 3,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 30,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 180,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "monster"
   ],
+  "drops": {},
   "moves": [
     "1:sweetscent",
     "1:tackle",
@@ -59,7 +48,8 @@
     "30:wish",
     "33:playrough",
     "36:cottonguard",
-    "39:endeavor"  ],
+    "39:endeavor"
+  ],
   "labels": [
     "hiza",
     "not_modeled",
@@ -67,28 +57,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.sweetinel.desc"
+    "cobblemon.species.sweetinel.desc1"
   ],
-  "preEvolution": "lickitung form=hizian",
-  "baseScale": 0.2833333333333333,
+  "height": 17,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2989,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 3,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 17,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

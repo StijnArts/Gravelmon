@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Baybolt",
-  "nationalPokedexNumber": 3148,
   "primaryType": "electric",
+  "catchRate": 235,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 59,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "static",
     "pickup",
@@ -16,37 +22,18 @@
     "special_defence": 50,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 235,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 59,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:thundershock",
     "4:charge",
@@ -114,14 +101,18 @@
     "tm:playnice",
     "tm:splash",
     "tm:stomp",
-    "tm:swagger"  ],
+    "tm:swagger"
+  ],
   "labels": [
     "junnin",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.baybolt.desc"
+    "cobblemon.species.baybolt.desc1"
   ],
+  "height": 4,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "baybolt_bolteen",
@@ -129,32 +120,42 @@
       "result": "bolteen",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
+      "requirements": [],
       "requiredContext": "cobblemon:thunder_stone",
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 3148,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 4,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

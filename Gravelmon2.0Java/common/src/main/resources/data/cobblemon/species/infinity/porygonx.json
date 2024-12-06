@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Porygonx",
-  "nationalPokedexNumber": 1455,
   "primaryType": "electric",
   "secondaryType": "normal",
+  "catchRate": 30,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 241,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 39,
+  "baseFriendship": 70,
+  "preEvolution": "porygon2",
+  "baseScale": 1.0,
+  "cannotDynamax": false,
   "abilities": [
     "adaptability",
     "download",
@@ -17,46 +24,19 @@
     "special_defence": 70,
     "speed": 140
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 30,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 241,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 39,
   "eggGroups": [
     "mineral"
   ],
   "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "gravelmon:quantum_upgrade",
-        "quantityRange": "1-1",
-        "percentage": 40
-      }
-    ]
+    "amount": 1
   },
   "moves": [
     "1:trickroom",
@@ -136,34 +116,50 @@
     "tutor:swift",
     "tutor:trick",
     "tutor:wonderroom",
-    "tutor:zenheadbutt"  ],
+    "tutor:zenheadbutt"
+  ],
   "labels": [
     "infinity",
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.porygonx.desc"
+    "cobblemon.species.porygonx.desc1"
   ],
-  "preEvolution": "porygon2",
-  "baseScale": 1.0,
+  "height": 9,
+  "weight": 340,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1455,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 0.9,
     "height": 0.9,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 3,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 9,
-  "weight": 340,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -20,7 +20,7 @@ public class KaskadianPhantump extends Pokemon {
                 50, List.of(EggGroup.AMORPHOUS, EggGroup.GRASS),
                 List.of("Unlike its Kalosian counter parts, Kaskadian Phantump's leaves when brewed, can create a very harmful poison. Scientists have used it to create modern day antidotes."),
                 List.of(new EvolutionEntry("kaskadiantrevenant", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME, "\"#cobblemon:is_spooky\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME, "#cobblemon:is_spooky")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),

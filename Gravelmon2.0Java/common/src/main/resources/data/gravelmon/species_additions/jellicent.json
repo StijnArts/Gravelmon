@@ -1,143 +1,152 @@
 {
-   "target": "cobblemon:jellicent",
-   "forms": [{
-  "name": "Epoch",
-  "primaryType": "grass",
-  "secondaryType": "poison",
-  "abilities": [
-    "effectspore",
-    "regenerator",
-    "h:raindish"
-  ],
-  "baseStats": {
-    "hp": 90,
-    "attack": 40,
-    "defence": 80,
-    "special_attack": 50,
-    "special_defence": 100,
-    "speed": 120
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
+  "target": "cobblemon:jellicent",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "grass",
+      "secondaryType": "poison",
+      "catchRate": 123,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 168,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3666666666666667,
+      "cannotDynamax": false,
+      "abilities": [
+        "effectspore",
+        "regenerator",
+        "h:raindish"
+      ],
+      "baseStats": {
+        "hp": 90,
+        "attack": 40,
+        "defence": 80,
+        "special_attack": 50,
+        "special_defence": 100,
+        "speed": 120
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 2,
+        "speed": 0
+      },
+      "eggGroups": [
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "20:leechseed",
+        "12:poisonpowder",
+        "4:acid",
+        "48:solarbeam",
+        "44:energyball",
+        "32:gigadrain",
+        "24:magicalleaf",
+        "59:spore",
+        "54:acidrain",
+        "8:megadrain",
+        "1:growth",
+        "36:sludgebomb",
+        "1:absorb",
+        "12:sleeppowder",
+        "12:stunspore",
+        "16:sludge",
+        "tm:acidrain",
+        "tm:aromatherapy",
+        "tm:attract",
+        "tm:bulletseed",
+        "tm:charm",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:drainingkiss",
+        "tm:energyball",
+        "tm:falseswipe",
+        "tm:furycutter",
+        "tm:gastroacid",
+        "tm:gigadrain",
+        "tm:grassyterrain",
+        "tm:gunkshot",
+        "tm:healbell",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:knockoff",
+        "tm:leechlife",
+        "tm:magicalleaf",
+        "tm:memento",
+        "tm:nastyplot",
+        "tm:poisonjab",
+        "tm:powerwhip",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:safeguard",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:solarbeam",
+        "tm:spikyshield",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:synthesis",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:weatherball",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochjellicent.desc1"
+      ],
+      "height": 22,
+      "weight": 1350,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     }
-  },
-  "catchRate": 123,
-  "shoulderMountable": false,
-  "baseExperienceYield": 168,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "amorphous"
   ],
-  "moves": [
-    "20:leechseed",
-    "12:poisonpowder",
-    "4:acid",
-    "48:solarbeam",
-    "44:energyball",
-    "32:gigadrain",
-    "24:magicalleaf",
-    "59:spore",
-    "54:acidrain",
-    "8:megadrain",
-    "1:growth",
-    "36:sludgebomb",
-    "1:absorb",
-    "12:sleeppowder",
-    "12:stunspore",
-    "16:sludge",
-    "tm:acidrain",
-    "tm:aromatherapy",
-    "tm:attract",
-    "tm:bulletseed",
-    "tm:charm",
-    "tm:confuseray",
-    "tm:cosmicpower",
-    "tm:drainingkiss",
-    "tm:energyball",
-    "tm:falseswipe",
-    "tm:furycutter",
-    "tm:gastroacid",
-    "tm:gigadrain",
-    "tm:grassyterrain",
-    "tm:gunkshot",
-    "tm:healbell",
-    "tm:hex",
-    "tm:hiddenpower",
-    "tm:knockoff",
-    "tm:leechlife",
-    "tm:magicalleaf",
-    "tm:memento",
-    "tm:nastyplot",
-    "tm:poisonjab",
-    "tm:powerwhip",
-    "tm:protect",
-    "tm:rest",
-    "tm:return",
-    "tm:safeguard",
-    "tm:sleeptalk",
-    "tm:sludgebomb",
-    "tm:sludgewave",
-    "tm:solarbeam",
-    "tm:spikyshield",
-    "tm:substitute",
-    "tm:sunnyday",
-    "tm:swift",
-    "tm:synthesis",
-    "tm:taunt",
-    "tm:terrainpulse",
-    "tm:toxic",
-    "tm:toxicspikes",
-    "tm:weatherball",
-    "tm:wish",
-    "tm:workup",
-    "tm:zenheadbutt"  ],
-  "labels": [
-    "soulstones",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.epochjellicent.desc"
-  ],
-  "baseScale": 0.3666666666666667,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 2,
-    "speed": 0
-  },
-  "height": 22,
-  "weight": 1350,
-  "aspects": ["epoch"],
-  "cannotDynamax": false
-}
-], "features": [
-"epoch"
+  "features": [
+    "epoch"
   ]
 }

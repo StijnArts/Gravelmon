@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Beetil",
-  "nationalPokedexNumber": 5686,
   "primaryType": "bug",
   "secondaryType": "flying",
+  "catchRate": 40,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 178,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "rocurl",
+  "baseScale": 0.18333333333333335,
+  "cannotDynamax": false,
   "abilities": [
     "shellarmor",
     "keeneye",
@@ -17,37 +24,18 @@
     "special_defence": 45,
     "speed": 70
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 40,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 178,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:leer",
     "9:leer",
@@ -61,7 +49,8 @@
     "38:scaryface",
     "41:superpower",
     "45:megahorn",
-    "tm:irondefense"  ],
+    "tm:irondefense"
+  ],
   "labels": [
     "isiah",
     "not_modeled",
@@ -69,28 +58,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.beetil.desc"
+    "cobblemon.species.beetil.desc1"
   ],
-  "preEvolution": "rocurl",
-  "baseScale": 0.18333333333333335,
+  "height": 11,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5686,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 11,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

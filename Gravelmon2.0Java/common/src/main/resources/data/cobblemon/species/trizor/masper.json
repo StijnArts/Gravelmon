@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Masper",
-  "nationalPokedexNumber": 3642,
   "primaryType": "psychic",
   "secondaryType": "steel",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "vetesper",
+  "baseScale": 0.3,
+  "cannotDynamax": false,
   "abilities": [
-    "receiver"  ],
+    "receiver"
+  ],
   "baseStats": {
     "hp": 74,
     "attack": 39,
@@ -14,56 +22,6 @@
     "special_defence": 78,
     "speed": 113
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 61,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:confusion",
-    "1:metalclaw",
-    "1:vacuumwave",
-    "1:vacuumwave"  ],
-  "labels": [
-    "not_modeled",
-    "trizor"
-  ],
-  "pokedex": [
-    "cobblemon.species.masper.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -72,10 +30,60 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:confusion",
+    "1:metalclaw",
+    "1:vacuumwave",
+    "1:vacuumwave"
+  ],
+  "labels": [
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution",
+    "trizor"
+  ],
+  "pokedex": [
+    "cobblemon.species.masper.desc1"
+  ],
+  "height": 18,
   "weight": 0,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 3642,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

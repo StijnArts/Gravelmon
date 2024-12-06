@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Sealver",
-  "nationalPokedexNumber": 4481,
   "primaryType": "steel",
+  "catchRate": 130,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.13333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "limber",
     "h:lightmetal"
@@ -15,38 +21,19 @@
     "special_defence": 60,
     "speed": 30
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 130,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "amorphous",
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:acidarmor",
     "1:pound",
@@ -153,14 +140,18 @@
     "tm:metalsound",
     "tm:quash",
     "tm:sludge",
-    "tm:snore"  ],
+    "tm:snore"
+  ],
   "labels": [
     "lonava",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.sealver.desc"
+    "cobblemon.species.sealver.desc1"
   ],
+  "height": 8,
+  "weight": 300,
+  "aspects": [],
   "evolutions": [
     {
       "id": "sealver_pinneral",
@@ -171,31 +162,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 20
+          "minLevel": "20"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.13333333333333333,
+  "nationalPokedexNumber": 4481,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 8,
-  "weight": 300,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

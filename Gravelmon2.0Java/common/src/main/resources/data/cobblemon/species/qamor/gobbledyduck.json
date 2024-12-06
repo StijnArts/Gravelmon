@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Gobbledyduck",
-  "nationalPokedexNumber": 5403,
   "primaryType": "fairy",
   "secondaryType": "flying",
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 175,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "psyduck form\u003dqamoran",
+  "baseScale": 0.2833333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "oblivious",
     "klutz",
@@ -17,38 +24,19 @@
     "special_defence": 68,
     "speed": 82
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 75,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 175,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "water_1",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:wingattack",
     "4:tailwhip",
@@ -64,7 +52,8 @@
     "36:psychup",
     "41:amnesia",
     "46:playrough",
-    "51:mirrormove"  ],
+    "51:mirrormove"
+  ],
   "labels": [
     "qamor",
     "not_modeled",
@@ -72,28 +61,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.gobbledyduck.desc"
+    "cobblemon.species.gobbledyduck.desc1"
   ],
-  "preEvolution": "psyduck form=qamoran",
-  "baseScale": 0.2833333333333333,
+  "height": 17,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5403,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 17,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

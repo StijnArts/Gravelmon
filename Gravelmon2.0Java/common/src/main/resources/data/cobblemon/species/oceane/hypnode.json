@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Hypnode",
-  "nationalPokedexNumber": 2360,
   "primaryType": "psychic",
+  "catchRate": 235,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 142,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "prankster",
     "h:anticipation"
@@ -15,37 +21,18 @@
     "special_defence": 95,
     "speed": 70
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 235,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 142,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "water_2"
   ],
+  "drops": {},
   "moves": [
     "1:teleport",
     "6:hypnosis",
@@ -60,33 +47,50 @@
     "42:psychicterrain",
     "46:skillswap",
     "50:psychoshift",
-    "55:healingwish"  ],
+    "55:healingwish"
+  ],
   "labels": [
     "oceane",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.hypnode.desc"
+    "cobblemon.species.hypnode.desc1"
   ],
-  "baseScale": 0.1,
+  "height": 4,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2360,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 4,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

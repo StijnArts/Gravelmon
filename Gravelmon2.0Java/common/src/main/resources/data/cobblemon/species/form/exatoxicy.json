@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Exatoxicy",
-  "nationalPokedexNumber": 5058,
   "primaryType": "poison",
   "secondaryType": "rock",
+  "catchRate": 80,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "exeggcute form\u003dforman",
+  "baseScale": 0.39999999999999997,
+  "cannotDynamax": false,
   "abilities": [
-    "poisontouch"  ],
+    "poisontouch"
+  ],
   "baseStats": {
     "hp": 80,
     "attack": 101,
@@ -14,61 +22,6 @@
     "special_defence": 98,
     "speed": 67
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 80,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:acid",
-    "1:rockthrow",
-    "1:bulkup",
-    "1:bulkup",
-    "1:toxic",
-    "1:healbell"  ],
-  "labels": [
-    "form",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
-  ],
-  "pokedex": [
-    "cobblemon.species.exatoxicy.desc"
-  ],
-  "preEvolution": "exeggcute form=forman",
-  "baseScale": 0.39999999999999997,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -77,10 +30,62 @@
     "special_defence": 0,
     "speed": 0
   },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:acid",
+    "1:rockthrow",
+    "1:bulkup",
+    "1:bulkup",
+    "1:toxic",
+    "1:healbell"
+  ],
+  "labels": [
+    "form",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.exatoxicy.desc1"
+  ],
   "height": 24,
   "weight": 0,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 5058,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

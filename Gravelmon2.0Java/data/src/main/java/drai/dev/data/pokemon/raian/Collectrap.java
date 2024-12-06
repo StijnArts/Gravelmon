@@ -19,9 +19,9 @@ public class Collectrap extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of(""),
                 List.of(new EvolutionEntry("Rapnagon", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"\"smotrap\""),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"\"needatrap\""),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"\"mintrap\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"smotrap"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"needatrap"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"mintrap")))),
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(

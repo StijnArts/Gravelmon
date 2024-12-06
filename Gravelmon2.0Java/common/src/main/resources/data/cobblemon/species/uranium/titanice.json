@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Titanice",
-  "nationalPokedexNumber": 2565,
   "primaryType": "ice",
+  "catchRate": 90,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 209,
+  "experienceGroup": "slow",
+  "eggCycles": 48,
+  "baseFriendship": 70,
+  "baseScale": 0.7166666666666667,
+  "cannotDynamax": false,
   "abilities": [
     "forewarn",
     "icebody",
@@ -16,38 +22,18 @@
     "special_defence": 55,
     "speed": 90
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canWalkOnWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 90,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 209,
-  "experienceGroup": "slow",
-  "eggCycles": 48,
   "eggGroups": [
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:aquaring",
     "1:ironhead",
@@ -116,33 +102,51 @@
     "tm:uproar",
     "tm:waterpulse",
     "tm:waterfall",
-    "tm:coralbreak"  ],
+    "tm:coralbreak"
+  ],
   "labels": [
     "uranium",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.titanice.desc"
+    "cobblemon.species.titanice.desc1"
   ],
-  "baseScale": 0.7166666666666667,
+  "height": 43,
+  "weight": 10483,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2565,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false,
+        "canWalkOnWater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 43,
-  "weight": 10483,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

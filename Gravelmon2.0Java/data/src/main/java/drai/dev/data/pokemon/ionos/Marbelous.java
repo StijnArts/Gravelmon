@@ -24,7 +24,7 @@ public class Marbelous extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("This Pokémon lingers in the past and imagines itself as a guard of royal a palace. Truth is however that Marbelous hobbles among the ruins of destroyed buildings from a long time ago, all by itself. The marble shield on its right side has the shape of a wheel of cheese and doesn't need carrying."),
                 List.of(new EvolutionEntry("destructos", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.BULK_UP.getName()+"\"")))	),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.BULK_UP.getName())))	),
                 List.of(
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.DETECT,1),

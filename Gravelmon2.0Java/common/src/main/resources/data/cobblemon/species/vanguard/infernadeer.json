@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Infernadeer",
-  "nationalPokedexNumber": 5493,
   "primaryType": "steel",
   "secondaryType": "fire",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 163,
+  "experienceGroup": "slow",
+  "eggCycles": 39,
+  "baseFriendship": 70,
+  "preEvolution": "stantler form\u003dayreian",
+  "baseScale": 0.3333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "intimidate",
     "frisk",
@@ -17,37 +24,18 @@
     "special_defence": 65,
     "speed": 65
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 163,
-  "experienceGroup": "slow",
-  "eggCycles": 39,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:blazekick",
     "1:mefirst",
@@ -132,35 +120,51 @@
     "egg:megahorn",
     "egg:mudsport",
     "egg:rage",
-    "egg:mefirst"  ],
+    "egg:mefirst"
+  ],
   "labels": [
     "vanguard",
     "not_modeled",
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.infernadeer.desc"
+    "cobblemon.species.infernadeer.desc1"
   ],
-  "preEvolution": "stantler form=ayreian",
-  "baseScale": 0.3333333333333333,
+  "height": 20,
+  "weight": 1212,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5493,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 20,
-  "weight": 1212,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

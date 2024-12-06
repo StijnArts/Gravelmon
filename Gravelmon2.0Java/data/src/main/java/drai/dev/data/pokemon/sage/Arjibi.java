@@ -20,7 +20,7 @@ public class Arjibi extends Pokemon {
                 62, List.of(EggGroup.DRAGON),
                 List.of("Arjibi absorbs light with its colored fins to produce energy. In bright light, it flits about energetically, so fast that film barely registers it as a blur."),
                 List.of(new EvolutionEntry("royjibiv", EvolutionType.LEVEL_UP, true, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:kaleidoscope\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "gravelmon:kaleidoscope")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TELEPORT,1),
                         new MoveLearnSetEntry(Move.WRAP,1),

@@ -1,10 +1,18 @@
 {
-  "implemented": true,
   "name": "Therislash",
-  "nationalPokedexNumber": 4323,
   "primaryType": "normal",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "razaury",
+  "baseScale": 0.43333333333333335,
+  "cannotDynamax": false,
   "abilities": [
-    "toughclaws"  ],
+    "toughclaws"
+  ],
   "baseStats": {
     "hp": 112,
     "attack": 95,
@@ -13,38 +21,19 @@
     "special_defence": 107,
     "speed": 47
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "monster",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:nightslash",
     "1:crosschop",
@@ -113,7 +102,8 @@
     "tm:thunder",
     "tm:thunderpunch",
     "tm:thunderbolt",
-    "tm:xscissor"  ],
+    "tm:xscissor"
+  ],
   "labels": [
     "crozoic",
     "not_modeled",
@@ -121,28 +111,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.therislash.desc"
+    "cobblemon.species.therislash.desc1"
   ],
-  "preEvolution": "razaury",
-  "baseScale": 0.43333333333333335,
+  "height": 26,
+  "weight": 3470,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 4323,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 26,
-  "weight": 3470,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

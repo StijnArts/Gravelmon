@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Crocmire",
-  "nationalPokedexNumber": 2992,
   "primaryType": "grass",
   "secondaryType": "ground",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 182,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.3666666666666667,
+  "cannotDynamax": false,
   "abilities": [
     "damp",
     "h:hydration"
@@ -16,37 +22,18 @@
     "special_defence": 70,
     "speed": 30
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 182,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "grass"
   ],
+  "drops": {},
   "moves": [
     "1:absorb",
     "1:razorleaf",
@@ -61,33 +48,50 @@
     "45:crunch",
     "51:gigadrain",
     "57:leafstorm",
-    "63:headlongrush"  ],
+    "63:headlongrush"
+  ],
   "labels": [
     "hiza",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.crocmire.desc"
+    "cobblemon.species.crocmire.desc1"
   ],
-  "baseScale": 0.3666666666666667,
+  "height": 22,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2992,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 22,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

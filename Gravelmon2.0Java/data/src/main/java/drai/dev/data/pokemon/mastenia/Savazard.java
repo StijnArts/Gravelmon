@@ -171,7 +171,7 @@ public class Savazard extends drai.dev.data.pokemon.Pokemon {
                 List.of());
 
         addAdditionalEvolution("charmeleon", new EvolutionEntry("savazard", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_CHERRY_GROVE.getId() + ":" + Biome.IS_CHERRY_GROVE.getName() +"\""),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_CHERRY_GROVE.getId() + ":" + Biome.IS_CHERRY_GROVE.getName()),
                         new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36"))));
            setLangFileName("Savazard");
 

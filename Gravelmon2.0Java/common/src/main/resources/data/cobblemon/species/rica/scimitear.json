@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Scimitear",
-  "nationalPokedexNumber": 1376,
   "primaryType": "electric",
   "secondaryType": "fire",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 180,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "torkit",
+  "baseScale": 0.21666666666666667,
+  "cannotDynamax": false,
   "abilities": [
-    "motordrive"  ],
+    "motordrive"
+  ],
   "baseStats": {
     "hp": 75,
     "attack": 120,
@@ -14,37 +22,18 @@
     "special_defence": 65,
     "speed": 110
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 180,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:leer",
     "6:furyswipes",
@@ -119,7 +108,8 @@
     "tm:cut",
     "tm:rocksmash",
     "tm:flash",
-    "tm:strength"  ],
+    "tm:strength"
+  ],
   "labels": [
     "rica",
     "not_modeled",
@@ -127,28 +117,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.scimitear.desc"
+    "cobblemon.species.scimitear.desc1"
   ],
-  "preEvolution": "torkit",
-  "baseScale": 0.21666666666666667,
+  "height": 13,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1376,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 13,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

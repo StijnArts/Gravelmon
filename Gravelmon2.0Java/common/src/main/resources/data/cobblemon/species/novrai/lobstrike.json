@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Lobstrike",
-  "nationalPokedexNumber": 6646,
   "primaryType": "grass",
   "secondaryType": "electric",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 240,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "crable",
+  "baseScale": 0.3,
+  "cannotDynamax": false,
   "abilities": [
     "overgrow",
     "h:toughclaws"
@@ -16,38 +23,19 @@
     "special_defence": 74,
     "speed": 80
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 240,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "grass",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:growth",
     "10:visegrip",
@@ -131,7 +119,8 @@
     "tm:nightslash",
     "tm:agility",
     "tm:brine",
-    "tm:snaptrap"  ],
+    "tm:snaptrap"
+  ],
   "labels": [
     "novrai",
     "not_modeled",
@@ -139,28 +128,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.lobstrike.desc"
+    "cobblemon.species.lobstrike.desc1"
   ],
-  "preEvolution": "crable",
-  "baseScale": 0.3,
+  "height": 18,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6646,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 3,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 18,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

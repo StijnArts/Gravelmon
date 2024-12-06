@@ -1,5 +1,5 @@
 {
-   "target": "cobblemon:wynaut",
+  "target": "cobblemon:wynaut",
   "evolutions": [
     {
       "id": "wynaut_wobbuffet_varitasian",
@@ -10,11 +10,10 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 15
+          "minLevel": "15"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ]
-
 }

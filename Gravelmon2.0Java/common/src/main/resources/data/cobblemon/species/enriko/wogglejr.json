@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Wogglejr",
-  "nationalPokedexNumber": 1956,
   "primaryType": "fighting",
+  "catchRate": 45,
+  "maleRatio": 0.85,
+  "baseExperienceYield": 80,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.13333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "thickfat",
     "h:hugepower"
@@ -15,37 +21,18 @@
     "special_defence": 60,
     "speed": 65
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.85,
-  "shoulderMountable": false,
-  "baseExperienceYield": 80,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "human_like"
   ],
+  "drops": {},
   "moves": [
     "1:bulkup",
     "5:detect",
@@ -56,34 +43,51 @@
     "29:amnesia",
     "34:bounce",
     "39:quiverdance",
-    "45:superpower"  ],
+    "45:superpower"
+  ],
   "labels": [
     "enriko",
     "joke",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.wogglejr.desc"
+    "cobblemon.species.wogglejr.desc1"
   ],
-  "baseScale": 0.13333333333333333,
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1956,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 8,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -11,7 +11,7 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
+      "bucket": "rare",
       "level": "13-32",
       "weight": 3.3000000000000003,
       "condition": {
@@ -38,7 +38,7 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
+      "bucket": "rare",
       "level": "13-32",
       "weight": 3.3000000000000003,
       "condition": {
@@ -66,7 +66,7 @@
       ],
       "type": "pokemon",
       "context": "seafloor",
-      "bucket": "uncommon",
+      "bucket": "rare",
       "level": "13-32",
       "weight": 3.3000000000000003,
       "condition": {

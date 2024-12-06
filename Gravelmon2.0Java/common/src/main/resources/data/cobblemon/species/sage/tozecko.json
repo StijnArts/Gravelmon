@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Tozecko",
-  "nationalPokedexNumber": 1240,
   "primaryType": "grass",
   "secondaryType": "dragon",
+  "catchRate": 25,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 189,
+  "experienceGroup": "slow",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "preEvolution": "quecko",
+  "baseScale": 0.48333333333333334,
+  "cannotDynamax": false,
   "abilities": [
     "leafguard",
     "overgrow",
@@ -17,38 +24,21 @@
     "special_defence": 75,
     "speed": 115
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 25,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 189,
-  "experienceGroup": "slow",
-  "eggCycles": 100,
   "eggGroups": [
     "dragon",
     "grass"
   ],
+  "drops": {
+    "amount": 2
+  },
   "moves": [
     "1:featherdance",
     "1:vinewhip",
@@ -111,7 +101,8 @@
     "egg:grasswhistle",
     "egg:growth",
     "egg:powerwhip",
-    "egg:roost"  ],
+    "egg:roost"
+  ],
   "labels": [
     "sage",
     "not_modeled",
@@ -119,28 +110,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.tozecko.desc"
+    "cobblemon.species.tozecko.desc1"
   ],
-  "preEvolution": "quecko",
-  "baseScale": 0.48333333333333334,
+  "height": 29,
+  "weight": 590,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1240,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 29,
-  "weight": 590,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

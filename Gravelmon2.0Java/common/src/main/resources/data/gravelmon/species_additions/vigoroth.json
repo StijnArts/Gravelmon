@@ -1,470 +1,500 @@
 {
-   "target": "cobblemon:vigoroth",
-   "forms": [{
-  "name": "Elbian",
-  "primaryType": "electric",
-  "secondaryType": "normal",
-  "abilities": [
-    "keeneye"  ],
-  "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 255,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:thundershock",
-    "1:tackle"  ],
-  "labels": [
-    "elb",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.elbianvigoroth.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 0,
-  "weight": 0,
-  "aspects": ["elbian"],
-  "cannotDynamax": false
-},
-{
-  "name": "Ferranian",
-  "primaryType": "electric",
-  "secondaryType": "ice",
-  "abilities": [
-    "keeneye"  ],
-  "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 255,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:thundershock",
-    "1:powdersnow"  ],
-  "labels": [
-    "ferran",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.ferranianvigoroth.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 0,
-  "weight": 0,
-  "aspects": ["ferranian"],
-  "cannotDynamax": false
-},
-{
-  "name": "Epoch",
-  "primaryType": "ice",
-  "secondaryType": "fighting",
-  "abilities": [
-    "defiant",
-    "vitalspirit",
-    "h:angerpoint"
-  ],
-  "baseStats": {
-    "hp": 80,
-    "attack": 90,
-    "defence": 80,
-    "special_attack": 90,
-    "special_defence": 45,
-    "speed": 55
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 120,
-  "shoulderMountable": false,
-  "baseExperienceYield": 154,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:pound",
-    "14:armthrust",
-    "33:skyuppercut",
-    "44:icehammer",
-    "22:icepunch",
-    "30:brickbreak",
-    "38:jumpkick",
-    "26:poweruppunch",
-    "4:focusenergy",
-    "17:avalanche",
-    "49:uproar",
-    "54:hammerarm",
-    "1:yawn",
-    "9:iceshard",
-    "tm:attract",
-    "tm:blizzard",
-    "tm:bodypress",
-    "tm:bodyslam",
-    "tm:bulkup",
-    "tm:calmmind",
-    "tm:charm",
-    "tm:closecombat",
-    "tm:coaching",
-    "tm:cosmicpower",
-    "tm:crunch",
-    "tm:defog",
-    "tm:drainpunch",
-    "tm:falseswipe",
-    "tm:focusblast",
-    "tm:frostbite",
-    "tm:geomancy",
-    "tm:hail",
-    "tm:haze",
-    "tm:hiddenpower",
-    "tm:hypervoice",
-    "tm:icebeam",
-    "tm:icefang",
-    "tm:icepunch",
-    "tm:iciclespear",
-    "tm:icywind",
-    "tm:ironhead",
-    "tm:knockoff",
-    "tm:meteormash",
-    "tm:metronome",
-    "tm:mist",
-    "tm:mudslide",
-    "tm:nastyplot",
-    "tm:nobleroar",
-    "tm:payday",
-    "tm:playrough",
-    "tm:poweruppunch",
-    "tm:protect",
-    "tm:rest",
-    "tm:return",
-    "tm:round",
-    "tm:safeguard",
-    "tm:shadowpunch",
-    "tm:sleeptalk",
-    "tm:substitute",
-    "tm:superpower",
-    "tm:taunt",
-    "tm:terrainpulse",
-    "tm:toxic",
-    "tm:triattack",
-    "tm:weatherball",
-    "tm:wish",
-    "tm:workup",
-    "tm:zenheadbutt"  ],
-  "labels": [
-    "soulstones",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.epochvigoroth.desc"
-  ],
-  "evolutions": [
+  "target": "cobblemon:vigoroth",
+  "forms": [
     {
-      "id": "vigoroth_epoch_slaking",
-      "variant": "level_up",
-      "result": "epoch slaking",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
+      "name": "Elbian",
+      "primaryType": "electric",
+      "secondaryType": "normal",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:thundershock",
+        "1:tackle"
+      ],
+      "labels": [
+        "elb",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.elbianvigoroth.desc1"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "elbian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+          }
+        }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Ferranian",
+      "primaryType": "electric",
+      "secondaryType": "ice",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:thundershock",
+        "1:powdersnow"
+      ],
+      "labels": [
+        "ferran",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ferranianvigoroth.desc1"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "ferranian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+          }
+        }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "ice",
+      "secondaryType": "fighting",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 154,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.2333333333333333,
+      "cannotDynamax": false,
+      "abilities": [
+        "defiant",
+        "vitalspirit",
+        "h:angerpoint"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 90,
+        "defence": 80,
+        "special_attack": 90,
+        "special_defence": 45,
+        "speed": 55
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 2
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:pound",
+        "14:armthrust",
+        "33:skyuppercut",
+        "44:icehammer",
+        "22:icepunch",
+        "30:brickbreak",
+        "38:jumpkick",
+        "26:poweruppunch",
+        "4:focusenergy",
+        "17:avalanche",
+        "49:uproar",
+        "54:hammerarm",
+        "1:yawn",
+        "9:iceshard",
+        "tm:attract",
+        "tm:blizzard",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bulkup",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:closecombat",
+        "tm:coaching",
+        "tm:cosmicpower",
+        "tm:crunch",
+        "tm:defog",
+        "tm:drainpunch",
+        "tm:falseswipe",
+        "tm:focusblast",
+        "tm:frostbite",
+        "tm:geomancy",
+        "tm:hail",
+        "tm:haze",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:icebeam",
+        "tm:icefang",
+        "tm:icepunch",
+        "tm:iciclespear",
+        "tm:icywind",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:meteormash",
+        "tm:metronome",
+        "tm:mist",
+        "tm:mudslide",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:payday",
+        "tm:playrough",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:triattack",
+        "tm:weatherball",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochvigoroth.desc1"
+      ],
+      "height": 14,
+      "weight": 465,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
         {
-          "variant": "level",
-          "minLevel": 40
+          "id": "epochvigoroth_epoch_slaking",
+          "variant": "level_up",
+          "result": "epoch slaking",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "40"
+            }
+          ],
+          "permanent": true
         }
       ],
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.2333333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 14,
-  "weight": 465,
-  "aspects": ["epoch"],
-  "cannotDynamax": false
-},
-{
-  "name": "Avalossian",
-  "primaryType": "normal",
-  "abilities": [
-    "angerpoint",
-    "h:poisonheal"
-  ],
-  "baseStats": {
-    "hp": 80,
-    "attack": 90,
-    "defence": 90,
-    "special_attack": 55,
-    "special_defence": 45,
-    "speed": 80
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
-    }
-  },
-  "catchRate": 120,
-  "shoulderMountable": false,
-  "baseExperienceYield": 154,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:scratch",
-    "1:focusenergy",
-    "6:encore",
-    "9:uproar",
-    "14:furyswipes",
-    "17:endure",
-    "23:slash",
-    "27:chipaway",
-    "33:counter",
-    "37:focuspunch",
-    "43:reversal",
-    "tm:firepunch",
-    "tm:icepunch",
-    "tm:thunderpunch",
-    "tm:lowkick",
-    "tm:snore",
-    "tm:icywind",
-    "tm:uproar",
-    "tm:focuspunch",
-    "tm:covet",
-    "tm:shockwave",
-    "tm:waterpulse",
-    "tm:gunkshot",
-    "tm:afteryou",
-    "tm:roar",
-    "tm:flamethrower",
-    "tm:icebeam",
-    "tm:blizzard",
-    "tm:solarbeam",
-    "tm:thunderbolt",
-    "tm:thunder",
-    "tm:earthquake",
-    "tm:toxic",
-    "tm:doubleteam",
-    "tm:fireblast",
-    "tm:rest",
-    "tm:rockslide",
-    "tm:substitute",
-    "tm:protect",
-    "tm:swagger",
-    "tm:attract",
-    "tm:sleeptalk",
-    "tm:return",
-    "tm:frustration",
-    "tm:hiddenpower",
-    "tm:raindance",
-    "tm:sunnyday",
-    "tm:shadowball",
-    "tm:facade",
-    "tm:taunt",
-    "tm:brickbreak",
-    "tm:rocktomb",
-    "tm:aerialace",
-    "tm:bulkup",
-    "tm:fling",
-    "tm:focusblast",
-    "tm:shadowclaw",
-    "tm:lowsweep",
-    "tm:round",
-    "tm:bulldoze",
-    "tm:workup",
-    "tm:confide"  ],
-  "labels": [
-    "fliga",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
-  ],
-  "pokedex": [
-    "cobblemon.species.avalossianvigoroth.desc"
-  ],
-  "preEvolution": "slakoth form=avalossian",
-  "evolutions": [
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
     {
-      "id": "vigoroth_therierrrm",
-      "variant": "level_up",
-      "result": "therierrrm",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
+      "name": "Avalossian",
+      "primaryType": "normal",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 154,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "slakoth form\u003davalossian",
+      "baseScale": 0.2333333333333333,
+      "cannotDynamax": false,
+      "abilities": [
+        "angerpoint",
+        "h:poisonheal"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 90,
+        "defence": 90,
+        "special_attack": 55,
+        "special_defence": 45,
+        "speed": 80
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 2
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:scratch",
+        "1:focusenergy",
+        "6:encore",
+        "9:uproar",
+        "14:furyswipes",
+        "17:endure",
+        "23:slash",
+        "27:chipaway",
+        "33:counter",
+        "37:focuspunch",
+        "43:reversal",
+        "tm:firepunch",
+        "tm:icepunch",
+        "tm:thunderpunch",
+        "tm:lowkick",
+        "tm:snore",
+        "tm:icywind",
+        "tm:uproar",
+        "tm:focuspunch",
+        "tm:covet",
+        "tm:shockwave",
+        "tm:waterpulse",
+        "tm:gunkshot",
+        "tm:afteryou",
+        "tm:roar",
+        "tm:flamethrower",
+        "tm:icebeam",
+        "tm:blizzard",
+        "tm:solarbeam",
+        "tm:thunderbolt",
+        "tm:thunder",
+        "tm:earthquake",
+        "tm:toxic",
+        "tm:doubleteam",
+        "tm:fireblast",
+        "tm:rest",
+        "tm:rockslide",
+        "tm:substitute",
+        "tm:protect",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:hiddenpower",
+        "tm:raindance",
+        "tm:sunnyday",
+        "tm:shadowball",
+        "tm:facade",
+        "tm:taunt",
+        "tm:brickbreak",
+        "tm:rocktomb",
+        "tm:aerialace",
+        "tm:bulkup",
+        "tm:fling",
+        "tm:focusblast",
+        "tm:shadowclaw",
+        "tm:lowsweep",
+        "tm:round",
+        "tm:bulldoze",
+        "tm:workup",
+        "tm:confide"
+      ],
+      "labels": [
+        "fliga",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.avalossianvigoroth.desc1"
+      ],
+      "height": 14,
+      "weight": 465,
+      "aspects": [
+        "avalossian"
+      ],
+      "evolutions": [
         {
-          "variant": "level",
-          "minLevel": 36
+          "id": "avalossianvigoroth_therierrrm",
+          "variant": "level_up",
+          "result": "therierrrm",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "36"
+            }
+          ],
+          "permanent": true
         }
       ],
-      "permanent": true   
- }
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+          }
+        }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
   ],
-  "baseScale": 0.2333333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 14,
-  "weight": 465,
-  "aspects": ["avalossian"],
-  "cannotDynamax": false
-}
-], "features": [
-"elbian",
-"ferranian",
-"epoch",
-"avalossian"
+  "features": [
+    "elbian",
+    "ferranian",
+    "epoch",
+    "avalossian"
   ]
 }

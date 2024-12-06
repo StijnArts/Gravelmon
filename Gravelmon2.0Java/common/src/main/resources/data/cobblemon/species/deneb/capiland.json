@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Capiland",
-  "nationalPokedexNumber": 6313,
   "primaryType": "normal",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 124,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "capyba",
+  "baseScale": 0.13333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "unaware",
     "h:oblivious"
@@ -15,37 +22,18 @@
     "special_defence": 70,
     "speed": 50
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 90,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 124,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:reversal",
     "1:tackle",
@@ -88,7 +76,8 @@
     "egg:zenheadbutt",
     "egg:mudsport",
     "egg:mudbomb",
-    "egg:mudshot"  ],
+    "egg:mudshot"
+  ],
   "labels": [
     "deneb",
     "not_modeled",
@@ -96,28 +85,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.capiland.desc"
+    "cobblemon.species.capiland.desc1"
   ],
-  "preEvolution": "capyba",
-  "baseScale": 0.13333333333333333,
+  "height": 8,
+  "weight": 321,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6313,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 8,
-  "weight": 321,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

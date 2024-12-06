@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Cradecart",
-  "nationalPokedexNumber": 5494,
   "primaryType": "water",
   "secondaryType": "bug",
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 170,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "dwebble form\u003dayreian",
+  "baseScale": 0.2333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "raindish",
     "shellarmor",
@@ -17,38 +24,19 @@
     "special_defence": 35,
     "speed": 125
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 75,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 170,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "mineral",
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:stickyweb",
     "1:mudslap",
@@ -114,7 +102,8 @@
     "egg:curse",
     "egg:block",
     "egg:wideguard",
-    "egg:knockoff"  ],
+    "egg:knockoff"
+  ],
   "labels": [
     "gen5",
     "vanguard",
@@ -122,28 +111,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.cradecart.desc"
+    "cobblemon.species.cradecart.desc1"
   ],
-  "preEvolution": "dwebble form=ayreian",
-  "baseScale": 0.2333333333333333,
+  "height": 14,
+  "weight": 2000,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5494,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 14,
-  "weight": 2000,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

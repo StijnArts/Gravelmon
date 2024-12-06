@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Lilynary",
-  "nationalPokedexNumber": 6244,
   "primaryType": "fire",
   "secondaryType": "normal",
+  "catchRate": 160,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 76,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "flashfire",
     "h:synchronize"
@@ -16,37 +22,18 @@
     "special_defence": 50,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 160,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 76,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "1:tailwhip",
@@ -111,14 +98,18 @@
     "egg:smokescreen",
     "egg:sunnyday",
     "egg:takedown",
-    "egg:wish"  ],
+    "egg:wish"
+  ],
   "labels": [
     "deneb",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.lilynary.desc"
+    "cobblemon.species.lilynary.desc1"
   ],
+  "height": 6,
+  "weight": 185,
+  "aspects": [],
   "evolutions": [
     {
       "id": "lilynary_kaminary",
@@ -129,31 +120,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 30
+          "minLevel": "30"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 6244,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 6,
-  "weight": 185,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

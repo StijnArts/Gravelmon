@@ -149,7 +149,7 @@ public class Cereusaur extends drai.dev.data.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
         addAdditionalEvolution("ivysaur", new EvolutionEntry("cereusaur", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_DESERT.getId() + ":" + Biome.IS_DESERT.getName() +"\""),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_DESERT.getId() + ":" + Biome.IS_DESERT.getName()),
                         new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36"))));
            setLangFileName("Cereusaur");
 

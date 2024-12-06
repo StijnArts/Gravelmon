@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Mammolaya",
-  "nationalPokedexNumber": 7164,
   "primaryType": "ice",
   "secondaryType": "rock",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 145,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "mampth",
+  "baseScale": 0.3666666666666667,
+  "cannotDynamax": false,
   "abilities": [
-    "sandforce"  ],
+    "sandforce"
+  ],
   "baseStats": {
     "hp": 115,
     "attack": 140,
@@ -14,37 +22,18 @@
     "special_defence": 90,
     "speed": 45
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 1,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 145,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:harden",
     "1:powdersnow",
@@ -96,7 +85,8 @@
     "tm:roar",
     "tm:calmmind",
     "tm:taunt",
-    "tm:toxic"  ],
+    "tm:toxic"
+  ],
   "labels": [
     "atlas",
     "not_modeled",
@@ -104,28 +94,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.mammolaya.desc"
+    "cobblemon.species.mammolaya.desc1"
   ],
-  "preEvolution": "mampth",
-  "baseScale": 0.3666666666666667,
+  "height": 22,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 7164,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 22,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

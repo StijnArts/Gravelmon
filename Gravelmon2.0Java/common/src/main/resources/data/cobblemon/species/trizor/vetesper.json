@@ -1,65 +1,26 @@
 {
-  "implemented": true,
   "name": "Vetesper",
-  "nationalPokedexNumber": 3641,
   "primaryType": "psychic",
-  "abilities": [
-    "telepathy"  ],
-  "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 255,
+  "catchRate": 90,
   "maleRatio": 0.5,
-  "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:confusion"  ],
-  "labels": [
-    "not_modeled",
-    "trizor"
-  ],
-  "pokedex": [
-    "cobblemon.species.vetesper.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
   "baseFriendship": 70,
+  "preEvolution": "rosper",
+  "baseScale": 0.21666666666666667,
+  "cannotDynamax": false,
+  "abilities": [
+    "telepathy"
+  ],
+  "baseStats": {
+    "hp": 51,
+    "attack": 27,
+    "defence": 69,
+    "special_attack": 79,
+    "special_defence": 54,
+    "speed": 79
+  },
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -68,10 +29,69 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:confusion",
+    "1:vacuumwave"
+  ],
+  "labels": [
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution",
+    "trizor"
+  ],
+  "pokedex": [
+    "cobblemon.species.vetesper.desc1"
+  ],
+  "height": 13,
   "weight": 0,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [
+    {
+      "id": "vetesper_masper",
+      "variant": "item_interact",
+      "result": "Masper",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:metal_coat",
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 3641,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

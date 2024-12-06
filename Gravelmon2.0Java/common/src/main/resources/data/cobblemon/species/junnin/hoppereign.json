@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Hoppereign",
-  "nationalPokedexNumber": 3142,
   "primaryType": "bug",
   "secondaryType": "flying",
+  "catchRate": 30,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 223,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "cobworm",
+  "baseScale": 0.16666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "tintedlens",
     "unburden",
@@ -17,37 +24,18 @@
     "special_defence": 56,
     "speed": 105
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 30,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 223,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:extremespeed",
     "11:sing",
@@ -91,7 +79,8 @@
     "tm:toxic",
     "tm:roost",
     "tm:defog",
-    "tm:extremespeed"  ],
+    "tm:extremespeed"
+  ],
   "labels": [
     "isiah",
     "not_modeled",
@@ -99,28 +88,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.hoppereign.desc"
+    "cobblemon.species.hoppereign.desc1"
   ],
-  "preEvolution": "cobworm",
-  "baseScale": 0.16666666666666666,
+  "height": 10,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 3142,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 10,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

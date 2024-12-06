@@ -1,12 +1,20 @@
 {
-  "implemented": true,
   "name": "Sundangler",
-  "nationalPokedexNumber": 1888,
   "primaryType": "water",
   "secondaryType": "grass",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 186,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "frogfew",
+  "baseScale": 0.35000000000000003,
+  "cannotDynamax": false,
   "abilities": [
     "stickyhold",
-    "hydration"  ],
+    "hydration"
+  ],
   "baseStats": {
     "hp": 140,
     "attack": 110,
@@ -15,39 +23,19 @@
     "special_defence": 65,
     "speed": 75
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canWalkOnWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 1,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 186,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "grass",
     "water_2"
   ],
+  "drops": {},
   "moves": [
     "1:sweetscent",
     "8:endure",
@@ -116,7 +104,8 @@
     "tm:grassknot",
     "tm:surf",
     "tm:waterfall",
-    "tm:naturepower"  ],
+    "tm:naturepower"
+  ],
   "labels": [
     "ferroa",
     "not_modeled",
@@ -124,28 +113,44 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.sundangler.desc"
+    "cobblemon.species.sundangler.desc1"
   ],
-  "preEvolution": "frogfew",
-  "baseScale": 0.35000000000000003,
+  "height": 21,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1888,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true,
+        "canWalkOnWater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 21,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

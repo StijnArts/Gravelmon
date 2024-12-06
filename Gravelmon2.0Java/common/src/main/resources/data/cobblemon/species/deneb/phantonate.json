@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Phantonate",
-  "nationalPokedexNumber": 6249,
   "primaryType": "normal",
   "secondaryType": "ghost",
+  "catchRate": 15,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 108,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.18333333333333335,
+  "cannotDynamax": false,
   "abilities": [
     "shadowtag",
     "h:wonderguard"
@@ -16,37 +22,18 @@
     "special_defence": 50,
     "speed": 120
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 15,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 108,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "amorphous"
   ],
+  "drops": {},
   "moves": [
     "1:doubleteam",
     "1:grudge",
@@ -114,33 +101,50 @@
     "egg:takedown",
     "egg:thrash",
     "egg:thunderbolt",
-    "egg:toxic"  ],
+    "egg:toxic"
+  ],
   "labels": [
     "vega",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.phantonate.desc"
+    "cobblemon.species.phantonate.desc1"
   ],
-  "baseScale": 0.18333333333333335,
+  "height": 11,
+  "weight": 103,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6249,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 11,
-  "weight": 103,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

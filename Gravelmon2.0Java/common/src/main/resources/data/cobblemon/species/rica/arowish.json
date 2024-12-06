@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Arowish",
-  "nationalPokedexNumber": 1335,
   "primaryType": "water",
   "secondaryType": "psychic",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 168,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "gupplash",
+  "baseScale": 0.45,
+  "cannotDynamax": false,
   "abilities": [
     "swiftswim",
     "h:innerfocus"
@@ -16,37 +23,18 @@
     "special_defence": 80,
     "speed": 93
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 90,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 168,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "water_2"
   ],
+  "drops": {},
   "moves": [
     "1:amnesia",
     "7:helpinghand",
@@ -109,7 +97,8 @@
     "tm:surf",
     "tm:waterfall",
     "tm:dive",
-    "tm:allyswitch"  ],
+    "tm:allyswitch"
+  ],
   "labels": [
     "rica",
     "not_modeled",
@@ -117,28 +106,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.arowish.desc"
+    "cobblemon.species.arowish.desc1"
   ],
-  "preEvolution": "gupplash",
-  "baseScale": 0.45,
+  "height": 27,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1335,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 27,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

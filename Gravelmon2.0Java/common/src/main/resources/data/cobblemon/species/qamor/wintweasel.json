@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Wintweasel",
-  "nationalPokedexNumber": 5472,
   "primaryType": "ice",
   "secondaryType": "normal",
+  "catchRate": 25,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 234,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "bunbrisk",
+  "baseScale": 0.31666666666666665,
+  "cannotDynamax": false,
   "abilities": [
     "scrappy",
     "h:slushrush"
@@ -16,47 +23,20 @@
     "special_defence": 72,
     "speed": 85
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 1,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 25,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 234,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "field",
     "fairy"
   ],
   "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "gravelmon:foreign_hat",
-        "quantityRange": "1-1",
-        "percentage": 40
-      }
-    ]
+    "amount": 1
   },
   "moves": [
     "16:mist",
@@ -71,7 +51,8 @@
     "tm:uturn",
     "tm:snowscape",
     "tm:rest",
-    "tm:grassknot"  ],
+    "tm:grassknot"
+  ],
   "labels": [
     "qamor",
     "not_modeled",
@@ -79,28 +60,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.wintweasel.desc"
+    "cobblemon.species.wintweasel.desc1"
   ],
-  "preEvolution": "bunbrisk",
-  "baseScale": 0.31666666666666665,
+  "height": 19,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5472,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 19,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

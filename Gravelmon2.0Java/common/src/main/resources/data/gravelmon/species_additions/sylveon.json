@@ -1,167 +1,176 @@
 {
-   "target": "cobblemon:sylveon",
-   "forms": [{
-  "name": "Epoch",
-  "primaryType": "dragon",
-  "abilities": [
-    "angerpoint",
-    "moody",
-    "h:contrary"
-  ],
-  "baseStats": {
-    "hp": 65,
-    "attack": 95,
-    "defence": 130,
-    "special_attack": 110,
-    "special_defence": 60,
-    "speed": 65
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+  "target": "cobblemon:sylveon",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "dragon",
+      "catchRate": 100,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 184,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.16666666666666666,
+      "cannotDynamax": false,
+      "abilities": [
+        "angerpoint",
+        "moody",
+        "h:contrary"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 95,
+        "defence": 130,
+        "special_attack": 110,
+        "special_defence": 60,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 2,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field",
+        "dragon"
+      ],
+      "drops": {},
+      "moves": [
+        "1:shadowsneak",
+        "1:disable",
+        "55:memento",
+        "1:shadowclaw",
+        "1:bite",
+        "1:tailwhip",
+        "1:sandattack",
+        "1:swift",
+        "1:grudge",
+        "1:disarmingvoice",
+        "35:uproar",
+        "50:dracometeor",
+        "1:destinybond",
+        "1:growl",
+        "25:workup",
+        "1:perishsong",
+        "1:astonish",
+        "30:dragonclaw",
+        "45:dragondance",
+        "tm:acrobatics",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:burningjealousy",
+        "tm:breakingswipe",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:defog",
+        "tm:dracometeor",
+        "tm:dragonbreath",
+        "tm:dragonclaw",
+        "tm:dragondance",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:echoedvoice",
+        "tm:expandingforce",
+        "tm:flamethrower",
+        "tm:flareblitz",
+        "tm:focusblast",
+        "tm:geomancy",
+        "tm:haze",
+        "tm:healbell",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:icywind",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:memento",
+        "tm:mirrorshot",
+        "tm:mist",
+        "tm:moonblast",
+        "tm:nastyplot",
+        "tm:outrage",
+        "tm:payday",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:scaleshot",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snarl",
+        "tm:substitute",
+        "tm:swift",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:wildcharge",
+        "tm:willowisp",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochsylveon.desc1"
+      ],
+      "height": 10,
+      "weight": 235,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     }
-  },
-  "catchRate": 100,
-  "shoulderMountable": false,
-  "baseExperienceYield": 184,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field",
-    "dragon"
   ],
-  "moves": [
-    "1:shadowsneak",
-    "1:disable",
-    "55:memento",
-    "1:shadowclaw",
-    "1:bite",
-    "1:tailwhip",
-    "1:sandattack",
-    "1:swift",
-    "1:grudge",
-    "1:disarmingvoice",
-    "35:uproar",
-    "50:dracometeor",
-    "1:destinybond",
-    "1:growl",
-    "25:workup",
-    "1:perishsong",
-    "1:astonish",
-    "30:dragonclaw",
-    "45:dragondance",
-    "tm:acrobatics",
-    "tm:attract",
-    "tm:aurasphere",
-    "tm:burningjealousy",
-    "tm:breakingswipe",
-    "tm:calmmind",
-    "tm:charm",
-    "tm:confuseray",
-    "tm:cosmicpower",
-    "tm:crunch",
-    "tm:curse",
-    "tm:darkpulse",
-    "tm:dazzlinggleam",
-    "tm:defog",
-    "tm:dracometeor",
-    "tm:dragonbreath",
-    "tm:dragonclaw",
-    "tm:dragondance",
-    "tm:earthpower",
-    "tm:earthquake",
-    "tm:echoedvoice",
-    "tm:expandingforce",
-    "tm:flamethrower",
-    "tm:flareblitz",
-    "tm:focusblast",
-    "tm:geomancy",
-    "tm:haze",
-    "tm:healbell",
-    "tm:hex",
-    "tm:hiddenpower",
-    "tm:hypervoice",
-    "tm:icywind",
-    "tm:knockoff",
-    "tm:lashout",
-    "tm:memento",
-    "tm:mirrorshot",
-    "tm:mist",
-    "tm:moonblast",
-    "tm:nastyplot",
-    "tm:outrage",
-    "tm:payday",
-    "tm:phantomforce",
-    "tm:playrough",
-    "tm:poltergeist",
-    "tm:possession",
-    "tm:protect",
-    "tm:psychicfangs",
-    "tm:rest",
-    "tm:return",
-    "tm:round",
-    "tm:safeguard",
-    "tm:scaleshot",
-    "tm:shadowball",
-    "tm:sleeptalk",
-    "tm:sludgebomb",
-    "tm:sludgewave",
-    "tm:snarl",
-    "tm:substitute",
-    "tm:swift",
-    "tm:taunt",
-    "tm:terrainpulse",
-    "tm:toxic",
-    "tm:wildcharge",
-    "tm:willowisp",
-    "tm:wish",
-    "tm:workup",
-    "tm:zenheadbutt"  ],
-  "labels": [
-    "soulstones",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.epochsylveon.desc"
-  ],
-  "baseScale": 0.16666666666666666,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 10,
-  "weight": 235,
-  "aspects": ["epoch"],
-  "cannotDynamax": false
-}
-], "features": [
-"epoch"
+  "features": [
+    "epoch"
   ]
 }

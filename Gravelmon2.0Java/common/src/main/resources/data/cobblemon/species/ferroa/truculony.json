@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Truculony",
-  "nationalPokedexNumber": 1877,
   "primaryType": "water",
   "secondaryType": "fighting",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 172,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "anemeany",
+  "baseScale": 0.26666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "rivalry",
     "h:adaptability"
@@ -16,37 +23,18 @@
     "special_defence": 125,
     "speed": 40
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 172,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_3"
   ],
+  "drops": {},
   "moves": [
     "1:leer",
     "9:foresight",
@@ -123,7 +111,8 @@
     "tm:surf",
     "tm:waterfall",
     "tm:powerwhip",
-    "tm:thrash"  ],
+    "tm:thrash"
+  ],
   "labels": [
     "ferroa",
     "not_modeled",
@@ -131,28 +120,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.truculony.desc"
+    "cobblemon.species.truculony.desc1"
   ],
-  "preEvolution": "anemeany",
-  "baseScale": 0.26666666666666666,
+  "height": 16,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1877,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 16,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

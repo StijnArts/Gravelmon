@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Shellop",
-  "nationalPokedexNumber": 7187,
   "primaryType": "water",
+  "catchRate": 45,
+  "maleRatio": 0.75,
+  "baseExperienceYield": 65,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "torrent",
     "h:filter"
@@ -15,38 +21,19 @@
     "special_defence": 70,
     "speed": 20
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.75,
-  "shoulderMountable": false,
-  "baseExperienceYield": 65,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_3",
     "amorphous"
   ],
+  "drops": {},
   "moves": [
     "1:chillingwater",
     "6:lifedew",
@@ -62,14 +49,18 @@
     "61:hydropump",
     "72:blizzard",
     "78:soak",
-    "83:waterspout"  ],
+    "83:waterspout"
+  ],
   "labels": [
     "amavi",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.shellop.desc"
+    "cobblemon.species.shellop.desc1"
   ],
+  "height": 3,
+  "weight": 204,
+  "aspects": [],
   "evolutions": [
     {
       "id": "shellop_glossail",
@@ -80,31 +71,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 16
+          "minLevel": "16"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 7187,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 3,
-  "weight": 204,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

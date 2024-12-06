@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Finlock",
-  "nationalPokedexNumber": 6963,
   "primaryType": "water",
   "secondaryType": "psychic",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "finjoy",
+  "baseScale": 0.16666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "torrent",
     "h:magician"
@@ -16,38 +23,19 @@
     "special_defence": 68,
     "speed": 82
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 142,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field",
     "water_2"
   ],
+  "drops": {},
   "moves": [
     "1:pound",
     "4:tailwhip",
@@ -109,7 +97,8 @@
     "tm:willowisp",
     "tm:workup",
     "tm:teleport",
-    "tm:hydropump"  ],
+    "tm:hydropump"
+  ],
   "labels": [
     "atlas",
     "not_modeled",
@@ -117,9 +106,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.finlock.desc"
+    "cobblemon.species.finlock.desc1"
   ],
-  "preEvolution": "finjoy",
+  "height": 10,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "finlock_gandolph",
@@ -130,31 +121,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 38
+          "minLevel": "38"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.16666666666666666,
+  "nationalPokedexNumber": 6963,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 10,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

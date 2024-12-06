@@ -1,156 +1,165 @@
 {
-   "target": "cobblemon:musharna",
-   "forms": [{
-  "name": "Epoch",
-  "primaryType": "electric",
-  "secondaryType": "bug",
-  "abilities": [
-    "download",
-    "tintedlens",
-    "h:moody"
-  ],
-  "baseStats": {
-    "hp": 75,
-    "attack": 59,
-    "defence": 60,
-    "special_attack": 116,
-    "special_defence": 117,
-    "speed": 60
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+  "target": "cobblemon:musharna",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "electric",
+      "secondaryType": "bug",
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 170,
+      "experienceGroup": "fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.18333333333333335,
+      "cannotDynamax": false,
+      "abilities": [
+        "download",
+        "tintedlens",
+        "h:moody"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 59,
+        "defence": 60,
+        "special_attack": 116,
+        "special_defence": 117,
+        "speed": 60
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "48:lockon",
+        "4:thunderwave",
+        "24:electroball",
+        "32:voltswitch",
+        "1:defensecurl",
+        "16:mirrorshot",
+        "40:flashcannon",
+        "44:ragepowder",
+        "56:hivemind",
+        "36:discharge",
+        "1:shockwave",
+        "8:chargebeam",
+        "28:quiverdance",
+        "44:thunderbolt",
+        "12:strugglebug",
+        "52:electricterrain",
+        "20:eerieimpulse",
+        "48:zapcannon",
+        "12:charge",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:coaching",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:drainingkiss",
+        "tm:echoedvoice",
+        "tm:electricterrain",
+        "tm:expandingforce",
+        "tm:focusblast",
+        "tm:furycutter",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:healbell",
+        "tm:hiddenpower",
+        "tm:hivemind",
+        "tm:knockoff",
+        "tm:leechlife",
+        "tm:lightscreen",
+        "tm:magicroom",
+        "tm:magnetrise",
+        "tm:meteorbeam",
+        "tm:metronome",
+        "tm:mirrorshot",
+        "tm:nastyplot",
+        "tm:pinmissile",
+        "tm:protect",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:risingvoltage",
+        "tm:round",
+        "tm:safeguard",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:swift",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderfang",
+        "tm:thunderwave",
+        "tm:toxic",
+        "tm:trickroom",
+        "tm:uturn",
+        "tm:voltswitch",
+        "tm:wildcharge",
+        "tm:wish",
+        "tm:wonderroom",
+        "tm:workup"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochmusharna.desc1"
+      ],
+      "height": 11,
+      "weight": 605,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     }
-  },
-  "catchRate": 75,
-  "shoulderMountable": false,
-  "baseExperienceYield": 170,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
   ],
-  "moves": [
-    "48:lockon",
-    "4:thunderwave",
-    "24:electroball",
-    "32:voltswitch",
-    "1:defensecurl",
-    "16:mirrorshot",
-    "40:flashcannon",
-    "44:ragepowder",
-    "56:hivemind",
-    "36:discharge",
-    "1:shockwave",
-    "8:chargebeam",
-    "28:quiverdance",
-    "44:thunderbolt",
-    "12:strugglebug",
-    "52:electricterrain",
-    "20:eerieimpulse",
-    "48:zapcannon",
-    "12:charge",
-    "tm:attract",
-    "tm:aurasphere",
-    "tm:calmmind",
-    "tm:chargebeam",
-    "tm:coaching",
-    "tm:confuseray",
-    "tm:cosmicpower",
-    "tm:darkpulse",
-    "tm:dazzlinggleam",
-    "tm:drainingkiss",
-    "tm:echoedvoice",
-    "tm:electricterrain",
-    "tm:expandingforce",
-    "tm:focusblast",
-    "tm:furycutter",
-    "tm:gammaray",
-    "tm:geomancy",
-    "tm:healbell",
-    "tm:hiddenpower",
-    "tm:hivemind",
-    "tm:knockoff",
-    "tm:leechlife",
-    "tm:lightscreen",
-    "tm:magicroom",
-    "tm:magnetrise",
-    "tm:meteorbeam",
-    "tm:metronome",
-    "tm:mirrorshot",
-    "tm:nastyplot",
-    "tm:pinmissile",
-    "tm:protect",
-    "tm:reflect",
-    "tm:rest",
-    "tm:return",
-    "tm:risingvoltage",
-    "tm:round",
-    "tm:safeguard",
-    "tm:signalbeam",
-    "tm:sleeptalk",
-    "tm:strugglebug",
-    "tm:substitute",
-    "tm:swift",
-    "tm:taunt",
-    "tm:terrainpulse",
-    "tm:thunder",
-    "tm:thunderbolt",
-    "tm:thunderfang",
-    "tm:thunderwave",
-    "tm:toxic",
-    "tm:trickroom",
-    "tm:uturn",
-    "tm:voltswitch",
-    "tm:wildcharge",
-    "tm:wish",
-    "tm:wonderroom",
-    "tm:workup"  ],
-  "labels": [
-    "soulstones",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.epochmusharna.desc"
-  ],
-  "baseScale": 0.18333333333333335,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 11,
-  "weight": 605,
-  "aspects": ["epoch"],
-  "cannotDynamax": false
-}
-], "features": [
-"epoch"
+  "features": [
+    "epoch"
   ]
 }

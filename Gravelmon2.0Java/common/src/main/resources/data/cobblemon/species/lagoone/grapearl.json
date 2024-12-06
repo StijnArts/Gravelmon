@@ -1,11 +1,18 @@
 {
-  "implemented": true,
   "name": "Grapearl",
-  "nationalPokedexNumber": 1600,
   "primaryType": "grass",
   "secondaryType": "poison",
+  "catchRate": 205,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 62,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
   "baseStats": {
     "hp": 42,
     "attack": 35,
@@ -14,68 +21,6 @@
     "special_defence": 70,
     "speed": 35
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 205,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 62,
-  "experienceGroup": "fluctuating",
-  "eggCycles": 50,
-  "eggGroups": [
-    "amorphous"
-  ],
-  "moves": [
-    "1:absorb",
-    "1:acid"  ],
-  "labels": [
-    "lagoone",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.grapearl.desc"
-  ],
-  "evolutions": [
-    {
-      "id": "grapearl_jamowar",
-      "variant": "item_interact",
-      "result": "jamowar",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-
-      ],
-      "requiredContext": "cobblemon:leaf_stone",
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -84,10 +29,67 @@
     "special_defence": 1,
     "speed": 0
   },
+  "eggGroups": [
+    "amorphous"
+  ],
+  "drops": {},
+  "moves": [
+    "1:absorb",
+    "1:acid"
+  ],
+  "labels": [
+    "lagoone",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.grapearl.desc1"
+  ],
   "height": 6,
   "weight": 83,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [
+    {
+      "id": "grapearl_jamowar",
+      "variant": "item_interact",
+      "result": "jamowar",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:leaf_stone",
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 1600,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

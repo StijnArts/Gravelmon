@@ -21,7 +21,7 @@ public class EghoHappiny extends Pokemon {
                 List.of("In order to adapt to an environment of egg-stealing predators, Happiny has become hyper-aggressive and territorial. It carries an egg-shaped rock in its pouch."),
                 List.of(new EvolutionEntry("eghochansey", EvolutionType.LEVEL_UP, true, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"cobblemon:oval_stone\""),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "cobblemon:oval_stone"),
                                 new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "day")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HELPING_HAND,1),

@@ -1,11 +1,18 @@
 {
-  "implemented": true,
   "name": "Billilium",
-  "nationalPokedexNumber": 7209,
   "primaryType": "steel",
   "secondaryType": "normal",
+  "catchRate": 170,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.11666666666666665,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
   "baseStats": {
     "hp": 45,
     "attack": 70,
@@ -14,37 +21,18 @@
     "special_defence": 20,
     "speed": 50
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 170,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "11:copycat",
     "13:doublekick",
@@ -111,14 +99,18 @@
     "tm:counter",
     "tm:stomp",
     "tm:autotomize",
-    "tm:flail"  ],
+    "tm:flail"
+  ],
   "labels": [
     "amavi",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.billilium.desc"
+    "cobblemon.species.billilium.desc1"
   ],
+  "height": 7,
+  "weight": 0,
+  "aspects": [],
   "evolutions": [
     {
       "id": "billilium_rampede",
@@ -129,15 +121,15 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 26
+          "minLevel": "26"
         },
         {
           "variant": "attack_defence_ratio",
-          "ratio": ATTACK_HIGHER
+          "ratio": "ATTACK_HIGHER"
         }
       ],
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "billilium_rustangel",
       "variant": "level_up",
@@ -147,35 +139,47 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 26
+          "minLevel": "26"
         },
         {
           "variant": "attack_defence_ratio",
-          "ratio": DEFENCE_HIGHER
+          "ratio": "DEFENCE_HIGHER"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.11666666666666665,
+  "nationalPokedexNumber": 7209,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 7,
-  "weight": 0,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

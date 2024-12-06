@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Merjestic",
-  "nationalPokedexNumber": 1283,
   "primaryType": "water",
   "secondaryType": "fairy",
+  "catchRate": 45,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 225,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "blubbark",
+  "baseScale": 0.21666666666666667,
+  "cannotDynamax": false,
   "abilities": [
     "competitive",
     "thickfat",
@@ -17,38 +24,19 @@
     "special_defence": 65,
     "speed": 95
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 225,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field",
     "water_1"
   ],
+  "drops": {},
   "moves": [
     "1:growl",
     "5:watersport",
@@ -122,7 +110,8 @@
     "tm:howl",
     "tm:copycat",
     "tm:aquajet",
-    "tm:disarmingvoice"  ],
+    "tm:disarmingvoice"
+  ],
   "labels": [
     "rica",
     "not_modeled",
@@ -130,28 +119,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.merjestic.desc"
+    "cobblemon.species.merjestic.desc1"
   ],
-  "preEvolution": "blubbark",
-  "baseScale": 0.21666666666666667,
+  "height": 13,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1283,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 13,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

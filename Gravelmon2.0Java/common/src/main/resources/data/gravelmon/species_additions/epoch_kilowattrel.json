@@ -1,4 +1,4 @@
 {
-   "target": "cobblemon:epoch_kilowattrel",
+  "target": "cobblemon:epoch_kilowattrel",
   "preEvolution": "epochwattrel"
 }

@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Sealkie",
-  "nationalPokedexNumber": 6286,
   "primaryType": "water",
   "secondaryType": "ice",
+  "catchRate": 160,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 92,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "damp",
     "h:cutecharm"
@@ -16,38 +22,19 @@
     "special_defence": 53,
     "speed": 42
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 160,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 92,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "fairy",
     "water_2"
   ],
+  "drops": {},
   "moves": [
     "1:growl",
     "1:bubble",
@@ -112,14 +99,18 @@
     "egg:uproar",
     "egg:waterpulse",
     "egg:yawn",
-    "egg:zenheadbutt"  ],
+    "egg:zenheadbutt"
+  ],
   "labels": [
     "deneb",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.sealkie.desc"
+    "cobblemon.species.sealkie.desc1"
   ],
+  "height": 5,
+  "weight": 87,
+  "aspects": [],
   "evolutions": [
     {
       "id": "sealkie_selody",
@@ -130,31 +121,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 35
+          "minLevel": "35"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 6286,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 5,
-  "weight": 87,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

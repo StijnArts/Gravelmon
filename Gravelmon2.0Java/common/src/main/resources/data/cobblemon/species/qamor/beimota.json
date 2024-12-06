@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Beimota",
-  "nationalPokedexNumber": 5445,
   "primaryType": "psychic",
   "secondaryType": "electric",
+  "catchRate": 55,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 163,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "rubee",
+  "baseScale": 0.26666666666666666,
+  "cannotDynamax": false,
   "abilities": [
-    "prankster"  ],
+    "prankster"
+  ],
   "baseStats": {
     "hp": 75,
     "attack": 40,
@@ -14,38 +22,19 @@
     "special_defence": 100,
     "speed": 80
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 55,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 163,
-  "experienceGroup": "fluctuating",
-  "eggCycles": 50,
   "eggGroups": [
     "fairy",
     "monster"
   ],
+  "drops": {},
   "moves": [
     "1:eerieimpulse",
     "4:disarmingvoice",
@@ -64,7 +53,8 @@
     "tm:thunderwave",
     "tm:psychic",
     "tm:thunderbolt",
-    "tm:toxic"  ],
+    "tm:toxic"
+  ],
   "labels": [
     "qamor",
     "not_modeled",
@@ -72,28 +62,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.beimota.desc"
+    "cobblemon.species.beimota.desc1"
   ],
-  "preEvolution": "rubee",
-  "baseScale": 0.26666666666666666,
+  "height": 16,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5445,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 16,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Guardeon",
-  "nationalPokedexNumber": 1424,
   "primaryType": "steel",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 184,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 35,
+  "baseFriendship": 70,
+  "preEvolution": "eevee",
+  "baseScale": 0.8,
+  "cannotDynamax": false,
   "abilities": [
     "bulletproof",
     "h:heatproof"
@@ -15,46 +22,19 @@
     "special_defence": 95,
     "speed": 65
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 184,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 35,
   "eggGroups": [
     "field"
   ],
   "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "cobblemon:metal_coat",
-        "quantityRange": "1-1",
-        "percentage": 40
-      }
-    ]
+    "amount": 1
   },
   "moves": [
     "1:irondefense",
@@ -126,35 +106,51 @@
     "egg:synchronoise",
     "egg:tickle",
     "egg:wish",
-    "egg:yawn"  ],
+    "egg:yawn"
+  ],
   "labels": [
     "infinity",
     "eeveelution",
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.guardeon.desc"
+    "cobblemon.species.guardeon.desc1"
   ],
-  "preEvolution": "eevee",
-  "baseScale": 0.8,
+  "height": 12,
+  "weight": 585,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1424,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 1.2,
     "height": 1.2,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 12,
-  "weight": 585,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

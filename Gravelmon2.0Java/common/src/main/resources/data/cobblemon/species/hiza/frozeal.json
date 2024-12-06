@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Frozeal",
-  "nationalPokedexNumber": 3078,
   "primaryType": "ice",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 119,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "pupsicle",
+  "baseScale": 0.25,
+  "cannotDynamax": false,
   "abilities": [
     "icebody",
     "h:permafrost"
@@ -15,38 +22,19 @@
     "special_defence": 60,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 119,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field",
     "water_1"
   ],
+  "drops": {},
   "moves": [
     "1:growl",
     "7:encore",
@@ -59,7 +47,8 @@
     "40:snowscape",
     "46:freezedry",
     "51:disable",
-    "55:blizzard"  ],
+    "55:blizzard"
+  ],
   "labels": [
     "hiza",
     "not_modeled",
@@ -67,9 +56,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.frozeal.desc"
+    "cobblemon.species.frozeal.desc1"
   ],
-  "preEvolution": "pupsicle",
+  "height": 15,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "frozeal_hauntberg",
@@ -80,31 +71,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 40
+          "minLevel": "40"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.25,
+  "nationalPokedexNumber": 3078,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 15,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

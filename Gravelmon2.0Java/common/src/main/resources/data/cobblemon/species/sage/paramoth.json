@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Paramoth",
-  "nationalPokedexNumber": 1200,
   "primaryType": "bug",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 223,
+  "experienceGroup": "fast",
+  "eggCycles": 39,
+  "baseFriendship": 70,
+  "preEvolution": "silkinder",
+  "baseScale": 0.16666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "serenegrace",
     "allure",
@@ -16,38 +23,21 @@
     "special_defence": 100,
     "speed": 95
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 1,
+    "speed": 1
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 223,
-  "experienceGroup": "fast",
-  "eggCycles": 39,
   "eggGroups": [
     "bug",
     "fairy"
   ],
+  "drops": {
+    "amount": 2
+  },
   "moves": [
     "1:swordsdance",
     "1:sweetscent",
@@ -129,7 +119,8 @@
     "egg:extrasensory",
     "egg:followme",
     "egg:lovelykiss",
-    "egg:wish"  ],
+    "egg:wish"
+  ],
   "labels": [
     "sage",
     "not_modeled",
@@ -137,28 +128,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.paramoth.desc"
+    "cobblemon.species.paramoth.desc1"
   ],
-  "preEvolution": "silkinder",
-  "baseScale": 0.16666666666666666,
+  "height": 10,
+  "weight": 188,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1200,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 1,
-    "speed": 1
-  },
-  "height": 10,
-  "weight": 188,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

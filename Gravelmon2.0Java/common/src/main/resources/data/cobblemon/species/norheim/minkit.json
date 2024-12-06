@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Minkit",
-  "nationalPokedexNumber": 4105,
   "primaryType": "grass",
+  "catchRate": 45,
+  "maleRatio": 0.87,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "overgrow",
     "h:superluck"
@@ -15,37 +21,18 @@
     "special_defence": 39,
     "speed": 47
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.87,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:sweetscent",
     "1:icywind",
@@ -74,14 +61,18 @@
     "tm:acupressure",
     "tm:assist",
     "tm:copycat",
-    "tm:lastresort"  ],
+    "tm:lastresort"
+  ],
   "labels": [
     "norheim",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.minkit.desc"
+    "cobblemon.species.minkit.desc1"
   ],
+  "height": 6,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "minkit_freicat",
@@ -92,31 +83,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 18
+          "minLevel": "18"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 4105,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 6,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

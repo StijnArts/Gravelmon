@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Plaineon",
-  "nationalPokedexNumber": 5858,
   "primaryType": "normal",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 184,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "baseScale": 0.16666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "clearbody",
     "h:protean"
@@ -15,46 +21,19 @@
     "special_defence": 110,
     "speed": 45
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 184,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 100,
   "eggGroups": [
     "monster"
   ],
   "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "cobblemon:shiny_stone",
-        "quantityRange": "1-1",
-        "percentage": 40
-      }
-    ]
+    "amount": 1
   },
   "moves": [
     "1:tackle",
@@ -97,33 +76,50 @@
     "egg:icywind",
     "egg:magicalleaf",
     "egg:dragonclaw",
-    "egg:skullbash"  ],
+    "egg:skullbash"
+  ],
   "labels": [
     "myth",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.plaineon.desc"
+    "cobblemon.species.plaineon.desc1"
   ],
-  "baseScale": 0.16666666666666666,
+  "height": 10,
+  "weight": 169,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5858,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 10,
-  "weight": 169,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

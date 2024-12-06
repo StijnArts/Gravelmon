@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Wubunny",
-  "nationalPokedexNumber": 7384,
   "primaryType": "normal",
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 80,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "bommy",
+  "baseScale": 0.2333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "cutecharm",
     "h:moody"
@@ -15,38 +22,19 @@
     "special_defence": 85,
     "speed": 95
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 190,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 80,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "fairy",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:growl",
     "1:pound",
@@ -62,7 +50,8 @@
     "36:bodyslam",
     "40:batonpass",
     "45:followme",
-    "50:playrough"  ],
+    "50:playrough"
+  ],
   "labels": [
     "cyare",
     "not_modeled",
@@ -70,28 +59,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.wubunny.desc"
+    "cobblemon.species.wubunny.desc1"
   ],
-  "preEvolution": "bommy",
-  "baseScale": 0.2333333333333333,
+  "height": 14,
+  "weight": 329,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 7384,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 14,
-  "weight": 329,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

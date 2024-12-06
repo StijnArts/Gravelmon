@@ -107,7 +107,7 @@ public class Guardeon extends Pokemon {
         this.setBaseScale(0.8);
         this.setPreEvolution("eevee");
         addAdditionalEvolution("eevee", new EvolutionEntry("guardeon", EvolutionType.LEVEL_UP, List.of(new MoveLearnSetEntry(Move.IRON_DEFENSE, "")),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:metal_coat\""),
-                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"\"night\""))));
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:metal_coat"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night"))));
     }
 }

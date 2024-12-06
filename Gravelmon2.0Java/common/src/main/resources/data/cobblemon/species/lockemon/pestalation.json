@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Pestalation",
-  "nationalPokedexNumber": 4647,
   "primaryType": "flying",
   "secondaryType": "poison",
+  "catchRate": 45,
+  "maleRatio": -1.0,
+  "baseExperienceYield": 257,
+  "experienceGroup": "slow",
+  "eggCycles": 200,
+  "baseFriendship": 70,
+  "baseScale": 0.26666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "steelworker",
     "beastboost",
@@ -17,37 +23,18 @@
     "special_defence": 111,
     "speed": 111
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 1,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": -1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 257,
-  "experienceGroup": "slow",
-  "eggCycles": 200,
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {},
   "moves": [
     "1:absorb",
     "1:astonish",
@@ -62,33 +49,50 @@
     "48:venoshock",
     "55:confuseray",
     "62:airslash",
-    "69:leechlife"  ],
+    "69:leechlife"
+  ],
   "labels": [
     "lockemon",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.pestalation.desc"
+    "cobblemon.species.pestalation.desc1"
   ],
-  "baseScale": 0.26666666666666666,
+  "height": 16,
+  "weight": 337,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 4647,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 16,
-  "weight": 337,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

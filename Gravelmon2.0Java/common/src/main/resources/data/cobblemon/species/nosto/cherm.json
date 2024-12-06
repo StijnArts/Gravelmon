@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Cherm",
-  "nationalPokedexNumber": 4681,
   "primaryType": "grass",
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 45,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "chlorophyll",
     "h:overgrow"
@@ -15,38 +21,19 @@
     "special_defence": 65,
     "speed": 41
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 255,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 45,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "fairy",
     "grass"
   ],
+  "drops": {},
   "moves": [
     "1:absorb",
     "1:synthesis",
@@ -87,14 +74,18 @@
     "tm:swordsdance",
     "tm:toxic",
     "tm:calmmind",
-    "tm:rest"  ],
+    "tm:rest"
+  ],
   "labels": [
     "nosto",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.cherm.desc"
+    "cobblemon.species.cherm.desc1"
   ],
+  "height": 2,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "cherm_cherrish",
@@ -105,31 +96,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 14
+          "minLevel": "14"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 4681,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 2,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

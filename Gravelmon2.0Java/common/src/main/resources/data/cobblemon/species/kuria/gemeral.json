@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Gemeral",
-  "nationalPokedexNumber": 5594,
   "primaryType": "rock",
   "secondaryType": "light",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 86,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.11666666666666665,
+  "cannotDynamax": false,
   "abilities": [
     "sturdy",
     "h:sapsipper"
@@ -16,38 +22,19 @@
     "special_defence": 74,
     "speed": 31
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 86,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "mineral",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:defensecurl",
     "7:rollout",
@@ -59,14 +46,18 @@
     "38:rockslide",
     "44:doubleedge",
     "47:counter",
-    "55:headsmash"  ],
+    "55:headsmash"
+  ],
   "labels": [
     "kuria",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.gemeral.desc"
+    "cobblemon.species.gemeral.desc1"
   ],
+  "height": 7,
+  "weight": 326,
+  "aspects": [],
   "evolutions": [
     {
       "id": "gemeral_lushan",
@@ -77,31 +68,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 35
+          "minLevel": "35"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.11666666666666665,
+  "nationalPokedexNumber": 5594,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 7,
-  "weight": 326,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

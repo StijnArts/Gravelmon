@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Barand",
-  "nationalPokedexNumber": 2543,
   "primaryType": "dragon",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 126,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "baseScale": 0.2333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "rivalry",
     "shedskin",
@@ -16,37 +22,18 @@
     "special_defence": 30,
     "speed": 85
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 126,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 100,
   "eggGroups": [
     "amorphous"
   ],
+  "drops": {},
   "moves": [
     "1:peck",
     "6:sandattack",
@@ -115,33 +102,50 @@
     "egg:focuspunch",
     "egg:quickattack",
     "egg:dragonbreath",
-    "egg:extremespeed"  ],
+    "egg:extremespeed"
+  ],
   "labels": [
     "uranium",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.barand.desc"
+    "cobblemon.species.barand.desc1"
   ],
-  "baseScale": 0.2333333333333333,
+  "height": 14,
+  "weight": 902,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2543,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 3,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 14,
-  "weight": 902,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

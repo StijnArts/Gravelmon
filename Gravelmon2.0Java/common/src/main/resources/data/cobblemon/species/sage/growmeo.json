@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Growmeo",
-  "nationalPokedexNumber": 1066,
   "primaryType": "grass",
+  "catchRate": 255,
+  "maleRatio": 1.0,
+  "baseExperienceYield": 59,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "allure",
     "effectspore",
@@ -16,38 +22,21 @@
     "special_defence": 35,
     "speed": 53
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 255,
-  "maleRatio": 1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 59,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "grass",
     "human_like"
   ],
+  "drops": {
+    "amount": 4
+  },
   "moves": [
     "1:absorb",
     "1:charm",
@@ -113,14 +102,18 @@
     "egg:batonpass",
     "egg:doubleslap",
     "egg:followme",
-    "egg:sweetkiss"  ],
+    "egg:sweetkiss"
+  ],
   "labels": [
     "sage",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.growmeo.desc"
+    "cobblemon.species.growmeo.desc1"
   ],
+  "height": 5,
+  "weight": 9,
+  "aspects": [],
   "evolutions": [
     {
       "id": "growmeo_montegrew",
@@ -134,28 +127,40 @@
           "move": "attract"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 1066,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 5,
-  "weight": 9,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

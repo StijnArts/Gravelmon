@@ -1,12 +1,19 @@
 {
-  "implemented": true,
   "name": "Twintuff",
-  "nationalPokedexNumber": 4358,
   "primaryType": "rock",
   "secondaryType": "fighting",
+  "catchRate": 200,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 175,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "reckless",
-    "battlearmor"  ],
+    "battlearmor"
+  ],
   "baseStats": {
     "hp": 26,
     "attack": 41,
@@ -15,38 +22,19 @@
     "special_defence": 58,
     "speed": 29
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 200,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 175,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "monster",
     "human_like"
   ],
+  "drops": {},
   "moves": [
     "1:circlethrow",
     "1:headsmash",
@@ -54,14 +42,18 @@
     "1:stoneedge",
     "1:sandtomb",
     "1:seismictoss",
-    "1:fling"  ],
+    "1:fling"
+  ],
   "labels": [
     "crozoic",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.twintuff.desc"
+    "cobblemon.species.twintuff.desc1"
   ],
+  "height": 4,
+  "weight": 250,
+  "aspects": [],
   "evolutions": [
     {
       "id": "twintuff_rocktile",
@@ -72,31 +64,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 22
+          "minLevel": "22"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 4358,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 4,
-  "weight": 250,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

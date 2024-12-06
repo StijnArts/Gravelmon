@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Erupshell",
-  "nationalPokedexNumber": 6037,
   "primaryType": "water",
   "secondaryType": "fire",
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 177,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "searside",
+  "baseScale": 0.3,
+  "cannotDynamax": false,
   "abilities": [
     "shellarmor",
     "flamebody",
@@ -17,37 +24,18 @@
     "special_defence": 60,
     "speed": 50
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 75,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 177,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_3"
   ],
+  "drops": {},
   "moves": [
     "1:eruption",
     "1:harden",
@@ -118,7 +106,8 @@
     "tm:lavaplume",
     "tm:firespin",
     "tm:sandtomb",
-    "tm:spikes"  ],
+    "tm:spikes"
+  ],
   "labels": [
     "okeno",
     "not_modeled",
@@ -126,28 +115,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.erupshell.desc"
+    "cobblemon.species.erupshell.desc1"
   ],
-  "preEvolution": "searside",
-  "baseScale": 0.3,
+  "height": 18,
+  "weight": 1216,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6037,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 18,
-  "weight": 1216,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

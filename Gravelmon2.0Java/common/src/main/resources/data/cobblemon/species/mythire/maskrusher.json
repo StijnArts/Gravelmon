@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Maskrusher",
-  "nationalPokedexNumber": 5228,
   "primaryType": "dragon",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 239,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "maskilisk",
+  "baseScale": 0.13333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "intimidate",
     "scrappy",
@@ -16,38 +23,19 @@
     "special_defence": 105,
     "speed": 100
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 239,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "dragon",
     "monster"
   ],
+  "drops": {},
   "moves": [
     "1:skullbash",
     "1:focusenergy",
@@ -105,7 +93,8 @@
     "tm:bulldoze",
     "tm:heavyslam",
     "tm:dragonclaw",
-    "tm:toxic"  ],
+    "tm:toxic"
+  ],
   "labels": [
     "mythire",
     "not_modeled",
@@ -113,28 +102,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.maskrusher.desc"
+    "cobblemon.species.maskrusher.desc1"
   ],
-  "preEvolution": "maskilisk",
-  "baseScale": 0.13333333333333333,
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5228,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 8,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

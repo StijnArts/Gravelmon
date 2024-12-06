@@ -25,10 +25,10 @@ public class Cephamore extends drai.dev.data.pokemon.Pokemon {
                 List.of("These tiny Pokemon swarm swimmers in great numbers out of curiosity, sensing their thoughts. They mean no harm, but they secrete a toxic fluid that can sicken people."),
                 List.of(new EvolutionEntry("casanauta", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=male\""))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male"))),
                         new EvolutionEntry("sirenara", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28"),
-                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=female\"")))),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=female")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HELPING_HAND,1),
                         new MoveLearnSetEntry(Move.ALLY_SWITCH,1),

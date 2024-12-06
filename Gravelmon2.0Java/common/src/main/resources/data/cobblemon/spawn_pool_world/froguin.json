@@ -7,17 +7,17 @@
       "id": "froguin-01",
       "pokemon": "froguin",
       "presets": [
-        "natural"
+        "natural",
+        "near_water"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
+      "bucket": "uncommon",
+      "level": "13-36",
+      "weight": 6.6000000000000005,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_desert"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -36,13 +36,12 @@
       "pokemon": "froguin",
       "type": "pokemon",
       "context": "fishing",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
+      "bucket": "uncommon",
+      "level": "13-36",
+      "weight": 6.6000000000000005,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_desert"
         ]
       },
       "weightMultiplier": {

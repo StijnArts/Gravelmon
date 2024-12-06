@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Grandaroon",
-  "nationalPokedexNumber": 5866,
   "primaryType": "grass",
   "secondaryType": "normal",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "bufaroon",
+  "baseScale": 0.26666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "overgrow",
     "h:scrappy"
@@ -16,38 +23,19 @@
     "special_defence": 95,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "grass",
     "monster"
   ],
+  "drops": {},
   "moves": [
     "1:magicalleaf",
     "38:grasswhistle",
@@ -62,7 +50,8 @@
     "tm:sleeppowder",
     "tm:spore",
     "tm:crunch",
-    "tm:ingrain"  ],
+    "tm:ingrain"
+  ],
   "labels": [
     "midamis",
     "not_modeled",
@@ -70,28 +59,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.grandaroon.desc"
+    "cobblemon.species.grandaroon.desc1"
   ],
-  "preEvolution": "bufaroon",
-  "baseScale": 0.26666666666666666,
+  "height": 16,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5866,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 3,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 16,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

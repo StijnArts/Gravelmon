@@ -127,77 +127,10 @@ public class AdditionalFormAssetsJSONWriter {
                         createPlaceholderTextureIfNotExists(game.getName().toLowerCase(), pokemon.getCleanName() + "_female.png", resourcesDir, pokemon.usesBigModel());
                         createPlaceholderTextureIfNotExists(game.getName().toLowerCase(), pokemon.getCleanName() + "_female_shiny.png", resourcesDir, pokemon.usesBigModel());
                     }
-//                    for (PokemonForm form : pokemon.getForms()) {
-//                        if (!pokemon.isModeled()) {
-//
-//                            fileContents += "    {\n" +
-//                                    "      \"aspects\": [\n";
-//                            boolean isFirstFormAspect = true;
-//                            for (Aspect aspect : form.getAspects()) {
-//                                if (isFirstFormAspect) {
-//                                    isFirstFormAspect = false;
-//                                } else {
-//                                    fileContents += ",\n";
-//                                }
-//                                fileContents += "        \"" + aspect.name().toLowerCase() + "\"";
-//                            }
-//                            fileContents += "        \"" + pokemon.getAdditionalAspect().name().toLowerCase() + "\"";
-//                            fileContents += "\n     ],\n";
-//                            if (form.hasSeparateModel()) {
-//                                fileContents += "      \"poser\": \"cobblemon:" + game.getName().toLowerCase() + "/" + form.getCleanName() + "_" + pokemon.getCleanName() + "\",\n";
-//                            } else {
-//                                fileContents += "      \"poser\": \"cobblemon:" + game.getName().toLowerCase() + "_" + pokemon.getCleanName() + "\",\n";
-//                            }
-//
-//                            fileContents += "      \"model\": \"cobblemon:cutout_gravelmon.geo\",\n" +
-//                                    "      \"texture\": \"cobblemon:textures/pokemon/" + game.getName().toLowerCase() + "/" + form.getCleanName() + "_" + pokemon.getCleanName() + ".png\",\n" +
-//                                    "      \"layers\": []\n" +
-//                                    "    },\n" +
-//                                    "    {\n" +
-//                                    "      \"aspects\": [\n";
-//                            for (Aspect aspect : form.getAspects()) {
-//                                fileContents += "        \"" + aspect.name().toLowerCase() + "\",\n";
-//                            }
-//                            fileContents += "        \"shiny\"\n" +
-//                                    "      ],\n" +
-//                                    "      \"texture\": \"cobblemon:textures/pokemon/" + game.getName().toLowerCase() + "/" + form.getCleanName() + "_" + pokemon.getCleanName() + "_shiny.png\"\n" +
-//                                    "    }";
-//                            if (pokemon.hasGenderDifferences()) {
-//                                fileContents += ",\n    {\n" +
-//                                        "      \"aspects\": [\n";
-//                                for (Aspect aspect : form.getAspects()) {
-//                                    fileContents += "        \"" + aspect.name().toLowerCase() + "\",\n";
-//                                }
-//                                fileContents += "        \"female\"" +
-//                                        "\n      ],\n" +
-//                                        "      \"texture\": \"cobblemon:textures/pokemon/" + game.getName().toLowerCase() + "/" + form.getCleanName() + "_"+ pokemon.getCleanName() + "_female.png\"\n" +
-//                                        "    },\n" +
-//                                        "    {\n" +
-//                                        "      \"aspects\": [\n";
-//                                for (Aspect aspect : form.getAspects()) {
-//                                    fileContents += "        \"" + aspect.name().toLowerCase() + "\",\n";
-//                                }
-//                                fileContents += "        \"female\",\n" +
-//                                        "        \"shiny\"\n" +
-//                                        "      ],\n" +
-//                                        "      \"texture\": \"cobblemon:textures/pokemon/" + game.getName().toLowerCase() + "/" + form.getCleanName() + "_"+ pokemon.getCleanName() + "_female_shiny.png\"\n" +
-//                                        "    }\n";
-//                                createPlaceholderTextureIfNotExists(game.getName().toLowerCase(), form.getCleanName() + "_" + pokemon.getCleanName() + "_female.png", resourcesDir);
-//                                createPlaceholderTextureIfNotExists(game.getName().toLowerCase(), form.getCleanName() + "_" + pokemon.getCleanName() + "_female_shiny.png", resourcesDir);
-//
-//                            BufferedWriter writer = new BufferedWriter(new FileWriter(dir + formCounter + "_" + pokemon.getCleanName() + "_" + pokemon.getAdditionalAspect().getName() + "_" + form.getCleanName() + ".json"));
-//                            writer.write(fileContents.toString());
-//                            writer.close();
-//                            createPlaceholderTextureIfNotExists(game.getName().toLowerCase(), form.getCleanName() + "_" + pokemon.getCleanName() + ".png", resourcesDir);
-//                            createPlaceholderTextureIfNotExists(game.getName().toLowerCase(), form.getCleanName() + "_" + pokemon.getCleanName() + "_shiny.png", resourcesDir);
-//                        }
-//                    }
                     BufferedWriter writer = new BufferedWriter(new FileWriter(dir + order + "_" + GravelmonUtils.getCleanName(set.getKey()) + "_" + aspect + ".json"));
                     writer.write(gson.toJson(fileContents));
                     writer.close();
                     createPlaceholderTextureIfNotExists(game.getName().toLowerCase(), pokemon.getCleanName() + ".png", resourcesDir, pokemon.usesBigModel());
-//                    createPlaceholderTextureIfNotExists(game.getName().toLowerCase(), pokemon.getCleanName() + "_shiny.png", resourcesDir, pokemon.usesBigModel());
-
                 }
             }
         }

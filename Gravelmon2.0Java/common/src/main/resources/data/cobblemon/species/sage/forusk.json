@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Forusk",
-  "nationalPokedexNumber": 1099,
   "primaryType": "grass",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 186,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "alpint",
+  "baseScale": 0.3666666666666667,
+  "cannotDynamax": false,
   "abilities": [
     "angerpoint",
     "sunbathe",
@@ -16,38 +23,21 @@
     "special_defence": 85,
     "speed": 48
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 186,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field",
     "grass"
   ],
+  "drops": {
+    "amount": 2
+  },
   "moves": [
     "1:rage",
     "1:thrash",
@@ -131,7 +121,8 @@
     "egg:magnitude",
     "egg:thrash",
     "egg:tickle",
-    "egg:wideguard"  ],
+    "egg:wideguard"
+  ],
   "labels": [
     "sage",
     "not_modeled",
@@ -139,28 +130,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.forusk.desc"
+    "cobblemon.species.forusk.desc1"
   ],
-  "preEvolution": "alpint",
-  "baseScale": 0.3666666666666667,
+  "height": 22,
+  "weight": 2446,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1099,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 22,
-  "weight": 2446,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

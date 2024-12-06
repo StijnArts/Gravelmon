@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Vanitom",
-  "nationalPokedexNumber": 7115,
   "primaryType": "ghost",
   "secondaryType": "water",
+  "catchRate": 190,
+  "maleRatio": 1.0,
+  "baseExperienceYield": 153,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "phantrait",
+  "baseScale": 0.26666666666666666,
+  "cannotDynamax": false,
   "abilities": [
-    "waterabsorb"  ],
+    "waterabsorb"
+  ],
   "baseStats": {
     "hp": 106,
     "attack": 45,
@@ -14,37 +22,18 @@
     "special_defence": 87,
     "speed": 55
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 190,
-  "maleRatio": 1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 153,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "amorphous"
   ],
+  "drops": {},
   "moves": [
     "5:tearfullook",
     "10:fakeout",
@@ -95,7 +84,8 @@
     "tm:followme",
     "tm:grudge",
     "tm:screech",
-    "tm:healblock"  ],
+    "tm:healblock"
+  ],
   "labels": [
     "atlas",
     "not_modeled",
@@ -103,28 +93,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.vanitom.desc"
+    "cobblemon.species.vanitom.desc1"
   ],
-  "preEvolution": "phantrait",
-  "baseScale": 0.26666666666666666,
+  "height": 16,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 7115,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 16,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

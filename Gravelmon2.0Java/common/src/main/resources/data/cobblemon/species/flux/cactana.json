@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Cactana",
-  "nationalPokedexNumber": 2699,
   "primaryType": "ground",
   "secondaryType": "grass",
+  "catchRate": 230,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "roughskin",
     "waterabsorb",
@@ -17,38 +23,19 @@
     "special_defence": 50,
     "speed": 55
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 230,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 64,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "dragon",
     "grass"
   ],
+  "drops": {},
   "moves": [
     "1:absorb",
     "1:sandattack",
@@ -65,33 +52,50 @@
     "48:earthquake",
     "53:shedtail",
     "egg:toxicspikes",
-    "egg:growth"  ],
+    "egg:growth"
+  ],
   "labels": [
     "flux",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.cactana.desc"
+    "cobblemon.species.cactana.desc1"
   ],
-  "baseScale": 0.1,
+  "height": 5,
+  "weight": 412,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2699,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 5,
-  "weight": 412,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

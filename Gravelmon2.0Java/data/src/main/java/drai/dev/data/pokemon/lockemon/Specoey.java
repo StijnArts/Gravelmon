@@ -26,7 +26,7 @@ public class Specoey extends Pokemon {
                 List.of("Specoey are trained in acting from a young age. Due to this lifelong ability, they often " +
                         "partake in stage plays alongside young children. In some cases, the audience is unable to tell the difference."),
                 List.of(new EvolutionEntry("opakespiel", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.ROLE_PLAY.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.ROLE_PLAY.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.SCRATCH,1),

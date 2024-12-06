@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Denartery",
-  "nationalPokedexNumber": 2055,
   "primaryType": "water",
   "secondaryType": "poison",
+  "catchRate": 85,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 133,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "pleech",
+  "baseScale": 0.19999999999999998,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
   "baseStats": {
     "hp": 90,
     "attack": 30,
@@ -14,38 +22,19 @@
     "special_defence": 80,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 85,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 133,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "bug",
     "water_1"
   ],
+  "drops": {},
   "moves": [
     "1:flail",
     "4:bugbite",
@@ -60,7 +49,8 @@
     "32:signalbeam",
     "36:bubblebeam",
     "40:leechlife",
-    "45:hydropump"  ],
+    "45:hydropump"
+  ],
   "labels": [
     "enriko",
     "not_modeled",
@@ -68,28 +58,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.denartery.desc"
+    "cobblemon.species.denartery.desc1"
   ],
-  "preEvolution": "pleech",
-  "baseScale": 0.19999999999999998,
+  "height": 12,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2055,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 12,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

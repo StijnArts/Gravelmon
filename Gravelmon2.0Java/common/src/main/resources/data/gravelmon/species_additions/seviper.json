@@ -1,20 +1,8 @@
 {
-   "target": "cobblemon:seviper",
+  "target": "cobblemon:seviper",
   "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "gravelmon:silver_scale",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "cobblemon:dusk_stone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-      },
+    "amount": 3
+  },
   "evolutions": [
     {
       "id": "seviper_silviper",
@@ -28,8 +16,8 @@
           "itemCondition": "gravelmon:silver_scale"
         }
       ],
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "seviper_sevicrush",
       "variant": "level_up",
@@ -43,20 +31,17 @@
           "contains": true
         }
       ],
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "seviper_sevicrush",
       "variant": "item_interact",
       "result": "sevicrush",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
+      "requirements": [],
       "requiredContext": "cobblemon:dusk_stone",
-      "permanent": true   
- }
+      "permanent": true
+    }
   ]
-
 }

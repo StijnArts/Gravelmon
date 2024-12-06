@@ -25,7 +25,7 @@ public class Spudspark extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Underneath their rough, earthy exterior, this pokemon is packed with electrical charge. The heat caused by the sheer amount of electricity in their system cooks them from the inside."),
                 List.of(new EvolutionEntry("deepfried", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.CHARGE.getName()+"\"")))	),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.CHARGE.getName())))	),
                 List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(

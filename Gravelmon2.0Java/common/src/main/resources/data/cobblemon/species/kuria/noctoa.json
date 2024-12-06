@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Noctoa",
-  "nationalPokedexNumber": 5546,
   "primaryType": "normal",
   "secondaryType": "dark",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 145,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "biroo",
+  "baseScale": 0.15,
+  "cannotDynamax": false,
   "abilities": [
     "infiltrator",
     "h:shadowtag"
@@ -16,38 +23,19 @@
     "special_defence": 60,
     "speed": 94
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 145,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field",
     "monster"
   ],
+  "drops": {},
   "moves": [
     "1:babydolleyes",
     "1:growl",
@@ -65,7 +53,8 @@
     "33:fling",
     "38:flail",
     "43:bellydrum",
-    "48:doubleedge"  ],
+    "48:doubleedge"
+  ],
   "labels": [
     "kuria",
     "not_modeled",
@@ -73,28 +62,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.noctoa.desc"
+    "cobblemon.species.noctoa.desc1"
   ],
-  "preEvolution": "biroo",
-  "baseScale": 0.15,
+  "height": 9,
+  "weight": 92,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5546,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 9,
-  "weight": 92,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

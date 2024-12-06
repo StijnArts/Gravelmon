@@ -24,7 +24,7 @@ public class AvalossianDusclops extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of(""),
                 List.of(new EvolutionEntry("Avalossiandusknoir", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:reaper_cloth\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:reaper_cloth")))),
                 List.of(           new MoveLearnSetEntry(Move.FURY_CUTTER,1),
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.VISE_GRIP,4),

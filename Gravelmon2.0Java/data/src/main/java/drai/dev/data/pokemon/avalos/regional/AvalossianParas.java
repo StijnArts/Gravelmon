@@ -24,7 +24,7 @@ public class AvalossianParas extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of(""),
                 List.of(new EvolutionEntry("Avalossianparasect", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.SHADOW_CLAW.getName()+"\"")))	),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.SHADOW_CLAW.getName())))	),
                 List.of(
                         new MoveLearnSetEntry(Move.CROSS_POISON,1),
                         new MoveLearnSetEntry(Move.ABSORB,1),

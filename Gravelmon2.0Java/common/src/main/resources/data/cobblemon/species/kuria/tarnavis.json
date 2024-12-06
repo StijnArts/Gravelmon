@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Tarnavis",
-  "nationalPokedexNumber": 5588,
   "primaryType": "water",
   "secondaryType": "poison",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 222,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "mosglet",
+  "baseScale": 0.9,
+  "cannotDynamax": false,
   "abilities": [
-    "megalauncher"  ],
+    "megalauncher"
+  ],
   "baseStats": {
     "hp": 170,
     "attack": 80,
@@ -14,38 +22,19 @@
     "special_defence": 61,
     "speed": 45
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 3,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 222,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_2",
     "water_1"
   ],
+  "drops": {},
   "moves": [
     "1:poisonsting",
     "1:tackle",
@@ -63,7 +52,8 @@
     "44:toxic",
     "48:aquatail",
     "52:acupressure",
-    "56:destinybond"  ],
+    "56:destinybond"
+  ],
   "labels": [
     "kuria",
     "not_modeled",
@@ -71,28 +61,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.tarnavis.desc"
+    "cobblemon.species.tarnavis.desc1"
   ],
-  "preEvolution": "mosglet",
-  "baseScale": 0.9,
+  "height": 54,
+  "weight": 9463,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5588,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 3,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 54,
-  "weight": 9463,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

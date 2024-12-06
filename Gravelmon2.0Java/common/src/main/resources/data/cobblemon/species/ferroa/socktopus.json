@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Socktopus",
-  "nationalPokedexNumber": 1852,
   "primaryType": "psychic",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 170,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "puppest",
+  "baseScale": 0.35000000000000003,
+  "cannotDynamax": false,
   "abilities": [
     "limber",
     "h:magician"
@@ -15,37 +22,18 @@
     "special_defence": 70,
     "speed": 115
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 170,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "water_3"
   ],
+  "drops": {},
   "moves": [
     "1:focusenergy",
     "5:doubleslap",
@@ -147,7 +135,8 @@
     "tm:dualchop",
     "tm:psychup",
     "tm:storedpower",
-    "tm:entrainment"  ],
+    "tm:entrainment"
+  ],
   "labels": [
     "ferroa",
     "not_modeled",
@@ -155,28 +144,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.socktopus.desc"
+    "cobblemon.species.socktopus.desc1"
   ],
-  "preEvolution": "puppest",
-  "baseScale": 0.35000000000000003,
+  "height": 21,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1852,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 21,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

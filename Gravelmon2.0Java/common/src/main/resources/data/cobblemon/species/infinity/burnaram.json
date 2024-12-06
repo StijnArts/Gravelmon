@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Burnaram",
-  "nationalPokedexNumber": 1410,
   "primaryType": "fire",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 52,
+  "baseFriendship": 70,
+  "preEvolution": "chargo",
+  "baseScale": 0.21666666666666667,
+  "cannotDynamax": false,
   "abilities": [
     "reckless",
     "cursedbody",
@@ -16,37 +23,20 @@
     "special_defence": 68,
     "speed": 75
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 142,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 52,
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": 2
+  },
   "moves": [
     "1:tackle",
     "1:tailwhip",
@@ -116,7 +106,8 @@
     "egg:flareblitz",
     "egg:focuspunch",
     "egg:metalclaw",
-    "egg:outrage"  ],
+    "egg:outrage"
+  ],
   "labels": [
     "infinity",
     "not_modeled",
@@ -124,9 +115,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.burnaram.desc"
+    "cobblemon.species.burnaram.desc1"
   ],
-  "preEvolution": "chargo",
+  "height": 13,
+  "weight": 530,
+  "aspects": [],
   "evolutions": [
     {
       "id": "burnaram_psysteed",
@@ -137,31 +130,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 36
+          "minLevel": "36"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.21666666666666667,
+  "nationalPokedexNumber": 1410,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 13,
-  "weight": 530,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

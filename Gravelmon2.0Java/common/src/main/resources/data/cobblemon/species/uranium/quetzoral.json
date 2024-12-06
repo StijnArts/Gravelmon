@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Quetzoral",
-  "nationalPokedexNumber": 2558,
   "primaryType": "grass",
   "secondaryType": "flying",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 151,
+  "experienceGroup": "fast",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "preEvolution": "chicoatl",
+  "baseScale": 0.21666666666666667,
+  "cannotDynamax": false,
   "abilities": [
     "sapsipper",
     "leafguard",
@@ -17,38 +24,19 @@
     "special_defence": 65,
     "speed": 90
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 151,
-  "experienceGroup": "fast",
-  "eggCycles": 100,
   "eggGroups": [
     "flying",
     "dragon"
   ],
+  "drops": {},
   "moves": [
     "1:peck",
     "1:leer",
@@ -135,7 +123,8 @@
     "egg:bravebird",
     "egg:wingattack",
     "egg:drillpeck",
-    "egg:irontail"  ],
+    "egg:irontail"
+  ],
   "labels": [
     "uranium",
     "not_modeled",
@@ -143,9 +132,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.quetzoral.desc"
+    "cobblemon.species.quetzoral.desc1"
   ],
-  "preEvolution": "chicoatl",
+  "height": 13,
+  "weight": 143,
+  "aspects": [],
   "evolutions": [
     {
       "id": "quetzoral_coatlith",
@@ -156,31 +147,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 41
+          "minLevel": "41"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.21666666666666667,
+  "nationalPokedexNumber": 2558,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 13,
-  "weight": 143,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

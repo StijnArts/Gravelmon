@@ -1,11 +1,18 @@
 {
-  "implemented": true,
   "name": "Krakanao",
-  "nationalPokedexNumber": 2629,
   "primaryType": "water",
   "secondaryType": "dark",
+  "catchRate": 3,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 275,
+  "experienceGroup": "slow",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "baseScale": 0.3,
+  "cannotDynamax": false,
   "abilities": [
-    "pressure"  ],
+    "pressure"
+  ],
   "baseStats": {
     "hp": 90,
     "attack": 145,
@@ -14,37 +21,18 @@
     "special_defence": 120,
     "speed": 95
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 3,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 275,
-  "experienceGroup": "slow",
-  "eggCycles": 100,
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {},
   "moves": [
     "1:feint",
     "1:leer",
@@ -82,34 +70,51 @@
     "tm:swagger",
     "tm:toxic",
     "tm:waterpulse",
-    "tm:coralbreak"  ],
+    "tm:coralbreak"
+  ],
   "labels": [
     "uranium",
     "legendary",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.krakanao.desc"
+    "cobblemon.species.krakanao.desc1"
   ],
-  "baseScale": 0.3,
+  "height": 18,
+  "weight": 886,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2629,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 18,
-  "weight": 886,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

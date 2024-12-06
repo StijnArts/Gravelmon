@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Trikotta",
-  "nationalPokedexNumber": 1139,
   "primaryType": "ground",
   "secondaryType": "grass",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 147,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "pottle",
+  "baseScale": 0.13333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "weakarmor",
     "waterabsorb",
@@ -17,38 +24,21 @@
     "special_defence": 105,
     "speed": 40
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 147,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "grass",
     "monster"
   ],
+  "drops": {
+    "amount": 2
+  },
   "moves": [
     "1:spikes",
     "1:pinmissile",
@@ -122,7 +112,8 @@
     "egg:meanlook",
     "egg:rockslide",
     "egg:suckerpunch",
-    "egg:toxicspikes"  ],
+    "egg:toxicspikes"
+  ],
   "labels": [
     "sage",
     "not_modeled",
@@ -130,9 +121,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.trikotta.desc"
+    "cobblemon.species.trikotta.desc1"
   ],
-  "preEvolution": "pottle",
+  "height": 8,
+  "weight": 326,
+  "aspects": [],
   "evolutions": [
     {
       "id": "trikotta_terrorcotta",
@@ -143,31 +136,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 48
+          "minLevel": "48"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.13333333333333333,
+  "nationalPokedexNumber": 1139,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 8,
-  "weight": 326,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

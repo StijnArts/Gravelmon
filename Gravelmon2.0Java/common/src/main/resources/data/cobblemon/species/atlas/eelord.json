@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Eelord",
-  "nationalPokedexNumber": 7124,
   "primaryType": "water",
   "secondaryType": "dragon",
+  "catchRate": 30,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 189,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "mimish",
+  "baseScale": 0.5166666666666667,
+  "cannotDynamax": false,
   "abilities": [
     "swiftswim",
     "h:immunity"
@@ -16,38 +23,19 @@
     "special_defence": 72,
     "speed": 86
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 30,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 189,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_2",
     "dragon"
   ],
+  "drops": {},
   "moves": [
     "1:thrash",
     "35:crunch",
@@ -102,7 +90,8 @@
     "tm:roar",
     "tm:swordsdance",
     "tm:taunt",
-    "tm:toxic"  ],
+    "tm:toxic"
+  ],
   "labels": [
     "atlas",
     "not_modeled",
@@ -110,28 +99,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.eelord.desc"
+    "cobblemon.species.eelord.desc1"
   ],
-  "preEvolution": "mimish",
-  "baseScale": 0.5166666666666667,
+  "height": 31,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 7124,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 31,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

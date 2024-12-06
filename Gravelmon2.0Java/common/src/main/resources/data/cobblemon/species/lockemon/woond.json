@@ -1,12 +1,20 @@
 {
-  "implemented": true,
   "name": "Woond",
-  "nationalPokedexNumber": 4588,
   "primaryType": "fighting",
   "secondaryType": "ghost",
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 160,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "pudet",
+  "baseScale": 0.25,
+  "cannotDynamax": false,
   "abilities": [
     "scrappy",
-    "justified"  ],
+    "justified"
+  ],
   "baseStats": {
     "hp": 75,
     "attack": 115,
@@ -15,37 +23,18 @@
     "special_defence": 90,
     "speed": 100
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 190,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 160,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:endure",
     "1:quickattack",
@@ -69,7 +58,8 @@
     "egg:crosschop",
     "egg:detect",
     "egg:highjumpkick",
-    "egg:howl"  ],
+    "egg:howl"
+  ],
   "labels": [
     "lockemon",
     "not_modeled",
@@ -77,28 +67,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.woond.desc"
+    "cobblemon.species.woond.desc1"
   ],
-  "preEvolution": "pudet",
-  "baseScale": 0.25,
+  "height": 15,
+  "weight": 1255,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 4588,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 15,
-  "weight": 1255,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

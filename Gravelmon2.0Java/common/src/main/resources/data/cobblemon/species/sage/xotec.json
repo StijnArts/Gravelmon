@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Xotec",
-  "nationalPokedexNumber": 1254,
   "primaryType": "psychic",
   "secondaryType": "steel",
+  "catchRate": 3,
+  "maleRatio": -1.0,
+  "baseExperienceYield": 270,
+  "experienceGroup": "slow",
+  "eggCycles": 300,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "magicguard",
     "h:magicbounce"
@@ -16,37 +22,20 @@
     "special_defence": 100,
     "speed": 100
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 1,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 3,
-  "maleRatio": -1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 270,
-  "experienceGroup": "slow",
-  "eggCycles": 300,
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": 3
+  },
   "moves": [
     "1:payday",
     "1:healbell",
@@ -111,33 +100,50 @@
     "tm:sleeptalk",
     "tm:waterpulse",
     "tm:shieldbash",
-    "tm:miraclewill"  ],
+    "tm:miraclewill"
+  ],
   "labels": [
     "sage",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.xotec.desc"
+    "cobblemon.species.xotec.desc1"
   ],
-  "baseScale": 0.1,
+  "height": 6,
+  "weight": 358,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1254,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 1,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 6,
-  "weight": 358,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

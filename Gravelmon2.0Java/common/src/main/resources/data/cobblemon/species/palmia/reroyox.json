@@ -1,67 +1,26 @@
 {
-  "implemented": true,
   "name": "Reroyox",
-  "nationalPokedexNumber": 3519,
   "primaryType": "fire",
   "secondaryType": "sound",
-  "abilities": [
-    "keeneye"  ],
-  "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 255,
+  "catchRate": 190,
   "maleRatio": 0.5,
-  "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:ember",
-    "1:tackle"  ],
-  "labels": [
-    "not_modeled",
-    "palmia"
-  ],
-  "pokedex": [
-    "cobblemon.species.reroyox.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
   "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
+  "abilities": [
+    "keeneye"
+  ],
+  "baseStats": {
+    "hp": 96,
+    "attack": 23,
+    "defence": 37,
+    "special_attack": 37,
+    "special_defence": 100,
+    "speed": 13
+  },
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -70,10 +29,73 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:ember",
+    "1:tackle",
+    "1:bulkup",
+    "1:sleeptalk"
+  ],
+  "labels": [
+    "not_modeled",
+    "palmia"
+  ],
+  "pokedex": [
+    "cobblemon.species.reroyox.desc1"
+  ],
+  "height": 5,
   "weight": 0,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [
+    {
+      "id": "reroyox_walitan",
+      "variant": "level_up",
+      "result": "Walitan",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "34"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 3519,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

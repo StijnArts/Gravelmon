@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Muramoth",
-  "nationalPokedexNumber": 5124,
   "primaryType": "bug",
   "secondaryType": "dark",
+  "catchRate": 70,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 161,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 51,
+  "baseFriendship": 70,
+  "preEvolution": "venonat form\u003dhoennian",
+  "baseScale": 0.11666666666666665,
+  "cannotDynamax": false,
   "abilities": [
     "elusive",
     "h:illuminate"
@@ -16,37 +23,18 @@
     "special_defence": 75,
     "speed": 105
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 70,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 161,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 51,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:faketears",
     "4:hypnosis",
@@ -79,35 +67,51 @@
     "tm:secretpower",
     "tm:rest",
     "tm:attract",
-    "tm:steelwing"  ],
+    "tm:steelwing"
+  ],
   "labels": [
     "blazing_emerald",
     "not_modeled",
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.muramoth.desc"
+    "cobblemon.species.muramoth.desc1"
   ],
-  "preEvolution": "venonat form=hoennian",
-  "baseScale": 0.11666666666666665,
+  "height": 7,
+  "weight": 379,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5124,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 7,
-  "weight": 379,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

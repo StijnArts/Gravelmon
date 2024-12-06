@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Raizinger",
-  "nationalPokedexNumber": 1585,
   "primaryType": "electric",
   "secondaryType": "water",
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 161,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "nimbun",
+  "baseScale": 0.18333333333333335,
+  "cannotDynamax": false,
   "abilities": [
     "levitate",
     "h:drizzle"
@@ -16,37 +23,18 @@
     "special_defence": 100,
     "speed": 100
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 75,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 161,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "fairy"
   ],
+  "drops": {},
   "moves": [
     "1:bide",
     "5:watersport",
@@ -59,7 +47,8 @@
     "41:painsplit",
     "45:extrasensory",
     "52:aquaring",
-    "58:hydropump"  ],
+    "58:hydropump"
+  ],
   "labels": [
     "lagoone",
     "not_modeled",
@@ -67,28 +56,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.raizinger.desc"
+    "cobblemon.species.raizinger.desc1"
   ],
-  "preEvolution": "nimbun",
-  "baseScale": 0.18333333333333335,
+  "height": 11,
+  "weight": 350,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1585,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 11,
-  "weight": 350,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

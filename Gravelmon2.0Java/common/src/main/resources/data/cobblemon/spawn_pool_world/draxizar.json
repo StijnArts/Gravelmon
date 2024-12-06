@@ -7,17 +7,17 @@
       "id": "draxizar-01",
       "pokemon": "draxizar",
       "presets": [
-        "natural"
+        "natural",
+        "near_water"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
+      "bucket": "rare",
+      "level": "34-54",
+      "weight": 0.75,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_jungle"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

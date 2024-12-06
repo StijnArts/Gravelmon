@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Cocrogue",
-  "nationalPokedexNumber": 6297,
   "primaryType": "dark",
   "secondaryType": "bug",
+  "catchRate": 70,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 142,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "toxroach",
+  "baseScale": 0.19999999999999998,
+  "cannotDynamax": false,
   "abilities": [
     "immunity",
     "h:intimidate"
@@ -16,37 +23,18 @@
     "special_defence": 75,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 70,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 142,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:astonish",
     "1:scratch",
@@ -111,7 +99,8 @@
     "egg:toxic",
     "egg:vacuumwave",
     "egg:whirlwind",
-    "egg:wingattack"  ],
+    "egg:wingattack"
+  ],
   "labels": [
     "deneb",
     "not_modeled",
@@ -119,28 +108,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.cocrogue.desc"
+    "cobblemon.species.cocrogue.desc1"
   ],
-  "preEvolution": "toxroach",
-  "baseScale": 0.19999999999999998,
+  "height": 12,
+  "weight": 269,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6297,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 12,
-  "weight": 269,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

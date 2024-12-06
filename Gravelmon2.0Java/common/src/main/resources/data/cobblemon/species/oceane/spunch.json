@@ -1,10 +1,17 @@
 {
-  "implemented": true,
   "name": "Spunch",
-  "nationalPokedexNumber": 2351,
   "primaryType": "fighting",
+  "catchRate": 100,
+  "maleRatio": 1.0,
+  "baseExperienceYield": 58,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
-    "waterabsorb"  ],
+    "waterabsorb"
+  ],
   "baseStats": {
     "hp": 46,
     "attack": 45,
@@ -13,38 +20,19 @@
     "special_defence": 56,
     "speed": 45
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 1,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 100,
-  "maleRatio": 1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 58,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "water_1",
     "amorphous"
   ],
+  "drops": {},
   "moves": [
     "1:headcharge",
     "1:machpunch",
@@ -59,14 +47,18 @@
     "1:block",
     "1:recover",
     "1:drainpunch",
-    "1:bulkup"  ],
+    "1:bulkup"
+  ],
   "labels": [
     "oceane",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.spunch.desc"
+    "cobblemon.species.spunch.desc1"
   ],
+  "height": 5,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "spunch_upporecut",
@@ -77,31 +69,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 29
+          "minLevel": "29"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 2351,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 5,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

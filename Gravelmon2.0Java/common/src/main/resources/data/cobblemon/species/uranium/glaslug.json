@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Glaslug",
-  "nationalPokedexNumber": 2544,
   "primaryType": "water",
   "secondaryType": "ice",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 61,
+  "experienceGroup": "slow",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "swiftswim",
     "naturalcure",
@@ -17,38 +23,19 @@
     "special_defence": 70,
     "speed": 35
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 61,
-  "experienceGroup": "slow",
-  "eggCycles": 100,
   "eggGroups": [
     "monster",
     "water_1"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "1:protect",
@@ -115,14 +102,18 @@
     "egg:bodyslam",
     "egg:screech",
     "egg:curse",
-    "egg:sludge"  ],
+    "egg:sludge"
+  ],
   "labels": [
     "uranium",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.glaslug.desc"
+    "cobblemon.species.glaslug.desc1"
   ],
+  "height": 4,
+  "weight": 180,
+  "aspects": [],
   "evolutions": [
     {
       "id": "glaslug_glavinug",
@@ -130,32 +121,42 @@
       "result": "glavinug",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
+      "requirements": [],
       "requiredContext": "cobblemon:water_stone",
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 2544,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 4,
-  "weight": 180,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

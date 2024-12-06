@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Cactabit",
-  "nationalPokedexNumber": 1719,
   "primaryType": "grass",
+  "catchRate": 225,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 61,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "chlorophyll",
     "dryskin",
@@ -16,37 +22,18 @@
     "special_defence": 55,
     "speed": 70
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 225,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 61,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "monster"
   ],
+  "drops": {},
   "moves": [
     "1:defensecurl",
     "5:pinmissile",
@@ -120,14 +107,18 @@
     "tm:dragondance",
     "tm:crunch",
     "tm:ingrain",
-    "tm:painsplit"  ],
+    "tm:painsplit"
+  ],
   "labels": [
     "interregional",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.cactabit.desc"
+    "cobblemon.species.cactabit.desc1"
   ],
+  "height": 6,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "cactabit_gymnozard",
@@ -138,31 +129,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 27
+          "minLevel": "27"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 1719,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 6,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

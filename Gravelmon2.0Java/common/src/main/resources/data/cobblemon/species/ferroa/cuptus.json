@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Cuptus",
-  "nationalPokedexNumber": 1801,
   "primaryType": "grass",
+  "catchRate": 220,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 58,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.11666666666666665,
+  "cannotDynamax": false,
   "abilities": [
     "waterabsorb",
     "ironbarbs",
@@ -16,38 +22,19 @@
     "special_defence": 60,
     "speed": 20
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 220,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 58,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "grass",
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:ingrain",
     "6:absorb",
@@ -117,14 +104,18 @@
     "tm:rockpolish",
     "tm:fellstinger",
     "tm:rototiller",
-    "tm:liquidation"  ],
+    "tm:liquidation"
+  ],
   "labels": [
     "ferroa",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.cuptus.desc"
+    "cobblemon.species.cuptus.desc1"
   ],
+  "height": 7,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "cuptus_cactank",
@@ -135,31 +126,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 25
+          "minLevel": "25"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.11666666666666665,
+  "nationalPokedexNumber": 1801,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 7,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

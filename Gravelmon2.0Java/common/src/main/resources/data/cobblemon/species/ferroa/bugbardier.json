@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Bugbardier",
-  "nationalPokedexNumber": 1790,
   "primaryType": "bug",
   "secondaryType": "fire",
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 170,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "blastun",
+  "baseScale": 0.18333333333333335,
+  "cannotDynamax": false,
   "abilities": [
     "flashfire",
     "h:aftermath"
@@ -16,37 +23,18 @@
     "special_defence": 70,
     "speed": 92
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 75,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 170,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "8:ember",
@@ -119,7 +107,8 @@
     "tm:headbutt",
     "tm:headsmash",
     "tm:acidspray",
-    "tm:flameburst"  ],
+    "tm:flameburst"
+  ],
   "labels": [
     "ferroa",
     "not_modeled",
@@ -127,28 +116,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.bugbardier.desc"
+    "cobblemon.species.bugbardier.desc1"
   ],
-  "preEvolution": "blastun",
-  "baseScale": 0.18333333333333335,
+  "height": 11,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1790,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 11,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

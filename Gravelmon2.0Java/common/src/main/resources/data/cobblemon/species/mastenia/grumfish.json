@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Grumfish",
-  "nationalPokedexNumber": 8464,
   "primaryType": "ground",
   "secondaryType": "water",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.21666666666666667,
+  "cannotDynamax": false,
   "abilities": [
     "sandspit",
     "cheekpouch",
@@ -17,56 +23,6 @@
     "special_defence": 69,
     "speed": 16
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
-  },
-  "catchRate": 90,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:mudslap",
-    "1:watergun",
-    "1:shoreup",
-    "1:bulkup"  ],
-  "labels": [
-    "mastenia",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.grumfish.desc"
-  ],
-  "baseScale": 0.21666666666666667,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -75,10 +31,58 @@
     "special_defence": 0,
     "speed": 0
   },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:mudslap",
+    "1:watergun",
+    "1:shoreup",
+    "1:bulkup"
+  ],
+  "labels": [
+    "mastenia",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.grumfish.desc1"
+  ],
   "height": 13,
   "weight": 0,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 8464,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

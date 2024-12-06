@@ -1,10 +1,17 @@
 {
-  "implemented": true,
   "name": "Larvaorg",
-  "nationalPokedexNumber": 3346,
   "primaryType": "bug",
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
-    "swarm"  ],
+    "swarm"
+  ],
   "baseStats": {
     "hp": 47,
     "attack": 16,
@@ -13,48 +20,33 @@
     "special_defence": 32,
     "speed": 9
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 255,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:strugglebug",
     "1:bulkup",
-    "1:pollenpuff"  ],
+    "1:pollenpuff"
+  ],
   "labels": [
     "not_modeled",
     "norse"
   ],
   "pokedex": [
-    "cobblemon.species.larvaorg.desc"
+    "cobblemon.species.larvaorg.desc1"
   ],
+  "height": 4,
+  "weight": 0,
+  "aspects": [],
   "evolutions": [
     {
       "id": "larvaorg_tanccoon",
@@ -65,16 +57,16 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 14
+          "minLevel": "14"
         },
         {
           "variant": "properties",
-          "target": gender=male,
+          "target": "gender\u003dmale",
           "contains": true
         }
       ],
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "larvaorg_jotucoon",
       "variant": "level_up",
@@ -84,36 +76,48 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 14
+          "minLevel": "14"
         },
         {
           "variant": "properties",
-          "target": gender=female,
+          "target": "gender\u003dfemale",
           "contains": true
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 3346,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 4,
-  "weight": 0,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

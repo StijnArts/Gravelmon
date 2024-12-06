@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Raccolossus",
-  "nationalPokedexNumber": 5847,
   "primaryType": "poison",
   "secondaryType": "dragon",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 214,
+  "experienceGroup": "slow",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "preEvolution": "draccane",
+  "baseScale": 0.35000000000000003,
+  "cannotDynamax": false,
   "abilities": [
     "poisonpoint",
     "intimidate",
@@ -17,37 +24,18 @@
     "special_defence": 110,
     "speed": 80
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 214,
-  "experienceGroup": "slow",
-  "eggCycles": 100,
   "eggGroups": [
     "dragon"
   ],
+  "drops": {},
   "moves": [
     "1:poisonsting",
     "1:leer",
@@ -67,7 +55,8 @@
     "egg:defensecurl",
     "egg:dragonrush",
     "egg:thrash",
-    "egg:twister"  ],
+    "egg:twister"
+  ],
   "labels": [
     "myth",
     "not_modeled",
@@ -75,28 +64,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.raccolossus.desc"
+    "cobblemon.species.raccolossus.desc1"
   ],
-  "preEvolution": "draccane",
-  "baseScale": 0.35000000000000003,
+  "height": 21,
+  "weight": 69,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5847,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 3,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 21,
-  "weight": 69,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,11 +1,18 @@
 {
-  "implemented": true,
   "name": "Snagmire",
-  "nationalPokedexNumber": 4345,
   "primaryType": "grass",
   "secondaryType": "ground",
+  "catchRate": 80,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.3333333333333333,
+  "cannotDynamax": false,
   "abilities": [
-    "waterabsorb"  ],
+    "waterabsorb"
+  ],
   "baseStats": {
     "hp": 0,
     "attack": 0,
@@ -14,38 +21,19 @@
     "special_defence": 0,
     "speed": 0
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 80,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "grass",
     "monster"
   ],
+  "drops": {},
   "moves": [
     "1:mudslide",
     "1:mudslap",
@@ -55,33 +43,50 @@
     "1:slackoff",
     "1:cottonspore",
     "1:muddywater",
-    "1:woodhammer"  ],
+    "1:woodhammer"
+  ],
   "labels": [
     "crozoic",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.snagmire.desc"
+    "cobblemon.species.snagmire.desc1"
   ],
-  "baseScale": 0.3333333333333333,
+  "height": 20,
+  "weight": 2840,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 4345,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 20,
-  "weight": 2840,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

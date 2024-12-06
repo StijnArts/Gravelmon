@@ -20,7 +20,7 @@ public class DeltaTangela extends Pokemon {
                 50, List.of(EggGroup.DELTA),
                 List.of("A Delta Species discovered by winkright. It lures prey towards its home in the earth before grabbing and pinning them."),
                 List.of(new EvolutionEntry("deltatangrowth", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.ANCIENT_POWER.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.ANCIENT_POWER.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.ENDURE,1),
                         new MoveLearnSetEntry(Move.CONSTRICT,1),

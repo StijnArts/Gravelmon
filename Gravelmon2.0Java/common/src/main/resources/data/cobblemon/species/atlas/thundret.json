@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Thundret",
-  "nationalPokedexNumber": 7077,
   "primaryType": "electric",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "echidnum",
+  "baseScale": 0.15,
+  "cannotDynamax": false,
   "abilities": [
     "voltabsorb",
     "h:ironbarbs"
@@ -15,37 +22,18 @@
     "special_defence": 93,
     "speed": 63
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:barrier",
     "4:thundershock",
@@ -110,7 +98,8 @@
     "tm:taunt",
     "tm:thunderwave",
     "tm:toxic",
-    "tm:electricterrain"  ],
+    "tm:electricterrain"
+  ],
   "labels": [
     "atlas",
     "not_modeled",
@@ -118,28 +107,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.thundret.desc"
+    "cobblemon.species.thundret.desc1"
   ],
-  "preEvolution": "echidnum",
-  "baseScale": 0.15,
+  "height": 9,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 7077,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 9,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

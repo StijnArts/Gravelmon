@@ -1,11 +1,18 @@
 {
-  "implemented": true,
   "name": "Fairlion",
-  "nationalPokedexNumber": 3821,
   "primaryType": "grass",
   "secondaryType": "fairy",
+  "catchRate": 180,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
   "baseStats": {
     "hp": 40,
     "attack": 40,
@@ -14,72 +21,6 @@
     "special_defence": 52,
     "speed": 72
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 180,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:absorb",
-    "1:disarmingvoice",
-    "1:poisonpowder",
-    "1:healbell",
-    "1:vacuumwave",
-    "1:vacuumwave"  ],
-  "labels": [
-    "aldao",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.fairlion.desc"
-  ],
-  "evolutions": [
-    {
-      "id": "fairlion_skylion",
-      "variant": "item_interact",
-      "result": "skylion",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-
-      ],
-      "requiredContext": "cobblemon:sun_stone",
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -88,10 +29,71 @@
     "special_defence": 0,
     "speed": 0
   },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:absorb",
+    "1:disarmingvoice",
+    "1:poisonpowder",
+    "1:healbell",
+    "1:vacuumwave",
+    "1:vacuumwave"
+  ],
+  "labels": [
+    "aldao",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.fairlion.desc1"
+  ],
   "height": 3,
   "weight": 0,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [
+    {
+      "id": "fairlion_skylion",
+      "variant": "item_interact",
+      "result": "skylion",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:sun_stone",
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 3821,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

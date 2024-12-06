@@ -94,7 +94,7 @@ public class Parlomai extends drai.dev.data.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
         addAdditionalEvolution("indeedee", new EvolutionEntry("parlomai", EvolutionType.ITEM_INTERACT, false, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY, "\"gender=female\"")),List.of(),"cobblemon:room_service"));
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY, "gender=female")),List.of(),"cobblemon:room_service"));
            setLangFileName("Parlomai");
 
     }

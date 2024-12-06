@@ -24,7 +24,7 @@ public class Loameo extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("On average, they live only weeks. Because of this, it's a race against time for Loameo to mate every summer."),
                 List.of(new EvolutionEntry("cupidtera", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.DOUBLE_HIT.getName()+"\"")))	),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.DOUBLE_HIT.getName())))	),
                 List.of(          new MoveLearnSetEntry(Move.FAIRY_WIND,1),
                         new MoveLearnSetEntry(Move.STUN_SPORE,6),
                         new MoveLearnSetEntry(Move.SWEET_SCENT,12),

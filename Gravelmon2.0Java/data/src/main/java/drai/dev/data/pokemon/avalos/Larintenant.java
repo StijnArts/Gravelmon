@@ -108,7 +108,7 @@ public class Larintenant extends drai.dev.data.pokemon.Pokemon {
                 List.of());
            setLangFileName("Larintenant");
         addAdditionalEvolution("wingull", new EvolutionEntry("larintenant", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.ACROBATICS.getName()+"\""))));
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.ACROBATICS.getName()))));
 
     }
 

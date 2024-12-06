@@ -1,11 +1,18 @@
 {
-  "implemented": true,
   "name": "Vesoul",
-  "nationalPokedexNumber": 6102,
   "primaryType": "ground",
   "secondaryType": "ghost",
+  "catchRate": 190,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
-    "waterabsorb"  ],
+    "waterabsorb"
+  ],
   "baseStats": {
     "hp": 28,
     "attack": 28,
@@ -14,69 +21,6 @@
     "special_defence": 80,
     "speed": 22
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 190,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
-  "eggGroups": [
-    "mineral",
-    "dragon"
-  ],
-  "moves": [
-    "1:mudslap",
-    "1:lick"  ],
-  "labels": [
-    "okeno",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.vesoul.desc"
-  ],
-  "evolutions": [
-    {
-      "id": "vesoul_marajar",
-      "variant": "item_interact",
-      "result": "marajar",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-
-      ],
-      "requiredContext": "cobblemon:moon_stone",
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -85,10 +29,68 @@
     "special_defence": 0,
     "speed": 0
   },
+  "eggGroups": [
+    "mineral",
+    "dragon"
+  ],
+  "drops": {},
+  "moves": [
+    "1:mudslap",
+    "1:lick"
+  ],
+  "labels": [
+    "okeno",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.vesoul.desc1"
+  ],
   "height": 6,
   "weight": 0,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [
+    {
+      "id": "vesoul_marajar",
+      "variant": "item_interact",
+      "result": "marajar",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:moon_stone",
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 6102,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Gigantuna",
-  "nationalPokedexNumber": 1555,
   "primaryType": "water",
+  "catchRate": 80,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 172,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "sardive",
+  "baseScale": 0.2833333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "thickfat",
     "h:marvelscale"
@@ -15,37 +22,18 @@
     "special_defence": 85,
     "speed": 75
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 80,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 172,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_2"
   ],
+  "drops": {},
   "moves": [
     "1:bite",
     "1:tailwhip",
@@ -61,7 +49,8 @@
     "26:aquatail",
     "34:icefang",
     "47:extremespeed",
-    "52:dragonrush"  ],
+    "52:dragonrush"
+  ],
   "labels": [
     "lagoone",
     "not_modeled",
@@ -69,28 +58,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.gigantuna.desc"
+    "cobblemon.species.gigantuna.desc1"
   ],
-  "preEvolution": "sardive",
-  "baseScale": 0.2833333333333333,
+  "height": 17,
+  "weight": 1400,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1555,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 17,
-  "weight": 1400,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

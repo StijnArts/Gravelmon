@@ -20,7 +20,7 @@ public class SeviianFeebas extends Pokemon {
                 51, List.of(EggGroup.WATER_1, EggGroup.DRAGON),
                 List.of(""),
                 List.of(new EvolutionEntry("seviianmilotic", EvolutionType.LEVEL_UP, true, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"cobblemon:prism_scale\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "cobblemon:prism_scale")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SPLASH, 1),
                         new MoveLearnSetEntry(Move.TACKLE, 15),

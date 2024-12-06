@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Grenaize",
-  "nationalPokedexNumber": 6736,
   "primaryType": "grass",
   "secondaryType": "fire",
+  "catchRate": 220,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 58,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "aftermath",
     "noguard",
@@ -17,37 +23,18 @@
     "special_defence": 26,
     "speed": 68
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 220,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 58,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "grass"
   ],
+  "drops": {},
   "moves": [
     "1:leafage",
     "4:focusenergy",
@@ -119,14 +106,18 @@
     "tm:submission",
     "tm:ragingfury",
     "tm:charm",
-    "tm:detect"  ],
+    "tm:detect"
+  ],
   "labels": [
     "novrai",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.grenaize.desc"
+    "cobblemon.species.grenaize.desc1"
   ],
+  "height": 1,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "grenaize_blastalk",
@@ -137,31 +128,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 19
+          "minLevel": "19"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 6736,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 1,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

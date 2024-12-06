@@ -20,7 +20,7 @@ public class Growmeo extends Pokemon {
                 50, List.of(EggGroup.GRASS, EggGroup.HUMAN_LIKE),
                 List.of("Growmeo scurry through flowerbeds in search of a Tuliep. However, they are painfully shy and rarely work up the courage to actually approach one."),
                 List.of(new EvolutionEntry("montegrew", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.ATTRACT.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.ATTRACT.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.ABSORB,1),
                         new MoveLearnSetEntry(Move.CHARM,1),

@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Torquoise",
-  "nationalPokedexNumber": 6066,
   "primaryType": "ice",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 100,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.16666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "clearbody",
     "icebody",
@@ -16,38 +22,19 @@
     "special_defence": 102,
     "speed": 33
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 100,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "monster",
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:rollout",
     "8:rockpolish",
@@ -60,33 +47,50 @@
     "50:powergem",
     "58:dazzlinggleam",
     "tm:sharpen",
-    "tm:iceball"  ],
+    "tm:iceball"
+  ],
   "labels": [
     "okeno",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.torquoise.desc"
+    "cobblemon.species.torquoise.desc1"
   ],
-  "baseScale": 0.16666666666666666,
+  "height": 10,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6066,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 10,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,441 +1,469 @@
 {
-   "target": "cobblemon:psyduck",
-   "forms": [{
-  "name": "Forman",
-  "primaryType": "psychic",
-  "abilities": [
-    "telepathy"  ],
-  "baseStats": {
-    "hp": 70,
-    "attack": 19,
-    "defence": 30,
-    "special_attack": 30,
-    "special_defence": 94,
-    "speed": 11
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 190,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:confusion",
-    "1:bulkup",
-    "1:vacuumwave"  ],
-  "labels": [
-    "form",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.formanpsyduck.desc"
-  ],
-  "evolutions": [
+  "target": "cobblemon:psyduck",
+  "forms": [
     {
-      "id": "psyduck_golduck_forman",
-      "variant": "level_up",
-      "result": "golduck forman",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
+      "name": "Forman",
+      "primaryType": "psychic",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.13333333333333333,
+      "cannotDynamax": false,
+      "abilities": [
+        "telepathy"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 19,
+        "defence": 30,
+        "special_attack": 30,
+        "special_defence": 94,
+        "speed": 11
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:confusion",
+        "1:bulkup",
+        "1:vacuumwave"
+      ],
+      "labels": [
+        "form",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.formanpsyduck.desc1"
+      ],
+      "height": 8,
+      "weight": 0,
+      "aspects": [
+        "forman"
+      ],
+      "evolutions": [
         {
-          "variant": "level",
-          "minLevel": 33
+          "id": "formanpsyduck_golduck_forman",
+          "variant": "level_up",
+          "result": "golduck forman",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "33"
+            }
+          ],
+          "permanent": true
         }
       ],
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.13333333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 8,
-  "weight": 0,
-  "aspects": ["forman"],
-  "cannotDynamax": false
-},
-{
-  "name": "Mastenian",
-  "primaryType": "poison",
-  "secondaryType": "psychic",
-  "abilities": [
-    "poisontouch",
-    "telepathy"  ],
-  "baseStats": {
-    "hp": 50,
-    "attack": 62,
-    "defence": 48,
-    "special_attack": 55,
-    "special_defence": 55,
-    "speed": 50
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
-    }
-  },
-  "catchRate": 174,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:acid",
-    "1:confusion"  ],
-  "labels": [
-    "mastenia",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.mastenianpsyduck.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 0,
-  "weight": 0,
-  "aspects": ["mastenian"],
-  "cannotDynamax": false
-},
-{
-  "name": "Epoch",
-  "primaryType": "ground",
-  "secondaryType": "psychic",
-  "abilities": [
-    "synchronize"  ],
-  "baseStats": {
-    "hp": 65,
-    "attack": 50,
-    "defence": 60,
-    "special_attack": 40,
-    "special_defence": 70,
-    "speed": 50
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 190,
-  "shoulderMountable": false,
-  "baseExperienceYield": 64,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "water_1",
-    "field"
-  ],
-  "moves": [
-    "27:confuseray",
-    "39:calmmind",
-    "1:scratch",
-    "43:extrasensory",
-    "1:watergun",
-    "16:hypnosis",
-    "1:mudslap",
-    "5:confusion",
-    "48:sludgewave",
-    "23:psybeam",
-    "19:sludge",
-    "35:mudslide",
-    "60:psystrike",
-    "tm:attract",
-    "tm:aurasphere",
-    "tm:brine",
-    "tm:calmmind",
-    "tm:confuseray",
-    "tm:cosmicpower",
-    "tm:dazzlinggleam",
-    "tm:defog",
-    "tm:earthpower",
-    "tm:earthquake",
-    "tm:expandingforce",
-    "tm:focusblast",
-    "tm:gastroacid",
-    "tm:geomancy",
-    "tm:gunkshot",
-    "tm:healbell",
-    "tm:hiddenpower",
-    "tm:hypervoice",
-    "tm:lightscreen",
-    "tm:magicroom",
-    "tm:meteorbeam",
-    "tm:mirrorshot",
-    "tm:mist",
-    "tm:mistyterrain",
-    "tm:moonblast",
-    "tm:mudslide",
-    "tm:nastyplot",
-    "tm:poisonjab",
-    "tm:powergem",
-    "tm:protect",
-    "tm:psychic",
-    "tm:psychicterrain",
-    "tm:quicksand",
-    "tm:raindance",
-    "tm:reflect",
-    "tm:rest",
-    "tm:return",
-    "tm:safeguard",
-    "tm:sandtomb",
-    "tm:scald",
-    "tm:sleeptalk",
-    "tm:sludgebomb",
-    "tm:sludgewave",
-    "tm:substitute",
-    "tm:swift",
-    "tm:terrainpulse",
-    "tm:toxic",
-    "tm:trickroom",
-    "tm:waterpulse",
-    "tm:whirlpool",
-    "tm:wish",
-    "tm:wonderroom",
-    "tm:workup",
-    "tm:zenheadbutt",
-    "egg:yawn",
-    "egg:futuresight",
-    "egg:trickroom",
-    "egg:mindreader",
-    "egg:venomdrench",
-    "egg:shoreup",
-    "egg:muddywater"  ],
-  "labels": [
-    "soulstones",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.epochpsyduck.desc"
-  ],
-  "evolutions": [
     {
-      "id": "psyduck_epoch_golduck",
-      "variant": "level_up",
-      "result": "epoch golduck",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
+      "name": "Mastenian",
+      "primaryType": "poison",
+      "secondaryType": "psychic",
+      "catchRate": 174,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "poisontouch",
+        "telepathy"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 62,
+        "defence": 48,
+        "special_attack": 55,
+        "special_defence": 55,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:acid",
+        "1:confusion"
+      ],
+      "labels": [
+        "mastenia",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.mastenianpsyduck.desc1"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "mastenian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+          }
+        }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "ground",
+      "secondaryType": "psychic",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 64,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.13333333333333333,
+      "cannotDynamax": false,
+      "abilities": [
+        "synchronize"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 50,
+        "defence": 60,
+        "special_attack": 40,
+        "special_defence": 70,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_1",
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "27:confuseray",
+        "39:calmmind",
+        "1:scratch",
+        "43:extrasensory",
+        "1:watergun",
+        "16:hypnosis",
+        "1:mudslap",
+        "5:confusion",
+        "48:sludgewave",
+        "23:psybeam",
+        "19:sludge",
+        "35:mudslide",
+        "60:psystrike",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:brine",
+        "tm:calmmind",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:dazzlinggleam",
+        "tm:defog",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:expandingforce",
+        "tm:focusblast",
+        "tm:gastroacid",
+        "tm:geomancy",
+        "tm:gunkshot",
+        "tm:healbell",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:magicroom",
+        "tm:meteorbeam",
+        "tm:mirrorshot",
+        "tm:mist",
+        "tm:mistyterrain",
+        "tm:moonblast",
+        "tm:mudslide",
+        "tm:nastyplot",
+        "tm:poisonjab",
+        "tm:powergem",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicterrain",
+        "tm:quicksand",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:safeguard",
+        "tm:sandtomb",
+        "tm:scald",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:substitute",
+        "tm:swift",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:trickroom",
+        "tm:waterpulse",
+        "tm:whirlpool",
+        "tm:wish",
+        "tm:wonderroom",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:yawn",
+        "egg:futuresight",
+        "egg:trickroom",
+        "egg:mindreader",
+        "egg:venomdrench",
+        "egg:shoreup",
+        "egg:muddywater"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochpsyduck.desc1"
+      ],
+      "height": 8,
+      "weight": 196,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
         {
-          "variant": "level",
-          "minLevel": 33
+          "id": "epochpsyduck_epoch_golduck",
+          "variant": "level_up",
+          "result": "epoch golduck",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "33"
+            }
+          ],
+          "permanent": true
         }
       ],
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.13333333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 8,
-  "weight": 196,
-  "aspects": ["epoch"],
-  "cannotDynamax": false
-},
-{
-  "name": "Qamoran",
-  "primaryType": "fairy",
-  "abilities": [
-    "oblivious",
-    "klutz",
-    "h:contrary"
-  ],
-  "baseStats": {
-    "hp": 60,
-    "attack": 65,
-    "defence": 48,
-    "special_attack": 47,
-    "special_defence": 50,
-    "speed": 50
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
-    }
-  },
-  "catchRate": 190,
-  "shoulderMountable": false,
-  "baseExperienceYield": 200,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "water_1",
-    "field"
-  ],
-  "moves": [
-    "1:scratch",
-    "4:tailwhip",
-    "7:wingattack",
-    "10:confusion",
-    "13:furyswipes",
-    "16:waterpulse",
-    "19:disable",
-    "22:screech",
-    "25:zenheadbutt",
-    "28:acrobatics",
-    "31:roost",
-    "34:psychup",
-    "37:amnesia",
-    "40:playrough",
-    "43:mirrormove"  ],
-  "labels": [
-    "qamor",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.qamoranpsyduck.desc"
-  ],
-  "evolutions": [
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
     {
-      "id": "psyduck_gobbledyduck",
-      "variant": "item_interact",
-      "result": "gobbledyduck",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-
+      "name": "Qamoran",
+      "primaryType": "fairy",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 200,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.13333333333333333,
+      "cannotDynamax": false,
+      "abilities": [
+        "oblivious",
+        "klutz",
+        "h:contrary"
       ],
-      "requiredContext": "cobblemon:shiny_stone",
-      "permanent": true   
- }
+      "baseStats": {
+        "hp": 60,
+        "attack": 65,
+        "defence": 48,
+        "special_attack": 47,
+        "special_defence": 50,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_1",
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:scratch",
+        "4:tailwhip",
+        "7:wingattack",
+        "10:confusion",
+        "13:furyswipes",
+        "16:waterpulse",
+        "19:disable",
+        "22:screech",
+        "25:zenheadbutt",
+        "28:acrobatics",
+        "31:roost",
+        "34:psychup",
+        "37:amnesia",
+        "40:playrough",
+        "43:mirrormove"
+      ],
+      "labels": [
+        "qamor",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.qamoranpsyduck.desc1"
+      ],
+      "height": 8,
+      "weight": 165,
+      "aspects": [
+        "qamoran"
+      ],
+      "evolutions": [
+        {
+          "id": "qamoranpsyduck_gobbledyduck",
+          "variant": "item_interact",
+          "result": "gobbledyduck",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:shiny_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+          }
+        }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
   ],
-  "baseScale": 0.13333333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 8,
-  "weight": 165,
-  "aspects": ["qamoran"],
-  "cannotDynamax": false
-}
-], "features": [
-"forman",
-"mastenian",
-"epoch",
-"qamoran"
+  "features": [
+    "forman",
+    "mastenian",
+    "epoch",
+    "qamoran"
   ]
 }

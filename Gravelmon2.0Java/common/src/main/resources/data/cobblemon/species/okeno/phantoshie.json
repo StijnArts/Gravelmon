@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Phantoshie",
-  "nationalPokedexNumber": 6088,
   "primaryType": "ghost",
+  "catchRate": 110,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "plurshie",
+  "baseScale": 0.18333333333333335,
+  "cannotDynamax": false,
   "abilities": [
     "rattled",
     "h:unnerve"
@@ -15,38 +22,19 @@
     "special_defence": 50,
     "speed": 54
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 110,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "field",
     "fairy"
   ],
+  "drops": {},
   "moves": [
     "1:astonish",
     "2:playnice",
@@ -71,7 +59,8 @@
     "tm:covet",
     "tm:flail",
     "tm:dizzypunch",
-    "tm:cottonguard"  ],
+    "tm:cottonguard"
+  ],
   "labels": [
     "okeno",
     "not_modeled",
@@ -79,9 +68,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.phantoshie.desc"
+    "cobblemon.species.phantoshie.desc1"
   ],
-  "preEvolution": "plurshie",
+  "height": 11,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "phantoshie_pawstiche",
@@ -92,31 +83,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 40
+          "minLevel": "40"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.18333333333333335,
+  "nationalPokedexNumber": 6088,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 11,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Gauzerpent",
-  "nationalPokedexNumber": 5206,
   "primaryType": "ground",
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 62,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.13333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "mummy",
     "sandforce",
@@ -16,38 +22,19 @@
     "special_defence": 70,
     "speed": 45
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 190,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 62,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "monster",
     "amorphous"
   ],
+  "drops": {},
   "moves": [
     "1:astonish",
     "5:mudslap",
@@ -123,14 +110,18 @@
     "tm:switcheroo",
     "tm:grudge",
     "tm:wideguard",
-    "tm:coil"  ],
+    "tm:coil"
+  ],
   "labels": [
     "mythire",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.gauzerpent.desc"
+    "cobblemon.species.gauzerpent.desc1"
   ],
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "gauzerpent_underrap",
@@ -141,31 +132,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 37
+          "minLevel": "37"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.13333333333333333,
+  "nationalPokedexNumber": 5206,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 8,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

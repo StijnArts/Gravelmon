@@ -1,12 +1,20 @@
 {
-  "implemented": true,
   "name": "Caldona",
-  "nationalPokedexNumber": 7062,
   "primaryType": "fire",
   "secondaryType": "ground",
+  "catchRate": 235,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "cindera",
+  "baseScale": 0.3,
+  "cannotDynamax": false,
   "abilities": [
     "magmaarmor",
-    "flamebody"  ],
+    "flamebody"
+  ],
   "baseStats": {
     "hp": 71,
     "attack": 66,
@@ -15,37 +23,18 @@
     "special_defence": 67,
     "speed": 48
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 235,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "6:rockpolish",
     "11:smokescreen",
@@ -97,7 +86,8 @@
     "tm:thunderwave",
     "tm:toxic",
     "tm:willowisp",
-    "tm:workup"  ],
+    "tm:workup"
+  ],
   "labels": [
     "atlas",
     "not_modeled",
@@ -105,9 +95,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.caldona.desc"
+    "cobblemon.species.caldona.desc1"
   ],
-  "preEvolution": "cindera",
+  "height": 18,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "caldona_stelnova",
@@ -118,31 +110,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 49
+          "minLevel": "49"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.3,
+  "nationalPokedexNumber": 7062,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 18,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Noxial",
-  "nationalPokedexNumber": 1126,
   "primaryType": "poison",
   "secondaryType": "ghost",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 137,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 51,
+  "baseFriendship": 70,
+  "preEvolution": "phlask",
+  "baseScale": 0.15,
+  "cannotDynamax": false,
   "abilities": [
     "stench",
     "aftermath",
@@ -17,197 +24,20 @@
     "special_defence": 90,
     "speed": 6
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-"forms": [    {
-      "name": "Exothermic",
-      "pokedex": [
-    "cobblemon.species.noxial.desc1"
-  ],
-      "primaryType": "poison",
-      "secondaryType": "ghost",
-      "abilities": [
-    "stench",
-    "aftermath",
-    "h:liquidooze"
-      ],
-      "baseScale": 0.4,
-        "hitbox": {
-          "width": 6.0,
-          "height": 6.0,
-          "fixed": false
-      },
-      "baseStats": {
-        "hp": 40,
-        "attack": 60,
-        "defence": 60,
-        "special_attack": 80,
-        "special_defence": 90,
-        "speed": 6
-      },
-      "catchRate": 120,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 137,
-      "baseFriendship": 70,
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 2,
-        "speed": 0
-      },
-      "experienceGroup": "medium_slow",
-      "eggCycles": 51,
-      "eggGroups": [
-    "amorphous"
-  ],
-  "moves": [
-    "1:poisongas",
-    "1:smokescreen",
-    "1:astonish",
-    "5:smog",
-    "8:disable",
-    "12:ember",
-    "15:confuseray",
-    "19:acidrain",
-    "22:flameburst",
-    "27:selfdestruct",
-    "31:toxicspikes",
-    "36:flamethrower",
-    "40:shadowball",
-    "45:imprison",
-    "49:destinybond",
-    "54:fireblast",
-    "58:explosion",
-    "tm:toxic",
-    "tm:venoshock",
-    "tm:hiddenpower",
-    "tm:sunnyday",
-    "tm:taunt",
-    "tm:protect",
-    "tm:raindance",
-    "tm:telekinesis",
-    "tm:frustration",
-    "tm:return",
-    "tm:psychic",
-    "tm:shadowball",
-    "tm:doubleteam",
-    "tm:sludgewave",
-    "tm:flamethrower",
-    "tm:sludgebomb",
-    "tm:fireblast",
-    "tm:torment",
-    "tm:facade",
-    "tm:rest",
-    "tm:attract",
-    "tm:thief",
-    "tm:skillswap",
-    "tm:overheat",
-    "tm:energyball",
-    "tm:endure",
-    "tm:incinerate",
-    "tm:willowisp",
-    "tm:explosion",
-    "tm:payback",
-    "tm:flash",
-    "tm:psychup",
-    "tm:dreameater",
-    "tm:swagger",
-    "tm:substitute",
-    "tm:trickroom",
-    "tm:darkpulse",
-    "tm:sleeptalk",
-    "tutor:fling",
-    "tutor:gastroacid",
-    "tutor:gunkshot",
-    "tutor:knockoff",
-    "tutor:magiccoat",
-    "tutor:ominouswind",
-    "tutor:painsplit",
-    "tutor:recycle",
-    "tutor:secretpower",
-    "tutor:snatch",
-    "tutor:spite",
-    "tutor:trick",
-    "egg:clearsmog",
-    "egg:crosspoison",
-    "egg:feintattack",
-    "egg:grudge",
-    "egg:haze",
-    "egg:nastyplot",
-    "egg:nightshade",
-    "egg:nightslash",
-    "egg:ominouswind",
-    "egg:smokescreen"  ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-
-    ]
-      },
-      "labels": [
-    "sage",
-    "not_modeled"
-      ],
-      "aspects": [
-        "exothermic"
-      ],
-      "height": 0,
-      "weight": 170,
-  "evolutions": [
-    {
-      "id": "exothermic_noxial_fumighast",
-      "variant": "level_up",
-      "result": "fumighast",
-      "consumeHeldItem": true,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": 36
-        },
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:burn_heal"
-        }
-      ],
-      "permanent": true
-    }
-  ],
-      "cannotDynamax": false,
-      "battleOnly": false
-    }
-],
-  "baseExperienceYield": 137,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 51,
   "eggGroups": [
     "amorphous"
   ],
+  "drops": {
+    "amount": 2
+  },
   "moves": [
     "1:poisongas",
     "1:smokescreen",
@@ -285,7 +115,8 @@
     "egg:nightshade",
     "egg:nightslash",
     "egg:ominouswind",
-    "egg:smokescreen"  ],
+    "egg:smokescreen"
+  ],
   "labels": [
     "sage",
     "not_modeled",
@@ -293,9 +124,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.noxial.desc"
+    "cobblemon.species.noxial.desc1"
   ],
-  "preEvolution": "phlask",
+  "height": 9,
+  "weight": 17,
+  "aspects": [],
   "evolutions": [
     {
       "id": "noxial_fumighast",
@@ -306,35 +139,202 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 36
+          "minLevel": "36"
         },
         {
           "variant": "held_item",
           "itemCondition": "cobblemon:ice_heal"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.15,
+  "nationalPokedexNumber": 1126,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 2,
-    "speed": 0
-  },
-  "height": 9,
-  "weight": 17,
-  "aspects": [],
-"features": [
-"exothermic"
-  ],  "cannotDynamax": false
+  "features": [
+    "exothermic"
+  ],
+  "implemented": true,
+  "forms": [
+    {
+      "name": "Exothermic",
+      "primaryType": "poison",
+      "secondaryType": "ghost",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 137,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "baseScale": 0.15,
+      "cannotDynamax": false,
+      "abilities": [
+        "stench",
+        "aftermath",
+        "h:liquidooze"
+      ],
+      "baseStats": {
+        "hp": 40,
+        "attack": 60,
+        "defence": 60,
+        "special_attack": 80,
+        "special_defence": 90,
+        "speed": 6
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 2,
+        "speed": 0
+      },
+      "eggGroups": [
+        "amorphous"
+      ],
+      "drops": {
+        "amount": 2
+      },
+      "moves": [
+        "1:poisongas",
+        "1:smokescreen",
+        "1:astonish",
+        "5:smog",
+        "8:disable",
+        "12:ember",
+        "15:confuseray",
+        "19:acidrain",
+        "22:flameburst",
+        "27:selfdestruct",
+        "31:toxicspikes",
+        "36:flamethrower",
+        "40:shadowball",
+        "45:imprison",
+        "49:destinybond",
+        "54:fireblast",
+        "58:explosion",
+        "tm:toxic",
+        "tm:venoshock",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:taunt",
+        "tm:protect",
+        "tm:raindance",
+        "tm:telekinesis",
+        "tm:frustration",
+        "tm:return",
+        "tm:psychic",
+        "tm:shadowball",
+        "tm:doubleteam",
+        "tm:sludgewave",
+        "tm:flamethrower",
+        "tm:sludgebomb",
+        "tm:fireblast",
+        "tm:torment",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:thief",
+        "tm:skillswap",
+        "tm:overheat",
+        "tm:energyball",
+        "tm:endure",
+        "tm:incinerate",
+        "tm:willowisp",
+        "tm:explosion",
+        "tm:payback",
+        "tm:flash",
+        "tm:psychup",
+        "tm:dreameater",
+        "tm:swagger",
+        "tm:substitute",
+        "tm:trickroom",
+        "tm:darkpulse",
+        "tm:sleeptalk",
+        "tutor:fling",
+        "tutor:gastroacid",
+        "tutor:gunkshot",
+        "tutor:knockoff",
+        "tutor:magiccoat",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:recycle",
+        "tutor:secretpower",
+        "tutor:snatch",
+        "tutor:spite",
+        "tutor:trick",
+        "egg:clearsmog",
+        "egg:crosspoison",
+        "egg:feintattack",
+        "egg:grudge",
+        "egg:haze",
+        "egg:nastyplot",
+        "egg:nightshade",
+        "egg:nightslash",
+        "egg:ominouswind",
+        "egg:smokescreen"
+      ],
+      "labels": [
+        "sage",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.exothermic.desc1"
+      ],
+      "height": 9,
+      "weight": 17,
+      "aspects": [
+        "exothermic"
+      ],
+      "evolutions": [
+        {
+          "id": "exothermic_fumighast",
+          "variant": "level_up",
+          "result": "fumighast",
+          "consumeHeldItem": true,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "36"
+            },
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:burn_heal"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "battleOnly": false
+    }
+  ]
 }

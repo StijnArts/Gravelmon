@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Egorgeon",
-  "nationalPokedexNumber": 2254,
   "primaryType": "dragon",
   "secondaryType": "electric",
+  "catchRate": 3,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 300,
+  "experienceGroup": "slow",
+  "eggCycles": 32,
+  "baseFriendship": 70,
+  "preEvolution": "egohiss",
+  "baseScale": 0.6666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "shedskin",
     "wonderskin",
@@ -17,38 +24,19 @@
     "special_defence": 80,
     "speed": 120
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 3,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 300,
-  "experienceGroup": "slow",
-  "eggCycles": 32,
   "eggGroups": [
     "dragon",
     "human_like"
   ],
+  "drops": {},
   "moves": [
     "1:perfectglare",
     "1:electroweb",
@@ -107,7 +95,8 @@
     "tutor:shockwave",
     "tutor:signalbeam",
     "tutor:sleeptalk",
-    "tutor:velvetscales"  ],
+    "tutor:velvetscales"
+  ],
   "labels": [
     "xenoverse",
     "not_modeled",
@@ -115,28 +104,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.egorgeon.desc"
+    "cobblemon.species.egorgeon.desc1"
   ],
-  "preEvolution": "egohiss",
-  "baseScale": 0.6666666666666666,
+  "height": 40,
+  "weight": 618,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2254,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 3,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 40,
-  "weight": 618,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

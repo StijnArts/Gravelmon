@@ -36,7 +36,7 @@ public class RaianianDragonite extends drai.dev.data.pokemon.Pokemon {
             addAdditionalEvolution("dragonair",new EvolutionEntry("raianiandragonite", EvolutionType.LEVEL_UP, List.of(),
                     List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"55"),
                             new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=female"),
-                            new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_COLD_OCEAN.getId() + ":" + Biome.IS_COLD_OCEAN.getName() +"\""))) );
+                            new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_COLD_OCEAN.getId() + ":" + Biome.IS_COLD_OCEAN.getName()))) );
     }
 
 

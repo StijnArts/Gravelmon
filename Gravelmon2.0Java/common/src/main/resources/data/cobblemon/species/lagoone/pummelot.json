@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Pummelot",
-  "nationalPokedexNumber": 1614,
   "primaryType": "bug",
   "secondaryType": "fighting",
+  "catchRate": 80,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 184,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "mantilist",
+  "baseScale": 0.2333333333333333,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
   "baseStats": {
     "hp": 60,
     "attack": 150,
@@ -14,58 +22,6 @@
     "special_defence": 65,
     "speed": 75
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
-  },
-  "catchRate": 80,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 184,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "water_1",
-    "water_3"
-  ],
-  "moves": [
-    "1:strugglebug",
-    "1:lowkick"  ],
-  "labels": [
-    "lagoone",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
-  ],
-  "pokedex": [
-    "cobblemon.species.pummelot.desc"
-  ],
-  "preEvolution": "mantilist",
-  "baseScale": 0.2333333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 0,
     "attack": 2,
@@ -74,10 +30,59 @@
     "special_defence": 0,
     "speed": 0
   },
+  "eggGroups": [
+    "water_1",
+    "water_3"
+  ],
+  "drops": {},
+  "moves": [
+    "1:strugglebug",
+    "1:lowkick"
+  ],
+  "labels": [
+    "lagoone",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.pummelot.desc1"
+  ],
   "height": 14,
   "weight": 720,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1614,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

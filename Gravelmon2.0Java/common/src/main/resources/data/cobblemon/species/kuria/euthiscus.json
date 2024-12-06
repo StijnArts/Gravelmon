@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Euthiscus",
-  "nationalPokedexNumber": 5549,
   "primaryType": "grass",
+  "catchRate": 255,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "pickup",
     "leafguard",
@@ -16,37 +22,18 @@
     "special_defence": 70,
     "speed": 50
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 255,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 64,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "grass"
   ],
+  "drops": {},
   "moves": [
     "1:mudslap",
     "1:ingrain",
@@ -59,14 +46,18 @@
     "33:synthesis",
     "38:takedown",
     "43:sunnyday",
-    "48:leafblade"  ],
+    "48:leafblade"
+  ],
   "labels": [
     "kuria",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.euthiscus.desc"
+    "cobblemon.species.euthiscus.desc1"
   ],
+  "height": 3,
+  "weight": 24,
+  "aspects": [],
   "evolutions": [
     {
       "id": "euthiscus_hibidali",
@@ -77,31 +68,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 31
+          "minLevel": "31"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 5549,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 3,
-  "weight": 24,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

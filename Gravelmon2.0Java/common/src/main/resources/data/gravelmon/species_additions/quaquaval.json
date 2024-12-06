@@ -1,129 +1,138 @@
 {
-   "target": "cobblemon:quaquaval",
-   "forms": [{
-  "name": "Ayreian",
-  "primaryType": "water",
-  "secondaryType": "psychic",
-  "abilities": [
-    "torrent",
-    "h:technician"
-  ],
-  "baseStats": {
-    "hp": 90,
-    "attack": 110,
-    "defence": 65,
-    "special_attack": 95,
-    "special_defence": 100,
-    "speed": 70
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+  "target": "cobblemon:quaquaval",
+  "forms": [
+    {
+      "name": "Ayreian",
+      "primaryType": "water",
+      "secondaryType": "psychic",
+      "catchRate": 45,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 262,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "quaxwell form\u003dayreian",
+      "baseScale": 0.3,
+      "cannotDynamax": false,
+      "abilities": [
+        "torrent",
+        "h:technician"
+      ],
+      "baseStats": {
+        "hp": 90,
+        "attack": 110,
+        "defence": 65,
+        "special_attack": 95,
+        "special_defence": 100,
+        "speed": 70
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 3,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field",
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "1:pound",
+        "1:growl",
+        "1:watergun",
+        "1:psychicterrain",
+        "7:workup",
+        "10:wingattack",
+        "13:aquajet",
+        "17:heartstamp",
+        "21:flipturn",
+        "27:airslash",
+        "32:psychocut",
+        "38:lifedew",
+        "43:liquidation",
+        "47:psychic",
+        "52:expandingforce",
+        "tutor:takedown",
+        "tutor:protect",
+        "tutor:waterpulse",
+        "tutor:lowkick",
+        "tutor:acrobatics",
+        "tutor:disarmingvoice",
+        "tutor:chillingwater",
+        "tutor:facade",
+        "tutor:aerialace",
+        "tutor:swift",
+        "tutor:lowsweep",
+        "tutor:aircutter",
+        "tutor:endure",
+        "tutor:raindance",
+        "tutor:airslash",
+        "tutor:rest",
+        "tutor:liquidation",
+        "tutor:encore",
+        "tutor:surf",
+        "tutor:helpinghand",
+        "tutor:batonpass",
+        "tutor:mistyterrain",
+        "tutor:hydropump",
+        "tutor:waterpledge",
+        "tutor:bravebird",
+        "tutor:terablast",
+        "egg:detect",
+        "egg:rapidspin",
+        "egg:roost",
+        "egg:lastresort"
+      ],
+      "labels": [
+        "gen9",
+        "vanguard",
+        "not_modeled",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianquaquaval.desc1"
+      ],
+      "height": 18,
+      "weight": 619,
+      "aspects": [
+        "ayreian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     }
-  },
-  "catchRate": 45,
-  "shoulderMountable": false,
-  "baseExperienceYield": 262,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field",
-    "grass"
   ],
-  "moves": [
-    "1:pound",
-    "1:growl",
-    "1:watergun",
-    "1:psychicterrain",
-    "7:workup",
-    "10:wingattack",
-    "13:aquajet",
-    "17:heartstamp",
-    "21:flipturn",
-    "27:airslash",
-    "32:psychocut",
-    "38:lifedew",
-    "43:liquidation",
-    "47:psychic",
-    "52:expandingforce",
-    "tutor:takedown",
-    "tutor:protect",
-    "tutor:waterpulse",
-    "tutor:lowkick",
-    "tutor:acrobatics",
-    "tutor:disarmingvoice",
-    "tutor:chillingwater",
-    "tutor:facade",
-    "tutor:aerialace",
-    "tutor:swift",
-    "tutor:lowsweep",
-    "tutor:aircutter",
-    "tutor:endure",
-    "tutor:raindance",
-    "tutor:airslash",
-    "tutor:rest",
-    "tutor:liquidation",
-    "tutor:encore",
-    "tutor:surf",
-    "tutor:helpinghand",
-    "tutor:batonpass",
-    "tutor:mistyterrain",
-    "tutor:hydropump",
-    "tutor:waterpledge",
-    "tutor:bravebird",
-    "tutor:terablast",
-    "egg:detect",
-    "egg:rapidspin",
-    "egg:roost",
-    "egg:lastresort"  ],
-  "labels": [
-    "gen9",
-    "vanguard",
-    "not_modeled",
-    "fakemonevolution"
-  ],
-  "pokedex": [
-    "cobblemon.species.ayreianquaquaval.desc"
-  ],
-  "preEvolution": "quaxwell form=ayreian",
-  "baseScale": 0.3,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 3,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 18,
-  "weight": 619,
-  "aspects": ["ayreian"],
-  "cannotDynamax": false
-}
-], "features": [
-"ayreian"
+  "features": [
+    "ayreian"
   ]
 }

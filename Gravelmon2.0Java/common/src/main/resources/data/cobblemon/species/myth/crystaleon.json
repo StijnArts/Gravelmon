@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Crystaleon",
-  "nationalPokedexNumber": 5849,
   "primaryType": "rock",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 184,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "baseScale": 0.16666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "mirrorarmor",
     "h:dryskin"
@@ -15,37 +21,18 @@
     "special_defence": 100,
     "speed": 95
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 184,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 100,
   "eggGroups": [
     "monster"
   ],
+  "drops": {},
   "moves": [
     "1:growl",
     "3:tackle",
@@ -85,33 +72,50 @@
     "egg:icywind",
     "egg:magicalleaf",
     "egg:dragonclaw",
-    "egg:skullbash"  ],
+    "egg:skullbash"
+  ],
   "labels": [
     "myth",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.crystaleon.desc"
+    "cobblemon.species.crystaleon.desc1"
   ],
-  "baseScale": 0.16666666666666666,
+  "height": 10,
+  "weight": 169,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5849,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 10,
-  "weight": 169,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

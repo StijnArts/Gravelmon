@@ -1,453 +1,485 @@
 {
-   "target": "cobblemon:aromatisse",
-   "forms": [{
-  "name": "Aromian",
-  "primaryType": "poison",
-  "secondaryType": "ghost",
-  "abilities": [
-    "keeneye"  ],
-  "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+  "target": "cobblemon:aromatisse",
+  "forms": [
+    {
+      "name": "Aromian",
+      "primaryType": "poison",
+      "secondaryType": "ghost",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:acid",
+        "1:lick"
+      ],
+      "labels": [
+        "aroma",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.aromianaromatisse.desc1"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "aromian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
-    }
-  },
-  "catchRate": 255,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:acid",
-    "1:lick"  ],
-  "labels": [
-    "aroma",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.aromianaromatisse.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 0,
-  "weight": 0,
-  "aspects": ["aromian"],
-  "cannotDynamax": false
-},
-{
-  "name": "Epoch",
-  "primaryType": "fairy",
-  "secondaryType": "poison",
-  "abilities": [
-    "curiousmedicine",
-    "healer",
-    "h:poisontouch"
-  ],
-  "baseStats": {
-    "hp": 101,
-    "attack": 89,
-    "defence": 92,
-    "special_attack": 29,
-    "special_defence": 52,
-    "speed": 99
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     },
-    "moving": {
-        "fly": {
-            "canFly": false
+    {
+      "name": "Epoch",
+      "primaryType": "fairy",
+      "secondaryType": "poison",
+      "catchRate": 200,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 162,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.13333333333333333,
+      "cannotDynamax": false,
+      "abilities": [
+        "curiousmedicine",
+        "healer",
+        "h:poisontouch"
+      ],
+      "baseStats": {
+        "hp": 101,
+        "attack": 89,
+        "defence": 92,
+        "special_attack": 29,
+        "special_defence": 52,
+        "speed": 99
+      },
+      "evYield": {
+        "hp": 2,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy"
+      ],
+      "drops": {},
+      "moves": [
+        "44:plague",
+        "12:haze",
+        "33:reflect",
+        "3:sweetkiss",
+        "33:lightscreen",
+        "30:spiritbreak",
+        "49:psychoshift",
+        "1:sweetscent",
+        "38:toxic",
+        "54:playrough",
+        "18:snatch",
+        "27:mistyterrain",
+        "tm:acidrain",
+        "tm:attract",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:confuseray",
+        "tm:corrosivegas",
+        "tm:cosmicpower",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:drainingkiss",
+        "tm:echoedvoice",
+        "tm:gammaray",
+        "tm:gastroacid",
+        "tm:geomancy",
+        "tm:gunkshot",
+        "tm:haze",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:knockoff",
+        "tm:magicroom",
+        "tm:memento",
+        "tm:metronome",
+        "tm:mist",
+        "tm:mistyterrain",
+        "tm:moonblast",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:poisonjab",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicterrain",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:soundbarrier",
+        "tm:substitute",
+        "tm:swift",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:trickroom",
+        "tm:willowisp",
+        "tm:wish",
+        "tm:wonderroom"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epocharomatisse.desc1"
+      ],
+      "height": 8,
+      "weight": 155,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
-    }
-  },
-  "catchRate": 200,
-  "shoulderMountable": false,
-  "baseExperienceYield": 162,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "fairy"
-  ],
-  "moves": [
-    "44:plague",
-    "12:haze",
-    "33:reflect",
-    "3:sweetkiss",
-    "33:lightscreen",
-    "30:spiritbreak",
-    "49:psychoshift",
-    "1:sweetscent",
-    "38:toxic",
-    "54:playrough",
-    "18:snatch",
-    "27:mistyterrain",
-    "tm:acidrain",
-    "tm:attract",
-    "tm:calmmind",
-    "tm:charm",
-    "tm:confuseray",
-    "tm:corrosivegas",
-    "tm:cosmicpower",
-    "tm:curse",
-    "tm:darkpulse",
-    "tm:dazzlinggleam",
-    "tm:drainingkiss",
-    "tm:echoedvoice",
-    "tm:gammaray",
-    "tm:gastroacid",
-    "tm:geomancy",
-    "tm:gunkshot",
-    "tm:haze",
-    "tm:hex",
-    "tm:hiddenpower",
-    "tm:hypervoice",
-    "tm:knockoff",
-    "tm:magicroom",
-    "tm:memento",
-    "tm:metronome",
-    "tm:mist",
-    "tm:mistyterrain",
-    "tm:moonblast",
-    "tm:mysticalfire",
-    "tm:nastyplot",
-    "tm:phantomforce",
-    "tm:playrough",
-    "tm:poisonjab",
-    "tm:protect",
-    "tm:psychic",
-    "tm:psychicterrain",
-    "tm:rest",
-    "tm:return",
-    "tm:round",
-    "tm:safeguard",
-    "tm:shadowball",
-    "tm:sleeptalk",
-    "tm:sludgebomb",
-    "tm:sludgewave",
-    "tm:soundbarrier",
-    "tm:substitute",
-    "tm:swift",
-    "tm:taunt",
-    "tm:terrainpulse",
-    "tm:toxic",
-    "tm:toxicspikes",
-    "tm:trickroom",
-    "tm:willowisp",
-    "tm:wish",
-    "tm:wonderroom"  ],
-  "labels": [
-    "soulstones",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.epocharomatisse.desc"
-  ],
-  "baseScale": 0.13333333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 8,
-  "weight": 155,
-  "aspects": ["epoch"],
-  "cannotDynamax": false
-},
-{
-  "name": "Epochtwo",
-  "primaryType": "fairy",
-  "secondaryType": "dark",
-  "abilities": [
-    "powerspot",
-    "prankster",
-    "h:receiver"
-  ],
-  "baseStats": {
-    "hp": 101,
-    "attack": 59,
-    "defence": 119,
-    "special_attack": 29,
-    "special_defence": 52,
-    "speed": 102
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     },
-    "moving": {
-        "fly": {
-            "canFly": false
+    {
+      "name": "Epochtwo",
+      "primaryType": "fairy",
+      "secondaryType": "dark",
+      "catchRate": 200,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 162,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.13333333333333333,
+      "cannotDynamax": false,
+      "abilities": [
+        "powerspot",
+        "prankster",
+        "h:receiver"
+      ],
+      "baseStats": {
+        "hp": 101,
+        "attack": 59,
+        "defence": 119,
+        "special_attack": 29,
+        "special_defence": 52,
+        "speed": 102
+      },
+      "evYield": {
+        "hp": 2,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy"
+      ],
+      "drops": {},
+      "moves": [
+        "36:suckerpunch",
+        "17:spikes",
+        "1:helpinghand",
+        "1:obstruct",
+        "59:endeavor",
+        "52:foulplay",
+        "23:spiritbreak",
+        "29:cheapshot",
+        "14:payday",
+        "20:thief",
+        "49:powertrick",
+        "26:snatch",
+        "tm:acrobatics",
+        "tm:attract",
+        "tm:burningjealousy",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:coaching",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:crunch",
+        "tm:darkpulse",
+        "tm:defog",
+        "tm:drainingkiss",
+        "tm:echoedvoice",
+        "tm:geomancy",
+        "tm:haze",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:magicroom",
+        "tm:memento",
+        "tm:metronome",
+        "tm:mistyterrain",
+        "tm:nastyplot",
+        "tm:payday",
+        "tm:playrough",
+        "tm:poisonjab",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:substitute",
+        "tm:swift",
+        "tm:taunt",
+        "tm:toxic",
+        "tm:trickroom",
+        "tm:uturn",
+        "tm:wish",
+        "tm:wonderroom",
+        "tm:workup",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epocharomatisseone.desc1"
+      ],
+      "height": 8,
+      "weight": 155,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
-    }
-  },
-  "catchRate": 200,
-  "shoulderMountable": false,
-  "baseExperienceYield": 162,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "fairy"
-  ],
-  "moves": [
-    "36:suckerpunch",
-    "17:spikes",
-    "1:helpinghand",
-    "1:obstruct",
-    "59:endeavor",
-    "52:foulplay",
-    "23:spiritbreak",
-    "29:cheapshot",
-    "14:payday",
-    "20:thief",
-    "49:powertrick",
-    "26:snatch",
-    "tm:acrobatics",
-    "tm:attract",
-    "tm:burningjealousy",
-    "tm:calmmind",
-    "tm:charm",
-    "tm:coaching",
-    "tm:confuseray",
-    "tm:cosmicpower",
-    "tm:crunch",
-    "tm:darkpulse",
-    "tm:defog",
-    "tm:drainingkiss",
-    "tm:echoedvoice",
-    "tm:geomancy",
-    "tm:haze",
-    "tm:hex",
-    "tm:hiddenpower",
-    "tm:hypervoice",
-    "tm:knockoff",
-    "tm:lashout",
-    "tm:magicroom",
-    "tm:memento",
-    "tm:metronome",
-    "tm:mistyterrain",
-    "tm:nastyplot",
-    "tm:payday",
-    "tm:playrough",
-    "tm:poisonjab",
-    "tm:poltergeist",
-    "tm:possession",
-    "tm:protect",
-    "tm:rest",
-    "tm:return",
-    "tm:round",
-    "tm:safeguard",
-    "tm:shadowball",
-    "tm:shadowpunch",
-    "tm:sleeptalk",
-    "tm:snarl",
-    "tm:substitute",
-    "tm:swift",
-    "tm:taunt",
-    "tm:toxic",
-    "tm:trickroom",
-    "tm:uturn",
-    "tm:wish",
-    "tm:wonderroom",
-    "tm:workup",
-    "tm:zenheadbutt"  ],
-  "labels": [
-    "soulstones",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.epocharomatisseone.desc"
-  ],
-  "baseScale": 0.13333333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 8,
-  "weight": 155,
-  "aspects": ["epochtwo"],
-  "cannotDynamax": false
-},
-{
-  "name": "Vesitan",
-  "primaryType": "fairy",
-  "secondaryType": "psychic",
-  "abilities": [
-    "healer",
-    "aromaveil"  ],
-  "baseStats": {
-    "hp": 101,
-    "attack": 32,
-    "defence": 72,
-    "special_attack": 90,
-    "special_defence": 99,
-    "speed": 85
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     },
-    "moving": {
-        "fly": {
-            "canFly": false
+    {
+      "name": "Vesitan",
+      "primaryType": "fairy",
+      "secondaryType": "psychic",
+      "catchRate": 200,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.13333333333333333,
+      "cannotDynamax": false,
+      "abilities": [
+        "healer",
+        "aromaveil"
+      ],
+      "baseStats": {
+        "hp": 101,
+        "attack": 32,
+        "defence": 72,
+        "special_attack": 90,
+        "special_defence": 99,
+        "speed": 85
+      },
+      "evYield": {
+        "hp": 2,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy"
+      ],
+      "drops": {},
+      "moves": [
+        "1:aromaticmist",
+        "38:flail",
+        "17:calmmind",
+        "42:dreameater",
+        "57:reflect",
+        "31:moonblast",
+        "21:drainingkiss",
+        "6:sweetkiss",
+        "64:psychup",
+        "35:hypnosis",
+        "53:disarmingvoice",
+        "48:psychic",
+        "8:odorsleuth",
+        "44:skillswap",
+        "1:sweetscent",
+        "29:attract",
+        "1:healpulse",
+        "13:confusion",
+        "25:aromatherapy",
+        "1:fairywind"
+      ],
+      "labels": [
+        "chaosinvestia",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.vesitanaromatisse.desc1"
+      ],
+      "height": 8,
+      "weight": 155,
+      "aspects": [
+        "vesitan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     }
-  },
-  "catchRate": 200,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "fairy"
   ],
-  "moves": [
-    "1:aromaticmist",
-    "38:flail",
-    "17:calmmind",
-    "42:dreameater",
-    "57:reflect",
-    "31:moonblast",
-    "21:drainingkiss",
-    "6:sweetkiss",
-    "64:psychup",
-    "35:hypnosis",
-    "53:disarmingvoice",
-    "48:psychic",
-    "8:odorsleuth",
-    "44:skillswap",
-    "1:sweetscent",
-    "29:attract",
-    "1:healpulse",
-    "13:confusion",
-    "25:aromatherapy",
-    "1:fairywind"  ],
-  "labels": [
-    "chaosinvestia",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.vesitanaromatisse.desc"
-  ],
-  "baseScale": 0.13333333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 8,
-  "weight": 155,
-  "aspects": ["vesitan"],
-  "cannotDynamax": false
-}
-], "features": [
-"aromian",
-"epoch",
-"epochtwo",
-"vesitan"
+  "features": [
+    "aromian",
+    "epoch",
+    "epochtwo",
+    "vesitan"
   ]
 }

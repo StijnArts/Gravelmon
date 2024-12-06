@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Hemocto",
-  "nationalPokedexNumber": 4970,
   "primaryType": "water",
   "secondaryType": "dark",
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 67,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "suctioncups",
     "analytic",
@@ -17,38 +23,19 @@
     "special_defence": 55,
     "speed": 65
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 190,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 67,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_2",
     "water_3"
   ],
+  "drops": {},
   "moves": [
     "1:leechlife",
     "1:astonish",
@@ -109,14 +96,18 @@
     "tutor:foulplay",
     "tutor:superfang",
     "tutor:skillswap",
-    "tutor:knockoff"  ],
+    "tutor:knockoff"
+  ],
   "labels": [
     "umbra",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.hemocto.desc"
+    "cobblemon.species.hemocto.desc1"
   ],
+  "height": 3,
+  "weight": 66,
+  "aspects": [],
   "evolutions": [
     {
       "id": "hemocto_alucuttle",
@@ -127,35 +118,47 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 37
+          "minLevel": "37"
         },
         {
           "variant": "biome",
           "biomeCondition": "#minecraft:is_ocean"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 4970,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 3,
-  "weight": 66,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

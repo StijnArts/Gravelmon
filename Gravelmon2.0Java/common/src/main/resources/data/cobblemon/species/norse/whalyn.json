@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Whalyn",
-  "nationalPokedexNumber": 3378,
   "primaryType": "water",
   "secondaryType": "grass",
+  "catchRate": 30,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "lyngortos",
+  "baseScale": 1.5999999999999999,
+  "cannotDynamax": false,
   "abilities": [
-    "raindish"  ],
+    "raindish"
+  ],
   "baseStats": {
     "hp": 124,
     "attack": 36,
@@ -14,60 +22,6 @@
     "special_defence": 88,
     "speed": 20
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canWalkOnWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
-  },
-  "catchRate": 30,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:watergun",
-    "1:absorb",
-    "1:bulkup",
-    "1:synthesis"  ],
-  "labels": [
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution",
-    "norse"
-  ],
-  "pokedex": [
-    "cobblemon.species.whalyn.desc"
-  ],
-  "preEvolution": "lyngortos",
-  "baseScale": 1.5999999999999999,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -76,10 +30,61 @@
     "special_defence": 0,
     "speed": 0
   },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:watergun",
+    "1:absorb",
+    "1:bulkup",
+    "1:synthesis"
+  ],
+  "labels": [
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution",
+    "norse"
+  ],
+  "pokedex": [
+    "cobblemon.species.whalyn.desc1"
+  ],
   "height": 96,
   "weight": 0,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 3378,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true,
+        "canWalkOnWater": true
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

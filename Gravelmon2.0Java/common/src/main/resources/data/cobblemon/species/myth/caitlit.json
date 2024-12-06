@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Caitlit",
-  "nationalPokedexNumber": 5832,
   "primaryType": "fire",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "blaze",
     "h:prankster"
@@ -15,38 +21,19 @@
     "special_defence": 65,
     "speed": 65
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 64,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 100,
   "eggGroups": [
     "human_like",
     "fairy"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "4:tailwhip",
@@ -72,14 +59,18 @@
     "egg:thunderbolt",
     "egg:sing",
     "egg:teeterdance",
-    "egg:darkpulse"  ],
+    "egg:darkpulse"
+  ],
   "labels": [
     "myth",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.caitlit.desc"
+    "cobblemon.species.caitlit.desc1"
   ],
+  "height": 5,
+  "weight": 69,
+  "aspects": [],
   "evolutions": [
     {
       "id": "caitlit_caitfyr",
@@ -90,31 +81,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 16
+          "minLevel": "16"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 5832,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 5,
-  "weight": 69,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Magrumble",
-  "nationalPokedexNumber": 5269,
   "primaryType": "fire",
   "secondaryType": "rock",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "meltuff",
+  "baseScale": 0.25,
+  "cannotDynamax": false,
   "abilities": [
     "blaze",
     "h:eartheater"
@@ -16,38 +23,19 @@
     "special_defence": 80,
     "speed": 20
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 142,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "mineral",
     "amorphous"
   ],
+  "drops": {},
   "moves": [
     "1:pound",
     "1:harden",
@@ -66,7 +54,8 @@
     "43:recover",
     "48:bodypress",
     "50:earthpower",
-    "55:eruption"  ],
+    "55:eruption"
+  ],
   "labels": [
     "fliga",
     "not_modeled",
@@ -74,9 +63,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.magrumble.desc"
+    "cobblemon.species.magrumble.desc1"
   ],
-  "preEvolution": "meltuff",
+  "height": 15,
+  "weight": 943,
+  "aspects": [],
   "evolutions": [
     {
       "id": "magrumble_obsidious",
@@ -87,31 +78,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 36
+          "minLevel": "36"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.25,
+  "nationalPokedexNumber": 5269,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 15,
-  "weight": 943,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

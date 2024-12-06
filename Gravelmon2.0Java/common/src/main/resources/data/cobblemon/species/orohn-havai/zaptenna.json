@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Zaptenna",
-  "nationalPokedexNumber": 3938,
   "primaryType": "bug",
   "secondaryType": "electric",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 214,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "zapcoon",
+  "baseScale": 0.18333333333333335,
+  "cannotDynamax": false,
   "abilities": [
     "voltabsorb",
     "static",
@@ -17,37 +24,18 @@
     "special_defence": 90,
     "speed": 85
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 214,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:tickle",
     "4:leechlife",
@@ -66,7 +54,8 @@
     "tm:confuseray",
     "tm:signalbeam",
     "tm:electroweb",
-    "tm:paraboliccharge"  ],
+    "tm:paraboliccharge"
+  ],
   "labels": [
     "orohnhavai",
     "not_modeled",
@@ -74,28 +63,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.zaptenna.desc"
+    "cobblemon.species.zaptenna.desc1"
   ],
-  "preEvolution": "zapcoon",
-  "baseScale": 0.18333333333333335,
+  "height": 11,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 3938,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 11,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

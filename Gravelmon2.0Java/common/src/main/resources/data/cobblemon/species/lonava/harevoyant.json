@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Harevoyant",
-  "nationalPokedexNumber": 4441,
   "primaryType": "fairy",
   "secondaryType": "psychic",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 133,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "predictabun",
+  "baseScale": 0.18333333333333335,
+  "cannotDynamax": false,
   "abilities": [
     "anticipation",
     "cutecharm",
@@ -17,37 +24,18 @@
     "special_defence": 55,
     "speed": 90
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 133,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:tailwhip",
     "1:confusion",
@@ -153,7 +141,8 @@
     "tm:telekinesis",
     "tm:trick",
     "tm:uproar",
-    "tm:wish"  ],
+    "tm:wish"
+  ],
   "labels": [
     "lonava",
     "not_modeled",
@@ -161,28 +150,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.harevoyant.desc"
+    "cobblemon.species.harevoyant.desc1"
   ],
-  "preEvolution": "predictabun",
-  "baseScale": 0.18333333333333335,
+  "height": 11,
+  "weight": 50,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 4441,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 11,
-  "weight": 50,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Wastenaut",
-  "nationalPokedexNumber": 1952,
   "primaryType": "ghost",
   "secondaryType": "poison",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 175,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "messoul",
+  "baseScale": 0.3,
+  "cannotDynamax": false,
   "abilities": [
     "overcoat",
     "clearbody",
@@ -17,37 +24,18 @@
     "special_defence": 115,
     "speed": 45
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 175,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "amorphous"
   ],
+  "drops": {},
   "moves": [
     "1:leer",
     "7:smog",
@@ -130,7 +118,8 @@
     "tm:destinybond",
     "tm:muddywater",
     "tm:mudshot",
-    "tm:mudslide"  ],
+    "tm:mudslide"
+  ],
   "labels": [
     "ferroa",
     "not_modeled",
@@ -138,28 +127,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.wastenaut.desc"
+    "cobblemon.species.wastenaut.desc1"
   ],
-  "preEvolution": "messoul",
-  "baseScale": 0.3,
+  "height": 18,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1952,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 18,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

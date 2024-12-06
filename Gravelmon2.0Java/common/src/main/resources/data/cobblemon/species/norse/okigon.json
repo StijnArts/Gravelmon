@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Okigon",
-  "nationalPokedexNumber": 3334,
   "primaryType": "grass",
   "secondaryType": "dragon",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "caclender",
+  "baseScale": 0.5,
+  "cannotDynamax": false,
   "abilities": [
-    "overgrow"  ],
+    "overgrow"
+  ],
   "baseStats": {
     "hp": 75,
     "attack": 40,
@@ -14,59 +22,6 @@
     "special_defence": 79,
     "speed": 135
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:absorb",
-    "1:scratch",
-    "1:vacuumwave",
-    "1:vacuumwave"  ],
-  "labels": [
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution",
-    "norse"
-  ],
-  "pokedex": [
-    "cobblemon.species.okigon.desc"
-  ],
-  "preEvolution": "caclender",
-  "baseScale": 0.5,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -75,10 +30,60 @@
     "special_defence": 0,
     "speed": 0
   },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:absorb",
+    "1:scratch",
+    "1:vacuumwave",
+    "1:vacuumwave"
+  ],
+  "labels": [
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution",
+    "norse"
+  ],
+  "pokedex": [
+    "cobblemon.species.okigon.desc1"
+  ],
   "height": 30,
   "weight": 0,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 3334,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

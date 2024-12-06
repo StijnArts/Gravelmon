@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Qayagus",
-  "nationalPokedexNumber": 4598,
   "primaryType": "poison",
   "secondaryType": "psychic",
+  "catchRate": 127,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 167,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.13333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "poisontouch",
     "synchronize",
@@ -17,37 +23,18 @@
     "special_defence": 125,
     "speed": 30
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 127,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 167,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:confusion",
     "1:fakeout",
@@ -65,33 +52,50 @@
     "egg:growth",
     "egg:leechseed",
     "egg:poisonpowder",
-    "egg:stunspore"  ],
+    "egg:stunspore"
+  ],
   "labels": [
     "lockemon",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.qayagus.desc"
+    "cobblemon.species.qayagus.desc1"
   ],
-  "baseScale": 0.13333333333333333,
+  "height": 8,
+  "weight": 121,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 4598,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 8,
-  "weight": 121,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

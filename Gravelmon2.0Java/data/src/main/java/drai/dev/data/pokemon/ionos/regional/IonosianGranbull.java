@@ -30,7 +30,7 @@ public class IonosianGranbull extends drai.dev.data.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
             addAdditionalEvolution("snubbull", new EvolutionEntry("granbull ionosian", EvolutionType.LEVEL_UP, List.of(),
-                    List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_BADLANDS.getId() + ":" + Biome.IS_BADLANDS.getName() +"\""))));
+                    List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_BADLANDS.getId() + ":" + Biome.IS_BADLANDS.getName()))));
            setLangFileName("Granbull");
 
     }

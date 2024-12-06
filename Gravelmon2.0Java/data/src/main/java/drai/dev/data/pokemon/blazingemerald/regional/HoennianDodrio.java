@@ -74,6 +74,6 @@ public class HoennianDodrio extends Pokemon {
         this.setBaseScale(1.6);
         this.setHitbox(0.6,1.6);
         addAdditionalEvolution("doduo", new EvolutionEntry("dodrio hoennian", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"\"marowak\""))));
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"marowak"))));
     }
 }

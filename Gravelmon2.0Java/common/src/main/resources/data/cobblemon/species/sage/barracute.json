@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Barracute",
-  "nationalPokedexNumber": 1210,
   "primaryType": "water",
+  "catchRate": 130,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 67,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.13333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "scavenger",
     "ironjaw",
@@ -16,38 +22,21 @@
     "special_defence": 40,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 130,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 67,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_2",
     "monster"
   ],
+  "drops": {
+    "amount": 2
+  },
   "moves": [
     "1:bite",
     "1:tailwhip",
@@ -112,14 +101,18 @@
     "egg:poisonfang",
     "egg:pursuit",
     "egg:superfang",
-    "egg:thunderfang"  ],
+    "egg:thunderfang"
+  ],
   "labels": [
     "sage",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.barracute.desc"
+    "cobblemon.species.barracute.desc1"
   ],
+  "height": 8,
+  "weight": 168,
+  "aspects": [],
   "evolutions": [
     {
       "id": "barracute_jawgodon",
@@ -130,31 +123,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 37
+          "minLevel": "37"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.13333333333333333,
+  "nationalPokedexNumber": 1210,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 8,
-  "weight": 168,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

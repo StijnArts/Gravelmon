@@ -7,18 +7,18 @@
       "id": "fairny-01",
       "pokemon": "fairny",
       "presets": [
-        "natural"
+        "water_surface"
       ],
       "type": "pokemon",
-      "context": "grounded",
+      "context": "surface",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
+      "level": "3-23",
+      "weight": 6.449999999999999,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_desert"
         ],
+        "timeRange": "night",
         "minSkyLight": 8,
         "maxSkyLight": 15
       },

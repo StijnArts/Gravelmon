@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Doraiasu",
-  "nationalPokedexNumber": 6408,
   "primaryType": "ice",
   "secondaryType": "dragon",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 184,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "yukidaru",
+  "baseScale": 1.0,
+  "cannotDynamax": false,
   "abilities": [
     "icebody",
     "h:snowcloak"
@@ -16,38 +23,19 @@
     "special_defence": 80,
     "speed": 80
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 184,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "dragon",
     "monster"
   ],
+  "drops": {},
   "moves": [
     "1:icefang",
     "1:powdersnow",
@@ -86,35 +74,51 @@
     "egg:iciclespear",
     "egg:block",
     "egg:blizzard",
-    "egg:refresh"  ],
+    "egg:refresh"
+  ],
   "labels": [
     "deneb",
     "fakemon",
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.doraiasu.desc"
+    "cobblemon.species.doraiasu.desc1"
   ],
-  "preEvolution": "yukidaru",
-  "baseScale": 1.0,
+  "height": 23,
+  "weight": 894,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6408,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 1.0,
     "height": 2.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 23,
-  "weight": 894,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

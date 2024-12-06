@@ -1,0 +1,18 @@
+{
+  "target": "cobblemon:thievul",
+  "drops": {
+    "amount": 3
+  },
+  "evolutions": [
+    {
+      "id": "thievul_yeggrize",
+      "variant": "item_interact",
+      "result": "yeggrize",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:end_crystal",
+      "permanent": true
+    }
+  ]
+}

@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Wackyderm",
-  "nationalPokedexNumber": 6898,
   "primaryType": "psychic",
   "secondaryType": "ground",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 189,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "elepath",
+  "baseScale": 0.5833333333333334,
+  "cannotDynamax": false,
   "abilities": [
     "psychicsurge",
     "h:wonderskin"
@@ -16,37 +23,18 @@
     "special_defence": 88,
     "speed": 40
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 189,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:mudslap",
     "9:psywave",
@@ -154,7 +142,8 @@
     "tm:wringout",
     "tm:watersport",
     "tm:mudsport",
-    "tm:playrough"  ],
+    "tm:playrough"
+  ],
   "labels": [
     "novrai",
     "not_modeled",
@@ -162,28 +151,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.wackyderm.desc"
+    "cobblemon.species.wackyderm.desc1"
   ],
-  "preEvolution": "elepath",
-  "baseScale": 0.5833333333333334,
+  "height": 35,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6898,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 35,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

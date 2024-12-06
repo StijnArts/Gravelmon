@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Krackpot",
-  "nationalPokedexNumber": 6831,
   "primaryType": "water",
   "secondaryType": "fire",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 170,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "kreakup",
+  "baseScale": 0.19999999999999998,
+  "cannotDynamax": false,
   "abilities": [
     "aromaveil",
     "h:stormdrain"
@@ -16,38 +23,19 @@
     "special_defence": 101,
     "speed": 67
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 170,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "mineral",
     "water_1"
   ],
+  "drops": {},
   "moves": [
     "1:haze",
     "10:ember",
@@ -119,7 +107,8 @@
     "tm:leaftornado",
     "tm:fakeout",
     "tm:selfdestruct",
-    "tm:supersonic"  ],
+    "tm:supersonic"
+  ],
   "labels": [
     "novrai",
     "not_modeled",
@@ -127,28 +116,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.krackpot.desc"
+    "cobblemon.species.krackpot.desc1"
   ],
-  "preEvolution": "kreakup",
-  "baseScale": 0.19999999999999998,
+  "height": 12,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6831,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 12,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

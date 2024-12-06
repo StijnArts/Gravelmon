@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Chimneoth",
-  "nationalPokedexNumber": 5150,
   "primaryType": "bug",
   "secondaryType": "poison",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 214,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "cloakhrys",
+  "baseScale": 0.4166666666666667,
+  "cannotDynamax": false,
   "abilities": [
     "shielddust",
     "unburden",
@@ -17,37 +24,18 @@
     "special_defence": 110,
     "speed": 100
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 3,
+    "speed": 0
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 214,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:stringshot",
     "6:poisonpowder",
@@ -126,7 +114,8 @@
     "tm:moonlight",
     "tm:bide",
     "tm:razorwind",
-    "tm:charm"  ],
+    "tm:charm"
+  ],
   "labels": [
     "mythire",
     "not_modeled",
@@ -134,28 +123,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.chimneoth.desc"
+    "cobblemon.species.chimneoth.desc1"
   ],
-  "preEvolution": "cloakhrys",
-  "baseScale": 0.4166666666666667,
+  "height": 25,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5150,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 3,
-    "speed": 0
-  },
-  "height": 25,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

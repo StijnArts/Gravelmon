@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Chainite",
-  "nationalPokedexNumber": 2583,
   "primaryType": "ghost",
+  "catchRate": 45,
+  "maleRatio": -1.0,
+  "baseExperienceYield": 193,
+  "experienceGroup": "slow",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "preEvolution": "linkite",
+  "baseScale": 0.3333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "shadowtag",
-    "cursedbody"  ],
+    "cursedbody"
+  ],
   "baseStats": {
     "hp": 95,
     "attack": 130,
@@ -14,37 +22,18 @@
     "special_defence": 60,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": -1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 193,
-  "experienceGroup": "slow",
-  "eggCycles": 100,
   "eggGroups": [
     "amorphous"
   ],
+  "drops": {},
   "moves": [
     "1:curse",
     "1:nightshade",
@@ -126,7 +115,8 @@
     "egg:snatch",
     "egg:embargo",
     "egg:sleeptalk",
-    "egg:grudge"  ],
+    "egg:grudge"
+  ],
   "labels": [
     "uranium",
     "not_modeled",
@@ -134,28 +124,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.chainite.desc"
+    "cobblemon.species.chainite.desc1"
   ],
-  "preEvolution": "linkite",
-  "baseScale": 0.3333333333333333,
+  "height": 20,
+  "weight": 984,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2583,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 20,
-  "weight": 984,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

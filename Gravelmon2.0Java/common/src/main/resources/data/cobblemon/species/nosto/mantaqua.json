@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Mantaqua",
-  "nationalPokedexNumber": 4752,
   "primaryType": "water",
+  "catchRate": 150,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 155,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.2333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "hydration",
     "h:waterveil"
@@ -15,37 +21,18 @@
     "special_defence": 79,
     "speed": 99
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 150,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 155,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "water_1"
   ],
+  "drops": {},
   "moves": [
     "1:refresh",
     "5:acidarmor",
@@ -67,33 +54,50 @@
     "59:healpulse",
     "61:sparklingaria",
     "71:hydropump",
-    "74:healingwish"  ],
+    "74:healingwish"
+  ],
   "labels": [
     "nosto",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.mantaqua.desc"
+    "cobblemon.species.mantaqua.desc1"
   ],
-  "baseScale": 0.2333333333333333,
+  "height": 14,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 4752,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 14,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

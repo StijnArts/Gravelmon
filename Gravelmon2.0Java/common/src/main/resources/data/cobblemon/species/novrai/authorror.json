@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Authorror",
-  "nationalPokedexNumber": 6845,
   "primaryType": "ghost",
   "secondaryType": "dark",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 236,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "calligrave",
+  "baseScale": 0.3666666666666667,
+  "cannotDynamax": false,
   "abilities": [
     "keeneye",
     "h:trace"
@@ -16,38 +23,19 @@
     "special_defence": 92,
     "speed": 74
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 236,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "mineral",
     "amorphous"
   ],
+  "drops": {},
   "moves": [
     "1:pursuit",
     "13:bite",
@@ -127,7 +115,8 @@
     "tm:shadowsneak",
     "tm:spite",
     "tm:followme",
-    "tm:lastrespects"  ],
+    "tm:lastrespects"
+  ],
   "labels": [
     "novrai",
     "not_modeled",
@@ -135,28 +124,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.authorror.desc"
+    "cobblemon.species.authorror.desc1"
   ],
-  "preEvolution": "calligrave",
-  "baseScale": 0.3666666666666667,
+  "height": 22,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6845,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 3,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 22,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

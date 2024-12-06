@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Frankensteen",
-  "nationalPokedexNumber": 2448,
   "primaryType": "ghost",
   "secondaryType": "bug",
+  "catchRate": 45,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 230,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "steenee form\u003dvaritasian",
+  "baseScale": 0.19999999999999998,
+  "cannotDynamax": false,
   "abilities": [
     "unnerve",
     "h:poisonheal"
@@ -16,37 +23,18 @@
     "special_defence": 98,
     "speed": 72
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 230,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "grass"
   ],
+  "drops": {},
   "moves": [
     "1:tropkick",
     "5:swagger",
@@ -128,7 +116,8 @@
     "tm:grasswhistle",
     "tm:feint",
     "tm:acupressure",
-    "tm:playrough"  ],
+    "tm:playrough"
+  ],
   "labels": [
     "varitas",
     "not_modeled",
@@ -136,28 +125,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.frankensteen.desc"
+    "cobblemon.species.frankensteen.desc1"
   ],
-  "preEvolution": "steenee form=varitasian",
-  "baseScale": 0.19999999999999998,
+  "height": 12,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2448,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 3,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 12,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

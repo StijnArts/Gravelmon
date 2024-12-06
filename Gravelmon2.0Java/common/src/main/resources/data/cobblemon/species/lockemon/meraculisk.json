@@ -1,12 +1,20 @@
 {
-  "implemented": true,
   "name": "Meraculisk",
-  "nationalPokedexNumber": 4629,
   "primaryType": "steel",
   "secondaryType": "poison",
+  "catchRate": 30,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 267,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "mercryni",
+  "baseScale": 0.3833333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "corrosion",
-    "powerofalchemy"  ],
+    "powerofalchemy"
+  ],
   "baseStats": {
     "hp": 125,
     "attack": 70,
@@ -15,38 +23,19 @@
     "special_defence": 80,
     "speed": 80
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 3,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 30,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 267,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field",
     "dragon"
   ],
+  "drops": {},
   "moves": [
     "1:lick",
     "1:poisongas",
@@ -63,7 +52,8 @@
     "41:uproar",
     "50:gunkshot",
     "egg:haze",
-    "egg:toxic"  ],
+    "egg:toxic"
+  ],
   "labels": [
     "lockemon",
     "not_modeled",
@@ -71,28 +61,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.meraculisk.desc"
+    "cobblemon.species.meraculisk.desc1"
   ],
-  "preEvolution": "mercryni",
-  "baseScale": 0.3833333333333333,
+  "height": 23,
+  "weight": 1718,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 4629,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 3,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 23,
-  "weight": 1718,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

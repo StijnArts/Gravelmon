@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Aquarrior",
-  "nationalPokedexNumber": 5194,
   "primaryType": "water",
   "secondaryType": "fighting",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 225,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "shellance",
+  "baseScale": 0.31666666666666665,
+  "cannotDynamax": false,
   "abilities": [
     "shellarmor",
     "justified",
@@ -17,38 +24,19 @@
     "special_defence": 95,
     "speed": 80
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 225,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_1",
     "water_2"
   ],
+  "drops": {},
   "moves": [
     "1:smartstrike",
     "1:quickguard",
@@ -93,7 +81,8 @@
     "tm:throatchop",
     "tm:coaching",
     "tm:lashout",
-    "tm:scaleshot"  ],
+    "tm:scaleshot"
+  ],
   "labels": [
     "mythire",
     "not_modeled",
@@ -101,28 +90,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.aquarrior.desc"
+    "cobblemon.species.aquarrior.desc1"
   ],
-  "preEvolution": "shellance",
-  "baseScale": 0.31666666666666665,
+  "height": 19,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5194,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 19,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,10 +1,18 @@
 {
-  "implemented": true,
   "name": "Toothitar",
-  "nationalPokedexNumber": 5114,
   "primaryType": "dragon",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "larvitar form\u003dforman",
+  "baseScale": 0.21666666666666667,
+  "cannotDynamax": false,
   "abilities": [
-    "roughskin"  ],
+    "roughskin"
+  ],
   "baseStats": {
     "hp": 60,
     "attack": 108,
@@ -13,40 +21,22 @@
     "special_defence": 63,
     "speed": 91
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:scratch",
-    "1:quickattack"  ],
+    "1:quickattack"
+  ],
   "labels": [
     "form",
     "not_modeled",
@@ -54,9 +44,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.toothitar.desc"
+    "cobblemon.species.toothitar.desc1"
   ],
-  "preEvolution": "larvitar form=forman",
+  "height": 13,
+  "weight": 0,
+  "aspects": [],
   "evolutions": [
     {
       "id": "toothitar_rodanitar",
@@ -67,31 +59,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 55
+          "minLevel": "55"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.21666666666666667,
+  "nationalPokedexNumber": 5114,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 13,
-  "weight": 0,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

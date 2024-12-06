@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Dysmerella",
-  "nationalPokedexNumber": 4731,
   "primaryType": "fairy",
+  "catchRate": 45,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 236,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "sinsenella",
+  "baseScale": 0.5833333333333334,
+  "cannotDynamax": false,
   "abilities": [
     "cutecharm",
     "healer",
@@ -16,38 +23,19 @@
     "special_defence": 94,
     "speed": 100
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 236,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "human_like",
     "fairy"
   ],
+  "drops": {},
   "moves": [
     "10:tackle",
     "15:vinewhip",
@@ -62,7 +50,8 @@
     "48:mistyterrain",
     "1:moonblast",
     "1:petaldance",
-    "1:solarbeam"  ],
+    "1:solarbeam"
+  ],
   "labels": [
     "nosto",
     "not_modeled",
@@ -70,28 +59,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.dysmerella.desc"
+    "cobblemon.species.dysmerella.desc1"
   ],
-  "preEvolution": "sinsenella",
-  "baseScale": 0.5833333333333334,
+  "height": 35,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 4731,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 35,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

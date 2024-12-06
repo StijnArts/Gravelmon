@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Bubbweed",
-  "nationalPokedexNumber": 1330,
   "primaryType": "water",
   "secondaryType": "grass",
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 63,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.11666666666666665,
+  "cannotDynamax": false,
   "abilities": [
     "hydration",
     "stormdrain",
@@ -17,38 +23,19 @@
     "special_defence": 60,
     "speed": 53
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 255,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 63,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "water_2",
     "grass"
   ],
+  "drops": {},
   "moves": [
     "1:bubble",
     "5:watersport",
@@ -111,14 +98,18 @@
     "tm:ingrain",
     "tm:camouflage",
     "tm:grasswhistle",
-    "tm:liquidation"  ],
+    "tm:liquidation"
+  ],
   "labels": [
     "rica",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.bubbweed.desc"
+    "cobblemon.species.bubbweed.desc1"
   ],
+  "height": 7,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "bubbweed_drifsea",
@@ -129,31 +120,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 33
+          "minLevel": "33"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.11666666666666665,
+  "nationalPokedexNumber": 1330,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 7,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

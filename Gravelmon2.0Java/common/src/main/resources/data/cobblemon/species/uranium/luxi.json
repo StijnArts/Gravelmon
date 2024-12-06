@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Luxi",
-  "nationalPokedexNumber": 2611,
   "primaryType": "dragon",
   "secondaryType": "fairy",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 70,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "baseScale": 0.11666666666666665,
+  "cannotDynamax": false,
   "abilities": [
     "superluck",
     "h:regenerator"
@@ -16,37 +22,18 @@
     "special_defence": 60,
     "speed": 40
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 70,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 100,
   "eggGroups": [
     "dragon"
   ],
+  "drops": {},
   "moves": [
     "1:charm",
     "1:metronome",
@@ -125,14 +112,18 @@
     "egg:recover",
     "egg:playrough",
     "egg:triattack",
-    "egg:powergem"  ],
+    "egg:powergem"
+  ],
   "labels": [
     "uranium",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.luxi.desc"
+    "cobblemon.species.luxi.desc1"
   ],
+  "height": 7,
+  "weight": 113,
+  "aspects": [],
   "evolutions": [
     {
       "id": "luxi_luxor",
@@ -143,31 +134,43 @@
       "requirements": [
         {
           "variant": "friendship",
-          "amount": 220
+          "amount": "220"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.11666666666666665,
+  "nationalPokedexNumber": 2611,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 7,
-  "weight": 113,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

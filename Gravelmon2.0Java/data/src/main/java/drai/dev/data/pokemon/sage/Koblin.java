@@ -21,10 +21,10 @@ public class Koblin extends Pokemon {
                 List.of("Koblin spends its entire life in tunnels deep underground. Because of this, it was long believed to be just a myth told by miners."),
                 List.of(new EvolutionEntry("koberus", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"day\""))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "day"))),
                         new EvolutionEntry("kobalt", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "night")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH,1),
                         new MoveLearnSetEntry(Move.HOWL,1),

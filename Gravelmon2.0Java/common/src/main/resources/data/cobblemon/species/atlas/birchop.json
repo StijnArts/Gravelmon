@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Birchop",
-  "nationalPokedexNumber": 7033,
   "primaryType": "grass",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 138,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "birchee",
+  "baseScale": 0.25,
+  "cannotDynamax": false,
   "abilities": [
     "symbiosis",
     "harvest",
@@ -16,37 +23,18 @@
     "special_defence": 51,
     "speed": 42
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 138,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "grass"
   ],
+  "drops": {},
   "moves": [
     "1:pound",
     "5:grasswhistle",
@@ -97,7 +85,8 @@
     "tm:thief",
     "tm:toxic",
     "tm:workup",
-    "tm:xscissor"  ],
+    "tm:xscissor"
+  ],
   "labels": [
     "atlas",
     "not_modeled",
@@ -105,9 +94,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.birchop.desc"
+    "cobblemon.species.birchop.desc1"
   ],
-  "preEvolution": "birchee",
+  "height": 15,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "birchop_birchard",
@@ -118,35 +109,47 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 37
+          "minLevel": "37"
         },
         {
           "variant": "attack_defence_ratio",
-          "ratio": DEFENCE_HIGHER
+          "ratio": "DEFENCE_HIGHER"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.25,
+  "nationalPokedexNumber": 7033,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 15,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

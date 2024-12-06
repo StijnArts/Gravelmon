@@ -1,10 +1,18 @@
 {
-  "implemented": true,
   "name": "Shifuu",
-  "nationalPokedexNumber": 1381,
   "primaryType": "rock",
+  "catchRate": 10,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 248,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "pichip",
+  "baseScale": 0.25,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
   "baseStats": {
     "hp": 92,
     "attack": 110,
@@ -13,38 +21,19 @@
     "special_defence": 118,
     "speed": 75
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
   },
-  "catchRate": 10,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 248,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field",
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "9:safeguard",
@@ -119,7 +108,8 @@
     "tm:mirrorcoat",
     "tm:superpower",
     "tm:rockpolish",
-    "tm:playrough"  ],
+    "tm:playrough"
+  ],
   "labels": [
     "atlas",
     "not_modeled",
@@ -127,28 +117,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.shifuu.desc"
+    "cobblemon.species.shifuu.desc1"
   ],
-  "preEvolution": "pichip",
-  "baseScale": 0.25,
+  "height": 15,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1381,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 2,
-    "speed": 0
-  },
-  "height": 15,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

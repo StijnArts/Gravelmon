@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Glavinug",
-  "nationalPokedexNumber": 2545,
   "primaryType": "water",
   "secondaryType": "ice",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 193,
+  "experienceGroup": "slow",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "preEvolution": "glaslug",
+  "baseScale": 0.25,
+  "cannotDynamax": false,
   "abilities": [
     "swiftswim",
     "naturalcure",
@@ -17,38 +24,19 @@
     "special_defence": 115,
     "speed": 70
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 193,
-  "experienceGroup": "slow",
-  "eggCycles": 100,
   "eggGroups": [
     "monster",
     "water_1"
   ],
+  "drops": {},
   "moves": [
     "1:recover",
     "1:bubblebeam",
@@ -110,7 +98,8 @@
     "egg:bodyslam",
     "egg:screech",
     "egg:curse",
-    "egg:sludge"  ],
+    "egg:sludge"
+  ],
   "labels": [
     "uranium",
     "not_modeled",
@@ -118,28 +107,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.glavinug.desc"
+    "cobblemon.species.glavinug.desc1"
   ],
-  "preEvolution": "glaslug",
-  "baseScale": 0.25,
+  "height": 15,
+  "weight": 444,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2545,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 15,
-  "weight": 444,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

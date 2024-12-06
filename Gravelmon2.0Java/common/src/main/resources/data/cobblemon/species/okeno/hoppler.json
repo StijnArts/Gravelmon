@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Hoppler",
-  "nationalPokedexNumber": 6093,
   "primaryType": "bug",
   "secondaryType": "normal",
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 160,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.26666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "limber",
     "unburden",
@@ -17,38 +23,19 @@
     "special_defence": 85,
     "speed": 108
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 75,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 160,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "bug",
     "human_like"
   ],
+  "drops": {},
   "moves": [
     "1:splash",
     "6:defensecurl",
@@ -79,33 +66,50 @@
     "tm:entrainment",
     "tm:afteryou",
     "tm:bestow",
-    "tm:skittersmack"  ],
+    "tm:skittersmack"
+  ],
   "labels": [
     "okeno",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.hoppler.desc"
+    "cobblemon.species.hoppler.desc1"
   ],
-  "baseScale": 0.26666666666666666,
+  "height": 16,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6093,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 16,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

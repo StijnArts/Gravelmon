@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Gilkun",
-  "nationalPokedexNumber": 5641,
   "primaryType": "water",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 55,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "swiftswim",
     "hydration",
@@ -16,38 +22,19 @@
     "special_defence": 55,
     "speed": 62
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 55,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_1",
     "water_2"
   ],
+  "drops": {},
   "moves": [
     "1:watergun",
     "3:supersonic",
@@ -61,14 +48,18 @@
     "38:screech",
     "43:raindance",
     "49:recover",
-    "55:hydropump"  ],
+    "55:hydropump"
+  ],
   "labels": [
     "kuria",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.gilkun.desc"
+    "cobblemon.species.gilkun.desc1"
   ],
+  "height": 4,
+  "weight": 19,
+  "aspects": [],
   "evolutions": [
     {
       "id": "gilkun_bencho",
@@ -79,16 +70,16 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 46
+          "minLevel": "46"
         },
         {
           "variant": "properties",
-          "target": "gender=male",
+          "target": "gender\u003dmale",
           "contains": true
         }
       ],
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "gilkun_senfetta",
       "variant": "level_up",
@@ -98,16 +89,16 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 46
+          "minLevel": "46"
         },
         {
           "variant": "properties",
-          "target": "gender=female",
+          "target": "gender\u003dfemale",
           "contains": true
         }
       ],
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "gilkun_plakidd",
       "variant": "level_up",
@@ -117,31 +108,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 46
+          "minLevel": "46"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 5641,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 4,
-  "weight": 19,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

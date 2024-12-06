@@ -24,7 +24,7 @@ public class Luminay extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.DRAGON,EggGroup.WATER_2),
                 List.of("Their bright lights can be seem all the way from the surface. They used to guide ships traveling accross intense fog."),
                 List.of(new EvolutionEntry("shroudra", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.DRAGON_DANCE.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.DRAGON_DANCE.getName())))),
                 List.of(     new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.SMOKESCREEN,1),
                         new MoveLearnSetEntry(Move.TWISTER,1),

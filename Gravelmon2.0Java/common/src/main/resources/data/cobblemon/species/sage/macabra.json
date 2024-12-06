@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Macabra",
-  "nationalPokedexNumber": 1071,
   "primaryType": "dark",
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 154,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 62,
+  "baseFriendship": 70,
+  "baseScale": 0.2333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "psychout",
     "h:insomnia"
@@ -15,38 +21,21 @@
     "special_defence": 65,
     "speed": 90
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 1
   },
-  "catchRate": 75,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 154,
-  "experienceGroup": "fluctuating",
-  "eggCycles": 62,
   "eggGroups": [
     "field",
     "monster"
   ],
+  "drops": {
+    "amount": 4
+  },
   "moves": [
     "1:magiccoat",
     "1:scratch",
@@ -135,33 +124,50 @@
     "egg:hyperfang",
     "egg:rage",
     "egg:shadowsneak",
-    "egg:superfang"  ],
+    "egg:superfang"
+  ],
   "labels": [
     "sage",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.macabra.desc"
+    "cobblemon.species.macabra.desc1"
   ],
-  "baseScale": 0.2333333333333333,
+  "height": 14,
+  "weight": 445,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1071,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 2,
-    "speed": 1
-  },
-  "height": 14,
-  "weight": 445,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

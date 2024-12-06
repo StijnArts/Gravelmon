@@ -128,7 +128,7 @@ public class Dustout extends drai.dev.data.pokemon.Pokemon {
                 List.of());
            setLangFileName("Dustout");
         addAdditionalEvolution("dunsparce", new EvolutionEntry("Dustout", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.DIG.getName()+"\""))));
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.DIG.getName()))));
 
     }
 

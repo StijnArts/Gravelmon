@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Condesa",
-  "nationalPokedexNumber": 1120,
   "primaryType": "rock",
   "secondaryType": "flying",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 168,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "sedirrot",
+  "baseScale": 0.2333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "rockhead",
     "sturdy",
@@ -17,38 +24,21 @@
     "special_defence": 60,
     "speed": 80
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 90,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 168,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "flying",
     "mineral"
   ],
+  "drops": {
+    "amount": 4
+  },
   "moves": [
     "1:ironhead",
     "1:peck",
@@ -126,7 +116,8 @@
     "egg:nightslash",
     "egg:rockwrecker",
     "egg:stealthrock",
-    "egg:whirlwind"  ],
+    "egg:whirlwind"
+  ],
   "labels": [
     "sage",
     "not_modeled",
@@ -134,28 +125,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.condesa.desc"
+    "cobblemon.species.condesa.desc1"
   ],
-  "preEvolution": "sedirrot",
-  "baseScale": 0.2333333333333333,
+  "height": 14,
+  "weight": 583,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1120,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 14,
-  "weight": 583,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

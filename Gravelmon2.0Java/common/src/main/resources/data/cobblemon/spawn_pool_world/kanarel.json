@@ -7,18 +7,18 @@
       "id": "kanarel-01",
       "pokemon": "kanarel",
       "presets": [
-        "natural"
+        "underwater"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "32-54",
+      "weight": 0.44999999999999996,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_warm_ocean"
         ],
+        "timeRange": "night",
         "minSkyLight": 8,
         "maxSkyLight": 15
       },

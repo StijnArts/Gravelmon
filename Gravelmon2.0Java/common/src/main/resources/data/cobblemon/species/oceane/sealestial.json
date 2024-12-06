@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Sealestial",
-  "nationalPokedexNumber": 2324,
   "primaryType": "bug",
   "secondaryType": "poison",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 203,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "spirashell",
+  "baseScale": 0.21666666666666667,
+  "cannotDynamax": false,
   "abilities": [
     "shellarmor",
     "h:poisonpoint"
@@ -16,59 +23,6 @@
     "special_defence": 55,
     "speed": 72
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
-  },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 203,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "bug",
-    "water_3"
-  ],
-  "moves": [
-    "1:quiverdance",
-    "tm:acidarmor",
-    "tm:shellsmash"  ],
-  "labels": [
-    "oceane",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
-  ],
-  "pokedex": [
-    "cobblemon.species.sealestial.desc"
-  ],
-  "preEvolution": "spirashell",
-  "baseScale": 0.21666666666666667,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -77,10 +31,60 @@
     "special_defence": 0,
     "speed": 0
   },
+  "eggGroups": [
+    "bug",
+    "water_3"
+  ],
+  "drops": {},
+  "moves": [
+    "1:quiverdance",
+    "tm:acidarmor",
+    "tm:shellsmash"
+  ],
+  "labels": [
+    "oceane",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.sealestial.desc1"
+  ],
   "height": 13,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 2324,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,254 +1,265 @@
 {
-   "target": "cobblemon:jigglypuff",
-   "forms": [{
-  "name": "Forman",
-  "primaryType": "fairy",
-  "secondaryType": "ice",
-  "abilities": [
-    "icebody"  ],
-  "baseStats": {
-    "hp": 78,
-    "attack": 23,
-    "defence": 65,
-    "special_attack": 65,
-    "special_defence": 56,
-    "speed": 12
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
+  "target": "cobblemon:jigglypuff",
+  "forms": [
+    {
+      "name": "Forman",
+      "primaryType": "fairy",
+      "secondaryType": "ice",
+      "catchRate": 130,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "sugarpuff",
+      "baseScale": 0.16666666666666666,
+      "cannotDynamax": false,
+      "abilities": [
+        "icebody"
+      ],
+      "baseStats": {
+        "hp": 78,
+        "attack": 23,
+        "defence": 65,
+        "special_attack": 65,
+        "special_defence": 56,
+        "speed": 12
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:disarmingvoice",
+        "1:powdersnow",
+        "1:bulkup",
+        "1:bulkup"
+      ],
+      "labels": [
+        "form",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.formanjigglypuff.desc1"
+      ],
+      "height": 10,
+      "weight": 0,
+      "aspects": [
+        "forman"
+      ],
+      "evolutions": [
+        {
+          "id": "formanjigglypuff_wigglcream",
+          "variant": "item_interact",
+          "result": "wigglcream",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:moon_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
             "canFly": false
-        },
-        "canLook": true,
-        "walk": {
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
-    }
-  },
-  "catchRate": 130,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:disarmingvoice",
-    "1:powdersnow",
-    "1:bulkup",
-    "1:bulkup"  ],
-  "labels": [
-    "form",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
-  ],
-  "pokedex": [
-    "cobblemon.species.formanjigglypuff.desc"
-  ],
-  "preEvolution": "sugarpuff",
-  "evolutions": [
-    {
-      "id": "jigglypuff_wigglcream",
-      "variant": "item_interact",
-      "result": "wigglcream",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-
-      ],
-      "requiredContext": "cobblemon:moon_stone",
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.16666666666666666,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 10,
-  "weight": 0,
-  "aspects": ["forman"],
-  "cannotDynamax": false
-},
-{
-  "name": "Epoch",
-  "primaryType": "water",
-  "secondaryType": "normal",
-  "abilities": [
-    "simple",
-    "raindish",
-    "h:waterbubble"
-  ],
-  "baseStats": {
-    "hp": 50,
-    "attack": 30,
-    "defence": 50,
-    "special_attack": 35,
-    "special_defence": 55,
-    "speed": 50
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     },
-    "moving": {
-        "fly": {
-            "canFly": true
+    {
+      "name": "Epoch",
+      "primaryType": "water",
+      "secondaryType": "normal",
+      "catchRate": 170,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 95,
+      "experienceGroup": "fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.25,
+      "cannotDynamax": false,
+      "abilities": [
+        "simple",
+        "raindish",
+        "h:waterbubble"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 30,
+        "defence": 50,
+        "special_attack": 35,
+        "special_defence": 55,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 2,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy",
+        "water_1"
+      ],
+      "drops": {},
+      "moves": [
+        "1:bubble",
+        "17:soak",
+        "36:strangesteam",
+        "1:raindance",
+        "25:drainingkiss",
+        "1:twinbeam",
+        "5:babydolleyes",
+        "50:waterspout",
+        "41:recover",
+        "1:watersport",
+        "13:bubblebeam",
+        "32:sparklingaria",
+        "29:workup",
+        "9:lifedew",
+        "tm:airslash",
+        "tm:attract",
+        "tm:blizzard",
+        "tm:bounce",
+        "tm:brine",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:coaching",
+        "tm:cosmicpower",
+        "tm:curse",
+        "tm:dazzlinggleam",
+        "tm:echoedvoice",
+        "tm:flipturn",
+        "tm:focusblast",
+        "tm:hail",
+        "tm:healbell",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:icebeam",
+        "tm:iciclespear",
+        "tm:icywind",
+        "tm:lightscreen",
+        "tm:liquidation",
+        "tm:metronome",
+        "tm:mist",
+        "tm:moonblast",
+        "tm:nastyplot",
+        "tm:payday",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:scald",
+        "tm:sleeptalk",
+        "tm:soak",
+        "tm:soundbarrier",
+        "tm:steameruption",
+        "tm:substitute",
+        "tm:swift",
+        "tm:tailwind",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:triattack",
+        "tm:waterpulse",
+        "tm:weatherball",
+        "tm:whirlpool",
+        "tm:wish",
+        "tm:workup"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochjigglypuff.desc1"
+      ],
+      "height": 15,
+      "weight": 2,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochjigglypuff_epoch_wigglytuff",
+          "variant": "item_interact",
+          "result": "epoch wigglytuff",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:water_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     }
-  },
-  "catchRate": 170,
-  "shoulderMountable": false,
-  "baseExperienceYield": 95,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "fairy",
-    "water_1"
   ],
-  "moves": [
-    "1:bubble",
-    "17:soak",
-    "36:strangesteam",
-    "1:raindance",
-    "25:drainingkiss",
-    "1:twinbeam",
-    "5:babydolleyes",
-    "50:waterspout",
-    "41:recover",
-    "1:watersport",
-    "13:bubblebeam",
-    "32:sparklingaria",
-    "29:workup",
-    "9:lifedew",
-    "tm:airslash",
-    "tm:attract",
-    "tm:blizzard",
-    "tm:bounce",
-    "tm:brine",
-    "tm:calmmind",
-    "tm:charm",
-    "tm:coaching",
-    "tm:cosmicpower",
-    "tm:curse",
-    "tm:dazzlinggleam",
-    "tm:echoedvoice",
-    "tm:flipturn",
-    "tm:focusblast",
-    "tm:hail",
-    "tm:healbell",
-    "tm:hiddenpower",
-    "tm:hypervoice",
-    "tm:icebeam",
-    "tm:iciclespear",
-    "tm:icywind",
-    "tm:lightscreen",
-    "tm:liquidation",
-    "tm:metronome",
-    "tm:mist",
-    "tm:moonblast",
-    "tm:nastyplot",
-    "tm:payday",
-    "tm:protect",
-    "tm:raindance",
-    "tm:reflect",
-    "tm:rest",
-    "tm:return",
-    "tm:round",
-    "tm:scald",
-    "tm:sleeptalk",
-    "tm:soak",
-    "tm:soundbarrier",
-    "tm:steameruption",
-    "tm:substitute",
-    "tm:swift",
-    "tm:tailwind",
-    "tm:terrainpulse",
-    "tm:toxic",
-    "tm:triattack",
-    "tm:waterpulse",
-    "tm:weatherball",
-    "tm:whirlpool",
-    "tm:wish",
-    "tm:workup"  ],
-  "labels": [
-    "soulstones",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.epochjigglypuff.desc"
-  ],
-  "evolutions": [
-    {
-      "id": "jigglypuff_epoch_wigglytuff",
-      "variant": "item_interact",
-      "result": "epoch wigglytuff",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-
-      ],
-      "requiredContext": "cobblemon:water_stone",
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.25,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 15,
-  "weight": 2,
-  "aspects": ["epoch"],
-  "cannotDynamax": false
-}
-], "features": [
-"forman",
-"epoch"
+  "features": [
+    "forman",
+    "epoch"
   ]
 }

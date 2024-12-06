@@ -25,10 +25,10 @@ public class Whirlybug extends drai.dev.data.pokemon.Pokemon {
                 List.of("Hoping to take flight, it spins the propeller on its head as hard as it can and jumps. However, it always ends up face down in the mud."),
                 List.of(new EvolutionEntry("shellicopter", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=female\""))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=female"))),
                         new EvolutionEntry("aviatrice", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28"),
-                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=male\"")))),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male")))),
                 List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(

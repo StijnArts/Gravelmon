@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Stelnova",
-  "nationalPokedexNumber": 7063,
   "primaryType": "fire",
   "secondaryType": "ground",
+  "catchRate": 235,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "caldona",
+  "baseScale": 0.3833333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "magmaarmor",
     "flamebody",
@@ -17,37 +24,18 @@
     "special_defence": 81,
     "speed": 72
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 235,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:stealthrock",
     "11:smokescreen",
@@ -112,7 +100,8 @@
     "tm:toxic",
     "tm:trickroom",
     "tm:willowisp",
-    "tm:workup"  ],
+    "tm:workup"
+  ],
   "labels": [
     "atlas",
     "not_modeled",
@@ -120,28 +109,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.stelnova.desc"
+    "cobblemon.species.stelnova.desc1"
   ],
-  "preEvolution": "caldona",
-  "baseScale": 0.3833333333333333,
+  "height": 23,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 7063,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 23,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

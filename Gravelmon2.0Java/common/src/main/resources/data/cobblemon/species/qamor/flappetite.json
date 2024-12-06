@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Flappetite",
-  "nationalPokedexNumber": 5401,
   "primaryType": "normal",
   "secondaryType": "dark",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "pudgey",
+  "baseScale": 0.3833333333333333,
+  "cannotDynamax": false,
   "abilities": [
-    "gluttony"  ],
+    "gluttony"
+  ],
   "baseStats": {
     "hp": 140,
     "attack": 80,
@@ -14,38 +22,19 @@
     "special_defence": 85,
     "speed": 15
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 90,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "flying",
     "monster"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "5:sandattack",
@@ -60,7 +49,8 @@
     "41:tailwind",
     "45:aerialace",
     "49:airslash",
-    "53:hurricane"  ],
+    "53:hurricane"
+  ],
   "labels": [
     "qamor",
     "not_modeled",
@@ -68,28 +58,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.flappetite.desc"
+    "cobblemon.species.flappetite.desc1"
   ],
-  "preEvolution": "pudgey",
-  "baseScale": 0.3833333333333333,
+  "height": 23,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5401,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 23,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

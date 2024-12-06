@@ -1,10 +1,18 @@
 {
-  "implemented": true,
   "name": "Feliger",
-  "nationalPokedexNumber": 2508,
   "primaryType": "normal",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 245,
+  "experienceGroup": "slow",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "preEvolution": "felunge",
+  "baseScale": 0.3333333333333333,
+  "cannotDynamax": false,
   "abilities": [
-    "truant"  ],
+    "truant"
+  ],
   "baseStats": {
     "hp": 120,
     "attack": 155,
@@ -13,37 +21,18 @@
     "special_defence": 95,
     "speed": 65
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 245,
-  "experienceGroup": "slow",
-  "eggCycles": 100,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:scratch",
     "1:yawn",
@@ -124,7 +113,8 @@
     "egg:crushclaw",
     "egg:curse",
     "egg:sleeptalk",
-    "egg:swagger"  ],
+    "egg:swagger"
+  ],
   "labels": [
     "uranium",
     "not_modeled",
@@ -132,28 +122,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.feliger.desc"
+    "cobblemon.species.feliger.desc1"
   ],
-  "preEvolution": "felunge",
-  "baseScale": 0.3333333333333333,
+  "height": 20,
+  "weight": 1302,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2508,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 3,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 20,
-  "weight": 1302,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

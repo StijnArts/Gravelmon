@@ -1,11 +1,18 @@
 {
-  "implemented": true,
   "name": "Vesfire",
-  "nationalPokedexNumber": 3438,
   "primaryType": "fire",
   "secondaryType": "poison",
+  "catchRate": 20,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.3833333333333333,
+  "cannotDynamax": false,
   "abilities": [
-    "corrosion"  ],
+    "corrosion"
+  ],
   "baseStats": {
     "hp": 83,
     "attack": 44,
@@ -14,66 +21,6 @@
     "special_defence": 87,
     "speed": 149
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 20,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "minecraft:decorated_pot_sherds",
-        "quantityRange": "1-1",
-        "percentage": 40
-      }
-    ]
-  },
-  "moves": [
-    "1:ember",
-    "1:acid",
-    "1:vacuumwave",
-    "1:vacuumwave"  ],
-  "labels": [
-    "not_modeled",
-    "norse"
-  ],
-  "pokedex": [
-    "cobblemon.species.vesfire.desc"
-  ],
-  "baseScale": 0.3833333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -82,10 +29,60 @@
     "special_defence": 0,
     "speed": 0
   },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 1
+  },
+  "moves": [
+    "1:ember",
+    "1:acid",
+    "1:vacuumwave",
+    "1:vacuumwave"
+  ],
+  "labels": [
+    "not_modeled",
+    "norse"
+  ],
+  "pokedex": [
+    "cobblemon.species.vesfire.desc1"
+  ],
   "height": 23,
   "weight": 0,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 3438,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

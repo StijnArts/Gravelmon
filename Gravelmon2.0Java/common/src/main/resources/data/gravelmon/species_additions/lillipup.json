@@ -1,5 +1,5 @@
 {
-   "target": "cobblemon:lillipup",
+  "target": "cobblemon:lillipup",
   "evolutions": [
     {
       "id": "lillipup_herdier_novran",
@@ -10,245 +10,261 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 16
+          "minLevel": "16"
         },
         {
           "variant": "biome",
           "biomeCondition": "#cobblemon:is_snowy"
         }
       ],
-      "permanent": true   
- }
-  ],
-   "forms": [{
-  "name": "Fabelian",
-  "primaryType": "dark",
-  "abilities": [
-    "keeneye"  ],
-  "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
+      "permanent": true
     }
-  },
-  "catchRate": 255,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
   ],
-  "moves": [
-    "1:bite"  ],
-  "labels": [
-    "fabel",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.fabelianlillipup.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 0,
-  "weight": 0,
-  "aspects": ["fabelian"],
-  "cannotDynamax": false
-},
-{
-  "name": "Epoch",
-  "primaryType": "dark",
-  "secondaryType": "ghost",
-  "abilities": [
-    "gluttony",
-    "defiant",
-    "h:strongjaw"
-  ],
-  "baseStats": {
-    "hp": 55,
-    "attack": 70,
-    "defence": 45,
-    "special_attack": 65,
-    "special_defence": 15,
-    "speed": 45
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 255,
-  "shoulderMountable": false,
-  "baseExperienceYield": 55,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "8:shadowsneak",
-    "1:tackle",
-    "15:shadowclaw",
-    "33:meanlook",
-    "19:bite",
-    "22:spite",
-    "29:crunch",
-    "6:odorsleuth",
-    "4:pursuit",
-    "10:torment",
-    "55:shadowforce",
-    "26:takedown",
-    "12:bonerush",
-    "1:astonish",
-    "40:playrough",
-    "1:howl",
-    "36:shadowbone",
-    "tm:attract",
-    "tm:bodyslam",
-    "tm:bulkup",
-    "tm:closecombat",
-    "tm:confuseray",
-    "tm:crunch",
-    "tm:curse",
-    "tm:darkpulse",
-    "tm:earthquake",
-    "tm:firefang",
-    "tm:focusblast",
-    "tm:frostbite",
-    "tm:hex",
-    "tm:hiddenpower",
-    "tm:highhorsepower",
-    "tm:icefang",
-    "tm:ironhead",
-    "tm:knockoff",
-    "tm:lashout",
-    "tm:nobleroar",
-    "tm:outrage",
-    "tm:phantomforce",
-    "tm:poltergeist",
-    "tm:possession",
-    "tm:protect",
-    "tm:psychicfangs",
-    "tm:rest",
-    "tm:return",
-    "tm:shadowball",
-    "tm:sleeptalk",
-    "tm:snarl",
-    "tm:substitute",
-    "tm:superpower",
-    "tm:taunt",
-    "tm:terrainpulse",
-    "tm:thunderfang",
-    "tm:toxic",
-    "tm:workup",
-    "tm:zenheadbutt",
-    "egg:growl",
-    "egg:lick",
-    "egg:endure",
-    "egg:pursuit",
-    "egg:spiritshackle",
-    "egg:psychicfangs",
-    "egg:memento",
-    "egg:perishsong"  ],
-  "labels": [
-    "soulstones",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.epochlillipup.desc"
-  ],
-  "evolutions": [
+  "forms": [
     {
-      "id": "lillipup_epoch_herdier",
-      "variant": "level_up",
-      "result": "epoch herdier",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
+      "name": "Fabelian",
+      "primaryType": "dark",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:bite"
+      ],
+      "labels": [
+        "fabel",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.fabelianlillipup.desc1"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "fabelian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+          }
+        }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "dark",
+      "secondaryType": "ghost",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 55,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "gluttony",
+        "defiant",
+        "h:strongjaw"
+      ],
+      "baseStats": {
+        "hp": 55,
+        "attack": 70,
+        "defence": 45,
+        "special_attack": 65,
+        "special_defence": 15,
+        "speed": 45
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "8:shadowsneak",
+        "1:tackle",
+        "15:shadowclaw",
+        "33:meanlook",
+        "19:bite",
+        "22:spite",
+        "29:crunch",
+        "6:odorsleuth",
+        "4:pursuit",
+        "10:torment",
+        "55:shadowforce",
+        "26:takedown",
+        "12:bonerush",
+        "1:astonish",
+        "40:playrough",
+        "1:howl",
+        "36:shadowbone",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:bulkup",
+        "tm:closecombat",
+        "tm:confuseray",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:earthquake",
+        "tm:firefang",
+        "tm:focusblast",
+        "tm:frostbite",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:highhorsepower",
+        "tm:icefang",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:nobleroar",
+        "tm:outrage",
+        "tm:phantomforce",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:return",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:thunderfang",
+        "tm:toxic",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:growl",
+        "egg:lick",
+        "egg:endure",
+        "egg:pursuit",
+        "egg:spiritshackle",
+        "egg:psychicfangs",
+        "egg:memento",
+        "egg:perishsong"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochlillipup.desc1"
+      ],
+      "height": 4,
+      "weight": 41,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
         {
-          "variant": "level",
-          "minLevel": 16
+          "id": "epochlillipup_epoch_herdier",
+          "variant": "level_up",
+          "result": "epoch herdier",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "16"
+            }
+          ],
+          "permanent": true
         }
       ],
-      "permanent": true   
- }
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+          }
+        }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
   ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 4,
-  "weight": 41,
-  "aspects": ["epoch"],
-  "cannotDynamax": false
-}
-], "features": [
-"fabelian",
-"epoch"
+  "features": [
+    "fabelian",
+    "epoch"
   ]
 }

@@ -67,8 +67,8 @@ public class Achiefd extends drai.dev.data.pokemon.Pokemon {
                 List.of());
            setLangFileName("Achief'd");
         addAdditionalEvolution("farfetchd", new EvolutionEntry("achiefd", EvolutionType.LEVEL_UP, List.of(new MoveLearnSetEntry(Move.REVENGE, "")),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:medicinal_leek\""),
-                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"\"day\""))));
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:medicinal_leek"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day"))));
 
     }
 

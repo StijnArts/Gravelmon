@@ -1,12 +1,20 @@
 {
-  "implemented": true,
   "name": "Vorvosip",
-  "nationalPokedexNumber": 4006,
   "primaryType": "dark",
   "secondaryType": "poison",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 137,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "hematick",
+  "baseScale": 0.16666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "keeneye",
-    "sniper"  ],
+    "sniper"
+  ],
   "baseStats": {
     "hp": 70,
     "attack": 90,
@@ -15,37 +23,18 @@
     "special_defence": 90,
     "speed": 130
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 90,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 137,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:quickattack",
     "2:absorb",
@@ -70,7 +59,8 @@
     "tm:spitup",
     "tm:swallow",
     "tm:tickle",
-    "tm:venomdrench"  ],
+    "tm:venomdrench"
+  ],
   "labels": [
     "orohnhavai",
     "not_modeled",
@@ -78,28 +68,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.vorvosip.desc"
+    "cobblemon.species.vorvosip.desc1"
   ],
-  "preEvolution": "hematick",
-  "baseScale": 0.16666666666666666,
+  "height": 10,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 4006,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 10,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

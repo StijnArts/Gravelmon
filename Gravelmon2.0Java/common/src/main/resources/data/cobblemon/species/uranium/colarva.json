@@ -1,11 +1,18 @@
 {
-  "implemented": true,
   "name": "Colarva",
-  "nationalPokedexNumber": 2587,
   "primaryType": "bug",
   "secondaryType": "ice",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 69,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
-    "icebody"  ],
+    "icebody"
+  ],
   "baseStats": {
     "hp": 45,
     "attack": 43,
@@ -14,37 +21,18 @@
     "special_defence": 41,
     "speed": 45
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 90,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 69,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 100,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:powdersnow",
     "1:stringshot",
@@ -94,14 +82,18 @@
     "egg:bugbuzz",
     "egg:sharpen",
     "egg:iceshard",
-    "egg:icywind"  ],
+    "egg:icywind"
+  ],
   "labels": [
     "uranium",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.colarva.desc"
+    "cobblemon.species.colarva.desc1"
   ],
+  "height": 3,
+  "weight": 287,
+  "aspects": [],
   "evolutions": [
     {
       "id": "colarva_frosulo",
@@ -112,31 +104,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 41
+          "minLevel": "41"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 2587,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 3,
-  "weight": 287,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

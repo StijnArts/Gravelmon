@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Esterite",
-  "nationalPokedexNumber": 7043,
   "primaryType": "rock",
   "secondaryType": "fairy",
+  "catchRate": 45,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 219,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "compella",
+  "baseScale": 0.3333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "levitate",
     "illuminate",
@@ -17,38 +24,19 @@
     "special_defence": 89,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 219,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "mineral",
     "fairy"
   ],
+  "drops": {},
   "moves": [
     "1:teleport",
     "9:fairywind",
@@ -117,7 +105,8 @@
     "tm:stealthrock",
     "tm:wideguard",
     "tm:guardsplit",
-    "tm:powersplit"  ],
+    "tm:powersplit"
+  ],
   "labels": [
     "atlas",
     "not_modeled",
@@ -125,28 +114,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.esterite.desc"
+    "cobblemon.species.esterite.desc1"
   ],
-  "preEvolution": "compella",
-  "baseScale": 0.3333333333333333,
+  "height": 20,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 7043,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 3,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 20,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Guldawn",
-  "nationalPokedexNumber": 6178,
   "primaryType": "fire",
   "secondaryType": "flying",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 140,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "mornwing",
+  "baseScale": 0.39999999999999997,
+  "cannotDynamax": false,
   "abilities": [
     "flashfire",
     "h:flamebody"
@@ -16,38 +23,19 @@
     "special_defence": 50,
     "speed": 80
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 140,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "flying",
     "dragon"
   ],
+  "drops": {},
   "moves": [
     "1:growl",
     "1:gust",
@@ -99,7 +87,8 @@
     "egg:supersonic",
     "egg:takedown",
     "egg:twister",
-    "egg:typhoon"  ],
+    "egg:typhoon"
+  ],
   "labels": [
     "deneb",
     "not_modeled",
@@ -107,9 +96,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.guldawn.desc"
+    "cobblemon.species.guldawn.desc1"
   ],
-  "preEvolution": "mornwing",
+  "height": 24,
+  "weight": 749,
+  "aspects": [],
   "evolutions": [
     {
       "id": "guldawn_solarisen",
@@ -120,31 +111,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 45
+          "minLevel": "45"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.39999999999999997,
+  "nationalPokedexNumber": 6178,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 24,
-  "weight": 749,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

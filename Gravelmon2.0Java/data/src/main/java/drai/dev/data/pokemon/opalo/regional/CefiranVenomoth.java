@@ -54,6 +54,6 @@ public class CefiranVenomoth extends Pokemon {
         setCanFly(true);
         addAdditionalEvolution("venonat", new EvolutionEntry("venomoth cefiran", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
-                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_SPOOKY.getId() + ":" + Biome.IS_SPOOKY.getName() +"\""))));
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_SPOOKY.getId() + ":" + Biome.IS_SPOOKY.getName()))));
     }
 }

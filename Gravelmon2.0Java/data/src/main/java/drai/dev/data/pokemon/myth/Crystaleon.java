@@ -80,6 +80,6 @@ public class Crystaleon extends Pokemon {
         this.setPortraitXYZ(0,1.8,0);
         addAdditionalEvolution("eevee", new EvolutionEntry("crystaleon", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36"),
-                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_DEEP_DARK.getId() + ":" + Biome.IS_DEEP_DARK.getName() +"\""))));
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_DEEP_DARK.getId() + ":" + Biome.IS_DEEP_DARK.getName()))));
     }
 }

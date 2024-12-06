@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Jerbalm",
-  "nationalPokedexNumber": 6436,
   "primaryType": "electric",
   "secondaryType": "ghost",
+  "catchRate": 110,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 151,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "static",
     "h:mummy"
@@ -16,37 +22,18 @@
     "special_defence": 84,
     "speed": 84
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 110,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 151,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:thundershock",
     "1:lick",
@@ -79,33 +66,50 @@
     "tm:amnesia",
     "tm:calmmind",
     "tm:psychic",
-    "tm:rest"  ],
+    "tm:rest"
+  ],
   "labels": [
     "enjin",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.jerbalm.desc"
+    "cobblemon.species.jerbalm.desc1"
   ],
-  "baseScale": 0.1,
+  "height": 6,
+  "weight": 0,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6436,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 6,
-  "weight": 0,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

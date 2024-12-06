@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Crustitan",
-  "nationalPokedexNumber": 3083,
   "primaryType": "steel",
   "secondaryType": "dark",
+  "catchRate": 15,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 245,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "armust",
+  "baseScale": 0.3833333333333333,
+  "cannotDynamax": false,
   "abilities": [
-    "moldbreaker"  ],
+    "moldbreaker"
+  ],
   "baseStats": {
     "hp": 105,
     "attack": 110,
@@ -14,37 +22,18 @@
     "special_defence": 75,
     "speed": 75
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 3,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 15,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 245,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_3"
   ],
+  "drops": {},
   "moves": [
     "1:harden",
     "12:assurance",
@@ -58,7 +47,8 @@
     "62:suckerpunch",
     "70:swordsdance",
     "75:heavyslam",
-    "81:gigaimpact"  ],
+    "81:gigaimpact"
+  ],
   "labels": [
     "hiza",
     "not_modeled",
@@ -66,28 +56,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.crustitan.desc"
+    "cobblemon.species.crustitan.desc1"
   ],
-  "preEvolution": "armust",
-  "baseScale": 0.3833333333333333,
+  "height": 23,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 3083,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 3,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 23,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

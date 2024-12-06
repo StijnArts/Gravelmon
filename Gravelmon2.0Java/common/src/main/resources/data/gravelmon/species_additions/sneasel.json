@@ -1,5 +1,5 @@
 {
-   "target": "cobblemon:sneasel",
+  "target": "cobblemon:sneasel",
   "evolutions": [
     {
       "id": "sneasel_reavler",
@@ -17,211 +17,212 @@
           "range": "night"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
   "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "cobblemon:razor_claw",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-      },
-   "forms": [{
-  "name": "Epoch",
-  "primaryType": "dark",
-  "secondaryType": "grass",
-  "abilities": [
-    "speedboost",
-    "sharpness",
-    "h:roughskin"
-  ],
-  "baseStats": {
-    "hp": 65,
-    "attack": 95,
-    "defence": 65,
-    "special_attack": 90,
-    "special_defence": 50,
-    "speed": 65
+    "amount": 3
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "dark",
+      "secondaryType": "grass",
+      "catchRate": 123,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 86,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.15,
+      "cannotDynamax": false,
+      "abilities": [
+        "speedboost",
+        "sharpness",
+        "h:roughskin"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 95,
+        "defence": 65,
+        "special_attack": 90,
+        "special_defence": 50,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "37:agility",
+        "24:honeclaws",
+        "1:leer",
+        "6:branchpoke",
+        "1:scratch",
+        "12:pursuit",
+        "15:razorleaf",
+        "42:leafblade",
+        "53:solarblade",
+        "19:knockoff",
+        "33:lashout",
+        "tm:acrobatics",
+        "tm:aromatherapy",
+        "tm:attract",
+        "tm:breakingswipe",
+        "tm:bulkup",
+        "tm:bulletseed",
+        "tm:closecombat",
+        "tm:coaching",
+        "tm:crunch",
+        "tm:darkpulse",
+        "tm:drainpunch",
+        "tm:energyball",
+        "tm:falseswipe",
+        "tm:focusblast",
+        "tm:furycutter",
+        "tm:gigadrain",
+        "tm:grassyterrain",
+        "tm:healbell",
+        "tm:hiddenpower",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:leechlife",
+        "tm:magicalleaf",
+        "tm:memento",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:pinmissile",
+        "tm:playrough",
+        "tm:poisonjab",
+        "tm:poweruppunch",
+        "tm:powerwhip",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:solarbeam",
+        "tm:spikyshield",
+        "tm:stealthrock",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:superpower",
+        "tm:swift",
+        "tm:swordsdance",
+        "tm:synthesis",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:triattack",
+        "tm:uturn",
+        "tm:weatherball",
+        "tm:workup",
+        "egg:needlearm",
+        "egg:cheapshot",
+        "egg:partingshot",
+        "egg:nightslash",
+        "egg:crushclaw",
+        "egg:fakeout",
+        "egg:feint",
+        "egg:swordsdance",
+        "egg:ingrain",
+        "egg:obstruct"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochsneasel.desc1"
+      ],
+      "height": 9,
+      "weight": 280,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochsneasel_epoch_sneasler",
+          "variant": "level_up",
+          "result": "epoch sneasler",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "33"
+            },
+            {
+              "variant": "time_range",
+              "range": "day"
+            }
+          ],
+          "permanent": true
         },
-        "canLook": true,
-        "walk": {
+        {
+          "id": "epochsneasel_epoch_weavile",
+          "variant": "level_up",
+          "result": "epoch weavile",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "33"
+            },
+            {
+              "variant": "time_range",
+              "range": "night"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     }
-  },
-  "catchRate": 123,
-  "shoulderMountable": false,
-  "baseExperienceYield": 86,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
   ],
-  "moves": [
-    "37:agility",
-    "24:honeclaws",
-    "1:leer",
-    "6:branchpoke",
-    "1:scratch",
-    "12:pursuit",
-    "15:razorleaf",
-    "42:leafblade",
-    "53:solarblade",
-    "19:knockoff",
-    "33:lashout",
-    "tm:acrobatics",
-    "tm:aromatherapy",
-    "tm:attract",
-    "tm:breakingswipe",
-    "tm:bulkup",
-    "tm:bulletseed",
-    "tm:closecombat",
-    "tm:coaching",
-    "tm:crunch",
-    "tm:darkpulse",
-    "tm:drainpunch",
-    "tm:energyball",
-    "tm:falseswipe",
-    "tm:focusblast",
-    "tm:furycutter",
-    "tm:gigadrain",
-    "tm:grassyterrain",
-    "tm:healbell",
-    "tm:hiddenpower",
-    "tm:knockoff",
-    "tm:lashout",
-    "tm:leechlife",
-    "tm:magicalleaf",
-    "tm:memento",
-    "tm:nastyplot",
-    "tm:phantomforce",
-    "tm:pinmissile",
-    "tm:playrough",
-    "tm:poisonjab",
-    "tm:poweruppunch",
-    "tm:powerwhip",
-    "tm:protect",
-    "tm:rest",
-    "tm:return",
-    "tm:rockblast",
-    "tm:rockslide",
-    "tm:rocktomb",
-    "tm:shadowpunch",
-    "tm:sleeptalk",
-    "tm:snarl",
-    "tm:solarbeam",
-    "tm:spikyshield",
-    "tm:stealthrock",
-    "tm:stoneedge",
-    "tm:substitute",
-    "tm:sunnyday",
-    "tm:superpower",
-    "tm:swift",
-    "tm:swordsdance",
-    "tm:synthesis",
-    "tm:taunt",
-    "tm:terrainpulse",
-    "tm:toxic",
-    "tm:triattack",
-    "tm:uturn",
-    "tm:weatherball",
-    "tm:workup",
-    "egg:needlearm",
-    "egg:cheapshot",
-    "egg:partingshot",
-    "egg:nightslash",
-    "egg:crushclaw",
-    "egg:fakeout",
-    "egg:feint",
-    "egg:swordsdance",
-    "egg:ingrain",
-    "egg:obstruct"  ],
-  "labels": [
-    "soulstones",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.epochsneasel.desc"
-  ],
-  "evolutions": [
-    {
-      "id": "sneasel_epoch_sneasler",
-      "variant": "level_up",
-      "result": "epoch sneasler",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": 33
-        },
-        {
-          "variant": "time_range",
-          "range": day
-        }
-      ],
-      "permanent": true   
- },
-    {
-      "id": "sneasel_epoch_weavile",
-      "variant": "level_up",
-      "result": "epoch weavile",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": 33
-        },
-        {
-          "variant": "time_range",
-          "range": night
-        }
-      ],
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.15,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 9,
-  "weight": 280,
-  "aspects": ["epoch"],
-  "cannotDynamax": false
-}
-], "features": [
-"epoch"
+  "features": [
+    "epoch"
   ]
 }

@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Pinchor",
-  "nationalPokedexNumber": 6270,
   "primaryType": "bug",
   "secondaryType": "ground",
+  "catchRate": 25,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 220,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "pinsir",
+  "baseScale": 0.3,
+  "cannotDynamax": false,
   "abilities": [
-    "hypercutter"  ],
+    "hypercutter"
+  ],
   "baseStats": {
     "hp": 65,
     "attack": 135,
@@ -14,37 +22,18 @@
     "special_defence": 70,
     "speed": 95
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 25,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 220,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:focusenergy",
     "1:visegrip",
@@ -107,35 +96,51 @@
     "egg:stringshot",
     "egg:sunnyday",
     "egg:superpower",
-    "egg:xscissor"  ],
+    "egg:xscissor"
+  ],
   "labels": [
     "deneb",
     "not_modeled",
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.pinchor.desc"
+    "cobblemon.species.pinchor.desc1"
   ],
-  "preEvolution": "pinsir",
-  "baseScale": 0.3,
+  "height": 18,
+  "weight": 1170,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6270,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 3,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 18,
-  "weight": 1170,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

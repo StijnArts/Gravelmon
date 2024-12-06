@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Flarrapin",
-  "nationalPokedexNumber": 1153,
   "primaryType": "fire",
   "secondaryType": "steel",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 233,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "shelosene",
+  "baseScale": 0.2833333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "shellarmor",
     "sturdy",
@@ -17,37 +24,20 @@
     "special_defence": 95,
     "speed": 50
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 233,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "monster"
   ],
+  "drops": {
+    "amount": 2
+  },
   "moves": [
     "1:heavyslam",
     "1:firefang",
@@ -133,7 +123,8 @@
     "egg:extrasensory",
     "egg:flamecharge",
     "egg:rockpolish",
-    "egg:withdraw"  ],
+    "egg:withdraw"
+  ],
   "labels": [
     "sage",
     "not_modeled",
@@ -141,28 +132,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.flarrapin.desc"
+    "cobblemon.species.flarrapin.desc1"
   ],
-  "preEvolution": "shelosene",
-  "baseScale": 0.2833333333333333,
+  "height": 17,
+  "weight": 1526,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1153,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 17,
-  "weight": 1526,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

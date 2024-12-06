@@ -1,102 +1,111 @@
 {
-   "target": "cobblemon:scatterbug",
-   "forms": [{
-  "name": "Vesitan",
-  "primaryType": "bug",
-  "secondaryType": "fairy",
-  "abilities": [
-    "shielddust",
-    "compoundeyes"  ],
-  "baseStats": {
-    "hp": 38,
-    "attack": 35,
-    "defence": 40,
-    "special_attack": 35,
-    "special_defence": 27,
-    "speed": 25
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+  "target": "cobblemon:scatterbug",
+  "forms": [
+    {
+      "name": "Vesitan",
+      "primaryType": "bug",
+      "secondaryType": "fairy",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "shielddust",
+        "compoundeyes"
+      ],
+      "baseStats": {
+        "hp": 38,
+        "attack": 35,
+        "defence": 40,
+        "special_attack": 35,
+        "special_defence": 27,
+        "speed": 25
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "15:bugbite",
+        "1:tackle",
+        "6:stunspore",
+        "1:stringshot",
+        "egg:poisonpowder",
+        "egg:ragepowder",
+        "egg:stunspore"
+      ],
+      "labels": [
+        "chaosinvestia",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.vesitanscatterbug.desc1"
+      ],
+      "height": 3,
+      "weight": 25,
+      "aspects": [
+        "vesitan"
+      ],
+      "evolutions": [
+        {
+          "id": "vesitanscatterbug_spewpa_vesitan",
+          "variant": "level_up",
+          "result": "spewpa vesitan",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "9"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     }
-  },
-  "catchRate": 255,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "bug"
   ],
-  "moves": [
-    "15:bugbite",
-    "1:tackle",
-    "6:stunspore",
-    "1:stringshot",
-    "egg:poisonpowder",
-    "egg:ragepowder",
-    "egg:stunspore"  ],
-  "labels": [
-    "chaosinvestia",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.vesitanscatterbug.desc"
-  ],
-  "evolutions": [
-    {
-      "id": "scatterbug_spewpa_vesitan",
-      "variant": "level_up",
-      "result": "spewpa vesitan",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": 9
-        }
-      ],
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 3,
-  "weight": 25,
-  "aspects": ["vesitan"],
-  "cannotDynamax": false
-}
-], "features": [
-"vesitan"
+  "features": [
+    "vesitan"
   ]
 }

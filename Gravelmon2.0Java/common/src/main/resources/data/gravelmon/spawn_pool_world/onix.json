@@ -35,20 +35,17 @@
       "id": "trizoran_onix-01",
       "pokemon": "onix trizoran",
       "presets": [
-        "natural"
+        "jungle_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
+      "bucket": "uncommon",
+      "level": "23-54",
+      "weight": 6.1499999999999995,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+          "#cobblemon:is_jungle"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

@@ -55,6 +55,6 @@ public class MythianNoivern extends Pokemon {
         this.setCanFly(true);
         addAdditionalEvolution("noibat", new EvolutionEntry("noivern mythian", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"48"),
-                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_GLACIAL.getId() + ":" + Biome.IS_GLACIAL.getName() +"\""))));
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_GLACIAL.getId() + ":" + Biome.IS_GLACIAL.getName()))));
     }
 }

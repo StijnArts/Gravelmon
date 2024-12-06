@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Harpee",
-  "nationalPokedexNumber": 1034,
   "primaryType": "normal",
   "secondaryType": "flying",
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 52,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 32,
+  "baseFriendship": 70,
+  "baseScale": 0.9,
+  "cannotDynamax": false,
   "abilities": [
     "keeneye",
     "moxie",
@@ -17,37 +23,20 @@
     "special_defence": 58,
     "speed": 95
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 255,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 52,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 32,
   "eggGroups": [
     "flying"
   ],
+  "drops": {
+    "amount": 4
+  },
   "moves": [
     "1:peck",
     "1:twister",
@@ -111,13 +100,17 @@
     "egg:airslash",
     "egg:focusenergy",
     "egg:hurricane",
-    "egg:whirlwind"  ],
+    "egg:whirlwind"
+  ],
   "labels": [
     "sage"
   ],
   "pokedex": [
-    "cobblemon.species.harpee.desc"
+    "cobblemon.species.harpee.desc1"
   ],
+  "height": 3,
+  "weight": 19,
+  "aspects": [],
   "evolutions": [
     {
       "id": "harpee_aquilor",
@@ -128,31 +121,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 18
+          "minLevel": "18"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.9,
+  "nationalPokedexNumber": 1034,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 1.0,
     "height": 1.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 3,
-  "weight": 19,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

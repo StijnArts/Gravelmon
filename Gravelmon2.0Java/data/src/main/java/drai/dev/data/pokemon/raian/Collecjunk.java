@@ -19,9 +19,9 @@ public class Collecjunk extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of(""),
                 List.of(new EvolutionEntry("Rexagon", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"\"Telvant\""),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"\"Scrwant\""),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"\"Bulbant\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"Telvant"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"Scrwant"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"Bulbant")))),
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(

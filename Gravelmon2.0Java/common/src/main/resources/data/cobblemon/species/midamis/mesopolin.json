@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Mesopolin",
-  "nationalPokedexNumber": 6008,
   "primaryType": "rock",
   "secondaryType": "ground",
+  "catchRate": 3,
+  "maleRatio": -1.0,
+  "baseExperienceYield": 230,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.5166666666666667,
+  "cannotDynamax": false,
   "abilities": [
     "solidrock",
     "h:pressure"
@@ -16,37 +22,18 @@
     "special_defence": 50,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 3,
-  "maleRatio": -1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 230,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {},
   "moves": [
     "1:bulldoze",
     "1:hammerarm",
@@ -63,33 +50,50 @@
     "54:stoneedge",
     "61:megahorn",
     "68:horndrill",
-    "75:rockwrecker"  ],
+    "75:rockwrecker"
+  ],
   "labels": [
     "midamis",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.mesopolin.desc"
+    "cobblemon.species.mesopolin.desc1"
   ],
-  "baseScale": 0.5166666666666667,
+  "height": 31,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6008,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 31,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

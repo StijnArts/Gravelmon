@@ -1,10 +1,17 @@
 {
-  "implemented": true,
   "name": "Gargryph",
-  "nationalPokedexNumber": 2576,
   "primaryType": "rock",
+  "catchRate": 45,
+  "maleRatio": -1.0,
+  "baseExperienceYield": 189,
+  "experienceGroup": "slow",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "baseScale": 0.2833333333333333,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
   "baseStats": {
     "hp": 80,
     "attack": 80,
@@ -13,38 +20,19 @@
     "special_defence": 75,
     "speed": 70
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 3,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 45,
-  "maleRatio": -1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 189,
-  "experienceGroup": "slow",
-  "eggCycles": 100,
   "eggGroups": [
     "flying",
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:harden",
     "1:glare",
@@ -121,33 +109,50 @@
     "egg:curse",
     "egg:bulldoze",
     "egg:skullbash",
-    "egg:reversal"  ],
+    "egg:reversal"
+  ],
   "labels": [
     "uranium",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.gargryph.desc"
+    "cobblemon.species.gargryph.desc1"
   ],
-  "baseScale": 0.2833333333333333,
+  "height": 17,
+  "weight": 2295,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2576,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 3,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 17,
-  "weight": 2295,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

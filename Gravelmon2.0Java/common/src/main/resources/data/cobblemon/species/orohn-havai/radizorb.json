@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Radizorb",
-  "nationalPokedexNumber": 4026,
   "primaryType": "rock",
   "secondaryType": "electric",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 151,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "glozard",
+  "baseScale": 0.18333333333333335,
+  "cannotDynamax": false,
   "abilities": [
     "solidrock",
     "lightningrod",
@@ -17,38 +24,19 @@
     "special_defence": 67,
     "speed": 73
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 151,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "monster",
     "dragon"
   ],
+  "drops": {},
   "moves": [
     "1:charge",
     "6:rockthrow",
@@ -67,7 +55,8 @@
     "tm:rockpolish",
     "tm:powergem",
     "tm:earthpower",
-    "tm:flashcannon"  ],
+    "tm:flashcannon"
+  ],
   "labels": [
     "atlas",
     "not_modeled",
@@ -75,9 +64,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.radizorb.desc"
+    "cobblemon.species.radizorb.desc1"
   ],
-  "preEvolution": "glozard",
+  "height": 11,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "radizorb_radiaze",
@@ -88,31 +79,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 50
+          "minLevel": "50"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.18333333333333335,
+  "nationalPokedexNumber": 4026,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 11,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

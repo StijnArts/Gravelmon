@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Oarwish",
-  "nationalPokedexNumber": 1191,
   "primaryType": "water",
   "secondaryType": "psychic",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 189,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "fortifry",
+  "baseScale": 1.0,
+  "cannotDynamax": false,
   "abilities": [
     "healer",
     "regenerator",
@@ -17,38 +24,21 @@
     "special_defence": 127,
     "speed": 77
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 189,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "water_2",
     "dragon"
   ],
+  "drops": {
+    "amount": 2
+  },
   "moves": [
     "1:healpulse",
     "1:healingwish",
@@ -122,35 +112,51 @@
     "egg:confuseray",
     "egg:dragonpulse",
     "egg:soak",
-    "egg:whirlpool"  ],
+    "egg:whirlpool"
+  ],
   "labels": [
     "sage",
     "fakemon",
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.oarwish.desc"
+    "cobblemon.species.oarwish.desc1"
   ],
-  "preEvolution": "fortifry",
-  "baseScale": 1.0,
+  "height": 26,
+  "weight": 547,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1191,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 1.0,
     "height": 1.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 26,
-  "weight": 547,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

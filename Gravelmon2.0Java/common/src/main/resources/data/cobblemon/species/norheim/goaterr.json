@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Goaterr",
-  "nationalPokedexNumber": 4290,
   "primaryType": "steel",
+  "catchRate": 90,
+  "maleRatio": 0.87,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "kiderr",
+  "baseScale": 0.21666666666666667,
+  "cannotDynamax": false,
   "abilities": [
     "steadfast",
     "angerpoint",
@@ -16,37 +23,18 @@
     "special_defence": 70,
     "speed": 61
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 90,
-  "maleRatio": 0.87,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:furycutter",
     "1:sandattack",
@@ -63,7 +51,8 @@
     "44:ironhead",
     "48:entrainment",
     "52:irondefense",
-    "56:guillotine"  ],
+    "56:guillotine"
+  ],
   "labels": [
     "norheim",
     "not_modeled",
@@ -71,9 +60,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.goaterr.desc"
+    "cobblemon.species.goaterr.desc1"
   ],
-  "preEvolution": "kiderr",
+  "height": 13,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "goaterr_goathorr",
@@ -84,31 +75,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 41
+          "minLevel": "41"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.21666666666666667,
+  "nationalPokedexNumber": 4290,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 13,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

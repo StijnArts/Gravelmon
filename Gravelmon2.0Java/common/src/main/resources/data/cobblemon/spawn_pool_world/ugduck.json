@@ -7,17 +7,18 @@
       "id": "ugduck-01",
       "pokemon": "ugduck",
       "presets": [
-        "natural"
+        "natural",
+        "near_water"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
+      "bucket": "uncommon",
+      "level": "8-32",
+      "weight": 6.75,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_plains",
+          "#cobblemon:is_forest"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

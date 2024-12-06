@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Kloakroach",
-  "nationalPokedexNumber": 3961,
   "primaryType": "bug",
   "secondaryType": "dark",
+  "catchRate": 87,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 85,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "kroach",
+  "baseScale": 0.15,
+  "cannotDynamax": false,
   "abilities": [
     "overcoat",
     "pickpocket",
@@ -17,37 +24,18 @@
     "special_defence": 102,
     "speed": 30
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
   },
-  "catchRate": 87,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 85,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:healorder",
     "6:assurance",
@@ -58,7 +46,8 @@
     "27:healorder",
     "32:partingshot",
     "38:suckerpunch",
-    "40:quash"  ],
+    "40:quash"
+  ],
   "labels": [
     "orohnhavai",
     "not_modeled",
@@ -66,28 +55,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.kloakroach.desc"
+    "cobblemon.species.kloakroach.desc1"
   ],
-  "preEvolution": "kroach",
-  "baseScale": 0.15,
+  "height": 9,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 3961,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 2,
-    "speed": 0
-  },
-  "height": 9,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -20,7 +20,7 @@ public class Zapalope extends Pokemon {
                 20, List.of(EggGroup.GRASS, EggGroup.FAIRY),
                 List.of("A Pokemon that zips through dense forests with ease. Its electrical energy allows it to move at high speeds. You can tell a Zapalope trail by the singed edges of the plants around it."),
                 List.of(new EvolutionEntry("joltalope", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.HORN_LEECH.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.HORN_LEECH.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,1),
                         new MoveLearnSetEntry(Move.PAY_DAY,1),

@@ -1,10 +1,18 @@
 {
-  "implemented": true,
   "name": "Sloowin",
-  "nationalPokedexNumber": 1271,
   "primaryType": "water",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "mirmoor",
+  "baseScale": 0.15,
+  "cannotDynamax": false,
   "abilities": [
-    "torrent"  ],
+    "torrent"
+  ],
   "baseStats": {
     "hp": 73,
     "attack": 78,
@@ -13,37 +21,18 @@
     "special_defence": 63,
     "speed": 65
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 142,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_1"
   ],
+  "drops": {},
   "moves": [
     "1:growl",
     "7:watergun",
@@ -110,7 +99,8 @@
     "tm:workup",
     "tm:brutalswing",
     "tm:powertrip",
-    "tm:aquajet"  ],
+    "tm:aquajet"
+  ],
   "labels": [
     "rica",
     "not_modeled",
@@ -118,9 +108,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.sloowin.desc"
+    "cobblemon.species.sloowin.desc1"
   ],
-  "preEvolution": "mirmoor",
+  "height": 9,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "sloowin_atrocean",
@@ -131,31 +123,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 36
+          "minLevel": "36"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.15,
+  "nationalPokedexNumber": 1271,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 9,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

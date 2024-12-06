@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Groviasse",
-  "nationalPokedexNumber": 5995,
   "primaryType": "normal",
   "secondaryType": "fighting",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "davolee",
+  "baseScale": 0.3,
+  "cannotDynamax": false,
   "abilities": [
     "chlorophyll",
     "h:sapsipper"
@@ -16,38 +23,19 @@
     "special_defence": 80,
     "speed": 110
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "human_like",
     "water_1"
   ],
+  "drops": {},
   "moves": [
     "1:sandattack",
     "5:charm",
@@ -65,7 +53,8 @@
     "tm:watergun",
     "tm:splash",
     "tm:fakeout",
-    "tm:soak"  ],
+    "tm:soak"
+  ],
   "labels": [
     "midamis",
     "not_modeled",
@@ -73,28 +62,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.groviasse.desc"
+    "cobblemon.species.groviasse.desc1"
   ],
-  "preEvolution": "davolee",
-  "baseScale": 0.3,
+  "height": 18,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5995,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 18,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

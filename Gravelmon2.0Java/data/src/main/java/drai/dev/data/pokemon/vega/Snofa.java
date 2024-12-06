@@ -20,7 +20,7 @@ public class Snofa extends Pokemon {
                 50, List.of(EggGroup.FIELD),
                 List.of(""),
                 List.of(new EvolutionEntry("kofarudo", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.CRUNCH.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.CRUNCH.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.DARK_PULSE,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),

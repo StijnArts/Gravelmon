@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Bountius",
-  "nationalPokedexNumber": 3035,
   "primaryType": "water",
   "secondaryType": "grass",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 260,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "tropius form\u003dhizian",
+  "baseScale": 0.5,
+  "cannotDynamax": false,
   "abilities": [
     "stormdrain",
     "h:ripen"
@@ -16,38 +23,19 @@
     "special_defence": 102,
     "speed": 41
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 3,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 260,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "grass",
     "monster"
   ],
+  "drops": {},
   "moves": [
     "1:gigadrain",
     "6:sweetscent",
@@ -97,7 +85,8 @@
     "tm:hurricane",
     "tm:liquidation",
     "tm:hyperbeam",
-    "tm:solarbeam"  ],
+    "tm:solarbeam"
+  ],
   "labels": [
     "hiza",
     "not_modeled",
@@ -105,28 +94,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.bountius.desc"
+    "cobblemon.species.bountius.desc1"
   ],
-  "preEvolution": "tropius form=hizian",
-  "baseScale": 0.5,
+  "height": 30,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 3035,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 3,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 30,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

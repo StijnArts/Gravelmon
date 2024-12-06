@@ -1,10 +1,17 @@
 {
-  "implemented": true,
   "name": "Tonemy",
-  "nationalPokedexNumber": 2500,
   "primaryType": "poison",
+  "catchRate": 200,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 66,
+  "experienceGroup": "slow",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
-    "levitate"  ],
+    "levitate"
+  ],
   "baseStats": {
     "hp": 60,
     "attack": 45,
@@ -13,38 +20,19 @@
     "special_defence": 45,
     "speed": 95
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 200,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 66,
-  "experienceGroup": "slow",
-  "eggCycles": 100,
   "eggGroups": [
     "amorphous",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:poisongas",
     "1:tackle",
@@ -104,14 +92,18 @@
     "egg:psybeam",
     "egg:destinybond",
     "egg:painsplit",
-    "egg:willowisp"  ],
+    "egg:willowisp"
+  ],
   "labels": [
     "uranium",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.tonemy.desc"
+    "cobblemon.species.tonemy.desc1"
   ],
+  "height": 3,
+  "weight": 10,
+  "aspects": [],
   "evolutions": [
     {
       "id": "tonemy_tofurang",
@@ -122,31 +114,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 20
+          "minLevel": "20"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 2500,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 3,
-  "weight": 10,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

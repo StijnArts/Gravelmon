@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Kerratic",
-  "nationalPokedexNumber": 6877,
   "primaryType": "grass",
   "secondaryType": "ground",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 174,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "karroot",
+  "baseScale": 0.15,
+  "cannotDynamax": false,
   "abilities": [
     "tintedlens",
     "frisk",
@@ -17,38 +24,19 @@
     "special_defence": 66,
     "speed": 81
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 174,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "grass",
     "monster"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "5:mudslap",
@@ -155,7 +143,8 @@
     "tm:leafblade",
     "tm:twinbeam",
     "tm:confuseray",
-    "tm:worryseed"  ],
+    "tm:worryseed"
+  ],
   "labels": [
     "novrai",
     "not_modeled",
@@ -163,28 +152,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.kerratic.desc"
+    "cobblemon.species.kerratic.desc1"
   ],
-  "preEvolution": "karroot",
-  "baseScale": 0.15,
+  "height": 9,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6877,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 9,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

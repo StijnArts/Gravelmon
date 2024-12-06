@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Chlorofin",
-  "nationalPokedexNumber": 1115,
   "primaryType": "water",
   "secondaryType": "grass",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 172,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "leafish",
+  "baseScale": 0.26666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "friendguard",
     "swiftswim",
@@ -17,38 +24,21 @@
     "special_defence": 90,
     "speed": 102
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 90,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 172,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "water_2",
     "grass"
   ],
+  "drops": {
+    "amount": 2
+  },
   "moves": [
     "1:aquaring",
     "1:watergun",
@@ -132,7 +122,8 @@
     "egg:hydropump",
     "egg:leafblade",
     "egg:magicalleaf",
-    "egg:watersport"  ],
+    "egg:watersport"
+  ],
   "labels": [
     "sage",
     "not_modeled",
@@ -140,28 +131,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.chlorofin.desc"
+    "cobblemon.species.chlorofin.desc1"
   ],
-  "preEvolution": "leafish",
-  "baseScale": 0.26666666666666666,
+  "height": 16,
+  "weight": 688,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1115,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 16,
-  "weight": 688,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

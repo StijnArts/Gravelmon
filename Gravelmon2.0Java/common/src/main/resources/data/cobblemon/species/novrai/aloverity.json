@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Aloverity",
-  "nationalPokedexNumber": 6833,
   "primaryType": "grass",
   "secondaryType": "water",
+  "catchRate": 45,
+  "maleRatio": 0.25,
+  "baseExperienceYield": 175,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "haloe",
+  "baseScale": 0.2833333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "triage",
     "waterveil",
@@ -17,38 +24,19 @@
     "special_defence": 140,
     "speed": 70
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.25,
-  "shoulderMountable": false,
-  "baseExperienceYield": 175,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "grass",
     "human_like"
   ],
+  "drops": {},
   "moves": [
     "1:watersport",
     "7:babydolleyes",
@@ -116,7 +104,8 @@
     "tm:disarmingvoice",
     "tm:whirlpool",
     "tm:wish",
-    "tm:aurorabeam"  ],
+    "tm:aurorabeam"
+  ],
   "labels": [
     "novrai",
     "not_modeled",
@@ -124,28 +113,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.aloverity.desc"
+    "cobblemon.species.aloverity.desc1"
   ],
-  "preEvolution": "haloe",
-  "baseScale": 0.2833333333333333,
+  "height": 17,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6833,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 2,
-    "speed": 0
-  },
-  "height": 17,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

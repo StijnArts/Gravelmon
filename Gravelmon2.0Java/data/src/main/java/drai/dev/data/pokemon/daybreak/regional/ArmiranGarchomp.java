@@ -112,6 +112,6 @@ public class ArmiranGarchomp extends Pokemon {
         setPreEvolution("Gabite");
         addAdditionalEvolution("gabite", new EvolutionEntry("garchomp armiran", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"48"),
-                        new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.FAIRY_RUSH.getName()+"\""))));
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.FAIRY_RUSH.getName()))));
     }
 }

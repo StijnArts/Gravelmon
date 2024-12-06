@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Yucarlia",
-  "nationalPokedexNumber": 6196,
   "primaryType": "ghost",
+  "catchRate": 160,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 109,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.13333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "levitate",
     "h:pressure"
@@ -15,37 +21,18 @@
     "special_defence": 55,
     "speed": 75
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 160,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 109,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "human_like"
   ],
+  "drops": {},
   "moves": [
     "1:astonish",
     "1:disable",
@@ -93,14 +80,18 @@
     "egg:sunnyday",
     "egg:taunt",
     "egg:trick",
-    "egg:wildcharge"  ],
+    "egg:wildcharge"
+  ],
   "labels": [
     "vega",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.yucarlia.desc"
+    "cobblemon.species.yucarlia.desc1"
   ],
+  "height": 8,
+  "weight": 299,
+  "aspects": [],
   "evolutions": [
     {
       "id": "yucarlia_necrosia",
@@ -111,31 +102,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 35
+          "minLevel": "35"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.13333333333333333,
+  "nationalPokedexNumber": 6196,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 8,
-  "weight": 299,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Cocombat",
-  "nationalPokedexNumber": 6463,
   "primaryType": "grass",
   "secondaryType": "fighting",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 180,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "cocoward",
+  "baseScale": 0.25,
+  "cannotDynamax": false,
   "abilities": [
     "ironfist",
     "h:chlorophyll"
@@ -16,38 +23,19 @@
     "special_defence": 80,
     "speed": 115
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 180,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "grass",
     "human_like"
   ],
+  "drops": {},
   "moves": [
     "1:pound",
     "6:growth",
@@ -118,7 +106,8 @@
     "tm:bulletpunch",
     "tm:machpunch",
     "tm:leechseed",
-    "tm:firstimpression"  ],
+    "tm:firstimpression"
+  ],
   "labels": [
     "enjin",
     "not_modeled",
@@ -126,28 +115,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.cocombat.desc"
+    "cobblemon.species.cocombat.desc1"
   ],
-  "preEvolution": "cocoward",
-  "baseScale": 0.25,
+  "height": 15,
+  "weight": 644,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6463,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 15,
-  "weight": 644,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

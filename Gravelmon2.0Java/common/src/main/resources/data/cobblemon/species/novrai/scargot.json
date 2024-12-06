@@ -1,12 +1,19 @@
 {
-  "implemented": true,
   "name": "Scargot",
-  "nationalPokedexNumber": 6797,
   "primaryType": "fire",
   "secondaryType": "electric",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 165,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.18333333333333335,
+  "cannotDynamax": false,
   "abilities": [
     "static",
-    "flamebody"  ],
+    "flamebody"
+  ],
   "baseStats": {
     "hp": 90,
     "attack": 50,
@@ -15,38 +22,19 @@
     "special_defence": 70,
     "speed": 30
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 165,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "amorphous",
     "water_1"
   ],
+  "drops": {},
   "moves": [
     "1:firespin",
     "5:thundershock",
@@ -130,33 +118,50 @@
     "tm:lavaplume",
     "tm:spikes",
     "tm:toxicspikes",
-    "tm:paraboliccharge"  ],
+    "tm:paraboliccharge"
+  ],
   "labels": [
     "novrai",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.scargot.desc"
+    "cobblemon.species.scargot.desc1"
   ],
-  "baseScale": 0.18333333333333335,
+  "height": 11,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6797,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 11,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

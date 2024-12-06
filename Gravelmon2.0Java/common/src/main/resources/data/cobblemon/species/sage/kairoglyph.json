@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Kairoglyph",
-  "nationalPokedexNumber": 1146,
   "primaryType": "ground",
   "secondaryType": "psychic",
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 172,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 39,
+  "baseFriendship": 70,
+  "preEvolution": "cairup",
+  "baseScale": 0.2333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "sandstream",
     "conundrum",
@@ -17,38 +24,21 @@
     "special_defence": 70,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 75,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 172,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 39,
   "eggGroups": [
     "field",
     "monster"
   ],
+  "drops": {
+    "amount": 2
+  },
   "moves": [
     "1:psychoshift",
     "1:miracleeye",
@@ -150,7 +140,8 @@
     "tutor:wonderroom",
     "egg:confuseray",
     "egg:hex",
-    "egg:memento"  ],
+    "egg:memento"
+  ],
   "labels": [
     "sage",
     "not_modeled",
@@ -158,28 +149,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.kairoglyph.desc"
+    "cobblemon.species.kairoglyph.desc1"
   ],
-  "preEvolution": "cairup",
-  "baseScale": 0.2333333333333333,
+  "height": 14,
+  "weight": 570,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1146,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 14,
-  "weight": 570,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

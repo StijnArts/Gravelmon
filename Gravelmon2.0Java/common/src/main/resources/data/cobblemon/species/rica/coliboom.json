@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Coliboom",
-  "nationalPokedexNumber": 1387,
   "primaryType": "psychic",
   "secondaryType": "flying",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 175,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "coliber",
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "sniper",
     "earlybird",
@@ -17,38 +24,19 @@
     "special_defence": 87,
     "speed": 130
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 175,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "flying",
     "fairy"
   ],
+  "drops": {},
   "moves": [
     "5:quickattack",
     "9:focusenergy",
@@ -109,7 +97,8 @@
     "tm:flash",
     "tm:fly",
     "tm:rage",
-    "tm:laserfocus"  ],
+    "tm:laserfocus"
+  ],
   "labels": [
     "rica",
     "not_modeled",
@@ -117,28 +106,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.coliboom.desc"
+    "cobblemon.species.coliboom.desc1"
   ],
-  "preEvolution": "coliber",
-  "baseScale": 0.1,
+  "height": 5,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1387,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 5,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Gobblegannet",
-  "nationalPokedexNumber": 4497,
   "primaryType": "flying",
   "secondaryType": "normal",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 214,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "seaguzzle",
+  "baseScale": 0.3,
+  "cannotDynamax": false,
   "abilities": [
     "gluttony",
     "h:immunity"
@@ -16,37 +23,18 @@
     "special_defence": 60,
     "speed": 55
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 3,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 214,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "flying"
   ],
+  "drops": {},
   "moves": [
     "1:snatch",
     "1:pound",
@@ -127,7 +115,8 @@
     "tm:chatter",
     "tm:pluck",
     "tm:sing",
-    "tm:uproar"  ],
+    "tm:uproar"
+  ],
   "labels": [
     "lonava",
     "not_modeled",
@@ -135,28 +124,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.gobblegannet.desc"
+    "cobblemon.species.gobblegannet.desc1"
   ],
-  "preEvolution": "seaguzzle",
-  "baseScale": 0.3,
+  "height": 18,
+  "weight": 500,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 4497,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 3,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 18,
-  "weight": 500,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

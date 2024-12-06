@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Forthorn",
-  "nationalPokedexNumber": 1164,
   "primaryType": "ghost",
   "secondaryType": "grass",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 168,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 76,
+  "baseFriendship": 70,
+  "preEvolution": "loneleaf",
+  "baseScale": 0.2333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "naturalcure",
     "leafguard",
@@ -17,38 +24,21 @@
     "special_defence": 106,
     "speed": 96
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 168,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 76,
   "eggGroups": [
     "grass",
     "human_like"
   ],
+  "drops": {
+    "amount": 2
+  },
   "moves": [
     "1:helpinghand",
     "1:worryseed",
@@ -133,7 +123,8 @@
     "egg:nightshade",
     "egg:revenge",
     "egg:sleeppowder",
-    "egg:stunspore"  ],
+    "egg:stunspore"
+  ],
   "labels": [
     "sage",
     "not_modeled",
@@ -141,28 +132,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.forthorn.desc"
+    "cobblemon.species.forthorn.desc1"
   ],
-  "preEvolution": "loneleaf",
-  "baseScale": 0.2333333333333333,
+  "height": 14,
+  "weight": 290,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1164,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 2,
-    "speed": 0
-  },
-  "height": 14,
-  "weight": 290,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

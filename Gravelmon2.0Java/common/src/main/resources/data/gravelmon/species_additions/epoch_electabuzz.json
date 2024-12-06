@@ -1,4 +1,4 @@
 {
-   "target": "cobblemon:epoch_electabuzz",
+  "target": "cobblemon:epoch_electabuzz",
   "preEvolution": "epochelekid"
 }

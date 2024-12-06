@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Daikongus",
-  "nationalPokedexNumber": 2677,
   "primaryType": "grass",
   "secondaryType": "fighting",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 147,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "taroot",
+  "baseScale": 0.3666666666666667,
+  "cannotDynamax": false,
   "abilities": [
     "thickfat",
     "hugepower",
@@ -17,37 +24,18 @@
     "special_defence": 81,
     "speed": 48
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 90,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 147,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "grass"
   ],
+  "drops": {},
   "moves": [
     "1:circlethrow",
     "1:leafage",
@@ -71,7 +59,8 @@
     "53:bellydrum",
     "67:heavyslam",
     "egg:counter",
-    "egg:leechseed"  ],
+    "egg:leechseed"
+  ],
   "labels": [
     "flux",
     "not_modeled",
@@ -79,28 +68,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.daikongus.desc"
+    "cobblemon.species.daikongus.desc1"
   ],
-  "preEvolution": "taroot",
-  "baseScale": 0.3666666666666667,
+  "height": 22,
+  "weight": 2958,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2677,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 22,
-  "weight": 2958,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

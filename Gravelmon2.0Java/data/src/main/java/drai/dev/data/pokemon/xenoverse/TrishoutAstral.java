@@ -22,9 +22,9 @@ public class TrishoutAstral extends Pokemon {
                 List.of(new EvolutionEntry("trishout astral=false", EvolutionType.LEVEL_UP, false, List.of(),
                                 List.of()),
                         new EvolutionEntry("trishoutterrestrial", EvolutionType.LEVEL_UP, false, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:terrestrial_ring\""))),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "gravelmon:terrestrial_ring"))),
                         new EvolutionEntry("trishoutxenoversal", EvolutionType.LEVEL_UP, false, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:xenoversal_ring\"")))),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "gravelmon:xenoversal_ring")))),
                 List.of(
                         new MoveLearnSetEntry(Move.EMBER,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),

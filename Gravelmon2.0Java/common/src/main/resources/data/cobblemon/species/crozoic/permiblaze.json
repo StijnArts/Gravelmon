@@ -1,11 +1,18 @@
 {
-  "implemented": true,
   "name": "Permiblaze",
-  "nationalPokedexNumber": 4401,
   "primaryType": "fire",
   "secondaryType": "dark",
+  "catchRate": 3,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 60,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.31666666666666665,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
   "baseStats": {
     "hp": 126,
     "attack": 44,
@@ -14,60 +21,6 @@
     "special_defence": 126,
     "speed": 54
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 3,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "undiscovered"
-  ],
-  "moves": [
-    "1:assurance",
-    "1:eruption",
-    "1:snarl",
-    "1:inferno",
-    "1:roar",
-    "1:smokescreen",
-    "1:punishment",
-    "1:fissure"  ],
-  "labels": [
-    "crozoic",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.permiblaze.desc"
-  ],
-  "baseScale": 0.31666666666666665,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -76,10 +29,62 @@
     "special_defence": 0,
     "speed": 0
   },
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {},
+  "moves": [
+    "1:assurance",
+    "1:eruption",
+    "1:snarl",
+    "1:inferno",
+    "1:roar",
+    "1:smokescreen",
+    "1:punishment",
+    "1:fissure"
+  ],
+  "labels": [
+    "crozoic",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.permiblaze.desc1"
+  ],
   "height": 19,
   "weight": 1560,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 4401,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Gloomineon",
-  "nationalPokedexNumber": 1588,
   "primaryType": "ghost",
   "secondaryType": "flying",
+  "catchRate": 20,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 260,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "lumineon form\u003dlagoonan",
+  "baseScale": 0.2833333333333333,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
   "baseStats": {
     "hp": 89,
     "attack": 89,
@@ -14,37 +22,18 @@
     "special_defence": 91,
     "speed": 116
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
   },
-  "catchRate": 20,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 260,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "water_2"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "1:growl",
@@ -61,7 +50,8 @@
     "45:shadowball",
     "50:lightscreen",
     "50:reflect",
-    "55:typhoon"  ],
+    "55:typhoon"
+  ],
   "labels": [
     "lagoone",
     "not_modeled",
@@ -69,28 +59,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.gloomineon.desc"
+    "cobblemon.species.gloomineon.desc1"
   ],
-  "preEvolution": "lumineon form=lagoonan",
-  "baseScale": 0.2833333333333333,
+  "height": 17,
+  "weight": 390,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1588,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 3
-  },
-  "height": 17,
-  "weight": 390,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

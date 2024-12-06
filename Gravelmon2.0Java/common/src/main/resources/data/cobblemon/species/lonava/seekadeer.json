@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Seekadeer",
-  "nationalPokedexNumber": 4434,
   "primaryType": "poison",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 163,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.31666666666666665,
+  "cannotDynamax": false,
   "abilities": [
     "poisontouch",
     "poisonpoint",
@@ -16,37 +22,18 @@
     "special_defence": 65,
     "speed": 85
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 163,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:tailwhip",
     "1:poisonsting",
@@ -149,33 +136,50 @@
     "tm:workup",
     "tm:zenheadbutt",
     "tm:furyattack",
-    "tm:highhorsepower"  ],
+    "tm:highhorsepower"
+  ],
   "labels": [
     "lonava",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.seekadeer.desc"
+    "cobblemon.species.seekadeer.desc1"
   ],
-  "baseScale": 0.31666666666666665,
+  "height": 19,
+  "weight": 712,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 4434,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 19,
-  "weight": 712,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

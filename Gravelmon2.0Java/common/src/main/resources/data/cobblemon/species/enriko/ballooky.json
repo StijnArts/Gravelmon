@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Ballooky",
-  "nationalPokedexNumber": 2062,
   "primaryType": "fairy",
   "secondaryType": "flying",
+  "catchRate": 255,
+  "maleRatio": 0.25,
+  "baseExperienceYield": 70,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "static",
     "limber",
@@ -17,38 +23,19 @@
     "special_defence": 100,
     "speed": 30
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 255,
-  "maleRatio": 0.25,
-  "shoulderMountable": false,
-  "baseExperienceYield": 70,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "amorphous",
     "fairy"
   ],
+  "drops": {},
   "moves": [
     "1:charm",
     "5:safeguard",
@@ -65,14 +52,18 @@
     "36:healpulse",
     "40:moonblast",
     "44:wideguard",
-    "50:hurricane"  ],
+    "50:hurricane"
+  ],
   "labels": [
     "enriko",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.ballooky.desc"
+    "cobblemon.species.ballooky.desc1"
   ],
+  "height": 6,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "ballooky_unseelium",
@@ -83,31 +74,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 28
+          "minLevel": "28"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 2062,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 6,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

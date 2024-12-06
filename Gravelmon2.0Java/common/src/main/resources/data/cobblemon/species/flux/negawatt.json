@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Negawatt",
-  "nationalPokedexNumber": 2693,
   "primaryType": "electric",
   "secondaryType": "dark",
+  "catchRate": 45,
+  "maleRatio": -1.0,
+  "baseExperienceYield": 257,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "insulatex",
+  "baseScale": 0.3333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "illuminate",
     "minus",
@@ -17,37 +24,18 @@
     "special_defence": 63,
     "speed": 99
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": -1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 257,
-  "experienceGroup": "fluctuating",
-  "eggCycles": 50,
   "eggGroups": [
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:spark",
     "1:charge",
@@ -67,7 +55,8 @@
     "43:coil",
     "47:powerwhip",
     "51:electricterrain",
-    "55:selfdestruct"  ],
+    "55:selfdestruct"
+  ],
   "labels": [
     "flux",
     "not_modeled",
@@ -75,28 +64,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.negawatt.desc"
+    "cobblemon.species.negawatt.desc1"
   ],
-  "preEvolution": "insulatex",
-  "baseScale": 0.3333333333333333,
+  "height": 20,
+  "weight": 900,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2693,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 20,
-  "weight": 900,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Seaguzzle",
-  "nationalPokedexNumber": 4496,
   "primaryType": "flying",
   "secondaryType": "normal",
+  "catchRate": 70,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 119,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "seagulp",
+  "baseScale": 0.13333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "thickfat",
     "gluttony",
@@ -17,37 +24,18 @@
     "special_defence": 40,
     "speed": 40
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 70,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 119,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "flying"
   ],
+  "drops": {},
   "moves": [
     "1:snatch",
     "1:pound",
@@ -112,7 +100,8 @@
     "tm:chatter",
     "tm:pluck",
     "tm:sing",
-    "tm:uproar"  ],
+    "tm:uproar"
+  ],
   "labels": [
     "lonava",
     "not_modeled",
@@ -120,9 +109,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.seaguzzle.desc"
+    "cobblemon.species.seaguzzle.desc1"
   ],
-  "preEvolution": "seagulp",
+  "height": 8,
+  "weight": 300,
+  "aspects": [],
   "evolutions": [
     {
       "id": "seaguzzle_gobblegannet",
@@ -133,31 +124,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 32
+          "minLevel": "32"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.13333333333333333,
+  "nationalPokedexNumber": 4496,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 8,
-  "weight": 300,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

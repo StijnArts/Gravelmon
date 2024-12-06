@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Orbitgami",
-  "nationalPokedexNumber": 6896,
   "primaryType": "fairy",
   "secondaryType": "fire",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 182,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "papernova",
+  "baseScale": 0.18333333333333335,
+  "cannotDynamax": false,
   "abilities": [
-    "levitate"  ],
+    "levitate"
+  ],
   "baseStats": {
     "hp": 102,
     "attack": 68,
@@ -14,37 +22,18 @@
     "special_defence": 110,
     "speed": 81
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 182,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "fairy"
   ],
+  "drops": {},
   "moves": [
     "1:fairywind",
     "10:firespin",
@@ -119,7 +108,8 @@
     "tm:mist",
     "tm:flameburst",
     "tm:moonlight",
-    "tm:lavaplume"  ],
+    "tm:lavaplume"
+  ],
   "labels": [
     "novrai",
     "not_modeled",
@@ -127,28 +117,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.orbitgami.desc"
+    "cobblemon.species.orbitgami.desc1"
   ],
-  "preEvolution": "papernova",
-  "baseScale": 0.18333333333333335,
+  "height": 11,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6896,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 2,
-    "speed": 0
-  },
-  "height": 11,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Vipentide",
-  "nationalPokedexNumber": 6477,
   "primaryType": "water",
   "secondaryType": "dragon",
+  "catchRate": 30,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 187,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "vipuny",
+  "baseScale": 0.3,
+  "cannotDynamax": false,
   "abilities": [
     "swiftswim",
     "h:merciless"
@@ -16,39 +23,19 @@
     "special_defence": 100,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canWalkOnWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 30,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 187,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_1",
     "monster"
   ],
+  "drops": {},
   "moves": [
     "1:acid",
     "1:growl",
@@ -147,7 +134,8 @@
     "tm:brine",
     "tm:flipturn",
     "tm:liquidation",
-    "tm:raindance"  ],
+    "tm:raindance"
+  ],
   "labels": [
     "enjin",
     "not_modeled",
@@ -155,28 +143,44 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.vipentide.desc"
+    "cobblemon.species.vipentide.desc1"
   ],
-  "preEvolution": "vipuny",
-  "baseScale": 0.3,
+  "height": 18,
+  "weight": 0,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6477,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false,
+        "canWalkOnWater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 18,
-  "weight": 0,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

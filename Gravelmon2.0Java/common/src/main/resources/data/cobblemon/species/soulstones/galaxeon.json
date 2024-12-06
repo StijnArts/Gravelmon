@@ -1,11 +1,18 @@
 {
-  "implemented": true,
   "name": "Galaxeon",
-  "nationalPokedexNumber": 4313,
   "primaryType": "cosmic",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 184,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.16666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "wonderskin",
-    "magicguard"  ],
+    "magicguard"
+  ],
   "baseStats": {
     "hp": 95,
     "attack": 65,
@@ -14,46 +21,19 @@
     "special_defence": 60,
     "speed": 110
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 95,
+    "attack": 65,
+    "defence": 1,
+    "special_attack": 85,
+    "special_defence": 60,
+    "speed": 110
   },
-  "catchRate": 90,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 184,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
   "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "cobblemon:moon_stone",
-        "quantityRange": "1-1",
-        "percentage": 40
-      }
-    ]
+    "amount": 1
   },
   "moves": [
     "37:asteroidbelt",
@@ -136,33 +116,50 @@
     "tm:wish",
     "tm:wonderroom",
     "tm:workup",
-    "tm:zenheadbutt"  ],
+    "tm:zenheadbutt"
+  ],
   "labels": [
     "soulstones",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.galaxeon.desc"
+    "cobblemon.species.galaxeon.desc1"
   ],
-  "baseScale": 0.16666666666666666,
+  "height": 10,
+  "weight": 290,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 4313,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 95,
-    "attack": 65,
-    "defence": 1,
-    "special_attack": 85,
-    "special_defence": 60,
-    "speed": 110
-  },
-  "height": 10,
-  "weight": 290,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

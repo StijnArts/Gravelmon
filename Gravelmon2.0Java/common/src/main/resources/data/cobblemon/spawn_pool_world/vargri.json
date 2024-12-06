@@ -7,18 +7,19 @@
       "id": "vargri-01",
       "pokemon": "vargri",
       "presets": [
-        "natural"
+        "natural",
+        "near_water"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
+      "bucket": "uncommon",
+      "level": "13-39",
+      "weight": 6.6000000000000005,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_desert"
         ],
+        "timeRange": "night",
         "minSkyLight": 8,
         "maxSkyLight": 15
       },
@@ -36,14 +37,14 @@
       "pokemon": "vargri",
       "type": "pokemon",
       "context": "fishing",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
+      "bucket": "uncommon",
+      "level": "13-39",
+      "weight": 6.6000000000000005,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
-        ]
+          "#cobblemon:is_desert"
+        ],
+        "timeRange": "night"
       },
       "weightMultiplier": {
         "multiplier": 5.0,

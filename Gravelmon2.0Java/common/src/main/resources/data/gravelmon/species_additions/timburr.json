@@ -1,572 +1,601 @@
 {
-   "target": "cobblemon:timburr",
-   "forms": [{
-  "name": "Fabelian",
-  "primaryType": "grass",
-  "secondaryType": "fighting",
-  "abilities": [
-    "keeneye"  ],
-  "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 255,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:absorb",
-    "1:lowkick"  ],
-  "labels": [
-    "fabel",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.fabeliantimburr.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 0,
-  "weight": 0,
-  "aspects": ["fabelian"],
-  "cannotDynamax": false
-},
-{
-  "name": "Epoch",
-  "primaryType": "ghost",
-  "secondaryType": "fighting",
-  "abilities": [
-    "unnerve",
-    "cursedbody",
-    "h:shadowtag"
-  ],
-  "baseStats": {
-    "hp": 75,
-    "attack": 60,
-    "defence": 45,
-    "special_attack": 35,
-    "special_defence": 55,
-    "speed": 35
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 180,
-  "shoulderMountable": false,
-  "baseExperienceYield": 61,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "human_like"
-  ],
-  "moves": [
-    "12:shadowpunch",
-    "56:memento",
-    "40:suckerpunch",
-    "32:spiritshackle",
-    "1:leer",
-    "44:shadowball",
-    "4:vacuumwave",
-    "48:revenge",
-    "52:hammerarm",
-    "28:screech",
-    "1:astonish",
-    "16:bulkup",
-    "24:drainpunch",
-    "8:scaryface",
-    "tm:attract",
-    "tm:bodypress",
-    "tm:bodyslam",
-    "tm:bulkup",
-    "tm:bulldoze",
-    "tm:closecombat",
-    "tm:coaching",
-    "tm:confuseray",
-    "tm:curse",
-    "tm:darkpulse",
-    "tm:drainpunch",
-    "tm:earthpower",
-    "tm:earthquake",
-    "tm:firepunch",
-    "tm:focusblast",
-    "tm:hex",
-    "tm:hiddenpower",
-    "tm:icepunch",
-    "tm:ironhead",
-    "tm:knockoff",
-    "tm:lashout",
-    "tm:memento",
-    "tm:meteormash",
-    "tm:nastyplot",
-    "tm:phantomforce",
-    "tm:playrough",
-    "tm:poltergeist",
-    "tm:possession",
-    "tm:poweruppunch",
-    "tm:protect",
-    "tm:rest",
-    "tm:return",
-    "tm:rockblast",
-    "tm:rockslide",
-    "tm:rocktomb",
-    "tm:shadowball",
-    "tm:shadowpunch",
-    "tm:sleeptalk",
-    "tm:steelroller",
-    "tm:stoneedge",
-    "tm:superpower",
-    "tm:taunt",
-    "tm:terrainpulse",
-    "tm:toxic",
-    "tm:workup",
-    "tm:zenheadbutt",
-    "egg:endure",
-    "egg:counter",
-    "egg:machpunch",
-    "egg:closecombat",
-    "egg:forcepalm",
-    "egg:poweruppunch",
-    "egg:nastyplot",
-    "egg:throatchop",
-    "egg:meanlook"  ],
-  "labels": [
-    "soulstones",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.epochtimburr.desc"
-  ],
-  "evolutions": [
+  "target": "cobblemon:timburr",
+  "forms": [
     {
-      "id": "timburr_epoch_gurdurr",
-      "variant": "level_up",
-      "result": "epoch gurdurr",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
+      "name": "Fabelian",
+      "primaryType": "grass",
+      "secondaryType": "fighting",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:absorb",
+        "1:lowkick"
+      ],
+      "labels": [
+        "fabel",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.fabeliantimburr.desc1"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "fabelian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+          }
+        }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "ghost",
+      "secondaryType": "fighting",
+      "catchRate": 180,
+      "maleRatio": 0.25,
+      "baseExperienceYield": 61,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "unnerve",
+        "cursedbody",
+        "h:shadowtag"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 60,
+        "defence": 45,
+        "special_attack": 35,
+        "special_defence": 55,
+        "speed": 35
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [
+        "12:shadowpunch",
+        "56:memento",
+        "40:suckerpunch",
+        "32:spiritshackle",
+        "1:leer",
+        "44:shadowball",
+        "4:vacuumwave",
+        "48:revenge",
+        "52:hammerarm",
+        "28:screech",
+        "1:astonish",
+        "16:bulkup",
+        "24:drainpunch",
+        "8:scaryface",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:closecombat",
+        "tm:coaching",
+        "tm:confuseray",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:drainpunch",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:firepunch",
+        "tm:focusblast",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:icepunch",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:memento",
+        "tm:meteormash",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:steelroller",
+        "tm:stoneedge",
+        "tm:superpower",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:endure",
+        "egg:counter",
+        "egg:machpunch",
+        "egg:closecombat",
+        "egg:forcepalm",
+        "egg:poweruppunch",
+        "egg:nastyplot",
+        "egg:throatchop",
+        "egg:meanlook"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochtimburr.desc1"
+      ],
+      "height": 6,
+      "weight": 125,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
         {
-          "variant": "level",
-          "minLevel": 25
+          "id": "epochtimburr_epoch_gurdurr",
+          "variant": "level_up",
+          "result": "epoch gurdurr",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "25"
+            }
+          ],
+          "permanent": true
         }
       ],
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 6,
-  "weight": 125,
-  "aspects": ["epoch"],
-  "cannotDynamax": false
-},
-{
-  "name": "Epochtwo",
-  "primaryType": "grass",
-  "secondaryType": "fighting",
-  "abilities": [
-    "oblivious",
-    "sheerforce",
-    "h:ironfist"
-  ],
-  "baseStats": {
-    "hp": 75,
-    "attack": 70,
-    "defence": 55,
-    "special_attack": 35,
-    "special_defence": 35,
-    "speed": 35
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
-    }
-  },
-  "catchRate": 180,
-  "shoulderMountable": false,
-  "baseExperienceYield": 61,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "human_like"
-  ],
-  "moves": [
-    "1:pound",
-    "8:armthrust",
-    "36:zenheadbutt",
-    "48:superpower",
-    "1:leer",
-    "4:branchpoke",
-    "32:leafblade",
-    "44:hammerarm",
-    "16:bulkup",
-    "24:noretreat",
-    "28:drainpunch",
-    "52:woodhammer",
-    "tm:aromatherapy",
-    "tm:attract",
-    "tm:bodypress",
-    "tm:bodyslam",
-    "tm:bulkup",
-    "tm:bulldoze",
-    "tm:bulletseed",
-    "tm:closecombat",
-    "tm:coaching",
-    "tm:crunch",
-    "tm:drainpunch",
-    "tm:earthpower",
-    "tm:earthquake",
-    "tm:energyball",
-    "tm:focusblast",
-    "tm:geomancy",
-    "tm:gigadrain",
-    "tm:grassyterrain",
-    "tm:hiddenpower",
-    "tm:ironhead",
-    "tm:knockoff",
-    "tm:magicalleaf",
-    "tm:meteormash",
-    "tm:nastyplot",
-    "tm:nobleroar",
-    "tm:outrage",
-    "tm:playrough",
-    "tm:poweruppunch",
-    "tm:powerwhip",
-    "tm:protect",
-    "tm:rest",
-    "tm:return",
-    "tm:rockblast",
-    "tm:rockslide",
-    "tm:rocktomb",
-    "tm:shadowpunch",
-    "tm:sleeptalk",
-    "tm:snarl",
-    "tm:solarbeam",
-    "tm:spikyshield",
-    "tm:stealthrock",
-    "tm:steelroller",
-    "tm:stoneedge",
-    "tm:substitute",
-    "tm:superpower",
-    "tm:swordsdance",
-    "tm:synthesis",
-    "tm:taunt",
-    "tm:terrainpulse",
-    "tm:toxic",
-    "tm:wildcharge",
-    "tm:workup",
-    "tm:zenheadbutt",
-    "egg:nobleroar",
-    "egg:workup",
-    "egg:poweruppunch",
-    "egg:wideguard",
-    "egg:rockslide",
-    "egg:snore",
-    "egg:belch"  ],
-  "labels": [
-    "soulstones",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.epochtimburrone.desc"
-  ],
-  "evolutions": [
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
     {
-      "id": "timburr_epochtwo_gurdurr",
-      "variant": "level_up",
-      "result": "epochtwo gurdurr",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
+      "name": "Epochtwo",
+      "primaryType": "grass",
+      "secondaryType": "fighting",
+      "catchRate": 180,
+      "maleRatio": 0.25,
+      "baseExperienceYield": 61,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "oblivious",
+        "sheerforce",
+        "h:ironfist"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 70,
+        "defence": 55,
+        "special_attack": 35,
+        "special_defence": 35,
+        "speed": 35
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [
+        "1:pound",
+        "8:armthrust",
+        "36:zenheadbutt",
+        "48:superpower",
+        "1:leer",
+        "4:branchpoke",
+        "32:leafblade",
+        "44:hammerarm",
+        "16:bulkup",
+        "24:noretreat",
+        "28:drainpunch",
+        "52:woodhammer",
+        "tm:aromatherapy",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:bulletseed",
+        "tm:closecombat",
+        "tm:coaching",
+        "tm:crunch",
+        "tm:drainpunch",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:energyball",
+        "tm:focusblast",
+        "tm:geomancy",
+        "tm:gigadrain",
+        "tm:grassyterrain",
+        "tm:hiddenpower",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:magicalleaf",
+        "tm:meteormash",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:outrage",
+        "tm:playrough",
+        "tm:poweruppunch",
+        "tm:powerwhip",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:solarbeam",
+        "tm:spikyshield",
+        "tm:stealthrock",
+        "tm:steelroller",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:swordsdance",
+        "tm:synthesis",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:wildcharge",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:nobleroar",
+        "egg:workup",
+        "egg:poweruppunch",
+        "egg:wideguard",
+        "egg:rockslide",
+        "egg:snore",
+        "egg:belch"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochtimburrone.desc1"
+      ],
+      "height": 6,
+      "weight": 125,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [
         {
-          "variant": "level",
-          "minLevel": 25
+          "id": "epochtimburrone_epochtwo_gurdurr",
+          "variant": "level_up",
+          "result": "epochtwo gurdurr",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "25"
+            }
+          ],
+          "permanent": true
         }
       ],
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 6,
-  "weight": 125,
-  "aspects": ["epochtwo"],
-  "cannotDynamax": false
-},
-{
-  "name": "Ayreian",
-  "primaryType": "fighting",
-  "secondaryType": "grass",
-  "abilities": [
-    "guts",
-    "sheerforce"  ],
-  "baseStats": {
-    "hp": 75,
-    "attack": 80,
-    "defence": 55,
-    "special_attack": 35,
-    "special_defence": 25,
-    "speed": 45
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
-    }
-  },
-  "catchRate": 180,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "human_like"
-  ],
-  "moves": [
-    "1:pound",
-    "12:karatechop",
-    "24:slam",
-    "44:superpower",
-    "48:grassyglide",
-    "1:leer",
-    "40:stoneedge",
-    "8:leafage",
-    "4:lowkick",
-    "36:hammerarm",
-    "28:seedbomb",
-    "32:dynamicpunch",
-    "16:bulkup",
-    "20:needlearm",
-    "tm:attract",
-    "tm:block",
-    "tm:trailblaze",
-    "tm:brickbreak",
-    "tm:brutalswing",
-    "tm:bulkup",
-    "tm:coaching",
-    "tm:confide",
-    "tm:cut",
-    "tm:dig",
-    "tm:doubleteam",
-    "tm:drainpunch",
-    "tm:endure",
-    "tm:facade",
-    "tm:firepunch",
-    "tm:fling",
-    "tm:focusblast",
-    "tm:focusenergy",
-    "tm:focuspunch",
-    "tm:frustration",
-    "tm:grassknot",
-    "tm:helpinghand",
-    "tm:hiddenpower",
-    "tm:icepunch",
-    "tm:knockoff",
-    "tm:lowkick",
-    "tm:lowsweep",
-    "tm:megakick",
-    "tm:megapunch",
-    "tm:payback",
-    "tm:poisonjab",
-    "tm:poweruppunch",
-    "tm:protect",
-    "tm:raindance",
-    "tm:rest",
-    "tm:retaliate",
-    "tm:return",
-    "tm:revenge",
-    "tm:reversal",
-    "tm:rockslide",
-    "tm:rocksmash",
-    "tm:rocktomb",
-    "tm:round",
-    "tm:scaryface",
-    "tm:sleeptalk",
-    "tm:smackdown",
-    "tm:snore",
-    "tm:stoneedge",
-    "tm:strength",
-    "tm:substitute",
-    "tm:sunnyday",
-    "tm:superpower",
-    "tm:swagger",
-    "tm:taunt",
-    "tm:thunderpunch",
-    "tm:toxic",
-    "tm:workup",
-    "egg:counter",
-    "egg:detect",
-    "egg:wideguard",
-    "egg:machpunch",
-    "egg:poweruppunch",
-    "egg:defog"  ],
-  "labels": [
-    "vanguard",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.ayreiantimburr.desc"
-  ],
-  "evolutions": [
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
     {
-      "id": "timburr_gurdurr_ayreian",
-      "variant": "level_up",
-      "result": "gurdurr ayreian",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
+      "name": "Ayreian",
+      "primaryType": "fighting",
+      "secondaryType": "grass",
+      "catchRate": 180,
+      "maleRatio": 0.25,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "guts",
+        "sheerforce"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 80,
+        "defence": 55,
+        "special_attack": 35,
+        "special_defence": 25,
+        "speed": 45
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [
+        "1:pound",
+        "12:karatechop",
+        "24:slam",
+        "44:superpower",
+        "48:grassyglide",
+        "1:leer",
+        "40:stoneedge",
+        "8:leafage",
+        "4:lowkick",
+        "36:hammerarm",
+        "28:seedbomb",
+        "32:dynamicpunch",
+        "16:bulkup",
+        "20:needlearm",
+        "tm:attract",
+        "tm:block",
+        "tm:trailblaze",
+        "tm:brickbreak",
+        "tm:brutalswing",
+        "tm:bulkup",
+        "tm:coaching",
+        "tm:confide",
+        "tm:cut",
+        "tm:dig",
+        "tm:doubleteam",
+        "tm:drainpunch",
+        "tm:endure",
+        "tm:facade",
+        "tm:firepunch",
+        "tm:fling",
+        "tm:focusblast",
+        "tm:focusenergy",
+        "tm:focuspunch",
+        "tm:frustration",
+        "tm:grassknot",
+        "tm:helpinghand",
+        "tm:hiddenpower",
+        "tm:icepunch",
+        "tm:knockoff",
+        "tm:lowkick",
+        "tm:lowsweep",
+        "tm:megakick",
+        "tm:megapunch",
+        "tm:payback",
+        "tm:poisonjab",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:retaliate",
+        "tm:return",
+        "tm:revenge",
+        "tm:reversal",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:round",
+        "tm:scaryface",
+        "tm:sleeptalk",
+        "tm:smackdown",
+        "tm:snore",
+        "tm:stoneedge",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:superpower",
+        "tm:swagger",
+        "tm:taunt",
+        "tm:thunderpunch",
+        "tm:toxic",
+        "tm:workup",
+        "egg:counter",
+        "egg:detect",
+        "egg:wideguard",
+        "egg:machpunch",
+        "egg:poweruppunch",
+        "egg:defog"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreiantimburr.desc1"
+      ],
+      "height": 6,
+      "weight": 125,
+      "aspects": [
+        "ayreian"
+      ],
+      "evolutions": [
         {
-          "variant": "level",
-          "minLevel": 25
+          "id": "ayreiantimburr_gurdurr_ayreian",
+          "variant": "level_up",
+          "result": "gurdurr ayreian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "25"
+            }
+          ],
+          "permanent": true
         }
       ],
-      "permanent": true   
- }
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+          }
+        }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
   ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 6,
-  "weight": 125,
-  "aspects": ["ayreian"],
-  "cannotDynamax": false
-}
-], "features": [
-"fabelian",
-"epoch",
-"epochtwo",
-"ayreian"
+  "features": [
+    "fabelian",
+    "epoch",
+    "epochtwo",
+    "ayreian"
   ]
 }

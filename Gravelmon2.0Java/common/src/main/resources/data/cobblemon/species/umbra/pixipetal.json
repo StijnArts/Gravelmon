@@ -1,10 +1,17 @@
 {
-  "implemented": true,
   "name": "Pixipetal",
-  "nationalPokedexNumber": 4966,
   "primaryType": "fairy",
+  "catchRate": 190,
+  "maleRatio": 0.25,
+  "baseExperienceYield": 53,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
-    "dancer"  ],
+    "dancer"
+  ],
   "baseStats": {
     "hp": 20,
     "attack": 40,
@@ -13,37 +20,18 @@
     "special_defence": 70,
     "speed": 65
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 190,
-  "maleRatio": 0.25,
-  "shoulderMountable": false,
-  "baseExperienceYield": 53,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "fairy"
   ],
+  "drops": {},
   "moves": [
     "1:leafage",
     "1:babydolleyes",
@@ -95,14 +83,18 @@
     "tutor:magiccoat",
     "tutor:icepunch",
     "tutor:skillswap",
-    "tutor:hypervoice"  ],
+    "tutor:hypervoice"
+  ],
   "labels": [
     "umbra",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.pixipetal.desc"
+    "cobblemon.species.pixipetal.desc1"
   ],
+  "height": 5,
+  "weight": 91,
+  "aspects": [],
   "evolutions": [
     {
       "id": "pixipetal_florafay",
@@ -113,35 +105,47 @@
       "requirements": [
         {
           "variant": "friendship",
-          "amount": 220
+          "amount": "220"
         },
         {
           "variant": "time_range",
           "range": "day"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 4966,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 5,
-  "weight": 91,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

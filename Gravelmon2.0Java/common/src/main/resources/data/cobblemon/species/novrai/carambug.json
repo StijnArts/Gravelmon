@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Carambug",
-  "nationalPokedexNumber": 6810,
   "primaryType": "rock",
   "secondaryType": "bug",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 173,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "ambug",
+  "baseScale": 0.3333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "gooey",
     "h:clearbody"
@@ -16,38 +23,19 @@
     "special_defence": 85,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 173,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "bug",
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:mudslap",
     "11:strugglebug",
@@ -132,7 +120,8 @@
     "tm:extrasensory",
     "tm:acid",
     "tm:rollout",
-    "tm:miracleeye"  ],
+    "tm:miracleeye"
+  ],
   "labels": [
     "novrai",
     "not_modeled",
@@ -140,28 +129,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.carambug.desc"
+    "cobblemon.species.carambug.desc1"
   ],
-  "preEvolution": "ambug",
-  "baseScale": 0.3333333333333333,
+  "height": 20,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6810,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 20,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

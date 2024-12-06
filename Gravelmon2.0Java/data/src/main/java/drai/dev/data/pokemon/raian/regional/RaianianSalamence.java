@@ -32,7 +32,7 @@ public class RaianianSalamence extends drai.dev.data.pokemon.Pokemon {
            setLangFileName("Salamence");
         addAdditionalEvolution("shelgon", new EvolutionEntry("raianiansalamence", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"50"),
-                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_SPOOKY.getId() + ":" + Biome.IS_SPOOKY.getName() +"\""))));
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_SPOOKY.getId() + ":" + Biome.IS_SPOOKY.getName()))));
 
     }
 

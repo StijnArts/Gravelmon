@@ -94,6 +94,6 @@ public class KaskadianJynx extends Pokemon {
         this.setPortraitXYZ(0.1,2.0,0.0);
         addAdditionalEvolution("smoochum", new EvolutionEntry("jynx kaskadian", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"160"),
-                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_TEMPERATE.getId() + ":" + Biome.IS_TEMPERATE.getName() +"\""))));
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_TEMPERATE.getId() + ":" + Biome.IS_TEMPERATE.getName()))));
     }
 }

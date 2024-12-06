@@ -26,7 +26,7 @@ public class Umbrub extends drai.dev.data.pokemon.Pokemon {
                 List.of("Umbrub eggs are laid inside stuffed animals so they have a nutritious meal upon hatching"),
                 List.of(new EvolutionEntry("trepinject", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "night")))),
                 List.of(
                         new MoveLearnSetEntry(Move.VISE_GRIP,1),
                         new MoveLearnSetEntry(Move.HONE_CLAWS,5),

@@ -95,7 +95,7 @@ public class Valevant extends drai.dev.data.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
         addAdditionalEvolution("indeedee", new EvolutionEntry("valevant", EvolutionType.ITEM_INTERACT, false, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY, "\"gender=male\"")),List.of(),"cobblemon:room_service"));
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY, "gender=male")),List.of(),"cobblemon:room_service"));
            setLangFileName("Valevant");
 
     }

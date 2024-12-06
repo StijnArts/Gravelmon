@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Pincess",
-  "nationalPokedexNumber": 7206,
   "primaryType": "bug",
   "secondaryType": "ground",
+  "catchRate": 220,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 78,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "compoundeyes",
     "competitive",
@@ -17,38 +23,19 @@
     "special_defence": 44,
     "speed": 22
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 220,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 78,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "bug",
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:stringshot",
     "3:leechlife",
@@ -56,14 +43,18 @@
     "12:sleeppowder",
     "16:confusion",
     "20:poisonpowder",
-    "24:furycutter"  ],
+    "24:furycutter"
+  ],
   "labels": [
     "amavi",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.pincess.desc"
+    "cobblemon.species.pincess.desc1"
   ],
+  "height": 1,
+  "weight": 14,
+  "aspects": [],
   "evolutions": [
     {
       "id": "pincess_victoriant",
@@ -74,31 +65,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 20
+          "minLevel": "20"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 7206,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 1,
-  "weight": 14,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

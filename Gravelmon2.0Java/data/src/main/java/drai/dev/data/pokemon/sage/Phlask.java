@@ -21,10 +21,10 @@ public class Phlask extends Pokemon {
                 List.of("Laboratory glassware possessed by a playful but frightening spirit. It is known to spew chemicals onto random objects to see what happens."),
                 List.of(new EvolutionEntry("noxial", EvolutionType.LEVEL_UP, true, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"cobblemon:burn_heal\""))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "cobblemon:burn_heal"))),
                         new EvolutionEntry("noxial", EvolutionType.LEVEL_UP, true, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22"),
-                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"cobblemon:ice_heal\"")),List.of(Aspect.EXOTHERMIC))),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "cobblemon:ice_heal")),List.of(Aspect.EXOTHERMIC))),
                 List.of(
                         new MoveLearnSetEntry(Move.POISON_GAS,1),
                         new MoveLearnSetEntry(Move.SMOKESCREEN,1),

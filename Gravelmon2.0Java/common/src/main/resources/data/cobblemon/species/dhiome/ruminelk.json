@@ -1,10 +1,17 @@
 {
-  "implemented": true,
   "name": "Ruminelk",
-  "nationalPokedexNumber": 1518,
   "primaryType": "rock",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.19999999999999998,
+  "cannotDynamax": false,
   "abilities": [
-    "hypercutter"  ],
+    "hypercutter"
+  ],
   "baseStats": {
     "hp": 60,
     "attack": 88,
@@ -13,37 +20,18 @@
     "special_defence": 58,
     "speed": 52
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:tailwhip",
     "4:powdersnow",
@@ -57,14 +45,18 @@
     "44:rockpolish",
     "48:iciclecrash",
     "52:stoneedge",
-    "58:blizzard"  ],
+    "58:blizzard"
+  ],
   "labels": [
     "dhiome",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.ruminelk.desc"
+    "cobblemon.species.ruminelk.desc1"
   ],
+  "height": 12,
+  "weight": 0,
+  "aspects": [],
   "evolutions": [
     {
       "id": "ruminelk_ancervus",
@@ -75,31 +67,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 41
+          "minLevel": "41"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.19999999999999998,
+  "nationalPokedexNumber": 1518,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 12,
-  "weight": 0,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

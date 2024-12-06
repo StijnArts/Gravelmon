@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Anguiterra",
-  "nationalPokedexNumber": 4501,
   "primaryType": "ground",
   "secondaryType": "dragon",
+  "catchRate": 25,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 179,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "lagerm",
+  "baseScale": 0.5,
+  "cannotDynamax": false,
   "abilities": [
     "solidrock",
     "h:rockhead"
@@ -16,38 +23,19 @@
     "special_defence": 115,
     "speed": 20
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 25,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 179,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "bug",
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:mudslap",
     "1:earthquake",
@@ -163,7 +151,8 @@
     "tm:rockblast",
     "tm:rollout",
     "tm:sandtomb",
-    "tm:wideguard"  ],
+    "tm:wideguard"
+  ],
   "labels": [
     "lonava",
     "not_modeled",
@@ -171,28 +160,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.anguiterra.desc"
+    "cobblemon.species.anguiterra.desc1"
   ],
-  "preEvolution": "lagerm",
-  "baseScale": 0.5,
+  "height": 30,
+  "weight": 4000,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 4501,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 30,
-  "weight": 4000,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

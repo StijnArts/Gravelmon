@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Glamarde",
-  "nationalPokedexNumber": 6201,
   "primaryType": "psychic",
   "secondaryType": "fairy",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 208,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "kirgicia",
+  "baseScale": 0.26666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "battlearmor",
     "h:trace"
@@ -16,37 +23,18 @@
     "special_defence": 130,
     "speed": 40
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 208,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "amorphous"
   ],
+  "drops": {},
   "moves": [
     "1:doubleteam",
     "1:teleport",
@@ -129,7 +117,8 @@
     "egg:thunderbolt",
     "egg:trick",
     "egg:wish",
-    "egg:zenheadbutt"  ],
+    "egg:zenheadbutt"
+  ],
   "labels": [
     "deneb",
     "not_modeled",
@@ -138,28 +127,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.glamarde.desc"
+    "cobblemon.species.glamarde.desc1"
   ],
-  "preEvolution": "kirgicia",
-  "baseScale": 0.26666666666666666,
+  "height": 16,
+  "weight": 498,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6201,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 2,
-    "speed": 0
-  },
-  "height": 16,
-  "weight": 498,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

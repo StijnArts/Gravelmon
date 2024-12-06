@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Parapy",
-  "nationalPokedexNumber": 1201,
   "primaryType": "bug",
   "secondaryType": "water",
+  "catchRate": 180,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 67,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 51,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "shedskin",
     "adaptability",
@@ -17,38 +23,21 @@
     "special_defence": 55,
     "speed": 35
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 180,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 67,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 51,
   "eggGroups": [
     "water_2",
     "bug"
   ],
+  "drops": {
+    "amount": 2
+  },
   "moves": [
     "1:leechlife",
     "2:withdraw",
@@ -110,14 +99,18 @@
     "egg:signalbeam",
     "egg:slash",
     "egg:soak",
-    "egg:whirlpool"  ],
+    "egg:whirlpool"
+  ],
   "labels": [
     "sage",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.parapy.desc"
+    "cobblemon.species.parapy.desc1"
   ],
+  "height": 5,
+  "weight": 123,
+  "aspects": [],
   "evolutions": [
     {
       "id": "parapy_mawasite",
@@ -128,31 +121,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 26
+          "minLevel": "26"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 1201,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 5,
-  "weight": 123,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

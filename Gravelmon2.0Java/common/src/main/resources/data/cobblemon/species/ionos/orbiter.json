@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Orbiter",
-  "nationalPokedexNumber": 6561,
   "primaryType": "rock",
   "secondaryType": "electric",
+  "catchRate": 155,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "minore",
+  "baseScale": 0.11666666666666665,
+  "cannotDynamax": false,
   "abilities": [
-    "levitate"  ],
+    "levitate"
+  ],
   "baseStats": {
     "hp": 92,
     "attack": 27,
@@ -14,42 +22,24 @@
     "special_defence": 53,
     "speed": 15
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 155,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:rockthrow",
     "1:thundershock",
     "1:bulkup",
-    "1:bulkup"  ],
+    "1:bulkup"
+  ],
   "labels": [
     "ionos",
     "not_modeled",
@@ -57,9 +47,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.orbiter.desc"
+    "cobblemon.species.orbiter.desc1"
   ],
-  "preEvolution": "minore",
+  "height": 7,
+  "weight": 0,
+  "aspects": [],
   "evolutions": [
     {
       "id": "orbiter_charger",
@@ -70,31 +62,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 38
+          "minLevel": "38"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.11666666666666665,
+  "nationalPokedexNumber": 6561,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 7,
-  "weight": 0,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

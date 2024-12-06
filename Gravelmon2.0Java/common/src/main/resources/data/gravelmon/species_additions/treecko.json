@@ -1,810 +1,850 @@
 {
-   "target": "cobblemon:treecko",
-   "forms": [{
-  "name": "Forman",
-  "primaryType": "fighting",
-  "abilities": [
-    "keeneye"  ],
-  "baseStats": {
-    "hp": 36,
-    "attack": 66,
-    "defence": 39,
-    "special_attack": 19,
-    "special_defence": 39,
-    "speed": 56
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+  "target": "cobblemon:treecko",
+  "forms": [
+    {
+      "name": "Forman",
+      "primaryType": "fighting",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 36,
+        "attack": 66,
+        "defence": 39,
+        "special_attack": 19,
+        "special_defence": 39,
+        "speed": 56
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:lowkick"
+      ],
+      "labels": [
+        "form",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.formantreecko.desc1"
+      ],
+      "height": 5,
+      "weight": 0,
+      "aspects": [
+        "forman"
+      ],
+      "evolutions": [
+        {
+          "id": "formantreecko_muecko",
+          "variant": "level_up",
+          "result": "Muecko",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "16"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
-    }
-  },
-  "catchRate": 45,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:lowkick"  ],
-  "labels": [
-    "form",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.formantreecko.desc"
-  ],
-  "evolutions": [
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
     {
-      "id": "treecko_Muecko",
-      "variant": "level_up",
-      "result": "Muecko",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
+      "name": "Epoch",
+      "primaryType": "bug",
+      "secondaryType": "dragon",
+      "catchRate": 100,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 62,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "colorchange",
+        "compoundeyes",
+        "h:regenerator"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 60,
+        "defence": 50,
+        "special_attack": 70,
+        "special_defence": 40,
+        "speed": 40
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "monster",
+        "dragon"
+      ],
+      "drops": {},
+      "moves": [
+        "25:glare",
+        "17:uturn",
+        "33:xscissor",
+        "7:firstimpression",
+        "1:camouflage",
+        "21:scaleshot",
+        "41:leechlife",
+        "54:megahorn",
+        "13:breakingswipe",
+        "10:furycutter",
+        "37:dragondance",
+        "4:detect",
+        "tm:acrobatics",
+        "tm:aromatherapy",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:bounce",
+        "tm:breakingswipe",
+        "tm:bulletseed",
+        "tm:coaching",
+        "tm:dracometeor",
+        "tm:dragonbreath",
+        "tm:dragonclaw",
+        "tm:dragondance",
+        "tm:drainpunch",
+        "tm:energyball",
+        "tm:falseswipe",
+        "tm:furycutter",
+        "tm:gigadrain",
+        "tm:grassyterrain",
+        "tm:hiddenpower",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:leechlife",
+        "tm:magicalleaf",
+        "tm:outrage",
+        "tm:pinmissile",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:scaleshot",
+        "tm:sleeptalk",
+        "tm:solarbeam",
+        "tm:stoneedge",
+        "tm:strugglebug",
+        "tm:sunnyday",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:uturn",
+        "tm:workup",
+        "egg:crosschop",
+        "egg:attackorder",
+        "egg:healorder",
+        "egg:stickyweb",
+        "egg:agility",
+        "egg:triplekick",
+        "egg:skittersmack",
+        "egg:fellstinger"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochtreecko.desc1"
+      ],
+      "height": 5,
+      "weight": 50,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
         {
-          "variant": "level",
-          "minLevel": 16
+          "id": "epochtreecko_epoch_grovyle",
+          "variant": "level_up",
+          "result": "epoch grovyle",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "16"
+            }
+          ],
+          "permanent": true
         }
       ],
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 5,
-  "weight": 0,
-  "aspects": ["forman"],
-  "cannotDynamax": false
-},
-{
-  "name": "Epoch",
-  "primaryType": "bug",
-  "secondaryType": "dragon",
-  "abilities": [
-    "colorchange",
-    "compoundeyes",
-    "h:regenerator"
-  ],
-  "baseStats": {
-    "hp": 50,
-    "attack": 60,
-    "defence": 50,
-    "special_attack": 70,
-    "special_defence": 40,
-    "speed": 40
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
-    }
-  },
-  "catchRate": 100,
-  "shoulderMountable": false,
-  "baseExperienceYield": 62,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "monster",
-    "dragon"
-  ],
-  "moves": [
-    "25:glare",
-    "17:uturn",
-    "33:xscissor",
-    "7:firstimpression",
-    "1:camouflage",
-    "21:scaleshot",
-    "41:leechlife",
-    "54:megahorn",
-    "13:breakingswipe",
-    "10:furycutter",
-    "37:dragondance",
-    "4:detect",
-    "tm:acrobatics",
-    "tm:aromatherapy",
-    "tm:attract",
-    "tm:bodyslam",
-    "tm:bounce",
-    "tm:breakingswipe",
-    "tm:bulletseed",
-    "tm:coaching",
-    "tm:dracometeor",
-    "tm:dragonbreath",
-    "tm:dragonclaw",
-    "tm:dragondance",
-    "tm:drainpunch",
-    "tm:energyball",
-    "tm:falseswipe",
-    "tm:furycutter",
-    "tm:gigadrain",
-    "tm:grassyterrain",
-    "tm:hiddenpower",
-    "tm:knockoff",
-    "tm:lashout",
-    "tm:leechlife",
-    "tm:magicalleaf",
-    "tm:outrage",
-    "tm:pinmissile",
-    "tm:playrough",
-    "tm:poisonfang",
-    "tm:poisonjab",
-    "tm:protect",
-    "tm:psychicfangs",
-    "tm:rest",
-    "tm:return",
-    "tm:rockblast",
-    "tm:rockslide",
-    "tm:rocktomb",
-    "tm:scaleshot",
-    "tm:sleeptalk",
-    "tm:solarbeam",
-    "tm:stoneedge",
-    "tm:strugglebug",
-    "tm:sunnyday",
-    "tm:swordsdance",
-    "tm:taunt",
-    "tm:terrainpulse",
-    "tm:toxic",
-    "tm:uturn",
-    "tm:workup",
-    "egg:crosschop",
-    "egg:attackorder",
-    "egg:healorder",
-    "egg:stickyweb",
-    "egg:agility",
-    "egg:triplekick",
-    "egg:skittersmack",
-    "egg:fellstinger"  ],
-  "labels": [
-    "soulstones",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.epochtreecko.desc"
-  ],
-  "evolutions": [
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
     {
-      "id": "treecko_epoch_grovyle",
-      "variant": "level_up",
-      "result": "epoch grovyle",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
+      "name": "Avalossian",
+      "primaryType": "rock",
+      "catchRate": 25,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 62,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "sandforce",
+        "h:unburden"
+      ],
+      "baseStats": {
+        "hp": 35,
+        "attack": 65,
+        "defence": 35,
+        "special_attack": 45,
+        "special_defence": 55,
+        "speed": 70
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster",
+        "dragon"
+      ],
+      "drops": {},
+      "moves": [
+        "1:peck",
+        "1:honeclaws",
+        "6:quickattack",
+        "10:metalclaw",
+        "16:irondefense",
+        "22:slash",
+        "26:airslash",
+        "30:rockpolish",
+        "36:powergem",
+        "42:nightslash",
+        "46:focusenergy",
+        "50:stoneedge",
+        "56:doubleedge"
+      ],
+      "labels": [
+        "fliga",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.avalossiantreecko.desc1"
+      ],
+      "height": 5,
+      "weight": 104,
+      "aspects": [
+        "avalossian"
+      ],
+      "evolutions": [
         {
-          "variant": "level",
-          "minLevel": 16
+          "id": "avalossiantreecko_grovyle_avalossian",
+          "variant": "level_up",
+          "result": "grovyle avalossian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "16"
+            }
+          ],
+          "permanent": true
         }
       ],
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 5,
-  "weight": 50,
-  "aspects": ["epoch"],
-  "cannotDynamax": false
-},
-{
-  "name": "Avalossian",
-  "primaryType": "rock",
-  "abilities": [
-    "sandforce",
-    "h:unburden"
-  ],
-  "baseStats": {
-    "hp": 35,
-    "attack": 65,
-    "defence": 35,
-    "special_attack": 45,
-    "special_defence": 55,
-    "speed": 70
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
-    }
-  },
-  "catchRate": 25,
-  "shoulderMountable": false,
-  "baseExperienceYield": 62,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "monster",
-    "dragon"
-  ],
-  "moves": [
-    "1:peck",
-    "1:honeclaws",
-    "6:quickattack",
-    "10:metalclaw",
-    "16:irondefense",
-    "22:slash",
-    "26:airslash",
-    "30:rockpolish",
-    "36:powergem",
-    "42:nightslash",
-    "46:focusenergy",
-    "50:stoneedge",
-    "56:doubleedge"  ],
-  "labels": [
-    "fliga",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.avalossiantreecko.desc"
-  ],
-  "evolutions": [
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
     {
-      "id": "treecko_grovyle_avalossian",
-      "variant": "level_up",
-      "result": "grovyle avalossian",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
+      "name": "Delta",
+      "primaryType": "normal",
+      "secondaryType": "fighting",
+      "catchRate": 45,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 64,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.7,
+      "cannotDynamax": false,
+      "abilities": [
+        "innerfocus",
+        "h:guts"
+      ],
+      "baseStats": {
+        "hp": 40,
+        "attack": 45,
+        "defence": 35,
+        "special_attack": 65,
+        "special_defence": 55,
+        "speed": 70
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:tackle",
+        "1:leer",
+        "5:karatechop",
+        "9:quickattack",
+        "13:furyattack",
+        "17:feint",
+        "21:brickbreak",
+        "25:dragondance",
+        "29:jumpkick",
+        "33:detect",
+        "37:bounce",
+        "41:quickguard",
+        "45:megakick",
+        "49:screech",
+        "tm:honeclaws",
+        "tm:toxic",
+        "tm:bulkup",
+        "tm:hiddenpower",
+        "tm:taunt",
+        "tm:protect",
+        "tm:frustration",
+        "tm:return",
+        "tm:dig",
+        "tm:brickbreak",
+        "tm:doubleteam",
+        "tm:rocktomb",
+        "tm:aerialace",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:lowsweep",
+        "tm:focusblast",
+        "tm:falseswipe",
+        "tm:fling",
+        "tm:shadowclaw",
+        "tm:retaliate",
+        "tm:psychup",
+        "tm:drainpunch",
+        "tm:rockslide",
+        "tm:xscissor",
+        "tm:poisonjab",
+        "tm:grassknot",
+        "tm:swagger",
+        "tm:poweruppunch",
+        "tm:uturn",
+        "tm:substitute",
+        "tm:smackdown",
+        "tm:sleeptalk",
+        "tm:acrobatics",
+        "tm:achillesheel",
+        "tm:echoedvoice",
+        "tm:round",
+        "tm:captivate",
+        "tm:snarl",
+        "tm:confide",
+        "tm:secretpower",
+        "tm:cut",
+        "tm:strength",
+        "tutor:acid",
+        "tutor:aurasphere",
+        "tutor:bodyslam",
+        "tutor:bounce",
+        "tutor:counter",
+        "tutor:dig",
+        "tutor:dynamicpunch",
+        "tutor:endeavor",
+        "tutor:endure",
+        "tutor:firepunch",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:knockoff",
+        "tutor:lastresort",
+        "tutor:lowkick",
+        "tutor:megakick",
+        "tutor:megapunch",
+        "tutor:mimic",
+        "tutor:seismictoss",
+        "tutor:snore",
+        "tutor:thunderpunch",
+        "tutor:uproar",
+        "tutor:zenheadbutt"
+      ],
+      "labels": [
+        "gen3",
+        "insurgence"
+      ],
+      "pokedex": [
+        "cobblemon.species.deltatreecko.desc1"
+      ],
+      "height": 5,
+      "weight": 50,
+      "aspects": [
+        "delta"
+      ],
+      "evolutions": [
         {
-          "variant": "level",
-          "minLevel": 16
+          "id": "deltatreecko_grovyle_delta",
+          "variant": "level_up",
+          "result": "grovyle delta",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "16"
+            }
+          ],
+          "permanent": true
         }
       ],
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 5,
-  "weight": 104,
-  "aspects": ["avalossian"],
-  "cannotDynamax": false
-},
-{
-  "name": "Delta",
-  "primaryType": "normal",
-  "secondaryType": "fighting",
-  "abilities": [
-    "innerfocus",
-    "h:guts"
-  ],
-  "baseStats": {
-    "hp": 40,
-    "attack": 45,
-    "defence": 35,
-    "special_attack": 65,
-    "special_defence": 55,
-    "speed": 70
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
-    }
-  },
-  "catchRate": 45,
-  "shoulderMountable": false,
-  "baseExperienceYield": 64,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "undiscovered"
-  ],
-  "moves": [
-    "1:tackle",
-    "1:leer",
-    "5:karatechop",
-    "9:quickattack",
-    "13:furyattack",
-    "17:feint",
-    "21:brickbreak",
-    "25:dragondance",
-    "29:jumpkick",
-    "33:detect",
-    "37:bounce",
-    "41:quickguard",
-    "45:megakick",
-    "49:screech",
-    "tm:honeclaws",
-    "tm:toxic",
-    "tm:bulkup",
-    "tm:hiddenpower",
-    "tm:taunt",
-    "tm:protect",
-    "tm:frustration",
-    "tm:return",
-    "tm:dig",
-    "tm:brickbreak",
-    "tm:doubleteam",
-    "tm:rocktomb",
-    "tm:aerialace",
-    "tm:facade",
-    "tm:rest",
-    "tm:attract",
-    "tm:lowsweep",
-    "tm:focusblast",
-    "tm:falseswipe",
-    "tm:fling",
-    "tm:shadowclaw",
-    "tm:retaliate",
-    "tm:psychup",
-    "tm:drainpunch",
-    "tm:rockslide",
-    "tm:xscissor",
-    "tm:poisonjab",
-    "tm:grassknot",
-    "tm:swagger",
-    "tm:poweruppunch",
-    "tm:uturn",
-    "tm:substitute",
-    "tm:smackdown",
-    "tm:sleeptalk",
-    "tm:acrobatics",
-    "tm:achillesheel",
-    "tm:echoedvoice",
-    "tm:round",
-    "tm:captivate",
-    "tm:snarl",
-    "tm:confide",
-    "tm:secretpower",
-    "tm:cut",
-    "tm:strength",
-    "tutor:acid",
-    "tutor:aurasphere",
-    "tutor:bodyslam",
-    "tutor:bounce",
-    "tutor:counter",
-    "tutor:dig",
-    "tutor:dynamicpunch",
-    "tutor:endeavor",
-    "tutor:endure",
-    "tutor:firepunch",
-    "tutor:helpinghand",
-    "tutor:hypervoice",
-    "tutor:knockoff",
-    "tutor:lastresort",
-    "tutor:lowkick",
-    "tutor:megakick",
-    "tutor:megapunch",
-    "tutor:mimic",
-    "tutor:seismictoss",
-    "tutor:snore",
-    "tutor:thunderpunch",
-    "tutor:uproar",
-    "tutor:zenheadbutt"  ],
-  "labels": [
-    "gen3",
-    "insurgence"
-  ],
-  "pokedex": [
-    "cobblemon.species.deltatreecko.desc"
-  ],
-  "evolutions": [
+      },
+      "hitbox": {
+        "width": 0.6,
+        "height": 1.2,
+        "fixed": false
+      }
+    },
     {
-      "id": "treecko_grovyle_delta",
-      "variant": "level_up",
-      "result": "grovyle delta",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
+      "name": "Ayreian",
+      "primaryType": "bug",
+      "catchRate": 45,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "mimicry",
+        "stakeout"
+      ],
+      "baseStats": {
+        "hp": 40,
+        "attack": 60,
+        "defence": 55,
+        "special_attack": 70,
+        "special_defence": 60,
+        "speed": 35
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster",
+        "dragon"
+      ],
+      "drops": {},
+      "moves": [
+        "1:pound",
+        "15:honeclaws",
+        "8:quickattack",
+        "1:leer",
+        "12:furycutter",
+        "20:strugglebug",
+        "25:slash",
+        "38:naturepower",
+        "43:bugbuzz",
+        "35:dualchop",
+        "30:pinmissile",
+        "49:detect",
+        "tm:acrobatics",
+        "tm:aerialace",
+        "tm:agility",
+        "tm:assurance",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:breakingswipe",
+        "tm:brickbreak",
+        "tm:brutalswing",
+        "tm:bulldoze",
+        "tm:bulletseed",
+        "tm:confide",
+        "tm:crosspoison",
+        "tm:crunch",
+        "tm:cut",
+        "tm:dig",
+        "tm:doubleteam",
+        "tm:drainpunch",
+        "tm:dualchop",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:facade",
+        "tm:falseswipe",
+        "tm:fling",
+        "tm:focusblast",
+        "tm:focuspunch",
+        "tm:frustration",
+        "tm:gigadrain",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:grassyterrain",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:irontail",
+        "tm:laserfocus",
+        "tm:leafblade",
+        "tm:lowkick",
+        "tm:lowsweep",
+        "tm:megakick",
+        "tm:megapunch",
+        "tm:naturepower",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:roar",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:round",
+        "tm:safeguard",
+        "tm:scaleshot",
+        "tm:screech",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:solarblade",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:swift",
+        "tm:swordsdance",
+        "tm:throatchop",
+        "tm:thunderpunch",
+        "tm:toxic",
+        "tm:workup",
+        "tm:worryseed",
+        "tm:xscissor",
+        "tm:leechlife"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreiantreecko.desc1"
+      ],
+      "height": 5,
+      "weight": 50,
+      "aspects": [
+        "ayreian"
+      ],
+      "evolutions": [
         {
-          "variant": "level",
-          "minLevel": 16
+          "id": "ayreiantreecko_grovyle_ayreian",
+          "variant": "level_up",
+          "result": "grovyle ayreian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "16"
+            }
+          ],
+          "permanent": true
         }
       ],
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.7,
-  "hitbox": {
-    "width": 0.6,
-    "height": 1.2,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 5,
-  "weight": 50,
-  "aspects": ["delta"],
-  "cannotDynamax": false
-},
-{
-  "name": "Ayreian",
-  "primaryType": "bug",
-  "abilities": [
-    "mimicry",
-    "stakeout"  ],
-  "baseStats": {
-    "hp": 40,
-    "attack": 60,
-    "defence": 55,
-    "special_attack": 70,
-    "special_defence": 60,
-    "speed": 35
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
-    }
-  },
-  "catchRate": 45,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "monster",
-    "dragon"
-  ],
-  "moves": [
-    "1:pound",
-    "15:honeclaws",
-    "8:quickattack",
-    "1:leer",
-    "12:furycutter",
-    "20:strugglebug",
-    "25:slash",
-    "38:naturepower",
-    "43:bugbuzz",
-    "35:dualchop",
-    "30:pinmissile",
-    "49:detect",
-    "tm:acrobatics",
-    "tm:aerialace",
-    "tm:agility",
-    "tm:assurance",
-    "tm:attract",
-    "tm:bodyslam",
-    "tm:breakingswipe",
-    "tm:brickbreak",
-    "tm:brutalswing",
-    "tm:bulldoze",
-    "tm:bulletseed",
-    "tm:confide",
-    "tm:crosspoison",
-    "tm:crunch",
-    "tm:cut",
-    "tm:dig",
-    "tm:doubleteam",
-    "tm:drainpunch",
-    "tm:dualchop",
-    "tm:endeavor",
-    "tm:endure",
-    "tm:facade",
-    "tm:falseswipe",
-    "tm:fling",
-    "tm:focusblast",
-    "tm:focuspunch",
-    "tm:frustration",
-    "tm:gigadrain",
-    "tm:gigaimpact",
-    "tm:grassknot",
-    "tm:grassyterrain",
-    "tm:hiddenpower",
-    "tm:hyperbeam",
-    "tm:irontail",
-    "tm:laserfocus",
-    "tm:leafblade",
-    "tm:lowkick",
-    "tm:lowsweep",
-    "tm:megakick",
-    "tm:megapunch",
-    "tm:naturepower",
-    "tm:poweruppunch",
-    "tm:protect",
-    "tm:rest",
-    "tm:return",
-    "tm:roar",
-    "tm:rockslide",
-    "tm:rocksmash",
-    "tm:rocktomb",
-    "tm:round",
-    "tm:safeguard",
-    "tm:scaleshot",
-    "tm:screech",
-    "tm:sleeptalk",
-    "tm:snore",
-    "tm:solarbeam",
-    "tm:solarblade",
-    "tm:strength",
-    "tm:substitute",
-    "tm:sunnyday",
-    "tm:swagger",
-    "tm:swift",
-    "tm:swordsdance",
-    "tm:throatchop",
-    "tm:thunderpunch",
-    "tm:toxic",
-    "tm:workup",
-    "tm:worryseed",
-    "tm:xscissor",
-    "tm:leechlife"  ],
-  "labels": [
-    "vanguard",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.ayreiantreecko.desc"
-  ],
-  "evolutions": [
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
     {
-      "id": "treecko_grovyle_ayreian",
-      "variant": "level_up",
-      "result": "grovyle ayreian",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
+      "name": "Mystic",
+      "primaryType": "flying",
+      "catchRate": 45,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 64,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "limber",
+        "h:keeneye"
+      ],
+      "baseStats": {
+        "hp": 40,
+        "attack": 35,
+        "defence": 45,
+        "special_attack": 55,
+        "special_defence": 65,
+        "speed": 70
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "dragon",
+        "monster"
+      ],
+      "drops": {},
+      "moves": [
+        "5:fairywind",
+        "1:growl",
+        "2:lifedew",
+        "1:pound",
+        "8:gust",
+        "12:charm",
+        "16:ancientpower",
+        "20:aircutter",
+        "24:metronome",
+        "28:afteryou",
+        "32:doubleedge",
+        "36:safeguard",
+        "40:followme",
+        "44:batonpass",
+        "48:lastresort",
+        "52:wish"
+      ],
+      "labels": [
+        "gen3",
+        "azure",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.mystictreecko.desc1"
+      ],
+      "height": 5,
+      "weight": 50,
+      "aspects": [
+        "mystic"
+      ],
+      "evolutions": [
         {
-          "variant": "level",
-          "minLevel": 16
+          "id": "mystictreecko_grovyle_mystic",
+          "variant": "level_up",
+          "result": "grovyle mystic",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "16"
+            }
+          ],
+          "permanent": true
         }
       ],
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 5,
-  "weight": 50,
-  "aspects": ["ayreian"],
-  "cannotDynamax": false
-},
-{
-  "name": "Mystic",
-  "primaryType": "flying",
-  "abilities": [
-    "limber",
-    "h:keeneye"
-  ],
-  "baseStats": {
-    "hp": 40,
-    "attack": 35,
-    "defence": 45,
-    "special_attack": 55,
-    "special_defence": 65,
-    "speed": 70
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
             "canFly": true
-        },
-        "canLook": true,
-        "walk": {
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     }
-  },
-  "catchRate": 45,
-  "shoulderMountable": false,
-  "baseExperienceYield": 64,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "dragon",
-    "monster"
   ],
-  "moves": [
-    "5:fairywind",
-    "1:growl",
-    "2:lifedew",
-    "1:pound",
-    "8:gust",
-    "12:charm",
-    "16:ancientpower",
-    "20:aircutter",
-    "24:metronome",
-    "28:afteryou",
-    "32:doubleedge",
-    "36:safeguard",
-    "40:followme",
-    "44:batonpass",
-    "48:lastresort",
-    "52:wish"  ],
-  "labels": [
-    "gen3",
-    "azure",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.mystictreecko.desc"
-  ],
-  "evolutions": [
-    {
-      "id": "treecko_grovyle_mystic",
-      "variant": "level_up",
-      "result": "grovyle mystic",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": 16
-        }
-      ],
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 5,
-  "weight": 50,
-  "aspects": ["mystic"],
-  "cannotDynamax": false
-}
-], "features": [
-"forman",
-"epoch",
-"avalossian",
-"delta",
-"ayreian",
-"mystic"
+  "features": [
+    "forman",
+    "epoch",
+    "avalossian",
+    "delta",
+    "ayreian",
+    "mystic"
   ]
 }

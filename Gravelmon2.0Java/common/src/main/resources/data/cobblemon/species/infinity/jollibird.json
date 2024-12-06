@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Jollibird",
-  "nationalPokedexNumber": 1447,
   "primaryType": "ice",
   "secondaryType": "fairy",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 176,
+  "experienceGroup": "fast",
+  "eggCycles": 39,
+  "baseFriendship": 70,
+  "preEvolution": "delibird",
+  "baseScale": 0.2333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "thickfat",
     "hustle",
@@ -17,46 +24,19 @@
     "special_defence": 120,
     "speed": 70
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 176,
-  "experienceGroup": "fast",
-  "eggCycles": 39,
   "eggGroups": [
     "amorphous"
   ],
   "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "gravelmon:astral_stone",
-        "quantityRange": "1-1",
-        "percentage": 40
-      }
-    ]
+    "amount": 1
   },
   "moves": [
     "1:dazzlinggleam",
@@ -148,35 +128,51 @@
     "egg:icywind",
     "egg:quickattack",
     "egg:rapidspin",
-    "egg:splash"  ],
+    "egg:splash"
+  ],
   "labels": [
     "infinity",
     "not_modeled",
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.jollibird.desc"
+    "cobblemon.species.jollibird.desc1"
   ],
-  "preEvolution": "delibird",
-  "baseScale": 0.2333333333333333,
+  "height": 14,
+  "weight": 980,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1447,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 2,
-    "speed": 0
-  },
-  "height": 14,
-  "weight": 980,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -129,6 +129,6 @@ public class ArmiranTyranitar extends Pokemon {
         setPreEvolution("Pupitar");
         addAdditionalEvolution("pupitar", new EvolutionEntry("tyranitar armiran", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"50"),
-                        new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.ERUPTION.getName()+"\""))));
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.ERUPTION.getName()))));
     }
 }

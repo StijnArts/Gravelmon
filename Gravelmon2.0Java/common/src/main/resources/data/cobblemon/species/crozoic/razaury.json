@@ -1,10 +1,17 @@
 {
-  "implemented": true,
   "name": "Razaury",
-  "nationalPokedexNumber": 4322,
   "primaryType": "normal",
+  "catchRate": 150,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.19999999999999998,
+  "cannotDynamax": false,
   "abilities": [
-    "toughclaws"  ],
+    "toughclaws"
+  ],
   "baseStats": {
     "hp": 78,
     "attack": 66,
@@ -13,38 +20,19 @@
     "special_defence": 74,
     "speed": 32
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 150,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "monster",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:nightslash",
     "1:crosschop",
@@ -97,14 +85,18 @@
     "tm:takedown",
     "tm:thunder",
     "tm:thunderbolt",
-    "tm:xscissor"  ],
+    "tm:xscissor"
+  ],
   "labels": [
     "crozoic",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.razaury.desc"
+    "cobblemon.species.razaury.desc1"
   ],
+  "height": 12,
+  "weight": 800,
+  "aspects": [],
   "evolutions": [
     {
       "id": "razaury_therislash",
@@ -118,28 +110,40 @@
           "itemCondition": "cobblemon:razor_claw"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.19999999999999998,
+  "nationalPokedexNumber": 4322,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 12,
-  "weight": 800,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

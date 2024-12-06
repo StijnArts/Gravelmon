@@ -1,10 +1,18 @@
 {
-  "implemented": true,
   "name": "Tofigur",
-  "nationalPokedexNumber": 2022,
   "primaryType": "psychic",
+  "catchRate": 85,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 140,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "figura",
+  "baseScale": 0.2833333333333333,
+  "cannotDynamax": false,
   "abilities": [
-    "magicbounce"  ],
+    "magicbounce"
+  ],
   "baseStats": {
     "hp": 70,
     "attack": 35,
@@ -13,37 +21,18 @@
     "special_defence": 99,
     "speed": 75
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 85,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 140,
-  "experienceGroup": "fluctuating",
-  "eggCycles": 50,
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {},
   "moves": [
     "1:sharpen",
     "7:conversion",
@@ -55,7 +44,8 @@
     "30:psybeam",
     "34:calmmind",
     "38:simplebeam",
-    "44:futuresight"  ],
+    "44:futuresight"
+  ],
   "labels": [
     "enriko",
     "not_modeled",
@@ -63,28 +53,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.tofigur.desc"
+    "cobblemon.species.tofigur.desc1"
   ],
-  "preEvolution": "figura",
-  "baseScale": 0.2833333333333333,
+  "height": 17,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2022,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 17,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

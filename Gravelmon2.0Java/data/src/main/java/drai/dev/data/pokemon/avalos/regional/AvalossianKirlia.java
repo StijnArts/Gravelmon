@@ -24,7 +24,7 @@ public class AvalossianKirlia extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.HUMAN_LIKE,EggGroup.AMORPHOUS),
                 List.of("The cheerful spirit of its Trainer gives it energy for its psychokinetic power. It spins and dances when happy."),
                 List.of(new EvolutionEntry("Avalossiangallade", EvolutionType.ITEM_INTERACT, false, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY, "\"gender=male\"")),List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY, "gender=male")),List.of(),
                         "cobblemon:shiny_stone"),
                         new EvolutionEntry("Avalossiangardevoir", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),

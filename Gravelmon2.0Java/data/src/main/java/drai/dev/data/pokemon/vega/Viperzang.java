@@ -89,7 +89,7 @@ public class Viperzang extends Pokemon {
                 0.4, 0.3,
                 List.of());
         addAdditionalEvolution("zangoose", new EvolutionEntry("viperzang", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"\"seviper\""))));
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"seviper"))));
         addAdditionalEvolution("zangoose", new EvolutionEntry("viperzang", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"cobblemon:dusk_stone"));
     }

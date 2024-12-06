@@ -1,539 +1,568 @@
 {
-   "target": "cobblemon:mudkip",
-   "forms": [{
-  "name": "Forman",
-  "primaryType": "rock",
-  "abilities": [
-    "keeneye"  ],
-  "baseStats": {
-    "hp": 56,
-    "attack": 19,
-    "defence": 67,
-    "special_attack": 56,
-    "special_defence": 47,
-    "speed": 11
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+  "target": "cobblemon:mudkip",
+  "forms": [
+    {
+      "name": "Forman",
+      "primaryType": "rock",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 56,
+        "attack": 19,
+        "defence": 67,
+        "special_attack": 56,
+        "special_defence": 47,
+        "speed": 11
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:rockthrow",
+        "1:bulkup",
+        "1:healbell"
+      ],
+      "labels": [
+        "form",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.formanmudkip.desc1"
+      ],
+      "height": 4,
+      "weight": 0,
+      "aspects": [
+        "forman"
+      ],
+      "evolutions": [
+        {
+          "id": "formanmudkip_salathyst",
+          "variant": "level_up",
+          "result": "Salathyst",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "16"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
-    }
-  },
-  "catchRate": 45,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:rockthrow",
-    "1:bulkup",
-    "1:healbell"  ],
-  "labels": [
-    "form",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.formanmudkip.desc"
-  ],
-  "evolutions": [
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
     {
-      "id": "mudkip_Salathyst",
-      "variant": "level_up",
-      "result": "Salathyst",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
+      "name": "Epoch",
+      "primaryType": "cosmic",
+      "secondaryType": "fire",
+      "catchRate": 90,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 62,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "filter"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 40,
+        "defence": 50,
+        "special_attack": 40,
+        "special_defence": 50,
+        "speed": 70
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster"
+      ],
+      "drops": {},
+      "moves": [
+        "4:firespin",
+        "10:asteroidbelt",
+        "67:bigbang",
+        "57:fireblast",
+        "16:incinerate",
+        "20:willowisp",
+        "32:cosmicpower",
+        "62:photongeyser",
+        "1:growl",
+        "28:flameburst",
+        "40:lavaplume",
+        "48:screech",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:burningjealousy",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:dragonbreath",
+        "tm:dragonclaw",
+        "tm:drainpunch",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:echoedvoice",
+        "tm:expandingforce",
+        "tm:firefang",
+        "tm:firepunch",
+        "tm:flamethrower",
+        "tm:flareblitz",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:haze",
+        "tm:heatwave",
+        "tm:hiddenpower",
+        "tm:incinerate",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lightscreen",
+        "tm:magicroom",
+        "tm:meteorbeam",
+        "tm:meteormash",
+        "tm:mirrorshot",
+        "tm:moonblast",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:playrough",
+        "tm:powergem",
+        "tm:protect",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:safeguard",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:stealthrock",
+        "tm:stoneedge",
+        "tm:sunnyday",
+        "tm:superpower",
+        "tm:swift",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:triattack",
+        "tm:weatherball",
+        "tm:willowisp",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:burnup",
+        "egg:heatwave",
+        "egg:gravity",
+        "egg:defensecurl",
+        "egg:magiccoat",
+        "egg:gammaray",
+        "egg:overheat"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochmudkip.desc1"
+      ],
+      "height": 4,
+      "weight": 76,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
         {
-          "variant": "level",
-          "minLevel": 16
+          "id": "epochmudkip_epoch_marshtomp",
+          "variant": "level_up",
+          "result": "epoch marshtomp",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "16"
+            }
+          ],
+          "permanent": true
         }
       ],
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 4,
-  "weight": 0,
-  "aspects": ["forman"],
-  "cannotDynamax": false
-},
-{
-  "name": "Epoch",
-  "primaryType": "cosmic",
-  "secondaryType": "fire",
-  "abilities": [
-    "filter"  ],
-  "baseStats": {
-    "hp": 60,
-    "attack": 40,
-    "defence": 50,
-    "special_attack": 40,
-    "special_defence": 50,
-    "speed": 70
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
-    }
-  },
-  "catchRate": 90,
-  "shoulderMountable": false,
-  "baseExperienceYield": 62,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "monster"
-  ],
-  "moves": [
-    "4:firespin",
-    "10:asteroidbelt",
-    "67:bigbang",
-    "57:fireblast",
-    "16:incinerate",
-    "20:willowisp",
-    "32:cosmicpower",
-    "62:photongeyser",
-    "1:growl",
-    "28:flameburst",
-    "40:lavaplume",
-    "48:screech",
-    "tm:attract",
-    "tm:aurasphere",
-    "tm:bodypress",
-    "tm:bodyslam",
-    "tm:bulkup",
-    "tm:bulldoze",
-    "tm:burningjealousy",
-    "tm:calmmind",
-    "tm:chargebeam",
-    "tm:confuseray",
-    "tm:cosmicpower",
-    "tm:crunch",
-    "tm:curse",
-    "tm:darkpulse",
-    "tm:dazzlinggleam",
-    "tm:dragonbreath",
-    "tm:dragonclaw",
-    "tm:drainpunch",
-    "tm:earthpower",
-    "tm:earthquake",
-    "tm:echoedvoice",
-    "tm:expandingforce",
-    "tm:firefang",
-    "tm:firepunch",
-    "tm:flamethrower",
-    "tm:flareblitz",
-    "tm:focusblast",
-    "tm:gammaray",
-    "tm:geomancy",
-    "tm:haze",
-    "tm:heatwave",
-    "tm:hiddenpower",
-    "tm:incinerate",
-    "tm:ironhead",
-    "tm:knockoff",
-    "tm:lightscreen",
-    "tm:magicroom",
-    "tm:meteorbeam",
-    "tm:meteormash",
-    "tm:mirrorshot",
-    "tm:moonblast",
-    "tm:mysticalfire",
-    "tm:nastyplot",
-    "tm:playrough",
-    "tm:powergem",
-    "tm:protect",
-    "tm:reflect",
-    "tm:rest",
-    "tm:return",
-    "tm:rockblast",
-    "tm:rockslide",
-    "tm:safeguard",
-    "tm:signalbeam",
-    "tm:sleeptalk",
-    "tm:stealthrock",
-    "tm:stoneedge",
-    "tm:sunnyday",
-    "tm:superpower",
-    "tm:swift",
-    "tm:taunt",
-    "tm:terrainpulse",
-    "tm:toxic",
-    "tm:triattack",
-    "tm:weatherball",
-    "tm:willowisp",
-    "tm:wish",
-    "tm:workup",
-    "tm:zenheadbutt",
-    "egg:burnup",
-    "egg:heatwave",
-    "egg:gravity",
-    "egg:defensecurl",
-    "egg:magiccoat",
-    "egg:gammaray",
-    "egg:overheat"  ],
-  "labels": [
-    "soulstones",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.epochmudkip.desc"
-  ],
-  "evolutions": [
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
     {
-      "id": "mudkip_epoch_marshtomp",
-      "variant": "level_up",
-      "result": "epoch marshtomp",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
+      "name": "Epochtwo",
+      "primaryType": "rock",
+      "secondaryType": "light",
+      "catchRate": 90,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 62,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "solidrock",
+        "wonderskin"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 40,
+        "defence": 40,
+        "special_attack": 50,
+        "special_defence": 70,
+        "speed": 40
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster",
+        "water_1"
+      ],
+      "drops": {},
+      "moves": [
+        "12:stealthrock",
+        "16:flash",
+        "24:rockpolish",
+        "28:signalbeam",
+        "47:geomancy",
+        "58:photongeyser",
+        "43:powergem",
+        "38:dazzlinggleam",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:closecombat",
+        "tm:cosmicpower",
+        "tm:dazzlinggleam",
+        "tm:drainpunch",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:hiddenpower",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lightscreen",
+        "tm:memento",
+        "tm:meteorbeam",
+        "tm:meteormash",
+        "tm:metronome",
+        "tm:mirrorshot",
+        "tm:mudslide",
+        "tm:playrough",
+        "tm:powergem",
+        "tm:protect",
+        "tm:quicksand",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:safeguard",
+        "tm:sandstorm",
+        "tm:sandtomb",
+        "tm:scorchingsands",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:spikes",
+        "tm:stealthrock",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:swift",
+        "tm:tailglow",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:aurorabeam",
+        "egg:ancientpower",
+        "egg:tailglow",
+        "egg:dig",
+        "egg:harden",
+        "egg:lightscreen",
+        "egg:diamondstorm"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochmudkipone.desc1"
+      ],
+      "height": 4,
+      "weight": 76,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [
         {
-          "variant": "level",
-          "minLevel": 16
+          "id": "epochmudkipone_epochtwo_marshtomp",
+          "variant": "level_up",
+          "result": "epochtwo marshtomp",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "16"
+            }
+          ],
+          "permanent": true
         }
       ],
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 4,
-  "weight": 76,
-  "aspects": ["epoch"],
-  "cannotDynamax": false
-},
-{
-  "name": "Epochtwo",
-  "primaryType": "rock",
-  "secondaryType": "light",
-  "abilities": [
-    "solidrock",
-    "wonderskin"  ],
-  "baseStats": {
-    "hp": 70,
-    "attack": 40,
-    "defence": 40,
-    "special_attack": 50,
-    "special_defence": 70,
-    "speed": 40
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
-    }
-  },
-  "catchRate": 90,
-  "shoulderMountable": false,
-  "baseExperienceYield": 62,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "monster",
-    "water_1"
-  ],
-  "moves": [
-    "12:stealthrock",
-    "16:flash",
-    "24:rockpolish",
-    "28:signalbeam",
-    "47:geomancy",
-    "58:photongeyser",
-    "43:powergem",
-    "38:dazzlinggleam",
-    "tm:attract",
-    "tm:aurasphere",
-    "tm:bodypress",
-    "tm:bodyslam",
-    "tm:bulkup",
-    "tm:bulldoze",
-    "tm:closecombat",
-    "tm:cosmicpower",
-    "tm:dazzlinggleam",
-    "tm:drainpunch",
-    "tm:earthpower",
-    "tm:earthquake",
-    "tm:focusblast",
-    "tm:gammaray",
-    "tm:geomancy",
-    "tm:hiddenpower",
-    "tm:ironhead",
-    "tm:knockoff",
-    "tm:lightscreen",
-    "tm:memento",
-    "tm:meteorbeam",
-    "tm:meteormash",
-    "tm:metronome",
-    "tm:mirrorshot",
-    "tm:mudslide",
-    "tm:playrough",
-    "tm:powergem",
-    "tm:protect",
-    "tm:quicksand",
-    "tm:reflect",
-    "tm:rest",
-    "tm:return",
-    "tm:rockblast",
-    "tm:rockslide",
-    "tm:rocktomb",
-    "tm:safeguard",
-    "tm:sandstorm",
-    "tm:sandtomb",
-    "tm:scorchingsands",
-    "tm:signalbeam",
-    "tm:sleeptalk",
-    "tm:spikes",
-    "tm:stealthrock",
-    "tm:stoneedge",
-    "tm:substitute",
-    "tm:superpower",
-    "tm:swift",
-    "tm:tailglow",
-    "tm:taunt",
-    "tm:terrainpulse",
-    "tm:toxic",
-    "tm:wish",
-    "tm:workup",
-    "tm:zenheadbutt",
-    "egg:aurorabeam",
-    "egg:ancientpower",
-    "egg:tailglow",
-    "egg:dig",
-    "egg:harden",
-    "egg:lightscreen",
-    "egg:diamondstorm"  ],
-  "labels": [
-    "soulstones",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.epochmudkipone.desc"
-  ],
-  "evolutions": [
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
     {
-      "id": "mudkip_epochtwo_marshtomp",
-      "variant": "level_up",
-      "result": "epochtwo marshtomp",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
+      "name": "Mystic",
+      "primaryType": "fighting",
+      "catchRate": 45,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 64,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "immunity",
+        "h:innerfocus"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 70,
+        "defence": 50,
+        "special_attack": 40,
+        "special_defence": 50,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_1",
+        "monster"
+      ],
+      "drops": {},
+      "moves": [
+        "1:leer",
+        "1:tackle",
+        "4:armthrust",
+        "8:twister",
+        "12:circlethrow",
+        "16:lowsweep",
+        "20:workup",
+        "24:slash",
+        "28:vitalthrow",
+        "33:scaleshot",
+        "36:bodyslam",
+        "40:dragondance",
+        "44:dragontail",
+        "44:closecombat",
+        "48:muddywater"
+      ],
+      "labels": [
+        "gen3",
+        "azure",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.mysticmudkip.desc1"
+      ],
+      "height": 4,
+      "weight": 76,
+      "aspects": [
+        "mystic"
+      ],
+      "evolutions": [
         {
-          "variant": "level",
-          "minLevel": 16
+          "id": "mysticmudkip_marshtomp_mystic",
+          "variant": "level_up",
+          "result": "marshtomp mystic",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "16"
+            }
+          ],
+          "permanent": true
         }
       ],
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 4,
-  "weight": 76,
-  "aspects": ["epochtwo"],
-  "cannotDynamax": false
-},
-{
-  "name": "Mystic",
-  "primaryType": "fighting",
-  "abilities": [
-    "immunity",
-    "h:innerfocus"
-  ],
-  "baseStats": {
-    "hp": 50,
-    "attack": 70,
-    "defence": 50,
-    "special_attack": 40,
-    "special_defence": 50,
-    "speed": 50
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     }
-  },
-  "catchRate": 45,
-  "shoulderMountable": false,
-  "baseExperienceYield": 64,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "water_1",
-    "monster"
   ],
-  "moves": [
-    "1:leer",
-    "1:tackle",
-    "4:armthrust",
-    "8:twister",
-    "12:circlethrow",
-    "16:lowsweep",
-    "20:workup",
-    "24:slash",
-    "28:vitalthrow",
-    "33:scaleshot",
-    "36:bodyslam",
-    "40:dragondance",
-    "44:dragontail",
-    "44:closecombat",
-    "48:muddywater"  ],
-  "labels": [
-    "gen3",
-    "azure",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.mysticmudkip.desc"
-  ],
-  "evolutions": [
-    {
-      "id": "mudkip_marshtomp_mystic",
-      "variant": "level_up",
-      "result": "marshtomp mystic",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": 16
-        }
-      ],
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 4,
-  "weight": 76,
-  "aspects": ["mystic"],
-  "cannotDynamax": false
-}
-], "features": [
-"forman",
-"epoch",
-"epochtwo",
-"mystic"
+  "features": [
+    "forman",
+    "epoch",
+    "epochtwo",
+    "mystic"
   ]
 }

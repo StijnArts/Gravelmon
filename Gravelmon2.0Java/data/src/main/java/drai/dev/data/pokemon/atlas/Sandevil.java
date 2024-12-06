@@ -24,7 +24,7 @@ public class Sandevil extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD,EggGroup.DRAGON),
                 List.of("Sandevil's hide under the sand, awaiting their prey. Upon being stepped on, they lash out at their wounded victim with impressive speed and ferocity. (http://fav.me/d4ramdz)"),
                 List.of(new EvolutionEntry("sandemonium", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:hard_stone\"")))
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:hard_stone")))
                 ),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH,1),

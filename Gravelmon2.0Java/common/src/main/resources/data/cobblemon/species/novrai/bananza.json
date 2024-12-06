@@ -1,11 +1,18 @@
 {
-  "implemented": true,
   "name": "Bananza",
-  "nationalPokedexNumber": 6775,
   "primaryType": "poison",
   "secondaryType": "grass",
+  "catchRate": 200,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 159,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
-    "shedskin"  ],
+    "shedskin"
+  ],
   "baseStats": {
     "hp": 105,
     "attack": 78,
@@ -14,38 +21,19 @@
     "special_defence": 83,
     "speed": 57
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 200,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 159,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "grass",
     "amorphous"
   ],
+  "drops": {},
   "moves": [
     "1:mudsport",
     "6:mudslap",
@@ -132,33 +120,50 @@
     "tm:leechseed",
     "tm:poisonpowder",
     "tm:playnice",
-    "tm:covet"  ],
+    "tm:covet"
+  ],
   "labels": [
     "novrai",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.bananza.desc"
+    "cobblemon.species.bananza.desc1"
   ],
-  "baseScale": 0.1,
+  "height": 3,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6775,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 3,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

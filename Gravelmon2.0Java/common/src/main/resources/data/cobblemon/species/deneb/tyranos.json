@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Tyranos",
-  "nationalPokedexNumber": 6206,
   "primaryType": "rock",
   "secondaryType": "dark",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 214,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 1.0833333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "rockhead",
     "h:intimidate"
@@ -16,38 +22,19 @@
     "special_defence": 50,
     "speed": 85
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 214,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "monster",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:firespin",
     "1:focusenergy",
@@ -129,33 +116,50 @@
     "egg:superpower",
     "egg:thrash",
     "egg:thunderfang",
-    "egg:yawn"  ],
+    "egg:yawn"
+  ],
   "labels": [
     "vega",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.tyranos.desc"
+    "cobblemon.species.tyranos.desc1"
   ],
-  "baseScale": 1.0833333333333333,
+  "height": 65,
+  "weight": 8752,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6206,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 65,
-  "weight": 8752,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

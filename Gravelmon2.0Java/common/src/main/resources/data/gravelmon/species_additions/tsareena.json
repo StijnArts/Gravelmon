@@ -1,298 +1,314 @@
 {
-   "target": "cobblemon:tsareena",
-   "forms": [{
-  "name": "Epoch",
-  "primaryType": "light",
-  "secondaryType": "dark",
-  "abilities": [
-    "darkaura",
-    "h:aurabreak"
-  ],
-  "baseStats": {
-    "hp": 92,
-    "attack": 120,
-    "defence": 78,
-    "special_attack": 103,
-    "special_defence": 45,
-    "speed": 72
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+  "target": "cobblemon:tsareena",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "light",
+      "secondaryType": "dark",
+      "catchRate": 90,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 230,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.19999999999999998,
+      "cannotDynamax": false,
+      "abilities": [
+        "darkaura",
+        "h:aurabreak"
+      ],
+      "baseStats": {
+        "hp": 92,
+        "attack": 120,
+        "defence": 78,
+        "special_attack": 103,
+        "special_defence": 45,
+        "speed": 72
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "12:feintattack",
+        "1:feint",
+        "33:torment",
+        "15:flatter",
+        "4:playnice",
+        "36:lashout",
+        "tm:acrobatics",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:burningjealousy",
+        "tm:charm",
+        "tm:coaching",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:defog",
+        "tm:drainingkiss",
+        "tm:drainpunch",
+        "tm:echoedvoice",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:haze",
+        "tm:healbell",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:lightscreen",
+        "tm:meteormash",
+        "tm:mirrorshot",
+        "tm:mistyterrain",
+        "tm:moonblast",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:poisonjab",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:safeguard",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:swift",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:toxic",
+        "tm:willowisp",
+        "tm:wish",
+        "tm:workup"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochtsareena.desc1"
+      ],
+      "height": 12,
+      "weight": 214,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
-    }
-  },
-  "catchRate": 90,
-  "shoulderMountable": false,
-  "baseExperienceYield": 230,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "grass"
-  ],
-  "moves": [
-    "12:feintattack",
-    "1:feint",
-    "33:torment",
-    "15:flatter",
-    "4:playnice",
-    "36:lashout",
-    "tm:acrobatics",
-    "tm:attract",
-    "tm:aurasphere",
-    "tm:burningjealousy",
-    "tm:charm",
-    "tm:coaching",
-    "tm:confuseray",
-    "tm:cosmicpower",
-    "tm:curse",
-    "tm:darkpulse",
-    "tm:dazzlinggleam",
-    "tm:defog",
-    "tm:drainingkiss",
-    "tm:drainpunch",
-    "tm:echoedvoice",
-    "tm:gammaray",
-    "tm:geomancy",
-    "tm:haze",
-    "tm:healbell",
-    "tm:hex",
-    "tm:hiddenpower",
-    "tm:hypervoice",
-    "tm:knockoff",
-    "tm:lashout",
-    "tm:lightscreen",
-    "tm:meteormash",
-    "tm:mirrorshot",
-    "tm:mistyterrain",
-    "tm:moonblast",
-    "tm:mysticalfire",
-    "tm:nastyplot",
-    "tm:phantomforce",
-    "tm:playrough",
-    "tm:poisonjab",
-    "tm:poltergeist",
-    "tm:possession",
-    "tm:protect",
-    "tm:reflect",
-    "tm:rest",
-    "tm:return",
-    "tm:safeguard",
-    "tm:shadowball",
-    "tm:shadowpunch",
-    "tm:signalbeam",
-    "tm:sleeptalk",
-    "tm:substitute",
-    "tm:swift",
-    "tm:swordsdance",
-    "tm:taunt",
-    "tm:toxic",
-    "tm:willowisp",
-    "tm:wish",
-    "tm:workup"  ],
-  "labels": [
-    "soulstones",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.epochtsareena.desc"
-  ],
-  "baseScale": 0.19999999999999998,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 12,
-  "weight": 214,
-  "aspects": ["epoch"],
-  "cannotDynamax": false
-},
-{
-  "name": "Epochtwo",
-  "primaryType": "poison",
-  "secondaryType": "fighting",
-  "abilities": [
-    "ironbarbs",
-    "powerofalchemy",
-    "h:unburden"
-  ],
-  "baseStats": {
-    "hp": 74,
-    "attack": 120,
-    "defence": 90,
-    "special_attack": 86,
-    "special_defence": 50,
-    "speed": 90
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     },
-    "moving": {
-        "fly": {
-            "canFly": false
+    {
+      "name": "Epochtwo",
+      "primaryType": "poison",
+      "secondaryType": "fighting",
+      "catchRate": 90,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 230,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.19999999999999998,
+      "cannotDynamax": false,
+      "abilities": [
+        "ironbarbs",
+        "powerofalchemy",
+        "h:unburden"
+      ],
+      "baseStats": {
+        "hp": 74,
+        "attack": 120,
+        "defence": 90,
+        "special_attack": 86,
+        "special_defence": 50,
+        "speed": 90
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 3,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_3",
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "20:doublekick",
+        "27:acupressure",
+        "1:reversal",
+        "31:taunt",
+        "1:spikecannon",
+        "23:brutalswing",
+        "53:highjumpkick",
+        "44:recover",
+        "1:spikyshield",
+        "1:fakeout",
+        "5:toxicspikes",
+        "16:poisonfang",
+        "39:drainpunch",
+        "12:detect",
+        "1:poisonsting",
+        "tm:acidrain",
+        "tm:aromatherapy",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:bulkup",
+        "tm:bulletseed",
+        "tm:charm",
+        "tm:closecombat",
+        "tm:coaching",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:darkpulse",
+        "tm:drainingkiss",
+        "tm:drainpunch",
+        "tm:echoedvoice",
+        "tm:energyball",
+        "tm:falseswipe",
+        "tm:focusblast",
+        "tm:furycutter",
+        "tm:gammaray",
+        "tm:gastroacid",
+        "tm:geomancy",
+        "tm:gigadrain",
+        "tm:grassyterrain",
+        "tm:gunkshot",
+        "tm:hiddenpower",
+        "tm:hivemind",
+        "tm:hypervoice",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:leechlife",
+        "tm:magicalleaf",
+        "tm:memento",
+        "tm:meteormash",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:pinmissile",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:pollenpuff",
+        "tm:poweruppunch",
+        "tm:powerwhip",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:solarbeam",
+        "tm:spikyshield",
+        "tm:strugglebug",
+        "tm:superpower",
+        "tm:swordsdance",
+        "tm:synthesis",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:uturn",
+        "tm:weatherball",
+        "tm:wish",
+        "tm:workup"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochtsareenaone.desc1"
+      ],
+      "height": 12,
+      "weight": 214,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     }
-  },
-  "catchRate": 90,
-  "shoulderMountable": false,
-  "baseExperienceYield": 230,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "water_3",
-    "amorphous"
   ],
-  "moves": [
-    "20:doublekick",
-    "27:acupressure",
-    "1:reversal",
-    "31:taunt",
-    "1:spikecannon",
-    "23:brutalswing",
-    "53:highjumpkick",
-    "44:recover",
-    "1:spikyshield",
-    "1:fakeout",
-    "5:toxicspikes",
-    "16:poisonfang",
-    "39:drainpunch",
-    "12:detect",
-    "1:poisonsting",
-    "tm:acidrain",
-    "tm:aromatherapy",
-    "tm:attract",
-    "tm:bodyslam",
-    "tm:bulkup",
-    "tm:bulletseed",
-    "tm:charm",
-    "tm:closecombat",
-    "tm:coaching",
-    "tm:confuseray",
-    "tm:cosmicpower",
-    "tm:darkpulse",
-    "tm:drainingkiss",
-    "tm:drainpunch",
-    "tm:echoedvoice",
-    "tm:energyball",
-    "tm:falseswipe",
-    "tm:focusblast",
-    "tm:furycutter",
-    "tm:gammaray",
-    "tm:gastroacid",
-    "tm:geomancy",
-    "tm:gigadrain",
-    "tm:grassyterrain",
-    "tm:gunkshot",
-    "tm:hiddenpower",
-    "tm:hivemind",
-    "tm:hypervoice",
-    "tm:knockoff",
-    "tm:lashout",
-    "tm:leechlife",
-    "tm:magicalleaf",
-    "tm:memento",
-    "tm:meteormash",
-    "tm:nastyplot",
-    "tm:phantomforce",
-    "tm:pinmissile",
-    "tm:playrough",
-    "tm:poisonfang",
-    "tm:poisonjab",
-    "tm:pollenpuff",
-    "tm:poweruppunch",
-    "tm:powerwhip",
-    "tm:protect",
-    "tm:psychicfangs",
-    "tm:rest",
-    "tm:return",
-    "tm:round",
-    "tm:safeguard",
-    "tm:shadowball",
-    "tm:sleeptalk",
-    "tm:sludgebomb",
-    "tm:sludgewave",
-    "tm:solarbeam",
-    "tm:spikyshield",
-    "tm:strugglebug",
-    "tm:superpower",
-    "tm:swordsdance",
-    "tm:synthesis",
-    "tm:taunt",
-    "tm:terrainpulse",
-    "tm:toxic",
-    "tm:toxicspikes",
-    "tm:uturn",
-    "tm:weatherball",
-    "tm:wish",
-    "tm:workup"  ],
-  "labels": [
-    "soulstones",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.epochtsareenaone.desc"
-  ],
-  "baseScale": 0.19999999999999998,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 3,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 12,
-  "weight": 214,
-  "aspects": ["epochtwo"],
-  "cannotDynamax": false
-}
-], "features": [
-"epoch",
-"epochtwo"
+  "features": [
+    "epoch",
+    "epochtwo"
   ]
 }

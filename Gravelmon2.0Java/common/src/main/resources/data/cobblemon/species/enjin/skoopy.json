@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Skoopy",
-  "nationalPokedexNumber": 6455,
   "primaryType": "ice",
   "secondaryType": "fairy",
+  "catchRate": 157,
+  "maleRatio": 0.4,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "icebody",
     "h:magicguard"
@@ -16,55 +22,6 @@
     "special_defence": 85,
     "speed": 45
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 157,
-  "maleRatio": 0.4,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
-  "eggGroups": [
-    "fairy",
-    "amorphous"
-  ],
-  "moves": [
-    "1:powdersnow",
-    "1:disarmingvoice"  ],
-  "labels": [
-    "enjin",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.skoopy.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -73,10 +30,57 @@
     "special_defence": 0,
     "speed": 0
   },
+  "eggGroups": [
+    "fairy",
+    "amorphous"
+  ],
+  "drops": {},
+  "moves": [
+    "1:powdersnow",
+    "1:disarmingvoice"
+  ],
+  "labels": [
+    "enjin",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.skoopy.desc1"
+  ],
   "height": 3,
   "weight": 11,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 6455,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

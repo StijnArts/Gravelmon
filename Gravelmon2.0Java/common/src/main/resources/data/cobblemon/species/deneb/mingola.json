@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Mingola",
-  "nationalPokedexNumber": 6230,
   "primaryType": "water",
   "secondaryType": "flying",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 148,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "rivird",
+  "baseScale": 0.18333333333333335,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
   "baseStats": {
     "hp": 70,
     "attack": 80,
@@ -14,38 +22,19 @@
     "special_defence": 55,
     "speed": 100
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 148,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "water_1",
     "flying"
   ],
+  "drops": {},
   "moves": [
     "1:peck",
     "1:growl",
@@ -98,7 +87,8 @@
     "egg:twister",
     "egg:whirlpool",
     "egg:wingattack",
-    "egg:workup"  ],
+    "egg:workup"
+  ],
   "labels": [
     "deneb",
     "not_modeled",
@@ -106,28 +96,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.mingola.desc"
+    "cobblemon.species.mingola.desc1"
   ],
-  "preEvolution": "rivird",
-  "baseScale": 0.18333333333333335,
+  "height": 11,
+  "weight": 247,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6230,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 11,
-  "weight": 247,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

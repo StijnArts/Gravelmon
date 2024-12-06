@@ -31,7 +31,7 @@ public class RaianianArcanine extends drai.dev.data.pokemon.Pokemon {
                 List.of());
            setLangFileName("Arcanine");
            addAdditionalEvolution("growlithe", new EvolutionEntry("raianianarcanine", EvolutionType.ITEM_INTERACT, false, List.of(),
-                   List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_MOUNTAIN.getId() + ":" + Biome.IS_MOUNTAIN.getName() +"\"")),List.of(),"cobblemon:fire_stone"));
+                   List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_MOUNTAIN.getId() + ":" + Biome.IS_MOUNTAIN.getName())),List.of(),"cobblemon:fire_stone"));
     }
 
 

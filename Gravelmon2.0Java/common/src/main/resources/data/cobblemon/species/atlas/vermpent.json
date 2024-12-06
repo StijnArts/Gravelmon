@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Vermpent",
-  "nationalPokedexNumber": 6985,
   "primaryType": "ground",
   "secondaryType": "dark",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 189,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "vermini",
+  "baseScale": 0.3833333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "dryskin",
     "sandrush",
@@ -17,37 +24,18 @@
     "special_defence": 81,
     "speed": 79
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 189,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:rototiller",
     "20:furyattack",
@@ -99,7 +87,8 @@
     "tm:thief",
     "tm:toxic",
     "tm:workup",
-    "tm:sandattack"  ],
+    "tm:sandattack"
+  ],
   "labels": [
     "atlas",
     "not_modeled",
@@ -107,28 +96,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.vermpent.desc"
+    "cobblemon.species.vermpent.desc1"
   ],
-  "preEvolution": "vermini",
-  "baseScale": 0.3833333333333333,
+  "height": 23,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6985,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 23,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

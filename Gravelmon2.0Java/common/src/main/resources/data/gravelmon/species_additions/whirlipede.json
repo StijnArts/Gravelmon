@@ -1,328 +1,340 @@
 {
-   "target": "cobblemon:whirlipede",
-   "forms": [{
-  "name": "Epoch",
-  "primaryType": "steel",
-  "secondaryType": "cosmic",
-  "abilities": [
-    "telepathy",
-    "tintedlens",
-    "h:analytic"
-  ],
-  "baseStats": {
-    "hp": 60,
-    "attack": 30,
-    "defence": 99,
-    "special_attack": 50,
-    "special_defence": 50,
-    "speed": 71
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 120,
-  "shoulderMountable": false,
-  "baseExperienceYield": 126,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "bug"
-  ],
-  "moves": [
-    "26:irondefense",
-    "4:infestation",
-    "42:reflect",
-    "14:swift",
-    "1:defensecurl",
-    "42:lightscreen",
-    "62:hivemind",
-    "58:meteorbeam",
-    "54:cosmicpower",
-    "8:confusion",
-    "11:strugglebug",
-    "46:powergem",
-    "18:silverwind",
-    "6:stardust",
-    "tm:attract",
-    "tm:bodyslam",
-    "tm:bulldoze",
-    "tm:calmmind",
-    "tm:confuseray",
-    "tm:cosmicpower",
-    "tm:darkpulse",
-    "tm:dazzlinggleam",
-    "tm:earthpower",
-    "tm:earthquake",
-    "tm:energyball",
-    "tm:expandingforce",
-    "tm:focusblast",
-    "tm:gammaray",
-    "tm:geomancy",
-    "tm:gyroball",
-    "tm:healbell",
-    "tm:hiddenpower",
-    "tm:hivemind",
-    "tm:irondefense",
-    "tm:ironhead",
-    "tm:leechlife",
-    "tm:lightscreen",
-    "tm:magicroom",
-    "tm:meteorbeam",
-    "tm:mirrorshot",
-    "tm:moonblast",
-    "tm:nastyplot",
-    "tm:pinmissile",
-    "tm:powergem",
-    "tm:protect",
-    "tm:psychic",
-    "tm:psychicterrain",
-    "tm:reflect",
-    "tm:rest",
-    "tm:return",
-    "tm:safeguard",
-    "tm:shadowball",
-    "tm:sleeptalk",
-    "tm:steelroller",
-    "tm:strugglebug",
-    "tm:swift",
-    "tm:synthesis",
-    "tm:tailglow",
-    "tm:terrainpulse",
-    "tm:toxic",
-    "tm:trickroom",
-    "tm:uturn",
-    "tm:wish",
-    "tm:wonderroom",
-    "tm:zenheadbutt"  ],
-  "labels": [
-    "soulstones",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.epochwhirlipede.desc"
-  ],
-  "evolutions": [
+  "target": "cobblemon:whirlipede",
+  "forms": [
     {
-      "id": "whirlipede_epoch_scolipede",
-      "variant": "item_interact",
-      "result": "epoch scolipede",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-
+      "name": "Epoch",
+      "primaryType": "steel",
+      "secondaryType": "cosmic",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 126,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.19999999999999998,
+      "cannotDynamax": false,
+      "abilities": [
+        "telepathy",
+        "tintedlens",
+        "h:analytic"
       ],
-      "requiredContext": "gravelmon:astral_stone",
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.19999999999999998,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 12,
-  "weight": 585,
-  "aspects": ["epoch"],
-  "cannotDynamax": false
-},
-{
-  "name": "Delta",
-  "primaryType": "rock",
-  "secondaryType": "fire",
-  "abilities": [
-    "weakarmor",
-    "magmaarmor",
-    "h:moldbreaker"
-  ],
-  "baseStats": {
-    "hp": 40,
-    "attack": 55,
-    "defence": 99,
-    "special_attack": 40,
-    "special_defence": 79,
-    "speed": 47
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 120,
-  "shoulderMountable": false,
-  "baseExperienceYield": 126,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "undiscovered"
-  ],
-  "moves": [
-    "1:defensecurl",
-    "1:rollout",
-    "1:smog",
-    "1:smokescreen",
-    "5:smog",
-    "8:smokescreen",
-    "12:pursuit",
-    "15:protect",
-    "19:incinerate",
-    "22:rockpolish",
-    "23:rockblast",
-    "28:flamewheel",
-    "32:sharpen",
-    "37:steamroller",
-    "41:stoneedge",
-    "43:flareblitz",
-    "46:rockclimb",
-    "50:rockwrecker",
-    "tm:bulldoze",
-    "tm:toxic",
-    "tm:hiddenpower",
-    "tm:sunnyday",
-    "tm:protect",
-    "tm:frustration",
-    "tm:return",
-    "tm:dig",
-    "tm:doubleteam",
-    "tm:flamethrower",
-    "tm:sandstorm",
-    "tm:fireblast",
-    "tm:rocktomb",
-    "tm:facade",
-    "tm:flamecharge",
-    "tm:rest",
-    "tm:attract",
-    "tm:overheat",
-    "tm:willowisp",
-    "tm:embargo",
-    "tm:explosion",
-    "tm:rockpolish",
-    "tm:stoneedge",
-    "tm:gyroball",
-    "tm:rockslide",
-    "tm:swagger",
-    "tm:substitute",
-    "tm:smackdown",
-    "tm:sleeptalk",
-    "tm:achillesheel",
-    "tm:incinerate",
-    "tm:round",
-    "tm:captivate",
-    "tm:confide",
-    "tm:spikes",
-    "tm:secretpower",
-    "tm:rockclimb",
-    "tutor:acid",
-    "tutor:ancientpower",
-    "tutor:block",
-    "tutor:bugbite",
-    "tutor:dig",
-    "tutor:earthpower",
-    "tutor:endeavor",
-    "tutor:endure",
-    "tutor:flareblitz",
-    "tutor:heatwave",
-    "tutor:irondefense",
-    "tutor:knockoff",
-    "tutor:mimic",
-    "tutor:rollout",
-    "tutor:seismictoss",
-    "tutor:selfdestruct",
-    "tutor:snore",
-    "tutor:stealthrock"  ],
-  "labels": [
-    "gen5",
-    "insurgence",
-    "not_modeled",
-    "fakemonevolution"
-  ],
-  "pokedex": [
-    "cobblemon.species.deltawhirlipede.desc"
-  ],
-  "preEvolution": "venipede form=delta",
-  "evolutions": [
-    {
-      "id": "whirlipede_scolipede_delta",
-      "variant": "level_up",
-      "result": "scolipede delta",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
+      "baseStats": {
+        "hp": 60,
+        "attack": 30,
+        "defence": 99,
+        "special_attack": 50,
+        "special_defence": 50,
+        "speed": 71
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 2,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "26:irondefense",
+        "4:infestation",
+        "42:reflect",
+        "14:swift",
+        "1:defensecurl",
+        "42:lightscreen",
+        "62:hivemind",
+        "58:meteorbeam",
+        "54:cosmicpower",
+        "8:confusion",
+        "11:strugglebug",
+        "46:powergem",
+        "18:silverwind",
+        "6:stardust",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:bulldoze",
+        "tm:calmmind",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:energyball",
+        "tm:expandingforce",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:gyroball",
+        "tm:healbell",
+        "tm:hiddenpower",
+        "tm:hivemind",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:leechlife",
+        "tm:lightscreen",
+        "tm:magicroom",
+        "tm:meteorbeam",
+        "tm:mirrorshot",
+        "tm:moonblast",
+        "tm:nastyplot",
+        "tm:pinmissile",
+        "tm:powergem",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicterrain",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:safeguard",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:steelroller",
+        "tm:strugglebug",
+        "tm:swift",
+        "tm:synthesis",
+        "tm:tailglow",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:trickroom",
+        "tm:uturn",
+        "tm:wish",
+        "tm:wonderroom",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochwhirlipede.desc1"
+      ],
+      "height": 12,
+      "weight": 585,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
         {
-          "variant": "level",
-          "minLevel": 30
+          "id": "epochwhirlipede_epoch_scolipede",
+          "variant": "item_interact",
+          "result": "epoch scolipede",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "gravelmon:astral_stone",
+          "permanent": true
         }
       ],
-      "permanent": true   
- }
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+          }
+        }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Delta",
+      "primaryType": "rock",
+      "secondaryType": "fire",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 126,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "venipede form\u003ddelta",
+      "baseScale": 0.19999999999999998,
+      "cannotDynamax": false,
+      "abilities": [
+        "weakarmor",
+        "magmaarmor",
+        "h:moldbreaker"
+      ],
+      "baseStats": {
+        "hp": 40,
+        "attack": 55,
+        "defence": 99,
+        "special_attack": 40,
+        "special_defence": 79,
+        "speed": 47
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 2,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:defensecurl",
+        "1:rollout",
+        "1:smog",
+        "1:smokescreen",
+        "5:smog",
+        "8:smokescreen",
+        "12:pursuit",
+        "15:protect",
+        "19:incinerate",
+        "22:rockpolish",
+        "23:rockblast",
+        "28:flamewheel",
+        "32:sharpen",
+        "37:steamroller",
+        "41:stoneedge",
+        "43:flareblitz",
+        "46:rockclimb",
+        "50:rockwrecker",
+        "tm:bulldoze",
+        "tm:toxic",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:protect",
+        "tm:frustration",
+        "tm:return",
+        "tm:dig",
+        "tm:doubleteam",
+        "tm:flamethrower",
+        "tm:sandstorm",
+        "tm:fireblast",
+        "tm:rocktomb",
+        "tm:facade",
+        "tm:flamecharge",
+        "tm:rest",
+        "tm:attract",
+        "tm:overheat",
+        "tm:willowisp",
+        "tm:embargo",
+        "tm:explosion",
+        "tm:rockpolish",
+        "tm:stoneedge",
+        "tm:gyroball",
+        "tm:rockslide",
+        "tm:swagger",
+        "tm:substitute",
+        "tm:smackdown",
+        "tm:sleeptalk",
+        "tm:achillesheel",
+        "tm:incinerate",
+        "tm:round",
+        "tm:captivate",
+        "tm:confide",
+        "tm:spikes",
+        "tm:secretpower",
+        "tm:rockclimb",
+        "tutor:acid",
+        "tutor:ancientpower",
+        "tutor:block",
+        "tutor:bugbite",
+        "tutor:dig",
+        "tutor:earthpower",
+        "tutor:endeavor",
+        "tutor:endure",
+        "tutor:flareblitz",
+        "tutor:heatwave",
+        "tutor:irondefense",
+        "tutor:knockoff",
+        "tutor:mimic",
+        "tutor:rollout",
+        "tutor:seismictoss",
+        "tutor:selfdestruct",
+        "tutor:snore",
+        "tutor:stealthrock"
+      ],
+      "labels": [
+        "gen5",
+        "insurgence",
+        "not_modeled",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.deltawhirlipede.desc1"
+      ],
+      "height": 12,
+      "weight": 878,
+      "aspects": [
+        "delta"
+      ],
+      "evolutions": [
+        {
+          "id": "deltawhirlipede_scolipede_delta",
+          "variant": "level_up",
+          "result": "scolipede delta",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "30"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+          }
+        }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
   ],
-  "baseScale": 0.19999999999999998,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 12,
-  "weight": 878,
-  "aspects": ["delta"],
-  "cannotDynamax": false
-}
-], "features": [
-"epoch",
-"delta"
+  "features": [
+    "epoch",
+    "delta"
   ]
 }

@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Floressum",
-  "nationalPokedexNumber": 1027,
   "primaryType": "grass",
   "secondaryType": "flying",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 238,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 41,
+  "baseFriendship": 70,
+  "preEvolution": "florabri",
+  "baseScale": 1.0,
+  "cannotDynamax": false,
   "abilities": [
     "overgrow",
     "h:galewings"
@@ -16,38 +23,21 @@
     "special_defence": 85,
     "speed": 120
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 238,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 41,
   "eggGroups": [
     "grass",
     "flying"
   ],
+  "drops": {
+    "amount": 2
+  },
   "moves": [
     "1:jetstrike",
     "1:tackle",
@@ -108,35 +98,51 @@
     "egg:roost",
     "egg:seedbomb",
     "egg:synthesis",
-    "egg:worryseed"  ],
+    "egg:worryseed"
+  ],
   "labels": [
     "sage",
     "fakemon",
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.floressum.desc"
+    "cobblemon.species.floressum.desc1"
   ],
-  "preEvolution": "florabri",
-  "baseScale": 1.0,
+  "height": 14,
+  "weight": 179,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1027,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 1.4,
     "height": 1.4,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 14,
-  "weight": 179,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

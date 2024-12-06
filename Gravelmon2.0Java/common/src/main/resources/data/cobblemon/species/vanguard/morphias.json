@@ -1,11 +1,18 @@
 {
-  "implemented": true,
   "name": "Morphias",
-  "nationalPokedexNumber": 5526,
   "primaryType": "fairy",
   "secondaryType": "psychic",
+  "catchRate": 3,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 60,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.26666666666666666,
+  "cannotDynamax": false,
   "abilities": [
-    "mistysurge"  ],
+    "mistysurge"
+  ],
   "baseStats": {
     "hp": 70,
     "attack": 90,
@@ -14,37 +21,18 @@
     "special_defence": 130,
     "speed": 110
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 3,
+    "speed": 3
   },
-  "catchRate": 3,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {},
   "moves": [
     "95:fleurcannon",
     "1:storedpower",
@@ -149,33 +137,50 @@
     "tm:whirlpool",
     "tm:zenheadbutt",
     "tm:leechlife",
-    "tm:magicpowder"  ],
+    "tm:magicpowder"
+  ],
   "labels": [
     "vanguard",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.morphias.desc"
+    "cobblemon.species.morphias.desc1"
   ],
-  "baseScale": 0.26666666666666666,
+  "height": 16,
+  "weight": 550,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5526,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 3,
-    "speed": 3
-  },
-  "height": 16,
-  "weight": 550,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -163,7 +163,7 @@ public class Boltoise extends drai.dev.data.pokemon.Pokemon {
                 List.of());
 
         addAdditionalEvolution("wartortle", new EvolutionEntry("boltoise", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_COLD_OCEAN.getId() + ":" + Biome.IS_COLD_OCEAN.getName() +"\""),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_COLD_OCEAN.getId() + ":" + Biome.IS_COLD_OCEAN.getName()),
                         new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36"))));
            setLangFileName("Boltoise");
 

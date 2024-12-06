@@ -20,7 +20,7 @@ public class KaskadianHaunter extends Pokemon {
                 26, List.of(EggGroup.AMORPHOUS),
                 List.of("Kaskadian Haunter like to play many games on other pokemon, often using its cold wet tongue to lick berries they were going to eat. "),
                 List.of(new EvolutionEntry("kaskadiangengar", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\"mist\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"mist")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CONFUSE_RAY,1),
                         new MoveLearnSetEntry(Move.LICK,1),

@@ -78,7 +78,7 @@ public class Spectreon extends Pokemon {
                 List.of());
         this.setPortraitXYZ(0,1.8,0);
         addAdditionalEvolution("eevee", new EvolutionEntry("spectreon", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.SHADOW_BALL.getName()+"\""),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.SHADOW_BALL.getName()),
                         new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25"))));
     }
 }

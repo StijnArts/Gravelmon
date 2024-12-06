@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Doggourd",
-  "nationalPokedexNumber": 3065,
   "primaryType": "ghost",
   "secondaryType": "grass",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 130,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "pupkin",
+  "baseScale": 0.16666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "flareboost",
     "h:naturalcure"
@@ -16,37 +23,18 @@
     "special_defence": 70,
     "speed": 75
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 130,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "grass"
   ],
+  "drops": {},
   "moves": [
     "1:leer",
     "1:astonish",
@@ -130,7 +118,8 @@
     "tm:takedown",
     "tm:taunt",
     "tm:thief",
-    "tm:willowisp"  ],
+    "tm:willowisp"
+  ],
   "labels": [
     "hiza",
     "not_modeled",
@@ -138,9 +127,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.doggourd.desc"
+    "cobblemon.species.doggourd.desc1"
   ],
-  "preEvolution": "pupkin",
+  "height": 10,
+  "weight": 742,
+  "aspects": [],
   "evolutions": [
     {
       "id": "doggourd_jackhowl",
@@ -151,35 +142,47 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 38
+          "minLevel": "38"
         },
         {
           "variant": "time_range",
-          "range": night
+          "range": "night"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.16666666666666666,
+  "nationalPokedexNumber": 3065,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 10,
-  "weight": 742,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

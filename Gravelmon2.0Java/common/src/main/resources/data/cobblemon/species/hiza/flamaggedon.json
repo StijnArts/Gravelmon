@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Flamaggedon",
-  "nationalPokedexNumber": 2889,
   "primaryType": "fire",
   "secondaryType": "steel",
+  "catchRate": 45,
+  "maleRatio": 0.75,
+  "baseExperienceYield": 245,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "voladillo",
+  "baseScale": 0.31666666666666665,
+  "cannotDynamax": false,
   "abilities": [
     "blaze",
     "h:filter"
@@ -16,38 +23,19 @@
     "special_defence": 90,
     "speed": 50
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.75,
-  "shoulderMountable": false,
-  "baseExperienceYield": 245,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field",
     "monster"
   ],
+  "drops": {},
   "moves": [
     "1:tailwhip",
     "6:ember",
@@ -108,7 +96,8 @@
     "tm:mudsport",
     "tm:burnup",
     "tm:ancientpower",
-    "tm:heatwave"  ],
+    "tm:heatwave"
+  ],
   "labels": [
     "hiza",
     "not_modeled",
@@ -116,28 +105,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.flamaggedon.desc"
+    "cobblemon.species.flamaggedon.desc1"
   ],
-  "preEvolution": "voladillo",
-  "baseScale": 0.31666666666666665,
+  "height": 19,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2889,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 19,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

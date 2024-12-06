@@ -25,10 +25,10 @@ public class Sukoi extends drai.dev.data.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("plecoast", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_OCEAN.getId() + ":" + Biome.IS_OCEAN.getName() +"\""))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_OCEAN.getId() + ":" + Biome.IS_OCEAN.getName()))),
                         new EvolutionEntry("aquana", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32"),
-                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_RIVER.getId() + ":" + Biome.IS_RIVER.getName() +"\"")))),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_RIVER.getId() + ":" + Biome.IS_RIVER.getName())))),
                 List.of(),
                 List.of(Label.CYARE),
                 0, List.of(

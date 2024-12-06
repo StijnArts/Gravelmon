@@ -21,7 +21,7 @@ public class MysticRiolu extends Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("mysticlucario", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"180"),
-                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"\"night\"")))),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CHARM,1),
                         new MoveLearnSetEntry(Move.COPYCAT,1),

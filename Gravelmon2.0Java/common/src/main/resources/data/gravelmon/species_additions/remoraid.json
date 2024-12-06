@@ -1,5 +1,5 @@
 {
-   "target": "cobblemon:remoraid",
+  "target": "cobblemon:remoraid",
   "evolutions": [
     {
       "id": "remoraid_slingray",
@@ -13,532 +13,558 @@
           "move": "rockblast"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-   "forms": [{
-  "name": "Forman",
-  "primaryType": "water",
-  "secondaryType": "poison",
-  "abilities": [
-    "poisonpoint"  ],
-  "baseStats": {
-    "hp": 58,
-    "attack": 86,
-    "defence": 50,
-    "special_attack": 30,
-    "special_defence": 56,
-    "speed": 50
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+  "forms": [
+    {
+      "name": "Forman",
+      "primaryType": "water",
+      "secondaryType": "poison",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.11666666666666665,
+      "cannotDynamax": false,
+      "abilities": [
+        "poisonpoint"
+      ],
+      "baseStats": {
+        "hp": 58,
+        "attack": 86,
+        "defence": 50,
+        "special_attack": 30,
+        "special_defence": 56,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:watergun",
+        "1:poisonsting"
+      ],
+      "labels": [
+        "form",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.formanremoraid.desc1"
+      ],
+      "height": 7,
+      "weight": 0,
+      "aspects": [
+        "forman"
+      ],
+      "evolutions": [
+        {
+          "id": "formanremoraid_siscorp",
+          "variant": "level_up",
+          "result": "siscorp",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "25"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": true
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": true
+          }
         }
-    }
-  },
-  "catchRate": 190,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:watergun",
-    "1:poisonsting"  ],
-  "labels": [
-    "form",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.formanremoraid.desc"
-  ],
-  "evolutions": [
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
     {
-      "id": "remoraid_siscorp",
-      "variant": "level_up",
-      "result": "siscorp",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
+      "name": "Epoch",
+      "primaryType": "water",
+      "secondaryType": "electric",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "static",
+        "battery",
+        "h:stakeout"
+      ],
+      "baseStats": {
+        "hp": 45,
+        "attack": 85,
+        "defence": 35,
+        "special_attack": 65,
+        "special_defence": 35,
+        "speed": 35
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_1",
+        "water_2"
+      ],
+      "drops": {},
+      "moves": [
+        "20:smokescreen",
+        "60:gunkshot",
+        "28:flipturn",
+        "1:aquajet",
+        "12:clamp",
+        "32:obstruct",
+        "48:surgingstrikes",
+        "4:supersonic",
+        "16:spark",
+        "36:zingzap",
+        "44:coil",
+        "1:nuzzle",
+        "tm:attract",
+        "tm:blizzard",
+        "tm:bodyslam",
+        "tm:brine",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:charm",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:dazzlinggleam",
+        "tm:electricterrain",
+        "tm:flipturn",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:gastroacid",
+        "tm:gunkshot",
+        "tm:haze",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:icebeam",
+        "tm:icefang",
+        "tm:iciclespear",
+        "tm:icywind",
+        "tm:knockoff",
+        "tm:liquidation",
+        "tm:meteorbeam",
+        "tm:moonblast",
+        "tm:nastyplot",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:risingvoltage",
+        "tm:scald",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:soak",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:toxic",
+        "tm:voltswitch",
+        "tm:waterpulse",
+        "tm:weatherball",
+        "tm:whirlpool",
+        "tm:wildcharge",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:octazooka",
+        "egg:acidspray",
+        "egg:flail",
+        "egg:screech",
+        "egg:waterspout",
+        "egg:crushgrip",
+        "egg:submission",
+        "egg:helpinghand"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochremoraid.desc1"
+      ],
+      "height": 6,
+      "weight": 120,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
         {
-          "variant": "level",
-          "minLevel": 25
+          "id": "epochremoraid_epoch_octillery",
+          "variant": "level_up",
+          "result": "epoch octillery",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "25"
+            }
+          ],
+          "permanent": true
         }
       ],
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.11666666666666665,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 7,
-  "weight": 0,
-  "aspects": ["forman"],
-  "cannotDynamax": false
-},
-{
-  "name": "Epoch",
-  "primaryType": "water",
-  "secondaryType": "electric",
-  "abilities": [
-    "static",
-    "battery",
-    "h:stakeout"
-  ],
-  "baseStats": {
-    "hp": 45,
-    "attack": 85,
-    "defence": 35,
-    "special_attack": 65,
-    "special_defence": 35,
-    "speed": 35
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": true
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": true
+          }
         }
-    }
-  },
-  "catchRate": 190,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "water_1",
-    "water_2"
-  ],
-  "moves": [
-    "20:smokescreen",
-    "60:gunkshot",
-    "28:flipturn",
-    "1:aquajet",
-    "12:clamp",
-    "32:obstruct",
-    "48:surgingstrikes",
-    "4:supersonic",
-    "16:spark",
-    "36:zingzap",
-    "44:coil",
-    "1:nuzzle",
-    "tm:attract",
-    "tm:blizzard",
-    "tm:bodyslam",
-    "tm:brine",
-    "tm:calmmind",
-    "tm:chargebeam",
-    "tm:charm",
-    "tm:confuseray",
-    "tm:cosmicpower",
-    "tm:dazzlinggleam",
-    "tm:electricterrain",
-    "tm:flipturn",
-    "tm:focusblast",
-    "tm:gammaray",
-    "tm:gastroacid",
-    "tm:gunkshot",
-    "tm:haze",
-    "tm:hiddenpower",
-    "tm:hypervoice",
-    "tm:icebeam",
-    "tm:icefang",
-    "tm:iciclespear",
-    "tm:icywind",
-    "tm:knockoff",
-    "tm:liquidation",
-    "tm:meteorbeam",
-    "tm:moonblast",
-    "tm:nastyplot",
-    "tm:poisonfang",
-    "tm:poisonjab",
-    "tm:protect",
-    "tm:raindance",
-    "tm:rest",
-    "tm:return",
-    "tm:risingvoltage",
-    "tm:scald",
-    "tm:signalbeam",
-    "tm:sleeptalk",
-    "tm:sludgebomb",
-    "tm:sludgewave",
-    "tm:soak",
-    "tm:taunt",
-    "tm:terrainpulse",
-    "tm:thunder",
-    "tm:thunderbolt",
-    "tm:thunderwave",
-    "tm:toxic",
-    "tm:voltswitch",
-    "tm:waterpulse",
-    "tm:weatherball",
-    "tm:whirlpool",
-    "tm:wildcharge",
-    "tm:wish",
-    "tm:workup",
-    "tm:zenheadbutt",
-    "egg:octazooka",
-    "egg:acidspray",
-    "egg:flail",
-    "egg:screech",
-    "egg:waterspout",
-    "egg:crushgrip",
-    "egg:submission",
-    "egg:helpinghand"  ],
-  "labels": [
-    "soulstones",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.epochremoraid.desc"
-  ],
-  "evolutions": [
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
     {
-      "id": "remoraid_epoch_octillery",
-      "variant": "level_up",
-      "result": "epoch octillery",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
+      "name": "Lagoonan",
+      "primaryType": "ice",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 35,
+        "attack": 65,
+        "defence": 35,
+        "special_attack": 65,
+        "special_defence": 35,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_1",
+        "water_2"
+      ],
+      "drops": {},
+      "moves": [
+        "1:powdersnow"
+      ],
+      "labels": [
+        "lagoone",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.lagoonanremoraid.desc1"
+      ],
+      "height": 6,
+      "weight": 120,
+      "aspects": [
+        "lagoonan"
+      ],
+      "evolutions": [
         {
-          "variant": "level",
-          "minLevel": 25
+          "id": "lagoonanremoraid_crystalker",
+          "variant": "item_interact",
+          "result": "crystalker",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:ice_stone",
+          "permanent": true
+        },
+        {
+          "id": "lagoonanremoraid_octillery_lagoonan",
+          "variant": "level_up",
+          "result": "octillery lagoonan",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "24"
+            }
+          ],
+          "permanent": true
         }
       ],
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 6,
-  "weight": 120,
-  "aspects": ["epoch"],
-  "cannotDynamax": false
-},
-{
-  "name": "Lagoonan",
-  "primaryType": "ice",
-  "abilities": [
-    "keeneye"  ],
-  "baseStats": {
-    "hp": 35,
-    "attack": 65,
-    "defence": 35,
-    "special_attack": 65,
-    "special_defence": 35,
-    "speed": 65
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": true
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": true
+          }
         }
-    }
-  },
-  "catchRate": 190,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "water_1",
-    "water_2"
-  ],
-  "moves": [
-    "1:powdersnow"  ],
-  "labels": [
-    "lagoone",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.lagoonanremoraid.desc"
-  ],
-  "evolutions": [
-    {
-      "id": "remoraid_crystalker",
-      "variant": "item_interact",
-      "result": "crystalker",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-
-      ],
-      "requiredContext": "cobblemon:ice_stone",
-      "permanent": true   
- },
-    {
-      "id": "remoraid_octillery_lagoonan",
-      "variant": "level_up",
-      "result": "octillery lagoonan",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": 24
-        }
-      ],
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 6,
-  "weight": 120,
-  "aspects": ["lagoonan"],
-  "cannotDynamax": false
-},
-{
-  "name": "Delta",
-  "primaryType": "fire",
-  "abilities": [
-    "heatproof",
-    "whitesmoke",
-    "h:contrary"
-  ],
-  "baseStats": {
-    "hp": 35,
-    "attack": 65,
-    "defence": 35,
-    "special_attack": 65,
-    "special_defence": 35,
-    "speed": 65
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     },
-    "moving": {
-        "fly": {
-            "canFly": false
+    {
+      "name": "Delta",
+      "primaryType": "fire",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "heatproof",
+        "whitesmoke",
+        "h:contrary"
+      ],
+      "baseStats": {
+        "hp": 35,
+        "attack": 65,
+        "defence": 35,
+        "special_attack": 65,
+        "special_defence": 35,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:ember",
+        "6:leer",
+        "10:mudshot",
+        "14:clearsmog",
+        "18:incinerate",
+        "22:focusenergy",
+        "26:flameburst",
+        "30:rockblast",
+        "34:mudbomb",
+        "38:vacuumwave",
+        "42:lavaplume",
+        "46:hyperbeam",
+        "50:eruption",
+        "tm:toxic",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:hyperbeam",
+        "tm:protect",
+        "tm:frustration",
+        "tm:solarbeam",
+        "tm:return",
+        "tm:doubleteam",
+        "tm:sludgewave",
+        "tm:flamethrower",
+        "tm:sludgebomb",
+        "tm:fireblast",
+        "tm:rocktomb",
+        "tm:facade",
+        "tm:flamecharge",
+        "tm:rest",
+        "tm:attract",
+        "tm:thief",
+        "tm:scald",
+        "tm:overheat",
+        "tm:focusblast",
+        "tm:energyball",
+        "tm:chargebeam",
+        "tm:willowisp",
+        "tm:payback",
+        "tm:rockpolish",
+        "tm:psychup",
+        "tm:rockslide",
+        "tm:swagger",
+        "tm:substitute",
+        "tm:smackdown",
+        "tm:sleeptalk",
+        "tm:darkpulse",
+        "tm:achillesheel",
+        "tm:incinerate",
+        "tm:round",
+        "tm:captivate",
+        "tm:confide",
+        "tm:darkmatter",
+        "tm:spikes",
+        "tm:secretpower",
+        "tutor:acid",
+        "tutor:afteryou",
+        "tutor:ancientpower",
+        "tutor:bulletseed",
+        "tutor:earthpower",
+        "tutor:endure",
+        "tutor:gunkshot",
+        "tutor:heatwave",
+        "tutor:mimic",
+        "tutor:painsplit",
+        "tutor:signalbeam",
+        "tutor:snore",
+        "tutor:spite",
+        "tutor:stealthrock"
+      ],
+      "labels": [
+        "gen2",
+        "insurgence",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.deltaremoraid.desc1"
+      ],
+      "height": 6,
+      "weight": 120,
+      "aspects": [
+        "delta"
+      ],
+      "evolutions": [
+        {
+          "id": "deltaremoraid_octillery_delta",
+          "variant": "level_up",
+          "result": "octillery delta",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "25"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canWalkOnWater": true,
-            "canBreatheUnderwater": true
+            "canBreatheUnderwater": true,
+            "canWalkOnWater": true
+          }
         }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     }
-  },
-  "catchRate": 190,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "undiscovered"
   ],
-  "moves": [
-    "1:ember",
-    "6:leer",
-    "10:mudshot",
-    "14:clearsmog",
-    "18:incinerate",
-    "22:focusenergy",
-    "26:flameburst",
-    "30:rockblast",
-    "34:mudbomb",
-    "38:vacuumwave",
-    "42:lavaplume",
-    "46:hyperbeam",
-    "50:eruption",
-    "tm:toxic",
-    "tm:hiddenpower",
-    "tm:sunnyday",
-    "tm:hyperbeam",
-    "tm:protect",
-    "tm:frustration",
-    "tm:solarbeam",
-    "tm:return",
-    "tm:doubleteam",
-    "tm:sludgewave",
-    "tm:flamethrower",
-    "tm:sludgebomb",
-    "tm:fireblast",
-    "tm:rocktomb",
-    "tm:facade",
-    "tm:flamecharge",
-    "tm:rest",
-    "tm:attract",
-    "tm:thief",
-    "tm:scald",
-    "tm:overheat",
-    "tm:focusblast",
-    "tm:energyball",
-    "tm:chargebeam",
-    "tm:willowisp",
-    "tm:payback",
-    "tm:rockpolish",
-    "tm:psychup",
-    "tm:rockslide",
-    "tm:swagger",
-    "tm:substitute",
-    "tm:smackdown",
-    "tm:sleeptalk",
-    "tm:darkpulse",
-    "tm:achillesheel",
-    "tm:incinerate",
-    "tm:round",
-    "tm:captivate",
-    "tm:confide",
-    "tm:darkmatter",
-    "tm:spikes",
-    "tm:secretpower",
-    "tutor:acid",
-    "tutor:afteryou",
-    "tutor:ancientpower",
-    "tutor:bulletseed",
-    "tutor:earthpower",
-    "tutor:endure",
-    "tutor:gunkshot",
-    "tutor:heatwave",
-    "tutor:mimic",
-    "tutor:painsplit",
-    "tutor:signalbeam",
-    "tutor:snore",
-    "tutor:spite",
-    "tutor:stealthrock"  ],
-  "labels": [
-    "gen2",
-    "insurgence",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.deltaremoraid.desc"
-  ],
-  "evolutions": [
-    {
-      "id": "remoraid_octillery_delta",
-      "variant": "level_up",
-      "result": "octillery delta",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": 25
-        }
-      ],
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 6,
-  "weight": 120,
-  "aspects": ["delta"],
-  "cannotDynamax": false
-}
-], "features": [
-"forman",
-"epoch",
-"lagoonan",
-"delta"
+  "features": [
+    "forman",
+    "epoch",
+    "lagoonan",
+    "delta"
   ]
 }

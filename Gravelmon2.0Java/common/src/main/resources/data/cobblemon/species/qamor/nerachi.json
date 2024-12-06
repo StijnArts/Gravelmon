@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Nerachi",
-  "nationalPokedexNumber": 5382,
   "primaryType": "water",
   "secondaryType": "rock",
+  "catchRate": 50,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 196,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "capsudier",
+  "baseScale": 0.3666666666666667,
+  "cannotDynamax": false,
   "abilities": [
     "sturdy",
     "pickup",
@@ -17,38 +24,19 @@
     "special_defence": 85,
     "speed": 30
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 50,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 196,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_1",
     "water_2"
   ],
+  "drops": {},
   "moves": [
     "5:rockpolish",
     "8:watergun",
@@ -68,7 +56,8 @@
     "tm:dazzlinggleam",
     "tm:muddywater",
     "tm:aquaring",
-    "tm:brine"  ],
+    "tm:brine"
+  ],
   "labels": [
     "qamor",
     "not_modeled",
@@ -76,28 +65,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.nerachi.desc"
+    "cobblemon.species.nerachi.desc1"
   ],
-  "preEvolution": "capsudier",
-  "baseScale": 0.3666666666666667,
+  "height": 22,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5382,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 22,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

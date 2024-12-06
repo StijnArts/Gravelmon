@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Xenogen",
-  "nationalPokedexNumber": 2604,
   "primaryType": "nuclear",
+  "catchRate": 90,
+  "maleRatio": 0.25,
+  "baseExperienceYield": 142,
+  "experienceGroup": "slow",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "preEvolution": "xenomite",
+  "baseScale": 0.26666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "damp",
     "h:aftermath"
@@ -15,38 +22,19 @@
     "special_defence": 89,
     "speed": 74
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 90,
-  "maleRatio": 0.25,
-  "shoulderMountable": false,
-  "baseExperienceYield": 142,
-  "experienceGroup": "slow",
-  "eggCycles": 100,
   "eggGroups": [
     "monster",
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:leechlife",
     "1:bite",
@@ -103,7 +91,8 @@
     "tm:torment",
     "tm:toxic",
     "tm:toxicspikes",
-    "tm:causticbreath"  ],
+    "tm:causticbreath"
+  ],
   "labels": [
     "uranium",
     "not_modeled",
@@ -111,9 +100,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.xenogen.desc"
+    "cobblemon.species.xenogen.desc1"
   ],
-  "preEvolution": "xenomite",
+  "height": 16,
+  "weight": 987,
+  "aspects": [],
   "evolutions": [
     {
       "id": "xenogen_xenoqueen",
@@ -121,31 +112,41 @@
       "result": "xenoqueen",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
-      "permanent": true   
- }
+      "requirements": [],
+      "permanent": true
+    }
   ],
-  "baseScale": 0.26666666666666666,
+  "nationalPokedexNumber": 2604,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 16,
-  "weight": 987,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

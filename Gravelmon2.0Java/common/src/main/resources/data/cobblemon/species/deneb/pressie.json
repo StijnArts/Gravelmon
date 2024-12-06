@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Pressie",
-  "nationalPokedexNumber": 6207,
   "primaryType": "water",
   "secondaryType": "ice",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 127,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.15,
+  "cannotDynamax": false,
   "abilities": [
     "swiftswim",
     "h:shellarmor"
@@ -16,38 +22,18 @@
     "special_defence": 65,
     "speed": 30
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canWalkOnWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 127,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {},
   "moves": [
     "1:growl",
     "1:powdersnow",
@@ -121,14 +107,18 @@
     "egg:thunderbolt",
     "egg:tickle",
     "egg:whirlpool",
-    "egg:zenheadbutt"  ],
+    "egg:zenheadbutt"
+  ],
   "labels": [
     "deneb",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.pressie.desc"
+    "cobblemon.species.pressie.desc1"
   ],
+  "height": 9,
+  "weight": 606,
+  "aspects": [],
   "evolutions": [
     {
       "id": "pressie_lapras",
@@ -139,11 +129,11 @@
       "requirements": [
         {
           "variant": "friendship",
-          "amount": 160
+          "amount": "160"
         }
       ],
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "pressie_lapras_kaskadian",
       "variant": "level_up",
@@ -153,11 +143,11 @@
       "requirements": [
         {
           "variant": "friendship",
-          "amount": 160
+          "amount": "160"
         }
       ],
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "pressie_lapras_mythian",
       "variant": "level_up",
@@ -167,55 +157,64 @@
       "requirements": [
         {
           "variant": "friendship",
-          "amount": 160
+          "amount": "160"
         }
       ],
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "pressie_lapras_novran",
       "variant": "item_interact",
       "result": "lapras novran",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
+      "requirements": [],
       "requiredContext": "cobblemon:thunder_stone",
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "pressie_lapras_ayreian",
       "variant": "item_interact",
       "result": "lapras ayreian",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
+      "requirements": [],
       "requiredContext": "cobblemon:shiny_stone",
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.15,
+  "nationalPokedexNumber": 6207,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true,
+        "canWalkOnWater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 9,
-  "weight": 606,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

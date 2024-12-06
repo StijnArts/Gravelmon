@@ -25,7 +25,7 @@ public class Fretal extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.GRASS,EggGroup.HUMAN_LIKE),
                 List.of("A forest-dwelling pokemon that for some reason searches for a flower to cover its head with. It has an extremely reclusive and meek demeanor and becomes greatly distraught if the flower is blown off of its head."),
                 List.of(new EvolutionEntry("canopeace", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.PETAL_DANCE.getName()+"\"")))	),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.PETAL_DANCE.getName())))	),
                 List.of(   new MoveLearnSetEntry(Move.MUDSLAP,1),
                         new MoveLearnSetEntry(Move.INGRAIN,1),
                         new MoveLearnSetEntry(Move.FAKE_OUT,3),

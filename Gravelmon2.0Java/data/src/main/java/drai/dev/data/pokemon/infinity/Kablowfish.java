@@ -108,6 +108,6 @@ public class Kablowfish extends Pokemon {
         this.setPortraitXYZ(0.1,2.0,0.0);
         this.setPreEvolution("qwilfish");
         addAdditionalEvolution("qwilfish", new EvolutionEntry("kablowfish", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:metal_coat\""))));
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:metal_coat"))));
     }
 }

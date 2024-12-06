@@ -25,10 +25,10 @@ public class EpochKirlia extends drai.dev.data.pokemon.Pokemon {
                 List.of("It can channel its negative emotions into its attacks adding a level of intensity that would otherwise not be present."),
                 List.of(new EvolutionEntry("epoch gardevoir", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40"),
-new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=female\""))),
+new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=female"))),
 new EvolutionEntry("epoch gallade", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40"),
-new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=male\"")))),
+new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SUCKER_PUNCH,30),
                         new MoveLearnSetEntry(Move.POISON_JAB,33),

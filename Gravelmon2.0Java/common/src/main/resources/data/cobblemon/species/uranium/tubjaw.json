@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Tubjaw",
-  "nationalPokedexNumber": 2536,
   "primaryType": "water",
   "secondaryType": "dark",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 81,
+  "experienceGroup": "slow",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "baseScale": 0.26666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "swiftswim",
     "strongjaw",
@@ -17,37 +23,18 @@
     "special_defence": 65,
     "speed": 65
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 81,
-  "experienceGroup": "slow",
-  "eggCycles": 100,
   "eggGroups": [
     "water_2"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "1:leer",
@@ -113,14 +100,18 @@
     "egg:watersport",
     "egg:amnesia",
     "egg:sleeptalk",
-    "egg:shadowball"  ],
+    "egg:shadowball"
+  ],
   "labels": [
     "uranium",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.tubjaw.desc"
+    "cobblemon.species.tubjaw.desc1"
   ],
+  "height": 16,
+  "weight": 554,
+  "aspects": [],
   "evolutions": [
     {
       "id": "tubjaw_tubareel",
@@ -131,31 +122,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 34
+          "minLevel": "34"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.26666666666666666,
+  "nationalPokedexNumber": 2536,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 16,
-  "weight": 554,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

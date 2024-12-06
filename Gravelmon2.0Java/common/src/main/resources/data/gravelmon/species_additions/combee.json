@@ -1,5 +1,5 @@
 {
-   "target": "cobblemon:combee",
+  "target": "cobblemon:combee",
   "evolutions": [
     {
       "id": "combee_draftbee",
@@ -10,249 +10,255 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 21
+          "minLevel": "21"
         },
         {
           "variant": "properties",
-          "target": "gender=male",
+          "target": "gender\u003dmale",
           "contains": true
         }
       ],
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "combee_granvesp",
       "variant": "item_interact",
       "result": "granvesp",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
+      "requirements": [],
       "requiredContext": "cobblemon:dawn_stone",
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
   "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "cobblemon:dawn_stone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
+    "amount": 3
+  },
+  "forms": [
+    {
+      "name": "Qamoran",
+      "primaryType": "steel",
+      "secondaryType": "flying",
+      "catchRate": 120,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 30,
+        "attack": 30,
+        "defence": 42,
+        "special_attack": 30,
+        "special_defence": 42,
+        "speed": 70
       },
-   "forms": [{
-  "name": "Qamoran",
-  "primaryType": "steel",
-  "secondaryType": "flying",
-  "abilities": [
-    "keeneye"  ],
-  "baseStats": {
-    "hp": 30,
-    "attack": 30,
-    "defence": 42,
-    "special_attack": 30,
-    "special_defence": 42,
-    "speed": 70
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:leer",
+        "1:peck",
+        "4:sandattack",
+        "8:furyattack",
+        "12:metalclaw",
+        "16:agility",
+        "20:wingattack",
+        "24:slash",
+        "28:steelwing",
+        "32:payback",
+        "36:drillpeck",
+        "40:metalsound",
+        "44:spikes",
+        "48:irondefense",
+        "52:bravebird"
+      ],
+      "labels": [
+        "qamor",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.qamorancombee.desc1"
+      ],
+      "height": 3,
+      "weight": 165,
+      "aspects": [
+        "qamoran"
+      ],
+      "evolutions": [
+        {
+          "id": "qamorancombee_vespidron",
+          "variant": "level_up",
+          "result": "vespidron",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "20"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
             "canFly": true
-        },
-        "canLook": true,
-        "walk": {
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
-    }
-  },
-  "catchRate": 120,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:leer",
-    "1:peck",
-    "4:sandattack",
-    "8:furyattack",
-    "12:metalclaw",
-    "16:agility",
-    "20:wingattack",
-    "24:slash",
-    "28:steelwing",
-    "32:payback",
-    "36:drillpeck",
-    "40:metalsound",
-    "44:spikes",
-    "48:irondefense",
-    "52:bravebird"  ],
-  "labels": [
-    "qamor",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.qamorancombee.desc"
-  ],
-  "evolutions": [
-    {
-      "id": "combee_vespidron",
-      "variant": "level_up",
-      "result": "vespidron",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": 20
-        }
-      ],
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 3,
-  "weight": 165,
-  "aspects": ["qamoran"],
-  "cannotDynamax": false
-},
-{
-  "name": "Delta",
-  "primaryType": "steel",
-  "secondaryType": "fire",
-  "abilities": [
-    "levitate",
-    "h:speedboost"
-  ],
-  "baseStats": {
-    "hp": 30,
-    "attack": 30,
-    "defence": 42,
-    "special_attack": 30,
-    "special_defence": 42,
-    "speed": 70
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     },
-    "moving": {
-        "fly": {
-            "canFly": false
+    {
+      "name": "Delta",
+      "primaryType": "steel",
+      "secondaryType": "fire",
+      "catchRate": 120,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 49,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "levitate",
+        "h:speedboost"
+      ],
+      "baseStats": {
+        "hp": 30,
+        "attack": 30,
+        "defence": 42,
+        "special_attack": 30,
+        "special_defence": 42,
+        "speed": 70
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:metalsound",
+        "1:ember",
+        "13:mirrorshot",
+        "29:lavaplume",
+        "tutor:endeavor",
+        "tutor:heatwave",
+        "tutor:magnetrise",
+        "tutor:signalbeam",
+        "tutor:snore"
+      ],
+      "labels": [
+        "gen4",
+        "insurgence",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.deltacombee.desc1"
+      ],
+      "height": 3,
+      "weight": 110,
+      "aspects": [
+        "delta"
+      ],
+      "evolutions": [
+        {
+          "id": "deltacombee_vespiquen_delta",
+          "variant": "item_interact",
+          "result": "vespiquen delta",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "properties",
+              "target": "gender\u003dfemale",
+              "contains": true
+            },
+            {
+              "variant": "level",
+              "minLevel": "21"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     }
-  },
-  "catchRate": 120,
-  "shoulderMountable": false,
-  "baseExperienceYield": 49,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "undiscovered"
   ],
-  "moves": [
-    "1:metalsound",
-    "1:ember",
-    "13:mirrorshot",
-    "29:lavaplume",
-    "tutor:endeavor",
-    "tutor:heatwave",
-    "tutor:magnetrise",
-    "tutor:signalbeam",
-    "tutor:snore"  ],
-  "labels": [
-    "gen4",
-    "insurgence",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.deltacombee.desc"
-  ],
-  "evolutions": [
-    {
-      "id": "combee_vespiquen_delta",
-      "variant": "item_interact",
-      "result": "vespiquen delta",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "properties",
-          "target": "gender=female",
-          "contains": true
-        },
-        {
-          "variant": "level",
-          "minLevel": 21
-        }
-      ],
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 3,
-  "weight": 110,
-  "aspects": ["delta"],
-  "cannotDynamax": false
-}
-], "features": [
-"qamoran",
-"delta"
+  "features": [
+    "qamoran",
+    "delta"
   ]
 }

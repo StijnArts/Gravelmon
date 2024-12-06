@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Mesmarine",
-  "nationalPokedexNumber": 1883,
   "primaryType": "psychic",
   "secondaryType": "water",
+  "catchRate": 150,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 172,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.19999999999999998,
+  "cannotDynamax": false,
   "abilities": [
     "sturdy",
     "clearbody",
@@ -17,38 +23,19 @@
     "special_defence": 125,
     "speed": 25
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 150,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 172,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_3",
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:lightscreen",
     "4:psywave",
@@ -145,33 +132,50 @@
     "tm:ancientpower",
     "tm:powergem",
     "tm:haze",
-    "tm:mirrorshot"  ],
+    "tm:mirrorshot"
+  ],
   "labels": [
     "ferroa",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.mesmarine.desc"
+    "cobblemon.species.mesmarine.desc1"
   ],
-  "baseScale": 0.19999999999999998,
+  "height": 12,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1883,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 12,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

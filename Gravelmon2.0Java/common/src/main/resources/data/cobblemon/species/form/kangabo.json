@@ -1,10 +1,17 @@
 {
-  "implemented": true,
   "name": "Kangabo",
-  "nationalPokedexNumber": 5062,
   "primaryType": "rock",
+  "catchRate": 110,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
-    "sturdy"  ],
+    "sturdy"
+  ],
   "baseStats": {
     "hp": 74,
     "attack": 74,
@@ -13,46 +20,31 @@
     "special_defence": 57,
     "speed": 51
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 110,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
-    "1:rockthrow"  ],
+    "1:rockthrow"
+  ],
   "labels": [
     "form",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.kangabo.desc"
+    "cobblemon.species.kangabo.desc1"
   ],
+  "height": 6,
+  "weight": 0,
+  "aspects": [],
   "evolutions": [
     {
       "id": "kangabo_kangaskhan_forman",
@@ -63,16 +55,16 @@
       "requirements": [
         {
           "variant": "friendship",
-          "amount": 200
+          "amount": "200"
         },
         {
           "variant": "properties",
-          "target": gender=female,
+          "target": "gender\u003dfemale",
           "contains": true
         }
       ],
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "kangabo_kangatank",
       "variant": "level_up",
@@ -82,36 +74,48 @@
       "requirements": [
         {
           "variant": "friendship",
-          "amount": 200
+          "amount": "200"
         },
         {
           "variant": "properties",
-          "target": gender=male,
+          "target": "gender\u003dmale",
           "contains": true
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 5062,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 6,
-  "weight": 0,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Hagoop",
-  "nationalPokedexNumber": 2601,
   "primaryType": "poison",
   "secondaryType": "electric",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 78,
+  "experienceGroup": "slow",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "baseScale": 0.13333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "gooey",
     "liquidooze",
@@ -17,38 +23,19 @@
     "special_defence": 105,
     "speed": 50
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 90,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 78,
-  "experienceGroup": "slow",
-  "eggCycles": 100,
   "eggGroups": [
     "field",
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:mudsport",
     "1:astonish",
@@ -116,14 +103,18 @@
     "egg:venoshock",
     "egg:thunderwave",
     "egg:voltswitch",
-    "egg:drainlife"  ],
+    "egg:drainlife"
+  ],
   "labels": [
     "uranium",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.hagoop.desc"
+    "cobblemon.species.hagoop.desc1"
   ],
+  "height": 8,
+  "weight": 398,
+  "aspects": [],
   "evolutions": [
     {
       "id": "hagoop_haagross",
@@ -134,31 +125,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 45
+          "minLevel": "45"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.13333333333333333,
+  "nationalPokedexNumber": 2601,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 8,
-  "weight": 398,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

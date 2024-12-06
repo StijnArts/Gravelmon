@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Drozerain",
-  "nationalPokedexNumber": 6725,
   "primaryType": "grass",
   "secondaryType": "fighting",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 175,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "sunglew",
+  "baseScale": 0.25,
+  "cannotDynamax": false,
   "abilities": [
     "stickyhold",
     "h:chlorophyll"
@@ -16,38 +23,19 @@
     "special_defence": 70,
     "speed": 40
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 175,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "grass",
     "human_like"
   ],
+  "drops": {},
   "moves": [
     "1:sweetscent",
     "13:bind",
@@ -139,7 +127,8 @@
     "tm:block",
     "tm:leechseed",
     "tm:bellydrum",
-    "tm:bodyslam"  ],
+    "tm:bodyslam"
+  ],
   "labels": [
     "novrai",
     "not_modeled",
@@ -147,28 +136,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.drozerain.desc"
+    "cobblemon.species.drozerain.desc1"
   ],
-  "preEvolution": "sunglew",
-  "baseScale": 0.25,
+  "height": 15,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6725,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 15,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

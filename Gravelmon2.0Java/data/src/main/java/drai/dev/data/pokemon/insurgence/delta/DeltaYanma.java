@@ -20,7 +20,7 @@ public class DeltaYanma extends Pokemon {
                 50, List.of(EggGroup.DELTA),
                 List.of("A Delta Species discovered by SapphirePhoenix. Though it specializes in camouflage, it is also a great flier capable of quickly chasing down lured prey."),
                 List.of(new EvolutionEntry("deltayanmega", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.ANCIENT_POWER.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.ANCIENT_POWER.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.VINE_WHIP,1),
                         new MoveLearnSetEntry(Move.CAMOUFLAGE,1),

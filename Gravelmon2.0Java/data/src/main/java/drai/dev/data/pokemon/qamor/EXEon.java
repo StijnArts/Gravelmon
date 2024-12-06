@@ -128,7 +128,7 @@ public class EXEon extends drai.dev.data.pokemon.Pokemon {
                 List.of());
            setLangFileName("EXEon");
         addAdditionalEvolution("eevee", new EvolutionEntry("exeon", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:upgrade\""))));
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:upgrade"))));
 
     }
 

@@ -1,10 +1,18 @@
 {
-  "implemented": true,
   "name": "Nymbide",
-  "nationalPokedexNumber": 1306,
   "primaryType": "bug",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 144,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "odonymph",
+  "baseScale": 0.2333333333333333,
+  "cannotDynamax": false,
   "abilities": [
-    "hustle"  ],
+    "hustle"
+  ],
   "baseStats": {
     "hp": 55,
     "attack": 80,
@@ -13,37 +21,18 @@
     "special_defence": 63,
     "speed": 70
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 144,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:mudsport",
     "9:focusenergy",
@@ -101,7 +90,8 @@
     "tm:earthpower",
     "tm:mudbomb",
     "tm:mudslide",
-    "tm:mudslap"  ],
+    "tm:mudslap"
+  ],
   "labels": [
     "rica",
     "not_modeled",
@@ -109,9 +99,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.nymbide.desc"
+    "cobblemon.species.nymbide.desc1"
   ],
-  "preEvolution": "odonymph",
+  "height": 14,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "nymbide_dranax",
@@ -122,31 +114,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 36
+          "minLevel": "36"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.2333333333333333,
+  "nationalPokedexNumber": 1306,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 14,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

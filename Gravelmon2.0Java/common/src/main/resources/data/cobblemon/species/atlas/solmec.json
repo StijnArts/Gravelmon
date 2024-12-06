@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Solmec",
-  "nationalPokedexNumber": 7009,
   "primaryType": "rock",
   "secondaryType": "ground",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 225,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "dialith",
+  "baseScale": 0.3333333333333333,
+  "cannotDynamax": false,
   "abilities": [
-    "sturdy"  ],
+    "sturdy"
+  ],
   "baseStats": {
     "hp": 110,
     "attack": 100,
@@ -14,37 +22,18 @@
     "special_defence": 85,
     "speed": 43
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 3,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 225,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:bide",
     "6:harden",
@@ -101,7 +90,8 @@
     "tm:mistyterrain",
     "tm:leechseed",
     "tm:scorchingsands",
-    "tm:seedbomb"  ],
+    "tm:seedbomb"
+  ],
   "labels": [
     "atlas",
     "not_modeled",
@@ -109,28 +99,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.solmec.desc"
+    "cobblemon.species.solmec.desc1"
   ],
-  "preEvolution": "dialith",
-  "baseScale": 0.3333333333333333,
+  "height": 20,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 7009,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 3,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 20,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

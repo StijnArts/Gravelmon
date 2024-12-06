@@ -81,6 +81,6 @@ public class Duneon extends Pokemon {
                 List.of());
         this.setPortraitXYZ(0,1.8,0);
         addAdditionalEvolution("eevee", new EvolutionEntry("duneon", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_SANDY.getId() + ":" + Biome.IS_SANDY.getName() +"\""))));
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_SANDY.getId() + ":" + Biome.IS_SANDY.getName()))));
     }
 }

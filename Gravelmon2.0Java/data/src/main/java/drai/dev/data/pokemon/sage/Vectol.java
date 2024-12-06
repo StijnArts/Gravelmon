@@ -20,7 +20,7 @@ public class Vectol extends Pokemon {
                 39, List.of(EggGroup.BUG, EggGroup.MINERAL),
                 List.of("Vectol was a computer virus that had infected the PC storage system. The process that converts data into matter has given it a physical form."),
                 List.of(new EvolutionEntry("vectol2", EvolutionType.LEVEL_UP, true, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:corrupted_disc\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "gravelmon:corrupted_disc")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POISON_STING,1),
                         new MoveLearnSetEntry(Move.CONVERSION,1),

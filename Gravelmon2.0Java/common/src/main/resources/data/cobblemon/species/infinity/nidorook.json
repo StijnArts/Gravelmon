@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Nidorook",
-  "nationalPokedexNumber": 1416,
   "primaryType": "poison",
   "secondaryType": "ground",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 214,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 52,
+  "baseFriendship": 70,
+  "preEvolution": "nidorino",
+  "baseScale": 1.0,
+  "cannotDynamax": false,
   "abilities": [
     "poisonpoint",
     "merciless",
@@ -17,52 +24,20 @@
     "special_defence": 70,
     "speed": 100
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 45,
-  "maleRatio": 1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 214,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 52,
   "eggGroups": [
     "field",
     "monster"
   ],
   "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "gravelmon:astral_stone",
-        "quantityRange": "1-1",
-        "percentage": 40
-      },
-      {
-        "item": "gravelmon:astral_stone",
-        "quantityRange": "1-1",
-        "percentage": 40
-      }
-    ]
+    "amount": 1
   },
   "moves": [
     "1:barbedtackle",
@@ -153,34 +128,50 @@
     "egg:skullbash",
     "egg:supersonic",
     "egg:takedown",
-    "egg:venomswipe"  ],
+    "egg:venomswipe"
+  ],
   "labels": [
     "infinity",
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.nidorook.desc"
+    "cobblemon.species.nidorook.desc1"
   ],
-  "preEvolution": "nidorino",
-  "baseScale": 1.0,
+  "height": 14,
+  "weight": 768,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1416,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 1.2,
     "height": 1.3,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 14,
-  "weight": 768,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

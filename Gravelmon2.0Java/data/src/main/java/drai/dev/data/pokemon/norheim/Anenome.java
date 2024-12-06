@@ -26,7 +26,7 @@ public class Anenome extends drai.dev.data.pokemon.Pokemon {
                 List.of("Present but not seen. Anenome has the ability to turn completely invisible. It may appear during dark winter nights; only to taste the food offered by farmers."),
                 List.of(new EvolutionEntry("Trollskgur", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "night")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SLEEP_POWDER,1),
                         new MoveLearnSetEntry(Move.ABSORB,1),

@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Setohachi",
-  "nationalPokedexNumber": 6379,
   "primaryType": "normal",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 122,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "setoshiba",
+  "baseScale": 0.11666666666666665,
+  "cannotDynamax": false,
   "abilities": [
     "rivalry",
     "h:hustle"
@@ -15,37 +22,18 @@
     "special_defence": 52,
     "speed": 87
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 90,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 122,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "1:leer",
@@ -59,7 +47,8 @@
     "32:crunch",
     "37:workup",
     "40:superfang",
-    "44:doubleedge"  ],
+    "44:doubleedge"
+  ],
   "labels": [
     "deneb",
     "not_modeled",
@@ -67,9 +56,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.setohachi.desc"
+    "cobblemon.species.setohachi.desc1"
   ],
-  "preEvolution": "setoshiba",
+  "height": 7,
+  "weight": 235,
+  "aspects": [],
   "evolutions": [
     {
       "id": "setohachi_setoguo",
@@ -80,31 +71,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 38
+          "minLevel": "38"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.11666666666666665,
+  "nationalPokedexNumber": 6379,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 7,
-  "weight": 235,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

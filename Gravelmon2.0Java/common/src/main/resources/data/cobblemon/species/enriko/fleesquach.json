@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Fleesquach",
-  "nationalPokedexNumber": 2014,
   "primaryType": "normal",
   "secondaryType": "ground",
+  "catchRate": 25,
+  "maleRatio": 0.75,
+  "baseExperienceYield": 280,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "wigfoot",
+  "baseScale": 0.5333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "dryskin",
     "h:intimidate"
@@ -16,61 +23,6 @@
     "special_defence": 100,
     "speed": 55
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 25,
-  "maleRatio": 0.75,
-  "shoulderMountable": false,
-  "baseExperienceYield": 280,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "monster",
-    "field"
-  ],
-  "moves": [
-    "1:stomp",
-    "1:doublekick",
-    "1:earthquake",
-    "1:sandstorm",
-    "54:superpower"  ],
-  "labels": [
-    "enriko",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
-  ],
-  "pokedex": [
-    "cobblemon.species.fleesquach.desc"
-  ],
-  "preEvolution": "wigfoot",
-  "baseScale": 0.5333333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -79,10 +31,62 @@
     "special_defence": 0,
     "speed": 0
   },
+  "eggGroups": [
+    "monster",
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:stomp",
+    "1:doublekick",
+    "1:earthquake",
+    "1:sandstorm",
+    "54:superpower"
+  ],
+  "labels": [
+    "enriko",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.fleesquach.desc1"
+  ],
   "height": 32,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 2014,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

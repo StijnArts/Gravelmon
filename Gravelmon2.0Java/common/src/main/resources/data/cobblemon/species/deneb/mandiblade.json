@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Mandiblade",
-  "nationalPokedexNumber": 6302,
   "primaryType": "steel",
   "secondaryType": "rock",
+  "catchRate": 45,
+  "maleRatio": 0.75,
+  "baseExperienceYield": 203,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "ambilade",
+  "baseScale": 0.21666666666666667,
+  "cannotDynamax": false,
   "abilities": [
     "sandveil",
     "h:rockhead"
@@ -16,38 +23,19 @@
     "special_defence": 60,
     "speed": 40
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.75,
-  "shoulderMountable": false,
-  "baseExperienceYield": 203,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "mineral",
     "monster"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "1:tailwhip",
@@ -116,7 +104,8 @@
     "egg:sunnyday",
     "egg:superpower",
     "egg:thunderpunch",
-    "egg:zenheadbutt"  ],
+    "egg:zenheadbutt"
+  ],
   "labels": [
     "vega",
     "not_modeled",
@@ -124,28 +113,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.mandiblade.desc"
+    "cobblemon.species.mandiblade.desc1"
   ],
-  "preEvolution": "ambilade",
-  "baseScale": 0.21666666666666667,
+  "height": 13,
+  "weight": 773,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6302,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 13,
-  "weight": 773,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

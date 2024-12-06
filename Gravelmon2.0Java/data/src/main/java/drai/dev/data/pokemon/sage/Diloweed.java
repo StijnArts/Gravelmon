@@ -20,7 +20,7 @@ public class Diloweed extends Pokemon {
                 51, List.of(EggGroup.GRASS, EggGroup.FIELD),
                 List.of("As food in the desert is scarce, the plates on Diloweed's back absorb solar energy. It curls itself up into a ball and lets the wind carry it if it is tired."),
                 List.of(new EvolutionEntry("pangolash", EvolutionType.LEVEL_UP, true, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"cobblemon:metal_coat\"")))),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "cobblemon:metal_coat")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ROCK_POLISH,1),
                         new MoveLearnSetEntry(Move.RAPID_SPIN,1),

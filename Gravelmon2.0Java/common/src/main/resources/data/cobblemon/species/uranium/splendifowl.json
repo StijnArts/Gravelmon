@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Splendifowl",
-  "nationalPokedexNumber": 2491,
   "primaryType": "normal",
   "secondaryType": "flying",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 215,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "preEvolution": "aveden",
+  "baseScale": 0.26666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "bigpecks",
     "analytic",
@@ -17,37 +24,18 @@
     "special_defence": 80,
     "speed": 93
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 215,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 100,
   "eggGroups": [
     "flying"
   ],
+  "drops": {},
   "moves": [
     "1:gust",
     "1:flash",
@@ -115,7 +103,8 @@
     "egg:dazzlinggleam",
     "egg:steelwing",
     "egg:uproar",
-    "egg:wish"  ],
+    "egg:wish"
+  ],
   "labels": [
     "uranium",
     "not_modeled",
@@ -123,28 +112,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.splendifowl.desc"
+    "cobblemon.species.splendifowl.desc1"
   ],
-  "preEvolution": "aveden",
-  "baseScale": 0.26666666666666666,
+  "height": 16,
+  "weight": 330,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2491,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 16,
-  "weight": 330,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

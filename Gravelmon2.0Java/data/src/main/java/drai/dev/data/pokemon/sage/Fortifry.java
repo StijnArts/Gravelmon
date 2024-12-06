@@ -20,7 +20,7 @@ public class Fortifry extends Pokemon {
                 50, List.of(EggGroup.WATER_2, EggGroup.DRAGON),
                 List.of("Only Fortifry that learn to care for others will evolve. Though they are numerous and hardy, few Fortifry evolve due to their inherently selfish nature."),
                 List.of(new EvolutionEntry("oarwish", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.WISH.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.WISH.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.SPLASH,1),
                         new MoveLearnSetEntry(Move.POUND,1),

@@ -1,12 +1,20 @@
 {
-  "implemented": true,
   "name": "Beanormous",
-  "nationalPokedexNumber": 7171,
   "primaryType": "fairy",
   "secondaryType": "grass",
+  "catchRate": 15,
+  "maleRatio": 0.75,
+  "baseExperienceYield": 248,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "beaniscule",
+  "baseScale": 0.6333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "cloudnine",
-    "frisk"  ],
+    "frisk"
+  ],
   "baseStats": {
     "hp": 90,
     "attack": 80,
@@ -15,38 +23,19 @@
     "special_defence": 105,
     "speed": 55
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 15,
-  "maleRatio": 0.75,
-  "shoulderMountable": false,
-  "baseExperienceYield": 248,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "grass",
     "fairy"
   ],
+  "drops": {},
   "moves": [
     "1:wish",
     "5:vinewhip",
@@ -100,7 +89,8 @@
     "tm:calmmind",
     "tm:thunderwave",
     "tm:grassyterrain",
-    "tm:mistyterrain"  ],
+    "tm:mistyterrain"
+  ],
   "labels": [
     "atlas",
     "not_modeled",
@@ -108,28 +98,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.beanormous.desc"
+    "cobblemon.species.beanormous.desc1"
   ],
-  "preEvolution": "beaniscule",
-  "baseScale": 0.6333333333333333,
+  "height": 38,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 7171,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 3,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 38,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

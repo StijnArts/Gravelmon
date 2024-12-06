@@ -81,7 +81,6 @@ public class GenerationThree extends Game {
         addNewPokemon(new RaianianAbsol("", Aspect.RAIANIAN, new Stats(465, PHYSICAL_ATTACKER, List.of(ATTACK, ATTACK, ATTACK))).setUsesBigModel());
         addNewPokemon(new RaianianSalamence("", Aspect.RAIANIAN, new Stats(600, SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))).setUsesBigModel());
 
-        //TODO
         addNewPokemon(new TrizoranAbsol("", Aspect.TRIZORAN, new Stats(465, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))).setUsesBigModel());
 
         addNewPokemon(new NorseAbsol("", Aspect.NORSE, new Stats(465, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPEED))).setUsesBigModel());

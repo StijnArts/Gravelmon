@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Viipii",
-  "nationalPokedexNumber": 1184,
   "primaryType": "normal",
+  "catchRate": 30,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 155,
+  "experienceGroup": "erratic",
+  "eggCycles": 51,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "cutecharm",
     "h:friendguard"
@@ -15,37 +21,20 @@
     "special_defence": 84,
     "speed": 54
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 30,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 155,
-  "experienceGroup": "erratic",
-  "eggCycles": 51,
   "eggGroups": [
     "ditto"
   ],
+  "drops": {
+    "amount": 2
+  },
   "moves": [
     "1:yawn",
     "1:metronome",
@@ -145,33 +134,50 @@
     "tutor:spite",
     "tutor:swift",
     "tutor:trick",
-    "tutor:uproar"  ],
+    "tutor:uproar"
+  ],
   "labels": [
     "sage",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.viipii.desc"
+    "cobblemon.species.viipii.desc1"
   ],
-  "baseScale": 0.1,
+  "height": 6,
+  "weight": 119,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1184,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 6,
-  "weight": 119,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

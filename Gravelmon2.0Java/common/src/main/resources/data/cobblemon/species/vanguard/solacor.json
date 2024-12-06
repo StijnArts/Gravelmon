@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Solacor",
-  "nationalPokedexNumber": 5488,
   "primaryType": "water",
   "secondaryType": "rock",
+  "catchRate": 60,
+  "maleRatio": 0.25,
+  "baseExperienceYield": 244,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "amacorala",
+  "baseScale": 0.31666666666666665,
+  "cannotDynamax": false,
   "abilities": [
     "hustle",
     "naturalcure",
@@ -17,38 +24,19 @@
     "special_defence": 95,
     "speed": 120
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 60,
-  "maleRatio": 0.25,
-  "shoulderMountable": false,
-  "baseExperienceYield": 244,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "water_1",
     "water_3"
   ],
+  "drops": {},
   "moves": [
     "1:scald",
     "1:psychic",
@@ -133,7 +121,8 @@
     "egg:headsmash",
     "egg:mist",
     "egg:naturepower",
-    "egg:waterpulse"  ],
+    "egg:waterpulse"
+  ],
   "labels": [
     "vanguard",
     "not_modeled",
@@ -141,28 +130,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.solacor.desc"
+    "cobblemon.species.solacor.desc1"
   ],
-  "preEvolution": "amacorala",
-  "baseScale": 0.31666666666666665,
+  "height": 19,
+  "weight": 5550,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5488,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 19,
-  "weight": 5550,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Drauking",
-  "nationalPokedexNumber": 3387,
   "primaryType": "ghost",
   "secondaryType": "steel",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "draudager",
+  "baseScale": 0.4166666666666667,
+  "cannotDynamax": false,
   "abilities": [
-    "cursedbody"  ],
+    "cursedbody"
+  ],
   "baseStats": {
     "hp": 75,
     "attack": 135,
@@ -14,59 +22,6 @@
     "special_defence": 79,
     "speed": 114
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:lick",
-    "1:metalclaw",
-    "1:quickattack",
-    "1:bulletpunch"  ],
-  "labels": [
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution",
-    "norse"
-  ],
-  "pokedex": [
-    "cobblemon.species.drauking.desc"
-  ],
-  "preEvolution": "draudager",
-  "baseScale": 0.4166666666666667,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -75,10 +30,60 @@
     "special_defence": 0,
     "speed": 0
   },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:lick",
+    "1:metalclaw",
+    "1:quickattack",
+    "1:bulletpunch"
+  ],
+  "labels": [
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution",
+    "norse"
+  ],
+  "pokedex": [
+    "cobblemon.species.drauking.desc1"
+  ],
   "height": 25,
   "weight": 0,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 3387,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

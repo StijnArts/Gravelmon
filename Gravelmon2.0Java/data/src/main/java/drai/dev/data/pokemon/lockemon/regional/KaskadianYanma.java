@@ -20,7 +20,7 @@ public class KaskadianYanma extends Pokemon {
                 50, List.of(EggGroup.BUG),
                 List.of(""),
                 List.of(new EvolutionEntry("yanmage", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.DRAGONS_DICE.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.DRAGONS_DICE.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,6),

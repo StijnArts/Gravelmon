@@ -7,20 +7,17 @@
       "id": "spacteel-01",
       "pokemon": "spacteel",
       "presets": [
-        "natural"
+        "underwater"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
+      "context": "submerged",
+      "bucket": "ultra-rare",
+      "level": "16-40",
+      "weight": 1.35,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+          "#minecraft:is_deep_ocean"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

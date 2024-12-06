@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Helsteteri",
-  "nationalPokedexNumber": 5302,
   "primaryType": "fighting",
   "secondaryType": "dark",
+  "catchRate": 50,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "maliospi",
+  "baseScale": 0.26666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "multiscale",
     "h:intimidate"
@@ -16,37 +23,18 @@
     "special_defence": 85,
     "speed": 87
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 50,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "water_1"
   ],
+  "drops": {},
   "moves": [
     "1:watergun",
     "1:scratch",
@@ -111,7 +99,8 @@
     "tm:dreameater",
     "tm:swagger",
     "tm:substitute",
-    "tm:snarl"  ],
+    "tm:snarl"
+  ],
   "labels": [
     "fliga",
     "not_modeled",
@@ -119,28 +108,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.helsteteri.desc"
+    "cobblemon.species.helsteteri.desc1"
   ],
-  "preEvolution": "maliospi",
-  "baseScale": 0.26666666666666666,
+  "height": 16,
+  "weight": 50,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5302,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 16,
-  "weight": 50,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

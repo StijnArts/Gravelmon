@@ -23,7 +23,7 @@ public class Mintch extends Pokemon {
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18"))),
                         new EvolutionEntry("signetanblakjak", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18"),
-                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_SPOOKY.getId() + ":" + Biome.IS_SPOOKY.getName() +"\"")))),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_SPOOKY.getId() + ":" + Biome.IS_SPOOKY.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.FORESIGHT,1),
                         new MoveLearnSetEntry(Move.PECK,1),

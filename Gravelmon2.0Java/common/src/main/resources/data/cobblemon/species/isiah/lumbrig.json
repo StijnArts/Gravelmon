@@ -1,10 +1,18 @@
 {
-  "implemented": true,
   "name": "Lumbrig",
-  "nationalPokedexNumber": 5709,
   "primaryType": "ground",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 166,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "cavorm",
+  "baseScale": 0.15,
+  "cannotDynamax": false,
   "abilities": [
-    "sandrush"  ],
+    "sandrush"
+  ],
   "baseStats": {
     "hp": 75,
     "attack": 90,
@@ -13,37 +21,18 @@
     "special_defence": 95,
     "speed": 75
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
   },
-  "catchRate": 90,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 166,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:wrap",
     "5:mudsport",
@@ -59,7 +48,8 @@
     "42:acupressure",
     "49:sandstorm",
     "55:coil",
-    "62:fissure"  ],
+    "62:fissure"
+  ],
   "labels": [
     "isiah",
     "not_modeled",
@@ -67,28 +57,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.lumbrig.desc"
+    "cobblemon.species.lumbrig.desc1"
   ],
-  "preEvolution": "cavorm",
-  "baseScale": 0.15,
+  "height": 9,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5709,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 2,
-    "speed": 0
-  },
-  "height": 9,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

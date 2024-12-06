@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Strikezall",
-  "nationalPokedexNumber": 7027,
   "primaryType": "fighting",
   "secondaryType": "steel",
+  "catchRate": 45,
+  "maleRatio": 1.0,
+  "baseExperienceYield": 180,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "pitchzall",
+  "baseScale": 0.21666666666666667,
+  "cannotDynamax": false,
   "abilities": [
     "pickup",
     "ballfetch",
@@ -17,37 +24,18 @@
     "special_defence": 78,
     "speed": 98
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 180,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "human_like"
   ],
+  "drops": {},
   "moves": [
     "1:leer",
     "5:doublehit",
@@ -102,7 +90,8 @@
     "tm:swordsdance",
     "tm:taunt",
     "tm:toxic",
-    "tm:stormthrow"  ],
+    "tm:stormthrow"
+  ],
   "labels": [
     "atlas",
     "not_modeled",
@@ -110,28 +99,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.strikezall.desc"
+    "cobblemon.species.strikezall.desc1"
   ],
-  "preEvolution": "pitchzall",
-  "baseScale": 0.21666666666666667,
+  "height": 13,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 7027,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 13,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

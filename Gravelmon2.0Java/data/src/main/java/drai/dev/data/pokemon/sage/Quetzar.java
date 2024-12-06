@@ -21,7 +21,7 @@ public class Quetzar extends Pokemon {
                 List.of("Quetzar's wings inspired the ancient Urobians to name the constellations. Legends warn that if it leaves, the night sky will turn pitch black."),
                 List.of(new EvolutionEntry("quetzarspace", EvolutionType.LEVEL_UP, false, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"1"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"minecraft:ender_eye\"")),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "minecraft:ender_eye")),
                         List.of())),
                 List.of(
                         new MoveLearnSetEntry(Move.SCARY_FACE,1),

@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Kelpush",
-  "nationalPokedexNumber": 7095,
   "primaryType": "grass",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 157,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "algrain",
+  "baseScale": 0.2333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "waterabsorb",
     "damp",
@@ -16,37 +23,18 @@
     "special_defence": 68,
     "speed": 65
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 157,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "grass"
   ],
+  "drops": {},
   "moves": [
     "1:absorb",
     "5:watersport",
@@ -60,7 +48,8 @@
     "41:grassknot",
     "45:growth",
     "51:wringout",
-    "57:powerwhip"  ],
+    "57:powerwhip"
+  ],
   "labels": [
     "atlas",
     "not_modeled",
@@ -68,9 +57,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.kelpush.desc"
+    "cobblemon.species.kelpush.desc1"
   ],
-  "preEvolution": "algrain",
+  "height": 14,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "kelpush_kelprash",
@@ -81,31 +72,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 40
+          "minLevel": "40"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.2333333333333333,
+  "nationalPokedexNumber": 7095,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 14,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

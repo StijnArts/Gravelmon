@@ -24,7 +24,7 @@ public class Platypull extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD,EggGroup.WATER_1),
                 List.of("It produces such a strong magnetic field that bits of metal are attracted to it. When it dives underwater, it even sometimes unearths valuable ore."),
                 List.of(new EvolutionEntry("magnetreme", EvolutionType.LEVEL_UP, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:metal_coat\"")))),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:metal_coat")))),
                 List.of(
                         new MoveLearnSetEntry(Move.THUNDER_SHOCK,1),
                         new MoveLearnSetEntry(Move.WATER_SPORT,4),

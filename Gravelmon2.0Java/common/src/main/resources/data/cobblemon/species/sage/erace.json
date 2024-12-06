@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Erace",
-  "nationalPokedexNumber": 1247,
   "primaryType": "steel",
   "secondaryType": "electric",
+  "catchRate": 3,
+  "maleRatio": -1.0,
+  "baseExperienceYield": 261,
+  "experienceGroup": "slow",
+  "eggCycles": 200,
+  "baseFriendship": 70,
+  "baseScale": 0.48333333333333334,
+  "cannotDynamax": false,
   "abilities": [
     "filter",
     "h:electricsurge"
@@ -16,37 +22,20 @@
     "special_defence": 130,
     "speed": 95
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
   },
-  "catchRate": 3,
-  "maleRatio": -1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 261,
-  "experienceGroup": "slow",
-  "eggCycles": 200,
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": 3
+  },
   "moves": [
     "1:ancientpower",
     "1:lockon",
@@ -99,33 +88,50 @@
     "tm:focuspunch",
     "tm:sleeptalk",
     "tm:shieldbash",
-    "tm:strength"  ],
+    "tm:strength"
+  ],
   "labels": [
     "sage",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.erace.desc"
+    "cobblemon.species.erace.desc1"
   ],
-  "baseScale": 0.48333333333333334,
+  "height": 29,
+  "weight": 2898,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1247,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 2,
-    "speed": 0
-  },
-  "height": 29,
-  "weight": 2898,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

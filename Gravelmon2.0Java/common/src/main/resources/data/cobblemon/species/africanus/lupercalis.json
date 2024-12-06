@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Lupercalis",
-  "nationalPokedexNumber": 2460,
   "primaryType": "grass",
   "secondaryType": "fairy",
+  "catchRate": 45,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "virilis",
+  "baseScale": 0.3333333333333333,
+  "cannotDynamax": false,
   "abilities": [
-    "clearbody"  ],
+    "clearbody"
+  ],
   "baseStats": {
     "hp": 100,
     "attack": 55,
@@ -14,60 +22,6 @@
     "special_defence": 130,
     "speed": 110
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 45,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "monster",
-    "grass"
-  ],
-  "moves": [
-    "40:energyball",
-    "48:moonblast",
-    "38:extrasensory",
-    "44:psychic"  ],
-  "labels": [
-    "africanus",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
-  ],
-  "pokedex": [
-    "cobblemon.species.lupercalis.desc"
-  ],
-  "preEvolution": "virilis",
-  "baseScale": 0.3333333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -76,10 +30,61 @@
     "special_defence": 2,
     "speed": 1
   },
+  "eggGroups": [
+    "monster",
+    "grass"
+  ],
+  "drops": {},
+  "moves": [
+    "40:energyball",
+    "48:moonblast",
+    "38:extrasensory",
+    "44:psychic"
+  ],
+  "labels": [
+    "africanus",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.lupercalis.desc1"
+  ],
   "height": 20,
   "weight": 1000,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 2460,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

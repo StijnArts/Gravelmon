@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Rokunaito",
-  "nationalPokedexNumber": 6343,
   "primaryType": "rock",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 174,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "dorisuton",
+  "baseScale": 0.21666666666666667,
+  "cannotDynamax": false,
   "abilities": [
     "skilllink",
     "h:sturdy"
@@ -15,37 +22,18 @@
     "special_defence": 70,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 3,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 174,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "1:harden",
@@ -82,7 +70,8 @@
     "egg:skullbash",
     "egg:steamroller",
     "egg:superpower",
-    "egg:takedown"  ],
+    "egg:takedown"
+  ],
   "labels": [
     "deneb",
     "not_modeled",
@@ -90,28 +79,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.rokunaito.desc"
+    "cobblemon.species.rokunaito.desc1"
   ],
-  "preEvolution": "dorisuton",
-  "baseScale": 0.21666666666666667,
+  "height": 13,
+  "weight": 178,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6343,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 3,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 13,
-  "weight": 178,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

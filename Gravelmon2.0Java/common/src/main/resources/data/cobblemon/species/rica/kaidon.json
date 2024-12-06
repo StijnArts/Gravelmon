@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Kaidon",
-  "nationalPokedexNumber": 1285,
   "primaryType": "water",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 166,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "cyton",
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "stickyhold",
     "shellarmor",
@@ -16,37 +23,18 @@
     "special_defence": 80,
     "speed": 48
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 166,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_3"
   ],
+  "drops": {},
   "moves": [
     "1:defensecurl",
     "5:bubble",
@@ -117,7 +105,8 @@
     "tm:magnetbomb",
     "tm:wideguard",
     "tm:razorshell",
-    "tm:belch"  ],
+    "tm:belch"
+  ],
   "labels": [
     "rica",
     "not_modeled",
@@ -125,28 +114,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.kaidon.desc"
+    "cobblemon.species.kaidon.desc1"
   ],
-  "preEvolution": "cyton",
-  "baseScale": 0.1,
+  "height": 6,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1285,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 6,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

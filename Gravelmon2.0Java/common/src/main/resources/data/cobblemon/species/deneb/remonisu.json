@@ -1,11 +1,18 @@
 {
-  "implemented": true,
   "name": "Remonisu",
-  "nationalPokedexNumber": 6336,
   "primaryType": "ice",
   "secondaryType": "electric",
+  "catchRate": 140,
+  "maleRatio": -1.0,
+  "baseExperienceYield": 124,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
-    "snowwarning"  ],
+    "snowwarning"
+  ],
   "baseStats": {
     "hp": 90,
     "attack": 45,
@@ -14,37 +21,18 @@
     "special_defence": 95,
     "speed": 115
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 140,
-  "maleRatio": -1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 124,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "fairy"
   ],
+  "drops": {},
   "moves": [
     "1:powdersnow",
     "1:thundershock",
@@ -82,14 +70,18 @@
     "tm:icefang",
     "tm:round",
     "tm:bulldoze",
-    "tm:stompingtantrum"  ],
+    "tm:stompingtantrum"
+  ],
   "labels": [
     "deneb",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.remonisu.desc"
+    "cobblemon.species.remonisu.desc1"
   ],
+  "height": 6,
+  "weight": 178,
+  "aspects": [],
   "evolutions": [
     {
       "id": "remonisu_renemodo",
@@ -97,32 +89,42 @@
       "result": "renemodo",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
+      "requirements": [],
       "requiredContext": "cobblemon:thunder_stone",
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 6336,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 6,
-  "weight": 178,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

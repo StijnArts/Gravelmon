@@ -24,9 +24,9 @@ public class AvalossianAipom extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD),
                 List.of("Avalossian Aipoms have a particular obsession with bones, and the sound they make when knocked together. Entire bands of Aipom will gather to smack bones on each other's skull helmets to make a grim, yet funky, beat."),
                 List.of(new EvolutionEntry("slambizom", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:thick_club\""))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:thick_club"))),
                         new EvolutionEntry("macaqdeath", EvolutionType.LEVEL_UP, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"gravelmon:empty_skull\"")))),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"gravelmon:empty_skull")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.PHANTOMHAND,1),

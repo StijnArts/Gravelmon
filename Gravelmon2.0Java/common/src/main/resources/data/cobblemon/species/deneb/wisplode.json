@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Wisplode",
-  "nationalPokedexNumber": 6161,
   "primaryType": "fire",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 172,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "willisp",
+  "baseScale": 0.11666666666666665,
+  "cannotDynamax": false,
   "abilities": [
     "levitate",
     "h:flamebody"
@@ -15,37 +22,18 @@
     "special_defence": 115,
     "speed": 80
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 172,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:astonish",
     "1:leer",
@@ -106,7 +94,8 @@
     "egg:swallow",
     "egg:trick",
     "egg:uproar",
-    "egg:wish"  ],
+    "egg:wish"
+  ],
   "labels": [
     "deneb",
     "not_modeled",
@@ -114,28 +103,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.wisplode.desc"
+    "cobblemon.species.wisplode.desc1"
   ],
-  "preEvolution": "willisp",
-  "baseScale": 0.11666666666666665,
+  "height": 7,
+  "weight": 5,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6161,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 2,
-    "speed": 0
-  },
-  "height": 7,
-  "weight": 5,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

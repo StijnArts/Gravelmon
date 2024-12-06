@@ -20,7 +20,7 @@ public class EghoMagneton extends Pokemon {
                 50, List.of(EggGroup.GRASS, EggGroup.MINERAL),
                 List.of("Instead of attaching to each other like standard Magnemite, these Magneton are grown from their original Magnemite form."),
                 List.of(new EvolutionEntry("eghomagnezone", EvolutionType.LEVEL_UP, true, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"cobblemon:miracle_seed\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "cobblemon:miracle_seed")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWTH,1),
                         new MoveLearnSetEntry(Move.MIRROR_COAT,1),

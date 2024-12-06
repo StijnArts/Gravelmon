@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Lumishroom",
-  "nationalPokedexNumber": 1074,
   "primaryType": "poison",
   "secondaryType": "electric",
+  "catchRate": 65,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 163,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "kertruffle",
+  "baseScale": 0.25,
+  "cannotDynamax": false,
   "abilities": [
     "effectspore",
     "voltabsorb",
@@ -17,37 +24,20 @@
     "special_defence": 100,
     "speed": 30
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 65,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 163,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "grass"
   ],
+  "drops": {
+    "amount": 2
+  },
   "moves": [
     "1:flash",
     "1:bide",
@@ -114,7 +104,8 @@
     "egg:gastroacid",
     "egg:lightscreen",
     "egg:psychoshift",
-    "egg:pursuit"  ],
+    "egg:pursuit"
+  ],
   "labels": [
     "sage",
     "not_modeled",
@@ -122,28 +113,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.lumishroom.desc"
+    "cobblemon.species.lumishroom.desc1"
   ],
-  "preEvolution": "kertruffle",
-  "baseScale": 0.25,
+  "height": 15,
+  "weight": 71,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1074,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 15,
-  "weight": 71,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

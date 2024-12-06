@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Snowtus",
-  "nationalPokedexNumber": 5333,
   "primaryType": "grass",
   "secondaryType": "ice",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 56,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "icebody",
     "waterabsorb",
@@ -17,38 +23,19 @@
     "special_defence": 81,
     "speed": 55
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 56,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "grass",
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:watersport",
     "1:powdersnow",
@@ -116,14 +103,18 @@
     "tm:toxic",
     "tm:watergun",
     "tm:weatherball",
-    "tm:whirlwind"  ],
+    "tm:whirlwind"
+  ],
   "labels": [
     "fliga",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.snowtus.desc"
+    "cobblemon.species.snowtus.desc1"
   ],
+  "height": 4,
+  "weight": 9,
+  "aspects": [],
   "evolutions": [
     {
       "id": "snowtus_nerimbe",
@@ -134,31 +125,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 210
+          "minLevel": "210"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 5333,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 4,
-  "weight": 9,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

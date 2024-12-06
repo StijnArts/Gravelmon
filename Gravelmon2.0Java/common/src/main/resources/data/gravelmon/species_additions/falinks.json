@@ -1,384 +1,408 @@
 {
-   "target": "cobblemon:falinks",
-   "forms": [{
-  "name": "Fabelian",
-  "primaryType": "rock",
-  "secondaryType": "fairy",
-  "abilities": [
-    "keeneye"  ],
-  "baseStats": {
-    "hp": 102,
-    "attack": 36,
-    "defence": 47,
-    "special_attack": 55,
-    "special_defence": 137,
-    "speed": 83
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 93,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:rockthrow",
-    "1:disarmingvoice",
-    "1:bulkup",
-    "1:bulkup",
-    "1:vacuumwave",
-    "1:vacuumwave"  ],
-  "labels": [
-    "fabel",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.fabelianfalinks.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 0,
-  "weight": 0,
-  "aspects": ["fabelian"],
-  "cannotDynamax": false
-},
-{
-  "name": "Epoch",
-  "primaryType": "cosmic",
-  "abilities": [
-    "purepower"  ],
-  "baseStats": {
-    "hp": 85,
-    "attack": 65,
-    "defence": 90,
-    "special_attack": 75,
-    "special_defence": 65,
-    "speed": 90
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 90,
-  "shoulderMountable": false,
-  "baseExperienceYield": 165,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "fairy",
-    "mineral"
-  ],
-  "moves": [
-    "29:gammaray",
-    "42:risingvoltage",
-    "57:beatup",
-    "5:stardust",
-    "tm:acrobatics",
-    "tm:airslash",
-    "tm:aurasphere",
-    "tm:bodyslam",
-    "tm:bounce",
-    "tm:calmmind",
-    "tm:chargebeam",
-    "tm:confuseray",
-    "tm:cosmicpower",
-    "tm:curse",
-    "tm:dazzlinggleam",
-    "tm:drainpunch",
-    "tm:focusblast",
-    "tm:gammaray",
-    "tm:geomancy",
-    "tm:healbell",
-    "tm:hiddenpower",
-    "tm:ironhead",
-    "tm:knockoff",
-    "tm:meteorbeam",
-    "tm:meteormash",
-    "tm:metronome",
-    "tm:moonblast",
-    "tm:nastyplot",
-    "tm:payday",
-    "tm:playrough",
-    "tm:protect",
-    "tm:rest",
-    "tm:return",
-    "tm:safeguard",
-    "tm:sleeptalk",
-    "tm:substitute",
-    "tm:superpower",
-    "tm:swift",
-    "tm:taunt",
-    "tm:terrainpulse",
-    "tm:thunder",
-    "tm:thunderbolt",
-    "tm:toxic",
-    "tm:voltswitch",
-    "tm:weatherball",
-    "tm:wildcharge",
-    "tm:wish",
-    "tm:workup",
-    "tm:zenheadbutt"  ],
-  "labels": [
-    "soulstones",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.epochfalinks.desc"
-  ],
-  "baseScale": 0.5,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 30,
-  "weight": 620,
-  "aspects": ["epoch"],
-  "cannotDynamax": false
-},
-{
-  "name": "Norheiman",
-  "primaryType": "steel",
-  "secondaryType": "fighting",
-  "abilities": [
-    "battlearmor",
-    "h:steelyspirit"
-  ],
-  "baseStats": {
-    "hp": 65,
-    "attack": 110,
-    "defence": 120,
-    "special_attack": 50,
-    "special_defence": 50,
-    "speed": 75
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 120,
-  "shoulderMountable": false,
-  "baseExperienceYield": 165,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "fairy",
-    "mineral"
-  ],
-  "moves": [
-    "1:copycat",
-    "1:detect",
-    "1:feint",
-    "1:finalgambit",
-    "1:helpinghand",
-    "1:lifedew",
-    "1:metalclaw",
-    "1:quickattack",
-    "1:reversal",
-    "1:rocksmash",
-    "1:screech",
-    "1:vacuumwave",
-    "12:counter",
-    "16:workup",
-    "20:forcepalm",
-    "24:calmmind",
-    "28:metalsound",
-    "32:quickguard",
-    "36:bonerush",
-    "40:swordsdance",
-    "44:healpulse",
-    "48:meteormash",
-    "52:dragonpulse",
-    "56:extremespeed",
-    "60:closecombat",
-    "egg:bite",
-    "egg:bulletpunch",
-    "egg:circlethrow",
-    "egg:crosschop",
-    "egg:detect",
-    "egg:highjumpkick",
-    "egg:howl",
-    "tm:takedown",
-    "tm:agility",
-    "tm:scaryface",
-    "tm:protect",
-    "tm:waterpulse",
-    "tm:lowkick",
-    "tm:trailblaze",
-    "tm:facade",
-    "tm:aerialace",
-    "tm:bulldoze",
-    "tm:metalclaw",
-    "tm:swift",
-    "tm:rocktomb",
-    "tm:lowsweep",
-    "tm:fling",
-    "tm:endure",
-    "tm:sunnyday",
-    "tm:raindance",
-    "tm:dig",
-    "tm:brickbreak",
-    "tm:zenheadbutt",
-    "tm:shadowclaw",
-    "tm:bulkup",
-    "tm:bodyslam",
-    "tm:thunderpunch",
-    "tm:icepunch",
-    "tm:sleeptalk",
-    "tm:drainpunch",
-    "tm:metronome",
-    "tm:poisonjab",
-    "tm:rest",
-    "tm:rockslide",
-    "tm:swordsdance",
-    "tm:flashcannon",
-    "tm:darkpulse",
-    "tm:substitute",
-    "tm:irondefense",
-    "tm:crunch",
-    "tm:aurasphere",
-    "tm:shadowball",
-    "tm:dragonpulse",
-    "tm:psychic",
-    "tm:calmmind",
-    "tm:helpinghand",
-    "tm:reversal",
-    "tm:nastyplot",
-    "tm:earthquake",
-    "tm:stoneedge",
-    "tm:gigaimpact",
-    "tm:focusblast",
-    "tm:hyperbeam",
-    "tm:closecombat",
-    "tm:steelbeam",
-    "tm:terablast"  ],
-  "labels": [
-    "norheim",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.norheimanfalinks.desc"
-  ],
-  "evolutions": [
+  "target": "cobblemon:falinks",
+  "forms": [
     {
-      "id": "falinks_vaiking",
-      "variant": "level_up",
-      "result": "vaiking",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
+      "name": "Fabelian",
+      "primaryType": "rock",
+      "secondaryType": "fairy",
+      "catchRate": 93,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 102,
+        "attack": 36,
+        "defence": 47,
+        "special_attack": 55,
+        "special_defence": 137,
+        "speed": 83
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:rockthrow",
+        "1:disarmingvoice",
+        "1:bulkup",
+        "1:bulkup",
+        "1:vacuumwave",
+        "1:vacuumwave"
+      ],
+      "labels": [
+        "fabel",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.fabelianfalinks.desc1"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "fabelian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+          }
+        }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "cosmic",
+      "catchRate": 90,
+      "maleRatio": -1.0,
+      "baseExperienceYield": 165,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.5,
+      "cannotDynamax": false,
+      "abilities": [
+        "purepower"
+      ],
+      "baseStats": {
+        "hp": 85,
+        "attack": 65,
+        "defence": 90,
+        "special_attack": 75,
+        "special_defence": 65,
+        "speed": 90
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy",
+        "mineral"
+      ],
+      "drops": {},
+      "moves": [
+        "29:gammaray",
+        "42:risingvoltage",
+        "57:beatup",
+        "5:stardust",
+        "tm:acrobatics",
+        "tm:airslash",
+        "tm:aurasphere",
+        "tm:bodyslam",
+        "tm:bounce",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:curse",
+        "tm:dazzlinggleam",
+        "tm:drainpunch",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:healbell",
+        "tm:hiddenpower",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:meteorbeam",
+        "tm:meteormash",
+        "tm:metronome",
+        "tm:moonblast",
+        "tm:nastyplot",
+        "tm:payday",
+        "tm:playrough",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:safeguard",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:swift",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:toxic",
+        "tm:voltswitch",
+        "tm:weatherball",
+        "tm:wildcharge",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochfalinks.desc1"
+      ],
+      "height": 30,
+      "weight": 620,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+          }
+        }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Norheiman",
+      "primaryType": "steel",
+      "secondaryType": "fighting",
+      "catchRate": 120,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 165,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.19999999999999998,
+      "cannotDynamax": false,
+      "abilities": [
+        "battlearmor",
+        "h:steelyspirit"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 110,
+        "defence": 120,
+        "special_attack": 50,
+        "special_defence": 50,
+        "speed": 75
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy",
+        "mineral"
+      ],
+      "drops": {},
+      "moves": [
+        "1:copycat",
+        "1:detect",
+        "1:feint",
+        "1:finalgambit",
+        "1:helpinghand",
+        "1:lifedew",
+        "1:metalclaw",
+        "1:quickattack",
+        "1:reversal",
+        "1:rocksmash",
+        "1:screech",
+        "1:vacuumwave",
+        "12:counter",
+        "16:workup",
+        "20:forcepalm",
+        "24:calmmind",
+        "28:metalsound",
+        "32:quickguard",
+        "36:bonerush",
+        "40:swordsdance",
+        "44:healpulse",
+        "48:meteormash",
+        "52:dragonpulse",
+        "56:extremespeed",
+        "60:closecombat",
+        "egg:bite",
+        "egg:bulletpunch",
+        "egg:circlethrow",
+        "egg:crosschop",
+        "egg:detect",
+        "egg:highjumpkick",
+        "egg:howl",
+        "tm:takedown",
+        "tm:agility",
+        "tm:scaryface",
+        "tm:protect",
+        "tm:waterpulse",
+        "tm:lowkick",
+        "tm:trailblaze",
+        "tm:facade",
+        "tm:aerialace",
+        "tm:bulldoze",
+        "tm:metalclaw",
+        "tm:swift",
+        "tm:rocktomb",
+        "tm:lowsweep",
+        "tm:fling",
+        "tm:endure",
+        "tm:sunnyday",
+        "tm:raindance",
+        "tm:dig",
+        "tm:brickbreak",
+        "tm:zenheadbutt",
+        "tm:shadowclaw",
+        "tm:bulkup",
+        "tm:bodyslam",
+        "tm:thunderpunch",
+        "tm:icepunch",
+        "tm:sleeptalk",
+        "tm:drainpunch",
+        "tm:metronome",
+        "tm:poisonjab",
+        "tm:rest",
+        "tm:rockslide",
+        "tm:swordsdance",
+        "tm:flashcannon",
+        "tm:darkpulse",
+        "tm:substitute",
+        "tm:irondefense",
+        "tm:crunch",
+        "tm:aurasphere",
+        "tm:shadowball",
+        "tm:dragonpulse",
+        "tm:psychic",
+        "tm:calmmind",
+        "tm:helpinghand",
+        "tm:reversal",
+        "tm:nastyplot",
+        "tm:earthquake",
+        "tm:stoneedge",
+        "tm:gigaimpact",
+        "tm:focusblast",
+        "tm:hyperbeam",
+        "tm:closecombat",
+        "tm:steelbeam",
+        "tm:terablast"
+      ],
+      "labels": [
+        "norheim",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.norheimanfalinks.desc1"
+      ],
+      "height": 12,
+      "weight": 165,
+      "aspects": [
+        "norheiman"
+      ],
+      "evolutions": [
         {
-          "variant": "level",
-          "minLevel": 41
+          "id": "norheimanfalinks_vaiking",
+          "variant": "level_up",
+          "result": "vaiking",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "41"
+            }
+          ],
+          "permanent": true
         }
       ],
-      "permanent": true   
- }
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+          }
+        }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
   ],
-  "baseScale": 0.19999999999999998,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 12,
-  "weight": 165,
-  "aspects": ["norheiman"],
-  "cannotDynamax": false
-}
-], "features": [
-"fabelian",
-"epoch",
-"norheiman"
+  "features": [
+    "fabelian",
+    "epoch",
+    "norheiman"
   ]
 }

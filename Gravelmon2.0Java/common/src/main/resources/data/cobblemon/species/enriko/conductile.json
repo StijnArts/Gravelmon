@@ -1,11 +1,18 @@
 {
-  "implemented": true,
   "name": "Conductile",
-  "nationalPokedexNumber": 2106,
   "primaryType": "dragon",
   "secondaryType": "electric",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 80,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
   "baseStats": {
     "hp": 68,
     "attack": 59,
@@ -14,37 +21,18 @@
     "special_defence": 53,
     "speed": 66
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 80,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "dragon"
   ],
+  "drops": {},
   "moves": [
     "1:perfectglare",
     "1:electroweb",
@@ -63,14 +51,18 @@
     "51:wringout",
     "57:dragonpulse",
     "62:perfectglare",
-    "67:discharge"  ],
+    "67:discharge"
+  ],
   "labels": [
     "enriko",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.conductile.desc"
+    "cobblemon.species.conductile.desc1"
   ],
+  "height": 6,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "conductile_batterex",
@@ -81,31 +73,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 42
+          "minLevel": "42"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 2106,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 6,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

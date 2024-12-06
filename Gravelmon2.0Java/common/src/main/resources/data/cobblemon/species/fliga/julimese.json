@@ -1,11 +1,18 @@
 {
-  "implemented": true,
   "name": "Julimese",
-  "nationalPokedexNumber": 5346,
   "primaryType": "grass",
   "secondaryType": "electric",
+  "catchRate": 30,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 231,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
-    "beastboost"  ],
+    "beastboost"
+  ],
   "baseStats": {
     "hp": 71,
     "attack": 59,
@@ -14,37 +21,18 @@
     "special_defence": 167,
     "speed": 83
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 3,
+    "speed": 0
   },
-  "catchRate": 30,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 231,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {},
   "moves": [
     "6:stunspore",
     "9:vinewhip",
@@ -55,33 +43,50 @@
     "41:discharge",
     "46:rototiller",
     "51:electricterrain",
-    "57:powerwhip"  ],
+    "57:powerwhip"
+  ],
   "labels": [
     "fliga",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.julimese.desc"
+    "cobblemon.species.julimese.desc1"
   ],
-  "baseScale": 0.1,
+  "height": 4,
+  "weight": 0,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5346,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 3,
-    "speed": 0
-  },
-  "height": 4,
-  "weight": 0,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

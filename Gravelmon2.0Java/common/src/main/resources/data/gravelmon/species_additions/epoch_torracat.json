@@ -1,4 +1,4 @@
 {
-   "target": "cobblemon:epoch_torracat",
+  "target": "cobblemon:epoch_torracat",
   "preEvolution": "epochlitten"
 }

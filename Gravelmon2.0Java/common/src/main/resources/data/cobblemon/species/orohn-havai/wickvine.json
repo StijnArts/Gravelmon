@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Wickvine",
-  "nationalPokedexNumber": 3981,
   "primaryType": "dark",
   "secondaryType": "grass",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 128,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "brambarb",
+  "baseScale": 0.13333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "ironbarbs",
     "h:sniper"
@@ -16,37 +23,18 @@
     "special_defence": 40,
     "speed": 61
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 90,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 128,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "grass"
   ],
+  "drops": {},
   "moves": [
     "1:bind",
     "6:poisonsting",
@@ -109,7 +97,8 @@
     "tm:taunt",
     "tm:thief",
     "tm:toxic",
-    "tm:xscissor"  ],
+    "tm:xscissor"
+  ],
   "labels": [
     "orohnhavai",
     "not_modeled",
@@ -117,9 +106,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.wickvine.desc"
+    "cobblemon.species.wickvine.desc1"
   ],
-  "preEvolution": "brambarb",
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "wickvine_wicktrive",
@@ -130,31 +121,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 31
+          "minLevel": "31"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.13333333333333333,
+  "nationalPokedexNumber": 3981,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 8,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

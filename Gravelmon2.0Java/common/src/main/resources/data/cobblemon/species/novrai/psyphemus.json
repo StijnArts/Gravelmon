@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Psyphemus",
-  "nationalPokedexNumber": 6910,
   "primaryType": "psychic",
   "secondaryType": "fighting",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 184,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "psyclops",
+  "baseScale": 0.3666666666666667,
+  "cannotDynamax": false,
   "abilities": [
     "noguard",
     "berserk",
@@ -17,38 +24,19 @@
     "special_defence": 76,
     "speed": 68
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 184,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "human_like",
     "monster"
   ],
+  "drops": {},
   "moves": [
     "1:pound",
     "4:poweruppunch",
@@ -158,7 +146,8 @@
     "tm:synchronoise",
     "tm:babydolleyes",
     "tm:twinbeam",
-    "tm:bodyslam"  ],
+    "tm:bodyslam"
+  ],
   "labels": [
     "novrai",
     "not_modeled",
@@ -166,28 +155,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.psyphemus.desc"
+    "cobblemon.species.psyphemus.desc1"
   ],
-  "preEvolution": "psyclops",
-  "baseScale": 0.3666666666666667,
+  "height": 22,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6910,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 22,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

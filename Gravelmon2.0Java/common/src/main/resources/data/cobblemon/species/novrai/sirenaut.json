@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Sirenaut",
-  "nationalPokedexNumber": 6914,
   "primaryType": "ghost",
   "secondaryType": "steel",
+  "catchRate": 45,
+  "maleRatio": 0.25,
+  "baseExperienceYield": 189,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "whirlpoon",
+  "baseScale": 0.2333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "liquidvoice",
     "h:swiftswim"
@@ -16,38 +23,19 @@
     "special_defence": 71,
     "speed": 97
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.25,
-  "shoulderMountable": false,
-  "baseExperienceYield": 189,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "mineral",
     "monster"
   ],
+  "drops": {},
   "moves": [
     "1:spite",
     "16:bubblebeam",
@@ -147,7 +135,8 @@
     "tm:bittermalice",
     "tm:hornattack",
     "tm:splash",
-    "tm:destinybond"  ],
+    "tm:destinybond"
+  ],
   "labels": [
     "novrai",
     "not_modeled",
@@ -155,28 +144,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.sirenaut.desc"
+    "cobblemon.species.sirenaut.desc1"
   ],
-  "preEvolution": "whirlpoon",
-  "baseScale": 0.2333333333333333,
+  "height": 14,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6914,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 14,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

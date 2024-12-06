@@ -11,8 +11,8 @@ public class TrizoranGarchomp extends drai.dev.data.pokemon.Pokemon {
                 Type.DRAGON,Type.ELECTRIC,
                 stats,
                 List.of(Ability.MOTOR_DRIVE), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                21, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -22,8 +22,9 @@ public class TrizoranGarchomp extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 48, 76, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
+                        new SpawnCondition(SpawnConditionType.IS_THUNDERING,"true"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

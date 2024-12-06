@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Gatanoia",
-  "nationalPokedexNumber": 6310,
   "primaryType": "dark",
   "secondaryType": "dragon",
+  "catchRate": 6,
+  "maleRatio": -1.0,
+  "baseExperienceYield": 210,
+  "experienceGroup": "slow",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "baseScale": 0.35000000000000003,
+  "cannotDynamax": false,
   "abilities": [
     "insomnia",
     "h:synchronize"
@@ -16,37 +22,18 @@
     "special_defence": 92,
     "speed": 112
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
   },
-  "catchRate": 6,
-  "maleRatio": -1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 210,
-  "experienceGroup": "slow",
-  "eggCycles": 100,
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {},
   "moves": [
     "1:agility",
     "1:bite",
@@ -97,34 +84,51 @@
     "tutor:hydropump",
     "tutor:rest",
     "tutor:toxic",
-    "tutor:bugnoise"  ],
+    "tutor:bugnoise"
+  ],
   "labels": [
     "vega",
     "legendary",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.gatanoia.desc"
+    "cobblemon.species.gatanoia.desc1"
   ],
-  "baseScale": 0.35000000000000003,
+  "height": 21,
+  "weight": 981,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6310,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 3
-  },
-  "height": 21,
-  "weight": 981,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

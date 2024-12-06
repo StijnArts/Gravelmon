@@ -24,7 +24,7 @@ public class Razaury extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MONSTER,EggGroup.FIELD),
                 List.of(""),
                 List.of(new EvolutionEntry("therislash", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:razor_claw\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:razor_claw")))),
                 List.of(
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,1),
                         new MoveLearnSetEntry(Move.CROSS_CHOP,1),

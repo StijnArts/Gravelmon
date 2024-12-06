@@ -1,10 +1,17 @@
 {
-  "implemented": true,
   "name": "Lylapse",
-  "nationalPokedexNumber": 6211,
   "primaryType": "ground",
+  "catchRate": 3,
+  "maleRatio": -1.0,
+  "baseExperienceYield": 217,
+  "experienceGroup": "slow",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "baseScale": 0.3666666666666667,
+  "cannotDynamax": false,
   "abilities": [
-    "pressure"  ],
+    "pressure"
+  ],
   "baseStats": {
     "hp": 85,
     "attack": 95,
@@ -13,37 +20,18 @@
     "special_defence": 80,
     "speed": 135
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
   },
-  "catchRate": 3,
-  "maleRatio": -1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 217,
-  "experienceGroup": "slow",
-  "eggCycles": 100,
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {},
   "moves": [
     "1:aquajet",
     "1:leer",
@@ -79,34 +67,51 @@
     "tutor:toxic",
     "tutor:dig",
     "tutor:nastyplot",
-    "tutor:bugnoise"  ],
+    "tutor:bugnoise"
+  ],
   "labels": [
     "deneb",
     "legendary",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.lylapse.desc"
+    "cobblemon.species.lylapse.desc1"
   ],
-  "baseScale": 0.3666666666666667,
+  "height": 22,
+  "weight": 2342,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6211,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 3
-  },
-  "height": 22,
-  "weight": 2342,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

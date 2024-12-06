@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Metarock",
-  "nationalPokedexNumber": 6064,
   "primaryType": "rock",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 137,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "ignew",
+  "baseScale": 0.25,
+  "cannotDynamax": false,
   "abilities": [
     "sturdy",
     "sandforce",
@@ -16,37 +23,18 @@
     "special_defence": 48,
     "speed": 44
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 137,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "4:harden",
@@ -65,7 +53,8 @@
     "tm:rollout",
     "tm:superpower",
     "tm:irondefense",
-    "tm:block"  ],
+    "tm:block"
+  ],
   "labels": [
     "okeno",
     "not_modeled",
@@ -73,9 +62,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.metarock.desc"
+    "cobblemon.species.metarock.desc1"
   ],
-  "preEvolution": "ignew",
+  "height": 15,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "metarock_beherode",
@@ -86,31 +77,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 43
+          "minLevel": "43"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.25,
+  "nationalPokedexNumber": 6064,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 15,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

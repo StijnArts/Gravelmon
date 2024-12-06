@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Sableau",
-  "nationalPokedexNumber": 2539,
   "primaryType": "ground",
   "secondaryType": "water",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 156,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "preEvolution": "cassnail",
+  "baseScale": 0.25,
+  "cannotDynamax": false,
   "abilities": [
     "shellarmor",
     "sandveil",
@@ -17,38 +24,19 @@
     "special_defence": 65,
     "speed": 65
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 156,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 100,
   "eggGroups": [
     "water_1",
     "amorphous"
   ],
+  "drops": {},
   "moves": [
     "1:mudslap",
     "2:mudsport",
@@ -125,7 +113,8 @@
     "egg:trumpcard",
     "egg:stealthrock",
     "egg:stoneedge",
-    "egg:shellsmash"  ],
+    "egg:shellsmash"
+  ],
   "labels": [
     "uranium",
     "not_modeled",
@@ -133,9 +122,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.sableau.desc"
+    "cobblemon.species.sableau.desc1"
   ],
-  "preEvolution": "cassnail",
+  "height": 15,
+  "weight": 874,
+  "aspects": [],
   "evolutions": [
     {
       "id": "sableau_escartress",
@@ -146,31 +137,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 45
+          "minLevel": "45"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.25,
+  "nationalPokedexNumber": 2539,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 15,
-  "weight": 874,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

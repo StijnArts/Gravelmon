@@ -70,6 +70,6 @@ public class Karakoron extends Pokemon {
                 List.of());
         setCanFly(true);
         addAdditionalEvolution("chimecho", new EvolutionEntry("karakoron", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.HYPER_VOICE.getName()+"\""))));
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.HYPER_VOICE.getName()))));
     }
 }

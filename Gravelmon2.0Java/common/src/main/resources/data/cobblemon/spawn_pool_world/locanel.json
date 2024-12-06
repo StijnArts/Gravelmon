@@ -7,17 +7,16 @@
       "id": "locanel-01",
       "pokemon": "locanel",
       "presets": [
-        "natural"
+        "water_surface"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
+      "context": "surface",
+      "bucket": "rare",
+      "level": "36-53",
+      "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_beach"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

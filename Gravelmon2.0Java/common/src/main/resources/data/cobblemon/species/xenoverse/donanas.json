@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Donanas",
-  "nationalPokedexNumber": 2245,
   "primaryType": "grass",
   "secondaryType": "steel",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 177,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 32,
+  "baseFriendship": 70,
+  "baseScale": 0.3,
+  "cannotDynamax": false,
   "abilities": [
     "swarm",
     "battlearmor",
@@ -17,38 +23,19 @@
     "special_defence": 85,
     "speed": 120
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 177,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 32,
   "eggGroups": [
     "grass",
     "flying"
   ],
+  "drops": {},
   "moves": [
     "1:withdraw",
     "1:absorb",
@@ -109,33 +96,50 @@
     "tutor:snore",
     "tutor:stealthrock",
     "tutor:synthesis",
-    "tutor:worryseed"  ],
+    "tutor:worryseed"
+  ],
   "labels": [
     "xenoverse",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.donanas.desc"
+    "cobblemon.species.donanas.desc1"
   ],
-  "baseScale": 0.3,
+  "height": 18,
+  "weight": 3280,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2245,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 18,
-  "weight": 3280,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

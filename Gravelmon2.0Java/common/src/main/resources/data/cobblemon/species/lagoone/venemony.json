@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Venemony",
-  "nationalPokedexNumber": 1548,
   "primaryType": "poison",
   "secondaryType": "fighting",
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 68,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "dryskin",
     "h:roughskin"
@@ -16,37 +22,18 @@
     "special_defence": 60,
     "speed": 30
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 190,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 68,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "water_3"
   ],
+  "drops": {},
   "moves": [
     "1:bulkup",
     "5:astonish",
@@ -60,14 +47,18 @@
     "34:slam",
     "40:drainpunch",
     "45:poisonjab",
-    "50:spore"  ],
+    "50:spore"
+  ],
   "labels": [
     "lagoone",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.venemony.desc"
+    "cobblemon.species.venemony.desc1"
   ],
+  "height": 5,
+  "weight": 60,
+  "aspects": [],
   "evolutions": [
     {
       "id": "venemony_anemace",
@@ -78,15 +69,15 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 33
+          "minLevel": "33"
         },
         {
           "variant": "time_range",
           "range": "day"
         }
       ],
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "venemony_anedusa",
       "variant": "level_up",
@@ -96,35 +87,47 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 33
+          "minLevel": "33"
         },
         {
           "variant": "time_range",
           "range": "night"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 1548,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 5,
-  "weight": 60,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

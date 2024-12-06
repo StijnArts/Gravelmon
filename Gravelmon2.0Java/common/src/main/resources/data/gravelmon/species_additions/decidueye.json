@@ -1,138 +1,147 @@
 {
-   "target": "cobblemon:decidueye",
-   "forms": [{
-  "name": "Epoch",
-  "primaryType": "fire",
-  "secondaryType": "flying",
-  "abilities": [
-    "stalwart",
-    "h:competitive"
-  ],
-  "baseStats": {
-    "hp": 82,
-    "attack": 75,
-    "defence": 85,
-    "special_attack": 96,
-    "special_defence": 107,
-    "speed": 90
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
+  "target": "cobblemon:decidueye",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "fire",
+      "secondaryType": "flying",
+      "catchRate": 90,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 239,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.26666666666666666,
+      "cannotDynamax": false,
+      "abilities": [
+        "stalwart",
+        "h:competitive"
+      ],
+      "baseStats": {
+        "hp": 82,
+        "attack": 75,
+        "defence": 85,
+        "special_attack": 96,
+        "special_defence": 107,
+        "speed": 90
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 3,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "flying"
+      ],
+      "drops": {},
+      "moves": [
+        "52:hurricane",
+        "9:sunnyday",
+        "36:airslash",
+        "18:flash",
+        "48:fireblast",
+        "1:gust",
+        "15:featherdance",
+        "30:fierydance",
+        "1:incinerate",
+        "21:willowisp",
+        "1:ember",
+        "1:growl",
+        "12:aircutter",
+        "27:flameburst",
+        "44:tailwind",
+        "33:roost",
+        "1:heatwave",
+        "tm:acrobatics",
+        "tm:airslash",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:bravebird",
+        "tm:burningjealousy",
+        "tm:charm",
+        "tm:coaching",
+        "tm:dazzlinggleam",
+        "tm:defog",
+        "tm:dualwingbeat",
+        "tm:falseswipe",
+        "tm:featherdance",
+        "tm:flamethrower",
+        "tm:flareblitz",
+        "tm:focusblast",
+        "tm:geomancy",
+        "tm:healbell",
+        "tm:heatwave",
+        "tm:hiddenpower",
+        "tm:hurricane",
+        "tm:incinerate",
+        "tm:lightscreen",
+        "tm:mirrorshot",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:payday",
+        "tm:pinmissile",
+        "tm:protect",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:safeguard",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:sunnyday",
+        "tm:swordsdance",
+        "tm:tailwind",
+        "tm:toxic",
+        "tm:willowisp",
+        "tm:workup"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochdecidueye.desc1"
+      ],
+      "height": 16,
+      "weight": 366,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     }
-  },
-  "catchRate": 90,
-  "shoulderMountable": false,
-  "baseExperienceYield": 239,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "flying"
   ],
-  "moves": [
-    "52:hurricane",
-    "9:sunnyday",
-    "36:airslash",
-    "18:flash",
-    "48:fireblast",
-    "1:gust",
-    "15:featherdance",
-    "30:fierydance",
-    "1:incinerate",
-    "21:willowisp",
-    "1:ember",
-    "1:growl",
-    "12:aircutter",
-    "27:flameburst",
-    "44:tailwind",
-    "33:roost",
-    "1:heatwave",
-    "tm:acrobatics",
-    "tm:airslash",
-    "tm:attract",
-    "tm:aurasphere",
-    "tm:bravebird",
-    "tm:burningjealousy",
-    "tm:charm",
-    "tm:coaching",
-    "tm:dazzlinggleam",
-    "tm:defog",
-    "tm:dualwingbeat",
-    "tm:falseswipe",
-    "tm:featherdance",
-    "tm:flamethrower",
-    "tm:flareblitz",
-    "tm:focusblast",
-    "tm:geomancy",
-    "tm:healbell",
-    "tm:heatwave",
-    "tm:hiddenpower",
-    "tm:hurricane",
-    "tm:incinerate",
-    "tm:lightscreen",
-    "tm:mirrorshot",
-    "tm:mysticalfire",
-    "tm:nastyplot",
-    "tm:payday",
-    "tm:pinmissile",
-    "tm:protect",
-    "tm:reflect",
-    "tm:rest",
-    "tm:return",
-    "tm:safeguard",
-    "tm:signalbeam",
-    "tm:sleeptalk",
-    "tm:sunnyday",
-    "tm:swordsdance",
-    "tm:tailwind",
-    "tm:toxic",
-    "tm:willowisp",
-    "tm:workup"  ],
-  "labels": [
-    "soulstones",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.epochdecidueye.desc"
-  ],
-  "baseScale": 0.26666666666666666,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 3,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 16,
-  "weight": 366,
-  "aspects": ["epoch"],
-  "cannotDynamax": false
-}
-], "features": [
-"epoch"
+  "features": [
+    "epoch"
   ]
 }

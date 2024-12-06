@@ -1,11 +1,18 @@
 {
-  "implemented": true,
   "name": "Rudeworm",
-  "nationalPokedexNumber": 1578,
   "primaryType": "dragon",
   "secondaryType": "rock",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 180,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.21666666666666667,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
   "baseStats": {
     "hp": 64,
     "attack": 113,
@@ -14,37 +21,18 @@
     "special_defence": 40,
     "speed": 68
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 90,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 180,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_3"
   ],
+  "drops": {},
   "moves": [
     "1:ancientpower",
     "1:roar",
@@ -61,33 +49,50 @@
     "48:earthquake",
     "54:horndrill",
     "60:gigaimpact",
-    "66:headsmash"  ],
+    "66:headsmash"
+  ],
   "labels": [
     "lagoone",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.rudeworm.desc"
+    "cobblemon.species.rudeworm.desc1"
   ],
-  "baseScale": 0.21666666666666667,
+  "height": 13,
+  "weight": 940,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1578,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 13,
-  "weight": 940,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

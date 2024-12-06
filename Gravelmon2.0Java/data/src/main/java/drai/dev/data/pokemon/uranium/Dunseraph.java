@@ -133,6 +133,6 @@ public class Dunseraph extends Pokemon {
                 List.of());
         this.setPortraitXYZ(0, 1.8, 0);
         addAdditionalEvolution("dunsparce", new EvolutionEntry("dunseraph", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.SKY_DROP.getName()+"\""))));
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.SKY_DROP.getName()))));
     }
 }

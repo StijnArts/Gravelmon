@@ -25,7 +25,7 @@ public class NorheimanShellder extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Norheiman Shellder are always seen in big numbers, forming large beds on the ocean floor. Other wild Pokemon may occasionaly rest on top of groups of Shellder. This may make them angry, causing them to migrate elsewhere."),
                 List.of(new EvolutionEntry("hingjaw", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.MIRROR_SHOT.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.MIRROR_SHOT.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.SPIKES,1),
                         new MoveLearnSetEntry(Move.WITHDRAW,1),

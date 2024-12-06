@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Cocancer",
-  "nationalPokedexNumber": 2534,
   "primaryType": "grass",
   "secondaryType": "ground",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 232,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "preEvolution": "cararalm",
+  "baseScale": 0.6166666666666667,
+  "cannotDynamax": false,
   "abilities": [
     "sandveil",
     "chlorophyll",
@@ -17,47 +24,20 @@
     "special_defence": 115,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 232,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 100,
   "eggGroups": [
     "water_3",
     "grass"
   ],
   "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "gravelmon:coconut_milk",
-        "quantityRange": "1-1",
-        "percentage": 40
-      }
-    ]
+    "amount": 1
   },
   "moves": [
     "1:sandstorm",
@@ -138,7 +118,8 @@
     "egg:crushclaw",
     "egg:megadrain",
     "egg:sandstorm",
-    "egg:sunnyday"  ],
+    "egg:sunnyday"
+  ],
   "labels": [
     "uranium",
     "not_modeled",
@@ -146,28 +127,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.cocancer.desc"
+    "cobblemon.species.cocancer.desc1"
   ],
-  "preEvolution": "cararalm",
-  "baseScale": 0.6166666666666667,
+  "height": 37,
+  "weight": 2402,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2534,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 37,
-  "weight": 2402,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Kamafura",
-  "nationalPokedexNumber": 6360,
   "primaryType": "bug",
   "secondaryType": "grass",
+  "catchRate": 45,
+  "maleRatio": 0.75,
+  "baseExperienceYield": 179,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.3,
+  "cannotDynamax": false,
   "abilities": [
     "pressure",
     "h:synchronize"
@@ -16,37 +22,18 @@
     "special_defence": 55,
     "speed": 121
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 45,
-  "maleRatio": 0.75,
-  "shoulderMountable": false,
-  "baseExperienceYield": 179,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "fairy"
   ],
+  "drops": {},
   "moves": [
     "1:petaldance",
     "1:scratch",
@@ -87,33 +74,50 @@
     "egg:ragepowder",
     "egg:rapidgrowth",
     "egg:razorwind",
-    "egg:silverwind"  ],
+    "egg:silverwind"
+  ],
   "labels": [
     "deneb",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.kamafura.desc"
+    "cobblemon.species.kamafura.desc1"
   ],
-  "baseScale": 0.3,
+  "height": 18,
+  "weight": 474,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6360,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 18,
-  "weight": 474,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

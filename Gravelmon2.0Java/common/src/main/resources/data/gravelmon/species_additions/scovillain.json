@@ -1,15 +1,8 @@
 {
-   "target": "cobblemon:scovillain",
+  "target": "cobblemon:scovillain",
   "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "cobblemon:magmarizer",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-      },
+    "amount": 3
+  },
   "evolutions": [
     {
       "id": "scovillain_habaneevil",
@@ -17,12 +10,9 @@
       "result": "habaneevil",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
+      "requirements": [],
       "requiredContext": "cobblemon:magmarizer",
-      "permanent": true   
- }
+      "permanent": true
+    }
   ]
-
 }

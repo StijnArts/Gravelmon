@@ -25,7 +25,7 @@ public class Noknok extends drai.dev.data.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("longjohn", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"\"type=dark\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"type=dark")))),
                 List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(

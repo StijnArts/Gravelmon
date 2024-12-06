@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Elegent",
-  "nationalPokedexNumber": 6782,
   "primaryType": "fighting",
   "secondaryType": "fairy",
+  "catchRate": 50,
+  "maleRatio": 0.75,
+  "baseExperienceYield": 166,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "fistiscuff",
+  "baseScale": 0.3,
+  "cannotDynamax": false,
   "abilities": [
     "justified",
     "h:steadfast"
@@ -16,38 +23,19 @@
     "special_defence": 95,
     "speed": 85
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
   },
-  "catchRate": 50,
-  "maleRatio": 0.75,
-  "shoulderMountable": false,
-  "baseExperienceYield": 166,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "human_like",
     "fairy"
   ],
+  "drops": {},
   "moves": [
     "1:detect",
     "16:machpunch",
@@ -125,7 +113,8 @@
     "tm:fakeout",
     "tm:batonpass",
     "tm:allyswitch",
-    "tm:vitalthrow"  ],
+    "tm:vitalthrow"
+  ],
   "labels": [
     "novrai",
     "not_modeled",
@@ -133,28 +122,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.elegent.desc"
+    "cobblemon.species.elegent.desc1"
   ],
-  "preEvolution": "fistiscuff",
-  "baseScale": 0.3,
+  "height": 18,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6782,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 2,
-    "speed": 0
-  },
-  "height": 18,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

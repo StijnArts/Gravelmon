@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Jawsome",
-  "nationalPokedexNumber": 8147,
   "primaryType": "water",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 156,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "jawee",
+  "baseScale": 0.11666666666666665,
+  "cannotDynamax": false,
   "abilities": [
     "strongjaw",
     "h:intimidate"
@@ -15,62 +22,6 @@
     "special_defence": 92,
     "speed": 57
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
-  },
-  "catchRate": 90,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 156,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
-  "eggGroups": [
-    "water_1"
-  ],
-  "moves": [
-    "1:waterfall",
-    "1:crunch",
-    "1:icefang",
-    "1:firefang",
-    "5:bubble",
-    "7:absorb",
-    "37:crunch"  ],
-  "labels": [
-    "goetia",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
-  ],
-  "pokedex": [
-    "cobblemon.species.jawsome.desc"
-  ],
-  "preEvolution": "jawee",
-  "baseScale": 0.11666666666666665,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 0,
     "attack": 1,
@@ -79,10 +30,63 @@
     "special_defence": 1,
     "speed": 0
   },
+  "eggGroups": [
+    "water_1"
+  ],
+  "drops": {},
+  "moves": [
+    "1:waterfall",
+    "1:crunch",
+    "1:icefang",
+    "1:firefang",
+    "5:bubble",
+    "7:absorb",
+    "37:crunch"
+  ],
+  "labels": [
+    "goetia",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.jawsome.desc1"
+  ],
   "height": 7,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 8147,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

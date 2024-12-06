@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Smashiary",
-  "nationalPokedexNumber": 1192,
   "primaryType": "fighting",
   "secondaryType": "flying",
+  "catchRate": 65,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 159,
+  "experienceGroup": "erratic",
+  "eggCycles": 51,
+  "baseFriendship": 70,
+  "baseScale": 0.21666666666666667,
+  "cannotDynamax": false,
   "abilities": [
     "immunity",
     "limber",
@@ -17,37 +23,20 @@
     "special_defence": 75,
     "speed": 97
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 65,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 159,
-  "experienceGroup": "erratic",
-  "eggCycles": 51,
   "eggGroups": [
     "flying"
   ],
+  "drops": {
+    "amount": 2
+  },
   "moves": [
     "1:blazekick",
     "1:pound",
@@ -124,33 +113,50 @@
     "tutor:swift",
     "tutor:tailwind",
     "tutor:uproar",
-    "tutor:vacuumwave"  ],
+    "tutor:vacuumwave"
+  ],
   "labels": [
     "sage",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.smashiary.desc"
+    "cobblemon.species.smashiary.desc1"
   ],
-  "baseScale": 0.21666666666666667,
+  "height": 13,
+  "weight": 288,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1192,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 13,
-  "weight": 288,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

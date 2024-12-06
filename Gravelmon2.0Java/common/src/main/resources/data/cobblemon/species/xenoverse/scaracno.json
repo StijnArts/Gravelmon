@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Scaracno",
-  "nationalPokedexNumber": 2241,
   "primaryType": "ghost",
   "secondaryType": "psychic",
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 61,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 32,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "rattled",
     "h:insomnia"
@@ -16,38 +22,19 @@
     "special_defence": 65,
     "speed": 40
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 190,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 61,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 32,
   "eggGroups": [
     "amorphous",
     "monster"
   ],
+  "drops": {},
   "moves": [
     "1:astonish",
     "1:hypnosis",
@@ -107,14 +94,18 @@
     "tutor:snore",
     "tutor:spite",
     "tutor:trick",
-    "tutor:zenheadbutt"  ],
+    "tutor:zenheadbutt"
+  ],
   "labels": [
     "xenoverse",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.scaracno.desc"
+    "cobblemon.species.scaracno.desc1"
   ],
+  "height": 6,
+  "weight": 76,
+  "aspects": [],
   "evolutions": [
     {
       "id": "scaracno_scaracluo",
@@ -125,31 +116,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 30
+          "minLevel": "30"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 2241,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 6,
-  "weight": 76,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

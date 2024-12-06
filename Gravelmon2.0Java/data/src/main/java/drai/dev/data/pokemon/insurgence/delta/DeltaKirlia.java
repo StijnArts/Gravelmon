@@ -22,7 +22,7 @@ public class DeltaKirlia extends Pokemon {
                 List.of(new EvolutionEntry("deltagardevoir", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30"))),
                         new EvolutionEntry("deltagallade", EvolutionType.ITEM_INTERACT, false, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY, "\"gender=male\"")),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY, "gender=male")),
                                 List.of(), "cobblemon:dawn_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),

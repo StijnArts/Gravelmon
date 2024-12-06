@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Kikiwi",
-  "nationalPokedexNumber": 6438,
   "primaryType": "grass",
+  "catchRate": 180,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 143,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "simple",
     "oblivious",
@@ -16,38 +22,19 @@
     "special_defence": 68,
     "speed": 68
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 180,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 143,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "grass",
     "flying"
   ],
+  "drops": {},
   "moves": [
     "1:leafage",
     "5:peck",
@@ -77,33 +64,50 @@
     "tm:tropkick",
     "tm:accelerock",
     "tm:earthpower",
-    "tm:sandattack"  ],
+    "tm:sandattack"
+  ],
   "labels": [
     "enjin",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.kikiwi.desc"
+    "cobblemon.species.kikiwi.desc1"
   ],
-  "baseScale": 0.1,
+  "height": 5,
+  "weight": 130,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6438,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 5,
-  "weight": 130,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

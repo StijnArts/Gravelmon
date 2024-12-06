@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Demiddul",
-  "nationalPokedexNumber": 6413,
   "primaryType": "dark",
   "secondaryType": "fairy",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 145,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "demini",
+  "baseScale": 0.21666666666666667,
+  "cannotDynamax": false,
   "abilities": [
     "sniper",
     "h:shadowtag"
@@ -16,37 +23,18 @@
     "special_defence": 64,
     "speed": 76
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 145,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "human_like"
   ],
+  "drops": {},
   "moves": [
     "1:pound",
     "1:charm",
@@ -82,7 +70,8 @@
     "egg:leer",
     "egg:zenithbreak",
     "egg:perishsong",
-    "egg:lockon"  ],
+    "egg:lockon"
+  ],
   "labels": [
     "deneb",
     "not_modeled",
@@ -90,9 +79,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.demiddul.desc"
+    "cobblemon.species.demiddul.desc1"
   ],
-  "preEvolution": "demini",
+  "height": 13,
+  "weight": 428,
+  "aspects": [],
   "evolutions": [
     {
       "id": "demiddul_demorigan",
@@ -100,32 +91,42 @@
       "result": "Demorigan",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
+      "requirements": [],
       "requiredContext": "cobblemon:dusk_stone",
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.21666666666666667,
+  "nationalPokedexNumber": 6413,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 13,
-  "weight": 428,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

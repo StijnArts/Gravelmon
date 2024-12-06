@@ -76,6 +76,6 @@ public class Stingeon extends Pokemon {
                 List.of());
         this.setPortraitXYZ(0,1.8,0);
         addAdditionalEvolution("eevee", new EvolutionEntry("stingeon", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.BUG_BITE.getName()+"\"")))	);
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.BUG_BITE.getName())))	);
     }
 }

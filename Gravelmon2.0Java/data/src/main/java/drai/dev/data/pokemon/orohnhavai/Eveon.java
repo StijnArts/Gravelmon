@@ -62,7 +62,7 @@ public class Eveon extends drai.dev.data.pokemon.Pokemon {
                 List.of());
            setLangFileName("Eveon");
         addAdditionalEvolution("eevee", new EvolutionEntry("eveon", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=female\""),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=female"),
                         new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"))));
 
     }

@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Mylomute",
-  "nationalPokedexNumber": 2203,
   "primaryType": "normal",
   "secondaryType": "ice",
+  "catchRate": 100,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 195,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 32,
+  "baseFriendship": 70,
+  "preEvolution": "hikiloo",
+  "baseScale": 0.3,
+  "cannotDynamax": false,
   "abilities": [
     "vitalspirit",
     "snowcloak",
@@ -17,38 +24,19 @@
     "special_defence": 85,
     "speed": 80
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 100,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 195,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 32,
   "eggGroups": [
     "amorphous",
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:blizzard",
     "1:iciclecrash",
@@ -106,7 +94,8 @@
     "tutor:secretpower",
     "tutor:sleeptalk",
     "tutor:snore",
-    "tutor:uproar"  ],
+    "tutor:uproar"
+  ],
   "labels": [
     "xenoverse",
     "not_modeled",
@@ -114,28 +103,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.mylomute.desc"
+    "cobblemon.species.mylomute.desc1"
   ],
-  "preEvolution": "hikiloo",
-  "baseScale": 0.3,
+  "height": 18,
+  "weight": 1200,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2203,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 18,
-  "weight": 1200,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

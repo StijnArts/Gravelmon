@@ -7,17 +7,16 @@
       "id": "weroy-01",
       "pokemon": "weroy",
       "presets": [
-        "natural"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
+      "bucket": "uncommon",
       "level": "3-22",
-      "weight": 5.699999999999999,
+      "weight": 7.800000000000001,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_desert"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

@@ -1,12 +1,20 @@
 {
-  "implemented": true,
   "name": "Bindshii",
-  "nationalPokedexNumber": 5837,
   "primaryType": "sound",
   "secondaryType": "fairy",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "preEvolution": "skreychee",
+  "baseScale": 0.2833333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "levitate",
-    "tanglinghair"  ],
+    "tanglinghair"
+  ],
   "baseStats": {
     "hp": 70,
     "attack": 50,
@@ -15,38 +23,19 @@
     "special_defence": 140,
     "speed": 115
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 3,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 64,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 100,
   "eggGroups": [
     "human_like",
     "fairy"
   ],
+  "drops": {},
   "moves": [
     "1:bite",
     "1:screech",
@@ -71,7 +60,8 @@
     "egg:thunderbolt",
     "egg:sing",
     "egg:magicalleaf",
-    "egg:powergem"  ],
+    "egg:powergem"
+  ],
   "labels": [
     "myth",
     "not_modeled",
@@ -79,28 +69,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.bindshii.desc"
+    "cobblemon.species.bindshii.desc1"
   ],
-  "preEvolution": "skreychee",
-  "baseScale": 0.2833333333333333,
+  "height": 17,
+  "weight": 69,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5837,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 3,
-    "speed": 0
-  },
-  "height": 17,
-  "weight": 69,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

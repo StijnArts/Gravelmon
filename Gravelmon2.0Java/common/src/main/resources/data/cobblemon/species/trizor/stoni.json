@@ -1,65 +1,25 @@
 {
-  "implemented": true,
   "name": "Stoni",
-  "nationalPokedexNumber": 3652,
   "primaryType": "rock",
-  "abilities": [
-    "sturdy"  ],
-  "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 255,
+  "catchRate": 220,
   "maleRatio": 0.5,
-  "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:rockthrow"  ],
-  "labels": [
-    "not_modeled",
-    "trizor"
-  ],
-  "pokedex": [
-    "cobblemon.species.stoni.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
   "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
+  "abilities": [
+    "sturdy"
+  ],
+  "baseStats": {
+    "hp": 89,
+    "attack": 25,
+    "defence": 39,
+    "special_attack": 39,
+    "special_defence": 106,
+    "speed": 28
+  },
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -68,10 +28,228 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 0,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:rockthrow",
+    "1:bulkup",
+    "1:vacuumwave"
+  ],
+  "labels": [
+    "not_modeled",
+    "trizor"
+  ],
+  "pokedex": [
+    "cobblemon.species.stoni.desc1"
+  ],
+  "height": 4,
   "weight": 0,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [
+    {
+      "id": "stoni_wanyoni",
+      "variant": "item_interact",
+      "result": "Wanyoni",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:charcoal",
+      "permanent": true
+    },
+    {
+      "id": "stoni_suikoni",
+      "variant": "item_interact",
+      "result": "Suikoni",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:mystic_water",
+      "permanent": true
+    },
+    {
+      "id": "stoni_raioni",
+      "variant": "item_interact",
+      "result": "Raioni",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:magnet",
+      "permanent": true
+    },
+    {
+      "id": "stoni_waraoni",
+      "variant": "item_interact",
+      "result": "Waraoni",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:miracle_seed",
+      "permanent": true
+    },
+    {
+      "id": "stoni_gakioni",
+      "variant": "item_interact",
+      "result": "Gakioni",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:twisted_spoon",
+      "permanent": true
+    },
+    {
+      "id": "stoni_chooni",
+      "variant": "item_interact",
+      "result": "Chooni",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:spell_tag",
+      "permanent": true
+    },
+    {
+      "id": "stoni_engoni",
+      "variant": "item_interact",
+      "result": "Engoni",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:sharp_beak",
+      "permanent": true
+    },
+    {
+      "id": "stoni_mikoni",
+      "variant": "item_interact",
+      "result": "Mikoni",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:never_melt_ice",
+      "permanent": true
+    },
+    {
+      "id": "stoni_ofoni",
+      "variant": "item_interact",
+      "result": "Ofoni",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:fairy_feather",
+      "permanent": true
+    },
+    {
+      "id": "stoni_kanazoni",
+      "variant": "item_interact",
+      "result": "Kanazoni",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:soft_sand",
+      "permanent": true
+    },
+    {
+      "id": "stoni_suchoni",
+      "variant": "item_interact",
+      "result": "Suchoni",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:silver_powder",
+      "permanent": true
+    },
+    {
+      "id": "stoni_nupponi",
+      "variant": "item_interact",
+      "result": "Nupponi",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:poison_barb",
+      "permanent": true
+    },
+    {
+      "id": "stoni_bulkoni",
+      "variant": "item_interact",
+      "result": "Bulkoni",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:black_belt",
+      "permanent": true
+    },
+    {
+      "id": "stoni_atsoni",
+      "variant": "item_interact",
+      "result": "Atsoni",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:dragon_fang",
+      "permanent": true
+    },
+    {
+      "id": "stoni_ushioni",
+      "variant": "item_interact",
+      "result": "Ushioni",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:metal_coat",
+      "permanent": true
+    },
+    {
+      "id": "stoni_hitotsoni",
+      "variant": "item_interact",
+      "result": "Hitotsoni",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:silk_scarf",
+      "permanent": true
+    },
+    {
+      "id": "stoni_ikarioni",
+      "variant": "item_interact",
+      "result": "Ikarioni",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:black_glasses",
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 3652,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

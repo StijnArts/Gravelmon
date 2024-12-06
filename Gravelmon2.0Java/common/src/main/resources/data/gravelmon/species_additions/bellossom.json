@@ -1,150 +1,159 @@
 {
-   "target": "cobblemon:bellossom",
-   "forms": [{
-  "name": "Epoch",
-  "primaryType": "grass",
-  "secondaryType": "psychic",
-  "abilities": [
-    "effectspore",
-    "h:stamina"
-  ],
-  "baseStats": {
-    "hp": 85,
-    "attack": 70,
-    "defence": 75,
-    "special_attack": 55,
-    "special_defence": 100,
-    "speed": 105
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+  "target": "cobblemon:bellossom",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "grass",
+      "secondaryType": "psychic",
+      "catchRate": 90,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 221,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "effectspore",
+        "h:stamina"
+      ],
+      "baseStats": {
+        "hp": 85,
+        "attack": 70,
+        "defence": 75,
+        "special_attack": 55,
+        "special_defence": 100,
+        "speed": 105
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 3,
+        "speed": 0
+      },
+      "eggGroups": [
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "1:mindreader",
+        "1:petaldance",
+        "5:swift",
+        "17:magicalleaf",
+        "32:extrasensory",
+        "1:flowershield",
+        "39:psychic",
+        "26:mirrorcoat",
+        "11:confusion",
+        "56:quiverdance",
+        "1:megadrain",
+        "36:recover",
+        "8:growth",
+        "17:grassyterrain",
+        "47:dazzlinggleam",
+        "20:psybeam",
+        "43:lunardance",
+        "23:sleeppowder",
+        "tm:aromatherapy",
+        "tm:attract",
+        "tm:bulletseed",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:dazzlinggleam",
+        "tm:defog",
+        "tm:echoedvoice",
+        "tm:energyball",
+        "tm:expandingforce",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:gigadrain",
+        "tm:grassyterrain",
+        "tm:healbell",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:magicalleaf",
+        "tm:magicroom",
+        "tm:meteorbeam",
+        "tm:metronome",
+        "tm:mist",
+        "tm:mistyterrain",
+        "tm:moonblast",
+        "tm:playrough",
+        "tm:powerwhip",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicterrain",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:solarbeam",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:synthesis",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:triattack",
+        "tm:trickroom",
+        "tm:weatherball",
+        "tm:wish",
+        "tm:wonderroom"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochbellossom.desc1"
+      ],
+      "height": 4,
+      "weight": 58,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     }
-  },
-  "catchRate": 90,
-  "shoulderMountable": false,
-  "baseExperienceYield": 221,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "grass"
   ],
-  "moves": [
-    "1:mindreader",
-    "1:petaldance",
-    "5:swift",
-    "17:magicalleaf",
-    "32:extrasensory",
-    "1:flowershield",
-    "39:psychic",
-    "26:mirrorcoat",
-    "11:confusion",
-    "56:quiverdance",
-    "1:megadrain",
-    "36:recover",
-    "8:growth",
-    "17:grassyterrain",
-    "47:dazzlinggleam",
-    "20:psybeam",
-    "43:lunardance",
-    "23:sleeppowder",
-    "tm:aromatherapy",
-    "tm:attract",
-    "tm:bulletseed",
-    "tm:calmmind",
-    "tm:charm",
-    "tm:confuseray",
-    "tm:cosmicpower",
-    "tm:dazzlinggleam",
-    "tm:defog",
-    "tm:echoedvoice",
-    "tm:energyball",
-    "tm:expandingforce",
-    "tm:focusblast",
-    "tm:gammaray",
-    "tm:geomancy",
-    "tm:gigadrain",
-    "tm:grassyterrain",
-    "tm:healbell",
-    "tm:hiddenpower",
-    "tm:hypervoice",
-    "tm:lightscreen",
-    "tm:magicalleaf",
-    "tm:magicroom",
-    "tm:meteorbeam",
-    "tm:metronome",
-    "tm:mist",
-    "tm:mistyterrain",
-    "tm:moonblast",
-    "tm:playrough",
-    "tm:powerwhip",
-    "tm:protect",
-    "tm:psychic",
-    "tm:psychicterrain",
-    "tm:reflect",
-    "tm:rest",
-    "tm:return",
-    "tm:round",
-    "tm:safeguard",
-    "tm:signalbeam",
-    "tm:sleeptalk",
-    "tm:solarbeam",
-    "tm:substitute",
-    "tm:sunnyday",
-    "tm:swift",
-    "tm:synthesis",
-    "tm:terrainpulse",
-    "tm:toxic",
-    "tm:triattack",
-    "tm:trickroom",
-    "tm:weatherball",
-    "tm:wish",
-    "tm:wonderroom"  ],
-  "labels": [
-    "soulstones",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.epochbellossom.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 3,
-    "speed": 0
-  },
-  "height": 4,
-  "weight": 58,
-  "aspects": ["epoch"],
-  "cannotDynamax": false
-}
-], "features": [
-"epoch"
+  "features": [
+    "epoch"
   ]
 }

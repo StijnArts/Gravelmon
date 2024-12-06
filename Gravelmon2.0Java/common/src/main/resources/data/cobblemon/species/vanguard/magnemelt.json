@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Magnemelt",
-  "nationalPokedexNumber": 5483,
   "primaryType": "fire",
   "secondaryType": "steel",
+  "catchRate": 60,
+  "maleRatio": -1.0,
+  "baseExperienceYield": 163,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "magneton form\u003dayreian",
+  "baseScale": 0.21666666666666667,
+  "cannotDynamax": false,
   "abilities": [
     "flamebody",
     "magnetpull",
@@ -17,37 +24,18 @@
     "special_defence": 130,
     "speed": 115
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 3,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": -1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 163,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:magmastorm",
     "1:firespin",
@@ -111,35 +99,51 @@
     "tutor:toxic",
     "tutor:triattack",
     "tutor:voltswitch",
-    "tutor:wildcharge"  ],
+    "tutor:wildcharge"
+  ],
   "labels": [
     "vanguard",
     "not_modeled",
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.magnemelt.desc"
+    "cobblemon.species.magnemelt.desc1"
   ],
-  "preEvolution": "magneton form=ayreian",
-  "baseScale": 0.21666666666666667,
+  "height": 13,
+  "weight": 650,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5483,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 3,
-    "speed": 0
-  },
-  "height": 13,
-  "weight": 650,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

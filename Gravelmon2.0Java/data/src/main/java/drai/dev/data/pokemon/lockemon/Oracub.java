@@ -25,7 +25,7 @@ public class Oracub extends Pokemon {
                 50, List.of(EggGroup.FIELD),
                 List.of(""),
                 List.of(new EvolutionEntry("bearvoyance", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.OMINOUS_WIND.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.OMINOUS_WIND.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.ALLY_SWITCH,1),
                         new MoveLearnSetEntry(Move.CONFUSION,1),

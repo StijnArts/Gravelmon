@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Damasoar",
-  "nationalPokedexNumber": 6970,
   "primaryType": "water",
   "secondaryType": "ice",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 239,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "torpeed",
+  "baseScale": 0.39999999999999997,
+  "cannotDynamax": false,
   "abilities": [
     "torrent",
     "h:swiftswim"
@@ -16,39 +23,19 @@
     "special_defence": 77,
     "speed": 110
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canWalkOnWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 239,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "monster",
     "water_1"
   ],
+  "drops": {},
   "moves": [
     "4:leer",
     "7:watergun",
@@ -111,7 +98,8 @@
     "tm:waterpulse",
     "tm:waterfall",
     "tm:workup",
-    "tm:xscissor"  ],
+    "tm:xscissor"
+  ],
   "labels": [
     "atlas",
     "not_modeled",
@@ -119,28 +107,44 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.damasoar.desc"
+    "cobblemon.species.damasoar.desc1"
   ],
-  "preEvolution": "torpeed",
-  "baseScale": 0.39999999999999997,
+  "height": 24,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6970,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true,
+        "canWalkOnWater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 24,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

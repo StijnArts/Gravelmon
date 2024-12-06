@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Narvalor",
-  "nationalPokedexNumber": 1760,
   "primaryType": "water",
   "secondaryType": "ice",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 264,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "norspear",
+  "baseScale": 0.31666666666666665,
+  "cannotDynamax": false,
   "abilities": [
     "torrent",
     "h:guts"
@@ -16,38 +23,19 @@
     "special_defence": 65,
     "speed": 75
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 264,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field",
     "water_1"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "1:slash",
@@ -78,7 +66,8 @@
     "egg:brine",
     "egg:swagger",
     "egg:supersonic",
-    "egg:mist"  ],
+    "egg:mist"
+  ],
   "labels": [
     "opal",
     "not_modeled",
@@ -86,28 +75,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.narvalor.desc"
+    "cobblemon.species.narvalor.desc1"
   ],
-  "preEvolution": "norspear",
-  "baseScale": 0.31666666666666665,
+  "height": 19,
+  "weight": 52,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1760,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 3,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 19,
-  "weight": 52,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

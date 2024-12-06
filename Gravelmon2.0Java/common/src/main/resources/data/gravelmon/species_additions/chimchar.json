@@ -1,170 +1,178 @@
 {
-   "target": "cobblemon:chimchar",
-   "forms": [{
-  "name": "Epoch",
-  "primaryType": "electric",
-  "secondaryType": "fighting",
-  "abilities": [
-    "reckless",
-    "longreach",
-    "h:superluck"
-  ],
-  "baseStats": {
-    "hp": 49,
-    "attack": 53,
-    "defence": 39,
-    "special_attack": 76,
-    "special_defence": 53,
-    "speed": 39
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+  "target": "cobblemon:chimchar",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "electric",
+      "secondaryType": "fighting",
+      "catchRate": 100,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 62,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "reckless",
+        "longreach",
+        "h:superluck"
+      ],
+      "baseStats": {
+        "hp": 49,
+        "attack": 53,
+        "defence": 39,
+        "special_attack": 76,
+        "special_defence": 53,
+        "speed": 39
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "field",
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [
+        "16:armthrust",
+        "13:thunderwave",
+        "50:superpower",
+        "1:leer",
+        "1:scratch",
+        "7:thundershock",
+        "19:spark",
+        "40:submission",
+        "27:doubleteam",
+        "60:highjumpkick",
+        "45:thunderbolt",
+        "9:machpunch",
+        "35:wildcharge",
+        "31:stormthrow",
+        "23:charge",
+        "55:thunder",
+        "tm:acrobatics",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:bounce",
+        "tm:bulkup",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:closecombat",
+        "tm:coaching",
+        "tm:dazzlinggleam",
+        "tm:drainpunch",
+        "tm:electricterrain",
+        "tm:falseswipe",
+        "tm:firepunch",
+        "tm:focusblast",
+        "tm:hiddenpower",
+        "tm:icepunch",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:metronome",
+        "tm:mirrorshot",
+        "tm:playrough",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:risingvoltage",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:superpower",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderfang",
+        "tm:thunderpunch",
+        "tm:thunderwave",
+        "tm:toxic",
+        "tm:voltswitch",
+        "tm:wildcharge",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:thunderpunch",
+        "egg:skyuppercut",
+        "egg:brickbreak",
+        "egg:vitalthrow",
+        "egg:focusenergy",
+        "egg:electroball",
+        "egg:voltswitch",
+        "egg:volttackle",
+        "egg:zingzap"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochchimchar.desc1"
+      ],
+      "height": 5,
+      "weight": 62,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochchimchar_epoch_monferno",
+          "variant": "level_up",
+          "result": "epoch monferno",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "14"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     }
-  },
-  "catchRate": 100,
-  "shoulderMountable": false,
-  "baseExperienceYield": 62,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field",
-    "human_like"
   ],
-  "moves": [
-    "16:armthrust",
-    "13:thunderwave",
-    "50:superpower",
-    "1:leer",
-    "1:scratch",
-    "7:thundershock",
-    "19:spark",
-    "40:submission",
-    "27:doubleteam",
-    "60:highjumpkick",
-    "45:thunderbolt",
-    "9:machpunch",
-    "35:wildcharge",
-    "31:stormthrow",
-    "23:charge",
-    "55:thunder",
-    "tm:acrobatics",
-    "tm:attract",
-    "tm:bodyslam",
-    "tm:bounce",
-    "tm:bulkup",
-    "tm:calmmind",
-    "tm:chargebeam",
-    "tm:closecombat",
-    "tm:coaching",
-    "tm:dazzlinggleam",
-    "tm:drainpunch",
-    "tm:electricterrain",
-    "tm:falseswipe",
-    "tm:firepunch",
-    "tm:focusblast",
-    "tm:hiddenpower",
-    "tm:icepunch",
-    "tm:ironhead",
-    "tm:knockoff",
-    "tm:lashout",
-    "tm:metronome",
-    "tm:mirrorshot",
-    "tm:playrough",
-    "tm:poweruppunch",
-    "tm:protect",
-    "tm:rest",
-    "tm:return",
-    "tm:risingvoltage",
-    "tm:rockblast",
-    "tm:rockslide",
-    "tm:rocktomb",
-    "tm:shadowpunch",
-    "tm:sleeptalk",
-    "tm:superpower",
-    "tm:swordsdance",
-    "tm:taunt",
-    "tm:thunder",
-    "tm:thunderbolt",
-    "tm:thunderfang",
-    "tm:thunderpunch",
-    "tm:thunderwave",
-    "tm:toxic",
-    "tm:voltswitch",
-    "tm:wildcharge",
-    "tm:wish",
-    "tm:workup",
-    "tm:zenheadbutt",
-    "egg:thunderpunch",
-    "egg:skyuppercut",
-    "egg:brickbreak",
-    "egg:vitalthrow",
-    "egg:focusenergy",
-    "egg:electroball",
-    "egg:voltswitch",
-    "egg:volttackle",
-    "egg:zingzap"  ],
-  "labels": [
-    "soulstones",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.epochchimchar.desc"
-  ],
-  "evolutions": [
-    {
-      "id": "chimchar_epoch_monferno",
-      "variant": "level_up",
-      "result": "epoch monferno",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": 14
-        }
-      ],
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 5,
-  "weight": 62,
-  "aspects": ["epoch"],
-  "cannotDynamax": false
-}
-], "features": [
-"epoch"
+  "features": [
+    "epoch"
   ]
 }

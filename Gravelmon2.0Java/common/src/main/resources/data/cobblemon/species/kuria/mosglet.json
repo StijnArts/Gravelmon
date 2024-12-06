@@ -1,11 +1,18 @@
 {
-  "implemented": true,
   "name": "Mosglet",
-  "nationalPokedexNumber": 5587,
   "primaryType": "water",
   "secondaryType": "poison",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 111,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.2333333333333333,
+  "cannotDynamax": false,
   "abilities": [
-    "megalauncher"  ],
+    "megalauncher"
+  ],
   "baseStats": {
     "hp": 130,
     "attack": 56,
@@ -14,38 +21,19 @@
     "special_defence": 33,
     "speed": 55
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 111,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_2",
     "water_1"
   ],
+  "drops": {},
   "moves": [
     "1:poisonsting",
     "1:tackle",
@@ -63,14 +51,18 @@
     "44:toxic",
     "48:aquatail",
     "52:acupressure",
-    "56:destinybond"  ],
+    "56:destinybond"
+  ],
   "labels": [
     "kuria",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.mosglet.desc"
+    "cobblemon.species.mosglet.desc1"
   ],
+  "height": 14,
+  "weight": 1270,
+  "aspects": [],
   "evolutions": [
     {
       "id": "mosglet_tarnavis",
@@ -81,31 +73,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 55
+          "minLevel": "55"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.2333333333333333,
+  "nationalPokedexNumber": 5587,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 14,
-  "weight": 1270,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

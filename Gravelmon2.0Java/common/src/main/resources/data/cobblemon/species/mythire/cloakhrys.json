@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Cloakhrys",
-  "nationalPokedexNumber": 5149,
   "primaryType": "bug",
   "secondaryType": "poison",
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 64,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "sootillar",
+  "baseScale": 0.15,
+  "cannotDynamax": false,
   "abilities": [
     "shielddust",
     "unburden",
@@ -17,37 +24,18 @@
     "special_defence": 80,
     "speed": 40
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
   },
-  "catchRate": 255,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 64,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:harden",
     "tm:toxicthread",
@@ -57,7 +45,8 @@
     "tm:moonlight",
     "tm:bide",
     "tm:razorwind",
-    "tm:charm"  ],
+    "tm:charm"
+  ],
   "labels": [
     "mythire",
     "not_modeled",
@@ -65,9 +54,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.cloakhrys.desc"
+    "cobblemon.species.cloakhrys.desc1"
   ],
-  "preEvolution": "sootillar",
+  "height": 9,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "cloakhrys_chimneoth",
@@ -78,31 +69,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 23
+          "minLevel": "23"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.15,
+  "nationalPokedexNumber": 5149,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 2,
-    "speed": 0
-  },
-  "height": 9,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

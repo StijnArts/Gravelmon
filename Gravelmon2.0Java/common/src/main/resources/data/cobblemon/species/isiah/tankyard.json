@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Tankyard",
-  "nationalPokedexNumber": 5792,
   "primaryType": "steel",
+  "catchRate": 105,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 175,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "junkid",
+  "baseScale": 0.5,
+  "cannotDynamax": false,
   "abilities": [
     "weakarmor",
     "heatproof",
@@ -16,37 +23,18 @@
     "special_defence": 85,
     "speed": 25
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 105,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 175,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:bind",
     "8:metalsound",
@@ -106,7 +94,8 @@
     "tm:rockthrow",
     "tm:lockon",
     "tm:metalburst",
-    "tm:bulletpunch"  ],
+    "tm:bulletpunch"
+  ],
   "labels": [
     "isiah",
     "not_modeled",
@@ -114,28 +103,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.tankyard.desc"
+    "cobblemon.species.tankyard.desc1"
   ],
-  "preEvolution": "junkid",
-  "baseScale": 0.5,
+  "height": 30,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5792,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 30,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Yatagaryu",
-  "nationalPokedexNumber": 2621,
   "primaryType": "electric",
   "secondaryType": "dragon",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 270,
+  "experienceGroup": "slow",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "preEvolution": "voltasu",
+  "baseScale": 0.3666666666666667,
+  "cannotDynamax": false,
   "abilities": [
-    "electricsurge"  ],
+    "electricsurge"
+  ],
   "baseStats": {
     "hp": 90,
     "attack": 90,
@@ -14,38 +22,19 @@
     "special_defence": 85,
     "speed": 120
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 270,
-  "experienceGroup": "slow",
-  "eggCycles": 100,
   "eggGroups": [
     "flying",
     "dragon"
   ],
+  "drops": {},
   "moves": [
     "1:peck",
     "5:leer",
@@ -139,7 +128,8 @@
     "egg:megahorn",
     "egg:psychic",
     "egg:hypervoice",
-    "egg:airslash"  ],
+    "egg:airslash"
+  ],
   "labels": [
     "uranium",
     "not_modeled",
@@ -147,28 +137,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.yatagaryu.desc"
+    "cobblemon.species.yatagaryu.desc1"
   ],
-  "preEvolution": "voltasu",
-  "baseScale": 0.3666666666666667,
+  "height": 22,
+  "weight": 724,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2621,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 22,
-  "weight": 724,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Brutoad",
-  "nationalPokedexNumber": 1413,
   "primaryType": "water",
   "secondaryType": "dark",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 52,
+  "baseFriendship": 70,
+  "preEvolution": "darpole",
+  "baseScale": 0.16666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "pickpocket",
     "swiftswim",
@@ -17,38 +24,21 @@
     "special_defence": 71,
     "speed": 50
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 142,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 52,
   "eggGroups": [
     "monster",
     "water_1"
   ],
+  "drops": {
+    "amount": 2
+  },
   "moves": [
     "1:tackle",
     "2:tailwhip",
@@ -147,7 +137,8 @@
     "egg:mudsport",
     "egg:refresh",
     "egg:waterspout",
-    "egg:yawn"  ],
+    "egg:yawn"
+  ],
   "labels": [
     "infinity",
     "not_modeled",
@@ -155,9 +146,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.brutoad.desc"
+    "cobblemon.species.brutoad.desc1"
   ],
-  "preEvolution": "darpole",
+  "height": 10,
+  "weight": 430,
+  "aspects": [],
   "evolutions": [
     {
       "id": "brutoad_godfrogger",
@@ -168,31 +161,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 36
+          "minLevel": "36"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.16666666666666666,
+  "nationalPokedexNumber": 1413,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 10,
-  "weight": 430,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

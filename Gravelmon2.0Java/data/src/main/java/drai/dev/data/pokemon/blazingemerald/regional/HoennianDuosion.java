@@ -22,7 +22,7 @@ public class HoennianDuosion extends Pokemon {
                 List.of("It constantly devours berries by absorbing them through it's jelly-like membrane. Their brilliant gold color glows brightly after they finish a meal."),
                 List.of(new EvolutionEntry("hoennianreuniclus", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"160"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"day\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "day")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TRICK_ROOM,"tm"),
                         new MoveLearnSetEntry(Move.CALM_MIND,"tm"),

@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Kappatoa",
-  "nationalPokedexNumber": 6886,
   "primaryType": "normal",
   "secondaryType": "fire",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 183,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "kappow",
+  "baseScale": 0.25,
+  "cannotDynamax": false,
   "abilities": [
     "magmaarmor",
     "angershell",
@@ -17,37 +24,18 @@
     "special_defence": 116,
     "speed": 40
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 183,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "monster"
   ],
+  "drops": {},
   "moves": [
     "1:smokescreen",
     "13:smog",
@@ -144,7 +132,8 @@
     "tm:dragonbreath",
     "tm:bide",
     "tm:mudbomb",
-    "tm:burnup"  ],
+    "tm:burnup"
+  ],
   "labels": [
     "novrai",
     "not_modeled",
@@ -152,28 +141,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.kappatoa.desc"
+    "cobblemon.species.kappatoa.desc1"
   ],
-  "preEvolution": "kappow",
-  "baseScale": 0.25,
+  "height": 15,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6886,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 2,
-    "speed": 0
-  },
-  "height": 15,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

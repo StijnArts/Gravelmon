@@ -29,7 +29,7 @@ public class Chatart extends drai.dev.data.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
         addAdditionalEvolution("chatot", new EvolutionEntry("chatart", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_BEACH.getId() + ":" + Biome.IS_BEACH.getName() +"\""))));
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_BEACH.getId() + ":" + Biome.IS_BEACH.getName()))));
         setCanFly(true);
            setLangFileName("Chatart");
 

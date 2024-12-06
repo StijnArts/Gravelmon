@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Multifly",
-  "nationalPokedexNumber": 1898,
   "primaryType": "bug",
   "secondaryType": "dark",
+  "catchRate": 140,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 144,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "unifly",
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "levitate",
     "h:compoundeyes"
@@ -16,37 +23,18 @@
     "special_defence": 53,
     "speed": 95
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 140,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 144,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:supersonic",
     "tm:bugbite",
@@ -65,7 +53,8 @@
     "tm:gunkshot",
     "tm:knockoff",
     "tm:skyattack",
-    "tm:dualwingbeat"  ],
+    "tm:dualwingbeat"
+  ],
   "labels": [
     "ferroa",
     "not_modeled",
@@ -73,9 +62,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.multifly.desc"
+    "cobblemon.species.multifly.desc1"
   ],
-  "preEvolution": "unifly",
+  "height": 6,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "multifly_amplifly",
@@ -86,31 +77,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 40
+          "minLevel": "40"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 1898,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 6,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

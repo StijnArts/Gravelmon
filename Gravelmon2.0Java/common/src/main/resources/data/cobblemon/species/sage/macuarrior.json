@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Macuarrior",
-  "nationalPokedexNumber": 1188,
   "primaryType": "fighting",
+  "catchRate": 45,
+  "maleRatio": 1.0,
+  "baseExperienceYield": 175,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 76,
+  "baseFriendship": 70,
+  "preEvolution": "chayan",
+  "baseScale": 0.26666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "hypercutter",
     "h:sharpness"
@@ -15,37 +22,20 @@
     "special_defence": 90,
     "speed": 105
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 45,
-  "maleRatio": 1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 175,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 76,
   "eggGroups": [
     "human_like"
   ],
+  "drops": {
+    "amount": 2
+  },
   "moves": [
     "1:frostslash",
     "1:leafblade",
@@ -116,7 +106,8 @@
     "tutor:ironhead",
     "tutor:knockoff",
     "tutor:snore",
-    "tutor:superpower"  ],
+    "tutor:superpower"
+  ],
   "labels": [
     "sage",
     "not_modeled",
@@ -124,28 +115,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.macuarrior.desc"
+    "cobblemon.species.macuarrior.desc1"
   ],
-  "preEvolution": "chayan",
-  "baseScale": 0.26666666666666666,
+  "height": 16,
+  "weight": 565,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1188,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 16,
-  "weight": 565,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

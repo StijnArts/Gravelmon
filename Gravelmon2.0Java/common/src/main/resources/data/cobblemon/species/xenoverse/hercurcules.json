@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Hercurcules",
-  "nationalPokedexNumber": 2210,
   "primaryType": "bug",
   "secondaryType": "fighting",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 260,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 32,
+  "baseFriendship": 70,
+  "preEvolution": "punchbug",
+  "baseScale": 0.3,
+  "cannotDynamax": false,
   "abilities": [
     "swarm",
     "battlearmor",
@@ -17,37 +24,18 @@
     "special_defence": 65,
     "speed": 34
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 260,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 32,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:megahorn",
     "1:stormthrow",
@@ -108,7 +96,8 @@
     "tutor:sleeptalk",
     "tutor:snore",
     "tutor:strugglebug",
-    "tutor:superpower"  ],
+    "tutor:superpower"
+  ],
   "labels": [
     "xenoverse",
     "not_modeled",
@@ -116,28 +105,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.hercurcules.desc"
+    "cobblemon.species.hercurcules.desc1"
   ],
-  "preEvolution": "punchbug",
-  "baseScale": 0.3,
+  "height": 18,
+  "weight": 3280,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2210,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 18,
-  "weight": 3280,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

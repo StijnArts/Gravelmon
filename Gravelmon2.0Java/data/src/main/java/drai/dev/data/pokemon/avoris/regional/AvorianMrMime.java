@@ -67,7 +67,7 @@ public class AvorianMrMime extends drai.dev.data.pokemon.Pokemon {
                 List.of());
            setLangFileName("Mr. Mime");
         addAdditionalEvolution("mimejr", new EvolutionEntry("mrmime avorian", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.SUCKER_PUNCH.getName()+"\""))));
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.SUCKER_PUNCH.getName()))));
 
     }
 

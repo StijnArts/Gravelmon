@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Squinja",
-  "nationalPokedexNumber": 4081,
   "primaryType": "water",
   "secondaryType": "fighting",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 165,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "squini",
+  "baseScale": 0.18333333333333335,
+  "cannotDynamax": false,
   "abilities": [
     "torrent",
     "stickyhold",
@@ -17,38 +24,19 @@
     "special_defence": 66,
     "speed": 85
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 165,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_2",
     "human_like"
   ],
+  "drops": {},
   "moves": [
     "1:leer",
     "1:tackle",
@@ -129,7 +117,8 @@
     "egg:detect",
     "egg:mindreader",
     "egg:nastyplot",
-    "egg:quickguard"  ],
+    "egg:quickguard"
+  ],
   "labels": [
     "eternal_forest",
     "not_modeled",
@@ -137,9 +126,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.squinja.desc"
+    "cobblemon.species.squinja.desc1"
   ],
-  "preEvolution": "squini",
+  "height": 11,
+  "weight": 233,
+  "aspects": [],
   "evolutions": [
     {
       "id": "squinja_squartial",
@@ -150,31 +141,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 36
+          "minLevel": "36"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.18333333333333335,
+  "nationalPokedexNumber": 4081,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 11,
-  "weight": 233,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

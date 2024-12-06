@@ -25,7 +25,7 @@ public class Mambolt extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MONSTER,EggGroup.FIELD),
                 List.of("Mambolt spend most of their time up high in the trees. Due to their thin bodies, Mambolt are often mistaken for vines. Their loose skin helps them quickly escape if grabbed by a predator."),
                 List.of(new EvolutionEntry("anaconduct", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:electirizer\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:electirizer")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CONSTRICT,1),
                         new MoveLearnSetEntry(Move.THUNDER_SHOCK,5),

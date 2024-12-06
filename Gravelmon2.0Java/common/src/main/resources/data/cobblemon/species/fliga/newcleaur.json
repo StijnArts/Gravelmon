@@ -1,10 +1,17 @@
 {
-  "implemented": true,
   "name": "Newcleaur",
-  "nationalPokedexNumber": 5347,
   "primaryType": "dragon",
+  "catchRate": 45,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 231,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.48333333333333334,
+  "cannotDynamax": false,
   "abilities": [
-    "beastboost"  ],
+    "beastboost"
+  ],
   "baseStats": {
     "hp": 71,
     "attack": 173,
@@ -13,37 +20,18 @@
     "special_defence": 41,
     "speed": 71
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 231,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "4:smog",
@@ -59,33 +47,50 @@
     "41:lockon",
     "46:dragonpulse",
     "50:fireblast",
-    "1:dragonenergy"  ],
+    "1:dragonenergy"
+  ],
   "labels": [
     "fliga",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.newcleaur.desc"
+    "cobblemon.species.newcleaur.desc1"
   ],
-  "baseScale": 0.48333333333333334,
+  "height": 29,
+  "weight": 0,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5347,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 3,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 29,
-  "weight": 0,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -25,7 +25,7 @@ public class Citpig extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of(""),
                 List.of(new EvolutionEntry("boaracle", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.PAY_DAY.getName()+"\"")))	),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.PAY_DAY.getName())))	),
                 List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(

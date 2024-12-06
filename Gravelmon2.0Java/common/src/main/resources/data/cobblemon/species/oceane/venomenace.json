@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Venomenace",
-  "nationalPokedexNumber": 2391,
   "primaryType": "dragon",
   "secondaryType": "poison",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 270,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "noxical",
+  "baseScale": 0.39999999999999997,
+  "cannotDynamax": false,
   "abilities": [
-    "poisonpoint"  ],
+    "poisonpoint"
+  ],
   "baseStats": {
     "hp": 94,
     "attack": 113,
@@ -14,38 +22,19 @@
     "special_defence": 98,
     "speed": 84
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 270,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_2",
     "dragon"
   ],
+  "drops": {},
   "moves": [
     "1:dragonclaw",
     "1:poisonjab",
@@ -65,7 +54,8 @@
     "tm:psychicfangs",
     "tm:poisonfang",
     "tm:icefang",
-    "tm:firefang"  ],
+    "tm:firefang"
+  ],
   "labels": [
     "oceane",
     "not_modeled",
@@ -73,28 +63,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.venomenace.desc"
+    "cobblemon.species.venomenace.desc1"
   ],
-  "preEvolution": "noxical",
-  "baseScale": 0.39999999999999997,
+  "height": 24,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2391,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 24,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

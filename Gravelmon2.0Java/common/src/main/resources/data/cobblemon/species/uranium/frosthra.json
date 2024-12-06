@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Frosthra",
-  "nationalPokedexNumber": 2589,
   "primaryType": "bug",
   "secondaryType": "ice",
+  "catchRate": 30,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 248,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "preEvolution": "frosulo",
+  "baseScale": 0.26666666666666666,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
   "baseStats": {
     "hp": 85,
     "attack": 55,
@@ -14,37 +22,18 @@
     "special_defence": 95,
     "speed": 115
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 30,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 248,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 100,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:frostbreath",
     "1:silverwind",
@@ -109,7 +98,8 @@
     "egg:bugbuzz",
     "egg:sharpen",
     "egg:iceshard",
-    "egg:icywind"  ],
+    "egg:icywind"
+  ],
   "labels": [
     "uranium",
     "not_modeled",
@@ -117,28 +107,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.frosthra.desc"
+    "cobblemon.species.frosthra.desc1"
   ],
-  "preEvolution": "frosulo",
-  "baseScale": 0.26666666666666666,
+  "height": 16,
+  "weight": 459,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2589,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 2,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 16,
-  "weight": 459,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

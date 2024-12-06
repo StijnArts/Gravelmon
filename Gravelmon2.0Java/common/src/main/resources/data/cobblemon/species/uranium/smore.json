@@ -1,8 +1,14 @@
 {
-  "implemented": true,
   "name": "Smore",
-  "nationalPokedexNumber": 2514,
   "primaryType": "bug",
+  "catchRate": 255,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 53,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "intimidate",
     "cutecharm",
@@ -16,46 +22,19 @@
     "special_defence": 40,
     "speed": 45
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 255,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 53,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 100,
   "eggGroups": [
     "bug"
   ],
   "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "gravelmon:royal_jelly",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
+    "amount": 1
   },
   "moves": [
     "1:poisonsting",
@@ -108,14 +87,18 @@
     "egg:sonicboom",
     "egg:batonpass",
     "egg:pursuit",
-    "egg:signalbeam"  ],
+    "egg:signalbeam"
+  ],
   "labels": [
     "uranium",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.smore.desc"
+    "cobblemon.species.smore.desc1"
   ],
+  "height": 1,
+  "weight": 12,
+  "aspects": [],
   "evolutions": [
     {
       "id": "smore_firoke",
@@ -129,8 +112,8 @@
           "move": "incinerate"
         }
       ],
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "smore_seikamater",
       "variant": "level_up",
@@ -143,28 +126,40 @@
           "itemCondition": "gravelmon:royal_jelly"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 2514,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 1,
-  "weight": 12,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

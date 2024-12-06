@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Pyroat",
-  "nationalPokedexNumber": 1029,
   "primaryType": "fire",
   "secondaryType": "rock",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 28,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 141,
+  "baseFriendship": 70,
+  "preEvolution": "kidling",
+  "baseScale": 0.9,
+  "cannotDynamax": false,
   "abilities": [
     "blaze",
     "h:flashfire"
@@ -16,37 +23,20 @@
     "special_defence": 50,
     "speed": 75
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 28,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 141,
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": 4
+  },
   "moves": [
     "1:tackle",
     "1:tailwhip",
@@ -121,16 +111,19 @@
     "egg:stomp",
     "egg:superpower",
     "egg:takedown",
-    "egg:thrash"  ],
+    "egg:thrash"
+  ],
   "labels": [
     "sage",
     "fakemon",
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.pyroat.desc"
+    "cobblemon.species.pyroat.desc1"
   ],
-  "preEvolution": "kidling",
+  "height": 10,
+  "weight": 331,
+  "aspects": [],
   "evolutions": [
     {
       "id": "pyroat_flairees",
@@ -141,31 +134,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 36
+          "minLevel": "36"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.9,
+  "nationalPokedexNumber": 1029,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 1.0,
     "height": 1.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 10,
-  "weight": 331,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

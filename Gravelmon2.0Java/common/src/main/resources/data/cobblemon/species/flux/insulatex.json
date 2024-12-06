@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Insulatex",
-  "nationalPokedexNumber": 2692,
   "primaryType": "electric",
+  "catchRate": 90,
+  "maleRatio": -1.0,
+  "baseExperienceYield": 154,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "ledlite",
+  "baseScale": 0.18333333333333335,
+  "cannotDynamax": false,
   "abilities": [
     "illuminate",
     "plus",
@@ -16,37 +23,18 @@
     "special_defence": 108,
     "speed": 45
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
   },
-  "catchRate": 90,
-  "maleRatio": -1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 154,
-  "experienceGroup": "fluctuating",
-  "eggCycles": 50,
   "eggGroups": [
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:spark",
     "1:charge",
@@ -66,7 +54,8 @@
     "43:coil",
     "47:powerwhip",
     "51:electricterrain",
-    "55:selfdestruct"  ],
+    "55:selfdestruct"
+  ],
   "labels": [
     "flux",
     "not_modeled",
@@ -74,9 +63,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.insulatex.desc"
+    "cobblemon.species.insulatex.desc1"
   ],
-  "preEvolution": "ledlite",
+  "height": 11,
+  "weight": 761,
+  "aspects": [],
   "evolutions": [
     {
       "id": "insulatex_negawatt",
@@ -90,28 +81,40 @@
           "itemCondition": "cobblemon:electirizer"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.18333333333333335,
+  "nationalPokedexNumber": 2692,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 2,
-    "speed": 0
-  },
-  "height": 11,
-  "weight": 761,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

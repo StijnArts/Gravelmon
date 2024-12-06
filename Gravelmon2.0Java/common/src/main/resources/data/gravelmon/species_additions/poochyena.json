@@ -1,348 +1,370 @@
 {
-   "target": "cobblemon:poochyena",
-   "forms": [{
-  "name": "Mahalian",
-  "primaryType": "fighting",
-  "abilities": [
-    "keeneye"  ],
-  "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 255,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:lowkick"  ],
-  "labels": [
-    "mahal",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.mahalianpoochyena.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 0,
-  "weight": 0,
-  "aspects": ["mahalian"],
-  "cannotDynamax": false
-},
-{
-  "name": "Epoch",
-  "primaryType": "ice",
-  "abilities": [
-    "intimidate",
-    "moxie",
-    "h:strongjaw"
-  ],
-  "baseStats": {
-    "hp": 35,
-    "attack": 65,
-    "defence": 35,
-    "special_attack": 35,
-    "special_defence": 20,
-    "speed": 30
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 255,
-  "shoulderMountable": false,
-  "baseExperienceYield": 56,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "38:honeclaws",
-    "1:tackle",
-    "7:lick",
-    "17:bite",
-    "9:roar",
-    "32:crunch",
-    "11:odorsleuth",
-    "14:snarl",
-    "41:takedown",
-    "26:icefang",
-    "23:assurance",
-    "47:frostbite",
-    "1:iceshard",
-    "20:swagger",
-    "44:playrough",
-    "4:howl",
-    "29:nobleroar",
-    "tm:attract",
-    "tm:blizzard",
-    "tm:bodyslam",
-    "tm:bulkup",
-    "tm:charm",
-    "tm:closecombat",
-    "tm:coaching",
-    "tm:crunch",
-    "tm:darkpulse",
-    "tm:defog",
-    "tm:echoedvoice",
-    "tm:firefang",
-    "tm:focusblast",
-    "tm:frostbite",
-    "tm:hail",
-    "tm:haze",
-    "tm:hiddenpower",
-    "tm:hypervoice",
-    "tm:icebeam",
-    "tm:icefang",
-    "tm:iciclespear",
-    "tm:icywind",
-    "tm:knockoff",
-    "tm:lashout",
-    "tm:memento",
-    "tm:mist",
-    "tm:nastyplot",
-    "tm:phantomforce",
-    "tm:poisonfang",
-    "tm:protect",
-    "tm:psychicfangs",
-    "tm:rest",
-    "tm:return",
-    "tm:round",
-    "tm:safeguard",
-    "tm:shadowball",
-    "tm:sleeptalk",
-    "tm:snarl",
-    "tm:superpower",
-    "tm:taunt",
-    "tm:thunderfang",
-    "tm:toxic",
-    "tm:voltswitch",
-    "tm:wildcharge",
-    "tm:workup",
-    "tm:zenheadbutt",
-    "egg:poisonfang",
-    "egg:covet",
-    "egg:leer",
-    "egg:firefang",
-    "egg:thunderfang",
-    "egg:snatch",
-    "egg:taunt"  ],
-  "labels": [
-    "soulstones",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.epochpoochyena.desc"
-  ],
-  "evolutions": [
+  "target": "cobblemon:poochyena",
+  "forms": [
     {
-      "id": "poochyena_epoch_mightyena",
-      "variant": "level_up",
-      "result": "epoch mightyena",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
+      "name": "Mahalian",
+      "primaryType": "fighting",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:lowkick"
+      ],
+      "labels": [
+        "mahal",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.mahalianpoochyena.desc1"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "mahalian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+          }
+        }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "ice",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 56,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "intimidate",
+        "moxie",
+        "h:strongjaw"
+      ],
+      "baseStats": {
+        "hp": 35,
+        "attack": 65,
+        "defence": 35,
+        "special_attack": 35,
+        "special_defence": 20,
+        "speed": 30
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "38:honeclaws",
+        "1:tackle",
+        "7:lick",
+        "17:bite",
+        "9:roar",
+        "32:crunch",
+        "11:odorsleuth",
+        "14:snarl",
+        "41:takedown",
+        "26:icefang",
+        "23:assurance",
+        "47:frostbite",
+        "1:iceshard",
+        "20:swagger",
+        "44:playrough",
+        "4:howl",
+        "29:nobleroar",
+        "tm:attract",
+        "tm:blizzard",
+        "tm:bodyslam",
+        "tm:bulkup",
+        "tm:charm",
+        "tm:closecombat",
+        "tm:coaching",
+        "tm:crunch",
+        "tm:darkpulse",
+        "tm:defog",
+        "tm:echoedvoice",
+        "tm:firefang",
+        "tm:focusblast",
+        "tm:frostbite",
+        "tm:hail",
+        "tm:haze",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:icebeam",
+        "tm:icefang",
+        "tm:iciclespear",
+        "tm:icywind",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:memento",
+        "tm:mist",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:poisonfang",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:superpower",
+        "tm:taunt",
+        "tm:thunderfang",
+        "tm:toxic",
+        "tm:voltswitch",
+        "tm:wildcharge",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:poisonfang",
+        "egg:covet",
+        "egg:leer",
+        "egg:firefang",
+        "egg:thunderfang",
+        "egg:snatch",
+        "egg:taunt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochpoochyena.desc1"
+      ],
+      "height": 5,
+      "weight": 136,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
         {
-          "variant": "level",
-          "minLevel": 18
+          "id": "epochpoochyena_epoch_mightyena",
+          "variant": "level_up",
+          "result": "epoch mightyena",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "18"
+            }
+          ],
+          "permanent": true
         }
       ],
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 5,
-  "weight": 136,
-  "aspects": ["epoch"],
-  "cannotDynamax": false
-},
-{
-  "name": "Mystic",
-  "primaryType": "fire",
-  "secondaryType": "ghost",
-  "abilities": [
-    "intimidate",
-    "shadowtag",
-    "h:adaptability"
-  ],
-  "baseStats": {
-    "hp": 35,
-    "attack": 30,
-    "defence": 35,
-    "special_attack": 30,
-    "special_defence": 35,
-    "speed": 55
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
-    }
-  },
-  "catchRate": 255,
-  "shoulderMountable": false,
-  "baseExperienceYield": 56,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:astonish",
-    "1:smog",
-    "4:ember",
-    "8:minimize",
-    "12:confuseray",
-    "16:hex",
-    "20:willowisp",
-    "24:firespin",
-    "28:nightshade",
-    "32:curse",
-    "36:shadowball",
-    "40:inferno",
-    "44:imprison",
-    "48:painsplit",
-    "52:overheat",
-    "56:memento"  ],
-  "labels": [
-    "gen3",
-    "azure",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.mysticpoochyena.desc"
-  ],
-  "evolutions": [
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
     {
-      "id": "poochyena_mightyena_mystic",
-      "variant": "level_up",
-      "result": "mightyena mystic",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
+      "name": "Mystic",
+      "primaryType": "fire",
+      "secondaryType": "ghost",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 56,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "intimidate",
+        "shadowtag",
+        "h:adaptability"
+      ],
+      "baseStats": {
+        "hp": 35,
+        "attack": 30,
+        "defence": 35,
+        "special_attack": 30,
+        "special_defence": 35,
+        "speed": 55
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:astonish",
+        "1:smog",
+        "4:ember",
+        "8:minimize",
+        "12:confuseray",
+        "16:hex",
+        "20:willowisp",
+        "24:firespin",
+        "28:nightshade",
+        "32:curse",
+        "36:shadowball",
+        "40:inferno",
+        "44:imprison",
+        "48:painsplit",
+        "52:overheat",
+        "56:memento"
+      ],
+      "labels": [
+        "gen3",
+        "azure",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.mysticpoochyena.desc1"
+      ],
+      "height": 5,
+      "weight": 136,
+      "aspects": [
+        "mystic"
+      ],
+      "evolutions": [
         {
-          "variant": "level",
-          "minLevel": 18
+          "id": "mysticpoochyena_mightyena_mystic",
+          "variant": "level_up",
+          "result": "mightyena mystic",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "18"
+            }
+          ],
+          "permanent": true
         }
       ],
-      "permanent": true   
- }
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+          }
+        }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
   ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 5,
-  "weight": 136,
-  "aspects": ["mystic"],
-  "cannotDynamax": false
-}
-], "features": [
-"mahalian",
-"epoch",
-"mystic"
+  "features": [
+    "mahalian",
+    "epoch",
+    "mystic"
   ]
 }

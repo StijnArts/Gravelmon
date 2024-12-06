@@ -1,11 +1,19 @@
 {
-  "implemented": true,
   "name": "Sparkroll",
-  "nationalPokedexNumber": 5802,
   "primaryType": "bug",
   "secondaryType": "electric",
+  "catchRate": 110,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "larvatt",
+  "baseScale": 0.15,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
   "baseStats": {
     "hp": 65,
     "attack": 39,
@@ -14,37 +22,18 @@
     "special_defence": 60,
     "speed": 31
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 110,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:megadrain",
     "1:strugglebug",
@@ -62,7 +51,8 @@
     "45:superfang",
     "49:screech",
     "52:bugbuzz",
-    "56:strengthsap"  ],
+    "56:strengthsap"
+  ],
   "labels": [
     "isiah",
     "not_modeled",
@@ -70,9 +60,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.sparkroll.desc"
+    "cobblemon.species.sparkroll.desc1"
   ],
-  "preEvolution": "larvatt",
+  "height": 9,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "sparkroll_megawatt",
@@ -83,31 +75,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 42
+          "minLevel": "42"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.15,
+  "nationalPokedexNumber": 5802,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 9,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

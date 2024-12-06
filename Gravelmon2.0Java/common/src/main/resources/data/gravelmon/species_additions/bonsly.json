@@ -1,5 +1,5 @@
 {
-   "target": "cobblemon:bonsly",
+  "target": "cobblemon:bonsly",
   "evolutions": [
     {
       "id": "bonsly_sudowoodo_amazeall",
@@ -7,327 +7,339 @@
       "result": "sudowoodo amazeall",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
+      "requirements": [],
       "requiredContext": "gravelmon:amaze_drive",
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-   "forms": [{
-  "name": "Epoch",
-  "primaryType": "ground",
-  "secondaryType": "grass",
-  "abilities": [
-    "waterabsorb",
-    "sandveil",
-    "h:adaptability"
-  ],
-  "baseStats": {
-    "hp": 80,
-    "attack": 15,
-    "defence": 50,
-    "special_attack": 15,
-    "special_defence": 85,
-    "speed": 75
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "ground",
+      "secondaryType": "grass",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 58,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "waterabsorb",
+        "sandveil",
+        "h:adaptability"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 15,
+        "defence": 50,
+        "special_attack": 15,
+        "special_defence": 85,
+        "speed": 75
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "7:leechseed",
+        "27:sandstorm",
+        "44:energyball",
+        "14:spikes",
+        "31:gigadrain",
+        "1:sandattack",
+        "20:magicalleaf",
+        "1:mudslap",
+        "11:megadrain",
+        "4:growth",
+        "24:scorchingsands",
+        "48:synthesis",
+        "35:spikyshield",
+        "40:earthpower",
+        "1:absorb",
+        "tm:attract",
+        "tm:bulkup",
+        "tm:bulletseed",
+        "tm:drainpunch",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:energyball",
+        "tm:falseswipe",
+        "tm:furycutter",
+        "tm:gigadrain",
+        "tm:grassyterrain",
+        "tm:hiddenpower",
+        "tm:irondefense",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:magicalleaf",
+        "tm:mudslide",
+        "tm:pinmissile",
+        "tm:playrough",
+        "tm:poisonjab",
+        "tm:poweruppunch",
+        "tm:powerwhip",
+        "tm:protect",
+        "tm:quicksand",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:sandstorm",
+        "tm:sandtomb",
+        "tm:scorchingsands",
+        "tm:sleeptalk",
+        "tm:solarbeam",
+        "tm:spikes",
+        "tm:spikyshield",
+        "tm:stealthrock",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:swordsdance",
+        "tm:synthesis",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:workup",
+        "egg:sunnyday",
+        "egg:solarbeam",
+        "egg:needlearm",
+        "egg:pinmissile",
+        "egg:stealthrock",
+        "egg:endure",
+        "egg:petaldance"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochbonsly.desc1"
+      ],
+      "height": 5,
+      "weight": 150,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochbonsly_epoch_sudowoodo",
+          "variant": "level_up",
+          "result": "epoch sudowoodo",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "20"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
-    }
-  },
-  "catchRate": 255,
-  "shoulderMountable": false,
-  "baseExperienceYield": 58,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "undiscovered"
-  ],
-  "moves": [
-    "7:leechseed",
-    "27:sandstorm",
-    "44:energyball",
-    "14:spikes",
-    "31:gigadrain",
-    "1:sandattack",
-    "20:magicalleaf",
-    "1:mudslap",
-    "11:megadrain",
-    "4:growth",
-    "24:scorchingsands",
-    "48:synthesis",
-    "35:spikyshield",
-    "40:earthpower",
-    "1:absorb",
-    "tm:attract",
-    "tm:bulkup",
-    "tm:bulletseed",
-    "tm:drainpunch",
-    "tm:earthpower",
-    "tm:earthquake",
-    "tm:energyball",
-    "tm:falseswipe",
-    "tm:furycutter",
-    "tm:gigadrain",
-    "tm:grassyterrain",
-    "tm:hiddenpower",
-    "tm:irondefense",
-    "tm:knockoff",
-    "tm:lashout",
-    "tm:magicalleaf",
-    "tm:mudslide",
-    "tm:pinmissile",
-    "tm:playrough",
-    "tm:poisonjab",
-    "tm:poweruppunch",
-    "tm:powerwhip",
-    "tm:protect",
-    "tm:quicksand",
-    "tm:rest",
-    "tm:return",
-    "tm:rockblast",
-    "tm:rockslide",
-    "tm:rocktomb",
-    "tm:sandstorm",
-    "tm:sandtomb",
-    "tm:scorchingsands",
-    "tm:sleeptalk",
-    "tm:solarbeam",
-    "tm:spikes",
-    "tm:spikyshield",
-    "tm:stealthrock",
-    "tm:stoneedge",
-    "tm:substitute",
-    "tm:swordsdance",
-    "tm:synthesis",
-    "tm:taunt",
-    "tm:terrainpulse",
-    "tm:toxic",
-    "tm:workup",
-    "egg:sunnyday",
-    "egg:solarbeam",
-    "egg:needlearm",
-    "egg:pinmissile",
-    "egg:stealthrock",
-    "egg:endure",
-    "egg:petaldance"  ],
-  "labels": [
-    "soulstones",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.epochbonsly.desc"
-  ],
-  "evolutions": [
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
     {
-      "id": "bonsly_epoch_sudowoodo",
-      "variant": "level_up",
-      "result": "epoch sudowoodo",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
+      "name": "Novran",
+      "primaryType": "rock",
+      "secondaryType": "ice",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 58,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "sturdy",
+        "skilllink",
+        "h:roughskin"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 95,
+        "defence": 80,
+        "special_attack": 10,
+        "special_defence": 45,
+        "speed": 10
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:copycat",
+        "5:flail",
+        "8:icywind",
+        "12:rockthrow",
+        "15:tearfullook",
+        "19:feintattack",
+        "22:iceshard",
+        "25:rocktomb",
+        "28:mimic",
+        "32:block",
+        "34:rockblast",
+        "37:avalanche",
+        "40:suckerpunch",
+        "43:iciclespear",
+        "tm:headbutt",
+        "tm:lowkick",
+        "tm:recycle",
+        "tm:earthpower",
+        "tm:foulplay",
+        "tm:icywind",
+        "tm:suckerpunch",
+        "tm:snore",
+        "tm:tripleaxel",
+        "tm:calmmind",
+        "tm:snowscape",
+        "tm:hiddenpower",
+        "tm:icebeam",
+        "tm:blizzard",
+        "tm:protect",
+        "tm:return",
+        "tm:brickbreak",
+        "tm:sandstorm",
+        "tm:rocktomb",
+        "tm:facade",
+        "tm:rest",
+        "tm:thief",
+        "tm:rocksmash",
+        "tm:ancientpower",
+        "tm:curse",
+        "tm:explosion",
+        "tm:payback",
+        "tm:rockpolish",
+        "tm:avalanche",
+        "tm:stealthrock",
+        "tm:rockslide",
+        "tm:grassknot",
+        "tm:swagger",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:naturalgift",
+        "tm:confide",
+        "tm:trailblaze",
+        "tm:smackdown",
+        "tm:icespinner",
+        "tm:attract",
+        "tm:auroraveil",
+        "tm:stompingtantrum",
+        "tm:mudsport",
+        "tm:spikes",
+        "tm:thrash",
+        "tm:pinmissile",
+        "tm:ingrain",
+        "tm:spikecannon"
+      ],
+      "labels": [
+        "novrai",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.novranbonsly.desc1"
+      ],
+      "height": 5,
+      "weight": 165,
+      "aspects": [
+        "novran"
+      ],
+      "evolutions": [
         {
-          "variant": "level",
-          "minLevel": 20
+          "id": "novranbonsly_sudowoodo_novran",
+          "variant": "level_up",
+          "result": "sudowoodo novran",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "has_move",
+              "move": "mimic"
+            }
+          ],
+          "permanent": true
         }
       ],
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 5,
-  "weight": 150,
-  "aspects": ["epoch"],
-  "cannotDynamax": false
-},
-{
-  "name": "Novran",
-  "primaryType": "rock",
-  "secondaryType": "ice",
-  "abilities": [
-    "sturdy",
-    "skilllink",
-    "h:roughskin"
-  ],
-  "baseStats": {
-    "hp": 50,
-    "attack": 95,
-    "defence": 80,
-    "special_attack": 10,
-    "special_defence": 45,
-    "speed": 10
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     }
-  },
-  "catchRate": 255,
-  "shoulderMountable": false,
-  "baseExperienceYield": 58,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "undiscovered"
   ],
-  "moves": [
-    "1:copycat",
-    "5:flail",
-    "8:icywind",
-    "12:rockthrow",
-    "15:tearfullook",
-    "19:feintattack",
-    "22:iceshard",
-    "25:rocktomb",
-    "28:mimic",
-    "32:block",
-    "34:rockblast",
-    "37:avalanche",
-    "40:suckerpunch",
-    "43:iciclespear",
-    "tm:headbutt",
-    "tm:lowkick",
-    "tm:recycle",
-    "tm:earthpower",
-    "tm:foulplay",
-    "tm:icywind",
-    "tm:suckerpunch",
-    "tm:snore",
-    "tm:tripleaxel",
-    "tm:calmmind",
-    "tm:snowscape",
-    "tm:hiddenpower",
-    "tm:icebeam",
-    "tm:blizzard",
-    "tm:protect",
-    "tm:return",
-    "tm:brickbreak",
-    "tm:sandstorm",
-    "tm:rocktomb",
-    "tm:facade",
-    "tm:rest",
-    "tm:thief",
-    "tm:rocksmash",
-    "tm:ancientpower",
-    "tm:curse",
-    "tm:explosion",
-    "tm:payback",
-    "tm:rockpolish",
-    "tm:avalanche",
-    "tm:stealthrock",
-    "tm:rockslide",
-    "tm:grassknot",
-    "tm:swagger",
-    "tm:sleeptalk",
-    "tm:substitute",
-    "tm:naturalgift",
-    "tm:confide",
-    "tm:trailblaze",
-    "tm:smackdown",
-    "tm:icespinner",
-    "tm:attract",
-    "tm:auroraveil",
-    "tm:stompingtantrum",
-    "tm:mudsport",
-    "tm:spikes",
-    "tm:thrash",
-    "tm:pinmissile",
-    "tm:ingrain",
-    "tm:spikecannon"  ],
-  "labels": [
-    "novrai",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.novranbonsly.desc"
-  ],
-  "evolutions": [
-    {
-      "id": "bonsly_sudowoodo_novran",
-      "variant": "level_up",
-      "result": "sudowoodo novran",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "has_move",
-          "move": "mimic"
-        }
-      ],
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 5,
-  "weight": 165,
-  "aspects": ["novran"],
-  "cannotDynamax": false
-}
-], "features": [
-"epoch",
-"novran"
+  "features": [
+    "epoch",
+    "novran"
   ]
 }

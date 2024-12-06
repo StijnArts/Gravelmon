@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Electruxo",
-  "nationalPokedexNumber": 2486,
   "primaryType": "water",
   "secondaryType": "electric",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 248,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "preEvolution": "eletux",
+  "baseScale": 0.3,
+  "cannotDynamax": false,
   "abilities": [
     "static",
     "h:torrent"
@@ -16,38 +23,19 @@
     "special_defence": 105,
     "speed": 85
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 3,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 248,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 100,
   "eggGroups": [
     "monster",
     "water_1"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "1:tailwhip",
@@ -112,7 +100,8 @@
     "egg:mudsport",
     "egg:refresh",
     "egg:thunder",
-    "egg:yawn"  ],
+    "egg:yawn"
+  ],
   "labels": [
     "uranium",
     "not_modeled",
@@ -120,28 +109,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.electruxo.desc"
+    "cobblemon.species.electruxo.desc1"
   ],
-  "preEvolution": "eletux",
-  "baseScale": 0.3,
+  "height": 18,
+  "weight": 855,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2486,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 3,
-    "speed": 0
-  },
-  "height": 18,
-  "weight": 855,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Electaburst",
-  "nationalPokedexNumber": 2250,
   "primaryType": "fire",
   "secondaryType": "electric",
+  "catchRate": 30,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 242,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 26,
+  "baseFriendship": 70,
+  "preEvolution": "electabuzz form\u003dx",
+  "baseScale": 1.3,
+  "cannotDynamax": false,
   "abilities": [
     "levitate",
     "h:vitalspirit"
@@ -16,46 +23,19 @@
     "special_defence": 85,
     "speed": 95
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 30,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 242,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 26,
   "eggGroups": [
     "undiscovered"
   ],
   "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "gravelmon:xenolith",
-        "quantityRange": "1-1",
-        "percentage": 40
-      }
-    ]
+    "amount": 1
   },
   "moves": [
     "1:electroball",
@@ -113,34 +93,50 @@
     "tm:flashcannon",
     "tm:wildcharge",
     "tutor:scorchedashes",
-    "tutor:secretpower"  ],
+    "tutor:secretpower"
+  ],
   "labels": [
     "xenoverse",
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.electaburst.desc"
+    "cobblemon.species.electaburst.desc1"
   ],
-  "preEvolution": "electabuzz form=x",
-  "baseScale": 1.3,
+  "height": 18,
+  "weight": 723,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2250,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 1.1,
     "height": 1.7,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 3,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 18,
-  "weight": 723,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

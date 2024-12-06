@@ -26,7 +26,7 @@ public class Inspark extends drai.dev.data.pokemon.Pokemon {
                 List.of(new EvolutionEntry("flantern", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"15"))),
                         new EvolutionEntry("explosipede", EvolutionType.LEVEL_UP, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.EXPLOSION.getName()+"\"")))),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.EXPLOSION.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.SINGE,1),
                         new MoveLearnSetEntry(Move.SMOKESCREEN,3),

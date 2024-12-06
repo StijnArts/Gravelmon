@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Gastesla",
-  "nationalPokedexNumber": 1754,
   "primaryType": "grass",
   "secondaryType": "electric",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 264,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "descargot",
+  "baseScale": 0.26666666666666666,
+  "cannotDynamax": false,
   "abilities": [
     "overgrow",
     "h:regenerator"
@@ -16,37 +23,18 @@
     "special_defence": 115,
     "speed": 80
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 264,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:mudslap",
     "1:pound",
@@ -80,7 +68,8 @@
     "egg:naturalgift",
     "egg:bodyslam",
     "egg:synthesis",
-    "egg:worryseed"  ],
+    "egg:worryseed"
+  ],
   "labels": [
     "opal",
     "not_modeled",
@@ -88,28 +77,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.gastesla.desc"
+    "cobblemon.species.gastesla.desc1"
   ],
-  "preEvolution": "descargot",
-  "baseScale": 0.26666666666666666,
+  "height": 16,
+  "weight": 150,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1754,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 16,
-  "weight": 150,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

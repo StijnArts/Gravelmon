@@ -76,7 +76,7 @@ public class Snotchoo extends drai.dev.data.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("bulbasaur", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.WEATHER,"true"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_SNOWY.getId() + ":" + Biome.IS_SNOWY.getName() +"\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_SNOWY.getId() + ":" + Biome.IS_SNOWY.getName())))),
                 List.of(),
                 List.of(Label.BAGO),
                 0, List.of(

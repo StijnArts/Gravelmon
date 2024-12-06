@@ -1,18 +1,15 @@
 {
-   "target": "cobblemon:okigon",
+  "target": "cobblemon:okigon",
   "evolutions": [
     {
-      "id": "okigon_Vesgrass",
+      "id": "okigon_vesgrass",
       "variant": "item_interact",
       "result": "Vesgrass",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
+      "requirements": [],
       "requiredContext": "minecraft:decorated_pot_sherds",
-      "permanent": true   
- }
+      "permanent": true
+    }
   ]
-
 }

@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Probaska",
-  "nationalPokedexNumber": 4559,
   "primaryType": "bug",
   "secondaryType": "normal",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 234,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "cooreds",
+  "baseScale": 0.18333333333333335,
+  "cannotDynamax": false,
   "abilities": [
     "keeneye",
     "h:soundproof"
@@ -16,37 +23,18 @@
     "special_defence": 71,
     "speed": 100
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 234,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:stringshot",
     "1:tackle",
@@ -61,7 +49,8 @@
     "37:sing",
     "41:victorydance",
     "45:throatchop",
-    "49:bugbuzz"  ],
+    "49:bugbuzz"
+  ],
   "labels": [
     "lockemon",
     "not_modeled",
@@ -69,28 +58,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.probaska.desc"
+    "cobblemon.species.probaska.desc1"
   ],
-  "preEvolution": "cooreds",
-  "baseScale": 0.18333333333333335,
+  "height": 11,
+  "weight": 223,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 4559,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 11,
-  "weight": 223,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Marawder",
-  "nationalPokedexNumber": 5273,
   "primaryType": "water",
   "secondaryType": "dark",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 241,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "vicera",
+  "baseScale": 0.3666666666666667,
+  "cannotDynamax": false,
   "abilities": [
     "torrent",
     "h:guts"
@@ -16,37 +23,18 @@
     "special_defence": 65,
     "speed": 100
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 241,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_2"
   ],
+  "drops": {},
   "moves": [
     "1:tailwhip",
     "1:tackle",
@@ -63,7 +51,8 @@
     "42:thrash",
     "46:glare",
     "50:swordsdance",
-    "55:agility"  ],
+    "55:agility"
+  ],
   "labels": [
     "fliga",
     "not_modeled",
@@ -71,28 +60,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.marawder.desc"
+    "cobblemon.species.marawder.desc1"
   ],
-  "preEvolution": "vicera",
-  "baseScale": 0.3666666666666667,
+  "height": 22,
+  "weight": 1923,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5273,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 3,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 22,
-  "weight": 1923,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

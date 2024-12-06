@@ -11,12 +11,12 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
+      "bucket": "uncommon",
+      "level": "13-41",
+      "weight": 6.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
+          "#cobblemon:is_glacial",
           "#cobblemon:is_mountain"
         ],
         "minSkyLight": 8,

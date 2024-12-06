@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Albashell",
-  "nationalPokedexNumber": 2702,
   "primaryType": "flying",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 187,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "aerapin",
+  "baseScale": 0.45,
+  "cannotDynamax": false,
   "abilities": [
     "cloudnine",
     "shellarmor",
@@ -16,38 +23,19 @@
     "special_defence": 100,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 187,
-  "experienceGroup": "fluctuating",
-  "eggCycles": 50,
   "eggGroups": [
     "monster",
     "flying"
   ],
+  "drops": {},
   "moves": [
     "1:fly",
     "1:gust",
@@ -66,7 +54,8 @@
     "51:hurricane",
     "56:shellsmash",
     "62:skullbash",
-    "egg:curse"  ],
+    "egg:curse"
+  ],
   "labels": [
     "flux",
     "not_modeled",
@@ -74,28 +63,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.albashell.desc"
+    "cobblemon.species.albashell.desc1"
   ],
-  "preEvolution": "aerapin",
-  "baseScale": 0.45,
+  "height": 27,
+  "weight": 2065,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2702,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 27,
-  "weight": 2065,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

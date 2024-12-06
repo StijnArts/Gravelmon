@@ -21,7 +21,7 @@ public class HoennianTangela extends Pokemon {
                 51,  List.of(EggGroup.GRASS),
                 List.of("It's body is covered in pointy, dead vines that it collects at a young age. If anyone attempts to peer into it's nest to view it's real body, it becomes highly aggressive."),
                 List.of(new EvolutionEntry("hoenniantangrowth", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\"needlearm\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"needlearm")))),
                 List.of(
                         new MoveLearnSetEntry(Move.UTURN,"egg"),
                         new MoveLearnSetEntry(Move.SNATCH,"egg"),

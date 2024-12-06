@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Goombear",
-  "nationalPokedexNumber": 2230,
   "primaryType": "fire",
   "secondaryType": "fairy",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 173,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 32,
+  "baseFriendship": 70,
+  "preEvolution": "chubiburny",
+  "baseScale": 0.3666666666666667,
+  "cannotDynamax": false,
   "abilities": [
     "thickfat",
     "h:gluttony"
@@ -16,38 +23,19 @@
     "special_defence": 86,
     "speed": 55
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 173,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 32,
   "eggGroups": [
     "monster",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:sugarrush",
     "1:defensecurl",
@@ -110,7 +98,8 @@
     "tutor:scorchedashes",
     "tutor:secretpower",
     "tutor:sleeptalk",
-    "tutor:snore"  ],
+    "tutor:snore"
+  ],
   "labels": [
     "xenoverse",
     "not_modeled",
@@ -118,28 +107,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.goombear.desc"
+    "cobblemon.species.goombear.desc1"
   ],
-  "preEvolution": "chubiburny",
-  "baseScale": 0.3666666666666667,
+  "height": 22,
+  "weight": 3600,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2230,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 22,
-  "weight": 3600,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -118,6 +118,6 @@ public class Faeralynx extends Pokemon {
                 List.of());
         this.setPortraitXYZ(0,1.8,0);
         addAdditionalEvolution("persian", new EvolutionEntry("faeralynx", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.FAENG_RUSH.getName()+"\"")))	);
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.FAENG_RUSH.getName())))	);
     }
 }

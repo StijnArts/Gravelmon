@@ -115,6 +115,6 @@ public class PorygonX extends Pokemon {
         this.setCanFly(true);
         this.setPreEvolution("porygon2");
         addAdditionalEvolution("porygon2", new EvolutionEntry("porygonx", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"gravelmon:quantum_upgrade\""))));
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"gravelmon:quantum_upgrade"))));
     }
 }

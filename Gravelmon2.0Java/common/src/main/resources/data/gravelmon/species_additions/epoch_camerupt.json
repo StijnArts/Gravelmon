@@ -1,4 +1,4 @@
 {
-   "target": "cobblemon:epoch_camerupt",
+  "target": "cobblemon:epoch_camerupt",
   "preEvolution": "epochnumel"
 }

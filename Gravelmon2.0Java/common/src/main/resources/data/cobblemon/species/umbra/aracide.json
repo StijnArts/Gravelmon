@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Aracide",
-  "nationalPokedexNumber": 4958,
   "primaryType": "bug",
   "secondaryType": "poison",
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 140,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "spidoux",
+  "baseScale": 0.13333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "poisontouch",
     "h:poisonpoint"
@@ -16,37 +23,18 @@
     "special_defence": 75,
     "speed": 80
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 190,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 140,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:absorb",
     "1:poisonsting",
@@ -104,7 +92,8 @@
     "tutor:signalbeam",
     "tutor:seedbomb",
     "tutor:gastroacid",
-    "tutor:foulplay"  ],
+    "tutor:foulplay"
+  ],
   "labels": [
     "umbra",
     "not_modeled",
@@ -112,28 +101,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.aracide.desc"
+    "cobblemon.species.aracide.desc1"
   ],
-  "preEvolution": "spidoux",
-  "baseScale": 0.13333333333333333,
+  "height": 8,
+  "weight": 152,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 4958,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 8,
-  "weight": 152,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

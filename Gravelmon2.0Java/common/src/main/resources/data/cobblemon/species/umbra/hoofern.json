@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Hoofern",
-  "nationalPokedexNumber": 4964,
   "primaryType": "grass",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "oviseed",
+  "baseScale": 0.13333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "harvest",
     "h:chlorophyll"
@@ -15,38 +22,19 @@
     "special_defence": 62,
     "speed": 46
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 90,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 142,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "grass",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:growl",
     "1:tackle",
@@ -99,7 +87,8 @@
     "tutor:gigadrain",
     "tutor:synthesis",
     "tutor:seedbomb",
-    "tutor:earthpower"  ],
+    "tutor:earthpower"
+  ],
   "labels": [
     "umbra",
     "not_modeled",
@@ -107,9 +96,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.hoofern.desc"
+    "cobblemon.species.hoofern.desc1"
   ],
-  "preEvolution": "oviseed",
+  "height": 8,
+  "weight": 458,
+  "aspects": [],
   "evolutions": [
     {
       "id": "hoofern_asparies",
@@ -120,31 +111,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 32
+          "minLevel": "32"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.13333333333333333,
+  "nationalPokedexNumber": 4964,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 8,
-  "weight": 458,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

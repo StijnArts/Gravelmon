@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Hangrove",
-  "nationalPokedexNumber": 1986,
   "primaryType": "grass",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 199,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "tangrue",
+  "baseScale": 0.3833333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "chlorophyll",
     "longreach",
@@ -16,61 +23,6 @@
     "special_defence": 125,
     "speed": 80
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 199,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "grass"
-  ],
-  "moves": [
-    "1:vinewhip",
-    "33:leaftornado",
-    "41:shadowclaw",
-    "45:coil",
-    "50:synthesis",
-    "54:grassyterrain"  ],
-  "labels": [
-    "enriko",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
-  ],
-  "pokedex": [
-    "cobblemon.species.hangrove.desc"
-  ],
-  "preEvolution": "tangrue",
-  "baseScale": 0.3833333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -79,10 +31,62 @@
     "special_defence": 0,
     "speed": 0
   },
+  "eggGroups": [
+    "grass"
+  ],
+  "drops": {},
+  "moves": [
+    "1:vinewhip",
+    "33:leaftornado",
+    "41:shadowclaw",
+    "45:coil",
+    "50:synthesis",
+    "54:grassyterrain"
+  ],
+  "labels": [
+    "enriko",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.hangrove.desc1"
+  ],
   "height": 23,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1986,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

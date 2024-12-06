@@ -1,12 +1,19 @@
 {
-  "implemented": true,
   "name": "Solacari",
-  "nationalPokedexNumber": 1161,
   "primaryType": "normal",
   "secondaryType": "flying",
+  "catchRate": 70,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 161,
+  "experienceGroup": "fast",
+  "eggCycles": 51,
+  "baseFriendship": 70,
+  "baseScale": 0.11666666666666665,
+  "cannotDynamax": false,
   "abilities": [
     "drought",
-    "solarpower"  ],
+    "solarpower"
+  ],
   "baseStats": {
     "hp": 64,
     "attack": 85,
@@ -15,37 +22,20 @@
     "special_defence": 66,
     "speed": 98
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 70,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 161,
-  "experienceGroup": "fast",
-  "eggCycles": 51,
   "eggGroups": [
     "flying"
   ],
+  "drops": {
+    "amount": 2
+  },
   "moves": [
     "1:focusenergy",
     "1:covet",
@@ -114,33 +104,50 @@
     "egg:nastyplot",
     "egg:roost",
     "egg:steelwing",
-    "egg:weatherball"  ],
+    "egg:weatherball"
+  ],
   "labels": [
     "sage",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.solacari.desc"
+    "cobblemon.species.solacari.desc1"
   ],
-  "baseScale": 0.11666666666666665,
+  "height": 7,
+  "weight": 85,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1161,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 7,
-  "weight": 85,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

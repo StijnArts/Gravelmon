@@ -1,9 +1,15 @@
 {
-  "implemented": true,
   "name": "Cocopow",
-  "nationalPokedexNumber": 7447,
   "primaryType": "rock",
   "secondaryType": "fighting",
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 135,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
     "unaware",
     "hugepower",
@@ -17,38 +23,19 @@
     "special_defence": 80,
     "speed": 25
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 190,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 135,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "grass",
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:bide",
     "1:defensecurl",
@@ -103,33 +90,50 @@
     "tm:liquidation",
     "tm:slackoff",
     "tm:snore",
-    "tm:seedbomb"  ],
+    "tm:seedbomb"
+  ],
   "labels": [
     "cyare",
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.cocopow.desc"
+    "cobblemon.species.cocopow.desc1"
   ],
-  "baseScale": 0.1,
+  "height": 6,
+  "weight": 159,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 7447,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 6,
-  "weight": 159,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

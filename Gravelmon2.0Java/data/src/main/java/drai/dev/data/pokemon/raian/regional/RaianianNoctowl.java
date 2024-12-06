@@ -32,7 +32,7 @@ public class RaianianNoctowl extends drai.dev.data.pokemon.Pokemon {
            setLangFileName("Noctowl");
         addAdditionalEvolution("hoothoot", new EvolutionEntry("raianiannoctowl", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22"),
-                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_MOUNTAIN.getId() + ":" + Biome.IS_MOUNTAIN.getName() +"\""))));
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_MOUNTAIN.getId() + ":" + Biome.IS_MOUNTAIN.getName()))));
     }
 
 

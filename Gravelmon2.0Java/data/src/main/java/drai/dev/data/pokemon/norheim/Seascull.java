@@ -50,7 +50,7 @@ public class Seascull extends drai.dev.data.pokemon.Pokemon {
            setLangFileName("Seascull");
         addAdditionalEvolution("wingull", new EvolutionEntry("seascull", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30"),
-                new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_COLD.getId() + ":" + Biome.IS_COLD.getName() +"\""))));
+                new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_COLD.getId() + ":" + Biome.IS_COLD.getName()))));
 
     }
 

@@ -1,12 +1,20 @@
 {
-  "implemented": true,
   "name": "Soulhofen",
-  "nationalPokedexNumber": 4379,
   "primaryType": "rock",
   "secondaryType": "ghost",
+  "catchRate": 45,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 225,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "fossoul",
+  "baseScale": 0.21666666666666667,
+  "cannotDynamax": false,
   "abilities": [
     "solidrock",
-    "cursedbody"  ],
+    "cursedbody"
+  ],
   "baseStats": {
     "hp": 35,
     "attack": 42,
@@ -15,37 +23,18 @@
     "special_defence": 94,
     "speed": 35
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 3,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 225,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:bonemerang",
     "1:shadowbone",
@@ -117,7 +106,8 @@
     "tm:takedown",
     "tm:throatchop",
     "tm:torment",
-    "tm:willowisp"  ],
+    "tm:willowisp"
+  ],
   "labels": [
     "crozoic",
     "not_modeled",
@@ -125,9 +115,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.soulhofen.desc"
+    "cobblemon.species.soulhofen.desc1"
   ],
-  "preEvolution": "fossoul",
+  "height": 13,
+  "weight": 890,
+  "aspects": [],
   "evolutions": [
     {
       "id": "soulhofen_shaelseum",
@@ -135,32 +127,42 @@
       "result": "shaelseum",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
+      "requirements": [],
       "requiredContext": "cobblemon:dusk_stone",
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.21666666666666667,
+  "nationalPokedexNumber": 4379,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 3,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 13,
-  "weight": 890,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

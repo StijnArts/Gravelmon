@@ -1,365 +1,380 @@
 {
-   "target": "cobblemon:purrloin",
-   "forms": [{
-  "name": "Epoch",
-  "primaryType": "light",
-  "secondaryType": "cosmic",
-  "abilities": [
-    "keeneye"  ],
-  "baseStats": {
-    "hp": 45,
-    "attack": 50,
-    "defence": 35,
-    "special_attack": 75,
-    "special_defence": 40,
-    "speed": 35
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+  "target": "cobblemon:purrloin",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "light",
+      "secondaryType": "cosmic",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 56,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 45,
+        "attack": 50,
+        "defence": 35,
+        "special_attack": 75,
+        "special_defence": 40,
+        "speed": 35
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "24:honeclaws",
+        "42:tailglow",
+        "1:scratch",
+        "11:furyswipes",
+        "34:slash",
+        "8:swift",
+        "28:gammaray",
+        "21:flash",
+        "54:aurasphere",
+        "38:extremespeed",
+        "1:growl",
+        "31:moonlight",
+        "58:megakick",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:bodyslam",
+        "tm:burningjealousy",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:drainingkiss",
+        "tm:earthpower",
+        "tm:firefang",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:healbell",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:icefang",
+        "tm:knockoff",
+        "tm:lightscreen",
+        "tm:magicroom",
+        "tm:meteorbeam",
+        "tm:mirrorshot",
+        "tm:moonblast",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicfangs",
+        "tm:psychicterrain",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:substitute",
+        "tm:swift",
+        "tm:tailglow",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:thunderfang",
+        "tm:toxic",
+        "tm:trickroom",
+        "tm:wish",
+        "tm:wonderroom",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:covet",
+        "egg:playrough",
+        "egg:charm",
+        "egg:captivate",
+        "egg:wish"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochpurrloin.desc1"
+      ],
+      "height": 4,
+      "weight": 101,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochpurrloin_epoch_liepard",
+          "variant": "level_up",
+          "result": "epoch liepard",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "30"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
-    }
-  },
-  "catchRate": 255,
-  "shoulderMountable": false,
-  "baseExperienceYield": 56,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "24:honeclaws",
-    "42:tailglow",
-    "1:scratch",
-    "11:furyswipes",
-    "34:slash",
-    "8:swift",
-    "28:gammaray",
-    "21:flash",
-    "54:aurasphere",
-    "38:extremespeed",
-    "1:growl",
-    "31:moonlight",
-    "58:megakick",
-    "tm:attract",
-    "tm:aurasphere",
-    "tm:bodyslam",
-    "tm:burningjealousy",
-    "tm:calmmind",
-    "tm:chargebeam",
-    "tm:confuseray",
-    "tm:cosmicpower",
-    "tm:darkpulse",
-    "tm:dazzlinggleam",
-    "tm:drainingkiss",
-    "tm:earthpower",
-    "tm:firefang",
-    "tm:focusblast",
-    "tm:gammaray",
-    "tm:geomancy",
-    "tm:healbell",
-    "tm:hiddenpower",
-    "tm:hypervoice",
-    "tm:icefang",
-    "tm:knockoff",
-    "tm:lightscreen",
-    "tm:magicroom",
-    "tm:meteorbeam",
-    "tm:mirrorshot",
-    "tm:moonblast",
-    "tm:nastyplot",
-    "tm:phantomforce",
-    "tm:playrough",
-    "tm:protect",
-    "tm:psychic",
-    "tm:psychicfangs",
-    "tm:psychicterrain",
-    "tm:reflect",
-    "tm:rest",
-    "tm:return",
-    "tm:round",
-    "tm:safeguard",
-    "tm:signalbeam",
-    "tm:sleeptalk",
-    "tm:snarl",
-    "tm:substitute",
-    "tm:swift",
-    "tm:tailglow",
-    "tm:taunt",
-    "tm:terrainpulse",
-    "tm:thunderfang",
-    "tm:toxic",
-    "tm:trickroom",
-    "tm:wish",
-    "tm:wonderroom",
-    "tm:workup",
-    "tm:zenheadbutt",
-    "egg:covet",
-    "egg:playrough",
-    "egg:charm",
-    "egg:captivate",
-    "egg:wish"  ],
-  "labels": [
-    "soulstones",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.epochpurrloin.desc"
-  ],
-  "evolutions": [
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
     {
-      "id": "purrloin_epoch_liepard",
-      "variant": "level_up",
-      "result": "epoch liepard",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
+      "name": "Delta",
+      "primaryType": "ghost",
+      "secondaryType": "fairy",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 56,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "illusion",
+        "unnerve",
+        "h:lightningrod"
+      ],
+      "baseStats": {
+        "hp": 41,
+        "attack": 50,
+        "defence": 37,
+        "special_attack": 50,
+        "special_defence": 37,
+        "speed": 66
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:astonish",
+        "3:growl",
+        "6:smog",
+        "10:smokescreen",
+        "12:furyswipes",
+        "15:clearsmog",
+        "19:screech",
+        "21:disarmingvoice",
+        "24:howl",
+        "28:shadowclaw",
+        "30:slash",
+        "33:confuseray",
+        "37:moonblast",
+        "39:perishsong",
+        "42:nastyplot",
+        "46:phantomforce",
+        "49:playrough",
+        "tm:honeclaws",
+        "tm:toxic",
+        "tm:hiddenpower",
+        "tm:taunt",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:raindance",
+        "tm:snatch",
+        "tm:frustration",
+        "tm:irontail",
+        "tm:return",
+        "tm:psychic",
+        "tm:shadowball",
+        "tm:doubleteam",
+        "tm:sludgewave",
+        "tm:sludgebomb",
+        "tm:aerialace",
+        "tm:torment",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:thief",
+        "tm:lowsweep",
+        "tm:roost",
+        "tm:energyball",
+        "tm:falseswipe",
+        "tm:fling",
+        "tm:chargebeam",
+        "tm:willowisp",
+        "tm:newmoon",
+        "tm:embargo",
+        "tm:shadowclaw",
+        "tm:payback",
+        "tm:psychup",
+        "tm:thunderwave",
+        "tm:swordsdance",
+        "tm:wildcharge",
+        "tm:xscissor",
+        "tm:shockwave",
+        "tm:poisonjab",
+        "tm:dreameater",
+        "tm:grassknot",
+        "tm:swagger",
+        "tm:uturn",
+        "tm:substitute",
+        "tm:sleeptalk",
+        "tm:acrobatics",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:achillesheel",
+        "tm:lunarcannon",
+        "tm:allyswitch",
+        "tm:echoedvoice",
+        "tm:round",
+        "tm:captivate",
+        "tm:snarl",
+        "tm:confide",
+        "tm:quash",
+        "tm:secretpower",
+        "tm:cut",
+        "tm:fly",
+        "tutor:acid",
+        "tutor:aquatail",
+        "tutor:bind",
+        "tutor:block",
+        "tutor:bounce",
+        "tutor:bulletseed",
+        "tutor:covet",
+        "tutor:endeavor",
+        "tutor:endure",
+        "tutor:foulplay",
+        "tutor:furycutter",
+        "tutor:hypervoice",
+        "tutor:knockoff",
+        "tutor:lastresort",
+        "tutor:nastyplot",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:magicroom",
+        "tutor:mimic",
+        "tutor:roleplay",
+        "tutor:skyattack",
+        "tutor:snore",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:superfang",
+        "tutor:trick",
+        "tutor:uproar",
+        "tutor:wonderroom",
+        "tutor:zenheadbutt"
+      ],
+      "labels": [
+        "gen5",
+        "insurgence",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.deltapurrloin.desc1"
+      ],
+      "height": 4,
+      "weight": 101,
+      "aspects": [
+        "delta"
+      ],
+      "evolutions": [
         {
-          "variant": "level",
-          "minLevel": 30
+          "id": "deltapurrloin_liepard_delta",
+          "variant": "level_up",
+          "result": "liepard delta",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "20"
+            }
+          ],
+          "permanent": true
         }
       ],
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 4,
-  "weight": 101,
-  "aspects": ["epoch"],
-  "cannotDynamax": false
-},
-{
-  "name": "Delta",
-  "primaryType": "ghost",
-  "secondaryType": "fairy",
-  "abilities": [
-    "illusion",
-    "unnerve",
-    "h:lightningrod"
-  ],
-  "baseStats": {
-    "hp": 41,
-    "attack": 50,
-    "defence": 37,
-    "special_attack": 50,
-    "special_defence": 37,
-    "speed": 66
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+      "shoulderMountable": false,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
+          }
         }
+      },
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     }
-  },
-  "catchRate": 255,
-  "shoulderMountable": false,
-  "baseExperienceYield": 56,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "undiscovered"
   ],
-  "moves": [
-    "1:astonish",
-    "3:growl",
-    "6:smog",
-    "10:smokescreen",
-    "12:furyswipes",
-    "15:clearsmog",
-    "19:screech",
-    "21:disarmingvoice",
-    "24:howl",
-    "28:shadowclaw",
-    "30:slash",
-    "33:confuseray",
-    "37:moonblast",
-    "39:perishsong",
-    "42:nastyplot",
-    "46:phantomforce",
-    "49:playrough",
-    "tm:honeclaws",
-    "tm:toxic",
-    "tm:hiddenpower",
-    "tm:taunt",
-    "tm:lightscreen",
-    "tm:protect",
-    "tm:raindance",
-    "tm:snatch",
-    "tm:frustration",
-    "tm:irontail",
-    "tm:return",
-    "tm:psychic",
-    "tm:shadowball",
-    "tm:doubleteam",
-    "tm:sludgewave",
-    "tm:sludgebomb",
-    "tm:aerialace",
-    "tm:torment",
-    "tm:facade",
-    "tm:rest",
-    "tm:attract",
-    "tm:thief",
-    "tm:lowsweep",
-    "tm:roost",
-    "tm:energyball",
-    "tm:falseswipe",
-    "tm:fling",
-    "tm:chargebeam",
-    "tm:willowisp",
-    "tm:newmoon",
-    "tm:embargo",
-    "tm:shadowclaw",
-    "tm:payback",
-    "tm:psychup",
-    "tm:thunderwave",
-    "tm:swordsdance",
-    "tm:wildcharge",
-    "tm:xscissor",
-    "tm:shockwave",
-    "tm:poisonjab",
-    "tm:dreameater",
-    "tm:grassknot",
-    "tm:swagger",
-    "tm:uturn",
-    "tm:substitute",
-    "tm:sleeptalk",
-    "tm:acrobatics",
-    "tm:darkpulse",
-    "tm:dazzlinggleam",
-    "tm:achillesheel",
-    "tm:lunarcannon",
-    "tm:allyswitch",
-    "tm:echoedvoice",
-    "tm:round",
-    "tm:captivate",
-    "tm:snarl",
-    "tm:confide",
-    "tm:quash",
-    "tm:secretpower",
-    "tm:cut",
-    "tm:fly",
-    "tutor:acid",
-    "tutor:aquatail",
-    "tutor:bind",
-    "tutor:block",
-    "tutor:bounce",
-    "tutor:bulletseed",
-    "tutor:covet",
-    "tutor:endeavor",
-    "tutor:endure",
-    "tutor:foulplay",
-    "tutor:furycutter",
-    "tutor:hypervoice",
-    "tutor:knockoff",
-    "tutor:lastresort",
-    "tutor:nastyplot",
-    "tutor:ominouswind",
-    "tutor:painsplit",
-    "tutor:magicroom",
-    "tutor:mimic",
-    "tutor:roleplay",
-    "tutor:skyattack",
-    "tutor:snore",
-    "tutor:spite",
-    "tutor:suckerpunch",
-    "tutor:superfang",
-    "tutor:trick",
-    "tutor:uproar",
-    "tutor:wonderroom",
-    "tutor:zenheadbutt"  ],
-  "labels": [
-    "gen5",
-    "insurgence",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.deltapurrloin.desc"
-  ],
-  "evolutions": [
-    {
-      "id": "purrloin_liepard_delta",
-      "variant": "level_up",
-      "result": "liepard delta",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": 20
-        }
-      ],
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 4,
-  "weight": 101,
-  "aspects": ["delta"],
-  "cannotDynamax": false
-}
-], "features": [
-"epoch",
-"delta"
+  "features": [
+    "epoch",
+    "delta"
   ]
 }

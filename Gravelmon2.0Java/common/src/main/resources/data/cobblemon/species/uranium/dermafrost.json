@@ -1,9 +1,16 @@
 {
-  "implemented": true,
   "name": "Dermafrost",
-  "nationalPokedexNumber": 2562,
   "primaryType": "ice",
   "secondaryType": "rock",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 189,
+  "experienceGroup": "slow",
+  "eggCycles": 48,
+  "baseFriendship": 70,
+  "preEvolution": "snopach",
+  "baseScale": 0.48333333333333334,
+  "cannotDynamax": false,
   "abilities": [
     "solidrock",
     "snowcloak",
@@ -17,38 +24,19 @@
     "special_defence": 70,
     "speed": 80
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 189,
-  "experienceGroup": "slow",
-  "eggCycles": 48,
   "eggGroups": [
     "mineral",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:blizzard",
     "1:hammerarm",
@@ -119,7 +107,8 @@
     "egg:iceball",
     "egg:rapidspin",
     "egg:frostbreath",
-    "egg:glaciate"  ],
+    "egg:glaciate"
+  ],
   "labels": [
     "uranium",
     "not_modeled",
@@ -127,28 +116,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.dermafrost.desc"
+    "cobblemon.species.dermafrost.desc1"
   ],
-  "preEvolution": "snopach",
-  "baseScale": 0.48333333333333334,
+  "height": 29,
+  "weight": 8881,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2562,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 29,
-  "weight": 8881,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

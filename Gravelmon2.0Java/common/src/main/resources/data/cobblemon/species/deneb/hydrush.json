@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Hydrush",
-  "nationalPokedexNumber": 6137,
   "primaryType": "water",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 143,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "liquiput",
+  "baseScale": 0.15,
+  "cannotDynamax": false,
   "abilities": [
     "torrent",
     "h:liquidooze"
@@ -15,38 +22,19 @@
     "special_defence": 72,
     "speed": 50
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 143,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_1",
     "amorphous"
   ],
+  "drops": {},
   "moves": [
     "1:pound",
     "1:growl",
@@ -109,7 +97,8 @@
     "egg:smokescreen",
     "egg:snatch",
     "egg:snore",
-    "egg:waterpulse"  ],
+    "egg:waterpulse"
+  ],
   "labels": [
     "deneb",
     "not_modeled",
@@ -117,9 +106,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.hydrush.desc"
+    "cobblemon.species.hydrush.desc1"
   ],
-  "preEvolution": "liquiput",
+  "height": 9,
+  "weight": 147,
+  "aspects": [],
   "evolutions": [
     {
       "id": "hydrush_correncid",
@@ -130,31 +121,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 36
+          "minLevel": "36"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.15,
+  "nationalPokedexNumber": 6137,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 9,
-  "weight": 147,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

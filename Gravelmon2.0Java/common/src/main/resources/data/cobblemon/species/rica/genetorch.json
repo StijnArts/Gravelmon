@@ -1,8 +1,15 @@
 {
-  "implemented": true,
   "name": "Genetorch",
-  "nationalPokedexNumber": 1378,
   "primaryType": "fire",
+  "catchRate": 35,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 194,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "ailember",
+  "baseScale": 0.2333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "flashfire",
     "h:flamebody"
@@ -15,37 +22,18 @@
     "special_defence": 85,
     "speed": 123
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 35,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 194,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "tm:bodyslam",
     "tm:superpower",
@@ -97,7 +85,8 @@
     "tm:cut",
     "tm:flash",
     "tm:strength",
-    "tm:playrough"  ],
+    "tm:playrough"
+  ],
   "labels": [
     "rica",
     "not_modeled",
@@ -105,28 +94,43 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.genetorch.desc"
+    "cobblemon.species.genetorch.desc1"
   ],
-  "preEvolution": "ailember",
-  "baseScale": 0.2333333333333333,
+  "height": 14,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1378,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 14,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

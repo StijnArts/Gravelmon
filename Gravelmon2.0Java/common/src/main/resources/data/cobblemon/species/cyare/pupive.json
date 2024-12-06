@@ -1,10 +1,18 @@
 {
-  "implemented": true,
   "name": "Pupive",
-  "nationalPokedexNumber": 7365,
   "primaryType": "bug",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 75,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "grubble",
+  "baseScale": 0.1,
+  "cannotDynamax": false,
   "abilities": [
-    "shedskin"  ],
+    "shedskin"
+  ],
   "baseStats": {
     "hp": 45,
     "attack": 40,
@@ -13,41 +21,23 @@
     "special_defence": 30,
     "speed": 40
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 75,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:harden",
     "15:bugbite",
-    "20:flail"  ],
+    "20:flail"
+  ],
   "labels": [
     "cyare",
     "not_modeled",
@@ -55,9 +45,11 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.pupive.desc"
+    "cobblemon.species.pupive.desc1"
   ],
-  "preEvolution": "grubble",
+  "height": 6,
+  "weight": 68,
+  "aspects": [],
   "evolutions": [
     {
       "id": "pupive_waspen",
@@ -68,31 +60,43 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 10
+          "minLevel": "10"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 7365,
+  "shoulderMountable": false,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 6,
-  "weight": 68,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }
