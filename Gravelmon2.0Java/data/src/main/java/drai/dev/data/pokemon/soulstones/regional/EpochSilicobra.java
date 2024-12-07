@@ -23,7 +23,7 @@ public class EpochSilicobra extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1),
                 List.of("Certain bustlers have managed to train Silicobras to perform tricks with its buoy as a form of entertainment."),
-                List.of(new EvolutionEntry("epoch sandaconda", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochsandaconda", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AQUA_TAIL,38),

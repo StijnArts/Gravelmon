@@ -23,7 +23,7 @@ public class EpochBlitzle extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Blitzle's fur is freeing and lightweight, allowing them to have an extra aerodynamic boost and reach incredible speeds when running."),
-                List.of(new EvolutionEntry("epoch zebstrika", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochzebstrika", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))),
                 List.of(
                         new MoveLearnSetEntry(Move.COUPDEGRACE,22),

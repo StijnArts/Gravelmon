@@ -23,7 +23,7 @@ public class EpochMetapod extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("It is very difficult for this Pokemon to protect itself because its eyes glow. If it opens its eyes, it gives away its location to potential predators."),
-                List.of(new EvolutionEntry("epoch butterfree", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochbutterfree", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"15")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),

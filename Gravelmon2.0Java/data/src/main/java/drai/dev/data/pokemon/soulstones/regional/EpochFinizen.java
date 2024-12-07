@@ -23,7 +23,7 @@ public class EpochFinizen extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.WATER_2),
                 List.of("Its curiosity often leads it to wander easily as it follows ships before it realizes that it has been separated from the rest of its pod."),
-                List.of(new EvolutionEntry("epoch palafin", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochpalafin", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,15),

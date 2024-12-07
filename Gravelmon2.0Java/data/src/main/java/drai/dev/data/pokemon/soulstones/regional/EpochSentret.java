@@ -23,7 +23,7 @@ public class EpochSentret extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It stalks the roadway where it was killed in hopes of exacting its vengeance on the motorist that took its life."),
-                List.of(new EvolutionEntry("epoch furret", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochfurret", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PHEROMONESTREAM,40),

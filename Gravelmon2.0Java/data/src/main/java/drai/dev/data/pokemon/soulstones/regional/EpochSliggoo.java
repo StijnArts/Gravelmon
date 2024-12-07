@@ -23,7 +23,7 @@ public class EpochSliggoo extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("This Pokemon is very sticky and will decompose if it stays under the sun for too long."),
-                List.of(new EvolutionEntry("epoch goodra", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochgoodra", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"50")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),

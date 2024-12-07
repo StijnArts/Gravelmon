@@ -73,7 +73,7 @@ public class EpochDragonair extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.DRAGON),
                 List.of("In certain fables, these Pokemon were considered to be favoured pets of some of the gods."),
-                List.of(new EvolutionEntry("epoch dragonite", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochdragonite", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"55")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WRAP,1),

@@ -23,7 +23,7 @@ public class EpochVenonat extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Their ability to camouflage easily has lead to them becoming a bit of a pest that are hard to exterminate. However, fire is still very useful against them."),
-                List.of(new EvolutionEntry("epoch venomoth", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochvenomoth", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,17),

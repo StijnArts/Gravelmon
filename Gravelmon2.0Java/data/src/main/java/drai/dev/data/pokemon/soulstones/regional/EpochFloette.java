@@ -23,7 +23,7 @@ public class EpochFloette extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("This Pokemon carries around a part of its coral bed around with it wherever it goes."),
-                List.of(new EvolutionEntry("epoch florges", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochflorges", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:dawn_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),

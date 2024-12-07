@@ -23,7 +23,7 @@ public class EpochCrocalor extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It often curls up into a ball to pretend to be a rock to attract unsuspecting bugs. It can then quickly spring into action to surprise its meal."),
-                List.of(new EvolutionEntry("epoch skeledirge", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochskeledirge", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.THORNPRISON,4),

@@ -73,7 +73,7 @@ public class EpochBounsweet extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("It represents a perfect balance with good and evil. However, the forces are constantly at war with one another."),
-                List.of(new EvolutionEntry("epoch steenee", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochsteenee", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.COUPDEGRACE,18),

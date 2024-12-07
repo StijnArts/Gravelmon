@@ -73,7 +73,7 @@ public class EpochMudbray extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("This Pokemon is often used to teach children how to ride horse Pokemon because they are smaller and easier to climb on."),
-                List.of(new EvolutionEntry("epoch mudsdale", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochmudsdale", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HIGH_HORSEPOWER,24),

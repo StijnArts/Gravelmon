@@ -23,10 +23,10 @@ public class EpochSneasel extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("A Sneasel adorns its face with face painting in hunting parties to appear more threatening. In groups, they can quickly surround and overwhelm their prey."),
-                List.of(new EvolutionEntry("epoch sneasler", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochsneasler", EvolutionType.LEVEL_UP, List.of(),
                             List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33"),
                             new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day"))),
-                            new EvolutionEntry("epoch weavile", EvolutionType.LEVEL_UP, List.of(),
+                            new EvolutionEntry("epochweavile", EvolutionType.LEVEL_UP, List.of(),
                                     List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33"),
                             new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
                 List.of(

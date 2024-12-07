@@ -23,7 +23,7 @@ public class EpochPiplup extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FIELD),
                 List.of("It is not very good at walking and falls over easily. When it falls behind its group, it needs to quickly waddle to catch up."),
-                List.of(new EvolutionEntry("epoch prinplup", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochprinplup", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DRILL_PECK,39),

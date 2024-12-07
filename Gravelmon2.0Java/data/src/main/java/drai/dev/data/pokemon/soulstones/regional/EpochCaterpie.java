@@ -23,7 +23,7 @@ public class EpochCaterpie extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("When it senses danger, its antenna will hum enabling it to seek out protection in advance."),
-                List.of(new EvolutionEntry("epoch metapod", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochmetapod", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"10")))),
                 List.of(
                         new MoveLearnSetEntry(Move.INFESTATION,1),

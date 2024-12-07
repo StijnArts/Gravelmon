@@ -73,7 +73,7 @@ public class EpochSnivy extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("This friendly spirit wants nothing but to reach afterlife. It poses no threat whatsoever."),
-                List.of(new EvolutionEntry("epoch servine", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochservine", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,4),

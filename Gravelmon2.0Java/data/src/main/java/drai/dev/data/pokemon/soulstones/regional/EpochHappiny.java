@@ -23,7 +23,7 @@ public class EpochHappiny extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("The H.A.P.P.I.N.Y model 700 was invented to provide its owner with expedient access to healing facilities while travelling."),
-                List.of(new EvolutionEntry("epoch chansey", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochchansey", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),

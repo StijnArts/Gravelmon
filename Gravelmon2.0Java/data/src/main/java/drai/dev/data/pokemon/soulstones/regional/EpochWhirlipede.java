@@ -23,7 +23,7 @@ public class EpochWhirlipede extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("The meteorite that it discovered has enabled it to move things with its mind. The rock is now more in control of the host body than the original Whirlipede."),
-                List.of(new EvolutionEntry("epoch scolipede", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochscolipede", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "gravelmon:astral_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,26),

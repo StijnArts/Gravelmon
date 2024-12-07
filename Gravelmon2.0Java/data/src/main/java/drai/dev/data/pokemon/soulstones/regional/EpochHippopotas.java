@@ -23,7 +23,7 @@ public class EpochHippopotas extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It is able to jump into puddles and rapidly absorb the water up. For this reason, they are used frequently to clean up spills."),
-                List.of(new EvolutionEntry("epoch hippowdon", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochhippowdon", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,12),

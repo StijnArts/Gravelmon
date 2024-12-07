@@ -23,7 +23,7 @@ public class EpochRowlet extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("The flames around its neck are a method it uses to keep itself warm."),
-                List.of(new EvolutionEntry("epoch dartrix", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochdartrix", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HURRICANE,52),

@@ -23,7 +23,7 @@ public class EpochChinchou extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("It is found in the darkest waters even if they are not very deep. The light source they emit are often helpful to other species within the ecosystem."),
-                List.of(new EvolutionEntry("epoch lanturn", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochlanturn", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DARK_PULSE,44),

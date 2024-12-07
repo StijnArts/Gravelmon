@@ -23,7 +23,7 @@ public class EpochUrsaring extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FAIRY),
                 List.of("It is said that when this Pokemon passes away, its body rejoins the cosmos as a new star."),
-                List.of(new EvolutionEntry("epoch ursaluna", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochursaluna", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:moon_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.SHADOW_PUNCH,10),

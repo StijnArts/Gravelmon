@@ -23,7 +23,7 @@ public class EpochPiloswine extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Its fur is exceptionally warm and are often found in rocky areas where they graze on small grassy patches."),
-                List.of(new EvolutionEntry("epoch mamoswine", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochmamoswine", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:thunder_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.STOMPING_TANTRUM,27),

@@ -73,7 +73,7 @@ public class EpochTepig extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("This Pokemon couldn't be happier than when it's frolicking in a puddle of mud."),
-                List.of(new EvolutionEntry("epoch pignite", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochpignite", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STEALTH_ROCK,37),

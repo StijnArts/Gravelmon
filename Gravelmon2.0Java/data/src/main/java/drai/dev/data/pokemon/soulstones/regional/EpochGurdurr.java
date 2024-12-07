@@ -23,7 +23,7 @@ public class EpochGurdurr extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("It changes its makeup to match the same as what was worn by its last victim."),
-                List.of(new EvolutionEntry("epoch conkeldurr", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochconkeldurr", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "cobblemon:black_belt")),
                 List.of(
                         new MoveLearnSetEntry(Move.SHADOW_PUNCH,12),

@@ -23,7 +23,7 @@ public class EpochTinkatink extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("It likes to make various sculptures using the bones it collects. It's unclear where it finds all these bones to begin with."),
-                List.of(new EvolutionEntry("epoch tinkatuff", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtinkatuff", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SHADOW_SNEAK,8),

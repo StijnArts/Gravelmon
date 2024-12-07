@@ -73,7 +73,7 @@ public class EpochKlink extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("This Pokemon has an internal clock that allows it to keep time so you do not need to carry around a watch or check your phone to confirm the time."),
-                List.of(new EvolutionEntry("epoch klang", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochklang", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,20),

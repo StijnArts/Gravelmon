@@ -23,7 +23,7 @@ public class EpochTaillow extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("They are considered pests by many urban dwellers as they often perch themselves on the rooftops or balconies of tall urban buildings."),
-                List.of(new EvolutionEntry("epoch swellow", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochswellow", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,29),

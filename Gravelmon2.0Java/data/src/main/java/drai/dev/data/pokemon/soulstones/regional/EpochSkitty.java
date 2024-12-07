@@ -23,7 +23,7 @@ public class EpochSkitty extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FAIRY),
                 List.of("An evil spirit that was being hunted quickly possessed a nearby Skitty due to the latter being a relatively easy target."),
-                List.of(new EvolutionEntry("epoch delcatty", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochdelcatty", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:dusk_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.DARK_PULSE,43),

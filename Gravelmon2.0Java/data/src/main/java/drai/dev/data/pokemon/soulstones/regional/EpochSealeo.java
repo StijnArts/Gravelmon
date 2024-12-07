@@ -23,7 +23,7 @@ public class EpochSealeo extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FIELD),
                 List.of("This Pokémon enjoys having its mane brushed and will happily clap when you play with its ears."),
-                List.of(new EvolutionEntry("epoch walrein", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochwalrein", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"44")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STOMPING_TANTRUM,1),

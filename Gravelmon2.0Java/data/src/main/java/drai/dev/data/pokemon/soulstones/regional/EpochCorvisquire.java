@@ -23,7 +23,7 @@ public class EpochCorvisquire extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("It flaps its wings to create small sparks to scare off potential predators and intimidate others."),
-                List.of(new EvolutionEntry("epoch corviknight", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochcorviknight", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))),
                 List.of(
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,26),

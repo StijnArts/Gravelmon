@@ -23,7 +23,7 @@ public class EpochDartrix extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("It is very particular about making the flames flare exactly evenly around its body as it is a way of showing off."),
-                List.of(new EvolutionEntry("epoch decidueye", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochdecidueye", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HURRICANE,52),

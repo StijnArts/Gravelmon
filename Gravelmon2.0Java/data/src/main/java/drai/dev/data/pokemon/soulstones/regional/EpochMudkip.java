@@ -23,7 +23,7 @@ public class EpochMudkip extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("The surface of its skin is exceptionally hot and unstable. It periodically gives off bursts of energy so it is not recommended to pet it."),
-                List.of(new EvolutionEntry("epoch marshtomp", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochmarshtomp", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FIRE_SPIN,4),

@@ -23,7 +23,7 @@ public class EpochDrowzee extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("It is a brutish Pokemon that will fight others in its tribe for scraps of meat. It gets easily irritated and always resorts to violence."),
-                List.of(new EvolutionEntry("epoch hypno", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochhypno", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SPOIL,21),

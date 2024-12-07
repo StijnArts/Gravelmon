@@ -73,7 +73,7 @@ public class EpochRoselia extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("It can execute moves and dances with eloquence that invokes confidence and inspiration among those privileged to watch it fight."),
-                List.of(new EvolutionEntry("epoch roserade", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochroserade", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "cobblemon:shiny_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.SWEETNOTHINGS,25),

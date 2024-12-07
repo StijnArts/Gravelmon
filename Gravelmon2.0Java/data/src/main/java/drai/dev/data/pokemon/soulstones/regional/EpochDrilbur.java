@@ -23,7 +23,7 @@ public class EpochDrilbur extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("While it is blind, it uses sonic waves to find its way and navigate through caves and deep tunnels."),
-                List.of(new EvolutionEntry("epoch excadrill", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochexcadrill", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"31")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SONICCRASH,56),

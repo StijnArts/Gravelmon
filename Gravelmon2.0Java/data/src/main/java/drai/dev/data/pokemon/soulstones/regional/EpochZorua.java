@@ -23,7 +23,7 @@ public class EpochZorua extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("They are very loyal creatures and can hunt in small packs. Due to their loyalty, they are subservient to the alpha of each pack."),
-                List.of(new EvolutionEntry("epoch zoroark", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochzoroark", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,29),

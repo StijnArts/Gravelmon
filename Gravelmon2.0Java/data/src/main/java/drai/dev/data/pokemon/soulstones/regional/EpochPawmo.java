@@ -73,7 +73,7 @@ public class EpochPawmo extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It is very skittish and loud noises tend to scare it easily. It tries to be brave but it often will run in fear."),
-                List.of(new EvolutionEntry("epoch pawmot", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochpawmot", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:shiny_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,39),

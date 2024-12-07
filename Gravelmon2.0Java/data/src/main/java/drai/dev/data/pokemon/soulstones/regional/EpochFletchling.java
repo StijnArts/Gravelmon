@@ -23,7 +23,7 @@ public class EpochFletchling extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("As a small immature bird, it has not yet learned to control its built-in electricity and will sometimes periodically shock itself as it learns."),
-                List.of(new EvolutionEntry("epoch fletchinder", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochfletchinder", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.RAPID_STRIKE,34),

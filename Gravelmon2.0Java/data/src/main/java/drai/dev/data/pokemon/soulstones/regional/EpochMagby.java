@@ -73,7 +73,7 @@ public class EpochMagby extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("It can often be found swimming about near glaciers and melting ice caps. It is able to dive deep into the ocean floor."),
-                List.of(new EvolutionEntry("epoch magmar", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochmagmar", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,22),

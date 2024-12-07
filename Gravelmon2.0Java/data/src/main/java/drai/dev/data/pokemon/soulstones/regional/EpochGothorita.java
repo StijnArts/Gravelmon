@@ -23,7 +23,7 @@ public class EpochGothorita extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("This Pokemon likes to pull pranks on people. Its laugh is intoxicating and able to readily disable a foe."),
-                List.of(new EvolutionEntry("epoch gothitelle", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochgothitelle", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"41")))),
                 List.of(
                         new MoveLearnSetEntry(Move.MAGNET_BOMB,22),

@@ -23,7 +23,7 @@ public class EpochTrubbish extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Have you ever thrown away your batteries in the garbage instead of recycling properly? Well guess what, you’re to blame for the rise of these nasty Trubbish!"),
-                List.of(new EvolutionEntry("epoch garbodor", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochgarbodor", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:thunder_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.PAIN_SPLIT,33),

@@ -23,7 +23,7 @@ public class EpochWingull extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FLYING),
                 List.of("It frequents beaches and steals food from vacationers. Allegedly, they have a cove somewhere where they hoard all of their finds."),
-                List.of(new EvolutionEntry("epoch pelipper", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochpelipper", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BEAK_BLAST,49),

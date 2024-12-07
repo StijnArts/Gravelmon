@@ -73,7 +73,7 @@ public class EpochSobble extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FIELD),
                 List.of("During thunderstorms, this Pokemon will play its flute to soothe nearby Pokemon that get upset from the thunderstorms."),
-                List.of(new EvolutionEntry("epoch drizzile", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochdrizzile", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),

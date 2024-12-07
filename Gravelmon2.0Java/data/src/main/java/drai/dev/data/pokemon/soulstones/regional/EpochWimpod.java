@@ -73,7 +73,7 @@ public class EpochWimpod extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("It scurries around leaving a trail of poison as it passes. People should be careful of where they step as it can burn through the soles of their shoes."),
-                List.of(new EvolutionEntry("epoch golisopod", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochgolisopod", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STRUGGLE_BUG,1),

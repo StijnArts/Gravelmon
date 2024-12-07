@@ -23,7 +23,7 @@ public class EpochIvysaur extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.MINERAL),
                 List.of("It has become so deeply intertwined with its crystal that any poacher that seeks to take its crystal will inevitably kill this creature too."),
-                List.of(new EvolutionEntry("epoch venusaur", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochvenusaur", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),

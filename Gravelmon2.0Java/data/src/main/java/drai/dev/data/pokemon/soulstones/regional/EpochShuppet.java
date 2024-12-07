@@ -23,7 +23,7 @@ public class EpochShuppet extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("This Pokemon is used to cheer up sick children in hospitals, however, many children have developed a fear of them instead."),
-                List.of(new EvolutionEntry("epoch banette", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochbanette", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SINFULSMITE,26),

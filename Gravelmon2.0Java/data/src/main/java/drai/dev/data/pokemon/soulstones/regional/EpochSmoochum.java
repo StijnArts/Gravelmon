@@ -23,7 +23,7 @@ public class EpochSmoochum extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("Its voice cracks easily when it tries to reach high notes. It is still training its voice but it has a long way to go."),
-                List.of(new EvolutionEntry("epoch jynx", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochjynx", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HYPOTHERMIA,24),

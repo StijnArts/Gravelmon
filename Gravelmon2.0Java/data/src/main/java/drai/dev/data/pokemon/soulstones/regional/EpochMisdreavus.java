@@ -23,7 +23,7 @@ public class EpochMisdreavus extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("This Pokemon is able to sing heavenly choirs. Once you have heard its refrains, you feel more pure."),
-                List.of(new EvolutionEntry("epoch mismagius", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochmismagius", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:dawn_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.SWEETNOTHINGS,32),

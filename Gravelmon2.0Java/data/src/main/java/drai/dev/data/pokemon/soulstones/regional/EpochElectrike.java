@@ -23,7 +23,7 @@ public class EpochElectrike extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It wears a skull of an animal it scavenged as a sort of trophy to protect itself. No one has actually seen what it looks like under the skull."),
-                List.of(new EvolutionEntry("epoch manectric", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochmanectric", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),

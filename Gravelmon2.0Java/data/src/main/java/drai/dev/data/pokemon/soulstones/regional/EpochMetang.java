@@ -23,7 +23,7 @@ public class EpochMetang extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("It was sent to the Orion Region to adapt, evolve and study the local population. It transmits knowledge to its interstellar owner seamlessly."),
-                List.of(new EvolutionEntry("epoch metagross", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochmetagross", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"45")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,50),

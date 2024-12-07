@@ -23,7 +23,7 @@ public class EpochMankey extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It is exceptionally resilient because it is able to use its screeching noise offensively to drown out and annoy anyone that dare crosses its path."),
-                List.of(new EvolutionEntry("epoch primeape", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochprimeape", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ARM_THRUST,8),

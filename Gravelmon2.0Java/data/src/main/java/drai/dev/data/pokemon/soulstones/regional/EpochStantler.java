@@ -23,7 +23,7 @@ public class EpochStantler extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Various berries form a key element of a Stantler's diet. They enjoy them so much that their antlers grow some of their own during the autumn season."),
-                List.of(new EvolutionEntry("epoch wyrdeer", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochwyrdeer", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "cobblemon:ice_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,38),

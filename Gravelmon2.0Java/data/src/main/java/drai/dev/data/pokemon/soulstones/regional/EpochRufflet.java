@@ -23,7 +23,7 @@ public class EpochRufflet extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("It is just learning to spit fire. As it matures, the fire becomes hotter and more intense."),
-                List.of(new EvolutionEntry("epoch braviary", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochbraviary", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BEAK_BLAST,59),

@@ -23,7 +23,7 @@ public class EpochBayleef extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.GRASS),
                 List.of("Its leaf necklace is valuable because it has curative properties. Poachers often hunt them to sell these necklaces in the black market."),
-                List.of(new EvolutionEntry("epoch meganium", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochmeganium", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,9),

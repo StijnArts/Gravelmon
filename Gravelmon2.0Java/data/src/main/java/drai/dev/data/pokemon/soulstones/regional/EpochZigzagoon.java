@@ -23,7 +23,7 @@ public class EpochZigzagoon extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Zigzagoons are ordinarily not strong enough to hunt by themselves and instead feast on what is discarded by stronger predators in their habitat."),
-                List.of(new EvolutionEntry("epoch linoone", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochlinoone", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,23),

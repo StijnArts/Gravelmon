@@ -23,7 +23,7 @@ public class EpochSteenee extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("Steenee represents the folk saying of 'Within every bit of light, there is darkness; Within every bit of darkness there is light.'"),
-                List.of(new EvolutionEntry("epoch tsareena", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtsareena", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.COUPDEGRACE,18),

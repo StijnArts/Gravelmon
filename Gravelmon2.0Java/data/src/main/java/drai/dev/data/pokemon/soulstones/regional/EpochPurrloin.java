@@ -23,7 +23,7 @@ public class EpochPurrloin extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Some say that if you cross its path, you will be doomed to bad luck for a day. However, its halo suggests otherwise."),
-                List.of(new EvolutionEntry("epoch liepard", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochliepard", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HONE_CLAWS,24),

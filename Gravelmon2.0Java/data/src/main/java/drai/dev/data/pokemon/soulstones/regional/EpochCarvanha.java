@@ -23,7 +23,7 @@ public class EpochCarvanha extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("It is capable of breaking the speed of sound quite easily. It is able to dodge and evade enemy missiles easily."),
-                List.of(new EvolutionEntry("epoch sharpedo", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochsharpedo", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STEEL_WING,32),

@@ -23,7 +23,7 @@ public class EpochHelioptile extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("The small snakes on this Pokemon's head are an extension of its body. Their fangs seep venom and the poison can paralyze a foe ten times its size."),
-                List.of(new EvolutionEntry("epoch heliolisk", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochheliolisk", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:black_sludge")),
                 List.of(
                         new MoveLearnSetEntry(Move.SANDSTORM,29),

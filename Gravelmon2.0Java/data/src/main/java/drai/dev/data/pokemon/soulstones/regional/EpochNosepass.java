@@ -23,7 +23,7 @@ public class EpochNosepass extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It travels in small hunting parties and use shrill voices to signal when it finds trouble. They mutter to each other in unintelligible growls."),
-                List.of(new EvolutionEntry("epoch probopass", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochprobopass", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,34),

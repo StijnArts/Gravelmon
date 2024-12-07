@@ -73,7 +73,7 @@ public class EpochVulpix extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("The stars on its tails are all in the form of various constellations."),
-                List.of(new EvolutionEntry("epoch ninetales", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochninetales", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:shiny_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.METEORSHOWER,1),

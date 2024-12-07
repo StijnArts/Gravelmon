@@ -73,7 +73,7 @@ public class EpochOmanyte extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("It can use its magical hat to perform tricks. It is also capable of stepping into the hat and disappearing but it is not clear where it goes or how it comes back."),
-                List.of(new EvolutionEntry("epoch omastar", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochomastar", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DARK_PULSE,34),

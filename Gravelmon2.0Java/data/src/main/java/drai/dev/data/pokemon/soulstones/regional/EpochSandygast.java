@@ -23,7 +23,7 @@ public class EpochSandygast extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("The toque is the closest thing it has to a friend because when it tries to befriend children, they run away in fear."),
-                List.of(new EvolutionEntry("epoch palossand", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochpalossand", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,4),

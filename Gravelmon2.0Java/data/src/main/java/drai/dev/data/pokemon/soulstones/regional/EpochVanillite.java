@@ -23,7 +23,7 @@ public class EpochVanillite extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Whether this Pokemon was created from raw toxic waste found in dumping grounds or was already there is a mystery."),
-                List.of(new EvolutionEntry("epoch vanillish", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochvanillish", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DISABLE,20),

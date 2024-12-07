@@ -23,7 +23,7 @@ public class EpochDratini extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.DRAGON),
                 List.of("These Pokemon like to take naps on the highest clouds in the stratosphere."),
-                List.of(new EvolutionEntry("epoch dragonair", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochdragonair", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WRAP,1),

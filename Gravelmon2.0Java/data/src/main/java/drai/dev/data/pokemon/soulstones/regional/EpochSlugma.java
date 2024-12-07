@@ -73,7 +73,7 @@ public class EpochSlugma extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("It is a species of Pokémon that lives and feeds in areas full of toxic waste. It can ooze into multiple several autonomous parts, albeit slowly."),
-                List.of(new EvolutionEntry("epoch magcargo", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochmagcargo", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SHRAPNEL,23),

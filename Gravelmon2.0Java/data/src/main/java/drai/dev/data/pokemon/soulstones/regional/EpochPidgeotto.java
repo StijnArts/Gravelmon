@@ -23,7 +23,7 @@ public class EpochPidgeotto extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("The ice that forms on its wings can be sharpened and flung at targets like icy projectiles."),
-                List.of(new EvolutionEntry("epoch pidgeot", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochpidgeot", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,33),

@@ -23,7 +23,7 @@ public class EpochLairon extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.MONSTER),
                 List.of("It works co-operatively in well-defined colonies with each unit reprising a unique role towards the construction, defense or sustainment of the colony."),
-                List.of(new EvolutionEntry("epoch aggron", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochaggron", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:silver_powder")),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,41),

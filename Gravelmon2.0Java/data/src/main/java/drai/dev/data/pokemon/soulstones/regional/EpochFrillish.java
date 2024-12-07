@@ -73,7 +73,7 @@ public class EpochFrillish extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("They are very mischievous Pokemon because they often like to expel their spores when people wander by to infect them with a poison or paralyzing agent."),
-                List.of(new EvolutionEntry("epoch jellicent", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochjellicent", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,20),

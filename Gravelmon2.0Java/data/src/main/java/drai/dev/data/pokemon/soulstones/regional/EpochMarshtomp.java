@@ -23,7 +23,7 @@ public class EpochMarshtomp extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("The flares that come off the surface of its head resemble ears but it is actually just a very unstable part of its body that is constantly combusting."),
-                List.of(new EvolutionEntry("epoch swampert", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochswampert", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FIRE_SPIN,4),

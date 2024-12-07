@@ -23,7 +23,7 @@ public class EpochAmaura extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("It accompanies people that are lost in nightmares back to safety and away from danger. It uses its abilities to shield sleeping people from evil forces."),
-                List.of(new EvolutionEntry("epoch aurorus", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochaurorus", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37"),
 new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
                 List.of(

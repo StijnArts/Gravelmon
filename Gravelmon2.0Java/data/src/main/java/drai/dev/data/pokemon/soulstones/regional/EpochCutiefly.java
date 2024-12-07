@@ -23,7 +23,7 @@ public class EpochCutiefly extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.FLYING),
                 List.of("It is so small that it is sometimes hard to see them. However, they are very quick and difficult to hit unless you have a specialized swatter."),
-                List.of(new EvolutionEntry("epoch ribombee", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochribombee", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,14),

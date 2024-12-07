@@ -23,7 +23,7 @@ public class EpochExeggcute extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("This Pokemon was created as a consequence of a nuclear fallout. It's not clear what it looked like prior to this event."),
-                List.of(new EvolutionEntry("epoch exeggutor", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochexeggutor", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "cobblemon:thunder_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.THUNDER_WAVE,1),

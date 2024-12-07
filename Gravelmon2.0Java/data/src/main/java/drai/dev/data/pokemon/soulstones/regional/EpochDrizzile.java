@@ -73,7 +73,7 @@ public class EpochDrizzile extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FIELD),
                 List.of("This Pokemon is looking for its big break, in the hope that someone will recognize its musical ability."),
-                List.of(new EvolutionEntry("epoch inteleon", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochinteleon", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,1),

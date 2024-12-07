@@ -23,7 +23,7 @@ public class EpochSkorupi extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("It buries into the sand awaiting potential prey and when they are exactly above, will jump out and sting them to immobilize and disable their target."),
-                List.of(new EvolutionEntry("epoch drapion", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochdrapion", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SAND_TOMB,6),

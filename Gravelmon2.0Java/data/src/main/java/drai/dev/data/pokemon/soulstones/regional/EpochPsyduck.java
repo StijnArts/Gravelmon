@@ -73,7 +73,7 @@ public class EpochPsyduck extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FIELD),
                 List.of("The gem on its head is capable of allowing it to see briefly into the future, which allows it to anticipate attacks."),
-                List.of(new EvolutionEntry("epoch golduck", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochgolduck", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CONFUSE_RAY,27),

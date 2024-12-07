@@ -73,10 +73,10 @@ public class EpochNincada extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("It harbours two conflicting energies deep within its body, that are in constant battle with one another, vying for escape."),
-                List.of(new EvolutionEntry("epoch ninjask", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochninjask", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26"),
 new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night"))),
-new EvolutionEntry("epoch shedinja", EvolutionType.LEVEL_UP, List.of(), 
+new EvolutionEntry("epochshedinja", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26"),
 new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day")))),
                 List.of(

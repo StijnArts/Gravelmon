@@ -23,7 +23,7 @@ public class EpochTympole extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("It has spent too much time near the water's edge such that it has started to grow mushrooms."),
-                List.of(new EvolutionEntry("epoch palpitoad", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochpalpitoad", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"23")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POISON_POWDER,10),

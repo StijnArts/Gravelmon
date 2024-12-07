@@ -23,7 +23,7 @@ public class EpochGrowlithe extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("In various myths, it is said that Growlithe were stationed as guardians to areas of cosmic significance and the guardians of forbidden knowledge."),
-                List.of(new EvolutionEntry("epoch arcanine", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epocharcanine", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "gravelmon:astral_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.DRAGONFURY,1),

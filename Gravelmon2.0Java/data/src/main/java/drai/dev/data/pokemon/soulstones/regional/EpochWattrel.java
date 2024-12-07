@@ -23,7 +23,7 @@ public class EpochWattrel extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FLYING),
                 List.of("It is very fast and is able to launch sharpened projectiles from its wings to maim its prey and close the distance on them quickly so they cannot escape."),
-                List.of(new EvolutionEntry("epoch kilowattrel", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochkilowattrel", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,43),

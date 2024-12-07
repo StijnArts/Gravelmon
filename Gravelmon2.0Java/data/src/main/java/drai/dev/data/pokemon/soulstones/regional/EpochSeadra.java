@@ -23,7 +23,7 @@ public class EpochSeadra extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.DRAGON),
                 List.of("In dark places, it can control the intensity of the lights on its fins and tails to provide added visibility."),
-                List.of(new EvolutionEntry("epoch kingdra", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochkingdra", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:dawn_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,17),

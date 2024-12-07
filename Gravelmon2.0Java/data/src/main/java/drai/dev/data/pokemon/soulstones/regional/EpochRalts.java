@@ -73,7 +73,7 @@ public class EpochRalts extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE,EggGroup.AMORPHOUS),
                 List.of("It tries to keep to itself and stays in secluded environments away from other people because of trust issues."),
-                List.of(new EvolutionEntry("epoch kirlia", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochkirlia", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SUCKER_PUNCH,30),

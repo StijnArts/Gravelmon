@@ -23,7 +23,7 @@ public class EpochMachop extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("With its one eye, it lacks a spatial sense but what it lacks in this sense, it makes up for through brute strength."),
-                List.of(new EvolutionEntry("epoch machoke", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochmachoke", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),

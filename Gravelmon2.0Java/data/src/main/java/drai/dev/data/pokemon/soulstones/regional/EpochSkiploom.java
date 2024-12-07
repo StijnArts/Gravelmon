@@ -23,7 +23,7 @@ public class EpochSkiploom extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("When the snowflakes it attracts accumulates in size, Skiploom are able to make them almost orbit around its body when it chimes."),
-                List.of(new EvolutionEntry("epoch jumpluff", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochjumpluff", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LOVELOOP,9),

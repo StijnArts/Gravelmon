@@ -23,7 +23,7 @@ public class EpochLitleo extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("From an early age, they are able to hunt on the snowy plains. Their fur allows them to blend into the snow making them excellent predators."),
-                List.of(new EvolutionEntry("epoch pyroar", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochpyroar", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),

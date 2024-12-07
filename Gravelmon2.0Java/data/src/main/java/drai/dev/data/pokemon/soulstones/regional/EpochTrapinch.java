@@ -23,7 +23,7 @@ public class EpochTrapinch extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("It allows the small snow structure on its nose act as a trap. When potential prey approach, it will quickly snap at them."),
-                List.of(new EvolutionEntry("epoch vibrava", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochvibrava", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DRACOSHRED,44),

@@ -23,7 +23,7 @@ public class EpochSkwovet extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It often perches itself on frozen over trees to nibble on the fruits or leaves that have frozen over."),
-                List.of(new EvolutionEntry("epoch greedent", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochgreedent", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),

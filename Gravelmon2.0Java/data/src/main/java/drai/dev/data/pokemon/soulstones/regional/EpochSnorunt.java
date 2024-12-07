@@ -23,9 +23,9 @@ public class EpochSnorunt extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.MINERAL),
                 List.of("It is found in large numbers in tombs and crypts. They will often remain motionless and then mass attack grave robbers."),
-                List.of(new EvolutionEntry("epoch glalie", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochglalie", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male")), List.of(), "cobblemon:dusk_stone"),
-new EvolutionEntry("epoch froslass", EvolutionType.ITEM_INTERACT, false, List.of(), 
+new EvolutionEntry("epochfroslass", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=female")), List.of(), "cobblemon:dusk_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.SHADOW_SNEAK,15),

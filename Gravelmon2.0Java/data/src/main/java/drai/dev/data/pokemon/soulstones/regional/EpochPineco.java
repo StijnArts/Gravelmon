@@ -23,7 +23,7 @@ public class EpochPineco extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Miners need to be careful not to hit a Pineco as precious ores and gems are often found encrusted in the rocky surface of its skin."),
-                List.of(new EvolutionEntry("epoch forretress", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochforretress", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "gravelmon:astral_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,39),

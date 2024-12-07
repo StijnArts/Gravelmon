@@ -23,7 +23,7 @@ public class EpochSandile extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It likes attacking seafaring vessels and raiding them of food and other treasures. They are often found congregating in coves or islands."),
-                List.of(new EvolutionEntry("epoch krokorok", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochkrokorok", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.MAGNET_BOMB,16),

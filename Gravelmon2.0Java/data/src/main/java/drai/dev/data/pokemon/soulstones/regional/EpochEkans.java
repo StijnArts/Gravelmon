@@ -73,7 +73,7 @@ public class EpochEkans extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.DRAGON),
                 List.of("The rhythmic sound of an Ekans's tail is enough to put its foe to sleep when it can then move in to consume it whole."),
-                List.of(new EvolutionEntry("epoch arbok", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epocharbok", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CONTINENTALRIFT,58),

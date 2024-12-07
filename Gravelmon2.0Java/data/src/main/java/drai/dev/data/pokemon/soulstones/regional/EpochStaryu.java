@@ -73,7 +73,7 @@ public class EpochStaryu extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("They are commonly found in caves, rich in ore and other minerals. Its body is translucent and light to the touch."),
-                List.of(new EvolutionEntry("epoch starmie", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochstarmie", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "gravelmon:astral_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTEROID_BELT,51),

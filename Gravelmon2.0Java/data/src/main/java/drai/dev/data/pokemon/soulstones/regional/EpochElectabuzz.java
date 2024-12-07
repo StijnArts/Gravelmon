@@ -73,7 +73,7 @@ public class EpochElectabuzz extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("It has no fear, and will willingly take on enemies much larger and stronger in size without flinching. Arguably, this can be seen as both a strength and a weakness."),
-                List.of(new EvolutionEntry("epoch electivire", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochelectivire", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "cobblemon:black_belt")),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),

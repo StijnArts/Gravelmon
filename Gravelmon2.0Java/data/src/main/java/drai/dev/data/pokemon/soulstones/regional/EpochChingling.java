@@ -73,7 +73,7 @@ public class EpochChingling extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("It emits a small electromagnetic charge that can cause signal disturbances to nearby electrical devices."),
-                List.of(new EvolutionEntry("epoch chimecho", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochchimecho", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.THUNDER_WAVE,1),

@@ -73,7 +73,7 @@ public class EpochSnover extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.GRASS),
                 List.of("It is often mistaken for a smaller palm tree. Attempting to take the berries that it grows will result in it swiftly biting your fingers off."),
-                List.of(new EvolutionEntry("epoch abomasnow", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochabomasnow", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,15),

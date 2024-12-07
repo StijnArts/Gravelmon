@@ -23,7 +23,7 @@ public class EpochBidoof extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FIELD),
                 List.of("It likes to build small structures on water using logs, tree branches, and leaves."),
-                List.of(new EvolutionEntry("epoch bibarel", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochbibarel", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"15")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STOMPING_TANTRUM,44),

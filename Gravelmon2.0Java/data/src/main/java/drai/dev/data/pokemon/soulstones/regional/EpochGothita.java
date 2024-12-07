@@ -23,7 +23,7 @@ public class EpochGothita extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("This Pokemon is very nimble and agile. It is able to pull off weird gymnastic stunts because of its small stature and flexibility."),
-                List.of(new EvolutionEntry("epoch gothorita", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochgothorita", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.MAGNET_BOMB,22),

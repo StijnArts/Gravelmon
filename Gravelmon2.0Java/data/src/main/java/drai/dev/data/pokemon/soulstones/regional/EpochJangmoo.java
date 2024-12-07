@@ -23,7 +23,7 @@ public class EpochJangmoo extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.DRAGON),
                 List.of("This Pokemon keeps a sword safely sheathed away near its tail that it can use as a weapon."),
-                List.of(new EvolutionEntry("epoch hakamoo", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochhakamoo", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.QUICK_GUARD,18),

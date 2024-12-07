@@ -73,7 +73,7 @@ public class EpochSpheal extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FIELD),
                 List.of("This Pokémon's body is covered in blubber and is impressively round. Despite its tuft of hair, it's faster for Spheal to roll around than walk."),
-                List.of(new EvolutionEntry("epoch sealeo", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochsealeo", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SHORE_UP,16),

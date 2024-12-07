@@ -23,7 +23,7 @@ public class EpochSinistea extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.AMORPHOUS),
                 List.of("The wine that it has isn't actually poisonous... it just is if you've had too much."),
-                List.of(new EvolutionEntry("epoch polteageist", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochpolteageist", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:black_sludge")),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,20),

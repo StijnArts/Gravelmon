@@ -23,7 +23,7 @@ public class EpochTranquill extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("A protective bunch, it rushes to aid its injured allies no matter what danger surrounds it."),
-                List.of(new EvolutionEntry("epoch unfezant", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochunfezant", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))),
                 List.of(
                         new MoveLearnSetEntry(Move.QUICKSPELL,12),

@@ -73,7 +73,7 @@ public class EpochLotad extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("This Pokémon lives in deserts and masquerades as an ordinary cactus to hide from predators while is is still young."),
-                List.of(new EvolutionEntry("epoch lombre", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochlombre", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"14")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SANDSTORM,20),

@@ -73,7 +73,7 @@ public class EpochKlang extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("It is able to synchronize its attacks based on the internal clock that allows it to amplify its damage."),
-                List.of(new EvolutionEntry("epoch klinklang", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochklinklang", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,20),

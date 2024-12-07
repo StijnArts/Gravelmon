@@ -23,7 +23,7 @@ public class EpochKabuto extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Swarms of these locust Pokemon have been known for being able to devour fields of crops in minutes."),
-                List.of(new EvolutionEntry("epoch kabutops", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochkabutops", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,24),

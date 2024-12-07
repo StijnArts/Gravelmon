@@ -23,7 +23,7 @@ public class EpochDeino extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.DRAGON),
                 List.of("It harbours a deep psychic energy that you can see emitting from the spike on its head."),
-                List.of(new EvolutionEntry("epoch zweilous", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochzweilous", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SMOKESCREEN,1),

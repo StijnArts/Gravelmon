@@ -23,7 +23,7 @@ public class EpochPonyta extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It runs so fast that it looks like it disappears into shadow only to return with a blaze."),
-                List.of(new EvolutionEntry("epoch rapidash", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochrapidash", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SHADOW_SNEAK,7),

@@ -73,7 +73,7 @@ public class EpochDucklett extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FLYING),
                 List.of("It is said that its feathers bring good luck. It honks several times if it is happy similar to a dog wagging its tail."),
-                List.of(new EvolutionEntry("epoch swanna", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochswanna", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AERIALPULSE,50),

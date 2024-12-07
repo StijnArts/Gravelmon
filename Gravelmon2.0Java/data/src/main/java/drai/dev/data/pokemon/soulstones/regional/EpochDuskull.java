@@ -23,7 +23,7 @@ public class EpochDuskull extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("The flame that burns in its soul is enough to absorb the life force of anyone that wanders too close to it."),
-                List.of(new EvolutionEntry("epoch dusclops", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochdusclops", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SHADOW_SNEAK,7),

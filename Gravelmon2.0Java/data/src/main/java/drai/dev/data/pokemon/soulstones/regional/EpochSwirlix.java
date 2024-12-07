@@ -23,7 +23,7 @@ public class EpochSwirlix extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("It is lightweight and easily blown around by a strong breeze. It enjoys travelling in small packs so that they can bounce off one another in strong winds."),
-                List.of(new EvolutionEntry("epoch slurpuff", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochslurpuff", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SWEETNOTHINGS,13),

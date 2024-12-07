@@ -23,7 +23,7 @@ public class EpochFrogadier extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1),
                 List.of("When this Pokemon hops, it gives off small sparks. It is very quick when it does dash around that can make it look like the ground is lit up with an electrical current."),
-                List.of(new EvolutionEntry("epoch greninja", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochgreninja", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CONFUSE_RAY,18),

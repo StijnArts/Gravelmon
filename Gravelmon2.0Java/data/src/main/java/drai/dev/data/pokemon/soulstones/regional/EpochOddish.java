@@ -23,7 +23,7 @@ public class EpochOddish extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("During full moons, the leaves on their head will sparkle."),
-                List.of(new EvolutionEntry("epoch gloom", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochgloom", EvolutionType.LEVEL_UP, List.of(), 
                     List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
                 List.of(
                         new MoveLearnSetEntry(Move.METEORSHOWER,14),

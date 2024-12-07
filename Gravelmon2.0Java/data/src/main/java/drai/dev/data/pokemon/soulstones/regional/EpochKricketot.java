@@ -23,7 +23,7 @@ public class EpochKricketot extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("During the evening, they will put on concerts for other wild Pokemon in the habitat."),
-                List.of(new EvolutionEntry("epoch kricketune", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochkricketune", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"19")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SWEETNOTHINGS,9),

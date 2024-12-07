@@ -23,7 +23,7 @@ public class EpochMonferno extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.HUMAN_LIKE),
                 List.of("Due to its speed, it is able to create illusions of itself that can encircle and confuse a foe."),
-                List.of(new EvolutionEntry("epoch infernape", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochinfernape", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ARM_THRUST,16),

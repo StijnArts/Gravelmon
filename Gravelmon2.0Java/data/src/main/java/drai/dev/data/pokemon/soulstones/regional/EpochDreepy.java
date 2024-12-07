@@ -23,7 +23,7 @@ public class EpochDreepy extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("This Pokemon has very small vents so it is unable to travel very long distances but more so sputters along the way."),
-                List.of(new EvolutionEntry("epoch drakloak", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochdrakloak", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,24),

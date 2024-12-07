@@ -23,7 +23,7 @@ public class EpochDarumaka extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It is known for starting noisy riots in the jungle whether it be from pounding its chest or screeching from the treetops."),
-                List.of(new EvolutionEntry("epoch darmanitan", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochdarmanitan", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FORESTLEAP,16),

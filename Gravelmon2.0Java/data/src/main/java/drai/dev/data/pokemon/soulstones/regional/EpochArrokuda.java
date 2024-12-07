@@ -23,7 +23,7 @@ public class EpochArrokuda extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("This Pokemon is bitter tasting and any unfortunate bird Pokemon that ends up eating it will have to contend with a bad stomach ache that follows shortly after."),
-                List.of(new EvolutionEntry("epoch barraskewda", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochbarraskewda", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AQUA_TAIL,41),

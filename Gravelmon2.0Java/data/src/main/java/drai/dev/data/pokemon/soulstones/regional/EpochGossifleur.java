@@ -23,7 +23,7 @@ public class EpochGossifleur extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("The presence of it in a field is a forewarning of eventual rot and decay coming to the area."),
-                List.of(new EvolutionEntry("epoch eldegoss", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epocheldegoss", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SIPHON,7),

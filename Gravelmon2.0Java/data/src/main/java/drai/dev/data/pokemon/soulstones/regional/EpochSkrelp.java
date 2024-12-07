@@ -73,7 +73,7 @@ public class EpochSkrelp extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.DRAGON),
                 List.of("It is able to change its pigment colour to camouflage within beds of seaweed so that it is able to easily harvest and feed on algae on the sea floor."),
-                List.of(new EvolutionEntry("epoch dragalge", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochdragalge", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),

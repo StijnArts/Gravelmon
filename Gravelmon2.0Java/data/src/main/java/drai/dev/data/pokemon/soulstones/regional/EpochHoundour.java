@@ -73,7 +73,7 @@ public class EpochHoundour extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It was a noble animal in life, and the best friend that humans can have. What? Can you not see its halo?"),
-                List.of(new EvolutionEntry("epoch houndoom", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochhoundoom", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),

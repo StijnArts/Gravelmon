@@ -23,7 +23,7 @@ public class EpochTreecko extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("It is able to lay perfectly still for hours and blend into the environment. It lies in wait until its prey steps upon its trap and then handily disposes of its foe."),
-                List.of(new EvolutionEntry("epoch grovyle", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochgrovyle", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DRACOSHRED,45),

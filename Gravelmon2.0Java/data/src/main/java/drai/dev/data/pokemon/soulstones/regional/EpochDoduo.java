@@ -73,7 +73,7 @@ public class EpochDoduo extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("It can channel the power of the night sky into its attacks. It forgoes physical violence in favour of attacking from afar with its nascent mind."),
-                List.of(new EvolutionEntry("epoch dodrio", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochdodrio", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:moon_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.AERIALPULSE,44),

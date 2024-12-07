@@ -23,7 +23,7 @@ public class EpochSurskit extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.BUG),
                 List.of("It is often found hovering around ponds and large reeds so that it can surprise other water-dwelling Pokemon."),
-                List.of(new EvolutionEntry("epoch masquerain", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochmasquerain", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SHADOW_SNEAK,7),

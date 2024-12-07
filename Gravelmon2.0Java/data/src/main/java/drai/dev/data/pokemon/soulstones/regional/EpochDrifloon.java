@@ -73,7 +73,7 @@ public class EpochDrifloon extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("The fact that it is filled with helium makes it very lightweight and prone to fly off into the wind unless restrained down to the ground."),
-                List.of(new EvolutionEntry("epoch drifblim", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochdrifblim", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HEATSIPHON,48),

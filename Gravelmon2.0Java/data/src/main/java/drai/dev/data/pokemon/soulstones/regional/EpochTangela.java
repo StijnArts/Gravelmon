@@ -23,7 +23,7 @@ public class EpochTangela extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("Despite its appearance, it is very lightweight. It is very susceptible to strong breezes and can be knocked around easily."),
-                List.of(new EvolutionEntry("epoch tangrowth", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtangrowth", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SANDSTORM,46),

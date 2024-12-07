@@ -73,7 +73,7 @@ public class EpochToxel extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("It lazes about for most of the day. It often uses a nearby branch to scratch itself rather than using its own hands."),
-                List.of(new EvolutionEntry("epoch toxtricity", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtoxtricity", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TEARFUL_LOOK,1),

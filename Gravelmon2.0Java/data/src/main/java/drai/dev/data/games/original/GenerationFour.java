@@ -235,7 +235,7 @@ public class GenerationFour extends Game {
         addNewPokemon(new TwirlRotom("", Aspect.TWIRL));
         addNewPokemon(new MixRotom("", Aspect.MIX));
 
-        //Azure (Mystic)
+        //Azure (Mystic) //TODO work out why not all regional forms are marked as additional pokemon
         addNewPokemon(new MysticRiolu("", Aspect.MYSTIC).setPreferredBlocks("minecraft:sandstone"));
         addNewPokemon(new MysticLucario("", Aspect.MYSTIC));
 

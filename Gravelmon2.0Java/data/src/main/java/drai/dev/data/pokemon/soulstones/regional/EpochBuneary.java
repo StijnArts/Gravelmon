@@ -23,7 +23,7 @@ public class EpochBuneary extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("This little bunny is headed for stardom! It practices every day until it perfects its technique, which then allows it to evolve into a real star."),
-                List.of(new EvolutionEntry("epoch lopunny", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochlopunny", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LUCKY_CHANT,20),

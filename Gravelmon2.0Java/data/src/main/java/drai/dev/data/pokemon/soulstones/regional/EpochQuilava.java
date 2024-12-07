@@ -73,7 +73,7 @@ public class EpochQuilava extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.MINERAL),
                 List.of("It uses the gears on its body to calibrate its balance, stay grounded, and focus its attacks."),
-                List.of(new EvolutionEntry("epoch typhlosion", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtyphlosion", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,43),

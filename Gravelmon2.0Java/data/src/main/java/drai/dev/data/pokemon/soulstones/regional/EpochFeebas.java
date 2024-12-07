@@ -23,7 +23,7 @@ public class EpochFeebas extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.DRAGON),
                 List.of("Although unattractive and unpopular, its marvelous vitality has made it a subject of research."),
-                List.of(new EvolutionEntry("epoch milotic", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochmilotic", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "gravelmon:astral_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.FLAIL,15),

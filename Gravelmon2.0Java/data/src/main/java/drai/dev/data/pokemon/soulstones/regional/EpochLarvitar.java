@@ -23,7 +23,7 @@ public class EpochLarvitar extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("It is frequently posted as sentries around high-security zones. It uses a mix of antennae and sonar signals to reveal hidden enemies."),
-                List.of(new EvolutionEntry("epoch pupitar", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochpupitar", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,35),

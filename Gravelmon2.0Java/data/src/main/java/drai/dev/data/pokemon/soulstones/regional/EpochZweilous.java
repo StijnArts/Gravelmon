@@ -23,7 +23,7 @@ public class EpochZweilous extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.DRAGON),
                 List.of("Their psychic power has allowed it to telepathically have two floating heads however the heads cannot drift too far away from its body."),
-                List.of(new EvolutionEntry("epoch hydreigon", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochhydreigon", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"55")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SMOKESCREEN,1),

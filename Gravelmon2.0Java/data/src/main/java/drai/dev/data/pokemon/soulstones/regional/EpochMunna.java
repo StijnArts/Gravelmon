@@ -73,7 +73,7 @@ public class EpochMunna extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("This Pokemon needs regular security updates uploaded every Tuesday to ensure that it is protected against viruses on the Internet."),
-                List.of(new EvolutionEntry("epoch musharna", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochmusharna", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "cobblemon:thunder_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.LOCKON,48),

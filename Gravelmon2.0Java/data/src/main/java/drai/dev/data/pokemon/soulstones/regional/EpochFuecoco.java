@@ -23,7 +23,7 @@ public class EpochFuecoco extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It tends to sleep on land at night, but will hunt for fish in ponds and rivers within jungles, swamps and desert oases."),
-                List.of(new EvolutionEntry("epoch crocalor", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochcrocalor", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.THORNPRISON,4),

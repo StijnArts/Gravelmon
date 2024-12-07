@@ -23,7 +23,7 @@ public class EpochMareep extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.FIELD),
                 List.of("Its wool actually makes it weigh less overall eventually allowing it to become airborne."),
-                List.of(new EvolutionEntry("epoch flaaffy", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochflaaffy", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FLEUR_CANNON,57),

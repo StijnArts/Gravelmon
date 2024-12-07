@@ -23,7 +23,7 @@ public class EpochGulpin extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("This Pokémon's small stature and colour allows it to camoflage in desert environments to protect itself from predators."),
-                List.of(new EvolutionEntry("epoch swalot", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochswalot", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"31")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SANDSTORM,1),

@@ -73,7 +73,7 @@ public class EpochMurkrow extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("It is not clear where it found the leaf that it constantly chews on, but if you attempt to take it from the Murkrow, it will peck you relentlessly."),
-                List.of(new EvolutionEntry("epoch honchkrow", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochhonchkrow", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "gravelmon:air_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.BEAK_BLAST,47),

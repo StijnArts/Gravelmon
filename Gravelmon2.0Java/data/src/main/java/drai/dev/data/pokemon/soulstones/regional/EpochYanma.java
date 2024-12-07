@@ -23,7 +23,7 @@ public class EpochYanma extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("You know you can find them when you hear a loud, persistent buzzing noise in swampy areas."),
-                List.of(new EvolutionEntry("epoch yanmega", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochyanmega", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:water_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.DRAGONFLYCHARGE,49),

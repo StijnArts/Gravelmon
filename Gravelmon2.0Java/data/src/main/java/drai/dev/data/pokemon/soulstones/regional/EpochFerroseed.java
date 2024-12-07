@@ -23,7 +23,7 @@ public class EpochFerroseed extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("It camouflages well into its surroundings. It uses its beautiful flowers to attract prey and will then bring them down through a volley of thorns."),
-                List.of(new EvolutionEntry("epoch ferrothorn", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochferrothorn", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.THORNPRISON,1),

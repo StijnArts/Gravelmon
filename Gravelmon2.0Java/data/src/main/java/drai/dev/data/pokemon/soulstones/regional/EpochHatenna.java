@@ -23,7 +23,7 @@ public class EpochHatenna extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("This Pokemon is known for living an isolated life in locations far away from civilization. For that reason, it is often misunderstood."),
-                List.of(new EvolutionEntry("epoch hattrem", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochhattrem", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.EERIE_SPELL,34),

@@ -23,7 +23,7 @@ public class EpochMunchlax extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("Its fur is very thick that despite living in very cold habitats, it doesn't feel cold."),
-                List.of(new EvolutionEntry("epoch snorlax", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochsnorlax", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HYPOTHERMIA,24),

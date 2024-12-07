@@ -73,7 +73,7 @@ public class EpochPikachu extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FAIRY),
                 List.of("From its tail, it is able to amplify certain nearby sound waves. It uses it to raise the volume in its headphones."),
-                List.of(new EvolutionEntry("epoch raichu", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochraichu", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "gravelmon:ocarina")),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,24),

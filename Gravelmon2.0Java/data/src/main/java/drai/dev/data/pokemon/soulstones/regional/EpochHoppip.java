@@ -23,7 +23,7 @@ public class EpochHoppip extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("When it blows around in the wind, it is able to attract and collect snowflakes to its body eventually creating a small trail."),
-                List.of(new EvolutionEntry("epoch skiploom", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochskiploom", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LOVELOOP,9),

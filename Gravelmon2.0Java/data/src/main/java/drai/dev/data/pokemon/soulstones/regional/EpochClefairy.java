@@ -23,7 +23,7 @@ public class EpochClefairy extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("When their wings flutter, they spread pixie dust around them. In sufficient quantities, this can allow a person to be able to fly."),
-                List.of(new EvolutionEntry("epoch clefable", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochclefable", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:moon_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.METEORSHOWER,8),

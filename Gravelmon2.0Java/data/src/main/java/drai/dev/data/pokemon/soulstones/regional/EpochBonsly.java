@@ -23,7 +23,7 @@ public class EpochBonsly extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("It can be found near other cacti as a flower growing in an otherwise desolate environment."),
-                List.of(new EvolutionEntry("epoch sudowoodo", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochsudowoodo", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,7),

@@ -23,7 +23,7 @@ public class EpochSpritzee extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("It has an array of various poisons and salves at its disposal that it can use to either cure or infect its enemies."),
-                List.of(new EvolutionEntry("epoch aromatisse", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epocharomatisse", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "cobblemon:black_sludge")),
                 List.of(
                         new MoveLearnSetEntry(Move.SPOIL,21),

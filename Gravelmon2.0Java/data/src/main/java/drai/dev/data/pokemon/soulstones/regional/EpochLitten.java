@@ -23,7 +23,7 @@ public class EpochLitten extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("The scarf that is tied around its eyes is to help it enhance its other senses, making it a more adept fighter."),
-                List.of(new EvolutionEntry("epoch torracat", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtorracat", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SKY_UPPERCUT,37),

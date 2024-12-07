@@ -23,7 +23,7 @@ public class EpochShelgon extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.DRAGON),
                 List.of("The molten shell on its body should not be allowed to cool otherwise it will become significantly weighed down and immobilize it under the weight."),
-                List.of(new EvolutionEntry("epoch salamence", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochsalamence", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"50")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FIRE_SPIN,10),

@@ -23,7 +23,7 @@ public class EpochKoffing extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("The result of unifying poisonous gas, steam and a superheated atmosphere. Highly volatile, these Koffing are capable of spewing fireballs."),
-                List.of(new EvolutionEntry("epoch weezing", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochweezing", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CORROSIVE_GAS,44),

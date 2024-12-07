@@ -23,7 +23,7 @@ public class EpochMorelull extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("Its illuminating ability mixed with volcanic ash infected it, making its skin poisonous to the touch."),
-                List.of(new EvolutionEntry("epoch shiinotic", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochshiinotic", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "cobblemon:leaf_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.POISON_POWDER,7),

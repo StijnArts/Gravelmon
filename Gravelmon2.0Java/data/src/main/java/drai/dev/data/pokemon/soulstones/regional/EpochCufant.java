@@ -23,7 +23,7 @@ public class EpochCufant extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.MINERAL),
                 List.of("This Pokemon is too lazy to reach for fruit in trees despite its long trunk so it instead uses its psychic powers to telepathically retrieve the fruit."),
-                List.of(new EvolutionEntry("epoch copperajah", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochcopperajah", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:sun_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.STORED_POWER,33),

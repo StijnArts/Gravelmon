@@ -23,7 +23,7 @@ public class EpochSizzlipede extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Despite its small stature, it is feared by many predators because if it's going down, it will use its poison to take its predator down with it."),
-                List.of(new EvolutionEntry("epoch centiskorch", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochcentiskorch", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BUG_BITE,15),

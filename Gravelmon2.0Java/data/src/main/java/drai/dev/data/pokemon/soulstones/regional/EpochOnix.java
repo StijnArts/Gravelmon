@@ -23,7 +23,7 @@ public class EpochOnix extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("It can easily blend itself into the surroundings of a glacier. Some explorers have confused sudden movement of a glacier with the movement of an Onix."),
-                List.of(new EvolutionEntry("epoch steelix", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochsteelix", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BIND,1),

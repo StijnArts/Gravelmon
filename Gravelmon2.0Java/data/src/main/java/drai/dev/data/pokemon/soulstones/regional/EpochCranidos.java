@@ -23,7 +23,7 @@ public class EpochCranidos extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("A lifelong jungle dweller from 100 million years ago, it would snap obstructing trees with headbutts."),
-                List.of(new EvolutionEntry("epoch rampardos", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochrampardos", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,24),

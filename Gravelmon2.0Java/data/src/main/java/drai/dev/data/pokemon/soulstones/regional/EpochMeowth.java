@@ -23,7 +23,7 @@ public class EpochMeowth extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It likes to challenge other Meowths in its coalition to races on sandy dunes or open fields."),
-                List.of(new EvolutionEntry("epoch persian", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochpersian", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,40),

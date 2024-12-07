@@ -23,7 +23,7 @@ public class EpochSpinarak extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("It can spin elaborate webs with different pictures in the webs. It uses these pictures to attract prey where it traps them and then allows them to be consumed."),
-                List.of(new EvolutionEntry("epoch ariados", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochariados", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SPOIL,25),

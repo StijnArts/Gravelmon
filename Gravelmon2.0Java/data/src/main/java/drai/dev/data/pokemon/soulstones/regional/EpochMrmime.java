@@ -23,7 +23,7 @@ public class EpochMrmime extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("This Pokemon, along with Mime Jr. form small troupes to perform various circus acts to solicit donations from pedestrians in large urban centres."),
-                List.of(new EvolutionEntry("epoch mrrime", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochmrrime", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "gravelmon:ocarina")),
                 List.of(
                         new MoveLearnSetEntry(Move.SOUND_BARRIER,36),

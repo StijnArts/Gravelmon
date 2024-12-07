@@ -23,7 +23,7 @@ public class EpochSwadloon extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Dark energies swirl beneath the cowl of its robe, undetectable by most. It harbours sinister energy from a galaxy far far away."),
-                List.of(new EvolutionEntry("epoch leavanny", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochleavanny", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:dusk_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.CHAOSBLAST,1),

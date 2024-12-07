@@ -23,7 +23,7 @@ public class EpochGeodude extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Its body is hot to the touch as it was recently formed from magma floes. Simply touching it can cause second degree burns."),
-                List.of(new EvolutionEntry("epoch graveler", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochgraveler", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"23")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HEATSIPHON,33),

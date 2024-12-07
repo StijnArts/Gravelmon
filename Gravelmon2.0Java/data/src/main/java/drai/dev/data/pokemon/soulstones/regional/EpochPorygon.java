@@ -73,7 +73,7 @@ public class EpochPorygon extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("It has a malevolent nature and feeds off the software it sabotages. However, it quickly retreats on detecting anti-malware."),
-                List.of(new EvolutionEntry("epoch porygon", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochporygon", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ATTACK_ORDER,64),

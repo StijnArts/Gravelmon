@@ -23,7 +23,7 @@ public class EpochPhantump extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.AMORPHOUS),
                 List.of("When this Pokemon was first seen burning, it was said to be a message from a god."),
-                List.of(new EvolutionEntry("epoch trevenant", EvolutionType.TRADE, false, List.of(), 
+                List.of(new EvolutionEntry("epochtrevenant", EvolutionType.TRADE, false, List.of(),
  List.of(), List.of())),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,7),

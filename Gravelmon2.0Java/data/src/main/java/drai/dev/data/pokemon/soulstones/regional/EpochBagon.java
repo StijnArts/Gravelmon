@@ -23,7 +23,7 @@ public class EpochBagon extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.DRAGON),
                 List.of("This Pokemon is a playful creature by nature, but it needs to be reined in because it can inadvertently start large fires if it gets up to too much trouble."),
-                List.of(new EvolutionEntry("epoch shelgon", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochshelgon", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FIRE_SPIN,10),

@@ -131,10 +131,9 @@ public class SpeciesDataJSONWriter {
 
     private static JsonElement getPokedexEntries(List<String> entries, String cleanName) {
         var pokedex = new JsonArray();
-        int dexEntryCounter = 1;
         for (int i = 0; i < entries.size(); i++) {
 
-            pokedex.add("cobblemon.species." + cleanName + ".desc" + dexEntryCounter);
+            pokedex.add("cobblemon.species." + cleanName + ".desc" + (i>0?i:""));
         }
         return pokedex;
     }

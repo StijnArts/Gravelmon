@@ -23,7 +23,7 @@ public class EpochBergmite extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("It is made of extra jagged rock so when it launches itself in full-body tackles at its enemy, it can pierce and significantly damage them."),
-                List.of(new EvolutionEntry("epoch avalugg", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochavalugg", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,42),

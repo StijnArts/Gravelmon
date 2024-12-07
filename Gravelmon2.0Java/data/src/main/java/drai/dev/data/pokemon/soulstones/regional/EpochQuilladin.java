@@ -23,7 +23,7 @@ public class EpochQuilladin extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It uses the crystals on its back as a light source to help it navigate through dark areas."),
-                List.of(new EvolutionEntry("epoch chesnaught", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochchesnaught", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,33),

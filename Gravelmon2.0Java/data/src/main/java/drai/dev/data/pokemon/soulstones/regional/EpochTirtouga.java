@@ -23,7 +23,7 @@ public class EpochTirtouga extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Its shell is nigh impenetrable, but its underbelly is vulnerable. If flipped over, this Pokemon will flail about trying to reposition itself."),
-                List.of(new EvolutionEntry("epoch carracosta", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochcarracosta", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,36),

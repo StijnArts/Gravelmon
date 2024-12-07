@@ -23,7 +23,7 @@ public class EpochVanillish extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("It's unknown where exactly the Pokemon ends and the trail of sludge begins. There is a suspicion that it varies from one to another."),
-                List.of(new EvolutionEntry("epoch vanilluxe", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochvanilluxe", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DISABLE,20),

@@ -23,7 +23,7 @@ public class EpochBasculin extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("They can be very damaging to sensitive ecosystems because they are able to devour a lot of the available food supply very quickly."),
-                List.of(new EvolutionEntry("epoch basculegion", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochbasculegion", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "gravelmon:astral_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.DRACOSHRED,48),

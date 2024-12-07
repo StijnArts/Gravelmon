@@ -73,7 +73,7 @@ public class EpochDrakloak extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Rather than seeking out immense speed, Drakloaks much prefer to perform tricks in the air and create various pictures in the cloud trails they form."),
-                List.of(new EvolutionEntry("epoch dragapult", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochdragapult", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"55")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,24),

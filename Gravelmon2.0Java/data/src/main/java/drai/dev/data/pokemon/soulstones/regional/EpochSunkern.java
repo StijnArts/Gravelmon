@@ -23,7 +23,7 @@ public class EpochSunkern extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("It is a toss-up whether the Sunkern will sprout and grow into a Sunflora or whether the fire it emits will consume it."),
-                List.of(new EvolutionEntry("epoch sunflora", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochsunflora", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:sun_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,13),

@@ -23,7 +23,7 @@ public class EpochNoibat extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING,EggGroup.DRAGON),
                 List.of("They emit high-pitched screeches as a means of stunning and disabling their foe in combat."),
-                List.of(new EvolutionEntry("epoch noivern", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochnoivern", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),

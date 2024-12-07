@@ -23,7 +23,7 @@ public class EpochHaunter extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Haunters are mischievous creatures. Their command of ice allows them to set up icy traps for unsuspecting passerbys."),
-                List.of(new EvolutionEntry("epoch gengar", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochgengar", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "gravelmon:air_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.HYPOTHERMIA,22),

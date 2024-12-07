@@ -73,7 +73,7 @@ public class EpochParas extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.GRASS),
                 List.of("It spreads death and disease wherever it goes. If you see a Paras in a certain environment, it is already too late."),
-                List.of(new EvolutionEntry("epoch parasect", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochparasect", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PHEROMONESTREAM,27),

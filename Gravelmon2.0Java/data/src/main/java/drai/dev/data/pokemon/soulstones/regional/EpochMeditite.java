@@ -23,7 +23,7 @@ public class EpochMeditite extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("It is found in mountainous areas as it believes that by enduring harsh climates and adversity, it can find true salvation and inner peace."),
-                List.of(new EvolutionEntry("epoch medicham", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochmedicham", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))),
                 List.of(
                         new MoveLearnSetEntry(Move.QUICK_GUARD,9),

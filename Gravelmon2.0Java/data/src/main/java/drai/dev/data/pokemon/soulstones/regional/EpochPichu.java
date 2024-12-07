@@ -73,7 +73,7 @@ public class EpochPichu extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("It often gets lost because it is too busy listening to its music to take note of its surroundings."),
-                List.of(new EvolutionEntry("epoch pikachu", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochpikachu", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,24),

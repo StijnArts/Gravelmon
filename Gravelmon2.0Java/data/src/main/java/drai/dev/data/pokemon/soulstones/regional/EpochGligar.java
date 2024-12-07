@@ -23,7 +23,7 @@ public class EpochGligar extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("It can enter into a state of perfect stillness that it can fool people into thinking it is really a statue."),
-                List.of(new EvolutionEntry("epoch gliscor", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochgliscor", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "gravelmon:solid_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),

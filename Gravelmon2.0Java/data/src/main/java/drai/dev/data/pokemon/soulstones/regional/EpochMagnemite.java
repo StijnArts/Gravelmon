@@ -23,7 +23,7 @@ public class EpochMagnemite extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("It is sent out by the primary Magnezone mothership as a small observer to study certain environments, take samples and return."),
-                List.of(new EvolutionEntry("epoch magneton", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochmagneton", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LOCKON,57),

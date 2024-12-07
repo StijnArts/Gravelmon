@@ -23,7 +23,7 @@ public class EpochStaravia extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("They often vie among one another to create the best solo performance or improvisation to attract potential mates."),
-                List.of(new EvolutionEntry("epoch staraptor", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochstaraptor", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SWEEPINGWIND,46),

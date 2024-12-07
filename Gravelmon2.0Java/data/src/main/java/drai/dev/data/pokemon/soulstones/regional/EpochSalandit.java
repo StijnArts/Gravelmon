@@ -23,7 +23,7 @@ public class EpochSalandit extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("It is able to dim the fluorescent sacs on its skin to conceal itself from predators in deep sea and underwater caves."),
-                List.of(new EvolutionEntry("epoch salazzle", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochsalazzle", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.EMBARGO,37),

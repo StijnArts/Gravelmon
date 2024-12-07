@@ -23,7 +23,7 @@ public class EpochNatu extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Aerial Tactical Unit, Model N, or N-ATU. is used by espionage and military for small surveillance and reconnaissance missions."),
-                List.of(new EvolutionEntry("epoch xatu", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochxatu", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.MAGNET_BOMB,23),

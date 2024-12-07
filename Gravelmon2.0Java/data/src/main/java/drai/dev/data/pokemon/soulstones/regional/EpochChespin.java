@@ -23,7 +23,7 @@ public class EpochChespin extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It burrows deep in the ground of caves. It will emerge when it needs to find food."),
-                List.of(new EvolutionEntry("epoch quilladin", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochquilladin", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,33),

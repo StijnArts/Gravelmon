@@ -23,9 +23,9 @@ public class EpochSlowpoke extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.BUG),
                 List.of("This Pokemon likes to always have a reserve of honey on its tail so in case it is hungry, it can always taste some off the tail rather than trying to find more."),
-                List.of(new EvolutionEntry("epoch slowbro", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochslowbro", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36"))),
-new EvolutionEntry("epoch slowking", EvolutionType.ITEM_INTERACT, false, List.of(), 
+new EvolutionEntry("epochslowking", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:silver_powder")),
                 List.of(
                         new MoveLearnSetEntry(Move.BUG_BITE,9),

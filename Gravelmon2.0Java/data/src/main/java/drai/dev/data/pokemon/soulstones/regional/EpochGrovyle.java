@@ -23,7 +23,7 @@ public class EpochGrovyle extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("It has a long tongue that it uses to quickly swallow up smaller insects and has the ability to fan the spikes on its body out at predators."),
-                List.of(new EvolutionEntry("epoch sceptile", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochsceptile", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DRACOSHRED,45),

@@ -73,7 +73,7 @@ public class EpochStunky extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("If the foul-smelling liquid it sprays gets on you, there is no salvaging or cleaning your outfit, and it may as well be incinerated."),
-                List.of(new EvolutionEntry("epoch skuntank", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochskuntank", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SMOKESCREEN,6),

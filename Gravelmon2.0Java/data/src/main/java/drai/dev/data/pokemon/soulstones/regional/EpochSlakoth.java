@@ -23,7 +23,7 @@ public class EpochSlakoth extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("This Pokemon is said to hibernate throughout the year. It's not clear how this is possible."),
-                List.of(new EvolutionEntry("epoch vigoroth", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochvigoroth", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),

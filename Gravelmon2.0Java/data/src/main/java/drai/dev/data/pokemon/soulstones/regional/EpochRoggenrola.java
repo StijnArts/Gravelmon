@@ -23,7 +23,7 @@ public class EpochRoggenrola extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Each one that forms is said to have come from massive glaciers that existed several hundred years ago."),
-                List.of(new EvolutionEntry("epoch boldore", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochboldore", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,16),

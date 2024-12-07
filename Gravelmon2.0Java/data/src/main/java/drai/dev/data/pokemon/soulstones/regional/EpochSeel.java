@@ -23,7 +23,7 @@ public class EpochSeel extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FIELD),
                 List.of("It lazes about on small islands when it tires of diving for food. It spends most of its day eating and sleeping."),
-                List.of(new EvolutionEntry("epoch dewgong", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochdewgong", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,13),

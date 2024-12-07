@@ -23,7 +23,7 @@ public class EpochCarkol extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("This Pokemon enjoys adding various precious minerals to its pile that it engages in drilling of its own."),
-                List.of(new EvolutionEntry("epoch coalossal", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochcoalossal", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STEALTH_ROCK,12),

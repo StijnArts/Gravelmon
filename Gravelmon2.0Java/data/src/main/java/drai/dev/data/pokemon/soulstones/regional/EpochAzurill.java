@@ -23,7 +23,7 @@ public class EpochAzurill extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("It is surprisingly resilient and can take a lot of punishment because of the foam material it is made from."),
-                List.of(new EvolutionEntry("epoch marill", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochmarill", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,28),

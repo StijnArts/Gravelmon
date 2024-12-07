@@ -73,7 +73,7 @@ public class EpochWeedle extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("No one will ever suspect an innocuous looking Weedle until it is too late to realize that it has been planting remote surveillance spy bots everywhere."),
-                List.of(new EvolutionEntry("epoch kakuna", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochkakuna", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"10")))),
                 List.of(
                         new MoveLearnSetEntry(Move.THUNDER_CAGE,1),

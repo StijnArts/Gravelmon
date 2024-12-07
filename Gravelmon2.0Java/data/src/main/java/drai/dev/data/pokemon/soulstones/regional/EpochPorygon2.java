@@ -23,7 +23,7 @@ public class EpochPorygon2 extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Once it is able to access a computer, it can quickly spread across other connected systems. It lies in wait to sabotage at the right moment."),
-                List.of(new EvolutionEntry("epoch porygonz", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochporygonz", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:silver_powder")),
                 List.of(
                         new MoveLearnSetEntry(Move.ATTACK_ORDER,64),

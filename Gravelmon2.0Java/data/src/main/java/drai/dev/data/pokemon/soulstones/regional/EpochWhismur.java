@@ -23,7 +23,7 @@ public class EpochWhismur extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.FIELD),
                 List.of("It just enjoys vibing. Nothing and no one will stop it from having a good time."),
-                List.of(new EvolutionEntry("epoch loudred", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochloudred", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SONIC_BOOM,8),

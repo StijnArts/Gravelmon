@@ -23,7 +23,7 @@ public class EpochAbra extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("It meditates for most of the day. Most observers believe it to be asleep but its spirit has transcended to a plane of enlightenment."),
-                List.of(new EvolutionEntry("epoch kadabra", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochkadabra", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SUCKER_PUNCH,40),

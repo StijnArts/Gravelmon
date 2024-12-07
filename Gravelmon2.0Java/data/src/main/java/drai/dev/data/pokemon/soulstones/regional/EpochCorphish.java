@@ -23,7 +23,7 @@ public class EpochCorphish extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("It congregates along beaches and show off by crushing progressively larger rocks in its pincers to attract potential mates."),
-                List.of(new EvolutionEntry("epoch crawdaunt", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochcrawdaunt", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.EMBARGO,22),

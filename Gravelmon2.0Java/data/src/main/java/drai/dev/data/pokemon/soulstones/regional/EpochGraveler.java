@@ -73,7 +73,7 @@ public class EpochGraveler extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Its eyes flare with fiery power when it gets mad. Deep within it, it carries the power of a volcano and it is highly unstable. Do not anger at any cost."),
-                List.of(new EvolutionEntry("epoch golem", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochgolem", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:fire_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.HEATSIPHON,33),

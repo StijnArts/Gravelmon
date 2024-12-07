@@ -23,7 +23,7 @@ public class EpochCherubi extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.GRASS),
                 List.of("Contrary to popular belief, it actually thrives in freezing environments and being covered in snow or frost actually helps it grow faster."),
-                List.of(new EvolutionEntry("epoch cherrim", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochcherrim", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,11),

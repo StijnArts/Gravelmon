@@ -23,7 +23,7 @@ public class EpochMagmar extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("It can be found both on frozen tundra, glaciers and in frozen oceans roaming in isolation."),
-                List.of(new EvolutionEntry("epoch magmortar", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochmagmortar", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:water_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,22),

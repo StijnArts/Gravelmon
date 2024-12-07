@@ -23,7 +23,7 @@ public class EpochGabite extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("It has a range of possible habitats because it is the manifestation of a sinister force or aura and wherever that can be found, a Gabite likely will manifest."),
-                List.of(new EvolutionEntry("epoch garchomp", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochgarchomp", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"48")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),

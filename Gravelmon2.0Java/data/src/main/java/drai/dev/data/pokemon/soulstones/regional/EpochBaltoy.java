@@ -23,7 +23,7 @@ public class EpochBaltoy extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("It is jointly powered by both an electrical current and its psychic potential. It emanates an aura of psychic prowess."),
-                List.of(new EvolutionEntry("epoch claydol", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochclaydol", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LOCKON,51),

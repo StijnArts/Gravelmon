@@ -23,7 +23,7 @@ public class EpochBuizel extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.MINERAL),
                 List.of("This Pokemon is able to use the small turbine on its tail to quickly wade through polluted waters and cleanse them of impurities."),
-                List.of(new EvolutionEntry("epoch floatzel", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochfloatzel", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"29")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,19),

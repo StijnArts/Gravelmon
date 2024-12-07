@@ -23,7 +23,7 @@ public class EpochBronzor extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.MINERAL),
                 List.of("It was once used to guard sacred temples and ruins. Over time, the effects of weather have worn away at it and vines have grown over it."),
-                List.of(new EvolutionEntry("epoch bronzong", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochbronzong", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,15),

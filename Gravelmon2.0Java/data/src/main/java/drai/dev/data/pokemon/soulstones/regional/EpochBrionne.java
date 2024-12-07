@@ -23,7 +23,7 @@ public class EpochBrionne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.FIELD),
                 List.of("Its mere presence is said to have restorative properties and can cleanse toxins out of the air."),
-                List.of(new EvolutionEntry("epoch primarina", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochprimarina", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,6),

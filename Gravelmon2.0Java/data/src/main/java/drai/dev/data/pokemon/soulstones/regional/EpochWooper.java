@@ -73,7 +73,7 @@ public class EpochWooper extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FIELD),
                 List.of("This Pokemon is viewed as a lucky charm. It tends to play near geysers and can sense when they are about to erupt."),
-                List.of(new EvolutionEntry("epoch quagsire", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochquagsire", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STRANGE_STEAM,44),

@@ -23,7 +23,7 @@ public class EpochMareanie extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("This deceitful Pokemon pretends to be nothing more than a shrub to catch its prey off-guard. It oozes one of the most lethal poisons in the world."),
-                List.of(new EvolutionEntry("epoch toxapex", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtoxapex", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,9),

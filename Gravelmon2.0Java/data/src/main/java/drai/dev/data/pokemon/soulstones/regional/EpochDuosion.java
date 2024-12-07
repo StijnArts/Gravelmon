@@ -23,7 +23,7 @@ public class EpochDuosion extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("It exhibited significant psychic potential when it was just a single-celled organism. Imagine the power it possesses now that it has evolved."),
-                List.of(new EvolutionEntry("epoch reuniclus", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochreuniclus", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"44")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),

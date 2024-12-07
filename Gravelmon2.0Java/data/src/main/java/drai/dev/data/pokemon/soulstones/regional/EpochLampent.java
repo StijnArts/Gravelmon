@@ -23,7 +23,7 @@ public class EpochLampent extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("It possesses street lights and pranks municipal workers into thinking the lamp light has fused. It then scares the workers when they come to repair them."),
-                List.of(new EvolutionEntry("epoch chandelure", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochchandelure", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:shiny_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.ECTOPLASM,56),

@@ -23,7 +23,7 @@ public class EpochMantyke extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("When hunting for prey, they like to swim quickly and create small electrically charged whirlpools that will shock anything caught within it."),
-                List.of(new EvolutionEntry("epoch mantine", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochmantine", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,24),

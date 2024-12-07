@@ -23,7 +23,7 @@ public class EpochTeddiursa extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FAIRY),
                 List.of("The degree of transparency in its body follows the lunar cycle. During full moons, it is fully corporeal while during new moons, it is fully ethereal."),
-                List.of(new EvolutionEntry("epoch ursaring", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochursaring", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40"),
 new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
                 List.of(

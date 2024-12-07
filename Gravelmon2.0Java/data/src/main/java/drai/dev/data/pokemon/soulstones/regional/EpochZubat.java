@@ -23,7 +23,7 @@ public class EpochZubat extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("They are naughty Pokemon and often will pull pranks on travelers passing by in their cave."),
-                List.of(new EvolutionEntry("epoch golbat", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochgolbat", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PLAGUE,53),

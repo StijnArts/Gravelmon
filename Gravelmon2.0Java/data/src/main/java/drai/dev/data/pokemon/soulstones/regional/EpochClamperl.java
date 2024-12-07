@@ -23,9 +23,9 @@ public class EpochClamperl extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1),
                 List.of("This Pokemon is in a perpetual state of fear that it has sealed itself off in a psychic bubble. It is terrified of bugs and of the darkness in particular."),
-                List.of(new EvolutionEntry("epoch huntail", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochhuntail", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:water_stone"),
-new EvolutionEntry("epoch gorebyss", EvolutionType.ITEM_INTERACT, false, List.of(), 
+new EvolutionEntry("epochgorebyss", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:silver_powder")),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,1),

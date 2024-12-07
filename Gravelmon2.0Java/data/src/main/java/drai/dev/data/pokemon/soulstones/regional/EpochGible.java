@@ -73,7 +73,7 @@ public class EpochGible extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("When travelers complain about a spectral force or report hearing growling noises or some sort of sinister aura, it was likely that of a Gible."),
-                List.of(new EvolutionEntry("epoch gabite", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochgabite", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),

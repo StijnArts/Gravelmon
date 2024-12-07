@@ -23,7 +23,7 @@ public class EpochRolycoly extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Valuable minerals, gems and precious stones can be found in the rubble of its body."),
-                List.of(new EvolutionEntry("epoch carkol", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochcarkol", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STEALTH_ROCK,12),

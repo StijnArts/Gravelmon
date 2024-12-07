@@ -23,7 +23,7 @@ public class EpochSilcoon extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("While it is in the cocoon stage, it uses its budding psychic powers to camouflage itself from predators."),
-                List.of(new EvolutionEntry("epoch beautifly", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochbeautifly", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"15")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),

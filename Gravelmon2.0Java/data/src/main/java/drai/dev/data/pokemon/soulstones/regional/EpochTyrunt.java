@@ -73,7 +73,7 @@ public class EpochTyrunt extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("Despite its body being freezing cold to the touch, it is unclear how it is able to simultaneously have flames burning perpetually."),
-                List.of(new EvolutionEntry("epoch tyrantrum", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtyrantrum", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37"),
 new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day")))),
                 List.of(

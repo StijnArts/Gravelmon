@@ -23,7 +23,7 @@ public class EpochDeerling extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Its flames flare up when it is either in distress or very happy, making it difficult to properly understand and care for."),
-                List.of(new EvolutionEntry("epoch sawsbuck", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochsawsbuck", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FLARE_BLITZ,56),

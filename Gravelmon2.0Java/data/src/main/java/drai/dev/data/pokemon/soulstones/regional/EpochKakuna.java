@@ -23,7 +23,7 @@ public class EpochKakuna extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("It is used for surveillance measures and employs an innocuous Kakuna disguise to avoid attracting attention."),
-                List.of(new EvolutionEntry("epoch beedrill", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochbeedrill", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"15")))),
                 List.of(
                         new MoveLearnSetEntry(Move.THUNDER_CAGE,1),

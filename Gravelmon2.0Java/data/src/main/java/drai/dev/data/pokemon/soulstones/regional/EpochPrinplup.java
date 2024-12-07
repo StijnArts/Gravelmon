@@ -23,7 +23,7 @@ public class EpochPrinplup extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FIELD),
                 List.of("They are strong divers and often hunt for small fish Pokemon in freezing waters."),
-                List.of(new EvolutionEntry("epoch empoleon", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochempoleon", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DRILL_PECK,39),

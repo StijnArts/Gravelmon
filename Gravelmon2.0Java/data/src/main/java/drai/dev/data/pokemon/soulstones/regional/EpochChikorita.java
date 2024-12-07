@@ -73,7 +73,7 @@ public class EpochChikorita extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.GRASS),
                 List.of("It produces a lovely aroma whenever it is feeling happy."),
-                List.of(new EvolutionEntry("epoch bayleef", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochbayleef", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,9),

@@ -73,7 +73,7 @@ public class EpochPupitar extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("When it gets angry, it starts to overheat. Its inventor anticipated the need to create several exhaust vents to provide it ample avenues to let off heat."),
-                List.of(new EvolutionEntry("epoch tyranitar", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtyranitar", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"55")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,35),

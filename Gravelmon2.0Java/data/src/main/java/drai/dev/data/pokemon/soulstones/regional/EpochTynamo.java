@@ -73,7 +73,7 @@ public class EpochTynamo extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.AMORPHOUS),
                 List.of("Due to its weak, undeveloped form, it only surfaces for food, preferring to stay underground for as long as it can because it cannot defend itself well."),
-                List.of(new EvolutionEntry("epoch eelektrik", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epocheelektrik", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ATTACK_ORDER,45),

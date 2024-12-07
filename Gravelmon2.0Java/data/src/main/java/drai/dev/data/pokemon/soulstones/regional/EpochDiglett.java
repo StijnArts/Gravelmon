@@ -23,7 +23,7 @@ public class EpochDiglett extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It likes to keep its eyes closed to mask itself as an ordinary gravestone. When people let their guard down, it will spook them."),
-                List.of(new EvolutionEntry("epoch dugtrio", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochdugtrio", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SAND_TOMB,8),

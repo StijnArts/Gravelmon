@@ -23,7 +23,7 @@ public class EpochMarill extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("As it has continued to be punched, its seams have started to come undone that the material it is made from has started to poke through."),
-                List.of(new EvolutionEntry("epoch azumarill", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochazumarill", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,28),

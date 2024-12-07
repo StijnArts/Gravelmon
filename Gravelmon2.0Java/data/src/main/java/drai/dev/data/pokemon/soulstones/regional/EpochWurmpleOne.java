@@ -23,7 +23,7 @@ public class EpochWurmpleOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Its carapace allows it to shelter from cold temperatures so it is often found in snowy forests and tundras."),
-                List.of(new EvolutionEntry("epoch cascoon", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochcascoon", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"10")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BUG_BITE,5),

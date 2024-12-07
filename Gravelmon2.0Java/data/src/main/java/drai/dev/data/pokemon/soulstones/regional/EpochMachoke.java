@@ -23,7 +23,7 @@ public class EpochMachoke extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("It is prone to entering into a rage when it loses things. The fact that it has only one eye to find lost articles does not help either."),
-                List.of(new EvolutionEntry("epoch machamp", EvolutionType.TRADE, false, List.of(),
+                List.of(new EvolutionEntry("epochmachamp", EvolutionType.TRADE, false, List.of(),
  List.of(), List.of())),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),

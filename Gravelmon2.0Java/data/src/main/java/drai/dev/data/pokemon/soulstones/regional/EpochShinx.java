@@ -73,7 +73,7 @@ public class EpochShinx extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It is unable to use its wings to fly long distances quite yet, but they are able to float in the air for short periods by flapping them fiercely."),
-                List.of(new EvolutionEntry("epoch luxio", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochluxio", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"15")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DRACOSHRED,44),

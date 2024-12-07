@@ -23,7 +23,7 @@ public class EpochShroomish extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("It was used in civil wars and planted in the jungle where rebels would hide. Due to its unsuspecting appearance, many rebels would step on them and set off the mine."),
-                List.of(new EvolutionEntry("epoch breloom", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochbreloom", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"23")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SWEEPINGWIND,39),

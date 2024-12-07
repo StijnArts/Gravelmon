@@ -23,7 +23,7 @@ public class EpochWailmer extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.WATER_2),
                 List.of("It was young and defenseless when it was killed by poachers. Now it roams the seas, always crying out in anguish as it relives its pain."),
-                List.of(new EvolutionEntry("epoch wailord", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochwailord", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,12),

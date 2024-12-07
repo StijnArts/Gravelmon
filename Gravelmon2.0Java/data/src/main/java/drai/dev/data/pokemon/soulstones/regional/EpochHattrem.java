@@ -23,7 +23,7 @@ public class EpochHattrem extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("This Pokemon is known for being able to sing haunting songs or cast spells that can inflict terror on their target rendering them immobile."),
-                List.of(new EvolutionEntry("epoch hatterene", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochhatterene", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))),
                 List.of(
                         new MoveLearnSetEntry(Move.EERIE_SPELL,34),

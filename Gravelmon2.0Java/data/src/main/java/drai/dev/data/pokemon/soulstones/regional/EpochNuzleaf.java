@@ -73,7 +73,7 @@ public class EpochNuzleaf extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.GRASS),
                 List.of("The torch it holds is precious to it. When it evolves from a Seedot, it finds and bonds with a torch and treats it as an extension of its body."),
-                List.of(new EvolutionEntry("epoch shiftry", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochshiftry", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:sun_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.FIRE_SPIN,15),

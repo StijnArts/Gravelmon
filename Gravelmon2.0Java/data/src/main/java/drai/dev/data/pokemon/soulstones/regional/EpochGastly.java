@@ -23,7 +23,7 @@ public class EpochGastly extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Whenever hail falls, you can likely credit a Gastly as being responsible for starting it."),
-                List.of(new EvolutionEntry("epoch haunter", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochhaunter", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HYPOTHERMIA,22),

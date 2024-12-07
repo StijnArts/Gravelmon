@@ -73,7 +73,7 @@ public class EpochRiolu extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("This Pokemon trains daily in honing its power in the mystic arts. It is thought that Riolu first appeared after falling from a wormhole to another dimension."),
-                List.of(new EvolutionEntry("epoch lucario", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochlucario", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.QUICK_GUARD,32),

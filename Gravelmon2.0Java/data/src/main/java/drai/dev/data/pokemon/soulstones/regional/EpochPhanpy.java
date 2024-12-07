@@ -23,7 +23,7 @@ public class EpochPhanpy extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("This Pokemon likes to curl into a ball and toboggan down snowy hills in races against others of its herd."),
-                List.of(new EvolutionEntry("epoch donphan", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochdonphan", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STOMPING_TANTRUM,36),

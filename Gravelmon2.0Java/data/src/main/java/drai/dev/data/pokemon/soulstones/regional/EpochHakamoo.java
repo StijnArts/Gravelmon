@@ -23,7 +23,7 @@ public class EpochHakamoo extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.DRAGON),
                 List.of("This Pokemon is an adept warrior that it is able to use its sword, its tail, or its claws as weapons, all with equal proficiency."),
-                List.of(new EvolutionEntry("epoch kommoo", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochkommoo", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"45")))),
                 List.of(
                         new MoveLearnSetEntry(Move.QUICK_GUARD,18),

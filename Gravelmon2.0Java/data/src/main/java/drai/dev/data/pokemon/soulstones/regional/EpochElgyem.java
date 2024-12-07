@@ -23,7 +23,7 @@ public class EpochElgyem extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("This Pokémon is supposed to represent a soldier sent by an advanced civilization to study a species and evaluate them to eventually become a subservient colony."),
-                List.of(new EvolutionEntry("epoch beheeyem", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochbeheeyem", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SIPHON,6),

@@ -23,7 +23,7 @@ public class EpochVullaby extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("It does not matter that a Vullaby may have hatched many months ago, it still carries the egg shell that it was born in around as pants."),
-                List.of(new EvolutionEntry("epoch mandibuzz", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochmandibuzz", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.THOUSAND_ARROWS,47),

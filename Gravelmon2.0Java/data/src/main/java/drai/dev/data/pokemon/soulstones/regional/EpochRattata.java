@@ -73,7 +73,7 @@ public class EpochRattata extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("The hairs on its back stand when it senses danger. As a result, their population are notoriously difficult to control."),
-                List.of(new EvolutionEntry("epoch raticate", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochraticate", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ENCORE,44),

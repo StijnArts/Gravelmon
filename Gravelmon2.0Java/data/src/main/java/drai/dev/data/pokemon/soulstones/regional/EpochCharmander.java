@@ -73,7 +73,7 @@ public class EpochCharmander extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("It enjoys playing in the mud of certain badlands or barren areas. They prefer to live alone or in very small family units."),
-                List.of(new EvolutionEntry("epoch charmeleon", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochcharmeleon", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STOMPING_TANTRUM,32),

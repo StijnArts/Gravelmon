@@ -23,9 +23,9 @@ public class EpochPoliwhirl extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1),
                 List.of("Poliwhirl are extremely territorial, and produce deep loud bellows to each other to signal their territory. However, they have a soft spot for Poliwag."),
-                List.of(new EvolutionEntry("epoch poliwrath", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochpoliwrath", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "cobblemon:water_stone"),
-new EvolutionEntry("epoch politoed", EvolutionType.ITEM_INTERACT, false, List.of(), 
+new EvolutionEntry("epochpolitoed", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "gravelmon:astral_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.DIG,29),

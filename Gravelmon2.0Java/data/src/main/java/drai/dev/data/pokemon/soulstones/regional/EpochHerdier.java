@@ -23,7 +23,7 @@ public class EpochHerdier extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Forced to survive on its own, it has submitted fully to its feral instinct and can be difficult to tame."),
-                List.of(new EvolutionEntry("epoch stoutland", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochstoutland", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SHADOW_SNEAK,8),

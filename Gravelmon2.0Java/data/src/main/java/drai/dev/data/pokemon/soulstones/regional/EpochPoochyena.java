@@ -23,7 +23,7 @@ public class EpochPoochyena extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It is a scavenger on tundras and open snowy fields. Its fur blends well into its environment that it seemingly shows up out of no where because of its agility."),
-                List.of(new EvolutionEntry("epoch mightyena", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochmightyena", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HONE_CLAWS,38),

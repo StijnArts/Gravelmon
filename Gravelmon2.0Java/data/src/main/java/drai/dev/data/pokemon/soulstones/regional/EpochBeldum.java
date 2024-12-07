@@ -23,7 +23,7 @@ public class EpochBeldum extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("It is said to be an alien inhabiting an interstellar object that crash landed in the Orion Region."),
-                List.of(new EvolutionEntry("epoch metang", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochmetang", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,50),

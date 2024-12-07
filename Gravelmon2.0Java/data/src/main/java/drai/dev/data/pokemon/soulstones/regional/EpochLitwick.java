@@ -23,7 +23,7 @@ public class EpochLitwick extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("When a Litwick possesses a lightbulb, it is said that it drains its power more rapidly to heal itself."),
-                List.of(new EvolutionEntry("epoch lampent", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochlampent", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ECTOPLASM,56),

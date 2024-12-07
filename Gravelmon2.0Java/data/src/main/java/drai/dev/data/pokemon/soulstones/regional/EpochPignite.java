@@ -73,7 +73,7 @@ public class EpochPignite extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("This Pokemon loves cannonballing into large pools of mud. It attempts to curl up and make as big a splash as it can right after a rainfall."),
-                List.of(new EvolutionEntry("epoch emboar", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochemboar", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STEALTH_ROCK,37),

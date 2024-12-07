@@ -73,7 +73,7 @@ public class EpochGoomy extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("These Pokemon appear in many different flavours: sour apple, cherry, blue razz, lemon, orange and grape. Can you collect them all?"),
-                List.of(new EvolutionEntry("epoch sliggoo", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochsliggoo", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),

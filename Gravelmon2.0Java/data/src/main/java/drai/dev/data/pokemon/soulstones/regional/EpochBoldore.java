@@ -23,7 +23,7 @@ public class EpochBoldore extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Due to the ongoing climate crisis, parts of icebergs that have since melted and separated away turn into Boldores."),
-                List.of(new EvolutionEntry("epoch gigalith", EvolutionType.TRADE, false, List.of(), 
+                List.of(new EvolutionEntry("epochgigalith", EvolutionType.TRADE, false, List.of(), 
  List.of(), List.of())),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,16),

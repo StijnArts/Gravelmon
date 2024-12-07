@@ -23,7 +23,7 @@ public class EpochChansey extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("The C.H.A.N.S.E.Y model 800 is the upgraded version of the H.A.P.P.I.N.Y 700 and provides enhanced services in addition to healing facilities."),
-                List.of(new EvolutionEntry("epoch blissey", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochblissey", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),

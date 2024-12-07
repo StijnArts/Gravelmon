@@ -23,7 +23,7 @@ public class EpochLileep extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_3),
                 List.of("This Pokémon can be restored from a fossil. It is said that the centrifugal force it was able to generate allowed it to become airborne."),
-                List.of(new EvolutionEntry("epoch cradily", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochcradily", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DEFOG,20),

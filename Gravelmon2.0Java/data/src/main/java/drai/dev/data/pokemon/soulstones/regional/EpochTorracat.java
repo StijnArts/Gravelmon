@@ -23,7 +23,7 @@ public class EpochTorracat extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Its scarf has amplified its other senses and has gives foes the false sense of comfort that they are fighting a foe with a handicap."),
-                List.of(new EvolutionEntry("epoch incineroar", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochincineroar", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SKY_UPPERCUT,37),

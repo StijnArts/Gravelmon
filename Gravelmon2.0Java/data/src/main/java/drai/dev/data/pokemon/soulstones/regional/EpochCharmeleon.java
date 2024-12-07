@@ -73,7 +73,7 @@ public class EpochCharmeleon extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("Sometimes found in rocky, mountainous regions, they are adept mountain climbers and can scale uneven terrains with ease."),
-                List.of(new EvolutionEntry("epoch charizard", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochcharizard", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STOMPING_TANTRUM,32),

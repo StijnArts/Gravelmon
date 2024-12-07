@@ -23,7 +23,7 @@ public class EpochRookidee extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("It is said that whenever you see one of these, a thunder storm is close behind."),
-                List.of(new EvolutionEntry("epoch corvisquire", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochcorvisquire", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,26),

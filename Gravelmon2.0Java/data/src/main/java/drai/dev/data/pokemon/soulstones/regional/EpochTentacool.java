@@ -23,7 +23,7 @@ public class EpochTentacool extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_3),
                 List.of("The starry pattern on its body copies the pattern of the stars in the night sky above it when it is swimming."),
-                List.of(new EvolutionEntry("epoch tentacruel", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtentacruel", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,15),

@@ -23,7 +23,7 @@ public class EpochVigoroth extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("When this Pokemon was first fed a Chople Berry, it said in response fam, this berry tastes low key sus af tho fr ong"),
-                List.of(new EvolutionEntry("epoch slaking", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochslaking", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),

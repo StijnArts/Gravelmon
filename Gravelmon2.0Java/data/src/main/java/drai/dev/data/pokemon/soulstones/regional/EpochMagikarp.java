@@ -23,7 +23,7 @@ public class EpochMagikarp extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_2,EggGroup.DRAGON),
                 List.of("This Pokemon is found only in deep water where the current tends to be weaker. It uses its antennae to attract prey."),
-                List.of(new EvolutionEntry("epoch gyarados", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochgyarados", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "gravelmon:astral_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.FLAIL,15),

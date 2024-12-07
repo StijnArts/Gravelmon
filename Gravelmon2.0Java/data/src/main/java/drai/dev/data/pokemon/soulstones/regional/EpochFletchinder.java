@@ -23,7 +23,7 @@ public class EpochFletchinder extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("It is very territorial and can be reckless as it matures. As a young upstart, its ability to use electricity has made it impulsive and overconfident."),
-                List.of(new EvolutionEntry("epoch talonflame", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtalonflame", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))),
                 List.of(
                         new MoveLearnSetEntry(Move.RAPID_STRIKE,34),

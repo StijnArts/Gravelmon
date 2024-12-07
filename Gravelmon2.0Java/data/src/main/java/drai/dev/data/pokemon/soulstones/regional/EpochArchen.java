@@ -23,7 +23,7 @@ public class EpochArchen extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING,EggGroup.DRAGON),
                 List.of("This Pokémon was successfully restored from a fossil. It was said that its wing flaps could cause thunder claps in ancient times."),
-                List.of(new EvolutionEntry("epoch archeops", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epocharcheops", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,44),

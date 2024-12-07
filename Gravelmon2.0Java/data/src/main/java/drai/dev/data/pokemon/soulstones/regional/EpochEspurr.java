@@ -23,7 +23,7 @@ public class EpochEspurr extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("A malicious spirit has possessed this poor Espurr. If it refuses any commands, the spirit will hurt it, compelling it into obedience."),
-                List.of(new EvolutionEntry("epoch meowstic", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochmeowstic", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:dusk_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.SHADOW_SNEAK,8),

@@ -23,7 +23,7 @@ public class EpochFroakie extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1),
                 List.of("When it thunder storms, this Pokemon attracts lightning and is not remotely fazed by it. In fact, it quite enjoys it!"),
-                List.of(new EvolutionEntry("epoch frogadier", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochfrogadier", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CONFUSE_RAY,18),

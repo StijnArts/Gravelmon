@@ -23,7 +23,7 @@ public class EpochScraggy extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("This Pokemon often inhabits the urban centres and hideaway areas. It is often sharing its mix tape with others in hopes of catching its big break."),
-                List.of(new EvolutionEntry("epoch scrafty", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochscrafty", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"39")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FLING,12),

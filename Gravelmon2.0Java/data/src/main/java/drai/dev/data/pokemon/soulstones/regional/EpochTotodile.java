@@ -23,7 +23,7 @@ public class EpochTotodile extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("It has no feeling of fear and often challenges foes much larger and faster than it without batting an eye, sometimes to its demise."),
-                List.of(new EvolutionEntry("epoch croconaw", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochcroconaw", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ARM_THRUST,24),

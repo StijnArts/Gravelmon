@@ -73,7 +73,7 @@ public class EpochYamper extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("This Pokemon has earned the nickname of Man's best friend because it is the most faithful Pokemon. Many humans have domesticated it for this reason."),
-                List.of(new EvolutionEntry("epoch boltund", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochboltund", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.RAPID_STRIKE,42),

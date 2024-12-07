@@ -23,7 +23,7 @@ public class EpochElekid extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("Its antennae hum when a predator is nearby. Its natural inclination is to fight the predator rather than flee."),
-                List.of(new EvolutionEntry("epoch electabuzz", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochelectabuzz", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),

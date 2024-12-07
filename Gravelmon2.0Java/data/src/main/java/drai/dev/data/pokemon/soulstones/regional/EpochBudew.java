@@ -23,7 +23,7 @@ public class EpochBudew extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("This Pokémon is reluctant to fight, and when confronted, it would rather run away quickly than get its outfit dirty."),
-                List.of(new EvolutionEntry("epoch roselia", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochroselia", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SWEETNOTHINGS,25),

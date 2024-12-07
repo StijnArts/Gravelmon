@@ -23,7 +23,7 @@ public class EpochMagneton extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("It is capable of taking high-quality photography with its lenses which make it very useful for studying certain environments."),
-                List.of(new EvolutionEntry("epoch magnezone", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochmagnezone", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "gravelmon:solid_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.LOCKON,57),

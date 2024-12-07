@@ -23,7 +23,7 @@ public class EpochVoltorb extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("It is often confused as being a snowball which has resulted in many instances of small children throwing them at others."),
-                List.of(new EvolutionEntry("epoch electrode", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochelectrode", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),

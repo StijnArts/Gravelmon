@@ -73,7 +73,7 @@ public class EpochHoothoot extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Found most often in wintry climates, it keeps itself warm with its lunar aura it emits rather than its feathers."),
-                List.of(new EvolutionEntry("epoch noctowl", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochnoctowl", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AURORA_BEAM,15),

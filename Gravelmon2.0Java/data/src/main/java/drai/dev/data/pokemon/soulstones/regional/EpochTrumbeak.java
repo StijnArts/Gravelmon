@@ -23,7 +23,7 @@ public class EpochTrumbeak extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("A vile nuisance, these Pokemon like to pick on unsuspecting tourists by carpet bombing their vehicles while they are relaxing on the beach."),
-                List.of(new EvolutionEntry("epoch toucannon", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtoucannon", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FORTISSIMO,41),

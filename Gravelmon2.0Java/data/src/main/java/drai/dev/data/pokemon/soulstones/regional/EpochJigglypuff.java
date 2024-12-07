@@ -23,7 +23,7 @@ public class EpochJigglypuff extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.WATER_1),
                 List.of("When it gets angry, it huffs and puffs to make itself bigger to show it means business. Often though, many people do not take it seriously."),
-                List.of(new EvolutionEntry("epoch wigglytuff", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochwigglytuff", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:water_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),

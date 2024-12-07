@@ -23,7 +23,7 @@ public class EpochAipom extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Despite the appearance of being asleep, its psychic powers allow it to behave and function perfectly normally."),
-                List.of(new EvolutionEntry("epoch ambipom", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochambipom", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:sun_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.CALM_MIND,29),

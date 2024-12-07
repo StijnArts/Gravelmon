@@ -73,7 +73,7 @@ public class EpochWooloo extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Its wool, if it can even be called that, is made of hardened boulders. The rocks are almost impenetrable."),
-                List.of(new EvolutionEntry("epoch dubwool", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochdubwool", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"29")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,32),

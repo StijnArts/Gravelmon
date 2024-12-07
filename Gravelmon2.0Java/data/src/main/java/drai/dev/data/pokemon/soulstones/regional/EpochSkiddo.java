@@ -23,7 +23,7 @@ public class EpochSkiddo extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It is very territorial and typically battles others in its herd from a young age, to sharpen its horn and assert dominance among its peers."),
-                List.of(new EvolutionEntry("epoch gogoat", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochgogoat", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,40),

@@ -73,7 +73,7 @@ public class EpochFennekin extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("This little Pokemon has a plethora of potential hidden inside of it. However, it does not know yet whether to use it selflessly or not..."),
-                List.of(new EvolutionEntry("epoch braixen", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochbraixen", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),

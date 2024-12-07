@@ -23,7 +23,7 @@ public class EpochCroconaw extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("They are known for raiding in small groups so can be quite threatening when they assemble in small gangs to raid local towns."),
-                List.of(new EvolutionEntry("epoch feraligatr", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochferaligatr", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ARM_THRUST,24),

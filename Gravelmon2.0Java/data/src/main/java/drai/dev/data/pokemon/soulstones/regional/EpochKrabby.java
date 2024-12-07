@@ -23,7 +23,7 @@ public class EpochKrabby extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("They look like harmless sandy rocks while disguised, but when stepped on, they will furiously chase you to pinch you back."),
-                List.of(new EvolutionEntry("epoch kingler", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochkingler", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,4),

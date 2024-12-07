@@ -23,7 +23,7 @@ public class EpochSeedot extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.GRASS),
                 List.of("They hunt in small groups as their small stature allows them to go unnoticed until it is too late when they are able to quickly outnumber their prey."),
-                List.of(new EvolutionEntry("epoch nuzleaf", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochnuzleaf", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FIRE_SPIN,15),

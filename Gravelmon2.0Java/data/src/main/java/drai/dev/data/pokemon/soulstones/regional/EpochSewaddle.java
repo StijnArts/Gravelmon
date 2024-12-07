@@ -23,7 +23,7 @@ public class EpochSewaddle extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("It observes from a distance and studies its foes. When it is ready, it will adapt and change its form to perfectly replicate its enemy."),
-                List.of(new EvolutionEntry("epoch swadloon", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochswadloon", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TRANSFORM,1),

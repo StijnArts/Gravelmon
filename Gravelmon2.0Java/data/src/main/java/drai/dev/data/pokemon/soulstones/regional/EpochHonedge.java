@@ -23,7 +23,7 @@ public class EpochHonedge extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("It appears in multiple different weapon formats within the Orion region to allow its owner the flexibility in case they are not skilled in one specific weapon."),
-                List.of(new EvolutionEntry("epoch doublade", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochdoublade", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.QUICKSPELL,1),

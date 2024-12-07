@@ -73,7 +73,7 @@ public class EpochCyndaquil extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.MINERAL),
                 List.of("They are often found as rodents in factories or other metal-rich facilities. It is unclear how the gear managed to append to its body."),
-                List.of(new EvolutionEntry("epoch quilava", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochquilava", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,43),

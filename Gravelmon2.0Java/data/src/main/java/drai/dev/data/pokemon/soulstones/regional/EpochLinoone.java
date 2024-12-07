@@ -23,7 +23,7 @@ public class EpochLinoone extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("The spots that form on its skin are from its poor dietary choices it made as a Zigzagoon."),
-                List.of(new EvolutionEntry("epoch obstagoon", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochobstagoon", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,23),

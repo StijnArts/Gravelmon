@@ -23,7 +23,7 @@ public class EpochVibrava extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.DRAGON),
                 List.of("It frequently comes out in the early morning to feast on the bugs and other small critters that come out from the snow."),
-                List.of(new EvolutionEntry("epoch flygon", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochflygon", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"45")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DRACOSHRED,44),

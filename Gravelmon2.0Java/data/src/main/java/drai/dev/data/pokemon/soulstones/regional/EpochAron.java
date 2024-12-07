@@ -23,7 +23,7 @@ public class EpochAron extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.MONSTER),
                 List.of("It is capable of burrowing deep underground and building large, sprawling nests where they breed and can quickly spread."),
-                List.of(new EvolutionEntry("epoch lairon", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochlairon", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,41),

@@ -23,7 +23,7 @@ public class EpochFlabebe extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("This Pokemon has made a sort of nest in a coral bed and gotten very attached to it but it can walk away at any time."),
-                List.of(new EvolutionEntry("epoch floette", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochfloette", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"19")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),

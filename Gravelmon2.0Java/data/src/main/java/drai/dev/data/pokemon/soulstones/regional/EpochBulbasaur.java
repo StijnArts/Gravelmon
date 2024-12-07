@@ -73,7 +73,7 @@ public class EpochBulbasaur extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.MINERAL),
                 List.of("They are attracted to shiny crystals and seek nourishment from sapping the energy of other crystals to empower the one on its own back."),
-                List.of(new EvolutionEntry("epoch ivysaur", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochivysaur", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),

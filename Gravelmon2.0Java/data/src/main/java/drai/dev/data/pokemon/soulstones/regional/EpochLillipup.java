@@ -23,7 +23,7 @@ public class EpochLillipup extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Left to fend for itself, its vital spirit and resilience allowed it to survive but it lacks trust in humans after initially being abandoned."),
-                List.of(new EvolutionEntry("epoch herdier", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochherdier", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SHADOW_SNEAK,8),

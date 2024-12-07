@@ -73,7 +73,7 @@ public class EpochSwinub extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Rubbing its fur first can make you give off static electricity."),
-                List.of(new EvolutionEntry("epoch piloswine", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochpiloswine", EvolutionType.LEVEL_UP, List.of(), 
                     List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STOMPING_TANTRUM,27),

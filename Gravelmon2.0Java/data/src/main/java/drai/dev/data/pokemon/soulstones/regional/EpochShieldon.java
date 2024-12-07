@@ -23,7 +23,7 @@ public class EpochShieldon extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("Its head is said to be made of an ancient crystal that is as hard as steel."),
-                List.of(new EvolutionEntry("epoch bastiodon", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochbastiodon", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,22),

@@ -23,7 +23,7 @@ public class EpochCubchoo extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It is in constant competition with Slowpoke for honey and other shiny things. Its cuteness allows it to dodge consequences from its theft."),
-                List.of(new EvolutionEntry("epoch beartic", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochbeartic", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,39),

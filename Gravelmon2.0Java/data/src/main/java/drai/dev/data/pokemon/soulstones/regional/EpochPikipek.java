@@ -73,7 +73,7 @@ public class EpochPikipek extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("They are very messy birds and will frequently make nests in the roofs of hotels or resorts where numerous tourists frequent."),
-                List.of(new EvolutionEntry("epoch trumbeak", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtrumbeak", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FORTISSIMO,41),

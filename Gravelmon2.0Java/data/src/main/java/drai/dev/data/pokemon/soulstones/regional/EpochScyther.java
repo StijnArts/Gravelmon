@@ -23,7 +23,7 @@ public class EpochScyther extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("Its blades are made of pure light, and are able to slice through virtually anything. Unfortunately, because of this it has issues picking up food."),
-                List.of(new EvolutionEntry("epoch scizor", EvolutionType.TRADE, false, List.of(), 
+                List.of(new EvolutionEntry("epochscizor", EvolutionType.TRADE, false, List.of(),
  List.of(), List.of())),
                 List.of(
                         new MoveLearnSetEntry(Move.COUPDEGRACE,16),

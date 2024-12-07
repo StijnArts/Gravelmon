@@ -23,7 +23,7 @@ public class EpochGolett extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("These Pokémon are thought to have come to the Orion Region through a meteorite from outer space as evidenced by their extra-terrestrial colour."),
-                List.of(new EvolutionEntry("epoch golurk", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochgolurk", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"43")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),

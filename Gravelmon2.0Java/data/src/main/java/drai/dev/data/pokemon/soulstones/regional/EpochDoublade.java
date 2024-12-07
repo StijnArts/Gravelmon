@@ -73,7 +73,7 @@ public class EpochDoublade extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("The different weapon formats it appears in is dependent on the inherent skill level of the person wielding them."),
-                List.of(new EvolutionEntry("epoch aegislash", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochaegislash", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "gravelmon:astral_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.QUICKSPELL,1),

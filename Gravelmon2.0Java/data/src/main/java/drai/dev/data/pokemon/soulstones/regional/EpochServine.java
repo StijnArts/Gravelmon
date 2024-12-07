@@ -23,7 +23,7 @@ public class EpochServine extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("People over the centuries have grown afraid for naught of this Pokemon. It is slowly, but surely losing its friendly demeanor."),
-                List.of(new EvolutionEntry("epoch serperior", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochserperior", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,4),

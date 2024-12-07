@@ -23,7 +23,7 @@ public class EpochCorsola extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.WATER_3),
                 List.of("The waste that humans create eventually end up making its way to oceans and open seas, where the marine life such as Corsola have to pay the price."),
-                List.of(new EvolutionEntry("epoch cursola", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochcursola", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "cobblemon:black_sludge")),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,16),

@@ -23,7 +23,7 @@ public class EpochFinneon extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_2,EggGroup.FAIRY),
                 List.of("Depending on the temperature of the water it swims in, the colour of its body and fins will change accordingly."),
-                List.of(new EvolutionEntry("epoch lumineon", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochlumineon", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,13),

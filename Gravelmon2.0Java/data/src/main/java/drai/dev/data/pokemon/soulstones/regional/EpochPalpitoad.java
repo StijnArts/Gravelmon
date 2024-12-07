@@ -23,7 +23,7 @@ public class EpochPalpitoad extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("As it started to migrate further inland into swamp areas, mushrooms began to grow on its damp body and has now become inseparable from its skin."),
-                List.of(new EvolutionEntry("epoch seismitoad", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochseismitoad", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POISON_POWDER,10),

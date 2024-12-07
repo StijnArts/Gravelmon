@@ -23,7 +23,7 @@ public class EpochChimchar extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.HUMAN_LIKE),
                 List.of("Because of its size and speed, it can dash very quickly that it almost appears to be teleporting from one place to another."),
-                List.of(new EvolutionEntry("epoch monferno", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochmonferno", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"14")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ARM_THRUST,16),

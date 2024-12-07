@@ -73,7 +73,7 @@ public class EpochAnorith extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_3),
                 List.of("Despite their small stature, the venom from its pincers were said to be able to incapacitate much larger predators."),
-                List.of(new EvolutionEntry("epoch armaldo", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epocharmaldo", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,20),

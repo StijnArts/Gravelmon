@@ -23,7 +23,7 @@ public class EpochTinkatuff extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("It hunts in small parties for dragons. Individually, they are not very threatening, but in a small band, they can outnumber and overwhelm a foe."),
-                List.of(new EvolutionEntry("epoch tinkaton", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtinkaton", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SHADOW_SNEAK,8),

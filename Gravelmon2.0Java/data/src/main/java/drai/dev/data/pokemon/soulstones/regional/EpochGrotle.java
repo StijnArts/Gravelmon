@@ -23,7 +23,7 @@ public class EpochGrotle extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("The volcanic formation on its back has hardened but there are small vents that have created that allow the built in heat to periodically escape."),
-                List.of(new EvolutionEntry("epoch torterra", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtorterra", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HEATSIPHON,35),

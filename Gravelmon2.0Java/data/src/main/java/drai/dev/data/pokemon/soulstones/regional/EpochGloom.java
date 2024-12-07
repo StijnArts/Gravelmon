@@ -73,9 +73,9 @@ public class EpochGloom extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("Throughout the lunar cycle, their scents grow progressively stronger and more pleasing."),
-                List.of(new EvolutionEntry("epoch vileplume", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochvileplume", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "cobblemon:leaf_stone"),
-new EvolutionEntry("epoch bellossom", EvolutionType.ITEM_INTERACT, false, List.of(), 
+new EvolutionEntry("epochbellossom", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "cobblemon:sun_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.METEORSHOWER,14),

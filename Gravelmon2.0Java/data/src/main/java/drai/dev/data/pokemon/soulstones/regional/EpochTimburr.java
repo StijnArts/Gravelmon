@@ -23,7 +23,7 @@ public class EpochTimburr extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("The stuff of nightmares; this Pokemon has affixed a blunt instrument on the end of its slab of wood to use as a weapon."),
-                List.of(new EvolutionEntry("epoch gurdurr", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochgurdurr", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SHADOW_PUNCH,12),

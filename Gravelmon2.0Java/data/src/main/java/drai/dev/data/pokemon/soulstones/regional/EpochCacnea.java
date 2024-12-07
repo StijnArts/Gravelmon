@@ -23,7 +23,7 @@ public class EpochCacnea extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("There is a story for small children that says that Cacnea came to life when a child gave it a carrot for a nose."),
-                List.of(new EvolutionEntry("epoch cacturne", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochcacturne", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ARM_THRUST,13),

@@ -23,7 +23,7 @@ public class EpochLedyba extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Due to their small size and bug-like appearance, they are often used by spy agencies to remotely observe targets or persons of interest."),
-                List.of(new EvolutionEntry("epoch ledian", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochledian", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"23")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STORED_POWER,54),

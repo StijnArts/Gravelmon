@@ -23,7 +23,7 @@ public class EpochPidove extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Where people go, these Pokémon follow. They do not like to be left alone and forms bonds with other pokemon very easily."),
-                List.of(new EvolutionEntry("epoch tranquill", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtranquill", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.QUICKSPELL,12),

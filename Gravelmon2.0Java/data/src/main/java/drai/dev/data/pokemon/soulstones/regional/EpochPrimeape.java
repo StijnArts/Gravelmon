@@ -23,7 +23,7 @@ public class EpochPrimeape extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("A Primeape uses its screeching to get even with people or Pokemon that have previously annoyed it. Only when you have surrendered, will it relent."),
-                List.of(new EvolutionEntry("epoch annihilape", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochannihilape", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "gravelmon:ocarina")),
                 List.of(
                         new MoveLearnSetEntry(Move.ARM_THRUST,8),

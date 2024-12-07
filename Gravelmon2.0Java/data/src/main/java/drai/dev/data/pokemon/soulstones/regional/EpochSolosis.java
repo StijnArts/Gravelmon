@@ -23,7 +23,7 @@ public class EpochSolosis extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("They do not like light and are found in dark waters. They use their remote psychic ability to find food to sustain itself."),
-                List.of(new EvolutionEntry("epoch duosion", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochduosion", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),

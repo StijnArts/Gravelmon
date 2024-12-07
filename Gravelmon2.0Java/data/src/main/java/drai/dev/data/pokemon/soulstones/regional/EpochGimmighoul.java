@@ -23,7 +23,7 @@ public class EpochGimmighoul extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("This Pokemon lives inside a mound of soil. As it grows, it collects more soil to build its mound."),
-                List.of(new EvolutionEntry("epoch gholdengo", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochgholdengo", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:silver_powder")),
                 List.of(
                         new MoveLearnSetEntry(Move.ATTACK_ORDER,51),

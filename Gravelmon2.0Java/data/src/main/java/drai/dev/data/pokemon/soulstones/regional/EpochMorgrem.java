@@ -73,7 +73,7 @@ public class EpochMorgrem extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.HUMAN_LIKE),
                 List.of("As it ages, it gets a very bad case of skin acne and greasy hair. It attempts to use mud to mask these imperfections and insecurities."),
-                List.of(new EvolutionEntry("epoch grimmsnarl", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochgrimmsnarl", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CONTINENTALRIFT,59),

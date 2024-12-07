@@ -23,7 +23,7 @@ public class EpochMimejr extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("It busks on the side streets of large urban centres. The irony is that it is mute despite being a Sound type."),
-                List.of(new EvolutionEntry("epoch mrmime", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochmrmime", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SOUND_BARRIER,36),

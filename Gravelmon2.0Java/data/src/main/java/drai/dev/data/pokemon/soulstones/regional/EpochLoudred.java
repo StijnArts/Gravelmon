@@ -23,7 +23,7 @@ public class EpochLoudred extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.FIELD),
                 List.of("This Pokemon is the life of the party. It can drop a sick beat and has better moves than most humans."),
-                List.of(new EvolutionEntry("epoch exploud", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochexploud", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SONIC_BOOM,8),

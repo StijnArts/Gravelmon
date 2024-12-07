@@ -73,7 +73,7 @@ public class EpochSwablu extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.FLYING),
                 List.of("After flying through sulfuric clouds, it slowly became infected with them, which has made it sluggish when flying."),
-                List.of(new EvolutionEntry("epoch altaria", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochaltaria", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "cobblemon:black_sludge")),
                 List.of(
                         new MoveLearnSetEntry(Move.SMOKESCREEN,5),

@@ -23,7 +23,7 @@ public class EpochCleffa extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("They are very small and often confused with ordinary butterflies. They are responsible for casting certain enchantments in forests."),
-                List.of(new EvolutionEntry("epoch clefairy", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochclefairy", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"13")))),
                 List.of(
                         new MoveLearnSetEntry(Move.METEORSHOWER,8),

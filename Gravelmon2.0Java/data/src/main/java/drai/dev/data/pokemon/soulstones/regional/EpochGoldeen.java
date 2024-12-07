@@ -23,7 +23,7 @@ public class EpochGoldeen extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("This Goldeen is believed to have started multiplying in the sewers after it got exposed to some disposed of chemicals."),
-                List.of(new EvolutionEntry("epoch seaking", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochseaking", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,10),

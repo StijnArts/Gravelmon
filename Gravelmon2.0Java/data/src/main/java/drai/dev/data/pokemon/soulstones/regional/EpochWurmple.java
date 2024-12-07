@@ -23,7 +23,7 @@ public class EpochWurmple extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("It is able to telepathically sense small insects that it can feed on making its ability to hunt for prey very easy."),
-                List.of(new EvolutionEntry("epoch silcoon", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochsilcoon", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"10")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CONFUSION,5),

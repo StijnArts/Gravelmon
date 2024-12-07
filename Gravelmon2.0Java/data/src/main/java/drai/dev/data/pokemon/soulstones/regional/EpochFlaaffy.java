@@ -23,7 +23,7 @@ public class EpochFlaaffy extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.FIELD),
                 List.of("Its wool is made of cotton candy. It is said that if you eat some, it will give you wings."),
-                List.of(new EvolutionEntry("epoch ampharos", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochampharos", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "cobblemon:shiny_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.FLEUR_CANNON,57),

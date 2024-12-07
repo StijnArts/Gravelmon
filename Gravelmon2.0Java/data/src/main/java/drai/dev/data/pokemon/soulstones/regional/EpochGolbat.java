@@ -23,7 +23,7 @@ public class EpochGolbat extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Its teeth are much sharper and are capable of draining blood. It is known for its rapid speed and stealth."),
-                List.of(new EvolutionEntry("epoch crobat", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochcrobat", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PLAGUE,53),

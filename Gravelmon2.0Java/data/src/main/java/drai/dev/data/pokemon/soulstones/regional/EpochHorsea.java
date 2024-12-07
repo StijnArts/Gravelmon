@@ -23,7 +23,7 @@ public class EpochHorsea extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.DRAGON),
                 List.of("They can use their tail fins to give them a quick burst of speed when they find themselves trapped in an aggressive sea current."),
-                List.of(new EvolutionEntry("epoch seadra", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochseadra", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,17),

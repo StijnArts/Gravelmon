@@ -23,7 +23,7 @@ public class EpochCubone extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("It wields some of the surviving coral from the reefs it inhabits as a weapon to ward off foes."),
-                List.of(new EvolutionEntry("epoch marowak", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochmarowak", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STEALTH_ROCK,16),

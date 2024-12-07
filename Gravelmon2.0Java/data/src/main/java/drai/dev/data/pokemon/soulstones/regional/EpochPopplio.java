@@ -73,7 +73,7 @@ public class EpochPopplio extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.FIELD),
                 List.of("Its collar is made from petals. The colour of the collar is said to change with the seasons."),
-                List.of(new EvolutionEntry("epoch brionne", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochbrionne", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,6),

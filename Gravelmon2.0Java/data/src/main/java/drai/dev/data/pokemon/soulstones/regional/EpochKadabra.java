@@ -23,7 +23,7 @@ public class EpochKadabra extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("It trains its fists both through repetitive attacks against hard surfaces and also against ethereal forces as regular training."),
-                List.of(new EvolutionEntry("epoch alakazam", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochalakazam", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:black_belt")),
                 List.of(
                         new MoveLearnSetEntry(Move.SUCKER_PUNCH,40),

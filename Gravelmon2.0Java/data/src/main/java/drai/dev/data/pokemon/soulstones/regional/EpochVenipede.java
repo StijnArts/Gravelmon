@@ -23,7 +23,7 @@ public class EpochVenipede extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("A Venipede happened upon a meteorite that had special powers thereby giving it extraterrestrial powers."),
-                List.of(new EvolutionEntry("epoch whirlipede", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochwhirlipede", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,26),

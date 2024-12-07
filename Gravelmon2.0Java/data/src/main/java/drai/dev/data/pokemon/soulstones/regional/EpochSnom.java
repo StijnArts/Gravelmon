@@ -23,7 +23,7 @@ public class EpochSnom extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Due to its small stature, it hides under rocks to avoid detection. If it is found, it uses its adorable appearance to convince predators to spare it."),
-                List.of(new EvolutionEntry("epoch frosmoth", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochfrosmoth", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),

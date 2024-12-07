@@ -23,7 +23,7 @@ public class EpochLarvesta extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("You can often find this Pokemon nibbling on electric wires to siphon the electrical current within as food."),
-                List.of(new EvolutionEntry("epoch volcarona", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochvolcarona", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"50")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,28),

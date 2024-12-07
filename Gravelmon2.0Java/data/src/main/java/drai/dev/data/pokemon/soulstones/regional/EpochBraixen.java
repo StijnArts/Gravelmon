@@ -23,7 +23,7 @@ public class EpochBraixen extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("After undergoing rigorous training, this Pokemon is able to talk to the dead using any reflective surface, albeit for a short period of time."),
-                List.of(new EvolutionEntry("epoch delphox", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochdelphox", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),

@@ -73,7 +73,7 @@ public class EpochNumel extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("When it is happy, it can trigger a fountain of steam to come out from the pool on its back."),
-                List.of(new EvolutionEntry("epoch camerupt", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochcamerupt", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,19),

@@ -23,7 +23,7 @@ public class EpochDewpider extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("It flickers when it is upset or emotional. It will turn the light it emits off when it is in danger so predators cannot pursue it."),
-                List.of(new EvolutionEntry("epoch araquanid", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epocharaquanid", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
                 List.of(
                         new MoveLearnSetEntry(Move.THUNDER_WAVE,8),

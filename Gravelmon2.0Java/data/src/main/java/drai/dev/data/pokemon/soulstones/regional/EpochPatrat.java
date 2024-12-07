@@ -23,7 +23,7 @@ public class EpochPatrat extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("This Pokemon always seems to be hearing things that its hair is always standing on end. It is unclear if this is the result of their psychic powers or their paranoia."),
-                List.of(new EvolutionEntry("epoch watchog", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochwatchog", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,21),

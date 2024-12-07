@@ -23,7 +23,7 @@ public class EpochSpearow extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("It hunts in small flocks and will chatter among themselves to cooperate and signal to one another when they have found a source of food."),
-                List.of(new EvolutionEntry("epoch fearow", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochfearow", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.MIRROR_MOVE,5),

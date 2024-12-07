@@ -73,7 +73,7 @@ public class EpochClobbopus extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.HUMAN_LIKE),
                 List.of("This Pokemon's tentacles are so strong that many other foes do not dare try to challenge it for food when hunting."),
-                List.of(new EvolutionEntry("epoch grapploct", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochgrapploct", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:black_belt")),
                 List.of(
                         new MoveLearnSetEntry(Move.ARM_THRUST,22),

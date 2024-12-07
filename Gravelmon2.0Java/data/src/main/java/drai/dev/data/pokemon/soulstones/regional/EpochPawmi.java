@@ -73,7 +73,7 @@ public class EpochPawmi extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It is normally very reserved and doesn't like strangers, but when it warms up to a person, it will become one of its best friends."),
-                List.of(new EvolutionEntry("epoch pawmo", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochpawmo", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,39),

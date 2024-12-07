@@ -73,7 +73,7 @@ public class EpochLuxio extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Because its wings are not fully developed, it relies on its speed and toxic fangs to protect itself from would-be predators."),
-                List.of(new EvolutionEntry("epoch luxray", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochluxray", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DRACOSHRED,44),

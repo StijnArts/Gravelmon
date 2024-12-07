@@ -23,7 +23,7 @@ public class EpochDwebble extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.WATER_3),
                 List.of("It collects various small articles found on the sea floor to append to its shell as a means of showing off."),
-                List.of(new EvolutionEntry("epoch crustle", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochcrustle", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:water_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.BUG_BITE,12),

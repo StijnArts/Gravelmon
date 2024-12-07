@@ -23,7 +23,7 @@ public class EpochRemoraid extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.WATER_2),
                 List.of("This Pokemon can zip around in water because it is able to use the electrical energy it generates to give it a speed boost."),
-                List.of(new EvolutionEntry("epoch octillery", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochoctillery", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SMOKESCREEN,20),

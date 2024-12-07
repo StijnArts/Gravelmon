@@ -73,7 +73,7 @@ public class EpochWoobat extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING,EggGroup.FIELD),
                 List.of("Its fangs are extra sharp to enable this Pokemon to pierce the skin of its target and drain its blood quickly."),
-                List.of(new EvolutionEntry("epoch swoobat", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochswoobat", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PLAGUE,47),

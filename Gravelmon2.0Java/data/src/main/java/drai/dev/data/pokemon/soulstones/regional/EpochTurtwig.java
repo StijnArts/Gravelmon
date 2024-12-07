@@ -23,7 +23,7 @@ public class EpochTurtwig extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("The volcanic formation on its back is relatively immature so the embers that are still hardening are very hot and occasionally smoke."),
-                List.of(new EvolutionEntry("epoch grotle", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochgrotle", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HEATSIPHON,35),

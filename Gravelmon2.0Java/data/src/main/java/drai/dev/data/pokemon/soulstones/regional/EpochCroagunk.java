@@ -23,7 +23,7 @@ public class EpochCroagunk extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("Rumour has it that if you lick one, you can achieve a trance-like high but you might also contract an incurable disease."),
-                List.of(new EvolutionEntry("epoch toxicroak", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtoxicroak", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GUNK_SHOT,54),

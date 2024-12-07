@@ -23,7 +23,7 @@ public class EpochGrimer extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("It is found deep in swampy areas. When you find yourself in sinking mud, it is most likely a Grimer holding onto you."),
-                List.of(new EvolutionEntry("epoch muk", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochmuk", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,7),

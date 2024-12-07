@@ -23,7 +23,7 @@ public class EpochPidgey extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("It often falls asleep on trees and allows snow to collect. It is actually perfectly content to have the snow accumulate than shake it off when it awakens."),
-                List.of(new EvolutionEntry("epoch pidgeotto", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochpidgeotto", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,33),

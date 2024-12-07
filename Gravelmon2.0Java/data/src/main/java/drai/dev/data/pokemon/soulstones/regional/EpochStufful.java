@@ -23,7 +23,7 @@ public class EpochStufful extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("This Pokemon has haunted a carelessly discarded stuffed animal and enjoys scaring ungrateful or bratty children."),
-                List.of(new EvolutionEntry("epoch bewear", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochbewear", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ARM_THRUST,4),

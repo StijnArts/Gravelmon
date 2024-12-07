@@ -73,7 +73,7 @@ public class EpochStarly extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("When they sing in small bands while perched on tree branches, they can improvise off one another to create various pleasing harmonies."),
-                List.of(new EvolutionEntry("epoch staravia", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochstaravia", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SWEEPINGWIND,46),

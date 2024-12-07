@@ -23,7 +23,7 @@ public class EpochEelektrik extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.AMORPHOUS),
                 List.of("These Pokémon come out of their burrows to feed on smaller bugs and insects within caves and sandy dunes."),
-                List.of(new EvolutionEntry("epoch eelektross", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epocheelektross", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:silver_powder")),
                 List.of(
                         new MoveLearnSetEntry(Move.ATTACK_ORDER,45),

@@ -73,7 +73,7 @@ public class EpochDunsparce extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Its strategy is to perpetually find hosts, infest them, and siphon energy to strengthen itself and then move onto the next host and continue the cycle."),
-                List.of(new EvolutionEntry("epoch dudunsparce", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochdudunsparce", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:silver_powder")),
                 List.of(
                         new MoveLearnSetEntry(Move.GLARE,12),
