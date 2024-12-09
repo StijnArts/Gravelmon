@@ -105,7 +105,7 @@ public class ShulongXenoversal extends Pokemon {
                 0.9, 1,
                 List.of());
         this.setLangFileName("Shulong");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
     }

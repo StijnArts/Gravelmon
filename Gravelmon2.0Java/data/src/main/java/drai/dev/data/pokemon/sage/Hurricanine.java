@@ -99,6 +99,6 @@ public class Hurricanine extends Pokemon {
                 List.of(SpawnPreset.NEAR_WATER),
                 0.3, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

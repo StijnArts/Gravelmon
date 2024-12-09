@@ -86,6 +86,6 @@ public class Sparkowl extends Pokemon {
                 0.3, 0.3,
                 List.of());
         this.setCanFly(true);
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

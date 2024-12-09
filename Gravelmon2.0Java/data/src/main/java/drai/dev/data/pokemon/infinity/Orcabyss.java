@@ -127,6 +127,6 @@ public class Orcabyss extends Pokemon {
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setAvoidsLand(true);
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

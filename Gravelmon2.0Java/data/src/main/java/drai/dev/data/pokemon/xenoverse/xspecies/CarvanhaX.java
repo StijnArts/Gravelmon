@@ -73,7 +73,7 @@ public class CarvanhaX extends Pokemon {
                 0.27, 0.3,
                 List.of());
         this.setLangFileName("Carvanha");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         this.setCanBreathUnderwater(true);
         this.setCanSwim(true);
         this.setAvoidsLand(true);

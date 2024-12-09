@@ -89,6 +89,6 @@ public class SaboltTerrestrial extends Pokemon {
                 0.9, 1,
                 List.of());
         this.setLangFileName("Sabolt");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

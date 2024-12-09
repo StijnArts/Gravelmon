@@ -135,6 +135,6 @@ public class Viipii extends Pokemon {
                 0.3, 0.5,
                 List.of());
         this.setHasGenderDifferences(true);
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

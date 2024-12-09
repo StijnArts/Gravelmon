@@ -94,7 +94,7 @@ public class Tentyrant extends Pokemon {
                 List.of(SpawnPreset.UNDERWATER),
                 0.4, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         this.setModeled(true);
         this.setBaseScale(1.9);
         this.setCanSwim(true);

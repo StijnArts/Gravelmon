@@ -106,6 +106,6 @@ public class ShyleonXenoversal extends Pokemon {
                 0.9, 1,
                 List.of());
         this.setLangFileName("Shyleon");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

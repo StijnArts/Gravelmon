@@ -463,6 +463,6 @@ public class Tokakle extends Pokemon {
                         List.of(SpawnPreset.VILLAGE),
                         0.4, 0.5
                 )));
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

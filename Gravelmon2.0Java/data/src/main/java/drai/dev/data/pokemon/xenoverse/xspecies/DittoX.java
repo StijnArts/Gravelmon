@@ -33,7 +33,7 @@ public class DittoX extends Pokemon {
                 0.21, 0.3,
                 List.of());
         this.setLangFileName("Ditto");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         this.setModeled(true);
         this.setBaseScale(1);
         this.setHitbox(0.5,0.6);

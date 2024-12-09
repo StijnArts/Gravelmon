@@ -93,6 +93,6 @@ public class KaskadianGengar extends Pokemon {
                 0.22, 0.3,
                 List.of());
         this.setLangFileName("Gengar");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

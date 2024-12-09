@@ -108,6 +108,6 @@ public class Hydranticus extends Pokemon {
         setCanBreathUnderwater(true);
         this.setCanFly(true);
         setCanWalkOnWater(true);
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

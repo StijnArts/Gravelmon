@@ -80,7 +80,7 @@ public class GalvantulaX extends Pokemon {
                 0.21, 0.3,
                 List.of());
         this.setLangFileName("Galvantula");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         this.setModeled(true);
         this.setBaseScale(1);
         this.setHitbox(1, 1);

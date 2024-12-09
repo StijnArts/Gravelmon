@@ -141,7 +141,7 @@ public class Terathwack extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.43, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         this.setPreEvolution("marowak");
         addAdditionalEvolution("marowak", new EvolutionEntry("terathwack", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"gravelmon:long_club"))));

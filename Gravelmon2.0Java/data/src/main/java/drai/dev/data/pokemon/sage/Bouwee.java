@@ -92,6 +92,6 @@ public class Bouwee extends Pokemon {
                 List.of(SpawnPreset.WATER_SURFACE),
                 0.2, 0.5,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

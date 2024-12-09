@@ -75,7 +75,7 @@ public class CacneaX extends Pokemon {
                 0.27, 0.3,
                 List.of());
         this.setLangFileName("Cacnea");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         this.setModeled(true);
         this.setBaseScale(1);
     }

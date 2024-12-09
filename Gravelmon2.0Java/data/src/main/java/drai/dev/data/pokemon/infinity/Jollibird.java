@@ -122,7 +122,7 @@ public class Jollibird extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.29, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
             this.setPreEvolution("delibird");
         addAdditionalEvolution("delibird", new EvolutionEntry("jollibird", EvolutionType.ITEM_INTERACT, false, List.of(new MoveLearnSetEntry(Move.DAZZLING_GLEAM, "")),
                 List.of(),List.of(),"gravelmon:astral_stone"));

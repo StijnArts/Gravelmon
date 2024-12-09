@@ -119,6 +119,6 @@ public class EghoHappiny extends Pokemon {
                 0.17, 0.3,
                 List.of());
         this.setLangFileName("Happiny");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

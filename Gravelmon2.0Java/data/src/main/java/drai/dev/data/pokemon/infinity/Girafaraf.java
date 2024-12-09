@@ -139,7 +139,7 @@ public class Girafaraf extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.43, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         this.setPreEvolution("girafarig");
         addAdditionalEvolution("girafarig", new EvolutionEntry("girafaraf", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"cobblemon:dawn_stone"));

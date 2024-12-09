@@ -101,6 +101,6 @@ public class Basilect extends Pokemon {
                 0.5, 0.5,
                 List.of());
         this.setCanFly(true);
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

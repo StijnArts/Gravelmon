@@ -115,6 +115,6 @@ public class QuetzarSpace extends Pokemon {
                 1.4, 0.5,
                 List.of());
         this.setLangFileName("Quetzar");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+        
     }
 }

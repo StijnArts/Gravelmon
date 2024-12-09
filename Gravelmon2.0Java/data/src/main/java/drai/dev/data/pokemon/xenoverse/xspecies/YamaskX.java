@@ -71,6 +71,6 @@ public class YamaskX extends Pokemon {
                 0.21, 0.3,
                 List.of());
         this.setLangFileName("Yamask");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+        
     }
 }

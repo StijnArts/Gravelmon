@@ -71,7 +71,7 @@ public class RaichuX extends Pokemon {
                 0.21, 0.3,
                 List.of());
         this.setLangFileName("Raichu");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         this.setModeled(true);
         this.setHitbox(0.8,1.5);
         this.setBaseScale(0.8);

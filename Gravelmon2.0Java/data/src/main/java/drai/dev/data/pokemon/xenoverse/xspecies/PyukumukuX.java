@@ -87,7 +87,7 @@ public class PyukumukuX extends Pokemon {
                 0.27, 0.3,
                 List.of());
         this.setLangFileName("Pyukumuku");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         this.setCanBreathUnderwater(true);
         this.setModeled(true);
         this.setBaseScale(0.8);

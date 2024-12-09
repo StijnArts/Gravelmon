@@ -107,6 +107,6 @@ public class Cascotta extends Pokemon {
                 List.of());
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

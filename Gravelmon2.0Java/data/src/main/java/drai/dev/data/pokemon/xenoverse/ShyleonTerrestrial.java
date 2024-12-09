@@ -103,7 +103,7 @@ public class ShyleonTerrestrial extends Pokemon {
                 0.9, 1,
                 List.of());
         this.setLangFileName("Shyleon");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+        
         this.setCanFly(true);
         this.setModeled(true);
         this.setHitbox(0.7, 1.1);

@@ -94,6 +94,6 @@ public class KaskadianHaunter extends Pokemon {
                 0.22, 0.3,
                 List.of());
         this.setLangFileName("Haunter");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+        
     }
 }

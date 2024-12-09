@@ -72,7 +72,7 @@ public class HoennianDreepy extends Pokemon {
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Dreepy");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         setCanFly(true);
         setModeled(true);
         setBaseScale(1);

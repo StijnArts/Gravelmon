@@ -11,9 +11,11 @@ public class PosingFileData {
     public Vector3 profileCoords = new Vector3(0.0, 1.55, -20.0);
     public Vector3 portraitCoords = new Vector3(0.0, 1.4, 0.0);
     public List<AnimationData> animations = new ArrayList<>();
-    public String faint;
+    private String faint;
+    private String cry;
+    private String physical;
+    private String special;
     public String head;
-    public String cry;
 
     public JsonElement getPosesJson() {
         var poserJson = new JsonObject();
@@ -22,13 +24,83 @@ public class PosingFileData {
         poserJson.add("portraitTranslation", portraitCoords.getJsonArray());
         poserJson.addProperty("profileScale", profileScale);
         poserJson.add("profileTranslation", profileCoords.getJsonArray());
-        poserJson.addProperty("faint", faint);
-        poserJson.addProperty("cry", cry);
+        var hasFaint = faint != null && !faint.isEmpty();
+        var hasCry = cry != null && !cry.isEmpty();
+        var hasPhysical = physical != null && !physical.isEmpty();
+        var hasSpecial = special != null && !special.isEmpty();
+        if(hasFaint || hasCry || hasPhysical || hasSpecial) {
+            var animationsJson = new JsonObject();
+            poserJson.add("animations", animationsJson);
+            if(hasFaint) animationsJson.addProperty("faint", faint);
+            if(hasCry) animationsJson.addProperty("cry", cry);
+            if(hasPhysical) animationsJson.addProperty("physical", physical);
+            if(hasSpecial) animationsJson.addProperty("special", special);
+        }
         var poses = new JsonObject();
         animations.forEach(animation->poses.add(animation.animationName, animation.getAnimationJson(animationFileName)));
         poserJson.add("poses", poses);
         return poserJson;
     }
 
+    public void setCryFromAnimationType(String bedrockAnimationType){
+        cry = bedrockAnimationType + "('"+animationFileName+"', 'cry')";
+    }
 
+    public void setFaintFromAnimationType(String bedrockAnimationType){
+        cry = bedrockAnimationType + "('"+animationFileName+"', 'cry')";
+    }
+
+    public void addFaint(){
+        faint = "bedrock("+animationFileName+", faint)";
+    }
+
+    public void addCry(){
+        faint = "bedrock("+animationFileName+", cry)";
+    }
+
+    public void addPhysical(){
+        faint = "bedrock("+animationFileName+", physical)";
+    }
+
+    public void addSpecial(){
+        faint = "bedrock("+animationFileName+", special)";
+    }
+
+    public void setFaint(String faint) {
+        this.faint = faint;
+    }
+
+    public void setCry(String cry) {
+        this.cry = cry;
+    }
+
+    public void setPhysical(String physical) {
+        this.physical = physical;
+    }
+
+    public void setSpecial(String special) {
+        this.special = special;
+    }
+
+    public void setPortraitData(float scale, Vector3 positioning){
+        this.portraitScale = scale;
+        this.portraitCoords = positioning;
+    }
+
+    public void setProfileData(float scale, Vector3 positioning){
+        this.profileScale = scale;
+        this.profileCoords = positioning;
+    }
+
+    public void setBasicHead() {
+        head = "head";
+    }
+
+    public void addAnimations(List<AnimationData> animationData) {
+        this.animations.addAll(animationData);
+    }
+
+    public void setAnimationFileName(String animationFileName) {
+        this.animationFileName = animationFileName;
+    }
 }

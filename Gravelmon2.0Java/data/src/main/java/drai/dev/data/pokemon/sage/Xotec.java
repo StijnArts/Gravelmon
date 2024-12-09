@@ -96,6 +96,6 @@ public class Xotec extends Pokemon {
                 List.of(SpawnPreset.JUNGLE_PYRAMID),
                 0.18, 0.5,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

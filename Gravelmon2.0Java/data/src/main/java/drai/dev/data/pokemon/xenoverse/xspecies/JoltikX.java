@@ -74,7 +74,7 @@ public class JoltikX extends Pokemon {
                 0.21, 0.3,
                 List.of());
         this.setLangFileName("Joltik");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         this.setModeled(true);
         this.setBaseScale(0.4);
         this.setHitbox(0.6, 0.6);

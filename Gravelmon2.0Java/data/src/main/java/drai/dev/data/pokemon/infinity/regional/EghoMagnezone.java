@@ -106,6 +106,6 @@ public class EghoMagnezone extends Pokemon {
                 0.34, 0.3,
                 List.of());
         this.setLangFileName("Magnezone");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

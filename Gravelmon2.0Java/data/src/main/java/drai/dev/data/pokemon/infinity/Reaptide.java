@@ -94,6 +94,6 @@ public class Reaptide extends Pokemon {
                 List.of(SpawnPreset.UNDERWATER),
                 0.19, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

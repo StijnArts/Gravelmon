@@ -103,7 +103,7 @@ public class EghoSpearow extends Pokemon {
                 0.21, 0.3,
                 List.of());
         this.setLangFileName("Spearow");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+        
         this.setModeled(true);
         this.setBaseScale(0.8);
         this.setHitbox(0.6,0.8);

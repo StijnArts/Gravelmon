@@ -137,6 +137,6 @@ public class DeltaPikachu extends Pokemon {
                 List.of());
         this.setLangFileName("Pikachu");
         this.setCanFly(true);
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

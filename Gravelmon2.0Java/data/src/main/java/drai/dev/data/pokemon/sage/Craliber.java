@@ -113,6 +113,6 @@ public class Craliber extends Pokemon {
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
         this.setAvoidsLand(true);
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

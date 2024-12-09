@@ -102,7 +102,7 @@ public class Grimfowl extends Pokemon {
                 0.43, 0.3,
                 List.of());
         this.setCanFly(true);
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         setModeled(true);
         setBaseScale(0.85);
         setHitbox(1.2, 2.4);

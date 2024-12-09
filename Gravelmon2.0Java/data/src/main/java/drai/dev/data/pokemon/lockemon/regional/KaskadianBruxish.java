@@ -81,7 +81,7 @@ public class KaskadianBruxish extends Pokemon {
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Bruxish");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         this.setAvoidsLand(true);
         setCanSwim(true);
         setCanBreathUnderwater(true);

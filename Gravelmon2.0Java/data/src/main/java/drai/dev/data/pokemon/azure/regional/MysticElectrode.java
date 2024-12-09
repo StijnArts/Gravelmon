@@ -94,6 +94,6 @@ public class MysticElectrode extends Pokemon {
                 List.of());
         this.setLangFileName("Electrode");
         setCanFly(true);
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

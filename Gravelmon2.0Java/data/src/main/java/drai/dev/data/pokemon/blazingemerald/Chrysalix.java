@@ -1,6 +1,8 @@
 package drai.dev.data.pokemon.blazingemerald;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.data.util.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
@@ -71,9 +73,22 @@ public class Chrysalix extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
+
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("steelix");
+        getPosingFileData().setPortraitData(0.4f, new Vector3(-0.2, 1.2, 0));
+        getPosingFileData().setProfileData(0.4f, new Vector3(-0.2, 1.2, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.battleIdleAnimation().withBlink(),
+                AnimationData.sleepingAnimation(),
+                AnimationData.standingAnimation().notBattle().withBlink(),
+                AnimationData.walkingAnimation().withBlink().addPoseType(PoseType.SWIM)
+        ));
+        getPosingFileData().setCryFromAnimationType("q.bedrock_stateful");
         setModeled(true);
         setBaseScale(1.5);
         setHitbox(1,1);

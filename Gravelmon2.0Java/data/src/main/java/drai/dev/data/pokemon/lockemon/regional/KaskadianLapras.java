@@ -102,7 +102,7 @@ public class KaskadianLapras extends Pokemon {
                 0.22, 0.3,
                 List.of());
         this.setLangFileName("Lapras");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         this.setAvoidsLand(true);
         setCanSwim(true);
         setCanWalkOnWater(true);

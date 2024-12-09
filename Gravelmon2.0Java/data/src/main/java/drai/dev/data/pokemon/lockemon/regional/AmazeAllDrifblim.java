@@ -92,7 +92,7 @@ public class AmazeAllDrifblim extends Pokemon {
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Drifblim");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         setCanFly(true);
         addAdditionalEvolution("drifloon", new EvolutionEntry("drifblim amazeall", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"gravelmon:amaze_drive"));

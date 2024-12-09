@@ -77,6 +77,6 @@ public class CofagrigusX extends Pokemon {
                 0.21, 0.3,
                 List.of());
         this.setLangFileName("Cofagrigus");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+        
     }
 }

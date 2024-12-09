@@ -95,7 +95,7 @@ public class Nebyura extends Pokemon {
                 List.of(SpawnPreset.NEAR_CROPS),
                 0.3, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+        
         setModeled(true);
         setBaseScale(1.75);
         setHitbox(0.8, 1.7);

@@ -102,7 +102,7 @@ public class EghoGloom extends Pokemon {
                 0.24, 0.3,
                 List.of());
         this.setLangFileName("Gloom");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         setModeled(true);
         setBaseScale(0.8);
         setHitbox(0.8,0.8);

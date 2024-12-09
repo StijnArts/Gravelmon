@@ -86,6 +86,6 @@ public class AyreianVoltorb extends Pokemon {
                 0.22, 0.3,
                 List.of());
         this.setLangFileName("Voltorb");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

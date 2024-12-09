@@ -109,6 +109,6 @@ public class Kidfoot extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.21, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

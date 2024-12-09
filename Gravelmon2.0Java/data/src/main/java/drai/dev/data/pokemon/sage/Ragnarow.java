@@ -107,6 +107,6 @@ public class Ragnarow extends Pokemon {
                 List.of(SpawnPreset.WATER_SURFACE),
                 1.4, 0.5,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

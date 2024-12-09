@@ -2,6 +2,7 @@ package drai.dev.data.attributes.assets;
 
 import com.google.gson.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.data.pokemon.blazingemerald.*;
 
 import java.util.*;
 
@@ -35,5 +36,9 @@ public class SpeciesFileData {
         });
         jsonObject.add("variations", variationsArray);
         return jsonObject;
+    }
+
+    public void addBasicVariation(AbstractPokemon abstractPokemon) {
+        variations.add(VariationData.fromPokemon(abstractPokemon, List.of()));
     }
 }

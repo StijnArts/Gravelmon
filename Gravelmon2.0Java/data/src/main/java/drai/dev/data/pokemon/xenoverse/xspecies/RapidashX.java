@@ -111,7 +111,7 @@ public class RapidashX  extends Pokemon {
                         List.of(SpawnPreset.NATURAL),
                         1.4, 0.3)));
         this.setLangFileName("Rapidash");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+        
         this.setModeled(true);
         this.setBaseScale(1.25);
         this.setHitbox(0.9,2);

@@ -178,7 +178,7 @@ public class Arkhaos extends Pokemon {
                 5, 0.3,
                 List.of());
         this.setHitbox(3,3);
-        this.setPortraitXYZ(0.1,2.0,0.0);
+        
         this.setCanFly(true);
         setModeled(true);
         setBaseScale(1);

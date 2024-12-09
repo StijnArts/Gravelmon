@@ -21,4 +21,8 @@ public class Quirk extends BasicAnimationData {
         json.addProperty("maxSecondsBetweenOccurrences", maxSecondsBetweenOccurrences);
         return json;
     }
+
+    public static Quirk simpleQuirk(String animationName){
+        return new Quirk(animationName, List.of(animationName));
+    }
 }

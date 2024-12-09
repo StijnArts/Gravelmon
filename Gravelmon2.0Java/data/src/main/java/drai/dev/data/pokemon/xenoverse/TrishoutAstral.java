@@ -93,6 +93,6 @@ public class TrishoutAstral extends Pokemon {
                 0.9, 1,
                 List.of());
         this.setLangFileName("Trishout");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

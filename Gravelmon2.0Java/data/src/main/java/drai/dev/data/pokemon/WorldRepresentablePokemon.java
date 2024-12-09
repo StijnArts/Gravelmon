@@ -22,8 +22,8 @@ public abstract class WorldRepresentablePokemon {
     protected Image placeholderImage;
     protected Image femalePlaceholderImage;
     protected JsonObject modelJSON;
-    protected SpeciesFileData speciesFileData = new SpeciesFileData();
-    protected PosingFileData posingFileData = new PosingFileData();
+    private SpeciesFileData speciesFileData = new SpeciesFileData();
+    private PosingFileData posingFileData = new PosingFileData();
     protected void processPokemonAssets(AbstractPokemon abstractPokemon, String resourcesDir, boolean hasGenderDifferences){
         textureDirectory = findTextureDirectory(abstractPokemon, resourcesDir);
         if(!isModeled()){
@@ -54,8 +54,8 @@ public abstract class WorldRepresentablePokemon {
             posingFileData.animationFileName = isModeled() ? abstractPokemon.getCleanName() : "cutout";
         }
         if(!isModeled()){
-            posingFileData.animations.add(new AnimationData("profile", List.of(PoseType.PROFILE), List.of("pc_fix"), 10));
-            posingFileData.animations.add(new AnimationData("portrait", List.of(PoseType.NONE, PoseType.PORTRAIT), List.of("summary_fix"), 10));
+            posingFileData.animations.add(new AnimationData("profile", List.of(PoseType.PROFILE), List.of("pc_fix"), List.of(), 10));
+            posingFileData.animations.add(new AnimationData("portrait", List.of(PoseType.NONE, PoseType.PORTRAIT), List.of("summary_fix"), List.of(), 10));
         }
     }
 

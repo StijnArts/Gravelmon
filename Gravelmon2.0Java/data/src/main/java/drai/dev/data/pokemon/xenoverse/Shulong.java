@@ -101,7 +101,7 @@ public class Shulong extends Pokemon {
                 List.of());
         this.setShoulderMountable(true);
         this.setWillSleepOnBed(true);
-        this.setPortraitXYZ(0.1,2.0,0.0);
+        
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
         this.setModeled(true);

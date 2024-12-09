@@ -79,7 +79,7 @@ public class PikachuFemaleX extends Pokemon {
                 0.22, 0.3,
                 List.of());
         this.setLangFileName("Pikachu");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         this.setModeled(true);
         this.setBaseScale(0.5);
         this.setHitbox(0.7, 1.3);

@@ -100,7 +100,7 @@ public class Aquilor extends Pokemon {
                 0.4, 0.3,
                 List.of());
         this.setCanFly(true);
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         setModeled(true);
         setBaseScale(1.3);
         setHitbox(1,1);

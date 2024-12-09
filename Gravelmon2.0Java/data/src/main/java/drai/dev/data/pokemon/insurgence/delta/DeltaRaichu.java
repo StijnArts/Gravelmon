@@ -125,6 +125,6 @@ public class DeltaRaichu extends Pokemon {
                 List.of());
         this.setLangFileName("Raichu");
         this.setCanFly(true);
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

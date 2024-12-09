@@ -98,6 +98,6 @@ public class GreninjaX extends Pokemon {
                 0.21, 0.3,
                 List.of());
         this.setLangFileName("Greninja");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

@@ -72,7 +72,7 @@ public class PonytaX extends Pokemon {
                 0.22, 0.3,
                 List.of());
         this.setLangFileName("Ponyta");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         this.setModeled(true);
         this.setBaseScale(1);
         this.setHitbox(0.8,1.4);

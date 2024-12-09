@@ -59,7 +59,7 @@ public class Oreon extends Pokemon {
                 List.of(SpawnPreset.VILLAGE),
                 0.19, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+        
         this.setPreEvolution("eevee");
         addAdditionalEvolution("eevee", new EvolutionEntry("oreon", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"minecraft:cookie"));

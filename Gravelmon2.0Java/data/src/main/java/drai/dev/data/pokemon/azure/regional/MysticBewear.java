@@ -46,6 +46,6 @@ public class MysticBewear extends Pokemon {
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Stufful");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

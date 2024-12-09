@@ -122,7 +122,7 @@ public class Omeon extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         this.setModeled(true);
         this.setBaseScale(0.8);
         addAdditionalEvolution("eevee", new EvolutionEntry("omeon", EvolutionType.ITEM_INTERACT, false, List.of(new MoveLearnSetEntry(Move.VANISH, 0)),

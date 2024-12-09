@@ -49,7 +49,7 @@ public class Kidoon extends Pokemon {
                 List.of(SpawnPreset.WATER_SURFACE),
                 0.3, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         this.setCanFly(true);
     }
 }

@@ -98,6 +98,6 @@ public class Parapy extends Pokemon {
         this.setAvoidsLand(true);
         this.setCanBreathUnderwater(true);
         this.setCanSwim(true);
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

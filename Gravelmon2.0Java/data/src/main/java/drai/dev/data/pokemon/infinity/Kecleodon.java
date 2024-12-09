@@ -121,7 +121,7 @@ public class Kecleodon extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.39, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         this.setPreEvolution("kecleon");
         addAdditionalEvolution("kecleon", new EvolutionEntry("kecleodon", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.THIEF.getName()))));

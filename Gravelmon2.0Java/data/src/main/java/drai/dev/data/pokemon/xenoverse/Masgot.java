@@ -1267,6 +1267,6 @@ public class Masgot extends Pokemon {
                         List.of(SpawnPreset.VILLAGE),
                         0.3, 0.3
                 )));
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

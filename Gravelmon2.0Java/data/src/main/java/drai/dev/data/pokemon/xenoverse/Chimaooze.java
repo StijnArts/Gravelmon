@@ -103,6 +103,6 @@ public class Chimaooze extends Pokemon {
                 ), List.of(),
                         List.of(SpawnPreset.NATURAL),
                         1.4, 0.3)));
-        this.setPortraitXYZ(0.1,2.0,0.0);
+        
     }
 }

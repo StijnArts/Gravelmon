@@ -79,7 +79,7 @@ public class BisharpX extends Pokemon {
                 0.21, 0.3,
                 List.of());
         this.setLangFileName("Bisharp");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         addAdditionalEvolution("Bisharp", new EvolutionEntry("Bisharp x", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"gravelmon:inductive_ring"));
     }

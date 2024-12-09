@@ -79,7 +79,7 @@ public class Zangoro extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         this.setPreEvolution("zangoose");
         addAdditionalEvolution("zangoose", new EvolutionEntry("zangoro", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"gravelmon:murky_claw"));

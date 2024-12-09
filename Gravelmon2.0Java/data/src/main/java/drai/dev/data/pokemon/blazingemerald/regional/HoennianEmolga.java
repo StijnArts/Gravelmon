@@ -69,7 +69,7 @@ public class HoennianEmolga extends Pokemon {
                 List.of());
         this.setCanFly(true);
         this.setLangFileName("Emolga");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         this.setModeled(true);
         this.setBaseScale(0.52);
         this.setHitbox(0.6,0.6);

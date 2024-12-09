@@ -118,7 +118,7 @@ public class AyreianNoctowl extends Pokemon {
                 0.25, 0.3,
                 List.of());
         this.setLangFileName("Noctowl");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+        
         setCanFly(true);
     }
 }

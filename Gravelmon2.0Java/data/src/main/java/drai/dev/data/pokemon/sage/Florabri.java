@@ -103,7 +103,7 @@ public class Florabri extends Pokemon {
                 List.of());
         this.setHasGenderDifferences(true);
         this.setCanFly(true);
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         this.setBaseScale(0.9);
 
         this.setModeled(true);
