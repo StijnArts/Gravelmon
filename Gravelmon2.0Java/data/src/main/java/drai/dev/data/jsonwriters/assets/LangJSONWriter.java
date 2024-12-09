@@ -95,7 +95,7 @@ public class LangJSONWriter {
         for (var aspect : Aspect.values()) writeForm(aspect);
         try {
             Files.createDirectories(new File(resourcesDir+"\\assets\\cobblemon\\lang").toPath());
-            var gson = new GsonBuilder().setPrettyPrinting().create();
+            var gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
             BufferedWriter writer = new BufferedWriter(new FileWriter(resourcesDir+"\\assets\\cobblemon\\lang\\en_us.json"));
             writer.write(gson.toJson(contents));
             writer.close();

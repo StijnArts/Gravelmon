@@ -15,7 +15,7 @@ public class PokeDexWriter {
     public static void write(Game game, String resourcesDir) {
         String dir = resourcesDir + "\\data\\gravelmon\\dexes";
 
-        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
         try {
             Files.createDirectories(new File(dir).toPath());
             writePokedex(game, dir, gson);
@@ -29,7 +29,7 @@ public class PokeDexWriter {
         String dir = resourcesDir + "\\data\\gravelmon\\dex_additions";
         var fileContents = new JsonObject();
         fileContents.addProperty("dexId","cobblemon:national");
-        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
 
         fileContents.add("entries", dexes);
         try {

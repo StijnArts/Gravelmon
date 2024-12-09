@@ -12,8 +12,8 @@ public class Norse extends drai.dev.data.games.registry.Game {
     }
 
     @Override
-    public void init() {
-        super.init();
+    public void init(String resourcesDir) {
+        super.init(resourcesDir);
         newPokemon.forEach(pokemon1 -> {
             pokemon1.getLabels().remove(Label.RAIAN);
             pokemon1.getLabels().add(Label.NORSE);

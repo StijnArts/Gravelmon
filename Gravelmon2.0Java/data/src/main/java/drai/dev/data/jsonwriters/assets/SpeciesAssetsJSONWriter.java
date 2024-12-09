@@ -6,23 +6,25 @@ import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.attributes.*;
+import org.jetbrains.annotations.*;
 
 import javax.imageio.*;
 import java.awt.image.*;
 import java.io.*;
 import java.nio.file.*;
+import java.util.*;
 
 public class SpeciesAssetsJSONWriter {
 
     public static void writeSpecies(Game game, String resourcesDir) {
-        String dir = resourcesDir + "\\assets\\cobblemon\\bedrock\\species\\" + game.getName().toLowerCase() + "\\";
-        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        String dir = getDirectory(game, resourcesDir);
+        Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
 
         game.getNewPokemon().forEach(pokemon -> {
             if (!Pokemon.isAnAdditionalForm(pokemon)) {
                 try {
                     Files.createDirectories(new File(dir).toPath());
-                    writePokemon(pokemon, game, dir, resourcesDir, gson);
+                    writePokemon(pokemon, dir, gson);
                 } catch (IOException e) {
                     throw new RuntimeException(e);
                 }
@@ -30,16 +32,15 @@ public class SpeciesAssetsJSONWriter {
         });
     }
 
-    private static void writeReplacedPokemon(Pokemon pokemon, Game game, String dir, String resourcesDir, Gson gson) throws IOException {
-        writePokemon(pokemon, game, dir, resourcesDir, gson, true);
+    public static @NotNull String getDirectory(Game game, String resourcesDir) {
+        return resourcesDir + "\\assets\\cobblemon\\bedrock\\species\\" + game.getName().toLowerCase() + "\\";
     }
 
-    private static void writePokemon(Pokemon pokemon, Game game, String dir, String resourcesDir, Gson gson) throws IOException {
-        writePokemon(pokemon, game, dir, resourcesDir, gson, false);
-    }
-
-    private static void writePokemon(Pokemon pokemon, Game game, String dir, String resourcesDir, Gson gson, boolean isReplacement) throws IOException {
-        if (pokemon.isNew() && !pokemon.isModeled()) {
+    private static void writePokemon(Pokemon pokemon, String dir, Gson gson) throws IOException {
+        BufferedWriter writer = new BufferedWriter(new FileWriter(dir + "0_" + pokemon.getCleanName() + "_base.json"));
+        writer.write(gson.toJson(pokemon.getSpeciesFileData().toJsonObject(pokemon.getCleanName(), 0, List.of(), pokemon)));
+        writer.close();
+        /*if (pokemon.isNew() && !pokemon.isModeled()) {
             JsonObject fileContents = new JsonObject();
             fileContents.add("species", new JsonPrimitive("cobblemon:" + pokemon.getCleanName()));
             fileContents.add("order", new JsonPrimitive(0));
@@ -77,22 +78,22 @@ public class SpeciesAssetsJSONWriter {
 
                 regularFemaleVariation.add("texture", new JsonPrimitive(isReplacement ? "cobblemon:textures/pokemon/evolve_me.png" : "cobblemon:textures/pokemon/" + game.getName().toLowerCase() + "/" + pokemon.getCleanName() + "_female.png"));
                 shinyFemaleVariation.add("texture", new JsonPrimitive(isReplacement ? "cobblemon:textures/pokemon/evolve_me.png" : "cobblemon:textures/pokemon/" + game.getName().toLowerCase() + "/" + pokemon.getCleanName() + "_female.png"));
-
-                if(!isReplacement){
-                    createPlaceholderTextureIfNotExists(game.getName().toLowerCase(), pokemon.getCleanName() + "_female.png", resourcesDir, pokemon.usesBigModel());
-                    createPlaceholderTextureIfNotExists(game.getName().toLowerCase(), pokemon.getCleanName() + "_female.png", resourcesDir, pokemon.usesBigModel());
-                }
             }
             BufferedWriter writer = new BufferedWriter(new FileWriter(dir + "0_" + pokemon.getCleanName() + "_base.json"));
             writer.write(gson.toJson(fileContents));
             writer.close();
-            if(!isReplacement) {
-                createPlaceholderTextureIfNotExists(game.getName().toLowerCase(), pokemon.getCleanName() + ".png", resourcesDir, pokemon.usesBigModel());
-                createPlaceholderTextureIfNotExists(game.getName().toLowerCase(), pokemon.getCleanName() + ".png", resourcesDir, pokemon.usesBigModel());
-            }
-        }
+        }*/
         int formCounter = 10;
         for (PokemonForm form : pokemon.getForms()) {
+            var aspects = new ArrayList<String>();
+            for (Aspect aspect : form.getAspects()) {
+                aspects.add(aspect.name().toLowerCase());
+            }
+            BufferedWriter formWriter = new BufferedWriter(new FileWriter(dir + formCounter + "_" + pokemon.getCleanName() + "_" + form.getCleanName() + ".json"));
+            formWriter.write(gson.toJson(form.getSpeciesFileData().toJsonObject("cobblemon:" + pokemon.getCleanName(), formCounter, aspects, form)));
+            formWriter.close();
+        }
+        /*
             if (!pokemon.isModeled()) {
                 JsonObject fileContents = new JsonObject();
                 fileContents.add("species", new JsonPrimitive("cobblemon:" + pokemon.getCleanName()));
@@ -132,35 +133,12 @@ public class SpeciesAssetsJSONWriter {
                     regularFemaleAspects.add("female");
                     shinyFemaleAspects.add("female");
                     shinyFemaleAspects.add("shiny");
-                    if(!isReplacement){
-                        createPlaceholderTextureIfNotExists(game.getName().toLowerCase(), form.getCleanName() + "_" + pokemon.getCleanName() + "_female.png", resourcesDir, pokemon.usesBigModel());
-                        createPlaceholderTextureIfNotExists(game.getName().toLowerCase(), form.getCleanName() + "_" + pokemon.getCleanName() + "_female.png", resourcesDir, pokemon.usesBigModel());
-                    }
                 }
 
                 BufferedWriter writer = new BufferedWriter(new FileWriter(dir + formCounter + "_" + pokemon.getCleanName() + "_" + form.getCleanName() + ".json"));
                 writer.write(gson.toJson(fileContents));
                 writer.close();
-                if(!isReplacement) {
-                    createPlaceholderTextureIfNotExists(game.getName().toLowerCase(), form.getCleanName() + "_" + pokemon.getCleanName() + ".png", resourcesDir, pokemon.usesBigModel());
-//                    createPlaceholderTextureIfNotExists(game.getName().toLowerCase(), form.getCleanName() + "_" + pokemon.getCleanName() + ".png", resourcesDir, pokemon.usesBigModel());
-                }
             }
-        }
-    }
-
-    public static void createPlaceholderTextureIfNotExists(String game, String filename, String resourcesDir, boolean bigModel) {
-        String textureDir = resourcesDir + "\\assets\\cobblemon\\textures\\pokemon\\";
-        File textureLocation = new File(textureDir + game + "\\" + filename);
-
-        if (!textureLocation.exists()) {
-            BufferedImage placeholder = new BufferedImage(bigModel ? 512 : 96, bigModel ? 512 : 96, 3);
-            try {
-                Files.createDirectories(new File(textureDir + game).toPath());
-                ImageIO.write(placeholder, "png", textureLocation);
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
-        }
+        }*/
     }
 }

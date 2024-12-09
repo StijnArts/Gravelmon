@@ -14,7 +14,7 @@ public class SpawnPoolWorldJSONWriter {
 
     public static void writeSpawns(Game game, String resourcesDir){
         String dir = resourcesDir+"\\data\\cobblemon\\spawn_pool_world\\";
-        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
         game.getNewPokemon().forEach(pokemon -> {
             if(!Pokemon.isAnAdditionalForm(pokemon)) {
                 try {

@@ -9,7 +9,10 @@ import static drai.dev.data.jsonwriters.assets.LanguageGenerator.*;
 
 public class JSONOutputGenerator {
     public static void generate(String resourcesDir) {
-        GameRegistry.games.forEach(Game::init);
+        GameRegistry.games.forEach(game -> {
+            game.init(resourcesDir);
+            game.getNewPokemon().forEach(pokemon -> pokemon.processAssets(resourcesDir));
+        });
         SpeciesAdditionsWriter.writeAdditions(resourcesDir);
         PokedexEntryAdditionsWriter.writeAdditions(resourcesDir);
         AdditionalFormAssetsJSONWriter.writeSpecies(resourcesDir);

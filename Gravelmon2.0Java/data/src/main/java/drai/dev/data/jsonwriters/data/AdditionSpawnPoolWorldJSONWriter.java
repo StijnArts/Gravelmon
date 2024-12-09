@@ -16,7 +16,7 @@ public class AdditionSpawnPoolWorldJSONWriter {
 
     public static void writeSpawns(String resourcesDir) {
         String dir = resourcesDir + "\\data\\gravelmon\\spawn_pool_world\\";
-        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
         Pokemon.ADDITIONAL_FORMS.entrySet().forEach(set -> {
             try {
                 Files.createDirectories(new File(dir).toPath());

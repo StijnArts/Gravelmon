@@ -17,7 +17,7 @@ import static drai.dev.data.jsonwriters.data.SpeciesDataJSONWriter.*;
 
 public class SpeciesAdditionsWriter {
     public static void writeAdditions(String resourcesDir) {
-        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
         Pokemon.ADDITIONAL_FORMS.entrySet().stream()
                 .filter(stringListEntry -> !AbstractPokemon.isAnAdditionalForm(stringListEntry.getKey()))
                 .forEach(set -> {

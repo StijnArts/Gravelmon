@@ -11,7 +11,7 @@ import java.nio.file.*;
 public class FossilJSONWriter {
 
     public static void writeFossils(String resourcesDir){
-        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
         Gravelmon.FOSSIL_MAP.forEach((key, value) -> {
             String dataDir = resourcesDir+"\\data\\cobblemon\\";
             String assetDir = resourcesDir+"\\assets\\cobblemon\\";

@@ -39,10 +39,8 @@ public class Pokemon extends AbstractPokemon {
     private double hitboxWidth = 1.0;
     private double hitboxHeight = 1.0;
     private String shoulderMountEffect;
-    private boolean modeled = false;
     @Nullable
     private Aspect formAdditionAspect;
-    private Game game;
     private boolean usesBigModel = false;
 
     public Pokemon(String name, Type primaryType, Type secondaryType, Stats stats, List<Ability> abilities, Ability hiddenAbility, int height, int weight, Stats evYield, int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup, int baseFriendship, int eggCycles, List<EggGroup> eggGroups, List<String> dexEntries, List<EvolutionEntry> evolutions, List<MoveLearnSetEntry> learnSet, List<Label> labels, int dropAmount, List<ItemDrop> drops, SpawnContext spawnContext, SpawnPool spawnPool, int minSpawnLevel, int maxSpawnLevel, double spawnWeight, List<SpawnCondition> spawnConditions, List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets, double baseScale, double portraitScale, List<PokemonForm> forms) {
@@ -131,10 +129,17 @@ public class Pokemon extends AbstractPokemon {
         this.hitboxWidth = 6;
         this.hitboxHeight = 6;
         POKEMON_REGISTRY.put(this.name.toLowerCase().replaceAll("\\W", ""), this);
+        forms.forEach(form -> form.setFormOf(this));
     }
 
     public static Set<String> getKeysByValue(Map<String, List<Pokemon>> map, Pokemon value) {
         return map.entrySet().stream().filter(entry -> entry.getValue().contains(value)).map(Map.Entry::getKey).collect(Collectors.toSet());
+    }
+
+
+    public void processAssets(String resourcesDir){
+            processPokemonAssets(this, resourcesDir, hasGenderDifferences);
+            forms.forEach(form -> form.processPokemonAssets(form, resourcesDir, hasGenderDifferences));
     }
 
     public static void postRegistration() {
@@ -552,9 +557,10 @@ public class Pokemon extends AbstractPokemon {
     }
 
     protected void setPortraitXYZ(double x, double y, double z) {
-        this.setPortraitTranslationX(x);
+        //TODO
+        /*this.setPortraitTranslationX(x);
         this.setPortraitTranslationY(y);
-        this.setPortraitTranslationZ(z);
+        this.setPortraitTranslationZ(z);*/
     }
 
     public void setNameDifferentInLangFile(boolean nameDifferentInLangFile) {
@@ -600,21 +606,14 @@ public class Pokemon extends AbstractPokemon {
     }
 
     public void setModeled(boolean modeled) {
+        //TODO
         labels.remove(Label.NOT_MODELED);
         this.forms.forEach(pokemonForm -> pokemonForm.getLabels().remove(Label.NOT_MODELED));
-        this.modeled = modeled;
+//        this.modeled = modeled;
     }
 
     public Aspect getAdditionalAspect() {
         return formAdditionAspect;
-    }
-
-    public void setGame(Game game) {
-        this.game = game;
-    }
-
-    public Game getGame() {
-        return game;
     }
 
     public Pokemon setUsesBigModel() {
@@ -680,9 +679,5 @@ public class Pokemon extends AbstractPokemon {
 
     public Pokemon fishingSpawnFromExisting(){
         return fishingSpawnFromExisting(List.of());
-    }
-
-    public boolean isModeled() {
-        return modeled;
     }
 }

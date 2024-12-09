@@ -18,7 +18,7 @@ public class SpeciesDataJSONWriter {
     private static String RESOURCES_DIR;
     public static void writeSpecies(Game game, String resourcesDir) {
         RESOURCES_DIR = resourcesDir;
-        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
         game.getNewPokemon().forEach(pokemon -> {
             if (!Pokemon.isAnAdditionalForm(pokemon)) {
                 try {
@@ -155,7 +155,9 @@ public class SpeciesDataJSONWriter {
                 entry.addProperty("item", itemDrop.getItemId());
                 entry.addProperty("quantityRange", itemDrop.getQuantityMin() + "-" + itemDrop.getQuantityMax());
                 entry.addProperty("percentage", itemDrop.getChance());
+
             }
+            drops.add("entries", entries);
         }
         return drops;
     }

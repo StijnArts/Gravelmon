@@ -1,11 +1,12 @@
 package drai.dev.data.pokemon;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.games.registry.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
-public abstract class AbstractPokemon {
+public abstract class AbstractPokemon extends WorldRepresentablePokemon {
     protected static String pokemonThatEvolveIntoThemselves = "Encountered pokemon that evolve into Themselves:";
     public static Map<String, Pokemon> POKEMON_REGISTRY = new HashMap<>();
     public static Map<String, List<Pokemon>> ADDITIONAL_FORMS = new HashMap<>();
@@ -17,6 +18,7 @@ public abstract class AbstractPokemon {
     public static List<Aspect> ADDITIONAL_SPECIES_ASPECTS = new ArrayList<>();
 
     protected String name;
+    protected Game game;
     protected Stats stats;
     protected Type primaryType;
     protected Type secondaryType;
@@ -43,15 +45,6 @@ public abstract class AbstractPokemon {
     protected final List<String> dexEntries = new ArrayList<>();
     protected final List<PokemonSpawnData> spawnData = new ArrayList<>();
     protected double baseScale;
-    protected double profileScale = 0.001;
-    protected double profileTranslationZ = 0;
-    protected double profileTranslationY = 1;
-    protected double profileTranslationX = 0;
-    protected final double portraitScale = 0.3;
-    protected double portraitTranslationX = 0;
-    protected double portraitTranslationY = 1.8;
-    protected double portraitTranslationZ = 0;
-
     public AbstractPokemon(String name, Stats stats, Type primaryType, Type secondaryType, List<Ability> abilities, Ability hiddenAbility,
                            int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup,
                            int eggCycles, List<EggGroup> eggGroups, List<String> dexEntries, List<EvolutionEntry> evolutions, List<Label> labels, int dropAmount, List<ItemDrop> drops, int baseFriendship,
@@ -283,72 +276,12 @@ public abstract class AbstractPokemon {
         return baseScale;
     }
 
-    public double getProfileScale() {
-        return profileScale;
-    }
-
-    public void setProfileScale(double profileScale) {
-        this.profileScale = profileScale;
-    }
-
-    public double getProfileTranslationZ() {
-        return profileTranslationZ;
-    }
-
-    public void setProfileTranslationZ(double profileTranslationZ) {
-        this.profileTranslationZ = profileTranslationZ;
-    }
-
-    public double getProfileTranslationY() {
-        return profileTranslationY;
-    }
-
-    public void setProfileTranslationY(double profileTranslationY) {
-        this.profileTranslationY = profileTranslationY;
-    }
-
-    public double getProfileTranslationX() {
-        return profileTranslationX;
-    }
-
-    public void setProfileTranslationX(double profileTranslationX) {
-        this.profileTranslationX = profileTranslationX;
-    }
-
     public void setLearnSet(List<MoveLearnSetEntry> learnSet) {
         this.learnSet = learnSet;
     }
 
     public void setBaseExperienceYield(int baseExperienceYield) {
         this.baseExperienceYield = baseExperienceYield;
-    }
-
-    public double getPortraitScale() {
-        return portraitScale;
-    }
-
-    public double getPortraitTranslationX() {
-        return portraitTranslationX;
-    }
-
-    public void setPortraitTranslationX(double portraitTranslationX) {
-        this.portraitTranslationX = portraitTranslationX;
-    }
-
-    public double getPortraitTranslationY() {
-        return portraitTranslationY;
-    }
-
-    public void setPortraitTranslationY(double portraitTranslationY) {
-        this.portraitTranslationY = portraitTranslationY;
-    }
-
-    public double getPortraitTranslationZ() {
-        return portraitTranslationZ;
-    }
-
-    public void setPortraitTranslationZ(double portraitTranslationZ) {
-        this.portraitTranslationZ = portraitTranslationZ;
     }
 
     protected static boolean isBasedOnOriginalPokemon(Pokemon pokemon) {
@@ -392,5 +325,13 @@ public abstract class AbstractPokemon {
             from.setDropAmount(1);
             from.getDrops().add(new ItemDrop(evolutionEntry, 10, 1, 1));
         }
+    }
+
+    public void setGame(Game game) {
+        this.game = game;
+    }
+
+    public Game getGame() {
+        return game;
     }
 }

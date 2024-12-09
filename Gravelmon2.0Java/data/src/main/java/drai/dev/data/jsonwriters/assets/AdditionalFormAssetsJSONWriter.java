@@ -21,7 +21,7 @@ public class AdditionalFormAssetsJSONWriter {
 
     public static void writeSpecies(String resourcesDir) {
         String dir = resourcesDir + "\\assets\\cobblemon\\bedrock\\species\\additional_forms\\";
-        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
         Pokemon.ADDITIONAL_FORMS.entrySet().forEach(set -> {
             try {
                 Files.createDirectories(new File(dir).toPath());
@@ -36,13 +36,27 @@ public class AdditionalFormAssetsJSONWriter {
     private synchronized static void writePokemon(Map.Entry<String, List<Pokemon>> set, String dir, String resourcesDir, Gson gson) throws IOException {
         if (!set.getValue().isEmpty()) {
             int formCounter = 10;
-
             for (Pokemon pokemon : set.getValue()) {
+                var aspect = pokemon.getAdditionalAspect().getName();
+                if(pokemon.getName().endsWith("One")) {
+                    aspect += "two";
+                    SpeciesFeaturesJSONWriter.writeFeature(aspect, resourcesDir);
+                }
+                if(pokemon.getName().endsWith("Two")) {
+                    aspect += "three";
+                    SpeciesFeaturesJSONWriter.writeFeature(aspect, resourcesDir);
+                }
+                int order = formCounter + java.util.Arrays.asList(Aspect.values()).indexOf(pokemon.getAdditionalAspect());
+                BufferedWriter writer = new BufferedWriter(new FileWriter(dir + order + "_" + GravelmonUtils.getCleanName(set.getKey()) + "_" + aspect + ".json"));
+                writer.write(gson.toJson(pokemon.getSpeciesFileData().toJsonObject("cobblemon:" + GravelmonUtils.getCleanName(set.getKey()), order, List.of(aspect), pokemon)));
+                writer.close();
+                /*
+
                 if (pokemon.isNew() && !pokemon.isModeled()) {
                     int order = formCounter + java.util.Arrays.asList(Aspect.values()).indexOf(pokemon.getAdditionalAspect());
                     JsonObject fileContents = new JsonObject();
                     fileContents.add("species", new JsonPrimitive("cobblemon:" + GravelmonUtils.getCleanName(set.getKey())));
-                    fileContents.add("order", new JsonPrimitive(3));
+                    fileContents.add("order", new JsonPrimitive(order));
                     var variations = new JsonArray();
                     fileContents.add("variations", variations);
                     JsonObject regularVariation = new JsonObject();
@@ -54,15 +68,6 @@ public class AdditionalFormAssetsJSONWriter {
                     var game = pokemon.getGame();
                     var regularAspects = new JsonArray();
                     var shinyAspects = new JsonArray();
-                    var aspect = pokemon.getAdditionalAspect().getName();
-                    if(pokemon.getName().endsWith("One")) {
-                        aspect += "two";
-                        SpeciesFeaturesJSONWriter.writeFeature(aspect, resourcesDir);
-                    }
-                    if(pokemon.getName().endsWith("Two")) {
-                        aspect += "three";
-                        SpeciesFeaturesJSONWriter.writeFeature(aspect, resourcesDir);
-                    }
                     regularAspects.add(aspect);
                     shinyAspects.add(aspect);
                     shinyAspects.add("shiny");
@@ -131,7 +136,7 @@ public class AdditionalFormAssetsJSONWriter {
                     writer.write(gson.toJson(fileContents));
                     writer.close();
                     createPlaceholderTextureIfNotExists(game.getName().toLowerCase(), pokemon.getCleanName() + ".png", resourcesDir, pokemon.usesBigModel());
-                }
+                }*/
             }
         }
     }

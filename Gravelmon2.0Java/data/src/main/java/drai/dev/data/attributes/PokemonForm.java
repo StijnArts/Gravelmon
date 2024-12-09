@@ -1,7 +1,8 @@
 package drai.dev.data.attributes;
 
-import com.cobblemon.mod.common.pokemon.*;
+import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.data.pokemon.Pokemon;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
@@ -9,7 +10,7 @@ import java.util.*;
 public class PokemonForm extends AbstractPokemon {
     private final Boolean isBattleOnly;
     private boolean hasSeparateModel = false;
-
+    private Pokemon formOf;
     public String getFormName() {
         return name;
     }
@@ -43,6 +44,7 @@ public class PokemonForm extends AbstractPokemon {
                 eggCycles, eggGroups, dexEntries, evolutions, labels, dropAmount, drops, baseFriendship, evYield, learnSet, aspects, height, weight, spawnContext, spawnPool, minSpawnLevel,
                 maxSpawnLevel, spawnWeight, spawnConditions, spawnAntiConditions, spawnPresets);
         this.name = name;
+        this.formOf = formOf;
         this.isBattleOnly = isBattleOnly;
     }
 
@@ -90,5 +92,17 @@ public class PokemonForm extends AbstractPokemon {
 
     public Boolean isBattleOnly() {
         return isBattleOnly;
+    }
+
+    public void setFormOf(Pokemon cleanName) {
+        formOf = cleanName;
+    }
+
+    public Pokemon getFormOf() {
+        return formOf;
+    }
+
+    public Game getGame(){
+        return formOf.getGame();
     }
 }
