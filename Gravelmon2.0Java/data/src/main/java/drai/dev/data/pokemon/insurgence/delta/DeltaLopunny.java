@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -198,5 +199,13 @@ public class DeltaLopunny extends Pokemon {
         this.setModeled(true);
         this.setBaseScale(0.6);
         this.setHitbox(1.4,3);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 2f, new Vector3(-0.2, 1.9, 0));
+        getPosingFileData().setProfileData( .5f, new Vector3(0, 1, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().clearPoseTypes(),
+                AnimationData.walkingAnimation().withLook()
+        ));
     }
 }

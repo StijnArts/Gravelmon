@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -188,5 +189,13 @@ public class DeltaLucario extends Pokemon {
         this.setModeled(true);
         this.setBaseScale(1.1);
         this.setHitbox(0.8,2.45);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 2.4f, new Vector3(-0.3, 1, 0));
+        getPosingFileData().setProfileData( .75f, new Vector3(0, .65, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().withBlink().clearPoseTypes(),
+                AnimationData.walkingAnimation().withLook().withBlink()
+        ));
     }
 }

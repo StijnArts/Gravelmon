@@ -1,6 +1,8 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -41,5 +43,19 @@ public class DeltaRuinBeldum extends Pokemon {
         setModeled(true);
         setBaseScale(0.75);
         setHitbox(0.4,0.8);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1f, new Vector3(0, 0.5, 0));
+        getPosingFileData().setProfileData( 1f, new Vector3(0, 0.5, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.battleIdleAnimation().withBlink(),
+                AnimationData.standingAnimation().notBattle().withBlink().clearPoseTypes(),
+                AnimationData.walkingAnimation().withBlink(),
+                AnimationData.hoveringAnimation().addPoseType(PoseType.FLOAT).withBlink(),
+                AnimationData.flyingAnimation().addPoseType(PoseType.SWIM).withBlink(),
+                AnimationData.sleepingAnimation()
+        ));
+        getPosingFileData().setAnimationFileName("beldum");
+        getPosingFileData().setCry("q.bedrock_stateful('beldum', 'cry')");
     }
 }

@@ -47,7 +47,7 @@
 				}
 			}
 		},
-		"animation.deltameloetta.fly": {
+		"animation.deltameloetta.air_fly": {
 			"loop": true,
 			"bones": {
 				"meloetta": {

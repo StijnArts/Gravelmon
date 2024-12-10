@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -108,5 +109,15 @@ public class DeltaRalts extends Pokemon {
         this.setModeled(true);
         this.setBaseScale(1);
         this.setHitbox(0.5,0.9);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 2.7f, new Vector3(0.1, -1.8, 0));
+        getPosingFileData().setProfileData( .9f, new Vector3(0, 0.4, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().clearPoseTypes().withLook(),
+                AnimationData.walkingAnimation().withLook(),
+                AnimationData.sleepingAnimation()
+        ));
+        getPosingFileData().setFaint("bedrock("+this.getCleanName()+", faint)");
     }
 }

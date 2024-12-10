@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -132,5 +133,13 @@ public class DeltaKoffing extends Pokemon {
         this.setModeled(true);
         this.setBaseScale(0.9);
         this.setHitbox(0.9,1.2);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.7f, new Vector3(-.2, -.2, 0));
+        getPosingFileData().setProfileData( .8f, new Vector3(0, .4, 0));
+        getPosingFileData().head = "koffing";
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().withBlink().clearPoseTypes(),
+                AnimationData.walkingAnimation().withLook().withBlink()
+        ));
     }
 }

@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -152,5 +153,16 @@ public class DeltaWartortle extends Pokemon {
         this.setModeled(true);
         this.setBaseScale(0.9);
         this.setHitbox(0.7,1.5);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 2f, new Vector3(-.3, .4, 0));
+        getPosingFileData().setProfileData( 0.7f, new Vector3(-.10, .7, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().clearPoseTypes(),
+                AnimationData.walkingAnimation().withLook(),
+                AnimationData.floatingAnimation().withLook(),
+                AnimationData.swimmingAnimation().withLook()
+        ));
+        getPosingFileData().setFaint("bedrock("+this.getCleanName()+", faint)");
     }
 }

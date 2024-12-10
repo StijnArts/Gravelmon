@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -129,5 +130,15 @@ public class DeltaHeatmor extends Pokemon {
         this.setModeled(true);
         this.setBaseScale(1);
         this.setHitbox(1,1);
+        getSpeciesFileData().addBasicVariation(this).addLayer(
+                SimpleTextureLayerData.glowLayer(this)
+        );
+        getPosingFileData().setPortraitData( 3.5f, new Vector3(-.8, -.25, 0));
+        getPosingFileData().setProfileData( .85f, new Vector3(0, .4, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().clearPoseTypes(),
+                AnimationData.walkingAnimation()
+        ));
     }
 }

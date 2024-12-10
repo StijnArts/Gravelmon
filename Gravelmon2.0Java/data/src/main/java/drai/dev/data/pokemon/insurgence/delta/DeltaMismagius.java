@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -122,5 +123,14 @@ public class DeltaMismagius extends Pokemon {
         setBaseScale(1.0);
         setHitbox(1.0, 2.0);
         setModeled(true);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 2f, new Vector3(-1, 2.5, 0));
+        getPosingFileData().setProfileData( .6f, new Vector3(0, 1.25, 0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withBlink().clearPoseTypes(),
+                AnimationData.walkingAnimation().withBlink(),
+                AnimationData.flyingAnimation().withBlink(),
+                AnimationData.hoveringAnimation().withBlink()
+        ));
     }
 }

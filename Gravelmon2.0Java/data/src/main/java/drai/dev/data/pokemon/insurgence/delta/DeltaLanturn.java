@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -121,5 +122,13 @@ public class DeltaLanturn extends Pokemon {
         this.setHitbox(1, 1.4);
         this.setBaseScale(1);
         this.setCanFly(true);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.6f, new Vector3(-.6, -.6, 0));
+        getPosingFileData().setProfileData( .6f, new Vector3(0, .7, 0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withBlink().clearPoseTypes(),
+                AnimationData.hoveringAnimation().withBlink()
+        ));
+        getPosingFileData().setAnimationFileName("lanturn_delta");
     }
 }

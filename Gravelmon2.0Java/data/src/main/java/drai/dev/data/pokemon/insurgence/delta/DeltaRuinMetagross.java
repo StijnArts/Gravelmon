@@ -1,6 +1,8 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -184,5 +186,18 @@ public class DeltaRuinMetagross extends Pokemon {
         setModeled(true);
         setBaseScale( 1.3);
         setHitbox(1.8,1.6);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( .5f, new Vector3(0, .80, 0));
+        getPosingFileData().setProfileData( .5f, new Vector3(0, .80, 0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.battleIdleAnimation().withBlink(),
+                AnimationData.standingAnimation().notBattle().withBlink().clearPoseTypes(),
+                AnimationData.walkingAnimation().withBlink(),
+                AnimationData.hoveringAnimation().addPoseType(PoseType.FLOAT).withBlink(),
+                AnimationData.flyingAnimation().addPoseType(PoseType.SWIM).withBlink(),
+                AnimationData.sleepingAnimation()
+        ));
+        getPosingFileData().setAnimationFileName("metagross");
+        getPosingFileData().setCry("q.bedrock_stateful('metagross', 'cry')");
     }
 }

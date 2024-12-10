@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -131,5 +132,14 @@ public class DeltaGrovyle extends Pokemon {
         this.setModeled(true);
         this.setBaseScale(1);
         this.setHitbox(1,1.6);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 2.8f, new Vector3(.6, .7, 0));
+        getPosingFileData().setProfileData( .8f, new Vector3(0, .6, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().withBlink().clearPoseTypes(),
+                AnimationData.walkingAnimation().withLook().withBlink()
+        ));
+        getPosingFileData().setAnimationFileName("deltatreecko");
     }
 }

@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -141,5 +142,13 @@ public class DeltaEmolga extends Pokemon {
         this.setModeled(true);
         this.setBaseScale(0.6);
         this.setHitbox(0.9,1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 2.3f, new Vector3(-0.1, -0.7, 0));
+        getPosingFileData().setProfileData( .8f, new Vector3(0, 0.6, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().clearPoseTypes(),
+                AnimationData.walkingAnimation().withLook()
+        ));
     }
 }

@@ -16,6 +16,11 @@ public class SimpleTextureLayerData extends BasicLayerData {
         this.textureName = textureName;
     }
 
+    public static BasicLayerData glowLayer(AbstractPokemon abstractPokemon) {
+        return new SimpleTextureLayerData("glow", abstractPokemon.getCleanName()+"_emissive",
+                true, true, false, true);
+    }
+
     public JsonObject toJsonObject(AbstractPokemon abstractPokemon){
         return toJsonObject(abstractPokemon, false);
     }

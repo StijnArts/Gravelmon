@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -115,5 +116,13 @@ public class DeltaDoduo extends Pokemon {
         this.setModeled(true);
         this.setBaseScale(1.3);
         this.setHitbox(0.6,1.4);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.8f, new Vector3(-0, .6, 0));
+        getPosingFileData().setProfileData( .85f, new Vector3(0, .5, 0));
+        getPosingFileData().head = "head";
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().clearPoseTypes(),
+                AnimationData.walkingAnimation().withLook()
+        ));
     }
 }

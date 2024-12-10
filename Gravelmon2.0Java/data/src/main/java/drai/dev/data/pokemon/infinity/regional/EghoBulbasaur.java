@@ -118,7 +118,7 @@ public class EghoBulbasaur extends Pokemon {
         getPosingFileData().setProfileData( .9f, new Vector3(0, .4, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().clearPoseTypes().withBlink(),
+                AnimationData.standingAnimation().clearPoseTypes().withLook().withBlink(),
                 AnimationData.walkingAnimation().withLook().withBlink(),
                 AnimationData.sleepingAnimation()
         ));

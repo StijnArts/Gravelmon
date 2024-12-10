@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -134,5 +135,13 @@ public class DeltaWeezing extends Pokemon {
         this.setModeled(true);
         this.setBaseScale(1.2);
         this.setHitbox(1.3,1.4);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.8f, new Vector3(-.1, -.5, 0));
+        getPosingFileData().setProfileData( .8f, new Vector3(0, .4, 0));
+        getPosingFileData().head = "weezing";
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().withBlink().clearPoseTypes(),
+                AnimationData.walkingAnimation().withLook().withBlink()
+        ));
     }
 }

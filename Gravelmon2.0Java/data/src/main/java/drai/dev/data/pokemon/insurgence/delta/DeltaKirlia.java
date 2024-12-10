@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -115,5 +116,18 @@ public class DeltaKirlia extends Pokemon {
         this.setModeled(true);
         this.setBaseScale(0.9);
         this.setHitbox(0.5,1.4);
+        getSpeciesFileData().addBasicVariation(this).addLayer(
+                new SimpleTextureLayerData("glow", this.getCleanName()+"_emissive",
+                        true, true, false, true)
+        );
+        getPosingFileData().setPortraitData( 2.65f, new Vector3(-0.2, -.4, 0));
+        getPosingFileData().setProfileData( .8f, new Vector3(0, 0.55, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().clearPoseTypes(),
+                AnimationData.walkingAnimation().withLook(),
+                AnimationData.sleepingAnimation()
+        ));
+        getPosingFileData().setFaint("bedrock("+this.getCleanName()+", faint)");
     }
 }
