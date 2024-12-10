@@ -1,6 +1,8 @@
 package drai.dev.data.jsonwriters.assets;
 
 import com.google.gson.*;
+import drai.dev.data.attributes.assets.*;
+import drai.dev.data.pokemon.*;
 
 import java.io.*;
 import java.nio.file.*;
@@ -8,18 +10,19 @@ import java.util.*;
 
 public class ModelJsonWriter {
     private static List<String> generatedModels = new ArrayList<>();
-    public static void writeModel(String modelName, int width, int height, String resourcesDir) {
+    public static void writeModel(AbstractPokemon abstractPokemon,int width, int height, String resourcesDir) {
         try {
+
             String dir = resourcesDir + "\\assets\\cobblemon\\bedrock\\pokemon\\models\\";
-            var modelLocation = dir + modelName + ".geo.json";
+            var modelLocation = dir + abstractPokemon.getPlaceholderModelName() + ".geo.json";
             if(generatedModels.contains(modelLocation)) return;
             generatedModels.add(modelLocation);
             Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
-
             Files.createDirectories(new File(dir).toPath());
             BufferedWriter writer = new BufferedWriter(new FileWriter(new File(modelLocation)));
             writer.write(gson.toJson(getModelJson(width, height)));
             writer.close();
+            PoserJSONWriter.createPoserFile(abstractPokemon.getPosingFileData(), abstractPokemon.getPlaceholderModelName(), resourcesDir, gson);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

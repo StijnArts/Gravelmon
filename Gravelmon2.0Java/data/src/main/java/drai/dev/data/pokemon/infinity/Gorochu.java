@@ -1,6 +1,8 @@
 package drai.dev.data.pokemon.infinity;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -128,5 +130,18 @@ public class Gorochu extends Pokemon {
         setHitbox(1,1);
         addAdditionalEvolution("pikachu", new EvolutionEntry("gorochu", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"cobblemon:fire_stone"));
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("gorochu");
+        getPosingFileData().setPortraitData( 1.8f, new Vector3(0.0, 0.4, 0.0));
+        getPosingFileData().setProfileData( .7f, new Vector3(0.0, 0.75, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.battleIdleAnimation().withBlink(),
+                AnimationData.standingAnimation().notBattle().withBlink().withLook().addPoseType(PoseType.FLOAT).addPoseType(PoseType.HOVER),
+                AnimationData.walkingAnimation().withBlink().withLook().addPoseType(PoseType.SWIM).addPoseType(PoseType.FLY),
+                AnimationData.sleepingAnimation()
+        ));
+        getPosingFileData().setCry("bedrock(gorochu, cry)");
+
     }
 }

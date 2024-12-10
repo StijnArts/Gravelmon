@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.infinity;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -99,5 +100,12 @@ public class Kokiseed extends Pokemon {
         this.setPortraitXYZ(0,1.8,0);
         this.setModeled(true);
         this.setBaseScale(0.7);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 2.1f, new Vector3(0, -.9, 0));
+        getPosingFileData().setProfileData( 1.2f, new Vector3(0, .0, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().clearAnimations().withLook().clearPoseTypes()
+        ));
     }
 }

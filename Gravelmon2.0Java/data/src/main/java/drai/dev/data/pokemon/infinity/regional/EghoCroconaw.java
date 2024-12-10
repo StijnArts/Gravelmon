@@ -1,6 +1,8 @@
 package drai.dev.data.pokemon.infinity.regional;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -137,5 +139,13 @@ public class EghoCroconaw extends Pokemon {
         setModeled(true);
         setBaseScale(1);
         setHitbox(1,1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 0.8f, new Vector3(0, 0.6, 0));
+        getPosingFileData().setProfileData( .8f, new Vector3(0, 0.6, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().clearPoseTypes().withBlink()
+        ));
+        getPosingFileData().setAnimationFileName("croconaw_egho");
     }
 }

@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.infinity.regional;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -128,5 +129,13 @@ public class EghoBlastoise extends Pokemon {
         this.setCanSwim(false);
         this.setCanFly(true);
         this.setHitbox(1.6,2.5);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 2.1f, new Vector3(-0.8, 2.4, 0));
+        getPosingFileData().setProfileData( .6f, new Vector3(0.1, 1.2, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().withBlink().clearPoseTypes()
+        ));
+        getPosingFileData().setAnimationFileName("blastoise_egho");
     }
 }

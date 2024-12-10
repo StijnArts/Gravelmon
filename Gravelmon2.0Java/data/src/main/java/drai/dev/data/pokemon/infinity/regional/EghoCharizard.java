@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.infinity.regional;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -141,5 +142,19 @@ public class EghoCharizard extends Pokemon {
         this.setBaseScale(1.05);
         this.setCanFly(true);
         this.setHitbox(2.3,3.4);
+        getSpeciesFileData().addBasicVariation(this).addLayer(
+                new AnimatedLayerData("flame",
+                        List.of("flame/flame1", "flame/flame2", "flame/flame3", "flame/flame4", "flame/flame5", "flame/flame6"),
+                        10, true,
+                        true, false, false, true))
+                .addLayer(new SimpleTextureLayerData("glow", "eghocharizard_emissive",
+                        true, true, true, false));
+        getPosingFileData().setPortraitData( 2.1f, new Vector3(-1.3,3.1, 0));
+        getPosingFileData().setProfileData( 0.4f, new Vector3(-0.4, 1.2, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().clearPoseTypes()
+        ));
+        getPosingFileData().setAnimationFileName("charizard_egho");
     }
 }

@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.blazingemerald.regional;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -75,5 +76,13 @@ public class HoennianUrsaring extends Pokemon {
         this.setModeled(true);
         this.setHitbox(0.7, 2.14);
         this.setBaseScale(1.1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("ursaring_hoennian");
+        getPosingFileData().setPortraitData( 2.1f, new Vector3(-0.1, 1.6, 0.0));
+        getPosingFileData().setProfileData( .65f, new Vector3(0.0, 0.7, 0.0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().notBattle().withBlink().clearPoseTypes()
+        ));
     }
 }

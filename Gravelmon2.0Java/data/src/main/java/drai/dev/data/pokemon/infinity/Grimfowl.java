@@ -1,6 +1,8 @@
 package drai.dev.data.pokemon.infinity;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -106,5 +108,19 @@ public class Grimfowl extends Pokemon {
         setModeled(true);
         setBaseScale(0.85);
         setHitbox(1.2, 2.4);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("grimfowl");
+        getPosingFileData().setPortraitData( 1.7f, new Vector3(-0.6, 2.1, -10.0));
+        getPosingFileData().setProfileData( .5f, new Vector3(0.0, 1.05, 0.0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withBlink().withLook()
+                        .addPoseType(PoseType.SWIM).addPoseType(PoseType.FLY)
+                        .addPoseType(PoseType.FLOAT).addPoseType(PoseType.HOVER)
+                        .addPoseType(PoseType.SLEEP).addPoseType(PoseType.WALK),
+                AnimationData.flyingAnimation().withLook().addAnimation(1,"q.sine_wing_flap(0.9, 0.9, 0, 'z', 'wing_left', 'wing_right')").withBlink()
+        ));
+        getPosingFileData().setCry("q.bedrock_stateful('grimfowl', 'cry')");
+
     }
 }

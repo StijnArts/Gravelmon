@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.infinity.regional;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -135,5 +136,19 @@ public class EghoTotodile extends Pokemon {
         setModeled(true);
         setBaseScale(0.5);
         setHitbox(1,1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 0.7f, new Vector3(0, 0.4, 0));
+        getPosingFileData().setProfileData( .7f, new Vector3(0, 0.4, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().withBlink(),
+                AnimationData.walkingAnimation().withBlink(),
+                AnimationData.floatingAnimation().withBlink(),
+                AnimationData.swimmingAnimation().withBlink(),
+                AnimationData.sleepingAnimation()
+        ));
+        getPosingFileData().setAnimationFileName("totodile_egho");
+        getPosingFileData().setCry("q.bedrock_stateful('totodile_egho', 'cry')");
+        getPosingFileData().setFaint("bedrock(totodile_egho, faint)");
     }
 }

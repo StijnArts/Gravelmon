@@ -81,7 +81,7 @@
 				}
 			}
 		},
-		"animation.chinchou_delta.hover": {
+		"animation.chinchou_delta.air_idle": {
 			"loop": true,
 			"bones": {
 				"stem_left": {
@@ -155,7 +155,7 @@
 				}
 			}
 		},
-		"animation.chinchou_delta.fly": {
+		"animation.chinchou_delta.air_fly": {
 			"loop": true,
 			"bones": {
 				"stem_left": {

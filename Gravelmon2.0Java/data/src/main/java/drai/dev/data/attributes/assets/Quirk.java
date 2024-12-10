@@ -11,14 +11,20 @@ public class Quirk extends BasicAnimationData {
     public Quirk(String animationName, List<String> animations) {
         super(animationName, animations);
     }
+    public Quirk(String animationName, List<String> animations, int loopTimes, int minSecondsBetweenOccurrences, int maxSecondsBetweenOccurrences) {
+        super(animationName, animations);
+        this.loopTimes = loopTimes;
+        this.minSecondsBetweenOccurrences = minSecondsBetweenOccurrences;
+        this.maxSecondsBetweenOccurrences = maxSecondsBetweenOccurrences;
+    }
 
     public JsonObject getAnimationJson(String animationFileName) {
         var json = super.getAnimationJson(animationFileName);
         json.remove("poseName");
         json.addProperty("name", animationName);
-        json.addProperty("loopTimes", loopTimes);
-        json.addProperty("minSecondsBetweenOccurrences", minSecondsBetweenOccurrences);
-        json.addProperty("maxSecondsBetweenOccurrences", maxSecondsBetweenOccurrences);
+        if(loopTimes > 0) json.addProperty("loopTimes", loopTimes);
+        if(minSecondsBetweenOccurrences > 0) json.addProperty("minSecondsBetweenOccurrences", minSecondsBetweenOccurrences);
+        if(maxSecondsBetweenOccurrences > 0) json.addProperty("maxSecondsBetweenOccurrences", maxSecondsBetweenOccurrences);
         return json;
     }
 

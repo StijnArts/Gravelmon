@@ -1,6 +1,8 @@
 package drai.dev.data.pokemon.blazingemerald;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.data.util.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
@@ -64,6 +66,18 @@ public class Oreon extends Pokemon {
         addAdditionalEvolution("eevee", new EvolutionEntry("oreon", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"minecraft:cookie"));
         setModeled(true);
+
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("umbreon");
+        getPosingFileData().setPortraitData(1f, new Vector3(0, 0.2, 0));
+        getPosingFileData().setProfileData(0.8f, new Vector3(0, .6, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().notBattle().withBlink(),
+                AnimationData.walkingAnimation().withBlink().addPoseType(PoseType.SWIM)
+        ));
+        getPosingFileData().setCryFromAnimationType("q.bedrock_stateful");
+
         setBaseScale(0.7);
         setHitbox(1,1);
     }

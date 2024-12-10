@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.infinity.regional;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -104,5 +105,16 @@ public class EghoNoctowl extends Pokemon {
         setModeled(true);
         setBaseScale(0.95);
         setHitbox(1.25,1.9);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.7f, new Vector3(-0.3, 1, 0.0));
+        getPosingFileData().setProfileData( .7f, new Vector3(0.0, .6825, -20.0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withBlink().clearPoseTypes(),
+                AnimationData.flyingAnimation().withLook()
+                        .addAnimation(1,"q.sine_wing_flap(0.9, 0.9, 0, 'z', 'wing_left', 'wing_right')")
+                        .withBlink(),
+                AnimationData.sleepingAnimation()
+        ));
+        getPosingFileData().setCry("q.bedrock_stateful('eghonoctowl', 'cry')");
     }
 }

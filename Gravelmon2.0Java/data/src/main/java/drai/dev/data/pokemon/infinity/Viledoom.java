@@ -1,6 +1,8 @@
 package drai.dev.data.pokemon.infinity;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -112,5 +114,15 @@ public class Viledoom extends Pokemon {
         setModeled(true);
         setBaseScale(1);
         setHitbox(1,1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.7f, new Vector3(-0.2, .7, 0));
+        getPosingFileData().setProfileData( .7f, new Vector3(0, .95, -20));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withBlink().addPoseType(PoseType.FLOAT).addPoseType(PoseType.HOVER),
+                AnimationData.walkingAnimation().withBlink().addPoseType(PoseType.SWIM).addPoseType(PoseType.FLY),
+                AnimationData.sleepingAnimation()
+        ));
+        getPosingFileData().setFaint("q.bedrock_primary('viledoom', 'faint')");
     }
 }

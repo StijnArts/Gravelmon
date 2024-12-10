@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.infinity.regional;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -120,5 +121,17 @@ public class EghoCharmeleon extends Pokemon {
         this.setModeled(true);
         this.setBaseScale(0.8);
         this.setHitbox(1.3,2.0);
+        getSpeciesFileData().addBasicVariation(this).addLayer(
+                new AnimatedLayerData("flame",
+                        List.of("flame/tail1", "flame/tail2", "flame/tail3", "flame/tail4"),
+                        10, true,
+                        true, false, false, true));
+        getPosingFileData().setPortraitData( 2f, new Vector3(-1.2,2.3, 0));
+        getPosingFileData().setProfileData( 0.4f, new Vector3(-0.0, 1.1, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().clearPoseTypes().withBlink()
+        ));
+        getPosingFileData().setAnimationFileName("charmeleon_egho");
     }
 }

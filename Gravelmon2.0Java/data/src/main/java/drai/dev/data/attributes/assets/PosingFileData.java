@@ -1,5 +1,6 @@
 package drai.dev.data.attributes.assets;
 
+import com.cobblemon.mod.common.entity.*;
 import com.google.gson.*;
 
 import java.util.*;
@@ -15,6 +16,8 @@ public class PosingFileData {
     private String cry;
     private String physical;
     private String special;
+    private String status;
+    private String recoil;
     public String head;
 
     public JsonElement getPosesJson() {
@@ -28,6 +31,8 @@ public class PosingFileData {
         var hasCry = cry != null && !cry.isEmpty();
         var hasPhysical = physical != null && !physical.isEmpty();
         var hasSpecial = special != null && !special.isEmpty();
+        var hasStatus = status != null && !status.isEmpty();
+        var hasRecoil = recoil != null && !recoil.isEmpty();
         if(hasFaint || hasCry || hasPhysical || hasSpecial) {
             var animationsJson = new JsonObject();
             poserJson.add("animations", animationsJson);
@@ -35,6 +40,8 @@ public class PosingFileData {
             if(hasCry) animationsJson.addProperty("cry", cry);
             if(hasPhysical) animationsJson.addProperty("physical", physical);
             if(hasSpecial) animationsJson.addProperty("special", special);
+            if(hasStatus) animationsJson.addProperty("status", status);
+            if(hasRecoil) animationsJson.addProperty("recoil", recoil);
         }
         var poses = new JsonObject();
         animations.forEach(animation->poses.add(animation.animationName, animation.getAnimationJson(animationFileName)));
@@ -82,6 +89,14 @@ public class PosingFileData {
         this.special = special;
     }
 
+    public void setRecoil(String recoil) {
+        this.recoil = recoil;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
     public void setPortraitData(float scale, Vector3 positioning){
         this.portraitScale = scale;
         this.portraitCoords = positioning;
@@ -102,5 +117,11 @@ public class PosingFileData {
 
     public void setAnimationFileName(String animationFileName) {
         this.animationFileName = animationFileName;
+    }
+
+    public void shoulderAnimations() {
+        var leftShoulder = new AnimationData("shoulder_left", List.of(PoseType.SHOULDER_LEFT), List.of("shoulder"), List.of(), 10);
+        var rightShoulder = new AnimationData("shoulder_right", List.of(PoseType.SHOULDER_RIGHT), List.of("shoulder"), List.of(), 10);;
+        animations.add(leftShoulder);
     }
 }

@@ -11,7 +11,7 @@ public class SimpleTextureLayerData extends BasicLayerData {
         this.textureName = textureName;
     }
 
-    public SimpleTextureLayerData(String name, boolean emissive, String textureName, boolean translucent, boolean considerGender, boolean considerShiny) {
+    public SimpleTextureLayerData(String name, String textureName, boolean emissive, boolean translucent, boolean considerGender, boolean considerShiny) {
         super(name, emissive, translucent, considerGender, considerShiny);
         this.textureName = textureName;
     }

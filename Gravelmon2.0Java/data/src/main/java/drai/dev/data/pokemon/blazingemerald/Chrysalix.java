@@ -92,5 +92,6 @@ public class Chrysalix extends Pokemon {
         setModeled(true);
         setBaseScale(1.5);
         setHitbox(1,1);
+
     }
 }

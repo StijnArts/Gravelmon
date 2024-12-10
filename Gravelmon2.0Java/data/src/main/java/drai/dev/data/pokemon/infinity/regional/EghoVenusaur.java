@@ -1,6 +1,8 @@
 package drai.dev.data.pokemon.infinity.regional;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -125,5 +127,16 @@ public class EghoVenusaur extends Pokemon {
         this.setBaseScale(2);
         this.setModeled(true);
         this.setHitbox(1.5,1.4);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("venusaur_egho");
+        getPosingFileData().setPortraitData( 1.8f, new Vector3(-0.4, -.8, 0));
+        getPosingFileData().setProfileData( .8f, new Vector3(0, .5, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().clearPoseTypes().withBlink(),
+                AnimationData.walkingAnimation().withBlink(),
+                AnimationData.sleepingAnimation()
+        ));
+        getPosingFileData().setFaint("bedrock(venusaur_egho, faint)");
     }
 }

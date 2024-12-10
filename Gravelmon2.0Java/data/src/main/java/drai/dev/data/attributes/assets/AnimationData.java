@@ -12,6 +12,7 @@ public class AnimationData extends BasicAnimationData {
     List<TransformedPartData> transformedPartDataList = new ArrayList<>();
     Optional<Boolean> isBattle = Optional.empty();
     Optional<Boolean> isTouchingWater = Optional.empty();
+    private Optional<Boolean> allPoseTypes;
 
     public AnimationData(String animationName, List<PoseType> poseTypes, List<String> animations, List<Quirk> quirks, int transformTicks) {
         super(animationName, animations);
@@ -38,8 +39,42 @@ public class AnimationData extends BasicAnimationData {
         return new AnimationData("walking", List.of(PoseType.WALK), List.of("ground_walk"), List.of(), 10);
     }
 
+    public static AnimationData hoveringAnimation(){
+        return new AnimationData("hovering", List.of(PoseType.HOVER), List.of("air_idle"), List.of(), 10);
+    }
+
+    public static AnimationData flyingAnimation(){
+        return new AnimationData("flying", List.of(PoseType.WALK), List.of("air_fly"), List.of(), 10);
+    }
+
+    public static AnimationData floatingAnimation(){
+        return new AnimationData("floating", List.of(PoseType.FLOAT), List.of("water_idle"), List.of(), 10);
+    }
+
+    public static AnimationData swimmingAnimation(){
+        return new AnimationData("swimming", List.of(PoseType.SWIM), List.of("water_swim"), List.of(), 10);
+    }
+
+    public static AnimationData emptyAnimation() {
+        return new AnimationData("none", List.of(), List.of(), List.of(), 10);
+    }
+
     public AnimationData notBattle() {
         setIsBattle(false);
+        return this;
+    }
+
+    public AnimationData withBlink(int numberOfBlinkAnimations){
+        var blinkList = new ArrayList<String>();
+        for (int i = 0; i < numberOfBlinkAnimations; i++) {
+            if(i == 0) {
+                blinkList.add("blink");
+                continue;
+            }
+            blinkList.add("blink" + i);
+        }
+        var quirk = new Quirk("blink", blinkList);
+        quirks.add(quirk);
         return this;
     }
 
@@ -48,14 +83,28 @@ public class AnimationData extends BasicAnimationData {
         return this;
     }
 
+    public AnimationData withLook() {
+        animations.add(0, "look");
+        return this;
+    }
+
+    public AnimationData addPoseType(PoseType poseType) {
+        this.poseTypes.add(poseType);
+        return this;
+    }
+
     public JsonObject getAnimationJson(String animationFileName) {
         var json = super.getAnimationJson(animationFileName);
-        var poseTypesJson = new JsonArray();
-        poseTypes.forEach(poseType -> poseTypesJson.add(poseType.name()));
-        json.add("poseTypes", poseTypesJson);
+        if(!poseTypes.isEmpty()) {
+            var poseTypesJson = new JsonArray();
+            poseTypes.forEach(poseType -> poseTypesJson.add(poseType.name()));
+            json.add("poseTypes", poseTypesJson);
+        }
+
         json.addProperty("transformTicks", transformTicks);
         isBattle.ifPresent(aBoolean -> json.addProperty("isBattle", aBoolean));
         isTouchingWater.ifPresent(aBoolean -> json.addProperty("isTouchingWater", aBoolean));
+        allPoseTypes.ifPresent(aBoolean -> json.addProperty("allPoseTypes", aBoolean));
         var quirksJson = new JsonArray();
         var transformedParts = new JsonArray();
         transformedPartDataList.forEach(transformedPart -> transformedParts.add(transformedPart.toJsonObjet()));
@@ -110,8 +159,29 @@ public class AnimationData extends BasicAnimationData {
         return this;
     }
 
-    public AnimationData addPoseType(PoseType poseType) {
-        this.poseTypes.add(poseType);
+    public AnimationData addAnimation(String animation) {
+        animations.add(animation);
+        return this;
+    }
+
+    public AnimationData addAnimation(int index, String animation) {
+        animations.add(index, animation);
+        return this;
+    }
+
+    public AnimationData clearPoseTypes() {
+        poseTypes.clear();
+        allPoseTypes = Optional.of(true);
+        return this;
+    }
+
+    public AnimationData clearAnimations() {
+        animations.clear();
+        return this;
+    }
+
+    public AnimationData addQuirk(Quirk quirk) {
+        quirks.add(quirk);
         return this;
     }
 }

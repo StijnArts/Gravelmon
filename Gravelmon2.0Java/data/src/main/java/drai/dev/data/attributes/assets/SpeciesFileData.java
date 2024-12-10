@@ -38,7 +38,9 @@ public class SpeciesFileData {
         return jsonObject;
     }
 
-    public void addBasicVariation(AbstractPokemon abstractPokemon) {
-        variations.add(VariationData.fromPokemon(abstractPokemon, List.of()));
+    public VariationData addBasicVariation(AbstractPokemon abstractPokemon) {
+        var variation = VariationData.fromPokemon(abstractPokemon, List.of());
+        variations.add(variation);
+        return variation;
     }
 }

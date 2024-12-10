@@ -1,6 +1,8 @@
 package drai.dev.data.pokemon.blazingemerald.regional;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.data.util.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
@@ -77,5 +79,21 @@ public class HoennianDreepy extends Pokemon {
         setModeled(true);
         setBaseScale(1);
         setHitbox(1,1);
+        getSpeciesFileData()
+                .addBasicVariation(this)
+                .addLayer(
+                        new AnimatedLayerData("flame", List.of("dreepy_flame0_emissive", "dreepy_flame1_emissive"), 4,
+                                true, true, false, false, true)
+                );
+        getPosingFileData().setAnimationFileName("hoenniandreepy");
+        getPosingFileData().setPortraitData(1f, new Vector3(0, 0.5, 0));
+        getPosingFileData().setProfileData(1f, new Vector3(0, 0.5, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().notBattle().withBlink().addPoseType(PoseType.FLOAT).addPoseType(PoseType.HOVER),
+                AnimationData.walkingAnimation().withBlink().addPoseType(PoseType.SWIM).addPoseType(PoseType.FLY),
+                AnimationData.battleIdleAnimation().withBlink()
+        ));
+        getPosingFileData().setCry("q.bedrock_stateful('hoenniandreepy', 'cry')");
     }
 }

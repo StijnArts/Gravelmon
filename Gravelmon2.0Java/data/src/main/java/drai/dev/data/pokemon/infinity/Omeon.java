@@ -1,6 +1,8 @@
 package drai.dev.data.pokemon.infinity;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -127,5 +129,13 @@ public class Omeon extends Pokemon {
         this.setBaseScale(0.8);
         addAdditionalEvolution("eevee", new EvolutionEntry("omeon", EvolutionType.ITEM_INTERACT, false, List.of(new MoveLearnSetEntry(Move.VANISH, 0)),
                 List.of(),List.of(),"cobblemon:dusk_stone"));
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.9f, new Vector3(-0.4, -0.3, 0));
+        getPosingFileData().setProfileData( .9f, new Vector3(0, .35, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withBlink().addPoseType(PoseType.FLOAT).addPoseType(PoseType.HOVER).withLook(),
+                AnimationData.walkingAnimation().withBlink().addPoseType(PoseType.SWIM).addPoseType(PoseType.FLY).withLook()
+        ));
     }
 }

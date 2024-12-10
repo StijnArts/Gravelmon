@@ -1,6 +1,8 @@
 package drai.dev.data.pokemon.infinity.regional;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -101,5 +103,16 @@ public class EghoHoothoot extends Pokemon {
         setModeled(true);
         setBaseScale(0.8);
         setHitbox(0.8,1.0);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.9f, new Vector3(-0.2, -.5, -10.0));
+        getPosingFileData().setProfileData( 1f, new Vector3(0.0, .3, 0.0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withBlink().clearPoseTypes(),
+                AnimationData.flyingAnimation().clearAnimations()
+                        .addAnimation(1,"q.sine_wing_flap(0.9, 0.9, 0, 'z', 'wing_left', 'wing_right')")
+                        .withBlink(),
+                AnimationData.sleepingAnimation()
+        ));
+        getPosingFileData().setCry("q.bedrock_stateful('eghohoothoot', 'cry')");
     }
 }

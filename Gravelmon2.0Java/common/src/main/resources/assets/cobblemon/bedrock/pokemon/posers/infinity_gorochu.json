@@ -56,18 +56,6 @@
       "animations": [
         "bedrock(gorochu, ground_sleep)"
       ]
-    },
-    "profile": {
-      "poseName": "profile",
-      "poseTypes": ["PROFILE"],
-      "transformTicks": 10,
-      "animations": ["bedrock(cutout, pc_fix)"]
-    },
-    "portrait": {
-      "poseName": "portrait",
-      "poseTypes": ["NONE","PORTRAIT"],
-      "transformTicks": 10,
-      "animations": ["bedrock(cutout, summary_fix)"]
     }
   }
 }

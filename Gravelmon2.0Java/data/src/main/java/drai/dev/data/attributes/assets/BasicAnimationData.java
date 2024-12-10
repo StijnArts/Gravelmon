@@ -17,7 +17,11 @@ public abstract class BasicAnimationData {
         var jsonObject = new JsonObject();
         jsonObject.addProperty("poseName", animationName);
         var animationsJson = new JsonArray();
-        animations.forEach(animation -> animationsJson.add("bedrock("+animationFileName+", "+animation+")"));
+        animations.forEach(animation -> {
+            if(animation.equalsIgnoreCase("look") || animation.contains("q."))
+                animationsJson.add(animation);
+            else animationsJson.add("bedrock("+animationFileName+", "+animation+")");
+        });
         jsonObject.add("animations", animationsJson);
         return jsonObject;
     }

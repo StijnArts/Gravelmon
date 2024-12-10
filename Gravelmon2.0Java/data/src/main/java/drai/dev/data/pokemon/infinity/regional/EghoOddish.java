@@ -1,5 +1,6 @@
 package drai.dev.data.pokemon.infinity.regional;
 
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
@@ -102,5 +103,15 @@ public class EghoOddish extends Pokemon {
         setModeled(true);
         setBaseScale(0.6);
         setHitbox(0.6,0.6);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.8f, new Vector3(-0.0, -0.8, 0));
+        getPosingFileData().setProfileData( .8f, new Vector3(0, .6, -20));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().clearPoseTypes().withBlink(),
+                AnimationData.walkingAnimation().withBlink(),
+                AnimationData.sleepingAnimation()
+        ));
+        getPosingFileData().setFaint("bedrock(eghooddish, faint)");
     }
 }

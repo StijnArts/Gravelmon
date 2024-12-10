@@ -22,8 +22,8 @@ public abstract class WorldRepresentablePokemon {
     protected Image placeholderImage;
     protected Image femalePlaceholderImage;
     protected JsonObject modelJSON;
-    private SpeciesFileData speciesFileData = new SpeciesFileData();
-    private PosingFileData posingFileData = new PosingFileData();
+    private final SpeciesFileData speciesFileData = new SpeciesFileData();
+    private final PosingFileData posingFileData = new PosingFileData();
     protected void processPokemonAssets(AbstractPokemon abstractPokemon, String resourcesDir, boolean hasGenderDifferences){
         textureDirectory = findTextureDirectory(abstractPokemon, resourcesDir);
         if(!isModeled()){
@@ -31,10 +31,12 @@ public abstract class WorldRepresentablePokemon {
             double factor = 96d / getPlaceholderMaxSideSize();
             recalculateScales(abstractPokemon, factor);
             recalculateXYZOffsets(factor);
-            ModelJsonWriter.writeModel(getPlaceholderModelName(), getPlaceholderImageHeight(), getPlaceholderImageWidth(), resourcesDir);
+            posingFileData.animations.add(new AnimationData("profile", List.of(PoseType.PROFILE), List.of("pc_fix"), List.of(), 10));
+            posingFileData.animations.add(new AnimationData("portrait", List.of(PoseType.NONE, PoseType.PORTRAIT), List.of("summary_fix"), List.of(), 10));
+            ModelJsonWriter.writeModel(abstractPokemon, getPlaceholderImageHeight(), getPlaceholderImageWidth(), resourcesDir);
 
             if(femalePlaceholderImage != null) {
-                ModelJsonWriter.writeModel(getPlaceholderModelName(), getFemalePlaceholderImageHeight(), getFemalePlaceholderImageWidth(), resourcesDir);
+                ModelJsonWriter.writeModel(abstractPokemon, getFemalePlaceholderImageHeight(), getFemalePlaceholderImageWidth(), resourcesDir);
             }
         } else {
             abstractPokemon.labels.remove(Label.NOT_MODELED);
@@ -52,10 +54,6 @@ public abstract class WorldRepresentablePokemon {
     private void generatePosingFileData(AbstractPokemon abstractPokemon) {
         if(posingFileData.animationFileName == null || posingFileData.animationFileName.isEmpty()){
             posingFileData.animationFileName = isModeled() ? abstractPokemon.getCleanName() : "cutout";
-        }
-        if(!isModeled()){
-            posingFileData.animations.add(new AnimationData("profile", List.of(PoseType.PROFILE), List.of("pc_fix"), List.of(), 10));
-            posingFileData.animations.add(new AnimationData("portrait", List.of(PoseType.NONE, PoseType.PORTRAIT), List.of("summary_fix"), List.of(), 10));
         }
     }
 
@@ -90,14 +88,8 @@ public abstract class WorldRepresentablePokemon {
     }
 
     private @NotNull File findTextureDirectory(AbstractPokemon abstractPokemon, String resourcesDir){
-        var game = getGame(abstractPokemon);
-        var expectedDir = SpeciesAssetsJSONWriter.getDirectory(game, resourcesDir) + abstractPokemon.getCleanName();
+        var expectedDir = SpeciesAssetsJSONWriter.getDirectory(abstractPokemon.getGame(), resourcesDir) + abstractPokemon.getCleanName();
         return new File(expectedDir);
-    }
-
-    public static Game getGame(AbstractPokemon abstractPokemon) {
-        var game = abstractPokemon instanceof PokemonForm pokemonForm ? pokemonForm.getFormOf().game : abstractPokemon.getGame();
-        return game;
     }
 
     public boolean isModeled() {
@@ -105,8 +97,7 @@ public abstract class WorldRepresentablePokemon {
     }
 
     public void findOrCreatePlaceholderImage(AbstractPokemon abstractPokemon, String resourcesDir, boolean hasGenderDifferences){
-        var game = getGame(abstractPokemon);
-        String pathname = resourcesDir + "\\assets\\cobblemon\\textures\\pokemon\\" + game.getCleanName() + "\\";
+        String pathname = resourcesDir + "\\assets\\cobblemon\\textures\\pokemon\\" + abstractPokemon.getGame().getCleanName() + "\\";
         if(abstractPokemon instanceof Pokemon) {
             if (hasGenderDifferences) {
                 femalePlaceholderImage = createPlaceholderTextureIfNotExists(abstractPokemon.getCleanName() + "_female.png", pathname);

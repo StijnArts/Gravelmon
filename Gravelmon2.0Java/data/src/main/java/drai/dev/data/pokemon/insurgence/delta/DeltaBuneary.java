@@ -1,6 +1,8 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -163,5 +165,14 @@ public class DeltaBuneary extends Pokemon {
         this.setModeled(true);
         this.setHitbox(1.5, 1.5);
         this.setBaseScale(0.5);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.65f, new Vector3(-0, 0, 0));
+        getPosingFileData().setProfileData( .75f, new Vector3(0, .6, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().clearPoseTypes().withBlink(),
+                AnimationData.walkingAnimation().withLook().withBlink(),
+                AnimationData.sleepingAnimation()
+        ));
     }
 }

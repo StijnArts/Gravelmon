@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -181,5 +182,16 @@ public class DeltaBlastoise extends Pokemon {
         this.setBaseScale(1.3);
         this.setHitbox(1.1,2.1);
         this.setModeled(true);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.8f, new Vector3(-0.6, 1.3, 0));
+        getPosingFileData().setProfileData( .6f, new Vector3(0, 0.8, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().withBlink().clearPoseTypes(),
+                AnimationData.walkingAnimation().withLook().withBlink(),
+                AnimationData.floatingAnimation().withBlink().withLook(),
+                AnimationData.swimmingAnimation().withBlink().withLook()
+        ));
+        getPosingFileData().setFaint("bedrock(deltablastoise, faint)");
     }
 }

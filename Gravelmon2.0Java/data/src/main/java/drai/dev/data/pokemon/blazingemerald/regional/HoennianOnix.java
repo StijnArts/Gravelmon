@@ -1,6 +1,8 @@
 package drai.dev.data.pokemon.blazingemerald.regional;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.data.util.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
@@ -78,5 +80,19 @@ public class HoennianOnix extends Pokemon {
         setModeled(true);
         setBaseScale(3);
         setHitbox(1,1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("hoennian_onix");
+        getPosingFileData().setPortraitData(0.7f, new Vector3(0, 1, 0));
+        getPosingFileData().setProfileData(0.7f, new Vector3(0, 1, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.battleIdleAnimation().withBlink().addAnimation("boulder_rotation"),
+                AnimationData.sleepingAnimation(),
+                AnimationData.standingAnimation().notBattle().withBlink().addAnimation("boulder_rotation"),
+                AnimationData.walkingAnimation().withBlink().addPoseType(PoseType.SWIM)
+        ));
+        getPosingFileData().setCry("q.bedrock_stateful('hoennian_onix', 'cry')");
+        getPosingFileData().setFaint("q.bedrock_primary('hoennian_onix', 'faint', q.curve('one'))");
+
     }
 }

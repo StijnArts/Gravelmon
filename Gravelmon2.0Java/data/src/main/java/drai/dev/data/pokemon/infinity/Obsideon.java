@@ -1,6 +1,8 @@
 package drai.dev.data.pokemon.infinity;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -125,5 +127,13 @@ public class Obsideon extends Pokemon {
         addAdditionalEvolution("eevee", new EvolutionEntry("obsideon", EvolutionType.LEVEL_UP, List.of(new MoveLearnSetEntry(Move.PRESSURIZE, "")),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:hard_stone"),
                         new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night"))));
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.9f, new Vector3(-0.4, -0.3, 0));
+        getPosingFileData().setProfileData( .9f, new Vector3(0, .35, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withBlink().addPoseType(PoseType.FLOAT).addPoseType(PoseType.HOVER).withLook(),
+                AnimationData.walkingAnimation().withBlink().addPoseType(PoseType.SWIM).addPoseType(PoseType.FLY).withLook()
+        ));
     }
 }
