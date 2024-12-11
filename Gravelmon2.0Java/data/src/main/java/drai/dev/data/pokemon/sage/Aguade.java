@@ -123,5 +123,16 @@ public class Aguade extends Pokemon {
         this.setBaseScale(0.9);
 
         this.setModeled(true);
+        getPosingFileData().setPortraitData( 1.6f, new Vector3(0, .2, 0));
+        getPosingFileData().setProfileData( .8f, new Vector3(0, .6, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().withBlink().clearPoseTypes(),
+                AnimationData.walkingAnimation().withLook().withBlink(),
+                AnimationData.floatingAnimation().withLook().withBlink(),
+                AnimationData.swimmingAnimation().withLook().withBlink(),
+                AnimationData.sleepingAnimation()
+        ));
+        getPosingFileData().setFaint("bedrock(aguade, faint)");
     }
 }

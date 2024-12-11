@@ -97,10 +97,7 @@ public class SeviianCarnivine extends Pokemon {
         setModeled(true);
         setBaseScale(0.8);
         setHitbox(1.2,2);
-        getSpeciesFileData().addBasicVariation(this).addLayer(
-                new SimpleTextureLayerData("glow", this.getCleanName()+"_emissive",
-                        true, true, false, true)
-        );
+        getSpeciesFileData().addBasicVariation(this);
         getPosingFileData().setPortraitData( .5f, new Vector3(0, 1, 0));
         getPosingFileData().setProfileData( .5f, new Vector3(0, 1, 0));
         getPosingFileData().setBasicHead();

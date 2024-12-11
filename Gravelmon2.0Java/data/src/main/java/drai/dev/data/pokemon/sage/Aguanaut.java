@@ -144,5 +144,11 @@ public class Aguanaut extends Pokemon {
         this.setPortraitXYZ(0.1, 1.5, 0);
         this.setModeled(true);
         this.setBaseScale(1);
+        getPosingFileData().setPortraitData( 1.6f, new Vector3(-0.4, 1.6, 0));
+        getPosingFileData().setProfileData( .48f, new Vector3(0, 1.04, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().withBlink().clearPoseTypes()
+        ));
     }
 }
