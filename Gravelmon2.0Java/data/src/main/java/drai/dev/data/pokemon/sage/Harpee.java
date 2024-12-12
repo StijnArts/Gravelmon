@@ -101,7 +101,7 @@ public class Harpee extends Pokemon {
                 List.of());
         this.setCanFly(true);
 
-        setModeled(true);
+        
         setBaseScale(.9);
         setHitbox(1,1);
         getSpeciesFileData().addBasicVariation(this);

@@ -97,7 +97,7 @@ public class Nebyura extends Pokemon {
                 0.3, 0.3,
                 List.of());
         
-        setModeled(true);
+        
         setBaseScale(1.75);
         setHitbox(0.8, 1.7);
         getSpeciesFileData().addBasicVariation(this);

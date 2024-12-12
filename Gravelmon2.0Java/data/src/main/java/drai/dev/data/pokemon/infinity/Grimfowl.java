@@ -105,7 +105,7 @@ public class Grimfowl extends Pokemon {
                 List.of());
         this.setCanFly(true);
 
-        setModeled(true);
+        
         setBaseScale(0.85);
         setHitbox(1.2, 2.4);
         getSpeciesFileData().addBasicVariation(this);

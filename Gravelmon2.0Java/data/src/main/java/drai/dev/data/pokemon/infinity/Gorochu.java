@@ -125,7 +125,7 @@ public class Gorochu extends Pokemon {
                 List.of());
         this.setPortraitXYZ(0,1.8,0);
         this.setPreEvolution("pikachu");
-        setModeled(true);
+        
         setBaseScale(1);
         setHitbox(1,1);
         addAdditionalEvolution("pikachu", new EvolutionEntry("gorochu", EvolutionType.ITEM_INTERACT, false, List.of(),

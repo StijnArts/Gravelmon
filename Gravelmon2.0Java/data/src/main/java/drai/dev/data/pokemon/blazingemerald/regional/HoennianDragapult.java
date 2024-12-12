@@ -82,7 +82,7 @@ public class HoennianDragapult extends Pokemon {
         this.setLangFileName("Dragapult");
 
         setCanFly(true);
-        setModeled(true);
+        
         setBaseScale(0.8);
         setHitbox(1,1);
         getSpeciesFileData().addBasicVariation(this);

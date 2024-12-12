@@ -106,7 +106,7 @@ public class Warquila extends Pokemon {
                 List.of());
         this.setCanFly(true);
         
-        setModeled(true);
+        
         setBaseScale(1);
         setHitbox(1,1);
         getSpeciesFileData().addBasicVariation(this);

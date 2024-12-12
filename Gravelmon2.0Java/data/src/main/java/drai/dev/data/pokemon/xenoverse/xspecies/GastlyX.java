@@ -70,7 +70,7 @@ public class GastlyX extends Pokemon {
                 List.of());
         this.setLangFileName("Gastly");
 
-        setModeled(true);
+        
         setBaseScale(1.2);
         setHitbox(0.7,1.45);
         getSpeciesFileData().addBasicVariation(this);

@@ -92,7 +92,7 @@ public class Sputnink extends Pokemon {
                 0.3, 0.3,
                 List.of());
 
-        setModeled(true);
+        
         setBaseScale(1.15);
         setHitbox(0.55, 0.65);
         getSpeciesFileData().addBasicVariation(this);

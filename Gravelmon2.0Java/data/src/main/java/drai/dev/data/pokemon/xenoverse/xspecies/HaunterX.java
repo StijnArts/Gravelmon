@@ -73,7 +73,7 @@ public class HaunterX extends Pokemon {
                 List.of());
         this.setLangFileName("Haunter");
 
-        setModeled(true);
+        
         setBaseScale(1.0);
         setHitbox(1.0, 3.0);
         getSpeciesFileData().addBasicVariation(this);

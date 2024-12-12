@@ -76,7 +76,7 @@ public class HoennianDreepy extends Pokemon {
         this.setLangFileName("Dreepy");
 
         setCanFly(true);
-        setModeled(true);
+        
         setBaseScale(1);
         setHitbox(1,1);
         getSpeciesFileData()

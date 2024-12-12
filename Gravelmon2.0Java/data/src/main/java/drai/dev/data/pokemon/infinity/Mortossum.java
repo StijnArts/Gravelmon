@@ -114,7 +114,7 @@ public class Mortossum extends Pokemon {
                 0.22, 0.3,
                 List.of());
 
-        setModeled(true);
+        
         setBaseScale(0.4);
         setHitbox(1,1);
         getSpeciesFileData().addBasicVariation(this);

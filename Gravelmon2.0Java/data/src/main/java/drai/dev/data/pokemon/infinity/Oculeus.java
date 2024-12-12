@@ -172,7 +172,7 @@ public class Oculeus extends Pokemon {
                 0.5, 0.3,
                 List.of());
 
-        setModeled(true);
+        
         setBaseScale(1);
         setHitbox(1,1);
         getSpeciesFileData()

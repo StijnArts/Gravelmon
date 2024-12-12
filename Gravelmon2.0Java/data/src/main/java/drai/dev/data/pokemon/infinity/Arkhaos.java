@@ -182,7 +182,7 @@ public class Arkhaos extends Pokemon {
         this.setHitbox(3,3);
         
         this.setCanFly(true);
-        setModeled(true);
+        
         setBaseScale(1);
         setHitbox(4,2.5);
         getSpeciesFileData().addBasicVariation(this).addLayer(new BasicLayerData("arkhaos_emissive", true, true, false, true));

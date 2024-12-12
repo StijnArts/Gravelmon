@@ -111,7 +111,7 @@ public class Viledoom extends Pokemon {
                 0.34, 0.3,
                 List.of());
 
-        setModeled(true);
+        
         setBaseScale(1);
         setHitbox(1,1);
         getSpeciesFileData().addBasicVariation(this);

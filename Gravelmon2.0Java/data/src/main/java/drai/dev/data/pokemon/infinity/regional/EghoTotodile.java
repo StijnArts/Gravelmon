@@ -133,7 +133,7 @@ public class EghoTotodile extends Pokemon {
         this.setBaseScale(0.5);
         this.setLangFileName("Totodile");
         this.setPortraitXYZ(0,1.8,0);
-        setModeled(true);
+        
         setBaseScale(0.5);
         setHitbox(1,1);
         getSpeciesFileData().addBasicVariation(this);

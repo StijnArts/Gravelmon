@@ -77,7 +77,7 @@ public class HoennianOnix extends Pokemon {
 
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
-        setModeled(true);
+        
         setBaseScale(3);
         setHitbox(1,1);
         getSpeciesFileData().addBasicVariation(this);

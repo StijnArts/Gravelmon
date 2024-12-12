@@ -40,7 +40,7 @@ public class DeltaRuinBeldum extends Pokemon {
         this.setLangFileName("Beldum");
         this.setCanFly(true);
         this.setPortraitXYZ(0,1.8,0);
-        setModeled(true);
+        
         setBaseScale(0.75);
         setHitbox(0.4,0.8);
         getSpeciesFileData().addBasicVariation(this);

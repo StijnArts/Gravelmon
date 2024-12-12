@@ -84,7 +84,7 @@ public class Birigiri extends Pokemon {
 
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
-        setModeled(true);
+        
         setBaseScale(1);
         setHitbox(1,1);
         getSpeciesFileData().addBasicVariation(this);

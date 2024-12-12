@@ -107,7 +107,7 @@ public class Valentide extends Pokemon {
         setAvoidsLand(true);
         setCanBreathUnderwater(true);
         setCanSwim(true);
-        setModeled(true);
+        
         setBaseScale(1);
         setHitbox(1,1);
         getSpeciesFileData().addBasicVariation(this);

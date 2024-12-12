@@ -76,7 +76,7 @@ public class HoennianDrakloak extends Pokemon {
                 List.of());
         this.setLangFileName("Drakloak");
 
-        setModeled(true);
+        
         setCanFly(true);
         setBaseScale(1);
         setHitbox(1,1);

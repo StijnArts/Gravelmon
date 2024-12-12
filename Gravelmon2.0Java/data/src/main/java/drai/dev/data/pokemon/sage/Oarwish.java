@@ -110,7 +110,7 @@ public class Oarwish extends Pokemon {
         this.setCanBreathUnderwater(true);
         this.setAvoidsLand(true);
 
-        setModeled(true);
+        
         setBaseScale(1);
         setHitbox(1,1);
         getSpeciesFileData().addBasicVariation(this);

@@ -149,7 +149,7 @@ public class Mewthree extends Pokemon {
                 0.5, 0.3,
                 List.of());
 
-        setModeled(true);
+        
         setBaseScale(0.9);
         setHitbox(1,1);
         getSpeciesFileData().addBasicVariation(this);

@@ -100,7 +100,7 @@ public class EghoOddish extends Pokemon {
                 List.of());
         this.setLangFileName("Oddish");
 
-        setModeled(true);
+        
         setBaseScale(0.6);
         setHitbox(0.6,0.6);
         getSpeciesFileData().addBasicVariation(this);

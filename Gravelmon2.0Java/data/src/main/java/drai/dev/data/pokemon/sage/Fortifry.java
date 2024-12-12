@@ -81,7 +81,7 @@ public class Fortifry extends Pokemon {
         this.setCanBreathUnderwater(true);
         this.setAvoidsLand(true);
 
-        setModeled(true);
+        
         setBaseScale(1);
         setHitbox(1,1);
         getPosingFileData().setPortraitData( 1f, new Vector3(0,0,0));

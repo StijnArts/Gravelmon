@@ -100,7 +100,7 @@ public class EghoHoothoot extends Pokemon {
         this.setLangFileName("Hoothoot");
         
         setCanFly(true);
-        setModeled(true);
+        
         setBaseScale(0.8);
         setHitbox(0.8,1.0);
         getSpeciesFileData().addBasicVariation(this);

@@ -89,7 +89,7 @@ public class Chrysalix extends Pokemon {
                 AnimationData.walkingAnimation().withBlink().addPoseType(PoseType.SWIM)
         ));
         getPosingFileData().setCryFromAnimationType("q.bedrock_stateful");
-        setModeled(true);
+        
         setBaseScale(1.5);
         setHitbox(1,1);
 

@@ -102,7 +102,7 @@ public class GengarX extends Pokemon {
                 List.of());
         this.setLangFileName("Gengar");
 
-        setModeled(true);
+        
         setBaseScale(0.9);
         setHitbox(1.0, 3.5);
         getSpeciesFileData().addBasicVariation(this);

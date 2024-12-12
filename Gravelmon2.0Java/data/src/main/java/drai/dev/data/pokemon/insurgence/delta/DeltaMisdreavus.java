@@ -124,7 +124,7 @@ public class DeltaMisdreavus extends Pokemon {
         this.setPortraitXYZ(0,1.8,0);
         setBaseScale(1.0);
         setHitbox(1.0, 1.0);
-        setModeled(true);
+        
 
         getSpeciesFileData().addBasicVariation(this);
         getPosingFileData().setPortraitData( 1.8f, new Vector3(-0.2, -.25, 0));
