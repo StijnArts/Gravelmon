@@ -1,6 +1,8 @@
 package drai.dev.data.pokemon.sage;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -102,5 +104,15 @@ public class Harpee extends Pokemon {
         setModeled(true);
         setBaseScale(.9);
         setHitbox(1,1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1f, new Vector3(0, 0, 0));
+        getPosingFileData().setProfileData( 1f, new Vector3(0, 0, -20));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().withBlink().clearPoseTypes(),
+                AnimationData.hoveringAnimation().withLook().withBlink(),
+                AnimationData.flyingAnimation().withLook().withBlink().addPoseType(PoseType.WALK),
+                AnimationData.sleepingAnimation()
+        ));
     }
 }

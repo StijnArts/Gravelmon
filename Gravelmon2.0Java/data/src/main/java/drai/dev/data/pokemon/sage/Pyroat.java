@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.sage;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
 
@@ -112,5 +113,13 @@ public class Pyroat  extends Pokemon {
         this.setBaseScale(0.9);
 
         this.setModeled(true);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.9f, new Vector3(-.4, -.58, 0));
+        getPosingFileData().setProfileData( .8f, new Vector3(0, .60, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().withBlink().clearPoseTypes(),
+                AnimationData.walkingAnimation().withLook().withBlink()
+        ));
     }
 }

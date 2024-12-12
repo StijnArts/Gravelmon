@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.sage;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -100,5 +101,13 @@ public class Kidling extends Pokemon {
         this.setBaseScale(0.9);
 
         this.setModeled(true);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 2f, new Vector3(-.3, -.28, 0));
+        getPosingFileData().setProfileData( 1.1f, new Vector3(-.10, .20, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().withBlink().clearPoseTypes(),
+                AnimationData.walkingAnimation().withLook().withBlink()
+        ));
     }
 }

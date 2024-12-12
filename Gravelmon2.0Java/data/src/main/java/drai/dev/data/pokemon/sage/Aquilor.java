@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.sage;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
 
@@ -110,7 +111,7 @@ public class Aquilor extends Pokemon {
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
                 AnimationData.standingAnimation().notBattle().withLook().withBlink().clearPoseTypes(),
-                AnimationData.battleAnimation().withLook().withBlink(),
+                AnimationData.battleIdleAnimation().withLook().withBlink(),
                 AnimationData.walkingAnimation().withLook().withBlink(),
                 AnimationData.flyingAnimation().withLook().withBlink(),
                 AnimationData.hoveringAnimation().withLook().withBlink(),

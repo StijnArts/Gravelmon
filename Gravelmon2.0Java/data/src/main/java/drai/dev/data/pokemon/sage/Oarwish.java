@@ -1,6 +1,8 @@
 package drai.dev.data.pokemon.sage;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -112,5 +114,17 @@ public class Oarwish extends Pokemon {
         setModeled(true);
         setBaseScale(1);
         setHitbox(1,1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( .6f, new Vector3(-.3, .80, 0));
+        getPosingFileData().setProfileData( .6f, new Vector3(-.3, .80, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withBlink().clearPoseTypes(),
+                AnimationData.walkingAnimation().withBlink(),
+                AnimationData.swimmingAnimation().withBlink(),
+                AnimationData.floatingAnimation().notOnWaterSurface().withBlink(),
+                AnimationData.flyingAnimation().onWaterSurface().withBlink(),
+                AnimationData.sleepingAnimation()
+        ));
     }
 }

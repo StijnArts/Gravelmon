@@ -184,4 +184,14 @@ public class AnimationData extends BasicAnimationData {
         quirks.add(quirk);
         return this;
     }
+
+    public AnimationData notOnWaterSurface() {
+        this.isTouchingWater = Optional.of(false);
+        return this;
+    }
+
+    public AnimationData onWaterSurface() {
+        this.isTouchingWater = Optional.of(true);
+        return this;
+    }
 }

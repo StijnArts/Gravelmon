@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.sage;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -107,5 +108,15 @@ public class Florabri extends Pokemon {
         this.setBaseScale(0.9);
 
         this.setModeled(true);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 2.6f, new Vector3(-0.2, -1, 0));
+        getPosingFileData().setProfileData( 1f, new Vector3(0.2, .3, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().withBlink().clearPoseTypes(),
+                AnimationData.hoveringAnimation().withLook().withBlink(),
+                AnimationData.flyingAnimation().withLook().withBlink(),
+                AnimationData.sleepingAnimation()
+        ));
     }
 }

@@ -1,6 +1,8 @@
 package drai.dev.data.pokemon.sage;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -82,5 +84,14 @@ public class Fortifry extends Pokemon {
         setModeled(true);
         setBaseScale(1);
         setHitbox(1,1);
+        getPosingFileData().setPortraitData( 1f, new Vector3(0,0,0));
+        getPosingFileData().setProfileData( 1f, new Vector3(0, 0, 0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withBlink().clearPoseTypes(),
+                AnimationData.swimmingAnimation().addPoseType(PoseType.WALK).withBlink(),
+                AnimationData.floatingAnimation().addPoseType(PoseType.STAND).withBlink(),
+                AnimationData.sleepingAnimation()
+        ));
+        getPosingFileData().setCry("q.bedrock_stateful('fortifry', 'cry')");
     }
 }
