@@ -112,7 +112,7 @@ public class PorygonX extends Pokemon {
                 0.28, 0.3,
                 List.of());
 
-        this.setModeled(true);
+        
         this.setBaseScale(1);
         this.setCanFly(true);
         this.setPreEvolution("porygon2");

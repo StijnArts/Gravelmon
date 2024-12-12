@@ -96,7 +96,7 @@ public class Bluffin extends Pokemon {
                 0.4, 0.3,
                 List.of());
 
-        this.setModeled(true);
+        
         this.setBaseScale(0.5);
         this.setHitbox(1,0.7);
         getSpeciesFileData().addBasicVariation(this);

@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.vega;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -95,7 +96,7 @@ public class Tentyrant extends Pokemon {
                 0.4, 0.3,
                 List.of());
 
-        this.setModeled(true);
+        
         this.setBaseScale(1.9);
         this.setCanSwim(true);
         this.setAvoidsLand(true);
@@ -104,5 +105,13 @@ public class Tentyrant extends Pokemon {
         this.setHitbox(1.3,1.3);
         addAdditionalEvolution("tentacruel", new EvolutionEntry("tentyrant", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"cobblemon:water_stone"));
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.8f, new Vector3(0, -0.4, 0));
+        getPosingFileData().setProfileData( .9f, new Vector3(0, .4, 0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().clearPoseTypes(),
+                AnimationData.swimmingAnimation(),
+                AnimationData.floatingAnimation()
+        ));
     }
 }

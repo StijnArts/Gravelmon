@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.xenoverse;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -104,7 +105,18 @@ public class Shulong extends Pokemon {
         
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
-        this.setModeled(true);
+        
         this.setBaseScale(0.9);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 3.6f, new Vector3(0, -2.7, 0));
+        getPosingFileData().setProfileData( 1.2f, new Vector3(0, 0, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().clearPoseTypes().withBlink(),
+                AnimationData.walkingAnimation().withBlink(),
+                AnimationData.swimmingAnimation().withBlink(),
+                AnimationData.floatingAnimation().withBlink()
+        ));
+        getPosingFileData().setFaint("bedrock(shulong, faint)");
     }
 }

@@ -122,7 +122,7 @@ public class Howlequin extends Pokemon {
                 0.3, 0.3,
                 List.of());
 
-        this.setModeled(true);
+        
         this.setBaseScale(0.5);
         this.setHitbox(2,2);
         getSpeciesFileData().addBasicVariation(this);

@@ -106,7 +106,7 @@ public class Burrmudail extends Pokemon {
                 0.5, 0.5,
                 List.of());
 
-        this.setModeled(true);
+        
         this.setCanFly(true);
         this.setBaseScale(0.8);
         this.setHitbox(1,0.8);

@@ -115,7 +115,7 @@ public class DeltaBergmite extends Pokemon {
                 List.of());
         this.setLangFileName("Bergmite");
         this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+
         this.setBaseScale(0.95);
         this.setHitbox(0.95,0.8);
         getSpeciesFileData().addBasicVariation(this);

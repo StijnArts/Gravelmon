@@ -1,6 +1,8 @@
 package drai.dev.data.pokemon.vega;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -109,7 +111,15 @@ public class Blakjak extends Pokemon {
 
         this.setBaseScale(0.7);
         this.setHitbox(0.7,1);
-        this.setModeled(true);
+        
         setCanFly(true);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 2.3f, new Vector3(-.2, .8, 0));
+        getPosingFileData().setProfileData( .65f, new Vector3(0, .8, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().clearPoseTypes(),
+                AnimationData.walkingAnimation().withLook().addPoseType(PoseType.FLY)
+        ));
     }
 }

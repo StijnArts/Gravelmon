@@ -124,7 +124,7 @@ public class DeltaWailmer extends Pokemon {
         this.setLangFileName("Wailmer");
         this.setCanFly(true);
         this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(1.8);
         this.setHitbox(1,1);
         getSpeciesFileData().addBasicVariation(this);

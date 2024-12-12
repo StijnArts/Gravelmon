@@ -112,7 +112,7 @@ public class Pyroat  extends Pokemon {
         this.setPortraitXYZ(0.1,2,0);
         this.setBaseScale(0.9);
 
-        this.setModeled(true);
+        
         getSpeciesFileData().addBasicVariation(this);
         getPosingFileData().setPortraitData( 1.9f, new Vector3(-.4, -.58, 0));
         getPosingFileData().setProfileData( .8f, new Vector3(0, .60, 0));

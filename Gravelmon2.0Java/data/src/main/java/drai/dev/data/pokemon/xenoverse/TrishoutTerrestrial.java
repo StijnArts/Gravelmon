@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.xenoverse;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -103,8 +104,15 @@ public class TrishoutTerrestrial extends Pokemon {
                 List.of());
         this.setLangFileName("Trishout");
 
-        this.setModeled(true);
+        
         this.setHitbox(0.7, 1.1);
         this.setBaseScale(1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 2.5f, new Vector3(0.0, 1.1, 0));
+        getPosingFileData().setProfileData( .7f, new Vector3(0, 0.7, 0));
+        getPosingFileData().head = "head_2";
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().withBlink().clearPoseTypes()
+        ));
     }
 }

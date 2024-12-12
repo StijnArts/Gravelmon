@@ -98,7 +98,7 @@ public class Kokiseed extends Pokemon {
                 0.18, 0.3,
                 List.of());
         this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+
         this.setBaseScale(0.7);
         getSpeciesFileData().addBasicVariation(this);
         getPosingFileData().setPortraitData( 2.1f, new Vector3(0, -.9, 0));

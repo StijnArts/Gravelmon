@@ -1,6 +1,8 @@
 package drai.dev.data.pokemon.vega;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
 
@@ -103,7 +105,15 @@ public class Dvaarak extends Pokemon {
                 0.4, 0.3,
                 List.of());
 
-        this.setModeled(true);
+        
         this.setBaseScale(0.7);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.6f, new Vector3(-.6, .6, 0));
+        getPosingFileData().setProfileData( .7f, new Vector3(0, .6, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().clearPoseTypes(),
+                AnimationData.walkingAnimation().withLook()
+        ));
     }
 }

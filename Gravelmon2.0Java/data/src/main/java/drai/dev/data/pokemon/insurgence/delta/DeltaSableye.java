@@ -162,7 +162,7 @@ public class DeltaSableye extends Pokemon {
                 )));
         this.setLangFileName("Sableye");
         this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+
         this.setBaseScale(0.65);
         this.setHitbox(0.7,1.2);
         getSpeciesFileData().addBasicVariation(this);

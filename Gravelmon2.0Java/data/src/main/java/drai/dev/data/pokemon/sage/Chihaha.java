@@ -110,7 +110,7 @@ public class Chihaha extends Pokemon {
                 0.3, 0.3,
                 List.of());
         
-        this.setModeled(true);
+        
         this.setBaseScale(0.3);
         this.setHitbox(2,2);
         getSpeciesFileData().addBasicVariation(this);

@@ -118,7 +118,7 @@ public class DeltaLanturn extends Pokemon {
                 List.of());
         this.setLangFileName("Lanturn");
         this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+
         this.setHitbox(1, 1.4);
         this.setBaseScale(1);
         this.setCanFly(true);

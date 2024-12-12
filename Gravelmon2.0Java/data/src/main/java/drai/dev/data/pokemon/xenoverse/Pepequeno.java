@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.xenoverse;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -49,8 +50,15 @@ public class Pepequeno extends Pokemon {
                 0.3, 0.3,
                 List.of());
 
-        this.setModeled(true);
+
         this.setBaseScale(0.5);
         this.setHitbox(1,0.7);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.6f, new Vector3(0, .3, 0));
+        getPosingFileData().setProfileData( .7f, new Vector3(0, 0.8, 0));
+        getPosingFileData().head = "Head";
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().clearAnimations()
+        ));
     }
 }

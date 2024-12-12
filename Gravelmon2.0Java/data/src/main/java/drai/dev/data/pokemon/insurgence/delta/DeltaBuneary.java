@@ -162,7 +162,7 @@ public class DeltaBuneary extends Pokemon {
                 List.of());
         this.setLangFileName("Buneary");
         this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setHitbox(1.5, 1.5);
         this.setBaseScale(0.5);
         getSpeciesFileData().addBasicVariation(this);

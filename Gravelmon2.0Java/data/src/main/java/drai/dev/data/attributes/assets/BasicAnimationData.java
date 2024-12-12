@@ -6,16 +6,18 @@ import java.util.*;
 
 public abstract class BasicAnimationData {
     public String animationName;
+    public String poseName;
     public List<String> animations;
 
     public BasicAnimationData(String animationName, List<String> animations) {
         this.animationName = animationName;
+        this.poseName = animationName;
         this.animations = animations;
     }
 
     protected JsonObject getAnimationJson(String animationFileName) {
         var jsonObject = new JsonObject();
-        jsonObject.addProperty("poseName", animationName);
+        jsonObject.addProperty("poseName", poseName);
         var animationsJson = new JsonArray();
         animations.forEach(animation -> {
             if(animation.equalsIgnoreCase("look") || animation.contains("q."))

@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.xenoverse.xspecies;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -76,7 +77,15 @@ public class CacneaX extends Pokemon {
                 List.of());
         this.setLangFileName("Cacnea");
 
-        this.setModeled(true);
+        
         this.setBaseScale(1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("cacnea_x");
+        getPosingFileData().setPortraitData( 1.8f, new Vector3(0, -.7, 0));
+        getPosingFileData().setProfileData( .8f, new Vector3(0, 0.5, 0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().clearPoseTypes(),
+                AnimationData.walkingAnimation()
+        ));
     }
 }

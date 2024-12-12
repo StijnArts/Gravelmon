@@ -1,6 +1,5 @@
 package drai.dev.data.pokemon.sage;
 
-import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
 import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
@@ -122,8 +121,8 @@ public class Oarwish extends Pokemon {
                 AnimationData.standingAnimation().withBlink().clearPoseTypes(),
                 AnimationData.walkingAnimation().withBlink(),
                 AnimationData.swimmingAnimation().withBlink(),
-                AnimationData.floatingAnimation().notOnWaterSurface().withBlink(),
-                AnimationData.flyingAnimation().onWaterSurface().withBlink(),
+                AnimationData.surfaceFloatingAnimation().withBlink(),
+                AnimationData.flyingAnimation().inWater().withBlink(),
                 AnimationData.sleepingAnimation()
         ));
     }

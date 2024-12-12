@@ -149,7 +149,7 @@ public class DeltaPidgeotto extends Pokemon {
         this.setLangFileName("Pidgeotto");
         this.setCanFly(true);
         this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(1.1);
         this.setHitbox(0.6,1);
         getSpeciesFileData().addBasicVariation(this);

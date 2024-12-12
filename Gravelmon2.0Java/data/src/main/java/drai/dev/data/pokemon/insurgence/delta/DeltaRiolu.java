@@ -125,7 +125,7 @@ public class DeltaRiolu extends Pokemon {
                 List.of());
         this.setLangFileName("Riolu");
         this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(0.9);
         this.setHitbox(0.6,1.3);
         getSpeciesFileData().addBasicVariation(this);

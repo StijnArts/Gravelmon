@@ -113,7 +113,7 @@ public class Champeon extends Pokemon {
                 0.27, 0.3,
                 List.of());
         
-        this.setModeled(true);
+
         this.setBaseScale(0.8);
         addAdditionalEvolution("eevee", new EvolutionEntry("champeon", EvolutionType.LEVEL_UP, List.of(new MoveLearnSetEntry(Move.REVERSAL, "")),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:expert_belt"),

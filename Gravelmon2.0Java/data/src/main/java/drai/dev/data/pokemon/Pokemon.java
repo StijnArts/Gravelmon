@@ -605,13 +605,6 @@ public class Pokemon extends AbstractPokemon {
         return shoulderMountEffect;
     }
 
-    public void setModeled(boolean modeled) {
-        //TODO
-        labels.remove(Label.NOT_MODELED);
-        this.forms.forEach(pokemonForm -> pokemonForm.getLabels().remove(Label.NOT_MODELED));
-//        this.modeled = modeled;
-    }
-
     public Aspect getAdditionalAspect() {
         return formAdditionAspect;
     }

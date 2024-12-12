@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.xenoverse.xspecies;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -79,8 +80,15 @@ public class ElekidX extends Pokemon {
                 List.of());
         this.setLangFileName("Elekid");
 
-        this.setModeled(true);
+        
         this.setBaseScale(0.8);
         this.setHitbox(0.5,0.6);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("elekid_x");
+        getPosingFileData().setPortraitData( 2.9f, new Vector3(-.2, -1.5, 0));
+        getPosingFileData().setProfileData( .8f, new Vector3(0, 0.6, 0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withBlink().clearPoseTypes()
+        ));
     }
 }

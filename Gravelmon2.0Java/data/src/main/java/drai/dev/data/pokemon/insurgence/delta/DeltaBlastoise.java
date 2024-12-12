@@ -181,7 +181,7 @@ public class DeltaBlastoise extends Pokemon {
         this.setPortraitXYZ(0,1.8,0);
         this.setBaseScale(1.3);
         this.setHitbox(1.1,2.1);
-        this.setModeled(true);
+        
         getSpeciesFileData().addBasicVariation(this);
         getPosingFileData().setPortraitData( 1.8f, new Vector3(-0.6, 1.3, 0));
         getPosingFileData().setProfileData( .6f, new Vector3(0, 0.8, 0));

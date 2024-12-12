@@ -122,7 +122,7 @@ public class DeltaBulbasaur extends Pokemon {
         this.setLangFileName("Bulbasaur");
         this.setHasGenderDifferences(true);
         this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(0.8);
         this.setHitbox(0.9,0.5);
         getSpeciesFileData().addBasicVariation(this);

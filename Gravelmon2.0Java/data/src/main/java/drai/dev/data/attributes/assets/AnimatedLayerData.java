@@ -25,6 +25,14 @@ public class AnimatedLayerData extends BasicLayerData {
         this.loop = loop;
     }
 
+    public static List<String> getFrames(String frameName, int i) {
+        var frames  = new ArrayList<String>();
+        for (int j = 0; j < i; j++) {
+            frames.add(frameName+i+1);
+        }
+        return frames;
+    }
+
     public JsonObject toJsonObject(AbstractPokemon abstractPokemon, boolean isShiny, boolean isFemale) {
         var json = super.toJsonObject();
         json.add("texture", getTextures(abstractPokemon, isShiny, isFemale));

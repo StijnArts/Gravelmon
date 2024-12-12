@@ -82,7 +82,7 @@ public class HoennianEmolga extends Pokemon {
                 AnimationData.flyingAnimation().withBlink().withLook(),
                 AnimationData.hoveringAnimation().withBlink().withLook()
         ));
-        this.setModeled(true);
+        
         this.setBaseScale(0.52);
         this.setHitbox(0.6,0.6);
     }

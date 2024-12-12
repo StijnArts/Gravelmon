@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.xenoverse.xspecies;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -99,8 +100,16 @@ public class CacturneX extends Pokemon {
                 List.of());
         this.setLangFileName("Cacturne");
 
-        this.setModeled(true);
+        
         this.setBaseScale(1);
         this.setHitbox(0.8, 1.2);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("cacturne_x");
+        getPosingFileData().setPortraitData( 1.9f, new Vector3(0, .5, 0));
+        getPosingFileData().setProfileData( .72f, new Vector3(0, 0.6, 0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().clearPoseTypes(),
+                AnimationData.walkingAnimation().withLook()
+        ));
     }
 }

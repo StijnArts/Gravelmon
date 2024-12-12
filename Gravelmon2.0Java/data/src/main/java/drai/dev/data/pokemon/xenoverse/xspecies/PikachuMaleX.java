@@ -1,5 +1,6 @@
 package drai.dev.data.pokemon.xenoverse.xspecies;
 
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
@@ -83,8 +84,17 @@ public class PikachuMaleX extends Pokemon {
                 List.of());
         this.setLangFileName("Pikachu");
         
-        this.setModeled(true);
+
         this.setBaseScale(0.5);
         this.setHitbox(0.7, 1.3);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("pikachu_x_male");
+        getPosingFileData().setPortraitData( 2.2f, new Vector3(-.1, -0.35, 0));
+        getPosingFileData().setProfileData( .65f, new Vector3(0, 0.78, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().withBlink().clearPoseTypes(),
+                AnimationData.walkingAnimation().withBlink().withLook()
+        ));
     }
 }

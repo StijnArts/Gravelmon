@@ -123,7 +123,7 @@ public class Aguade extends Pokemon {
         this.setPortraitXYZ(0,1.8,0);
         this.setBaseScale(0.9);
 
-        this.setModeled(true);
+
         getSpeciesFileData().addBasicVariation(this);
         getPosingFileData().setPortraitData( 1.6f, new Vector3(0, .2, 0));
         getPosingFileData().setProfileData( .8f, new Vector3(0, .6, 0));

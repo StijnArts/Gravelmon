@@ -138,7 +138,7 @@ public class Iguadium extends Pokemon {
         this.setPortraitXYZ(0.1, 1, 0);
         this.setBaseScale(0.7);
 
-        this.setModeled(true);
+        
         getSpeciesFileData().addBasicVariation(this);
         getPosingFileData().setPortraitData( 1.6f, new Vector3(-.20, 1.2, 0));
         getPosingFileData().setProfileData( .6f, new Vector3(-.10, .90, 0));

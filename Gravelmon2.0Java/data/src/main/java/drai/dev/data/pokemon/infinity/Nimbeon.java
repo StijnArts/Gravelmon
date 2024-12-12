@@ -107,7 +107,7 @@ public class Nimbeon extends Pokemon {
                 List.of());
         this.setCanFly(true);
 
-        this.setModeled(true);
+
         this.setBaseScale(0.8);
         this.setCanFly(true);
         this.setPreEvolution("eevee");

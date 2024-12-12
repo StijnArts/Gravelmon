@@ -99,7 +99,7 @@ public class Floressum extends Pokemon {
 
 
         this.setBaseScale(1);
-        this.setModeled(true);
+
         getSpeciesFileData().addBasicVariation(this);
         getPosingFileData().setPortraitData( 2.8f, new Vector3(-0.47, -.88, 0));
         getPosingFileData().setProfileData( .9f, new Vector3(0.1, .38, 0));

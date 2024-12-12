@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.xenoverse.xspecies;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
 
@@ -90,8 +91,15 @@ public class SharpedoX extends Pokemon {
         this.setCanBreathUnderwater(true);
         this.setCanSwim(true);
         this.setAvoidsLand(true);
-        this.setModeled(true);
+
         this.setBaseScale(1);
         this.setHitbox(0.9, 1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("sharpedo_x");
+        getPosingFileData().setPortraitData( 1.4f, new Vector3(0, 0, 0));
+        getPosingFileData().setProfileData( .6f, new Vector3(0, .8, 0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.floatingAnimation().clearPoseTypes()
+        ));
     }
 }

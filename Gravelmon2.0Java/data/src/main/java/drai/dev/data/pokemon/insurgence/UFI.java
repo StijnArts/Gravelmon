@@ -148,7 +148,7 @@ public class UFI extends Pokemon {
                 List.of());
 
         this.setCanFly(true);
-        this.setModeled(true);
+
         this.setBaseScale(1);
         this.setHitbox(0.8,0.8);
         getSpeciesFileData().addBasicVariation(this);

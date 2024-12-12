@@ -113,7 +113,7 @@ public class DeltaKirlia extends Pokemon {
                 List.of());
         this.setLangFileName("Kirlia");
         this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(0.9);
         this.setHitbox(0.5,1.4);
         getSpeciesFileData().addBasicVariation(this).addLayer(

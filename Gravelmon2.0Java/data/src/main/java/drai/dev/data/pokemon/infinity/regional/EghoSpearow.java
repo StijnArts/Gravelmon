@@ -105,7 +105,7 @@ public class EghoSpearow extends Pokemon {
                 List.of());
         this.setLangFileName("Spearow");
         
-        this.setModeled(true);
+        
         this.setBaseScale(0.8);
         this.setHitbox(0.6,0.8);
         getSpeciesFileData().addBasicVariation(this);

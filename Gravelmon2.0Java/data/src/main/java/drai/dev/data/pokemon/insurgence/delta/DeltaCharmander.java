@@ -131,7 +131,7 @@ public class DeltaCharmander extends Pokemon {
                 List.of());
         this.setLangFileName("Charmander");
         this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(0.7);
         this.setHitbox(0.7,1.1);
         getSpeciesFileData().addBasicVariation(this).addLayer(

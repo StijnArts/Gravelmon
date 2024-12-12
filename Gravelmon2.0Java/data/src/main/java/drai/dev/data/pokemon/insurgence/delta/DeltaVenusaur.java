@@ -159,7 +159,7 @@ public class DeltaVenusaur extends Pokemon {
                         )));
         this.setLangFileName("Venusaur");
         this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(2);
         this.setHitbox(1.5,1.4);
         getSpeciesFileData().addBasicVariation(this);

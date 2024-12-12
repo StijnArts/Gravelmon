@@ -130,7 +130,7 @@ public class DeltaKoffing extends Pokemon {
         this.setLangFileName("Koffing");
         this.setCanFly(true);
         this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(0.9);
         this.setHitbox(0.9,1.2);
         getSpeciesFileData().addBasicVariation(this);

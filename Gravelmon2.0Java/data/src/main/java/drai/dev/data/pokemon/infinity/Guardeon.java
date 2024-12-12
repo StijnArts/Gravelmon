@@ -105,7 +105,7 @@ public class Guardeon extends Pokemon {
                 0.27, 0.3,
                 List.of());
         
-        this.setModeled(true);
+        
         this.setBaseScale(0.8);
         this.setPreEvolution("eevee");
         addAdditionalEvolution("eevee", new EvolutionEntry("guardeon", EvolutionType.LEVEL_UP, List.of(new MoveLearnSetEntry(Move.IRON_DEFENSE, "")),

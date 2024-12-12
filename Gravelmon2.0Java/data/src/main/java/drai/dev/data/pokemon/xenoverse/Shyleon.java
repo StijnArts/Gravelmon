@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.xenoverse;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -99,6 +100,14 @@ public class Shyleon extends Pokemon {
         this.setWillSleepOnBed(true);
 
         this.setBaseScale(0.9);
-        this.setModeled(true);
+        
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 2.4f, new Vector3(0, -0.8, 0));
+        getPosingFileData().setProfileData( 1f, new Vector3(0, .30, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().clearPoseTypes(),
+                AnimationData.walkingAnimation()
+        ));
     }
 }

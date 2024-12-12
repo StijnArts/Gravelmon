@@ -106,7 +106,7 @@ public class Eeveeon extends Pokemon {
                 0.24, 0.3,
                 List.of());
 
-        this.setModeled(true);
+        
         this.setBaseScale(0.8);
         this.setPreEvolution("eevee");
         addAdditionalEvolution("eevee", new EvolutionEntry("eeveeon", EvolutionType.ITEM_INTERACT, false, List.of(new MoveLearnSetEntry(Move.EEVOBOOST, 0)),

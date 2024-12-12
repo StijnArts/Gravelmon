@@ -104,7 +104,7 @@ public class Draconeon extends Pokemon {
                     0.24, 0.3,
                     List.of());
 
-            this.setModeled(true);
+            
             this.setBaseScale(0.8);
             this.setPreEvolution("eevee");
         addAdditionalEvolution("eevee", new EvolutionEntry("draconeon", EvolutionType.LEVEL_UP, List.of(new MoveLearnSetEntry(Move.DRAGON_CLAW, "")),

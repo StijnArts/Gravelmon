@@ -113,7 +113,7 @@ public class DeltaDugtrio extends Pokemon {
                 List.of());
         this.setLangFileName("Dugtrio");
         this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(0.8);
         this.setHitbox(0.9,0.8);
         getSpeciesFileData().addBasicVariation(this);

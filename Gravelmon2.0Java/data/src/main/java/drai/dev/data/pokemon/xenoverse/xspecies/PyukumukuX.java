@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.xenoverse.xspecies;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
 
@@ -89,7 +90,14 @@ public class PyukumukuX extends Pokemon {
         this.setLangFileName("Pyukumuku");
 
         this.setCanBreathUnderwater(true);
-        this.setModeled(true);
+
         this.setBaseScale(0.8);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("ponyta_x");
+        getPosingFileData().setPortraitData( 1.7f, new Vector3(-.15, -.9, 0));
+        getPosingFileData().setProfileData( 1.1f, new Vector3(0, 0, 0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().clearAnimations().clearPoseTypes()
+        ));
     }
 }

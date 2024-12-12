@@ -45,6 +45,7 @@ public class VariationData {
         addLayer(new BasicLayerData("emissive2"));
         addLayer(new BasicLayerData("emissive"));
         addLayer(new BasicLayerData("transparentEmissive"));
+        addLayer(new BasicLayerData("transparent_emissive"));
         addLayer(new BasicLayerData("flame"));
         addLayer(new BasicLayerData("tail"));
 

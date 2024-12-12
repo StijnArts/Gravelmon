@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.xenoverse;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -105,8 +106,15 @@ public class Yemin extends Pokemon {
                 0.3, 0.3,
                 List.of());
 
-        this.setModeled(true);
+        
         this.setBaseScale(0.5);
         this.setHitbox(1,1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.7f, new Vector3(0.0, .4, 0));
+        getPosingFileData().setProfileData( .7f, new Vector3(0.0, 0.7, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().clearPoseTypes()
+        ));
     }
 }

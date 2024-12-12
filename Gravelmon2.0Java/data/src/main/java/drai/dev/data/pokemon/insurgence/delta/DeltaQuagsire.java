@@ -136,7 +136,7 @@ public class DeltaQuagsire extends Pokemon {
                 List.of());
         this.setLangFileName("Quagsire");
         this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(1.1);
         this.setHitbox(0.8,1.45);
         getSpeciesFileData().addBasicVariation(this).addLayer(

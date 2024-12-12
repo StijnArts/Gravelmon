@@ -112,7 +112,7 @@ public class EghoIvysaur extends Pokemon {
         this.setLangFileName("Ivysaur");
         this.setPortraitXYZ(0,1.8,0);
         this.setBaseScale(1);
-        this.setModeled(true);
+
         this.setHitbox(0.7,0.8);
         getSpeciesFileData().addBasicVariation(this);
         getPosingFileData().setAnimationFileName("ivysaur_egho");

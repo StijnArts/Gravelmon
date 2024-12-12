@@ -106,7 +106,7 @@ public class DeltaRalts extends Pokemon {
                 List.of());
         this.setLangFileName("Ralts");
         this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(1);
         this.setHitbox(0.5,0.9);
         getSpeciesFileData().addBasicVariation(this);

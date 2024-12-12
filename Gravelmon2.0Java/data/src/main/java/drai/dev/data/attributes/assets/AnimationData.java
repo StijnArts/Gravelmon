@@ -59,6 +59,20 @@ public class AnimationData extends BasicAnimationData {
         return new AnimationData("none", List.of(), List.of(), List.of(), 10);
     }
 
+    public static AnimationData surfaceFloatingAnimation(){
+        return new AnimationData("on_floating", List.of(PoseType.FLOAT), List.of("surface_idle"), List.of(), 10)
+                .notInWater().setPoseName("floating");
+    }
+
+    public static AnimationData waterSleepingAnimation() {
+        return new AnimationData("water_sleeping", List.of(PoseType.FLOAT), List.of("water_sleep"), List.of(), 10).inWater();
+    }
+
+    private AnimationData setPoseName(String s) {
+        this.poseName = s;
+        return this;
+    }
+
     public AnimationData notBattle() {
         setIsBattle(false);
         return this;
@@ -185,13 +199,19 @@ public class AnimationData extends BasicAnimationData {
         return this;
     }
 
-    public AnimationData notOnWaterSurface() {
+    public AnimationData notInWater() {
         this.isTouchingWater = Optional.of(false);
         return this;
     }
 
-    public AnimationData onWaterSurface() {
+    public AnimationData inWater() {
         this.isTouchingWater = Optional.of(true);
+        return this;
+    }
+
+    public AnimationData setAnimationName(String waterSleep) {
+        animationName = waterSleep;
+        poseName = waterSleep;
         return this;
     }
 }

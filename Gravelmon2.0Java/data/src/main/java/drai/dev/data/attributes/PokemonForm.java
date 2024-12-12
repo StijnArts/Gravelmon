@@ -78,14 +78,6 @@ public class PokemonForm extends AbstractPokemon {
         this.secondaryType = secondaryType;
     }
 
-    public boolean hasSeparateModel() {
-        return hasSeparateModel;
-    }
-
-    public void setHasSeparateModel(boolean hasSeparateModel) {
-        this.hasSeparateModel = hasSeparateModel;
-    }
-
     public Boolean cannotDynamax() {
         return cannotDynamax;
     }

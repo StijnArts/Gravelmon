@@ -124,7 +124,7 @@ public class EghoBlastoise extends Pokemon {
                 List.of());
         this.setLangFileName("Blastoise");
         this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(1.3);
         this.setCanSwim(false);
         this.setCanFly(true);

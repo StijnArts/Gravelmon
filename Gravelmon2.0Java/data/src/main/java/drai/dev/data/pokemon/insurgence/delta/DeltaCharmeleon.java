@@ -134,7 +134,7 @@ public class DeltaCharmeleon extends Pokemon {
                 List.of());
         this.setLangFileName("Charmeleon");
         this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(0.7);
         this.setHitbox(0.7,1.5);
         getSpeciesFileData().addBasicVariation(this).addLayer(

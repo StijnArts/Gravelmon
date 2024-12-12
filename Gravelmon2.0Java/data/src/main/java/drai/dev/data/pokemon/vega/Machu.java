@@ -98,7 +98,7 @@ public class Machu extends Pokemon {
                         new MoveLearnSetEntry(Move.WISH,"egg"),
                         new MoveLearnSetEntry(Move.YAWN,"egg")
                         ),
-                List.of(Label.VEGA),
+                List.of(Label.VEGA, Label.JOKE),
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 28, 2.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
@@ -110,7 +110,7 @@ public class Machu extends Pokemon {
 
         this.setBaseScale(1);
         this.setHitbox(0.8,1.4);
-        this.setModeled(true);
+        
         this.setPreEvolution("pikachu");
     }
 }

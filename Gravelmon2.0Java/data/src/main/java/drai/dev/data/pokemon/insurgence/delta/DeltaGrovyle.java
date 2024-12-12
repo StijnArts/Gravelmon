@@ -129,7 +129,7 @@ public class DeltaGrovyle extends Pokemon {
                 List.of());
         this.setLangFileName("Grovyle");
         this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+
         this.setBaseScale(1);
         this.setHitbox(1,1.6);
         getSpeciesFileData().addBasicVariation(this);

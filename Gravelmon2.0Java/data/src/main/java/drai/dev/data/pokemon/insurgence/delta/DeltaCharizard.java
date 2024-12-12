@@ -171,7 +171,7 @@ public class DeltaCharizard extends Pokemon {
                 )));
         this.setLangFileName("Charizard");
         this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(1.35);
         this.setHitbox(1,2.1);
         getSpeciesFileData().addBasicVariation(this).addLayer(

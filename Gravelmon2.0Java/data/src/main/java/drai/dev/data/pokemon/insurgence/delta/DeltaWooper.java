@@ -124,7 +124,7 @@ public class DeltaWooper extends Pokemon {
                 List.of());
         this.setLangFileName("Wooper");
         this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+
         this.setBaseScale(0.5);
         this.setHitbox(0.8,1);
         getSpeciesFileData().addBasicVariation(this);

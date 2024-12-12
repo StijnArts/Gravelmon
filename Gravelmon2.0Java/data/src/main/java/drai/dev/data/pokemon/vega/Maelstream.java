@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.vega;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -87,11 +88,20 @@ public class Maelstream extends Pokemon {
                 0.4, 0.3,
                 List.of());
 
-        this.setModeled(true);
+        
         this.setBaseScale(0.9);
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
         this.setAvoidsLand(true);
         this.setSwimSpeed(0.2);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.9f, new Vector3(-.5, -0.3, 0));
+        getPosingFileData().setProfileData( .8f, new Vector3(0, .5, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().clearPoseTypes(),
+                AnimationData.swimmingAnimation(),
+                AnimationData.floatingAnimation()
+        ));
     }
 }

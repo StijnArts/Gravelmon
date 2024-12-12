@@ -119,7 +119,7 @@ public class DeltaDodrio extends Pokemon {
                 List.of());
         this.setLangFileName("Dodrio");
         this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(1.6);
         this.setHitbox(0.6,1.6);
         getSpeciesFileData().addBasicVariation(this);

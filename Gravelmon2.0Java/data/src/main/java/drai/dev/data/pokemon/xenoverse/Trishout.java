@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.xenoverse;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -98,7 +99,16 @@ public class Trishout extends Pokemon {
         this.setShoulderMountable(true);
         this.setWillSleepOnBed(true);
 
-        this.setModeled(true);
+        
         this.setBaseScale(0.9);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 3.6f, new Vector3(0.2, -2.4, 0));
+        getPosingFileData().setProfileData( 1.2f, new Vector3(0, 0, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withBlink().clearPoseTypes(),
+                AnimationData.walkingAnimation().withBlink()
+        ));
+        getPosingFileData().setFaint("bedrock(trishout, faint)");
     }
 }

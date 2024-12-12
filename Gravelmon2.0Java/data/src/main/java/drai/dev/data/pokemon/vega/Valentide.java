@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.vega;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -109,5 +110,22 @@ public class Valentide extends Pokemon {
         setModeled(true);
         setBaseScale(1);
         setHitbox(1,1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("luvdisc");
+        getPosingFileData().setPortraitData( 1f, new Vector3(0.1, 0, 0));
+        getPosingFileData().setProfileData( 1f, new Vector3(0.1, 0, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withBlink().clearPoseTypes(),
+                AnimationData.walkingAnimation().withBlink(),
+                AnimationData.sleepingAnimation().notInWater(),
+                AnimationData.waterSleepingAnimation(),
+                AnimationData.swimmingAnimation().withBlink(),
+                AnimationData.floatingAnimation().withBlink()
+        ));
+        getPosingFileData().setFaint("q.bedrock_primary('luvdisc', 'water_faint', q.curve('one'))");
+        getPosingFileData().setPhysical("q.bedrock_primary('luvdisc', 'physical', q.curve('symmetrical_wide'))");
+        getPosingFileData().setSpecial("q.bedrock_primary('luvdisc', 'special', q.curve('symmetrical_wide'))");
+
     }
 }

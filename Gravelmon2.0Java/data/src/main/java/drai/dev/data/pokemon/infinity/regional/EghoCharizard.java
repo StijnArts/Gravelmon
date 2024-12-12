@@ -138,7 +138,7 @@ public class EghoCharizard extends Pokemon {
                 List.of());
         this.setLangFileName("Charizard");
         this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(1.05);
         this.setCanFly(true);
         this.setHitbox(2.3,3.4);

@@ -167,7 +167,7 @@ public class DeltaMeloetta extends Pokemon {
                 )));
         this.setLangFileName("Meloetta");
         this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setHitbox(0.5,1.3);
         this.setBaseScale(0.7);
         this.setCanFly(true);

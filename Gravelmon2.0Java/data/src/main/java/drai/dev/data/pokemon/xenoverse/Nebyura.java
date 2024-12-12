@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.xenoverse;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -99,5 +100,14 @@ public class Nebyura extends Pokemon {
         setModeled(true);
         setBaseScale(1.75);
         setHitbox(0.8, 1.7);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 2.1f, new Vector3(0.2, .98, 0));
+        getPosingFileData().setProfileData( .8f, new Vector3(0, 0.6, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().clearPoseTypes(),
+                AnimationData.battleIdleAnimation().withLook(),
+                AnimationData.walkingAnimation().withLook()
+        ));
     }
 }

@@ -111,7 +111,7 @@ public class Sphynxeon extends Pokemon {
                 0.24, 0.3,
                 List.of());
 
-        this.setModeled(true);
+        
         this.setBaseScale(0.8);
         this.setPreEvolution("eevee");
         addAdditionalEvolution("eevee", new EvolutionEntry("sphynxeon", EvolutionType.LEVEL_UP, List.of(new MoveLearnSetEntry(Move.SAND_TOMB, "")),

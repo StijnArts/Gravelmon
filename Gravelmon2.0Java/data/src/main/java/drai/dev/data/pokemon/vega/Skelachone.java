@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.vega;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -102,11 +103,20 @@ public class Skelachone extends Pokemon {
                 0.4, 0.3,
                 List.of());
         
-        this.setModeled(true);
+        
         this.setBaseScale(1.1);
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
         this.setAvoidsLand(true);
         this.setSwimSpeed(0.1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.8f, new Vector3(-.4, 0, 0));
+        getPosingFileData().setProfileData( .58f, new Vector3(0, .9, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().clearPoseTypes(),
+                AnimationData.swimmingAnimation(),
+                AnimationData.floatingAnimation()
+        ));
     }
 }

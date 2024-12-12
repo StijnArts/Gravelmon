@@ -97,7 +97,7 @@ public class Cowatti extends Pokemon {
                 0.4, 0.5,
                 List.of());
 
-        this.setModeled(true);
+        
         this.setBaseScale(0.7);
         this.setHitbox(1,1);
         getSpeciesFileData().addBasicVariation(this);

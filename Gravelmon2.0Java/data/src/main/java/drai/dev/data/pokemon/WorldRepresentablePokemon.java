@@ -40,6 +40,9 @@ public abstract class WorldRepresentablePokemon {
             }
         } else {
             abstractPokemon.labels.remove(Label.NOT_MODELED);
+            if(abstractPokemon instanceof Pokemon pokemon){
+                pokemon.getForms().forEach(pokemonForm -> pokemonForm.getLabels().remove(Label.NOT_MODELED));
+            }
         }
         generateSpeciesFileData(abstractPokemon);
         generatePosingFileData(abstractPokemon);

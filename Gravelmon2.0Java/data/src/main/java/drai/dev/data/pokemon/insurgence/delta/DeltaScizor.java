@@ -150,7 +150,7 @@ public class DeltaScizor extends Pokemon {
                 )));
         this.setLangFileName("Scizor");
         this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+
         this.setBaseScale(0.85);
         this.setHitbox(1.1,2.6);
         getSpeciesFileData().addBasicVariation(this);

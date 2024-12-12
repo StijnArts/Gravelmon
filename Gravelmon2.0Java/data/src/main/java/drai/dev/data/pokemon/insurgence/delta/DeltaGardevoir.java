@@ -149,7 +149,7 @@ public class DeltaGardevoir extends Pokemon {
                 )));
         this.setLangFileName("Gardevoir");
         this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(0.9);
         this.setHitbox(0.6,2.2);
         getSpeciesFileData().addBasicVariation(this).addLayer(

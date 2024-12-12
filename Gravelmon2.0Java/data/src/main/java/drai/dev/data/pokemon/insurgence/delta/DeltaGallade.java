@@ -155,7 +155,7 @@ public class DeltaGallade extends Pokemon {
                 )));
         this.setLangFileName("Gallade");
         this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(1);
         this.setHitbox(0.6,2.25);
         getSpeciesFileData().addBasicVariation(this).addLayer(

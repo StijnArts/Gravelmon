@@ -111,7 +111,7 @@ public class EghoFearow extends Pokemon {
                 List.of());
         this.setLangFileName("Fearow");
 
-        this.setModeled(true);
+        
         this.setBaseScale(1.2);
         this.setHitbox(1,1.4);
         getSpeciesFileData().addBasicVariation(this);

@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.xenoverse.xspecies;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -75,8 +76,16 @@ public class JoltikX extends Pokemon {
                 List.of());
         this.setLangFileName("Joltik");
 
-        this.setModeled(true);
+        
         this.setBaseScale(0.4);
         this.setHitbox(0.6, 0.6);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("joltik_x");
+        getPosingFileData().setPortraitData( 3.5f, new Vector3(-.40, -3.6, 0));
+        getPosingFileData().setProfileData( 1f, new Vector3(0, 0, 0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withBlink().clearPoseTypes(),
+                AnimationData.walkingAnimation().withBlink()
+        ));
     }
 }
