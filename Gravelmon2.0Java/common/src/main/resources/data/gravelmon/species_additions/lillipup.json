@@ -30,7 +30,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -63,7 +63,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianlillipup.desc1"
+        "cobblemon.species.fabelianlillipup.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -209,7 +209,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochlillipup.desc1"
+        "cobblemon.species.epochlillipup.desc"
       ],
       "height": 4,
       "weight": 41,
@@ -218,9 +218,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochlillipup_epoch_herdier",
+          "id": "epochlillipup_herdier_epoch",
           "variant": "level_up",
-          "result": "epoch herdier",
+          "result": "herdier epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

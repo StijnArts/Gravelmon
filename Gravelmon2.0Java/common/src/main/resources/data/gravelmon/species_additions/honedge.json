@@ -107,7 +107,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochhonedge.desc1"
+        "cobblemon.species.epochhonedge.desc"
       ],
       "height": 8,
       "weight": 20,
@@ -116,9 +116,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochhonedge_epoch_doublade",
+          "id": "epochhonedge_doublade_epoch",
           "variant": "level_up",
-          "result": "epoch doublade",
+          "result": "doublade epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -252,7 +252,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochhonedgeone.desc1"
+        "cobblemon.species.epochhonedgeone.desc"
       ],
       "height": 8,
       "weight": 20,
@@ -401,7 +401,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochhonedgetwo.desc1"
+        "cobblemon.species.epochhonedgetwo.desc"
       ],
       "height": 8,
       "weight": 20,
@@ -568,7 +568,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochhonedgethree.desc1"
+        "cobblemon.species.epochhonedgethree.desc"
       ],
       "height": 8,
       "weight": 20,
@@ -679,7 +679,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.africanusanhonedge.desc1"
+        "cobblemon.species.africanusanhonedge.desc"
       ],
       "height": 8,
       "weight": 20,

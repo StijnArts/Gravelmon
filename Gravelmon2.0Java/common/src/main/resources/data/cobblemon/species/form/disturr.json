@@ -7,8 +7,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "meowth form\u003dforman",
-  "baseScale": 0.2833333333333333,
+  "preEvolution": "meowth form=forman",
+  "baseScale": 0.053125,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -44,7 +44,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.disturr.desc1"
+    "cobblemon.species.disturr.desc"
   ],
   "height": 17,
   "weight": 0,

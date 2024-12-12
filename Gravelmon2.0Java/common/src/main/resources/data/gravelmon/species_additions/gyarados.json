@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -47,7 +47,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ivrisiangyarados.desc1"
+        "cobblemon.species.ivrisiangyarados.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -95,6 +95,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "magikarp form=epoch",
       "baseScale": 1.0833333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -121,7 +122,16 @@
         "water_2",
         "dragon"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:astral_stone",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
+      },
       "moves": [
         "15:flail",
         "20:bite",
@@ -185,10 +195,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochgyarados.desc1"
+        "cobblemon.species.epochgyarados.desc"
       ],
       "height": 65,
       "weight": 2350,

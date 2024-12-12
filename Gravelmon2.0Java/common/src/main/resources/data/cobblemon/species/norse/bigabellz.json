@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "miscelliz",
-  "baseScale": 0.4666666666666666,
+  "baseScale": 0.0875,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -47,7 +47,7 @@
     "norse"
   ],
   "pokedex": [
-    "cobblemon.species.bigabellz.desc1"
+    "cobblemon.species.bigabellz.desc"
   ],
   "height": 28,
   "weight": 0,

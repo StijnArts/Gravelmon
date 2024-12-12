@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "icephan",
-  "baseScale": 0.4166666666666667,
+  "baseScale": 0.078125,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -44,7 +44,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.mastogleys.desc1"
+    "cobblemon.species.mastogleys.desc"
   ],
   "height": 25,
   "weight": 0,

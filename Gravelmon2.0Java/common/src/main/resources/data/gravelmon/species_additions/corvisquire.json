@@ -13,7 +13,14 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:end_crystal",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "forms": [
     {
@@ -26,6 +33,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "rookidee form=epoch",
       "baseScale": 0.13333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -111,10 +119,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochcorvisquire.desc1"
+        "cobblemon.species.epochcorvisquire.desc"
       ],
       "height": 8,
       "weight": 160,
@@ -123,9 +133,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochcorvisquire_epoch_corviknight",
+          "id": "epochcorvisquire_corviknight_epoch",
           "variant": "level_up",
-          "result": "epoch corviknight",
+          "result": "corviknight epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -176,7 +186,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "rookidee form\u003dnorheiman",
+      "preEvolution": "rookidee form=norheiman",
       "baseScale": 0.13333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -227,7 +237,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.norheimancorvisquire.desc1"
+        "cobblemon.species.norheimancorvisquire.desc"
       ],
       "height": 8,
       "weight": 165,

@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "poisonpoint"
@@ -47,7 +47,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formangoldeen.desc1"
+        "cobblemon.species.formangoldeen.desc"
       ],
       "height": 6,
       "weight": 0,
@@ -212,7 +212,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochgoldeen.desc1"
+        "cobblemon.species.epochgoldeen.desc"
       ],
       "height": 6,
       "weight": 150,
@@ -221,9 +221,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochgoldeen_epoch_seaking",
+          "id": "epochgoldeen_seaking_epoch",
           "variant": "level_up",
-          "result": "epoch seaking",
+          "result": "seaking epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

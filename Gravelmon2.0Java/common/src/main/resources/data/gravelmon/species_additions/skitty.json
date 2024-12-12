@@ -117,7 +117,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochskittyone.desc1"
+        "cobblemon.species.epochskittyone.desc"
       ],
       "height": 6,
       "weight": 110,
@@ -300,7 +300,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochskitty.desc1"
+        "cobblemon.species.epochskitty.desc"
       ],
       "height": 6,
       "weight": 110,
@@ -309,9 +309,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochskitty_epoch_delcatty",
+          "id": "epochskitty_delcatty_epoch",
           "variant": "item_interact",
-          "result": "epoch delcatty",
+          "result": "delcatty epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -437,7 +437,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.hizianskitty.desc1"
+        "cobblemon.species.hizianskitty.desc"
       ],
       "height": 6,
       "weight": 165,

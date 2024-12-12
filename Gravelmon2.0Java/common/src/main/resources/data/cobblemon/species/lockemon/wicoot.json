@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 200,
   "baseFriendship": 70,
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.065625,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -102,7 +102,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.wicoot.desc1"
+    "cobblemon.species.wicoot.desc"
   ],
   "height": 21,
   "weight": 937,

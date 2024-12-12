@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -44,7 +44,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.bombreino.desc1"
+    "cobblemon.species.bombreino.desc"
   ],
   "height": 0,
   "weight": 0,

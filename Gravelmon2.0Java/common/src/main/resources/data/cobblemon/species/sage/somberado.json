@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 51,
   "baseFriendship": 70,
-  "baseScale": 0.25,
+  "baseScale": 0.046875,
   "cannotDynamax": false,
   "abilities": [
     "quickdraw",
@@ -35,7 +35,14 @@
     "amorphous"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
   },
   "moves": [
     "1:bulletseed",
@@ -120,7 +127,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.somberado.desc1"
+    "cobblemon.species.somberado.desc"
   ],
   "height": 15,
   "weight": 38,

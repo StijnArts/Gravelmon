@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "joorit",
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.0375,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -47,7 +47,7 @@
     "palmia"
   ],
   "pokedex": [
-    "cobblemon.species.ejoort.desc1"
+    "cobblemon.species.ejoort.desc"
   ],
   "height": 12,
   "weight": 0,

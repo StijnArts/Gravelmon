@@ -112,7 +112,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochmareanie.desc1"
+        "cobblemon.species.epochmareanie.desc"
       ],
       "height": 4,
       "weight": 80,
@@ -121,9 +121,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmareanie_epoch_toxapex",
+          "id": "epochmareanie_toxapex_epoch",
           "variant": "level_up",
-          "result": "epoch toxapex",
+          "result": "toxapex epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -175,7 +175,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "illuminate",
@@ -201,7 +201,14 @@
         "undiscovered"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:xenolith",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
       },
       "moves": [
         "1:bind",
@@ -248,7 +255,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mareaniex.desc1"
+        "cobblemon.species.mareaniex.desc"
       ],
       "height": 4,
       "weight": 80,
@@ -371,7 +378,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.hoennianmareanie.desc1"
+        "cobblemon.species.hoennianmareanie.desc"
       ],
       "height": 5,
       "weight": 213,

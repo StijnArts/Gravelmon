@@ -34,7 +34,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:astral_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:rockthrow",
@@ -47,7 +54,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.primecleon.desc1"
+    "cobblemon.species.primecleon.desc"
   ],
   "height": 15,
   "weight": 0,

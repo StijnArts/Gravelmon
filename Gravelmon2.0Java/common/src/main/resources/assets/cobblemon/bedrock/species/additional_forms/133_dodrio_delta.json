@@ -1,25 +1,69 @@
 {
   "species": "cobblemon:dodrio",
-  "order": 10,
+  "order": 133,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:deltadodrio.geo",
+      "model": "cobblemon:generation1_deltadodrio.geo",
       "poser": "cobblemon:generation1_deltadodrio",
-      "texture": "cobblemon:textures/pokemon/generation1/deltadodrio.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation1/deltadodrio/deltadodrio.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     },
     {
       "aspects": [
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:deltadodrio.geo",
+      "model": "cobblemon:generation1_deltadodrio.geo",
       "poser": "cobblemon:generation1_deltadodrio",
-      "texture": "cobblemon:textures/pokemon/generation1/deltadodrio_shiny.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation1/deltadodrio/deltadodrio_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     }
   ]
 }

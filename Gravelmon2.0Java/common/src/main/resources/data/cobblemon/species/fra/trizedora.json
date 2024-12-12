@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "duozora",
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.065625,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -45,7 +45,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.trizedora.desc1"
+    "cobblemon.species.trizedora.desc"
   ],
   "height": 21,
   "weight": 0,

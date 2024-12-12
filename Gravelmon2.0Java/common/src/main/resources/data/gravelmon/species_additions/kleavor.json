@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "scyther form\u003dmythian",
+      "preEvolution": "scyther form=mythian",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -39,7 +39,14 @@
         "bug"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:preadite",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
       },
       "moves": [
         "1:quickattack",
@@ -79,7 +86,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.mythiankleavor.desc1"
+        "cobblemon.species.mythiankleavor.desc"
       ],
       "height": 15,
       "weight": 560,

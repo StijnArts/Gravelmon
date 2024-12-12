@@ -34,7 +34,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:dusk_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:lick",
@@ -83,7 +90,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.illuseon.desc1"
+    "cobblemon.species.illuseon.desc"
   ],
   "height": 11,
   "weight": 377,

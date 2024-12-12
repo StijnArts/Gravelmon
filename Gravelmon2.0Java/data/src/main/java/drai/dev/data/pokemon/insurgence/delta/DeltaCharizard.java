@@ -178,9 +178,9 @@ public class DeltaCharizard extends Pokemon {
                         new AnimatedLayerData("flame",
                                 List.of("flame/deltatail1", "flame/deltatail2", "flame/deltatail3", "flame/deltatail4"),
                                 10, true,
-                                true, false, false, false))
+                                Optional.of(true), Optional.of(false), false, false))
                 .addLayer(new SimpleTextureLayerData("glow", "deltacharizard_emissive",
-                        true, true, false, true));
+                        Optional.of(true), Optional.of(true), false, true));
         getPosingFileData().setPortraitData( 2f, new Vector3(-0.4, 1.4, 0));
         getPosingFileData().setProfileData( .55f, new Vector3(0, .95, 0));
         getPosingFileData().setBasicHead();

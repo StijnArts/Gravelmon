@@ -7,7 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "coathief form\u003dmastenian",
+  "preEvolution": "coathief form=mastenian",
   "baseScale": 0.2333333333333333,
   "cannotDynamax": false,
   "abilities": [
@@ -45,7 +45,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.devidare.desc1"
+    "cobblemon.species.devidare.desc"
   ],
   "height": 14,
   "weight": 0,

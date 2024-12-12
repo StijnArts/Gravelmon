@@ -34,7 +34,19 @@
     "flying"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:melon_seeds",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:tackle",
@@ -106,7 +118,7 @@
     "sage"
   ],
   "pokedex": [
-    "cobblemon.species.foliat.desc1"
+    "cobblemon.species.foliat.desc"
   ],
   "height": 3,
   "weight": 15,

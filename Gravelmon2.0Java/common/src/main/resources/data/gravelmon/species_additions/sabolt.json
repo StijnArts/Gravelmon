@@ -11,7 +11,7 @@
       "experienceGroup": "slow",
       "eggCycles": 41,
       "baseFriendship": 70,
-      "baseScale": 0.13333333333333333,
+      "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
         "intimidate"
@@ -36,7 +36,24 @@
         "undiscovered"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          },
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 10
+          },
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
       },
       "moves": [
         "1:thunderpunch",
@@ -100,7 +117,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.saboltterrestrial.desc1"
+        "cobblemon.species.saboltterrestrial.desc"
       ],
       "height": 8,
       "weight": 217,
@@ -111,7 +128,7 @@
         {
           "id": "saboltterrestrial_sabolt_terrestrialfalse",
           "variant": "level_up",
-          "result": "sabolt terrestrial\u003dfalse",
+          "result": "sabolt terrestrial=false",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -172,7 +189,7 @@
       "experienceGroup": "slow",
       "eggCycles": 41,
       "baseFriendship": 70,
-      "baseScale": 0.2833333333333333,
+      "baseScale": 0.2125,
       "cannotDynamax": false,
       "abilities": [
         "download"
@@ -197,7 +214,24 @@
         "undiscovered"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          },
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          },
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
       },
       "moves": [
         "1:eerieimpulse",
@@ -270,7 +304,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.saboltxenoversal.desc1"
+        "cobblemon.species.saboltxenoversal.desc"
       ],
       "height": 17,
       "weight": 1110,
@@ -295,7 +329,7 @@
         {
           "id": "saboltxenoversal_sabolt_xenoversalfalse",
           "variant": "level_up",
-          "result": "sabolt xenoversal\u003dfalse",
+          "result": "sabolt xenoversal=false",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

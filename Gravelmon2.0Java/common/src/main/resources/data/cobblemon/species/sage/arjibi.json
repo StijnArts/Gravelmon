@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 62,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "infiltrator",
@@ -34,7 +34,19 @@
     "dragon"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:kaleidoscope",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:kaleidoscope",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "moves": [
     "1:teleport",
@@ -116,7 +128,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.arjibi.desc1"
+    "cobblemon.species.arjibi.desc"
   ],
   "height": 6,
   "weight": 23,

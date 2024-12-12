@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "picantoad",
-  "baseScale": 0.26666666666666666,
+  "baseScale": 0.05,
   "cannotDynamax": false,
   "abilities": [
     "blaze",
@@ -113,7 +113,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.volcantoad.desc1"
+    "cobblemon.species.volcantoad.desc"
   ],
   "height": 16,
   "weight": 3100,

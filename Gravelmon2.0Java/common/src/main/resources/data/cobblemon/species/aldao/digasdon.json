@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.4166666666666667,
+  "baseScale": 0.078125,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -44,7 +44,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.digasdon.desc1"
+    "cobblemon.species.digasdon.desc"
   ],
   "height": 25,
   "weight": 0,

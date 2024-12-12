@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.21666666666666667,
+  "baseScale": 0.040625,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -40,7 +40,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.brawlawoo.desc1"
+    "cobblemon.species.brawlawoo.desc"
   ],
   "height": 13,
   "weight": 0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "punchild",
-  "baseScale": 0.1,
+  "baseScale": 0.07500000000000001,
   "cannotDynamax": false,
   "abilities": [
     "hugepower"
@@ -109,7 +109,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.combound.desc1"
+    "cobblemon.species.combound.desc"
   ],
   "height": 6,
   "weight": 324,

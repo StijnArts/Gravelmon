@@ -9,7 +9,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "dracoon",
-  "baseScale": 0.3333333333333333,
+  "baseScale": 0.0625,
   "cannotDynamax": false,
   "abilities": [
     "swarm",
@@ -36,7 +36,14 @@
     "dragon"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:seismictoss",
@@ -114,7 +121,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.basilect.desc1"
+    "cobblemon.species.basilect.desc"
   ],
   "height": 20,
   "weight": 1628,

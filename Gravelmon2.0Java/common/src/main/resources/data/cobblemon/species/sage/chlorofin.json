@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "leafish",
-  "baseScale": 0.26666666666666666,
+  "baseScale": 0.05,
   "cannotDynamax": false,
   "abilities": [
     "friendguard",
@@ -37,7 +37,14 @@
     "grass"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:raw_cod",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:aquaring",
@@ -131,7 +138,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.chlorofin.desc1"
+    "cobblemon.species.chlorofin.desc"
   ],
   "height": 16,
   "weight": 688,

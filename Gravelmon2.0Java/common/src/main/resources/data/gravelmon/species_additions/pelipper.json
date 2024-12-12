@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "wingull form=epoch",
       "baseScale": 0.19999999999999998,
       "cannotDynamax": false,
       "abilities": [
@@ -98,10 +99,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochpelipper.desc1"
+        "cobblemon.species.epochpelipper.desc"
       ],
       "height": 12,
       "weight": 280,

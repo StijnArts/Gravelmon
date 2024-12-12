@@ -7,7 +7,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.25,
+  "baseScale": 0.1875,
   "cannotDynamax": false,
   "abilities": [
     "stench"
@@ -107,7 +107,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.clotaku.desc1"
+    "cobblemon.species.clotaku.desc"
   ],
   "height": 15,
   "weight": 500,

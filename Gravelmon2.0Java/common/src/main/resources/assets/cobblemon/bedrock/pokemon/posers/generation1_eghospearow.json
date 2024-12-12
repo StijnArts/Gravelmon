@@ -1,27 +1,34 @@
 {
-  "portraitScale": 3.4,
-  "portraitTranslation": [-0.1, -2, 0.0],
-  "profileScale": 1.2,
-  "profileTranslation": [0.0, 0, 0.0],
   "head": "head",
-    "poses": {
-      "standing": {
-        "poseName": "standing",
-        "transformTicks": 10,
+  "portraitScale": 3.4000000953674316,
+  "portraitTranslation": [
+    -0.1,
+    -2.0,
+    0.0
+  ],
+  "profileScale": 1.2000000476837158,
+  "profileTranslation": [
+    -0.0,
+    0.0,
+    0.0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "look",
+        "bedrock(spearow_egho, ground_idle)"
+      ],
+      "transformTicks": 10,
       "allPoseTypes": true,
-        "animations": [
-          "look",
-          "bedrock(spearow_egho, ground_idle)"
-        ],
-       "quirks": [
-         {
-           "name": "blink",
-           "loopTimes": 5,
-           "minSecondsBetweenOccurrences": 8,
-           "maxSecondsBetweenOccurrences": 20,
-           "animations": ["bedrock(spearow_egho, blink)"]
-         }
-       ]
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(spearow_egho, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
     }
-}
+  }
 }

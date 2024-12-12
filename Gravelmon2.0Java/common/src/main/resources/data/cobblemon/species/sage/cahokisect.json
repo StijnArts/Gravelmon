@@ -9,7 +9,7 @@
   "eggCycles": 39,
   "baseFriendship": 70,
   "preEvolution": "pueblant",
-  "baseScale": 0.2333333333333333,
+  "baseScale": 0.04375,
   "cannotDynamax": false,
   "abilities": [
     "shielddust",
@@ -36,7 +36,14 @@
     "mineral"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:ancientpower",
@@ -136,7 +143,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.cahokisect.desc1"
+    "cobblemon.species.cahokisect.desc"
   ],
   "height": 14,
   "weight": 1633,

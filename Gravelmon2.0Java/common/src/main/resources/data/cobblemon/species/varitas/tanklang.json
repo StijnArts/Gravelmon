@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "klang form\u003dvaritasian",
+  "preEvolution": "klang form=varitasian",
   "baseScale": 0.3,
   "cannotDynamax": false,
   "abilities": [
@@ -97,7 +97,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.tanklang.desc1"
+    "cobblemon.species.tanklang.desc"
   ],
   "height": 18,
   "weight": 165,

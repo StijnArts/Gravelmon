@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 1.0666666666666667,
+  "baseScale": 0.2,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -44,7 +44,7 @@
     "norse"
   ],
   "pokedex": [
-    "cobblemon.species.uppdrasil.desc1"
+    "cobblemon.species.uppdrasil.desc"
   ],
   "height": 64,
   "weight": 0,

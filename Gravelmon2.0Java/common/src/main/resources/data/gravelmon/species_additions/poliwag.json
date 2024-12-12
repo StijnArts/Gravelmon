@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianpoliwag.desc1"
+        "cobblemon.species.fabelianpoliwag.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -93,7 +93,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "swiftswim",
@@ -128,7 +128,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.palmianpoliwag.desc1"
+        "cobblemon.species.palmianpoliwag.desc"
       ],
       "height": 5,
       "weight": 0,
@@ -190,7 +190,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "poisonpoint"
@@ -223,7 +223,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanpoliwag.desc1"
+        "cobblemon.species.formanpoliwag.desc"
       ],
       "height": 5,
       "weight": 0,
@@ -409,7 +409,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochpoliwag.desc1"
+        "cobblemon.species.epochpoliwag.desc"
       ],
       "height": 6,
       "weight": 124,
@@ -418,9 +418,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochpoliwag_epoch_poliwhirl",
+          "id": "epochpoliwag_poliwhirl_epoch",
           "variant": "level_up",
-          "result": "epoch poliwhirl",
+          "result": "poliwhirl epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

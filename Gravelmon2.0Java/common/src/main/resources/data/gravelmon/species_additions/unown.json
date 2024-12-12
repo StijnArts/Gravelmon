@@ -13,7 +13,14 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "gravelmon:ancient_glyph",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "forms": [
     {
@@ -26,7 +33,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "prankster"
@@ -62,7 +69,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanunown.desc1"
+        "cobblemon.species.formanunown.desc"
       ],
       "height": 4,
       "weight": 0,
@@ -161,7 +168,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.norheimanunown.desc1"
+        "cobblemon.species.norheimanunown.desc"
       ],
       "height": 5,
       "weight": 165,
@@ -208,7 +215,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 100,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "levitate"
@@ -242,7 +249,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.unownearth.desc1"
+        "cobblemon.species.unownearth.desc"
       ],
       "height": 5,
       "weight": 50,
@@ -289,7 +296,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 100,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "levitate"
@@ -323,7 +330,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.unownxenoverse.desc1"
+        "cobblemon.species.unownxenoverse.desc"
       ],
       "height": 5,
       "weight": 50,

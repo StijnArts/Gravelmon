@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "zokinub",
-  "baseScale": 0.2333333333333333,
+  "baseScale": 0.04375,
   "cannotDynamax": false,
   "abilities": [
     "cheekpouch"
@@ -44,7 +44,7 @@
     "trizor"
   ],
   "pokedex": [
-    "cobblemon.species.zilozwine.desc1"
+    "cobblemon.species.zilozwine.desc"
   ],
   "height": 14,
   "weight": 0,

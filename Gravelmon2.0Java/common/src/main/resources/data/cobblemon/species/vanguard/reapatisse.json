@@ -33,7 +33,14 @@
     "fairy"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:reaper_cloth",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:shadowsneak",
@@ -117,7 +124,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.reapatisse.desc1"
+    "cobblemon.species.reapatisse.desc"
   ],
   "height": 14,
   "weight": 355,

@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "polibarb",
-  "baseScale": 0.2833333333333333,
+  "baseScale": 0.053125,
   "cannotDynamax": false,
   "abilities": [
     "poisonpoint"
@@ -44,7 +44,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.polispike.desc1"
+    "cobblemon.species.polispike.desc"
   ],
   "height": 17,
   "weight": 0,

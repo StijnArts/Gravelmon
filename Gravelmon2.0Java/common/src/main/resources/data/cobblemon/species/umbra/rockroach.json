@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "runaway",
@@ -93,7 +93,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.rockroach.desc1"
+    "cobblemon.species.rockroach.desc"
   ],
   "height": 5,
   "weight": 287,

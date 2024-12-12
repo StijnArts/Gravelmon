@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 200,
   "baseFriendship": 70,
-  "baseScale": 2.6666666666666665,
+  "baseScale": 0.5,
   "cannotDynamax": false,
   "abilities": [
     "pressure"
@@ -119,7 +119,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.endramodai.desc1"
+    "cobblemon.species.endramodai.desc"
   ],
   "height": 160,
   "weight": 8880,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "nervreck",
-  "baseScale": 0.25,
+  "baseScale": 12.0,
   "cannotDynamax": false,
   "abilities": [
     "rivalry",
@@ -69,7 +69,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.wreckore.desc1"
+    "cobblemon.species.wreckore.desc"
   ],
   "height": 15,
   "weight": 165,

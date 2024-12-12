@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "zapcoon",
-  "baseScale": 0.18333333333333335,
+  "baseScale": 8.8,
   "cannotDynamax": false,
   "abilities": [
     "voltabsorb",
@@ -63,7 +63,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.zaptenna.desc1"
+    "cobblemon.species.zaptenna.desc"
   ],
   "height": 11,
   "weight": 165,

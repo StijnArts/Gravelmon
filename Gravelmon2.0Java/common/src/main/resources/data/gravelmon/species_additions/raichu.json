@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mahalianraichu.desc1"
+        "cobblemon.species.mahalianraichu.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -92,8 +92,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "pikachu form\u003dnorse",
-      "baseScale": 0.25,
+      "preEvolution": "pikachu form=norse",
+      "baseScale": 0.046875,
       "cannotDynamax": false,
       "abilities": [
         "cutecharm"
@@ -129,7 +129,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.norseraichu.desc1"
+        "cobblemon.species.norseraichu.desc"
       ],
       "height": 15,
       "weight": 0,
@@ -177,6 +177,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "pikachu form=epoch",
       "baseScale": 0.13333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -203,7 +204,16 @@
         "field",
         "fairy"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:ocarina",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
+      },
       "moves": [
         "24:agility",
         "4:thundershock",
@@ -272,10 +282,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochraichu.desc1"
+        "cobblemon.species.epochraichu.desc"
       ],
       "height": 8,
       "weight": 300,
@@ -323,8 +335,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 100,
       "baseFriendship": 70,
-      "preEvolution": "pikachu form\u003ddelta",
-      "baseScale": 0.13333333333333333,
+      "preEvolution": "pikachu form=delta",
+      "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
         "cutecharm",
@@ -450,7 +462,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltaraichu.desc1"
+        "cobblemon.species.deltaraichu.desc"
       ],
       "height": 8,
       "weight": 300,
@@ -523,7 +535,14 @@
         "undiscovered"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:xenolith",
+            "quantityRange": "1-1",
+            "percentage": 20
+          }
+        ]
       },
       "moves": [
         "1:flashcannon",
@@ -571,7 +590,7 @@
         "gen1"
       ],
       "pokedex": [
-        "cobblemon.species.raichux.desc1"
+        "cobblemon.species.raichux.desc"
       ],
       "height": 8,
       "weight": 260,

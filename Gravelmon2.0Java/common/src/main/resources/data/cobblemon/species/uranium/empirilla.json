@@ -33,7 +33,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:jungle_crown",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:bulkup",
@@ -127,7 +134,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.empirilla.desc1"
+    "cobblemon.species.empirilla.desc"
   ],
   "height": 19,
   "weight": 883,

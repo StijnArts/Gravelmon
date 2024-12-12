@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianroggenrola.desc1"
+        "cobblemon.species.fabelianroggenrola.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -187,7 +187,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochroggenrola.desc1"
+        "cobblemon.species.epochroggenrola.desc"
       ],
       "height": 4,
       "weight": 180,
@@ -196,9 +196,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochroggenrola_epoch_boldore",
+          "id": "epochroggenrola_boldore_epoch",
           "variant": "level_up",
-          "result": "epoch boldore",
+          "result": "boldore epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -372,7 +372,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochroggenrolaone.desc1"
+        "cobblemon.species.epochroggenrolaone.desc"
       ],
       "height": 4,
       "weight": 180,
@@ -530,7 +530,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.armiranroggenrola.desc1"
+        "cobblemon.species.armiranroggenrola.desc"
       ],
       "height": 4,
       "weight": 180,

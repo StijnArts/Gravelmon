@@ -1,54 +1,73 @@
 {
- "portraitScale": 1.9,
-  "portraitTranslation": [-0.4, -0.3, 0.0],
-  "profileScale": 0.9,
-  "profileTranslation": [-0.0, 0.35, 0.0],
   "head": "head",
+  "portraitScale": 1.899999976158142,
+  "portraitTranslation": [
+    -0.4,
+    -0.3,
+    0.0
+  ],
+  "profileScale": 0.8999999761581421,
+  "profileTranslation": [
+    0.0,
+    0.35,
+    0.0
+  ],
   "poses": {
     "standing": {
-        "poseName": "standing",
-        "transformTicks": 10,
-        "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
-        "animations": [
-          "look",
-          "bedrock(nimbeon, ground_idle)"
-        ],
-        "quirks": [
-          {
-            "name": "blink",
-            "animations": ["bedrock(nimbeon, blink)"]
-          }
-        ]
-      },
-	  "walking": {
-        "poseName": "walking",
-        "transformTicks": 10,
-        "poseTypes": ["WALK"],
-        "animations": [
-          "look",
-          "bedrock(nimbeon, ground_walk)"
-        ],
-        "quirks": [
-          {
-            "name": "blink",
-            "animations": ["bedrock(nimbeon, blink)"]
-          }
-        ]
-      },
-	  "hovering": {
-        "poseName": "hovering",
-        "transformTicks": 10,
-        "poseTypes": ["HOVER", "FLY"],
-        "animations": [
-          "look",
-          "bedrock(nimbeon, air_idle)"
-        ],
-        "quirks": [
-          {
-            "name": "blink",
-            "animations": ["bedrock(nimbeon, blink)"]
-          }
-        ]
-      }
+      "poseName": "standing",
+      "animations": [
+        "look",
+        "bedrock(nimbeon, ground_idle)"
+      ],
+      "transformTicks": 10,
+      "allPoseTypes": true,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(nimbeon, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "animations": [
+        "look",
+        "bedrock(nimbeon, ground_walk)"
+      ],
+      "poseTypes": [
+        "WALK",
+        "SWIM"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(nimbeon, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    },
+    "hovering": {
+      "poseName": "hovering",
+      "animations": [
+        "bedrock(nimbeon, air_idle)"
+      ],
+      "poseTypes": [
+        "HOVER",
+        "FLOAT"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(nimbeon, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    }
   }
 }

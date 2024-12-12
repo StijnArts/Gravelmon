@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pomparunt",
-  "baseScale": 0.15,
+  "baseScale": 0.028124999999999997,
   "cannotDynamax": false,
   "abilities": [
     "pickpocket",
@@ -37,7 +37,14 @@
     "human_like"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:fakeout",
@@ -140,7 +147,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.pompagoon.desc1"
+    "cobblemon.species.pompagoon.desc"
   ],
   "height": 9,
   "weight": 254,

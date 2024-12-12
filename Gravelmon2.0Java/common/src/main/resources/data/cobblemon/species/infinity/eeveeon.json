@@ -34,7 +34,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:astral_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:eevoboost",
@@ -116,7 +123,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.eeveeon.desc1"
+    "cobblemon.species.eeveeon.desc"
   ],
   "height": 14,
   "weight": 250,

@@ -103,6 +103,7 @@ public class PorygonWES extends Pokemon {
                 AnimationData.standingAnimation().clearPoseTypes(),
                 AnimationData.walkingAnimation()
         ));
+        getPosingFileData().setAnimationFileName("porygon_wes");
         getPosingFileData().setFaint("bedrock(porygon_wes, faint)");
     }
 }

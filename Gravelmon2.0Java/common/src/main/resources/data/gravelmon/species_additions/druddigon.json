@@ -125,7 +125,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochdruddigon.desc1"
+        "cobblemon.species.epochdruddigon.desc"
       ],
       "height": 16,
       "weight": 1390,
@@ -209,7 +209,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ionosiandruddigon.desc1"
+        "cobblemon.species.ionosiandruddigon.desc"
       ],
       "height": 17,
       "weight": 0,
@@ -394,7 +394,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.novrandruddigon.desc1"
+        "cobblemon.species.novrandruddigon.desc"
       ],
       "height": 16,
       "weight": 165,
@@ -543,7 +543,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.hiziandruddigon.desc1"
+        "cobblemon.species.hiziandruddigon.desc"
       ],
       "height": 15,
       "weight": 165,
@@ -712,7 +712,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiandruddigon.desc1"
+        "cobblemon.species.ayreiandruddigon.desc"
       ],
       "height": 18,
       "weight": 1,

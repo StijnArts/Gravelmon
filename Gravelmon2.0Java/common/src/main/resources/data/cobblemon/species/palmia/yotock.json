@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.26666666666666666,
+  "baseScale": 0.05,
   "cannotDynamax": false,
   "abilities": [
     "rockhead",
@@ -42,7 +42,7 @@
     "palmia"
   ],
   "pokedex": [
-    "cobblemon.species.yotock.desc1"
+    "cobblemon.species.yotock.desc"
   ],
   "height": 16,
   "weight": 0,

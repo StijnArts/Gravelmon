@@ -141,9 +141,9 @@ public class DeltaCharmeleon extends Pokemon {
                 new AnimatedLayerData("flame",
                         List.of("flame/deltatail1", "flame/deltatail2", "flame/deltatail3", "flame/deltatail4"),
                         10, true,
-                        true, false, false, false))
+                        Optional.of(true), Optional.of(false), false, false))
                 .addLayer(new SimpleTextureLayerData("glow", "deltacharmeleon_emissive",
-                        true, true, false, true));
+                        Optional.of(true), Optional.of(true), false, true));
         getPosingFileData().setPortraitData( 1.8f, new Vector3(-0.3, 0.6, 0));
         getPosingFileData().setProfileData( 0.65f, new Vector3(0, 0.8, 0));
         getPosingFileData().setBasicHead();

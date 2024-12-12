@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "abra form=epoch",
       "baseScale": 0.21666666666666667,
       "cannotDynamax": false,
       "abilities": [
@@ -99,10 +100,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochkadabra.desc1"
+        "cobblemon.species.epochkadabra.desc"
       ],
       "height": 13,
       "weight": 565,
@@ -111,9 +114,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochkadabra_epoch_alakazam",
+          "id": "epochkadabra_alakazam_epoch",
           "variant": "item_interact",
-          "result": "epoch alakazam",
+          "result": "alakazam epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -161,7 +164,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "abra form\u003dayreian",
+      "preEvolution": "abra form=ayreian",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -298,7 +301,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiankadabra.desc1"
+        "cobblemon.species.ayreiankadabra.desc"
       ],
       "height": 15,
       "weight": 480,

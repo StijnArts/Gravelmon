@@ -54,7 +54,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.gallowing.desc1"
+    "cobblemon.species.gallowing.desc"
   ],
   "height": 6,
   "weight": 0,
@@ -73,7 +73,7 @@
         },
         {
           "variant": "properties",
-          "target": "gender\u003dfemale",
+          "target": "gender=female",
           "contains": true
         }
       ],
@@ -92,7 +92,7 @@
         },
         {
           "variant": "properties",
-          "target": "gender\u003dmale",
+          "target": "gender=male",
           "contains": true
         }
       ],

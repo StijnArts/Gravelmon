@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "torrent"
@@ -41,7 +41,7 @@
     "palmia"
   ],
   "pokedex": [
-    "cobblemon.species.squcale.desc1"
+    "cobblemon.species.squcale.desc"
   ],
   "height": 4,
   "weight": 0,

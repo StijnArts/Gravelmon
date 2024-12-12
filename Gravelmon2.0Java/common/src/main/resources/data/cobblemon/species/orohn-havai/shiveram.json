@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "snowool",
-  "baseScale": 0.2833333333333333,
+  "baseScale": 13.6,
   "cannotDynamax": false,
   "abilities": [
     "snowcloak",
@@ -59,7 +59,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.shiveram.desc1"
+    "cobblemon.species.shiveram.desc"
   ],
   "height": 17,
   "weight": 165,

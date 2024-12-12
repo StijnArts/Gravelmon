@@ -1,21 +1,15 @@
 {
   "species": "cobblemon:toxicroak",
-  "order": 3,
+  "order": 133,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation4_deltatoxicroak",
+      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
+      "poser": "cobblemon:cutout_gravelmon_128_by_128",
       "texture": "cobblemon:textures/pokemon/generation4/deltatoxicroak.png",
       "layers": [
-        {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
         {
           "name": "emissive"
         },
@@ -23,39 +17,19 @@
           "name": "transparentEmissive"
         },
         {
-          "name": "flame"
+          "name": "tail"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "delta",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation4_deltatoxicroak",
-      "texture": "cobblemon:textures/pokemon/generation4/deltatoxicroak.png",
-      "layers": [
-        {
-          "name": "glow"
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
         },
         {
-          "name": "emissive"
-        },
-        {
-          "name": "transparentEmissive"
-        },
-        {
           "name": "flame"
         },
         {
-          "name": "tail"
+          "name": "glow"
         }
       ]
     }

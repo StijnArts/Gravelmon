@@ -7,7 +7,7 @@
   "experienceGroup": "slow",
   "eggCycles": 51,
   "baseFriendship": 70,
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.0375,
   "cannotDynamax": false,
   "abilities": [
     "heatproof",
@@ -33,7 +33,14 @@
     "bug"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:iron_axe",
+        "quantityRange": "1-1",
+        "percentage": 100
+      }
+    ]
   },
   "moves": [
     "1:focusenergy",
@@ -110,7 +117,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.thoraxe.desc1"
+    "cobblemon.species.thoraxe.desc"
   ],
   "height": 12,
   "weight": 338,

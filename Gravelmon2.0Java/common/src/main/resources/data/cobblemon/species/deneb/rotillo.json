@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "rollder",
-  "baseScale": 0.25,
+  "baseScale": 0.1875,
   "cannotDynamax": false,
   "abilities": [
     "sturdy",
@@ -97,7 +97,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.rotillo.desc1"
+    "cobblemon.species.rotillo.desc"
   ],
   "height": 15,
   "weight": 528,

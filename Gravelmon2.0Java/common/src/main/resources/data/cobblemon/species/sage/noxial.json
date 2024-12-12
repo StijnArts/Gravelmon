@@ -9,7 +9,7 @@
   "eggCycles": 51,
   "baseFriendship": 70,
   "preEvolution": "phlask",
-  "baseScale": 0.15,
+  "baseScale": 0.028124999999999997,
   "cannotDynamax": false,
   "abilities": [
     "stench",
@@ -36,7 +36,14 @@
     "amorphous"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
   },
   "moves": [
     "1:poisongas",
@@ -124,7 +131,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.noxial.desc1"
+    "cobblemon.species.noxial.desc"
   ],
   "height": 9,
   "weight": 17,
@@ -194,7 +201,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.028124999999999997,
       "cannotDynamax": false,
       "abilities": [
         "stench",
@@ -221,7 +228,14 @@
         "amorphous"
       ],
       "drops": {
-        "amount": 2
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:glass_bottle",
+            "quantityRange": "1-2",
+            "percentage": 100
+          }
+        ]
       },
       "moves": [
         "1:poisongas",
@@ -307,7 +321,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.exothermic.desc1"
+        "cobblemon.species.exothermic.desc"
       ],
       "height": 9,
       "weight": 17,

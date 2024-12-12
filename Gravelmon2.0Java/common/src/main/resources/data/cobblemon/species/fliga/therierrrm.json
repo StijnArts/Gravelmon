@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "vigoroth form\u003davalossian",
+  "preEvolution": "vigoroth form=avalossian",
   "baseScale": 0.3333333333333333,
   "cannotDynamax": false,
   "abilities": [
@@ -106,7 +106,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.therierrrm.desc1"
+    "cobblemon.species.therierrrm.desc"
   ],
   "height": 20,
   "weight": 1305,

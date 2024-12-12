@@ -144,7 +144,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochporygon.desc1"
+        "cobblemon.species.epochporygon.desc"
       ],
       "height": 8,
       "weight": 365,
@@ -153,9 +153,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochporygon_epoch_porygon",
+          "id": "epochporygon_porygon_epoch",
           "variant": "level_up",
-          "result": "epoch porygon",
+          "result": "porygon epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -326,7 +326,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.varitasianporygon.desc1"
+        "cobblemon.species.varitasianporygon.desc"
       ],
       "height": 8,
       "weight": 165,

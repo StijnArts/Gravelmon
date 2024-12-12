@@ -18,7 +18,14 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:fire_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "forms": [
     {
@@ -31,7 +38,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.021875,
       "cannotDynamax": false,
       "abilities": [
         "cursedbody"
@@ -67,7 +74,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.palmiangrowlithe.desc1"
+        "cobblemon.species.palmiangrowlithe.desc"
       ],
       "height": 7,
       "weight": 0,
@@ -128,7 +135,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "pudyro",
-      "baseScale": 0.15,
+      "baseScale": 0.028124999999999997,
       "cannotDynamax": false,
       "abilities": [
         "poisontouch"
@@ -166,7 +173,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formangrowlithe.desc1"
+        "cobblemon.species.formangrowlithe.desc"
       ],
       "height": 9,
       "weight": 0,
@@ -249,7 +256,16 @@
       "eggGroups": [
         "field"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:astral_stone",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
+      },
       "moves": [
         "44:cosmicpower",
         "24:dragondance",
@@ -336,7 +352,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochgrowlithe.desc1"
+        "cobblemon.species.epochgrowlithe.desc"
       ],
       "height": 7,
       "weight": 190,
@@ -345,9 +361,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochgrowlithe_epoch_arcanine",
+          "id": "epochgrowlithe_arcanine_epoch",
           "variant": "item_interact",
-          "result": "epoch arcanine",
+          "result": "arcanine epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -445,7 +461,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.aristosiangrowlithe.desc1"
+        "cobblemon.species.aristosiangrowlithe.desc"
       ],
       "height": 8,
       "weight": 165,
@@ -504,7 +520,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.0875,
       "cannotDynamax": false,
       "abilities": [
         "innerfocus",
@@ -631,7 +647,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltagrowlithe.desc1"
+        "cobblemon.species.deltagrowlithe.desc"
       ],
       "height": 7,
       "weight": 190,
@@ -811,7 +827,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.armirangrowlithe.desc1"
+        "cobblemon.species.armirangrowlithe.desc"
       ],
       "height": 7,
       "weight": 190,

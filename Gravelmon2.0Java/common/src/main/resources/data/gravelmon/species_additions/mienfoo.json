@@ -1,7 +1,14 @@
 {
   "target": "cobblemon:mienfoo",
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:thunder_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "evolutions": [
     {

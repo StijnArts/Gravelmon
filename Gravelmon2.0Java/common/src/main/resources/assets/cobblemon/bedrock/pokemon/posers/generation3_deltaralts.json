@@ -1,34 +1,53 @@
 {
   "head": "head",
-  "portraitScale": 2.7,
-  "portraitTranslation": [0.1, -1.8, 0],
-  "profileScale": 0.9,
-  "profileTranslation": [0, 0.4, 0],
-  "faint": "bedrock(deltaralts, faint)",
+  "portraitScale": 2.700000047683716,
+  "portraitTranslation": [
+    0.1,
+    -1.8,
+    0.0
+  ],
+  "profileScale": 0.8999999761581421,
+  "profileTranslation": [
+    0.0,
+    0.4,
+    0.0
+  ],
+  "animations": {
+    "faint": "bedrock(deltaralts, faint)"
+  },
   "poses": {
     "standing": {
       "poseName": "standing",
-      "transformTicks": 10,
-      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "FLOAT"],
       "animations": [
         "look",
         "bedrock(deltaralts, ground_idle)"
-      ]
+      ],
+      "transformTicks": 10,
+      "allPoseTypes": true,
+      "quirks": []
     },
     "walking": {
       "poseName": "walking",
-      "transformTicks": 10,
-      "poseTypes": ["WALK", "SWIM"],
       "animations": [
         "look",
         "bedrock(deltaralts, ground_walk)"
-      ]
-    },
-	"sleeping": {
-      "poseName": "sleeping",
+      ],
+      "poseTypes": [
+        "WALK"
+      ],
       "transformTicks": 10,
-      "poseTypes": [ "SLEEP" ],
-      "animations": [ "bedrock(deltaralts, sleep)" ]
+      "quirks": []
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "animations": [
+        "bedrock(deltaralts, sleep)"
+      ],
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "transformTicks": 10,
+      "quirks": []
     }
   }
 }

@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "floette form=epoch",
       "baseScale": 0.18333333333333335,
       "cannotDynamax": false,
       "abilities": [
@@ -107,10 +108,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochflorges.desc1"
+        "cobblemon.species.epochflorges.desc"
       ],
       "height": 11,
       "weight": 100,
@@ -205,7 +208,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.vesitanflorges.desc1"
+        "cobblemon.species.vesitanflorges.desc"
       ],
       "height": 11,
       "weight": 100,

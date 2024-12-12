@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.15,
+  "baseScale": 0.11249999999999999,
   "cannotDynamax": false,
   "abilities": [
     "swiftswim",
@@ -114,7 +114,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.pressie.desc1"
+    "cobblemon.species.pressie.desc"
   ],
   "height": 9,
   "weight": 606,

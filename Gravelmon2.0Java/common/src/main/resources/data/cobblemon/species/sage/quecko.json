@@ -7,7 +7,7 @@
   "experienceGroup": "slow",
   "eggCycles": 100,
   "baseFriendship": 70,
-  "baseScale": 0.15,
+  "baseScale": 0.028124999999999997,
   "cannotDynamax": false,
   "abilities": [
     "leafguard",
@@ -35,7 +35,14 @@
     "grass"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:seeds",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:vinewhip",
@@ -92,7 +99,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.quecko.desc1"
+    "cobblemon.species.quecko.desc"
   ],
   "height": 9,
   "weight": 199,

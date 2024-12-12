@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianherdier.desc1"
+        "cobblemon.species.fabelianherdier.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -93,6 +93,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "lillipup form=epoch",
       "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
@@ -180,10 +181,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochherdier.desc1"
+        "cobblemon.species.epochherdier.desc"
       ],
       "height": 9,
       "weight": 147,
@@ -192,9 +195,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochherdier_epoch_stoutland",
+          "id": "epochherdier_stoutland_epoch",
           "variant": "level_up",
-          "result": "epoch stoutland",
+          "result": "stoutland epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -347,7 +350,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.novranherdier.desc1"
+        "cobblemon.species.novranherdier.desc"
       ],
       "height": 9,
       "weight": 165,

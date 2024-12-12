@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "spacteel",
-  "baseScale": 0.6833333333333332,
+  "baseScale": 0.128125,
   "cannotDynamax": false,
   "abilities": [
     "torrent"
@@ -45,7 +45,7 @@
     "trizor"
   ],
   "pokedex": [
-    "cobblemon.species.whaleist.desc1"
+    "cobblemon.species.whaleist.desc"
   ],
   "height": 41,
   "weight": 0,

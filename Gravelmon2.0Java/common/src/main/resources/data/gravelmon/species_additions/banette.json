@@ -27,6 +27,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "shuppet form=epoch",
       "baseScale": 0.18333333333333335,
       "cannotDynamax": false,
       "abilities": [
@@ -121,10 +122,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochbanette.desc1"
+        "cobblemon.species.epochbanette.desc"
       ],
       "height": 11,
       "weight": 125,

@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "flashfire",
@@ -46,7 +46,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.palmianpawniard.desc1"
+        "cobblemon.species.palmianpawniard.desc"
       ],
       "height": 6,
       "weight": 0,
@@ -109,7 +109,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "defiant",
@@ -236,7 +236,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltapawniard.desc1"
+        "cobblemon.species.deltapawniard.desc"
       ],
       "height": 5,
       "weight": 225,
@@ -362,7 +362,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.hoennianpawniard.desc1"
+        "cobblemon.species.hoennianpawniard.desc"
       ],
       "height": 7,
       "weight": 133,

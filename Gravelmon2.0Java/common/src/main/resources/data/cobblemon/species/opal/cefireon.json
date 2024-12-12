@@ -33,7 +33,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:air_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:ominouswind",
@@ -58,7 +65,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.cefireon.desc1"
+    "cobblemon.species.cefireon.desc"
   ],
   "height": 10,
   "weight": 290,

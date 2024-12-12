@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "wilspri",
-  "baseScale": 0.19999999999999998,
+  "baseScale": 9.6,
   "cannotDynamax": false,
   "abilities": [
     "unburden",
@@ -105,7 +105,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.trillowee.desc1"
+    "cobblemon.species.trillowee.desc"
   ],
   "height": 12,
   "weight": 165,

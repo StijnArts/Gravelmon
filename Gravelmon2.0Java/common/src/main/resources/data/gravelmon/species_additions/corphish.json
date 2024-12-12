@@ -122,7 +122,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochcorphish.desc1"
+        "cobblemon.species.epochcorphish.desc"
       ],
       "height": 6,
       "weight": 115,
@@ -131,9 +131,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochcorphish_epoch_crawdaunt",
+          "id": "epochcorphish_crawdaunt_epoch",
           "variant": "level_up",
-          "result": "epoch crawdaunt",
+          "result": "crawdaunt epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -230,7 +230,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.norheimancorphish.desc1"
+        "cobblemon.species.norheimancorphish.desc"
       ],
       "height": 6,
       "weight": 165,

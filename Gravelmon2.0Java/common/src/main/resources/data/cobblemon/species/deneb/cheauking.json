@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "weezing",
-  "baseScale": 0.25,
+  "baseScale": 0.1875,
   "cannotDynamax": false,
   "abilities": [
     "intimidate"
@@ -103,7 +103,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.cheauking.desc1"
+    "cobblemon.species.cheauking.desc"
   ],
   "height": 15,
   "weight": 139,

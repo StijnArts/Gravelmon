@@ -8,7 +8,7 @@
   "eggCycles": 62,
   "baseFriendship": 70,
   "preEvolution": "bazilisk",
-  "baseScale": 0.16666666666666666,
+  "baseScale": 0.03125,
   "cannotDynamax": false,
   "abilities": [
     "unnerve",
@@ -36,7 +36,14 @@
     "dragon"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:ancientpower",
@@ -106,7 +113,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.ornitherb.desc1"
+    "cobblemon.species.ornitherb.desc"
   ],
   "height": 10,
   "weight": 264,

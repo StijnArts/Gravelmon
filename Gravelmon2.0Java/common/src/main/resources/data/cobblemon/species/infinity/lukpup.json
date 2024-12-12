@@ -7,7 +7,7 @@
   "experienceGroup": "slow",
   "eggCycles": 100,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.07500000000000001,
   "cannotDynamax": false,
   "abilities": [
     "fluffy",
@@ -34,7 +34,14 @@
     "field"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:healpulse",
@@ -119,7 +126,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.lukpup.desc1"
+    "cobblemon.species.lukpup.desc"
   ],
   "height": 5,
   "weight": 149,

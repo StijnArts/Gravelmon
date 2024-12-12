@@ -128,7 +128,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochbronzor.desc1"
+        "cobblemon.species.epochbronzor.desc"
       ],
       "height": 5,
       "weight": 605,
@@ -137,9 +137,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochbronzor_epoch_bronzong",
+          "id": "epochbronzor_bronzong_epoch",
           "variant": "level_up",
-          "result": "epoch bronzong",
+          "result": "bronzong epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -239,7 +239,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.africanusanbronzor.desc1"
+        "cobblemon.species.africanusanbronzor.desc"
       ],
       "height": 5,
       "weight": 605,

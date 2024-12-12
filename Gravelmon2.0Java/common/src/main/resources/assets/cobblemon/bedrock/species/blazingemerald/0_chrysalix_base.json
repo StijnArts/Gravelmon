@@ -4,15 +4,63 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:blazingemerald_chrysalix",
       "model": "cobblemon:blazingemerald_chrysalix.geo",
+      "poser": "cobblemon:blazingemerald_chrysalix",
       "texture": "cobblemon:textures/pokemon/blazingemerald/chrysalix/chrysalix.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/blazingemerald/chrysalix/chrysalix_shiny.png"
-    }  ]
+      "model": "cobblemon:blazingemerald_chrysalix.geo",
+      "poser": "cobblemon:blazingemerald_chrysalix",
+      "texture": "cobblemon:textures/pokemon/blazingemerald/chrysalix/chrysalix_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
+    }
+  ]
 }

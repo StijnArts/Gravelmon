@@ -8,7 +8,7 @@
   "experienceGroup": "fast",
   "eggCycles": 39,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "shielddust",
@@ -35,7 +35,14 @@
     "mineral"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:scratch",
@@ -122,7 +129,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.pueblant.desc1"
+    "cobblemon.species.pueblant.desc"
   ],
   "height": 2,
   "weight": 31,

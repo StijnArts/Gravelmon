@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "ambilade",
-  "baseScale": 0.18333333333333335,
+  "baseScale": 0.1375,
   "cannotDynamax": false,
   "abilities": [
     "intimidate",
@@ -118,7 +118,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.mercenade.desc1"
+    "cobblemon.species.mercenade.desc"
   ],
   "height": 11,
   "weight": 524,

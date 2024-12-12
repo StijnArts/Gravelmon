@@ -36,7 +36,14 @@
     "fairy"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:foreign_hat",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "moves": [
     "1:slash",
@@ -56,7 +63,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.bunbrisk.desc1"
+    "cobblemon.species.bunbrisk.desc"
   ],
   "height": 9,
   "weight": 165,

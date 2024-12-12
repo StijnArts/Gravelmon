@@ -118,7 +118,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochelekid.desc1"
+        "cobblemon.species.epochelekid.desc"
       ],
       "height": 6,
       "weight": 235,
@@ -127,9 +127,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochelekid_epoch_electabuzz",
+          "id": "epochelekid_electabuzz_epoch",
           "variant": "level_up",
-          "result": "epoch electabuzz",
+          "result": "electabuzz epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -180,7 +180,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "innerfocus",
@@ -300,7 +300,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltaelekid.desc1"
+        "cobblemon.species.deltaelekid.desc"
       ],
       "height": 6,
       "weight": 355,
@@ -441,7 +441,7 @@
         "gen2"
       ],
       "pokedex": [
-        "cobblemon.species.elekidx.desc1"
+        "cobblemon.species.elekidx.desc"
       ],
       "height": 6,
       "weight": 235,

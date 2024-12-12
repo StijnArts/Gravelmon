@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "vargri",
-  "baseScale": 0.2833333333333333,
+  "baseScale": 0.053125,
   "cannotDynamax": false,
   "abilities": [
     "dryskin"
@@ -45,7 +45,7 @@
     "palmia"
   ],
   "pokedex": [
-    "cobblemon.species.monivara.desc1"
+    "cobblemon.species.monivara.desc"
   ],
   "height": 17,
   "weight": 0,

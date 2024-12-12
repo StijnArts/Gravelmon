@@ -123,7 +123,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochpawmi.desc1"
+        "cobblemon.species.epochpawmi.desc"
       ],
       "height": 3,
       "weight": 25,
@@ -132,9 +132,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochpawmi_epoch_pawmo",
+          "id": "epochpawmi_pawmo_epoch",
           "variant": "level_up",
-          "result": "epoch pawmo",
+          "result": "pawmo epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

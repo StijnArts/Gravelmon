@@ -31,7 +31,14 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:end_crystal",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "forms": [
     {
@@ -142,7 +149,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochtrapinch.desc1"
+        "cobblemon.species.epochtrapinch.desc"
       ],
       "height": 7,
       "weight": 150,
@@ -151,9 +158,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochtrapinch_epoch_vibrava",
+          "id": "epochtrapinch_vibrava_epoch",
           "variant": "level_up",
-          "result": "epoch vibrava",
+          "result": "vibrava epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -241,7 +248,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ionosiantrapinch.desc1"
+        "cobblemon.species.ionosiantrapinch.desc"
       ],
       "height": 4,
       "weight": 0,
@@ -418,7 +425,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiantrapinch.desc1"
+        "cobblemon.species.ayreiantrapinch.desc"
       ],
       "height": 7,
       "weight": 150,

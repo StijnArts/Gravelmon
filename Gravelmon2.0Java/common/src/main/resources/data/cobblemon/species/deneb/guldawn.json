@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "mornwing",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.3,
   "cannotDynamax": false,
   "abilities": [
     "flashfire",
@@ -96,7 +96,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.guldawn.desc1"
+    "cobblemon.species.guldawn.desc"
   ],
   "height": 24,
   "weight": 749,

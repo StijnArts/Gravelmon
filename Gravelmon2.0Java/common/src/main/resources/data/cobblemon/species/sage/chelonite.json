@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 62,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "orbitaltide",
@@ -36,7 +36,14 @@
     "mineral"
   ],
   "drops": {
-    "amount": 4
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:deepslate",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
   },
   "moves": [
     "1:withdraw",
@@ -119,7 +126,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.chelonite.desc1"
+    "cobblemon.species.chelonite.desc"
   ],
   "height": 6,
   "weight": 382,

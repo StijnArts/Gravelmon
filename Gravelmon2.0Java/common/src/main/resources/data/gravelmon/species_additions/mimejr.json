@@ -141,7 +141,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochmimejr.desc1"
+        "cobblemon.species.epochmimejr.desc"
       ],
       "height": 6,
       "weight": 130,
@@ -150,9 +150,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmimejr_epoch_mrmime",
+          "id": "epochmimejr_mrmime_epoch",
           "variant": "level_up",
-          "result": "epoch mrmime",
+          "result": "mrmime epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

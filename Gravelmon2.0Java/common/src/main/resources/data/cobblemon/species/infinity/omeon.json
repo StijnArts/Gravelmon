@@ -33,7 +33,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:dusk_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:helpinghand",
@@ -130,7 +137,7 @@
     "infinity"
   ],
   "pokedex": [
-    "cobblemon.species.omeon.desc1"
+    "cobblemon.species.omeon.desc"
   ],
   "height": 11,
   "weight": 180,

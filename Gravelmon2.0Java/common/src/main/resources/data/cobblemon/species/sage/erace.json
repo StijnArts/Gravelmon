@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 200,
   "baseFriendship": 70,
-  "baseScale": 0.48333333333333334,
+  "baseScale": 0.090625,
   "cannotDynamax": false,
   "abilities": [
     "filter",
@@ -34,7 +34,14 @@
     "undiscovered"
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:redstone_block",
+        "quantityRange": "3-10",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:ancientpower",
@@ -95,7 +102,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.erace.desc1"
+    "cobblemon.species.erace.desc"
   ],
   "height": 29,
   "weight": 2898,

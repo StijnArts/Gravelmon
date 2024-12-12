@@ -35,7 +35,19 @@
     "flying"
   ],
   "drops": {
-    "amount": 4
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:egg",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:peck",
@@ -106,7 +118,7 @@
     "sage"
   ],
   "pokedex": [
-    "cobblemon.species.harpee.desc1"
+    "cobblemon.species.harpee.desc"
   ],
   "height": 3,
   "weight": 19,

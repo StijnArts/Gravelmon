@@ -33,7 +33,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:medicinal_leek",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:peck",
@@ -72,7 +79,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.achiefd.desc1"
+    "cobblemon.species.achiefd.desc"
   ],
   "height": 16,
   "weight": 165,

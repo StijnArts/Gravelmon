@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "yamask form\u003dvaritasian",
+  "preEvolution": "yamask form=varitasian",
   "baseScale": 0.2833333333333333,
   "cannotDynamax": false,
   "abilities": [
@@ -109,7 +109,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.mirrorigus.desc1"
+    "cobblemon.species.mirrorigus.desc"
   ],
   "height": 17,
   "weight": 165,

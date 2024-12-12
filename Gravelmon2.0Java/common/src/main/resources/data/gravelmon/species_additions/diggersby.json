@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -47,7 +47,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mahaliandiggersby.desc1"
+        "cobblemon.species.mahaliandiggersby.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -95,7 +95,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "preEvolution": "bunnelby form\u003dkaskadian",
+      "preEvolution": "bunnelby form=kaskadian",
       "baseScale": 0.16666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -183,7 +183,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.kaskadiandiggersby.desc1"
+        "cobblemon.species.kaskadiandiggersby.desc"
       ],
       "height": 10,
       "weight": 424,

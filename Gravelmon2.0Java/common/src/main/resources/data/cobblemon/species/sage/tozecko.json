@@ -9,7 +9,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "quecko",
-  "baseScale": 0.48333333333333334,
+  "baseScale": 0.090625,
   "cannotDynamax": false,
   "abilities": [
     "leafguard",
@@ -37,7 +37,14 @@
     "grass"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:seeds",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:featherdance",
@@ -110,7 +117,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.tozecko.desc1"
+    "cobblemon.species.tozecko.desc"
   ],
   "height": 29,
   "weight": 590,

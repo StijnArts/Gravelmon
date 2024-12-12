@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "baparo",
-  "baseScale": 0.25,
+  "baseScale": 0.046875,
   "cannotDynamax": false,
   "abilities": [
     "tangledfeet"
@@ -44,7 +44,7 @@
     "trizor"
   ],
   "pokedex": [
-    "cobblemon.species.bigparro.desc1"
+    "cobblemon.species.bigparro.desc"
   ],
   "height": 15,
   "weight": 0,

@@ -27,7 +27,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.16666666666666666,
+      "baseScale": 0.03125,
       "cannotDynamax": false,
       "abilities": [
         "sweetveil"
@@ -61,7 +61,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanledyba.desc1"
+        "cobblemon.species.formanledyba.desc"
       ],
       "height": 10,
       "weight": 0,
@@ -224,7 +224,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochledyba.desc1"
+        "cobblemon.species.epochledyba.desc"
       ],
       "height": 10,
       "weight": 108,
@@ -233,9 +233,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochledyba_epoch_ledian",
+          "id": "epochledyba_ledian_epoch",
           "variant": "level_up",
-          "result": "epoch ledian",
+          "result": "ledian epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -366,7 +366,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.relicledyba.desc1"
+        "cobblemon.species.relicledyba.desc"
       ],
       "height": 8,
       "weight": 300,

@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "pidgey form=epoch",
       "baseScale": 0.18333333333333335,
       "cannotDynamax": false,
       "abilities": [
@@ -97,10 +98,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochpidgeotto.desc1"
+        "cobblemon.species.epochpidgeotto.desc"
       ],
       "height": 11,
       "weight": 300,
@@ -109,9 +112,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochpidgeotto_epoch_pidgeot",
+          "id": "epochpidgeotto_pidgeot_epoch",
           "variant": "level_up",
-          "result": "epoch pidgeot",
+          "result": "pidgeot epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -163,7 +166,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "pidgey form\u003ddelta",
+      "preEvolution": "pidgey form=delta",
       "baseScale": 1.1,
       "cannotDynamax": false,
       "abilities": [
@@ -309,7 +312,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltapidgeotto.desc1"
+        "cobblemon.species.deltapidgeotto.desc"
       ],
       "height": 11,
       "weight": 300,
@@ -372,7 +375,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "pidgey form\u003dmythian",
+      "preEvolution": "pidgey form=mythian",
       "baseScale": 0.18333333333333335,
       "cannotDynamax": false,
       "abilities": [
@@ -430,7 +433,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.mythianpidgeotto.desc1"
+        "cobblemon.species.mythianpidgeotto.desc"
       ],
       "height": 11,
       "weight": 300,
@@ -493,7 +496,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "pidgey form\u003dayreian",
+      "preEvolution": "pidgey form=ayreian",
       "baseScale": 0.18333333333333335,
       "cannotDynamax": false,
       "abilities": [
@@ -586,7 +589,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianpidgeotto.desc1"
+        "cobblemon.species.ayreianpidgeotto.desc"
       ],
       "height": 11,
       "weight": 300,

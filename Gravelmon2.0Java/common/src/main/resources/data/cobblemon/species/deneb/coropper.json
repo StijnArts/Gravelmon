@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "yolkid",
-  "baseScale": 0.1,
+  "baseScale": 0.07500000000000001,
   "cannotDynamax": false,
   "abilities": [
     "limber",
@@ -80,7 +80,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.coropper.desc1"
+    "cobblemon.species.coropper.desc"
   ],
   "height": 6,
   "weight": 125,

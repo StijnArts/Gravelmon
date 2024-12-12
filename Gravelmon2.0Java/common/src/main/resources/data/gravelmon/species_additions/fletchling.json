@@ -104,7 +104,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochfletchling.desc1"
+        "cobblemon.species.epochfletchling.desc"
       ],
       "height": 3,
       "weight": 17,
@@ -113,9 +113,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochfletchling_epoch_fletchinder",
+          "id": "epochfletchling_fletchinder_epoch",
           "variant": "level_up",
-          "result": "epoch fletchinder",
+          "result": "fletchinder epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -255,7 +255,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianfletchling.desc1"
+        "cobblemon.species.ayreianfletchling.desc"
       ],
       "height": 3,
       "weight": 17,

@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.11666666666666665,
+  "baseScale": 0.021875,
   "cannotDynamax": false,
   "abilities": [
     "swiftswim",
@@ -34,7 +34,14 @@
     "water_1"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:scratch",
@@ -97,7 +104,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.chilloth.desc1"
+    "cobblemon.species.chilloth.desc"
   ],
   "height": 7,
   "weight": 189,

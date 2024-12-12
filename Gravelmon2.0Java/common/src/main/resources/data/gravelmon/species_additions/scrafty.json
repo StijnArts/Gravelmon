@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "scraggy form=epoch",
       "baseScale": 0.18333333333333335,
       "cannotDynamax": false,
       "abilities": [
@@ -100,10 +101,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochscrafty.desc1"
+        "cobblemon.species.epochscrafty.desc"
       ],
       "height": 11,
       "weight": 300,
@@ -150,8 +153,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "scraggy form\u003ddelta",
-      "baseScale": 0.18333333333333335,
+      "preEvolution": "scraggy form=delta",
+      "baseScale": 0.1375,
       "cannotDynamax": false,
       "abilities": [
         "roughskin",
@@ -286,7 +289,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltascrafty.desc1"
+        "cobblemon.species.deltascrafty.desc"
       ],
       "height": 11,
       "weight": 300,

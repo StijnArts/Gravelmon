@@ -79,7 +79,7 @@ public class RaichuX extends Pokemon {
         this.setCanFly(true);
         getSpeciesFileData().addBasicVariation(this).addLayer(
                 new AnimatedLayerData("heartbeat", AnimatedLayerData.getFrames("heartbeat/heartbeat", 10), 10, true,
-                        false, false, false, true)
+                        Optional.of(false), Optional.of(false), false, true)
         );
         getPosingFileData().setAnimationFileName("raichu_x");
         getPosingFileData().setPortraitData( 1.8f, new Vector3(0.2, 1.1, 0));

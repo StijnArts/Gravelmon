@@ -121,7 +121,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochclobbopus.desc1"
+        "cobblemon.species.epochclobbopus.desc"
       ],
       "height": 6,
       "weight": 40,
@@ -130,9 +130,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochclobbopus_epoch_grapploct",
+          "id": "epochclobbopus_grapploct_epoch",
           "variant": "item_interact",
-          "result": "epoch grapploct",
+          "result": "grapploct epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -294,7 +294,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.novranclobbopus.desc1"
+        "cobblemon.species.novranclobbopus.desc"
       ],
       "height": 6,
       "weight": 165,

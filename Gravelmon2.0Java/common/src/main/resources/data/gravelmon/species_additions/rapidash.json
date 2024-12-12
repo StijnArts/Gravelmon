@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "ponyta form=epoch",
       "baseScale": 0.2833333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -94,10 +95,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochrapidash.desc1"
+        "cobblemon.species.epochrapidash.desc"
       ],
       "height": 17,
       "weight": 950,
@@ -197,7 +200,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.africanusanrapidash.desc1"
+        "cobblemon.species.africanusanrapidash.desc"
       ],
       "height": 17,
       "weight": 950,
@@ -244,7 +247,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 26,
       "baseFriendship": 70,
-      "preEvolution": "ponyta form\u003dx",
+      "preEvolution": "ponyta form=x",
       "baseScale": 1.25,
       "cannotDynamax": false,
       "abilities": [
@@ -270,7 +273,14 @@
         "undiscovered"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:xenolith",
+            "quantityRange": "1-1",
+            "percentage": 20
+          }
+        ]
       },
       "moves": [
         "1:substitute",
@@ -338,7 +348,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.rapidashx.desc1"
+        "cobblemon.species.rapidashx.desc"
       ],
       "height": 17,
       "weight": 900,

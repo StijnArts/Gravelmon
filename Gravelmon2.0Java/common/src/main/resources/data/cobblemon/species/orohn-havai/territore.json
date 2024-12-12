@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "warblu",
-  "baseScale": 0.1,
+  "baseScale": 4.800000000000001,
   "cannotDynamax": false,
   "abilities": [
     "bigpecks",
@@ -60,7 +60,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.territore.desc1"
+    "cobblemon.species.territore.desc"
   ],
   "height": 6,
   "weight": 165,

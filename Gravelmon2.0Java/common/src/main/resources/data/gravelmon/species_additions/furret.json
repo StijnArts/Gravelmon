@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.aromianfurret.desc1"
+        "cobblemon.species.aromianfurret.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -92,8 +92,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "sentret form\u003dnorse",
-      "baseScale": 0.19999999999999998,
+      "preEvolution": "sentret form=norse",
+      "baseScale": 0.0375,
       "cannotDynamax": false,
       "abilities": [
         "furcoat"
@@ -129,7 +129,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.norsefurret.desc1"
+        "cobblemon.species.norsefurret.desc"
       ],
       "height": 12,
       "weight": 0,
@@ -177,8 +177,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "sentret form\u003dforman",
-      "baseScale": 0.26666666666666666,
+      "preEvolution": "sentret form=forman",
+      "baseScale": 0.05,
       "cannotDynamax": false,
       "abilities": [
         "flashfire"
@@ -214,7 +214,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formanfurret.desc1"
+        "cobblemon.species.formanfurret.desc"
       ],
       "height": 16,
       "weight": 0,
@@ -262,6 +262,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "sentret form=epoch",
       "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
@@ -359,10 +360,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochfurret.desc1"
+        "cobblemon.species.epochfurret.desc"
       ],
       "height": 18,
       "weight": 325,
@@ -410,7 +413,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "sentret form\u003daristosian",
+      "preEvolution": "sentret form=aristosian",
       "baseScale": 0.21666666666666667,
       "cannotDynamax": false,
       "abilities": [
@@ -523,7 +526,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.aristosianfurret.desc1"
+        "cobblemon.species.aristosianfurret.desc"
       ],
       "height": 13,
       "weight": 165,

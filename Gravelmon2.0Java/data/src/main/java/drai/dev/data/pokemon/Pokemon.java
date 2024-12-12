@@ -468,6 +468,11 @@ public class Pokemon extends AbstractPokemon {
         return GravelmonUtils.getCleanName(name);
     }
 
+    @Override
+    public Game getGame() {
+        return game;
+    }
+
     public Boolean isShoulderMountable() {
         return isShoulderMountable;
     }

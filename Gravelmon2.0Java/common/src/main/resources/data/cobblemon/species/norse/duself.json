@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.13333333333333333,
+  "baseScale": 0.025,
   "cannotDynamax": false,
   "abilities": [
     "superluck"
@@ -40,7 +40,7 @@
     "norse"
   ],
   "pokedex": [
-    "cobblemon.species.duself.desc1"
+    "cobblemon.species.duself.desc"
   ],
   "height": 8,
   "weight": 0,

@@ -9,7 +9,7 @@
   "eggCycles": 32,
   "baseFriendship": 70,
   "preEvolution": "hikiloo",
-  "baseScale": 0.3,
+  "baseScale": 0.22499999999999998,
   "cannotDynamax": false,
   "abilities": [
     "vitalspirit",
@@ -103,7 +103,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.mylomute.desc1"
+    "cobblemon.species.mylomute.desc"
   ],
   "height": 18,
   "weight": 1200,

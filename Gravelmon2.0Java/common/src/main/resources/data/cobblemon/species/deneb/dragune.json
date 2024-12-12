@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "laquagon",
-  "baseScale": 0.9166666666666666,
+  "baseScale": 0.6875,
   "cannotDynamax": false,
   "abilities": [
     "rockhead"
@@ -96,7 +96,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.dragune.desc1"
+    "cobblemon.species.dragune.desc"
   ],
   "height": 55,
   "weight": 1280,

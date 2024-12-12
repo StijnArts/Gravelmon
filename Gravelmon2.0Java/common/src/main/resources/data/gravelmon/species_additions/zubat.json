@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "static"
@@ -49,7 +49,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanzubat.desc1"
+        "cobblemon.species.formanzubat.desc"
       ],
       "height": 6,
       "weight": 0,
@@ -205,7 +205,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochzubat.desc1"
+        "cobblemon.species.epochzubat.desc"
       ],
       "height": 8,
       "weight": 75,
@@ -214,9 +214,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochzubat_epoch_golbat",
+          "id": "epochzubat_golbat_epoch",
           "variant": "level_up",
-          "result": "epoch golbat",
+          "result": "golbat epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

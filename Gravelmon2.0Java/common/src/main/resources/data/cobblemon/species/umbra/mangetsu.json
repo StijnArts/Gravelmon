@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "kousetsu",
-  "baseScale": 0.3333333333333333,
+  "baseScale": 0.0625,
   "cannotDynamax": false,
   "abilities": [
     "guts"
@@ -129,7 +129,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.mangetsu.desc1"
+    "cobblemon.species.mangetsu.desc"
   ],
   "height": 20,
   "weight": 831,

@@ -11,8 +11,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "houndour form\u003dforman",
-      "baseScale": 0.25,
+      "preEvolution": "houndour form=forman",
+      "baseScale": 0.046875,
       "cannotDynamax": false,
       "abilities": [
         "berserk"
@@ -48,7 +48,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formanhoundoom.desc1"
+        "cobblemon.species.formanhoundoom.desc"
       ],
       "height": 15,
       "weight": 0,
@@ -96,6 +96,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "houndour form=epoch",
       "baseScale": 0.2333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -191,10 +192,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochhoundoom.desc1"
+        "cobblemon.species.epochhoundoom.desc"
       ],
       "height": 14,
       "weight": 350,

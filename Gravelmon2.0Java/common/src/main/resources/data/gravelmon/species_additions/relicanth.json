@@ -27,7 +27,14 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "gravelmon:astral_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "forms": [
     {
@@ -150,7 +157,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianrelicanth.desc1"
+        "cobblemon.species.ayreianrelicanth.desc"
       ],
       "height": 10,
       "weight": 234,

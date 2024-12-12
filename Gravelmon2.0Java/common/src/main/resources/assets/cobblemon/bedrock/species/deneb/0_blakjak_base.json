@@ -4,15 +4,63 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_blakjak",
       "model": "cobblemon:deneb_blakjak.geo",
+      "poser": "cobblemon:deneb_blakjak",
       "texture": "cobblemon:textures/pokemon/deneb/blakjak/blakjak.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/deneb/blakjak/blakjak_shiny.png"
-    }  ]
+      "model": "cobblemon:deneb_blakjak.geo",
+      "poser": "cobblemon:deneb_blakjak",
+      "texture": "cobblemon:textures/pokemon/deneb/blakjak/blakjak_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
+    }
+  ]
 }

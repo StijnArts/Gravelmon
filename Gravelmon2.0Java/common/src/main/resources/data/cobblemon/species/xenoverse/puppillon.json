@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 32,
   "baseFriendship": 70,
-  "baseScale": 0.13333333333333333,
+  "baseScale": 0.1,
   "cannotDynamax": false,
   "abilities": [
     "frisk",
@@ -35,7 +35,19 @@
     "human_like"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:dread_pendant",
+        "quantityRange": "1-1",
+        "percentage": 20
+      },
+      {
+        "item": "gravelmon:dread_pendant",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "moves": [
     "1:constrict",
@@ -114,7 +126,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.puppillon.desc1"
+    "cobblemon.species.puppillon.desc"
   ],
   "height": 8,
   "weight": 111,

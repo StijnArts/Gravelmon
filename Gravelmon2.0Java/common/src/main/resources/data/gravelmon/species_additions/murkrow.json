@@ -37,7 +37,16 @@
       "eggGroups": [
         "flying"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:air_stone",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
+      },
       "moves": [
         "47:beakblast",
         "33:drillpeck",
@@ -112,7 +121,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochmurkrow.desc1"
+        "cobblemon.species.epochmurkrow.desc"
       ],
       "height": 5,
       "weight": 21,
@@ -121,9 +130,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmurkrow_epoch_honchkrow",
+          "id": "epochmurkrow_honchkrow_epoch",
           "variant": "item_interact",
-          "result": "epoch honchkrow",
+          "result": "honchkrow epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -289,7 +298,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochmurkrowone.desc1"
+        "cobblemon.species.epochmurkrowone.desc"
       ],
       "height": 5,
       "weight": 21,
@@ -394,7 +403,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.hizianmurkrow.desc1"
+        "cobblemon.species.hizianmurkrow.desc"
       ],
       "height": 5,
       "weight": 165,

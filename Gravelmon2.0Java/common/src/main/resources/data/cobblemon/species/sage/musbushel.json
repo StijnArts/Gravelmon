@@ -9,7 +9,7 @@
   "eggCycles": 32,
   "baseFriendship": 70,
   "preEvolution": "musburry",
-  "baseScale": 0.13333333333333333,
+  "baseScale": 0.025,
   "cannotDynamax": false,
   "abilities": [
     "harvest",
@@ -36,7 +36,24 @@
     "grass"
   ],
   "drops": {
-    "amount": 8
+    "amount": 8,
+    "entries": [
+      {
+        "item": "minecraft:sweet_berry",
+        "quantityRange": "1-3",
+        "percentage": 40
+      },
+      {
+        "item": "minecraft:glow_berry",
+        "quantityRange": "1-3",
+        "percentage": 40
+      },
+      {
+        "item": "cobblemon:berry_sweet",
+        "quantityRange": "1-2",
+        "percentage": 20
+      }
+    ]
   },
   "moves": [
     "1:tackle",
@@ -129,7 +146,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.musbushel.desc1"
+    "cobblemon.species.musbushel.desc"
   ],
   "height": 8,
   "weight": 121,

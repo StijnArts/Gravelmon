@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "wailmer form\u003dnorheiman",
+  "preEvolution": "wailmer form=norheiman",
   "baseScale": 0.6333333333333333,
   "cannotDynamax": false,
   "abilities": [
@@ -57,7 +57,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.wailwhale.desc1"
+    "cobblemon.species.wailwhale.desc"
   ],
   "height": 38,
   "weight": 165,

@@ -11,8 +11,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "nidorino form\u003dforman",
-      "baseScale": 0.26666666666666666,
+      "preEvolution": "nidorino form=forman",
+      "baseScale": 0.05,
       "cannotDynamax": false,
       "abilities": [
         "sheerforce"
@@ -48,7 +48,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formannidoking.desc1"
+        "cobblemon.species.formannidoking.desc"
       ],
       "height": 16,
       "weight": 0,

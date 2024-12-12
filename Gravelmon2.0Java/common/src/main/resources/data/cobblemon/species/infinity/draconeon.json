@@ -34,7 +34,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:dragon_scale",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:dragonclaw",
@@ -113,7 +120,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.draconeon.desc1"
+    "cobblemon.species.draconeon.desc"
   ],
   "height": 13,
   "weight": 250,

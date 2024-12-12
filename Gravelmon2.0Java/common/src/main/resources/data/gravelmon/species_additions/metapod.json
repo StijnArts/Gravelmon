@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "caterpie form=epoch",
       "baseScale": 0.11666666666666665,
       "cannotDynamax": false,
       "abilities": [
@@ -48,10 +49,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochmetapod.desc1"
+        "cobblemon.species.epochmetapod.desc"
       ],
       "height": 7,
       "weight": 99,
@@ -60,9 +63,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmetapod_epoch_butterfree",
+          "id": "epochmetapod_butterfree_epoch",
           "variant": "level_up",
-          "result": "epoch butterfree",
+          "result": "butterfree epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -114,7 +117,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "caterpie form\u003dayreian",
+      "preEvolution": "caterpie form=ayreian",
       "baseScale": 0.11666666666666665,
       "cannotDynamax": false,
       "abilities": [
@@ -161,7 +164,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianmetapod.desc1"
+        "cobblemon.species.ayreianmetapod.desc"
       ],
       "height": 7,
       "weight": 99,

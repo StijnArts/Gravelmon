@@ -96,7 +96,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.gutsycastform.desc1"
+        "cobblemon.species.gutsycastform.desc"
       ],
       "height": 3,
       "weight": 8,
@@ -229,7 +229,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.windycastform.desc1"
+        "cobblemon.species.windycastform.desc"
       ],
       "height": 3,
       "weight": 8,
@@ -362,7 +362,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.smoggycastform.desc1"
+        "cobblemon.species.smoggycastform.desc"
       ],
       "height": 3,
       "weight": 8,
@@ -495,7 +495,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.dustycastform.desc1"
+        "cobblemon.species.dustycastform.desc"
       ],
       "height": 3,
       "weight": 8,
@@ -628,7 +628,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.sandycastform.desc1"
+        "cobblemon.species.sandycastform.desc"
       ],
       "height": 3,
       "weight": 8,
@@ -761,7 +761,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.swarmycastform.desc1"
+        "cobblemon.species.swarmycastform.desc"
       ],
       "height": 3,
       "weight": 8,
@@ -894,7 +894,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.spookycastform.desc1"
+        "cobblemon.species.spookycastform.desc"
       ],
       "height": 3,
       "weight": 8,
@@ -1027,7 +1027,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.whirlycastform.desc1"
+        "cobblemon.species.whirlycastform.desc"
       ],
       "height": 3,
       "weight": 8,
@@ -1160,7 +1160,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.allergycastform.desc1"
+        "cobblemon.species.allergycastform.desc"
       ],
       "height": 3,
       "weight": 8,
@@ -1293,7 +1293,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.zappycastform.desc1"
+        "cobblemon.species.zappycastform.desc"
       ],
       "height": 3,
       "weight": 8,
@@ -1426,7 +1426,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.zennycastform.desc1"
+        "cobblemon.species.zennycastform.desc"
       ],
       "height": 3,
       "weight": 8,
@@ -1559,7 +1559,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.sorcerycastform.desc1"
+        "cobblemon.species.sorcerycastform.desc"
       ],
       "height": 3,
       "weight": 8,
@@ -1692,7 +1692,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.shadycastform.desc1"
+        "cobblemon.species.shadycastform.desc"
       ],
       "height": 3,
       "weight": 8,
@@ -1825,7 +1825,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.lovelycastform.desc1"
+        "cobblemon.species.lovelycastform.desc"
       ],
       "height": 3,
       "weight": 8,

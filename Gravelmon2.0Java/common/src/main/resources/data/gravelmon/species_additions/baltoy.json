@@ -107,7 +107,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochbaltoy.desc1"
+        "cobblemon.species.epochbaltoy.desc"
       ],
       "height": 5,
       "weight": 215,
@@ -116,9 +116,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochbaltoy_epoch_claydol",
+          "id": "epochbaltoy_claydol_epoch",
           "variant": "level_up",
-          "result": "epoch claydol",
+          "result": "claydol epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

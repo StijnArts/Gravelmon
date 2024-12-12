@@ -113,7 +113,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.blubbark.desc1"
+    "cobblemon.species.blubbark.desc"
   ],
   "height": 9,
   "weight": 165,
@@ -132,7 +132,7 @@
         },
         {
           "variant": "properties",
-          "target": "gender\u003dmale",
+          "target": "gender=male",
           "contains": true
         }
       ],
@@ -151,7 +151,7 @@
         },
         {
           "variant": "properties",
-          "target": "gender\u003dfemale",
+          "target": "gender=female",
           "contains": true
         }
       ],

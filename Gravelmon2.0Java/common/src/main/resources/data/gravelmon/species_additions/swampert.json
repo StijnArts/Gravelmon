@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "marshtomp form=epoch",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -120,10 +121,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochswampert.desc1"
+        "cobblemon.species.epochswampert.desc"
       ],
       "height": 15,
       "weight": 819,
@@ -268,7 +271,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochswampertone.desc1"
+        "cobblemon.species.epochswampertone.desc"
       ],
       "height": 15,
       "weight": 819,
@@ -366,7 +369,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mysticswampert.desc1"
+        "cobblemon.species.mysticswampert.desc"
       ],
       "height": 15,
       "weight": 819,

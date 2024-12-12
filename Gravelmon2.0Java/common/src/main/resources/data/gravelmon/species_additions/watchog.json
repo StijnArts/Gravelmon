@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ferranianwatchog.desc1"
+        "cobblemon.species.ferranianwatchog.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -93,6 +93,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "patrat form=epoch",
       "baseScale": 0.18333333333333335,
       "cannotDynamax": false,
       "abilities": [
@@ -195,10 +196,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochwatchog.desc1"
+        "cobblemon.species.epochwatchog.desc"
       ],
       "height": 11,
       "weight": 270,

@@ -96,7 +96,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochtoxel.desc1"
+        "cobblemon.species.epochtoxel.desc"
       ],
       "height": 4,
       "weight": 110,
@@ -105,9 +105,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochtoxel_epoch_toxtricity",
+          "id": "epochtoxel_toxtricity_epoch",
           "variant": "level_up",
-          "result": "epoch toxtricity",
+          "result": "toxtricity epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

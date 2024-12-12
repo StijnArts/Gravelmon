@@ -13,7 +13,14 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:water_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "forms": [
     {
@@ -26,6 +33,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "finneon form=epoch",
       "baseScale": 0.19999999999999998,
       "cannotDynamax": false,
       "abilities": [
@@ -120,10 +128,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochlumineon.desc1"
+        "cobblemon.species.epochlumineon.desc"
       ],
       "height": 12,
       "weight": 240,
@@ -170,7 +180,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "finneon form\u003dlagoonan",
+      "preEvolution": "finneon form=lagoonan",
       "baseScale": 0.19999999999999998,
       "cannotDynamax": false,
       "abilities": [
@@ -221,7 +231,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.lagoonanlumineon.desc1"
+        "cobblemon.species.lagoonanlumineon.desc"
       ],
       "height": 12,
       "weight": 240,

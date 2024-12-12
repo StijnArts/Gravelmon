@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 100,
   "baseFriendship": 70,
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2625,
   "cannotDynamax": false,
   "abilities": [
     "insomnia",
@@ -91,7 +91,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.roytsar.desc1"
+    "cobblemon.species.roytsar.desc"
   ],
   "height": 21,
   "weight": 981,

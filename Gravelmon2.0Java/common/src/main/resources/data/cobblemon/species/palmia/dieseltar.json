@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "gastly form\u003dpalmian",
-  "baseScale": 0.25,
+  "preEvolution": "gastly form=palmian",
+  "baseScale": 0.046875,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -47,7 +47,7 @@
     "palmia"
   ],
   "pokedex": [
-    "cobblemon.species.dieseltar.desc1"
+    "cobblemon.species.dieseltar.desc"
   ],
   "height": 15,
   "weight": 0,

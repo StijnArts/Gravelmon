@@ -3,10 +3,12 @@ package drai.dev.data.attributes.assets;
 import com.google.gson.*;
 import drai.dev.data.pokemon.*;
 
+import java.util.*;
+
 public class BasicLayerData {
     String name;
-    boolean emissive = false;
-    boolean translucent = false;
+    Optional<Boolean> emissive = Optional.empty();
+    Optional<Boolean> translucent = Optional.empty();
     boolean considerGender = false;
     boolean considerShiny = false;
 
@@ -14,7 +16,7 @@ public class BasicLayerData {
         this.name = name;
     }
 
-    public BasicLayerData(String name, boolean emissive, boolean translucent, boolean considerGender, boolean considerShiny) {
+    public BasicLayerData(String name, Optional<Boolean> emissive, Optional<Boolean> translucent, boolean considerGender, boolean considerShiny) {
         this.name = name;
         this.emissive = emissive;
         this.translucent = translucent;
@@ -25,8 +27,8 @@ public class BasicLayerData {
     public JsonObject toJsonObject() {
         final JsonObject jsonObject = new JsonObject();
         jsonObject.addProperty("name", name);
-        jsonObject.addProperty("emissive", emissive);
-        jsonObject.addProperty("translucent", translucent);
+        emissive.ifPresent(aBoolean -> jsonObject.addProperty("emissive", aBoolean));
+        translucent.ifPresent(aBoolean -> jsonObject.addProperty("translucent", aBoolean));
         return jsonObject;
     }
 

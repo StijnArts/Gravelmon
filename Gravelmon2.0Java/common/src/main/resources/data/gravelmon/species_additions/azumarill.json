@@ -10,6 +10,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "marill form=epoch",
       "baseScale": 0.13333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -114,10 +115,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochazumarill.desc1"
+        "cobblemon.species.epochazumarill.desc"
       ],
       "height": 8,
       "weight": 285,
@@ -165,8 +168,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 26,
       "baseFriendship": 70,
-      "preEvolution": "marill form\u003degho",
-      "baseScale": 0.16666666666666666,
+      "preEvolution": "marill form=egho",
+      "baseScale": 0.125,
       "cannotDynamax": false,
       "abilities": [
         "hugepower",
@@ -193,7 +196,14 @@
         "fairy"
       ],
       "drops": {
-        "amount": 4
+        "amount": 4,
+        "entries": [
+          {
+            "item": "minecraft:sand",
+            "quantityRange": "1-2",
+            "percentage": 50
+          }
+        ]
       },
       "moves": [
         "1:reversal",
@@ -276,7 +286,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.eghoazumarill.desc1"
+        "cobblemon.species.eghoazumarill.desc"
       ],
       "height": 10,
       "weight": 460,
@@ -324,7 +334,7 @@
       "experienceGroup": "fast",
       "eggCycles": 26,
       "baseFriendship": 70,
-      "preEvolution": "marill form\u003dkaskadian",
+      "preEvolution": "marill form=kaskadian",
       "baseScale": 0.13333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -430,7 +440,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.kaskadianazumarill.desc1"
+        "cobblemon.species.kaskadianazumarill.desc"
       ],
       "height": 8,
       "weight": 285,

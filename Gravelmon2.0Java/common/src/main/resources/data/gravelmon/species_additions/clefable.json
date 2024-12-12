@@ -11,6 +11,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "clefairy form=epoch",
       "baseScale": 0.21666666666666667,
       "cannotDynamax": false,
       "abilities": [
@@ -115,10 +116,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochclefable.desc1"
+        "cobblemon.species.epochclefable.desc"
       ],
       "height": 13,
       "weight": 400,

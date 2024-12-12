@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 75,
   "baseFriendship": 70,
-  "baseScale": 0.2333333333333333,
+  "baseScale": 0.04375,
   "cannotDynamax": false,
   "abilities": [
     "sturdy",
@@ -36,7 +36,14 @@
     "field"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:hornattack",
@@ -93,7 +100,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.calphite.desc1"
+    "cobblemon.species.calphite.desc"
   ],
   "height": 14,
   "weight": 1252,

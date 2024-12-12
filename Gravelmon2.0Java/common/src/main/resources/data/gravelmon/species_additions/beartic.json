@@ -30,6 +30,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "cubchoo form=epoch",
       "baseScale": 0.43333333333333335,
       "cannotDynamax": false,
       "abilities": [
@@ -132,10 +133,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochbeartic.desc1"
+        "cobblemon.species.epochbeartic.desc"
       ],
       "height": 26,
       "weight": 2600,
@@ -183,7 +186,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "cubchoo form\u003dqamoran",
+      "preEvolution": "cubchoo form=qamoran",
       "baseScale": 0.13333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -232,7 +235,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.qamoranbeartic.desc1"
+        "cobblemon.species.qamoranbeartic.desc"
       ],
       "height": 8,
       "weight": 165,

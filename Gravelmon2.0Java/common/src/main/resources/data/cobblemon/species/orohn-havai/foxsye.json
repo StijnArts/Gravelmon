@@ -7,7 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.13333333333333333,
+  "baseScale": 6.4,
   "cannotDynamax": false,
   "abilities": [
     "keeneye",
@@ -50,7 +50,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.foxsye.desc1"
+    "cobblemon.species.foxsye.desc"
   ],
   "height": 8,
   "weight": 165,

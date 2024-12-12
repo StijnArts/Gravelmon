@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "froakie form=epoch",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -108,10 +109,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochfrogadier.desc1"
+        "cobblemon.species.epochfrogadier.desc"
       ],
       "height": 6,
       "weight": 109,
@@ -120,9 +123,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochfrogadier_epoch_greninja",
+          "id": "epochfrogadier_greninja_epoch",
           "variant": "level_up",
-          "result": "epoch greninja",
+          "result": "greninja epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -221,7 +224,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.vesitanfrogadier.desc1"
+        "cobblemon.species.vesitanfrogadier.desc"
       ],
       "height": 6,
       "weight": 109,
@@ -283,8 +286,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "froakie form\u003ddelta",
-      "baseScale": 0.1,
+      "preEvolution": "froakie form=delta",
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "steadfast",
@@ -403,7 +406,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltafrogadier.desc1"
+        "cobblemon.species.deltafrogadier.desc"
       ],
       "height": 6,
       "weight": 109,
@@ -466,7 +469,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "froakie form\u003darmiran",
+      "preEvolution": "froakie form=armiran",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -545,7 +548,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.armiranfrogadier.desc1"
+        "cobblemon.species.armiranfrogadier.desc"
       ],
       "height": 6,
       "weight": 109,

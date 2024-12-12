@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 300,
   "baseFriendship": 70,
-  "baseScale": 0.11666666666666665,
+  "baseScale": 0.021875,
   "cannotDynamax": false,
   "abilities": [
     "magicguard",
@@ -34,7 +34,14 @@
     "undiscovered"
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:wheat",
+        "quantityRange": "3-10",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:ember",
@@ -105,7 +112,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.xochi.desc1"
+    "cobblemon.species.xochi.desc"
   ],
   "height": 7,
   "weight": 140,

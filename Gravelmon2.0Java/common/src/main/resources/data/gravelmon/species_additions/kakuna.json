@@ -27,6 +27,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "weedle form=epoch",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -64,10 +65,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochkakuna.desc1"
+        "cobblemon.species.epochkakuna.desc"
       ],
       "height": 6,
       "weight": 100,
@@ -76,9 +79,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochkakuna_epoch_beedrill",
+          "id": "epochkakuna_beedrill_epoch",
           "variant": "level_up",
-          "result": "epoch beedrill",
+          "result": "beedrill epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

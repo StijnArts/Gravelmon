@@ -38,7 +38,16 @@
         "water_1",
         "dragon"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:astral_stone",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
+      },
       "moves": [
         "15:flail",
         "1:watergun",
@@ -100,7 +109,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochfeebas.desc1"
+        "cobblemon.species.epochfeebas.desc"
       ],
       "height": 6,
       "weight": 74,
@@ -109,9 +118,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochfeebas_epoch_milotic",
+          "id": "epochfeebas_milotic_epoch",
           "variant": "item_interact",
-          "result": "epoch milotic",
+          "result": "milotic epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -254,7 +263,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochfeebasone.desc1"
+        "cobblemon.species.epochfeebasone.desc"
       ],
       "height": 6,
       "weight": 74,
@@ -312,7 +321,7 @@
       "experienceGroup": "fluctuating",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "rattled",
@@ -391,7 +400,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltafeebas.desc1"
+        "cobblemon.species.deltafeebas.desc"
       ],
       "height": 6,
       "weight": 74,
@@ -523,7 +532,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.seviianfeebas.desc1"
+        "cobblemon.species.seviianfeebas.desc"
       ],
       "height": 6,
       "weight": 74,

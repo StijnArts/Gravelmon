@@ -102,7 +102,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epocharrokuda.desc1"
+        "cobblemon.species.epocharrokuda.desc"
       ],
       "height": 5,
       "weight": 10,
@@ -111,9 +111,9 @@
       ],
       "evolutions": [
         {
-          "id": "epocharrokuda_epoch_barraskewda",
+          "id": "epocharrokuda_barraskewda_epoch",
           "variant": "level_up",
-          "result": "epoch barraskewda",
+          "result": "barraskewda epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

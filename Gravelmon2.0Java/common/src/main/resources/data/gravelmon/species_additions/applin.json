@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianapplin.desc1"
+        "cobblemon.species.fabelianapplin.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -93,7 +93,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -127,7 +127,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ferranianapplin.desc1"
+        "cobblemon.species.ferranianapplin.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -199,7 +199,16 @@
       "eggGroups": [
         "amorphous"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:astral_stone",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
+      },
       "moves": [
         "32:irondefense",
         "19:magnetbomb",
@@ -287,7 +296,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochapplin.desc1"
+        "cobblemon.species.epochapplin.desc"
       ],
       "height": 42,
       "weight": 305,
@@ -296,9 +305,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochapplin_epoch_flapple",
+          "id": "epochapplin_flapple_epoch",
           "variant": "item_interact",
-          "result": "epoch flapple",
+          "result": "flapple epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -306,9 +315,9 @@
           "permanent": true
         },
         {
-          "id": "epochapplin_epoch_appletun",
+          "id": "epochapplin_appletun_epoch",
           "variant": "item_interact",
-          "result": "epoch appletun",
+          "result": "appletun epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -316,9 +325,9 @@
           "permanent": true
         },
         {
-          "id": "epochapplin_epoch_dipplin",
+          "id": "epochapplin_dipplin_epoch",
           "variant": "item_interact",
-          "result": "epoch dipplin",
+          "result": "dipplin epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

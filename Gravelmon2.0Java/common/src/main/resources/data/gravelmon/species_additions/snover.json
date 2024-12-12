@@ -31,7 +31,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -65,7 +65,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabeliansnover.desc1"
+        "cobblemon.species.fabeliansnover.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -225,7 +225,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochsnover.desc1"
+        "cobblemon.species.epochsnover.desc"
       ],
       "height": 10,
       "weight": 505,
@@ -234,9 +234,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochsnover_epoch_abomasnow",
+          "id": "epochsnover_abomasnow_epoch",
           "variant": "level_up",
-          "result": "epoch abomasnow",
+          "result": "abomasnow epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -288,7 +288,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.16666666666666666,
+      "baseScale": 0.03125,
       "cannotDynamax": false,
       "abilities": [
         "snowwarning",
@@ -372,7 +372,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.kaskadiansnover.desc1"
+        "cobblemon.species.kaskadiansnover.desc"
       ],
       "height": 10,
       "weight": 505,
@@ -493,7 +493,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.cefiransnover.desc1"
+        "cobblemon.species.cefiransnover.desc"
       ],
       "height": 10,
       "weight": 505,

@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "lumineon form\u003dlagoonan",
+  "preEvolution": "lumineon form=lagoonan",
   "baseScale": 0.2833333333333333,
   "cannotDynamax": false,
   "abilities": [
@@ -59,7 +59,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.gloomineon.desc1"
+    "cobblemon.species.gloomineon.desc"
   ],
   "height": 17,
   "weight": 390,

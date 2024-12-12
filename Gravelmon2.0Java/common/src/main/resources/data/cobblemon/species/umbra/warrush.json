@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "accerval",
-  "baseScale": 0.18333333333333335,
+  "baseScale": 0.034375,
   "cannotDynamax": false,
   "abilities": [
     "limber",
@@ -101,7 +101,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.warrush.desc1"
+    "cobblemon.species.warrush.desc"
   ],
   "height": 11,
   "weight": 540,

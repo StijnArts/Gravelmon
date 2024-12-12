@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.2333333333333333,
+      "baseScale": 0.04375,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -47,7 +47,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.raianianlucario.desc1"
+        "cobblemon.species.raianianlucario.desc"
       ],
       "height": 14,
       "weight": 0,
@@ -95,6 +95,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "riolu form=epoch",
       "baseScale": 0.19999999999999998,
       "cannotDynamax": false,
       "abilities": [
@@ -191,10 +192,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochlucario.desc1"
+        "cobblemon.species.epochlucario.desc"
       ],
       "height": 12,
       "weight": 540,
@@ -242,7 +245,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "riolu form\u003ddelta",
+      "preEvolution": "riolu form=delta",
       "baseScale": 1.1,
       "cannotDynamax": false,
       "abilities": [
@@ -409,7 +412,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltalucario.desc1"
+        "cobblemon.species.deltalucario.desc"
       ],
       "height": 4,
       "weight": 55,
@@ -457,7 +460,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "preEvolution": "riolu form\u003dmythian",
+      "preEvolution": "riolu form=mythian",
       "baseScale": 0.19999999999999998,
       "cannotDynamax": false,
       "abilities": [
@@ -539,7 +542,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.mythianlucario.desc1"
+        "cobblemon.species.mythianlucario.desc"
       ],
       "height": 12,
       "weight": 540,
@@ -715,7 +718,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianlucario.desc1"
+        "cobblemon.species.ayreianlucario.desc"
       ],
       "height": 11,
       "weight": 4,
@@ -763,7 +766,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "riolu form\u003dmystic",
+      "preEvolution": "riolu form=mystic",
       "baseScale": 0.19999999999999998,
       "cannotDynamax": false,
       "abilities": [
@@ -821,7 +824,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.mysticlucario.desc1"
+        "cobblemon.species.mysticlucario.desc"
       ],
       "height": 12,
       "weight": 540,

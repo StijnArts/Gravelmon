@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "slickitty",
-  "baseScale": 0.18333333333333335,
+  "baseScale": 8.8,
   "cannotDynamax": false,
   "abilities": [
     "unburden",
@@ -56,7 +56,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.axeleraze.desc1"
+    "cobblemon.species.axeleraze.desc"
   ],
   "height": 11,
   "weight": 165,

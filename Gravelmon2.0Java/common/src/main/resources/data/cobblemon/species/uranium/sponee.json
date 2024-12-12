@@ -33,7 +33,14 @@
     "bug"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:royal_jelly",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "moves": [
     "1:poisonsting",
@@ -95,7 +102,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.sponee.desc1"
+    "cobblemon.species.sponee.desc"
   ],
   "height": 11,
   "weight": 205,

@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "teddiursa form=epoch",
       "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
@@ -130,10 +131,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochursaring.desc1"
+        "cobblemon.species.epochursaring.desc"
       ],
       "height": 18,
       "weight": 1258,
@@ -142,9 +145,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochursaring_epoch_ursaluna",
+          "id": "epochursaring_ursaluna_epoch",
           "variant": "item_interact",
-          "result": "epoch ursaluna",
+          "result": "ursaluna epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -192,7 +195,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "teddiursa form\u003dhoennian",
+      "preEvolution": "teddiursa form=hoennian",
       "baseScale": 1.1,
       "cannotDynamax": false,
       "abilities": [
@@ -266,7 +269,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.hoennianursaring.desc1"
+        "cobblemon.species.hoennianursaring.desc"
       ],
       "height": 18,
       "weight": 1258,
@@ -314,7 +317,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "preEvolution": "teddiursa form\u003dseviian",
+      "preEvolution": "teddiursa form=seviian",
       "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
@@ -430,7 +433,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.seviianursaring.desc1"
+        "cobblemon.species.seviianursaring.desc"
       ],
       "height": 18,
       "weight": 1258,
@@ -477,7 +480,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "teddiursa form\u003dcefiran",
+      "preEvolution": "teddiursa form=cefiran",
       "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
@@ -543,7 +546,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.cefiranursaring.desc1"
+        "cobblemon.species.cefiranursaring.desc"
       ],
       "height": 18,
       "weight": 1258,

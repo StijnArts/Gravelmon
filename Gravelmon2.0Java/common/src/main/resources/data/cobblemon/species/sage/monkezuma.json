@@ -8,7 +8,7 @@
   "eggCycles": 76,
   "baseFriendship": 70,
   "preEvolution": "simayan",
-  "baseScale": 0.3333333333333333,
+  "baseScale": 0.0625,
   "cannotDynamax": false,
   "abilities": [
     "sheerforce",
@@ -36,7 +36,14 @@
     "field"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:cocoa_beans",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:irontail",
@@ -112,7 +119,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.monkezuma.desc1"
+    "cobblemon.species.monkezuma.desc"
   ],
   "height": 20,
   "weight": 1908,

@@ -10,7 +10,7 @@
       "experienceGroup": "slow",
       "eggCycles": 32,
       "baseFriendship": 70,
-      "preEvolution": "nidoranm form\u003dalteran_summer_coat",
+      "preEvolution": "nidoranm form=alteran_summer_coat",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -64,7 +64,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.nidorimesummercoat.desc1"
+        "cobblemon.species.nidorimesummercoat.desc"
       ],
       "height": 5,
       "weight": 90,

@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "exeggcute form\u003dforman",
-  "baseScale": 0.39999999999999997,
+  "preEvolution": "exeggcute form=forman",
+  "baseScale": 0.075,
   "cannotDynamax": false,
   "abilities": [
     "poisontouch"
@@ -49,7 +49,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.exatoxicy.desc1"
+    "cobblemon.species.exatoxicy.desc"
   ],
   "height": 24,
   "weight": 0,

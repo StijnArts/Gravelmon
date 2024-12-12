@@ -27,7 +27,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "regenerator"
@@ -61,7 +61,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanhorsea.desc1"
+        "cobblemon.species.formanhorsea.desc"
       ],
       "height": 4,
       "weight": 0,
@@ -229,7 +229,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochhorsea.desc1"
+        "cobblemon.species.epochhorsea.desc"
       ],
       "height": 4,
       "weight": 80,
@@ -238,9 +238,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochhorsea_epoch_seadra",
+          "id": "epochhorsea_seadra_epoch",
           "variant": "level_up",
-          "result": "epoch seadra",
+          "result": "seadra epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -396,7 +396,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochhorseaone.desc1"
+        "cobblemon.species.epochhorseaone.desc"
       ],
       "height": 4,
       "weight": 80,

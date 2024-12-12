@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "barracute",
-  "baseScale": 0.3333333333333333,
+  "baseScale": 0.0625,
   "cannotDynamax": false,
   "abilities": [
     "scavenger",
@@ -36,7 +36,14 @@
     "monster"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:raw_cod",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:poisonfang",
@@ -118,7 +125,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.jawgodon.desc1"
+    "cobblemon.species.jawgodon.desc"
   ],
   "height": 20,
   "weight": 1007,

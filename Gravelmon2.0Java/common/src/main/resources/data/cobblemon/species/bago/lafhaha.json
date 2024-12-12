@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.0375,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -41,7 +41,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.lafhaha.desc1"
+    "cobblemon.species.lafhaha.desc"
   ],
   "height": 12,
   "weight": 0,

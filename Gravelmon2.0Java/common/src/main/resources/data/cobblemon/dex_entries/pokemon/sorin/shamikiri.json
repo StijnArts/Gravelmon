@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:shamikiri",
+  "speciesId": "cobblemon:shamikiri",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

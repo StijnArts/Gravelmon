@@ -7,7 +7,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.11666666666666665,
+  "baseScale": 0.0875,
   "cannotDynamax": false,
   "abilities": [
     "simple",
@@ -92,7 +92,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.tokakle.desc1"
+    "cobblemon.species.tokakle.desc"
   ],
   "height": 7,
   "weight": 20,
@@ -147,7 +147,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.021875,
       "cannotDynamax": false,
       "abilities": [
         "simple",
@@ -232,7 +232,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.blue.desc1"
+        "cobblemon.species.blue.desc"
       ],
       "height": 7,
       "weight": 20,
@@ -251,7 +251,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.021875,
       "cannotDynamax": false,
       "abilities": [
         "simple",
@@ -336,7 +336,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.blue.desc1"
+        "cobblemon.species.blue.desc"
       ],
       "height": 7,
       "weight": 20,
@@ -355,7 +355,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.021875,
       "cannotDynamax": false,
       "abilities": [
         "simple",
@@ -440,7 +440,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.green.desc1"
+        "cobblemon.species.green.desc"
       ],
       "height": 7,
       "weight": 20,
@@ -459,7 +459,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.021875,
       "cannotDynamax": false,
       "abilities": [
         "simple",
@@ -544,7 +544,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.yellow.desc1"
+        "cobblemon.species.yellow.desc"
       ],
       "height": 7,
       "weight": 20,
@@ -563,7 +563,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.021875,
       "cannotDynamax": false,
       "abilities": [
         "simple",
@@ -648,7 +648,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.red.desc1"
+        "cobblemon.species.red.desc"
       ],
       "height": 7,
       "weight": 20,

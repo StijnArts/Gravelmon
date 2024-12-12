@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 4.800000000000001,
   "cannotDynamax": false,
   "abilities": [
     "overcoat",
@@ -46,7 +46,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.kroach.desc1"
+    "cobblemon.species.kroach.desc"
   ],
   "height": 2,
   "weight": 165,

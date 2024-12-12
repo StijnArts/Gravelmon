@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "dustar form\u003dokenian",
+  "preEvolution": "dustar form=okenian",
   "baseScale": 0.15,
   "cannotDynamax": false,
   "abilities": [
@@ -63,7 +63,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.clustar.desc1"
+    "cobblemon.species.clustar.desc"
   ],
   "height": 9,
   "weight": 165,

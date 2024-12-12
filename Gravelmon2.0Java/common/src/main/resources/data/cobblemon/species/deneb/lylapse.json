@@ -7,7 +7,7 @@
   "experienceGroup": "slow",
   "eggCycles": 100,
   "baseFriendship": 70,
-  "baseScale": 0.3666666666666667,
+  "baseScale": 0.275,
   "cannotDynamax": false,
   "abilities": [
     "pressure"
@@ -75,7 +75,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.lylapse.desc1"
+    "cobblemon.species.lylapse.desc"
   ],
   "height": 22,
   "weight": 2342,

@@ -27,7 +27,14 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:end_crystal",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "forms": [
     {
@@ -40,7 +47,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.2833333333333333,
+      "baseScale": 0.053125,
       "cannotDynamax": false,
       "abilities": [
         "technician"
@@ -76,7 +83,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanpinsir.desc1"
+        "cobblemon.species.formanpinsir.desc"
       ],
       "height": 17,
       "weight": 0,
@@ -243,7 +250,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochpinsir.desc1"
+        "cobblemon.species.epochpinsir.desc"
       ],
       "height": 15,
       "weight": 550,
@@ -341,7 +348,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.hizianpinsir.desc1"
+        "cobblemon.species.hizianpinsir.desc"
       ],
       "height": 15,
       "weight": 165,
@@ -470,7 +477,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.hoennianpinsir.desc1"
+        "cobblemon.species.hoennianpinsir.desc"
       ],
       "height": 16,
       "weight": 889,
@@ -629,7 +636,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianpinsir.desc1"
+        "cobblemon.species.ayreianpinsir.desc"
       ],
       "height": 15,
       "weight": 3550,

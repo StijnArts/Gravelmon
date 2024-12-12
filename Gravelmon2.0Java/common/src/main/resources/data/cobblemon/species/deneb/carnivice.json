@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "carnivine",
-  "baseScale": 0.3666666666666667,
+  "baseScale": 0.275,
   "cannotDynamax": false,
   "abilities": [
     "levitate"
@@ -108,7 +108,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.carnivice.desc1"
+    "cobblemon.species.carnivice.desc"
   ],
   "height": 22,
   "weight": 547,

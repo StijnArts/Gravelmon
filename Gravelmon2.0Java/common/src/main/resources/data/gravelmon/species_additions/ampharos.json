@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "flaaffy form=epoch",
       "baseScale": 0.2333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -110,10 +111,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochampharos.desc1"
+        "cobblemon.species.epochampharos.desc"
       ],
       "height": 14,
       "weight": 615,
@@ -161,7 +164,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "flaaffy form\u003dmythian",
+      "preEvolution": "flaaffy form=mythian",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -225,7 +228,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.mythianampharos.desc1"
+        "cobblemon.species.mythianampharos.desc"
       ],
       "height": 3,
       "weight": 18,

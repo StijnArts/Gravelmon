@@ -1,60 +1,84 @@
 {
   "head": "head",
-  "portraitScale": 1.8,
-  "portraitTranslation": [0.0, 0.4, 0.0],
-  "profileScale": 0.7,
-  "profileTranslation": [0.0, 0.75, 0.0],
-  "cry": "bedrock(gorochu, cry)",
+  "portraitScale": 1.7999999523162842,
+  "portraitTranslation": [
+    0.0,
+    0.4,
+    0.0
+  ],
+  "profileScale": 0.699999988079071,
+  "profileTranslation": [
+    0.0,
+    0.75,
+    0.0
+  ],
+  "animations": {
+    "cry": "bedrock(gorochu, cry)"
+  },
   "poses": {
-    "battle-idle" : {
+    "battle-idle": {
       "poseName": "battle-idle",
+      "animations": [
+        "bedrock(gorochu, battle_idle)"
+      ],
+      "poseTypes": [
+        "STAND"
+      ],
       "transformTicks": 10,
-      "poseTypes": ["STAND"],
       "isBattle": true,
-      "animations": ["bedrock(gorochu, battle_idle)"],
       "quirks": [
         {
-          "name": "blink",
-          "animations": ["bedrock(gorochu, blink)"]
+          "animations": [
+            "bedrock(gorochu, blink)"
+          ],
+          "name": "blink"
         }
       ]
     },
     "standing": {
       "poseName": "standing",
-      "transformTicks": 10,
-      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
-      "isBattle": false,
       "animations": [
         "look",
         "bedrock(gorochu, ground_idle)"
       ],
+      "poseTypes": [
+        "STAND",
+        "PORTRAIT",
+        "PROFILE",
+        "NONE",
+        "FLOAT",
+        "HOVER"
+      ],
+      "transformTicks": 10,
+      "isBattle": false,
       "quirks": [
         {
-          "name": "blink",
-          "animations": ["bedrock(gorochu, blink)"]
+          "animations": [
+            "bedrock(gorochu, blink)"
+          ],
+          "name": "blink"
         }
       ]
     },
     "walking": {
       "poseName": "walking",
-      "poseTypes": ["WALK"],
       "animations": [
         "look",
         "bedrock(gorochu, ground_walk)"
       ],
+      "poseTypes": [
+        "WALK",
+        "SWIM",
+        "FLY"
+      ],
+      "transformTicks": 10,
       "quirks": [
         {
-          "name": "blink",
-          "animations": ["bedrock(gorochu, blink)"]
+          "animations": [
+            "bedrock(gorochu, blink)"
+          ],
+          "name": "blink"
         }
-      ]
-    },
-    "sleeping": {
-      "poseName": "sleeping",
-      "transformTicks": 10,
-      "poseTypes": ["SLEEP"],
-      "animations": [
-        "bedrock(gorochu, ground_sleep)"
       ]
     }
   }

@@ -9,7 +9,7 @@
   "eggCycles": 32,
   "baseFriendship": 70,
   "preEvolution": "blingrimm",
-  "baseScale": 0.25,
+  "baseScale": 0.1875,
   "cannotDynamax": false,
   "abilities": [
     "hypercutter",
@@ -113,7 +113,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.blingrudge.desc1"
+    "cobblemon.species.blingrudge.desc"
   ],
   "height": 15,
   "weight": 589,

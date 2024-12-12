@@ -32,7 +32,14 @@
     "undiscovered"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:uranium_core",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "moves": [
     "1:megapunch",
@@ -117,7 +124,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.urayne.desc1"
+    "cobblemon.species.urayne.desc"
   ],
   "height": 7,
   "weight": 2395,

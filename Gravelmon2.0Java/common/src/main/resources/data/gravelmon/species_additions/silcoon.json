@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "wurmple form=epoch",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -49,10 +50,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochsilcoon.desc1"
+        "cobblemon.species.epochsilcoon.desc"
       ],
       "height": 6,
       "weight": 100,
@@ -61,9 +64,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochsilcoon_epoch_beautifly",
+          "id": "epochsilcoon_beautifly_epoch",
           "variant": "level_up",
-          "result": "epoch beautifly",
+          "result": "beautifly epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "dewpider form=epoch",
       "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
@@ -100,10 +101,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epocharaquanid.desc1"
+        "cobblemon.species.epocharaquanid.desc"
       ],
       "height": 18,
       "weight": 820,
@@ -250,7 +253,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epocharaquanidone.desc1"
+        "cobblemon.species.epocharaquanidone.desc"
       ],
       "height": 18,
       "weight": 820,

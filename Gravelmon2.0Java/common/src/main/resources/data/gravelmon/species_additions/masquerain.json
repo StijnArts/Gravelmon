@@ -10,6 +10,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "surskit form=epoch",
       "baseScale": 0.13333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -99,10 +100,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochmasquerain.desc1"
+        "cobblemon.species.epochmasquerain.desc"
       ],
       "height": 8,
       "weight": 36,
@@ -244,7 +247,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochmasquerainone.desc1"
+        "cobblemon.species.epochmasquerainone.desc"
       ],
       "height": 8,
       "weight": 36,
@@ -336,7 +339,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.norheimanmasquerain.desc1"
+        "cobblemon.species.norheimanmasquerain.desc"
       ],
       "height": 8,
       "weight": 165,

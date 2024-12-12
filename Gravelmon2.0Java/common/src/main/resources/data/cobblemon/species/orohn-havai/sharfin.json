@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 4.800000000000001,
   "cannotDynamax": false,
   "abilities": [
     "intimidate",
@@ -61,7 +61,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.sharfin.desc1"
+    "cobblemon.species.sharfin.desc"
   ],
   "height": 5,
   "weight": 165,

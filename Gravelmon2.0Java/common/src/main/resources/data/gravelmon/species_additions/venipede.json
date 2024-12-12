@@ -122,7 +122,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochvenipede.desc1"
+        "cobblemon.species.epochvenipede.desc"
       ],
       "height": 4,
       "weight": 53,
@@ -131,9 +131,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochvenipede_epoch_whirlipede",
+          "id": "epochvenipede_whirlipede_epoch",
           "variant": "level_up",
-          "result": "epoch whirlipede",
+          "result": "whirlipede epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -185,7 +185,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "weakarmor",
@@ -289,7 +289,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltavenipede.desc1"
+        "cobblemon.species.deltavenipede.desc"
       ],
       "height": 4,
       "weight": 80,

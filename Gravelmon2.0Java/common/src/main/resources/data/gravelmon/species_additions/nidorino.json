@@ -13,7 +13,14 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "gravelmon:astral_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "forms": [
     {
@@ -26,8 +33,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "nidoranmale form\u003dforman",
-      "baseScale": 0.1,
+      "preEvolution": "nidoranmale form=forman",
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "magicguard"
@@ -63,7 +70,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formannidorino.desc1"
+        "cobblemon.species.formannidorino.desc"
       ],
       "height": 0,
       "weight": 0,

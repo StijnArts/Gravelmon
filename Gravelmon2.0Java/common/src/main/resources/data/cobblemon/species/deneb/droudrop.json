@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.07500000000000001,
   "cannotDynamax": false,
   "abilities": [
     "drought"
@@ -105,7 +105,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.droudrop.desc1"
+    "cobblemon.species.droudrop.desc"
   ],
   "height": 4,
   "weight": 82,

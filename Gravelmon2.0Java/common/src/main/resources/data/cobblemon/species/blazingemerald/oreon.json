@@ -34,7 +34,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:cookie",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:cookiecut",
@@ -72,7 +79,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.oreon.desc1"
+    "cobblemon.species.oreon.desc"
   ],
   "height": 10,
   "weight": 289,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "hamoria",
-  "baseScale": 0.26666666666666666,
+  "baseScale": 0.05,
   "cannotDynamax": false,
   "abilities": [
     "flashfire"
@@ -47,7 +47,7 @@
     "palmia"
   ],
   "pokedex": [
-    "cobblemon.species.bossmor.desc1"
+    "cobblemon.species.bossmor.desc"
   ],
   "height": 16,
   "weight": 0,

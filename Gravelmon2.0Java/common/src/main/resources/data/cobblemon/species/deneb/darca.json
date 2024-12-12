@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "dorfin",
-  "baseScale": 0.3,
+  "baseScale": 0.22499999999999998,
   "cannotDynamax": false,
   "abilities": [
     "roughskin"
@@ -110,7 +110,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.darca.desc1"
+    "cobblemon.species.darca.desc"
   ],
   "height": 18,
   "weight": 995,

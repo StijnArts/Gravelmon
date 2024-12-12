@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -47,7 +47,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ferraniansalamence.desc1"
+        "cobblemon.species.ferraniansalamence.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -95,7 +95,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.25,
+      "baseScale": 0.046875,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -129,7 +129,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.raianiansalamence.desc1"
+        "cobblemon.species.raianiansalamence.desc"
       ],
       "height": 15,
       "weight": 0,
@@ -177,6 +177,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "shelgon form=epoch",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -292,10 +293,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochsalamence.desc1"
+        "cobblemon.species.epochsalamence.desc"
       ],
       "height": 15,
       "weight": 1026,

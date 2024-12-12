@@ -8,7 +8,7 @@
   "eggCycles": 32,
   "baseFriendship": 70,
   "preEvolution": "kidoon",
-  "baseScale": 0.7999999999999999,
+  "baseScale": 0.6,
   "cannotDynamax": false,
   "abilities": [
     "dryskin",
@@ -108,7 +108,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.honchen.desc1"
+    "cobblemon.species.honchen.desc"
   ],
   "height": 48,
   "weight": 2410,

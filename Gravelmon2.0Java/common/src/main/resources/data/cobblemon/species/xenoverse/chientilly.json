@@ -8,8 +8,8 @@
   "experienceGroup": "fast",
   "eggCycles": 26,
   "baseFriendship": 40,
-  "preEvolution": "smeargle form\u003dx",
-  "baseScale": 0.2833333333333333,
+  "preEvolution": "smeargle form=x",
+  "baseScale": 0.2125,
   "cannotDynamax": false,
   "abilities": [
     "immunity",
@@ -35,7 +35,19 @@
     "undiscovered"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:xenolith",
+        "quantityRange": "1-1",
+        "percentage": 50
+      },
+      {
+        "item": "gravelmon:xenolith",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:fairywind",
@@ -87,7 +99,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.chientilly.desc1"
+    "cobblemon.species.chientilly.desc"
   ],
   "height": 17,
   "weight": 942,

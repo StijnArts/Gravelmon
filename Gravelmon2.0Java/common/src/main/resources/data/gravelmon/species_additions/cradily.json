@@ -11,6 +11,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "lileep form=epoch",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -103,10 +104,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochcradily.desc1"
+        "cobblemon.species.epochcradily.desc"
       ],
       "height": 15,
       "weight": 604,
@@ -154,7 +157,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "lileep form\u003dhizian",
+      "preEvolution": "lileep form=hizian",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -234,7 +237,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.hiziancradily.desc1"
+        "cobblemon.species.hiziancradily.desc"
       ],
       "height": 15,
       "weight": 165,

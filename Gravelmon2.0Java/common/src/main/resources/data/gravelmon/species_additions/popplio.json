@@ -118,7 +118,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochpopplio.desc1"
+        "cobblemon.species.epochpopplio.desc"
       ],
       "height": 4,
       "weight": 75,
@@ -127,9 +127,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochpopplio_epoch_brionne",
+          "id": "epochpopplio_brionne_epoch",
           "variant": "level_up",
-          "result": "epoch brionne",
+          "result": "brionne epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

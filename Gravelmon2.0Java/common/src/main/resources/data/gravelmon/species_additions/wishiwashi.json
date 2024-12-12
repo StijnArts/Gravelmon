@@ -83,7 +83,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.seviianwishiwashi.desc1"
+        "cobblemon.species.seviianwishiwashi.desc"
       ],
       "height": 2,
       "weight": 3,
@@ -189,7 +189,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deepwishiwashi.desc1"
+        "cobblemon.species.deepwishiwashi.desc"
       ],
       "height": 2,
       "weight": 3,

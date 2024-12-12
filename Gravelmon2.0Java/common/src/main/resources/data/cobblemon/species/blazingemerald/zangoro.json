@@ -35,7 +35,19 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:murky_claw",
+        "quantityRange": "1-1",
+        "percentage": 50
+      },
+      {
+        "item": "gravelmon:murky_claw",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "egg:jumpkick",
@@ -91,7 +103,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.zangoro.desc1"
+    "cobblemon.species.zangoro.desc"
   ],
   "height": 20,
   "weight": 822,

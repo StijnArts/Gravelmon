@@ -92,7 +92,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.solrotom.desc1"
+        "cobblemon.species.solrotom.desc"
       ],
       "height": 3,
       "weight": 3,
@@ -221,7 +221,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.swayrotom.desc1"
+        "cobblemon.species.swayrotom.desc"
       ],
       "height": 3,
       "weight": 3,
@@ -350,7 +350,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.brawlrotom.desc1"
+        "cobblemon.species.brawlrotom.desc"
       ],
       "height": 3,
       "weight": 3,
@@ -479,7 +479,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.webrotom.desc1"
+        "cobblemon.species.webrotom.desc"
       ],
       "height": 3,
       "weight": 3,
@@ -608,7 +608,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.junkrotom.desc1"
+        "cobblemon.species.junkrotom.desc"
       ],
       "height": 3,
       "weight": 3,
@@ -736,7 +736,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.homerotom.desc1"
+        "cobblemon.species.homerotom.desc"
       ],
       "height": 3,
       "weight": 3,
@@ -865,7 +865,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.bassrotom.desc1"
+        "cobblemon.species.bassrotom.desc"
       ],
       "height": 3,
       "weight": 3,
@@ -994,7 +994,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.twirlrotom.desc1"
+        "cobblemon.species.twirlrotom.desc"
       ],
       "height": 3,
       "weight": 3,
@@ -1123,7 +1123,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mixrotom.desc1"
+        "cobblemon.species.mixrotom.desc"
       ],
       "height": 3,
       "weight": 3,

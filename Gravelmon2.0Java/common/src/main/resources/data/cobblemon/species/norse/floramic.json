@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.5333333333333333,
+  "baseScale": 0.1,
   "cannotDynamax": false,
   "abilities": [
     "flowerveil"
@@ -42,7 +42,7 @@
     "norse"
   ],
   "pokedex": [
-    "cobblemon.species.floramic.desc1"
+    "cobblemon.species.floramic.desc"
   ],
   "height": 32,
   "weight": 0,

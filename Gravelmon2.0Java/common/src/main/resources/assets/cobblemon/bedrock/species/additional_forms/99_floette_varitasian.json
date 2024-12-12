@@ -1,21 +1,15 @@
 {
   "species": "cobblemon:floette",
-  "order": 3,
+  "order": 99,
   "variations": [
     {
       "aspects": [
         "varitasian"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation6_varitasianfloette",
+      "model": "cobblemon:cutout_gravelmon_96_by_96.geo",
+      "poser": "cobblemon:cutout_gravelmon_96_by_96",
       "texture": "cobblemon:textures/pokemon/generation6/varitasianfloette.png",
       "layers": [
-        {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
         {
           "name": "emissive"
         },
@@ -23,39 +17,19 @@
           "name": "transparentEmissive"
         },
         {
-          "name": "flame"
+          "name": "tail"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "varitasian",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation6_varitasianfloette",
-      "texture": "cobblemon:textures/pokemon/generation6/varitasianfloette.png",
-      "layers": [
-        {
-          "name": "glow"
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
         },
         {
-          "name": "emissive"
-        },
-        {
-          "name": "transparentEmissive"
-        },
-        {
           "name": "flame"
         },
         {
-          "name": "tail"
+          "name": "glow"
         }
       ]
     }

@@ -1,6 +1,6 @@
 {
   "species": "cobblemon:darmanitan",
-  "order": 10,
+  "order": 133,
   "variations": [
     {
       "aspects": [
@@ -12,6 +12,24 @@
       "layers": [
         {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
         }
       ]
     },
@@ -26,6 +44,24 @@
       "layers": [
         {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
         }
       ]
     }

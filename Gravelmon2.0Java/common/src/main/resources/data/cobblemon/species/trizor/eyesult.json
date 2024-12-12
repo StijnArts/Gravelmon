@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "teenops",
-  "baseScale": 0.2833333333333333,
+  "baseScale": 0.053125,
   "cannotDynamax": false,
   "abilities": [
     "levitate"
@@ -45,7 +45,7 @@
     "trizor"
   ],
   "pokedex": [
-    "cobblemon.species.eyesult.desc1"
+    "cobblemon.species.eyesult.desc"
   ],
   "height": 17,
   "weight": 0,

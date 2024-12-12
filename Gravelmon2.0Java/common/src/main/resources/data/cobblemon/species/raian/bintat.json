@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "coatity",
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.0375,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -44,7 +44,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.bintat.desc1"
+    "cobblemon.species.bintat.desc"
   ],
   "height": 12,
   "weight": 0,

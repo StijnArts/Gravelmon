@@ -8,8 +8,8 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "shellder form\u003degho",
-  "baseScale": 0.3333333333333333,
+  "preEvolution": "shellder form=egho",
+  "baseScale": 0.25,
   "cannotDynamax": false,
   "abilities": [
     "ironbarbs",
@@ -35,7 +35,14 @@
     "water_3"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:iron_ingot",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:metalclaw",
@@ -136,7 +143,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.skulkraken.desc1"
+    "cobblemon.species.skulkraken.desc"
   ],
   "height": 20,
   "weight": 2120,

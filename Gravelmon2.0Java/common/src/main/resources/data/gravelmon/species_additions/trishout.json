@@ -37,7 +37,39 @@
         "undiscovered"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          },
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 10
+          },
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 10
+          },
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 10
+          },
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          },
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
       },
       "moves": [
         "1:firepunch",
@@ -103,7 +135,7 @@
         "xenoverse"
       ],
       "pokedex": [
-        "cobblemon.species.trishoutterrestrial.desc1"
+        "cobblemon.species.trishoutterrestrial.desc"
       ],
       "height": 9,
       "weight": 200,
@@ -114,7 +146,7 @@
         {
           "id": "trishoutterrestrial_trishout_terrestrialfalse",
           "variant": "level_up",
-          "result": "trishout terrestrial\u003dfalse",
+          "result": "trishout terrestrial=false",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -211,7 +243,7 @@
       "experienceGroup": "slow",
       "eggCycles": 41,
       "baseFriendship": 70,
-      "baseScale": 0.26666666666666666,
+      "baseScale": 0.2,
       "cannotDynamax": false,
       "abilities": [
         "hugepower",
@@ -237,7 +269,39 @@
         "undiscovered"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          },
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          },
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 10
+          },
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 10
+          },
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 10
+          },
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
       },
       "moves": [
         "1:primalscream",
@@ -306,7 +370,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.trishoutxenoversal.desc1"
+        "cobblemon.species.trishoutxenoversal.desc"
       ],
       "height": 16,
       "weight": 990,
@@ -317,7 +381,7 @@
         {
           "id": "trishoutxenoversal_trishout_xenoversalfalse",
           "variant": "level_up",
-          "result": "trishout xenoversal\u003dfalse",
+          "result": "trishout xenoversal=false",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -414,7 +478,7 @@
       "experienceGroup": "slow",
       "eggCycles": 41,
       "baseFriendship": 70,
-      "baseScale": 0.5166666666666667,
+      "baseScale": 0.38750000000000007,
       "cannotDynamax": false,
       "abilities": [
         "voicetuning"
@@ -439,7 +503,49 @@
         "undiscovered"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          },
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          },
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          },
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          },
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          },
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          },
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 10
+          },
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
       },
       "moves": [
         "1:ember",
@@ -502,7 +608,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.trishoutastral.desc1"
+        "cobblemon.species.trishoutastral.desc"
       ],
       "height": 31,
       "weight": 790,
@@ -513,7 +619,7 @@
         {
           "id": "trishoutastral_trishout_astralfalse",
           "variant": "level_up",
-          "result": "trishout astral\u003dfalse",
+          "result": "trishout astral=false",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -588,7 +694,7 @@
       "experienceGroup": "slow",
       "eggCycles": 41,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -635,7 +741,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.trishoutx.desc1"
+        "cobblemon.species.trishoutx.desc"
       ],
       "height": 5,
       "weight": 65,

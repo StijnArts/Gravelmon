@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "steenee form=epoch",
       "baseScale": 0.19999999999999998,
       "cannotDynamax": false,
       "abilities": [
@@ -100,10 +101,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochtsareena.desc1"
+        "cobblemon.species.epochtsareena.desc"
       ],
       "height": 12,
       "weight": 214,
@@ -268,7 +271,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochtsareenaone.desc1"
+        "cobblemon.species.epochtsareenaone.desc"
       ],
       "height": 12,
       "weight": 214,

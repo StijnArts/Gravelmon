@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "shelpa",
-  "baseScale": 0.15,
+  "baseScale": 0.028124999999999997,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -47,7 +47,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.moskiringe.desc1"
+    "cobblemon.species.moskiringe.desc"
   ],
   "height": 9,
   "weight": 0,

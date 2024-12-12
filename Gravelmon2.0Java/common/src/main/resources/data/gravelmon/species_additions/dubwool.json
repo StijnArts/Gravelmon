@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -47,7 +47,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabeliandubwool.desc1"
+        "cobblemon.species.fabeliandubwool.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -95,6 +95,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "wooloo form=epoch",
       "baseScale": 0.21666666666666667,
       "cannotDynamax": false,
       "abilities": [
@@ -194,10 +195,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochdubwool.desc1"
+        "cobblemon.species.epochdubwool.desc"
       ],
       "height": 13,
       "weight": 2430,
@@ -340,7 +343,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochdubwoolone.desc1"
+        "cobblemon.species.epochdubwoolone.desc"
       ],
       "height": 13,
       "weight": 430,
@@ -388,7 +391,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "wooloo form\u003dnovran",
+      "preEvolution": "wooloo form=novran",
       "baseScale": 0.21666666666666667,
       "cannotDynamax": false,
       "abilities": [
@@ -491,7 +494,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.novrandubwool.desc1"
+        "cobblemon.species.novrandubwool.desc"
       ],
       "height": 13,
       "weight": 165,
@@ -617,7 +620,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.kaskadiandubwool.desc1"
+        "cobblemon.species.kaskadiandubwool.desc"
       ],
       "height": 13,
       "weight": 430,

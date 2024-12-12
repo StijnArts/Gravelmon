@@ -10,7 +10,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "truant"
@@ -43,7 +43,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanditto.desc1"
+        "cobblemon.species.formanditto.desc"
       ],
       "height": 6,
       "weight": 0,
@@ -136,7 +136,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochditto.desc1"
+        "cobblemon.species.epochditto.desc"
       ],
       "height": 3,
       "weight": 40,
@@ -224,7 +224,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.norheimanditto.desc1"
+        "cobblemon.species.norheimanditto.desc"
       ],
       "height": 3,
       "weight": 165,
@@ -312,7 +312,7 @@
         "insurgence"
       ],
       "pokedex": [
-        "cobblemon.species.deltaditto.desc1"
+        "cobblemon.species.deltaditto.desc"
       ],
       "height": 3,
       "weight": 40,
@@ -393,7 +393,7 @@
         "gen1"
       ],
       "pokedex": [
-        "cobblemon.species.dittox.desc1"
+        "cobblemon.species.dittox.desc"
       ],
       "height": 3,
       "weight": 40,

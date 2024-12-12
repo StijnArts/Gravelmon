@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 35,
   "baseFriendship": 70,
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.15,
   "cannotDynamax": false,
   "abilities": [
     "hypercutter"
@@ -123,7 +123,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.scaleon.desc1"
+    "cobblemon.species.scaleon.desc"
   ],
   "height": 12,
   "weight": 309,

@@ -96,7 +96,7 @@ public class Birigiri extends Pokemon {
                 AnimationData.walkingAnimation(),
                 AnimationData.swimmingAnimation(),
                 AnimationData.floatingAnimation(),
-                AnimationData.sleepingAnimation(),
+                AnimationData.sleepingAnimation().clearAnimations().addAnimation("ground_sleep").notInWater(),
                 AnimationData.waterSleepingAnimation()
 
         ));

@@ -33,7 +33,14 @@
     "fairy"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:room_service",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "5:encore",
@@ -101,7 +108,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.valevant.desc1"
+    "cobblemon.species.valevant.desc"
   ],
   "height": 17,
   "weight": 780,

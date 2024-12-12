@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "tentalpha",
-      "baseScale": 0.21666666666666667,
+      "baseScale": 0.040625,
       "cannotDynamax": false,
       "abilities": [
         "aftermath"
@@ -50,7 +50,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formantentacool.desc1"
+        "cobblemon.species.formantentacool.desc"
       ],
       "height": 13,
       "weight": 0,
@@ -147,7 +147,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.masteniantentacool.desc1"
+        "cobblemon.species.masteniantentacool.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -311,7 +311,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochtentacool.desc1"
+        "cobblemon.species.epochtentacool.desc"
       ],
       "height": 9,
       "weight": 455,
@@ -320,9 +320,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochtentacool_epoch_tentacruel",
+          "id": "epochtentacool_tentacruel_epoch",
           "variant": "level_up",
-          "result": "epoch tentacruel",
+          "result": "tentacruel epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -374,7 +374,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.11249999999999999,
       "cannotDynamax": false,
       "abilities": [
         "stormdrain",
@@ -483,7 +483,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltatentacool.desc1"
+        "cobblemon.species.deltatentacool.desc"
       ],
       "height": 9,
       "weight": 455,
@@ -618,7 +618,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.hoenniantentacool.desc1"
+        "cobblemon.species.hoenniantentacool.desc"
       ],
       "height": 7,
       "weight": 269,
@@ -757,7 +757,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.relictentacool.desc1"
+        "cobblemon.species.relictentacool.desc"
       ],
       "height": 11,
       "weight": 634,

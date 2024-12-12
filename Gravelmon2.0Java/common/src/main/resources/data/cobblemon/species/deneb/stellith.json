@@ -8,7 +8,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.2333333333333333,
+  "baseScale": 0.175,
   "cannotDynamax": false,
   "abilities": [
     "levitate"
@@ -77,7 +77,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.stellith.desc1"
+    "cobblemon.species.stellith.desc"
   ],
   "height": 14,
   "weight": 1790,

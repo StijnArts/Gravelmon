@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "kermite",
-  "baseScale": 0.21666666666666667,
+  "baseScale": 0.040625,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -47,7 +47,7 @@
     "palmia"
   ],
   "pokedex": [
-    "cobblemon.species.wingmite.desc1"
+    "cobblemon.species.wingmite.desc"
   ],
   "height": 13,
   "weight": 0,

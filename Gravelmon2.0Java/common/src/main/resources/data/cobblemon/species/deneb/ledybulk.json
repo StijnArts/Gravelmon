@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "ledian",
-  "baseScale": 0.25,
+  "baseScale": 0.1875,
   "cannotDynamax": false,
   "abilities": [
     "swarm",
@@ -110,7 +110,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.ledybulk.desc1"
+    "cobblemon.species.ledybulk.desc"
   ],
   "height": 15,
   "weight": 495,

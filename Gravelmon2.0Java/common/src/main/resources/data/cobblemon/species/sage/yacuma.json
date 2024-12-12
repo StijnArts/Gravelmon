@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 200,
   "baseFriendship": 70,
-  "baseScale": 0.25,
+  "baseScale": 0.046875,
   "cannotDynamax": false,
   "abilities": [
     "hydration",
@@ -34,7 +34,14 @@
     "undiscovered"
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:prismarine",
+        "quantityRange": "3-10",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:aquaring",
@@ -101,7 +108,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.yacuma.desc1"
+    "cobblemon.species.yacuma.desc"
   ],
   "height": 15,
   "weight": 390,

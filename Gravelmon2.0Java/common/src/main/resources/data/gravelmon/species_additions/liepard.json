@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "purrloin form=epoch",
       "baseScale": 0.18333333333333335,
       "cannotDynamax": false,
       "abilities": [
@@ -106,10 +107,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochliepard.desc1"
+        "cobblemon.species.epochliepard.desc"
       ],
       "height": 11,
       "weight": 375,
@@ -157,8 +160,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "purrloin form\u003ddelta",
-      "baseScale": 0.18333333333333335,
+      "preEvolution": "purrloin form=delta",
+      "baseScale": 0.1375,
       "cannotDynamax": false,
       "abilities": [
         "illusion",
@@ -310,7 +313,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltaliepard.desc1"
+        "cobblemon.species.deltaliepard.desc"
       ],
       "height": 11,
       "weight": 375,

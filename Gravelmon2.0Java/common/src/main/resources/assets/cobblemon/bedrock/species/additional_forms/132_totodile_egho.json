@@ -1,6 +1,6 @@
 {
   "species": "cobblemon:totodile",
-  "order": 3,
+  "order": 132,
   "variations": [
     {
       "aspects": [
@@ -11,13 +11,16 @@
       "texture": "cobblemon:textures/pokemon/generation2/eghototodile/eghototodile.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,7 +29,7 @@
           "name": "flame"
         },
         {
-          "name": "tail"
+          "name": "glow"
         }
       ]
     },
@@ -40,13 +43,16 @@
       "texture": "cobblemon:textures/pokemon/generation2/eghototodile/eghototodile_shiny.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -55,7 +61,7 @@
           "name": "flame"
         },
         {
-          "name": "tail"
+          "name": "glow"
         }
       ]
     }

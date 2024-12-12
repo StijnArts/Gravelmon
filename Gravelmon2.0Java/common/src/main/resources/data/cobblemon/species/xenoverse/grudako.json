@@ -9,7 +9,7 @@
   "eggCycles": 32,
   "baseFriendship": 70,
   "preEvolution": "chigami",
-  "baseScale": 0.2333333333333333,
+  "baseScale": 0.175,
   "cannotDynamax": false,
   "abilities": [
     "roughskin",
@@ -100,7 +100,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.grudako.desc1"
+    "cobblemon.species.grudako.desc"
   ],
   "height": 14,
   "weight": 10,

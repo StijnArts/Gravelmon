@@ -5,17 +5,33 @@
     {
       "aspects": [
         "exothermic"
-     ],
-      "poser": "cobblemon:sage_noxial",
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/pokemon/sage/exothermic_noxial.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "exothermic",
-        "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/sage/exothermic_noxial_shiny.png"
-    }  ]
+      "model": "cobblemon:cutout_gravelmon_512_by_512.geo",
+      "poser": "cobblemon:cutout_gravelmon_512_by_512",
+      "texture": "cobblemon:textures/pokemon/sage/exothermic.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
+    }
+  ]
 }

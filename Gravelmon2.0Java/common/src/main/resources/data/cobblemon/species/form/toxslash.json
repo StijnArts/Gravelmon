@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "sandshrew form\u003dforman",
-  "baseScale": 0.25,
+  "preEvolution": "sandshrew form=forman",
+  "baseScale": 0.046875,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -47,7 +47,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.toxslash.desc1"
+    "cobblemon.species.toxslash.desc"
   ],
   "height": 15,
   "weight": 0,

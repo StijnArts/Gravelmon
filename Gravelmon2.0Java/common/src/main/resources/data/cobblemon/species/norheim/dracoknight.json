@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "dragonair form\u003dnorheiman",
+  "preEvolution": "dragonair form=norheiman",
   "baseScale": 0.43333333333333335,
   "cannotDynamax": false,
   "abilities": [
@@ -58,7 +58,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.dracoknight.desc1"
+    "cobblemon.species.dracoknight.desc"
   ],
   "height": 26,
   "weight": 165,

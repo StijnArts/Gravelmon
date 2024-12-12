@@ -10,7 +10,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "strongjaw",
@@ -120,7 +120,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltaaxew.desc1"
+        "cobblemon.species.deltaaxew.desc"
       ],
       "height": 6,
       "weight": 180,
@@ -292,7 +292,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianaxew.desc1"
+        "cobblemon.species.ayreianaxew.desc"
       ],
       "height": 6,
       "weight": 180,

@@ -33,7 +33,14 @@
     "bug"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:royal_jelly",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "moves": [
     "1:poisonsting",
@@ -100,7 +107,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.tricwe.desc1"
+    "cobblemon.species.tricwe.desc"
   ],
   "height": 3,
   "weight": 25,

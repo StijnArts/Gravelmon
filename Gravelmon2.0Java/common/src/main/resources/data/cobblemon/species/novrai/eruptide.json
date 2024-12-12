@@ -36,7 +36,14 @@
     "water_3"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:growth_mulch",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:poisongas",
@@ -128,7 +135,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.eruptide.desc1"
+    "cobblemon.species.eruptide.desc"
   ],
   "height": 12,
   "weight": 165,

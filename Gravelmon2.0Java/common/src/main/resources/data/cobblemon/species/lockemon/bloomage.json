@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.2833333333333333,
+  "baseScale": 0.053125,
   "cannotDynamax": false,
   "abilities": [
     "solarpower",
@@ -59,7 +59,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.bloomage.desc1"
+    "cobblemon.species.bloomage.desc"
   ],
   "height": 17,
   "weight": 3180,

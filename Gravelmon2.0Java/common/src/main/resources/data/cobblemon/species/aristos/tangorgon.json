@@ -33,7 +33,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:dusk_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:faketears",
@@ -54,7 +61,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.tangorgon.desc1"
+    "cobblemon.species.tangorgon.desc"
   ],
   "height": 14,
   "weight": 165,

@@ -9,7 +9,7 @@
   "eggCycles": 48,
   "baseFriendship": 70,
   "preEvolution": "arctusk",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.3,
   "cannotDynamax": false,
   "abilities": [
     "sturdy",
@@ -121,7 +121,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.gigantusk.desc1"
+    "cobblemon.species.gigantusk.desc"
   ],
   "height": 24,
   "weight": 4400,

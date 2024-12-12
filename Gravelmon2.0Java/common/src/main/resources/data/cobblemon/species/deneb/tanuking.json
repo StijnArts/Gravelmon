@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "percussoon",
-  "baseScale": 0.25,
+  "baseScale": 0.1875,
   "cannotDynamax": false,
   "abilities": [
     "pickup"
@@ -108,7 +108,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.tanuking.desc1"
+    "cobblemon.species.tanuking.desc"
   ],
   "height": 15,
   "weight": 1262,

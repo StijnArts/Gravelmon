@@ -123,7 +123,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epocharon.desc1"
+        "cobblemon.species.epocharon.desc"
       ],
       "height": 4,
       "weight": 600,
@@ -132,9 +132,9 @@
       ],
       "evolutions": [
         {
-          "id": "epocharon_epoch_lairon",
+          "id": "epocharon_lairon_epoch",
           "variant": "level_up",
-          "result": "epoch lairon",
+          "result": "lairon epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -292,7 +292,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.hizianaron.desc1"
+        "cobblemon.species.hizianaron.desc"
       ],
       "height": 4,
       "weight": 165,
@@ -355,7 +355,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "flamebody",
@@ -469,7 +469,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltaaron.desc1"
+        "cobblemon.species.deltaaron.desc"
       ],
       "height": 4,
       "weight": 600,
@@ -678,7 +678,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianaron.desc1"
+        "cobblemon.species.ayreianaron.desc"
       ],
       "height": 4,
       "weight": 600,

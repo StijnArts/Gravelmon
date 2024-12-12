@@ -65,7 +65,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochgimmighoul.desc1"
+        "cobblemon.species.epochgimmighoul.desc"
       ],
       "height": 3,
       "weight": 50,
@@ -74,9 +74,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochgimmighoul_epoch_gholdengo",
+          "id": "epochgimmighoul_gholdengo_epoch",
           "variant": "item_interact",
-          "result": "epoch gholdengo",
+          "result": "gholdengo epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

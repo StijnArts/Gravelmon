@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "impferno",
-  "baseScale": 0.25,
+  "baseScale": 12.0,
   "cannotDynamax": false,
   "abilities": [
     "blaze",
@@ -68,7 +68,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.pyrovern.desc1"
+    "cobblemon.species.pyrovern.desc"
   ],
   "height": 15,
   "weight": 165,

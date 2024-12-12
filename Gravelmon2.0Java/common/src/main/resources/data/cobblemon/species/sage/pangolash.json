@@ -9,7 +9,7 @@
   "eggCycles": 51,
   "baseFriendship": 70,
   "preEvolution": "diloweed",
-  "baseScale": 0.16666666666666666,
+  "baseScale": 0.03125,
   "cannotDynamax": false,
   "abilities": [
     "roughskin",
@@ -37,7 +37,14 @@
     "field"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:dead_bush",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:spikes",
@@ -112,7 +119,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.pangolash.desc1"
+    "cobblemon.species.pangolash.desc"
   ],
   "height": 10,
   "weight": 865,

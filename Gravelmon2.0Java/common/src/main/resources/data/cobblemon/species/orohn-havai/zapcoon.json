@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "zapillar",
-  "baseScale": 0.11666666666666665,
+  "baseScale": 5.6,
   "cannotDynamax": false,
   "abilities": [
     "voltabsorb",
@@ -61,7 +61,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.zapcoon.desc1"
+    "cobblemon.species.zapcoon.desc"
   ],
   "height": 7,
   "weight": 165,

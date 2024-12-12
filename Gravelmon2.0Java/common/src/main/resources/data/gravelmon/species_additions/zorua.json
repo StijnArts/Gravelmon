@@ -108,7 +108,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochzorua.desc1"
+        "cobblemon.species.epochzorua.desc"
       ],
       "height": 7,
       "weight": 125,
@@ -117,9 +117,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochzorua_epoch_zoroark",
+          "id": "epochzorua_zoroark_epoch",
           "variant": "level_up",
-          "result": "epoch zoroark",
+          "result": "zoroark epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -229,7 +229,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mythianzorua.desc1"
+        "cobblemon.species.mythianzorua.desc"
       ],
       "height": 7,
       "weight": 38,
@@ -342,7 +342,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.alteranzorua.desc1"
+        "cobblemon.species.alteranzorua.desc"
       ],
       "height": 7,
       "weight": 13,

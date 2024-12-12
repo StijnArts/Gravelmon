@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "flaero",
-  "baseScale": 0.16666666666666666,
+  "baseScale": 8.0,
   "cannotDynamax": false,
   "abilities": [
     "blaze",
@@ -66,7 +66,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.impferno.desc1"
+    "cobblemon.species.impferno.desc"
   ],
   "height": 10,
   "weight": 165,

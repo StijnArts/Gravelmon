@@ -14,7 +14,7 @@
         },
         {
           "variant": "properties",
-          "target": "gender\u003dfemale",
+          "target": "gender=female",
           "contains": true
         },
         {
@@ -37,7 +37,7 @@
         },
         {
           "variant": "properties",
-          "target": "gender\u003dfemale",
+          "target": "gender=female",
           "contains": true
         },
         {
@@ -59,7 +59,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -93,7 +93,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mahaliandragonair.desc1"
+        "cobblemon.species.mahaliandragonair.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -141,8 +141,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "dratini form\u003dforman",
-      "baseScale": 0.31666666666666665,
+      "preEvolution": "dratini form=forman",
+      "baseScale": 0.059375,
       "cannotDynamax": false,
       "abilities": [
         "lightningrod"
@@ -180,7 +180,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formandragonair.desc1"
+        "cobblemon.species.formandragonair.desc"
       ],
       "height": 19,
       "weight": 0,
@@ -243,6 +243,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "dratini form=epoch",
       "baseScale": 0.6666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -346,10 +347,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochdragonair.desc1"
+        "cobblemon.species.epochdragonair.desc"
       ],
       "height": 40,
       "weight": 165,
@@ -358,9 +361,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochdragonair_epoch_dragonite",
+          "id": "epochdragonair_dragonite_epoch",
           "variant": "level_up",
-          "result": "epoch dragonite",
+          "result": "dragonite epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -458,7 +461,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.norheimandragonair.desc1"
+        "cobblemon.species.norheimandragonair.desc"
       ],
       "height": 20,
       "weight": 165,
@@ -521,8 +524,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "dratini form\u003ddelta",
-      "baseScale": 0.6666666666666666,
+      "preEvolution": "dratini form=delta",
+      "baseScale": 0.5,
       "cannotDynamax": false,
       "abilities": [
         "swiftswim",
@@ -637,7 +640,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltadragonair.desc1"
+        "cobblemon.species.deltadragonair.desc"
       ],
       "height": 40,
       "weight": 165,
@@ -788,7 +791,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiandragonair.desc1"
+        "cobblemon.species.ayreiandragonair.desc"
       ],
       "height": 40,
       "weight": 565,

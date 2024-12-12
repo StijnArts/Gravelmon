@@ -10,7 +10,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -43,7 +43,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ivrisianclauncher.desc1"
+        "cobblemon.species.ivrisianclauncher.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -142,7 +142,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.vesitanclauncher.desc1"
+        "cobblemon.species.vesitanclauncher.desc"
       ],
       "height": 5,
       "weight": 83,
@@ -282,7 +282,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.seviianclauncher.desc1"
+        "cobblemon.species.seviianclauncher.desc"
       ],
       "height": 5,
       "weight": 83,

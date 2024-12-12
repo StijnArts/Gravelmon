@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -47,7 +47,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabeliandewgong.desc1"
+        "cobblemon.species.fabeliandewgong.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -95,6 +95,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "seel form=epoch",
       "baseScale": 0.2833333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -202,10 +203,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochdewgong.desc1"
+        "cobblemon.species.epochdewgong.desc"
       ],
       "height": 17,
       "weight": 2400,
@@ -253,7 +256,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "seel form\u003dqamoran",
+      "preEvolution": "seel form=qamoran",
       "baseScale": 0.35000000000000003,
       "cannotDynamax": false,
       "abilities": [
@@ -306,7 +309,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.qamorandewgong.desc1"
+        "cobblemon.species.qamorandewgong.desc"
       ],
       "height": 21,
       "weight": 165,
@@ -354,7 +357,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "preEvolution": "seel form\u003dhoennian",
+      "preEvolution": "seel form=hoennian",
       "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -432,7 +435,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.hoenniandewgong.desc1"
+        "cobblemon.species.hoenniandewgong.desc"
       ],
       "height": 16,
       "weight": 1120,

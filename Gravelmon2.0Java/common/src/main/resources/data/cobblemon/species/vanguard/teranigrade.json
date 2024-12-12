@@ -116,7 +116,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.teranigrade.desc1"
+    "cobblemon.species.teranigrade.desc"
   ],
   "height": 14,
   "weight": 3980,
@@ -266,7 +266,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fire.desc1"
+        "cobblemon.species.fire.desc"
       ],
       "height": 14,
       "weight": 3980,
@@ -380,7 +380,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ice.desc1"
+        "cobblemon.species.ice.desc"
       ],
       "height": 14,
       "weight": 390,
@@ -497,7 +497,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fire.desc1"
+        "cobblemon.species.fire.desc"
       ],
       "height": 14,
       "weight": 390,

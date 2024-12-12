@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "dragune",
-  "baseScale": 1.1500000000000001,
+  "baseScale": 0.8625,
   "cannotDynamax": false,
   "abilities": [
     "intimidate"
@@ -96,7 +96,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.nostratos.desc1"
+    "cobblemon.species.nostratos.desc"
   ],
   "height": 69,
   "weight": 1955,

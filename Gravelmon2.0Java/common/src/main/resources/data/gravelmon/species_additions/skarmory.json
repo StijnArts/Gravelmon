@@ -17,7 +17,14 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "gravelmon:silver_scale",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "preEvolution": "arbird",
   "forms": [
@@ -31,7 +38,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.31666666666666665,
+      "baseScale": 0.059375,
       "cannotDynamax": false,
       "abilities": [
         "innerfocus"
@@ -67,7 +74,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.trizoranskarmory.desc1"
+        "cobblemon.species.trizoranskarmory.desc"
       ],
       "height": 19,
       "weight": 0,
@@ -130,7 +137,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.31666666666666665,
+      "baseScale": 0.059375,
       "cannotDynamax": false,
       "abilities": [
         "levitate"
@@ -166,7 +173,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanskarmory.desc1"
+        "cobblemon.species.formanskarmory.desc"
       ],
       "height": 19,
       "weight": 0,
@@ -335,7 +342,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochskarmory.desc1"
+        "cobblemon.species.epochskarmory.desc"
       ],
       "height": 17,
       "weight": 505,
@@ -452,7 +459,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.hoennianskarmory.desc1"
+        "cobblemon.species.hoennianskarmory.desc"
       ],
       "height": 18,
       "weight": 519,

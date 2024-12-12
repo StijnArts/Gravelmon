@@ -10,6 +10,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "azurill form=epoch",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -123,10 +124,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochmarill.desc1"
+        "cobblemon.species.epochmarill.desc"
       ],
       "height": 4,
       "weight": 85,
@@ -135,9 +138,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmarill_epoch_azumarill",
+          "id": "epochmarill_azumarill_epoch",
           "variant": "level_up",
-          "result": "epoch azumarill",
+          "result": "azumarill epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -189,8 +192,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 26,
       "baseFriendship": 70,
-      "preEvolution": "azurill form\u003degho",
-      "baseScale": 0.11666666666666665,
+      "preEvolution": "azurill form=egho",
+      "baseScale": 0.0875,
       "cannotDynamax": false,
       "abilities": [
         "hugepower",
@@ -217,7 +220,14 @@
         "fairy"
       ],
       "drops": {
-        "amount": 4
+        "amount": 4,
+        "entries": [
+          {
+            "item": "minecraft:sand",
+            "quantityRange": "1-2",
+            "percentage": 50
+          }
+        ]
       },
       "moves": [
         "1:karatechop",
@@ -288,7 +298,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.eghomarill.desc1"
+        "cobblemon.species.eghomarill.desc"
       ],
       "height": 7,
       "weight": 150,
@@ -455,7 +465,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.kaskadianmarill.desc1"
+        "cobblemon.species.kaskadianmarill.desc"
       ],
       "height": 7,
       "weight": 150,

@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 26,
   "baseFriendship": 40,
-  "baseScale": 3.0,
+  "baseScale": 2.25,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -70,7 +70,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.dragalisk.desc1"
+    "cobblemon.species.dragalisk.desc"
   ],
   "height": 180,
   "weight": 6660,

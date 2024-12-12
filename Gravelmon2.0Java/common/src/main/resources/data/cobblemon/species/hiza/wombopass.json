@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "nosepass form\u003dhizian",
+  "preEvolution": "nosepass form=hizian",
   "baseScale": 0.2333333333333333,
   "cannotDynamax": false,
   "abilities": [
@@ -99,7 +99,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.wombopass.desc1"
+    "cobblemon.species.wombopass.desc"
   ],
   "height": 14,
   "weight": 165,

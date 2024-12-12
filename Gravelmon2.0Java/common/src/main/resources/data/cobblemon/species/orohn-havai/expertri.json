@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "ekoraft",
-  "baseScale": 0.25,
+  "baseScale": 12.0,
   "cannotDynamax": false,
   "abilities": [
     "overgrow",
@@ -65,7 +65,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.expertri.desc1"
+    "cobblemon.species.expertri.desc"
   ],
   "height": 15,
   "weight": 165,

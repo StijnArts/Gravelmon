@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "fletchling form=epoch",
       "baseScale": 0.11666666666666665,
       "cannotDynamax": false,
       "abilities": [
@@ -98,10 +99,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochfletchinder.desc1"
+        "cobblemon.species.epochfletchinder.desc"
       ],
       "height": 7,
       "weight": 160,
@@ -110,9 +113,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochfletchinder_epoch_talonflame",
+          "id": "epochfletchinder_talonflame_epoch",
           "variant": "level_up",
-          "result": "epoch talonflame",
+          "result": "talonflame epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -164,7 +167,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "fletchling form\u003dayreian",
+      "preEvolution": "fletchling form=ayreian",
       "baseScale": 0.11666666666666665,
       "cannotDynamax": false,
       "abilities": [
@@ -258,7 +261,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianfletchinder.desc1"
+        "cobblemon.species.ayreianfletchinder.desc"
       ],
       "height": 7,
       "weight": 160,

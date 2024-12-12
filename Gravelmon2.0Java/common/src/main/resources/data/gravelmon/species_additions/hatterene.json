@@ -11,6 +11,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "hattrem form=epoch",
       "baseScale": 0.35000000000000003,
       "cannotDynamax": false,
       "abilities": [
@@ -98,10 +99,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochhatterene.desc1"
+        "cobblemon.species.epochhatterene.desc"
       ],
       "height": 21,
       "weight": 51,
@@ -183,7 +186,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.lagoonanhatterene.desc1"
+        "cobblemon.species.lagoonanhatterene.desc"
       ],
       "height": 21,
       "weight": 278,
@@ -231,7 +234,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "hattrem form\u003dnovran",
+      "preEvolution": "hattrem form=novran",
       "baseScale": 0.35000000000000003,
       "cannotDynamax": false,
       "abilities": [
@@ -342,7 +345,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.novranhatterene.desc1"
+        "cobblemon.species.novranhatterene.desc"
       ],
       "height": 21,
       "weight": 165,
@@ -481,7 +484,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianhatterene.desc1"
+        "cobblemon.species.ayreianhatterene.desc"
       ],
       "height": 28,
       "weight": 855,

@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "levitate"
@@ -40,7 +40,7 @@
     "trizor"
   ],
   "pokedex": [
-    "cobblemon.species.alyops.desc1"
+    "cobblemon.species.alyops.desc"
   ],
   "height": 6,
   "weight": 0,

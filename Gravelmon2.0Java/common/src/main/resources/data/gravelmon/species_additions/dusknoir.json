@@ -11,6 +11,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "dusclops form=epoch",
       "baseScale": 0.3666666666666667,
       "cannotDynamax": false,
       "abilities": [
@@ -108,10 +109,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochdusknoir.desc1"
+        "cobblemon.species.epochdusknoir.desc"
       ],
       "height": 22,
       "weight": 1066,
@@ -159,7 +162,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "dusclops form\u003davalossian",
+      "preEvolution": "dusclops form=avalossian",
       "baseScale": 0.3666666666666667,
       "cannotDynamax": false,
       "abilities": [
@@ -212,7 +215,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.avalossiandusknoir.desc1"
+        "cobblemon.species.avalossiandusknoir.desc"
       ],
       "height": 22,
       "weight": 1066,

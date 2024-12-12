@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "seijitsu",
-  "baseScale": 0.16666666666666666,
+  "baseScale": 0.03125,
   "cannotDynamax": false,
   "abilities": [
     "guts",
@@ -107,7 +107,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.kousetsu.desc1"
+    "cobblemon.species.kousetsu.desc"
   ],
   "height": 10,
   "weight": 330,

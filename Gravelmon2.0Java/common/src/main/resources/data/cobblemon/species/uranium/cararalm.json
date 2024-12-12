@@ -37,7 +37,14 @@
     "grass"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:coconut_milk",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "moves": [
     "1:tackle",
@@ -125,7 +132,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.cararalm.desc1"
+    "cobblemon.species.cararalm.desc"
   ],
   "height": 14,
   "weight": 606,

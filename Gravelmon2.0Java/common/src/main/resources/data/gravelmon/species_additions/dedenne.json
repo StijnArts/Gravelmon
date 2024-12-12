@@ -107,7 +107,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochdedenne.desc1"
+        "cobblemon.species.epochdedenne.desc"
       ],
       "height": 2,
       "weight": 22,
@@ -210,7 +210,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.vesitandedenne.desc1"
+        "cobblemon.species.vesitandedenne.desc"
       ],
       "height": 2,
       "weight": 22,

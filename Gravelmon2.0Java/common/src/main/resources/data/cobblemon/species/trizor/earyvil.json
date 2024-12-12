@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "orbavil",
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.0375,
   "cannotDynamax": false,
   "abilities": [
     "intimidate"
@@ -47,7 +47,7 @@
     "trizor"
   ],
   "pokedex": [
-    "cobblemon.species.earyvil.desc1"
+    "cobblemon.species.earyvil.desc"
   ],
   "height": 12,
   "weight": 0,

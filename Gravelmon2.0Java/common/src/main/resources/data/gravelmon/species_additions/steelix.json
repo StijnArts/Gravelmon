@@ -11,8 +11,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "onix form\u003dforman",
-      "baseScale": 0.85,
+      "preEvolution": "onix form=forman",
+      "baseScale": 0.159375,
       "cannotDynamax": false,
       "abilities": [
         "flamebody"
@@ -50,7 +50,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formansteelix.desc1"
+        "cobblemon.species.formansteelix.desc"
       ],
       "height": 51,
       "weight": 0,
@@ -98,6 +98,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "onix form=epoch",
       "baseScale": 1.5333333333333332,
       "cannotDynamax": false,
       "abilities": [
@@ -205,10 +206,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochsteelix.desc1"
+        "cobblemon.species.epochsteelix.desc"
       ],
       "height": 92,
       "weight": 4000,

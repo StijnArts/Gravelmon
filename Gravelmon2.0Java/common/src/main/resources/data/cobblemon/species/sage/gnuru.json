@@ -8,7 +8,7 @@
   "eggCycles": 51,
   "baseFriendship": 70,
   "preEvolution": "psybex",
-  "baseScale": 0.26666666666666666,
+  "baseScale": 0.05,
   "cannotDynamax": false,
   "abilities": [
     "innerfocus",
@@ -35,7 +35,14 @@
     "field"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
   },
   "moves": [
     "1:bulldoze",
@@ -134,7 +141,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.gnuru.desc1"
+    "cobblemon.species.gnuru.desc"
   ],
   "height": 16,
   "weight": 1325,

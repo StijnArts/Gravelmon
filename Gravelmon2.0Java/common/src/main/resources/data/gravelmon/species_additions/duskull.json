@@ -120,7 +120,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochduskull.desc1"
+        "cobblemon.species.epochduskull.desc"
       ],
       "height": 8,
       "weight": 150,
@@ -129,9 +129,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochduskull_epoch_dusclops",
+          "id": "epochduskull_dusclops_epoch",
           "variant": "level_up",
-          "result": "epoch dusclops",
+          "result": "dusclops epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -234,7 +234,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.avalossianduskull.desc1"
+        "cobblemon.species.avalossianduskull.desc"
       ],
       "height": 8,
       "weight": 332,

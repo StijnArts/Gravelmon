@@ -11,8 +11,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "loudred form\u003draianian",
-      "baseScale": 0.2833333333333333,
+      "preEvolution": "loudred form=raianian",
+      "baseScale": 0.053125,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -48,7 +48,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.raianianexploud.desc1"
+        "cobblemon.species.raianianexploud.desc"
       ],
       "height": 17,
       "weight": 0,
@@ -96,6 +96,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "loudred form=epoch",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -203,10 +204,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochexploud.desc1"
+        "cobblemon.species.epochexploud.desc"
       ],
       "height": 15,
       "weight": 840,
@@ -356,7 +359,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.kaskadianexploud.desc1"
+        "cobblemon.species.kaskadianexploud.desc"
       ],
       "height": 15,
       "weight": 840,

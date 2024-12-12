@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "cupricorn",
-  "baseScale": 0.18333333333333335,
+  "baseScale": 0.1375,
   "cannotDynamax": false,
   "abilities": [
     "sturdy",
@@ -98,7 +98,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.hornikel.desc1"
+    "cobblemon.species.hornikel.desc"
   ],
   "height": 11,
   "weight": 257,

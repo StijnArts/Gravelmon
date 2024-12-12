@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "dunsparce form\u003dforman",
-  "baseScale": 0.5666666666666667,
+  "preEvolution": "dunsparce form=forman",
+  "baseScale": 0.10625,
   "cannotDynamax": false,
   "abilities": [
     "waterabsorb"
@@ -47,7 +47,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.dunrada.desc1"
+    "cobblemon.species.dunrada.desc"
   ],
   "height": 34,
   "weight": 0,

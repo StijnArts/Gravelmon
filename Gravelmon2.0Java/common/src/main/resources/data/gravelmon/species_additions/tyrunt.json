@@ -134,7 +134,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochtyrunt.desc1"
+        "cobblemon.species.epochtyrunt.desc"
       ],
       "height": 8,
       "weight": 260,
@@ -143,9 +143,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochtyrunt_epoch_tyrantrum",
+          "id": "epochtyrunt_tyrantrum_epoch",
           "variant": "level_up",
-          "result": "epoch tyrantrum",
+          "result": "tyrantrum epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "ruffski",
-  "baseScale": 0.18333333333333335,
+  "baseScale": 8.8,
   "cannotDynamax": false,
   "abilities": [
     "snowcloak",
@@ -60,7 +60,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.arblizen.desc1"
+    "cobblemon.species.arblizen.desc"
   ],
   "height": 11,
   "weight": 165,

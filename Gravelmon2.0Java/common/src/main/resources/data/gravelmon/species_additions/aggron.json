@@ -11,6 +11,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "lairon form=epoch",
       "baseScale": 0.35000000000000003,
       "cannotDynamax": false,
       "abilities": [
@@ -115,10 +116,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochaggron.desc1"
+        "cobblemon.species.epochaggron.desc"
       ],
       "height": 21,
       "weight": 3600,
@@ -166,7 +169,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "lairon form\u003dhizian",
+      "preEvolution": "lairon form=hizian",
       "baseScale": 0.3833333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -275,7 +278,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.hizianaggron.desc1"
+        "cobblemon.species.hizianaggron.desc"
       ],
       "height": 23,
       "weight": 165,
@@ -323,8 +326,8 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "lairon form\u003ddelta",
-      "baseScale": 0.35000000000000003,
+      "preEvolution": "lairon form=delta",
+      "baseScale": 0.2625,
       "cannotDynamax": false,
       "abilities": [
         "flamebody",
@@ -466,7 +469,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltaaggron.desc1"
+        "cobblemon.species.deltaaggron.desc"
       ],
       "height": 21,
       "weight": 3600,
@@ -514,7 +517,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "lairon form\u003dayreian",
+      "preEvolution": "lairon form=ayreian",
       "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
@@ -663,7 +666,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianaggron.desc1"
+        "cobblemon.species.ayreianaggron.desc"
       ],
       "height": 9,
       "weight": 1200,

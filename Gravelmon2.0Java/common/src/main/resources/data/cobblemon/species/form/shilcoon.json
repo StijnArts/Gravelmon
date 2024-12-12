@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "weedle form\u003dforman",
-  "baseScale": 0.11666666666666665,
+  "preEvolution": "weedle form=forman",
+  "baseScale": 0.021875,
   "cannotDynamax": false,
   "abilities": [
     "sturdy"
@@ -45,7 +45,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.shilcoon.desc1"
+    "cobblemon.species.shilcoon.desc"
   ],
   "height": 7,
   "weight": 0,

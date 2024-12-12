@@ -24,4 +24,10 @@ public class Vector3 {
         coordsArray.add(z);
         return coordsArray;
     }
+
+    public void divide(double factor) {
+        this.x /= factor;
+        this.y /= factor;
+        this.z /= factor;
+    }
 }

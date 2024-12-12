@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.065625,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -44,7 +44,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.sossnit.desc1"
+    "cobblemon.species.sossnit.desc"
   ],
   "height": 21,
   "weight": 0,

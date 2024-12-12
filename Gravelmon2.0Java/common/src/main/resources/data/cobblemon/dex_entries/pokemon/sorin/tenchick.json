@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tenchick",
+  "speciesId": "cobblemon:tenchick",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

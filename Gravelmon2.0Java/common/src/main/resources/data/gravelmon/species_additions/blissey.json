@@ -11,6 +11,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "chansey form=epoch",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -120,10 +121,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochblissey.desc1"
+        "cobblemon.species.epochblissey.desc"
       ],
       "height": 15,
       "weight": 468,
@@ -171,7 +174,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "chansey form\u003davalossian",
+      "preEvolution": "chansey form=avalossian",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -332,7 +335,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.avalossianblissey.desc1"
+        "cobblemon.species.avalossianblissey.desc"
       ],
       "height": 15,
       "weight": 468,
@@ -380,8 +383,8 @@
       "experienceGroup": "fast",
       "eggCycles": 100,
       "baseFriendship": 70,
-      "preEvolution": "chansey form\u003degho",
-      "baseScale": 0.25,
+      "preEvolution": "chansey form=egho",
+      "baseScale": 0.1875,
       "cannotDynamax": false,
       "abilities": [
         "angerpoint",
@@ -408,7 +411,14 @@
         "fairy"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "cobblemon:oval_stone",
+            "quantityRange": "1-1",
+            "percentage": 20
+          }
+        ]
       },
       "moves": [
         "1:crosschop",
@@ -504,7 +514,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.eghoblissey.desc1"
+        "cobblemon.species.eghoblissey.desc"
       ],
       "height": 15,
       "weight": 468,

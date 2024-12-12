@@ -7,8 +7,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "rattata form\u003dforman",
-  "baseScale": 0.2333333333333333,
+  "preEvolution": "rattata form=forman",
+  "baseScale": 0.04375,
   "cannotDynamax": false,
   "abilities": [
     "unnerve"
@@ -43,7 +43,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.rattataff.desc1"
+    "cobblemon.species.rattataff.desc"
   ],
   "height": 14,
   "weight": 0,

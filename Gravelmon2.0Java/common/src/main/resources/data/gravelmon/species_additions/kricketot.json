@@ -111,7 +111,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochkricketot.desc1"
+        "cobblemon.species.epochkricketot.desc"
       ],
       "height": 3,
       "weight": 22,
@@ -120,9 +120,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochkricketot_epoch_kricketune",
+          "id": "epochkricketot_kricketune_epoch",
           "variant": "level_up",
-          "result": "epoch kricketune",
+          "result": "kricketune epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -210,7 +210,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.africanusankricketot.desc1"
+        "cobblemon.species.africanusankricketot.desc"
       ],
       "height": 3,
       "weight": 22,

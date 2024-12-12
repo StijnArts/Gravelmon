@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "electabuzz form=epoch",
       "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
@@ -106,10 +107,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochelectivire.desc1"
+        "cobblemon.species.epochelectivire.desc"
       ],
       "height": 18,
       "weight": 1386,
@@ -157,8 +160,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "electabuzz form\u003ddelta",
-      "baseScale": 0.18333333333333335,
+      "preEvolution": "electabuzz form=delta",
+      "baseScale": 0.1375,
       "cannotDynamax": false,
       "abilities": [
         "shadowdance",
@@ -320,7 +323,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltaelectivire.desc1"
+        "cobblemon.species.deltaelectivire.desc"
       ],
       "height": 11,
       "weight": 450,

@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 51,
   "baseFriendship": 70,
-  "preEvolution": "venonat form\u003dhoennian",
+  "preEvolution": "venonat form=hoennian",
   "baseScale": 0.11666666666666665,
   "cannotDynamax": false,
   "abilities": [
@@ -75,7 +75,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.muramoth.desc1"
+    "cobblemon.species.muramoth.desc"
   ],
   "height": 7,
   "weight": 379,

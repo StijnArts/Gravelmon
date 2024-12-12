@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabeliangurdurr.desc1"
+        "cobblemon.species.fabeliangurdurr.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -93,6 +93,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "timburr form=epoch",
       "baseScale": 0.19999999999999998,
       "cannotDynamax": false,
       "abilities": [
@@ -184,10 +185,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochgurdurr.desc1"
+        "cobblemon.species.epochgurdurr.desc"
       ],
       "height": 12,
       "weight": 400,
@@ -196,9 +199,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochgurdurr_epoch_conkeldurr",
+          "id": "epochgurdurr_conkeldurr_epoch",
           "variant": "item_interact",
-          "result": "epoch conkeldurr",
+          "result": "conkeldurr epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -345,7 +348,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochgurdurrone.desc1"
+        "cobblemon.species.epochgurdurrone.desc"
       ],
       "height": 12,
       "weight": 400,
@@ -511,7 +514,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiangurdurr.desc1"
+        "cobblemon.species.ayreiangurdurr.desc"
       ],
       "height": 12,
       "weight": 400,
@@ -574,7 +577,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.19999999999999998,
+      "baseScale": 0.0375,
       "cannotDynamax": false,
       "abilities": [
         "guts",
@@ -658,7 +661,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.kaskadiangurdurr.desc1"
+        "cobblemon.species.kaskadiangurdurr.desc"
       ],
       "height": 12,
       "weight": 400,

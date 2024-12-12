@@ -27,8 +27,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "ledyba form\u003dforman",
-      "baseScale": 0.26666666666666666,
+      "preEvolution": "ledyba form=forman",
+      "baseScale": 0.05,
       "cannotDynamax": false,
       "abilities": [
         "sweetveil"
@@ -64,7 +64,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formanledian.desc1"
+        "cobblemon.species.formanledian.desc"
       ],
       "height": 16,
       "weight": 0,
@@ -127,6 +127,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "ledyba form=epoch",
       "baseScale": 0.2333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -219,10 +220,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochledian.desc1"
+        "cobblemon.species.epochledian.desc"
       ],
       "height": 14,
       "weight": 356,
@@ -327,7 +330,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.alteranledian.desc1"
+        "cobblemon.species.alteranledian.desc"
       ],
       "height": 13,
       "weight": 520,
@@ -375,7 +378,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "preEvolution": "ledyba form\u003drelic",
+      "preEvolution": "ledyba form=relic",
       "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -455,7 +458,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.relicledian.desc1"
+        "cobblemon.species.relicledian.desc"
       ],
       "height": 16,
       "weight": 300,

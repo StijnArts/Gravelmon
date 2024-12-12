@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "fazight",
-  "baseScale": 0.4166666666666667,
+  "baseScale": 0.078125,
   "cannotDynamax": false,
   "abilities": [
     "guts",
@@ -48,7 +48,7 @@
     "palmia"
   ],
   "pokedex": [
-    "cobblemon.species.mudarek.desc1"
+    "cobblemon.species.mudarek.desc"
   ],
   "height": 25,
   "weight": 0,

@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -47,7 +47,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianchandelure.desc1"
+        "cobblemon.species.fabelianchandelure.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -95,6 +95,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "lampent form=epoch",
       "baseScale": 0.16666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -181,10 +182,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochchandelure.desc1"
+        "cobblemon.species.epochchandelure.desc"
       ],
       "height": 10,
       "weight": 343,
@@ -266,7 +269,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.lagoonanchandelure.desc1"
+        "cobblemon.species.lagoonanchandelure.desc"
       ],
       "height": 10,
       "weight": 343,
@@ -314,8 +317,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "lampent form\u003ddelta",
-      "baseScale": 0.16666666666666666,
+      "preEvolution": "lampent form=delta",
+      "baseScale": 0.125,
       "cannotDynamax": false,
       "abilities": [
         "flashfire",
@@ -423,7 +426,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltachandelure.desc1"
+        "cobblemon.species.deltachandelure.desc"
       ],
       "height": 10,
       "weight": 343,

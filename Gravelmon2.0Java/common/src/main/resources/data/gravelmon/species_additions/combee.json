@@ -14,7 +14,7 @@
         },
         {
           "variant": "properties",
-          "target": "gender\u003dmale",
+          "target": "gender=male",
           "contains": true
         }
       ],
@@ -32,7 +32,14 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:dawn_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "forms": [
     {
@@ -92,7 +99,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.qamorancombee.desc1"
+        "cobblemon.species.qamorancombee.desc"
       ],
       "height": 3,
       "weight": 165,
@@ -155,7 +162,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "levitate",
@@ -198,7 +205,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltacombee.desc1"
+        "cobblemon.species.deltacombee.desc"
       ],
       "height": 3,
       "weight": 110,
@@ -215,7 +222,7 @@
           "requirements": [
             {
               "variant": "properties",
-              "target": "gender\u003dfemale",
+              "target": "gender=female",
               "contains": true
             },
             {

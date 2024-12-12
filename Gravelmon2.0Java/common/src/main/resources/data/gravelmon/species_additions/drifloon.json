@@ -118,7 +118,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochdrifloon.desc1"
+        "cobblemon.species.epochdrifloon.desc"
       ],
       "height": 4,
       "weight": 12,
@@ -127,9 +127,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochdrifloon_epoch_drifblim",
+          "id": "epochdrifloon_drifblim_epoch",
           "variant": "level_up",
-          "result": "epoch drifblim",
+          "result": "drifblim epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -182,7 +182,7 @@
       "experienceGroup": "fluctuating",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "flashfire",
@@ -299,7 +299,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltadrifloon.desc1"
+        "cobblemon.species.deltadrifloon.desc"
       ],
       "height": 4,
       "weight": 12,
@@ -475,7 +475,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiandrifloon.desc1"
+        "cobblemon.species.ayreiandrifloon.desc"
       ],
       "height": 4,
       "weight": 12,

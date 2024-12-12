@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 48,
   "baseFriendship": 70,
-  "baseScale": 0.2333333333333333,
+  "baseScale": 0.175,
   "cannotDynamax": false,
   "abilities": [
     "icebody",
@@ -98,7 +98,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.iceros.desc1"
+    "cobblemon.species.iceros.desc"
   ],
   "height": 14,
   "weight": 730,

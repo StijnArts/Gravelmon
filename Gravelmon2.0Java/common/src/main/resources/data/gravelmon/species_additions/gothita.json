@@ -118,7 +118,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochgothita.desc1"
+        "cobblemon.species.epochgothita.desc"
       ],
       "height": 4,
       "weight": 58,
@@ -127,9 +127,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochgothita_epoch_gothorita",
+          "id": "epochgothita_gothorita_epoch",
           "variant": "level_up",
-          "result": "epoch gothorita",
+          "result": "gothorita epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -292,7 +292,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochgothitaone.desc1"
+        "cobblemon.species.epochgothitaone.desc"
       ],
       "height": 4,
       "weight": 58,
@@ -411,7 +411,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.africanusangothita.desc1"
+        "cobblemon.species.africanusangothita.desc"
       ],
       "height": 4,
       "weight": 58,

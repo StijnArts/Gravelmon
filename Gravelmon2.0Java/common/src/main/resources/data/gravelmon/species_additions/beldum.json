@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianbeldum.desc1"
+        "cobblemon.species.fabelianbeldum.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -204,7 +204,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochbeldum.desc1"
+        "cobblemon.species.epochbeldum.desc"
       ],
       "height": 6,
       "weight": 952,
@@ -213,9 +213,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochbeldum_epoch_metang",
+          "id": "epochbeldum_metang_epoch",
           "variant": "level_up",
-          "result": "epoch metang",
+          "result": "metang epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -267,7 +267,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "poisontouch",
@@ -311,7 +311,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltaspiderbeldum.desc1"
+        "cobblemon.species.deltaspiderbeldum.desc"
       ],
       "height": 6,
       "weight": 476,
@@ -410,7 +410,7 @@
         "insurgence"
       ],
       "pokedex": [
-        "cobblemon.species.deltaruinbeldum.desc1"
+        "cobblemon.species.deltaruinbeldum.desc"
       ],
       "height": 6,
       "weight": 952,

@@ -120,7 +120,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochchespin.desc1"
+        "cobblemon.species.epochchespin.desc"
       ],
       "height": 4,
       "weight": 90,
@@ -129,9 +129,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochchespin_epoch_quilladin",
+          "id": "epochchespin_quilladin_epoch",
           "variant": "level_up",
-          "result": "epoch quilladin",
+          "result": "quilladin epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -238,7 +238,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.vesitanchespin.desc1"
+        "cobblemon.species.vesitanchespin.desc"
       ],
       "height": 4,
       "weight": 90,

@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "roselia form=epoch",
       "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
@@ -92,10 +93,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochroserade.desc1"
+        "cobblemon.species.epochroserade.desc"
       ],
       "height": 9,
       "weight": 145,
@@ -241,7 +244,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochroseradeone.desc1"
+        "cobblemon.species.epochroseradeone.desc"
       ],
       "height": 9,
       "weight": 145,
@@ -289,8 +292,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "roselia form\u003ddelta",
-      "baseScale": 0.15,
+      "preEvolution": "roselia form=delta",
+      "baseScale": 0.11249999999999999,
       "cannotDynamax": false,
       "abilities": [
         "shadowdance",
@@ -433,7 +436,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltaroserade.desc1"
+        "cobblemon.species.deltaroserade.desc"
       ],
       "height": 9,
       "weight": 145,
@@ -481,8 +484,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 26,
       "baseFriendship": 70,
-      "preEvolution": "roselia form\u003dx",
-      "baseScale": 0.15,
+      "preEvolution": "roselia form=x",
+      "baseScale": 0.11249999999999999,
       "cannotDynamax": false,
       "abilities": [
         "serenegrace",
@@ -508,7 +511,19 @@
         "undiscovered"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:xenolith",
+            "quantityRange": "1-1",
+            "percentage": 50
+          },
+          {
+            "item": "gravelmon:xenolith",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
       },
       "moves": [
         "1:twineedle",
@@ -563,7 +578,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.roseradex.desc1"
+        "cobblemon.species.roseradex.desc"
       ],
       "height": 9,
       "weight": 145,
@@ -611,7 +626,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "roselia form\u003dayreian",
+      "preEvolution": "roselia form=ayreian",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -722,7 +737,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianroserade.desc1"
+        "cobblemon.species.ayreianroserade.desc"
       ],
       "height": 3,
       "weight": 20,
@@ -770,7 +785,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "preEvolution": "roselia form\u003drelic",
+      "preEvolution": "roselia form=relic",
       "baseScale": 0.21666666666666667,
       "cannotDynamax": false,
       "abilities": [
@@ -879,7 +894,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.relicroserade.desc1"
+        "cobblemon.species.relicroserade.desc"
       ],
       "height": 13,
       "weight": 187,

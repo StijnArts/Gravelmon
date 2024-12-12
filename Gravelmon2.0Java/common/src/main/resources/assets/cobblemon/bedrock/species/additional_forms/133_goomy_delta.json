@@ -1,21 +1,15 @@
 {
   "species": "cobblemon:goomy",
-  "order": 3,
+  "order": 133,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation6_deltagoomy",
+      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
+      "poser": "cobblemon:cutout_gravelmon_128_by_128",
       "texture": "cobblemon:textures/pokemon/generation6/deltagoomy.png",
       "layers": [
-        {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
         {
           "name": "emissive"
         },
@@ -23,39 +17,19 @@
           "name": "transparentEmissive"
         },
         {
-          "name": "flame"
+          "name": "tail"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "delta",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation6_deltagoomy",
-      "texture": "cobblemon:textures/pokemon/generation6/deltagoomy.png",
-      "layers": [
-        {
-          "name": "glow"
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
         },
         {
-          "name": "emissive"
-        },
-        {
-          "name": "transparentEmissive"
-        },
-        {
           "name": "flame"
         },
         {
-          "name": "tail"
+          "name": "glow"
         }
       ]
     }

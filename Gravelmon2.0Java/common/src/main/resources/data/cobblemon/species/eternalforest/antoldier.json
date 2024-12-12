@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "antager",
-  "baseScale": 0.2333333333333333,
+  "baseScale": 0.04375,
   "cannotDynamax": false,
   "abilities": [
     "defeatist",
@@ -122,7 +122,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.antoldier.desc1"
+    "cobblemon.species.antoldier.desc"
   ],
   "height": 14,
   "weight": 560,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "skittail",
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "rattled",
@@ -77,7 +77,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.timiphid.desc1"
+    "cobblemon.species.timiphid.desc"
   ],
   "height": 1,
   "weight": 5,

@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "spartzle",
-  "baseScale": 0.15,
+  "baseScale": 7.199999999999999,
   "cannotDynamax": false,
   "abilities": [
     "motordrive",
@@ -96,7 +96,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.eletize.desc1"
+    "cobblemon.species.eletize.desc"
   ],
   "height": 9,
   "weight": 165,

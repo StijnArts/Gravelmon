@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -47,7 +47,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mahalianhippowdon.desc1"
+        "cobblemon.species.mahalianhippowdon.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -95,6 +95,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "hippopotas form=epoch",
       "baseScale": 0.3333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -189,10 +190,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochhippowdon.desc1"
+        "cobblemon.species.epochhippowdon.desc"
       ],
       "height": 20,
       "weight": 3000,
@@ -241,7 +244,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "hippopotas form\u003darmiran",
+      "preEvolution": "hippopotas form=armiran",
       "baseScale": 0.3333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -344,7 +347,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.armiranhippowdon.desc1"
+        "cobblemon.species.armiranhippowdon.desc"
       ],
       "height": 20,
       "weight": 3000,

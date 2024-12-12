@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.2833333333333333,
+  "baseScale": 0.053125,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -55,7 +55,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.drout.desc1"
+    "cobblemon.species.drout.desc"
   ],
   "height": 17,
   "weight": 1235,
@@ -106,7 +106,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "baseScale": 0.2833333333333333,
+      "baseScale": 0.053125,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"

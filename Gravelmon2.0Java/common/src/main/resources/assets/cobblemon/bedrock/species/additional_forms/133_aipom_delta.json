@@ -1,25 +1,69 @@
 {
   "species": "cobblemon:aipom",
-  "order": 11,
+  "order": 133,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:deltaaipom.geo",
+      "model": "cobblemon:generation2_deltaaipom.geo",
       "poser": "cobblemon:generation2_deltaaipom",
-      "texture": "cobblemon:textures/pokemon/generation2/deltaaipom.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation2/deltaaipom/deltaaipom.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     },
     {
       "aspects": [
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:deltaaipom.geo",
+      "model": "cobblemon:generation2_deltaaipom.geo",
       "poser": "cobblemon:generation2_deltaaipom",
-      "texture": "cobblemon:textures/pokemon/generation2/deltaaipom_shiny.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation2/deltaaipom/deltaaipom_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     }
   ]
 }

@@ -9,7 +9,7 @@
   "eggCycles": 51,
   "baseFriendship": 70,
   "preEvolution": "enigmite",
-  "baseScale": 0.18333333333333335,
+  "baseScale": 0.034375,
   "cannotDynamax": false,
   "abilities": [
     "compoundeyes",
@@ -36,7 +36,14 @@
     "bug"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:scratch",
@@ -103,7 +110,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.enigmantis.desc1"
+    "cobblemon.species.enigmantis.desc"
   ],
   "height": 11,
   "weight": 162,

@@ -7,7 +7,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.11666666666666665,
+  "baseScale": 0.0875,
   "cannotDynamax": false,
   "abilities": [
     "owntempo",
@@ -104,7 +104,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.ambilade.desc1"
+    "cobblemon.species.ambilade.desc"
   ],
   "height": 7,
   "weight": 125,

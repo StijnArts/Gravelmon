@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianariados.desc1"
+        "cobblemon.species.fabelianariados.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -93,8 +93,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "spinarak form\u003dforman",
-      "baseScale": 0.2833333333333333,
+      "preEvolution": "spinarak form=forman",
+      "baseScale": 0.053125,
       "cannotDynamax": false,
       "abilities": [
         "cursedbody"
@@ -130,7 +130,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formanariados.desc1"
+        "cobblemon.species.formanariados.desc"
       ],
       "height": 17,
       "weight": 0,
@@ -178,6 +178,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "spinarak form=epoch",
       "baseScale": 0.18333333333333335,
       "cannotDynamax": false,
       "abilities": [
@@ -264,10 +265,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochariados.desc1"
+        "cobblemon.species.epochariados.desc"
       ],
       "height": 11,
       "weight": 335,
@@ -315,7 +318,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 39,
       "baseFriendship": 70,
-      "preEvolution": "spinarak form\u003dayreian",
+      "preEvolution": "spinarak form=ayreian",
       "baseScale": 0.18333333333333335,
       "cannotDynamax": false,
       "abilities": [
@@ -428,7 +431,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianariados.desc1"
+        "cobblemon.species.ayreianariados.desc"
       ],
       "height": 11,
       "weight": 335,

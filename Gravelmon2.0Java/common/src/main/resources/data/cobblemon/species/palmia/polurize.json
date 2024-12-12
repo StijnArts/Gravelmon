@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.3833333333333333,
+  "baseScale": 0.071875,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -32,7 +32,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:end_crystal",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:acid",
@@ -43,7 +50,7 @@
     "palmia"
   ],
   "pokedex": [
-    "cobblemon.species.polurize.desc1"
+    "cobblemon.species.polurize.desc"
   ],
   "height": 23,
   "weight": 0,

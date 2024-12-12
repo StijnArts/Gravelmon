@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "maneko",
-  "baseScale": 0.15,
+  "baseScale": 0.11249999999999999,
   "cannotDynamax": false,
   "abilities": [
     "pickup",
@@ -112,7 +112,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.bakeko.desc1"
+    "cobblemon.species.bakeko.desc"
   ],
   "height": 9,
   "weight": 333,

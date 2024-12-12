@@ -9,7 +9,7 @@
   "eggCycles": 32,
   "baseFriendship": 70,
   "preEvolution": "punchbug",
-  "baseScale": 0.3,
+  "baseScale": 0.22499999999999998,
   "cannotDynamax": false,
   "abilities": [
     "swarm",
@@ -105,7 +105,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.hercurcules.desc1"
+    "cobblemon.species.hercurcules.desc"
   ],
   "height": 18,
   "weight": 3280,

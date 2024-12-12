@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "tranquill form=epoch",
       "baseScale": 0.19999999999999998,
       "cannotDynamax": false,
       "abilities": [
@@ -104,10 +105,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochunfezant.desc1"
+        "cobblemon.species.epochunfezant.desc"
       ],
       "height": 12,
       "weight": 290,
@@ -245,7 +248,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianunfezant.desc1"
+        "cobblemon.species.ayreianunfezant.desc"
       ],
       "height": 14,
       "weight": 590,

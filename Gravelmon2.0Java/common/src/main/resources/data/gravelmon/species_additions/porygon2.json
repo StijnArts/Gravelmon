@@ -63,7 +63,24 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "gravelmon:quantum_upgrade",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:wes_update",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:amaze_drive",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "forms": [
     {
@@ -189,7 +206,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochporygon2.desc1"
+        "cobblemon.species.epochporygon2.desc"
       ],
       "height": 6,
       "weight": 325,
@@ -198,9 +215,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochporygon2_epoch_porygonz",
+          "id": "epochporygon2_porygonz_epoch",
           "variant": "item_interact",
-          "result": "epoch porygonz",
+          "result": "porygonz epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -248,7 +265,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "porygon form\u003dvaritasian",
+      "preEvolution": "porygon form=varitasian",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -374,7 +391,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.varitasianporygon2.desc1"
+        "cobblemon.species.varitasianporygon2.desc"
       ],
       "height": 6,
       "weight": 165,

@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ferranianmachop.desc1"
+        "cobblemon.species.ferranianmachop.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -93,7 +93,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.028124999999999997,
       "cannotDynamax": false,
       "abilities": [
         "guts"
@@ -127,7 +127,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanmachop.desc1"
+        "cobblemon.species.formanmachop.desc"
       ],
       "height": 9,
       "weight": 0,
@@ -298,7 +298,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochmachop.desc1"
+        "cobblemon.species.epochmachop.desc"
       ],
       "height": 8,
       "weight": 195,
@@ -307,9 +307,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmachop_epoch_machoke",
+          "id": "epochmachop_machoke_epoch",
           "variant": "level_up",
-          "result": "epoch machoke",
+          "result": "machoke epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -462,7 +462,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochmachopone.desc1"
+        "cobblemon.species.epochmachopone.desc"
       ],
       "height": 8,
       "weight": 195,
@@ -584,7 +584,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.africanusanmachop.desc1"
+        "cobblemon.species.africanusanmachop.desc"
       ],
       "height": 8,
       "weight": 195,

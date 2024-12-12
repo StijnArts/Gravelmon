@@ -34,7 +34,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:thunder_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:megadrain",
@@ -60,7 +67,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.surgeskit.desc1"
+    "cobblemon.species.surgeskit.desc"
   ],
   "height": 12,
   "weight": 165,

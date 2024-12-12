@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "zorua form=epoch",
       "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -100,10 +101,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochzoroark.desc1"
+        "cobblemon.species.epochzoroark.desc"
       ],
       "height": 16,
       "weight": 811,
@@ -150,7 +153,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "zorua form\u003dmythian",
+      "preEvolution": "zorua form=mythian",
       "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -214,7 +217,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.mythianzoroark.desc1"
+        "cobblemon.species.mythianzoroark.desc"
       ],
       "height": 16,
       "weight": 811,

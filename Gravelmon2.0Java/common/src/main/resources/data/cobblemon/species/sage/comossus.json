@@ -9,7 +9,7 @@
   "eggCycles": 76,
   "baseFriendship": 70,
   "preEvolution": "grolem",
-  "baseScale": 0.7333333333333334,
+  "baseScale": 0.1375,
   "cannotDynamax": false,
   "abilities": [
     "sheerforce",
@@ -36,7 +36,14 @@
     "grass"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:mossy_cobblestone",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:flashcannon",
@@ -135,7 +142,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.comossus.desc1"
+    "cobblemon.species.comossus.desc"
   ],
   "height": 44,
   "weight": 4836,

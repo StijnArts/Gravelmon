@@ -7,8 +7,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "squirtle form\u003dforman",
-  "baseScale": 0.25,
+  "preEvolution": "squirtle form=forman",
+  "baseScale": 0.046875,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -44,7 +44,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.driltos.desc1"
+    "cobblemon.species.driltos.desc"
   ],
   "height": 15,
   "weight": 0,

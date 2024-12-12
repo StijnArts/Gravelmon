@@ -23,7 +23,19 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "gravelmon:aromatic_herb",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:reaper_cloth",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "forms": [
     {
@@ -36,7 +48,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -70,7 +82,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.aromianspritzee.desc1"
+        "cobblemon.species.aromianspritzee.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -118,7 +130,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -152,7 +164,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ivrisianspritzee.desc1"
+        "cobblemon.species.ivrisianspritzee.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -303,7 +315,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochspritzee.desc1"
+        "cobblemon.species.epochspritzee.desc"
       ],
       "height": 2,
       "weight": 5,
@@ -312,9 +324,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochspritzee_epoch_aromatisse",
+          "id": "epochspritzee_aromatisse_epoch",
           "variant": "item_interact",
-          "result": "epoch aromatisse",
+          "result": "aromatisse epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -465,7 +477,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochspritzeeone.desc1"
+        "cobblemon.species.epochspritzeeone.desc"
       ],
       "height": 2,
       "weight": 5,
@@ -577,7 +589,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.vesitanspritzee.desc1"
+        "cobblemon.species.vesitanspritzee.desc"
       ],
       "height": 2,
       "weight": 5,

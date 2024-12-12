@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "babear",
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.0375,
   "cannotDynamax": false,
   "abilities": [
     "overgrow"
@@ -47,7 +47,7 @@
     "trizor"
   ],
   "pokedex": [
-    "cobblemon.species.roybear.desc1"
+    "cobblemon.species.roybear.desc"
   ],
   "height": 12,
   "weight": 0,

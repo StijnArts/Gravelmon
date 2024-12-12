@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 4.800000000000001,
   "cannotDynamax": false,
   "abilities": [
     "naturalcure",
@@ -102,7 +102,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.nursee.desc1"
+    "cobblemon.species.nursee.desc"
   ],
   "height": 3,
   "weight": 165,

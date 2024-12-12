@@ -97,7 +97,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochducklett.desc1"
+        "cobblemon.species.epochducklett.desc"
       ],
       "height": 5,
       "weight": 55,
@@ -106,9 +106,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochducklett_epoch_swanna",
+          "id": "epochducklett_swanna_epoch",
           "variant": "level_up",
-          "result": "epoch swanna",
+          "result": "swanna epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -283,7 +283,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianducklett.desc1"
+        "cobblemon.species.ayreianducklett.desc"
       ],
       "height": 5,
       "weight": 55,

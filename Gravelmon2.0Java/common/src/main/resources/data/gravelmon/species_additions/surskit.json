@@ -27,7 +27,14 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:thunder_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "forms": [
     {
@@ -138,7 +145,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochsurskit.desc1"
+        "cobblemon.species.epochsurskit.desc"
       ],
       "height": 5,
       "weight": 17,
@@ -147,9 +154,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochsurskit_epoch_masquerain",
+          "id": "epochsurskit_masquerain_epoch",
           "variant": "level_up",
-          "result": "epoch masquerain",
+          "result": "masquerain epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -301,7 +308,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochsurskitone.desc1"
+        "cobblemon.species.epochsurskitone.desc"
       ],
       "height": 5,
       "weight": 17,

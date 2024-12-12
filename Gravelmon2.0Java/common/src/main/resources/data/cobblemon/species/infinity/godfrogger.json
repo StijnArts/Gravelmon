@@ -9,7 +9,7 @@
   "eggCycles": 52,
   "baseFriendship": 70,
   "preEvolution": "brutoad",
-  "baseScale": 0.26666666666666666,
+  "baseScale": 0.2,
   "cannotDynamax": false,
   "abilities": [
     "bulletproof",
@@ -37,7 +37,14 @@
     "water_1"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:tackle",
@@ -155,7 +162,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.godfrogger.desc1"
+    "cobblemon.species.godfrogger.desc"
   ],
   "height": 16,
   "weight": 1870,

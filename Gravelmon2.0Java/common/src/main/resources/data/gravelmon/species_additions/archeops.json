@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "archen form=epoch",
       "baseScale": 0.2333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -125,10 +126,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epocharcheops.desc1"
+        "cobblemon.species.epocharcheops.desc"
       ],
       "height": 14,
       "weight": 320,
@@ -176,7 +179,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "archen form\u003dayreian",
+      "preEvolution": "archen form=ayreian",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -310,7 +313,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianarcheops.desc1"
+        "cobblemon.species.ayreianarcheops.desc"
       ],
       "height": 5,
       "weight": 95,

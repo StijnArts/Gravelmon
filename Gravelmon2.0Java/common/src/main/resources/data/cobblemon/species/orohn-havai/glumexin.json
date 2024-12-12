@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "glumence",
-  "baseScale": 0.11666666666666665,
+  "baseScale": 5.6,
   "cannotDynamax": false,
   "abilities": [
     "gooey",
@@ -60,7 +60,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.glumexin.desc1"
+    "cobblemon.species.glumexin.desc"
   ],
   "height": 7,
   "weight": 165,

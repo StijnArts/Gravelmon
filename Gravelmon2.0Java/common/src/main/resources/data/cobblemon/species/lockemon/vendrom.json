@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.25,
+  "baseScale": 0.046875,
   "cannotDynamax": false,
   "abilities": [
     "ancientbody"
@@ -59,7 +59,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.vendrom.desc1"
+    "cobblemon.species.vendrom.desc"
   ],
   "height": 15,
   "weight": 4300,

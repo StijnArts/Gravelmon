@@ -1,25 +1,69 @@
 {
   "species": "cobblemon:ralts",
-  "order": 11,
+  "order": 133,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:deltaralts.geo",
+      "model": "cobblemon:generation3_deltaralts.geo",
       "poser": "cobblemon:generation3_deltaralts",
-      "texture": "cobblemon:textures/pokemon/generation3/deltaralts.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation3/deltaralts/deltaralts.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     },
     {
       "aspects": [
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:deltaralts.geo",
+      "model": "cobblemon:generation3_deltaralts.geo",
       "poser": "cobblemon:generation3_deltaralts",
-      "texture": "cobblemon:textures/pokemon/generation3/deltaralts_shiny.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation3/deltaralts/deltaralts_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     }
   ]
 }

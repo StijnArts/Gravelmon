@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "venonat form=epoch",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -105,10 +106,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochvenomoth.desc1"
+        "cobblemon.species.epochvenomoth.desc"
       ],
       "height": 15,
       "weight": 125,
@@ -156,7 +159,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "venonat form\u003dhizian",
+      "preEvolution": "venonat form=hizian",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -239,7 +242,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.hizianvenomoth.desc1"
+        "cobblemon.species.hizianvenomoth.desc"
       ],
       "height": 15,
       "weight": 165,
@@ -340,7 +343,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.cefiranvenomoth.desc1"
+        "cobblemon.species.cefiranvenomoth.desc"
       ],
       "height": 15,
       "weight": 125,

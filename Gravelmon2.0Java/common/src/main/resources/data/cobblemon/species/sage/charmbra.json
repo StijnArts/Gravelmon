@@ -9,7 +9,7 @@
   "eggCycles": 38,
   "baseFriendship": 70,
   "preEvolution": "cobrasket",
-  "baseScale": 0.2833333333333333,
+  "baseScale": 0.053125,
   "cannotDynamax": false,
   "abilities": [
     "synchronize",
@@ -37,7 +37,14 @@
     "dragon"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:synchronoise",
@@ -135,7 +142,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.charmbra.desc1"
+    "cobblemon.species.charmbra.desc"
   ],
   "height": 17,
   "weight": 286,

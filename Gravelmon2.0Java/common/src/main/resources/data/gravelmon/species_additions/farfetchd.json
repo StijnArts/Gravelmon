@@ -51,7 +51,14 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:medicinal_leek",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "forms": [
     {
@@ -64,7 +71,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.18333333333333335,
+      "baseScale": 0.034375,
       "cannotDynamax": false,
       "abilities": [
         "sturdy"
@@ -100,7 +107,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanfarfetchd.desc1"
+        "cobblemon.species.formanfarfetchd.desc"
       ],
       "height": 11,
       "weight": 0,

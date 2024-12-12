@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "zapouch",
-  "baseScale": 0.3,
+  "baseScale": 0.056249999999999994,
   "cannotDynamax": false,
   "abilities": [
     "stormdrain",
@@ -117,7 +117,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.mannovolt.desc1"
+    "cobblemon.species.mannovolt.desc"
   ],
   "height": 18,
   "weight": 400,

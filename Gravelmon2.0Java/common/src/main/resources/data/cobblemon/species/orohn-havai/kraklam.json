@@ -7,7 +7,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 4.800000000000001,
   "cannotDynamax": false,
   "abilities": [
     "shellarmor",
@@ -58,7 +58,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.kraklam.desc1"
+    "cobblemon.species.kraklam.desc"
   ],
   "height": 5,
   "weight": 165,

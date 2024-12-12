@@ -35,7 +35,19 @@
     "field"
   ],
   "drops": {
-    "amount": 6
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:flint",
+        "quantityRange": "1-2",
+        "percentage": 20
+      },
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 80
+      }
+    ]
   },
   "moves": [
     "1:tackle",
@@ -132,7 +144,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.flairees.desc1"
+    "cobblemon.species.flairees.desc"
   ],
   "height": 15,
   "weight": 1823,

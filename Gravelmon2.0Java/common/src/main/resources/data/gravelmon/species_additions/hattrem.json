@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianhattrem.desc1"
+        "cobblemon.species.fabelianhattrem.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -93,6 +93,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "hatenna form=epoch",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -180,10 +181,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochhattrem.desc1"
+        "cobblemon.species.epochhattrem.desc"
       ],
       "height": 6,
       "weight": 48,
@@ -192,9 +195,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochhattrem_epoch_hatterene",
+          "id": "epochhattrem_hatterene_epoch",
           "variant": "level_up",
-          "result": "epoch hatterene",
+          "result": "hatterene epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -280,7 +283,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.lagoonanhattrem.desc1"
+        "cobblemon.species.lagoonanhattrem.desc"
       ],
       "height": 6,
       "weight": 48,
@@ -343,7 +346,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "hatenna form\u003dnovran",
+      "preEvolution": "hatenna form=novran",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -444,7 +447,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.novranhattrem.desc1"
+        "cobblemon.species.novranhattrem.desc"
       ],
       "height": 6,
       "weight": 165,
@@ -592,7 +595,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianhattrem.desc1"
+        "cobblemon.species.ayreianhattrem.desc"
       ],
       "height": 6,
       "weight": 48,

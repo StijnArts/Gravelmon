@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.15,
+  "baseScale": 0.028124999999999997,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -40,7 +40,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.moorlock.desc1"
+    "cobblemon.species.moorlock.desc"
   ],
   "height": 9,
   "weight": 0,

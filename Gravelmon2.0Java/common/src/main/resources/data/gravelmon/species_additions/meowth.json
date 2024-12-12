@@ -10,7 +10,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -43,7 +43,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.aromianmeowth.desc1"
+        "cobblemon.species.aromianmeowth.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -90,7 +90,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -123,7 +123,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianmeowth.desc1"
+        "cobblemon.species.fabelianmeowth.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -170,7 +170,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -203,7 +203,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mahalianmeowth.desc1"
+        "cobblemon.species.mahalianmeowth.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -250,7 +250,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -283,7 +283,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ferranianmeowth.desc1"
+        "cobblemon.species.ferranianmeowth.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -330,7 +330,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -363,7 +363,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ivrisianmeowth.desc1"
+        "cobblemon.species.ivrisianmeowth.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -411,7 +411,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "kittur",
-      "baseScale": 0.13333333333333333,
+      "baseScale": 0.025,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -447,7 +447,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formanmeowth.desc1"
+        "cobblemon.species.formanmeowth.desc"
       ],
       "height": 8,
       "weight": 0,
@@ -619,7 +619,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochmeowth.desc1"
+        "cobblemon.species.epochmeowth.desc"
       ],
       "height": 4,
       "weight": 42,
@@ -628,9 +628,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmeowth_epoch_persian",
+          "id": "epochmeowth_persian_epoch",
           "variant": "level_up",
-          "result": "epoch persian",
+          "result": "persian epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -681,7 +681,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "pickup",
@@ -783,7 +783,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.eldiwanmeowth.desc1"
+        "cobblemon.species.eldiwanmeowth.desc"
       ],
       "height": 4,
       "weight": 42,
@@ -912,7 +912,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.cefiranmeowthfire.desc1"
+        "cobblemon.species.cefiranmeowthfire.desc"
       ],
       "height": 4,
       "weight": 42,
@@ -1039,7 +1039,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.cefiranmeowthice.desc1"
+        "cobblemon.species.cefiranmeowthice.desc"
       ],
       "height": 4,
       "weight": 42,
@@ -1166,7 +1166,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.cefiranmeowthelectric.desc1"
+        "cobblemon.species.cefiranmeowthelectric.desc"
       ],
       "height": 4,
       "weight": 42,

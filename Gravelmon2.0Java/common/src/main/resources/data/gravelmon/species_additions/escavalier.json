@@ -10,8 +10,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "karrablast form\u003ddelta",
-      "baseScale": 0.16666666666666666,
+      "preEvolution": "karrablast form=delta",
+      "baseScale": 0.125,
       "cannotDynamax": false,
       "abilities": [
         "heatproof",
@@ -144,7 +144,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltaescavalier.desc1"
+        "cobblemon.species.deltaescavalier.desc"
       ],
       "height": 10,
       "weight": 330,

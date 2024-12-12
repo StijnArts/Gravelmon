@@ -13,7 +13,14 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:end_crystal",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "forms": [
     {
@@ -26,7 +33,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -60,7 +67,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.aromianklang.desc1"
+        "cobblemon.species.aromianklang.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -108,6 +115,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "klink form=epoch",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -203,10 +211,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochklang.desc1"
+        "cobblemon.species.epochklang.desc"
       ],
       "height": 6,
       "weight": 510,
@@ -215,9 +225,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochklang_epoch_klinklang",
+          "id": "epochklang_klinklang_epoch",
           "variant": "level_up",
-          "result": "epoch klinklang",
+          "result": "klinklang epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -269,7 +279,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "klink form\u003dvaritasian",
+      "preEvolution": "klink form=varitasian",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -355,7 +365,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.varitasianklang.desc1"
+        "cobblemon.species.varitasianklang.desc"
       ],
       "height": 6,
       "weight": 165,

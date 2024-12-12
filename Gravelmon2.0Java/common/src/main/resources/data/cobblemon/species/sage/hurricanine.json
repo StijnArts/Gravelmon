@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pawter",
-  "baseScale": 0.18333333333333335,
+  "baseScale": 0.034375,
   "cannotDynamax": false,
   "abilities": [
     "lightningrod",
@@ -37,7 +37,14 @@
     "water_1"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
   },
   "moves": [
     "1:thunderfang",
@@ -115,7 +122,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.hurricanine.desc1"
+    "cobblemon.species.hurricanine.desc"
   ],
   "height": 11,
   "weight": 499,

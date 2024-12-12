@@ -110,7 +110,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochdelcattyone.desc1"
+        "cobblemon.species.epochdelcattyone.desc"
       ],
       "height": 11,
       "weight": 326,
@@ -158,6 +158,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "skitty form=epoch",
       "baseScale": 0.18333333333333335,
       "cannotDynamax": false,
       "abilities": [
@@ -266,10 +267,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochdelcatty.desc1"
+        "cobblemon.species.epochdelcatty.desc"
       ],
       "height": 11,
       "weight": 326,
@@ -316,7 +319,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "skitty form\u003dhizian",
+      "preEvolution": "skitty form=hizian",
       "baseScale": 0.18333333333333335,
       "cannotDynamax": false,
       "abilities": [
@@ -398,7 +401,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.hiziandelcatty.desc1"
+        "cobblemon.species.hiziandelcatty.desc"
       ],
       "height": 11,
       "weight": 165,

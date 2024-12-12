@@ -11,8 +11,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "horsea form\u003dforman",
-      "baseScale": 0.18333333333333335,
+      "preEvolution": "horsea form=forman",
+      "baseScale": 0.034375,
       "cannotDynamax": false,
       "abilities": [
         "regenerator"
@@ -50,7 +50,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formanseadra.desc1"
+        "cobblemon.species.formanseadra.desc"
       ],
       "height": 11,
       "weight": 0,
@@ -109,6 +109,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "horsea form=epoch",
       "baseScale": 0.19999999999999998,
       "cannotDynamax": false,
       "abilities": [
@@ -204,10 +205,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochseadra.desc1"
+        "cobblemon.species.epochseadra.desc"
       ],
       "height": 12,
       "weight": 250,
@@ -216,9 +219,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochseadra_epoch_kingdra",
+          "id": "epochseadra_kingdra_epoch",
           "variant": "item_interact",
-          "result": "epoch kingdra",
+          "result": "kingdra epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -361,7 +364,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochseadraone.desc1"
+        "cobblemon.species.epochseadraone.desc"
       ],
       "height": 12,
       "weight": 250,
@@ -467,7 +470,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.norheimanseadra.desc1"
+        "cobblemon.species.norheimanseadra.desc"
       ],
       "height": 7,
       "weight": 165,
@@ -488,7 +491,7 @@
             },
             {
               "variant": "properties",
-              "target": "gender\u003dfemale",
+              "target": "gender=female",
               "contains": true
             }
           ],

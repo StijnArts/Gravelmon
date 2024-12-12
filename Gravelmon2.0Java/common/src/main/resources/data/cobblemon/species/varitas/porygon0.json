@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "porygon2 form\u003dvaritasian",
+  "preEvolution": "porygon2 form=varitasian",
   "baseScale": 0.15,
   "cannotDynamax": false,
   "abilities": [
@@ -136,7 +136,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.porygon0.desc1"
+    "cobblemon.species.porygon0.desc"
   ],
   "height": 9,
   "weight": 165,

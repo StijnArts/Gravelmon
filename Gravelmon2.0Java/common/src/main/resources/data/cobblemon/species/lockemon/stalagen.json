@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "skinka",
-  "baseScale": 0.2833333333333333,
+  "baseScale": 0.053125,
   "cannotDynamax": false,
   "abilities": [
     "sturdy",
@@ -48,7 +48,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.stalagen.desc1"
+    "cobblemon.species.stalagen.desc"
   ],
   "height": 17,
   "weight": 365,

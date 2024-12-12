@@ -109,7 +109,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochmorelull.desc1"
+        "cobblemon.species.epochmorelull.desc"
       ],
       "height": 2,
       "weight": 15,
@@ -118,9 +118,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmorelull_epoch_shiinotic",
+          "id": "epochmorelull_shiinotic_epoch",
           "variant": "item_interact",
-          "result": "epoch shiinotic",
+          "result": "shiinotic epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -217,7 +217,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.nostanmorelull.desc1"
+        "cobblemon.species.nostanmorelull.desc"
       ],
       "height": 2,
       "weight": 165,

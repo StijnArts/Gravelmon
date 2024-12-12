@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "bloboon",
-  "baseScale": 0.25,
+  "baseScale": 0.046875,
   "cannotDynamax": false,
   "abilities": [
     "waterabsorb"
@@ -49,7 +49,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.glowfly.desc1"
+    "cobblemon.species.glowfly.desc"
   ],
   "height": 15,
   "weight": 0,

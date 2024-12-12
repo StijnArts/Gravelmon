@@ -11,8 +11,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "growlithe form\u003dpalmian",
-      "baseScale": 0.48333333333333334,
+      "preEvolution": "growlithe form=palmian",
+      "baseScale": 0.090625,
       "cannotDynamax": false,
       "abilities": [
         "cursedbody"
@@ -50,7 +50,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.palmianarcanine.desc1"
+        "cobblemon.species.palmianarcanine.desc"
       ],
       "height": 29,
       "weight": 0,
@@ -99,7 +99,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.39999999999999997,
+      "baseScale": 0.075,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -124,7 +124,14 @@
         "field"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "cobblemon:fire_stone",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
       },
       "moves": [
         "1:scratch",
@@ -137,7 +144,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.raianianarcanine.desc1"
+        "cobblemon.species.raianianarcanine.desc"
       ],
       "height": 24,
       "weight": 0,
@@ -185,6 +192,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "growlithe form=epoch",
       "baseScale": 0.31666666666666665,
       "cannotDynamax": false,
       "abilities": [
@@ -209,7 +217,16 @@
       "eggGroups": [
         "field"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:astral_stone",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
+      },
       "moves": [
         "44:cosmicpower",
         "24:dragondance",
@@ -287,10 +304,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epocharcanine.desc1"
+        "cobblemon.species.epocharcanine.desc"
       ],
       "height": 19,
       "weight": 1550,
@@ -338,7 +357,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "growlithe form\u003daristosian",
+      "preEvolution": "growlithe form=aristosian",
       "baseScale": 0.35000000000000003,
       "cannotDynamax": false,
       "abilities": [
@@ -392,7 +411,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.aristosianarcanine.desc1"
+        "cobblemon.species.aristosianarcanine.desc"
       ],
       "height": 21,
       "weight": 165,
@@ -440,8 +459,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "growlithe form\u003ddelta",
-      "baseScale": 0.11666666666666665,
+      "preEvolution": "growlithe form=delta",
+      "baseScale": 0.0875,
       "cannotDynamax": false,
       "abilities": [
         "innerfocus",
@@ -572,7 +591,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltaarcanine.desc1"
+        "cobblemon.species.deltaarcanine.desc"
       ],
       "height": 7,
       "weight": 190,
@@ -619,7 +638,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "growlithe form\u003darmiran",
+      "preEvolution": "growlithe form=armiran",
       "baseScale": 0.31666666666666665,
       "cannotDynamax": false,
       "abilities": [
@@ -744,7 +763,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.armiranarcanine.desc1"
+        "cobblemon.species.armiranarcanine.desc"
       ],
       "height": 19,
       "weight": 1550,

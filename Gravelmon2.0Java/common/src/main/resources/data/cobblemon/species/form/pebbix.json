@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.2833333333333333,
+  "baseScale": 0.053125,
   "cannotDynamax": false,
   "abilities": [
     "flamebody"
@@ -42,7 +42,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.pebbix.desc1"
+    "cobblemon.species.pebbix.desc"
   ],
   "height": 17,
   "weight": 0,

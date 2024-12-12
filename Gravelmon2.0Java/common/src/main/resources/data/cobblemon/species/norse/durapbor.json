@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.4666666666666666,
+  "baseScale": 0.0875,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -42,7 +42,7 @@
     "norse"
   ],
   "pokedex": [
-    "cobblemon.species.durapbor.desc1"
+    "cobblemon.species.durapbor.desc"
   ],
   "height": 28,
   "weight": 0,

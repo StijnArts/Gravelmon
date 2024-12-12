@@ -32,7 +32,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:red_mushroom",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:acid",
@@ -44,7 +51,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.fungeon.desc1"
+    "cobblemon.species.fungeon.desc"
   ],
   "height": 0,
   "weight": 0,

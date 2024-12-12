@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "tepig form=epoch",
       "baseScale": 0.16666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -109,10 +110,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochpignite.desc1"
+        "cobblemon.species.epochpignite.desc"
       ],
       "height": 10,
       "weight": 555,
@@ -121,9 +124,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochpignite_epoch_emboar",
+          "id": "epochpignite_emboar_epoch",
           "variant": "level_up",
-          "result": "epoch emboar",
+          "result": "emboar epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -280,7 +283,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianpignite.desc1"
+        "cobblemon.species.ayreianpignite.desc"
       ],
       "height": 10,
       "weight": 855,

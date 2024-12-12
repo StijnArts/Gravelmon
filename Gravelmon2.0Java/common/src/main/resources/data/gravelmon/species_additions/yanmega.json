@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "yanma form=epoch",
       "baseScale": 0.31666666666666665,
       "cannotDynamax": false,
       "abilities": [
@@ -105,10 +106,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochyanmega.desc1"
+        "cobblemon.species.epochyanmega.desc"
       ],
       "height": 19,
       "weight": 515,
@@ -249,7 +252,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochyanmegaone.desc1"
+        "cobblemon.species.epochyanmegaone.desc"
       ],
       "height": 19,
       "weight": 515,
@@ -298,8 +301,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "yanma form\u003ddelta",
-      "baseScale": 0.31666666666666665,
+      "preEvolution": "yanma form=delta",
+      "baseScale": 0.2375,
       "cannotDynamax": false,
       "abilities": [
         "adaptability",
@@ -426,7 +429,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltayanmega.desc1"
+        "cobblemon.species.deltayanmega.desc"
       ],
       "height": 19,
       "weight": 515,

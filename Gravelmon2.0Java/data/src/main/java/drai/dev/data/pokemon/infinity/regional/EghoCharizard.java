@@ -146,9 +146,9 @@ public class EghoCharizard extends Pokemon {
                 new AnimatedLayerData("flame",
                         List.of("flame/flame1", "flame/flame2", "flame/flame3", "flame/flame4", "flame/flame5", "flame/flame6"),
                         10, true,
-                        true, false, false, true))
+                        Optional.of(true), Optional.of(false), false, true))
                 .addLayer(new SimpleTextureLayerData("glow", "eghocharizard_emissive",
-                        true, true, true, false));
+                        Optional.of(true), Optional.of(true), true, false));
         getPosingFileData().setPortraitData( 2.1f, new Vector3(-1.3,3.1, 0));
         getPosingFileData().setProfileData( 0.4f, new Vector3(-0.4, 1.2, 0));
         getPosingFileData().setBasicHead();

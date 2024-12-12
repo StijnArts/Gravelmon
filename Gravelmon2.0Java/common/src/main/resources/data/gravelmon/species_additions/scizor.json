@@ -11,8 +11,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "scyther form\u003draianian",
-      "baseScale": 0.3,
+      "preEvolution": "scyther form=raianian",
+      "baseScale": 0.056249999999999994,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -50,7 +50,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.raianianscizor.desc1"
+        "cobblemon.species.raianianscizor.desc"
       ],
       "height": 18,
       "weight": 0,
@@ -98,6 +98,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "scyther form=epoch",
       "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
@@ -193,10 +194,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochscizor.desc1"
+        "cobblemon.species.epochscizor.desc"
       ],
       "height": 18,
       "weight": 1180,
@@ -244,7 +247,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "scyther form\u003ddelta",
+      "preEvolution": "scyther form=delta",
       "baseScale": 0.85,
       "cannotDynamax": false,
       "abilities": [
@@ -373,7 +376,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltascizor.desc1"
+        "cobblemon.species.deltascizor.desc"
       ],
       "height": 18,
       "weight": 1180,
@@ -421,7 +424,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "scyther form\u003dmythian",
+      "preEvolution": "scyther form=mythian",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -488,7 +491,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.mythianscizor.desc1"
+        "cobblemon.species.mythianscizor.desc"
       ],
       "height": 15,
       "weight": 560,

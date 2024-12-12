@@ -9,7 +9,7 @@
   "eggCycles": 52,
   "baseFriendship": 70,
   "preEvolution": "batnana",
-  "baseScale": 0.2333333333333333,
+  "baseScale": 0.175,
   "cannotDynamax": false,
   "abilities": [
     "overgrow",
@@ -100,7 +100,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.vesperfum.desc1"
+    "cobblemon.species.vesperfum.desc"
   ],
   "height": 14,
   "weight": 320,

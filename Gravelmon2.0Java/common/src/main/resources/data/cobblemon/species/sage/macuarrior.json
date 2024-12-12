@@ -8,7 +8,7 @@
   "eggCycles": 76,
   "baseFriendship": 70,
   "preEvolution": "chayan",
-  "baseScale": 0.26666666666666666,
+  "baseScale": 0.05,
   "cannotDynamax": false,
   "abilities": [
     "hypercutter",
@@ -34,7 +34,14 @@
     "human_like"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:cocoa_beans",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:frostslash",
@@ -115,7 +122,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.macuarrior.desc1"
+    "cobblemon.species.macuarrior.desc"
   ],
   "height": 16,
   "weight": 565,

@@ -40,7 +40,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.noknok.desc1"
+    "cobblemon.species.noknok.desc"
   ],
   "height": 4,
   "weight": 0,
@@ -59,7 +59,7 @@
         },
         {
           "variant": "party_member",
-          "target": "type\u003ddark",
+          "target": "type=dark",
           "contains": true
         }
       ],

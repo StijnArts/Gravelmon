@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "fafrotic",
-  "baseScale": 0.3833333333333333,
+  "baseScale": 0.071875,
   "cannotDynamax": false,
   "abilities": [
     "lightningrod"
@@ -47,7 +47,7 @@
     "norse"
   ],
   "pokedex": [
-    "cobblemon.species.fafreeze.desc1"
+    "cobblemon.species.fafreeze.desc"
   ],
   "height": 23,
   "weight": 0,

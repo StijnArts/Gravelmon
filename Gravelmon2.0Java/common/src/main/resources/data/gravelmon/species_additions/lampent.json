@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianlampent.desc1"
+        "cobblemon.species.fabelianlampent.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -93,6 +93,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "litwick form=epoch",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -179,10 +180,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochlampent.desc1"
+        "cobblemon.species.epochlampent.desc"
       ],
       "height": 6,
       "weight": 130,
@@ -191,9 +194,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochlampent_epoch_chandelure",
+          "id": "epochlampent_chandelure_epoch",
           "variant": "item_interact",
-          "result": "epoch chandelure",
+          "result": "chandelure epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -275,7 +278,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.lagoonanlampent.desc1"
+        "cobblemon.species.lagoonanlampent.desc"
       ],
       "height": 6,
       "weight": 130,
@@ -323,8 +326,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "litwick form\u003ddelta",
-      "baseScale": 0.1,
+      "preEvolution": "litwick form=delta",
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "flashfire",
@@ -443,7 +446,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltalampent.desc1"
+        "cobblemon.species.deltalampent.desc"
       ],
       "height": 6,
       "weight": 130,

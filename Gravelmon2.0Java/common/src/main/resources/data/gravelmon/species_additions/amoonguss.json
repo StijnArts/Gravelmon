@@ -11,8 +11,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "foongus form\u003ddelta",
-      "baseScale": 0.1,
+      "preEvolution": "foongus form=delta",
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "prankster",
@@ -139,7 +139,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltaamoonguss.desc1"
+        "cobblemon.species.deltaamoonguss.desc"
       ],
       "height": 6,
       "weight": 105,

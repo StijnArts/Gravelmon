@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "tadapt",
-  "baseScale": 0.18333333333333335,
+  "baseScale": 8.8,
   "cannotDynamax": false,
   "abilities": [
     "adaptability",
@@ -61,7 +61,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.vortexol.desc1"
+    "cobblemon.species.vortexol.desc"
   ],
   "height": 11,
   "weight": 165,

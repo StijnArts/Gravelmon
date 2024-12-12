@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 100,
   "baseFriendship": 70,
-  "baseScale": 0.13333333333333333,
+  "baseScale": 0.1,
   "cannotDynamax": false,
   "abilities": [
     "flashfire",
@@ -75,7 +75,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.lukewran.desc1"
+    "cobblemon.species.lukewran.desc"
   ],
   "height": 8,
   "weight": 2048,

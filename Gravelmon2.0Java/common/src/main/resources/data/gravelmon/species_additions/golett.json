@@ -118,7 +118,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochgolett.desc1"
+        "cobblemon.species.epochgolett.desc"
       ],
       "height": 10,
       "weight": 920,
@@ -127,9 +127,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochgolett_epoch_golurk",
+          "id": "epochgolett_golurk_epoch",
           "variant": "level_up",
-          "result": "epoch golurk",
+          "result": "golurk epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -181,7 +181,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.16666666666666666,
+      "baseScale": 0.125,
       "cannotDynamax": false,
       "abilities": [
         "ironfist",
@@ -296,7 +296,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltagolett.desc1"
+        "cobblemon.species.deltagolett.desc"
       ],
       "height": 10,
       "weight": 920,
@@ -359,7 +359,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "baseScale": 0.16666666666666666,
+      "baseScale": 0.03125,
       "cannotDynamax": false,
       "abilities": [
         "frisk",
@@ -466,7 +466,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.kaskadiangolett.desc1"
+        "cobblemon.species.kaskadiangolett.desc"
       ],
       "height": 10,
       "weight": 920,
@@ -578,7 +578,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.cefirangolett.desc1"
+        "cobblemon.species.cefirangolett.desc"
       ],
       "height": 10,
       "weight": 920,

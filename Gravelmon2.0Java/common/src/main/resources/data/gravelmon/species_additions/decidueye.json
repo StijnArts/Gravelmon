@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "dartrix form=epoch",
       "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -99,10 +100,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochdecidueye.desc1"
+        "cobblemon.species.epochdecidueye.desc"
       ],
       "height": 16,
       "weight": 366,

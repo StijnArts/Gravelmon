@@ -10,8 +10,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "torchic form\u003ddelta",
-      "baseScale": 0.15,
+      "preEvolution": "torchic form=delta",
+      "baseScale": 0.11249999999999999,
       "cannotDynamax": false,
       "abilities": [
         "keeneye",
@@ -147,7 +147,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltacombusken.desc1"
+        "cobblemon.species.deltacombusken.desc"
       ],
       "height": 9,
       "weight": 195,
@@ -210,7 +210,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "torchic form\u003dayreian",
+      "preEvolution": "torchic form=ayreian",
       "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
@@ -336,7 +336,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiancombusken.desc1"
+        "cobblemon.species.ayreiancombusken.desc"
       ],
       "height": 9,
       "weight": 195,
@@ -399,7 +399,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "torchic form\u003dmystic",
+      "preEvolution": "torchic form=mystic",
       "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
@@ -451,7 +451,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.mysticcombusken.desc1"
+        "cobblemon.species.mysticcombusken.desc"
       ],
       "height": 9,
       "weight": 195,

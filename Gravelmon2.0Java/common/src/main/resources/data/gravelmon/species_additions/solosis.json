@@ -124,7 +124,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochsolosis.desc1"
+        "cobblemon.species.epochsolosis.desc"
       ],
       "height": 3,
       "weight": 10,
@@ -133,9 +133,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochsolosis_epoch_duosion",
+          "id": "epochsolosis_duosion_epoch",
           "variant": "level_up",
-          "result": "epoch duosion",
+          "result": "duosion epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -302,7 +302,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochsolosisone.desc1"
+        "cobblemon.species.epochsolosisone.desc"
       ],
       "height": 3,
       "weight": 10,
@@ -365,7 +365,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "levitate",
@@ -489,7 +489,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltasolosis.desc1"
+        "cobblemon.species.deltasolosis.desc"
       ],
       "height": 3,
       "weight": 20,
@@ -623,7 +623,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.hoenniansolosis.desc1"
+        "cobblemon.species.hoenniansolosis.desc"
       ],
       "height": 1,
       "weight": 5,
@@ -686,7 +686,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "overcoat",
@@ -782,7 +782,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.kaskadiansolosis.desc1"
+        "cobblemon.species.kaskadiansolosis.desc"
       ],
       "height": 3,
       "weight": 10,
@@ -941,7 +941,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mysticsolosis.desc1"
+        "cobblemon.species.mysticsolosis.desc"
       ],
       "height": 3,
       "weight": 10,

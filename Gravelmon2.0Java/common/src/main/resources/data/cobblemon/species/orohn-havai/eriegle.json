@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 4.800000000000001,
   "cannotDynamax": false,
   "abilities": [
     "keeneye",
@@ -82,7 +82,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.eriegle.desc1"
+    "cobblemon.species.eriegle.desc"
   ],
   "height": 3,
   "weight": 165,

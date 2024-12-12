@@ -12,7 +12,7 @@ public class AnimationData extends BasicAnimationData {
     List<TransformedPartData> transformedPartDataList = new ArrayList<>();
     Optional<Boolean> isBattle = Optional.empty();
     Optional<Boolean> isTouchingWater = Optional.empty();
-    private Optional<Boolean> allPoseTypes;
+    private Optional<Boolean> allPoseTypes = Optional.empty();
 
     public AnimationData(String animationName, List<PoseType> poseTypes, List<String> animations, List<Quirk> quirks, int transformTicks) {
         super(animationName, animations);
@@ -44,7 +44,7 @@ public class AnimationData extends BasicAnimationData {
     }
 
     public static AnimationData flyingAnimation(){
-        return new AnimationData("flying", List.of(PoseType.WALK), List.of("air_fly"), List.of(), 10);
+        return new AnimationData("flying", List.of(PoseType.FLY), List.of("air_fly"), List.of(), 10);
     }
 
     public static AnimationData floatingAnimation(){

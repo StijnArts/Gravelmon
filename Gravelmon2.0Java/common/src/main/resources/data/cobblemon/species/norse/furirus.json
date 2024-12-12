@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "lilcteria",
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -47,7 +47,7 @@
     "norse"
   ],
   "pokedex": [
-    "cobblemon.species.furirus.desc1"
+    "cobblemon.species.furirus.desc"
   ],
   "height": 5,
   "weight": 0,

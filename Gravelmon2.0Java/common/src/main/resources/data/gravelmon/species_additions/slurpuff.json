@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "swirlix form=epoch",
       "baseScale": 0.13333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -99,10 +100,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochslurpuff.desc1"
+        "cobblemon.species.epochslurpuff.desc"
       ],
       "height": 8,
       "weight": 50,
@@ -200,7 +203,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.vesitanslurpuff.desc1"
+        "cobblemon.species.vesitanslurpuff.desc"
       ],
       "height": 8,
       "weight": 50,
@@ -247,8 +250,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "swirlix form\u003dx",
-      "baseScale": 0.13333333333333333,
+      "preEvolution": "swirlix form=x",
+      "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
         "poisontouch",
@@ -274,7 +277,19 @@
         "undiscovered"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:xenolith",
+            "quantityRange": "1-1",
+            "percentage": 20
+          },
+          {
+            "item": "gravelmon:xenolith",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
       },
       "moves": [
         "1:tackle",
@@ -332,7 +347,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.slurpuffx.desc1"
+        "cobblemon.species.slurpuffx.desc"
       ],
       "height": 8,
       "weight": 50,

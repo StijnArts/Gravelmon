@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.21666666666666667,
+  "baseScale": 0.040625,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -32,7 +32,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:spider_eye",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:bite"
@@ -42,7 +49,7 @@
     "norse"
   ],
   "pokedex": [
-    "cobblemon.species.dnaeon.desc1"
+    "cobblemon.species.dnaeon.desc"
   ],
   "height": 13,
   "weight": 0,

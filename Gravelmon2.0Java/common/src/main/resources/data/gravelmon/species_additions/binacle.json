@@ -123,7 +123,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochbinacle.desc1"
+        "cobblemon.species.epochbinacle.desc"
       ],
       "height": 5,
       "weight": 310,
@@ -132,9 +132,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochbinacle_epoch_barbaracle",
+          "id": "epochbinacle_barbaracle_epoch",
           "variant": "level_up",
-          "result": "epoch barbaracle",
+          "result": "barbaracle epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -220,7 +220,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.lagoonanbinacle.desc1"
+        "cobblemon.species.lagoonanbinacle.desc"
       ],
       "height": 5,
       "weight": 310,
@@ -339,7 +339,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.vesitanbinacle.desc1"
+        "cobblemon.species.vesitanbinacle.desc"
       ],
       "height": 5,
       "weight": 310,

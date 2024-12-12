@@ -33,7 +33,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:dawn_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "40:prismaticlaser",
@@ -103,7 +110,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.prismeon.desc1"
+    "cobblemon.species.prismeon.desc"
   ],
   "height": 10,
   "weight": 290,

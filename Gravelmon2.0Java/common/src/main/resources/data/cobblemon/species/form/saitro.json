@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "drowzee form\u003dforman",
-  "baseScale": 0.3833333333333333,
+  "preEvolution": "drowzee form=forman",
+  "baseScale": 0.071875,
   "cannotDynamax": false,
   "abilities": [
     "static"
@@ -45,7 +45,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.saitro.desc1"
+    "cobblemon.species.saitro.desc"
   ],
   "height": 23,
   "weight": 0,

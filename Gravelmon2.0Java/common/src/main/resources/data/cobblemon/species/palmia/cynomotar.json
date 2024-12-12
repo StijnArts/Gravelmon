@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "tetranq",
-  "baseScale": 0.18333333333333335,
+  "baseScale": 0.034375,
   "cannotDynamax": false,
   "abilities": [
     "stormdrain"
@@ -49,7 +49,7 @@
     "palmia"
   ],
   "pokedex": [
-    "cobblemon.species.cynomotar.desc1"
+    "cobblemon.species.cynomotar.desc"
   ],
   "height": 11,
   "weight": 0,

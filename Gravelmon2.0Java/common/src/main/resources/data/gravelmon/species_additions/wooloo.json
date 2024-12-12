@@ -10,7 +10,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -43,7 +43,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianwooloo.desc1"
+        "cobblemon.species.fabelianwooloo.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -200,7 +200,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochwooloo.desc1"
+        "cobblemon.species.epochwooloo.desc"
       ],
       "height": 16,
       "weight": 1000,
@@ -209,9 +209,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochwooloo_epoch_dubwool",
+          "id": "epochwooloo_dubwool_epoch",
           "variant": "level_up",
-          "result": "epoch dubwool",
+          "result": "dubwool epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -369,7 +369,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochwoolooone.desc1"
+        "cobblemon.species.epochwoolooone.desc"
       ],
       "height": 6,
       "weight": 60,
@@ -529,7 +529,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.novranwooloo.desc1"
+        "cobblemon.species.novranwooloo.desc"
       ],
       "height": 6,
       "weight": 165,

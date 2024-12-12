@@ -37,7 +37,14 @@
     "grass"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:seeds",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:leaftornado",
@@ -131,7 +138,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.kokipound.desc1"
+    "cobblemon.species.kokipound.desc"
   ],
   "height": 13,
   "weight": 360,

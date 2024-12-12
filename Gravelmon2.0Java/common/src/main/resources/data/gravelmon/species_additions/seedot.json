@@ -112,7 +112,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochseedot.desc1"
+        "cobblemon.species.epochseedot.desc"
       ],
       "height": 5,
       "weight": 40,
@@ -121,9 +121,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochseedot_epoch_nuzleaf",
+          "id": "epochseedot_nuzleaf_epoch",
           "variant": "level_up",
-          "result": "epoch nuzleaf",
+          "result": "nuzleaf epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -174,7 +174,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "voltabsorb",
@@ -259,7 +259,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltaseedot.desc1"
+        "cobblemon.species.deltaseedot.desc"
       ],
       "height": 5,
       "weight": 40,

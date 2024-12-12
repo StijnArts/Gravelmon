@@ -1,6 +1,6 @@
 {
   "species": "cobblemon:rapidash",
-  "order": 10,
+  "order": 100,
   "variations": [
     {
       "aspects": [
@@ -11,14 +11,25 @@
       "texture": "cobblemon:textures/pokemon/generation1/rapidashx/rapidashx.png",
       "layers": [
         {
-          "name": "glow"
+          "name": "emissive"
         },
-        {},
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
         {
           "name": "flame"
         },
         {
-          "name": "emissive"
+          "name": "glow"
         }
       ]
     },
@@ -32,49 +43,25 @@
       "texture": "cobblemon:textures/pokemon/generation1/rapidashx/rapidashx_shiny.png",
       "layers": [
         {
-          "name": "glow"
+          "name": "emissive"
         },
-        {},
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
         {
           "name": "flame"
         },
         {
-          "name": "emissive"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "x",
-        "storm"
-      ],
-      "poser": "cobblemon:generation1_rapidashx_storm",
-      "model": "cobblemon:generation1_rapidashx_storm.geo",
-      "texture": "cobblemon:textures/pokemon/generation1/storm_rapidashx/storm_rapidashx.png",
-      "layers": [
-        {
-          "name": "emissive",
-          "texture": "cobblemon:textures/pokemon/generation1/storm_rapidashx/storm_rapidashx_emissive.png",
-          "emissive": true,
-          "translucent": true
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "x",
-        "storm",
-        "shiny"
-      ],
-      "poser": "cobblemon:generation1_rapidashx_storm",
-      "model": "cobblemon:generation1_rapidashx_storm.geo",
-      "texture": "cobblemon:textures/pokemon/generation1/storm_rapidashx/storm_rapidashx_shiny.png",
-      "layers": [
-        {
-          "name": "emissive",
-          "texture": "cobblemon:textures/pokemon/generation1/storm_rapidashx/storm_rapidashx_shiny_emissive.png",
-          "emissive": true,
-          "translucent": true
+          "name": "glow"
         }
       ]
     }

@@ -10,7 +10,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -43,7 +43,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formantorchic.desc1"
+        "cobblemon.species.formantorchic.desc"
       ],
       "height": 4,
       "weight": 0,
@@ -105,7 +105,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "keeneye",
@@ -229,7 +229,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltatorchic.desc1"
+        "cobblemon.species.deltatorchic.desc"
       ],
       "height": 4,
       "weight": 25,
@@ -415,7 +415,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiantorchic.desc1"
+        "cobblemon.species.ayreiantorchic.desc"
       ],
       "height": 4,
       "weight": 25,
@@ -527,7 +527,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mystictorchic.desc1"
+        "cobblemon.species.mystictorchic.desc"
       ],
       "height": 4,
       "weight": 25,

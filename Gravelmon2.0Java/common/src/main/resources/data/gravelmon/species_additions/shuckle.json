@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianshuckle.desc1"
+        "cobblemon.species.fabelianshuckle.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -93,7 +93,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.19999999999999998,
+      "baseScale": 0.0375,
       "cannotDynamax": false,
       "abilities": [
         "contrary"
@@ -131,7 +131,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanshuckle.desc1"
+        "cobblemon.species.formanshuckle.desc"
       ],
       "height": 12,
       "weight": 0,
@@ -217,7 +217,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ionosianshuckle.desc1"
+        "cobblemon.species.ionosianshuckle.desc"
       ],
       "height": 5,
       "weight": 0,
@@ -265,7 +265,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "sturdy",
@@ -393,7 +393,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltashuckle.desc1"
+        "cobblemon.species.deltashuckle.desc"
       ],
       "height": 6,
       "weight": 410,
@@ -503,7 +503,7 @@
         "blazing_emerald"
       ],
       "pokedex": [
-        "cobblemon.species.hoennianshuckle.desc1"
+        "cobblemon.species.hoennianshuckle.desc"
       ],
       "height": 6,
       "weight": 205,

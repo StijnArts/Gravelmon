@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "phisnooz",
-  "baseScale": 0.26666666666666666,
+  "baseScale": 0.05,
   "cannotDynamax": false,
   "abilities": [
     "synchronize",
@@ -60,7 +60,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.telemac.desc1"
+    "cobblemon.species.telemac.desc"
   ],
   "height": 16,
   "weight": 756,

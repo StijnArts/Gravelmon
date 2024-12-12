@@ -60,7 +60,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.avorianmaractus.desc1"
+        "cobblemon.species.avorianmaractus.desc"
       ],
       "height": 10,
       "weight": 165,
@@ -250,7 +250,7 @@
         "insurgence"
       ],
       "pokedex": [
-        "cobblemon.species.deltamaractus.desc1"
+        "cobblemon.species.deltamaractus.desc"
       ],
       "height": 10,
       "weight": 560,
@@ -369,7 +369,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.hoennianmaractus.desc1"
+        "cobblemon.species.hoennianmaractus.desc"
       ],
       "height": 8,
       "weight": 239,

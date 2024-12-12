@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "paras form\u003dforman",
-  "baseScale": 0.25,
+  "preEvolution": "paras form=forman",
+  "baseScale": 0.046875,
   "cannotDynamax": false,
   "abilities": [
     "arenatrap"
@@ -47,7 +47,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.traffasict.desc1"
+    "cobblemon.species.traffasict.desc"
   ],
   "height": 15,
   "weight": 0,

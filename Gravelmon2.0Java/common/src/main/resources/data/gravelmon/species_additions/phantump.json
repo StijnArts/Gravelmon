@@ -120,7 +120,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochphantump.desc1"
+        "cobblemon.species.epochphantump.desc"
       ],
       "height": 4,
       "weight": 70,
@@ -129,9 +129,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochphantump_epoch_trevenant",
+          "id": "epochphantump_trevenant_epoch",
           "variant": "trade",
-          "result": "epoch trevenant",
+          "result": "trevenant epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -276,7 +276,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.varitasianphantump.desc1"
+        "cobblemon.species.varitasianphantump.desc"
       ],
       "height": 4,
       "weight": 165,
@@ -333,7 +333,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "snowwarning",
@@ -449,7 +449,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltaphantump.desc1"
+        "cobblemon.species.deltaphantump.desc"
       ],
       "height": 4,
       "weight": 70,
@@ -617,7 +617,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianphantump.desc1"
+        "cobblemon.species.ayreianphantump.desc"
       ],
       "height": 4,
       "weight": 70,
@@ -774,7 +774,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.kaskadianphantump.desc1"
+        "cobblemon.species.kaskadianphantump.desc"
       ],
       "height": 4,
       "weight": 70,

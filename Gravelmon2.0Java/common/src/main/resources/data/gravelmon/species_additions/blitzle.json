@@ -116,7 +116,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochblitzle.desc1"
+        "cobblemon.species.epochblitzle.desc"
       ],
       "height": 8,
       "weight": 298,
@@ -125,9 +125,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochblitzle_epoch_zebstrika",
+          "id": "epochblitzle_zebstrika_epoch",
           "variant": "level_up",
-          "result": "epoch zebstrika",
+          "result": "zebstrika epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -261,7 +261,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.seviianblitzle.desc1"
+        "cobblemon.species.seviianblitzle.desc"
       ],
       "height": 9,
       "weight": 298,

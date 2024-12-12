@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "flowger",
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.0375,
   "cannotDynamax": false,
   "abilities": [
     "raindish",
@@ -37,7 +37,14 @@
     "grass"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:lily_pad",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:uproar",
@@ -127,7 +134,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.bullotus.desc1"
+    "cobblemon.species.bullotus.desc"
   ],
   "height": 12,
   "weight": 528,
@@ -179,8 +186,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "flowger form\u003dBLUE",
-      "baseScale": 0.19999999999999998,
+      "preEvolution": "flowger form=BLUE",
+      "baseScale": 0.0375,
       "cannotDynamax": false,
       "abilities": [
         "raindish",
@@ -208,7 +215,14 @@
         "grass"
       ],
       "drops": {
-        "amount": 2
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:lily_pad",
+            "quantityRange": "1-2",
+            "percentage": 90
+          }
+        ]
       },
       "moves": [
         "1:uproar",
@@ -298,7 +312,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.blue.desc1"
+        "cobblemon.species.blue.desc"
       ],
       "height": 12,
       "weight": 528,

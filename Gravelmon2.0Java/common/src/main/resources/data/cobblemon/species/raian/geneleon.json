@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "chamenetic",
-  "baseScale": 0.25,
+  "baseScale": 0.046875,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -43,7 +43,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.geneleon.desc1"
+    "cobblemon.species.geneleon.desc"
   ],
   "height": 15,
   "weight": 0,

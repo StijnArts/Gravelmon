@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianswablu.desc1"
+        "cobblemon.species.fabelianswablu.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -213,7 +213,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochswablu.desc1"
+        "cobblemon.species.epochswablu.desc"
       ],
       "height": 4,
       "weight": 12,
@@ -222,9 +222,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochswablu_epoch_altaria",
+          "id": "epochswablu_altaria_epoch",
           "variant": "item_interact",
-          "result": "epoch altaria",
+          "result": "altaria epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -389,7 +389,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochswabluone.desc1"
+        "cobblemon.species.epochswabluone.desc"
       ],
       "height": 4,
       "weight": 12,
@@ -549,7 +549,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.varitasianswablu.desc1"
+        "cobblemon.species.varitasianswablu.desc"
       ],
       "height": 4,
       "weight": 165,
@@ -612,7 +612,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 39,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "levitate",
@@ -639,7 +639,19 @@
         "dragon"
       ],
       "drops": {
-        "amount": 4
+        "amount": 4,
+        "entries": [
+          {
+            "item": "minecraft:egg",
+            "quantityRange": "1-2",
+            "percentage": 50
+          },
+          {
+            "item": "minecraft:feather",
+            "quantityRange": "1-2",
+            "percentage": 50
+          }
+        ]
       },
       "moves": [
         "1:peck",
@@ -717,7 +729,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.eghoswablu.desc1"
+        "cobblemon.species.eghoswablu.desc"
       ],
       "height": 4,
       "weight": 42,
@@ -888,7 +900,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianswablu.desc1"
+        "cobblemon.species.ayreianswablu.desc"
       ],
       "height": 4,
       "weight": 12,

@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianmudbray.desc1"
+        "cobblemon.species.fabelianmudbray.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -199,7 +199,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochmudbray.desc1"
+        "cobblemon.species.epochmudbray.desc"
       ],
       "height": 10,
       "weight": 1100,
@@ -208,9 +208,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmudbray_epoch_mudsdale",
+          "id": "epochmudbray_mudsdale_epoch",
           "variant": "level_up",
-          "result": "epoch mudsdale",
+          "result": "mudsdale epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

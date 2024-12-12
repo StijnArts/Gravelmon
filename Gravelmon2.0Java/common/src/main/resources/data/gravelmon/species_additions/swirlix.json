@@ -111,7 +111,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochswirlix.desc1"
+        "cobblemon.species.epochswirlix.desc"
       ],
       "height": 4,
       "weight": 35,
@@ -120,9 +120,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochswirlix_epoch_slurpuff",
+          "id": "epochswirlix_slurpuff_epoch",
           "variant": "level_up",
-          "result": "epoch slurpuff",
+          "result": "slurpuff epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -228,7 +228,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.vesitanswirlix.desc1"
+        "cobblemon.species.vesitanswirlix.desc"
       ],
       "height": 4,
       "weight": 35,
@@ -286,7 +286,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.0875,
       "cannotDynamax": false,
       "abilities": [
         "poisontouch",
@@ -312,7 +312,14 @@
         "undiscovered"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:xenolith",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
       },
       "moves": [
         "1:tackle",
@@ -359,7 +366,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.swirlixx.desc1"
+        "cobblemon.species.swirlixx.desc"
       ],
       "height": 7,
       "weight": 40,

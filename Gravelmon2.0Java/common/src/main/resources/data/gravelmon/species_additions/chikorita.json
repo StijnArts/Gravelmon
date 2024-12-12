@@ -10,7 +10,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.021875,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -43,7 +43,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanchikorita.desc1"
+        "cobblemon.species.formanchikorita.desc"
       ],
       "height": 7,
       "weight": 0,
@@ -207,7 +207,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochchikorita.desc1"
+        "cobblemon.species.epochchikorita.desc"
       ],
       "height": 9,
       "weight": 64,
@@ -216,9 +216,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochchikorita_epoch_bayleef",
+          "id": "epochchikorita_bayleef_epoch",
           "variant": "level_up",
-          "result": "epoch bayleef",
+          "result": "bayleef epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -376,7 +376,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochchikoritaone.desc1"
+        "cobblemon.species.epochchikoritaone.desc"
       ],
       "height": 9,
       "weight": 64,
@@ -473,7 +473,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ionosianchikorita.desc1"
+        "cobblemon.species.ionosianchikorita.desc"
       ],
       "height": 5,
       "weight": 0,
@@ -536,7 +536,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.18333333333333335,
+      "baseScale": 0.1375,
       "cannotDynamax": false,
       "abilities": [
         "chlorophyll",
@@ -563,7 +563,14 @@
         "dragon"
       ],
       "drops": {
-        "amount": 2
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:apple",
+            "quantityRange": "1-2",
+            "percentage": 50
+          }
+        ]
       },
       "moves": [
         "1:aromatherapy",
@@ -655,7 +662,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.eghochikorita.desc1"
+        "cobblemon.species.eghochikorita.desc"
       ],
       "height": 11,
       "weight": 64,
@@ -831,7 +838,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianchikorita.desc1"
+        "cobblemon.species.ayreianchikorita.desc"
       ],
       "height": 9,
       "weight": 64,

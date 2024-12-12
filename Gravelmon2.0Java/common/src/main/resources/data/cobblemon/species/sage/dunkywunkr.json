@@ -9,7 +9,7 @@
   "eggCycles": 76,
   "baseFriendship": 70,
   "preEvolution": "dinkywink",
-  "baseScale": 0.2833333333333333,
+  "baseScale": 0.053125,
   "cannotDynamax": false,
   "abilities": [
     "rockhead",
@@ -37,7 +37,14 @@
     "monster"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:raw_cod",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:headbutt",
@@ -108,7 +115,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.dunkywunkr.desc1"
+    "cobblemon.species.dunkywunkr.desc"
   ],
   "height": 17,
   "weight": 1724,

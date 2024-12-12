@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "slugem",
-      "baseScale": 0.13333333333333333,
+      "baseScale": 0.025,
       "cannotDynamax": false,
       "abilities": [
         "sandstream"
@@ -50,7 +50,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formanslugma.desc1"
+        "cobblemon.species.formanslugma.desc"
       ],
       "height": 8,
       "weight": 0,
@@ -207,7 +207,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochslugma.desc1"
+        "cobblemon.species.epochslugma.desc"
       ],
       "height": 7,
       "weight": 350,
@@ -216,9 +216,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochslugma_epoch_magcargo",
+          "id": "epochslugma_magcargo_epoch",
           "variant": "level_up",
-          "result": "epoch magcargo",
+          "result": "magcargo epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -393,7 +393,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochslugmaone.desc1"
+        "cobblemon.species.epochslugmaone.desc"
       ],
       "height": 7,
       "weight": 350,
@@ -514,7 +514,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.cefiranslugma.desc1"
+        "cobblemon.species.cefiranslugma.desc"
       ],
       "height": 7,
       "weight": 350,

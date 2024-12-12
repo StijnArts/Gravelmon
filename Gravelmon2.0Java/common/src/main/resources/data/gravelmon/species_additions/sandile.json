@@ -119,7 +119,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochsandile.desc1"
+        "cobblemon.species.epochsandile.desc"
       ],
       "height": 7,
       "weight": 152,
@@ -128,9 +128,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochsandile_epoch_krokorok",
+          "id": "epochsandile_krokorok_epoch",
           "variant": "level_up",
-          "result": "epoch krokorok",
+          "result": "krokorok epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -285,7 +285,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiansandile.desc1"
+        "cobblemon.species.ayreiansandile.desc"
       ],
       "height": 7,
       "weight": 152,

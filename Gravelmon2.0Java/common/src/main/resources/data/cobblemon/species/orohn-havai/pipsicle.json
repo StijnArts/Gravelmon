@@ -7,7 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 4.800000000000001,
   "cannotDynamax": false,
   "abilities": [
     "refrigerate",
@@ -57,7 +57,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.pipsicle.desc1"
+    "cobblemon.species.pipsicle.desc"
   ],
   "height": 6,
   "weight": 165,

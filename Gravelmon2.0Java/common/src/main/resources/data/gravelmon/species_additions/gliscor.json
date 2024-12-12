@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "gligar form=epoch",
       "baseScale": 0.3333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -37,7 +38,16 @@
       "eggGroups": [
         "mineral"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:solid_stone",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
+      },
       "moves": [
         "1:tackle",
         "1:leer",
@@ -119,10 +129,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochgliscor.desc1"
+        "cobblemon.species.epochgliscor.desc"
       ],
       "height": 20,
       "weight": 425,
@@ -170,7 +182,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "gligar form\u003dhizian",
+      "preEvolution": "gligar form=hizian",
       "baseScale": 0.3333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -221,7 +233,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.hiziangliscor.desc1"
+        "cobblemon.species.hiziangliscor.desc"
       ],
       "height": 20,
       "weight": 165,

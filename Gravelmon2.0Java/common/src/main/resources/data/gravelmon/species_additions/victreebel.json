@@ -60,7 +60,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.avalossianvictreebel.desc1"
+        "cobblemon.species.avalossianvictreebel.desc"
       ],
       "height": 17,
       "weight": 0,
@@ -108,7 +108,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "weepinbell form\u003daristosian",
+      "preEvolution": "weepinbell form=aristosian",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -212,7 +212,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.aristosianvictreebel.desc1"
+        "cobblemon.species.aristosianvictreebel.desc"
       ],
       "height": 15,
       "weight": 131,

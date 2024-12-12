@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabeliandhelmise.desc1"
+        "cobblemon.species.fabeliandhelmise.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -188,7 +188,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochdhelmise.desc1"
+        "cobblemon.species.epochdhelmise.desc"
       ],
       "height": 39,
       "weight": 2100,
@@ -327,7 +327,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.seviiandhelmise.desc1"
+        "cobblemon.species.seviiandhelmise.desc"
       ],
       "height": 39,
       "weight": 2100,

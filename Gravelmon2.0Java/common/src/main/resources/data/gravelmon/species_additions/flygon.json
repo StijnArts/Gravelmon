@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "vibrava form=epoch",
       "baseScale": 0.3333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -103,10 +104,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochflygon.desc1"
+        "cobblemon.species.epochflygon.desc"
       ],
       "height": 20,
       "weight": 820,
@@ -190,7 +193,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ionosianflygon.desc1"
+        "cobblemon.species.ionosianflygon.desc"
       ],
       "height": 17,
       "weight": 0,
@@ -238,7 +241,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "vibrava form\u003dayreian",
+      "preEvolution": "vibrava form=ayreian",
       "baseScale": 0.18333333333333335,
       "cannotDynamax": false,
       "abilities": [
@@ -367,7 +370,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianflygon.desc1"
+        "cobblemon.species.ayreianflygon.desc"
       ],
       "height": 11,
       "weight": 153,
@@ -415,7 +418,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "vibrava form\u003dcefiran",
+      "preEvolution": "vibrava form=cefiran",
       "baseScale": 0.3333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -468,7 +471,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.cefiranflygon.desc1"
+        "cobblemon.species.cefiranflygon.desc"
       ],
       "height": 20,
       "weight": 820,

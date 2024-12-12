@@ -9,7 +9,7 @@
   "eggCycles": 39,
   "baseFriendship": 70,
   "preEvolution": "minarac",
-  "baseScale": 0.18333333333333335,
+  "baseScale": 0.034375,
   "cannotDynamax": false,
   "abilities": [
     "arenatrap",
@@ -35,7 +35,14 @@
     "bug"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:rapidspin",
@@ -121,7 +128,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.trenchula.desc1"
+    "cobblemon.species.trenchula.desc"
   ],
   "height": 11,
   "weight": 230,

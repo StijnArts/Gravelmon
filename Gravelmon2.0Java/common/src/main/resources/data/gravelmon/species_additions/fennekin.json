@@ -133,7 +133,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochfennekin.desc1"
+        "cobblemon.species.epochfennekin.desc"
       ],
       "height": 4,
       "weight": 94,
@@ -142,9 +142,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochfennekin_epoch_braixen",
+          "id": "epochfennekin_braixen_epoch",
           "variant": "level_up",
-          "result": "epoch braixen",
+          "result": "braixen epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -250,7 +250,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.vesitanfennekin.desc1"
+        "cobblemon.species.vesitanfennekin.desc"
       ],
       "height": 4,
       "weight": 94,

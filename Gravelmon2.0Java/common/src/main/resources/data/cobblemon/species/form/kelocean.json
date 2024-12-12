@@ -7,8 +7,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "ponyta form\u003dforman",
-  "baseScale": 0.3833333333333333,
+  "preEvolution": "ponyta form=forman",
+  "baseScale": 0.071875,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -45,7 +45,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.kelocean.desc1"
+    "cobblemon.species.kelocean.desc"
   ],
   "height": 23,
   "weight": 0,

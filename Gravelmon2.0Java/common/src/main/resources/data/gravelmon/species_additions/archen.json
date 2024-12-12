@@ -133,7 +133,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epocharchen.desc1"
+        "cobblemon.species.epocharchen.desc"
       ],
       "height": 5,
       "weight": 95,
@@ -142,9 +142,9 @@
       ],
       "evolutions": [
         {
-          "id": "epocharchen_epoch_archeops",
+          "id": "epocharchen_archeops_epoch",
           "variant": "level_up",
-          "result": "epoch archeops",
+          "result": "archeops epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -319,7 +319,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianarchen.desc1"
+        "cobblemon.species.ayreianarchen.desc"
       ],
       "height": 5,
       "weight": 95,

@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "doublade form=epoch",
       "baseScale": 0.2833333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -37,7 +38,16 @@
       "eggGroups": [
         "mineral"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:astral_stone",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
+      },
       "moves": [
         "40:reflect",
         "40:lightscreen",
@@ -99,10 +109,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochaegislash.desc1"
+        "cobblemon.species.epochaegislash.desc"
       ],
       "height": 17,
       "weight": 530,
@@ -229,7 +241,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochaegislashone.desc1"
+        "cobblemon.species.epochaegislashone.desc"
       ],
       "height": 17,
       "weight": 530,
@@ -358,7 +370,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochaegislashtwo.desc1"
+        "cobblemon.species.epochaegislashtwo.desc"
       ],
       "height": 17,
       "weight": 530,
@@ -500,7 +512,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochaegislashthree.desc1"
+        "cobblemon.species.epochaegislashthree.desc"
       ],
       "height": 17,
       "weight": 530,
@@ -595,7 +607,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.africanusanaegislash.desc1"
+        "cobblemon.species.africanusanaegislash.desc"
       ],
       "height": 17,
       "weight": 530,
@@ -737,7 +749,7 @@
         "gen6"
       ],
       "pokedex": [
-        "cobblemon.species.aegislashx.desc1"
+        "cobblemon.species.aegislashx.desc"
       ],
       "height": 19,
       "weight": 530,

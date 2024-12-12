@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.25,
+  "baseScale": 0.1875,
   "cannotDynamax": false,
   "abilities": [
     "synchronize",
@@ -112,7 +112,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.spelven.desc1"
+    "cobblemon.species.spelven.desc"
   ],
   "height": 15,
   "weight": 288,

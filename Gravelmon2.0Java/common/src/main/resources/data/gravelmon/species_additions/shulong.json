@@ -37,7 +37,39 @@
         "undiscovered"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          },
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 10
+          },
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 10
+          },
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 10
+          },
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          },
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
       },
       "moves": [
         "1:irondefense",
@@ -107,7 +139,7 @@
         "xenoverse"
       ],
       "pokedex": [
-        "cobblemon.species.shulongterrestrial.desc1"
+        "cobblemon.species.shulongterrestrial.desc"
       ],
       "height": 8,
       "weight": 290,
@@ -118,7 +150,7 @@
         {
           "id": "shulongterrestrial_shulong_terrestrialfalse",
           "variant": "level_up",
-          "result": "shulong terrestrial\u003dfalse",
+          "result": "shulong terrestrial=false",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -215,7 +247,7 @@
       "experienceGroup": "slow",
       "eggCycles": 41,
       "baseFriendship": 70,
-      "baseScale": 0.3666666666666667,
+      "baseScale": 0.275,
       "cannotDynamax": false,
       "abilities": [
         "swiftswim",
@@ -241,7 +273,39 @@
         "undiscovered"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          },
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          },
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 10
+          },
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 10
+          },
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 10
+          },
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
       },
       "moves": [
         "1:tidaldragoon",
@@ -313,7 +377,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.shulongxenoversal.desc1"
+        "cobblemon.species.shulongxenoversal.desc"
       ],
       "height": 22,
       "weight": 880,
@@ -324,7 +388,7 @@
         {
           "id": "shulongxenoversal_shulong_xenoversalfalse",
           "variant": "level_up",
-          "result": "shulong xenoversal\u003dfalse",
+          "result": "shulong xenoversal=false",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -421,7 +485,7 @@
       "experienceGroup": "slow",
       "eggCycles": 41,
       "baseFriendship": 70,
-      "baseScale": 0.5166666666666667,
+      "baseScale": 0.38750000000000007,
       "cannotDynamax": false,
       "abilities": [
         "dragonarmor"
@@ -446,7 +510,49 @@
         "undiscovered"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          },
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          },
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          },
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          },
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          },
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          },
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 10
+          },
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
       },
       "moves": [
         "1:watergun",
@@ -514,7 +620,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.shulongastral.desc1"
+        "cobblemon.species.shulongastral.desc"
       ],
       "height": 31,
       "weight": 130,
@@ -525,7 +631,7 @@
         {
           "id": "shulongastral_shulong_astralfalse",
           "variant": "level_up",
-          "result": "shulong astral\u003dfalse",
+          "result": "shulong astral=false",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -600,7 +706,7 @@
       "experienceGroup": "slow",
       "eggCycles": 41,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "hydration"
@@ -647,7 +753,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.shulongx.desc1"
+        "cobblemon.species.shulongx.desc"
       ],
       "height": 5,
       "weight": 70,

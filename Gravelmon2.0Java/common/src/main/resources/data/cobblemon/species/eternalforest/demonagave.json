@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "smyucca",
-  "baseScale": 0.3,
+  "baseScale": 0.056249999999999994,
   "cannotDynamax": false,
   "abilities": [
     "overgrow",
@@ -137,7 +137,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.demonagave.desc1"
+    "cobblemon.species.demonagave.desc"
   ],
   "height": 18,
   "weight": 867,

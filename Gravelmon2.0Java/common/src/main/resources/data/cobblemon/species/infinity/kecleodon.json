@@ -8,7 +8,7 @@
   "eggCycles": 39,
   "baseFriendship": 70,
   "preEvolution": "kecleon",
-  "baseScale": 0.43333333333333335,
+  "baseScale": 0.325,
   "cannotDynamax": false,
   "abilities": [
     "protean"
@@ -131,7 +131,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.kecleodon.desc1"
+    "cobblemon.species.kecleodon.desc"
   ],
   "height": 26,
   "weight": 1420,

@@ -22,7 +22,9 @@ public class PosingFileData {
 
     public JsonElement getPosesJson() {
         var poserJson = new JsonObject();
-        if(head == null || head.isEmpty()) poserJson.addProperty("head", head);
+        if(head != null && !head.isEmpty()) poserJson.addProperty("head", head);
+
+        if(animationFileName == null || animationFileName.isEmpty()) animationFileName = "cutout";
         poserJson.addProperty("portraitScale", portraitScale);
         poserJson.add("portraitTranslation", portraitCoords.getJsonArray());
         poserJson.addProperty("profileScale", profileScale);

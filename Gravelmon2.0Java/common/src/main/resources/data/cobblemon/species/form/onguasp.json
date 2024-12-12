@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "shilcoon",
-  "baseScale": 0.25,
+  "baseScale": 0.046875,
   "cannotDynamax": false,
   "abilities": [
     "noguard"
@@ -47,7 +47,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.onguasp.desc1"
+    "cobblemon.species.onguasp.desc"
   ],
   "height": 15,
   "weight": 0,

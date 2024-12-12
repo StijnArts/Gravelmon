@@ -11,7 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "petilil form\u003dcefiran",
+      "preEvolution": "petilil form=cefiran",
       "baseScale": 0.18333333333333335,
       "cannotDynamax": false,
       "abilities": [
@@ -68,7 +68,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.cefiranlilligant.desc1"
+        "cobblemon.species.cefiranlilligant.desc"
       ],
       "height": 11,
       "weight": 163,

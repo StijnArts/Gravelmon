@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "corfleur",
-  "baseScale": 0.2333333333333333,
+  "baseScale": 0.04375,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -44,7 +44,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.wolfleur.desc1"
+    "cobblemon.species.wolfleur.desc"
   ],
   "height": 14,
   "weight": 0,

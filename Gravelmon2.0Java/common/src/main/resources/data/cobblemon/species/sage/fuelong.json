@@ -9,7 +9,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "crakling",
-  "baseScale": 0.5333333333333333,
+  "baseScale": 0.1,
   "cannotDynamax": false,
   "abilities": [
     "aftermath",
@@ -37,7 +37,14 @@
     "monster"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:gunpowder",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:luckychant",
@@ -123,7 +130,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.fuelong.desc1"
+    "cobblemon.species.fuelong.desc"
   ],
   "height": 32,
   "weight": 724,

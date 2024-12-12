@@ -9,7 +9,7 @@
   "eggCycles": 52,
   "baseFriendship": 70,
   "preEvolution": "inflant",
-  "baseScale": 0.11666666666666665,
+  "baseScale": 0.0875,
   "cannotDynamax": false,
   "abilities": [
     "torrent",
@@ -85,7 +85,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.floatusk.desc1"
+    "cobblemon.species.floatusk.desc"
   ],
   "height": 7,
   "weight": 400,

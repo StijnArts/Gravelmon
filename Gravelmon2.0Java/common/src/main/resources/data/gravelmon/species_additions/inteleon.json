@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "drizzile form=epoch",
       "baseScale": 0.31666666666666665,
       "cannotDynamax": false,
       "abilities": [
@@ -103,10 +104,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochinteleon.desc1"
+        "cobblemon.species.epochinteleon.desc"
       ],
       "height": 19,
       "weight": 452,

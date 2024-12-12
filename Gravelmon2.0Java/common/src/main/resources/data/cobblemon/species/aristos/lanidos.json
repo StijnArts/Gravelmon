@@ -8,7 +8,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "spinarak form\u003daristosian",
+  "preEvolution": "spinarak form=aristosian",
   "baseScale": 0.2333333333333333,
   "cannotDynamax": false,
   "abilities": [
@@ -96,7 +96,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.lanidos.desc1"
+    "cobblemon.species.lanidos.desc"
   ],
   "height": 14,
   "weight": 165,

@@ -37,7 +37,14 @@
     "grass"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:seeds",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:drainpunch",
@@ -139,7 +146,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.kokismash.desc1"
+    "cobblemon.species.kokismash.desc"
   ],
   "height": 21,
   "weight": 1640,

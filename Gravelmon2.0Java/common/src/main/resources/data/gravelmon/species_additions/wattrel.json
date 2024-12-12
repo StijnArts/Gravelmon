@@ -116,7 +116,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochwattrel.desc1"
+        "cobblemon.species.epochwattrel.desc"
       ],
       "height": 4,
       "weight": 36,
@@ -125,9 +125,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochwattrel_epoch_kilowattrel",
+          "id": "epochwattrel_kilowattrel_epoch",
           "variant": "level_up",
-          "result": "epoch kilowattrel",
+          "result": "kilowattrel epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

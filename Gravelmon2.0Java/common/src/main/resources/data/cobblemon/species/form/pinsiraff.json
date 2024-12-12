@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "pinsir form\u003dforman",
-  "baseScale": 0.35000000000000003,
+  "preEvolution": "pinsir form=forman",
+  "baseScale": 0.065625,
   "cannotDynamax": false,
   "abilities": [
     "technician"
@@ -47,7 +47,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.pinsiraff.desc1"
+    "cobblemon.species.pinsiraff.desc"
   ],
   "height": 21,
   "weight": 0,

@@ -115,10 +115,10 @@ public class Grimfowl extends Pokemon {
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
                 AnimationData.standingAnimation().withBlink().withLook()
-                        .addPoseType(PoseType.SWIM).addPoseType(PoseType.FLY)
-                        .addPoseType(PoseType.FLOAT).addPoseType(PoseType.HOVER)
+                        .addPoseType(PoseType.SWIM)
+                        .addPoseType(PoseType.FLOAT)
                         .addPoseType(PoseType.SLEEP).addPoseType(PoseType.WALK),
-                AnimationData.flyingAnimation().withLook().addAnimation(1,"q.sine_wing_flap(0.9, 0.9, 0, 'z', 'wing_left', 'wing_right')").withBlink()
+                AnimationData.hoveringAnimation().addPoseType(PoseType.FLY).withLook().addAnimation(1,"q.sine_wing_flap(0.9, 0.9, 0, 'z', 'wing_left', 'wing_right')").withBlink()
         ));
         getPosingFileData().setCry("q.bedrock_stateful('grimfowl', 'cry')");
 

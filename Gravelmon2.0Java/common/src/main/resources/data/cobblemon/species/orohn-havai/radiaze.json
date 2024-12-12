@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "radizorb",
-  "baseScale": 0.3333333333333333,
+  "baseScale": 16.0,
   "cannotDynamax": false,
   "abilities": [
     "solidrock",
@@ -125,7 +125,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.radiaze.desc1"
+    "cobblemon.species.radiaze.desc"
   ],
   "height": 20,
   "weight": 165,

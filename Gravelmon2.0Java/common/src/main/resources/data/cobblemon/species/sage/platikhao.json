@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "platypow",
-  "baseScale": 0.21666666666666667,
+  "baseScale": 0.040625,
   "cannotDynamax": false,
   "abilities": [
     "poisontouch"
@@ -35,7 +35,14 @@
     "water_1"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:potato",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
   },
   "moves": [
     "1:reversal",
@@ -139,7 +146,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.platikhao.desc1"
+    "cobblemon.species.platikhao.desc"
   ],
   "height": 13,
   "weight": 501,

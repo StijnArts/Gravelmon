@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "rockroach",
-  "baseScale": 0.18333333333333335,
+  "baseScale": 0.034375,
   "cannotDynamax": false,
   "abilities": [
     "runaway",
@@ -107,7 +107,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.boulderoach.desc1"
+    "cobblemon.species.boulderoach.desc"
   ],
   "height": 11,
   "weight": 660,

@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "parant",
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.021875,
       "cannotDynamax": false,
       "abilities": [
         "arenatrap"
@@ -52,7 +52,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formanparas.desc1"
+        "cobblemon.species.formanparas.desc"
       ],
       "height": 7,
       "weight": 0,
@@ -225,7 +225,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochparas.desc1"
+        "cobblemon.species.epochparas.desc"
       ],
       "height": 3,
       "weight": 54,
@@ -234,9 +234,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochparas_epoch_parasect",
+          "id": "epochparas_parasect_epoch",
           "variant": "level_up",
-          "result": "epoch parasect",
+          "result": "parasect epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -396,7 +396,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.avalossianparas.desc1"
+        "cobblemon.species.avalossianparas.desc"
       ],
       "height": 7,
       "weight": 0,

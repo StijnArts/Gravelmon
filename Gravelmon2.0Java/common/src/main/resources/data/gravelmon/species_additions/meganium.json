@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "bayleef form=epoch",
       "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
@@ -103,10 +104,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochmeganium.desc1"
+        "cobblemon.species.epochmeganium.desc"
       ],
       "height": 18,
       "weight": 1005,
@@ -254,7 +257,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochmeganiumone.desc1"
+        "cobblemon.species.epochmeganiumone.desc"
       ],
       "height": 18,
       "weight": 1005,
@@ -337,7 +340,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ionosianmeganium.desc1"
+        "cobblemon.species.ionosianmeganium.desc"
       ],
       "height": 21,
       "weight": 0,
@@ -385,8 +388,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "bayleef form\u003degho",
-      "baseScale": 0.3833333333333333,
+      "preEvolution": "bayleef form=egho",
+      "baseScale": 0.2875,
       "cannotDynamax": false,
       "abilities": [
         "chlorophyll",
@@ -413,7 +416,14 @@
         "dragon"
       ],
       "drops": {
-        "amount": 2
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:apple",
+            "quantityRange": "1-2",
+            "percentage": 50
+          }
+        ]
       },
       "moves": [
         "1:synthesis",
@@ -517,7 +527,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.eghomeganium.desc1"
+        "cobblemon.species.eghomeganium.desc"
       ],
       "height": 23,
       "weight": 1005,
@@ -565,7 +575,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "bayleef form\u003dayreian",
+      "preEvolution": "bayleef form=ayreian",
       "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
@@ -686,7 +696,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianmeganium.desc1"
+        "cobblemon.species.ayreianmeganium.desc"
       ],
       "height": 18,
       "weight": 1005,

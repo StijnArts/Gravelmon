@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.26666666666666666,
+      "baseScale": 0.05,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.raianianscyther.desc1"
+        "cobblemon.species.raianianscyther.desc"
       ],
       "height": 16,
       "weight": 0,
@@ -104,7 +104,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.25,
+      "baseScale": 0.046875,
       "cannotDynamax": false,
       "abilities": [
         "moxie"
@@ -140,7 +140,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanscyther.desc1"
+        "cobblemon.species.formanscyther.desc"
       ],
       "height": 15,
       "weight": 0,
@@ -300,7 +300,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochscyther.desc1"
+        "cobblemon.species.epochscyther.desc"
       ],
       "height": 15,
       "weight": 560,
@@ -309,9 +309,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochscyther_epoch_scizor",
+          "id": "epochscyther_scizor_epoch",
           "variant": "trade",
-          "result": "epoch scizor",
+          "result": "scizor epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -403,7 +403,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.hizianscyther.desc1"
+        "cobblemon.species.hizianscyther.desc"
       ],
       "height": 15,
       "weight": 165,
@@ -585,7 +585,7 @@
         "insurgence"
       ],
       "pokedex": [
-        "cobblemon.species.deltascyther.desc1"
+        "cobblemon.species.deltascyther.desc"
       ],
       "height": 15,
       "weight": 560,
@@ -675,7 +675,14 @@
         "bug"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:preadite",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
       },
       "moves": [
         "1:bulletpunch",
@@ -715,7 +722,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mythianscyther.desc1"
+        "cobblemon.species.mythianscyther.desc"
       ],
       "height": 15,
       "weight": 560,

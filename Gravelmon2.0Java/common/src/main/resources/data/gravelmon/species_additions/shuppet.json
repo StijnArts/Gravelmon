@@ -118,7 +118,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochshuppet.desc1"
+        "cobblemon.species.epochshuppet.desc"
       ],
       "height": 6,
       "weight": 23,
@@ -127,9 +127,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochshuppet_epoch_banette",
+          "id": "epochshuppet_banette_epoch",
           "variant": "level_up",
-          "result": "epoch banette",
+          "result": "banette epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

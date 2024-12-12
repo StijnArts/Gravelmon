@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "koblin",
-  "baseScale": 0.21666666666666667,
+  "baseScale": 0.040625,
   "cannotDynamax": false,
   "abilities": [
     "unaware",
@@ -37,7 +37,19 @@
     "mineral"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:steel",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:superpower",
@@ -143,7 +155,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.kobalt.desc1"
+    "cobblemon.species.kobalt.desc"
   ],
   "height": 13,
   "weight": 1091,

@@ -46,7 +46,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mastenianshroomish.desc1"
+        "cobblemon.species.mastenianshroomish.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -191,7 +191,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochshroomish.desc1"
+        "cobblemon.species.epochshroomish.desc"
       ],
       "height": 4,
       "weight": 45,
@@ -200,9 +200,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochshroomish_epoch_breloom",
+          "id": "epochshroomish_breloom_epoch",
           "variant": "level_up",
-          "result": "epoch breloom",
+          "result": "breloom epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -307,7 +307,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.alteranshroomish.desc1"
+        "cobblemon.species.alteranshroomish.desc"
       ],
       "height": 4,
       "weight": 41,
@@ -462,7 +462,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianshroomish.desc1"
+        "cobblemon.species.ayreianshroomish.desc"
       ],
       "height": 4,
       "weight": 45,

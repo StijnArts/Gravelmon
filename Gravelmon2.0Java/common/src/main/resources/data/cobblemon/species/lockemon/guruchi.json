@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.18333333333333335,
+  "baseScale": 0.034375,
   "cannotDynamax": false,
   "abilities": [
     "energizer",
@@ -63,7 +63,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.guruchi.desc1"
+    "cobblemon.species.guruchi.desc"
   ],
   "height": 11,
   "weight": 1255,

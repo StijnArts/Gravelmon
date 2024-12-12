@@ -125,7 +125,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochmunna.desc1"
+        "cobblemon.species.epochmunna.desc"
       ],
       "height": 6,
       "weight": 233,
@@ -134,9 +134,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmunna_epoch_musharna",
+          "id": "epochmunna_musharna_epoch",
           "variant": "item_interact",
-          "result": "epoch musharna",
+          "result": "musharna epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

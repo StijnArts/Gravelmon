@@ -120,7 +120,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochskwovet.desc1"
+        "cobblemon.species.epochskwovet.desc"
       ],
       "height": 3,
       "weight": 25,
@@ -129,9 +129,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochskwovet_epoch_greedent",
+          "id": "epochskwovet_greedent_epoch",
           "variant": "level_up",
-          "result": "epoch greedent",
+          "result": "greedent epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

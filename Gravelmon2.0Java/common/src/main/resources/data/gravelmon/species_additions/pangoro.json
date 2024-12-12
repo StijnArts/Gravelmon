@@ -11,7 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "pancham form\u003dayreian",
+      "preEvolution": "pancham form=ayreian",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -164,7 +164,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianpangoro.desc1"
+        "cobblemon.species.ayreianpangoro.desc"
       ],
       "height": 6,
       "weight": 80,

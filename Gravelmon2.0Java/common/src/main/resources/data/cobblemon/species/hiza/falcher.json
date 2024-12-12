@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "scyther form\u003dhizian",
+  "preEvolution": "scyther form=hizian",
   "baseScale": 0.3,
   "cannotDynamax": false,
   "abilities": [
@@ -55,7 +55,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.falcher.desc1"
+    "cobblemon.species.falcher.desc"
   ],
   "height": 18,
   "weight": 165,

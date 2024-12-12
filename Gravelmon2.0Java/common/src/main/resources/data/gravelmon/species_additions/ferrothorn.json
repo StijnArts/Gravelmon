@@ -10,6 +10,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "ferroseed form=epoch",
       "baseScale": 0.16666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -95,10 +96,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochferrothorn.desc1"
+        "cobblemon.species.epochferrothorn.desc"
       ],
       "height": 10,
       "weight": 1100,

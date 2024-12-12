@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "leafguard"
@@ -49,7 +49,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formansunkern.desc1"
+        "cobblemon.species.formansunkern.desc"
       ],
       "height": 3,
       "weight": 0,
@@ -199,7 +199,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochsunkern.desc1"
+        "cobblemon.species.epochsunkern.desc"
       ],
       "height": 3,
       "weight": 18,
@@ -208,9 +208,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochsunkern_epoch_sunflora",
+          "id": "epochsunkern_sunflora_epoch",
           "variant": "item_interact",
-          "result": "epoch sunflora",
+          "result": "sunflora epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -258,7 +258,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "flamebody",
@@ -374,7 +374,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltasunkern.desc1"
+        "cobblemon.species.deltasunkern.desc"
       ],
       "height": 3,
       "weight": 18,

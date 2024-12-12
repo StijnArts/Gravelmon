@@ -15,7 +15,14 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:fire_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "forms": [
     {
@@ -28,6 +35,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "sunkern form=epoch",
       "baseScale": 0.13333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -112,10 +120,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochsunflora.desc1"
+        "cobblemon.species.epochsunflora.desc"
       ],
       "height": 8,
       "weight": 85,
@@ -163,8 +173,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "sunkern form\u003ddelta",
-      "baseScale": 0.13333333333333333,
+      "preEvolution": "sunkern form=delta",
+      "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
         "flamebody",
@@ -291,7 +301,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltasunflora.desc1"
+        "cobblemon.species.deltasunflora.desc"
       ],
       "height": 8,
       "weight": 85,

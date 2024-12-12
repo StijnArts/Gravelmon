@@ -129,7 +129,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochskorupi.desc1"
+        "cobblemon.species.epochskorupi.desc"
       ],
       "height": 8,
       "weight": 120,
@@ -138,9 +138,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochskorupi_epoch_drapion",
+          "id": "epochskorupi_drapion_epoch",
           "variant": "level_up",
-          "result": "epoch drapion",
+          "result": "drapion epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -235,7 +235,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.hizianskorupi.desc1"
+        "cobblemon.species.hizianskorupi.desc"
       ],
       "height": 8,
       "weight": 165,

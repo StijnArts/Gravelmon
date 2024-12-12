@@ -7,7 +7,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "strongjaw"
@@ -57,7 +57,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.buwuve.desc1"
+    "cobblemon.species.buwuve.desc"
   ],
   "height": 3,
   "weight": 121,

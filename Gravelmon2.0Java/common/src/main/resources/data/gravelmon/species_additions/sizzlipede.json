@@ -114,7 +114,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochsizzlipede.desc1"
+        "cobblemon.species.epochsizzlipede.desc"
       ],
       "height": 7,
       "weight": 10,
@@ -123,9 +123,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochsizzlipede_epoch_centiskorch",
+          "id": "epochsizzlipede_centiskorch_epoch",
           "variant": "level_up",
-          "result": "epoch centiskorch",
+          "result": "centiskorch epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -255,7 +255,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.seviiansizzlipede.desc1"
+        "cobblemon.species.seviiansizzlipede.desc"
       ],
       "height": 7,
       "weight": 10,
@@ -393,7 +393,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiansizzlipede.desc1"
+        "cobblemon.species.ayreiansizzlipede.desc"
       ],
       "height": 7,
       "weight": 10,

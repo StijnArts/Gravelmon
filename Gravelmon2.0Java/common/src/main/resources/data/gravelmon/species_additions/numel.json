@@ -116,7 +116,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochnumel.desc1"
+        "cobblemon.species.epochnumel.desc"
       ],
       "height": 7,
       "weight": 240,
@@ -125,9 +125,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochnumel_epoch_camerupt",
+          "id": "epochnumel_camerupt_epoch",
           "variant": "level_up",
-          "result": "epoch camerupt",
+          "result": "camerupt epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -296,7 +296,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochnumelone.desc1"
+        "cobblemon.species.epochnumelone.desc"
       ],
       "height": 11,
       "weight": 480,
@@ -449,7 +449,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.norheimannumel.desc1"
+        "cobblemon.species.norheimannumel.desc"
       ],
       "height": 7,
       "weight": 165,
@@ -511,7 +511,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.0875,
       "cannotDynamax": false,
       "abilities": [
         "poisonpoint",
@@ -605,7 +605,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltanumel.desc1"
+        "cobblemon.species.deltanumel.desc"
       ],
       "height": 7,
       "weight": 240,
@@ -772,7 +772,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiannumel.desc1"
+        "cobblemon.species.ayreiannumel.desc"
       ],
       "height": 7,
       "weight": 240,
@@ -899,7 +899,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.cefirannumel.desc1"
+        "cobblemon.species.cefirannumel.desc"
       ],
       "height": 7,
       "weight": 240,

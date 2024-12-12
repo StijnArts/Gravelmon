@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "crocalor form=epoch",
       "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -121,10 +122,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochskeledirge.desc1"
+        "cobblemon.species.epochskeledirge.desc"
       ],
       "height": 16,
       "weight": 3265,

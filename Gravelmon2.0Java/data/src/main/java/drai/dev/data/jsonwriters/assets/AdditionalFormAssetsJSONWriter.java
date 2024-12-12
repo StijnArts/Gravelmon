@@ -48,7 +48,7 @@ public class AdditionalFormAssetsJSONWriter {
                 }
                 int order = formCounter + java.util.Arrays.asList(Aspect.values()).indexOf(pokemon.getAdditionalAspect());
                 BufferedWriter writer = new BufferedWriter(new FileWriter(dir + order + "_" + GravelmonUtils.getCleanName(set.getKey()) + "_" + aspect + ".json"));
-                writer.write(gson.toJson(pokemon.getSpeciesFileData().toJsonObject("cobblemon:" + GravelmonUtils.getCleanName(set.getKey()), order, List.of(aspect), pokemon)));
+                writer.write(gson.toJson(pokemon.getSpeciesFileData().toJsonObject(GravelmonUtils.getCleanName(set.getKey()), order, List.of(aspect), pokemon)));
                 writer.close();
                 /*
 

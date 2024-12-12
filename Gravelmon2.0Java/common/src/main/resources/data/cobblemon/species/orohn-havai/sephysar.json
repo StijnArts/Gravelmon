@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "ogoprowl",
-  "baseScale": 0.5166666666666667,
+  "baseScale": 24.800000000000004,
   "cannotDynamax": false,
   "abilities": [
     "swiftswim",
@@ -69,7 +69,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.sephysar.desc1"
+    "cobblemon.species.sephysar.desc"
   ],
   "height": 31,
   "weight": 165,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "lyngortos",
-  "baseScale": 1.5999999999999999,
+  "baseScale": 0.3,
   "cannotDynamax": false,
   "abilities": [
     "raindish"
@@ -47,7 +47,7 @@
     "norse"
   ],
   "pokedex": [
-    "cobblemon.species.whalyn.desc1"
+    "cobblemon.species.whalyn.desc"
   ],
   "height": 96,
   "weight": 0,

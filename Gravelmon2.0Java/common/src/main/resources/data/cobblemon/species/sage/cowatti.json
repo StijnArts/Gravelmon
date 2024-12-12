@@ -35,7 +35,14 @@
     "fairy"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:redstone",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
   },
   "moves": [
     "1:tackle",
@@ -106,7 +113,7 @@
     "sage"
   ],
   "pokedex": [
-    "cobblemon.species.cowatti.desc1"
+    "cobblemon.species.cowatti.desc"
   ],
   "height": 6,
   "weight": 116,

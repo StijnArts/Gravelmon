@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianmetang.desc1"
+        "cobblemon.species.fabelianmetang.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -93,6 +93,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "beldum form=epoch",
       "baseScale": 0.19999999999999998,
       "cannotDynamax": false,
       "abilities": [
@@ -201,10 +202,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochmetang.desc1"
+        "cobblemon.species.epochmetang.desc"
       ],
       "height": 12,
       "weight": 2025,
@@ -213,9 +216,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmetang_epoch_metagross",
+          "id": "epochmetang_metagross_epoch",
           "variant": "level_up",
-          "result": "epoch metagross",
+          "result": "metagross epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -267,8 +270,8 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "beldum form\u003ddelta_spider",
-      "baseScale": 0.19999999999999998,
+      "preEvolution": "beldum form=delta_spider",
+      "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
         "poisontouch",
@@ -402,7 +405,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltaspidermetang.desc1"
+        "cobblemon.species.deltaspidermetang.desc"
       ],
       "height": 12,
       "weight": 1013,
@@ -465,7 +468,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "beldum form\u003ddelta_ruin",
+      "preEvolution": "beldum form=delta_ruin",
       "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
@@ -589,7 +592,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltaruinmetang.desc1"
+        "cobblemon.species.deltaruinmetang.desc"
       ],
       "height": 12,
       "weight": 2025,

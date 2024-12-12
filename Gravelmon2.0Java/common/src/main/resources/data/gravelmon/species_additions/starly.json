@@ -91,7 +91,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochstarly.desc1"
+        "cobblemon.species.epochstarly.desc"
       ],
       "height": 3,
       "weight": 20,
@@ -100,9 +100,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochstarly_epoch_staravia",
+          "id": "epochstarly_staravia_epoch",
           "variant": "level_up",
-          "result": "epoch staravia",
+          "result": "staravia epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

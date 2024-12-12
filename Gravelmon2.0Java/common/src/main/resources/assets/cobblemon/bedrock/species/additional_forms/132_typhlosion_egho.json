@@ -1,21 +1,15 @@
 {
   "species": "cobblemon:typhlosion",
-  "order": 3,
+  "order": 132,
   "variations": [
     {
       "aspects": [
         "egho"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation2_eghotyphlosion",
+      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
+      "poser": "cobblemon:cutout_gravelmon_128_by_128",
       "texture": "cobblemon:textures/pokemon/generation2/eghotyphlosion.png",
       "layers": [
-        {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
         {
           "name": "emissive"
         },
@@ -23,39 +17,19 @@
           "name": "transparentEmissive"
         },
         {
-          "name": "flame"
+          "name": "tail"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "egho",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation2_eghotyphlosion",
-      "texture": "cobblemon:textures/pokemon/generation2/eghotyphlosion.png",
-      "layers": [
-        {
-          "name": "glow"
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
         },
         {
-          "name": "emissive"
-        },
-        {
-          "name": "transparentEmissive"
-        },
-        {
           "name": "flame"
         },
         {
-          "name": "tail"
+          "name": "glow"
         }
       ]
     }

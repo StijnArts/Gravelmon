@@ -51,7 +51,19 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:dawn_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:dusk_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "forms": [
     {
@@ -65,7 +77,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "twinz",
-      "baseScale": 0.26666666666666666,
+      "baseScale": 0.05,
       "cannotDynamax": false,
       "abilities": [
         "magicbounce"
@@ -101,7 +113,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formangirafarig.desc1"
+        "cobblemon.species.formangirafarig.desc"
       ],
       "height": 16,
       "weight": 0,
@@ -185,7 +197,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ionosiangirafarig.desc1"
+        "cobblemon.species.ionosiangirafarig.desc"
       ],
       "height": 19,
       "weight": 0,
@@ -233,7 +245,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.25,
+      "baseScale": 0.1875,
       "cannotDynamax": false,
       "abilities": [
         "intimidate"
@@ -368,7 +380,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltagirafarig.desc1"
+        "cobblemon.species.deltagirafarig.desc"
       ],
       "height": 15,
       "weight": 830,

@@ -4,23 +4,30 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_kidling",
       "model": "cobblemon:sage_kidling.geo",
+      "poser": "cobblemon:sage_kidling",
       "texture": "cobblemon:textures/pokemon/sage/kidling/kidling.png",
       "layers": [
         {
-          "name": "flame",
-          "texture": {
-            "frames": [
-              "cobblemon:textures/pokemon/sage/kidling/flame/flame1.png",
-              "cobblemon:textures/pokemon/sage/kidling/flame/flame2.png",
-              "cobblemon:textures/pokemon/sage/kidling/flame/flame3.png",
-              "cobblemon:textures/pokemon/sage/kidling/flame/flame4.png"
-            ],
-            "fps": 10,
-            "loop": true
-          },
-          "emissive": true
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
         }
       ]
     },
@@ -28,6 +35,32 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/sage/kidling/kidling_shiny.png"
-    }  ]
+      "model": "cobblemon:sage_kidling.geo",
+      "poser": "cobblemon:sage_kidling",
+      "texture": "cobblemon:textures/pokemon/sage/kidling/kidling_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
+    }
+  ]
 }

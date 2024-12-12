@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pinsir",
-  "baseScale": 0.3,
+  "baseScale": 0.22499999999999998,
   "cannotDynamax": false,
   "abilities": [
     "hypercutter"
@@ -104,7 +104,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.pinchor.desc1"
+    "cobblemon.species.pinchor.desc"
   ],
   "height": 18,
   "weight": 1170,

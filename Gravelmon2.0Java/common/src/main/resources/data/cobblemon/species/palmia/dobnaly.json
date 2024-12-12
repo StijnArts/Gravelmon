@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "upacoon",
-  "baseScale": 0.25,
+  "baseScale": 0.046875,
   "cannotDynamax": false,
   "abilities": [
     "speedboost",
@@ -50,7 +50,7 @@
     "palmia"
   ],
   "pokedex": [
-    "cobblemon.species.dobnaly.desc1"
+    "cobblemon.species.dobnaly.desc"
   ],
   "height": 15,
   "weight": 0,

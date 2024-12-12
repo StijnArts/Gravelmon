@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "tyrunt form=epoch",
       "baseScale": 0.4166666666666667,
       "cannotDynamax": false,
       "abilities": [
@@ -125,10 +126,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochtyrantrum.desc1"
+        "cobblemon.species.epochtyrantrum.desc"
       ],
       "height": 25,
       "weight": 2700,

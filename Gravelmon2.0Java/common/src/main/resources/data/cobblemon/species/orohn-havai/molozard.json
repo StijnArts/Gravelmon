@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "chemecko",
-  "baseScale": 0.18333333333333335,
+  "baseScale": 8.8,
   "cannotDynamax": false,
   "abilities": [
     "frisk",
@@ -65,7 +65,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.molozard.desc1"
+    "cobblemon.species.molozard.desc"
   ],
   "height": 11,
   "weight": 165,

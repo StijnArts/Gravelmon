@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "simpaima",
-  "baseScale": 0.45,
+  "baseScale": 0.084375,
   "cannotDynamax": false,
   "abilities": [
     "wonderskin",
@@ -111,7 +111,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.arowisen.desc1"
+    "cobblemon.species.arowisen.desc"
   ],
   "height": 27,
   "weight": 1276,

@@ -144,7 +144,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochhelioptile.desc1"
+        "cobblemon.species.epochhelioptile.desc"
       ],
       "height": 5,
       "weight": 60,
@@ -153,9 +153,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochhelioptile_epoch_heliolisk",
+          "id": "epochhelioptile_heliolisk_epoch",
           "variant": "item_interact",
-          "result": "epoch heliolisk",
+          "result": "heliolisk epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -255,7 +255,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.vesitanhelioptile.desc1"
+        "cobblemon.species.vesitanhelioptile.desc"
       ],
       "height": 5,
       "weight": 60,

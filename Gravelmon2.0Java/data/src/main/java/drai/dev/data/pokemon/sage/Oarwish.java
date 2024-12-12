@@ -122,8 +122,7 @@ public class Oarwish extends Pokemon {
                 AnimationData.walkingAnimation().withBlink(),
                 AnimationData.swimmingAnimation().withBlink(),
                 AnimationData.surfaceFloatingAnimation().withBlink(),
-                AnimationData.flyingAnimation().inWater().withBlink(),
-                AnimationData.sleepingAnimation()
+                AnimationData.floatingAnimation().inWater().withBlink()
         ));
     }
 }

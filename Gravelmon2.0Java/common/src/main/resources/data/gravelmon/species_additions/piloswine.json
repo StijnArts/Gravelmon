@@ -11,6 +11,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "swinub form=epoch",
       "baseScale": 0.18333333333333335,
       "cannotDynamax": false,
       "abilities": [
@@ -105,10 +106,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochpiloswine.desc1"
+        "cobblemon.species.epochpiloswine.desc"
       ],
       "height": 11,
       "weight": 558,
@@ -117,9 +120,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochpiloswine_epoch_mamoswine",
+          "id": "epochpiloswine_mamoswine_epoch",
           "variant": "item_interact",
-          "result": "epoch mamoswine",
+          "result": "mamoswine epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -275,7 +278,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochpiloswineone.desc1"
+        "cobblemon.species.epochpiloswineone.desc"
       ],
       "height": 11,
       "weight": 558,

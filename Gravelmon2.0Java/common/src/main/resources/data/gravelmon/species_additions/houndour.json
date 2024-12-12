@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "berserk"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanhoundour.desc1"
+        "cobblemon.species.formanhoundour.desc"
       ],
       "height": 6,
       "weight": 0,
@@ -210,7 +210,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochhoundour.desc1"
+        "cobblemon.species.epochhoundour.desc"
       ],
       "height": 6,
       "weight": 108,
@@ -219,9 +219,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochhoundour_epoch_houndoom",
+          "id": "epochhoundour_houndoom_epoch",
           "variant": "level_up",
-          "result": "epoch houndoom",
+          "result": "houndoom epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -323,7 +323,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.norheimanhoundour.desc1"
+        "cobblemon.species.norheimanhoundour.desc"
       ],
       "height": 6,
       "weight": 165,

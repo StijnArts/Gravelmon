@@ -15,22 +15,19 @@ public class Xenoverse extends Game {
 
     @Override
     public void registerPokemon() {
-        Pokemon shyleon = new Shyleon();
-        addNewPokemon(shyleon);
+        addNewPokemon(new Shyleon());
         addNewPokemon(new ShyleonTerrestrial("", Aspect.TERRESTRIAL));
         addNewPokemon(new ShyleonXenoversal("", Aspect.XENOVERSAL));
         addNewPokemon(new ShyleonAstral("", Aspect.ASTRAL));
         addNewPokemon(new ShyleonX("", Aspect.X));
         removePokedexPokemon("shyleon-x");
-        Pokemon trishout = new Trishout();
-        addNewPokemon(trishout);
+        addNewPokemon(new Trishout());
         addNewPokemon(new TrishoutTerrestrial("", Aspect.TERRESTRIAL));
         addNewPokemon(new TrishoutXenoversal("", Aspect.XENOVERSAL));
         addNewPokemon(new TrishoutAstral("", Aspect.ASTRAL));
         addNewPokemon(new TrishoutX("", Aspect.X));
         removePokedexPokemon("trishout-x");
-        Pokemon shulong = new Shulong();
-        addNewPokemon(shulong);
+        addNewPokemon(new Shulong());
         addNewPokemon(new ShulongTerrestrial("", Aspect.TERRESTRIAL));
         addNewPokemon(new ShulongXenoversal("", Aspect.XENOVERSAL));
         addNewPokemon(new ShulongAstral("", Aspect.ASTRAL));

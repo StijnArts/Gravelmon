@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.13333333333333333,
+  "baseScale": 0.025,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -41,7 +41,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.icephan.desc1"
+    "cobblemon.species.icephan.desc"
   ],
   "height": 8,
   "weight": 0,

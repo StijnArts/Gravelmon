@@ -63,7 +63,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.2333333333333333,
+      "baseScale": 0.04375,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -97,7 +97,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.raianianabsol.desc1"
+        "cobblemon.species.raianianabsol.desc"
       ],
       "height": 14,
       "weight": 0,
@@ -144,7 +144,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.2833333333333333,
+      "baseScale": 0.053125,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -177,7 +177,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.trizoranabsol.desc1"
+        "cobblemon.species.trizoranabsol.desc"
       ],
       "height": 17,
       "weight": 0,
@@ -224,7 +224,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.19999999999999998,
+      "baseScale": 0.0375,
       "cannotDynamax": false,
       "abilities": [
         "infiltrator"
@@ -258,7 +258,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.norseabsol.desc1"
+        "cobblemon.species.norseabsol.desc"
       ],
       "height": 12,
       "weight": 0,
@@ -384,7 +384,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochabsol.desc1"
+        "cobblemon.species.epochabsol.desc"
       ],
       "height": 12,
       "weight": 470,
@@ -531,7 +531,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochabsolone.desc1"
+        "cobblemon.species.epochabsolone.desc"
       ],
       "height": 12,
       "weight": 470,

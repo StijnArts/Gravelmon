@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "paras form=epoch",
       "baseScale": 0.16666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -107,10 +108,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochparasect.desc1"
+        "cobblemon.species.epochparasect.desc"
       ],
       "height": 10,
       "weight": 295,
@@ -158,7 +161,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "paras form\u003davalossian",
+      "preEvolution": "paras form=avalossian",
       "baseScale": 0.2833333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -269,7 +272,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.avalossianparasect.desc1"
+        "cobblemon.species.avalossianparasect.desc"
       ],
       "height": 17,
       "weight": 0,

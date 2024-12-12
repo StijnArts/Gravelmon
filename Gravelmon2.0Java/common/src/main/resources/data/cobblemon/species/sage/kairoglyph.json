@@ -9,7 +9,7 @@
   "eggCycles": 39,
   "baseFriendship": 70,
   "preEvolution": "cairup",
-  "baseScale": 0.2333333333333333,
+  "baseScale": 0.04375,
   "cannotDynamax": false,
   "abilities": [
     "sandstream",
@@ -37,7 +37,14 @@
     "monster"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:sandstone",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:psychoshift",
@@ -149,7 +156,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.kairoglyph.desc1"
+    "cobblemon.species.kairoglyph.desc"
   ],
   "height": 14,
   "weight": 570,

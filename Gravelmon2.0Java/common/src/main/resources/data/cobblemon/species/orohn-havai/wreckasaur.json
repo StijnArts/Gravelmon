@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "petirex",
-  "baseScale": 0.3666666666666667,
+  "baseScale": 17.6,
   "cannotDynamax": false,
   "abilities": [
     "rockhead",
@@ -65,7 +65,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.wreckasaur.desc1"
+    "cobblemon.species.wreckasaur.desc"
   ],
   "height": 22,
   "weight": 165,

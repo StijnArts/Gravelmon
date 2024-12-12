@@ -48,7 +48,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mastenianbreloom.desc1"
+        "cobblemon.species.mastenianbreloom.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -96,6 +96,7 @@
       "experienceGroup": "fluctuating",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "shroomish form=epoch",
       "baseScale": 0.19999999999999998,
       "cannotDynamax": false,
       "abilities": [
@@ -188,10 +189,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochbreloom.desc1"
+        "cobblemon.species.epochbreloom.desc"
       ],
       "height": 12,
       "weight": 392,
@@ -299,7 +302,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.alteranbreloom.desc1"
+        "cobblemon.species.alteranbreloom.desc"
       ],
       "height": 12,
       "weight": 392,
@@ -456,7 +459,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianbreloom.desc1"
+        "cobblemon.species.ayreianbreloom.desc"
       ],
       "height": 12,
       "weight": 392,

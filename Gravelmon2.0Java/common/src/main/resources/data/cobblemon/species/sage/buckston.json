@@ -8,7 +8,7 @@
   "eggCycles": 48,
   "baseFriendship": 70,
   "preEvolution": "llamarsh",
-  "baseScale": 0.3,
+  "baseScale": 0.056249999999999994,
   "cannotDynamax": false,
   "abilities": [
     "rivalry",
@@ -35,7 +35,19 @@
     "field"
   ],
   "drops": {
-    "amount": 4
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:berries",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:megahorn",
@@ -112,7 +124,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.buckston.desc1"
+    "cobblemon.species.buckston.desc"
   ],
   "height": 18,
   "weight": 1188,

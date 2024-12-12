@@ -9,7 +9,7 @@
   "eggCycles": 32,
   "baseFriendship": 70,
   "preEvolution": "peckabone",
-  "baseScale": 0.2833333333333333,
+  "baseScale": 0.2125,
   "cannotDynamax": false,
   "abilities": [
     "pressure"
@@ -118,7 +118,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.rexquiem.desc1"
+    "cobblemon.species.rexquiem.desc"
   ],
   "height": 17,
   "weight": 170,

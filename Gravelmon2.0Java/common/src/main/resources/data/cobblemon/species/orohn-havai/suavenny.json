@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "luvenny",
-  "baseScale": 0.21666666666666667,
+  "baseScale": 10.4,
   "cannotDynamax": false,
   "abilities": [
     "pickup",
@@ -99,7 +99,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.suavenny.desc1"
+    "cobblemon.species.suavenny.desc"
   ],
   "height": 13,
   "weight": 165,

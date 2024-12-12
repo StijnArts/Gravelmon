@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.18333333333333335,
+      "baseScale": 0.034375,
       "cannotDynamax": false,
       "abilities": [
         "swiftswim"
@@ -49,7 +49,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanekans.desc1"
+        "cobblemon.species.formanekans.desc"
       ],
       "height": 11,
       "weight": 0,
@@ -220,7 +220,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochekans.desc1"
+        "cobblemon.species.epochekans.desc"
       ],
       "height": 20,
       "weight": 69,
@@ -229,9 +229,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochekans_epoch_arbok",
+          "id": "epochekans_arbok_epoch",
           "variant": "level_up",
-          "result": "epoch arbok",
+          "result": "arbok epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -317,7 +317,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ionosianekans.desc1"
+        "cobblemon.species.ionosianekans.desc"
       ],
       "height": 7,
       "weight": 0,
@@ -437,7 +437,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.alteranekans.desc1"
+        "cobblemon.species.alteranekans.desc"
       ],
       "height": 7,
       "weight": 80,

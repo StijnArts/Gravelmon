@@ -109,7 +109,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochshellos.desc1"
+        "cobblemon.species.epochshellos.desc"
       ],
       "height": 3,
       "weight": 63,
@@ -118,9 +118,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochshellos_epoch_gastrodon",
+          "id": "epochshellos_gastrodon_epoch",
           "variant": "level_up",
-          "result": "epoch gastrodon",
+          "result": "gastrodon epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -286,7 +286,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochshellosone.desc1"
+        "cobblemon.species.epochshellosone.desc"
       ],
       "height": 3,
       "weight": 63,
@@ -457,7 +457,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochshellostwo.desc1"
+        "cobblemon.species.epochshellostwo.desc"
       ],
       "height": 3,
       "weight": 63,
@@ -640,7 +640,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochshellosthree.desc1"
+        "cobblemon.species.epochshellosthree.desc"
       ],
       "height": 3,
       "weight": 63,
@@ -816,7 +816,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochshellosfour.desc1"
+        "cobblemon.species.epochshellosfour.desc"
       ],
       "height": 3,
       "weight": 63,
@@ -1001,7 +1001,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochshellosfive.desc1"
+        "cobblemon.species.epochshellosfive.desc"
       ],
       "height": 3,
       "weight": 63,
@@ -1175,7 +1175,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochshellossix.desc1"
+        "cobblemon.species.epochshellossix.desc"
       ],
       "height": 3,
       "weight": 63,
@@ -1346,7 +1346,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochshellosseven.desc1"
+        "cobblemon.species.epochshellosseven.desc"
       ],
       "height": 3,
       "weight": 63,
@@ -1522,7 +1522,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochshelloseight.desc1"
+        "cobblemon.species.epochshelloseight.desc"
       ],
       "height": 3,
       "weight": 63,
@@ -1701,7 +1701,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochshellosnine.desc1"
+        "cobblemon.species.epochshellosnine.desc"
       ],
       "height": 3,
       "weight": 63,
@@ -1888,7 +1888,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochshellosten.desc1"
+        "cobblemon.species.epochshellosten.desc"
       ],
       "height": 3,
       "weight": 63,
@@ -2065,7 +2065,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochshelloseleven.desc1"
+        "cobblemon.species.epochshelloseleven.desc"
       ],
       "height": 3,
       "weight": 63,
@@ -2210,7 +2210,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.avalossianshellos.desc1"
+        "cobblemon.species.avalossianshellos.desc"
       ],
       "height": 3,
       "weight": 63,
@@ -2375,7 +2375,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ricanshellos.desc1"
+        "cobblemon.species.ricanshellos.desc"
       ],
       "height": 3,
       "weight": 63,

@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "cyndaquil form=epoch",
       "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
@@ -113,10 +114,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochquilava.desc1"
+        "cobblemon.species.epochquilava.desc"
       ],
       "height": 9,
       "weight": 190,
@@ -125,9 +128,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochquilava_epoch_typhlosion",
+          "id": "epochquilava_typhlosion_epoch",
           "variant": "level_up",
-          "result": "epoch typhlosion",
+          "result": "typhlosion epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -265,7 +268,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochquilavaone.desc1"
+        "cobblemon.species.epochquilavaone.desc"
       ],
       "height": 9,
       "weight": 190,
@@ -367,7 +370,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ionosianquilava.desc1"
+        "cobblemon.species.ionosianquilava.desc"
       ],
       "height": 7,
       "weight": 0,
@@ -430,8 +433,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "cyndaquil form\u003degho",
-      "baseScale": 0.15,
+      "preEvolution": "cyndaquil form=egho",
+      "baseScale": 0.11249999999999999,
       "cannotDynamax": false,
       "abilities": [
         "static",
@@ -457,7 +460,14 @@
         "field"
       ],
       "drops": {
-        "amount": 2
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:gunpowder",
+            "quantityRange": "1-2",
+            "percentage": 50
+          }
+        ]
       },
       "moves": [
         "1:flamewheel",
@@ -551,7 +561,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.eghoquilava.desc1"
+        "cobblemon.species.eghoquilava.desc"
       ],
       "height": 9,
       "weight": 140,
@@ -614,8 +624,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "cyndaquil form\u003ddelta",
-      "baseScale": 0.15,
+      "preEvolution": "cyndaquil form=delta",
+      "baseScale": 0.11249999999999999,
       "cannotDynamax": false,
       "abilities": [
         "static",
@@ -739,7 +749,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltaquilava.desc1"
+        "cobblemon.species.deltaquilava.desc"
       ],
       "height": 9,
       "weight": 285,
@@ -802,7 +812,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "cyndaquil form\u003dayreian",
+      "preEvolution": "cyndaquil form=ayreian",
       "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
@@ -973,7 +983,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianquilava.desc1"
+        "cobblemon.species.ayreianquilava.desc"
       ],
       "height": 9,
       "weight": 190,

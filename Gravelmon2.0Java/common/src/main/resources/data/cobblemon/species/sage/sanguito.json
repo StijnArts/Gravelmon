@@ -8,7 +8,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.11666666666666665,
+  "baseScale": 0.021875,
   "cannotDynamax": false,
   "abilities": [
     "siphon",
@@ -34,7 +34,14 @@
     "bug"
   ],
   "drops": {
-    "amount": 4
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:spider_eye",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
   },
   "moves": [
     "1:acupressure",
@@ -107,7 +114,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.sanguito.desc1"
+    "cobblemon.species.sanguito.desc"
   ],
   "height": 7,
   "weight": 42,

@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 32,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.07500000000000001,
   "cannotDynamax": false,
   "abilities": [
     "intimidate",
@@ -87,7 +87,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.masgot.desc1"
+    "cobblemon.species.masgot.desc"
   ],
   "height": 4,
   "weight": 36,
@@ -154,7 +154,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 32,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "intimidate",
@@ -232,7 +232,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fire.desc1"
+        "cobblemon.species.fire.desc"
       ],
       "height": 4,
       "weight": 36,
@@ -252,7 +252,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 32,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "intimidate",
@@ -331,7 +331,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ghost.desc1"
+        "cobblemon.species.ghost.desc"
       ],
       "height": 4,
       "weight": 36,
@@ -351,7 +351,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 32,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "intimidate",
@@ -430,7 +430,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ice.desc1"
+        "cobblemon.species.ice.desc"
       ],
       "height": 4,
       "weight": 36,
@@ -450,7 +450,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 32,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "intimidate",
@@ -529,7 +529,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.dark.desc1"
+        "cobblemon.species.dark.desc"
       ],
       "height": 4,
       "weight": 36,
@@ -549,7 +549,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 32,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "intimidate",
@@ -628,7 +628,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.electric.desc1"
+        "cobblemon.species.electric.desc"
       ],
       "height": 4,
       "weight": 36,
@@ -648,7 +648,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 32,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "intimidate",
@@ -727,7 +727,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fighting.desc1"
+        "cobblemon.species.fighting.desc"
       ],
       "height": 4,
       "weight": 36,
@@ -747,7 +747,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 32,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "intimidate",
@@ -826,7 +826,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.flying.desc1"
+        "cobblemon.species.flying.desc"
       ],
       "height": 4,
       "weight": 36,
@@ -846,7 +846,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 32,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "intimidate",
@@ -925,7 +925,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.grass.desc1"
+        "cobblemon.species.grass.desc"
       ],
       "height": 4,
       "weight": 36,
@@ -945,7 +945,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 32,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "intimidate",
@@ -1024,7 +1024,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.rock.desc1"
+        "cobblemon.species.rock.desc"
       ],
       "height": 4,
       "weight": 36,
@@ -1044,7 +1044,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 32,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "intimidate",
@@ -1123,7 +1123,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.poison.desc1"
+        "cobblemon.species.poison.desc"
       ],
       "height": 4,
       "weight": 36,
@@ -1143,7 +1143,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 32,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "intimidate",
@@ -1222,7 +1222,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ground.desc1"
+        "cobblemon.species.ground.desc"
       ],
       "height": 4,
       "weight": 36,
@@ -1242,7 +1242,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 32,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "intimidate",
@@ -1321,7 +1321,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.steel.desc1"
+        "cobblemon.species.steel.desc"
       ],
       "height": 4,
       "weight": 36,
@@ -1341,7 +1341,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 32,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "intimidate",
@@ -1420,7 +1420,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.water.desc1"
+        "cobblemon.species.water.desc"
       ],
       "height": 4,
       "weight": 36,
@@ -1440,7 +1440,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 32,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "intimidate",
@@ -1519,7 +1519,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.sound.desc1"
+        "cobblemon.species.sound.desc"
       ],
       "height": 4,
       "weight": 36,
@@ -1539,7 +1539,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 32,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "intimidate",
@@ -1618,7 +1618,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.psychic.desc1"
+        "cobblemon.species.psychic.desc"
       ],
       "height": 4,
       "weight": 36,
@@ -1638,7 +1638,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 32,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "intimidate",
@@ -1717,7 +1717,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.dragon.desc1"
+        "cobblemon.species.dragon.desc"
       ],
       "height": 4,
       "weight": 36,
@@ -1737,7 +1737,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 32,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "intimidate",
@@ -1816,7 +1816,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fairy.desc1"
+        "cobblemon.species.fairy.desc"
       ],
       "height": 4,
       "weight": 36,

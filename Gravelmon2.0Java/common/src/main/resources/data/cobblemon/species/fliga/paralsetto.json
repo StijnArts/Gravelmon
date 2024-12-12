@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "paraudio form\u003davalossian",
+  "preEvolution": "paraudio form=avalossian",
   "baseScale": 0.3,
   "cannotDynamax": false,
   "abilities": [
@@ -130,7 +130,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.paralsetto.desc1"
+    "cobblemon.species.paralsetto.desc"
   ],
   "height": 18,
   "weight": 775,

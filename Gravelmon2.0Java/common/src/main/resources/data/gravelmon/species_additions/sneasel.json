@@ -21,7 +21,14 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:razor_claw",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "forms": [
     {
@@ -146,7 +153,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochsneasel.desc1"
+        "cobblemon.species.epochsneasel.desc"
       ],
       "height": 9,
       "weight": 280,
@@ -155,9 +162,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochsneasel_epoch_sneasler",
+          "id": "epochsneasel_sneasler_epoch",
           "variant": "level_up",
-          "result": "epoch sneasler",
+          "result": "sneasler epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -173,9 +180,9 @@
           "permanent": true
         },
         {
-          "id": "epochsneasel_epoch_weavile",
+          "id": "epochsneasel_weavile_epoch",
           "variant": "level_up",
-          "result": "epoch weavile",
+          "result": "weavile epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

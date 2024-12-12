@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "lickitin",
-      "baseScale": 0.19999999999999998,
+      "baseScale": 0.0375,
       "cannotDynamax": false,
       "abilities": [
         "dryskin"
@@ -47,7 +47,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formanlickitung.desc1"
+        "cobblemon.species.formanlickitung.desc"
       ],
       "height": 12,
       "weight": 0,
@@ -141,7 +141,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.hizianlickitung.desc1"
+        "cobblemon.species.hizianlickitung.desc"
       ],
       "height": 10,
       "weight": 165,

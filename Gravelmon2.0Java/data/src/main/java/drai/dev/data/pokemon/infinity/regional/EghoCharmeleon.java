@@ -125,7 +125,7 @@ public class EghoCharmeleon extends Pokemon {
                 new AnimatedLayerData("flame",
                         List.of("flame/tail1", "flame/tail2", "flame/tail3", "flame/tail4"),
                         10, true,
-                        true, false, false, true));
+                        Optional.of(true), Optional.of(false), false, true));
         getPosingFileData().setPortraitData( 2f, new Vector3(-1.2,2.3, 0));
         getPosingFileData().setProfileData( 0.4f, new Vector3(-0.0, 1.1, 0));
         getPosingFileData().setBasicHead();

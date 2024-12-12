@@ -43,7 +43,14 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:end_crystal",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "forms": [
     {
@@ -56,7 +63,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "adaptability"
@@ -94,7 +101,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formantyrogue.desc1"
+        "cobblemon.species.formantyrogue.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -223,7 +230,16 @@
       "eggGroups": [
         "undiscovered"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:air_stone",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
+      },
       "moves": [
         "32:vitalthrow",
         "1:tackle",
@@ -288,7 +304,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochtyrogue.desc1"
+        "cobblemon.species.epochtyrogue.desc"
       ],
       "height": 7,
       "weight": 210,
@@ -297,9 +313,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochtyrogue_epoch_hitmonlee",
+          "id": "epochtyrogue_hitmonlee_epoch",
           "variant": "item_interact",
-          "result": "epoch hitmonlee",
+          "result": "hitmonlee epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -307,9 +323,9 @@
           "permanent": true
         },
         {
-          "id": "epochtyrogue_epoch_hitmonchan",
+          "id": "epochtyrogue_hitmonchan_epoch",
           "variant": "item_interact",
-          "result": "epoch hitmonchan",
+          "result": "hitmonchan epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -317,9 +333,9 @@
           "permanent": true
         },
         {
-          "id": "epochtyrogue_epoch_hitmontop",
+          "id": "epochtyrogue_hitmontop_epoch",
           "variant": "item_interact",
-          "result": "epoch hitmontop",
+          "result": "hitmontop epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -441,7 +457,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.qamorantyrogue.desc1"
+        "cobblemon.species.qamorantyrogue.desc"
       ],
       "height": 7,
       "weight": 165,
@@ -632,7 +648,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.varitasiantyrogue.desc1"
+        "cobblemon.species.varitasiantyrogue.desc"
       ],
       "height": 7,
       "weight": 165,

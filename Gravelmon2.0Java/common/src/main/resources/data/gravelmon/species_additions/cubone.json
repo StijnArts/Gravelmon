@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "justified"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formancubone.desc1"
+        "cobblemon.species.formancubone.desc"
       ],
       "height": 4,
       "weight": 0,
@@ -212,7 +212,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochcubone.desc1"
+        "cobblemon.species.epochcubone.desc"
       ],
       "height": 4,
       "weight": 65,
@@ -221,9 +221,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochcubone_epoch_marowak",
+          "id": "epochcubone_marowak_epoch",
           "variant": "level_up",
-          "result": "epoch marowak",
+          "result": "marowak epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

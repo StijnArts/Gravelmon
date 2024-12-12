@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 51,
   "baseFriendship": 70,
-  "baseScale": 0.5,
+  "baseScale": 0.09375,
   "cannotDynamax": false,
   "abilities": [
     "motordrive",
@@ -34,7 +34,14 @@
     "mineral"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:iron_block",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
   },
   "moves": [
     "1:spikes",
@@ -114,7 +121,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.magnitogre.desc1"
+    "cobblemon.species.magnitogre.desc"
   ],
   "height": 30,
   "weight": 4550,

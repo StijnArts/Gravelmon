@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "carkol form=epoch",
       "baseScale": 0.4666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -95,10 +96,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochcoalossal.desc1"
+        "cobblemon.species.epochcoalossal.desc"
       ],
       "height": 28,
       "weight": 3105,

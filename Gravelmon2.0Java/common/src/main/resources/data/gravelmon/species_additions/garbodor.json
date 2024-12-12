@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -47,7 +47,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mahaliangarbodor.desc1"
+        "cobblemon.species.mahaliangarbodor.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -95,6 +95,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "trubbish form=epoch",
       "baseScale": 0.31666666666666665,
       "cannotDynamax": false,
       "abilities": [
@@ -206,10 +207,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochgarbodor.desc1"
+        "cobblemon.species.epochgarbodor.desc"
       ],
       "height": 19,
       "weight": 1073,
@@ -257,8 +260,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "trubbish form\u003degho",
-      "baseScale": 0.3,
+      "preEvolution": "trubbish form=egho",
+      "baseScale": 0.22499999999999998,
       "cannotDynamax": false,
       "abilities": [
         "battlearmor",
@@ -284,7 +287,14 @@
         "mineral"
       ],
       "drops": {
-        "amount": 4
+        "amount": 4,
+        "entries": [
+          {
+            "item": "minecraft:rotten_flesh",
+            "quantityRange": "1-2",
+            "percentage": 50
+          }
+        ]
       },
       "moves": [
         "1:mudslap",
@@ -378,7 +388,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.eghogarbodor.desc1"
+        "cobblemon.species.eghogarbodor.desc"
       ],
       "height": 18,
       "weight": 1773,

@@ -62,7 +62,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.vesitanclawitzer.desc1"
+        "cobblemon.species.vesitanclawitzer.desc"
       ],
       "height": 13,
       "weight": 353,
@@ -110,7 +110,7 @@
       "experienceGroup": "slow",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "preEvolution": "clauncher form\u003dseviian",
+      "preEvolution": "clauncher form=seviian",
       "baseScale": 0.21666666666666667,
       "cannotDynamax": false,
       "abilities": [
@@ -202,7 +202,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.seviianclawitzer.desc1"
+        "cobblemon.species.seviianclawitzer.desc"
       ],
       "height": 13,
       "weight": 353,

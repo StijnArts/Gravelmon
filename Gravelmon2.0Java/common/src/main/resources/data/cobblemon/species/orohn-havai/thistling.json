@@ -7,7 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 4.800000000000001,
   "cannotDynamax": false,
   "abilities": [
     "effectspore",
@@ -59,7 +59,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.thistling.desc1"
+    "cobblemon.species.thistling.desc"
   ],
   "height": 3,
   "weight": 165,

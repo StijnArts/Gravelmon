@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "waterabsorb"
@@ -47,7 +47,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanteddiursa.desc1"
+        "cobblemon.species.formanteddiursa.desc"
       ],
       "height": 6,
       "weight": 0,
@@ -236,7 +236,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochteddiursa.desc1"
+        "cobblemon.species.epochteddiursa.desc"
       ],
       "height": 6,
       "weight": 88,
@@ -245,9 +245,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochteddiursa_epoch_ursaring",
+          "id": "epochteddiursa_ursaring_epoch",
           "variant": "level_up",
-          "result": "epoch ursaring",
+          "result": "ursaring epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -373,7 +373,7 @@
         "blazing_emerald"
       ],
       "pokedex": [
-        "cobblemon.species.hoennianteddiursa.desc1"
+        "cobblemon.species.hoennianteddiursa.desc"
       ],
       "height": 6,
       "weight": 88,
@@ -545,7 +545,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.seviianteddiursa.desc1"
+        "cobblemon.species.seviianteddiursa.desc"
       ],
       "height": 6,
       "weight": 194,
@@ -670,7 +670,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.cefiranteddiursa.desc1"
+        "cobblemon.species.cefiranteddiursa.desc"
       ],
       "height": 6,
       "weight": 88,

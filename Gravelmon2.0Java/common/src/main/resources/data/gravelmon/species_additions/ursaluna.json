@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "ursaring form=epoch",
       "baseScale": 0.39999999999999997,
       "cannotDynamax": false,
       "abilities": [
@@ -127,10 +128,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochursaluna.desc1"
+        "cobblemon.species.epochursaluna.desc"
       ],
       "height": 24,
       "weight": 2900,

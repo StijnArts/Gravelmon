@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "oryoze",
-  "baseScale": 0.26666666666666666,
+  "baseScale": 0.05,
   "cannotDynamax": false,
   "abilities": [
     "blaze"
@@ -44,7 +44,7 @@
     "palmia"
   ],
   "pokedex": [
-    "cobblemon.species.burnyx.desc1"
+    "cobblemon.species.burnyx.desc"
   ],
   "height": 16,
   "weight": 0,

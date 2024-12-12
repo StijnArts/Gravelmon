@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "corvisquire form\u003dnorheiman",
+  "preEvolution": "corvisquire form=norheiman",
   "baseScale": 0.35000000000000003,
   "cannotDynamax": false,
   "abilities": [
@@ -60,7 +60,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.corvhugen.desc1"
+    "cobblemon.species.corvhugen.desc"
   ],
   "height": 21,
   "weight": 165,

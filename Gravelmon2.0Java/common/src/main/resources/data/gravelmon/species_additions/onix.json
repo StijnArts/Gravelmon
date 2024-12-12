@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianonix.desc1"
+        "cobblemon.species.fabelianonix.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -93,7 +93,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.7666666666666666,
+      "baseScale": 0.14375,
       "cannotDynamax": false,
       "abilities": [
         "rockhead"
@@ -127,7 +127,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.trizoranonix.desc1"
+        "cobblemon.species.trizoranonix.desc"
       ],
       "height": 46,
       "weight": 0,
@@ -191,7 +191,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "pebbix",
-      "baseScale": 0.65,
+      "baseScale": 0.12187500000000001,
       "cannotDynamax": false,
       "abilities": [
         "flamebody"
@@ -229,7 +229,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formanonix.desc1"
+        "cobblemon.species.formanonix.desc"
       ],
       "height": 39,
       "weight": 0,
@@ -412,7 +412,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochonix.desc1"
+        "cobblemon.species.epochonix.desc"
       ],
       "height": 88,
       "weight": 2100,
@@ -421,9 +421,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochonix_epoch_steelix",
+          "id": "epochonix_steelix_epoch",
           "variant": "level_up",
-          "result": "epoch steelix",
+          "result": "steelix epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -544,7 +544,7 @@
         "gen1"
       ],
       "pokedex": [
-        "cobblemon.species.hoennianonix.desc1"
+        "cobblemon.species.hoennianonix.desc"
       ],
       "height": 61,
       "weight": 1569,

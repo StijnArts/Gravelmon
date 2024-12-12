@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "lephan",
-  "baseScale": 0.3666666666666667,
+  "baseScale": 0.275,
   "cannotDynamax": false,
   "abilities": [
     "synchronize",
@@ -118,7 +118,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.ganerth.desc1"
+    "cobblemon.species.ganerth.desc"
   ],
   "height": 22,
   "weight": 2273,

@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "snorunt form=epoch",
       "baseScale": 0.21666666666666667,
       "cannotDynamax": false,
       "abilities": [
@@ -121,10 +122,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochfroslass.desc1"
+        "cobblemon.species.epochfroslass.desc"
       ],
       "height": 13,
       "weight": 266,
@@ -171,8 +174,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "snorunt form\u003ddelta",
-      "baseScale": 0.21666666666666667,
+      "preEvolution": "snorunt form=delta",
+      "baseScale": 0.1625,
       "cannotDynamax": false,
       "abilities": [
         "rockhead",
@@ -286,7 +289,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltafroslass.desc1"
+        "cobblemon.species.deltafroslass.desc"
       ],
       "height": 13,
       "weight": 266,
@@ -334,7 +337,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "snorunt form\u003dcefiran",
+      "preEvolution": "snorunt form=cefiran",
       "baseScale": 0.21666666666666667,
       "cannotDynamax": false,
       "abilities": [
@@ -396,7 +399,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.cefiranfroslass.desc1"
+        "cobblemon.species.cefiranfroslass.desc"
       ],
       "height": 13,
       "weight": 266,

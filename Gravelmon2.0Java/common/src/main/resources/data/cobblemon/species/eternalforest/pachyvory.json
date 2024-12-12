@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pachyndou",
-  "baseScale": 0.26666666666666666,
+  "baseScale": 0.05,
   "cannotDynamax": false,
   "abilities": [
     "blaze",
@@ -142,7 +142,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.pachyvory.desc1"
+    "cobblemon.species.pachyvory.desc"
   ],
   "height": 16,
   "weight": 5200,

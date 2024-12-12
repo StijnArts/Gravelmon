@@ -7,7 +7,7 @@
   "experienceGroup": "fast",
   "eggCycles": 48,
   "baseFriendship": 70,
-  "baseScale": 0.11666666666666665,
+  "baseScale": 0.021875,
   "cannotDynamax": false,
   "abilities": [
     "rivalry",
@@ -34,7 +34,19 @@
     "field"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:berries",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:tackle",
@@ -99,7 +111,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.fawning.desc1"
+    "cobblemon.species.fawning.desc"
   ],
   "height": 7,
   "weight": 194,

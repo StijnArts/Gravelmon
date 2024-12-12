@@ -10,7 +10,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -43,7 +43,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formancyndaquil.desc1"
+        "cobblemon.species.formancyndaquil.desc"
       ],
       "height": 5,
       "weight": 0,
@@ -214,7 +214,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochcyndaquil.desc1"
+        "cobblemon.species.epochcyndaquil.desc"
       ],
       "height": 5,
       "weight": 79,
@@ -223,9 +223,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochcyndaquil_epoch_quilava",
+          "id": "epochcyndaquil_quilava_epoch",
           "variant": "level_up",
-          "result": "epoch quilava",
+          "result": "quilava epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -375,7 +375,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochcyndaquilone.desc1"
+        "cobblemon.species.epochcyndaquilone.desc"
       ],
       "height": 5,
       "weight": 79,
@@ -473,7 +473,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ionosiancyndaquil.desc1"
+        "cobblemon.species.ionosiancyndaquil.desc"
       ],
       "height": 4,
       "weight": 0,
@@ -536,7 +536,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "static",
@@ -562,7 +562,14 @@
         "field"
       ],
       "drops": {
-        "amount": 2
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:gunpowder",
+            "quantityRange": "1-2",
+            "percentage": 50
+          }
+        ]
       },
       "moves": [
         "1:tackle",
@@ -652,7 +659,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.eghocyndaquil.desc1"
+        "cobblemon.species.eghocyndaquil.desc"
       ],
       "height": 5,
       "weight": 63,
@@ -714,7 +721,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "static",
@@ -824,7 +831,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltacyndaquil.desc1"
+        "cobblemon.species.deltacyndaquil.desc"
       ],
       "height": 5,
       "weight": 79,
@@ -1021,7 +1028,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiancyndaquil.desc1"
+        "cobblemon.species.ayreiancyndaquil.desc"
       ],
       "height": 5,
       "weight": 79,

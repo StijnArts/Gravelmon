@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "comfleaf",
-  "baseScale": 0.31666666666666665,
+  "baseScale": 0.059375,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -45,7 +45,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.abuleaf.desc1"
+    "cobblemon.species.abuleaf.desc"
   ],
   "height": 19,
   "weight": 0,

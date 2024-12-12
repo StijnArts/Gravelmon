@@ -1,25 +1,69 @@
 {
   "species": "cobblemon:avalugg",
-  "order": 10,
+  "order": 133,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
+      "model": "cobblemon:generation6_deltaavalugg.geo",
       "poser": "cobblemon:generation6_deltaavalugg",
-      "model": "cobblemon:deltaavalugg.geo",
-      "texture": "cobblemon:textures/pokemon/generation6/deltaavalugg.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation6/deltaavalugg/deltaavalugg.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     },
     {
       "aspects": [
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:deltaavalugg.geo",
+      "model": "cobblemon:generation6_deltaavalugg.geo",
       "poser": "cobblemon:generation6_deltaavalugg",
-      "texture": "cobblemon:textures/pokemon/generation6/deltaavalugg_shiny.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation6/deltaavalugg/deltaavalugg_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     }
   ]
 }

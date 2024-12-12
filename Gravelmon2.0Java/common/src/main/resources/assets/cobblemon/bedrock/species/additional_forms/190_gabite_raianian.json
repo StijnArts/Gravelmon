@@ -1,21 +1,15 @@
 {
   "species": "cobblemon:gabite",
-  "order": 3,
+  "order": 190,
   "variations": [
     {
       "aspects": [
         "raianian"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation4_raianiangabite",
+      "model": "cobblemon:cutout_gravelmon_512_by_512.geo",
+      "poser": "cobblemon:cutout_gravelmon_512_by_512",
       "texture": "cobblemon:textures/pokemon/generation4/raianiangabite.png",
       "layers": [
-        {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
         {
           "name": "emissive"
         },
@@ -23,39 +17,19 @@
           "name": "transparentEmissive"
         },
         {
-          "name": "flame"
+          "name": "tail"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "raianian",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation4_raianiangabite",
-      "texture": "cobblemon:textures/pokemon/generation4/raianiangabite.png",
-      "layers": [
-        {
-          "name": "glow"
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
         },
         {
-          "name": "emissive"
-        },
-        {
-          "name": "transparentEmissive"
-        },
-        {
           "name": "flame"
         },
         {
-          "name": "tail"
+          "name": "glow"
         }
       ]
     }

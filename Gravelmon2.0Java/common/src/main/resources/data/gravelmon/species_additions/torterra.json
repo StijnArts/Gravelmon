@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "grotle form=epoch",
       "baseScale": 0.3666666666666667,
       "cannotDynamax": false,
       "abilities": [
@@ -112,10 +113,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochtorterra.desc1"
+        "cobblemon.species.epochtorterra.desc"
       ],
       "height": 22,
       "weight": 3100,
@@ -163,8 +166,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "grotle form\u003ddelta",
-      "baseScale": 0.3666666666666667,
+      "preEvolution": "grotle form=delta",
+      "baseScale": 0.275,
       "cannotDynamax": false,
       "abilities": [
         "waterabsorb",
@@ -281,7 +284,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltatorterra.desc1"
+        "cobblemon.species.deltatorterra.desc"
       ],
       "height": 22,
       "weight": 3100,

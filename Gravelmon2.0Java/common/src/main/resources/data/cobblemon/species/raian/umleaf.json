@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "comfleaf",
-  "baseScale": 0.26666666666666666,
+  "baseScale": 0.05,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -49,7 +49,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.umleaf.desc1"
+    "cobblemon.species.umleaf.desc"
   ],
   "height": 16,
   "weight": 0,

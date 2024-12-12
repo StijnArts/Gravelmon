@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "psyduck form\u003dqamoran",
+  "preEvolution": "psyduck form=qamoran",
   "baseScale": 0.2833333333333333,
   "cannotDynamax": false,
   "abilities": [
@@ -61,7 +61,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.gobbledyduck.desc1"
+    "cobblemon.species.gobbledyduck.desc"
   ],
   "height": 17,
   "weight": 165,

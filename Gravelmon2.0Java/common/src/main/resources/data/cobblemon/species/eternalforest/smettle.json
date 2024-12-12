@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "overgrow",
@@ -123,7 +123,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.smettle.desc1"
+    "cobblemon.species.smettle.desc"
   ],
   "height": 4,
   "weight": 30,

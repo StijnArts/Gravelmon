@@ -133,7 +133,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochfuecoco.desc1"
+        "cobblemon.species.epochfuecoco.desc"
       ],
       "height": 4,
       "weight": 98,
@@ -142,9 +142,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochfuecoco_epoch_crocalor",
+          "id": "epochfuecoco_crocalor_epoch",
           "variant": "level_up",
-          "result": "epoch crocalor",
+          "result": "crocalor epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

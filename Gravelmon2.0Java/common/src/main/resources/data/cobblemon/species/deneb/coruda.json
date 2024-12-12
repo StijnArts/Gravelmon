@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "yolkid",
-  "baseScale": 0.18333333333333335,
+  "baseScale": 0.1375,
   "cannotDynamax": false,
   "abilities": [
     "rockhead",
@@ -81,7 +81,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.coruda.desc1"
+    "cobblemon.species.coruda.desc"
   ],
   "height": 11,
   "weight": 523,

@@ -1,146 +1,123 @@
 {
-  "portraitScale": 1,
-  "portraitTranslation": [ 0, 0.5, 0 ],
-  "profileScale": 1,
-  "profileTranslation": [ 0, 0.5, 0 ],
+  "head": "head",
+  "portraitScale": 1.0,
+  "portraitTranslation": [
+    0.0,
+    0.5,
+    0.0
+  ],
+  "profileScale": 1.0,
+  "profileTranslation": [
+    0.0,
+    0.5,
+    0.0
+  ],
   "animations": {
-    "cry": "q.bedrock_stateful('metang', 'cry')"
+    "cry": "q.bedrock_stateful('beldum', 'cry')"
   },
   "poses": {
     "battle-idle": {
       "poseName": "battle-idle",
+      "animations": [
+        "bedrock(beldum, battle_idle)"
+      ],
+      "poseTypes": [
+        "STAND"
+      ],
       "transformTicks": 10,
-      "poseTypes": ["STAND"],
       "isBattle": true,
-      "animations": ["bedrock(metang, battle_idle)"],
       "quirks": [
         {
-          "name": "blink",
-          "animations": ["bedrock(metang, blink)"]
+          "animations": [
+            "bedrock(beldum, blink)"
+          ],
+          "name": "blink"
         }
       ]
     },
     "standing": {
       "poseName": "standing",
-      "transformTicks": 10,
-      "poseTypes": [
-        "STAND",
-        "NONE",
-        "PORTRAIT",
-        "PROFILE"
-      ],
-      "isBattle": false,
       "animations": [
-        "bedrock(metang, ground_idle)"
+        "bedrock(beldum, ground_idle)"
       ],
+      "transformTicks": 10,
+      "isBattle": false,
+      "allPoseTypes": true,
       "quirks": [
         {
-          "name": "blink",
           "animations": [
-            "bedrock(metang, blink)"
-          ]
+            "bedrock(beldum, blink)"
+          ],
+          "name": "blink"
         }
       ]
     },
     "walking": {
       "poseName": "walking",
-      "transformTicks": 10,
+      "animations": [
+        "bedrock(beldum, ground_walk)"
+      ],
       "poseTypes": [
         "WALK"
       ],
-      "animations": [
-        "bedrock(metang, ground_walk)"
-      ],
+      "transformTicks": 10,
       "quirks": [
         {
-          "name": "blink",
           "animations": [
-            "bedrock(metang, blink)"
-          ]
+            "bedrock(beldum, blink)"
+          ],
+          "name": "blink"
         }
       ]
     },
     "hovering": {
       "poseName": "hovering",
-      "transformTicks": 10,
-      "poseTypes": [
-        "HOVER"
-      ],
       "animations": [
-        "bedrock(metang, air_idle)"
+        "bedrock(beldum, air_idle)"
       ],
+      "poseTypes": [
+        "HOVER",
+        "FLOAT"
+      ],
+      "transformTicks": 10,
       "quirks": [
         {
-          "name": "blink",
           "animations": [
-            "bedrock(metang, blink)"
-          ]
+            "bedrock(beldum, blink)"
+          ],
+          "name": "blink"
         }
       ]
     },
     "flying": {
       "poseName": "flying",
-      "transformTicks": 10,
-      "poseTypes": [
-        "FLY"
-      ],
       "animations": [
-        "bedrock(metang, air_fly)"
+        "bedrock(beldum, air_fly)"
       ],
+      "poseTypes": [
+        "FLY",
+        "SWIM"
+      ],
+      "transformTicks": 10,
       "quirks": [
         {
-          "name": "blink",
           "animations": [
-            "bedrock(metang, blink)"
-          ]
+            "bedrock(beldum, blink)"
+          ],
+          "name": "blink"
         }
       ]
     },
     "sleeping": {
       "poseName": "sleeping",
-      "transformTicks": 10,
+      "animations": [
+        "bedrock(beldum, sleep)"
+      ],
       "poseTypes": [
         "SLEEP"
       ],
-      "animations": [
-        "bedrock(metang, sleep)"
-      ]
-    },
-    "swimming": {
-      "poseName": "swimming",
       "transformTicks": 10,
-      "poseTypes": [
-        "SWIM"
-      ],
-      "animations": [
-        "bedrock(metang, air_fly)"
-      ],
-      "quirks": [
-        {
-          "name": "blink",
-          "animations": [
-            "bedrock(metang, blink)"
-          ]
-        }
-      ]
-    },
-    "floating": {
-      "poseName": "floating",
-      "transformTicks": 10,
-      "poseTypes": [
-        "FLOAT"
-      ],
-      "animations": [
-        "bedrock(metang, air_idle)"
-      ],
-      "quirks": [
-        {
-          "name": "blink",
-          "animations": [
-            "bedrock(metang, blink)"
-          ]
-        }
-      ]
+      "quirks": []
     }
   }
 }

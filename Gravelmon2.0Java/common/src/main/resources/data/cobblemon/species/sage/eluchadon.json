@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "luchito",
-  "baseScale": 0.2333333333333333,
+  "baseScale": 0.04375,
   "cannotDynamax": false,
   "abilities": [
     "stubborn",
@@ -36,7 +36,14 @@
     "field"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:quickguard",
@@ -146,7 +153,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.eluchadon.desc1"
+    "cobblemon.species.eluchadon.desc"
   ],
   "height": 14,
   "weight": 577,

@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.065625,
   "cannotDynamax": false,
   "abilities": [
     "thickfat"
@@ -33,7 +33,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:decorated_pot_sherds",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:tackle",
@@ -46,7 +53,7 @@
     "norse"
   ],
   "pokedex": [
-    "cobblemon.species.vesnormal.desc1"
+    "cobblemon.species.vesnormal.desc"
   ],
   "height": 21,
   "weight": 0,

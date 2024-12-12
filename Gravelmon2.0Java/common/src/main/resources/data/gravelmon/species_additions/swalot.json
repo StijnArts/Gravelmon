@@ -10,7 +10,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -43,7 +43,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.elbianswalot.desc1"
+        "cobblemon.species.elbianswalot.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -90,6 +90,7 @@
       "experienceGroup": "fluctuating",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "gulpin form=epoch",
       "baseScale": 0.2833333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -180,10 +181,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochswalot.desc1"
+        "cobblemon.species.epochswalot.desc"
       ],
       "height": 17,
       "weight": 800,

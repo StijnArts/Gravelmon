@@ -4,12 +4,14 @@ import com.google.gson.*;
 import drai.dev.data.pokemon.*;
 
 import java.util.*;
+import java.util.function.*;
 
 public class VariationData {
-    String model, poser, textureName;
+    Supplier<String> model, poser;
+    String textureName;
     Map<String, BasicLayerData> layers = new HashMap<>();
 
-    public VariationData(String model, String poser, String textureName, List<BasicLayerData> layers) {
+    public VariationData(Supplier<String> model, Supplier<String> poser, String textureName, List<BasicLayerData> layers) {
         this.model = model;
         this.poser = poser;
         this.textureName = textureName;
@@ -30,9 +32,8 @@ public class VariationData {
     }
 
     public static VariationData fromPokemon(AbstractPokemon abstractPokemon, List<BasicLayerData> layers) {
-        var game = abstractPokemon.getGame();
-        var identifier = game.getCleanName() + "_" + abstractPokemon.getCleanName();
-        var model = abstractPokemon.isModeled() ? identifier : abstractPokemon.getPlaceholderModelName();
+        Supplier<String> identifier = () -> abstractPokemon.getGame().getCleanName() + "_" + abstractPokemon.getCleanName();
+        Supplier<String> model = () -> abstractPokemon.isModeled() ? identifier.get() : abstractPokemon.getPlaceholderModelName();
         return new VariationData(model, identifier, abstractPokemon.getCleanName(), layers);
     }
 
@@ -54,13 +55,25 @@ public class VariationData {
         aspects.forEach(aspectsArray::add);
         var hasGenderDifferences = false;
         if (abstractPokemon instanceof Pokemon pokemon) hasGenderDifferences = pokemon.hasGenderDifferences();
-        var model = abstractPokemon.isModeled() && isFemale && hasGenderDifferences ? abstractPokemon.getFemalePlaceholderModelName() : this.model;
+        var model = isFemale && hasGenderDifferences
+                ? (!abstractPokemon.isModeled() ? abstractPokemon.getFemalePlaceholderModelName() : this.model.get())
+                : this.model.get();
         jsonObject.add("aspects", aspectsArray);
         jsonObject.addProperty("model", "cobblemon:" + model + ".geo");
-        jsonObject.addProperty("poser", "cobblemon:" + (abstractPokemon.isModeled() ? poser : abstractPokemon.getPlaceholderModelName()));
-        jsonObject.addProperty("textureName", BasicLayerData.getTextureLocation(textureName, abstractPokemon, isShiny, isFemale));
+        jsonObject.addProperty("poser", "cobblemon:" + (abstractPokemon.isModeled() ? poser.get() : abstractPokemon.getPlaceholderModelName()));
+        jsonObject.addProperty("texture", BasicLayerData.getTextureLocation(textureName, abstractPokemon, isShiny, isFemale));
         var layerArray = new JsonArray();
-        layers.forEach((key, value) -> layerArray.add(value.toJsonObject()));
+        layers.forEach((key, value) -> {
+            if(value instanceof AnimatedLayerData animatedLayerData) {
+                layerArray.add(animatedLayerData.toJsonObject(abstractPokemon, isShiny, isFemale));
+                return;
+            }
+            if(value instanceof SimpleTextureLayerData simpleTextureLayerData) {
+                layerArray.add(simpleTextureLayerData.toJsonObject(abstractPokemon, isShiny, isFemale));
+                return;
+            }
+             layerArray.add(value.toJsonObject());
+        });
         jsonObject.add("layers", layerArray);
         return jsonObject;
     }

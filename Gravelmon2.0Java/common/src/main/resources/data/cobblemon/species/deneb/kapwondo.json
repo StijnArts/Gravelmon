@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "cuppa",
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.15,
   "cannotDynamax": false,
   "abilities": [
     "waterabsorb",
@@ -108,7 +108,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.kapwondo.desc1"
+    "cobblemon.species.kapwondo.desc"
   ],
   "height": 12,
   "weight": 290,

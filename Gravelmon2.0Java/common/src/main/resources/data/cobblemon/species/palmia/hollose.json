@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "wazloom",
-  "baseScale": 0.2833333333333333,
+  "baseScale": 0.053125,
   "cannotDynamax": false,
   "abilities": [
     "overgrow"
@@ -45,7 +45,7 @@
     "palmia"
   ],
   "pokedex": [
-    "cobblemon.species.hollose.desc1"
+    "cobblemon.species.hollose.desc"
   ],
   "height": 17,
   "weight": 0,

@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "remoraid form\u003dforman",
-  "baseScale": 0.25,
+  "preEvolution": "remoraid form=forman",
+  "baseScale": 0.046875,
   "cannotDynamax": false,
   "abilities": [
     "poisonpoint"
@@ -45,7 +45,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.siscorp.desc1"
+    "cobblemon.species.siscorp.desc"
   ],
   "height": 15,
   "weight": 0,

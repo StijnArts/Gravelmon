@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 51,
   "baseFriendship": 70,
-  "preEvolution": "golett form\u003dkaskadian",
-  "baseScale": 0.4666666666666666,
+  "preEvolution": "golett form=kaskadian",
+  "baseScale": 0.0875,
   "cannotDynamax": false,
   "abilities": [
     "solidrock",
@@ -116,7 +116,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.golgre.desc1"
+    "cobblemon.species.golgre.desc"
   ],
   "height": 28,
   "weight": 3300,

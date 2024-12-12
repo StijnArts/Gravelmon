@@ -8,7 +8,7 @@
   "eggCycles": 39,
   "baseFriendship": 70,
   "preEvolution": "vectol",
-  "baseScale": 0.15,
+  "baseScale": 0.028124999999999997,
   "cannotDynamax": false,
   "abilities": [
     "voltabsorb",
@@ -36,7 +36,19 @@
     "mineral"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:corrupted_disc",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
+        "item": "gravelmon:corrupted_disc",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:block",
@@ -124,7 +136,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.vectol2.desc1"
+    "cobblemon.species.vectol2.desc"
   ],
   "height": 9,
   "weight": 183,

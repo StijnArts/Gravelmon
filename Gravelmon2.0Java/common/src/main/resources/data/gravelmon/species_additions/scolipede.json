@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "whirlipede form=epoch",
       "baseScale": 0.4166666666666667,
       "cannotDynamax": false,
       "abilities": [
@@ -37,7 +38,16 @@
       "eggGroups": [
         "bug"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:astral_stone",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
+      },
       "moves": [
         "26:irondefense",
         "4:infestation",
@@ -108,10 +118,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochscolipede.desc1"
+        "cobblemon.species.epochscolipede.desc"
       ],
       "height": 25,
       "weight": 2005,
@@ -159,8 +171,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "whirlipede form\u003ddelta",
-      "baseScale": 0.19999999999999998,
+      "preEvolution": "whirlipede form=delta",
+      "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
         "weakarmor",
@@ -289,7 +301,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltascolipede.desc1"
+        "cobblemon.species.deltascolipede.desc"
       ],
       "height": 12,
       "weight": 878,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "kraklam",
-  "baseScale": 0.2833333333333333,
+  "baseScale": 13.6,
   "cannotDynamax": false,
   "abilities": [
     "shellarmor",
@@ -62,7 +62,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.krakshen.desc1"
+    "cobblemon.species.krakshen.desc"
   ],
   "height": 17,
   "weight": 165,

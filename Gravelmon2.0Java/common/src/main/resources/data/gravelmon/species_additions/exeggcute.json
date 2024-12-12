@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "chlorophyll",
@@ -48,7 +48,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.palmianexeggcute.desc1"
+        "cobblemon.species.palmianexeggcute.desc"
       ],
       "height": 6,
       "weight": 0,
@@ -107,7 +107,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "poisontouch"
@@ -145,7 +145,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanexeggcute.desc1"
+        "cobblemon.species.formanexeggcute.desc"
       ],
       "height": 6,
       "weight": 0,
@@ -304,7 +304,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochexeggcute.desc1"
+        "cobblemon.species.epochexeggcute.desc"
       ],
       "height": 4,
       "weight": 25,
@@ -313,9 +313,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochexeggcute_epoch_exeggutor",
+          "id": "epochexeggcute_exeggutor_epoch",
           "variant": "item_interact",
-          "result": "epoch exeggutor",
+          "result": "exeggutor epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -464,7 +464,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochexeggcuteone.desc1"
+        "cobblemon.species.epochexeggcuteone.desc"
       ],
       "height": 4,
       "weight": 25,

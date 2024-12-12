@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "tigember",
-  "baseScale": 0.26666666666666666,
+  "baseScale": 0.05,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -43,7 +43,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.tigerage.desc1"
+    "cobblemon.species.tigerage.desc"
   ],
   "height": 16,
   "weight": 0,

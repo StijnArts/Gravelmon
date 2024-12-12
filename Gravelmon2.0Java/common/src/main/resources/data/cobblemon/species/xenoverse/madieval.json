@@ -9,7 +9,7 @@
   "eggCycles": 32,
   "baseFriendship": 70,
   "preEvolution": "excalibould",
-  "baseScale": 0.3333333333333333,
+  "baseScale": 0.25,
   "cannotDynamax": false,
   "abilities": [
     "sturdy",
@@ -97,7 +97,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.madieval.desc1"
+    "cobblemon.species.madieval.desc"
   ],
   "height": 20,
   "weight": 1271,

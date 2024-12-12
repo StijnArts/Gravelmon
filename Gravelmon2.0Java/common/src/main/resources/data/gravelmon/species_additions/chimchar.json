@@ -118,7 +118,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochchimchar.desc1"
+        "cobblemon.species.epochchimchar.desc"
       ],
       "height": 5,
       "weight": 62,
@@ -127,9 +127,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochchimchar_epoch_monferno",
+          "id": "epochchimchar_monferno_epoch",
           "variant": "level_up",
-          "result": "epoch monferno",
+          "result": "monferno epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

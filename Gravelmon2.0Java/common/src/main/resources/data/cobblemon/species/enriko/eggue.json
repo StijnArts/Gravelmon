@@ -56,7 +56,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.eggue.desc1"
+    "cobblemon.species.eggue.desc"
   ],
   "height": 6,
   "weight": 165,
@@ -75,7 +75,7 @@
         },
         {
           "variant": "properties",
-          "target": "gender\u003dmale",
+          "target": "gender=male",
           "contains": true
         }
       ],

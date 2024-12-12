@@ -11,8 +11,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "deltaberrydwebble form\u003ddelta_berry",
-      "baseScale": 0.2333333333333333,
+      "preEvolution": "deltaberrydwebble form=delta_berry",
+      "baseScale": 0.175,
       "cannotDynamax": false,
       "abilities": [
         "harvest",
@@ -134,7 +134,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltaberrycrustle.desc1"
+        "cobblemon.species.deltaberrycrustle.desc"
       ],
       "height": 14,
       "weight": 1500,

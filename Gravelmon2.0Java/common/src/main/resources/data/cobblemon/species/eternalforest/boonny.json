@@ -7,7 +7,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.11666666666666665,
+  "baseScale": 0.021875,
   "cannotDynamax": false,
   "abilities": [
     "purepower",
@@ -188,7 +188,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.boonny.desc1"
+    "cobblemon.species.boonny.desc"
   ],
   "height": 7,
   "weight": 270,

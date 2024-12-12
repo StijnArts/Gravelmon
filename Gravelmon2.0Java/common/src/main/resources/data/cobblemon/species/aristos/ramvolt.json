@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "flaaffy form\u003daristosian",
+  "preEvolution": "flaaffy form=aristosian",
   "baseScale": 0.3,
   "cannotDynamax": false,
   "abilities": [
@@ -100,7 +100,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.ramvolt.desc1"
+    "cobblemon.species.ramvolt.desc"
   ],
   "height": 18,
   "weight": 165,

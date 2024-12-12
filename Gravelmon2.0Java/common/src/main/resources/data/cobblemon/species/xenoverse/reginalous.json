@@ -7,7 +7,7 @@
   "experienceGroup": "slow",
   "eggCycles": 41,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.07500000000000001,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -76,7 +76,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.reginalous.desc1"
+    "cobblemon.species.reginalous.desc"
   ],
   "height": 1,
   "weight": 3,

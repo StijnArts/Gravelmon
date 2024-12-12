@@ -114,7 +114,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochlileep.desc1"
+        "cobblemon.species.epochlileep.desc"
       ],
       "height": 10,
       "weight": 238,
@@ -123,9 +123,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochlileep_epoch_cradily",
+          "id": "epochlileep_cradily_epoch",
           "variant": "level_up",
-          "result": "epoch cradily",
+          "result": "cradily epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -254,7 +254,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.hizianlileep.desc1"
+        "cobblemon.species.hizianlileep.desc"
       ],
       "height": 13,
       "weight": 165,

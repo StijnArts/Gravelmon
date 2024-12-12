@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.26666666666666666,
+      "baseScale": 0.05,
       "cannotDynamax": false,
       "abilities": [
         "sturdy"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanheracross.desc1"
+        "cobblemon.species.formanheracross.desc"
       ],
       "height": 16,
       "weight": 0,
@@ -214,7 +214,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochheracross.desc1"
+        "cobblemon.species.epochheracross.desc"
       ],
       "height": 15,
       "weight": 540,

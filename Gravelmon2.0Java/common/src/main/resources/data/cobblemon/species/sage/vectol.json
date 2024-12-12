@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 39,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "voltabsorb",
@@ -35,7 +35,19 @@
     "mineral"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:corrupted_disc",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:corrupted_disc",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "moves": [
     "1:poisonsting",
@@ -111,7 +123,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.vectol.desc1"
+    "cobblemon.species.vectol.desc"
   ],
   "height": 2,
   "weight": 1,

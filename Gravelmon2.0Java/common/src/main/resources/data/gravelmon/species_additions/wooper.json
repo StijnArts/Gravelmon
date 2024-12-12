@@ -10,7 +10,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "static"
@@ -43,7 +43,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanwooper.desc1"
+        "cobblemon.species.formanwooper.desc"
       ],
       "height": 4,
       "weight": 0,
@@ -138,7 +138,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mastenianwooper.desc1"
+        "cobblemon.species.mastenianwooper.desc"
       ],
       "height": 7,
       "weight": 0,
@@ -322,7 +322,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochwooper.desc1"
+        "cobblemon.species.epochwooper.desc"
       ],
       "height": 4,
       "weight": 85,
@@ -331,9 +331,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochwooper_epoch_quagsire",
+          "id": "epochwooper_quagsire_epoch",
           "variant": "level_up",
-          "result": "epoch quagsire",
+          "result": "quagsire epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -507,7 +507,7 @@
         "insurgence"
       ],
       "pokedex": [
-        "cobblemon.species.deltawooper.desc1"
+        "cobblemon.species.deltawooper.desc"
       ],
       "height": 4,
       "weight": 85,

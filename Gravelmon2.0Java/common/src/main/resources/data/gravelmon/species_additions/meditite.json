@@ -101,7 +101,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochmeditite.desc1"
+        "cobblemon.species.epochmeditite.desc"
       ],
       "height": 6,
       "weight": 112,
@@ -110,9 +110,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmeditite_epoch_medicham",
+          "id": "epochmeditite_medicham_epoch",
           "variant": "level_up",
-          "result": "epoch medicham",
+          "result": "medicham epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -163,7 +163,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "sapsipper",
@@ -282,7 +282,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltameditite.desc1"
+        "cobblemon.species.deltameditite.desc"
       ],
       "height": 6,
       "weight": 112,

@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianstantler.desc1"
+        "cobblemon.species.fabelianstantler.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -196,7 +196,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochstantler.desc1"
+        "cobblemon.species.epochstantler.desc"
       ],
       "height": 14,
       "weight": 712,
@@ -205,9 +205,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochstantler_epoch_wyrdeer",
+          "id": "epochstantler_wyrdeer_epoch",
           "variant": "item_interact",
-          "result": "epoch wyrdeer",
+          "result": "wyrdeer epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -360,7 +360,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochstantlerone.desc1"
+        "cobblemon.species.epochstantlerone.desc"
       ],
       "height": 14,
       "weight": 712,
@@ -535,7 +535,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianstantler.desc1"
+        "cobblemon.species.ayreianstantler.desc"
       ],
       "height": 14,
       "weight": 712,

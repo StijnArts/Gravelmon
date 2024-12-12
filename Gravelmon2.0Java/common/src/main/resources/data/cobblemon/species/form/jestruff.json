@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "cyndaquil form\u003dforman",
-  "baseScale": 0.2333333333333333,
+  "preEvolution": "cyndaquil form=forman",
+  "baseScale": 0.04375,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -45,7 +45,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.jestruff.desc1"
+    "cobblemon.species.jestruff.desc"
   ],
   "height": 14,
   "weight": 0,

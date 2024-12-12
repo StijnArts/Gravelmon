@@ -11,6 +11,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "misdreavus form=epoch",
       "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
@@ -108,10 +109,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochmismagius.desc1"
+        "cobblemon.species.epochmismagius.desc"
       ],
       "height": 9,
       "weight": 44,
@@ -213,7 +216,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.norheimanmismagius.desc1"
+        "cobblemon.species.norheimanmismagius.desc"
       ],
       "height": 9,
       "weight": 165,
@@ -261,7 +264,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "misdreavus form\u003dhizian",
+      "preEvolution": "misdreavus form=hizian",
       "baseScale": 0.16666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -309,7 +312,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.hizianmismagius.desc1"
+        "cobblemon.species.hizianmismagius.desc"
       ],
       "height": 10,
       "weight": 165,
@@ -357,7 +360,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "misdreavus form\u003ddelta",
+      "preEvolution": "misdreavus form=delta",
       "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
@@ -474,7 +477,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltamismagius.desc1"
+        "cobblemon.species.deltamismagius.desc"
       ],
       "height": 9,
       "weight": 44,

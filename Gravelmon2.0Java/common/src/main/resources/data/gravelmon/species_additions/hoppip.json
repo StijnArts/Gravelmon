@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "cottondown"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanhoppip.desc1"
+        "cobblemon.species.formanhoppip.desc"
       ],
       "height": 5,
       "weight": 0,
@@ -204,7 +204,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochhoppip.desc1"
+        "cobblemon.species.epochhoppip.desc"
       ],
       "height": 4,
       "weight": 5,
@@ -213,9 +213,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochhoppip_epoch_skiploom",
+          "id": "epochhoppip_skiploom_epoch",
           "variant": "level_up",
-          "result": "epoch skiploom",
+          "result": "skiploom epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -376,7 +376,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochhoppipone.desc1"
+        "cobblemon.species.epochhoppipone.desc"
       ],
       "height": 4,
       "weight": 5,
@@ -534,7 +534,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianhoppip.desc1"
+        "cobblemon.species.ayreianhoppip.desc"
       ],
       "height": 4,
       "weight": 5,

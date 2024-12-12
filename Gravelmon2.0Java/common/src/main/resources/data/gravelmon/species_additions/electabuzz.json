@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "elekid form=epoch",
       "baseScale": 0.18333333333333335,
       "cannotDynamax": false,
       "abilities": [
@@ -106,10 +107,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochelectabuzz.desc1"
+        "cobblemon.species.epochelectabuzz.desc"
       ],
       "height": 11,
       "weight": 300,
@@ -118,9 +121,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochelectabuzz_epoch_electivire",
+          "id": "epochelectabuzz_electivire_epoch",
           "variant": "item_interact",
-          "result": "epoch electivire",
+          "result": "electivire epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -167,8 +170,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "elekid form\u003ddelta",
-      "baseScale": 0.18333333333333335,
+      "preEvolution": "elekid form=delta",
+      "baseScale": 0.1375,
       "cannotDynamax": false,
       "abilities": [
         "innerfocus",
@@ -303,7 +306,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltaelectabuzz.desc1"
+        "cobblemon.species.deltaelectabuzz.desc"
       ],
       "height": 11,
       "weight": 450,
@@ -365,7 +368,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 26,
       "baseFriendship": 70,
-      "preEvolution": "elekid form\u003dx",
+      "preEvolution": "elekid form=x",
       "baseScale": 0.8,
       "cannotDynamax": false,
       "abilities": [
@@ -392,7 +395,19 @@
         "undiscovered"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:xenolith",
+            "quantityRange": "1-1",
+            "percentage": 10
+          },
+          {
+            "item": "gravelmon:xenolith",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
       },
       "moves": [
         "1:quickattack",
@@ -450,7 +465,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.electabuzzx.desc1"
+        "cobblemon.species.electabuzzx.desc"
       ],
       "height": 11,
       "weight": 300,

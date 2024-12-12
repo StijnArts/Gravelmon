@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "blaze"
@@ -40,7 +40,7 @@
     "trizor"
   ],
   "pokedex": [
-    "cobblemon.species.kapalze.desc1"
+    "cobblemon.species.kapalze.desc"
   ],
   "height": 5,
   "weight": 0,

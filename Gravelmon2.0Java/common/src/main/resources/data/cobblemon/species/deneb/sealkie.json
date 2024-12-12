@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.07500000000000001,
   "cannotDynamax": false,
   "abilities": [
     "damp",
@@ -106,7 +106,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.sealkie.desc1"
+    "cobblemon.species.sealkie.desc"
   ],
   "height": 5,
   "weight": 87,

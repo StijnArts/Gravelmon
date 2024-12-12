@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "craliber",
-  "baseScale": 0.15,
+  "baseScale": 0.028124999999999997,
   "cannotDynamax": false,
   "abilities": [
     "lightmetal",
@@ -37,7 +37,14 @@
     "mineral"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:raw_cod",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:watergun",
@@ -145,7 +152,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.crawglock.desc1"
+    "cobblemon.species.crawglock.desc"
   ],
   "height": 9,
   "weight": 200,

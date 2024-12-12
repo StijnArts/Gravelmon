@@ -8,7 +8,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.26666666666666666,
+  "baseScale": 0.2,
   "cannotDynamax": false,
   "abilities": [
     "static",
@@ -101,7 +101,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.grindon.desc1"
+    "cobblemon.species.grindon.desc"
   ],
   "height": 16,
   "weight": 1755,

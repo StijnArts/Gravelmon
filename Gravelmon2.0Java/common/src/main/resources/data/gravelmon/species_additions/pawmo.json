@@ -10,6 +10,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "pawmi form=epoch",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -110,10 +111,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochpawmo.desc1"
+        "cobblemon.species.epochpawmo.desc"
       ],
       "height": 4,
       "weight": 65,
@@ -122,9 +125,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochpawmo_epoch_pawmot",
+          "id": "epochpawmo_pawmot_epoch",
           "variant": "item_interact",
-          "result": "epoch pawmot",
+          "result": "pawmot epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

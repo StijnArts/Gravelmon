@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.31666666666666665,
+  "baseScale": 0.059375,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -41,7 +41,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.kabaracco.desc1"
+    "cobblemon.species.kabaracco.desc"
   ],
   "height": 19,
   "weight": 0,

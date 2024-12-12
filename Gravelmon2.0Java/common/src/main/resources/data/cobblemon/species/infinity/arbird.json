@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 39,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.07500000000000001,
   "cannotDynamax": false,
   "abilities": [
     "keeneye",
@@ -98,7 +98,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.arbird.desc1"
+    "cobblemon.species.arbird.desc"
   ],
   "height": 5,
   "weight": 150,

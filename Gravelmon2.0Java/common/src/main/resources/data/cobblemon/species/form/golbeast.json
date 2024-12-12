@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "golspin",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.075,
   "cannotDynamax": false,
   "abilities": [
     "ironbarbs"
@@ -45,7 +45,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.golbeast.desc1"
+    "cobblemon.species.golbeast.desc"
   ],
   "height": 24,
   "weight": 0,

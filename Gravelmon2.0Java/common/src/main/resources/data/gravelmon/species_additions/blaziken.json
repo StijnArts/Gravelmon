@@ -11,8 +11,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "combusken form\u003ddelta",
-      "baseScale": 0.31666666666666665,
+      "preEvolution": "combusken form=delta",
+      "baseScale": 0.2375,
       "cannotDynamax": false,
       "abilities": [
         "keeneye",
@@ -190,7 +190,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltablaziken.desc1"
+        "cobblemon.species.deltablaziken.desc"
       ],
       "height": 19,
       "weight": 520,
@@ -238,7 +238,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "combusken form\u003dayreian",
+      "preEvolution": "combusken form=ayreian",
       "baseScale": 0.31666666666666665,
       "cannotDynamax": false,
       "abilities": [
@@ -364,7 +364,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianblaziken.desc1"
+        "cobblemon.species.ayreianblaziken.desc"
       ],
       "height": 19,
       "weight": 520,
@@ -412,7 +412,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "combusken form\u003dmystic",
+      "preEvolution": "combusken form=mystic",
       "baseScale": 0.31666666666666665,
       "cannotDynamax": false,
       "abilities": [
@@ -464,7 +464,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.mysticblaziken.desc1"
+        "cobblemon.species.mysticblaziken.desc"
       ],
       "height": 19,
       "weight": 520,

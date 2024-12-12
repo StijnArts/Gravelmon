@@ -9,7 +9,7 @@
   "eggCycles": 62,
   "baseFriendship": 70,
   "preEvolution": "mushling",
-  "baseScale": 0.15,
+  "baseScale": 0.11249999999999999,
   "cannotDynamax": false,
   "abilities": [
     "magicguard",
@@ -104,7 +104,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.psycholyte.desc1"
+    "cobblemon.species.psycholyte.desc"
   ],
   "height": 9,
   "weight": 140,

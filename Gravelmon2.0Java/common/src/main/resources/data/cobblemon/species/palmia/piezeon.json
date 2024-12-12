@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.25,
+  "baseScale": 0.046875,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -32,7 +32,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:note_block",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:tackle",
@@ -43,7 +50,7 @@
     "palmia"
   ],
   "pokedex": [
-    "cobblemon.species.piezeon.desc1"
+    "cobblemon.species.piezeon.desc"
   ],
   "height": 15,
   "weight": 0,

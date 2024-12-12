@@ -7,7 +7,7 @@
   "experienceGroup": "slow",
   "eggCycles": 100,
   "baseFriendship": 70,
-  "baseScale": 0.3333333333333333,
+  "baseScale": 0.25,
   "cannotDynamax": false,
   "abilities": [
     "pressure"
@@ -77,7 +77,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.ganimede.desc1"
+    "cobblemon.species.ganimede.desc"
   ],
   "height": 20,
   "weight": 1958,

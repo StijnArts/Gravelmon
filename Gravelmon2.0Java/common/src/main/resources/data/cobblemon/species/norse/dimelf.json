@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "duself",
-  "baseScale": 0.3666666666666667,
+  "baseScale": 0.06875,
   "cannotDynamax": false,
   "abilities": [
     "superluck"
@@ -43,7 +43,7 @@
     "norse"
   ],
   "pokedex": [
-    "cobblemon.species.dimelf.desc1"
+    "cobblemon.species.dimelf.desc"
   ],
   "height": 22,
   "weight": 0,

@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "bigpecks",
@@ -88,7 +88,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.ospuny.desc1"
+    "cobblemon.species.ospuny.desc"
   ],
   "height": 2,
   "weight": 21,

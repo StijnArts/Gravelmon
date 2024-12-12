@@ -60,7 +60,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.avalossianweepinbell.desc1"
+        "cobblemon.species.avalossianweepinbell.desc"
       ],
       "height": 7,
       "weight": 0,
@@ -119,7 +119,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "bellsprout form\u003daristosian",
+      "preEvolution": "bellsprout form=aristosian",
       "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
@@ -230,7 +230,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.aristosianweepinbell.desc1"
+        "cobblemon.species.aristosianweepinbell.desc"
       ],
       "height": 9,
       "weight": 59,

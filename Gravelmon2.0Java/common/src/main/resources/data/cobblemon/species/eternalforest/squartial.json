@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "squinja",
-  "baseScale": 0.3,
+  "baseScale": 0.056249999999999994,
   "cannotDynamax": false,
   "abilities": [
     "torrent",
@@ -130,7 +130,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.squartial.desc1"
+    "cobblemon.species.squartial.desc"
   ],
   "height": 18,
   "weight": 792,

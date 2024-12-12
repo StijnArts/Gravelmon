@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "permafrost",
@@ -35,7 +35,19 @@
     "mineral"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:dirt",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:ice",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:pound",
@@ -125,7 +137,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.pengliff.desc1"
+    "cobblemon.species.pengliff.desc"
   ],
   "height": 5,
   "weight": 351,

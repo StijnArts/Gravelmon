@@ -9,7 +9,7 @@
   "eggCycles": 48,
   "baseFriendship": 70,
   "preEvolution": "rocano",
-  "baseScale": 0.15,
+  "baseScale": 0.028124999999999997,
   "cannotDynamax": false,
   "abilities": [
     "magmaarmor",
@@ -36,7 +36,14 @@
     "mineral"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:magma",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
   },
   "moves": [
     "1:tackle",
@@ -125,7 +132,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.volcaroc.desc1"
+    "cobblemon.species.volcaroc.desc"
   ],
   "height": 9,
   "weight": 1270,

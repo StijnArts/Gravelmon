@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "carapad",
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.0375,
   "cannotDynamax": false,
   "abilities": [
     "raindish",
@@ -97,7 +97,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.puripad.desc1"
+    "cobblemon.species.puripad.desc"
   ],
   "height": 12,
   "weight": 440,

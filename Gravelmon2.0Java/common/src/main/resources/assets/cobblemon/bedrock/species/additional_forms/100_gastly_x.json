@@ -1,6 +1,6 @@
 {
   "species": "cobblemon:gastly",
-  "order": 11,
+  "order": 100,
   "variations": [
     {
       "aspects": [
@@ -9,7 +9,29 @@
       "model": "cobblemon:generation1_gastlyx.geo",
       "poser": "cobblemon:generation1_gastlyx",
       "texture": "cobblemon:textures/pokemon/generation1/gastlyx/gastlyx.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     },
     {
       "aspects": [
@@ -19,7 +41,29 @@
       "model": "cobblemon:generation1_gastlyx.geo",
       "poser": "cobblemon:generation1_gastlyx",
       "texture": "cobblemon:textures/pokemon/generation1/gastlyx/gastlyx_shiny.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     }
   ]
 }

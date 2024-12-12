@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "torkoal",
-  "baseScale": 0.3,
+  "baseScale": 0.22499999999999998,
   "cannotDynamax": false,
   "abilities": [
     "whitesmoke",
@@ -105,7 +105,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.galavagos.desc1"
+    "cobblemon.species.galavagos.desc"
   ],
   "height": 18,
   "weight": 2304,

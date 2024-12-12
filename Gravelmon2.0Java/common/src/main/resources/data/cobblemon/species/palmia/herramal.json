@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sanqet",
-  "baseScale": 0.21666666666666667,
+  "baseScale": 0.040625,
   "cannotDynamax": false,
   "abilities": [
     "sandveil",
@@ -45,7 +45,7 @@
     "palmia"
   ],
   "pokedex": [
-    "cobblemon.species.herramal.desc1"
+    "cobblemon.species.herramal.desc"
   ],
   "height": 13,
   "weight": 0,

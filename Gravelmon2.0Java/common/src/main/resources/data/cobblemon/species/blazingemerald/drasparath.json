@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 51,
   "baseFriendship": 70,
-  "preEvolution": "dunsparce form\u003dhoennian",
+  "preEvolution": "dunsparce form=hoennian",
   "baseScale": 0.8166666666666668,
   "cannotDynamax": false,
   "abilities": [
@@ -87,7 +87,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.drasparath.desc1"
+    "cobblemon.species.drasparath.desc"
   ],
   "height": 49,
   "weight": 780,

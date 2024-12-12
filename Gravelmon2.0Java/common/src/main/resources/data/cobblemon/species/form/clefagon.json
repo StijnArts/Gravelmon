@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "clefairy form\u003dforman",
-  "baseScale": 0.26666666666666666,
+  "preEvolution": "clefairy form=forman",
+  "baseScale": 0.05,
   "cannotDynamax": false,
   "abilities": [
     "serenegrace"
@@ -45,7 +45,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.clefagon.desc1"
+    "cobblemon.species.clefagon.desc"
   ],
   "height": 16,
   "weight": 0,

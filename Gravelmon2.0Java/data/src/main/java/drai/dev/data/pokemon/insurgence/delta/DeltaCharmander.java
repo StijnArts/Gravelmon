@@ -138,9 +138,9 @@ public class DeltaCharmander extends Pokemon {
                         new AnimatedLayerData("flame",
                                 List.of("flame/deltatail1", "flame/deltatail2", "flame/deltatail3", "flame/deltatail4"),
                                 10, true,
-                                true, false, false, false))
+                                Optional.of(true), Optional.of(false), false, false))
                 .addLayer(new SimpleTextureLayerData("glow", "deltacharmander_emissive",
-                        true, true, false, true));
+                        Optional.of(true), Optional.of(true), false, true));
         getPosingFileData().setPortraitData( 2.2f, new Vector3(-0.1, 0, 0));
         getPosingFileData().setProfileData( 0.7f, new Vector3(0, 0.7, 0));
         getPosingFileData().setBasicHead();

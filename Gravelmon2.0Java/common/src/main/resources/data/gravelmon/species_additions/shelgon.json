@@ -31,7 +31,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -65,7 +65,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ferranianshelgon.desc1"
+        "cobblemon.species.ferranianshelgon.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -113,6 +113,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "bagon form=epoch",
       "baseScale": 0.18333333333333335,
       "cannotDynamax": false,
       "abilities": [
@@ -228,10 +229,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochshelgon.desc1"
+        "cobblemon.species.epochshelgon.desc"
       ],
       "height": 11,
       "weight": 1105,
@@ -240,9 +243,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochshelgon_epoch_salamence",
+          "id": "epochshelgon_salamence_epoch",
           "variant": "level_up",
-          "result": "epoch salamence",
+          "result": "salamence epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

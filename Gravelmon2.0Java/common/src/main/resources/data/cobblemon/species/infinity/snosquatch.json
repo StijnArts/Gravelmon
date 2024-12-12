@@ -9,7 +9,7 @@
   "eggCycles": 48,
   "baseFriendship": 70,
   "preEvolution": "kidfoot",
-  "baseScale": 0.5666666666666667,
+  "baseScale": 0.425,
   "cannotDynamax": false,
   "abilities": [
     "moxie"
@@ -132,7 +132,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.snosquatch.desc1"
+    "cobblemon.species.snosquatch.desc"
   ],
   "height": 34,
   "weight": 4500,

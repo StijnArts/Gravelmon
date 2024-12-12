@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ferranianbagon.desc1"
+        "cobblemon.species.ferranianbagon.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -216,7 +216,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochbagon.desc1"
+        "cobblemon.species.epochbagon.desc"
       ],
       "height": 6,
       "weight": 421,
@@ -225,9 +225,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochbagon_epoch_shelgon",
+          "id": "epochbagon_shelgon_epoch",
           "variant": "level_up",
-          "result": "epoch shelgon",
+          "result": "shelgon epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

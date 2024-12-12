@@ -115,7 +115,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochcarvanha.desc1"
+        "cobblemon.species.epochcarvanha.desc"
       ],
       "height": 8,
       "weight": 208,
@@ -124,9 +124,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochcarvanha_epoch_sharpedo",
+          "id": "epochcarvanha_sharpedo_epoch",
           "variant": "level_up",
-          "result": "epoch sharpedo",
+          "result": "sharpedo epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -205,7 +205,14 @@
         "undiscovered"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:xenolith",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
       },
       "moves": [
         "1:aquajet",
@@ -255,7 +262,7 @@
         "gen3"
       ],
       "pokedex": [
-        "cobblemon.species.carvanhax.desc1"
+        "cobblemon.species.carvanhax.desc"
       ],
       "height": 8,
       "weight": 118,

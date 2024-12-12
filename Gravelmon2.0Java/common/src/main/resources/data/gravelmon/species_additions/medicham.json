@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "meditite form=epoch",
       "baseScale": 0.21666666666666667,
       "cannotDynamax": false,
       "abilities": [
@@ -93,10 +94,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochmedicham.desc1"
+        "cobblemon.species.epochmedicham.desc"
       ],
       "height": 13,
       "weight": 315,
@@ -144,8 +147,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "meditite form\u003ddelta",
-      "baseScale": 0.21666666666666667,
+      "preEvolution": "meditite form=delta",
+      "baseScale": 0.1625,
       "cannotDynamax": false,
       "abilities": [
         "sapsipper",
@@ -294,7 +297,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltamedicham.desc1"
+        "cobblemon.species.deltamedicham.desc"
       ],
       "height": 13,
       "weight": 315,

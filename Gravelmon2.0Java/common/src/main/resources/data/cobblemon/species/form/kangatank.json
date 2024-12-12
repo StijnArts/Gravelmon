@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "kangabo",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.075,
   "cannotDynamax": false,
   "abilities": [
     "sturdy"
@@ -45,7 +45,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.kangatank.desc1"
+    "cobblemon.species.kangatank.desc"
   ],
   "height": 24,
   "weight": 0,

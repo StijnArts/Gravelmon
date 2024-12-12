@@ -27,7 +27,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.021875,
       "cannotDynamax": false,
       "abilities": [
         "poisonpoint"
@@ -61,7 +61,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanremoraid.desc1"
+        "cobblemon.species.formanremoraid.desc"
       ],
       "height": 7,
       "weight": 0,
@@ -234,7 +234,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochremoraid.desc1"
+        "cobblemon.species.epochremoraid.desc"
       ],
       "height": 6,
       "weight": 120,
@@ -243,9 +243,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochremoraid_epoch_octillery",
+          "id": "epochremoraid_octillery_epoch",
           "variant": "level_up",
-          "result": "epoch octillery",
+          "result": "octillery epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -330,7 +330,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.lagoonanremoraid.desc1"
+        "cobblemon.species.lagoonanremoraid.desc"
       ],
       "height": 6,
       "weight": 120,
@@ -402,7 +402,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "heatproof",
@@ -506,7 +506,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltaremoraid.desc1"
+        "cobblemon.species.deltaremoraid.desc"
       ],
       "height": 6,
       "weight": 120,

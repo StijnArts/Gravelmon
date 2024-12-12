@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "chimchar form=epoch",
       "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
@@ -106,10 +107,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochmonferno.desc1"
+        "cobblemon.species.epochmonferno.desc"
       ],
       "height": 9,
       "weight": 220,
@@ -118,9 +121,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmonferno_epoch_infernape",
+          "id": "epochmonferno_infernape_epoch",
           "variant": "level_up",
-          "result": "epoch infernape",
+          "result": "infernape epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

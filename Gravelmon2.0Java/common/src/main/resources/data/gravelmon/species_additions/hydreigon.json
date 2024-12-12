@@ -11,6 +11,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "zweilous form=epoch",
       "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
@@ -112,10 +113,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochhydreigon.desc1"
+        "cobblemon.species.epochhydreigon.desc"
       ],
       "height": 18,
       "weight": 1600,
@@ -163,8 +166,8 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "zweilous form\u003ddelta",
-      "baseScale": 0.3,
+      "preEvolution": "zweilous form=delta",
+      "baseScale": 0.22499999999999998,
       "cannotDynamax": false,
       "abilities": [
         "intoxicate"
@@ -307,7 +310,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltahydreigon.desc1"
+        "cobblemon.species.deltahydreigon.desc"
       ],
       "height": 18,
       "weight": 1600,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "collecjunk",
-  "baseScale": 0.5833333333333334,
+  "baseScale": 0.109375,
   "cannotDynamax": false,
   "abilities": [
     "corrosion"
@@ -47,7 +47,7 @@
     "trizor"
   ],
   "pokedex": [
-    "cobblemon.species.rexagon.desc1"
+    "cobblemon.species.rexagon.desc"
   ],
   "height": 35,
   "weight": 0,

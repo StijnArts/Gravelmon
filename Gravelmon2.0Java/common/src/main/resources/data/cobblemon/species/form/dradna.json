@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "seadra form\u003dforman",
-  "baseScale": 0.31666666666666665,
+  "preEvolution": "seadra form=forman",
+  "baseScale": 0.059375,
   "cannotDynamax": false,
   "abilities": [
     "regenerator"
@@ -47,7 +47,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.dradna.desc1"
+    "cobblemon.species.dradna.desc"
   ],
   "height": 19,
   "weight": 0,

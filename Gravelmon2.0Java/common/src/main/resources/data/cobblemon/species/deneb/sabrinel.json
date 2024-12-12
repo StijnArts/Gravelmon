@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "fujinel",
-  "baseScale": 0.1,
+  "baseScale": 0.07500000000000001,
   "cannotDynamax": false,
   "abilities": [
     "flashfire",
@@ -107,7 +107,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.sabrinel.desc1"
+    "cobblemon.species.sabrinel.desc"
   ],
   "height": 5,
   "weight": 108,

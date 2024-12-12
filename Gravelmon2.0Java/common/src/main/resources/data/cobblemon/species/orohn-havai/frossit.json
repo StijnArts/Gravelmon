@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "imbumi",
-  "baseScale": 0.18333333333333335,
+  "baseScale": 8.8,
   "cannotDynamax": false,
   "abilities": [
     "icebody",
@@ -55,7 +55,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.frossit.desc1"
+    "cobblemon.species.frossit.desc"
   ],
   "height": 11,
   "weight": 165,

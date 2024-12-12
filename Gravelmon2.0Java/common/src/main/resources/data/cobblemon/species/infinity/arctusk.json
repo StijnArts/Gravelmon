@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 48,
   "baseFriendship": 70,
-  "baseScale": 0.18333333333333335,
+  "baseScale": 0.1375,
   "cannotDynamax": false,
   "abilities": [
     "sturdy",
@@ -109,7 +109,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.arctusk.desc1"
+    "cobblemon.species.arctusk.desc"
   ],
   "height": 11,
   "weight": 1070,

@@ -7,7 +7,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "delcatty form\u003dhizian",
+  "preEvolution": "delcatty form=hizian",
   "baseScale": 0.2333333333333333,
   "cannotDynamax": false,
   "abilities": [
@@ -89,7 +89,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.purrwess.desc1"
+    "cobblemon.species.purrwess.desc"
   ],
   "height": 14,
   "weight": 165,

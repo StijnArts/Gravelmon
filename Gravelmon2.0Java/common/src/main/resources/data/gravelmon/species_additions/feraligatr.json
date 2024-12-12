@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "croconaw form=epoch",
       "baseScale": 0.3833333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -122,10 +123,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochferaligatr.desc1"
+        "cobblemon.species.epochferaligatr.desc"
       ],
       "height": 23,
       "weight": 888,
@@ -276,7 +279,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochferaligatrone.desc1"
+        "cobblemon.species.epochferaligatrone.desc"
       ],
       "height": 23,
       "weight": 888,
@@ -361,7 +364,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ionosianferaligatr.desc1"
+        "cobblemon.species.ionosianferaligatr.desc"
       ],
       "height": 18,
       "weight": 0,
@@ -409,7 +412,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "croconaw form\u003degho",
+      "preEvolution": "croconaw form=egho",
       "baseScale": 1.2,
       "cannotDynamax": false,
       "abilities": [
@@ -437,7 +440,14 @@
         "water_1"
       ],
       "drops": {
-        "amount": 2
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:leather",
+            "quantityRange": "1-2",
+            "percentage": 50
+          }
+        ]
       },
       "moves": [
         "1:venomswipe",
@@ -554,7 +564,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.eghoferaligatr.desc1"
+        "cobblemon.species.eghoferaligatr.desc"
       ],
       "height": 23,
       "weight": 888,
@@ -602,7 +612,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "croconaw form\u003dayreian",
+      "preEvolution": "croconaw form=ayreian",
       "baseScale": 0.3833333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -721,7 +731,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianferaligatr.desc1"
+        "cobblemon.species.ayreianferaligatr.desc"
       ],
       "height": 23,
       "weight": 888,

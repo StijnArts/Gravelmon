@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianimpidimp.desc1"
+        "cobblemon.species.fabelianimpidimp.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -201,7 +201,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochimpidimp.desc1"
+        "cobblemon.species.epochimpidimp.desc"
       ],
       "height": 4,
       "weight": 55,
@@ -210,9 +210,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochimpidimp_epoch_morgrem",
+          "id": "epochimpidimp_morgrem_epoch",
           "variant": "level_up",
-          "result": "epoch morgrem",
+          "result": "morgrem epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -370,7 +370,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochimpidimpone.desc1"
+        "cobblemon.species.epochimpidimpone.desc"
       ],
       "height": 4,
       "weight": 55,
@@ -547,7 +547,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.novranimpidimp.desc1"
+        "cobblemon.species.novranimpidimp.desc"
       ],
       "height": 4,
       "weight": 165,
@@ -687,7 +687,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.varitasianimpidimp.desc1"
+        "cobblemon.species.varitasianimpidimp.desc"
       ],
       "height": 6,
       "weight": 165,

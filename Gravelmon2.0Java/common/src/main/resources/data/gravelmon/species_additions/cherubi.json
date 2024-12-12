@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabeliancherubi.desc1"
+        "cobblemon.species.fabeliancherubi.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -193,7 +193,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochcherubi.desc1"
+        "cobblemon.species.epochcherubi.desc"
       ],
       "height": 4,
       "weight": 33,
@@ -202,9 +202,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochcherubi_epoch_cherrim",
+          "id": "epochcherubi_cherrim_epoch",
           "variant": "level_up",
-          "result": "epoch cherrim",
+          "result": "cherrim epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -312,7 +312,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.africanusancherubi.desc1"
+        "cobblemon.species.africanusancherubi.desc"
       ],
       "height": 4,
       "weight": 33,
@@ -470,7 +470,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.novrancherubi.desc1"
+        "cobblemon.species.novrancherubi.desc"
       ],
       "height": 4,
       "weight": 165,

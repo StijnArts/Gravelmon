@@ -9,7 +9,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "pressaur",
-  "baseScale": 0.3333333333333333,
+  "baseScale": 0.0625,
   "cannotDynamax": false,
   "abilities": [
     "clearbody",
@@ -37,7 +37,14 @@
     "dragon"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:diamond",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:sharpen",
@@ -117,7 +124,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.diamat.desc1"
+    "cobblemon.species.diamat.desc"
   ],
   "height": 20,
   "weight": 4825,

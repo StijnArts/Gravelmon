@@ -28,7 +28,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -62,7 +62,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ivrisianmagikarp.desc1"
+        "cobblemon.species.ivrisianmagikarp.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -110,7 +110,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.021875,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -146,7 +146,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.palmianmagikarp.desc1"
+        "cobblemon.species.palmianmagikarp.desc"
       ],
       "height": 7,
       "weight": 0,
@@ -209,7 +209,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.19999999999999998,
+      "baseScale": 0.0375,
       "cannotDynamax": false,
       "abilities": [
         "icebody"
@@ -245,7 +245,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanmagikarp.desc1"
+        "cobblemon.species.formanmagikarp.desc"
       ],
       "height": 12,
       "weight": 0,
@@ -334,7 +334,16 @@
         "water_2",
         "dragon"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:astral_stone",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
+      },
       "moves": [
         "15:flail",
         "5:bite",
@@ -390,7 +399,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochmagikarp.desc1"
+        "cobblemon.species.epochmagikarp.desc"
       ],
       "height": 9,
       "weight": 100,
@@ -399,9 +408,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmagikarp_epoch_gyarados",
+          "id": "epochmagikarp_gyarados_epoch",
           "variant": "item_interact",
-          "result": "epoch gyarados",
+          "result": "gyarados epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

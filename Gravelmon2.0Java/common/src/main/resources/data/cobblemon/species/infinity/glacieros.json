@@ -9,7 +9,7 @@
   "eggCycles": 48,
   "baseFriendship": 70,
   "preEvolution": "iceros",
-  "baseScale": 0.31666666666666665,
+  "baseScale": 0.2375,
   "cannotDynamax": false,
   "abilities": [
     "icebody",
@@ -110,7 +110,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.glacieros.desc1"
+    "cobblemon.species.glacieros.desc"
   ],
   "height": 19,
   "weight": 1320,

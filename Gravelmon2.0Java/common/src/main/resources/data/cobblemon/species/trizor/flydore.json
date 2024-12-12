@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "maggenrola",
-  "baseScale": 0.16666666666666666,
+  "baseScale": 0.03125,
   "cannotDynamax": false,
   "abilities": [
     "tintedlens"
@@ -44,7 +44,7 @@
     "trizor"
   ],
   "pokedex": [
-    "cobblemon.species.flydore.desc1"
+    "cobblemon.species.flydore.desc"
   ],
   "height": 10,
   "weight": 0,

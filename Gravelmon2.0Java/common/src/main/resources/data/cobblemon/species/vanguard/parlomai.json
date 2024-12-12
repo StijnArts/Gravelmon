@@ -33,7 +33,14 @@
     "fairy"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:room_service",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "5:encore",
@@ -100,7 +107,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.parlomai.desc1"
+    "cobblemon.species.parlomai.desc"
   ],
   "height": 17,
   "weight": 780,

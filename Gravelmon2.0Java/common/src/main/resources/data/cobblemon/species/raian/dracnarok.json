@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "collecrok",
-  "baseScale": 0.6333333333333333,
+  "baseScale": 0.11875,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -47,7 +47,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.dracnarok.desc1"
+    "cobblemon.species.dracnarok.desc"
   ],
   "height": 38,
   "weight": 0,

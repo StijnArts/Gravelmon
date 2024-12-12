@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pachirisu",
-  "baseScale": 0.11666666666666665,
+  "baseScale": 0.0875,
   "cannotDynamax": false,
   "abilities": [
     "voltabsorb",
@@ -106,7 +106,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.pachirikku.desc1"
+    "cobblemon.species.pachirikku.desc"
   ],
   "height": 7,
   "weight": 233,

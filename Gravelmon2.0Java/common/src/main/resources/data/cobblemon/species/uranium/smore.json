@@ -34,7 +34,14 @@
     "bug"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:royal_jelly",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "moves": [
     "1:poisonsting",
@@ -94,7 +101,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.smore.desc1"
+    "cobblemon.species.smore.desc"
   ],
   "height": 1,
   "weight": 12,

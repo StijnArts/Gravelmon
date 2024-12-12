@@ -107,7 +107,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochelgyem.desc1"
+        "cobblemon.species.epochelgyem.desc"
       ],
       "height": 5,
       "weight": 90,
@@ -116,9 +116,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochelgyem_epoch_beheeyem",
+          "id": "epochelgyem_beheeyem_epoch",
           "variant": "level_up",
-          "result": "epoch beheeyem",
+          "result": "beheeyem epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

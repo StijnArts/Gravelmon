@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "flaaffy form\u003dforman",
-  "baseScale": 0.2833333333333333,
+  "preEvolution": "flaaffy form=forman",
+  "baseScale": 0.053125,
   "cannotDynamax": false,
   "abilities": [
     "poisontouch"
@@ -45,7 +45,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.venomare.desc1"
+    "cobblemon.species.venomare.desc"
   ],
   "height": 17,
   "weight": 0,

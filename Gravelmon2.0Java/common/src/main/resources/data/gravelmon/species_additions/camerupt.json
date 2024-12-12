@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "numel form=epoch",
       "baseScale": 0.31666666666666665,
       "cannotDynamax": false,
       "abilities": [
@@ -107,10 +108,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochcamerupt.desc1"
+        "cobblemon.species.epochcamerupt.desc"
       ],
       "height": 19,
       "weight": 2200,
@@ -263,7 +266,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochcameruptone.desc1"
+        "cobblemon.species.epochcameruptone.desc"
       ],
       "height": 23,
       "weight": 2200,
@@ -310,8 +313,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "numel form\u003ddelta",
-      "baseScale": 0.11666666666666665,
+      "preEvolution": "numel form=delta",
+      "baseScale": 0.0875,
       "cannotDynamax": false,
       "abilities": [
         "poisonpoint",
@@ -426,7 +429,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltacamerupt.desc1"
+        "cobblemon.species.deltacamerupt.desc"
       ],
       "height": 7,
       "weight": 240,
@@ -474,7 +477,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "numel form\u003dayreian",
+      "preEvolution": "numel form=ayreian",
       "baseScale": 0.31666666666666665,
       "cannotDynamax": false,
       "abilities": [
@@ -591,7 +594,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiancamerupt.desc1"
+        "cobblemon.species.ayreiancamerupt.desc"
       ],
       "height": 19,
       "weight": 2200,
@@ -639,7 +642,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "numel form\u003dcefiran",
+      "preEvolution": "numel form=cefiran",
       "baseScale": 0.31666666666666665,
       "cannotDynamax": false,
       "abilities": [
@@ -709,7 +712,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.cefirancamerupt.desc1"
+        "cobblemon.species.cefirancamerupt.desc"
       ],
       "height": 19,
       "weight": 2200,

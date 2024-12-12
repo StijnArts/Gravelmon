@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "chikorita form\u003dforman",
-  "baseScale": 0.26666666666666666,
+  "preEvolution": "chikorita form=forman",
+  "baseScale": 0.05,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -45,7 +45,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.sawtears.desc1"
+    "cobblemon.species.sawtears.desc"
   ],
   "height": 16,
   "weight": 0,

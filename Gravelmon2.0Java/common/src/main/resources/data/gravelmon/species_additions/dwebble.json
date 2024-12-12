@@ -116,7 +116,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochdwebble.desc1"
+        "cobblemon.species.epochdwebble.desc"
       ],
       "height": 3,
       "weight": 145,
@@ -125,9 +125,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochdwebble_epoch_crustle",
+          "id": "epochdwebble_crustle_epoch",
           "variant": "item_interact",
-          "result": "epoch crustle",
+          "result": "crustle epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -276,7 +276,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiandwebble.desc1"
+        "cobblemon.species.ayreiandwebble.desc"
       ],
       "height": 3,
       "weight": 145,

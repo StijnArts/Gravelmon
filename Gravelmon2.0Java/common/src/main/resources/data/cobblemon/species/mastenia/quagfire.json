@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "wooper form\u003dmastenian",
+  "preEvolution": "wooper form=mastenian",
   "baseScale": 0.2333333333333333,
   "cannotDynamax": false,
   "abilities": [
@@ -47,7 +47,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.quagfire.desc1"
+    "cobblemon.species.quagfire.desc"
   ],
   "height": 14,
   "weight": 0,

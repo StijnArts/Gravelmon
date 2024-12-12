@@ -1,7 +1,14 @@
 {
   "target": "cobblemon:knitzard",
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:decorated_pot_sherds",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "evolutions": [
     {

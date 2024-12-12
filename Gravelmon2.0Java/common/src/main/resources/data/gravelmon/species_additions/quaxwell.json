@@ -11,7 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "quaxly form\u003dayreian",
+      "preEvolution": "quaxly form=ayreian",
       "baseScale": 0.19999999999999998,
       "cannotDynamax": false,
       "abilities": [
@@ -93,7 +93,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianquaxwell.desc1"
+        "cobblemon.species.ayreianquaxwell.desc"
       ],
       "height": 12,
       "weight": 215,

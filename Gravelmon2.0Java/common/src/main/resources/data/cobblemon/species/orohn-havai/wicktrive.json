@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "wickvine",
-  "baseScale": 0.2833333333333333,
+  "baseScale": 13.6,
   "cannotDynamax": false,
   "abilities": [
     "ironbarbs",
@@ -121,7 +121,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.wicktrive.desc1"
+    "cobblemon.species.wicktrive.desc"
   ],
   "height": 17,
   "weight": 165,

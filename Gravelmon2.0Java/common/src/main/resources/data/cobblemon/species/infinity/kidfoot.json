@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 48,
   "baseFriendship": 70,
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.15,
   "cannotDynamax": false,
   "abilities": [
     "forewarn",
@@ -116,7 +116,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.kidfoot.desc1"
+    "cobblemon.species.kidfoot.desc"
   ],
   "height": 12,
   "weight": 700,

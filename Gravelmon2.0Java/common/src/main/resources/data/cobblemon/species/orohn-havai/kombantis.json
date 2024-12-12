@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "twirpant",
-  "baseScale": 0.2333333333333333,
+  "baseScale": 11.2,
   "cannotDynamax": false,
   "abilities": [
     "innerfocus",
@@ -56,7 +56,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.kombantis.desc1"
+    "cobblemon.species.kombantis.desc"
   ],
   "height": 14,
   "weight": 165,

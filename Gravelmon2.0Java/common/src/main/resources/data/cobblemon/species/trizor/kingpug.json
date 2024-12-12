@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "leapug",
-  "baseScale": 0.25,
+  "baseScale": 0.046875,
   "cannotDynamax": false,
   "abilities": [
     "sandrush"
@@ -47,7 +47,7 @@
     "trizor"
   ],
   "pokedex": [
-    "cobblemon.species.kingpug.desc1"
+    "cobblemon.species.kingpug.desc"
   ],
   "height": 15,
   "weight": 0,

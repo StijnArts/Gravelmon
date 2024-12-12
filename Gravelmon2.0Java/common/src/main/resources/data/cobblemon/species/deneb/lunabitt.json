@@ -7,7 +7,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.07500000000000001,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -103,7 +103,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.lunabitt.desc1"
+    "cobblemon.species.lunabitt.desc"
   ],
   "height": 6,
   "weight": 75,

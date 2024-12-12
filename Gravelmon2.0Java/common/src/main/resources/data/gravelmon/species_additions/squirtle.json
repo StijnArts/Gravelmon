@@ -10,7 +10,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.021875,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formansquirtle.desc1"
+        "cobblemon.species.formansquirtle.desc"
       ],
       "height": 7,
       "weight": 0,
@@ -134,7 +134,14 @@
         "monster"
       ],
       "drops": {
-        "amount": 2
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:feather",
+            "quantityRange": "1-2",
+            "percentage": 50
+          }
+        ]
       },
       "moves": [
         "1:tackle",
@@ -212,7 +219,7 @@
         "infinity"
       ],
       "pokedex": [
-        "cobblemon.species.eghosquirtle.desc1"
+        "cobblemon.species.eghosquirtle.desc"
       ],
       "height": 5,
       "weight": 85,
@@ -417,7 +424,7 @@
         "insurgence"
       ],
       "pokedex": [
-        "cobblemon.species.deltasquirtle.desc1"
+        "cobblemon.species.deltasquirtle.desc"
       ],
       "height": 5,
       "weight": 90,
@@ -587,7 +594,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiansquirtle.desc1"
+        "cobblemon.species.ayreiansquirtle.desc"
       ],
       "height": 5,
       "weight": 90,

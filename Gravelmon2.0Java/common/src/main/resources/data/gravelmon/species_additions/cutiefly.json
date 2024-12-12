@@ -117,7 +117,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochcutiefly.desc1"
+        "cobblemon.species.epochcutiefly.desc"
       ],
       "height": 1,
       "weight": 2,
@@ -126,9 +126,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochcutiefly_epoch_ribombee",
+          "id": "epochcutiefly_ribombee_epoch",
           "variant": "level_up",
-          "result": "epoch ribombee",
+          "result": "ribombee epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -285,7 +285,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiancutiefly.desc1"
+        "cobblemon.species.ayreiancutiefly.desc"
       ],
       "height": 1,
       "weight": 2,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "marsupunch",
-  "baseScale": 0.3666666666666667,
+  "baseScale": 0.06875,
   "cannotDynamax": false,
   "abilities": [
     "ironfist"
@@ -130,7 +130,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.kankombat.desc1"
+    "cobblemon.species.kankombat.desc"
   ],
   "height": 22,
   "weight": 714,

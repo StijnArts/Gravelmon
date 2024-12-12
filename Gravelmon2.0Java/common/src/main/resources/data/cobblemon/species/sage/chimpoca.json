@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 76,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "sheerforce",
@@ -35,7 +35,14 @@
     "field"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:cocoa_beans",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:armthrust",
@@ -102,7 +109,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.chimpoca.desc1"
+    "cobblemon.species.chimpoca.desc"
   ],
   "height": 6,
   "weight": 119,

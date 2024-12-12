@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.45,
+      "baseScale": 0.084375,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -47,7 +47,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.raianiandragonite.desc1"
+        "cobblemon.species.raianiandragonite.desc"
       ],
       "height": 27,
       "weight": 0,
@@ -95,7 +95,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.43333333333333335,
+      "baseScale": 0.08125,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -131,7 +131,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.raianiandragoniteone.desc1"
+        "cobblemon.species.raianiandragoniteone.desc"
       ],
       "height": 26,
       "weight": 0,
@@ -179,6 +179,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "dragonair form=epoch",
       "baseScale": 0.3666666666666667,
       "cannotDynamax": false,
       "abilities": [
@@ -282,10 +283,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochdragonite.desc1"
+        "cobblemon.species.epochdragonite.desc"
       ],
       "height": 22,
       "weight": 2100,
@@ -333,8 +336,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "dragonair form\u003ddelta",
-      "baseScale": 0.3666666666666667,
+      "preEvolution": "dragonair form=delta",
+      "baseScale": 0.275,
       "cannotDynamax": false,
       "abilities": [
         "swiftswim",
@@ -486,7 +489,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltadragonite.desc1"
+        "cobblemon.species.deltadragonite.desc"
       ],
       "height": 22,
       "weight": 2100,
@@ -664,7 +667,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiandragonite.desc1"
+        "cobblemon.species.ayreiandragonite.desc"
       ],
       "height": 22,
       "weight": 1600,

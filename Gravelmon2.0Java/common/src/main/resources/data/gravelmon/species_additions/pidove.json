@@ -111,7 +111,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochpidove.desc1"
+        "cobblemon.species.epochpidove.desc"
       ],
       "height": 3,
       "weight": 21,
@@ -120,9 +120,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochpidove_epoch_tranquill",
+          "id": "epochpidove_tranquill_epoch",
           "variant": "level_up",
-          "result": "epoch tranquill",
+          "result": "tranquill epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -260,7 +260,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianpidove.desc1"
+        "cobblemon.species.ayreianpidove.desc"
       ],
       "height": 3,
       "weight": 81,

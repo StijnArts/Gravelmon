@@ -126,7 +126,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochsalandit.desc1"
+        "cobblemon.species.epochsalandit.desc"
       ],
       "height": 6,
       "weight": 48,
@@ -135,9 +135,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochsalandit_epoch_salazzle",
+          "id": "epochsalandit_salazzle_epoch",
           "variant": "level_up",
-          "result": "epoch salazzle",
+          "result": "salazzle epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

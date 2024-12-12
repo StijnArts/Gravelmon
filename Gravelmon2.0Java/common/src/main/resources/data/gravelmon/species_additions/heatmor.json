@@ -114,7 +114,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.hizianheatmor.desc1"
+        "cobblemon.species.hizianheatmor.desc"
       ],
       "height": 14,
       "weight": 165,
@@ -289,7 +289,7 @@
         "insurgence"
       ],
       "pokedex": [
-        "cobblemon.species.deltaheatmor.desc1"
+        "cobblemon.species.deltaheatmor.desc"
       ],
       "height": 14,
       "weight": 1160,

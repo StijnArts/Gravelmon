@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "darumaka form=epoch",
       "baseScale": 0.21666666666666667,
       "cannotDynamax": false,
       "abilities": [
@@ -114,10 +115,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochdarmanitan.desc1"
+        "cobblemon.species.epochdarmanitan.desc"
       ],
       "height": 13,
       "weight": 929,
@@ -165,7 +168,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "darumaka form\u003ddelta",
+      "preEvolution": "darumaka form=delta",
       "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
@@ -294,7 +297,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltadarmanitan.desc1"
+        "cobblemon.species.deltadarmanitan.desc"
       ],
       "height": 13,
       "weight": 929,

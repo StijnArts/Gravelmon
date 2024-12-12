@@ -27,7 +27,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -61,7 +61,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabeliansableye.desc1"
+        "cobblemon.species.fabeliansableye.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -223,7 +223,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochsableye.desc1"
+        "cobblemon.species.epochsableye.desc"
       ],
       "height": 5,
       "weight": 110,
@@ -385,7 +385,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochsableyeone.desc1"
+        "cobblemon.species.epochsableyeone.desc"
       ],
       "height": 5,
       "weight": 110,
@@ -536,7 +536,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.enjinniansableye.desc1"
+        "cobblemon.species.enjinniansableye.desc"
       ],
       "height": 5,
       "weight": 310,
@@ -740,7 +740,7 @@
         "insurgence"
       ],
       "pokedex": [
-        "cobblemon.species.deltasableye.desc1"
+        "cobblemon.species.deltasableye.desc"
       ],
       "height": 5,
       "weight": 110,
@@ -849,7 +849,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.cefiransableye.desc1"
+        "cobblemon.species.cefiransableye.desc"
       ],
       "height": 5,
       "weight": 110,

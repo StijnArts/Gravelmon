@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "raticate form\u003dpalmian",
-  "baseScale": 0.3833333333333333,
+  "preEvolution": "raticate form=palmian",
+  "baseScale": 0.071875,
   "cannotDynamax": false,
   "abilities": [
     "poisontouch"
@@ -47,7 +47,7 @@
     "palmia"
   ],
   "pokedex": [
-    "cobblemon.species.ratatox.desc1"
+    "cobblemon.species.ratatox.desc"
   ],
   "height": 23,
   "weight": 0,

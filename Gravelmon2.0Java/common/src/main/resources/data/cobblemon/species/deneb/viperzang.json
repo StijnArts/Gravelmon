@@ -34,7 +34,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:dusk_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:crosspoison",
@@ -87,7 +94,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.viperzang.desc1"
+    "cobblemon.species.viperzang.desc"
   ],
   "height": 17,
   "weight": 623,

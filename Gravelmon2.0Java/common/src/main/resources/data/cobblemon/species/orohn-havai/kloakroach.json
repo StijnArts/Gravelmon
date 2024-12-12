@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "kroach",
-  "baseScale": 0.15,
+  "baseScale": 7.199999999999999,
   "cannotDynamax": false,
   "abilities": [
     "overcoat",
@@ -55,7 +55,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.kloakroach.desc1"
+    "cobblemon.species.kloakroach.desc"
   ],
   "height": 9,
   "weight": 165,

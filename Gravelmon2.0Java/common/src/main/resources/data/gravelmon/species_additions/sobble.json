@@ -112,7 +112,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochsobble.desc1"
+        "cobblemon.species.epochsobble.desc"
       ],
       "height": 3,
       "weight": 40,
@@ -121,9 +121,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochsobble_epoch_drizzile",
+          "id": "epochsobble_drizzile_epoch",
           "variant": "level_up",
-          "result": "epoch drizzile",
+          "result": "drizzile epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

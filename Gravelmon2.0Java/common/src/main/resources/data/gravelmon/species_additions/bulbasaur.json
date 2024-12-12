@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.13333333333333333,
+      "baseScale": 0.025,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -44,7 +44,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanbulbasaur.desc1"
+        "cobblemon.species.formanbulbasaur.desc"
       ],
       "height": 8,
       "weight": 0,
@@ -230,7 +230,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochbulbasaur.desc1"
+        "cobblemon.species.epochbulbasaur.desc"
       ],
       "height": 7,
       "weight": 69,
@@ -239,9 +239,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochbulbasaur_epoch_ivysaur",
+          "id": "epochbulbasaur_ivysaur_epoch",
           "variant": "level_up",
-          "result": "epoch ivysaur",
+          "result": "ivysaur epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -320,7 +320,14 @@
         "monster"
       ],
       "drops": {
-        "amount": 2
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:cactus",
+            "quantityRange": "1-2",
+            "percentage": 50
+          }
+        ]
       },
       "moves": [
         "1:tackle",
@@ -401,7 +408,7 @@
         "infinity"
       ],
       "pokedex": [
-        "cobblemon.species.eghobulbasaur.desc1"
+        "cobblemon.species.eghobulbasaur.desc"
       ],
       "height": 9,
       "weight": 160,
@@ -582,7 +589,7 @@
         "insurgence"
       ],
       "pokedex": [
-        "cobblemon.species.deltabulbasaur.desc1"
+        "cobblemon.species.deltabulbasaur.desc"
       ],
       "height": 7,
       "weight": 69,
@@ -746,7 +753,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianbulbasaur.desc1"
+        "cobblemon.species.ayreianbulbasaur.desc"
       ],
       "height": 7,
       "weight": 69,

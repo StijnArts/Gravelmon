@@ -23,7 +23,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -57,7 +57,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianrattata.desc1"
+        "cobblemon.species.fabelianrattata.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -104,7 +104,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "runaway"
@@ -137,7 +137,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.palmianrattata.desc1"
+        "cobblemon.species.palmianrattata.desc"
       ],
       "height": 6,
       "weight": 0,
@@ -199,7 +199,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "unnerve"
@@ -232,7 +232,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanrattata.desc1"
+        "cobblemon.species.formanrattata.desc"
       ],
       "height": 6,
       "weight": 0,
@@ -410,7 +410,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochrattata.desc1"
+        "cobblemon.species.epochrattata.desc"
       ],
       "height": 3,
       "weight": 35,
@@ -419,9 +419,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochrattata_epoch_raticate",
+          "id": "epochrattata_raticate_epoch",
           "variant": "level_up",
-          "result": "epoch raticate",
+          "result": "raticate epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -559,7 +559,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.norheimanrattata.desc1"
+        "cobblemon.species.norheimanrattata.desc"
       ],
       "height": 3,
       "weight": 165,

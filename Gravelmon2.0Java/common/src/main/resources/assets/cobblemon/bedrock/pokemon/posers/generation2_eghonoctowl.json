@@ -1,44 +1,66 @@
 {
-  "portraitScale": 1.7,
-  "portraitTranslation": [-0.3, 1.0, 0.0],
-  "profileScale": 0.7,
-  "profileTranslation": [0.0, 0.6825, -20.0],
+  "portraitScale": 1.7000000476837158,
+  "portraitTranslation": [
+    -0.3,
+    1.0,
+    0.0
+  ],
+  "profileScale": 0.699999988079071,
+  "profileTranslation": [
+    0.0,
+    0.6825,
+    -20.0
+  ],
   "animations": {
     "cry": "q.bedrock_stateful('eghonoctowl', 'cry')"
   },
   "poses": {
     "standing": {
-      "poseTypes": [
-        "STAND",
-        "PROFILE",
-        "PORTRAIT",
-        "NONE",
-        "WALK",
-        "FLOAT",
-        "SWIM",
-        "SLEEP"
-      ],
+      "poseName": "standing",
       "animations": [
-        "q.look('head')",
-        "q.bedrock('eghonoctowl', 'ground_idle')"
+        "bedrock(eghonoctowl, ground_idle)"
       ],
+      "transformTicks": 10,
+      "allPoseTypes": true,
       "quirks": [
-        "q.bedrock_quirk('eghonoctowl', 'blink')"
+        {
+          "animations": [
+            "bedrock(eghonoctowl, blink)"
+          ],
+          "name": "blink"
+        }
       ]
     },
     "flying": {
+      "poseName": "flying",
+      "animations": [
+        "look",
+        "q.sine_wing_flap(0.9, 0.9, 0, 'z', 'wing_left', 'wing_right')",
+        "bedrock(eghonoctowl, air_fly)"
+      ],
       "poseTypes": [
-        "HOVER",
         "FLY"
       ],
-      "animations": [
-        "q.look('head')",
-        "q.sine_wing_flap(0.9, 0.9, 0, 'z', 'wing_left', 'wing_right')",
-        "q.bedrock('eghonoctowl', 'air_idle')"
-      ],
+      "transformTicks": 10,
       "quirks": [
-        "q.bedrock_quirk('eghonoctowl', 'blink')"
+        {
+          "animations": [
+            "bedrock(eghonoctowl, blink)"
+          ],
+          "name": "blink"
+        }
       ]
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "animations": [
+        "bedrock(eghonoctowl, sleep)"
+      ],
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "transformTicks": 10,
+      "quirks": []
     }
   }
 }

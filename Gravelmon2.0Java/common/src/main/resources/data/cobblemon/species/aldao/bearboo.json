@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.16666666666666666,
+  "baseScale": 0.03125,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -42,7 +42,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.bearboo.desc1"
+    "cobblemon.species.bearboo.desc"
   ],
   "height": 10,
   "weight": 0,

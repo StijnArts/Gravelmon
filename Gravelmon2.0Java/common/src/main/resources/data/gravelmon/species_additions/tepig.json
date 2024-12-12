@@ -123,7 +123,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochtepig.desc1"
+        "cobblemon.species.epochtepig.desc"
       ],
       "height": 5,
       "weight": 99,
@@ -132,9 +132,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochtepig_epoch_pignite",
+          "id": "epochtepig_pignite_epoch",
           "variant": "level_up",
-          "result": "epoch pignite",
+          "result": "pignite epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -285,7 +285,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiantepig.desc1"
+        "cobblemon.species.ayreiantepig.desc"
       ],
       "height": 5,
       "weight": 99,

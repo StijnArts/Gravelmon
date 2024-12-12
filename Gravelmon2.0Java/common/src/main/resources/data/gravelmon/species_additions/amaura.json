@@ -113,7 +113,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochamaura.desc1"
+        "cobblemon.species.epochamaura.desc"
       ],
       "height": 13,
       "weight": 252,
@@ -122,9 +122,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochamaura_epoch_aurorus",
+          "id": "epochamaura_aurorus_epoch",
           "variant": "level_up",
-          "result": "epoch aurorus",
+          "result": "aurorus epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -180,7 +180,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.21666666666666667,
+      "baseScale": 0.1625,
       "cannotDynamax": false,
       "abilities": [
         "friendguard",
@@ -292,7 +292,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltaamaura.desc1"
+        "cobblemon.species.deltaamaura.desc"
       ],
       "height": 13,
       "weight": 252,

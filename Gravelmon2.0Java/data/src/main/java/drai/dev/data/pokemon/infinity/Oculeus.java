@@ -179,14 +179,13 @@ public class Oculeus extends Pokemon {
                 .addBasicVariation(this)
                 .addLayer(
                         new SimpleTextureLayerData("emmisive", "oculeus_translucent",
-                                true, true, false, true)
+                                Optional.of(true), Optional.of(true), false, true)
                 );
         getPosingFileData().setPortraitData(0.4f, new Vector3(0, 1.3, 0));
         getPosingFileData().setProfileData(0.4f, new Vector3( 0, 1.3, 0 ));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withBlink(11).addPoseType(PoseType.FLOAT).addPoseType(PoseType.HOVER),
-                AnimationData.walkingAnimation().withBlink(11).addPoseType(PoseType.SWIM).addPoseType(PoseType.FLY)
+                AnimationData.standingAnimation().withBlink(11).clearPoseTypes()
         ));
         getPosingFileData().setFaint("q.bedrock_primary('oculeus', 'faint', q.curve('one'))");
 

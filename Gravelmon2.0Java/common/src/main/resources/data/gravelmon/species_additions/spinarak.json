@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianspinarak.desc1"
+        "cobblemon.species.fabelianspinarak.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -93,7 +93,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.021875,
       "cannotDynamax": false,
       "abilities": [
         "intimidate"
@@ -127,7 +127,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanspinarak.desc1"
+        "cobblemon.species.formanspinarak.desc"
       ],
       "height": 7,
       "weight": 0,
@@ -288,7 +288,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochspinarak.desc1"
+        "cobblemon.species.epochspinarak.desc"
       ],
       "height": 5,
       "weight": 85,
@@ -297,9 +297,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochspinarak_epoch_ariados",
+          "id": "epochspinarak_ariados_epoch",
           "variant": "level_up",
-          "result": "epoch ariados",
+          "result": "ariados epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -436,7 +436,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.aristosianspinarak.desc1"
+        "cobblemon.species.aristosianspinarak.desc"
       ],
       "height": 4,
       "weight": 165,
@@ -600,7 +600,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianspinarak.desc1"
+        "cobblemon.species.ayreianspinarak.desc"
       ],
       "height": 5,
       "weight": 85,

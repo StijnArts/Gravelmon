@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "doduo form=epoch",
       "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
@@ -97,10 +98,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochdodrio.desc1"
+        "cobblemon.species.epochdodrio.desc"
       ],
       "height": 18,
       "weight": 852,
@@ -242,7 +245,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochdodrioone.desc1"
+        "cobblemon.species.epochdodrioone.desc"
       ],
       "height": 18,
       "weight": 852,
@@ -289,7 +292,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "doduo form\u003ddelta",
+      "preEvolution": "doduo form=delta",
       "baseScale": 1.6,
       "cannotDynamax": false,
       "abilities": [
@@ -411,7 +414,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltadodrio.desc1"
+        "cobblemon.species.deltadodrio.desc"
       ],
       "height": 18,
       "weight": 852,
@@ -459,7 +462,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "preEvolution": "doduo form\u003dseviian",
+      "preEvolution": "doduo form=seviian",
       "baseScale": 0.2333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -565,7 +568,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.seviiandodrio.desc1"
+        "cobblemon.species.seviiandodrio.desc"
       ],
       "height": 14,
       "weight": 392,
@@ -683,7 +686,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.hoenniandodrio.desc1"
+        "cobblemon.species.hoenniandodrio.desc"
       ],
       "height": 18,
       "weight": 882,

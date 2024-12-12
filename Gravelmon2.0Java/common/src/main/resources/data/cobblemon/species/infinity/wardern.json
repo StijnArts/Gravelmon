@@ -9,7 +9,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "gargon",
-  "baseScale": 0.3666666666666667,
+  "baseScale": 0.275,
   "cannotDynamax": false,
   "abilities": [
     "intimidate",
@@ -132,7 +132,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.wardern.desc1"
+    "cobblemon.species.wardern.desc"
   ],
   "height": 22,
   "weight": 1900,

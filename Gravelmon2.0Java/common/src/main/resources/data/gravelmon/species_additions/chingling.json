@@ -103,7 +103,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochchingling.desc1"
+        "cobblemon.species.epochchingling.desc"
       ],
       "height": 2,
       "weight": 6,
@@ -112,9 +112,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochchingling_epoch_chimecho",
+          "id": "epochchingling_chimecho_epoch",
           "variant": "level_up",
-          "result": "epoch chimecho",
+          "result": "chimecho epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

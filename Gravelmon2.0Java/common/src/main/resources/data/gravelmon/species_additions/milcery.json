@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianmilcery.desc1"
+        "cobblemon.species.fabelianmilcery.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -119,7 +119,16 @@
       "eggGroups": [
         "amorphous"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:sand_stone",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
+      },
       "moves": [
         "1:pound",
         "1:harden",
@@ -207,7 +216,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochmilcery.desc1"
+        "cobblemon.species.epochmilcery.desc"
       ],
       "height": 2,
       "weight": 3,
@@ -216,9 +225,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmilcery_epoch_alcremie",
+          "id": "epochmilcery_alcremie_epoch",
           "variant": "item_interact",
-          "result": "epoch alcremie",
+          "result": "alcremie epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -329,7 +338,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.varitasianmilcery.desc1"
+        "cobblemon.species.varitasianmilcery.desc"
       ],
       "height": 2,
       "weight": 165,

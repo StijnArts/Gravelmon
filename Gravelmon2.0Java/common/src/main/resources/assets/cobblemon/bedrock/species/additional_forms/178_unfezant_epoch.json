@@ -1,21 +1,15 @@
 {
   "species": "cobblemon:unfezant",
-  "order": 3,
+  "order": 178,
   "variations": [
     {
       "aspects": [
         "epoch"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation5_epochunfezant",
+      "model": "cobblemon:cutout_gravelmon_96_by_96.geo",
+      "poser": "cobblemon:cutout_gravelmon_96_by_96",
       "texture": "cobblemon:textures/pokemon/generation5/epochunfezant.png",
       "layers": [
-        {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
         {
           "name": "emissive"
         },
@@ -23,28 +17,31 @@
           "name": "transparentEmissive"
         },
         {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
           "name": "flame"
         },
         {
-          "name": "tail"
+          "name": "glow"
         }
       ]
     },
     {
       "aspects": [
         "epoch",
-        "shiny"
+        "female"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation5_epochunfezant",
-      "texture": "cobblemon:textures/pokemon/generation5/epochunfezant.png",
+      "model": "cobblemon:cutout_gravelmon_96_by_96.geo",
+      "poser": "cobblemon:cutout_gravelmon_96_by_96",
+      "texture": "cobblemon:textures/pokemon/generation5/epochunfezant_female.png",
       "layers": [
-        {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
         {
           "name": "emissive"
         },
@@ -52,33 +49,21 @@
           "name": "transparentEmissive"
         },
         {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
           "name": "flame"
         },
         {
-          "name": "tail"
+          "name": "glow"
         }
       ]
-    },
-    {
-      "aspects": [
-        "female",
-        "epoch"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation5_epochunfezant",
-      "texture": "cobblemon:textures/pokemon/generation5/epochunfezant_female.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "female",
-        "epoch",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation5_epochunfezant",
-      "texture": "cobblemon:textures/pokemon/generation5/epochunfezant_female.png",
-      "layers": []
     }
   ]
 }

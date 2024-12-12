@@ -11,6 +11,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "clamperl form=epoch",
       "baseScale": 0.2833333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -97,10 +98,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochhuntail.desc1"
+        "cobblemon.species.epochhuntail.desc"
       ],
       "height": 17,
       "weight": 270,
@@ -269,7 +272,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.novranhuntail.desc1"
+        "cobblemon.species.novranhuntail.desc"
       ],
       "height": 20,
       "weight": 165,
@@ -317,8 +320,8 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "clamperl form\u003ddelta",
-      "baseScale": 0.2833333333333333,
+      "preEvolution": "clamperl form=delta",
+      "baseScale": 0.2125,
       "cannotDynamax": false,
       "abilities": [
         "pressure",
@@ -432,7 +435,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltahuntail.desc1"
+        "cobblemon.species.deltahuntail.desc"
       ],
       "height": 17,
       "weight": 270,

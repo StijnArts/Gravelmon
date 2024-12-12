@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "floette form\u003dvaritasian",
+  "preEvolution": "floette form=varitasian",
   "baseScale": 0.18333333333333335,
   "cannotDynamax": false,
   "abilities": [
@@ -90,7 +90,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.sporges.desc1"
+    "cobblemon.species.sporges.desc"
   ],
   "height": 11,
   "weight": 165,

@@ -61,7 +61,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.norheimanfoongus.desc1"
+        "cobblemon.species.norheimanfoongus.desc"
       ],
       "height": 4,
       "weight": 165,
@@ -130,7 +130,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "prankster",
@@ -245,7 +245,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltafoongus.desc1"
+        "cobblemon.species.deltafoongus.desc"
       ],
       "height": 2,
       "weight": 10,

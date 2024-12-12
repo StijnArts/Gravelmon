@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "coratle",
-  "baseScale": 0.3,
+  "baseScale": 0.056249999999999994,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -49,7 +49,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.sedimarine.desc1"
+    "cobblemon.species.sedimarine.desc"
   ],
   "height": 18,
   "weight": 0,

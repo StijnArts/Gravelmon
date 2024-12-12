@@ -7,7 +7,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.25,
+  "baseScale": 0.1875,
   "cannotDynamax": false,
   "abilities": [
     "intimidate",
@@ -97,7 +97,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.rynos.desc1"
+    "cobblemon.species.rynos.desc"
   ],
   "height": 15,
   "weight": 762,

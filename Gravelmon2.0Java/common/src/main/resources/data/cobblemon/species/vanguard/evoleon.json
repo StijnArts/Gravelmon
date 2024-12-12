@@ -32,7 +32,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:astral_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "30:copycat",
@@ -119,7 +126,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.evoleon.desc1"
+    "cobblemon.species.evoleon.desc"
   ],
   "height": 3,
   "weight": 205,

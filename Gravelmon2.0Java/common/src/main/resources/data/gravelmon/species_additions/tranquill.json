@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "pidove form=epoch",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -104,10 +105,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochtranquill.desc1"
+        "cobblemon.species.epochtranquill.desc"
       ],
       "height": 6,
       "weight": 150,
@@ -116,9 +119,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochtranquill_epoch_unfezant",
+          "id": "epochtranquill_unfezant_epoch",
           "variant": "level_up",
-          "result": "epoch unfezant",
+          "result": "unfezant epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -251,7 +254,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiantranquill.desc1"
+        "cobblemon.species.ayreiantranquill.desc"
       ],
       "height": 6,
       "weight": 350,

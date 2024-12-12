@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "unown form\u003dforman",
-  "baseScale": 0.8666666666666667,
+  "preEvolution": "unown form=forman",
+  "baseScale": 0.1625,
   "cannotDynamax": false,
   "abilities": [
     "multiscale"
@@ -47,7 +47,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.chainown.desc1"
+    "cobblemon.species.chainown.desc"
   ],
   "height": 52,
   "weight": 0,

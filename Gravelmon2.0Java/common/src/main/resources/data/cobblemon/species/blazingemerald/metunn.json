@@ -34,7 +34,19 @@
     "undiscovered"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:ancient_glyph",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:ancient_glyph",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:hiddenpower"
@@ -46,7 +58,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.metunn.desc1"
+    "cobblemon.species.metunn.desc"
   ],
   "height": 8,
   "weight": 503,

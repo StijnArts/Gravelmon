@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.2333333333333333,
+  "baseScale": 0.04375,
   "cannotDynamax": false,
   "abilities": [
     "telepathy",
@@ -34,7 +34,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:shiny_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:absorb",
@@ -49,7 +56,7 @@
     "palmia"
   ],
   "pokedex": [
-    "cobblemon.species.croomish.desc1"
+    "cobblemon.species.croomish.desc"
   ],
   "height": 14,
   "weight": 0,

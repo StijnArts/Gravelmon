@@ -10,8 +10,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "mareep form\u003dforman",
-      "baseScale": 0.13333333333333333,
+      "preEvolution": "mareep form=forman",
+      "baseScale": 0.025,
       "cannotDynamax": false,
       "abilities": [
         "effectspore"
@@ -46,7 +46,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formanflaaffy.desc1"
+        "cobblemon.species.formanflaaffy.desc"
       ],
       "height": 8,
       "weight": 0,
@@ -109,6 +109,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "mareep form=epoch",
       "baseScale": 0.13333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -207,10 +208,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochflaaffy.desc1"
+        "cobblemon.species.epochflaaffy.desc"
       ],
       "height": 8,
       "weight": 133,
@@ -219,9 +222,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochflaaffy_epoch_ampharos",
+          "id": "epochflaaffy_ampharos_epoch",
           "variant": "item_interact",
-          "result": "epoch ampharos",
+          "result": "ampharos epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -269,7 +272,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "mareep form\u003daristosian",
+      "preEvolution": "mareep form=aristosian",
       "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
@@ -361,7 +364,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.aristosianflaaffy.desc1"
+        "cobblemon.species.aristosianflaaffy.desc"
       ],
       "height": 9,
       "weight": 165,
@@ -424,7 +427,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "mareep form\u003dmythian",
+      "preEvolution": "mareep form=mythian",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -487,7 +490,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.mythianflaaffy.desc1"
+        "cobblemon.species.mythianflaaffy.desc"
       ],
       "height": 3,
       "weight": 18,

@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 76,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "analytic",
@@ -35,7 +35,14 @@
     "dragon"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:redstone",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:lick",
@@ -115,7 +122,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.slatic.desc1"
+    "cobblemon.species.slatic.desc"
   ],
   "height": 3,
   "weight": 57,

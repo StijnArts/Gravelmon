@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "liquidooze"
@@ -47,7 +47,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formantogepi.desc1"
+        "cobblemon.species.formantogepi.desc"
       ],
       "height": 4,
       "weight": 0,
@@ -236,7 +236,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.varitasiantogepi.desc1"
+        "cobblemon.species.varitasiantogepi.desc"
       ],
       "height": 6,
       "weight": 165,
@@ -433,7 +433,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.hubiantogepi.desc1"
+        "cobblemon.species.hubiantogepi.desc"
       ],
       "height": 3,
       "weight": 165,
@@ -614,7 +614,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiantogepi.desc1"
+        "cobblemon.species.ayreiantogepi.desc"
       ],
       "height": 3,
       "weight": 15,

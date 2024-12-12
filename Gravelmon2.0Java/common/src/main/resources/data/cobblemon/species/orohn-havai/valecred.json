@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.3833333333333333,
+  "baseScale": 18.4,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -53,7 +53,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.valecred.desc1"
+    "cobblemon.species.valecred.desc"
   ],
   "height": 23,
   "weight": 165,

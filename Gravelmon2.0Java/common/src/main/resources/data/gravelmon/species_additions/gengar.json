@@ -11,8 +11,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "haunter form\u003dforman",
-      "baseScale": 0.3833333333333333,
+      "preEvolution": "haunter form=forman",
+      "baseScale": 0.071875,
       "cannotDynamax": false,
       "abilities": [
         "steadfast"
@@ -50,7 +50,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formangengar.desc1"
+        "cobblemon.species.formangengar.desc"
       ],
       "height": 23,
       "weight": 0,
@@ -98,6 +98,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "haunter form=epoch",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -124,7 +125,16 @@
       "eggGroups": [
         "amorphous"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:air_stone",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
+      },
       "moves": [
         "1:memento",
         "26:defog",
@@ -182,10 +192,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochgengar.desc1"
+        "cobblemon.species.epochgengar.desc"
       ],
       "height": 15,
       "weight": 405,
@@ -233,7 +245,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "haunter form\u003dhavaiian",
+      "preEvolution": "haunter form=havaiian",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -322,7 +334,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.havaiiangengar.desc1"
+        "cobblemon.species.havaiiangengar.desc"
       ],
       "height": 15,
       "weight": 165,
@@ -370,7 +382,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 26,
       "baseFriendship": 70,
-      "preEvolution": "haunter form\u003dx",
+      "preEvolution": "haunter form=x",
       "baseScale": 0.9,
       "cannotDynamax": false,
       "abilities": [
@@ -398,7 +410,19 @@
         "undiscovered"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:xenolith",
+            "quantityRange": "1-1",
+            "percentage": 50
+          },
+          {
+            "item": "gravelmon:xenolith",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
       },
       "moves": [
         "1:extrasensory",
@@ -476,7 +500,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.gengarx.desc1"
+        "cobblemon.species.gengarx.desc"
       ],
       "height": 21,
       "weight": 580,
@@ -524,7 +548,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 26,
       "baseFriendship": 70,
-      "preEvolution": "haunter form\u003dayreian",
+      "preEvolution": "haunter form=ayreian",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -669,7 +693,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiangengar.desc1"
+        "cobblemon.species.ayreiangengar.desc"
       ],
       "height": 15,
       "weight": 405,
@@ -717,7 +741,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 26,
       "baseFriendship": 70,
-      "preEvolution": "haunter form\u003dkaskadian",
+      "preEvolution": "haunter form=kaskadian",
       "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -815,7 +839,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.kaskadiangengar.desc1"
+        "cobblemon.species.kaskadiangengar.desc"
       ],
       "height": 16,
       "weight": 1,

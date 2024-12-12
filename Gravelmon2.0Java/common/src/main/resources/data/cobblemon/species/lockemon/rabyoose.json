@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "gneckle",
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.0375,
   "cannotDynamax": false,
   "abilities": [
     "moxie",
@@ -66,7 +66,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.rabyoose.desc1"
+    "cobblemon.species.rabyoose.desc"
   ],
   "height": 12,
   "weight": 231,

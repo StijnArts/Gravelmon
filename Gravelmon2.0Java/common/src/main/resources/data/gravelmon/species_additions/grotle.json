@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "turtwig form=epoch",
       "baseScale": 0.18333333333333335,
       "cannotDynamax": false,
       "abilities": [
@@ -111,10 +112,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochgrotle.desc1"
+        "cobblemon.species.epochgrotle.desc"
       ],
       "height": 11,
       "weight": 970,
@@ -123,9 +126,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochgrotle_epoch_torterra",
+          "id": "epochgrotle_torterra_epoch",
           "variant": "level_up",
-          "result": "epoch torterra",
+          "result": "torterra epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -177,8 +180,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "turtwig form\u003ddelta",
-      "baseScale": 0.18333333333333335,
+      "preEvolution": "turtwig form=delta",
+      "baseScale": 0.1375,
       "cannotDynamax": false,
       "abilities": [
         "waterabsorb",
@@ -282,7 +285,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltagrotle.desc1"
+        "cobblemon.species.deltagrotle.desc"
       ],
       "height": 11,
       "weight": 142,

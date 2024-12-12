@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "lotad form=epoch",
       "baseScale": 0.19999999999999998,
       "cannotDynamax": false,
       "abilities": [
@@ -36,7 +37,16 @@
       "eggGroups": [
         "grass"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:sand_stone",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
+      },
       "moves": [
         "20:sandstorm",
         "60:solarbeam",
@@ -115,10 +125,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochlombre.desc1"
+        "cobblemon.species.epochlombre.desc"
       ],
       "height": 12,
       "weight": 325,
@@ -127,9 +139,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochlombre_epoch_ludicolo",
+          "id": "epochlombre_ludicolo_epoch",
           "variant": "item_interact",
-          "result": "epoch ludicolo",
+          "result": "ludicolo epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -177,8 +189,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 39,
       "baseFriendship": 70,
-      "preEvolution": "lotad form\u003degho",
-      "baseScale": 0.21666666666666667,
+      "preEvolution": "lotad form=egho",
+      "baseScale": 0.1625,
       "cannotDynamax": false,
       "abilities": [
         "harvest",
@@ -287,7 +299,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.egholombre.desc1"
+        "cobblemon.species.egholombre.desc"
       ],
       "height": 13,
       "weight": 735,
@@ -346,8 +358,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "lotad form\u003ddelta",
-      "baseScale": 0.19999999999999998,
+      "preEvolution": "lotad form=delta",
+      "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
         "magicbounce",
@@ -469,7 +481,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltalombre.desc1"
+        "cobblemon.species.deltalombre.desc"
       ],
       "height": 12,
       "weight": 325,

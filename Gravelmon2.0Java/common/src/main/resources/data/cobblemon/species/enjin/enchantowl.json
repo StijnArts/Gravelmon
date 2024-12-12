@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "noctowl form\u003denjinnian",
+  "preEvolution": "noctowl form=enjinnian",
   "baseScale": 0.3,
   "cannotDynamax": false,
   "abilities": [
@@ -135,7 +135,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.enchantowl.desc1"
+    "cobblemon.species.enchantowl.desc"
   ],
   "height": 18,
   "weight": 0,

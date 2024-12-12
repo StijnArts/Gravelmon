@@ -120,7 +120,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochtinkatink.desc1"
+        "cobblemon.species.epochtinkatink.desc"
       ],
       "height": 4,
       "weight": 89,
@@ -129,9 +129,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochtinkatink_epoch_tinkatuff",
+          "id": "epochtinkatink_tinkatuff_epoch",
           "variant": "level_up",
-          "result": "epoch tinkatuff",
+          "result": "tinkatuff epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -217,7 +217,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.lagoonantinkatink.desc1"
+        "cobblemon.species.lagoonantinkatink.desc"
       ],
       "height": 5,
       "weight": 89,

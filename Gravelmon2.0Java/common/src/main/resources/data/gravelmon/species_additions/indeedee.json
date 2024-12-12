@@ -10,7 +10,7 @@
       "requirements": [
         {
           "variant": "properties",
-          "target": "gender\u003dfemale",
+          "target": "gender=female",
           "contains": true
         }
       ],
@@ -26,7 +26,7 @@
       "requirements": [
         {
           "variant": "properties",
-          "target": "gender\u003dmale",
+          "target": "gender=male",
           "contains": true
         }
       ],
@@ -35,7 +35,19 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:room_service",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:room_service",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "forms": [
     {
@@ -156,7 +168,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochindeedee.desc1"
+        "cobblemon.species.epochindeedee.desc"
       ],
       "height": 9,
       "weight": 280,

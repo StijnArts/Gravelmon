@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "cuppy",
-  "baseScale": 0.11666666666666665,
+  "baseScale": 0.021875,
   "cannotDynamax": false,
   "abilities": [
     "flamebody",
@@ -36,7 +36,14 @@
     "water_2"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:raw_cod",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:amnesia",
@@ -115,7 +122,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.fettlekish.desc1"
+    "cobblemon.species.fettlekish.desc"
   ],
   "height": 7,
   "weight": 144,

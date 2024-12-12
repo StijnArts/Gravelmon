@@ -30,7 +30,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -63,7 +63,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ivrisianriolu.desc1"
+        "cobblemon.species.ivrisianriolu.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -214,7 +214,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochriolu.desc1"
+        "cobblemon.species.epochriolu.desc"
       ],
       "height": 7,
       "weight": 202,
@@ -223,9 +223,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochriolu_epoch_lucario",
+          "id": "epochriolu_lucario_epoch",
           "variant": "level_up",
-          "result": "epoch lucario",
+          "result": "lucario epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -398,7 +398,7 @@
         "insurgence"
       ],
       "pokedex": [
-        "cobblemon.species.deltariolu.desc1"
+        "cobblemon.species.deltariolu.desc"
       ],
       "height": 4,
       "weight": 55,
@@ -532,7 +532,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mythianriolu.desc1"
+        "cobblemon.species.mythianriolu.desc"
       ],
       "height": 9,
       "weight": 130,
@@ -719,7 +719,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianriolu.desc1"
+        "cobblemon.species.ayreianriolu.desc"
       ],
       "height": 7,
       "weight": 2,
@@ -836,7 +836,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mysticriolu.desc1"
+        "cobblemon.species.mysticriolu.desc"
       ],
       "height": 7,
       "weight": 202,

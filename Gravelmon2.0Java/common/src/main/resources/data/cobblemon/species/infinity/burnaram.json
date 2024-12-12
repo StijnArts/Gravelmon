@@ -8,7 +8,7 @@
   "eggCycles": 52,
   "baseFriendship": 70,
   "preEvolution": "chargo",
-  "baseScale": 0.21666666666666667,
+  "baseScale": 0.1625,
   "cannotDynamax": false,
   "abilities": [
     "reckless",
@@ -35,7 +35,14 @@
     "field"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:tackle",
@@ -115,7 +122,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.burnaram.desc1"
+    "cobblemon.species.burnaram.desc"
   ],
   "height": 13,
   "weight": 530,

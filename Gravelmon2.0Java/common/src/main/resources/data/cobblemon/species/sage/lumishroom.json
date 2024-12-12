@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "kertruffle",
-  "baseScale": 0.25,
+  "baseScale": 0.046875,
   "cannotDynamax": false,
   "abilities": [
     "effectspore",
@@ -36,7 +36,19 @@
     "grass"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:brown_mushroom",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:redstone",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:flash",
@@ -113,7 +125,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.lumishroom.desc1"
+    "cobblemon.species.lumishroom.desc"
   ],
   "height": 15,
   "weight": 71,

@@ -9,7 +9,7 @@
   "eggCycles": 24,
   "baseFriendship": 70,
   "preEvolution": "bouwee",
-  "baseScale": 0.15,
+  "baseScale": 0.028124999999999997,
   "cannotDynamax": false,
   "abilities": [
     "swiftswim",
@@ -37,7 +37,14 @@
     "water_3"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:flash",
@@ -115,7 +122,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.scubug.desc1"
+    "cobblemon.species.scubug.desc"
   ],
   "height": 9,
   "weight": 219,

@@ -106,7 +106,6 @@ public class Nebyura extends Pokemon {
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
                 AnimationData.standingAnimation().withLook().clearPoseTypes(),
-                AnimationData.battleIdleAnimation().withLook(),
                 AnimationData.walkingAnimation().withLook()
         ));
     }

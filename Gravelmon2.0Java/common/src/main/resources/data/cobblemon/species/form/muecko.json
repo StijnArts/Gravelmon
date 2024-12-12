@@ -7,8 +7,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "treecko form\u003dforman",
-  "baseScale": 0.15,
+  "preEvolution": "treecko form=forman",
+  "baseScale": 0.028124999999999997,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -44,7 +44,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.muecko.desc1"
+    "cobblemon.species.muecko.desc"
   ],
   "height": 9,
   "weight": 0,

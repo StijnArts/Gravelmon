@@ -7,8 +7,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "torchic form\u003dforman",
-  "baseScale": 0.13333333333333333,
+  "preEvolution": "torchic form=forman",
+  "baseScale": 0.025,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -43,7 +43,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.galatoo.desc1"
+    "cobblemon.species.galatoo.desc"
   ],
   "height": 8,
   "weight": 0,

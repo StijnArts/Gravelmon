@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "grimer form\u003dforman",
-  "baseScale": 0.31666666666666665,
+  "preEvolution": "grimer form=forman",
+  "baseScale": 0.059375,
   "cannotDynamax": false,
   "abilities": [
     "cursedbody"
@@ -45,7 +45,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.grumbie.desc1"
+    "cobblemon.species.grumbie.desc"
   ],
   "height": 19,
   "weight": 0,

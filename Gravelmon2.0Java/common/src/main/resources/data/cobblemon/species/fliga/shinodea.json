@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "nincada form\u003davalossian",
+  "preEvolution": "nincada form=avalossian",
   "baseScale": 0.13333333333333333,
   "cannotDynamax": false,
   "abilities": [
@@ -66,7 +66,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.shinodea.desc1"
+    "cobblemon.species.shinodea.desc"
   ],
   "height": 8,
   "weight": 120,

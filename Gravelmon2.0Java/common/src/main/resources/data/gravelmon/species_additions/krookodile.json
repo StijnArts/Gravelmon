@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "krokorok form=epoch",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -110,10 +111,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochkrookodile.desc1"
+        "cobblemon.species.epochkrookodile.desc"
       ],
       "height": 15,
       "weight": 963,
@@ -295,7 +298,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiankrookodile.desc1"
+        "cobblemon.species.ayreiankrookodile.desc"
       ],
       "height": 15,
       "weight": 963,

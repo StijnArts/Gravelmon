@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "charmeleon form=epoch",
       "baseScale": 0.2833333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -123,10 +124,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochcharizard.desc1"
+        "cobblemon.species.epochcharizard.desc"
       ],
       "height": 17,
       "weight": 905,
@@ -174,7 +177,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "charmeleon form\u003degho",
+      "preEvolution": "charmeleon form=egho",
       "baseScale": 1.05,
       "cannotDynamax": false,
       "abilities": [
@@ -203,7 +206,14 @@
         "monster"
       ],
       "drops": {
-        "amount": 2
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:coal",
+            "quantityRange": "1-2",
+            "percentage": 50
+          }
+        ]
       },
       "moves": [
         "0:dragonpulse",
@@ -316,7 +326,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.eghocharizard.desc1"
+        "cobblemon.species.eghocharizard.desc"
       ],
       "height": 23,
       "weight": 905,
@@ -364,7 +374,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "charmeleon form\u003ddelta",
+      "preEvolution": "charmeleon form=delta",
       "baseScale": 1.35,
       "cannotDynamax": false,
       "abilities": [
@@ -511,7 +521,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltacharizard.desc1"
+        "cobblemon.species.deltacharizard.desc"
       ],
       "height": 17,
       "weight": 419,
@@ -559,7 +569,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "charmeleon form\u003dayreian",
+      "preEvolution": "charmeleon form=ayreian",
       "baseScale": 0.2833333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -686,7 +696,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiancharizard.desc1"
+        "cobblemon.species.ayreiancharizard.desc"
       ],
       "height": 17,
       "weight": 905,

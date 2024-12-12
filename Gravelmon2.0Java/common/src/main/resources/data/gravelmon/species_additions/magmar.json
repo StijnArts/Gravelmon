@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "magby form=epoch",
       "baseScale": 0.21666666666666667,
       "cannotDynamax": false,
       "abilities": [
@@ -101,10 +102,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochmagmar.desc1"
+        "cobblemon.species.epochmagmar.desc"
       ],
       "height": 13,
       "weight": 445,
@@ -113,9 +116,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmagmar_epoch_magmortar",
+          "id": "epochmagmar_magmortar_epoch",
           "variant": "item_interact",
-          "result": "epoch magmortar",
+          "result": "magmortar epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -162,8 +165,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "magby form\u003ddelta",
-      "baseScale": 0.21666666666666667,
+      "preEvolution": "magby form=delta",
+      "baseScale": 0.1625,
       "cannotDynamax": false,
       "abilities": [
         "swiftswim",
@@ -273,7 +276,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltamagmar.desc1"
+        "cobblemon.species.deltamagmar.desc"
       ],
       "height": 13,
       "weight": 445,

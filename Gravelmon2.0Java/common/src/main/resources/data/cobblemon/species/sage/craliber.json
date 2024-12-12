@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "lightmetal",
@@ -36,7 +36,14 @@
     "mineral"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:raw_cod",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:watergun",
@@ -121,7 +128,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.craliber.desc1"
+    "cobblemon.species.craliber.desc"
   ],
   "height": 2,
   "weight": 20,

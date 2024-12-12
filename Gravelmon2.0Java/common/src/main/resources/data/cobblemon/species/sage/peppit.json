@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "chlorophyll",
@@ -36,7 +36,14 @@
     "grass"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:seeds",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
   },
   "moves": [
     "1:tackle",
@@ -112,7 +119,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.peppit.desc1"
+    "cobblemon.species.peppit.desc"
   ],
   "height": 3,
   "weight": 21,

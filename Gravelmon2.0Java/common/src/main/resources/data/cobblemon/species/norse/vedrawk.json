@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "vedotel",
-  "baseScale": 0.5666666666666667,
+  "baseScale": 0.10625,
   "cannotDynamax": false,
   "abilities": [
     "bigpecks"
@@ -47,7 +47,7 @@
     "norse"
   ],
   "pokedex": [
-    "cobblemon.species.vedrawk.desc1"
+    "cobblemon.species.vedrawk.desc"
   ],
   "height": 34,
   "weight": 0,

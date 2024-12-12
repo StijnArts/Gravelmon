@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "peyero",
-  "baseScale": 0.16666666666666666,
+  "baseScale": 0.125,
   "cannotDynamax": false,
   "abilities": [
     "blaze",
@@ -101,7 +101,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.infiris.desc1"
+    "cobblemon.species.infiris.desc"
   ],
   "height": 10,
   "weight": 435,

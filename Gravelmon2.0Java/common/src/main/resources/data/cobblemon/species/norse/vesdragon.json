@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.45,
+  "baseScale": 0.084375,
   "cannotDynamax": false,
   "abilities": [
     "roughskin"
@@ -33,7 +33,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:decorated_pot_sherds",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:scratch",
@@ -48,7 +55,7 @@
     "norse"
   ],
   "pokedex": [
-    "cobblemon.species.vesdragon.desc1"
+    "cobblemon.species.vesdragon.desc"
   ],
   "height": 27,
   "weight": 0,

@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.065625,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -40,7 +40,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.jajagon.desc1"
+    "cobblemon.species.jajagon.desc"
   ],
   "height": 21,
   "weight": 0,

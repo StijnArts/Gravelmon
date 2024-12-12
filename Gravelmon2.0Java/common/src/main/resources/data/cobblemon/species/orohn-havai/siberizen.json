@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "arblizen",
-  "baseScale": 0.21666666666666667,
+  "baseScale": 10.4,
   "cannotDynamax": false,
   "abilities": [
     "snowcloak",
@@ -60,7 +60,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.siberizen.desc1"
+    "cobblemon.species.siberizen.desc"
   ],
   "height": 13,
   "weight": 165,

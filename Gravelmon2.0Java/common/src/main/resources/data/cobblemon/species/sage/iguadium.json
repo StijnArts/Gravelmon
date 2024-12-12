@@ -36,7 +36,19 @@
     "monster"
   ],
   "drops": {
-    "amount": 4
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:prismarine",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-1",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:scratch",
@@ -144,7 +156,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.iguadium.desc1"
+    "cobblemon.species.iguadium.desc"
   ],
   "height": 11,
   "weight": 290,

@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "tentacool form\u003dforman",
-  "baseScale": 0.3833333333333333,
+  "preEvolution": "tentacool form=forman",
+  "baseScale": 0.071875,
   "cannotDynamax": false,
   "abilities": [
     "aftermath"
@@ -47,7 +47,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.tentaomega.desc1"
+    "cobblemon.species.tentaomega.desc"
   ],
   "height": 23,
   "weight": 0,

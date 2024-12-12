@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.4666666666666666,
+  "baseScale": 0.35,
   "cannotDynamax": false,
   "abilities": [
     "rockhead"
@@ -91,7 +91,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.laquagon.desc1"
+    "cobblemon.species.laquagon.desc"
   ],
   "height": 28,
   "weight": 971,

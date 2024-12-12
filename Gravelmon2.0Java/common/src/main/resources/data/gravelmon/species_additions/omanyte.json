@@ -112,7 +112,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochomanyte.desc1"
+        "cobblemon.species.epochomanyte.desc"
       ],
       "height": 4,
       "weight": 75,
@@ -121,9 +121,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochomanyte_epoch_omastar",
+          "id": "epochomanyte_omastar_epoch",
           "variant": "level_up",
-          "result": "epoch omastar",
+          "result": "omastar epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -290,7 +290,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.novranomanyte.desc1"
+        "cobblemon.species.novranomanyte.desc"
       ],
       "height": 4,
       "weight": 165,

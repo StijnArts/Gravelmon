@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "lickitung form\u003dhizian",
+  "preEvolution": "lickitung form=hizian",
   "baseScale": 0.2833333333333333,
   "cannotDynamax": false,
   "abilities": [
@@ -57,7 +57,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.sweetinel.desc1"
+    "cobblemon.species.sweetinel.desc"
   ],
   "height": 17,
   "weight": 165,

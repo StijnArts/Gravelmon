@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 51,
   "baseFriendship": 70,
-  "baseScale": 0.15,
+  "baseScale": 0.028124999999999997,
   "cannotDynamax": false,
   "abilities": [
     "pickup",
@@ -34,7 +34,14 @@
     "fairy"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-1",
+        "percentage": 100
+      }
+    ]
   },
   "moves": [
     "1:stockpile",
@@ -125,7 +132,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.erycoon.desc1"
+    "cobblemon.species.erycoon.desc"
   ],
   "height": 9,
   "weight": 71,

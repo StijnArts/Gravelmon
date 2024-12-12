@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "arrocknid",
-  "baseScale": 0.3,
+  "baseScale": 14.399999999999999,
   "cannotDynamax": false,
   "abilities": [
     "technician",
@@ -64,7 +64,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.exoroknid.desc1"
+    "cobblemon.species.exoroknid.desc"
   ],
   "height": 18,
   "weight": 165,

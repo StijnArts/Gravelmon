@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 51,
   "baseFriendship": 70,
-  "baseScale": 0.18333333333333335,
+  "baseScale": 0.034375,
   "cannotDynamax": false,
   "abilities": [
     "perforate",
@@ -35,7 +35,14 @@
     "amorphous"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:dead_bush",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:smog",
@@ -92,7 +99,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.coltergeist.desc1"
+    "cobblemon.species.coltergeist.desc"
   ],
   "height": 11,
   "weight": 117,

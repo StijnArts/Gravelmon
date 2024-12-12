@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "polaby",
-  "baseScale": 0.13333333333333333,
+  "baseScale": 0.025,
   "cannotDynamax": false,
   "abilities": [
     "cursedbody"
@@ -43,7 +43,7 @@
     "trizor"
   ],
   "pokedex": [
-    "cobblemon.species.prirog.desc1"
+    "cobblemon.species.prirog.desc"
   ],
   "height": 8,
   "weight": 0,

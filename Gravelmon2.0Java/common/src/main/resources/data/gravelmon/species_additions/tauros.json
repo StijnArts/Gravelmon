@@ -12,7 +12,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.3,
+      "baseScale": 0.056249999999999994,
       "cannotDynamax": false,
       "abilities": [
         "flamebody"
@@ -48,7 +48,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formantauros.desc1"
+        "cobblemon.species.formantauros.desc"
       ],
       "height": 18,
       "weight": 0,
@@ -204,7 +204,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochtauros.desc1"
+        "cobblemon.species.epochtauros.desc"
       ],
       "height": 14,
       "weight": 884,
@@ -298,7 +298,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.africanusantauros.desc1"
+        "cobblemon.species.africanusantauros.desc"
       ],
       "height": 14,
       "weight": 1300,

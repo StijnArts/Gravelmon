@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "weakarmor",
@@ -36,7 +36,14 @@
     "monster"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:terracotta",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:pinmissile",
@@ -112,7 +119,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.pottle.desc1"
+    "cobblemon.species.pottle.desc"
   ],
   "height": 3,
   "weight": 101,

@@ -10,7 +10,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "spoink form\u003dqamoran",
+      "preEvolution": "spoink form=qamoran",
       "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
@@ -62,7 +62,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.qamorangrumpig.desc1"
+        "cobblemon.species.qamorangrumpig.desc"
       ],
       "height": 9,
       "weight": 165,

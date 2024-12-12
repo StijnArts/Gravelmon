@@ -10,8 +10,8 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "axew form\u003ddelta",
-      "baseScale": 0.16666666666666666,
+      "preEvolution": "axew form=delta",
+      "baseScale": 0.125,
       "cannotDynamax": false,
       "abilities": [
         "strongjaw",
@@ -125,7 +125,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltafraxure.desc1"
+        "cobblemon.species.deltafraxure.desc"
       ],
       "height": 10,
       "weight": 360,
@@ -297,7 +297,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianfraxure.desc1"
+        "cobblemon.species.ayreianfraxure.desc"
       ],
       "height": 10,
       "weight": 360,

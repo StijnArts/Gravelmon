@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "skideer",
-  "baseScale": 0.18333333333333335,
+  "baseScale": 0.034375,
   "cannotDynamax": false,
   "abilities": [
     "pixilate",
@@ -64,7 +64,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.yuleigh.desc1"
+    "cobblemon.species.yuleigh.desc"
   ],
   "height": 11,
   "weight": 199,

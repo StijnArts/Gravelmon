@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "gluttony",
@@ -101,7 +101,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.chubren.desc1"
+    "cobblemon.species.chubren.desc"
   ],
   "height": 2,
   "weight": 32,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "stellith",
-  "baseScale": 0.31666666666666665,
+  "baseScale": 0.2375,
   "cannotDynamax": false,
   "abilities": [
     "levitate"
@@ -34,7 +34,19 @@
     "mineral"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:sun_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
+        "item": "cobblemon:moon_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:firespin",
@@ -86,7 +98,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.planite.desc1"
+    "cobblemon.species.planite.desc"
   ],
   "height": 19,
   "weight": 2430,

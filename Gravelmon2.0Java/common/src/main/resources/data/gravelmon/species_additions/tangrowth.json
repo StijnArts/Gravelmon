@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "tangela form=epoch",
       "baseScale": 0.3333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -105,10 +106,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochtangrowth.desc1"
+        "cobblemon.species.epochtangrowth.desc"
       ],
       "height": 20,
       "weight": 400,
@@ -156,7 +159,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "tangela form\u003dqamoran",
+      "preEvolution": "tangela form=qamoran",
       "baseScale": 0.3333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -205,7 +208,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.qamorantangrowth.desc1"
+        "cobblemon.species.qamorantangrowth.desc"
       ],
       "height": 20,
       "weight": 165,
@@ -253,8 +256,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "tangela form\u003degho",
-      "baseScale": 0.3333333333333333,
+      "preEvolution": "tangela form=egho",
+      "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
         "voltabsorb",
@@ -282,7 +285,14 @@
         "mineral"
       ],
       "drops": {
-        "amount": 4
+        "amount": 4,
+        "entries": [
+          {
+            "item": "minecraft:redstone",
+            "quantityRange": "1-2",
+            "percentage": 50
+          }
+        ]
       },
       "moves": [
         "1:thundershock",
@@ -381,7 +391,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.eghotangrowth.desc1"
+        "cobblemon.species.eghotangrowth.desc"
       ],
       "height": 20,
       "weight": 1386,
@@ -429,8 +439,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "tangela form\u003ddelta",
-      "baseScale": 0.3333333333333333,
+      "preEvolution": "tangela form=delta",
+      "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
         "dryskin",
@@ -555,7 +565,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltatangrowth.desc1"
+        "cobblemon.species.deltatangrowth.desc"
       ],
       "height": 20,
       "weight": 1286,
@@ -603,7 +613,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "preEvolution": "tangela form\u003dhoennian",
+      "preEvolution": "tangela form=hoennian",
       "baseScale": 0.35000000000000003,
       "cannotDynamax": false,
       "abilities": [
@@ -676,7 +686,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.hoenniantangrowth.desc1"
+        "cobblemon.species.hoenniantangrowth.desc"
       ],
       "height": 21,
       "weight": 1099,

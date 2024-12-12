@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "albivore",
-  "baseScale": 0.3,
+  "baseScale": 14.399999999999999,
   "cannotDynamax": false,
   "abilities": [
     "keeneye",
@@ -95,7 +95,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.emperiegle.desc1"
+    "cobblemon.species.emperiegle.desc"
   ],
   "height": 18,
   "weight": 165,

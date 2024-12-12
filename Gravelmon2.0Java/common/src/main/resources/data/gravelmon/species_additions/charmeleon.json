@@ -31,6 +31,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "charmander form=epoch",
       "baseScale": 0.18333333333333335,
       "cannotDynamax": false,
       "abilities": [
@@ -143,10 +144,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochcharmeleon.desc1"
+        "cobblemon.species.epochcharmeleon.desc"
       ],
       "height": 11,
       "weight": 190,
@@ -155,9 +158,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochcharmeleon_epoch_charizard",
+          "id": "epochcharmeleon_charizard_epoch",
           "variant": "level_up",
-          "result": "epoch charizard",
+          "result": "charizard epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -209,7 +212,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "charmander form\u003degho",
+      "preEvolution": "charmander form=egho",
       "baseScale": 0.8,
       "cannotDynamax": false,
       "abilities": [
@@ -237,7 +240,14 @@
         "monster"
       ],
       "drops": {
-        "amount": 2
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:coal",
+            "quantityRange": "1-2",
+            "percentage": 50
+          }
+        ]
       },
       "moves": [
         "1:flameburst",
@@ -329,7 +339,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.eghocharmeleon.desc1"
+        "cobblemon.species.eghocharmeleon.desc"
       ],
       "height": 13,
       "weight": 190,
@@ -392,7 +402,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "charmander form\u003ddelta",
+      "preEvolution": "charmander form=delta",
       "baseScale": 0.7,
       "cannotDynamax": false,
       "abilities": [
@@ -524,7 +534,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltacharmeleon.desc1"
+        "cobblemon.species.deltacharmeleon.desc"
       ],
       "height": 11,
       "weight": 419,
@@ -587,7 +597,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "charmander form\u003dayreian",
+      "preEvolution": "charmander form=ayreian",
       "baseScale": 0.18333333333333335,
       "cannotDynamax": false,
       "abilities": [
@@ -714,7 +724,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiancharmeleon.desc1"
+        "cobblemon.species.ayreiancharmeleon.desc"
       ],
       "height": 11,
       "weight": 419,

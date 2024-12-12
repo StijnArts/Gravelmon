@@ -7,7 +7,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.07500000000000001,
   "cannotDynamax": false,
   "abilities": [
     "sandveil",
@@ -94,7 +94,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.dislichen.desc1"
+    "cobblemon.species.dislichen.desc"
   ],
   "height": 6,
   "weight": 423,

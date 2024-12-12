@@ -9,7 +9,7 @@
   "eggCycles": 51,
   "baseFriendship": 70,
   "preEvolution": "parapy",
-  "baseScale": 0.26666666666666666,
+  "baseScale": 0.05,
   "cannotDynamax": false,
   "abilities": [
     "shedskin",
@@ -37,7 +37,14 @@
     "bug"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:knockoff",
@@ -122,7 +129,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.mawasite.desc1"
+    "cobblemon.species.mawasite.desc"
   ],
   "height": 16,
   "weight": 466,

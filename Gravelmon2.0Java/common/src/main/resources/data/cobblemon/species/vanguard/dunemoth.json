@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "venonat form\u003dayreian",
+  "preEvolution": "venonat form=ayreian",
   "baseScale": 0.25,
   "cannotDynamax": false,
   "abilities": [
@@ -103,7 +103,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.dunemoth.desc1"
+    "cobblemon.species.dunemoth.desc"
   ],
   "height": 15,
   "weight": 125,

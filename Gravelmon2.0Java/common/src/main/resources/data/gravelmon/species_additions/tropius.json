@@ -110,7 +110,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.hiziantropius.desc1"
+        "cobblemon.species.hiziantropius.desc"
       ],
       "height": 20,
       "weight": 165,
@@ -272,7 +272,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.aristosiantropius.desc1"
+        "cobblemon.species.aristosiantropius.desc"
       ],
       "height": 24,
       "weight": 1145,
@@ -431,7 +431,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiantropius.desc1"
+        "cobblemon.species.ayreiantropius.desc"
       ],
       "height": 20,
       "weight": 1000,
@@ -479,7 +479,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "baseScale": 0.6666666666666666,
+      "baseScale": 0.125,
       "cannotDynamax": false,
       "abilities": [
         "arenatrap",
@@ -576,7 +576,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.kaskadiantropius.desc1"
+        "cobblemon.species.kaskadiantropius.desc"
       ],
       "height": 40,
       "weight": 1600,

@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.11666666666666665,
+  "baseScale": 0.021875,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -42,7 +42,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.chawrecks.desc1"
+    "cobblemon.species.chawrecks.desc"
   ],
   "height": 7,
   "weight": 0,

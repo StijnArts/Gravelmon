@@ -10,6 +10,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "omanyte form=epoch",
       "baseScale": 0.16666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -99,10 +100,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochomastar.desc1"
+        "cobblemon.species.epochomastar.desc"
       ],
       "height": 10,
       "weight": 350,
@@ -150,7 +153,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "omanyte form\u003dnovran",
+      "preEvolution": "omanyte form=novran",
       "baseScale": 0.16666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -269,7 +272,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.novranomastar.desc1"
+        "cobblemon.species.novranomastar.desc"
       ],
       "height": 10,
       "weight": 165,

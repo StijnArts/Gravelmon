@@ -37,7 +37,16 @@
       "eggGroups": [
         "water_2"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:astral_stone",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
+      },
       "moves": [
         "32:flail",
         "4:tackle",
@@ -111,7 +120,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochbasculin.desc1"
+        "cobblemon.species.epochbasculin.desc"
       ],
       "height": 10,
       "weight": 180,
@@ -120,9 +129,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochbasculin_epoch_basculegion",
+          "id": "epochbasculin_basculegion_epoch",
           "variant": "item_interact",
-          "result": "epoch basculegion",
+          "result": "basculegion epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

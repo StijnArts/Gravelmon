@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "nosepass form\u003dayreian",
+  "preEvolution": "nosepass form=ayreian",
   "baseScale": 0.16666666666666666,
   "cannotDynamax": false,
   "abilities": [
@@ -126,7 +126,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.gyropass.desc1"
+    "cobblemon.species.gyropass.desc"
   ],
   "height": 10,
   "weight": 970,

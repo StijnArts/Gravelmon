@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "levitate"
@@ -34,7 +34,14 @@
     "amorphous"
   ],
   "drops": {
-    "amount": 4
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:slime_ball",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
   },
   "moves": [
     "1:poisonsting",
@@ -105,7 +112,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.glauqua.desc1"
+    "cobblemon.species.glauqua.desc"
   ],
   "height": 5,
   "weight": 102,

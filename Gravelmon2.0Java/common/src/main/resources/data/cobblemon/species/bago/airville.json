@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.25,
+  "baseScale": 0.046875,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -44,7 +44,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.airville.desc1"
+    "cobblemon.species.airville.desc"
   ],
   "height": 15,
   "weight": 0,

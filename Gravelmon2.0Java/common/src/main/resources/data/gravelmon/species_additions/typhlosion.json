@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "quilava form=epoch",
       "baseScale": 0.2833333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -114,10 +115,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochtyphlosion.desc1"
+        "cobblemon.species.epochtyphlosion.desc"
       ],
       "height": 17,
       "weight": 795,
@@ -251,7 +254,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochtyphlosionone.desc1"
+        "cobblemon.species.epochtyphlosionone.desc"
       ],
       "height": 17,
       "weight": 795,
@@ -338,7 +341,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ionosiantyphlosion.desc1"
+        "cobblemon.species.ionosiantyphlosion.desc"
       ],
       "height": 17,
       "weight": 0,
@@ -386,8 +389,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "quilava form\u003degho",
-      "baseScale": 0.31666666666666665,
+      "preEvolution": "quilava form=egho",
+      "baseScale": 0.2375,
       "cannotDynamax": false,
       "abilities": [
         "static",
@@ -413,7 +416,14 @@
         "field"
       ],
       "drops": {
-        "amount": 2
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:gunpowder",
+            "quantityRange": "1-2",
+            "percentage": 50
+          }
+        ]
       },
       "moves": [
         "1:shockwave",
@@ -514,7 +524,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.eghotyphlosion.desc1"
+        "cobblemon.species.eghotyphlosion.desc"
       ],
       "height": 19,
       "weight": 680,
@@ -562,8 +572,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "quilava form\u003ddelta",
-      "baseScale": 0.2833333333333333,
+      "preEvolution": "quilava form=delta",
+      "baseScale": 0.2125,
       "cannotDynamax": false,
       "abilities": [
         "static",
@@ -704,7 +714,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltatyphlosion.desc1"
+        "cobblemon.species.deltatyphlosion.desc"
       ],
       "height": 17,
       "weight": 1590,
@@ -752,7 +762,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "quilava form\u003dayreian",
+      "preEvolution": "quilava form=ayreian",
       "baseScale": 0.2833333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -922,7 +932,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiantyphlosion.desc1"
+        "cobblemon.species.ayreiantyphlosion.desc"
       ],
       "height": 17,
       "weight": 795,

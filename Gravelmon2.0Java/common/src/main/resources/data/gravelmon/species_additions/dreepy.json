@@ -114,7 +114,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochdreepy.desc1"
+        "cobblemon.species.epochdreepy.desc"
       ],
       "height": 5,
       "weight": 20,
@@ -123,9 +123,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochdreepy_epoch_drakloak",
+          "id": "epochdreepy_drakloak_epoch",
           "variant": "level_up",
-          "result": "epoch drakloak",
+          "result": "drakloak epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -250,7 +250,7 @@
         "gen8"
       ],
       "pokedex": [
-        "cobblemon.species.hoenniandreepy.desc1"
+        "cobblemon.species.hoenniandreepy.desc"
       ],
       "height": 6,
       "weight": 79,

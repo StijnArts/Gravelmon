@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabeliannoctowl.desc1"
+        "cobblemon.species.fabeliannoctowl.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -93,7 +93,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.25,
+      "baseScale": 0.046875,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -129,7 +129,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.raianiannoctowl.desc1"
+        "cobblemon.species.raianiannoctowl.desc"
       ],
       "height": 15,
       "weight": 0,
@@ -177,6 +177,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "hoothoot form=epoch",
       "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -265,10 +266,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochnoctowl.desc1"
+        "cobblemon.species.epochnoctowl.desc"
       ],
       "height": 16,
       "weight": 408,
@@ -408,7 +411,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochnoctowlone.desc1"
+        "cobblemon.species.epochnoctowlone.desc"
       ],
       "height": 16,
       "weight": 408,
@@ -455,7 +458,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "hoothoot form\u003denjinnian",
+      "preEvolution": "hoothoot form=enjinnian",
       "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -576,7 +579,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.enjinniannoctowl.desc1"
+        "cobblemon.species.enjinniannoctowl.desc"
       ],
       "height": 16,
       "weight": 408,
@@ -643,7 +646,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 39,
       "baseFriendship": 70,
-      "preEvolution": "hoothoot form\u003degho",
+      "preEvolution": "hoothoot form=egho",
       "baseScale": 0.95,
       "cannotDynamax": false,
       "abilities": [
@@ -670,7 +673,19 @@
         "flying"
       ],
       "drops": {
-        "amount": 4
+        "amount": 4,
+        "entries": [
+          {
+            "item": "minecraft:egg",
+            "quantityRange": "1-2",
+            "percentage": 50
+          },
+          {
+            "item": "minecraft:feather",
+            "quantityRange": "1-2",
+            "percentage": 50
+          }
+        ]
       },
       "moves": [
         "1:foulplay",
@@ -742,7 +757,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.eghonoctowl.desc1"
+        "cobblemon.species.eghonoctowl.desc"
       ],
       "height": 19,
       "weight": 498,
@@ -801,8 +816,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "hoothoot form\u003ddelta",
-      "baseScale": 0.26666666666666666,
+      "preEvolution": "hoothoot form=delta",
+      "baseScale": 0.2,
       "cannotDynamax": false,
       "abilities": [
         "noguard",
@@ -909,7 +924,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltanoctowl.desc1"
+        "cobblemon.species.deltanoctowl.desc"
       ],
       "height": 16,
       "weight": 408,

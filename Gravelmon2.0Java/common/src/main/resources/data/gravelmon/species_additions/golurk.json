@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "golett form=epoch",
       "baseScale": 0.4666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -115,10 +116,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochgolurk.desc1"
+        "cobblemon.species.epochgolurk.desc"
       ],
       "height": 28,
       "weight": 3300,
@@ -166,8 +169,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "golett form\u003ddelta",
-      "baseScale": 0.4666666666666666,
+      "preEvolution": "golett form=delta",
+      "baseScale": 0.35,
       "cannotDynamax": false,
       "abilities": [
         "ironfist",
@@ -290,7 +293,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltagolurk.desc1"
+        "cobblemon.species.deltagolurk.desc"
       ],
       "height": 28,
       "weight": 3300,
@@ -338,7 +341,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "golett form\u003dcefiran",
+      "preEvolution": "golett form=cefiran",
       "baseScale": 0.4666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -390,7 +393,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.cefirangolurk.desc1"
+        "cobblemon.species.cefirangolurk.desc"
       ],
       "height": 28,
       "weight": 3300,

@@ -11,6 +11,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "jigglypuff form=epoch",
       "baseScale": 0.3333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -108,10 +109,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochwigglytuff.desc1"
+        "cobblemon.species.epochwigglytuff.desc"
       ],
       "height": 20,
       "weight": 5,

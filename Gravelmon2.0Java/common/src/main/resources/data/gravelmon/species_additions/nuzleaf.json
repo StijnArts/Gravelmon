@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "seedot form=epoch",
       "baseScale": 0.16666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -104,10 +105,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochnuzleaf.desc1"
+        "cobblemon.species.epochnuzleaf.desc"
       ],
       "height": 10,
       "weight": 280,
@@ -116,9 +119,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochnuzleaf_epoch_shiftry",
+          "id": "epochnuzleaf_shiftry_epoch",
           "variant": "item_interact",
-          "result": "epoch shiftry",
+          "result": "shiftry epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -165,8 +168,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "seedot form\u003ddelta",
-      "baseScale": 0.16666666666666666,
+      "preEvolution": "seedot form=delta",
+      "baseScale": 0.125,
       "cannotDynamax": false,
       "abilities": [
         "voltabsorb",
@@ -273,7 +276,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltanuzleaf.desc1"
+        "cobblemon.species.deltanuzleaf.desc"
       ],
       "height": 10,
       "weight": 280,

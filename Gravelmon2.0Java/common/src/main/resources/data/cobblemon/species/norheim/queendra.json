@@ -7,7 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "seadra form\u003dnorheiman",
+  "preEvolution": "seadra form=norheiman",
   "baseScale": 0.2833333333333333,
   "cannotDynamax": false,
   "abilities": [
@@ -57,7 +57,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.queendra.desc1"
+    "cobblemon.species.queendra.desc"
   ],
   "height": 17,
   "weight": 165,

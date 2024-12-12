@@ -1,27 +1,67 @@
 {
-  "portraitScale": 1.7,
-  "portraitTranslation": [-0.1, 0.0, 0.0],
+  "head": "head",
+  "portraitScale": 1.7000000476837158,
+  "portraitTranslation": [
+    -0.1,
+    0.0,
+    0.0
+  ],
   "profileScale": 1.0,
-  "profileTranslation": [0.0, 0.6, -20.0],
+  "profileTranslation": [
+    0.0,
+    0.6,
+    -20.0
+  ],
   "animations": {
-    "faint": "q.bedrock_primary('eghogloom', 'faint')"
+    "faint": "bedrock(eghogloom, faint)"
   },
   "poses": {
     "standing": {
-      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "poseName": "standing",
       "animations": [
-        "q.bedrock('eghogloom', 'ground_idle')"
+        "look",
+        "bedrock(eghogloom, ground_idle)"
+      ],
+      "transformTicks": 10,
+      "allPoseTypes": true,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(eghogloom, blink)"
+          ],
+          "name": "blink"
+        }
       ]
     },
     "walking": {
-      "poseTypes": ["WALK"],
+      "poseName": "walking",
       "animations": [
-        "q.bedrock('eghogloom', 'ground_walk')"
+        "look",
+        "bedrock(eghogloom, ground_walk)"
+      ],
+      "poseTypes": [
+        "WALK"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(eghogloom, blink)"
+          ],
+          "name": "blink"
+        }
       ]
     },
-    "sleep": {
-      "poseTypes": ["SLEEP"],
-      "animations": ["q.bedrock('eghogloom', 'sleep')"]
+    "sleeping": {
+      "poseName": "sleeping",
+      "animations": [
+        "bedrock(eghogloom, sleep)"
+      ],
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "transformTicks": 10,
+      "quirks": []
     }
   }
 }

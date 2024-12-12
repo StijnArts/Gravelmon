@@ -11,6 +11,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "deino form=epoch",
       "baseScale": 0.2333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -112,10 +113,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochzweilous.desc1"
+        "cobblemon.species.epochzweilous.desc"
       ],
       "height": 14,
       "weight": 500,
@@ -124,9 +127,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochzweilous_epoch_hydreigon",
+          "id": "epochzweilous_hydreigon_epoch",
           "variant": "level_up",
-          "result": "epoch hydreigon",
+          "result": "hydreigon epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -178,8 +181,8 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "deino form\u003ddelta",
-      "baseScale": 0.2333333333333333,
+      "preEvolution": "deino form=delta",
+      "baseScale": 0.175,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -304,7 +307,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltazweilous.desc1"
+        "cobblemon.species.deltazweilous.desc"
       ],
       "height": 14,
       "weight": 500,

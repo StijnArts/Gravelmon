@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 76,
   "baseFriendship": 70,
-  "baseScale": 0.13333333333333333,
+  "baseScale": 0.025,
   "cannotDynamax": false,
   "abilities": [
     "sheerforce",
@@ -35,7 +35,14 @@
     "grass"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:mossy_cobblestone",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:bide",
@@ -122,7 +129,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.grolem.desc1"
+    "cobblemon.species.grolem.desc"
   ],
   "height": 8,
   "weight": 955,

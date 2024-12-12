@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "leafrond",
-  "baseScale": 0.31666666666666665,
+  "baseScale": 0.2375,
   "cannotDynamax": false,
   "abilities": [
     "overgrow",
@@ -120,7 +120,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.syleafid.desc1"
+    "cobblemon.species.syleafid.desc"
   ],
   "height": 19,
   "weight": 500,

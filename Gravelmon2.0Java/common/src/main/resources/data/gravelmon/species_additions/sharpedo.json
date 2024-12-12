@@ -11,6 +11,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "carvanha form=epoch",
       "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
@@ -103,10 +104,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochsharpedo.desc1"
+        "cobblemon.species.epochsharpedo.desc"
       ],
       "height": 18,
       "weight": 888,
@@ -154,7 +157,7 @@
       "experienceGroup": "slow",
       "eggCycles": 39,
       "baseFriendship": 70,
-      "preEvolution": "carvanha form\u003dx",
+      "preEvolution": "carvanha form=x",
       "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
@@ -182,7 +185,19 @@
         "undiscovered"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:xenolith",
+            "quantityRange": "1-1",
+            "percentage": 50
+          },
+          {
+            "item": "gravelmon:xenolith",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
       },
       "moves": [
         "1:confuseray",
@@ -246,7 +261,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.sharpedox.desc1"
+        "cobblemon.species.sharpedox.desc"
       ],
       "height": 18,
       "weight": 678,

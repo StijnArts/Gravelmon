@@ -113,7 +113,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochmagby.desc1"
+        "cobblemon.species.epochmagby.desc"
       ],
       "height": 7,
       "weight": 214,
@@ -122,9 +122,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmagby_epoch_magmar",
+          "id": "epochmagby_magmar_epoch",
           "variant": "level_up",
-          "result": "epoch magmar",
+          "result": "magmar epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -175,7 +175,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.0875,
       "cannotDynamax": false,
       "abilities": [
         "swiftswim",
@@ -275,7 +275,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltamagby.desc1"
+        "cobblemon.species.deltamagby.desc"
       ],
       "height": 7,
       "weight": 214,

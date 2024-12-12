@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "bisharp form\u003dpalmian",
-  "baseScale": 0.3833333333333333,
+  "preEvolution": "bisharp form=palmian",
+  "baseScale": 0.071875,
   "cannotDynamax": false,
   "abilities": [
     "flashfire",
@@ -48,7 +48,7 @@
     "palmia"
   ],
   "pokedex": [
-    "cobblemon.species.kintan.desc1"
+    "cobblemon.species.kintan.desc"
   ],
   "height": 23,
   "weight": 0,

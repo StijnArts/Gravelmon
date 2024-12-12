@@ -110,7 +110,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochdeerling.desc1"
+        "cobblemon.species.epochdeerling.desc"
       ],
       "height": 11,
       "weight": 505,
@@ -119,9 +119,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochdeerling_epoch_sawsbuck",
+          "id": "epochdeerling_sawsbuck_epoch",
           "variant": "level_up",
-          "result": "epoch sawsbuck",
+          "result": "sawsbuck epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

@@ -33,7 +33,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:astral_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:gust",
@@ -85,7 +92,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.astreon.desc1"
+    "cobblemon.species.astreon.desc"
   ],
   "height": 9,
   "weight": 171,

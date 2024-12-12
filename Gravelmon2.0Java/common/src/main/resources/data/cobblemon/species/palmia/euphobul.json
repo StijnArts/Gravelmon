@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "bulblute",
-  "baseScale": 0.21666666666666667,
+  "baseScale": 0.040625,
   "cannotDynamax": false,
   "abilities": [
     "keeneye",
@@ -48,7 +48,7 @@
     "palmia"
   ],
   "pokedex": [
-    "cobblemon.species.euphobul.desc1"
+    "cobblemon.species.euphobul.desc"
   ],
   "height": 13,
   "weight": 0,

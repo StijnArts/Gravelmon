@@ -90,7 +90,7 @@ public class SpeciesAssetsJSONWriter {
                 aspects.add(aspect.name().toLowerCase());
             }
             BufferedWriter formWriter = new BufferedWriter(new FileWriter(dir + formCounter + "_" + pokemon.getCleanName() + "_" + form.getCleanName() + ".json"));
-            formWriter.write(gson.toJson(form.getSpeciesFileData().toJsonObject("cobblemon:" + pokemon.getCleanName(), formCounter, aspects, form)));
+            formWriter.write(gson.toJson(form.getSpeciesFileData().toJsonObject(pokemon.getCleanName(), formCounter, aspects, form)));
             formWriter.close();
         }
         /*

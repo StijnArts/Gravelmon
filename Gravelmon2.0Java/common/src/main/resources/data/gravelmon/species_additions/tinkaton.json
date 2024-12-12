@@ -12,6 +12,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "tinkatuff form=epoch",
       "baseScale": 0.11666666666666665,
       "cannotDynamax": false,
       "abilities": [
@@ -112,10 +113,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochtinkaton.desc1"
+        "cobblemon.species.epochtinkaton.desc"
       ],
       "height": 7,
       "weight": 1128,
@@ -197,7 +200,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.lagoonantinkaton.desc1"
+        "cobblemon.species.lagoonantinkaton.desc"
       ],
       "height": 17,
       "weight": 1128,

@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "numel form\u003dnorheiman",
+  "preEvolution": "numel form=norheiman",
   "baseScale": 0.39999999999999997,
   "cannotDynamax": false,
   "abilities": [
@@ -101,7 +101,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.mountox.desc1"
+    "cobblemon.species.mountox.desc"
   ],
   "height": 24,
   "weight": 165,

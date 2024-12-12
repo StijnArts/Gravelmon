@@ -4,15 +4,63 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_valentide",
       "model": "cobblemon:deneb_valentide.geo",
+      "poser": "cobblemon:deneb_valentide",
       "texture": "cobblemon:textures/pokemon/deneb/valentide/valentide.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/deneb/valentide/valentide_shiny.png"
-    }  ]
+      "model": "cobblemon:deneb_valentide.geo",
+      "poser": "cobblemon:deneb_valentide",
+      "texture": "cobblemon:textures/pokemon/deneb/valentide/valentide_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
+    }
+  ]
 }

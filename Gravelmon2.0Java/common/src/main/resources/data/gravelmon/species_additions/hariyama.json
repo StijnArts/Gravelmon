@@ -11,7 +11,7 @@
       "experienceGroup": "fluctuating",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "makuhita form\u003dcefiran",
+      "preEvolution": "makuhita form=cefiran",
       "baseScale": 0.3833333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -80,7 +80,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.cefiranhariyama.desc1"
+        "cobblemon.species.cefiranhariyama.desc"
       ],
       "height": 23,
       "weight": 2538,

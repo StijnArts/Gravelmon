@@ -8,7 +8,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "togetic form\u003dvaritasian",
+  "preEvolution": "togetic form=varitasian",
   "baseScale": 0.25,
   "cannotDynamax": false,
   "abilities": [
@@ -141,7 +141,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.togetect.desc1"
+    "cobblemon.species.togetect.desc"
   ],
   "height": 15,
   "weight": 165,

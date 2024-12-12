@@ -1,21 +1,15 @@
 {
   "species": "cobblemon:donphan",
-  "order": 3,
+  "order": 103,
   "variations": [
     {
       "aspects": [
         "ayreian"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation2_ayreiandonphan",
+      "model": "cobblemon:cutout_gravelmon_96_by_96.geo",
+      "poser": "cobblemon:cutout_gravelmon_96_by_96",
       "texture": "cobblemon:textures/pokemon/generation2/ayreiandonphan.png",
       "layers": [
-        {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
         {
           "name": "emissive"
         },
@@ -23,39 +17,19 @@
           "name": "transparentEmissive"
         },
         {
-          "name": "flame"
+          "name": "tail"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "ayreian",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation2_ayreiandonphan",
-      "texture": "cobblemon:textures/pokemon/generation2/ayreiandonphan.png",
-      "layers": [
-        {
-          "name": "glow"
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
         },
         {
-          "name": "emissive"
-        },
-        {
-          "name": "transparentEmissive"
-        },
-        {
           "name": "flame"
         },
         {
-          "name": "tail"
+          "name": "glow"
         }
       ]
     }

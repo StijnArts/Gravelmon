@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:cholarva",
+  "speciesId": "cobblemon:cholarva",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

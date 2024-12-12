@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "luxio form=epoch",
       "baseScale": 0.2333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -118,10 +119,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochluxray.desc1"
+        "cobblemon.species.epochluxray.desc"
       ],
       "height": 14,
       "weight": 420,
@@ -169,8 +172,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "luxio form\u003ddelta",
-      "baseScale": 0.2333333333333333,
+      "preEvolution": "luxio form=delta",
+      "baseScale": 0.175,
       "cannotDynamax": false,
       "abilities": [
         "poisontouch",
@@ -294,7 +297,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltaluxray.desc1"
+        "cobblemon.species.deltaluxray.desc"
       ],
       "height": 14,
       "weight": 840,
@@ -342,7 +345,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "luxio form\u003dayreian",
+      "preEvolution": "luxio form=ayreian",
       "baseScale": 0.2333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -466,7 +469,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianluxray.desc1"
+        "cobblemon.species.ayreianluxray.desc"
       ],
       "height": 14,
       "weight": 420,
@@ -514,8 +517,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "luxio form\u003dkaskadian",
-      "baseScale": 0.15,
+      "preEvolution": "luxio form=kaskadian",
+      "baseScale": 0.028124999999999997,
       "cannotDynamax": false,
       "abilities": [
         "furcoat",
@@ -615,7 +618,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.kaskadianluxray.desc1"
+        "cobblemon.species.kaskadianluxray.desc"
       ],
       "height": 9,
       "weight": 305,

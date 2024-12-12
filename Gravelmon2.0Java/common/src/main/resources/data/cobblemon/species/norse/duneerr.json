@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.5166666666666667,
+  "baseScale": 0.09687500000000002,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -44,7 +44,7 @@
     "norse"
   ],
   "pokedex": [
-    "cobblemon.species.duneerr.desc1"
+    "cobblemon.species.duneerr.desc"
   ],
   "height": 31,
   "weight": 0,

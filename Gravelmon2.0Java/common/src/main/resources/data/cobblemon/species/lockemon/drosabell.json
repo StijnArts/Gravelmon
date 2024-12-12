@@ -7,8 +7,8 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "bellsprout form\u003dkaskadian",
-  "baseScale": 0.16666666666666666,
+  "preEvolution": "bellsprout form=kaskadian",
+  "baseScale": 0.03125,
   "cannotDynamax": false,
   "abilities": [
     "triage",
@@ -96,7 +96,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.drosabell.desc1"
+    "cobblemon.species.drosabell.desc"
   ],
   "height": 10,
   "weight": 64,

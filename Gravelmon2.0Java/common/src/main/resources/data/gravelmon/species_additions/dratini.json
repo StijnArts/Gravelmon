@@ -31,7 +31,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -65,7 +65,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mahaliandratini.desc1"
+        "cobblemon.species.mahaliandratini.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -113,7 +113,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.19999999999999998,
+      "baseScale": 0.0375,
       "cannotDynamax": false,
       "abilities": [
         "lightningrod"
@@ -149,7 +149,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formandratini.desc1"
+        "cobblemon.species.formandratini.desc"
       ],
       "height": 12,
       "weight": 0,
@@ -324,7 +324,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochdratini.desc1"
+        "cobblemon.species.epochdratini.desc"
       ],
       "height": 18,
       "weight": 33,
@@ -333,9 +333,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochdratini_epoch_dragonair",
+          "id": "epochdratini_dragonair_epoch",
           "variant": "level_up",
-          "result": "epoch dragonair",
+          "result": "dragonair epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -387,7 +387,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.3,
+      "baseScale": 0.22499999999999998,
       "cannotDynamax": false,
       "abilities": [
         "swiftswim",
@@ -496,7 +496,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltadratini.desc1"
+        "cobblemon.species.deltadratini.desc"
       ],
       "height": 18,
       "weight": 33,
@@ -647,7 +647,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiandratini.desc1"
+        "cobblemon.species.ayreiandratini.desc"
       ],
       "height": 18,
       "weight": 233,

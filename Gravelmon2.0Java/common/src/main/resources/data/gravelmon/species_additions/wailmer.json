@@ -133,7 +133,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochwailmer.desc1"
+        "cobblemon.species.epochwailmer.desc"
       ],
       "height": 20,
       "weight": 1300,
@@ -142,9 +142,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochwailmer_epoch_wailord",
+          "id": "epochwailmer_wailord_epoch",
           "variant": "level_up",
-          "result": "epoch wailord",
+          "result": "wailord epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -242,7 +242,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.norheimanwailmer.desc1"
+        "cobblemon.species.norheimanwailmer.desc"
       ],
       "height": 18,
       "weight": 165,
@@ -423,7 +423,7 @@
         "insurgence"
       ],
       "pokedex": [
-        "cobblemon.species.deltawailmer.desc1"
+        "cobblemon.species.deltawailmer.desc"
       ],
       "height": 20,
       "weight": 1300,

@@ -3,6 +3,8 @@ package drai.dev.data.attributes.assets;
 import com.google.gson.*;
 import drai.dev.data.pokemon.*;
 
+import java.util.*;
+
 public class SimpleTextureLayerData extends BasicLayerData {
     String textureName;
 
@@ -11,14 +13,14 @@ public class SimpleTextureLayerData extends BasicLayerData {
         this.textureName = textureName;
     }
 
-    public SimpleTextureLayerData(String name, String textureName, boolean emissive, boolean translucent, boolean considerGender, boolean considerShiny) {
+    public SimpleTextureLayerData(String name, String textureName, Optional<Boolean> emissive, Optional<Boolean> translucent, boolean considerGender, boolean considerShiny) {
         super(name, emissive, translucent, considerGender, considerShiny);
         this.textureName = textureName;
     }
 
     public static BasicLayerData glowLayer(AbstractPokemon abstractPokemon) {
         return new SimpleTextureLayerData("glow", abstractPokemon.getCleanName()+"_emissive",
-                true, true, false, true);
+                Optional.of(true), Optional.of(true), false, true);
     }
 
     public JsonObject toJsonObject(AbstractPokemon abstractPokemon){

@@ -35,7 +35,14 @@
         "undiscovered"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:uranium_core",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
       },
       "moves": [
         "1:megapunch",
@@ -120,7 +127,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.betaurayne.desc1"
+        "cobblemon.species.betaurayne.desc"
       ],
       "height": 23,
       "weight": 2395,

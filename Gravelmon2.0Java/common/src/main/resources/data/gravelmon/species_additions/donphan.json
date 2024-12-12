@@ -11,8 +11,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "phanpy form\u003draianian",
-      "baseScale": 0.21666666666666667,
+      "preEvolution": "phanpy form=raianian",
+      "baseScale": 0.040625,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -48,7 +48,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.raianiandonphan.desc1"
+        "cobblemon.species.raianiandonphan.desc"
       ],
       "height": 13,
       "weight": 0,
@@ -95,8 +95,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "phanpy form\u003dforman",
-      "baseScale": 0.18333333333333335,
+      "preEvolution": "phanpy form=forman",
+      "baseScale": 0.034375,
       "cannotDynamax": false,
       "abilities": [
         "windrider"
@@ -132,7 +132,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formandonphan.desc1"
+        "cobblemon.species.formandonphan.desc"
       ],
       "height": 11,
       "weight": 0,
@@ -180,6 +180,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "phanpy form=epoch",
       "baseScale": 0.18333333333333335,
       "cannotDynamax": false,
       "abilities": [
@@ -278,10 +279,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochdonphan.desc1"
+        "cobblemon.species.epochdonphan.desc"
       ],
       "height": 11,
       "weight": 1200,
@@ -378,7 +381,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.africanusandonphan.desc1"
+        "cobblemon.species.africanusandonphan.desc"
       ],
       "height": 11,
       "weight": 1200,
@@ -522,7 +525,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiandonphan.desc1"
+        "cobblemon.species.ayreiandonphan.desc"
       ],
       "height": 11,
       "weight": 1450,

@@ -116,7 +116,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochcranidos.desc1"
+        "cobblemon.species.epochcranidos.desc"
       ],
       "height": 9,
       "weight": 315,
@@ -125,9 +125,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochcranidos_epoch_rampardos",
+          "id": "epochcranidos_rampardos_epoch",
           "variant": "level_up",
-          "result": "epoch rampardos",
+          "result": "rampardos epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -297,7 +297,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.novrancranidos.desc1"
+        "cobblemon.species.novrancranidos.desc"
       ],
       "height": 9,
       "weight": 165,

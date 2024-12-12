@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.caveenvirock.desc1"
+        "cobblemon.species.caveenvirock.desc"
       ],
       "height": 5,
       "weight": 0,
@@ -93,7 +93,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -131,7 +131,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.forestenvirock.desc1"
+        "cobblemon.species.forestenvirock.desc"
       ],
       "height": 5,
       "weight": 0,
@@ -179,7 +179,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -217,7 +217,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.seaenvirock.desc1"
+        "cobblemon.species.seaenvirock.desc"
       ],
       "height": 5,
       "weight": 0,

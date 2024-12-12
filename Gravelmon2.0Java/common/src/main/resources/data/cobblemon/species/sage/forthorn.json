@@ -9,7 +9,7 @@
   "eggCycles": 76,
   "baseFriendship": 70,
   "preEvolution": "loneleaf",
-  "baseScale": 0.2333333333333333,
+  "baseScale": 0.04375,
   "cannotDynamax": false,
   "abilities": [
     "naturalcure",
@@ -37,7 +37,14 @@
     "human_like"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:dead_bush",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:helpinghand",
@@ -132,7 +139,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.forthorn.desc1"
+    "cobblemon.species.forthorn.desc"
   ],
   "height": 14,
   "weight": 290,

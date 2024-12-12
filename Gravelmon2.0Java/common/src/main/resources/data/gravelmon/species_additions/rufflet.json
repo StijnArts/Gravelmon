@@ -99,7 +99,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochrufflet.desc1"
+        "cobblemon.species.epochrufflet.desc"
       ],
       "height": 15,
       "weight": 410,
@@ -108,9 +108,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochrufflet_epoch_braviary",
+          "id": "epochrufflet_braviary_epoch",
           "variant": "level_up",
-          "result": "epoch braviary",
+          "result": "braviary epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "sizzlipede form=epoch",
       "baseScale": 0.5,
       "cannotDynamax": false,
       "abilities": [
@@ -104,10 +105,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochcentiskorch.desc1"
+        "cobblemon.species.epochcentiskorch.desc"
       ],
       "height": 30,
       "weight": 1200,
@@ -155,7 +158,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "preEvolution": "sizzlipede form\u003dseviian",
+      "preEvolution": "sizzlipede form=seviian",
       "baseScale": 0.5,
       "cannotDynamax": false,
       "abilities": [
@@ -238,7 +241,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.seviiancentiskorch.desc1"
+        "cobblemon.species.seviiancentiskorch.desc"
       ],
       "height": 30,
       "weight": 1200,
@@ -286,7 +289,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "preEvolution": "sizzlipede form\u003dayreian",
+      "preEvolution": "sizzlipede form=ayreian",
       "baseScale": 0.5,
       "cannotDynamax": false,
       "abilities": [
@@ -377,7 +380,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiancentiskorch.desc1"
+        "cobblemon.species.ayreiancentiskorch.desc"
       ],
       "height": 30,
       "weight": 1200,

@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.021875,
       "cannotDynamax": false,
       "abilities": [
         "ironbarbs"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formangeodude.desc1"
+        "cobblemon.species.formangeodude.desc"
       ],
       "height": 7,
       "weight": 0,
@@ -208,7 +208,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochgeodude.desc1"
+        "cobblemon.species.epochgeodude.desc"
       ],
       "height": 4,
       "weight": 603,
@@ -217,9 +217,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochgeodude_epoch_graveler",
+          "id": "epochgeodude_graveler_epoch",
           "variant": "level_up",
-          "result": "epoch graveler",
+          "result": "graveler epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -405,7 +405,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochgeodudeone.desc1"
+        "cobblemon.species.epochgeodudeone.desc"
       ],
       "height": 4,
       "weight": 203,
@@ -468,7 +468,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "regenerator",
@@ -614,7 +614,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltageodude.desc1"
+        "cobblemon.species.deltageodude.desc"
       ],
       "height": 4,
       "weight": 200,

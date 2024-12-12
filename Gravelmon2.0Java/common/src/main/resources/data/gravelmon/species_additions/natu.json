@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "tangledfeet"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formannatu.desc1"
+        "cobblemon.species.formannatu.desc"
       ],
       "height": 2,
       "weight": 0,
@@ -208,7 +208,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochnatu.desc1"
+        "cobblemon.species.epochnatu.desc"
       ],
       "height": 2,
       "weight": 20,
@@ -217,9 +217,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochnatu_epoch_xatu",
+          "id": "epochnatu_xatu_epoch",
           "variant": "level_up",
-          "result": "epoch xatu",
+          "result": "xatu epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -307,7 +307,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ionosiannatu.desc1"
+        "cobblemon.species.ionosiannatu.desc"
       ],
       "height": 4,
       "weight": 0,

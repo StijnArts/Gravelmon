@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "vanillish form\u003davalossian",
+  "preEvolution": "vanillish form=avalossian",
   "baseScale": 0.21666666666666667,
   "cannotDynamax": false,
   "abilities": [
@@ -103,7 +103,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.vanillurgy.desc1"
+    "cobblemon.species.vanillurgy.desc"
   ],
   "height": 13,
   "weight": 575,

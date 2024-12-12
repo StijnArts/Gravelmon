@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "gorajack",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.075,
   "cannotDynamax": false,
   "abilities": [
     "blaze"
@@ -47,7 +47,7 @@
     "trizor"
   ],
   "pokedex": [
-    "cobblemon.species.gorisulfa.desc1"
+    "cobblemon.species.gorisulfa.desc"
   ],
   "height": 24,
   "weight": 0,

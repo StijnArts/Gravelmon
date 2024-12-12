@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.075,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -40,7 +40,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.gargaitor.desc1"
+    "cobblemon.species.gargaitor.desc"
   ],
   "height": 24,
   "weight": 0,

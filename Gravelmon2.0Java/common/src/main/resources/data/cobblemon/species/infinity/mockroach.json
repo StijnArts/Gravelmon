@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 39,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.07500000000000001,
   "cannotDynamax": false,
   "abilities": [
     "prankster",
@@ -105,7 +105,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.mockroach.desc1"
+    "cobblemon.species.mockroach.desc"
   ],
   "height": 6,
   "weight": 100,

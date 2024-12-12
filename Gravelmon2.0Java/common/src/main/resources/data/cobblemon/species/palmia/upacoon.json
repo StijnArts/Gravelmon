@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "garupa",
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "shedskin",
@@ -50,7 +50,7 @@
     "palmia"
   ],
   "pokedex": [
-    "cobblemon.species.upacoon.desc1"
+    "cobblemon.species.upacoon.desc"
   ],
   "height": 5,
   "weight": 0,

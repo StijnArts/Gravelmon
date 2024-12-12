@@ -33,7 +33,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:astral_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:watergun",
@@ -44,7 +51,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.relido.desc1"
+    "cobblemon.species.relido.desc"
   ],
   "height": 31,
   "weight": 0,

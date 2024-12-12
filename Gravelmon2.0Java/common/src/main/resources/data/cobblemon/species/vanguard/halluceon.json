@@ -32,7 +32,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:black_sludge",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:copycat",
@@ -118,7 +125,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.halluceon.desc1"
+    "cobblemon.species.halluceon.desc"
   ],
   "height": 10,
   "weight": 255,

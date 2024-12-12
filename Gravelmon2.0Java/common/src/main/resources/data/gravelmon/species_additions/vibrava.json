@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "trapinch form=epoch",
       "baseScale": 0.18333333333333335,
       "cannotDynamax": false,
       "abilities": [
@@ -103,10 +104,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochvibrava.desc1"
+        "cobblemon.species.epochvibrava.desc"
       ],
       "height": 11,
       "weight": 153,
@@ -115,9 +118,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochvibrava_epoch_flygon",
+          "id": "epochvibrava_flygon_epoch",
           "variant": "level_up",
-          "result": "epoch flygon",
+          "result": "flygon epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -205,7 +208,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ionosianvibrava.desc1"
+        "cobblemon.species.ionosianvibrava.desc"
       ],
       "height": 6,
       "weight": 0,
@@ -268,7 +271,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "trapinch form\u003dayreian",
+      "preEvolution": "trapinch form=ayreian",
       "baseScale": 0.18333333333333335,
       "cannotDynamax": false,
       "abilities": [
@@ -384,7 +387,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianvibrava.desc1"
+        "cobblemon.species.ayreianvibrava.desc"
       ],
       "height": 11,
       "weight": 153,
@@ -497,7 +500,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.cefiranvibrava.desc1"
+        "cobblemon.species.cefiranvibrava.desc"
       ],
       "height": 11,
       "weight": 153,

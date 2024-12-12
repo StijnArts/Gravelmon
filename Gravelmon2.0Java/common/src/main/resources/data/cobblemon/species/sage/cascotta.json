@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "totter",
-  "baseScale": 0.18333333333333335,
+  "baseScale": 0.034375,
   "cannotDynamax": false,
   "abilities": [
     "speedboost",
@@ -35,7 +35,14 @@
     "water_1"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:raw_cod",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:aquaring",
@@ -118,7 +125,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.cascotta.desc1"
+    "cobblemon.species.cascotta.desc"
   ],
   "height": 11,
   "weight": 278,

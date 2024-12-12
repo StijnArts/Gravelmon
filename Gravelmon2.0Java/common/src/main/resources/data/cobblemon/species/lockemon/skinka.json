@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "roughskin",
@@ -43,7 +43,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.skinka.desc1"
+    "cobblemon.species.skinka.desc"
   ],
   "height": 3,
   "weight": 65,
@@ -62,7 +62,7 @@
         },
         {
           "variant": "party_member",
-          "target": "type\u003dground",
+          "target": "type=ground",
           "contains": true
         }
       ],
@@ -81,7 +81,7 @@
         },
         {
           "variant": "party_member",
-          "target": "type\u003drock",
+          "target": "type=rock",
           "contains": true
         }
       ],
@@ -100,7 +100,7 @@
         },
         {
           "variant": "party_member",
-          "target": "type\u003dsteel",
+          "target": "type=steel",
           "contains": true
         }
       ],
@@ -119,7 +119,7 @@
         },
         {
           "variant": "party_member",
-          "target": "type\u003dflying",
+          "target": "type=flying",
           "contains": true
         }
       ],
@@ -138,7 +138,7 @@
         },
         {
           "variant": "party_member",
-          "target": "type\u003dbug",
+          "target": "type=bug",
           "contains": true
         }
       ],
@@ -157,7 +157,7 @@
         },
         {
           "variant": "party_member",
-          "target": "type\u003dfighting",
+          "target": "type=fighting",
           "contains": true
         }
       ],
@@ -176,7 +176,7 @@
         },
         {
           "variant": "party_member",
-          "target": "type\u003dpoison",
+          "target": "type=poison",
           "contains": true
         }
       ],
@@ -195,7 +195,7 @@
         },
         {
           "variant": "party_member",
-          "target": "type\u003dghost",
+          "target": "type=ghost",
           "contains": true
         }
       ],
@@ -214,7 +214,7 @@
         },
         {
           "variant": "party_member",
-          "target": "type\u003ddragon",
+          "target": "type=dragon",
           "contains": true
         }
       ],

@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "shellos form=epoch",
       "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
@@ -107,10 +108,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochgastrodon.desc1"
+        "cobblemon.species.epochgastrodon.desc"
       ],
       "height": 9,
       "weight": 299,
@@ -266,7 +269,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochgastrodonone.desc1"
+        "cobblemon.species.epochgastrodonone.desc"
       ],
       "height": 9,
       "weight": 299,
@@ -418,7 +421,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochgastrodontwo.desc1"
+        "cobblemon.species.epochgastrodontwo.desc"
       ],
       "height": 9,
       "weight": 299,
@@ -580,7 +583,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochgastrodonthree.desc1"
+        "cobblemon.species.epochgastrodonthree.desc"
       ],
       "height": 9,
       "weight": 299,
@@ -730,7 +733,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochgastrodonfour.desc1"
+        "cobblemon.species.epochgastrodonfour.desc"
       ],
       "height": 9,
       "weight": 299,
@@ -894,7 +897,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochgastrodonfive.desc1"
+        "cobblemon.species.epochgastrodonfive.desc"
       ],
       "height": 9,
       "weight": 299,
@@ -1049,7 +1052,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochgastrodonsix.desc1"
+        "cobblemon.species.epochgastrodonsix.desc"
       ],
       "height": 9,
       "weight": 299,
@@ -1198,7 +1201,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochgastrodonseven.desc1"
+        "cobblemon.species.epochgastrodonseven.desc"
       ],
       "height": 9,
       "weight": 299,
@@ -1350,7 +1353,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochgastrodoneight.desc1"
+        "cobblemon.species.epochgastrodoneight.desc"
       ],
       "height": 9,
       "weight": 299,
@@ -1509,7 +1512,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochgastrodonnine.desc1"
+        "cobblemon.species.epochgastrodonnine.desc"
       ],
       "height": 9,
       "weight": 299,
@@ -1676,7 +1679,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochgastrodonten.desc1"
+        "cobblemon.species.epochgastrodonten.desc"
       ],
       "height": 9,
       "weight": 299,
@@ -1833,7 +1836,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochgastrodoneleven.desc1"
+        "cobblemon.species.epochgastrodoneleven.desc"
       ],
       "height": 9,
       "weight": 299,
@@ -1881,7 +1884,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "shellos form\u003davalossian",
+      "preEvolution": "shellos form=avalossian",
       "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
@@ -1972,7 +1975,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.avalossiangastrodon.desc1"
+        "cobblemon.species.avalossiangastrodon.desc"
       ],
       "height": 9,
       "weight": 299,
@@ -2020,7 +2023,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "shellos form\u003drican",
+      "preEvolution": "shellos form=rican",
       "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
@@ -2125,7 +2128,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ricangastrodon.desc1"
+        "cobblemon.species.ricangastrodon.desc"
       ],
       "height": 9,
       "weight": 63,

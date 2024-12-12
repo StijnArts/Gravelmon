@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "budew form=epoch",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -98,10 +99,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochroselia.desc1"
+        "cobblemon.species.epochroselia.desc"
       ],
       "height": 3,
       "weight": 20,
@@ -110,9 +113,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochroselia_epoch_roserade",
+          "id": "epochroselia_roserade_epoch",
           "variant": "item_interact",
-          "result": "epoch roserade",
+          "result": "roserade epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -265,7 +268,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochroseliaone.desc1"
+        "cobblemon.species.epochroseliaone.desc"
       ],
       "height": 3,
       "weight": 20,
@@ -424,7 +427,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.avorianroselia.desc1"
+        "cobblemon.species.avorianroselia.desc"
       ],
       "height": 3,
       "weight": 165,
@@ -472,8 +475,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "budew form\u003ddelta",
-      "baseScale": 0.1,
+      "preEvolution": "budew form=delta",
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "shadowdance",
@@ -608,7 +611,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltaroselia.desc1"
+        "cobblemon.species.deltaroselia.desc"
       ],
       "height": 3,
       "weight": 20,
@@ -667,8 +670,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 26,
       "baseFriendship": 70,
-      "preEvolution": "budew form\u003dx",
-      "baseScale": 0.1,
+      "preEvolution": "budew form=x",
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "serenegrace",
@@ -694,7 +697,19 @@
         "undiscovered"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:xenolith",
+            "quantityRange": "1-1",
+            "percentage": 20
+          },
+          {
+            "item": "gravelmon:xenolith",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
       },
       "moves": [
         "1:poisonsting",
@@ -745,7 +760,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.roseliax.desc1"
+        "cobblemon.species.roseliax.desc"
       ],
       "height": 3,
       "weight": 20,
@@ -804,7 +819,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "budew form\u003dayreian",
+      "preEvolution": "budew form=ayreian",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -910,7 +925,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianroselia.desc1"
+        "cobblemon.species.ayreianroselia.desc"
       ],
       "height": 3,
       "weight": 20,
@@ -973,7 +988,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "preEvolution": "budew form\u003drelic",
+      "preEvolution": "budew form=relic",
       "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
@@ -1082,7 +1097,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.relicroselia.desc1"
+        "cobblemon.species.relicroselia.desc"
       ],
       "height": 9,
       "weight": 130,

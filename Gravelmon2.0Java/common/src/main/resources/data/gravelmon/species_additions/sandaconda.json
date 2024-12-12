@@ -10,6 +10,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "silicobra form=epoch",
       "baseScale": 0.6333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -106,10 +107,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochsandaconda.desc1"
+        "cobblemon.species.epochsandaconda.desc"
       ],
       "height": 38,
       "weight": 655,
@@ -158,7 +161,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "silicobra form\u003dhizian",
+      "preEvolution": "silicobra form=hizian",
       "baseScale": 0.21666666666666667,
       "cannotDynamax": false,
       "abilities": [
@@ -209,7 +212,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.hiziansandaconda.desc1"
+        "cobblemon.species.hiziansandaconda.desc"
       ],
       "height": 13,
       "weight": 165,

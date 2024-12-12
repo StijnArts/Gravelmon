@@ -41,7 +41,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "poisontouch"
@@ -77,7 +77,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formancorsola.desc1"
+        "cobblemon.species.formancorsola.desc"
       ],
       "height": 6,
       "weight": 0,
@@ -233,7 +233,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochcorsola.desc1"
+        "cobblemon.species.epochcorsola.desc"
       ],
       "height": 6,
       "weight": 50,
@@ -242,9 +242,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochcorsola_epoch_cursola",
+          "id": "epochcorsola_cursola_epoch",
           "variant": "item_interact",
-          "result": "epoch cursola",
+          "result": "cursola epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

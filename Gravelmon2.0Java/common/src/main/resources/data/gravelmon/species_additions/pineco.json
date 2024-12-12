@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "sturdy"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanpineco.desc1"
+        "cobblemon.species.formanpineco.desc"
       ],
       "height": 6,
       "weight": 0,
@@ -134,7 +134,16 @@
       "eggGroups": [
         "mineral"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:astral_stone",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
+      },
       "moves": [
         "39:irondefense",
         "54:mistyexplosion",
@@ -217,7 +226,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochpineco.desc1"
+        "cobblemon.species.epochpineco.desc"
       ],
       "height": 6,
       "weight": 72,
@@ -226,9 +235,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochpineco_epoch_forretress",
+          "id": "epochpineco_forretress_epoch",
           "variant": "item_interact",
-          "result": "epoch forretress",
+          "result": "forretress epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

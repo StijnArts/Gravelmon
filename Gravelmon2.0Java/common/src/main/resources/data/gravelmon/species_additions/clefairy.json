@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "clefar",
-      "baseScale": 0.13333333333333333,
+      "baseScale": 0.025,
       "cannotDynamax": false,
       "abilities": [
         "serenegrace"
@@ -48,7 +48,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formanclefairy.desc1"
+        "cobblemon.species.formanclefairy.desc"
       ],
       "height": 8,
       "weight": 0,
@@ -107,6 +107,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "cleffa form=epoch",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -211,10 +212,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochclefairy.desc1"
+        "cobblemon.species.epochclefairy.desc"
       ],
       "height": 6,
       "weight": 75,
@@ -223,9 +226,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochclefairy_epoch_clefable",
+          "id": "epochclefairy_clefable_epoch",
           "variant": "item_interact",
-          "result": "epoch clefable",
+          "result": "clefable epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

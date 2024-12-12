@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.raianianchinchou.desc1"
+        "cobblemon.species.raianianchinchou.desc"
       ],
       "height": 6,
       "weight": 0,
@@ -108,7 +108,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.021875,
       "cannotDynamax": false,
       "abilities": [
         "stormdrain"
@@ -144,7 +144,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanchinchou.desc1"
+        "cobblemon.species.formanchinchou.desc"
       ],
       "height": 7,
       "weight": 0,
@@ -241,7 +241,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mastenianchinchou.desc1"
+        "cobblemon.species.mastenianchinchou.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -414,7 +414,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochchinchou.desc1"
+        "cobblemon.species.epochchinchou.desc"
       ],
       "height": 5,
       "weight": 120,
@@ -423,9 +423,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochchinchou_epoch_lanturn",
+          "id": "epochchinchou_lanturn_epoch",
           "variant": "level_up",
-          "result": "epoch lanturn",
+          "result": "lanturn epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -585,7 +585,7 @@
         "insurgence"
       ],
       "pokedex": [
-        "cobblemon.species.deltachinchou.desc1"
+        "cobblemon.species.deltachinchou.desc"
       ],
       "height": 7,
       "weight": 168,
@@ -718,7 +718,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.hoennianchinchou.desc1"
+        "cobblemon.species.hoennianchinchou.desc"
       ],
       "height": 6,
       "weight": 29,

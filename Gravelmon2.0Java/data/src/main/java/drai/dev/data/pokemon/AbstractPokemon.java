@@ -85,7 +85,7 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
         this.aspects.addAll(aspects);
         this.height = height;
         this.weight = weight;
-        this.baseScale = Math.max((double) height / 10 / 6, 0.1);
+        this.baseScale = Math.max((double) height / 10 / 4, 0.1);
         this.spawnData.add(new PokemonSpawnData(spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight*1.5, spawnConditions, spawnAntiConditions, spawnPresets, new ArrayList<>()));
 
         this.dexEntries.addAll(dexEntries);
@@ -331,7 +331,5 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
         this.game = game;
     }
 
-    public Game getGame() {
-        return game;
-    }
+    public abstract Game getGame();
 }

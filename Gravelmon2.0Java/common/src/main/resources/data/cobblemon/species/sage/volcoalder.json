@@ -9,7 +9,7 @@
   "eggCycles": 48,
   "baseFriendship": 70,
   "preEvolution": "volcaroc",
-  "baseScale": 0.3,
+  "baseScale": 0.056249999999999994,
   "cannotDynamax": false,
   "abilities": [
     "magmaarmor",
@@ -36,7 +36,14 @@
     "mineral"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:magma",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
   },
   "moves": [
     "1:bodyslam",
@@ -121,7 +128,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.volcoalder.desc1"
+    "cobblemon.species.volcoalder.desc"
   ],
   "height": 18,
   "weight": 2839,

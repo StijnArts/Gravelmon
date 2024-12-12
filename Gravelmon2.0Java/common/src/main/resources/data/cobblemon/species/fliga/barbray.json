@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "qwilfish form\u003davalossian",
+  "preEvolution": "qwilfish form=avalossian",
   "baseScale": 0.18333333333333335,
   "cannotDynamax": false,
   "abilities": [
@@ -114,7 +114,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.barbray.desc1"
+    "cobblemon.species.barbray.desc"
   ],
   "height": 11,
   "weight": 39,

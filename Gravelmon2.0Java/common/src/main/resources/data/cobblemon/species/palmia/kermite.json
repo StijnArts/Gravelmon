@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -42,7 +42,7 @@
     "palmia"
   ],
   "pokedex": [
-    "cobblemon.species.kermite.desc1"
+    "cobblemon.species.kermite.desc"
   ],
   "height": 4,
   "weight": 0,
@@ -81,7 +81,7 @@
         },
         {
           "variant": "properties",
-          "target": "gender\u003dfemale",
+          "target": "gender=female",
           "contains": true
         }
       ],
@@ -101,7 +101,7 @@
         },
         {
           "variant": "properties",
-          "target": "gender\u003dmale",
+          "target": "gender=male",
           "contains": true
         }
       ],

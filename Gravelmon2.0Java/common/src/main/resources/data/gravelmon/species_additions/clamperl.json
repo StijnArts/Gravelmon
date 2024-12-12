@@ -122,7 +122,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochclamperl.desc1"
+        "cobblemon.species.epochclamperl.desc"
       ],
       "height": 4,
       "weight": 525,
@@ -131,9 +131,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochclamperl_epoch_huntail",
+          "id": "epochclamperl_huntail_epoch",
           "variant": "item_interact",
-          "result": "epoch huntail",
+          "result": "huntail epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -141,9 +141,9 @@
           "permanent": true
         },
         {
-          "id": "epochclamperl_epoch_gorebyss",
+          "id": "epochclamperl_gorebyss_epoch",
           "variant": "item_interact",
-          "result": "epoch gorebyss",
+          "result": "gorebyss epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -190,7 +190,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "pressure",
@@ -265,7 +265,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltaclamperl.desc1"
+        "cobblemon.species.deltaclamperl.desc"
       ],
       "height": 4,
       "weight": 525,

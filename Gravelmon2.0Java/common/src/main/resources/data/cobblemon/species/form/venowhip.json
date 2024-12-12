@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "venonat form\u003dforman",
-  "baseScale": 0.26666666666666666,
+  "preEvolution": "venonat form=forman",
+  "baseScale": 0.05,
   "cannotDynamax": false,
   "abilities": [
     "steadfast"
@@ -47,7 +47,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.venowhip.desc1"
+    "cobblemon.species.venowhip.desc"
   ],
   "height": 16,
   "weight": 0,

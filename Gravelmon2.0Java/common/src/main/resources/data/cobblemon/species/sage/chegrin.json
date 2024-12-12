@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 51,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "shadowtag",
@@ -34,7 +34,14 @@
     "field"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:raw_cod",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:barrage",
@@ -117,7 +124,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.chegrin.desc1"
+    "cobblemon.species.chegrin.desc"
   ],
   "height": 5,
   "weight": 85,

@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "binacle form=epoch",
       "baseScale": 0.21666666666666667,
       "cannotDynamax": false,
       "abilities": [
@@ -118,10 +119,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochbarbaracle.desc1"
+        "cobblemon.species.epochbarbaracle.desc"
       ],
       "height": 13,
       "weight": 960,
@@ -203,7 +206,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.lagoonanbarbaracle.desc1"
+        "cobblemon.species.lagoonanbarbaracle.desc"
       ],
       "height": 13,
       "weight": 960,
@@ -305,7 +308,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.vesitanbarbaracle.desc1"
+        "cobblemon.species.vesitanbarbaracle.desc"
       ],
       "height": 13,
       "weight": 960,

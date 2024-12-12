@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.021875,
       "cannotDynamax": false,
       "abilities": [
         "raindish"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanbellsprout.desc1"
+        "cobblemon.species.formanbellsprout.desc"
       ],
       "height": 7,
       "weight": 0,
@@ -214,7 +214,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.avalossianbellsprout.desc1"
+        "cobblemon.species.avalossianbellsprout.desc"
       ],
       "height": 7,
       "weight": 40,
@@ -370,7 +370,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.aristosianbellsprout.desc1"
+        "cobblemon.species.aristosianbellsprout.desc"
       ],
       "height": 5,
       "weight": 32,
@@ -432,7 +432,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.021875,
       "cannotDynamax": false,
       "abilities": [
         "sweetveil",
@@ -521,7 +521,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.kaskadianbellsprout.desc1"
+        "cobblemon.species.kaskadianbellsprout.desc"
       ],
       "height": 7,
       "weight": 40,

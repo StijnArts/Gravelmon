@@ -7,8 +7,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "pikachu form\u003dforman",
-  "baseScale": 0.18333333333333335,
+  "preEvolution": "pikachu form=forman",
+  "baseScale": 0.034375,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -44,7 +44,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.raychu.desc1"
+    "cobblemon.species.raychu.desc"
   ],
   "height": 11,
   "weight": 0,

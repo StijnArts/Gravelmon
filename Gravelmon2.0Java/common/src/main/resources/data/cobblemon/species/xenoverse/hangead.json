@@ -9,7 +9,7 @@
   "eggCycles": 32,
   "baseFriendship": 70,
   "preEvolution": "puppillon",
-  "baseScale": 0.2833333333333333,
+  "baseScale": 0.2125,
   "cannotDynamax": false,
   "abilities": [
     "frisk",
@@ -36,7 +36,19 @@
     "human_like"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:dread_pendant",
+        "quantityRange": "1-1",
+        "percentage": 50
+      },
+      {
+        "item": "gravelmon:dread_pendant",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:spiritshackle",
@@ -123,7 +135,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.hangead.desc1"
+    "cobblemon.species.hangead.desc"
   ],
   "height": 17,
   "weight": 479,

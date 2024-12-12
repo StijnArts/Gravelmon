@@ -8,7 +8,7 @@
   "eggCycles": 32,
   "baseFriendship": 70,
   "preEvolution": "reindear",
-  "baseScale": 0.4166666666666667,
+  "baseScale": 0.3125,
   "cannotDynamax": false,
   "abilities": [
     "defeatist"
@@ -112,7 +112,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.reindigo.desc1"
+    "cobblemon.species.reindigo.desc"
   ],
   "height": 25,
   "weight": 1200,

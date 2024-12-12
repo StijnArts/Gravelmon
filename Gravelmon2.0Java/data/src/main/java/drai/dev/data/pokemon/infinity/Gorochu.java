@@ -138,10 +138,8 @@ public class Gorochu extends Pokemon {
         getPosingFileData().addAnimations(List.of(
                 AnimationData.battleIdleAnimation().withBlink(),
                 AnimationData.standingAnimation().notBattle().withBlink().withLook().addPoseType(PoseType.FLOAT).addPoseType(PoseType.HOVER),
-                AnimationData.walkingAnimation().withBlink().withLook().addPoseType(PoseType.SWIM).addPoseType(PoseType.FLY),
-                AnimationData.sleepingAnimation()
+                AnimationData.walkingAnimation().withBlink().withLook().addPoseType(PoseType.SWIM).addPoseType(PoseType.FLY)
         ));
         getPosingFileData().setCry("bedrock(gorochu, cry)");
-
     }
 }

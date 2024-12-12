@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "webbat",
-  "baseScale": 0.21666666666666667,
+  "baseScale": 0.040625,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -109,7 +109,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.vamprachne.desc1"
+    "cobblemon.species.vamprachne.desc"
   ],
   "height": 13,
   "weight": 754,

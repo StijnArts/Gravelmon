@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "braixen form=epoch",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -124,10 +125,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochdelphox.desc1"
+        "cobblemon.species.epochdelphox.desc"
       ],
       "height": 15,
       "weight": 390,
@@ -231,7 +234,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.vesitandelphox.desc1"
+        "cobblemon.species.vesitandelphox.desc"
       ],
       "height": 15,
       "weight": 390,

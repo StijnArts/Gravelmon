@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.aromianvanillite.desc1"
+        "cobblemon.species.aromianvanillite.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -187,7 +187,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochvanillite.desc1"
+        "cobblemon.species.epochvanillite.desc"
       ],
       "height": 4,
       "weight": 57,
@@ -196,9 +196,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochvanillite_epoch_vanillish",
+          "id": "epochvanillite_vanillish_epoch",
           "variant": "level_up",
-          "result": "epoch vanillish",
+          "result": "vanillish epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -356,7 +356,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochvanilliteone.desc1"
+        "cobblemon.species.epochvanilliteone.desc"
       ],
       "height": 4,
       "weight": 57,
@@ -507,7 +507,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.avalossianvanillite.desc1"
+        "cobblemon.species.avalossianvanillite.desc"
       ],
       "height": 4,
       "weight": 410,
@@ -673,7 +673,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.novranvanillite.desc1"
+        "cobblemon.species.novranvanillite.desc"
       ],
       "height": 4,
       "weight": 165,
@@ -823,7 +823,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianvanillite.desc1"
+        "cobblemon.species.ayreianvanillite.desc"
       ],
       "height": 4,
       "weight": 57,

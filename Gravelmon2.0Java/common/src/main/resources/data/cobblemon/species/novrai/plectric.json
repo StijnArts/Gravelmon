@@ -95,7 +95,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.plectric.desc1"
+    "cobblemon.species.plectric.desc"
   ],
   "height": 3,
   "weight": 165,
@@ -114,7 +114,7 @@
         },
         {
           "variant": "party_member",
-          "target": "type\u003ddark",
+          "target": "type=dark",
           "contains": true
         }
       ],

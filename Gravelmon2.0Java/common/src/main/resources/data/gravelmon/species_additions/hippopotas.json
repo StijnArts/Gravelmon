@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mahalianhippopotas.desc1"
+        "cobblemon.species.mahalianhippopotas.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -197,7 +197,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochhippopotas.desc1"
+        "cobblemon.species.epochhippopotas.desc"
       ],
       "height": 8,
       "weight": 495,
@@ -206,9 +206,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochhippopotas_epoch_hippowdon",
+          "id": "epochhippopotas_hippowdon_epoch",
           "variant": "level_up",
-          "result": "epoch hippowdon",
+          "result": "hippowdon epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -347,7 +347,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.armiranhippopotas.desc1"
+        "cobblemon.species.armiranhippopotas.desc"
       ],
       "height": 8,
       "weight": 495,

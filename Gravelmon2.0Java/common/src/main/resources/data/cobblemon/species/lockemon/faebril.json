@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.21666666666666667,
+  "baseScale": 0.040625,
   "cannotDynamax": false,
   "abilities": [
     "healer",
@@ -58,7 +58,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.faebril.desc1"
+    "cobblemon.species.faebril.desc"
   ],
   "height": 13,
   "weight": 1231,

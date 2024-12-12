@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "fribitad",
-  "baseScale": 0.18333333333333335,
+  "baseScale": 8.8,
   "cannotDynamax": false,
   "abilities": [
     "chlorophyll",
@@ -57,7 +57,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.ribivine.desc1"
+    "cobblemon.species.ribivine.desc"
   ],
   "height": 11,
   "weight": 165,

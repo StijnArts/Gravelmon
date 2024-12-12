@@ -56,7 +56,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.peritwinkle.desc1"
+    "cobblemon.species.peritwinkle.desc"
   ],
   "height": 5,
   "weight": 165,
@@ -75,7 +75,7 @@
         },
         {
           "variant": "properties",
-          "target": "gender\u003dfemale",
+          "target": "gender=female",
           "contains": true
         }
       ],
@@ -94,7 +94,7 @@
         },
         {
           "variant": "properties",
-          "target": "gender\u003dmale",
+          "target": "gender=male",
           "contains": true
         }
       ],

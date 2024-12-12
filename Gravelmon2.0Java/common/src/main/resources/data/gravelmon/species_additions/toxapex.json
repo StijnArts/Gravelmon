@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "mareanie form=epoch",
       "baseScale": 0.11666666666666665,
       "cannotDynamax": false,
       "abilities": [
@@ -105,10 +106,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochtoxapex.desc1"
+        "cobblemon.species.epochtoxapex.desc"
       ],
       "height": 7,
       "weight": 145,
@@ -156,8 +159,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "mareanie form\u003dx",
-      "baseScale": 0.11666666666666665,
+      "preEvolution": "mareanie form=x",
+      "baseScale": 0.0875,
       "cannotDynamax": false,
       "abilities": [
         "arenatrap",
@@ -183,7 +186,19 @@
         "undiscovered"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:xenolith",
+            "quantityRange": "1-1",
+            "percentage": 20
+          },
+          {
+            "item": "gravelmon:xenolith",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
       },
       "moves": [
         "1:bind",
@@ -245,7 +260,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.toxapexx.desc1"
+        "cobblemon.species.toxapexx.desc"
       ],
       "height": 7,
       "weight": 145,
@@ -363,7 +378,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.hoenniantoxapex.desc1"
+        "cobblemon.species.hoenniantoxapex.desc"
       ],
       "height": 12,
       "weight": 489,

@@ -7,7 +7,7 @@
   "experienceGroup": "fast",
   "eggCycles": 39,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "serenegrace",
@@ -35,7 +35,14 @@
     "fairy"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:tackle",
@@ -89,7 +96,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.lintle.desc1"
+    "cobblemon.species.lintle.desc"
   ],
   "height": 1,
   "weight": 2,

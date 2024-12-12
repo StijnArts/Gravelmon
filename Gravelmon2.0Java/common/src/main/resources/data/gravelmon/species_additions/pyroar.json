@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "litleo form=epoch",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -94,10 +95,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochpyroar.desc1"
+        "cobblemon.species.epochpyroar.desc"
       ],
       "height": 15,
       "weight": 815,
@@ -145,7 +148,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "litleo form\u003dhizian",
+      "preEvolution": "litleo form=hizian",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -195,7 +198,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.hizianpyroar.desc1"
+        "cobblemon.species.hizianpyroar.desc"
       ],
       "height": 15,
       "weight": 165,

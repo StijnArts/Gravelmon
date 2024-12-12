@@ -36,7 +36,14 @@
     "field"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:barrage",
@@ -134,7 +141,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.howlequin.desc1"
+    "cobblemon.species.howlequin.desc"
   ],
   "height": 14,
   "weight": 36,

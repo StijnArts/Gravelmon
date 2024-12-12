@@ -37,7 +37,14 @@
     "fairy"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:carrot_wine",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:quickattack",
@@ -191,7 +198,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.winotinger.desc1"
+    "cobblemon.species.winotinger.desc"
   ],
   "height": 15,
   "weight": 314,

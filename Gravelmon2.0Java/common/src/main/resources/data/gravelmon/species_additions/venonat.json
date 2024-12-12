@@ -31,7 +31,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.028124999999999997,
       "cannotDynamax": false,
       "abilities": [
         "steadfast"
@@ -69,7 +69,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanvenonat.desc1"
+        "cobblemon.species.formanvenonat.desc"
       ],
       "height": 9,
       "weight": 0,
@@ -237,7 +237,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochvenonat.desc1"
+        "cobblemon.species.epochvenonat.desc"
       ],
       "height": 10,
       "weight": 300,
@@ -246,9 +246,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochvenonat_epoch_venomoth",
+          "id": "epochvenonat_venomoth_epoch",
           "variant": "level_up",
-          "result": "epoch venomoth",
+          "result": "venomoth epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -343,7 +343,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.hizianvenonat.desc1"
+        "cobblemon.species.hizianvenonat.desc"
       ],
       "height": 10,
       "weight": 165,
@@ -474,7 +474,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.hoennianvenonat.desc1"
+        "cobblemon.species.hoennianvenonat.desc"
       ],
       "height": 10,
       "weight": 300,
@@ -491,7 +491,7 @@
           "requirements": [
             {
               "variant": "properties",
-              "target": "gender\u003dmale",
+              "target": "gender=male",
               "contains": true
             }
           ],
@@ -506,7 +506,7 @@
           "requirements": [
             {
               "variant": "properties",
-              "target": "gender\u003dfemale",
+              "target": "gender=female",
               "contains": true
             }
           ],
@@ -643,7 +643,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianvenonat.desc1"
+        "cobblemon.species.ayreianvenonat.desc"
       ],
       "height": 10,
       "weight": 300,

@@ -106,7 +106,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochferroseed.desc1"
+        "cobblemon.species.epochferroseed.desc"
       ],
       "height": 6,
       "weight": 188,
@@ -115,9 +115,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochferroseed_epoch_ferrothorn",
+          "id": "epochferroseed_ferrothorn_epoch",
           "variant": "level_up",
-          "result": "epoch ferrothorn",
+          "result": "ferrothorn epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

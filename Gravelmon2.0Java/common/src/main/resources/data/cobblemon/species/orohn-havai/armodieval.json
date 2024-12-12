@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "fortibal",
-  "baseScale": 0.25,
+  "baseScale": 12.0,
   "cannotDynamax": false,
   "abilities": [
     "sturdy",
@@ -61,7 +61,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.armodieval.desc1"
+    "cobblemon.species.armodieval.desc"
   ],
   "height": 15,
   "weight": 165,

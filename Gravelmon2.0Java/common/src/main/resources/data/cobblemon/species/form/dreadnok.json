@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "marowak form\u003dforman",
-  "baseScale": 0.3,
+  "preEvolution": "marowak form=forman",
+  "baseScale": 0.056249999999999994,
   "cannotDynamax": false,
   "abilities": [
     "justified"
@@ -45,7 +45,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.dreadnok.desc1"
+    "cobblemon.species.dreadnok.desc"
   ],
   "height": 18,
   "weight": 0,

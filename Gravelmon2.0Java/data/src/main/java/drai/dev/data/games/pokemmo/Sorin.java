@@ -7,7 +7,7 @@ import java.util.*;
 
 public class Sorin extends drai.dev.data.games.registry.Game {
     public Sorin() {
-        super("Sōrin");
+        super("Sorin");
     }
 
     @Override

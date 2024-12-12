@@ -1,21 +1,15 @@
 {
   "species": "cobblemon:machop",
-  "order": 3,
+  "order": 189,
   "variations": [
     {
       "aspects": [
         "forman"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation1_formanmachop",
+      "model": "cobblemon:cutout_gravelmon_512_by_512.geo",
+      "poser": "cobblemon:cutout_gravelmon_512_by_512",
       "texture": "cobblemon:textures/pokemon/generation1/formanmachop.png",
       "layers": [
-        {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
         {
           "name": "emissive"
         },
@@ -23,39 +17,19 @@
           "name": "transparentEmissive"
         },
         {
-          "name": "flame"
+          "name": "tail"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "forman",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation1_formanmachop",
-      "texture": "cobblemon:textures/pokemon/generation1/formanmachop.png",
-      "layers": [
-        {
-          "name": "glow"
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
         },
         {
-          "name": "emissive"
-        },
-        {
-          "name": "transparentEmissive"
-        },
-        {
           "name": "flame"
         },
         {
-          "name": "tail"
+          "name": "glow"
         }
       ]
     }

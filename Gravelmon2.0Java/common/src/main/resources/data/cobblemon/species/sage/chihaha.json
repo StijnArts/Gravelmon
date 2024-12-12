@@ -35,7 +35,14 @@
     "field"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:barrage",
@@ -117,7 +124,7 @@
     "sage"
   ],
   "pokedex": [
-    "cobblemon.species.chihaha.desc1"
+    "cobblemon.species.chihaha.desc"
   ],
   "height": 4,
   "weight": 36,

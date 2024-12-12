@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.13333333333333333,
+  "baseScale": 0.025,
   "cannotDynamax": false,
   "abilities": [
     "dryskin",
@@ -103,7 +103,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.wormini.desc1"
+    "cobblemon.species.wormini.desc"
   ],
   "height": 8,
   "weight": 147,

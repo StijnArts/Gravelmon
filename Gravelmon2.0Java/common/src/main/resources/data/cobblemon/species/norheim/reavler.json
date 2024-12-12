@@ -34,7 +34,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:razor_claw",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:razorwind",
@@ -110,7 +117,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.reavler.desc1"
+    "cobblemon.species.reavler.desc"
   ],
   "height": 8,
   "weight": 165,

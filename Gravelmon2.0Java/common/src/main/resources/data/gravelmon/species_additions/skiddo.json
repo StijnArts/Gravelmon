@@ -109,7 +109,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochskiddo.desc1"
+        "cobblemon.species.epochskiddo.desc"
       ],
       "height": 9,
       "weight": 310,
@@ -118,9 +118,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochskiddo_epoch_gogoat",
+          "id": "epochskiddo_gogoat_epoch",
           "variant": "level_up",
-          "result": "epoch gogoat",
+          "result": "gogoat epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -224,7 +224,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.vesitanskiddo.desc1"
+        "cobblemon.species.vesitanskiddo.desc"
       ],
       "height": 9,
       "weight": 310,
@@ -378,7 +378,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianskiddo.desc1"
+        "cobblemon.species.ayreianskiddo.desc"
       ],
       "height": 9,
       "weight": 310,
@@ -547,7 +547,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.relicskiddo.desc1"
+        "cobblemon.species.relicskiddo.desc"
       ],
       "height": 11,
       "weight": 530,

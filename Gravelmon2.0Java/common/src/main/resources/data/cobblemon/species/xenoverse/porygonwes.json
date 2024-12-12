@@ -35,7 +35,14 @@
     "mineral"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:wes_update",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:trickroom",
@@ -98,7 +105,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.porygonwes.desc1"
+    "cobblemon.species.porygonwes.desc"
   ],
   "height": 12,
   "weight": 34,

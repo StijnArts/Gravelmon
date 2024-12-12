@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.2833333333333333,
+      "baseScale": 0.053125,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -36,7 +36,14 @@
         "field"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "cobblemon:thunder_stone",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
       },
       "moves": [
         "1:thundershock",
@@ -49,7 +56,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.raianiangallade.desc1"
+        "cobblemon.species.raianiangallade.desc"
       ],
       "height": 17,
       "weight": 0,
@@ -97,6 +104,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "kirlia form=epoch",
       "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -194,10 +202,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochgallade.desc1"
+        "cobblemon.species.epochgallade.desc"
       ],
       "height": 16,
       "weight": 520,
@@ -245,7 +255,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "kirlia form\u003davalossian",
+      "preEvolution": "kirlia form=avalossian",
       "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -397,7 +407,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.avalossiangallade.desc1"
+        "cobblemon.species.avalossiangallade.desc"
       ],
       "height": 16,
       "weight": 520,
@@ -445,7 +455,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "kirlia form\u003ddelta",
+      "preEvolution": "kirlia form=delta",
       "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
@@ -576,7 +586,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltagallade.desc1"
+        "cobblemon.species.deltagallade.desc"
       ],
       "height": 16,
       "weight": 520,
@@ -794,7 +804,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiangallade.desc1"
+        "cobblemon.species.ayreiangallade.desc"
       ],
       "height": 16,
       "weight": 720,

@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.9,
+  "baseScale": 0.16875,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -42,7 +42,7 @@
     "palmia"
   ],
   "pokedex": [
-    "cobblemon.species.mothrize.desc1"
+    "cobblemon.species.mothrize.desc"
   ],
   "height": 54,
   "weight": 0,

@@ -137,7 +137,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochcufant.desc1"
+        "cobblemon.species.epochcufant.desc"
       ],
       "height": 12,
       "weight": 1000,
@@ -146,9 +146,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochcufant_epoch_copperajah",
+          "id": "epochcufant_copperajah_epoch",
           "variant": "item_interact",
-          "result": "epoch copperajah",
+          "result": "copperajah epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

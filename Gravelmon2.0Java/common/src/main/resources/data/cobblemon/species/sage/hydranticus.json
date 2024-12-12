@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "glauqua",
-  "baseScale": 0.3666666666666667,
+  "baseScale": 0.06875,
   "cannotDynamax": false,
   "abilities": [
     "levitate"
@@ -35,7 +35,14 @@
     "amorphous"
   ],
   "drops": {
-    "amount": 4
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:slime_ball",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
   },
   "moves": [
     "1:aquaring",
@@ -118,7 +125,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.hydranticus.desc1"
+    "cobblemon.species.hydranticus.desc"
   ],
   "height": 22,
   "weight": 2018,

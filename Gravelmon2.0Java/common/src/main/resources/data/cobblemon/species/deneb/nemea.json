@@ -7,7 +7,7 @@
   "experienceGroup": "slow",
   "eggCycles": 100,
   "baseFriendship": 70,
-  "baseScale": 0.4666666666666666,
+  "baseScale": 0.35,
   "cannotDynamax": false,
   "abilities": [
     "pressure"
@@ -77,7 +77,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.nemea.desc1"
+    "cobblemon.species.nemea.desc"
   ],
   "height": 28,
   "weight": 2855,

@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mahalianmantine.desc1"
+        "cobblemon.species.mahalianmantine.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -93,6 +93,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "mantyke form=epoch",
       "baseScale": 0.35000000000000003,
       "cannotDynamax": false,
       "abilities": [
@@ -211,10 +212,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochmantine.desc1"
+        "cobblemon.species.epochmantine.desc"
       ],
       "height": 21,
       "weight": 2200,
@@ -262,7 +265,7 @@
       "experienceGroup": "slow",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "preEvolution": "mantyke form\u003dseviian",
+      "preEvolution": "mantyke form=seviian",
       "baseScale": 0.35000000000000003,
       "cannotDynamax": false,
       "abilities": [
@@ -354,7 +357,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.seviianmantine.desc1"
+        "cobblemon.species.seviianmantine.desc"
       ],
       "height": 21,
       "weight": 2200,
@@ -518,7 +521,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianmantine.desc1"
+        "cobblemon.species.ayreianmantine.desc"
       ],
       "height": 21,
       "weight": 2200,

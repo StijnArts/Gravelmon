@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 100,
   "baseFriendship": 70,
-  "baseScale": 0.8333333333333334,
+  "baseScale": 1.25,
   "cannotDynamax": false,
   "abilities": [
     "marvelscale"
@@ -99,7 +99,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.asphere.desc1"
+    "cobblemon.species.asphere.desc"
   ],
   "height": 50,
   "weight": 1600,
@@ -151,7 +151,7 @@
       "experienceGroup": "slow",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "baseScale": 0.8333333333333334,
+      "baseScale": 1.25,
       "cannotDynamax": false,
       "abilities": [
         "marvelscale"
@@ -182,7 +182,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.altair.desc1"
+        "cobblemon.species.altair.desc"
       ],
       "height": 50,
       "weight": 1600,
@@ -202,7 +202,7 @@
       "experienceGroup": "slow",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "baseScale": 0.8333333333333334,
+      "baseScale": 1.25,
       "cannotDynamax": false,
       "abilities": [
         "marvelscale"
@@ -233,7 +233,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.sirius.desc1"
+        "cobblemon.species.sirius.desc"
       ],
       "height": 50,
       "weight": 1600,

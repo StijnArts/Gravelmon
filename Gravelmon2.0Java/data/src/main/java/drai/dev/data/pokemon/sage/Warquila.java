@@ -116,8 +116,7 @@ public class Warquila extends Pokemon {
         getPosingFileData().addAnimations(List.of(
                 AnimationData.standingAnimation().withLook().withBlink().clearPoseTypes(),
                 AnimationData.flyingAnimation().addPoseType(PoseType.WALK).withLook().withBlink(),
-                AnimationData.hoveringAnimation().withLook().withBlink(),
-                AnimationData.sleepingAnimation()
+                AnimationData.hoveringAnimation().withLook().withBlink()
         ));
         getPosingFileData().setCry("bedrock(warquila, cry)");
     }

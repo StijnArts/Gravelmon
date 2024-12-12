@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "bellsprout form\u003dforman",
-  "baseScale": 0.15,
+  "preEvolution": "bellsprout form=forman",
+  "baseScale": 0.028124999999999997,
   "cannotDynamax": false,
   "abilities": [
     "raindish"
@@ -47,7 +47,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.lilibell.desc1"
+    "cobblemon.species.lilibell.desc"
   ],
   "height": 9,
   "weight": 0,

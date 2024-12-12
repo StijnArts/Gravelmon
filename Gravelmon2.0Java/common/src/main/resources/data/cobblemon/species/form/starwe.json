@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "staryu form\u003dforman",
-  "baseScale": 0.2333333333333333,
+  "preEvolution": "staryu form=forman",
+  "baseScale": 0.04375,
   "cannotDynamax": false,
   "abilities": [
     "infiltrator"
@@ -47,7 +47,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.starwe.desc1"
+    "cobblemon.species.starwe.desc"
   ],
   "height": 14,
   "weight": 0,

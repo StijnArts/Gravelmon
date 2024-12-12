@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "cyndaqize",
-  "baseScale": 0.26666666666666666,
+  "baseScale": 0.05,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -43,7 +43,7 @@
     "palmia"
   ],
   "pokedex": [
-    "cobblemon.species.flamize.desc1"
+    "cobblemon.species.flamize.desc"
   ],
   "height": 16,
   "weight": 0,

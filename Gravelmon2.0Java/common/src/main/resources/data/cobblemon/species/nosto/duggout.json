@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "dugtrio form\u003dnostan",
+  "preEvolution": "dugtrio form=nostan",
   "baseScale": 0.2333333333333333,
   "cannotDynamax": false,
   "abilities": [
@@ -101,7 +101,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.duggout.desc1"
+    "cobblemon.species.duggout.desc"
   ],
   "height": 14,
   "weight": 165,

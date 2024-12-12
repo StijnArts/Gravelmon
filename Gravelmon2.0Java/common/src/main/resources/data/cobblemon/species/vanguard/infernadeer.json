@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 39,
   "baseFriendship": 70,
-  "preEvolution": "stantler form\u003dayreian",
+  "preEvolution": "stantler form=ayreian",
   "baseScale": 0.3333333333333333,
   "cannotDynamax": false,
   "abilities": [
@@ -128,7 +128,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.infernadeer.desc1"
+    "cobblemon.species.infernadeer.desc"
   ],
   "height": 20,
   "weight": 1212,

@@ -84,7 +84,7 @@ public class HoennianDrakloak extends Pokemon {
                 .addBasicVariation(this)
                 .addLayer(
                         new SimpleTextureLayerData("emmisive", "drakloak_fire",
-                                true, false, false, true)
+                                Optional.of(true), Optional.of(false), false, true)
                 );
         getPosingFileData().setAnimationFileName("hoenniandrakloak");
         getPosingFileData().setPortraitData(0.6f, new Vector3(0, 1.75, 0));

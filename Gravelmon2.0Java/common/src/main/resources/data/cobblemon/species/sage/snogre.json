@@ -8,7 +8,7 @@
   "eggCycles": 61,
   "baseFriendship": 70,
   "preEvolution": "snome",
-  "baseScale": 0.3,
+  "baseScale": 0.056249999999999994,
   "cannotDynamax": false,
   "abilities": [
     "permafrost",
@@ -35,7 +35,14 @@
     "human_like"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:ice",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
   },
   "moves": [
     "1:frostslash",
@@ -127,7 +134,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.snogre.desc1"
+    "cobblemon.species.snogre.desc"
   ],
   "height": 18,
   "weight": 1480,

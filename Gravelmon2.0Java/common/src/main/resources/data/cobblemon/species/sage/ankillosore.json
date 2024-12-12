@@ -9,7 +9,7 @@
   "eggCycles": 62,
   "baseFriendship": 70,
   "preEvolution": "hornizard",
-  "baseScale": 0.2833333333333333,
+  "baseScale": 0.053125,
   "cannotDynamax": false,
   "abilities": [
     "poisonpoint",
@@ -36,7 +36,14 @@
     "monster"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:irontail",
@@ -112,7 +119,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.ankillosore.desc1"
+    "cobblemon.species.ankillosore.desc"
   ],
   "height": 17,
   "weight": 2553,

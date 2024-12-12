@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "milcery form=epoch",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -37,7 +38,16 @@
       "eggGroups": [
         "amorphous"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:sand_stone",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
+      },
       "moves": [
         "1:pound",
         "1:harden",
@@ -114,10 +124,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochalcremie.desc1"
+        "cobblemon.species.epochalcremie.desc"
       ],
       "height": 3,
       "weight": 5,
@@ -165,7 +177,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "milcery form\u003dvaritasian",
+      "preEvolution": "milcery form=varitasian",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -248,7 +260,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.varitasianalcremie.desc1"
+        "cobblemon.species.varitasianalcremie.desc"
       ],
       "height": 3,
       "weight": 165,

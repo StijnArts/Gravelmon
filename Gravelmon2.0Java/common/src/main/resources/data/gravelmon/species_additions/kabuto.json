@@ -101,7 +101,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochkabuto.desc1"
+        "cobblemon.species.epochkabuto.desc"
       ],
       "height": 5,
       "weight": 115,
@@ -110,9 +110,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochkabuto_epoch_kabutops",
+          "id": "epochkabuto_kabutops_epoch",
           "variant": "level_up",
-          "result": "epoch kabutops",
+          "result": "kabutops epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -269,7 +269,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochkabutoone.desc1"
+        "cobblemon.species.epochkabutoone.desc"
       ],
       "height": 5,
       "weight": 115,
@@ -332,7 +332,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
@@ -434,7 +434,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltakabuto.desc1"
+        "cobblemon.species.deltakabuto.desc"
       ],
       "height": 5,
       "weight": 115,

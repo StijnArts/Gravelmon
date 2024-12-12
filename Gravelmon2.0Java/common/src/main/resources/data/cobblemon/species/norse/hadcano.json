@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "lavades",
-  "baseScale": 0.2833333333333333,
+  "baseScale": 0.053125,
   "cannotDynamax": false,
   "abilities": [
     "blaze"
@@ -45,7 +45,7 @@
     "norse"
   ],
   "pokedex": [
-    "cobblemon.species.hadcano.desc1"
+    "cobblemon.species.hadcano.desc"
   ],
   "height": 17,
   "weight": 0,

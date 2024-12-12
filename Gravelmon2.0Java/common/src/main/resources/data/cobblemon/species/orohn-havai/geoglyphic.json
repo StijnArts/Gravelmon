@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "oreglyph",
-  "baseScale": 0.3333333333333333,
+  "baseScale": 16.0,
   "cannotDynamax": false,
   "abilities": [
     "vitalspirit",
@@ -60,7 +60,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.geoglyphic.desc1"
+    "cobblemon.species.geoglyphic.desc"
   ],
   "height": 20,
   "weight": 165,

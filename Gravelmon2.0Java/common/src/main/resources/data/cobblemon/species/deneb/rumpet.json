@@ -7,7 +7,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.26666666666666666,
+  "baseScale": 0.2,
   "cannotDynamax": false,
   "abilities": [
     "owntempo"
@@ -116,7 +116,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.rumpet.desc1"
+    "cobblemon.species.rumpet.desc"
   ],
   "height": 16,
   "weight": 362,

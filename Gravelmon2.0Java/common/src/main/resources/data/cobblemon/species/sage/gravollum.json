@@ -9,7 +9,7 @@
   "eggCycles": 62,
   "baseFriendship": 70,
   "preEvolution": "necronite",
-  "baseScale": 0.3333333333333333,
+  "baseScale": 0.0625,
   "cannotDynamax": false,
   "abilities": [
     "levitate",
@@ -36,7 +36,14 @@
     "mineral"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:sandstone",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:powertrick",
@@ -133,7 +140,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.gravollum.desc1"
+    "cobblemon.species.gravollum.desc"
   ],
   "height": 20,
   "weight": 3053,

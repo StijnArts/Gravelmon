@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "houndour form\u003dnorheiman",
+  "preEvolution": "houndour form=norheiman",
   "baseScale": 0.26666666666666666,
   "cannotDynamax": false,
   "abilities": [
@@ -61,7 +61,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.grimgarmr.desc1"
+    "cobblemon.species.grimgarmr.desc"
   ],
   "height": 16,
   "weight": 165,

@@ -11,7 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "thwackey form\u003dayreian",
+      "preEvolution": "thwackey form=ayreian",
       "baseScale": 0.35000000000000003,
       "cannotDynamax": false,
       "abilities": [
@@ -118,7 +118,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianrillaboom.desc1"
+        "cobblemon.species.ayreianrillaboom.desc"
       ],
       "height": 21,
       "weight": 900,

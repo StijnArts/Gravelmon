@@ -10,6 +10,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "servine form=epoch",
       "baseScale": 0.5499999999999999,
       "cannotDynamax": false,
       "abilities": [
@@ -115,10 +116,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochserperior.desc1"
+        "cobblemon.species.epochserperior.desc"
       ],
       "height": 33,
       "weight": 630,
@@ -166,8 +169,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "servine form\u003ddelta",
-      "baseScale": 0.5499999999999999,
+      "preEvolution": "servine form=delta",
+      "baseScale": 0.4125,
       "cannotDynamax": false,
       "abilities": [
         "multiscale",
@@ -293,7 +296,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltaserperior.desc1"
+        "cobblemon.species.deltaserperior.desc"
       ],
       "height": 33,
       "weight": 630,
@@ -439,7 +442,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianserperior.desc1"
+        "cobblemon.species.ayreianserperior.desc"
       ],
       "height": 18,
       "weight": 3760,

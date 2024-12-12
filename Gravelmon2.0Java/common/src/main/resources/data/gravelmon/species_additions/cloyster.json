@@ -11,8 +11,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "shellder form\u003dforman",
-      "baseScale": 0.26666666666666666,
+      "preEvolution": "shellder form=forman",
+      "baseScale": 0.05,
       "cannotDynamax": false,
       "abilities": [
         "flashfire"
@@ -48,7 +48,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formancloyster.desc1"
+        "cobblemon.species.formancloyster.desc"
       ],
       "height": 16,
       "weight": 0,
@@ -95,7 +95,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "shellder form\u003dnostan",
+      "preEvolution": "shellder form=nostan",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -201,7 +201,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.nostancloyster.desc1"
+        "cobblemon.species.nostancloyster.desc"
       ],
       "height": 15,
       "weight": 165,

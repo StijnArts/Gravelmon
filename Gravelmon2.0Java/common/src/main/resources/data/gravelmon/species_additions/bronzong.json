@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "bronzor form=epoch",
       "baseScale": 0.21666666666666667,
       "cannotDynamax": false,
       "abilities": [
@@ -113,10 +114,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochbronzong.desc1"
+        "cobblemon.species.epochbronzong.desc"
       ],
       "height": 13,
       "weight": 1870,
@@ -214,7 +217,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.africanusanbronzong.desc1"
+        "cobblemon.species.africanusanbronzong.desc"
       ],
       "height": 13,
       "weight": 1870,

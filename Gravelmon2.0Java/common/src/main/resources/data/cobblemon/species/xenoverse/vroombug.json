@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 32,
   "baseFriendship": 70,
-  "baseScale": 0.16666666666666666,
+  "baseScale": 0.125,
   "cannotDynamax": false,
   "abilities": [
     "aftermath",
@@ -35,7 +35,19 @@
     "bug"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:spare_parts",
+        "quantityRange": "1-1",
+        "percentage": 20
+      },
+      {
+        "item": "gravelmon:spare_parts",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "moves": [
     "1:screech",
@@ -93,7 +105,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.vroombug.desc1"
+    "cobblemon.species.vroombug.desc"
   ],
   "height": 10,
   "weight": 380,

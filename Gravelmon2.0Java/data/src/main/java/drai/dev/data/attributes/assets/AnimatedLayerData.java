@@ -17,8 +17,8 @@ public class AnimatedLayerData extends BasicLayerData {
         this.loop = loop;
     }
 
-    public AnimatedLayerData(String name, List<String> textureFrames, int framerate, boolean loop,  boolean emissive,
-                             boolean translucent, boolean considerGender, boolean considerShiny) {
+    public AnimatedLayerData(String name, List<String> textureFrames, int framerate, boolean loop,  Optional<Boolean> emissive,
+                             Optional<Boolean> translucent, boolean considerGender, boolean considerShiny) {
         super(name, emissive, translucent, considerGender, considerShiny);
         this.textureFrames = textureFrames;
         this.framerate = framerate;

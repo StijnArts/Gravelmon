@@ -1,25 +1,69 @@
 {
   "species": "cobblemon:wooper",
-  "order": 10,
+  "order": 133,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:deltawooper.geo",
+      "model": "cobblemon:generation2_deltawooper.geo",
       "poser": "cobblemon:generation2_deltawooper",
-      "texture": "cobblemon:textures/pokemon/generation2/deltawooper.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation2/deltawooper/deltawooper.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     },
     {
       "aspects": [
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:deltawooper.geo",
+      "model": "cobblemon:generation2_deltawooper.geo",
       "poser": "cobblemon:generation2_deltawooper",
-      "texture": "cobblemon:textures/pokemon/generation2/deltawooper_shiny.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation2/deltawooper/deltawooper_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     }
   ]
 }

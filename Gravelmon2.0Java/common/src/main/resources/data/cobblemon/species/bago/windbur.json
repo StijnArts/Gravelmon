@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "airville",
-  "baseScale": 0.75,
+  "baseScale": 0.140625,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -47,7 +47,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.windbur.desc1"
+    "cobblemon.species.windbur.desc"
   ],
   "height": 45,
   "weight": 0,

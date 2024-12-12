@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "littora",
-  "baseScale": 0.3,
+  "baseScale": 0.056249999999999994,
   "cannotDynamax": false,
   "abilities": [
     "flashfire"
@@ -43,7 +43,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.fangtora.desc1"
+    "cobblemon.species.fangtora.desc"
   ],
   "height": 18,
   "weight": 0,

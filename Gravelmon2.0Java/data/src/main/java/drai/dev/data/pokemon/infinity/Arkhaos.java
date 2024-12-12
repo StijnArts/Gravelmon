@@ -185,7 +185,7 @@ public class Arkhaos extends Pokemon {
         
         setBaseScale(1);
         setHitbox(4,2.5);
-        getSpeciesFileData().addBasicVariation(this).addLayer(new BasicLayerData("arkhaos_emissive", true, true, false, true));
+        getSpeciesFileData().addBasicVariation(this).addLayer(new BasicLayerData("arkhaos_emissive", Optional.of(true), Optional.of(true), false, true));
         getPosingFileData().setAnimationFileName("arkhaos");
         getPosingFileData().setPortraitData( .3f, new Vector3(-0.6, 1.5, 0));
         getPosingFileData().setProfileData( .3f, new Vector3(-0.2, 1.3, 0));
@@ -194,9 +194,7 @@ public class Arkhaos extends Pokemon {
                 AnimationData.standingAnimation().withBlink(),
                 AnimationData.walkingAnimation().withBlink(),
                 AnimationData.hoveringAnimation().withBlink().addPoseType(PoseType.FLOAT),
-                AnimationData.flyingAnimation().withBlink().addPoseType(PoseType.SWIM),
-                AnimationData.sleepingAnimation(),
-                AnimationData.battleIdleAnimation().withBlink()
+                AnimationData.flyingAnimation().withBlink().addPoseType(PoseType.SWIM)
         ));
         getPosingFileData().setCry("q.bedrock_stateful('arkhaos', 'cry')");
         getPosingFileData().setFaint("q.bedrock_primary('arkhaos', 'faint', q.curve('one'))");

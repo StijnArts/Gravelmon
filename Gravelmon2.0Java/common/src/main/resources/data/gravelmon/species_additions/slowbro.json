@@ -11,8 +11,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "slowpoke form\u003dforman",
-      "baseScale": 0.2833333333333333,
+      "preEvolution": "slowpoke form=forman",
+      "baseScale": 0.053125,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -50,7 +50,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formanslowbro.desc1"
+        "cobblemon.species.formanslowbro.desc"
       ],
       "height": 17,
       "weight": 0,
@@ -98,6 +98,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "slowpoke form=epoch",
       "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -191,10 +192,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochslowbro.desc1"
+        "cobblemon.species.epochslowbro.desc"
       ],
       "height": 16,
       "weight": 785,
@@ -295,7 +298,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.africanusanslowbro.desc1"
+        "cobblemon.species.africanusanslowbro.desc"
       ],
       "height": 16,
       "weight": 785,
@@ -342,7 +345,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "slowpoke form\u003dnovran",
+      "preEvolution": "slowpoke form=novran",
       "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -449,7 +452,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.novranslowbro.desc1"
+        "cobblemon.species.novranslowbro.desc"
       ],
       "height": 16,
       "weight": 165,

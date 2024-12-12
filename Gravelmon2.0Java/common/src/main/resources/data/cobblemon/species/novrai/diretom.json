@@ -35,7 +35,14 @@
     "water_3"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:growth_mulch",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "moves": [
     "1:smog",
@@ -122,7 +129,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.diretom.desc1"
+    "cobblemon.species.diretom.desc"
   ],
   "height": 3,
   "weight": 165,

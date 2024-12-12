@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "ivysaur form=epoch",
       "baseScale": 0.3333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -126,10 +127,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochvenusaur.desc1"
+        "cobblemon.species.epochvenusaur.desc"
       ],
       "height": 20,
       "weight": 1000,
@@ -177,7 +180,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "ivysaur form\u003degho",
+      "preEvolution": "ivysaur form=egho",
       "baseScale": 2.0,
       "cannotDynamax": false,
       "abilities": [
@@ -206,7 +209,14 @@
         "monster"
       ],
       "drops": {
-        "amount": 2
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:cactus",
+            "quantityRange": "1-2",
+            "percentage": 50
+          }
+        ]
       },
       "moves": [
         "0:bulldoze",
@@ -304,7 +314,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.eghovenusaur.desc1"
+        "cobblemon.species.eghovenusaur.desc"
       ],
       "height": 26,
       "weight": 6173,
@@ -352,7 +362,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "ivysaur form\u003ddelta",
+      "preEvolution": "ivysaur form=delta",
       "baseScale": 2.0,
       "cannotDynamax": false,
       "abilities": [
@@ -491,7 +501,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltavenusaur.desc1"
+        "cobblemon.species.deltavenusaur.desc"
       ],
       "height": 20,
       "weight": 1000,
@@ -539,7 +549,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "ivysaur form\u003dayreian",
+      "preEvolution": "ivysaur form=ayreian",
       "baseScale": 0.3333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -645,7 +655,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianvenusaur.desc1"
+        "cobblemon.species.ayreianvenusaur.desc"
       ],
       "height": 20,
       "weight": 1000,

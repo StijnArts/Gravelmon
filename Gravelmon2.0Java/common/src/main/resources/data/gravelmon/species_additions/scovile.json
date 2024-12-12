@@ -12,7 +12,7 @@
       "eggCycles": 26,
       "baseFriendship": 40,
       "preEvolution": "scovile",
-      "baseScale": 0.2333333333333333,
+      "baseScale": 0.175,
       "cannotDynamax": false,
       "abilities": [
         "effectspore",
@@ -39,7 +39,19 @@
         "undiscovered"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:xenolith",
+            "quantityRange": "1-1",
+            "percentage": 20
+          },
+          {
+            "item": "gravelmon:inductive_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
       },
       "moves": [
         "1:nightslash",
@@ -99,7 +111,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.scovilex.desc1"
+        "cobblemon.species.scovilex.desc"
       ],
       "height": 14,
       "weight": 414,

@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 60,
   "baseFriendship": 70,
-  "baseScale": 0.2333333333333333,
+  "baseScale": 0.04375,
   "cannotDynamax": false,
   "abilities": [
     "pressure",
@@ -34,7 +34,14 @@
     "mineral"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:gold_ingot",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
   },
   "moves": [
     "1:hypervoice",
@@ -118,7 +125,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.shibalbat.desc1"
+    "cobblemon.species.shibalbat.desc"
   ],
   "height": 14,
   "weight": 1022,

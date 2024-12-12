@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "poliwhirl form\u003dpalmian",
-  "baseScale": 0.31666666666666665,
+  "preEvolution": "poliwhirl form=palmian",
+  "baseScale": 0.059375,
   "cannotDynamax": false,
   "abilities": [
     "raindish",
@@ -48,7 +48,7 @@
     "palmia"
   ],
   "pokedex": [
-    "cobblemon.species.polimud.desc1"
+    "cobblemon.species.polimud.desc"
   ],
   "height": 19,
   "weight": 0,

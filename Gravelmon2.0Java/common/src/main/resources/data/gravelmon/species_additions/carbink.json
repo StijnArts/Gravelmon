@@ -110,7 +110,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochcarbink.desc1"
+        "cobblemon.species.epochcarbink.desc"
       ],
       "height": 3,
       "weight": 2557,
@@ -264,7 +264,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiancarbink.desc1"
+        "cobblemon.species.ayreiancarbink.desc"
       ],
       "height": 3,
       "weight": 57,

@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "quilladin form=epoch",
       "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -109,10 +110,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochchesnaught.desc1"
+        "cobblemon.species.epochchesnaught.desc"
       ],
       "height": 16,
       "weight": 900,
@@ -214,7 +217,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.vesitanchesnaught.desc1"
+        "cobblemon.species.vesitanchesnaught.desc"
       ],
       "height": 16,
       "weight": 900,

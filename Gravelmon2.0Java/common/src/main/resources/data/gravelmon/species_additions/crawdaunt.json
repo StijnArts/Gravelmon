@@ -11,6 +11,7 @@
       "experienceGroup": "fluctuating",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "corphish form=epoch",
       "baseScale": 0.18333333333333335,
       "cannotDynamax": false,
       "abilities": [
@@ -109,10 +110,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochcrawdaunt.desc1"
+        "cobblemon.species.epochcrawdaunt.desc"
       ],
       "height": 11,
       "weight": 328,
@@ -160,7 +163,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "corphish form\u003dnorheiman",
+      "preEvolution": "corphish form=norheiman",
       "baseScale": 0.18333333333333335,
       "cannotDynamax": false,
       "abilities": [
@@ -208,7 +211,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.norheimancrawdaunt.desc1"
+        "cobblemon.species.norheimancrawdaunt.desc"
       ],
       "height": 11,
       "weight": 165,

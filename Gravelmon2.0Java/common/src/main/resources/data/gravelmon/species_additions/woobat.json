@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianwoobat.desc1"
+        "cobblemon.species.fabelianwoobat.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -190,7 +190,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochwoobat.desc1"
+        "cobblemon.species.epochwoobat.desc"
       ],
       "height": 4,
       "weight": 21,
@@ -199,9 +199,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochwoobat_epoch_swoobat",
+          "id": "epochwoobat_swoobat_epoch",
           "variant": "level_up",
-          "result": "epoch swoobat",
+          "result": "swoobat epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

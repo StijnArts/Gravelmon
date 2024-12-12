@@ -1,45 +1,41 @@
 {
-    "head": "head",
-    "portraitScale": 1.7,
-    "portraitTranslation": [0, 1, 0],
-    "profileScale": 0.6,
-    "profileTranslation": [0, 0.8, 0],
-    "poses": {
-	  "walking": {
-        "poseName": "walking",
-        "transformTicks": 10,
-        "poseTypes": ["WALK"],
-        "animations": [
-          "look",
-          "bedrock(deltameloetta, fly)"
-        ]
-      },
-      "standing": {
-        "poseName": "standing",
-        "transformTicks": 10,
-        "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
-        "animations": [
-          "look",
-          "bedrock(deltameloetta, ground_idle)"
-        ]
-      },
-	   "flying": {
-        "poseName": "flying",
-        "transformTicks": 10,
-        "poseTypes": ["FLY"],
-        "animations": [
-          "look",
-          "bedrock(deltameloetta, fly)"
-        ]
-      },
-	   "hovering": {
-        "poseName": "hovering",
-        "transformTicks": 10,
-        "poseTypes": ["HOVER"],
-        "animations": [
-          "look",
-          "bedrock(deltameloetta, fly)"
-        ]
-      }
+  "head": "head",
+  "portraitScale": 1.7000000476837158,
+  "portraitTranslation": [
+    0.0,
+    1.0,
+    0.0
+  ],
+  "profileScale": 0.6000000238418579,
+  "profileTranslation": [
+    0.0,
+    0.8,
+    0.0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "look",
+        "bedrock(deltameloetta, ground_idle)"
+      ],
+      "transformTicks": 10,
+      "allPoseTypes": true,
+      "quirks": []
+    },
+    "flying": {
+      "poseName": "flying",
+      "animations": [
+        "look",
+        "bedrock(deltameloetta, air_fly)"
+      ],
+      "poseTypes": [
+        "FLY",
+        "HOVER",
+        "WALK"
+      ],
+      "transformTicks": 10,
+      "quirks": []
     }
   }
+}

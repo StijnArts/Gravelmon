@@ -27,7 +27,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -61,7 +61,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianralts.desc1"
+        "cobblemon.species.fabelianralts.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -225,7 +225,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochralts.desc1"
+        "cobblemon.species.epochralts.desc"
       ],
       "height": 4,
       "weight": 66,
@@ -234,9 +234,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochralts_epoch_kirlia",
+          "id": "epochralts_kirlia_epoch",
           "variant": "level_up",
-          "result": "epoch kirlia",
+          "result": "kirlia epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -407,7 +407,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.avalossianralts.desc1"
+        "cobblemon.species.avalossianralts.desc"
       ],
       "height": 4,
       "weight": 66,
@@ -572,7 +572,7 @@
         "insurgence"
       ],
       "pokedex": [
-        "cobblemon.species.deltaralts.desc1"
+        "cobblemon.species.deltaralts.desc"
       ],
       "height": 4,
       "weight": 66,
@@ -761,7 +761,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianralts.desc1"
+        "cobblemon.species.ayreianralts.desc"
       ],
       "height": 4,
       "weight": 66,

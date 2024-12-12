@@ -9,7 +9,7 @@
   "eggCycles": 41,
   "baseFriendship": 70,
   "preEvolution": "bullverin",
-  "baseScale": 0.2833333333333333,
+  "baseScale": 0.2125,
   "cannotDynamax": false,
   "abilities": [
     "blaze",
@@ -105,7 +105,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.croakraze.desc1"
+    "cobblemon.species.croakraze.desc"
   ],
   "height": 17,
   "weight": 477,

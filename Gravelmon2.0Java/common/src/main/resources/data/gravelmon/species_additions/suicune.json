@@ -10,7 +10,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -44,7 +44,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabeliansuicune.desc1"
+        "cobblemon.species.fabeliansuicune.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -91,7 +91,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.39999999999999997,
+      "baseScale": 0.075,
       "cannotDynamax": false,
       "abilities": [
         "clearbody"
@@ -125,7 +125,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formansuicune.desc1"
+        "cobblemon.species.formansuicune.desc"
       ],
       "height": 24,
       "weight": 0,
@@ -272,7 +272,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.varitasiansuicune.desc1"
+        "cobblemon.species.varitasiansuicune.desc"
       ],
       "height": 20,
       "weight": 165,

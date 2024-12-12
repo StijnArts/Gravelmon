@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "preEvolution": "nymble form\u003dseviian",
+      "preEvolution": "nymble form=seviian",
       "baseScale": 0.16666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -96,7 +96,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.seviianlokix.desc1"
+        "cobblemon.species.seviianlokix.desc"
       ],
       "height": 10,
       "weight": 175,

@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.25,
+  "baseScale": 0.046875,
   "cannotDynamax": false,
   "abilities": [
     "torrent",
@@ -57,7 +57,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.lochare.desc1"
+    "cobblemon.species.lochare.desc"
   ],
   "height": 15,
   "weight": 727,

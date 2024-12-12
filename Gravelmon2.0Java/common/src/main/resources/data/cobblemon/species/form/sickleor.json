@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "scyther form\u003dforman",
-  "baseScale": 0.35000000000000003,
+  "preEvolution": "scyther form=forman",
+  "baseScale": 0.065625,
   "cannotDynamax": false,
   "abilities": [
     "moxie"
@@ -47,7 +47,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.sickleor.desc1"
+    "cobblemon.species.sickleor.desc"
   ],
   "height": 21,
   "weight": 0,

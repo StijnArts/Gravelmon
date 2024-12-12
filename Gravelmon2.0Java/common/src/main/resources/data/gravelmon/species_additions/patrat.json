@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ferranianpatrat.desc1"
+        "cobblemon.species.ferranianpatrat.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -206,7 +206,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochpatrat.desc1"
+        "cobblemon.species.epochpatrat.desc"
       ],
       "height": 5,
       "weight": 116,
@@ -215,9 +215,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochpatrat_epoch_watchog",
+          "id": "epochpatrat_watchog_epoch",
           "variant": "level_up",
-          "result": "epoch watchog",
+          "result": "watchog epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

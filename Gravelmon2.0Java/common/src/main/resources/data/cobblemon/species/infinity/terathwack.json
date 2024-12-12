@@ -9,7 +9,7 @@
   "eggCycles": 39,
   "baseFriendship": 70,
   "preEvolution": "marowak",
-  "baseScale": 0.43333333333333335,
+  "baseScale": 0.325,
   "cannotDynamax": false,
   "abilities": [
     "rockhead",
@@ -36,7 +36,19 @@
     "monster"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:long_club",
+        "quantityRange": "1-1",
+        "percentage": 50
+      },
+      {
+        "item": "gravelmon:long_club",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:bonesweep",
@@ -156,7 +168,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.terathwack.desc1"
+    "cobblemon.species.terathwack.desc"
   ],
   "height": 26,
   "weight": 1230,

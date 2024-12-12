@@ -9,7 +9,7 @@
   "eggCycles": 39,
   "baseFriendship": 70,
   "preEvolution": "girafarig",
-  "baseScale": 0.3833333333333333,
+  "baseScale": 0.2875,
   "cannotDynamax": false,
   "abilities": [
     "pixilate",
@@ -36,7 +36,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:dawn_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "0:trick",
@@ -153,7 +160,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.girafaraf.desc1"
+    "cobblemon.species.girafaraf.desc"
   ],
   "height": 23,
   "weight": 950,

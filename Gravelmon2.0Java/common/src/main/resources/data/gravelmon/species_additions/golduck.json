@@ -10,8 +10,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "psyduck form\u003dforman",
-      "baseScale": 0.2833333333333333,
+      "preEvolution": "psyduck form=forman",
+      "baseScale": 0.053125,
       "cannotDynamax": false,
       "abilities": [
         "telepathy"
@@ -47,7 +47,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formangolduck.desc1"
+        "cobblemon.species.formangolduck.desc"
       ],
       "height": 17,
       "weight": 0,
@@ -145,7 +145,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.masteniangolduck.desc1"
+        "cobblemon.species.masteniangolduck.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -193,6 +193,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "psyduck form=epoch",
       "baseScale": 0.2833333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -290,10 +291,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochgolduck.desc1"
+        "cobblemon.species.epochgolduck.desc"
       ],
       "height": 17,
       "weight": 766,

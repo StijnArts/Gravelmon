@@ -23,6 +23,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "pupitar form=epoch",
       "baseScale": 0.3333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -123,10 +124,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochtyranitar.desc1"
+        "cobblemon.species.epochtyranitar.desc"
       ],
       "height": 20,
       "weight": 2020,
@@ -174,7 +177,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 100,
       "baseFriendship": 70,
-      "baseScale": 0.3333333333333333,
+      "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
         "solidrock",
@@ -200,7 +203,14 @@
         "undiscovered"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:xenolith",
+            "quantityRange": "1-1",
+            "percentage": 50
+          }
+        ]
       },
       "moves": [
         "1:payback",
@@ -275,7 +285,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.tyranitarx.desc1"
+        "cobblemon.species.tyranitarx.desc"
       ],
       "height": 20,
       "weight": 2020,
@@ -451,7 +461,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.armirantyranitar.desc1"
+        "cobblemon.species.armirantyranitar.desc"
       ],
       "height": 20,
       "weight": 2020,

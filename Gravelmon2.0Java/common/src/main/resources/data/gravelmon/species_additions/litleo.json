@@ -106,7 +106,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochlitleo.desc1"
+        "cobblemon.species.epochlitleo.desc"
       ],
       "height": 6,
       "weight": 135,
@@ -115,9 +115,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochlitleo_epoch_pyroar",
+          "id": "epochlitleo_pyroar_epoch",
           "variant": "level_up",
-          "result": "epoch pyroar",
+          "result": "pyroar epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -214,7 +214,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.hizianlitleo.desc1"
+        "cobblemon.species.hizianlitleo.desc"
       ],
       "height": 6,
       "weight": 165,

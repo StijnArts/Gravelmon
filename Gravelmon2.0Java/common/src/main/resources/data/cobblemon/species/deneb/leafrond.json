@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "nimbleaf",
-  "baseScale": 0.15,
+  "baseScale": 0.11249999999999999,
   "cannotDynamax": false,
   "abilities": [
     "overgrow",
@@ -100,7 +100,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.leafrond.desc1"
+    "cobblemon.species.leafrond.desc"
   ],
   "height": 9,
   "weight": 247,

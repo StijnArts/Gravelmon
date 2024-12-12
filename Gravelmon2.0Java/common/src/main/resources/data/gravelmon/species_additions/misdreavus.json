@@ -125,7 +125,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochmisdreavus.desc1"
+        "cobblemon.species.epochmisdreavus.desc"
       ],
       "height": 7,
       "weight": 10,
@@ -134,9 +134,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmisdreavus_epoch_mismagius",
+          "id": "epochmisdreavus_mismagius_epoch",
           "variant": "item_interact",
-          "result": "epoch mismagius",
+          "result": "mismagius epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -228,7 +228,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.hizianmisdreavus.desc1"
+        "cobblemon.species.hizianmisdreavus.desc"
       ],
       "height": 7,
       "weight": 165,
@@ -403,7 +403,7 @@
         "insurgence"
       ],
       "pokedex": [
-        "cobblemon.species.deltamisdreavus.desc1"
+        "cobblemon.species.deltamisdreavus.desc"
       ],
       "height": 7,
       "weight": 10,

@@ -55,7 +55,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.wispear.desc1"
+    "cobblemon.species.wispear.desc"
   ],
   "height": 4,
   "weight": 165,
@@ -74,7 +74,7 @@
         },
         {
           "variant": "properties",
-          "target": "gender\u003dfemale",
+          "target": "gender=female",
           "contains": true
         }
       ],

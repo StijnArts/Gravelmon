@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "hoppip form=epoch",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -97,10 +98,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochskiploom.desc1"
+        "cobblemon.species.epochskiploom.desc"
       ],
       "height": 6,
       "weight": 10,
@@ -109,9 +112,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochskiploom_epoch_jumpluff",
+          "id": "epochskiploom_jumpluff_epoch",
           "variant": "level_up",
-          "result": "epoch jumpluff",
+          "result": "jumpluff epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -263,7 +266,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochskiploomone.desc1"
+        "cobblemon.species.epochskiploomone.desc"
       ],
       "height": 6,
       "weight": 10,
@@ -415,7 +418,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianskiploom.desc1"
+        "cobblemon.species.ayreianskiploom.desc"
       ],
       "height": 6,
       "weight": 10,

@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "hoppip form\u003dforman",
-  "baseScale": 0.11666666666666665,
+  "preEvolution": "hoppip form=forman",
+  "baseScale": 0.021875,
   "cannotDynamax": false,
   "abilities": [
     "cottondown"
@@ -47,7 +47,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.katinop.desc1"
+    "cobblemon.species.katinop.desc"
   ],
   "height": 7,
   "weight": 0,

@@ -34,7 +34,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:ocarina",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:firepunch",
@@ -67,7 +74,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.fawniae.desc1"
+    "cobblemon.species.fawniae.desc"
   ],
   "height": 19,
   "weight": 520,

@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.18333333333333335,
+  "baseScale": 8.8,
   "cannotDynamax": false,
   "abilities": [
     "battlearmor",
@@ -58,7 +58,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.camohut.desc1"
+    "cobblemon.species.camohut.desc"
   ],
   "height": 11,
   "weight": 165,

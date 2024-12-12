@@ -36,7 +36,14 @@
     "mineral"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:quantum_upgrade",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:trickroom",
@@ -123,7 +130,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.porygonx.desc1"
+    "cobblemon.species.porygonx.desc"
   ],
   "height": 9,
   "weight": 340,

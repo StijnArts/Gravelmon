@@ -50,7 +50,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochwurmple.desc1"
+        "cobblemon.species.epochwurmple.desc"
       ],
       "height": 3,
       "weight": 36,
@@ -59,9 +59,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochwurmple_epoch_silcoon",
+          "id": "epochwurmple_silcoon_epoch",
           "variant": "level_up",
-          "result": "epoch silcoon",
+          "result": "silcoon epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -153,7 +153,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochwurmpleone.desc1"
+        "cobblemon.species.epochwurmpleone.desc"
       ],
       "height": 3,
       "weight": 36,
@@ -162,9 +162,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochwurmpleone_epoch_cascoon",
+          "id": "epochwurmpleone_cascoon_epoch",
           "variant": "level_up",
-          "result": "epoch cascoon",
+          "result": "cascoon epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

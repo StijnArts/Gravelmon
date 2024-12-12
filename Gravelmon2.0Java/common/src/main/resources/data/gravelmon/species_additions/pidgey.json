@@ -10,7 +10,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "galewings"
@@ -44,7 +44,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanpidgey.desc1"
+        "cobblemon.species.formanpidgey.desc"
       ],
       "height": 6,
       "weight": 0,
@@ -222,7 +222,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochpidgey.desc1"
+        "cobblemon.species.epochpidgey.desc"
       ],
       "height": 3,
       "weight": 18,
@@ -231,9 +231,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochpidgey_epoch_pidgeotto",
+          "id": "epochpidgey_pidgeotto_epoch",
           "variant": "level_up",
-          "result": "epoch pidgeotto",
+          "result": "pidgeotto epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -427,7 +427,7 @@
         "insurgence"
       ],
       "pokedex": [
-        "cobblemon.species.deltapidgey.desc1"
+        "cobblemon.species.deltapidgey.desc"
       ],
       "height": 3,
       "weight": 18,
@@ -546,7 +546,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mythianpidgey.desc1"
+        "cobblemon.species.mythianpidgey.desc"
       ],
       "height": 3,
       "weight": 18,
@@ -699,7 +699,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianpidgey.desc1"
+        "cobblemon.species.ayreianpidgey.desc"
       ],
       "height": 3,
       "weight": 18,

@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "doduo form\u003dforman",
-  "baseScale": 0.5333333333333333,
+  "preEvolution": "doduo form=forman",
+  "baseScale": 0.1,
   "cannotDynamax": false,
   "abilities": [
     "icebody"
@@ -47,7 +47,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.dradrio.desc1"
+    "cobblemon.species.dradrio.desc"
   ],
   "height": 32,
   "weight": 0,

@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -47,7 +47,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.aromiangarchomp.desc1"
+        "cobblemon.species.aromiangarchomp.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -95,8 +95,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "gabite form\u003dpalmian",
-      "baseScale": 0.31666666666666665,
+      "preEvolution": "gabite form=palmian",
+      "baseScale": 0.059375,
       "cannotDynamax": false,
       "abilities": [
         "sandstream",
@@ -133,7 +133,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.palmiangarchomp.desc1"
+        "cobblemon.species.palmiangarchomp.desc"
       ],
       "height": 19,
       "weight": 0,
@@ -181,8 +181,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "gabite form\u003draianian",
-      "baseScale": 0.31666666666666665,
+      "preEvolution": "gabite form=raianian",
+      "baseScale": 0.059375,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -218,7 +218,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.raianiangarchomp.desc1"
+        "cobblemon.species.raianiangarchomp.desc"
       ],
       "height": 19,
       "weight": 0,
@@ -266,8 +266,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "gabite form\u003dtrizoran",
-      "baseScale": 0.35000000000000003,
+      "preEvolution": "gabite form=trizoran",
+      "baseScale": 0.065625,
       "cannotDynamax": false,
       "abilities": [
         "motordrive"
@@ -305,7 +305,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.trizorangarchomp.desc1"
+        "cobblemon.species.trizorangarchomp.desc"
       ],
       "height": 21,
       "weight": 0,
@@ -353,8 +353,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "gabite form\u003dnorse",
-      "baseScale": 0.3833333333333333,
+      "preEvolution": "gabite form=norse",
+      "baseScale": 0.071875,
       "cannotDynamax": false,
       "abilities": [
         "slushrush"
@@ -392,7 +392,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.norsegarchomp.desc1"
+        "cobblemon.species.norsegarchomp.desc"
       ],
       "height": 23,
       "weight": 0,
@@ -440,6 +440,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "gabite form=epoch",
       "baseScale": 0.31666666666666665,
       "cannotDynamax": false,
       "abilities": [
@@ -546,10 +547,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochgarchomp.desc1"
+        "cobblemon.species.epochgarchomp.desc"
       ],
       "height": 19,
       "weight": 950,
@@ -703,7 +706,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochgarchompone.desc1"
+        "cobblemon.species.epochgarchompone.desc"
       ],
       "height": 19,
       "weight": 950,
@@ -864,7 +867,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.armirangarchomp.desc1"
+        "cobblemon.species.armirangarchomp.desc"
       ],
       "height": 19,
       "weight": 950,

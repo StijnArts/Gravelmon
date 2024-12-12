@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "seel form\u003dnorheiman",
+  "preEvolution": "seel form=norheiman",
   "baseScale": 0.26666666666666666,
   "cannotDynamax": false,
   "abilities": [
@@ -61,7 +61,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.sealady.desc1"
+    "cobblemon.species.sealady.desc"
   ],
   "height": 16,
   "weight": 165,

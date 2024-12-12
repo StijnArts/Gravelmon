@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 76,
   "baseFriendship": 70,
-  "baseScale": 0.13333333333333333,
+  "baseScale": 0.025,
   "cannotDynamax": false,
   "abilities": [
     "braveheart",
@@ -33,7 +33,14 @@
     "human_like"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:cocoa_beans",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:tackle",
@@ -94,7 +101,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.chayan.desc1"
+    "cobblemon.species.chayan.desc"
   ],
   "height": 8,
   "weight": 187,
@@ -113,7 +120,7 @@
         },
         {
           "variant": "properties",
-          "target": "gender\u003dmale",
+          "target": "gender=male",
           "contains": true
         }
       ],
@@ -132,7 +139,7 @@
         },
         {
           "variant": "properties",
-          "target": "gender\u003dfemale",
+          "target": "gender=female",
           "contains": true
         }
       ],

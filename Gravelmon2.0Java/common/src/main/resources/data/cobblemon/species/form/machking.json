@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "machogre",
-  "baseScale": 0.43333333333333335,
+  "baseScale": 0.08125,
   "cannotDynamax": false,
   "abilities": [
     "guts"
@@ -47,7 +47,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.machking.desc1"
+    "cobblemon.species.machking.desc"
   ],
   "height": 26,
   "weight": 0,

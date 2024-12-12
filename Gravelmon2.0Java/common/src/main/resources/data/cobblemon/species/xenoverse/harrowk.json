@@ -9,7 +9,7 @@
   "eggCycles": 32,
   "baseFriendship": 70,
   "preEvolution": "shawkbird",
-  "baseScale": 0.2333333333333333,
+  "baseScale": 0.175,
   "cannotDynamax": false,
   "abilities": [
     "sniper",
@@ -102,7 +102,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.harrowk.desc1"
+    "cobblemon.species.harrowk.desc"
   ],
   "height": 14,
   "weight": 265,

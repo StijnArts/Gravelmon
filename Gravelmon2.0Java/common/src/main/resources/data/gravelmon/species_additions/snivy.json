@@ -126,7 +126,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochsnivy.desc1"
+        "cobblemon.species.epochsnivy.desc"
       ],
       "height": 6,
       "weight": 81,
@@ -135,9 +135,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochsnivy_epoch_servine",
+          "id": "epochsnivy_servine_epoch",
           "variant": "level_up",
-          "result": "epoch servine",
+          "result": "servine epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -188,7 +188,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "multiscale",
@@ -291,7 +291,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltasnivy.desc1"
+        "cobblemon.species.deltasnivy.desc"
       ],
       "height": 6,
       "weight": 81,
@@ -447,7 +447,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiansnivy.desc1"
+        "cobblemon.species.ayreiansnivy.desc"
       ],
       "height": 6,
       "weight": 911,

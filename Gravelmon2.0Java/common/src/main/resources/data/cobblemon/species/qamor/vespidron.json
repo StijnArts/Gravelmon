@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "combee form\u003dqamoran",
+  "preEvolution": "combee form=qamoran",
   "baseScale": 0.26666666666666666,
   "cannotDynamax": false,
   "abilities": [
@@ -58,7 +58,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.vespidron.desc1"
+    "cobblemon.species.vespidron.desc"
   ],
   "height": 16,
   "weight": 165,

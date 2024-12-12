@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.aromiansentret.desc1"
+        "cobblemon.species.aromiansentret.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -92,7 +92,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.19999999999999998,
+      "baseScale": 0.0375,
       "cannotDynamax": false,
       "abilities": [
         "furcoat"
@@ -126,7 +126,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.norsesentret.desc1"
+        "cobblemon.species.norsesentret.desc"
       ],
       "height": 12,
       "weight": 0,
@@ -189,7 +189,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.13333333333333333,
+      "baseScale": 0.025,
       "cannotDynamax": false,
       "abilities": [
         "flashfire"
@@ -223,7 +223,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formansentret.desc1"
+        "cobblemon.species.formansentret.desc"
       ],
       "height": 8,
       "weight": 0,
@@ -389,7 +389,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochsentret.desc1"
+        "cobblemon.species.epochsentret.desc"
       ],
       "height": 8,
       "weight": 60,
@@ -398,9 +398,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochsentret_epoch_furret",
+          "id": "epochsentret_furret_epoch",
           "variant": "level_up",
-          "result": "epoch furret",
+          "result": "furret epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -557,7 +557,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.aristosiansentret.desc1"
+        "cobblemon.species.aristosiansentret.desc"
       ],
       "height": 5,
       "weight": 165,

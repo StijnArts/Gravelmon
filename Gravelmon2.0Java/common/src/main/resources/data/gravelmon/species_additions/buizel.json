@@ -128,7 +128,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochbuizel.desc1"
+        "cobblemon.species.epochbuizel.desc"
       ],
       "height": 7,
       "weight": 295,
@@ -137,9 +137,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochbuizel_epoch_floatzel",
+          "id": "epochbuizel_floatzel_epoch",
           "variant": "level_up",
-          "result": "epoch floatzel",
+          "result": "floatzel epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

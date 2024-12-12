@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "wooper form\u003dforman",
-  "baseScale": 0.21666666666666667,
+  "preEvolution": "wooper form=forman",
+  "baseScale": 0.040625,
   "cannotDynamax": false,
   "abilities": [
     "static"
@@ -45,7 +45,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.bulblotel.desc1"
+    "cobblemon.species.bulblotel.desc"
   ],
   "height": 13,
   "weight": 0,

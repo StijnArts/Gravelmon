@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.19999999999999998,
+      "baseScale": 0.0375,
       "cannotDynamax": false,
       "abilities": [
         "sandveil"
@@ -44,7 +44,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formangrimer.desc1"
+        "cobblemon.species.formangrimer.desc"
       ],
       "height": 12,
       "weight": 0,
@@ -225,7 +225,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochgrimer.desc1"
+        "cobblemon.species.epochgrimer.desc"
       ],
       "height": 9,
       "weight": 300,
@@ -234,9 +234,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochgrimer_epoch_muk",
+          "id": "epochgrimer_muk_epoch",
           "variant": "level_up",
-          "result": "epoch muk",
+          "result": "muk epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -410,7 +410,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochgrimerone.desc1"
+        "cobblemon.species.epochgrimerone.desc"
       ],
       "height": 9,
       "weight": 300,
@@ -586,7 +586,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.novrangrimer.desc1"
+        "cobblemon.species.novrangrimer.desc"
       ],
       "height": 9,
       "weight": 165,
@@ -649,7 +649,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.16666666666666666,
+      "baseScale": 0.125,
       "cannotDynamax": false,
       "abilities": [
         "stench",
@@ -676,7 +676,14 @@
         "amorphous"
       ],
       "drops": {
-        "amount": 4
+        "amount": 4,
+        "entries": [
+          {
+            "item": "minecraft:basalt",
+            "quantityRange": "1-2",
+            "percentage": 50
+          }
+        ]
       },
       "moves": [
         "1:poisongas",
@@ -762,7 +769,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.eghogrimer.desc1"
+        "cobblemon.species.eghogrimer.desc"
       ],
       "height": 10,
       "weight": 2050,
@@ -949,7 +956,7 @@
         "insurgence"
       ],
       "pokedex": [
-        "cobblemon.species.deltagrimer.desc1"
+        "cobblemon.species.deltagrimer.desc"
       ],
       "height": 9,
       "weight": 300,
@@ -1126,7 +1133,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiangrimer.desc1"
+        "cobblemon.species.ayreiangrimer.desc"
       ],
       "height": 9,
       "weight": 300,

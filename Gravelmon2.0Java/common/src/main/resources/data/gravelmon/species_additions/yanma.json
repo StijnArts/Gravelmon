@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mahalianyanma.desc1"
+        "cobblemon.species.mahalianyanma.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -198,7 +198,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochyanma.desc1"
+        "cobblemon.species.epochyanma.desc"
       ],
       "height": 12,
       "weight": 380,
@@ -207,9 +207,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochyanma_epoch_yanmega",
+          "id": "epochyanma_yanmega_epoch",
           "variant": "item_interact",
-          "result": "epoch yanmega",
+          "result": "yanmega epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -354,7 +354,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochyanmaone.desc1"
+        "cobblemon.species.epochyanmaone.desc"
       ],
       "height": 12,
       "weight": 380,
@@ -414,7 +414,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.19999999999999998,
+      "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
         "adaptability",
@@ -528,7 +528,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltayanma.desc1"
+        "cobblemon.species.deltayanma.desc"
       ],
       "height": 12,
       "weight": 380,
@@ -672,7 +672,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.kaskadianyanma.desc1"
+        "cobblemon.species.kaskadianyanma.desc"
       ],
       "height": 12,
       "weight": 380,

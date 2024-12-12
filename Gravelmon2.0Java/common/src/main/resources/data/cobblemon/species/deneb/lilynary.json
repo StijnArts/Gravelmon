@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.07500000000000001,
   "cannotDynamax": false,
   "abilities": [
     "flashfire",
@@ -105,7 +105,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.lilynary.desc1"
+    "cobblemon.species.lilynary.desc"
   ],
   "height": 6,
   "weight": 185,

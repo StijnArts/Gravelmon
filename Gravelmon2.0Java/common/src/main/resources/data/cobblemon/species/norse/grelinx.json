@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "leafinx",
-  "baseScale": 0.21666666666666667,
+  "baseScale": 0.040625,
   "cannotDynamax": false,
   "abilities": [
     "slushrush"
@@ -45,7 +45,7 @@
     "norse"
   ],
   "pokedex": [
-    "cobblemon.species.grelinx.desc1"
+    "cobblemon.species.grelinx.desc"
   ],
   "height": 13,
   "weight": 0,

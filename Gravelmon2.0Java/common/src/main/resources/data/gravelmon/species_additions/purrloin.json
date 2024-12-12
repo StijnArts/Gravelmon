@@ -114,7 +114,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochpurrloin.desc1"
+        "cobblemon.species.epochpurrloin.desc"
       ],
       "height": 4,
       "weight": 101,
@@ -123,9 +123,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochpurrloin_epoch_liepard",
+          "id": "epochpurrloin_liepard_epoch",
           "variant": "level_up",
-          "result": "epoch liepard",
+          "result": "liepard epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -177,7 +177,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "illusion",
@@ -319,7 +319,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltapurrloin.desc1"
+        "cobblemon.species.deltapurrloin.desc"
       ],
       "height": 4,
       "weight": 101,

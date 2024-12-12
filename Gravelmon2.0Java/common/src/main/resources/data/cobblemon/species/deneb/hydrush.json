@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "liquiput",
-  "baseScale": 0.15,
+  "baseScale": 0.11249999999999999,
   "cannotDynamax": false,
   "abilities": [
     "torrent",
@@ -106,7 +106,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.hydrush.desc1"
+    "cobblemon.species.hydrush.desc"
   ],
   "height": 9,
   "weight": 147,

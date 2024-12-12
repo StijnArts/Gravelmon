@@ -35,7 +35,14 @@
     "dragon"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:raw_cod",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:splash",
@@ -85,7 +92,7 @@
     "sage"
   ],
   "pokedex": [
-    "cobblemon.species.fortifry.desc1"
+    "cobblemon.species.fortifry.desc"
   ],
   "height": 5,
   "weight": 109,

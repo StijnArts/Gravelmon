@@ -11,8 +11,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "diglett form\u003dforman",
-      "baseScale": 0.21666666666666667,
+      "preEvolution": "diglett form=forman",
+      "baseScale": 0.040625,
       "cannotDynamax": false,
       "abilities": [
         "waterabsorb"
@@ -50,7 +50,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formandugtrio.desc1"
+        "cobblemon.species.formandugtrio.desc"
       ],
       "height": 13,
       "weight": 0,
@@ -98,6 +98,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "diglett form=epoch",
       "baseScale": 0.11666666666666665,
       "cannotDynamax": false,
       "abilities": [
@@ -196,10 +197,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochdugtrio.desc1"
+        "cobblemon.species.epochdugtrio.desc"
       ],
       "height": 7,
       "weight": 333,
@@ -247,7 +250,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "diglett form\u003dnostan",
+      "preEvolution": "diglett form=nostan",
       "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
@@ -350,7 +353,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.nostandugtrio.desc1"
+        "cobblemon.species.nostandugtrio.desc"
       ],
       "height": 9,
       "weight": 165,
@@ -409,7 +412,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "diglett form\u003dnorheiman",
+      "preEvolution": "diglett form=norheiman",
       "baseScale": 0.11666666666666665,
       "cannotDynamax": false,
       "abilities": [
@@ -457,7 +460,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.norheimandugtrio.desc1"
+        "cobblemon.species.norheimandugtrio.desc"
       ],
       "height": 7,
       "weight": 165,
@@ -505,7 +508,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "diglett form\u003ddelta",
+      "preEvolution": "diglett form=delta",
       "baseScale": 0.8,
       "cannotDynamax": false,
       "abilities": [
@@ -620,7 +623,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltadugtrio.desc1"
+        "cobblemon.species.deltadugtrio.desc"
       ],
       "height": 7,
       "weight": 333,
@@ -667,7 +670,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "diglett form\u003dayreian",
+      "preEvolution": "diglett form=ayreian",
       "baseScale": 0.11666666666666665,
       "cannotDynamax": false,
       "abilities": [
@@ -772,7 +775,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiandugtrio.desc1"
+        "cobblemon.species.ayreiandugtrio.desc"
       ],
       "height": 7,
       "weight": 333,
@@ -820,7 +823,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "diglett form\u003dcefiran",
+      "preEvolution": "diglett form=cefiran",
       "baseScale": 0.11666666666666665,
       "cannotDynamax": false,
       "abilities": [
@@ -886,7 +889,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.cefirandugtrio.desc1"
+        "cobblemon.species.cefirandugtrio.desc"
       ],
       "height": 7,
       "weight": 333,

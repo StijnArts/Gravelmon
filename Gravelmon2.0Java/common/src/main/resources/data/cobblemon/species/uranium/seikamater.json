@@ -34,7 +34,24 @@
     "undiscovered"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:royal_jelly",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
+        "item": "gravelmon:royal_jelly",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
+        "item": "gravelmon:royal_jelly",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:leechlife",
@@ -112,7 +129,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.seikamater.desc1"
+    "cobblemon.species.seikamater.desc"
   ],
   "height": 43,
   "weight": 6372,

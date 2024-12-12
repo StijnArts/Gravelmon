@@ -32,7 +32,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:mystic_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:copycat",
@@ -121,7 +128,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.saureon.desc1"
+    "cobblemon.species.saureon.desc"
   ],
   "height": 16,
   "weight": 1250,

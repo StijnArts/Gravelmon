@@ -8,7 +8,7 @@
   "eggCycles": 76,
   "baseFriendship": 70,
   "preEvolution": "telsion",
-  "baseScale": 0.25,
+  "baseScale": 0.046875,
   "cannotDynamax": false,
   "abilities": [
     "analytic",
@@ -36,7 +36,14 @@
     "dragon"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:redstone",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:lick",
@@ -125,7 +132,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.chameleohm.desc1"
+    "cobblemon.species.chameleohm.desc"
   ],
   "height": 15,
   "weight": 849,

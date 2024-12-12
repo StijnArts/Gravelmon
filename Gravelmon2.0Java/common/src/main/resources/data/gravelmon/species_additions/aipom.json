@@ -146,7 +146,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochaipom.desc1"
+        "cobblemon.species.epochaipom.desc"
       ],
       "height": 8,
       "weight": 115,
@@ -155,9 +155,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochaipom_epoch_ambipom",
+          "id": "epochaipom_ambipom_epoch",
           "variant": "item_interact",
-          "result": "epoch ambipom",
+          "result": "ambipom epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -231,7 +231,14 @@
         "field"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:empty_skull",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
       },
       "moves": [
         "1:leer",
@@ -272,7 +279,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.avalossianaipom.desc1"
+        "cobblemon.species.avalossianaipom.desc"
       ],
       "height": 6,
       "weight": 0,
@@ -505,7 +512,7 @@
         "insurgence"
       ],
       "pokedex": [
-        "cobblemon.species.deltaaipom.desc1"
+        "cobblemon.species.deltaaipom.desc"
       ],
       "height": 8,
       "weight": 115,
@@ -668,7 +675,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.relicaipom.desc1"
+        "cobblemon.species.relicaipom.desc"
       ],
       "height": 9,
       "weight": 130,

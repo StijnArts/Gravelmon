@@ -10,7 +10,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.028124999999999997,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -43,7 +43,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formancharmander.desc1"
+        "cobblemon.species.formancharmander.desc"
       ],
       "height": 9,
       "weight": 0,
@@ -228,7 +228,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochcharmander.desc1"
+        "cobblemon.species.epochcharmander.desc"
       ],
       "height": 6,
       "weight": 85,
@@ -237,9 +237,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochcharmander_epoch_charmeleon",
+          "id": "epochcharmander_charmeleon_epoch",
           "variant": "level_up",
-          "result": "epoch charmeleon",
+          "result": "charmeleon epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -318,7 +318,14 @@
         "monster"
       ],
       "drops": {
-        "amount": 2
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:coal",
+            "quantityRange": "1-2",
+            "percentage": 50
+          }
+        ]
       },
       "moves": [
         "1:scratch",
@@ -404,7 +411,7 @@
         "infinity"
       ],
       "pokedex": [
-        "cobblemon.species.eghocharmander.desc1"
+        "cobblemon.species.eghocharmander.desc"
       ],
       "height": 8,
       "weight": 85,
@@ -594,7 +601,7 @@
         "insurgence"
       ],
       "pokedex": [
-        "cobblemon.species.deltacharmander.desc1"
+        "cobblemon.species.deltacharmander.desc"
       ],
       "height": 6,
       "weight": 85,
@@ -781,7 +788,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiancharmander.desc1"
+        "cobblemon.species.ayreiancharmander.desc"
       ],
       "height": 6,
       "weight": 85,

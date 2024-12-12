@@ -36,7 +36,19 @@
     "monster"
   ],
   "drops": {
-    "amount": 5
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:prismarine",
+        "quantityRange": "4-8",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "4-8",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:bodyslam",
@@ -153,7 +165,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.aguanaut.desc1"
+    "cobblemon.species.aguanaut.desc"
   ],
   "height": 18,
   "weight": 1319,

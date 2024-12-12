@@ -116,7 +116,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochspheal.desc1"
+        "cobblemon.species.epochspheal.desc"
       ],
       "height": 8,
       "weight": 395,
@@ -125,9 +125,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochspheal_epoch_sealeo",
+          "id": "epochspheal_sealeo_epoch",
           "variant": "level_up",
-          "result": "epoch sealeo",
+          "result": "sealeo epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

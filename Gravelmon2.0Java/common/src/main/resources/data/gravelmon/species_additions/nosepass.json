@@ -126,7 +126,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochnosepass.desc1"
+        "cobblemon.species.epochnosepass.desc"
       ],
       "height": 10,
       "weight": 970,
@@ -135,9 +135,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochnosepass_epoch_probopass",
+          "id": "epochnosepass_probopass_epoch",
           "variant": "level_up",
-          "result": "epoch probopass",
+          "result": "probopass epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -289,7 +289,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochnosepassone.desc1"
+        "cobblemon.species.epochnosepassone.desc"
       ],
       "height": 10,
       "weight": 370,
@@ -436,7 +436,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.hiziannosepass.desc1"
+        "cobblemon.species.hiziannosepass.desc"
       ],
       "height": 10,
       "weight": 165,
@@ -606,7 +606,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiannosepass.desc1"
+        "cobblemon.species.ayreiannosepass.desc"
       ],
       "height": 10,
       "weight": 970,

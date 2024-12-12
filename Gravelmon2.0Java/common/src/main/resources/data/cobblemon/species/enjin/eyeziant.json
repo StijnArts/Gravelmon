@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "sableye form\u003denjinnian",
+  "preEvolution": "sableye form=enjinnian",
   "baseScale": 0.2333333333333333,
   "cannotDynamax": false,
   "abilities": [
@@ -121,7 +121,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.eyeziant.desc1"
+    "cobblemon.species.eyeziant.desc"
   ],
   "height": 14,
   "weight": 410,

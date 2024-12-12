@@ -1,6 +1,6 @@
 {
   "species": "cobblemon:noctowl",
-  "order": 11,
+  "order": 132,
   "variations": [
     {
       "aspects": [
@@ -11,10 +11,25 @@
       "texture": "cobblemon:textures/pokemon/generation2/eghonoctowl/eghonoctowl.png",
       "layers": [
         {
-          "name": "glow",
-          "texture": "cobblemon:textures/pokemon/generation2/eghonoctowl/eghonoctowl_emissive.png",
-          "emissive": true,
-          "translucent": true
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
         }
       ]
     },
@@ -28,10 +43,25 @@
       "texture": "cobblemon:textures/pokemon/generation2/eghonoctowl/eghonoctowl_shiny.png",
       "layers": [
         {
-          "name": "glow",
-          "texture": "cobblemon:textures/pokemon/generation2/eghonoctowl/eghonoctowl_shiny_emissive.png",
-          "emissive": true,
-          "translucent": true
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
         }
       ]
     }

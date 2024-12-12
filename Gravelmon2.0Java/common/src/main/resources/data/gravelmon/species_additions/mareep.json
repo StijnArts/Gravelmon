@@ -10,7 +10,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "effectspore"
@@ -43,7 +43,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanmareep.desc1"
+        "cobblemon.species.formanmareep.desc"
       ],
       "height": 6,
       "weight": 0,
@@ -214,7 +214,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochmareep.desc1"
+        "cobblemon.species.epochmareep.desc"
       ],
       "height": 6,
       "weight": 78,
@@ -223,9 +223,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmareep_epoch_flaaffy",
+          "id": "epochmareep_flaaffy_epoch",
           "variant": "level_up",
-          "result": "epoch flaaffy",
+          "result": "flaaffy epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -366,7 +366,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.aristosianmareep.desc1"
+        "cobblemon.species.aristosianmareep.desc"
       ],
       "height": 5,
       "weight": 165,
@@ -490,7 +490,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mythianmareep.desc1"
+        "cobblemon.species.mythianmareep.desc"
       ],
       "height": 3,
       "weight": 18,

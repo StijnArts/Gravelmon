@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 52,
   "baseFriendship": 70,
-  "baseScale": 0.25,
+  "baseScale": 0.1875,
   "cannotDynamax": false,
   "abilities": [
     "infiltrator",
@@ -126,7 +126,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.faeralynx.desc1"
+    "cobblemon.species.faeralynx.desc"
   ],
   "height": 15,
   "weight": 510,

@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mahalianmantyke.desc1"
+        "cobblemon.species.mahalianmantyke.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -223,7 +223,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochmantyke.desc1"
+        "cobblemon.species.epochmantyke.desc"
       ],
       "height": 10,
       "weight": 650,
@@ -232,9 +232,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmantyke_epoch_mantine",
+          "id": "epochmantyke_mantine_epoch",
           "variant": "level_up",
-          "result": "epoch mantine",
+          "result": "mantine epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -370,7 +370,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.seviianmantyke.desc1"
+        "cobblemon.species.seviianmantyke.desc"
       ],
       "height": 10,
       "weight": 650,
@@ -528,7 +528,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianmantyke.desc1"
+        "cobblemon.species.ayreianmantyke.desc"
       ],
       "height": 10,
       "weight": 650,

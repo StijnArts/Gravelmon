@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "draukid",
-  "baseScale": 0.26666666666666666,
+  "baseScale": 0.05,
   "cannotDynamax": false,
   "abilities": [
     "cursedbody"
@@ -44,7 +44,7 @@
     "norse"
   ],
   "pokedex": [
-    "cobblemon.species.draudager.desc1"
+    "cobblemon.species.draudager.desc"
   ],
   "height": 16,
   "weight": 0,

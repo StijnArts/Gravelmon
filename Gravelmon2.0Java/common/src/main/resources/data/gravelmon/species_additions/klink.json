@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.aromianklink.desc1"
+        "cobblemon.species.aromianklink.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -191,7 +191,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochklink.desc1"
+        "cobblemon.species.epochklink.desc"
       ],
       "height": 3,
       "weight": 210,
@@ -200,9 +200,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochklink_epoch_klang",
+          "id": "epochklink_klang_epoch",
           "variant": "level_up",
-          "result": "epoch klang",
+          "result": "klang epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -336,7 +336,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.varitasianklink.desc1"
+        "cobblemon.species.varitasianklink.desc"
       ],
       "height": 3,
       "weight": 165,

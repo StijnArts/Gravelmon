@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "lilabaa",
-  "baseScale": 0.15,
+  "baseScale": 7.199999999999999,
   "cannotDynamax": false,
   "abilities": [
     "cutecharm",
@@ -63,7 +63,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.lulabaa.desc1"
+    "cobblemon.species.lulabaa.desc"
   ],
   "height": 9,
   "weight": 165,

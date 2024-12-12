@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "zorua form\u003dalteran",
+  "preEvolution": "zorua form=alteran",
   "baseScale": 0.3,
   "cannotDynamax": false,
   "abilities": [
@@ -61,7 +61,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.zorotsune.desc1"
+    "cobblemon.species.zorotsune.desc"
   ],
   "height": 18,
   "weight": 82,

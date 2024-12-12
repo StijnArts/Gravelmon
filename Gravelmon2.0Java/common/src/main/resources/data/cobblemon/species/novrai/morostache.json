@@ -33,7 +33,19 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:prim_shears",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:hair_tonic",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "moves": [
     "1:covet",
@@ -118,7 +130,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.morostache.desc1"
+    "cobblemon.species.morostache.desc"
   ],
   "height": 1,
   "weight": 165,

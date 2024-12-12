@@ -37,7 +37,39 @@
         "undiscovered"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          },
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 10
+          },
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 10
+          },
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 10
+          },
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          },
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
       },
       "moves": [
         "1:teeterdance",
@@ -105,7 +137,7 @@
         "xenoverse"
       ],
       "pokedex": [
-        "cobblemon.species.shyleonterrestrial.desc1"
+        "cobblemon.species.shyleonterrestrial.desc"
       ],
       "height": 8,
       "weight": 225,
@@ -116,7 +148,7 @@
         {
           "id": "shyleonterrestrial_shyleon_terrestrialfalse",
           "variant": "level_up",
-          "result": "shyleon terrestrial\u003dfalse",
+          "result": "shyleon terrestrial=false",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -213,7 +245,7 @@
       "experienceGroup": "slow",
       "eggCycles": 41,
       "baseFriendship": 70,
-      "baseScale": 0.45,
+      "baseScale": 0.3375,
       "cannotDynamax": false,
       "abilities": [
         "majesticaura",
@@ -239,7 +271,39 @@
         "undiscovered"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          },
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          },
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 10
+          },
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 10
+          },
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 10
+          },
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
       },
       "moves": [
         "1:feralclutch",
@@ -310,7 +374,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.shyleonxenoversal.desc1"
+        "cobblemon.species.shyleonxenoversal.desc"
       ],
       "height": 27,
       "weight": 770,
@@ -321,7 +385,7 @@
         {
           "id": "shyleonxenoversal_shyleon_xenoversalfalse",
           "variant": "level_up",
-          "result": "shyleon xenoversal\u003dfalse",
+          "result": "shyleon xenoversal=false",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -418,7 +482,7 @@
       "experienceGroup": "slow",
       "eggCycles": 41,
       "baseFriendship": 70,
-      "baseScale": 0.48333333333333334,
+      "baseScale": 0.3625,
       "cannotDynamax": false,
       "abilities": [
         "junglespirit"
@@ -443,7 +507,49 @@
         "undiscovered"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          },
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          },
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          },
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          },
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          },
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          },
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 10
+          },
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
       },
       "moves": [
         "1:absorb",
@@ -507,7 +613,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.shyleonastral.desc1"
+        "cobblemon.species.shyleonastral.desc"
       ],
       "height": 29,
       "weight": 800,
@@ -518,7 +624,7 @@
         {
           "id": "shyleonastral_shyleon_astralfalse",
           "variant": "level_up",
-          "result": "shyleon astral\u003dfalse",
+          "result": "shyleon astral=false",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -593,7 +699,7 @@
       "experienceGroup": "slow",
       "eggCycles": 41,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "rattled"
@@ -639,7 +745,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.shyleonx.desc1"
+        "cobblemon.species.shyleonx.desc"
       ],
       "height": 6,
       "weight": 50,

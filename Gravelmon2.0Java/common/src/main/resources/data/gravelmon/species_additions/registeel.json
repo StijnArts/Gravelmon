@@ -10,7 +10,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.31666666666666665,
+      "baseScale": 0.2375,
       "cannotDynamax": false,
       "abilities": [
         "flamebody",
@@ -137,7 +137,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltaregisteel.desc1"
+        "cobblemon.species.deltaregisteel.desc"
       ],
       "height": 19,
       "weight": 2050,

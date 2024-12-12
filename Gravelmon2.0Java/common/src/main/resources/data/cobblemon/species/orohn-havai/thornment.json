@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "tadapt",
-  "baseScale": 0.19999999999999998,
+  "baseScale": 9.6,
   "cannotDynamax": false,
   "abilities": [
     "adaptability",
@@ -61,7 +61,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.thornment.desc1"
+    "cobblemon.species.thornment.desc"
   ],
   "height": 12,
   "weight": 165,

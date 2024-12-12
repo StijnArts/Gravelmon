@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "amaura form=epoch",
       "baseScale": 0.45,
       "cannotDynamax": false,
       "abilities": [
@@ -107,10 +108,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochaurorus.desc1"
+        "cobblemon.species.epochaurorus.desc"
       ],
       "height": 27,
       "weight": 2550,
@@ -158,8 +161,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "amaura form\u003ddelta",
-      "baseScale": 0.45,
+      "preEvolution": "amaura form=delta",
+      "baseScale": 0.3375,
       "cannotDynamax": false,
       "abilities": [
         "friendguard",
@@ -284,7 +287,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltaaurorus.desc1"
+        "cobblemon.species.deltaaurorus.desc"
       ],
       "height": 27,
       "weight": 2250,

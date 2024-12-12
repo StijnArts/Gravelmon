@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "falinks form\u003dnorheiman",
+  "preEvolution": "falinks form=norheiman",
   "baseScale": 0.2833333333333333,
   "cannotDynamax": false,
   "abilities": [
@@ -131,7 +131,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.vaiking.desc1"
+    "cobblemon.species.vaiking.desc"
   ],
   "height": 17,
   "weight": 165,

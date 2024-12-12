@@ -13,7 +13,14 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:end_crystal",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "forms": [
     {
@@ -26,6 +33,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "flabebe form=epoch",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -122,10 +130,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochfloette.desc1"
+        "cobblemon.species.epochfloette.desc"
       ],
       "height": 2,
       "weight": 9,
@@ -134,9 +144,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochfloette_epoch_florges",
+          "id": "epochfloette_florges_epoch",
           "variant": "item_interact",
-          "result": "epoch florges",
+          "result": "florges epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -232,7 +242,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.vesitanfloette.desc1"
+        "cobblemon.species.vesitanfloette.desc"
       ],
       "height": 2,
       "weight": 9,
@@ -291,7 +301,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "flabebe form\u003dvaritasian",
+      "preEvolution": "flabebe form=varitasian",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -381,7 +391,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.varitasianfloette.desc1"
+        "cobblemon.species.varitasianfloette.desc"
       ],
       "height": 2,
       "weight": 165,

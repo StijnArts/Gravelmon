@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sharfin",
-  "baseScale": 0.19999999999999998,
+  "baseScale": 9.6,
   "cannotDynamax": false,
   "abilities": [
     "intimidate",
@@ -65,7 +65,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.thrashark.desc1"
+    "cobblemon.species.thrashark.desc"
   ],
   "height": 12,
   "weight": 165,

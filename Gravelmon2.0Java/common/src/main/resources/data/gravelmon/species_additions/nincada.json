@@ -91,7 +91,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochnincada.desc1"
+        "cobblemon.species.epochnincada.desc"
       ],
       "height": 5,
       "weight": 55,
@@ -100,9 +100,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochnincada_epoch_ninjask",
+          "id": "epochnincada_ninjask_epoch",
           "variant": "level_up",
-          "result": "epoch ninjask",
+          "result": "ninjask epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -118,9 +118,9 @@
           "permanent": true
         },
         {
-          "id": "epochnincada_epoch_shedinja",
+          "id": "epochnincada_shedinja_epoch",
           "variant": "level_up",
-          "result": "epoch shedinja",
+          "result": "shedinja epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -250,7 +250,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.avalossiannincada.desc1"
+        "cobblemon.species.avalossiannincada.desc"
       ],
       "height": 5,
       "weight": 55,

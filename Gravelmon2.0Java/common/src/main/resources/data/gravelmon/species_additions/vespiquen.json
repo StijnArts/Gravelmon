@@ -11,8 +11,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "combee form\u003ddelta",
-      "baseScale": 0.19999999999999998,
+      "preEvolution": "combee form=delta",
+      "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
         "levitate",
@@ -152,7 +152,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltavespiquen.desc1"
+        "cobblemon.species.deltavespiquen.desc"
       ],
       "height": 12,
       "weight": 1698,

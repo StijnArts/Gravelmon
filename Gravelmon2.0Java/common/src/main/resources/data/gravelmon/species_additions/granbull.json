@@ -11,8 +11,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "snubbull form\u003dforman",
-      "baseScale": 0.1,
+      "preEvolution": "snubbull form=forman",
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "thickfat"
@@ -48,7 +48,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formangranbull.desc1"
+        "cobblemon.species.formangranbull.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -132,7 +132,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ionosiangranbull.desc1"
+        "cobblemon.species.ionosiangranbull.desc"
       ],
       "height": 15,
       "weight": 0,

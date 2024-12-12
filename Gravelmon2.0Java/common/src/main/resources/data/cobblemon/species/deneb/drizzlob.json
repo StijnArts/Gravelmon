@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "lizzle",
-  "baseScale": 0.18333333333333335,
+  "baseScale": 0.1375,
   "cannotDynamax": false,
   "abilities": [
     "drizzle"
@@ -111,7 +111,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.drizzlob.desc1"
+    "cobblemon.species.drizzlob.desc"
   ],
   "height": 11,
   "weight": 433,

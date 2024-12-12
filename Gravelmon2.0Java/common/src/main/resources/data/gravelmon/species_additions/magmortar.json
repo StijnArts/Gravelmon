@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "magmar form=epoch",
       "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -101,10 +102,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochmagmortar.desc1"
+        "cobblemon.species.epochmagmortar.desc"
       ],
       "height": 16,
       "weight": 680,
@@ -152,8 +155,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "magmar form\u003ddelta",
-      "baseScale": 0.26666666666666666,
+      "preEvolution": "magmar form=delta",
+      "baseScale": 0.2,
       "cannotDynamax": false,
       "abilities": [
         "megalauncher",
@@ -288,7 +291,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltamagmortar.desc1"
+        "cobblemon.species.deltamagmortar.desc"
       ],
       "height": 16,
       "weight": 1020,

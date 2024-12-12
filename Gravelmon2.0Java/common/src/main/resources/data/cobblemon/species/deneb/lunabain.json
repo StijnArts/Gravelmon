@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "lunabitt",
-  "baseScale": 0.2333333333333333,
+  "baseScale": 0.175,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -116,7 +116,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.lunabain.desc1"
+    "cobblemon.species.lunabain.desc"
   ],
   "height": 14,
   "weight": 494,

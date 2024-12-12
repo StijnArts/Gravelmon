@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "banette",
-  "baseScale": 0.21666666666666667,
+  "baseScale": 0.1625,
   "cannotDynamax": false,
   "abilities": [
     "insomnia",
@@ -108,7 +108,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.ranconette.desc1"
+    "cobblemon.species.ranconette.desc"
   ],
   "height": 13,
   "weight": 156,

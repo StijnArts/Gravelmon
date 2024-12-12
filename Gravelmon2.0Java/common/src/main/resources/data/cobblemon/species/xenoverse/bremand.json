@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 32,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.07500000000000001,
   "cannotDynamax": false,
   "abilities": [
     "moldbreaker"
@@ -83,7 +83,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.bremand.desc1"
+    "cobblemon.species.bremand.desc"
   ],
   "height": 5,
   "weight": 59,
@@ -136,7 +136,7 @@
       "experienceGroup": "slow",
       "eggCycles": 32,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "moldbreaker"
@@ -211,7 +211,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.guitarist.desc1"
+        "cobblemon.species.guitarist.desc"
       ],
       "height": 5,
       "weight": 59,
@@ -229,7 +229,7 @@
       "experienceGroup": "slow",
       "eggCycles": 32,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "moldbreaker"
@@ -304,7 +304,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.drummer.desc1"
+        "cobblemon.species.drummer.desc"
       ],
       "height": 5,
       "weight": 59,
@@ -322,7 +322,7 @@
       "experienceGroup": "slow",
       "eggCycles": 32,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "moldbreaker"
@@ -397,7 +397,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.bassist.desc1"
+        "cobblemon.species.bassist.desc"
       ],
       "height": 5,
       "weight": 59,

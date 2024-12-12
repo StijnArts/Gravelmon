@@ -11,6 +11,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "happiny form=epoch",
       "baseScale": 0.18333333333333335,
       "cannotDynamax": false,
       "abilities": [
@@ -126,10 +127,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochchansey.desc1"
+        "cobblemon.species.epochchansey.desc"
       ],
       "height": 11,
       "weight": 346,
@@ -138,9 +141,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochchansey_epoch_blissey",
+          "id": "epochchansey_blissey_epoch",
           "variant": "level_up",
-          "result": "epoch blissey",
+          "result": "blissey epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -192,7 +195,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "happiny form\u003davalossian",
+      "preEvolution": "happiny form=avalossian",
       "baseScale": 0.18333333333333335,
       "cannotDynamax": false,
       "abilities": [
@@ -362,7 +365,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.avalossianchansey.desc1"
+        "cobblemon.species.avalossianchansey.desc"
       ],
       "height": 11,
       "weight": 346,
@@ -425,8 +428,8 @@
       "experienceGroup": "fast",
       "eggCycles": 100,
       "baseFriendship": 70,
-      "preEvolution": "happiny form\u003degho",
-      "baseScale": 0.18333333333333335,
+      "preEvolution": "happiny form=egho",
+      "baseScale": 0.1375,
       "cannotDynamax": false,
       "abilities": [
         "angerpoint",
@@ -453,7 +456,14 @@
         "fairy"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "cobblemon:oval_stone",
+            "quantityRange": "1-1",
+            "percentage": 20
+          }
+        ]
       },
       "moves": [
         "1:poweruppunch",
@@ -550,7 +560,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.eghochansey.desc1"
+        "cobblemon.species.eghochansey.desc"
       ],
       "height": 11,
       "weight": 346,

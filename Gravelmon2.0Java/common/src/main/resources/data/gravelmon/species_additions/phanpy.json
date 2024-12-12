@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.021875,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.raianianphanpy.desc1"
+        "cobblemon.species.raianianphanpy.desc"
       ],
       "height": 7,
       "weight": 0,
@@ -107,7 +107,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "windrider"
@@ -141,7 +141,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanphanpy.desc1"
+        "cobblemon.species.formanphanpy.desc"
       ],
       "height": 6,
       "weight": 0,
@@ -313,7 +313,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochphanpy.desc1"
+        "cobblemon.species.epochphanpy.desc"
       ],
       "height": 5,
       "weight": 335,
@@ -322,9 +322,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochphanpy_epoch_donphan",
+          "id": "epochphanpy_donphan_epoch",
           "variant": "level_up",
-          "result": "epoch donphan",
+          "result": "donphan epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -432,7 +432,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.africanusanphanpy.desc1"
+        "cobblemon.species.africanusanphanpy.desc"
       ],
       "height": 5,
       "weight": 335,
@@ -589,7 +589,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianphanpy.desc1"
+        "cobblemon.species.ayreianphanpy.desc"
       ],
       "height": 5,
       "weight": 335,

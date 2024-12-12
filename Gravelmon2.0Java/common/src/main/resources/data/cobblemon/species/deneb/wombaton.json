@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.11666666666666665,
+  "baseScale": 0.0875,
   "cannotDynamax": false,
   "abilities": [
     "sandveil",
@@ -116,7 +116,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.wombaton.desc1"
+    "cobblemon.species.wombaton.desc"
   ],
   "height": 7,
   "weight": 415,

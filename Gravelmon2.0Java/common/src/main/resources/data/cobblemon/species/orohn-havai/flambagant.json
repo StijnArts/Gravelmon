@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "timingo",
-  "baseScale": 0.2333333333333333,
+  "baseScale": 11.2,
   "cannotDynamax": false,
   "abilities": [
     "cutecharm",
@@ -59,7 +59,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.flambagant.desc1"
+    "cobblemon.species.flambagant.desc"
   ],
   "height": 14,
   "weight": 165,

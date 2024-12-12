@@ -7,7 +7,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.25,
+  "baseScale": 0.1875,
   "cannotDynamax": false,
   "abilities": [
     "owntempo"
@@ -116,7 +116,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.violo.desc1"
+    "cobblemon.species.violo.desc"
   ],
   "height": 15,
   "weight": 344,

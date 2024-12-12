@@ -4,15 +4,63 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:infinity_kokismash",
       "model": "cobblemon:infinity_kokismash.geo",
+      "poser": "cobblemon:infinity_kokismash",
       "texture": "cobblemon:textures/pokemon/infinity/kokismash/kokismash.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/infinity/kokismash/kokismash_shiny.png"
-    }  ]
+      "model": "cobblemon:infinity_kokismash.geo",
+      "poser": "cobblemon:infinity_kokismash",
+      "texture": "cobblemon:textures/pokemon/infinity/kokismash/kokismash_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
+    }
+  ]
 }

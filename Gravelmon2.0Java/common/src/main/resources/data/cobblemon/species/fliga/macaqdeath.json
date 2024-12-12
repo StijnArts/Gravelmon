@@ -8,7 +8,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "aipom form\u003davalossian",
+  "preEvolution": "aipom form=avalossian",
   "baseScale": 0.19999999999999998,
   "cannotDynamax": false,
   "abilities": [
@@ -35,7 +35,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:empty_skull",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:leer",
@@ -85,7 +92,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.macaqdeath.desc1"
+    "cobblemon.species.macaqdeath.desc"
   ],
   "height": 12,
   "weight": 203,

@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ferranianmachoke.desc1"
+        "cobblemon.species.ferranianmachoke.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -93,6 +93,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "machop form=epoch",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -188,10 +189,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochmachoke.desc1"
+        "cobblemon.species.epochmachoke.desc"
       ],
       "height": 15,
       "weight": 705,
@@ -200,9 +203,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmachoke_epoch_machamp",
+          "id": "epochmachoke_machamp_epoch",
           "variant": "trade",
-          "result": "epoch machamp",
+          "result": "machamp epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -347,7 +350,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochmachokeone.desc1"
+        "cobblemon.species.epochmachokeone.desc"
       ],
       "height": 15,
       "weight": 705,
@@ -454,7 +457,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.africanusanmachoke.desc1"
+        "cobblemon.species.africanusanmachoke.desc"
       ],
       "height": 15,
       "weight": 705,

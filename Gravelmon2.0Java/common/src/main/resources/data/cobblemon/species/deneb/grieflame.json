@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.11666666666666665,
+  "baseScale": 0.0875,
   "cannotDynamax": false,
   "abilities": [
     "flamebody",
@@ -102,7 +102,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.grieflame.desc1"
+    "cobblemon.species.grieflame.desc"
   ],
   "height": 7,
   "weight": 24,

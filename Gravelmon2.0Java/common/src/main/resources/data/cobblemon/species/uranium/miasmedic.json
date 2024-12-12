@@ -35,7 +35,14 @@
     "fairy"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:aromatic_herb",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:aromaticmist",
@@ -111,7 +118,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.miasmedic.desc1"
+    "cobblemon.species.miasmedic.desc"
   ],
   "height": 8,
   "weight": 155,

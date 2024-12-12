@@ -7,7 +7,7 @@
   "experienceGroup": "slow",
   "eggCycles": 62,
   "baseFriendship": 70,
-  "baseScale": 0.18333333333333335,
+  "baseScale": 0.1375,
   "cannotDynamax": false,
   "abilities": [
     "hydration",
@@ -128,7 +128,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.whave.desc1"
+    "cobblemon.species.whave.desc"
   ],
   "height": 11,
   "weight": 1240,

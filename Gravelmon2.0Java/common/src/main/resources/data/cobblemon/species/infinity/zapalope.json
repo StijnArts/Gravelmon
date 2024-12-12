@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 20,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.07500000000000001,
   "cannotDynamax": false,
   "abilities": [
     "fluffy",
@@ -126,7 +126,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.zapalope.desc1"
+    "cobblemon.species.zapalope.desc"
   ],
   "height": 5,
   "weight": 100,

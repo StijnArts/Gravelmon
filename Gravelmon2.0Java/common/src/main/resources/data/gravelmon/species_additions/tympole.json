@@ -104,7 +104,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochtympole.desc1"
+        "cobblemon.species.epochtympole.desc"
       ],
       "height": 5,
       "weight": 45,
@@ -113,9 +113,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochtympole_epoch_palpitoad",
+          "id": "epochtympole_palpitoad_epoch",
           "variant": "level_up",
-          "result": "epoch palpitoad",
+          "result": "palpitoad epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

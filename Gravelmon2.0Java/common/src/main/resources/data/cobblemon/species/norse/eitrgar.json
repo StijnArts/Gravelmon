@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "garruff",
-  "baseScale": 0.25,
+  "baseScale": 0.046875,
   "cannotDynamax": false,
   "abilities": [
     "poisonpoint"
@@ -44,7 +44,7 @@
     "norse"
   ],
   "pokedex": [
-    "cobblemon.species.eitrgar.desc1"
+    "cobblemon.species.eitrgar.desc"
   ],
   "height": 15,
   "weight": 0,

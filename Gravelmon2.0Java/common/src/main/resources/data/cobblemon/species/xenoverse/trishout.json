@@ -34,7 +34,29 @@
     "undiscovered"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:terrestrial_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:xenoversal_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:terrestrial_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:xenoversal_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "moves": [
     "1:ember",
@@ -96,7 +118,7 @@
     "xenoverse"
   ],
   "pokedex": [
-    "cobblemon.species.trishout.desc1"
+    "cobblemon.species.trishout.desc"
   ],
   "height": 5,
   "weight": 65,

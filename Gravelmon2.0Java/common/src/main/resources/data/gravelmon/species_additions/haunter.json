@@ -11,8 +11,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "gastly form\u003dforman",
-      "baseScale": 0.2333333333333333,
+      "preEvolution": "gastly form=forman",
+      "baseScale": 0.04375,
       "cannotDynamax": false,
       "abilities": [
         "steadfast"
@@ -50,7 +50,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formanhaunter.desc1"
+        "cobblemon.species.formanhaunter.desc"
       ],
       "height": 14,
       "weight": 0,
@@ -108,6 +108,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "gastly form=epoch",
       "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -134,7 +135,16 @@
       "eggGroups": [
         "amorphous"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:air_stone",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
+      },
       "moves": [
         "26:defog",
         "61:blizzard",
@@ -191,10 +201,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochhaunter.desc1"
+        "cobblemon.species.epochhaunter.desc"
       ],
       "height": 16,
       "weight": 1,
@@ -203,9 +215,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochhaunter_epoch_gengar",
+          "id": "epochhaunter_gengar_epoch",
           "variant": "item_interact",
-          "result": "epoch gengar",
+          "result": "gengar epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -253,7 +265,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "gastly form\u003dhavaiian",
+      "preEvolution": "gastly form=havaiian",
       "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -342,7 +354,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.havaiianhaunter.desc1"
+        "cobblemon.species.havaiianhaunter.desc"
       ],
       "height": 16,
       "weight": 165,
@@ -408,7 +420,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 26,
       "baseFriendship": 70,
-      "preEvolution": "gastly form\u003dx",
+      "preEvolution": "gastly form=x",
       "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
@@ -436,7 +448,19 @@
         "undiscovered"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:xenolith",
+            "quantityRange": "1-1",
+            "percentage": 10
+          },
+          {
+            "item": "gravelmon:xenolith",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
       },
       "moves": [
         "1:dragonrage",
@@ -485,7 +509,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.haunterx.desc1"
+        "cobblemon.species.haunterx.desc"
       ],
       "height": 16,
       "weight": 340,
@@ -544,7 +568,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 26,
       "baseFriendship": 70,
-      "preEvolution": "gastly form\u003dayreian",
+      "preEvolution": "gastly form=ayreian",
       "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -671,7 +695,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianhaunter.desc1"
+        "cobblemon.species.ayreianhaunter.desc"
       ],
       "height": 16,
       "weight": 1,
@@ -734,7 +758,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 26,
       "baseFriendship": 70,
-      "preEvolution": "gastly form\u003dkaskadian",
+      "preEvolution": "gastly form=kaskadian",
       "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -832,7 +856,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.kaskadianhaunter.desc1"
+        "cobblemon.species.kaskadianhaunter.desc"
       ],
       "height": 16,
       "weight": 1,

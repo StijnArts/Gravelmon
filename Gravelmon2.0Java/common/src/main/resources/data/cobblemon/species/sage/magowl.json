@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 51,
   "baseFriendship": 70,
-  "baseScale": 0.25,
+  "baseScale": 0.046875,
   "cannotDynamax": false,
   "abilities": [
     "conundrum",
@@ -35,7 +35,14 @@
     "flying"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
   },
   "moves": [
     "1:peck",
@@ -120,7 +127,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.magowl.desc1"
+    "cobblemon.species.magowl.desc"
   ],
   "height": 15,
   "weight": 461,

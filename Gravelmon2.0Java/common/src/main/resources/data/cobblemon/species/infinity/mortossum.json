@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 51,
   "baseFriendship": 70,
-  "preEvolution": "gloom form\u003degho",
+  "preEvolution": "gloom form=egho",
   "baseScale": 0.4,
   "cannotDynamax": false,
   "abilities": [
@@ -36,7 +36,14 @@
     "monster"
   ],
   "drops": {
-    "amount": 4
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:seeds",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:teeterdance",
@@ -125,7 +132,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.mortossum.desc1"
+    "cobblemon.species.mortossum.desc"
   ],
   "height": 4,
   "weight": 50,

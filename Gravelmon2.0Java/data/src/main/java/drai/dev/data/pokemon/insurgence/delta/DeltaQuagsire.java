@@ -143,7 +143,7 @@ public class DeltaQuagsire extends Pokemon {
                         new AnimatedLayerData("flame",
                                 List.of("flame/tail1", "flame/tail2", "flame/tail3", "flame/tail4"),
                                 10, true,
-                                true, false, false, false));
+                                Optional.of(true), Optional.of(false), false, false));
         getPosingFileData().setPortraitData( 1.65f, new Vector3(0, 0, 0));
         getPosingFileData().setProfileData( 0.8f, new Vector3(0, 0.5, 0));
         getPosingFileData().setBasicHead();

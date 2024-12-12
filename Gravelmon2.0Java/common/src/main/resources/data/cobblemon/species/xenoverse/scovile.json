@@ -36,7 +36,14 @@
     "dragon"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:inductive_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "moves": [
     "1:growth",
@@ -62,7 +69,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.scovile.desc1"
+    "cobblemon.species.scovile.desc"
   ],
   "height": 14,
   "weight": 414,

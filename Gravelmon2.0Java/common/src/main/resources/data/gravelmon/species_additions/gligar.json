@@ -37,7 +37,16 @@
       "eggGroups": [
         "mineral"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:solid_stone",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
+      },
       "moves": [
         "1:tackle",
         "1:leer",
@@ -129,7 +138,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochgligar.desc1"
+        "cobblemon.species.epochgligar.desc"
       ],
       "height": 11,
       "weight": 648,
@@ -138,9 +147,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochgligar_epoch_gliscor",
+          "id": "epochgligar_gliscor_epoch",
           "variant": "item_interact",
-          "result": "epoch gliscor",
+          "result": "gliscor epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -236,7 +245,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.hiziangligar.desc1"
+        "cobblemon.species.hiziangligar.desc"
       ],
       "height": 11,
       "weight": 165,

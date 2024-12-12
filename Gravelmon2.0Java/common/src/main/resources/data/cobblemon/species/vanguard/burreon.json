@@ -32,7 +32,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:soft_sand",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:copycat",
@@ -114,7 +121,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.burreon.desc1"
+    "cobblemon.species.burreon.desc"
   ],
   "height": 5,
   "weight": 650,

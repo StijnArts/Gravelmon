@@ -1,9 +1,7 @@
 {
-  "maxScale": 0.55,
-  "yTranslation": 0,
-  "yGrowthPoint": 0.5625,
-  "animations": [
-    "bedrock(embryo_sputnink, ground_idle)"
-  ],
+  "maxScale": 0.1,
+  "yTranslation": 0.1,
+  "yGrowthPoint": -0.5,
+  "animations": [],
   "quirks": []
 }

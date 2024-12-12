@@ -116,7 +116,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochfinizen.desc1"
+        "cobblemon.species.epochfinizen.desc"
       ],
       "height": 13,
       "weight": 602,
@@ -125,9 +125,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochfinizen_epoch_palafin",
+          "id": "epochfinizen_palafin_epoch",
           "variant": "level_up",
-          "result": "epoch palafin",
+          "result": "palafin epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

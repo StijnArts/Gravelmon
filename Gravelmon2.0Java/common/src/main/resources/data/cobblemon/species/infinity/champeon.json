@@ -33,7 +33,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:expert_belt",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:reversal",
@@ -119,7 +126,7 @@
     "infinity"
   ],
   "pokedex": [
-    "cobblemon.species.champeon.desc1"
+    "cobblemon.species.champeon.desc"
   ],
   "height": 10,
   "weight": 230,

@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "linoone form=epoch",
       "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -119,10 +120,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochobstagoon.desc1"
+        "cobblemon.species.epochobstagoon.desc"
       ],
       "height": 16,
       "weight": 460,
@@ -283,7 +286,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianobstagoon.desc1"
+        "cobblemon.species.ayreianobstagoon.desc"
       ],
       "height": 16,
       "weight": 460,

@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "rattata form\u003dnorheiman",
+  "preEvolution": "rattata form=norheiman",
   "baseScale": 0.15,
   "cannotDynamax": false,
   "abilities": [
@@ -97,7 +97,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.rowdent.desc1"
+    "cobblemon.species.rowdent.desc"
   ],
   "height": 9,
   "weight": 165,

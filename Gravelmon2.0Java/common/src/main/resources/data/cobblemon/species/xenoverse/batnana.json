@@ -9,7 +9,7 @@
   "eggCycles": 52,
   "baseFriendship": 70,
   "preEvolution": "chiripe",
-  "baseScale": 0.13333333333333333,
+  "baseScale": 0.1,
   "cannotDynamax": false,
   "abilities": [
     "overgrow",
@@ -85,7 +85,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.batnana.desc1"
+    "cobblemon.species.batnana.desc"
   ],
   "height": 8,
   "weight": 180,

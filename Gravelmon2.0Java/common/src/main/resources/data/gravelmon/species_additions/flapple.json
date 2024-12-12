@@ -11,6 +11,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "applin form=epoch",
       "baseScale": 0.7166666666666667,
       "cannotDynamax": false,
       "abilities": [
@@ -113,10 +114,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochflapple.desc1"
+        "cobblemon.species.epochflapple.desc"
       ],
       "height": 43,
       "weight": 160,

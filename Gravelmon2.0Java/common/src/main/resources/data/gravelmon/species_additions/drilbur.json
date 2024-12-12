@@ -116,7 +116,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochdrilbur.desc1"
+        "cobblemon.species.epochdrilbur.desc"
       ],
       "height": 3,
       "weight": 85,
@@ -125,9 +125,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochdrilbur_epoch_excadrill",
+          "id": "epochdrilbur_excadrill_epoch",
           "variant": "level_up",
-          "result": "epoch excadrill",
+          "result": "excadrill epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -296,7 +296,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochdrilburone.desc1"
+        "cobblemon.species.epochdrilburone.desc"
       ],
       "height": 3,
       "weight": 85,

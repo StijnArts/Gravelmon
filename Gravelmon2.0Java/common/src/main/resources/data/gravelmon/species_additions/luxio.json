@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "shinx form=epoch",
       "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
@@ -117,10 +118,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochluxio.desc1"
+        "cobblemon.species.epochluxio.desc"
       ],
       "height": 9,
       "weight": 305,
@@ -129,9 +132,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochluxio_epoch_luxray",
+          "id": "epochluxio_luxray_epoch",
           "variant": "level_up",
-          "result": "epoch luxray",
+          "result": "luxray epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -183,8 +186,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "shinx form\u003ddelta",
-      "baseScale": 0.15,
+      "preEvolution": "shinx form=delta",
+      "baseScale": 0.11249999999999999,
       "cannotDynamax": false,
       "abilities": [
         "poisontouch",
@@ -300,7 +303,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltaluxio.desc1"
+        "cobblemon.species.deltaluxio.desc"
       ],
       "height": 9,
       "weight": 610,
@@ -363,7 +366,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "shinx form\u003dayreian",
+      "preEvolution": "shinx form=ayreian",
       "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
@@ -483,7 +486,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianluxio.desc1"
+        "cobblemon.species.ayreianluxio.desc"
       ],
       "height": 9,
       "weight": 305,
@@ -545,8 +548,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "shinx form\u003dkaskadian",
-      "baseScale": 0.15,
+      "preEvolution": "shinx form=kaskadian",
+      "baseScale": 0.028124999999999997,
       "cannotDynamax": false,
       "abilities": [
         "furcoat",
@@ -636,7 +639,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.kaskadianluxio.desc1"
+        "cobblemon.species.kaskadianluxio.desc"
       ],
       "height": 9,
       "weight": 305,

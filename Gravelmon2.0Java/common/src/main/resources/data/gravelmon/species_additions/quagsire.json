@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "wooper form=epoch",
       "baseScale": 0.2333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -120,10 +121,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochquagsire.desc1"
+        "cobblemon.species.epochquagsire.desc"
       ],
       "height": 14,
       "weight": 750,
@@ -171,7 +174,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "wooper form\u003ddelta",
+      "preEvolution": "wooper form=delta",
       "baseScale": 1.1,
       "cannotDynamax": false,
       "abilities": [
@@ -307,7 +310,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltaquagsire.desc1"
+        "cobblemon.species.deltaquagsire.desc"
       ],
       "height": 4,
       "weight": 85,

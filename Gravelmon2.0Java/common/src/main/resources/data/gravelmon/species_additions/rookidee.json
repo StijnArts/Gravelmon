@@ -104,7 +104,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochrookidee.desc1"
+        "cobblemon.species.epochrookidee.desc"
       ],
       "height": 2,
       "weight": 18,
@@ -113,9 +113,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochrookidee_epoch_corvisquire",
+          "id": "epochrookidee_corvisquire_epoch",
           "variant": "level_up",
-          "result": "epoch corvisquire",
+          "result": "corvisquire epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -214,7 +214,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.norheimanrookidee.desc1"
+        "cobblemon.species.norheimanrookidee.desc"
       ],
       "height": 2,
       "weight": 165,

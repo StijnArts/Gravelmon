@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "caterpie form\u003dforman",
-  "baseScale": 0.1,
+  "preEvolution": "caterpie form=forman",
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "waterabsorb"
@@ -49,7 +49,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.bloboon.desc1"
+    "cobblemon.species.bloboon.desc"
   ],
   "height": 6,
   "weight": 0,

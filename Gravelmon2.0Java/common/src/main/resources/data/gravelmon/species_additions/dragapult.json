@@ -11,6 +11,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "drakloak form=epoch",
       "baseScale": 0.5,
       "cannotDynamax": false,
       "abilities": [
@@ -108,10 +109,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochdragapult.desc1"
+        "cobblemon.species.epochdragapult.desc"
       ],
       "height": 30,
       "weight": 500,
@@ -159,7 +162,7 @@
       "experienceGroup": "slow",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "preEvolution": "drakloak form\u003dhoennian",
+      "preEvolution": "drakloak form=hoennian",
       "baseScale": 0.8,
       "cannotDynamax": false,
       "abilities": [
@@ -241,7 +244,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.hoenniandragapult.desc1"
+        "cobblemon.species.hoenniandragapult.desc"
       ],
       "height": 32,
       "weight": 889,

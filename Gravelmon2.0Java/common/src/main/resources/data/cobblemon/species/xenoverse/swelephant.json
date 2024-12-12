@@ -9,7 +9,7 @@
   "eggCycles": 52,
   "baseFriendship": 70,
   "preEvolution": "floatusk",
-  "baseScale": 0.3,
+  "baseScale": 0.22499999999999998,
   "cannotDynamax": false,
   "abilities": [
     "torrent",
@@ -98,7 +98,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.swelephant.desc1"
+    "cobblemon.species.swelephant.desc"
   ],
   "height": 18,
   "weight": 1200,

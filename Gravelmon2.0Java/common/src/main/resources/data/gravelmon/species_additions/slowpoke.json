@@ -1,7 +1,14 @@
 {
   "target": "cobblemon:slowpoke",
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "gravelmon:slowpoke_tail",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "forms": [
     {
@@ -14,7 +21,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.028124999999999997,
       "cannotDynamax": false,
       "abilities": [
         "stench"
@@ -50,7 +57,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanslowpoke.desc1"
+        "cobblemon.species.formanslowpoke.desc"
       ],
       "height": 9,
       "weight": 0,
@@ -211,7 +218,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochslowpoke.desc1"
+        "cobblemon.species.epochslowpoke.desc"
       ],
       "height": 12,
       "weight": 360,
@@ -220,9 +227,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochslowpoke_epoch_slowbro",
+          "id": "epochslowpoke_slowbro_epoch",
           "variant": "level_up",
-          "result": "epoch slowbro",
+          "result": "slowbro epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -234,9 +241,9 @@
           "permanent": true
         },
         {
-          "id": "epochslowpoke_epoch_slowking",
+          "id": "epochslowpoke_slowking_epoch",
           "variant": "item_interact",
-          "result": "epoch slowking",
+          "result": "slowking epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -342,7 +349,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.africanusanslowpoke.desc1"
+        "cobblemon.species.africanusanslowpoke.desc"
       ],
       "height": 12,
       "weight": 360,
@@ -503,7 +510,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.novranslowpoke.desc1"
+        "cobblemon.species.novranslowpoke.desc"
       ],
       "height": 12,
       "weight": 165,

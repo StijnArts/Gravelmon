@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "sobble form=epoch",
       "baseScale": 0.11666666666666665,
       "cannotDynamax": false,
       "abilities": [
@@ -103,10 +104,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochdrizzile.desc1"
+        "cobblemon.species.epochdrizzile.desc"
       ],
       "height": 7,
       "weight": 115,
@@ -115,9 +118,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochdrizzile_epoch_inteleon",
+          "id": "epochdrizzile_inteleon_epoch",
           "variant": "level_up",
-          "result": "epoch inteleon",
+          "result": "inteleon epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

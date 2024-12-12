@@ -117,7 +117,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochespurr.desc1"
+        "cobblemon.species.epochespurr.desc"
       ],
       "height": 3,
       "weight": 35,
@@ -126,9 +126,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochespurr_epoch_meowstic",
+          "id": "epochespurr_meowstic_epoch",
           "variant": "item_interact",
-          "result": "epoch meowstic",
+          "result": "meowstic epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

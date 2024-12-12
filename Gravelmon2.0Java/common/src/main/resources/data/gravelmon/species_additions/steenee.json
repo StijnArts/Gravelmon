@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "bounsweet form=epoch",
       "baseScale": 0.11666666666666665,
       "cannotDynamax": false,
       "abilities": [
@@ -100,10 +101,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochsteenee.desc1"
+        "cobblemon.species.epochsteenee.desc"
       ],
       "height": 7,
       "weight": 82,
@@ -112,9 +115,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochsteenee_epoch_tsareena",
+          "id": "epochsteenee_tsareena_epoch",
           "variant": "level_up",
-          "result": "epoch tsareena",
+          "result": "tsareena epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -282,7 +285,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochsteeneeone.desc1"
+        "cobblemon.species.epochsteeneeone.desc"
       ],
       "height": 7,
       "weight": 82,
@@ -341,7 +344,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "bounsweet form\u003dvaritasian",
+      "preEvolution": "bounsweet form=varitasian",
       "baseScale": 0.11666666666666665,
       "cannotDynamax": false,
       "abilities": [
@@ -446,7 +449,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.varitasiansteenee.desc1"
+        "cobblemon.species.varitasiansteenee.desc"
       ],
       "height": 7,
       "weight": 165,

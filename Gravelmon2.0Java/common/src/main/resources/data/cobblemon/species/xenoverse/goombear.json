@@ -9,7 +9,7 @@
   "eggCycles": 32,
   "baseFriendship": 70,
   "preEvolution": "chubiburny",
-  "baseScale": 0.3666666666666667,
+  "baseScale": 0.275,
   "cannotDynamax": false,
   "abilities": [
     "thickfat",
@@ -107,7 +107,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.goombear.desc1"
+    "cobblemon.species.goombear.desc"
   ],
   "height": 22,
   "weight": 3600,

@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 62,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "hustle",
@@ -34,7 +34,14 @@
     "monster"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:tackle",
@@ -91,7 +98,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.gilla.desc1"
+    "cobblemon.species.gilla.desc"
   ],
   "height": 6,
   "weight": 91,

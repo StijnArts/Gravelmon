@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianwyrdeer.desc1"
+        "cobblemon.species.fabelianwyrdeer.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -93,6 +93,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "stantler form=epoch",
       "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
@@ -184,10 +185,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochwyrdeer.desc1"
+        "cobblemon.species.epochwyrdeer.desc"
       ],
       "height": 18,
       "weight": 951,
@@ -335,7 +338,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochwyrdeerone.desc1"
+        "cobblemon.species.epochwyrdeerone.desc"
       ],
       "height": 18,
       "weight": 951,

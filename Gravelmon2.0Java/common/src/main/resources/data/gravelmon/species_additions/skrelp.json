@@ -99,7 +99,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochskrelp.desc1"
+        "cobblemon.species.epochskrelp.desc"
       ],
       "height": 5,
       "weight": 73,
@@ -108,9 +108,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochskrelp_epoch_dragalge",
+          "id": "epochskrelp_dragalge_epoch",
           "variant": "level_up",
-          "result": "epoch dragalge",
+          "result": "dragalge epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -217,7 +217,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.vesitanskrelp.desc1"
+        "cobblemon.species.vesitanskrelp.desc"
       ],
       "height": 5,
       "weight": 73,
@@ -385,7 +385,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.novranskrelp.desc1"
+        "cobblemon.species.novranskrelp.desc"
       ],
       "height": 5,
       "weight": 165,

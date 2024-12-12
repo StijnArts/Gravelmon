@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "phantump form=epoch",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -112,10 +113,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochtrevenant.desc1"
+        "cobblemon.species.epochtrevenant.desc"
       ],
       "height": 15,
       "weight": 710,
@@ -163,7 +166,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "phantump form\u003dvaritasian",
+      "preEvolution": "phantump form=varitasian",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -268,7 +271,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.varitasiantrevenant.desc1"
+        "cobblemon.species.varitasiantrevenant.desc"
       ],
       "height": 15,
       "weight": 165,
@@ -316,8 +319,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "phantump form\u003ddelta",
-      "baseScale": 0.1,
+      "preEvolution": "phantump form=delta",
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "snowwarning",
@@ -448,7 +451,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltatrevenant.desc1"
+        "cobblemon.species.deltatrevenant.desc"
       ],
       "height": 4,
       "weight": 70,
@@ -615,7 +618,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiantrevenant.desc1"
+        "cobblemon.species.ayreiantrevenant.desc"
       ],
       "height": 15,
       "weight": 710,
@@ -663,7 +666,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "phantump form\u003dkaskadian",
+      "preEvolution": "phantump form=kaskadian",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -759,7 +762,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.kaskadiantrevenant.desc1"
+        "cobblemon.species.kaskadiantrevenant.desc"
       ],
       "height": 15,
       "weight": 710,

@@ -11,7 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "grookey form\u003dayreian",
+      "preEvolution": "grookey form=ayreian",
       "baseScale": 0.11666666666666665,
       "cannotDynamax": false,
       "abilities": [
@@ -105,7 +105,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianthwackey.desc1"
+        "cobblemon.species.ayreianthwackey.desc"
       ],
       "height": 7,
       "weight": 140,

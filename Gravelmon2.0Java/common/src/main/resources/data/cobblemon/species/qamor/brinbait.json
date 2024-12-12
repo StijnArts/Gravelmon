@@ -54,7 +54,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.brinbait.desc1"
+    "cobblemon.species.brinbait.desc"
   ],
   "height": 5,
   "weight": 165,
@@ -69,7 +69,7 @@
       "requirements": [
         {
           "variant": "properties",
-          "target": "gender\u003dfemale",
+          "target": "gender=female",
           "contains": true
         },
         {

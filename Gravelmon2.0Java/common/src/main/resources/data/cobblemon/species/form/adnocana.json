@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "ekans form\u003dforman",
-  "baseScale": 0.2833333333333333,
+  "preEvolution": "ekans form=forman",
+  "baseScale": 0.053125,
   "cannotDynamax": false,
   "abilities": [
     "swiftswim"
@@ -47,7 +47,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.adnocana.desc1"
+    "cobblemon.species.adnocana.desc"
   ],
   "height": 17,
   "weight": 0,

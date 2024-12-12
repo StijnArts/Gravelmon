@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "therasloth",
-  "baseScale": 0.2833333333333333,
+  "baseScale": 13.6,
   "cannotDynamax": false,
   "abilities": [
     "toughclaws",
@@ -64,7 +64,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.slotherror.desc1"
+    "cobblemon.species.slotherror.desc"
   ],
   "height": 17,
   "weight": 165,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "glozard",
-  "baseScale": 0.18333333333333335,
+  "baseScale": 8.8,
   "cannotDynamax": false,
   "abilities": [
     "solidrock",
@@ -64,7 +64,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.radizorb.desc1"
+    "cobblemon.species.radizorb.desc"
   ],
   "height": 11,
   "weight": 165,

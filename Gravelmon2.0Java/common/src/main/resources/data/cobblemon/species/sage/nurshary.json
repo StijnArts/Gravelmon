@@ -7,7 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.26666666666666666,
+  "baseScale": 0.05,
   "cannotDynamax": false,
   "abilities": [
     "healer",
@@ -35,7 +35,14 @@
     "fairy"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:raw_cod",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:wideguard",
@@ -120,7 +127,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.nurshary.desc1"
+    "cobblemon.species.nurshary.desc"
   ],
   "height": 16,
   "weight": 1472,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "guldawn",
-  "baseScale": 0.6166666666666667,
+  "baseScale": 0.4625,
   "cannotDynamax": false,
   "abilities": [
     "flashfire",
@@ -101,7 +101,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.solarisen.desc1"
+    "cobblemon.species.solarisen.desc"
   ],
   "height": 37,
   "weight": 905,

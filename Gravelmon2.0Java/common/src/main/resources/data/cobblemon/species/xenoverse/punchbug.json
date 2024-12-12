@@ -9,7 +9,7 @@
   "eggCycles": 32,
   "baseFriendship": 70,
   "preEvolution": "beefle",
-  "baseScale": 0.1,
+  "baseScale": 0.07500000000000001,
   "cannotDynamax": false,
   "abilities": [
     "swarm",
@@ -94,7 +94,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.punchbug.desc1"
+    "cobblemon.species.punchbug.desc"
   ],
   "height": 6,
   "weight": 328,

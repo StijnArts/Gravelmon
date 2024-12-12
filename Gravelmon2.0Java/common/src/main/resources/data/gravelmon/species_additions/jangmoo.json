@@ -118,7 +118,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochjangmoo.desc1"
+        "cobblemon.species.epochjangmoo.desc"
       ],
       "height": 6,
       "weight": 297,
@@ -127,9 +127,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochjangmoo_epoch_hakamoo",
+          "id": "epochjangmoo_hakamoo_epoch",
           "variant": "level_up",
-          "result": "epoch hakamoo",
+          "result": "hakamoo epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

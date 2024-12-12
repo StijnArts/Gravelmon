@@ -11,8 +11,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "tyrogue form\u003dforman",
-      "baseScale": 0.25,
+      "preEvolution": "tyrogue form=forman",
+      "baseScale": 0.046875,
       "cannotDynamax": false,
       "abilities": [
         "drizzle"
@@ -52,7 +52,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formanhitmontop.desc1"
+        "cobblemon.species.formanhitmontop.desc"
       ],
       "height": 15,
       "weight": 0,
@@ -100,6 +100,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "tyrogue form=epoch",
       "baseScale": 0.2333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -208,10 +209,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochhitmontop.desc1"
+        "cobblemon.species.epochhitmontop.desc"
       ],
       "height": 14,
       "weight": 480,
@@ -259,7 +262,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "tyrogue form\u003dqamoran",
+      "preEvolution": "tyrogue form=qamoran",
       "baseScale": 0.2333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -317,7 +320,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.qamoranhitmontop.desc1"
+        "cobblemon.species.qamoranhitmontop.desc"
       ],
       "height": 14,
       "weight": 165,
@@ -364,7 +367,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "tyrogue form\u003dvaritasian",
+      "preEvolution": "tyrogue form=varitasian",
       "baseScale": 0.2333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -477,7 +480,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.varitasianhitmontop.desc1"
+        "cobblemon.species.varitasianhitmontop.desc"
       ],
       "height": 14,
       "weight": 165,
@@ -636,7 +639,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianhitmontop.desc1"
+        "cobblemon.species.ayreianhitmontop.desc"
       ],
       "height": 14,
       "weight": 480,

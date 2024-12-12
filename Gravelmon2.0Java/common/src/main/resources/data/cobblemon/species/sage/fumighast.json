@@ -9,7 +9,7 @@
   "eggCycles": 51,
   "baseFriendship": 70,
   "preEvolution": "noxial",
-  "baseScale": 0.2833333333333333,
+  "baseScale": 0.053125,
   "cannotDynamax": false,
   "abilities": [
     "pollution",
@@ -36,7 +36,14 @@
     "amorphous"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:glass_bottle",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
   },
   "moves": [
     "1:poisongas",
@@ -131,7 +138,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.fumighast.desc1"
+    "cobblemon.species.fumighast.desc"
   ],
   "height": 17,
   "weight": 43,

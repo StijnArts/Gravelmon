@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "modelfin",
-  "baseScale": 0.26666666666666666,
+  "baseScale": 0.05,
   "cannotDynamax": false,
   "abilities": [
     "torrent",
@@ -117,7 +117,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.muertapoise.desc1"
+    "cobblemon.species.muertapoise.desc"
   ],
   "height": 16,
   "weight": 306,

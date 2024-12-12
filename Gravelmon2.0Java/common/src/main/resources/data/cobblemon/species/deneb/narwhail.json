@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "dorfin",
-  "baseScale": 0.2833333333333333,
+  "baseScale": 0.2125,
   "cannotDynamax": false,
   "abilities": [
     "waterabsorb"
@@ -111,7 +111,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.narwhail.desc1"
+    "cobblemon.species.narwhail.desc"
   ],
   "height": 17,
   "weight": 794,

@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "litten form=epoch",
       "baseScale": 0.11666666666666665,
       "cannotDynamax": false,
       "abilities": [
@@ -108,10 +109,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochtorracat.desc1"
+        "cobblemon.species.epochtorracat.desc"
       ],
       "height": 7,
       "weight": 250,
@@ -120,9 +123,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochtorracat_epoch_incineroar",
+          "id": "epochtorracat_incineroar_epoch",
           "variant": "level_up",
-          "result": "epoch incineroar",
+          "result": "incineroar epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

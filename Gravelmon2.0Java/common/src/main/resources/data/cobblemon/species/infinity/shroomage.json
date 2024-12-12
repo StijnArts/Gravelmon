@@ -9,7 +9,7 @@
   "eggCycles": 62,
   "baseFriendship": 70,
   "preEvolution": "psycholyte",
-  "baseScale": 0.2833333333333333,
+  "baseScale": 0.2125,
   "cannotDynamax": false,
   "abilities": [
     "magicguard",
@@ -115,7 +115,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.shroomage.desc1"
+    "cobblemon.species.shroomage.desc"
   ],
   "height": 17,
   "weight": 300,

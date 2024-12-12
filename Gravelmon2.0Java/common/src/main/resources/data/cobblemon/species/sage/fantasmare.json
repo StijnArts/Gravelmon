@@ -8,7 +8,7 @@
   "eggCycles": 51,
   "baseFriendship": 70,
   "preEvolution": "coltergeist",
-  "baseScale": 0.2833333333333333,
+  "baseScale": 0.053125,
   "cannotDynamax": false,
   "abilities": [
     "perforate",
@@ -36,7 +36,14 @@
     "amorphous"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:dead_bush",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:nightmare",
@@ -101,7 +108,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.fantasmare.desc1"
+    "cobblemon.species.fantasmare.desc"
   ],
   "height": 17,
   "weight": 414,

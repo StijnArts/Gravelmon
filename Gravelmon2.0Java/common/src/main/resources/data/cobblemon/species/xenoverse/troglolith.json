@@ -9,7 +9,7 @@
   "eggCycles": 32,
   "baseFriendship": 70,
   "preEvolution": "rockapye",
-  "baseScale": 0.21666666666666667,
+  "baseScale": 0.1625,
   "cannotDynamax": false,
   "abilities": [
     "defiant",
@@ -116,7 +116,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.troglolith.desc1"
+    "cobblemon.species.troglolith.desc"
   ],
   "height": 13,
   "weight": 288,

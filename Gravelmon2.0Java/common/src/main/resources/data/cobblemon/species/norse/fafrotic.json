@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "lizanir",
-  "baseScale": 0.2333333333333333,
+  "baseScale": 0.04375,
   "cannotDynamax": false,
   "abilities": [
     "lightningrod"
@@ -44,7 +44,7 @@
     "norse"
   ],
   "pokedex": [
-    "cobblemon.species.fafrotic.desc1"
+    "cobblemon.species.fafrotic.desc"
   ],
   "height": 14,
   "weight": 0,

@@ -36,7 +36,19 @@
     "flying"
   ],
   "drops": {
-    "amount": 4
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:melon_seeds",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:quiverdance",
@@ -113,7 +125,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.florabri.desc1"
+    "cobblemon.species.florabri.desc"
   ],
   "height": 8,
   "weight": 65,

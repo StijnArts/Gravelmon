@@ -5,17 +5,33 @@
     {
       "aspects": [
         "sunny"
-     ],
-      "poser": "cobblemon:deneb_terubim",
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/pokemon/deneb/sunny_terubim.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "sunny",
-        "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/deneb/sunny_terubim_shiny.png"
-    }  ]
+      "model": "cobblemon:cutout_gravelmon_96_by_96.geo",
+      "poser": "cobblemon:cutout_gravelmon_96_by_96",
+      "texture": "cobblemon:textures/pokemon/deneb/sunny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
+    }
+  ]
 }

@@ -10,7 +10,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -43,7 +43,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mahalianpoochyena.desc1"
+        "cobblemon.species.mahalianpoochyena.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -194,7 +194,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochpoochyena.desc1"
+        "cobblemon.species.epochpoochyena.desc"
       ],
       "height": 5,
       "weight": 136,
@@ -203,9 +203,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochpoochyena_epoch_mightyena",
+          "id": "epochpoochyena_mightyena_epoch",
           "variant": "level_up",
-          "result": "epoch mightyena",
+          "result": "mightyena epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -308,7 +308,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mysticpoochyena.desc1"
+        "cobblemon.species.mysticpoochyena.desc"
       ],
       "height": 5,
       "weight": 136,

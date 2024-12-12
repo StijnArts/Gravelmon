@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "ducklett form=epoch",
       "baseScale": 0.21666666666666667,
       "cannotDynamax": false,
       "abilities": [
@@ -91,10 +92,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochswanna.desc1"
+        "cobblemon.species.epochswanna.desc"
       ],
       "height": 13,
       "weight": 242,
@@ -142,7 +145,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "ducklett form\u003dayreian",
+      "preEvolution": "ducklett form=ayreian",
       "baseScale": 0.21666666666666667,
       "cannotDynamax": false,
       "abilities": [
@@ -236,7 +239,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianswanna.desc1"
+        "cobblemon.species.ayreianswanna.desc"
       ],
       "height": 13,
       "weight": 242,

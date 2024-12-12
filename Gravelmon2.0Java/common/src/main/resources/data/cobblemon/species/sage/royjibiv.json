@@ -9,7 +9,7 @@
   "eggCycles": 62,
   "baseFriendship": 70,
   "preEvolution": "arjibi",
-  "baseScale": 0.75,
+  "baseScale": 0.140625,
   "cannotDynamax": false,
   "abilities": [
     "intimidate",
@@ -35,7 +35,19 @@
     "dragon"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:kaleidoscope",
+        "quantityRange": "1-1",
+        "percentage": 25
+      },
+      {
+        "item": "gravelmon:kaleidoscope",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:tempest",
@@ -133,7 +145,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.royjibiv.desc1"
+    "cobblemon.species.royjibiv.desc"
   ],
   "height": 45,
   "weight": 306,

@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianoddish.desc1"
+        "cobblemon.species.fabelianoddish.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -93,7 +93,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.021875,
       "cannotDynamax": false,
       "abilities": [
         "prankster"
@@ -127,7 +127,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanoddish.desc1"
+        "cobblemon.species.formanoddish.desc"
       ],
       "height": 7,
       "weight": 0,
@@ -298,7 +298,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochoddish.desc1"
+        "cobblemon.species.epochoddish.desc"
       ],
       "height": 5,
       "weight": 54,
@@ -307,9 +307,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochoddish_epoch_gloom",
+          "id": "epochoddish_gloom_epoch",
           "variant": "level_up",
-          "result": "epoch gloom",
+          "result": "gloom epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -388,7 +388,14 @@
         "monster"
       ],
       "drops": {
-        "amount": 4
+        "amount": 4,
+        "entries": [
+          {
+            "item": "minecraft:seeds",
+            "quantityRange": "1-2",
+            "percentage": 50
+          }
+        ]
       },
       "moves": [
         "1:memento",
@@ -460,7 +467,7 @@
         "gen1"
       ],
       "pokedex": [
-        "cobblemon.species.eghooddish.desc1"
+        "cobblemon.species.eghooddish.desc"
       ],
       "height": 4,
       "weight": 34,

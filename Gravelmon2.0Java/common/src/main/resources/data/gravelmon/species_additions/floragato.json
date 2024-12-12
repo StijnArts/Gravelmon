@@ -11,7 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "sprigatito form\u003dayreian",
+      "preEvolution": "sprigatito form=ayreian",
       "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
@@ -106,7 +106,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianfloragato.desc1"
+        "cobblemon.species.ayreianfloragato.desc"
       ],
       "height": 9,
       "weight": 122,

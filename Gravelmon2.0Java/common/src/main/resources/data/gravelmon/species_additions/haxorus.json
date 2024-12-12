@@ -11,8 +11,8 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "fraxure form\u003ddelta",
-      "baseScale": 0.3,
+      "preEvolution": "fraxure form=delta",
+      "baseScale": 0.22499999999999998,
       "cannotDynamax": false,
       "abilities": [
         "strongjaw",
@@ -148,7 +148,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltahaxorus.desc1"
+        "cobblemon.species.deltahaxorus.desc"
       ],
       "height": 18,
       "weight": 2110,
@@ -318,7 +318,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianhaxorus.desc1"
+        "cobblemon.species.ayreianhaxorus.desc"
       ],
       "height": 18,
       "weight": 1055,

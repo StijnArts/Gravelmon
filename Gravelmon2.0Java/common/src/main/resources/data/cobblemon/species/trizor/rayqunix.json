@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "onix form\u003dtrizoran",
-  "baseScale": 1.1333333333333333,
+  "preEvolution": "onix form=trizoran",
+  "baseScale": 0.2125,
   "cannotDynamax": false,
   "abilities": [
     "rockhead"
@@ -47,7 +47,7 @@
     "trizor"
   ],
   "pokedex": [
-    "cobblemon.species.rayqunix.desc1"
+    "cobblemon.species.rayqunix.desc"
   ],
   "height": 68,
   "weight": 0,

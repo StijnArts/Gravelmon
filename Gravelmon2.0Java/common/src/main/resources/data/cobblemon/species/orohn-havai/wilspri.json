@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.11666666666666665,
+  "baseScale": 5.6,
   "cannotDynamax": false,
   "abilities": [
     "unburden",
@@ -112,7 +112,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.wilspri.desc1"
+    "cobblemon.species.wilspri.desc"
   ],
   "height": 7,
   "weight": 165,

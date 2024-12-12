@@ -122,7 +122,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochelectrike.desc1"
+        "cobblemon.species.epochelectrike.desc"
       ],
       "height": 6,
       "weight": 152,
@@ -131,9 +131,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochelectrike_epoch_manectric",
+          "id": "epochelectrike_manectric_epoch",
           "variant": "level_up",
-          "result": "epoch manectric",
+          "result": "manectric epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -277,7 +277,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.enjinnianelectrike.desc1"
+        "cobblemon.species.enjinnianelectrike.desc"
       ],
       "height": 6,
       "weight": 152,

@@ -9,7 +9,7 @@
   "eggCycles": 32,
   "baseFriendship": 70,
   "preEvolution": "egohiss",
-  "baseScale": 0.6666666666666666,
+  "baseScale": 0.5,
   "cannotDynamax": false,
   "abilities": [
     "shedskin",
@@ -104,7 +104,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.egorgeon.desc1"
+    "cobblemon.species.egorgeon.desc"
   ],
   "height": 40,
   "weight": 618,

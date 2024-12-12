@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianyamask.desc1"
+        "cobblemon.species.fabelianyamask.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -93,7 +93,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -127,7 +127,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ferranianyamask.desc1"
+        "cobblemon.species.ferranianyamask.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -202,7 +202,16 @@
         "mineral",
         "amorphous"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:ocarina",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
+      },
       "moves": [
         "16:encore",
         "40:shadowball",
@@ -273,7 +282,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochyamask.desc1"
+        "cobblemon.species.epochyamask.desc"
       ],
       "height": 5,
       "weight": 15,
@@ -282,9 +291,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochyamask_epoch_cofagrigus",
+          "id": "epochyamask_cofagrigus_epoch",
           "variant": "item_interact",
-          "result": "epoch cofagrigus",
+          "result": "cofagrigus epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -435,7 +444,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.varitasianyamask.desc1"
+        "cobblemon.species.varitasianyamask.desc"
       ],
       "height": 5,
       "weight": 165,
@@ -498,7 +507,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "aftermath",
@@ -606,7 +615,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltayamask.desc1"
+        "cobblemon.species.deltayamask.desc"
       ],
       "height": 5,
       "weight": 30,
@@ -669,7 +678,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.0875,
       "cannotDynamax": false,
       "abilities": [
         "stormdrain",
@@ -742,7 +751,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.yamaskx.desc1"
+        "cobblemon.species.yamaskx.desc"
       ],
       "height": 7,
       "weight": 40,

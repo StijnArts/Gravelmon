@@ -112,6 +112,5 @@ public class Foliat extends Pokemon {
                 AnimationData.standingAnimation().withLook().withBlink().clearPoseTypes(),
                 AnimationData.sleepingAnimation()
         ));
-        getPosingFileData().shoulderAnimations();
     }
 }

@@ -9,7 +9,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "dragalis",
-  "baseScale": 0.3666666666666667,
+  "baseScale": 0.275,
   "cannotDynamax": false,
   "abilities": [
     "compoundeyes",
@@ -127,7 +127,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.ceregal.desc1"
+    "cobblemon.species.ceregal.desc"
   ],
   "height": 22,
   "weight": 700,

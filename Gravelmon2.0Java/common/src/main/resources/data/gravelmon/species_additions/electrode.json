@@ -13,7 +13,14 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:thunder_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "forms": [
     {
@@ -25,6 +32,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "voltorb form=epoch",
       "baseScale": 0.19999999999999998,
       "cannotDynamax": false,
       "abilities": [
@@ -106,10 +114,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochelectrode.desc1"
+        "cobblemon.species.epochelectrode.desc"
       ],
       "height": 12,
       "weight": 666,
@@ -251,7 +261,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochelectrodeone.desc1"
+        "cobblemon.species.epochelectrodeone.desc"
       ],
       "height": 12,
       "weight": 4506,
@@ -299,7 +309,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "voltorb form\u003dnorheiman",
+      "preEvolution": "voltorb form=norheiman",
       "baseScale": 0.19999999999999998,
       "cannotDynamax": false,
       "abilities": [
@@ -345,7 +355,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.norheimanelectrode.desc1"
+        "cobblemon.species.norheimanelectrode.desc"
       ],
       "height": 12,
       "weight": 165,
@@ -393,7 +403,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 26,
       "baseFriendship": 70,
-      "preEvolution": "voltorb form\u003dayreian",
+      "preEvolution": "voltorb form=ayreian",
       "baseScale": 0.19999999999999998,
       "cannotDynamax": false,
       "abilities": [
@@ -488,7 +498,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianelectrode.desc1"
+        "cobblemon.species.ayreianelectrode.desc"
       ],
       "height": 12,
       "weight": 666,
@@ -535,7 +545,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 26,
       "baseFriendship": 70,
-      "preEvolution": "voltorb form\u003dmystic",
+      "preEvolution": "voltorb form=mystic",
       "baseScale": 0.19999999999999998,
       "cannotDynamax": false,
       "abilities": [
@@ -631,7 +641,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.mysticelectrode.desc1"
+        "cobblemon.species.mysticelectrode.desc"
       ],
       "height": 12,
       "weight": 666,

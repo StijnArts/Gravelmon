@@ -8,7 +8,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "aipom form\u003davalossian",
+  "preEvolution": "aipom form=avalossian",
   "baseScale": 0.19999999999999998,
   "cannotDynamax": false,
   "abilities": [
@@ -79,7 +79,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.slambizom.desc1"
+    "cobblemon.species.slambizom.desc"
   ],
   "height": 12,
   "weight": 203,

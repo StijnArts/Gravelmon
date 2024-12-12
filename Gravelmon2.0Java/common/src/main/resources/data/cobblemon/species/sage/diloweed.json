@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 51,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "roughskin",
@@ -36,7 +36,14 @@
     "field"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:dead_bush",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:rockpolish",
@@ -103,7 +110,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.diloweed.desc1"
+    "cobblemon.species.diloweed.desc"
   ],
   "height": 5,
   "weight": 271,

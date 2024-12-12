@@ -107,7 +107,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochrolycoly.desc1"
+        "cobblemon.species.epochrolycoly.desc"
       ],
       "height": 3,
       "weight": 120,
@@ -116,9 +116,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochrolycoly_epoch_carkol",
+          "id": "epochrolycoly_carkol_epoch",
           "variant": "level_up",
-          "result": "epoch carkol",
+          "result": "carkol epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

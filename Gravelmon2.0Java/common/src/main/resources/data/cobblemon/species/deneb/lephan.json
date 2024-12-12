@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.21666666666666667,
+  "baseScale": 0.1625,
   "cannotDynamax": false,
   "abilities": [
     "synchronize",
@@ -101,7 +101,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.lephan.desc1"
+    "cobblemon.species.lephan.desc"
   ],
   "height": 13,
   "weight": 934,

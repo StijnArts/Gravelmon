@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "royray",
-  "baseScale": 0.45,
+  "baseScale": 0.084375,
   "cannotDynamax": false,
   "abilities": [
     "torrent"
@@ -47,7 +47,7 @@
     "norse"
   ],
   "pokedex": [
-    "cobblemon.species.aegiking.desc1"
+    "cobblemon.species.aegiking.desc"
   ],
   "height": 27,
   "weight": 0,

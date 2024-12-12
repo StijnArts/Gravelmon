@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "finray",
-  "baseScale": 0.18333333333333335,
+  "baseScale": 8.8,
   "cannotDynamax": false,
   "abilities": [
     "swiftswim",
@@ -68,7 +68,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.ogoprowl.desc1"
+    "cobblemon.species.ogoprowl.desc"
   ],
   "height": 11,
   "weight": 165,

@@ -15,7 +15,14 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "gravelmon:amaze_drive",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "forms": [
     {
@@ -28,8 +35,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "zubat form\u003dforman",
-      "baseScale": 0.26666666666666666,
+      "preEvolution": "zubat form=forman",
+      "baseScale": 0.05,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -67,7 +74,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formangolbat.desc1"
+        "cobblemon.species.formangolbat.desc"
       ],
       "height": 16,
       "weight": 0,
@@ -130,6 +137,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "zubat form=epoch",
       "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -214,10 +222,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochgolbat.desc1"
+        "cobblemon.species.epochgolbat.desc"
       ],
       "height": 16,
       "weight": 550,
@@ -226,9 +236,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochgolbat_epoch_crobat",
+          "id": "epochgolbat_crobat_epoch",
           "variant": "level_up",
-          "result": "epoch crobat",
+          "result": "crobat epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

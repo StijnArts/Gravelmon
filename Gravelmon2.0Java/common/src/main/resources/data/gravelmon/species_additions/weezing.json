@@ -27,8 +27,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "koffing form\u003dforman",
-      "baseScale": 0.21666666666666667,
+      "preEvolution": "koffing form=forman",
+      "baseScale": 0.040625,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -66,7 +66,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formanweezing.desc1"
+        "cobblemon.species.formanweezing.desc"
       ],
       "height": 13,
       "weight": 0,
@@ -114,6 +114,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "koffing form=epoch",
       "baseScale": 0.19999999999999998,
       "cannotDynamax": false,
       "abilities": [
@@ -215,10 +216,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochweezing.desc1"
+        "cobblemon.species.epochweezing.desc"
       ],
       "height": 12,
       "weight": 95,
@@ -266,7 +269,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "koffing form\u003dqamoran",
+      "preEvolution": "koffing form=qamoran",
       "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -316,7 +319,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.qamoranweezing.desc1"
+        "cobblemon.species.qamoranweezing.desc"
       ],
       "height": 16,
       "weight": 165,
@@ -364,7 +367,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "koffing form\u003ddelta",
+      "preEvolution": "koffing form=delta",
       "baseScale": 1.2,
       "cannotDynamax": false,
       "abilities": [
@@ -495,7 +498,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltaweezing.desc1"
+        "cobblemon.species.deltaweezing.desc"
       ],
       "height": 12,
       "weight": 95,
@@ -543,7 +546,7 @@
       "experienceGroup": "slow",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "preEvolution": "koffing form\u003drelic",
+      "preEvolution": "koffing form=relic",
       "baseScale": 0.2833333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -637,7 +640,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.relicweezing.desc1"
+        "cobblemon.species.relicweezing.desc"
       ],
       "height": 17,
       "weight": 2590,

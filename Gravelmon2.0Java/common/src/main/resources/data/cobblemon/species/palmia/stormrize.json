@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.45,
+  "baseScale": 0.084375,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -32,7 +32,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:end_crystal",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:gust",
@@ -43,7 +50,7 @@
     "palmia"
   ],
   "pokedex": [
-    "cobblemon.species.stormrize.desc1"
+    "cobblemon.species.stormrize.desc"
   ],
   "height": 27,
   "weight": 0,

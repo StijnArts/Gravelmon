@@ -8,7 +8,7 @@
   "experienceGroup": "fast",
   "eggCycles": 32,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.07500000000000001,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -91,7 +91,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.chimaooze.desc1"
+    "cobblemon.species.chimaooze.desc"
   ],
   "height": 3,
   "weight": 1,

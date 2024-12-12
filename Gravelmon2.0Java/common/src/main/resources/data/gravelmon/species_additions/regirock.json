@@ -10,7 +10,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.2833333333333333,
+      "baseScale": 0.2125,
       "cannotDynamax": false,
       "abilities": [
         "sandveil",
@@ -130,7 +130,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltaregirock.desc1"
+        "cobblemon.species.deltaregirock.desc"
       ],
       "height": 17,
       "weight": 2300,

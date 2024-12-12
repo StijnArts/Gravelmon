@@ -4,15 +4,35 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:infinity_arkhaos",
       "model": "cobblemon:infinity_arkhaos.geo",
+      "poser": "cobblemon:infinity_arkhaos",
       "texture": "cobblemon:textures/pokemon/infinity/arkhaos/arkhaos.png",
       "layers": [
         {
-          "name": "emmisive",
-          "texture":"cobblemon:textures/pokemon/infinity/arkhaos/arkhaos_emissive.png",
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "arkhaos_emissive",
           "emissive": true,
           "translucent": true
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
         }
       ]
     },
@@ -20,14 +40,37 @@
       "aspects": [
         "shiny"
       ],
+      "model": "cobblemon:infinity_arkhaos.geo",
+      "poser": "cobblemon:infinity_arkhaos",
       "texture": "cobblemon:textures/pokemon/infinity/arkhaos/arkhaos_shiny.png",
       "layers": [
         {
-          "name": "emmisive",
-          "texture":"cobblemon:textures/pokemon/infinity/arkhaos/arkhaos_shiny_emissive.png",
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "arkhaos_emissive",
           "emissive": true,
           "translucent": true
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
         }
       ]
-    }  ]
+    }
+  ]
 }

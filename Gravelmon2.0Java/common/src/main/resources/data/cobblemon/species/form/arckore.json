@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "growlithe form\u003dforman",
-  "baseScale": 0.31666666666666665,
+  "preEvolution": "growlithe form=forman",
+  "baseScale": 0.059375,
   "cannotDynamax": false,
   "abilities": [
     "poisontouch"
@@ -47,7 +47,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.arckore.desc1"
+    "cobblemon.species.arckore.desc"
   ],
   "height": 19,
   "weight": 0,

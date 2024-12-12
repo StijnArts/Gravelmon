@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "venipede form=epoch",
       "baseScale": 0.19999999999999998,
       "cannotDynamax": false,
       "abilities": [
@@ -37,7 +38,16 @@
       "eggGroups": [
         "bug"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:astral_stone",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
+      },
       "moves": [
         "26:irondefense",
         "4:infestation",
@@ -107,10 +117,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochwhirlipede.desc1"
+        "cobblemon.species.epochwhirlipede.desc"
       ],
       "height": 12,
       "weight": 585,
@@ -119,9 +131,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochwhirlipede_epoch_scolipede",
+          "id": "epochwhirlipede_scolipede_epoch",
           "variant": "item_interact",
-          "result": "epoch scolipede",
+          "result": "scolipede epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -169,8 +181,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "venipede form\u003ddelta",
-      "baseScale": 0.19999999999999998,
+      "preEvolution": "venipede form=delta",
+      "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
         "weakarmor",
@@ -279,7 +291,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltawhirlipede.desc1"
+        "cobblemon.species.deltawhirlipede.desc"
       ],
       "height": 12,
       "weight": 878,

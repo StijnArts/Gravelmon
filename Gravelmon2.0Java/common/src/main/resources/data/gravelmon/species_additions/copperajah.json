@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "cufant form=epoch",
       "baseScale": 0.5,
       "cannotDynamax": false,
       "abilities": [
@@ -126,10 +127,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochcopperajah.desc1"
+        "cobblemon.species.epochcopperajah.desc"
       ],
       "height": 30,
       "weight": 6500,

@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "blitzle form=epoch",
       "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -106,10 +107,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochzebstrika.desc1"
+        "cobblemon.species.epochzebstrika.desc"
       ],
       "height": 16,
       "weight": 795,
@@ -157,7 +160,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "preEvolution": "blitzle form\u003dseviian",
+      "preEvolution": "blitzle form=seviian",
       "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -245,7 +248,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.seviianzebstrika.desc1"
+        "cobblemon.species.seviianzebstrika.desc"
       ],
       "height": 16,
       "weight": 795,

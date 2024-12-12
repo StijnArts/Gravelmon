@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "rhydon form\u003dhizian",
+  "preEvolution": "rhydon form=hizian",
   "baseScale": 0.43333333333333335,
   "cannotDynamax": false,
   "abilities": [
@@ -59,7 +59,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.rhyferal.desc1"
+    "cobblemon.species.rhyferal.desc"
   ],
   "height": 26,
   "weight": 165,

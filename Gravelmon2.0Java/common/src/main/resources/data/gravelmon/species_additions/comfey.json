@@ -124,7 +124,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochcomfey.desc1"
+        "cobblemon.species.epochcomfey.desc"
       ],
       "height": 1,
       "weight": 3,
@@ -231,7 +231,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.africanusancomfey.desc1"
+        "cobblemon.species.africanusancomfey.desc"
       ],
       "height": 1,
       "weight": 3,

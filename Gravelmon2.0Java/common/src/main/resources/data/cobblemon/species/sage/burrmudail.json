@@ -36,7 +36,19 @@
     "flying"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:ice",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:haze",
@@ -116,7 +128,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.burrmudail.desc1"
+    "cobblemon.species.burrmudail.desc"
   ],
   "height": 14,
   "weight": 244,

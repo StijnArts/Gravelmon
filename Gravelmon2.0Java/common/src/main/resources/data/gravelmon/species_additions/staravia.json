@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "starly form=epoch",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -88,10 +89,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochstaravia.desc1"
+        "cobblemon.species.epochstaravia.desc"
       ],
       "height": 6,
       "weight": 155,
@@ -100,9 +103,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochstaravia_epoch_staraptor",
+          "id": "epochstaravia_staraptor_epoch",
           "variant": "level_up",
-          "result": "epoch staraptor",
+          "result": "staraptor epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

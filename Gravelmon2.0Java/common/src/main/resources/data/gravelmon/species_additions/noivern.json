@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "noibat form=epoch",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -120,10 +121,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochnoivern.desc1"
+        "cobblemon.species.epochnoivern.desc"
       ],
       "height": 15,
       "weight": 850,
@@ -226,7 +229,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.vesitannoivern.desc1"
+        "cobblemon.species.vesitannoivern.desc"
       ],
       "height": 15,
       "weight": 850,
@@ -274,8 +277,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "noibat form\u003ddelta",
-      "baseScale": 0.25,
+      "preEvolution": "noibat form=delta",
+      "baseScale": 0.1875,
       "cannotDynamax": false,
       "abilities": [
         "chlorophyll",
@@ -425,7 +428,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltanoivern.desc1"
+        "cobblemon.species.deltanoivern.desc"
       ],
       "height": 15,
       "weight": 1700,
@@ -473,7 +476,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "preEvolution": "noibat form\u003dseviian",
+      "preEvolution": "noibat form=seviian",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -594,7 +597,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.seviiannoivern.desc1"
+        "cobblemon.species.seviiannoivern.desc"
       ],
       "height": 15,
       "weight": 8500,
@@ -693,7 +696,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mythiannoivern.desc1"
+        "cobblemon.species.mythiannoivern.desc"
       ],
       "height": 15,
       "weight": 850,
@@ -741,7 +744,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "noibat form\u003dayreian",
+      "preEvolution": "noibat form=ayreian",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -863,7 +866,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiannoivern.desc1"
+        "cobblemon.species.ayreiannoivern.desc"
       ],
       "height": 15,
       "weight": 850,

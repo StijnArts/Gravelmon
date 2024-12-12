@@ -31,7 +31,14 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:razor_claw",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "forms": [
     {
@@ -43,6 +50,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "meowth form=epoch",
       "baseScale": 0.16666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -144,10 +152,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochpersian.desc1"
+        "cobblemon.species.epochpersian.desc"
       ],
       "height": 10,
       "weight": 320,
@@ -195,7 +205,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "preEvolution": "meowth form\u003dcefiran_fire",
+      "preEvolution": "meowth form=cefiran_fire",
       "baseScale": 0.16666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -264,7 +274,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.cefiranpersianfire.desc1"
+        "cobblemon.species.cefiranpersianfire.desc"
       ],
       "height": 10,
       "weight": 320,
@@ -312,7 +322,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "preEvolution": "meowth form\u003dcefiran_ice",
+      "preEvolution": "meowth form=cefiran_ice",
       "baseScale": 0.16666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -381,7 +391,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.cefiranpersianice.desc1"
+        "cobblemon.species.cefiranpersianice.desc"
       ],
       "height": 10,
       "weight": 320,
@@ -429,7 +439,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "preEvolution": "meowth form\u003dcefiran_electric",
+      "preEvolution": "meowth form=cefiran_electric",
       "baseScale": 0.16666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -498,7 +508,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.cefiranpersianelectric.desc1"
+        "cobblemon.species.cefiranpersianelectric.desc"
       ],
       "height": 10,
       "weight": 320,

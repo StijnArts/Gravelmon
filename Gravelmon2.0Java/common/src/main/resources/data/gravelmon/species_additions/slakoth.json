@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.elbianslakoth.desc1"
+        "cobblemon.species.elbianslakoth.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -93,7 +93,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -127,7 +127,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ferranianslakoth.desc1"
+        "cobblemon.species.ferranianslakoth.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -284,7 +284,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochslakoth.desc1"
+        "cobblemon.species.epochslakoth.desc"
       ],
       "height": 8,
       "weight": 240,
@@ -293,9 +293,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochslakoth_epoch_vigoroth",
+          "id": "epochslakoth_vigoroth_epoch",
           "variant": "level_up",
-          "result": "epoch vigoroth",
+          "result": "vigoroth epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -441,7 +441,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.avalossianslakoth.desc1"
+        "cobblemon.species.avalossianslakoth.desc"
       ],
       "height": 8,
       "weight": 240,

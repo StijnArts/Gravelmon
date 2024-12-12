@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.13333333333333333,
+  "baseScale": 0.025,
   "cannotDynamax": false,
   "abilities": [
     "scavenger",
@@ -35,7 +35,14 @@
     "monster"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:raw_cod",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:bite",
@@ -108,7 +115,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.barracute.desc1"
+    "cobblemon.species.barracute.desc"
   ],
   "height": 8,
   "weight": 168,

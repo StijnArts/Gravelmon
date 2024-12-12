@@ -31,7 +31,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -65,7 +65,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabeliansandygast.desc1"
+        "cobblemon.species.fabeliansandygast.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -113,7 +113,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -147,7 +147,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mahaliansandygast.desc1"
+        "cobblemon.species.mahaliansandygast.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -291,7 +291,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochsandygast.desc1"
+        "cobblemon.species.epochsandygast.desc"
       ],
       "height": 5,
       "weight": 700,
@@ -300,9 +300,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochsandygast_epoch_palossand",
+          "id": "epochsandygast_palossand_epoch",
           "variant": "level_up",
-          "result": "epoch palossand",
+          "result": "palossand epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -401,7 +401,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.qamoransandygast.desc1"
+        "cobblemon.species.qamoransandygast.desc"
       ],
       "height": 5,
       "weight": 165,

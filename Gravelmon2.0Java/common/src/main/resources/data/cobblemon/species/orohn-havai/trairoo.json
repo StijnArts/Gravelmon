@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "chiroo",
-  "baseScale": 0.19999999999999998,
+  "baseScale": 9.6,
   "cannotDynamax": false,
   "abilities": [
     "healer",
@@ -58,7 +58,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.trairoo.desc1"
+    "cobblemon.species.trairoo.desc"
   ],
   "height": 12,
   "weight": 165,

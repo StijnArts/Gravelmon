@@ -41,7 +41,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -75,7 +75,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.aromianchimecho.desc1"
+        "cobblemon.species.aromianchimecho.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -123,6 +123,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "chingling form=epoch",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -205,10 +206,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochchimecho.desc1"
+        "cobblemon.species.epochchimecho.desc"
       ],
       "height": 6,
       "weight": 10,

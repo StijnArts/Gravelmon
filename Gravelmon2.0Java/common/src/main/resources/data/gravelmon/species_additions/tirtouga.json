@@ -119,7 +119,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochtirtouga.desc1"
+        "cobblemon.species.epochtirtouga.desc"
       ],
       "height": 7,
       "weight": 165,
@@ -128,9 +128,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochtirtouga_epoch_carracosta",
+          "id": "epochtirtouga_carracosta_epoch",
           "variant": "level_up",
-          "result": "epoch carracosta",
+          "result": "carracosta epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

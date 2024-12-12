@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "rolycoly form=epoch",
       "baseScale": 0.18333333333333335,
       "cannotDynamax": false,
       "abilities": [
@@ -95,10 +96,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochcarkol.desc1"
+        "cobblemon.species.epochcarkol.desc"
       ],
       "height": 11,
       "weight": 780,
@@ -107,9 +110,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochcarkol_epoch_coalossal",
+          "id": "epochcarkol_coalossal_epoch",
           "variant": "level_up",
-          "result": "epoch coalossal",
+          "result": "coalossal epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "doppole",
-  "baseScale": 0.15,
+  "baseScale": 0.028124999999999997,
   "cannotDynamax": false,
   "abilities": [
     "klutz",
@@ -36,7 +36,24 @@
     "fairy"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:poke_ball",
+        "quantityRange": "1-2",
+        "percentage": 40
+      },
+      {
+        "item": "cobblemon:great_ball",
+        "quantityRange": "1-2",
+        "percentage": 30
+      },
+      {
+        "item": "cobblemon:ultra_ball",
+        "quantityRange": "1-2",
+        "percentage": 10
+      }
+    ]
   },
   "moves": [
     "1:rage",
@@ -134,7 +151,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.artifish.desc1"
+    "cobblemon.species.artifish.desc"
   ],
   "height": 9,
   "weight": 501,

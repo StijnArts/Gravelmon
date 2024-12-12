@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "maritide",
-  "baseScale": 0.26666666666666666,
+  "baseScale": 12.8,
   "cannotDynamax": false,
   "abilities": [
     "torrent",
@@ -67,7 +67,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.reefallion.desc1"
+    "cobblemon.species.reefallion.desc"
   ],
   "height": 16,
   "weight": 165,

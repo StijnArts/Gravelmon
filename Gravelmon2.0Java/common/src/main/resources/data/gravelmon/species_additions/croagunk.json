@@ -136,7 +136,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochcroagunk.desc1"
+        "cobblemon.species.epochcroagunk.desc"
       ],
       "height": 7,
       "weight": 230,
@@ -145,9 +145,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochcroagunk_epoch_toxicroak",
+          "id": "epochcroagunk_toxicroak_epoch",
           "variant": "level_up",
-          "result": "epoch toxicroak",
+          "result": "toxicroak epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -198,7 +198,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.0875,
       "cannotDynamax": false,
       "abilities": [
         "magmaarmor",
@@ -313,7 +313,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltacroagunk.desc1"
+        "cobblemon.species.deltacroagunk.desc"
       ],
       "height": 7,
       "weight": 230,

@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "gothorita form=epoch",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -109,10 +110,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochgothitelle.desc1"
+        "cobblemon.species.epochgothitelle.desc"
       ],
       "height": 15,
       "weight": 440,
@@ -264,7 +267,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochgothitelleone.desc1"
+        "cobblemon.species.epochgothitelleone.desc"
       ],
       "height": 15,
       "weight": 440,
@@ -361,7 +364,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.africanusangothitelle.desc1"
+        "cobblemon.species.africanusangothitelle.desc"
       ],
       "height": 15,
       "weight": 440,
@@ -463,7 +466,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.cefirangothitelle.desc1"
+        "cobblemon.species.cefirangothitelle.desc"
       ],
       "height": 15,
       "weight": 440,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "colistroid",
-  "baseScale": 0.35000000000000003,
+  "baseScale": 16.8,
   "cannotDynamax": false,
   "abilities": [
     "analytic",
@@ -61,7 +61,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.galixoid.desc1"
+    "cobblemon.species.galixoid.desc"
   ],
   "height": 21,
   "weight": 165,

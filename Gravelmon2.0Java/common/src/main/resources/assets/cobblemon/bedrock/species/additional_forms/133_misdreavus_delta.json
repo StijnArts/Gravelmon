@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:misdreavus",
-  "order": 3,
+  "order": 133,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:deltamisdreavus.geo",
+      "model": "cobblemon:generation2_deltamisdreavus.geo",
       "poser": "cobblemon:generation2_deltamisdreavus",
       "texture": "cobblemon:textures/pokemon/generation2/deltamisdreavus/deltamisdreavus.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,7 +29,7 @@
           "name": "flame"
         },
         {
-          "name": "tail"
+          "name": "glow"
         }
       ]
     },
@@ -35,18 +38,21 @@
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:deltamisdreavus.geo",
+      "model": "cobblemon:generation2_deltamisdreavus.geo",
       "poser": "cobblemon:generation2_deltamisdreavus",
       "texture": "cobblemon:textures/pokemon/generation2/deltamisdreavus/deltamisdreavus_shiny.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -55,7 +61,7 @@
           "name": "flame"
         },
         {
-          "name": "tail"
+          "name": "glow"
         }
       ]
     }

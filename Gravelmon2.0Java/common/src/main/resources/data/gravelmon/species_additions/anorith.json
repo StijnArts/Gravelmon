@@ -124,7 +124,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochanorith.desc1"
+        "cobblemon.species.epochanorith.desc"
       ],
       "height": 7,
       "weight": 125,
@@ -133,9 +133,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochanorith_epoch_armaldo",
+          "id": "epochanorith_armaldo_epoch",
           "variant": "level_up",
-          "result": "epoch armaldo",
+          "result": "armaldo epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -248,7 +248,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.hiziananorith.desc1"
+        "cobblemon.species.hiziananorith.desc"
       ],
       "height": 10,
       "weight": 165,

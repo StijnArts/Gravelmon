@@ -10,8 +10,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "rattata form\u003dpalmian",
-      "baseScale": 0.2333333333333333,
+      "preEvolution": "rattata form=palmian",
+      "baseScale": 0.04375,
       "cannotDynamax": false,
       "abilities": [
         "poisontouch"
@@ -47,7 +47,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.palmianraticate.desc1"
+        "cobblemon.species.palmianraticate.desc"
       ],
       "height": 14,
       "weight": 0,
@@ -110,6 +110,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "rattata form=epoch",
       "baseScale": 0.11666666666666665,
       "cannotDynamax": false,
       "abilities": [
@@ -212,10 +213,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochraticate.desc1"
+        "cobblemon.species.epochraticate.desc"
       ],
       "height": 7,
       "weight": 185,
@@ -359,7 +362,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.kaskadianraticate.desc1"
+        "cobblemon.species.kaskadianraticate.desc"
       ],
       "height": 7,
       "weight": 401,

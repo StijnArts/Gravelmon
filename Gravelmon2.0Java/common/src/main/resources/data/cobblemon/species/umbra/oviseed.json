@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "harvest",
@@ -86,7 +86,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.oviseed.desc1"
+    "cobblemon.species.oviseed.desc"
   ],
   "height": 4,
   "weight": 115,

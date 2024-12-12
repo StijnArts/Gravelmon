@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "techlyte",
-  "baseScale": 0.31666666666666665,
+  "baseScale": 0.059375,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -47,7 +47,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.technaut.desc1"
+    "cobblemon.species.technaut.desc"
   ],
   "height": 19,
   "weight": 0,

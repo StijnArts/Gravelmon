@@ -1,48 +1,48 @@
 {
-  "portraitScale": 1.6,
-  "portraitTranslation": [-0.2, -0.7, 0.0],
-  "profileScale": 0.6,
-  "profileTranslation": [0.0, 0.5, 0.0],
+  "portraitScale": 1.600000023841858,
+  "portraitTranslation": [
+    -0.2,
+    -0.7,
+    0.0
+  ],
+  "profileScale": 0.6000000238418579,
+  "profileTranslation": [
+    0.0,
+    0.5,
+    0.0
+  ],
   "poses": {
     "standing": {
       "poseName": "standing",
-      "transformTicks": 10,
-      "poseTypes": ["STAND", "NONE",  "WALK","SWIM", "PROFILE", "FLOAT"],
       "animations": [
         "bedrock(chinchou_delta, ground_idle)"
       ],
+      "transformTicks": 10,
+      "allPoseTypes": true,
       "quirks": [
         {
-          "name": "blink",
-          "animations": ["bedrock(chinchou_delta, blink)"]
+          "animations": [
+            "bedrock(chinchou_delta, blink)"
+          ],
+          "name": "blink"
         }
       ]
     },
     "hovering": {
       "poseName": "hovering",
-      "transformTicks": 10,
-      "poseTypes": ["HOVER"],
       "animations": [
-        "bedrock(chinchou_delta, hover)"
+        "bedrock(chinchou_delta, air_idle)"
       ],
-      "quirks": [
-        {
-          "name": "blink",
-          "animations": ["bedrock(chinchou_delta, blink)"]
-        }
-      ]
-    },
-    "flying": {
-      "poseName": "flying",
+      "poseTypes": [
+        "HOVER"
+      ],
       "transformTicks": 10,
-      "poseTypes": ["FLY"],
-      "animations":[
-        "bedrock(chinchou_delta, ground_idle)"
-      ],
       "quirks": [
         {
-          "name": "blink",
-          "animations": ["bedrock(chinchou_delta, blink)"]
+          "animations": [
+            "bedrock(chinchou_delta, blink)"
+          ],
+          "name": "blink"
         }
       ]
     }

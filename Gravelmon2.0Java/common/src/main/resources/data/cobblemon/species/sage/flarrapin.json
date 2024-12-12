@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "shelosene",
-  "baseScale": 0.2833333333333333,
+  "baseScale": 0.053125,
   "cannotDynamax": false,
   "abilities": [
     "shellarmor",
@@ -36,7 +36,14 @@
     "monster"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:obsidian",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:heavyslam",
@@ -132,7 +139,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.flarrapin.desc1"
+    "cobblemon.species.flarrapin.desc"
   ],
   "height": 17,
   "weight": 1526,

@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "mimejr form=epoch",
       "baseScale": 0.21666666666666667,
       "cannotDynamax": false,
       "abilities": [
@@ -37,7 +38,16 @@
       "eggGroups": [
         "human_like"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:ocarina",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
+      },
       "moves": [
         "36:soundbarrier",
         "4:encore",
@@ -123,10 +133,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochmrmime.desc1"
+        "cobblemon.species.epochmrmime.desc"
       ],
       "height": 13,
       "weight": 545,
@@ -135,9 +147,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmrmime_epoch_mrrime",
+          "id": "epochmrmime_mrrime_epoch",
           "variant": "item_interact",
-          "result": "epoch mrrime",
+          "result": "mrrime epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -249,7 +261,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.avorianmrmime.desc1"
+        "cobblemon.species.avorianmrmime.desc"
       ],
       "height": 14,
       "weight": 590,

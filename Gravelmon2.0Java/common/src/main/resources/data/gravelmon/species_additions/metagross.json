@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -47,7 +47,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianmetagross.desc1"
+        "cobblemon.species.fabelianmetagross.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -95,6 +95,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "metang form=epoch",
       "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -204,10 +205,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochmetagross.desc1"
+        "cobblemon.species.epochmetagross.desc"
       ],
       "height": 16,
       "weight": 5500,
@@ -255,8 +258,8 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "metang form\u003ddelta_spider",
-      "baseScale": 0.25,
+      "preEvolution": "metang form=delta_spider",
+      "baseScale": 0.1875,
       "cannotDynamax": false,
       "abilities": [
         "poisontouch",
@@ -394,7 +397,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltaspidermetagross.desc1"
+        "cobblemon.species.deltaspidermetagross.desc"
       ],
       "height": 15,
       "weight": 2250,
@@ -442,7 +445,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "metang form\u003ddelta_ruin",
+      "preEvolution": "metang form=delta_ruin",
       "baseScale": 1.3,
       "cannotDynamax": false,
       "abilities": [
@@ -582,7 +585,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltaruinmetagross.desc1"
+        "cobblemon.species.deltaruinmetagross.desc"
       ],
       "height": 16,
       "weight": 5500,

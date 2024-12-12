@@ -11,7 +11,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "togepi form\u003dvaritasian",
+      "preEvolution": "togepi form=varitasian",
       "baseScale": 0.13333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -156,7 +156,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.varitasiantogetic.desc1"
+        "cobblemon.species.varitasiantogetic.desc"
       ],
       "height": 8,
       "weight": 165,
@@ -219,7 +219,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "togepi form\u003dhubian",
+      "preEvolution": "togepi form=hubian",
       "baseScale": 0.13333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -248,7 +248,14 @@
         "fairy"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:golden_feather",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
       },
       "moves": [
         "1:magicalleaf",
@@ -372,7 +379,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.hubiantogetic.desc1"
+        "cobblemon.species.hubiantogetic.desc"
       ],
       "height": 8,
       "weight": 165,
@@ -572,7 +579,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiantogetic.desc1"
+        "cobblemon.species.ayreiantogetic.desc"
       ],
       "height": 6,
       "weight": 32,

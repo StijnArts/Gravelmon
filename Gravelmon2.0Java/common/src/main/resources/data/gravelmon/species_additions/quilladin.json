@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "chespin form=epoch",
       "baseScale": 0.11666666666666665,
       "cannotDynamax": false,
       "abilities": [
@@ -109,10 +110,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochquilladin.desc1"
+        "cobblemon.species.epochquilladin.desc"
       ],
       "height": 7,
       "weight": 290,
@@ -121,9 +124,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochquilladin_epoch_chesnaught",
+          "id": "epochquilladin_chesnaught_epoch",
           "variant": "level_up",
-          "result": "epoch chesnaught",
+          "result": "chesnaught epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -223,7 +226,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.vesitanquilladin.desc1"
+        "cobblemon.species.vesitanquilladin.desc"
       ],
       "height": 7,
       "weight": 290,

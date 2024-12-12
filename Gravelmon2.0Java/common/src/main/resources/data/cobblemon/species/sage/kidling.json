@@ -33,7 +33,19 @@
     "field"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:flint",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "egg:doublekick",
@@ -103,7 +115,7 @@
     "sage"
   ],
   "pokedex": [
-    "cobblemon.species.kidling.desc1"
+    "cobblemon.species.kidling.desc"
   ],
   "height": 4,
   "weight": 52,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "mercryni",
-  "baseScale": 0.3833333333333333,
+  "baseScale": 0.071875,
   "cannotDynamax": false,
   "abilities": [
     "corrosion",
@@ -61,7 +61,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.meraculisk.desc1"
+    "cobblemon.species.meraculisk.desc"
   ],
   "height": 23,
   "weight": 1718,

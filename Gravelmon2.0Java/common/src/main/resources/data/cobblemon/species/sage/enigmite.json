@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 51,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "compoundeyes",
@@ -34,7 +34,14 @@
     "bug"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:scratch",
@@ -99,7 +106,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.enigmite.desc1"
+    "cobblemon.species.enigmite.desc"
   ],
   "height": 3,
   "weight": 24,

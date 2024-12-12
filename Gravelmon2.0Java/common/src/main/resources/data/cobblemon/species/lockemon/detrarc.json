@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "tooburm",
-  "baseScale": 0.13333333333333333,
+  "baseScale": 0.025,
   "cannotDynamax": false,
   "abilities": [
     "energizer",
@@ -63,7 +63,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.detrarc.desc1"
+    "cobblemon.species.detrarc.desc"
   ],
   "height": 8,
   "weight": 121,

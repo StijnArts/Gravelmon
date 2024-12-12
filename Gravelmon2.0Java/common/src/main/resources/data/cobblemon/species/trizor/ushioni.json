@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "stoni",
-  "baseScale": 0.26666666666666666,
+  "baseScale": 0.05,
   "cannotDynamax": false,
   "abilities": [
     "toughclaws"
@@ -45,7 +45,7 @@
     "trizor"
   ],
   "pokedex": [
-    "cobblemon.species.ushioni.desc1"
+    "cobblemon.species.ushioni.desc"
   ],
   "height": 16,
   "weight": 0,

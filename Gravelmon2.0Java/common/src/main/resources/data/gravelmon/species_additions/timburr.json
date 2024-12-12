@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabeliantimburr.desc1"
+        "cobblemon.species.fabeliantimburr.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -196,7 +196,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochtimburr.desc1"
+        "cobblemon.species.epochtimburr.desc"
       ],
       "height": 6,
       "weight": 125,
@@ -205,9 +205,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochtimburr_epoch_gurdurr",
+          "id": "epochtimburr_gurdurr_epoch",
           "variant": "level_up",
-          "result": "epoch gurdurr",
+          "result": "gurdurr epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -365,7 +365,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochtimburrone.desc1"
+        "cobblemon.species.epochtimburrone.desc"
       ],
       "height": 6,
       "weight": 125,
@@ -538,7 +538,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiantimburr.desc1"
+        "cobblemon.species.ayreiantimburr.desc"
       ],
       "height": 6,
       "weight": 125,

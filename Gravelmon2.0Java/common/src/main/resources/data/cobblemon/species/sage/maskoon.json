@@ -8,7 +8,7 @@
   "eggCycles": 39,
   "baseFriendship": 70,
   "preEvolution": "skullarva",
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "intimidate",
@@ -34,7 +34,14 @@
     "bug"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:astonish",
@@ -59,7 +66,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.maskoon.desc1"
+    "cobblemon.species.maskoon.desc"
   ],
   "height": 5,
   "weight": 80,

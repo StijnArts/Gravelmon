@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.2833333333333333,
+  "baseScale": 0.053125,
   "cannotDynamax": false,
   "abilities": [
     "sturdy"
@@ -46,7 +46,7 @@
     "palmia"
   ],
   "pokedex": [
-    "cobblemon.species.colloestamp.desc1"
+    "cobblemon.species.colloestamp.desc"
   ],
   "height": 17,
   "weight": 0,

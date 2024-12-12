@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "depressoul",
-  "baseScale": 0.21666666666666667,
+  "baseScale": 0.040625,
   "cannotDynamax": false,
   "abilities": [
     "insomnia",
@@ -112,7 +112,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.spectorment.desc1"
+    "cobblemon.species.spectorment.desc"
   ],
   "height": 13,
   "weight": 445,

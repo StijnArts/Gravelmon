@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 38,
   "baseFriendship": 70,
-  "baseScale": 0.16666666666666666,
+  "baseScale": 0.03125,
   "cannotDynamax": false,
   "abilities": [
     "synchronize",
@@ -36,7 +36,14 @@
     "dragon"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:defensecurl",
@@ -124,7 +131,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.cobrasket.desc1"
+    "cobblemon.species.cobrasket.desc"
   ],
   "height": 10,
   "weight": 52,

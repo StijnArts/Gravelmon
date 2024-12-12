@@ -121,7 +121,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochbudew.desc1"
+        "cobblemon.species.epochbudew.desc"
       ],
       "height": 2,
       "weight": 12,
@@ -130,9 +130,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochbudew_epoch_roselia",
+          "id": "epochbudew_roselia_epoch",
           "variant": "level_up",
-          "result": "epoch roselia",
+          "result": "roselia epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -289,7 +289,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochbudewone.desc1"
+        "cobblemon.species.epochbudewone.desc"
       ],
       "height": 2,
       "weight": 12,
@@ -352,7 +352,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "shadowdance",
@@ -462,7 +462,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltabudew.desc1"
+        "cobblemon.species.deltabudew.desc"
       ],
       "height": 2,
       "weight": 12,
@@ -525,7 +525,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 26,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "serenegrace",
@@ -587,7 +587,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.budewx.desc1"
+        "cobblemon.species.budewx.desc"
       ],
       "height": 2,
       "weight": 12,
@@ -739,7 +739,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianbudew.desc1"
+        "cobblemon.species.ayreianbudew.desc"
       ],
       "height": 2,
       "weight": 12,
@@ -882,7 +882,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.relicbudew.desc1"
+        "cobblemon.species.relicbudew.desc"
       ],
       "height": 9,
       "weight": 130,

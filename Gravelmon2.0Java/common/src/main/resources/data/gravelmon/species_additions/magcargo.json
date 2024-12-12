@@ -41,6 +41,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "slugma form=epoch",
       "baseScale": 0.13333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -122,10 +123,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochmagcargo.desc1"
+        "cobblemon.species.epochmagcargo.desc"
       ],
       "height": 8,
       "weight": 550,
@@ -290,7 +293,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochmagcargoone.desc1"
+        "cobblemon.species.epochmagcargoone.desc"
       ],
       "height": 8,
       "weight": 550,
@@ -338,7 +341,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "slugma form\u003dcefiran",
+      "preEvolution": "slugma form=cefiran",
       "baseScale": 0.13333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -402,7 +405,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.cefiranmagcargo.desc1"
+        "cobblemon.species.cefiranmagcargo.desc"
       ],
       "height": 8,
       "weight": 550,

@@ -10,7 +10,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -43,7 +43,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabeliansnorunt.desc1"
+        "cobblemon.species.fabeliansnorunt.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -194,7 +194,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochsnorunt.desc1"
+        "cobblemon.species.epochsnorunt.desc"
       ],
       "height": 7,
       "weight": 168,
@@ -203,15 +203,15 @@
       ],
       "evolutions": [
         {
-          "id": "epochsnorunt_epoch_glalie",
+          "id": "epochsnorunt_glalie_epoch",
           "variant": "item_interact",
-          "result": "epoch glalie",
+          "result": "glalie epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
             {
               "variant": "properties",
-              "target": "gender\u003dmale",
+              "target": "gender=male",
               "contains": true
             }
           ],
@@ -219,15 +219,15 @@
           "permanent": true
         },
         {
-          "id": "epochsnorunt_epoch_froslass",
+          "id": "epochsnorunt_froslass_epoch",
           "variant": "item_interact",
-          "result": "epoch froslass",
+          "result": "froslass epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
             {
               "variant": "properties",
-              "target": "gender\u003dfemale",
+              "target": "gender=female",
               "contains": true
             }
           ],
@@ -274,7 +274,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.0875,
       "cannotDynamax": false,
       "abilities": [
         "whitesmoke",
@@ -371,7 +371,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltasnorunt.desc1"
+        "cobblemon.species.deltasnorunt.desc"
       ],
       "height": 7,
       "weight": 168,
@@ -402,7 +402,7 @@
           "requirements": [
             {
               "variant": "properties",
-              "target": "gender\u003dfemale",
+              "target": "gender=female",
               "contains": true
             }
           ],
@@ -548,7 +548,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiansnorunt.desc1"
+        "cobblemon.species.ayreiansnorunt.desc"
       ],
       "height": 7,
       "weight": 168,
@@ -667,7 +667,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.cefiransnorunt.desc1"
+        "cobblemon.species.cefiransnorunt.desc"
       ],
       "height": 7,
       "weight": 168,

@@ -10,7 +10,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -43,7 +43,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formantotodile.desc1"
+        "cobblemon.species.formantotodile.desc"
       ],
       "height": 6,
       "weight": 0,
@@ -224,7 +224,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochtotodile.desc1"
+        "cobblemon.species.epochtotodile.desc"
       ],
       "height": 6,
       "weight": 95,
@@ -233,9 +233,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochtotodile_epoch_croconaw",
+          "id": "epochtotodile_croconaw_epoch",
           "variant": "level_up",
-          "result": "epoch croconaw",
+          "result": "croconaw epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -397,7 +397,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochtotodileone.desc1"
+        "cobblemon.species.epochtotodileone.desc"
       ],
       "height": 6,
       "weight": 95,
@@ -494,7 +494,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ionosiantotodile.desc1"
+        "cobblemon.species.ionosiantotodile.desc"
       ],
       "height": 4,
       "weight": 0,
@@ -584,7 +584,14 @@
         "water_1"
       ],
       "drops": {
-        "amount": 2
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:leather",
+            "quantityRange": "1-2",
+            "percentage": 50
+          }
+        ]
       },
       "moves": [
         "1:agility",
@@ -687,7 +694,7 @@
         "infinity"
       ],
       "pokedex": [
-        "cobblemon.species.eghototodile.desc1"
+        "cobblemon.species.eghototodile.desc"
       ],
       "height": 6,
       "weight": 95,
@@ -863,7 +870,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiantotodile.desc1"
+        "cobblemon.species.ayreiantotodile.desc"
       ],
       "height": 6,
       "weight": 95,

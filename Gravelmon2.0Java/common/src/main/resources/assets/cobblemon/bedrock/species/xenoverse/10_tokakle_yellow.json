@@ -5,17 +5,33 @@
     {
       "aspects": [
         "yellow"
-     ],
-      "poser": "cobblemon:xenoverse_tokakle",
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/pokemon/xenoverse/yellow_tokakle.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "yellow",
-        "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/xenoverse/yellow_tokakle_shiny.png"
-    }  ]
+      "model": "cobblemon:cutout_gravelmon_512_by_512.geo",
+      "poser": "cobblemon:cutout_gravelmon_512_by_512",
+      "texture": "cobblemon:textures/pokemon/xenoverse/yellow.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
+    }
+  ]
 }

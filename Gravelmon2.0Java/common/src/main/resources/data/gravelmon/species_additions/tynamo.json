@@ -124,7 +124,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochtynamo.desc1"
+        "cobblemon.species.epochtynamo.desc"
       ],
       "height": 2,
       "weight": 3,
@@ -133,9 +133,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochtynamo_epoch_eelektrik",
+          "id": "epochtynamo_eelektrik_epoch",
           "variant": "level_up",
-          "result": "epoch eelektrik",
+          "result": "eelektrik epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -223,7 +223,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.varitasiantynamo.desc1"
+        "cobblemon.species.varitasiantynamo.desc"
       ],
       "height": 2,
       "weight": 165,
@@ -354,7 +354,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.hoenniantynamo.desc1"
+        "cobblemon.species.hoenniantynamo.desc"
       ],
       "height": 1,
       "weight": 6,

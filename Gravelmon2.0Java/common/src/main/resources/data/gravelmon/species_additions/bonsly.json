@@ -124,7 +124,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochbonsly.desc1"
+        "cobblemon.species.epochbonsly.desc"
       ],
       "height": 5,
       "weight": 150,
@@ -133,9 +133,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochbonsly_epoch_sudowoodo",
+          "id": "epochbonsly_sudowoodo_epoch",
           "variant": "level_up",
-          "result": "epoch sudowoodo",
+          "result": "sudowoodo epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -284,7 +284,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.novranbonsly.desc1"
+        "cobblemon.species.novranbonsly.desc"
       ],
       "height": 5,
       "weight": 165,

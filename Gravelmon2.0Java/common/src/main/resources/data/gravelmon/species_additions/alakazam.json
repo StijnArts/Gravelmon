@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "kadabra form=epoch",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -100,10 +101,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochalakazam.desc1"
+        "cobblemon.species.epochalakazam.desc"
       ],
       "height": 15,
       "weight": 480,
@@ -151,7 +154,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "kadabra form\u003dayreian",
+      "preEvolution": "kadabra form=ayreian",
       "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -289,7 +292,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianalakazam.desc1"
+        "cobblemon.species.ayreianalakazam.desc"
       ],
       "height": 16,
       "weight": 480,

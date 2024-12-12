@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.3833333333333333,
+  "baseScale": 0.071875,
   "cannotDynamax": false,
   "abilities": [
     "regenerator"
@@ -33,7 +33,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:decorated_pot_sherds",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:lowkick",
@@ -46,7 +53,7 @@
     "norse"
   ],
   "pokedex": [
-    "cobblemon.species.vesfight.desc1"
+    "cobblemon.species.vesfight.desc"
   ],
   "height": 23,
   "weight": 0,

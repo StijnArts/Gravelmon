@@ -126,7 +126,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochcleffa.desc1"
+        "cobblemon.species.epochcleffa.desc"
       ],
       "height": 3,
       "weight": 30,
@@ -135,9 +135,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochcleffa_epoch_clefairy",
+          "id": "epochcleffa_clefairy_epoch",
           "variant": "level_up",
-          "result": "epoch clefairy",
+          "result": "clefairy epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

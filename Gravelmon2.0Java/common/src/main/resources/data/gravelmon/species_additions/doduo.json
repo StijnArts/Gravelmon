@@ -29,7 +29,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "kiddu",
-      "baseScale": 0.26666666666666666,
+      "baseScale": 0.05,
       "cannotDynamax": false,
       "abilities": [
         "icebody"
@@ -67,7 +67,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formandoduo.desc1"
+        "cobblemon.species.formandoduo.desc"
       ],
       "height": 16,
       "weight": 0,
@@ -225,7 +225,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochdoduo.desc1"
+        "cobblemon.species.epochdoduo.desc"
       ],
       "height": 14,
       "weight": 392,
@@ -234,9 +234,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochdoduo_epoch_dodrio",
+          "id": "epochdoduo_dodrio_epoch",
           "variant": "item_interact",
-          "result": "epoch dodrio",
+          "result": "dodrio epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -387,7 +387,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochdoduoone.desc1"
+        "cobblemon.species.epochdoduoone.desc"
       ],
       "height": 14,
       "weight": 392,
@@ -562,7 +562,7 @@
         "insurgence"
       ],
       "pokedex": [
-        "cobblemon.species.deltadoduo.desc1"
+        "cobblemon.species.deltadoduo.desc"
       ],
       "height": 14,
       "weight": 392,
@@ -722,7 +722,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.seviiandoduo.desc1"
+        "cobblemon.species.seviiandoduo.desc"
       ],
       "height": 14,
       "weight": 392,
@@ -876,7 +876,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiandoduo.desc1"
+        "cobblemon.species.ayreiandoduo.desc"
       ],
       "height": 16,
       "weight": 352,

@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "magikarp form\u003dpalmian",
-  "baseScale": 0.7333333333333334,
+  "preEvolution": "magikarp form=palmian",
+  "baseScale": 0.1375,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -47,7 +47,7 @@
     "palmia"
   ],
   "pokedex": [
-    "cobblemon.species.bahmut.desc1"
+    "cobblemon.species.bahmut.desc"
   ],
   "height": 44,
   "weight": 0,

@@ -11,6 +11,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "eelektrik form=epoch",
       "baseScale": 0.35000000000000003,
       "cannotDynamax": false,
       "abilities": [
@@ -119,10 +120,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epocheelektross.desc1"
+        "cobblemon.species.epocheelektross.desc"
       ],
       "height": 21,
       "weight": 805,
@@ -170,7 +173,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "eelektrik form\u003dvaritasian",
+      "preEvolution": "eelektrik form=varitasian",
       "baseScale": 0.35000000000000003,
       "cannotDynamax": false,
       "abilities": [
@@ -261,7 +264,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.varitasianeelektross.desc1"
+        "cobblemon.species.varitasianeelektross.desc"
       ],
       "height": 21,
       "weight": 165,
@@ -309,7 +312,7 @@
       "experienceGroup": "slow",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "preEvolution": "eelektrik form\u003dhoennian",
+      "preEvolution": "eelektrik form=hoennian",
       "baseScale": 3.15,
       "cannotDynamax": false,
       "abilities": [
@@ -390,7 +393,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.hoennianeelektross.desc1"
+        "cobblemon.species.hoennianeelektross.desc"
       ],
       "height": 189,
       "weight": 6979,

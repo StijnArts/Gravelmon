@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "swarm",
@@ -43,7 +43,7 @@
     "palmia"
   ],
   "pokedex": [
-    "cobblemon.species.garupa.desc1"
+    "cobblemon.species.garupa.desc"
   ],
   "height": 3,
   "weight": 0,

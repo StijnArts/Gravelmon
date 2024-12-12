@@ -125,7 +125,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochturtwig.desc1"
+        "cobblemon.species.epochturtwig.desc"
       ],
       "height": 4,
       "weight": 102,
@@ -134,9 +134,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochturtwig_epoch_grotle",
+          "id": "epochturtwig_grotle_epoch",
           "variant": "level_up",
-          "result": "epoch grotle",
+          "result": "grotle epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -188,7 +188,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "waterabsorb",
@@ -287,7 +287,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltaturtwig.desc1"
+        "cobblemon.species.deltaturtwig.desc"
       ],
       "height": 4,
       "weight": 102,

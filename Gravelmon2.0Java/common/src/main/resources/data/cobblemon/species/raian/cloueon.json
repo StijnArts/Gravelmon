@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -32,7 +32,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:shiny_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:gust",
@@ -43,7 +50,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.cloueon.desc1"
+    "cobblemon.species.cloueon.desc"
   ],
   "height": 0,
   "weight": 0,

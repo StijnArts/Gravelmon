@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.18333333333333335,
+  "baseScale": 0.034375,
   "cannotDynamax": false,
   "abilities": [
     "disguise"
@@ -103,7 +103,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.mimectar.desc1"
+    "cobblemon.species.mimectar.desc"
   ],
   "height": 11,
   "weight": 522,

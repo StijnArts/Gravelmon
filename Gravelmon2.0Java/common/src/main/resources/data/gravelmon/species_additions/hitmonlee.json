@@ -11,8 +11,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "tyrogue form\u003dforman",
-      "baseScale": 0.3,
+      "preEvolution": "tyrogue form=forman",
+      "baseScale": 0.056249999999999994,
       "cannotDynamax": false,
       "abilities": [
         "swiftswim"
@@ -48,7 +48,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formanhitmonlee.desc1"
+        "cobblemon.species.formanhitmonlee.desc"
       ],
       "height": 18,
       "weight": 0,
@@ -96,6 +96,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "tyrogue form=epoch",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -122,7 +123,16 @@
       "eggGroups": [
         "human_like"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:air_stone",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
+      },
       "moves": [
         "32:zenheadbutt",
         "1:vitalthrow",
@@ -198,10 +208,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochhitmonlee.desc1"
+        "cobblemon.species.epochhitmonlee.desc"
       ],
       "height": 15,
       "weight": 498,
@@ -249,7 +261,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "tyrogue form\u003dqamoran",
+      "preEvolution": "tyrogue form=qamoran",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -306,7 +318,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.qamoranhitmonlee.desc1"
+        "cobblemon.species.qamoranhitmonlee.desc"
       ],
       "height": 15,
       "weight": 165,
@@ -353,7 +365,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "tyrogue form\u003dvaritasian",
+      "preEvolution": "tyrogue form=varitasian",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -476,7 +488,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.varitasianhitmonlee.desc1"
+        "cobblemon.species.varitasianhitmonlee.desc"
       ],
       "height": 15,
       "weight": 165,
@@ -638,7 +650,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianhitmonlee.desc1"
+        "cobblemon.species.ayreianhitmonlee.desc"
       ],
       "height": 15,
       "weight": 498,

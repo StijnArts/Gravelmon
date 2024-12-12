@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.13333333333333333,
+  "baseScale": 0.025,
   "cannotDynamax": false,
   "abilities": [
     "poisontouch",
@@ -59,7 +59,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.qayagus.desc1"
+    "cobblemon.species.qayagus.desc"
   ],
   "height": 8,
   "weight": 121,

@@ -37,7 +37,14 @@
     "grass"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:coconut_milk",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:sandstorm",
@@ -127,7 +134,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.cocancer.desc1"
+    "cobblemon.species.cocancer.desc"
   ],
   "height": 37,
   "weight": 2402,

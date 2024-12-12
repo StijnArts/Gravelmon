@@ -11,8 +11,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "chinchou form\u003draianian",
-      "baseScale": 0.2333333333333333,
+      "preEvolution": "chinchou form=raianian",
+      "baseScale": 0.04375,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -48,7 +48,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.raianianlanturn.desc1"
+        "cobblemon.species.raianianlanturn.desc"
       ],
       "height": 14,
       "weight": 0,
@@ -130,7 +130,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mastenianlanturn.desc1"
+        "cobblemon.species.mastenianlanturn.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -178,6 +178,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "chinchou form=epoch",
       "baseScale": 0.19999999999999998,
       "cannotDynamax": false,
       "abilities": [
@@ -290,10 +291,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochlanturn.desc1"
+        "cobblemon.species.epochlanturn.desc"
       ],
       "height": 12,
       "weight": 225,
@@ -341,7 +344,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "chinchou form\u003ddelta",
+      "preEvolution": "chinchou form=delta",
       "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
@@ -461,7 +464,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltalanturn.desc1"
+        "cobblemon.species.deltalanturn.desc"
       ],
       "height": 12,
       "weight": 225,
@@ -509,7 +512,7 @@
       "experienceGroup": "slow",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "preEvolution": "chinchou form\u003dhoennian",
+      "preEvolution": "chinchou form=hoennian",
       "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -584,7 +587,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.hoennianlanturn.desc1"
+        "cobblemon.species.hoennianlanturn.desc"
       ],
       "height": 16,
       "weight": 29,

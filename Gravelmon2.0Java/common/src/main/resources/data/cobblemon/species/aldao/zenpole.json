@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -40,7 +40,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.zenpole.desc1"
+    "cobblemon.species.zenpole.desc"
   ],
   "height": 2,
   "weight": 0,
@@ -59,7 +59,7 @@
         },
         {
           "variant": "party_member",
-          "target": "type\u003dpsychic",
+          "target": "type=psychic",
           "contains": true
         }
       ],

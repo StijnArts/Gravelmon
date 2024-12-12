@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "rocroset",
-  "baseScale": 0.35000000000000003,
+  "baseScale": 16.8,
   "cannotDynamax": false,
   "abilities": [
     "leafguard",
@@ -60,7 +60,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.granderosa.desc1"
+    "cobblemon.species.granderosa.desc"
   ],
   "height": 21,
   "weight": 165,

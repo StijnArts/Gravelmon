@@ -10,7 +10,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.25,
+      "baseScale": 0.046875,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanponyta.desc1"
+        "cobblemon.species.formanponyta.desc"
       ],
       "height": 15,
       "weight": 0,
@@ -198,7 +198,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochponyta.desc1"
+        "cobblemon.species.epochponyta.desc"
       ],
       "height": 10,
       "weight": 300,
@@ -207,9 +207,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochponyta_epoch_rapidash",
+          "id": "epochponyta_rapidash_epoch",
           "variant": "level_up",
-          "result": "epoch rapidash",
+          "result": "rapidash epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -322,7 +322,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.africanusanponyta.desc1"
+        "cobblemon.species.africanusanponyta.desc"
       ],
       "height": 10,
       "weight": 300,
@@ -456,7 +456,7 @@
         "gen1"
       ],
       "pokedex": [
-        "cobblemon.species.ponytax.desc1"
+        "cobblemon.species.ponytax.desc"
       ],
       "height": 10,
       "weight": 260,

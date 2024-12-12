@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "kertruffle",
-  "baseScale": 0.18333333333333335,
+  "baseScale": 0.034375,
   "cannotDynamax": false,
   "abilities": [
     "effectspore",
@@ -36,7 +36,19 @@
     "grass"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:brown_mushroom",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:moss",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:grassknot",
@@ -108,7 +120,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.mosshroom.desc1"
+    "cobblemon.species.mosshroom.desc"
   ],
   "height": 11,
   "weight": 609,

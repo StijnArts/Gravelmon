@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pompagoon",
-  "baseScale": 0.26666666666666666,
+  "baseScale": 0.05,
   "cannotDynamax": false,
   "abilities": [
     "technician",
@@ -37,7 +37,14 @@
     "human_like"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:metalclaw",
@@ -145,7 +152,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.hyekuza.desc1"
+    "cobblemon.species.hyekuza.desc"
   ],
   "height": 16,
   "weight": 523,

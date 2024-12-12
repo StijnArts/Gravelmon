@@ -9,7 +9,7 @@
   "eggCycles": 39,
   "baseFriendship": 70,
   "preEvolution": "mightyena",
-  "baseScale": 0.3833333333333333,
+  "baseScale": 0.2875,
   "cannotDynamax": false,
   "abilities": [
     "intimidate",
@@ -36,7 +36,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:moon_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:moonblast",
@@ -156,7 +163,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.wereyena.desc1"
+    "cobblemon.species.wereyena.desc"
   ],
   "height": 23,
   "weight": 1080,

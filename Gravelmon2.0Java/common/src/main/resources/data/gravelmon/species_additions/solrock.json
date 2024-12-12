@@ -13,7 +13,14 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:sun_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "forms": [
     {
@@ -123,7 +130,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochsolrock.desc1"
+        "cobblemon.species.epochsolrock.desc"
       ],
       "height": 12,
       "weight": 1540,

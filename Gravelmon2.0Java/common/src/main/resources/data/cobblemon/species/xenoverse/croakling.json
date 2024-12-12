@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 41,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.07500000000000001,
   "cannotDynamax": false,
   "abilities": [
     "blaze",
@@ -82,7 +82,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.croakling.desc1"
+    "cobblemon.species.croakling.desc"
   ],
   "height": 4,
   "weight": 50,

@@ -7,7 +7,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "grumpig form\u003dqamoran",
+  "preEvolution": "grumpig form=qamoran",
   "baseScale": 0.31666666666666665,
   "cannotDynamax": false,
   "abilities": [
@@ -69,7 +69,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.grumpork.desc1"
+    "cobblemon.species.grumpork.desc"
   ],
   "height": 19,
   "weight": 958,

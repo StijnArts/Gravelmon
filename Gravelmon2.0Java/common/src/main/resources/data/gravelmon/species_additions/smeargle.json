@@ -26,7 +26,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -59,7 +59,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabeliansmeargle.desc1"
+        "cobblemon.species.fabeliansmeargle.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -106,7 +106,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -139,7 +139,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ivrisiansmeargle.desc1"
+        "cobblemon.species.ivrisiansmeargle.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -187,7 +187,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.2333333333333333,
+      "baseScale": 0.04375,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -221,7 +221,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formansmeargle.desc1"
+        "cobblemon.species.formansmeargle.desc"
       ],
       "height": 14,
       "weight": 0,
@@ -485,7 +485,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochsmeargle.desc1"
+        "cobblemon.species.epochsmeargle.desc"
       ],
       "height": 12,
       "weight": 580,
@@ -576,7 +576,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.hubiansmeargle.desc1"
+        "cobblemon.species.hubiansmeargle.desc"
       ],
       "height": 12,
       "weight": 165,
@@ -623,7 +623,7 @@
       "experienceGroup": "fast",
       "eggCycles": 26,
       "baseFriendship": 70,
-      "baseScale": 0.19999999999999998,
+      "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
         "immunity",
@@ -650,7 +650,14 @@
         "undiscovered"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:xenolith",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
       },
       "moves": [
         "1:lick",
@@ -693,7 +700,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.smearglex.desc1"
+        "cobblemon.species.smearglex.desc"
       ],
       "height": 12,
       "weight": 580,
@@ -796,7 +803,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.cefiransmeargle.desc1"
+        "cobblemon.species.cefiransmeargle.desc"
       ],
       "height": 12,
       "weight": 580,

@@ -1,6 +1,6 @@
 {
   "species": "cobblemon:carvanha",
-  "order": 10,
+  "order": 100,
   "variations": [
     {
       "aspects": [
@@ -9,7 +9,29 @@
       "model": "cobblemon:generation3_carvanhax.geo",
       "poser": "cobblemon:generation3_carvanhax",
       "texture": "cobblemon:textures/pokemon/generation3/carvanhax/carvanhax.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     },
     {
       "aspects": [
@@ -19,7 +41,29 @@
       "model": "cobblemon:generation3_carvanhax.geo",
       "poser": "cobblemon:generation3_carvanhax",
       "texture": "cobblemon:textures/pokemon/generation3/carvanhax/carvanhax_shiny.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     }
   ]
 }

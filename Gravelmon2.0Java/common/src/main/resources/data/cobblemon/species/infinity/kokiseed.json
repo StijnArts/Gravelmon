@@ -35,7 +35,14 @@
     "grass"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:seeds",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:growl",
@@ -106,7 +113,7 @@
     "infinity"
   ],
   "pokedex": [
-    "cobblemon.species.kokiseed.desc1"
+    "cobblemon.species.kokiseed.desc"
   ],
   "height": 4,
   "weight": 60,

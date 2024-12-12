@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "totodile form=epoch",
       "baseScale": 0.18333333333333335,
       "cannotDynamax": false,
       "abilities": [
@@ -121,10 +122,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochcroconaw.desc1"
+        "cobblemon.species.epochcroconaw.desc"
       ],
       "height": 11,
       "weight": 250,
@@ -133,9 +136,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochcroconaw_epoch_feraligatr",
+          "id": "epochcroconaw_feraligatr_epoch",
           "variant": "level_up",
-          "result": "epoch feraligatr",
+          "result": "feraligatr epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -290,7 +293,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochcroconawone.desc1"
+        "cobblemon.species.epochcroconawone.desc"
       ],
       "height": 11,
       "weight": 250,
@@ -389,7 +392,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ionosiancroconaw.desc1"
+        "cobblemon.species.ionosiancroconaw.desc"
       ],
       "height": 7,
       "weight": 0,
@@ -452,7 +455,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "totodile form\u003degho",
+      "preEvolution": "totodile form=egho",
       "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
@@ -480,7 +483,14 @@
         "water_1"
       ],
       "drops": {
-        "amount": 2
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:leather",
+            "quantityRange": "1-2",
+            "percentage": 50
+          }
+        ]
       },
       "moves": [
         "1:sludge",
@@ -589,7 +599,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.eghocroconaw.desc1"
+        "cobblemon.species.eghocroconaw.desc"
       ],
       "height": 11,
       "weight": 250,
@@ -652,7 +662,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "totodile form\u003dayreian",
+      "preEvolution": "totodile form=ayreian",
       "baseScale": 0.18333333333333335,
       "cannotDynamax": false,
       "abilities": [
@@ -767,7 +777,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiancroconaw.desc1"
+        "cobblemon.species.ayreiancroconaw.desc"
       ],
       "height": 11,
       "weight": 250,

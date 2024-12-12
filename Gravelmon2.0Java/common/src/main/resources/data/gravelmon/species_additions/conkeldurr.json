@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "gurdurr form=epoch",
       "baseScale": 0.2333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -102,10 +103,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochconkeldurr.desc1"
+        "cobblemon.species.epochconkeldurr.desc"
       ],
       "height": 14,
       "weight": 870,
@@ -252,7 +255,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochconkeldurrone.desc1"
+        "cobblemon.species.epochconkeldurrone.desc"
       ],
       "height": 14,
       "weight": 870,
@@ -413,7 +416,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianconkeldurr.desc1"
+        "cobblemon.species.ayreianconkeldurr.desc"
       ],
       "height": 14,
       "weight": 870,
@@ -461,8 +464,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "gurdurr form\u003dkaskadian",
-      "baseScale": 0.3,
+      "preEvolution": "gurdurr form=kaskadian",
+      "baseScale": 0.056249999999999994,
       "cannotDynamax": false,
       "abilities": [
         "guts",
@@ -547,7 +550,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.kaskadianconkeldurr.desc1"
+        "cobblemon.species.kaskadianconkeldurr.desc"
       ],
       "height": 18,
       "weight": 800,

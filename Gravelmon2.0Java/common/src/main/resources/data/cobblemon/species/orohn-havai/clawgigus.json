@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "clawconut",
-  "baseScale": 0.21666666666666667,
+  "baseScale": 10.4,
   "cannotDynamax": false,
   "abilities": [
     "shellarmor",
@@ -57,7 +57,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.clawgigus.desc1"
+    "cobblemon.species.clawgigus.desc"
   ],
   "height": 13,
   "weight": 165,

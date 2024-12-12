@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.2833333333333333,
+  "baseScale": 0.053125,
   "cannotDynamax": false,
   "abilities": [
     "poisontouch"
@@ -44,7 +44,7 @@
     "trizor"
   ],
   "pokedex": [
-    "cobblemon.species.sprunch.desc1"
+    "cobblemon.species.sprunch.desc"
   ],
   "height": 17,
   "weight": 0,

@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "magnemite form=epoch",
       "baseScale": 0.16666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -37,7 +38,16 @@
       "eggGroups": [
         "mineral"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:solid_stone",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
+      },
       "moves": [
         "57:lockon",
         "7:thunderwave",
@@ -100,10 +110,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochmagneton.desc1"
+        "cobblemon.species.epochmagneton.desc"
       ],
       "height": 10,
       "weight": 600,
@@ -112,9 +124,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmagneton_epoch_magnezone",
+          "id": "epochmagneton_magnezone_epoch",
           "variant": "item_interact",
-          "result": "epoch magnezone",
+          "result": "magnezone epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -258,7 +270,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochmagnetonone.desc1"
+        "cobblemon.species.epochmagnetonone.desc"
       ],
       "height": 10,
       "weight": 600,
@@ -317,8 +329,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "magnemite form\u003degho",
-      "baseScale": 0.21666666666666667,
+      "preEvolution": "magnemite form=egho",
+      "baseScale": 0.1625,
       "cannotDynamax": false,
       "abilities": [
         "overgrow",
@@ -346,7 +358,14 @@
         "mineral"
       ],
       "drops": {
-        "amount": 4
+        "amount": 4,
+        "entries": [
+          {
+            "item": "minecraft:vines",
+            "quantityRange": "1-2",
+            "percentage": 50
+          }
+        ]
       },
       "moves": [
         "1:growth",
@@ -428,7 +447,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.eghomagneton.desc1"
+        "cobblemon.species.eghomagneton.desc"
       ],
       "height": 13,
       "weight": 900,
@@ -491,7 +510,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "magnemite form\u003dayreian",
+      "preEvolution": "magnemite form=ayreian",
       "baseScale": 0.16666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -591,7 +610,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianmagneton.desc1"
+        "cobblemon.species.ayreianmagneton.desc"
       ],
       "height": 10,
       "weight": 600,

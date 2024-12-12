@@ -125,7 +125,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochhoopa.desc1"
+        "cobblemon.species.epochhoopa.desc"
       ],
       "height": 5,
       "weight": 90,
@@ -172,7 +172,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "cloudnine"
@@ -310,7 +310,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltahoopa.desc1"
+        "cobblemon.species.deltahoopa.desc"
       ],
       "height": 5,
       "weight": 90,
@@ -368,7 +368,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "cloudnine"
@@ -502,7 +502,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltahoopaunleashed.desc1"
+        "cobblemon.species.deltahoopaunleashed.desc"
       ],
       "height": 5,
       "weight": 90,

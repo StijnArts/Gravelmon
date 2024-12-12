@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "psycolt",
-  "baseScale": 0.26666666666666666,
+  "baseScale": 0.2,
   "cannotDynamax": false,
   "abilities": [
     "runaway",
@@ -103,7 +103,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.kinegasus.desc1"
+    "cobblemon.species.kinegasus.desc"
   ],
   "height": 16,
   "weight": 701,

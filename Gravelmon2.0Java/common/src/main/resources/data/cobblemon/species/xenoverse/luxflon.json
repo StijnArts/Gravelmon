@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 41,
   "baseFriendship": 70,
-  "baseScale": 1.5,
+  "baseScale": 1.125,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -103,7 +103,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.luxflon.desc1"
+    "cobblemon.species.luxflon.desc"
   ],
   "height": 90,
   "weight": 3330,

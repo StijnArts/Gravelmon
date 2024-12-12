@@ -33,7 +33,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:moon_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "37:asteroidbelt",
@@ -123,7 +130,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.galaxeon.desc1"
+    "cobblemon.species.galaxeon.desc"
   ],
   "height": 10,
   "weight": 290,

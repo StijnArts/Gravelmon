@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mahalianstaryu.desc1"
+        "cobblemon.species.mahalianstaryu.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -93,7 +93,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.13333333333333333,
+      "baseScale": 0.025,
       "cannotDynamax": false,
       "abilities": [
         "infiltrator"
@@ -129,7 +129,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanstaryu.desc1"
+        "cobblemon.species.formanstaryu.desc"
       ],
       "height": 8,
       "weight": 0,
@@ -217,7 +217,16 @@
       "eggGroups": [
         "mineral"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:astral_stone",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
+      },
       "moves": [
         "51:asteroidbelt",
         "1:harden",
@@ -280,7 +289,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochstaryu.desc1"
+        "cobblemon.species.epochstaryu.desc"
       ],
       "height": 8,
       "weight": 345,
@@ -289,9 +298,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochstaryu_epoch_starmie",
+          "id": "epochstaryu_starmie_epoch",
           "variant": "item_interact",
-          "result": "epoch starmie",
+          "result": "starmie epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

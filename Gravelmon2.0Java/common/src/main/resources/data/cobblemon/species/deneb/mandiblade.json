@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "ambilade",
-  "baseScale": 0.21666666666666667,
+  "baseScale": 0.1625,
   "cannotDynamax": false,
   "abilities": [
     "sandveil",
@@ -113,7 +113,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.mandiblade.desc1"
+    "cobblemon.species.mandiblade.desc"
   ],
   "height": 13,
   "weight": 773,

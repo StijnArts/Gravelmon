@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.021875,
       "cannotDynamax": false,
       "abilities": [
         "snowcloak"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanspearow.desc1"
+        "cobblemon.species.formanspearow.desc"
       ],
       "height": 7,
       "weight": 0,
@@ -207,7 +207,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochspearow.desc1"
+        "cobblemon.species.epochspearow.desc"
       ],
       "height": 3,
       "weight": 20,
@@ -216,9 +216,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochspearow_epoch_fearow",
+          "id": "epochspearow_fearow_epoch",
           "variant": "level_up",
-          "result": "epoch fearow",
+          "result": "fearow epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -297,7 +297,19 @@
         "flying"
       ],
       "drops": {
-        "amount": 4
+        "amount": 4,
+        "entries": [
+          {
+            "item": "minecraft:egg",
+            "quantityRange": "1-2",
+            "percentage": 50
+          },
+          {
+            "item": "minecraft:feather",
+            "quantityRange": "1-2",
+            "percentage": 50
+          }
+        ]
       },
       "moves": [
         "1:peck",
@@ -372,7 +384,7 @@
         "gen1"
       ],
       "pokedex": [
-        "cobblemon.species.eghospearow.desc1"
+        "cobblemon.species.eghospearow.desc"
       ],
       "height": 4,
       "weight": 28,
@@ -526,7 +538,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianspearow.desc1"
+        "cobblemon.species.ayreianspearow.desc"
       ],
       "height": 3,
       "weight": 20,

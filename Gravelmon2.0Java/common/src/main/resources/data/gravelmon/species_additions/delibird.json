@@ -29,7 +29,14 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "gravelmon:astral_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "forms": [
     {
@@ -42,7 +49,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.18333333333333335,
+      "baseScale": 0.034375,
       "cannotDynamax": false,
       "abilities": [
         "flamebody"
@@ -76,7 +83,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formandelibird.desc1"
+        "cobblemon.species.formandelibird.desc"
       ],
       "height": 11,
       "weight": 0,
@@ -224,7 +231,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochdelibird.desc1"
+        "cobblemon.species.epochdelibird.desc"
       ],
       "height": 3,
       "weight": 13,
@@ -331,7 +338,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.cefirandelibird.desc1"
+        "cobblemon.species.cefirandelibird.desc"
       ],
       "height": 8,
       "weight": 550,

@@ -141,7 +141,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochwingull.desc1"
+        "cobblemon.species.epochwingull.desc"
       ],
       "height": 6,
       "weight": 95,
@@ -150,9 +150,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochwingull_epoch_pelipper",
+          "id": "epochwingull_pelipper_epoch",
           "variant": "level_up",
-          "result": "epoch pelipper",
+          "result": "pelipper epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

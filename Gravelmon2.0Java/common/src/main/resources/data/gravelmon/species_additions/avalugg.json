@@ -10,6 +10,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "bergmite form=epoch",
       "baseScale": 0.3333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -105,10 +106,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochavalugg.desc1"
+        "cobblemon.species.epochavalugg.desc"
       ],
       "height": 20,
       "weight": 5050,
@@ -209,7 +212,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.vesitanavalugg.desc1"
+        "cobblemon.species.vesitanavalugg.desc"
       ],
       "height": 20,
       "weight": 3050,
@@ -257,7 +260,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "bergmite form\u003ddelta",
+      "preEvolution": "bergmite form=delta",
       "baseScale": 0.9,
       "cannotDynamax": false,
       "abilities": [
@@ -386,7 +389,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltaavalugg.desc1"
+        "cobblemon.species.deltaavalugg.desc"
       ],
       "height": 20,
       "weight": 5050,

@@ -108,7 +108,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochdewpider.desc1"
+        "cobblemon.species.epochdewpider.desc"
       ],
       "height": 3,
       "weight": 40,
@@ -117,9 +117,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochdewpider_epoch_araquanid",
+          "id": "epochdewpider_araquanid_epoch",
           "variant": "level_up",
-          "result": "epoch araquanid",
+          "result": "araquanid epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -279,7 +279,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochdewpiderone.desc1"
+        "cobblemon.species.epochdewpiderone.desc"
       ],
       "height": 3,
       "weight": 40,

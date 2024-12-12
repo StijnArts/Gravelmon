@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 51,
   "baseFriendship": 70,
-  "preEvolution": "venonat form\u003dhoennian",
+  "preEvolution": "venonat form=hoennian",
   "baseScale": 0.3,
   "cannotDynamax": false,
   "abilities": [
@@ -80,7 +80,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.lucemoth.desc1"
+    "cobblemon.species.lucemoth.desc"
   ],
   "height": 18,
   "weight": 630,

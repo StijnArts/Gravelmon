@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.aromianrhyhorn.desc1"
+        "cobblemon.species.aromianrhyhorn.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -93,7 +93,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.2333333333333333,
+      "baseScale": 0.04375,
       "cannotDynamax": false,
       "abilities": [
         "shielddust"
@@ -127,7 +127,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanrhyhorn.desc1"
+        "cobblemon.species.formanrhyhorn.desc"
       ],
       "height": 14,
       "weight": 0,
@@ -237,7 +237,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.hizianrhyhorn.desc1"
+        "cobblemon.species.hizianrhyhorn.desc"
       ],
       "height": 10,
       "weight": 165,

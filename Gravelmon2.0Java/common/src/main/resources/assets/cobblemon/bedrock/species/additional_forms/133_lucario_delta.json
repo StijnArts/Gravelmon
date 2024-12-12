@@ -1,25 +1,69 @@
 {
   "species": "cobblemon:lucario",
-  "order": 10,
+  "order": 133,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:deltalucario.geo",
+      "model": "cobblemon:generation4_deltalucario.geo",
       "poser": "cobblemon:generation4_deltalucario",
-      "texture": "cobblemon:textures/pokemon/generation4/deltalucario.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation4/deltalucario/deltalucario.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     },
     {
       "aspects": [
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:deltalucario.geo",
+      "model": "cobblemon:generation4_deltalucario.geo",
       "poser": "cobblemon:generation4_deltalucario",
-      "texture": "cobblemon:textures/pokemon/generation4/deltalucario_shiny.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation4/deltalucario/deltalucario_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     }
   ]
 }

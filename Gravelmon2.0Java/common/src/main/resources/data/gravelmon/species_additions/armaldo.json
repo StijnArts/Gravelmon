@@ -11,6 +11,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "anorith form=epoch",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -115,10 +116,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epocharmaldo.desc1"
+        "cobblemon.species.epocharmaldo.desc"
       ],
       "height": 15,
       "weight": 682,
@@ -166,7 +169,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "anorith form\u003dhizian",
+      "preEvolution": "anorith form=hizian",
       "baseScale": 0.2833333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -268,7 +271,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.hizianarmaldo.desc1"
+        "cobblemon.species.hizianarmaldo.desc"
       ],
       "height": 17,
       "weight": 165,

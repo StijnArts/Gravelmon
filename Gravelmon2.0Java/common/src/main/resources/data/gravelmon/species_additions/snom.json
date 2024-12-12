@@ -99,7 +99,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochsnom.desc1"
+        "cobblemon.species.epochsnom.desc"
       ],
       "height": 3,
       "weight": 38,
@@ -108,9 +108,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochsnom_epoch_frosmoth",
+          "id": "epochsnom_frosmoth_epoch",
           "variant": "level_up",
-          "result": "epoch frosmoth",
+          "result": "frosmoth epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

@@ -27,7 +27,14 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "gravelmon:astral_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "forms": [
     {
@@ -40,7 +47,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -74,7 +81,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianjynx.desc1"
+        "cobblemon.species.fabelianjynx.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -122,8 +129,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "smoochum form\u003dforman",
-      "baseScale": 0.26666666666666666,
+      "preEvolution": "smoochum form=forman",
+      "baseScale": 0.05,
       "cannotDynamax": false,
       "abilities": [
         "cursedbody"
@@ -159,7 +166,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formanjynx.desc1"
+        "cobblemon.species.formanjynx.desc"
       ],
       "height": 16,
       "weight": 0,
@@ -207,6 +214,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "smoochum form=epoch",
       "baseScale": 0.2333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -302,10 +310,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochjynx.desc1"
+        "cobblemon.species.epochjynx.desc"
       ],
       "height": 14,
       "weight": 406,
@@ -387,7 +397,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ionosianjynx.desc1"
+        "cobblemon.species.ionosianjynx.desc"
       ],
       "height": 16,
       "weight": 0,
@@ -558,7 +568,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianjynx.desc1"
+        "cobblemon.species.ayreianjynx.desc"
       ],
       "height": 14,
       "weight": 406,
@@ -621,7 +631,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 26,
       "baseFriendship": 70,
-      "baseScale": 0.2333333333333333,
+      "baseScale": 0.04375,
       "cannotDynamax": false,
       "abilities": [
         "dancer",
@@ -715,7 +725,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.kaskadianjynx.desc1"
+        "cobblemon.species.kaskadianjynx.desc"
       ],
       "height": 14,
       "weight": 406,

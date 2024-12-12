@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.7000000000000001,
+  "baseScale": 33.6,
   "cannotDynamax": false,
   "abilities": [
     "pressure",
@@ -57,7 +57,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.zedakazm.desc1"
+    "cobblemon.species.zedakazm.desc"
   ],
   "height": 42,
   "weight": 165,

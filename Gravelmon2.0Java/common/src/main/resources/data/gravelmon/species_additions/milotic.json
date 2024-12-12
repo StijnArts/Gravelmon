@@ -11,6 +11,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "feebas form=epoch",
       "baseScale": 1.0333333333333334,
       "cannotDynamax": false,
       "abilities": [
@@ -38,7 +39,16 @@
         "water_1",
         "dragon"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:astral_stone",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
+      },
       "moves": [
         "15:flail",
         "33:reflect",
@@ -103,10 +113,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochmilotic.desc1"
+        "cobblemon.species.epochmilotic.desc"
       ],
       "height": 62,
       "weight": 1620,
@@ -254,7 +266,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochmiloticone.desc1"
+        "cobblemon.species.epochmiloticone.desc"
       ],
       "height": 62,
       "weight": 1620,
@@ -301,8 +313,8 @@
       "experienceGroup": "fluctuating",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "feebas form\u003ddelta",
-      "baseScale": 0.5166666666666667,
+      "preEvolution": "feebas form=delta",
+      "baseScale": 0.38750000000000007,
       "cannotDynamax": false,
       "abilities": [
         "regenerator",
@@ -435,7 +447,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltamilotic.desc1"
+        "cobblemon.species.deltamilotic.desc"
       ],
       "height": 31,
       "weight": 1620,
@@ -483,7 +495,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "preEvolution": "feebas form\u003dseviian",
+      "preEvolution": "feebas form=seviian",
       "baseScale": 0.5166666666666667,
       "cannotDynamax": false,
       "abilities": [
@@ -585,7 +597,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.seviianmilotic.desc1"
+        "cobblemon.species.seviianmilotic.desc"
       ],
       "height": 31,
       "weight": 1620,

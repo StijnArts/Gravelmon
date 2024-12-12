@@ -8,7 +8,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "bigpecks",
@@ -36,7 +36,19 @@
     "field"
   ],
   "drops": {
-    "amount": 4
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:egg",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:leer",
@@ -111,7 +123,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.quibble.desc1"
+    "cobblemon.species.quibble.desc"
   ],
   "height": 3,
   "weight": 19,

@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "yanma form\u003dkaskadian",
-  "baseScale": 0.19999999999999998,
+  "preEvolution": "yanma form=kaskadian",
+  "baseScale": 0.0375,
   "cannotDynamax": false,
   "abilities": [
     "magicguard",
@@ -90,7 +90,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.yanmage.desc1"
+    "cobblemon.species.yanmage.desc"
   ],
   "height": 12,
   "weight": 380,

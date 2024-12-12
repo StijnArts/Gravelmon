@@ -109,7 +109,7 @@ public class EghoHoothoot extends Pokemon {
         getPosingFileData().addAnimations(List.of(
                 AnimationData.standingAnimation().withBlink().clearPoseTypes(),
                 AnimationData.flyingAnimation().clearAnimations()
-                        .addAnimation(1,"q.sine_wing_flap(0.9, 0.9, 0, 'z', 'wing_left', 'wing_right')")
+                        .addAnimation("q.sine_wing_flap(0.9, 0.9, 0, 'z', 'wing_left', 'wing_right')")
                         .withBlink(),
                 AnimationData.sleepingAnimation()
         ));

@@ -9,7 +9,7 @@
   "eggCycles": 32,
   "baseFriendship": 70,
   "preEvolution": "scaracno",
-  "baseScale": 0.1,
+  "baseScale": 0.07500000000000001,
   "cannotDynamax": false,
   "abilities": [
     "rattled",
@@ -104,7 +104,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.scaracluo.desc1"
+    "cobblemon.species.scaracluo.desc"
   ],
   "height": 6,
   "weight": 76,

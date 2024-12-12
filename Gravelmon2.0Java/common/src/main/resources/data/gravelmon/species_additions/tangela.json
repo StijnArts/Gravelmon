@@ -13,7 +13,14 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:dusk_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "preEvolution": "weeduza",
   "forms": [
@@ -133,7 +140,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochtangela.desc1"
+        "cobblemon.species.epochtangela.desc"
       ],
       "height": 10,
       "weight": 100,
@@ -142,9 +149,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochtangela_epoch_tangrowth",
+          "id": "epochtangela_tangrowth_epoch",
           "variant": "level_up",
-          "result": "epoch tangrowth",
+          "result": "tangrowth epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -244,7 +251,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.qamorantangela.desc1"
+        "cobblemon.species.qamorantangela.desc"
       ],
       "height": 11,
       "weight": 165,
@@ -308,7 +315,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "weeduza",
-      "baseScale": 0.16666666666666666,
+      "baseScale": 0.125,
       "cannotDynamax": false,
       "abilities": [
         "voltabsorb",
@@ -336,7 +343,14 @@
         "mineral"
       ],
       "drops": {
-        "amount": 4
+        "amount": 4,
+        "entries": [
+          {
+            "item": "minecraft:redstone",
+            "quantityRange": "1-2",
+            "percentage": 50
+          }
+        ]
       },
       "moves": [
         "1:discharge",
@@ -432,7 +446,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.eghotangela.desc1"
+        "cobblemon.species.eghotangela.desc"
       ],
       "height": 10,
       "weight": 350,
@@ -492,7 +506,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.16666666666666666,
+      "baseScale": 0.125,
       "cannotDynamax": false,
       "abilities": [
         "dryskin",
@@ -602,7 +616,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltatangela.desc1"
+        "cobblemon.species.deltatangela.desc"
       ],
       "height": 10,
       "weight": 350,
@@ -734,7 +748,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.hoenniantangela.desc1"
+        "cobblemon.species.hoenniantangela.desc"
       ],
       "height": 10,
       "weight": 308,

@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.43333333333333335,
+  "baseScale": 0.08125,
   "cannotDynamax": false,
   "abilities": [
     "lightningrod"
@@ -44,7 +44,7 @@
     "norse"
   ],
   "pokedex": [
-    "cobblemon.species.veslectric.desc1"
+    "cobblemon.species.veslectric.desc"
   ],
   "height": 26,
   "weight": 0,

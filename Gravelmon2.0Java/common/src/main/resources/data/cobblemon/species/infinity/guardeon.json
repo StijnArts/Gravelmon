@@ -34,7 +34,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:metal_coat",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:irondefense",
@@ -114,7 +121,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.guardeon.desc1"
+    "cobblemon.species.guardeon.desc"
   ],
   "height": 12,
   "weight": 585,

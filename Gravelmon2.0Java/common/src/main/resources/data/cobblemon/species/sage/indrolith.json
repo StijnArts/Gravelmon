@@ -9,7 +9,7 @@
   "eggCycles": 75,
   "baseFriendship": 70,
   "preEvolution": "calphite",
-  "baseScale": 0.5333333333333333,
+  "baseScale": 0.1,
   "cannotDynamax": false,
   "abilities": [
     "sturdy",
@@ -37,7 +37,14 @@
     "field"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:hornattack",
@@ -104,7 +111,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.indrolith.desc1"
+    "cobblemon.species.indrolith.desc"
   ],
   "height": 32,
   "weight": 4407,

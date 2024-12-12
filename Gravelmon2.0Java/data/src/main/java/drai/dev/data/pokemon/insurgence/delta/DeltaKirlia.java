@@ -117,8 +117,7 @@ public class DeltaKirlia extends Pokemon {
         this.setBaseScale(0.9);
         this.setHitbox(0.5,1.4);
         getSpeciesFileData().addBasicVariation(this).addLayer(
-                new SimpleTextureLayerData("glow", this.getCleanName()+"_emissive",
-                        true, true, false, true)
+                SimpleTextureLayerData.glowLayer(this)
         );
         getPosingFileData().setPortraitData( 2.65f, new Vector3(-0.2, -.4, 0));
         getPosingFileData().setProfileData( .8f, new Vector3(0, 0.55, 0));

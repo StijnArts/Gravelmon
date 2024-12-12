@@ -33,7 +33,14 @@
     "monster"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:air_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:gust",
@@ -85,7 +92,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.aereon.desc1"
+    "cobblemon.species.aereon.desc"
   ],
   "height": 10,
   "weight": 169,

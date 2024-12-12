@@ -10,6 +10,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "snover form=epoch",
       "baseScale": 0.3666666666666667,
       "cannotDynamax": false,
       "abilities": [
@@ -116,10 +117,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochabomasnow.desc1"
+        "cobblemon.species.epochabomasnow.desc"
       ],
       "height": 22,
       "weight": 1355,
@@ -167,8 +170,8 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "snover form\u003dkaskadian",
-      "baseScale": 0.3666666666666667,
+      "preEvolution": "snover form=kaskadian",
+      "baseScale": 0.06875,
       "cannotDynamax": false,
       "abilities": [
         "snowwarning",
@@ -254,7 +257,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.kaskadianabomasnow.desc1"
+        "cobblemon.species.kaskadianabomasnow.desc"
       ],
       "height": 22,
       "weight": 1355,
@@ -302,7 +305,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "snover form\u003dcefiran",
+      "preEvolution": "snover form=cefiran",
       "baseScale": 0.3666666666666667,
       "cannotDynamax": false,
       "abilities": [
@@ -365,7 +368,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.cefiranabomasnow.desc1"
+        "cobblemon.species.cefiranabomasnow.desc"
       ],
       "height": 22,
       "weight": 1355,

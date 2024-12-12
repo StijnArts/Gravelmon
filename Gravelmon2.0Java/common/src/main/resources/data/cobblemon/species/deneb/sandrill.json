@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sandslash",
-  "baseScale": 0.2333333333333333,
+  "baseScale": 0.175,
   "cannotDynamax": false,
   "abilities": [
     "sandveil",
@@ -113,7 +113,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.sandrill.desc1"
+    "cobblemon.species.sandrill.desc"
   ],
   "height": 14,
   "weight": 802,

@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "chilloth",
-  "baseScale": 0.26666666666666666,
+  "baseScale": 0.05,
   "cannotDynamax": false,
   "abilities": [
     "swiftswim",
@@ -35,7 +35,14 @@
     "water_1"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:hammerarm",
@@ -109,7 +116,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.soakoth.desc1"
+    "cobblemon.species.soakoth.desc"
   ],
   "height": 16,
   "weight": 921,

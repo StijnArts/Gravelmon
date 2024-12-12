@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "roybear",
-  "baseScale": 0.31666666666666665,
+  "baseScale": 0.059375,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -45,7 +45,7 @@
     "trizor"
   ],
   "pokedex": [
-    "cobblemon.species.tecanbear.desc1"
+    "cobblemon.species.tecanbear.desc"
   ],
   "height": 19,
   "weight": 0,

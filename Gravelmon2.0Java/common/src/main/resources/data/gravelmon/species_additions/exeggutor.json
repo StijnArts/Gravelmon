@@ -11,8 +11,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "exeggcute form\u003dpalmian",
-      "baseScale": 0.6333333333333333,
+      "preEvolution": "exeggcute form=palmian",
+      "baseScale": 0.11875,
       "cannotDynamax": false,
       "abilities": [
         "chlorophyll",
@@ -51,7 +51,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.palmianexeggutor.desc1"
+        "cobblemon.species.palmianexeggutor.desc"
       ],
       "height": 38,
       "weight": 0,
@@ -99,6 +99,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "exeggcute form=epoch",
       "baseScale": 0.3333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -190,10 +191,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochexeggutor.desc1"
+        "cobblemon.species.epochexeggutor.desc"
       ],
       "height": 20,
       "weight": 1200,
@@ -337,7 +340,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochexeggutorone.desc1"
+        "cobblemon.species.epochexeggutorone.desc"
       ],
       "height": 20,
       "weight": 1200,

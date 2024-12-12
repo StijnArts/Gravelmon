@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "snorunt form=epoch",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -101,10 +102,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochglalie.desc1"
+        "cobblemon.species.epochglalie.desc"
       ],
       "height": 15,
       "weight": 2565,
@@ -152,8 +155,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "snorunt form\u003ddelta",
-      "baseScale": 0.25,
+      "preEvolution": "snorunt form=delta",
+      "baseScale": 0.1875,
       "cannotDynamax": false,
       "abilities": [
         "rockhead",
@@ -271,7 +274,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltaglalie.desc1"
+        "cobblemon.species.deltaglalie.desc"
       ],
       "height": 15,
       "weight": 2565,
@@ -422,7 +425,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianglalie.desc1"
+        "cobblemon.species.ayreianglalie.desc"
       ],
       "height": 15,
       "weight": 2565,
@@ -470,7 +473,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "snorunt form\u003dcefiran",
+      "preEvolution": "snorunt form=cefiran",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -531,7 +534,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.cefiranglalie.desc1"
+        "cobblemon.species.cefiranglalie.desc"
       ],
       "height": 15,
       "weight": 2565,

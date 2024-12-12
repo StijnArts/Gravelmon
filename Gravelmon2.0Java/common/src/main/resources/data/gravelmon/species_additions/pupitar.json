@@ -65,7 +65,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mastenianpupitar.desc1"
+        "cobblemon.species.mastenianpupitar.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -113,6 +113,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "larvitar form=epoch",
       "baseScale": 0.19999999999999998,
       "cannotDynamax": false,
       "abilities": [
@@ -213,10 +214,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochpupitar.desc1"
+        "cobblemon.species.epochpupitar.desc"
       ],
       "height": 12,
       "weight": 1520,
@@ -225,9 +228,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochpupitar_epoch_tyranitar",
+          "id": "epochpupitar_tyranitar_epoch",
           "variant": "level_up",
-          "result": "epoch tyranitar",
+          "result": "tyranitar epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

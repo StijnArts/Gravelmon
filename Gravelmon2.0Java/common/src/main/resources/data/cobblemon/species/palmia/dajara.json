@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "defstring",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.075,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -45,7 +45,7 @@
     "palmia"
   ],
   "pokedex": [
-    "cobblemon.species.dajara.desc1"
+    "cobblemon.species.dajara.desc"
   ],
   "height": 24,
   "weight": 0,

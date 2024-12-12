@@ -116,7 +116,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochtaillow.desc1"
+        "cobblemon.species.epochtaillow.desc"
       ],
       "height": 3,
       "weight": 23,
@@ -125,9 +125,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochtaillow_epoch_swellow",
+          "id": "epochtaillow_swellow_epoch",
           "variant": "level_up",
-          "result": "epoch swellow",
+          "result": "swellow epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

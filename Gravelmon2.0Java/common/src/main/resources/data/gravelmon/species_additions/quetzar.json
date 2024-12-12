@@ -37,7 +37,14 @@
         "undiscovered"
       ],
       "drops": {
-        "amount": 3
+        "amount": 3,
+        "entries": [
+          {
+            "item": "minecraft:emerald_block",
+            "quantityRange": "3-10",
+            "percentage": 90
+          }
+        ]
       },
       "moves": [
         "1:scaryface",
@@ -125,7 +132,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.quetzarspace.desc1"
+        "cobblemon.species.quetzarspace.desc"
       ],
       "height": 72,
       "weight": 7186,

@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "morgrem form\u003dvaritasian",
+  "preEvolution": "morgrem form=varitasian",
   "baseScale": 0.3,
   "cannotDynamax": false,
   "abilities": [
@@ -111,7 +111,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.grimpire.desc1"
+    "cobblemon.species.grimpire.desc"
   ],
   "height": 18,
   "weight": 165,

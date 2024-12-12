@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "sturdy"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanweedle.desc1"
+        "cobblemon.species.formanweedle.desc"
       ],
       "height": 5,
       "weight": 0,
@@ -146,7 +146,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochweedle.desc1"
+        "cobblemon.species.epochweedle.desc"
       ],
       "height": 3,
       "weight": 32,
@@ -155,9 +155,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochweedle_epoch_kakuna",
+          "id": "epochweedle_kakuna_epoch",
           "variant": "level_up",
-          "result": "epoch kakuna",
+          "result": "kakuna epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "jynx form\u003dayreian",
+  "preEvolution": "jynx form=ayreian",
   "baseScale": 0.3666666666666667,
   "cannotDynamax": false,
   "abilities": [
@@ -134,7 +134,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.wraifanggal.desc1"
+    "cobblemon.species.wraifanggal.desc"
   ],
   "height": 22,
   "weight": 1406,

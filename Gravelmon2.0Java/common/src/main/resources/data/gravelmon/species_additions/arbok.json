@@ -41,6 +41,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "ekans form=epoch",
       "baseScale": 0.5833333333333334,
       "cannotDynamax": false,
       "abilities": [
@@ -139,10 +140,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epocharbok.desc1"
+        "cobblemon.species.epocharbok.desc"
       ],
       "height": 35,
       "weight": 650,
@@ -225,7 +228,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ionosianarbok.desc1"
+        "cobblemon.species.ionosianarbok.desc"
       ],
       "height": 17,
       "weight": 0,
@@ -272,7 +275,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "ekans form\u003dalteran",
+      "preEvolution": "ekans form=alteran",
       "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
@@ -333,7 +336,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.alteranarbok.desc1"
+        "cobblemon.species.alteranarbok.desc"
       ],
       "height": 18,
       "weight": 700,

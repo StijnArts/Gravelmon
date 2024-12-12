@@ -11,7 +11,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "togetic form\u003dhubian",
+      "preEvolution": "togetic form=hubian",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -40,7 +40,14 @@
         "fairy"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:golden_feather",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
       },
       "moves": [
         "1:eggbomb",
@@ -152,7 +159,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.hubiantogekiss.desc1"
+        "cobblemon.species.hubiantogekiss.desc"
       ],
       "height": 15,
       "weight": 165,

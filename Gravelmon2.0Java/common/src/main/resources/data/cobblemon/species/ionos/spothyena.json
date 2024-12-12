@@ -52,7 +52,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.spothyena.desc1"
+    "cobblemon.species.spothyena.desc"
   ],
   "height": 6,
   "weight": 0,
@@ -67,7 +67,7 @@
       "requirements": [
         {
           "variant": "properties",
-          "target": "gender\u003dfemale",
+          "target": "gender=female",
           "contains": true
         }
       ],

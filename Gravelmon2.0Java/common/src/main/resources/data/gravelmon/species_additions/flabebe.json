@@ -116,7 +116,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochflabebe.desc1"
+        "cobblemon.species.epochflabebe.desc"
       ],
       "height": 1,
       "weight": 1,
@@ -125,9 +125,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochflabebe_epoch_floette",
+          "id": "epochflabebe_floette_epoch",
           "variant": "level_up",
-          "result": "epoch floette",
+          "result": "floette epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -229,7 +229,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.vesitanflabebe.desc1"
+        "cobblemon.species.vesitanflabebe.desc"
       ],
       "height": 1,
       "weight": 1,
@@ -379,7 +379,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.varitasianflabebe.desc1"
+        "cobblemon.species.varitasianflabebe.desc"
       ],
       "height": 1,
       "weight": 165,

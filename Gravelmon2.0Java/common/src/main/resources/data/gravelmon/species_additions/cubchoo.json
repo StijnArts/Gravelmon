@@ -121,7 +121,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochcubchoo.desc1"
+        "cobblemon.species.epochcubchoo.desc"
       ],
       "height": 5,
       "weight": 85,
@@ -130,9 +130,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochcubchoo_epoch_beartic",
+          "id": "epochcubchoo_beartic_epoch",
           "variant": "level_up",
-          "result": "epoch beartic",
+          "result": "beartic epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -230,7 +230,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.qamorancubchoo.desc1"
+        "cobblemon.species.qamorancubchoo.desc"
       ],
       "height": 8,
       "weight": 165,

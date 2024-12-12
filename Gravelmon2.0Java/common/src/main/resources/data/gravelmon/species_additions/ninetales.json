@@ -11,8 +11,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "vulpix form\u003dforman",
-      "baseScale": 0.26666666666666666,
+      "preEvolution": "vulpix form=forman",
+      "baseScale": 0.05,
       "cannotDynamax": false,
       "abilities": [
         "cursedbody"
@@ -50,7 +50,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formanninetales.desc1"
+        "cobblemon.species.formanninetales.desc"
       ],
       "height": 16,
       "weight": 0,
@@ -97,6 +97,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "vulpix form=epoch",
       "baseScale": 0.18333333333333335,
       "cannotDynamax": false,
       "abilities": [
@@ -186,10 +187,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochninetales.desc1"
+        "cobblemon.species.epochninetales.desc"
       ],
       "height": 11,
       "weight": 199,
@@ -348,7 +351,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianninetales.desc1"
+        "cobblemon.species.ayreianninetales.desc"
       ],
       "height": 11,
       "weight": 199,
@@ -503,7 +506,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianninetalesone.desc1"
+        "cobblemon.species.ayreianninetalesone.desc"
       ],
       "height": 11,
       "weight": 199,

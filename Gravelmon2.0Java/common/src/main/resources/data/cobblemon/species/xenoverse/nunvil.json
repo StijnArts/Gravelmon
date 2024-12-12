@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 32,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.07500000000000001,
   "cannotDynamax": false,
   "abilities": [
     "anticipation",
@@ -35,7 +35,19 @@
     "fairy"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:dread_pendant",
+        "quantityRange": "1-1",
+        "percentage": 20
+      },
+      {
+        "item": "gravelmon:dread_pendant",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "moves": [
     "1:lick",
@@ -105,7 +117,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.nunvil.desc1"
+    "cobblemon.species.nunvil.desc"
   ],
   "height": 6,
   "weight": 10,

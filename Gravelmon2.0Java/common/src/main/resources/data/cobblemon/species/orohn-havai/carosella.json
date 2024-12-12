@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "meritrot",
-  "baseScale": 0.25,
+  "baseScale": 12.0,
   "cannotDynamax": false,
   "abilities": [
     "limber",
@@ -106,7 +106,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.carosella.desc1"
+    "cobblemon.species.carosella.desc"
   ],
   "height": 15,
   "weight": 165,

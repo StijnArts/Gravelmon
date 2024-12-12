@@ -11,7 +11,7 @@ public class SpeciesFileData {
 
     public JsonObject toJsonObject(String species, int order, List<String> aspects, AbstractPokemon abstractPokemon){
         var jsonObject = new JsonObject();
-        jsonObject.addProperty("species", species);
+        jsonObject.addProperty("species", "cobblemon:" + species);
         jsonObject.addProperty("order", order);
         var variationsArray = new JsonArray();
         variations.forEach((variation) -> {

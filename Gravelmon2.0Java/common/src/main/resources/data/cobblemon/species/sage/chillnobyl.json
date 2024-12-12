@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "icetope",
-  "baseScale": 0.21666666666666667,
+  "baseScale": 0.040625,
   "cannotDynamax": false,
   "abilities": [
     "snowwarning",
@@ -35,7 +35,14 @@
     "amorphous"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:redstone",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:glaciate",
@@ -116,7 +123,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.chillnobyl.desc1"
+    "cobblemon.species.chillnobyl.desc"
   ],
   "height": 13,
   "weight": 1247,

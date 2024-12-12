@@ -5,17 +5,33 @@
     {
       "aspects": [
         "sirius"
-     ],
-      "poser": "cobblemon:deneb_asphere",
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/pokemon/deneb/sirius_asphere.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "sirius",
-        "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/deneb/sirius_asphere_shiny.png"
-    }  ]
+      "model": "cobblemon:cutout_gravelmon_64_by_64.geo",
+      "poser": "cobblemon:cutout_gravelmon_64_by_64",
+      "texture": "cobblemon:textures/pokemon/deneb/sirius.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
+    }
+  ]
 }

@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.elbianvigoroth.desc1"
+        "cobblemon.species.elbianvigoroth.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -93,7 +93,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -127,7 +127,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ferranianvigoroth.desc1"
+        "cobblemon.species.ferranianvigoroth.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -175,6 +175,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "slakoth form=epoch",
       "baseScale": 0.2333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -274,10 +275,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochvigoroth.desc1"
+        "cobblemon.species.epochvigoroth.desc"
       ],
       "height": 14,
       "weight": 465,
@@ -286,9 +289,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochvigoroth_epoch_slaking",
+          "id": "epochvigoroth_slaking_epoch",
           "variant": "level_up",
-          "result": "epoch slaking",
+          "result": "slaking epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -339,7 +342,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "slakoth form\u003davalossian",
+      "preEvolution": "slakoth form=avalossian",
       "baseScale": 0.2333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -437,7 +440,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.avalossianvigoroth.desc1"
+        "cobblemon.species.avalossianvigoroth.desc"
       ],
       "height": 14,
       "weight": 465,

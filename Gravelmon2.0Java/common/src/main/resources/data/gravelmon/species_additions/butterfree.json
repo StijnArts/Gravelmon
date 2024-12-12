@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "metapod form=epoch",
       "baseScale": 0.18333333333333335,
       "cannotDynamax": false,
       "abilities": [
@@ -110,10 +111,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochbutterfree.desc1"
+        "cobblemon.species.epochbutterfree.desc"
       ],
       "height": 11,
       "weight": 320,
@@ -161,7 +164,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "metapod form\u003dayreian",
+      "preEvolution": "metapod form=ayreian",
       "baseScale": 0.2833333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -302,7 +305,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianbutterfree.desc1"
+        "cobblemon.species.ayreianbutterfree.desc"
       ],
       "height": 17,
       "weight": 320,

@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -47,7 +47,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ferranianmachamp.desc1"
+        "cobblemon.species.ferranianmachamp.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -95,6 +95,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "machoke form=epoch",
       "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -190,10 +191,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochmachamp.desc1"
+        "cobblemon.species.epochmachamp.desc"
       ],
       "height": 16,
       "weight": 1300,
@@ -339,7 +342,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochmachampone.desc1"
+        "cobblemon.species.epochmachampone.desc"
       ],
       "height": 16,
       "weight": 1300,
@@ -444,7 +447,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.africanusanmachamp.desc1"
+        "cobblemon.species.africanusanmachamp.desc"
       ],
       "height": 16,
       "weight": 1300,

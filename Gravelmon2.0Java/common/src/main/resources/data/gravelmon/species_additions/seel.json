@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianseel.desc1"
+        "cobblemon.species.fabelianseel.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -92,7 +92,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.2333333333333333,
+      "baseScale": 0.04375,
       "cannotDynamax": false,
       "abilities": [
         "guts"
@@ -126,7 +126,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanseel.desc1"
+        "cobblemon.species.formanseel.desc"
       ],
       "height": 14,
       "weight": 0,
@@ -308,7 +308,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochseel.desc1"
+        "cobblemon.species.epochseel.desc"
       ],
       "height": 11,
       "weight": 1800,
@@ -317,9 +317,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochseel_epoch_dewgong",
+          "id": "epochseel_dewgong_epoch",
           "variant": "level_up",
-          "result": "epoch dewgong",
+          "result": "dewgong epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -421,7 +421,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.qamoranseel.desc1"
+        "cobblemon.species.qamoranseel.desc"
       ],
       "height": 10,
       "weight": 165,
@@ -530,7 +530,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.norheimanseel.desc1"
+        "cobblemon.species.norheimanseel.desc"
       ],
       "height": 7,
       "weight": 165,
@@ -663,7 +663,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.hoennianseel.desc1"
+        "cobblemon.species.hoennianseel.desc"
       ],
       "height": 9,
       "weight": 83,

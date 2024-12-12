@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "bapixie",
-  "baseScale": 0.2333333333333333,
+  "baseScale": 0.04375,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -49,7 +49,7 @@
     "trizor"
   ],
   "pokedex": [
-    "cobblemon.species.toxipixie.desc1"
+    "cobblemon.species.toxipixie.desc"
   ],
   "height": 14,
   "weight": 0,

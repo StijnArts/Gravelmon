@@ -35,7 +35,14 @@
     "grass"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:magmarizer",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "28:zenheadbutt",
@@ -100,7 +107,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.habaneevil.desc1"
+    "cobblemon.species.habaneevil.desc"
   ],
   "height": 15,
   "weight": 850,

@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "jigglypuff form\u003dforman",
-  "baseScale": 0.26666666666666666,
+  "preEvolution": "jigglypuff form=forman",
+  "baseScale": 0.05,
   "cannotDynamax": false,
   "abilities": [
     "icebody"
@@ -47,7 +47,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.wigglcream.desc1"
+    "cobblemon.species.wigglcream.desc"
   ],
   "height": 16,
   "weight": 0,

@@ -7,7 +7,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "munchlax form\u003dvaritasian",
+  "preEvolution": "munchlax form=varitasian",
   "baseScale": 0.35000000000000003,
   "cannotDynamax": false,
   "abilities": [
@@ -168,7 +168,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.snarlax.desc1"
+    "cobblemon.species.snarlax.desc"
   ],
   "height": 21,
   "weight": 165,

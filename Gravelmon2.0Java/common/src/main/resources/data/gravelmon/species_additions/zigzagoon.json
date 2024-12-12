@@ -130,7 +130,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochzigzagoon.desc1"
+        "cobblemon.species.epochzigzagoon.desc"
       ],
       "height": 4,
       "weight": 175,
@@ -139,9 +139,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochzigzagoon_epoch_linoone",
+          "id": "epochzigzagoon_linoone_epoch",
           "variant": "level_up",
-          "result": "epoch linoone",
+          "result": "linoone epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -297,7 +297,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianzigzagoon.desc1"
+        "cobblemon.species.ayreianzigzagoon.desc"
       ],
       "height": 4,
       "weight": 175,

@@ -8,7 +8,7 @@
   "experienceGroup": "fast",
   "eggCycles": 39,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "arenatrap",
@@ -34,7 +34,14 @@
     "bug"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:rapidspin",
@@ -112,7 +119,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.minarac.desc1"
+    "cobblemon.species.minarac.desc"
   ],
   "height": 3,
   "weight": 28,

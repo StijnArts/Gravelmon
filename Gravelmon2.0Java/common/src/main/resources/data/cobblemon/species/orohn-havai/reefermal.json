@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.15,
+  "baseScale": 7.199999999999999,
   "cannotDynamax": false,
   "abilities": [
     "waterabsorb",
@@ -55,7 +55,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.reefermal.desc1"
+    "cobblemon.species.reefermal.desc"
   ],
   "height": 9,
   "weight": 165,

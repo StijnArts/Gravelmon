@@ -31,7 +31,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -65,7 +65,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianhoothoot.desc1"
+        "cobblemon.species.fabelianhoothoot.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -113,7 +113,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.13333333333333333,
+      "baseScale": 0.025,
       "cannotDynamax": false,
       "abilities": [
         "telepathy"
@@ -149,7 +149,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanhoothoot.desc1"
+        "cobblemon.species.formanhoothoot.desc"
       ],
       "height": 8,
       "weight": 0,
@@ -310,7 +310,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochhoothoot.desc1"
+        "cobblemon.species.epochhoothoot.desc"
       ],
       "height": 7,
       "weight": 212,
@@ -319,9 +319,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochhoothoot_epoch_noctowl",
+          "id": "epochhoothoot_noctowl_epoch",
           "variant": "level_up",
-          "result": "epoch noctowl",
+          "result": "noctowl epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -471,7 +471,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochhoothootone.desc1"
+        "cobblemon.species.epochhoothootone.desc"
       ],
       "height": 7,
       "weight": 212,
@@ -646,7 +646,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.enjinnianhoothoot.desc1"
+        "cobblemon.species.enjinnianhoothoot.desc"
       ],
       "height": 7,
       "weight": 212,
@@ -735,7 +735,19 @@
         "flying"
       ],
       "drops": {
-        "amount": 4
+        "amount": 4,
+        "entries": [
+          {
+            "item": "minecraft:egg",
+            "quantityRange": "1-2",
+            "percentage": 50
+          },
+          {
+            "item": "minecraft:feather",
+            "quantityRange": "1-2",
+            "percentage": 50
+          }
+        ]
       },
       "moves": [
         "1:growl",
@@ -803,7 +815,7 @@
         "gen2"
       ],
       "pokedex": [
-        "cobblemon.species.eghohoothoot.desc1"
+        "cobblemon.species.eghohoothoot.desc"
       ],
       "height": 9,
       "weight": 235,
@@ -866,7 +878,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.0875,
       "cannotDynamax": false,
       "abilities": [
         "noguard",
@@ -967,7 +979,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltahoothoot.desc1"
+        "cobblemon.species.deltahoothoot.desc"
       ],
       "height": 7,
       "weight": 212,

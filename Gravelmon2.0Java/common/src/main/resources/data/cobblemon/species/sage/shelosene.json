@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "ignishell",
-  "baseScale": 0.16666666666666666,
+  "baseScale": 0.03125,
   "cannotDynamax": false,
   "abilities": [
     "shellarmor",
@@ -36,7 +36,14 @@
     "monster"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:obsidian",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:irondefense",
@@ -120,7 +127,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.shelosene.desc1"
+    "cobblemon.species.shelosene.desc"
   ],
   "height": 10,
   "weight": 429,

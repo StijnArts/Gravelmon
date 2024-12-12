@@ -10,8 +10,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "deltafairypetilil form\u003ddelta_fairy",
-      "baseScale": 0.18333333333333335,
+      "preEvolution": "deltafairypetilil form=delta_fairy",
+      "baseScale": 0.1375,
       "cannotDynamax": false,
       "abilities": [
         "serenegrace",
@@ -132,7 +132,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltafairylilligant.desc1"
+        "cobblemon.species.deltafairylilligant.desc"
       ],
       "height": 11,
       "weight": 163,

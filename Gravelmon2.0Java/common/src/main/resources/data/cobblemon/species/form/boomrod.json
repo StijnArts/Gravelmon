@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "voltorb form\u003dforman",
-  "baseScale": 0.19999999999999998,
+  "preEvolution": "voltorb form=forman",
+  "baseScale": 0.0375,
   "cannotDynamax": false,
   "abilities": [
     "flashfire"
@@ -47,7 +47,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.boomrod.desc1"
+    "cobblemon.species.boomrod.desc"
   ],
   "height": 12,
   "weight": 0,

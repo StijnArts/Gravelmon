@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.21666666666666667,
+      "baseScale": 0.040625,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.palmiangastly.desc1"
+        "cobblemon.species.palmiangastly.desc"
       ],
       "height": 13,
       "weight": 0,
@@ -108,7 +108,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "prankster"
@@ -146,7 +146,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formangastly.desc1"
+        "cobblemon.species.formangastly.desc"
       ],
       "height": 6,
       "weight": 0,
@@ -299,7 +299,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochgastly.desc1"
+        "cobblemon.species.epochgastly.desc"
       ],
       "height": 13,
       "weight": 1,
@@ -308,9 +308,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochgastly_epoch_haunter",
+          "id": "epochgastly_haunter_epoch",
           "variant": "level_up",
-          "result": "epoch haunter",
+          "result": "haunter epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -448,7 +448,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.havaiiangastly.desc1"
+        "cobblemon.species.havaiiangastly.desc"
       ],
       "height": 13,
       "weight": 165,
@@ -584,7 +584,7 @@
         "gen1"
       ],
       "pokedex": [
-        "cobblemon.species.gastlyx.desc1"
+        "cobblemon.species.gastlyx.desc"
       ],
       "height": 13,
       "weight": 210,
@@ -766,7 +766,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiangastly.desc1"
+        "cobblemon.species.ayreiangastly.desc"
       ],
       "height": 13,
       "weight": 1,
@@ -925,7 +925,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.kaskadiangastly.desc1"
+        "cobblemon.species.kaskadiangastly.desc"
       ],
       "height": 13,
       "weight": 1,

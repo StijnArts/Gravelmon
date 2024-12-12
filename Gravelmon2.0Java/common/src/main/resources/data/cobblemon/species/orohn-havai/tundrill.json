@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.26666666666666666,
+  "baseScale": 12.8,
   "cannotDynamax": false,
   "abilities": [
     "sandrush",
@@ -59,7 +59,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.tundrill.desc1"
+    "cobblemon.species.tundrill.desc"
   ],
   "height": 16,
   "weight": 165,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pebblosa",
-  "baseScale": 0.16666666666666666,
+  "baseScale": 0.03125,
   "cannotDynamax": false,
   "abilities": [
     "solidrock",
@@ -37,7 +37,19 @@
     "mineral"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:hard_stone",
+        "quantityRange": "1-2",
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:granite",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:crushclaw",
@@ -126,7 +138,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.terratetra.desc1"
+    "cobblemon.species.terratetra.desc"
   ],
   "height": 10,
   "weight": 662,

@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "roboar",
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.065625,
   "cannotDynamax": false,
   "abilities": [
     "rockhead"
@@ -43,7 +43,7 @@
     "norse"
   ],
   "pokedex": [
-    "cobblemon.species.wisdisvini.desc1"
+    "cobblemon.species.wisdisvini.desc"
   ],
   "height": 21,
   "weight": 0,

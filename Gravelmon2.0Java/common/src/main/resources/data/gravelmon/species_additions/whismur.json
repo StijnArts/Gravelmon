@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.raianianwhismur.desc1"
+        "cobblemon.species.raianianwhismur.desc"
       ],
       "height": 5,
       "weight": 0,
@@ -224,7 +224,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochwhismur.desc1"
+        "cobblemon.species.epochwhismur.desc"
       ],
       "height": 6,
       "weight": 163,
@@ -233,9 +233,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochwhismur_epoch_loudred",
+          "id": "epochwhismur_loudred_epoch",
           "variant": "level_up",
-          "result": "epoch loudred",
+          "result": "loudred epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

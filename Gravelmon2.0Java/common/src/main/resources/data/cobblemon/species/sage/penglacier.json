@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pengliff",
-  "baseScale": 0.2333333333333333,
+  "baseScale": 0.04375,
   "cannotDynamax": false,
   "abilities": [
     "permafrost",
@@ -37,7 +37,19 @@
     "mineral"
   ],
   "drops": {
-    "amount": 5
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:dirt",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:ice",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:rockblast",
@@ -143,7 +155,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.penglacier.desc1"
+    "cobblemon.species.penglacier.desc"
   ],
   "height": 14,
   "weight": 1447,

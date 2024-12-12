@@ -10,7 +10,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -44,7 +44,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianentei.desc1"
+        "cobblemon.species.fabelianentei.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -91,7 +91,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.3833333333333333,
+      "baseScale": 0.071875,
       "cannotDynamax": false,
       "abilities": [
         "clearbody"
@@ -125,7 +125,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanentei.desc1"
+        "cobblemon.species.formanentei.desc"
       ],
       "height": 23,
       "weight": 0,
@@ -267,7 +267,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.varitasianentei.desc1"
+        "cobblemon.species.varitasianentei.desc"
       ],
       "height": 21,
       "weight": 165,

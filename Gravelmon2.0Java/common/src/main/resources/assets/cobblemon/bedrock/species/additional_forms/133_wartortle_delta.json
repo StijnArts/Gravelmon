@@ -1,25 +1,69 @@
 {
   "species": "cobblemon:wartortle",
-  "order": 11,
+  "order": 133,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:deltawartortle.geo",
+      "model": "cobblemon:generation1_deltawartortle.geo",
       "poser": "cobblemon:generation1_deltawartortle",
-      "texture": "cobblemon:textures/pokemon/generation1/deltawartortle.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation1/deltawartortle/deltawartortle.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     },
     {
       "aspects": [
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:deltawartortle.geo",
+      "model": "cobblemon:generation1_deltawartortle.geo",
       "poser": "cobblemon:generation1_deltawartortle",
-      "texture": "cobblemon:textures/pokemon/generation1/deltawartortle_shiny.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation1/deltawartortle/deltawartortle_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     }
   ]
 }

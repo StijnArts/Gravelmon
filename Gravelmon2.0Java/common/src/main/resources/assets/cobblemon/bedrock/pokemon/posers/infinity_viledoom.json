@@ -1,33 +1,74 @@
 {
-  "portraitScale": 1.7,
-  "portraitTranslation": [-0.2, 0.7, 0.0],
-  "profileScale": 0.7,
-  "profileTranslation": [0.0, 0.95, -20.0],
+  "head": "head",
+  "portraitScale": 1.7000000476837158,
+  "portraitTranslation": [
+    -0.2,
+    0.7,
+    0.0
+  ],
+  "profileScale": 0.699999988079071,
+  "profileTranslation": [
+    0.0,
+    0.95,
+    -20.0
+  ],
   "animations": {
     "faint": "q.bedrock_primary('viledoom', 'faint')"
   },
   "poses": {
     "standing": {
-      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "poseName": "standing",
       "animations": [
-        "q.bedrock('viledoom', 'ground_idle')"
+        "bedrock(viledoom, ground_idle)"
       ],
+      "poseTypes": [
+        "STAND",
+        "PORTRAIT",
+        "PROFILE",
+        "NONE",
+        "FLOAT",
+        "HOVER"
+      ],
+      "transformTicks": 10,
       "quirks": [
-        "q.bedrock_quirk('viledoom', 'blink')"
+        {
+          "animations": [
+            "bedrock(viledoom, blink)"
+          ],
+          "name": "blink"
+        }
       ]
     },
     "walking": {
-      "poseTypes": ["WALK"],
+      "poseName": "walking",
       "animations": [
-        "q.bedrock('viledoom', 'ground_walk')"
+        "bedrock(viledoom, ground_walk)"
       ],
+      "poseTypes": [
+        "WALK",
+        "SWIM",
+        "FLY"
+      ],
+      "transformTicks": 10,
       "quirks": [
-        "q.bedrock_quirk('viledoom', 'blink')"
+        {
+          "animations": [
+            "bedrock(viledoom, blink)"
+          ],
+          "name": "blink"
+        }
       ]
     },
-    "sleep": {
-      "poseTypes": ["SLEEP"],
-      "animations": ["q.bedrock('viledoom', 'sleep')"]
+    "sleeping": {
+      "poseName": "sleeping",
+      "animations": [
+        "bedrock(viledoom, sleep)"
+      ],
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "transformTicks": 10,
+      "quirks": []
     }
   }
 }

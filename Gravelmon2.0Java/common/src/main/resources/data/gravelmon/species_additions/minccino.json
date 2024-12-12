@@ -110,7 +110,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochminccino.desc1"
+        "cobblemon.species.epochminccino.desc"
       ],
       "height": 4,
       "weight": 58,
@@ -119,9 +119,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochminccino_epoch_cinccino",
+          "id": "epochminccino_cinccino_epoch",
           "variant": "item_interact",
-          "result": "epoch cinccino",
+          "result": "cinccino epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -272,7 +272,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianminccino.desc1"
+        "cobblemon.species.ayreianminccino.desc"
       ],
       "height": 4,
       "weight": 58,

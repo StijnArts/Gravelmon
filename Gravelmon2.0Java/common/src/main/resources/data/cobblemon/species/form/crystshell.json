@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "forretress form\u003dforman",
-  "baseScale": 0.4666666666666666,
+  "preEvolution": "forretress form=forman",
+  "baseScale": 0.0875,
   "cannotDynamax": false,
   "abilities": [
     "sturdy"
@@ -47,7 +47,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.crystshell.desc1"
+    "cobblemon.species.crystshell.desc"
   ],
   "height": 28,
   "weight": 0,

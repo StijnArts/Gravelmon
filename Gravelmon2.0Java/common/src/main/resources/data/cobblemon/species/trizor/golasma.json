@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "cyrok",
-  "baseScale": 0.15,
+  "baseScale": 0.028124999999999997,
   "cannotDynamax": false,
   "abilities": [
     "gooey"
@@ -45,7 +45,7 @@
     "trizor"
   ],
   "pokedex": [
-    "cobblemon.species.golasma.desc1"
+    "cobblemon.species.golasma.desc"
   ],
   "height": 9,
   "weight": 0,

@@ -114,7 +114,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochfrillish.desc1"
+        "cobblemon.species.epochfrillish.desc"
       ],
       "height": 12,
       "weight": 330,
@@ -123,9 +123,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochfrillish_epoch_jellicent",
+          "id": "epochfrillish_jellicent_epoch",
           "variant": "level_up",
-          "result": "epoch jellicent",
+          "result": "jellicent epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

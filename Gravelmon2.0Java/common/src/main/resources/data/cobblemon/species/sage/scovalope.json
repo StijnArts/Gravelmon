@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "hoppanero",
-  "baseScale": 0.16666666666666666,
+  "baseScale": 0.03125,
   "cannotDynamax": false,
   "abilities": [
     "chlorophyll",
@@ -37,7 +37,14 @@
     "grass"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:seeds",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
   },
   "moves": [
     "1:sweetscent",
@@ -110,7 +117,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.scovalope.desc1"
+    "cobblemon.species.scovalope.desc"
   ],
   "height": 10,
   "weight": 224,

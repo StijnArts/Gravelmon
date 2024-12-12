@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "crodin",
-  "baseScale": 0.3,
+  "baseScale": 0.056249999999999994,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -45,7 +45,7 @@
     "norse"
   ],
   "pokedex": [
-    "cobblemon.species.crouinn.desc1"
+    "cobblemon.species.crouinn.desc"
   ],
   "height": 18,
   "weight": 0,

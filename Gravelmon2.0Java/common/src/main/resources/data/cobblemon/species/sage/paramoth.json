@@ -8,7 +8,7 @@
   "eggCycles": 39,
   "baseFriendship": 70,
   "preEvolution": "silkinder",
-  "baseScale": 0.16666666666666666,
+  "baseScale": 0.03125,
   "cannotDynamax": false,
   "abilities": [
     "serenegrace",
@@ -36,7 +36,14 @@
     "fairy"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:swordsdance",
@@ -128,7 +135,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.paramoth.desc1"
+    "cobblemon.species.paramoth.desc"
   ],
   "height": 10,
   "weight": 188,

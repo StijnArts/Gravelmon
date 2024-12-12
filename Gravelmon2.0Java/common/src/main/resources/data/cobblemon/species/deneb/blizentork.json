@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "delibird",
-  "baseScale": 0.21666666666666667,
+  "baseScale": 0.1625,
   "cannotDynamax": false,
   "abilities": [
     "hugepower",
@@ -107,7 +107,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.blizentork.desc1"
+    "cobblemon.species.blizentork.desc"
   ],
   "height": 13,
   "weight": 305,

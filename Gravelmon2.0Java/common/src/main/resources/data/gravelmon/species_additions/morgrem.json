@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianmorgrem.desc1"
+        "cobblemon.species.fabelianmorgrem.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -93,6 +93,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "impidimp form=epoch",
       "baseScale": 0.13333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -199,10 +200,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochmorgrem.desc1"
+        "cobblemon.species.epochmorgrem.desc"
       ],
       "height": 8,
       "weight": 125,
@@ -211,9 +214,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmorgrem_epoch_grimmsnarl",
+          "id": "epochmorgrem_grimmsnarl_epoch",
           "variant": "level_up",
-          "result": "epoch grimmsnarl",
+          "result": "grimmsnarl epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -372,7 +375,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochmorgremone.desc1"
+        "cobblemon.species.epochmorgremone.desc"
       ],
       "height": 8,
       "weight": 125,
@@ -435,7 +438,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "impidimp form\u003dnovran",
+      "preEvolution": "impidimp form=novran",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -550,7 +553,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.novranmorgrem.desc1"
+        "cobblemon.species.novranmorgrem.desc"
       ],
       "height": 4,
       "weight": 165,
@@ -613,7 +616,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "impidimp form\u003dvaritasian",
+      "preEvolution": "impidimp form=varitasian",
       "baseScale": 0.13333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -695,7 +698,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.varitasianmorgrem.desc1"
+        "cobblemon.species.varitasianmorgrem.desc"
       ],
       "height": 8,
       "weight": 125,

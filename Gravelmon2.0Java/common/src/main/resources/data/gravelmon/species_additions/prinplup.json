@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "piplup form=epoch",
       "baseScale": 0.13333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -109,10 +110,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochprinplup.desc1"
+        "cobblemon.species.epochprinplup.desc"
       ],
       "height": 8,
       "weight": 230,
@@ -121,9 +124,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochprinplup_epoch_empoleon",
+          "id": "epochprinplup_empoleon_epoch",
           "variant": "level_up",
-          "result": "epoch empoleon",
+          "result": "empoleon epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -174,7 +177,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "piplup form\u003dinterian",
+      "preEvolution": "piplup form=interian",
       "baseScale": 0.18333333333333335,
       "cannotDynamax": false,
       "abilities": [
@@ -225,7 +228,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.interianprinplup.desc1"
+        "cobblemon.species.interianprinplup.desc"
       ],
       "height": 11,
       "weight": 165,

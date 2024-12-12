@@ -10,7 +10,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -43,7 +43,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.elbiangulpin.desc1"
+        "cobblemon.species.elbiangulpin.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -193,7 +193,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochgulpin.desc1"
+        "cobblemon.species.epochgulpin.desc"
       ],
       "height": 4,
       "weight": 103,
@@ -202,9 +202,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochgulpin_epoch_swalot",
+          "id": "epochgulpin_swalot_epoch",
           "variant": "level_up",
-          "result": "epoch swalot",
+          "result": "swalot epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

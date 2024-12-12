@@ -11,6 +11,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "larvesta form=epoch",
       "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -95,10 +96,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochvolcarona.desc1"
+        "cobblemon.species.epochvolcarona.desc"
       ],
       "height": 16,
       "weight": 460,
@@ -239,7 +242,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochvolcaronaone.desc1"
+        "cobblemon.species.epochvolcaronaone.desc"
       ],
       "height": 16,
       "weight": 460,
@@ -287,8 +290,8 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "larvesta form\u003ddelta",
-      "baseScale": 0.26666666666666666,
+      "preEvolution": "larvesta form=delta",
+      "baseScale": 0.2,
       "cannotDynamax": false,
       "abilities": [
         "levitate",
@@ -458,7 +461,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltavolcarona.desc1"
+        "cobblemon.species.deltavolcarona.desc"
       ],
       "height": 16,
       "weight": 460,
@@ -506,7 +509,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "larvesta form\u003dmythian",
+      "preEvolution": "larvesta form=mythian",
       "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -534,7 +537,14 @@
         "bug"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:pixie_dust",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
       },
       "moves": [
         "1:quiverdance",
@@ -569,7 +579,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.mythianvolcarona.desc1"
+        "cobblemon.species.mythianvolcarona.desc"
       ],
       "height": 16,
       "weight": 460,

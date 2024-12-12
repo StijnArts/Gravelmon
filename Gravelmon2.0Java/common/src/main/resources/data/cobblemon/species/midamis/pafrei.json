@@ -58,7 +58,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.pafrei.desc1"
+    "cobblemon.species.pafrei.desc"
   ],
   "height": 8,
   "weight": 165,
@@ -77,7 +77,7 @@
         },
         {
           "variant": "properties",
-          "target": "gender\u003dfemale",
+          "target": "gender=female",
           "contains": true
         }
       ],
@@ -96,7 +96,7 @@
         },
         {
           "variant": "properties",
-          "target": "gender\u003dmale",
+          "target": "gender=male",
           "contains": true
         }
       ],

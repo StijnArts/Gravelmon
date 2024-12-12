@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "natu form=epoch",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -103,10 +104,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochxatu.desc1"
+        "cobblemon.species.epochxatu.desc"
       ],
       "height": 15,
       "weight": 150,
@@ -190,7 +193,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ionosianxatu.desc1"
+        "cobblemon.species.ionosianxatu.desc"
       ],
       "height": 14,
       "weight": 0,

@@ -13,7 +13,14 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:end_crystal",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "forms": [
     {
@@ -26,6 +33,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "solosis form=epoch",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -128,10 +136,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochduosion.desc1"
+        "cobblemon.species.epochduosion.desc"
       ],
       "height": 6,
       "weight": 80,
@@ -140,9 +150,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochduosion_epoch_reuniclus",
+          "id": "epochduosion_reuniclus_epoch",
           "variant": "level_up",
-          "result": "epoch reuniclus",
+          "result": "reuniclus epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -301,7 +311,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochduosionone.desc1"
+        "cobblemon.species.epochduosionone.desc"
       ],
       "height": 6,
       "weight": 80,
@@ -364,8 +374,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "solosis form\u003ddelta",
-      "baseScale": 0.1,
+      "preEvolution": "solosis form=delta",
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "levitate",
@@ -487,7 +497,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltaduosion.desc1"
+        "cobblemon.species.deltaduosion.desc"
       ],
       "height": 6,
       "weight": 160,
@@ -550,7 +560,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "preEvolution": "solosis form\u003dhoennian",
+      "preEvolution": "solosis form=hoennian",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -624,7 +634,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.hoennianduosion.desc1"
+        "cobblemon.species.hoennianduosion.desc"
       ],
       "height": 5,
       "weight": 107,
@@ -691,8 +701,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "preEvolution": "solosis form\u003dkaskadian",
-      "baseScale": 0.1,
+      "preEvolution": "solosis form=kaskadian",
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "overcoat",
@@ -789,7 +799,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.kaskadianduosion.desc1"
+        "cobblemon.species.kaskadianduosion.desc"
       ],
       "height": 6,
       "weight": 80,
@@ -848,7 +858,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "preEvolution": "solosis form\u003dmystic",
+      "preEvolution": "solosis form=mystic",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -946,7 +956,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.mysticduosion.desc1"
+        "cobblemon.species.mysticduosion.desc"
       ],
       "height": 6,
       "weight": 80,

@@ -114,7 +114,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochswinub.desc1"
+        "cobblemon.species.epochswinub.desc"
       ],
       "height": 4,
       "weight": 65,
@@ -123,9 +123,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochswinub_epoch_piloswine",
+          "id": "epochswinub_piloswine_epoch",
           "variant": "level_up",
-          "result": "epoch piloswine",
+          "result": "piloswine epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -294,7 +294,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochswinubone.desc1"
+        "cobblemon.species.epochswinubone.desc"
       ],
       "height": 4,
       "weight": 65,

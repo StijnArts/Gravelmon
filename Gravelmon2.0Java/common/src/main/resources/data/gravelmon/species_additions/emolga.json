@@ -117,7 +117,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochemolga.desc1"
+        "cobblemon.species.epochemolga.desc"
       ],
       "height": 4,
       "weight": 50,
@@ -281,7 +281,7 @@
         "insurgence"
       ],
       "pokedex": [
-        "cobblemon.species.deltaemolga.desc1"
+        "cobblemon.species.deltaemolga.desc"
       ],
       "height": 4,
       "weight": 50,
@@ -397,7 +397,7 @@
         "gen5"
       ],
       "pokedex": [
-        "cobblemon.species.hoennianemolga.desc1"
+        "cobblemon.species.hoennianemolga.desc"
       ],
       "height": 4,
       "weight": 50,

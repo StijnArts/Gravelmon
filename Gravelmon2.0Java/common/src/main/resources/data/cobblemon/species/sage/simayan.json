@@ -8,7 +8,7 @@
   "eggCycles": 76,
   "baseFriendship": 70,
   "preEvolution": "chimpoca",
-  "baseScale": 0.18333333333333335,
+  "baseScale": 0.034375,
   "cannotDynamax": false,
   "abilities": [
     "sheerforce",
@@ -36,7 +36,14 @@
     "field"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:cocoa_beans",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:armthrust",
@@ -106,7 +113,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.simayan.desc1"
+    "cobblemon.species.simayan.desc"
   ],
   "height": 11,
   "weight": 310,

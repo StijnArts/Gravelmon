@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -47,7 +47,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianmimikyu.desc1"
+        "cobblemon.species.fabelianmimikyu.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -201,7 +201,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochmimikyu.desc1"
+        "cobblemon.species.epochmimikyu.desc"
       ],
       "height": 2,
       "weight": 7,
@@ -363,7 +363,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianmimikyu.desc1"
+        "cobblemon.species.ayreianmimikyu.desc"
       ],
       "height": 2,
       "weight": 7,

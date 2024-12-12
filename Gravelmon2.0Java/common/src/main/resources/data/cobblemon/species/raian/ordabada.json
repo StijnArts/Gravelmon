@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 3.0,
+  "baseScale": 0.5625,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -44,7 +44,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.ordabada.desc1"
+    "cobblemon.species.ordabada.desc"
   ],
   "height": 180,
   "weight": 0,

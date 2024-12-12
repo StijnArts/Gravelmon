@@ -10,7 +10,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -43,7 +43,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formantreecko.desc1"
+        "cobblemon.species.formantreecko.desc"
       ],
       "height": 5,
       "weight": 0,
@@ -208,7 +208,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochtreecko.desc1"
+        "cobblemon.species.epochtreecko.desc"
       ],
       "height": 5,
       "weight": 50,
@@ -217,9 +217,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochtreecko_epoch_grovyle",
+          "id": "epochtreecko_grovyle_epoch",
           "variant": "level_up",
-          "result": "epoch grovyle",
+          "result": "grovyle epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -317,7 +317,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.avalossiantreecko.desc1"
+        "cobblemon.species.avalossiantreecko.desc"
       ],
       "height": 5,
       "weight": 104,
@@ -494,7 +494,7 @@
         "insurgence"
       ],
       "pokedex": [
-        "cobblemon.species.deltatreecko.desc1"
+        "cobblemon.species.deltatreecko.desc"
       ],
       "height": 5,
       "weight": 50,
@@ -672,7 +672,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiantreecko.desc1"
+        "cobblemon.species.ayreiantreecko.desc"
       ],
       "height": 5,
       "weight": 50,
@@ -785,7 +785,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mystictreecko.desc1"
+        "cobblemon.species.mystictreecko.desc"
       ],
       "height": 5,
       "weight": 50,

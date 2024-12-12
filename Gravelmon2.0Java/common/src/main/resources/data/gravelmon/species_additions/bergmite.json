@@ -115,7 +115,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochbergmite.desc1"
+        "cobblemon.species.epochbergmite.desc"
       ],
       "height": 10,
       "weight": 995,
@@ -124,9 +124,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochbergmite_epoch_avalugg",
+          "id": "epochbergmite_avalugg_epoch",
           "variant": "level_up",
-          "result": "epoch avalugg",
+          "result": "avalugg epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -232,7 +232,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.vesitanbergmite.desc1"
+        "cobblemon.species.vesitanbergmite.desc"
       ],
       "height": 10,
       "weight": 995,
@@ -409,7 +409,7 @@
         "insurgence"
       ],
       "pokedex": [
-        "cobblemon.species.deltabergmite.desc1"
+        "cobblemon.species.deltabergmite.desc"
       ],
       "height": 10,
       "weight": 995,

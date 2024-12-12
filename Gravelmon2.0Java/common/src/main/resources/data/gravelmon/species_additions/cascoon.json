@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "wurmple form=epoch",
       "baseScale": 0.11666666666666665,
       "cannotDynamax": false,
       "abilities": [
@@ -50,10 +51,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochcascoon.desc1"
+        "cobblemon.species.epochcascoon.desc"
       ],
       "height": 7,
       "weight": 115,
@@ -62,9 +65,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochcascoon_epoch_dustox",
+          "id": "epochcascoon_dustox_epoch",
           "variant": "level_up",
-          "result": "epoch dustox",
+          "result": "dustox epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

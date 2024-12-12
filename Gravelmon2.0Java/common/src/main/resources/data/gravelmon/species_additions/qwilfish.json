@@ -17,7 +17,14 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:metal_coat",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "forms": [
     {
@@ -30,7 +37,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "poisonpoint"
@@ -66,7 +73,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanqwilfish.desc1"
+        "cobblemon.species.formanqwilfish.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -217,7 +224,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.avalossianqwilfish.desc1"
+        "cobblemon.species.avalossianqwilfish.desc"
       ],
       "height": 5,
       "weight": 39,
@@ -349,7 +356,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.hoennianqwilfish.desc1"
+        "cobblemon.species.hoennianqwilfish.desc"
       ],
       "height": 7,
       "weight": 430,

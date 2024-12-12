@@ -115,7 +115,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochpiplup.desc1"
+        "cobblemon.species.epochpiplup.desc"
       ],
       "height": 4,
       "weight": 52,
@@ -124,9 +124,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochpiplup_epoch_prinplup",
+          "id": "epochpiplup_prinplup_epoch",
           "variant": "level_up",
-          "result": "epoch prinplup",
+          "result": "prinplup epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -225,7 +225,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.interianpiplup.desc1"
+        "cobblemon.species.interianpiplup.desc"
       ],
       "height": 5,
       "weight": 165,

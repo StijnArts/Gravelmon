@@ -37,7 +37,14 @@
     "dragon"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:raw_cod",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:healpulse",
@@ -120,7 +127,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.oarwish.desc1"
+    "cobblemon.species.oarwish.desc"
   ],
   "height": 26,
   "weight": 547,

@@ -13,7 +13,14 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:thunder_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "preEvolution": "ayreianralts",
   "forms": [
@@ -27,7 +34,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -61,7 +68,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabeliankirlia.desc1"
+        "cobblemon.species.fabeliankirlia.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -109,6 +116,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "ralts form=epoch",
       "baseScale": 0.13333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -215,10 +223,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochkirlia.desc1"
+        "cobblemon.species.epochkirlia.desc"
       ],
       "height": 8,
       "weight": 202,
@@ -227,9 +237,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochkirlia_epoch_gardevoir",
+          "id": "epochkirlia_gardevoir_epoch",
           "variant": "level_up",
-          "result": "epoch gardevoir",
+          "result": "gardevoir epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -239,16 +249,16 @@
             },
             {
               "variant": "properties",
-              "target": "gender\u003dfemale",
+              "target": "gender=female",
               "contains": true
             }
           ],
           "permanent": true
         },
         {
-          "id": "epochkirlia_epoch_gallade",
+          "id": "epochkirlia_gallade_epoch",
           "variant": "level_up",
-          "result": "epoch gallade",
+          "result": "gallade epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -258,7 +268,7 @@
             },
             {
               "variant": "properties",
-              "target": "gender\u003dmale",
+              "target": "gender=male",
               "contains": true
             }
           ],
@@ -305,7 +315,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "ralts form\u003davalossian",
+      "preEvolution": "ralts form=avalossian",
       "baseScale": 0.13333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -429,7 +439,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.avalossiankirlia.desc1"
+        "cobblemon.species.avalossiankirlia.desc"
       ],
       "height": 8,
       "weight": 202,
@@ -446,7 +456,7 @@
           "requirements": [
             {
               "variant": "properties",
-              "target": "gender\u003dmale",
+              "target": "gender=male",
               "contains": true
             }
           ],
@@ -508,7 +518,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "ralts form\u003ddelta",
+      "preEvolution": "ralts form=delta",
       "baseScale": 0.9,
       "cannotDynamax": false,
       "abilities": [
@@ -616,7 +626,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltakirlia.desc1"
+        "cobblemon.species.deltakirlia.desc"
       ],
       "height": 8,
       "weight": 202,
@@ -647,7 +657,7 @@
           "requirements": [
             {
               "variant": "properties",
-              "target": "gender\u003dmale",
+              "target": "gender=male",
               "contains": true
             }
           ],
@@ -822,7 +832,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiankirlia.desc1"
+        "cobblemon.species.ayreiankirlia.desc"
       ],
       "height": 8,
       "weight": 202,

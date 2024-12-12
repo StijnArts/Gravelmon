@@ -129,7 +129,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochhappiny.desc1"
+        "cobblemon.species.epochhappiny.desc"
       ],
       "height": 6,
       "weight": 244,
@@ -138,9 +138,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochhappiny_epoch_chansey",
+          "id": "epochhappiny_chansey_epoch",
           "variant": "level_up",
-          "result": "epoch chansey",
+          "result": "chansey epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -300,7 +300,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.avalossianhappiny.desc1"
+        "cobblemon.species.avalossianhappiny.desc"
       ],
       "height": 6,
       "weight": 244,
@@ -359,7 +359,7 @@
       "experienceGroup": "fast",
       "eggCycles": 100,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "angerpoint",
@@ -386,7 +386,14 @@
         "undiscovered"
       ],
       "drops": {
-        "amount": 1
+        "amount": 1,
+        "entries": [
+          {
+            "item": "cobblemon:oval_stone",
+            "quantityRange": "1-1",
+            "percentage": 20
+          }
+        ]
       },
       "moves": [
         "1:helpinghand",
@@ -478,7 +485,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.eghohappiny.desc1"
+        "cobblemon.species.eghohappiny.desc"
       ],
       "height": 6,
       "weight": 244,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "voidefish",
-  "baseScale": 0.3,
+  "baseScale": 14.399999999999999,
   "cannotDynamax": false,
   "abilities": [
     "swiftswim"
@@ -58,7 +58,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.voidevour.desc1"
+    "cobblemon.species.voidevour.desc"
   ],
   "height": 18,
   "weight": 165,

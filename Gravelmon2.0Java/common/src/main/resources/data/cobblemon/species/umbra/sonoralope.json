@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "cackrabbit",
-  "baseScale": 0.6333333333333333,
+  "baseScale": 0.11875,
   "cannotDynamax": false,
   "abilities": [
     "overgrow",
@@ -110,7 +110,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.sonoralope.desc1"
+    "cobblemon.species.sonoralope.desc"
   ],
   "height": 38,
   "weight": 2300,

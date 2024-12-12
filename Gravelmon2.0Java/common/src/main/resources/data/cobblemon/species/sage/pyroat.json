@@ -35,7 +35,19 @@
     "field"
   ],
   "drops": {
-    "amount": 4
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:flint",
+        "quantityRange": "1-2",
+        "percentage": 20
+      },
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 80
+      }
+    ]
   },
   "moves": [
     "1:tackle",
@@ -119,7 +131,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.pyroat.desc1"
+    "cobblemon.species.pyroat.desc"
   ],
   "height": 10,
   "weight": 331,

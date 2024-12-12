@@ -13,7 +13,14 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "gravelmon:ocarina",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "forms": [
     {
@@ -26,6 +33,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "skiddo form=epoch",
       "baseScale": 0.2833333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -112,10 +120,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochgogoat.desc1"
+        "cobblemon.species.epochgogoat.desc"
       ],
       "height": 17,
       "weight": 910,
@@ -215,7 +225,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.vesitangogoat.desc1"
+        "cobblemon.species.vesitangogoat.desc"
       ],
       "height": 17,
       "weight": 910,
@@ -361,7 +371,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiangogoat.desc1"
+        "cobblemon.species.ayreiangogoat.desc"
       ],
       "height": 17,
       "weight": 910,
@@ -409,7 +419,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "preEvolution": "skiddo form\u003drelic",
+      "preEvolution": "skiddo form=relic",
       "baseScale": 0.3666666666666667,
       "cannotDynamax": false,
       "abilities": [
@@ -518,7 +528,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.relicgogoat.desc1"
+        "cobblemon.species.relicgogoat.desc"
       ],
       "height": 22,
       "weight": 1890,

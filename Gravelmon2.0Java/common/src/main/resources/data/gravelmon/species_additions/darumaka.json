@@ -125,7 +125,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochdarumaka.desc1"
+        "cobblemon.species.epochdarumaka.desc"
       ],
       "height": 6,
       "weight": 375,
@@ -134,9 +134,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochdarumaka_epoch_darmanitan",
+          "id": "epochdarumaka_darmanitan_epoch",
           "variant": "level_up",
-          "result": "epoch darmanitan",
+          "result": "darmanitan epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -302,7 +302,7 @@
         "insurgence"
       ],
       "pokedex": [
-        "cobblemon.species.deltadarumaka.desc1"
+        "cobblemon.species.deltadarumaka.desc"
       ],
       "height": 6,
       "weight": 375,

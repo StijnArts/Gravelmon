@@ -7,7 +7,7 @@
   "experienceGroup": "slow",
   "eggCycles": 51,
   "baseFriendship": 70,
-  "preEvolution": "goomy form\u003dhoennian",
+  "preEvolution": "goomy form=hoennian",
   "baseScale": 1.1333333333333333,
   "cannotDynamax": false,
   "abilities": [
@@ -86,7 +86,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.goolossal.desc1"
+    "cobblemon.species.goolossal.desc"
   ],
   "height": 68,
   "weight": 2097,

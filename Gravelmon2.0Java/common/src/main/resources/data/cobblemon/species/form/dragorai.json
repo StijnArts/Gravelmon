@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "dragonair form\u003dforman",
-  "baseScale": 0.43333333333333335,
+  "preEvolution": "dragonair form=forman",
+  "baseScale": 0.08125,
   "cannotDynamax": false,
   "abilities": [
     "lightningrod"
@@ -47,7 +47,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.dragorai.desc1"
+    "cobblemon.species.dragorai.desc"
   ],
   "height": 26,
   "weight": 0,

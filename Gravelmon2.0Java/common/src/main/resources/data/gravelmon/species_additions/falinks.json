@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -49,7 +49,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianfalinks.desc1"
+        "cobblemon.species.fabelianfalinks.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -178,7 +178,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochfalinks.desc1"
+        "cobblemon.species.epochfalinks.desc"
       ],
       "height": 30,
       "weight": 620,
@@ -346,7 +346,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.norheimanfalinks.desc1"
+        "cobblemon.species.norheimanfalinks.desc"
       ],
       "height": 12,
       "weight": 165,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "igon",
-  "baseScale": 0.13333333333333333,
+  "baseScale": 0.025,
   "cannotDynamax": false,
   "abilities": [
     "poisonpoint",
@@ -48,7 +48,7 @@
     "palmia"
   ],
   "pokedex": [
-    "cobblemon.species.stingall.desc1"
+    "cobblemon.species.stingall.desc"
   ],
   "height": 8,
   "weight": 0,

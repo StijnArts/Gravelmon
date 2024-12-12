@@ -8,7 +8,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "larvyn",
-  "baseScale": 0.13333333333333333,
+  "baseScale": 0.025,
   "cannotDynamax": false,
   "abilities": [
     "unaware",
@@ -35,7 +35,14 @@
     "dragon"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:harden",
@@ -75,7 +82,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.dracoon.desc1"
+    "cobblemon.species.dracoon.desc"
   ],
   "height": 8,
   "weight": 137,

@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "yolkid",
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.15,
   "cannotDynamax": false,
   "abilities": [
     "waterveil",
@@ -83,7 +83,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.corenom.desc1"
+    "cobblemon.species.corenom.desc"
   ],
   "height": 12,
   "weight": 1188,

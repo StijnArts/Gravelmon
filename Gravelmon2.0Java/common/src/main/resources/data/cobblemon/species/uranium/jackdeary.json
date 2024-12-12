@@ -36,7 +36,14 @@
     "fairy"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:carrot_wine",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "moves": [
     "1:quickattack",
@@ -187,7 +194,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.jackdeary.desc1"
+    "cobblemon.species.jackdeary.desc"
   ],
   "height": 6,
   "weight": 112,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "snalo",
-  "baseScale": 0.18333333333333335,
+  "baseScale": 0.1375,
   "cannotDynamax": false,
   "abilities": [
     "naturalcure",
@@ -109,7 +109,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.serplant.desc1"
+    "cobblemon.species.serplant.desc"
   ],
   "height": 11,
   "weight": 245,

@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "ledian form\u003dforman",
-  "baseScale": 0.35000000000000003,
+  "preEvolution": "ledian form=forman",
+  "baseScale": 0.065625,
   "cannotDynamax": false,
   "abilities": [
     "sweetveil"
@@ -45,7 +45,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.starledi.desc1"
+    "cobblemon.species.starledi.desc"
   ],
   "height": 21,
   "weight": 0,

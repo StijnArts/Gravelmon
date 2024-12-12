@@ -11,6 +11,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "tynamo form=epoch",
       "baseScale": 0.19999999999999998,
       "cannotDynamax": false,
       "abilities": [
@@ -118,10 +119,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epocheelektrik.desc1"
+        "cobblemon.species.epocheelektrik.desc"
       ],
       "height": 12,
       "weight": 220,
@@ -130,9 +133,9 @@
       ],
       "evolutions": [
         {
-          "id": "epocheelektrik_epoch_eelektross",
+          "id": "epocheelektrik_eelektross_epoch",
           "variant": "item_interact",
-          "result": "epoch eelektross",
+          "result": "eelektross epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -180,7 +183,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "tynamo form\u003dvaritasian",
+      "preEvolution": "tynamo form=varitasian",
       "baseScale": 0.19999999999999998,
       "cannotDynamax": false,
       "abilities": [
@@ -263,7 +266,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.varitasianeelektrik.desc1"
+        "cobblemon.species.varitasianeelektrik.desc"
       ],
       "height": 12,
       "weight": 165,
@@ -322,7 +325,7 @@
       "experienceGroup": "slow",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "preEvolution": "tynamo form\u003dhoennian",
+      "preEvolution": "tynamo form=hoennian",
       "baseScale": 0.4666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -397,7 +400,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.hoennianeelektrik.desc1"
+        "cobblemon.species.hoennianeelektrik.desc"
       ],
       "height": 28,
       "weight": 699,

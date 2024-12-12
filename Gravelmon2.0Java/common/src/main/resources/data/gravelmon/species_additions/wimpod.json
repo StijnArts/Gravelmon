@@ -112,7 +112,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochwimpod.desc1"
+        "cobblemon.species.epochwimpod.desc"
       ],
       "height": 5,
       "weight": 120,
@@ -121,9 +121,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochwimpod_epoch_golisopod",
+          "id": "epochwimpod_golisopod_epoch",
           "variant": "level_up",
-          "result": "epoch golisopod",
+          "result": "golisopod epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

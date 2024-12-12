@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 51,
   "baseFriendship": 70,
-  "baseScale": 0.25,
+  "baseScale": 0.046875,
   "cannotDynamax": false,
   "abilities": [
     "dryskin",
@@ -117,7 +117,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.skurrow.desc1"
+    "cobblemon.species.skurrow.desc"
   ],
   "height": 15,
   "weight": 171,

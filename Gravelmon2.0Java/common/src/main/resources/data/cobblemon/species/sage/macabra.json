@@ -7,7 +7,7 @@
   "experienceGroup": "fluctuating",
   "eggCycles": 62,
   "baseFriendship": 70,
-  "baseScale": 0.2333333333333333,
+  "baseScale": 0.04375,
   "cannotDynamax": false,
   "abilities": [
     "psychout",
@@ -34,7 +34,14 @@
     "monster"
   ],
   "drops": {
-    "amount": 4
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:wool",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:magiccoat",
@@ -131,7 +138,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.macabra.desc1"
+    "cobblemon.species.macabra.desc"
   ],
   "height": 14,
   "weight": 445,

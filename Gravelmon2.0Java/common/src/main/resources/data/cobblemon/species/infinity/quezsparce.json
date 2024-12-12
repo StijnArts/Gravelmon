@@ -9,7 +9,7 @@
   "eggCycles": 52,
   "baseFriendship": 70,
   "preEvolution": "dunsparce",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.3,
   "cannotDynamax": false,
   "abilities": [
     "serenegrace",
@@ -175,7 +175,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.quezsparce.desc1"
+    "cobblemon.species.quezsparce.desc"
   ],
   "height": 24,
   "weight": 793,

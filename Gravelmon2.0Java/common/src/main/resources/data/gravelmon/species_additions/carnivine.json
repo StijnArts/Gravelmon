@@ -132,7 +132,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochcarnivine.desc1"
+        "cobblemon.species.epochcarnivine.desc"
       ],
       "height": 14,
       "weight": 270,
@@ -272,7 +272,7 @@
         "gen4"
       ],
       "pokedex": [
-        "cobblemon.species.seviiancarnivine.desc1"
+        "cobblemon.species.seviiancarnivine.desc"
       ],
       "height": 14,
       "weight": 270,

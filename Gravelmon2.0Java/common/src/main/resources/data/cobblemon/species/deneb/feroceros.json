@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "rynos",
-  "baseScale": 0.31666666666666665,
+  "baseScale": 0.2375,
   "cannotDynamax": false,
   "abilities": [
     "intimidate",
@@ -106,7 +106,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.feroceros.desc1"
+    "cobblemon.species.feroceros.desc"
   ],
   "height": 19,
   "weight": 1888,

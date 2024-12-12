@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "teddiursa form\u003dforman",
-  "baseScale": 0.2833333333333333,
+  "preEvolution": "teddiursa form=forman",
+  "baseScale": 0.053125,
   "cannotDynamax": false,
   "abilities": [
     "waterabsorb"
@@ -47,7 +47,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.swabear.desc1"
+    "cobblemon.species.swabear.desc"
   ],
   "height": 17,
   "weight": 0,

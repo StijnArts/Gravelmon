@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianhatenna.desc1"
+        "cobblemon.species.fabelianhatenna.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -190,7 +190,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochhatenna.desc1"
+        "cobblemon.species.epochhatenna.desc"
       ],
       "height": 4,
       "weight": 34,
@@ -199,9 +199,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochhatenna_epoch_hattrem",
+          "id": "epochhatenna_hattrem_epoch",
           "variant": "level_up",
-          "result": "epoch hattrem",
+          "result": "hattrem epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -353,7 +353,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.novranhatenna.desc1"
+        "cobblemon.species.novranhatenna.desc"
       ],
       "height": 4,
       "weight": 165,
@@ -500,7 +500,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianhatenna.desc1"
+        "cobblemon.species.ayreianhatenna.desc"
       ],
       "height": 4,
       "weight": 34,

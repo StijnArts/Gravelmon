@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "prinplup form=epoch",
       "baseScale": 0.2833333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -109,10 +110,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochempoleon.desc1"
+        "cobblemon.species.epochempoleon.desc"
       ],
       "height": 17,
       "weight": 845,
@@ -160,7 +163,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "prinplup form\u003dinterian",
+      "preEvolution": "prinplup form=interian",
       "baseScale": 0.2833333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -211,7 +214,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.interianempoleon.desc1"
+        "cobblemon.species.interianempoleon.desc"
       ],
       "height": 17,
       "weight": 165,

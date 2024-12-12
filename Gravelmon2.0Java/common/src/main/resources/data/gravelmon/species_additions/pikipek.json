@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ivrisianpikipek.desc1"
+        "cobblemon.species.ivrisianpikipek.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -191,7 +191,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochpikipek.desc1"
+        "cobblemon.species.epochpikipek.desc"
       ],
       "height": 3,
       "weight": 12,
@@ -200,9 +200,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochpikipek_epoch_trumbeak",
+          "id": "epochpikipek_trumbeak_epoch",
           "variant": "level_up",
-          "result": "epoch trumbeak",
+          "result": "trumbeak epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

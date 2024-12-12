@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "chikorita form=epoch",
       "baseScale": 0.19999999999999998,
       "cannotDynamax": false,
       "abilities": [
@@ -103,10 +104,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochbayleef.desc1"
+        "cobblemon.species.epochbayleef.desc"
       ],
       "height": 12,
       "weight": 158,
@@ -115,9 +118,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochbayleef_epoch_meganium",
+          "id": "epochbayleef_meganium_epoch",
           "variant": "level_up",
-          "result": "epoch meganium",
+          "result": "meganium epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -269,7 +272,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochbayleefone.desc1"
+        "cobblemon.species.epochbayleefone.desc"
       ],
       "height": 12,
       "weight": 158,
@@ -366,7 +369,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ionosianbayleef.desc1"
+        "cobblemon.species.ionosianbayleef.desc"
       ],
       "height": 14,
       "weight": 0,
@@ -429,8 +432,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "chikorita form\u003degho",
-      "baseScale": 0.26666666666666666,
+      "preEvolution": "chikorita form=egho",
+      "baseScale": 0.2,
       "cannotDynamax": false,
       "abilities": [
         "chlorophyll",
@@ -457,7 +460,14 @@
         "dragon"
       ],
       "drops": {
-        "amount": 2
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:apple",
+            "quantityRange": "1-2",
+            "percentage": 50
+          }
+        ]
       },
       "moves": [
         "1:batonpass",
@@ -554,7 +564,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.eghobayleef.desc1"
+        "cobblemon.species.eghobayleef.desc"
       ],
       "height": 16,
       "weight": 158,
@@ -617,7 +627,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "chikorita form\u003dayreian",
+      "preEvolution": "chikorita form=ayreian",
       "baseScale": 0.19999999999999998,
       "cannotDynamax": false,
       "abilities": [
@@ -733,7 +743,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianbayleef.desc1"
+        "cobblemon.species.ayreianbayleef.desc"
       ],
       "height": 12,
       "weight": 158,

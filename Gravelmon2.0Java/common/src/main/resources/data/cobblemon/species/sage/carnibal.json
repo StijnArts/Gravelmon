@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "wendingo",
-  "baseScale": 0.2833333333333333,
+  "baseScale": 0.053125,
   "cannotDynamax": false,
   "abilities": [
     "intimidate",
@@ -36,7 +36,14 @@
     "field"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:ice",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
   },
   "moves": [
     "1:thunderfang",
@@ -132,7 +139,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.carnibal.desc1"
+    "cobblemon.species.carnibal.desc"
   ],
   "height": 17,
   "weight": 879,

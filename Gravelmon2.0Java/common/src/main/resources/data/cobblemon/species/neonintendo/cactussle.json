@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "cacnea form\u003dneo",
+  "preEvolution": "cacnea form=neo",
   "baseScale": 0.21666666666666667,
   "cannotDynamax": false,
   "abilities": [
@@ -148,7 +148,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.cactussle.desc1"
+    "cobblemon.species.cactussle.desc"
   ],
   "height": 13,
   "weight": 734,

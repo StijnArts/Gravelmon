@@ -9,7 +9,7 @@
   "eggCycles": 52,
   "baseFriendship": 70,
   "preEvolution": "burnaram",
-  "baseScale": 0.3333333333333333,
+  "baseScale": 0.25,
   "cannotDynamax": false,
   "abilities": [
     "reckless",
@@ -36,7 +36,14 @@
     "field"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:tackle",
@@ -138,7 +145,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.psysteed.desc1"
+    "cobblemon.species.psysteed.desc"
   ],
   "height": 20,
   "weight": 880,

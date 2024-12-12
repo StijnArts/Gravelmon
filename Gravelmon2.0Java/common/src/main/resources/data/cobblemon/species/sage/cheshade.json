@@ -9,7 +9,7 @@
   "eggCycles": 51,
   "baseFriendship": 70,
   "preEvolution": "chegrin",
-  "baseScale": 0.15,
+  "baseScale": 0.028124999999999997,
   "cannotDynamax": false,
   "abilities": [
     "shadowtag",
@@ -35,7 +35,14 @@
     "field"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:raw_cod",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:feintattack",
@@ -124,7 +131,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.cheshade.desc1"
+    "cobblemon.species.cheshade.desc"
   ],
   "height": 9,
   "weight": 241,

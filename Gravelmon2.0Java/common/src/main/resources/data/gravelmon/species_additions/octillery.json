@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "remoraid form=epoch",
       "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
@@ -111,10 +112,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochoctillery.desc1"
+        "cobblemon.species.epochoctillery.desc"
       ],
       "height": 9,
       "weight": 285,
@@ -197,7 +200,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.lagoonanoctillery.desc1"
+        "cobblemon.species.lagoonanoctillery.desc"
       ],
       "height": 11,
       "weight": 285,
@@ -244,8 +247,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "remoraid form\u003ddelta",
-      "baseScale": 0.15,
+      "preEvolution": "remoraid form=delta",
+      "baseScale": 0.11249999999999999,
       "cannotDynamax": false,
       "abilities": [
         "heatproof",
@@ -374,7 +377,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltaoctillery.desc1"
+        "cobblemon.species.deltaoctillery.desc"
       ],
       "height": 9,
       "weight": 285,

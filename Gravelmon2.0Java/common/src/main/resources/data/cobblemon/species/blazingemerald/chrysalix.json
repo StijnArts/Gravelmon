@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 51,
   "baseFriendship": 70,
-  "preEvolution": "onix form\u003dhoennian",
+  "preEvolution": "onix form=hoennian",
   "baseScale": 1.5,
   "cannotDynamax": false,
   "abilities": [
@@ -79,7 +79,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.chrysalix.desc1"
+    "cobblemon.species.chrysalix.desc"
   ],
   "height": 43,
   "weight": 3000,

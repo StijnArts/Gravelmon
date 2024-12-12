@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "owsno",
-  "baseScale": 0.25,
+  "baseScale": 0.046875,
   "cannotDynamax": false,
   "abilities": [
     "snowwarning"
@@ -49,7 +49,7 @@
     "palmia"
   ],
   "pokedex": [
-    "cobblemon.species.flacowl.desc1"
+    "cobblemon.species.flacowl.desc"
   ],
   "height": 15,
   "weight": 0,

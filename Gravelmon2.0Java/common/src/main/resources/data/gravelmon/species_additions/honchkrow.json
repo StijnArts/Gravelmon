@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "murkrow form=epoch",
       "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
@@ -37,7 +38,16 @@
       "eggGroups": [
         "flying"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:air_stone",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
+      },
       "moves": [
         "47:beakblast",
         "33:drillpeck",
@@ -101,10 +111,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochhonchkrow.desc1"
+        "cobblemon.species.epochhonchkrow.desc"
       ],
       "height": 9,
       "weight": 273,
@@ -263,7 +275,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochhonchkrowone.desc1"
+        "cobblemon.species.epochhonchkrowone.desc"
       ],
       "height": 9,
       "weight": 273,
@@ -311,7 +323,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "murkrow form\u003dhizian",
+      "preEvolution": "murkrow form=hizian",
       "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
@@ -360,7 +372,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.hizianhonchkrow.desc1"
+        "cobblemon.species.hizianhonchkrow.desc"
       ],
       "height": 9,
       "weight": 165,

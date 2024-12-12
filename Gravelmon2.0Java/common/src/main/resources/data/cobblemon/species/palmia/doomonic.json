@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "colloestamp",
-  "baseScale": 0.5833333333333334,
+  "baseScale": 0.109375,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -45,7 +45,7 @@
     "palmia"
   ],
   "pokedex": [
-    "cobblemon.species.doomonic.desc1"
+    "cobblemon.species.doomonic.desc"
   ],
   "height": 35,
   "weight": 0,

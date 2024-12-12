@@ -11,6 +11,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "electrike form=epoch",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -111,10 +112,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochmanectric.desc1"
+        "cobblemon.species.epochmanectric.desc"
       ],
       "height": 15,
       "weight": 402,
@@ -261,7 +264,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.enjinnianmanectric.desc1"
+        "cobblemon.species.enjinnianmanectric.desc"
       ],
       "height": 15,
       "weight": 402,

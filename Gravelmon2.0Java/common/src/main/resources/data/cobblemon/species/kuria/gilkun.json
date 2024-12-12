@@ -55,7 +55,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.gilkun.desc1"
+    "cobblemon.species.gilkun.desc"
   ],
   "height": 4,
   "weight": 19,
@@ -74,7 +74,7 @@
         },
         {
           "variant": "properties",
-          "target": "gender\u003dmale",
+          "target": "gender=male",
           "contains": true
         }
       ],
@@ -93,7 +93,7 @@
         },
         {
           "variant": "properties",
-          "target": "gender\u003dfemale",
+          "target": "gender=female",
           "contains": true
         }
       ],

@@ -27,6 +27,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "drowzee form=epoch",
       "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -122,10 +123,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochhypno.desc1"
+        "cobblemon.species.epochhypno.desc"
       ],
       "height": 16,
       "weight": 756,
@@ -173,7 +176,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "drowzee form\u003denjinnian",
+      "preEvolution": "drowzee form=enjinnian",
       "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
@@ -212,7 +215,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.enjinnianhypno.desc1"
+        "cobblemon.species.enjinnianhypno.desc"
       ],
       "height": 18,
       "weight": 756,

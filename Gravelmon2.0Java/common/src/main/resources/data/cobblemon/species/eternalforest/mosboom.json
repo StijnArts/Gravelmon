@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "mosdeng",
-  "baseScale": 0.13333333333333333,
+  "baseScale": 0.025,
   "cannotDynamax": false,
   "abilities": [
     "aftermath",
@@ -109,7 +109,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.mosboom.desc1"
+    "cobblemon.species.mosboom.desc"
   ],
   "height": 8,
   "weight": 50,

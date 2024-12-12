@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "sandygast form\u003dqamoran",
+  "preEvolution": "sandygast form=qamoran",
   "baseScale": 0.31666666666666665,
   "cannotDynamax": false,
   "abilities": [
@@ -57,7 +57,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.palosstone.desc1"
+    "cobblemon.species.palosstone.desc"
   ],
   "height": 19,
   "weight": 165,

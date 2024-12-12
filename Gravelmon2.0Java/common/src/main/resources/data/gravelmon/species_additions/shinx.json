@@ -127,7 +127,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochshinx.desc1"
+        "cobblemon.species.epochshinx.desc"
       ],
       "height": 5,
       "weight": 95,
@@ -136,9 +136,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochshinx_epoch_luxio",
+          "id": "epochshinx_luxio_epoch",
           "variant": "level_up",
-          "result": "epoch luxio",
+          "result": "luxio epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -190,7 +190,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "poisontouch",
@@ -303,7 +303,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltashinx.desc1"
+        "cobblemon.species.deltashinx.desc"
       ],
       "height": 5,
       "weight": 190,
@@ -480,7 +480,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianshinx.desc1"
+        "cobblemon.species.ayreianshinx.desc"
       ],
       "height": 5,
       "weight": 95,
@@ -542,7 +542,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "furcoat",
@@ -631,7 +631,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.kaskadianshinx.desc1"
+        "cobblemon.species.kaskadianshinx.desc"
       ],
       "height": 5,
       "weight": 95,

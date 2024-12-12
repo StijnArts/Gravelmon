@@ -128,7 +128,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochlotad.desc1"
+        "cobblemon.species.epochlotad.desc"
       ],
       "height": 5,
       "weight": 26,
@@ -137,9 +137,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochlotad_epoch_lombre",
+          "id": "epochlotad_lombre_epoch",
           "variant": "level_up",
-          "result": "epoch lombre",
+          "result": "lombre epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -191,7 +191,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 39,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "harvest",
@@ -291,7 +291,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.egholotad.desc1"
+        "cobblemon.species.egholotad.desc"
       ],
       "height": 6,
       "weight": 80,
@@ -355,7 +355,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "magicbounce",
@@ -468,7 +468,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltalotad.desc1"
+        "cobblemon.species.deltalotad.desc"
       ],
       "height": 5,
       "weight": 26,

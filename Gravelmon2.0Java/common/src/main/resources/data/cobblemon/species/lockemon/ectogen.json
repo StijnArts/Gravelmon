@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "skinka",
-  "baseScale": 0.25,
+  "baseScale": 0.046875,
   "cannotDynamax": false,
   "abilities": [
     "shadowtag",
@@ -46,7 +46,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.ectogen.desc1"
+    "cobblemon.species.ectogen.desc"
   ],
   "height": 15,
   "weight": 365,

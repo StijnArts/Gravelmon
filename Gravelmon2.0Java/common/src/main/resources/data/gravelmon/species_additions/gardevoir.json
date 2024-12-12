@@ -11,6 +11,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "kirlia form=epoch",
       "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -111,10 +112,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochgardevoir.desc1"
+        "cobblemon.species.epochgardevoir.desc"
       ],
       "height": 16,
       "weight": 484,
@@ -162,7 +165,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "kirlia form\u003davalossian",
+      "preEvolution": "kirlia form=avalossian",
       "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -288,7 +291,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.avalossiangardevoir.desc1"
+        "cobblemon.species.avalossiangardevoir.desc"
       ],
       "height": 16,
       "weight": 484,
@@ -336,7 +339,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "kirlia form\u003ddelta",
+      "preEvolution": "kirlia form=delta",
       "baseScale": 0.9,
       "cannotDynamax": false,
       "abilities": [
@@ -461,7 +464,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltagardevoir.desc1"
+        "cobblemon.species.deltagardevoir.desc"
       ],
       "height": 16,
       "weight": 484,
@@ -643,7 +646,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiangardevoir.desc1"
+        "cobblemon.species.ayreiangardevoir.desc"
       ],
       "height": 16,
       "weight": 584,

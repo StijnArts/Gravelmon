@@ -50,7 +50,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochsewaddle.desc1"
+        "cobblemon.species.epochsewaddle.desc"
       ],
       "height": 3,
       "weight": 25,
@@ -59,9 +59,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochsewaddle_epoch_swadloon",
+          "id": "epochsewaddle_swadloon_epoch",
           "variant": "level_up",
-          "result": "epoch swadloon",
+          "result": "swadloon epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

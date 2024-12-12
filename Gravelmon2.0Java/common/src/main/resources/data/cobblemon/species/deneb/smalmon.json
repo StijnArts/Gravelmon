@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.07500000000000001,
   "cannotDynamax": false,
   "abilities": [
     "swiftswim",
@@ -90,7 +90,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.smalmon.desc1"
+    "cobblemon.species.smalmon.desc"
   ],
   "height": 2,
   "weight": 18,

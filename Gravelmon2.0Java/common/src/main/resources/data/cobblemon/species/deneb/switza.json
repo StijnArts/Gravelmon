@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.07500000000000001,
   "cannotDynamax": false,
   "abilities": [
     "naturalcure",
@@ -74,7 +74,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.switza.desc1"
+    "cobblemon.species.switza.desc"
   ],
   "height": 6,
   "weight": 311,

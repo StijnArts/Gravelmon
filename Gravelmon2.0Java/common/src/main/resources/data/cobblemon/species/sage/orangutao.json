@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "taomarin",
-  "baseScale": 0.26666666666666666,
+  "baseScale": 0.05,
   "cannotDynamax": false,
   "abilities": [
     "content",
@@ -35,7 +35,14 @@
     "human_like"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:cocao_beans",
+        "quantityRange": "1-2",
+        "percentage": 45
+      }
+    ]
   },
   "moves": [
     "1:storedpower",
@@ -148,7 +155,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.orangutao.desc1"
+    "cobblemon.species.orangutao.desc"
   ],
   "height": 16,
   "weight": 1000,

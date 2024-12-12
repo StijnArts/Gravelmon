@@ -11,6 +11,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "clamperl form=epoch",
       "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
@@ -95,10 +96,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochgorebyss.desc1"
+        "cobblemon.species.epochgorebyss.desc"
       ],
       "height": 18,
       "weight": 226,
@@ -276,7 +279,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.novrangorebyss.desc1"
+        "cobblemon.species.novrangorebyss.desc"
       ],
       "height": 20,
       "weight": 165,
@@ -324,8 +327,8 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "clamperl form\u003ddelta",
-      "baseScale": 0.3,
+      "preEvolution": "clamperl form=delta",
+      "baseScale": 0.22499999999999998,
       "cannotDynamax": false,
       "abilities": [
         "pressure",
@@ -441,7 +444,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltagorebyss.desc1"
+        "cobblemon.species.deltagorebyss.desc"
       ],
       "height": 18,
       "weight": 226,

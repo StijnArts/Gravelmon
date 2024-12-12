@@ -12,6 +12,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "grimer form=epoch",
       "baseScale": 0.19999999999999998,
       "cannotDynamax": false,
       "abilities": [
@@ -117,10 +118,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochmuk.desc1"
+        "cobblemon.species.epochmuk.desc"
       ],
       "height": 12,
       "weight": 300,
@@ -278,7 +281,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochmukone.desc1"
+        "cobblemon.species.epochmukone.desc"
       ],
       "height": 12,
       "weight": 300,
@@ -447,7 +450,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.novranmuk.desc1"
+        "cobblemon.species.novranmuk.desc"
       ],
       "height": 15,
       "weight": 165,
@@ -495,8 +498,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "grimer form\u003degho",
-      "baseScale": 0.2333333333333333,
+      "preEvolution": "grimer form=egho",
+      "baseScale": 0.175,
       "cannotDynamax": false,
       "abilities": [
         "stench",
@@ -523,7 +526,14 @@
         "amorphous"
       ],
       "drops": {
-        "amount": 4
+        "amount": 4,
+        "entries": [
+          {
+            "item": "minecraft:basalt",
+            "quantityRange": "1-2",
+            "percentage": 50
+          }
+        ]
       },
       "moves": [
         "1:poisongas",
@@ -616,7 +626,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.eghomuk.desc1"
+        "cobblemon.species.eghomuk.desc"
       ],
       "height": 14,
       "weight": 3950,
@@ -676,7 +686,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "grimer form\u003ddelta",
+      "preEvolution": "grimer form=delta",
       "baseScale": 1.4,
       "cannotDynamax": false,
       "abilities": [
@@ -810,7 +820,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltamuk.desc1"
+        "cobblemon.species.deltamuk.desc"
       ],
       "height": 12,
       "weight": 300,
@@ -858,7 +868,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "grimer form\u003dayreian",
+      "preEvolution": "grimer form=ayreian",
       "baseScale": 0.19999999999999998,
       "cannotDynamax": false,
       "abilities": [
@@ -983,7 +993,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianmuk.desc1"
+        "cobblemon.species.ayreianmuk.desc"
       ],
       "height": 12,
       "weight": 300,

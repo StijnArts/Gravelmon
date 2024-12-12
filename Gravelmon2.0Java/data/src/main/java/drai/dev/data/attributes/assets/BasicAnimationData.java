@@ -7,12 +7,12 @@ import java.util.*;
 public abstract class BasicAnimationData {
     public String animationName;
     public String poseName;
-    public List<String> animations;
+    public List<String> animations = new ArrayList<>();
 
     public BasicAnimationData(String animationName, List<String> animations) {
         this.animationName = animationName;
         this.poseName = animationName;
-        this.animations = animations;
+        this.animations.addAll(animations);
     }
 
     protected JsonObject getAnimationJson(String animationFileName) {

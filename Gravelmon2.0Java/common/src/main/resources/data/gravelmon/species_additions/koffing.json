@@ -13,7 +13,14 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:end_crystal",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "forms": [
     {
@@ -26,7 +33,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -60,7 +67,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formankoffing.desc1"
+        "cobblemon.species.formankoffing.desc"
       ],
       "height": 6,
       "weight": 0,
@@ -230,7 +237,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochkoffing.desc1"
+        "cobblemon.species.epochkoffing.desc"
       ],
       "height": 6,
       "weight": 10,
@@ -239,9 +246,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochkoffing_epoch_weezing",
+          "id": "epochkoffing_weezing_epoch",
           "variant": "level_up",
-          "result": "epoch weezing",
+          "result": "weezing epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -340,7 +347,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.qamorankoffing.desc1"
+        "cobblemon.species.qamorankoffing.desc"
       ],
       "height": 8,
       "weight": 165,
@@ -529,7 +536,7 @@
         "insurgence"
       ],
       "pokedex": [
-        "cobblemon.species.deltakoffing.desc1"
+        "cobblemon.species.deltakoffing.desc"
       ],
       "height": 6,
       "weight": 10,
@@ -669,7 +676,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.relickoffing.desc1"
+        "cobblemon.species.relickoffing.desc"
       ],
       "height": 7,
       "weight": 868,

@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "ferobite",
-  "baseScale": 0.18333333333333335,
+  "baseScale": 8.8,
   "cannotDynamax": false,
   "abilities": [
     "intimidate",
@@ -59,7 +59,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.purswayer.desc1"
+    "cobblemon.species.purswayer.desc"
   ],
   "height": 11,
   "weight": 165,

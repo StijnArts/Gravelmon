@@ -9,7 +9,7 @@
   "eggCycles": 39,
   "baseFriendship": 70,
   "preEvolution": "jynx",
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2625,
   "cannotDynamax": false,
   "abilities": [
     "infiltrator",
@@ -36,7 +36,14 @@
     "human_like"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:astral_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:brainfreeze",
@@ -148,7 +155,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.sorcerice.desc1"
+    "cobblemon.species.sorcerice.desc"
   ],
   "height": 21,
   "weight": 710,

@@ -8,7 +8,7 @@
   "eggCycles": 35,
   "baseFriendship": 70,
   "preEvolution": "eevee",
-  "baseScale": 0.26666666666666666,
+  "baseScale": 0.2,
   "cannotDynamax": false,
   "abilities": [
     "protean",
@@ -34,7 +34,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:varia_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:sandattack",
@@ -138,7 +145,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.vareon.desc1"
+    "cobblemon.species.vareon.desc"
   ],
   "height": 16,
   "weight": 280,

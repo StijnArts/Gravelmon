@@ -13,7 +13,14 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:moon_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "forms": [
     {
@@ -124,7 +131,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochlunatone.desc1"
+        "cobblemon.species.epochlunatone.desc"
       ],
       "height": 10,
       "weight": 1680,
@@ -298,7 +305,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianlunatone.desc1"
+        "cobblemon.species.ayreianlunatone.desc"
       ],
       "height": 10,
       "weight": 1680,

@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "cutiefly form=epoch",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -109,10 +110,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochribombee.desc1"
+        "cobblemon.species.epochribombee.desc"
       ],
       "height": 2,
       "weight": 5,
@@ -267,7 +270,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianribombee.desc1"
+        "cobblemon.species.ayreianribombee.desc"
       ],
       "height": 2,
       "weight": 5,

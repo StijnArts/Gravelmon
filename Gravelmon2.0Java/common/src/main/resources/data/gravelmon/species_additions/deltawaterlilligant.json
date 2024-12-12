@@ -10,8 +10,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "deltawaterpetilil form\u003ddelta_water",
-      "baseScale": 0.18333333333333335,
+      "preEvolution": "deltawaterpetilil form=delta_water",
+      "baseScale": 0.1375,
       "cannotDynamax": false,
       "abilities": [
         "stormdrain",
@@ -119,7 +119,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltawaterlilligant.desc1"
+        "cobblemon.species.deltawaterlilligant.desc"
       ],
       "height": 11,
       "weight": 163,

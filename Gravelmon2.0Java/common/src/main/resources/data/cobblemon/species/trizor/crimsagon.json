@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "golasma",
-  "baseScale": 0.3666666666666667,
+  "baseScale": 0.06875,
   "cannotDynamax": false,
   "abilities": [
     "gooey"
@@ -45,7 +45,7 @@
     "trizor"
   ],
   "pokedex": [
-    "cobblemon.species.crimsagon.desc1"
+    "cobblemon.species.crimsagon.desc"
   ],
   "height": 22,
   "weight": 0,

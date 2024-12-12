@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 4.800000000000001,
   "cannotDynamax": false,
   "abilities": [
     "swarm",
@@ -46,7 +46,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.chenileaf.desc1"
+    "cobblemon.species.chenileaf.desc"
   ],
   "height": 3,
   "weight": 165,

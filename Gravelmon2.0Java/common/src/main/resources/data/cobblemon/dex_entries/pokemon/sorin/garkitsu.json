@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:garkitsu",
+  "speciesId": "cobblemon:garkitsu",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

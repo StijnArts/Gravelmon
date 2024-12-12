@@ -12,7 +12,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -46,7 +46,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabeliansinistea.desc1"
+        "cobblemon.species.fabeliansinistea.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -94,7 +94,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -128,7 +128,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mahaliansinistea.desc1"
+        "cobblemon.species.mahaliansinistea.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -176,7 +176,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -210,7 +210,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ferraniansinistea.desc1"
+        "cobblemon.species.ferraniansinistea.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -258,7 +258,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -292,7 +292,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ivrisiansinistea.desc1"
+        "cobblemon.species.ivrisiansinistea.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -441,7 +441,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochsinistea.desc1"
+        "cobblemon.species.epochsinistea.desc"
       ],
       "height": 1,
       "weight": 2,
@@ -450,9 +450,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochsinistea_epoch_polteageist",
+          "id": "epochsinistea_polteageist_epoch",
           "variant": "item_interact",
-          "result": "epoch polteageist",
+          "result": "polteageist epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

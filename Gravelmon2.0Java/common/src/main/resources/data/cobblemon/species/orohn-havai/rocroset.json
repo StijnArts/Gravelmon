@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pebblent",
-  "baseScale": 0.19999999999999998,
+  "baseScale": 9.6,
   "cannotDynamax": false,
   "abilities": [
     "leafguard",
@@ -60,7 +60,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.rocroset.desc1"
+    "cobblemon.species.rocroset.desc"
   ],
   "height": 12,
   "weight": 165,

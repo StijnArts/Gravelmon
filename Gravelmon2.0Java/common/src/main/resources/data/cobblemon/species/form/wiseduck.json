@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "golduck form\u003dforman",
-  "baseScale": 0.31666666666666665,
+  "preEvolution": "golduck form=forman",
+  "baseScale": 0.059375,
   "cannotDynamax": false,
   "abilities": [
     "telepathy"
@@ -47,7 +47,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.wiseduck.desc1"
+    "cobblemon.species.wiseduck.desc"
   ],
   "height": 19,
   "weight": 0,

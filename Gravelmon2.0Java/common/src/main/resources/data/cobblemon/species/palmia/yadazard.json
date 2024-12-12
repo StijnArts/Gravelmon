@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "beracale",
-  "baseScale": 0.3666666666666667,
+  "baseScale": 0.06875,
   "cannotDynamax": false,
   "abilities": [
     "torrent"
@@ -47,7 +47,7 @@
     "palmia"
   ],
   "pokedex": [
-    "cobblemon.species.yadazard.desc1"
+    "cobblemon.species.yadazard.desc"
   ],
   "height": 22,
   "weight": 0,

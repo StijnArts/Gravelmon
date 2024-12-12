@@ -10,7 +10,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -43,7 +43,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianbidoof.desc1"
+        "cobblemon.species.fabelianbidoof.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -220,7 +220,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochbidoof.desc1"
+        "cobblemon.species.epochbidoof.desc"
       ],
       "height": 5,
       "weight": 200,
@@ -229,9 +229,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochbidoof_epoch_bibarel",
+          "id": "epochbidoof_bibarel_epoch",
           "variant": "level_up",
-          "result": "epoch bibarel",
+          "result": "bibarel epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -339,7 +339,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.kaskadianbidoof.desc1"
+        "cobblemon.species.kaskadianbidoof.desc"
       ],
       "height": 5,
       "weight": 200,

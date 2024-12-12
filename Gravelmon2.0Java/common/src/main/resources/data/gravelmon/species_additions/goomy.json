@@ -117,7 +117,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochgoomy.desc1"
+        "cobblemon.species.epochgoomy.desc"
       ],
       "height": 3,
       "weight": 28,
@@ -126,9 +126,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochgoomy_epoch_sliggoo",
+          "id": "epochgoomy_sliggoo_epoch",
           "variant": "level_up",
-          "result": "epoch sliggoo",
+          "result": "sliggoo epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -230,7 +230,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.vesitangoomy.desc1"
+        "cobblemon.species.vesitangoomy.desc"
       ],
       "height": 3,
       "weight": 28,
@@ -293,7 +293,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "overcoat",
@@ -394,7 +394,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltagoomy.desc1"
+        "cobblemon.species.deltagoomy.desc"
       ],
       "height": 3,
       "weight": 28,
@@ -534,7 +534,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.hoenniangoomy.desc1"
+        "cobblemon.species.hoenniangoomy.desc"
       ],
       "height": 4,
       "weight": 28,

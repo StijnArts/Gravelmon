@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "taillow form=epoch",
       "baseScale": 0.11666666666666665,
       "cannotDynamax": false,
       "abilities": [
@@ -89,10 +90,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochswellow.desc1"
+        "cobblemon.species.epochswellow.desc"
       ],
       "height": 7,
       "weight": 198,
@@ -246,7 +249,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.armiranswellow.desc1"
+        "cobblemon.species.armiranswellow.desc"
       ],
       "height": 24,
       "weight": 1555,

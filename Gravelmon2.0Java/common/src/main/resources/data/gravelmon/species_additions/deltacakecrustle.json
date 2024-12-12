@@ -11,8 +11,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "deltacakedwebble form\u003ddelta_cake",
-      "baseScale": 0.2333333333333333,
+      "preEvolution": "deltacakedwebble form=delta_cake",
+      "baseScale": 0.175,
       "cannotDynamax": false,
       "abilities": [
         "owntempo",
@@ -145,7 +145,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltacakecrustle.desc1"
+        "cobblemon.species.deltacakecrustle.desc"
       ],
       "height": 14,
       "weight": 1000,

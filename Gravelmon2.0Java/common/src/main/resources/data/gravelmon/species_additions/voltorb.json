@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "flashfire"
@@ -47,7 +47,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanvoltorb.desc1"
+        "cobblemon.species.formanvoltorb.desc"
       ],
       "height": 5,
       "weight": 0,
@@ -193,7 +193,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochvoltorb.desc1"
+        "cobblemon.species.epochvoltorb.desc"
       ],
       "height": 5,
       "weight": 104,
@@ -202,9 +202,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochvoltorb_epoch_electrode",
+          "id": "epochvoltorb_electrode_epoch",
           "variant": "level_up",
-          "result": "epoch electrode",
+          "result": "electrode epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -349,7 +349,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochvoltorbone.desc1"
+        "cobblemon.species.epochvoltorbone.desc"
       ],
       "height": 5,
       "weight": 2004,
@@ -455,7 +455,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.norheimanvoltorb.desc1"
+        "cobblemon.species.norheimanvoltorb.desc"
       ],
       "height": 10,
       "weight": 165,
@@ -604,7 +604,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianvoltorb.desc1"
+        "cobblemon.species.ayreianvoltorb.desc"
       ],
       "height": 5,
       "weight": 104,
@@ -759,7 +759,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mysticvoltorb.desc1"
+        "cobblemon.species.mysticvoltorb.desc"
       ],
       "height": 5,
       "weight": 104,

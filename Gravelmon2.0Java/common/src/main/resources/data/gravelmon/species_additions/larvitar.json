@@ -10,7 +10,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "guts"
@@ -43,7 +43,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanlarvitar.desc1"
+        "cobblemon.species.formanlarvitar.desc"
       ],
       "height": 6,
       "weight": 0,
@@ -140,7 +140,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mastenianlarvitar.desc1"
+        "cobblemon.species.mastenianlarvitar.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -303,7 +303,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochlarvitar.desc1"
+        "cobblemon.species.epochlarvitar.desc"
       ],
       "height": 6,
       "weight": 720,
@@ -312,9 +312,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochlarvitar_epoch_pupitar",
+          "id": "epochlarvitar_pupitar_epoch",
           "variant": "level_up",
-          "result": "epoch pupitar",
+          "result": "pupitar epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

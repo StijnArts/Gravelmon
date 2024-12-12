@@ -12,7 +12,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -48,7 +48,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ferranianlapras.desc1"
+        "cobblemon.species.ferranianlapras.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -97,7 +97,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "locras",
-      "baseScale": 0.4666666666666666,
+      "baseScale": 0.0875,
       "cannotDynamax": false,
       "abilities": [
         "marvelscale"
@@ -135,7 +135,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formanlapras.desc1"
+        "cobblemon.species.formanlapras.desc"
       ],
       "height": 28,
       "weight": 0,
@@ -291,7 +291,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochlapras.desc1"
+        "cobblemon.species.epochlapras.desc"
       ],
       "height": 25,
       "weight": 2200,
@@ -448,7 +448,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochlaprasone.desc1"
+        "cobblemon.species.epochlaprasone.desc"
       ],
       "height": 25,
       "weight": 2200,
@@ -628,7 +628,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.novranlapras.desc1"
+        "cobblemon.species.novranlapras.desc"
       ],
       "height": 25,
       "weight": 165,
@@ -742,7 +742,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.mythianlapras.desc1"
+        "cobblemon.species.mythianlapras.desc"
       ],
       "height": 25,
       "weight": 2200,
@@ -910,7 +910,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreianlapras.desc1"
+        "cobblemon.species.ayreianlapras.desc"
       ],
       "height": 25,
       "weight": 1850,
@@ -1068,7 +1068,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.kaskadianlapras.desc1"
+        "cobblemon.species.kaskadianlapras.desc"
       ],
       "height": 22,
       "weight": 1500,

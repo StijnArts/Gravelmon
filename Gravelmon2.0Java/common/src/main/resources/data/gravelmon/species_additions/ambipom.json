@@ -11,6 +11,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "aipom form=epoch",
       "baseScale": 0.19999999999999998,
       "cannotDynamax": false,
       "abilities": [
@@ -117,10 +118,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochambipom.desc1"
+        "cobblemon.species.epochambipom.desc"
       ],
       "height": 12,
       "weight": 203,
@@ -168,8 +171,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "aipom form\u003ddelta",
-      "baseScale": 0.19999999999999998,
+      "preEvolution": "aipom form=delta",
+      "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
         "cursedbody",
@@ -332,7 +335,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltaambipom.desc1"
+        "cobblemon.species.deltaambipom.desc"
       ],
       "height": 12,
       "weight": 203,
@@ -379,7 +382,7 @@
       "experienceGroup": "fast",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "preEvolution": "aipom form\u003drelic",
+      "preEvolution": "aipom form=relic",
       "baseScale": 0.2333333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -481,7 +484,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.relicambipom.desc1"
+        "cobblemon.species.relicambipom.desc"
       ],
       "height": 14,
       "weight": 305,
@@ -529,7 +532,7 @@
       "experienceGroup": "fast",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "baseScale": 0.19999999999999998,
+      "baseScale": 0.0375,
       "cannotDynamax": false,
       "abilities": [
         "sandforce",
@@ -640,7 +643,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.kaskadianambipom.desc1"
+        "cobblemon.species.kaskadianambipom.desc"
       ],
       "height": 12,
       "weight": 203,

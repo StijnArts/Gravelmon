@@ -9,7 +9,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "lukpup",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.3,
   "cannotDynamax": false,
   "abilities": [
     "fluffy",
@@ -36,7 +36,14 @@
     "field"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:dragondance",
@@ -131,7 +138,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.lukagon.desc1"
+    "cobblemon.species.lukagon.desc"
   ],
   "height": 24,
   "weight": 1230,

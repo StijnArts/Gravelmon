@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -45,7 +45,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.aromianstonjourner.desc1"
+        "cobblemon.species.aromianstonjourner.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -183,7 +183,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochstonjourner.desc1"
+        "cobblemon.species.epochstonjourner.desc"
       ],
       "height": 25,
       "weight": 5200,

@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "grovyle form=epoch",
       "baseScale": 0.2833333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -102,10 +103,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochsceptile.desc1"
+        "cobblemon.species.epochsceptile.desc"
       ],
       "height": 17,
       "weight": 522,
@@ -152,7 +155,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "grovyle form\u003davalossian",
+      "preEvolution": "grovyle form=avalossian",
       "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
@@ -203,7 +206,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.avalossiansceptile.desc1"
+        "cobblemon.species.avalossiansceptile.desc"
       ],
       "height": 18,
       "weight": 0,
@@ -251,7 +254,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "grovyle form\u003ddelta",
+      "preEvolution": "grovyle form=delta",
       "baseScale": 1.1,
       "cannotDynamax": false,
       "abilities": [
@@ -398,7 +401,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.deltasceptile.desc1"
+        "cobblemon.species.deltasceptile.desc"
       ],
       "height": 17,
       "weight": 522,
@@ -565,7 +568,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.armiransceptile.desc1"
+        "cobblemon.species.armiransceptile.desc"
       ],
       "height": 17,
       "weight": 522,
@@ -740,7 +743,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiansceptile.desc1"
+        "cobblemon.species.ayreiansceptile.desc"
       ],
       "height": 17,
       "weight": 422,
@@ -788,7 +791,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "grovyle form\u003dmystic",
+      "preEvolution": "grovyle form=mystic",
       "baseScale": 0.2833333333333333,
       "cannotDynamax": false,
       "abilities": [
@@ -841,7 +844,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.mysticsceptile.desc1"
+        "cobblemon.species.mysticsceptile.desc"
       ],
       "height": 17,
       "weight": 522,

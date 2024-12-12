@@ -11,8 +11,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "golbat form\u003dforman",
-      "baseScale": 0.3,
+      "preEvolution": "golbat form=forman",
+      "baseScale": 0.056249999999999994,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -50,7 +50,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formancrobat.desc1"
+        "cobblemon.species.formancrobat.desc"
       ],
       "height": 18,
       "weight": 0,
@@ -98,6 +98,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "golbat form=epoch",
       "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
@@ -182,10 +183,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochcrobat.desc1"
+        "cobblemon.species.epochcrobat.desc"
       ],
       "height": 18,
       "weight": 750,

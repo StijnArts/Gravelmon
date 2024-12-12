@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "tropius form\u003dhizian",
+  "preEvolution": "tropius form=hizian",
   "baseScale": 0.5,
   "cannotDynamax": false,
   "abilities": [
@@ -94,7 +94,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.bountius.desc1"
+    "cobblemon.species.bountius.desc"
   ],
   "height": 30,
   "weight": 165,

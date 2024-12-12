@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "magneton form\u003dayreian",
+  "preEvolution": "magneton form=ayreian",
   "baseScale": 0.21666666666666667,
   "cannotDynamax": false,
   "abilities": [
@@ -107,7 +107,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.magnemelt.desc1"
+    "cobblemon.species.magnemelt.desc"
   ],
   "height": 13,
   "weight": 650,

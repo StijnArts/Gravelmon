@@ -4,15 +4,63 @@
   "variations": [
     {
       "aspects": [],
+      "model": "cobblemon:xenoverse_nebyura.geo",
       "poser": "cobblemon:xenoverse_nebyura",
-      "model": "cobblemon:nebyura.geo",
       "texture": "cobblemon:textures/pokemon/xenoverse/nebyura/nebyura.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/xenoverse/nebyura/nebyura_shiny.png"
-    }  ]
+      "model": "cobblemon:xenoverse_nebyura.geo",
+      "poser": "cobblemon:xenoverse_nebyura",
+      "texture": "cobblemon:textures/pokemon/xenoverse/nebyura/nebyura_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
+    }
+  ]
 }

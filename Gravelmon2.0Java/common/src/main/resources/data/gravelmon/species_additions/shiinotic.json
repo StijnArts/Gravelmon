@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "morelull form=epoch",
       "baseScale": 0.16666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -97,10 +98,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochshiinotic.desc1"
+        "cobblemon.species.epochshiinotic.desc"
       ],
       "height": 10,
       "weight": 115,
@@ -148,7 +151,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "morelull form\u003dnostan",
+      "preEvolution": "morelull form=nostan",
       "baseScale": 0.16666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -200,7 +203,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.nostanshiinotic.desc1"
+        "cobblemon.species.nostanshiinotic.desc"
       ],
       "height": 10,
       "weight": 165,

@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "kricketot form=epoch",
       "baseScale": 0.16666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -105,10 +106,12 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochkricketune.desc1"
+        "cobblemon.species.epochkricketune.desc"
       ],
       "height": 10,
       "weight": 255,
@@ -205,7 +208,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.africanusankricketune.desc1"
+        "cobblemon.species.africanusankricketune.desc"
       ],
       "height": 10,
       "weight": 255,

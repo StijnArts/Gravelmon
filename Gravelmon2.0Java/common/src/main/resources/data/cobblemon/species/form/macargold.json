@@ -8,8 +8,8 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "slugma form\u003dforman",
-  "baseScale": 0.1,
+  "preEvolution": "slugma form=forman",
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "sandstream"
@@ -47,7 +47,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.macargold.desc1"
+    "cobblemon.species.macargold.desc"
   ],
   "height": 0,
   "weight": 0,

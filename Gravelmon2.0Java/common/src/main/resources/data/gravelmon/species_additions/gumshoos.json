@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -47,7 +47,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabeliangumshoos.desc1"
+        "cobblemon.species.fabeliangumshoos.desc"
       ],
       "height": 0,
       "weight": 0,
@@ -94,7 +94,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "preEvolution": "yungoos form\u003dayreian",
+      "preEvolution": "yungoos form=ayreian",
       "baseScale": 0.11666666666666665,
       "cannotDynamax": false,
       "abilities": [
@@ -195,7 +195,7 @@
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.ayreiangumshoos.desc1"
+        "cobblemon.species.ayreiangumshoos.desc"
       ],
       "height": 7,
       "weight": 60,

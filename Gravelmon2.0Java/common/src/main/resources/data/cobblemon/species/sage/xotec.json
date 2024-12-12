@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 300,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
     "magicguard",
@@ -34,7 +34,14 @@
     "undiscovered"
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:sand",
+        "quantityRange": "3-10",
+        "percentage": 90
+      }
+    ]
   },
   "moves": [
     "1:payday",
@@ -107,7 +114,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.xotec.desc1"
+    "cobblemon.species.xotec.desc"
   ],
   "height": 6,
   "weight": 358,

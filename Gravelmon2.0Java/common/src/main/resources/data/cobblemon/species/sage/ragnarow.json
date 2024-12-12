@@ -9,7 +9,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "draggar",
-  "baseScale": 0.5333333333333333,
+  "baseScale": 0.1,
   "cannotDynamax": false,
   "abilities": [
     "unburden",
@@ -37,7 +37,14 @@
     "water_1"
   ],
   "drops": {
-    "amount": 2
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:spruce_log",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
   },
   "moves": [
     "1:tailwind",
@@ -123,7 +130,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.ragnarow.desc1"
+    "cobblemon.species.ragnarow.desc"
   ],
   "height": 32,
   "weight": 1478,

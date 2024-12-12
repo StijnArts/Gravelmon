@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "karaggon",
-  "baseScale": 0.4666666666666666,
+  "baseScale": 22.4,
   "cannotDynamax": false,
   "abilities": [
     "rivalry",
@@ -88,7 +88,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.akrovern.desc1"
+    "cobblemon.species.akrovern.desc"
   ],
   "height": 28,
   "weight": 165,

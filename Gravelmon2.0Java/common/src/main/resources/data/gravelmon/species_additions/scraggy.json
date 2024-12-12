@@ -106,7 +106,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochscraggy.desc1"
+        "cobblemon.species.epochscraggy.desc"
       ],
       "height": 6,
       "weight": 118,
@@ -115,9 +115,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochscraggy_epoch_scrafty",
+          "id": "epochscraggy_scrafty_epoch",
           "variant": "level_up",
-          "result": "epoch scrafty",
+          "result": "scrafty epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -168,7 +168,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "roughskin",
@@ -292,7 +292,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltascraggy.desc1"
+        "cobblemon.species.deltascraggy.desc"
       ],
       "height": 6,
       "weight": 118,

@@ -254,7 +254,7 @@
       "requirements": [
         {
           "variant": "party_member",
-          "target": "type\u003dnuclear",
+          "target": "type=nuclear",
           "contains": true
         },
         {
@@ -349,7 +349,7 @@
       "requirements": [
         {
           "variant": "properties",
-          "target": "gender\u003dmale",
+          "target": "gender=male",
           "contains": true
         },
         {
@@ -368,7 +368,7 @@
       "requirements": [
         {
           "variant": "properties",
-          "target": "gender\u003dfemale",
+          "target": "gender=female",
           "contains": true
         },
         {
@@ -708,7 +708,214 @@
     }
   ],
   "drops": {
-    "amount": 3
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:dusk_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:expert_belt",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:silver_powder",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:metal_coat",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:hard_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:poison_barb",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:soft_sand",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:dragon_scale",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:astral_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:varia_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:red_mushroom",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:air_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:shiny_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:spider_eye",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:poison_barb",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:shiny_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:sun_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:note_block",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:end_crystal",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:moon_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:dawn_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:ocarina",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:cookie",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:upgrade",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:dusk_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:expert_belt",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:astral_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:sharp_beak",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:mystic_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:soft_sand",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:black_sludge",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:air_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:astral_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:dusk_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:throat_spray",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:shiny_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:air_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:solid_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:dragon_fang",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:shiny_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
   },
   "forms": [
     {
@@ -720,7 +927,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.19999999999999998,
+      "baseScale": 0.0375,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -753,7 +960,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formaneevee.desc1"
+        "cobblemon.species.formaneevee.desc"
       ],
       "height": 12,
       "weight": 0,
@@ -826,7 +1033,31 @@
       "eggGroups": [
         "field"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:air_stone",
+            "quantityRange": "1-1",
+            "percentage": 10
+          },
+          {
+            "item": "gravelmon:solid_stone",
+            "quantityRange": "1-1",
+            "percentage": 10
+          },
+          {
+            "item": "gravelmon:astral_stone",
+            "quantityRange": "1-1",
+            "percentage": 10
+          },
+          {
+            "item": "gravelmon:astral_stone",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
+      },
       "moves": [
         "10:shadowsneak",
         "35:disable",
@@ -904,7 +1135,7 @@
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epocheevee.desc1"
+        "cobblemon.species.epocheevee.desc"
       ],
       "height": 3,
       "weight": 65,
@@ -913,9 +1144,9 @@
       ],
       "evolutions": [
         {
-          "id": "epocheevee_epoch_vaporeon",
+          "id": "epocheevee_vaporeon_epoch",
           "variant": "item_interact",
-          "result": "epoch vaporeon",
+          "result": "vaporeon epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -923,9 +1154,9 @@
           "permanent": true
         },
         {
-          "id": "epocheevee_epoch_jolteon",
+          "id": "epocheevee_jolteon_epoch",
           "variant": "item_interact",
-          "result": "epoch jolteon",
+          "result": "jolteon epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -933,9 +1164,9 @@
           "permanent": true
         },
         {
-          "id": "epocheevee_epoch_flareon",
+          "id": "epocheevee_flareon_epoch",
           "variant": "item_interact",
-          "result": "epoch flareon",
+          "result": "flareon epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -943,9 +1174,9 @@
           "permanent": true
         },
         {
-          "id": "epocheevee_epoch_leafeon",
+          "id": "epocheevee_leafeon_epoch",
           "variant": "item_interact",
-          "result": "epoch leafeon",
+          "result": "leafeon epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -953,9 +1184,9 @@
           "permanent": true
         },
         {
-          "id": "epocheevee_epoch_glaceon",
+          "id": "epocheevee_glaceon_epoch",
           "variant": "item_interact",
-          "result": "epoch glaceon",
+          "result": "glaceon epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -963,9 +1194,9 @@
           "permanent": true
         },
         {
-          "id": "epocheevee_epoch_espeon",
+          "id": "epocheevee_espeon_epoch",
           "variant": "item_interact",
-          "result": "epoch espeon",
+          "result": "espeon epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -973,9 +1204,9 @@
           "permanent": true
         },
         {
-          "id": "epocheevee_epoch_umbreon",
+          "id": "epocheevee_umbreon_epoch",
           "variant": "item_interact",
-          "result": "epoch umbreon",
+          "result": "umbreon epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -983,9 +1214,9 @@
           "permanent": true
         },
         {
-          "id": "epocheevee_epoch_sylveon",
+          "id": "epocheevee_sylveon_epoch",
           "variant": "item_interact",
-          "result": "epoch sylveon",
+          "result": "sylveon epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

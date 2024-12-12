@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "emetortle",
-  "baseScale": 0.43333333333333335,
+  "baseScale": 0.08125,
   "cannotDynamax": false,
   "abilities": [
     "cutecharm"
@@ -47,7 +47,7 @@
     "norse"
   ],
   "pokedex": [
-    "cobblemon.species.carvtoise.desc1"
+    "cobblemon.species.carvtoise.desc"
   ],
   "height": 26,
   "weight": 0,

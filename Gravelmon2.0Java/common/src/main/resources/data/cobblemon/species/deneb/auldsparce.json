@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "dunsparce",
-  "baseScale": 0.65,
+  "baseScale": 0.48750000000000004,
   "cannotDynamax": false,
   "abilities": [
     "owntempo",
@@ -120,7 +120,7 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.auldsparce.desc1"
+    "cobblemon.species.auldsparce.desc"
   ],
   "height": 39,
   "weight": 2045,

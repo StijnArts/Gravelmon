@@ -32,7 +32,14 @@
     "field"
   ],
   "drops": {
-    "amount": 1
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:sharp_beak",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
   },
   "moves": [
     "1:copycat",
@@ -118,7 +125,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.caeleon.desc1"
+    "cobblemon.species.caeleon.desc"
   ],
   "height": 8,
   "weight": 245,
