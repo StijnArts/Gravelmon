@@ -298,7 +298,7 @@ public class Deneb extends Game {
         addNewPokemon(new Sukabi());
         addNewPokemon(new Kusomarume());
         addNewPokemon(new Hikarabe());
-        addNewPokemon(new Hazekonko());
+        addNewPokemon(new Kazekonko());
         addNewPokemon(new Honetto());
         addNewPokemon(new Mameden());
         addNewPokemon(new Daiomu());

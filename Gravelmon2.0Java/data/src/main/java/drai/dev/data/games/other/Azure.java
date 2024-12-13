@@ -19,14 +19,19 @@ public class Azure extends Game {
                 "mudkip-mystic," +
                 "marshtomp-mystic," +
                 "swampert-mystic," +
+
                 "poochyena-mystic," +
                 "mightyena-mystic," +
+
                 "riolu-mystic," +
                 "lucario-mystic," +
+
                 "stufful-mystic," +
                 "bewear-mystic," +
+
                 "voltorb-mystic," +
                 "electrode-mystic," +
+
                 "solosis-mystic," +
                 "duosion-mystic," +
                 "reuniclus-mystic");

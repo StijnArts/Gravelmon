@@ -54,7 +54,7 @@ public class Twirlisk extends drai.dev.data.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("Twirlisk");
-
+        setHasGenderDifferences(true);
     }
 
 

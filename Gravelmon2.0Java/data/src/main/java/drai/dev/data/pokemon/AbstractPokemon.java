@@ -41,10 +41,30 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
     protected final int height;
     protected final int weight;
     protected final List<EvolutionEntry> evolutions = new ArrayList<>();
-    protected Boolean cannotDynamax = false;
+    protected boolean cannotDynamax = false;
     protected final List<String> dexEntries = new ArrayList<>();
     protected final List<PokemonSpawnData> spawnData = new ArrayList<>();
     protected double baseScale;
+    protected boolean hasGenderDifferences = false;
+    protected boolean canFly = false;
+    protected int lightLevelMinSleep = 0;
+    protected int lightLevelMaxSleep = 6;
+    protected double swimSpeed = 0.1;
+    protected double wanderChance = 1;
+    protected boolean canSleep = true;
+    protected boolean canSwimInWater = true;
+    protected boolean canSwimInLava = true;
+    protected boolean canLookAround = true;
+    protected boolean willSleepOnBed = false;
+    protected boolean canBreatheUnderwater = false;
+    protected boolean canBreatheUnderlava = false;
+    protected boolean canWalk = true;
+    protected boolean canWalkOnWater = false;
+    protected boolean canWalkOnLava = false;
+    protected boolean avoidsLand = false;
+    protected double hitboxWidth = 1.0;
+    protected double hitboxHeight = 1.0;
+
     public AbstractPokemon(String name, Stats stats, Type primaryType, Type secondaryType, List<Ability> abilities, Ability hiddenAbility,
                            int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup,
                            int eggCycles, List<EggGroup> eggGroups, List<String> dexEntries, List<EvolutionEntry> evolutions, List<Label> labels, int dropAmount, List<ItemDrop> drops, int baseFriendship,
@@ -87,7 +107,13 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
         this.weight = weight;
         this.baseScale = Math.max((double) height / 10 / 4, 0.1);
         this.spawnData.add(new PokemonSpawnData(spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight*1.5, spawnConditions, spawnAntiConditions, spawnPresets, new ArrayList<>()));
-
+        if(spawnPresets.contains(SpawnPreset.UNDERLAVA) || spawnPresets.contains(SpawnPreset.LAVA_SURFACE)){
+            canSwimInLava = true;
+            canBreatheUnderlava = true;
+            if(spawnPresets.contains(SpawnPreset.LAVA_SURFACE)){
+                canWalkOnLava = true;
+            }
+        }
         this.dexEntries.addAll(dexEntries);
         this.labels.addAll(labels);
         this.labels.add(Label.NOT_MODELED);
@@ -96,6 +122,8 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
         if (this.abilities.size() > 2) {
             this.abilities.remove(2);
         }
+        this.hitboxWidth = 6;
+        this.hitboxHeight = 6;
     }
 
     public static boolean isAnAdditionalForm(String key) {
@@ -165,10 +193,6 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
 
     public int getBaseExperienceYield() {
         return baseExperienceYield;
-    }
-
-    public void setBaseScale(double scale) {
-        this.baseScale = scale;
     }
 
     public ExperienceGroup getExperienceGroup() {
@@ -329,6 +353,150 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
 
     public void setGame(Game game) {
         this.game = game;
+    }
+
+    public void setCanSleep(Boolean canSleep) {
+        this.canSleep = canSleep;
+    }
+
+    public void setCanSwim(Boolean canSwim) {
+        this.canSwimInWater = canSwim;
+    }
+
+    public void setCanLookAround(Boolean canLookAround) {
+        this.canLookAround = canLookAround;
+    }
+
+    public void setAvoidsLand(Boolean avoidsLand) {
+        this.avoidsLand = avoidsLand;
+    }
+
+    public void setWillSleepOnBed(Boolean willSleepOnBed) {
+        this.willSleepOnBed = willSleepOnBed;
+    }
+
+    public void setCanBreathUnderwater(Boolean canBreathUnderwater) {
+        this.canBreatheUnderwater = canBreathUnderwater;
+    }
+
+    public void setCanWalk(Boolean canWalk) {
+        this.canWalk = canWalk;
+    }
+
+    public void setCanFly(Boolean canFly) {
+        this.canFly = canFly;
+    }
+
+    public Boolean canFly() {
+        return canFly;
+    }
+
+    public Boolean canSleep() {
+        return canSleep;
+    }
+
+    public Boolean willSleepOnBed() {
+        return willSleepOnBed;
+    }
+
+    public int getLightLevelMinSleep() {
+        return lightLevelMinSleep;
+    }
+
+    public void setLightLevelMinSleep(int lightLevelMinSleep) {
+        this.lightLevelMinSleep = lightLevelMinSleep;
+    }
+
+    public int getLightLevelMaxSleep() {
+        return lightLevelMaxSleep;
+    }
+
+    public void setLightLevelMaxSleep(int lightLevelMaxSleep) {
+        this.lightLevelMaxSleep = lightLevelMaxSleep;
+    }
+
+    public Boolean canLookAround() {
+        return canLookAround;
+    }
+
+    public Boolean canWalk() {
+        return canWalk;
+    }
+
+    public Boolean avoidsLand() {
+        return avoidsLand;
+    }
+
+    public double getSwimSpeed() {
+        return swimSpeed;
+    }
+
+    public void setSwimSpeed(double swimSpeed) {
+        this.swimSpeed = swimSpeed;
+    }
+
+    public Boolean canSwim() {
+        return canSwimInWater;
+    }
+
+    public Boolean canBreathUnderwater() {
+        return canBreatheUnderwater;
+    }
+
+    public double getWanderChance() {
+        return wanderChance;
+    }
+
+    public void setWanderChance(double wanderChance) {
+        this.wanderChance = wanderChance;
+    }
+
+    public Boolean getCanWalkOnWater() {
+        return canWalkOnWater;
+    }
+
+    public void setCanWalkOnWater(Boolean canWalkOnWater) {
+        this.canWalkOnWater = canWalkOnWater;
+    }
+
+    public boolean isCanWalkOnLava() {
+        return canWalkOnLava;
+    }
+
+    public boolean isCanBreatheUnderlava() {
+        return canBreatheUnderlava;
+    }
+
+    public boolean isCanSwimInLava() {
+        return canSwimInLava;
+    }
+
+    public void setBaseScale(double scale) {
+        this.baseScale = scale;
+        double newHitboxWidth = (double) height / 10;
+        double newHitboxHeight = (double) height / 10;
+        setHitbox(newHitboxWidth, newHitboxHeight);
+        if(this instanceof Pokemon pokemon){
+            pokemon.getForms().forEach(forms -> {
+                forms.setBaseScale(scale);
+                double newFormHitboxWidth = (double) forms.getHeight() / 10;
+                double newFormHitboxHeight = (double) forms.getHeight() / 10;
+                setHitbox(newFormHitboxWidth, newFormHitboxHeight);
+            });
+        }
+    }
+
+    protected void setHitbox(double width, double height) {
+        this.hitboxWidth = width;
+        this.hitboxHeight = height;
+    }
+
+    public double getHitboxWidth() {
+        return hitboxWidth;
+    }
+
+    public double getHitboxHeight() {
+        return hitboxHeight;
     }
 
     public abstract Game getGame();

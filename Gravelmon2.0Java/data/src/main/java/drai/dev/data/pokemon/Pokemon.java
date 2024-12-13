@@ -1,6 +1,5 @@
 package drai.dev.data.pokemon;
 
-import com.cobblemon.mod.common.api.pokedex.entry.*;
 import drai.dev.data.*;
 import drai.dev.data.attributes.*;
 import drai.dev.data.games.registry.*;
@@ -20,24 +19,8 @@ public class Pokemon extends AbstractPokemon {
     private int pokedexNumber;
     private final List<PokemonForm> forms;
     private Boolean isNew = true;
-    private boolean hasGenderDifferences = false;
-    private Boolean canFly = false;
-    private int lightLevelMinSleep = 0;
-    private int lightLevelMaxSleep = 6;
-    private double swimSpeed = 0.1;
-    private double wanderChance = 1;
-    private Boolean canSleep = true;
-    private Boolean canSwim = true;
-    private Boolean canLookAround = true;
-    private Boolean willSleepOnBed = false;
-    private Boolean canBreathUnderwater = false;
-    private Boolean canWalk = true;
-    private Boolean canWalkOnWater = false;
-    private Boolean avoidsLand = false;
     private boolean nameDifferentInLangFile;
     private String langFileName;
-    private double hitboxWidth = 1.0;
-    private double hitboxHeight = 1.0;
     private String shoulderMountEffect;
     @Nullable
     private Aspect formAdditionAspect;
@@ -126,8 +109,6 @@ public class Pokemon extends AbstractPokemon {
                 maxSpawnLevel, spawnWeight, spawnConditions, spawnAntiConditions, spawnPresets);
         this.pokedexNumber = GravelmonJsonGenerator.getDexCounter();
         this.forms = forms;
-        this.hitboxWidth = 6;
-        this.hitboxHeight = 6;
         POKEMON_REGISTRY.put(this.name.toLowerCase().replaceAll("\\W", ""), this);
         forms.forEach(form -> form.setFormOf(this));
     }
@@ -416,49 +397,12 @@ public class Pokemon extends AbstractPokemon {
         ADDITIONAL_PRE_EVOLUTIONS.put(result, from);
     }
 
-    protected void setHitbox(double width, double height) {
-        this.hitboxWidth = width;
-        this.hitboxHeight = height;
-    }
-
     public void setShoulderMountable(boolean shoulderMountable) {
         isShoulderMountable = shoulderMountable;
     }
 
     public void setNew(Boolean aNew) {
         isNew = aNew;
-    }
-
-    public void setCanSleep(Boolean canSleep) {
-        this.canSleep = canSleep;
-    }
-
-    public void setCanSwim(Boolean canSwim) {
-        this.canSwim = canSwim;
-    }
-
-    public void setCanLookAround(Boolean canLookAround) {
-        this.canLookAround = canLookAround;
-    }
-
-    public void setAvoidsLand(Boolean avoidsLand) {
-        this.avoidsLand = avoidsLand;
-    }
-
-    public void setWillSleepOnBed(Boolean willSleepOnBed) {
-        this.willSleepOnBed = willSleepOnBed;
-    }
-
-    public void setCanBreathUnderwater(Boolean canBreathUnderwater) {
-        this.canBreathUnderwater = canBreathUnderwater;
-    }
-
-    public void setCanWalk(Boolean canWalk) {
-        this.canWalk = canWalk;
-    }
-
-    public void setCanFly(Boolean canFly) {
-        this.canFly = canFly;
     }
 
     public void setHasGenderDifferences(boolean hasGenderDifferences) {
@@ -497,70 +441,6 @@ public class Pokemon extends AbstractPokemon {
         return hasGenderDifferences;
     }
 
-    public Boolean canFly() {
-        return canFly;
-    }
-
-    public Boolean canSleep() {
-        return canSleep;
-    }
-
-    public Boolean willSleepOnBed() {
-        return willSleepOnBed;
-    }
-
-    public int getLightLevelMinSleep() {
-        return lightLevelMinSleep;
-    }
-
-    public void setLightLevelMinSleep(int lightLevelMinSleep) {
-        this.lightLevelMinSleep = lightLevelMinSleep;
-    }
-
-    public int getLightLevelMaxSleep() {
-        return lightLevelMaxSleep;
-    }
-
-    public void setLightLevelMaxSleep(int lightLevelMaxSleep) {
-        this.lightLevelMaxSleep = lightLevelMaxSleep;
-    }
-
-    public Boolean canLookAround() {
-        return canLookAround;
-    }
-
-    public Boolean canWalk() {
-        return canWalk;
-    }
-
-    public Boolean avoidsLand() {
-        return avoidsLand;
-    }
-
-    public double getSwimSpeed() {
-        return swimSpeed;
-    }
-
-    public void setSwimSpeed(double swimSpeed) {
-        this.swimSpeed = swimSpeed;
-    }
-
-    public Boolean canSwim() {
-        return canSwim;
-    }
-
-    public Boolean canBreathUnderwater() {
-        return canBreathUnderwater;
-    }
-
-    public double getWanderChance() {
-        return wanderChance;
-    }
-
-    public void setWanderChance(double wanderChance) {
-        this.wanderChance = wanderChance;
-    }
-
     protected void setPortraitXYZ(double x, double y, double z) {
         //TODO
         /*this.setPortraitTranslationX(x);
@@ -584,28 +464,6 @@ public class Pokemon extends AbstractPokemon {
         return langFileName;
     }
 
-    public double getHitboxWidth() {
-        return hitboxWidth;
-    }
-
-    @Override
-    public void setBaseScale(double scale) {
-        super.setBaseScale(scale);
-        double newHitboxWidth = (double) height / 10;
-        double newHitboxHeight = (double) height / 10;
-        setHitbox(newHitboxWidth, newHitboxHeight);
-        this.forms.forEach(forms -> {
-            forms.setBaseScale(scale);
-            double newFormHitboxWidth = (double) forms.getHeight() / 10;
-            double newFormHitboxHeight = (double) forms.getHeight() / 10;
-            setHitbox(newFormHitboxWidth, newFormHitboxHeight);
-        });
-    }
-
-    public double getHitboxHeight() {
-        return hitboxHeight;
-    }
-
     public String getShoulderMountEffect() {
         return shoulderMountEffect;
     }
@@ -627,14 +485,6 @@ public class Pokemon extends AbstractPokemon {
 
     public boolean usesBigModel() {
         return usesBigModel;
-    }
-
-    public Boolean getCanWalkOnWater() {
-        return canWalkOnWater;
-    }
-
-    public void setCanWalkOnWater(Boolean canWalkOnWater) {
-        this.canWalkOnWater = canWalkOnWater;
     }
 
     public Pokemon createFishingSpawn(SpawnPool spawnPool, int minLevel, int maxLevel, double weight) {

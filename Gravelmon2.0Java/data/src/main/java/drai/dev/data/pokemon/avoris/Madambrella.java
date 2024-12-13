@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Madambrella extends drai.dev.data.pokemon.Pokemon {
-    public Madambrella() {
+    public Madambrella(Stats stats) {
         super("Madambrella",
                 Type.GHOST,Type.FLYING,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.WIND_RIDER,Ability.UNBURDEN), Ability.INSOMNIA,
                 12, 120,
                 new Stats(0,0,0,0,0,0), 0,

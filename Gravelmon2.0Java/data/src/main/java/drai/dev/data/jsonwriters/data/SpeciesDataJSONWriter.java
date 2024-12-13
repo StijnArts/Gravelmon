@@ -44,7 +44,6 @@ public class SpeciesDataJSONWriter {
             shoulderMountEffects.add(pokemon.getShoulderMountEffect());
             fileContents.add("shoulderEffects", shoulderMountEffects);
         }
-        fileContents.add("behaviour", getBehaviour(pokemon));
         fileContents.add("hitbox", getHitbox(pokemon.getHitboxWidth(), pokemon.getHitboxHeight()));
         fileContents.add("features", getFeatures(pokemon.getForms()));
         fileContents.addProperty("implemented", true);
@@ -80,6 +79,7 @@ public class SpeciesDataJSONWriter {
         fileContents.addProperty("baseScale", abstractPokemon.getBaseScale());
         fileContents.addProperty("cannotDynamax", abstractPokemon.getCannotDynamax());
         fileContents.add("abilities", getAbilities(abstractPokemon));
+        fileContents.add("behaviour", getBehaviour(abstractPokemon));
         fileContents.add("baseStats", abstractPokemon.getStats().getJsonRepresentation());
         fileContents.add("evYield", abstractPokemon.getEvYield().getJsonRepresentation());
         fileContents.add("eggGroups", getEggGroups(abstractPokemon));
@@ -204,7 +204,7 @@ public class SpeciesDataJSONWriter {
         return aspect.replaceAll("_", "");
     }
 
-    private static JsonObject getBehaviour(Pokemon pokemon) {
+    private static JsonObject getBehaviour(AbstractPokemon pokemon) {
         var behaviour = new JsonObject();
         var resting = new JsonObject();
         resting.addProperty("canSleep", pokemon.canSleep());
@@ -224,9 +224,12 @@ public class SpeciesDataJSONWriter {
         var swim = new JsonObject();
         swim.addProperty("swimSpeed", pokemon.getSwimSpeed());
         swim.addProperty("canSwimInWater", pokemon.canSwim());
+        swim.addProperty("canSwimInLava", pokemon.isCanSwimInLava());
+        swim.addProperty("canBreatheUnderlava", pokemon.isCanBreatheUnderlava());
         swim.addProperty("canBreatheUnderwater", pokemon.canBreathUnderwater());
-        if (pokemon.getSpawnData().stream().anyMatch(data -> data.spawnContext() == SpawnContext.SURFACE))
+        if (pokemon.getSpawnData().stream().anyMatch(data -> data.spawnContext() == SpawnContext.SURFACE && data.spawnPresets().contains(SpawnPreset.WATER_SURFACE)))
             swim.addProperty("canWalkOnWater", true);
+        swim.addProperty("canWalkOnLava", pokemon.isCanWalkOnLava());
         moving.add("swim", swim);
         behaviour.add("moving", moving);
         return behaviour;

@@ -12,8 +12,10 @@ public class Daybreak extends Game {
 
     @Override
     public void registerPokemon() {
-        addPokedexPokemon("treecko, grovyle, sceptile, sceptile-armiran, froakie-armiran, frogadier-armiran, " +
-                "greninja-armiran, taillow, swellow, swellow-armiran, sandshrew, sandshrew-alolan, sandslash, sandslash-alolan");
+        addPokedexPokemon("treecko, grovyle, sceptile, sceptile-armiran, froakie-armiran, " +
+                "frogadier-armiran, " +
+                "greninja-armiran, taillow, swellow, swellow-armiran, sandshrew, sandshrew-alolan, " +
+                "sandslash, sandslash-alolan");
         addNewPokemon(new Sandridger());
         addNewPokemon(new AlolanSandridger("", Aspect.ALOLAN));
         addPokedexPokemon("growlithe-armiran, arcanine-armiran, roggenrola-armiran, boldore-armiran, gigalith-armiran, " +

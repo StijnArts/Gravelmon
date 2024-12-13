@@ -108,12 +108,9 @@ public abstract class WorldRepresentablePokemon {
     }
 
     private void recalculateScales(AbstractPokemon abstractPokemon, double factor) {
-        abstractPokemon.baseScale *= factor;
+        abstractPokemon.setBaseScale(abstractPokemon.baseScale * factor);
         posingFileData.portraitScale *= factor;
         posingFileData.profileScale *= factor;
-        if(abstractPokemon instanceof Pokemon pokemon) {
-           pokemon.setHitbox(pokemon.getHitboxWidth()/factor, pokemon.getHitboxHeight()/factor);
-        }
     }
 
     int getPlaceholderImageWidth() {

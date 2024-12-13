@@ -1,7 +1,10 @@
 package drai.dev.data.games.pokemmo.done;
 
 
+import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.avoris.*;
+
+import java.util.*;
 
 //Done
 public class Avoris extends drai.dev.data.games.registry.Game {
@@ -51,7 +54,7 @@ public class Avoris extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Wrecktonic());
         addNewPokemon(new Elescent());
         addNewPokemon(new Aromaphant());
-//        addNewPokemon(new Madambrella()); //MISSING STATS
+        addNewPokemon(new Madambrella(new Stats(487, StatArchetype.FAST_SPECIAL_ATTACKER, List.of())));
 //        addNewPokemon(new Shooba()); Member of Line not Finished
         addPokedexPokemon("maractus-avorian");
         addNewPokemon(new Maracabre());
