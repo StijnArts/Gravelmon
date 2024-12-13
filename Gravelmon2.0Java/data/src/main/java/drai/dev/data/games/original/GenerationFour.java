@@ -46,40 +46,40 @@ public class GenerationFour extends Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new AromianGabite("", Aspect.AROMIAN).setUsesBigModel()); //TODO
-        addNewPokemon(new AromianGarchomp("", Aspect.AROMIAN).setUsesBigModel());
+        addNewPokemon(new AromianGabite("", Aspect.AROMIAN)); //TODO
+        addNewPokemon(new AromianGarchomp("", Aspect.AROMIAN));
 //
-        addNewPokemon(new FabelianSnover("", Aspect.FABELIAN).setUsesBigModel()); //TODO
-        addNewPokemon(new FabelianChatot("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianPachirisu("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianGlameow("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianBidoof("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianBibarel("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianCherubi("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new MahalianMantyke("", Aspect.MAHALIAN).setUsesBigModel().fishingSpawnFromExisting());
-        addNewPokemon(new MahalianSpiritomb("", Aspect.MAHALIAN).setUsesBigModel());
-        addNewPokemon(new MahalianHippopotas("", Aspect.MAHALIAN).setUsesBigModel());
-        addNewPokemon(new MahalianHippowdon("", Aspect.MAHALIAN).setUsesBigModel());
+        addNewPokemon(new FabelianSnover("", Aspect.FABELIAN)); //TODO
+        addNewPokemon(new FabelianChatot("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianPachirisu("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianGlameow("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianBidoof("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianBibarel("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianCherubi("", Aspect.FABELIAN));
+        addNewPokemon(new MahalianMantyke("", Aspect.MAHALIAN).fishingSpawnFromExisting());
+        addNewPokemon(new MahalianSpiritomb("", Aspect.MAHALIAN));
+        addNewPokemon(new MahalianHippopotas("", Aspect.MAHALIAN));
+        addNewPokemon(new MahalianHippowdon("", Aspect.MAHALIAN));
 
-        addNewPokemon(new IvrisianRiolu("", Aspect.IVRISIAN).setUsesBigModel()); //TODO
+        addNewPokemon(new IvrisianRiolu("", Aspect.IVRISIAN)); //TODO
 
-        addNewPokemon(new PalmianGible("", Aspect.PALMIAN).setUsesBigModel());
-        addNewPokemon(new PalmianGabite("", Aspect.PALMIAN).setUsesBigModel());
-        addNewPokemon(new PalmianGarchomp("", Aspect.PALMIAN, new Stats(600, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.DEFENCE, StatType.ATTACK, StatType.ATTACK))).setUsesBigModel());
+        addNewPokemon(new PalmianGible("", Aspect.PALMIAN));
+        addNewPokemon(new PalmianGabite("", Aspect.PALMIAN));
+        addNewPokemon(new PalmianGarchomp("", Aspect.PALMIAN, new Stats(600, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.DEFENCE, StatType.ATTACK, StatType.ATTACK))));
 
-        addNewPokemon(new RaianianGible("", Aspect.RAIANIAN).setUsesBigModel());
-        addNewPokemon(new RaianianGabite("", Aspect.RAIANIAN).setUsesBigModel());
-        addNewPokemon(new RaianianGarchomp("", Aspect.RAIANIAN, new Stats(600, BULKY_SUPPORT, List.of(ATTACK, ATTACK, ATTACK))).setUsesBigModel());
-        addNewPokemon(new RaianianLucario("", Aspect.RAIANIAN, new Stats(525, FAST_SPECIAL_ATTACKER, List.of(SPEED))).setUsesBigModel());
-        addNewPokemon(new RaianianGallade("", Aspect.RAIANIAN, new Stats(518, FAST_PHYSICAL_ATTACKER, List.of(SPEED))).setUsesBigModel());
+        addNewPokemon(new RaianianGible("", Aspect.RAIANIAN));
+        addNewPokemon(new RaianianGabite("", Aspect.RAIANIAN));
+        addNewPokemon(new RaianianGarchomp("", Aspect.RAIANIAN, new Stats(600, BULKY_SUPPORT, List.of(ATTACK, ATTACK, ATTACK))));
+        addNewPokemon(new RaianianLucario("", Aspect.RAIANIAN, new Stats(525, FAST_SPECIAL_ATTACKER, List.of(SPEED))));
+        addNewPokemon(new RaianianGallade("", Aspect.RAIANIAN, new Stats(518, FAST_PHYSICAL_ATTACKER, List.of(SPEED))));
 
-        addNewPokemon(new TrizoranGible("", Aspect.TRIZORAN).setUsesBigModel());
-        addNewPokemon(new TrizoranGabite("", Aspect.TRIZORAN).setUsesBigModel());
-        addNewPokemon(new TrizoranGarchomp("", Aspect.TRIZORAN, new Stats(600, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPEED, StatType.SPECIAL_ATTACK))).setUsesBigModel());
+        addNewPokemon(new TrizoranGible("", Aspect.TRIZORAN));
+        addNewPokemon(new TrizoranGabite("", Aspect.TRIZORAN));
+        addNewPokemon(new TrizoranGarchomp("", Aspect.TRIZORAN, new Stats(600, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPEED, StatType.SPECIAL_ATTACK))));
 
-        addNewPokemon(new NorseGible("", Aspect.NORSE).setUsesBigModel());
-        addNewPokemon(new NorseGabite("", Aspect.NORSE).setUsesBigModel());
-        addNewPokemon(new NorseGarchomp("", Aspect.NORSE, new Stats(600, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE, StatType.DEFENCE, StatType.DEFENCE))).setUsesBigModel());
+        addNewPokemon(new NorseGible("", Aspect.NORSE));
+        addNewPokemon(new NorseGabite("", Aspect.NORSE));
+        addNewPokemon(new NorseGarchomp("", Aspect.NORSE, new Stats(600, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE, StatType.DEFENCE, StatType.DEFENCE))));
 
 //        addNewPokemon(new PastelianWeavile("", Aspect.PASTELIAN)); TODO
 
@@ -217,14 +217,14 @@ public class GenerationFour extends Game {
         //Kaskadian
         addNewPokemon(new KaskadianBidoof("", Aspect.KASKADIAN));
         addNewPokemon(new KaskadianBibarel("", Aspect.KASKADIAN));
-        addNewPokemon(new KaskadianShinx("", Aspect.KASKADIAN).setUsesBigModel());
-        addNewPokemon(new KaskadianLuxio("", Aspect.KASKADIAN).setUsesBigModel());
-        addNewPokemon(new KaskadianLuxray("", Aspect.KASKADIAN).setUsesBigModel());
-        addNewPokemon(new KaskadianAmbipom("", Aspect.KASKADIAN).setUsesBigModel());
+        addNewPokemon(new KaskadianShinx("", Aspect.KASKADIAN));
+        addNewPokemon(new KaskadianLuxio("", Aspect.KASKADIAN));
+        addNewPokemon(new KaskadianLuxray("", Aspect.KASKADIAN));
+        addNewPokemon(new KaskadianAmbipom("", Aspect.KASKADIAN));
         addNewPokemon(new AmazeAllDrifblim("", Aspect.AMAZE_ALL));
-        addNewPokemon(new KaskadianSkuntank("", Aspect.KASKADIAN).setUsesBigModel());
-        addNewPokemon(new KaskadianSnover("", Aspect.KASKADIAN).setUsesBigModel());
-        addNewPokemon(new KaskadianAbomasnow("", Aspect.KASKADIAN).setUsesBigModel());
+        addNewPokemon(new KaskadianSkuntank("", Aspect.KASKADIAN));
+        addNewPokemon(new KaskadianSnover("", Aspect.KASKADIAN));
+        addNewPokemon(new KaskadianAbomasnow("", Aspect.KASKADIAN));
         addNewPokemon(new SolRotom("", Aspect.SOL));
         addNewPokemon(new SwayRotom("", Aspect.SWAY));
         addNewPokemon(new BrawlRotom("", Aspect.BRAWL));

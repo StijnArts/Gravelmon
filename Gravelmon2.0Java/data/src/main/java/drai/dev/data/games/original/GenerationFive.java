@@ -43,44 +43,44 @@ public class GenerationFive extends Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new AromianKlink("", Aspect.AROMIAN).setUsesBigModel()); //TODO
-        addNewPokemon(new AromianKlang("", Aspect.AROMIAN).setUsesBigModel());
-        addNewPokemon(new AromianVanillite("", Aspect.AROMIAN).setUsesBigModel());
-        addNewPokemon(new AromianVanillish("", Aspect.AROMIAN).setUsesBigModel());
+        addNewPokemon(new AromianKlink("", Aspect.AROMIAN)); //TODO
+        addNewPokemon(new AromianKlang("", Aspect.AROMIAN));
+        addNewPokemon(new AromianVanillite("", Aspect.AROMIAN));
+        addNewPokemon(new AromianVanillish("", Aspect.AROMIAN));
 
-        addNewPokemon(new FabelianYamask("", Aspect.FABELIAN).setUsesBigModel()); //tODo
-        addNewPokemon(new FabelianLillipup("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianHerdier("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianRoggenrola("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianBoldore("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianTimburr("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianGurdurr("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianWoobat("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianLitwick("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianLampent("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianChandelure("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianDeino("", Aspect.FABELIAN).setUsesBigModel());
+        addNewPokemon(new FabelianYamask("", Aspect.FABELIAN)); //tODo
+        addNewPokemon(new FabelianLillipup("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianHerdier("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianRoggenrola("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianBoldore("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianTimburr("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianGurdurr("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianWoobat("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianLitwick("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianLampent("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianChandelure("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianDeino("", Aspect.FABELIAN));
 
-        addNewPokemon(new MahalianTornadus("", Aspect.MAHALIAN).setUsesBigModel()); //TODO
-        addNewPokemon(new MahalianThundurus("", Aspect.MAHALIAN).setUsesBigModel());
-        addNewPokemon(new MahalianLandorus("", Aspect.MAHALIAN).setUsesBigModel());
-        addNewPokemon(new MahalianLarvesta("", Aspect.MAHALIAN).setUsesBigModel());
-        addNewPokemon(new MahalianTrubbish("", Aspect.MAHALIAN).setUsesBigModel());
-        addNewPokemon(new MahalianGarbodor("", Aspect.MAHALIAN).setUsesBigModel());
+        addNewPokemon(new MahalianTornadus("", Aspect.MAHALIAN)); //TODO
+        addNewPokemon(new MahalianThundurus("", Aspect.MAHALIAN));
+        addNewPokemon(new MahalianLandorus("", Aspect.MAHALIAN));
+        addNewPokemon(new MahalianLarvesta("", Aspect.MAHALIAN));
+        addNewPokemon(new MahalianTrubbish("", Aspect.MAHALIAN));
+        addNewPokemon(new MahalianGarbodor("", Aspect.MAHALIAN));
 
-        addNewPokemon(new SahlianCobalion("", Aspect.SAHLIAN).setUsesBigModel()); //TODO
-        addNewPokemon(new SahlianTerrakion("", Aspect.SAHLIAN).setUsesBigModel());
-        addNewPokemon(new SahlianVirizion("", Aspect.SAHLIAN).setUsesBigModel());
+        addNewPokemon(new SahlianCobalion("", Aspect.SAHLIAN)); //TODO
+        addNewPokemon(new SahlianTerrakion("", Aspect.SAHLIAN));
+        addNewPokemon(new SahlianVirizion("", Aspect.SAHLIAN));
 
-        addNewPokemon(new FerranianPatrat("", Aspect.FERRANIAN).setUsesBigModel()); //TODO
-        addNewPokemon(new FerranianWatchog("", Aspect.FERRANIAN).setUsesBigModel());
-        addNewPokemon(new FerranianYamask("", Aspect.FERRANIAN).setUsesBigModel());
-        addNewPokemon(new FerranianVirizion("", Aspect.FERRANIAN).setUsesBigModel());
-        addNewPokemon(new FerranianTerrakion("", Aspect.FERRANIAN).setUsesBigModel());
-        addNewPokemon(new FerranianCobalion("", Aspect.FERRANIAN).setUsesBigModel());
+        addNewPokemon(new FerranianPatrat("", Aspect.FERRANIAN)); //TODO
+        addNewPokemon(new FerranianWatchog("", Aspect.FERRANIAN));
+        addNewPokemon(new FerranianYamask("", Aspect.FERRANIAN));
+        addNewPokemon(new FerranianVirizion("", Aspect.FERRANIAN));
+        addNewPokemon(new FerranianTerrakion("", Aspect.FERRANIAN));
+        addNewPokemon(new FerranianCobalion("", Aspect.FERRANIAN));
 
-        addNewPokemon(new PalmianPawniard("", Aspect.PALMIAN).setUsesBigModel()); //TODO
-        addNewPokemon(new PalmianBisharp("", Aspect.PALMIAN).setUsesBigModel());
+        addNewPokemon(new PalmianPawniard("", Aspect.PALMIAN)); //TODO
+        addNewPokemon(new PalmianBisharp("", Aspect.PALMIAN));
 
 //        addNewPokemon(new PastelianGothita("", Aspect.PASTELIAN)); TODO
 //        addNewPokemon(new PastelianGothorita("", Aspect.PASTELIAN));
@@ -274,13 +274,13 @@ public class GenerationFive extends Game {
         addNewPokemon(new AyreianVanilluxe("", Aspect.AYREIAN));
 
         //Kaskadian
-        addNewPokemon(new KaskadianExcadrill("", Aspect.KASKADIAN).setUsesBigModel());
-        addNewPokemon(new KaskadianGurdurr("", Aspect.KASKADIAN).setUsesBigModel());
-        addNewPokemon(new KaskadianConkeldurr("", Aspect.KASKADIAN).setUsesBigModel());
-        addNewPokemon(new KaskadianSolosis("", Aspect.KASKADIAN).setUsesBigModel());
-        addNewPokemon(new KaskadianDuosion("", Aspect.KASKADIAN).setUsesBigModel());
-        addNewPokemon(new KaskadianReuniclus("", Aspect.KASKADIAN).setUsesBigModel());
-        addNewPokemon(new KaskadianGolett("", Aspect.KASKADIAN).setUsesBigModel());
+        addNewPokemon(new KaskadianExcadrill("", Aspect.KASKADIAN));
+        addNewPokemon(new KaskadianGurdurr("", Aspect.KASKADIAN));
+        addNewPokemon(new KaskadianConkeldurr("", Aspect.KASKADIAN));
+        addNewPokemon(new KaskadianSolosis("", Aspect.KASKADIAN));
+        addNewPokemon(new KaskadianDuosion("", Aspect.KASKADIAN));
+        addNewPokemon(new KaskadianReuniclus("", Aspect.KASKADIAN));
+        addNewPokemon(new KaskadianGolett("", Aspect.KASKADIAN));
 
         //Azure (Mystic)
         addNewPokemon(new MysticSolosis("", Aspect.MYSTIC));

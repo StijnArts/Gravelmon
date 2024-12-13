@@ -10,21 +10,21 @@ public class Fra extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Yuvixy().setUsesBigModel());
-        addNewPokemon(new Kyubicane().setUsesBigModel());
-        addNewPokemon(new Awootic().setUsesBigModel());
-        addNewPokemon(new Huskinu().setUsesBigModel());
-        addNewPokemon(new Burrolar().setUsesBigModel());
-        addNewPokemon(new Potling().setUsesBigModel());
-        addNewPokemon(new Potthos().setUsesBigModel());
-        addNewPokemon(new Gardelem().setUsesBigModel());
-        addNewPokemon(new Kaizora().setUsesBigModel().fishingSpawnFromExisting());
-        addNewPokemon(new Duozora().setUsesBigModel());
-        addNewPokemon(new Trizedora().setUsesBigModel());
-        addNewPokemon(new Fiestavia().setUsesBigModel());
-        addNewPokemon(new Pipengi().setUsesBigModel());
-        addNewPokemon(new Volantile().setUsesBigModel());
-        addNewPokemon(new Dradivetl().setUsesBigModel());
+        addNewPokemon(new Yuvixy());
+        addNewPokemon(new Kyubicane());
+        addNewPokemon(new Awootic());
+        addNewPokemon(new Huskinu());
+        addNewPokemon(new Burrolar());
+        addNewPokemon(new Potling());
+        addNewPokemon(new Potthos());
+        addNewPokemon(new Gardelem());
+        addNewPokemon(new Kaizora().fishingSpawnFromExisting());
+        addNewPokemon(new Duozora());
+        addNewPokemon(new Trizedora());
+        addNewPokemon(new Fiestavia());
+        addNewPokemon(new Pipengi());
+        addNewPokemon(new Volantile());
+        addNewPokemon(new Dradivetl());
     }
 
 }

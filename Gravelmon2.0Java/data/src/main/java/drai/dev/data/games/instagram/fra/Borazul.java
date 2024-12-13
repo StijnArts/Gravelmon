@@ -9,24 +9,24 @@ public class Borazul extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Drubat().setUsesBigModel()); //Renamed from Fruibat
-        addNewPokemon(new Foliwing().setUsesBigModel());
-        addNewPokemon(new Acairadon().setUsesBigModel());
-        addNewPokemon(new Coaliz().setUsesBigModel());
-        addNewPokemon(new Sizzlick().setUsesBigModel());
-        addNewPokemon(new Apoiformer().setUsesBigModel());
-        addNewPokemon(new Seaquin().setUsesBigModel().fishingSpawnFromExisting());
-        addNewPokemon(new Equamarin().setUsesBigModel().fishingSpawnFromExisting());
-        addNewPokemon(new Aquavallo().setUsesBigModel());
-        addNewPokemon(new Humbird().setUsesBigModel());
-        addNewPokemon(new Paradivia().setUsesBigModel());
-        addNewPokemon(new Pitic().setUsesBigModel());
-        addNewPokemon(new Shelpa().setUsesBigModel());
-        addNewPokemon(new Moskiringe().setUsesBigModel());
-        addNewPokemon(new Hibiskiss().setUsesBigModel());
-        addNewPokemon(new Glamamela().setUsesBigModel());
-        addNewPokemon(new Rootkie().setUsesBigModel());
-        addNewPokemon(new Bambooton().setUsesBigModel());
+        addNewPokemon(new Drubat()); //Renamed from Fruibat
+        addNewPokemon(new Foliwing());
+        addNewPokemon(new Acairadon());
+        addNewPokemon(new Coaliz());
+        addNewPokemon(new Sizzlick());
+        addNewPokemon(new Apoiformer());
+        addNewPokemon(new Seaquin().fishingSpawnFromExisting());
+        addNewPokemon(new Equamarin().fishingSpawnFromExisting());
+        addNewPokemon(new Aquavallo());
+        addNewPokemon(new Humbird());
+        addNewPokemon(new Paradivia());
+        addNewPokemon(new Pitic());
+        addNewPokemon(new Shelpa());
+        addNewPokemon(new Moskiringe());
+        addNewPokemon(new Hibiskiss());
+        addNewPokemon(new Glamamela());
+        addNewPokemon(new Rootkie());
+        addNewPokemon(new Bambooton());
     }
 
 }

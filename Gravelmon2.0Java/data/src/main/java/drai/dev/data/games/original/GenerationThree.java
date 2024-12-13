@@ -46,48 +46,48 @@ public class GenerationThree extends Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new AromianChimecho("", Aspect.AROMIAN).setUsesBigModel()); //TODO
+        addNewPokemon(new AromianChimecho("", Aspect.AROMIAN)); //TODO
 
-        addNewPokemon(new FabelianRalts("", Aspect.FABELIAN).setUsesBigModel()); //TODO
-        addNewPokemon(new FabelianKirlia("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianSableye("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianSwablu("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianSnorunt("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianBeldum("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianMetang("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianMetagross("", Aspect.FABELIAN).setUsesBigModel());
+        addNewPokemon(new FabelianRalts("", Aspect.FABELIAN)); //TODO
+        addNewPokemon(new FabelianKirlia("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianSableye("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianSwablu("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianSnorunt("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianBeldum("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianMetang("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianMetagross("", Aspect.FABELIAN));
 
-        addNewPokemon(new MahalianTorkoal("", Aspect.MAHALIAN).setUsesBigModel()); //TODO
-        addNewPokemon(new MahalianPoochyena("", Aspect.MAHALIAN).setUsesBigModel());
-        addNewPokemon(new MahalianMightyena("", Aspect.MAHALIAN).setUsesBigModel());
+        addNewPokemon(new MahalianTorkoal("", Aspect.MAHALIAN)); //TODO
+        addNewPokemon(new MahalianPoochyena("", Aspect.MAHALIAN));
+        addNewPokemon(new MahalianMightyena("", Aspect.MAHALIAN));
 
-        addNewPokemon(new ElbianSlakoth("", Aspect.ELBIAN).setUsesBigModel()); //TODO
-        addNewPokemon(new ElbianVigoroth("", Aspect.ELBIAN).setUsesBigModel());
-        addNewPokemon(new ElbianGulpin("", Aspect.ELBIAN).setUsesBigModel());
-        addNewPokemon(new ElbianSwalot("", Aspect.ELBIAN).setUsesBigModel());
+        addNewPokemon(new ElbianSlakoth("", Aspect.ELBIAN)); //TODO
+        addNewPokemon(new ElbianVigoroth("", Aspect.ELBIAN));
+        addNewPokemon(new ElbianGulpin("", Aspect.ELBIAN));
+        addNewPokemon(new ElbianSwalot("", Aspect.ELBIAN));
 
-        addNewPokemon(new FerranianBarboach("", Aspect.FERRANIAN).setUsesBigModel().fishingSpawnFromExisting()); //TODO
-        addNewPokemon(new FerranianWhiscash("", Aspect.FERRANIAN).setUsesBigModel());
-        addNewPokemon(new FerranianSlakoth("", Aspect.FERRANIAN).setUsesBigModel());
-        addNewPokemon(new FerranianVigoroth("", Aspect.FERRANIAN).setUsesBigModel());
-        addNewPokemon(new FerranianWailord("", Aspect.FERRANIAN).setUsesBigModel());
-        addNewPokemon(new FerranianBagon("", Aspect.FERRANIAN).setUsesBigModel());
-        addNewPokemon(new FerranianShelgon("", Aspect.FERRANIAN).setUsesBigModel());
-        addNewPokemon(new FerranianSalamence("", Aspect.FERRANIAN).setUsesBigModel());
+        addNewPokemon(new FerranianBarboach("", Aspect.FERRANIAN).fishingSpawnFromExisting()); //TODO
+        addNewPokemon(new FerranianWhiscash("", Aspect.FERRANIAN));
+        addNewPokemon(new FerranianSlakoth("", Aspect.FERRANIAN));
+        addNewPokemon(new FerranianVigoroth("", Aspect.FERRANIAN));
+        addNewPokemon(new FerranianWailord("", Aspect.FERRANIAN));
+        addNewPokemon(new FerranianBagon("", Aspect.FERRANIAN));
+        addNewPokemon(new FerranianShelgon("", Aspect.FERRANIAN));
+        addNewPokemon(new FerranianSalamence("", Aspect.FERRANIAN));
 
-        addNewPokemon(new RaianianWhismur("", Aspect.RAIANIAN).setUsesBigModel());
-        addNewPokemon(new RaianianLoudred("", Aspect.RAIANIAN).setUsesBigModel());
-        addNewPokemon(new RaianianExploud("", Aspect.RAIANIAN, new Stats(490, PHYSICAL_ATTACKER, List.of(HP))).setUsesBigModel());
-        addNewPokemon(new RaianianAbsol("", Aspect.RAIANIAN, new Stats(465, PHYSICAL_ATTACKER, List.of(ATTACK, ATTACK, ATTACK))).setUsesBigModel());
-        addNewPokemon(new RaianianSalamence("", Aspect.RAIANIAN, new Stats(600, SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))).setUsesBigModel());
+        addNewPokemon(new RaianianWhismur("", Aspect.RAIANIAN));
+        addNewPokemon(new RaianianLoudred("", Aspect.RAIANIAN));
+        addNewPokemon(new RaianianExploud("", Aspect.RAIANIAN, new Stats(490, PHYSICAL_ATTACKER, List.of(HP))));
+        addNewPokemon(new RaianianAbsol("", Aspect.RAIANIAN, new Stats(465, PHYSICAL_ATTACKER, List.of(ATTACK, ATTACK, ATTACK))));
+        addNewPokemon(new RaianianSalamence("", Aspect.RAIANIAN, new Stats(600, SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));
 
-        addNewPokemon(new TrizoranAbsol("", Aspect.TRIZORAN, new Stats(465, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))).setUsesBigModel());
+        addNewPokemon(new TrizoranAbsol("", Aspect.TRIZORAN, new Stats(465, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))));
 
-        addNewPokemon(new NorseAbsol("", Aspect.NORSE, new Stats(465, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPEED))).setUsesBigModel());
+        addNewPokemon(new NorseAbsol("", Aspect.NORSE, new Stats(465, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPEED))));
 
-        addNewPokemon(new FormanTreecko("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanTorchic("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanMudkip("", Aspect.FORMAN).setUsesBigModel());
+        addNewPokemon(new FormanTreecko("", Aspect.FORMAN));
+        addNewPokemon(new FormanTorchic("", Aspect.FORMAN));
+        addNewPokemon(new FormanMudkip("", Aspect.FORMAN));
 
 //        addNewPokemon(new MystisianAbsol("", Aspect.MYSTISIAN)); TODO
 
@@ -246,7 +246,7 @@ public class GenerationThree extends Game {
         addNewPokemon(new SorceryCastform("Castform", Aspect.SORCERY));
         addNewPokemon(new ShadyCastform("Castform", Aspect.SHADY));
         addNewPokemon(new LovelyCastform("Castform", Aspect.LOVELY));
-        addNewPokemon(new KaskadianTropius("Tropius", Aspect.KASKADIAN).setUsesBigModel());
+        addNewPokemon(new KaskadianTropius("Tropius", Aspect.KASKADIAN));
 
         //Azure (Mystic)
         addNewPokemon(new MysticTreecko("Treecko", Aspect.MYSTIC).setPreferredBlocks("minecraft:blue_wool"));

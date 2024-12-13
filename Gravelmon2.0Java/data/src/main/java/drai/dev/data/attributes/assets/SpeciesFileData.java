@@ -2,7 +2,6 @@ package drai.dev.data.attributes.assets;
 
 import com.google.gson.*;
 import drai.dev.data.pokemon.*;
-import drai.dev.data.pokemon.blazingemerald.*;
 
 import java.util.*;
 

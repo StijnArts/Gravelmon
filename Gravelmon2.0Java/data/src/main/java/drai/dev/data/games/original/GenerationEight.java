@@ -26,29 +26,29 @@ public class GenerationEight extends Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new AromianStonjourner("", Aspect.AROMIAN).setUsesBigModel()); //TODO
+        addNewPokemon(new AromianStonjourner("", Aspect.AROMIAN)); //TODO
 
-        addNewPokemon(new FabelianWyrdeer("", Aspect.FABELIAN).setUsesBigModel()); //TODO
-        addNewPokemon(new FabelianHatenna("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianHattrem("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianApplin("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianFalinks("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianSinistea("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianPolteageist("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianWooloo("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianDubwool("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianMilcery("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianImpidimp("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianMorgrem("", Aspect.FABELIAN).setUsesBigModel());
+        addNewPokemon(new FabelianWyrdeer("", Aspect.FABELIAN)); //TODO
+        addNewPokemon(new FabelianHatenna("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianHattrem("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianApplin("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianFalinks("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianSinistea("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianPolteageist("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianWooloo("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianDubwool("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianMilcery("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianImpidimp("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianMorgrem("", Aspect.FABELIAN));
 
-        addNewPokemon(new MahalianSinistea("", Aspect.MAHALIAN).setUsesBigModel()); //TODO
-        addNewPokemon(new MahalianPolteageist("", Aspect.MAHALIAN).setUsesBigModel());
+        addNewPokemon(new MahalianSinistea("", Aspect.MAHALIAN)); //TODO
+        addNewPokemon(new MahalianPolteageist("", Aspect.MAHALIAN));
 
-        addNewPokemon(new FerranianSinistea("", Aspect.FERRANIAN).setUsesBigModel()); //TODO
-        addNewPokemon(new FerranianApplin("", Aspect.FERRANIAN).setUsesBigModel());
+        addNewPokemon(new FerranianSinistea("", Aspect.FERRANIAN)); //TODO
+        addNewPokemon(new FerranianApplin("", Aspect.FERRANIAN));
 
-        addNewPokemon(new IvrisianSinistea("", Aspect.IVRISIAN).setUsesBigModel()); //TODO
-        addNewPokemon(new IvrisianPerrserker("", Aspect.IVRISIAN).setUsesBigModel());
+        addNewPokemon(new IvrisianSinistea("", Aspect.IVRISIAN)); //TODO
+        addNewPokemon(new IvrisianPerrserker("", Aspect.IVRISIAN));
 
 //        addNewPokemon(new MystisianImpidimp("", Aspect.MYSTISIAN)); TODO
 //        addNewPokemon(new MystisianMorgrem("", Aspect.MYSTISIAN));

@@ -22,8 +22,8 @@ public class GenerationNine extends Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new AromianSmoliv("", Aspect.AROMIAN).setUsesBigModel()); //TODO
-        addNewPokemon(new AromianDolliv("", Aspect.AROMIAN).setUsesBigModel());
+        addNewPokemon(new AromianSmoliv("", Aspect.AROMIAN)); //TODO
+        addNewPokemon(new AromianDolliv("", Aspect.AROMIAN));
 
         registerSoulstoneMons();
 

@@ -31,23 +31,23 @@ public class GenerationSeven extends Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new FabelianYungoos("", Aspect.FABELIAN).setUsesBigModel()); //TODO
-        addNewPokemon(new FabelianGumshoos("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianMudbray("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianMinior("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianSandygast("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianPyukumuku("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianDhelmise("", Aspect.FABELIAN).setUsesBigModel().fishingSpawnFromExisting());
-        addNewPokemon(new FabelianMimikyu("", Aspect.FABELIAN).setUsesBigModel());
+        addNewPokemon(new FabelianYungoos("", Aspect.FABELIAN)); //TODO
+        addNewPokemon(new FabelianGumshoos("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianMudbray("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianMinior("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianSandygast("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianPyukumuku("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianDhelmise("", Aspect.FABELIAN).fishingSpawnFromExisting());
+        addNewPokemon(new FabelianMimikyu("", Aspect.FABELIAN));
 
-        addNewPokemon(new MahalianSandygast("", Aspect.MAHALIAN).setUsesBigModel()); //TODO
-        addNewPokemon(new MahalianPalossand("", Aspect.MAHALIAN).setUsesBigModel());
-        addNewPokemon(new MahalianCrabrawler("", Aspect.MAHALIAN).setUsesBigModel());
+        addNewPokemon(new MahalianSandygast("", Aspect.MAHALIAN)); //TODO
+        addNewPokemon(new MahalianPalossand("", Aspect.MAHALIAN));
+        addNewPokemon(new MahalianCrabrawler("", Aspect.MAHALIAN));
 
-        addNewPokemon(new FerranianBounsweet("", Aspect.FERRANIAN).setUsesBigModel()); //TODO
+        addNewPokemon(new FerranianBounsweet("", Aspect.FERRANIAN)); //TODO
 
-        addNewPokemon(new IvrisianPikipek("", Aspect.IVRISIAN).setUsesBigModel()); //TODO
-        addNewPokemon(new IvrisianTrumbeak("", Aspect.IVRISIAN).setUsesBigModel());
+        addNewPokemon(new IvrisianPikipek("", Aspect.IVRISIAN)); //TODO
+        addNewPokemon(new IvrisianTrumbeak("", Aspect.IVRISIAN));
 
         addNewPokemon(new MastenianKomala("", Aspect.MASTENIAN, new Stats(0, StatArchetype.SPECIAL_WALL, List.of(StatType.SPEED))));
 
@@ -94,7 +94,7 @@ public class GenerationSeven extends Game {
         addNewPokemon(new AyreianGumshoos("", Aspect.AYREIAN));
 
         //Kaskadian
-        addNewPokemon(new KaskadianPalossand("", Aspect.KASKADIAN).setUsesBigModel());
+        addNewPokemon(new KaskadianPalossand("", Aspect.KASKADIAN));
         addNewPokemon(new KaskadianBruxish("", Aspect.KASKADIAN));
 
         //Azure (Mystic)

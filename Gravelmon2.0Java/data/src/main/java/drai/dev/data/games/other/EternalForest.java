@@ -10,30 +10,30 @@ public class EternalForest extends Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Smettle().setUsesBigModel());
-        addNewPokemon(new Smyucca().setUsesBigModel());
-        addNewPokemon(new Demonagave().setUsesBigModel());
-        addNewPokemon(new Pachyball().setUsesBigModel());
-        addNewPokemon(new Pachyndou().setUsesBigModel());
-        addNewPokemon(new Pachyvory().setUsesBigModel());
-        addNewPokemon(new Squini().setUsesBigModel());
-        addNewPokemon(new Squinja().setUsesBigModel());
-        addNewPokemon(new Squartial().setUsesBigModel());
-        addNewPokemon(new Wormini().setUsesBigModel());
-        addNewPokemon(new Wormeel().setUsesBigModel());
-        addNewPokemon(new Malarva().setUsesBigModel());
-        addNewPokemon(new Mosdeng().setUsesBigModel());
-        addNewPokemon(new Mosboom().setUsesBigModel());
-        addNewPokemon(new Antager().setUsesBigModel());
-        addNewPokemon(new Antoldier().setUsesBigModel());
-        addNewPokemon(new Hamerry().setUsesBigModel());
-        addNewPokemon(new Hamysos().setUsesBigModel());
-        addNewPokemon(new Goatanaa().setUsesBigModel());
-        addNewPokemon(new Goaturly().setUsesBigModel());
-        addNewPokemon(new Pomara().setUsesBigModel());
-        addNewPokemon(new Dashean().setUsesBigModel());
-        addNewPokemon(new Boonny().setUsesBigModel());
-        addNewPokemon(new Rabball().setUsesBigModel());
-        addNewPokemon(new Lagorite().setUsesBigModel());
+        addNewPokemon(new Smettle());
+        addNewPokemon(new Smyucca());
+        addNewPokemon(new Demonagave());
+        addNewPokemon(new Pachyball());
+        addNewPokemon(new Pachyndou());
+        addNewPokemon(new Pachyvory());
+        addNewPokemon(new Squini());
+        addNewPokemon(new Squinja());
+        addNewPokemon(new Squartial());
+        addNewPokemon(new Wormini());
+        addNewPokemon(new Wormeel());
+        addNewPokemon(new Malarva());
+        addNewPokemon(new Mosdeng());
+        addNewPokemon(new Mosboom());
+        addNewPokemon(new Antager());
+        addNewPokemon(new Antoldier());
+        addNewPokemon(new Hamerry());
+        addNewPokemon(new Hamysos());
+        addNewPokemon(new Goatanaa());
+        addNewPokemon(new Goaturly());
+        addNewPokemon(new Pomara());
+        addNewPokemon(new Dashean());
+        addNewPokemon(new Boonny());
+        addNewPokemon(new Rabball());
+        addNewPokemon(new Lagorite());
     }
 }

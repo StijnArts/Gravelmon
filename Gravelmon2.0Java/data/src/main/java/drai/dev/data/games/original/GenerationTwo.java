@@ -48,37 +48,37 @@ public class GenerationTwo extends Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new AromianSentret("", Aspect.AROMIAN).setUsesBigModel()); //TODO
-        addNewPokemon(new AromianFurret("", Aspect.AROMIAN).setUsesBigModel());
+        addNewPokemon(new AromianSentret("", Aspect.AROMIAN)); //TODO
+        addNewPokemon(new AromianFurret("", Aspect.AROMIAN));
 
-        addNewPokemon(new FabelianStantler("", Aspect.FABELIAN).setUsesBigModel()); //TODO
-        addNewPokemon(new FabelianShuckle("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianSmeargle("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianSpinarak("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianAriados("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianHoothoot("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianNoctowl("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianRaikou("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianEntei("", Aspect.FABELIAN).setUsesBigModel());
-        addNewPokemon(new FabelianSuicune("", Aspect.FABELIAN).setUsesBigModel());
+        addNewPokemon(new FabelianStantler("", Aspect.FABELIAN)); //TODO
+        addNewPokemon(new FabelianShuckle("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianSmeargle("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianSpinarak("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianAriados("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianHoothoot("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianNoctowl("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianRaikou("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianEntei("", Aspect.FABELIAN));
+        addNewPokemon(new FabelianSuicune("", Aspect.FABELIAN));
 
-        addNewPokemon(new MahalianMantine("", Aspect.MAHALIAN).setUsesBigModel().fishingSpawnFromExisting()); //TODO
-        addNewPokemon(new MahalianYanma("", Aspect.MAHALIAN).setUsesBigModel());
+        addNewPokemon(new MahalianMantine("", Aspect.MAHALIAN).fishingSpawnFromExisting()); //TODO
+        addNewPokemon(new MahalianYanma("", Aspect.MAHALIAN));
 
-        addNewPokemon(new IvrisianSmeargle("", Aspect.IVRISIAN).setUsesBigModel()); //TODO
+        addNewPokemon(new IvrisianSmeargle("", Aspect.IVRISIAN)); //TODO
 
-        addNewPokemon(new RaianianScizor("", Aspect.RAIANIAN, new Stats(500, BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))).setUsesBigModel());
-        addNewPokemon(new RaianianNoctowl("", Aspect.RAIANIAN, new Stats(542, BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))).setUsesBigModel());
-        addNewPokemon(new RaianianChinchou("", Aspect.RAIANIAN).setUsesBigModel().fishingSpawnFromExisting());
-        addNewPokemon(new RaianianLanturn("", Aspect.RAIANIAN, new Stats(460, PHYSICAL_ATTACKER, List.of(SPECIAL_DEFENCE))).setUsesBigModel().fishingSpawnFromExisting());
-        addNewPokemon(new RaianianPhanpy("", Aspect.RAIANIAN).setUsesBigModel());
-        addNewPokemon(new RaianianDonphan("", Aspect.RAIANIAN, new Stats(500, SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))).setUsesBigModel());
+        addNewPokemon(new RaianianScizor("", Aspect.RAIANIAN, new Stats(500, BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
+        addNewPokemon(new RaianianNoctowl("", Aspect.RAIANIAN, new Stats(542, BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))));
+        addNewPokemon(new RaianianChinchou("", Aspect.RAIANIAN).fishingSpawnFromExisting());
+        addNewPokemon(new RaianianLanturn("", Aspect.RAIANIAN, new Stats(460, PHYSICAL_ATTACKER, List.of(SPECIAL_DEFENCE))).fishingSpawnFromExisting());
+        addNewPokemon(new RaianianPhanpy("", Aspect.RAIANIAN));
+        addNewPokemon(new RaianianDonphan("", Aspect.RAIANIAN, new Stats(500, SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));
 
-        addNewPokemon(new TrizoranSkarmory("", Aspect.TRIZORAN).setUsesBigModel());
+        addNewPokemon(new TrizoranSkarmory("", Aspect.TRIZORAN));
 
-        addNewPokemon(new NorsePichu("", Aspect.NORSE).setUsesBigModel());
-        addNewPokemon(new NorseSentret("", Aspect.NORSE).setUsesBigModel());
-        addNewPokemon(new NorseFurret("", Aspect.NORSE, new Stats(415, StatArchetype.SPECIAL_WALL, List.of(StatType.HP))).setUsesBigModel());
+        addNewPokemon(new NorsePichu("", Aspect.NORSE));
+        addNewPokemon(new NorseSentret("", Aspect.NORSE));
+        addNewPokemon(new NorseFurret("", Aspect.NORSE, new Stats(415, StatArchetype.SPECIAL_WALL, List.of(StatType.HP))));
 //
         addFormanPokemon();
 
@@ -268,73 +268,73 @@ public class GenerationTwo extends Game {
     }
 
     private void addFormanPokemon() {
-        addNewPokemon(new FormanChikorita("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanCyndaquil("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanTotodile("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanSentret("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanFurret("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanHoothoot("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanLedyba("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanLedian("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanSpinarak("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanAriados("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanCrobat("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanChinchou("", Aspect.FORMAN).setUsesBigModel().fishingSpawnFromExisting());
-        addNewPokemon(new FormanTogepi("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
-        addNewPokemon(new FormanNatu("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanMareep("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanFlaaffy("", Aspect.FORMAN).setUsesBigModel());
-//        addNewPokemon(new FormanMarill("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
-//        addNewPokemon(new FormanSudowoodo("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
-        addNewPokemon(new FormanHoppip("", Aspect.FORMAN).setUsesBigModel());
-//        addNewPokemon(new FormanAipom("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
-        addNewPokemon(new FormanSunkern("", Aspect.FORMAN).setUsesBigModel());
-//        addNewPokemon(new FormanYanma("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
-        addNewPokemon(new FormanWooper("", Aspect.FORMAN).setUsesBigModel());
-//        addNewPokemon(new FormanMurkrow("", Aspect.FORMAN).setUsesBigModel()); //Member of line not finished
-        addNewPokemon(new FormanSlowking("", Aspect.FORMAN).setUsesBigModel());
-//        addNewPokemon(new FormanMisdreavus("", Aspect.FORMAN).setUsesBigModel()); //Member of line not finished
-        addNewPokemon(new FormanUnown("", Aspect.FORMAN).setUsesBigModel());
-//        addNewPokemon(new For manWobbuffet("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
-        addNewPokemon(new FormanGirafarig("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
-        addNewPokemon(new FormanPineco("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanForretress("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanDunsparce("", Aspect.FORMAN).setUsesBigModel());
-//        addNewPokemon(new FormanGligar("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
-        addNewPokemon(new FormanSteelix("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanSnubbull("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanGranbull("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanQwilfish("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanShuckle("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanHeracross("", Aspect.FORMAN).setUsesBigModel());
-//        addNewPokemon(new FormanSneasel("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
-        addNewPokemon(new FormanTeddiursa("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
-        addNewPokemon(new FormanSlugma("", Aspect.FORMAN).setUsesBigModel());
-//        addNewPokemon(new FormanSwinub("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
-//        addNewPokemon(new FormanPiloswine("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
-        addNewPokemon(new FormanCorsola("", Aspect.FORMAN).setUsesBigModel().fishingSpawnFromExisting());
-        addNewPokemon(new FormanRemoraid("", Aspect.FORMAN).setUsesBigModel().fishingSpawnFromExisting());
-        addNewPokemon(new FormanDelibird("", Aspect.FORMAN).setUsesBigModel());
-//        addNewPokemon(new FormanMantine("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
-        addNewPokemon(new FormanSkarmory("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanHoundour("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanHoundoom("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanPhanpy("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanDonphan("", Aspect.FORMAN).setUsesBigModel());
-//        addNewPokemon(new FormanPorygon2("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
-//        addNewPokemon(new FormanStantler("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
-        addNewPokemon(new FormanSmeargle("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanTyrogue("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanHitmontop("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanSmoochum("", Aspect.FORMAN).setUsesBigModel());
-//        addNewPokemon(new FormanElekid("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
-//        addNewPokemon(new FormanBlissey("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
-        addNewPokemon(new FormanRaikou("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanEntei("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanSuicune("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanLarvitar("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanLugia("", Aspect.FORMAN).setUsesBigModel());
-        addNewPokemon(new FormanHooh("", Aspect.FORMAN).setUsesBigModel());
+        addNewPokemon(new FormanChikorita("", Aspect.FORMAN));
+        addNewPokemon(new FormanCyndaquil("", Aspect.FORMAN));
+        addNewPokemon(new FormanTotodile("", Aspect.FORMAN));
+        addNewPokemon(new FormanSentret("", Aspect.FORMAN));
+        addNewPokemon(new FormanFurret("", Aspect.FORMAN));
+        addNewPokemon(new FormanHoothoot("", Aspect.FORMAN));
+        addNewPokemon(new FormanLedyba("", Aspect.FORMAN));
+        addNewPokemon(new FormanLedian("", Aspect.FORMAN));
+        addNewPokemon(new FormanSpinarak("", Aspect.FORMAN));
+        addNewPokemon(new FormanAriados("", Aspect.FORMAN));
+        addNewPokemon(new FormanCrobat("", Aspect.FORMAN));
+        addNewPokemon(new FormanChinchou("", Aspect.FORMAN).fishingSpawnFromExisting());
+        addNewPokemon(new FormanTogepi("", Aspect.FORMAN));//Member of line not finished
+        addNewPokemon(new FormanNatu("", Aspect.FORMAN));
+        addNewPokemon(new FormanMareep("", Aspect.FORMAN));
+        addNewPokemon(new FormanFlaaffy("", Aspect.FORMAN));
+//        addNewPokemon(new FormanMarill("", Aspect.FORMAN));//Member of line not finished
+//        addNewPokemon(new FormanSudowoodo("", Aspect.FORMAN));//Member of line not finished
+        addNewPokemon(new FormanHoppip("", Aspect.FORMAN));
+//        addNewPokemon(new FormanAipom("", Aspect.FORMAN));//Member of line not finished
+        addNewPokemon(new FormanSunkern("", Aspect.FORMAN));
+//        addNewPokemon(new FormanYanma("", Aspect.FORMAN));//Member of line not finished
+        addNewPokemon(new FormanWooper("", Aspect.FORMAN));
+//        addNewPokemon(new FormanMurkrow("", Aspect.FORMAN)); //Member of line not finished
+        addNewPokemon(new FormanSlowking("", Aspect.FORMAN));
+//        addNewPokemon(new FormanMisdreavus("", Aspect.FORMAN)); //Member of line not finished
+        addNewPokemon(new FormanUnown("", Aspect.FORMAN));
+//        addNewPokemon(new For manWobbuffet("", Aspect.FORMAN));//Member of line not finished
+        addNewPokemon(new FormanGirafarig("", Aspect.FORMAN));//Member of line not finished
+        addNewPokemon(new FormanPineco("", Aspect.FORMAN));
+        addNewPokemon(new FormanForretress("", Aspect.FORMAN));
+        addNewPokemon(new FormanDunsparce("", Aspect.FORMAN));
+//        addNewPokemon(new FormanGligar("", Aspect.FORMAN));//Member of line not finished
+        addNewPokemon(new FormanSteelix("", Aspect.FORMAN));
+        addNewPokemon(new FormanSnubbull("", Aspect.FORMAN));
+        addNewPokemon(new FormanGranbull("", Aspect.FORMAN));
+        addNewPokemon(new FormanQwilfish("", Aspect.FORMAN));
+        addNewPokemon(new FormanShuckle("", Aspect.FORMAN));
+        addNewPokemon(new FormanHeracross("", Aspect.FORMAN));
+//        addNewPokemon(new FormanSneasel("", Aspect.FORMAN));//Member of line not finished
+        addNewPokemon(new FormanTeddiursa("", Aspect.FORMAN));//Member of line not finished
+        addNewPokemon(new FormanSlugma("", Aspect.FORMAN));
+//        addNewPokemon(new FormanSwinub("", Aspect.FORMAN));//Member of line not finished
+//        addNewPokemon(new FormanPiloswine("", Aspect.FORMAN));//Member of line not finished
+        addNewPokemon(new FormanCorsola("", Aspect.FORMAN).fishingSpawnFromExisting());
+        addNewPokemon(new FormanRemoraid("", Aspect.FORMAN).fishingSpawnFromExisting());
+        addNewPokemon(new FormanDelibird("", Aspect.FORMAN));
+//        addNewPokemon(new FormanMantine("", Aspect.FORMAN));//Member of line not finished
+        addNewPokemon(new FormanSkarmory("", Aspect.FORMAN));
+        addNewPokemon(new FormanHoundour("", Aspect.FORMAN));
+        addNewPokemon(new FormanHoundoom("", Aspect.FORMAN));
+        addNewPokemon(new FormanPhanpy("", Aspect.FORMAN));
+        addNewPokemon(new FormanDonphan("", Aspect.FORMAN));
+//        addNewPokemon(new FormanPorygon2("", Aspect.FORMAN));//Member of line not finished
+//        addNewPokemon(new FormanStantler("", Aspect.FORMAN));//Member of line not finished
+        addNewPokemon(new FormanSmeargle("", Aspect.FORMAN));
+        addNewPokemon(new FormanTyrogue("", Aspect.FORMAN));
+        addNewPokemon(new FormanHitmontop("", Aspect.FORMAN));
+        addNewPokemon(new FormanSmoochum("", Aspect.FORMAN));
+//        addNewPokemon(new FormanElekid("", Aspect.FORMAN));//Member of line not finished
+//        addNewPokemon(new FormanBlissey("", Aspect.FORMAN));//Member of line not finished
+        addNewPokemon(new FormanRaikou("", Aspect.FORMAN));
+        addNewPokemon(new FormanEntei("", Aspect.FORMAN));
+        addNewPokemon(new FormanSuicune("", Aspect.FORMAN));
+        addNewPokemon(new FormanLarvitar("", Aspect.FORMAN));
+        addNewPokemon(new FormanLugia("", Aspect.FORMAN));
+        addNewPokemon(new FormanHooh("", Aspect.FORMAN));
     }
 
     private void registerSoulstonesVariants() {

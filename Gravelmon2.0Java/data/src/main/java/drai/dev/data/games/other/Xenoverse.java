@@ -79,8 +79,8 @@ public class Xenoverse extends Game {
         addNewPokemon(new Birigiri());
         addNewPokemon(new Chubiburny());
         addNewPokemon(new Goombear());
-        addNewPokemon(new Manticoeur().setUsesBigModel());
-        addNewPokemon(new Fatail().setUsesBigModel());
+        addNewPokemon(new Manticoeur());
+        addNewPokemon(new Fatail());
         addNewPokemon(new Reindear());
         addNewPokemon(new Reindigo());
         addNewPokemon(new Sosqwatch());
@@ -93,7 +93,7 @@ public class Xenoverse extends Game {
         addNewPokemon(new Scaracno());
         addNewPokemon(new Scaracluo());
         addNewPokemon(new Scarphasmo());
-        addNewPokemon(new Tokakle().setUsesBigModel());
+        addNewPokemon(new Tokakle());
         addNewPokemon(new Donanas());
         addNewPokemon(new Chimaooze());
         addPokedexPokemon(

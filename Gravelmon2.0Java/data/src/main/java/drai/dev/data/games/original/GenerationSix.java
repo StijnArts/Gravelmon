@@ -32,14 +32,14 @@ public class GenerationSix extends Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new AromianSpritzee("", Aspect.AROMIAN).setUsesBigModel()); //TODO
-        addNewPokemon(new AromianAromatisse("", Aspect.AROMIAN).setUsesBigModel());
+        addNewPokemon(new AromianSpritzee("", Aspect.AROMIAN)); //TODO
+        addNewPokemon(new AromianAromatisse("", Aspect.AROMIAN));
 
-        addNewPokemon(new MahalianBunnelby("", Aspect.MAHALIAN).setUsesBigModel()); //TODO
-        addNewPokemon(new MahalianDiggersby("", Aspect.MAHALIAN).setUsesBigModel());
+        addNewPokemon(new MahalianBunnelby("", Aspect.MAHALIAN)); //TODO
+        addNewPokemon(new MahalianDiggersby("", Aspect.MAHALIAN));
 
-        addNewPokemon(new IvrisianSpritzee("", Aspect.IVRISIAN).setUsesBigModel()); //TODO
-        addNewPokemon(new IvrisianClauncher("", Aspect.IVRISIAN).setUsesBigModel());
+        addNewPokemon(new IvrisianSpritzee("", Aspect.IVRISIAN)); //TODO
+        addNewPokemon(new IvrisianClauncher("", Aspect.IVRISIAN));
 
 //        addNewPokemon(new PastelianFlabebe("", Aspect.PASTELIAN)); TODO
 //        addNewPokemon(new PastelianFloette("", Aspect.PASTELIAN));

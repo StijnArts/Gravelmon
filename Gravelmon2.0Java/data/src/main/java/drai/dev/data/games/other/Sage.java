@@ -14,434 +14,434 @@ public class Sage extends Game {
     @Override
     public void registerPokemon() {
         //Foliat Line
-        addNewPokemon(new Foliat().setUsesBigModel());
-        addNewPokemon(new Florabri().setUsesBigModel());
-        addNewPokemon(new Floressum().setUsesBigModel());
+        addNewPokemon(new Foliat());
+        addNewPokemon(new Florabri());
+        addNewPokemon(new Floressum());
 
         //Kidling line
-        addNewPokemon(new Kidling().setUsesBigModel());
-        addNewPokemon(new Pyroat().setUsesBigModel());
-        addNewPokemon(new Flairees().setUsesBigModel());
+        addNewPokemon(new Kidling());
+        addNewPokemon(new Pyroat());
+        addNewPokemon(new Flairees());
 
         //Aguade line
-        addNewPokemon(new Aguade().setUsesBigModel());
-        addNewPokemon(new Iguadium().setUsesBigModel());
-        addNewPokemon(new Aguanaut().setUsesBigModel());
+        addNewPokemon(new Aguade());
+        addNewPokemon(new Iguadium());
+        addNewPokemon(new Aguanaut());
 
         //Harpee line
-        addNewPokemon(new Harpee().setUsesBigModel());
-        addNewPokemon(new Aquilor().setUsesBigModel());
-        addNewPokemon(new Warquila().setUsesBigModel());
+        addNewPokemon(new Harpee());
+        addNewPokemon(new Aquilor());
+        addNewPokemon(new Warquila());
 
         //Capig line
-        addNewPokemon(new Capig().setUsesBigModel());
-        addNewPokemon(new Capabara().setUsesBigModel());
+        addNewPokemon(new Capig());
+        addNewPokemon(new Capabara());
 
         //Avalynx line
-        addNewPokemon(new Cubzero().setUsesBigModel());
-        addNewPokemon(new Avalynx().setUsesBigModel());
+        addNewPokemon(new Cubzero());
+        addNewPokemon(new Avalynx());
 
         //Fawning line
-        addNewPokemon(new Fawning().setUsesBigModel());
-        addNewPokemon(new Llamarsh().setUsesBigModel());
-        addNewPokemon(new Buckston().setUsesBigModel());
+        addNewPokemon(new Fawning());
+        addNewPokemon(new Llamarsh());
+        addNewPokemon(new Buckston());
 
         //Pengliff line
-        addNewPokemon(new Pengliff().setUsesBigModel());
-        addNewPokemon(new Penglacier().setUsesBigModel());
+        addNewPokemon(new Pengliff());
+        addNewPokemon(new Penglacier());
 
         //Bluffin Line
-        addNewPokemon(new Bluffin().setUsesBigModel());
-        addNewPokemon(new Burrmudail().setUsesBigModel());
+        addNewPokemon(new Bluffin());
+        addNewPokemon(new Burrmudail());
 
         //Koblin line
-        addNewPokemon(new Koblin().setUsesBigModel());
-        addNewPokemon(new Koberus().setUsesBigModel());
-        addNewPokemon(new Kobalt().setUsesBigModel());
+        addNewPokemon(new Koblin());
+        addNewPokemon(new Koberus());
+        addNewPokemon(new Kobalt());
 
         //Pebblosa line
-        addNewPokemon(new Pebblosa().setUsesBigModel());
-        addNewPokemon(new Terratetra().setUsesBigModel());
-        addNewPokemon(new Gigaard().setUsesBigModel());
+        addNewPokemon(new Pebblosa());
+        addNewPokemon(new Terratetra());
+        addNewPokemon(new Gigaard());
 
-        addNewPokemon(new Cowatti().setUsesBigModel());
+        addNewPokemon(new Cowatti());
 
         //Snome Line
-        addNewPokemon(new Snome().setUsesBigModel());
-        addNewPokemon(new Snogre().setUsesBigModel());
+        addNewPokemon(new Snome());
+        addNewPokemon(new Snogre());
 
         //Taomarin Line
-        addNewPokemon(new Taomarin().setUsesBigModel());
-        addNewPokemon(new Orangutao().setUsesBigModel());
+        addNewPokemon(new Taomarin());
+        addNewPokemon(new Orangutao());
 
         //Larvabidae Line
-        addNewPokemon(new Larvabidae().setUsesBigModel());
-        addNewPokemon(new Caranox().setUsesBigModel());
-        addNewPokemon(new Carajoule().setUsesBigModel());
-        addNewPokemon(new Caracrust().setUsesBigModel());
+        addNewPokemon(new Larvabidae());
+        addNewPokemon(new Caranox());
+        addNewPokemon(new Carajoule());
+        addNewPokemon(new Caracrust());
 
         //Musburry Line
-        addNewPokemon(new Musburry().setUsesBigModel());
-        addNewPokemon(new Musbushel().setUsesBigModel());
+        addNewPokemon(new Musburry());
+        addNewPokemon(new Musbushel());
 
-        addNewPokemon(new Berratel().setUsesBigModel());
+        addNewPokemon(new Berratel());
 
         //Growmeo line
-        addNewPokemon(new Growmeo().setUsesBigModel());
-        addNewPokemon(new Montegrew().setUsesBigModel());
+        addNewPokemon(new Growmeo());
+        addNewPokemon(new Montegrew());
 
         //Tuliep line
-        addNewPokemon(new Tuliep().setUsesBigModel());
-        addNewPokemon(new Capulilly().setUsesBigModel());
+        addNewPokemon(new Tuliep());
+        addNewPokemon(new Capulilly());
 
-        addNewPokemon(new Dreamdery().setUsesBigModel());
+        addNewPokemon(new Dreamdery());
 
-        addNewPokemon(new Macabra().setUsesBigModel());
+        addNewPokemon(new Macabra());
 
         //Kertruffle line
-        addNewPokemon(new Kertruffle().setUsesBigModel());
-        addNewPokemon(new Mosshroom().setUsesBigModel());
-        addNewPokemon(new Lumishroom().setUsesBigModel());
-        addNewPokemon(new Perishroom().setUsesBigModel());
+        addNewPokemon(new Kertruffle());
+        addNewPokemon(new Mosshroom());
+        addNewPokemon(new Lumishroom());
+        addNewPokemon(new Perishroom());
 
         //Rocano line
-        addNewPokemon(new Rocano().setUsesBigModel());
-        addNewPokemon(new Volcaroc().setUsesBigModel());
-        addNewPokemon(new Volcoalder().setUsesBigModel());
+        addNewPokemon(new Rocano());
+        addNewPokemon(new Volcaroc());
+        addNewPokemon(new Volcoalder());
 
         //Pounther line
-        addNewPokemon(new Pounther().setUsesBigModel());
-        addNewPokemon(new Jaguile().setUsesBigModel());
+        addNewPokemon(new Pounther());
+        addNewPokemon(new Jaguile());
 
         //Neureka line
-        addNewPokemon(new Neureka().setUsesBigModel());
-        addNewPokemon(new Cerebrulb().setUsesBigModel());
+        addNewPokemon(new Neureka());
+        addNewPokemon(new Cerebrulb());
 
         //Peppit line
-        addNewPokemon(new Peppit().setUsesBigModel());
-        addNewPokemon(new Hoppanero().setUsesBigModel());
-        addNewPokemon(new Scovalope().setUsesBigModel());
+        addNewPokemon(new Peppit());
+        addNewPokemon(new Hoppanero());
+        addNewPokemon(new Scovalope());
 
         //Pawter line
-        addNewPokemon(new Pawter().setUsesBigModel());
-        addNewPokemon(new Hurricanine().setUsesBigModel());
+        addNewPokemon(new Pawter());
+        addNewPokemon(new Hurricanine());
 
         //Skullarva line
-        addNewPokemon(new Skullarva().setUsesBigModel());
-        addNewPokemon(new Maskoon().setUsesBigModel());
-        addNewPokemon(new Mortasque().setUsesBigModel());
+        addNewPokemon(new Skullarva());
+        addNewPokemon(new Maskoon());
+        addNewPokemon(new Mortasque());
 
         //Vectol line
-        addNewPokemon(new Vectol().setUsesBigModel());
-        addNewPokemon(new Vectol2().setUsesBigModel());
+        addNewPokemon(new Vectol());
+        addNewPokemon(new Vectol2());
 
         //Bouwee line
-        addNewPokemon(new Bouwee().setUsesBigModel());
-        addNewPokemon(new Scubug().setUsesBigModel());
+        addNewPokemon(new Bouwee());
+        addNewPokemon(new Scubug());
 
         //Totter line
-        addNewPokemon(new Totter().setUsesBigModel());
-        addNewPokemon(new Cascotta().setUsesBigModel());
-        addNewPokemon(new Lutrajet().setUsesBigModel());
+        addNewPokemon(new Totter());
+        addNewPokemon(new Cascotta());
+        addNewPokemon(new Lutrajet());
 
         //Alpint line
-        addNewPokemon(new Alpint().setUsesBigModel());
-        addNewPokemon(new Forusk().setUsesBigModel());
+        addNewPokemon(new Alpint());
+        addNewPokemon(new Forusk());
 
         //Platypow line
-        addNewPokemon(new Platypow().setUsesBigModel());
-        addNewPokemon(new Platikhao().setUsesBigModel());
+        addNewPokemon(new Platypow());
+        addNewPokemon(new Platikhao());
 
         //Cuppy line
-        addNewPokemon(new Cuppy().setUsesBigModel().fishingSpawnFromExisting());
-        addNewPokemon(new Fettlekish().setUsesBigModel());
+        addNewPokemon(new Cuppy().fishingSpawnFromExisting());
+        addNewPokemon(new Fettlekish());
 
-        addNewPokemon(new Shibalbat().setUsesBigModel());
+        addNewPokemon(new Shibalbat());
 
-        addNewPokemon(new Nobunata().setUsesBigModel());
+        addNewPokemon(new Nobunata());
 
         //Psybex line
-        addNewPokemon(new Psybex().setUsesBigModel());
-        addNewPokemon(new Gnuru().setUsesBigModel());
+        addNewPokemon(new Psybex());
+        addNewPokemon(new Gnuru());
 
         //Flowger line
-        addNewPokemon(new Flowger().setUsesBigModel().fishingSpawnFromExisting());
-        addNewPokemon(new Bullotus().setUsesBigModel());
+        addNewPokemon(new Flowger().fishingSpawnFromExisting());
+        addNewPokemon(new Bullotus());
 
-        addNewPokemon(new Burrowl().setUsesBigModel());
+        addNewPokemon(new Burrowl());
 
-        addNewPokemon(new Magowl().setUsesBigModel());
+        addNewPokemon(new Magowl());
 
         //Craliber line
-        addNewPokemon(new Craliber().setUsesBigModel());
-        addNewPokemon(new Crawglock().setUsesBigModel());
+        addNewPokemon(new Craliber());
+        addNewPokemon(new Crawglock());
 
         //Leafish Line
-        addNewPokemon(new Leafish().setUsesBigModel().fishingSpawnFromExisting());
-        addNewPokemon(new Chlorofin().setUsesBigModel());
+        addNewPokemon(new Leafish().fishingSpawnFromExisting());
+        addNewPokemon(new Chlorofin());
 
         //Quibble Line
-        addNewPokemon(new Quibble().setUsesBigModel());
-        addNewPokemon(new Fowattle().setUsesBigModel());
-        addNewPokemon(new Turkistador().setUsesBigModel());
+        addNewPokemon(new Quibble());
+        addNewPokemon(new Fowattle());
+        addNewPokemon(new Turkistador());
 
         //Sedirrot line
-        addNewPokemon(new Sedirrot().setUsesBigModel());
-        addNewPokemon(new Condesa().setUsesBigModel());
+        addNewPokemon(new Sedirrot());
+        addNewPokemon(new Condesa());
 
         //Cardinite line
-        addNewPokemon(new Cardinite().setUsesBigModel());
-        addNewPokemon(new Chardinal().setUsesBigModel());
+        addNewPokemon(new Cardinite());
+        addNewPokemon(new Chardinal());
 
-        addNewPokemon(new Skurrow().setUsesBigModel());
+        addNewPokemon(new Skurrow());
 
-        addNewPokemon(new Somberado().setUsesBigModel());
+        addNewPokemon(new Somberado());
 
         //Phlask line
-        addNewPokemon(new Phlask().setUsesBigModel());
-        addNewPokemon(new Noxial().setUsesBigModel());
-        addNewPokemon(new Fumighast().setUsesBigModel());
+        addNewPokemon(new Phlask());
+        addNewPokemon(new Noxial());
+        addNewPokemon(new Fumighast());
 
         //Atomite line
-        addNewPokemon(new Atomite().setUsesBigModel());
-        addNewPokemon(new Orbatom().setUsesBigModel());
+        addNewPokemon(new Atomite());
+        addNewPokemon(new Orbatom());
 
         //Squink line
-        addNewPokemon(new Squink().setUsesBigModel().fishingSpawnFromExisting());
-        addNewPokemon(new Squidrift().setUsesBigModel());
+        addNewPokemon(new Squink().fishingSpawnFromExisting());
+        addNewPokemon(new Squidrift());
 
-        addNewPokemon(new Boarealis().setUsesBigModel());
+        addNewPokemon(new Boarealis());
 
         //Chelonite line
-        addNewPokemon(new Chelonite().setUsesBigModel());
-        addNewPokemon(new Galaxagos().setUsesBigModel());
+        addNewPokemon(new Chelonite());
+        addNewPokemon(new Galaxagos());
 
-        addNewPokemon(new Magnitogre().setUsesBigModel());
+        addNewPokemon(new Magnitogre());
 
         //minarac line
-        addNewPokemon(new Minarac().setUsesBigModel());
-        addNewPokemon(new Trenchula().setUsesBigModel());
+        addNewPokemon(new Minarac());
+        addNewPokemon(new Trenchula());
 
         //Pottle line
-        addNewPokemon(new Pottle().setUsesBigModel());
-        addNewPokemon(new Trikotta().setUsesBigModel());
-        addNewPokemon(new Terrorcotta().setUsesBigModel());
+        addNewPokemon(new Pottle());
+        addNewPokemon(new Trikotta());
+        addNewPokemon(new Terrorcotta());
 
         //Pueblant line
-        addNewPokemon(new Pueblant().setUsesBigModel());
-        addNewPokemon(new Cahokisect().setUsesBigModel());
+        addNewPokemon(new Pueblant());
+        addNewPokemon(new Cahokisect());
 
         //Cobrasket line
-        addNewPokemon(new Cobrasket().setUsesBigModel());
-        addNewPokemon(new Charmbra().setUsesBigModel());
+        addNewPokemon(new Cobrasket());
+        addNewPokemon(new Charmbra());
 
         //Cairup line
-        addNewPokemon(new Cairup().setUsesBigModel());
-        addNewPokemon(new Kairoglyph().setUsesBigModel());
+        addNewPokemon(new Cairup());
+        addNewPokemon(new Kairoglyph());
 
         //Necronite line
-        addNewPokemon(new Necronite().setUsesBigModel());
-        addNewPokemon(new Gravollum().setUsesBigModel());
+        addNewPokemon(new Necronite());
+        addNewPokemon(new Gravollum());
 
         //Diloweed line
-        addNewPokemon(new Diloweed().setUsesBigModel());
-        addNewPokemon(new Pangolash().setUsesBigModel());
+        addNewPokemon(new Diloweed());
+        addNewPokemon(new Pangolash());
 
         //Ignishell line
-        addNewPokemon(new Ignishell().setUsesBigModel());
-        addNewPokemon(new Shelosene().setUsesBigModel());
-        addNewPokemon(new Flarrapin().setUsesBigModel());
+        addNewPokemon(new Ignishell());
+        addNewPokemon(new Shelosene());
+        addNewPokemon(new Flarrapin());
 
         //Desoula line
-        addNewPokemon(new Desoula().setUsesBigModel());
-        addNewPokemon(new Necrow().setUsesBigModel());
-        addNewPokemon(new Vultergyst().setUsesBigModel());
+        addNewPokemon(new Desoula());
+        addNewPokemon(new Necrow());
+        addNewPokemon(new Vultergyst());
 
         //Dinkywink line
-        addNewPokemon(new Dinkywink().setUsesBigModel());
-        addNewPokemon(new Dunkywunkr().setUsesBigModel());
+        addNewPokemon(new Dinkywink());
+        addNewPokemon(new Dunkywunkr());
 
         //Calphite line
-        addNewPokemon(new Calphite().setUsesBigModel());
-        addNewPokemon(new Indrolith().setUsesBigModel());
+        addNewPokemon(new Calphite());
+        addNewPokemon(new Indrolith());
 
-        addNewPokemon(new Solacari().setUsesBigModel());
+        addNewPokemon(new Solacari());
 
-        addNewPokemon(new Nurshary().setUsesBigModel().fishingSpawnFromExisting());
+        addNewPokemon(new Nurshary().fishingSpawnFromExisting());
 
         //Loneleaf line
-        addNewPokemon(new Loneleaf().setUsesBigModel());
-        addNewPokemon(new Forthorn().setUsesBigModel());
+        addNewPokemon(new Loneleaf());
+        addNewPokemon(new Forthorn());
 
         //Coltergeist line
-        addNewPokemon(new Coltergeist().setUsesBigModel());
-        addNewPokemon(new Fantasmare().setUsesBigModel());
+        addNewPokemon(new Coltergeist());
+        addNewPokemon(new Fantasmare());
 
         //Chihah line
-        addNewPokemon(new Chihaha().setUsesBigModel());
-        addNewPokemon(new Howlequin().setUsesBigModel());
+        addNewPokemon(new Chihaha());
+        addNewPokemon(new Howlequin());
 
         //Chegrin line
-        addNewPokemon(new Chegrin().setUsesBigModel());
-        addNewPokemon(new Cheshade().setUsesBigModel());
+        addNewPokemon(new Chegrin());
+        addNewPokemon(new Cheshade());
 
         //Doppole line
-        addNewPokemon(new Doppole().setUsesBigModel());
-        addNewPokemon(new Artifish().setUsesBigModel());
+        addNewPokemon(new Doppole());
+        addNewPokemon(new Artifish());
 
-        addNewPokemon(new Thoraxe().setUsesBigModel());
+        addNewPokemon(new Thoraxe());
 
         //Pomparunt line
-        addNewPokemon(new Pomparunt().setUsesBigModel());
-        addNewPokemon(new Pompagoon().setUsesBigModel());
-        addNewPokemon(new Hyekuza().setUsesBigModel());
+        addNewPokemon(new Pomparunt());
+        addNewPokemon(new Pompagoon());
+        addNewPokemon(new Hyekuza());
 
-        addNewPokemon(new Erycoon().setUsesBigModel());
+        addNewPokemon(new Erycoon());
 
-        addNewPokemon(new Leukoon().setUsesBigModel());
+        addNewPokemon(new Leukoon());
 
         //Toxito line
-        addNewPokemon(new Toxito().setUsesBigModel());
-        addNewPokemon(new Sanguito().setUsesBigModel());
+        addNewPokemon(new Toxito());
+        addNewPokemon(new Sanguito());
 
         //Orett line
-        addNewPokemon(new Orett().setUsesBigModel());
-        addNewPokemon(new Anvelid().setUsesBigModel());
-        addNewPokemon(new Magroplex().setUsesBigModel());
+        addNewPokemon(new Orett());
+        addNewPokemon(new Anvelid());
+        addNewPokemon(new Magroplex());
 
-        addNewPokemon(new Viipii().setUsesBigModel());
+        addNewPokemon(new Viipii());
 
         //Chilloth line
-        addNewPokemon(new Chilloth().setUsesBigModel());
-        addNewPokemon(new Soakoth().setUsesBigModel());
+        addNewPokemon(new Chilloth());
+        addNewPokemon(new Soakoth());
 
         //Chayan line
-        addNewPokemon(new Chayan().setUsesBigModel());
-        addNewPokemon(new Macuarrior().setUsesBigModel());
-        addNewPokemon(new Ocerumi().setUsesBigModel());
+        addNewPokemon(new Chayan());
+        addNewPokemon(new Macuarrior());
+        addNewPokemon(new Ocerumi());
 
         //Fortifry line
-        addNewPokemon(new Fortifry().setUsesBigModel().fishingSpawnFromExisting());
-        addNewPokemon(new Oarwish().setUsesBigModel().fishingSpawnFromExisting());
+        addNewPokemon(new Fortifry().fishingSpawnFromExisting());
+        addNewPokemon(new Oarwish().fishingSpawnFromExisting());
 
-        addNewPokemon(new Smashiary().setUsesBigModel());
+        addNewPokemon(new Smashiary());
 
         //Slatic line
-        addNewPokemon(new Slatic().setUsesBigModel());
-        addNewPokemon(new Telsion().setUsesBigModel());
-        addNewPokemon(new Chameleohm().setUsesBigModel());
+        addNewPokemon(new Slatic());
+        addNewPokemon(new Telsion());
+        addNewPokemon(new Chameleohm());
 
         //Glauqua line
-        addNewPokemon(new Glauqua().setUsesBigModel());
-        addNewPokemon(new Hydranticus().setUsesBigModel());
+        addNewPokemon(new Glauqua());
+        addNewPokemon(new Hydranticus());
 
         //Lintle line
-        addNewPokemon(new Lintle().setUsesBigModel());
-        addNewPokemon(new Silkinder().setUsesBigModel());
-        addNewPokemon(new Paramoth().setUsesBigModel());
+        addNewPokemon(new Lintle());
+        addNewPokemon(new Silkinder());
+        addNewPokemon(new Paramoth());
 
         //Parapy line
-        addNewPokemon(new Parapy().setUsesBigModel());
-        addNewPokemon(new Mawasite().setUsesBigModel());
+        addNewPokemon(new Parapy());
+        addNewPokemon(new Mawasite());
 
         //Chimpoca line
-        addNewPokemon(new Chimpoca().setUsesBigModel());
-        addNewPokemon(new Simayan().setUsesBigModel());
-        addNewPokemon(new Monkezuma().setUsesBigModel());
+        addNewPokemon(new Chimpoca());
+        addNewPokemon(new Simayan());
+        addNewPokemon(new Monkezuma());
 
         //Enigmite line
-        addNewPokemon(new Enigmite().setUsesBigModel());
-        addNewPokemon(new Enigmantis().setUsesBigModel());
+        addNewPokemon(new Enigmite());
+        addNewPokemon(new Enigmantis());
 
         //Arjibi line
-        addNewPokemon(new Arjibi().setUsesBigModel().fishingSpawnFromExisting());
-        addNewPokemon(new Royjibiv().setUsesBigModel());
+        addNewPokemon(new Arjibi().fishingSpawnFromExisting());
+        addNewPokemon(new Royjibiv());
 
         //Barracute line
-        addNewPokemon(new Barracute().setUsesBigModel().fishingSpawnFromExisting());
-        addNewPokemon(new Jawgodon().setUsesBigModel());
+        addNewPokemon(new Barracute().fishingSpawnFromExisting());
+        addNewPokemon(new Jawgodon());
 
         //Drosire line
-        addNewPokemon(new Drosire().setUsesBigModel());
-        addNewPokemon(new Sunduke().setUsesBigModel());
+        addNewPokemon(new Drosire());
+        addNewPokemon(new Sunduke());
 
         //Wispern line
-        addNewPokemon(new Wispern().setUsesBigModel());
-        addNewPokemon(new Phantern().setUsesBigModel());
+        addNewPokemon(new Wispern());
+        addNewPokemon(new Phantern());
 
         //Glocto line
-        addNewPokemon(new Glocto().setUsesBigModel().fishingSpawnFromExisting());
-        addNewPokemon(new Lavoon().setUsesBigModel());
+        addNewPokemon(new Glocto().fishingSpawnFromExisting());
+        addNewPokemon(new Lavoon());
 
         //Gilla line
-        addNewPokemon(new Gilla().setUsesBigModel());
-        addNewPokemon(new Hornizard().setUsesBigModel());
-        addNewPokemon(new Ankillosore().setUsesBigModel());
+        addNewPokemon(new Gilla());
+        addNewPokemon(new Hornizard());
+        addNewPokemon(new Ankillosore());
 
         //Bazilisk line
-        addNewPokemon(new Bazilisk().setUsesBigModel());
-        addNewPokemon(new Ornitherb().setUsesBigModel());
-        addNewPokemon(new Dilophlora().setUsesBigModel());
+        addNewPokemon(new Bazilisk());
+        addNewPokemon(new Ornitherb());
+        addNewPokemon(new Dilophlora());
 
-        addNewPokemon(new Baboom().setUsesBigModel());
+        addNewPokemon(new Baboom());
 
         //Icetope line
-        addNewPokemon(new Icetope().setUsesBigModel());
-        addNewPokemon(new Chillnobyl().setUsesBigModel());
+        addNewPokemon(new Icetope());
+        addNewPokemon(new Chillnobyl());
 
         //Wendingo line
-        addNewPokemon(new Wendingo().setUsesBigModel());
-        addNewPokemon(new Carnibal().setUsesBigModel());
+        addNewPokemon(new Wendingo());
+        addNewPokemon(new Carnibal());
 
         //Luchito line
-        addNewPokemon(new Luchito().setUsesBigModel());
-        addNewPokemon(new Eluchadon().setUsesBigModel());
+        addNewPokemon(new Luchito());
+        addNewPokemon(new Eluchadon());
 
         //Grolem line
-        addNewPokemon(new Grolem().setUsesBigModel());
-        addNewPokemon(new Comossus().setUsesBigModel());
+        addNewPokemon(new Grolem());
+        addNewPokemon(new Comossus());
 
         //Larvyn line
-        addNewPokemon(new Larvyn().setUsesBigModel());
-        addNewPokemon(new Dracoon().setUsesBigModel());
-        addNewPokemon(new Basilect().setUsesBigModel());
+        addNewPokemon(new Larvyn());
+        addNewPokemon(new Dracoon());
+        addNewPokemon(new Basilect());
 
         //Carbite line
-        addNewPokemon(new Carbite().setUsesBigModel());
-        addNewPokemon(new Pressaur().setUsesBigModel());
-        addNewPokemon(new Diamat().setUsesBigModel());
+        addNewPokemon(new Carbite());
+        addNewPokemon(new Pressaur());
+        addNewPokemon(new Diamat());
 
         //Quecko line
-        addNewPokemon(new Quecko().setUsesBigModel());
-        addNewPokemon(new Tozecko().setUsesBigModel());
+        addNewPokemon(new Quecko());
+        addNewPokemon(new Tozecko());
 
         //Crakling line
-        addNewPokemon(new Crakling().setUsesBigModel());
-        addNewPokemon(new Fuelong().setUsesBigModel());
+        addNewPokemon(new Crakling());
+        addNewPokemon(new Fuelong());
 
         //Draggar line
-        addNewPokemon(new Draggar().setUsesBigModel());
-        addNewPokemon(new Ragnarow().setUsesBigModel());
+        addNewPokemon(new Draggar());
+        addNewPokemon(new Ragnarow());
 
-        addNewPokemon(new Eronze().setUsesBigModel());
+        addNewPokemon(new Eronze());
 
-        addNewPokemon(new Erion().setUsesBigModel());
+        addNewPokemon(new Erion());
 
-        addNewPokemon(new Erace().setUsesBigModel());
+        addNewPokemon(new Erace());
 
-        addNewPokemon(new Patama().setUsesBigModel());
+        addNewPokemon(new Patama());
 
-        addNewPokemon(new Machima().setUsesBigModel());
+        addNewPokemon(new Machima());
 
-        addNewPokemon(new Yacuma().setUsesBigModel());
+        addNewPokemon(new Yacuma());
 
-        var quetzar = new Quetzar().setUsesBigModel();
+        var quetzar = new Quetzar();
         addNewPokemon(quetzar);
         addNewPokemon(new QuetzarSpace("", Aspect.SPACE));
         removePokedexPokemon("quetzar-space");
 
-        addNewPokemon(new Xochi().setUsesBigModel());
+        addNewPokemon(new Xochi());
 
-        addNewPokemon(new Xotec().setUsesBigModel());
+        addNewPokemon(new Xotec());
     }
 }
