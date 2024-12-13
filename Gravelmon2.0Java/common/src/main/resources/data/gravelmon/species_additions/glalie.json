@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "snorunt form=epoch",
-      "baseScale": 0.25,
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
         "cursedbody",
@@ -156,7 +156,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "snorunt form=delta",
-      "baseScale": 0.1875,
+      "baseScale": 0.28125,
       "cannotDynamax": false,
       "abilities": [
         "rockhead",
@@ -322,7 +322,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.25,
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
         "solarpower",
@@ -474,7 +474,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "snorunt form=cefiran",
-      "baseScale": 0.25,
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
         "intimidate",

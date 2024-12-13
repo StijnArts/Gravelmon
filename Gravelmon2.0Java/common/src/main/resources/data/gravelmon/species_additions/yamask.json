@@ -175,7 +175,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.125,
       "cannotDynamax": false,
       "abilities": [
         "soundproof",
@@ -341,7 +341,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.125,
       "cannotDynamax": false,
       "abilities": [
         "mummy"
@@ -507,7 +507,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.07500000000000001,
+      "baseScale": 0.09375,
       "cannotDynamax": false,
       "abilities": [
         "aftermath",
@@ -678,7 +678,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.0875,
+      "baseScale": 0.13124999999999998,
       "cannotDynamax": false,
       "abilities": [
         "stormdrain",

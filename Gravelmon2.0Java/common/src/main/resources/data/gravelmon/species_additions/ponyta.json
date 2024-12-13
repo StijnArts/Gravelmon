@@ -10,7 +10,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.046875,
+      "baseScale": 0.0703125,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -109,7 +109,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.16666666666666666,
+      "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
         "infiltrator",
@@ -260,7 +260,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.16666666666666666,
+      "baseScale": 0.41379310344827586,
       "cannotDynamax": false,
       "abilities": [
         "runaway",

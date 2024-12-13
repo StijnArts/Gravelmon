@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "florize",
-  "baseScale": 0.075,
+  "baseScale": 0.11249999999999999,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"

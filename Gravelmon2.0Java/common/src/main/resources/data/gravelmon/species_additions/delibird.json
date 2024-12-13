@@ -49,7 +49,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.034375,
+      "baseScale": 0.051562500000000004,
       "cannotDynamax": false,
       "abilities": [
         "flamebody"
@@ -279,7 +279,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.13333333333333333,
+      "baseScale": 0.2,
       "cannotDynamax": false,
       "abilities": [
         "skilllink",

@@ -11,7 +11,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "torchic form=delta",
-      "baseScale": 0.11249999999999999,
+      "baseScale": 0.16875,
       "cannotDynamax": false,
       "abilities": [
         "keeneye",
@@ -211,7 +211,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "torchic form=ayreian",
-      "baseScale": 0.15,
+      "baseScale": 0.225,
       "cannotDynamax": false,
       "abilities": [
         "longreach",
@@ -400,7 +400,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "torchic form=mystic",
-      "baseScale": 0.15,
+      "baseScale": 0.225,
       "cannotDynamax": false,
       "abilities": [
         "insomnia",

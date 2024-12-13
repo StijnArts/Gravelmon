@@ -91,7 +91,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.26666666666666666,
+      "baseScale": 0.4,
       "cannotDynamax": false,
       "abilities": [
         "roughskin",
@@ -262,7 +262,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
         "harvest",
@@ -432,7 +432,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
         "ironbarbs",

@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "kabuto form=epoch",
-      "baseScale": 0.21666666666666667,
+      "baseScale": 0.325,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
@@ -143,7 +143,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.21666666666666667,
+      "baseScale": 0.325,
       "cannotDynamax": false,
       "abilities": [
         "moxie",
@@ -291,7 +291,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "kabuto form=delta",
-      "baseScale": 0.1625,
+      "baseScale": 0.24375000000000002,
       "cannotDynamax": false,
       "abilities": [
         "swarm",

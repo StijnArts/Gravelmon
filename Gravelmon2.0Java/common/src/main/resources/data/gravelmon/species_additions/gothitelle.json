@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "gothorita form=epoch",
-      "baseScale": 0.25,
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
         "frisk",
@@ -163,7 +163,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.25,
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
         "shedskin",
@@ -315,7 +315,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.25,
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -412,7 +412,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.25,
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
         "flamebody",

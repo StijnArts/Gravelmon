@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "diglett form=forman",
-      "baseScale": 0.040625,
+      "baseScale": 0.060937500000000006,
       "cannotDynamax": false,
       "abilities": [
         "waterabsorb"
@@ -99,7 +99,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "diglett form=epoch",
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.175,
       "cannotDynamax": false,
       "abilities": [
         "infiltrator",
@@ -251,7 +251,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "diglett form=nostan",
-      "baseScale": 0.15,
+      "baseScale": 0.225,
       "cannotDynamax": false,
       "abilities": [
         "leafguard",
@@ -413,7 +413,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "diglett form=norheiman",
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.175,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -671,7 +671,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "diglett form=ayreian",
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.175,
       "cannotDynamax": false,
       "abilities": [
         "snowcloak",
@@ -824,7 +824,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "diglett form=cefiran",
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.175,
       "cannotDynamax": false,
       "abilities": [
         "anticipation",

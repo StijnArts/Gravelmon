@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "trapinch form=epoch",
-      "baseScale": 0.18333333333333335,
+      "baseScale": 0.275,
       "cannotDynamax": false,
       "abilities": [
         "cloudnine",
@@ -172,7 +172,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -272,7 +272,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "trapinch form=ayreian",
-      "baseScale": 0.18333333333333335,
+      "baseScale": 0.275,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -450,7 +450,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.18333333333333335,
+      "baseScale": 0.275,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"

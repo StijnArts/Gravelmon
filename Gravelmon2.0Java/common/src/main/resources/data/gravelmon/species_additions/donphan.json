@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "phanpy form=raianian",
-      "baseScale": 0.040625,
+      "baseScale": 0.060937500000000006,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -96,7 +96,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "phanpy form=forman",
-      "baseScale": 0.034375,
+      "baseScale": 0.051562500000000004,
       "cannotDynamax": false,
       "abilities": [
         "windrider"
@@ -181,7 +181,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "phanpy form=epoch",
-      "baseScale": 0.18333333333333335,
+      "baseScale": 0.275,
       "cannotDynamax": false,
       "abilities": [
         "snowcloak",
@@ -332,7 +332,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.18333333333333335,
+      "baseScale": 0.275,
       "cannotDynamax": false,
       "abilities": [
         "sturdy"
@@ -429,7 +429,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.18333333333333335,
+      "baseScale": 0.275,
       "cannotDynamax": false,
       "abilities": [
         "icebody",

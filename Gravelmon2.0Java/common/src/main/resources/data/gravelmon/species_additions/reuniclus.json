@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "duosion form=epoch",
-      "baseScale": 0.16666666666666666,
+      "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
         "torrent",
@@ -168,7 +168,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.16666666666666666,
+      "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
         "gooey",
@@ -324,7 +324,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "duosion form=delta",
-      "baseScale": 0.125,
+      "baseScale": 0.1875,
       "cannotDynamax": false,
       "abilities": [
         "levitate",
@@ -512,7 +512,7 @@
       "eggCycles": 51,
       "baseFriendship": 70,
       "preEvolution": "duosion form=hoennian",
-      "baseScale": 0.15,
+      "baseScale": 0.225,
       "cannotDynamax": false,
       "abilities": [
         "fruitrition"
@@ -636,7 +636,7 @@
       "eggCycles": 51,
       "baseFriendship": 70,
       "preEvolution": "duosion form=kaskadian",
-      "baseScale": 0.03125,
+      "baseScale": 0.046875,
       "cannotDynamax": false,
       "abilities": [
         "overcoat",
@@ -782,7 +782,7 @@
       "eggCycles": 51,
       "baseFriendship": 70,
       "preEvolution": "duosion form=mystic",
-      "baseScale": 0.16666666666666666,
+      "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
         "filter",

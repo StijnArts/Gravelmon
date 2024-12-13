@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "dunsparce form=forman",
-  "baseScale": 0.10625,
+  "baseScale": 0.159375,
   "cannotDynamax": false,
   "abilities": [
     "waterabsorb"

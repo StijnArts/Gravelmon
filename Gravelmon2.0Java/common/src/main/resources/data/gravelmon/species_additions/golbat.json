@@ -36,7 +36,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "zubat form=forman",
-      "baseScale": 0.05,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -138,7 +138,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "zubat form=epoch",
-      "baseScale": 0.26666666666666666,
+      "baseScale": 0.4,
       "cannotDynamax": false,
       "abilities": [
         "levitate",

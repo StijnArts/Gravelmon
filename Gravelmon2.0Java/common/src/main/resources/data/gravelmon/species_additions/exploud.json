@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "loudred form=raianian",
-      "baseScale": 0.053125,
+      "baseScale": 0.0796875,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -97,7 +97,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "loudred form=epoch",
-      "baseScale": 0.25,
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
         "motordrive",
@@ -257,7 +257,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "baseScale": 0.25,
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
         "punkrock",

@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "bayleef form=epoch",
-      "baseScale": 0.3,
+      "baseScale": 0.45,
       "cannotDynamax": false,
       "abilities": [
         "immunity",
@@ -157,7 +157,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.3,
+      "baseScale": 0.45,
       "cannotDynamax": false,
       "abilities": [
         "lightningrod",
@@ -305,7 +305,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.35000000000000003,
+      "baseScale": 0.525,
       "cannotDynamax": false,
       "abilities": [
         "overgrow",
@@ -389,7 +389,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "bayleef form=egho",
-      "baseScale": 0.2875,
+      "baseScale": 0.43124999999999997,
       "cannotDynamax": false,
       "abilities": [
         "chlorophyll",
@@ -576,7 +576,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "bayleef form=ayreian",
-      "baseScale": 0.3,
+      "baseScale": 0.45,
       "cannotDynamax": false,
       "abilities": [
         "pixilate",

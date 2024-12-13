@@ -11,7 +11,7 @@
       "experienceGroup": "fluctuating",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.3333333333333333,
+      "baseScale": 0.5,
       "cannotDynamax": false,
       "abilities": [
         "innardsout"
@@ -196,7 +196,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.3,
+      "baseScale": 0.45,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"

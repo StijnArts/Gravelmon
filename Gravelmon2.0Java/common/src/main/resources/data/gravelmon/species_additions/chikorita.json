@@ -10,7 +10,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.021875,
+      "baseScale": 0.032812499999999994,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -106,7 +106,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.225,
       "cannotDynamax": false,
       "abilities": [
         "immunity",
@@ -270,7 +270,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.225,
       "cannotDynamax": false,
       "abilities": [
         "lightningrod",
@@ -439,7 +439,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.125,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -536,7 +536,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1375,
+      "baseScale": 0.20625000000000002,
       "cannotDynamax": false,
       "abilities": [
         "chlorophyll",
@@ -725,7 +725,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.225,
       "cannotDynamax": false,
       "abilities": [
         "pixilate",

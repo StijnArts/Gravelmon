@@ -11,7 +11,7 @@
       "experienceGroup": "slow",
       "eggCycles": 41,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.15000000000000002,
       "cannotDynamax": false,
       "abilities": [
         "intimidate"
@@ -189,7 +189,7 @@
       "experienceGroup": "slow",
       "eggCycles": 41,
       "baseFriendship": 70,
-      "baseScale": 0.2125,
+      "baseScale": 0.31875,
       "cannotDynamax": false,
       "abilities": [
         "download"

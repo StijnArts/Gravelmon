@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "magmar form=epoch",
-      "baseScale": 0.26666666666666666,
+      "baseScale": 0.4,
       "cannotDynamax": false,
       "abilities": [
         "icebody",
@@ -156,7 +156,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "magmar form=delta",
-      "baseScale": 0.2,
+      "baseScale": 0.30000000000000004,
       "cannotDynamax": false,
       "abilities": [
         "megalauncher",

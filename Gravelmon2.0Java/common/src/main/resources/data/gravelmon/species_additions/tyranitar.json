@@ -24,7 +24,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "pupitar form=epoch",
-      "baseScale": 0.3333333333333333,
+      "baseScale": 0.5,
       "cannotDynamax": false,
       "abilities": [
         "magnetpull",
@@ -177,7 +177,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 100,
       "baseFriendship": 70,
-      "baseScale": 0.25,
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
         "solidrock",
@@ -334,7 +334,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "Pupitar",
-      "baseScale": 0.3333333333333333,
+      "baseScale": 0.5,
       "cannotDynamax": false,
       "abilities": [
         "drought"

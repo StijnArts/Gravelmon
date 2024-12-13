@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "metapod form=epoch",
-      "baseScale": 0.18333333333333335,
+      "baseScale": 0.275,
       "cannotDynamax": false,
       "abilities": [
         "shielddust",
@@ -165,7 +165,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "metapod form=ayreian",
-      "baseScale": 0.2833333333333333,
+      "baseScale": 0.425,
       "cannotDynamax": false,
       "abilities": [
         "surgesurfer",

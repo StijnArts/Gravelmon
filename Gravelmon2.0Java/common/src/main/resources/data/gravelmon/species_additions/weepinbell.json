@@ -11,7 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.175,
       "cannotDynamax": false,
       "abilities": [
         "corrosion"
@@ -120,7 +120,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "bellsprout form=aristosian",
-      "baseScale": 0.15,
+      "baseScale": 0.225,
       "cannotDynamax": false,
       "abilities": [
         "chlorophyll",

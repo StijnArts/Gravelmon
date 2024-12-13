@@ -93,7 +93,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.028124999999999997,
+      "baseScale": 0.0421875,
       "cannotDynamax": false,
       "abilities": [
         "guts"
@@ -190,7 +190,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.13333333333333333,
+      "baseScale": 0.2,
       "cannotDynamax": false,
       "abilities": [
         "sandforce",
@@ -361,7 +361,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.13333333333333333,
+      "baseScale": 0.2,
       "cannotDynamax": false,
       "abilities": [
         "parentalbond",
@@ -524,7 +524,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.13333333333333333,
+      "baseScale": 0.3096774193548387,
       "cannotDynamax": false,
       "abilities": [
         "disguise"

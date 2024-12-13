@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "wazloom",
-  "baseScale": 0.053125,
+  "baseScale": 0.0796875,
   "cannotDynamax": false,
   "abilities": [
     "overgrow"

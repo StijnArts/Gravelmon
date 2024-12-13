@@ -93,7 +93,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "pikachu form=norse",
-      "baseScale": 0.046875,
+      "baseScale": 0.0703125,
       "cannotDynamax": false,
       "abilities": [
         "cutecharm"
@@ -178,7 +178,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "pikachu form=epoch",
-      "baseScale": 0.13333333333333333,
+      "baseScale": 0.2,
       "cannotDynamax": false,
       "abilities": [
         "lightningrod",
@@ -336,7 +336,7 @@
       "eggCycles": 100,
       "baseFriendship": 70,
       "preEvolution": "pikachu form=delta",
-      "baseScale": 0.1,
+      "baseScale": 0.15000000000000002,
       "cannotDynamax": false,
       "abilities": [
         "cutecharm",

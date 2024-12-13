@@ -11,7 +11,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "rattata form=palmian",
-      "baseScale": 0.04375,
+      "baseScale": 0.06562499999999999,
       "cannotDynamax": false,
       "abilities": [
         "poisontouch"
@@ -111,7 +111,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "rattata form=epoch",
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.175,
       "cannotDynamax": false,
       "abilities": [
         "telepathy",
@@ -266,7 +266,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.175,
       "cannotDynamax": false,
       "abilities": [
         "icebody",

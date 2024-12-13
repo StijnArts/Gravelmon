@@ -989,7 +989,7 @@
       "eggCycles": 51,
       "baseFriendship": 70,
       "preEvolution": "budew form=relic",
-      "baseScale": 0.15,
+      "baseScale": 0.225,
       "cannotDynamax": false,
       "abilities": [
         "stamina",

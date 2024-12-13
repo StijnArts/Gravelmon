@@ -94,7 +94,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "impidimp form=epoch",
-      "baseScale": 0.13333333333333333,
+      "baseScale": 0.2,
       "cannotDynamax": false,
       "abilities": [
         "tanglinghair",
@@ -268,7 +268,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.13333333333333333,
+      "baseScale": 0.2,
       "cannotDynamax": false,
       "abilities": [
         "gluttony"
@@ -617,7 +617,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "impidimp form=varitasian",
-      "baseScale": 0.13333333333333333,
+      "baseScale": 0.2,
       "cannotDynamax": false,
       "abilities": [
         "unburden",

@@ -16,7 +16,7 @@ public class Marecampus extends drai.dev.data.pokemon.Pokemon {
                         87,
                         72),
                 List.of(Ability.SWIFT_SWIM), null,
-                10, 225,
+                19, 225,
                 new Stats(0,0,1,0,0,1), 45,
                 1.0,
                 0, ExperienceGroup.MEDIUM_SLOW,

@@ -94,7 +94,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "spinarak form=forman",
-      "baseScale": 0.053125,
+      "baseScale": 0.0796875,
       "cannotDynamax": false,
       "abilities": [
         "cursedbody"
@@ -179,7 +179,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "spinarak form=epoch",
-      "baseScale": 0.18333333333333335,
+      "baseScale": 0.275,
       "cannotDynamax": false,
       "abilities": [
         "poisontouch",
@@ -319,7 +319,7 @@
       "eggCycles": 39,
       "baseFriendship": 70,
       "preEvolution": "spinarak form=ayreian",
-      "baseScale": 0.18333333333333335,
+      "baseScale": 0.275,
       "cannotDynamax": false,
       "abilities": [
         "moldbreaker",

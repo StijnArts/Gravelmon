@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "flowger",
-  "baseScale": 0.0375,
+  "baseScale": 0.056249999999999994,
   "cannotDynamax": false,
   "abilities": [
     "raindish",
@@ -187,7 +187,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "flowger form=BLUE",
-      "baseScale": 0.0375,
+      "baseScale": 0.056249999999999994,
       "cannotDynamax": false,
       "abilities": [
         "raindish",

@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "tyrunt form=epoch",
-      "baseScale": 0.4166666666666667,
+      "baseScale": 0.625,
       "cannotDynamax": false,
       "abilities": [
         "moxie",

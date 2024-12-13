@@ -96,7 +96,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "wailmer form=epoch",
-      "baseScale": 2.4166666666666665,
+      "baseScale": 3.625,
       "cannotDynamax": false,
       "abilities": [
         "innardsout"

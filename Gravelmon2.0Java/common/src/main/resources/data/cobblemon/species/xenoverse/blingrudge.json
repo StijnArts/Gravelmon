@@ -9,7 +9,7 @@
   "eggCycles": 32,
   "baseFriendship": 70,
   "preEvolution": "blingrimm",
-  "baseScale": 0.1875,
+  "baseScale": 0.28125,
   "cannotDynamax": false,
   "abilities": [
     "hypercutter",

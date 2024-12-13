@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "floette form=epoch",
-      "baseScale": 0.18333333333333335,
+      "baseScale": 0.275,
       "cannotDynamax": false,
       "abilities": [
         "raindish",
@@ -161,7 +161,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.18333333333333335,
+      "baseScale": 0.275,
       "cannotDynamax": false,
       "abilities": [
         "flowerveil",

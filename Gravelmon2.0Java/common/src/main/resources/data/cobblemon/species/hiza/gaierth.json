@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 1.45,
+  "baseScale": 2.175,
   "cannotDynamax": false,
   "abilities": [
     "grassysurge"

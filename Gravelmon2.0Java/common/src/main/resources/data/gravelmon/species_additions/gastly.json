@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.040625,
+      "baseScale": 0.060937500000000006,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -108,7 +108,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.018750000000000003,
+      "baseScale": 0.028124999999999997,
       "cannotDynamax": false,
       "abilities": [
         "prankster"
@@ -209,7 +209,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.21666666666666667,
+      "baseScale": 0.325,
       "cannotDynamax": false,
       "abilities": [
         "filter",
@@ -362,7 +362,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.21666666666666667,
+      "baseScale": 0.325,
       "cannotDynamax": false,
       "abilities": [
         "levitate"
@@ -647,7 +647,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 26,
       "baseFriendship": 70,
-      "baseScale": 0.21666666666666667,
+      "baseScale": 0.325,
       "cannotDynamax": false,
       "abilities": [
         "levitate"
@@ -829,7 +829,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 26,
       "baseFriendship": 70,
-      "baseScale": 0.21666666666666667,
+      "baseScale": 0.325,
       "cannotDynamax": false,
       "abilities": [
         "levitate",

@@ -97,7 +97,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "locras",
-      "baseScale": 0.0875,
+      "baseScale": 0.13124999999999998,
       "cannotDynamax": false,
       "abilities": [
         "marvelscale"
@@ -183,7 +183,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.4166666666666667,
+      "baseScale": 0.625,
       "cannotDynamax": false,
       "abilities": [
         "stormdrain",
@@ -339,7 +339,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.4166666666666667,
+      "baseScale": 0.625,
       "cannotDynamax": false,
       "abilities": [
         "thickfat",
@@ -497,7 +497,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "lilpras",
-      "baseScale": 0.4166666666666667,
+      "baseScale": 0.625,
       "cannotDynamax": false,
       "abilities": [
         "electricsurge",
@@ -677,7 +677,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "lilpras",
-      "baseScale": 0.4166666666666667,
+      "baseScale": 0.625,
       "cannotDynamax": false,
       "abilities": [
         "static",
@@ -790,7 +790,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.4166666666666667,
+      "baseScale": 0.625,
       "cannotDynamax": false,
       "abilities": [
         "shellarmor"
@@ -959,7 +959,7 @@
       "eggCycles": 26,
       "baseFriendship": 70,
       "preEvolution": "lilpras",
-      "baseScale": 0.3666666666666667,
+      "baseScale": 0.55,
       "cannotDynamax": false,
       "abilities": [
         "multiscale",

@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "venipede form=epoch",
-      "baseScale": 0.19999999999999998,
+      "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
         "telepathy",
@@ -182,7 +182,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "venipede form=delta",
-      "baseScale": 0.15,
+      "baseScale": 0.22499999999999998,
       "cannotDynamax": false,
       "abilities": [
         "weakarmor",

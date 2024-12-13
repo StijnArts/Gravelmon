@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "taillow form=epoch",
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.175,
       "cannotDynamax": false,
       "abilities": [
         "hustle",
@@ -144,7 +144,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "taillow",
-      "baseScale": 0.39999999999999997,
+      "baseScale": 0.6,
       "cannotDynamax": false,
       "abilities": [
         "motordrive",

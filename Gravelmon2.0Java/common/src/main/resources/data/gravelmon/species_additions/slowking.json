@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.056249999999999994,
+      "baseScale": 0.084375,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -96,7 +96,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "slowpoke form=epoch",
-      "baseScale": 0.3333333333333333,
+      "baseScale": 0.5,
       "cannotDynamax": false,
       "abilities": [
         "oblivious",
@@ -235,7 +235,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.3333333333333333,
+      "baseScale": 0.5,
       "cannotDynamax": false,
       "abilities": [
         "dryskin"
@@ -337,7 +337,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "slowpoke form=novran",
-      "baseScale": 0.3333333333333333,
+      "baseScale": 0.5,
       "cannotDynamax": false,
       "abilities": [
         "honeygather",

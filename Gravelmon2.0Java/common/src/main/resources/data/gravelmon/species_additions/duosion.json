@@ -34,7 +34,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "solosis form=epoch",
-      "baseScale": 0.1,
+      "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
         "torrent",
@@ -204,7 +204,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
         "gooey",
@@ -375,7 +375,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "solosis form=delta",
-      "baseScale": 0.07500000000000001,
+      "baseScale": 0.11249999999999999,
       "cannotDynamax": false,
       "abilities": [
         "levitate",
@@ -561,7 +561,7 @@
       "eggCycles": 51,
       "baseFriendship": 70,
       "preEvolution": "solosis form=hoennian",
-      "baseScale": 0.1,
+      "baseScale": 0.125,
       "cannotDynamax": false,
       "abilities": [
         "fruitrition"
@@ -702,7 +702,7 @@
       "eggCycles": 51,
       "baseFriendship": 70,
       "preEvolution": "solosis form=kaskadian",
-      "baseScale": 0.018750000000000003,
+      "baseScale": 0.028124999999999997,
       "cannotDynamax": false,
       "abilities": [
         "overcoat",
@@ -859,7 +859,7 @@
       "eggCycles": 51,
       "baseFriendship": 70,
       "preEvolution": "solosis form=mystic",
-      "baseScale": 0.1,
+      "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
         "filter",

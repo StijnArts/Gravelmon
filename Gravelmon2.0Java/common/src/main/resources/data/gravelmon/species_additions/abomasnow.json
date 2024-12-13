@@ -11,7 +11,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "snover form=epoch",
-      "baseScale": 0.3666666666666667,
+      "baseScale": 0.55,
       "cannotDynamax": false,
       "abilities": [
         "harvest",
@@ -171,7 +171,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "snover form=kaskadian",
-      "baseScale": 0.06875,
+      "baseScale": 0.10312500000000001,
       "cannotDynamax": false,
       "abilities": [
         "snowwarning",
@@ -306,7 +306,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "snover form=cefiran",
-      "baseScale": 0.3666666666666667,
+      "baseScale": 0.55,
       "cannotDynamax": false,
       "abilities": [
         "poisonheal",

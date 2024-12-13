@@ -142,7 +142,7 @@
       "experienceGroup": "fast",
       "eggCycles": 32,
       "baseFriendship": 70,
-      "baseScale": 1.3,
+      "baseScale": 1.95,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"

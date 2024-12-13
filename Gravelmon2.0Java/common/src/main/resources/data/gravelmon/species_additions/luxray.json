@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "luxio form=epoch",
-      "baseScale": 0.2333333333333333,
+      "baseScale": 0.35,
       "cannotDynamax": false,
       "abilities": [
         "guts",
@@ -173,7 +173,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "luxio form=delta",
-      "baseScale": 0.175,
+      "baseScale": 0.26249999999999996,
       "cannotDynamax": false,
       "abilities": [
         "poisontouch",
@@ -346,7 +346,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "luxio form=ayreian",
-      "baseScale": 0.2333333333333333,
+      "baseScale": 0.35,
       "cannotDynamax": false,
       "abilities": [
         "galvanize",
@@ -518,7 +518,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "luxio form=kaskadian",
-      "baseScale": 0.028124999999999997,
+      "baseScale": 0.0421875,
       "cannotDynamax": false,
       "abilities": [
         "furcoat",

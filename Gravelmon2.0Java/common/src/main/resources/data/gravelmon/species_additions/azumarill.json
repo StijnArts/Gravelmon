@@ -11,7 +11,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "marill form=epoch",
-      "baseScale": 0.13333333333333333,
+      "baseScale": 0.2,
       "cannotDynamax": false,
       "abilities": [
         "fluffy",
@@ -169,7 +169,7 @@
       "eggCycles": 26,
       "baseFriendship": 70,
       "preEvolution": "marill form=egho",
-      "baseScale": 0.125,
+      "baseScale": 0.1875,
       "cannotDynamax": false,
       "abilities": [
         "hugepower",
@@ -335,7 +335,7 @@
       "eggCycles": 26,
       "baseFriendship": 70,
       "preEvolution": "marill form=kaskadian",
-      "baseScale": 0.13333333333333333,
+      "baseScale": 0.2,
       "cannotDynamax": false,
       "abilities": [
         "hydration",

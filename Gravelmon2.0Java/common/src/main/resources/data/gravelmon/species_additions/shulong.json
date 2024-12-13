@@ -247,7 +247,7 @@
       "experienceGroup": "slow",
       "eggCycles": 41,
       "baseFriendship": 70,
-      "baseScale": 0.275,
+      "baseScale": 0.41250000000000003,
       "cannotDynamax": false,
       "abilities": [
         "swiftswim",
@@ -485,7 +485,7 @@
       "experienceGroup": "slow",
       "eggCycles": 41,
       "baseFriendship": 70,
-      "baseScale": 0.38750000000000007,
+      "baseScale": 0.58125,
       "cannotDynamax": false,
       "abilities": [
         "dragonarmor"
@@ -706,7 +706,7 @@
       "experienceGroup": "slow",
       "eggCycles": 41,
       "baseFriendship": 70,
-      "baseScale": 0.07500000000000001,
+      "baseScale": 0.09375,
       "cannotDynamax": false,
       "abilities": [
         "hydration"

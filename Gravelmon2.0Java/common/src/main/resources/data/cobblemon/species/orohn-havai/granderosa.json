@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "rocroset",
-  "baseScale": 16.8,
+  "baseScale": 25.200000000000003,
   "cannotDynamax": false,
   "abilities": [
     "leafguard",

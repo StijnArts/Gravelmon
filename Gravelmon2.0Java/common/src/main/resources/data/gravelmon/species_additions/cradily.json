@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "lileep form=epoch",
-      "baseScale": 0.25,
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
         "airlock",
@@ -158,7 +158,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "lileep form=hizian",
-      "baseScale": 0.25,
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
         "perishbody"

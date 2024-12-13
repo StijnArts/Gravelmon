@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "gastly form=forman",
-      "baseScale": 0.04375,
+      "baseScale": 0.06562499999999999,
       "cannotDynamax": false,
       "abilities": [
         "steadfast"
@@ -109,7 +109,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "gastly form=epoch",
-      "baseScale": 0.26666666666666666,
+      "baseScale": 0.4,
       "cannotDynamax": false,
       "abilities": [
         "filter",
@@ -266,7 +266,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "gastly form=havaiian",
-      "baseScale": 0.26666666666666666,
+      "baseScale": 0.4,
       "cannotDynamax": false,
       "abilities": [
         "levitate"
@@ -569,7 +569,7 @@
       "eggCycles": 26,
       "baseFriendship": 70,
       "preEvolution": "gastly form=ayreian",
-      "baseScale": 0.26666666666666666,
+      "baseScale": 0.4,
       "cannotDynamax": false,
       "abilities": [
         "levitate"
@@ -759,7 +759,7 @@
       "eggCycles": 26,
       "baseFriendship": 70,
       "preEvolution": "gastly form=kaskadian",
-      "baseScale": 0.26666666666666666,
+      "baseScale": 0.4,
       "cannotDynamax": false,
       "abilities": [
         "levitate",

@@ -110,7 +110,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.175,
       "cannotDynamax": false,
       "abilities": [
         "magicbounce"
@@ -465,7 +465,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.225,
       "cannotDynamax": false,
       "abilities": [
         "levitate",
@@ -595,7 +595,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.175,
       "cannotDynamax": false,
       "abilities": [
         "steadfast",
@@ -781,7 +781,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.175,
       "cannotDynamax": false,
       "abilities": [
         "oblivious",

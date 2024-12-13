@@ -11,7 +11,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "kangabo",
-      "baseScale": 0.06875,
+      "baseScale": 0.10312500000000001,
       "cannotDynamax": false,
       "abilities": [
         "sturdy"
@@ -94,7 +94,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "kangazad",
-      "baseScale": 0.3666666666666667,
+      "baseScale": 0.55,
       "cannotDynamax": false,
       "abilities": [
         "earlybird",

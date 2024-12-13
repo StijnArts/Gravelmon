@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "elfini",
-  "baseScale": 6.4,
+  "baseScale": 9.600000000000001,
   "cannotDynamax": false,
   "abilities": [
     "leafguard",

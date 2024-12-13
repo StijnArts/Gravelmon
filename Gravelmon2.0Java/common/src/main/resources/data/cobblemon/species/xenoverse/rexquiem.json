@@ -9,7 +9,7 @@
   "eggCycles": 32,
   "baseFriendship": 70,
   "preEvolution": "peckabone",
-  "baseScale": 0.2125,
+  "baseScale": 0.31875,
   "cannotDynamax": false,
   "abilities": [
     "pressure"

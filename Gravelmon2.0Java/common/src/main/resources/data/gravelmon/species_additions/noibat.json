@@ -31,7 +31,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.125,
       "cannotDynamax": false,
       "abilities": [
         "keeneye",
@@ -213,7 +213,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.125,
       "cannotDynamax": false,
       "abilities": [
         "frisk",
@@ -332,7 +332,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.07500000000000001,
+      "baseScale": 0.09375,
       "cannotDynamax": false,
       "abilities": [
         "chlorophyll",
@@ -526,7 +526,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.125,
       "cannotDynamax": false,
       "abilities": [
         "cursedbody",
@@ -701,7 +701,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.125,
       "cannotDynamax": false,
       "abilities": [
         "moldbreaker",

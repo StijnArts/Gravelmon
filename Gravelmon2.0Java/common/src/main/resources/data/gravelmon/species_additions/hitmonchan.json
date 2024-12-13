@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "tyrogue form=forman",
-      "baseScale": 0.053125,
+      "baseScale": 0.0796875,
       "cannotDynamax": false,
       "abilities": [
         "swiftswim"
@@ -97,7 +97,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "tyrogue form=epoch",
-      "baseScale": 0.2333333333333333,
+      "baseScale": 0.35,
       "cannotDynamax": false,
       "abilities": [
         "ironfist",
@@ -247,7 +247,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "tyrogue form=qamoran",
-      "baseScale": 0.2333333333333333,
+      "baseScale": 0.35,
       "cannotDynamax": false,
       "abilities": [
         "dancer"
@@ -351,7 +351,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "tyrogue form=varitasian",
-      "baseScale": 0.2333333333333333,
+      "baseScale": 0.35,
       "cannotDynamax": false,
       "abilities": [
         "keeneye",
@@ -520,7 +520,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "tyrogue",
-      "baseScale": 0.2333333333333333,
+      "baseScale": 0.35,
       "cannotDynamax": false,
       "abilities": [
         "keeneye",

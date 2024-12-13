@@ -245,7 +245,7 @@
       "experienceGroup": "slow",
       "eggCycles": 41,
       "baseFriendship": 70,
-      "baseScale": 0.3375,
+      "baseScale": 0.5062500000000001,
       "cannotDynamax": false,
       "abilities": [
         "majesticaura",
@@ -482,7 +482,7 @@
       "experienceGroup": "slow",
       "eggCycles": 41,
       "baseFriendship": 70,
-      "baseScale": 0.3625,
+      "baseScale": 0.54375,
       "cannotDynamax": false,
       "abilities": [
         "junglespirit"
@@ -699,7 +699,7 @@
       "experienceGroup": "slow",
       "eggCycles": 41,
       "baseFriendship": 70,
-      "baseScale": 0.07500000000000001,
+      "baseScale": 0.11249999999999999,
       "cannotDynamax": false,
       "abilities": [
         "rattled"

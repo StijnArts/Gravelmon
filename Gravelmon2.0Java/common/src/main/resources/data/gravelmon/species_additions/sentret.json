@@ -92,7 +92,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.0375,
+      "baseScale": 0.056249999999999994,
       "cannotDynamax": false,
       "abilities": [
         "furcoat"
@@ -189,7 +189,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.025,
+      "baseScale": 0.037500000000000006,
       "cannotDynamax": false,
       "abilities": [
         "flashfire"
@@ -286,7 +286,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.13333333333333333,
+      "baseScale": 0.2,
       "cannotDynamax": false,
       "abilities": [
         "mummy",
@@ -452,7 +452,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.125,
       "cannotDynamax": false,
       "abilities": [
         "runaway",

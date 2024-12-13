@@ -9,7 +9,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "modrille",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.6,
   "cannotDynamax": false,
   "abilities": [
     "lightningrod",

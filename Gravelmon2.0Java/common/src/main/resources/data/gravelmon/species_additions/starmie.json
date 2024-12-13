@@ -24,7 +24,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "staryu form=epoch",
-      "baseScale": 0.18333333333333335,
+      "baseScale": 0.275,
       "cannotDynamax": false,
       "abilities": [
         "synchronize",
@@ -173,7 +173,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.25,
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"

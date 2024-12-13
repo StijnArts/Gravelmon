@@ -34,7 +34,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "rookidee form=epoch",
-      "baseScale": 0.13333333333333333,
+      "baseScale": 0.2,
       "cannotDynamax": false,
       "abilities": [
         "bigpecks"
@@ -187,7 +187,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "rookidee form=norheiman",
-      "baseScale": 0.13333333333333333,
+      "baseScale": 0.2,
       "cannotDynamax": false,
       "abilities": [
         "keeneye",

@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "yanma form=epoch",
-      "baseScale": 0.31666666666666665,
+      "baseScale": 0.475,
       "cannotDynamax": false,
       "abilities": [
         "stormdrain",
@@ -160,7 +160,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.31666666666666665,
+      "baseScale": 0.475,
       "cannotDynamax": false,
       "abilities": [
         "weakarmor",
@@ -302,7 +302,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "yanma form=delta",
-      "baseScale": 0.2375,
+      "baseScale": 0.35624999999999996,
       "cannotDynamax": false,
       "abilities": [
         "adaptability",

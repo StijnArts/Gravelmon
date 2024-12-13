@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "minccino form=epoch",
-      "baseScale": 0.1,
+      "baseScale": 0.125,
       "cannotDynamax": false,
       "abilities": [
         "shadowtag",
@@ -155,7 +155,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "minccino form=ayreian",
-      "baseScale": 0.1,
+      "baseScale": 0.125,
       "cannotDynamax": false,
       "abilities": [
         "intimidate",

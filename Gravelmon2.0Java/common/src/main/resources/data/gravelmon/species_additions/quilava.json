@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "cyndaquil form=epoch",
-      "baseScale": 0.15,
+      "baseScale": 0.225,
       "cannotDynamax": false,
       "abilities": [
         "motordrive",
@@ -181,7 +181,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.225,
       "cannotDynamax": false,
       "abilities": [
         "refrigerate",
@@ -331,7 +331,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.175,
       "cannotDynamax": false,
       "abilities": [
         "blaze",
@@ -434,7 +434,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "cyndaquil form=egho",
-      "baseScale": 0.11249999999999999,
+      "baseScale": 0.16875,
       "cannotDynamax": false,
       "abilities": [
         "static",
@@ -625,7 +625,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "cyndaquil form=delta",
-      "baseScale": 0.11249999999999999,
+      "baseScale": 0.16875,
       "cannotDynamax": false,
       "abilities": [
         "static",
@@ -813,7 +813,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "cyndaquil form=ayreian",
-      "baseScale": 0.15,
+      "baseScale": 0.225,
       "cannotDynamax": false,
       "abilities": [
         "drought",

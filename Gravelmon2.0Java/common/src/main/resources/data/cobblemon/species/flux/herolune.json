@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "lunapup",
-  "baseScale": 0.3,
+  "baseScale": 0.45,
   "cannotDynamax": false,
   "abilities": [
     "moldbreaker",

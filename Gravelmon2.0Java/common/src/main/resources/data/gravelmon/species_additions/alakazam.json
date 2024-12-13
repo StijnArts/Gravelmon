@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "kadabra form=epoch",
-      "baseScale": 0.25,
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
         "innerfocus",
@@ -155,7 +155,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "kadabra form=ayreian",
-      "baseScale": 0.26666666666666666,
+      "baseScale": 0.4,
       "cannotDynamax": false,
       "abilities": [
         "sniper",

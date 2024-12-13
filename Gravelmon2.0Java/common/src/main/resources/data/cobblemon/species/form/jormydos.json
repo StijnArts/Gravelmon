@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "magikarp form=forman",
-  "baseScale": 0.11875,
+  "baseScale": 0.17812499999999998,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"

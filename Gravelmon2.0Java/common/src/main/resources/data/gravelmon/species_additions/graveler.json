@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "geodude form=epoch",
-      "baseScale": 0.16666666666666666,
+      "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
         "steamengine",
@@ -168,7 +168,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.16666666666666666,
+      "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
         "shadowshield",
@@ -353,7 +353,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "geodude form=delta",
-      "baseScale": 0.125,
+      "baseScale": 0.1875,
       "cannotDynamax": false,
       "abilities": [
         "regenerator",

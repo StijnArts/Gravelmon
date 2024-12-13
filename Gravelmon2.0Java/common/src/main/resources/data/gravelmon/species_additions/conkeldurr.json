@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "gurdurr form=epoch",
-      "baseScale": 0.2333333333333333,
+      "baseScale": 0.35,
       "cannotDynamax": false,
       "abilities": [
         "unnerve",
@@ -156,7 +156,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.2333333333333333,
+      "baseScale": 0.35,
       "cannotDynamax": false,
       "abilities": [
         "oblivious",
@@ -303,7 +303,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.2333333333333333,
+      "baseScale": 0.35,
       "cannotDynamax": false,
       "abilities": [
         "guts",
@@ -465,7 +465,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "gurdurr form=kaskadian",
-      "baseScale": 0.056249999999999994,
+      "baseScale": 0.084375,
       "cannotDynamax": false,
       "abilities": [
         "guts",

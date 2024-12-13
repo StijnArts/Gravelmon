@@ -28,7 +28,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "ledyba form=forman",
-      "baseScale": 0.05,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "sweetveil"
@@ -128,7 +128,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "ledyba form=epoch",
-      "baseScale": 0.2333333333333333,
+      "baseScale": 0.35,
       "cannotDynamax": false,
       "abilities": [
         "clearbody",
@@ -273,7 +273,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "baseScale": 0.21666666666666667,
+      "baseScale": 0.325,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
@@ -379,7 +379,7 @@
       "eggCycles": 51,
       "baseFriendship": 70,
       "preEvolution": "ledyba form=relic",
-      "baseScale": 0.26666666666666666,
+      "baseScale": 0.4,
       "cannotDynamax": false,
       "abilities": [
         "ironfist",

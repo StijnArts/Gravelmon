@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 32.0,
+  "baseScale": 48.0,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"

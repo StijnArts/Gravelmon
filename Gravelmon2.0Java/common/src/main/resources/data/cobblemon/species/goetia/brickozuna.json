@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "brickwald",
-  "baseScale": 0.5166666666666667,
+  "baseScale": 0.775,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"

@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.04375,
+      "baseScale": 0.06562499999999999,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -96,7 +96,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "riolu form=epoch",
-      "baseScale": 0.19999999999999998,
+      "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
         "magicbounce"
@@ -461,7 +461,7 @@
       "eggCycles": 51,
       "baseFriendship": 70,
       "preEvolution": "riolu form=mythian",
-      "baseScale": 0.19999999999999998,
+      "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
         "levitate",
@@ -590,7 +590,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.18333333333333335,
+      "baseScale": 0.275,
       "cannotDynamax": false,
       "abilities": [
         "infiltrator",
@@ -767,7 +767,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "riolu form=mystic",
-      "baseScale": 0.19999999999999998,
+      "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
         "oblivious",

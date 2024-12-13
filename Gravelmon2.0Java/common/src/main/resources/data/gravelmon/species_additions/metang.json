@@ -94,7 +94,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "beldum form=epoch",
-      "baseScale": 0.19999999999999998,
+      "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
         "filter",
@@ -271,7 +271,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "beldum form=delta_spider",
-      "baseScale": 0.15,
+      "baseScale": 0.22499999999999998,
       "cannotDynamax": false,
       "abilities": [
         "poisontouch",

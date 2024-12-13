@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "maningauz",
-  "baseScale": 0.21666666666666667,
+  "baseScale": 0.325,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"

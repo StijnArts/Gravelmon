@@ -9,7 +9,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "scalarva",
-  "baseScale": 0.07500000000000001,
+  "baseScale": 0.09375,
   "cannotDynamax": false,
   "abilities": [
     "compoundeyes",

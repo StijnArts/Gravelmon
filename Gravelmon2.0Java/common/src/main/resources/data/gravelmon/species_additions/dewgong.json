@@ -96,7 +96,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "seel form=epoch",
-      "baseScale": 0.2833333333333333,
+      "baseScale": 0.425,
       "cannotDynamax": false,
       "abilities": [
         "unaware",
@@ -257,7 +257,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "seel form=qamoran",
-      "baseScale": 0.35000000000000003,
+      "baseScale": 0.525,
       "cannotDynamax": false,
       "abilities": [
         "waterbubble"
@@ -358,7 +358,7 @@
       "eggCycles": 51,
       "baseFriendship": 70,
       "preEvolution": "seel form=hoennian",
-      "baseScale": 0.26666666666666666,
+      "baseScale": 0.4,
       "cannotDynamax": false,
       "abilities": [
         "thickfat",

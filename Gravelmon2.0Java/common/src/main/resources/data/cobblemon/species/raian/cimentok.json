@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "clasoil",
-  "baseScale": 0.04375,
+  "baseScale": 0.06562499999999999,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"

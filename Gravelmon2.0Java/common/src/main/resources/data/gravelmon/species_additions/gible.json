@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.025,
+      "baseScale": 0.037500000000000006,
       "cannotDynamax": false,
       "abilities": [
         "sandstream",
@@ -109,7 +109,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.021875,
+      "baseScale": 0.032812499999999994,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -206,7 +206,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.025,
+      "baseScale": 0.037500000000000006,
       "cannotDynamax": false,
       "abilities": [
         "motordrive"
@@ -305,7 +305,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.021875,
+      "baseScale": 0.032812499999999994,
       "cannotDynamax": false,
       "abilities": [
         "slushrush"
@@ -406,7 +406,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.175,
       "cannotDynamax": false,
       "abilities": [
         "unnerve",
@@ -585,7 +585,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.175,
       "cannotDynamax": false,
       "abilities": [
         "roughskin",

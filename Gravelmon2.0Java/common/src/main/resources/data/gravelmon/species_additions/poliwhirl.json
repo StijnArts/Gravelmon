@@ -94,7 +94,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "poliwag form=palmian",
-      "baseScale": 0.028124999999999997,
+      "baseScale": 0.0421875,
       "cannotDynamax": false,
       "abilities": [
         "truant",
@@ -197,7 +197,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "poliwag form=epoch",
-      "baseScale": 0.16666666666666666,
+      "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
         "dryskin",

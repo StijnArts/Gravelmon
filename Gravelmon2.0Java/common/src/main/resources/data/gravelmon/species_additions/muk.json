@@ -13,7 +13,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "grimer form=epoch",
-      "baseScale": 0.19999999999999998,
+      "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
         "liquidooze",
@@ -171,7 +171,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.19999999999999998,
+      "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
         "magmaarmor",
@@ -330,7 +330,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.25,
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
         "sandforce",
@@ -499,7 +499,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "grimer form=egho",
-      "baseScale": 0.175,
+      "baseScale": 0.26249999999999996,
       "cannotDynamax": false,
       "abilities": [
         "stench",
@@ -869,7 +869,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "grimer form=ayreian",
-      "baseScale": 0.19999999999999998,
+      "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
         "stench",

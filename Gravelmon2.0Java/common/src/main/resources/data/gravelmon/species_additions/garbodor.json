@@ -96,7 +96,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "trubbish form=epoch",
-      "baseScale": 0.31666666666666665,
+      "baseScale": 0.475,
       "cannotDynamax": false,
       "abilities": [
         "toxicdebris",
@@ -261,7 +261,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "trubbish form=egho",
-      "baseScale": 0.22499999999999998,
+      "baseScale": 0.3375,
       "cannotDynamax": false,
       "abilities": [
         "battlearmor",

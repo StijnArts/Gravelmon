@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "dragune",
-  "baseScale": 0.8625,
+  "baseScale": 1.2937500000000002,
   "cannotDynamax": false,
   "abilities": [
     "intimidate"

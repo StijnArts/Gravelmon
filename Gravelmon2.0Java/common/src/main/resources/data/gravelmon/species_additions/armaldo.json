@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "anorith form=epoch",
-      "baseScale": 0.25,
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
         "shellarmor",
@@ -170,7 +170,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "anorith form=hizian",
-      "baseScale": 0.2833333333333333,
+      "baseScale": 0.425,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"

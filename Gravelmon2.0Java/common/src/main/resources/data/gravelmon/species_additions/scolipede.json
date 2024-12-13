@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "whirlipede form=epoch",
-      "baseScale": 0.4166666666666667,
+      "baseScale": 0.625,
       "cannotDynamax": false,
       "abilities": [
         "telepathy",
@@ -172,7 +172,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "whirlipede form=delta",
-      "baseScale": 0.15,
+      "baseScale": 0.43124999999999997,
       "cannotDynamax": false,
       "abilities": [
         "weakarmor",
@@ -303,7 +303,7 @@
       "pokedex": [
         "cobblemon.species.deltascolipede.desc"
       ],
-      "height": 12,
+      "height": 23,
       "weight": 878,
       "aspects": [
         "delta"

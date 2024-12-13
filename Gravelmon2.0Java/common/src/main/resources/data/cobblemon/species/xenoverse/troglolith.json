@@ -9,7 +9,7 @@
   "eggCycles": 32,
   "baseFriendship": 70,
   "preEvolution": "rockapye",
-  "baseScale": 0.1625,
+  "baseScale": 0.24375000000000002,
   "cannotDynamax": false,
   "abilities": [
     "defiant",

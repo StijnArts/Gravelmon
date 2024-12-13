@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "fraxure form=delta",
-      "baseScale": 0.22499999999999998,
+      "baseScale": 0.3375,
       "cannotDynamax": false,
       "abilities": [
         "strongjaw",
@@ -196,7 +196,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.3,
+      "baseScale": 0.45,
       "cannotDynamax": false,
       "abilities": [
         "rivalry",

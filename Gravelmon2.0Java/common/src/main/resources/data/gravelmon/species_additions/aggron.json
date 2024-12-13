@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "lairon form=epoch",
-      "baseScale": 0.35000000000000003,
+      "baseScale": 0.525,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
@@ -170,7 +170,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "lairon form=hizian",
-      "baseScale": 0.3833333333333333,
+      "baseScale": 0.575,
       "cannotDynamax": false,
       "abilities": [
         "sheerforce",
@@ -327,7 +327,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "lairon form=delta",
-      "baseScale": 0.2625,
+      "baseScale": 0.39375000000000004,
       "cannotDynamax": false,
       "abilities": [
         "flamebody",
@@ -518,7 +518,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "lairon form=ayreian",
-      "baseScale": 0.15,
+      "baseScale": 0.225,
       "cannotDynamax": false,
       "abilities": [
         "sheerforce",

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "emetortle",
-  "baseScale": 0.08125,
+  "baseScale": 0.12187500000000001,
   "cannotDynamax": false,
   "abilities": [
     "cutecharm"

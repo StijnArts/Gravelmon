@@ -1,21 +1,58 @@
 {
-  "portraitScale": 7.92,
+  "head": "head",
+  "portraitScale": 105.60000228881836,
   "portraitTranslation": [
-    0.0,
-    1.4,
+    -0.1,
+    -0.35,
     0.0
   ],
-  "profileScale": 10.56,
+  "profileScale": 31.19999885559082,
   "profileTranslation": [
-    0.0,
-    1.55,
-    -20.0
+    -0.01,
+    0.78,
+    0.0
   ],
   "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "look",
+        "bedrock(pikachu_x_female, ground_idle)"
+      ],
+      "transformTicks": 10,
+      "allPoseTypes": true,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(pikachu_x_female, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "animations": [
+        "look",
+        "bedrock(pikachu_x_female, ground_walk)"
+      ],
+      "poseTypes": [
+        "WALK"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(pikachu_x_female, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    },
     "profile": {
       "poseName": "profile",
       "animations": [
-        "bedrock(cutout, pc_fix)"
+        "bedrock(pikachu_x_female, pc_fix)"
       ],
       "poseTypes": [
         "PROFILE"
@@ -26,7 +63,7 @@
     "portrait": {
       "poseName": "portrait",
       "animations": [
-        "bedrock(cutout, summary_fix)"
+        "bedrock(pikachu_x_female, summary_fix)"
       ],
       "poseTypes": [
         "NONE",

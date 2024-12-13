@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "croconaw form=epoch",
-      "baseScale": 0.3833333333333333,
+      "baseScale": 0.575,
       "cannotDynamax": false,
       "abilities": [
         "dryskin",
@@ -176,7 +176,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.3833333333333333,
+      "baseScale": 0.575,
       "cannotDynamax": false,
       "abilities": [
         "strongjaw",
@@ -327,7 +327,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.3,
+      "baseScale": 0.45,
       "cannotDynamax": false,
       "abilities": [
         "torrent",
@@ -613,7 +613,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "croconaw form=ayreian",
-      "baseScale": 0.3833333333333333,
+      "baseScale": 0.575,
       "cannotDynamax": false,
       "abilities": [
         "toughclaws",

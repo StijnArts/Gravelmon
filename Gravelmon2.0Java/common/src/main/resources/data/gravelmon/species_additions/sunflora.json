@@ -36,7 +36,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "sunkern form=epoch",
-      "baseScale": 0.13333333333333333,
+      "baseScale": 0.2,
       "cannotDynamax": false,
       "abilities": [
         "flashfire",
@@ -174,7 +174,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "sunkern form=delta",
-      "baseScale": 0.1,
+      "baseScale": 0.15000000000000002,
       "cannotDynamax": false,
       "abilities": [
         "flamebody",

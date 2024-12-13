@@ -34,7 +34,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "tentacool form=epoch",
-      "baseScale": 0.26666666666666666,
+      "baseScale": 0.4,
       "cannotDynamax": false,
       "abilities": [
         "suctioncups",
@@ -193,7 +193,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "tentacool form=delta",
-      "baseScale": 0.2,
+      "baseScale": 0.30000000000000004,
       "cannotDynamax": false,
       "abilities": [
         "stormdrain",
@@ -359,7 +359,7 @@
       "eggCycles": 51,
       "baseFriendship": 70,
       "preEvolution": "tentacool form=hoennian",
-      "baseScale": 0.16666666666666666,
+      "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
         "keeneye",
@@ -484,7 +484,7 @@
       "eggCycles": 51,
       "baseFriendship": 70,
       "preEvolution": "tentacool form=relic",
-      "baseScale": 0.5333333333333333,
+      "baseScale": 0.8,
       "cannotDynamax": false,
       "abilities": [
         "forewarn"

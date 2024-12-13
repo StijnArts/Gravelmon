@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "zweilous form=epoch",
-      "baseScale": 0.3,
+      "baseScale": 0.45,
       "cannotDynamax": false,
       "abilities": [
         "competitive",
@@ -167,7 +167,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "zweilous form=delta",
-      "baseScale": 0.22499999999999998,
+      "baseScale": 0.3375,
       "cannotDynamax": false,
       "abilities": [
         "intoxicate"

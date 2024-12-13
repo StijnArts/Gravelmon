@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "quilava form=epoch",
-      "baseScale": 0.2833333333333333,
+      "baseScale": 0.425,
       "cannotDynamax": false,
       "abilities": [
         "motordrive",
@@ -167,7 +167,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.2833333333333333,
+      "baseScale": 0.425,
       "cannotDynamax": false,
       "abilities": [
         "refrigerate",
@@ -302,7 +302,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.2833333333333333,
+      "baseScale": 0.425,
       "cannotDynamax": false,
       "abilities": [
         "blaze",
@@ -390,7 +390,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "quilava form=egho",
-      "baseScale": 0.2375,
+      "baseScale": 0.35624999999999996,
       "cannotDynamax": false,
       "abilities": [
         "static",
@@ -573,7 +573,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "quilava form=delta",
-      "baseScale": 0.2125,
+      "baseScale": 0.31875,
       "cannotDynamax": false,
       "abilities": [
         "static",
@@ -763,7 +763,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "quilava form=ayreian",
-      "baseScale": 0.2833333333333333,
+      "baseScale": 0.425,
       "cannotDynamax": false,
       "abilities": [
         "drought",

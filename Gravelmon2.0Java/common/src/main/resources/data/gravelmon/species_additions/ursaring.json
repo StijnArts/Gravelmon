@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "teddiursa form=epoch",
-      "baseScale": 0.3,
+      "baseScale": 0.45,
       "cannotDynamax": false,
       "abilities": [
         "toughclaws",
@@ -318,7 +318,7 @@
       "eggCycles": 51,
       "baseFriendship": 70,
       "preEvolution": "teddiursa form=seviian",
-      "baseScale": 0.3,
+      "baseScale": 0.45,
       "cannotDynamax": false,
       "abilities": [
         "guts",
@@ -481,7 +481,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "teddiursa form=cefiran",
-      "baseScale": 0.3,
+      "baseScale": 0.45,
       "cannotDynamax": false,
       "abilities": [
         "guts",

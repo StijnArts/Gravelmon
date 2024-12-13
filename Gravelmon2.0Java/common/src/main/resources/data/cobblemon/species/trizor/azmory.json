@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "skarmory form=trizoran",
-  "baseScale": 0.071875,
+  "baseScale": 0.10781249999999999,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"

@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "grotle form=epoch",
-      "baseScale": 0.3666666666666667,
+      "baseScale": 0.55,
       "cannotDynamax": false,
       "abilities": [
         "solidrock",
@@ -167,7 +167,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "grotle form=delta",
-      "baseScale": 0.275,
+      "baseScale": 0.41250000000000003,
       "cannotDynamax": false,
       "abilities": [
         "waterabsorb",

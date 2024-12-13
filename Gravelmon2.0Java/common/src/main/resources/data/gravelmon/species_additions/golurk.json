@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "golett form=epoch",
-      "baseScale": 0.4666666666666666,
+      "baseScale": 0.7,
       "cannotDynamax": false,
       "abilities": [
         "longreach",
@@ -170,7 +170,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "golett form=delta",
-      "baseScale": 0.35,
+      "baseScale": 0.5249999999999999,
       "cannotDynamax": false,
       "abilities": [
         "ironfist",
@@ -342,7 +342,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "golett form=cefiran",
-      "baseScale": 0.4666666666666666,
+      "baseScale": 0.7,
       "cannotDynamax": false,
       "abilities": [
         "waterabsorb",

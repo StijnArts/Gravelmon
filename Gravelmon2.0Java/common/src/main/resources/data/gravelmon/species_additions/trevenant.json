@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "phantump form=epoch",
-      "baseScale": 0.25,
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
         "drought",
@@ -167,7 +167,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "phantump form=varitasian",
-      "baseScale": 0.25,
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
         "naturalcure",
@@ -499,7 +499,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.25,
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
         "naturalcure",
@@ -667,7 +667,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "phantump form=kaskadian",
-      "baseScale": 0.25,
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
         "poisontouch",

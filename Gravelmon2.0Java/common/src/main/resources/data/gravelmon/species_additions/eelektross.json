@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "eelektrik form=epoch",
-      "baseScale": 0.35000000000000003,
+      "baseScale": 0.525,
       "cannotDynamax": false,
       "abilities": [
         "sandveil",
@@ -174,7 +174,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "eelektrik form=varitasian",
-      "baseScale": 0.35000000000000003,
+      "baseScale": 0.525,
       "cannotDynamax": false,
       "abilities": [
         "sapsipper"
@@ -313,7 +313,7 @@
       "eggCycles": 51,
       "baseFriendship": 70,
       "preEvolution": "eelektrik form=hoennian",
-      "baseScale": 3.15,
+      "baseScale": 4.725,
       "cannotDynamax": false,
       "abilities": [
         "sandspit",

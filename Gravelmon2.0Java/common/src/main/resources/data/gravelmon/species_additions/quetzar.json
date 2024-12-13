@@ -11,7 +11,7 @@
       "experienceGroup": "slow",
       "eggCycles": 300,
       "baseFriendship": 70,
-      "baseScale": 1.2,
+      "baseScale": 1.8,
       "cannotDynamax": false,
       "abilities": [
         "pressure",

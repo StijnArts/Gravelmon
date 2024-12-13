@@ -93,7 +93,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "sentret form=norse",
-      "baseScale": 0.0375,
+      "baseScale": 0.056249999999999994,
       "cannotDynamax": false,
       "abilities": [
         "furcoat"
@@ -178,7 +178,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "sentret form=forman",
-      "baseScale": 0.05,
+      "baseScale": 0.07500000000000001,
       "cannotDynamax": false,
       "abilities": [
         "flashfire"
@@ -263,7 +263,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "sentret form=epoch",
-      "baseScale": 0.3,
+      "baseScale": 0.45,
       "cannotDynamax": false,
       "abilities": [
         "mummy",
@@ -414,7 +414,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "sentret form=aristosian",
-      "baseScale": 0.21666666666666667,
+      "baseScale": 0.325,
       "cannotDynamax": false,
       "abilities": [
         "runaway",

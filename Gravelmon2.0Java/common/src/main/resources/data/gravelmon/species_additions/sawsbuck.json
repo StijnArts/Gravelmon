@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "deerling form=epoch",
-      "baseScale": 0.31666666666666665,
+      "baseScale": 0.475,
       "cannotDynamax": false,
       "abilities": [
         "flamebody",

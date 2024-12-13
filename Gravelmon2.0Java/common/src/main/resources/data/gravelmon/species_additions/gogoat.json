@@ -34,7 +34,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "skiddo form=epoch",
-      "baseScale": 0.2833333333333333,
+      "baseScale": 0.425,
       "cannotDynamax": false,
       "abilities": [
         "guts",
@@ -173,7 +173,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.2833333333333333,
+      "baseScale": 0.425,
       "cannotDynamax": false,
       "abilities": [
         "sapsipper",
@@ -273,7 +273,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.2833333333333333,
+      "baseScale": 0.425,
       "cannotDynamax": false,
       "abilities": [
         "thickfat"
@@ -420,7 +420,7 @@
       "eggCycles": 51,
       "baseFriendship": 70,
       "preEvolution": "skiddo form=relic",
-      "baseScale": 0.3666666666666667,
+      "baseScale": 0.55,
       "cannotDynamax": false,
       "abilities": [
         "battlearmor",

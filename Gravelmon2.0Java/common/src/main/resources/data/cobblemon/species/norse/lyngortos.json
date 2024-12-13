@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.140625,
+  "baseScale": 0.2109375,
   "cannotDynamax": false,
   "abilities": [
     "raindish"

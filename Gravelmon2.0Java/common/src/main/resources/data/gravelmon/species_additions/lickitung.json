@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "lickitin",
-      "baseScale": 0.0375,
+      "baseScale": 0.056249999999999994,
       "cannotDynamax": false,
       "abilities": [
         "dryskin"
@@ -94,7 +94,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.16666666666666666,
+      "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
         "sweetveil"

@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "combusken form=delta",
-      "baseScale": 0.2375,
+      "baseScale": 0.35624999999999996,
       "cannotDynamax": false,
       "abilities": [
         "keeneye",
@@ -239,7 +239,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "combusken form=ayreian",
-      "baseScale": 0.31666666666666665,
+      "baseScale": 0.475,
       "cannotDynamax": false,
       "abilities": [
         "longreach",
@@ -413,7 +413,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "combusken form=mystic",
-      "baseScale": 0.31666666666666665,
+      "baseScale": 0.475,
       "cannotDynamax": false,
       "abilities": [
         "insomnia",

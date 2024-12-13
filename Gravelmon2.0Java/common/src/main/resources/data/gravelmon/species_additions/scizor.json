@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "scyther form=raianian",
-      "baseScale": 0.056249999999999994,
+      "baseScale": 0.084375,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -99,7 +99,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "scyther form=epoch",
-      "baseScale": 0.3,
+      "baseScale": 0.45,
       "cannotDynamax": false,
       "abilities": [
         "megalauncher",
@@ -425,7 +425,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "scyther form=mythian",
-      "baseScale": 0.25,
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
         "sheerforce",

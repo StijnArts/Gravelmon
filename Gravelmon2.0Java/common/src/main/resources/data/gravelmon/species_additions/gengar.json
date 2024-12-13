@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "haunter form=forman",
-      "baseScale": 0.071875,
+      "baseScale": 0.10781249999999999,
       "cannotDynamax": false,
       "abilities": [
         "steadfast"
@@ -99,7 +99,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "haunter form=epoch",
-      "baseScale": 0.25,
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
         "filter",
@@ -246,7 +246,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "haunter form=havaiian",
-      "baseScale": 0.25,
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
         "flamebody"
@@ -549,7 +549,7 @@
       "eggCycles": 26,
       "baseFriendship": 70,
       "preEvolution": "haunter form=ayreian",
-      "baseScale": 0.25,
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
         "levitate"
@@ -742,7 +742,7 @@
       "eggCycles": 26,
       "baseFriendship": 70,
       "preEvolution": "haunter form=kaskadian",
-      "baseScale": 0.26666666666666666,
+      "baseScale": 0.4,
       "cannotDynamax": false,
       "abilities": [
         "levitate",

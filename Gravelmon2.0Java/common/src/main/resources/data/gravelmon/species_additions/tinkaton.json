@@ -13,7 +13,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "tinkatuff form=epoch",
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.175,
       "cannotDynamax": false,
       "abilities": [
         "dragonsmaw",
@@ -166,7 +166,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.2833333333333333,
+      "baseScale": 0.425,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"

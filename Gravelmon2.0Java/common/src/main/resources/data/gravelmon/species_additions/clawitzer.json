@@ -11,7 +11,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.21666666666666667,
+      "baseScale": 0.325,
       "cannotDynamax": false,
       "abilities": [
         "megalauncher"
@@ -111,7 +111,7 @@
       "eggCycles": 51,
       "baseFriendship": 70,
       "preEvolution": "clauncher form=seviian",
-      "baseScale": 0.21666666666666667,
+      "baseScale": 0.325,
       "cannotDynamax": false,
       "abilities": [
         "megalauncher"

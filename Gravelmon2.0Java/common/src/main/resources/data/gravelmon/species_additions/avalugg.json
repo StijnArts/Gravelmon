@@ -11,7 +11,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "bergmite form=epoch",
-      "baseScale": 0.3333333333333333,
+      "baseScale": 0.5,
       "cannotDynamax": false,
       "abilities": [
         "pressure",
@@ -159,7 +159,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.3333333333333333,
+      "baseScale": 0.5,
       "cannotDynamax": false,
       "abilities": [
         "dryskin",

@@ -142,7 +142,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "dratini form=forman",
-      "baseScale": 0.059375,
+      "baseScale": 0.08906249999999999,
       "cannotDynamax": false,
       "abilities": [
         "lightningrod"
@@ -244,7 +244,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "dratini form=epoch",
-      "baseScale": 0.6666666666666666,
+      "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
         "dazzling",
@@ -414,7 +414,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.3333333333333333,
+      "baseScale": 0.5,
       "cannotDynamax": false,
       "abilities": [
         "magicbounce",
@@ -525,7 +525,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "dratini form=delta",
-      "baseScale": 0.5,
+      "baseScale": 0.75,
       "cannotDynamax": false,
       "abilities": [
         "swiftswim",
@@ -703,7 +703,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.6666666666666666,
+      "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
         "innerfocus"

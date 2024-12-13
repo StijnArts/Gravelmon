@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "caterpie form=epoch",
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.175,
       "cannotDynamax": false,
       "abilities": [
         "shielddust",
@@ -118,7 +118,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "caterpie form=ayreian",
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.175,
       "cannotDynamax": false,
       "abilities": [
         "shedskin",

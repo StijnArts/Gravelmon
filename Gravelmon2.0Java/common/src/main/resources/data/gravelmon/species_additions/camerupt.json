@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "numel form=epoch",
-      "baseScale": 0.31666666666666665,
+      "baseScale": 0.475,
       "cannotDynamax": false,
       "abilities": [
         "dryskin",
@@ -161,7 +161,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.3833333333333333,
+      "baseScale": 0.575,
       "cannotDynamax": false,
       "abilities": [
         "bulletproof",
@@ -314,7 +314,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "numel form=delta",
-      "baseScale": 0.0875,
+      "baseScale": 0.13124999999999998,
       "cannotDynamax": false,
       "abilities": [
         "poisonpoint",
@@ -478,7 +478,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "numel form=ayreian",
-      "baseScale": 0.31666666666666665,
+      "baseScale": 0.475,
       "cannotDynamax": false,
       "abilities": [
         "unaware",
@@ -643,7 +643,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "numel form=cefiran",
-      "baseScale": 0.31666666666666665,
+      "baseScale": 0.475,
       "cannotDynamax": false,
       "abilities": [
         "sheerforce",

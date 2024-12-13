@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "aipom form=epoch",
-      "baseScale": 0.19999999999999998,
+      "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
         "comatose"
@@ -172,7 +172,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "aipom form=delta",
-      "baseScale": 0.15,
+      "baseScale": 0.22499999999999998,
       "cannotDynamax": false,
       "abilities": [
         "cursedbody",
@@ -383,7 +383,7 @@
       "eggCycles": 51,
       "baseFriendship": 70,
       "preEvolution": "aipom form=relic",
-      "baseScale": 0.2333333333333333,
+      "baseScale": 0.35,
       "cannotDynamax": false,
       "abilities": [
         "scrappy",
@@ -532,7 +532,7 @@
       "experienceGroup": "fast",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "baseScale": 0.0375,
+      "baseScale": 0.056249999999999994,
       "cannotDynamax": false,
       "abilities": [
         "sandforce",

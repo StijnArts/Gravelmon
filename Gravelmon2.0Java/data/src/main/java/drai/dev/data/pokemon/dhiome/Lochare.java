@@ -53,7 +53,6 @@ public class Lochare extends drai.dev.data.pokemon.Pokemon {
                 List.of());
         setCanSwim(true);
         setCanBreathUnderwater(true);
-        super;
            setLangFileName("Lochare");
 
     }

@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.084375,
+      "baseScale": 0.12656250000000002,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -95,7 +95,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.08125,
+      "baseScale": 0.12187500000000001,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -180,7 +180,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "dragonair form=epoch",
-      "baseScale": 0.3666666666666667,
+      "baseScale": 0.55,
       "cannotDynamax": false,
       "abilities": [
         "dazzling",
@@ -337,7 +337,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "dragonair form=delta",
-      "baseScale": 0.275,
+      "baseScale": 0.41250000000000003,
       "cannotDynamax": false,
       "abilities": [
         "swiftswim",
@@ -538,7 +538,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.3666666666666667,
+      "baseScale": 0.55,
       "cannotDynamax": false,
       "abilities": [
         "innerfocus"

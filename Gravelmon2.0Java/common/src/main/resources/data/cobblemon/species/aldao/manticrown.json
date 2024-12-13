@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "chimeroar",
-  "baseScale": 0.056249999999999994,
+  "baseScale": 0.084375,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"

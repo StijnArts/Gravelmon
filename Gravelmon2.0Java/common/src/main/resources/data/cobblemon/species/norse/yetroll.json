@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "troboi",
-  "baseScale": 0.05,
+  "baseScale": 0.07500000000000001,
   "cannotDynamax": false,
   "abilities": [
     "regenerator"

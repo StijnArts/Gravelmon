@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "hattrem form=epoch",
-      "baseScale": 0.35000000000000003,
+      "baseScale": 0.525,
       "cannotDynamax": false,
       "abilities": [
         "curiousmedicine",
@@ -152,7 +152,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.35000000000000003,
+      "baseScale": 0.525,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -235,7 +235,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "hattrem form=novran",
-      "baseScale": 0.35000000000000003,
+      "baseScale": 0.525,
       "cannotDynamax": false,
       "abilities": [
         "symbiosis",
@@ -393,7 +393,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.4666666666666666,
+      "baseScale": 0.7,
       "cannotDynamax": false,
       "abilities": [
         "intimidate",

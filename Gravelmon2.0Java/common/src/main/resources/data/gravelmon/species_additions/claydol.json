@@ -34,7 +34,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "baltoy form=epoch",
-      "baseScale": 0.25,
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
         "levitate",

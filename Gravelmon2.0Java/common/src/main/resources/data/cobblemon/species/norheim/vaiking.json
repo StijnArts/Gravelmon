@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "falinks form=norheiman",
-  "baseScale": 0.2833333333333333,
+  "baseScale": 0.425,
   "cannotDynamax": false,
   "abilities": [
     "battlearmor",

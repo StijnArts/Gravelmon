@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "shinx form=epoch",
-      "baseScale": 0.15,
+      "baseScale": 0.225,
       "cannotDynamax": false,
       "abilities": [
         "guts",
@@ -187,7 +187,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "shinx form=delta",
-      "baseScale": 0.11249999999999999,
+      "baseScale": 0.16875,
       "cannotDynamax": false,
       "abilities": [
         "poisontouch",
@@ -367,7 +367,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "shinx form=ayreian",
-      "baseScale": 0.15,
+      "baseScale": 0.225,
       "cannotDynamax": false,
       "abilities": [
         "galvanize",
@@ -549,7 +549,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "shinx form=kaskadian",
-      "baseScale": 0.028124999999999997,
+      "baseScale": 0.0421875,
       "cannotDynamax": false,
       "abilities": [
         "furcoat",

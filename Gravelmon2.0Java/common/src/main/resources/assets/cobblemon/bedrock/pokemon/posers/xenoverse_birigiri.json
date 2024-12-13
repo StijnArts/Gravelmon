@@ -73,7 +73,7 @@
         "bedrock(birigiri, water_sleep)"
       ],
       "poseTypes": [
-        "SLEEP"
+        "FLOAT"
       ],
       "transformTicks": 10,
       "isTouchingWater": true,

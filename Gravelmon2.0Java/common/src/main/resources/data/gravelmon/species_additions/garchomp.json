@@ -96,7 +96,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "gabite form=palmian",
-      "baseScale": 0.059375,
+      "baseScale": 0.08906249999999999,
       "cannotDynamax": false,
       "abilities": [
         "sandstream",
@@ -182,7 +182,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "gabite form=raianian",
-      "baseScale": 0.059375,
+      "baseScale": 0.08906249999999999,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -267,7 +267,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "gabite form=trizoran",
-      "baseScale": 0.065625,
+      "baseScale": 0.09843750000000001,
       "cannotDynamax": false,
       "abilities": [
         "motordrive"
@@ -354,7 +354,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "gabite form=norse",
-      "baseScale": 0.071875,
+      "baseScale": 0.10781249999999999,
       "cannotDynamax": false,
       "abilities": [
         "slushrush"
@@ -441,7 +441,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "gabite form=epoch",
-      "baseScale": 0.31666666666666665,
+      "baseScale": 0.475,
       "cannotDynamax": false,
       "abilities": [
         "unnerve",
@@ -600,7 +600,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.31666666666666665,
+      "baseScale": 0.475,
       "cannotDynamax": false,
       "abilities": [
         "roughskin",
@@ -755,7 +755,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "Gabite",
-      "baseScale": 0.31666666666666665,
+      "baseScale": 0.475,
       "cannotDynamax": false,
       "abilities": [
         "roughskin",

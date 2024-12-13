@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "maritide",
-  "baseScale": 12.8,
+  "baseScale": 19.200000000000003,
   "cannotDynamax": false,
   "abilities": [
     "torrent",

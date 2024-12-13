@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "clamperl form=epoch",
-      "baseScale": 0.3,
+      "baseScale": 0.45,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
@@ -149,7 +149,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.3333333333333333,
+      "baseScale": 0.5,
       "cannotDynamax": false,
       "abilities": [
         "poisonheal",
@@ -328,7 +328,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "clamperl form=delta",
-      "baseScale": 0.22499999999999998,
+      "baseScale": 0.3375,
       "cannotDynamax": false,
       "abilities": [
         "pressure",

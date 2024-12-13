@@ -8,7 +8,7 @@
   "eggCycles": 32,
   "baseFriendship": 70,
   "preEvolution": "reindear",
-  "baseScale": 0.3125,
+  "baseScale": 0.46875,
   "cannotDynamax": false,
   "abilities": [
     "defeatist"

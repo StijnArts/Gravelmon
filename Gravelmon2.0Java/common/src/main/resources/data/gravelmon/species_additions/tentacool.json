@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "tentalpha",
-      "baseScale": 0.040625,
+      "baseScale": 0.060937500000000006,
       "cannotDynamax": false,
       "abilities": [
         "aftermath"
@@ -195,7 +195,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.225,
       "cannotDynamax": false,
       "abilities": [
         "suctioncups",
@@ -374,7 +374,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11249999999999999,
+      "baseScale": 0.16875,
       "cannotDynamax": false,
       "abilities": [
         "stormdrain",
@@ -546,7 +546,7 @@
       "experienceGroup": "slow",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.175,
       "cannotDynamax": false,
       "abilities": [
         "keeneye",
@@ -681,7 +681,7 @@
       "experienceGroup": "slow",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "baseScale": 0.18333333333333335,
+      "baseScale": 0.275,
       "cannotDynamax": false,
       "abilities": [
         "forewarn"

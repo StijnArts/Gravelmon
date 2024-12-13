@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "froakie form=epoch",
-      "baseScale": 0.1,
+      "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
         "voltabsorb",
@@ -177,7 +177,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
         "blaze",
@@ -287,7 +287,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "froakie form=delta",
-      "baseScale": 0.07500000000000001,
+      "baseScale": 0.11249999999999999,
       "cannotDynamax": false,
       "abilities": [
         "steadfast",
@@ -470,7 +470,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "froakie form=armiran",
-      "baseScale": 0.1,
+      "baseScale": 0.15,
       "cannotDynamax": false,
       "abilities": [
         "blaze",

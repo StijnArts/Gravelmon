@@ -193,7 +193,7 @@
       "eggCycles": 26,
       "baseFriendship": 70,
       "preEvolution": "azurill form=egho",
-      "baseScale": 0.0875,
+      "baseScale": 0.13124999999999998,
       "cannotDynamax": false,
       "abilities": [
         "hugepower",
@@ -361,7 +361,7 @@
       "experienceGroup": "fast",
       "eggCycles": 26,
       "baseFriendship": 70,
-      "baseScale": 0.11666666666666665,
+      "baseScale": 0.175,
       "cannotDynamax": false,
       "abilities": [
         "hydration",

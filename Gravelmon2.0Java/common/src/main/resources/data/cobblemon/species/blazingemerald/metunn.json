@@ -9,7 +9,7 @@
   "eggCycles": 51,
   "baseFriendship": 70,
   "preEvolution": "unown",
-  "baseScale": 0.13333333333333333,
+  "baseScale": 0.2,
   "cannotDynamax": false,
   "abilities": [
     "levitate"

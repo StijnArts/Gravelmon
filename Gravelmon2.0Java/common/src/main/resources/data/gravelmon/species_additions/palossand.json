@@ -96,7 +96,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "sandygast form=epoch",
-      "baseScale": 0.21666666666666667,
+      "baseScale": 0.325,
       "cannotDynamax": false,
       "abilities": [
         "waterabsorb",
@@ -234,7 +234,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "baseScale": 0.040625,
+      "baseScale": 0.060937500000000006,
       "cannotDynamax": false,
       "abilities": [
         "solidrock",

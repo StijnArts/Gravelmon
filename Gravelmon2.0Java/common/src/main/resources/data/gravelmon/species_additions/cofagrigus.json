@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "yamask form=epoch",
-      "baseScale": 0.2833333333333333,
+      "baseScale": 0.425,
       "cannotDynamax": false,
       "abilities": [
         "soundproof",
@@ -165,7 +165,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "yamask form=delta",
-      "baseScale": 0.2125,
+      "baseScale": 0.31875,
       "cannotDynamax": false,
       "abilities": [
         "aftermath",
@@ -333,7 +333,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "yamask form=x",
-      "baseScale": 0.1875,
+      "baseScale": 0.28125,
       "cannotDynamax": false,
       "abilities": [
         "stormdrain",

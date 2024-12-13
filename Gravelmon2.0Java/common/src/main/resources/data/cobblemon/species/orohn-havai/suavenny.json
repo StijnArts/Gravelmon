@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "luvenny",
-  "baseScale": 10.4,
+  "baseScale": 15.600000000000001,
   "cannotDynamax": false,
   "abilities": [
     "pickup",

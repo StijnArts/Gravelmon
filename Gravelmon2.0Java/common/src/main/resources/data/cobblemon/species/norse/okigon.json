@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "caclender",
-  "baseScale": 0.09375,
+  "baseScale": 0.140625,
   "cannotDynamax": false,
   "abilities": [
     "overgrow"

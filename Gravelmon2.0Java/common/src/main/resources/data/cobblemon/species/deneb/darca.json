@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "dorfin",
-  "baseScale": 0.22499999999999998,
+  "baseScale": 0.3375,
   "cannotDynamax": false,
   "abilities": [
     "roughskin"

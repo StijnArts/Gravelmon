@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.053125,
+      "baseScale": 0.0796875,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -105,7 +105,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "kirlia form=epoch",
-      "baseScale": 0.26666666666666666,
+      "baseScale": 0.4,
       "cannotDynamax": false,
       "abilities": [
         "hypercutter"
@@ -256,7 +256,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "kirlia form=avalossian",
-      "baseScale": 0.26666666666666666,
+      "baseScale": 0.4,
       "cannotDynamax": false,
       "abilities": [
         "moldbreaker",
@@ -633,7 +633,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.26666666666666666,
+      "baseScale": 0.4,
       "cannotDynamax": false,
       "abilities": [
         "windrider",

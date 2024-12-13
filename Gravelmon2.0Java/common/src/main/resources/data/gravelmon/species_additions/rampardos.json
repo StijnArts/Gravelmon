@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "cranidos form=epoch",
-      "baseScale": 0.26666666666666666,
+      "baseScale": 0.4,
       "cannotDynamax": false,
       "abilities": [
         "intimidate",
@@ -161,7 +161,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "cranidos form=novran",
-      "baseScale": 0.26666666666666666,
+      "baseScale": 0.4,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"

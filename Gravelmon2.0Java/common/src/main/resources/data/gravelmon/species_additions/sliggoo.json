@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "goomy form=epoch",
-      "baseScale": 0.13333333333333333,
+      "baseScale": 0.2,
       "cannotDynamax": false,
       "abilities": [
         "sweetveil",
@@ -172,7 +172,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.13333333333333333,
+      "baseScale": 0.2,
       "cannotDynamax": false,
       "abilities": [
         "sapsipper",
@@ -280,7 +280,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "goomy form=delta",
-      "baseScale": 0.1,
+      "baseScale": 0.15000000000000002,
       "cannotDynamax": false,
       "abilities": [
         "overcoat",

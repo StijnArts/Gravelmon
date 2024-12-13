@@ -51,7 +51,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "meowth form=epoch",
-      "baseScale": 0.16666666666666666,
+      "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
         "static",
@@ -206,7 +206,7 @@
       "eggCycles": 51,
       "baseFriendship": 70,
       "preEvolution": "meowth form=cefiran_fire",
-      "baseScale": 0.16666666666666666,
+      "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
         "toughclaws",
@@ -323,7 +323,7 @@
       "eggCycles": 51,
       "baseFriendship": 70,
       "preEvolution": "meowth form=cefiran_ice",
-      "baseScale": 0.16666666666666666,
+      "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
         "toughclaws",
@@ -440,7 +440,7 @@
       "eggCycles": 51,
       "baseFriendship": 70,
       "preEvolution": "meowth form=cefiran_electric",
-      "baseScale": 0.16666666666666666,
+      "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
         "toughclaws",

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "stellith",
-  "baseScale": 0.2375,
+  "baseScale": 0.35624999999999996,
   "cannotDynamax": false,
   "abilities": [
     "levitate"

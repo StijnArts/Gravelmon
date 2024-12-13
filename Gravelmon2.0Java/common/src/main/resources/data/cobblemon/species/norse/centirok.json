@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "cacorok",
-  "baseScale": 0.078125,
+  "baseScale": 0.1171875,
   "cannotDynamax": false,
   "abilities": [
     "solidrock"

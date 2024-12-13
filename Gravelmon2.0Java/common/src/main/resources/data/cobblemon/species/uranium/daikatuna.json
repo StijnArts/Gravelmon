@@ -9,7 +9,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "saidine",
-  "baseScale": 0.3,
+  "baseScale": 0.45,
   "cannotDynamax": false,
   "abilities": [
     "swiftswim",

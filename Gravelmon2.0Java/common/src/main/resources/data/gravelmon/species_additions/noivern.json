@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "noibat form=epoch",
-      "baseScale": 0.25,
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
         "keeneye",
@@ -174,7 +174,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.25,
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
         "frisk",
@@ -278,7 +278,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "noibat form=delta",
-      "baseScale": 0.1875,
+      "baseScale": 0.28125,
       "cannotDynamax": false,
       "abilities": [
         "chlorophyll",
@@ -477,7 +477,7 @@
       "eggCycles": 51,
       "baseFriendship": 70,
       "preEvolution": "noibat form=seviian",
-      "baseScale": 0.25,
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
         "cursedbody",
@@ -645,7 +645,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "baseScale": 0.25,
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
         "snowwarning",
@@ -745,7 +745,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "noibat form=ayreian",
-      "baseScale": 0.25,
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
         "moldbreaker",

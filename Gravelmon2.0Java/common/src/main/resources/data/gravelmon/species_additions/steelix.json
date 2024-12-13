@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "onix form=forman",
-      "baseScale": 0.159375,
+      "baseScale": 0.23906249999999998,
       "cannotDynamax": false,
       "abilities": [
         "flamebody"
@@ -99,7 +99,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "onix form=epoch",
-      "baseScale": 1.5333333333333332,
+      "baseScale": 2.3,
       "cannotDynamax": false,
       "abilities": [
         "icebody",

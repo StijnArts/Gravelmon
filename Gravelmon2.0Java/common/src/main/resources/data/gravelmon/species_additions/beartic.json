@@ -31,7 +31,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "cubchoo form=epoch",
-      "baseScale": 0.43333333333333335,
+      "baseScale": 0.65,
       "cannotDynamax": false,
       "abilities": [
         "gluttony",
@@ -187,7 +187,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "cubchoo form=qamoran",
-      "baseScale": 0.13333333333333333,
+      "baseScale": 0.2,
       "cannotDynamax": false,
       "abilities": [
         "gooey"

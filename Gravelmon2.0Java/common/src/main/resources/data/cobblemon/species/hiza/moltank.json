@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "melant",
-  "baseScale": 0.5499999999999999,
+  "baseScale": 0.825,
   "cannotDynamax": false,
   "abilities": [
     "magmaarmor",

@@ -9,7 +9,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "pressaur",
-  "baseScale": 0.0625,
+  "baseScale": 0.09375,
   "cannotDynamax": false,
   "abilities": [
     "clearbody",

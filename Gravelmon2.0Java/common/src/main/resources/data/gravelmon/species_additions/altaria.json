@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "swablu form=epoch",
-      "baseScale": 0.18333333333333335,
+      "baseScale": 0.275,
       "cannotDynamax": false,
       "abilities": [
         "neutralizinggas",
@@ -175,7 +175,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.18333333333333335,
+      "baseScale": 0.275,
       "cannotDynamax": false,
       "abilities": [
         "cloudnine",
@@ -335,7 +335,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "swablu form=varitasian",
-      "baseScale": 0.18333333333333335,
+      "baseScale": 0.275,
       "cannotDynamax": false,
       "abilities": [
         "naturalcure",
@@ -494,7 +494,7 @@
       "eggCycles": 39,
       "baseFriendship": 70,
       "preEvolution": "swablu form=egho",
-      "baseScale": 0.125,
+      "baseScale": 0.1875,
       "cannotDynamax": false,
       "abilities": [
         "levitate",
@@ -668,7 +668,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "swablu form=ayreian",
-      "baseScale": 0.18333333333333335,
+      "baseScale": 0.275,
       "cannotDynamax": false,
       "abilities": [
         "levitate",

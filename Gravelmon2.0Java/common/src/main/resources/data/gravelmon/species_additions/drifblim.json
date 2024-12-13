@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "drifloon form=epoch",
-      "baseScale": 0.19999999999999998,
+      "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
         "flamebody",
@@ -151,7 +151,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "drifloon form=delta",
-      "baseScale": 0.15,
+      "baseScale": 0.22499999999999998,
       "cannotDynamax": false,
       "abilities": [
         "flashfire",
@@ -324,7 +324,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "drifloon form=ayreian",
-      "baseScale": 0.19999999999999998,
+      "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
         "aftermath",

@@ -93,7 +93,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.65,
+      "baseScale": 0.975,
       "cannotDynamax": false,
       "abilities": [
         "immunity",
@@ -236,7 +236,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "baseScale": 0.65,
+      "baseScale": 0.975,
       "cannotDynamax": false,
       "abilities": [
         "sapsipper",

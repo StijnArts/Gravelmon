@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "spacteel",
-  "baseScale": 0.128125,
+  "baseScale": 0.19218749999999998,
   "cannotDynamax": false,
   "abilities": [
     "torrent"

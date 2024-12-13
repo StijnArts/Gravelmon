@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "icephan",
-  "baseScale": 0.078125,
+  "baseScale": 0.1171875,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"

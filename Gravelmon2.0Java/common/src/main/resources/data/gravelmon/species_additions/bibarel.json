@@ -94,7 +94,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "bidoof form=epoch",
-      "baseScale": 0.16666666666666666,
+      "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
         "superluck",
@@ -264,7 +264,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "bidoof form=kaskadian",
-      "baseScale": 0.19999999999999998,
+      "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
         "simple",

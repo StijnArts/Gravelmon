@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "happiny form=epoch",
-      "baseScale": 0.18333333333333335,
+      "baseScale": 0.275,
       "cannotDynamax": false,
       "abilities": [
         "analytic",
@@ -196,7 +196,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "happiny form=avalossian",
-      "baseScale": 0.18333333333333335,
+      "baseScale": 0.275,
       "cannotDynamax": false,
       "abilities": [
         "flamebody",
@@ -429,7 +429,7 @@
       "eggCycles": 100,
       "baseFriendship": 70,
       "preEvolution": "happiny form=egho",
-      "baseScale": 0.1375,
+      "baseScale": 0.20625000000000002,
       "cannotDynamax": false,
       "abilities": [
         "angerpoint",

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "igon",
-  "baseScale": 0.025,
+  "baseScale": 0.037500000000000006,
   "cannotDynamax": false,
   "abilities": [
     "poisonpoint",

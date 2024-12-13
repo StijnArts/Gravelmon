@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "feebas form=epoch",
-      "baseScale": 1.0333333333333334,
+      "baseScale": 1.55,
       "cannotDynamax": false,
       "abilities": [
         "wonderskin",
@@ -166,7 +166,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 1.0333333333333334,
+      "baseScale": 1.55,
       "cannotDynamax": false,
       "abilities": [
         "dryskin"
@@ -314,7 +314,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "feebas form=delta",
-      "baseScale": 0.38750000000000007,
+      "baseScale": 0.58125,
       "cannotDynamax": false,
       "abilities": [
         "regenerator",
@@ -496,7 +496,7 @@
       "eggCycles": 51,
       "baseFriendship": 70,
       "preEvolution": "feebas form=seviian",
-      "baseScale": 0.5166666666666667,
+      "baseScale": 0.775,
       "cannotDynamax": false,
       "abilities": [
         "marvelscale",

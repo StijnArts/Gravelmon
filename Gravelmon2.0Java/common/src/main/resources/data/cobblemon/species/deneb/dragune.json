@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "laquagon",
-  "baseScale": 0.6875,
+  "baseScale": 1.03125,
   "cannotDynamax": false,
   "abilities": [
     "rockhead"

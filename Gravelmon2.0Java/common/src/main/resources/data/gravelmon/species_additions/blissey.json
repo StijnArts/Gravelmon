@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "chansey form=epoch",
-      "baseScale": 0.25,
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
         "analytic",
@@ -175,7 +175,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "chansey form=avalossian",
-      "baseScale": 0.25,
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
         "flamebody",
@@ -384,7 +384,7 @@
       "eggCycles": 100,
       "baseFriendship": 70,
       "preEvolution": "chansey form=egho",
-      "baseScale": 0.1875,
+      "baseScale": 0.28125,
       "cannotDynamax": false,
       "abilities": [
         "angerpoint",

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "takoyuki",
-  "baseScale": 0.48333333333333334,
+  "baseScale": 0.725,
   "cannotDynamax": false,
   "abilities": [
     "icebody",

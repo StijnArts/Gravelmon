@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "aron form=epoch",
-      "baseScale": 0.15,
+      "baseScale": 0.225,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
@@ -178,7 +178,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "aron form=hizian",
-      "baseScale": 0.15,
+      "baseScale": 0.225,
       "cannotDynamax": false,
       "abilities": [
         "sheerforce",
@@ -350,7 +350,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "aron form=delta",
-      "baseScale": 0.11249999999999999,
+      "baseScale": 0.16875,
       "cannotDynamax": false,
       "abilities": [
         "flamebody",
@@ -541,7 +541,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "aron form=ayreian",
-      "baseScale": 0.15,
+      "baseScale": 0.225,
       "cannotDynamax": false,
       "abilities": [
         "sturdy",

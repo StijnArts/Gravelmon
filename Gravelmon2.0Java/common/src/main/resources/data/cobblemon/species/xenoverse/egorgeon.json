@@ -9,7 +9,7 @@
   "eggCycles": 32,
   "baseFriendship": 70,
   "preEvolution": "egohiss",
-  "baseScale": 0.5,
+  "baseScale": 0.75,
   "cannotDynamax": false,
   "abilities": [
     "shedskin",

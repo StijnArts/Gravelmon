@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "collectrap",
-  "baseScale": 0.109375,
+  "baseScale": 0.1640625,
   "cannotDynamax": false,
   "abilities": [
     "arenatrap"

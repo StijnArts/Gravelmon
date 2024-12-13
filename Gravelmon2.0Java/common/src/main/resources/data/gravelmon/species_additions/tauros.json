@@ -12,7 +12,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.056249999999999994,
+      "baseScale": 0.084375,
       "cannotDynamax": false,
       "abilities": [
         "flamebody"
@@ -96,7 +96,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.2333333333333333,
+      "baseScale": 0.35,
       "cannotDynamax": false,
       "abilities": [
         "flashfire",
@@ -252,7 +252,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.2333333333333333,
+      "baseScale": 0.49411764705882355,
       "cannotDynamax": false,
       "abilities": [
         "angerpoint"

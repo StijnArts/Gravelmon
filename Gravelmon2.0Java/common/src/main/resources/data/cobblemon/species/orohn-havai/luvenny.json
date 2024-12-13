@@ -7,7 +7,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 4.800000000000001,
+  "baseScale": 6.0,
   "cannotDynamax": false,
   "abilities": [
     "pickup",

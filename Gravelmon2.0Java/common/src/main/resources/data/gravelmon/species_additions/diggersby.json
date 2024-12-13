@@ -96,7 +96,7 @@
       "eggCycles": 51,
       "baseFriendship": 70,
       "preEvolution": "bunnelby form=kaskadian",
-      "baseScale": 0.16666666666666666,
+      "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
         "slushrush",

@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "munchlax form=epoch",
-      "baseScale": 0.35000000000000003,
+      "baseScale": 0.525,
       "cannotDynamax": false,
       "abilities": [
         "moody",
@@ -189,7 +189,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.31666666666666665,
+      "baseScale": 0.475,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -277,7 +277,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "munchlax form=delta",
-      "baseScale": 0.2625,
+      "baseScale": 0.39375000000000004,
       "cannotDynamax": false,
       "abilities": [
         "overcoat",
@@ -454,7 +454,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.35000000000000003,
+      "baseScale": 0.525,
       "cannotDynamax": false,
       "abilities": [
         "icebody",

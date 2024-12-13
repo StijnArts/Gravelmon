@@ -243,7 +243,7 @@
       "experienceGroup": "slow",
       "eggCycles": 41,
       "baseFriendship": 70,
-      "baseScale": 0.2,
+      "baseScale": 0.30000000000000004,
       "cannotDynamax": false,
       "abilities": [
         "hugepower",
@@ -478,7 +478,7 @@
       "experienceGroup": "slow",
       "eggCycles": 41,
       "baseFriendship": 70,
-      "baseScale": 0.38750000000000007,
+      "baseScale": 0.58125,
       "cannotDynamax": false,
       "abilities": [
         "voicetuning"
@@ -694,7 +694,7 @@
       "experienceGroup": "slow",
       "eggCycles": 41,
       "baseFriendship": 70,
-      "baseScale": 0.07500000000000001,
+      "baseScale": 0.09375,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"

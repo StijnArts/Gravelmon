@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1375,
+  "baseScale": 0.20625000000000002,
   "cannotDynamax": false,
   "abilities": [
     "shadowtag",

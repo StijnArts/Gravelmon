@@ -114,7 +114,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "gible form=palmian",
-      "baseScale": 0.04375,
+      "baseScale": 0.06562499999999999,
       "cannotDynamax": false,
       "abilities": [
         "sandstream",
@@ -215,7 +215,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "gible form=raianian",
-      "baseScale": 0.040625,
+      "baseScale": 0.060937500000000006,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -315,7 +315,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "gible form=trizoran",
-      "baseScale": 0.046875,
+      "baseScale": 0.0703125,
       "cannotDynamax": false,
       "abilities": [
         "motordrive"
@@ -417,7 +417,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "gible form=norse",
-      "baseScale": 0.04375,
+      "baseScale": 0.06562499999999999,
       "cannotDynamax": false,
       "abilities": [
         "slushrush"
@@ -519,7 +519,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "gible form=epoch",
-      "baseScale": 0.2333333333333333,
+      "baseScale": 0.35,
       "cannotDynamax": false,
       "abilities": [
         "unnerve",
@@ -693,7 +693,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.2333333333333333,
+      "baseScale": 0.35,
       "cannotDynamax": false,
       "abilities": [
         "roughskin",

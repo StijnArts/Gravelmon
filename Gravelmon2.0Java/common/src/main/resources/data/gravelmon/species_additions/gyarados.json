@@ -96,7 +96,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "magikarp form=epoch",
-      "baseScale": 1.0833333333333333,
+      "baseScale": 1.625,
       "cannotDynamax": false,
       "abilities": [
         "angerpoint",

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "radizorb",
-  "baseScale": 16.0,
+  "baseScale": 24.0,
   "cannotDynamax": false,
   "abilities": [
     "solidrock",

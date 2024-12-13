@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "twigit",
-  "baseScale": 0.16666666666666666,
+  "baseScale": 0.25,
   "cannotDynamax": false,
   "abilities": [
     "overgrow"

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "moreel",
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.525,
   "cannotDynamax": false,
   "abilities": [
     "moxie",

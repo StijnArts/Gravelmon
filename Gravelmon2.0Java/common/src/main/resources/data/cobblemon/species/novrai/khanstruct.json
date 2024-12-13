@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "playmight",
-  "baseScale": 0.3666666666666667,
+  "baseScale": 0.55,
   "cannotDynamax": false,
   "abilities": [
     "stalwart",

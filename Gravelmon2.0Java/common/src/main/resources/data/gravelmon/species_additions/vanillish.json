@@ -115,7 +115,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "vanillite form=epoch",
-      "baseScale": 0.18333333333333335,
+      "baseScale": 0.275,
       "cannotDynamax": false,
       "abilities": [
         "eartheater",
@@ -265,7 +265,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.18333333333333335,
+      "baseScale": 0.275,
       "cannotDynamax": false,
       "abilities": [
         "magmaarmor",
@@ -427,7 +427,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "vanillite form=avalossian",
-      "baseScale": 0.18333333333333335,
+      "baseScale": 0.275,
       "cannotDynamax": false,
       "abilities": [
         "icebody",
@@ -581,7 +581,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "vanillite form=novran",
-      "baseScale": 0.18333333333333335,
+      "baseScale": 0.275,
       "cannotDynamax": false,
       "abilities": [
         "ripen",
@@ -747,7 +747,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "vanillite form=ayreian",
-      "baseScale": 0.18333333333333335,
+      "baseScale": 0.275,
       "cannotDynamax": false,
       "abilities": [
         "levitate",

@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "sizzlipede form=epoch",
-      "baseScale": 0.5,
+      "baseScale": 0.75,
       "cannotDynamax": false,
       "abilities": [
         "merciless",
@@ -159,7 +159,7 @@
       "eggCycles": 51,
       "baseFriendship": 70,
       "preEvolution": "sizzlipede form=seviian",
-      "baseScale": 0.5,
+      "baseScale": 0.75,
       "cannotDynamax": false,
       "abilities": [
         "shedskin",
@@ -290,7 +290,7 @@
       "eggCycles": 51,
       "baseFriendship": 70,
       "preEvolution": "sizzlipede form=ayreian",
-      "baseScale": 0.5,
+      "baseScale": 0.75,
       "cannotDynamax": false,
       "abilities": [
         "flashfire",
