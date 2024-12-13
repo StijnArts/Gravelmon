@@ -10,7 +10,9 @@ public class Infinity extends Game {
 
     @Override
     public void registerPokemon() {
-        addPokedexPokemon("bulbasaur-egho, ivysaur-egho, venusaur-egho, charmander-egho, charmeleon-egho, charizard-egho, squirtle-egho, wartortle-egho, blastoise-egho");
+        addPokedexPokemon("bulbasaur-egho, ivysaur-egho, venusaur-egho, " +
+                "charmander-egho, charmeleon-egho, charizard-egho, " +
+                "squirtle-egho, wartortle-egho, blastoise-egho");
         //Lukpup line
         addNewPokemon(new Lukpup());
         addNewPokemon(new Lukagon());
@@ -71,13 +73,19 @@ public class Infinity extends Game {
         addNewPokemon(new Terathwack());
         addPokedexPokemon("spearow-egho, fearow-egho, hoothoot-egho, noctowl-egho");
         addNewPokemon(new Grimfowl());
-        addPokedexPokemon("azurill-egho, marill-egho, azumarill-egho, trubbish-egho, garbodor-egho, swablu-egho, altaria-egho, lotad-egho, lombre-egho, ludicolo-egho, sunkern, sunflora");
+        addPokedexPokemon("azurill-egho, marill-egho, azumarill-egho, " +
+                "trubbish-egho, garbodor-egho," +
+                " swablu-egho, altaria-egho, " +
+                "lotad-egho, lombre-egho, ludicolo-egho" +
+                ", sunkern, sunflora");
         addNewPokemon(new Sunflorid());
         addPokedexPokemon("smoochum, jynx");
         addNewPokemon(new Sorcerice());
         addPokedexPokemon("kecleon");
         addNewPokemon(new Kecleodon());
-        addPokedexPokemon("magnemite-egho, magneton-egho, magnezone-egho, tangela-egho, tangrowth-egho, poochyena, mightyena");
+        addPokedexPokemon("magnemite-egho, magneton-egho, magnezone-egho, " +
+                "tangela-egho, tangrowth-egho, " +
+                "poochyena, mightyena");
         addNewPokemon(new Wereyena());
         addNewPokemon(new Reaptide().fishingSpawnFromExisting());
         addPokedexPokemon("happiny-egho, chansey-egho, blissey-egho");

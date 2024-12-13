@@ -1,4 +1,4 @@
-package drai.dev.data.games.other;
+package drai.dev.data.games.pokemmo;
 
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.flux.*;
