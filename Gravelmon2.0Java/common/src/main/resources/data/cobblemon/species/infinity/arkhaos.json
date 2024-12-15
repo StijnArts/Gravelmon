@@ -13,6 +13,32 @@
     "shedskin",
     "h:multiscale"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": true,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 140,
     "attack": 136,
@@ -191,31 +217,8 @@
   "weight": 8880,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1471,
+  "nationalPokedexNumber": 1472,
   "shoulderMountable": false,
-  "behaviour": {
-    "resting": {
-      "canSleep": true,
-      "willSleepOnBed": false,
-      "depth": "normal",
-      "light": "0-6"
-    },
-    "moving": {
-      "fly": {
-        "canFly": true
-      },
-      "canLook": true,
-      "walk": {
-        "canWalk": true,
-        "avoidsLand": false
-      },
-      "swim": {
-        "swimSpeed": 0.1,
-        "canSwimInWater": true,
-        "canBreatheUnderwater": false
-      }
-    }
-  },
   "hitbox": {
     "width": 4.0,
     "height": 2.5,

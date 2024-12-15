@@ -112,7 +112,6 @@ public class EghoWartortle extends Pokemon {
                 0.36, 0.3,
                 List.of());
         this.setLangFileName("Wartortle");
-        this.setPortraitXYZ(0,1.8,0);
         
         this.setBaseScale(1);
         this.setCanSwim(false);

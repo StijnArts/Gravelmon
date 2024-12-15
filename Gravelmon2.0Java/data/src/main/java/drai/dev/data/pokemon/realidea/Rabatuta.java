@@ -9,7 +9,7 @@ import java.util.*;
 public class Rabatuta extends Pokemon {
     public Rabatuta() {
         super("Rabatuta",
-                Type.FIRE,
+                Type.FIRE, Type.SOUND,
                 new Stats(70,60,75,65,75,75),
                 List.of(Ability.BLAZE), Ability.SOLAR_POWER,
                 14, 330,

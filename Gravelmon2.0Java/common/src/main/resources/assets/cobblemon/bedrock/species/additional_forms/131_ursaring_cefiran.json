@@ -6,8 +6,8 @@
       "aspects": [
         "cefiran"
       ],
-      "model": "cobblemon:cutout_gravelmon_96_by_96.geo",
-      "poser": "cobblemon:cutout_gravelmon_96_by_96",
+      "model": "cobblemon:cutout_gravelmon_122_by_136.geo",
+      "poser": "cobblemon:cutout_gravelmon_122_by_136",
       "texture": "cobblemon:textures/pokemon/generation2/cefiranursaring.png",
       "layers": [
         {

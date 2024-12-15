@@ -104,7 +104,6 @@ public class EghoSquirtle extends Pokemon {
                 0.29, 0.3,
                 List.of());
         this.setLangFileName("Squirtle");
-        this.setPortraitXYZ(0,1.8,0);
         this.setCanFly(true);
         
         this.setBaseScale(0.7);

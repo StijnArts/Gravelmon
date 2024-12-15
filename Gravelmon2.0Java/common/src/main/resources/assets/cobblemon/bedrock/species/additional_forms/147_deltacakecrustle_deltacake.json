@@ -6,8 +6,8 @@
       "aspects": [
         "deltacake"
       ],
-      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_128",
+      "model": "cobblemon:cutout_gravelmon_176_by_144.geo",
+      "poser": "cobblemon:cutout_gravelmon_176_by_144",
       "texture": "cobblemon:textures/pokemon/generation5/deltacakecrustle.png",
       "layers": [
         {

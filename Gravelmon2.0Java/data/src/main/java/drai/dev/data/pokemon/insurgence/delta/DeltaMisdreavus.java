@@ -121,7 +121,6 @@ public class DeltaMisdreavus extends Pokemon {
                 List.of());
         this.setLangFileName("Misdreavus");
         this.setCanFly(true);
-        this.setPortraitXYZ(0,1.8,0);
         setBaseScale(1.0);
         setHitbox(1.0, 1.0);
         

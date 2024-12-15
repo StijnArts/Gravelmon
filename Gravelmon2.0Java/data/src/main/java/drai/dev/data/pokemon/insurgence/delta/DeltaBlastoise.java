@@ -178,7 +178,6 @@ public class DeltaBlastoise extends Pokemon {
                         0.48, 0.3
                 )));
         this.setLangFileName("Blastoise");
-        this.setPortraitXYZ(0,1.8,0);
         this.setBaseScale(1.3);
         this.setHitbox(1.1,2.1);
         

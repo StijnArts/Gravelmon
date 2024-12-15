@@ -126,7 +126,6 @@ public class DeltaHeatmor extends Pokemon {
                 0.22, 0.3,
                 List.of());
         this.setLangFileName("Heatmor");
-        this.setPortraitXYZ(0,1.8,0);
 
         this.setBaseScale(1);
         this.setHitbox(1,1);

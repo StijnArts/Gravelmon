@@ -34,6 +34,32 @@
       "abilities": [
         "icebody"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 52,
         "attack": 28,
@@ -91,32 +117,9 @@
         }
       ],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 1.6,
+        "height": 1.6,
         "fixed": false
       }
     },
@@ -136,6 +139,32 @@
         "earlybird",
         "competitive"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 60,
         "attack": 35,
@@ -245,32 +274,9 @@
         }
       ],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 1.4,
+        "height": 1.4,
         "fixed": false
       }
     },
@@ -290,6 +296,32 @@
         "cutecharm",
         "h:waterveil"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 45,
         "attack": 75,
@@ -411,32 +443,9 @@
         }
       ],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 1.4,
+        "height": 1.4,
         "fixed": false
       }
     },
@@ -456,6 +465,32 @@
         "trace",
         "h:psychocall"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 35,
         "attack": 85,
@@ -586,6 +621,29 @@
         }
       ],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.6,
+        "height": 1.4,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Seviian",
+      "primaryType": "fire",
+      "secondaryType": "ground",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 62,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "baseScale": 0.5249999999999999,
+      "cannotDynamax": false,
+      "abilities": [
+        "rockhead",
+        "earlybird",
+        "h:angerpoint"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -605,33 +663,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 0.6,
-        "height": 1.4,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Seviian",
-      "primaryType": "fire",
-      "secondaryType": "ground",
-      "catchRate": 190,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 62,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 51,
-      "baseFriendship": 70,
-      "baseScale": 0.35,
-      "cannotDynamax": false,
-      "abilities": [
-        "rockhead",
-        "earlybird",
-        "h:angerpoint"
-      ],
       "baseStats": {
         "hp": 40,
         "attack": 80,
@@ -746,6 +784,27 @@
         }
       ],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 1.4,
+        "height": 1.4,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Ayreian",
+      "primaryType": "normal",
+      "secondaryType": "ice",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.4,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -765,31 +824,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Ayreian",
-      "primaryType": "normal",
-      "secondaryType": "ice",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.4,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
       "baseStats": {
         "hp": 45,
         "attack": 75,
@@ -900,32 +941,9 @@
         }
       ],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 1.6,
+        "height": 1.6,
         "fixed": false
       }
     }

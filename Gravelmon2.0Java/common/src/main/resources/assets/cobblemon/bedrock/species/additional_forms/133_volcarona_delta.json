@@ -6,8 +6,8 @@
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_128",
+      "model": "cobblemon:cutout_gravelmon_200_by_198.geo",
+      "poser": "cobblemon:cutout_gravelmon_200_by_198",
       "texture": "cobblemon:textures/pokemon/generation5/deltavolcarona.png",
       "layers": [
         {

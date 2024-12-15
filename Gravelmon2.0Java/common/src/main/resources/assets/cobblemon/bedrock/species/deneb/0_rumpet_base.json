@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_128",
+      "model": "cobblemon:cutout_gravelmon_32_by_36.geo",
+      "poser": "cobblemon:cutout_gravelmon_32_by_36",
       "texture": "cobblemon:textures/pokemon/deneb/rumpet.png",
       "layers": [
         {

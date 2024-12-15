@@ -118,6 +118,5 @@ public class DeltaMeditite extends Pokemon {
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Meditite");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

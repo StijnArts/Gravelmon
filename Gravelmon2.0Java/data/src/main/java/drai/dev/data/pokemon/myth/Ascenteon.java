@@ -76,7 +76,6 @@ public class Ascenteon extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.21, 0.3,
                 List.of());
-        this.setPortraitXYZ(0,1.8,0);
         addAdditionalEvolution("eevee", new EvolutionEntry("ascenteon", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:dragon_fang"))));
     }

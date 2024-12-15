@@ -17,6 +17,32 @@
         "effectspore",
         "h:quickfeet"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 0,
         "attack": 0,
@@ -55,32 +81,9 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 0.0,
+        "height": 0.0,
         "fixed": false
       }
     },
@@ -100,6 +103,32 @@
         "aftermath",
         "h:clearbody"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 60,
         "attack": 40,
@@ -215,32 +244,9 @@
         }
       ],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 0.4,
+        "height": 0.4,
         "fixed": false
       }
     },
@@ -261,6 +267,32 @@
         "poisontouch",
         "h:moldbreaker"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 60,
         "attack": 40,
@@ -331,32 +363,9 @@
         }
       ],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 0.4,
+        "height": 0.4,
         "fixed": false
       }
     },
@@ -376,6 +385,32 @@
         "corrosion",
         "unburden"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 60,
         "attack": 40,
@@ -486,32 +521,9 @@
         }
       ],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 0.4,
+        "height": 0.4,
         "fixed": false
       }
     }

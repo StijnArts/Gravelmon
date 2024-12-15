@@ -109,6 +109,5 @@ public class DeltaBudew extends Pokemon {
                 0.14, 0.3,
                 List.of());
         this.setLangFileName("Budew");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

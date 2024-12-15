@@ -97,7 +97,6 @@ public class Kokiseed extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.18, 0.3,
                 List.of());
-        this.setPortraitXYZ(0,1.8,0);
 
         this.setBaseScale(0.7);
         getSpeciesFileData().addBasicVariation(this);

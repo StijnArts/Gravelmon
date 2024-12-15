@@ -127,7 +127,6 @@ public class AyreianLunatone extends Pokemon {
                 0.29, 0.3,
                 List.of());
         this.setLangFileName("Lunatone");
-        this.setPortraitXYZ(0,1.8,0);
         setCanFly(true);
     }
 }

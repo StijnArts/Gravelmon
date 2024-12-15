@@ -146,6 +146,5 @@ public class AyreianAggron extends Pokemon {
                 0.29, 0.3,
                 List.of());
         this.setLangFileName("Aggron");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

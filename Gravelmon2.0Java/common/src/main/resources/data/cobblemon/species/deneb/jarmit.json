@@ -8,11 +8,37 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "ajarimus",
-  "baseScale": 0.31875,
+  "baseScale": 0.85,
   "cannotDynamax": false,
   "abilities": [
     "stench"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": true,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 75,
     "attack": 55,
@@ -117,34 +143,11 @@
   "weight": 656,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6172,
+  "nationalPokedexNumber": 6133,
   "shoulderMountable": false,
-  "behaviour": {
-    "resting": {
-      "canSleep": true,
-      "willSleepOnBed": false,
-      "depth": "normal",
-      "light": "0-6"
-    },
-    "moving": {
-      "fly": {
-        "canFly": false
-      },
-      "canLook": true,
-      "walk": {
-        "canWalk": true,
-        "avoidsLand": false
-      },
-      "swim": {
-        "swimSpeed": 0.1,
-        "canSwimInWater": true,
-        "canBreatheUnderwater": false
-      }
-    }
-  },
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 1.7,
+    "height": 1.7,
     "fixed": false
   },
   "features": [],

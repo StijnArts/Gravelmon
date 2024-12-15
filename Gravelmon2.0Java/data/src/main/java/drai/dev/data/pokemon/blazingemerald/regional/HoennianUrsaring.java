@@ -72,7 +72,6 @@ public class HoennianUrsaring extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Ursaring");
-        this.setPortraitXYZ(0,1.8,0);
         
         this.setHitbox(0.7, 2.14);
         this.setBaseScale(1.1);

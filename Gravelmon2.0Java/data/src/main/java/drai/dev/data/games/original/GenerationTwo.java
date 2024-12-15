@@ -23,7 +23,6 @@ import drai.dev.data.pokemon.lagoone.regional.*;
 import drai.dev.data.pokemon.lockemon.regional.*;
 import drai.dev.data.pokemon.mahal.regional.*;
 import drai.dev.data.pokemon.mastenia.regional.*;
-import drai.dev.data.pokemon.myth.regional.*;
 import drai.dev.data.pokemon.norheim.regional.*;
 import drai.dev.data.pokemon.novrai.regional.*;
 import drai.dev.data.pokemon.opalo.regional.*;
@@ -213,8 +212,6 @@ public class GenerationTwo extends Game {
         addNewPokemon(new SeviianUrsaring("", Aspect.SEVIIAN));
         addNewPokemon(new SeviianMantine("", Aspect.SEVIIAN));
 
-        addMythianPokemon();
-
         //Pokemon Flux
         addNewPokemon(new AlteranLedian("", Aspect.ALTERAN));
 
@@ -264,7 +261,7 @@ public class GenerationTwo extends Game {
         addNewPokemon(new CefiranMagcargo("", Aspect.CEFIRAN));
         addNewPokemon(new CefiranDelibird("", Aspect.CEFIRAN));
         addNewPokemon(new CefiranSmeargle("", Aspect.CEFIRAN));
-
+        addNewPokemon(new CefiranCelebi("", Aspect.CEFIRAN));
     }
 
     private void addFormanPokemon() {
@@ -447,13 +444,6 @@ public class GenerationTwo extends Game {
         addNewPokemon(new EpochSentret("", Aspect.EPOCH));
         addNewPokemon(new EpochFurret("", Aspect.EPOCH));
         addNewPokemon(new EpochCrobat("", Aspect.EPOCH));
-    }
-
-    private void addMythianPokemon() {
-        addNewPokemon(new MythianMareep("Mareep", Aspect.MYTHIAN));
-        addNewPokemon(new MythianFlaaffy("Flaaffy", Aspect.MYTHIAN));
-        addNewPokemon(new MythianAmpharos("Ampharos", Aspect.MYTHIAN));
-        addNewPokemon(new MythianScizor("Scizor", Aspect.MYTHIAN));
     }
 
     private void addHoennianPokemon() {

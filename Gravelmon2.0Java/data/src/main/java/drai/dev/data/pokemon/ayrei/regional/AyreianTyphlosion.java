@@ -169,6 +169,5 @@ public class AyreianTyphlosion extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Typhlosion");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

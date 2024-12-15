@@ -6,8 +6,8 @@
       "aspects": [
         "egho"
       ],
-      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_128",
+      "model": "cobblemon:cutout_gravelmon_158_by_126.geo",
+      "poser": "cobblemon:cutout_gravelmon_158_by_126",
       "texture": "cobblemon:textures/pokemon/generation4/eghotangrowth.png",
       "layers": [
         {

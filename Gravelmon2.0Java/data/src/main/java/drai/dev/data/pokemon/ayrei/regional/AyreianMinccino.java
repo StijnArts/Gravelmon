@@ -104,6 +104,5 @@ public class AyreianMinccino extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Minccino");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

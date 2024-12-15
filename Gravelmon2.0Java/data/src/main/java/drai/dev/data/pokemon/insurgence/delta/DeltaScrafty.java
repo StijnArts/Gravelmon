@@ -131,6 +131,5 @@ public class DeltaScrafty extends Pokemon {
                 0.3, 0.3,
                 List.of());
         this.setLangFileName("Scrafty");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

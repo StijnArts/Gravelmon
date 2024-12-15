@@ -18,6 +18,32 @@
         "moxie",
         "h:slushrush"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 56,
         "attack": 80,
@@ -133,32 +159,9 @@
         }
       ],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 0.9,
+        "height": 0.9,
         "fixed": false
       }
     },
@@ -178,6 +181,32 @@
         "sapsipper",
         "grasspelt"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 70,
         "attack": 68,
@@ -248,6 +277,26 @@
         }
       ],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.9,
+        "height": 0.9,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Ayreian",
+      "primaryType": "ice",
+      "catchRate": 160,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.225,
+      "cannotDynamax": false,
+      "abilities": [
+        "thickfat"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -267,30 +316,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Ayreian",
-      "primaryType": "ice",
-      "catchRate": 160,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.225,
-      "cannotDynamax": false,
-      "abilities": [
-        "thickfat"
-      ],
       "baseStats": {
         "hp": 66,
         "attack": 55,
@@ -402,6 +434,29 @@
         }
       ],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.9,
+        "height": 0.9,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Relic",
+      "primaryType": "grass",
+      "secondaryType": "rock",
+      "catchRate": 66,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 70,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "baseScale": 0.5176470588235295,
+      "cannotDynamax": false,
+      "abilities": [
+        "sapsipper",
+        "noguard",
+        "h:rockhead"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -421,33 +476,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Relic",
-      "primaryType": "grass",
-      "secondaryType": "rock",
-      "catchRate": 66,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 70,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 51,
-      "baseFriendship": 70,
-      "baseScale": 0.275,
-      "cannotDynamax": false,
-      "abilities": [
-        "sapsipper",
-        "noguard",
-        "h:rockhead"
-      ],
       "baseStats": {
         "hp": 61,
         "attack": 75,
@@ -571,32 +606,9 @@
         }
       ],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 1.1,
+        "height": 1.1,
         "fixed": false
       }
     }

@@ -9,7 +9,7 @@ import java.util.*;
 public class Mousic extends Pokemon {
     public Mousic() {
         super("Mousic",
-                Type.FIRE,
+                Type.FIRE, Type.SOUND,
                 new Stats(45,55,55,55,50,65),
                 List.of(Ability.BLAZE), Ability.SOLAR_POWER,
                 6, 85,

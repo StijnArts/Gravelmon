@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_512_by_512.geo",
-      "poser": "cobblemon:cutout_gravelmon_512_by_512",
+      "model": "cobblemon:cutout_gravelmon_868_by_677.geo",
+      "poser": "cobblemon:cutout_gravelmon_868_by_677",
       "texture": "cobblemon:textures/pokemon/eternalforest/wormeel.png",
       "layers": [
         {

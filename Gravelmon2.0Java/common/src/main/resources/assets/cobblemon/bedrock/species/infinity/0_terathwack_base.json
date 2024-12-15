@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_128",
+      "model": "cobblemon:cutout_gravelmon_136_by_154.geo",
+      "poser": "cobblemon:cutout_gravelmon_136_by_154",
       "texture": "cobblemon:textures/pokemon/infinity/terathwack.png",
       "layers": [
         {

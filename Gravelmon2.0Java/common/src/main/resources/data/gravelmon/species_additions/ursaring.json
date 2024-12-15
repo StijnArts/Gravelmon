@@ -18,6 +18,32 @@
         "toughclaws",
         "h:clearbody"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 85,
         "attack": 85,
@@ -156,32 +182,9 @@
         }
       ],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 1.8,
+        "height": 1.8,
         "fixed": false
       }
     },
@@ -202,6 +205,32 @@
         "toughclaws",
         "h:guts"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 70,
         "attack": 120,
@@ -278,6 +307,30 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 1.8,
+        "height": 1.8,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Seviian",
+      "primaryType": "ghost",
+      "secondaryType": "fighting",
+      "catchRate": 60,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 175,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "preEvolution": "teddiursa form=seviian",
+      "baseScale": 0.675,
+      "cannotDynamax": false,
+      "abilities": [
+        "guts",
+        "quickfeet",
+        "h:cursedbody"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -297,34 +350,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 1.8,
-        "height": 1.8,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Seviian",
-      "primaryType": "ghost",
-      "secondaryType": "fighting",
-      "catchRate": 60,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 175,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 51,
-      "baseFriendship": 70,
-      "preEvolution": "teddiursa form=seviian",
-      "baseScale": 0.45,
-      "cannotDynamax": false,
-      "abilities": [
-        "guts",
-        "quickfeet",
-        "h:cursedbody"
-      ],
       "baseStats": {
         "hp": 100,
         "attack": 110,
@@ -442,6 +474,29 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 1.8,
+        "height": 1.8,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Cefiran",
+      "primaryType": "dark",
+      "catchRate": 60,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 175,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "teddiursa form=cefiran",
+      "baseScale": 0.31764705882352945,
+      "cannotDynamax": false,
+      "abilities": [
+        "guts",
+        "intimidate",
+        "h:unnerve"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -461,33 +516,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Cefiran",
-      "primaryType": "dark",
-      "catchRate": 60,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 175,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "teddiursa form=cefiran",
-      "baseScale": 0.45,
-      "cannotDynamax": false,
-      "abilities": [
-        "guts",
-        "intimidate",
-        "h:unnerve"
-      ],
       "baseStats": {
         "hp": 90,
         "attack": 125,
@@ -555,32 +590,9 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 1.8,
+        "height": 1.8,
         "fixed": false
       }
     }

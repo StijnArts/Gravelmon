@@ -87,6 +87,5 @@ public class AyreianSprigatito extends Pokemon {
                 0.29, 0.3,
                 List.of());
         this.setLangFileName("Sprigatito");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

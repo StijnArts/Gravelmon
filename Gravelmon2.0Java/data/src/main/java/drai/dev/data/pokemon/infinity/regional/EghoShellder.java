@@ -107,7 +107,6 @@ public class EghoShellder extends Pokemon {
         setCanBreathUnderwater(true);
         setAvoidsLand(true);
         this.setLangFileName("Shellder");
-        this.setPortraitXYZ(0,1.8,0);
                 this.setPreEvolution("shellder");
         addAdditionalEvolution("shellder", new EvolutionEntry("shellder egho", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"gravelmon:slowpoke_tail"));

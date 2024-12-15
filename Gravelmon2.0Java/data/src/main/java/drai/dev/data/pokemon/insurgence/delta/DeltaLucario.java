@@ -185,7 +185,6 @@ public class DeltaLucario extends Pokemon {
                         0.48, 0.3
                 )));
         this.setLangFileName("Lucario");
-        this.setPortraitXYZ(0,1.8,0);
         
         this.setBaseScale(1.1);
         this.setHitbox(0.8,2.45);

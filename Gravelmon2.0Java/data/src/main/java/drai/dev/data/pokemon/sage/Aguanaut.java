@@ -142,7 +142,6 @@ public class Aguanaut extends Pokemon {
                 0.6, 0.3,
                 List.of());
         this.setCanSwim(true);
-        this.setPortraitXYZ(0.1, 1.5, 0);
 
         this.setBaseScale(1);
         getSpeciesFileData().addBasicVariation(this);

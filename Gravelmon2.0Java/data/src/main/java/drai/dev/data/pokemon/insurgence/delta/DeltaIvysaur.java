@@ -127,7 +127,6 @@ public class DeltaIvysaur extends Pokemon {
                 List.of());
         this.setLangFileName("Ivysaur");
         this.setHasGenderDifferences(true);
-        this.setPortraitXYZ(0,1.8,0);
         
         this.setBaseScale(1);
         this.setHitbox(0.7,1);

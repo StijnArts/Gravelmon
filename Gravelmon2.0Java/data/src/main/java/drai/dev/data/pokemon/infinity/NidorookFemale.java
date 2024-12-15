@@ -121,7 +121,6 @@ public class NidorookFemale extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.32, 0.3,
                 List.of());
-        this.setPortraitXYZ(0,1.8,0);
         this.setPreEvolution("nidorina");
     }
 }

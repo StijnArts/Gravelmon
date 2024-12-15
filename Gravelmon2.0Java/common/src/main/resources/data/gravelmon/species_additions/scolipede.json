@@ -19,6 +19,32 @@
         "tintedlens",
         "h:analytic"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 95,
         "attack": 35,
@@ -132,6 +158,30 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.5,
+        "height": 2.5,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Delta",
+      "primaryType": "rock",
+      "secondaryType": "fire",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 70,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "whirlipede form=delta",
+      "baseScale": 0.3407407407407407,
+      "cannotDynamax": false,
+      "abilities": [
+        "weakarmor",
+        "magmaarmor",
+        "h:moldbreaker"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -151,34 +201,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Delta",
-      "primaryType": "rock",
-      "secondaryType": "fire",
-      "catchRate": 120,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 70,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "whirlipede form=delta",
-      "baseScale": 0.43124999999999997,
-      "cannotDynamax": false,
-      "abilities": [
-        "weakarmor",
-        "magmaarmor",
-        "h:moldbreaker"
-      ],
       "baseStats": {
         "hp": 60,
         "attack": 100,
@@ -310,32 +339,9 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 2.3,
+        "height": 2.3,
         "fixed": false
       }
     }

@@ -116,6 +116,5 @@ public class DeltaFoongus extends Pokemon {
                 0.22, 0.3,
                 List.of());
         this.setLangFileName("Foongus");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

@@ -104,7 +104,6 @@ public class DeltaDiglett extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Diglett");
-        this.setPortraitXYZ(0,1.8,0);
 
         this.setBaseScale(0.8);
         this.setHitbox(0.5,0.6);

@@ -16,6 +16,32 @@
       "abilities": [
         "keeneye"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 0,
         "attack": 0,
@@ -54,6 +80,27 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.0,
+        "height": 0.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Trizoran",
+      "primaryType": "rock",
+      "secondaryType": "grass",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.21562499999999998,
+      "cannotDynamax": false,
+      "abilities": [
+        "rockhead"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -73,31 +120,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Trizoran",
-      "primaryType": "rock",
-      "secondaryType": "grass",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.21562499999999998,
-      "cannotDynamax": false,
-      "abilities": [
-        "rockhead"
-      ],
       "baseStats": {
         "hp": 77,
         "attack": 27,
@@ -151,32 +180,9 @@
         }
       ],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 4.6,
+        "height": 4.6,
         "fixed": false
       }
     },
@@ -196,6 +202,32 @@
       "abilities": [
         "flamebody"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 77,
         "attack": 41,
@@ -253,32 +285,9 @@
         }
       ],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 3.9,
+        "height": 3.9,
         "fixed": false
       }
     },
@@ -299,6 +308,32 @@
         "sturdy",
         "h:slushrush"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 35,
         "attack": 85,
@@ -436,6 +471,27 @@
         }
       ],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 8.8,
+        "height": 8.8,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Hoennian",
+      "primaryType": "rock",
+      "secondaryType": "ice",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 77,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "baseScale": 3.0,
+      "cannotDynamax": false,
+      "abilities": [
+        "crystalcase"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -455,31 +511,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Hoennian",
-      "primaryType": "rock",
-      "secondaryType": "ice",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 77,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 51,
-      "baseFriendship": 70,
-      "baseScale": 3.0,
-      "cannotDynamax": false,
-      "abilities": [
-        "crystalcase"
-      ],
       "baseStats": {
         "hp": 55,
         "attack": 35,
@@ -568,29 +606,6 @@
         }
       ],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-          }
-        }
-      },
       "hitbox": {
         "width": 1.0,
         "height": 1.0,

@@ -125,7 +125,6 @@ public class DeltaScyther extends Pokemon {
                 0.34, 0.3,
                 List.of());
         this.setLangFileName("Scyther");
-        this.setPortraitXYZ(0,1.8,0);
         
         this.setBaseScale(0.8);
         this.setHitbox(0.9,2);

@@ -9,12 +9,38 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "berswade",
-  "baseScale": 0.425,
+  "baseScale": 0.4434782608695652,
   "cannotDynamax": false,
   "abilities": [
     "torrent",
     "h:ironfist"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": true,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 105,
     "attack": 121,
@@ -108,34 +134,11 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6973,
+  "nationalPokedexNumber": 6934,
   "shoulderMountable": false,
-  "behaviour": {
-    "resting": {
-      "canSleep": true,
-      "willSleepOnBed": false,
-      "depth": "normal",
-      "light": "0-6"
-    },
-    "moving": {
-      "fly": {
-        "canFly": false
-      },
-      "canLook": true,
-      "walk": {
-        "canWalk": true,
-        "avoidsLand": false
-      },
-      "swim": {
-        "swimSpeed": 0.1,
-        "canSwimInWater": true,
-        "canBreatheUnderwater": true
-      }
-    }
-  },
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 1.7,
+    "height": 1.7,
     "fixed": false
   },
   "features": [],

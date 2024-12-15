@@ -15,7 +15,6 @@ import drai.dev.data.pokemon.ivris.regional.*;
 import drai.dev.data.pokemon.lagoone.regional.*;
 import drai.dev.data.pokemon.lockemon.regional.*;
 import drai.dev.data.pokemon.mahal.regional.*;
-import drai.dev.data.pokemon.myth.regional.*;
 import drai.dev.data.pokemon.novrai.regional.*;
 import drai.dev.data.pokemon.opalo.regional.*;
 import drai.dev.data.pokemon.phoenixrising.regional.*;
@@ -151,9 +150,6 @@ public class GenerationSix extends Game {
         addNewPokemon(new SeviianClawitzer("Clawitzer", Aspect.SEVIIAN));
         addNewPokemon(new SeviianNoibat("Noibat", Aspect.SEVIIAN));
         addNewPokemon(new SeviianNoivern("Noivern", Aspect.SEVIIAN));
-
-        //Myth
-        addNewPokemon(new MythianNoivern("Noivern", Aspect.MYTHIAN));
 
         //Daybreak
         addNewPokemon(new ArmiranFroakie("Froakie", Aspect.ARMIRAN));

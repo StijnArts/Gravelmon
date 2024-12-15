@@ -170,7 +170,6 @@ public class DeltaCharizard extends Pokemon {
                         0.48, 0.3
                 )));
         this.setLangFileName("Charizard");
-        this.setPortraitXYZ(0,1.8,0);
         
         this.setBaseScale(1.35);
         this.setHitbox(1,2.1);

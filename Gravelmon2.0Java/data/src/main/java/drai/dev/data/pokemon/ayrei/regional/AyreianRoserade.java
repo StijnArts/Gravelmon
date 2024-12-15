@@ -107,6 +107,5 @@ public class AyreianRoserade extends Pokemon {
                 0.2, 0.3,
                 List.of());
         this.setLangFileName("Roserade");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

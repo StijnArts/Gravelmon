@@ -125,6 +125,5 @@ public class Skulkraken extends Pokemon {
                 List.of());
         setCanSwim(true);
         setCanBreathUnderwater(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

@@ -42,6 +42,5 @@ public class DeltaCombee extends Pokemon {
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Combee");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

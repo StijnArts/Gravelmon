@@ -106,6 +106,5 @@ public class DeltaWhirlipede extends Pokemon {
                 0.22, 0.3,
                 List.of());
         this.setLangFileName("Whirlipede");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

@@ -16,6 +16,32 @@
       "abilities": [
         "keeneye"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 85,
         "attack": 45,
@@ -54,6 +80,27 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.0,
+        "height": 0.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Norse",
+      "primaryType": "fairy",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "pikachu form=norse",
+      "baseScale": 0.0703125,
+      "cannotDynamax": false,
+      "abilities": [
+        "cutecharm"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -73,31 +120,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Norse",
-      "primaryType": "fairy",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "pikachu form=norse",
-      "baseScale": 0.0703125,
-      "cannotDynamax": false,
-      "abilities": [
-        "cutecharm"
-      ],
       "baseStats": {
         "hp": 105,
         "attack": 37,
@@ -138,32 +167,9 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 1.5,
+        "height": 1.5,
         "fixed": false
       }
     },
@@ -184,6 +190,32 @@
         "lightningrod",
         "h:soundproof"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 60,
         "attack": 70,
@@ -296,32 +328,9 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 0.8,
+        "height": 0.8,
         "fixed": false
       }
     },
@@ -336,13 +345,39 @@
       "eggCycles": 100,
       "baseFriendship": 70,
       "preEvolution": "pikachu form=delta",
-      "baseScale": 0.15000000000000002,
+      "baseScale": 0.0897196261682243,
       "cannotDynamax": false,
       "abilities": [
         "cutecharm",
         "cloudnine",
         "h:galewings"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 60,
         "attack": 90,
@@ -471,6 +506,27 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.8,
+        "height": 0.8,
+        "fixed": false
+      }
+    },
+    {
+      "name": "X",
+      "primaryType": "steel",
+      "catchRate": 75,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 218,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.8,
+      "cannotDynamax": false,
+      "abilities": [
+        "magnetpull",
+        "h:levitate"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -490,31 +546,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "X",
-      "primaryType": "steel",
-      "catchRate": 75,
-      "maleRatio": 0.875,
-      "baseExperienceYield": 218,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.8,
-      "cannotDynamax": false,
-      "abilities": [
-        "magnetpull",
-        "h:levitate"
-      ],
       "baseStats": {
         "hp": 40,
         "attack": 150,
@@ -599,29 +637,6 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": true
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
         "width": 0.8,
         "height": 0.8,

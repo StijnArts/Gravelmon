@@ -105,6 +105,5 @@ public class DeltaGrotle extends Pokemon {
         this.setLangFileName("Grotle");
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

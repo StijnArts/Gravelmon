@@ -18,6 +18,32 @@
         "intimidate",
         "h:moxie"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 65,
         "attack": 83,
@@ -142,6 +168,27 @@
         }
       ],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.6,
+        "height": 0.6,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Delta",
+      "primaryType": "rock",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 72,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.16744186046511628,
+      "cannotDynamax": false,
+      "abilities": [
+        "innerfocus",
+        "h:battlearmor"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -161,31 +208,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Delta",
-      "primaryType": "rock",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 72,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.11249999999999999,
-      "cannotDynamax": false,
-      "abilities": [
-        "innerfocus",
-        "h:battlearmor"
-      ],
       "baseStats": {
         "hp": 45,
         "attack": 63,
@@ -324,6 +353,27 @@
         }
       ],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.6,
+        "height": 0.6,
+        "fixed": false
+      }
+    },
+    {
+      "name": "X",
+      "primaryType": "fire",
+      "catchRate": 200,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 72,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 26,
+      "baseFriendship": 70,
+      "baseScale": 0.8,
+      "cannotDynamax": false,
+      "abilities": [
+        "aftermath",
+        "h:vitalspirit"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -343,31 +393,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "X",
-      "primaryType": "fire",
-      "catchRate": 200,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 72,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 26,
-      "baseFriendship": 70,
-      "baseScale": 0.8,
-      "cannotDynamax": false,
-      "abilities": [
-        "aftermath",
-        "h:vitalspirit"
-      ],
       "baseStats": {
         "hp": 45,
         "attack": 63,
@@ -465,29 +497,6 @@
         }
       ],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
         "width": 0.5,
         "height": 0.6,

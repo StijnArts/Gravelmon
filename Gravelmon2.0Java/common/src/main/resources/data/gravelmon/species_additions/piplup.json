@@ -16,6 +16,32 @@
       "abilities": [
         "slushrush"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 53,
         "attack": 61,
@@ -139,6 +165,26 @@
         }
       ],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.4,
+        "height": 0.4,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Interian",
+      "primaryType": "bug",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.125,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -158,30 +204,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": true
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Interian",
-      "primaryType": "bug",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "erratic",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.125,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
       "baseStats": {
         "hp": 56,
         "attack": 19,
@@ -249,32 +278,9 @@
         }
       ],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 0.5,
+        "height": 0.5,
         "fixed": false
       }
     }

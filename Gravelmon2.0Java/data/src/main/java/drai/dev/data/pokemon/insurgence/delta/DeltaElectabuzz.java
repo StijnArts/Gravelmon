@@ -134,6 +134,5 @@ public class DeltaElectabuzz extends Pokemon {
                 0.25, 0.3,
                 List.of());
         this.setLangFileName("Electabuzz");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

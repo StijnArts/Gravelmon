@@ -79,7 +79,6 @@ public class AyreianQuaquaval extends Pokemon {
                 0.29, 0.3,
                 List.of());
         this.setLangFileName("Quaquaval");
-        this.setPortraitXYZ(0,1.8,0);
         this.setCanSwim(true);
     }
 }

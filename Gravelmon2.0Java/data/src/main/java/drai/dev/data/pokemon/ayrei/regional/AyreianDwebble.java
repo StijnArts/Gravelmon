@@ -100,6 +100,5 @@ public class AyreianDwebble extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Dwebble");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

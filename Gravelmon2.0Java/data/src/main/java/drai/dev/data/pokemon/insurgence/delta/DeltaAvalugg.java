@@ -126,7 +126,6 @@ public class DeltaAvalugg extends Pokemon {
                 0.39, 0.3,
                 List.of());
         this.setLangFileName("Avalugg");
-        this.setPortraitXYZ(0,1.8,0);
 
         this.setBaseScale(0.9);
         this.setHitbox(4,3);

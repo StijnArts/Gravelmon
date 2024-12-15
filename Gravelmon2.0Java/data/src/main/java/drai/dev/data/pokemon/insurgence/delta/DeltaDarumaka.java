@@ -118,7 +118,6 @@ public class DeltaDarumaka extends Pokemon {
                 0.22, 0.3,
                 List.of());
         this.setLangFileName("Darumaka");
-        this.setPortraitXYZ(0,1.8,0);
         
         this.setCanFly(true);
         this.setBaseScale(1);

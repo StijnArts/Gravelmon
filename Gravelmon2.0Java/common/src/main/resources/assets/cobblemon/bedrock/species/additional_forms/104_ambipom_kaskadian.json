@@ -6,8 +6,8 @@
       "aspects": [
         "kaskadian"
       ],
-      "model": "cobblemon:cutout_gravelmon_512_by_512.geo",
-      "poser": "cobblemon:cutout_gravelmon_512_by_512",
+      "model": "cobblemon:cutout_gravelmon_512_by_459.geo",
+      "poser": "cobblemon:cutout_gravelmon_512_by_459",
       "texture": "cobblemon:textures/pokemon/generation4/kaskadianambipom.png",
       "layers": [
         {

@@ -128,7 +128,6 @@ public class DeltaWailord extends Pokemon {
                 List.of());
         this.setLangFileName("Wailord");
         this.setCanFly(true);
-        this.setPortraitXYZ(0,1.8,0);
 
         this.setBaseScale(2);
         this.setHitbox(3.2,2.1);

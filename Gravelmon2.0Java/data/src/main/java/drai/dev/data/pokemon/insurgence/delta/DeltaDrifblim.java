@@ -126,6 +126,5 @@ public class DeltaDrifblim extends Pokemon {
                 List.of());
         this.setLangFileName("Drifblim");
         this.setCanFly(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

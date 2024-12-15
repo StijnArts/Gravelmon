@@ -125,6 +125,5 @@ public class DeltaYanmega extends Pokemon {
                 List.of());
         this.setLangFileName("Yanmega");
         this.setCanFly(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

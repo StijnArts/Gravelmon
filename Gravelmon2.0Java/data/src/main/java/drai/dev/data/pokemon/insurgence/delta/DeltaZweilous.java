@@ -127,6 +127,5 @@ public class DeltaZweilous extends Pokemon {
                 List.of());
         this.setLangFileName("Zweilous");
         this.setHasGenderDifferences(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

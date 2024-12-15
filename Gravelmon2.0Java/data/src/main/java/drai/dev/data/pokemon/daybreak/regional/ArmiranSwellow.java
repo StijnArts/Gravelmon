@@ -102,7 +102,6 @@ public class ArmiranSwellow extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Swellow");
-        this.setPortraitXYZ(0,1.8,0);
         setPreEvolution("taillow");
         setCanFly(true);
         addAdditionalEvolution("taillow", new EvolutionEntry("swellow armiran", EvolutionType.LEVEL_UP, List.of(),

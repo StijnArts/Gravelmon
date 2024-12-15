@@ -149,7 +149,6 @@ public class DeltaWartortle extends Pokemon {
                 0.29, 0.3,
                 List.of());
         this.setLangFileName("Wartortle");
-        this.setPortraitXYZ(0,1.8,0);
         
         this.setBaseScale(0.9);
         this.setHitbox(0.7,1.5);

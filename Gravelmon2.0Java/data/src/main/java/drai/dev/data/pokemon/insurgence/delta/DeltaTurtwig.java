@@ -101,6 +101,5 @@ public class DeltaTurtwig extends Pokemon {
         this.setLangFileName("Turtwig");
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

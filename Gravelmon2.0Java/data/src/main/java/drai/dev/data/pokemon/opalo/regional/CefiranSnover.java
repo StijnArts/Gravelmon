@@ -57,6 +57,5 @@ public class CefiranSnover extends Pokemon {
                 0.2, 0.3,
                 List.of());
         this.setLangFileName("Snover");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

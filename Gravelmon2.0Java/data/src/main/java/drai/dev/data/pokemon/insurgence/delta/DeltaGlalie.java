@@ -137,6 +137,5 @@ public class DeltaGlalie extends Pokemon {
                 )));
         this.setLangFileName("Glalie");
         this.setCanFly(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

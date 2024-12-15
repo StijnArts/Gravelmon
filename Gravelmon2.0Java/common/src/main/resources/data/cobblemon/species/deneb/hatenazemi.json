@@ -7,12 +7,38 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.15,
+  "baseScale": 0.31304347826086953,
   "cannotDynamax": false,
   "abilities": [
     "swarm",
     "h:earlybird"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": true,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 65,
     "attack": 50,
@@ -94,34 +120,11 @@
   "weight": 178,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6382,
+  "nationalPokedexNumber": 6343,
   "shoulderMountable": false,
-  "behaviour": {
-    "resting": {
-      "canSleep": true,
-      "willSleepOnBed": false,
-      "depth": "normal",
-      "light": "0-6"
-    },
-    "moving": {
-      "fly": {
-        "canFly": false
-      },
-      "canLook": true,
-      "walk": {
-        "canWalk": true,
-        "avoidsLand": false
-      },
-      "swim": {
-        "swimSpeed": 0.1,
-        "canSwimInWater": true,
-        "canBreatheUnderwater": false
-      }
-    }
-  },
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 0.6,
+    "height": 0.6,
     "fixed": false
   },
   "features": [
@@ -164,12 +167,38 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.7705685618729097,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
         "h:earlybird"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 65,
         "attack": 50,
@@ -213,12 +242,38 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.6988877654196157,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
         "h:earlybird"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 65,
         "attack": 50,
@@ -262,12 +317,38 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.7705685618729097,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
         "h:earlybird"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 65,
         "attack": 50,
@@ -311,12 +392,38 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.7705685618729097,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
         "h:earlybird"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 65,
         "attack": 50,
@@ -360,12 +467,38 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.7705685618729097,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
         "h:earlybird"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 65,
         "attack": 50,
@@ -409,12 +542,38 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.7705685618729097,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
         "h:earlybird"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 65,
         "attack": 50,
@@ -458,12 +617,38 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.6988877654196157,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
         "h:earlybird"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 65,
         "attack": 50,
@@ -507,12 +692,38 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.6533081285444233,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
         "h:earlybird"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 65,
         "attack": 50,
@@ -556,12 +767,38 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.7705685618729097,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
         "h:earlybird"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 65,
         "attack": 50,
@@ -605,12 +842,38 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.7705685618729097,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
         "h:earlybird"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 65,
         "attack": 50,
@@ -654,12 +917,38 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.7155279503105589,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
         "h:earlybird"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 65,
         "attack": 50,
@@ -703,12 +992,38 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.7513043478260869,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
         "h:earlybird"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 65,
         "attack": 50,
@@ -752,12 +1067,38 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.7705685618729097,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
         "h:earlybird"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 65,
         "attack": 50,
@@ -801,12 +1142,38 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.7329798515376457,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
         "h:earlybird"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 65,
         "attack": 50,
@@ -850,12 +1217,38 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.7705685618729097,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
         "h:earlybird"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 65,
         "attack": 50,
@@ -899,12 +1292,38 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.7155279503105589,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
         "h:earlybird"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 65,
         "attack": 50,
@@ -948,12 +1367,38 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.7155279503105589,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
         "h:earlybird"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 65,
         "attack": 50,
@@ -997,12 +1442,38 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.7513043478260869,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
         "h:earlybird"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 65,
         "attack": 50,
@@ -1046,12 +1517,38 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.6678260869565217,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
         "h:earlybird"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 65,
         "attack": 50,
@@ -1095,12 +1592,38 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.7705685618729097,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
         "h:earlybird"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 65,
         "attack": 50,
@@ -1144,12 +1667,38 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.7155279503105589,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
         "h:earlybird"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 65,
         "attack": 50,
@@ -1193,12 +1742,38 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.7513043478260869,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
         "h:earlybird"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 65,
         "attack": 50,
@@ -1242,12 +1817,38 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.6988877654196157,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
         "h:earlybird"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 65,
         "attack": 50,
@@ -1291,12 +1892,38 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.7513043478260869,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
         "h:earlybird"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 65,
         "attack": 50,
@@ -1340,12 +1967,38 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.7705685618729097,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
         "h:earlybird"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 65,
         "attack": 50,
@@ -1389,12 +2042,38 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.5779264214046822,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
         "h:earlybird"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 65,
         "attack": 50,
@@ -1438,12 +2117,38 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.7329798515376457,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
         "h:earlybird"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 65,
         "attack": 50,

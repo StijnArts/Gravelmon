@@ -27,31 +27,6 @@
           ]
         }
       }
-    },
-    {
-      "id": "mythian_ampharos-01",
-      "pokemon": "ampharos mythian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "30-51",
-      "weight": 0.15000000000000002,
-      "condition": {
-        "biomes": [
-          "#cobblemon:nether/is_forest"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:magma_block"
-          ]
-        }
-      }
     }
   ]
 }

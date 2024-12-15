@@ -3,11 +3,9 @@ package drai.dev.data.pokemon;
 import com.cobblemon.mod.common.*;
 import com.cobblemon.mod.common.entity.*;
 import com.google.gson.*;
-import com.google.gson.stream.*;
 import drai.dev.data.attributes.*;
 import drai.dev.data.attributes.assets.*;
 import drai.dev.data.jsonwriters.assets.*;
-import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.pokemon.attributes.Label;
 import org.jetbrains.annotations.*;
 
@@ -32,15 +30,15 @@ public abstract class WorldRepresentablePokemon {
         textureDirectory = findTextureDirectory(abstractPokemon, resourcesDir);
         if(!isModeled()){
             findOrCreatePlaceholderImage(abstractPokemon, resourcesDir, hasGenderDifferences);
-            double factor = 96d / getPlaceholderMaxSideSize();
+            double factor = 96d / getPlaceholderMaxSideSize(abstractPokemon);
             recalculateScales(abstractPokemon, factor);
 //            recalculateXYZOffsets(factor);
             posingFileData.animations.add(new AnimationData("profile", List.of(PoseType.PROFILE), List.of("pc_fix"), List.of(), 10));
             posingFileData.animations.add(new AnimationData("portrait", List.of(PoseType.NONE, PoseType.PORTRAIT), List.of("summary_fix"), List.of(), 10));
-            ModelJsonWriter.writeModel(abstractPokemon, getPlaceholderImageHeight(), getPlaceholderImageWidth(), resourcesDir);
+            ModelJsonWriter.writeModel(abstractPokemon, getPlaceholderImageHeight(abstractPokemon), getPlaceholderImageWidth(abstractPokemon), resourcesDir);
 
             if(femalePlaceholderImage != null) {
-                ModelJsonWriter.writeModel(abstractPokemon, getFemalePlaceholderImageHeight(), getFemalePlaceholderImageWidth(), resourcesDir);
+                ModelJsonWriter.writeModel(abstractPokemon, getFemalePlaceholderImageHeight(abstractPokemon), getFemalePlaceholderImageWidth(abstractPokemon), resourcesDir);
             }
         } else {
             abstractPokemon.labels.remove(Label.NOT_MODELED);
@@ -113,23 +111,35 @@ public abstract class WorldRepresentablePokemon {
         posingFileData.profileScale *= factor;
     }
 
-    int getPlaceholderImageWidth() {
+    int getPlaceholderImageWidth(AbstractPokemon abstractPokemon) {
+        if(placeholderImage == null) {
+            System.out.println("placeholderImage is null for pokemon "+abstractPokemon.getCleanName());
+            return 98;
+        }
         return placeholderImage.getWidth(null);
     }
-    int getPlaceholderImageHeight() {
+    int getPlaceholderImageHeight(AbstractPokemon abstractPokemon) {
+        if(placeholderImage == null) {
+            System.out.println("placeholderImage is null for pokemon "+abstractPokemon.getCleanName());
+            return 98;
+        }
         return placeholderImage.getHeight(null);
     }
-    int getPlaceholderMaxSideSize() {
-        return Math.max(getPlaceholderImageHeight(), getPlaceholderImageWidth());
+    int getPlaceholderMaxSideSize(AbstractPokemon abstractPokemon) {
+        if(placeholderImage == null) {
+            System.out.println("placeholderImage is null for pokemon "+abstractPokemon.getCleanName());
+            return 98;
+        }
+        return Math.max(getPlaceholderImageHeight(abstractPokemon), getPlaceholderImageWidth(abstractPokemon));
     }
-    int getFemalePlaceholderImageWidth() {
+    int getFemalePlaceholderImageWidth(AbstractPokemon abstractPokemon) {
         return femalePlaceholderImage.getWidth(null);
     }
-    int getFemalePlaceholderImageHeight() {
+    int getFemalePlaceholderImageHeight(AbstractPokemon abstractPokemon) {
         return femalePlaceholderImage.getHeight(null);
     }
-    int getFemalePlaceholderMaxSideSize() {
-        return Math.max(getFemalePlaceholderImageHeight(), getFemalePlaceholderImageWidth());
+    int getFemalePlaceholderMaxSideSize(AbstractPokemon abstractPokemon) {
+        return Math.max(getFemalePlaceholderImageHeight(abstractPokemon), getFemalePlaceholderImageWidth(abstractPokemon));
     }
 
     private @NotNull File findTextureDirectory(AbstractPokemon abstractPokemon, String resourcesDir){
@@ -145,14 +155,14 @@ public abstract class WorldRepresentablePokemon {
         String pathname = resourcesDir + "\\assets\\cobblemon\\textures\\pokemon\\" + abstractPokemon.getGame().getCleanName() + "\\";
         if(abstractPokemon instanceof Pokemon) {
             if (hasGenderDifferences) {
-                femalePlaceholderImage = createPlaceholderTextureIfNotExists(abstractPokemon.getCleanName() + "_female.png", pathname);
+                abstractPokemon.femalePlaceholderImage = createPlaceholderTextureIfNotExists(abstractPokemon.getCleanName() + "_female.png", pathname);
             }
-            placeholderImage = createPlaceholderTextureIfNotExists(abstractPokemon.getCleanName() + ".png", pathname);
+            abstractPokemon.placeholderImage = createPlaceholderTextureIfNotExists(abstractPokemon.getCleanName() + ".png", pathname);
         } else if (abstractPokemon instanceof PokemonForm pokemonForm){
             if (hasGenderDifferences) {
-                femalePlaceholderImage = createPlaceholderTextureIfNotExists( pokemonForm.getCleanName()+"_"+pokemonForm.getFormOf().getCleanName() + "_female.png", pathname);
+                abstractPokemon.femalePlaceholderImage = createPlaceholderTextureIfNotExists( pokemonForm.getCleanName()+"_"+pokemonForm.getFormOf().getCleanName() + "_female.png", pathname);
             }
-            placeholderImage = createPlaceholderTextureIfNotExists(pokemonForm.getCleanName()+"_"+pokemonForm.getFormOf().getCleanName() + ".png", pathname);
+            abstractPokemon.placeholderImage = createPlaceholderTextureIfNotExists(pokemonForm.getCleanName()+"_"+pokemonForm.getFormOf().getCleanName() + ".png", pathname);
         }
     }
 
@@ -209,11 +219,11 @@ public abstract class WorldRepresentablePokemon {
         return posingFileData;
     }
 
-    public String getPlaceholderModelName() {
-        return "cutout_gravelmon_" + getPlaceholderImageWidth() +"_by_" + getPlaceholderImageHeight();
+    public String getPlaceholderModelName(AbstractPokemon abstractPokemon) {
+        return "cutout_gravelmon_" + getPlaceholderImageWidth(abstractPokemon) +"_by_" + getPlaceholderImageHeight(abstractPokemon);
     }
 
-    public String getFemalePlaceholderModelName() {
-        return "cutout_gravelmon_" + getFemalePlaceholderImageWidth() +"_by_" + getFemalePlaceholderImageHeight();
+    public String getFemalePlaceholderModelName(AbstractPokemon abstractPokemon) {
+        return "cutout_gravelmon_" + getFemalePlaceholderImageWidth(abstractPokemon) +"_by_" + getFemalePlaceholderImageHeight(abstractPokemon);
     }
 }

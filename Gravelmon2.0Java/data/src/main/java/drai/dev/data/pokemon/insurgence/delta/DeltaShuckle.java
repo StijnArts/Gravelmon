@@ -126,6 +126,5 @@ public class DeltaShuckle extends Pokemon {
         this.setLangFileName("Shuckle");
         this.setCanBreathUnderwater(true);
         this.setCanSwim(false);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

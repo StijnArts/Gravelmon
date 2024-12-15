@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_512_by_512.geo",
-      "poser": "cobblemon:cutout_gravelmon_512_by_512",
+      "model": "cobblemon:cutout_gravelmon_492_by_512.geo",
+      "poser": "cobblemon:cutout_gravelmon_492_by_512",
       "texture": "cobblemon:textures/pokemon/sage/silkinder.png",
       "layers": [
         {
@@ -35,8 +35,8 @@
       "aspects": [
         "female"
       ],
-      "model": "cobblemon:cutout_gravelmon_512_by_512.geo",
-      "poser": "cobblemon:cutout_gravelmon_512_by_512",
+      "model": "cobblemon:cutout_gravelmon_509_by_512.geo",
+      "poser": "cobblemon:cutout_gravelmon_492_by_512",
       "texture": "cobblemon:textures/pokemon/sage/silkinder_female.png",
       "layers": [
         {

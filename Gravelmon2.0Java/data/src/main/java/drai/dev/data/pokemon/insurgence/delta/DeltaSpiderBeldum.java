@@ -42,6 +42,5 @@ public class DeltaSpiderBeldum extends Pokemon {
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Beldum");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

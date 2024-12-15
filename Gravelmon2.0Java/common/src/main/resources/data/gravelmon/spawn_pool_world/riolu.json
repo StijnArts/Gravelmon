@@ -84,31 +84,6 @@
       }
     },
     {
-      "id": "mythian_riolu-01",
-      "pokemon": "riolu mythian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "12-28",
-      "weight": 13.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:nether/is_wasteland"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:packed_mud"
-          ]
-        }
-      }
-    },
-    {
       "id": "ayreian_riolu-01",
       "pokemon": "riolu ayreian",
       "presets": [

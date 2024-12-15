@@ -86,6 +86,5 @@ public class AyreianVanillite extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Vanillite");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

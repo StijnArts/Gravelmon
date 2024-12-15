@@ -6,8 +6,8 @@
       "aspects": [
         "hoennian"
       ],
-      "model": "cobblemon:cutout_gravelmon_96_by_96.geo",
-      "poser": "cobblemon:cutout_gravelmon_96_by_96",
+      "model": "cobblemon:cutout_gravelmon_37_by_52.geo",
+      "poser": "cobblemon:cutout_gravelmon_37_by_52",
       "texture": "cobblemon:textures/pokemon/generation2/hoennianqwilfish.png",
       "layers": [
         {

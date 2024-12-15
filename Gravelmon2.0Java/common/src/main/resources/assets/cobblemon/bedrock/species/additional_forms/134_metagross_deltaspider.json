@@ -6,8 +6,8 @@
       "aspects": [
         "deltaspider"
       ],
-      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_128",
+      "model": "cobblemon:cutout_gravelmon_144_by_114.geo",
+      "poser": "cobblemon:cutout_gravelmon_144_by_114",
       "texture": "cobblemon:textures/pokemon/generation3/deltaspidermetagross.png",
       "layers": [
         {

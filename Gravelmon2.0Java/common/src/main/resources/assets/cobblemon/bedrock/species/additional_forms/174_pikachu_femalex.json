@@ -6,9 +6,9 @@
       "aspects": [
         "femalex"
       ],
-      "model": "cobblemon:cutout_gravelmon_2_by_2.geo",
-      "poser": "cobblemon:cutout_gravelmon_2_by_2",
-      "texture": "cobblemon:textures/pokemon/generation1/pikachufemalex.png",
+      "model": "cobblemon:generation1_pikachufemalex.geo",
+      "poser": "cobblemon:generation1_pikachufemalex",
+      "texture": "cobblemon:textures/pokemon/generation1/pikachufemalex/pikachufemalex.png",
       "layers": [
         {
           "name": "emissive"
@@ -35,11 +35,12 @@
     },
     {
       "aspects": [
-        "femalex"
+        "femalex",
+        "shiny"
       ],
-      "model": "cobblemon:cutout_gravelmon_2_by_2.geo",
-      "poser": "cobblemon:cutout_gravelmon_2_by_2",
-      "texture": "cobblemon:textures/pokemon/generation1/pikachufemalex.png",
+      "model": "cobblemon:generation1_pikachufemalex.geo",
+      "poser": "cobblemon:generation1_pikachufemalex",
+      "texture": "cobblemon:textures/pokemon/generation1/pikachufemalex/pikachufemalex_shiny.png",
       "layers": [
         {
           "name": "emissive"

@@ -120,7 +120,6 @@ public class Aguade extends Pokemon {
                 0.9, 0.7,
                 List.of());
         this.setCanSwim(true);
-        this.setPortraitXYZ(0,1.8,0);
         this.setBaseScale(0.9);
 
 

@@ -153,6 +153,5 @@ public class DeltaDragonite extends Pokemon {
         this.setLangFileName("Dragonite");
         this.setCanBreathUnderwater(true);
         this.setCanSwim(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

@@ -119,6 +119,5 @@ public class DeltaLombre extends Pokemon {
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Lombre");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

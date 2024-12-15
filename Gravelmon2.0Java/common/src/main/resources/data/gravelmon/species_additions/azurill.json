@@ -17,6 +17,32 @@
         "thickfat",
         "h:furcoat"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 40,
         "attack": 20,
@@ -150,6 +176,28 @@
         }
       ],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.2,
+        "height": 0.2,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Egho",
+      "primaryType": "normal",
+      "secondaryType": "rock",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 31,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 26,
+      "baseFriendship": 70,
+      "baseScale": 0.08727272727272728,
+      "cannotDynamax": false,
+      "abilities": [
+        "hugepower",
+        "h:dryskin"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -169,32 +217,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Egho",
-      "primaryType": "normal",
-      "secondaryType": "rock",
-      "catchRate": 255,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 31,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 26,
-      "baseFriendship": 70,
-      "baseScale": 0.07500000000000001,
-      "cannotDynamax": false,
-      "abilities": [
-        "hugepower",
-        "h:dryskin"
-      ],
       "baseStats": {
         "hp": 50,
         "attack": 40,
@@ -312,32 +341,9 @@
         }
       ],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 0.3,
+        "height": 0.3,
         "fixed": false
       }
     }

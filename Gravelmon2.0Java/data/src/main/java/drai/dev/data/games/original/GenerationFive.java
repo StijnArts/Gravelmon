@@ -21,7 +21,6 @@ import drai.dev.data.pokemon.ionos.regional.*;
 import drai.dev.data.pokemon.lagoone.regional.*;
 import drai.dev.data.pokemon.lockemon.regional.*;
 import drai.dev.data.pokemon.mahal.regional.*;
-import drai.dev.data.pokemon.myth.regional.*;
 import drai.dev.data.pokemon.norheim.regional.*;
 import drai.dev.data.pokemon.novrai.regional.*;
 import drai.dev.data.pokemon.opalo.regional.*;
@@ -230,8 +229,6 @@ public class GenerationFive extends Game {
         addNewPokemon(new SeviianBlitzle("", Aspect.SEVIIAN));
         addNewPokemon(new SeviianZebstrika("", Aspect.SEVIIAN));
 
-        addMythianPokemon();
-
         //Pokemon Flux
         addNewPokemon(new AlteranZorua("", Aspect.ALTERAN));
 
@@ -426,13 +423,5 @@ public class GenerationFive extends Game {
         addNewPokemon(new EpochBeheeyem("", Aspect.EPOCH));
         addNewPokemon(new EpochScraggy("", Aspect.EPOCH));
         addNewPokemon(new EpochScrafty("", Aspect.EPOCH));
-
-    }
-
-    private void addMythianPokemon() {
-        addNewPokemon(new MythianZorua("", Aspect.MYTHIAN));
-        addNewPokemon(new MythianZoroark("", Aspect.MYTHIAN));
-        addNewPokemon(new MythianLarvesta("", Aspect.MYTHIAN));
-        addNewPokemon(new MythianVolcarona("", Aspect.MYTHIAN));
     }
 }

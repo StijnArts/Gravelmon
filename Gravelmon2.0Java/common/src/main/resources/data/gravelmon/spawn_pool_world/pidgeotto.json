@@ -58,35 +58,6 @@
       }
     },
     {
-      "id": "mythian_pidgeotto-01",
-      "pokemon": "pidgeotto mythian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "36-58",
-      "weight": 4.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_mountain",
-          "#cobblemon:is_highlands"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "isThundering": true
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:redstone_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "ayreian_pidgeotto-01",
       "pokemon": "pidgeotto ayreian",
       "presets": [

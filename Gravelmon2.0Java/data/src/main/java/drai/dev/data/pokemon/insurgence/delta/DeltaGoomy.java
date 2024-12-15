@@ -99,6 +99,5 @@ public class DeltaGoomy extends Pokemon {
                 0.30, 0.3,
                 List.of());
         this.setLangFileName("Goomy");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

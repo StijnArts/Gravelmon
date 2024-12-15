@@ -55,6 +55,10 @@ public class Stats {
         }
     }
 
+    public static Stats empty() {
+        return new Stats(0,0,0,0,0,0);
+    }
+
     private void impactStat(StatType preferredStat, int i) {
         switch (preferredStat){
             case HP -> this.HP += i;

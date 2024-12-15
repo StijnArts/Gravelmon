@@ -127,6 +127,5 @@ public class DeltaSnorlax extends Pokemon {
                 0.39, 0.3,
                 List.of());
         this.setLangFileName("Snorlax");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

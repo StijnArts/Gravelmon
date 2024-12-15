@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_512_by_512.geo",
-      "poser": "cobblemon:cutout_gravelmon_512_by_512",
+      "model": "cobblemon:cutout_gravelmon_74_by_69.geo",
+      "poser": "cobblemon:cutout_gravelmon_74_by_69",
       "texture": "cobblemon:textures/pokemon/sage/snogre.png",
       "layers": [
         {
@@ -35,8 +35,8 @@
       "aspects": [
         "female"
       ],
-      "model": "cobblemon:cutout_gravelmon_512_by_512.geo",
-      "poser": "cobblemon:cutout_gravelmon_512_by_512",
+      "model": "cobblemon:cutout_gravelmon_74_by_69.geo",
+      "poser": "cobblemon:cutout_gravelmon_74_by_69",
       "texture": "cobblemon:textures/pokemon/sage/snogre_female.png",
       "layers": [
         {

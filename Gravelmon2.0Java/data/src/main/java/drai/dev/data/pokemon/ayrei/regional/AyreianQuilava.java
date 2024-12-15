@@ -171,6 +171,5 @@ public class AyreianQuilava extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Quilava");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

@@ -19,6 +19,32 @@
         "justified",
         "h:dazzling"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 60,
         "attack": 125,
@@ -107,32 +133,9 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 0.9,
+        "height": 0.9,
         "fixed": false
       }
     },
@@ -152,6 +155,32 @@
         "leafguard",
         "ironbarbs"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 60,
         "attack": 70,
@@ -253,6 +282,30 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.9,
+        "height": 0.9,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Delta",
+      "primaryType": "dark",
+      "secondaryType": "fairy",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 232,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "roselia form=delta",
+      "baseScale": 0.15882352941176472,
+      "cannotDynamax": false,
+      "abilities": [
+        "shadowdance",
+        "heliophobia",
+        "h:limber"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -272,34 +325,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Delta",
-      "primaryType": "dark",
-      "secondaryType": "fairy",
-      "catchRate": 255,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 232,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "roselia form=delta",
-      "baseScale": 0.16875,
-      "cannotDynamax": false,
-      "abilities": [
-        "shadowdance",
-        "heliophobia",
-        "h:limber"
-      ],
       "baseStats": {
         "hp": 60,
         "attack": 70,
@@ -445,32 +477,9 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 0.9,
+        "height": 0.9,
         "fixed": false
       }
     },
@@ -491,6 +500,32 @@
         "serenegrace",
         "h:soundproof"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 60,
         "attack": 61,
@@ -587,32 +622,9 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 0.9,
+        "height": 0.9,
         "fixed": false
       }
     },
@@ -634,6 +646,32 @@
         "poisontouch",
         "h:technician"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 60,
         "attack": 105,
@@ -746,6 +784,30 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.3,
+        "height": 0.3,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Relic",
+      "primaryType": "fairy",
+      "secondaryType": "fighting",
+      "catchRate": 50,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 140,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "preEvolution": "roselia form=relic",
+      "baseScale": 0.12631578947368421,
+      "cannotDynamax": false,
+      "abilities": [
+        "stamina",
+        "justified",
+        "h:leafguard"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -765,34 +827,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Relic",
-      "primaryType": "fairy",
-      "secondaryType": "fighting",
-      "catchRate": 50,
-      "maleRatio": 0.875,
-      "baseExperienceYield": 140,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 51,
-      "baseFriendship": 70,
-      "preEvolution": "roselia form=relic",
-      "baseScale": 0.325,
-      "cannotDynamax": false,
-      "abilities": [
-        "stamina",
-        "justified",
-        "h:leafguard"
-      ],
       "baseStats": {
         "hp": 55,
         "attack": 115,
@@ -903,32 +944,9 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 1.3,
+        "height": 1.3,
         "fixed": false
       }
     }

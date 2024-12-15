@@ -114,6 +114,5 @@ public class DeltaCroagunk extends Pokemon {
                 0.2, 0.3,
                 List.of());
         this.setLangFileName("Croagunk");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

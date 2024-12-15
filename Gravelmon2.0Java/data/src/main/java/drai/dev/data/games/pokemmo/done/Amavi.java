@@ -80,9 +80,6 @@ public class Amavi extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Centree());
         addNewPokemon(new Cubbly());
         addNewPokemon(new Koalove());
-        addNewPokemon(new Larvly());
-        addNewPokemon(new Purrty());
-        addNewPokemon(new Papillo());
         addNewPokemon(new Tendurse());
         addNewPokemon(new Charmacist());
         addNewPokemon(new Poxic());

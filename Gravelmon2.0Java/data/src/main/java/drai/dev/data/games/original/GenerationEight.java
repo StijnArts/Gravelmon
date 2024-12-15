@@ -1,5 +1,6 @@
 package drai.dev.data.games.original;
 
+import drai.dev.data.attributes.*;
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.arom.regional.*;
 import drai.dev.data.pokemon.ayrei.regional.*;
@@ -11,13 +12,15 @@ import drai.dev.data.pokemon.ivris.regional.*;
 import drai.dev.data.pokemon.lagoone.regional.*;
 import drai.dev.data.pokemon.lockemon.regional.*;
 import drai.dev.data.pokemon.mahal.regional.*;
-import drai.dev.data.pokemon.myth.regional.*;
 import drai.dev.data.pokemon.norheim.regional.*;
 import drai.dev.data.pokemon.novrai.regional.*;
+import drai.dev.data.pokemon.opalo.regional.*;
 import drai.dev.data.pokemon.radicalred.*;
 import drai.dev.data.pokemon.soulstones.regional.*;
 import drai.dev.data.pokemon.varitas.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+
+import java.util.*;
 
 public class GenerationEight extends Game {
     public GenerationEight() {
@@ -103,8 +106,8 @@ public class GenerationEight extends Game {
         addNewPokemon(new SeviianSizzlipede("", Aspect.SEVIIAN));
         addNewPokemon(new SeviianCentiskorch("", Aspect.SEVIIAN));
 
-        //Myth
-        addNewPokemon(new MythianKleavor("", Aspect.MYTHIAN));
+        //Opalo
+        addNewPokemon(new CefiranFalinks("", Aspect.CEFIRAN, new Stats(470, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))));
 
         //Vanguard
         addNewPokemon(new AyreianGrookey("", Aspect.AYREIAN));

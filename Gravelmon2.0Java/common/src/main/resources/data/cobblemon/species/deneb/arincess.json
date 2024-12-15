@@ -8,12 +8,38 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.11249999999999999,
+  "baseScale": 0.3,
   "cannotDynamax": false,
   "abilities": [
     "compoundeyes",
     "h:arenatrap"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": true,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 96,
     "attack": 52,
@@ -120,34 +146,11 @@
   "weight": 152,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6293,
+  "nationalPokedexNumber": 6254,
   "shoulderMountable": false,
-  "behaviour": {
-    "resting": {
-      "canSleep": true,
-      "willSleepOnBed": false,
-      "depth": "normal",
-      "light": "0-6"
-    },
-    "moving": {
-      "fly": {
-        "canFly": false
-      },
-      "canLook": true,
-      "walk": {
-        "canWalk": true,
-        "avoidsLand": false
-      },
-      "swim": {
-        "swimSpeed": 0.1,
-        "canSwimInWater": true,
-        "canBreatheUnderwater": false
-      }
-    }
-  },
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 0.6,
+    "height": 0.6,
     "fixed": false
   },
   "features": [],

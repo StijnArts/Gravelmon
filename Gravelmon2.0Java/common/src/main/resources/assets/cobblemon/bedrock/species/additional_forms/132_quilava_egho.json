@@ -6,8 +6,8 @@
       "aspects": [
         "egho"
       ],
-      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_128",
+      "model": "cobblemon:cutout_gravelmon_114_by_108.geo",
+      "poser": "cobblemon:cutout_gravelmon_114_by_108",
       "texture": "cobblemon:textures/pokemon/generation2/eghoquilava.png",
       "layers": [
         {

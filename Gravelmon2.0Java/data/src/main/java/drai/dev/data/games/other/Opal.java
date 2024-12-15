@@ -12,7 +12,14 @@ public class Opal extends Game {
 
     @Override
     public void registerPokemon() {
-        addPokedexPokemon("venomoth-cefiran, Diglett-cefiran, Dugtrio-cefiran, Meowth-cefiran, Persian-cefiran, Meowth-cefiran, Persian-cefiran, Meowth-cefiran, Persian-cefiran, Teddiursa-cefiran, Ursaring-cefiran, Slugma-cefiran, Magcargo-cefiran, Delibird-cefiran, Smeargle-cefiran, Makuhita-cefiran, Hariyama-cefiran, Sableye-cefiran, Numel-cefiran, Camerupt-cefiran, Vibrava-cefiran, Flygon-cefiran, Snorunt-cefiran, Glalie-cefiran, Froslass-cefiran, Snover-cefiran, Abomasnow-cefiran, Petilil-cefiran, Lilligant-cefiran, Gothitelle-cefiran, Golett-cefiran, Golurk-cefiran, Klefki-cefiran".toLowerCase());
+        addPokedexPokemon(("venomoth-cefiran, Diglett-cefiran, Dugtrio-cefiran, Meowth-cefiranice, " +
+                "Persian-cefiranice, Meowth-cefiranfire, Persian-cefiranfire, Meowth-cefiranelectric, Persian-cefiranelectric, " +
+                "Teddiursa-cefiran, Ursaring-cefiran, Slugma-cefiran, Magcargo-cefiran, " +
+                "Delibird-cefiran, Smeargle-cefiran, Makuhita-cefiran, Hariyama-cefiran, " +
+                "Sableye-cefiran, Numel-cefiran, Camerupt-cefiran, Vibrava-cefiran, Flygon-cefiran, " +
+                "Snorunt-cefiran, Glalie-cefiran, buneary-cefiran, lopunny-cefiran, Froslass-cefiran, Snover-cefiran, Abomasnow-cefiran, " +
+                "Petilil-cefiran, Lilligant-cefiran, Gothitelle-cefiran, Golett-cefiran, Golurk-cefiran, " +
+                "Klefki-cefiran, Falinks-cefiran").toLowerCase());
         addNewPokemon(new Snampery());
         addNewPokemon(new Descargot());
         addNewPokemon(new Gastesla());

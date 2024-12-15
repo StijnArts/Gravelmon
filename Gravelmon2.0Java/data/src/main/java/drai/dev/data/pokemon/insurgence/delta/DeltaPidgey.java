@@ -146,7 +146,6 @@ public class DeltaPidgey extends Pokemon {
                 List.of());
         this.setLangFileName("Pidgey");
         this.setCanFly(true);
-        this.setPortraitXYZ(0,1.8,0);
         
         this.setBaseScale(0.8);
         this.setHitbox(0.5,0.7);

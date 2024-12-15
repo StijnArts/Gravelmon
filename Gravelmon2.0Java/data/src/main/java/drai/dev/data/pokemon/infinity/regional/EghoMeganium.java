@@ -126,6 +126,5 @@ public class EghoMeganium extends Pokemon {
                 0.42, 0.3,
                 List.of());
         this.setLangFileName("Meganium");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

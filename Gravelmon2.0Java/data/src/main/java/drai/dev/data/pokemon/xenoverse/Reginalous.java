@@ -67,6 +67,5 @@ public class Reginalous extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 1, 0.7,
                 List.of());
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

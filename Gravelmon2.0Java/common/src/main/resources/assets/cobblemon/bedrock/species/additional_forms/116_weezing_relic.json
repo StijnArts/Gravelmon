@@ -6,8 +6,8 @@
       "aspects": [
         "relic"
       ],
-      "model": "cobblemon:cutout_gravelmon_96_by_96.geo",
-      "poser": "cobblemon:cutout_gravelmon_96_by_96",
+      "model": "cobblemon:cutout_gravelmon_110_by_87.geo",
+      "poser": "cobblemon:cutout_gravelmon_110_by_87",
       "texture": "cobblemon:textures/pokemon/generation1/relicweezing.png",
       "layers": [
         {

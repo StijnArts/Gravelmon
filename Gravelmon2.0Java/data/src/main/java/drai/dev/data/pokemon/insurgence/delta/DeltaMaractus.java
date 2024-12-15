@@ -123,7 +123,6 @@ public class DeltaMaractus extends Pokemon {
                 0.22, 0.3,
                 List.of());
         this.setLangFileName("Maractus");
-        this.setPortraitXYZ(0,1.8,0);
         
         this.setBaseScale(0.8);
         this.setHitbox(1,1.5);

@@ -29,34 +29,6 @@
           ]
         }
       }
-    },
-    {
-      "id": "mythian_zoroark-01",
-      "pokemon": "zoroark mythian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "30-45",
-      "weight": 1.35,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_desert",
-          "#cobblemon:is_volvanic",
-          "#cobblemon:nether/is_soul_fire"
-        ],
-        "timeRange": "night"
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:magma_block"
-          ]
-        }
-      }
     }
   ]
 }

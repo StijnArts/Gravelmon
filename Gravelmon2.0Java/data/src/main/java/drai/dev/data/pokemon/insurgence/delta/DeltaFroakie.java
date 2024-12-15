@@ -111,6 +111,5 @@ public class DeltaFroakie extends Pokemon {
                 0.22, 0.3,
                 List.of());
         this.setLangFileName("Froakie");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

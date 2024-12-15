@@ -9,12 +9,38 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "parakka",
-  "baseScale": 0.275,
+  "baseScale": 0.42580645161290326,
   "cannotDynamax": false,
   "abilities": [
     "prankster",
     "h:infiltrator"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": true,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 79,
     "attack": 55,
@@ -103,34 +129,11 @@
   "weight": 147,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6323,
+  "nationalPokedexNumber": 6284,
   "shoulderMountable": false,
-  "behaviour": {
-    "resting": {
-      "canSleep": true,
-      "willSleepOnBed": false,
-      "depth": "normal",
-      "light": "0-6"
-    },
-    "moving": {
-      "fly": {
-        "canFly": true
-      },
-      "canLook": true,
-      "walk": {
-        "canWalk": true,
-        "avoidsLand": false
-      },
-      "swim": {
-        "swimSpeed": 0.1,
-        "canSwimInWater": true,
-        "canBreatheUnderwater": false
-      }
-    }
-  },
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 1.1,
+    "height": 1.1,
     "fixed": false
   },
   "features": [],

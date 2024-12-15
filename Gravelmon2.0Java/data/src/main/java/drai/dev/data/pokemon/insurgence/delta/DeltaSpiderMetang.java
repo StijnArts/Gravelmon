@@ -131,6 +131,5 @@ public class DeltaSpiderMetang extends Pokemon {
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Metang");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

@@ -144,6 +144,5 @@ public class DeltaHydreigon extends Pokemon {
                 List.of());
         this.setLangFileName("Hydreigon");
         this.setHasGenderDifferences(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

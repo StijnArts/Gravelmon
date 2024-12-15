@@ -8,12 +8,38 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "dunsparce",
-  "baseScale": 0.73125,
+  "baseScale": 1.4625,
   "cannotDynamax": false,
   "abilities": [
     "owntempo",
     "h:serenegrace"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": true,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 155,
     "attack": 90,
@@ -126,34 +152,11 @@
   "weight": 2045,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6307,
+  "nationalPokedexNumber": 6268,
   "shoulderMountable": false,
-  "behaviour": {
-    "resting": {
-      "canSleep": true,
-      "willSleepOnBed": false,
-      "depth": "normal",
-      "light": "0-6"
-    },
-    "moving": {
-      "fly": {
-        "canFly": false
-      },
-      "canLook": true,
-      "walk": {
-        "canWalk": true,
-        "avoidsLand": false
-      },
-      "swim": {
-        "swimSpeed": 0.1,
-        "canSwimInWater": true,
-        "canBreatheUnderwater": false
-      }
-    }
-  },
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.9,
+    "height": 3.9,
     "fixed": false
   },
   "features": [],

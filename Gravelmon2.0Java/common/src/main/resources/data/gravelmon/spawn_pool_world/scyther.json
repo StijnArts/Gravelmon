@@ -136,34 +136,6 @@
           ]
         }
       }
-    },
-    {
-      "id": "mythian_scyther-01",
-      "pokemon": "scyther mythian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "20-50",
-      "weight": 2.9699999999999998,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "timeRange": "night"
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:magma_block"
-          ]
-        }
-      }
     }
   ]
 }

@@ -19,6 +19,32 @@
         "dazzling",
         "h:regenerator"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 88,
         "attack": 75,
@@ -133,32 +159,9 @@
         }
       ],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 0.8,
+        "height": 0.8,
         "fixed": false
       }
     },
@@ -178,6 +181,32 @@
         "sapsipper",
         "hydration"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 68,
         "attack": 75,
@@ -240,6 +269,30 @@
         }
       ],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.8,
+        "height": 0.8,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Delta",
+      "primaryType": "ground",
+      "secondaryType": "water",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 158,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "goomy form=delta",
+      "baseScale": 0.14545454545454548,
+      "cannotDynamax": false,
+      "abilities": [
+        "overcoat",
+        "waterabsorb",
+        "h:gooey"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -259,34 +312,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Delta",
-      "primaryType": "ground",
-      "secondaryType": "water",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 158,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "goomy form=delta",
-      "baseScale": 0.15000000000000002,
-      "cannotDynamax": false,
-      "abilities": [
-        "overcoat",
-        "waterabsorb",
-        "h:gooey"
-      ],
       "baseStats": {
         "hp": 68,
         "attack": 75,
@@ -411,32 +443,9 @@
         }
       ],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 0.8,
+        "height": 0.8,
         "fixed": false
       }
     }

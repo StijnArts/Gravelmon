@@ -9,13 +9,39 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "magcargo",
-  "baseScale": 0.35,
+  "baseScale": 0.5249999999999999,
   "cannotDynamax": false,
   "abilities": [
     "magmaarmor",
     "flamebody",
     "h:weakarmor"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": true,
+        "canBreatheUnderlava": true,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": true
+      }
+    }
+  },
   "baseStats": {
     "hp": 95,
     "attack": 60,
@@ -120,35 +146,11 @@
   "weight": 1280,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6396,
+  "nationalPokedexNumber": 6357,
   "shoulderMountable": false,
-  "behaviour": {
-    "resting": {
-      "canSleep": true,
-      "willSleepOnBed": false,
-      "depth": "normal",
-      "light": "0-6"
-    },
-    "moving": {
-      "fly": {
-        "canFly": false
-      },
-      "canLook": true,
-      "walk": {
-        "canWalk": true,
-        "avoidsLand": false
-      },
-      "swim": {
-        "swimSpeed": 0.1,
-        "canSwimInWater": true,
-        "canBreatheUnderwater": false,
-        "canWalkOnWater": true
-      }
-    }
-  },
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 1.4,
+    "height": 1.4,
     "fixed": false
   },
   "features": [],

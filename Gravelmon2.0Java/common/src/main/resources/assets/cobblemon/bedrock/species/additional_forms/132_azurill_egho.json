@@ -6,8 +6,8 @@
       "aspects": [
         "egho"
       ],
-      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_128",
+      "model": "cobblemon:cutout_gravelmon_110_by_58.geo",
+      "poser": "cobblemon:cutout_gravelmon_110_by_58",
       "texture": "cobblemon:textures/pokemon/generation3/eghoazurill.png",
       "layers": [
         {

@@ -6,9 +6,9 @@
       "aspects": [
         "malex"
       ],
-      "model": "cobblemon:cutout_gravelmon_2_by_2.geo",
-      "poser": "cobblemon:cutout_gravelmon_2_by_2",
-      "texture": "cobblemon:textures/pokemon/generation1/pikachumalex.png",
+      "model": "cobblemon:generation1_pikachumalex.geo",
+      "poser": "cobblemon:generation1_pikachumalex",
+      "texture": "cobblemon:textures/pokemon/generation1/pikachumalex/pikachumalex.png",
       "layers": [
         {
           "name": "emissive"
@@ -35,11 +35,12 @@
     },
     {
       "aspects": [
-        "malex"
+        "malex",
+        "shiny"
       ],
-      "model": "cobblemon:cutout_gravelmon_2_by_2.geo",
-      "poser": "cobblemon:cutout_gravelmon_2_by_2",
-      "texture": "cobblemon:textures/pokemon/generation1/pikachumalex.png",
+      "model": "cobblemon:generation1_pikachumalex.geo",
+      "poser": "cobblemon:generation1_pikachumalex",
+      "texture": "cobblemon:textures/pokemon/generation1/pikachumalex/pikachumalex_shiny.png",
       "layers": [
         {
           "name": "emissive"

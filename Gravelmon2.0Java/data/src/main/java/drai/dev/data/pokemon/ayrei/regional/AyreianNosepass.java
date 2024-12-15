@@ -107,6 +107,5 @@ public class AyreianNosepass extends Pokemon {
                 0.29, 0.3,
                 List.of());
         this.setLangFileName("Nosepass");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

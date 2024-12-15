@@ -441,13 +441,6 @@ public class Pokemon extends AbstractPokemon {
         return hasGenderDifferences;
     }
 
-    protected void setPortraitXYZ(double x, double y, double z) {
-        //TODO
-        /*this.setPortraitTranslationX(x);
-        this.setPortraitTranslationY(y);
-        this.setPortraitTranslationZ(z);*/
-    }
-
     public void setNameDifferentInLangFile(boolean nameDifferentInLangFile) {
         this.nameDifferentInLangFile = nameDifferentInLangFile;
     }

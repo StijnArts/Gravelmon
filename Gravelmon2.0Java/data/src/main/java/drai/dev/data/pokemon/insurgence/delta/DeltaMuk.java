@@ -134,7 +134,6 @@ public class DeltaMuk extends Pokemon {
                 0.34, 0.3,
                 List.of());
         this.setLangFileName("Muk");
-        this.setPortraitXYZ(0,1.8,0);
 
         this.setBaseScale(1.4);
         this.setHitbox(1.4,1);

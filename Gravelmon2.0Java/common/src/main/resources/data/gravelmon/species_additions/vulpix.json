@@ -17,6 +17,32 @@
       "abilities": [
         "cursedbody"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 50,
         "attack": 26,
@@ -70,6 +96,26 @@
         }
       ],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.8,
+        "height": 0.8,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "cosmic",
+      "catchRate": 190,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.15,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -89,30 +135,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Epoch",
-      "primaryType": "cosmic",
-      "catchRate": 190,
-      "maleRatio": 0.0,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.15,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
       "baseStats": {
         "hp": 38,
         "attack": 41,
@@ -226,6 +255,26 @@
         }
       ],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.6,
+        "height": 0.6,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Ayreian",
+      "primaryType": "ground",
+      "catchRate": 75,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.15,
+      "cannotDynamax": false,
+      "abilities": [
+        "sandforce"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -245,30 +294,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Ayreian",
-      "primaryType": "ground",
-      "catchRate": 75,
-      "maleRatio": 0.0,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.15,
-      "cannotDynamax": false,
-      "abilities": [
-        "sandforce"
-      ],
       "baseStats": {
         "hp": 38,
         "attack": 41,
@@ -393,6 +425,26 @@
         }
       ],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.6,
+        "height": 0.6,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Ayreiantwo",
+      "primaryType": "water",
+      "catchRate": 75,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.15,
+      "cannotDynamax": false,
+      "abilities": [
+        "raindish"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -412,30 +464,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Ayreiantwo",
-      "primaryType": "water",
-      "catchRate": 75,
-      "maleRatio": 0.0,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.15,
-      "cannotDynamax": false,
-      "abilities": [
-        "raindish"
-      ],
       "baseStats": {
         "hp": 38,
         "attack": 41,
@@ -555,32 +590,9 @@
         }
       ],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 0.6,
+        "height": 0.6,
         "fixed": false
       }
     }

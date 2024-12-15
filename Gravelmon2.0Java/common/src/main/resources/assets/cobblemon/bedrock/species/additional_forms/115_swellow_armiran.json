@@ -6,8 +6,8 @@
       "aspects": [
         "armiran"
       ],
-      "model": "cobblemon:cutout_gravelmon_96_by_96.geo",
-      "poser": "cobblemon:cutout_gravelmon_96_by_96",
+      "model": "cobblemon:cutout_gravelmon_192_by_114.geo",
+      "poser": "cobblemon:cutout_gravelmon_192_by_114",
       "texture": "cobblemon:textures/pokemon/generation3/armiranswellow.png",
       "layers": [
         {

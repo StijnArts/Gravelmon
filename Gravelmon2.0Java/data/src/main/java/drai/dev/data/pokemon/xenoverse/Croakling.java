@@ -74,6 +74,5 @@ public class Croakling extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.9, 0.7,
                 List.of());
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

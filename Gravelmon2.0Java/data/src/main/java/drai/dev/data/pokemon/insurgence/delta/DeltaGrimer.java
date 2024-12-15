@@ -127,7 +127,6 @@ public class DeltaGrimer extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Grimer");
-        this.setPortraitXYZ(0,1.8,0);
         
         this.setBaseScale(1);
         this.setHitbox(1,1.2);

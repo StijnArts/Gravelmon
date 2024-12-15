@@ -119,7 +119,7 @@ public class AyreianNoivern extends Pokemon {
                         0.28, 0.3,
                         List.of());
                 this.setLangFileName("Noivern");
-                this.setPortraitXYZ(0,1.8,0);
+                
                 setCanFly(true);
         }
 }

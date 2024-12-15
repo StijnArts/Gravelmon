@@ -107,6 +107,5 @@ public class DeltaTentacool extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Tentacool");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

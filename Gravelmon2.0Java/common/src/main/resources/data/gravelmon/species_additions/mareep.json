@@ -15,6 +15,32 @@
       "abilities": [
         "effectspore"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 43,
         "attack": 63,
@@ -67,32 +93,9 @@
         }
       ],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 0.6,
+        "height": 0.6,
         "fixed": false
       }
     },
@@ -113,6 +116,32 @@
         "serenegrace",
         "h:pixilate"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 55,
         "attack": 35,
@@ -238,32 +267,9 @@
         }
       ],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": true
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 0.6,
+        "height": 0.6,
         "fixed": false
       }
     },
@@ -277,12 +283,38 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.125,
+      "baseScale": 0.3157894736842105,
       "cannotDynamax": false,
       "abilities": [
         "static",
         "h:plus"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 55,
         "attack": 40,
@@ -390,156 +422,9 @@
         }
       ],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Mythian",
-      "primaryType": "fire",
-      "secondaryType": "dark",
-      "catchRate": 255,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 50,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.1,
-      "cannotDynamax": false,
-      "abilities": [
-        "flamebody",
-        "h:speedboost"
-      ],
-      "baseStats": {
-        "hp": 60,
-        "attack": 40,
-        "defence": 40,
-        "special_attack": 45,
-        "special_defence": 65,
-        "speed": 55
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 1,
-        "speed": 0
-      },
-      "eggGroups": [
-        "monster",
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:tackle",
-        "1:growl",
-        "4:willowisp",
-        "8:ember",
-        "11:calmmind",
-        "15:quickattack",
-        "22:flamecharge",
-        "25:confuseray",
-        "29:powergem",
-        "32:flamethrower",
-        "36:cottonguard",
-        "39:triattack",
-        "43:darkpulse",
-        "46:fireblast",
-        "egg:takedown",
-        "egg:bodyslam",
-        "egg:screech",
-        "egg:odorsleuth",
-        "egg:charge",
-        "egg:flatter",
-        "egg:sandattack",
-        "egg:irontail",
-        "egg:afteryou",
-        "egg:agility",
-        "egg:eerieimpulse",
-        "egg:electricterrain"
-      ],
-      "labels": [
-        "gen2",
-        "myth",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.mythianmareep.desc"
-      ],
-      "height": 3,
-      "weight": 18,
-      "aspects": [
-        "mythian"
-      ],
-      "evolutions": [
-        {
-          "id": "mythianmareep_flaaffy_mythian",
-          "variant": "level_up",
-          "result": "flaaffy mythian",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "15"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 0.5,
+        "height": 0.5,
         "fixed": false
       }
     }
@@ -547,7 +432,6 @@
   "features": [
     "forman",
     "epoch",
-    "aristosian",
-    "mythian"
+    "aristosian"
   ]
 }

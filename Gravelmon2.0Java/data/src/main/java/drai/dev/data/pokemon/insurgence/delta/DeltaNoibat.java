@@ -130,6 +130,5 @@ public class DeltaNoibat extends Pokemon {
                 List.of());
         this.setLangFileName("Noibat");
         this.setCanFly(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

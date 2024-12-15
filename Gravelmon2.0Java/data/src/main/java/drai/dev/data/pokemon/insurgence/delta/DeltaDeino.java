@@ -124,6 +124,5 @@ public class DeltaDeino extends Pokemon {
                 List.of());
         this.setLangFileName("Deino");
         this.setHasGenderDifferences(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

@@ -58,35 +58,6 @@
       }
     },
     {
-      "id": "mythian_pidgeot-01",
-      "pokemon": "pidgeot mythian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "12-35",
-      "weight": 0.44999999999999996,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_mountain",
-          "#cobblemon:is_highlands"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "isThundering": true
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:redstone_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "ayreian_pidgeot-01",
       "pokemon": "pidgeot ayreian",
       "presets": [

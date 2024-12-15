@@ -124,6 +124,5 @@ public class EghoTyphlosion extends Pokemon {
                 0.32, 0.3,
                 List.of());
         this.setLangFileName("Typhlosion");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

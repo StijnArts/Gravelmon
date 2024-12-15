@@ -101,6 +101,5 @@ public class Lavent extends Pokemon {
                 List.of(SpawnPreset.STRONGHOLD),
                 0.21, 0.3,
                 List.of());
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

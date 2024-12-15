@@ -6,8 +6,8 @@
       "aspects": [
         "deltafairy"
       ],
-      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_128",
+      "model": "cobblemon:cutout_gravelmon_94_by_84.geo",
+      "poser": "cobblemon:cutout_gravelmon_94_by_84",
       "texture": "cobblemon:textures/pokemon/generation5/deltafairypetilil.png",
       "layers": [
         {

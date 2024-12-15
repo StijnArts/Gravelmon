@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_2_by_2.geo",
-      "poser": "cobblemon:cutout_gravelmon_2_by_2",
+      "model": "cobblemon:cutout_gravelmon_96_by_96.geo",
+      "poser": "cobblemon:cutout_gravelmon_96_by_96",
       "texture": "cobblemon:textures/pokemon/sorin/coltmer.png",
       "layers": [
         {

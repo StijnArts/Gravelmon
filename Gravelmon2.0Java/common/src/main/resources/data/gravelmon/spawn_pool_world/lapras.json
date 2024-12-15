@@ -141,38 +141,6 @@
       }
     },
     {
-      "id": "mythian_lapras-01",
-      "pokemon": "lapras mythian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "20-53",
-      "weight": 15.0,
-      "condition": {
-        "biomes": [
-          "#minecraft:is_ocean"
-        ],
-        "isThundering": true
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_cold",
-          "#cobblemon:is_frozen"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:redstone_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "ayreian_lapras-01",
       "pokemon": "lapras ayreian",
       "presets": [

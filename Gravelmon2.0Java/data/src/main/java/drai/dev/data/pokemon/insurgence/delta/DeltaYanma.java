@@ -114,6 +114,5 @@ public class DeltaYanma extends Pokemon {
                 List.of());
         this.setLangFileName("Yanma");
         this.setCanFly(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

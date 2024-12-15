@@ -119,6 +119,5 @@ public class DeltaFairyLilligant extends Pokemon {
                 List.of());
         this.setLangFileName("Lilligant");
         setCanFly(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

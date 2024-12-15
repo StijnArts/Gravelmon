@@ -18,6 +18,32 @@
         "icebody",
         "h:megalauncher"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 108,
         "attack": 105,
@@ -116,6 +142,29 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 1.6,
+        "height": 1.6,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Delta",
+      "primaryType": "water",
+      "secondaryType": "steel",
+      "catchRate": 30,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 243,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "magmar form=delta",
+      "baseScale": 0.44651162790697674,
+      "cannotDynamax": false,
+      "abilities": [
+        "megalauncher",
+        "h:filter"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -135,33 +184,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Delta",
-      "primaryType": "water",
-      "secondaryType": "steel",
-      "catchRate": 30,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 243,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "magmar form=delta",
-      "baseScale": 0.30000000000000004,
-      "cannotDynamax": false,
-      "abilities": [
-        "megalauncher",
-        "h:filter"
-      ],
       "baseStats": {
         "hp": 75,
         "attack": 95,
@@ -300,32 +329,9 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 1.6,
+        "height": 1.6,
         "fixed": false
       }
     }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_128",
+      "model": "cobblemon:cutout_gravelmon_156_by_160.geo",
+      "poser": "cobblemon:cutout_gravelmon_156_by_160",
       "texture": "cobblemon:textures/pokemon/infinity/oozma.png",
       "layers": [
         {

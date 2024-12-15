@@ -114,6 +114,5 @@ public class AyreianBayleef extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Bayleef");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

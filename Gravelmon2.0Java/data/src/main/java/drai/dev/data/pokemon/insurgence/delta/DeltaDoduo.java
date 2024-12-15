@@ -112,7 +112,6 @@ public class DeltaDoduo extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Doduo");
-        this.setPortraitXYZ(0,1.8,0);
         
         this.setBaseScale(1.3);
         this.setHitbox(0.6,1.4);

@@ -19,6 +19,32 @@
         "intimidate",
         "h:moxie"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 100,
         "attack": 120,
@@ -121,6 +147,29 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 1.8,
+        "height": 1.8,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Delta",
+      "primaryType": "rock",
+      "secondaryType": "dragon",
+      "catchRate": 30,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 243,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "electabuzz form=delta",
+      "baseScale": 0.17142857142857143,
+      "cannotDynamax": false,
+      "abilities": [
+        "shadowdance",
+        "h:sturdy"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -140,33 +189,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Delta",
-      "primaryType": "rock",
-      "secondaryType": "dragon",
-      "catchRate": 30,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 243,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "electabuzz form=delta",
-      "baseScale": 0.20625000000000002,
-      "cannotDynamax": false,
-      "abilities": [
-        "shadowdance",
-        "h:sturdy"
-      ],
       "baseStats": {
         "hp": 75,
         "attack": 123,
@@ -332,32 +361,9 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 1.1,
+        "height": 1.1,
         "fixed": false
       }
     }

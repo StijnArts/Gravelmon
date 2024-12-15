@@ -182,7 +182,6 @@ public class DeltaRuinMetagross extends Pokemon {
                                 0.48, 0.3
                         )));
         this.setLangFileName("Metagross");
-        this.setPortraitXYZ(0,1.8,0);
         
         setBaseScale( 1.3);
         setHitbox(1.8,1.6);

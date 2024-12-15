@@ -18,6 +18,32 @@
         "telepathy",
         "h:effectspore"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 48,
         "attack": 67,
@@ -160,6 +186,28 @@
         }
       ],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.7,
+        "height": 0.7,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Delta",
+      "primaryType": "fire",
+      "catchRate": 140,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 53,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.18666666666666665,
+      "cannotDynamax": false,
+      "abilities": [
+        "magmaarmor",
+        "blaze",
+        "h:hustle"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -179,32 +227,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Delta",
-      "primaryType": "fire",
-      "catchRate": 140,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 53,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.13124999999999998,
-      "cannotDynamax": false,
-      "abilities": [
-        "magmaarmor",
-        "blaze",
-        "h:hustle"
-      ],
       "baseStats": {
         "hp": 48,
         "attack": 61,
@@ -337,32 +366,9 @@
         }
       ],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 0.7,
+        "height": 0.7,
         "fixed": false
       }
     }

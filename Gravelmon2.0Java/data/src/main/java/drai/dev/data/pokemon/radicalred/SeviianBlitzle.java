@@ -79,6 +79,5 @@ public class SeviianBlitzle extends Pokemon {
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Blitzle");
-        this.setPortraitXYZ(0.1, 2.0, 0.0);
     }
 }

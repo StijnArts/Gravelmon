@@ -102,6 +102,5 @@ public class DeltaMagby extends Pokemon {
         this.setLangFileName("Magby");
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

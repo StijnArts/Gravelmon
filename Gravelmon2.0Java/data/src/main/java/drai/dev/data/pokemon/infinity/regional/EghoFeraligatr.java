@@ -141,7 +141,6 @@ public class EghoFeraligatr extends Pokemon {
                 0.35, 0.3,
                 List.of());
         this.setLangFileName("Feraligatr");
-        this.setPortraitXYZ(0,1.8,0);
         
         setBaseScale(1.2);
         setHitbox(1,1);

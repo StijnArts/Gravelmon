@@ -18,6 +18,32 @@
         "thickfat",
         "h:furcoat"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 90,
         "attack": 50,
@@ -129,6 +155,29 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.8,
+        "height": 0.8,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Egho",
+      "primaryType": "rock",
+      "secondaryType": "fighting",
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 165,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 26,
+      "baseFriendship": 70,
+      "preEvolution": "marill form=egho",
+      "baseScale": 0.16,
+      "cannotDynamax": false,
+      "abilities": [
+        "hugepower",
+        "h:dryskin"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -148,33 +197,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Egho",
-      "primaryType": "rock",
-      "secondaryType": "fighting",
-      "catchRate": 75,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 165,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 26,
-      "baseFriendship": 70,
-      "preEvolution": "marill form=egho",
-      "baseScale": 0.1875,
-      "cannotDynamax": false,
-      "abilities": [
-        "hugepower",
-        "h:dryskin"
-      ],
       "baseStats": {
         "hp": 100,
         "attack": 80,
@@ -295,6 +324,29 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 1.0,
+        "height": 1.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Kaskadian",
+      "primaryType": "water",
+      "secondaryType": "grass",
+      "catchRate": 75,
+      "maleRatio": 0.25,
+      "baseExperienceYield": 88,
+      "experienceGroup": "fast",
+      "eggCycles": 26,
+      "baseFriendship": 70,
+      "preEvolution": "marill form=kaskadian",
+      "baseScale": 0.30000000000000004,
+      "cannotDynamax": false,
+      "abilities": [
+        "hydration",
+        "stickyhold"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -314,33 +366,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Kaskadian",
-      "primaryType": "water",
-      "secondaryType": "grass",
-      "catchRate": 75,
-      "maleRatio": 0.25,
-      "baseExperienceYield": 88,
-      "experienceGroup": "fast",
-      "eggCycles": 26,
-      "baseFriendship": 70,
-      "preEvolution": "marill form=kaskadian",
-      "baseScale": 0.2,
-      "cannotDynamax": false,
-      "abilities": [
-        "hydration",
-        "stickyhold"
-      ],
       "baseStats": {
         "hp": 100,
         "attack": 20,
@@ -449,32 +481,9 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 0.8,
+        "height": 0.8,
         "fixed": false
       }
     }

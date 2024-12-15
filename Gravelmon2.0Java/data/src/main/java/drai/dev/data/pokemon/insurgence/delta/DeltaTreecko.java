@@ -115,7 +115,6 @@ public class DeltaTreecko extends Pokemon {
                 0.22, 0.3,
                 List.of());
         this.setLangFileName("Treecko");
-        this.setPortraitXYZ(0,1.8,0);
 
         this.setBaseScale(0.7);
         this.setHitbox(0.6,1.2);

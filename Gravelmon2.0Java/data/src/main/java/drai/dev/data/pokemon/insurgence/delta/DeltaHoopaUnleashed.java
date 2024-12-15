@@ -139,6 +139,5 @@ public class DeltaHoopaUnleashed extends Pokemon {
                 List.of());
         this.setLangFileName("Hoopa");
         this.setCanFly(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

@@ -8,12 +8,38 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.192,
   "cannotDynamax": false,
   "abilities": [
     "poisonpoint",
     "sniper"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": true,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 57,
     "attack": 76,
@@ -74,34 +100,11 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 7125,
+  "nationalPokedexNumber": 7086,
   "shoulderMountable": false,
-  "behaviour": {
-    "resting": {
-      "canSleep": true,
-      "willSleepOnBed": false,
-      "depth": "normal",
-      "light": "0-6"
-    },
-    "moving": {
-      "fly": {
-        "canFly": false
-      },
-      "canLook": true,
-      "walk": {
-        "canWalk": true,
-        "avoidsLand": true
-      },
-      "swim": {
-        "swimSpeed": 0.1,
-        "canSwimInWater": true,
-        "canBreatheUnderwater": true
-      }
-    }
-  },
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 0.4,
+    "height": 0.4,
     "fixed": false
   },
   "features": [],

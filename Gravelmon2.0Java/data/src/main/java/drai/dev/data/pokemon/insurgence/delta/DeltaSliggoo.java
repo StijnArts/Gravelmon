@@ -104,6 +104,5 @@ public class DeltaSliggoo extends Pokemon {
                 0.30, 0.3,
                 List.of());
         this.setLangFileName("Sliggoo");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

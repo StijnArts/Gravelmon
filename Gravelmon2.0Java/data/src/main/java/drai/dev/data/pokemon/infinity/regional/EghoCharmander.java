@@ -113,7 +113,6 @@ public class EghoCharmander extends Pokemon {
                 0.33, 0.3,
                 List.of());
         this.setLangFileName("Charmander");
-        this.setPortraitXYZ(0,1.8,0);
         
         this.setBaseScale(0.7);
         getSpeciesFileData().addBasicVariation(this);

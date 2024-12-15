@@ -6,8 +6,8 @@
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_128",
+      "model": "cobblemon:cutout_gravelmon_190_by_178.geo",
+      "poser": "cobblemon:cutout_gravelmon_190_by_178",
       "texture": "cobblemon:textures/pokemon/generation6/deltaaurorus.png",
       "layers": [
         {

@@ -125,7 +125,6 @@ public class DeltaRuinMetang extends Pokemon {
                 List.of());
         this.setLangFileName("Metang");
         this.setCanFly(true);
-        this.setPortraitXYZ(0,1.8,0);
         
         setBaseScale(1);
         setHitbox(1,1.2);

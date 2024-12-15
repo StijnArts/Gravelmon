@@ -124,6 +124,5 @@ public class DeltaPlusle extends Pokemon {
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Plusle");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

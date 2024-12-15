@@ -106,6 +106,5 @@ public class DeltaYamask extends Pokemon {
                 0.22, 0.3,
                 List.of());
         this.setLangFileName("Yamask");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

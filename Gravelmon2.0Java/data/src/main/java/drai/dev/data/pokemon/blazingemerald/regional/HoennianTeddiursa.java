@@ -72,7 +72,6 @@ public class HoennianTeddiursa extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Teddiursa");
-        this.setPortraitXYZ(0,1.8,0);
 
         this.setHitbox(0.7, 1);
         this.setBaseScale(0.55);

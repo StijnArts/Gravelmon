@@ -19,6 +19,32 @@
         "flamebody",
         "h:shellarmor"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 95,
         "attack": 109,
@@ -127,6 +153,29 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.2,
+        "height": 2.2,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Delta",
+      "primaryType": "water",
+      "secondaryType": "ground",
+      "catchRate": 45,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 236,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "grotle form=delta",
+      "baseScale": 0.2693877551020408,
+      "cannotDynamax": false,
+      "abilities": [
+        "waterabsorb",
+        "h:swiftswim"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -146,33 +195,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Delta",
-      "primaryType": "water",
-      "secondaryType": "ground",
-      "catchRate": 45,
-      "maleRatio": 0.875,
-      "baseExperienceYield": 236,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "grotle form=delta",
-      "baseScale": 0.41250000000000003,
-      "cannotDynamax": false,
-      "abilities": [
-        "waterabsorb",
-        "h:swiftswim"
-      ],
       "baseStats": {
         "hp": 95,
         "attack": 109,
@@ -293,32 +322,9 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 2.2,
+        "height": 2.2,
         "fixed": false
       }
     }

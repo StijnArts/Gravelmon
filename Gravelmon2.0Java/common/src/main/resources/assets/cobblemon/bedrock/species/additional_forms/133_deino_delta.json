@@ -6,8 +6,8 @@
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_128",
+      "model": "cobblemon:cutout_gravelmon_98_by_78.geo",
+      "poser": "cobblemon:cutout_gravelmon_98_by_78",
       "texture": "cobblemon:textures/pokemon/generation5/deltadeino.png",
       "layers": [
         {
@@ -38,8 +38,8 @@
         "delta",
         "female"
       ],
-      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_128",
+      "model": "cobblemon:cutout_gravelmon_98_by_78.geo",
+      "poser": "cobblemon:cutout_gravelmon_98_by_78",
       "texture": "cobblemon:textures/pokemon/generation5/deltadeino_female.png",
       "layers": [
         {

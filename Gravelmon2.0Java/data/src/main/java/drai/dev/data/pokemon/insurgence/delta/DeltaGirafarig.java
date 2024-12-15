@@ -154,6 +154,5 @@ public class DeltaGirafarig extends Pokemon {
                         0.48, 0.3
                 )));
         this.setLangFileName("Girafarig");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

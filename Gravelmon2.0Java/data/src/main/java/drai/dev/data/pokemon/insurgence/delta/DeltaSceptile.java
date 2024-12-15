@@ -147,7 +147,6 @@ public class DeltaSceptile extends Pokemon {
                 0.36, 0.3,
                 List.of());
         this.setLangFileName("Sceptile");
-        this.setPortraitXYZ(0,1.8,0);
         
         this.setBaseScale(1.1);
         this.setHitbox(1,2.2);

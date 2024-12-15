@@ -109,7 +109,6 @@ public class DeltaChinchou extends Pokemon {
                 0.25, 0.3,
                 List.of());
         this.setLangFileName("Chinchou");
-        this.setPortraitXYZ(0,1.8,0);
 
         this.setHitbox(0.7, 0.6);
         this.setBaseScale(0.6);

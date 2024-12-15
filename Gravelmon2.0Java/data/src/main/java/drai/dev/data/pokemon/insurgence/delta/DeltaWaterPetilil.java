@@ -107,6 +107,5 @@ public class DeltaWaterPetilil extends Pokemon {
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
         this.setAvoidsLand(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

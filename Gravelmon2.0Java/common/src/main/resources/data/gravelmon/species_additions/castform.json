@@ -15,6 +15,32 @@
       "abilities": [
         "forecast"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 70,
         "attack": 70,
@@ -105,6 +131,26 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.3,
+        "height": 0.3,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Windy",
+      "primaryType": "flying",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 147,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "forecast"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -124,30 +170,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Windy",
-      "primaryType": "flying",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 147,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 51,
-      "baseFriendship": 70,
-      "baseScale": 0.1,
-      "cannotDynamax": false,
-      "abilities": [
-        "forecast"
-      ],
       "baseStats": {
         "hp": 70,
         "attack": 70,
@@ -238,6 +267,26 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.3,
+        "height": 0.3,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Smoggy",
+      "primaryType": "poison",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 147,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "forecast"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -257,30 +306,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Smoggy",
-      "primaryType": "poison",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 147,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 51,
-      "baseFriendship": 70,
-      "baseScale": 0.1,
-      "cannotDynamax": false,
-      "abilities": [
-        "forecast"
-      ],
       "baseStats": {
         "hp": 70,
         "attack": 70,
@@ -371,6 +403,26 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.3,
+        "height": 0.3,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Dusty",
+      "primaryType": "ground",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 147,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "forecast"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -390,30 +442,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Dusty",
-      "primaryType": "ground",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 147,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 51,
-      "baseFriendship": 70,
-      "baseScale": 0.1,
-      "cannotDynamax": false,
-      "abilities": [
-        "forecast"
-      ],
       "baseStats": {
         "hp": 70,
         "attack": 70,
@@ -504,6 +539,26 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.3,
+        "height": 0.3,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Sandy",
+      "primaryType": "rock",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 147,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "forecast"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -523,30 +578,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Sandy",
-      "primaryType": "rock",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 147,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 51,
-      "baseFriendship": 70,
-      "baseScale": 0.1,
-      "cannotDynamax": false,
-      "abilities": [
-        "forecast"
-      ],
       "baseStats": {
         "hp": 70,
         "attack": 70,
@@ -637,6 +675,26 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.3,
+        "height": 0.3,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Swarmy",
+      "primaryType": "bug",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 147,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "forecast"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -656,30 +714,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Swarmy",
-      "primaryType": "bug",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 147,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 51,
-      "baseFriendship": 70,
-      "baseScale": 0.1,
-      "cannotDynamax": false,
-      "abilities": [
-        "forecast"
-      ],
       "baseStats": {
         "hp": 70,
         "attack": 70,
@@ -770,6 +811,26 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.3,
+        "height": 0.3,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Spooky",
+      "primaryType": "ghost",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 147,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "forecast"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -789,30 +850,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Spooky",
-      "primaryType": "ghost",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 147,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 51,
-      "baseFriendship": 70,
-      "baseScale": 0.1,
-      "cannotDynamax": false,
-      "abilities": [
-        "forecast"
-      ],
       "baseStats": {
         "hp": 70,
         "attack": 70,
@@ -903,6 +947,26 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.3,
+        "height": 0.3,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Whirly",
+      "primaryType": "steel",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 147,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "forecast"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -922,30 +986,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Whirly",
-      "primaryType": "steel",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 147,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 51,
-      "baseFriendship": 70,
-      "baseScale": 0.1,
-      "cannotDynamax": false,
-      "abilities": [
-        "forecast"
-      ],
       "baseStats": {
         "hp": 70,
         "attack": 70,
@@ -1036,6 +1083,26 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.3,
+        "height": 0.3,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Allergy",
+      "primaryType": "grass",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 147,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "forecast"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -1055,30 +1122,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Allergy",
-      "primaryType": "grass",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 147,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 51,
-      "baseFriendship": 70,
-      "baseScale": 0.1,
-      "cannotDynamax": false,
-      "abilities": [
-        "forecast"
-      ],
       "baseStats": {
         "hp": 70,
         "attack": 70,
@@ -1169,6 +1219,26 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.3,
+        "height": 0.3,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Zappy",
+      "primaryType": "electric",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 147,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "forecast"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -1188,30 +1258,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Zappy",
-      "primaryType": "electric",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 147,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 51,
-      "baseFriendship": 70,
-      "baseScale": 0.1,
-      "cannotDynamax": false,
-      "abilities": [
-        "forecast"
-      ],
       "baseStats": {
         "hp": 70,
         "attack": 70,
@@ -1302,6 +1355,26 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.3,
+        "height": 0.3,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Zenny",
+      "primaryType": "psychic",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 147,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "forecast"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -1321,30 +1394,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Zenny",
-      "primaryType": "psychic",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 147,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 51,
-      "baseFriendship": 70,
-      "baseScale": 0.1,
-      "cannotDynamax": false,
-      "abilities": [
-        "forecast"
-      ],
       "baseStats": {
         "hp": 70,
         "attack": 70,
@@ -1435,6 +1491,26 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.3,
+        "height": 0.3,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Sorcery",
+      "primaryType": "dragon",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 147,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "forecast"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -1454,30 +1530,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Sorcery",
-      "primaryType": "dragon",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 147,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 51,
-      "baseFriendship": 70,
-      "baseScale": 0.1,
-      "cannotDynamax": false,
-      "abilities": [
-        "forecast"
-      ],
       "baseStats": {
         "hp": 70,
         "attack": 70,
@@ -1568,6 +1627,26 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.3,
+        "height": 0.3,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Shady",
+      "primaryType": "dark",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 147,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "forecast"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -1587,30 +1666,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Shady",
-      "primaryType": "dark",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 147,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 51,
-      "baseFriendship": 70,
-      "baseScale": 0.1,
-      "cannotDynamax": false,
-      "abilities": [
-        "forecast"
-      ],
       "baseStats": {
         "hp": 70,
         "attack": 70,
@@ -1701,6 +1763,26 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.3,
+        "height": 0.3,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Lovely",
+      "primaryType": "fairy",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 147,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "forecast"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -1720,30 +1802,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Lovely",
-      "primaryType": "fairy",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 147,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 51,
-      "baseFriendship": 70,
-      "baseScale": 0.1,
-      "cannotDynamax": false,
-      "abilities": [
-        "forecast"
-      ],
       "baseStats": {
         "hp": 70,
         "attack": 70,
@@ -1834,32 +1899,9 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 0.3,
+        "height": 0.3,
         "fixed": false
       }
     }

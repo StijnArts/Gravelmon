@@ -117,6 +117,5 @@ public class DeltaFrogadier extends Pokemon {
                 0.22, 0.3,
                 List.of());
         this.setLangFileName("Frogadier");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

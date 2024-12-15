@@ -110,7 +110,6 @@ public class SeviianNoibat extends Pokemon {
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Noibat");
-        this.setPortraitXYZ(0.1, 2.0, 0.0);
         this.setCanFly(true);
     }
 }

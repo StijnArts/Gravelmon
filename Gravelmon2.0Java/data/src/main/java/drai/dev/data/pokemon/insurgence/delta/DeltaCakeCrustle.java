@@ -130,6 +130,5 @@ public class DeltaCakeCrustle extends Pokemon {
                 0.22, 0.3,
                 List.of());
         this.setLangFileName("Crustle");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

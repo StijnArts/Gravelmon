@@ -6,8 +6,8 @@
       "aspects": [
         "space"
       ],
-      "model": "cobblemon:cutout_gravelmon_96_by_96.geo",
-      "poser": "cobblemon:cutout_gravelmon_96_by_96",
+      "model": "cobblemon:cutout_gravelmon_250_by_133.geo",
+      "poser": "cobblemon:cutout_gravelmon_250_by_133",
       "texture": "cobblemon:textures/pokemon/sage/quetzarspace.png",
       "layers": [
         {

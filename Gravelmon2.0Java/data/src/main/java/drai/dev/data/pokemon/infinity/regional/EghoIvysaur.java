@@ -110,7 +110,6 @@ public class EghoIvysaur extends Pokemon {
                 0.3, 0.3,
                 List.of());
         this.setLangFileName("Ivysaur");
-        this.setPortraitXYZ(0,1.8,0);
         this.setBaseScale(1);
 
         this.setHitbox(0.7,0.8);

@@ -105,6 +105,5 @@ public class DeltaSnivy extends Pokemon {
         this.setLangFileName("Snivy");
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

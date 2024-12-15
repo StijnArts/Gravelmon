@@ -41,6 +41,32 @@
         "stormdrain",
         "h:waterabsorb"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 65,
         "attack": 75,
@@ -164,32 +190,9 @@
         }
       ],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 1.0,
+        "height": 1.0,
         "fixed": false
       }
     },
@@ -209,6 +212,32 @@
         "keeneye",
         "h:regenerator"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 70,
         "attack": 77,
@@ -275,6 +304,30 @@
         }
       ],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 1.1,
+        "height": 1.1,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Egho",
+      "primaryType": "electric",
+      "secondaryType": "steel",
+      "catchRate": 80,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 87,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "weeduza",
+      "baseScale": 0.2222222222222222,
+      "cannotDynamax": false,
+      "abilities": [
+        "voltabsorb",
+        "motordrive",
+        "h:static"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -294,34 +347,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Egho",
-      "primaryType": "electric",
-      "secondaryType": "steel",
-      "catchRate": 80,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 87,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "weeduza",
-      "baseScale": 0.1875,
-      "cannotDynamax": false,
-      "abilities": [
-        "voltabsorb",
-        "motordrive",
-        "h:static"
-      ],
       "baseStats": {
         "hp": 60,
         "attack": 70,
@@ -468,6 +500,28 @@
         }
       ],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 1.0,
+        "height": 1.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Delta",
+      "primaryType": "ground",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 87,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.24,
+      "cannotDynamax": false,
+      "abilities": [
+        "dryskin",
+        "sandforce",
+        "h:roughskin"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -487,32 +541,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Delta",
-      "primaryType": "ground",
-      "catchRate": 190,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 87,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.1875,
-      "cannotDynamax": false,
-      "abilities": [
-        "dryskin",
-        "sandforce",
-        "h:roughskin"
-      ],
       "baseStats": {
         "hp": 65,
         "attack": 55,
@@ -640,6 +675,27 @@
         }
       ],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 1.0,
+        "height": 1.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Hoennian",
+      "primaryType": "fighting",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 87,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "preEvolution": "weeduza",
+      "baseScale": 0.43636363636363634,
+      "cannotDynamax": false,
+      "abilities": [
+        "barbednest"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -659,31 +715,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Hoennian",
-      "primaryType": "fighting",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 87,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 51,
-      "baseFriendship": 70,
-      "preEvolution": "weeduza",
-      "baseScale": 0.25,
-      "cannotDynamax": false,
-      "abilities": [
-        "barbednest"
-      ],
       "baseStats": {
         "hp": 65,
         "attack": 115,
@@ -772,32 +810,9 @@
         }
       ],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 1.0,
+        "height": 1.0,
         "fixed": false
       }
     }

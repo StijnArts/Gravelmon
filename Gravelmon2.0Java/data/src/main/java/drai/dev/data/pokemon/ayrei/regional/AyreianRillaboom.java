@@ -102,6 +102,5 @@ public class AyreianRillaboom extends Pokemon {
                 0.29, 0.3,
                 List.of());
         this.setLangFileName("Rillaboom");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

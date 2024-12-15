@@ -25,7 +25,6 @@ import drai.dev.data.pokemon.ivris.regional.*;
 import drai.dev.data.pokemon.lockemon.regional.*;
 import drai.dev.data.pokemon.mahal.regional.*;
 import drai.dev.data.pokemon.mastenia.regional.*;
-import drai.dev.data.pokemon.myth.regional.*;
 import drai.dev.data.pokemon.norheim.regional.*;
 import drai.dev.data.pokemon.nosto.regional.*;
 import drai.dev.data.pokemon.novrai.regional.*;
@@ -262,9 +261,6 @@ public class GenerationOne extends Game {
         //Pokemon Blazing Emerald
         addHoennianPokemon();
 
-        //Pokemon Myth
-        addMythianPokemon();
-
         //Pokemon Flux
         addNewPokemon(new AlteranEkans("", Aspect.ALTERAN));
         addNewPokemon(new AlteranArbok("", Aspect.ALTERAN));
@@ -298,7 +294,6 @@ public class GenerationOne extends Game {
         addNewPokemon(new MysticElectrode("", Aspect.MYSTIC));
 
         //Pokemon Opalo
-        addNewPokemon(new CefiranVenomoth("", Aspect.CEFIRAN));
         addNewPokemon(new CefiranDiglett("", Aspect.CEFIRAN));
         addNewPokemon(new CefiranDugtrio("", Aspect.CEFIRAN));
         addNewPokemon(new CefiranMeowthFire("Meowth", Aspect.CEFIRAN_FIRE));
@@ -601,16 +596,6 @@ public class GenerationOne extends Game {
         addNewPokemon(new AyreianVoltorb("", Aspect.AYREIAN));
         addNewPokemon(new AyreianElectrode("", Aspect.AYREIAN));
         addNewPokemon(new AyreianPinsir("", Aspect.AYREIAN));
-    }
-
-    private void addMythianPokemon() {
-        addNewPokemon(new MythianPidgey("", Aspect.MYTHIAN));
-        addNewPokemon(new MythianPidgeotto("", Aspect.MYTHIAN));
-        addNewPokemon(new MythianPidgeot("", Aspect.MYTHIAN));
-        /*addNewPokemon(new MythianDrowzee(96));
-        addNewPokemon(new MythianHypno(97));*/
-        addNewPokemon(new MythianScyther("", Aspect.MYTHIAN));
-        addNewPokemon(new MythianLapras("", Aspect.MYTHIAN));
     }
 
     private void addHoennianPokemon() {

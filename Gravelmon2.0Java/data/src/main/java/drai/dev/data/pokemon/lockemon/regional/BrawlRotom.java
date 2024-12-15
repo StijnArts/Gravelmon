@@ -78,7 +78,6 @@ public class BrawlRotom extends Pokemon {
                 0.2, 0.3,
                 List.of());
         this.setLangFileName("Rotom");
-        this.setPortraitXYZ(0,1.8,0);
         this.setCanFly(true);
     }
 }

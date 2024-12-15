@@ -6,8 +6,8 @@
       "aspects": [
         "seviian"
       ],
-      "model": "cobblemon:cutout_gravelmon_96_by_96.geo",
-      "poser": "cobblemon:cutout_gravelmon_96_by_96",
+      "model": "cobblemon:cutout_gravelmon_64_by_64.geo",
+      "poser": "cobblemon:cutout_gravelmon_64_by_64",
       "texture": "cobblemon:textures/pokemon/generation2/seviianmantine.png",
       "layers": [
         {

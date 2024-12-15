@@ -131,6 +131,5 @@ public class DeltaDunsparce extends Pokemon {
         this.setLangFileName("Dunsparce");
         this.setCanBreathUnderwater(true);
         this.setCanSwim(false);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

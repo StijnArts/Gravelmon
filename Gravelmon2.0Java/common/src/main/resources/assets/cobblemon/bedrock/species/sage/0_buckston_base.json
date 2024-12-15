@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_512_by_512.geo",
-      "poser": "cobblemon:cutout_gravelmon_512_by_512",
+      "model": "cobblemon:cutout_gravelmon_54_by_86.geo",
+      "poser": "cobblemon:cutout_gravelmon_54_by_86",
       "texture": "cobblemon:textures/pokemon/sage/buckston.png",
       "layers": [
         {
@@ -35,8 +35,8 @@
       "aspects": [
         "female"
       ],
-      "model": "cobblemon:cutout_gravelmon_512_by_512.geo",
-      "poser": "cobblemon:cutout_gravelmon_512_by_512",
+      "model": "cobblemon:cutout_gravelmon_54_by_80.geo",
+      "poser": "cobblemon:cutout_gravelmon_54_by_86",
       "texture": "cobblemon:textures/pokemon/sage/buckston_female.png",
       "layers": [
         {

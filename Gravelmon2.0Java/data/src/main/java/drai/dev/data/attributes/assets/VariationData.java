@@ -33,7 +33,7 @@ public class VariationData {
 
     public static VariationData fromPokemon(AbstractPokemon abstractPokemon, List<BasicLayerData> layers) {
         Supplier<String> identifier = () -> abstractPokemon.getGame().getCleanName() + "_" + abstractPokemon.getCleanName();
-        Supplier<String> model = () -> abstractPokemon.isModeled() ? identifier.get() : abstractPokemon.getPlaceholderModelName();
+        Supplier<String> model = () -> abstractPokemon.isModeled() ? identifier.get() : abstractPokemon.getPlaceholderModelName(abstractPokemon);
         return new VariationData(model, identifier, abstractPokemon.getCleanName(), layers);
     }
 
@@ -56,11 +56,11 @@ public class VariationData {
         var hasGenderDifferences = false;
         if (abstractPokemon instanceof Pokemon pokemon) hasGenderDifferences = pokemon.hasGenderDifferences();
         var model = isFemale && hasGenderDifferences
-                ? (!abstractPokemon.isModeled() ? abstractPokemon.getFemalePlaceholderModelName() : this.model.get())
+                ? (!abstractPokemon.isModeled() ? abstractPokemon.getFemalePlaceholderModelName(abstractPokemon) : this.model.get())
                 : this.model.get();
         jsonObject.add("aspects", aspectsArray);
         jsonObject.addProperty("model", "cobblemon:" + model + ".geo");
-        jsonObject.addProperty("poser", "cobblemon:" + (abstractPokemon.isModeled() ? poser.get() : abstractPokemon.getPlaceholderModelName()));
+        jsonObject.addProperty("poser", "cobblemon:" + (abstractPokemon.isModeled() ? poser.get() : abstractPokemon.getPlaceholderModelName(abstractPokemon)));
         jsonObject.addProperty("texture", BasicLayerData.getTextureLocation(textureName, abstractPokemon, isShiny, isFemale));
         var layerArray = new JsonArray();
         layers.forEach((key, value) -> {

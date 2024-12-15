@@ -141,6 +141,5 @@ public class DeltaRoserade extends Pokemon {
                 0.27, 0.3,
                 List.of());
         this.setLangFileName("Roserade");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

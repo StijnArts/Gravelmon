@@ -131,7 +131,6 @@ public class DeltaWeezing extends Pokemon {
                 List.of());
         this.setLangFileName("Weezing");
         this.setCanFly(true);
-        this.setPortraitXYZ(0,1.8,0);
         
         this.setBaseScale(1.2);
         this.setHitbox(1.3,1.4);

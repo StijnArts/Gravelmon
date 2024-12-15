@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_128",
+      "model": "cobblemon:cutout_gravelmon_152_by_116.geo",
+      "poser": "cobblemon:cutout_gravelmon_152_by_116",
       "texture": "cobblemon:textures/pokemon/infinity/kablowfish.png",
       "layers": [
         {

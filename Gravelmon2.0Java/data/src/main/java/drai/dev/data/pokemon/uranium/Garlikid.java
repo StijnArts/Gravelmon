@@ -117,6 +117,5 @@ public class Garlikid extends Pokemon {
                 List.of(SpawnPreset.VILLAGE),
                 0.21, 0.3,
                 List.of());
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

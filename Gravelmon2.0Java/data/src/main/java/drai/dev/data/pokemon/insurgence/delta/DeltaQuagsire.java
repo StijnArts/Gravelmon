@@ -135,7 +135,6 @@ public class DeltaQuagsire extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Quagsire");
-        this.setPortraitXYZ(0,1.8,0);
         
         this.setBaseScale(1.1);
         this.setHitbox(0.8,1.45);

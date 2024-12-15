@@ -133,6 +133,5 @@ public class DeltaRoselia extends Pokemon {
                 0.16, 0.3,
                 List.of());
         this.setLangFileName("Roselia");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

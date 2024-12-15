@@ -102,6 +102,5 @@ public class DeltaHoothoot extends Pokemon {
                 List.of());
         this.setLangFileName("Hoothoot");
         this.setCanFly(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

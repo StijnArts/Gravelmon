@@ -125,6 +125,5 @@ public class DeltaAurorus extends Pokemon {
         this.setLangFileName("Aurorus");
         setCanSwim(true);
         setCanBreathUnderwater(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

@@ -93,7 +93,6 @@ public class SeviianCarnivine extends Pokemon {
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Carnivine");
-        this.setPortraitXYZ(0.1, 2.0, 0.0);
         
         setBaseScale(0.8);
         setHitbox(1.2,2);

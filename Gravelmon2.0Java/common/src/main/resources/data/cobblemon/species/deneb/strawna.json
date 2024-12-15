@@ -8,11 +8,37 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "jamberree",
-  "baseScale": 0.13124999999999998,
+  "baseScale": 0.27999999999999997,
   "cannotDynamax": false,
   "abilities": [
     "chlorophyll"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": true,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 75,
     "attack": 30,
@@ -114,34 +140,11 @@
   "weight": 110,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6176,
+  "nationalPokedexNumber": 6137,
   "shoulderMountable": false,
-  "behaviour": {
-    "resting": {
-      "canSleep": true,
-      "willSleepOnBed": false,
-      "depth": "normal",
-      "light": "0-6"
-    },
-    "moving": {
-      "fly": {
-        "canFly": false
-      },
-      "canLook": true,
-      "walk": {
-        "canWalk": true,
-        "avoidsLand": false
-      },
-      "swim": {
-        "swimSpeed": 0.1,
-        "canSwimInWater": true,
-        "canBreatheUnderwater": false
-      }
-    }
-  },
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 0.7,
+    "height": 0.7,
     "fixed": false
   },
   "features": [],

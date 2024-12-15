@@ -31,34 +31,6 @@
       }
     },
     {
-      "id": "mythian_zorua-01",
-      "pokemon": "zorua mythian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "15-25",
-      "weight": 13.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_desert",
-          "#cobblemon:is_volvanic",
-          "#cobblemon:nether/is_soul_fire"
-        ],
-        "timeRange": "night"
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:magma_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "alteran_zorua-01",
       "pokemon": "zorua alteran",
       "presets": [

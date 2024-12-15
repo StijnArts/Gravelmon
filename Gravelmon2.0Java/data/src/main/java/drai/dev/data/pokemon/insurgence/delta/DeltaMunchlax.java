@@ -109,6 +109,5 @@ public class DeltaMunchlax extends Pokemon {
                 0.26, 0.3,
                 List.of());
         this.setLangFileName("Munchlax");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

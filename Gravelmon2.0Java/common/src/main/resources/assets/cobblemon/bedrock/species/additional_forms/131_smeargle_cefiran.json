@@ -6,41 +6,9 @@
       "aspects": [
         "cefiran"
       ],
-      "model": "cobblemon:cutout_gravelmon_96_by_96.geo",
-      "poser": "cobblemon:cutout_gravelmon_96_by_96",
+      "model": "cobblemon:cutout_gravelmon_104_by_96.geo",
+      "poser": "cobblemon:cutout_gravelmon_104_by_96",
       "texture": "cobblemon:textures/pokemon/generation2/cefiransmeargle.png",
-      "layers": [
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "transparentEmissive"
-        },
-        {
-          "name": "tail"
-        },
-        {
-          "name": "transparent_emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "glow"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "cefiran",
-        "female"
-      ],
-      "model": "cobblemon:cutout_gravelmon_96_by_96.geo",
-      "poser": "cobblemon:cutout_gravelmon_96_by_96",
-      "texture": "cobblemon:textures/pokemon/generation2/cefiransmeargle_female.png",
       "layers": [
         {
           "name": "emissive"

@@ -109,34 +109,6 @@
           ]
         }
       }
-    },
-    {
-      "id": "mythian_larvesta-01",
-      "pokemon": "larvesta mythian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "12-43",
-      "weight": 3.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_magical"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "timeRange": "night"
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:amethyst_block"
-          ]
-        }
-      }
     }
   ]
 }

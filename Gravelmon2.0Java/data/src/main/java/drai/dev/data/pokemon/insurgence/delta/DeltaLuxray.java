@@ -121,6 +121,5 @@ public class DeltaLuxray extends Pokemon {
                 0.2, 0.3,
                 List.of());
         this.setLangFileName("Luxray");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

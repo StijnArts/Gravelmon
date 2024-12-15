@@ -147,6 +147,5 @@ public class DeltaNoivern extends Pokemon {
                 List.of());
         this.setLangFileName("Noivern");
         this.setCanFly(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

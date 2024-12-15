@@ -115,6 +115,5 @@ public class EghoCyndaquil extends Pokemon {
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Cyndaquil");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

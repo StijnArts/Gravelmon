@@ -6,8 +6,8 @@
       "aspects": [
         "relic"
       ],
-      "model": "cobblemon:cutout_gravelmon_96_by_96.geo",
-      "poser": "cobblemon:cutout_gravelmon_96_by_96",
+      "model": "cobblemon:cutout_gravelmon_222_by_195.geo",
+      "poser": "cobblemon:cutout_gravelmon_222_by_195",
       "texture": "cobblemon:textures/pokemon/generation4/relicambipom.png",
       "layers": [
         {

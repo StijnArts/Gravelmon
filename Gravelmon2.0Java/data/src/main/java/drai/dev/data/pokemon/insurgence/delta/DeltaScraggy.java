@@ -122,6 +122,5 @@ public class DeltaScraggy extends Pokemon {
                 0.22, 0.3,
                 List.of());
         this.setLangFileName("Scraggy");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

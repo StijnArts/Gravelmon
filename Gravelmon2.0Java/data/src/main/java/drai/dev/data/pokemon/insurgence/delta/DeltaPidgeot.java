@@ -168,7 +168,6 @@ public class DeltaPidgeot extends Pokemon {
                 )));
         this.setLangFileName("Pidgeot");
         this.setCanFly(true);
-        this.setPortraitXYZ(0,1.8,0);
         
         this.setBaseScale(1.85);
         this.setHitbox(0.75,1.5);

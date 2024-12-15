@@ -135,7 +135,6 @@ public class EghoCroconaw extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Croconaw");
-        this.setPortraitXYZ(0,1.8,0);
         
         setBaseScale(1);
         setHitbox(1,1);

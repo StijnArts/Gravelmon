@@ -6,8 +6,8 @@
       "aspects": [
         "ten"
       ],
-      "model": "cobblemon:cutout_gravelmon_96_by_96.geo",
-      "poser": "cobblemon:cutout_gravelmon_96_by_96",
+      "model": "cobblemon:cutout_gravelmon_39_by_36.geo",
+      "poser": "cobblemon:cutout_gravelmon_39_by_36",
       "texture": "cobblemon:textures/pokemon/deneb/10.png",
       "layers": [
         {

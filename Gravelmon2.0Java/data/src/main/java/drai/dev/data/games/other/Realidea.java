@@ -19,5 +19,6 @@ public class Realidea extends Game {
         addNewPokemon(new Gulliby());
         addNewPokemon(new Saigull());
         addNewPokemon(new Seaghoul());
+        addNewPokemon(new Faemie());
     }
 }

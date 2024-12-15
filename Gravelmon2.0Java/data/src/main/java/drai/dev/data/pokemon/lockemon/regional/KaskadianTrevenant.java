@@ -91,6 +91,5 @@ public class KaskadianTrevenant extends Pokemon {
                 0.21, 0.3,
                 List.of());
         this.setLangFileName("Trevenant");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

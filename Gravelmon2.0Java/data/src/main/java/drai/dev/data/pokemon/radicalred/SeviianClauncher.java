@@ -80,6 +80,5 @@ public class SeviianClauncher extends Pokemon {
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Clauncher");
-        this.setPortraitXYZ(0.1, 2.0, 0.0);
     }
 }

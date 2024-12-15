@@ -6,8 +6,8 @@
       "aspects": [
         "altair"
       ],
-      "model": "cobblemon:cutout_gravelmon_64_by_64.geo",
-      "poser": "cobblemon:cutout_gravelmon_64_by_64",
+      "model": "cobblemon:cutout_gravelmon_56_by_63.geo",
+      "poser": "cobblemon:cutout_gravelmon_56_by_63",
       "texture": "cobblemon:textures/pokemon/deneb/altair.png",
       "layers": [
         {

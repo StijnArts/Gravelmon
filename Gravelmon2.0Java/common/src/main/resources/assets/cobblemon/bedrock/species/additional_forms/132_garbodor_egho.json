@@ -6,8 +6,8 @@
       "aspects": [
         "egho"
       ],
-      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_128",
+      "model": "cobblemon:cutout_gravelmon_158_by_136.geo",
+      "poser": "cobblemon:cutout_gravelmon_158_by_136",
       "texture": "cobblemon:textures/pokemon/generation5/eghogarbodor.png",
       "layers": [
         {

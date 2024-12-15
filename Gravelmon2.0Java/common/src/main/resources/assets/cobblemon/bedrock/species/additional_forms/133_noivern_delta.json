@@ -6,8 +6,8 @@
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_128",
+      "model": "cobblemon:cutout_gravelmon_220_by_150.geo",
+      "poser": "cobblemon:cutout_gravelmon_220_by_150",
       "texture": "cobblemon:textures/pokemon/generation6/deltanoivern.png",
       "layers": [
         {

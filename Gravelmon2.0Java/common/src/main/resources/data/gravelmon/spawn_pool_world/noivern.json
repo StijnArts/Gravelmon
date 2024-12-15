@@ -110,32 +110,6 @@
       }
     },
     {
-      "id": "mythian_noivern-01",
-      "pokemon": "noivern mythian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "45-61",
-      "weight": 0.30000000000000004,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_glacial"
-        ],
-        "timeRange": "night"
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:note_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "ayreian_noivern-01",
       "pokemon": "noivern ayreian",
       "presets": [

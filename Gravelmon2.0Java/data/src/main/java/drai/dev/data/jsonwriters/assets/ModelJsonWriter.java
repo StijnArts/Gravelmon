@@ -14,7 +14,7 @@ public class ModelJsonWriter {
         try {
 
             String dir = resourcesDir + "\\assets\\cobblemon\\bedrock\\pokemon\\models\\";
-            var modelLocation = dir + abstractPokemon.getPlaceholderModelName() + ".geo.json";
+            var modelLocation = dir + abstractPokemon.getPlaceholderModelName(abstractPokemon) + ".geo.json";
             if(generatedModels.contains(modelLocation)) return;
             generatedModels.add(modelLocation);
             Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
@@ -22,7 +22,7 @@ public class ModelJsonWriter {
             BufferedWriter writer = new BufferedWriter(new FileWriter(new File(modelLocation)));
             writer.write(gson.toJson(getModelJson(width, height)));
             writer.close();
-            PoserJSONWriter.createPoserFile(abstractPokemon.getPosingFileData(), abstractPokemon.getPlaceholderModelName(), resourcesDir, gson);
+            PoserJSONWriter.createPoserFile(abstractPokemon.getPosingFileData(), abstractPokemon.getPlaceholderModelName(abstractPokemon), resourcesDir, gson);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

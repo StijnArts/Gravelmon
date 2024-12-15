@@ -17,6 +17,32 @@
       "abilities": [
         "cursedbody"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 121,
         "attack": 42,
@@ -59,6 +85,27 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.9,
+        "height": 2.9,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Raianian",
+      "primaryType": "dragon",
+      "secondaryType": "fire",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.11249999999999999,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -78,32 +125,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
             "canBreatheUnderwater": false,
-            "canWalkOnWater": true
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Raianian",
-      "primaryType": "dragon",
-      "secondaryType": "fire",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.11249999999999999,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
       "baseStats": {
         "hp": 79,
         "attack": 42,
@@ -153,32 +181,9 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 2.4,
+        "height": 2.4,
         "fixed": false
       }
     },
@@ -198,6 +203,32 @@
       "abilities": [
         "dazzling"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 95,
         "attack": 115,
@@ -318,6 +349,30 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 1.9,
+        "height": 1.9,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Aristosian",
+      "primaryType": "ice",
+      "secondaryType": "psychic",
+      "catchRate": 75,
+      "maleRatio": 0.75,
+      "baseExperienceYield": 194,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "growlithe form=aristosian",
+      "baseScale": 0.6631578947368421,
+      "cannotDynamax": false,
+      "abilities": [
+        "intimidate",
+        "snowcloak",
+        "h:slushrush"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -337,34 +392,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Aristosian",
-      "primaryType": "ice",
-      "secondaryType": "psychic",
-      "catchRate": 75,
-      "maleRatio": 0.75,
-      "baseExperienceYield": 194,
-      "experienceGroup": "slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "growlithe form=aristosian",
-      "baseScale": 0.525,
-      "cannotDynamax": false,
-      "abilities": [
-        "intimidate",
-        "snowcloak",
-        "h:slushrush"
-      ],
       "baseStats": {
         "hp": 115,
         "attack": 70,
@@ -420,6 +454,30 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.1,
+        "height": 2.1,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Delta",
+      "primaryType": "normal",
+      "secondaryType": "dragon",
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 194,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "growlithe form=delta",
+      "baseScale": 0.11052631578947367,
+      "cannotDynamax": false,
+      "abilities": [
+        "innerfocus",
+        "intimidate",
+        "h:multiscale"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -439,34 +497,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Delta",
-      "primaryType": "normal",
-      "secondaryType": "dragon",
-      "catchRate": 75,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 194,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "growlithe form=delta",
-      "baseScale": 0.13124999999999998,
-      "cannotDynamax": false,
-      "abilities": [
-        "innerfocus",
-        "intimidate",
-        "h:multiscale"
-      ],
       "baseStats": {
         "hp": 90,
         "attack": 110,
@@ -600,6 +637,29 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.7,
+        "height": 0.7,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Armiran",
+      "primaryType": "water",
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 194,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "growlithe form=armiran",
+      "baseScale": 0.36190476190476184,
+      "cannotDynamax": false,
+      "abilities": [
+        "intimidate",
+        "waterabsorb",
+        "h:justified"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -619,33 +679,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Armiran",
-      "primaryType": "water",
-      "catchRate": 75,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 194,
-      "experienceGroup": "slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "growlithe form=armiran",
-      "baseScale": 0.475,
-      "cannotDynamax": false,
-      "abilities": [
-        "intimidate",
-        "waterabsorb",
-        "h:justified"
-      ],
       "baseStats": {
         "hp": 90,
         "attack": 110,
@@ -772,32 +812,9 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 1.9,
+        "height": 1.9,
         "fixed": false
       }
     }

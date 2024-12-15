@@ -144,7 +144,6 @@ public class DeltaSquirtle extends Pokemon {
                 0.22, 0.3,
                 List.of());
         this.setLangFileName("Squirtle");
-        this.setPortraitXYZ(0,1.8,0);
         
         this.setBaseScale(0.7);
         this.setHitbox(0.6,1.2);

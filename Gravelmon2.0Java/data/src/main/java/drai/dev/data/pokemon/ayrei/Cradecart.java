@@ -99,6 +99,5 @@ public class Cradecart extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Cradecart");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

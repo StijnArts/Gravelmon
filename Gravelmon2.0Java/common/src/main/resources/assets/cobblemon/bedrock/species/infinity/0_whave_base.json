@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_128",
+      "model": "cobblemon:cutout_gravelmon_126_by_86.geo",
+      "poser": "cobblemon:cutout_gravelmon_126_by_86",
       "texture": "cobblemon:textures/pokemon/infinity/whave.png",
       "layers": [
         {

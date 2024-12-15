@@ -6,8 +6,8 @@
       "aspects": [
         "deltawater"
       ],
-      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_128",
+      "model": "cobblemon:cutout_gravelmon_74_by_122.geo",
+      "poser": "cobblemon:cutout_gravelmon_74_by_122",
       "texture": "cobblemon:textures/pokemon/generation5/deltawaterpetilil.png",
       "layers": [
         {

@@ -170,6 +170,5 @@ public class DeltaMawile extends Pokemon {
                         0.48, 0.3
                 )));
         this.setLangFileName("Mawile");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

@@ -151,6 +151,5 @@ public class AyreianPangoro extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Pangoro");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

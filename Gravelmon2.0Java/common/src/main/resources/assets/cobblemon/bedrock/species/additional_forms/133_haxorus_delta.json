@@ -6,8 +6,8 @@
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_128",
+      "model": "cobblemon:cutout_gravelmon_150_by_182.geo",
+      "poser": "cobblemon:cutout_gravelmon_150_by_182",
       "texture": "cobblemon:textures/pokemon/generation5/deltahaxorus.png",
       "layers": [
         {

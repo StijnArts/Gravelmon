@@ -101,6 +101,5 @@ public class DeltaKabuto extends Pokemon {
                 List.of());
         this.setLangFileName("Kabuto");
         this.setCanFly(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

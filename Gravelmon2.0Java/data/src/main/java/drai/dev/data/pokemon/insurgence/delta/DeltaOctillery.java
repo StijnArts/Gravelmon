@@ -127,6 +127,5 @@ public class DeltaOctillery extends Pokemon {
         this.setLangFileName("Octillery");
         this.setCanSwim(true);
         this.setAvoidsLand(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

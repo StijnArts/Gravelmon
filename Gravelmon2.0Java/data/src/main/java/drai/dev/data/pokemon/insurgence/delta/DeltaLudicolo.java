@@ -127,6 +127,5 @@ public class DeltaLudicolo extends Pokemon {
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Ludicolo");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

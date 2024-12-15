@@ -9,12 +9,38 @@
   "eggCycles": 62,
   "baseFriendship": 70,
   "preEvolution": "mushling",
-  "baseScale": 0.16875,
+  "baseScale": 0.15882352941176472,
   "cannotDynamax": false,
   "abilities": [
     "magicguard",
     "h:poisonheal"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": true,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 55,
     "attack": 50,
@@ -127,34 +153,11 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1459,
+  "nationalPokedexNumber": 1460,
   "shoulderMountable": false,
-  "behaviour": {
-    "resting": {
-      "canSleep": true,
-      "willSleepOnBed": false,
-      "depth": "normal",
-      "light": "0-6"
-    },
-    "moving": {
-      "fly": {
-        "canFly": false
-      },
-      "canLook": true,
-      "walk": {
-        "canWalk": true,
-        "avoidsLand": false
-      },
-      "swim": {
-        "swimSpeed": 0.1,
-        "canSwimInWater": true,
-        "canBreatheUnderwater": false
-      }
-    }
-  },
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 0.9,
+    "height": 0.9,
     "fixed": false
   },
   "features": [],

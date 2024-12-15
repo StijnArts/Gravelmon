@@ -6,8 +6,8 @@
       "aspects": [
         "kaskadian"
       ],
-      "model": "cobblemon:cutout_gravelmon_512_by_512.geo",
-      "poser": "cobblemon:cutout_gravelmon_512_by_512",
+      "model": "cobblemon:cutout_gravelmon_512_by_322.geo",
+      "poser": "cobblemon:cutout_gravelmon_512_by_322",
       "texture": "cobblemon:textures/pokemon/generation5/kaskadianconkeldurr.png",
       "layers": [
         {

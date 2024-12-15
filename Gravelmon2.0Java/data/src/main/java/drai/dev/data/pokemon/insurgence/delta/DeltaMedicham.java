@@ -167,6 +167,5 @@ public class DeltaMedicham extends Pokemon {
                         0.48, 0.3
                 )));
         this.setLangFileName("Medicham");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

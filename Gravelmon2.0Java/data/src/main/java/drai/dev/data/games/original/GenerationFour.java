@@ -20,7 +20,6 @@ import drai.dev.data.pokemon.ivris.regional.*;
 import drai.dev.data.pokemon.lagoone.regional.*;
 import drai.dev.data.pokemon.lockemon.regional.*;
 import drai.dev.data.pokemon.mahal.regional.*;
-import drai.dev.data.pokemon.myth.regional.*;
 import drai.dev.data.pokemon.norheim.regional.*;
 import drai.dev.data.pokemon.novrai.regional.*;
 import drai.dev.data.pokemon.opalo.regional.*;
@@ -186,8 +185,6 @@ public class GenerationFour extends Game {
         addNewPokemon(new SeviianCarnivine("", Aspect.SEVIIAN));
         addNewPokemon(new SeviianMantyke("", Aspect.SEVIIAN));
 
-        addMythianPokemon();
-
         //Daybreak
         addNewPokemon(new ArmiranGarchomp("", Aspect.ARMIRAN));
         addNewPokemon(new ArmiranHippopotas("", Aspect.ARMIRAN));
@@ -240,6 +237,8 @@ public class GenerationFour extends Game {
         addNewPokemon(new MysticLucario("", Aspect.MYSTIC));
 
         //Pokemon Opalo
+        addNewPokemon(new CefiranBuneary("", Aspect.CEFIRAN));
+        addNewPokemon(new CefiranLopunny("", Aspect.CEFIRAN, new Stats(480, FAST_PHYSICAL_ATTACKER, List.of())));
         addNewPokemon(new CefiranSnover("", Aspect.CEFIRAN));
         addNewPokemon(new CefiranAbomasnow("", Aspect.CEFIRAN));
         addNewPokemon(new CefiranFroslass("", Aspect.CEFIRAN));
@@ -391,11 +390,6 @@ public class GenerationFour extends Game {
         addNewPokemon(new DeltaYanmega("", Aspect.DELTA));
         addNewPokemon(new DeltaGallade("", Aspect.DELTA));
         addNewPokemon(new DeltaFroslass("", Aspect.DELTA));
-    }
-
-    private void addMythianPokemon() {
-        addNewPokemon(new MythianRiolu("", Aspect.MYTHIAN));
-        addNewPokemon(new MythianLucario("", Aspect.MYTHIAN));
     }
 
 

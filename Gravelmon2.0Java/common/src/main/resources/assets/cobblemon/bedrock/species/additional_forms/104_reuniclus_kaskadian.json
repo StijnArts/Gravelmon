@@ -6,8 +6,8 @@
       "aspects": [
         "kaskadian"
       ],
-      "model": "cobblemon:cutout_gravelmon_512_by_512.geo",
-      "poser": "cobblemon:cutout_gravelmon_512_by_512",
+      "model": "cobblemon:cutout_gravelmon_512_by_464.geo",
+      "poser": "cobblemon:cutout_gravelmon_512_by_464",
       "texture": "cobblemon:textures/pokemon/generation5/kaskadianreuniclus.png",
       "layers": [
         {

@@ -79,7 +79,6 @@ public class DeepWishiwashi extends Pokemon {
                         List.of(SpawnPreset.NATURAL),
                         1.4, 0.3)));
         this.setLangFileName("Wishiwashi");
-        this.setPortraitXYZ(0.1, 2.0, 0.0);
         this.setCanSwim(true);
         this.setAvoidsLand(true);
         this.setCanBreathUnderwater(true);

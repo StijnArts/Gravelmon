@@ -115,6 +115,5 @@ public class DeltaShiftry extends Pokemon {
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Shiftry");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

@@ -92,6 +92,5 @@ public class AyreianFloragato extends Pokemon {
                 0.29, 0.3,
                 List.of());
         this.setLangFileName("Floragato");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

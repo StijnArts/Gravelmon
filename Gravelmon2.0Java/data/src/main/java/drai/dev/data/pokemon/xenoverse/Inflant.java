@@ -74,6 +74,5 @@ public class Inflant extends Pokemon {
                 List.of(SpawnPreset.NEAR_WATER),
                 0.18, 0.3,
                 List.of());
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

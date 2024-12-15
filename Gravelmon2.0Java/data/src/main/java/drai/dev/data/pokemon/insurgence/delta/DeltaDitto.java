@@ -43,7 +43,7 @@ public class DeltaDitto extends Pokemon {
                 0.34, 0.3,
                 List.of());
         this.setLangFileName("Ditto");
-        this.setPortraitXYZ(0, 1.8, 0);
+        
         
         this.setBaseScale(1);
         this.setHitbox(0.5,0.6);

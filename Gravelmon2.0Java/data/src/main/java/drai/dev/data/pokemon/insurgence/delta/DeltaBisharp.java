@@ -156,6 +156,5 @@ public class DeltaBisharp extends Pokemon {
                 )));
         this.setLangFileName("Bisharp");
         this.setCanFly(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

@@ -100,6 +100,5 @@ public class DeltaSnorunt extends Pokemon {
                 0.25, 0.3,
                 List.of());
         this.setLangFileName("Snorunt");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

@@ -195,7 +195,6 @@ public class DeltaLopunny extends Pokemon {
                         0.48, 0.3
                 )));
         this.setLangFileName("Lopunny");
-        this.setPortraitXYZ(0,1.8,0);
         
         this.setBaseScale(0.6);
         this.setHitbox(1.4,3);

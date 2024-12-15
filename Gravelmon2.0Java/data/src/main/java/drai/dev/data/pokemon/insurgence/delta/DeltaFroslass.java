@@ -133,6 +133,5 @@ public class DeltaFroslass extends Pokemon {
                 )));
         this.setLangFileName("Froslass");
         this.setCanFly(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

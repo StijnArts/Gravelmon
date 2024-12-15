@@ -138,6 +138,5 @@ public class DeltaVespiquen extends Pokemon {
                 0.34, 0.3,
                 List.of());
         this.setLangFileName("Vespiquen");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

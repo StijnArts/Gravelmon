@@ -84,6 +84,5 @@ public class DeltaSeedot extends Pokemon {
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Seedot");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

@@ -101,7 +101,6 @@ public class Foliat extends Pokemon {
         this.setHasGenderDifferences(true);
         this.setShoulderMountable(true);
         this.setWillSleepOnBed(true);
-        this.setPortraitXYZ(0,1.8,0);
         this.setBaseScale(0.9);
         
         getSpeciesFileData().addBasicVariation(this);

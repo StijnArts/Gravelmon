@@ -16,6 +16,32 @@
       "abilities": [
         "keeneye"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 109,
         "attack": 92,
@@ -56,6 +82,30 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.0,
+        "height": 0.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Kaskadian",
+      "primaryType": "ice",
+      "secondaryType": "normal",
+      "catchRate": 127,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 148,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "preEvolution": "bunnelby form=kaskadian",
+      "baseScale": 0.3157894736842105,
+      "cannotDynamax": false,
+      "abilities": [
+        "slushrush",
+        "icebody",
+        "h:hugepower"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -75,34 +125,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Kaskadian",
-      "primaryType": "ice",
-      "secondaryType": "normal",
-      "catchRate": 127,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 148,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 51,
-      "baseFriendship": 70,
-      "preEvolution": "bunnelby form=kaskadian",
-      "baseScale": 0.25,
-      "cannotDynamax": false,
-      "abilities": [
-        "slushrush",
-        "icebody",
-        "h:hugepower"
-      ],
       "baseStats": {
         "hp": 85,
         "attack": 55,
@@ -192,32 +221,9 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 1.0,
+        "height": 1.0,
         "fixed": false
       }
     }

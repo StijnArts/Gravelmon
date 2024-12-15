@@ -123,6 +123,5 @@ public class DeltaSolosis extends Pokemon {
                 List.of());
         this.setLangFileName("Solosis");
         this.setCanFly(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

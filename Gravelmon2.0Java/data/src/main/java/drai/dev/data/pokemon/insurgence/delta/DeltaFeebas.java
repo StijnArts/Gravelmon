@@ -81,6 +81,5 @@ public class DeltaFeebas extends Pokemon {
         this.setCanBreathUnderwater(true);
         this.setCanSwim(true);
         this.setAvoidsLand(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

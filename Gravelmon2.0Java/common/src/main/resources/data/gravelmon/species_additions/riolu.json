@@ -35,6 +35,32 @@
       "abilities": [
         "keeneye"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 0,
         "attack": 0,
@@ -72,6 +98,26 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.0,
+        "height": 0.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "psychic",
+      "catchRate": 75,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 57,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.175,
+      "cannotDynamax": false,
+      "abilities": [
+        "magicbounce"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -91,30 +137,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Epoch",
-      "primaryType": "psychic",
-      "catchRate": 75,
-      "maleRatio": 0.875,
-      "baseExperienceYield": 57,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.175,
-      "cannotDynamax": false,
-      "abilities": [
-        "magicbounce"
-      ],
       "baseStats": {
         "hp": 55,
         "attack": 35,
@@ -238,32 +267,9 @@
         }
       ],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 0.7,
+        "height": 0.7,
         "fixed": false
       }
     },
@@ -283,6 +289,32 @@
         "pressure",
         "h:mummy"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 40,
         "attack": 70,
@@ -426,162 +458,9 @@
         }
       ],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
         "width": 0.6,
         "height": 1.3,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Mythian",
-      "primaryType": "ground",
-      "secondaryType": "ghost",
-      "catchRate": 75,
-      "maleRatio": 0.875,
-      "baseExperienceYield": 57,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 51,
-      "baseFriendship": 70,
-      "baseScale": 0.225,
-      "cannotDynamax": false,
-      "abilities": [
-        "levitate",
-        "arenatrap",
-        "h:dryskin"
-      ],
-      "baseStats": {
-        "hp": 40,
-        "attack": 70,
-        "defence": 40,
-        "special_attack": 35,
-        "special_defence": 40,
-        "speed": 60
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 1,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "undiscovered"
-      ],
-      "drops": {},
-      "moves": [
-        "1:lick",
-        "4:aurasphere",
-        "8:shadowclaw",
-        "12:counter",
-        "16:workup",
-        "20:magnitude",
-        "24:shadowsneak",
-        "28:screech",
-        "32:quickguard",
-        "36:earthquake",
-        "40:swordsdance",
-        "44:helpinghand",
-        "48:copycat",
-        "52:finalgambit",
-        "56:reversal",
-        "egg:crosschop",
-        "egg:detect",
-        "egg:bite",
-        "egg:mindreader",
-        "egg:skyuppercut",
-        "egg:highjumpkick",
-        "egg:agility",
-        "egg:vacuumwave",
-        "egg:crunch",
-        "egg:lowkick",
-        "egg:blazekick",
-        "egg:bulletpunch",
-        "egg:followme",
-        "egg:circlethrow",
-        "egg:meteormash",
-        "egg:howl",
-        "egg:irondefense"
-      ],
-      "labels": [
-        "myth",
-        "gen4",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.mythianriolu.desc"
-      ],
-      "height": 9,
-      "weight": 130,
-      "aspects": [
-        "mythian"
-      ],
-      "evolutions": [
-        {
-          "id": "mythianriolu_lucario_mythian",
-          "variant": "level_up",
-          "result": "lucario mythian",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "friendship",
-              "amount": "160"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
         "fixed": false
       }
     },
@@ -601,6 +480,32 @@
         "steadfast",
         "download"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 40,
         "attack": 30,
@@ -743,6 +648,27 @@
         }
       ],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.7,
+        "height": 0.7,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Mystic",
+      "primaryType": "fairy",
+      "catchRate": 75,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 57,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.105,
+      "cannotDynamax": false,
+      "abilities": [
+        "oblivious",
+        "h:steelworker"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -762,31 +688,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Mystic",
-      "primaryType": "fairy",
-      "catchRate": 75,
-      "maleRatio": 0.875,
-      "baseExperienceYield": 57,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.175,
-      "cannotDynamax": false,
-      "abilities": [
-        "oblivious",
-        "h:steelworker"
-      ],
       "baseStats": {
         "hp": 70,
         "attack": 40,
@@ -864,32 +772,9 @@
         }
       ],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 0.7,
+        "height": 0.7,
         "fixed": false
       }
     }
@@ -898,7 +783,6 @@
     "ivrisian",
     "epoch",
     "delta",
-    "mythian",
     "ayreian",
     "mystic"
   ]

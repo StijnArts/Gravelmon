@@ -98,7 +98,6 @@ public class Fleumingo extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Fleumingo");
-        this.setPortraitXYZ(0,1.8,0);
         setCanFly(true);
     }
 }

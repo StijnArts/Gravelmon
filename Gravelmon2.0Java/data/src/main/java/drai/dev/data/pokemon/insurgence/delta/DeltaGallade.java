@@ -154,7 +154,6 @@ public class DeltaGallade extends Pokemon {
                         0.48, 0.3
                 )));
         this.setLangFileName("Gallade");
-        this.setPortraitXYZ(0,1.8,0);
         
         this.setBaseScale(1);
         this.setHitbox(0.6,2.25);

@@ -31,7 +31,6 @@ public class Fungeon extends drai.dev.data.pokemon.Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.21, 0.3,
                 List.of());
-        this.setPortraitXYZ(0,1.8,0);
         addAdditionalEvolution("eevee", new EvolutionEntry("fungeon", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"minecraft:red_mushroom"));
            setLangFileName("Fungeon");

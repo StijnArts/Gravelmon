@@ -75,7 +75,6 @@ public class Plaineon extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.21, 0.3,
                 List.of());
-        this.setPortraitXYZ(0,1.8,0);
         addAdditionalEvolution("eevee", new EvolutionEntry("plaineon", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"cobblemon:shiny_stone"));
     }

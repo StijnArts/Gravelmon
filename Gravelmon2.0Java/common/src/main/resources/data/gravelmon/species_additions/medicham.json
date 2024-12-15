@@ -19,6 +19,32 @@
         "shielddust",
         "h:battlearmor"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 60,
         "attack": 50,
@@ -108,6 +134,29 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 1.3,
+        "height": 1.3,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Delta",
+      "primaryType": "fairy",
+      "secondaryType": "ground",
+      "catchRate": 90,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 144,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "meditite form=delta",
+      "baseScale": 0.25161290322580643,
+      "cannotDynamax": false,
+      "abilities": [
+        "sapsipper",
+        "h:athenian"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -127,33 +176,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Delta",
-      "primaryType": "fairy",
-      "secondaryType": "ground",
-      "catchRate": 90,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 144,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "meditite form=delta",
-      "baseScale": 0.24375000000000002,
-      "cannotDynamax": false,
-      "abilities": [
-        "sapsipper",
-        "h:athenian"
-      ],
       "baseStats": {
         "hp": 60,
         "attack": 60,
@@ -306,32 +335,9 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 1.3,
+        "height": 1.3,
         "fixed": false
       }
     }

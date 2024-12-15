@@ -114,6 +114,5 @@ public class DeltaSunkern extends Pokemon {
                 0.17, 0.3,
                 List.of());
         this.setLangFileName("Sunkern");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

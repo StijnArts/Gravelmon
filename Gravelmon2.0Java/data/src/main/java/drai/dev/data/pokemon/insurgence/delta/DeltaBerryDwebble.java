@@ -113,6 +113,5 @@ public class DeltaBerryDwebble extends Pokemon {
                 0.22, 0.3,
                 List.of());
         this.setLangFileName("Dwebble");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

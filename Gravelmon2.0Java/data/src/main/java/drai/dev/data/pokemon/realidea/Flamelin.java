@@ -9,7 +9,7 @@ import java.util.*;
 public class Flamelin extends Pokemon {
     public Flamelin() {
         super("Flamelin",
-                Type.FIRE, Type.PSYCHIC,
+                Type.FIRE, Type.SOUND,
                 new Stats(75,70,110,80,95,110),
                 List.of(Ability.BLAZE), Ability.SOLAR_POWER,
                 15, 500,

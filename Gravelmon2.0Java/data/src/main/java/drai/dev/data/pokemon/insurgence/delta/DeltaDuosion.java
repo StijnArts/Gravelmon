@@ -120,6 +120,5 @@ public class DeltaDuosion extends Pokemon {
                 List.of());
         this.setLangFileName("Duosion");
         this.setCanFly(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

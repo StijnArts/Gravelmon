@@ -106,6 +106,5 @@ public class DeltaNoctowl extends Pokemon {
                 List.of());
         this.setLangFileName("Noctowl");
         this.setCanFly(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

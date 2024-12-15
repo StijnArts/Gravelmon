@@ -43,6 +43,5 @@ public class CefiranSmeargle extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Smeargle");
-        setHasGenderDifferences(true);
     }
 }

@@ -18,6 +18,32 @@
         "analytic",
         "h:download"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 105,
         "attack": 100,
@@ -135,32 +161,9 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 1.5,
+        "height": 1.5,
         "fixed": false
       }
     },
@@ -182,6 +185,32 @@
         "serenegrace",
         "h:steelworker"
       ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
       "baseStats": {
         "hp": 205,
         "attack": 10,
@@ -344,6 +373,30 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
+      "hitbox": {
+        "width": 1.5,
+        "height": 1.5,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Egho",
+      "primaryType": "fighting",
+      "secondaryType": "fairy",
+      "catchRate": 30,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 320,
+      "experienceGroup": "fast",
+      "eggCycles": 100,
+      "baseFriendship": 70,
+      "preEvolution": "chansey form=egho",
+      "baseScale": 0.24,
+      "cannotDynamax": false,
+      "abilities": [
+        "angerpoint",
+        "reckless",
+        "h:owntempo"
+      ],
       "behaviour": {
         "resting": {
           "canSleep": true,
@@ -363,34 +416,13 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
           }
         }
       },
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Egho",
-      "primaryType": "fighting",
-      "secondaryType": "fairy",
-      "catchRate": 30,
-      "maleRatio": 0.0,
-      "baseExperienceYield": 320,
-      "experienceGroup": "fast",
-      "eggCycles": 100,
-      "baseFriendship": 70,
-      "preEvolution": "chansey form=egho",
-      "baseScale": 0.28125,
-      "cannotDynamax": false,
-      "abilities": [
-        "angerpoint",
-        "reckless",
-        "h:owntempo"
-      ],
       "baseStats": {
         "hp": 135,
         "attack": 255,
@@ -523,32 +555,9 @@
       ],
       "evolutions": [],
       "shoulderMountable": false,
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-          }
-        }
-      },
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 1.5,
+        "height": 1.5,
         "fixed": false
       }
     }

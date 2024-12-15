@@ -122,6 +122,5 @@ public class AyreianGourgeist extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Gourgeist");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

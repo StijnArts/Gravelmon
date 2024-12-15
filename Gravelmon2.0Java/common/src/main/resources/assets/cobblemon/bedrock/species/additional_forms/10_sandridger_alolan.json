@@ -6,8 +6,8 @@
       "aspects": [
         "alolan"
       ],
-      "model": "cobblemon:cutout_gravelmon_96_by_96.geo",
-      "poser": "cobblemon:cutout_gravelmon_96_by_96",
+      "model": "cobblemon:cutout_gravelmon_182_by_182.geo",
+      "poser": "cobblemon:cutout_gravelmon_182_by_182",
       "texture": "cobblemon:textures/pokemon/daybreak/alolansandridger.png",
       "layers": [
         {

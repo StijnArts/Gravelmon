@@ -87,7 +87,6 @@ public class GameRegistry {
         games.add(new Vanguard());
         games.add(new Kuria());
         games.add(new Isiah());
-        games.add(new Myth());
         games.add(new Midamis());
         games.add(new Okeno());
         games.add(new Deneb());
@@ -106,6 +105,5 @@ public class GameRegistry {
         games.add(new Goetia());
         games.add(new Sorin());
         games.add(new Mastenia());
-        games.add(new TimeWardens());
     }
 }
