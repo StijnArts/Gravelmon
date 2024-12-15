@@ -259,6 +259,11 @@ public class GenerationFive extends Game {
         addNewPokemon(new AyreianGurdurr("", Aspect.AYREIAN));
         addNewPokemon(new AyreianConkeldurr("", Aspect.AYREIAN));
 
+        addNewPokemon(new AyreianDeerling("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianSawsbuck("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianVenipede("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianWhirlipede("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianScolipede("", Aspect.AYREIAN));
         addNewPokemon(new AyreianDwebble("", Aspect.AYREIAN));
         addNewPokemon(new AyreianArchen("", Aspect.AYREIAN));
         addNewPokemon(new AyreianArcheops("", Aspect.AYREIAN));

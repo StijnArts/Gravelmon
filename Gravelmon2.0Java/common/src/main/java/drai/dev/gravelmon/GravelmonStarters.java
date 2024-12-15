@@ -107,6 +107,14 @@ public class GravelmonStarters {
                         )
                 ));
         GravelmonStarterManager.registerNewStarter("Hoenn",
+                createCategory("Ayrei - Hoenn",
+                        List.of(
+                                "Treecko ayreian=true level=10",
+                                "Torchic ayreian=true level=10",
+                                "Mudkip ayreian=true level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter("Hoenn",
                 createCategory("Zakos",
                         List.of(
                                 "Treecko mystic=true level=10",

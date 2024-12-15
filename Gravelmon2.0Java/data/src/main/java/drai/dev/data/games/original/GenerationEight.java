@@ -121,6 +121,8 @@ public class GenerationEight extends Game {
         addNewPokemon(new AyreianHatterene("", Aspect.AYREIAN));
         addNewPokemon(new AyreianObstagoon("", Aspect.AYREIAN));
 
+        addNewPokemon(new AyreianAlcremie("", Aspect.AYREIAN));
+
         //Kaskadian
         addNewPokemon(new KaskadianDubwool("", Aspect.KASKADIAN));
 

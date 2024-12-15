@@ -173,6 +173,14 @@ public class GenerationSix extends Game {
         addNewPokemon(new AyreianNoibat("", Aspect.AYREIAN));
         addNewPokemon(new AyreianNoivern("", Aspect.AYREIAN));
 
+        addNewPokemon(new AyreianFennekin("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianBraixen("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianDelphox("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianTyrunt("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianTyrantrum("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianLitleo("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianPyroar("", Aspect.AYREIAN));
+
         //Phoenix Rising
         addNewPokemon(new RelicSkiddo("Skiddo", Aspect.RELIC));
         addNewPokemon(new RelicGogoat("Gogoat", Aspect.RELIC));

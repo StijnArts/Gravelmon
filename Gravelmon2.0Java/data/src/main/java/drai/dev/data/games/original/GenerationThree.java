@@ -196,10 +196,18 @@ public class GenerationThree extends Game {
         addNewPokemon(new AyreianTreecko("", Aspect.AYREIAN));
         addNewPokemon(new AyreianGrovyle("", Aspect.AYREIAN));
         addNewPokemon(new AyreianSceptile("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianTorchic("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianCombusken("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianBlaziken("", Aspect.AYREIAN));
+
+        addNewPokemon(new AyreianMudkip("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianMarshtomp("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianSwampert("", Aspect.AYREIAN));
+
         addNewPokemon(new AyreianZigzagoon("", Aspect.AYREIAN));
         addNewPokemon(new AyreianLinoone("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianShroomish("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianBreloom("", Aspect.AYREIAN));
+//        addNewPokemon(new AyreianShroomish("", Aspect.AYREIAN));
+//        addNewPokemon(new AyreianBreloom("", Aspect.AYREIAN));
         addNewPokemon(new AyreianRalts("", Aspect.AYREIAN));
         addNewPokemon(new AyreianKirlia("", Aspect.AYREIAN));
         addNewPokemon(new AyreianGardevoir("", Aspect.AYREIAN));
@@ -207,9 +215,6 @@ public class GenerationThree extends Game {
         addNewPokemon(new AyreianSnorunt("", Aspect.AYREIAN));
         addNewPokemon(new AyreianGlalie("", Aspect.AYREIAN));
 
-        addNewPokemon(new AyreianTorchic("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianCombusken("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianBlaziken("", Aspect.AYREIAN));
         addNewPokemon(new AyreianNosepass("", Aspect.AYREIAN));
         addNewPokemon(new AyreianAron("", Aspect.AYREIAN));
         addNewPokemon(new AyreianLairon("", Aspect.AYREIAN));
@@ -225,7 +230,7 @@ public class GenerationThree extends Game {
         addNewPokemon(new AyreianLunatone("", Aspect.AYREIAN));
         addNewPokemon(new AyreianRelicanth("", Aspect.AYREIAN));
         addNewPokemon(new AyreianLuvdisc("", Aspect.AYREIAN));
-
+        addNewPokemon(new AyreianAbsol("", Aspect.AYREIAN));
         //Phoenix Rising
         addNewPokemon(new RelicRoselia("Roselia", Aspect.RELIC));
         addNewPokemon(new RelicSpinda("Spinda", Aspect.RELIC));

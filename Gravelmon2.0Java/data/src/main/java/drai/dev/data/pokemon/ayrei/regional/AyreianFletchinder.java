@@ -19,7 +19,7 @@ public class AyreianFletchinder extends Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Fletchinder launches embers into the den of its prey. When the prey comes leaping out, Fletchinder's sharp talons finish it off."),
-                List.of(new EvolutionEntry("fleumingo", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("fleuflame", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AQUA_JET, 1),

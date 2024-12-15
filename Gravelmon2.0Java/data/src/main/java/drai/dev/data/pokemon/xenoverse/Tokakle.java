@@ -82,7 +82,7 @@ public class Tokakle extends Pokemon {
                 ), List.of(),
                 List.of(SpawnPreset.VILLAGE),
                 0.4, 0.5,
-                List.of(new PokemonForm(
+                List.of(/*new PokemonForm(
                         "Blue", false,
                         Type.SOUND,
                         new Stats(55, 88, 77, 55, 66, 99),
@@ -462,7 +462,7 @@ public class Tokakle extends Pokemon {
                 ), List.of(),
                         List.of(SpawnPreset.VILLAGE),
                         0.4, 0.5
-                )));
+                )*/));
 
     }
 }

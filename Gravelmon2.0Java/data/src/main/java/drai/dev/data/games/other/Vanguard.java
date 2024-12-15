@@ -188,7 +188,6 @@ public class Vanguard extends Game {
 
         addPokedexPokemon("magnemite-ayreian, magneton-ayreian");
         addNewPokemon(new Magnemelt());
-        addNewPokemon(new Fleumingo());
         addPokedexPokemon("luvdisc-ayreian");
         addNewPokemon(new Loathedisc());
         addNewPokemon(new Gyropass());
@@ -243,5 +242,11 @@ public class Vanguard extends Game {
         addNewPokemon(new Drukknir());
         addNewPokemon(new Sleihesnire());
 //        addNewPokemon(new Golmachina()); //MISSING ART
+        addPokedexPokemon("applin, flapple, appletun");
+        addNewPokemon(new Applidunn());
+        addPokedexPokemon("dipplin, hydrapple");
+        addNewPokemon(new Fleumflame());
+        addNewPokemon(new Frigideer());
+//        addNewPokemon(new Sakushido()); //MISSING ART
     }
 }

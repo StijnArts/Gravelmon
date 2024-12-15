@@ -97,7 +97,6 @@ public class Fleumingo extends Pokemon {
                 List.of(SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());
-        this.setLangFileName("Fleumingo");
         setCanFly(true);
     }
 }

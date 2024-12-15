@@ -578,6 +578,8 @@ public class GenerationOne extends Game {
         addNewPokemon(new AyreianCaterpie("", Aspect.AYREIAN));
         addNewPokemon(new AyreianMetapod("", Aspect.AYREIAN));
         addNewPokemon(new AyreianButterfree("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianRattata("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianRaticate("", Aspect.AYREIAN));
         addNewPokemon(new AyreianPidgey("", Aspect.AYREIAN));
         addNewPokemon(new AyreianPidgeotto("", Aspect.AYREIAN));
         addNewPokemon(new AyreianPidgeot("", Aspect.AYREIAN));

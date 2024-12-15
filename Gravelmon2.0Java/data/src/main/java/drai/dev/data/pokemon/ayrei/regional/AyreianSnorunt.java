@@ -24,7 +24,9 @@ public class AyreianSnorunt extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FAIRY,EggGroup.MINERAL),
                 List.of("It attaches itself to the ceiling of volcanic caves to absorb heat, which it then releases to fly around."),
                 List.of(new EvolutionEntry("glalie ayreian", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30"))),
+                        new EvolutionEntry("ayreianfroslass", EvolutionType.LEVEL_UP, List.of(),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:black_glasses")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FLARE_BLITZ,35),
                         new MoveLearnSetEntry(Move.SUNNY_DAY,47),

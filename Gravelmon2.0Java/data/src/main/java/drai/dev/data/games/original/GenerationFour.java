@@ -206,6 +206,8 @@ public class GenerationFour extends Game {
         addNewPokemon(new AyreianDrifloon("", Aspect.AYREIAN));
         addNewPokemon(new AyreianDrifblim("", Aspect.AYREIAN));
 
+        addNewPokemon(new AyreianFroslass("", Aspect.AYREIAN));
+
         //Phoenix Rising
         addNewPokemon(new RelicBudew("", Aspect.RELIC));
         addNewPokemon(new RelicRoserade("", Aspect.RELIC));

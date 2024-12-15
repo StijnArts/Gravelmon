@@ -23,7 +23,8 @@ public class AyreianRattata extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("The rock formation on its tail has hindered is quick movement, but allowed it to deliver heavy damage to it's enemies"),
-                List.of(),
+                List.of(new EvolutionEntry("ayreianraticate", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"21")))),
                 List.of(
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,7),
                         new MoveLearnSetEntry(Move.SUCKER_PUNCH,25),
@@ -99,9 +100,9 @@ public class AyreianRattata extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FINAL_GAMBIT,"egg")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
