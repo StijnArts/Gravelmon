@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.125,
+  "baseScale": 0.27906976744186046,
   "cannotDynamax": false,
   "abilities": [
     "bloodlust",
@@ -112,8 +112,8 @@
   "nationalPokedexNumber": 2648,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.5,
-    "height": 0.5,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

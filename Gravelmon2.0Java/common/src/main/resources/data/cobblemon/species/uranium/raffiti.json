@@ -8,7 +8,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "ratsy",
-  "baseScale": 0.325,
+  "baseScale": 0.45217391304347826,
   "cannotDynamax": false,
   "abilities": [
     "insomnia",
@@ -119,8 +119,8 @@
   "nationalPokedexNumber": 2577,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.3,
-    "height": 1.3,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

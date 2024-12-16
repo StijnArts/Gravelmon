@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.24,
   "cannotDynamax": false,
   "abilities": [
     "friendguard",
@@ -116,8 +116,8 @@
   "nationalPokedexNumber": 2654,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.4,
-    "height": 0.4,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

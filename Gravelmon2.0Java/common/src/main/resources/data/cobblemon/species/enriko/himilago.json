@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "crystalis",
-  "baseScale": 0.35,
+  "baseScale": 0.4732394366197183,
   "cannotDynamax": false,
   "abilities": [
     "snowwarning",
@@ -87,8 +87,8 @@
   "nationalPokedexNumber": 2129,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.4,
-    "height": 1.4,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

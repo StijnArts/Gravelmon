@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "wailmer form=norheiman",
-  "baseScale": 0.95,
+  "baseScale": 0.9306122448979591,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -89,11 +89,11 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4237,
+  "nationalPokedexNumber": 4239,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 3.8,
-    "height": 3.8,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

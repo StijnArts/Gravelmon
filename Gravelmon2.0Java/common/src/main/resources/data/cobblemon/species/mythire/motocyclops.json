@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "scooclops",
-  "baseScale": 0.35,
+  "baseScale": 0.3428571428571428,
   "cannotDynamax": false,
   "abilities": [
     "speedboost",
@@ -121,11 +121,11 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5225,
+  "nationalPokedexNumber": 5226,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.4,
-    "height": 1.4,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "elepod",
-  "baseScale": 0.5,
+  "baseScale": 0.4897959183673469,
   "cannotDynamax": false,
   "abilities": [
     "static",
@@ -91,11 +91,11 @@
   "weight": 235,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5612,
+  "nationalPokedexNumber": 5613,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.0,
-    "height": 2.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

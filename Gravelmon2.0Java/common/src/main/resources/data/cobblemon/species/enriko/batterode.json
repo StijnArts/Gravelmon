@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "dubalae",
-  "baseScale": 0.35,
+  "baseScale": 0.3775280898876404,
   "cannotDynamax": false,
   "abilities": [
     "poisontouch",
@@ -93,8 +93,8 @@
   "nationalPokedexNumber": 2009,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.4,
-    "height": 1.4,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

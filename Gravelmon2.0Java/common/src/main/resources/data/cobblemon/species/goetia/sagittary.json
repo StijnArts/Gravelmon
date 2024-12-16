@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "kestrail",
-  "baseScale": 0.3,
+  "baseScale": 0.29387755102040813,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -79,11 +79,11 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8260,
+  "nationalPokedexNumber": 8261,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.2,
-    "height": 1.2,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

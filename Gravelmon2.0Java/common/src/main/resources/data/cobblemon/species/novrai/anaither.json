@@ -7,7 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.2,
+  "baseScale": 0.1959183673469388,
   "cannotDynamax": false,
   "abilities": [
     "naturalcure"
@@ -156,11 +156,11 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6903,
+  "nationalPokedexNumber": 6904,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.8,
-    "height": 0.8,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

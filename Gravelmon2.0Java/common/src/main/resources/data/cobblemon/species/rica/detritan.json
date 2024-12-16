@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "barnub",
-  "baseScale": 0.2,
+  "baseScale": 0.1959183673469388,
   "cannotDynamax": false,
   "abilities": [
     "filter",
@@ -147,8 +147,8 @@
   "nationalPokedexNumber": 1390,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.8,
-    "height": 0.8,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

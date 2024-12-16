@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "eevvee",
-  "baseScale": 0.225,
+  "baseScale": 0.22040816326530613,
   "cannotDynamax": false,
   "abilities": [
     "sandforce",
@@ -93,11 +93,11 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6546,
+  "nationalPokedexNumber": 6547,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.9,
-    "height": 0.9,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

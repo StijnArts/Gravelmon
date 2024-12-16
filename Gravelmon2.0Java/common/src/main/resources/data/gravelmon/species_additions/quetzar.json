@@ -11,6 +11,7 @@
       "experienceGroup": "slow",
       "eggCycles": 300,
       "baseFriendship": 70,
+      "preEvolution": "quetzar",
       "baseScale": 0.6912,
       "cannotDynamax": false,
       "abilities": [
@@ -155,7 +156,9 @@
       ],
       "labels": [
         "sage",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.quetzarspace.desc"
@@ -183,8 +186,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 7.2,
-        "height": 7.2,
+        "width": 2.3040000000000003,
+        "height": 2.3040000000000003,
         "fixed": false
       }
     }

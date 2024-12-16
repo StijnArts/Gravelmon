@@ -167,8 +167,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.9,
-        "height": 0.9,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -182,7 +182,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.225,
+      "baseScale": 0.22040816326530613,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -351,8 +351,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.9,
-        "height": 0.9,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

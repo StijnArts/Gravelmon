@@ -7,7 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.175,
+  "baseScale": 0.4307692307692308,
   "cannotDynamax": false,
   "abilities": [
     "waterabsorb",
@@ -161,8 +161,8 @@
   "nationalPokedexNumber": 1802,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.7,
-    "height": 0.7,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

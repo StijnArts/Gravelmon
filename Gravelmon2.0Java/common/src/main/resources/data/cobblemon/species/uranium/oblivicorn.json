@@ -9,7 +9,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "minicorn",
-  "baseScale": 0.625,
+  "baseScale": 0.7792207792207793,
   "cannotDynamax": false,
   "abilities": [
     "moldbreaker",
@@ -162,8 +162,8 @@
   "nationalPokedexNumber": 2612,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.5,
-    "height": 2.5,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

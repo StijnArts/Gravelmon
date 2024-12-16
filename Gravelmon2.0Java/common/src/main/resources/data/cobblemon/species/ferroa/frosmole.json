@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "digloo",
-  "baseScale": 0.375,
+  "baseScale": 0.45569620253164556,
   "cannotDynamax": false,
   "abilities": [
     "slushrush",
@@ -156,8 +156,8 @@
   "nationalPokedexNumber": 1826,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.5,
-    "height": 1.5,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

@@ -80,8 +80,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.0,
-        "height": 0.0,
+        "width": 1.125,
+        "height": 1.125,
         "fixed": false
       }
     },
@@ -164,8 +164,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 2.1,
-        "height": 2.1,
+        "width": 1.125,
+        "height": 1.125,
         "fixed": false
       }
     },
@@ -179,7 +179,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.475,
+      "baseScale": 0.46530612244897956,
       "cannotDynamax": false,
       "abilities": [
         "pressure",
@@ -311,8 +311,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.9,
-        "height": 1.9,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

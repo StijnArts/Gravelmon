@@ -9,7 +9,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "costraw",
-  "baseScale": 0.525,
+  "baseScale": 0.6810810810810811,
   "cannotDynamax": false,
   "abilities": [
     "shedskin",
@@ -159,8 +159,8 @@
   "nationalPokedexNumber": 2531,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.1,
-    "height": 2.1,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

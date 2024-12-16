@@ -166,8 +166,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.8,
-        "height": 0.8,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -181,7 +181,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "piplup form=interian",
-      "baseScale": 0.275,
+      "baseScale": 0.2693877551020408,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -282,8 +282,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.1,
-        "height": 1.1,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

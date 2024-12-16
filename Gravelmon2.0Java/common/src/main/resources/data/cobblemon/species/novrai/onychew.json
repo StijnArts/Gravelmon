@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "gluctose",
-  "baseScale": 0.375,
+  "baseScale": 0.36734693877551017,
   "cannotDynamax": false,
   "abilities": [
     "stickyhold",
@@ -162,11 +162,11 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6849,
+  "nationalPokedexNumber": 6850,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.5,
-    "height": 1.5,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

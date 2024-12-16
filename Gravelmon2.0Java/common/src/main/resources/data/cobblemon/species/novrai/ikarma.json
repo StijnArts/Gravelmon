@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.5,
+  "baseScale": 0.4897959183673469,
   "cannotDynamax": false,
   "abilities": [
     "angerpoint"
@@ -170,11 +170,11 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6900,
+  "nationalPokedexNumber": 6901,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.0,
-    "height": 2.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

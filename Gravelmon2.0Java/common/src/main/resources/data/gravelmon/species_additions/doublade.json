@@ -160,8 +160,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.8,
-        "height": 0.8,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -299,8 +299,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.8,
-        "height": 0.8,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -440,8 +440,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.8,
-        "height": 0.8,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -595,8 +595,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.8,
-        "height": 0.8,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -704,8 +704,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.8,
-        "height": 0.8,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

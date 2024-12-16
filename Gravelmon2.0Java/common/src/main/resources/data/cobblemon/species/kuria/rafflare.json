@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "igniff",
-  "baseScale": 1.125,
+  "baseScale": 1.1020408163265305,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -88,11 +88,11 @@
   "weight": 1761,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5659,
+  "nationalPokedexNumber": 5660,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 4.5,
-    "height": 4.5,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "cuspide",
-  "baseScale": 0.25,
+  "baseScale": 0.3870967741935484,
   "cannotDynamax": false,
   "abilities": [
     "intimidate",
@@ -97,8 +97,8 @@
   "nationalPokedexNumber": 2685,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.0,
-    "height": 1.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

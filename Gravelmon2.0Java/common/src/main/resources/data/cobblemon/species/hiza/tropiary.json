@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "hedgit",
-  "baseScale": 0.325,
+  "baseScale": 0.3183673469387755,
   "cannotDynamax": false,
   "abilities": [
     "hypercutter",
@@ -89,11 +89,11 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2951,
+  "nationalPokedexNumber": 2953,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.3,
-    "height": 1.3,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

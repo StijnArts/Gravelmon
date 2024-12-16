@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "stegosear",
-  "baseScale": 0.525,
+  "baseScale": 0.5142857142857143,
   "cannotDynamax": false,
   "abilities": [
     "drought",
@@ -87,11 +87,11 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3055,
+  "nationalPokedexNumber": 3057,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.1,
-    "height": 2.1,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

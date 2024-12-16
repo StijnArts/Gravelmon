@@ -10,7 +10,8 @@
       "experienceGroup": "slow",
       "eggCycles": 100,
       "baseFriendship": 70,
-      "baseScale": 0.575,
+      "preEvolution": "urayne",
+      "baseScale": 0.7076923076923077,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -150,7 +151,9 @@
       "labels": [
         "uranium",
         "legendary",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.betaurayne.desc"
@@ -173,8 +176,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 2.3,
-        "height": 2.3,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

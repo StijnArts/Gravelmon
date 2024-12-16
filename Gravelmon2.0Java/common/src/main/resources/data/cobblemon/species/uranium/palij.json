@@ -9,7 +9,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "pahar",
-  "baseScale": 0.3,
+  "baseScale": 0.4571428571428571,
   "cannotDynamax": false,
   "abilities": [
     "flashfire",
@@ -155,8 +155,8 @@
   "nationalPokedexNumber": 2523,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.2,
-    "height": 1.2,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

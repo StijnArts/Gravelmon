@@ -9,7 +9,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "shrimputy",
-  "baseScale": 0.275,
+  "baseScale": 0.35200000000000004,
   "cannotDynamax": false,
   "abilities": [
     "sniper"
@@ -139,8 +139,8 @@
   "nationalPokedexNumber": 2595,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.1,
-    "height": 1.1,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

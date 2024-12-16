@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 100,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.18461538461538463,
   "cannotDynamax": false,
   "abilities": [
     "chlorophyll",
@@ -160,8 +160,8 @@
   "nationalPokedexNumber": 2543,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.4,
-    "height": 0.4,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

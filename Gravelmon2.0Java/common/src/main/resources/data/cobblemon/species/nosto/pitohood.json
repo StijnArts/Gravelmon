@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pekaboo",
-  "baseScale": 0.325,
+  "baseScale": 0.3183673469387755,
   "cannotDynamax": false,
   "abilities": [
     "poisonpoint",
@@ -156,11 +156,11 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4722,
+  "nationalPokedexNumber": 4723,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.3,
-    "height": 1.3,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

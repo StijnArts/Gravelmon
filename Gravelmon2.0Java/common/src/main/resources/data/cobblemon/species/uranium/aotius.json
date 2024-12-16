@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 100,
   "baseFriendship": 70,
-  "baseScale": 1.2,
+  "baseScale": 1.152,
   "cannotDynamax": false,
   "abilities": [
     "pressure"
@@ -79,8 +79,8 @@
   "nationalPokedexNumber": 2636,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 4.8,
-    "height": 4.8,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

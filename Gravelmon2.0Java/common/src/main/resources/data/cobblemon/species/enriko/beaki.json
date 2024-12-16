@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "poyai",
-  "baseScale": 0.55,
+  "baseScale": 0.5739130434782609,
   "cannotDynamax": false,
   "abilities": [
     "soundproof",
@@ -95,8 +95,8 @@
   "nationalPokedexNumber": 2110,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.2,
-    "height": 2.2,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "angloch",
-  "baseScale": 0.925,
+  "baseScale": 0.9061224489795918,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -94,11 +94,11 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4538,
+  "nationalPokedexNumber": 4539,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 3.7,
-    "height": 3.7,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

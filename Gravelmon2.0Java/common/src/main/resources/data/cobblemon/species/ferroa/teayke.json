@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.225,
+  "baseScale": 0.4075471698113208,
   "cannotDynamax": false,
   "abilities": [
     "ripen",
@@ -139,8 +139,8 @@
   "nationalPokedexNumber": 1914,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.9,
-    "height": 0.9,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

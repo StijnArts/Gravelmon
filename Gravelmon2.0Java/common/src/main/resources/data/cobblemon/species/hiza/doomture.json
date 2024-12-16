@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "carriotten",
-  "baseScale": 0.5,
+  "baseScale": 0.4897959183673469,
   "cannotDynamax": false,
   "abilities": [
     "merciless",
@@ -137,11 +137,11 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3078,
+  "nationalPokedexNumber": 3080,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.0,
-    "height": 2.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

@@ -164,8 +164,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.6,
-        "height": 0.6,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -350,8 +350,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.6,
-        "height": 0.6,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -364,7 +364,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.14693877551020407,
       "cannotDynamax": false,
       "abilities": [
         "fluffy"
@@ -494,8 +494,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.6,
-        "height": 0.6,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

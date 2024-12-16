@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "manchinade",
-  "baseScale": 0.475,
+  "baseScale": 0.536470588235294,
   "cannotDynamax": false,
   "abilities": [
     "flashfire",
@@ -166,8 +166,8 @@
   "nationalPokedexNumber": 1872,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.9,
-    "height": 1.9,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

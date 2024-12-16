@@ -6,8 +6,8 @@
       "aspects": [
         "cefiranice"
       ],
-      "model": "cobblemon:cutout_gravelmon_96_by_95.geo",
-      "poser": "cobblemon:cutout_gravelmon_96_by_95",
+      "model": "cobblemon:cutout_gravelmon_128_by_126.geo",
+      "poser": "cobblemon:cutout_gravelmon_128_by_126",
       "texture": "cobblemon:textures/pokemon/generation1/cefiranpersianice.png",
       "layers": [
         {

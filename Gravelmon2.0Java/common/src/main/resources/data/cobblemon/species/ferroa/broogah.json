@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.375,
+  "baseScale": 0.4675324675324675,
   "cannotDynamax": false,
   "abilities": [
     "guts",
@@ -173,8 +173,8 @@
   "nationalPokedexNumber": 1945,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.5,
-    "height": 1.5,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

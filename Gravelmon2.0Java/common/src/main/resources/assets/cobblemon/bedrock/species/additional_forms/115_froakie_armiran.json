@@ -6,8 +6,8 @@
       "aspects": [
         "armiran"
       ],
-      "model": "cobblemon:cutout_gravelmon_192_by_192.geo",
-      "poser": "cobblemon:cutout_gravelmon_192_by_192",
+      "model": "cobblemon:cutout_gravelmon_84_by_74.geo",
+      "poser": "cobblemon:cutout_gravelmon_84_by_74",
       "texture": "cobblemon:textures/pokemon/generation6/armiranfroakie.png",
       "layers": [
         {

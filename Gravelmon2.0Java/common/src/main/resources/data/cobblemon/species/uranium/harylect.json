@@ -9,7 +9,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "tricwe",
-  "baseScale": 0.1,
+  "baseScale": 0.16000000000000003,
   "cannotDynamax": false,
   "abilities": [
     "voltabsorb",
@@ -145,8 +145,8 @@
   "nationalPokedexNumber": 2529,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.3,
-    "height": 0.3,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "permidon",
-  "baseScale": 0.4,
+  "baseScale": 0.3918367346938776,
   "cannotDynamax": false,
   "abilities": [
     "torrent",
@@ -100,11 +100,11 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3127,
+  "nationalPokedexNumber": 3129,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.6,
-    "height": 1.6,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

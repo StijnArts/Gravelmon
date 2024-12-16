@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 1.85,
+  "baseScale": 1.8122448979591836,
   "cannotDynamax": false,
   "abilities": [
     "sandstream",
@@ -109,11 +109,11 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2964,
+  "nationalPokedexNumber": 2966,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 7.4,
-    "height": 7.4,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

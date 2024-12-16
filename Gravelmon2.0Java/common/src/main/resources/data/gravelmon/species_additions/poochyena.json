@@ -79,8 +79,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.0,
-        "height": 0.0,
+        "width": 1.125,
+        "height": 1.125,
         "fixed": false
       }
     },
@@ -248,8 +248,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.5,
-        "height": 0.5,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -263,7 +263,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.075,
+      "baseScale": 0.11538461538461539,
       "cannotDynamax": false,
       "abilities": [
         "intimidate",
@@ -365,8 +365,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.5,
-        "height": 0.5,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

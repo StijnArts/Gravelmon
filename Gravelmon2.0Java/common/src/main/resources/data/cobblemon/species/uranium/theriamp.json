@@ -9,7 +9,7 @@
   "eggCycles": 48,
   "baseFriendship": 70,
   "preEvolution": "slothohm",
-  "baseScale": 0.725,
+  "baseScale": 0.9157894736842105,
   "cannotDynamax": false,
   "abilities": [
     "galvanize",
@@ -164,8 +164,8 @@
   "nationalPokedexNumber": 2566,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.9,
-    "height": 2.9,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

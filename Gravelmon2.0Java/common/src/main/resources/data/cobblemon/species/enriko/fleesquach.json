@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "wigfoot",
-  "baseScale": 0.8,
+  "baseScale": 0.8347826086956522,
   "cannotDynamax": false,
   "abilities": [
     "dryskin",
@@ -85,8 +85,8 @@
   "nationalPokedexNumber": 2015,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 3.2,
-    "height": 3.2,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

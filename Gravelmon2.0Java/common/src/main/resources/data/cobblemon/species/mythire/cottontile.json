@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "furibal",
-  "baseScale": 0.45,
+  "baseScale": 0.44081632653061226,
   "cannotDynamax": false,
   "abilities": [
     "furcoat",
@@ -143,11 +143,11 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5241,
+  "nationalPokedexNumber": 5242,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.8,
-    "height": 1.8,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

@@ -9,7 +9,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "devimp",
-  "baseScale": 0.4,
+  "baseScale": 0.48607594936708864,
   "cannotDynamax": false,
   "abilities": [
     "defiant",
@@ -176,8 +176,8 @@
   "nationalPokedexNumber": 2625,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.6,
-    "height": 1.6,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

@@ -155,8 +155,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.2,
-        "height": 1.2,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -300,8 +300,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.2,
-        "height": 1.2,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -316,7 +316,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "voltorb form=norheiman",
-      "baseScale": 0.3,
+      "baseScale": 0.29387755102040813,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -397,8 +397,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.2,
-        "height": 1.2,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -543,8 +543,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.2,
-        "height": 1.2,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -558,7 +558,7 @@
       "eggCycles": 26,
       "baseFriendship": 70,
       "preEvolution": "voltorb form=mystic",
-      "baseScale": 0.18,
+      "baseScale": 0.19726027397260273,
       "cannotDynamax": false,
       "abilities": [
         "telepathy",
@@ -689,8 +689,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.2,
-        "height": 1.2,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

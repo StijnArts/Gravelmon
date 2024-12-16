@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "grily",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "cannotDynamax": false,
   "abilities": [
     "heatproof",
@@ -157,8 +157,8 @@
   "nationalPokedexNumber": 1910,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.2,
-    "height": 1.2,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

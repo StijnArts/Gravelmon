@@ -8,7 +8,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "linkite",
-  "baseScale": 0.5,
+  "baseScale": 0.6233766233766234,
   "cannotDynamax": false,
   "abilities": [
     "shadowtag",
@@ -159,8 +159,8 @@
   "nationalPokedexNumber": 2585,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.0,
-    "height": 2.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

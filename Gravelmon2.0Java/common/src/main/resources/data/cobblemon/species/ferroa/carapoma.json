@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "crabble",
-  "baseScale": 0.25,
+  "baseScale": 0.4067796610169492,
   "cannotDynamax": false,
   "abilities": [
     "overgrow",
@@ -180,8 +180,8 @@
   "nationalPokedexNumber": 1775,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.0,
-    "height": 1.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

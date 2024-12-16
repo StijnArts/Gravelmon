@@ -9,7 +9,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "pufluff",
-  "baseScale": 0.325,
+  "baseScale": 0.46567164179104475,
   "cannotDynamax": false,
   "abilities": [
     "snowwarning",
@@ -158,8 +158,8 @@
   "nationalPokedexNumber": 2588,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.3,
-    "height": 1.3,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

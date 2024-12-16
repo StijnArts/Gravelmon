@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sootillar",
-  "baseScale": 0.225,
+  "baseScale": 0.22040816326530613,
   "cannotDynamax": false,
   "abilities": [
     "shielddust",
@@ -101,11 +101,11 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5156,
+  "nationalPokedexNumber": 5157,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.9,
-    "height": 0.9,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

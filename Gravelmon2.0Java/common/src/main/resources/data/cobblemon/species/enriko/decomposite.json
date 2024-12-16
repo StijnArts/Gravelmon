@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "controll",
-  "baseScale": 0.2,
+  "baseScale": 0.22325581395348837,
   "cannotDynamax": false,
   "abilities": [
     "regenerator",
@@ -95,8 +95,8 @@
   "nationalPokedexNumber": 2007,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.8,
-    "height": 0.8,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

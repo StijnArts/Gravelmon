@@ -6,8 +6,8 @@
       "aspects": [
         "armiran"
       ],
-      "model": "cobblemon:cutout_gravelmon_160_by_160.geo",
-      "poser": "cobblemon:cutout_gravelmon_160_by_160",
+      "model": "cobblemon:cutout_gravelmon_158_by_116.geo",
+      "poser": "cobblemon:cutout_gravelmon_158_by_116",
       "texture": "cobblemon:textures/pokemon/generation6/armirangreninja.png",
       "layers": [
         {

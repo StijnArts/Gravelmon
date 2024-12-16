@@ -7,7 +7,7 @@
   "experienceGroup": "slow",
   "eggCycles": 100,
   "baseFriendship": 70,
-  "baseScale": 0.325,
+  "baseScale": 0.6000000000000001,
   "cannotDynamax": false,
   "abilities": [
     "damp",
@@ -143,8 +143,8 @@
   "nationalPokedexNumber": 2605,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.3,
-    "height": 1.3,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

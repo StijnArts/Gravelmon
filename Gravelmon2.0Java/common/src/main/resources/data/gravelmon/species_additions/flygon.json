@@ -145,8 +145,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 2.0,
-        "height": 2.0,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -160,7 +160,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.425,
+      "baseScale": 0.4163265306122449,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -232,8 +232,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.7,
-        "height": 1.7,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -412,8 +412,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.1,
-        "height": 1.1,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -516,8 +516,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 2.0,
-        "height": 2.0,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

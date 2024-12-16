@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "dekoi",
-  "baseScale": 1.05,
+  "baseScale": 1.0285714285714287,
   "cannotDynamax": false,
   "abilities": [
     "shedskin",
@@ -167,11 +167,11 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6664,
+  "nationalPokedexNumber": 6665,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 4.2,
-    "height": 4.2,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

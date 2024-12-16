@@ -168,8 +168,8 @@
   "nationalPokedexNumber": 1025,
   "shoulderMountable": true,
   "hitbox": {
-    "width": 0.3,
-    "height": 0.3,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "features": [],

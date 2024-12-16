@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.45,
+  "baseScale": 0.4645161290322581,
   "cannotDynamax": false,
   "abilities": [
     "stickyhold",
@@ -161,8 +161,8 @@
   "nationalPokedexNumber": 1851,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.8,
-    "height": 1.8,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

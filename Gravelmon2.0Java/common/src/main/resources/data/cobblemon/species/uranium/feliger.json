@@ -8,7 +8,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "felunge",
-  "baseScale": 0.5,
+  "baseScale": 0.6075949367088608,
   "cannotDynamax": false,
   "abilities": [
     "truant"
@@ -157,8 +157,8 @@
   "nationalPokedexNumber": 2510,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.0,
-    "height": 2.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

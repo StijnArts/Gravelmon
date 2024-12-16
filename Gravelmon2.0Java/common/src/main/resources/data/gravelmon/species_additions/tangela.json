@@ -191,8 +191,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.0,
-        "height": 1.0,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -206,7 +206,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "weeduza",
-      "baseScale": 0.275,
+      "baseScale": 0.2693877551020408,
       "cannotDynamax": false,
       "abilities": [
         "keeneye",
@@ -305,8 +305,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.1,
-        "height": 1.1,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -501,8 +501,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.0,
-        "height": 1.0,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -676,8 +676,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.0,
-        "height": 1.0,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -811,8 +811,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.0,
-        "height": 1.0,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

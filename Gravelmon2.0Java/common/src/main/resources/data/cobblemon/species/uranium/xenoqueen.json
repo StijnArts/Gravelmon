@@ -8,7 +8,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "xenogen",
-  "baseScale": 0.575,
+  "baseScale": 0.7076923076923077,
   "cannotDynamax": false,
   "abilities": [
     "damp",
@@ -135,8 +135,8 @@
   "nationalPokedexNumber": 2607,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.3,
-    "height": 2.3,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

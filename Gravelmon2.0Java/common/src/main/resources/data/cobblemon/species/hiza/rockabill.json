@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "kookabill",
-  "baseScale": 0.35,
+  "baseScale": 0.3428571428571428,
   "cannotDynamax": false,
   "abilities": [
     "stamina",
@@ -94,11 +94,11 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2967,
+  "nationalPokedexNumber": 2969,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.4,
-    "height": 1.4,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

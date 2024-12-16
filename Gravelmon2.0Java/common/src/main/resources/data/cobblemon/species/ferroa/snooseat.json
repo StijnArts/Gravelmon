@@ -8,7 +8,7 @@
   "experienceGroup": "fluctuating",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.35,
+  "baseScale": 0.5694915254237288,
   "cannotDynamax": false,
   "abilities": [
     "oblivious",
@@ -139,8 +139,8 @@
   "nationalPokedexNumber": 1847,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.4,
-    "height": 1.4,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "gumuppi",
-  "baseScale": 0.625,
+  "baseScale": 0.6451612903225806,
   "cannotDynamax": false,
   "abilities": [
     "strongjaw",
@@ -87,8 +87,8 @@
   "nationalPokedexNumber": 1985,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.5,
-    "height": 2.5,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

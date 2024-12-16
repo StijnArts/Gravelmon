@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sweetilt",
-  "baseScale": 1.225,
+  "baseScale": 1.2,
   "cannotDynamax": false,
   "abilities": [
     "longreach"
@@ -93,11 +93,11 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5386,
+  "nationalPokedexNumber": 5387,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 4.9,
-    "height": 4.9,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

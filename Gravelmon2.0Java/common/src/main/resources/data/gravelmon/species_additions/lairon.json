@@ -165,8 +165,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.9,
-        "height": 0.9,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -181,7 +181,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "aron form=hizian",
-      "baseScale": 0.225,
+      "baseScale": 0.22040816326530613,
       "cannotDynamax": false,
       "abilities": [
         "sheerforce",
@@ -340,8 +340,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.9,
-        "height": 0.9,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -534,8 +534,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.9,
-        "height": 0.9,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -749,8 +749,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.9,
-        "height": 0.9,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

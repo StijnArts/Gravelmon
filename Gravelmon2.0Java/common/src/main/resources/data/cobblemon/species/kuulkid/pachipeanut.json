@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "tusknut",
-  "baseScale": 0.7,
+  "baseScale": 0.6857142857142856,
   "cannotDynamax": false,
   "abilities": [
     "overgrow",
@@ -82,11 +82,11 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2710,
+  "nationalPokedexNumber": 2712,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.8,
-    "height": 2.8,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

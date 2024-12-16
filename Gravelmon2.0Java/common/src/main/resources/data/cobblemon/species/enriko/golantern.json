@@ -7,7 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.225,
+  "baseScale": 0.31764705882352945,
   "cannotDynamax": false,
   "abilities": [
     "stakeout",
@@ -99,8 +99,8 @@
   "nationalPokedexNumber": 2146,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.9,
-    "height": 0.9,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

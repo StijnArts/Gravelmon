@@ -161,8 +161,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.5,
-        "height": 0.5,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -175,6 +175,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "hoopa form=delta_unleashed",
       "baseScale": 0.10909090909090909,
       "cannotDynamax": false,
       "abilities": [
@@ -336,7 +337,8 @@
       "labels": [
         "gen6",
         "insurgence",
-        "not_modeled"
+        "not_modeled",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.deltahoopa.desc"
@@ -360,8 +362,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.5,
-        "height": 0.5,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -374,6 +376,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "hoopa form=delta",
       "baseScale": 0.10909090909090909,
       "cannotDynamax": false,
       "abilities": [
@@ -531,7 +534,8 @@
       "labels": [
         "gen5",
         "insurgence",
-        "not_modeled"
+        "not_modeled",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.deltahoopaunleashed.desc"
@@ -555,8 +559,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.5,
-        "height": 0.5,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

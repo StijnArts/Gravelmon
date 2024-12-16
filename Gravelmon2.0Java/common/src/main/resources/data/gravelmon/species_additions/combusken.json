@@ -198,8 +198,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.9,
-        "height": 0.9,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -390,8 +390,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.9,
-        "height": 0.9,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -406,7 +406,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "torchic form=mystic",
-      "baseScale": 0.135,
+      "baseScale": 0.1565217391304348,
       "cannotDynamax": false,
       "abilities": [
         "insomnia",
@@ -508,8 +508,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.9,
-        "height": 0.9,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

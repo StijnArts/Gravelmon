@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "tsandchi",
-  "baseScale": 0.5,
+  "baseScale": 0.4897959183673469,
   "cannotDynamax": false,
   "abilities": [
     "opportunist",
@@ -93,11 +93,11 @@
   "weight": 1051,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5604,
+  "nationalPokedexNumber": 5605,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.0,
-    "height": 2.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "muleseye",
-  "baseScale": 0.3,
+  "baseScale": 0.29387755102040813,
   "cannotDynamax": false,
   "abilities": [
     "defiant"
@@ -87,11 +87,11 @@
   "weight": 1950,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2876,
+  "nationalPokedexNumber": 2878,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.2,
-    "height": 1.2,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

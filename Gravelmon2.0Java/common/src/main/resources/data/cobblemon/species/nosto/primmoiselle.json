@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "primmadame",
-  "baseScale": 0.625,
+  "baseScale": 0.6122448979591837,
   "cannotDynamax": false,
   "abilities": [
     "queenlymajesty"
@@ -125,11 +125,11 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4744,
+  "nationalPokedexNumber": 4745,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.5,
-    "height": 2.5,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

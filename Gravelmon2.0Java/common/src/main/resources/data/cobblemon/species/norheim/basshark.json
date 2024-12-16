@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "streuming",
-  "baseScale": 0.7,
+  "baseScale": 0.6857142857142856,
   "cannotDynamax": false,
   "abilities": [
     "magnetpull",
@@ -97,11 +97,11 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4226,
+  "nationalPokedexNumber": 4228,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.8,
-    "height": 2.8,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

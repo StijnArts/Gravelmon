@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "shellance",
-  "baseScale": 0.475,
+  "baseScale": 0.46530612244897956,
   "cannotDynamax": false,
   "abilities": [
     "shellarmor",
@@ -122,11 +122,11 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5201,
+  "nationalPokedexNumber": 5202,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.9,
-    "height": 1.9,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

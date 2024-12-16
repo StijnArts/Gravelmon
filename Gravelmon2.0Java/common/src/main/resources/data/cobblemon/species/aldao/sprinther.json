@@ -76,11 +76,11 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3813,
+  "nationalPokedexNumber": 3815,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.7,
-    "height": 0.7,
+    "width": 1.125,
+    "height": 1.125,
     "fixed": false
   },
   "features": [],

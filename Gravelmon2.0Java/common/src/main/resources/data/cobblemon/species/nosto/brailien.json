@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "marshun",
-  "baseScale": 0.275,
+  "baseScale": 0.2693877551020408,
   "cannotDynamax": false,
   "abilities": [
     "adaptability",
@@ -109,11 +109,11 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4729,
+  "nationalPokedexNumber": 4730,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.1,
-    "height": 1.1,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

@@ -9,7 +9,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "grozard",
-  "baseScale": 0.55,
+  "baseScale": 0.7232876712328767,
   "cannotDynamax": false,
   "abilities": [
     "sandveil",
@@ -149,8 +149,8 @@
   "nationalPokedexNumber": 2501,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.2,
-    "height": 2.2,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

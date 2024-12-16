@@ -6,8 +6,8 @@
       "aspects": [
         "mystic"
       ],
-      "model": "cobblemon:cutout_gravelmon_160_by_160.geo",
-      "poser": "cobblemon:cutout_gravelmon_160_by_160",
+      "model": "cobblemon:cutout_gravelmon_104_by_84.geo",
+      "poser": "cobblemon:cutout_gravelmon_104_by_84",
       "texture": "cobblemon:textures/pokemon/generation3/mysticpoochyena.png",
       "layers": [
         {

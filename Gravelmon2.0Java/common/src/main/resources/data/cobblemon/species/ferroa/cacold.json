@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sleetle",
-  "baseScale": 0.15,
+  "baseScale": 0.24,
   "cannotDynamax": false,
   "abilities": [
     "stalwart",
@@ -114,8 +114,8 @@
   "nationalPokedexNumber": 1923,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.6,
-    "height": 0.6,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

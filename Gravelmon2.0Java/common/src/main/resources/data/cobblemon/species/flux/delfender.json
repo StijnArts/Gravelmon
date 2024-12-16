@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "findolf",
-  "baseScale": 0.3,
+  "baseScale": 0.46451612903225803,
   "cannotDynamax": false,
   "abilities": [
     "torrent",
@@ -114,8 +114,8 @@
   "nationalPokedexNumber": 2646,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.2,
-    "height": 1.2,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "eyesi",
-  "baseScale": 0.375,
+  "baseScale": 0.4390243902439024,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -192,8 +192,8 @@
   "nationalPokedexNumber": 1831,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.5,
-    "height": 1.5,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

@@ -9,7 +9,7 @@
   "eggCycles": 48,
   "baseFriendship": 70,
   "preEvolution": "snopach",
-  "baseScale": 0.725,
+  "baseScale": 0.9534246575342465,
   "cannotDynamax": false,
   "abilities": [
     "solidrock",
@@ -151,8 +151,8 @@
   "nationalPokedexNumber": 2564,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.9,
-    "height": 2.9,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

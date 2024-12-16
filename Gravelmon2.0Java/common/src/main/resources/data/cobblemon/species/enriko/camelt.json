@@ -7,7 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.35,
+  "baseScale": 0.5793103448275861,
   "cannotDynamax": false,
   "abilities": [
     "rockhead"
@@ -101,8 +101,8 @@
   "nationalPokedexNumber": 2010,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.4,
-    "height": 1.4,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

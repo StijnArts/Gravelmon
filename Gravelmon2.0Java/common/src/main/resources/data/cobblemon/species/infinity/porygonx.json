@@ -165,8 +165,8 @@
   "nationalPokedexNumber": 1456,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.9,
-    "height": 0.9,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "features": [],

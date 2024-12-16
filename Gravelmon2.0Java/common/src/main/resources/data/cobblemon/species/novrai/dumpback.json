@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "puriphin",
-  "baseScale": 1.8,
+  "baseScale": 1.763265306122449,
   "cannotDynamax": false,
   "abilities": [
     "clearbody",
@@ -158,11 +158,11 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6840,
+  "nationalPokedexNumber": 6841,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 7.2,
-    "height": 7.2,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

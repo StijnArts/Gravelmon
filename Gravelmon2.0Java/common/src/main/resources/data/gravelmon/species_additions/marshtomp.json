@@ -177,8 +177,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.7,
-        "height": 0.7,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -339,8 +339,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.7,
-        "height": 0.7,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -507,8 +507,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.7,
-        "height": 0.7,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -522,7 +522,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.105,
+      "preEvolution": "mudkip form=mystic",
+      "baseScale": 0.175,
       "cannotDynamax": false,
       "abilities": [
         "immunity",
@@ -595,7 +596,8 @@
       "labels": [
         "gen3",
         "azure",
-        "not_modeled"
+        "not_modeled",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.mysticmarshtomp.desc"
@@ -623,8 +625,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.7,
-        "height": 0.7,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

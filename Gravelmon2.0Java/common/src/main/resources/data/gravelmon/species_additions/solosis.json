@@ -175,8 +175,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.3,
-        "height": 0.3,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -356,8 +356,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.3,
-        "height": 0.3,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -546,8 +546,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.3,
-        "height": 0.3,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -683,8 +683,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.1,
-        "height": 0.1,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -845,8 +845,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.3,
-        "height": 0.3,
+        "width": 1.125,
+        "height": 1.125,
         "fixed": false
       }
     },
@@ -860,7 +860,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "baseScale": 0.05,
+      "baseScale": 0.11428571428571428,
       "cannotDynamax": false,
       "abilities": [
         "filter",
@@ -1007,8 +1007,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.3,
-        "height": 0.3,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

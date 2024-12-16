@@ -165,8 +165,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.3,
-        "height": 0.3,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -181,7 +181,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "milcery form=varitasian",
-      "baseScale": 0.1,
+      "baseScale": 0.0979591836734694,
       "cannotDynamax": false,
       "abilities": [
         "stench",
@@ -299,8 +299,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.3,
-        "height": 0.3,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -440,8 +440,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.5,
-        "height": 0.5,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

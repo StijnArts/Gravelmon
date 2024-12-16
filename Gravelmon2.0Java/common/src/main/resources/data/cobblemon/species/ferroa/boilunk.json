@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "smolter",
-  "baseScale": 0.4,
+  "baseScale": 0.4740740740740741,
   "cannotDynamax": false,
   "abilities": [
     "whitesmoke",
@@ -138,8 +138,8 @@
   "nationalPokedexNumber": 1933,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.6,
-    "height": 1.6,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

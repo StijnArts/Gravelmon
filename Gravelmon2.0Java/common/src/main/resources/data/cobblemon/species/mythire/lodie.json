@@ -7,7 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.225,
+  "baseScale": 0.22040816326530613,
   "cannotDynamax": false,
   "abilities": [
     "levitate",
@@ -94,11 +94,11 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5256,
+  "nationalPokedexNumber": 5257,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.9,
-    "height": 0.9,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

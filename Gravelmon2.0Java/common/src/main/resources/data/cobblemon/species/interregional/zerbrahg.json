@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "zallut",
-  "baseScale": 0.45,
+  "baseScale": 0.44081632653061226,
   "cannotDynamax": false,
   "abilities": [
     "prankster",
@@ -91,8 +91,8 @@
   "nationalPokedexNumber": 1730,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.8,
-    "height": 1.8,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

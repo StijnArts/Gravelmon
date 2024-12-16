@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.0979591836734694,
   "cannotDynamax": false,
   "abilities": [
     "bigpecks",
@@ -112,11 +112,11 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5371,
+  "nationalPokedexNumber": 5372,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.4,
-    "height": 0.4,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

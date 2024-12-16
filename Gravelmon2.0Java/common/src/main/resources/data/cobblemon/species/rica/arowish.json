@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "gupplash",
-  "baseScale": 0.675,
+  "baseScale": 0.6612244897959184,
   "cannotDynamax": false,
   "abilities": [
     "swiftswim",
@@ -141,8 +141,8 @@
   "nationalPokedexNumber": 1336,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.7,
-    "height": 2.7,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

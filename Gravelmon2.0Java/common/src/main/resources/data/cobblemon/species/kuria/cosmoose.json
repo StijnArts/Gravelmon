@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "astralf",
-  "baseScale": 0.425,
+  "baseScale": 0.4163265306122449,
   "cannotDynamax": false,
   "abilities": [
     "oblivious",
@@ -88,11 +88,11 @@
   "weight": 971,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5675,
+  "nationalPokedexNumber": 5676,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.7,
-    "height": 1.7,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

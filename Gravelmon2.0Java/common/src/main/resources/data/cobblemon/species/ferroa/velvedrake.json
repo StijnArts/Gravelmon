@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "glacicrawl",
-  "baseScale": 0.475,
+  "baseScale": 0.5123595505617977,
   "cannotDynamax": false,
   "abilities": [
     "sniper",
@@ -159,8 +159,8 @@
   "nationalPokedexNumber": 1937,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.9,
-    "height": 1.9,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

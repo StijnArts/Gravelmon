@@ -172,8 +172,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.3,
-        "height": 0.3,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -291,8 +291,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.3,
-        "height": 0.3,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -468,8 +468,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.3,
-        "height": 0.3,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -482,7 +482,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.05,
+      "baseScale": 0.11428571428571428,
       "cannotDynamax": false,
       "abilities": [
         "blaze",
@@ -609,8 +609,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.3,
-        "height": 0.3,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

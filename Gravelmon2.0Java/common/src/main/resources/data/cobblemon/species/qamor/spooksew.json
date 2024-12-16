@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.125,
+  "baseScale": 6.0,
   "cannotDynamax": false,
   "abilities": [
     "frisk",
@@ -102,11 +102,11 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5447,
+  "nationalPokedexNumber": 5448,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.5,
-    "height": 0.5,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

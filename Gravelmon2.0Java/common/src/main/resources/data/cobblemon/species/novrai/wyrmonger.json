@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.6,
+  "baseScale": 0.5877551020408163,
   "cannotDynamax": false,
   "abilities": [
     "megalauncher",
@@ -167,11 +167,11 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6890,
+  "nationalPokedexNumber": 6891,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.4,
-    "height": 2.4,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

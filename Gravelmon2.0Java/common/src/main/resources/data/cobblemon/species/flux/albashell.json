@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "aerapin",
-  "baseScale": 0.675,
+  "baseScale": 0.6967741935483871,
   "cannotDynamax": false,
   "abilities": [
     "cloudnine",
@@ -95,11 +95,11 @@
   "weight": 2065,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2704,
+  "nationalPokedexNumber": 2706,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.7,
-    "height": 2.7,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

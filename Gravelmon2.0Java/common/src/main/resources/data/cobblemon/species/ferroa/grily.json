@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.2,
+  "baseScale": 0.32000000000000006,
   "cannotDynamax": false,
   "abilities": [
     "heatproof",
@@ -156,8 +156,8 @@
   "nationalPokedexNumber": 1909,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.8,
-    "height": 0.8,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

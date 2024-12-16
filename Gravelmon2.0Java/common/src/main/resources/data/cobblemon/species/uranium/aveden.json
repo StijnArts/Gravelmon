@@ -9,7 +9,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "birbie",
-  "baseScale": 0.125,
+  "baseScale": 0.2033898305084746,
   "cannotDynamax": false,
   "abilities": [
     "bigpecks",
@@ -158,8 +158,8 @@
   "nationalPokedexNumber": 2492,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.5,
-    "height": 0.5,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

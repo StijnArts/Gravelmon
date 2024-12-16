@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.125,
+  "baseScale": 0.2608695652173913,
   "cannotDynamax": false,
   "abilities": [
     "blaze",
@@ -109,8 +109,8 @@
   "nationalPokedexNumber": 2642,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.5,
-    "height": 0.5,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

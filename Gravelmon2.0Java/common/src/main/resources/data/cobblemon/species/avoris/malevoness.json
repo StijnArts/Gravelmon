@@ -8,6 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "attraknid",
   "baseScale": 0.39999999999999997,
   "cannotDynamax": false,
   "abilities": [
@@ -81,7 +82,9 @@
   ],
   "labels": [
     "avoris",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.malevoness.desc"
@@ -93,8 +96,8 @@
   "nationalPokedexNumber": 2294,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.4,
-    "height": 1.4,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

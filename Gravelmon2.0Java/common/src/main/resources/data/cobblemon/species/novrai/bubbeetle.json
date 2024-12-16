@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "scuddle",
-  "baseScale": 0.275,
+  "baseScale": 0.2693877551020408,
   "cannotDynamax": false,
   "abilities": [
     "torrent",
@@ -162,11 +162,11 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6621,
+  "nationalPokedexNumber": 6622,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.1,
-    "height": 1.1,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

@@ -9,7 +9,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "modrille",
-  "baseScale": 0.6,
+  "baseScale": 0.7783783783783784,
   "cannotDynamax": false,
   "abilities": [
     "lightningrod",
@@ -165,8 +165,8 @@
   "nationalPokedexNumber": 2533,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.4,
-    "height": 2.4,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

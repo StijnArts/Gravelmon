@@ -152,8 +152,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.9,
-        "height": 0.9,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -314,8 +314,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.9,
-        "height": 0.9,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -330,7 +330,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "murkrow form=hizian",
-      "baseScale": 0.225,
+      "baseScale": 0.22040816326530613,
       "cannotDynamax": false,
       "abilities": [
         "quickdraw"
@@ -414,8 +414,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.9,
-        "height": 0.9,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

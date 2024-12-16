@@ -11,6 +11,7 @@
       "experienceGroup": "slow",
       "eggCycles": 41,
       "baseFriendship": 70,
+      "preEvolution": "trishout",
       "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
@@ -158,7 +159,9 @@
         "tutor:uproar"
       ],
       "labels": [
-        "xenoverse"
+        "xenoverse",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.trishoutterrestrial.desc"
@@ -231,8 +234,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.9,
-        "height": 0.9,
+        "width": 0.7,
+        "height": 1.1,
         "fixed": false
       }
     },
@@ -246,6 +249,7 @@
       "experienceGroup": "slow",
       "eggCycles": 41,
       "baseFriendship": 70,
+      "preEvolution": "trishout",
       "baseScale": 0.4987012987012987,
       "cannotDynamax": false,
       "abilities": [
@@ -396,7 +400,9 @@
       ],
       "labels": [
         "xenoverse",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.trishoutxenoversal.desc"
@@ -469,8 +475,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.6,
-        "height": 1.6,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -484,6 +490,7 @@
       "experienceGroup": "slow",
       "eggCycles": 41,
       "baseFriendship": 70,
+      "preEvolution": "trishout",
       "baseScale": 0.7591836734693878,
       "cannotDynamax": false,
       "abilities": [
@@ -637,7 +644,9 @@
       ],
       "labels": [
         "xenoverse",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.trishoutastral.desc"
@@ -688,8 +697,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.1,
-        "height": 3.1,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -786,8 +795,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.5,
-        "height": 0.5,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "shrewpy",
-  "baseScale": 0.3,
+  "baseScale": 0.29387755102040813,
   "cannotDynamax": false,
   "abilities": [
     "pickup",
@@ -145,11 +145,11 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5154,
+  "nationalPokedexNumber": 5155,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.2,
-    "height": 1.2,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

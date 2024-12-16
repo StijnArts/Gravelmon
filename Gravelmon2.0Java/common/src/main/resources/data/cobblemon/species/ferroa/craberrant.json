@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.8,
+  "baseScale": 0.8170212765957446,
   "cannotDynamax": false,
   "abilities": [
     "hypercutter",
@@ -166,8 +166,8 @@
   "nationalPokedexNumber": 1887,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 3.2,
-    "height": 3.2,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

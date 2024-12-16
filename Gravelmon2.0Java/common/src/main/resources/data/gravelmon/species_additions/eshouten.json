@@ -12,7 +12,7 @@
       "eggCycles": 100,
       "baseFriendship": 70,
       "preEvolution": "owten form=alteran",
-      "baseScale": 0.225,
+      "baseScale": 0.23478260869565218,
       "cannotDynamax": false,
       "abilities": [
         "cutecharm",
@@ -104,8 +104,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.9,
-        "height": 0.9,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

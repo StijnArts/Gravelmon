@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "ventherm",
-  "baseScale": 0.55,
+  "baseScale": 0.5387755102040817,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -79,11 +79,11 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8108,
+  "nationalPokedexNumber": 8109,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.2,
-    "height": 2.2,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

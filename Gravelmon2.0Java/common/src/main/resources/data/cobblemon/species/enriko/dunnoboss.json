@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "wotwot",
-  "baseScale": 0.55,
+  "baseScale": 0.66,
   "cannotDynamax": false,
   "abilities": [
     "guts",
@@ -94,8 +94,8 @@
   "nationalPokedexNumber": 2039,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.2,
-    "height": 2.2,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

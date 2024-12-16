@@ -182,8 +182,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.2,
-        "height": 0.2,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -292,8 +292,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.2,
-        "height": 0.2,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -308,7 +308,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "flabebe form=varitasian",
-      "baseScale": 0.1,
+      "baseScale": 0.0979591836734694,
       "cannotDynamax": false,
       "abilities": [
         "effectspore",
@@ -444,8 +444,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.2,
-        "height": 0.2,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

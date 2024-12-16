@@ -151,8 +151,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.5,
-        "height": 1.5,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -256,8 +256,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.5,
-        "height": 1.5,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -427,8 +427,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.5,
-        "height": 1.5,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -587,8 +587,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.5,
-        "height": 1.5,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -603,7 +603,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "frogadier form=armiran",
-      "baseScale": 0.22499999999999998,
+      "baseScale": 0.22784810126582278,
       "cannotDynamax": false,
       "abilities": [
         "blaze",
@@ -718,8 +718,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.5,
-        "height": 1.5,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

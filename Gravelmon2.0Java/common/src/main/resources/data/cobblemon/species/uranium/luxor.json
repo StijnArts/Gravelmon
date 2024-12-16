@@ -9,7 +9,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "luxi",
-  "baseScale": 0.35,
+  "baseScale": 0.5333333333333332,
   "cannotDynamax": false,
   "abilities": [
     "superluck",
@@ -168,8 +168,8 @@
   "nationalPokedexNumber": 2614,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.4,
-    "height": 1.4,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

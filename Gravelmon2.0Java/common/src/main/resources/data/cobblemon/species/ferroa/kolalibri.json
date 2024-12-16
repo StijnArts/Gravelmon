@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "imbirbe",
-  "baseScale": 0.225,
+  "baseScale": 0.3375,
   "cannotDynamax": false,
   "abilities": [
     "competitive",
@@ -154,8 +154,8 @@
   "nationalPokedexNumber": 1789,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.9,
-    "height": 0.9,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

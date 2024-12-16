@@ -98,8 +98,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.5,
-        "height": 0.5,
+        "width": 1.125,
+        "height": 1.125,
         "fixed": false
       }
     },
@@ -247,8 +247,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.5,
-        "height": 0.5,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -406,8 +406,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.5,
-        "height": 0.5,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -421,7 +421,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.25,
+      "baseScale": 0.24489795918367346,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -515,8 +515,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.0,
-        "height": 1.0,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -667,8 +667,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.5,
-        "height": 0.5,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -681,7 +681,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 26,
       "baseFriendship": 70,
-      "baseScale": 0.075,
+      "baseScale": 0.13636363636363635,
       "cannotDynamax": false,
       "abilities": [
         "telepathy",
@@ -825,8 +825,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.5,
-        "height": 0.5,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

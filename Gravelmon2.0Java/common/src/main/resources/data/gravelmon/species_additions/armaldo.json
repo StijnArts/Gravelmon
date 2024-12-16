@@ -157,8 +157,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.5,
-        "height": 1.5,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -173,7 +173,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "anorith form=hizian",
-      "baseScale": 0.425,
+      "baseScale": 0.4163265306122449,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -310,8 +310,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.7,
-        "height": 1.7,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

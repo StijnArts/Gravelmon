@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "eletta",
-  "baseScale": 0.525,
+  "baseScale": 0.5142857142857143,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -112,8 +112,8 @@
   "nationalPokedexNumber": 2373,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.1,
-    "height": 2.1,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

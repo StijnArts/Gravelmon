@@ -136,8 +136,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.5,
-        "height": 1.5,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -152,7 +152,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "litleo form=hizian",
-      "baseScale": 0.375,
+      "baseScale": 0.36734693877551017,
       "cannotDynamax": false,
       "abilities": [
         "windrider"
@@ -237,8 +237,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.5,
-        "height": 1.5,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -389,8 +389,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.5,
-        "height": 1.5,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

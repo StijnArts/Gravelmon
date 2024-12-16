@@ -157,8 +157,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 2.1,
-        "height": 2.1,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -173,7 +173,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "lairon form=hizian",
-      "baseScale": 0.575,
+      "baseScale": 0.563265306122449,
       "cannotDynamax": false,
       "abilities": [
         "sheerforce",
@@ -317,8 +317,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 2.3,
-        "height": 2.3,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -511,8 +511,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 2.1,
-        "height": 2.1,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -711,8 +711,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.9,
-        "height": 0.9,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "balanoral",
-  "baseScale": 0.15,
+  "baseScale": 0.14693877551020407,
   "cannotDynamax": false,
   "abilities": [
     "flashfire",
@@ -173,11 +173,11 @@
   "weight": 150,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4526,
+  "nationalPokedexNumber": 4527,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.6,
-    "height": 0.6,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

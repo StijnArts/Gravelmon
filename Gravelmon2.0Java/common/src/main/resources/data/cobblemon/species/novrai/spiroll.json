@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "slithm",
-  "baseScale": 0.175,
+  "baseScale": 0.1714285714285714,
   "cannotDynamax": false,
   "abilities": [
     "scrappy",
@@ -162,11 +162,11 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6858,
+  "nationalPokedexNumber": 6859,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.7,
-    "height": 0.7,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

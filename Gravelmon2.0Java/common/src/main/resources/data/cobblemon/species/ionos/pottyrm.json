@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pottlin",
-  "baseScale": 0.4,
+  "baseScale": 0.3918367346938776,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -77,11 +77,11 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6553,
+  "nationalPokedexNumber": 6554,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.6,
-    "height": 1.6,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

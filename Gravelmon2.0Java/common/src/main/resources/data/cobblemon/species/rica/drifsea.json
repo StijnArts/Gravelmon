@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "bubbweed",
-  "baseScale": 0.625,
+  "baseScale": 0.6122448979591837,
   "cannotDynamax": false,
   "abilities": [
     "hydration",
@@ -145,8 +145,8 @@
   "nationalPokedexNumber": 1332,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.5,
-    "height": 2.5,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

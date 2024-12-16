@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "insulatex",
-  "baseScale": 0.5,
+  "baseScale": 0.5106382978723404,
   "cannotDynamax": false,
   "abilities": [
     "illuminate",
@@ -99,8 +99,8 @@
   "nationalPokedexNumber": 2695,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.0,
-    "height": 2.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

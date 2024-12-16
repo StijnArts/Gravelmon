@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.0979591836734694,
   "cannotDynamax": false,
   "abilities": [
     "stench",
@@ -182,11 +182,11 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6700,
+  "nationalPokedexNumber": 6701,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.2,
-    "height": 0.2,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

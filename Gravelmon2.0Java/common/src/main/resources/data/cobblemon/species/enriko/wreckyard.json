@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "hooptie",
-  "baseScale": 0.575,
+  "baseScale": 0.5872340425531914,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -93,8 +93,8 @@
   "nationalPokedexNumber": 2101,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.3,
-    "height": 2.3,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

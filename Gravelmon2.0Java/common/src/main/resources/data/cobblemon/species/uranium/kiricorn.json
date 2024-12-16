@@ -9,7 +9,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "minicorn",
-  "baseScale": 0.55,
+  "baseScale": 0.66,
   "cannotDynamax": false,
   "abilities": [
     "cutecharm",
@@ -152,8 +152,8 @@
   "nationalPokedexNumber": 2611,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.2,
-    "height": 2.2,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

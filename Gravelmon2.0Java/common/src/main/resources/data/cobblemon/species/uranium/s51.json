@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 100,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.25263157894736843,
   "cannotDynamax": false,
   "abilities": [
     "levitate",
@@ -184,8 +184,8 @@
   "nationalPokedexNumber": 2548,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.3,
-    "height": 0.3,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

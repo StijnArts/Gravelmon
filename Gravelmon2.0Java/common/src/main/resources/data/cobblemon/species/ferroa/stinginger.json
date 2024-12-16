@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "buroot",
-  "baseScale": 0.25,
+  "baseScale": 0.34782608695652173,
   "cannotDynamax": false,
   "abilities": [
     "roughskin",
@@ -161,8 +161,8 @@
   "nationalPokedexNumber": 1801,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.0,
-    "height": 1.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

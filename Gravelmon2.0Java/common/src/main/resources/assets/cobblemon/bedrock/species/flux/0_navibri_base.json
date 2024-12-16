@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_96_by_96.geo",
-      "poser": "cobblemon:cutout_gravelmon_96_by_96",
+      "model": "cobblemon:cutout_gravelmon_66_by_54.geo",
+      "poser": "cobblemon:cutout_gravelmon_66_by_54",
       "texture": "cobblemon:textures/pokemon/flux/navibri.png",
       "layers": [
         {

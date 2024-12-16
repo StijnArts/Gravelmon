@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "celestar",
-  "baseScale": 0.275,
+  "baseScale": 0.4474576271186441,
   "cannotDynamax": false,
   "abilities": [
     "levitate"
@@ -152,8 +152,8 @@
   "nationalPokedexNumber": 1955,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.1,
-    "height": 1.1,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

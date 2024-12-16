@@ -9,7 +9,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "pufluff",
-  "baseScale": 0.275,
+  "baseScale": 0.3826086956521739,
   "cannotDynamax": false,
   "abilities": [
     "competitive",
@@ -152,8 +152,8 @@
   "nationalPokedexNumber": 2587,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.1,
-    "height": 1.1,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

@@ -9,7 +9,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "fortog",
-  "baseScale": 0.325,
+  "baseScale": 0.45882352941176474,
   "cannotDynamax": false,
   "abilities": [
     "clearbody",
@@ -153,8 +153,8 @@
   "nationalPokedexNumber": 2506,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.3,
-    "height": 1.3,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "terrachnid",
-  "baseScale": 0.575,
+  "baseScale": 0.5519999999999999,
   "cannotDynamax": false,
   "abilities": [
     "strongjaw"
@@ -155,8 +155,8 @@
   "nationalPokedexNumber": 1951,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.3,
-    "height": 2.3,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

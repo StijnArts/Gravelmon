@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.3,
+  "baseScale": 0.29387755102040813,
   "cannotDynamax": false,
   "abilities": [
     "disguise"
@@ -80,8 +80,8 @@
   "nationalPokedexNumber": 2352,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.2,
-    "height": 1.2,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

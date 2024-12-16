@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pupage",
-  "baseScale": 0.175,
+  "baseScale": 0.1714285714285714,
   "cannotDynamax": false,
   "abilities": [
     "shielddust"
@@ -86,11 +86,11 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5996,
+  "nationalPokedexNumber": 5997,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.7,
-    "height": 0.7,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

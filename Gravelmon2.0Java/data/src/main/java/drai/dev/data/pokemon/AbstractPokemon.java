@@ -485,7 +485,7 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
             pokemon.getForms().forEach(forms -> {
                 double newFormHitboxWidth = (double) forms.getHeight() / 10;
                 double newFormHitboxHeight = (double) forms.getHeight() / 10;
-                setHitbox(newFormHitboxWidth, newFormHitboxHeight);
+                forms.setHitbox(newFormHitboxWidth, newFormHitboxHeight);
             });
         }
     }

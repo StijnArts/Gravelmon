@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.125,
+  "baseScale": 0.12244897959183673,
   "cannotDynamax": false,
   "abilities": [
     "angerpoint",
@@ -103,11 +103,11 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2919,
+  "nationalPokedexNumber": 2921,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.5,
-    "height": 0.5,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

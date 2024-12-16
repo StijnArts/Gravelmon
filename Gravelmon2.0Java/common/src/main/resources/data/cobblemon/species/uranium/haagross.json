@@ -9,7 +9,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "hagoop",
-  "baseScale": 0.35,
+  "baseScale": 0.4307692307692308,
   "cannotDynamax": false,
   "abilities": [
     "gooey",
@@ -150,8 +150,8 @@
   "nationalPokedexNumber": 2604,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.4,
-    "height": 1.4,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

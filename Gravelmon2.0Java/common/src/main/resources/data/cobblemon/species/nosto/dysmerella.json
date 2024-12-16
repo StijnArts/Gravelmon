@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sinsenella",
-  "baseScale": 0.875,
+  "baseScale": 0.8571428571428571,
   "cannotDynamax": false,
   "abilities": [
     "cutecharm",
@@ -91,11 +91,11 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4738,
+  "nationalPokedexNumber": 4739,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 3.5,
-    "height": 3.5,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

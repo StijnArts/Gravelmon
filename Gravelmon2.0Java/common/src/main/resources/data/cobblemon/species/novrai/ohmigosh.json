@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "ohman",
-  "baseScale": 0.25,
+  "baseScale": 0.24489795918367346,
   "cannotDynamax": false,
   "abilities": [
     "rattled",
@@ -155,11 +155,11 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6864,
+  "nationalPokedexNumber": 6865,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.0,
-    "height": 1.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

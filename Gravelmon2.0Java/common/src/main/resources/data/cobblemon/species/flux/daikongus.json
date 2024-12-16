@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "taroot",
-  "baseScale": 0.55,
+  "baseScale": 0.5557894736842106,
   "cannotDynamax": false,
   "abilities": [
     "thickfat",
@@ -103,8 +103,8 @@
   "nationalPokedexNumber": 2679,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.2,
-    "height": 2.2,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

@@ -83,8 +83,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.4,
-        "height": 1.4,
+        "width": 1.125,
+        "height": 1.125,
         "fixed": false
       }
     },
@@ -236,8 +236,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.2,
-        "height": 1.2,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -633,8 +633,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.1,
-        "height": 1.1,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -649,7 +649,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "riolu form=mystic",
-      "baseScale": 0.18,
+      "baseScale": 0.22857142857142854,
       "cannotDynamax": false,
       "abilities": [
         "oblivious",
@@ -742,8 +742,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.2,
-        "height": 1.2,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

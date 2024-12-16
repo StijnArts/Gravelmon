@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "weeduck",
-  "baseScale": 0.475,
+  "baseScale": 0.46530612244897956,
   "cannotDynamax": false,
   "abilities": [
     "overgrow",
@@ -89,11 +89,11 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4106,
+  "nationalPokedexNumber": 4108,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.9,
-    "height": 1.9,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

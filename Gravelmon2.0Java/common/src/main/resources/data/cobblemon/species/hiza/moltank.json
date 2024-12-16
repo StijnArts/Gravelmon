@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "melant",
-  "baseScale": 0.825,
+  "baseScale": 0.8081632653061224,
   "cannotDynamax": false,
   "abilities": [
     "magmaarmor",
@@ -88,11 +88,11 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2944,
+  "nationalPokedexNumber": 2946,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 3.3,
-    "height": 3.3,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

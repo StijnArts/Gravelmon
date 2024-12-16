@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "bagly",
-  "baseScale": 0.225,
+  "baseScale": 0.2634146341463415,
   "cannotDynamax": false,
   "abilities": [
     "infiltrator",
@@ -88,8 +88,8 @@
   "nationalPokedexNumber": 1978,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.9,
-    "height": 0.9,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

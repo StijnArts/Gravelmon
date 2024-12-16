@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "skite",
-  "baseScale": 0.5,
+  "baseScale": 0.5161290322580645,
   "cannotDynamax": false,
   "abilities": [
     "poisonpoint",
@@ -136,8 +136,8 @@
   "nationalPokedexNumber": 1930,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.0,
-    "height": 2.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

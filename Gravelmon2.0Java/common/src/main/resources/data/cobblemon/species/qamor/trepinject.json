@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "umbrub",
-  "baseScale": 0.1,
+  "baseScale": 0.0979591836734694,
   "cannotDynamax": false,
   "abilities": [
     "intimidate"
@@ -86,11 +86,11 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5377,
+  "nationalPokedexNumber": 5378,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.1,
-    "height": 0.1,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

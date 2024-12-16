@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "skatini",
-  "baseScale": 0.325,
+  "baseScale": 0.3183673469387755,
   "cannotDynamax": false,
   "abilities": [
     "frisk",
@@ -93,11 +93,11 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4279,
+  "nationalPokedexNumber": 4281,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.3,
-    "height": 1.3,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

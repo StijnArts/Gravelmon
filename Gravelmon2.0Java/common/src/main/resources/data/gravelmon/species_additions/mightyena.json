@@ -117,8 +117,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.0,
-        "height": 0.0,
+        "width": 1.125,
+        "height": 1.125,
         "fixed": false
       }
     },
@@ -268,8 +268,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.0,
-        "height": 1.0,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -284,7 +284,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "poochyena form=mystic",
-      "baseScale": 0.125,
+      "baseScale": 0.16,
       "cannotDynamax": false,
       "abilities": [
         "intimidate",
@@ -372,8 +372,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.0,
-        "height": 1.0,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

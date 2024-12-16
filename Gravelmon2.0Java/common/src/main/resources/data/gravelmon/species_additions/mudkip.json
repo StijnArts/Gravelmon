@@ -96,8 +96,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.4,
-        "height": 0.4,
+        "width": 1.125,
+        "height": 1.125,
         "fixed": false
       }
     },
@@ -281,8 +281,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.4,
-        "height": 0.4,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -450,8 +450,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.4,
-        "height": 0.4,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -624,8 +624,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.4,
-        "height": 0.4,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -638,7 +638,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.06,
+      "baseScale": 0.10666666666666667,
       "cannotDynamax": false,
       "abilities": [
         "immunity",
@@ -739,8 +739,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.4,
-        "height": 0.4,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

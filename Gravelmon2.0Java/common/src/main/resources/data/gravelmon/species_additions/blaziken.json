@@ -226,8 +226,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.9,
-        "height": 1.9,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -403,8 +403,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.9,
-        "height": 1.9,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -419,7 +419,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "combusken form=mystic",
-      "baseScale": 0.285,
+      "baseScale": 0.31232876712328766,
       "cannotDynamax": false,
       "abilities": [
         "insomnia",
@@ -506,8 +506,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.9,
-        "height": 1.9,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

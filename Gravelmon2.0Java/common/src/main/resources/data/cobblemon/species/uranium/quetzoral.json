@@ -9,7 +9,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "chicoatl",
-  "baseScale": 0.325,
+  "baseScale": 0.44571428571428573,
   "cannotDynamax": false,
   "abilities": [
     "sapsipper",
@@ -182,8 +182,8 @@
   "nationalPokedexNumber": 2560,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.3,
-    "height": 1.3,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

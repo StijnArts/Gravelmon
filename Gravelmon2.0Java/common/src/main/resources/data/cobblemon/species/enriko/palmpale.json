@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "grippit",
-  "baseScale": 0.4,
+  "baseScale": 0.45714285714285713,
   "cannotDynamax": false,
   "abilities": [
     "mummy",
@@ -100,8 +100,8 @@
   "nationalPokedexNumber": 2123,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.6,
-    "height": 1.6,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "osheangle",
-  "baseScale": 1.625,
+  "baseScale": 1.5918367346938775,
   "cannotDynamax": false,
   "abilities": [
     "pressure",
@@ -184,11 +184,11 @@
   "weight": 2350,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4494,
+  "nationalPokedexNumber": 4495,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 6.5,
-    "height": 6.5,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

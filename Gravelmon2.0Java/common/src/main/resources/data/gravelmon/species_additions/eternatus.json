@@ -131,8 +131,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 20.0,
-        "height": 20.0,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "mettlemaw",
-  "baseScale": 0.325,
+  "baseScale": 0.34285714285714286,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -94,8 +94,8 @@
   "nationalPokedexNumber": 2170,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.3,
-    "height": 1.3,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

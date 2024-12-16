@@ -81,8 +81,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.0,
-        "height": 0.0,
+        "width": 1.125,
+        "height": 1.125,
         "fixed": false
       }
     },
@@ -240,8 +240,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.6,
-        "height": 0.6,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -255,7 +255,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.14693877551020407,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -340,8 +340,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.6,
-        "height": 0.6,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -356,7 +356,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "hatenna form=novran",
-      "baseScale": 0.15,
+      "baseScale": 0.14693877551020407,
       "cannotDynamax": false,
       "abilities": [
         "symbiosis",
@@ -507,8 +507,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.6,
-        "height": 0.6,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -658,8 +658,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.6,
-        "height": 0.6,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

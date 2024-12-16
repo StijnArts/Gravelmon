@@ -8,7 +8,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "terrabbit",
-  "baseScale": 0.5,
+  "baseScale": 0.6153846153846154,
   "cannotDynamax": false,
   "abilities": [
     "intimidate",
@@ -164,8 +164,8 @@
   "nationalPokedexNumber": 2620,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.0,
-    "height": 2.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

@@ -192,8 +192,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.6,
-        "height": 0.6,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -365,8 +365,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.6,
-        "height": 0.6,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -554,8 +554,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.6,
-        "height": 0.6,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -698,8 +698,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.5,
-        "height": 0.5,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -858,8 +858,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.6,
-        "height": 0.6,
+        "width": 1.125,
+        "height": 1.125,
         "fixed": false
       }
     },
@@ -874,7 +874,7 @@
       "eggCycles": 51,
       "baseFriendship": 70,
       "preEvolution": "solosis form=mystic",
-      "baseScale": 0.075,
+      "baseScale": 0.11428571428571427,
       "cannotDynamax": false,
       "abilities": [
         "filter",
@@ -1022,8 +1022,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.6,
-        "height": 0.6,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

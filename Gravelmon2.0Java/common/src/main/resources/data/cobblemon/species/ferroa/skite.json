@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.275,
+  "baseScale": 0.5176470588235295,
   "cannotDynamax": false,
   "abilities": [
     "poisonpoint",
@@ -143,8 +143,8 @@
   "nationalPokedexNumber": 1929,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.1,
-    "height": 1.1,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

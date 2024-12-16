@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_96_by_96.geo",
-      "poser": "cobblemon:cutout_gravelmon_96_by_96",
+      "model": "cobblemon:cutout_gravelmon_98_by_98.geo",
+      "poser": "cobblemon:cutout_gravelmon_98_by_98",
       "texture": "cobblemon:textures/pokemon/kuria/torpeban.png",
       "layers": [
         {

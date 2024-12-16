@@ -8,6 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "territhorn",
   "baseScale": 0.44705882352941173,
   "cannotDynamax": false,
   "abilities": [
@@ -85,7 +86,9 @@
   ],
   "labels": [
     "avoris",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.wrecktonic.desc"
@@ -97,8 +100,8 @@
   "nationalPokedexNumber": 2300,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.9,
-    "height": 1.9,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

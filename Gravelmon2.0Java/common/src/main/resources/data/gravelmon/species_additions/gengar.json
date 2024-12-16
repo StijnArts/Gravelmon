@@ -86,8 +86,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 2.3,
-        "height": 2.3,
+        "width": 1.125,
+        "height": 1.125,
         "fixed": false
       }
     },
@@ -236,8 +236,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.5,
-        "height": 1.5,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -376,8 +376,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.5,
-        "height": 1.5,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -741,8 +741,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.5,
-        "height": 1.5,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -890,8 +890,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.6,
-        "height": 1.6,
+        "width": 2.618181818181818,
+        "height": 2.618181818181818,
         "fixed": false
       }
     }

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "buzzoo",
-  "baseScale": 0.25,
+  "baseScale": 0.4897959183673469,
   "cannotDynamax": false,
   "abilities": [
     "immunity",
@@ -167,8 +167,8 @@
   "nationalPokedexNumber": 1808,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.0,
-    "height": 1.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

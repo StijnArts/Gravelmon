@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "gumsopod",
-  "baseScale": 0.45,
+  "baseScale": 0.6084507042253521,
   "cannotDynamax": false,
   "abilities": [
     "gooey",
@@ -92,8 +92,8 @@
   "nationalPokedexNumber": 2033,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.8,
-    "height": 1.8,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

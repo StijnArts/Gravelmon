@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "spiroll",
-  "baseScale": 0.375,
+  "baseScale": 0.36734693877551017,
   "cannotDynamax": false,
   "abilities": [
     "scrappy",
@@ -162,11 +162,11 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6859,
+  "nationalPokedexNumber": 6860,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.5,
-    "height": 1.5,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

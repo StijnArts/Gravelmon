@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "dryath",
-  "baseScale": 0.45,
+  "baseScale": 0.44081632653061226,
   "cannotDynamax": false,
   "abilities": [
     "magicbounce",
@@ -94,11 +94,11 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2971,
+  "nationalPokedexNumber": 2973,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.8,
-    "height": 1.8,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

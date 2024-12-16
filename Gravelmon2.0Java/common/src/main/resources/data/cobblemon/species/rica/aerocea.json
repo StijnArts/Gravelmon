@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "delphair",
-  "baseScale": 1.075,
+  "baseScale": 1.0530612244897959,
   "cannotDynamax": false,
   "abilities": [
     "pressure"
@@ -150,8 +150,8 @@
   "nationalPokedexNumber": 1400,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 4.3,
-    "height": 4.3,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

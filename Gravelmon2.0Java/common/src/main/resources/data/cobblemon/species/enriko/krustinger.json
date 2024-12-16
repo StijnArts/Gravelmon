@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "elekrab",
-  "baseScale": 0.55,
+  "baseScale": 0.6068965517241379,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -93,8 +93,8 @@
   "nationalPokedexNumber": 1993,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.2,
-    "height": 2.2,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

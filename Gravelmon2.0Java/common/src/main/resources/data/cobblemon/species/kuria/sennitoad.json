@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "gekroak",
-  "baseScale": 0.45,
+  "baseScale": 0.44081632653061226,
   "cannotDynamax": false,
   "abilities": [
     "torrent"
@@ -88,11 +88,11 @@
   "weight": 628,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5549,
+  "nationalPokedexNumber": 5550,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.8,
-    "height": 1.8,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

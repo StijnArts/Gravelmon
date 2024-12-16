@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "multifly",
-  "baseScale": 0.35,
+  "baseScale": 0.4253164556962025,
   "cannotDynamax": false,
   "abilities": [
     "levitate"
@@ -140,8 +140,8 @@
   "nationalPokedexNumber": 1900,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.4,
-    "height": 1.4,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

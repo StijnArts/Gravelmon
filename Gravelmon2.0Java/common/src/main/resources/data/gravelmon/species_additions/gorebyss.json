@@ -137,8 +137,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.8,
-        "height": 1.8,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -152,7 +152,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.5,
+      "baseScale": 0.4897959183673469,
       "cannotDynamax": false,
       "abilities": [
         "poisonheal",
@@ -318,8 +318,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 2.0,
-        "height": 2.0,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -486,8 +486,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.8,
-        "height": 1.8,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

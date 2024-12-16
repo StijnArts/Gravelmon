@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pinecoal",
-  "baseScale": 0.4,
+  "baseScale": 0.42197802197802203,
   "cannotDynamax": false,
   "abilities": [
     "waterabsorb",
@@ -94,8 +94,8 @@
   "nationalPokedexNumber": 2137,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.6,
-    "height": 1.6,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

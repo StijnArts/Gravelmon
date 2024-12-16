@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "brickwald",
-  "baseScale": 0.775,
+  "baseScale": 0.7591836734693878,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -79,11 +79,11 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7948,
+  "nationalPokedexNumber": 7949,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 3.1,
-    "height": 3.1,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

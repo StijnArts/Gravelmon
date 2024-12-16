@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "macatherm",
-  "baseScale": 0.425,
+  "baseScale": 0.48,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -90,8 +90,8 @@
   "nationalPokedexNumber": 2099,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.7,
-    "height": 1.7,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

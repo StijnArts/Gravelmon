@@ -7,7 +7,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.925,
+  "baseScale": 0.9061224489795918,
   "cannotDynamax": false,
   "abilities": [
     "snowwarning"
@@ -89,11 +89,11 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3104,
+  "nationalPokedexNumber": 3106,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 3.7,
-    "height": 3.7,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

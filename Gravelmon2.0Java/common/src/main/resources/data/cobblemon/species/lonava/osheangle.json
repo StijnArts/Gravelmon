@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "burreel",
-  "baseScale": 0.425,
+  "baseScale": 0.4163265306122449,
   "cannotDynamax": false,
   "abilities": [
     "sandforce",
@@ -171,11 +171,11 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4493,
+  "nationalPokedexNumber": 4494,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.7,
-    "height": 1.7,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

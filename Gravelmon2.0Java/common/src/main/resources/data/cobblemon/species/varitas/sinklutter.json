@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "piplex",
-  "baseScale": 0.625,
+  "baseScale": 0.6122448979591837,
   "cannotDynamax": false,
   "abilities": [
     "stormdrain",
@@ -95,8 +95,8 @@
   "nationalPokedexNumber": 2435,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.5,
-    "height": 2.5,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

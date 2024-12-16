@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "ballooky",
-  "baseScale": 0.375,
+  "baseScale": 0.42857142857142855,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -94,8 +94,8 @@
   "nationalPokedexNumber": 2064,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.5,
-    "height": 1.5,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "elepath",
-  "baseScale": 0.875,
+  "baseScale": 0.8571428571428571,
   "cannotDynamax": false,
   "abilities": [
     "psychicsurge",
@@ -183,11 +183,11 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6868,
+  "nationalPokedexNumber": 6869,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 3.5,
-    "height": 3.5,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

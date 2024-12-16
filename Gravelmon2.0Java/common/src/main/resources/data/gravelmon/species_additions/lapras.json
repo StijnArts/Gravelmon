@@ -84,8 +84,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.0,
-        "height": 0.0,
+        "width": 1.125,
+        "height": 1.125,
         "fixed": false
       }
     },
@@ -174,8 +174,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 2.8,
-        "height": 2.8,
+        "width": 1.125,
+        "height": 1.125,
         "fixed": false
       }
     },
@@ -333,8 +333,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 2.5,
-        "height": 2.5,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -493,8 +493,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 2.5,
-        "height": 2.5,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -509,7 +509,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "lilpras",
-      "baseScale": 0.625,
+      "baseScale": 0.6122448979591837,
       "cannotDynamax": false,
       "abilities": [
         "electricsurge",
@@ -676,8 +676,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 2.5,
-        "height": 2.5,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -847,8 +847,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 2.5,
-        "height": 2.5,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -1008,8 +1008,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 2.2,
-        "height": 2.2,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

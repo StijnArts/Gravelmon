@@ -165,8 +165,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.6,
-        "height": 0.6,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -278,8 +278,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.6,
-        "height": 0.6,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -463,8 +463,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.6,
-        "height": 0.6,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -479,7 +479,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "froakie form=armiran",
-      "baseScale": 0.075,
+      "baseScale": 0.13584905660377358,
       "cannotDynamax": false,
       "abilities": [
         "blaze",
@@ -608,8 +608,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.6,
-        "height": 0.6,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

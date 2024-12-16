@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "caecarette",
-  "baseScale": 0.375,
+  "baseScale": 0.41379310344827586,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -96,8 +96,8 @@
   "nationalPokedexNumber": 2060,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.5,
-    "height": 1.5,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

@@ -192,8 +192,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.0,
-        "height": 0.0,
+        "width": 1.125,
+        "height": 1.125,
         "fixed": false
       }
     },
@@ -374,8 +374,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.7,
-        "height": 0.7,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -389,7 +389,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.175,
+      "baseScale": 0.1714285714285714,
       "cannotDynamax": false,
       "abilities": [
         "dancer"
@@ -554,8 +554,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.7,
-        "height": 0.7,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -568,7 +568,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.175,
+      "baseScale": 0.1714285714285714,
       "cannotDynamax": false,
       "abilities": [
         "guts",
@@ -748,8 +748,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.7,
-        "height": 0.7,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

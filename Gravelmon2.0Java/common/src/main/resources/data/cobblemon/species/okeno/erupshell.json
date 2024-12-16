@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "searside",
-  "baseScale": 0.45,
+  "baseScale": 0.44081632653061226,
   "cannotDynamax": false,
   "abilities": [
     "shellarmor",
@@ -147,11 +147,11 @@
   "weight": 1216,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6007,
+  "nationalPokedexNumber": 6008,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.8,
-    "height": 1.8,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

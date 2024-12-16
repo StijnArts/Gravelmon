@@ -144,8 +144,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.7,
-        "height": 1.7,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -245,8 +245,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.8,
-        "height": 1.8,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -613,8 +613,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.7,
-        "height": 1.7,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -791,8 +791,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.7,
-        "height": 1.7,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -807,7 +807,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "grovyle form=mystic",
-      "baseScale": 0.255,
+      "baseScale": 0.2756756756756757,
       "cannotDynamax": false,
       "abilities": [
         "innerfocus",
@@ -895,8 +895,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.7,
-        "height": 1.7,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

@@ -154,8 +154,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 2.1,
-        "height": 2.1,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -169,7 +169,8 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "baseScale": 0.2625,
+      "preEvolution": "stufful form=mystic",
+      "baseScale": 0.3111111111111111,
       "cannotDynamax": false,
       "abilities": [
         "cursedbody",
@@ -241,7 +242,8 @@
       "labels": [
         "azure",
         "gen7",
-        "not_modeled"
+        "not_modeled",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.mysticbewear.desc"
@@ -254,8 +256,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 2.1,
-        "height": 2.1,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

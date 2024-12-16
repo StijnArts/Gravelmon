@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "phonana",
-  "baseScale": 0.85,
+  "baseScale": 0.8326530612244898,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -77,11 +77,11 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8244,
+  "nationalPokedexNumber": 8245,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 3.4,
-    "height": 3.4,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

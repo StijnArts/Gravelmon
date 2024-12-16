@@ -8,7 +8,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "feleng",
-  "baseScale": 0.275,
+  "baseScale": 0.4061538461538462,
   "cannotDynamax": false,
   "abilities": [
     "intimidate",
@@ -174,8 +174,8 @@
   "nationalPokedexNumber": 2509,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.1,
-    "height": 1.1,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

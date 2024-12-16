@@ -153,11 +153,11 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3983,
+  "nationalPokedexNumber": 3985,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.8,
-    "height": 0.8,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

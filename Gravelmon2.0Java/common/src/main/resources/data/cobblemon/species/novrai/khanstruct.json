@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "playmight",
-  "baseScale": 0.55,
+  "baseScale": 0.5387755102040817,
   "cannotDynamax": false,
   "abilities": [
     "stalwart",
@@ -160,11 +160,11 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6721,
+  "nationalPokedexNumber": 6722,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.2,
-    "height": 2.2,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

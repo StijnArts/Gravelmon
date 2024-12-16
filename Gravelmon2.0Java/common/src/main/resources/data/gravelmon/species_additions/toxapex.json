@@ -147,8 +147,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.7,
-        "height": 0.7,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -299,8 +299,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.7,
-        "height": 0.7,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -314,6 +314,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 51,
       "baseFriendship": 70,
+      "preEvolution": "mareanie form=hoennian",
       "baseScale": 0.44999999999999996,
       "cannotDynamax": false,
       "abilities": [
@@ -407,7 +408,8 @@
       "labels": [
         "blazing_emerald",
         "gen7",
-        "not_modeled"
+        "not_modeled",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.hoenniantoxapex.desc"
@@ -420,8 +422,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.2,
-        "height": 1.2,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

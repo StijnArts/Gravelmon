@@ -6,8 +6,8 @@
       "aspects": [
         "mystic"
       ],
-      "model": "cobblemon:cutout_gravelmon_192_by_192.geo",
-      "poser": "cobblemon:cutout_gravelmon_192_by_192",
+      "model": "cobblemon:cutout_gravelmon_84_by_126.geo",
+      "poser": "cobblemon:cutout_gravelmon_84_by_126",
       "texture": "cobblemon:textures/pokemon/generation5/mysticduosion.png",
       "layers": [
         {

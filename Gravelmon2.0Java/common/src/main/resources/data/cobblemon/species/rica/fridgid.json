@@ -8,7 +8,7 @@
   "experienceGroup": "fluctuating",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 1.45,
+  "baseScale": 1.420408163265306,
   "cannotDynamax": false,
   "abilities": [
     "refrigerate",
@@ -152,8 +152,8 @@
   "nationalPokedexNumber": 1393,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 5.8,
-    "height": 5.8,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

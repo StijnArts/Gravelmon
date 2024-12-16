@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "carrioon",
-  "baseScale": 0.375,
+  "baseScale": 0.3913043478260869,
   "cannotDynamax": false,
   "abilities": [
     "immunity",
@@ -197,8 +197,8 @@
   "nationalPokedexNumber": 1809,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.5,
-    "height": 1.5,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

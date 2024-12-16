@@ -9,7 +9,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "cararalm",
-  "baseScale": 0.925,
+  "baseScale": 1.1240506329113924,
   "cannotDynamax": false,
   "abilities": [
     "sandveil",
@@ -169,8 +169,8 @@
   "nationalPokedexNumber": 2536,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 3.7,
-    "height": 3.7,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

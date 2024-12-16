@@ -145,8 +145,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.8,
-        "height": 1.8,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -296,8 +296,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.8,
-        "height": 1.8,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -311,7 +311,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.525,
+      "baseScale": 0.5142857142857143,
       "cannotDynamax": false,
       "abilities": [
         "overgrow",
@@ -382,8 +382,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 2.1,
-        "height": 2.1,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -572,8 +572,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 2.3,
-        "height": 2.3,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -744,8 +744,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.8,
-        "height": 1.8,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

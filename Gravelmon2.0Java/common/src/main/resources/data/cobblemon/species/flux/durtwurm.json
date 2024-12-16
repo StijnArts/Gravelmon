@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "squrmy",
-  "baseScale": 0.125,
+  "baseScale": 0.24489795918367346,
   "cannotDynamax": false,
   "abilities": [
     "weakarmor",
@@ -83,8 +83,8 @@
   "nationalPokedexNumber": 2660,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.5,
-    "height": 0.5,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

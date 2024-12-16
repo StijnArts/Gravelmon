@@ -6,8 +6,8 @@
       "aspects": [
         "cefiranelectric"
       ],
-      "model": "cobblemon:cutout_gravelmon_85_by_96.geo",
-      "poser": "cobblemon:cutout_gravelmon_85_by_96",
+      "model": "cobblemon:cutout_gravelmon_88_by_98.geo",
+      "poser": "cobblemon:cutout_gravelmon_88_by_98",
       "texture": "cobblemon:textures/pokemon/generation1/cefiranmeowthelectric.png",
       "layers": [
         {

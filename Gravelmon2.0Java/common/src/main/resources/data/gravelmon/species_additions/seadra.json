@@ -97,8 +97,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.1,
-        "height": 1.1,
+        "width": 1.125,
+        "height": 1.125,
         "fixed": false
       }
     },
@@ -260,8 +260,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.2,
-        "height": 1.2,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -417,8 +417,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.2,
-        "height": 1.2,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -431,7 +431,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.175,
+      "baseScale": 0.1714285714285714,
       "cannotDynamax": false,
       "abilities": [
         "swiftswim",
@@ -535,8 +535,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.7,
-        "height": 0.7,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

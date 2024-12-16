@@ -9,7 +9,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "owten",
-  "baseScale": 0.225,
+  "baseScale": 0.2958904109589041,
   "cannotDynamax": false,
   "abilities": [
     "serenegrace",
@@ -148,8 +148,8 @@
   "nationalPokedexNumber": 2513,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.9,
-    "height": 0.9,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

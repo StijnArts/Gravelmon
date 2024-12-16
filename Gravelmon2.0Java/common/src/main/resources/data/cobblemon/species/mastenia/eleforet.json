@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "elefleur",
-  "baseScale": 0.7,
+  "baseScale": 0.6857142857142856,
   "cannotDynamax": false,
   "abilities": [
     "flowerveil",
@@ -85,8 +85,8 @@
   "nationalPokedexNumber": 8437,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.8,
-    "height": 2.8,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

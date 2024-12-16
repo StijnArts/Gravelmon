@@ -84,8 +84,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.7,
-        "height": 1.7,
+        "width": 1.125,
+        "height": 1.125,
         "fixed": false
       }
     },
@@ -237,8 +237,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.4,
-        "height": 1.4,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -253,7 +253,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "tyrogue form=qamoran",
-      "baseScale": 0.35,
+      "baseScale": 0.3428571428571428,
       "cannotDynamax": false,
       "abilities": [
         "dancer"
@@ -345,8 +345,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.4,
-        "height": 1.4,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -360,7 +360,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "tyrogue form=varitasian",
-      "baseScale": 0.35,
+      "baseScale": 0.3428571428571428,
       "cannotDynamax": false,
       "abilities": [
         "keeneye",
@@ -516,8 +516,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.4,
-        "height": 1.4,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -682,8 +682,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.4,
-        "height": 1.4,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     }

@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.95,
+  "baseScale": 0.9306122448979591,
   "cannotDynamax": false,
   "abilities": [
     "megalauncher"
@@ -91,8 +91,8 @@
   "nationalPokedexNumber": 1748,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 3.8,
-    "height": 3.8,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

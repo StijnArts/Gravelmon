@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 1.9,
+  "baseScale": 1.8612244897959183,
   "cannotDynamax": false,
   "abilities": [
     "battlearmor",
@@ -151,8 +151,8 @@
   "nationalPokedexNumber": 1403,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 7.6,
-    "height": 7.6,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "porytleg",
-  "baseScale": 0.4,
+  "baseScale": 0.4129032258064516,
   "cannotDynamax": false,
   "abilities": [
     "simple",
@@ -89,8 +89,8 @@
   "nationalPokedexNumber": 2145,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.6,
-    "height": 1.6,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],

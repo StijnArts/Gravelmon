@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "lungob",
-  "baseScale": 0.4,
+  "baseScale": 0.46829268292682924,
   "cannotDynamax": false,
   "abilities": [
     "hydration",
@@ -164,8 +164,8 @@
   "nationalPokedexNumber": 1813,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.6,
-    "height": 1.6,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "features": [],
