@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "electabuzz form=epoch",
-      "baseScale": 0.45,
+      "baseScale": 0.675,
       "cannotDynamax": false,
       "abilities": [
         "defiant",

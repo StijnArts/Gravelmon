@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "ovimourn",
-  "baseScale": 0.375,
+  "baseScale": 0.47368421052631576,
   "cannotDynamax": false,
   "abilities": [
     "magicguard",
@@ -90,7 +90,7 @@
   "weight": 803,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4351,
+  "nationalPokedexNumber": 4353,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.5,

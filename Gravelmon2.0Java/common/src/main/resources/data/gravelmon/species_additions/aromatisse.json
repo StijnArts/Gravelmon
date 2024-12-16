@@ -97,7 +97,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "spritzee form=epoch",
-      "baseScale": 0.2,
+      "baseScale": 0.2594594594594595,
       "cannotDynamax": false,
       "abilities": [
         "curiousmedicine",
@@ -250,7 +250,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.2,
+      "baseScale": 0.32000000000000006,
       "cannotDynamax": false,
       "abilities": [
         "powerspot",
@@ -396,7 +396,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.2,
+      "baseScale": 0.32000000000000006,
       "cannotDynamax": false,
       "abilities": [
         "healer",

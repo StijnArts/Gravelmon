@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "roselia form=epoch",
-      "baseScale": 0.225,
+      "baseScale": 0.3661016949152543,
       "cannotDynamax": false,
       "abilities": [
         "sharpness",
@@ -149,7 +149,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.225,
+      "baseScale": 0.33230769230769236,
       "cannotDynamax": false,
       "abilities": [
         "leafguard",
@@ -494,7 +494,7 @@
       "eggCycles": 26,
       "baseFriendship": 70,
       "preEvolution": "roselia form=x",
-      "baseScale": 0.16875,
+      "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
         "serenegrace",
@@ -639,7 +639,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "roselia form=ayreian",
-      "baseScale": 0.1,
+      "baseScale": 0.16000000000000003,
       "cannotDynamax": false,
       "abilities": [
         "steelyspirit",

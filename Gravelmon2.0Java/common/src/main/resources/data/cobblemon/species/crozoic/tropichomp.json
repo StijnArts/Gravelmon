@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.225,
+  "baseScale": 0.37894736842105264,
   "cannotDynamax": false,
   "abilities": [
     "strongjaw",
@@ -163,7 +163,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4369,
+  "nationalPokedexNumber": 4374,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.9,

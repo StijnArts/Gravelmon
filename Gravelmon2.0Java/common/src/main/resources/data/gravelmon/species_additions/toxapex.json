@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "mareanie form=epoch",
-      "baseScale": 0.175,
+      "baseScale": 0.1887640449438202,
       "cannotDynamax": false,
       "abilities": [
         "arenatrap",
@@ -163,7 +163,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "mareanie form=x",
-      "baseScale": 0.13124999999999998,
+      "baseScale": 0.175,
       "cannotDynamax": false,
       "abilities": [
         "arenatrap",

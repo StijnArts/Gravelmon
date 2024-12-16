@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "bayleef form=epoch",
-      "baseScale": 0.45,
+      "baseScale": 0.5333333333333333,
       "cannotDynamax": false,
       "abilities": [
         "immunity",
@@ -160,7 +160,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.45,
+      "baseScale": 0.526829268292683,
       "cannotDynamax": false,
       "abilities": [
         "lightningrod",
@@ -588,7 +588,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "bayleef form=ayreian",
-      "baseScale": 0.45,
+      "baseScale": 0.5082352941176471,
       "cannotDynamax": false,
       "abilities": [
         "pixilate",

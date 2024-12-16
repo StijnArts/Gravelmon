@@ -7,7 +7,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 1.7,
+  "baseScale": 1.7739130434782608,
   "cannotDynamax": false,
   "abilities": [
     "myceliummight",
@@ -82,7 +82,7 @@
   "weight": 1650,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4333,
+  "nationalPokedexNumber": 4335,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.8,

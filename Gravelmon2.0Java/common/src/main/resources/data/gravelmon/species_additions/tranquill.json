@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "pidove form=epoch",
-      "baseScale": 0.15,
+      "baseScale": 0.27169811320754716,
       "cannotDynamax": false,
       "abilities": [
         "keeneye",
@@ -176,7 +176,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.22153846153846155,
       "cannotDynamax": false,
       "abilities": [
         "rivalry",

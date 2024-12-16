@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "ruminelk",
-  "baseScale": 0.525,
+  "baseScale": 0.5419354838709678,
   "cannotDynamax": false,
   "abilities": [
     "hypercutter"

@@ -1,0 +1,37 @@
+{
+  "species": "cobblemon:swampert",
+  "order": 103,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:cutout_gravelmon_76_by_69.geo",
+      "poser": "cobblemon:cutout_gravelmon_76_by_69",
+      "texture": "cobblemon:textures/pokemon/generation3/ayreianswampert.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
+    }
+  ]
+}

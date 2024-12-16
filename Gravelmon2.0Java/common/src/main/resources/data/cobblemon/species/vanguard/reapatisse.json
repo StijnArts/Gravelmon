@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.35,
+  "baseScale": 0.4732394366197183,
   "cannotDynamax": false,
   "abilities": [
     "aromaveil"
@@ -156,7 +156,7 @@
   "weight": 355,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5509,
+  "nationalPokedexNumber": 5515,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.4,

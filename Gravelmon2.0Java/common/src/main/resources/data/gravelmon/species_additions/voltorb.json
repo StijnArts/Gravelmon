@@ -112,7 +112,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.125,
+      "baseScale": 0.3870967741935484,
       "cannotDynamax": false,
       "abilities": [
         "speedboost",
@@ -262,7 +262,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.125,
+      "baseScale": 0.24,
       "cannotDynamax": false,
       "abilities": [
         "pressure",
@@ -530,7 +530,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 26,
       "baseFriendship": 70,
-      "baseScale": 0.125,
+      "baseScale": 0.3333333333333333,
       "cannotDynamax": false,
       "abilities": [
         "steamengine"

@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "purrloin form=epoch",
-      "baseScale": 0.275,
+      "baseScale": 0.4061538461538462,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "amacorala",
-  "baseScale": 0.475,
+  "baseScale": 0.7354838709677419,
   "cannotDynamax": false,
   "abilities": [
     "hustle",
@@ -162,7 +162,7 @@
   "weight": 5550,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5490,
+  "nationalPokedexNumber": 5496,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.9,

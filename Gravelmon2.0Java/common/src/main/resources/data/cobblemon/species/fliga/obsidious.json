@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "magrumble",
-  "baseScale": 0.675,
+  "baseScale": 0.5634782608695652,
   "cannotDynamax": false,
   "abilities": [
     "blaze",
@@ -95,7 +95,7 @@
   "weight": 2826,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5272,
+  "nationalPokedexNumber": 5277,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.7,

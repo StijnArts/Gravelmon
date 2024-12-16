@@ -99,7 +99,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "wooloo form=epoch",
-      "baseScale": 0.325,
+      "baseScale": 0.42162162162162165,
       "cannotDynamax": false,
       "abilities": [
         "roughskin",
@@ -253,7 +253,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.325,
+      "baseScale": 0.42162162162162165,
       "cannotDynamax": false,
       "abilities": [
         "harvest",

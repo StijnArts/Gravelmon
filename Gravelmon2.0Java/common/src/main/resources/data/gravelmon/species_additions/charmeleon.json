@@ -32,7 +32,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "charmander form=epoch",
-      "baseScale": 0.275,
+      "baseScale": 0.5176470588235295,
       "cannotDynamax": false,
       "abilities": [
         "moxie",
@@ -607,7 +607,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "charmander form=ayreian",
-      "baseScale": 0.275,
+      "baseScale": 0.41250000000000003,
       "cannotDynamax": false,
       "abilities": [
         "fluffy",

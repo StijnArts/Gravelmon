@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 1.025,
+  "baseScale": 1.1441860465116278,
   "cannotDynamax": false,
   "abilities": [
     "triage"
@@ -157,7 +157,7 @@
   "weight": 1250,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5514,
+  "nationalPokedexNumber": 5520,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1,

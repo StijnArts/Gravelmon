@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.3,
+  "baseScale": 0.374025974025974,
   "cannotDynamax": false,
   "abilities": [
     "prankster"
@@ -166,7 +166,7 @@
   "weight": 45,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5516,
+  "nationalPokedexNumber": 5522,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.2,

@@ -131,7 +131,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "ledyba form=epoch",
-      "baseScale": 0.35,
+      "baseScale": 0.6109090909090908,
       "cannotDynamax": false,
       "abilities": [
         "clearbody",

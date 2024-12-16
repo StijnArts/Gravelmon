@@ -109,7 +109,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.125,
+      "baseScale": 0.2553191489361702,
       "cannotDynamax": false,
       "abilities": [
         "colorchange",
@@ -276,7 +276,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.125,
+      "baseScale": 0.2608695652173913,
       "cannotDynamax": false,
       "abilities": [
         "sandforce",
@@ -568,7 +568,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.125,
+      "baseScale": 0.21052631578947367,
       "cannotDynamax": false,
       "abilities": [
         "mimicry",

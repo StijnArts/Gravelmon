@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "panboo",
-  "baseScale": 0.425,
+  "baseScale": 0.5666666666666667,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -76,7 +76,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7359,
+  "nationalPokedexNumber": 7365,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.7,

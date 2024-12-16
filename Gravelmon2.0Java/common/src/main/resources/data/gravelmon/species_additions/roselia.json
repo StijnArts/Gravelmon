@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "budew form=epoch",
-      "baseScale": 0.1,
+      "baseScale": 0.16842105263157894,
       "cannotDynamax": false,
       "abilities": [
         "sharpness",
@@ -166,7 +166,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.15737704918032788,
       "cannotDynamax": false,
       "abilities": [
         "leafguard",
@@ -683,7 +683,7 @@
       "eggCycles": 26,
       "baseFriendship": 70,
       "preEvolution": "budew form=x",
-      "baseScale": 0.07500000000000001,
+      "baseScale": 0.12151898734177216,
       "cannotDynamax": false,
       "abilities": [
         "serenegrace",
@@ -835,7 +835,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "budew form=ayreian",
-      "baseScale": 0.1,
+      "baseScale": 0.18113207547169813,
       "cannotDynamax": false,
       "abilities": [
         "steelyspirit",

@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "volpaca",
-  "baseScale": 0.575,
+  "baseScale": 0.7168831168831168,
   "cannotDynamax": false,
   "abilities": [
     "flamebody",
@@ -127,7 +127,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7324,
+  "nationalPokedexNumber": 7330,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.3,

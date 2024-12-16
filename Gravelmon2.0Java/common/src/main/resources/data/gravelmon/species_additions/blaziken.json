@@ -242,7 +242,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "combusken form=ayreian",
-      "baseScale": 0.475,
+      "baseScale": 0.5493975903614458,
       "cannotDynamax": false,
       "abilities": [
         "longreach",

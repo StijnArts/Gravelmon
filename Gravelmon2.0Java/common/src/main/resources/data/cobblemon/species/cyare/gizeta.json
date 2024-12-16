@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "zeta",
-  "baseScale": 0.225,
+  "baseScale": 0.4075471698113208,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -91,7 +91,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 7356,
+  "nationalPokedexNumber": 7362,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.9,

@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "cyndaquil form=epoch",
-      "baseScale": 0.225,
+      "baseScale": 0.3927272727272727,
       "cannotDynamax": false,
       "abilities": [
         "motordrive",
@@ -184,7 +184,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.225,
+      "baseScale": 0.3085714285714286,
       "cannotDynamax": false,
       "abilities": [
         "refrigerate",
@@ -828,7 +828,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "cyndaquil form=ayreian",
-      "baseScale": 0.225,
+      "baseScale": 0.2918918918918919,
       "cannotDynamax": false,
       "abilities": [
         "drought",

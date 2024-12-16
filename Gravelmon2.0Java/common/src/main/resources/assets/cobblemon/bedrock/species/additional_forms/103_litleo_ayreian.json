@@ -1,0 +1,37 @@
+{
+  "species": "cobblemon:litleo",
+  "order": 103,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:cutout_gravelmon_46_by_47.geo",
+      "poser": "cobblemon:cutout_gravelmon_46_by_47",
+      "texture": "cobblemon:textures/pokemon/generation6/ayreianlitleo.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
+    }
+  ]
+}

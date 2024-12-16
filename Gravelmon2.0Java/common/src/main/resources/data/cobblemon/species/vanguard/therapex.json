@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.35,
+  "baseScale": 0.4307692307692308,
   "cannotDynamax": false,
   "abilities": [
     "poisontouch",
@@ -148,7 +148,7 @@
   "weight": 1150,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5512,
+  "nationalPokedexNumber": 5518,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.4,

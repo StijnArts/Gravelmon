@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "hoppip form=epoch",
-      "baseScale": 0.15,
+      "baseScale": 0.27692307692307694,
       "cannotDynamax": false,
       "abilities": [
         "levitate",
@@ -169,7 +169,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.2526315789473684,
       "cannotDynamax": false,
       "abilities": [
         "shielddust",
@@ -335,7 +335,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.33488372093023255,
       "cannotDynamax": false,
       "abilities": [
         "prankster"

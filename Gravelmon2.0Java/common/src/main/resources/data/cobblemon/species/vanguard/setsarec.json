@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "arbok",
-  "baseScale": 0.625,
+  "baseScale": 0.8,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -147,7 +147,7 @@
   "weight": 1440,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5502,
+  "nationalPokedexNumber": 5508,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

@@ -111,7 +111,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.22325581395348837,
       "cannotDynamax": false,
       "abilities": [
         "sniper",
@@ -456,7 +456,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.24615384615384617,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"

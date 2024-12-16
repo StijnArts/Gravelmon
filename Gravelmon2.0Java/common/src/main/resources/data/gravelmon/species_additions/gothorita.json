@@ -32,7 +32,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "gothita form=epoch",
-      "baseScale": 0.175,
+      "baseScale": 0.3230769230769231,
       "cannotDynamax": false,
       "abilities": [
         "frisk",
@@ -201,7 +201,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.175,
+      "baseScale": 0.32941176470588235,
       "cannotDynamax": false,
       "abilities": [
         "shedskin",

@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "bronzor form=epoch",
-      "baseScale": 0.325,
+      "baseScale": 0.5032258064516129,
       "cannotDynamax": false,
       "abilities": [
         "solidrock",

@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.275,
+  "baseScale": 0.528,
   "cannotDynamax": false,
   "abilities": [
     "flamebody",
@@ -92,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4353,
+  "nationalPokedexNumber": 4355,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.1,

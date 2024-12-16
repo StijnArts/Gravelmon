@@ -100,7 +100,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "spearow form=epoch",
-      "baseScale": 0.3,
+      "baseScale": 0.35121951219512193,
       "cannotDynamax": false,
       "abilities": [
         "sniper",
@@ -420,7 +420,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.3,
+      "baseScale": 0.35121951219512193,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"

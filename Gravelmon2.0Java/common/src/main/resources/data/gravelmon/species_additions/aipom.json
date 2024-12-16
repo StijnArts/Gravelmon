@@ -27,7 +27,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.2,
+      "baseScale": 0.3310344827586207,
       "cannotDynamax": false,
       "abilities": [
         "comatose"
@@ -207,7 +207,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.23606557377049178,
       "cannotDynamax": false,
       "abilities": [
         "pickup",

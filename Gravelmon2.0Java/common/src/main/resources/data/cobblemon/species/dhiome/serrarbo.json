@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "petrifern",
-  "baseScale": 0.575,
+  "baseScale": 0.641860465116279,
   "cannotDynamax": false,
   "abilities": [
     "chlorophyll",

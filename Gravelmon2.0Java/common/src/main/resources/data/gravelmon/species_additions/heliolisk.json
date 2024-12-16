@@ -24,7 +24,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "helioptile form=epoch",
-      "baseScale": 0.25,
+      "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
         "multiscale",
@@ -198,7 +198,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.25,
+      "baseScale": 0.34285714285714286,
       "cannotDynamax": false,
       "abilities": [
         "dryskin",

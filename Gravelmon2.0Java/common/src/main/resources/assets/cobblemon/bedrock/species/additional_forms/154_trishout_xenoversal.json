@@ -6,8 +6,8 @@
       "aspects": [
         "xenoversal"
       ],
-      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_128",
+      "model": "cobblemon:cutout_gravelmon_77_by_75.geo",
+      "poser": "cobblemon:cutout_gravelmon_77_by_75",
       "texture": "cobblemon:textures/pokemon/xenoverse/trishoutxenoversal.png",
       "layers": [
         {

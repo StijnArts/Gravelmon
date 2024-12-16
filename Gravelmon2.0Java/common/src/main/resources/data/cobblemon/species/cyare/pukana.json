@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "moorling",
-  "baseScale": 0.3,
+  "baseScale": 0.42985074626865666,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -76,7 +76,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7421,
+  "nationalPokedexNumber": 7427,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.2,

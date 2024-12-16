@@ -34,7 +34,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "rookidee form=epoch",
-      "baseScale": 0.2,
+      "baseScale": 0.24615384615384617,
       "cannotDynamax": false,
       "abilities": [
         "bigpecks"

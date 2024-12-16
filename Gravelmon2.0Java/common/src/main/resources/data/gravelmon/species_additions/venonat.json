@@ -115,7 +115,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.25,
+      "baseScale": 0.47058823529411764,
       "cannotDynamax": false,
       "abilities": [
         "shielddust",
@@ -545,7 +545,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.25,
+      "baseScale": 0.4067796610169492,
       "cannotDynamax": false,
       "abilities": [
         "shielddust",

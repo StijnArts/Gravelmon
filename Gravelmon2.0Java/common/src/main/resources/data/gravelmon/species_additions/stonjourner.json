@@ -96,7 +96,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.625,
+      "baseScale": 0.8695652173913043,
       "cannotDynamax": false,
       "abilities": [
         "battery",

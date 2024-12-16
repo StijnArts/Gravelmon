@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "prinplup form=epoch",
-      "baseScale": 0.425,
+      "baseScale": 0.5513513513513514,
       "cannotDynamax": false,
       "abilities": [
         "slushrush"

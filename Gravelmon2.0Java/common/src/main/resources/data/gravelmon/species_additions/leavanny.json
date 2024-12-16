@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "swadloon form=epoch",
-      "baseScale": 0.3,
+      "baseScale": 0.384,
       "cannotDynamax": false,
       "abilities": [
         "sharpness",

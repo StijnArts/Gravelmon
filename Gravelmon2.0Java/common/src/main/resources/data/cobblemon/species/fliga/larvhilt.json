@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.25263157894736843,
   "cannotDynamax": false,
   "abilities": [
     "regenerator",
@@ -103,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5282,
+  "nationalPokedexNumber": 5287,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.4,

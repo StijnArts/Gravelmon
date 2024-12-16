@@ -6,8 +6,8 @@
       "aspects": [
         "electric"
       ],
-      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_128",
+      "model": "cobblemon:cutout_gravelmon_36_by_54.geo",
+      "poser": "cobblemon:cutout_gravelmon_36_by_54",
       "texture": "cobblemon:textures/pokemon/xenoverse/electric.png",
       "layers": [
         {

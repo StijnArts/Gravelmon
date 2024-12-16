@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "klang form=epoch",
-      "baseScale": 0.15,
+      "baseScale": 0.17349397590361446,
       "cannotDynamax": false,
       "abilities": [
         "levitate",

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "soulhofen",
-  "baseScale": 0.525,
+  "baseScale": 0.6072289156626506,
   "cannotDynamax": false,
   "abilities": [
     "solidrock",
@@ -147,7 +147,7 @@
   "weight": 5140,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4382,
+  "nationalPokedexNumber": 4387,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.1,

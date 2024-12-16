@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sableye form=enjinnian",
-  "baseScale": 0.35,
+  "baseScale": 0.48,
   "cannotDynamax": false,
   "abilities": [
     "keeneye",
@@ -153,7 +153,7 @@
   "weight": 410,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6393,
+  "nationalPokedexNumber": 6402,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.4,

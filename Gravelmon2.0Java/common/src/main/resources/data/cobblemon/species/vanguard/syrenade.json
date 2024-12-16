@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "syrallure",
-  "baseScale": 0.45,
+  "baseScale": 0.47472527472527476,
   "cannotDynamax": false,
   "abilities": [
     "queenlymajesty",
@@ -158,7 +158,7 @@
   "weight": 1440,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5499,
+  "nationalPokedexNumber": 5505,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.8,

@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.2,
+  "baseScale": 0.3368421052631579,
   "cannotDynamax": false,
   "abilities": [
     "magician",
@@ -101,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5322,
+  "nationalPokedexNumber": 5329,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.8,

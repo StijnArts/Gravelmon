@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pikoral",
-  "baseScale": 0.175,
+  "baseScale": 0.2847457627118644,
   "cannotDynamax": false,
   "abilities": [
     "poisonpoint"
@@ -129,7 +129,7 @@
   "weight": 100,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4374,
+  "nationalPokedexNumber": 4379,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.7,

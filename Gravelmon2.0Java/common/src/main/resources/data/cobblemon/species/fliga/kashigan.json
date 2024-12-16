@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sconsimese",
-  "baseScale": 0.45,
+  "baseScale": 0.4595744680851064,
   "cannotDynamax": false,
   "abilities": [
     "magicbounce",
@@ -97,7 +97,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5287,
+  "nationalPokedexNumber": 5292,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.8,

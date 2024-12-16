@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.375,
+  "baseScale": 0.5625,
   "cannotDynamax": false,
   "abilities": [
     "serenegrace",
@@ -190,7 +190,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5491,
+  "nationalPokedexNumber": 5497,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.5,

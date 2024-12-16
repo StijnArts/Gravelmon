@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "grovyle form=epoch",
-      "baseScale": 0.425,
+      "baseScale": 0.6375,
       "cannotDynamax": false,
       "abilities": [
         "colorchange",
@@ -159,7 +159,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "grovyle form=avalossian",
-      "baseScale": 0.45,
+      "baseScale": 0.5468354430379747,
       "cannotDynamax": false,
       "abilities": [
         "sandforce",
@@ -628,7 +628,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.425,
+      "baseScale": 0.4584269662921348,
       "cannotDynamax": false,
       "abilities": [
         "mimicry",

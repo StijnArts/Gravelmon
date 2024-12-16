@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.125,
+      "baseScale": 0.1518987341772152,
       "cannotDynamax": false,
       "abilities": [
         "sturdy",
@@ -289,7 +289,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.125,
+      "baseScale": 0.1935483870967742,
       "cannotDynamax": false,
       "abilities": [
         "ironbarbs",

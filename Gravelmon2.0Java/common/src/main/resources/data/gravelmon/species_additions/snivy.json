@@ -10,7 +10,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.43636363636363634,
       "cannotDynamax": false,
       "abilities": [
         "cursedbody",
@@ -360,7 +360,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.3428571428571428,
       "cannotDynamax": false,
       "abilities": [
         "corrosion",

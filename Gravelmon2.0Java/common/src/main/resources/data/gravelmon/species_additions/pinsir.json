@@ -145,7 +145,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.375,
+      "baseScale": 0.5217391304347826,
       "cannotDynamax": false,
       "abilities": [
         "magnetpull",
@@ -537,7 +537,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 26,
       "baseFriendship": 70,
-      "baseScale": 0.375,
+      "baseScale": 0.5373134328358209,
       "cannotDynamax": false,
       "abilities": [
         "heavymetal",

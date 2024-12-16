@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "doublade form=epoch",
-      "baseScale": 0.425,
+      "baseScale": 0.42947368421052634,
       "cannotDynamax": false,
       "abilities": [
         "telepathy",
@@ -165,7 +165,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.425,
+      "baseScale": 0.44835164835164837,
       "cannotDynamax": false,
       "abilities": [
         "skilllink",
@@ -295,7 +295,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.425,
+      "baseScale": 0.4434782608695652,
       "cannotDynamax": false,
       "abilities": [
         "defiant",

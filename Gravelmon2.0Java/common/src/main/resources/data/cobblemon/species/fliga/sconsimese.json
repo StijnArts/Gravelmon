@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.15,
+  "baseScale": 0.22499999999999998,
   "cannotDynamax": false,
   "abilities": [
     "quickfeet",
@@ -148,7 +148,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5286,
+  "nationalPokedexNumber": 5291,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.6,

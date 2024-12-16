@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "pidgey form=epoch",
-      "baseScale": 0.275,
+      "baseScale": 0.33,
       "cannotDynamax": false,
       "abilities": [
         "keeneye",
@@ -382,7 +382,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "pidgey form=ayreian",
-      "baseScale": 0.275,
+      "baseScale": 0.42580645161290326,
       "cannotDynamax": false,
       "abilities": [
         "flowergift",

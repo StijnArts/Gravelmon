@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "steenee form=epoch",
-      "baseScale": 0.3,
+      "baseScale": 0.3310344827586207,
       "cannotDynamax": false,
       "abilities": [
         "darkaura",
@@ -157,7 +157,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.3,
+      "baseScale": 0.3555555555555555,
       "cannotDynamax": false,
       "abilities": [
         "ironbarbs",

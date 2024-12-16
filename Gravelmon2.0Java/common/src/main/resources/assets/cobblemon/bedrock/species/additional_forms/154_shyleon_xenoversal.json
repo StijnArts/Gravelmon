@@ -6,8 +6,8 @@
       "aspects": [
         "xenoversal"
       ],
-      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_128",
+      "model": "cobblemon:cutout_gravelmon_81_by_79.geo",
+      "poser": "cobblemon:cutout_gravelmon_81_by_79",
       "texture": "cobblemon:textures/pokemon/xenoverse/shyleonxenoversal.png",
       "layers": [
         {

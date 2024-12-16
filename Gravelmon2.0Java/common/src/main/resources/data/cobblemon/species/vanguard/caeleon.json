@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.2,
+  "baseScale": 0.32542372881355935,
   "cannotDynamax": false,
   "abilities": [
     "cloudnine"
@@ -157,7 +157,7 @@
   "weight": 245,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5520,
+  "nationalPokedexNumber": 5526,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.8,

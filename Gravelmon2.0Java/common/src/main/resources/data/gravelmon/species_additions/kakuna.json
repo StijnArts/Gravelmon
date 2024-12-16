@@ -28,7 +28,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "weedle form=epoch",
-      "baseScale": 0.15,
+      "baseScale": 0.3891891891891892,
       "cannotDynamax": false,
       "abilities": [
         "shedskin",

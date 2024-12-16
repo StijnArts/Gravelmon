@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "cottoon",
-  "baseScale": 14.399999999999999,
+  "baseScale": 0.5052631578947367,
   "cannotDynamax": false,
   "abilities": [
     "swarm",

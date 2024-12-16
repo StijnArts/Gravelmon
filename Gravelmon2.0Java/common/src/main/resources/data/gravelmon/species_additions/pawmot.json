@@ -11,7 +11,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "pawmo form=epoch",
-      "baseScale": 0.225,
+      "baseScale": 0.32238805970149254,
       "cannotDynamax": false,
       "abilities": [
         "normalize",

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "scuffbill",
-  "baseScale": 0.475,
+  "baseScale": 0.5181818181818181,
   "cannotDynamax": false,
   "abilities": [
     "stakeout",
@@ -146,7 +146,7 @@
   "weight": 667,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5279,
+  "nationalPokedexNumber": 5284,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.9,

@@ -200,7 +200,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "psyduck form=epoch",
-      "baseScale": 0.425,
+      "baseScale": 0.68,
       "cannotDynamax": false,
       "abilities": [
         "synchronize"

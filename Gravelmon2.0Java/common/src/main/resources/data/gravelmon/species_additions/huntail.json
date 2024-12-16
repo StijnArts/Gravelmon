@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "clamperl form=epoch",
-      "baseScale": 0.425,
+      "baseScale": 0.558904109589041,
       "cannotDynamax": false,
       "abilities": [
         "static",

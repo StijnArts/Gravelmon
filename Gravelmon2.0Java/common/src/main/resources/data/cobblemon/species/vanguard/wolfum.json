@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.175,
+  "baseScale": 0.35,
   "cannotDynamax": false,
   "abilities": [
     "shedskin",
@@ -162,7 +162,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5493,
+  "nationalPokedexNumber": 5499,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.7,

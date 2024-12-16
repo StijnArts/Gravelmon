@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pekpek",
-  "baseScale": 0.225,
+  "baseScale": 0.28800000000000003,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -79,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7354,
+  "nationalPokedexNumber": 7360,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.9,

@@ -46,6 +46,8 @@ public class Avalos extends drai.dev.data.games.registry.Game {
         addPokedexPokemon("bellsprout-avalossian, weepinbell-avalossian, victreebel-avalossian");
 //        addNewPokemon(new Devapup());   Missing Art
 //        addNewPokemon(new Dingorous());   Missing Art
+        addNewPokemon(new Fubber());
+        addNewPokemon(new Jodoge());
         addPokedexPokemon("happiny-avalossian, chansey-avalossian, blissey-avalossian");
         addNewPokemon(new Pollutail());
         addNewPokemon(new Oiphinae());

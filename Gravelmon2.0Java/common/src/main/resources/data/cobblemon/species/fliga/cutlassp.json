@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "larvhilt",
-  "baseScale": 0.25,
+  "baseScale": 0.27586206896551724,
   "cannotDynamax": false,
   "abilities": [
     "infiltrator",
@@ -92,7 +92,7 @@
   "weight": 82,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5283,
+  "nationalPokedexNumber": 5288,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,

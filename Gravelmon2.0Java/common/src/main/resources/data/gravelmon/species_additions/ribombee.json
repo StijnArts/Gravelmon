@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "cutiefly form=epoch",
-      "baseScale": 0.1,
+      "baseScale": 0.17777777777777778,
       "cannotDynamax": false,
       "abilities": [
         "prankster",
@@ -166,7 +166,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.15737704918032788,
       "cannotDynamax": false,
       "abilities": [
         "reckless"

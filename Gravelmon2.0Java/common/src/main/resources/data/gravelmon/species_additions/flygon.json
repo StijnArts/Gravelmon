@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "vibrava form=epoch",
-      "baseScale": 0.5,
+      "baseScale": 0.5517241379310345,
       "cannotDynamax": false,
       "abilities": [
         "cloudnine",
@@ -248,7 +248,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "vibrava form=ayreian",
-      "baseScale": 0.275,
+      "baseScale": 0.3180722891566265,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"

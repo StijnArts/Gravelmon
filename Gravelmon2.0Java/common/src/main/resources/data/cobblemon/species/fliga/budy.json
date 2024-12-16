@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.25,
+  "baseScale": 0.34285714285714286,
   "cannotDynamax": false,
   "abilities": [
     "klutz",
@@ -156,7 +156,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5293,
+  "nationalPokedexNumber": 5298,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,

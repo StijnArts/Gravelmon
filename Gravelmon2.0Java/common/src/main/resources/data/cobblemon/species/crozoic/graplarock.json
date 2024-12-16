@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "rocktile",
-  "baseScale": 0.375,
+  "baseScale": 0.3913043478260869,
   "cannotDynamax": false,
   "abilities": [
     "reckless",
@@ -86,7 +86,7 @@
   "weight": 1460,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4362,
+  "nationalPokedexNumber": 4366,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.5,

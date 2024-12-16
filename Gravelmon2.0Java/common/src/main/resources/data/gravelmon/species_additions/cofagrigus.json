@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "yamask form=epoch",
-      "baseScale": 0.425,
+      "baseScale": 0.51,
       "cannotDynamax": false,
       "abilities": [
         "soundproof",
@@ -339,7 +339,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "yamask form=x",
-      "baseScale": 0.28125,
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
         "stormdrain",

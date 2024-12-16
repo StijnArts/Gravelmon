@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "stufful form=epoch",
-      "baseScale": 0.525,
+      "baseScale": 0.7200000000000001,
       "cannotDynamax": false,
       "abilities": [
         "infiltrator",

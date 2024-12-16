@@ -6,8 +6,8 @@
       "aspects": [
         "astral"
       ],
-      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_128",
+      "model": "cobblemon:cutout_gravelmon_95_by_98.geo",
+      "poser": "cobblemon:cutout_gravelmon_95_by_98",
       "texture": "cobblemon:textures/pokemon/xenoverse/shulongastral.png",
       "layers": [
         {

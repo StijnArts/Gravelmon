@@ -119,7 +119,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "klink form=epoch",
-      "baseScale": 0.15,
+      "baseScale": 0.21176470588235294,
       "cannotDynamax": false,
       "abilities": [
         "levitate",

@@ -7,7 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.225,
+  "baseScale": 0.432,
   "cannotDynamax": false,
   "abilities": [
     "torrent",
@@ -103,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5273,
+  "nationalPokedexNumber": 5278,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.9,

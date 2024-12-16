@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "natu form=epoch",
-      "baseScale": 0.375,
+      "baseScale": 0.6545454545454545,
       "cannotDynamax": false,
       "abilities": [
         "battery",

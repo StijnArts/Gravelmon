@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "budy",
-  "baseScale": 0.6,
+  "baseScale": 0.6776470588235294,
   "cannotDynamax": false,
   "abilities": [
     "damp",
@@ -144,7 +144,7 @@
   "weight": 5765,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5294,
+  "nationalPokedexNumber": 5299,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4,

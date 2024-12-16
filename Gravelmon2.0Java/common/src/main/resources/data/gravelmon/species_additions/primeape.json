@@ -38,7 +38,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "mankey form=epoch",
-      "baseScale": 0.25,
+      "baseScale": 0.38095238095238093,
       "cannotDynamax": false,
       "abilities": [
         "angerpoint",

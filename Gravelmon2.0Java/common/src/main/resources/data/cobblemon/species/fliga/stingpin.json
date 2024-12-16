@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.425,
+  "baseScale": 0.558904109589041,
   "cannotDynamax": false,
   "abilities": [
     "hustle",
@@ -92,7 +92,7 @@
   "weight": 827,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5338,
+  "nationalPokedexNumber": 5345,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.7,

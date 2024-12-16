@@ -109,7 +109,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.125,
+      "baseScale": 0.35294117647058826,
       "cannotDynamax": false,
       "abilities": [
         "motordrive",
@@ -282,7 +282,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.125,
+      "baseScale": 0.2926829268292683,
       "cannotDynamax": false,
       "abilities": [
         "refrigerate",
@@ -912,7 +912,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.125,
+      "baseScale": 0.2608695652173913,
       "cannotDynamax": false,
       "abilities": [
         "drought",

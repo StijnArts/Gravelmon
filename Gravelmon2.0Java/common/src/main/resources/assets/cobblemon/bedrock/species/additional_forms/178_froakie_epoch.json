@@ -6,8 +6,8 @@
       "aspects": [
         "epoch"
       ],
-      "model": "cobblemon:cutout_gravelmon_96_by_96.geo",
-      "poser": "cobblemon:cutout_gravelmon_96_by_96",
+      "model": "cobblemon:cutout_gravelmon_45_by_37.geo",
+      "poser": "cobblemon:cutout_gravelmon_45_by_37",
       "texture": "cobblemon:textures/pokemon/generation6/epochfroakie.png",
       "layers": [
         {

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "aqualisk",
-  "baseScale": 0.25,
+  "baseScale": 0.3116883116883117,
   "cannotDynamax": false,
   "abilities": [
     "torrent",

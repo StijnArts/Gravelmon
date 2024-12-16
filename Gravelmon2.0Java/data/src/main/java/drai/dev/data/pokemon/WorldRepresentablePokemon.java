@@ -26,6 +26,8 @@ public abstract class WorldRepresentablePokemon {
     protected boolean hasSeparateFemaleModel;
     private final SpeciesFileData speciesFileData = new SpeciesFileData();
     private final PosingFileData posingFileData = new PosingFileData();
+    private final PosingFileData femalePosingFileData = new PosingFileData();
+
     protected void processPokemonAssets(AbstractPokemon abstractPokemon, String resourcesDir, boolean hasGenderDifferences){
         textureDirectory = findTextureDirectory(abstractPokemon, resourcesDir);
         if(!isModeled()){
@@ -35,10 +37,15 @@ public abstract class WorldRepresentablePokemon {
 //            recalculateXYZOffsets(factor);
             posingFileData.animations.add(new AnimationData("profile", List.of(PoseType.PROFILE), List.of("pc_fix"), List.of(), 10));
             posingFileData.animations.add(new AnimationData("portrait", List.of(PoseType.NONE, PoseType.PORTRAIT), List.of("summary_fix"), List.of(), 10));
-            ModelJsonWriter.writeModel(abstractPokemon, getPlaceholderImageHeight(abstractPokemon), getPlaceholderImageWidth(abstractPokemon), resourcesDir);
+            ModelJsonWriter.writeModel(abstractPokemon, getPlaceholderImageWidth(abstractPokemon), getPlaceholderImageHeight(abstractPokemon), resourcesDir, false);
 
             if(femalePlaceholderImage != null) {
-                ModelJsonWriter.writeModel(abstractPokemon, getFemalePlaceholderImageHeight(abstractPokemon), getFemalePlaceholderImageWidth(abstractPokemon), resourcesDir);
+                double femaleSizeFactor = 96d / getFemalePlaceholderMaxSideSize(abstractPokemon);
+                femalePosingFileData.portraitScale *= femaleSizeFactor;
+                femalePosingFileData.profileScale *= femaleSizeFactor;
+                femalePosingFileData.animations.add(new AnimationData("profile", List.of(PoseType.PROFILE), List.of("pc_fix"), List.of(), 10));
+                femalePosingFileData.animations.add(new AnimationData("portrait", List.of(PoseType.NONE, PoseType.PORTRAIT), List.of("summary_fix"), List.of(), 10));
+                ModelJsonWriter.writeModel(abstractPokemon, getFemalePlaceholderImageWidth(abstractPokemon), getFemalePlaceholderImageHeight(abstractPokemon), resourcesDir, true);
             }
         } else {
             abstractPokemon.labels.remove(Label.NOT_MODELED);
@@ -107,6 +114,9 @@ public abstract class WorldRepresentablePokemon {
 
     private void recalculateScales(AbstractPokemon abstractPokemon, double factor) {
         abstractPokemon.setBaseScale(abstractPokemon.baseScale * factor);
+        double newHitboxWidth = Math.min(6 * factor, 3);
+        double newHitboxHeight =  Math.min(6 * factor, 3);
+        abstractPokemon.setHitbox(newHitboxWidth, newHitboxHeight);
         posingFileData.portraitScale *= factor;
         posingFileData.profileScale *= factor;
     }
@@ -215,11 +225,17 @@ public abstract class WorldRepresentablePokemon {
         return speciesFileData;
     }
 
+    public PosingFileData getPosingFileData(boolean isFemaleModel) {
+        if(isFemaleModel) return femalePosingFileData;
+        return getPosingFileData();
+    }
+
     public PosingFileData getPosingFileData() {
         return posingFileData;
     }
 
-    public String getPlaceholderModelName(AbstractPokemon abstractPokemon) {
+    public String getPlaceholderModelName(AbstractPokemon abstractPokemon, boolean isFemaleModel) {
+        if(isFemaleModel) return getFemalePlaceholderModelName(abstractPokemon);
         return "cutout_gravelmon_" + getPlaceholderImageWidth(abstractPokemon) +"_by_" + getPlaceholderImageHeight(abstractPokemon);
     }
 

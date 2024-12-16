@@ -1,6 +1,5 @@
 package drai.dev.data.pokemon.vega;
 
-import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
 import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;

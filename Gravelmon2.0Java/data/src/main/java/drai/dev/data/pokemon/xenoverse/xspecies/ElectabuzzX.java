@@ -6,8 +6,6 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 
-import java.util.*;
-
 public class ElectabuzzX extends Pokemon {
     public ElectabuzzX(String name, Aspect aspect) {
         super(name, aspect,"ElectabuzzX",

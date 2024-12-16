@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "kirlia form=epoch",
-      "baseScale": 0.4,
+      "baseScale": 0.512,
       "cannotDynamax": false,
       "abilities": [
         "serenegrace",
@@ -169,7 +169,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "kirlia form=avalossian",
-      "baseScale": 0.4,
+      "baseScale": 0.4740740740740741,
       "cannotDynamax": false,
       "abilities": [
         "innerfocus",
@@ -520,7 +520,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.4,
+      "baseScale": 0.45714285714285713,
       "cannotDynamax": false,
       "abilities": [
         "galewings",

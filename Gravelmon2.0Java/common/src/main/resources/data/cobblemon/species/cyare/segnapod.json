@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "slimug",
-  "baseScale": 0.225,
+  "baseScale": 0.30422535211267604,
   "cannotDynamax": false,
   "abilities": [
     "dryskin",
@@ -77,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7427,
+  "nationalPokedexNumber": 7433,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.9,

@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "swirlix form=epoch",
-      "baseScale": 0.2,
+      "baseScale": 0.26301369863013696,
       "cannotDynamax": false,
       "abilities": [
         "keeneye",
@@ -156,7 +156,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.2,
+      "baseScale": 0.3490909090909091,
       "cannotDynamax": false,
       "abilities": [
         "sweetveil",
@@ -257,7 +257,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "swirlix form=x",
-      "baseScale": 0.15000000000000002,
+      "baseScale": 0.32000000000000006,
       "cannotDynamax": false,
       "abilities": [
         "poisontouch",

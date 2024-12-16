@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "dwebble form=ayreian",
-  "baseScale": 0.35,
+  "baseScale": 0.36521739130434777,
   "cannotDynamax": false,
   "abilities": [
     "raindish",
@@ -143,7 +143,7 @@
   "weight": 2000,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5496,
+  "nationalPokedexNumber": 5502,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.4,

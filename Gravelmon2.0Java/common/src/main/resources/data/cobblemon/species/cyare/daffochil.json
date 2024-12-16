@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "flurrilli",
-  "baseScale": 0.15,
+  "baseScale": 0.29387755102040813,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -90,7 +90,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 7351,
+  "nationalPokedexNumber": 7357,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.6,

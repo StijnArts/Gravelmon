@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "miniclod",
-  "baseScale": 0.575,
+  "baseScale": 0.657142857142857,
   "cannotDynamax": false,
   "abilities": [
     "cloudnine",
@@ -94,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4358,
+  "nationalPokedexNumber": 4362,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.3,

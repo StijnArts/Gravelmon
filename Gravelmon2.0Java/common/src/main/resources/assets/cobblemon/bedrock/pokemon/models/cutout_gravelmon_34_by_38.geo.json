@@ -4,13 +4,13 @@
     {
       "description": {
         "identifier": "geometry.substitute",
-        "texture_width": 38,
-        "texture_height": 34,
-        "visible_bounds_width": 3.5625,
-        "visible_bounds_height": 3.6523438,
+        "texture_width": 34,
+        "texture_height": 38,
+        "visible_bounds_width": 3.1875,
+        "visible_bounds_height": 4.0820312,
         "visible_bounds_offset": [
           0,
-          0.5644531,
+          0.6308594,
           0
         ]
       },
@@ -34,13 +34,13 @@
           "cubes": [
             {
               "origin": [
-                -19,
+                -17,
                 -1,
                 0
               ],
               "size": [
-                38,
                 34,
+                38,
                 0
               ],
               "uv": [
@@ -50,13 +50,13 @@
             },
             {
               "origin": [
-                -19,
+                -17,
                 -1,
                 0
               ],
               "size": [
-                38,
                 34,
+                38,
                 0
               ],
               "uv": [

@@ -218,7 +218,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.175,
+      "baseScale": 0.31111111111111106,
       "cannotDynamax": false,
       "abilities": [
         "dazzling"
@@ -382,7 +382,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.175,
+      "baseScale": 0.3428571428571428,
       "cannotDynamax": false,
       "abilities": [
         "insomnia",
@@ -545,7 +545,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.175,
+      "baseScale": 0.3428571428571428,
       "cannotDynamax": false,
       "abilities": [
         "insomnia",

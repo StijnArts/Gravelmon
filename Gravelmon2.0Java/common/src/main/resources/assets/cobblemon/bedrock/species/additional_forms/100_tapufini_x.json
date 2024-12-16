@@ -6,8 +6,8 @@
       "aspects": [
         "x"
       ],
-      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_128",
+      "model": "cobblemon:cutout_gravelmon_73_by_70.geo",
+      "poser": "cobblemon:cutout_gravelmon_73_by_70",
       "texture": "cobblemon:textures/pokemon/generation7/tapufinix.png",
       "layers": [
         {

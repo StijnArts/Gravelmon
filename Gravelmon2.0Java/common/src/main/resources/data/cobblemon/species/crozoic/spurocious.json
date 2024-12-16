@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sharpunk",
-  "baseScale": 0.425,
+  "baseScale": 0.5368421052631579,
   "cannotDynamax": false,
   "abilities": [
     "sandforce",
@@ -84,7 +84,7 @@
   "weight": 1324,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4365,
+  "nationalPokedexNumber": 4370,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.7,

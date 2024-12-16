@@ -6,8 +6,8 @@
       "aspects": [
         "ayreian"
       ],
-      "model": "cobblemon:cutout_gravelmon_96_by_96.geo",
-      "poser": "cobblemon:cutout_gravelmon_96_by_96",
+      "model": "cobblemon:cutout_gravelmon_39_by_48.geo",
+      "poser": "cobblemon:cutout_gravelmon_39_by_48",
       "texture": "cobblemon:textures/pokemon/generation4/ayreianmunchlax.png",
       "layers": [
         {

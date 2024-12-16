@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.575,
+  "baseScale": 0.8117647058823529,
   "cannotDynamax": false,
   "abilities": [
     "thickfat",
@@ -139,7 +139,7 @@
   "weight": 120,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5527,
+  "nationalPokedexNumber": 5533,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.3,

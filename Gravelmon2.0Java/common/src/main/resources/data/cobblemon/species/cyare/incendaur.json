@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "brumbolt",
-  "baseScale": 0.425,
+  "baseScale": 0.5513513513513514,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -79,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7429,
+  "nationalPokedexNumber": 7435,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.7,

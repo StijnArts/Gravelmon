@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "aipom form=avalossian",
-  "baseScale": 0.3,
+  "baseScale": 0.36923076923076925,
   "cannotDynamax": false,
   "abilities": [
     "gorillatactics",
@@ -111,7 +111,7 @@
   "weight": 203,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5300,
+  "nationalPokedexNumber": 5307,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.2,

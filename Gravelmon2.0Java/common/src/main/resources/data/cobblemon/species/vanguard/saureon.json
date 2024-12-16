@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.4,
+  "baseScale": 0.5907692307692308,
   "cannotDynamax": false,
   "abilities": [
     "thermalexchange"
@@ -160,7 +160,7 @@
   "weight": 1250,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5521,
+  "nationalPokedexNumber": 5527,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.6,

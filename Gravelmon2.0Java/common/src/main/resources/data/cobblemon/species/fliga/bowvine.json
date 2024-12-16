@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.425,
+  "baseScale": 0.5913043478260869,
   "cannotDynamax": false,
   "abilities": [
     "reckless",
@@ -88,7 +88,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5337,
+  "nationalPokedexNumber": 5344,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.7,

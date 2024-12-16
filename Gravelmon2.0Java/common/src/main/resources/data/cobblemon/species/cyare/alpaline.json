@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "froskie",
-  "baseScale": 0.35,
+  "baseScale": 0.4869565217391304,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -75,7 +75,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7347,
+  "nationalPokedexNumber": 7353,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.4,

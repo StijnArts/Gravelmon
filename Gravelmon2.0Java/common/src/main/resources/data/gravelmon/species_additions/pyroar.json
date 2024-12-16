@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "litleo form=epoch",
-      "baseScale": 0.375,
+      "baseScale": 0.4675324675324675,
       "cannotDynamax": false,
       "abilities": [
         "intimidate"
@@ -241,10 +241,163 @@
         "height": 1.5,
         "fixed": false
       }
+    },
+    {
+      "name": "Ayreian",
+      "primaryType": "poison",
+      "secondaryType": "normal",
+      "catchRate": 65,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "litleo form=ayreian",
+      "baseScale": 0.4675324675324675,
+      "cannotDynamax": false,
+      "abilities": [
+        "poisontouch",
+        "rattled"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 86,
+        "attack": 109,
+        "defence": 66,
+        "special_attack": 106,
+        "special_defence": 68,
+        "speed": 72
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:skittersmack",
+        "1:tackle",
+        "1:leer",
+        "38:poisonjab",
+        "57:direclaw",
+        "28:slash",
+        "48:hypervoice",
+        "42:crunch",
+        "51:doubleedge",
+        "20:takedown",
+        "5:poisongas",
+        "11:headbutt",
+        "8:workup",
+        "33:firefang",
+        "23:poisonfang",
+        "1:gigaimpact",
+        "15:nobleroar",
+        "tm:beatup",
+        "tm:bodyslam",
+        "tm:bounce",
+        "tm:bulldoze",
+        "tm:burningjealousy",
+        "tm:charm",
+        "tm:crosspoison",
+        "tm:crunch",
+        "tm:darkpulse",
+        "tm:dig",
+        "tm:echoedvoice",
+        "tm:endeavor",
+        "tm:firefang",
+        "tm:focusenergy",
+        "tm:foulplay",
+        "tm:gunkshot",
+        "tm:headbutt",
+        "tm:helpinghand",
+        "tm:honeclaws",
+        "tm:hyperbeam",
+        "tm:hypervoice",
+        "tm:irontail",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:metalclaw",
+        "tm:mudshot",
+        "tm:overheat",
+        "tm:payback",
+        "tm:poisontail",
+        "tm:raindance",
+        "tm:retaliate",
+        "tm:revenge",
+        "tm:roar",
+        "tm:rocksmash",
+        "tm:scaryface",
+        "tm:sludgebomb",
+        "tm:snarl",
+        "tm:snatch",
+        "tm:solarbeam",
+        "tm:strength",
+        "tm:sunnyday",
+        "tm:tailslap",
+        "tm:takedown",
+        "tm:taunt",
+        "tm:thief",
+        "tm:toxic",
+        "tm:wildcharge",
+        "tm:workup"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianpyroar.desc"
+      ],
+      "height": 15,
+      "weight": 815,
+      "aspects": [
+        "ayreian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 1.5,
+        "height": 1.5,
+        "fixed": false
+      }
     }
   ],
   "features": [
     "epoch",
-    "hizian"
+    "hizian",
+    "ayreian"
   ]
 }

@@ -594,6 +594,27 @@ public class GravelmonFossilItems {
             ),
             "six_wing_fossil",
             "oxygryph");
+    public static RegistrySupplier<Item> TRACKING_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.SUSPICIOUS_MOUND.uncommon(),
+                    BaseCobblemonDigSites.LUSH_DEN.uncommon()
+            ),
+            "tracking_fossil",
+            "gorgonox");
+    public static RegistrySupplier<Item> KING_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.SANDY_DEN.uncommon(),
+                    BaseCobblemonDigSites.POWDERED_DEPOSIT.uncommon()
+            ),
+            "king_fossil",
+            "toraiking");
+    public static RegistrySupplier<Item> QUEEN_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.SANDY_DEN.uncommon(),
+                    BaseCobblemonDigSites.POWDERED_DEPOSIT.uncommon()
+            ),
+            "queen_fossil",
+            "toraiqueen");
     public static RegistrySupplier<Item> MOHAWK_FOSSIL = fossilItem(
             List.of(
                     BaseCobblemonDigSites.ENHYDRO_AGATE.uncommon(),

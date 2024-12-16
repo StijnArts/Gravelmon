@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.2,
+  "baseScale": 0.28235294117647064,
   "cannotDynamax": false,
   "abilities": [
     "scrappy"
@@ -154,7 +154,7 @@
   "weight": 650,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5517,
+  "nationalPokedexNumber": 5523,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.8,

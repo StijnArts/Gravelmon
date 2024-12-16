@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.25,
+  "baseScale": 0.3333333333333333,
   "cannotDynamax": false,
   "abilities": [
     "effectspore"
@@ -157,7 +157,7 @@
   "weight": 255,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5523,
+  "nationalPokedexNumber": 5529,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,

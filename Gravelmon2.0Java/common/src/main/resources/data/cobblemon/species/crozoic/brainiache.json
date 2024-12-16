@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "brainibash",
-  "baseScale": 0.4,
+  "baseScale": 0.518918918918919,
   "cannotDynamax": false,
   "abilities": [
     "rockhead",
@@ -173,7 +173,7 @@
   "weight": 980,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4327,
+  "nationalPokedexNumber": 4329,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.6,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "kooragant",
-  "baseScale": 0.2,
+  "baseScale": 0.3047619047619048,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -79,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7365,
+  "nationalPokedexNumber": 7371,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.8,

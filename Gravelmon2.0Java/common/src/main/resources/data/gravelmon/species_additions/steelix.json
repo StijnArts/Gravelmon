@@ -102,7 +102,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "onix form=epoch",
-      "baseScale": 2.3,
+      "baseScale": 2.944,
       "cannotDynamax": false,
       "abilities": [
         "icebody",

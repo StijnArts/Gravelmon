@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "remoraid form=epoch",
-      "baseScale": 0.225,
+      "baseScale": 0.4153846153846154,
       "cannotDynamax": false,
       "abilities": [
         "suctioncups",

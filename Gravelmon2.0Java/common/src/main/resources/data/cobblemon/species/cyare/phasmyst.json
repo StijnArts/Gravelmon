@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "frospine",
-  "baseScale": 0.225,
+  "baseScale": 0.39999999999999997,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -92,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 7457,
+  "nationalPokedexNumber": 7463,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.9,

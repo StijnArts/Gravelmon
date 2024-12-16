@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "gallostone",
-  "baseScale": 0.75,
+  "baseScale": 0.8,
   "cannotDynamax": false,
   "abilities": [
     "illuminate",
@@ -147,7 +147,7 @@
   "weight": 3321,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5299,
+  "nationalPokedexNumber": 5306,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

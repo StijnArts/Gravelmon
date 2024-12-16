@@ -6,8 +6,6 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 
-import java.util.*;
-
 public class GalvantulaX extends Pokemon {
     public GalvantulaX(String name, Aspect aspect) {
         super(name, aspect,"GalvantulaX",

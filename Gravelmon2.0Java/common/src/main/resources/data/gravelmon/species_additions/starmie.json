@@ -24,7 +24,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "staryu form=epoch",
-      "baseScale": 0.275,
+      "baseScale": 0.49811320754716987,
       "cannotDynamax": false,
       "abilities": [
         "synchronize",

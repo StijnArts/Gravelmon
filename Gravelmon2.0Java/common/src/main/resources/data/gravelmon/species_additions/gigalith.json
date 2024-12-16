@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "boldore form=epoch",
-      "baseScale": 0.425,
+      "baseScale": 0.51,
       "cannotDynamax": false,
       "abilities": [
         "icebody",
@@ -149,7 +149,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.425,
+      "baseScale": 0.4434782608695652,
       "cannotDynamax": false,
       "abilities": [
         "magnetpull",

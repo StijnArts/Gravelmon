@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pollutail",
-  "baseScale": 0.25,
+  "baseScale": 0.5,
   "cannotDynamax": false,
   "abilities": [
     "dryskin",
@@ -108,7 +108,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5296,
+  "nationalPokedexNumber": 5303,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,

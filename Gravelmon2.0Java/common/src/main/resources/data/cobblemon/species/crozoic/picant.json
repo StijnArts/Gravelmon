@@ -8,7 +8,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "baseScale": 0.26666666666666666,
   "cannotDynamax": false,
   "abilities": [
     "swarm",
@@ -42,12 +42,12 @@
     }
   },
   "baseStats": {
-    "hp": 25,
-    "attack": 61,
-    "defence": 27,
-    "special_attack": 11,
-    "special_defence": 27,
-    "speed": 54
+    "hp": 29,
+    "attack": 68,
+    "defence": 30,
+    "special_attack": 13,
+    "special_defence": 30,
+    "speed": 60
   },
   "evYield": {
     "hp": 0,
@@ -93,7 +93,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4319,
+  "nationalPokedexNumber": 4321,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.3,

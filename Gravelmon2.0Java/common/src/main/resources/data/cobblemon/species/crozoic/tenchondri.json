@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "tenkoi",
-  "baseScale": 0.35,
+  "baseScale": 0.3952941176470588,
   "cannotDynamax": false,
   "abilities": [
     "defiant",
@@ -81,7 +81,7 @@
   "weight": 810,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4392,
+  "nationalPokedexNumber": 4397,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.4,

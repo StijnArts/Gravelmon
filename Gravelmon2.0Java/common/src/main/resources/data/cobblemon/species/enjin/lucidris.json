@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sloggin",
-  "baseScale": 0.175,
+  "baseScale": 0.3054545454545454,
   "cannotDynamax": false,
   "abilities": [
     "stickyhold",
@@ -120,7 +120,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6421,
+  "nationalPokedexNumber": 6430,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.7,

@@ -99,7 +99,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "riolu form=epoch",
-      "baseScale": 0.3,
+      "baseScale": 0.41739130434782606,
       "cannotDynamax": false,
       "abilities": [
         "magicbounce"
@@ -469,7 +469,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.275,
+      "baseScale": 0.4,
       "cannotDynamax": false,
       "abilities": [
         "infiltrator",

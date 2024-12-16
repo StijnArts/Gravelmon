@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "lairon form=epoch",
-      "baseScale": 0.525,
+      "baseScale": 0.6545454545454545,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
@@ -527,7 +527,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "lairon form=ayreian",
-      "baseScale": 0.225,
+      "baseScale": 0.2297872340425532,
       "cannotDynamax": false,
       "abilities": [
         "sheerforce",

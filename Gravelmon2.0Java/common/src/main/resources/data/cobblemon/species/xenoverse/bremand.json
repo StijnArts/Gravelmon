@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 32,
   "baseFriendship": 70,
-  "baseScale": 0.09375,
+  "baseScale": 0.16216216216216217,
   "cannotDynamax": false,
   "abilities": [
     "moldbreaker"
@@ -139,7 +139,7 @@
       "experienceGroup": "slow",
       "eggCycles": 32,
       "baseFriendship": 70,
-      "baseScale": 0.0703125,
+      "baseScale": 0.21325435024065162,
       "cannotDynamax": false,
       "abilities": [
         "moldbreaker"
@@ -258,7 +258,7 @@
       "experienceGroup": "slow",
       "eggCycles": 32,
       "baseFriendship": 70,
-      "baseScale": 0.0703125,
+      "baseScale": 0.19705781731098188,
       "cannotDynamax": false,
       "abilities": [
         "moldbreaker"
@@ -377,7 +377,7 @@
       "experienceGroup": "slow",
       "eggCycles": 32,
       "baseFriendship": 70,
-      "baseScale": 0.0703125,
+      "baseScale": 0.1921921921921922,
       "cannotDynamax": false,
       "abilities": [
         "moldbreaker"

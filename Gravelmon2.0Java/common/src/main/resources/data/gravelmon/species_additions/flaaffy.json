@@ -113,7 +113,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "mareep form=epoch",
-      "baseScale": 0.2,
+      "baseScale": 0.3764705882352941,
       "cannotDynamax": false,
       "abilities": [
         "aromaveil",

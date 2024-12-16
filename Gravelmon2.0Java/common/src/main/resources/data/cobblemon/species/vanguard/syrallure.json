@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sylure",
-  "baseScale": 0.275,
+  "baseScale": 0.36164383561643837,
   "cannotDynamax": false,
   "abilities": [
     "unaware",
@@ -170,7 +170,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5498,
+  "nationalPokedexNumber": 5504,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.1,

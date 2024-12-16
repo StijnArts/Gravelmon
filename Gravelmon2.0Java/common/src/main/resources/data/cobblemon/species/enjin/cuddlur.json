@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "waddlur",
-  "baseScale": 0.45,
+  "baseScale": 0.7081967213114754,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -202,7 +202,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6447,
+  "nationalPokedexNumber": 6456,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.8,

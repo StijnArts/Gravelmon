@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.275,
+  "baseScale": 0.41904761904761906,
   "cannotDynamax": false,
   "abilities": [
     "mirrorarmor"
@@ -145,7 +145,7 @@
   "weight": 950,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5518,
+  "nationalPokedexNumber": 5524,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.1,

@@ -33,7 +33,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.25,
+      "baseScale": 0.5217391304347826,
       "cannotDynamax": false,
       "abilities": [
         "icebody",
@@ -182,7 +182,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.25,
+      "baseScale": 0.42105263157894735,
       "cannotDynamax": false,
       "abilities": [
         "levitate"

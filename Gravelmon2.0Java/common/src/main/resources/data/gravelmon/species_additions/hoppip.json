@@ -111,7 +111,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.2742857142857143,
       "cannotDynamax": false,
       "abilities": [
         "levitate",
@@ -273,7 +273,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.16842105263157894,
       "cannotDynamax": false,
       "abilities": [
         "shielddust",
@@ -448,7 +448,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.16551724137931034,
       "cannotDynamax": false,
       "abilities": [
         "prankster"

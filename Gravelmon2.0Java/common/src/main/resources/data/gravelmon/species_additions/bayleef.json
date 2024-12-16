@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "chikorita form=epoch",
-      "baseScale": 0.3,
+      "baseScale": 0.47213114754098356,
       "cannotDynamax": false,
       "abilities": [
         "immunity",
@@ -175,7 +175,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.3,
+      "baseScale": 0.46451612903225803,
       "cannotDynamax": false,
       "abilities": [
         "lightningrod",
@@ -640,7 +640,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "chikorita form=ayreian",
-      "baseScale": 0.3,
+      "baseScale": 0.4571428571428571,
       "cannotDynamax": false,
       "abilities": [
         "pixilate",

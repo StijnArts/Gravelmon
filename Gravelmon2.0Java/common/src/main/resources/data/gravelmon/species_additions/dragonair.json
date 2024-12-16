@@ -250,7 +250,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "dratini form=epoch",
-      "baseScale": 1.0,
+      "baseScale": 1.411764705882353,
       "cannotDynamax": false,
       "abilities": [
         "dazzling",
@@ -718,7 +718,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 1.0,
+      "baseScale": 1.263157894736842,
       "cannotDynamax": false,
       "abilities": [
         "innerfocus"

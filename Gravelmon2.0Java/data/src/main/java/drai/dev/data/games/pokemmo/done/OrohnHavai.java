@@ -101,6 +101,7 @@ public class OrohnHavai extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Wicktrive());
         addNewPokemon(new Winklit());
         addNewPokemon(new Gleamur());
+        addPokedexPokemon("pichu, pikachu, raichu");
         addNewPokemon(new Pixiechu());
         var chemecko = new Chemecko();
         addNewPokemon(chemecko);

@@ -298,7 +298,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.125,
+      "baseScale": 0.2553191489361702,
       "cannotDynamax": false,
       "abilities": [
         "marvelscale",

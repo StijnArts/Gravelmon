@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "gossnow",
-  "baseScale": 0.575,
+  "baseScale": 0.6,
   "cannotDynamax": false,
   "abilities": [
     "snowcloak",
@@ -164,7 +164,7 @@
   "weight": 1350,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6445,
+  "nationalPokedexNumber": 6454,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.3,

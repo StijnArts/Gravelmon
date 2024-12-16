@@ -1,5 +1,21 @@
 {
   "target": "cobblemon:appletun",
+  "evolutions": [
+    {
+      "id": "appletun_applidun",
+      "variant": "level_up",
+      "result": "applidun",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "dragoncheer"
+        }
+      ],
+      "permanent": true
+    }
+  ],
   "forms": [
     {
       "name": "Epoch",
@@ -12,7 +28,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "applin form=epoch",
-      "baseScale": 1.1,
+      "baseScale": 1.4080000000000001,
       "cannotDynamax": false,
       "abilities": [
         "oblivious",

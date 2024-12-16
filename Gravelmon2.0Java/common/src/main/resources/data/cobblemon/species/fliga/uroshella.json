@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "repteptile",
-  "baseScale": 0.425,
+  "baseScale": 0.48,
   "cannotDynamax": false,
   "abilities": [
     "keeneye",
@@ -91,7 +91,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5328,
+  "nationalPokedexNumber": 5335,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.7,

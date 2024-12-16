@@ -112,7 +112,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.125,
+      "baseScale": 0.2222222222222222,
       "cannotDynamax": false,
       "abilities": [
         "flamebody",
@@ -277,7 +277,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.125,
+      "baseScale": 0.2857142857142857,
       "cannotDynamax": false,
       "abilities": [
         "tintedlens",
@@ -442,7 +442,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.125,
+      "baseScale": 0.24489795918367346,
       "cannotDynamax": false,
       "abilities": [
         "keeneye",

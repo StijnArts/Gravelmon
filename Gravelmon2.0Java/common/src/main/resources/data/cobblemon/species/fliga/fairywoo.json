@@ -8,7 +8,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.125,
+  "baseScale": 0.3076923076923077,
   "cannotDynamax": false,
   "abilities": [
     "cutecharm",
@@ -156,7 +156,7 @@
   "weight": 3,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5320,
+  "nationalPokedexNumber": 5327,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.5,

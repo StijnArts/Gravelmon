@@ -9,7 +9,7 @@
   "eggCycles": 39,
   "baseFriendship": 70,
   "preEvolution": "stantler form=ayreian",
-  "baseScale": 0.5,
+  "baseScale": 0.5161290322580645,
   "cannotDynamax": false,
   "abilities": [
     "intimidate",
@@ -160,7 +160,7 @@
   "weight": 1212,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5495,
+  "nationalPokedexNumber": 5501,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.0,

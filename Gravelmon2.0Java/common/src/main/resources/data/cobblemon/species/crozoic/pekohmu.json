@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.225,
+  "baseScale": 0.44081632653061226,
   "cannotDynamax": false,
   "abilities": [
     "static"
@@ -120,7 +120,7 @@
   "weight": 65,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4323,
+  "nationalPokedexNumber": 4325,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.9,

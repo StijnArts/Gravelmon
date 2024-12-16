@@ -203,7 +203,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "poliwag form=epoch",
-      "baseScale": 0.25,
+      "baseScale": 0.4067796610169492,
       "cannotDynamax": false,
       "abilities": [
         "dryskin",

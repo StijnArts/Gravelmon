@@ -11,7 +11,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "surskit form=epoch",
-      "baseScale": 0.2,
+      "baseScale": 0.29090909090909095,
       "cannotDynamax": false,
       "abilities": [
         "intimidate",
@@ -156,7 +156,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.2,
+      "baseScale": 0.26301369863013696,
       "cannotDynamax": false,
       "abilities": [
         "flowerveil",

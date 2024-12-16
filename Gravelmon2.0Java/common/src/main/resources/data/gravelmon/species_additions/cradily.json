@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "lileep form=epoch",
-      "baseScale": 0.375,
+      "baseScale": 0.45569620253164556,
       "cannotDynamax": false,
       "abilities": [
         "airlock",

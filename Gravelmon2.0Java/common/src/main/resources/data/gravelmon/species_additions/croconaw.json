@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "totodile form=epoch",
-      "baseScale": 0.275,
+      "baseScale": 0.4474576271186441,
       "cannotDynamax": false,
       "abilities": [
         "dryskin",
@@ -193,7 +193,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.275,
+      "baseScale": 0.48000000000000004,
       "cannotDynamax": false,
       "abilities": [
         "strongjaw",
@@ -675,7 +675,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "totodile form=ayreian",
-      "baseScale": 0.275,
+      "baseScale": 0.3882352941176471,
       "cannotDynamax": false,
       "abilities": [
         "toughclaws",

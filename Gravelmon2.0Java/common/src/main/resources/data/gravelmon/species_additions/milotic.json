@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "feebas form=epoch",
-      "baseScale": 1.55,
+      "baseScale": 1.8835443037974684,
       "cannotDynamax": false,
       "abilities": [
         "wonderskin",
@@ -169,7 +169,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 1.55,
+      "baseScale": 1.9578947368421051,
       "cannotDynamax": false,
       "abilities": [
         "dryskin"

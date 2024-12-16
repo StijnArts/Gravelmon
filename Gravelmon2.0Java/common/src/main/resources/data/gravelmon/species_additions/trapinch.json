@@ -50,7 +50,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.175,
+      "baseScale": 0.3733333333333333,
       "cannotDynamax": false,
       "abilities": [
         "cloudnine",
@@ -317,7 +317,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.175,
+      "baseScale": 0.3733333333333333,
       "cannotDynamax": false,
       "abilities": [
         "corrosion"

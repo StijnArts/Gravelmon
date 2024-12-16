@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "toxel form=epoch",
-      "baseScale": 0.4,
+      "baseScale": 0.4740740740740741,
       "cannotDynamax": false,
       "abilities": [
         "rockhead",

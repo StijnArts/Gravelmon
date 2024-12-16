@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "beani",
-  "baseScale": 0.425,
+  "baseScale": 0.49756097560975604,
   "cannotDynamax": false,
   "abilities": [
     "waterabsorb",
@@ -97,7 +97,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5285,
+  "nationalPokedexNumber": 5290,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.7,

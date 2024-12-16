@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "graveler form=epoch",
-      "baseScale": 0.425,
+      "baseScale": 0.6476190476190475,
       "cannotDynamax": false,
       "abilities": [
         "steamengine",
@@ -161,7 +161,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.425,
+      "baseScale": 0.5666666666666667,
       "cannotDynamax": false,
       "abilities": [
         "shadowshield",

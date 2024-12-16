@@ -6,8 +6,8 @@
       "aspects": [
         "ground"
       ],
-      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_128",
+      "model": "cobblemon:cutout_gravelmon_37_by_50.geo",
+      "poser": "cobblemon:cutout_gravelmon_37_by_50",
       "texture": "cobblemon:textures/pokemon/xenoverse/ground.png",
       "layers": [
         {

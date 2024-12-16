@@ -184,7 +184,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "hoothoot form=epoch",
-      "baseScale": 0.4,
+      "baseScale": 0.5485714285714286,
       "cannotDynamax": false,
       "abilities": [
         "dazzling"
@@ -328,7 +328,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.4,
+      "baseScale": 0.573134328358209,
       "cannotDynamax": false,
       "abilities": [
         "insomnia",
@@ -471,7 +471,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "hoothoot form=enjinnian",
-      "baseScale": 0.4,
+      "baseScale": 0.573134328358209,
       "cannotDynamax": false,
       "abilities": [
         "insomnia",

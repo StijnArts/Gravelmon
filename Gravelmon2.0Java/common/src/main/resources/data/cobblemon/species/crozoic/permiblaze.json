@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.475,
+  "baseScale": 0.6,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -80,7 +80,7 @@
   "weight": 1560,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4403,
+  "nationalPokedexNumber": 4408,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.9,

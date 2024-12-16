@@ -6,8 +6,8 @@
       "aspects": [
         "dragon"
       ],
-      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_128",
+      "model": "cobblemon:cutout_gravelmon_35_by_57.geo",
+      "poser": "cobblemon:cutout_gravelmon_35_by_57",
       "texture": "cobblemon:textures/pokemon/xenoverse/dragon.png",
       "layers": [
         {

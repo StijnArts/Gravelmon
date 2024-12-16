@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "tepig form=epoch",
-      "baseScale": 0.25,
+      "baseScale": 0.42105263157894735,
       "cannotDynamax": false,
       "abilities": [
         "rockhead",
@@ -181,7 +181,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.25,
+      "baseScale": 0.46153846153846156,
       "cannotDynamax": false,
       "abilities": [
         "blaze",

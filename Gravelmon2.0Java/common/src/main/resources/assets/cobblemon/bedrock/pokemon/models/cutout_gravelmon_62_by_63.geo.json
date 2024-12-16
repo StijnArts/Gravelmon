@@ -4,13 +4,13 @@
     {
       "description": {
         "identifier": "geometry.substitute",
-        "texture_width": 63,
-        "texture_height": 62,
-        "visible_bounds_width": 5.90625,
-        "visible_bounds_height": 6.6601562,
+        "texture_width": 62,
+        "texture_height": 63,
+        "visible_bounds_width": 5.8125,
+        "visible_bounds_height": 6.767578,
         "visible_bounds_offset": [
           0,
-          1.0292969,
+          1.0458984,
           0
         ]
       },
@@ -39,8 +39,8 @@
                 0
               ],
               "size": [
-                63,
                 62,
+                63,
                 0
               ],
               "uv": [
@@ -55,8 +55,8 @@
                 0
               ],
               "size": [
-                63,
                 62,
+                63,
                 0
               ],
               "uv": [

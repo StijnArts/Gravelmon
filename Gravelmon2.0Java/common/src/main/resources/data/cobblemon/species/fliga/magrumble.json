@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "meltuff",
-  "baseScale": 0.375,
+  "baseScale": 0.5142857142857142,
   "cannotDynamax": false,
   "abilities": [
     "blaze",
@@ -110,7 +110,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5271,
+  "nationalPokedexNumber": 5276,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.5,

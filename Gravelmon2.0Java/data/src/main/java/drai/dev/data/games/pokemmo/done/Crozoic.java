@@ -13,10 +13,12 @@ public class Crozoic extends drai.dev.data.games.registry.Game {
     @Override
     public void registerPokemon() {
         addNewPokemon(new Arovee());
-//        addNewPokemon(new Dinari());   Member of line Not Finished
+        addNewPokemon(new Dinari());
+        addNewPokemon(new Taltael(new Stats(434, StatArchetype.FAST_PHYSICAL_ATTACKER,
+                List.of(StatType.ATTACK, StatType.ATTACK, StatType.SPEED))));
         addNewPokemon(new Picant());
         addNewPokemon(new Surveilant());
-        addNewPokemon(new Hellantern(new Stats(434, StatArchetype.FAST_PHYSICAL_ATTACKER,
+        addNewPokemon(new Hellantern(new Stats(484, StatArchetype.FAST_PHYSICAL_ATTACKER,
                 List.of(StatType.ATTACK, StatType.ATTACK, StatType.SPEED))));
         addNewPokemon(new Glizyrup(new Stats(342, StatArchetype.FAST_SUPPORT, List.of(StatType.SPEED))));
         addNewPokemon(new Pekohmu(new Stats(412, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPEED))));
@@ -51,6 +53,8 @@ public class Crozoic extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Varaquake(new Stats(467, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))));
         addNewPokemon(new Rexinder());
         addNewPokemon(new Tarboraze(new Stats(532, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.HP))));
+        addNewPokemon(new Toraiking());
+        addNewPokemon(new Toraiqueen());
         addNewPokemon(new Oloraudio(new Stats(476, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.HP))));
         addNewPokemon(new Dauspector(new Stats(476, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.SPEED))));
         addNewPokemon(new Miniclod());
@@ -60,6 +64,7 @@ public class Crozoic extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Rocktile());
         addNewPokemon(new Graplarock());
         addNewPokemon(new Oxygryph());
+        addNewPokemon(new Gorgonox());
         addNewPokemon(new Sharpunk());
         addNewPokemon(new Spurocious(new Stats(513, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.ATTACK))));
         addNewPokemon(new Terraform());

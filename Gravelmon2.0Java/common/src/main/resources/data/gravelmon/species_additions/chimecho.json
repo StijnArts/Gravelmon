@@ -113,7 +113,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "chingling form=epoch",
-      "baseScale": 0.15,
+      "baseScale": 0.2618181818181818,
       "cannotDynamax": false,
       "abilities": [
         "levitate",

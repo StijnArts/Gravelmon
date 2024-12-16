@@ -1,0 +1,37 @@
+{
+  "species": "cobblemon:rattata",
+  "order": 103,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:cutout_gravelmon_35_by_58.geo",
+      "poser": "cobblemon:cutout_gravelmon_35_by_58",
+      "texture": "cobblemon:textures/pokemon/generation1/ayreianrattata.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
+    }
+  ]
+}

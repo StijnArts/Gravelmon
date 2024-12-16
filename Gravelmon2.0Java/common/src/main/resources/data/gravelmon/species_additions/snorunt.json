@@ -93,7 +93,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.175,
+      "baseScale": 0.4307692307692308,
       "cannotDynamax": false,
       "abilities": [
         "cursedbody",
@@ -458,7 +458,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.175,
+      "baseScale": 0.42,
       "cannotDynamax": false,
       "abilities": [
         "solarpower",
@@ -601,6 +601,20 @@
             {
               "variant": "level",
               "minLevel": "30"
+            }
+          ],
+          "permanent": true
+        },
+        {
+          "id": "ayreiansnorunt_froslass_ayreian",
+          "variant": "level_up",
+          "result": "froslass ayreian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:black_glasses"
             }
           ],
           "permanent": true

@@ -184,7 +184,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "pikachu form=epoch",
-      "baseScale": 0.2,
+      "baseScale": 0.2865671641791045,
       "cannotDynamax": false,
       "abilities": [
         "lightningrod",

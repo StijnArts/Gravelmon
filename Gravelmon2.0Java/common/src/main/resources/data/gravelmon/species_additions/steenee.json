@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "bounsweet form=epoch",
-      "baseScale": 0.175,
+      "baseScale": 0.27999999999999997,
       "cannotDynamax": false,
       "abilities": [
         "darkaura",
@@ -172,7 +172,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.175,
+      "baseScale": 0.3054545454545454,
       "cannotDynamax": false,
       "abilities": [
         "ironbarbs",

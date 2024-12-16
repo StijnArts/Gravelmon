@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "paras form=epoch",
-      "baseScale": 0.25,
+      "baseScale": 0.42105263157894735,
       "cannotDynamax": false,
       "abilities": [
         "effectspore",
@@ -165,7 +165,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "paras form=avalossian",
-      "baseScale": 0.425,
+      "baseScale": 0.5230769230769231,
       "cannotDynamax": false,
       "abilities": [
         "aftermath",

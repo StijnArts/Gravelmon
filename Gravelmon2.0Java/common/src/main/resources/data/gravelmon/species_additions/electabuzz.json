@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "elekid form=epoch",
-      "baseScale": 0.275,
+      "baseScale": 0.41904761904761906,
       "cannotDynamax": false,
       "abilities": [
         "defiant",

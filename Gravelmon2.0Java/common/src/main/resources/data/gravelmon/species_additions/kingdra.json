@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "seadra form=epoch",
-      "baseScale": 0.45,
+      "baseScale": 0.6352941176470589,
       "cannotDynamax": false,
       "abilities": [
         "naturalcure",
@@ -163,7 +163,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.45,
+      "baseScale": 0.6084507042253521,
       "cannotDynamax": false,
       "abilities": [
         "compoundeyes",

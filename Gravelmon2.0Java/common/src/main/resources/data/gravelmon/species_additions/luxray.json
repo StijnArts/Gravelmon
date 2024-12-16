@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "luxio form=epoch",
-      "baseScale": 0.35,
+      "baseScale": 0.4253164556962025,
       "cannotDynamax": false,
       "abilities": [
         "guts",
@@ -352,7 +352,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "luxio form=ayreian",
-      "baseScale": 0.35,
+      "baseScale": 0.5014925373134328,
       "cannotDynamax": false,
       "abilities": [
         "galvanize",

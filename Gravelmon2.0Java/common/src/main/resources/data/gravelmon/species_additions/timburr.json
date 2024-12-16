@@ -96,7 +96,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.2823529411764706,
       "cannotDynamax": false,
       "abilities": [
         "unnerve",
@@ -265,7 +265,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.2823529411764706,
       "cannotDynamax": false,
       "abilities": [
         "oblivious",
@@ -437,7 +437,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
         "guts",

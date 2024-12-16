@@ -6,8 +6,8 @@
       "aspects": [
         "x"
       ],
-      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_128",
+      "model": "cobblemon:cutout_gravelmon_22_by_50.geo",
+      "poser": "cobblemon:cutout_gravelmon_22_by_50",
       "texture": "cobblemon:textures/pokemon/generation4/budewx.png",
       "layers": [
         {

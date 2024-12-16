@@ -32,7 +32,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "treecko form=epoch",
-      "baseScale": 0.225,
+      "baseScale": 0.4075471698113208,
       "cannotDynamax": false,
       "abilities": [
         "colorchange",
@@ -194,7 +194,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "treecko form=avalossian",
-      "baseScale": 0.275,
+      "baseScale": 0.44000000000000006,
       "cannotDynamax": false,
       "abilities": [
         "sandforce",
@@ -504,7 +504,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.325,
+      "baseScale": 0.4394366197183099,
       "cannotDynamax": false,
       "abilities": [
         "mimicry",

@@ -36,7 +36,7 @@
         "female"
       ],
       "model": "cobblemon:cutout_gravelmon_435_by_512.geo",
-      "poser": "cobblemon:cutout_gravelmon_508_by_512",
+      "poser": "cobblemon:cutout_gravelmon_435_by_512",
       "texture": "cobblemon:textures/pokemon/sage/paramoth_female.png",
       "layers": [
         {

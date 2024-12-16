@@ -98,7 +98,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.20425531914893616,
       "cannotDynamax": false,
       "abilities": [
         "disguise"
@@ -255,7 +255,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.25263157894736843,
       "cannotDynamax": false,
       "abilities": [
         "disguise"

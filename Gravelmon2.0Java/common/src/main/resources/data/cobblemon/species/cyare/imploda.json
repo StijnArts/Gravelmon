@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "impie",
-  "baseScale": 0.15,
+  "baseScale": 0.32,
   "cannotDynamax": false,
   "abilities": [
     "aftermath"
@@ -167,7 +167,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7440,
+  "nationalPokedexNumber": 7446,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.6,

@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "kabuto form=epoch",
-      "baseScale": 0.325,
+      "baseScale": 0.39,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
@@ -146,7 +146,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.325,
+      "baseScale": 0.3804878048780488,
       "cannotDynamax": false,
       "abilities": [
         "moxie",

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "lumarva",
-  "baseScale": 0.2,
+  "baseScale": 0.32000000000000006,
   "cannotDynamax": false,
   "abilities": [
     "levitate"
@@ -95,7 +95,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4341,
+  "nationalPokedexNumber": 4343,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.8,

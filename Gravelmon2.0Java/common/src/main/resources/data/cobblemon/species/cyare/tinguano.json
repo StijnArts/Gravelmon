@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.2,
+  "baseScale": 0.45714285714285713,
   "cannotDynamax": false,
   "abilities": [
     "guts",
@@ -137,7 +137,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 7401,
+  "nationalPokedexNumber": 7407,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.8,

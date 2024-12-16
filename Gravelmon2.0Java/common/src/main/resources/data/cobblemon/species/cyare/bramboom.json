@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "burramble",
-  "baseScale": 0.425,
+  "baseScale": 0.5164556962025316,
   "cannotDynamax": false,
   "abilities": [
     "overgrow",
@@ -136,7 +136,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7321,
+  "nationalPokedexNumber": 7327,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.7,

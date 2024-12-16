@@ -210,7 +210,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.13333333333333333,
       "cannotDynamax": false,
       "abilities": [
         "levitate",
@@ -372,7 +372,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.17777777777777778,
       "cannotDynamax": false,
       "abilities": [
         "flamebody",

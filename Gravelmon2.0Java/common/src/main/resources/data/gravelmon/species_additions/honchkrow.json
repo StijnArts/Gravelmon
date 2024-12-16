@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "murkrow form=epoch",
-      "baseScale": 0.225,
+      "baseScale": 0.36000000000000004,
       "cannotDynamax": false,
       "abilities": [
         "bigpecks",
@@ -167,7 +167,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.225,
+      "baseScale": 0.3540983606557377,
       "cannotDynamax": false,
       "abilities": [
         "telepathy",

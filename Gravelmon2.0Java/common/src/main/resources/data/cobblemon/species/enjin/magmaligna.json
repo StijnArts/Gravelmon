@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "magmaraca",
-  "baseScale": 0.35,
+  "baseScale": 0.5169230769230769,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -76,7 +76,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6401,
+  "nationalPokedexNumber": 6410,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.4,

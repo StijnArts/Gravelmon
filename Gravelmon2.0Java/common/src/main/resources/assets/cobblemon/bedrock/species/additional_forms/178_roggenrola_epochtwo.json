@@ -6,8 +6,8 @@
       "aspects": [
         "epochtwo"
       ],
-      "model": "cobblemon:cutout_gravelmon_96_by_96.geo",
-      "poser": "cobblemon:cutout_gravelmon_96_by_96",
+      "model": "cobblemon:cutout_gravelmon_70_by_50.geo",
+      "poser": "cobblemon:cutout_gravelmon_70_by_50",
       "texture": "cobblemon:textures/pokemon/generation5/epochroggenrolaone.png",
       "layers": [
         {

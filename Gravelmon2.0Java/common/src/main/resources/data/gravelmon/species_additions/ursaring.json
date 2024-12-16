@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "teddiursa form=epoch",
-      "baseScale": 0.45,
+      "baseScale": 0.5082352941176471,
       "cannotDynamax": false,
       "abilities": [
         "toughclaws",

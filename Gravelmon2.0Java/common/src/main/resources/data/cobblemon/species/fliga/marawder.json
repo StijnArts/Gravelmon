@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "vicera",
-  "baseScale": 0.55,
+  "baseScale": 0.5739130434782609,
   "cannotDynamax": false,
   "abilities": [
     "torrent",
@@ -92,7 +92,7 @@
   "weight": 1923,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5275,
+  "nationalPokedexNumber": 5280,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.2,

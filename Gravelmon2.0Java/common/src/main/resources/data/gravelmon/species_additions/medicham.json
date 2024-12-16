@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "meditite form=epoch",
-      "baseScale": 0.325,
+      "baseScale": 0.43333333333333335,
       "cannotDynamax": false,
       "abilities": [
         "wonderskin",

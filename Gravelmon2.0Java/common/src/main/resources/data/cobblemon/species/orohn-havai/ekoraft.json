@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "ekopi",
-  "baseScale": 12.0,
+  "baseScale": 0.3380281690140845,
   "cannotDynamax": false,
   "abilities": [
     "overgrow",

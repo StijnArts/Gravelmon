@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "aipom form=epoch",
-      "baseScale": 0.3,
+      "baseScale": 0.39452054794520547,
       "cannotDynamax": false,
       "abilities": [
         "comatose"

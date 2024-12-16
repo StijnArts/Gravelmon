@@ -11,7 +11,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "eevee form=epoch",
-      "baseScale": 0.25,
+      "baseScale": 0.4897959183673469,
       "cannotDynamax": false,
       "abilities": [
         "scrappy",

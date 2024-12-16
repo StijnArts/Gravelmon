@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "thistling",
-  "baseScale": 12.0,
+  "baseScale": 0.36363636363636365,
   "cannotDynamax": false,
   "abilities": [
     "effectspore",

@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "mander",
-  "baseScale": 0.325,
+  "baseScale": 0.45217391304347826,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -95,7 +95,7 @@
   "weight": 247,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4337,
+  "nationalPokedexNumber": 4339,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.3,

@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.125,
+      "baseScale": 0.1935483870967742,
       "cannotDynamax": false,
       "abilities": [
         "multiscale",
@@ -206,7 +206,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.125,
+      "baseScale": 0.2727272727272727,
       "cannotDynamax": false,
       "abilities": [
         "dryskin",

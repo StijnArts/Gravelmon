@@ -101,7 +101,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "vulpix form=epoch",
-      "baseScale": 0.275,
+      "baseScale": 0.35675675675675683,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -246,7 +246,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.275,
+      "baseScale": 0.3341772151898735,
       "cannotDynamax": false,
       "abilities": [
         "sandforce"
@@ -408,7 +408,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.275,
+      "baseScale": 0.32592592592592595,
       "cannotDynamax": false,
       "abilities": [
         "raindish"

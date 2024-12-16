@@ -473,22 +473,21 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
 
     public void setBaseScale(double scale) {
         this.baseScale = scale;
-        double newHitboxWidth = (double) height / 10;
-        double newHitboxHeight = (double) height / 10;
-        setHitbox(newHitboxWidth, newHitboxHeight);
-        if(this instanceof Pokemon pokemon){
-            pokemon.getForms().forEach(forms -> {
-                forms.setBaseScale(scale);
-                double newFormHitboxWidth = (double) forms.getHeight() / 10;
-                double newFormHitboxHeight = (double) forms.getHeight() / 10;
-                setHitbox(newFormHitboxWidth, newFormHitboxHeight);
-            });
+        if(this instanceof Pokemon pokemon) {
+            pokemon.getForms().forEach(forms -> forms.setBaseScale(scale));
         }
     }
 
     protected void setHitbox(double width, double height) {
         this.hitboxWidth = width;
         this.hitboxHeight = height;
+        if(this instanceof Pokemon pokemon){
+            pokemon.getForms().forEach(forms -> {
+                double newFormHitboxWidth = (double) forms.getHeight() / 10;
+                double newFormHitboxHeight = (double) forms.getHeight() / 10;
+                setHitbox(newFormHitboxWidth, newFormHitboxHeight);
+            });
+        }
     }
 
     public double getHitboxWidth() {

@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "ivysaur form=epoch",
-      "baseScale": 0.5,
+      "baseScale": 0.6233766233766234,
       "cannotDynamax": false,
       "abilities": [
         "fairyaura",
@@ -559,7 +559,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "ivysaur form=ayreian",
-      "baseScale": 0.5,
+      "baseScale": 0.6233766233766234,
       "cannotDynamax": false,
       "abilities": [
         "stamina",

@@ -131,7 +131,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.21818181818181817,
       "cannotDynamax": false,
       "abilities": [
         "competitive",
@@ -399,7 +399,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.2,
       "cannotDynamax": false,
       "abilities": [
         "oblivious",

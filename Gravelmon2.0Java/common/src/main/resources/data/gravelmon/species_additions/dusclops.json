@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "duskull form=epoch",
-      "baseScale": 0.4,
+      "baseScale": 0.5818181818181819,
       "cannotDynamax": false,
       "abilities": [
         "blaze",
@@ -177,7 +177,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "duskull form=avalossian",
-      "baseScale": 0.4,
+      "baseScale": 0.6095238095238096,
       "cannotDynamax": false,
       "abilities": [
         "pressure",

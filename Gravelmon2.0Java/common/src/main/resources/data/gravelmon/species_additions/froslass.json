@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "snorunt form=epoch",
-      "baseScale": 0.325,
+      "baseScale": 0.5571428571428572,
       "cannotDynamax": false,
       "abilities": [
         "cursedbody",
@@ -334,6 +334,169 @@
       }
     },
     {
+      "name": "Ayreian",
+      "primaryType": "fire",
+      "secondaryType": "dark",
+      "catchRate": 75,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "snorunt form=ayreian",
+      "baseScale": 0.48000000000000004,
+      "cannotDynamax": false,
+      "abilities": [
+        "solarpower"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 75,
+        "attack": 110,
+        "defence": 65,
+        "special_attack": 80,
+        "special_defence": 85,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 2,
+        "speed": 0
+      },
+      "eggGroups": [
+        "amorphous",
+        "monster"
+      ],
+      "drops": {},
+      "moves": [
+        "30:firepunch",
+        "45:flareblitz",
+        "1:suckerpunch",
+        "15:endure",
+        "52:closecombat",
+        "10:doublehit",
+        "37:submission",
+        "1:flamecharge",
+        "1:protect",
+        "35:willowisp",
+        "20:pursuit",
+        "40:flamethrower",
+        "1:snarl",
+        "25:takedown",
+        "42:darkestlariat",
+        "49:fakeout",
+        "1:astonish",
+        "33:knockoff",
+        "tm:agility",
+        "tm:attract",
+        "tm:block",
+        "tm:bodyslam",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:brickbreak",
+        "tm:confide",
+        "tm:crunch",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:endure",
+        "tm:explosion",
+        "tm:facade",
+        "tm:faketears",
+        "tm:fireblast",
+        "tm:flamethrower",
+        "tm:flareblitz",
+        "tm:flashcannon",
+        "tm:frustration",
+        "tm:gigaimpact",
+        "tm:gyroball",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:ironhead",
+        "tm:laserfocus",
+        "tm:lightscreen",
+        "tm:payback",
+        "tm:protect",
+        "tm:psychup",
+        "tm:rest",
+        "tm:return",
+        "tm:reversal",
+        "tm:round",
+        "tm:safeguard",
+        "tm:scaryface",
+        "tm:selfdestruct",
+        "tm:shadowball",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:solarblade",
+        "tm:spikes",
+        "tm:spite",
+        "tm:steelroller",
+        "tm:substitute",
+        "tm:superfang",
+        "tm:swagger",
+        "tm:taunt",
+        "tm:throatchop",
+        "tm:torment",
+        "tm:toxic",
+        "tm:weatherball",
+        "tm:willowisp",
+        "tm:workup"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianfroslass.desc"
+      ],
+      "height": 13,
+      "weight": 266,
+      "aspects": [
+        "ayreian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 1.3,
+        "height": 1.3,
+        "fixed": false
+      }
+    },
+    {
       "name": "Cefiran",
       "primaryType": "ghost",
       "secondaryType": "ground",
@@ -450,6 +613,7 @@
   "features": [
     "epoch",
     "delta",
+    "ayreian",
     "cefiran"
   ]
 }

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "loticus",
-  "baseScale": 0.4,
+  "baseScale": 0.48607594936708864,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -80,7 +80,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7379,
+  "nationalPokedexNumber": 7385,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.6,

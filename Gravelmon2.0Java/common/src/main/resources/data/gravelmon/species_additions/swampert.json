@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "marshtomp form=epoch",
-      "baseScale": 0.375,
+      "baseScale": 0.46153846153846156,
       "cannotDynamax": false,
       "abilities": [
         "filter"
@@ -177,7 +177,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.375,
+      "baseScale": 0.4864864864864865,
       "cannotDynamax": false,
       "abilities": [
         "solidrock",
@@ -316,6 +316,173 @@
       }
     },
     {
+      "name": "Ayreian",
+      "primaryType": "ice",
+      "secondaryType": "normal",
+      "catchRate": 45,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "marshtomp form=ayreian",
+      "baseScale": 0.47368421052631576,
+      "cannotDynamax": false,
+      "abilities": [
+        "comatose",
+        "filter"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 130,
+        "attack": 90,
+        "defence": 95,
+        "special_attack": 60,
+        "special_defence": 80,
+        "speed": 90
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 3,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster",
+        "water_1"
+      ],
+      "drops": {},
+      "moves": [
+        "1:tackle",
+        "24:flipturn",
+        "35:sleeptalk",
+        "15:swift",
+        "30:iciclecrash",
+        "12:protect",
+        "9:snore",
+        "38:liquidation",
+        "3:yawn",
+        "1:bubblebeam",
+        "1:growl",
+        "21:icefang",
+        "27:bodyslam",
+        "6:iceshard",
+        "47:chillyreception",
+        "42:lastresort",
+        "tm:amnesia",
+        "tm:aquatail",
+        "tm:attract",
+        "tm:avalanche",
+        "tm:blizzard",
+        "tm:bodyslam",
+        "tm:bulkup",
+        "tm:brickbreak",
+        "tm:confide",
+        "tm:chillingwater",
+        "tm:darkestlariat",
+        "tm:dig",
+        "tm:dive",
+        "tm:doubleteam",
+        "tm:earthpower",
+        "tm:echoedvoice",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:facade",
+        "tm:fling",
+        "tm:flipturn",
+        "tm:focusblast",
+        "tm:frustration",
+        "tm:hail",
+        "tm:hiddenpower",
+        "tm:highhorsepower",
+        "tm:hydropump",
+        "tm:hyperbeam",
+        "tm:icebeam",
+        "tm:icepunch",
+        "tm:icywind",
+        "tm:irontail",
+        "tm:lowkick",
+        "tm:megakick",
+        "tm:muddywater",
+        "tm:outrage",
+        "tm:playrough",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:round",
+        "tm:screech",
+        "tm:sleeptalk",
+        "tm:sludgewave",
+        "tm:snore",
+        "tm:strength",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:surf",
+        "tm:swagger",
+        "tm:toxic",
+        "tm:uproar",
+        "tm:waterfall",
+        "tm:waterpledge",
+        "tm:waterpulse",
+        "tm:whirlpool",
+        "tm:workup"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianswampert.desc"
+      ],
+      "height": 15,
+      "weight": 819,
+      "aspects": [
+        "ayreian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 1.5,
+        "height": 1.5,
+        "fixed": false
+      }
+    },
+    {
       "name": "Mystic",
       "primaryType": "fighting",
       "secondaryType": "dragon",
@@ -420,6 +587,7 @@
   "features": [
     "epoch",
     "epochtwo",
+    "ayreian",
     "mystic"
   ]
 }

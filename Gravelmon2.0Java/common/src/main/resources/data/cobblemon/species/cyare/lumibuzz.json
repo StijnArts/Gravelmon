@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "snoosect",
-  "baseScale": 0.35,
+  "baseScale": 0.46027397260273967,
   "cannotDynamax": false,
   "abilities": [
     "swarm",
@@ -123,7 +123,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7377,
+  "nationalPokedexNumber": 7383,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.4,

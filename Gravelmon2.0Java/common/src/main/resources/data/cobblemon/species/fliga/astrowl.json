@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "twillowl",
-  "baseScale": 0.275,
+  "baseScale": 0.3666666666666667,
   "cannotDynamax": false,
   "abilities": [
     "analytic",
@@ -98,7 +98,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5306,
+  "nationalPokedexNumber": 5313,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.1,

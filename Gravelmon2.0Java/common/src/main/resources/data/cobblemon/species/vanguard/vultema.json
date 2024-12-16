@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.65,
+  "baseScale": 0.7428571428571429,
   "cannotDynamax": false,
   "abilities": [
     "fluffy"
@@ -151,7 +151,7 @@
   "weight": 4480,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5524,
+  "nationalPokedexNumber": 5530,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6,

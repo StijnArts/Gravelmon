@@ -113,7 +113,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.2742857142857143,
       "cannotDynamax": false,
       "abilities": [
         "infiltrator",
@@ -735,7 +735,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
         "snowcloak",

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "tartot",
-  "baseScale": 0.35,
+  "baseScale": 0.3818181818181818,
   "cannotDynamax": false,
   "abilities": [
     "waterbubble",
@@ -148,7 +148,7 @@
   "weight": 3980,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5501,
+  "nationalPokedexNumber": 5507,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.4,
@@ -172,7 +172,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.35,
+      "baseScale": 0.40727272727272723,
       "cannotDynamax": false,
       "abilities": [
         "flashfire",
@@ -315,7 +315,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.35,
+      "baseScale": 0.42621564482029595,
       "cannotDynamax": false,
       "abilities": [
         "icebody",
@@ -455,7 +455,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.35,
+      "baseScale": 0.40727272727272723,
       "cannotDynamax": false,
       "abilities": [
         "corrosion",

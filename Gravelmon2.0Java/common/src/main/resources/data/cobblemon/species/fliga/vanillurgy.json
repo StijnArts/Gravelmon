@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "vanillish form=avalossian",
-  "baseScale": 0.325,
+  "baseScale": 0.3804878048780488,
   "cannotDynamax": false,
   "abilities": [
     "icebody",
@@ -135,7 +135,7 @@
   "weight": 575,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5326,
+  "nationalPokedexNumber": 5333,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.3,

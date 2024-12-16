@@ -11,7 +11,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.29387755102040813,
       "cannotDynamax": false,
       "abilities": [
         "chlorophyll",
@@ -179,7 +179,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.288,
       "cannotDynamax": false,
       "abilities": [
         "berserk",

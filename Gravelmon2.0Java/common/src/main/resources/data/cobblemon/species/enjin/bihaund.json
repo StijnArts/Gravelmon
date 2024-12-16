@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.2,
+  "baseScale": 0.3310344827586207,
   "cannotDynamax": false,
   "abilities": [
     "intimidate",
@@ -95,7 +95,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6395,
+  "nationalPokedexNumber": 6404,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.8,

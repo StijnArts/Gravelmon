@@ -7,7 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.125,
+  "baseScale": 0.27906976744186046,
   "cannotDynamax": false,
   "abilities": [
     "overgrow",

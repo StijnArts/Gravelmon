@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sakano",
-  "baseScale": 0.425,
+  "baseScale": 0.544,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -75,7 +75,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7434,
+  "nationalPokedexNumber": 7440,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.7,

@@ -6,8 +6,8 @@
       "aspects": [
         "x"
       ],
-      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_128",
+      "model": "cobblemon:cutout_gravelmon_41_by_51.geo",
+      "poser": "cobblemon:cutout_gravelmon_41_by_51",
       "texture": "cobblemon:textures/pokemon/generation5/yamaskx.png",
       "layers": [
         {

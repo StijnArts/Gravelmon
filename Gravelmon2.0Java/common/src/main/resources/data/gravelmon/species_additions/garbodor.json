@@ -99,7 +99,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "trubbish form=epoch",
-      "baseScale": 0.475,
+      "baseScale": 0.5629629629629629,
       "cannotDynamax": false,
       "abilities": [
         "toxicdebris",

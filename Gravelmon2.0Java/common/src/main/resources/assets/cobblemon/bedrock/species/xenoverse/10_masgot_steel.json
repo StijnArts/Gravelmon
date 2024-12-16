@@ -6,8 +6,8 @@
       "aspects": [
         "steel"
       ],
-      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_128",
+      "model": "cobblemon:cutout_gravelmon_35_by_50.geo",
+      "poser": "cobblemon:cutout_gravelmon_35_by_50",
       "texture": "cobblemon:textures/pokemon/xenoverse/steel.png",
       "layers": [
         {

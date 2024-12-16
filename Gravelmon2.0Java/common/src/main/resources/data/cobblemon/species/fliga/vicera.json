@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "nibblish",
-  "baseScale": 0.35,
+  "baseScale": 0.4732394366197183,
   "cannotDynamax": false,
   "abilities": [
     "torrent",
@@ -107,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5274,
+  "nationalPokedexNumber": 5279,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.4,

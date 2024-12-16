@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "stunge",
-  "baseScale": 0.325,
+  "baseScale": 0.46567164179104475,
   "cannotDynamax": false,
   "abilities": [
     "poisonpoint",
@@ -88,7 +88,7 @@
   "weight": 70,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4384,
+  "nationalPokedexNumber": 4389,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.3,

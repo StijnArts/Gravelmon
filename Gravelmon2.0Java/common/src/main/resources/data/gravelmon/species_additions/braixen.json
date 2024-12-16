@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "fennekin form=epoch",
-      "baseScale": 0.25,
+      "baseScale": 0.38095238095238093,
       "cannotDynamax": false,
       "abilities": [
         "magicguard",
@@ -195,7 +195,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.25,
+      "baseScale": 0.3582089552238806,
       "cannotDynamax": false,
       "abilities": [
         "overgrow",
@@ -299,10 +299,171 @@
         "height": 1.0,
         "fixed": false
       }
+    },
+    {
+      "name": "Ayreian",
+      "primaryType": "fire",
+      "secondaryType": "psychic",
+      "catchRate": 45,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "fennekin form=ayreian",
+      "baseScale": 0.3582089552238806,
+      "cannotDynamax": false,
+      "abilities": [
+        "blaze",
+        "magicguard"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 59,
+        "attack": 59,
+        "defence": 58,
+        "special_attack": 73,
+        "special_defence": 90,
+        "speed": 70
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 2,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "5:firespin",
+        "52:sunnyday",
+        "9:reflect",
+        "1:tailwhip",
+        "31:lightscreen",
+        "56:magicroom",
+        "59:fireblast",
+        "14:flamecharge",
+        "18:incinerate",
+        "45:willowisp",
+        "49:psychic",
+        "1:confusion",
+        "41:flamethrower",
+        "27:flameburst",
+        "36:psyshock",
+        "22:psybeam",
+        "tm:allyswitch",
+        "tm:attract",
+        "tm:confide",
+        "tm:covet",
+        "tm:cut",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:echoedvoice",
+        "tm:embargo",
+        "tm:endure",
+        "tm:facade",
+        "tm:fireblast",
+        "tm:firepledge",
+        "tm:firepunch",
+        "tm:flamecharge",
+        "tm:flamethrower",
+        "tm:foulplay",
+        "tm:frustration",
+        "tm:grassknot",
+        "tm:heatwave",
+        "tm:hiddenpower",
+        "tm:irontail",
+        "tm:laserfocus",
+        "tm:lightscreen",
+        "tm:lowkick",
+        "tm:magiccoat",
+        "tm:magicroom",
+        "tm:overheat",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:psyshock",
+        "tm:raindance",
+        "tm:recycle",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:shockwave",
+        "tm:skillswap",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:telekinesis",
+        "tm:thief",
+        "tm:thunderpunch",
+        "tm:toxic",
+        "tm:trick",
+        "tm:willowisp",
+        "tm:wonderroom",
+        "tm:workup",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianbraixen.desc"
+      ],
+      "height": 10,
+      "weight": 145,
+      "aspects": [
+        "ayreian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 1.0,
+        "height": 1.0,
+        "fixed": false
+      }
     }
   ],
   "features": [
     "epoch",
-    "vesitan"
+    "vesitan",
+    "ayreian"
   ]
 }

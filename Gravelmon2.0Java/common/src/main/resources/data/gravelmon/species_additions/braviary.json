@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "rufflet form=epoch",
-      "baseScale": 0.375,
+      "baseScale": 0.39560439560439564,
       "cannotDynamax": false,
       "abilities": [
         "keeneye",

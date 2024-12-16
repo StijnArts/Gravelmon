@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "litten form=epoch",
-      "baseScale": 0.175,
+      "baseScale": 0.31111111111111106,
       "cannotDynamax": false,
       "abilities": [
         "steadfast",

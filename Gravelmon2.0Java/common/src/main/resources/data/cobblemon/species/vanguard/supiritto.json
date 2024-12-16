@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "wolfum",
-  "baseScale": 0.4,
+  "baseScale": 0.5647058823529413,
   "cannotDynamax": false,
   "abilities": [
     "shedskin",
@@ -169,7 +169,7 @@
   "weight": 811,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5494,
+  "nationalPokedexNumber": 5500,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.6,

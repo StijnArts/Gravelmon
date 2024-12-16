@@ -99,7 +99,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "metang form=epoch",
-      "baseScale": 0.4,
+      "baseScale": 0.512,
       "cannotDynamax": false,
       "abilities": [
         "filter",

@@ -181,7 +181,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.125,
+      "baseScale": 0.2,
       "cannotDynamax": false,
       "abilities": [
         "soundproof",
@@ -693,7 +693,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.13124999999999998,
+      "baseScale": 0.32941176470588235,
       "cannotDynamax": false,
       "abilities": [
         "stormdrain",

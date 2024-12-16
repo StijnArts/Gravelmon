@@ -112,7 +112,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "gastly form=epoch",
-      "baseScale": 0.4,
+      "baseScale": 0.6095238095238096,
       "cannotDynamax": false,
       "abilities": [
         "filter",
@@ -272,7 +272,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "gastly form=havaiian",
-      "baseScale": 0.4,
+      "baseScale": 0.5818181818181819,
       "cannotDynamax": false,
       "abilities": [
         "levitate"
@@ -581,7 +581,7 @@
       "eggCycles": 26,
       "baseFriendship": 70,
       "preEvolution": "gastly form=ayreian",
-      "baseScale": 0.4,
+      "baseScale": 0.7245283018867925,
       "cannotDynamax": false,
       "abilities": [
         "levitate"

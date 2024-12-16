@@ -435,7 +435,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "squirtle form=ayreian",
-      "baseScale": 0.25,
+      "baseScale": 0.3333333333333333,
       "cannotDynamax": false,
       "abilities": [
         "bulletproof",

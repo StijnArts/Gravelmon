@@ -102,7 +102,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "scyther form=epoch",
-      "baseScale": 0.45,
+      "baseScale": 0.6171428571428572,
       "cannotDynamax": false,
       "abilities": [
         "megalauncher",

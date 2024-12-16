@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "bunoo",
-  "baseScale": 0.275,
+  "baseScale": 0.528,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -77,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7386,
+  "nationalPokedexNumber": 7392,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.1,

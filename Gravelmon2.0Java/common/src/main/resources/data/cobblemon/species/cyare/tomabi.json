@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "grainum",
-  "baseScale": 0.1,
+  "baseScale": 0.29090909090909095,
   "cannotDynamax": false,
   "abilities": [
     "waterabsorb",
@@ -143,7 +143,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 7339,
+  "nationalPokedexNumber": 7345,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.3,

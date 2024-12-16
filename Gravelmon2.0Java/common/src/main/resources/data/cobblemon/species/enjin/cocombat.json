@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "cocoward",
-  "baseScale": 0.375,
+  "baseScale": 0.5714285714285714,
   "cannotDynamax": false,
   "abilities": [
     "ironfist",
@@ -147,7 +147,7 @@
   "weight": 644,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6424,
+  "nationalPokedexNumber": 6433,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.5,

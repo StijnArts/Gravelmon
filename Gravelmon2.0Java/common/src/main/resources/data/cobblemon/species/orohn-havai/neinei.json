@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "goosea",
-  "baseScale": 12.0,
+  "baseScale": 0.34782608695652173,
   "cannotDynamax": false,
   "abilities": [
     "friendguard",

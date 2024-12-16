@@ -99,7 +99,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "seel form=epoch",
-      "baseScale": 0.425,
+      "baseScale": 0.6276923076923077,
       "cannotDynamax": false,
       "abilities": [
         "unaware",

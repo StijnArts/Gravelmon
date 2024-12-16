@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "dunsparce form=epoch",
-      "baseScale": 0.375,
+      "baseScale": 0.5538461538461539,
       "cannotDynamax": false,
       "abilities": [
         "shedskin",

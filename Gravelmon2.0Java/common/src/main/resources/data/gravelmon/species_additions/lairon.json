@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "aron form=epoch",
-      "baseScale": 0.225,
+      "baseScale": 0.3540983606557377,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
@@ -550,7 +550,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "aron form=ayreian",
-      "baseScale": 0.225,
+      "baseScale": 0.28800000000000003,
       "cannotDynamax": false,
       "abilities": [
         "sturdy",

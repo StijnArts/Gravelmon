@@ -54,6 +54,33 @@
       }
     },
     {
+      "id": "ayreian_swampert-01",
+      "pokemon": "swampert ayreian",
+      "presets": [
+        "freshwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 0.15000000000000002,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_ice"
+          ]
+        }
+      }
+    },
+    {
       "id": "mystic_swampert-01",
       "pokemon": "swampert mystic",
       "presets": [

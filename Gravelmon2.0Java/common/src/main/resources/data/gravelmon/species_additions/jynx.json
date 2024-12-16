@@ -221,7 +221,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "smoochum form=epoch",
-      "baseScale": 0.35,
+      "baseScale": 0.4732394366197183,
       "cannotDynamax": false,
       "abilities": [
         "competitive",
@@ -457,7 +457,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.35,
+      "baseScale": 0.4307692307692308,
       "cannotDynamax": false,
       "abilities": [
         "oblivious",

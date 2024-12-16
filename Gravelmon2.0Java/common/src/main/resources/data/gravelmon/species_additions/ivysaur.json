@@ -32,7 +32,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "bulbasaur form=epoch",
-      "baseScale": 0.25,
+      "baseScale": 0.5,
       "cannotDynamax": false,
       "abilities": [
         "fairyaura",
@@ -596,7 +596,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "bulbasaur form=ayreian",
-      "baseScale": 0.25,
+      "baseScale": 0.36363636363636365,
       "cannotDynamax": false,
       "abilities": [
         "stamina",

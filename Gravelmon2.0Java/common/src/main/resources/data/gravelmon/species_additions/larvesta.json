@@ -96,7 +96,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.275,
+      "baseScale": 0.5866666666666667,
       "cannotDynamax": false,
       "abilities": [
         "static",
@@ -256,7 +256,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.275,
+      "baseScale": 0.55,
       "cannotDynamax": false,
       "abilities": [
         "dazzling"

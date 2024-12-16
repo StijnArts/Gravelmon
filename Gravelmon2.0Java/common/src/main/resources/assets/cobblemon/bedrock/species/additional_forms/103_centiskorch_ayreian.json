@@ -6,8 +6,8 @@
       "aspects": [
         "ayreian"
       ],
-      "model": "cobblemon:cutout_gravelmon_96_by_96.geo",
-      "poser": "cobblemon:cutout_gravelmon_96_by_96",
+      "model": "cobblemon:cutout_gravelmon_84_by_72.geo",
+      "poser": "cobblemon:cutout_gravelmon_84_by_72",
       "texture": "cobblemon:textures/pokemon/generation8/ayreiancentiskorch.png",
       "layers": [
         {

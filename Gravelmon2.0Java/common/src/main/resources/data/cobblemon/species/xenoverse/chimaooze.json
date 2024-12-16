@@ -8,7 +8,7 @@
   "experienceGroup": "fast",
   "eggCycles": 32,
   "baseFriendship": 70,
-  "baseScale": 0.07500000000000001,
+  "baseScale": 0.0588957055214724,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -145,7 +145,7 @@
       "experienceGroup": "fast",
       "eggCycles": 32,
       "baseFriendship": 70,
-      "baseScale": 0.07500000000000001,
+      "baseScale": 2.8269938650306754,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"

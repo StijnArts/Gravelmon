@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "flaero",
-  "baseScale": 12.0,
+  "baseScale": 0.41379310344827586,
   "cannotDynamax": false,
   "abilities": [
     "blaze",

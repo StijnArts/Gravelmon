@@ -99,7 +99,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "slowpoke form=epoch",
-      "baseScale": 0.5,
+      "baseScale": 0.7384615384615385,
       "cannotDynamax": false,
       "abilities": [
         "oblivious",

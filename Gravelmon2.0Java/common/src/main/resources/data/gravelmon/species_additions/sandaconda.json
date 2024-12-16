@@ -11,7 +11,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "silicobra form=epoch",
-      "baseScale": 0.95,
+      "baseScale": 0.9913043478260869,
       "cannotDynamax": false,
       "abilities": [
         "colorchange",

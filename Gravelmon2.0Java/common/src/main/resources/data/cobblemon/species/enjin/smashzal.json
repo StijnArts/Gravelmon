@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pterabonk",
-  "baseScale": 0.525,
+  "baseScale": 0.6904109589041095,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -151,7 +151,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6440,
+  "nationalPokedexNumber": 6449,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.1,

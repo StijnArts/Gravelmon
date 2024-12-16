@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "quilladin form=epoch",
-      "baseScale": 0.4,
+      "baseScale": 0.45714285714285713,
       "cannotDynamax": false,
       "abilities": [
         "sandstream",
@@ -166,7 +166,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.4,
+      "baseScale": 0.43636363636363634,
       "cannotDynamax": false,
       "abilities": [
         "torrent",

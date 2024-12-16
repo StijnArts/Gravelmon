@@ -7,8 +7,6 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 
-import java.util.*;
-
 public class DeltaMeloetta extends Pokemon {
     public DeltaMeloetta(String name, Aspect aspect) {
         super(name, aspect,"DeltaMeloetta",

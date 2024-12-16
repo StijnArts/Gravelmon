@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "aggronut",
-  "baseScale": 0.35,
+  "baseScale": 0.5333333333333332,
   "cannotDynamax": false,
   "abilities": [
     "overgrow"
@@ -106,7 +106,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5268,
+  "nationalPokedexNumber": 5273,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.4,

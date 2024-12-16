@@ -1,0 +1,37 @@
+{
+  "species": "cobblemon:raticate",
+  "order": 103,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:cutout_gravelmon_62_by_68.geo",
+      "poser": "cobblemon:cutout_gravelmon_62_by_68",
+      "texture": "cobblemon:textures/pokemon/generation1/ayreianraticate.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
+    }
+  ]
+}

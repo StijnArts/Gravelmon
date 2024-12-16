@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "charmeleon form=epoch",
-      "baseScale": 0.425,
+      "baseScale": 0.5037037037037037,
       "cannotDynamax": false,
       "abilities": [
         "moxie",
@@ -579,7 +579,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "charmeleon form=ayreian",
-      "baseScale": 0.425,
+      "baseScale": 0.4340425531914893,
       "cannotDynamax": false,
       "abilities": [
         "fluffy",

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "nostroot",
-  "baseScale": 0.25,
+  "baseScale": 0.2727272727272727,
   "cannotDynamax": false,
   "abilities": [
     "stench",
@@ -115,7 +115,7 @@
   "weight": 220,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6419,
+  "nationalPokedexNumber": 6428,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,

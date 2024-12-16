@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "chibiryu",
-  "baseScale": 0.275,
+  "baseScale": 0.43278688524590164,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -90,7 +90,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 7460,
+  "nationalPokedexNumber": 7466,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.1,

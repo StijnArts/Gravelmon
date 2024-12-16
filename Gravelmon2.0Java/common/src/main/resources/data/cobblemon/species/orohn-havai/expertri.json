@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "ekoraft",
-  "baseScale": 18.0,
+  "baseScale": 0.36,
   "cannotDynamax": false,
   "abilities": [
     "overgrow",

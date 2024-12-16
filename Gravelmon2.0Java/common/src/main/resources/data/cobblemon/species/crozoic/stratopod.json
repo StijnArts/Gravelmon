@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sauropot",
-  "baseScale": 2.375,
+  "baseScale": 2.4,
   "cannotDynamax": false,
   "abilities": [
     "cloudnine",
@@ -82,7 +82,7 @@
   "weight": 7500,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4359,
+  "nationalPokedexNumber": 4363,
   "shoulderMountable": false,
   "hitbox": {
     "width": 9.5,

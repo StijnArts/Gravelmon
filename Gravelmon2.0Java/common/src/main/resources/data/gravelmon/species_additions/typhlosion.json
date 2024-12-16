@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "quilava form=epoch",
-      "baseScale": 0.425,
+      "baseScale": 0.5746478873239437,
       "cannotDynamax": false,
       "abilities": [
         "motordrive",
@@ -170,7 +170,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.425,
+      "baseScale": 0.544,
       "cannotDynamax": false,
       "abilities": [
         "refrigerate",
@@ -778,7 +778,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "quilava form=ayreian",
-      "baseScale": 0.425,
+      "baseScale": 0.5037037037037037,
       "cannotDynamax": false,
       "abilities": [
         "drought",

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "picant",
-  "baseScale": 0.15,
+  "baseScale": 0.2526315789473684,
   "cannotDynamax": false,
   "abilities": [
     "ironbarbs",
@@ -43,12 +43,12 @@
     }
   },
   "baseStats": {
-    "hp": 37,
-    "attack": 88,
-    "defence": 39,
-    "special_attack": 17,
-    "special_defence": 39,
-    "speed": 78
+    "hp": 42,
+    "attack": 98,
+    "defence": 44,
+    "special_attack": 19,
+    "special_defence": 44,
+    "speed": 87
   },
   "evYield": {
     "hp": 0,
@@ -93,7 +93,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4320,
+  "nationalPokedexNumber": 4322,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.6,

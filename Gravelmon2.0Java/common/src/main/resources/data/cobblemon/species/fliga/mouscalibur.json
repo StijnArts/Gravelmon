@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "mousprite",
-  "baseScale": 0.35,
+  "baseScale": 0.49411764705882355,
   "cannotDynamax": false,
   "abilities": [
     "lightningrod",
@@ -87,7 +87,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5333,
+  "nationalPokedexNumber": 5340,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.4,

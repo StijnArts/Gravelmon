@@ -117,7 +117,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "bagon form=epoch",
-      "baseScale": 0.275,
+      "baseScale": 0.5387755102040817,
       "cannotDynamax": false,
       "abilities": [
         "flamebody",

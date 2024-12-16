@@ -186,7 +186,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "dragonair form=epoch",
-      "baseScale": 0.55,
+      "baseScale": 0.6439024390243903,
       "cannotDynamax": false,
       "abilities": [
         "dazzling",
@@ -549,7 +549,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.55,
+      "baseScale": 0.6068965517241379,
       "cannotDynamax": false,
       "abilities": [
         "innerfocus"

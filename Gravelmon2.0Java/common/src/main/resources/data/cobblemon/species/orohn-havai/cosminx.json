@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pinxie",
-  "baseScale": 6.0,
+  "baseScale": 0.1935483870967742,
   "cannotDynamax": false,
   "abilities": [
     "immunity",

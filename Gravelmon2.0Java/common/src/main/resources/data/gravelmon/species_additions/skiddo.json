@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.225,
+      "baseScale": 0.34285714285714286,
       "cannotDynamax": false,
       "abilities": [
         "guts",
@@ -175,7 +175,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.225,
+      "baseScale": 0.45,
       "cannotDynamax": false,
       "abilities": [
         "sapsipper",
@@ -292,7 +292,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.225,
+      "baseScale": 0.4153846153846154,
       "cannotDynamax": false,
       "abilities": [
         "thickfat"

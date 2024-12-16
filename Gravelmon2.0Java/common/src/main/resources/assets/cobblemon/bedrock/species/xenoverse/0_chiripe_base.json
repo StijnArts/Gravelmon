@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_128",
+      "model": "cobblemon:cutout_gravelmon_45_by_44.geo",
+      "poser": "cobblemon:cutout_gravelmon_45_by_44",
       "texture": "cobblemon:textures/pokemon/xenoverse/chiripe.png",
       "layers": [
         {

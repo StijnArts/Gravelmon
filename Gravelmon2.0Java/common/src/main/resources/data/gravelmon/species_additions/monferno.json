@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "chimchar form=epoch",
-      "baseScale": 0.225,
+      "baseScale": 0.39999999999999997,
       "cannotDynamax": false,
       "abilities": [
         "reckless",

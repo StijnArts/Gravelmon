@@ -184,7 +184,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "sinistea form=epoch",
-      "baseScale": 0.1,
+      "baseScale": 0.12972972972972974,
       "cannotDynamax": false,
       "abilities": [
         "moody",

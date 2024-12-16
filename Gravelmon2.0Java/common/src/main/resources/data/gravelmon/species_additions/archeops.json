@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "archen form=epoch",
-      "baseScale": 0.35,
+      "baseScale": 0.39069767441860465,
       "cannotDynamax": false,
       "abilities": [
         "galewings",
@@ -183,7 +183,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "archen form=ayreian",
-      "baseScale": 0.125,
+      "baseScale": 0.1518987341772152,
       "cannotDynamax": false,
       "abilities": [
         "limber",

@@ -6,8 +6,8 @@
       "aspects": [
         "epoch"
       ],
-      "model": "cobblemon:cutout_gravelmon_96_by_96.geo",
-      "poser": "cobblemon:cutout_gravelmon_96_by_96",
+      "model": "cobblemon:cutout_gravelmon_79_by_56.geo",
+      "poser": "cobblemon:cutout_gravelmon_79_by_56",
       "texture": "cobblemon:textures/pokemon/generation6/epochbinacle.png",
       "layers": [
         {

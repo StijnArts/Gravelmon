@@ -33,7 +33,7 @@ public class VariationData {
 
     public static VariationData fromPokemon(AbstractPokemon abstractPokemon, List<BasicLayerData> layers) {
         Supplier<String> identifier = () -> abstractPokemon.getGame().getCleanName() + "_" + abstractPokemon.getCleanName();
-        Supplier<String> model = () -> abstractPokemon.isModeled() ? identifier.get() : abstractPokemon.getPlaceholderModelName(abstractPokemon);
+        Supplier<String> model = () -> abstractPokemon.isModeled() ? identifier.get() : abstractPokemon.getPlaceholderModelName(abstractPokemon, false);
         return new VariationData(model, identifier, abstractPokemon.getCleanName(), layers);
     }
 
@@ -60,7 +60,7 @@ public class VariationData {
                 : this.model.get();
         jsonObject.add("aspects", aspectsArray);
         jsonObject.addProperty("model", "cobblemon:" + model + ".geo");
-        jsonObject.addProperty("poser", "cobblemon:" + (abstractPokemon.isModeled() ? poser.get() : abstractPokemon.getPlaceholderModelName(abstractPokemon)));
+        jsonObject.addProperty("poser", "cobblemon:" + (abstractPokemon.isModeled() ? poser.get() : abstractPokemon.getPlaceholderModelName(abstractPokemon, isFemale)));
         jsonObject.addProperty("texture", BasicLayerData.getTextureLocation(textureName, abstractPokemon, isShiny, isFemale));
         var layerArray = new JsonArray();
         layers.forEach((key, value) -> {

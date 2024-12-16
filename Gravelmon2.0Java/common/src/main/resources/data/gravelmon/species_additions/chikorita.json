@@ -109,7 +109,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.225,
+      "baseScale": 0.4909090909090909,
       "cannotDynamax": false,
       "abilities": [
         "immunity",
@@ -276,7 +276,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.225,
+      "baseScale": 0.45,
       "cannotDynamax": false,
       "abilities": [
         "lightningrod",
@@ -740,7 +740,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.225,
+      "baseScale": 0.46956521739130436,
       "cannotDynamax": false,
       "abilities": [
         "pixilate",

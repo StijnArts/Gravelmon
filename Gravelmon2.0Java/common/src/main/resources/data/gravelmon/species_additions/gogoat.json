@@ -34,7 +34,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "skiddo form=epoch",
-      "baseScale": 0.425,
+      "baseScale": 0.6181818181818182,
       "cannotDynamax": false,
       "abilities": [
         "guts",
@@ -176,7 +176,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.425,
+      "baseScale": 0.6276923076923077,
       "cannotDynamax": false,
       "abilities": [
         "sapsipper",
@@ -279,7 +279,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.425,
+      "baseScale": 0.5037037037037037,
       "cannotDynamax": false,
       "abilities": [
         "thickfat"

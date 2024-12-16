@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "vigoroth form=epoch",
-      "baseScale": 0.5,
+      "baseScale": 0.6153846153846154,
       "cannotDynamax": false,
       "abilities": [
         "thickfat",

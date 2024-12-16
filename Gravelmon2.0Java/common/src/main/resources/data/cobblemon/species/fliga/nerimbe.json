@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "snowtus",
-  "baseScale": 0.6,
+  "baseScale": 0.6620689655172414,
   "cannotDynamax": false,
   "abilities": [
     "icescales",
@@ -150,7 +150,7 @@
   "weight": 935,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5336,
+  "nationalPokedexNumber": 5343,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4,

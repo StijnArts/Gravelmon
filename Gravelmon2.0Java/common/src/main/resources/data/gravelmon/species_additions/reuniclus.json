@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "duosion form=epoch",
-      "baseScale": 0.25,
+      "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
         "torrent",
@@ -171,7 +171,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.25,
+      "baseScale": 0.25806451612903225,
       "cannotDynamax": false,
       "abilities": [
         "gooey",

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "whipcrat",
-  "baseScale": 0.2,
+  "baseScale": 0.26666666666666666,
   "cannotDynamax": false,
   "abilities": [
     "hustle",

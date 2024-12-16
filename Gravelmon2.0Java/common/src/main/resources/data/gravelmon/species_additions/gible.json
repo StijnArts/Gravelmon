@@ -418,7 +418,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.175,
+      "baseScale": 0.32941176470588235,
       "cannotDynamax": false,
       "abilities": [
         "unnerve",
@@ -600,7 +600,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.175,
+      "baseScale": 0.44210526315789467,
       "cannotDynamax": false,
       "abilities": [
         "roughskin",

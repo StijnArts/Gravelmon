@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "sealeo form=epoch",
-      "baseScale": 0.35,
+      "baseScale": 0.44799999999999995,
       "cannotDynamax": false,
       "abilities": [
         "waterabsorb",

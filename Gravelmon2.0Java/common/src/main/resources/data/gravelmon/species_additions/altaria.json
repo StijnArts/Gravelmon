@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "swablu form=epoch",
-      "baseScale": 0.275,
+      "baseScale": 0.33,
       "cannotDynamax": false,
       "abilities": [
         "neutralizinggas",
@@ -178,7 +178,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.275,
+      "baseScale": 0.41904761904761906,
       "cannotDynamax": false,
       "abilities": [
         "cloudnine",
@@ -680,7 +680,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "swablu form=ayreian",
-      "baseScale": 0.275,
+      "baseScale": 0.37183098591549296,
       "cannotDynamax": false,
       "abilities": [
         "levitate",

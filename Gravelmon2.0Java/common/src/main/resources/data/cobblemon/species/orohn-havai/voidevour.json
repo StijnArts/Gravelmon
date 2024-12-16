@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "voidefish",
-  "baseScale": 21.6,
+  "baseScale": 0.4909090909090909,
   "cannotDynamax": false,
   "abilities": [
     "swiftswim"

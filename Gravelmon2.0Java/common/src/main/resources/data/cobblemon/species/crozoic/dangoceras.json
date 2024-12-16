@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "takoyuki",
-  "baseScale": 0.4,
+  "baseScale": 0.5333333333333333,
   "cannotDynamax": false,
   "abilities": [
     "icebody",
@@ -80,7 +80,7 @@
   "weight": 720,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4390,
+  "nationalPokedexNumber": 4395,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.6,

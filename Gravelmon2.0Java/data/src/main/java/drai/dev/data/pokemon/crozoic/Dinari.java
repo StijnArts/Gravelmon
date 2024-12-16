@@ -23,7 +23,8 @@ public class Dinari extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Based on: Hypsilophodon"),
-                List.of(),
+                List.of(new EvolutionEntry("taltael", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"21")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.LAST_RESORT,1),

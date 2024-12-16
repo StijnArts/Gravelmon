@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "silcoon form=epoch",
-      "baseScale": 0.25,
+      "baseScale": 0.42857142857142855,
       "cannotDynamax": false,
       "abilities": [
         "telepathy",

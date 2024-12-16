@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "nincada form=epoch",
-      "baseScale": 0.2,
+      "baseScale": 0.4266666666666667,
       "cannotDynamax": false,
       "abilities": [
         "wonderguard"

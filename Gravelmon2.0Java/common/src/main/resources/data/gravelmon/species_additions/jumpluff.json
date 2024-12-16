@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "skiploom form=epoch",
-      "baseScale": 0.2,
+      "baseScale": 0.22325581395348837,
       "cannotDynamax": false,
       "abilities": [
         "levitate",
@@ -155,7 +155,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.2,
+      "baseScale": 0.3368421052631579,
       "cannotDynamax": false,
       "abilities": [
         "shielddust",
@@ -307,7 +307,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.2,
+      "baseScale": 0.2782608695652174,
       "cannotDynamax": false,
       "abilities": [
         "prankster"

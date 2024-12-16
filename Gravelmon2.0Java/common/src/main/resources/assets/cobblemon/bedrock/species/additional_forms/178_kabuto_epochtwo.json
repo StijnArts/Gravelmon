@@ -6,8 +6,8 @@
       "aspects": [
         "epochtwo"
       ],
-      "model": "cobblemon:cutout_gravelmon_96_by_96.geo",
-      "poser": "cobblemon:cutout_gravelmon_96_by_96",
+      "model": "cobblemon:cutout_gravelmon_41_by_34.geo",
+      "poser": "cobblemon:cutout_gravelmon_41_by_34",
       "texture": "cobblemon:textures/pokemon/generation1/epochkabutoone.png",
       "layers": [
         {

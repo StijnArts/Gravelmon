@@ -111,7 +111,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.225,
+      "baseScale": 0.4595744680851064,
       "cannotDynamax": false,
       "abilities": [
         "innerfocus",
@@ -276,7 +276,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.225,
+      "baseScale": 0.39999999999999997,
       "cannotDynamax": false,
       "abilities": [
         "sniper",

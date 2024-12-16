@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "conium",
-  "baseScale": 0.4,
+  "baseScale": 0.6508474576271187,
   "cannotDynamax": false,
   "abilities": [
     "poisonpoint"
@@ -142,7 +142,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7406,
+  "nationalPokedexNumber": 7412,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.6,

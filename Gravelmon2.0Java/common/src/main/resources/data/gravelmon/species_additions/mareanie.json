@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.1523809523809524,
       "cannotDynamax": false,
       "abilities": [
         "arenatrap",
@@ -178,7 +178,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.07500000000000001,
+      "baseScale": 0.1959183673469388,
       "cannotDynamax": false,
       "abilities": [
         "illuminate",

@@ -97,7 +97,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "timburr form=epoch",
-      "baseScale": 0.3,
+      "baseScale": 0.39452054794520547,
       "cannotDynamax": false,
       "abilities": [
         "unnerve",
@@ -255,7 +255,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.3,
+      "baseScale": 0.5333333333333333,
       "cannotDynamax": false,
       "abilities": [
         "oblivious",
@@ -416,7 +416,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.3,
+      "baseScale": 0.39999999999999997,
       "cannotDynamax": false,
       "abilities": [
         "guts",

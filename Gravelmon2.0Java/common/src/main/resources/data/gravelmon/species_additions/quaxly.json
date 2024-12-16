@@ -11,7 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.125,
+      "baseScale": 0.20689655172413793,
       "cannotDynamax": false,
       "abilities": [
         "torrent",

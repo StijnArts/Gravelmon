@@ -102,7 +102,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "diglett form=epoch",
-      "baseScale": 0.175,
+      "baseScale": 0.3054545454545454,
       "cannotDynamax": false,
       "abilities": [
         "infiltrator",
@@ -686,7 +686,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "diglett form=ayreian",
-      "baseScale": 0.175,
+      "baseScale": 0.27540983606557373,
       "cannotDynamax": false,
       "abilities": [
         "snowcloak",

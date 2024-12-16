@@ -133,7 +133,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.35,
+      "baseScale": 0.6222222222222221,
       "cannotDynamax": false,
       "abilities": [
         "earlybird",
@@ -290,7 +290,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.35,
+      "baseScale": 0.6339622641509434,
       "cannotDynamax": false,
       "abilities": [
         "cutecharm",
@@ -800,7 +800,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.4,
+      "baseScale": 0.6857142857142857,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"

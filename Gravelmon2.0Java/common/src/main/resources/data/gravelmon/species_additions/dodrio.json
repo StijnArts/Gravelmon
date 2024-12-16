@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "doduo form=epoch",
-      "baseScale": 0.45,
+      "baseScale": 0.561038961038961,
       "cannotDynamax": false,
       "abilities": [
         "earlybird",
@@ -154,7 +154,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.45,
+      "baseScale": 0.675,
       "cannotDynamax": false,
       "abilities": [
         "cutecharm",

@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.45,
+  "baseScale": 0.561038961038961,
   "cannotDynamax": false,
   "abilities": [
     "serenegrace",
@@ -80,7 +80,7 @@
   "weight": 2210,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4400,
+  "nationalPokedexNumber": 4405,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.8,

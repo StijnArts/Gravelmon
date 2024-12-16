@@ -36,7 +36,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "sunkern form=epoch",
-      "baseScale": 0.2,
+      "baseScale": 0.4,
       "cannotDynamax": false,
       "abilities": [
         "flashfire",

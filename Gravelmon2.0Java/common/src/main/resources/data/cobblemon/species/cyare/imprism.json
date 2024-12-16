@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "impie",
-  "baseScale": 0.15,
+  "baseScale": 0.35121951219512193,
   "cannotDynamax": false,
   "abilities": [
     "slushrush"
@@ -168,7 +168,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7442,
+  "nationalPokedexNumber": 7448,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.6,

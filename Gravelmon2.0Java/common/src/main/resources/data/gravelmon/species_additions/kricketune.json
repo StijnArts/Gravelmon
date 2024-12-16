@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "kricketot form=epoch",
-      "baseScale": 0.25,
+      "baseScale": 0.3582089552238806,
       "cannotDynamax": false,
       "abilities": [
         "shedskin",

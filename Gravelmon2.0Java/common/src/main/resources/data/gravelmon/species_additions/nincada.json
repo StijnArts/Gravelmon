@@ -11,7 +11,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.125,
+      "baseScale": 0.23529411764705882,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
@@ -179,7 +179,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.125,
+      "baseScale": 0.23076923076923078,
       "cannotDynamax": false,
       "abilities": [
         "tintedlens",

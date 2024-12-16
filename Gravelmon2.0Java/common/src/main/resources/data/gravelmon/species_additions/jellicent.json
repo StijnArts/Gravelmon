@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "frillish form=epoch",
-      "baseScale": 0.55,
+      "baseScale": 0.6857142857142857,
       "cannotDynamax": false,
       "abilities": [
         "effectspore",

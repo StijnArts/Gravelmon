@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "cubreeze",
-  "baseScale": 0.3,
+  "baseScale": 0.47213114754098356,
   "cannotDynamax": false,
   "abilities": [
     "snowcloak",
@@ -131,7 +131,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6442,
+  "nationalPokedexNumber": 6451,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.2,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "venonat form=ayreian",
-  "baseScale": 0.375,
+  "baseScale": 0.4864864864864865,
   "cannotDynamax": false,
   "abilities": [
     "shielddust",
@@ -135,7 +135,7 @@
   "weight": 125,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5503,
+  "nationalPokedexNumber": 5509,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.5,

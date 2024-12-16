@@ -214,7 +214,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "torchic form=ayreian",
-      "baseScale": 0.225,
+      "baseScale": 0.3130434782608696,
       "cannotDynamax": false,
       "abilities": [
         "longreach",

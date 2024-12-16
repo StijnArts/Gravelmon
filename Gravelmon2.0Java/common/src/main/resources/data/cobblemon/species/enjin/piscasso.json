@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "paintta",
-  "baseScale": 0.225,
+  "baseScale": 0.3375,
   "cannotDynamax": false,
   "abilities": [
     "colorchange",
@@ -160,7 +160,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6387,
+  "nationalPokedexNumber": 6396,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.9,

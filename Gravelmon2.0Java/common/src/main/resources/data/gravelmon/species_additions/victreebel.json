@@ -11,7 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.425,
+      "baseScale": 0.5666666666666667,
       "cannotDynamax": false,
       "abilities": [
         "corrosion"

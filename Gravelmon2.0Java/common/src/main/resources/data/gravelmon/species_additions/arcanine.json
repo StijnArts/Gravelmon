@@ -198,7 +198,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "growlithe form=epoch",
-      "baseScale": 0.475,
+      "baseScale": 0.6,
       "cannotDynamax": false,
       "abilities": [
         "dazzling"

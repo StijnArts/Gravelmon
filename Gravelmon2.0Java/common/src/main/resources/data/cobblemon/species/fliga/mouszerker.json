@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "mousprite",
-  "baseScale": 0.325,
+  "baseScale": 0.48000000000000004,
   "cannotDynamax": false,
   "abilities": [
     "voltabsorb",
@@ -95,7 +95,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5334,
+  "nationalPokedexNumber": 5341,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.3,

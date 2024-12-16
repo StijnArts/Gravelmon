@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "trumbeak form=epoch",
-      "baseScale": 0.275,
+      "baseScale": 0.3882352941176471,
       "cannotDynamax": false,
       "abilities": [
         "flowerveil",

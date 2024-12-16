@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "magneton form=ayreian",
-  "baseScale": 0.325,
+  "baseScale": 0.34285714285714286,
   "cannotDynamax": false,
   "abilities": [
     "flamebody",
@@ -139,7 +139,7 @@
   "weight": 650,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5485,
+  "nationalPokedexNumber": 5492,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.3,

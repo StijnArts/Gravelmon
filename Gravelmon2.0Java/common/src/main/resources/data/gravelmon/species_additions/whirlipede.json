@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "venipede form=epoch",
-      "baseScale": 0.3,
+      "baseScale": 0.5052631578947367,
       "cannotDynamax": false,
       "abilities": [
         "telepathy",
@@ -349,10 +349,181 @@
         "height": 1.2,
         "fixed": false
       }
+    },
+    {
+      "name": "Ayreian",
+      "primaryType": "electric",
+      "secondaryType": "dragon",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "venipede form=ayreian",
+      "baseScale": 0.40563380281690137,
+      "cannotDynamax": false,
+      "abilities": [
+        "static",
+        "motordrive"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 40,
+        "attack": 40,
+        "defence": 99,
+        "special_attack": 37,
+        "special_defence": 65,
+        "speed": 79
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 2,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "dragon"
+      ],
+      "drops": {},
+      "moves": [
+        "1:irondefense",
+        "1:tackle",
+        "11:thunderwave",
+        "36:electroweb",
+        "32:dragonpulse",
+        "20:electroball",
+        "1:defensecurl",
+        "45:electrify",
+        "25:dragonbreath",
+        "14:protect",
+        "41:discharge",
+        "5:rollout",
+        "17:twister",
+        "8:eerieimpulse",
+        "29:steamroller",
+        "48:thunder",
+        "tm:agility",
+        "tm:allyswitch",
+        "tm:aquatail",
+        "tm:assurance",
+        "tm:batonpass",
+        "tm:bulldoze",
+        "tm:cut",
+        "tm:darkpulse",
+        "tm:dig",
+        "tm:dracometeor",
+        "tm:dragondance",
+        "tm:dragontail",
+        "tm:dualchop",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:endeavor",
+        "tm:energyball",
+        "tm:flashcannon",
+        "tm:gigaimpact",
+        "tm:gyroball",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hyperbeam",
+        "tm:hypervoice",
+        "tm:irondefense",
+        "tm:irontail",
+        "tm:nastyplot",
+        "tm:naturepower",
+        "tm:payback",
+        "tm:rockclimb",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:rollout",
+        "tm:screech",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:smartstrike",
+        "tm:snatch",
+        "tm:solarbeam",
+        "tm:spikes",
+        "tm:steelroller",
+        "tm:stompingtantrum",
+        "tm:strength",
+        "tm:sunnyday",
+        "tm:superpower",
+        "tm:swordsdance",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:xscissor",
+        "tm:wildcharge",
+        "tm:zapcannon"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianwhirlipede.desc"
+      ],
+      "height": 12,
+      "weight": 585,
+      "aspects": [
+        "ayreian"
+      ],
+      "evolutions": [
+        {
+          "id": "ayreianwhirlipede_scolipede_ayreian",
+          "variant": "level_up",
+          "result": "scolipede ayreian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "30"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 1.2,
+        "height": 1.2,
+        "fixed": false
+      }
     }
   ],
   "features": [
     "epoch",
-    "delta"
+    "delta",
+    "ayreian"
   ]
 }

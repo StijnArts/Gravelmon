@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "jagrowth",
-  "baseScale": 0.425,
+  "baseScale": 0.48571428571428565,
   "cannotDynamax": false,
   "abilities": [
     "overgrow",

@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "krokorok form=epoch",
-      "baseScale": 0.375,
+      "baseScale": 0.45569620253164556,
       "cannotDynamax": false,
       "abilities": [
         "stalwart",
@@ -167,7 +167,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.375,
+      "baseScale": 0.46153846153846156,
       "cannotDynamax": false,
       "abilities": [
         "intimidate",

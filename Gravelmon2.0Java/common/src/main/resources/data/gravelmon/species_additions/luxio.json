@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "shinx form=epoch",
-      "baseScale": 0.225,
+      "baseScale": 0.3927272727272727,
       "cannotDynamax": false,
       "abilities": [
         "guts",
@@ -373,7 +373,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "shinx form=ayreian",
-      "baseScale": 0.225,
+      "baseScale": 0.36000000000000004,
       "cannotDynamax": false,
       "abilities": [
         "galvanize",

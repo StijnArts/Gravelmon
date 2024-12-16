@@ -6,8 +6,8 @@
       "aspects": [
         "epochtwo"
       ],
-      "model": "cobblemon:cutout_gravelmon_96_by_96.geo",
-      "poser": "cobblemon:cutout_gravelmon_96_by_96",
+      "model": "cobblemon:cutout_gravelmon_91_by_86.geo",
+      "poser": "cobblemon:cutout_gravelmon_91_by_86",
       "texture": "cobblemon:textures/pokemon/generation6/epochaegislashone.png",
       "layers": [
         {

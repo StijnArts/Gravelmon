@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "dunmyth",
-  "baseScale": 0.55,
+  "baseScale": 0.6068965517241379,
   "cannotDynamax": false,
   "abilities": [
     "serenegrace",
@@ -180,7 +180,7 @@
   "weight": 2340,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5492,
+  "nationalPokedexNumber": 5498,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.2,

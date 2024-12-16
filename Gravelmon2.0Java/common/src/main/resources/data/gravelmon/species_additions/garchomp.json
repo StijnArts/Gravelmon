@@ -456,7 +456,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "gabite form=epoch",
-      "baseScale": 0.475,
+      "baseScale": 0.6,
       "cannotDynamax": false,
       "abilities": [
         "unnerve",
@@ -618,7 +618,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.475,
+      "baseScale": 0.6,
       "cannotDynamax": false,
       "abilities": [
         "roughskin",

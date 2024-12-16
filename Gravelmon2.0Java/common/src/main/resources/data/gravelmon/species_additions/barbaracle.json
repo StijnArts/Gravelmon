@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "binacle form=epoch",
-      "baseScale": 0.325,
+      "baseScale": 0.33548387096774196,
       "cannotDynamax": false,
       "abilities": [
         "sturdy",
@@ -260,7 +260,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.325,
+      "baseScale": 0.39493670886075954,
       "cannotDynamax": false,
       "abilities": [
         "toughclaws",

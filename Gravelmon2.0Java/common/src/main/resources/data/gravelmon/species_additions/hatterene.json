@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "hattrem form=epoch",
-      "baseScale": 0.525,
+      "baseScale": 0.6379746835443039,
       "cannotDynamax": false,
       "abilities": [
         "curiousmedicine",
@@ -402,7 +402,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.7,
+      "baseScale": 0.84,
       "cannotDynamax": false,
       "abilities": [
         "intimidate",

@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.5,
+  "baseScale": 0.5217391304347826,
   "cannotDynamax": false,
   "abilities": [
     "waterabsorb"
@@ -82,7 +82,7 @@
   "weight": 2840,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4347,
+  "nationalPokedexNumber": 4349,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.0,

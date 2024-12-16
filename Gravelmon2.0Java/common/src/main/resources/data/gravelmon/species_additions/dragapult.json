@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "drakloak form=epoch",
-      "baseScale": 0.75,
+      "baseScale": 0.9863013698630136,
       "cannotDynamax": false,
       "abilities": [
         "whitesmoke",

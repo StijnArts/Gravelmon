@@ -94,7 +94,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.4,
+      "baseScale": 0.96,
       "cannotDynamax": false,
       "abilities": [
         "roughskin",
@@ -268,7 +268,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.33488372093023255,
       "cannotDynamax": false,
       "abilities": [
         "harvest",

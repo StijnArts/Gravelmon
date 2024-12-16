@@ -99,7 +99,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.35,
+      "baseScale": 0.3818181818181818,
       "cannotDynamax": false,
       "abilities": [
         "flashfire",

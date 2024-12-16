@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "eelektrik form=epoch",
-      "baseScale": 0.525,
+      "baseScale": 0.6461538461538462,
       "cannotDynamax": false,
       "abilities": [
         "sandveil",

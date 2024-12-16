@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "whirlipede form=epoch",
-      "baseScale": 0.625,
+      "baseScale": 0.8108108108108109,
       "cannotDynamax": false,
       "abilities": [
         "telepathy",
@@ -344,10 +344,168 @@
         "height": 2.3,
         "fixed": false
       }
+    },
+    {
+      "name": "Ayreian",
+      "primaryType": "electric",
+      "secondaryType": "dragon",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "whirlipede form=ayreian",
+      "baseScale": 0.6451612903225806,
+      "cannotDynamax": false,
+      "abilities": [
+        "static",
+        "motordrive"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 60,
+        "attack": 55,
+        "defence": 89,
+        "special_attack": 112,
+        "special_defence": 100,
+        "speed": 69
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 3,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "dragon"
+      ],
+      "drops": {},
+      "moves": [
+        "1:irondefense",
+        "1:tackle",
+        "12:thunderwave",
+        "39:electroweb",
+        "34:dragonpulse",
+        "23:electroball",
+        "1:defensecurl",
+        "55:electrify",
+        "28:dragonbreath",
+        "15:protect",
+        "65:thundercage",
+        "44:discharge",
+        "1:rollout",
+        "47:scaleshot",
+        "19:twister",
+        "1:eerieimpulse",
+        "33:steamroller",
+        "50:thunder",
+        "tm:agility",
+        "tm:allyswitch",
+        "tm:aquatail",
+        "tm:assurance",
+        "tm:batonpass",
+        "tm:bulldoze",
+        "tm:cut",
+        "tm:darkpulse",
+        "tm:dig",
+        "tm:dracometeor",
+        "tm:dragondance",
+        "tm:dragontail",
+        "tm:dualchop",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:endeavor",
+        "tm:energyball",
+        "tm:flashcannon",
+        "tm:gigaimpact",
+        "tm:gyroball",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hyperbeam",
+        "tm:hypervoice",
+        "tm:irondefense",
+        "tm:irontail",
+        "tm:nastyplot",
+        "tm:naturepower",
+        "tm:payback",
+        "tm:rockclimb",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:rollout",
+        "tm:screech",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:smartstrike",
+        "tm:snatch",
+        "tm:solarbeam",
+        "tm:spikes",
+        "tm:steelroller",
+        "tm:stompingtantrum",
+        "tm:strength",
+        "tm:sunnyday",
+        "tm:superpower",
+        "tm:swordsdance",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:xscissor",
+        "tm:wildcharge",
+        "tm:zapcannon"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianscolipede.desc"
+      ],
+      "height": 25,
+      "weight": 2005,
+      "aspects": [
+        "ayreian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.5,
+        "height": 2.5,
+        "fixed": false
+      }
     }
   ],
   "features": [
     "epoch",
-    "delta"
+    "delta",
+    "ayreian"
   ]
 }

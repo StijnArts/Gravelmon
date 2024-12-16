@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "trilobrite",
-  "baseScale": 0.275,
+  "baseScale": 0.3666666666666667,
   "cannotDynamax": false,
   "abilities": [
     "illuminate"
@@ -89,7 +89,7 @@
   "weight": 380,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4339,
+  "nationalPokedexNumber": 4341,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.1,

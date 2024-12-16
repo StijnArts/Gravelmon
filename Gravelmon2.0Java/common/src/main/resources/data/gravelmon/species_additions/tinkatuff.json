@@ -13,7 +13,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "tinkatink form=epoch",
-      "baseScale": 0.175,
+      "baseScale": 0.3230769230769231,
       "cannotDynamax": false,
       "abilities": [
         "dragonsmaw",

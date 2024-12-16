@@ -36,7 +36,7 @@
         "female"
       ],
       "model": "cobblemon:cutout_gravelmon_41_by_63.geo",
-      "poser": "cobblemon:cutout_gravelmon_41_by_65",
+      "poser": "cobblemon:cutout_gravelmon_41_by_63",
       "texture": "cobblemon:textures/pokemon/sage/llamarsh_female.png",
       "layers": [
         {

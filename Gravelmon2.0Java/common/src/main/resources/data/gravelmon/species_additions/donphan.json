@@ -187,7 +187,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "phanpy form=epoch",
-      "baseScale": 0.275,
+      "baseScale": 0.3666666666666667,
       "cannotDynamax": false,
       "abilities": [
         "snowcloak",
@@ -441,7 +441,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.275,
+      "baseScale": 0.3826086956521739,
       "cannotDynamax": false,
       "abilities": [
         "icebody",

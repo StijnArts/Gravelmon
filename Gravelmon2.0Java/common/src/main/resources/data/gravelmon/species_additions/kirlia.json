@@ -120,7 +120,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "ralts form=epoch",
-      "baseScale": 0.2,
+      "baseScale": 0.3918367346938776,
       "cannotDynamax": false,
       "abilities": [
         "runaway",
@@ -322,7 +322,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "ralts form=avalossian",
-      "baseScale": 0.2,
+      "baseScale": 0.35555555555555557,
       "cannotDynamax": false,
       "abilities": [
         "innerfocus",
@@ -716,7 +716,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.2,
+      "baseScale": 0.30000000000000004,
       "cannotDynamax": false,
       "abilities": [
         "galewings",

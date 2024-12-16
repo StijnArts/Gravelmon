@@ -135,7 +135,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "whismur form=epoch",
-      "baseScale": 0.25,
+      "baseScale": 0.41379310344827586,
       "cannotDynamax": false,
       "abilities": [
         "motordrive",

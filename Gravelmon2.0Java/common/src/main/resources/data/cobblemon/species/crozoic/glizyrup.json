@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.275,
+  "baseScale": 0.45517241379310347,
   "cannotDynamax": false,
   "abilities": [
     "windrider",
@@ -134,7 +134,7 @@
   "weight": 70,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4322,
+  "nationalPokedexNumber": 4324,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.1,

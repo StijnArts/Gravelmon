@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "grubble",
-  "baseScale": 0.15,
+  "baseScale": 0.29387755102040813,
   "cannotDynamax": false,
   "abilities": [
     "shedskin"
@@ -92,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 7326,
+  "nationalPokedexNumber": 7332,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.6,

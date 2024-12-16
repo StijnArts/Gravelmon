@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "abra form=epoch",
-      "baseScale": 0.325,
+      "baseScale": 0.49523809523809526,
       "cannotDynamax": false,
       "abilities": [
         "innerfocus",
@@ -168,7 +168,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "abra form=ayreian",
-      "baseScale": 0.375,
+      "baseScale": 0.5,
       "cannotDynamax": false,
       "abilities": [
         "sniper",

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "kerbunsta",
-  "baseScale": 0.475,
+  "baseScale": 0.6333333333333333,
   "cannotDynamax": false,
   "abilities": [
     "overgrow"
@@ -90,7 +90,7 @@
   "weight": 1474,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5269,
+  "nationalPokedexNumber": 5274,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.9,

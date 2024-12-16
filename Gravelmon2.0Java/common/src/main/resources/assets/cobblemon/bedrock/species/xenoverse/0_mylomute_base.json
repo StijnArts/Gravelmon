@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_128",
+      "model": "cobblemon:cutout_gravelmon_57_by_80.geo",
+      "poser": "cobblemon:cutout_gravelmon_57_by_80",
       "texture": "cobblemon:textures/pokemon/xenoverse/mylomute.png",
       "layers": [
         {

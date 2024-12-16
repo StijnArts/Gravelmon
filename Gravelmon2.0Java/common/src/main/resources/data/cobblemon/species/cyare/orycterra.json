@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "quafer",
-  "baseScale": 0.3,
+  "baseScale": 0.4430769230769231,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -75,7 +75,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7371,
+  "nationalPokedexNumber": 7377,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.2,

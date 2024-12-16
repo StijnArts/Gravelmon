@@ -6,8 +6,8 @@
       "aspects": [
         "epoch"
       ],
-      "model": "cobblemon:cutout_gravelmon_96_by_96.geo",
-      "poser": "cobblemon:cutout_gravelmon_96_by_96",
+      "model": "cobblemon:cutout_gravelmon_76_by_79.geo",
+      "poser": "cobblemon:cutout_gravelmon_76_by_79",
       "texture": "cobblemon:textures/pokemon/generation5/epochkrookodile.png",
       "layers": [
         {

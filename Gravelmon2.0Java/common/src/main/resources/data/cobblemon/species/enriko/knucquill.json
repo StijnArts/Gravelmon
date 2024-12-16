@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "hogspur",
-  "baseScale": 0.25,
+  "baseScale": 0.25806451612903225,
   "cannotDynamax": false,
   "abilities": [
     "sandveil",

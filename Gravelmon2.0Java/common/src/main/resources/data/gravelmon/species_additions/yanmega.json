@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "yanma form=epoch",
-      "baseScale": 0.475,
+      "baseScale": 0.5846153846153846,
       "cannotDynamax": false,
       "abilities": [
         "stormdrain",
@@ -163,7 +163,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.475,
+      "baseScale": 0.608,
       "cannotDynamax": false,
       "abilities": [
         "weakarmor",

@@ -10,7 +10,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.25,
+      "baseScale": 0.631578947368421,
       "cannotDynamax": false,
       "abilities": [
         "pressure",
@@ -181,7 +181,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.25,
+      "baseScale": 0.6153846153846154,
       "cannotDynamax": false,
       "abilities": [
         "owntempo",

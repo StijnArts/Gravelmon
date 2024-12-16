@@ -6,8 +6,8 @@
       "aspects": [
         "ayreian"
       ],
-      "model": "cobblemon:cutout_gravelmon_96_by_96.geo",
-      "poser": "cobblemon:cutout_gravelmon_96_by_96",
+      "model": "cobblemon:cutout_gravelmon_89_by_82.geo",
+      "poser": "cobblemon:cutout_gravelmon_89_by_82",
       "texture": "cobblemon:textures/pokemon/generation3/ayreiansceptile.png",
       "layers": [
         {

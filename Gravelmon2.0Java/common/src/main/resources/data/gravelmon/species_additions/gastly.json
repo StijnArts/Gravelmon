@@ -215,7 +215,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.325,
+      "baseScale": 0.6000000000000001,
       "cannotDynamax": false,
       "abilities": [
         "filter",
@@ -371,7 +371,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.325,
+      "baseScale": 0.5473684210526316,
       "cannotDynamax": false,
       "abilities": [
         "levitate"
@@ -662,7 +662,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 26,
       "baseFriendship": 70,
-      "baseScale": 0.325,
+      "baseScale": 0.7428571428571429,
       "cannotDynamax": false,
       "abilities": [
         "levitate"

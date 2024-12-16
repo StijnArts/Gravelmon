@@ -7,7 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.725,
+  "baseScale": 0.848780487804878,
   "cannotDynamax": false,
   "abilities": [
     "beastboost"
@@ -86,7 +86,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5349,
+  "nationalPokedexNumber": 5356,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9,

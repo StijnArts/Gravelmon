@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "daffochil",
-  "baseScale": 0.425,
+  "baseScale": 0.5230769230769231,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -79,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7352,
+  "nationalPokedexNumber": 7358,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.7,

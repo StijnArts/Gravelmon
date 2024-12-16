@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.3,
+  "baseScale": 0.4235294117647059,
   "cannotDynamax": false,
   "abilities": [
     "overcoat",
@@ -137,7 +137,7 @@
   "weight": 490,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5513,
+  "nationalPokedexNumber": 5519,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.2,

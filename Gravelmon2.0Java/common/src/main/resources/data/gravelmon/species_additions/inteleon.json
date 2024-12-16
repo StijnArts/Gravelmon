@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "drizzile form=epoch",
-      "baseScale": 0.475,
+      "baseScale": 0.57,
       "cannotDynamax": false,
       "abilities": [
         "raindish"

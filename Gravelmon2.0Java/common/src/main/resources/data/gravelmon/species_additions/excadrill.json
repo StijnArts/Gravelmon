@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "drilbur form=epoch",
-      "baseScale": 0.175,
+      "baseScale": 0.20240963855421684,
       "cannotDynamax": false,
       "abilities": [
         "moldbreaker",
@@ -166,7 +166,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.175,
+      "baseScale": 0.21,
       "cannotDynamax": false,
       "abilities": [
         "wonderskin",

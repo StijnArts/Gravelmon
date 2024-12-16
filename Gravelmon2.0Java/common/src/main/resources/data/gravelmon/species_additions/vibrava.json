@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "trapinch form=epoch",
-      "baseScale": 0.275,
+      "baseScale": 0.42580645161290326,
       "cannotDynamax": false,
       "abilities": [
         "cloudnine",
@@ -278,7 +278,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "trapinch form=ayreian",
-      "baseScale": 0.275,
+      "baseScale": 0.41250000000000003,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"

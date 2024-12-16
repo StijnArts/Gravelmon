@@ -100,7 +100,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "tyrogue form=epoch",
-      "baseScale": 0.375,
+      "baseScale": 0.5294117647058824,
       "cannotDynamax": false,
       "abilities": [
         "limber",
@@ -549,7 +549,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "tyrogue",
-      "baseScale": 0.375,
+      "baseScale": 0.5901639344262295,
       "cannotDynamax": false,
       "abilities": [
         "limber",

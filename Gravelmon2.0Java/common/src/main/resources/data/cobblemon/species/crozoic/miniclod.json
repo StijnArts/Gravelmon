@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.2,
+  "baseScale": 0.4266666666666667,
   "cannotDynamax": false,
   "abilities": [
     "cloudnine",
@@ -95,7 +95,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4357,
+  "nationalPokedexNumber": 4361,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.8,

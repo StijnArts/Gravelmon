@@ -109,7 +109,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.3272727272727272,
       "cannotDynamax": false,
       "abilities": [
         "dryskin",
@@ -293,7 +293,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.3789473684210526,
       "cannotDynamax": false,
       "abilities": [
         "strongjaw",
@@ -772,7 +772,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.22499999999999998,
       "cannotDynamax": false,
       "abilities": [
         "toughclaws",

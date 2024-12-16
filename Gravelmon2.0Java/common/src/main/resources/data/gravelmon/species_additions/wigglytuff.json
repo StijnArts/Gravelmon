@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "jigglypuff form=epoch",
-      "baseScale": 0.5,
+      "baseScale": 0.9795918367346939,
       "cannotDynamax": false,
       "abilities": [
         "simple",

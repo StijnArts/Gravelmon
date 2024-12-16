@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "zigzagoon form=epoch",
-      "baseScale": 0.125,
+      "baseScale": 0.19047619047619047,
       "cannotDynamax": false,
       "abilities": [
         "insomnia",
@@ -191,7 +191,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.125,
+      "baseScale": 0.15584415584415584,
       "cannotDynamax": false,
       "abilities": [
         "skilllink",

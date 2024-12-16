@@ -34,7 +34,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "solosis form=epoch",
-      "baseScale": 0.15,
+      "baseScale": 0.32,
       "cannotDynamax": false,
       "abilities": [
         "torrent",
@@ -207,7 +207,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15,
+      "baseScale": 0.2571428571428571,
       "cannotDynamax": false,
       "abilities": [
         "gooey",

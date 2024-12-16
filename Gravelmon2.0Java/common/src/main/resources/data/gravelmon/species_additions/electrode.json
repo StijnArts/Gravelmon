@@ -33,7 +33,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "voltorb form=epoch",
-      "baseScale": 0.3,
+      "baseScale": 0.47213114754098356,
       "cannotDynamax": false,
       "abilities": [
         "speedboost",
@@ -170,7 +170,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.3,
+      "baseScale": 0.3891891891891892,
       "cannotDynamax": false,
       "abilities": [
         "pressure",
@@ -413,7 +413,7 @@
       "eggCycles": 26,
       "baseFriendship": 70,
       "preEvolution": "voltorb form=ayreian",
-      "baseScale": 0.3,
+      "baseScale": 0.5052631578947367,
       "cannotDynamax": false,
       "abilities": [
         "rockypayload",

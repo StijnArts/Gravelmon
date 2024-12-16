@@ -314,7 +314,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.3,
+      "baseScale": 0.488135593220339,
       "cannotDynamax": false,
       "abilities": [
         "superluck",
@@ -444,7 +444,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.3,
+      "baseScale": 0.48,
       "cannotDynamax": false,
       "abilities": [
         "magicguard",
@@ -583,6 +583,191 @@
         "height": 1.2,
         "fixed": false
       }
+    },
+    {
+      "name": "Ayreian",
+      "primaryType": "grass",
+      "secondaryType": "fairy",
+      "catchRate": 30,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.45176470588235296,
+      "cannotDynamax": false,
+      "abilities": [
+        "justified",
+        "chlorophyll"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 65,
+        "attack": 120,
+        "defence": 70,
+        "special_attack": 95,
+        "special_defence": 75,
+        "speed": 70
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "25:calmmind",
+        "1:leer",
+        "50:sacredsword",
+        "40:hornleech",
+        "5:leafage",
+        "35:focusenergy",
+        "20:taunt",
+        "15:razorleaf",
+        "1:fairywind",
+        "60:solarblade",
+        "10:knockoff",
+        "30:dazzlinggleam",
+        "45:playrough",
+        "tm:aerialace",
+        "tm:airslash",
+        "tm:assurance",
+        "tm:attract",
+        "tm:batonpass",
+        "tm:blizzard",
+        "tm:bodyslam",
+        "tm:bounce",
+        "tm:brutalswing",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:closecombat",
+        "tm:confide",
+        "tm:cut",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:echoedvoice",
+        "tm:endure",
+        "tm:facade",
+        "tm:falseswipe",
+        "tm:fireblast",
+        "tm:flamethrower",
+        "tm:focusenergy",
+        "tm:foulplay",
+        "tm:frustration",
+        "tm:futuresight",
+        "tm:gigaimpact",
+        "tm:hail",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:icebeam",
+        "tm:icywind",
+        "tm:irontail",
+        "tm:knockoff",
+        "tm:laserfocus",
+        "tm:magiccoat",
+        "tm:megahorn",
+        "tm:payback",
+        "tm:playrough",
+        "tm:protect",
+        "tm:psychocut",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:rest",
+        "tm:retaliate",
+        "tm:return",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:roleplay",
+        "tm:round",
+        "tm:sandstorm",
+        "tm:shadowball",
+        "tm:shadowclaw",
+        "tm:shockwave",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:snatch",
+        "tm:snore",
+        "tm:spite",
+        "tm:stoneedge",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:superpower",
+        "tm:swagger",
+        "tm:swift",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:thief",
+        "tm:throatchop",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:torment",
+        "tm:toxic",
+        "tm:waterpulse",
+        "tm:willowisp",
+        "tm:xscissor",
+        "tm:zenheadbutt",
+        "egg:bite",
+        "egg:curse",
+        "egg:doubleedge",
+        "egg:feint",
+        "egg:magiccoat",
+        "egg:meanlook"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianabsol.desc"
+      ],
+      "height": 16,
+      "weight": 470,
+      "aspects": [
+        "ayreian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 1.6,
+        "height": 1.6,
+        "fixed": false
+      }
     }
   ],
   "features": [
@@ -590,6 +775,7 @@
     "trizoran",
     "norse",
     "epoch",
-    "epochtwo"
+    "epochtwo",
+    "ayreian"
   ]
 }

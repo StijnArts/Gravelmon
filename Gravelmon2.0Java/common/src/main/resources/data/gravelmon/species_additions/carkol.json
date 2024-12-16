@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "rolycoly form=epoch",
-      "baseScale": 0.275,
+      "baseScale": 0.43278688524590164,
       "cannotDynamax": false,
       "abilities": [
         "stamina",

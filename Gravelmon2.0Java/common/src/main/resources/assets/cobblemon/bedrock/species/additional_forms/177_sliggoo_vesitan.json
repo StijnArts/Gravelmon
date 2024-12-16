@@ -6,8 +6,8 @@
       "aspects": [
         "vesitan"
       ],
-      "model": "cobblemon:cutout_gravelmon_96_by_96.geo",
-      "poser": "cobblemon:cutout_gravelmon_96_by_96",
+      "model": "cobblemon:cutout_gravelmon_40_by_57.geo",
+      "poser": "cobblemon:cutout_gravelmon_40_by_57",
       "texture": "cobblemon:textures/pokemon/generation6/vesitansliggoo.png",
       "layers": [
         {

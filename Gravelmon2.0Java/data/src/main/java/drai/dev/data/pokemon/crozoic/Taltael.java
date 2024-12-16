@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Taltael extends drai.dev.data.pokemon.Pokemon {
-    public Taltael() {
+    public Taltael(Stats stats) {
         super("Taltael",
                 Type.NORMAL,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.RUN_AWAY), Ability.RUN_AWAY,
                 10, 136,
                 new Stats(0,0,0,0,0,0), 130,

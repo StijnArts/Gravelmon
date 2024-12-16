@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "bommy",
-  "baseScale": 0.35,
+  "baseScale": 0.6109090909090908,
   "cannotDynamax": false,
   "abilities": [
     "cutecharm",
@@ -91,7 +91,7 @@
   "weight": 329,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7345,
+  "nationalPokedexNumber": 7351,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.4,

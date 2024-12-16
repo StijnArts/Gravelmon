@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sproutle",
-  "baseScale": 0.375,
+  "baseScale": 0.39560439560439564,
   "cannotDynamax": false,
   "abilities": [
     "solidrock",
@@ -119,7 +119,7 @@
   "weight": 815,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5317,
+  "nationalPokedexNumber": 5324,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.5,

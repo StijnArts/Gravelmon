@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "deerling form=epoch",
-      "baseScale": 0.475,
+      "baseScale": 0.5922077922077922,
       "cannotDynamax": false,
       "abilities": [
         "flamebody",
@@ -144,9 +144,163 @@
         "height": 1.9,
         "fixed": false
       }
+    },
+    {
+      "name": "Ayreian",
+      "primaryType": "psychic",
+      "secondaryType": "electric",
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "deerling form=ayreian",
+      "baseScale": 0.5846153846153846,
+      "cannotDynamax": false,
+      "abilities": [
+        "lightningrod",
+        "berserk"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": true,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 60,
+        "defence": 70,
+        "special_attack": 95,
+        "special_defence": 100,
+        "speed": 70
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 2,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "36:glare",
+        "13:thunderwave",
+        "10:doublekick",
+        "44:naturepower",
+        "1:moonblast",
+        "7:sandattack",
+        "16:feintattack",
+        "20:swift",
+        "24:ominouswind",
+        "0:paraboliccharge",
+        "1:camouflage",
+        "1:mysticalfire",
+        "52:psychic",
+        "1:confusion",
+        "32:thunderbolt",
+        "4:growl",
+        "28:psybeam",
+        "60:thunder",
+        "tm:agility",
+        "tm:batonpass",
+        "tm:bodyslam",
+        "tm:bounce",
+        "tm:charm",
+        "tm:confuseray",
+        "tm:cut",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:echoedvoice",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:energyball",
+        "tm:expandingforce",
+        "tm:faketears",
+        "tm:flash",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:hex",
+        "tm:highhorsepower",
+        "tm:hyperbeam",
+        "tm:icywind",
+        "tm:lastresort",
+        "tm:lightscreen",
+        "tm:magicalleaf",
+        "tm:megahorn",
+        "tm:megakick",
+        "tm:nastyplot",
+        "tm:naturepower",
+        "tm:playrough",
+        "tm:psyshock",
+        "tm:psychic",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:retaliate",
+        "tm:revenge",
+        "tm:risingvoltage",
+        "tm:safeguard",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:solarbeam",
+        "tm:stompingtantrum",
+        "tm:sunnyday",
+        "tm:takedown",
+        "tm:thunderwave",
+        "tm:voltswitch",
+        "tm:wildcharge",
+        "tm:workup"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreiansawsbuck.desc"
+      ],
+      "height": 19,
+      "weight": 925,
+      "aspects": [
+        "ayreian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 1.9,
+        "height": 1.9,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "epoch"
+    "epoch",
+    "ayreian"
   ]
 }

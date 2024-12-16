@@ -111,7 +111,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.16000000000000003,
       "cannotDynamax": false,
       "abilities": [
         "steamengine",
@@ -277,7 +277,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.15483870967741936,
       "cannotDynamax": false,
       "abilities": [
         "shadowshield",

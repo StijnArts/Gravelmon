@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "turtwig form=epoch",
-      "baseScale": 0.275,
+      "baseScale": 0.3666666666666667,
       "cannotDynamax": false,
       "abilities": [
         "solidrock",

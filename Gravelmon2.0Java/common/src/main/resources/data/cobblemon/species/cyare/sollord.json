@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sollis",
-  "baseScale": 0.4,
+  "baseScale": 0.5333333333333333,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -77,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7449,
+  "nationalPokedexNumber": 7455,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.6,

@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 4.800000000000001,
+  "baseScale": 0.25263157894736843,
   "cannotDynamax": false,
   "abilities": [
     "waterabsorb",

@@ -6,8 +6,8 @@
       "aspects": [
         "havaiian"
       ],
-      "model": "cobblemon:cutout_gravelmon_96_by_96.geo",
-      "poser": "cobblemon:cutout_gravelmon_96_by_96",
+      "model": "cobblemon:cutout_gravelmon_66_by_64.geo",
+      "poser": "cobblemon:cutout_gravelmon_66_by_64",
       "texture": "cobblemon:textures/pokemon/generation1/havaiianhaunter.png",
       "layers": [
         {

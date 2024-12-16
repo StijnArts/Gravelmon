@@ -42,7 +42,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "slugma form=epoch",
-      "baseScale": 0.2,
+      "baseScale": 0.36226415094339626,
       "cannotDynamax": false,
       "abilities": [
         "unaware",
@@ -179,7 +179,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.2,
+      "baseScale": 0.3047619047619048,
       "cannotDynamax": false,
       "abilities": [
         "waterveil",

@@ -96,7 +96,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
         "icebody",
@@ -256,7 +256,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.13714285714285715,
       "cannotDynamax": false,
       "abilities": [
         "magnetpull",

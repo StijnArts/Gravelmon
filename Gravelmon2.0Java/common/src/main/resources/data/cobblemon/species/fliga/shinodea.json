@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "nincada form=avalossian",
-  "baseScale": 0.2,
+  "baseScale": 0.27042253521126763,
   "cannotDynamax": false,
   "abilities": [
     "technician",
@@ -98,7 +98,7 @@
   "weight": 120,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5281,
+  "nationalPokedexNumber": 5286,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.8,

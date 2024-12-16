@@ -196,7 +196,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.2,
+      "baseScale": 0.3310344827586207,
       "cannotDynamax": false,
       "abilities": [
         "sandforce",
@@ -370,7 +370,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.2,
+      "baseScale": 0.31475409836065577,
       "cannotDynamax": false,
       "abilities": [
         "parentalbond",

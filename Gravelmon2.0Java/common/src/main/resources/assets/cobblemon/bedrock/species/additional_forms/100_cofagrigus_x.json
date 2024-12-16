@@ -6,8 +6,8 @@
       "aspects": [
         "x"
       ],
-      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_128",
+      "model": "cobblemon:cutout_gravelmon_96_by_78.geo",
+      "poser": "cobblemon:cutout_gravelmon_96_by_78",
       "texture": "cobblemon:textures/pokemon/generation5/cofagrigusx.png",
       "layers": [
         {

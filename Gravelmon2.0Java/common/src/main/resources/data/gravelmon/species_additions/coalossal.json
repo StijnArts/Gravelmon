@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "carkol form=epoch",
-      "baseScale": 0.7,
+      "baseScale": 0.8096385542168674,
       "cannotDynamax": false,
       "abilities": [
         "stamina",
