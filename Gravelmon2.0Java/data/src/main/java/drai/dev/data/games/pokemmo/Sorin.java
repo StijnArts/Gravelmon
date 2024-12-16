@@ -52,12 +52,12 @@ public class Sorin extends drai.dev.data.games.registry.Game {
                 List.of(StatType.ATTACK))));
         addNewPokemon(new Unjibee());   
         addNewPokemon(new Tujibees());   
-        addNewPokemon(new Furubee(new Stats(467, StatArchetype.FAST_SPECIAL_WALL,
+        addNewPokemon(new Furikuinn(new Stats(467, StatArchetype.FAST_SPECIAL_WALL,
                 List.of(StatType.SPECIAL_DEFENCE))));
         addNewPokemon(new Kittim());
         addNewPokemon(new Kitmoone(new Stats(489, StatArchetype.FAST_SPECIAL_ATTACKER,
                 List.of(StatType.SPECIAL_ATTACK))));
-        addNewPokemon(new Flodeppo(new Stats(478, StatArchetype.FAST_PHYSICAL_WALL,
+        addNewPokemon(new Ozonzu(new Stats(478, StatArchetype.FAST_PHYSICAL_WALL,
                 List.of(StatType.HP))));
         addNewPokemon(new Kabbema());
         addNewPokemon(new Kabrookie(new Stats(465, StatArchetype.PHYSICAL_ATTACKER,
@@ -79,7 +79,7 @@ public class Sorin extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Suiboo());
         addNewPokemon(new Suidra(new Stats(469, StatArchetype.SPECIAL_ATTACKER,
                 List.of(StatType.SPECIAL_ATTACK))));
-        addNewPokemon(new Tenchick());
+        addNewPokemon(new Gullpy());
         addNewPokemon(new Teffin(new Stats(445, StatArchetype.FAST_SPECIAL_ATTACKER,
                 List.of(StatType.SPECIAL_ATTACK))));
         addNewPokemon(new Driftzee(new Stats(410, StatArchetype.FAST_SUPPORT,
@@ -108,8 +108,6 @@ public class Sorin extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Cepiina(new Stats(476, StatArchetype.SPECIAL_ATTACKER,
                 List.of(StatType.SPECIAL_DEFENCE))));
         addNewPokemon(new Snabami(new Stats(454, StatArchetype.FAST_PHYSICAL_ATTACKER,
-                List.of(StatType.ATTACK))));
-        addNewPokemon(new Subserow(new Stats(454, StatArchetype.PHYSICAL_ATTACKER,
                 List.of(StatType.ATTACK))));
         addNewPokemon(new Furalem(new Stats(454, StatArchetype.BULKY_PHYSICAL_ATTACKER,
                 List.of(StatType.DEFENCE))));
@@ -142,7 +140,7 @@ public class Sorin extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Slashtork(new Stats(522, StatArchetype.PHYSICAL_ATTACKER,
                 List.of(StatType.DEFENCE))));
         addNewPokemon(new Tarpir());   
-        addNewPokemon(new Tarbaku(new Stats(490, StatArchetype.BULKY_SPECIAL_ATTACKER,
+        addNewPokemon(new Morowreck(new Stats(490, StatArchetype.BULKY_SPECIAL_ATTACKER,
                 List.of(StatType.DEFENCE))));
         addNewPokemon(new Yograde());
         addNewPokemon(new Scubeetle(new Stats(476, StatArchetype.BULKY_PHYSICAL_ATTACKER,
@@ -161,9 +159,9 @@ public class Sorin extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Barun());   
         addNewPokemon(new Rydreki(new Stats(600, StatArchetype.PHYSICAL_ATTACKER,
                 List.of(StatType.SPECIAL_DEFENCE, StatType.SPECIAL_DEFENCE, StatType.ATTACK))));
-        addNewPokemon(new Nyokushi(new Stats(580, StatArchetype.FAST_SPECIAL_WALL,
+        addNewPokemon(new Shinimi(new Stats(580, StatArchetype.FAST_SPECIAL_WALL,
                 List.of(StatType.SPECIAL_DEFENCE))));
-        addNewPokemon(new Tsuchigu(new Stats(580, StatArchetype.FAST_PHYSICAL_WALL,
+        addNewPokemon(new Banshugi(new Stats(580, StatArchetype.FAST_PHYSICAL_WALL,
                 List.of(StatType.DEFENCE))));
         addNewPokemon(new Sakurage(new Stats(580, StatArchetype.SPECIAL_WALL,
                 List.of(StatType.SPECIAL_DEFENCE))));

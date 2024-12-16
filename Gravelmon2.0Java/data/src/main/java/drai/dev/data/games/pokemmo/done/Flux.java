@@ -83,6 +83,8 @@ public class Flux extends Game {
         addNewPokemon(new Cactana());
 //        addNewPokemon(new AlteranChimical()); //unfinished
         addNewPokemon(new Emberge());
+        addNewPokemon(new Glubble());
+        addNewPokemon(new Garblgoyle());
         addNewPokemon(new Aerapin());
         addNewPokemon(new Albashell());
         addNewPokemon(new Grizzlet());

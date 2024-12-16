@@ -450,7 +450,7 @@ public class Pokemon extends AbstractPokemon {
     }
 
     public void setLangFileName(String langFileName) {
-        this.langFileName = StringUtils.capitalize(langFileName);
+//        this.langFileName = StringUtils.capitalize(langFileName);
     }
 
     public String getLangFileName() {

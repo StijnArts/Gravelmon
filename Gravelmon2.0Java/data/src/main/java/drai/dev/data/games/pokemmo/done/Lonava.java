@@ -72,7 +72,6 @@ public class Lonava extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Avocallite());
         addNewPokemon(new Jarmalade());
         addNewPokemon(new Jamphibian());
-        addNewPokemon(new Charitot());
         addNewPokemon(new Agapray());
         addNewPokemon(new Boongus());
         addNewPokemon(new Oogashroomga());
