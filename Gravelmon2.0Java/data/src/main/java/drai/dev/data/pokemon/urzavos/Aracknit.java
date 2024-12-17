@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Aracknit extends drai.dev.data.pokemon.Pokemon {
-    public Aracknit() {
+    public Aracknit(Stats stats) {
         super("Aracknit",
                 Type.NORMAL, Type.FAIRY,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 5, 36,
                 new Stats(0,0,0,0,0,0), 80,
@@ -24,7 +19,7 @@ public class Aracknit extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Some consider these 'Mons nuisances, others use these 'Mons to collect fabric and yarn to use in their projects. Depending on the temperament of the 'Mon, they either share their hoard freely or jealously guard it."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.URZAVOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

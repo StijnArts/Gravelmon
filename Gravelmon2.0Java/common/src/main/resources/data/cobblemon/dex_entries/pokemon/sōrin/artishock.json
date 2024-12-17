@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:artishock",
+  "speciesId": "cobblemon:artishock",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

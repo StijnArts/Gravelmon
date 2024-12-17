@@ -1,25 +1,69 @@
 {
   "species": "cobblemon:wailmer",
-  "order": 11,
+  "order": 133,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:deltawailmer.geo",
+      "model": "cobblemon:generation3_deltawailmer.geo",
       "poser": "cobblemon:generation3_deltawailmer",
-      "texture": "cobblemon:textures/pokemon/generation3/deltawailmer.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation3/deltawailmer/deltawailmer.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     },
     {
       "aspects": [
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:deltawailmer.geo",
+      "model": "cobblemon:generation3_deltawailmer.geo",
       "poser": "cobblemon:generation3_deltawailmer",
-      "texture": "cobblemon:textures/pokemon/generation3/deltawailmer_shiny.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation3/deltawailmer/deltawailmer_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     }
   ]
 }

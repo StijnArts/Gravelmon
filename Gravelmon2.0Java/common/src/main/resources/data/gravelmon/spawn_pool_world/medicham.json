@@ -4,6 +4,33 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epoch_medicham-01",
+      "pokemon": "medicham epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "36-54",
+      "weight": 0.8999999999999999,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:glowstone"
+          ]
+        }
+      }
+    },
+    {
       "id": "delta_medicham-01",
       "pokemon": "medicham delta",
       "presets": [
@@ -13,11 +40,11 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "30-54",
-      "weight": 0.5,
+      "weight": 0.75,
       "condition": {
         "biomes": [
           "#cobblemon:is_floral",
-          "#cobblemon:is_forest"
+          "#cobblemon:is_jungle"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -26,6 +53,14 @@
         "biomes": [
           "#cobblemon:is_cold"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
+          ]
+        }
       }
     }
   ]

@@ -13,13 +13,21 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "50-65",
-      "weight": 4.0E-4,
+      "weight": 6.000000000000001E-4,
       "condition": {
         "biomes": [
           "#cobblemon:is_hills"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
       }
     }
   ]

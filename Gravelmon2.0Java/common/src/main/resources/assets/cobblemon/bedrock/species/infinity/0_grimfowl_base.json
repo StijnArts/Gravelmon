@@ -1,19 +1,66 @@
 {
   "species": "cobblemon:grimfowl",
-  "order": 1,
+  "order": 0,
   "variations": [
     {
       "aspects": [],
       "model": "cobblemon:infinity_grimfowl.geo",
       "poser": "cobblemon:infinity_grimfowl",
       "texture": "cobblemon:textures/pokemon/infinity/grimfowl/grimfowl.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/infinity/grimfowl/grimfowl_shiny.png"
+      "model": "cobblemon:infinity_grimfowl.geo",
+      "poser": "cobblemon:infinity_grimfowl",
+      "texture": "cobblemon:textures/pokemon/infinity/grimfowl/grimfowl_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     }
   ]
 }

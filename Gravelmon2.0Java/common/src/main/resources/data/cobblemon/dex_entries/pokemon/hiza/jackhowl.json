@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:jackhowl",
+  "speciesId": "cobblemon:jackhowl",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

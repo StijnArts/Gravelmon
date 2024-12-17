@@ -24,7 +24,7 @@ public class Cubirite extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Cubirite are curious and are said to be the slice of a moon. They are kind spirited but can pack a punch if intimidated."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ULTRASPACE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

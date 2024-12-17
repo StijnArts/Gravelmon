@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:pikavee",
+  "speciesId": "cobblemon:pikavee",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

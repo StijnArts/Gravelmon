@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "widoweb-01",
+      "pokemon": "widoweb",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "11-35",
+      "weight": 7.050000000000001,
+      "condition": {
+        "biomes": [
+          "minecraft:birch_forest"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:shiverish",
+  "speciesId": "cobblemon:shiverish",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

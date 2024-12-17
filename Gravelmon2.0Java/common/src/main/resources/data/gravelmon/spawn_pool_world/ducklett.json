@@ -4,6 +4,35 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epoch_ducklett-01",
+      "pokemon": "ducklett epoch",
+      "presets": [
+        "natural",
+        "near_water"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "9-36",
+      "weight": 6.75,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "day"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:glowstone"
+          ]
+        }
+      }
+    },
+    {
       "id": "ayreian_ducklett-01",
       "pokemon": "ducklett ayreian",
       "presets": [
@@ -13,16 +42,22 @@
       "context": "grounded",
       "bucket": "common",
       "level": "4-40",
-      "weight": 4.0,
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "minecraft:cherry_grove",
           "#cobblemon:is_floral",
           "#cobblemon:is_magical"
         ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
         "timeRange": "day"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:hay_block"
+          ]
+        }
       }
     }
   ]

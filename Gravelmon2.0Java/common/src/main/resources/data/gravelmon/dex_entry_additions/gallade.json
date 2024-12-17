@@ -2,15 +2,33 @@
   "entryId": "cobblemon:gallade",
   "forms": [
     {
-      "displayForm": "Fligian",
+      "displayForm": "Raianian",
       "unlockForms": [
-        "Fligian"
+        "Raianian"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Avalossian",
+      "unlockForms": [
+        "Avalossian"
       ]
     },
     {
       "displayForm": "Delta",
       "unlockForms": [
         "Delta"
+      ]
+    },
+    {
+      "displayForm": "Ayreian",
+      "unlockForms": [
+        "Ayreian"
       ]
     }
   ]

@@ -6,17 +6,12 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Sollord extends drai.dev.data.pokemon.Pokemon {
-    public Sollord() {
+    public Sollord(Stats stats) {
         super("Sollord",
                 Type.GRASS, Type.FIGHTING,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
+                16, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -24,11 +19,11 @@ public class Sollord extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Sollord, nicknamed King of the Sun, use their heads to fend off any predators. Its connection with the sun is legendary, and it's often used in rainy seasons to prevent plants from drowning."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 40, 56, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,88 +1,84 @@
 {
-  "portraitScale": 1,
-  "portraitTranslation": [ 0, 0, 0 ],
-  "profileScale": 1,
-  "profileTranslation": [ 0, 0, 0 ],
+  "portraitScale": 1.0,
+  "portraitTranslation": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "profileScale": 1.0,
+  "profileTranslation": [
+    0.0,
+    0.0,
+    0.0
+  ],
   "animations": {
     "cry": "q.bedrock_stateful('fortifry', 'cry')"
   },
   "poses": {
     "standing": {
       "poseName": "standing",
-      "transformTicks": 10,
-      "poseTypes": [
-        "STAND",
-        "NONE",
-        "PORTRAIT",
-        "PROFILE"
-      ],
-      "isBattle": false,
       "animations": [
-        "bedrock(fortifry, water_idle)"
+        "bedrock(fortifry, ground_idle)"
       ],
+      "transformTicks": 10,
+      "allPoseTypes": true,
       "quirks": [
         {
-          "name": "blink",
           "animations": [
             "bedrock(fortifry, blink)"
-          ]
-        }
-      ]
-    },
-    "walking": {
-      "poseName": "walking",
-      "transformTicks": 10,
-      "poseTypes": [
-        "WALK"
-      ],
-      "animations": [
-        "bedrock(fortifry, water_swim)"
-      ],
-      "quirks": [
-        {
-          "name": "blink",
-          "animations": [
-            "bedrock(fortifry, blink)"
-          ]
+          ],
+          "name": "blink"
         }
       ]
     },
     "swimming": {
       "poseName": "swimming",
-      "transformTicks": 10,
-      "poseTypes": [
-        "SWIM"
-      ],
-
       "animations": [
         "bedrock(fortifry, water_swim)"
       ],
+      "poseTypes": [
+        "SWIM",
+        "WALK"
+      ],
+      "transformTicks": 10,
       "quirks": [
         {
-          "name": "blink",
           "animations": [
             "bedrock(fortifry, blink)"
-          ]
+          ],
+          "name": "blink"
         }
       ]
     },
     "floating": {
       "poseName": "floating",
-      "transformTicks": 10,
-      "poseTypes": [
-        "FLOAT"
-      ],
       "animations": [
         "bedrock(fortifry, water_idle)"
       ],
+      "poseTypes": [
+        "FLOAT",
+        "STAND"
+      ],
+      "transformTicks": 10,
       "quirks": [
         {
-          "name": "blink",
           "animations": [
             "bedrock(fortifry, blink)"
-          ]
+          ],
+          "name": "blink"
         }
       ]
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "animations": [
+        "bedrock(fortifry, sleep)"
+      ],
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "transformTicks": 10,
+      "quirks": []
     }
   }
 }

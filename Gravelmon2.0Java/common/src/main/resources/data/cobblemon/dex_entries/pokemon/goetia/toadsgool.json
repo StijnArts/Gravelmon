@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:toadsgool",
+  "speciesId": "cobblemon:toadsgool",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

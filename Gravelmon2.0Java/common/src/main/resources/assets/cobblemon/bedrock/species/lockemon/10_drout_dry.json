@@ -1,0 +1,37 @@
+{
+  "species": "cobblemon:drout",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "dry"
+      ],
+      "model": "cobblemon:cutout_gravelmon_512_by_512.geo",
+      "poser": "cobblemon:cutout_gravelmon_512_by_512",
+      "texture": "cobblemon:textures/pokemon/lockemon/dry.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
+    }
+  ]
+}

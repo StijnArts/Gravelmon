@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
+import com.cobblemon.mod.common.*;
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -18,10 +19,9 @@ public class DeltaFeebas extends Pokemon {
                 40, ExperienceGroup.FLUCTUATING,
                 70,
                 50, List.of(EggGroup.DELTA),
-                //TODO replace spell tag with cleanse tag when its implemented
                 List.of("A Delta Species discovered by 1ofthe4rocketbros. Though it desires to scare strangers, it is timid and oftentimes ends up frightening itself instead."),
                 List.of(new EvolutionEntry("deltamilotic", EvolutionType.LEVEL_UP, true, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"cobblemon:spell_tag\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "cobblemon:cleanse_tag")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SPLASH,1),
                         new MoveLearnSetEntry(Move.ASTONISH,15),
@@ -71,7 +71,8 @@ public class DeltaFeebas extends Pokemon {
                 List.of(Label.GEN3,Label.INSURGENCE),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 10, 22, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,
@@ -80,6 +81,5 @@ public class DeltaFeebas extends Pokemon {
         this.setCanBreathUnderwater(true);
         this.setCanSwim(true);
         this.setAvoidsLand(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

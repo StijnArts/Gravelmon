@@ -2,9 +2,15 @@
   "entryId": "cobblemon:sceptile",
   "forms": [
     {
-      "displayForm": "Fligian",
+      "displayForm": "Epoch",
       "unlockForms": [
-        "Fligian"
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Avalossian",
+      "unlockForms": [
+        "Avalossian"
       ]
     },
     {
@@ -17,6 +23,12 @@
       "displayForm": "Armiran",
       "unlockForms": [
         "Armiran"
+      ]
+    },
+    {
+      "displayForm": "Ayreian",
+      "unlockForms": [
+        "Ayreian"
       ]
     },
     {

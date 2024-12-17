@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:cublog",
+  "speciesId": "cobblemon:cublog",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

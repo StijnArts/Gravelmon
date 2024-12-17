@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "crashlad-01",
+      "pokemon": "crashlad",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 5.699999999999999,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
+          ]
+        }
+      }
+    }
+  ]
+}

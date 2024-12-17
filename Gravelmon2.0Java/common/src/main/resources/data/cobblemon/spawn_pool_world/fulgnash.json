@@ -13,13 +13,21 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "32-54",
-      "weight": 6.0,
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_arid",
           "#cobblemon:is_temperate"
         ],
         "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:redstone_block"
+          ]
+        }
       }
     }
   ]

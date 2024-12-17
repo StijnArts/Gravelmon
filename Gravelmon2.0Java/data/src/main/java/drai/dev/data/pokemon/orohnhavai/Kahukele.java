@@ -25,7 +25,7 @@ public class Kahukele extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Kahukel'e acts as the chief of their group. There are usually up to three chief Kahukel'e per marching group. Kahukel'e are skilled fighters. They are able to detach their arms and use them as a weapon. On rare occasions, they are seen marching along certain paths, walking along until reaching a sacred site. If a person makes eye contact with them, they will get cursed with bad luck."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "10-24",
-      "weight": 2.5,
+      "weight": 3.75,
       "condition": {
         "biomes": [
           "#cobblemon:is_forest"
@@ -25,6 +25,14 @@
         "biomes": [
           "#cobblemon:is_cold"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
       }
     }
   ]

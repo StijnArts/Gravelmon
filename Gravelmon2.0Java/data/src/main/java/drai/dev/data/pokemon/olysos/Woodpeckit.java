@@ -24,7 +24,7 @@ public class Woodpeckit extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FLYING),
                 List.of("Their nests consist mainly of nutshells. These are stuffed then with soft leaves for a comfortable hatching place."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OLYSOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

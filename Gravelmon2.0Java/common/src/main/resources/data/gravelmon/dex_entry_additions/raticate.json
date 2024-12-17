@@ -2,6 +2,24 @@
   "entryId": "cobblemon:raticate",
   "forms": [
     {
+      "displayForm": "Palmian",
+      "unlockForms": [
+        "Palmian"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Ayreian",
+      "unlockForms": [
+        "Ayreian"
+      ]
+    },
+    {
       "displayForm": "Kaskadian",
       "unlockForms": [
         "Kaskadian"

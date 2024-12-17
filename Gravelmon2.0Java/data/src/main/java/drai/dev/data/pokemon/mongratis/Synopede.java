@@ -24,7 +24,7 @@ public class Synopede extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Legend says that if you happen upon Synopede as they adopt a wishing-like pose you can do the same and have your own wish granted. What they may be wishing for, if that is what they are doing, is unknown."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

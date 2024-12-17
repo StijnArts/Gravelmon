@@ -24,7 +24,7 @@ public class Gigginox extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("A venomous cave dwelling creature that crawls around walls and ceillings, and constantly lays large eggs which hatch multiple offsprings almost instantlly. When enraged Gigginox's skin will harden allowing it to be more reckless."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

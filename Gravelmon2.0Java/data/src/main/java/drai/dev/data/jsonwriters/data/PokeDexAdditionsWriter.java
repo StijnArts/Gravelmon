@@ -11,7 +11,7 @@ import java.nio.file.*;
 public class PokeDexAdditionsWriter {
     public static void write(Game game, String resourcesDir) {
         String dir = resourcesDir + "\\data\\gravelmon\\dex_additions";
-        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
         try {
             Files.createDirectories(new File(dir).toPath());
             writePokedex(game, dir, gson);

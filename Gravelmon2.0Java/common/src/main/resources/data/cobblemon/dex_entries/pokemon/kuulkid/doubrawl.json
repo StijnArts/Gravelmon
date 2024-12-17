@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:doubrawl",
+  "speciesId": "cobblemon:doubrawl",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

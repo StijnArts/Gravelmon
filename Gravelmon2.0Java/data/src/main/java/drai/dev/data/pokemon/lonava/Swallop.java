@@ -41,8 +41,7 @@ public class Swallop extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.LONAVA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 23, 41, .4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_PLAINS)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_PLAINS))
                 ), List.of(),
                 List.of(SpawnPreset.NEAR_WATER),
                 0.28, 0.3,

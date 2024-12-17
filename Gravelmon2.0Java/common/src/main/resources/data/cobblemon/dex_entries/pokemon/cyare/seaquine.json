@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:seaquine",
+  "speciesId": "cobblemon:seaquine",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

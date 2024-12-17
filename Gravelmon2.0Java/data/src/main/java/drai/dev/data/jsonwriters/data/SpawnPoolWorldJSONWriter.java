@@ -14,7 +14,7 @@ public class SpawnPoolWorldJSONWriter {
 
     public static void writeSpawns(Game game, String resourcesDir){
         String dir = resourcesDir+"\\data\\cobblemon\\spawn_pool_world\\";
-        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
         game.getNewPokemon().forEach(pokemon -> {
             if(!Pokemon.isAnAdditionalForm(pokemon)) {
                 try {
@@ -79,6 +79,18 @@ public class SpawnPoolWorldJSONWriter {
                 var antiCondition = new JsonObject();
                 spawnJson.add("anticondition", antiCondition);
                 pokemonSpawnData.spawnAntiConditions().forEach(spawnCondition -> processCondition(antiCondition, spawnCondition));
+            }
+            if(!pokemonSpawnData.preferredBlocks().isEmpty()){
+                var weightMultiplier = new JsonObject();
+                spawnJson.add("weightMultiplier", weightMultiplier);
+                weightMultiplier.addProperty("multiplier", 5.0f);
+                var condition = new JsonObject();
+                weightMultiplier.add("condition", condition);
+                if(!pokemonSpawnData.preferredBlocks().isEmpty()) {
+                    var neededNearbyBlocks = new JsonArray();
+                    condition.add("neededNearbyBlocks", neededNearbyBlocks);
+                    pokemonSpawnData.preferredBlocks().forEach(neededNearbyBlocks::add);
+                }
             }
             spawns.add(spawnJson);
         }

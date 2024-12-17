@@ -24,7 +24,7 @@ public class Katanicut extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_2),
                 List.of("Its fins are so powerful that they can sever metal. Katanicut flies past opponents with its fins outstretched, delivering a deadly blow."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

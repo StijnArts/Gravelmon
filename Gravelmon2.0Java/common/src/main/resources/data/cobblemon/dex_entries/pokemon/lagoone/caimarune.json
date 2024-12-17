@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:caimarune",
+  "speciesId": "cobblemon:caimarune",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

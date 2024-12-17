@@ -13,7 +13,7 @@
       "context": "surface",
       "bucket": "uncommon",
       "level": "44-61",
-      "weight": 1.5,
+      "weight": 2.25,
       "condition": {
         "biomes": [
           "#cobblemon:is_plains"
@@ -27,6 +27,14 @@
           "#cobblemon:is_cold",
           "#cobblemon:is_arid"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:black_wool"
+          ]
+        }
       }
     }
   ]

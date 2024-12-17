@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Briarasp extends drai.dev.data.pokemon.Pokemon {
-    public Briarasp() {
+    public Briarasp(Stats stats) {
         super("Briarasp",
                 Type.BUG, Type.GRASS,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 15, 544,
                 new Stats(0,0,0,0,0,0), 45,
@@ -24,7 +19,7 @@ public class Briarasp extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.BUG),
                 List.of("Despite rumors that they are naturally aggressive, these 'Mons do not attack unless provoked. They enjoy sweet berries and have been known to help cultivate wild Pecha berry trees."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.URZAVOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

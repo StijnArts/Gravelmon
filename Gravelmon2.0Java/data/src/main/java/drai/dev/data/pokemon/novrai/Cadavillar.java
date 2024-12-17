@@ -107,7 +107,8 @@ public class Cadavillar extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.NOVRAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

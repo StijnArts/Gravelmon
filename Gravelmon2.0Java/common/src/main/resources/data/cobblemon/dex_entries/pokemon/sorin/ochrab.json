@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ochrab",
+  "speciesId": "cobblemon:ochrab",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

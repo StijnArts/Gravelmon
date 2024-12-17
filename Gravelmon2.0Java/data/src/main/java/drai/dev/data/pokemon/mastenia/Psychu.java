@@ -6,29 +6,24 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Psychu extends drai.dev.data.pokemon.Pokemon {
-    public Psychu() {
+    public Psychu(Stats stats) {
         super("Psychu",
                 Type.ELECTRIC, Type.PSYCHIC,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                6, 0,
+                new Stats(0,0,0,0,0,0), 120,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MASTENIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 32, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

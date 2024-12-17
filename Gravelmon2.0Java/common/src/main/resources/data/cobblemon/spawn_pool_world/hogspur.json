@@ -13,19 +13,27 @@
       "context": "grounded",
       "bucket": "common",
       "level": "1-22",
-      "weight": 5.0,
+      "weight": 7.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_grassland",
-          "#cobblemon:is_forest"
+          "#cobblemon:is_jungle"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
       },
       "anticondition": {
         "biomes": [
-          "#cobblemon:has_season/summer"
+          "#cobblemon:is_jungle"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_mud"
+          ]
+        }
       }
     }
   ]

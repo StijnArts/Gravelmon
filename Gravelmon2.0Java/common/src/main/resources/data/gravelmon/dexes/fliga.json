@@ -1,6 +1,6 @@
 {
   "type": "cobblemon:simple_pokedex_def",
-  "sortOrder": 46,
+  "sortOrder": 59,
   "id": "gravelmon:fliga",
   "entries": [
     "cobblemon:aggronut",
@@ -28,7 +28,7 @@
     "cobblemon:sconsimese",
     "cobblemon:kashigan",
     "cobblemon:kangaskhan",
-    "cobblemon:atillohunn",
+    "cobblemon:jatilohunn",
     "cobblemon:shellos-avalossian",
     "cobblemon:gastrodon-avalossian",
     "cobblemon:calaloof",
@@ -40,6 +40,8 @@
     "cobblemon:bellsprout-avalossian",
     "cobblemon:weepinbell-avalossian",
     "cobblemon:victreebel-avalossian",
+    "cobblemon:fubber",
+    "cobblemon:jodoge",
     "cobblemon:happiny-avalossian",
     "cobblemon:chansey-avalossian",
     "cobblemon:blissey-avalossian",
@@ -96,7 +98,7 @@
     "cobblemon:repteptile",
     "cobblemon:uroshella",
     "cobblemon:paraudio-avalossian",
-    "cobblemon:qwilfish-avalossian",
+    "cobblemon:paralsetto",
     "cobblemon:barbray",
     "cobblemon:alternatron",
     "cobblemon:mousprite",
@@ -109,14 +111,19 @@
     "cobblemon:dusknoir-avalossian",
     "cobblemon:bowvine",
     "cobblemon:stingpin",
+    "cobblemon:slith",
+    "cobblemon:amalgin",
+    "cobblemon:chimericon",
     "cobblemon:growlain",
     "cobblemon:morgous",
+    "cobblemon:marvelisk",
     "cobblemon:calligraphis",
     "cobblemon:andracarina",
     "cobblemon:hullk",
     "cobblemon:julimese",
     "cobblemon:newcleaur",
     "cobblemon:chilormangur",
-    "cobblemon:operlogica"
+    "cobblemon:operlogica",
+    "cobblemon:wushenli"
   ]
 }

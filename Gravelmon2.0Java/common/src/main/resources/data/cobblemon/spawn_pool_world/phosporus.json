@@ -1,0 +1,33 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "phosporus-01",
+      "pokemon": "phosporus",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "28-44",
+      "weight": 0.6000000000000001,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mushroom",
+          "#cobblemon:is_lush"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:redstone_block"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:sailizard",
+  "speciesId": "cobblemon:sailizard",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

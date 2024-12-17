@@ -4,6 +4,58 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "forman_pinsir-01",
+      "pokemon": "pinsir forman",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "13-32",
+      "weight": 6.6000000000000005,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_pinsir-01",
+      "pokemon": "pinsir epoch",
+      "presets": [
+        "amethyst_geode"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "26-54",
+      "weight": 2.7,
+      "condition": {
+        "minSkyLight": 0,
+        "maxSkyLight": 7
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:redstone_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "hizian_pinsir-01",
       "pokemon": "pinsir hizian",
       "presets": [
@@ -13,7 +65,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "25-50",
-      "weight": 10.0,
+      "weight": 15.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky",
@@ -22,6 +74,14 @@
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
+          ]
+        }
       }
     },
     {
@@ -34,7 +94,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "25-50",
-      "weight": 10.0,
+      "weight": 15.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_arid"
@@ -47,6 +107,14 @@
           "#cobblemon:is_cold",
           "#cobblemon:is_temperate"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
       }
     },
     {
@@ -59,13 +127,21 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "20-50",
-      "weight": 10.0,
+      "weight": 15.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
+          ]
+        }
       }
     }
   ]

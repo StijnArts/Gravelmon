@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lirvug",
+  "speciesId": "cobblemon:lirvug",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

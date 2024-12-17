@@ -13,17 +13,27 @@
       "context": "grounded",
       "bucket": "common",
       "level": "18-43",
-      "weight": 0.2,
+      "weight": 0.30000000000000004,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
         ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       },
       "anticondition": {
         "biomes": [
           "#cobblemon:is_coast"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:bone_block"
+          ]
+        }
       }
     }
   ]

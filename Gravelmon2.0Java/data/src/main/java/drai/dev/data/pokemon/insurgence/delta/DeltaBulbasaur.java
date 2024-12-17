@@ -1,8 +1,10 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -110,7 +112,7 @@ public class DeltaBulbasaur extends Pokemon {
                         ),
                 List.of(Label.GEN1,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL, Biome.IS_FLORAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
@@ -119,9 +121,19 @@ public class DeltaBulbasaur extends Pokemon {
                 List.of());
         this.setLangFileName("Bulbasaur");
         this.setHasGenderDifferences(true);
-        this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(0.8);
         this.setHitbox(0.9,0.5);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("bulbasaur_egho");
+        getPosingFileData().setPortraitData( 2.3f, new Vector3(-0.3, -1.4, 0));
+        getPosingFileData().setProfileData( .9f, new Vector3(0, .4, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().addPoseType(PoseType.FLOAT).addPoseType(PoseType.HOVER).withBlink(),
+                AnimationData.walkingAnimation().withLook().addPoseType(PoseType.SWIM).addPoseType(PoseType.FLY).withBlink(),
+                AnimationData.sleepingAnimation()
+        ));
+        getPosingFileData().setFaint("bedrock(bulbasaur_egho, faint)");
     }
 }

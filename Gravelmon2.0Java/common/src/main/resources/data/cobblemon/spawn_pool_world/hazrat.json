@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hazrat-01",
+      "pokemon": "hazrat",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "11-36",
+      "weight": 6.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
+          ]
+        }
+      }
+    }
+  ]
+}

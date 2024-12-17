@@ -13,13 +13,21 @@
       "context": "grounded",
       "bucket": "common",
       "level": "44-57",
-      "weight": 0.4,
+      "weight": 0.6000000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_cave"
         ],
         "minSkyLight": 0,
         "maxSkyLight": 7
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:tuff"
+          ]
+        }
       }
     }
   ]

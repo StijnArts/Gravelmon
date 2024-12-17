@@ -13,13 +13,21 @@
       "context": "grounded",
       "bucket": "common",
       "level": "2-17",
-      "weight": 5.0,
+      "weight": 7.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_desert"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
       }
     }
   ]

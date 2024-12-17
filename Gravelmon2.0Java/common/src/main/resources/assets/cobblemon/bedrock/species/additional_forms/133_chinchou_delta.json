@@ -1,6 +1,6 @@
 {
   "species": "cobblemon:chinchou",
-  "order": 10,
+  "order": 133,
   "variations": [
     {
       "aspects": [
@@ -14,7 +14,22 @@
           "name": "emissive"
         },
         {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
           "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
         }
       ]
     },
@@ -31,7 +46,22 @@
           "name": "emissive"
         },
         {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
           "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
         }
       ]
     }

@@ -1,0 +1,34 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "priminpup-01",
+      "pokemon": "priminpup",
+      "presets": [
+        "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "33-54",
+      "weight": 0.8999999999999999,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cold"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:white_wool"
+          ]
+        }
+      }
+    }
+  ]
+}

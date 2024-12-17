@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:yuvixy",
+  "speciesId": "cobblemon:yuvixy",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

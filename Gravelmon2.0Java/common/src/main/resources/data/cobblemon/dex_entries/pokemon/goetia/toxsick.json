@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:toxsick",
+  "speciesId": "cobblemon:toxsick",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

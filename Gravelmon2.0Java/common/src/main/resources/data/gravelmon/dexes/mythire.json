@@ -1,6 +1,6 @@
 {
   "type": "cobblemon:simple_pokedex_def",
-  "sortOrder": 45,
+  "sortOrder": 58,
   "id": "gravelmon:mythire",
   "entries": [
     "cobblemon:glimruff",
@@ -72,7 +72,7 @@
     "cobblemon:belostoke",
     "cobblemon:hadrosmoke",
     "cobblemon:aardpipe",
-    "cobblemon:gauza",
+    "cobblemon:gauzerpent",
     "cobblemon:underrap",
     "cobblemon:thawrax",
     "cobblemon:candore",

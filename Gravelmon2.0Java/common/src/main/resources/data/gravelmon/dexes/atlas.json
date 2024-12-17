@@ -1,6 +1,6 @@
 {
   "type": "cobblemon:simple_pokedex_def",
-  "sortOrder": 59,
+  "sortOrder": 71,
   "id": "gravelmon:atlas",
   "entries": [
     "cobblemon:fawnlora",
@@ -155,6 +155,7 @@
     "cobblemon:needoon",
     "cobblemon:needella",
     "cobblemon:polynett",
+    "cobblemon:polynett-dhioman",
     "cobblemon:polyzap",
     "cobblemon:jollancer",
     "cobblemon:krillzaingel",

@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.xenoverse;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -22,12 +22,12 @@ public class ShyleonXenoversal extends Pokemon {
                 List.of(new EvolutionEntry("shyleon xenoversal=false", EvolutionType.LEVEL_UP, false, List.of(),
                                 List.of()),
                         new EvolutionEntry("shyleonterrestrial", EvolutionType.LEVEL_UP, false, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:terrestrial_ring\""))),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "gravelmon:terrestrial_ring"))),
                         new EvolutionEntry("shyleonastral", EvolutionType.LEVEL_UP, false, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:terrestrial_ring\""),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "gravelmon:terrestrial_ring"),
                                         new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL, "50"))),
                         new EvolutionEntry("shyleonastral", EvolutionType.LEVEL_UP, false, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:xenoversal_ring\""),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "gravelmon:xenoversal_ring"),
                                         new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL, "50")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FERAL_CLUTCH,1),
@@ -106,6 +106,6 @@ public class ShyleonXenoversal extends Pokemon {
                 0.9, 1,
                 List.of());
         this.setLangFileName("Shyleon");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:electroost",
+  "speciesId": "cobblemon:electroost",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

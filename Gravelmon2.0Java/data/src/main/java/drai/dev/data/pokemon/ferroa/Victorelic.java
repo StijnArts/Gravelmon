@@ -2,6 +2,7 @@ package drai.dev.data.pokemon.ferroa;
 
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+
 import java.util.*;
 
 public class Victorelic extends drai.dev.data.pokemon.Pokemon {
@@ -116,6 +117,7 @@ public class Victorelic extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 56, .4, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"false"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

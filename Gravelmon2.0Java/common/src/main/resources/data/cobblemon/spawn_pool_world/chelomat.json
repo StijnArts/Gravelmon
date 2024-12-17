@@ -1,0 +1,34 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "chelomat-01",
+      "pokemon": "chelomat",
+      "presets": [
+        "freshwater"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "common",
+      "level": "6-29",
+      "weight": 6.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_river"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    }
+  ]
+}

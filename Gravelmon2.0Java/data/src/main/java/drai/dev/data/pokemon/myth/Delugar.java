@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.myth;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -51,7 +51,7 @@ public class Delugar extends Pokemon {
                         new MoveLearnSetEntry(Move.BRINE, "egg"),
                         new MoveLearnSetEntry(Move.LIQUIDATION, "egg")
                 ),
-                List.of(Label.MYTH),
+                List.of(Label.MONGRATIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 35, 61, 2.3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_COAST)),
@@ -60,6 +60,5 @@ public class Delugar extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.21, 0.3,
                 List.of());
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

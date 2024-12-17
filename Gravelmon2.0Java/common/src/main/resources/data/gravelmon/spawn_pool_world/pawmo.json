@@ -1,0 +1,40 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epoch_pawmo-01",
+      "pokemon": "pawmo epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "18-36",
+      "weight": 1.6500000000000001,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_taiga",
+          "#cobblemon:is_jungle"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:white_wool"
+          ]
+        }
+      }
+    }
+  ]
+}

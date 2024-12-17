@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.xenoverse;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -74,15 +75,22 @@ public class Hystearic extends Pokemon {
                 List.of(Label.XENOVERSE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 12, 5.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.3, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
-        this.setModeled(true);
+
+
         this.setBaseScale(0.6);
         this.setHitbox(0.7,0.6);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 2.5f, new Vector3(0, -1.4, 0));
+        getPosingFileData().setProfileData( 1.2f, new Vector3(0.1, 0, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation()
+        ));
     }
 }

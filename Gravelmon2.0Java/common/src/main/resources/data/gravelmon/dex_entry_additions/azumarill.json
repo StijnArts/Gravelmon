@@ -2,6 +2,12 @@
   "entryId": "cobblemon:azumarill",
   "forms": [
     {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
       "displayForm": "Egho",
       "unlockForms": [
         "Egho"

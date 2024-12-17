@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.azure.regional;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -39,12 +39,13 @@ public class MysticBewear extends Pokemon {
                 List.of(Label.AZURE, Label.GEN7),
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 27, 38, 0.5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Stufful");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

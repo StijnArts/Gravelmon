@@ -24,7 +24,7 @@ public class Hayog extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Hayog have a strong instinct to build themselves homes, unfortunately they tend to choose flimsy building materials. The hay that grows on its back is very soft and provides Hayog comfort and security."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

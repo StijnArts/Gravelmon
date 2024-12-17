@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:kapalze",
+  "speciesId": "cobblemon:kapalze",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -24,7 +24,7 @@ public class Werevine extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD,EggGroup.GRASS),
                 List.of("It sharpens its claws on Sycanopy's bark. Their claws are so keen that they've been known to effortlessly slice through metal."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

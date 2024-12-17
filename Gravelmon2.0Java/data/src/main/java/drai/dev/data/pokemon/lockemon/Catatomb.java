@@ -1,9 +1,8 @@
 package drai.dev.data.pokemon.lockemon;
 
-import drai.dev.data.pokemon.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -61,6 +60,7 @@ public class Catatomb extends Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 33, 56, 1.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

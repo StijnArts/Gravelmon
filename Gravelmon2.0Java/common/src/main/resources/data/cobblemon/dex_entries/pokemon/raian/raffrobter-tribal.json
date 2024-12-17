@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:raffrobter-tribal",
+  "speciesId": "cobblemon:raffrobter",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Tribal",
+      "unlockForms": [
+        "Tribal"
+      ]
+    }
+  ],
+  "variations": []
+}

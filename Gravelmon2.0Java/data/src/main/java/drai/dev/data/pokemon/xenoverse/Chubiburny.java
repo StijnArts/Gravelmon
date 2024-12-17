@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.xenoverse;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -20,7 +20,7 @@ public class Chubiburny extends Pokemon {
                 32, List.of(EggGroup.MONSTER, EggGroup.FIELD),
                 List.of("Its pelt contains sugary high-calorie substances. It peacefully basks in the sunlight, ignoring Birigiri's bites."),
                 List.of(new EvolutionEntry("goombear", EvolutionType.LEVEL_UP, false, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"\"birigiri\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"birigiri")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,1),
                         new MoveLearnSetEntry(Move.LICK,1),
@@ -76,11 +76,12 @@ public class Chubiburny extends Pokemon {
                 List.of(Label.XENOVERSE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 5.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NEAR_CAMPFIRE),
                 0.3, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+        
     }
 }

@@ -24,7 +24,7 @@ public class Hummingale extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FLYING),
                 List.of("Its small body and light colors make it seem like an adorable creature. Its razor-sharp beak will change your mind quickly."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MYSTIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:spongebit",
+  "speciesId": "cobblemon:spongebit",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

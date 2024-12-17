@@ -4,6 +4,34 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epoch_tangrowth-01",
+      "pokemon": "tangrowth epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "41-54",
+      "weight": 0.6000000000000001,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_mud"
+          ]
+        }
+      }
+    },
+    {
       "id": "qamoran_tangrowth-01",
       "pokemon": "tangrowth qamoran",
       "presets": [
@@ -13,13 +41,21 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "36-56",
-      "weight": 0.2,
+      "weight": 0.30000000000000004,
       "condition": {
         "biomes": [
           "minecraft:cherry_grove"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     },
     {
@@ -32,13 +68,21 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "32-44",
-      "weight": 0.2,
+      "weight": 0.30000000000000004,
       "condition": {
         "biomes": [
           "#cobblemon:is_cold"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:redstone_block"
+          ]
+        }
       }
     },
     {
@@ -50,14 +94,22 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "12-35",
-      "weight": 1.8,
+      "level": "34-57",
+      "weight": 0.27,
       "condition": {
         "biomes": [
           "#cobblemon:is_desert"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_mud"
+          ]
+        }
       }
     },
     {
@@ -70,7 +122,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "34-57",
-      "weight": 0.18,
+      "weight": 0.27,
       "condition": {
         "biomes": [
           "#cobblemon:is_plains"
@@ -83,6 +135,14 @@
           "#cobblemon:is_cold",
           "#cobblemon:is_temperate"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:target_block"
+          ]
+        }
       }
     }
   ]

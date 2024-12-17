@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:decapichook",
+  "speciesId": "cobblemon:decapichook",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

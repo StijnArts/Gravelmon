@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:magikarp-palmian",
+  "speciesId": "cobblemon:magikarp",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Palmian",
+      "unlockForms": [
+        "Palmian"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:nodoo",
+  "speciesId": "cobblemon:nodoo",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -6,17 +6,12 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class IonosianJynx extends drai.dev.data.pokemon.Pokemon {
-    public IonosianJynx(String name, Aspect aspect) {
+    public IonosianJynx(String name, Aspect aspect, Stats stats) {
         super(name, aspect, "Jynx",
                 Type.WATER, Type.PSYCHIC,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
+                16, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
@@ -24,16 +19,19 @@ public class IonosianJynx extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 30, 54, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
+        setCanSwim(true);
            setLangFileName("Jynx");
 
     }

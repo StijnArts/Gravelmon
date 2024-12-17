@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:bandiero",
+  "speciesId": "cobblemon:bandiero",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

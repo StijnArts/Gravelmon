@@ -40,10 +40,10 @@ public class Sharcleave extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LEAF_STORM,62)             ),
                 List.of(Label.LAGOONE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 53, 0.1, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER, Biome.IS_WINTER))),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_TAIGA))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

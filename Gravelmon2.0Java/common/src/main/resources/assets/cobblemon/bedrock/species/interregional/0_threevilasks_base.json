@@ -4,16 +4,32 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:interregional_threevilasks",
+      "model": "cobblemon:cutout_gravelmon_98_by_98.geo",
+      "poser": "cobblemon:cutout_gravelmon_98_by_98",
       "texture": "cobblemon:textures/pokemon/interregional/threevilasks.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/interregional/threevilasks_shiny.png"
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     }
   ]
 }

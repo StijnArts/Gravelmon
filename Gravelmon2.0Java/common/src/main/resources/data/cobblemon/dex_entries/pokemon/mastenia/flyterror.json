@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:flyterror",
+  "speciesId": "cobblemon:flyterror",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

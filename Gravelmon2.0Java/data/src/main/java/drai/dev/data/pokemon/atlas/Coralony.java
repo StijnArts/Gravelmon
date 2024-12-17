@@ -25,7 +25,7 @@ public class Coralony extends drai.dev.data.pokemon.Pokemon {
                 List.of("The three different species of Coralony are constantly fighting for dominance over the group, but there can only ever be one leader. They make up the greatest barrier reefs in the world."),
                 List.of(new EvolutionEntry("Barreef", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_WARM_OCEAN.getId() + ":" + Biome.IS_WARM_OCEAN.getName() +"\"")))
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_WARM_OCEAN.getId() + ":" + Biome.IS_WARM_OCEAN.getName())))
                 ),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1)                        ),

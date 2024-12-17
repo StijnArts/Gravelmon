@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:dracodont",
+  "speciesId": "cobblemon:dracodont",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,6 +1,6 @@
 {
   "type": "cobblemon:simple_pokedex_def",
-  "sortOrder": 58,
+  "sortOrder": 70,
   "id": "gravelmon:novrai",
   "entries": [
     "cobblemon:snipsnap",
@@ -43,7 +43,7 @@
     "cobblemon:stoutland-novran",
     "cobblemon:vileech",
     "cobblemon:encreech",
-    "cobblemon:yolkoo",
+    "cobblemon:eggoo",
     "cobblemon:cantankoo",
     "cobblemon:bonsly-novran",
     "cobblemon:sudowoodo-novran",

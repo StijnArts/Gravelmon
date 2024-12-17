@@ -1,0 +1,34 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "bloboon-01",
+      "pokemon": "bloboon",
+      "presets": [
+        "freshwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "common",
+      "level": "8-21",
+      "weight": 2.25,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
+      }
+    }
+  ]
+}

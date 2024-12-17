@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:cerakeet",
+  "speciesId": "cobblemon:cerakeet",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

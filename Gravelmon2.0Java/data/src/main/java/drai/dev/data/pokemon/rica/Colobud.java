@@ -25,8 +25,8 @@ public class Colobud extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD,EggGroup.GRASS),
                 List.of("Colobud traverse the jungles of Rica by swinging and jumping through trees. Big groups of Colobud are so noisy that they can be heard from half a mile away."),
                 List.of(new EvolutionEntry("makakari", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+
-                                Biome.IS_FLORAL.getId() + ":" + Biome.IS_FLORAL.getName() +"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,
+                                Biome.IS_FLORAL.getId() + ":" + Biome.IS_FLORAL.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.CHARM,1),
                         new MoveLearnSetEntry(Move.VINE_WHIP,6),

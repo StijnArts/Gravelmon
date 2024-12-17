@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:tinkatink",
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Lagoonan",
+      "unlockForms": [
+        "Lagoonan"
+      ]
+    }
+  ]
+}

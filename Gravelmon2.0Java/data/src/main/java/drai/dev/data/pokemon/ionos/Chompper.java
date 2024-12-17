@@ -16,14 +16,15 @@ public class Chompper extends drai.dev.data.pokemon.Pokemon {
                         0,
                         0),
                 List.of(Ability.TORRENT), Ability.STRONG_JAW,
-                0, 0,
+                4, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.87,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("Chompper is easily frightened and freezes itself during panic attacks. Surviving only on a meager diet of frost and snow forces this Pokemon to constantly keep on eating."),
-                List.of(),
+                List.of(new EvolutionEntry("crunchawtle", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),
@@ -42,13 +43,15 @@ public class Chompper extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYDRO_PUMP,53)                        ),
                 List.of(Label.IONOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Chompper");
 
     }

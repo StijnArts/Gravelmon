@@ -2,6 +2,7 @@ package drai.dev.data.pokemon.isiah;
 
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+
 import java.util.*;
 
 public class Avidrage extends drai.dev.data.pokemon.Pokemon {

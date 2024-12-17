@@ -24,7 +24,7 @@ public class Beoleaf extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD,EggGroup.GRASS),
                 List.of("The sound of its bark may be heard for kilometres. Despite its playful character, Beoleaf can be quite temperamental, and even the tiniest of things can set them off."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

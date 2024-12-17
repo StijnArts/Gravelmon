@@ -1,0 +1,33 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "lorable-01",
+      "pokemon": "lorable",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "13-41",
+      "weight": 2.55,
+      "condition": {
+        "biomes": [
+          "minecraft:birch_forest"
+        ],
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:cauldron"
+          ]
+        }
+      }
+    }
+  ]
+}

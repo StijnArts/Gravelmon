@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:peckdulum",
+  "speciesId": "cobblemon:peckdulum",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

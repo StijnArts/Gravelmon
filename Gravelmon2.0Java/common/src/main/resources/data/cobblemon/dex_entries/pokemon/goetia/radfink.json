@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:radfink",
+  "speciesId": "cobblemon:radfink",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

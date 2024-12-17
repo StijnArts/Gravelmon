@@ -24,7 +24,7 @@ public class Soulmander extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD,EggGroup.MONSTER),
                 List.of("A close relative of Detonewt, assumed to have been extinct for hundreds of years. Latent dragon energy has reawakened it's spirit, and it's soul flame now burns uncontrollably."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MYSTIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

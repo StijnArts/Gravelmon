@@ -20,6 +20,10 @@ public class LangJSONWriter {
         game.getNewPokemon().forEach(pokemon -> {writePokemon(pokemon);});
     }
 
+    public static void writeStarterCategories(){
+        GravelmonStarters.LANG_ENTRIES.forEach(LangJSONWriter::writeTranslationKey);
+    }
+
     public static void writeTranslationKey(String key, String text){
         contents.addProperty(key,text);
     }
@@ -91,7 +95,7 @@ public class LangJSONWriter {
         for (var aspect : Aspect.values()) writeForm(aspect);
         try {
             Files.createDirectories(new File(resourcesDir+"\\assets\\cobblemon\\lang").toPath());
-            var gson = new GsonBuilder().setPrettyPrinting().create();
+            var gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
             BufferedWriter writer = new BufferedWriter(new FileWriter(resourcesDir+"\\assets\\cobblemon\\lang\\en_us.json"));
             writer.write(gson.toJson(contents));
             writer.close();

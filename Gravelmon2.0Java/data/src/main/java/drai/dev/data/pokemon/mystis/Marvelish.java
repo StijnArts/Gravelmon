@@ -24,7 +24,7 @@ public class Marvelish extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Marvelish tends to stand out and is popular among collectors. It fetches for a surprisingly high price as no one seems to have realised that it evolves from Colorlish..."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MYSTIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -24,7 +24,7 @@ public class Atlasect extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Similar to Skeetle, Atlasect are constantly increasing the weight and size of their rock. The larger the rock, the better the chance of them attracting a mate."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

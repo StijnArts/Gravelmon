@@ -2,9 +2,15 @@
   "entryId": "cobblemon:parasect",
   "forms": [
     {
-      "displayForm": "Fligian",
+      "displayForm": "Epoch",
       "unlockForms": [
-        "Fligian"
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Avalossian",
+      "unlockForms": [
+        "Avalossian"
       ]
     }
   ]

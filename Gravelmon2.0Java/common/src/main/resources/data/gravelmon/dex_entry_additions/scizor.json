@@ -2,15 +2,21 @@
   "entryId": "cobblemon:scizor",
   "forms": [
     {
-      "displayForm": "Delta",
+      "displayForm": "Raianian",
       "unlockForms": [
-        "Delta"
+        "Raianian"
       ]
     },
     {
-      "displayForm": "Mythian",
+      "displayForm": "Epoch",
       "unlockForms": [
-        "Mythian"
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Delta",
+      "unlockForms": [
+        "Delta"
       ]
     }
   ]

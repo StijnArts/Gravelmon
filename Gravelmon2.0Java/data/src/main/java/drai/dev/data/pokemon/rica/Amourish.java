@@ -24,7 +24,8 @@ public class Amourish extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.WATER_2),
                 List.of("Amourish are friendly and social Pokemon, and can always be found in groups. They sing together every morning to reinforce social bonds."),
-                List.of(),
+                List.of(new EvolutionEntry("glamoreef", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ATTRACT,1),
                         new MoveLearnSetEntry(Move.CAPTIVATE,5),
@@ -81,14 +82,17 @@ public class Amourish extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DIVE,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 11, 35, 4.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER, SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Amourish");
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
 
     }
 

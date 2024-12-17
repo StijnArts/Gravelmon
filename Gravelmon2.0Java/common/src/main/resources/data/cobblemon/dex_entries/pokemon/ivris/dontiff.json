@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:dontiff",
+  "speciesId": "cobblemon:dontiff",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

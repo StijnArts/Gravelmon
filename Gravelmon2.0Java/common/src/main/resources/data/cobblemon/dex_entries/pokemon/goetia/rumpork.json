@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:rumpork",
+  "speciesId": "cobblemon:rumpork",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

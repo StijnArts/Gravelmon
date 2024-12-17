@@ -25,7 +25,7 @@ public class EnjinnianNoctowl extends drai.dev.data.pokemon.Pokemon {
                 List.of("Foregoing its predator nature, Noctowl prefer to conserve its energy, only hunting when its body demands nutrients to continue functioning."),
                 List.of(new EvolutionEntry("enchantowl", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"210"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "night")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.SKY_ATTACK,1),
@@ -119,8 +119,8 @@ public class EnjinnianNoctowl extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 20, 43, 5.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

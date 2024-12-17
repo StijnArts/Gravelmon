@@ -25,7 +25,7 @@ public class Bonfird extends drai.dev.data.pokemon.Pokemon {
                 List.of("When it fans out its tailfeathers, it sends sparks flying everywhere. It has a vain personality and doesn't get along with others."),
                 List.of(new EvolutionEntry("conflagrace", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"39"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"day\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "day")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FIRE_SPIN,1),
                         new MoveLearnSetEntry(Move.PECK,4),

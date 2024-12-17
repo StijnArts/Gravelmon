@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.xenoverse;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -21,7 +21,7 @@ public class Manticoeur extends Pokemon {
                 List.of("This Pokemon has a moody temper. It lures prey with its sweet face, then sucker punches them using its stinger."),
                 List.of(new EvolutionEntry("fatail", EvolutionType.LEVEL_UP, false, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"160"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "night")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BABYDOLL_EYES,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),
@@ -47,6 +47,6 @@ public class Manticoeur extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.3, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

@@ -6,17 +6,12 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Primecleon extends drai.dev.data.pokemon.Pokemon {
-    public Primecleon() {
+    public Primecleon(Stats stats) {
         super("Primecleon",
                 Type.ROCK, Type.NORMAL,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.COLOR_CHANGE), Ability.PROTEAN,
-                0, 0,
+                15, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -24,16 +19,18 @@ public class Primecleon extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 33, 54, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        addAdditionalEvolution("kecleon", new EvolutionEntry("primecleon", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"gravelmon:astral_stone"));
            setLangFileName("Primecleon");
 
     }

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:freytera",
+  "speciesId": "cobblemon:freytera",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

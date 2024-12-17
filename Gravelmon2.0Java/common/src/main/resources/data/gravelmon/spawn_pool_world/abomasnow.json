@@ -4,6 +4,38 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epoch_abomasnow-01",
+      "pokemon": "abomasnow epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "40-54",
+      "weight": 0.6000000000000001,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_beach"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "kaskadian_abomasnow-01",
       "pokemon": "abomasnow kaskadian",
       "presets": [
@@ -13,7 +45,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "40-65",
-      "weight": 0.9,
+      "weight": 1.35,
       "condition": {
         "biomes": [
           "#cobblemon:is_taiga"
@@ -25,6 +57,14 @@
         "biomes": [
           "#cobblemon:is_snowy"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
       }
     },
     {
@@ -37,13 +77,21 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "40-65",
-      "weight": 0.9,
+      "weight": 1.35,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
       }
     }
   ]

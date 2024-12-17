@@ -1,8 +1,10 @@
 package drai.dev.data.pokemon.infinity;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -178,10 +180,24 @@ public class Arkhaos extends Pokemon {
                 5, 0.3,
                 List.of());
         this.setHitbox(3,3);
-        this.setPortraitXYZ(0.1,2.0,0.0);
+        
         this.setCanFly(true);
-        setModeled(true);
+        
         setBaseScale(1);
         setHitbox(4,2.5);
+        getSpeciesFileData().addBasicVariation(this).addLayer(new BasicLayerData("arkhaos_emissive", Optional.of(true), Optional.of(true), false, true));
+        getPosingFileData().setAnimationFileName("arkhaos");
+        getPosingFileData().setPortraitData( .3f, new Vector3(-0.6, 1.5, 0));
+        getPosingFileData().setProfileData( .3f, new Vector3(-0.2, 1.3, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withBlink(),
+                AnimationData.walkingAnimation().withBlink(),
+                AnimationData.hoveringAnimation().withBlink().addPoseType(PoseType.FLOAT),
+                AnimationData.flyingAnimation().withBlink().addPoseType(PoseType.SWIM)
+        ));
+        getPosingFileData().setCry("q.bedrock_stateful('arkhaos', 'cry')");
+        getPosingFileData().setFaint("q.bedrock_primary('arkhaos', 'faint', q.curve('one'))");
+
     }
 }

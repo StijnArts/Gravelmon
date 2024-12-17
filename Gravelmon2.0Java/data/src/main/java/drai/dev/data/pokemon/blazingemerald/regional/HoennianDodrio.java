@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.blazingemerald.regional;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -69,11 +70,20 @@ public class HoennianDodrio extends Pokemon {
                 List.of());
         this.setLangFileName("Dodrio");
         this.setPreEvolution("Doduo");
-        this.setPortraitXYZ(0.1,2.0,0.0);
-        this.setModeled(true);
+
+
         this.setBaseScale(1.6);
         this.setHitbox(0.6,1.6);
         addAdditionalEvolution("doduo", new EvolutionEntry("dodrio hoennian", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"\"marowak\""))));
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"marowak"))));
+
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("dodrio_hoennian");
+        getPosingFileData().setPortraitData(1.3f, new Vector3(-0.1, .9, 0));
+        getPosingFileData().setProfileData(0.4f, new Vector3(0.0, 0.6, 0.0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation()
+        ));
+        getPosingFileData().setCryFromAnimationType("q.bedrock_stateful");
     }
 }

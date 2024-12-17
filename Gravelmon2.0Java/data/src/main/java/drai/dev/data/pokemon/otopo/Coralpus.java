@@ -24,7 +24,7 @@ public class Coralpus extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_1),
                 List.of("Coralpus is a sea creature that can be discovered stranded on the beach. They can remove kelp from their moustache and use it to make bandages for injured Pokemon, and their kelp is prized by hunters for its medical powers."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

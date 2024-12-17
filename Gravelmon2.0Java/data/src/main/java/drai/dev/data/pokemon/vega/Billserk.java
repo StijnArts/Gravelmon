@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.vega;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -81,6 +81,7 @@ public class Billserk extends Pokemon {
                 List.of(Label.DENEB),
                 0, List.of(), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 16, 44, 3.6, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "day")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:moorlock",
+  "speciesId": "cobblemon:moorlock",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

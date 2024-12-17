@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:freezepunk",
+  "speciesId": "cobblemon:freezepunk",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

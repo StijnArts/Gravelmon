@@ -25,7 +25,7 @@ public class Quaintbrush extends drai.dev.data.pokemon.Pokemon {
                 List.of("The fluid it leaks changes color depending on its current emotional state. Its entire body has an oddly malleable, almost liquid consistency."),
                 List.of(new EvolutionEntry("Blendulum", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"180"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"day\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "day")))),
                 List.of(
                         new MoveLearnSetEntry(Move.MAGIC_COAT,1),
                         new MoveLearnSetEntry(Move.PSYWAVE,4),
@@ -129,8 +129,8 @@ public class Quaintbrush extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
                 ), List.of(),
                 List.of(SpawnPreset.VILLAGE),
                 0.28, 0.3,

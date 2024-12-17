@@ -25,7 +25,7 @@ public class Aridart extends drai.dev.data.pokemon.Pokemon {
                 List.of("Found in the hot deserts of Avoris, these Pokemon adapted to the harsh living conditions and are able to survive without food or water for months. With the skillful use of their limbs they easily dash across rocky terrains and even through deep sand at high speeds. They can outspeed almost any of their enemies."),
                 List.of(new EvolutionEntry("territhorn", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"day\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "day")))),
                 List.of(             new MoveLearnSetEntry(Move.HARDEN, 1),
                         new MoveLearnSetEntry(Move.ROCK_THROW, 1),
                         new MoveLearnSetEntry(Move.TAIL_WHIP, 3),
@@ -50,8 +50,8 @@ public class Aridart extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 27, 6, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

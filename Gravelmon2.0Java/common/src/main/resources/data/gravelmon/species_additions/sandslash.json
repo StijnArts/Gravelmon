@@ -1,5 +1,5 @@
 {
-   "target": "cobblemon:sandslash",
+  "target": "cobblemon:sandslash",
   "evolutions": [
     {
       "id": "sandslash_sandridger",
@@ -10,11 +10,11 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 40
+          "minLevel": "40"
         }
       ],
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "sandslash_sandrill",
       "variant": "level_up",
@@ -24,11 +24,10 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 36
+          "minLevel": "36"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ]
-
 }

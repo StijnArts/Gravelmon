@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:caskry",
+  "speciesId": "cobblemon:caskry",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

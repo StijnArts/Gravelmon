@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:magikarp-ivrisian",
+  "speciesId": "cobblemon:magikarp",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ivrisian",
+      "unlockForms": [
+        "Ivrisian"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -2,6 +2,7 @@ package drai.dev.data.pokemon.novrai;
 
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+
 import java.util.*;
 
 public class Gliderweb extends drai.dev.data.pokemon.Pokemon {
@@ -107,9 +108,9 @@ public class Gliderweb extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.NOVRAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 26, 2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER, Biome.IS_TAIGA))),
+                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_TAIGA))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

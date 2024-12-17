@@ -24,7 +24,7 @@ public class Culprint extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD,EggGroup.MONSTER),
                 List.of("Anything it sees, it tries to steal, leaving behind a distinctive, oily marking. A Culprint once single-handedly heisted a Poke Mart's entire supply of Burn Heals."),
                 List.of(new EvolutionEntry("underhandit", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.BURNING_JEALOUSY.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.BURNING_JEALOUSY.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.FAKE_OUT,1),
                         new MoveLearnSetEntry(Move.FORESIGHT,4),

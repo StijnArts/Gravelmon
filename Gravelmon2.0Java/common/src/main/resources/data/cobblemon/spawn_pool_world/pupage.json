@@ -13,11 +13,19 @@
       "context": "grounded",
       "bucket": "common",
       "level": "8-22",
-      "weight": 0.6,
+      "weight": 0.8999999999999999,
       "condition": {
         "biomes": [
           "#cobblemon:is_overworld"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
       }
     }
   ]

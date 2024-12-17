@@ -2,6 +2,18 @@
   "entryId": "cobblemon:pyukumuku",
   "forms": [
     {
+      "displayForm": "Fabelian",
+      "unlockForms": [
+        "Fabelian"
+      ]
+    },
+    {
+      "displayForm": "Novran",
+      "unlockForms": [
+        "Novran"
+      ]
+    },
+    {
       "displayForm": "X",
       "unlockForms": [
         "X"

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:meganium-ionosian",
+  "speciesId": "cobblemon:meganium",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ionosian",
+      "unlockForms": [
+        "Ionosian"
+      ]
+    }
+  ],
+  "variations": []
+}

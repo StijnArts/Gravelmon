@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.uranium;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -115,11 +115,10 @@ public class Nimflora extends Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 24, 41, 1.5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
                 List.of(SpawnPreset.NATURAL),
                 0.21, 0.3,
                 List.of());
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

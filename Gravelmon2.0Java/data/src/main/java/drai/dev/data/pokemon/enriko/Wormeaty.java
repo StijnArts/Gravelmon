@@ -2,6 +2,7 @@ package drai.dev.data.pokemon.enriko;
 
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+
 import java.util.*;
 
 public class Wormeaty extends drai.dev.data.pokemon.Pokemon {
@@ -23,7 +24,7 @@ public class Wormeaty extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MONSTER,EggGroup.AMORPHOUS),
                 List.of("(Hemo/Poison type.)A vast colony of symbiotic worms slithers in and out of its body. The worms govern its every move, although they cannot suppress its hunger."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ENRIKO, Label.JOKE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

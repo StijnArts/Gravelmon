@@ -2,6 +2,24 @@
   "entryId": "cobblemon:seadra",
   "forms": [
     {
+      "displayForm": "Forman",
+      "unlockForms": [
+        "Forman"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
       "displayForm": "Norheiman",
       "unlockForms": [
         "Norheiman"

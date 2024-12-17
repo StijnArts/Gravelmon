@@ -13,14 +13,22 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "44-56",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_bamboo"
         ],
-        "timeRange": "night",
         "minSkyLight": 0,
-        "maxSkyLight": 7
+        "maxSkyLight": 7,
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:raw_gold_block"
+          ]
+        }
       }
     }
   ]

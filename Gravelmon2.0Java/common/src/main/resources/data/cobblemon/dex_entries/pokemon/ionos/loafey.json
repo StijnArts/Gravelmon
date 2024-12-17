@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:loafey",
+  "speciesId": "cobblemon:loafey",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

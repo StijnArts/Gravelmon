@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.realidea;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -61,7 +61,7 @@ public class Gulliby extends Pokemon {
                 ),
                 List.of(Label.REALIDEA_SYSTEM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_COAST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"day")

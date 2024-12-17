@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:furalem",
+  "speciesId": "cobblemon:furalem",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

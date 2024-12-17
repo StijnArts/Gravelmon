@@ -25,7 +25,7 @@ public class Pinxie extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Scientists believe they were formed from the cosmic dust after a star dies. Why or how they ended up in Orohn-Havai is still a mystery."),
                 List.of(new EvolutionEntry("cosminx", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.COSMIC_POWER.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.COSMIC_POWER.getName())))),
                 List.of(                  new MoveLearnSetEntry(Move.TELEPORT,1),
                         new MoveLearnSetEntry(Move.PIXIEDUST,5),
                         new MoveLearnSetEntry(Move.FAIRY_WIND,9),

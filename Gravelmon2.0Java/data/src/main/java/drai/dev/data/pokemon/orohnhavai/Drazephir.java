@@ -25,7 +25,7 @@ public class Drazephir extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("A Pokemon spoken about in folklore where it controls winds. Some locals believe windy days mean Drazephir is very active and playful, while strong winds are seen as warning signs of incoming danger. It guards the sky over the islands."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -2,9 +2,33 @@
   "entryId": "cobblemon:dragonite",
   "forms": [
     {
+      "displayForm": "Raianian",
+      "unlockForms": [
+        "Raianian"
+      ]
+    },
+    {
+      "displayForm": "Raianian",
+      "unlockForms": [
+        "Raianian"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
       "displayForm": "Delta",
       "unlockForms": [
         "Delta"
+      ]
+    },
+    {
+      "displayForm": "Ayreian",
+      "unlockForms": [
+        "Ayreian"
       ]
     }
   ]

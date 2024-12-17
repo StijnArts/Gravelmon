@@ -44,10 +44,10 @@ public class Batrix extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.METAL_BURST,59)                  ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 40, 0.9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

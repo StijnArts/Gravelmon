@@ -24,7 +24,7 @@ public class VaalHazak extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("A grotesque Elder Dragon, that inhabits the deepest part of the Rotten Vale. It uses the fatal vapor of the vale in what appears to be a symbiotic relationship."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

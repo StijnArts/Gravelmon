@@ -24,7 +24,7 @@ public class Saurky extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Occasionally, this Pokemon is distributed as a Starter for new trainers."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

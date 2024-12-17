@@ -81,7 +81,7 @@ public class Dokangu extends Pokemon {
                 0,
                 List.of(), SpawnContext.GROUNDED, SpawnPool.COMMON, 34, 55, 0.4, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD, Biome.IS_SUMMER))),
                 List.of(SpawnPreset.NATURAL),
                 0.4, 0.3,

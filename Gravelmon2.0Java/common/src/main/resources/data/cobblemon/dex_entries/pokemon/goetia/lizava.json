@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lizava",
+  "speciesId": "cobblemon:lizava",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

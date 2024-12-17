@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.azure.regional;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -21,7 +21,7 @@ public class MysticRiolu extends Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("mysticlucario", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"180"),
-                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"\"night\"")))),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CHARM,1),
                         new MoveLearnSetEntry(Move.COPYCAT,1),
@@ -49,8 +49,8 @@ public class MysticRiolu extends Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 28, 9.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.22, 0.3,

@@ -24,7 +24,7 @@ public class Trasphin extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_2),
                 List.of("Years of ocean pollution have caused Trasphin to absorb toxins and oil into their bodies to adapt. They are full of sludge that they expel out of their bottle like noses."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ORBIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

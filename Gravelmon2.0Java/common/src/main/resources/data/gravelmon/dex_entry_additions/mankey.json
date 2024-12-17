@@ -1,0 +1,23 @@
+{
+  "entryId": "cobblemon:mankey",
+  "forms": [
+    {
+      "displayForm": "Mahalian",
+      "unlockForms": [
+        "Mahalian"
+      ]
+    },
+    {
+      "displayForm": "Forman",
+      "unlockForms": [
+        "Forman"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
+}

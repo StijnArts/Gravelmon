@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:sickleor",
+  "speciesId": "cobblemon:sickleor",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

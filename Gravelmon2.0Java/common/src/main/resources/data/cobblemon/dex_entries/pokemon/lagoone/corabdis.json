@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:corabdis",
+  "speciesId": "cobblemon:corabdis",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

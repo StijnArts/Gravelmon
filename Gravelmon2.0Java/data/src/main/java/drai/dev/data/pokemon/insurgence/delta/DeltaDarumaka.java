@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -109,16 +110,24 @@ public class DeltaDarumaka extends Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 43, 2.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.22, 0.3,
                 List.of());
         this.setLangFileName("Darumaka");
-        this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setCanFly(true);
         this.setBaseScale(1);
         this.setHitbox(1,1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("darumaka_egho");
+        getPosingFileData().setPortraitData( 2.3f, new Vector3(-0.2, -.9, 0));
+        getPosingFileData().setProfileData( 1f, new Vector3(0, .3, 0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().clearPoseTypes().withBlink()
+                        .addQuirk(new Quirk("spook", List.of("cry"), 0, 30, 0))
+        ));
     }
 }

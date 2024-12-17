@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "drarize-01",
+      "pokemon": "drarize",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "23-44",
+      "weight": 3.5999999999999996,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:raw_gold_block"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:envirock-forest",
+  "speciesId": "cobblemon:envirock",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Forest",
+      "unlockForms": [
+        "Forest"
+      ]
+    }
+  ],
+  "variations": []
+}

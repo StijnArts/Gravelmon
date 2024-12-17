@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:kubaiyu",
+  "speciesId": "cobblemon:kubaiyu",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

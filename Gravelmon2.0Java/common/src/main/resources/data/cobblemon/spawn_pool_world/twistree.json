@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "twistree-01",
+      "pokemon": "twistree",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "13-41",
+      "weight": 1.7999999999999998,
+      "condition": {
+        "biomes": [
+          "minecraft:birch_forest"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    }
+  ]
+}

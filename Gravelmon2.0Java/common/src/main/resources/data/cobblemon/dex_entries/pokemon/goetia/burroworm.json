@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:burroworm",
+  "speciesId": "cobblemon:burroworm",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

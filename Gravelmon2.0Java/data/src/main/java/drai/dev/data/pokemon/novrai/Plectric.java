@@ -25,7 +25,7 @@ public class Plectric extends drai.dev.data.pokemon.Pokemon {
                 List.of("It attaches itself to rocks to feed on algae, forming a static seal that makes it impossible to pry off. It also gets metaphorically attached to other Pokemon, particularly Dark-types."),
                 List.of(new EvolutionEntry("sharcastric", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"\"type=dark\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"type=dark")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CHARGE,1),
                         new MoveLearnSetEntry(Move.THUNDER_WAVE,5),

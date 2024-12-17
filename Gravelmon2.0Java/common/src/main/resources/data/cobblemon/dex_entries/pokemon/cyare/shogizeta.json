@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:shogizeta",
+  "speciesId": "cobblemon:shogizeta",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

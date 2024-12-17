@@ -26,7 +26,7 @@ public class Snuffellow extends drai.dev.data.pokemon.Pokemon {
                 List.of(new EvolutionEntry("belostoke", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"))),
                         new EvolutionEntry("hadrosmoke", EvolutionType.LEVEL_UP, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:kings_rock\"")))),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:kings_rock")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SMOG,1),
                         new MoveLearnSetEntry(Move.YAWN,1),

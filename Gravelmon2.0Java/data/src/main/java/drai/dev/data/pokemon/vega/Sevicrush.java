@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.vega;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -103,7 +103,7 @@ public class Sevicrush extends Pokemon {
                 0.4, 0.3,
                 List.of());
         addAdditionalEvolution("seviper", new EvolutionEntry("sevicrush", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"\"zangoose\""))));
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"zangoose"))));
         addAdditionalEvolution("seviper", new EvolutionEntry("sevicrush", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"cobblemon:dusk_stone"));
     }

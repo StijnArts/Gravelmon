@@ -24,7 +24,7 @@ public class Widgix extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MINERAL),
                 List.of("Born from junk piles, it's a naturally inquisitive Pokemon. It collects small pieces of metal and assembles them into impressive if non-functional creations."),
                 List.of(new EvolutionEntry("damastrophe", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:metal_coat\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:metal_coat")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.THUNDER_SHOCK,3),

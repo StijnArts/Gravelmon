@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:trishout",
-  "order": 3,
+  "order": 155,
   "variations": [
     {
       "aspects": [
         "astral"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:xenoverse_trishoutastral",
+      "model": "cobblemon:cutout_gravelmon_93_by_98.geo",
+      "poser": "cobblemon:cutout_gravelmon_93_by_98",
       "texture": "cobblemon:textures/pokemon/xenoverse/trishoutastral.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,7 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "astral",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:xenoverse_trishoutastral",
-      "texture": "cobblemon:textures/pokemon/xenoverse/trishoutastral_shiny.png",
-      "layers": [
-        {
           "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
         }
       ]
     }

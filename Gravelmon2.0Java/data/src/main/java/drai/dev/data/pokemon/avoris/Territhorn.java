@@ -5,11 +5,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
-
-import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
-import java.util.*;
-
 public class Territhorn extends drai.dev.data.pokemon.Pokemon {
     public Territhorn() {
         super("Territhorn",
@@ -30,7 +25,7 @@ public class Territhorn extends drai.dev.data.pokemon.Pokemon {
                 List.of("It burrows itself in sand to keep cool, while also waiting for prey. When prey approaches, it shakes the ground vigorously to trap it in the sand."),
                 List.of(new EvolutionEntry("wrecktonic", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"53"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"day\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "day")))),
                 List.of(             new MoveLearnSetEntry(Move.HARDEN, 1),
                         new MoveLearnSetEntry(Move.ROCK_THROW, 1),
                         new MoveLearnSetEntry(Move.TAIL_WHIP, 3),
@@ -55,8 +50,8 @@ public class Territhorn extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 47, 1, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

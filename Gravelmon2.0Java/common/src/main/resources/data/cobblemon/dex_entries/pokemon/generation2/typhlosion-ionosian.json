@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:typhlosion-ionosian",
+  "speciesId": "cobblemon:typhlosion",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ionosian",
+      "unlockForms": [
+        "Ionosian"
+      ]
+    }
+  ],
+  "variations": []
+}

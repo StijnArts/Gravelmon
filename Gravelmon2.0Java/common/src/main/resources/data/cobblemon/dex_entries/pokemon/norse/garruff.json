@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:garruff",
+  "speciesId": "cobblemon:garruff",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

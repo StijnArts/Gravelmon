@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Terrosect extends drai.dev.data.pokemon.Pokemon {
-    public Terrosect() {
+    public Terrosect(Stats stats) {
         super("Terrosect",
                 Type.BUG,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.TECHNICIAN), Ability.TECHNICIAN,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,
@@ -24,7 +19,7 @@ public class Terrosect extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MASTENIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

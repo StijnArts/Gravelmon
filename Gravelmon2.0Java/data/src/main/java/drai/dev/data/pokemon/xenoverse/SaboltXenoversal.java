@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.xenoverse;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -20,7 +20,7 @@ public class SaboltXenoversal extends Pokemon {
                 41, List.of(EggGroup.UNDISCOVERED),
                 List.of("It appears to be affected by the Blue Energy too, becoming fierce and savage. It fires immense dark lightning bolts from its mane charged with electricity."),
                 List.of(new EvolutionEntry("saboltterrestrial", EvolutionType.LEVEL_UP, false, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:terrestrial_ring\""))),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "gravelmon:terrestrial_ring"))),
                         new EvolutionEntry("sabolt xenoversal=false", EvolutionType.LEVEL_UP, false, List.of(), List.of())),
                 List.of(
                         new MoveLearnSetEntry(Move.EERIE_IMPULSE,1),
@@ -98,6 +98,6 @@ public class SaboltXenoversal extends Pokemon {
                 0.9, 1,
                 List.of());
         this.setLangFileName("Sabolt");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

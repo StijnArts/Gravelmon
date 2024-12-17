@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:wandream",
+  "speciesId": "cobblemon:wandream",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

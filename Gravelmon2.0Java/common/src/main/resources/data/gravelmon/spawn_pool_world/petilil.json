@@ -13,11 +13,19 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "13-27",
-      "weight": 9.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "minecraft:cherry_grove"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
       }
     }
   ]

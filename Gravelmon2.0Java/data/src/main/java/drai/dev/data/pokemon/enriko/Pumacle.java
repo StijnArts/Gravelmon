@@ -24,7 +24,7 @@ public class Pumacle extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("They form their shells from cooling magma, migrating downwards to live in the ocean. Their shells are brittle and flaky, but buoyant."),
                 List.of(new EvolutionEntry("tunicrust", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.SUPERPOWER.getName()+"\"")))	),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.SUPERPOWER.getName())))	),
                 List.of(           new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.POWER_GEM,1),
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),

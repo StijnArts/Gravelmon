@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:dranduja",
+  "speciesId": "cobblemon:dranduja",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

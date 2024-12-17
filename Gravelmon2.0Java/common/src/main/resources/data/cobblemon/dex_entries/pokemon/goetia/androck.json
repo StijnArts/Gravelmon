@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:androck",
+  "speciesId": "cobblemon:androck",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

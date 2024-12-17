@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:chinchou-raianian",
+  "speciesId": "cobblemon:chinchou",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Raianian",
+      "unlockForms": [
+        "Raianian"
+      ]
+    }
+  ],
+  "variations": []
+}

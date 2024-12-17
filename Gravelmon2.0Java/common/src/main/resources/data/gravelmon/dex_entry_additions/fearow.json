@@ -2,9 +2,27 @@
   "entryId": "cobblemon:fearow",
   "forms": [
     {
+      "displayForm": "Forman",
+      "unlockForms": [
+        "Forman"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
       "displayForm": "Egho",
       "unlockForms": [
         "Egho"
+      ]
+    },
+    {
+      "displayForm": "Ayreian",
+      "unlockForms": [
+        "Ayreian"
       ]
     }
   ]

@@ -1,6 +1,6 @@
 {
   "species": "cobblemon:galvantula",
-  "order": 10,
+  "order": 100,
   "variations": [
     {
       "aspects": [
@@ -9,7 +9,29 @@
       "model": "cobblemon:generation5_galvantulax.geo",
       "poser": "cobblemon:generation5_galvantulax",
       "texture": "cobblemon:textures/pokemon/generation5/galvantulax/galvantulax.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     },
     {
       "aspects": [
@@ -19,7 +41,29 @@
       "model": "cobblemon:generation5_galvantulax.geo",
       "poser": "cobblemon:generation5_galvantulax",
       "texture": "cobblemon:textures/pokemon/generation5/galvantulax/galvantulax_shiny.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     }
   ]
 }

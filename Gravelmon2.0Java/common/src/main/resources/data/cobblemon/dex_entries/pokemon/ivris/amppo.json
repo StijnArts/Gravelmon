@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:amppo",
+  "speciesId": "cobblemon:amppo",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

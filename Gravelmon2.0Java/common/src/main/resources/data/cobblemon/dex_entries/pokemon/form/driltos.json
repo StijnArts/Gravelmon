@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:driltos",
+  "speciesId": "cobblemon:driltos",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

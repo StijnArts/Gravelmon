@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gulligull",
+  "speciesId": "cobblemon:gulligull",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gorajack",
+  "speciesId": "cobblemon:gorajack",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

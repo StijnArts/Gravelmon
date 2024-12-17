@@ -24,7 +24,7 @@ public class Predageist extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.GRASS,EggGroup.FIELD),
                 List.of("A dark force revived a poor Spritten caught in a trap, and now this 'Mon seeks out those that would do harm to others relentlessly."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.URZAVOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

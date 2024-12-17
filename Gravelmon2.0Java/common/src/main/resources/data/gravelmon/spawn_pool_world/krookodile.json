@@ -1,0 +1,67 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epoch_krookodile-01",
+      "pokemon": "krookodile epoch",
+      "presets": [
+        "village",
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "40-54",
+      "weight": 0.30000000000000004,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_beach"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ayreian_krookodile-01",
+      "pokemon": "krookodile ayreian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "39-57",
+      "weight": 0.15000000000000002,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_mud"
+          ]
+        }
+      }
+    }
+  ]
+}

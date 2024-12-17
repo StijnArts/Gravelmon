@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:charantula",
+  "speciesId": "cobblemon:charantula",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

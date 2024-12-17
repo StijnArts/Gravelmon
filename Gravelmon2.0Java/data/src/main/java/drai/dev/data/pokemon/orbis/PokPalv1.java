@@ -24,7 +24,7 @@ public class PokPalv1 extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("Introducing your newest Virtual Companion, the PokéPal! With a highly customisable interface and design, your PokéPal is entirely unique and personalised!"),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ORBIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

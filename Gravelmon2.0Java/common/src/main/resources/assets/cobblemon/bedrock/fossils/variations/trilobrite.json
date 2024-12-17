@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:trilobrite",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:embryo_trilobrite",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/trilobrite.png",
+      "layers": []
+    }
+  ]
+}

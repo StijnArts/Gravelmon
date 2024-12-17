@@ -24,7 +24,7 @@ public class Antle extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of(""),
                 List.of(new EvolutionEntry("magnificant", EvolutionType.ITEM_INTERACT, false, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=female\"")),List.of(),"cobblemon:fire_stone")),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=female")),List.of(),"cobblemon:fire_stone")),
                 List.of(           new MoveLearnSetEntry(Move.EMBER,1),
                         new MoveLearnSetEntry(Move.MUDSLAP,7),
                         new MoveLearnSetEntry(Move.TWINEEDLE,12),

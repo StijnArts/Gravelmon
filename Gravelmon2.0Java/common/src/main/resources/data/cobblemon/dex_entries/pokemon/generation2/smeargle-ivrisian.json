@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:smeargle-ivrisian",
+  "speciesId": "cobblemon:smeargle",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ivrisian",
+      "unlockForms": [
+        "Ivrisian"
+      ]
+    }
+  ],
+  "variations": []
+}

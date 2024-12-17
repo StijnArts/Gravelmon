@@ -13,13 +13,21 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "35-52",
-      "weight": 0.3,
+      "weight": 0.44999999999999996,
       "condition": {
         "biomes": [
           "#cobblemon:is_volvanic"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
       }
     }
   ]

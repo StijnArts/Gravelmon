@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:croconaw-ionosian",
+  "speciesId": "cobblemon:croconaw",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ionosian",
+      "unlockForms": [
+        "Ionosian"
+      ]
+    }
+  ],
+  "variations": []
+}

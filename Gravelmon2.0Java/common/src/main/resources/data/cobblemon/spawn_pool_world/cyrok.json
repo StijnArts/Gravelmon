@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cyrok-01",
+      "pokemon": "cyrok",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "13-32",
+      "weight": 7.199999999999999,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:tuff"
+          ]
+        }
+      }
+    }
+  ]
+}

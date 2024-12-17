@@ -17,13 +17,13 @@ public class Wasplode extends drai.dev.data.pokemon.Pokemon {
                         65,
                         110),
                 List.of(Ability.INFILTRATOR), Ability.FLASH_FIRE,
-                8, 165,
-                new Stats(0,0,0,0,0,2), 0,
+                10, 165,
+                new Stats(0,0,0,0,0,2), 60,
                 0.5,
                 175, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("http://sta.sh/01teadcxiuoe"),
+                List.of("Wasplode fiercely defend their nests, which they build with mud. If necessary, a Wasplode will detonate a fiery explosion to save its sisters."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.POISON_STING,1),
@@ -46,9 +46,9 @@ public class Wasplode extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BURN_UP,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 32, 1.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

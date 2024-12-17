@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:slugma-forman",
+  "speciesId": "cobblemon:slugma",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Forman",
+      "unlockForms": [
+        "Forman"
+      ]
+    }
+  ],
+  "variations": []
+}

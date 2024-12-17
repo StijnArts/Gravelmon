@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "tennestrian-01",
+      "pokemon": "tennestrian",
+      "presets": [
+        "trail_ruins"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "12-32",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:bone_block"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:dracnarok",
+  "speciesId": "cobblemon:dracnarok",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

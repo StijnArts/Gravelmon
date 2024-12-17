@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:felipom",
+  "speciesId": "cobblemon:felipom",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

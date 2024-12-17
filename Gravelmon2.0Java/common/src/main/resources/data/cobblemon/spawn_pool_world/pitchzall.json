@@ -13,13 +13,21 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "6-27",
-      "weight": 7.0,
+      "weight": 10.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_grassland"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:target_block"
+          ]
+        }
       }
     }
   ]

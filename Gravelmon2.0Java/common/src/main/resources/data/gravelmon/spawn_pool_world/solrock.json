@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epoch_solrock-01",
+      "pokemon": "solrock epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "25-54",
+      "weight": 2.0999999999999996,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
+      }
+    }
+  ]
+}

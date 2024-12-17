@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:earyvil",
+  "speciesId": "cobblemon:earyvil",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

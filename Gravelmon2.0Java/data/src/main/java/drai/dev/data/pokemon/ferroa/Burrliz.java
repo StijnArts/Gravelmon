@@ -113,10 +113,10 @@ public class Burrliz extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THORN_FALL,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

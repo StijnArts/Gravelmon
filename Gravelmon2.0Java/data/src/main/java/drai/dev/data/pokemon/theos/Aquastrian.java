@@ -24,7 +24,7 @@ public class Aquastrian extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD,EggGroup.WATER_1),
                 List.of("Aquastrian are great swimmers, able to pass through large whirlpools with ease. Touching their horn is said to give you good luck."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

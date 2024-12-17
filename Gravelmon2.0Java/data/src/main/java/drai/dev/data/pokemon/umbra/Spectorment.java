@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.umbra;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -98,7 +98,8 @@ public class Spectorment extends Pokemon {
                 List.of(Label.UMBRA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 35, 56, 0.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.22, 0.3,

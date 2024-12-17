@@ -4,6 +4,58 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epoch_volcarona-01",
+      "pokemon": "volcarona epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "50-65",
+      "weight": 0.15000000000000002,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_sky",
+          "#cobblemon:is_magical"
+        ],
+        "timeRange": "day"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_volcarona-01",
+      "pokemon": "volcarona epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "50-65",
+      "weight": 0.15000000000000002,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:purpur"
+          ]
+        }
+      }
+    },
+    {
       "id": "delta_volcarona-01",
       "pokemon": "volcarona delta",
       "presets": [
@@ -13,31 +65,21 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "50-68",
-      "weight": 0.2,
+      "weight": 0.30000000000000004,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
         ],
         "minSkyLight": 0,
         "maxSkyLight": 7
-      }
-    },
-    {
-      "id": "mythian_volcarona-01",
-      "pokemon": "volcarona mythian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "ultra-rare",
-      "level": "55-70",
-      "weight": 0.2,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_magical"
-        ],
-        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:black_wool"
+          ]
+        }
       }
     }
   ]

@@ -24,7 +24,7 @@ public class Colorlish extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Colorish's scales have grown over its eyes. Thankfully, it is so dull it often isn't noticed until it bites or rams into others. It hunts using a mystic power."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MYSTIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -6,17 +6,12 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Stiltiwalka extends drai.dev.data.pokemon.Pokemon {
-    public Stiltiwalka() {
+    public Stiltiwalka(Stats stats) {
         super("Stiltiwalka",
                 Type.PSYCHIC, Type.GHOST,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
+                17, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -24,11 +19,11 @@ public class Stiltiwalka extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It gathers in small numbers during colorful festivals. Stiltiwalka heals the sick and brings good fortune to events to come. Looking at this Pokémon puts an instant smile of the beholder."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 33, 48, 1.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

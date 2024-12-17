@@ -1,9 +1,8 @@
 package drai.dev.data.pokemon.xenoverse;
 
-import drai.dev.data.pokemon.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -50,7 +49,7 @@ public class Kidoon extends Pokemon {
                 List.of(SpawnPreset.WATER_SURFACE),
                 0.3, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         this.setCanFly(true);
     }
 }

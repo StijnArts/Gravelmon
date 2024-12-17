@@ -1,0 +1,23 @@
+{
+  "entryId": "cobblemon:envirock",
+  "forms": [
+    {
+      "displayForm": "Cave",
+      "unlockForms": [
+        "Cave"
+      ]
+    },
+    {
+      "displayForm": "Forest",
+      "unlockForms": [
+        "Forest"
+      ]
+    },
+    {
+      "displayForm": "Sea",
+      "unlockForms": [
+        "Sea"
+      ]
+    }
+  ]
+}

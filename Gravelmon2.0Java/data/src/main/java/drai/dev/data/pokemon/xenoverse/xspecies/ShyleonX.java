@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.xenoverse.xspecies;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -38,13 +38,13 @@ public class ShyleonX extends Pokemon {
                         ),
                 List.of(Label.XENOVERSE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.9, 1,
                 List.of());
         this.setLangFileName("Shyleon");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+        
     }
 }

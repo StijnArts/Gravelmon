@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "raychu-01",
+      "pokemon": "raychu",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "33-54",
+      "weight": 0.75,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_trap_door"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:kapkid",
+  "speciesId": "cobblemon:kapkid",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

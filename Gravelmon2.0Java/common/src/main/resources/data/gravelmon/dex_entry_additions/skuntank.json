@@ -2,6 +2,12 @@
   "entryId": "cobblemon:skuntank",
   "forms": [
     {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
       "displayForm": "Kaskadian",
       "unlockForms": [
         "Kaskadian"

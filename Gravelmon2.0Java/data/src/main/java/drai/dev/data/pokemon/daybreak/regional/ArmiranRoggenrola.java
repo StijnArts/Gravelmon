@@ -94,6 +94,5 @@ public class ArmiranRoggenrola extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Roggenrola");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

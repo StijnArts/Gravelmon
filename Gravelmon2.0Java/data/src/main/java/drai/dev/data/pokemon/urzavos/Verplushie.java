@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Verplushie extends drai.dev.data.pokemon.Pokemon {
-    public Verplushie() {
+    public Verplushie(Stats stats) {
         super("Verplushie",
                 Type.NORMAL, Type.FAIRY,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 5, 45,
                 new Stats(0,0,0,0,0,0), 80,
@@ -24,7 +19,7 @@ public class Verplushie extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD,EggGroup.FAIRY),
                 List.of("Having grown large enough, this 'Mon takes its previous evolutions into its fluff to keep them warm and safe when their fabric has worn down. Every pattern is unique!"),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.URZAVOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

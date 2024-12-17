@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Conferocious extends drai.dev.data.pokemon.Pokemon {
-    public Conferocious() {
+    public Conferocious(Stats stats) {
         super("Conferocious",
                 Type.ROCK, Type.GRASS,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,
@@ -24,7 +19,7 @@ public class Conferocious extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MASTENIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:grimoth",
+  "speciesId": "cobblemon:grimoth",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

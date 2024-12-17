@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.infinity;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -109,6 +109,6 @@ public class Gargon extends Pokemon {
                 List.of(SpawnPreset.JUNGLE_PYRAMID),
                 0.23, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

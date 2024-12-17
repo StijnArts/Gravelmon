@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:beelobuzz",
+  "speciesId": "cobblemon:beelobuzz",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

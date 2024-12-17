@@ -24,7 +24,7 @@ public class Snowly extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Its wings are better suited to protection than flying. In bad weather, it shelters under its wings to stay warm. Its talons grip hard to rocks to keep from being blown away during harsh storms."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

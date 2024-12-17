@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:battletail",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:embryo_battletail",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/battletail.png",
+      "layers": []
+    }
+  ]
+}

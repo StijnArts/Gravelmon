@@ -107,6 +107,6 @@ public class Shibalbat extends Pokemon {
                 List.of(SpawnPreset.DESERT_PYRAMID),
                 0.4, 0.5,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

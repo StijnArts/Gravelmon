@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:rabbot",
+  "speciesId": "cobblemon:rabbot",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

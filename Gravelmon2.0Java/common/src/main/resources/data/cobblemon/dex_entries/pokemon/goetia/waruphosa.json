@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:waruphosa",
+  "speciesId": "cobblemon:waruphosa",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

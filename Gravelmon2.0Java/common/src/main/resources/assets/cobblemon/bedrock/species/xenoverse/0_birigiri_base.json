@@ -7,13 +7,60 @@
       "model": "cobblemon:xenoverse_birigiri.geo",
       "poser": "cobblemon:xenoverse_birigiri",
       "texture": "cobblemon:textures/pokemon/xenoverse/birigiri/birigiri.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/xenoverse/birigiri/birigiri_shiny.png"
+      "model": "cobblemon:xenoverse_birigiri.geo",
+      "poser": "cobblemon:xenoverse_birigiri",
+      "texture": "cobblemon:textures/pokemon/xenoverse/birigiri/birigiri_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     }
   ]
 }

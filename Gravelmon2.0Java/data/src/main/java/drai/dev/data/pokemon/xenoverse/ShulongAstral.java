@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.xenoverse;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -22,9 +22,9 @@ public class ShulongAstral extends Pokemon {
                 List.of(new EvolutionEntry("shulong astral=false", EvolutionType.LEVEL_UP, false, List.of(),
                                 List.of()),
                         new EvolutionEntry("shulongterrestrial", EvolutionType.LEVEL_UP, false, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:terrestrial_ring\""))),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "gravelmon:terrestrial_ring"))),
                         new EvolutionEntry("shulongxenoversal", EvolutionType.LEVEL_UP, false, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:xenoversal_ring\"")))),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "gravelmon:xenoversal_ring")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_GUN,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),
@@ -97,7 +97,7 @@ public class ShulongAstral extends Pokemon {
                 0.9, 1,
                 List.of());
         this.setLangFileName("Shulong");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
     }

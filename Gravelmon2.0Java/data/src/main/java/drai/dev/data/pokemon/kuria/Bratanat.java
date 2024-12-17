@@ -25,7 +25,7 @@ public class Bratanat extends drai.dev.data.pokemon.Pokemon {
                 List.of("It's full of so much disease that it has eventually become immune to all sickness. Because of this incredible power, Bratanat is always cheerful and happy. It spends its days playfully pranking others but it has to keep a distance so it doesn't give anyone a disease."),
                 List.of(new EvolutionEntry("witherwind", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "night")))),
                 List.of(           new MoveLearnSetEntry(Move.CONFUSION,1),
                         new MoveLearnSetEntry(Move.STUN_SPORE,7),
                         new MoveLearnSetEntry(Move.DISABLE,11),

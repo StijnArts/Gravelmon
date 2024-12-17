@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:starmie",
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Ionosian",
+      "unlockForms": [
+        "Ionosian"
+      ]
+    }
+  ]
+}

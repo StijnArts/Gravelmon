@@ -24,7 +24,7 @@ public class Goolony extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.DITTO),
                 List.of("(steel/grease) As it eats, it uses all of the energy gained to replicate itself. Larger clones are assimilated into its own body like a hivemind."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ENRIKO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:shortulp",
+  "speciesId": "cobblemon:shortulp",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:garchomp-raianian",
+  "speciesId": "cobblemon:garchomp",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Raianian",
+      "unlockForms": [
+        "Raianian"
+      ]
+    }
+  ],
+  "variations": []
+}

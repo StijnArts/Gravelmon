@@ -24,7 +24,7 @@ public class Mettlemaw extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It chews on metal wire, leading to a mass of wires to get caught in between its teeth. They do this to reinforce their teeth, allowing them to hunt their favorite prey - Cavitrio."),
                 List.of(new EvolutionEntry("scourgeon", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.CRUNCH.getName()+"\"")))	),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.CRUNCH.getName())))	),
                 List.of(         new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.FAKE_TEARS,1),
                         new MoveLearnSetEntry(Move.BITE,6),

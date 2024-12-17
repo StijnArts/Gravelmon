@@ -24,7 +24,7 @@ public class Tankyard extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MINERAL),
                 List.of("Tankyard laze around in junkyards waiting for new garbage to arrive. As soon as it comes, they start to compact it using their strong steel crushers. After being made into cubes, Tankyard will typically eat them in one bite."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ISIAH),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

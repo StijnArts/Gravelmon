@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:slimeshroom",
+  "speciesId": "cobblemon:slimeshroom",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

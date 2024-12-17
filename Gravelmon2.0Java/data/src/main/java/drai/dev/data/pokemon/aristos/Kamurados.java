@@ -58,7 +58,7 @@ public class Kamurados extends drai.dev.data.pokemon.Pokemon {
         setCanBreathUnderwater(true);
            setLangFileName("Kamurados");
         addAdditionalEvolution("magikarp", new EvolutionEntry("kamurados", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"\"dekoi\""))));
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"dekoi"))));
 
     }
 

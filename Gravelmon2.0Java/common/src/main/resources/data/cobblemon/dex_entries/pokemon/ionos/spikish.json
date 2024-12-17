@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:spikish",
+  "speciesId": "cobblemon:spikish",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

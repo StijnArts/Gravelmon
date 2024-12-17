@@ -53,7 +53,7 @@ public class Dimetrus extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SOAK,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

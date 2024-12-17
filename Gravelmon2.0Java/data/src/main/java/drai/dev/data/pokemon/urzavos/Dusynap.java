@@ -24,7 +24,7 @@ public class Dusynap extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_3),
                 List.of("A quiet 'Mon that observes from a distance, analyzing its foes. It will not engage with a foe it deems beyond its skill to dispatch, and will ignore commands to do so otherwise, deeming them foolish."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.URZAVOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "36-51",
-      "weight": 2.4,
+      "weight": 3.5999999999999996,
       "condition": {
         "biomes": [
           "#cobblemon:is_overworld"
@@ -25,6 +25,14 @@
         "biomes": [
           "#cobblemon:is_deep_dark"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
+          ]
+        }
       }
     }
   ]

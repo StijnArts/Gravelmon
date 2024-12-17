@@ -13,13 +13,21 @@
       "context": "submerged",
       "bucket": "uncommon",
       "level": "4-27",
-      "weight": 4.0,
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     }
   ]

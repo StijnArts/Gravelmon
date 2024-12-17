@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Forowl extends drai.dev.data.pokemon.Pokemon {
-    public Forowl() {
+    public Forowl(Stats stats) {
         super("Forowl",
                 Type.GRASS, Type.FLYING,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,
@@ -24,7 +19,7 @@ public class Forowl extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FLYING),
                 List.of("Forowl is an expert at catching prey in the dark. This Pokémon's success is due to its exceptional vision, which helps it to see in low light, and its delicate, supple wings, which fly silently."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:buffaloam",
+  "speciesId": "cobblemon:buffaloam",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

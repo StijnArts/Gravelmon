@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:spitsen",
+  "speciesId": "cobblemon:spitsen",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

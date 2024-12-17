@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Outepede extends drai.dev.data.pokemon.Pokemon {
-    public Outepede() {
+    public Outepede(Stats stats) {
         super("Outepede",
                 Type.DRAGON, Type.ICE,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.LIMBER,Ability.OUTBURST), Ability.BERSERK,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,
@@ -24,7 +19,7 @@ public class Outepede extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ULTRASPACE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

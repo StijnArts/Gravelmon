@@ -25,7 +25,7 @@ public class Jellysquish extends drai.dev.data.pokemon.Pokemon {
                 List.of("The bell and its tentacles are two separate organisms. Its bell keeps it floating on the surface of the water as the tentacles consume food particles below."),
                 List.of(new EvolutionEntry("phonowar", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "night")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.WATER_GUN,7),

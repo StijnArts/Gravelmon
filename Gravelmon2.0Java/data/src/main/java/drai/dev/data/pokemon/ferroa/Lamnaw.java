@@ -121,7 +121,7 @@ public class Lamnaw extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DIVE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 16, 40, 0.9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.MAXY,"10"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")

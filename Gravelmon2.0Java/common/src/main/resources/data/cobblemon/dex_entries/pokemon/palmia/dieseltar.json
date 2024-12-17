@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:dieseltar",
+  "speciesId": "cobblemon:dieseltar",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

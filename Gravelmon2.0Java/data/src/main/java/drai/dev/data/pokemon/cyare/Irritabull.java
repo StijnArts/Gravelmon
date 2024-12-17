@@ -6,17 +6,12 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Irritabull extends drai.dev.data.pokemon.Pokemon {
-    public Irritabull() {
+    public Irritabull(Stats stats) {
         super("Irritabull",
                 Type.GROUND, Type.DARK,
-                new Stats(97,
-                        130,
-                        82,
-                        45,
-                        103,
-                        43),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
+                19, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -24,11 +19,11 @@ public class Irritabull extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Irritabull were formerly confused with Nobull, causing Nobull's bad reputation. Irritabull angers easily and is difficult to tame."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 53, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

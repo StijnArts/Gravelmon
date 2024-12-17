@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:whismur",
+  "forms": [
+    {
+      "displayForm": "Raianian",
+      "unlockForms": [
+        "Raianian"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
+}

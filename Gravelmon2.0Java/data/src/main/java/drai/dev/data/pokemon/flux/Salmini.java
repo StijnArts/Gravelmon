@@ -28,11 +28,11 @@ public class Salmini extends Pokemon {
                 List.of(new EvolutionEntry("salmosaultfreshwater", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24"),
                                         new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,
-                                                "\""+ Biome.IS_RIVER.getId() + ":" + Biome.IS_RIVER.getName() +"\""))),
+                                                Biome.IS_RIVER.getId() + ":" + Biome.IS_RIVER.getName()))),
                         new EvolutionEntry("salmosaultsaltwater", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24"),
                                         new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,
-                                                "\""+ Biome.IS_OCEAN.getId() + ":" + Biome.IS_OCEAN.getName() +"\"")))),
+                                                Biome.IS_OCEAN.getId() + ":" + Biome.IS_OCEAN.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.SPLASH,1),
                         new MoveLearnSetEntry(Move.WATER_GUN,1),

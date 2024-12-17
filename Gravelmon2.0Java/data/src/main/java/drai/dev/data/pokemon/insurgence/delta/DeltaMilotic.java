@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -123,7 +123,8 @@ public class DeltaMilotic extends Pokemon {
                 List.of(Label.GEN3,Label.INSURGENCE),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 30, 57, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,
@@ -153,6 +154,5 @@ public class DeltaMilotic extends Pokemon {
         this.setCanBreathUnderwater(true);
         this.setCanSwim(true);
         this.setAvoidsLand(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

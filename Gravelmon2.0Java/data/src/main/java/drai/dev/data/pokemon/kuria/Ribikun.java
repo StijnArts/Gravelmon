@@ -24,7 +24,7 @@ public class Ribikun extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MINERAL,EggGroup.MONSTER),
                 List.of("It can sit for days waiting for prey. When demoisturized, its body becomes rigid like a statue. It prefers shade, suggesting the dry environment it dwells in was once upon a time more lush."),
                 List.of(new EvolutionEntry("kunama", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.ACID_ARMOR.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.ACID_ARMOR.getName())))),
                 List.of(          new MoveLearnSetEntry(Move.MUDSLAP,1),
                         new MoveLearnSetEntry(Move.WATER_GUN,1),
                         new MoveLearnSetEntry(Move.SNORE,5),

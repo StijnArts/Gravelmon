@@ -25,7 +25,7 @@ public class Nursee extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.HUMAN_LIKE,EggGroup.FAIRY),
                 List.of("Nursee are so caring and kind they will cry if another Pokemon is crying or hurt, often when they don't know why. They will also tend to injured Pokemon out of the goodness of their hearts, even if not asked."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

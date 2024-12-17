@@ -24,7 +24,7 @@ public class Theroroar extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("With a rapid swipe of its razor-sharp claws, it can annihilate its foes. It is so violent that it would defy its trainers and fight until the opponent is defeated."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

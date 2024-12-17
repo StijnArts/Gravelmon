@@ -25,7 +25,7 @@ public class Wilspri extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.GRASS,EggGroup.AMORPHOUS),
                 List.of("It is said to be the spirit of a young child who wandered (or was lured) into the forest at night and never returned. Rumor has it that Wilspri was a child who got trapped in deep in the forest and passed. You can occasionally hear a child's weeping, which is said to be the sound of an angered Wilspri."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

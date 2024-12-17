@@ -25,7 +25,7 @@ public class Grabbit extends drai.dev.data.pokemon.Pokemon {
                 List.of("Their sticky webbing can latch onto anything. They hide in dark areas, waiting to snatch food and other items from passersby."),
                 List.of(new EvolutionEntry("frobber", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "night")))),
                 List.of(               new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.ACID,5),
@@ -48,7 +48,8 @@ public class Grabbit extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.AVORIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 32, 3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Gobul extends drai.dev.data.pokemon.Pokemon {
-    public Gobul() {
+    public Gobul(Stats stats) {
         super("Gobul",
                 Type.WATER, Type.DARK,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,
@@ -24,7 +19,7 @@ public class Gobul extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Monsters with strong camouflage skills and powerful neurotoxins. Poor swimmers, Gobul conceal themselves and lure prey by imitating plants with their barbels."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

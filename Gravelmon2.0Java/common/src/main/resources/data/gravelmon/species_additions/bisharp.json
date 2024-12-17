@@ -1,18 +1,15 @@
 {
-   "target": "cobblemon:bisharp",
+  "target": "cobblemon:bisharp",
   "evolutions": [
     {
-      "id": "bisharp_Bisharp_x",
+      "id": "bisharp_bisharp_x",
       "variant": "item_interact",
       "result": "Bisharp x",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
+      "requirements": [],
       "requiredContext": "gravelmon:inductive_ring",
-      "permanent": true   
- }
+      "permanent": true
+    }
   ]
-
 }

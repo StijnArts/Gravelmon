@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:vaxxine",
+  "speciesId": "cobblemon:vaxxine",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

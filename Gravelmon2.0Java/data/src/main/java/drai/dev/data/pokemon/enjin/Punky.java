@@ -6,17 +6,12 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Punky extends drai.dev.data.pokemon.Pokemon {
-    public Punky() {
+    public Punky(Stats stats) {
         super("Punky",
                 Type.DARK,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.FRISK,Ability.MOXIE), Ability.PRANKSTER,
-                0, 0,
+                4, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -76,8 +71,8 @@ public class Punky extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.REST,"tm")                        ),
                 List.of(Label.ENJIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 44, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:astoundent",
+  "speciesId": "cobblemon:astoundent",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

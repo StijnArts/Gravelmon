@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:termulch",
+  "speciesId": "cobblemon:termulch",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

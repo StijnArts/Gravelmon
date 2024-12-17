@@ -24,7 +24,7 @@ public class Lizquent extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD,EggGroup.HUMAN_LIKE),
                 List.of("With its 'special' fist, it can punch at mach speeds and prefers one hit KOs. Despite the intimidating looks, it has a heart of gold."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

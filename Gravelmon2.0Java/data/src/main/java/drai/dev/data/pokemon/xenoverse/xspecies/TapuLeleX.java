@@ -79,6 +79,6 @@ public class TapuLeleX extends Pokemon {
                 0.27, 0.3,
                 List.of());
         this.setLangFileName("Tapu Lele");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

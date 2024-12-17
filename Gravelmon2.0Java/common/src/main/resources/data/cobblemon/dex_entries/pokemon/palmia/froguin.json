@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:froguin",
+  "speciesId": "cobblemon:froguin",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:rexagon",
+  "speciesId": "cobblemon:rexagon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

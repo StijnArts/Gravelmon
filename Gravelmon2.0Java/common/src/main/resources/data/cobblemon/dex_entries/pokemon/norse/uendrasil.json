@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:uendrasil",
+  "speciesId": "cobblemon:uendrasil",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

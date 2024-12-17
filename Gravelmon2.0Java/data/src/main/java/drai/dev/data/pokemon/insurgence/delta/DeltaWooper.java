@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -115,15 +116,21 @@ public class DeltaWooper extends Pokemon {
                 List.of(Label.GEN2,Label.INSURGENCE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 4, 35, 8.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.17, 0.3,
                 List.of());
         this.setLangFileName("Wooper");
-        this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+
         this.setBaseScale(0.5);
         this.setHitbox(0.8,1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.3f, new Vector3(0, .3, 0));
+        getPosingFileData().setProfileData( .9f, new Vector3(0, 0.4, 0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().clearPoseTypes()
+        ));
     }
 }

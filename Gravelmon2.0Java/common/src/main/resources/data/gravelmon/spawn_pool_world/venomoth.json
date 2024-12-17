@@ -4,6 +4,33 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epoch_venomoth-01",
+      "pokemon": "venomoth epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "31-47",
+      "weight": 0.75,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "hizian_venomoth-01",
       "pokemon": "venomoth hizian",
       "presets": [
@@ -13,30 +40,21 @@
       "context": "grounded",
       "bucket": "common",
       "level": "31-45",
-      "weight": 0.6,
+      "weight": 0.8999999999999999,
       "condition": {
         "biomes": [
           "#cobblemon:is_grassland"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
-      }
-    },
-    {
-      "id": "cefiran_venomoth-01",
-      "pokemon": "venomoth cefiran",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "31-45",
-      "weight": 0.6,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
       }
     }
   ]

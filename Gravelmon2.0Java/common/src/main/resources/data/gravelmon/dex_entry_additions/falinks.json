@@ -2,9 +2,27 @@
   "entryId": "cobblemon:falinks",
   "forms": [
     {
+      "displayForm": "Fabelian",
+      "unlockForms": [
+        "Fabelian"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
       "displayForm": "Norheiman",
       "unlockForms": [
         "Norheiman"
+      ]
+    },
+    {
+      "displayForm": "Cefiran",
+      "unlockForms": [
+        "Cefiran"
       ]
     }
   ]

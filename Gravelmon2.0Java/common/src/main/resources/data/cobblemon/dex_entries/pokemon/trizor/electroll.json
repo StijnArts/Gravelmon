@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:electroll",
+  "speciesId": "cobblemon:electroll",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

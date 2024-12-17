@@ -25,7 +25,7 @@ public class Brinbait extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of(""),
                 List.of(new EvolutionEntry("aleglarlure", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=female\""),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=female"),
                                 new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(      new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.BIDE,4),

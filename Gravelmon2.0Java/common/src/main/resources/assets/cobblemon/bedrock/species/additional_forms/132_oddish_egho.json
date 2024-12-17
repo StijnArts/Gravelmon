@@ -1,6 +1,6 @@
 {
   "species": "cobblemon:oddish",
-  "order": 10,
+  "order": 132,
   "variations": [
     {
       "aspects": [
@@ -9,7 +9,29 @@
       "model": "cobblemon:generation1_eghooddish.geo",
       "poser": "cobblemon:generation1_eghooddish",
       "texture": "cobblemon:textures/pokemon/generation1/eghooddish/eghooddish.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     },
     {
       "aspects": [
@@ -19,7 +41,29 @@
       "model": "cobblemon:generation1_eghooddish.geo",
       "poser": "cobblemon:generation1_eghooddish",
       "texture": "cobblemon:textures/pokemon/generation1/eghooddish/eghooddish_shiny.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:parant",
+  "speciesId": "cobblemon:parant",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

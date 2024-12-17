@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:meowth-ivrisian",
+  "speciesId": "cobblemon:meowth",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ivrisian",
+      "unlockForms": [
+        "Ivrisian"
+      ]
+    }
+  ],
+  "variations": []
+}

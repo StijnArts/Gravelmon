@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:macarton",
+  "speciesId": "cobblemon:macarton",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,10 +1,9 @@
 package drai.dev.data.pokemon.infinity.regional;
 
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import java.util.*;
-
 import java.util.*;
 
 public class EghoOddish extends Pokemon {
@@ -91,15 +90,26 @@ public class EghoOddish extends Pokemon {
                 4, List.of(
                         new ItemDrop("minecraft:seeds",50, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 4.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Oddish");
-        this.setPortraitXYZ(0.1,2.0,0.0);
-        setModeled(true);
+
+        
         setBaseScale(0.6);
         setHitbox(0.6,0.6);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.8f, new Vector3(-0.0, -0.8, 0));
+        getPosingFileData().setProfileData( .8f, new Vector3(0, .6, -20));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().clearPoseTypes().withBlink(),
+                AnimationData.walkingAnimation().withBlink(),
+                AnimationData.sleepingAnimation()
+        ));
+        getPosingFileData().setFaint("bedrock(eghooddish, faint)");
     }
 }

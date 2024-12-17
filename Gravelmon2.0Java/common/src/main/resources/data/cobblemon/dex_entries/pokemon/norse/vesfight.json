@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:vesfight",
+  "speciesId": "cobblemon:vesfight",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

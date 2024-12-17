@@ -24,7 +24,7 @@ public class Peaby extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.GRASS),
                 List.of("Peabys do not emerge from their sheath until they are ready. The sun's rays drive this Pokémon to expand to enormous proportions, and the larger they grow, the closer they get to evolving."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

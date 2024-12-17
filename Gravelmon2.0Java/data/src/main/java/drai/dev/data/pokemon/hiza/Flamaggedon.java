@@ -2,6 +2,7 @@ package drai.dev.data.pokemon.hiza;
 
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+
 import java.util.*;
 
 public class Flamaggedon extends drai.dev.data.pokemon.Pokemon {
@@ -86,7 +87,7 @@ public class Flamaggedon extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAT_WAVE,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 53, 0.1, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_THERMAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

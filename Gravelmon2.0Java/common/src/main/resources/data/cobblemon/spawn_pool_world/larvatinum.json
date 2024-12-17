@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "larvatinum-01",
+      "pokemon": "larvatinum",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "13-33",
+      "weight": 3.1500000000000004,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:target_block"
+          ]
+        }
+      }
+    }
+  ]
+}

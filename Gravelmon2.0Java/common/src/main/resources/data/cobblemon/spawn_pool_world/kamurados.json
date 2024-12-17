@@ -13,13 +13,21 @@
       "context": "submerged",
       "bucket": "rare",
       "level": "23-46",
-      "weight": 0.003,
+      "weight": 0.0045000000000000005,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     }
   ]

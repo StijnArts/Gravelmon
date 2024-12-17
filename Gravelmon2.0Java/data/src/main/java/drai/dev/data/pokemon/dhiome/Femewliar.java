@@ -24,7 +24,7 @@ public class Femewliar extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("According to popular legend, it is not a Pokemon but a human in disguise. They are said to spy on those they dislike."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.DHIOME),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

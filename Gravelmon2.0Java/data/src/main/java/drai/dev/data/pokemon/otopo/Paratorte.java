@@ -24,7 +24,7 @@ public class Paratorte extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MONSTER),
                 List.of("Paratorte is a mythical monster that may be spotted soaring over Otopo. When a Paratorte withdraws its wings in mid-flight and bombards the earth below, catastrophic head injuries have occurred."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

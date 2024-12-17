@@ -1,0 +1,164 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "raianian_absol-01",
+      "pokemon": "absol raianian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "22-47",
+      "weight": 15.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:black_wool"
+          ]
+        }
+      }
+    },
+    {
+      "id": "trizoran_absol-01",
+      "pokemon": "absol trizoran",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "23-54",
+      "weight": 6.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:nether_wart_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "norse_absol-01",
+      "pokemon": "absol norse",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "22-47",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_old_growth_taiga"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:amethyst_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_absol-01",
+      "pokemon": "absol epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "24-51",
+      "weight": 2.0999999999999996,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:glowstone"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_absol-01",
+      "pokemon": "absol epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "24-51",
+      "weight": 2.0999999999999996,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:amethyst_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ayreian_absol-01",
+      "pokemon": "absol ayreian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "33-54",
+      "weight": 9.899999999999999,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    }
+  ]
+}

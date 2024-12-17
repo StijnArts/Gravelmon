@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:mamby",
+  "speciesId": "cobblemon:mamby",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

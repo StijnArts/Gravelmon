@@ -1,9 +1,8 @@
 package drai.dev.data.pokemon.sage;
 
-import drai.dev.data.pokemon.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -21,7 +20,7 @@ public class Bouwee extends Pokemon {
                 24, List.of(EggGroup.BUG, EggGroup.WATER_3),
                 List.of("Bouwee's tail lets it drift peacefully near the surface. However, the bright colors often attract predators, so it will release a jet of water to escape."),
                 List.of(new EvolutionEntry("scubug", EvolutionType.LEVEL_UP, true, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE, "\""+Move.DIVE.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE, Move.DIVE.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.SPLASH,1),
                         new MoveLearnSetEntry(Move.WATER_SPORT,1),
@@ -93,6 +92,6 @@ public class Bouwee extends Pokemon {
                 List.of(SpawnPreset.WATER_SURFACE),
                 0.2, 0.5,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

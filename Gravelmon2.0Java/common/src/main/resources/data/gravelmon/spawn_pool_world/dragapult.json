@@ -4,6 +4,34 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epoch_dragapult-01",
+      "pokemon": "dragapult epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-70",
+      "weight": 0.15000000000000002,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_sky",
+          "#cobblemon:is_mountain"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "hoennian_dragapult-01",
       "pokemon": "dragapult hoennian",
       "presets": [
@@ -13,12 +41,20 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "50-68",
-      "weight": 0.054,
+      "weight": 0.081,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_basalt",
           "#cobblemon:nether/is_soul_fire"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
       }
     }
   ]

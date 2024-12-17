@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.infinity.regional;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -20,7 +20,7 @@ public class EghoMagneton extends Pokemon {
                 50, List.of(EggGroup.GRASS, EggGroup.MINERAL),
                 List.of("Instead of attaching to each other like standard Magnemite, these Magneton are grown from their original Magnemite form."),
                 List.of(new EvolutionEntry("eghomagnezone", EvolutionType.LEVEL_UP, true, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"cobblemon:miracle_seed\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "cobblemon:miracle_seed")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWTH,1),
                         new MoveLearnSetEntry(Move.MIRROR_COAT,1),
@@ -105,6 +105,6 @@ public class EghoMagneton extends Pokemon {
                 0.26, 0.3,
                 List.of());
         this.setLangFileName("Magneton");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

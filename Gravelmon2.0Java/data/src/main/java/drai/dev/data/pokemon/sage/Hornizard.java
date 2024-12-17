@@ -20,7 +20,7 @@ public class Hornizard extends Pokemon {
                 62, List.of(EggGroup.MONSTER),
                 List.of("Hornizard’s spines contain a potent venom, while its skin secretes an acidic compound. Due to these defenses, it has almost no natural predators."),
                 List.of(new EvolutionEntry("ankillosore", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.ANCIENT_POWER.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.ANCIENT_POWER.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.ANCIENT_POWER,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),
@@ -92,6 +92,6 @@ public class Hornizard extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.4, 0.5,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+        
     }
 }

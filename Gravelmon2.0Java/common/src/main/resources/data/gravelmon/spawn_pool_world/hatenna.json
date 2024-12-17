@@ -4,6 +4,61 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "fabelian_hatenna-01",
+      "pokemon": "hatenna fabelian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 5.699999999999999,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_sky",
+          "#cobblemon:is_mountain"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:raw_gold_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_hatenna-01",
+      "pokemon": "hatenna epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "7-29",
+      "weight": 7.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:amethyst_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "novran_hatenna-01",
       "pokemon": "hatenna novran",
       "presets": [
@@ -13,13 +68,49 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "10-30",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_grassland"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ayreian_hatenna-01",
+      "pokemon": "hatenna ayreian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "13-32",
+      "weight": 8.100000000000001,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
       }
     }
   ]

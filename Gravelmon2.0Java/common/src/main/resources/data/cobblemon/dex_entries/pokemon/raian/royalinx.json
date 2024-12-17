@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:royalinx",
+  "speciesId": "cobblemon:royalinx",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

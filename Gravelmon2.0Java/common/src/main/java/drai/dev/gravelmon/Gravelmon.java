@@ -9,6 +9,7 @@ import drai.dev.gravelsextendedbattles.resorting.*;
 import kotlin.*;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.*;
+import org.apache.logging.log4j.*;
 
 import java.util.*;
 import java.util.function.*;
@@ -19,7 +20,7 @@ public class Gravelmon
 	public static final String MOD_ID = "gravelmon";
 	public static final Map<String, String> FOSSIL_MAP = new HashMap<>();
 	public static final Map<String, Supplier<Item>> FOSSIL_ITEM_MAP = new HashMap<>();
-
+	public static final Logger LOGGER = LogManager.getLogger();
 	public static void init() {
 		GravelmonBlocks.touch();
 		GravelmonItems.touch();

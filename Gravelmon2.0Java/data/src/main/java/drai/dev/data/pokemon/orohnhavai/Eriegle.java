@@ -25,7 +25,7 @@ public class Eriegle extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FLYING),
                 List.of("Born with fairly weak wings, Eriegle love to stay in their nest and be nurtured by their parents until it's strong enough to fly from its roost. They become more hostile as they grow."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

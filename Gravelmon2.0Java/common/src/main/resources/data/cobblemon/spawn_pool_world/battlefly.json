@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "21-41",
-      "weight": 0.6,
+      "weight": 0.8999999999999999,
       "condition": {
         "biomes": [
           "#cobblemon:is_taiga",
@@ -22,6 +22,14 @@
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "timeRange": "day"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
       }
     }
   ]

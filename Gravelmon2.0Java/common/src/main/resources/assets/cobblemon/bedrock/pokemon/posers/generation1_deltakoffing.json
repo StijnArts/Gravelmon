@@ -1,39 +1,53 @@
 {
-    "head": "koffing",
-    "portraitScale": 1.7,
-    "portraitTranslation": [-0.2, -0.2, 0],
-    "profileScale": 0.8,
-    "profileTranslation": [0, 0.4, 0],
-    "poses": {
-      "standing": {
-        "poseName": "hovering",
-        "transformTicks": 10,
-        "poseTypes": [ "HOVER", "NONE", "PORTRAIT", "PROFILE" ],
-        "animations": [
-          "look",
-          "bedrock(deltakoffing, ground_idle)"
-        ],
+  "head": "koffing",
+  "portraitScale": 1.7000000476837158,
+  "portraitTranslation": [
+    -0.2,
+    -0.2,
+    0.0
+  ],
+  "profileScale": 0.800000011920929,
+  "profileTranslation": [
+    0.0,
+    0.4,
+    0.0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "look",
+        "bedrock(deltakoffing, ground_idle)"
+      ],
+      "transformTicks": 10,
+      "allPoseTypes": true,
       "quirks": [
         {
-          "name": "blink",
-          "animations": ["bedrock(deltakoffing, blink)"]
+          "animations": [
+            "bedrock(deltakoffing, blink)"
+          ],
+          "name": "blink"
         }
       ]
-      },
-      "walking": {
-        "poseName": "flying",
-        "transformTicks": 10,
-        "poseTypes": ["FLY"],
-        "animations": [
-          "look",
-          "bedrock(deltakoffing, ground_walk)"
-        ],
+    },
+    "walking": {
+      "poseName": "walking",
+      "animations": [
+        "look",
+        "bedrock(deltakoffing, ground_walk)"
+      ],
+      "poseTypes": [
+        "WALK"
+      ],
+      "transformTicks": 10,
       "quirks": [
         {
-          "name": "blink",
-          "animations": ["bedrock(deltakoffing, blink)"]
+          "animations": [
+            "bedrock(deltakoffing, blink)"
+          ],
+          "name": "blink"
         }
       ]
-      }
     }
   }
+}

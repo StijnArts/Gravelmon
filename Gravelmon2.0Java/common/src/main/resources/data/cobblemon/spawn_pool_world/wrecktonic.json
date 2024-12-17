@@ -13,14 +13,22 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "53-64",
-      "weight": 0.1,
+      "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_desert"
         ],
-        "timeRange": "day",
         "minSkyLight": 8,
-        "maxSkyLight": 15
+        "maxSkyLight": 15,
+        "timeRange": "day"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:tuff"
+          ]
+        }
       }
     }
   ]

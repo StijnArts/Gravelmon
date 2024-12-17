@@ -42,8 +42,8 @@ public class Sardiner extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 13, 29, 4, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -104,6 +104,5 @@ public class DeltaSliggoo extends Pokemon {
                 0.30, 0.3,
                 List.of());
         this.setLangFileName("Sliggoo");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

@@ -24,7 +24,7 @@ public class Dracopuff extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Despite their size, Dracopuff are extremely light and fluffy. Shop owners around Theos often have one by their side, providing a happy enviroment for their customers."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

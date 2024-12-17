@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tarpir",
+  "speciesId": "cobblemon:tarpir",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

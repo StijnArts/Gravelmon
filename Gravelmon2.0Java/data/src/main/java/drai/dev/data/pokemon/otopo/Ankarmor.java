@@ -24,7 +24,7 @@ public class Ankarmor extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MONSTER),
                 List.of("Ankarmor were discovered in an old fossil and are thought to have existed thousands of years ago. Their carapace is extremely strong and can resist tremendous pressure."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -31,7 +31,9 @@ public class Lilpras extends drai.dev.data.pokemon.Pokemon {
                         new EvolutionEntry("mythianlapras", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"160"))),
                         new EvolutionEntry("novranlapras", EvolutionType.ITEM_INTERACT, false, List.of(),
-                                List.of(),List.of(),"cobblemon:thunder_stone")),
+                                List.of(),List.of(),"cobblemon:thunder_stone"),
+                        new EvolutionEntry("lapras ayreian", EvolutionType.ITEM_INTERACT, false, List.of(),
+                                List.of(),List.of(),"cobblemon:shiny_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.POWDER_SNOW,1),
@@ -113,7 +115,7 @@ public class Lilpras extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.DENEB),
                 0,
                 List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 19, 10, List.of(
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 3, 19, 10, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OCEAN, Biome.IS_COAST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

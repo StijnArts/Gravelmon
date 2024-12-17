@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:malease",
+  "speciesId": "cobblemon:malease",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

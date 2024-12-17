@@ -6,17 +6,12 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Barnoose extends drai.dev.data.pokemon.Pokemon {
-    public Barnoose() {
+    public Barnoose(Stats stats) {
         super("Barnoose",
                 Type.BUG,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
+                12, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -24,16 +19,18 @@ public class Barnoose extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It uses its feathers to sift the ocean for food. If anything tries to move it from its spot, it violently swings its armor-plated head like a flail."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 32, 54, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Barnoose");
 
     }

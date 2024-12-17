@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:wooper-mastenian",
+  "speciesId": "cobblemon:wooper",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Mastenian",
+      "unlockForms": [
+        "Mastenian"
+      ]
+    }
+  ],
+  "variations": []
+}

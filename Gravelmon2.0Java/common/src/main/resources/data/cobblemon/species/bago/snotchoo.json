@@ -1,0 +1,109 @@
+{
+  "name": "Snotchoo",
+  "primaryType": "ice",
+  "secondaryType": "poison",
+  "catchRate": 110,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "sniffly",
+  "baseScale": 0.032812499999999994,
+  "cannotDynamax": false,
+  "abilities": [
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": true,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:powdersnow",
+    "1:acid"
+  ],
+  "labels": [
+    "bago",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.snotchoo.desc"
+  ],
+  "height": 7,
+  "weight": 0,
+  "aspects": [],
+  "evolutions": [
+    {
+      "id": "snotchoo_bulbasaur",
+      "variant": "level_up",
+      "result": "bulbasaur",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "weather",
+          "isRaining": "true"
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_snowy"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 3746,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 1.125,
+    "height": 1.125,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
+}

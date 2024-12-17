@@ -16,7 +16,7 @@ public class Spikid extends drai.dev.data.pokemon.Pokemon {
                         70,
                         20),
                 List.of(Ability.BATTLE_ARMOR,Ability.IRON_BARBS), Ability.TOUGH_CLAWS,
-                0, 0,
+                6, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -88,8 +88,8 @@ public class Spikid extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RAPID_SPIN,"tm")                        ),
                 List.of(Label.ENJIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 43, 1.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

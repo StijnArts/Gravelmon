@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tadit-mastenian",
+  "speciesId": "cobblemon:tadit",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Mastenian",
+      "unlockForms": [
+        "Mastenian"
+      ]
+    }
+  ],
+  "variations": []
+}

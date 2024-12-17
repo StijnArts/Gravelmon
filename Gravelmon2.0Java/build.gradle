@@ -86,3 +86,10 @@ subprojects {
         }
     }
 }
+tasks.withType(Jar).configureEach {
+    zip64 = true
+}
+
+tasks.withType(Zip).configureEach {
+    zip64 = true
+}

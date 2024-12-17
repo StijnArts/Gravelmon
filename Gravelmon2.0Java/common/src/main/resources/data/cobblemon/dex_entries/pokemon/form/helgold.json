@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:helgold",
+  "speciesId": "cobblemon:helgold",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

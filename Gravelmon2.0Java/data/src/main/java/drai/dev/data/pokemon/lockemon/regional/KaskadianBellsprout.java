@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.lockemon.regional;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -20,7 +20,7 @@ public class KaskadianBellsprout extends Pokemon {
                 50, List.of(EggGroup.GRASS),
                 List.of("Bellsprout's tiny, flexible body allows it to bend and sway to dodge any assault, no matter how powerful. This Pokemon discharges a corrosive fluid that melts even iron from its mouth."),
                 List.of(new EvolutionEntry("Drosabell", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE, "\"psychicterrain\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE, "PSYCHIC_TERRAIN")))),
                 List.of(
                         new MoveLearnSetEntry(Move.VINE_WHIP,1),
                         new MoveLearnSetEntry(Move.GROWTH,7),
@@ -87,6 +87,5 @@ public class KaskadianBellsprout extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Bellsprout");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

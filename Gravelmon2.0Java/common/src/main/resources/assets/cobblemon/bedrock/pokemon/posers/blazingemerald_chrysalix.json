@@ -1,91 +1,89 @@
 {
   "head": "head",
-  "portraitScale": 0.4,
-  "portraitTranslation": [ -0.2, 1.2, 0 ],
-  "profileScale": 0.4,
-  "profileTranslation": [ -0.2, 1.2, 0 ],
+  "portraitScale": 0.4000000059604645,
+  "portraitTranslation": [
+    -0.2,
+    1.2,
+    0.0
+  ],
+  "profileScale": 0.4000000059604645,
+  "profileTranslation": [
+    -0.2,
+    1.2,
+    0.0
+  ],
   "animations": {
     "cry": "q.bedrock_stateful('steelix', 'cry')"
   },
   "poses": {
     "battle-idle": {
       "poseName": "battle-idle",
+      "animations": [
+        "bedrock(steelix, battle_idle)"
+      ],
+      "poseTypes": [
+        "STAND"
+      ],
       "transformTicks": 10,
-      "poseTypes": ["STAND"],
       "isBattle": true,
-      "animations": ["bedrock(steelix, battle_idle)"],
       "quirks": [
         {
-          "name": "blink",
-          "animations": ["bedrock(steelix, blink)"]
+          "animations": [
+            "bedrock(steelix, blink)"
+          ],
+          "name": "blink"
         }
       ]
     },
     "sleeping": {
       "poseName": "sleeping",
-      "transformTicks": 10,
+      "animations": [
+        "bedrock(steelix, sleep)"
+      ],
       "poseTypes": [
         "SLEEP"
       ],
-      "animations": [
-        "bedrock(steelix, sleep)"
-      ]
+      "transformTicks": 10,
+      "quirks": []
     },
     "standing": {
       "poseName": "standing",
-      "transformTicks": 10,
-      "poseTypes": [
-        "STAND",
-        "NONE",
-        "PORTRAIT",
-        "PROFILE"
-      ],
-      "isBattle": false,
       "animations": [
         "bedrock(steelix, ground_idle)"
       ],
+      "poseTypes": [
+        "STAND",
+        "PORTRAIT",
+        "PROFILE",
+        "NONE"
+      ],
+      "transformTicks": 10,
+      "isBattle": false,
       "quirks": [
         {
-          "name": "blink",
           "animations": [
             "bedrock(steelix, blink)"
-          ]
+          ],
+          "name": "blink"
         }
       ]
     },
     "walking": {
       "poseName": "walking",
-      "transformTicks": 10,
-      "poseTypes": [
-        "WALK"
-      ],
       "animations": [
         "bedrock(steelix, ground_walk)"
       ],
-      "quirks": [
-        {
-          "name": "blink",
-          "animations": [
-            "bedrock(steelix, blink)"
-          ]
-        }
-      ]
-    },
-    "swimming": {
-      "poseName": "swimming",
-      "transformTicks": 10,
       "poseTypes": [
+        "WALK",
         "SWIM"
       ],
-      "animations": [
-        "bedrock(steelix, ground_walk)"
-      ],
+      "transformTicks": 10,
       "quirks": [
         {
-          "name": "blink",
           "animations": [
             "bedrock(steelix, blink)"
-          ]
+          ],
+          "name": "blink"
         }
       ]
     }

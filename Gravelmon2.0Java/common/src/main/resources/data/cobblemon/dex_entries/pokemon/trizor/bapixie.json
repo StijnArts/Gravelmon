@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:bapixie",
+  "speciesId": "cobblemon:bapixie",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

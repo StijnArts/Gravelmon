@@ -2,9 +2,21 @@
   "entryId": "cobblemon:paras",
   "forms": [
     {
-      "displayForm": "Fligian",
+      "displayForm": "Forman",
       "unlockForms": [
-        "Fligian"
+        "Forman"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Avalossian",
+      "unlockForms": [
+        "Avalossian"
       ]
     }
   ]

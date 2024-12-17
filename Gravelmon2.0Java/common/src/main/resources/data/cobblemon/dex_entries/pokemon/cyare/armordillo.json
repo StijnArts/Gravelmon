@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:armordillo",
+  "speciesId": "cobblemon:armordillo",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

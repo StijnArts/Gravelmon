@@ -24,7 +24,7 @@ public class Stoatic extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Stoatic construct massive tunnel systems beneath the ground where they store berries. Their cheek pouches can glow in the dark, allowing them to see while traversing said systems."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -1,0 +1,33 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "tasmeanie-01",
+      "pokemon": "tasmeanie",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 6.8999999999999995,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_tropical",
+          "#cobblemon:is_grassland"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:black_wool"
+          ]
+        }
+      }
+    }
+  ]
+}

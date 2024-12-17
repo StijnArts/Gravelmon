@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.umbra;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -26,7 +26,7 @@ public class Zapouch extends Pokemon {
                 List.of("Zapouch's life deep underwater is shrouded in mystery. They come to the surface of the ocean when they are ready to evolve."),
                 List.of(new EvolutionEntry("mannovolt", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "night")))),
                 List.of(
                         new MoveLearnSetEntry(Move.THUNDER_SHOCK,1),
                         new MoveLearnSetEntry(Move.BIND,1),

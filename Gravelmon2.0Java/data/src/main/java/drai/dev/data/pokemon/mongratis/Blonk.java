@@ -24,7 +24,7 @@ public class Blonk extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MINERAL),
                 List.of("A Blonk's long trail shows where it has been, but its movements are so slow they appear not to move at all."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

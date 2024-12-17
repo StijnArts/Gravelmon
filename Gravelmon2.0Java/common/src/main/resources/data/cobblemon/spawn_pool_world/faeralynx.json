@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "51-61",
-      "weight": 0.4,
+      "weight": 0.6000000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_savanna"
@@ -25,6 +25,14 @@
         "biomes": [
           "#cobblemon:is_deep_dark"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
+          ]
+        }
       }
     }
   ]

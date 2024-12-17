@@ -1,0 +1,33 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "snotme-01",
+      "pokemon": "snotme",
+      "presets": [
+        "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 5.25,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ],
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
+          ]
+        }
+      }
+    }
+  ]
+}

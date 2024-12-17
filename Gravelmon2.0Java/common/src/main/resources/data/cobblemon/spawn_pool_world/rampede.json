@@ -13,14 +13,22 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "26-39",
-      "weight": 0.3,
+      "weight": 0.44999999999999996,
       "condition": {
         "biomes": [
           "#cobblemon:is_highlands"
         ],
-        "timeRange": "day",
         "minSkyLight": 8,
-        "maxSkyLight": 15
+        "maxSkyLight": 15,
+        "timeRange": "day"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
+          ]
+        }
       }
     }
   ]

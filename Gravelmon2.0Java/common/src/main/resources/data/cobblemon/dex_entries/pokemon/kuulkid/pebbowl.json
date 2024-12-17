@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:pebbowl",
+  "speciesId": "cobblemon:pebbowl",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -2,6 +2,12 @@
   "entryId": "cobblemon:darumaka",
   "forms": [
     {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
       "displayForm": "Delta",
       "unlockForms": [
         "Delta"

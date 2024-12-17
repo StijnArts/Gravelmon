@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:armadealo",
+  "speciesId": "cobblemon:armadealo",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

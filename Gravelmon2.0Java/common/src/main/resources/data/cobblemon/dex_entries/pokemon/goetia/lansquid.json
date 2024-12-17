@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lansquid",
+  "speciesId": "cobblemon:lansquid",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -95,7 +95,7 @@ public class MysticDuosion extends Pokemon {
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Duosion");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         this.setCanFly(true);
         this.setAvoidsLand(true);
         setCanSwim(true);

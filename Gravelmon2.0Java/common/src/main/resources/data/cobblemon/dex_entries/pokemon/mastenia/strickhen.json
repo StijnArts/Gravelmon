@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:strickhen",
+  "speciesId": "cobblemon:strickhen",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

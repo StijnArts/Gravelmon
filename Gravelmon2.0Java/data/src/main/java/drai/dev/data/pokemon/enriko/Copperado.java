@@ -2,6 +2,7 @@ package drai.dev.data.pokemon.enriko;
 
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+
 import java.util.*;
 
 public class Copperado extends drai.dev.data.pokemon.Pokemon {
@@ -23,7 +24,7 @@ public class Copperado extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MINERAL,EggGroup.FAIRY),
                 List.of("Built long ago by an ancient civilization, Copperado continue to defend the ruins they live to this day. Their accuracy is unmatched."),
                 List.of(new EvolutionEntry("relode", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:metal_coat\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:metal_coat")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.TAIL_WHIP,1),

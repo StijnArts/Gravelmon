@@ -42,8 +42,8 @@ public class Vampeye extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 35, 54, .2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_BEACH))),
                 List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,

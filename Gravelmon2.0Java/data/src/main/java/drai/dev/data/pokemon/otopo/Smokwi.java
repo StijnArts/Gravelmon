@@ -24,7 +24,7 @@ public class Smokwi extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD,EggGroup.FLYING),
                 List.of("Found in grassy areas surrounding volcanoes, Smokwi hunt and forrage for small bug-type Pokemon. It's long beak is sharp enough to pierce even the most dessicated earth."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

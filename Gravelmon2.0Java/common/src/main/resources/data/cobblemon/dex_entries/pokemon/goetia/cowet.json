@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:cowet",
+  "speciesId": "cobblemon:cowet",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

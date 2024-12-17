@@ -1,0 +1,29 @@
+{
+  "entryId": "cobblemon:vulpix",
+  "forms": [
+    {
+      "displayForm": "Forman",
+      "unlockForms": [
+        "Forman"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Ayreian",
+      "unlockForms": [
+        "Ayreian"
+      ]
+    },
+    {
+      "displayForm": "Ayreian",
+      "unlockForms": [
+        "Ayreian"
+      ]
+    }
+  ]
+}

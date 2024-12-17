@@ -26,8 +26,10 @@ public abstract class Game {
         return pokedex;
     }
 
-    public void init() {
-        newPokemon.forEach(pokemon1 -> pokemon1.setGame(this));
+    public void init(String resourcesDir) {
+        newPokemon.forEach(pokemon -> {
+                    pokemon.setGame(this);
+                });
     }
     public void addNewPokemon(Pokemon pokemon){
         newPokemon.add(pokemon);
@@ -61,5 +63,9 @@ public abstract class Game {
 
     public void removePokedexPokemon(String pokemonName) {
         pokedex.remove("cobblemon:"+pokemonName.toLowerCase().trim());
+    }
+
+    public String getCleanName(){
+        return GravelmonUtils.getCleanName(name);
     }
 }

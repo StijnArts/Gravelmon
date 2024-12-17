@@ -24,7 +24,7 @@ public class Scrolock extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.GRASS,EggGroup.AMORPHOUS),
                 List.of("Scrolock is known for its eerie presence, often appearing in dark, abandoned areas where it likes to haunt unsuspecting travelers. It can also use its paper arms to grab onto its opponents and drain their energy, making it a formidable opponent in battle."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OLYSOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

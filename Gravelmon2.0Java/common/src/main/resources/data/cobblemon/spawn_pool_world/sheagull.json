@@ -1,0 +1,34 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "sheagull-01",
+      "pokemon": "sheagull",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "32-54",
+      "weight": 0.15000000000000002,
+      "condition": {
+        "biomes": [
+          "minecraft:birch_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:white_wool"
+          ]
+        }
+      }
+    }
+  ]
+}

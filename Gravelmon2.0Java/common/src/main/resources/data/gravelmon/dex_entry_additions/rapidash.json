@@ -2,6 +2,18 @@
   "entryId": "cobblemon:rapidash",
   "forms": [
     {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Africanusan",
+      "unlockForms": [
+        "Africanusan"
+      ]
+    },
+    {
       "displayForm": "X",
       "unlockForms": [
         "X"

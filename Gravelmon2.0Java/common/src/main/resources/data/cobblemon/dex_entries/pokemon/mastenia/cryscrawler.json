@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:cryscrawler",
+  "speciesId": "cobblemon:cryscrawler",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -24,7 +24,7 @@ public class Fernocious extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.GRASS),
                 List.of("http://thumbs.dreamstime.com/z/cycad-seeds-261310.jpg ---- http://www.chinadaily.com.cn/world/att/site1/20060814/xin_580803141952451585516.jpg"),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OKENO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

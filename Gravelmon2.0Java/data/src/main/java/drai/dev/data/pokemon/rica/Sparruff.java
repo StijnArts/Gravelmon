@@ -87,9 +87,8 @@ public class Sparruff extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.RICA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 19, 5.4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_GRASSLAND)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER))),
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_GRASSLAND))
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

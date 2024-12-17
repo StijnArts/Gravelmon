@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:larvresta",
+  "speciesId": "cobblemon:larvresta",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

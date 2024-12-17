@@ -2,6 +2,12 @@
   "entryId": "cobblemon:tynamo",
   "forms": [
     {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
       "displayForm": "Varitasian",
       "unlockForms": [
         "Varitasian"

@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.sage;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -23,7 +23,6 @@ public class QuetzarSpace extends Pokemon {
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"1")),
                         List.of())),
                 List.of(
-                        //TODO check back for signature move
                         new MoveLearnSetEntry(Move.SCARY_FACE,1),
                         new MoveLearnSetEntry(Move.TWISTER,1),
                         new MoveLearnSetEntry(Move.SECRET_POWER,8),
@@ -116,6 +115,6 @@ public class QuetzarSpace extends Pokemon {
                 1.4, 0.5,
                 List.of());
         this.setLangFileName("Quetzar");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+        
     }
 }

@@ -106,6 +106,6 @@ public class EghoSwablu extends Pokemon {
                 List.of());
         this.setLangFileName("Swablu");
         this.setCanFly(true);
-        this.setPortraitXYZ(0.1,2.0,0.0);
+        
     }
 }

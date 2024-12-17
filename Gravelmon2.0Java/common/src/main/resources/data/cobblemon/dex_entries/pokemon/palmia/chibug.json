@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:chibug",
+  "speciesId": "cobblemon:chibug",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -24,7 +24,7 @@ public class Razaury extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MONSTER,EggGroup.FIELD),
                 List.of(""),
                 List.of(new EvolutionEntry("therislash", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:razor_claw\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:razor_claw")))),
                 List.of(
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,1),
                         new MoveLearnSetEntry(Move.CROSS_CHOP,1),
@@ -83,7 +83,8 @@ public class Razaury extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.CROZOIC),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 43, 5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_LUSH, Biome.IS_JUNGLE))
+                        new BiomeSpawnCondition(List.of(Biome.IS_LUSH, Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

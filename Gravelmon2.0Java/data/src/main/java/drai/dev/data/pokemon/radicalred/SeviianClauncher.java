@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.radicalred;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -73,12 +73,12 @@ public class SeviianClauncher extends Pokemon {
                 List.of(Label.RADICAL_RED, Label.GEN6),
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 34, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Clauncher");
-        this.setPortraitXYZ(0.1, 2.0, 0.0);
     }
 }

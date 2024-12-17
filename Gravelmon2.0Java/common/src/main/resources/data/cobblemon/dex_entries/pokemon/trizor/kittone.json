@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:kittone",
+  "speciesId": "cobblemon:kittone",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -14,6 +14,7 @@ import net.minecraft.locale.*;
 import net.minecraft.network.chat.*;
 import net.minecraft.resources.*;
 import net.minecraft.world.item.*;
+import net.minecraft.world.level.block.*;
 import net.neoforged.bus.api.*;
 import net.neoforged.fml.common.*;
 import net.neoforged.neoforge.client.event.*;
@@ -26,8 +27,6 @@ public class GravelmonForge {
     public static boolean ICON_WIDGET_INIT = false;
     public static int TYPE_COUNT = 18;
     public GravelmonForge() {
-		// Submit our event bus to let architectury register our content on the right time
-//        EventBuses.registerModEventBus(Gravelmon.MOD_ID, FMLJavaModLoadingContext.get().getModEventBus()); todo
         Gravelmon.init();
         PlatformEvents.CLIENT_ITEM_TOOLTIP.subscribe(Priority.LOWEST, itemTooltipEvent -> {
             var stack = itemTooltipEvent.getStack();
@@ -54,6 +53,8 @@ public class GravelmonForge {
             }
             return Unit.INSTANCE;
         });
+        ComposterBlock.COMPOSTABLES.put(GravelmonItems.ORANGE_APRICORN.get(), .65f);
+        ComposterBlock.COMPOSTABLES.put(GravelmonItems.PURPLE_APRICORN.get(), .65f);
     }
     @SubscribeEvent
     public static void onRegisterNamedRenderTypes(RegisterNamedRenderTypesEvent event)

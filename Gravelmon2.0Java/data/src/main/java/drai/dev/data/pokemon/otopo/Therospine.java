@@ -24,7 +24,7 @@ public class Therospine extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("The DNA of this creature was discovered in an old fossil. They are aggressive and will seek out as many opponents as possible in order to continually improve their strength and fighting skill."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

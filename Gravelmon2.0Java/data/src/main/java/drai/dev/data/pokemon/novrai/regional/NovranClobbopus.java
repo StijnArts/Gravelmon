@@ -24,7 +24,7 @@ public class NovranClobbopus extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_1,EggGroup.HUMAN_LIKE),
                 List.of("Its bright blue rings are an easily-recognizable sign of its venom. It often brawls with others of its kind, lashing out with powerful, toxin-laced punches."),
                 List.of(new EvolutionEntry("novrangrapploct", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.POISON_JAB.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.POISON_JAB.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.ROCK_SMASH,1),
                         new MoveLearnSetEntry(Move.FEINT,5),

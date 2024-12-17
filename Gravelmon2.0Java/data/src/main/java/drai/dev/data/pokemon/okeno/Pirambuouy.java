@@ -1,6 +1,8 @@
 package drai.dev.data.pokemon.okeno;
+
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+
 import java.util.*;
 
 public class Pirambuouy extends drai.dev.data.pokemon.Pokemon {

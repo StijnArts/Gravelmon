@@ -24,7 +24,7 @@ public class Phanta extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ATLAS),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 50, 65, .0016, List.of(

@@ -24,7 +24,7 @@ public class Gecktricity extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.GRASS,EggGroup.MONSTER),
                 List.of("Gecktricity, much like Geckamp, are excitable and full of energy; unlike their younger selves, Gecktricity have a much better control over their electrical powers."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.PASTEL_ISLAND),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

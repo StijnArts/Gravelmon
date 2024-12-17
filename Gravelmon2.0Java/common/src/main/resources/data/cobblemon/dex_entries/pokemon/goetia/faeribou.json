@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:faeribou",
+  "speciesId": "cobblemon:faeribou",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

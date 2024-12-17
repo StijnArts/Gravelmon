@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.lockemon.regional;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -92,7 +92,7 @@ public class KaskadianRaticate extends Pokemon {
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Raticate");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         addAdditionalEvolution("rattata", new EvolutionEntry("raticate kaskadian", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"cobblemon:ice_stone"));
     }

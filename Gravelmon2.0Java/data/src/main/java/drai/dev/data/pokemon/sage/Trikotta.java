@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.sage;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -107,6 +107,6 @@ public class Trikotta extends Pokemon {
                 List.of(SpawnPreset.VILLAGE),
                 0.4, 0.5,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

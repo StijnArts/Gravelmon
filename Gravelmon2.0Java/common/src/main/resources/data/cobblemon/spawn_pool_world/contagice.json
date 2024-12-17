@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "35-47",
-      "weight": 0.3,
+      "weight": 0.44999999999999996,
       "condition": {
         "biomes": [
           "#cobblemon:is_sky",
@@ -23,6 +23,14 @@
         "maxSkyLight": 15,
         "isRaining": true,
         "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:cauldron"
+          ]
+        }
       }
     }
   ]

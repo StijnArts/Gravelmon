@@ -2,18 +2,14 @@ package drai.dev.data.pokemon.isiah;
 
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+
 import java.util.*;
 
 public class Unirval extends drai.dev.data.pokemon.Pokemon {
     public Unirval(Stats stats) {
         super("Unirval",
                 Type.WATER, Type.ICE,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 21, 165,
                 new Stats(0,0,0,0,0,0), 45,

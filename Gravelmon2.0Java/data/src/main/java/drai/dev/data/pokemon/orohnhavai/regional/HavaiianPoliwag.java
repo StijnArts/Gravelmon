@@ -25,7 +25,7 @@ public class HavaiianPoliwag extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Active during nights, these mysterious lake inhabitants swim to the surface to seek for food. Many late night swimmers have reported of these Poliwag nibbling at them."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

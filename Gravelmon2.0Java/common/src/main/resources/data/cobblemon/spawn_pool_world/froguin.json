@@ -1,0 +1,57 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "froguin-01",
+      "pokemon": "froguin",
+      "presets": [
+        "natural",
+        "near_water"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "13-36",
+      "weight": 6.6000000000000005,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_desert"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "froguin-11",
+      "pokemon": "froguin",
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "uncommon",
+      "level": "13-36",
+      "weight": 6.6000000000000005,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_desert"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    }
+  ]
+}

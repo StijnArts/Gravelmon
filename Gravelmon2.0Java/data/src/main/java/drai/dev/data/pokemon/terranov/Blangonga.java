@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Blangonga extends drai.dev.data.pokemon.Pokemon {
-    public Blangonga() {
+    public Blangonga(Stats stats) {
         super("Blangonga",
                 Type.ICE, Type.FIGHTING,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,
@@ -24,7 +19,7 @@ public class Blangonga extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Leader of a Blango pack, it is twice as large and recognized by its giant fangs and whiskers. It sends its pack to attack any trespassers. Its jumping power allows it great mobility in its home range of the Arctic Ridge."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

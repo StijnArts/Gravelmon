@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:totodize",
+  "speciesId": "cobblemon:totodize",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

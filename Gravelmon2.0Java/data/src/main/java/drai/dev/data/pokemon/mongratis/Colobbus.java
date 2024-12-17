@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Colobbus extends drai.dev.data.pokemon.Pokemon {
-    public Colobbus() {
+    public Colobbus(Stats stats) {
         super("Colobbus",
                 Type.ROCK, Type.FIGHTING,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 22, 0,
                 new Stats(0,0,0,0,0,0), 0,
@@ -24,7 +19,7 @@ public class Colobbus extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MINERAL),
                 List.of("Through force of will it carries the weight of countless rocks, shattering all but the strongest of them to make its body almost as hard as diamond."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

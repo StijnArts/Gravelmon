@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:incendaur",
+  "speciesId": "cobblemon:incendaur",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

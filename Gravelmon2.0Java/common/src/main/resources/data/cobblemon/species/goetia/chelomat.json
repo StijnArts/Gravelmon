@@ -1,0 +1,101 @@
+{
+  "name": "Chelomat",
+  "primaryType": "water",
+  "catchRate": 173,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.12244897959183673,
+  "cannotDynamax": false,
+  "abilities": [
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": true,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 84,
+    "attack": 24,
+    "defence": 81,
+    "special_attack": 70,
+    "special_defence": 49,
+    "speed": 14
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:watergun",
+    "1:bulkup"
+  ],
+  "labels": [
+    "goetia",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.chelomat.desc"
+  ],
+  "height": 5,
+  "weight": 0,
+  "aspects": [],
+  "evolutions": [
+    {
+      "id": "chelomat_chelosnap",
+      "variant": "level_up",
+      "result": "chelosnap",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "32"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 8241,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
+}

@@ -144,6 +144,5 @@ public class DeltaSunflora extends Pokemon {
                         0.48, 0.3
                 )));
         this.setLangFileName("Sunflora");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

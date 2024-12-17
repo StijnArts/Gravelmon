@@ -20,7 +20,7 @@ public class Tuliep extends Pokemon {
                 50, List.of(EggGroup.GRASS, EggGroup.HUMAN_LIKE),
                 List.of("Tuliep loves nothing more than the attention of a Growmeo. If a Tuliep is seen blushing, it invariably means one is nearby."),
                 List.of(new EvolutionEntry("capulilly", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.ATTRACT.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.ATTRACT.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.ABSORB,1),
                         new MoveLearnSetEntry(Move.CHARM,1),
@@ -103,6 +103,6 @@ public class Tuliep extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.3, 0.5,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+        
     }
 }

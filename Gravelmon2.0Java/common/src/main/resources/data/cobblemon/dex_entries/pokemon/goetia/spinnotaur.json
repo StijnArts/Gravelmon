@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:spinnotaur",
+  "speciesId": "cobblemon:spinnotaur",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

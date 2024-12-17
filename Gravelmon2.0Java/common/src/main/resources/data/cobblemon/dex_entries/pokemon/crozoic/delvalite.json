@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:delvalite",
+  "speciesId": "cobblemon:delvalite",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

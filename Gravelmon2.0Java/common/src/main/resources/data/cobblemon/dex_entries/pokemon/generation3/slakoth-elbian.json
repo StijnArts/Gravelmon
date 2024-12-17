@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:slakoth-elbian",
+  "speciesId": "cobblemon:slakoth",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Elbian",
+      "unlockForms": [
+        "Elbian"
+      ]
+    }
+  ],
+  "variations": []
+}

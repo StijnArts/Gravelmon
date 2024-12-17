@@ -4,6 +4,59 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "raianian_lucario-01",
+      "pokemon": "lucario raianian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "24-53",
+      "weight": 3.75,
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_crimson",
+          "#cobblemon:nether/is_wasteland"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:target_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_lucario-01",
+      "pokemon": "lucario epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "39-57",
+      "weight": 0.44999999999999996,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:amethyst_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "delta_lucario-01",
       "pokemon": "lucario delta",
       "presets": [
@@ -13,30 +66,46 @@
       "context": "grounded",
       "bucket": "common",
       "level": "12-30",
-      "weight": 5.4,
+      "weight": 8.100000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_desert"
         ],
         "minSkyLight": 0,
         "maxSkyLight": 7
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:black_wool"
+          ]
+        }
       }
     },
     {
-      "id": "mythian_lucario-01",
-      "pokemon": "lucario mythian",
+      "id": "ayreian_lucario-01",
+      "pokemon": "lucario ayreian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "29-52",
-      "weight": 1.0,
+      "level": "31-54",
+      "weight": 3.0,
       "condition": {
         "biomes": [
-          "#cobblemon:nether/is_wasteland"
+          "#minecraft:is_end"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:target_block"
+          ]
+        }
       }
     },
     {
@@ -49,14 +118,22 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "29-52",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical"
         ],
-        "timeRange": "night",
         "minSkyLight": 8,
-        "maxSkyLight": 15
+        "maxSkyLight": 15,
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
+          ]
+        }
       }
     }
   ]

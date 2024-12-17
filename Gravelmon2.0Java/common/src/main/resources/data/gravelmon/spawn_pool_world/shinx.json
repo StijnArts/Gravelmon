@@ -4,6 +4,33 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epoch_shinx-01",
+      "pokemon": "shinx epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "7-23",
+      "weight": 6.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:black_wool"
+          ]
+        }
+      }
+    },
+    {
       "id": "delta_shinx-01",
       "pokemon": "shinx delta",
       "presets": [
@@ -13,13 +40,21 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "8-26",
-      "weight": 9.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
         ],
         "minSkyLight": 0,
         "maxSkyLight": 7
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
+          ]
+        }
       }
     },
     {
@@ -32,13 +67,21 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "8-26",
-      "weight": 9.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:redstone_block"
+          ]
+        }
       }
     },
     {
@@ -51,13 +94,21 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "8-26",
-      "weight": 9.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_cold"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_ice"
+          ]
+        }
       }
     }
   ]

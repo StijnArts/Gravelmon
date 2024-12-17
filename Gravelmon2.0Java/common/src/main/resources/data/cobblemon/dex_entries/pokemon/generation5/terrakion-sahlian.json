@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:terrakion-sahlian",
+  "speciesId": "cobblemon:terrakion",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Sahlian",
+      "unlockForms": [
+        "Sahlian"
+      ]
+    }
+  ],
+  "variations": []
+}

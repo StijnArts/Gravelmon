@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -119,6 +119,5 @@ public class DeltaElekid extends Pokemon {
                 0.25, 0.3,
                 List.of());
         this.setLangFileName("Elekid");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

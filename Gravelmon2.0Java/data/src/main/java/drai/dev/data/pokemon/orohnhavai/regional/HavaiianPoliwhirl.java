@@ -25,7 +25,7 @@ public class HavaiianPoliwhirl extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("On moonless nights, they swim actively on the lake's surface hoping to catch some food. There has been stories about late night swimmers in the lake that turn up missing."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

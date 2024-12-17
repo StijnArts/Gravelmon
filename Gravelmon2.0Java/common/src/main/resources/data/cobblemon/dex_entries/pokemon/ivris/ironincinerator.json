@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ironincinerator",
+  "speciesId": "cobblemon:ironincinerator",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

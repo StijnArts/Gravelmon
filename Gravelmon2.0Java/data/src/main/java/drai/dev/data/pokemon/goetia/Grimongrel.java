@@ -6,17 +6,12 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Grimongrel extends drai.dev.data.pokemon.Pokemon {
-    public Grimongrel() {
+    public Grimongrel(Stats stats) {
         super("Grimongrel",
                 Type.POISON, Type.DARK,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
+                16, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -24,12 +19,11 @@ public class Grimongrel extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Its aura of malice coalesces into deadly diseases. It dwells in the darkness, stewing in its own venom and appearing when nobody wants it to."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 55, 65, .01, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_WASTELAND))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

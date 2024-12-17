@@ -13,13 +13,21 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "35-50",
-      "weight": 0.05,
+      "weight": 0.07500000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_taiga"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
+          ]
+        }
       }
     }
   ]

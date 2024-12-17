@@ -13,13 +13,21 @@
       "context": "submerged",
       "bucket": "common",
       "level": "2-17",
-      "weight": 7.0,
+      "weight": 10.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_lush"
         ],
         "minSkyLight": 0,
         "maxSkyLight": 7
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     }
   ]

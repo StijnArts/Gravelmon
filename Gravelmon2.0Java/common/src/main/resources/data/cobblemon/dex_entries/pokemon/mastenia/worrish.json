@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:worrish",
+  "speciesId": "cobblemon:worrish",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

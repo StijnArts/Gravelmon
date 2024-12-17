@@ -13,13 +13,21 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "38-56",
-      "weight": 0.7,
+      "weight": 1.0499999999999998,
       "condition": {
         "biomes": [
           "#cobblemon:is_floral"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
+          ]
+        }
       }
     }
   ]

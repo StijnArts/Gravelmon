@@ -26,7 +26,7 @@ public class Insulatex extends Pokemon {
                 50, List.of(EggGroup.MINERAL),
                 List.of("Its entire body is a battery that can store and discharge power at 99% efficiency. If it overcharges, it enters a wild frenzy."),
                 List.of(new EvolutionEntry("negawatt", EvolutionType.LEVEL_UP, false, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"cobblemon:electirizer\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "cobblemon:electirizer")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SPARK,1),
                         new MoveLearnSetEntry(Move.CHARGE,1),

@@ -24,7 +24,7 @@ public class Kelviper extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_1),
                 List.of("Slow and bulky, Kelviper hunt in the deepest of waters, but on land, can freeze the ground under them to move and hunt faster."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.PASTEL_ISLAND),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

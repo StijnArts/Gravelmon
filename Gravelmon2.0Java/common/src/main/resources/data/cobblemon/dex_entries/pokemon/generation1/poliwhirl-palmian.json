@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:poliwhirl-palmian",
+  "speciesId": "cobblemon:poliwhirl",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Palmian",
+      "unlockForms": [
+        "Palmian"
+      ]
+    }
+  ],
+  "variations": []
+}

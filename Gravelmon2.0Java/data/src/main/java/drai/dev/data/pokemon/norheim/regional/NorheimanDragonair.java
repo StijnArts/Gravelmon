@@ -56,7 +56,7 @@ public class NorheimanDragonair extends drai.dev.data.pokemon.Pokemon {
            setLangFileName("Dragonair");
         addAdditionalEvolution("dratini", new EvolutionEntry("dragonair norheiman", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30"),
-                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_COLD.getId() + ":" + Biome.IS_COLD.getName() +"\"")))	);
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_COLD.getId() + ":" + Biome.IS_COLD.getName())))	);
 
     }
 

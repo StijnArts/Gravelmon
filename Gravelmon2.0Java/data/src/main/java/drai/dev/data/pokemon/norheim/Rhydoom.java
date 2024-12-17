@@ -47,7 +47,7 @@ public class Rhydoom extends drai.dev.data.pokemon.Pokemon {
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 23, 43, 2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_COAST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER, Biome.IS_TEMPERATE, Biome.IS_BEACH))),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_TEMPERATE, Biome.IS_BEACH))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

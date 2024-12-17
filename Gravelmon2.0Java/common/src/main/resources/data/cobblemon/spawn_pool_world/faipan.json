@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "39-56",
-      "weight": 0.6,
+      "weight": 0.8999999999999999,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical",
@@ -21,6 +21,14 @@
         ],
         "minSkyLight": 0,
         "maxSkyLight": 7
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
       }
     }
   ]

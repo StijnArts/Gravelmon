@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "23-43",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_coast"
@@ -23,10 +23,18 @@
       },
       "anticondition": {
         "biomes": [
-          "#cobblemon:has_season/summer",
+          "#cobblemon:is_jungle",
           "#cobblemon:is_temperate",
           "#cobblemon:is_beach"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:tuff"
+          ]
+        }
       }
     }
   ]

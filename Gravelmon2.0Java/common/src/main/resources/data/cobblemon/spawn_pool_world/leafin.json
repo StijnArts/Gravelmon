@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "3-22",
-      "weight": 8.0,
+      "level": "5-31",
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_forest"
@@ -23,9 +23,45 @@
       },
       "anticondition": {
         "biomes": [
-          "#cobblemon:has_season/summer",
-          "#cobblemon:has_season/winter"
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_taiga"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leafin-11",
+      "pokemon": "leafin",
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 13.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_taiga"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
       }
     }
   ]

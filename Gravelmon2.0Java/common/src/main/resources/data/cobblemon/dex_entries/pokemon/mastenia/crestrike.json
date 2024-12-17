@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:crestrike",
+  "speciesId": "cobblemon:crestrike",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

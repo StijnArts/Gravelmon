@@ -25,7 +25,7 @@ public class Dodojo extends drai.dev.data.pokemon.Pokemon {
                 List.of("A recently extinct Pokemon whose fighting spirit was so tenacious that it refused to pass on. Its bones now serve as weapons for it."),
                 List.of(new EvolutionEntry("taekwondodo", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "night")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PECK,1),
                         new MoveLearnSetEntry(Move.POUND,6),
@@ -110,8 +110,8 @@ public class Dodojo extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 27, 3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL_ISLAND)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

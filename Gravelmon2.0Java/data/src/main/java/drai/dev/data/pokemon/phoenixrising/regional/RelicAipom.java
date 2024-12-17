@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.phoenixrising.regional;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -20,7 +20,7 @@ public class RelicAipom extends Pokemon {
                 51, List.of(EggGroup.HUMAN_LIKE),
                 List.of("Relic Aipom are known for their throwing skills. Trees, and occasionally an unfortunate Trevenant, are their usual targets for practice."),
                 List.of(new EvolutionEntry("relicambipom", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\"tripleaxel\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"TRIPLE_AXEL")))),
                 List.of(
                         new MoveLearnSetEntry(Move.KARATE_CHOP,1),
                         new MoveLearnSetEntry(Move.LEER,1),
@@ -93,12 +93,13 @@ public class RelicAipom extends Pokemon {
                 List.of(Label.PHOENIX_RISING, Label.GEN2),
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.COMMON, 15, 36, 5.4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_PLAINS, Biome.IS_PLATEAU))),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Aipom");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

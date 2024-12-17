@@ -108,7 +108,7 @@ public class NovranHerdier extends drai.dev.data.pokemon.Pokemon {
            setLangFileName("Herdier");
         addAdditionalEvolution("lillipup", new EvolutionEntry("herdier novran", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16"),
-                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_SNOWY.getId() + ":" + Biome.IS_SNOWY.getName() +"\""))));
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_SNOWY.getId() + ":" + Biome.IS_SNOWY.getName()))));
 
     }
 

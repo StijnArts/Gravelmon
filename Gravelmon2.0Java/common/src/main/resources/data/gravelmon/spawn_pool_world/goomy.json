@@ -4,6 +4,62 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epoch_goomy-01",
+      "pokemon": "goomy epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "5-35",
+      "weight": 8.100000000000001,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "day"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vesitan_goomy-01",
+      "pokemon": "goomy vesitan",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "11-34",
+      "weight": 8.100000000000001,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:raw_gold_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "delta_goomy-01",
       "pokemon": "goomy delta",
       "presets": [
@@ -13,11 +69,19 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "3-22",
-      "weight": 8.0,
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_arid"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_mud"
+          ]
+        }
       }
     },
     {
@@ -30,7 +94,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "5-30",
-      "weight": 4.0,
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"
@@ -38,6 +102,14 @@
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "timeRange": "day"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
+          ]
+        }
       }
     }
   ]

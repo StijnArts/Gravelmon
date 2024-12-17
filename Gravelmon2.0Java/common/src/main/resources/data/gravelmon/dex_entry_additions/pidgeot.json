@@ -2,15 +2,15 @@
   "entryId": "cobblemon:pidgeot",
   "forms": [
     {
-      "displayForm": "Delta",
+      "displayForm": "Epoch",
       "unlockForms": [
-        "Delta"
+        "Epoch"
       ]
     },
     {
-      "displayForm": "Mythian",
+      "displayForm": "Delta",
       "unlockForms": [
-        "Mythian"
+        "Delta"
       ]
     },
     {

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:polyo",
+  "speciesId": "cobblemon:polyo",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -25,7 +25,7 @@ public class Cloddle extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Its body is soft yet durable due to a core deep inside of compressed, ever-hardening earth. It has an easygoing temperment and can commonly be seen in quarries and dig sites."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.VARITAS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

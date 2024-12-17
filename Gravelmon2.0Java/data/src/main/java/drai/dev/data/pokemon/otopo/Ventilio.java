@@ -24,7 +24,7 @@ public class Ventilio extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_2),
                 List.of("It is exceedingly quick, and only the most skilled anglers can see it. Because of its blade-like fins, it can readily avoid most traps."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ginkorale",
+  "speciesId": "cobblemon:ginkorale",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

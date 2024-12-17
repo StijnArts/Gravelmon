@@ -4,15 +4,63 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_dvaarak",
       "model": "cobblemon:deneb_dvaarak.geo",
+      "poser": "cobblemon:deneb_dvaarak",
       "texture": "cobblemon:textures/pokemon/deneb/dvaarak/dvaarak.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/deneb/dvaarak/dvaarak_shiny.png"
-    }  ]
+      "model": "cobblemon:deneb_dvaarak.geo",
+      "poser": "cobblemon:deneb_dvaarak",
+      "texture": "cobblemon:textures/pokemon/deneb/dvaarak/dvaarak_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
+    }
+  ]
 }

@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class DireMiralis extends drai.dev.data.pokemon.Pokemon {
-    public DireMiralis() {
+    public DireMiralis(Stats stats) {
         super("DireMiralis",
                 Type.FIRE, Type.WATER,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.REGENERATOR), Ability.REGENERATOR,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,
@@ -24,7 +19,7 @@ public class DireMiralis extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Some legends consider this great dragon to be the devil fated to destroy the world, while others claim it is the giant who birthed creation. Is there any way for mere humans to quell its unending rage?"),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

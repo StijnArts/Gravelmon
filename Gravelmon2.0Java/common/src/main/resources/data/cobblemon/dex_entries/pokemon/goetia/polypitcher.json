@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:polypitcher",
+  "speciesId": "cobblemon:polypitcher",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

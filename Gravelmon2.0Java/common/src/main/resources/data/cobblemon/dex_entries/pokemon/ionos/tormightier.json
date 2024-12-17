@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tormightier",
+  "speciesId": "cobblemon:tormightier",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

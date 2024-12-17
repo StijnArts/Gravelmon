@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:madamingo",
+  "speciesId": "cobblemon:madamingo",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

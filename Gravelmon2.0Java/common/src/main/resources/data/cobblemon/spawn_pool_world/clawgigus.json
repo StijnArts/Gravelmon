@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "41-59",
-      "weight": 0.45,
+      "weight": 0.675,
       "condition": {
         "biomes": [
           "#cobblemon:is_beach"
@@ -25,6 +25,14 @@
         "biomes": [
           "#cobblemon:is_cold"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:tuff"
+          ]
+        }
       }
     }
   ]

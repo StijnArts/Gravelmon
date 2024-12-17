@@ -13,13 +13,21 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "12-34",
-      "weight": 3.8,
+      "weight": 5.699999999999999,
       "condition": {
         "biomes": [
           "#cobblemon:is_desert"
         ],
         "minSkyLight": 0,
         "maxSkyLight": 7
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
+          ]
+        }
       }
     }
   ]

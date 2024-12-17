@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:vigoroth-avalossian",
+  "speciesId": "cobblemon:vigoroth",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Avalossian",
+      "unlockForms": [
+        "Avalossian"
+      ]
+    }
+  ],
+  "variations": []
+}

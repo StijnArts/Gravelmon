@@ -26,7 +26,7 @@ public class Wispear extends drai.dev.data.pokemon.Pokemon {
                 List.of("Wispear are spirits of young children who got lost after dark and never returned home. They may whisper in the ears of travelers, telling them which way to go and return to safety. They may play tricks however, making both people and Pokemon to walk astray into the unknown wilderness."),
                 List.of(new EvolutionEntry("roomere", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=female\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=female")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.SHADOW_SNEAK,8),
@@ -45,9 +45,9 @@ public class Wispear extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER))),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:poeternal",
+  "speciesId": "cobblemon:poeternal",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

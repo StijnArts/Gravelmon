@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -142,8 +142,8 @@ public class DeltaMawile extends Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 16, 38, 6.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FLORAL)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.35, 0.3,
@@ -170,6 +170,5 @@ public class DeltaMawile extends Pokemon {
                         0.48, 0.3
                 )));
         this.setLangFileName("Mawile");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

@@ -13,17 +13,27 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "15-28",
-      "weight": 0.2,
+      "weight": 0.30000000000000004,
       "condition": {
         "biomes": [
           "#cobblemon:is_forest"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
         "biomes": [
-          "#cobblemon:has_season/summer",
-          "#cobblemon:has_season/winter"
+          "#cobblemon:is_jungle",
+          "#cobblemon:has_season/autumn"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
       }
     }
   ]

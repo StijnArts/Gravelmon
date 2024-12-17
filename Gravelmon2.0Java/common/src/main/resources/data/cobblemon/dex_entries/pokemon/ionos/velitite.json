@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:velitite",
+  "speciesId": "cobblemon:velitite",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

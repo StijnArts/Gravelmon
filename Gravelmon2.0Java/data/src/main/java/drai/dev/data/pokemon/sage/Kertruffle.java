@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.sage;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -21,13 +21,13 @@ public class Kertruffle extends Pokemon {
                 List.of("Needing little more than water and air to live, Kertruffle can adapt to hostile environments where few other Pokemon would survive."),
                 List.of(new EvolutionEntry("mosshroom", EvolutionType.LEVEL_UP, true, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"minecraft:moss\""))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "minecraft:moss"))),
                         new EvolutionEntry("lumishroom", EvolutionType.LEVEL_UP, true, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26"),
-                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"minecraft:glowstone\""))),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "minecraft:glowstone"))),
                         new EvolutionEntry("perishroom", EvolutionType.LEVEL_UP, true, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26"),
-                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"minecraft:sculk\"")))),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "minecraft:sculk")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BIDE,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),
@@ -94,6 +94,6 @@ public class Kertruffle extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.3, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

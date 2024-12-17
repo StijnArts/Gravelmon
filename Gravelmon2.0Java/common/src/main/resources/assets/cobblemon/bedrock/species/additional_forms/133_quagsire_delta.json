@@ -1,28 +1,47 @@
 {
   "species": "cobblemon:quagsire",
-  "order": 10,
+  "order": 133,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:deltaquagsire.geo",
+      "model": "cobblemon:generation2_deltaquagsire.geo",
       "poser": "cobblemon:generation2_deltaquagsire",
       "texture": "cobblemon:textures/pokemon/generation2/deltaquagsire/deltaquagsire.png",
       "layers": [
         {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
           "name": "flame",
+          "emissive": true,
+          "translucent": false,
           "texture": {
             "frames": [
-              "cobblemon:textures/pokemon/generation2/deltaquagsire/flame/flame01.png",
-              "cobblemon:textures/pokemon/generation2/deltaquagsire/flame/flame02.png",
-              "cobblemon:textures/pokemon/generation2/deltaquagsire/flame/flame03.png",
-              "cobblemon:textures/pokemon/generation2/deltaquagsire/flame/flame04.png"
+              "cobblemon:textures/pokemon/generation2/deltaquagsire/flame/tail1.png",
+              "cobblemon:textures/pokemon/generation2/deltaquagsire/flame/tail2.png",
+              "cobblemon:textures/pokemon/generation2/deltaquagsire/flame/tail3.png",
+              "cobblemon:textures/pokemon/generation2/deltaquagsire/flame/tail4.png"
             ],
             "fps": 10,
             "loop": true
-          },
-          "emissive": true
+          }
+        },
+        {
+          "name": "glow"
         }
       ]
     },
@@ -31,23 +50,42 @@
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:deltaquagsire.geo",
+      "model": "cobblemon:generation2_deltaquagsire.geo",
       "poser": "cobblemon:generation2_deltaquagsire",
       "texture": "cobblemon:textures/pokemon/generation2/deltaquagsire/deltaquagsire_shiny.png",
       "layers": [
         {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
           "name": "flame",
+          "emissive": true,
+          "translucent": false,
           "texture": {
             "frames": [
-              "cobblemon:textures/pokemon/generation2/deltaquagsire/flame/flame01.png",
-              "cobblemon:textures/pokemon/generation2/deltaquagsire/flame/flame02.png",
-              "cobblemon:textures/pokemon/generation2/deltaquagsire/flame/flame03.png",
-              "cobblemon:textures/pokemon/generation2/deltaquagsire/flame/flame04.png"
+              "cobblemon:textures/pokemon/generation2/deltaquagsire/flame/tail1.png",
+              "cobblemon:textures/pokemon/generation2/deltaquagsire/flame/tail2.png",
+              "cobblemon:textures/pokemon/generation2/deltaquagsire/flame/tail3.png",
+              "cobblemon:textures/pokemon/generation2/deltaquagsire/flame/tail4.png"
             ],
             "fps": 10,
             "loop": true
-          },
-          "emissive": true
+          }
+        },
+        {
+          "name": "glow"
         }
       ]
     }

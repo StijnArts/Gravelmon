@@ -25,7 +25,7 @@ public class AristosianNumel extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD),
                 List.of("The moisture and nutrients from the cacti they eat coupled with their slow movement caused their bodies to take on a mossy texture and cacti to grow out of the holes in their backs. Rather than magma, their bodies are filled with cool water which sustains the cactus."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ARISTOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

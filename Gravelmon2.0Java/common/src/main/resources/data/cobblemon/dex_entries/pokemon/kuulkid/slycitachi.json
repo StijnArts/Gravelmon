@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:slycitachi",
+  "speciesId": "cobblemon:slycitachi",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

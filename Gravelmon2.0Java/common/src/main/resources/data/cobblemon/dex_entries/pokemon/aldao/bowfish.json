@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:bowfish",
+  "speciesId": "cobblemon:bowfish",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

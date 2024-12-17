@@ -2,6 +2,7 @@ package drai.dev.data.pokemon.atlas;
 
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+
 import java.util.*;
 
 public class Meritrot extends drai.dev.data.pokemon.Pokemon {
@@ -24,10 +25,10 @@ public class Meritrot extends drai.dev.data.pokemon.Pokemon {
                 List.of("Gentle-natured and friendly, Meritrot love being around people and giving rides. They are far stronger than they appear and are used for farm work all over Atlas."),
                 List.of(new EvolutionEntry("stalliot", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=male\""))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male"))),
                         new EvolutionEntry("carosella", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28"),
-                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=female\"")))),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=female")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TAIL_WHIP,3),
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,6),

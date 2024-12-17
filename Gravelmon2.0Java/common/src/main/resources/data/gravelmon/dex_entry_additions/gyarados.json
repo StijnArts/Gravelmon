@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:gyarados",
+  "forms": [
+    {
+      "displayForm": "Ivrisian",
+      "unlockForms": [
+        "Ivrisian"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
+}

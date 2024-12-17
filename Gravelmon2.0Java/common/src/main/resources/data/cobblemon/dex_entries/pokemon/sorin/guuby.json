@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:guuby",
+  "speciesId": "cobblemon:guuby",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

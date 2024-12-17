@@ -2,6 +2,24 @@
   "entryId": "cobblemon:yanma",
   "forms": [
     {
+      "displayForm": "Mahalian",
+      "unlockForms": [
+        "Mahalian"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
       "displayForm": "Delta",
       "unlockForms": [
         "Delta"

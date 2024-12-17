@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:pupkin",
+  "speciesId": "cobblemon:pupkin",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

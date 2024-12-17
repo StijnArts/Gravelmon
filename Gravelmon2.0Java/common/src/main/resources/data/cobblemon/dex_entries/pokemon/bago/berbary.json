@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:berbary",
+  "speciesId": "cobblemon:berbary",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

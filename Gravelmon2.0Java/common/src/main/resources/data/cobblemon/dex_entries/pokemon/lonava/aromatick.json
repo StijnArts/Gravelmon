@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:aromatick",
+  "speciesId": "cobblemon:aromatick",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

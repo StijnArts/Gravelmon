@@ -49,7 +49,7 @@ public class Ekopi extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POWERUP_PUNCH,"tm")                        ),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

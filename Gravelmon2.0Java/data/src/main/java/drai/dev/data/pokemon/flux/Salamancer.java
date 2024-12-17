@@ -54,7 +54,8 @@ public class Salamancer extends Pokemon {
                 List.of(Label.FLUX),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 32, 54, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_LUSH, Biome.IS_MAGICAL))
+                        new BiomeSpawnCondition(List.of(Biome.IS_LUSH, Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

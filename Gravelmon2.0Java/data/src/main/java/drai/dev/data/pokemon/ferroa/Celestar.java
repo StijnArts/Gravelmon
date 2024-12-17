@@ -25,7 +25,7 @@ public class Celestar extends drai.dev.data.pokemon.Pokemon {
                 List.of("This Pokemon drifts through the upper atmosphere in large groups. It is made of a dense material not common on Earth."),
                 List.of(new EvolutionEntry("celestroid", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "night")))
                 ),
                 List.of(
                         new MoveLearnSetEntry(Move.LIGHTUP,1),

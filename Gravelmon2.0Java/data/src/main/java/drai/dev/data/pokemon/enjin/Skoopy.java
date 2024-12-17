@@ -25,16 +25,15 @@ public class Skoopy extends drai.dev.data.pokemon.Pokemon {
                 List.of("These Pokemon love practicing their magic, often freezing anything they can find. Whilst their magic is annoying to some, it can be very useful during hot summer days."),
                 List.of(),
                 List.of(
-                        new MoveLearnSetEntry(Move.DISARMING_VOICE,1),
-                        new MoveLearnSetEntry(Move.ICY_WIND,1),
-                        new MoveLearnSetEntry(Move.DRAINING_KISS,1)                        ),
+
+                ),
                 List.of(Label.ENJIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 32, 1.6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_CROPS),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Skoopy");

@@ -1,6 +1,6 @@
 {
   "species": "cobblemon:darumaka",
-  "order": 10,
+  "order": 133,
   "variations": [
     {
       "aspects": [
@@ -9,7 +9,29 @@
       "model": "cobblemon:generation5_deltadarumaka.geo",
       "poser": "cobblemon:generation5_deltadarumaka",
       "texture": "cobblemon:textures/pokemon/generation5/deltadarumaka/deltadarumaka.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     },
     {
       "aspects": [
@@ -19,7 +41,29 @@
       "model": "cobblemon:generation5_deltadarumaka.geo",
       "poser": "cobblemon:generation5_deltadarumaka",
       "texture": "cobblemon:textures/pokemon/generation5/deltadarumaka/deltadarumaka_shiny.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     }
   ]
 }

@@ -13,14 +13,22 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "18-33",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"
         ],
-        "timeRange": "day",
         "minSkyLight": 8,
-        "maxSkyLight": 15
+        "maxSkyLight": 15,
+        "timeRange": "day"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     }
   ]

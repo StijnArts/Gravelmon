@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Koaninja extends drai.dev.data.pokemon.Pokemon {
-    public Koaninja() {
+    public Koaninja(Stats stats) {
         super("Koaninja",
                 Type.GRASS, Type.FIGHTING,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,
@@ -24,7 +19,7 @@ public class Koaninja extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Concept, design, front sprite, and type by Feyrah on DeviantArt. Evo line: Complete"),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

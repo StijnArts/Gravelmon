@@ -2,9 +2,27 @@
   "entryId": "cobblemon:vigoroth",
   "forms": [
     {
-      "displayForm": "Fligian",
+      "displayForm": "Elbian",
       "unlockForms": [
-        "Fligian"
+        "Elbian"
+      ]
+    },
+    {
+      "displayForm": "Ferranian",
+      "unlockForms": [
+        "Ferranian"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Avalossian",
+      "unlockForms": [
+        "Avalossian"
       ]
     }
   ]

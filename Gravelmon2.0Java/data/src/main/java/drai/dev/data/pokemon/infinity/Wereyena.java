@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.infinity;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -141,7 +141,7 @@ public class Wereyena extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.39, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+        
         this.setPreEvolution("mightyena");
         addAdditionalEvolution("mightyena", new EvolutionEntry("wereyena", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"cobblemon:moon_stone"));

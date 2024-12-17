@@ -24,7 +24,7 @@ public class Neuregel extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("With its mind polluted by the corruption, almost all bodies of water near it's resting place have become stagnant. People fear that it may poison the entire water supply of Mystis if left unchecked."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MYSTIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

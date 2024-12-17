@@ -24,7 +24,7 @@ public class Marbel extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It is extremely difficult to tell if Marbel is a statue or in fact a Pokémon. Some believe that it is both. It changes its pose when nobody is watching. Legends say that this Pokémon will only wake up and learn how to walk on certain days of the Ionan calendar."),
                 List.of(new EvolutionEntry("marbelous", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_SPRING.getId() + ":" + Biome.IS_SPRING.getName() +"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_SPRING.getId() + ":" + Biome.IS_SPRING.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),

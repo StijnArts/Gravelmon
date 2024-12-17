@@ -24,7 +24,7 @@ public class Frosfur extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD),
                 List.of("Frosfur can generate a spine-chilling breeze by shaking it's fur. Washing this Pokémon can be hard as it freezes the water. It's loyal to the end, and will sit alongside their trainers no matter what happens."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.PASTEL_ISLAND),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.vega;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -87,7 +87,6 @@ public class Granvesp extends Pokemon {
                 List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 34, 54, 3.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"false")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))),

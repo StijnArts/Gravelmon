@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:snugbug",
+  "speciesId": "cobblemon:snugbug",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

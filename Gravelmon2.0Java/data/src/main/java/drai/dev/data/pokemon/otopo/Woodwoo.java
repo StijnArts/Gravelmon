@@ -24,7 +24,7 @@ public class Woodwoo extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FLYING),
                 List.of("Woodwoo are forest defenders who live beneath lush canopies. They fly down to the forest floor in search of little insect Pokemon to consume."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -106,6 +106,5 @@ public class DeltaRemoraid extends Pokemon {
         this.setCanSwim(true);
         this.setAvoidsLand(false);
         this.setCanBreathUnderwater(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

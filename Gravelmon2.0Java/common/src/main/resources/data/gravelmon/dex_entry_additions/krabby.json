@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:krabby",
+  "forms": [
+    {
+      "displayForm": "Forman",
+      "unlockForms": [
+        "Forman"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
+}

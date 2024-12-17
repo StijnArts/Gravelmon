@@ -41,7 +41,7 @@ public class Nautilite extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.OCEANE),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 16, 40, 0.9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

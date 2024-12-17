@@ -24,7 +24,7 @@ public class Brainibash extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD,EggGroup.MONSTER),
                 List.of("They compete in battles of both strength and wit. When they clash their heads together, they create a psychic field that absorbs the impact."),
                 List.of(new EvolutionEntry("brainiache", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.ZEN_HEADBUTT.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.ZEN_HEADBUTT.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.SIMPLE_BEAM,1),
                         new MoveLearnSetEntry(Move.SKULL_BASH,1),

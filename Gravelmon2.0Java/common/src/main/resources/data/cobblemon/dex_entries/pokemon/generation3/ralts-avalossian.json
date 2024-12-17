@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ralts-avalossian",
+  "speciesId": "cobblemon:ralts",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Avalossian",
+      "unlockForms": [
+        "Avalossian"
+      ]
+    }
+  ],
+  "variations": []
+}

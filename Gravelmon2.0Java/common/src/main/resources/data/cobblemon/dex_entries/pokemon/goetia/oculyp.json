@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:oculyp",
+  "speciesId": "cobblemon:oculyp",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

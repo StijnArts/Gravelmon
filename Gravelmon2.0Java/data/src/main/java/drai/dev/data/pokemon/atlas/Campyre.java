@@ -25,7 +25,7 @@ public class Campyre extends drai.dev.data.pokemon.Pokemon {
                 List.of("Campyres typically are born from a trainer burning a special type of wood. They love to provide warmth to others and are generally very well-mannered when looked over regularly."),
                 List.of(new EvolutionEntry("wildyre", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"day\"")))
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "day")))
                 ),
                 List.of(      new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.INCINERATE,7),
@@ -89,7 +89,7 @@ public class Campyre extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 7, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NEAR_LAVA),
                 0.28, 0.3,

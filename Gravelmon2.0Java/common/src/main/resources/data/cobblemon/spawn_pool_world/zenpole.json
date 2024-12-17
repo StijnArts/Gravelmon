@@ -1,0 +1,56 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "zenpole-01",
+      "pokemon": "zenpole",
+      "presets": [
+        "freshwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "common",
+      "level": "12-35",
+      "weight": 6.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
+      "id": "zenpole-11",
+      "pokemon": "zenpole",
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "common",
+      "level": "12-35",
+      "weight": 6.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    }
+  ]
+}

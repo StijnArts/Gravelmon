@@ -37,6 +37,7 @@ public class Slendurn extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 53, .3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),

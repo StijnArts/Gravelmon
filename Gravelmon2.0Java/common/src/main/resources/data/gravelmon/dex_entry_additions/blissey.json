@@ -2,9 +2,15 @@
   "entryId": "cobblemon:blissey",
   "forms": [
     {
-      "displayForm": "Fligian",
+      "displayForm": "Epoch",
       "unlockForms": [
-        "Fligian"
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Avalossian",
+      "unlockForms": [
+        "Avalossian"
       ]
     },
     {

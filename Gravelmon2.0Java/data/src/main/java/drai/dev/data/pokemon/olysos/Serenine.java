@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Serenine extends drai.dev.data.pokemon.Pokemon {
-    public Serenine() {
+    public Serenine(Stats stats) {
         super("Serenine",
                 Type.LIGHT, Type.GHOST,
                 new Stats(0,
@@ -24,7 +24,7 @@ public class Serenine extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OLYSOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -1,6 +1,8 @@
 package drai.dev.data.pokemon.okeno;
+
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+
 import java.util.*;
 
 public class Tropiguana extends drai.dev.data.pokemon.Pokemon {
@@ -22,7 +24,7 @@ public class Tropiguana extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.DRAGON),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OKENO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

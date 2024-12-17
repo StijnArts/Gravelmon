@@ -16,7 +16,7 @@ public class Acheeva extends drai.dev.data.pokemon.Pokemon {
                         70,
                         200),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
+                13, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -24,11 +24,11 @@ public class Acheeva extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Outrunning an Acheeva would be considered a new Pokémon World record. Reaching such high speed has an advantage when hunting down a slower foe, such as Blitzle and Blazelle."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 42, 1.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

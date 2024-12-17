@@ -24,7 +24,7 @@ public class Tryprock extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MINERAL),
                 List.of("Tryprock rarely venture into the open. Preferring the safety of underground environments, they feel most at ease amidst magnetic fields. Tryprock's glowing eye possesses a unique scanning ability, allowing it to detect and track magnetic fields, crucial for navigating the underground. These Pokémon sustain themselves by feeding on minerals found deep within the earth."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OLYSOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "16-46",
-      "weight": 2.0,
+      "level": "16-40",
+      "weight": 1.35,
       "condition": {
         "biomes": [
           "#cobblemon:is_forest"
@@ -23,10 +23,17 @@
       },
       "anticondition": {
         "biomes": [
-          "#cobblemon:has_season/winter",
-          "#cobblemon:has_season/summer",
-          "#cobblemon:has_season/autumn"
+          "#cobblemon:is_taiga",
+          "#cobblemon:is_jungle"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
       }
     }
   ]

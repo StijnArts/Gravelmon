@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:chchitin",
+  "speciesId": "cobblemon:chchitin",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

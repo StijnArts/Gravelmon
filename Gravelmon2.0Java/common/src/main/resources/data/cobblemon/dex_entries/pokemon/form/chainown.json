@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:chainown",
+  "speciesId": "cobblemon:chainown",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

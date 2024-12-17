@@ -24,7 +24,7 @@ public class Phanther extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.GRASS,EggGroup.FIELD),
                 List.of("All that is left of Phanther's mortal self is its pelt, which it carries with it. Despite its ruthless battle style, it is a loyal to its trainer and loves to sleep in moonbeams."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.URZAVOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

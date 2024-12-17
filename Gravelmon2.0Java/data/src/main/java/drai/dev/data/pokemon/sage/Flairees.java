@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.sage;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -120,9 +121,16 @@ public class Flairees  extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 1, 0.7,
                 List.of());
-        this.setPortraitXYZ(0,1.8,0);
 
         this.setBaseScale(1);
-        this.setModeled(true);
+        
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.6f, new Vector3(-0.33, 1.2, 0));
+        getPosingFileData().setProfileData( .58f, new Vector3(0, .9, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().withBlink().clearPoseTypes(),
+                AnimationData.walkingAnimation().withLook().withBlink()
+        ));
     }
 }

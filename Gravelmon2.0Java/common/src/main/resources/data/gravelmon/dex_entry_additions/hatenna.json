@@ -2,9 +2,27 @@
   "entryId": "cobblemon:hatenna",
   "forms": [
     {
+      "displayForm": "Fabelian",
+      "unlockForms": [
+        "Fabelian"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
       "displayForm": "Novran",
       "unlockForms": [
         "Novran"
+      ]
+    },
+    {
+      "displayForm": "Ayreian",
+      "unlockForms": [
+        "Ayreian"
       ]
     }
   ]

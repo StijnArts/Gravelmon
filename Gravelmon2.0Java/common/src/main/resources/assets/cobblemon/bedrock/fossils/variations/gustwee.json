@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:gustwee",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:embryo_gustwee",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/gustwee.png",
+      "layers": []
+    }
+  ]
+}

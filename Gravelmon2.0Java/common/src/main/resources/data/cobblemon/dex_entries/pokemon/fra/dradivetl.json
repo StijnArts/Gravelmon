@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:dradivetl",
+  "speciesId": "cobblemon:dradivetl",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

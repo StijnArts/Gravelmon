@@ -1,0 +1,29 @@
+{
+  "entryId": "cobblemon:aromatisse",
+  "forms": [
+    {
+      "displayForm": "Aromian",
+      "unlockForms": [
+        "Aromian"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Vesitan",
+      "unlockForms": [
+        "Vesitan"
+      ]
+    }
+  ]
+}

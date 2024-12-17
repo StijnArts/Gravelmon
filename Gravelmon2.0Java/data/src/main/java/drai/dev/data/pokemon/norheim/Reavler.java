@@ -106,8 +106,8 @@ public class Reavler extends drai.dev.data.pokemon.Pokemon {
                 List.of());
            setLangFileName("Reavler");
         addAdditionalEvolution("sneasel", new EvolutionEntry("reavler", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:razor_claw\""),
-                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"\"night\""))));
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:razor_claw"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night"))));
 
     }
 

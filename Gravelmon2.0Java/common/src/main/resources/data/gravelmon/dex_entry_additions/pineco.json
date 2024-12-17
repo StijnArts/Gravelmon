@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:pineco",
+  "forms": [
+    {
+      "displayForm": "Forman",
+      "unlockForms": [
+        "Forman"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
+}

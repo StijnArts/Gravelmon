@@ -24,7 +24,7 @@ public class Cacold extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.BUG),
                 List.of("It hides in a cocoon made of snow and tree bark. When the seasons change and it becomes warmer outside, it thaws and evolves."),
                 List.of(new EvolutionEntry("scaralanche", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_SPRING.getId() + ":" + Biome.IS_SPRING.getName() +"\"")))
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_SPRING.getId() + ":" + Biome.IS_SPRING.getName())))
                 ),
                 List.of(
                         new MoveLearnSetEntry(Move.BUG_BITE,"tm"),

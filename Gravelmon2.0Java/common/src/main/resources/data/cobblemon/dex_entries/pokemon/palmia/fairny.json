@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:fairny",
+  "speciesId": "cobblemon:fairny",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

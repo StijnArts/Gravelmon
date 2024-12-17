@@ -13,19 +13,25 @@
       "context": "submerged",
       "bucket": "common",
       "level": "2-15",
-      "weight": 8.0,
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_forest",
           "#cobblemon:is_grassland"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        ]
       },
       "anticondition": {
         "biomes": [
           "#minecraft:is_ocean"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
       }
     }
   ]

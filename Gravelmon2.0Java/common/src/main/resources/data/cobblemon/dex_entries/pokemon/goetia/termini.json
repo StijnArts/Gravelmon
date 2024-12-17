@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:termini",
+  "speciesId": "cobblemon:termini",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

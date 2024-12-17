@@ -13,12 +13,20 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "49-57",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_thermal",
           "#cobblemon:is_volvanic"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
       }
     }
   ]

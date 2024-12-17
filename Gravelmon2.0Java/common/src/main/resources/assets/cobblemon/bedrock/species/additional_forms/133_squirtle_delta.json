@@ -1,25 +1,69 @@
 {
   "species": "cobblemon:squirtle",
-  "order": 11,
+  "order": 133,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:deltasquirtle.geo",
+      "model": "cobblemon:generation1_deltasquirtle.geo",
       "poser": "cobblemon:generation1_deltasquirtle",
-      "texture": "cobblemon:textures/pokemon/generation1/deltasquirtle.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation1/deltasquirtle/deltasquirtle.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     },
     {
       "aspects": [
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:deltasquirtle.geo",
+      "model": "cobblemon:generation1_deltasquirtle.geo",
       "poser": "cobblemon:generation1_deltasquirtle",
-      "texture": "cobblemon:textures/pokemon/generation1/deltasquirtle_shiny.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation1/deltasquirtle/deltasquirtle_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     }
   ]
 }

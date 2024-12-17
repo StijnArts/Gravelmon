@@ -2,6 +2,18 @@
   "entryId": "cobblemon:octillery",
   "forms": [
     {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Lagoonan",
+      "unlockForms": [
+        "Lagoonan"
+      ]
+    },
+    {
       "displayForm": "Delta",
       "unlockForms": [
         "Delta"

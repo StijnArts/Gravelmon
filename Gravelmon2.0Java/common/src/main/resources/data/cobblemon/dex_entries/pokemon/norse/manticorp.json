@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:manticorp",
+  "speciesId": "cobblemon:manticorp",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

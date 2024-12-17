@@ -1,0 +1,35 @@
+{
+  "entryId": "cobblemon:machop",
+  "forms": [
+    {
+      "displayForm": "Ferranian",
+      "unlockForms": [
+        "Ferranian"
+      ]
+    },
+    {
+      "displayForm": "Forman",
+      "unlockForms": [
+        "Forman"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Africanusan",
+      "unlockForms": [
+        "Africanusan"
+      ]
+    }
+  ]
+}

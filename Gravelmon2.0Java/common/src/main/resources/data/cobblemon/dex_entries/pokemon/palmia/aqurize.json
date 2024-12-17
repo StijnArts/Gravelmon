@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:aqurize",
+  "speciesId": "cobblemon:aqurize",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

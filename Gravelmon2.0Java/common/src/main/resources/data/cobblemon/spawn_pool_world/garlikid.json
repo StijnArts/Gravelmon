@@ -13,11 +13,19 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "65-70",
-      "weight": 6.0E-5,
+      "weight": 9.0E-5,
       "condition": {
         "biomes": [
           "#cobblemon:is_temperate"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
       }
     }
   ]

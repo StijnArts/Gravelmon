@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lobssir",
+  "speciesId": "cobblemon:lobssir",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

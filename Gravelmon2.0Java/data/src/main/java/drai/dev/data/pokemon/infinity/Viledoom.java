@@ -1,8 +1,10 @@
 package drai.dev.data.pokemon.infinity;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -102,14 +104,25 @@ public class Viledoom extends Pokemon {
                 4, List.of(
                         new ItemDrop("minecraft:seeds",50, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 42, 55, 0.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.34, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
-        setModeled(true);
+
+        
         setBaseScale(1);
         setHitbox(1,1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.7f, new Vector3(-0.2, .7, 0));
+        getPosingFileData().setProfileData( .7f, new Vector3(0, .95, -20));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withBlink().addPoseType(PoseType.FLOAT).addPoseType(PoseType.HOVER),
+                AnimationData.walkingAnimation().withBlink().addPoseType(PoseType.SWIM).addPoseType(PoseType.FLY),
+                AnimationData.sleepingAnimation()
+        ));
+        getPosingFileData().setFaint("q.bedrock_primary('viledoom', 'faint')");
     }
 }

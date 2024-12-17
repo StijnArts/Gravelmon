@@ -24,7 +24,7 @@ public class Trilbin extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FLYING),
                 List.of("Trilbin are a common sight in Tokas. In the early mornings their songs can be heard, waking up people with gentle tunes."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TOKAS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:galactot",
+  "speciesId": "cobblemon:galactot",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

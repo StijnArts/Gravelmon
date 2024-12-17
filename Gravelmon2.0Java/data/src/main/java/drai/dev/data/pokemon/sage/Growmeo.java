@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.sage;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -20,7 +20,7 @@ public class Growmeo extends Pokemon {
                 50, List.of(EggGroup.GRASS, EggGroup.HUMAN_LIKE),
                 List.of("Growmeo scurry through flowerbeds in search of a Tuliep. However, they are painfully shy and rarely work up the courage to actually approach one."),
                 List.of(new EvolutionEntry("montegrew", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.ATTRACT.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.ATTRACT.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.ABSORB,1),
                         new MoveLearnSetEntry(Move.CHARM,1),
@@ -98,6 +98,6 @@ public class Growmeo extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.3, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

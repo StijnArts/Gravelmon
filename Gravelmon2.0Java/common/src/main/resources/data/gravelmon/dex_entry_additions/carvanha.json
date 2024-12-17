@@ -2,6 +2,12 @@
   "entryId": "cobblemon:carvanha",
   "forms": [
     {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
       "displayForm": "X",
       "unlockForms": [
         "X"

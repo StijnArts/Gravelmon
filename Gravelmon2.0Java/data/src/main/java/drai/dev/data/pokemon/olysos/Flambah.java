@@ -24,7 +24,7 @@ public class Flambah extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MONSTER,EggGroup.FIELD),
                 List.of("Its horns are constantly powered with a high heat from the inside, which, if wanted, can reach a temperature of up to 500°. It depends mostly on the mood."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OLYSOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

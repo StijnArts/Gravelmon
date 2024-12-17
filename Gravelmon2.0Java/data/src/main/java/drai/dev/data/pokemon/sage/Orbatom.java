@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.sage;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -100,6 +100,6 @@ public class Orbatom extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.2, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

@@ -102,11 +102,11 @@ public class Fuelong extends Pokemon {
                         new ItemDrop("minecraft:gunpowder",50, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 43, 58, 0.5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 1, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+        
     }
 }

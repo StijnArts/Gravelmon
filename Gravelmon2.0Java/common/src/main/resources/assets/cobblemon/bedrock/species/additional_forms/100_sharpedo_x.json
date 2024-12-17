@@ -1,6 +1,6 @@
 {
   "species": "cobblemon:sharpedo",
-  "order": 10,
+  "order": 100,
   "variations": [
     {
       "aspects": [
@@ -9,7 +9,29 @@
       "model": "cobblemon:generation3_sharpedox.geo",
       "poser": "cobblemon:generation3_sharpedox",
       "texture": "cobblemon:textures/pokemon/generation3/sharpedox/sharpedox.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     },
     {
       "aspects": [
@@ -19,7 +41,29 @@
       "model": "cobblemon:generation3_sharpedox.geo",
       "poser": "cobblemon:generation3_sharpedox",
       "texture": "cobblemon:textures/pokemon/generation3/sharpedox/sharpedox_shiny.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     }
   ]
 }

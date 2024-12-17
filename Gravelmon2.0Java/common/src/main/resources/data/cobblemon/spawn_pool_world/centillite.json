@@ -13,11 +13,19 @@
       "context": "grounded",
       "bucket": "common",
       "level": "1-11",
-      "weight": 3.8,
+      "weight": 5.699999999999999,
       "condition": {
         "biomes": [
           "#minecraft:is_end"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
       }
     }
   ]

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:slowth",
+  "speciesId": "cobblemon:slowth",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -2,15 +2,27 @@
   "entryId": "cobblemon:larvesta",
   "forms": [
     {
-      "displayForm": "Delta",
+      "displayForm": "Mahalian",
       "unlockForms": [
-        "Delta"
+        "Mahalian"
       ]
     },
     {
-      "displayForm": "Mythian",
+      "displayForm": "Epoch",
       "unlockForms": [
-        "Mythian"
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Delta",
+      "unlockForms": [
+        "Delta"
       ]
     }
   ]

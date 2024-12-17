@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.infinity;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -21,19 +21,19 @@ public class Calfpint extends Pokemon {
                 List.of("They are usually found around their mothers, who are typically raised on farms. It is uncommon to see them by themselves in the wild. When startled, they charge."),
                 List.of(new EvolutionEntry("miltank", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=female\""))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=female"))),
                         new EvolutionEntry("tauros", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28"),
-                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=male\""))),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male"))),
                         new EvolutionEntry("tauros form=paldean-breed-combat", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28"),
-                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=male\""))),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male"))),
                         new EvolutionEntry("tauros form=paldean-breed-blaze", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28"),
-                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=male\""))),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male"))),
                         new EvolutionEntry("tauros form=paldean-breed-aqua", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28"),
-                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=male\"")))),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PLAY_ROUGH,1),
                         new MoveLearnSetEntry(Move.GROWL,1),
@@ -102,6 +102,6 @@ public class Calfpint extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.23, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+        
     }
 }

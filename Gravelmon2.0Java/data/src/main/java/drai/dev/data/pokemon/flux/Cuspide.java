@@ -26,7 +26,7 @@ public class Cuspide extends Pokemon {
                 50, List.of(EggGroup.BUG),
                 List.of("Scientists have found that its exoskeleton has a similar composition to tooth enamel. For good health, it should be brushed twice daily."),
                 List.of(new EvolutionEntry("tarandible", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"cobblemon:razor_fang\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "cobblemon:razor_fang")))),
                 List.of(
                         new MoveLearnSetEntry(Move.INFESTATION,1),
                         new MoveLearnSetEntry(Move.HARDEN,1),
@@ -39,6 +39,7 @@ public class Cuspide extends Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 6, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:garchomp-trizoran",
+  "speciesId": "cobblemon:garchomp",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Trizoran",
+      "unlockForms": [
+        "Trizoran"
+      ]
+    }
+  ],
+  "variations": []
+}

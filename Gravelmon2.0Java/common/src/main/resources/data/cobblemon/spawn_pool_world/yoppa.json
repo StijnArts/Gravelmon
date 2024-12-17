@@ -13,13 +13,21 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "13-44",
-      "weight": 0.6,
+      "weight": 0.8999999999999999,
       "condition": {
         "biomes": [
           "#cobblemon:is_temperate"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:cauldron"
+          ]
+        }
       }
     }
   ]

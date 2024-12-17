@@ -1,8 +1,10 @@
 package drai.dev.data.pokemon.infinity.regional;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -103,16 +105,26 @@ public class EghoCharmander extends Pokemon {
                 List.of(Label.GEN1,Label.INFINITY),
                 2, List.of(
                         new ItemDrop("minecraft:coal",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.33, 0.3,
                 List.of());
         this.setLangFileName("Charmander");
-        this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(0.7);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 2f, new Vector3(-0, -0, 0));
+        getPosingFileData().setProfileData( .7f, new Vector3(0, .75, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().addPoseType(PoseType.FLOAT).addPoseType(PoseType.HOVER).withBlink(),
+                AnimationData.walkingAnimation().withLook().addPoseType(PoseType.SWIM).addPoseType(PoseType.FLY).withBlink(),
+                AnimationData.sleepingAnimation()
+        ));
+        getPosingFileData().setFaint("bedrock(charmander_egho, faint)");
+        getPosingFileData().setAnimationFileName("charmander_egho");
     }
 }

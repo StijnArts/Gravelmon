@@ -1,20 +1,38 @@
 {
   "species": "cobblemon:heatmor",
-  "order": 11,
+  "order": 133,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:deltaheatmor.geo",
+      "model": "cobblemon:generation5_deltaheatmor.geo",
       "poser": "cobblemon:generation5_deltaheatmor",
-      "texture": "cobblemon:textures/pokemon/generation5/deltaheatmor.png",
+      "texture": "cobblemon:textures/pokemon/generation5/deltaheatmor/deltaheatmor.png",
       "layers": [
         {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
           "name": "glow",
-          "texture": "cobblemon:textures/pokemon/generation5/deltaheatmor_emissive.png",
           "emissive": true,
-          "translucent": true
+          "translucent": true,
+          "texture": "cobblemon:textures/pokemon/generation5/deltaheatmor/deltaheatmor_emissive.png"
         }
       ]
     },
@@ -23,15 +41,33 @@
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:deltaheatmor.geo",
+      "model": "cobblemon:generation5_deltaheatmor.geo",
       "poser": "cobblemon:generation5_deltaheatmor",
-      "texture": "cobblemon:textures/pokemon/generation5/deltaheatmor_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation5/deltaheatmor/deltaheatmor_shiny.png",
       "layers": [
         {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
           "name": "glow",
-          "texture": "cobblemon:textures/pokemon/generation5/deltaheatmor_shiny_emissive.png",
           "emissive": true,
-          "translucent": true
+          "translucent": true,
+          "texture": "cobblemon:textures/pokemon/generation5/deltaheatmor/deltaheatmor_emissive_shiny.png"
         }
       ]
     }

@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Efflutal extends drai.dev.data.pokemon.Pokemon {
-    public Efflutal() {
+    public Efflutal(Stats stats) {
         super("Efflutal",
                 Type.PSYCHIC, Type.FIRE,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 6, 99,
                 new Stats(0,0,0,0,0,0), 40,
@@ -24,7 +19,7 @@ public class Efflutal extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD),
                 List.of("Concept, Name, Type by Arnik Sprites by Anarlaurendil These designs/sprites are originally created for an abandoned french GBA ROM-hack called 'Pokémon Cristal de Jade', and now features in Pokémon Sacred Phoenix"),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

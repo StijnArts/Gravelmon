@@ -24,7 +24,7 @@ public class Pigid extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("They swell their bodies up with freezing cold brine to maintain their shape. Sometimes they're brought up from the bottom of the ocean in trawling nets."),
                 List.of(new EvolutionEntry("bysoderm", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.SNATCH.getName()+"\"")))	),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.SNATCH.getName())))	),
                 List.of(            new MoveLearnSetEntry(Move.TRIPLE_AXEL,1),
                         new MoveLearnSetEntry(Move.TAIL_WHIP,4),
                         new MoveLearnSetEntry(Move.MUDSLAP,8),

@@ -25,7 +25,7 @@ public class Clampurr extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD,EggGroup.WATER_3),
                 List.of(""),
                 List.of(new EvolutionEntry("welking", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:kings_rock\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:kings_rock")))),
                 List.of(
                         new MoveLearnSetEntry(Move.REFRESH,1),
                         new MoveLearnSetEntry(Move.DISARMING_VOICE,6),

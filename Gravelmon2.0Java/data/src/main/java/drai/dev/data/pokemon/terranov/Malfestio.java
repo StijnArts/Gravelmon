@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Malfestio extends drai.dev.data.pokemon.Pokemon {
-    public Malfestio() {
+    public Malfestio(Stats stats) {
         super("Malfestio",
                 Type.PSYCHIC, Type.FLYING,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,
@@ -24,7 +19,7 @@ public class Malfestio extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Its pivoting neck is characteristic, and it's worth a look to see it turned completely around to look behind itself. Scales in its wings can scatter a pollen that can cause confuse its foes."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

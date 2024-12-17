@@ -1,9 +1,8 @@
 package drai.dev.data.pokemon.uranium;
 
-import drai.dev.data.pokemon.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -100,7 +99,6 @@ public class Frynai extends Pokemon {
                 List.of(SpawnPreset.UNDERWATER),
                 0.21, 0.3,
                 List.of());
-        this.setPortraitXYZ(0,1.8,0);
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setAvoidsLand(true);

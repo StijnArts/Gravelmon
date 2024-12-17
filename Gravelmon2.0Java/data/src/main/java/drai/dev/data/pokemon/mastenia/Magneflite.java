@@ -24,7 +24,7 @@ public class Magneflite extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Magneflite gathers knowledge about the history of Pokémon by droning and hovering over ancient sceneries. Their legs are reminiscent of plant buds and whenever they land on the ground they might begin sprouting."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MASTENIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:pidgoice",
+  "speciesId": "cobblemon:pidgoice",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -26,10 +26,10 @@ public class Peritwinkle extends drai.dev.data.pokemon.Pokemon {
                 List.of("It produces a soft and gentle light said to bring pleasant dreams and a full nights sleep, children often use it as a night light."),
                 List.of(new EvolutionEntry("illumise", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"23"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=female\""))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=female"))),
                         new EvolutionEntry("volbeat", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"23"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=male\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PLAY_NICE,1),
                         new MoveLearnSetEntry(Move.DOUBLE_TEAM,5),

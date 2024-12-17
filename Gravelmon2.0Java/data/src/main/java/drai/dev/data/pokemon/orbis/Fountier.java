@@ -24,7 +24,7 @@ public class Fountier extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FAIRY,EggGroup.HUMAN_LIKE),
                 List.of("Fountier are able to control their waterflow much easier than before; allowing it to focus harder on battling."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ORBIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -1,9 +1,8 @@
 package drai.dev.data.pokemon.uranium;
 
-import drai.dev.data.pokemon.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -21,9 +20,9 @@ public class Tricwe extends Pokemon {
                 100, List.of(EggGroup.BUG),
                 List.of("Related to SMORE and SPONEE, TRICWE is very hyperactive and loves nothing better than sneaking up behind trainers and scaring them."),
                 List.of(new EvolutionEntry("harylect", EvolutionType.LEVEL_UP, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.WILD_CHARGE.getName()+"\""))),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.WILD_CHARGE.getName()))),
                         new EvolutionEntry("seikamater", EvolutionType.LEVEL_UP, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"gravelmon:royal_jelly\"")))),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"gravelmon:royal_jelly")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POISON_STING,1),
                         new MoveLearnSetEntry(Move.STRING_SHOT,1),
@@ -89,11 +88,10 @@ public class Tricwe extends Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 21, 1.5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
                 List.of(SpawnPreset.HONEY_TREE),
                 0.21, 0.3,
                 List.of());
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

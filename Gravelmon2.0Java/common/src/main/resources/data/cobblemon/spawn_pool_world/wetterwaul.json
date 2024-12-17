@@ -1,0 +1,34 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "wetterwaul-01",
+      "pokemon": "wetterwaul",
+      "presets": [
+        "freshwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "rare",
+      "level": "11-34",
+      "weight": 2.25,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:urnada",
+  "speciesId": "cobblemon:urnada",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

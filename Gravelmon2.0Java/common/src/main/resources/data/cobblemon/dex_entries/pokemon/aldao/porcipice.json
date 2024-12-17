@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:porcipice",
+  "speciesId": "cobblemon:porcipice",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

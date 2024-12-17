@@ -1,46 +1,134 @@
 {
   "species": "cobblemon:ivysaur",
-  "order": 11,
+  "order": 133,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:deltaivysaur.geo",
+      "model": "cobblemon:generation1_deltaivysaur.geo",
       "poser": "cobblemon:generation1_deltaivysaur",
-      "texture": "cobblemon:textures/pokemon/generation1/deltaivysaur_female.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation1/deltaivysaur/deltaivysaur.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     },
     {
       "aspects": [
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:deltaivysaur.geo",
+      "model": "cobblemon:generation1_deltaivysaur.geo",
       "poser": "cobblemon:generation1_deltaivysaur",
-      "texture": "cobblemon:textures/pokemon/generation1/deltaivysaur_female_shiny.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation1/deltaivysaur/deltaivysaur_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     },
     {
       "aspects": [
-        "female",
-        "delta"
-      ],
-      "model": "cobblemon:deltaivysaur.geo",
-      "poser": "cobblemon:generation1_deltaivysaur",
-      "texture": "cobblemon:textures/pokemon/generation1/deltaivysaur_female.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "female",
         "delta",
+        "female"
+      ],
+      "model": "cobblemon:generation1_deltaivysaur.geo",
+      "poser": "cobblemon:generation1_deltaivysaur",
+      "texture": "cobblemon:textures/pokemon/generation1/deltaivysaur/deltaivysaur_female.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "delta",
+        "female",
         "shiny"
       ],
-      "model": "cobblemon:deltaivysaur.geo",
+      "model": "cobblemon:generation1_deltaivysaur.geo",
       "poser": "cobblemon:generation1_deltaivysaur",
-      "texture": "cobblemon:textures/pokemon/generation1/deltaivysaur_female_shiny.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation1/deltaivysaur/deltaivysaur_female_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     }
   ]
 }

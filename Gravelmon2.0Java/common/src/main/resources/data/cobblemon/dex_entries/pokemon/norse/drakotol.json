@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:drakotol",
+  "speciesId": "cobblemon:drakotol",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:flamingtongue",
+  "speciesId": "cobblemon:flamingtongue",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

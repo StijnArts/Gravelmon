@@ -13,11 +13,19 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "48-55",
-      "weight": 3.0,
+      "weight": 4.5,
       "condition": {
         "biomes": [
           "#minecraft:is_nether"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
       }
     }
   ]

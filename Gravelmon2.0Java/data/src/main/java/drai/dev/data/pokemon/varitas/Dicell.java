@@ -35,8 +35,8 @@ public class Dicell extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 7, 32, 14, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.IS_THUNDERING,"true"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.IS_THUNDERING,"true")
                 ), List.of(),
                 List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,

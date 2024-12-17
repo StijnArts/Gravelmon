@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:scizor-raianian",
+  "speciesId": "cobblemon:scizor",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Raianian",
+      "unlockForms": [
+        "Raianian"
+      ]
+    }
+  ],
+  "variations": []
+}

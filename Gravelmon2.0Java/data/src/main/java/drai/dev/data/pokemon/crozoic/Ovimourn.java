@@ -24,7 +24,7 @@ public class Ovimourn extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.DRAGON,EggGroup.FLYING),
                 List.of("Based on: Oviraptor"),
                 List.of(new EvolutionEntry("funeraptor", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:oval_stone\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:oval_stone")))),
                 List.of(
                         new MoveLearnSetEntry(Move.MEMENTO,1),
                         new MoveLearnSetEntry(Move.SAFEGUARD,1),

@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.blazingemerald.regional;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -20,9 +20,9 @@ public class HoennianVenonat extends Pokemon {
                 51, List.of(EggGroup.BUG),
                 List.of("Timid by nature, the wild Venonat in Hoenn prefer to live in damp, dark places. Their large, glowing eyes can see clearly even in total blackness."),
                 List.of(new EvolutionEntry("muramoth", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=male\""))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male"))),
                         new EvolutionEntry("lucemoth", EvolutionType.LEVEL_UP, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=female\"")))),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=female")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.CONFUSE_RAY,5),
@@ -70,6 +70,6 @@ public class HoennianVenonat extends Pokemon {
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Venonat");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

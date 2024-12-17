@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:dnarc",
+  "speciesId": "cobblemon:dnarc",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

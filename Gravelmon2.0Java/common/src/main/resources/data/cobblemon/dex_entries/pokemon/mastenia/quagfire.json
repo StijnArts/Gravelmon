@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:quagfire",
+  "speciesId": "cobblemon:quagfire",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

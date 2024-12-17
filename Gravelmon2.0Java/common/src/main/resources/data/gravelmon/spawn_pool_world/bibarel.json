@@ -4,6 +4,61 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "fabelian_bibarel-01",
+      "pokemon": "bibarel fabelian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 5.699999999999999,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_sky",
+          "#cobblemon:is_mountain"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:target_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_bibarel-01",
+      "pokemon": "bibarel epoch",
+      "presets": [
+        "near_water"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "17-37",
+      "weight": 0.6000000000000001,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
       "id": "kaskadian_bibarel-01",
       "pokemon": "bibarel kaskadian",
       "presets": [
@@ -13,7 +68,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "15-39",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_forest"
@@ -25,6 +80,14 @@
         "biomes": [
           "#cobblemon:is_cold"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
+          ]
+        }
       }
     }
   ]

@@ -1,6 +1,6 @@
 {
   "type": "cobblemon:simple_pokedex_def",
-  "sortOrder": 60,
+  "sortOrder": 72,
   "id": "gravelmon:amavi",
   "entries": [
     "cobblemon:ankleaf",
@@ -68,14 +68,11 @@
     "cobblemon:centree",
     "cobblemon:cubbly",
     "cobblemon:koalove",
-    "cobblemon:larvly",
-    "cobblemon:purrty",
-    "cobblemon:papillo",
     "cobblemon:tendurse",
     "cobblemon:charmacist",
     "cobblemon:poxic",
     "cobblemon:veyerus",
-    "cobblemon:kiwee",
+    "cobblemon:kivolt",
     "cobblemon:skylark",
     "cobblemon:hocus",
     "cobblemon:pocus",

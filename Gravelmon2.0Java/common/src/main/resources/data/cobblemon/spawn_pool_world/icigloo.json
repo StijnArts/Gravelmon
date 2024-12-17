@@ -13,14 +13,22 @@
       "context": "grounded",
       "bucket": "common",
       "level": "41-57",
-      "weight": 0.4,
+      "weight": 0.6000000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"
         ],
-        "isRaining": true,
         "minSkyLight": 8,
-        "maxSkyLight": 15
+        "maxSkyLight": 15,
+        "isRaining": true
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_ice"
+          ]
+        }
       }
     }
   ]

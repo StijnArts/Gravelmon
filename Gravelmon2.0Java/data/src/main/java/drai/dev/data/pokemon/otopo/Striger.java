@@ -24,7 +24,7 @@ public class Striger extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD,EggGroup.WATER_1),
                 List.of("Striger has a wild side. It finishes opponents by biting them with their enormous fangs after launching violent slashes. Its untamed nature can only be tamed by the most powerful of trainers."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

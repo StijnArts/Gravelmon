@@ -52,7 +52,6 @@ public class NidorimeSummerCoat extends Pokemon {
                         0.3, 0.3,
                 List.of()
                 );
-        this.setPortraitXYZ(0,1.8,0);
         setLangFileName("Nidorime");
     }
 }

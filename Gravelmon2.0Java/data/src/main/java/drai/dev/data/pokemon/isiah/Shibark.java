@@ -2,6 +2,7 @@ package drai.dev.data.pokemon.isiah;
 
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+
 import java.util.*;
 
 public class Shibark extends drai.dev.data.pokemon.Pokemon {
@@ -42,7 +43,7 @@ public class Shibark extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LEAF_STORM,39)),
                 List.of(Label.ISIAH),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 40, 0.9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

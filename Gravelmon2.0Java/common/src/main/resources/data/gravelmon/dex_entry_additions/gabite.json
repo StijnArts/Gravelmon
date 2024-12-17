@@ -1,0 +1,47 @@
+{
+  "entryId": "cobblemon:gabite",
+  "forms": [
+    {
+      "displayForm": "Aromian",
+      "unlockForms": [
+        "Aromian"
+      ]
+    },
+    {
+      "displayForm": "Palmian",
+      "unlockForms": [
+        "Palmian"
+      ]
+    },
+    {
+      "displayForm": "Raianian",
+      "unlockForms": [
+        "Raianian"
+      ]
+    },
+    {
+      "displayForm": "Trizoran",
+      "unlockForms": [
+        "Trizoran"
+      ]
+    },
+    {
+      "displayForm": "Norse",
+      "unlockForms": [
+        "Norse"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
+}

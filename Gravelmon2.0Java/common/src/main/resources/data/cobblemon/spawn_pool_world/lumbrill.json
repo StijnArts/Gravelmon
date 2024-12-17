@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "35-58",
-      "weight": 0.5,
+      "weight": 0.75,
       "condition": {
         "biomes": [
           "#cobblemon:is_lush",
@@ -22,6 +22,14 @@
         ],
         "minSkyLight": 0,
         "maxSkyLight": 7
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
+          ]
+        }
       }
     }
   ]

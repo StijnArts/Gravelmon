@@ -13,19 +13,27 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "13-32",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_forest"
         ],
-        "timeRange": "night",
         "minSkyLight": 8,
-        "maxSkyLight": 15
+        "maxSkyLight": 15,
+        "timeRange": "night"
       },
       "anticondition": {
         "biomes": [
           "#cobblemon:is_jungle"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:hay_block"
+          ]
+        }
       }
     }
   ]

@@ -13,19 +13,27 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "27-35",
-      "weight": 3.0,
+      "weight": 4.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_beach"
         ],
-        "timeRange": "night",
         "minSkyLight": 8,
-        "maxSkyLight": 15
+        "maxSkyLight": 15,
+        "timeRange": "night"
       },
       "anticondition": {
         "biomes": [
-          "#cobblemon:has_season/summer"
+          "#cobblemon:is_jungle"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:black_wool"
+          ]
+        }
       }
     }
   ]

@@ -4,6 +4,33 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epoch_scraggy-01",
+      "pokemon": "scraggy epoch",
+      "presets": [
+        "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "11-44",
+      "weight": 6.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:note_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "delta_scraggy-01",
       "pokemon": "scraggy delta",
       "presets": [
@@ -13,7 +40,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "5-43",
-      "weight": 3.0,
+      "weight": 4.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_lush"
@@ -25,6 +52,14 @@
         "biomes": [
           "#cobblemon:is_cold"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
       }
     }
   ]

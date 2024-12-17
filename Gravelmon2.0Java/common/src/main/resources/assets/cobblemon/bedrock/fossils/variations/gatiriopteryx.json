@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:gatiriopteryx",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:embryo_gatiriopteryx",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/gatiriopteryx.png",
+      "layers": []
+    }
+  ]
+}

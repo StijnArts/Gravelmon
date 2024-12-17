@@ -4,6 +4,60 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epoch_cherrim-01",
+      "pokemon": "cherrim epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "25-43",
+      "weight": 0.6000000000000001,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "africanusan_cherrim-01",
+      "pokemon": "cherrim africanusan",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "25-42",
+      "weight": 1.2000000000000002,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "novran_cherrim-01",
       "pokemon": "cherrim novran",
       "presets": [
@@ -13,13 +67,21 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "34-49",
-      "weight": 0.54,
+      "weight": 0.81,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
       }
     }
   ]

@@ -1,0 +1,98 @@
+{
+  "name": "Merminni",
+  "primaryType": "water",
+  "secondaryType": "fairy",
+  "catchRate": 150,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.046875,
+  "cannotDynamax": false,
+  "abilities": [
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": true,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 52,
+    "attack": 28,
+    "defence": 45,
+    "special_attack": 77,
+    "special_defence": 50,
+    "speed": 45
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:watergun",
+    "1:disarmingvoice"
+  ],
+  "labels": [
+    "aldao",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.merminni.desc"
+  ],
+  "height": 10,
+  "weight": 0,
+  "aspects": [],
+  "evolutions": [
+    {
+      "id": "merminni_mariquinn",
+      "variant": "item_interact",
+      "result": "mariquinn",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:shiny_stone",
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 3823,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 1.125,
+    "height": 1.125,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
+}

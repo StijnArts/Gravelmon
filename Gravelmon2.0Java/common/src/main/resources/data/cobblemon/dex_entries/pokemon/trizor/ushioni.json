@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ushioni",
+  "speciesId": "cobblemon:ushioni",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

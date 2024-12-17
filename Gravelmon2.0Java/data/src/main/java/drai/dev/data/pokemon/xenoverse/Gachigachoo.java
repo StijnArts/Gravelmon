@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.xenoverse;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -73,9 +74,16 @@ public class Gachigachoo extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.3, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
-        this.setModeled(true);
+
+
         this.setBaseScale(1);
         this.setHitbox(1,1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.7f, new Vector3(0, -.65, 0));
+        getPosingFileData().setProfileData( .9f, new Vector3(0, .5, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().clearAnimations()
+        ));
     }
 }

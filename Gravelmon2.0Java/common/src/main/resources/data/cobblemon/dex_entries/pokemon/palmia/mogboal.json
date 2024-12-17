@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:mogboal",
+  "speciesId": "cobblemon:mogboal",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

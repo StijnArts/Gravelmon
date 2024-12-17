@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lacry",
+  "speciesId": "cobblemon:lacry",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

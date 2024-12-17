@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:clawkilno",
+  "speciesId": "cobblemon:clawkilno",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

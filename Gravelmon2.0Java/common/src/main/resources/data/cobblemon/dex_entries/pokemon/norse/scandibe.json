@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:scandibe",
+  "speciesId": "cobblemon:scandibe",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

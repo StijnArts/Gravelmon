@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "arganon-01",
+      "pokemon": "arganon",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "rare",
+      "level": "41-59",
+      "weight": 0.6000000000000001,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    }
+  ]
+}

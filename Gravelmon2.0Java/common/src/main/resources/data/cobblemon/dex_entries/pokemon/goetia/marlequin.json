@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:marlequin",
+  "speciesId": "cobblemon:marlequin",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

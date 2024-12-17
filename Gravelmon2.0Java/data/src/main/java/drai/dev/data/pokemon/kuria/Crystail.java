@@ -24,7 +24,7 @@ public class Crystail extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("A strange creature only talked about in ancient legends of the Kuria region. They roam the halls of crystal power, and swarm any invaders they can find in hopes of keeping their secrets safe."),
                 List.of(new EvolutionEntry("glacyo", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.IRON_DEFENSE.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.IRON_DEFENSE.getName())))),
                 List.of(      new MoveLearnSetEntry(Move.PEBBLE_SHOT, 1),
                         new MoveLearnSetEntry(Move.GROWL, 1),
                         new MoveLearnSetEntry(Move.TACKLE, 3),

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:axolaki",
+  "speciesId": "cobblemon:axolaki",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

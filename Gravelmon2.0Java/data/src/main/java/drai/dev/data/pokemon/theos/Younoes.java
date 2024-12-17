@@ -24,7 +24,7 @@ public class Younoes extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Younoes can pass through walls allowing them to sneak into homes and scare the people living there, though they have never been recorded harming anybody."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

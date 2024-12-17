@@ -13,13 +13,21 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "13-34",
-      "weight": 4.0,
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_mountain",
           "#cobblemon:is_freezing",
           "#cobblemon:is_volvanic"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
       }
     }
   ]

@@ -24,7 +24,7 @@ public class Molore extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD),
                 List.of("Molore is known for its impressive burrowing skills, which it uses to navigate underground tunnels and create its own burrows. Its back is covered in spikey, electrically charged fur that can stun predators, making it difficult for them to attack. Despite its clumsy appearance, Molore is surprisingly quick and nimble when it needs to be, using its sharp claws to dig through soil and rocks."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OLYSOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

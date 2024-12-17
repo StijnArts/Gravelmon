@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:fairlion",
+  "speciesId": "cobblemon:fairlion",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

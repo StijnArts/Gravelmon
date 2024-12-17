@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lala",
+  "speciesId": "cobblemon:lala",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

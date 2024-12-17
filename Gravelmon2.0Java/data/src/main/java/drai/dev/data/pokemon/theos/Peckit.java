@@ -24,7 +24,7 @@ public class Peckit extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Peckit cannot fly but can jump quite high. Their beak is quite strong, using it to peck through the hard ground to find hiding Sqworm."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

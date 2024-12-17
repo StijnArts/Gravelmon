@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:barbaroca",
+  "speciesId": "cobblemon:barbaroca",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

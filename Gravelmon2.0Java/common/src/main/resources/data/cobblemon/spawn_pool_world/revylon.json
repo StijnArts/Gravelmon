@@ -13,11 +13,19 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "50-70",
-      "weight": 0.05,
+      "weight": 0.07500000000000001,
       "condition": {
         "biomes": [
           "#minecraft:is_end"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_mud"
+          ]
+        }
       }
     }
   ]

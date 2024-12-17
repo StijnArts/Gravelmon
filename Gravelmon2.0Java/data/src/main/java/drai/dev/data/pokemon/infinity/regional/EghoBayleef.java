@@ -120,6 +120,5 @@ public class EghoBayleef extends Pokemon {
                 0.34, 0.3,
                 List.of());
         this.setLangFileName("Bayleef");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

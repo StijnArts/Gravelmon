@@ -2,6 +2,7 @@ package drai.dev.data.pokemon.ferroa;
 
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+
 import java.util.*;
 
 public class Channichill extends drai.dev.data.pokemon.Pokemon {
@@ -83,8 +84,8 @@ public class Channichill extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 37, 3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_COLD)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NEAR_WATER),
                 0.28, 0.3,

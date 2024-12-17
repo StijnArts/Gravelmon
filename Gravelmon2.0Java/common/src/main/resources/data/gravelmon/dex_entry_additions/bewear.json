@@ -2,6 +2,12 @@
   "entryId": "cobblemon:bewear",
   "forms": [
     {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
       "displayForm": "Mystic",
       "unlockForms": [
         "Mystic"

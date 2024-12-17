@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:tenkoi",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:embryo_tenkoi",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/tenkoi.png",
+      "layers": []
+    }
+  ]
+}

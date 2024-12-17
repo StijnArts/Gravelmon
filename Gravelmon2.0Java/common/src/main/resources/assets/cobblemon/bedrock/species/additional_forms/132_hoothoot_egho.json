@@ -1,6 +1,6 @@
 {
   "species": "cobblemon:hoothoot",
-  "order": 11,
+  "order": 132,
   "variations": [
     {
       "aspects": [
@@ -11,10 +11,25 @@
       "texture": "cobblemon:textures/pokemon/generation2/eghohoothoot/eghohoothoot.png",
       "layers": [
         {
-          "name": "glow",
-          "texture": "cobblemon:textures/pokemon/generation2/eghohoothoot/eghohoothoot_emissive.png",
-          "emissive": true,
-          "translucent": true
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
         }
       ]
     },
@@ -28,10 +43,25 @@
       "texture": "cobblemon:textures/pokemon/generation2/eghohoothoot/eghohoothoot_shiny.png",
       "layers": [
         {
-          "name": "glow",
-          "texture": "cobblemon:textures/pokemon/generation2/eghohoothoot/eghohoothoot_shiny_emissive.png",
-          "emissive": true,
-          "translucent": true
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
         }
       ]
     }

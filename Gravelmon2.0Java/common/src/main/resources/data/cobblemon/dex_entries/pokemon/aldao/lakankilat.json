@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lakankilat",
+  "speciesId": "cobblemon:lakankilat",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

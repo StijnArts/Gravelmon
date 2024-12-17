@@ -12,7 +12,7 @@ import java.util.*;
 public class PokedexEntryAdditionsWriter {
     public static void writeAdditions(String resourcesDir) {
         String dir = resourcesDir + "\\data\\gravelmon\\dex_entry_additions\\";
-        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
         Pokemon.ADDITIONAL_FORMS.entrySet().forEach(mapEntry -> {
             try {
                 Files.createDirectories(new File(dir).toPath());

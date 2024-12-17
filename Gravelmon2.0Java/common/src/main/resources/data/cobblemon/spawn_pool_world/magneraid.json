@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "magneraid-01",
+      "pokemon": "magneraid",
+      "presets": [
+        "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "30-51",
+      "weight": 0.8999999999999999,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "cobblemon:healing_machine"
+          ]
+        }
+      }
+    }
+  ]
+}

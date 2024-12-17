@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Ferocidile extends drai.dev.data.pokemon.Pokemon {
-    public Ferocidile() {
+    public Ferocidile(Stats stats) {
         super("Ferocidile",
                 Type.WATER, Type.DARK,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,
@@ -24,7 +19,7 @@ public class Ferocidile extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MONSTER),
                 List.of("It can shatter a tree in half with its mouth. It will not release its prey once clasped."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

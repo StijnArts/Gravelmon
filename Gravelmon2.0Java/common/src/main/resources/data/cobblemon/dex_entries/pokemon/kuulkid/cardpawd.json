@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:cardpawd",
+  "speciesId": "cobblemon:cardpawd",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

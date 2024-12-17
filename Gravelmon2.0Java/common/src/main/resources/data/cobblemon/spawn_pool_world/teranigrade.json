@@ -13,13 +13,21 @@
       "context": "submerged",
       "bucket": "rare",
       "level": "34-43",
-      "weight": 0.1,
+      "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_temperate"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     },
     {
@@ -32,13 +40,21 @@
       "context": "submerged",
       "bucket": "rare",
       "level": "34-43",
-      "weight": 0.1,
+      "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_temperate"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     },
     {
@@ -51,13 +67,21 @@
       "context": "submerged",
       "bucket": "rare",
       "level": "34-43",
-      "weight": 0.1,
+      "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_temperate"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     },
     {
@@ -70,13 +94,21 @@
       "context": "submerged",
       "bucket": "rare",
       "level": "34-43",
-      "weight": 0.1,
+      "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_temperate"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     }
   ]

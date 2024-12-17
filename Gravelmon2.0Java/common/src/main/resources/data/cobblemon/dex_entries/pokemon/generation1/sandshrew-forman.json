@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:sandshrew-forman",
+  "speciesId": "cobblemon:sandshrew",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Forman",
+      "unlockForms": [
+        "Forman"
+      ]
+    }
+  ],
+  "variations": []
+}

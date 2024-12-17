@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:glaciqueen",
+  "speciesId": "cobblemon:glaciqueen",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:papilitite",
+  "speciesId": "cobblemon:papilitite",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

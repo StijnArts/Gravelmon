@@ -24,7 +24,7 @@ public class Canoling extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Canoling will roll around, finding anything it can to launch out of the cannon on its head. They are often used for fireworks."),
                 List.of(new EvolutionEntry("canoblast", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.IRON_DEFENSE.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.IRON_DEFENSE.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.BIDE,1),
                         new MoveLearnSetEntry(Move.ROCK_SMASH,8),

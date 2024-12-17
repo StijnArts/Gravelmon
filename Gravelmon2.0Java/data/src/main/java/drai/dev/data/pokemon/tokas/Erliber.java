@@ -24,7 +24,7 @@ public class Erliber extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Both mouths of erliber nourish the bird in a symbiotic relationship developed when a baby erliber falls from its nest."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TOKAS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

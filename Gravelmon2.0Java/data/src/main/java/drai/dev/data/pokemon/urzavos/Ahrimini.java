@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Ahrimini extends drai.dev.data.pokemon.Pokemon {
-    public Ahrimini() {
+    public Ahrimini(Stats stats) {
         super("Ahrimini",
                 Type.DARK, Type.FLYING,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.TINTED_LENS,
                 7, 68,
                 new Stats(0,0,0,0,0,0), 200,
@@ -24,7 +19,7 @@ public class Ahrimini extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FLYING,EggGroup.MONSTER),
                 List.of("Ahrimini often paralyze their prey with a striking glare before swooping in to attack them with its small, sharp claws."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.URZAVOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

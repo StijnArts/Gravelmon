@@ -12,15 +12,23 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "3-22",
-      "weight": 8.0,
+      "level": "5-31",
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"
         ],
-        "timeRange": "night",
         "minSkyLight": 8,
-        "maxSkyLight": 15
+        "maxSkyLight": 15,
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
       }
     }
   ]

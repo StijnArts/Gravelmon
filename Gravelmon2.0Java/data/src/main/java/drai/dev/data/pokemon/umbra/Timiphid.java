@@ -25,7 +25,7 @@ public class Timiphid extends Pokemon {
                 50, List.of(EggGroup.BUG, EggGroup.WATER_1),
                 List.of("Be careful when approaching Skittail. While they are quite timid, they may caller for help from something bigger."),
                 List.of(new EvolutionEntry("chromite", EvolutionType.TRADE, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:metal_coat\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:metal_coat")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,6),
@@ -63,8 +63,7 @@ public class Timiphid extends Pokemon {
                 List.of(Label.UMBRA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 2, 15, 8.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_GRASSLAND)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_GRASSLAND))
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_OCEAN))),
                 List.of(SpawnPreset.FRESHWATER),
                 0.22, 0.3,

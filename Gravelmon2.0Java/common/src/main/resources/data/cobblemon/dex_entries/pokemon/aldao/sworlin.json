@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:sworlin",
+  "speciesId": "cobblemon:sworlin",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

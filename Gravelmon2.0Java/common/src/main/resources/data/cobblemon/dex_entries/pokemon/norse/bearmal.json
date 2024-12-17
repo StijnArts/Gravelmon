@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:bearmal",
+  "speciesId": "cobblemon:bearmal",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

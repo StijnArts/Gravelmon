@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:froskatrice",
+  "speciesId": "cobblemon:froskatrice",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -13,7 +13,7 @@
       "context": "submerged",
       "bucket": "uncommon",
       "level": "33-49",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_river"
@@ -26,6 +26,14 @@
           "#cobblemon:is_arid",
           "#cobblemon:is_cold"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     }
   ]

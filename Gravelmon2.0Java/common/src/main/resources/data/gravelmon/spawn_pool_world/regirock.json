@@ -13,11 +13,19 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "69-80",
-      "weight": 3.0E-5,
+      "weight": 4.5E-5,
       "condition": {
         "biomes": [
           "#cobblemon:is_sandy"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_mud"
+          ]
+        }
       }
     }
   ]

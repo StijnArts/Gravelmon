@@ -2,6 +2,24 @@
   "entryId": "cobblemon:dragonair",
   "forms": [
     {
+      "displayForm": "Mahalian",
+      "unlockForms": [
+        "Mahalian"
+      ]
+    },
+    {
+      "displayForm": "Forman",
+      "unlockForms": [
+        "Forman"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
       "displayForm": "Norheiman",
       "unlockForms": [
         "Norheiman"
@@ -11,6 +29,12 @@
       "displayForm": "Delta",
       "unlockForms": [
         "Delta"
+      ]
+    },
+    {
+      "displayForm": "Ayreian",
+      "unlockForms": [
+        "Ayreian"
       ]
     }
   ]

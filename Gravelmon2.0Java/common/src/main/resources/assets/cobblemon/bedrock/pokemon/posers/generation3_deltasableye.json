@@ -1,39 +1,50 @@
 {
-    "head": "head",
-    "portraitScale": 2.1,
-    "portraitTranslation": [-0.1, -0.5, 0],
-    "profileScale": 0.95,
-    "profileTranslation": [0, 0.4, 0],
-    "poses": {
-      "standing": {
-        "poseName": "standing",
-        "transformTicks": 10,
-        "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
-        "animations": [
-          "look",
-          "bedrock(deltasableye, ground_idle)"
-        ]
-      },
-      "walking": {
-        "poseName": "walking",
-        "transformTicks": 10,
-        "poseTypes": ["WALK"],
-        "animations": [
-          "look",
-          "bedrock(deltasableye, ground_walk)"
-        ]
-	},
-	  "shoulder_left":{
-        "poseName":"shoulder_left",
-        "transformTicks": 10,
-        "poseTypes": [ "SHOULDER_LEFT" ],
-        "animations": [ "bedrock(deltasableye, shoulder_left)" ]
-		},
-	  "shoulder_right":{
-        "poseName":"shoulder_right",
-        "transformTicks": 10,
-        "poseTypes": [ "SHOULDER_RIGHT" ],
-        "animations": [ "bedrock(deltasableye, shoulder_right)" ]
-		}
+  "head": "head",
+  "portraitScale": 2.0999999046325684,
+  "portraitTranslation": [
+    -0.1,
+    -0.5,
+    0.0
+  ],
+  "profileScale": 0.949999988079071,
+  "profileTranslation": [
+    0.0,
+    0.4,
+    0.0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "look",
+        "bedrock(deltasableye, ground_idle)"
+      ],
+      "transformTicks": 10,
+      "allPoseTypes": true,
+      "quirks": []
+    },
+    "walking": {
+      "poseName": "walking",
+      "animations": [
+        "look",
+        "bedrock(deltasableye, ground_walk)"
+      ],
+      "poseTypes": [
+        "WALK"
+      ],
+      "transformTicks": 10,
+      "quirks": []
+    },
+    "shoulder_left": {
+      "poseName": "shoulder_left",
+      "animations": [
+        "bedrock(deltasableye, shoulder)"
+      ],
+      "poseTypes": [
+        "SHOULDER_LEFT"
+      ],
+      "transformTicks": 10,
+      "quirks": []
     }
   }
+}

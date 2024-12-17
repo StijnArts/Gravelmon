@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:pternair",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:embryo_pternair",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/pternair.png",
+      "layers": []
+    }
+  ]
+}

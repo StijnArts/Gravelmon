@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:comenoid",
+  "speciesId": "cobblemon:comenoid",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

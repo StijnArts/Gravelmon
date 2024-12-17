@@ -24,7 +24,7 @@ public class Mafreozee extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MINERAL,EggGroup.HUMAN_LIKE),
                 List.of("Mafreozee can bend even the thickest ice with their mind, creating intricate and beautiful statues from them. They often accompany sculptors and love to express their thoughts through their art rather than their 'words.'"),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ISIAH),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

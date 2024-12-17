@@ -24,7 +24,7 @@ public class Elegantus extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Elegantus constantly release pheromones attracting many Shroolie. These shroolie will mindlessly follow the commands of their leader."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

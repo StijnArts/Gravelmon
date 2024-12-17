@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:branceros",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:embryo_branceros",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/branceros.png",
+      "layers": []
+    }
+  ]
+}

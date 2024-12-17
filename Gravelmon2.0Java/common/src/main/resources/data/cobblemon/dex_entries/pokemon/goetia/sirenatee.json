@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:sirenatee",
+  "speciesId": "cobblemon:sirenatee",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

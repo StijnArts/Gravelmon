@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:dauspector",
+  "speciesId": "cobblemon:dauspector",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

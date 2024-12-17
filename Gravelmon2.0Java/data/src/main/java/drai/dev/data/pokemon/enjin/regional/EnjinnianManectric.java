@@ -23,7 +23,8 @@ public class EnjinnianManectric extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It stimulates its own muscles with electricity, so it can move quickly. It eases its soreness with electricity, too, so it can recover quickly as well."),
-                List.of(),
+                List.of(new EvolutionEntry("lunectric", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:moon_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.FIRE_FANG,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),
@@ -92,9 +93,10 @@ public class EnjinnianManectric extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.EERIE_IMPULSE,"tm")                        ),
                 List.of(Label.ENJIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 26, 41, 1.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

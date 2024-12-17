@@ -13,12 +13,20 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "32-47",
-      "weight": 0.4,
+      "weight": 0.6000000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"
         ],
         "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:cauldron"
+          ]
+        }
       }
     }
   ]

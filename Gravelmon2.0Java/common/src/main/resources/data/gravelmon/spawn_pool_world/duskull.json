@@ -4,8 +4,33 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fligian_duskull-01",
-      "pokemon": "duskull fligian",
+      "id": "epoch_duskull-01",
+      "pokemon": "duskull epoch",
+      "presets": [
+        "lava_surface"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "uncommon",
+      "level": "9-29",
+      "weight": 6.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "avalossian_duskull-01",
+      "pokemon": "duskull avalossian",
       "presets": [
         "underwater"
       ],
@@ -13,12 +38,20 @@
       "context": "submerged",
       "bucket": "uncommon",
       "level": "3-22",
-      "weight": 3.8,
+      "weight": 5.699999999999999,
       "condition": {
         "biomes": [
           "#minecraft:is_deep_ocean"
         ],
         "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
+          ]
+        }
       }
     }
   ]

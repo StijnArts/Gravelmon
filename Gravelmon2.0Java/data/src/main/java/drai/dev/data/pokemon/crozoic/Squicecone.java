@@ -34,7 +34,7 @@ public class Squicecone extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLIP_TURN,1)                        ),
                 List.of(Label.CROZOIC),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 23, 47, 1.1, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 35, 54, .6, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN, Biome.IS_FROZEN_OCEAN)  ),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

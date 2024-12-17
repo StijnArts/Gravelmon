@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.vega;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -85,6 +85,6 @@ public class Suripitto extends Pokemon {
                 List.of());
         setCanFly(true);
         addAdditionalEvolution("hypno", new EvolutionEntry("suripitto", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.PSYSTRIKE.getName()+"\"")))	);
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.PSYSTRIKE.getName())))	);
     }
 }

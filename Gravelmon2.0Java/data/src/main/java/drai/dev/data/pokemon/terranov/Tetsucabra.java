@@ -24,7 +24,7 @@ public class Tetsucabra extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Amphibians with powerful hind legs allowing them to leap up even the steepest of slopes. The terrifying tusks on their enormous jaws allow them to excavate deep trenches, effectively trapping their prey."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

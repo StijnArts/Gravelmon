@@ -4,6 +4,68 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epoch_numel-01",
+      "pokemon": "numel epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "9-32",
+      "weight": 6.0,
+      "condition": {
+        "biomes": [
+          "minecraft:cherry_grove",
+          "#cobblemon:is_mountain"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_numel-01",
+      "pokemon": "numel epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "8-35",
+      "weight": 6.449999999999999,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_plains",
+          "#cobblemon:is_plateau"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_ice"
+          ]
+        }
+      }
+    },
+    {
       "id": "norheiman_numel-01",
       "pokemon": "numel norheiman",
       "presets": [
@@ -13,7 +75,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "6-31",
-      "weight": 5.4,
+      "weight": 8.100000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"
@@ -25,6 +87,14 @@
         "biomes": [
           "#cobblemon:is_forest"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_mud"
+          ]
+        }
       }
     },
     {
@@ -37,7 +107,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "3-22",
-      "weight": 12.0,
+      "weight": 18.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"
@@ -45,6 +115,14 @@
         "isRaining": true,
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:cauldron"
+          ]
+        }
       }
     },
     {
@@ -57,13 +135,21 @@
       "context": "grounded",
       "bucket": "common",
       "level": "12-30",
-      "weight": 4.0,
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_desert"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     },
     {
@@ -76,13 +162,21 @@
       "context": "grounded",
       "bucket": "common",
       "level": "12-30",
-      "weight": 4.0,
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_savanna"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
       }
     }
   ]

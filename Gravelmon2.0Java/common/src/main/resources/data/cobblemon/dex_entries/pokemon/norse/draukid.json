@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:draukid",
+  "speciesId": "cobblemon:draukid",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:kaelpie",
+  "speciesId": "cobblemon:kaelpie",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

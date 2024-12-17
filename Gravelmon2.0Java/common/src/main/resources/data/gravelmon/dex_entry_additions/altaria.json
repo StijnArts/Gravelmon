@@ -2,6 +2,18 @@
   "entryId": "cobblemon:altaria",
   "forms": [
     {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
       "displayForm": "Varitasian",
       "unlockForms": [
         "Varitasian"

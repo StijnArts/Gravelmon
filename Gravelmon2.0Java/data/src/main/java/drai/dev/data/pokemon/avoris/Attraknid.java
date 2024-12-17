@@ -5,11 +5,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
-
-import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
-import java.util.*;
-
 public class Attraknid extends drai.dev.data.pokemon.Pokemon {
     public Attraknid() {
         super("Attraknid",
@@ -30,7 +25,7 @@ public class Attraknid extends drai.dev.data.pokemon.Pokemon {
                 List.of("Attraknid's webs are coated with an irresistible sweet scent which lures and traps prey. The aroma hypnotizes their prey into becoming their helper."),
                 List.of(new EvolutionEntry("malevoness", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "night")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.SCRATCH,1),
@@ -54,7 +49,8 @@ public class Attraknid extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.AVORIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

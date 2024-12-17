@@ -8,7 +8,7 @@ import java.util.*;
 public class Scroul extends drai.dev.data.pokemon.Pokemon {
     public Scroul() {
         super("Scroul",
-                Type.GRASS, Type.GHOST,
+                Type.GRASS,Type.GHOST,
                 new Stats(50,
                         40,
                         60,

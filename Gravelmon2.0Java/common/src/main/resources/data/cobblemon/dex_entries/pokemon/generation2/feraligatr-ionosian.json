@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:feraligatr-ionosian",
+  "speciesId": "cobblemon:feraligatr",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ionosian",
+      "unlockForms": [
+        "Ionosian"
+      ]
+    }
+  ],
+  "variations": []
+}

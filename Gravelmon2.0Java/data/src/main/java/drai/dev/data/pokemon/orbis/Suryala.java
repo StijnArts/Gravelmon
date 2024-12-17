@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Suryala extends drai.dev.data.pokemon.Pokemon {
-    public Suryala() {
+    public Suryala(Stats stats) {
         super("Suryala",
                 Type.GRASS, Type.FIRE,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 13, 150,
                 new Stats(1,0,0,1,0,0), 60,
@@ -24,7 +19,7 @@ public class Suryala extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.GRASS),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ORBIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

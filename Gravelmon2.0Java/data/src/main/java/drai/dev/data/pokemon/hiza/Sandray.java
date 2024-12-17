@@ -70,7 +70,7 @@ public class Sandray extends drai.dev.data.pokemon.Pokemon {
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 3, 22, 5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_COAST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER))),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_TAIGA))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

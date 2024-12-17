@@ -1,20 +1,38 @@
 {
   "species": "cobblemon:gardevoir",
-  "order": 9,
+  "order": 133,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:deltagardevoir.geo",
+      "model": "cobblemon:generation3_deltagardevoir.geo",
       "poser": "cobblemon:generation3_deltagardevoir",
-      "texture": "cobblemon:textures/pokemon/generation3/deltagardevoir.png",
+      "texture": "cobblemon:textures/pokemon/generation3/deltagardevoir/deltagardevoir.png",
       "layers": [
         {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
           "name": "glow",
-          "texture": "cobblemon:textures/pokemon/generation3/deltagardevoir_emissive.png",
           "emissive": true,
-          "translucent": true
+          "translucent": true,
+          "texture": "cobblemon:textures/pokemon/generation3/deltagardevoir/deltagardevoir_emissive.png"
         }
       ]
     },
@@ -23,15 +41,33 @@
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:deltagardevoir.geo",
+      "model": "cobblemon:generation3_deltagardevoir.geo",
       "poser": "cobblemon:generation3_deltagardevoir",
-      "texture": "cobblemon:textures/pokemon/generation3/deltagardevoir_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation3/deltagardevoir/deltagardevoir_shiny.png",
       "layers": [
         {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
           "name": "glow",
-          "texture": "cobblemon:textures/pokemon/generation3/deltagardevoir_shiny_emissive.png",
           "emissive": true,
-          "translucent": true
+          "translucent": true,
+          "texture": "cobblemon:textures/pokemon/generation3/deltagardevoir/deltagardevoir_emissive_shiny.png"
         }
       ]
     }

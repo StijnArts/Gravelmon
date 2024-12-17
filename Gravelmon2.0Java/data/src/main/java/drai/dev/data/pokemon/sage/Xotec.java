@@ -1,9 +1,8 @@
 package drai.dev.data.pokemon.sage;
 
-import drai.dev.data.pokemon.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,11 +18,9 @@ public class Xotec extends Pokemon {
                 270, ExperienceGroup.SLOW,
                 70,
                 300, List.of(EggGroup.UNDISCOVERED),
-                //TODO check back for pokedex entry
                 List.of(""),
                 List.of(),
                 List.of(
-                        //TODO check back for signature move
                         new MoveLearnSetEntry(Move.PAY_DAY,1),
                         new MoveLearnSetEntry(Move.HEAL_BELL,1),
                         new MoveLearnSetEntry(Move.POUND,1),
@@ -99,6 +96,6 @@ public class Xotec extends Pokemon {
                 List.of(SpawnPreset.JUNGLE_PYRAMID),
                 0.18, 0.5,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

@@ -1,0 +1,23 @@
+{
+  "entryId": "cobblemon:fennekin",
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Vesitan",
+      "unlockForms": [
+        "Vesitan"
+      ]
+    },
+    {
+      "displayForm": "Ayreian",
+      "unlockForms": [
+        "Ayreian"
+      ]
+    }
+  ]
+}

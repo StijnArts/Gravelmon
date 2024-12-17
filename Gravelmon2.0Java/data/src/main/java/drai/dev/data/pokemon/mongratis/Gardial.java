@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Gardial extends drai.dev.data.pokemon.Pokemon {
-    public Gardial() {
+    public Gardial(Stats stats) {
         super("Gardial",
                 Type.PSYCHIC, Type.FIRE,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,
@@ -24,7 +19,7 @@ public class Gardial extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Travelers respectful of the forest may happen upon campfires made from Gardial's antlers. However, heedless travelers will find their fires repeatedly snuffed out."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

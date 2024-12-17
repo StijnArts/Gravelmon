@@ -13,11 +13,19 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "46-59",
-      "weight": 6.0,
+      "weight": 9.0,
       "condition": {
         "maxY": -40,
         "minSkyLight": 0,
         "maxSkyLight": 7
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
       }
     }
   ]

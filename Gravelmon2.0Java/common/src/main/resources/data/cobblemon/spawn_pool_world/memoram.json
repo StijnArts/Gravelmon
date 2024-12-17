@@ -13,14 +13,22 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "17-43",
-      "weight": 0.7,
+      "weight": 1.0499999999999998,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical"
         ],
-        "timeRange": "night",
         "minSkyLight": 8,
-        "maxSkyLight": 15
+        "maxSkyLight": 15,
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:amethyst_block"
+          ]
+        }
       }
     }
   ]

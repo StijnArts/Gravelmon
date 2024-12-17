@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:snagmire",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:embryo_snagmire",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/snagmire.png",
+      "layers": []
+    }
+  ]
+}

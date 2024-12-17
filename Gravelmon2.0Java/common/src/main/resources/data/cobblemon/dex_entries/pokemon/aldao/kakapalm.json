@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:kakapalm",
+  "speciesId": "cobblemon:kakapalm",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

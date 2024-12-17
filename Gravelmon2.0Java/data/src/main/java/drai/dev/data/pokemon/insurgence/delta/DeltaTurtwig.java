@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -91,7 +91,7 @@ public class DeltaTurtwig extends Pokemon {
                         ),
                 List.of(Label.GEN4,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN, Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD, Biome.IS_TEMPERATE))),
@@ -101,6 +101,5 @@ public class DeltaTurtwig extends Pokemon {
         this.setLangFileName("Turtwig");
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

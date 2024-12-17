@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:psyduck-forman",
+  "speciesId": "cobblemon:psyduck",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Forman",
+      "unlockForms": [
+        "Forman"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -95,6 +95,6 @@ public class EghoMarill extends Pokemon {
                 0.22, 0.3,
                 List.of());
         this.setLangFileName("Marill");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

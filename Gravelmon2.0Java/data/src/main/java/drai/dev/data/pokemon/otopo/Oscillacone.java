@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Oscillacone extends drai.dev.data.pokemon.Pokemon {
-    public Oscillacone() {
+    public Oscillacone(Stats stats) {
         super("Oscillacone",
                 Type.ELECTRIC, Type.STEEL,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,
@@ -24,7 +19,7 @@ public class Oscillacone extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Its ossicones serve as an electrical conduit. When it eats from trees, it struggles to keep the electricity contained, which might cause other pokemon to get shocked. In Otopo's savannah regions, Zapraffe is utilised as a riding Pokemon."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

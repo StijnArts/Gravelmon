@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -22,7 +22,7 @@ public class DeltaSnorunt extends Pokemon {
                 List.of(new EvolutionEntry("deltaglalie", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42"))),
                         new EvolutionEntry("deltafroslass", EvolutionType.ITEM_INTERACT, false, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY, "\"gender=female\"")),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY, "gender=female")),
                                 List.of(), "cobblemon:dawn_stone")
                         ),
                 List.of(
@@ -100,6 +100,5 @@ public class DeltaSnorunt extends Pokemon {
                 0.25, 0.3,
                 List.of());
         this.setLangFileName("Snorunt");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

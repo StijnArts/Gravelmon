@@ -17,18 +17,18 @@ public class Crabutan extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.HYPER_CUTTER,Ability.RATTLED), Ability.GORILLA_TACTICS,
                 0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 70,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MASTENIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 42, 56, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COAST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

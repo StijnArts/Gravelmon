@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:owsno",
+  "speciesId": "cobblemon:owsno",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

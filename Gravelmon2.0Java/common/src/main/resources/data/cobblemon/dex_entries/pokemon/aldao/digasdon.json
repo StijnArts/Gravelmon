@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:digasdon",
+  "speciesId": "cobblemon:digasdon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

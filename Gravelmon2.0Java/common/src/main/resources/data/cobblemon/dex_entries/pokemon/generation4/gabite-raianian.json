@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gabite-raianian",
+  "speciesId": "cobblemon:gabite",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Raianian",
+      "unlockForms": [
+        "Raianian"
+      ]
+    }
+  ],
+  "variations": []
+}

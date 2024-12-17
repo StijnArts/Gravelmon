@@ -2,6 +2,7 @@ package drai.dev.data.pokemon.atlas;
 
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+
 import java.util.*;
 
 public class Maidnite extends drai.dev.data.pokemon.Pokemon {
@@ -101,7 +102,6 @@ public class Maidnite extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 45, 1, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_MAGICAL)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -4,6 +4,32 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epoch_gorebyss-01",
+      "pokemon": "gorebyss epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "32-53",
+      "weight": 1.0499999999999998,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ],
+        "maxY": 38
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
       "id": "novran_gorebyss-01",
       "pokemon": "gorebyss novran",
       "presets": [
@@ -13,13 +39,21 @@
       "context": "submerged",
       "bucket": "rare",
       "level": "30-49",
-      "weight": 0.5,
+      "weight": 0.75,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     },
     {
@@ -32,12 +66,22 @@
       "context": "submerged",
       "bucket": "common",
       "level": "30-58",
-      "weight": 0.8,
+      "weight": 1.2000000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical"
         ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "day"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:raw_gold_block"
+          ]
+        }
       }
     }
   ]

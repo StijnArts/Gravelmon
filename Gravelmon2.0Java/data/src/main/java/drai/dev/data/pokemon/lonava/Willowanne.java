@@ -48,8 +48,8 @@ public class Willowanne extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 29, 54, 3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER,Biome.IS_WINTER,Biome.IS_SPRING))),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE,Biome.IS_WINTER,Biome.IS_SPRING))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:eaglory",
+  "speciesId": "cobblemon:eaglory",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

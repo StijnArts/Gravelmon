@@ -1,0 +1,11 @@
+{
+  "entryId": "cobblemon:rowlet",
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
+}

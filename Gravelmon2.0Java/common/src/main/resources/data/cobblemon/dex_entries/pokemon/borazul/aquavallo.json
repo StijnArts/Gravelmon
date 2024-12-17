@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:aquavallo",
+  "speciesId": "cobblemon:aquavallo",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

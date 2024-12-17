@@ -1,9 +1,8 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
-import drai.dev.data.pokemon.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -21,7 +20,7 @@ public class DeltaCombee extends Pokemon {
                 50, List.of(EggGroup.DELTA),
                 List.of("A Delta Species discovered by LunarDusk. The middle body hosts a reactor; it uses this to power up its Fire-type moves."),
                 List.of(new EvolutionEntry("deltavespiquen", EvolutionType.ITEM_INTERACT, false, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY, "\"gender=female\""),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY, "gender=female"),
                                 new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL, "21")))),
                 List.of(
                         new MoveLearnSetEntry(Move.METAL_SOUND,1),
@@ -43,6 +42,5 @@ public class DeltaCombee extends Pokemon {
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Combee");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

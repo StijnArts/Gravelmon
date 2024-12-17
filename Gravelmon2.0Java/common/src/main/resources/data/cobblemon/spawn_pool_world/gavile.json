@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "3-22",
-      "weight": 5.0,
+      "weight": 7.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_arid"
@@ -26,6 +26,14 @@
         "biomes": [
           "#cobblemon:is_cave"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:black_wool"
+          ]
+        }
       }
     }
   ]

@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.sage;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -20,7 +20,7 @@ public class Minarac extends Pokemon {
                 39, List.of(EggGroup.BUG),
                 List.of("Minarac digs elaborate tunnels to confuse its prey. Its constant search for gemstones also makes it a valuable companion for treasure-hunters."),
                 List.of(new EvolutionEntry("trenchula", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.DIG.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.DIG.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.RAPID_SPIN,1),
                         new MoveLearnSetEntry(Move.STRING_SHOT,1),
@@ -103,6 +103,6 @@ public class Minarac extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.2, 0.5,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

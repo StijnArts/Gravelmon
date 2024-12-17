@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.radicalred;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -61,12 +61,12 @@ public class SeviianNymble extends Pokemon {
                 List.of(Label.RADICAL_RED, Label.GEN9),
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.COMMON, 6, 36, 2.0, List.of(
-                    new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO))
+                    new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Nymble");
-        this.setPortraitXYZ(0.1, 2.0, 0.0);
     }
 }

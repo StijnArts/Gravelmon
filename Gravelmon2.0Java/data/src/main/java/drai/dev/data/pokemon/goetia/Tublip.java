@@ -6,17 +6,12 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Tublip extends drai.dev.data.pokemon.Pokemon {
-    public Tublip() {
+    public Tublip(Stats stats) {
         super("Tublip",
                 Type.POISON, Type.WATER,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
+                7, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -24,16 +19,17 @@ public class Tublip extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Tublip, a Pokemon common in the dark trenches. In a world where life is nourished not by sunlight but by sulfur billowing from undersea volcanoes, this Poison-type Pokemon fills a niche normally held by Grass-types. It has a symbiotic relationship with Ventherm."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 21, 45, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_MAGMA),
                 0.28, 0.3,
                 List.of());
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Tublip");
 
     }

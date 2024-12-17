@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Nerscylla extends drai.dev.data.pokemon.Pokemon {
-    public Nerscylla() {
+    public Nerscylla(Stats stats) {
         super("Nerscylla",
                 Type.POISON, Type.BUG,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,
@@ -24,7 +19,7 @@ public class Nerscylla extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("They rend prey with their pincer-like jaws after weakening them with abnormal statuses and ensnaring them in web. They will sometimes adorn themselves with the skin of morsels they have not completely finished eating."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

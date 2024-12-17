@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "22-42",
-      "weight": 1.2,
+      "weight": 1.7999999999999998,
       "condition": {
         "biomes": [
           "#cobblemon:is_grassland"
@@ -25,6 +25,14 @@
         "biomes": [
           "#cobblemon:is_arid"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
       }
     }
   ]

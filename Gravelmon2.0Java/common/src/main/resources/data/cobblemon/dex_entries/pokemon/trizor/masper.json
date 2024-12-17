@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:masper",
+  "speciesId": "cobblemon:masper",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

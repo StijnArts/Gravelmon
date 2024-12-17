@@ -2,6 +2,18 @@
   "entryId": "cobblemon:vibrava",
   "forms": [
     {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Ionosian",
+      "unlockForms": [
+        "Ionosian"
+      ]
+    },
+    {
       "displayForm": "Ayreian",
       "unlockForms": [
         "Ayreian"

@@ -4,6 +4,56 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "forman_houndour-01",
+      "pokemon": "houndour forman",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "13-32",
+      "weight": 8.01,
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_soul_sand"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:black_wool"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_houndour-01",
+      "pokemon": "houndour epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "11-32",
+      "weight": 6.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_soul_fire"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "norheiman_houndour-01",
       "pokemon": "houndour norheiman",
       "presets": [
@@ -13,13 +63,21 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "8-33",
-      "weight": 4.0,
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_taiga"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:black_wool"
+          ]
+        }
       }
     }
   ]

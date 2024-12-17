@@ -2,6 +2,7 @@ package drai.dev.data.pokemon.hiza;
 
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+
 import java.util.*;
 
 public class Gnabling extends drai.dev.data.pokemon.Pokemon {
@@ -74,8 +75,9 @@ public class Gnabling extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRAGON_DANCE,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_LUSH, Biome.IS_JUNGLE))
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_LUSH, Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

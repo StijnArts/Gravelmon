@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tecnorilla",
+  "speciesId": "cobblemon:tecnorilla",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

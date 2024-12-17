@@ -4,6 +4,60 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epoch_nosepass-01",
+      "pokemon": "nosepass epoch",
+      "presets": [
+        "foliage"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "9-27",
+      "weight": 6.75,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_tropical_island"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_nosepass-01",
+      "pokemon": "nosepass epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "11-36",
+      "weight": 7.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_highlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isThundering": true
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:redstone_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "hizian_nosepass-01",
       "pokemon": "nosepass hizian",
       "presets": [
@@ -13,13 +67,21 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "13-38",
-      "weight": 5.4,
+      "weight": 8.100000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:redstone_block"
+          ]
+        }
       }
     },
     {
@@ -32,13 +94,21 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "16-37",
-      "weight": 5.94,
+      "weight": 8.91,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"
         ],
         "minSkyLight": 0,
         "maxSkyLight": 7
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:tuff"
+          ]
+        }
       }
     }
   ]

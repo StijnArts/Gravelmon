@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:clubit",
+  "speciesId": "cobblemon:clubit",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

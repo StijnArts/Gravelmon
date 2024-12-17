@@ -25,7 +25,7 @@ public class Glimpid extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Their jelly-like substance on their bodies resemble dew drops and sparkle beautifully in the sunlight. It helps them withstand harsh heat."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:triclope-tribal",
+  "speciesId": "cobblemon:triclope",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Tribal",
+      "unlockForms": [
+        "Tribal"
+      ]
+    }
+  ],
+  "variations": []
+}

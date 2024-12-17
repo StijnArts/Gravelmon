@@ -24,7 +24,7 @@ public class Kirin extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Kirin are so rarely sighted that little is known of their ecology. It's been said that they envelop themselves in pure electricity when they are provoked."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.xenoverse;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -22,12 +22,12 @@ public class ShulongXenoversal extends Pokemon {
                 List.of(new EvolutionEntry("shulong xenoversal=false", EvolutionType.LEVEL_UP, false, List.of(),
                                 List.of()),
                         new EvolutionEntry("shulongterrestrial", EvolutionType.LEVEL_UP, false, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:terrestrial_ring\""))),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "gravelmon:terrestrial_ring"))),
                         new EvolutionEntry("shulongastral", EvolutionType.LEVEL_UP, false, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:terrestrial_ring\""),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "gravelmon:terrestrial_ring"),
                                         new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL, "50"))),
                         new EvolutionEntry("shulongastral", EvolutionType.LEVEL_UP, false, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:xenoversal_ring\""),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "gravelmon:xenoversal_ring"),
                                         new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL, "50")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TIDAL_DRAGOON,1),
@@ -105,7 +105,7 @@ public class ShulongXenoversal extends Pokemon {
                 0.9, 1,
                 List.of());
         this.setLangFileName("Shulong");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
     }

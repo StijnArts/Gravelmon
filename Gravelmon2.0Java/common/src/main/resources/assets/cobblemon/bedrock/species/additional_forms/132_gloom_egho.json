@@ -1,6 +1,6 @@
 {
   "species": "cobblemon:gloom",
-  "order": 10,
+  "order": 132,
   "variations": [
     {
       "aspects": [
@@ -9,7 +9,29 @@
       "model": "cobblemon:generation1_eghogloom.geo",
       "poser": "cobblemon:generation1_eghogloom",
       "texture": "cobblemon:textures/pokemon/generation1/eghogloom/eghogloom.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     },
     {
       "aspects": [
@@ -19,7 +41,29 @@
       "model": "cobblemon:generation1_eghogloom.geo",
       "poser": "cobblemon:generation1_eghogloom",
       "texture": "cobblemon:textures/pokemon/generation1/eghogloom/eghogloom_shiny.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     }
   ]
 }

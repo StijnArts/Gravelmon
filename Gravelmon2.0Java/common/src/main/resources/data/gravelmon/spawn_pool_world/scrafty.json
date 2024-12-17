@@ -4,6 +4,33 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epoch_scrafty-01",
+      "pokemon": "scrafty epoch",
+      "presets": [
+        "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "39-56",
+      "weight": 0.30000000000000004,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:note_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "delta_scrafty-01",
       "pokemon": "scrafty delta",
       "presets": [
@@ -13,7 +40,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "40-58",
-      "weight": 0.3,
+      "weight": 0.44999999999999996,
       "condition": {
         "biomes": [
           "#cobblemon:is_lush"
@@ -25,6 +52,14 @@
         "biomes": [
           "#cobblemon:is_cold"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
       }
     }
   ]

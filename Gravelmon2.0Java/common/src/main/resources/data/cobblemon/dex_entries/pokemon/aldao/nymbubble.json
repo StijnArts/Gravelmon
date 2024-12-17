@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:nymbubble",
+  "speciesId": "cobblemon:nymbubble",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

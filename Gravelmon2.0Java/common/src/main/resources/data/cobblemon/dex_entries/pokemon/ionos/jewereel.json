@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:jewereel",
+  "speciesId": "cobblemon:jewereel",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

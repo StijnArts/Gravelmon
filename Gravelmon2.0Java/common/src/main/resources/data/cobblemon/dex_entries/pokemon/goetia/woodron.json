@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:woodron",
+  "speciesId": "cobblemon:woodron",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

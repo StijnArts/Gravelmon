@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tinkaton-lagoonan",
+  "speciesId": "cobblemon:tinkaton",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Lagoonan",
+      "unlockForms": [
+        "Lagoonan"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -24,7 +24,7 @@ public class Brachydios extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Brute wyverns coated with an explosive green substance. The material is thought to be a unique myxomycete--or slime mold--that is primed to explode by the Brachydios's own saliva."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

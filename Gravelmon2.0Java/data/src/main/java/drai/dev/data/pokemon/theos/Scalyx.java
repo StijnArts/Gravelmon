@@ -24,7 +24,7 @@ public class Scalyx extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Scalyx are very aggressive and mean Pokémon. People prefer to stay away from them as they're known to bite leaving a deep wound."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

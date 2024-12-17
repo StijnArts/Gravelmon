@@ -24,7 +24,7 @@ public class Pripilla extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.BUG),
                 List.of("Pripilla's body is covered in a sticky, glue-like substance that it secretes from its mouth. This does mean it often gets stuck on other Pokémon."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.PASTEL_ISLAND),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

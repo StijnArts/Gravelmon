@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:gulpin",
+  "forms": [
+    {
+      "displayForm": "Elbian",
+      "unlockForms": [
+        "Elbian"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
+}

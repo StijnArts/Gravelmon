@@ -2,6 +2,7 @@ package drai.dev.data.pokemon.hiza;
 
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+
 import java.util.*;
 
 public class Folicero extends drai.dev.data.pokemon.Pokemon {
@@ -39,7 +40,7 @@ public class Folicero extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LEAF_STORM,52)),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(
 
                         new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")

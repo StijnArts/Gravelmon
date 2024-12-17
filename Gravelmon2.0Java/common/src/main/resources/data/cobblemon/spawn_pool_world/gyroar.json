@@ -13,12 +13,20 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "48-62",
-      "weight": 0.1,
+      "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_mountain",
           "#cobblemon:is_cave"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:tuff"
+          ]
+        }
       }
     }
   ]

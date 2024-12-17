@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -20,7 +20,7 @@ public class DeltaTangela extends Pokemon {
                 50, List.of(EggGroup.DELTA),
                 List.of("A Delta Species discovered by winkright. It lures prey towards its home in the earth before grabbing and pinning them."),
                 List.of(new EvolutionEntry("deltatangrowth", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.ANCIENT_POWER.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.ANCIENT_POWER.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.ENDURE,1),
                         new MoveLearnSetEntry(Move.CONSTRICT,1),
@@ -109,6 +109,5 @@ public class DeltaTangela extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Tangela");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

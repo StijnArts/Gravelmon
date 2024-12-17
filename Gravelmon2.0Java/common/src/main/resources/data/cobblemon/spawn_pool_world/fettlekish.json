@@ -14,12 +14,20 @@
       "context": "submerged",
       "bucket": "uncommon",
       "level": "30-45",
-      "weight": 3.0,
+      "weight": 4.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean",
           "#cobblemon:is_lukewarm_ocean"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     }
   ]

@@ -1,5 +1,5 @@
 {
-   "target": "cobblemon:glimmet",
+  "target": "cobblemon:glimmet",
   "evolutions": [
     {
       "id": "glimmet_glimmora_norheiman",
@@ -10,15 +10,14 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 35
+          "minLevel": "35"
         },
         {
           "variant": "biome",
           "biomeCondition": "#cobblemon:is_freezing"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ]
-
 }

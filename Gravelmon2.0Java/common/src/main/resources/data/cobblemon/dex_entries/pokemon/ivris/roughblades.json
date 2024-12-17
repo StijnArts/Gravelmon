@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:roughblades",
+  "speciesId": "cobblemon:roughblades",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

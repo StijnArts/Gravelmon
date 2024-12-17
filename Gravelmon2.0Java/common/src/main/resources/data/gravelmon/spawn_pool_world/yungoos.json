@@ -4,6 +4,34 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "fabelian_yungoos-01",
+      "pokemon": "yungoos fabelian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 5.699999999999999,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_sky",
+          "#cobblemon:is_mountain"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:white_wool"
+          ]
+        }
+      }
+    },
+    {
       "id": "ayreian_yungoos-01",
       "pokemon": "yungoos ayreian",
       "presets": [
@@ -13,11 +41,21 @@
       "context": "grounded",
       "bucket": "common",
       "level": "5-25",
-      "weight": 5.0,
+      "weight": 7.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_taiga"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:black_wool"
+          ]
+        }
       }
     }
   ]

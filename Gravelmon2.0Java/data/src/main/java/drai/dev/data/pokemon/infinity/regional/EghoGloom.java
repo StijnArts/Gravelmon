@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.infinity.regional;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
 
@@ -20,7 +21,7 @@ public class EghoGloom extends Pokemon {
                 51, List.of(EggGroup.AMORPHOUS, EggGroup.MONSTER),
                 List.of("Despite their abiotic features, when exposed to enough light, Oddish may evolve into Gloom. Gloom use decorative skulls to scare away other Pokemon."),
                 List.of(new EvolutionEntry("viledoom", EvolutionType.LEVEL_UP, List.of(new MoveLearnSetEntry(Move.SPORE, "")),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.TOXIC.getName()+"\""))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.TOXIC.getName()))),
                         new EvolutionEntry("mortossum", EvolutionType.LEVEL_UP, List.of(
                                 new MoveLearnSetEntry(Move.QUIVER_DANCE, ""),
                                 new MoveLearnSetEntry(Move.AROMATHERAPY,"")),
@@ -95,15 +96,26 @@ public class EghoGloom extends Pokemon {
                 4, List.of(
                         new ItemDrop("minecraft:seeds",50, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 22, 33, 0.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.24, 0.3,
                 List.of());
         this.setLangFileName("Gloom");
-        this.setPortraitXYZ(0.1,2.0,0.0);
-        setModeled(true);
+
+        
         setBaseScale(0.8);
         setHitbox(0.8,0.8);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.7f, new Vector3(-0.1, -0, 0));
+        getPosingFileData().setProfileData( 1f, new Vector3(0, .6, -20));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().clearPoseTypes().withBlink(),
+                AnimationData.walkingAnimation().withLook().withBlink(),
+                AnimationData.sleepingAnimation()
+        ));
+        getPosingFileData().setFaint("bedrock(eghogloom, faint)");
     }
 }

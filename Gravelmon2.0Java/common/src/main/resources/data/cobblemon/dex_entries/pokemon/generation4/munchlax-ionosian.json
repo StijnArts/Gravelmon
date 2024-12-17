@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:munchlax-ionosian",
+  "speciesId": "cobblemon:munchlax",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ionosian",
+      "unlockForms": [
+        "Ionosian"
+      ]
+    }
+  ],
+  "variations": []
+}

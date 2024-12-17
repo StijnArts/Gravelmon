@@ -24,7 +24,7 @@ public class Petalite extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Petalite have very efficient photosynthesis which allow them to take in a larger amount of sunlight than other grass Pokémon. The brighter their petals, the more energy they have absorbed."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

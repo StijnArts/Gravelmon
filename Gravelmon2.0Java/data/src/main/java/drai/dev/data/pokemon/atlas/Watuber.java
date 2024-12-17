@@ -80,7 +80,7 @@ public class Watuber extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

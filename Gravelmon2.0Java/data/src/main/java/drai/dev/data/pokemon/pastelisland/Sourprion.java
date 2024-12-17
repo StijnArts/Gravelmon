@@ -24,7 +24,7 @@ public class Sourprion extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_1,EggGroup.MONSTER),
                 List.of("While entirely blind, Sourprion can release a powerful fragrance that can paralyze foes with it's flavour. They can feel their surroundings with special electro-receptors. Male Sourprion have more potent fragrances for attracting mates."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.PASTEL_ISLAND),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

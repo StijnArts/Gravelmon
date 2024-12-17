@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:breloom-ayreian",
+  "speciesId": "cobblemon:breloom",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ayreian",
+      "unlockForms": [
+        "Ayreian"
+      ]
+    }
+  ],
+  "variations": []
+}

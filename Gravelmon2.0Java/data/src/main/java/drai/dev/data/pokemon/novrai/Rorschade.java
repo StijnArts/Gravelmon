@@ -2,6 +2,7 @@ package drai.dev.data.pokemon.novrai;
 
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+
 import java.util.*;
 
 public class Rorschade extends drai.dev.data.pokemon.Pokemon {
@@ -113,8 +114,8 @@ public class Rorschade extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 56, .3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.VILLAGE),
                 0.28, 0.3,

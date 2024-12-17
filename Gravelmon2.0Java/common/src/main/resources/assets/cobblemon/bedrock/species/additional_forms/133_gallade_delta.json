@@ -1,20 +1,38 @@
 {
   "species": "cobblemon:gallade",
-  "order": 11,
+  "order": 133,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:deltagallade.geo",
+      "model": "cobblemon:generation4_deltagallade.geo",
       "poser": "cobblemon:generation4_deltagallade",
-      "texture": "cobblemon:textures/pokemon/generation4/deltagallade.png",
+      "texture": "cobblemon:textures/pokemon/generation4/deltagallade/deltagallade.png",
       "layers": [
         {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
           "name": "glow",
-          "texture": "cobblemon:textures/pokemon/generation4/deltagallade_emissive.png",
           "emissive": true,
-          "translucent": true
+          "translucent": true,
+          "texture": "cobblemon:textures/pokemon/generation4/deltagallade/deltagallade_emissive.png"
         }
       ]
     },
@@ -23,15 +41,33 @@
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:deltagallade.geo",
+      "model": "cobblemon:generation4_deltagallade.geo",
       "poser": "cobblemon:generation4_deltagallade",
-      "texture": "cobblemon:textures/pokemon/generation4/deltagallade_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation4/deltagallade/deltagallade_shiny.png",
       "layers": [
         {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
           "name": "glow",
-          "texture": "cobblemon:textures/pokemon/generation4/deltagallade_shiny_emissive.png",
           "emissive": true,
-          "translucent": true
+          "translucent": true,
+          "texture": "cobblemon:textures/pokemon/generation4/deltagallade/deltagallade_emissive_shiny.png"
         }
       ]
     }

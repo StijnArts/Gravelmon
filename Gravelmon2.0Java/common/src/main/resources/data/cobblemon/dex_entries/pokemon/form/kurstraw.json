@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:kurstraw",
+  "speciesId": "cobblemon:kurstraw",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

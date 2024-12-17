@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "21-46",
-      "weight": 10.0,
+      "weight": 15.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"
@@ -21,6 +21,14 @@
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:bone_block"
+          ]
+        }
       }
     },
     {
@@ -33,11 +41,19 @@
       "context": "grounded",
       "bucket": "common",
       "level": "22-54",
-      "weight": 3.0,
+      "weight": 4.5,
       "condition": {
         "biomes": [
           "#minecraft:is_end"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
+          ]
+        }
       }
     },
     {
@@ -50,7 +66,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "21-46",
-      "weight": 3.0,
+      "weight": 4.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"
@@ -63,6 +79,14 @@
           "#cobblemon:is_cold",
           "#cobblemon:is_temperate"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
       }
     }
   ]

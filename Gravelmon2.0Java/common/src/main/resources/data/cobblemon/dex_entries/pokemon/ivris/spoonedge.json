@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:spoonedge",
+  "speciesId": "cobblemon:spoonedge",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -43,8 +43,9 @@ public class Cerecybim extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.QAMOR),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 38, 56, .3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MUSHROOM, Biome.IS_FOREST))
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER))),
+                        new BiomeSpawnCondition(List.of(Biome.IS_MUSHROOM, Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

@@ -16,7 +16,7 @@ public class Spectrice extends drai.dev.data.pokemon.Pokemon {
                         110,
                         115),
                 List.of(Ability.ICE_BODY), Ability.ICE_BODY,
-                0, 0,
+                15, 0,
                 new Stats(0,0,0,3,0,0), 45,
                 0.5,
                 270, ExperienceGroup.SLOW,
@@ -24,12 +24,13 @@ public class Spectrice extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 39, 56, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -24,7 +24,7 @@ public class Metrognome extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MONSTER),
                 List.of("Born from the insecurities and grudges of artists, Metrognome makes a clicking sound every second until it dies. Listening to it for long periods of time is maddening."),
                 List.of(new EvolutionEntry("phonemon", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.METRONOME.getName()+"\"")))
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.METRONOME.getName())))
                 ),
                 List.of(
                         new MoveLearnSetEntry(Move.SING,1),

@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.uranium;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -76,6 +76,5 @@ public class Krakanao extends Pokemon {
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

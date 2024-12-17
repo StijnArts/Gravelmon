@@ -13,11 +13,19 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "25-41",
-      "weight": 4.0,
+      "weight": 6.0,
       "condition": {
         "minSkyLight": 0,
         "maxSkyLight": 7,
         "maxY": 20
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
+          ]
+        }
       }
     }
   ]

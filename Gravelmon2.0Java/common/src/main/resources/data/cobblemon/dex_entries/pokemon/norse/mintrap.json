@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:mintrap",
+  "speciesId": "cobblemon:mintrap",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,37 @@
+{
+  "species": "cobblemon:blissey",
+  "order": 106,
+  "variations": [
+    {
+      "aspects": [
+        "avalossian"
+      ],
+      "model": "cobblemon:cutout_gravelmon_56_by_64.geo",
+      "poser": "cobblemon:cutout_gravelmon_56_by_64",
+      "texture": "cobblemon:textures/pokemon/generation2/avalossianblissey.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
+    }
+  ]
+}

@@ -41,7 +41,7 @@ public class Squiddle extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DARK_PULSE,47)                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_VOLCANIC)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

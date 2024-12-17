@@ -10,10 +10,10 @@
         "natural"
       ],
       "type": "pokemon",
-      "context": "grounded",
+      "context": "submerged",
       "bucket": "uncommon",
       "level": "13-27",
-      "weight": 9.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#minecraft:is_deep_ocean"
@@ -23,6 +23,14 @@
         "biomes": [
           "#cobblemon:is_cold"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     }
   ]

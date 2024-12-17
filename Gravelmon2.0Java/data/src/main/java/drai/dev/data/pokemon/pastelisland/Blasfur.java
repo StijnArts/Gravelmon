@@ -24,7 +24,7 @@ public class Blasfur extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD),
                 List.of("Loyal and smart, these Pokémon can smell the faintest smell of burning from miles away, making them useful for firefighters. They can detect when a person is ill by their temperature, and will try their best to help them."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.PASTEL_ISLAND),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:binchickin",
+  "speciesId": "cobblemon:binchickin",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

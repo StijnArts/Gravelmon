@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:forseeth",
+  "speciesId": "cobblemon:forseeth",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

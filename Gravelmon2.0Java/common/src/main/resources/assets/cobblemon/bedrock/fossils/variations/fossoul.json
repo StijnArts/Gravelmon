@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:fossoul",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:embryo_fossoul",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/fossoul.png",
+      "layers": []
+    }
+  ]
+}

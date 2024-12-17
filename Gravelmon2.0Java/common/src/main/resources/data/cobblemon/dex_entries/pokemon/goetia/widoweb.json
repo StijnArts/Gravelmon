@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:widoweb",
+  "speciesId": "cobblemon:widoweb",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

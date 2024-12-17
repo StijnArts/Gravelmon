@@ -25,10 +25,10 @@ public class Fuzzly extends drai.dev.data.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("hivernate", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=female\""))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=female"))),
                         new EvolutionEntry("grizzlair", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30"),
-                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=male\"")))),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male")))),
                 List.of(       new MoveLearnSetEntry(Move.SCRATCH,1),
                         new MoveLearnSetEntry(Move.FURY_CUTTER,5),
                         new MoveLearnSetEntry(Move.GUST,9),
@@ -43,7 +43,7 @@ public class Fuzzly extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.HONEY_TREE),
                 0.28, 0.3,

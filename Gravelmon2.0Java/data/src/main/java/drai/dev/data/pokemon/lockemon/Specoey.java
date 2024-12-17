@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.lockemon;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -26,7 +26,7 @@ public class Specoey extends Pokemon {
                 List.of("Specoey are trained in acting from a young age. Due to this lifelong ability, they often " +
                         "partake in stage plays alongside young children. In some cases, the audience is unable to tell the difference."),
                 List.of(new EvolutionEntry("opakespiel", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.ROLE_PLAY.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.ROLE_PLAY.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.SCRATCH,1),
@@ -51,7 +51,7 @@ public class Specoey extends Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 6.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

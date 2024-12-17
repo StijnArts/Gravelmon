@@ -2,6 +2,18 @@
   "entryId": "cobblemon:mightyena",
   "forms": [
     {
+      "displayForm": "Mahalian",
+      "unlockForms": [
+        "Mahalian"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
       "displayForm": "Mystic",
       "unlockForms": [
         "Mystic"

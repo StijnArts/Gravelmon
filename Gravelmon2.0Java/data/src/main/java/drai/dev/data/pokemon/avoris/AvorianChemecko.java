@@ -24,7 +24,7 @@ public class AvorianChemecko extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It creates a mix of poisonous chemicals in its tail. When in fear, they drop behind the tail which then explodes, releasing hazardous gases hoping to scare off or harm any threats."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.AVORIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

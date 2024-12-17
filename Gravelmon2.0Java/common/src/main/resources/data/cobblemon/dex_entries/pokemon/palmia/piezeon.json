@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:piezeon",
+  "speciesId": "cobblemon:piezeon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

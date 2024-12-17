@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.blazingemerald.regional;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -61,9 +62,15 @@ public class HoennianShuckle extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Shuckle");
-        this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setHitbox(1,1);
         this.setBaseScale(0.6);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("hoenniandragapult");
+        getPosingFileData().setPortraitData( 2.2f, new Vector3(-0.45, 0.35, 0.0));
+        getPosingFileData().setProfileData( 0.6f, new Vector3(0.0, 0.8, 0.0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.emptyAnimation()
+        ));
     }
 }

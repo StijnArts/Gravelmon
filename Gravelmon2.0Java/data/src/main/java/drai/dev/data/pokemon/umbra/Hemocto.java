@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.umbra;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -26,7 +26,7 @@ public class Hemocto extends Pokemon {
                 List.of("A tricky parasite, Hemocto will hold on to the nearest living thing and drain it of its blood. They can navigate well even in the murky ocean depths."),
                 List.of(new EvolutionEntry("alucuttle", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_OCEAN.getId() + ":" + Biome.IS_OCEAN.getName() +"\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_OCEAN.getId() + ":" + Biome.IS_OCEAN.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_LIFE,1),
                         new MoveLearnSetEntry(Move.ASTONISH,1),

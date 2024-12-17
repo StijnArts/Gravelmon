@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.radicalred;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -103,13 +103,13 @@ public class SeviianNoibat extends Pokemon {
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 34, 2.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Noibat");
-        this.setPortraitXYZ(0.1, 2.0, 0.0);
         this.setCanFly(true);
     }
 }

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:dracurrent",
+  "speciesId": "cobblemon:dracurrent",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

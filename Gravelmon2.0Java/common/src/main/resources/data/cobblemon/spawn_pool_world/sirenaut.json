@@ -13,13 +13,21 @@
       "context": "submerged",
       "bucket": "uncommon",
       "level": "46-61",
-      "weight": 0.56,
+      "weight": 0.8400000000000001,
       "condition": {
         "biomes": [
           "#minecraft:is_deep_ocean"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:bone_block"
+          ]
+        }
       }
     }
   ]

@@ -24,7 +24,7 @@ public class Magelorb extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MINERAL),
                 List.of("Magelorb float in the sky, casting lights down below. They can be attracted to the ground by bright, flashing lights."),
                 List.of(new EvolutionEntry("discobrawl", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.FLASH_CANNON.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.FLASH_CANNON.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.TRICK_ROOM,1),
                         new MoveLearnSetEntry(Move.FAIRY_WIND,5),

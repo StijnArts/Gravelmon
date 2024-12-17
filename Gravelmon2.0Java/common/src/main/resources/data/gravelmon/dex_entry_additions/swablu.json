@@ -2,6 +2,24 @@
   "entryId": "cobblemon:swablu",
   "forms": [
     {
+      "displayForm": "Fabelian",
+      "unlockForms": [
+        "Fabelian"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
       "displayForm": "Varitasian",
       "unlockForms": [
         "Varitasian"

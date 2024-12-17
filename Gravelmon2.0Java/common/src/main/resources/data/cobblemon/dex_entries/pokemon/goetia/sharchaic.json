@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:sharchaic",
+  "speciesId": "cobblemon:sharchaic",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

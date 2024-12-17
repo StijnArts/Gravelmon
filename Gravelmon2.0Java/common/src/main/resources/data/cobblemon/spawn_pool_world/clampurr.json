@@ -14,11 +14,19 @@
       "context": "submerged",
       "bucket": "uncommon",
       "level": "28-43",
-      "weight": 0.5,
+      "weight": 0.75,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
+          ]
+        }
       }
     }
   ]

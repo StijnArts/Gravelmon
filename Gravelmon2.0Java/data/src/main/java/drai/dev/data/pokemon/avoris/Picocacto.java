@@ -5,11 +5,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
-
-import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
-import java.util.*;
-
 public class Picocacto extends drai.dev.data.pokemon.Pokemon {
     public Picocacto() {
         super("Picocacto",
@@ -30,10 +25,10 @@ public class Picocacto extends drai.dev.data.pokemon.Pokemon {
                 List.of("Groups of wild Picocacto guard and protect their territory from invaders. With its perfect aim and timing, it shoots spikes at any threat it sees."),
                 List.of(new EvolutionEntry("desperasca", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=female\""))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=female"))),
                         new EvolutionEntry("desperogue", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33"),
-                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=male\"")))),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male")))),
                 List.of(           new MoveLearnSetEntry(Move.ABSORB,1),
                         new MoveLearnSetEntry(Move.RAZOR_LEAF,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),

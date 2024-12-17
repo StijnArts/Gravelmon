@@ -16,14 +16,15 @@ public class Shivurr extends drai.dev.data.pokemon.Pokemon {
                         40,
                         82),
                 List.of(Ability.SOUNDPROOF,Ability.RATTLED,Ability.INSOMNIA), Ability.INSOMNIA,
-                8, 165,
+                7, 165,
                 new Stats(0,0,0,0,0,1), 192,
                 0.5,
                 50, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("This Pokemon prefers the cold shadows of caves over the tropical sunlight. It seems unable to properly regulate its body temperature, because it is always shivering."),
-                List.of(),
+                List.of(new EvolutionEntry("frigivurr", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GUST,1),
                         new MoveLearnSetEntry(Move.SUPERSONIC,3),
@@ -48,9 +49,8 @@ public class Shivurr extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FREEZEDRY,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 41, 3.9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

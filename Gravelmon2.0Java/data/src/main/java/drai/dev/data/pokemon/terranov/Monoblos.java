@@ -24,7 +24,7 @@ public class Monoblos extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Endowed with an impressive cranial horn. They use this large horn in brutal attacks, screeching ear-splitting war cries. Defeating one is considered a truly heroic feat among Hunters."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

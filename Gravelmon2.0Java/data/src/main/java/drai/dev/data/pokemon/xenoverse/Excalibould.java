@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.xenoverse;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -21,7 +21,7 @@ public class Excalibould extends Pokemon {
                 List.of("This rock pile came to life thanks to the combative spirit of past paladins that inhabited the sword wedged in it."),
                 List.of(new EvolutionEntry("madieval", EvolutionType.LEVEL_UP, true, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"cobblemon:kings_rock\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "cobblemon:kings_rock")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ROCK_THROW,1),
                         new MoveLearnSetEntry(Move.HARDEN,1),
@@ -79,6 +79,6 @@ public class Excalibould extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.3, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

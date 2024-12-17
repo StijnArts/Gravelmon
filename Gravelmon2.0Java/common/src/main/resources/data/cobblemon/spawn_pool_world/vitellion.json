@@ -13,12 +13,22 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "10-40",
-      "weight": 0.001,
+      "weight": 0.0015,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"
         ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:infested_stone"
+          ]
+        }
       }
     }
   ]

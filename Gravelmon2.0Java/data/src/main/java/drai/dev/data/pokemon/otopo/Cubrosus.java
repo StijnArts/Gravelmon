@@ -24,7 +24,7 @@ public class Cubrosus extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD),
                 List.of("It hides in the darkest of places, calmly waiting for its victim. In the night, the golden stripes on its fur shimmer, hypnotising any victim who looks its way."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -24,7 +24,7 @@ public class Bunbush extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Whilst Hopling are still playful, Bunbush gain a more regal sense of protection. It will not hesitate to get aggressive with people destroying the environment."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTTORA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

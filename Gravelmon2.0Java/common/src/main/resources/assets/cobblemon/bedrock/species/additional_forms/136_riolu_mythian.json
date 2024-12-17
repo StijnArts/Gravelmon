@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:riolu",
-  "order": 3,
+  "order": 136,
   "variations": [
     {
       "aspects": [
         "mythian"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation4_mythianriolu",
+      "model": "cobblemon:cutout_gravelmon_96_by_96.geo",
+      "poser": "cobblemon:cutout_gravelmon_96_by_96",
       "texture": "cobblemon:textures/pokemon/generation4/mythianriolu.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,7 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "mythian",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation4_mythianriolu",
-      "texture": "cobblemon:textures/pokemon/generation4/mythianriolu_shiny.png",
-      "layers": [
-        {
           "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
         }
       ]
     }

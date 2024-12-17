@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "9-32",
-      "weight": 1.3,
+      "weight": 1.9500000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_forest"
@@ -23,8 +23,16 @@
       },
       "anticondition": {
         "biomes": [
-          "#cobblemon:has_season/summer"
+          "#cobblemon:is_jungle"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:redstone_block"
+          ]
+        }
       }
     }
   ]

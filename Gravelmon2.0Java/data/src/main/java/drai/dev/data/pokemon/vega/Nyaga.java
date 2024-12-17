@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.vega;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -20,7 +20,7 @@ public class Nyaga extends Pokemon {
                 50, List.of(EggGroup.FIELD),
                 List.of(""),
                 List.of(new EvolutionEntry("byakuga", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.WILD_CHARGE.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.WILD_CHARGE.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.ELECTROBASH,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),

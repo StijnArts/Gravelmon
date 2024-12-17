@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.opalo.regional;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -44,7 +44,8 @@ public class CefiranVenomoth extends Pokemon {
                 List.of(Label.OPAL, Label.GEN1),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 31, 45, 0.6, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.22, 0.3,
@@ -53,6 +54,6 @@ public class CefiranVenomoth extends Pokemon {
         setCanFly(true);
         addAdditionalEvolution("venonat", new EvolutionEntry("venomoth cefiran", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
-                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_SPOOKY.getId() + ":" + Biome.IS_SPOOKY.getName() +"\""))));
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_SPOOKY.getId() + ":" + Biome.IS_SPOOKY.getName()))));
     }
 }

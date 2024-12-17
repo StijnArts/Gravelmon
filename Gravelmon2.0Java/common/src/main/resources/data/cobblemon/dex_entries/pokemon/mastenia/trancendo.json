@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:trancendo",
+  "speciesId": "cobblemon:trancendo",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

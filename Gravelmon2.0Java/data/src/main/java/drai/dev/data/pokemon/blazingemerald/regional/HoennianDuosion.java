@@ -1,9 +1,9 @@
 package drai.dev.data.pokemon.blazingemerald.regional;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.data.util.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -22,7 +22,7 @@ public class HoennianDuosion extends Pokemon {
                 List.of("It constantly devours berries by absorbing them through it's jelly-like membrane. Their brilliant gold color glows brightly after they finish a meal."),
                 List.of(new EvolutionEntry("hoennianreuniclus", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"160"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"day\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "day")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TRICK_ROOM,"tm"),
                         new MoveLearnSetEntry(Move.CALM_MIND,"tm"),
@@ -76,6 +76,6 @@ public class HoennianDuosion extends Pokemon {
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Duosion");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

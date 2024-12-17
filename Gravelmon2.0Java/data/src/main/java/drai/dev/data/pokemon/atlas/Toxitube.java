@@ -24,7 +24,7 @@ public class Toxitube extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Toxitube hide in discarded pipes to shield their fragile bodies. They blow out smoke constantly to intimidate predators. Even if it doesn't work, the gas is extremely toxic and will finish off any attacker."),
                 List.of(new EvolutionEntry("gassaster", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.SLUDGE_BOMB.getName()+"\"")))
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.SLUDGE_BOMB.getName())))
                 ),
                 List.of(
                         new MoveLearnSetEntry(Move.SMOKESCREEN,1),

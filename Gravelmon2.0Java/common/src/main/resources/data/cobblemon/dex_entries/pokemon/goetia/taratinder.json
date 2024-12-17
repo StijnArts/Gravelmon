@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:taratinder",
+  "speciesId": "cobblemon:taratinder",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

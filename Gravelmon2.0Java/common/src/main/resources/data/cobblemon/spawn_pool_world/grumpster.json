@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "19-36",
-      "weight": 0.4,
+      "weight": 0.6000000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_forest"
@@ -23,9 +23,17 @@
       },
       "anticondition": {
         "biomes": [
-          "#cobblemon:has_season/summer",
-          "#cobblemon:has_season/winter"
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_taiga"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:white_wool"
+          ]
+        }
       }
     }
   ]

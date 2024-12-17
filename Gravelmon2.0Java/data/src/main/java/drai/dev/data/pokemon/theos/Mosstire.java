@@ -24,7 +24,7 @@ public class Mosstire extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Mossloth conserves energy, appearing sluggish in battle to deceive opponents. When underestimated, it surprises with a powerful, rapid strike fueled by its stored energy."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

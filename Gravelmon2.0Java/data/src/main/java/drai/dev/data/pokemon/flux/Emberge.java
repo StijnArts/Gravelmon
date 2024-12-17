@@ -36,8 +36,8 @@ public class Emberge extends Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 22, 54, 4, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_NETHER_FOREST)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
                 ), List.of(),
                 List.of(SpawnPreset.NEAR_LAVA),
                 0.28, 0.3,

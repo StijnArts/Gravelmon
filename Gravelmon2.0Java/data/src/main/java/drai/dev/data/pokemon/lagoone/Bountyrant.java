@@ -7,7 +7,6 @@ import drai.dev.data.pokemon.mushi.*;
 import drai.dev.data.pokemon.theos.*;
 import drai.dev.data.pokemon.kuria.*;
 import drai.dev.data.pokemon.ottora.*;
-
 import drai.dev.data.pokemon.mastenia.*;
 import drai.dev.data.pokemon.mongratis.*;
 import drai.dev.data.pokemon.ultraspace.*;
@@ -23,7 +22,7 @@ import drai.dev.data.pokemon.cyare.*;
 import drai.dev.data.pokemon.olysos.*;
 import drai.dev.data.pokemon.nodorro.*;
 import drai.dev.data.pokemon.orbis.*;
-import drai.dev.data.pokemon.fliga.*;
+import drai.dev.data.pokemon.avalos.*;
 import drai.dev.data.pokemon.ruskow.*;
 import drai.dev.data.pokemon.otopo.*;
 import drai.dev.data.pokemon.goetia.*;

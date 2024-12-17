@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:floraia",
+  "speciesId": "cobblemon:floraia",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

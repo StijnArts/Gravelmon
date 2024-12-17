@@ -109,12 +109,12 @@ public class Erycoon extends Pokemon {
                         new ItemDrop("minecraft:leather",100, 1,1)
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 18, 32, 2.9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "day")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.3, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

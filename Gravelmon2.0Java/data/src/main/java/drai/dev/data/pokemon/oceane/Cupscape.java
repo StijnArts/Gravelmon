@@ -23,7 +23,7 @@ public class Cupscape extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MINERAL),
                 List.of("Cupscapes are small, sparkling pieces of reef that are generally very docile and passive. They hardly move, and typically let other lifeforms take refuge on top of them."),
                 List.of(new EvolutionEntry("nodescape", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"\"Hypnode\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"Hypnode")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.HAPPYSLAP,3),

@@ -4,6 +4,58 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epoch_arbok-01",
+      "pokemon": "arbok epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "41-54",
+      "weight": 0.6000000000000001,
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_desert"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_mud"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ionosian_arbok-01",
+      "pokemon": "arbok ionosian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "28-53",
+      "weight": 1.6500000000000001,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:cauldron"
+          ]
+        }
+      }
+    },
+    {
       "id": "alteran_arbok-01",
       "pokemon": "arbok alteran",
       "presets": [
@@ -13,13 +65,21 @@
       "context": "grounded",
       "bucket": "common",
       "level": "22-45",
-      "weight": 0.55,
+      "weight": 0.8250000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_desert"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:target_block"
+          ]
+        }
       }
     }
   ]

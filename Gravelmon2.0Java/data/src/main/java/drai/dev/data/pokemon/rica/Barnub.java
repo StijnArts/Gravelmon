@@ -25,7 +25,7 @@ public class Barnub extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MINERAL,EggGroup.WATER_3),
                 List.of("This Pokemon eats by filtering particles out of the water. Because of its dislike of bright lights, Barnub tends to be found in very dark locations."),
                 List.of(new EvolutionEntry("detritan", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:reaper_cloth\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:reaper_cloth")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WITHDRAW,1),
                         new MoveLearnSetEntry(Move.BIDE,6),

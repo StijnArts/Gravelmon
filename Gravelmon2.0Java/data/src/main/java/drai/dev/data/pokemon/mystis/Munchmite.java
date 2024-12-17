@@ -24,7 +24,7 @@ public class Munchmite extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.GRASS,EggGroup.BUG),
                 List.of("It thrives in swarms, and can often be found lurking around all kinds of forests. It's best not to disturb them, as they are incredibly shy."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MYSTIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

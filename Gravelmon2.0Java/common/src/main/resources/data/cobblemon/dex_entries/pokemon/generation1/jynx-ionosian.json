@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:jynx-ionosian",
+  "speciesId": "cobblemon:jynx",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ionosian",
+      "unlockForms": [
+        "Ionosian"
+      ]
+    }
+  ],
+  "variations": []
+}

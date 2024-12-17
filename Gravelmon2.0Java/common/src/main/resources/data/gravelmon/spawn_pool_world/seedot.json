@@ -4,6 +4,34 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epoch_seedot-01",
+      "pokemon": "seedot epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "6-25",
+      "weight": 8.100000000000001,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "day"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "delta_seedot-01",
       "pokemon": "seedot delta",
       "presets": [
@@ -13,12 +41,20 @@
       "context": "grounded",
       "bucket": "common",
       "level": "3-28",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_overworld"
         ],
         "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:redstone_block"
+          ]
+        }
       }
     }
   ]

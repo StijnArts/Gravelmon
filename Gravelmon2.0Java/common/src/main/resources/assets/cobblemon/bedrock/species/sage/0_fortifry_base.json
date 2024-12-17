@@ -1,18 +1,5 @@
 {
   "species": "cobblemon:fortifry",
   "order": 0,
-  "variations": [
-    {
-      "aspects": [],
-      "poser": "cobblemon:sage_fortifry",
-      "model": "cobblemon:sage_fortifry.geo",
-      "texture": "cobblemon:textures/pokemon/sage/fortifry/fortifry.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/sage/fortifry/fortifry_shiny_alt.png"
-    }  ]
+  "variations": []
 }

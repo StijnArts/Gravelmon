@@ -24,7 +24,7 @@ public class Cresprit extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of(""),
                 List.of(new EvolutionEntry("spectmare", EvolutionType.LEVEL_UP, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:reaper_cloth\"")))),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:reaper_cloth")))),
                 List.of(        new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.ROCK_THROW,1),
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,4),
@@ -45,6 +45,7 @@ public class Cresprit extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 47, 1.4, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

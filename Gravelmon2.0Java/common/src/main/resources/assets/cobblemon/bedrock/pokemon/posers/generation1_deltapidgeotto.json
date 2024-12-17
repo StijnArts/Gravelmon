@@ -1,36 +1,58 @@
 {
-    "head": "torso",
-    "portraitScale": 2.8,
-    "portraitTranslation": [-0.3, -1, 0],
-    "profileScale": 1,
-    "profileTranslation": [0.1, 0.3, 0],
-    "poses": {
-      "standing": {
-        "poseName": "standing",
-        "transformTicks": 10,
-        "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "WALK","HOVER"],
-        "animations": [
-          "look",
-          "bedrock(deltapidgeotto, ground_idle)"
-        ]
-      },
-	  "sleeping": {
-        "poseName": "sleeping",
-        "transformTicks": 10,
-        "poseTypes": ["SLEEP"],
-        "animations": [
-          "look",
-          "bedrock(deltapidgeotto, sleep)"
-        ]
-       },
-	   "flying": {
-        "poseName": "flying",
-        "transformTicks": 10,
-        "poseTypes": ["FLY","FLOAT"],
-        "animations": [
-          "look",
-          "bedrock(deltapidgeotto, air_fly)"
-        ]
-      }
+  "head": "torso",
+  "portraitScale": 2.799999952316284,
+  "portraitTranslation": [
+    -0.3,
+    -1.0,
+    0.0
+  ],
+  "profileScale": 1.0,
+  "profileTranslation": [
+    0.1,
+    0.3,
+    0.0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "look",
+        "bedrock(deltapidgeotto, ground_idle)"
+      ],
+      "transformTicks": 10,
+      "allPoseTypes": true,
+      "quirks": []
+    },
+    "flying": {
+      "poseName": "flying",
+      "animations": [
+        "look",
+        "bedrock(deltapidgeotto, air_fly)"
+      ],
+      "poseTypes": [
+        "FLY",
+        "HOVER"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(deltapidgeotto, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "animations": [
+        "bedrock(deltapidgeotto, sleep)"
+      ],
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "transformTicks": 10,
+      "quirks": []
     }
   }
+}

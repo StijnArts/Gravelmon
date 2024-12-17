@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:jokaite",
+  "speciesId": "cobblemon:jokaite",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

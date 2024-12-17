@@ -1,5 +1,5 @@
 {
-   "target": "cobblemon:rellor",
+  "target": "cobblemon:rellor",
   "evolutions": [
     {
       "id": "rellor_rabsca_qamoran",
@@ -14,11 +14,10 @@
         },
         {
           "variant": "blocks_traveled",
-          "amount": 1000
+          "amount": "1000"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ]
-
 }

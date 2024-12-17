@@ -26,7 +26,7 @@ public class Woofurr extends drai.dev.data.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("varghast", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"45"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "night")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PLAY_ROUGH,1),
                         new MoveLearnSetEntry(Move.SWITCHEROO,1),
@@ -118,8 +118,8 @@ public class Woofurr extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 45, 1, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -1,20 +1,38 @@
 {
   "species": "cobblemon:kirlia",
-  "order": 11,
+  "order": 133,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:deltakirlia.geo",
+      "model": "cobblemon:generation3_deltakirlia.geo",
       "poser": "cobblemon:generation3_deltakirlia",
-      "texture": "cobblemon:textures/pokemon/generation3/deltakirlia.png",
+      "texture": "cobblemon:textures/pokemon/generation3/deltakirlia/deltakirlia.png",
       "layers": [
         {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
           "name": "glow",
-          "texture": "cobblemon:textures/pokemon/generation3/deltakirlia_emissive.png",
           "emissive": true,
-          "translucent": true
+          "translucent": true,
+          "texture": "cobblemon:textures/pokemon/generation3/deltakirlia/deltakirlia_emissive.png"
         }
       ]
     },
@@ -23,15 +41,33 @@
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:deltakirlia.geo",
+      "model": "cobblemon:generation3_deltakirlia.geo",
       "poser": "cobblemon:generation3_deltakirlia",
-      "texture": "cobblemon:textures/pokemon/generation3/deltakirlia_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation3/deltakirlia/deltakirlia_shiny.png",
       "layers": [
         {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
           "name": "glow",
-          "texture": "cobblemon:textures/pokemon/generation3/deltakirlia_shiny_emissive.png",
           "emissive": true,
-          "translucent": true
+          "translucent": true,
+          "texture": "cobblemon:textures/pokemon/generation3/deltakirlia/deltakirlia_emissive_shiny.png"
         }
       ]
     }

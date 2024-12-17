@@ -24,7 +24,7 @@ public class Deeluge extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Despite evolving once, Deeluge still can't swim well. It's tube-like tail helps it keep afloat in waters."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTTORA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

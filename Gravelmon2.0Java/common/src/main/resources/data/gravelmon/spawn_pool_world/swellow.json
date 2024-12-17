@@ -4,6 +4,33 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epoch_swellow-01",
+      "pokemon": "swellow epoch",
+      "presets": [
+        "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "22-43",
+      "weight": 0.75,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_temperate"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:black_wool"
+          ]
+        }
+      }
+    },
+    {
       "id": "armiran_swellow-01",
       "pokemon": "swellow armiran",
       "presets": [
@@ -13,7 +40,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "22-35",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_mountain",
@@ -21,6 +48,14 @@
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:redstone_block"
+          ]
+        }
       }
     }
   ]

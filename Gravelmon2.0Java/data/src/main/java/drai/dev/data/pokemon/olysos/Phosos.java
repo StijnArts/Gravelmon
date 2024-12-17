@@ -24,7 +24,7 @@ public class Phosos extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("Its wings are said to possess the colors of the rainbow, and it is revered for its ability to heal and soothe with its mystical fire. Legends tell of its appearance being an omen of hope during times of crisis, as it descends from the skies to aid those in need."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OLYSOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

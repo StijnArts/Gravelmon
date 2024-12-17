@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Tullabaloo extends drai.dev.data.pokemon.Pokemon {
-    public Tullabaloo() {
+    public Tullabaloo(Stats stats) {
         super("Tullabaloo",
                 Type.PSYCHIC, Type.POISON,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.PERPLEXING), Ability.NEUTRALIZING_GAS,
                 8, 8,
                 new Stats(0,0,0,0,0,0), 120,
@@ -40,13 +35,17 @@ public class Tullabaloo extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HURRICANE,1)                        ),
                 List.of(Label.CROZOIC),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 13, 35, 2.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Tullabaloo");
 
     }

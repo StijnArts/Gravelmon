@@ -4,16 +4,32 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:amavi_papillo",
+      "model": "cobblemon:cutout_gravelmon_54_by_53.geo",
+      "poser": "cobblemon:cutout_gravelmon_54_by_53",
       "texture": "cobblemon:textures/pokemon/amavi/papillo.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/amavi/papillo_shiny.png"
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
     }
   ]
 }

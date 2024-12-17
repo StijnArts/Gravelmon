@@ -25,7 +25,7 @@ public class Wibble extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Wibble are very adaptive Pokemon, although they prefer to avoid conflict whenever they can manage to. They have a very hard outer shell and their horn attack can hold quite a punch."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.QAMOR),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -88,6 +88,5 @@ public class KaskadianLuxio extends Pokemon {
                 0.2, 0.3,
                 List.of());
         this.setLangFileName("Luxio");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

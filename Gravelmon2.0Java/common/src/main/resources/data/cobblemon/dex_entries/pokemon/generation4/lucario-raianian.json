@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lucario-raianian",
+  "speciesId": "cobblemon:lucario",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Raianian",
+      "unlockForms": [
+        "Raianian"
+      ]
+    }
+  ],
+  "variations": []
+}

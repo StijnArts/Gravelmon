@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:parasect-avalossian",
+  "speciesId": "cobblemon:parasect",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Avalossian",
+      "unlockForms": [
+        "Avalossian"
+      ]
+    }
+  ],
+  "variations": []
+}

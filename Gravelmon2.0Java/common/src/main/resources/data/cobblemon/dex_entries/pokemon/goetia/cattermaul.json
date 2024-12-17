@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:cattermaul",
+  "speciesId": "cobblemon:cattermaul",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

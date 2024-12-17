@@ -1,0 +1,61 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epoch_probopass-01",
+      "pokemon": "probopass epoch",
+      "presets": [
+        "foliage"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "31-49",
+      "weight": 1.6500000000000001,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_tropical_island"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_probopass-01",
+      "pokemon": "probopass epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "36-51",
+      "weight": 1.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_highlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isThundering": true
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:redstone_block"
+          ]
+        }
+      }
+    }
+  ]
+}

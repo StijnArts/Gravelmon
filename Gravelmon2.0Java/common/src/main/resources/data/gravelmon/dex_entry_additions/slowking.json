@@ -2,6 +2,24 @@
   "entryId": "cobblemon:slowking",
   "forms": [
     {
+      "displayForm": "Forman",
+      "unlockForms": [
+        "Forman"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Africanusan",
+      "unlockForms": [
+        "Africanusan"
+      ]
+    },
+    {
       "displayForm": "Novran",
       "unlockForms": [
         "Novran"

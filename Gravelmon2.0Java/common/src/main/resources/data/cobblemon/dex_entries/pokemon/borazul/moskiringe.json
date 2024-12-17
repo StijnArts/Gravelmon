@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:moskiringe",
+  "speciesId": "cobblemon:moskiringe",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

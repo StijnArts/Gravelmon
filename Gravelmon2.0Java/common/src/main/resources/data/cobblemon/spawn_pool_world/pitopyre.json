@@ -14,12 +14,20 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "11-42",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_volvanic",
           "#cobblemon:is_cave"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
       }
     }
   ]

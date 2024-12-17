@@ -24,7 +24,7 @@ public class Clunkey extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("In the forests, it's said that clunkey have been spotted on the rarest of occasions. Those who've found one have great luck for a year."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TOKAS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

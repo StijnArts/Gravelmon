@@ -6,17 +6,12 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Wotter extends drai.dev.data.pokemon.Pokemon {
-    public Wotter() {
+    public Wotter(Stats stats) {
         super("Wotter",
                 Type.WATER,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
+                5, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
@@ -65,13 +60,15 @@ public class Wotter extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WATERFALL,"tm")                        ),
                 List.of(Label.ENJIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 12, 41, 1.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.WATER_SURFACE),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Wotter");
 
     }

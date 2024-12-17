@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:orbiter",
+  "speciesId": "cobblemon:orbiter",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

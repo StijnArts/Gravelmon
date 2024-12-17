@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:lillipup",
+  "forms": [
+    {
+      "displayForm": "Fabelian",
+      "unlockForms": [
+        "Fabelian"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
+}

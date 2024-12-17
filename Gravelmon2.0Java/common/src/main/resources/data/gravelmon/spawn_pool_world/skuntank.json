@@ -4,6 +4,36 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epoch_skuntank-01",
+      "pokemon": "skuntank epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "41-54",
+      "weight": 1.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_temperate"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_plains"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:white_wool"
+          ]
+        }
+      }
+    },
+    {
       "id": "kaskadian_skuntank-01",
       "pokemon": "skuntank kaskadian",
       "presets": [
@@ -13,7 +43,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "34-48",
-      "weight": 8.0,
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy_forest"
@@ -25,6 +55,14 @@
         "biomes": [
           "#cobblemon:is_taiga"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:cauldron"
+          ]
+        }
       }
     }
   ]

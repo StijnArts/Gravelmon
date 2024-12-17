@@ -2,6 +2,30 @@
   "entryId": "cobblemon:chinchou",
   "forms": [
     {
+      "displayForm": "Raianian",
+      "unlockForms": [
+        "Raianian"
+      ]
+    },
+    {
+      "displayForm": "Forman",
+      "unlockForms": [
+        "Forman"
+      ]
+    },
+    {
+      "displayForm": "Mastenian",
+      "unlockForms": [
+        "Mastenian"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
       "displayForm": "Delta",
       "unlockForms": [
         "Delta"

@@ -4,6 +4,33 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epoch_tynamo-01",
+      "pokemon": "tynamo epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "6-24",
+      "weight": 6.75,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "varitasian_tynamo-01",
       "pokemon": "tynamo varitasian",
       "presets": [
@@ -14,13 +41,21 @@
       "context": "submerged",
       "bucket": "uncommon",
       "level": "5-42",
-      "weight": 7.0,
+      "weight": 10.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_mud"
+          ]
+        }
       }
     },
     {
@@ -33,13 +68,21 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "5-41",
-      "weight": 7.0,
+      "weight": 10.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_arid"
         ],
         "minSkyLight": 0,
         "maxSkyLight": 7
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_mud"
+          ]
+        }
       }
     }
   ]

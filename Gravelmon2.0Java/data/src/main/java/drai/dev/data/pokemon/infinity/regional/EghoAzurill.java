@@ -90,6 +90,6 @@ public class EghoAzurill extends Pokemon {
                 0.18, 0.3,
                 List.of());
         this.setLangFileName("Azurill");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

@@ -13,10 +13,10 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "34-53",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_magical"
+          "#cobblemon:is_spooky"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -25,6 +25,14 @@
         "biomes": [
           "#cobblemon:is_hills"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:raw_gold_block"
+          ]
+        }
       }
     }
   ]

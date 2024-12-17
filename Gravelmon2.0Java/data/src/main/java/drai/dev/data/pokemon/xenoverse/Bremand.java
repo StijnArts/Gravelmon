@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.xenoverse;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -70,6 +70,7 @@ public class Bremand extends Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 21, 39, 4.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
@@ -283,6 +284,6 @@ public class Bremand extends Pokemon {
                         List.of(SpawnPreset.NATURAL),
                         0.3, 0.3
                 )));
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

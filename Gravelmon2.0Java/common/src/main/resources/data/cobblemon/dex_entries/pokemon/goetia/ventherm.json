@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ventherm",
+  "speciesId": "cobblemon:ventherm",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

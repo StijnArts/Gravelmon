@@ -1,0 +1,34 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "glaboar-01",
+      "pokemon": "glaboar",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "23-48",
+      "weight": 0.75,
+      "condition": {
+        "biomes": [
+          "#cobblemon:has_season/summer"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_mud"
+          ]
+        }
+      }
+    }
+  ]
+}

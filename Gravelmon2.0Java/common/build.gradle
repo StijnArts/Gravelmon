@@ -17,4 +17,10 @@ dependencies {
 loom {
     accessWidenerPath = file "src/main/resources/gravelmon.accesswidener"
 }
+tasks.withType(Jar).configureEach {
+    zip64 = true
+}
 
+tasks.withType(Zip).configureEach {
+    zip64 = true
+}

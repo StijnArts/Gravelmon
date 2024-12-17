@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:takoyuki",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:embryo_takoyuki",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/takoyuki.png",
+      "layers": []
+    }
+  ]
+}

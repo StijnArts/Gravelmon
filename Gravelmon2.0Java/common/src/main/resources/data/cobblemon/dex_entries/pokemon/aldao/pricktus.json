@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:pricktus",
+  "speciesId": "cobblemon:pricktus",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

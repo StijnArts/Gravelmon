@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -124,6 +125,7 @@ public class DeltaCharmeleon extends Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 29, 1.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
@@ -131,9 +133,23 @@ public class DeltaCharmeleon extends Pokemon {
                 0.35, 0.3,
                 List.of());
         this.setLangFileName("Charmeleon");
-        this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(0.7);
         this.setHitbox(0.7,1.5);
+        getSpeciesFileData().addBasicVariation(this).addLayer(
+                new AnimatedLayerData("flame",
+                        List.of("flame/deltatail1", "flame/deltatail2", "flame/deltatail3", "flame/deltatail4"),
+                        10, true,
+                        Optional.of(true), Optional.of(false), false, false))
+                .addLayer(new SimpleTextureLayerData("glow", "deltacharmeleon_emissive",
+                        Optional.of(true), Optional.of(true), false, true));
+        getPosingFileData().setPortraitData( 1.8f, new Vector3(-0.3, 0.6, 0));
+        getPosingFileData().setProfileData( 0.65f, new Vector3(0, 0.8, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().clearPoseTypes(),
+                AnimationData.walkingAnimation().withLook()
+        ));
+        getPosingFileData().setFaint("bedrock(deltacharmeleon, faint)");
     }
 }

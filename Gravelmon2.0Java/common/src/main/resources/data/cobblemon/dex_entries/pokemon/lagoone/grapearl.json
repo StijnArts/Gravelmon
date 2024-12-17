@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:grapearl",
+  "speciesId": "cobblemon:grapearl",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

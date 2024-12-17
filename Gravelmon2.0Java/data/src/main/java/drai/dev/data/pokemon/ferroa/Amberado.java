@@ -116,8 +116,7 @@ public class Amberado extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.FERROA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 33, 58, 3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD))
                 ), List.of(),
                 List.of(SpawnPreset.HONEY_TREE),
                 0.28, 0.3,

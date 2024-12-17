@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -106,6 +106,7 @@ public class DeltaHuntail extends Pokemon {
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 30, 46, 0.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
@@ -115,6 +116,5 @@ public class DeltaHuntail extends Pokemon {
         this.setCanBreathUnderwater(true);
         this.setCanSwim(true);
         this.setAvoidsLand(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:donkeyata",
+  "speciesId": "cobblemon:donkeyata",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

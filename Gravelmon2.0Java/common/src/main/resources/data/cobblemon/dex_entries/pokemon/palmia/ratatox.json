@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ratatox",
+  "speciesId": "cobblemon:ratatox",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:agona",
+  "speciesId": "cobblemon:agona",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

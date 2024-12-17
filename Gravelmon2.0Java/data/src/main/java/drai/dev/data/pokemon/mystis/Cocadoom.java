@@ -24,7 +24,7 @@ public class Cocadoom extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FLYING),
                 List.of("The reason Pokémon constantly looks worried is because of what it sees in the future. It is believed to be able to temporarily project these visions onto others, sending them into fits of madness."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MYSTIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

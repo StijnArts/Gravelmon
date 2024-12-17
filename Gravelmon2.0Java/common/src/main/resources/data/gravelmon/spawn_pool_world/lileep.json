@@ -4,6 +4,32 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epoch_lileep-01",
+      "pokemon": "lileep epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "5-30",
+      "weight": 6.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_sky",
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:white_wool"
+          ]
+        }
+      }
+    },
+    {
       "id": "hizian_lileep-01",
       "pokemon": "lileep hizian",
       "presets": [
@@ -13,13 +39,21 @@
       "context": "seafloor",
       "bucket": "ultra-rare",
       "level": "16-35",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "biomes": [
           "#minecraft:is_deep_ocean"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
       }
     }
   ]

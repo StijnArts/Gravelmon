@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -114,7 +114,7 @@ public class DeltaTangrowth extends Pokemon {
                         ),
                 List.of(Label.GEN1,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 12, 35, 1.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 34, 57, 0.18, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
@@ -122,6 +122,5 @@ public class DeltaTangrowth extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Tangrowth");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

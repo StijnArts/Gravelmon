@@ -1,22 +1,32 @@
 {
-  "portraitScale": 2.5,
-  "portraitTranslation": [0.0, 1.1, 0.0],
-  "profileScale": 0.7,
-  "profileTranslation": [0.0, 0.7, 0.0],
   "head": "head_2",
+  "portraitScale": 2.5,
+  "portraitTranslation": [
+    0.0,
+    1.1,
+    0.0
+  ],
+  "profileScale": 0.699999988079071,
+  "profileTranslation": [
+    0.0,
+    0.7,
+    0.0
+  ],
   "poses": {
     "standing": {
       "poseName": "standing",
-      "allPoseTypes": true,
-      "transformTicks": 10,
       "animations": [
-	  "look",
-	  "bedrock(trishout_terrestrial, ground_idle)"
-	  ],
+        "look",
+        "bedrock(trishoutterrestrial, ground_idle)"
+      ],
+      "transformTicks": 10,
+      "allPoseTypes": true,
       "quirks": [
         {
-          "name": "blink",
-          "animations": ["bedrock(trishout_terrestrial, blink)"]
+          "animations": [
+            "bedrock(trishoutterrestrial, blink)"
+          ],
+          "name": "blink"
         }
       ]
     }

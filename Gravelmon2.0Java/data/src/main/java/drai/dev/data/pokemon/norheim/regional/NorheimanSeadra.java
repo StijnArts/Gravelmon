@@ -26,7 +26,7 @@ public class NorheimanSeadra extends drai.dev.data.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("queendra", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"45"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=female\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=female")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.THUNDER_WAVE,1),

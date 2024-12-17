@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:equarea",
+  "speciesId": "cobblemon:equarea",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

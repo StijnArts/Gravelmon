@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:spritzee-ivrisian",
+  "speciesId": "cobblemon:spritzee",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ivrisian",
+      "unlockForms": [
+        "Ivrisian"
+      ]
+    }
+  ],
+  "variations": []
+}

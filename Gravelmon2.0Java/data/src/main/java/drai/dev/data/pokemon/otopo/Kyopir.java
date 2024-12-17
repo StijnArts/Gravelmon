@@ -24,7 +24,7 @@ public class Kyopir extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MONSTER,EggGroup.FIELD),
                 List.of("Crime syndicates utilise Kyopir to construct blockades and hinder police involvement. It is quite obstinate and will only fight if they are given something in return."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

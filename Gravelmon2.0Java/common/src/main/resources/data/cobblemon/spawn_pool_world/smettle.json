@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "3-22",
-      "weight": 8.0,
+      "level": "5-31",
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_taiga"
@@ -25,6 +25,14 @@
         "biomes": [
           "#cobblemon:is_cold"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
       }
     }
   ]

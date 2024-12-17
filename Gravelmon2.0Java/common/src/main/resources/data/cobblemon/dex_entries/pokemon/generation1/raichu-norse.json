@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:raichu-norse",
+  "speciesId": "cobblemon:raichu",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Norse",
+      "unlockForms": [
+        "Norse"
+      ]
+    }
+  ],
+  "variations": []
+}

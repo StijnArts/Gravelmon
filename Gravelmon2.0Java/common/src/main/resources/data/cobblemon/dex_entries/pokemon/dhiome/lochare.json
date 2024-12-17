@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lochare",
+  "speciesId": "cobblemon:lochare",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

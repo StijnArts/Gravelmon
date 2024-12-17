@@ -25,7 +25,7 @@ public class Minicule extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("A strange pokemon that can freely alter its own size. They are extremely social with their own kind, almost as if drawn to each other by some unknown force."),
                 List.of(new EvolutionEntry("atomix", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.ALLY_SWITCH.getName()+"\"")))	),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.ALLY_SWITCH.getName())))	),
                 List.of(
                         new MoveLearnSetEntry(Move.MAGNET_RISE,1),
                         new MoveLearnSetEntry(Move.SHOCK_WAVE,5),

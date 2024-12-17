@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gorgompost",
+  "speciesId": "cobblemon:gorgompost",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

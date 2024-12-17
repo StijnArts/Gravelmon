@@ -1,0 +1,34 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "urnada-01",
+      "pokemon": "urnada",
+      "presets": [
+        "desert_pyramid"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "23-45",
+      "weight": 3.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_desert"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    }
+  ]
+}

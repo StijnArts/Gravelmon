@@ -17,7 +17,7 @@ public class Scimitear extends drai.dev.data.pokemon.Pokemon {
                         65,
                         110),
                 List.of(Ability.MOTOR_DRIVE), Ability.MOTOR_DRIVE,
-                8, 165,
+                13, 165,
                 new Stats(0,2,0,0,0,0), 45,
                 0.5,
                 180, ExperienceGroup.MEDIUM_FAST,
@@ -102,8 +102,8 @@ public class Scimitear extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STRENGTH,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 45, 61, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

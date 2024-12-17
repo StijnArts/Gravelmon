@@ -27,7 +27,7 @@ public class Wrassure extends drai.dev.data.pokemon.Pokemon {
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32"))),
                         new EvolutionEntry("wrassassin", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32"),
-                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "night")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AQUASLAP,1),
                         new MoveLearnSetEntry(Move.CUDDLE,4),

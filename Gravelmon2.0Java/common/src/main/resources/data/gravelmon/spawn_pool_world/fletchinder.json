@@ -4,6 +4,33 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epoch_fletchinder-01",
+      "pokemon": "fletchinder epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "17-32",
+      "weight": 1.7999999999999998,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:redstone_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "ayreian_fletchinder-01",
       "pokemon": "fletchinder ayreian",
       "presets": [
@@ -13,7 +40,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "17-39",
-      "weight": 5.0,
+      "weight": 7.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"
@@ -21,6 +48,14 @@
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "timeRange": "day"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     }
   ]

@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "3-19",
-      "weight": 7.0,
+      "weight": 10.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_overworld"
@@ -26,6 +26,14 @@
         "biomes": [
           "#cobblemon:is_cold"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:white_wool"
+          ]
+        }
       }
     }
   ]

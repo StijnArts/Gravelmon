@@ -24,7 +24,7 @@ public class Monokron extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("It's energy source streams from it's back. The environment around itself disorts into very simplified geometric shapes. The colours evaporate and everything becomes one."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OLYSOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Histerijeist extends drai.dev.data.pokemon.Pokemon {
-    public Histerijeist() {
+    public Histerijeist(Stats stats) {
         super("Histerijeist",
                 Type.DARK, Type.FLYING,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 18, 340,
                 new Stats(0,0,0,0,0,0), 80,
@@ -24,7 +19,7 @@ public class Histerijeist extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FLYING,EggGroup.AMORPHOUS),
                 List.of("These 'Mons have learned to make amusing noises to make people laugh, and seem to be a favorite among the traveling carnivals that roam Urzavos."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.URZAVOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

@@ -24,7 +24,7 @@ public class NovranBonsly extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("Its body has developed to imitate the trees indigenous to Novrai. It buries itself in snow, leaving only its tough, prickly cap exposed."),
                 List.of(new EvolutionEntry("novransudowoodo", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.MIMIC.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.MIMIC.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.COPYCAT,1),
                         new MoveLearnSetEntry(Move.FLAIL,5),

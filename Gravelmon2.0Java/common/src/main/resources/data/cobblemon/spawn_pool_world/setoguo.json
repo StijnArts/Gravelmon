@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "38-57",
-      "weight": 0.9,
+      "weight": 1.35,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"
@@ -25,6 +25,14 @@
         "biomes": [
           "#cobblemon:is_forest"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:white_wool"
+          ]
+        }
       }
     }
   ]

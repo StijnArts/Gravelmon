@@ -24,16 +24,35 @@ public class Lochare extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD),
                 List.of("With its massive strength it can change the course of a river. It often competes in wrestling matches with other Lochare to prove its might."),
                 List.of(),
-                List.of(                        ),
+                List.of(
+                        new MoveLearnSetEntry(Move.TAIL_WHIP,1),
+                        new MoveLearnSetEntry(Move.BUBBLE,6),
+                        new MoveLearnSetEntry(Move.FURY_ATTACK,11),
+                        new MoveLearnSetEntry(Move.FOCUS_ENERGY,16),
+                        new MoveLearnSetEntry(Move.WHIRLPOOL,19),
+                        new MoveLearnSetEntry(Move.POWERUP_PUNCH,20),
+                        new MoveLearnSetEntry(Move.BUBBLE_BEAM,25),
+                        new MoveLearnSetEntry(Move.AQUA_TAIL,27),
+                        new MoveLearnSetEntry(Move.BRICK_BREAK,30),
+                        new MoveLearnSetEntry(Move.SUBMISSION,33),
+                        new MoveLearnSetEntry(Move.IRON_HEAD,36),
+                        new MoveLearnSetEntry(Move.RAIN_DANCE,39),
+                        new MoveLearnSetEntry(Move.HYDRO_PUMP,40),
+                        new MoveLearnSetEntry(Move.HEAD_CHARGE,44),
+                        new MoveLearnSetEntry(Move.FOCUS_PUNCH,50),
+                        new MoveLearnSetEntry(Move.CLOSE_COMBAT,61)
+                ),
                 List.of(Label.DHIOME),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 53, 0.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
+                ), List.of( new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_TAIGA))),
+                List.of(SpawnPreset.NATURAL, SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Lochare");
 
     }

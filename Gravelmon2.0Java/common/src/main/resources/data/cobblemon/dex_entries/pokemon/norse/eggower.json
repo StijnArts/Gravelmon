@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:eggower",
+  "speciesId": "cobblemon:eggower",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

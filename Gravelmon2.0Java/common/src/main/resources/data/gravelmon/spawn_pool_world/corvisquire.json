@@ -4,6 +4,39 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epoch_corvisquire-01",
+      "pokemon": "corvisquire epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "18-33",
+      "weight": 1.6500000000000001,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#cobblemon:has_season/autumn"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:black_wool"
+          ]
+        }
+      }
+    },
+    {
       "id": "norheiman_corvisquire-01",
       "pokemon": "corvisquire norheiman",
       "presets": [
@@ -13,7 +46,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "18-37",
-      "weight": 0.9,
+      "weight": 1.35,
       "condition": {
         "biomes": [
           "#cobblemon:is_tundra",
@@ -21,6 +54,14 @@
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:hay_block"
+          ]
+        }
       }
     }
   ]

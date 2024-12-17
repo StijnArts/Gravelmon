@@ -13,13 +13,21 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "45-58",
-      "weight": 0.8,
+      "weight": 1.2000000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
       }
     }
   ]

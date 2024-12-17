@@ -2,6 +2,12 @@
   "entryId": "cobblemon:venusaur",
   "forms": [
     {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
       "displayForm": "Egho",
       "unlockForms": [
         "Egho"

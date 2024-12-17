@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:komala-mastenian",
+  "speciesId": "cobblemon:komala",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Mastenian",
+      "unlockForms": [
+        "Mastenian"
+      ]
+    }
+  ],
+  "variations": []
+}

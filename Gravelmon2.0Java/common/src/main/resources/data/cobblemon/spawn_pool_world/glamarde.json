@@ -13,13 +13,21 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "33-54",
-      "weight": 0.09,
+      "weight": 0.135,
       "condition": {
         "biomes": [
           "#cobblemon:is_grassland"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:amethyst_block"
+          ]
+        }
       }
     }
   ]

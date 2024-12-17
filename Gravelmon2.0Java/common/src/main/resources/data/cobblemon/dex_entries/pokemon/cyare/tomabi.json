@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tomabi",
+  "speciesId": "cobblemon:tomabi",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

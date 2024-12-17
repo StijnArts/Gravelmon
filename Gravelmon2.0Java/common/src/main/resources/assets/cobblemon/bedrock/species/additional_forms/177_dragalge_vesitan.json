@@ -1,0 +1,37 @@
+{
+  "species": "cobblemon:dragalge",
+  "order": 177,
+  "variations": [
+    {
+      "aspects": [
+        "vesitan"
+      ],
+      "model": "cobblemon:cutout_gravelmon_79_by_96.geo",
+      "poser": "cobblemon:cutout_gravelmon_79_by_96",
+      "texture": "cobblemon:textures/pokemon/generation6/vesitandragalge.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
+    }
+  ]
+}

@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Gaiaminth extends drai.dev.data.pokemon.Pokemon {
-    public Gaiaminth() {
+    public Gaiaminth(Stats stats) {
         super("Gaiaminth",
                 Type.GROUND, Type.ROCK,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,
@@ -24,7 +19,7 @@ public class Gaiaminth extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.BUG,EggGroup.MINERAL),
                 List.of("Gaiaminths are a type of deep-soil creature that may grow to enormous sizes. It regularly absorbs nutrient-rich soil after crushing it using its drill-like mandible."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

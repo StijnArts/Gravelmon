@@ -24,7 +24,7 @@ public class Inphoeno extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD,EggGroup.FLYING),
                 List.of("A graceful Pokémon with powerful legs. By infusing their legs with heat, they can increase their kicks' power tenfold."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.PASTEL_ISLAND),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

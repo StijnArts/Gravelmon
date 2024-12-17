@@ -24,7 +24,7 @@ public class Eruptle extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.BUG),
                 List.of("Eruptle lifts its front arms over its head to create a menacing appearance due to its tiny stature. The secreted oil collected in its claws ignites the flame from its proboscis."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

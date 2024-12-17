@@ -42,7 +42,8 @@ public class Balas extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.MIDAMIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0004, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO))
+                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

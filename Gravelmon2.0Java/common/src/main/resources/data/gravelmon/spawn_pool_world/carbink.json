@@ -4,6 +4,33 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epoch_carbink-01",
+      "pokemon": "carbink epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "23-47",
+      "weight": 3.3000000000000003,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cave"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:glowstone"
+          ]
+        }
+      }
+    },
+    {
       "id": "ayreian_carbink-01",
       "pokemon": "carbink ayreian",
       "presets": [
@@ -13,7 +40,15 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "21-55",
-      "weight": 7.0
+      "weight": 10.5,
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:tuff"
+          ]
+        }
+      }
     }
   ]
 }

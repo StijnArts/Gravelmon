@@ -13,12 +13,20 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "23-54",
-      "weight": 0.5,
+      "weight": 0.75,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle",
           "#cobblemon:is_lush"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
       }
     }
   ]

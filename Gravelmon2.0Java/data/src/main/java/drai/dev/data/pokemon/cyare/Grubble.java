@@ -22,8 +22,9 @@ public class Grubble extends drai.dev.data.pokemon.Pokemon {
                 39, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("GRAHHDFDFDFGRDwooperFAHHH"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("pupive", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"7")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POISON_STING,1),
                         new MoveLearnSetEntry(Move.STRING_SHOT,1),
@@ -32,10 +33,10 @@ public class Grubble extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PIN_MISSILE,25)                        ),
                 List.of(Label.CYARE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 11, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_TAIGA))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

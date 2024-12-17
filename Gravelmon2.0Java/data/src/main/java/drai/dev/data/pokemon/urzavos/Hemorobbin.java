@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Hemorobbin extends drai.dev.data.pokemon.Pokemon {
-    public Hemorobbin() {
+    public Hemorobbin(Stats stats) {
         super("Hemorobbin",
                 Type.DARK, Type.BUG,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 19, 1873,
                 new Stats(0,0,0,0,0,0), 45,
@@ -24,7 +19,7 @@ public class Hemorobbin extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.BUG),
                 List.of("Though these 'Mons have a spiked, boney carapace, they still have an exposed spot on their back. The carapace can expand along with the ichor sack."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.URZAVOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

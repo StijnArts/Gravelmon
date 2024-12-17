@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:raticate-palmian",
+  "speciesId": "cobblemon:raticate",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Palmian",
+      "unlockForms": [
+        "Palmian"
+      ]
+    }
+  ],
+  "variations": []
+}

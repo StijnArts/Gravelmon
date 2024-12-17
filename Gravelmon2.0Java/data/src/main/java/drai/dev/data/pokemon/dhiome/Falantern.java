@@ -24,7 +24,7 @@ public class Falantern extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It keeps its wings closed unless it feels threatened. When open, the bright patterns stun their predators, allowing them to escape unharmed."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.DHIOME),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

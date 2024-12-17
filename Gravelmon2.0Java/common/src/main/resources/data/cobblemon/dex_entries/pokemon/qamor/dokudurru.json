@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:dokudurru",
+  "speciesId": "cobblemon:dokudurru",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

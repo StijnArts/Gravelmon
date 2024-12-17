@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:boggeyman",
+  "speciesId": "cobblemon:boggeyman",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

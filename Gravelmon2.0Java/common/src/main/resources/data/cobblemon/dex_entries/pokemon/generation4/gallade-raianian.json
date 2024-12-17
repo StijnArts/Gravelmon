@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gallade-raianian",
+  "speciesId": "cobblemon:gallade",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Raianian",
+      "unlockForms": [
+        "Raianian"
+      ]
+    }
+  ],
+  "variations": []
+}

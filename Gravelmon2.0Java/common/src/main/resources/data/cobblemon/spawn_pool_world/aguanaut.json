@@ -13,11 +13,19 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "32-42",
-      "weight": 0.1,
+      "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_coast"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     }
   ]

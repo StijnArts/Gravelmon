@@ -24,7 +24,7 @@ public class Melobaa extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD),
                 List.of("Its wool is difficult to cut and grows back quickly. Herds of them are a common sight in the mountains of Dhiome."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.DHIOME),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

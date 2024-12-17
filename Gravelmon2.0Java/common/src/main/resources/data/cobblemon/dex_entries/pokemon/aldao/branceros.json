@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:branceros",
+  "speciesId": "cobblemon:branceros",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

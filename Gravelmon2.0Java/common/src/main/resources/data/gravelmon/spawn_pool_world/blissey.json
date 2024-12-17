@@ -4,8 +4,33 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fligian_blissey-01",
-      "pokemon": "blissey fligian",
+      "id": "epoch_blissey-01",
+      "pokemon": "blissey epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "40-75",
+      "weight": 0.44999999999999996,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:white_wool"
+          ]
+        }
+      }
+    },
+    {
+      "id": "avalossian_blissey-01",
+      "pokemon": "blissey avalossian",
       "presets": [
         "natural"
       ],
@@ -13,11 +38,19 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "43-56",
-      "weight": 0.1,
+      "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_forest"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
       }
     },
     {
@@ -30,7 +63,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "45-70",
-      "weight": 0.3,
+      "weight": 0.44999999999999996,
       "condition": {
         "biomes": [
           "#cobblemon:is_savanna"
@@ -38,6 +71,14 @@
         "timeRange": "day",
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:target_block"
+          ]
+        }
       }
     }
   ]

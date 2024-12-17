@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:fashinda",
+  "speciesId": "cobblemon:fashinda",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -4,6 +4,58 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "forman_flaaffy-01",
+      "pokemon": "flaaffy forman",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "15-36",
+      "weight": 2.25,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:cauldron"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_flaaffy-01",
+      "pokemon": "flaaffy epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "16-33",
+      "weight": 1.7999999999999998,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
+          ]
+        }
+      }
+    },
+    {
       "id": "aristosian_flaaffy-01",
       "pokemon": "flaaffy aristosian",
       "presets": [
@@ -13,7 +65,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "15-37",
-      "weight": 0.9,
+      "weight": 1.35,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"
@@ -25,23 +77,14 @@
         "biomes": [
           "#cobblemon:is_hills"
         ]
-      }
-    },
-    {
-      "id": "mythian_flaaffy-01",
-      "pokemon": "flaaffy mythian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "15-36",
-      "weight": 0.9,
-      "condition": {
-        "biomes": [
-          "#cobblemon:nether/is_forest"
-        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:redstone_block"
+          ]
+        }
       }
     }
   ]

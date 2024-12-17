@@ -24,7 +24,7 @@ public class Folfaun extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD,EggGroup.GRASS),
                 List.of("A peaceful Pokemon that like to live in the woods. It used to be plentiful in ancient times, but it was killed for its pelt, making it exceedingly difficult to locate now."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
