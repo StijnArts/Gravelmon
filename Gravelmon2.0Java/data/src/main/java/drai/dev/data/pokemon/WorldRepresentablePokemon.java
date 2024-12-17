@@ -40,9 +40,9 @@ public abstract class WorldRepresentablePokemon {
             ModelJsonWriter.writeModel(abstractPokemon, getPlaceholderImageWidth(abstractPokemon), getPlaceholderImageHeight(abstractPokemon), resourcesDir, false);
 
             if(femalePlaceholderImage != null) {
-                double femaleSizeFactor = 96d / getFemalePlaceholderMaxSideSize(abstractPokemon);
-                femalePosingFileData.portraitScale *= femaleSizeFactor;
-                femalePosingFileData.profileScale *= femaleSizeFactor;
+//                double femaleSizeFactor = 96d / getFemalePlaceholderMaxSideSize(abstractPokemon);
+//                femalePosingFileData.portraitScale *= femaleSizeFactor;
+//                femalePosingFileData.profileScale *= femaleSizeFactor;
                 femalePosingFileData.animations.add(new AnimationData("profile", List.of(PoseType.PROFILE), List.of("pc_fix"), List.of(), 10));
                 femalePosingFileData.animations.add(new AnimationData("portrait", List.of(PoseType.NONE, PoseType.PORTRAIT), List.of("summary_fix"), List.of(), 10));
                 ModelJsonWriter.writeModel(abstractPokemon, getFemalePlaceholderImageWidth(abstractPokemon), getFemalePlaceholderImageHeight(abstractPokemon), resourcesDir, true);
@@ -117,8 +117,8 @@ public abstract class WorldRepresentablePokemon {
         double newHitboxWidth = Math.min(6 * factor, 3);
         double newHitboxHeight =  Math.min(6 * factor, 3);
         abstractPokemon.setHitbox(newHitboxWidth, newHitboxHeight);
-        posingFileData.portraitScale *= factor;
-        posingFileData.profileScale *= factor;
+//        posingFileData.portraitScale *= factor;
+//        posingFileData.profileScale *= factor;
     }
 
     int getPlaceholderImageWidth(AbstractPokemon abstractPokemon) {
