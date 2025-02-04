@@ -64,7 +64,8 @@
   ],
   "labels": [
     "raian",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.chubchu.desc"
@@ -84,7 +85,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3222,
+  "nationalPokedexNumber": 3220,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

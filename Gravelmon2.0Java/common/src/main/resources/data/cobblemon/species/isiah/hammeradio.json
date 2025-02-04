@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "wastered",
-  "baseScale": 0.563265306122449,
+  "baseScale": 0.8117647058823529,
   "cannotDynamax": false,
   "abilities": [
     "pressure",
@@ -90,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5762,
+  "nationalPokedexNumber": 5760,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

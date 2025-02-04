@@ -63,7 +63,8 @@
   ],
   "labels": [
     "raian",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.dagekko.desc"
@@ -87,7 +88,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3236,
+  "nationalPokedexNumber": 3234,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

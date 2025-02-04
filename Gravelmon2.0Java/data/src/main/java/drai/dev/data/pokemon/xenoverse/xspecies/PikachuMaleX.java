@@ -93,7 +93,7 @@ public class PikachuMaleX extends Pokemon {
         getPosingFileData().setProfileData( .65f, new Vector3(0, 0.78, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().withBlink().clearPoseTypes(),
+                AnimationData.standingAnimation().withLook().withBlink().markAsBackupPose(),
                 AnimationData.walkingAnimation().withBlink().withLook()
         ));
     }

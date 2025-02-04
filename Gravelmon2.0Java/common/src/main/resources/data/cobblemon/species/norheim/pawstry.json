@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "kittry",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.5777777777777777,
   "cannotDynamax": false,
   "abilities": [
     "cutecharm",
@@ -96,7 +96,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4217,
+  "nationalPokedexNumber": 4215,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

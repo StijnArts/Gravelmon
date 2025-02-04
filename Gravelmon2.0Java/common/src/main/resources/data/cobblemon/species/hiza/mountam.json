@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "cragoat",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.5647058823529413,
   "cannotDynamax": false,
   "abilities": [
     "sturdy",
@@ -86,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2912,
+  "nationalPokedexNumber": 2910,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

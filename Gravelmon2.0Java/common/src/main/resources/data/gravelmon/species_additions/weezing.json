@@ -276,7 +276,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "koffing form=qamoran",
-      "baseScale": 0.3918367346938776,
+      "baseScale": 0.4173913043478261,
       "cannotDynamax": false,
       "abilities": [
         "levitate",

@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.14693877551020407,
+  "baseScale": 0.23225806451612901,
   "cannotDynamax": false,
   "abilities": [
     "motordrive"
@@ -99,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2923,
+  "nationalPokedexNumber": 2921,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

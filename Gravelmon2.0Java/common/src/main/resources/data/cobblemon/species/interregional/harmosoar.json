@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "marchawk",
-  "baseScale": 0.46530612244897956,
+  "baseScale": 0.475,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -93,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1657,
+  "nationalPokedexNumber": 1655,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

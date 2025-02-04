@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pubble",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.3310344827586207,
   "cannotDynamax": false,
   "abilities": [
     "torrent",
@@ -165,7 +165,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5987,
+  "nationalPokedexNumber": 5985,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

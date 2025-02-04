@@ -70,7 +70,8 @@
   ],
   "labels": [
     "not_modeled",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.igon.desc"
@@ -94,7 +95,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3506,
+  "nationalPokedexNumber": 3504,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

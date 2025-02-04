@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "contagice",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.5023255813953489,
   "cannotDynamax": false,
   "abilities": [
     "adaptability",
@@ -160,7 +160,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6890,
+  "nationalPokedexNumber": 6888,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

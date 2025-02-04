@@ -63,7 +63,8 @@
   ],
   "labels": [
     "fra",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.awootic.desc"
@@ -87,7 +88,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3892,
+  "nationalPokedexNumber": 3890,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

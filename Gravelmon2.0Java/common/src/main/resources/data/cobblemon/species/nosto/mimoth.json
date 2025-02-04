@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "mockoon",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.5373134328358209,
   "cannotDynamax": false,
   "abilities": [
     "shielddust",
@@ -142,7 +142,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4688,
+  "nationalPokedexNumber": 4686,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

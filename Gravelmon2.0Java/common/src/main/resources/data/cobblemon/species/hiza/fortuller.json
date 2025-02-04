@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.36226415094339626,
   "cannotDynamax": false,
   "abilities": [
     "infiltrator",
@@ -104,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2979,
+  "nationalPokedexNumber": 2977,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

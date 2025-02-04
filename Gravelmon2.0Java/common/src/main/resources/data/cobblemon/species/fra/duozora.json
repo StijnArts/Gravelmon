@@ -68,7 +68,8 @@
     "fra",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.duozora.desc"
@@ -92,7 +93,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3899,
+  "nationalPokedexNumber": 3897,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

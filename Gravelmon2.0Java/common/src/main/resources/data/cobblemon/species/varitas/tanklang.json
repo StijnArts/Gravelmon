@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "klang form=varitasian",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.6084507042253521,
   "cannotDynamax": false,
   "abilities": [
     "plus",
@@ -129,7 +129,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2432,
+  "nationalPokedexNumber": 2430,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

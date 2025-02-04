@@ -69,7 +69,8 @@
   "labels": [
     "not_modeled",
     "fakemonevolution",
-    "norse"
+    "norse",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.vesgrass.desc"
@@ -78,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3441,
+  "nationalPokedexNumber": 3439,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

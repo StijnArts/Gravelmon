@@ -70,7 +70,8 @@
     "raian",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.dodenius.desc"
@@ -79,7 +80,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3314,
+  "nationalPokedexNumber": 3312,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

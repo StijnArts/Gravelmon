@@ -15,13 +15,21 @@
     "cry": "q.bedrock_stateful('fortifry', 'cry')"
   },
   "poses": {
-    "standing": {
-      "poseName": "standing",
-      "animations": [
-        "bedrock(fortifry, ground_idle)"
+    "none": {
+      "poseName": "none",
+      "animations": [],
+      "poseTypes": [
+        "SLEEP",
+        "HOVER",
+        "FLY",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
       ],
       "transformTicks": 10,
-      "allPoseTypes": true,
       "quirks": [
         {
           "animations": [
@@ -68,17 +76,6 @@
           "name": "blink"
         }
       ]
-    },
-    "sleeping": {
-      "poseName": "sleeping",
-      "animations": [
-        "bedrock(fortifry, sleep)"
-      ],
-      "poseTypes": [
-        "SLEEP"
-      ],
-      "transformTicks": 10,
-      "quirks": []
     }
   }
 }

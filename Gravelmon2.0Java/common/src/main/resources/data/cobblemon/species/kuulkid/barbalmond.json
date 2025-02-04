@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "questnut",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.6352941176470589,
   "cannotDynamax": false,
   "abilities": [
     "moxie"
@@ -77,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2746,
+  "nationalPokedexNumber": 2744,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

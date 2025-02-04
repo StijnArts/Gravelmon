@@ -69,7 +69,8 @@
   ],
   "labels": [
     "not_modeled",
-    "norse"
+    "norse",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.vedotel.desc"
@@ -93,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3395,
+  "nationalPokedexNumber": 3393,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

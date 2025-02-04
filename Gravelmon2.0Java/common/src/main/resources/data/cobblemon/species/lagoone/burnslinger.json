@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "flintlaw",
-  "baseScale": 0.29387755102040813,
+  "baseScale": 0.31304347826086953,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -90,7 +90,7 @@
   "weight": 630,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1574,
+  "nationalPokedexNumber": 1572,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

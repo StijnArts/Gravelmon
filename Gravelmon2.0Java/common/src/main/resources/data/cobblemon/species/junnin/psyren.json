@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "nesshoal",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.4363636363636364,
   "cannotDynamax": false,
   "abilities": [
     "torrent"
@@ -165,7 +165,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3135,
+  "nationalPokedexNumber": 3133,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

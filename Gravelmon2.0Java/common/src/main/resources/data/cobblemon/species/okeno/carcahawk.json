@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "carcaheet",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.36521739130434777,
   "cannotDynamax": false,
   "abilities": [
     "flashfire",
@@ -127,7 +127,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6041,
+  "nationalPokedexNumber": 6039,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

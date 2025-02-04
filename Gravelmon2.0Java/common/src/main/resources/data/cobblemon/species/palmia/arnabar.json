@@ -64,7 +64,8 @@
   ],
   "labels": [
     "not_modeled",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.arnabar.desc"
@@ -88,7 +89,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3465,
+  "nationalPokedexNumber": 3463,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

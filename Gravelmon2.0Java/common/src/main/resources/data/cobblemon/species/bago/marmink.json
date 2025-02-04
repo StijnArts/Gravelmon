@@ -64,7 +64,8 @@
   ],
   "labels": [
     "bago",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.marmink.desc"
@@ -88,7 +89,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3693,
+  "nationalPokedexNumber": 3691,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

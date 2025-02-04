@@ -63,7 +63,8 @@
   ],
   "labels": [
     "mahal",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.wavalo.desc"
@@ -72,7 +73,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7588,
+  "nationalPokedexNumber": 7586,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

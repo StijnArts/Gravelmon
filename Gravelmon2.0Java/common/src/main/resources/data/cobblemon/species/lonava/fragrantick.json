@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "aromatick",
-  "baseScale": 0.1714285714285714,
+  "baseScale": 0.2545454545454545,
   "cannotDynamax": false,
   "abilities": [
     "poisontouch",
@@ -150,7 +150,7 @@
   "weight": 4,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4456,
+  "nationalPokedexNumber": 4454,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

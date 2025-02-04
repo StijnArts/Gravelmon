@@ -173,7 +173,7 @@ public class DeltaMeloetta extends Pokemon {
         getPosingFileData().setProfileData( .6f, new Vector3(0, .8, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().clearPoseTypes(),
+                AnimationData.standingAnimation().withLook().markAsBackupPose(),
                 AnimationData.flyingAnimation().withLook().addPoseType(PoseType.HOVER).addPoseType(PoseType.WALK)
         ));
     }

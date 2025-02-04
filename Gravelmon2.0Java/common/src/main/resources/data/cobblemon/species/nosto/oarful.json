@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "buttereef",
-  "baseScale": 0.563265306122449,
+  "baseScale": 0.6,
   "cannotDynamax": false,
   "abilities": [
     "swiftswim"
@@ -170,7 +170,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4714,
+  "nationalPokedexNumber": 4712,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

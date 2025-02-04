@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.0979591836734694,
+  "baseScale": 0.22325581395348837,
   "cannotDynamax": false,
   "abilities": [
     "cursedbody",
@@ -168,7 +168,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6845,
+  "nationalPokedexNumber": 6843,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "scyther form=hizian",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.4645161290322581,
   "cannotDynamax": false,
   "abilities": [
     "dazzling",
@@ -87,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3012,
+  "nationalPokedexNumber": 3010,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

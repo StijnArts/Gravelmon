@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "seasnug",
-  "baseScale": 0.5387755102040817,
+  "baseScale": 0.7135135135135137,
   "cannotDynamax": false,
   "abilities": [
     "forewarn",
@@ -92,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5409,
+  "nationalPokedexNumber": 5407,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

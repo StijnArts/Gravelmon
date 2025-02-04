@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "dragonair form=norheiman",
-  "baseScale": 0.636734693877551,
+  "baseScale": 0.8210526315789474,
   "cannotDynamax": false,
   "abilities": [
     "battlearmor",
@@ -90,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4292,
+  "nationalPokedexNumber": 4290,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

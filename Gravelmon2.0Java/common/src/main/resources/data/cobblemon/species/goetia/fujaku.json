@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "kojaku",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.5454545454545454,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -77,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8200,
+  "nationalPokedexNumber": 8198,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

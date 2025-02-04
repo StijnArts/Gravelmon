@@ -63,7 +63,8 @@
   ],
   "labels": [
     "aroma",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.montrio.desc"
@@ -72,7 +73,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7833,
+  "nationalPokedexNumber": 7831,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

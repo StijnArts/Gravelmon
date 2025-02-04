@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "djironn",
-  "baseScale": 0.5142857142857143,
+  "baseScale": 0.63,
   "cannotDynamax": false,
   "abilities": [
     "steelyspirit",
@@ -169,7 +169,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6837,
+  "nationalPokedexNumber": 6835,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

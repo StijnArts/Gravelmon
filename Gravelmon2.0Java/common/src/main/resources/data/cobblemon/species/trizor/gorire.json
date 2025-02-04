@@ -63,7 +63,8 @@
   ],
   "labels": [
     "not_modeled",
-    "trizor"
+    "trizor",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.gorire.desc"
@@ -87,7 +88,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3589,
+  "nationalPokedexNumber": 3587,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

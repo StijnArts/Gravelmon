@@ -62,7 +62,8 @@
   "moves": [],
   "labels": [
     "aroma",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.terapota.desc"
@@ -71,7 +72,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7522,
+  "nationalPokedexNumber": 7520,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

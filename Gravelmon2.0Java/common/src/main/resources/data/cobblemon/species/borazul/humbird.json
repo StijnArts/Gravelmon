@@ -69,7 +69,8 @@
   ],
   "labels": [
     "borazul",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.humbird.desc"
@@ -93,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3914,
+  "nationalPokedexNumber": 3912,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

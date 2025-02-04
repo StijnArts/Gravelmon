@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "ottoil",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.42197802197802203,
   "cannotDynamax": false,
   "abilities": [
     "damp",
@@ -96,7 +96,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5178,
+  "nationalPokedexNumber": 5176,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

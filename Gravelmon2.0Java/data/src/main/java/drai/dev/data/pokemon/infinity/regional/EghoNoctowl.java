@@ -109,7 +109,7 @@ public class EghoNoctowl extends Pokemon {
         getPosingFileData().setPortraitData( 1.7f, new Vector3(-0.3, 1, 0.0));
         getPosingFileData().setProfileData( .7f, new Vector3(0.0, .6825, -20.0));
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withBlink().clearPoseTypes(),
+                AnimationData.standingAnimation().withBlink().markAsBackupPose(),
                 AnimationData.flyingAnimation().withLook()
                         .addAnimation(1,"q.sine_wing_flap(0.9, 0.9, 0, 'z', 'wing_left', 'wing_right')")
                         .withBlink(),

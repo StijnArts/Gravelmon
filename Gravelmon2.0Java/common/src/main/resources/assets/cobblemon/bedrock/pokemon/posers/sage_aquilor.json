@@ -22,9 +22,18 @@
         "look",
         "bedrock(aquilor, ground_idle)"
       ],
+      "poseTypes": [
+        "FLOAT",
+        "SWIM",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
+      ],
       "transformTicks": 10,
       "isBattle": false,
-      "allPoseTypes": true,
       "quirks": [
         {
           "animations": [

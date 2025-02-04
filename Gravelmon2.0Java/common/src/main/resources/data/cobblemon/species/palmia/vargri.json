@@ -65,7 +65,8 @@
   ],
   "labels": [
     "not_modeled",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.vargri.desc"
@@ -89,7 +90,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3497,
+  "nationalPokedexNumber": 3495,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

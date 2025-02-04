@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "cubeat",
-  "baseScale": 0.29387755102040813,
+  "baseScale": 0.48,
   "cannotDynamax": false,
   "abilities": [
     "hustle",
@@ -121,7 +121,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5588,
+  "nationalPokedexNumber": 5586,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

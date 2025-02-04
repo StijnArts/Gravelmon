@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "spinotap",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.4675324675324675,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -79,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8214,
+  "nationalPokedexNumber": 8212,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

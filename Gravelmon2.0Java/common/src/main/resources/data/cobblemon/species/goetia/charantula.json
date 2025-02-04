@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "tarantorch",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.5368421052631579,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -77,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7897,
+  "nationalPokedexNumber": 7895,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

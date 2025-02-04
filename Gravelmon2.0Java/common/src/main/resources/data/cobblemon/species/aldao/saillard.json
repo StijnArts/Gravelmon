@@ -68,7 +68,8 @@
     "aldao",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.saillard.desc"
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3765,
+  "nationalPokedexNumber": 3763,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

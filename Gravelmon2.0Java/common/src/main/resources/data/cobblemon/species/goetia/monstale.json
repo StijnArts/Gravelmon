@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "monstauk",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.5230769230769231,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -79,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8191,
+  "nationalPokedexNumber": 8189,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

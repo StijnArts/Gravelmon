@@ -65,7 +65,8 @@
   ],
   "labels": [
     "ferran",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.clamoon.desc"
@@ -74,7 +75,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7518,
+  "nationalPokedexNumber": 7516,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

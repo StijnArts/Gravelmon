@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "snowitall",
-  "baseScale": 0.14693877551020407,
+  "baseScale": 0.20281690140845068,
   "cannotDynamax": false,
   "abilities": [
     "neuroforce",
@@ -165,7 +165,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6874,
+  "nationalPokedexNumber": 6872,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

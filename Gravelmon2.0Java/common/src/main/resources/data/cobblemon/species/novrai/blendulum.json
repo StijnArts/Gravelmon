@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "quaintbrush",
-  "baseScale": 0.46530612244897956,
+  "baseScale": 0.7124999999999999,
   "cannotDynamax": false,
   "abilities": [
     "magician",
@@ -176,7 +176,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6796,
+  "nationalPokedexNumber": 6794,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "maningauz",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.5032258064516129,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -79,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8174,
+  "nationalPokedexNumber": 8172,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

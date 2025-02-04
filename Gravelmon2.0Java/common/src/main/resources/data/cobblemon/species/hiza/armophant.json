@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.46530612244897956,
+  "baseScale": 0.5241379310344827,
   "cannotDynamax": false,
   "abilities": [
     "bulletproof",
@@ -90,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3038,
+  "nationalPokedexNumber": 3036,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

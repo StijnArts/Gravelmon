@@ -72,7 +72,8 @@
     "not_modeled",
     "fakemon",
     "fakemonevolution",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.cynomotar.desc"
@@ -81,7 +82,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3471,
+  "nationalPokedexNumber": 3469,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

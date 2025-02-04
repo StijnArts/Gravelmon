@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "spudspark",
-  "baseScale": 0.1714285714285714,
+  "baseScale": 0.27096774193548384,
   "cannotDynamax": false,
   "abilities": [
     "electromorphosis",
@@ -77,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2768,
+  "nationalPokedexNumber": 2766,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

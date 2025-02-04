@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "icykandji",
-  "baseScale": 0.29387755102040813,
+  "baseScale": 0.39452054794520547,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -81,7 +81,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8137,
+  "nationalPokedexNumber": 8135,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

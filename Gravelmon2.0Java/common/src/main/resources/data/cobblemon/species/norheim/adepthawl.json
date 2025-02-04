@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "aprintice",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.5230769230769231,
   "cannotDynamax": false,
   "abilities": [
     "snowwarning",
@@ -88,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4225,
+  "nationalPokedexNumber": 4223,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

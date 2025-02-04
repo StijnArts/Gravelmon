@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "inviseel",
-  "baseScale": 0.7836734693877552,
+  "baseScale": 0.9142857142857143,
   "cannotDynamax": false,
   "abilities": [
     "strongjaw",
@@ -123,7 +123,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4534,
+  "nationalPokedexNumber": 4532,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

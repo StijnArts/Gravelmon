@@ -7,7 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.12244897959183673,
+  "baseScale": 0.23529411764705882,
   "cannotDynamax": false,
   "abilities": [
     "punkrock"
@@ -103,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5397,
+  "nationalPokedexNumber": 5395,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

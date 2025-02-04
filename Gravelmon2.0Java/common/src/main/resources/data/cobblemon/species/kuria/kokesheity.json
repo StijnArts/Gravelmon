@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "kotsumo",
-  "baseScale": 0.29387755102040813,
+  "baseScale": 0.39999999999999997,
   "cannotDynamax": false,
   "abilities": [
     "serenegrace",
@@ -93,7 +93,7 @@
   "weight": 175,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5640,
+  "nationalPokedexNumber": 5638,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

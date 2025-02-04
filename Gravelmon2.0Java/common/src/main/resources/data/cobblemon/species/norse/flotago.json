@@ -68,7 +68,8 @@
     "not_modeled",
     "fakemon",
     "fakemonevolution",
-    "norse"
+    "norse",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.flotago.desc"
@@ -92,7 +93,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3368,
+  "nationalPokedexNumber": 3366,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

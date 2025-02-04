@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_98_by_98.geo",
-      "poser": "cobblemon:cutout_gravelmon_98_by_98",
+      "model": "cobblemon:cutout_gravelmon_38_by_50.geo",
+      "poser": "cobblemon:cutout_gravelmon_38_by_50",
       "texture": "cobblemon:textures/pokemon/mastenia/tuleep.png",
       "layers": [
         {

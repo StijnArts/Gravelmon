@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "piragmid",
-  "baseScale": 0.5387755102040817,
+  "baseScale": 0.7436619718309859,
   "cannotDynamax": false,
   "abilities": [
     "rockhead",
@@ -129,7 +129,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5799,
+  "nationalPokedexNumber": 5797,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

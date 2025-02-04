@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pomegrenade",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.44210526315789467,
   "cannotDynamax": false,
   "abilities": [
     "longreach",
@@ -89,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3034,
+  "nationalPokedexNumber": 3032,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

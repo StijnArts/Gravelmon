@@ -36,13 +36,13 @@ public class GravelmonItems {
     public static RegistrySupplier<Item> SILVER_SCALE = item("silver_scale");
     public static RegistrySupplier<Item> ANCIENT_GLYPH = item("ancient_glyph");
     //    public static RegistrySupplier<Item> VOIDIX = item("voidix");
-//    public static RegistrySupplier<Item> ELECTRIX = item("electrix");
-//    public static RegistrySupplier<Item> BURIX = item("burix");
-//    public static RegistrySupplier<Item> AQUIX = item("aquix");
-//    public static RegistrySupplier<Item> VERDIX = item("verdix");
-//    public static RegistrySupplier<Item> ZERIX = item("zerix");
-//    public static RegistrySupplier<Item> PATHIX = item("pathix");
-//    public static RegistrySupplier<Item> PIXIX = item("pixix");
+    //    public static RegistrySupplier<Item> ELECTRIX = item("electrix");
+    //    public static RegistrySupplier<Item> BURIX = item("burix");
+    //    public static RegistrySupplier<Item> AQUIX = item("aquix");
+    //    public static RegistrySupplier<Item> VERDIX = item("verdix");
+    //    public static RegistrySupplier<Item> ZERIX = item("zerix");
+    //    public static RegistrySupplier<Item> PATHIX = item("pathix");
+    //    public static RegistrySupplier<Item> PIXIX = item("pixix");
     public static RegistrySupplier<Item> SLOWPOKE_TAIL = item("slowpoke_tail");
     public static RegistrySupplier<Item> DREAD_PENDANT = item("dread_pendant");
     public static RegistrySupplier<Item> SPARE_PARTS = item("spare_parts");
@@ -97,7 +97,7 @@ public class GravelmonItems {
     public static RegistrySupplier<Item> SOLID_STONE_ORE = blockItem("solid_stone_ore", GravelmonBlocks.SOLID_STONE_ORE);
     public static RegistrySupplier<Item> DEEPSLATE_SOLID_STONE_ORE = blockItem("deepslate_solid_stone_ore", GravelmonBlocks.DEEPSLATE_SOLID_STONE_ORE);
     public static RegistrySupplier<Item> SOLID_STONE_BLOCK = blockItem("solid_stone_block", GravelmonBlocks.SOLID_STONE_BLOCK);
-    public static RegistrySupplier<Item> VARIA_STONE_BLOCK = blockItem("solid_stone_block", GravelmonBlocks.VARIA_STONE_BLOCK);
+    public static RegistrySupplier<Item> VARIA_STONE_BLOCK = blockItem("varia_stone_block", GravelmonBlocks.VARIA_STONE_BLOCK);
 
     //Pokeballs
     public static RegistrySupplier<PokeBallItem> MAUVE_BALL;

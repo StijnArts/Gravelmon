@@ -67,7 +67,8 @@
   ],
   "labels": [
     "not_modeled",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.bawolf.desc"
@@ -91,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3539,
+  "nationalPokedexNumber": 3537,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

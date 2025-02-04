@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "fawntom",
-  "baseScale": 0.8081632653061224,
+  "baseScale": 1.0999999999999999,
   "cannotDynamax": false,
   "abilities": [
     "cudchew",
@@ -165,7 +165,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6741,
+  "nationalPokedexNumber": 6739,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

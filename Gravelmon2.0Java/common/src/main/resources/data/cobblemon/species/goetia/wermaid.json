@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "mermegg",
-  "baseScale": 0.29387755102040813,
+  "baseScale": 0.3469879518072289,
   "cannotDynamax": false,
   "abilities": [
     "wonderskin",
@@ -89,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8255,
+  "nationalPokedexNumber": 8253,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

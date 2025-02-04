@@ -71,7 +71,8 @@
     "bago",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.serfiery.desc"
@@ -95,7 +96,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3691,
+  "nationalPokedexNumber": 3689,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

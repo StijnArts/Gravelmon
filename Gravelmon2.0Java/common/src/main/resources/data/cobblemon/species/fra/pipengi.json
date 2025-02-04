@@ -69,7 +69,8 @@
   ],
   "labels": [
     "fra",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.pipengi.desc"
@@ -78,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3902,
+  "nationalPokedexNumber": 3900,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

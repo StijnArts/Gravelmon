@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "blashrew",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.39587628865979385,
   "cannotDynamax": false,
   "abilities": [
     "blaze",
@@ -130,7 +130,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4671,
+  "nationalPokedexNumber": 4669,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

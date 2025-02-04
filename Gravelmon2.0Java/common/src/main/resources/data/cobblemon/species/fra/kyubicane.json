@@ -66,7 +66,8 @@
     "fra",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.kyubicane.desc"
@@ -75,7 +76,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3891,
+  "nationalPokedexNumber": 3889,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "whirlpoon",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.44799999999999995,
   "cannotDynamax": false,
   "abilities": [
     "liquidvoice",
@@ -176,7 +176,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6885,
+  "nationalPokedexNumber": 6883,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

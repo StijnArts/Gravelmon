@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "stunooki",
-  "baseScale": 0.22040816326530613,
+  "baseScale": 0.2805194805194805,
   "cannotDynamax": false,
   "abilities": [
     "static"
@@ -89,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2995,
+  "nationalPokedexNumber": 2993,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

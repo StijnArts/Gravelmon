@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "mirorim",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.4869565217391304,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -77,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8210,
+  "nationalPokedexNumber": 8208,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

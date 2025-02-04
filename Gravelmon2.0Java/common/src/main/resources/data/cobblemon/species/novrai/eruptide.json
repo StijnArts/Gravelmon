@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "diretom",
-  "baseScale": 0.29387755102040813,
+  "baseScale": 0.43636363636363634,
   "cannotDynamax": false,
   "abilities": [
     "stormdrain",
@@ -167,7 +167,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6806,
+  "nationalPokedexNumber": 6804,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

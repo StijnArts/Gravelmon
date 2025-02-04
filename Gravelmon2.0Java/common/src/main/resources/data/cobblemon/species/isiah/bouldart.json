@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "rolloch",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.45569620253164556,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -111,7 +111,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5795,
+  "nationalPokedexNumber": 5793,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

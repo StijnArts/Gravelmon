@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "xtrac",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.45217391304347826,
   "cannotDynamax": false,
   "abilities": [
     "heatproof",
@@ -156,7 +156,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6770,
+  "nationalPokedexNumber": 6768,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

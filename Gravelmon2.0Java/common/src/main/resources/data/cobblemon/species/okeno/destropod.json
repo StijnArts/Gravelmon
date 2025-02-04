@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "desbrine",
-  "baseScale": 0.5142857142857143,
+  "baseScale": 0.6461538461538462,
   "cannotDynamax": false,
   "abilities": [
     "swiftswim"
@@ -89,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6080,
+  "nationalPokedexNumber": 6078,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

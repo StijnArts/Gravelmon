@@ -71,7 +71,8 @@
     "not_modeled",
     "fakemon",
     "fakemonevolution",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.cianbul.desc"
@@ -80,7 +81,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3464,
+  "nationalPokedexNumber": 3462,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

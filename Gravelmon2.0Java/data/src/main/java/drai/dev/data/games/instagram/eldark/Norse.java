@@ -15,8 +15,9 @@ public class Norse extends drai.dev.data.games.registry.Game {
     public void init(String resourcesDir) {
         super.init(resourcesDir);
         newPokemon.forEach(pokemon1 -> {
-            pokemon1.getLabels().remove(Label.RAIAN);
             pokemon1.getLabels().add(Label.NORSE);
+            pokemon1.getLabels().remove(Label.RAIAN);
+            pokemon1.getLabels().add(Label.INSTAGRAM);
         });
     }
 

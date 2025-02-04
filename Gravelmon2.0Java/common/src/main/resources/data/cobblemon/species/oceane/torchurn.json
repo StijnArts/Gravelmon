@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "churlice",
-  "baseScale": 0.29387755102040813,
+  "baseScale": 0.47213114754098356,
   "cannotDynamax": false,
   "abilities": [
     "drought",
@@ -110,7 +110,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2380,
+  "nationalPokedexNumber": 2378,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

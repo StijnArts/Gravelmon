@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.563265306122449,
+  "baseScale": 0.736,
   "cannotDynamax": false,
   "abilities": [
     "angershell",
@@ -90,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4269,
+  "nationalPokedexNumber": 4267,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

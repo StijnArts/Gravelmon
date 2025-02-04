@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "athlace",
-  "baseScale": 0.0979591836734694,
+  "baseScale": 0.192,
   "cannotDynamax": false,
   "abilities": [
     "quickfeet",
@@ -147,7 +147,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6737,
+  "nationalPokedexNumber": 6735,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

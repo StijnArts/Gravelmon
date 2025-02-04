@@ -67,7 +67,8 @@
     "bago",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.ramplant.desc"
@@ -76,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3731,
+  "nationalPokedexNumber": 3729,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

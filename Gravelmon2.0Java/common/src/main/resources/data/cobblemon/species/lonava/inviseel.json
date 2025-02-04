@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "gobbeel",
-  "baseScale": 0.1714285714285714,
+  "baseScale": 0.26249999999999996,
   "cannotDynamax": false,
   "abilities": [
     "strongjaw",
@@ -137,7 +137,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4533,
+  "nationalPokedexNumber": 4531,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "drumble",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.4,
   "cannotDynamax": false,
   "abilities": [
     "multiscale",
@@ -179,7 +179,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6685,
+  "nationalPokedexNumber": 6683,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

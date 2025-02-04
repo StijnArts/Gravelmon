@@ -63,7 +63,8 @@
   ],
   "labels": [
     "aroma",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.doggoof.desc"
@@ -72,7 +73,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7836,
+  "nationalPokedexNumber": 7834,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "rollipod",
-  "baseScale": 0.46530612244897956,
+  "baseScale": 0.6909090909090909,
   "cannotDynamax": false,
   "abilities": [
     "heavymetal",
@@ -126,7 +126,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3149,
+  "nationalPokedexNumber": 3147,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

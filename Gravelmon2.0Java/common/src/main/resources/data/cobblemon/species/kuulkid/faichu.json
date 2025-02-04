@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "kickachu",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.4740740740740741,
   "cannotDynamax": false,
   "abilities": [
     "competitive",
@@ -78,7 +78,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2860,
+  "nationalPokedexNumber": 2858,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

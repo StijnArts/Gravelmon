@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "beberin",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.32000000000000006,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -95,7 +95,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4150,
+  "nationalPokedexNumber": 4148,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

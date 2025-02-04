@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pinsir form=hizian",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.48,
   "cannotDynamax": false,
   "abilities": [
     "steadfast",
@@ -93,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3013,
+  "nationalPokedexNumber": 3011,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

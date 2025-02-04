@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1714285714285714,
+  "baseScale": 0.2847457627118644,
   "cannotDynamax": false,
   "abilities": [
     "healer",
@@ -84,7 +84,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4279,
+  "nationalPokedexNumber": 4277,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

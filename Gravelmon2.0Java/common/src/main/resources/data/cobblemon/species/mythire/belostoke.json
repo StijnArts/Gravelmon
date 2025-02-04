@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "snuffellow",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.4853932584269663,
   "cannotDynamax": false,
   "abilities": [
     "sniper",
@@ -101,7 +101,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5211,
+  "nationalPokedexNumber": 5209,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

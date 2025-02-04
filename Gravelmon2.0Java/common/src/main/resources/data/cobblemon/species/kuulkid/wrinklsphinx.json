@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "kittycomb",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.5672727272727273,
   "cannotDynamax": false,
   "abilities": [
     "cursedbody",
@@ -78,7 +78,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2806,
+  "nationalPokedexNumber": 2804,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

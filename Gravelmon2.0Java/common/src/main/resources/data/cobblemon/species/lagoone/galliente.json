@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "emberaid",
-  "baseScale": 0.6122448979591837,
+  "baseScale": 0.7228915662650602,
   "cannotDynamax": false,
   "abilities": [
     "blaze"
@@ -92,7 +92,7 @@
   "weight": 420,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1534,
+  "nationalPokedexNumber": 1532,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

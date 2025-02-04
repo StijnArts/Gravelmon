@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "scalfib",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.46153846153846156,
   "cannotDynamax": false,
   "abilities": [
     "unnerve",
@@ -94,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5733,
+  "nationalPokedexNumber": 5731,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

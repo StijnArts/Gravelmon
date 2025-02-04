@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "fauxmingo",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.5333333333333333,
   "cannotDynamax": false,
   "abilities": [
     "keeneye",
@@ -149,7 +149,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4748,
+  "nationalPokedexNumber": 4746,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

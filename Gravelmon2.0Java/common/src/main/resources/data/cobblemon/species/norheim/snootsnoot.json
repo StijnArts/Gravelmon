@@ -7,7 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.45714285714285713,
   "cannotDynamax": false,
   "abilities": [
     "snowcloak",
@@ -98,7 +98,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4153,
+  "nationalPokedexNumber": 4151,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

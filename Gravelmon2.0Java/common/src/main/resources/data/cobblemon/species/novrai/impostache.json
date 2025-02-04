@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "morostache",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.6447761194029851,
   "cannotDynamax": false,
   "abilities": [
     "tanglinghair",
@@ -179,7 +179,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6748,
+  "nationalPokedexNumber": 6746,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

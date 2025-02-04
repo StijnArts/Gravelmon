@@ -67,7 +67,8 @@
   ],
   "labels": [
     "ivris",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.pizzalash.desc"
@@ -76,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4866,
+  "nationalPokedexNumber": 4864,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

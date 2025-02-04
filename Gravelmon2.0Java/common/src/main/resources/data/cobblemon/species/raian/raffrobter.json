@@ -72,7 +72,8 @@
     "raian",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.raffrobter.desc"
@@ -81,7 +82,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3202,
+  "nationalPokedexNumber": 3200,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

@@ -91,7 +91,7 @@ public class Wystearia extends Pokemon {
         getPosingFileData().setProfileData( .7f, new Vector3(0.1, 0.6, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().clearPoseTypes()
+                AnimationData.standingAnimation().markAsBackupPose()
         ));
     }
 }

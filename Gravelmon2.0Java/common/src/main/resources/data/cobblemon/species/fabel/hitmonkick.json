@@ -67,7 +67,8 @@
   ],
   "labels": [
     "fabel",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.hitmonkick.desc"
@@ -76,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7702,
+  "nationalPokedexNumber": 7700,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

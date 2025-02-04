@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "twoolepin",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.3775280898876404,
   "cannotDynamax": false,
   "abilities": [
     "tangledfeet"
@@ -119,7 +119,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5731,
+  "nationalPokedexNumber": 5729,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

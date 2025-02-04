@@ -65,7 +65,8 @@
   ],
   "labels": [
     "raian",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.maxard.desc"
@@ -85,7 +86,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3228,
+  "nationalPokedexNumber": 3226,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.636734693877551,
+  "baseScale": 0.6303030303030304,
   "cannotDynamax": false,
   "abilities": [
     "pastelveil",
@@ -145,7 +145,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5267,
+  "nationalPokedexNumber": 5265,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

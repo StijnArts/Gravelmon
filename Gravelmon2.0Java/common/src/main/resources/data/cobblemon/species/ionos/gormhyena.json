@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "spothyena",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.5485714285714286,
   "cannotDynamax": false,
   "abilities": [
     "gluttony",
@@ -90,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6519,
+  "nationalPokedexNumber": 6517,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pomfly",
-  "baseScale": 0.12244897959183673,
+  "baseScale": 0.24,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -81,7 +81,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6476,
+  "nationalPokedexNumber": 6474,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

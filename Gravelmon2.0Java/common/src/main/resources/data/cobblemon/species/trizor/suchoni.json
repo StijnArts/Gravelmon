@@ -70,7 +70,8 @@
     "not_modeled",
     "fakemon",
     "fakemonevolution",
-    "trizor"
+    "trizor",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.suchoni.desc"
@@ -79,7 +80,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3667,
+  "nationalPokedexNumber": 3665,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

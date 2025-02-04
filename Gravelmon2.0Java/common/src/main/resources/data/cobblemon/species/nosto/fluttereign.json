@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "kookoon",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.41481481481481475,
   "cannotDynamax": false,
   "abilities": [
     "shielddust",
@@ -173,7 +173,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4685,
+  "nationalPokedexNumber": 4683,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "feebleg",
-  "baseScale": 0.12244897959183673,
+  "baseScale": 0.17391304347826086,
   "cannotDynamax": false,
   "abilities": [
     "stickyhold"
@@ -75,7 +75,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2403,
+  "nationalPokedexNumber": 2401,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -13,6 +13,7 @@ public class AnimationData extends BasicAnimationData {
     Optional<Boolean> isBattle = Optional.empty();
     Optional<Boolean> isTouchingWater = Optional.empty();
     private Optional<Boolean> allPoseTypes = Optional.empty();
+    private boolean isBackup;
 
     public AnimationData(String animationName, List<PoseType> poseTypes, List<String> animations, List<Quirk> quirks, int transformTicks) {
         super(animationName, animations);
@@ -109,6 +110,11 @@ public class AnimationData extends BasicAnimationData {
 
     public JsonObject getAnimationJson(String animationFileName) {
         var json = super.getAnimationJson(animationFileName);
+
+        if (isBackup && posingFileData != null){
+            poseTypes.addAll(posingFileData.getUnusedPoseTypes());
+        }
+
         if(!poseTypes.isEmpty()) {
             var poseTypesJson = new JsonArray();
             poseTypes.forEach(poseType -> poseTypesJson.add(poseType.name()));
@@ -183,9 +189,9 @@ public class AnimationData extends BasicAnimationData {
         return this;
     }
 
-    public AnimationData clearPoseTypes() {
+    public AnimationData markAsBackupPose() {
+        isBackup = true;
         poseTypes.clear();
-        allPoseTypes = Optional.of(true);
         return this;
     }
 
@@ -213,5 +219,9 @@ public class AnimationData extends BasicAnimationData {
         animationName = waterSleep;
         poseName = waterSleep;
         return this;
+    }
+
+    public boolean isBackup() {
+        return isBackup;
     }
 }

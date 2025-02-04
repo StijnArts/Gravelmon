@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pouffy",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.36226415094339626,
   "cannotDynamax": false,
   "abilities": [
     "torrent",
@@ -101,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4122,
+  "nationalPokedexNumber": 4120,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

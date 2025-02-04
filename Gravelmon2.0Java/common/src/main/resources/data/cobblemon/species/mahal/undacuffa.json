@@ -67,7 +67,8 @@
   ],
   "labels": [
     "mahal",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.undacuffa.desc"
@@ -76,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7660,
+  "nationalPokedexNumber": 7658,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

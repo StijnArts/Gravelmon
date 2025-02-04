@@ -184,7 +184,7 @@ public class Oculeus extends Pokemon {
         getPosingFileData().setProfileData(0.4f, new Vector3( 0, 1.3, 0 ));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withBlink(11).clearPoseTypes()
+                AnimationData.standingAnimation().withBlink(11).markAsBackupPose()
         ));
         getPosingFileData().setFaint("q.bedrock_primary('oculeus', 'faint', q.curve('one'))");
 

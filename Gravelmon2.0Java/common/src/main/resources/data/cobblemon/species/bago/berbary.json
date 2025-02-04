@@ -63,7 +63,8 @@
   ],
   "labels": [
     "bago",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.berbary.desc"
@@ -83,7 +84,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3739,
+  "nationalPokedexNumber": 3737,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

@@ -65,7 +65,8 @@
   ],
   "labels": [
     "not_modeled",
-    "norse"
+    "norse",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.niddevour.desc"
@@ -74,7 +75,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3438,
+  "nationalPokedexNumber": 3436,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

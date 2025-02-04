@@ -7,7 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.5387755102040817,
+  "baseScale": 0.6857142857142857,
   "cannotDynamax": false,
   "abilities": [
     "pressure"
@@ -84,7 +84,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4315,
+  "nationalPokedexNumber": 4313,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

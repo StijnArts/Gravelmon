@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "celluler",
-  "baseScale": 0.14693877551020407,
+  "baseScale": 0.21492537313432833,
   "cannotDynamax": false,
   "abilities": [
     "hypercutter",
@@ -107,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5785,
+  "nationalPokedexNumber": 5783,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

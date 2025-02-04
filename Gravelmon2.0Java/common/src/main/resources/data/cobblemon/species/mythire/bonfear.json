@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.43636363636363634,
   "cannotDynamax": false,
   "abilities": [
     "flashfire",
@@ -158,7 +158,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5232,
+  "nationalPokedexNumber": 5230,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

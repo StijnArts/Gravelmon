@@ -71,7 +71,8 @@
     "not_modeled",
     "fakemon",
     "fakemonevolution",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.fazight.desc"
@@ -95,7 +96,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3487,
+  "nationalPokedexNumber": 3485,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

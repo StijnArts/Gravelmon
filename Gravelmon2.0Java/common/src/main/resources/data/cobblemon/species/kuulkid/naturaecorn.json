@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "questnut",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.5913043478260869,
   "cannotDynamax": false,
   "abilities": [
     "swarm"
@@ -77,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2747,
+  "nationalPokedexNumber": 2745,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

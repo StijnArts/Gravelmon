@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "bratanat",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.48888888888888893,
   "cannotDynamax": false,
   "abilities": [
     "levitate",
@@ -90,7 +90,7 @@
   "weight": 152,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5572,
+  "nationalPokedexNumber": 5570,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

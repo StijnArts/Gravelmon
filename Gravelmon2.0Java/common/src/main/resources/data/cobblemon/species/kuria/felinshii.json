@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "nyashi",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.33,
   "cannotDynamax": false,
   "abilities": [
     "toughclaws",
@@ -90,7 +90,7 @@
   "weight": 208,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5611,
+  "nationalPokedexNumber": 5609,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

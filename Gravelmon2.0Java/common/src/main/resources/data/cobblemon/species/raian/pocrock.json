@@ -68,7 +68,8 @@
     "raian",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.pocrock.desc"
@@ -92,7 +93,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3215,
+  "nationalPokedexNumber": 3213,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

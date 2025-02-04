@@ -7,7 +7,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.0979591836734694,
+  "baseScale": 0.26666666666666666,
   "cannotDynamax": false,
   "abilities": [
     "suctioncups",
@@ -147,7 +147,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6807,
+  "nationalPokedexNumber": 6805,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

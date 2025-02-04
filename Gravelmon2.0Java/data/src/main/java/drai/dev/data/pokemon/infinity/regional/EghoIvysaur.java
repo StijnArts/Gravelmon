@@ -118,7 +118,7 @@ public class EghoIvysaur extends Pokemon {
         getPosingFileData().setProfileData( .9f, new Vector3(0, .3, -20));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().clearPoseTypes().withBlink(),
+                AnimationData.standingAnimation().withLook().markAsBackupPose().withBlink(),
                 AnimationData.walkingAnimation().withLook().withBlink()
         ));
     }

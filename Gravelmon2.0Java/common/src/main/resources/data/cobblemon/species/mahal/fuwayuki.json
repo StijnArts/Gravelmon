@@ -69,7 +69,8 @@
   ],
   "labels": [
     "mahal",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.fuwayuki.desc"
@@ -78,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7619,
+  "nationalPokedexNumber": 7617,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

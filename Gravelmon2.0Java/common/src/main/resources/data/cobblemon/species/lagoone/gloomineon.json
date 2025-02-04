@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "lumineon form=lagoonan",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.51,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -91,7 +91,7 @@
   "weight": 390,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1589,
+  "nationalPokedexNumber": 1587,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

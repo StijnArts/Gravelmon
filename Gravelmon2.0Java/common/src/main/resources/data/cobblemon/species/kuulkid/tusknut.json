@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "shelliphant",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.7322033898305086,
   "cannotDynamax": false,
   "abilities": [
     "overgrow",
@@ -91,7 +91,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2711,
+  "nationalPokedexNumber": 2709,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

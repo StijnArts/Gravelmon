@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.5142857142857142,
   "cannotDynamax": false,
   "abilities": [
     "dryskin",
@@ -92,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4222,
+  "nationalPokedexNumber": 4220,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

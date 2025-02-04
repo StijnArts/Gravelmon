@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "bonfah",
-  "baseScale": 0.5877551020408163,
+  "baseScale": 0.6,
   "cannotDynamax": false,
   "abilities": [
     "blaze",
@@ -94,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1649,
+  "nationalPokedexNumber": 1647,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

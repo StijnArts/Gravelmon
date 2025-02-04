@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "snugbug",
-  "baseScale": 0.29387755102040813,
+  "baseScale": 0.488135593220339,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -81,7 +81,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2725,
+  "nationalPokedexNumber": 2723,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

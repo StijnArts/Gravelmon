@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "cactabit",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.36164383561643837,
   "cannotDynamax": false,
   "abilities": [
     "chlorophyll",
@@ -149,7 +149,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1721,
+  "nationalPokedexNumber": 1719,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

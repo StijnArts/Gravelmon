@@ -64,7 +64,8 @@
   ],
   "labels": [
     "aldao",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.shockitty.desc"
@@ -88,7 +89,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3814,
+  "nationalPokedexNumber": 3812,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

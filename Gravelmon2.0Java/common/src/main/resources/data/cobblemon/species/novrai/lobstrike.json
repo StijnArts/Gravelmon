@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "crable",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.54,
   "cannotDynamax": false,
   "abilities": [
     "overgrow",
@@ -160,7 +160,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6617,
+  "nationalPokedexNumber": 6615,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

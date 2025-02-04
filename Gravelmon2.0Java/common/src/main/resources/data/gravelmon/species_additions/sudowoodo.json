@@ -160,7 +160,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "bonsly form=novran",
-      "baseScale": 0.3183673469387755,
+      "baseScale": 0.624,
       "cannotDynamax": false,
       "abilities": [
         "sturdy",

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "drasalys",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.37142857142857144,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -79,7 +79,7 @@
   "weight": 132,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1619,
+  "nationalPokedexNumber": 1617,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

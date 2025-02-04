@@ -1,10 +1,18 @@
 package drai.dev.data.games.instagram.fra;
 
 import drai.dev.data.pokemon.borazul.*;
-
+import drai.dev.gravelmon.pokemon.attributes.*;
 public class Borazul extends drai.dev.data.games.registry.Game {
     public Borazul() {
         super("borazul");
+    }
+
+    @Override
+    public void init(String resourcesDir) {
+        super.init(resourcesDir);
+        newPokemon.forEach(pokemon1 -> {
+            pokemon1.getLabels().add(Label.INSTAGRAM);
+        });
     }
 
     @Override

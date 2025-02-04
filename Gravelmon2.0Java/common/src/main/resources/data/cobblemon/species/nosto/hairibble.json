@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.22040816326530613,
+  "baseScale": 0.48,
   "cannotDynamax": false,
   "abilities": [
     "tanglinghair"
@@ -198,7 +198,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4710,
+  "nationalPokedexNumber": 4708,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "paposy",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.4,
   "cannotDynamax": false,
   "abilities": [
     "naturalcure",
@@ -90,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5422,
+  "nationalPokedexNumber": 5420,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

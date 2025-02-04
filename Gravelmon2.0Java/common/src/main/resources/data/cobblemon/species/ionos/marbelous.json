@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "marbel",
-  "baseScale": 0.22040816326530613,
+  "baseScale": 0.34285714285714286,
   "cannotDynamax": false,
   "abilities": [
     "magicbounce",
@@ -116,7 +116,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6606,
+  "nationalPokedexNumber": 6604,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

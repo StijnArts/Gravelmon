@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "ignewt",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.42580645161290326,
   "cannotDynamax": false,
   "abilities": [
     "blaze",
@@ -106,7 +106,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4116,
+  "nationalPokedexNumber": 4114,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

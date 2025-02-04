@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "voltako",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.5565217391304348,
   "cannotDynamax": false,
   "abilities": [
     "suctioncups",
@@ -88,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5704,
+  "nationalPokedexNumber": 5702,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

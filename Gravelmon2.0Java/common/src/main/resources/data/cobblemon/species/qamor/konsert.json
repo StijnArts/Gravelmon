@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "ampt",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.4915662650602409,
   "cannotDynamax": false,
   "abilities": [
     "punkrock"
@@ -92,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5399,
+  "nationalPokedexNumber": 5397,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

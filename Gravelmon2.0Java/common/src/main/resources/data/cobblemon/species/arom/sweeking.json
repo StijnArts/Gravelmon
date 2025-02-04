@@ -67,7 +67,8 @@
   ],
   "labels": [
     "elb",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.sweeking.desc"
@@ -76,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7786,
+  "nationalPokedexNumber": 7784,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "gremite",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.512,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -91,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5701,
+  "nationalPokedexNumber": 5699,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

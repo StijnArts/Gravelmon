@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "clagcoon",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.256,
   "cannotDynamax": false,
   "abilities": [
     "intimidate",
@@ -93,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4185,
+  "nationalPokedexNumber": 4183,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

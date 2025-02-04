@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "bravelry",
-  "baseScale": 0.6612244897959184,
+  "baseScale": 0.7902439024390244,
   "cannotDynamax": false,
   "abilities": [
     "angerpoint",
@@ -86,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2960,
+  "nationalPokedexNumber": 2958,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

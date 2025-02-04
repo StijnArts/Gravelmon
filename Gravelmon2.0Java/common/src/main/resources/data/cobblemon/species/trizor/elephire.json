@@ -70,7 +70,8 @@
   ],
   "labels": [
     "not_modeled",
-    "trizor"
+    "trizor",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.elephire.desc"
@@ -94,7 +95,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3676,
+  "nationalPokedexNumber": 3674,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

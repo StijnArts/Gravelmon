@@ -68,7 +68,8 @@
     "raian",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.vamprquid.desc"
@@ -77,7 +78,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3240,
+  "nationalPokedexNumber": 3238,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

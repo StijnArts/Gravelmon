@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "scrambird",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.512,
   "cannotDynamax": false,
   "abilities": [
     "earlybird",
@@ -78,7 +78,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2728,
+  "nationalPokedexNumber": 2726,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

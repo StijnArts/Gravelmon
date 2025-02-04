@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "liqueel",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.3764705882352941,
   "cannotDynamax": false,
   "abilities": [
     "torrent",
@@ -141,7 +141,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3131,
+  "nationalPokedexNumber": 3129,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

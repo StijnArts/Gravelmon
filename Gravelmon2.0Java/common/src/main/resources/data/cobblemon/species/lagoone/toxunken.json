@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "veneko",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.5647058823529413,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -75,7 +75,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1622,
+  "nationalPokedexNumber": 1620,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

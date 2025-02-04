@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1714285714285714,
+  "baseScale": 0.3818181818181818,
   "cannotDynamax": false,
   "abilities": [
     "soundproof",
@@ -107,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6038,
+  "nationalPokedexNumber": 6036,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

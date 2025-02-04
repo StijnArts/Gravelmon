@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "larvake",
-  "baseScale": 0.14693877551020407,
+  "baseScale": 0.2823529411764706,
   "cannotDynamax": false,
   "abilities": [
     "shedskin",
@@ -113,7 +113,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4687,
+  "nationalPokedexNumber": 4685,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

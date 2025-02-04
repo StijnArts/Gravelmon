@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "winture",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.5913043478260869,
   "cannotDynamax": false,
   "abilities": [
     "slushrush"
@@ -153,7 +153,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6634,
+  "nationalPokedexNumber": 6632,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

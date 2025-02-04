@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "shamseed",
-  "baseScale": 0.29387755102040813,
+  "baseScale": 0.496551724137931,
   "cannotDynamax": false,
   "abilities": [
     "superluck",
@@ -107,7 +107,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5163,
+  "nationalPokedexNumber": 5161,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

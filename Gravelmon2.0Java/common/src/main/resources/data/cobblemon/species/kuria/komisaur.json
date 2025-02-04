@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1714285714285714,
+  "baseScale": 0.3230769230769231,
   "cannotDynamax": false,
   "abilities": [
     "solidrock",
@@ -100,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5669,
+  "nationalPokedexNumber": 5667,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

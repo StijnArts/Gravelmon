@@ -63,7 +63,8 @@
   ],
   "labels": [
     "not_modeled",
-    "norse"
+    "norse",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.bereolf.desc"
@@ -91,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3375,
+  "nationalPokedexNumber": 3373,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

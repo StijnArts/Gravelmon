@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "shrizzler",
-  "baseScale": 0.24489795918367346,
+  "baseScale": 0.34285714285714286,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -105,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1573,
+  "nationalPokedexNumber": 1571,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

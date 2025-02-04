@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "bubblbite",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.3490909090909091,
   "cannotDynamax": false,
   "abilities": [
     "poisonpoint",
@@ -78,7 +78,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2793,
+  "nationalPokedexNumber": 2791,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

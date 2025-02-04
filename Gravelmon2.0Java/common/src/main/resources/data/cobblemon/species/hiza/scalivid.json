@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sprocko",
-  "baseScale": 0.24489795918367346,
+  "baseScale": 0.35294117647058826,
   "cannotDynamax": false,
   "abilities": [
     "multiscale"
@@ -100,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2934,
+  "nationalPokedexNumber": 2932,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

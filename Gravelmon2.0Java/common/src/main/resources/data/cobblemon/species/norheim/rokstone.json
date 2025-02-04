@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.6857142857142856,
+  "baseScale": 0.8096385542168674,
   "cannotDynamax": false,
   "abilities": [
     "whitesmoke",
@@ -96,7 +96,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4198,
+  "nationalPokedexNumber": 4196,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

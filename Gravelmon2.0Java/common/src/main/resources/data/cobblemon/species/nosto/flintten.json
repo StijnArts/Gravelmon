@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.12244897959183673,
+  "baseScale": 0.2553191489361702,
   "cannotDynamax": false,
   "abilities": [
     "sandveil"
@@ -123,7 +123,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4707,
+  "nationalPokedexNumber": 4705,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

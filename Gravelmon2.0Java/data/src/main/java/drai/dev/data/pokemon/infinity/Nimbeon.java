@@ -119,7 +119,7 @@ public class Nimbeon extends Pokemon {
         getPosingFileData().setProfileData( .9f, new Vector3(0, .35, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withBlink().withLook().clearPoseTypes(),
+                AnimationData.standingAnimation().withBlink().withLook().markAsBackupPose(),
                 AnimationData.walkingAnimation().withBlink().addPoseType(PoseType.SWIM).withLook(),
                 AnimationData.hoveringAnimation().addPoseType(PoseType.FLOAT).withBlink()
         ));

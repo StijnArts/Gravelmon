@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "banup",
-  "baseScale": 0.29387755102040813,
+  "baseScale": 0.36455696202531646,
   "cannotDynamax": false,
   "abilities": [
     "pickup",
@@ -86,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2975,
+  "nationalPokedexNumber": 2973,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

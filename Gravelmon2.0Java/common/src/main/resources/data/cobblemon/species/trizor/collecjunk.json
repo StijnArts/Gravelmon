@@ -65,7 +65,8 @@
   ],
   "labels": [
     "not_modeled",
-    "trizor"
+    "trizor",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.collecjunk.desc"
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3681,
+  "nationalPokedexNumber": 3679,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

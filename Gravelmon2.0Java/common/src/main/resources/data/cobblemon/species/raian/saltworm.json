@@ -65,7 +65,8 @@
   ],
   "labels": [
     "raian",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.saltworm.desc"
@@ -89,7 +90,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3214,
+  "nationalPokedexNumber": 3212,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

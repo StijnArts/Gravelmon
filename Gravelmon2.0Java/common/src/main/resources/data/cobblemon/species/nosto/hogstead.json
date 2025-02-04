@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "lumboar",
-  "baseScale": 0.563265306122449,
+  "baseScale": 0.6814814814814814,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -131,7 +131,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4757,
+  "nationalPokedexNumber": 4755,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

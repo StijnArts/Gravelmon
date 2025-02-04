@@ -65,7 +65,8 @@
   ],
   "labels": [
     "ivris",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.barbelli.desc"
@@ -74,7 +75,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4838,
+  "nationalPokedexNumber": 4836,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

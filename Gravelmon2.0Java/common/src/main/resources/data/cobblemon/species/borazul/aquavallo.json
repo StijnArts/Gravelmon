@@ -68,7 +68,8 @@
     "borazul",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.aquavallo.desc"
@@ -77,7 +78,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3913,
+  "nationalPokedexNumber": 3911,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

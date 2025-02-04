@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "shellder form=norheiman",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.35555555555555557,
   "cannotDynamax": false,
   "abilities": [
     "shellarmor",
@@ -149,7 +149,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4246,
+  "nationalPokedexNumber": 4244,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

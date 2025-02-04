@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "kindlemur",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.32000000000000006,
   "cannotDynamax": false,
   "abilities": [
     "blaze",
@@ -103,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3119,
+  "nationalPokedexNumber": 3117,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

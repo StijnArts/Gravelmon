@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "audibat",
-  "baseScale": 0.22040816326530613,
+  "baseScale": 0.23736263736263738,
   "cannotDynamax": false,
   "abilities": [
     "frisk",
@@ -196,7 +196,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4705,
+  "nationalPokedexNumber": 4703,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

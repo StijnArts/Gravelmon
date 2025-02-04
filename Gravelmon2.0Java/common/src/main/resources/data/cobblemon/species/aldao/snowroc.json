@@ -70,7 +70,8 @@
     "aldao",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.snowroc.desc"
@@ -79,7 +80,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3842,
+  "nationalPokedexNumber": 3840,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

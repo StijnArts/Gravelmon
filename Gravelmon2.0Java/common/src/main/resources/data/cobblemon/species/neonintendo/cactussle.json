@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "cacnea form=neo",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.4105263157894737,
   "cannotDynamax": false,
   "abilities": [
     "guts",

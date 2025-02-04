@@ -65,7 +65,8 @@
   ],
   "labels": [
     "ivris",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.wrrazal.desc"
@@ -74,7 +75,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4909,
+  "nationalPokedexNumber": 4907,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

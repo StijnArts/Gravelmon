@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "fortuller",
-  "baseScale": 0.563265306122449,
+  "baseScale": 0.657142857142857,
   "cannotDynamax": false,
   "abilities": [
     "infiltrator",
@@ -92,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2980,
+  "nationalPokedexNumber": 2978,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

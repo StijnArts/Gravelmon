@@ -70,7 +70,8 @@
     "form",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.katinop.desc"
@@ -94,7 +95,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5101,
+  "nationalPokedexNumber": 5099,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

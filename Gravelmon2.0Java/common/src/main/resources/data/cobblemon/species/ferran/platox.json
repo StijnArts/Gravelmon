@@ -69,7 +69,8 @@
   ],
   "labels": [
     "ferran",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.platox.desc"
@@ -78,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7481,
+  "nationalPokedexNumber": 7479,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

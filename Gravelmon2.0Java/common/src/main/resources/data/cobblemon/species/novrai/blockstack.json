@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sockback",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.5485714285714286,
   "cannotDynamax": false,
   "abilities": [
     "sturdy",
@@ -151,7 +151,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6659,
+  "nationalPokedexNumber": 6657,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

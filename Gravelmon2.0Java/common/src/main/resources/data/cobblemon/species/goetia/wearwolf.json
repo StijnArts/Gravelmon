@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "houndworm",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.5169230769230769,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -75,7 +75,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7913,
+  "nationalPokedexNumber": 7911,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

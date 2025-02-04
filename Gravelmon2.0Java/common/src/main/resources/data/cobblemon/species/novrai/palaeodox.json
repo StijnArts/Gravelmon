@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "cambryo",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.4727272727272728,
   "cannotDynamax": false,
   "abilities": [
     "neutralizinggas",
@@ -173,7 +173,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6785,
+  "nationalPokedexNumber": 6783,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

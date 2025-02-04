@@ -133,7 +133,7 @@ public class EghoBlastoise extends Pokemon {
         getPosingFileData().setProfileData( .6f, new Vector3(0.1, 1.2, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().withBlink().clearPoseTypes()
+                AnimationData.standingAnimation().withLook().withBlink().markAsBackupPose()
         ));
         getPosingFileData().setAnimationFileName("blastoise_egho");
     }

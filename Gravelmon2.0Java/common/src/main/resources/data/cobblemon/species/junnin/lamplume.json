@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "indascent",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.558904109589041,
   "cannotDynamax": false,
   "abilities": [
     "aromaveil",
@@ -94,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3189,
+  "nationalPokedexNumber": 3187,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

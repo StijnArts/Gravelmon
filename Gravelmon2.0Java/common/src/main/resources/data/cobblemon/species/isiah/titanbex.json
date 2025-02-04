@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "inbex",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.46027397260273967,
   "cannotDynamax": false,
   "abilities": [
     "limber",
@@ -110,7 +110,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5706,
+  "nationalPokedexNumber": 5704,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

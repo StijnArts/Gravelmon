@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.518918918918919,
   "cannotDynamax": false,
   "abilities": [
     "toxicboost",
@@ -172,7 +172,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6754,
+  "nationalPokedexNumber": 6752,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "reptling",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.26666666666666666,
   "cannotDynamax": false,
   "abilities": [
     "overgrow",
@@ -129,7 +129,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3113,
+  "nationalPokedexNumber": 3111,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

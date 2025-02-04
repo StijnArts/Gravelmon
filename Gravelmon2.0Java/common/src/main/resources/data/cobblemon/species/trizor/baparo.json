@@ -64,7 +64,8 @@
   ],
   "labels": [
     "not_modeled",
-    "trizor"
+    "trizor",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.baparo.desc"
@@ -88,7 +89,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3612,
+  "nationalPokedexNumber": 3610,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

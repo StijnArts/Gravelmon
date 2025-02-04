@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.12244897959183673,
+  "baseScale": 0.27906976744186046,
   "cannotDynamax": false,
   "abilities": [
     "overgrow"
@@ -102,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5685,
+  "nationalPokedexNumber": 5683,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

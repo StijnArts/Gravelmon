@@ -65,7 +65,8 @@
   ],
   "labels": [
     "mahal",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.crescoold.desc"
@@ -74,7 +75,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7655,
+  "nationalPokedexNumber": 7653,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

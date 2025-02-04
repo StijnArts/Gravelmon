@@ -65,7 +65,8 @@
   ],
   "labels": [
     "mahal",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.squittel.desc"
@@ -74,7 +75,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7657,
+  "nationalPokedexNumber": 7655,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

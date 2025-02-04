@@ -7,7 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.48,
   "cannotDynamax": false,
   "abilities": [
     "poisonheal",
@@ -155,7 +155,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1675,
+  "nationalPokedexNumber": 1673,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

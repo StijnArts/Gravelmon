@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "coldera",
-  "baseScale": 0.22040816326530613,
+  "baseScale": 0.2918918918918919,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -103,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1581,
+  "nationalPokedexNumber": 1579,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

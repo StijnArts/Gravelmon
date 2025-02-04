@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.0979591836734694,
+  "baseScale": 0.24,
   "cannotDynamax": false,
   "abilities": [
     "tintedlens",
@@ -175,7 +175,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6847,
+  "nationalPokedexNumber": 6845,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

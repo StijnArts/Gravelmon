@@ -70,7 +70,8 @@
   ],
   "labels": [
     "not_modeled",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.tribarix.desc"
@@ -79,7 +80,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3496,
+  "nationalPokedexNumber": 3494,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

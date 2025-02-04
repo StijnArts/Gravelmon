@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "eggoo",
-  "baseScale": 0.12244897959183673,
+  "baseScale": 0.20689655172413793,
   "cannotDynamax": false,
   "abilities": [
     "unburden",
@@ -150,7 +150,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6651,
+  "nationalPokedexNumber": 6649,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

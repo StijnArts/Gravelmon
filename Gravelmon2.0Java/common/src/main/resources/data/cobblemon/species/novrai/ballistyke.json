@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.44651162790697674,
   "cannotDynamax": false,
   "abilities": [
     "flareboost",
@@ -149,7 +149,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6882,
+  "nationalPokedexNumber": 6880,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

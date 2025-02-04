@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.3473684210526316,
   "cannotDynamax": false,
   "abilities": [
     "frisk",
@@ -82,7 +82,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2963,
+  "nationalPokedexNumber": 2961,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

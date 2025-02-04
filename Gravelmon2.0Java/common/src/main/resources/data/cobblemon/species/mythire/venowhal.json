@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.563265306122449,
+  "baseScale": 0.5935483870967742,
   "cannotDynamax": false,
   "abilities": [
     "defiant",
@@ -168,7 +168,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5238,
+  "nationalPokedexNumber": 5236,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

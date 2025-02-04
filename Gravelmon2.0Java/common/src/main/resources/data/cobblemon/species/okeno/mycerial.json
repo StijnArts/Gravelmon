@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.0979591836734694,
+  "baseScale": 0.21818181818181817,
   "cannotDynamax": false,
   "abilities": [
     "poisontouch",
@@ -117,7 +117,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6092,
+  "nationalPokedexNumber": 6090,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

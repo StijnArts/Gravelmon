@@ -69,7 +69,8 @@
   ],
   "labels": [
     "not_modeled",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.darrpler.desc"
@@ -93,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3530,
+  "nationalPokedexNumber": 3528,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

@@ -126,7 +126,7 @@ public class DeltaDodrio extends Pokemon {
         getPosingFileData().setProfileData( .81f, new Vector3(0, .6, 0));
         getPosingFileData().head = "head4";
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().clearPoseTypes(),
+                AnimationData.standingAnimation().withLook().markAsBackupPose(),
                 AnimationData.walkingAnimation().withLook()
         ));
     }

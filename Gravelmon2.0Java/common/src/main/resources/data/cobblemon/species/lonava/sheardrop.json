@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "fledgwing",
-  "baseScale": 0.22040816326530613,
+  "baseScale": 0.23225806451612904,
   "cannotDynamax": false,
   "abilities": [
     "keeneye",
@@ -151,7 +151,7 @@
   "weight": 242,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4501,
+  "nationalPokedexNumber": 4499,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

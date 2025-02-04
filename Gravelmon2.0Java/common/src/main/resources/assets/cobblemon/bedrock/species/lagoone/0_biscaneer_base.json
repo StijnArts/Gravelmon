@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_98_by_98.geo",
-      "poser": "cobblemon:cutout_gravelmon_98_by_98",
+      "model": "cobblemon:cutout_gravelmon_49_by_57.geo",
+      "poser": "cobblemon:cutout_gravelmon_49_by_57",
       "texture": "cobblemon:textures/pokemon/lagoone/biscaneer.png",
       "layers": [
         {

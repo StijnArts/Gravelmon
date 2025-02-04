@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "nicklack",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.48750000000000004,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -103,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5828,
+  "nationalPokedexNumber": 5826,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

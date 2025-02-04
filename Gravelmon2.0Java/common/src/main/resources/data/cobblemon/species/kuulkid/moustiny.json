@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.0979591836734694,
+  "baseScale": 0.34285714285714286,
   "cannotDynamax": false,
   "abilities": [
     "scrappy",
@@ -88,7 +88,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2750,
+  "nationalPokedexNumber": 2748,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

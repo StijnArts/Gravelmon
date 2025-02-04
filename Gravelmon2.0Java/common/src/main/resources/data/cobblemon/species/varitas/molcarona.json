@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "carvesta",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.4413793103448276,
   "cannotDynamax": false,
   "abilities": [
     "shellarmor",
@@ -122,7 +122,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2441,
+  "nationalPokedexNumber": 2439,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

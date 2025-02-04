@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "nirvache",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.4675324675324675,
   "cannotDynamax": false,
   "abilities": [
     "levitate",
@@ -87,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5726,
+  "nationalPokedexNumber": 5724,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

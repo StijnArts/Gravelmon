@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pyrelk",
-  "baseScale": 0.46530612244897956,
+  "baseScale": 0.5123595505617977,
   "cannotDynamax": false,
   "abilities": [
     "blaze",
@@ -90,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4120,
+  "nationalPokedexNumber": 4118,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

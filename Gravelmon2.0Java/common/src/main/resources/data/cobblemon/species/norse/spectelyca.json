@@ -70,7 +70,8 @@
     "not_modeled",
     "fakemon",
     "fakemonevolution",
-    "norse"
+    "norse",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.spectelyca.desc"
@@ -79,7 +80,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3428,
+  "nationalPokedexNumber": 3426,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

@@ -63,7 +63,8 @@
   ],
   "labels": [
     "raian",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.jajagon.desc"
@@ -72,7 +73,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3294,
+  "nationalPokedexNumber": 3292,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

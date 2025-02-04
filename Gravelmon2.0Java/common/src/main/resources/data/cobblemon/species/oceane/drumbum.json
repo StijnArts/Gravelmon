@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "tatatot",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.5076923076923078,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -107,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2376,
+  "nationalPokedexNumber": 2374,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

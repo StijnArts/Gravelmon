@@ -442,7 +442,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.0979591836734694,
+      "baseScale": 0.17454545454545456,
       "cannotDynamax": false,
       "abilities": [
         "prankster",
@@ -622,7 +622,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.14693877551020407,
+      "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
         "unburden",

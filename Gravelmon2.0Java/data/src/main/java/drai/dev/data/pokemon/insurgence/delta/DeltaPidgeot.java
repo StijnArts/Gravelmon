@@ -175,8 +175,9 @@ public class DeltaPidgeot extends Pokemon {
         getPosingFileData().setPortraitData( 3.1f, new Vector3(-0.4, -1, 0));
         getPosingFileData().setProfileData( 1.2f, new Vector3(0.1, 0, 0));
         getPosingFileData().setBasicHead();
+        getPosingFileData().setAnimationFileName("deltapidgeot");
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().clearPoseTypes().withLook(),
+                AnimationData.standingAnimation().markAsBackupPose().withLook(),
                 AnimationData.flyingAnimation().addPoseType(PoseType.HOVER).withLook().withBlink(),
                 AnimationData.sleepingAnimation()
         ));

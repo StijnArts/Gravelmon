@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.12244897959183673,
+  "baseScale": 0.23076923076923078,
   "cannotDynamax": false,
   "abilities": [
     "gluttony"
@@ -174,7 +174,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5182,
+  "nationalPokedexNumber": 5180,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

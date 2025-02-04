@@ -65,7 +65,8 @@
   ],
   "labels": [
     "aldao",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.frozymp.desc"
@@ -89,7 +90,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3792,
+  "nationalPokedexNumber": 3790,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

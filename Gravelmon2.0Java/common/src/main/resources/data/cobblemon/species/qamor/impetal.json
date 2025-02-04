@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "virchia",
-  "baseScale": 0.46530612244897956,
+  "baseScale": 0.57,
   "cannotDynamax": false,
   "abilities": [
     "cursedbody"
@@ -90,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5415,
+  "nationalPokedexNumber": 5413,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

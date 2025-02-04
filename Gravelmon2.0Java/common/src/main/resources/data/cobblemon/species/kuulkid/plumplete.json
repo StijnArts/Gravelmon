@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.22040816326530613,
+  "baseScale": 0.45,
   "cannotDynamax": false,
   "abilities": [
     "honeygather",
@@ -73,7 +73,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2738,
+  "nationalPokedexNumber": 2736,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

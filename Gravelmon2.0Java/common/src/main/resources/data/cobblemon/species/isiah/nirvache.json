@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "bovinda",
-  "baseScale": 0.22040816326530613,
+  "baseScale": 0.34285714285714286,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -101,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5725,
+  "nationalPokedexNumber": 5723,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

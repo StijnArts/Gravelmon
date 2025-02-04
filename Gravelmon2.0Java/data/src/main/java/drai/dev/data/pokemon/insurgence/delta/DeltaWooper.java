@@ -130,7 +130,7 @@ public class DeltaWooper extends Pokemon {
         getPosingFileData().setPortraitData( 1.3f, new Vector3(0, .3, 0));
         getPosingFileData().setProfileData( .9f, new Vector3(0, 0.4, 0));
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().clearPoseTypes()
+                AnimationData.standingAnimation().markAsBackupPose()
         ));
     }
 }

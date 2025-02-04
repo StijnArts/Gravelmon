@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.12244897959183673,
+  "baseScale": 0.25,
   "cannotDynamax": false,
   "abilities": [
     "bigpecks",
@@ -147,7 +147,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3078,
+  "nationalPokedexNumber": 3076,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

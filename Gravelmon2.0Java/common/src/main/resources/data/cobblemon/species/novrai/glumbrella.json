@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.14693877551020407,
+  "baseScale": 0.27692307692307694,
   "cannotDynamax": false,
   "abilities": [
     "overcoat",
@@ -152,7 +152,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6755,
+  "nationalPokedexNumber": 6753,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

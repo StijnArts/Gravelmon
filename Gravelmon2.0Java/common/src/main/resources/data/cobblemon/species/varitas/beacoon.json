@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "capillar",
-  "baseScale": 0.12244897959183673,
+  "baseScale": 0.14285714285714285,
   "cannotDynamax": false,
   "abilities": [
     "illuminate"
@@ -90,7 +90,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2400,
+  "nationalPokedexNumber": 2398,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

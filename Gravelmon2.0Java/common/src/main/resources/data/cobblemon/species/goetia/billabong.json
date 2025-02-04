@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "lagoon",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.6084507042253521,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -75,7 +75,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8149,
+  "nationalPokedexNumber": 8147,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

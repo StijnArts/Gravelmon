@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "finfetti",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.526829268292683,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -93,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2368,
+  "nationalPokedexNumber": 2366,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

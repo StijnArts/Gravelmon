@@ -67,7 +67,8 @@
   ],
   "labels": [
     "mahal",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.furburnape.desc"
@@ -76,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7621,
+  "nationalPokedexNumber": 7619,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

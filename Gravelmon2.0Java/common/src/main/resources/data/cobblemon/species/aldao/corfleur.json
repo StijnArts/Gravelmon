@@ -67,7 +67,8 @@
     "aldao",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.corfleur.desc"
@@ -91,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3749,
+  "nationalPokedexNumber": 3747,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

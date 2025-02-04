@@ -68,7 +68,8 @@
     "aldao",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.intewoof.desc"
@@ -77,7 +78,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3774,
+  "nationalPokedexNumber": 3772,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

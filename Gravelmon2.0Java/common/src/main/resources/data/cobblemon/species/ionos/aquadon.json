@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "aquapo",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.5070422535211268,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -79,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6537,
+  "nationalPokedexNumber": 6535,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

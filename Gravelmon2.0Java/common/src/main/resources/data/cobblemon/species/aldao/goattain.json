@@ -70,7 +70,8 @@
     "aldao",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.goattain.desc"
@@ -79,7 +80,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3813,
+  "nationalPokedexNumber": 3811,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

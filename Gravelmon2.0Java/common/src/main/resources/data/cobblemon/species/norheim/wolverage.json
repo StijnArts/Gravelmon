@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "gnimmel",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.5070422535211268,
   "cannotDynamax": false,
   "abilities": [
     "overcoat",
@@ -87,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4137,
+  "nationalPokedexNumber": 4135,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

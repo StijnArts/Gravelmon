@@ -67,7 +67,8 @@
     "raian",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.probsant.desc"
@@ -76,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3278,
+  "nationalPokedexNumber": 3276,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

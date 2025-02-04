@@ -65,7 +65,8 @@
   ],
   "labels": [
     "not_modeled",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.yotock.desc"
@@ -74,7 +75,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3551,
+  "nationalPokedexNumber": 3549,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

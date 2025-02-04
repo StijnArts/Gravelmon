@@ -73,7 +73,8 @@
     "not_modeled",
     "fakemon",
     "fakemonevolution",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.dobnaly.desc"
@@ -82,7 +83,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3469,
+  "nationalPokedexNumber": 3467,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

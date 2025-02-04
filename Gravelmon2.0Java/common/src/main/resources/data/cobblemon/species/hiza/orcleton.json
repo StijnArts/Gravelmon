@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "skelevera",
-  "baseScale": 0.29387755102040813,
+  "baseScale": 0.40563380281690137,
   "cannotDynamax": false,
   "abilities": [
     "cursedbody"
@@ -99,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3023,
+  "nationalPokedexNumber": 3021,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

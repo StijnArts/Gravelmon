@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.7304347826086955,
   "cannotDynamax": false,
   "abilities": [
     "furcoat",
@@ -97,7 +97,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5472,
+  "nationalPokedexNumber": 5470,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

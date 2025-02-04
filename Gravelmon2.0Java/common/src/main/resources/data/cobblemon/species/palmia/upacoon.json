@@ -73,7 +73,8 @@
     "not_modeled",
     "fakemon",
     "fakemonevolution",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.upacoon.desc"
@@ -97,7 +98,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3468,
+  "nationalPokedexNumber": 3466,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

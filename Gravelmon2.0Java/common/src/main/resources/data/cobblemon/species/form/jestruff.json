@@ -68,7 +68,8 @@
     "form",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.jestruff.desc"
@@ -92,7 +93,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5091,
+  "nationalPokedexNumber": 5089,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

@@ -69,7 +69,8 @@
   ],
   "labels": [
     "ferran",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.bloomeg.desc"
@@ -78,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7525,
+  "nationalPokedexNumber": 7523,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

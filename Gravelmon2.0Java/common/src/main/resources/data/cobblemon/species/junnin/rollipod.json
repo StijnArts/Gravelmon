@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "rollip",
-  "baseScale": 0.24489795918367346,
+  "baseScale": 0.6666666666666666,
   "cannotDynamax": false,
   "abilities": [
     "swarm",
@@ -122,7 +122,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3148,
+  "nationalPokedexNumber": 3146,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -120,7 +120,7 @@ public class DeltaDugtrio extends Pokemon {
         getPosingFileData().setProfileData( .75f, new Vector3(0, .35, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().clearPoseTypes(),
+                AnimationData.standingAnimation().markAsBackupPose(),
                 AnimationData.walkingAnimation()
         ));
         getPosingFileData().setFaint("bedrock(deltadugtrio, faint)");

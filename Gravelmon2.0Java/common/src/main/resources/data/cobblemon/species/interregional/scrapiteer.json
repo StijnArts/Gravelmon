@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "trashan",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.5828571428571429,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -91,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1719,
+  "nationalPokedexNumber": 1717,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

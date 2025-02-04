@@ -65,7 +65,8 @@
   ],
   "labels": [
     "aldao",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.shamandor.desc"
@@ -74,7 +75,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3809,
+  "nationalPokedexNumber": 3807,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

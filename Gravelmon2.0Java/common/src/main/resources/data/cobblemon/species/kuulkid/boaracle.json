@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "citpig",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.6666666666666666,
   "cannotDynamax": false,
   "abilities": [
     "frisk"
@@ -77,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2837,
+  "nationalPokedexNumber": 2835,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

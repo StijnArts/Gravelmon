@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "komisaur",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.44571428571428573,
   "cannotDynamax": false,
   "abilities": [
     "solidrock",
@@ -103,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5670,
+  "nationalPokedexNumber": 5668,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

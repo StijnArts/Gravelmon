@@ -65,7 +65,8 @@
   ],
   "labels": [
     "not_modeled",
-    "trizor"
+    "trizor",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.woolorm.desc"
@@ -89,7 +90,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3597,
+  "nationalPokedexNumber": 3595,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

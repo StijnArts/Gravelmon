@@ -99,7 +99,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "shellder form=nostan",
-      "baseScale": 0.36734693877551017,
+      "baseScale": 0.5142857142857142,
       "cannotDynamax": false,
       "abilities": [
         "shellarmor",

@@ -7,7 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.24489795918367346,
+  "baseScale": 0.5106382978723404,
   "cannotDynamax": false,
   "abilities": [
     "snowcloak"
@@ -83,7 +83,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4522,
+  "nationalPokedexNumber": 4520,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

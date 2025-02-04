@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "brinbait",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.5,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -90,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5466,
+  "nationalPokedexNumber": 5464,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

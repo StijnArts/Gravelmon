@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "capsudier",
-  "baseScale": 0.5387755102040817,
+  "baseScale": 0.7040000000000001,
   "cannotDynamax": false,
   "abilities": [
     "sturdy",
@@ -97,7 +97,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5392,
+  "nationalPokedexNumber": 5390,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

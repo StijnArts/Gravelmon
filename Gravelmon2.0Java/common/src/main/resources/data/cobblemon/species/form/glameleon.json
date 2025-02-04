@@ -67,7 +67,8 @@
     "form",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.glameleon.desc"
@@ -91,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5009,
+  "nationalPokedexNumber": 5007,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

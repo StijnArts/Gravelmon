@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1714285714285714,
+  "baseScale": 0.32941176470588235,
   "cannotDynamax": false,
   "abilities": [
     "refrigerate"
@@ -99,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5574,
+  "nationalPokedexNumber": 5572,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "deecoin",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.5513513513513514,
   "cannotDynamax": false,
   "abilities": [
     "sturdy"
@@ -111,7 +111,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5188,
+  "nationalPokedexNumber": 5186,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

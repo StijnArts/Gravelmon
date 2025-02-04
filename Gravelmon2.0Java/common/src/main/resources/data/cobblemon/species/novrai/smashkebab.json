@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "mushmettle",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.24303797468354432,
   "cannotDynamax": false,
   "abilities": [
     "lightningrod",
@@ -157,7 +157,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6698,
+  "nationalPokedexNumber": 6696,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

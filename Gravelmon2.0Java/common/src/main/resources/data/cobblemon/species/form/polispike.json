@@ -67,7 +67,8 @@
     "form",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.polispike.desc"
@@ -76,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5043,
+  "nationalPokedexNumber": 5041,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

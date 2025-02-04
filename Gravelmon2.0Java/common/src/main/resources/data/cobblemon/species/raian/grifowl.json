@@ -65,7 +65,8 @@
   ],
   "labels": [
     "raian",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.grifowl.desc"
@@ -89,7 +90,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3317,
+  "nationalPokedexNumber": 3315,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

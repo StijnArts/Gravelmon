@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.0979591836734694,
+  "baseScale": 0.18461538461538463,
   "cannotDynamax": false,
   "abilities": [
     "download"
@@ -139,7 +139,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4732,
+  "nationalPokedexNumber": 4730,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

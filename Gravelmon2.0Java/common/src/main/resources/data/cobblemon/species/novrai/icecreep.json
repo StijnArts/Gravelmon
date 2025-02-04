@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "shivrr",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.7285714285714285,
   "cannotDynamax": false,
   "abilities": [
     "weakarmor",
@@ -150,7 +150,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6794,
+  "nationalPokedexNumber": 6792,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

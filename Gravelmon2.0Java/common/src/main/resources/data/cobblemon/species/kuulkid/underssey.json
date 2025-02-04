@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "squarepair",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.5037037037037037,
   "cannotDynamax": false,
   "abilities": [
     "waterabsorb",
@@ -79,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2759,
+  "nationalPokedexNumber": 2757,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

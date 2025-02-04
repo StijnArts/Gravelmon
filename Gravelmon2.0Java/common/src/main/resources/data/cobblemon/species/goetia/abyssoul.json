@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "abyspook",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.6,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -77,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8181,
+  "nationalPokedexNumber": 8179,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sagephant",
-  "baseScale": 0.4897959183673469,
+  "baseScale": 0.5217391304347826,
   "cannotDynamax": false,
   "abilities": [
     "telepathy",
@@ -88,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2938,
+  "nationalPokedexNumber": 2936,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

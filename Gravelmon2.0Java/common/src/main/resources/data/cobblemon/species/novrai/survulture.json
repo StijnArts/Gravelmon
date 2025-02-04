@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "recorvid",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.4,
   "cannotDynamax": false,
   "abilities": [
     "tintedlens",
@@ -152,7 +152,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6831,
+  "nationalPokedexNumber": 6829,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "lullabaa",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.5508196721311475,
   "cannotDynamax": false,
   "abilities": [
     "insomnia"
@@ -77,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2855,
+  "nationalPokedexNumber": 2853,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

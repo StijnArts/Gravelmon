@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "questnut",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.7200000000000001,
   "cannotDynamax": false,
   "abilities": [
     "healer"
@@ -77,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2745,
+  "nationalPokedexNumber": 2743,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -88,7 +88,7 @@ public class ElekidX extends Pokemon {
         getPosingFileData().setPortraitData( 2.9f, new Vector3(-.2, -1.5, 0));
         getPosingFileData().setProfileData( .8f, new Vector3(0, 0.6, 0));
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withBlink().clearPoseTypes()
+                AnimationData.standingAnimation().withBlink().markAsBackupPose()
         ));
     }
 }

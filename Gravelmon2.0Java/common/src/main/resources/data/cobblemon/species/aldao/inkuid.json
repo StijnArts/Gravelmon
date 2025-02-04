@@ -65,7 +65,8 @@
   ],
   "labels": [
     "aldao",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.inkuid.desc"
@@ -89,7 +90,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3835,
+  "nationalPokedexNumber": 3833,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

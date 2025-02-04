@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "nuggle",
-  "baseScale": 0.29387755102040813,
+  "baseScale": 0.5433962264150943,
   "cannotDynamax": false,
   "abilities": [
     "rockhead",
@@ -144,7 +144,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5798,
+  "nationalPokedexNumber": 5796,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

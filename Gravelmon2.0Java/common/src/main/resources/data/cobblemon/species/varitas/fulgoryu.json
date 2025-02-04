@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "beacoon",
-  "baseScale": 0.29387755102040813,
+  "baseScale": 0.2851485148514851,
   "cannotDynamax": false,
   "abilities": [
     "wonderskin"
@@ -88,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2401,
+  "nationalPokedexNumber": 2399,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

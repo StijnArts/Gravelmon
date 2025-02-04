@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "elefjant",
-  "baseScale": 0.6857142857142856,
+  "baseScale": 0.7724137931034483,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -89,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4274,
+  "nationalPokedexNumber": 4272,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

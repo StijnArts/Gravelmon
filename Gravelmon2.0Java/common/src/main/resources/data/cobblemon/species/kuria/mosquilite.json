@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "cocoolite",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.46567164179104475,
   "cannotDynamax": false,
   "abilities": [
     "tintedlens",
@@ -87,7 +87,7 @@
   "weight": 3519,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5553,
+  "nationalPokedexNumber": 5551,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "meanstalk",
-  "baseScale": 0.5142857142857143,
+  "baseScale": 0.6146341463414634,
   "cannotDynamax": false,
   "abilities": [
     "infiltrator",
@@ -95,7 +95,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2413,
+  "nationalPokedexNumber": 2411,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

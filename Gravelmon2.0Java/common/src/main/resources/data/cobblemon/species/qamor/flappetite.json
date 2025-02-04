@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pudgey",
-  "baseScale": 0.563265306122449,
+  "baseScale": 0.5158878504672897,
   "cannotDynamax": false,
   "abilities": [
     "gluttony"
@@ -90,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5411,
+  "nationalPokedexNumber": 5409,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

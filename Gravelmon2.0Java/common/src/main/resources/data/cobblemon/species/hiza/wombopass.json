@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "nosepass form=hizian",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.44799999999999995,
   "cannotDynamax": false,
   "abilities": [
     "galvanize",
@@ -131,7 +131,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3072,
+  "nationalPokedexNumber": 3070,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

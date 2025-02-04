@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "minsect",
-  "baseScale": 0.0979591836734694,
+  "baseScale": 0.14545454545454548,
   "cannotDynamax": false,
   "abilities": [
     "naturalcure",
@@ -143,7 +143,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6792,
+  "nationalPokedexNumber": 6790,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

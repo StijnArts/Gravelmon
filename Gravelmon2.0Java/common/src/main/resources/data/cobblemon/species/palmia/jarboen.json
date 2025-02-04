@@ -66,7 +66,8 @@
   ],
   "labels": [
     "not_modeled",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.jarboen.desc"
@@ -75,7 +76,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3472,
+  "nationalPokedexNumber": 3470,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

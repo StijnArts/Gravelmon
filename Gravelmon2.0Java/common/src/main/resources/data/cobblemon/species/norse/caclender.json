@@ -67,7 +67,8 @@
     "not_modeled",
     "fakemon",
     "fakemonevolution",
-    "norse"
+    "norse",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.caclender.desc"
@@ -91,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3337,
+  "nationalPokedexNumber": 3335,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

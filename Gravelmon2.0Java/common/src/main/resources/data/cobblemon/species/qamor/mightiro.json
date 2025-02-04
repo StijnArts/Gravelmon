@@ -7,7 +7,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.24489795918367346,
+  "baseScale": 0.42857142857142855,
   "cannotDynamax": false,
   "abilities": [
     "solarpower"
@@ -102,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5477,
+  "nationalPokedexNumber": 5475,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

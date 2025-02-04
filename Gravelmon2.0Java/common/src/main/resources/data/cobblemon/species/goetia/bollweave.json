@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "weevoll",
-  "baseScale": 0.29387755102040813,
+  "baseScale": 0.39999999999999997,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -81,7 +81,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7907,
+  "nationalPokedexNumber": 7905,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

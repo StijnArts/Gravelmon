@@ -65,7 +65,8 @@
   ],
   "labels": [
     "aroma",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.pioorso.desc"
@@ -74,7 +75,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7874,
+  "nationalPokedexNumber": 7872,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

@@ -72,7 +72,8 @@
   ],
   "labels": [
     "not_modeled",
-    "norse"
+    "norse",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.dnaeon.desc"
@@ -81,7 +82,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3377,
+  "nationalPokedexNumber": 3375,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

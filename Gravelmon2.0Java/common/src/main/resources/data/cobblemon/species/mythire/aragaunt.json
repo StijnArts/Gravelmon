@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.29387755102040813,
+  "baseScale": 0.576,
   "cannotDynamax": false,
   "abilities": [
     "unnerve",
@@ -154,7 +154,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5249,
+  "nationalPokedexNumber": 5247,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

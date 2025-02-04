@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "crocrux",
-  "baseScale": 0.29387755102040813,
+  "baseScale": 0.3310344827586207,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -77,7 +77,7 @@
   "weight": 850,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1598,
+  "nationalPokedexNumber": 1596,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

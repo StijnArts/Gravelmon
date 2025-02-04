@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "gemeral",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.573134328358209,
   "cannotDynamax": false,
   "abilities": [
     "sturdy",
@@ -88,7 +88,7 @@
   "weight": 3000,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5607,
+  "nationalPokedexNumber": 5605,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

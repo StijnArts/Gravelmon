@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.0979591836734694,
+  "baseScale": 0.28235294117647064,
   "cannotDynamax": false,
   "abilities": [
     "gooey",
@@ -88,7 +88,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2736,
+  "nationalPokedexNumber": 2734,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

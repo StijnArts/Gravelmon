@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "scubeel",
-  "baseScale": 0.29387755102040813,
+  "baseScale": 0.30967741935483867,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -88,7 +88,7 @@
   "weight": 750,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1584,
+  "nationalPokedexNumber": 1582,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

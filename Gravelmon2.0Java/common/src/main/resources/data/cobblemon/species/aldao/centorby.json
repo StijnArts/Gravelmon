@@ -69,7 +69,8 @@
   ],
   "labels": [
     "aldao",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.centorby.desc"
@@ -78,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3880,
+  "nationalPokedexNumber": 3878,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

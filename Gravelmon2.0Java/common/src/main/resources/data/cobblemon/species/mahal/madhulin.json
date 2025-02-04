@@ -65,7 +65,8 @@
   ],
   "labels": [
     "mahal",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.madhulin.desc"
@@ -74,7 +75,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7583,
+  "nationalPokedexNumber": 7581,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

@@ -123,7 +123,7 @@ public class DeltaTreecko extends Pokemon {
         getPosingFileData().setProfileData( 0.9f, new Vector3(0, .4, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().clearPoseTypes(),
+                AnimationData.standingAnimation().withLook().markAsBackupPose(),
                 AnimationData.walkingAnimation().withLook()
         ));
     }

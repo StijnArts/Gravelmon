@@ -70,7 +70,8 @@
     "not_modeled",
     "fakemon",
     "fakemonevolution",
-    "trizor"
+    "trizor",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.morevil.desc"
@@ -79,7 +80,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3607,
+  "nationalPokedexNumber": 3605,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

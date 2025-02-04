@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "belfry",
-  "baseScale": 0.14693877551020407,
+  "baseScale": 0.2057142857142857,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -96,7 +96,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 7979,
+  "nationalPokedexNumber": 7977,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

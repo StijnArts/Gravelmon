@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "centillite",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.32542372881355935,
   "cannotDynamax": false,
   "abilities": [
     "compoundeyes"
@@ -101,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5552,
+  "nationalPokedexNumber": 5550,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

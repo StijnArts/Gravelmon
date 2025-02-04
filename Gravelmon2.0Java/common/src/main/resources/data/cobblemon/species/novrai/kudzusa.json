@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "gorgarden",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.51,
   "cannotDynamax": false,
   "abilities": [
     "grassysurge",
@@ -167,7 +167,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6655,
+  "nationalPokedexNumber": 6653,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

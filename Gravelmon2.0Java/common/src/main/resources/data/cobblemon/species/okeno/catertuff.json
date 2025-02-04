@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pompuff",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.41600000000000004,
   "cannotDynamax": false,
   "abilities": [
     "static",
@@ -87,7 +87,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6061,
+  "nationalPokedexNumber": 6059,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

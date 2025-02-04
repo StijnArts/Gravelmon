@@ -63,7 +63,8 @@
   ],
   "labels": [
     "aroma",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.gattuccio.desc"
@@ -72,7 +73,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7761,
+  "nationalPokedexNumber": 7759,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

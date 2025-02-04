@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "squorm",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.3368421052631579,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -90,7 +90,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 7973,
+  "nationalPokedexNumber": 7971,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

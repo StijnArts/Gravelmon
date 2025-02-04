@@ -167,7 +167,7 @@ public class Kuulkid extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Pollymouth());
         addNewPokemon(new Squealie());
         addNewPokemon(new Hogrod());
-        addNewPokemon(new Bloboon());
+        addNewPokemon(new Blobloon());
         addNewPokemon(new Bubbowl());
         addNewPokemon(new Attawatta());
         addNewPokemon(new Nillamean());

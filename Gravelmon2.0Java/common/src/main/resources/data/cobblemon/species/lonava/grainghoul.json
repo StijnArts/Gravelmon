@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "dimwraith",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.49756097560975604,
   "cannotDynamax": false,
   "abilities": [
     "flashfire",
@@ -149,7 +149,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4521,
+  "nationalPokedexNumber": 4519,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "foulfoal",
-  "baseScale": 0.5142857142857143,
+  "baseScale": 0.6631578947368421,
   "cannotDynamax": false,
   "abilities": [
     "stamina",
@@ -96,7 +96,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4215,
+  "nationalPokedexNumber": 4213,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

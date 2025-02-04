@@ -67,7 +67,8 @@
   ],
   "labels": [
     "aldao",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.branceros.desc"
@@ -91,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3869,
+  "nationalPokedexNumber": 3867,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

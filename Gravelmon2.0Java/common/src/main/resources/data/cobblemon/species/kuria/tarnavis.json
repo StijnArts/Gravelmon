@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "mosglet",
-  "baseScale": 1.3224489795918368,
+  "baseScale": 1.456179775280899,
   "cannotDynamax": false,
   "abilities": [
     "megalauncher"
@@ -93,7 +93,7 @@
   "weight": 9463,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5600,
+  "nationalPokedexNumber": 5598,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

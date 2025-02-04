@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "ferasquab",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.26301369863013696,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -102,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4681,
+  "nationalPokedexNumber": 4679,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

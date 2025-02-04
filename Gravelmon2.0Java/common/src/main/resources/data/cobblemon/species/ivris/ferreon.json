@@ -65,7 +65,8 @@
   ],
   "labels": [
     "ivris",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.ferreon.desc"
@@ -74,7 +75,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4878,
+  "nationalPokedexNumber": 4876,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

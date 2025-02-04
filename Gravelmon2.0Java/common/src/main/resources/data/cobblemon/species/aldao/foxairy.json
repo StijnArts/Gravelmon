@@ -68,7 +68,8 @@
     "aldao",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.foxairy.desc"
@@ -77,7 +78,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3771,
+  "nationalPokedexNumber": 3769,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

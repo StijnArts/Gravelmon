@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "severm",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.4533333333333333,
   "cannotDynamax": false,
   "abilities": [
     "swarm",
@@ -126,7 +126,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2449,
+  "nationalPokedexNumber": 2447,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

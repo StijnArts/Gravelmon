@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "boongus",
-  "baseScale": 0.6122448979591837,
+  "baseScale": 0.625,
   "cannotDynamax": false,
   "abilities": [
     "poisontouch",
@@ -165,7 +165,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4476,
+  "nationalPokedexNumber": 4474,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

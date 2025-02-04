@@ -67,7 +67,8 @@
   ],
   "labels": [
     "raian",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.sossnit.desc"
@@ -76,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3321,
+  "nationalPokedexNumber": 3319,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

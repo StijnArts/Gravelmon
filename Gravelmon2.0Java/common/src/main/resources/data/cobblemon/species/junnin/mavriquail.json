@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "chiquail",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.528813559322034,
   "cannotDynamax": false,
   "abilities": [
     "unburden"
@@ -135,7 +135,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3141,
+  "nationalPokedexNumber": 3139,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

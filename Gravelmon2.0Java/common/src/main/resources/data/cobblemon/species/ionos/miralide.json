@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "herbelle",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.4689655172413793,
   "cannotDynamax": false,
   "abilities": [
     "overgrow",
@@ -80,7 +80,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6466,
+  "nationalPokedexNumber": 6464,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

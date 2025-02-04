@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "silvictor",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.6352941176470589,
   "cannotDynamax": false,
   "abilities": [
     "moxie",
@@ -159,7 +159,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6826,
+  "nationalPokedexNumber": 6824,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

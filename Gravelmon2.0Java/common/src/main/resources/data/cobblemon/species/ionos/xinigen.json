@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.8571428571428571,
+  "baseScale": 1.135135135135135,
   "cannotDynamax": false,
   "abilities": [
     "magicguard"
@@ -90,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6555,
+  "nationalPokedexNumber": 6553,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

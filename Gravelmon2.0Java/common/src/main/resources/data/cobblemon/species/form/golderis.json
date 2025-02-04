@@ -65,7 +65,8 @@
   ],
   "labels": [
     "form",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.golderis.desc"
@@ -74,7 +75,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5085,
+  "nationalPokedexNumber": 5083,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

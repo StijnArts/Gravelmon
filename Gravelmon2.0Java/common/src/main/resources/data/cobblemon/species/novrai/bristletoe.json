@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.0979591836734694,
+  "baseScale": 0.17777777777777778,
   "cannotDynamax": false,
   "abilities": [
     "stormdrain",
@@ -162,7 +162,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6886,
+  "nationalPokedexNumber": 6884,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

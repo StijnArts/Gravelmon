@@ -69,7 +69,8 @@
   ],
   "labels": [
     "aldao",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.edgehog.desc"
@@ -93,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3778,
+  "nationalPokedexNumber": 3776,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

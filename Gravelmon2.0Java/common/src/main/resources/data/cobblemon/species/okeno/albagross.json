@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "piratross",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.5828571428571429,
   "cannotDynamax": false,
   "abilities": [
     "superluck",
@@ -97,7 +97,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6011,
+  "nationalPokedexNumber": 6009,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.14693877551020407,
+  "baseScale": 0.26666666666666666,
   "cannotDynamax": false,
   "abilities": [
     "pickpocket",
@@ -93,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4161,
+  "nationalPokedexNumber": 4159,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

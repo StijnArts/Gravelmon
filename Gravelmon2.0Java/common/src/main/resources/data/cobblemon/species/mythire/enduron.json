@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "timidon",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.5260273972602739,
   "cannotDynamax": false,
   "abilities": [
     "marvelscale",
@@ -101,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5263,
+  "nationalPokedexNumber": 5261,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -87,7 +87,7 @@ public class Yandeddo extends Pokemon {
         getPosingFileData().setProfileData( .6f, new Vector3(0, .85, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().clearPoseTypes()
+                AnimationData.standingAnimation().markAsBackupPose()
         ));
     }
 }

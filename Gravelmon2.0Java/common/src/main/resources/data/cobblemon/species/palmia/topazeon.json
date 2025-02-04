@@ -72,7 +72,8 @@
   ],
   "labels": [
     "not_modeled",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.topazeon.desc"
@@ -81,7 +82,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3489,
+  "nationalPokedexNumber": 3487,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

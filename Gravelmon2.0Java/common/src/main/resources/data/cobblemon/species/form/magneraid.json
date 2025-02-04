@@ -70,7 +70,8 @@
     "form",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.magneraid.desc"
@@ -79,7 +80,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5056,
+  "nationalPokedexNumber": 5054,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

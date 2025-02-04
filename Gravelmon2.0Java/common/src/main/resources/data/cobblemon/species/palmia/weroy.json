@@ -70,7 +70,8 @@
   ],
   "labels": [
     "not_modeled",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.weroy.desc"
@@ -94,7 +95,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3486,
+  "nationalPokedexNumber": 3484,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

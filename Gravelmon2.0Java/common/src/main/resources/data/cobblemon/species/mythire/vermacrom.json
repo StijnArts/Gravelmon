@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.5142857142857143,
+  "baseScale": 0.6072289156626506,
   "cannotDynamax": false,
   "abilities": [
     "eartheater",
@@ -154,7 +154,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5256,
+  "nationalPokedexNumber": 5254,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

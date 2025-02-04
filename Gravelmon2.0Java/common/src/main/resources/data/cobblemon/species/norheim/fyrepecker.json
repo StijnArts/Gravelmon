@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "firipeck",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.5408450704225353,
   "cannotDynamax": false,
   "abilities": [
     "bigpecks",
@@ -88,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4174,
+  "nationalPokedexNumber": 4172,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

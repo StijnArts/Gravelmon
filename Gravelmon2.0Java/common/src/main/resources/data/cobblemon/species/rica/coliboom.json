@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "coliber",
-  "baseScale": 0.12244897959183673,
+  "baseScale": 0.18181818181818182,
   "cannotDynamax": false,
   "abilities": [
     "sniper",

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "gulacuff",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.5485714285714286,
   "cannotDynamax": false,
   "abilities": [
     "overgrow",
@@ -137,7 +137,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3111,
+  "nationalPokedexNumber": 3109,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

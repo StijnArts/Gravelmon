@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "bansheet",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.42857142857142855,
   "cannotDynamax": false,
   "abilities": [
     "levitate"
@@ -140,7 +140,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3185,
+  "nationalPokedexNumber": 3183,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

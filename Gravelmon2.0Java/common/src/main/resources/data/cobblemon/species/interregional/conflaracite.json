@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "ligniter",
-  "baseScale": 0.5142857142857143,
+  "baseScale": 0.5538461538461539,
   "cannotDynamax": false,
   "abilities": [
     "flashfire",
@@ -87,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1688,
+  "nationalPokedexNumber": 1686,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -65,7 +65,8 @@
   ],
   "labels": [
     "aldao",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.chawrecks.desc"
@@ -89,7 +90,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3829,
+  "nationalPokedexNumber": 3827,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

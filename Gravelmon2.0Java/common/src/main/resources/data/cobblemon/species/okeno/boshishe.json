@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "puppug",
-  "baseScale": 0.22040816326530613,
+  "baseScale": 0.4595744680851064,
   "cannotDynamax": false,
   "abilities": [
     "oblivious",
@@ -89,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6019,
+  "nationalPokedexNumber": 6017,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

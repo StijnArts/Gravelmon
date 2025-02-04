@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "anemini",
-  "baseScale": 0.24489795918367346,
+  "baseScale": 0.46153846153846156,
   "cannotDynamax": false,
   "abilities": [
     "torrent",
@@ -93,7 +93,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2717,
+  "nationalPokedexNumber": 2715,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

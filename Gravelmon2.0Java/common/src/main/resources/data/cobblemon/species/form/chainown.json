@@ -70,7 +70,8 @@
     "form",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.chainown.desc"
@@ -79,7 +80,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5112,
+  "nationalPokedexNumber": 5110,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

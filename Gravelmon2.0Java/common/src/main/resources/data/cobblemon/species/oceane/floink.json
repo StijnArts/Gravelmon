@@ -7,7 +7,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.14693877551020407,
+  "baseScale": 0.4114285714285714,
   "cannotDynamax": false,
   "abilities": [
     "dryskin"
@@ -86,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2361,
+  "nationalPokedexNumber": 2359,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

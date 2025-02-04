@@ -66,8 +66,8 @@ public class Dhiome extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Spectross(new Stats(441, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))));
         addNewPokemon(new Gloshroom());
         addNewPokemon(new Phosporus(new Stats(435, StatArchetype.FAST_SUPPORT, List.of(StatType.SPECIAL_DEFENCE))));
-        addNewPokemon(new Istobat());
-        addNewPokemon(new Arabat(new Stats(456, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.SPEED))));
+//        addNewPokemon(new Istobat());
+//        addNewPokemon(new Arabat(new Stats(456, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.SPEED))));
 //        addNewPokemon(new Thermate());   Member of line Not Finished
 //        addNewPokemon(new Babburn());   Missing Art
         addNewPokemon(new Cropiki(new Stats(312, StatArchetype.FAST_SUPPORT, List.of(StatType.SPEED))));

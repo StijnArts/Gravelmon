@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "buppie",
-  "baseScale": 0.29387755102040813,
+  "baseScale": 0.488135593220339,
   "cannotDynamax": false,
   "abilities": [
     "torrent",
@@ -105,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4125,
+  "nationalPokedexNumber": 4123,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -69,7 +69,8 @@
   ],
   "labels": [
     "raian",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.batacuila.desc"
@@ -78,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3296,
+  "nationalPokedexNumber": 3294,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

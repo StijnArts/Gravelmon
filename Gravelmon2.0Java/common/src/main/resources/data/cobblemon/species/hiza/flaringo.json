@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "heathling",
-  "baseScale": 0.22040816326530613,
+  "baseScale": 0.32238805970149254,
   "cannotDynamax": false,
   "abilities": [
     "flashfire",
@@ -130,7 +130,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2988,
+  "nationalPokedexNumber": 2986,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

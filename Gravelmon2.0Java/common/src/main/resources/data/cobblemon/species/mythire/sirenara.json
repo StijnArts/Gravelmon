@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "cephamore",
-  "baseScale": 0.5142857142857143,
+  "baseScale": 0.5478260869565218,
   "cannotDynamax": false,
   "abilities": [
     "rivalry",
@@ -136,7 +136,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5198,
+  "nationalPokedexNumber": 5196,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

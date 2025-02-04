@@ -65,7 +65,8 @@
   ],
   "labels": [
     "not_modeled",
-    "trizor"
+    "trizor",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.stoni.desc"
@@ -245,7 +246,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3656,
+  "nationalPokedexNumber": 3654,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

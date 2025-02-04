@@ -68,7 +68,8 @@
     "not_modeled",
     "fakemon",
     "fakemonevolution",
-    "norse"
+    "norse",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.grelinx.desc"
@@ -92,7 +93,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3398,
+  "nationalPokedexNumber": 3396,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "strappen",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.5217391304347826,
   "cannotDynamax": false,
   "abilities": [
     "battlearmor",
@@ -181,7 +181,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5194,
+  "nationalPokedexNumber": 5192,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

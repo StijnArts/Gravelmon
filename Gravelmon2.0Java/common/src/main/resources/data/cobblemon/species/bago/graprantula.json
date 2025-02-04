@@ -68,7 +68,8 @@
     "bago",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.graprantula.desc"
@@ -77,7 +78,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3738,
+  "nationalPokedexNumber": 3736,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

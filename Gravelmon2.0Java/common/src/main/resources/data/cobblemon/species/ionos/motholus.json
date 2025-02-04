@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "eyecoon",
-  "baseScale": 0.0979591836734694,
+  "baseScale": 0.12972972972972974,
   "cannotDynamax": false,
   "abilities": [
     "intimidate",
@@ -88,7 +88,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6498,
+  "nationalPokedexNumber": 6496,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "bombat",
   "baseScale": 0.0421875,
   "cannotDynamax": false,
   "abilities": [
@@ -64,7 +65,10 @@
   ],
   "labels": [
     "bago",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.thermobat.desc"
@@ -88,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3735,
+  "nationalPokedexNumber": 3733,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "quarina",
-  "baseScale": 0.22040816326530613,
+  "baseScale": 0.36000000000000004,
   "cannotDynamax": false,
   "abilities": [
     "liquidvoice",
@@ -133,7 +133,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5176,
+  "nationalPokedexNumber": 5174,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

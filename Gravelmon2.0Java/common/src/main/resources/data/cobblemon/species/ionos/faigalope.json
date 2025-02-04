@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "kaidalope",
-  "baseScale": 0.0979591836734694,
+  "baseScale": 0.09896907216494846,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -77,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6524,
+  "nationalPokedexNumber": 6522,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

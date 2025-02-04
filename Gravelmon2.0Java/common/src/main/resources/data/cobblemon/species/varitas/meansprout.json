@@ -7,7 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.14693877551020407,
+  "baseScale": 0.3272727272727272,
   "cannotDynamax": false,
   "abilities": [
     "infiltrator",
@@ -106,7 +106,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2411,
+  "nationalPokedexNumber": 2409,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

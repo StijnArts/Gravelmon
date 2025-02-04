@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "metalien",
-  "baseScale": 0.22040816326530613,
+  "baseScale": 0.34838709677419355,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -102,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4719,
+  "nationalPokedexNumber": 4717,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -64,7 +64,8 @@
   ],
   "labels": [
     "not_modeled",
-    "norse"
+    "norse",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.garruff.desc"
@@ -88,7 +89,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3371,
+  "nationalPokedexNumber": 3369,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "tilow",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.38787878787878793,
   "cannotDynamax": false,
   "abilities": [
     "flamebody",
@@ -104,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4770,
+  "nationalPokedexNumber": 4768,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

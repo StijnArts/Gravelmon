@@ -7,7 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.5142857142857143,
+  "baseScale": 0.525,
   "cannotDynamax": false,
   "abilities": [
     "baddreams"
@@ -82,7 +82,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1750,
+  "nationalPokedexNumber": 1748,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

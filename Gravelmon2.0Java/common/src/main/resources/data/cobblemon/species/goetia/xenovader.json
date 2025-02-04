@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "invadien",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.518918918918919,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -79,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8268,
+  "nationalPokedexNumber": 8266,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

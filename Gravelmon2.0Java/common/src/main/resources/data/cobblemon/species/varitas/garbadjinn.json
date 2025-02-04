@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "confectious",
-  "baseScale": 0.5142857142857143,
+  "baseScale": 0.56,
   "cannotDynamax": false,
   "abilities": [
     "gluttony",
@@ -149,7 +149,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2458,
+  "nationalPokedexNumber": 2456,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

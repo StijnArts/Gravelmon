@@ -105,7 +105,7 @@ public class Kidling extends Pokemon {
         getPosingFileData().setProfileData( 1.1f, new Vector3(-.10, .20, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().withBlink().clearPoseTypes(),
+                AnimationData.standingAnimation().withLook().withBlink().markAsBackupPose(),
                 AnimationData.walkingAnimation().withLook().withBlink()
         ));
     }

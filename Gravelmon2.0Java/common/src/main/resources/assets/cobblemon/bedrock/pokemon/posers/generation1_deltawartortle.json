@@ -22,8 +22,19 @@
         "look",
         "bedrock(deltawartortle, ground_idle)"
       ],
+      "poseTypes": [
+        "STAND",
+        "SLEEP",
+        "HOVER",
+        "FLY",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
+      ],
       "transformTicks": 10,
-      "allPoseTypes": true,
       "quirks": []
     },
     "walking": {

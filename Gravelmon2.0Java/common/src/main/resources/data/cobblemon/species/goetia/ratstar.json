@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "tenrock",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.4714285714285714,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -76,7 +76,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8159,
+  "nationalPokedexNumber": 8157,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

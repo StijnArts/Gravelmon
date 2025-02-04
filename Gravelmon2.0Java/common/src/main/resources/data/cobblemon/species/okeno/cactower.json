@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "tomactus",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.4307692307692308,
   "cannotDynamax": false,
   "abilities": [
     "lightningrod",
@@ -79,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6045,
+  "nationalPokedexNumber": 6043,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

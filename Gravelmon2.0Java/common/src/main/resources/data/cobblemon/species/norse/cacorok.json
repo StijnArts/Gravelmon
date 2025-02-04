@@ -67,7 +67,8 @@
     "not_modeled",
     "fakemon",
     "fakemonevolution",
-    "norse"
+    "norse",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.cacorok.desc"
@@ -91,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3403,
+  "nationalPokedexNumber": 3401,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

@@ -14,20 +14,6 @@
         }
       ],
       "permanent": true
-    },
-    {
-      "id": "luvdisc_delfine",
-      "variant": "level_up",
-      "result": "delfine",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "friendship",
-          "amount": "220"
-        }
-      ],
-      "permanent": true
     }
   ],
   "forms": [
@@ -41,7 +27,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1959183673469388,
+      "baseScale": 0.5818181818181819,
       "cannotDynamax": false,
       "abilities": [
         "hydration",

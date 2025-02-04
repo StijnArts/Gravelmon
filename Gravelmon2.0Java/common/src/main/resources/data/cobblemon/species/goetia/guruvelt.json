@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "gurugan",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.4474576271186441,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -76,7 +76,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8132,
+  "nationalPokedexNumber": 8130,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

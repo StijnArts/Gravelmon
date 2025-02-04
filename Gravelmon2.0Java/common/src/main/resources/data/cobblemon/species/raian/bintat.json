@@ -67,7 +67,8 @@
     "raian",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.bintat.desc"
@@ -76,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3221,
+  "nationalPokedexNumber": 3219,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

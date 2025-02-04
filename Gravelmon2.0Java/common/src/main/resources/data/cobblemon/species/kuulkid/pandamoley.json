@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sombearo",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.6,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -77,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2826,
+  "nationalPokedexNumber": 2824,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

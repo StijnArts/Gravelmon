@@ -65,7 +65,8 @@
   ],
   "labels": [
     "not_modeled",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.oryoze.desc"
@@ -89,7 +90,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3456,
+  "nationalPokedexNumber": 3454,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

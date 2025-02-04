@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "tarift",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.4314606741573034,
   "cannotDynamax": false,
   "abilities": [
     "stickyhold",
@@ -132,7 +132,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3193,
+  "nationalPokedexNumber": 3191,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

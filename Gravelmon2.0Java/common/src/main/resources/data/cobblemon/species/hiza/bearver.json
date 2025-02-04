@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "buover",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.41379310344827586,
   "cannotDynamax": false,
   "abilities": [
     "swiftswim",
@@ -89,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2940,
+  "nationalPokedexNumber": 2938,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

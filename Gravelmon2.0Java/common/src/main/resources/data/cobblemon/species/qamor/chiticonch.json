@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.384,
   "cannotDynamax": false,
   "abilities": [
     "arenatrap",
@@ -105,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5463,
+  "nationalPokedexNumber": 5461,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

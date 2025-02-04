@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "shromp",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.5,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -77,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8061,
+  "nationalPokedexNumber": 8059,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

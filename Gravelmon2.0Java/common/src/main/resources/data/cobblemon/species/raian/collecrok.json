@@ -67,7 +67,8 @@
   ],
   "labels": [
     "raian",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.collecrok.desc"
@@ -107,7 +108,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3251,
+  "nationalPokedexNumber": 3249,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

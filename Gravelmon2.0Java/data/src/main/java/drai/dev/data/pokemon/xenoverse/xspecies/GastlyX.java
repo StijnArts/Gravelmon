@@ -78,7 +78,7 @@ public class GastlyX extends Pokemon {
         getPosingFileData().setPortraitData( 1.7f, new Vector3(0, .5, 0));
         getPosingFileData().setProfileData( 1.2f, new Vector3(0, 0.8, -20));
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withBlink().clearPoseTypes(),
+                AnimationData.standingAnimation().withBlink().markAsBackupPose(),
                 AnimationData.walkingAnimation().withBlink()
         ));
     }

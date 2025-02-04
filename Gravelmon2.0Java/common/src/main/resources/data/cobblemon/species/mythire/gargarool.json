@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.47368421052631576,
   "cannotDynamax": false,
   "abilities": [
     "surgesurfer",
@@ -112,7 +112,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5209,
+  "nationalPokedexNumber": 5207,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

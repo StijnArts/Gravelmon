@@ -69,7 +69,8 @@
   ],
   "labels": [
     "aroma",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.badalocco.desc"
@@ -78,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7806,
+  "nationalPokedexNumber": 7804,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

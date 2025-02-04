@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.49811320754716987,
   "cannotDynamax": false,
   "abilities": [
     "steelyspirit",
@@ -165,7 +165,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6836,
+  "nationalPokedexNumber": 6834,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

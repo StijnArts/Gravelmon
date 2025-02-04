@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "munchkitty",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.561038961038961,
   "cannotDynamax": false,
   "abilities": [
     "cutecharm",
@@ -99,7 +99,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5383,
+  "nationalPokedexNumber": 5381,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

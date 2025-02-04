@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "squiwer",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.5684210526315789,
   "cannotDynamax": false,
   "abilities": [
     "stench",
@@ -104,7 +104,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1709,
+  "nationalPokedexNumber": 1707,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

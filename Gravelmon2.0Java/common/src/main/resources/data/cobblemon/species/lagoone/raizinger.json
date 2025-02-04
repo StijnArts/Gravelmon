@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "nimbun",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.32195121951219513,
   "cannotDynamax": false,
   "abilities": [
     "levitate",
@@ -88,7 +88,7 @@
   "weight": 350,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1586,
+  "nationalPokedexNumber": 1584,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

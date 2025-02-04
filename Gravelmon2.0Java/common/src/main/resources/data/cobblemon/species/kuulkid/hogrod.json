@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "squealie",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.5694915254237288,
   "cannotDynamax": false,
   "abilities": [
     "speedboost"
@@ -81,7 +81,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2865,
+  "nationalPokedexNumber": 2863,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "antini",
-  "baseScale": 0.14693877551020407,
+  "baseScale": 0.24,
   "cannotDynamax": false,
   "abilities": [
     "voltabsorb",
@@ -144,7 +144,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3170,
+  "nationalPokedexNumber": 3168,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.41860465116279066,
   "cannotDynamax": false,
   "abilities": [
     "drizzle",
@@ -103,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3054,
+  "nationalPokedexNumber": 3052,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

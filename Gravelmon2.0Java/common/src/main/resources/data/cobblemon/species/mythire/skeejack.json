@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "malignat",
-  "baseScale": 0.24489795918367346,
+  "baseScale": 0.34782608695652173,
   "cannotDynamax": false,
   "abilities": [
     "infiltrator",
@@ -129,7 +129,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5165,
+  "nationalPokedexNumber": 5163,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

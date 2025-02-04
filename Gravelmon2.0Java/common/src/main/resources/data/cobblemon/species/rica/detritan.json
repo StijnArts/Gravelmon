@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "barnub",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.2,
   "cannotDynamax": false,
   "abilities": [
     "filter",

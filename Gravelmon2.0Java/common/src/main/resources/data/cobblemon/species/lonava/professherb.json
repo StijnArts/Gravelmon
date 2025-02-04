@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "herburrow",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.24935064935064935,
   "cannotDynamax": false,
   "abilities": [
     "analytic",
@@ -132,7 +132,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4426,
+  "nationalPokedexNumber": 4424,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "xolito",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.44799999999999995,
   "cannotDynamax": false,
   "abilities": [
     "defiant"
@@ -89,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5403,
+  "nationalPokedexNumber": 5401,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

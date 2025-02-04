@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "parrosea",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.4631578947368421,
   "cannotDynamax": false,
   "abilities": [
     "swiftswim",
@@ -101,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2330,
+  "nationalPokedexNumber": 2328,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

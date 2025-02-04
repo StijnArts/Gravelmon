@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "mudian",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.4394366197183099,
   "cannotDynamax": false,
   "abilities": [
     "swiftswim",
@@ -150,7 +150,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2983,
+  "nationalPokedexNumber": 2981,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

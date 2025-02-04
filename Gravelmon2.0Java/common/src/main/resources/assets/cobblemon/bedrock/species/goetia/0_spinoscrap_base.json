@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_98_by_98.geo",
-      "poser": "cobblemon:cutout_gravelmon_98_by_98",
+      "model": "cobblemon:cutout_gravelmon_77_by_62.geo",
+      "poser": "cobblemon:cutout_gravelmon_77_by_62",
       "texture": "cobblemon:textures/pokemon/goetia/spinoscrap.png",
       "layers": [
         {

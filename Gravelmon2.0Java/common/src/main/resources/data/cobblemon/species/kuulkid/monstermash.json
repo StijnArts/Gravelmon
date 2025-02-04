@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "puppetickle",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.4987012987012987,
   "cannotDynamax": false,
   "abilities": [
     "cutecharm",
@@ -78,7 +78,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2781,
+  "nationalPokedexNumber": 2779,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

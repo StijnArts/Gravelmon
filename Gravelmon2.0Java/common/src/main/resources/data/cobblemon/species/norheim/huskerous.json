@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "growel",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.4044943820224719,
   "cannotDynamax": false,
   "abilities": [
     "overgrow",
@@ -91,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4105,
+  "nationalPokedexNumber": 4103,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.0979591836734694,
+  "baseScale": 0.20869565217391306,
   "cannotDynamax": false,
   "abilities": [
     "unaware",
@@ -103,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5580,
+  "nationalPokedexNumber": 5578,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.0979591836734694,
+  "baseScale": 0.20869565217391306,
   "cannotDynamax": false,
   "abilities": [
     "shielddust",
@@ -120,7 +120,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4683,
+  "nationalPokedexNumber": 4681,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

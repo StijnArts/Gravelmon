@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "coastone",
-  "baseScale": 1.2244897959183674,
+  "baseScale": 1.4634146341463414,
   "cannotDynamax": false,
   "abilities": [
     "filter",
@@ -95,7 +95,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6077,
+  "nationalPokedexNumber": 6075,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -68,7 +68,8 @@
     "not_modeled",
     "fakemon",
     "fakemonevolution",
-    "trizor"
+    "trizor",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.igunagon.desc"
@@ -77,7 +78,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3641,
+  "nationalPokedexNumber": 3639,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

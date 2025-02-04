@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "chiticonch",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.5818181818181819,
   "cannotDynamax": false,
   "abilities": [
     "arenatrap",
@@ -93,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5464,
+  "nationalPokedexNumber": 5462,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

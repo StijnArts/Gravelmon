@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "scubaa",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.6181818181818182,
   "cannotDynamax": false,
   "abilities": [
     "watercompaction",
@@ -93,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4158,
+  "nationalPokedexNumber": 4156,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "varanox",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.4474576271186441,
   "cannotDynamax": false,
   "abilities": [
     "stench",
@@ -172,7 +172,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6871,
+  "nationalPokedexNumber": 6869,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

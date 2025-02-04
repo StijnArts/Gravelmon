@@ -81,7 +81,7 @@ public class HaunterX extends Pokemon {
         getPosingFileData().setPortraitData( 1.2f, new Vector3(-.30, 2, 0));
         getPosingFileData().setProfileData( .6f, new Vector3(0, 1.55, -20));
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withBlink().clearPoseTypes(),
+                AnimationData.standingAnimation().withBlink().markAsBackupPose(),
                 AnimationData.walkingAnimation().withBlink()
         ));
     }

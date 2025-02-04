@@ -68,7 +68,8 @@
   ],
   "labels": [
     "bago",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.ocermine.desc"
@@ -77,7 +78,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3695,
+  "nationalPokedexNumber": 3693,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

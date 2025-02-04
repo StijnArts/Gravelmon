@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "kookout",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.558904109589041,
   "cannotDynamax": false,
   "abilities": [
     "flamebody",
@@ -159,7 +159,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6717,
+  "nationalPokedexNumber": 6715,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

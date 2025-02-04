@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sharkaic",
-  "baseScale": 1.6408163265306122,
+  "baseScale": 1.891764705882353,
   "cannotDynamax": false,
   "abilities": [
     "drizzle",
@@ -91,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3055,
+  "nationalPokedexNumber": 3053,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

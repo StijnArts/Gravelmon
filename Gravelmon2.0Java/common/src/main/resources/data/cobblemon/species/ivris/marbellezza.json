@@ -64,7 +64,8 @@
   ],
   "labels": [
     "ivris",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.marbellezza.desc"
@@ -73,7 +74,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4817,
+  "nationalPokedexNumber": 4815,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

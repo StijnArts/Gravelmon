@@ -63,7 +63,8 @@
   ],
   "labels": [
     "not_modeled",
-    "trizor"
+    "trizor",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.polaby.desc"
@@ -87,7 +88,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3631,
+  "nationalPokedexNumber": 3629,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

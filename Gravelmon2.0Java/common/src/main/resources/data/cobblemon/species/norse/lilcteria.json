@@ -69,7 +69,8 @@
   ],
   "labels": [
     "not_modeled",
-    "norse"
+    "norse",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.lilcteria.desc"
@@ -93,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3420,
+  "nationalPokedexNumber": 3418,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

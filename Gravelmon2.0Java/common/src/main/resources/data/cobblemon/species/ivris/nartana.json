@@ -67,7 +67,8 @@
   ],
   "labels": [
     "ivris",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.nartana.desc"
@@ -76,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4908,
+  "nationalPokedexNumber": 4906,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

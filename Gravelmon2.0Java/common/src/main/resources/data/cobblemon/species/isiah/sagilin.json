@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "oosail",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.32542372881355935,
   "cannotDynamax": false,
   "abilities": [
     "swiftswim",
@@ -86,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5717,
+  "nationalPokedexNumber": 5715,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

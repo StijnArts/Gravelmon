@@ -89,7 +89,7 @@ public class GalvantulaX extends Pokemon {
         getPosingFileData().setProfileData( .7f, new Vector3(0, 0.6, 0));
         getPosingFileData().addAnimations(List.of(
                 AnimationData.standingAnimation().addQuirk(new Quirk("blink", List.of("blink1")))
-                        .addQuirk(new Quirk("blink2", List.of("blink2"))).clearPoseTypes(),
+                        .addQuirk(new Quirk("blink2", List.of("blink2"))).markAsBackupPose(),
                 AnimationData.walkingAnimation().addQuirk(new Quirk("blink", List.of("blink1")))
                         .addQuirk(new Quirk("blink2", List.of("blink2")))
         ));

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "faunler",
-  "baseScale": 0.1714285714285714,
+  "baseScale": 0.35744680851063826,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -93,7 +93,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6562,
+  "nationalPokedexNumber": 6560,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

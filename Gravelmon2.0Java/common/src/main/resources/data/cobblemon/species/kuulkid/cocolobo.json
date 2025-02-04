@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "huskie",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.5714285714285714,
   "cannotDynamax": false,
   "abilities": [
     "sapsipper",
@@ -78,7 +78,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2785,
+  "nationalPokedexNumber": 2783,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

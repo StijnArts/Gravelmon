@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "seel form=norheiman",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.5052631578947369,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -93,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4226,
+  "nationalPokedexNumber": 4224,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

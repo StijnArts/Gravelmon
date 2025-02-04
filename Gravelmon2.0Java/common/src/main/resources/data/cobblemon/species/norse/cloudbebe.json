@@ -65,7 +65,8 @@
   ],
   "labels": [
     "not_modeled",
-    "norse"
+    "norse",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.cloudbebe.desc"
@@ -85,7 +86,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3355,
+  "nationalPokedexNumber": 3353,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

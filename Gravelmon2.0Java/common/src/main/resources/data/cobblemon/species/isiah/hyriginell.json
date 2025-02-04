@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "germinell",
-  "baseScale": 0.0979591836734694,
+  "baseScale": 0.12631578947368421,
   "cannotDynamax": false,
   "abilities": [
     "clearbody",
@@ -91,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5812,
+  "nationalPokedexNumber": 5810,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

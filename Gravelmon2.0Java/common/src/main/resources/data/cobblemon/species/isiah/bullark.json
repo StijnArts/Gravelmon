@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "finvore",
-  "baseScale": 0.22040816326530613,
+  "baseScale": 0.3540983606557377,
   "cannotDynamax": false,
   "abilities": [
     "torrent",
@@ -108,7 +108,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5692,
+  "nationalPokedexNumber": 5690,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

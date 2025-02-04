@@ -64,7 +64,8 @@
   ],
   "labels": [
     "aldao",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.icephan.desc"
@@ -88,7 +89,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3871,
+  "nationalPokedexNumber": 3869,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

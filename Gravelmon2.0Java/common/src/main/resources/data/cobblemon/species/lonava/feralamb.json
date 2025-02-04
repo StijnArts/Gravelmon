@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.36226415094339626,
   "cannotDynamax": false,
   "abilities": [
     "fluffy",
@@ -176,7 +176,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4515,
+  "nationalPokedexNumber": 4513,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

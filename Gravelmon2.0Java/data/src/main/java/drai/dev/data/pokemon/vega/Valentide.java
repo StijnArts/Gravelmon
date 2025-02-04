@@ -116,7 +116,7 @@ public class Valentide extends Pokemon {
         getPosingFileData().setProfileData( 1f, new Vector3(0.1, 0, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withBlink().clearPoseTypes(),
+                AnimationData.standingAnimation().withBlink().markAsBackupPose(),
                 AnimationData.walkingAnimation().withBlink(),
                 AnimationData.sleepingAnimation().notInWater(),
                 AnimationData.waterSleepingAnimation(),

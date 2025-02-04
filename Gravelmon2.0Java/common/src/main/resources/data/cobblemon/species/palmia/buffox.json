@@ -65,7 +65,8 @@
   ],
   "labels": [
     "not_modeled",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.buffox.desc"
@@ -85,7 +86,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3475,
+  "nationalPokedexNumber": 3473,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

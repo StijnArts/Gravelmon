@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.36923076923076925,
   "cannotDynamax": false,
   "abilities": [
     "hydration",
@@ -102,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1700,
+  "nationalPokedexNumber": 1698,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -64,7 +64,8 @@
   ],
   "labels": [
     "aroma",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.leektoross.desc"
@@ -73,7 +74,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7783,
+  "nationalPokedexNumber": 7781,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "seasaw",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.4689655172413793,
   "cannotDynamax": false,
   "abilities": [
     "strongjaw",
@@ -157,7 +157,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4752,
+  "nationalPokedexNumber": 4750,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

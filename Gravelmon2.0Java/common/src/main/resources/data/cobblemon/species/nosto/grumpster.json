@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "cheekii",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.44000000000000006,
   "cannotDynamax": false,
   "abilities": [
     "cheekpouch",
@@ -151,7 +151,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4679,
+  "nationalPokedexNumber": 4677,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

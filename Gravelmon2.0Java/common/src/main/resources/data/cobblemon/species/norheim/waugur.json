@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.49411764705882355,
   "cannotDynamax": false,
   "abilities": [
     "liquidooze",
@@ -93,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4208,
+  "nationalPokedexNumber": 4206,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

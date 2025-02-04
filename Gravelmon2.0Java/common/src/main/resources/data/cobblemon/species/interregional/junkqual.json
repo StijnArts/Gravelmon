@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "polluga",
-  "baseScale": 0.5387755102040817,
+  "baseScale": 0.5557894736842106,
   "cannotDynamax": false,
   "abilities": [
     "stormdrain",
@@ -91,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1717,
+  "nationalPokedexNumber": 1715,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

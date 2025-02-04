@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "kitsu",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.5298701298701298,
   "cannotDynamax": false,
   "abilities": [
     "blaze"
@@ -91,7 +91,7 @@
   "weight": 547,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5547,
+  "nationalPokedexNumber": 5545,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

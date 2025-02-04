@@ -65,7 +65,8 @@
   ],
   "labels": [
     "ferran",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.hourghas.desc"
@@ -74,7 +75,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7526,
+  "nationalPokedexNumber": 7524,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

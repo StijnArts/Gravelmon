@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "gobblelisk",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.35555555555555557,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -92,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1618,
+  "nationalPokedexNumber": 1616,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

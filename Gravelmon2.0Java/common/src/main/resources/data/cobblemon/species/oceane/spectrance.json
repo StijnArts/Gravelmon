@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "hallucid",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.48,
   "cannotDynamax": false,
   "abilities": [
     "symbiosis",
@@ -91,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2384,
+  "nationalPokedexNumber": 2382,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

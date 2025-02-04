@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sentresha",
-  "baseScale": 0.563265306122449,
+  "baseScale": 0.5519999999999999,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -94,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2374,
+  "nationalPokedexNumber": 2372,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

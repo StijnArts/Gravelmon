@@ -70,7 +70,8 @@
     "not_modeled",
     "fakemon",
     "fakemonevolution",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.goldos.desc"
@@ -79,7 +80,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3519,
+  "nationalPokedexNumber": 3517,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

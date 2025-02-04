@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "smogout",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.34285714285714286,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -77,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8024,
+  "nationalPokedexNumber": 8022,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

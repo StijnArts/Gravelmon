@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "miscuit",
-  "baseScale": 0.7591836734693878,
+  "baseScale": 0.9538461538461539,
   "cannotDynamax": false,
   "abilities": [
     "sweetveil",
@@ -165,7 +165,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6745,
+  "nationalPokedexNumber": 6743,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

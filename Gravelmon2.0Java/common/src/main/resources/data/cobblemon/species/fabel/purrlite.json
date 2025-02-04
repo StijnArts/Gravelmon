@@ -64,7 +64,8 @@
   ],
   "labels": [
     "fabel",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.purrlite.desc"
@@ -73,7 +74,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7696,
+  "nationalPokedexNumber": 7694,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

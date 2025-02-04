@@ -63,7 +63,8 @@
   ],
   "labels": [
     "aroma",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.terowl.desc"
@@ -72,7 +73,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7822,
+  "nationalPokedexNumber": 7820,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

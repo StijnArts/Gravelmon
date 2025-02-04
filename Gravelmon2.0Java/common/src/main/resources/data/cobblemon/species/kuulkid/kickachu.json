@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "beachu",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.2953846153846154,
   "cannotDynamax": false,
   "abilities": [
     "competitive",
@@ -89,7 +89,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2859,
+  "nationalPokedexNumber": 2857,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "tropius form=hizian",
-  "baseScale": 0.7346938775510203,
+  "baseScale": 0.8,
   "cannotDynamax": false,
   "abilities": [
     "stormdrain",
@@ -126,7 +126,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3039,
+  "nationalPokedexNumber": 3037,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

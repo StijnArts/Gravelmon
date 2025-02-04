@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "inood",
-  "baseScale": 0.22040816326530613,
+  "baseScale": 0.37894736842105264,
   "cannotDynamax": false,
   "abilities": [
     "overgrow"
@@ -105,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5686,
+  "nationalPokedexNumber": 5684,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

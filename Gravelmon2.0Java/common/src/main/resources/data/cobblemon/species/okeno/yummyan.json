@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "nyanyum",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.26666666666666666,
   "cannotDynamax": false,
   "abilities": [
     "sweetveil",
@@ -97,7 +97,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6021,
+  "nationalPokedexNumber": 6019,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

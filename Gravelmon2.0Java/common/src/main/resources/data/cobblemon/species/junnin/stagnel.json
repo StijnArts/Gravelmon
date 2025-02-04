@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "insignel",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.46567164179104475,
   "cannotDynamax": false,
   "abilities": [
     "voltabsorb",
@@ -135,7 +135,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3171,
+  "nationalPokedexNumber": 3169,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -13,6 +13,14 @@ public class Ferran extends drai.dev.data.games.registry.Game {
     }
 
     @Override
+    public void init(String resourcesDir) {
+        super.init(resourcesDir);
+        newPokemon.forEach(pokemon1 -> {
+            pokemon1.getLabels().add(Label.INSTAGRAM);
+        });
+    }
+
+    @Override
     public void registerPokemon() {
         addNewPokemon(new Chamaerol());
         addNewPokemon(new Chamaelik());

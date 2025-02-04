@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.fortifry.render": {
+		"animation.fortifry.ground_idle": {
 			"loop": true,
 			"bones": {
 				"antenna_left": {

@@ -134,7 +134,7 @@ public class DeltaRuinMetang extends Pokemon {
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
                 AnimationData.battleIdleAnimation().withBlink(),
-                AnimationData.standingAnimation().notBattle().withBlink().clearPoseTypes(),
+                AnimationData.standingAnimation().notBattle().withBlink().markAsBackupPose(),
                 AnimationData.walkingAnimation().withBlink(),
                 AnimationData.hoveringAnimation().addPoseType(PoseType.FLOAT).withBlink(),
                 AnimationData.flyingAnimation().addPoseType(PoseType.SWIM).withBlink(),

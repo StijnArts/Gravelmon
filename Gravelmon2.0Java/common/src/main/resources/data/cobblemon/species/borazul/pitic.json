@@ -69,7 +69,8 @@
   ],
   "labels": [
     "borazul",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.pitic.desc"
@@ -93,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3916,
+  "nationalPokedexNumber": 3914,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

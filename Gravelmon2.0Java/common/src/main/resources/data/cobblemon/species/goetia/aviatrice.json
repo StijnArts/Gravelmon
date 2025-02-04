@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "whirlybug",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.34285714285714286,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -79,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8118,
+  "nationalPokedexNumber": 8116,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

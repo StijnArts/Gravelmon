@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "lavrassire",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.44999999999999996,
   "cannotDynamax": false,
   "abilities": [
     "cutecharm",
@@ -94,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2388,
+  "nationalPokedexNumber": 2386,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

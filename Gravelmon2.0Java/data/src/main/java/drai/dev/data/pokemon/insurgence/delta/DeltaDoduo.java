@@ -120,7 +120,7 @@ public class DeltaDoduo extends Pokemon {
         getPosingFileData().setProfileData( .85f, new Vector3(0, .5, 0));
         getPosingFileData().head = "head";
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().clearPoseTypes(),
+                AnimationData.standingAnimation().withLook().markAsBackupPose(),
                 AnimationData.walkingAnimation().withLook()
         ));
     }

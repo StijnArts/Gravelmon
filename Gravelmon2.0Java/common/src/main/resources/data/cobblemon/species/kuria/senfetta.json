@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "gilkun",
-  "baseScale": 0.22040816326530613,
+  "baseScale": 0.34838709677419355,
   "cannotDynamax": false,
   "abilities": [
     "naturalcure",
@@ -94,7 +94,7 @@
   "weight": 119,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5655,
+  "nationalPokedexNumber": 5653,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

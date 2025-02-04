@@ -8,7 +8,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.0979591836734694,
+  "baseScale": 0.32000000000000006,
   "cannotDynamax": false,
   "abilities": [
     "cottondown",
@@ -141,7 +141,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6690,
+  "nationalPokedexNumber": 6688,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

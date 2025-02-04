@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "piluma",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.40909090909090906,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -116,7 +116,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4717,
+  "nationalPokedexNumber": 4715,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "meduzap",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.6915254237288135,
   "cannotDynamax": false,
   "abilities": [
     "levitate"
@@ -165,7 +165,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6823,
+  "nationalPokedexNumber": 6821,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

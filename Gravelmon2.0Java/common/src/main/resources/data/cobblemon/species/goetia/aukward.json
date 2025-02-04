@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pierrot",
-  "baseScale": 0.14693877551020407,
+  "baseScale": 0.27692307692307694,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -92,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8134,
+  "nationalPokedexNumber": 8132,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

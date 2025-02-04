@@ -330,7 +330,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "murkrow form=hizian",
-      "baseScale": 0.22040816326530613,
+      "baseScale": 0.2805194805194805,
       "cannotDynamax": false,
       "abilities": [
         "quickdraw"

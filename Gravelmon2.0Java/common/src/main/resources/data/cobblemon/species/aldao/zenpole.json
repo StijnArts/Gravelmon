@@ -63,7 +63,8 @@
   ],
   "labels": [
     "aldao",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.zenpole.desc"
@@ -92,7 +93,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3784,
+  "nationalPokedexNumber": 3782,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

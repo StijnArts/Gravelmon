@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "cupscape",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.41250000000000003,
   "cannotDynamax": false,
   "abilities": [
     "battlearmor",
@@ -104,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2364,
+  "nationalPokedexNumber": 2362,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

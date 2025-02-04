@@ -70,7 +70,8 @@
     "not_modeled",
     "fakemon",
     "fakemonevolution",
-    "trizor"
+    "trizor",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.earyvil.desc"
@@ -90,7 +91,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3606,
+  "nationalPokedexNumber": 3604,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

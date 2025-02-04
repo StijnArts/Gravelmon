@@ -7,7 +7,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.29387755102040813,
+  "baseScale": 0.6127659574468084,
   "cannotDynamax": false,
   "abilities": [
     "levitate"
@@ -82,7 +82,7 @@
   "weight": 127,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5601,
+  "nationalPokedexNumber": 5599,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

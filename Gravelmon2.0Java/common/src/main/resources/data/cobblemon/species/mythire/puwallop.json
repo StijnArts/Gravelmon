@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1714285714285714,
+  "baseScale": 0.39069767441860465,
   "cannotDynamax": false,
   "abilities": [
     "ironbarbs",
@@ -104,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5253,
+  "nationalPokedexNumber": 5251,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

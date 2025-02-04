@@ -67,7 +67,8 @@
     "aldao",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.turbotachi.desc"
@@ -76,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3777,
+  "nationalPokedexNumber": 3775,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

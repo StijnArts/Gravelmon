@@ -65,7 +65,8 @@
   ],
   "labels": [
     "not_modeled",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.snakolt.desc"
@@ -74,7 +75,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3493,
+  "nationalPokedexNumber": 3491,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

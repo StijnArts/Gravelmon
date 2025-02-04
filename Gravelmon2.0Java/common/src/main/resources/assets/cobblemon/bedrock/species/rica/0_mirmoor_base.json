@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_98_by_98.geo",
-      "poser": "cobblemon:cutout_gravelmon_98_by_98",
+      "model": "cobblemon:cutout_gravelmon_41_by_38.geo",
+      "poser": "cobblemon:cutout_gravelmon_41_by_38",
       "texture": "cobblemon:textures/pokemon/rica/mirmoor.png",
       "layers": [
         {

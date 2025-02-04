@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "buzzover",
-  "baseScale": 0.24489795918367346,
+  "baseScale": 0.2608695652173913,
   "cannotDynamax": false,
   "abilities": [
     "aerilate"
@@ -85,7 +85,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3000,
+  "nationalPokedexNumber": 2998,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

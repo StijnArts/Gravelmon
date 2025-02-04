@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "stalacpace",
-  "baseScale": 0.563265306122449,
+  "baseScale": 0.641860465116279,
   "cannotDynamax": false,
   "abilities": [
     "rockhead",
@@ -91,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3042,
+  "nationalPokedexNumber": 3040,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

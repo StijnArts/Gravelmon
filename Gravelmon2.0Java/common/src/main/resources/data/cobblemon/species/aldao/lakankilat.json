@@ -64,7 +64,8 @@
   ],
   "labels": [
     "aldao",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.lakankilat.desc"
@@ -73,7 +74,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3887,
+  "nationalPokedexNumber": 3885,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

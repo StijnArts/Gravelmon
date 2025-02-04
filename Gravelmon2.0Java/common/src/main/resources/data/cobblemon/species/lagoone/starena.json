@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sandime",
-  "baseScale": 0.24489795918367346,
+  "baseScale": 0.3,
   "cannotDynamax": false,
   "abilities": [
     "sandveil",
@@ -88,7 +88,7 @@
   "weight": 280,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1588,
+  "nationalPokedexNumber": 1586,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

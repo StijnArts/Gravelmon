@@ -19,8 +19,21 @@
         "look",
         "bedrock(fearow_egho, ground_idle)"
       ],
+      "poseTypes": [
+        "WALK",
+        "SLEEP",
+        "HOVER",
+        "FLY",
+        "FLOAT",
+        "SWIM",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
+      ],
       "transformTicks": 10,
-      "allPoseTypes": true,
       "quirks": [
         {
           "animations": [

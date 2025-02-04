@@ -71,7 +71,8 @@
     "not_modeled",
     "fakemon",
     "fakemonevolution",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.stingall.desc"
@@ -135,7 +136,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3507,
+  "nationalPokedexNumber": 3505,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

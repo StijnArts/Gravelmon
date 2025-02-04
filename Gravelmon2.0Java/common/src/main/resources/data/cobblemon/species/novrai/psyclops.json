@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.48750000000000004,
   "cannotDynamax": false,
   "abilities": [
     "noguard",
@@ -194,7 +194,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6880,
+  "nationalPokedexNumber": 6878,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

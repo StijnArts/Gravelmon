@@ -65,7 +65,8 @@
   ],
   "labels": [
     "not_modeled",
-    "norse"
+    "norse",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.gloefa.desc"
@@ -89,7 +90,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3367,
+  "nationalPokedexNumber": 3365,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

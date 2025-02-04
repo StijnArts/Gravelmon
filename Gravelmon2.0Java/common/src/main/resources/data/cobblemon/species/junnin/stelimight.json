@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "stalad",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.6620689655172414,
   "cannotDynamax": false,
   "abilities": [
     "sturdy",
@@ -124,7 +124,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3164,
+  "nationalPokedexNumber": 3162,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "merbebi",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.42739726027397257,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -85,7 +85,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2338,
+  "nationalPokedexNumber": 2336,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

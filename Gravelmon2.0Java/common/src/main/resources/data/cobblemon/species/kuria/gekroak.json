@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "kikro",
-  "baseScale": 0.24489795918367346,
+  "baseScale": 0.375,
   "cannotDynamax": false,
   "abilities": [
     "torrent"
@@ -103,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5549,
+  "nationalPokedexNumber": 5547,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

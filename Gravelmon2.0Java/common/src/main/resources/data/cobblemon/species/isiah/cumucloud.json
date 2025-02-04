@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "drizzlen",
-  "baseScale": 0.29387755102040813,
+  "baseScale": 0.36455696202531646,
   "cannotDynamax": false,
   "abilities": [
     "cloudnine",
@@ -89,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5728,
+  "nationalPokedexNumber": 5726,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "bulpy",
-  "baseScale": 0.29387755102040813,
+  "baseScale": 0.4114285714285714,
   "cannotDynamax": false,
   "abilities": [
     "fluffy",
@@ -90,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1666,
+  "nationalPokedexNumber": 1664,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

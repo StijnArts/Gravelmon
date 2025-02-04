@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "dugmite",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.5230769230769231,
   "cannotDynamax": false,
   "abilities": [
     "strongjaw",
@@ -89,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5740,
+  "nationalPokedexNumber": 5738,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

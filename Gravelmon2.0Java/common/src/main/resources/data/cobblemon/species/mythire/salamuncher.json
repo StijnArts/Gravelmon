@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "nooch",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.4727272727272728,
   "cannotDynamax": false,
   "abilities": [
     "gluttony"
@@ -200,7 +200,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5183,
+  "nationalPokedexNumber": 5181,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

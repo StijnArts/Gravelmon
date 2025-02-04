@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "embay",
-  "baseScale": 0.24489795918367346,
+  "baseScale": 0.3076923076923077,
   "cannotDynamax": false,
   "abilities": [
     "flashfire",
@@ -93,7 +93,7 @@
   "weight": 195,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5624,
+  "nationalPokedexNumber": 5622,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

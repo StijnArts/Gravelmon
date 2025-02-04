@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "antle",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.48,
   "cannotDynamax": false,
   "abilities": [
     "tintedlens",
@@ -88,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4192,
+  "nationalPokedexNumber": 4190,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

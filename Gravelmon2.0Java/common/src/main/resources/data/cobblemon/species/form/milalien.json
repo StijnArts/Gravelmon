@@ -67,7 +67,8 @@
   ],
   "labels": [
     "form",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.milalien.desc"
@@ -76,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5121,
+  "nationalPokedexNumber": 5119,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

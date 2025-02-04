@@ -63,7 +63,8 @@
   ],
   "labels": [
     "not_modeled",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.drarize.desc"
@@ -87,7 +88,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3576,
+  "nationalPokedexNumber": 3574,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

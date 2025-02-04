@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "torpepo",
-  "baseScale": 0.563265306122449,
+  "baseScale": 0.5064220183486239,
   "cannotDynamax": false,
   "abilities": [
     "overgrow",
@@ -87,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4668,
+  "nationalPokedexNumber": 4666,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

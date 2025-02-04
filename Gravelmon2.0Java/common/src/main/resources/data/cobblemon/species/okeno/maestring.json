@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "krickiet",
-  "baseScale": 0.22040816326530613,
+  "baseScale": 0.30422535211267604,
   "cannotDynamax": false,
   "abilities": [
     "swarm",
@@ -96,7 +96,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6052,
+  "nationalPokedexNumber": 6050,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

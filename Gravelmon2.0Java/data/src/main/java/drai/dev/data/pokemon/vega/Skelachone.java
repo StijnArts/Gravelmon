@@ -114,7 +114,7 @@ public class Skelachone extends Pokemon {
         getPosingFileData().setProfileData( .58f, new Vector3(0, .9, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().clearPoseTypes(),
+                AnimationData.standingAnimation().markAsBackupPose(),
                 AnimationData.swimmingAnimation(),
                 AnimationData.floatingAnimation()
         ));

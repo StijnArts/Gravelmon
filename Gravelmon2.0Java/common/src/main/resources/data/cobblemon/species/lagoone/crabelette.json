@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "cregg",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.4253164556962025,
   "cannotDynamax": false,
   "abilities": [
     "pickpocket",
@@ -91,7 +91,7 @@
   "weight": 930,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1554,
+  "nationalPokedexNumber": 1552,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

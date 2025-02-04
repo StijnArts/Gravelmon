@@ -73,7 +73,8 @@
   ],
   "labels": [
     "raian",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.cloueon.desc"
@@ -82,7 +83,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3324,
+  "nationalPokedexNumber": 3322,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

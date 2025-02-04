@@ -67,7 +67,8 @@
   ],
   "labels": [
     "fabel",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.chathride.desc"
@@ -76,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7705,
+  "nationalPokedexNumber": 7703,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

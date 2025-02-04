@@ -117,8 +117,8 @@ public abstract class WorldRepresentablePokemon {
         double newHitboxWidth = Math.min(6 * factor, 3);
         double newHitboxHeight =  Math.min(6 * factor, 3);
         abstractPokemon.setHitbox(newHitboxWidth, newHitboxHeight);
-//        posingFileData.portraitScale *= factor;
-//        posingFileData.profileScale *= factor;
+        posingFileData.portraitScale *= factor;
+        posingFileData.profileScale *= factor;
     }
 
     int getPlaceholderImageWidth(AbstractPokemon abstractPokemon) {

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "atlarv",
-  "baseScale": 0.46530612244897956,
+  "baseScale": 0.5302325581395348,
   "cannotDynamax": false,
   "abilities": [
     "shedskin",
@@ -160,7 +160,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4754,
+  "nationalPokedexNumber": 4752,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

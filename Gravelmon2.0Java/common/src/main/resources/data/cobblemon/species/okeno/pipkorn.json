@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "popkern",
-  "baseScale": 0.14693877551020407,
+  "baseScale": 0.2571428571428571,
   "cannotDynamax": false,
   "abilities": [
     "owntempo",
@@ -88,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6026,
+  "nationalPokedexNumber": 6024,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

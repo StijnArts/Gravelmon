@@ -67,7 +67,8 @@
   ],
   "labels": [
     "ivris",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.soldarise.desc"
@@ -76,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4896,
+  "nationalPokedexNumber": 4894,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

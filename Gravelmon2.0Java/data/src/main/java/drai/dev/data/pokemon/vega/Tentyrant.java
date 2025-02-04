@@ -109,7 +109,7 @@ public class Tentyrant extends Pokemon {
         getPosingFileData().setPortraitData( 1.8f, new Vector3(0, -0.4, 0));
         getPosingFileData().setProfileData( .9f, new Vector3(0, .4, 0));
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().clearPoseTypes(),
+                AnimationData.standingAnimation().markAsBackupPose(),
                 AnimationData.swimmingAnimation(),
                 AnimationData.floatingAnimation()
         ));

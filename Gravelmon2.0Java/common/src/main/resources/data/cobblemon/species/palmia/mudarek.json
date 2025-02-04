@@ -71,7 +71,8 @@
     "not_modeled",
     "fakemon",
     "fakemonevolution",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.mudarek.desc"
@@ -80,7 +81,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3488,
+  "nationalPokedexNumber": 3486,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

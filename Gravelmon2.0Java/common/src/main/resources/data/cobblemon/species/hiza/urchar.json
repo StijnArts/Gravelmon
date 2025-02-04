@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "smalldering",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.3391304347826087,
   "cannotDynamax": false,
   "abilities": [
     "poisonpoint",
@@ -89,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3053,
+  "nationalPokedexNumber": 3051,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

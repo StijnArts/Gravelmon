@@ -1,5 +1,66 @@
 {
   "species": "cobblemon:fortifry",
   "order": 0,
-  "variations": []
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:sage_fortifry.geo",
+      "poser": "cobblemon:sage_fortifry",
+      "texture": "cobblemon:textures/pokemon/sage/fortifry/fortifry.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "model": "cobblemon:sage_fortifry.geo",
+      "poser": "cobblemon:sage_fortifry",
+      "texture": "cobblemon:textures/pokemon/sage/fortifry/fortifry_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
+    }
+  ]
 }

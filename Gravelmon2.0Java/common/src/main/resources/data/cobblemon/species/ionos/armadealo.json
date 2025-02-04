@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sparkadillo",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.45714285714285713,
   "cannotDynamax": false,
   "abilities": [
     "blaze",
@@ -78,7 +78,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6469,
+  "nationalPokedexNumber": 6467,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -6,8 +6,8 @@
       "aspects": [
         "qamoran"
       ],
-      "model": "cobblemon:cutout_gravelmon_98_by_98.geo",
-      "poser": "cobblemon:cutout_gravelmon_98_by_98",
+      "model": "cobblemon:cutout_gravelmon_87_by_65.geo",
+      "poser": "cobblemon:cutout_gravelmon_87_by_65",
       "texture": "cobblemon:textures/pokemon/generation4/qamorantangrowth.png",
       "layers": [
         {

@@ -7,7 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1714285714285714,
+  "baseScale": 0.2434782608695652,
   "cannotDynamax": false,
   "abilities": [
     "swarm"
@@ -85,7 +85,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2954,
+  "nationalPokedexNumber": 2952,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

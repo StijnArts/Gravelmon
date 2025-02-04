@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "clavarma",
-  "baseScale": 0.563265306122449,
+  "baseScale": 0.6202247191011235,
   "cannotDynamax": false,
   "abilities": [
     "flashfire",
@@ -90,7 +90,7 @@
   "weight": 1745,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5637,
+  "nationalPokedexNumber": 5635,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

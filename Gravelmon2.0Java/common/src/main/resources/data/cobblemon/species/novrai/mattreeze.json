@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "chillow",
-  "baseScale": 0.4897959183673469,
+  "baseScale": 0.6,
   "cannotDynamax": false,
   "abilities": [
     "cottondown",
@@ -150,7 +150,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6691,
+  "nationalPokedexNumber": 6689,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

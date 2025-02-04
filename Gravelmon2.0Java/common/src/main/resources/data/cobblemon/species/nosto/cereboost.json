@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "brailien",
-  "baseScale": 0.563265306122449,
+  "baseScale": 0.6494117647058822,
   "cannotDynamax": false,
   "abilities": [
     "adaptability",
@@ -171,7 +171,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4731,
+  "nationalPokedexNumber": 4729,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "platypull",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.45882352941176474,
   "cannotDynamax": false,
   "abilities": [
     "magnetpull",
@@ -156,7 +156,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6661,
+  "nationalPokedexNumber": 6659,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

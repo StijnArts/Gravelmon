@@ -17,6 +17,7 @@ public class Palmia  extends drai.dev.data.games.registry.Game {
         newPokemon.forEach(pokemon1 -> {
             pokemon1.getLabels().remove(Label.RAIAN);
             pokemon1.getLabels().add(Label.PALMIA);
+            pokemon1.getLabels().add(Label.INSTAGRAM);
         });
     }
 

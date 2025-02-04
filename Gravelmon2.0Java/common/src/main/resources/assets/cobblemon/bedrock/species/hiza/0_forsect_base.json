@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_98_by_98.geo",
-      "poser": "cobblemon:cutout_gravelmon_98_by_98",
+      "model": "cobblemon:cutout_gravelmon_75_by_71.geo",
+      "poser": "cobblemon:cutout_gravelmon_75_by_71",
       "texture": "cobblemon:textures/pokemon/hiza/forsect.png",
       "layers": [
         {

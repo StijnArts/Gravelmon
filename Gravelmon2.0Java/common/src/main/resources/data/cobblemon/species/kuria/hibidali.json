@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "euthiscus",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.37714285714285717,
   "cannotDynamax": false,
   "abilities": [
     "harvest",
@@ -89,7 +89,7 @@
   "weight": 130,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5562,
+  "nationalPokedexNumber": 5560,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

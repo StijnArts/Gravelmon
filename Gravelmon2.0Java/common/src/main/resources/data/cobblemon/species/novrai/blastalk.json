@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "grenaize",
-  "baseScale": 0.1714285714285714,
+  "baseScale": 0.27999999999999997,
   "cannotDynamax": false,
   "abilities": [
     "aftermath",
@@ -161,7 +161,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6708,
+  "nationalPokedexNumber": 6706,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

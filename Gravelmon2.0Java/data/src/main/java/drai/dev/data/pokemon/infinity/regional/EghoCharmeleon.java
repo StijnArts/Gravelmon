@@ -129,7 +129,7 @@ public class EghoCharmeleon extends Pokemon {
         getPosingFileData().setProfileData( 0.4f, new Vector3(-0.0, 1.1, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().clearPoseTypes().withBlink()
+                AnimationData.standingAnimation().withLook().markAsBackupPose().withBlink()
         ));
         getPosingFileData().setAnimationFileName("charmeleon_egho");
     }

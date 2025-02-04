@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sapuddle",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.5142857142857142,
   "cannotDynamax": false,
   "abilities": [
     "poisontouch",
@@ -79,7 +79,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6050,
+  "nationalPokedexNumber": 6048,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

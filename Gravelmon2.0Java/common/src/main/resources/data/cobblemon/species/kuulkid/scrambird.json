@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "poachick",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.528,
   "cannotDynamax": false,
   "abilities": [
     "keeneye",
@@ -91,7 +91,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2727,
+  "nationalPokedexNumber": 2725,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

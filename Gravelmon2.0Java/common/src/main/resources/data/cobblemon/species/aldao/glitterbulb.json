@@ -72,7 +72,8 @@
     "aldao",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.glitterbulb.desc"
@@ -81,7 +82,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3868,
+  "nationalPokedexNumber": 3866,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

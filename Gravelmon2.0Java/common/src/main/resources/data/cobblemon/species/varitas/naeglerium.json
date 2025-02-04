@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "agitwin",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.44210526315789467,
   "cannotDynamax": false,
   "abilities": [
     "moody"
@@ -86,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2423,
+  "nationalPokedexNumber": 2421,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

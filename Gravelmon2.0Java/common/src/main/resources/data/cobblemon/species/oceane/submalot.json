@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "cachaleen",
-  "baseScale": 1.420408163265306,
+  "baseScale": 1.1796610169491526,
   "cannotDynamax": false,
   "abilities": [
     "waterveil",
@@ -90,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2345,
+  "nationalPokedexNumber": 2343,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

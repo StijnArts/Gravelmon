@@ -68,7 +68,8 @@
     "borazul",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.equamarin.desc"
@@ -92,7 +93,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3912,
+  "nationalPokedexNumber": 3910,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

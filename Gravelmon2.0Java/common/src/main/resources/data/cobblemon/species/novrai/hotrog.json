@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "jalopig",
-  "baseScale": 0.4897959183673469,
+  "baseScale": 0.7619047619047619,
   "cannotDynamax": false,
   "abilities": [
     "motordrive",
@@ -156,7 +156,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6706,
+  "nationalPokedexNumber": 6704,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

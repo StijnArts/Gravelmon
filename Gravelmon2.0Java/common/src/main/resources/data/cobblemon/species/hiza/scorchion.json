@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.29387755102040813,
+  "baseScale": 0.35121951219512193,
   "cannotDynamax": false,
   "abilities": [
     "flamebody"
@@ -82,7 +82,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3031,
+  "nationalPokedexNumber": 3029,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

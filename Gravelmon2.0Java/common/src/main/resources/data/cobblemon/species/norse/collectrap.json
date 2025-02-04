@@ -67,7 +67,8 @@
   ],
   "labels": [
     "not_modeled",
-    "norse"
+    "norse",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.collectrap.desc"
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3408,
+  "nationalPokedexNumber": 3406,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

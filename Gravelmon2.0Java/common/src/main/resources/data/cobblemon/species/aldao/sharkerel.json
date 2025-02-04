@@ -70,7 +70,8 @@
     "aldao",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.sharkerel.desc"
@@ -94,7 +95,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3819,
+  "nationalPokedexNumber": 3817,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

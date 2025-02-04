@@ -113,7 +113,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.14693877551020407,
+      "baseScale": 0.5142857142857142,
       "cannotDynamax": false,
       "abilities": [
         "mirrorarmor",

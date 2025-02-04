@@ -67,7 +67,8 @@
     "aldao",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.kapalma.desc"
@@ -87,7 +88,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3803,
+  "nationalPokedexNumber": 3801,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

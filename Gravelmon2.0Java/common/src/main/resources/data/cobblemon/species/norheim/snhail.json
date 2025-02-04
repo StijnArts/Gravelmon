@@ -7,7 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.45714285714285713,
   "cannotDynamax": false,
   "abilities": [
     "snowwarning",
@@ -87,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4213,
+  "nationalPokedexNumber": 4211,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

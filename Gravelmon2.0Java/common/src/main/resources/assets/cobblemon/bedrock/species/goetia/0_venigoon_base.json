@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_98_by_98.geo",
-      "poser": "cobblemon:cutout_gravelmon_98_by_98",
+      "model": "cobblemon:cutout_gravelmon_44_by_44.geo",
+      "poser": "cobblemon:cutout_gravelmon_44_by_44",
       "texture": "cobblemon:textures/pokemon/goetia/venigoon.png",
       "layers": [
         {

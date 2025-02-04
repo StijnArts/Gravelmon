@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "scalivid",
-  "baseScale": 0.46530612244897956,
+  "baseScale": 0.5241379310344827,
   "cannotDynamax": false,
   "abilities": [
     "multiscale"
@@ -86,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2935,
+  "nationalPokedexNumber": 2933,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

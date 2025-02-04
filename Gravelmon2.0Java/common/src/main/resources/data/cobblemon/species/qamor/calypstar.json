@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.14693877551020407,
+  "baseScale": 0.27169811320754716,
   "cannotDynamax": false,
   "abilities": [
     "sapsipper"
@@ -88,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5388,
+  "nationalPokedexNumber": 5386,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "gilkun",
-  "baseScale": 0.22040816326530613,
+  "baseScale": 0.3661016949152543,
   "cannotDynamax": false,
   "abilities": [
     "swiftswim",
@@ -93,7 +93,7 @@
   "weight": 142,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5656,
+  "nationalPokedexNumber": 5654,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

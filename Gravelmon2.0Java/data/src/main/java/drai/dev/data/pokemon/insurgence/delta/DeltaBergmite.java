@@ -127,7 +127,7 @@ public class DeltaBergmite extends Pokemon {
                 0.4,
                 0.0));
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().clearPoseTypes().withLook().withBlink(),
+                AnimationData.standingAnimation().markAsBackupPose().withLook().withBlink(),
                 AnimationData.walkingAnimation().withLook().withBlink()
         ));
     }

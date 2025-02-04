@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "haloe",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.6476190476190475,
   "cannotDynamax": false,
   "abilities": [
     "triage",
@@ -145,7 +145,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6804,
+  "nationalPokedexNumber": 6802,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -18,9 +18,23 @@
       "animations": [
         "bedrock(ursaring_hoennian, ground_idle)"
       ],
+      "poseTypes": [
+        "STAND",
+        "WALK",
+        "SLEEP",
+        "HOVER",
+        "FLY",
+        "FLOAT",
+        "SWIM",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
+      ],
       "transformTicks": 10,
       "isBattle": false,
-      "allPoseTypes": true,
       "quirks": [
         {
           "animations": [

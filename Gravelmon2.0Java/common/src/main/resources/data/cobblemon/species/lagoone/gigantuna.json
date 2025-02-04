@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sardive",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.51,
   "cannotDynamax": false,
   "abilities": [
     "thickfat",
@@ -90,7 +90,7 @@
   "weight": 1400,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1556,
+  "nationalPokedexNumber": 1554,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

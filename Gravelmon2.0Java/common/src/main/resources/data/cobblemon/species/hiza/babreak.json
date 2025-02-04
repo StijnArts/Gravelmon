@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "babrat",
-  "baseScale": 0.29387755102040813,
+  "baseScale": 0.42985074626865666,
   "cannotDynamax": false,
   "abilities": [
     "quickfeet",
@@ -104,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2957,
+  "nationalPokedexNumber": 2955,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

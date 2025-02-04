@@ -65,7 +65,8 @@
   ],
   "labels": [
     "form",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.meu.desc"
@@ -74,7 +75,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5088,
+  "nationalPokedexNumber": 5086,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

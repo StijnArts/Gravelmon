@@ -69,7 +69,8 @@
   ],
   "labels": [
     "aldao",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.fairlion.desc"
@@ -89,7 +90,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3825,
+  "nationalPokedexNumber": 3823,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

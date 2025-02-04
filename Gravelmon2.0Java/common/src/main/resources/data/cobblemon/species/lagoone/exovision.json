@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "skullocaris",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.37714285714285717,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -81,7 +81,7 @@
   "weight": 272,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1624,
+  "nationalPokedexNumber": 1622,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

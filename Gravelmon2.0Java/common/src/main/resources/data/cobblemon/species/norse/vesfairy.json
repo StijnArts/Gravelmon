@@ -76,7 +76,8 @@
   ],
   "labels": [
     "not_modeled",
-    "norse"
+    "norse",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.vesfairy.desc"
@@ -85,7 +86,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3452,
+  "nationalPokedexNumber": 3450,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

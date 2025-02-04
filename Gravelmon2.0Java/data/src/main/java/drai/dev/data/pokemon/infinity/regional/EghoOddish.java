@@ -106,7 +106,7 @@ public class EghoOddish extends Pokemon {
         getPosingFileData().setProfileData( .8f, new Vector3(0, .6, -20));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().clearPoseTypes().withBlink(),
+                AnimationData.standingAnimation().markAsBackupPose().withBlink(),
                 AnimationData.walkingAnimation().withBlink(),
                 AnimationData.sleepingAnimation()
         ));

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "chompper",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.4474576271186441,
   "cannotDynamax": false,
   "abilities": [
     "torrent",
@@ -107,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6471,
+  "nationalPokedexNumber": 6469,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

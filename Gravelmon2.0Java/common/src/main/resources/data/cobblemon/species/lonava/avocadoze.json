@@ -7,7 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.0979591836734694,
+  "baseScale": 0.36923076923076925,
   "cannotDynamax": false,
   "abilities": [
     "comatose"
@@ -98,7 +98,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4470,
+  "nationalPokedexNumber": 4468,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

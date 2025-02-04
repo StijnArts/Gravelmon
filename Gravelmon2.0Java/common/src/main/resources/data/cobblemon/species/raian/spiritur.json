@@ -70,7 +70,8 @@
     "raian",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.spiritur.desc"
@@ -79,7 +80,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3232,
+  "nationalPokedexNumber": 3230,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

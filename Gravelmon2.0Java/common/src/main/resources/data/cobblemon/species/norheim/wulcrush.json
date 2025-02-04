@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "wulca",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.5468354430379747,
   "cannotDynamax": false,
   "abilities": [
     "moxie",
@@ -89,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4286,
+  "nationalPokedexNumber": 4284,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

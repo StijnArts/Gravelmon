@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "effipy",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.48750000000000004,
   "cannotDynamax": false,
   "abilities": [
     "serenegrace",
@@ -86,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5266,
+  "nationalPokedexNumber": 5264,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

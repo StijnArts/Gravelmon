@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "hatchick",
-  "baseScale": 0.22040816326530613,
+  "baseScale": 0.3375,
   "cannotDynamax": false,
   "abilities": [
     "earlybird",
@@ -104,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5999,
+  "nationalPokedexNumber": 5997,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

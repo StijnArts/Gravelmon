@@ -389,7 +389,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1714285714285714,
+      "baseScale": 0.33599999999999997,
       "cannotDynamax": false,
       "abilities": [
         "dancer"
@@ -568,7 +568,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1714285714285714,
+      "baseScale": 0.36521739130434777,
       "cannotDynamax": false,
       "abilities": [
         "guts",

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "slickle",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.26301369863013696,
   "cannotDynamax": false,
   "abilities": [
     "innerfocus",
@@ -97,7 +97,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4202,
+  "nationalPokedexNumber": 4200,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

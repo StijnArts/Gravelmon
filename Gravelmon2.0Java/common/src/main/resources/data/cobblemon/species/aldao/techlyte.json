@@ -65,7 +65,8 @@
   ],
   "labels": [
     "aldao",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.techlyte.desc"
@@ -85,7 +86,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3849,
+  "nationalPokedexNumber": 3847,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

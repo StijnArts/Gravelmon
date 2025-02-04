@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "jarmalade",
-  "baseScale": 0.1714285714285714,
+  "baseScale": 0.35744680851063826,
   "cannotDynamax": false,
   "abilities": [
     "gooey",
@@ -117,7 +117,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4473,
+  "nationalPokedexNumber": 4471,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

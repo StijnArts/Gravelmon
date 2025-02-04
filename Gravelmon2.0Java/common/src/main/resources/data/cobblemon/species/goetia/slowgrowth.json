@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "mossloth",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.49756097560975604,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -76,7 +76,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7891,
+  "nationalPokedexNumber": 7889,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

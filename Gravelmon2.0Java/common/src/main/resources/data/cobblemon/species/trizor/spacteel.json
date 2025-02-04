@@ -68,7 +68,8 @@
     "not_modeled",
     "fakemon",
     "fakemonevolution",
-    "trizor"
+    "trizor",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.spacteel.desc"
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3594,
+  "nationalPokedexNumber": 3592,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

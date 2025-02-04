@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "lubub",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.32542372881355935,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -76,7 +76,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8107,
+  "nationalPokedexNumber": 8105,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "gemolofry",
-  "baseScale": 0.1714285714285714,
+  "baseScale": 0.27540983606557373,
   "cannotDynamax": false,
   "abilities": [
     "keeneye",
@@ -169,7 +169,7 @@
   "weight": 1050,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4542,
+  "nationalPokedexNumber": 4540,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

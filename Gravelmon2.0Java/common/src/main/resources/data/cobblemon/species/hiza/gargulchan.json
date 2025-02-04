@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "cycrush",
-  "baseScale": 0.7346938775510203,
+  "baseScale": 0.7826086956521738,
   "cannotDynamax": false,
   "abilities": [
     "sandforce",
@@ -91,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3011,
+  "nationalPokedexNumber": 3009,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

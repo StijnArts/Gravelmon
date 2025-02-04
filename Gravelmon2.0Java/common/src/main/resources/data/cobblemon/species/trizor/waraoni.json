@@ -72,7 +72,8 @@
     "not_modeled",
     "fakemon",
     "fakemonevolution",
-    "trizor"
+    "trizor",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.waraoni.desc"
@@ -81,7 +82,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3657,
+  "nationalPokedexNumber": 3655,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

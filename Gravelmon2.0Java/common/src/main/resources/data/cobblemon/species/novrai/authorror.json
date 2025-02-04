@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "calligrave",
-  "baseScale": 0.5387755102040817,
+  "baseScale": 0.7232876712328767,
   "cannotDynamax": false,
   "abilities": [
     "keeneye",
@@ -156,7 +156,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6816,
+  "nationalPokedexNumber": 6814,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

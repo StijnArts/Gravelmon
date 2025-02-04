@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "flaringo",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.35200000000000004,
   "cannotDynamax": false,
   "abilities": [
     "flashfire",
@@ -109,7 +109,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2989,
+  "nationalPokedexNumber": 2987,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

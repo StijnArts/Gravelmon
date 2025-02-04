@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "ballistyke",
-  "baseScale": 0.14693877551020407,
+  "baseScale": 0.19999999999999998,
   "cannotDynamax": false,
   "abilities": [
     "levitate",
@@ -152,7 +152,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6883,
+  "nationalPokedexNumber": 6881,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -255,7 +255,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "skrelp form=novran",
-      "baseScale": 0.44081632653061226,
+      "baseScale": 0.5538461538461539,
       "cannotDynamax": false,
       "abilities": [
         "immunity",

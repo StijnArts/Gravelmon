@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "petishell",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.52,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -86,7 +86,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8135,
+  "nationalPokedexNumber": 8133,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

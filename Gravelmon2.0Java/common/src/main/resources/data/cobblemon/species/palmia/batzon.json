@@ -67,7 +67,8 @@
   ],
   "labels": [
     "not_modeled",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.batzon.desc"
@@ -87,7 +88,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3533,
+  "nationalPokedexNumber": 3531,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

@@ -67,7 +67,8 @@
   ],
   "labels": [
     "sahl",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.meikourkei.desc"
@@ -76,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7885,
+  "nationalPokedexNumber": 7883,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

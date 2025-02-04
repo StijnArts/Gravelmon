@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "twinkluppy",
-  "baseScale": 0.29387755102040813,
+  "baseScale": 0.496551724137931,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -120,7 +120,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4736,
+  "nationalPokedexNumber": 4734,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

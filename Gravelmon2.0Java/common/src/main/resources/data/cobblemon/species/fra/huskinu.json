@@ -64,7 +64,8 @@
   ],
   "labels": [
     "fra",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.huskinu.desc"
@@ -84,7 +85,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3893,
+  "nationalPokedexNumber": 3891,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

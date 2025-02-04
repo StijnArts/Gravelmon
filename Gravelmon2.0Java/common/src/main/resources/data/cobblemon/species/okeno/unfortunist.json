@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "mycerial",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.44571428571428573,
   "cannotDynamax": false,
   "abilities": [
     "poisontouch",
@@ -105,7 +105,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6093,
+  "nationalPokedexNumber": 6091,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

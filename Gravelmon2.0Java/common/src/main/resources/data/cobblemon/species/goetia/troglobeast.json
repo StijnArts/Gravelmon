@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "troglobite",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.5298701298701298,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -79,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8034,
+  "nationalPokedexNumber": 8032,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

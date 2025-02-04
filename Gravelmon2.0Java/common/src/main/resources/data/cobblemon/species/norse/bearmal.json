@@ -65,7 +65,8 @@
   ],
   "labels": [
     "not_modeled",
-    "norse"
+    "norse",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.bearmal.desc"
@@ -89,7 +90,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3386,
+  "nationalPokedexNumber": 3384,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

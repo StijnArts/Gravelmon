@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_98_by_98.geo",
-      "poser": "cobblemon:cutout_gravelmon_98_by_98",
+      "model": "cobblemon:cutout_gravelmon_39_by_35.geo",
+      "poser": "cobblemon:cutout_gravelmon_39_by_35",
       "texture": "cobblemon:textures/pokemon/varitas/kwiklik.png",
       "layers": [
         {

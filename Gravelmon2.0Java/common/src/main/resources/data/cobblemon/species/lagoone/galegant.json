@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "jadivine",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.33,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -89,7 +89,7 @@
   "weight": 170,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1569,
+  "nationalPokedexNumber": 1567,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

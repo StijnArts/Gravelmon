@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.22040816326530613,
+  "baseScale": 0.37894736842105264,
   "cannotDynamax": false,
   "abilities": [
     "sandrush",
@@ -104,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2985,
+  "nationalPokedexNumber": 2983,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

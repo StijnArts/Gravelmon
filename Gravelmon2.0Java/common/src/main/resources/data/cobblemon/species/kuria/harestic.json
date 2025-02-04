@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "twigit",
-  "baseScale": 0.24489795918367346,
+  "baseScale": 0.4528301886792453,
   "cannotDynamax": false,
   "abilities": [
     "overgrow"
@@ -103,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5543,
+  "nationalPokedexNumber": 5541,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

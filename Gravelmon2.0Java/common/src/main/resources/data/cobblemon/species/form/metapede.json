@@ -68,7 +68,8 @@
     "form",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.metapede.desc"
@@ -77,7 +78,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5084,
+  "nationalPokedexNumber": 5082,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

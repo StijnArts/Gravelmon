@@ -97,7 +97,7 @@ public class PyukumukuX extends Pokemon {
         getPosingFileData().setPortraitData( 1.7f, new Vector3(-.15, -.9, 0));
         getPosingFileData().setProfileData( 1.1f, new Vector3(0, 0, 0));
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().clearAnimations().clearPoseTypes()
+                AnimationData.standingAnimation().clearAnimations().markAsBackupPose()
         ));
     }
 }

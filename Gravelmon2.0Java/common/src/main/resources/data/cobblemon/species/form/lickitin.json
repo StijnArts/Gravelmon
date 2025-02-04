@@ -63,7 +63,8 @@
   ],
   "labels": [
     "form",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.lickitin.desc"
@@ -87,7 +88,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5068,
+  "nationalPokedexNumber": 5066,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

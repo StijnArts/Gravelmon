@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "nymphik",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.4869565217391304,
   "cannotDynamax": false,
   "abilities": [
     "justified",
@@ -88,7 +88,7 @@
   "weight": 375,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5570,
+  "nationalPokedexNumber": 5568,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

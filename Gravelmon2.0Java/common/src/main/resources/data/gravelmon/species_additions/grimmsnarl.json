@@ -336,7 +336,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "morgrem form=novran",
-      "baseScale": 0.3918367346938776,
+      "baseScale": 0.48,
       "cannotDynamax": false,
       "abilities": [
         "prankster",

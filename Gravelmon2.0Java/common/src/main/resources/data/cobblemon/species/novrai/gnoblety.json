@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "gnomad",
-  "baseScale": 0.24489795918367346,
+  "baseScale": 0.35294117647058826,
   "cannotDynamax": false,
   "abilities": [
     "harvest",
@@ -179,7 +179,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6862,
+  "nationalPokedexNumber": 6860,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

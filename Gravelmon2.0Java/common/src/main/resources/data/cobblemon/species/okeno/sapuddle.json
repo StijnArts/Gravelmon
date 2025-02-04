@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "mudpole",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.4173913043478261,
   "cannotDynamax": false,
   "abilities": [
     "poisontouch",
@@ -95,7 +95,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6049,
+  "nationalPokedexNumber": 6047,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

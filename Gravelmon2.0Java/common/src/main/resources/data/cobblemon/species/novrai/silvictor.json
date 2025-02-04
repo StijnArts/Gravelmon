@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "brawnze",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.3490909090909091,
   "cannotDynamax": false,
   "abilities": [
     "moxie",
@@ -169,7 +169,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6825,
+  "nationalPokedexNumber": 6823,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

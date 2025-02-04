@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "dodojo",
-  "baseScale": 0.1714285714285714,
+  "baseScale": 0.22105263157894733,
   "cannotDynamax": false,
   "abilities": [
     "cursedbody",
@@ -166,7 +166,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6846,
+  "nationalPokedexNumber": 6844,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

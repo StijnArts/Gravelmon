@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1714285714285714,
+  "baseScale": 0.2847457627118644,
   "cannotDynamax": false,
   "abilities": [
     "vitalspirit",
@@ -100,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2909,
+  "nationalPokedexNumber": 2907,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -65,7 +65,8 @@
   ],
   "labels": [
     "raian",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.jakort.desc"
@@ -95,7 +96,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3223,
+  "nationalPokedexNumber": 3221,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

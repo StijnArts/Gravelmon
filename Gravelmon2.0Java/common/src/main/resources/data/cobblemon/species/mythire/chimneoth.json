@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "cloakhrys",
-  "baseScale": 0.6122448979591837,
+  "baseScale": 0.6666666666666666,
   "cannotDynamax": false,
   "abilities": [
     "shielddust",
@@ -155,7 +155,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5158,
+  "nationalPokedexNumber": 5156,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

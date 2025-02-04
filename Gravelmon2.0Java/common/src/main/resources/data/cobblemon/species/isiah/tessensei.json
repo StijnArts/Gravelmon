@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "tessent",
-  "baseScale": 0.22040816326530613,
+  "baseScale": 0.3130434782608696,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -87,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5760,
+  "nationalPokedexNumber": 5758,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

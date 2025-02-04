@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "whoopwing",
-  "baseScale": 0.22040816326530613,
+  "baseScale": 0.26024096385542167,
   "cannotDynamax": false,
   "abilities": [
     "bigpecks",
@@ -101,7 +101,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5373,
+  "nationalPokedexNumber": 5371,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

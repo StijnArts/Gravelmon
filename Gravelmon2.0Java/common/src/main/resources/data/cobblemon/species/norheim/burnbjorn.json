@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "combjorn",
-  "baseScale": 0.5142857142857143,
+  "baseScale": 0.6545454545454545,
   "cannotDynamax": false,
   "abilities": [
     "blaze",
@@ -95,7 +95,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4114,
+  "nationalPokedexNumber": 4112,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

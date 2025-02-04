@@ -86,7 +86,7 @@ public class CarvanhaX extends Pokemon {
         getPosingFileData().setPortraitData( 1.8f, new Vector3(0, -.4, 0));
         getPosingFileData().setProfileData( .8f, new Vector3(0, 0.5, 0));
         getPosingFileData().addAnimations(List.of(
-                AnimationData.floatingAnimation().clearPoseTypes()
+                AnimationData.floatingAnimation().markAsBackupPose()
         ));
     }
 }

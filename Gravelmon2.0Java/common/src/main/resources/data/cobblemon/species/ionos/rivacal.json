@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "minkin",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.43333333333333335,
   "cannotDynamax": false,
   "abilities": [
     "healer",
@@ -92,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6596,
+  "nationalPokedexNumber": 6594,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

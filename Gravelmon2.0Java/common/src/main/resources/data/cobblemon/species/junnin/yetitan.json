@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "yeteen",
-  "baseScale": 0.5142857142857143,
+  "baseScale": 0.6222222222222222,
   "cannotDynamax": false,
   "abilities": [
     "overgrow"
@@ -117,7 +117,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3117,
+  "nationalPokedexNumber": 3115,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

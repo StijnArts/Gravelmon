@@ -6,8 +6,8 @@
       "aspects": [
         "varitasian"
       ],
-      "model": "cobblemon:cutout_gravelmon_98_by_98.geo",
-      "poser": "cobblemon:cutout_gravelmon_98_by_98",
+      "model": "cobblemon:cutout_gravelmon_35_by_66.geo",
+      "poser": "cobblemon:cutout_gravelmon_35_by_66",
       "texture": "cobblemon:textures/pokemon/generation5/varitasianeelektrik.png",
       "layers": [
         {

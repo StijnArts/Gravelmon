@@ -67,7 +67,8 @@
   ],
   "labels": [
     "not_modeled",
-    "trizor"
+    "trizor",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.chilleti.desc"
@@ -91,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3637,
+  "nationalPokedexNumber": 3635,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

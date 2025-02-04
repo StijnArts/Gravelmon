@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "bubbalo",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.5894736842105263,
   "cannotDynamax": false,
   "abilities": [
     "torrent",
@@ -141,7 +141,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2895,
+  "nationalPokedexNumber": 2893,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

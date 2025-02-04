@@ -67,7 +67,8 @@
     "aldao",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.craggoat.desc"
@@ -87,7 +88,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3812,
+  "nationalPokedexNumber": 3810,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "nemosis",
-  "baseScale": 0.1714285714285714,
+  "baseScale": 0.2507462686567164,
   "cannotDynamax": false,
   "abilities": [
     "surgesurfer",
@@ -156,7 +156,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6764,
+  "nationalPokedexNumber": 6762,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

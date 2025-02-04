@@ -6,8 +6,8 @@
       "aspects": [
         "varitasian"
       ],
-      "model": "cobblemon:cutout_gravelmon_98_by_98.geo",
-      "poser": "cobblemon:cutout_gravelmon_98_by_98",
+      "model": "cobblemon:cutout_gravelmon_21_by_28.geo",
+      "poser": "cobblemon:cutout_gravelmon_21_by_28",
       "texture": "cobblemon:textures/pokemon/generation2/varitasiantogepi.png",
       "layers": [
         {

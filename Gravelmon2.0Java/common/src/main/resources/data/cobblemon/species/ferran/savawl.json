@@ -65,7 +65,8 @@
   ],
   "labels": [
     "ferran",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.savawl.desc"
@@ -74,7 +75,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7567,
+  "nationalPokedexNumber": 7565,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.48000000000000004,
   "cannotDynamax": false,
   "abilities": [
     "analytic",
@@ -95,7 +95,7 @@
   "weight": 216,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5619,
+  "nationalPokedexNumber": 5617,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

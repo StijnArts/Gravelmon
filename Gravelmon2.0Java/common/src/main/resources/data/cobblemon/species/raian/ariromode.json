@@ -64,7 +64,8 @@
   ],
   "labels": [
     "raian",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.ariromode.desc"
@@ -73,7 +74,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3295,
+  "nationalPokedexNumber": 3293,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pharumm",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.544,
   "cannotDynamax": false,
   "abilities": [
     "levitate"
@@ -88,7 +88,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6543,
+  "nationalPokedexNumber": 6541,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

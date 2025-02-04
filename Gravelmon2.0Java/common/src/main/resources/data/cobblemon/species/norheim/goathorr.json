@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "goaterr",
-  "baseScale": 0.46530612244897956,
+  "baseScale": 0.5846153846153846,
   "cannotDynamax": false,
   "abilities": [
     "steadfast",
@@ -93,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4295,
+  "nationalPokedexNumber": 4293,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

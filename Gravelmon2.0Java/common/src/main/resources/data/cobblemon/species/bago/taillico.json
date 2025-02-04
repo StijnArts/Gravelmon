@@ -68,7 +68,8 @@
     "bago",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.taillico.desc"
@@ -92,7 +93,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3688,
+  "nationalPokedexNumber": 3686,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

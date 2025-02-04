@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "babreak",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.44835164835164837,
   "cannotDynamax": false,
   "abilities": [
     "quickfeet",
@@ -89,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2958,
+  "nationalPokedexNumber": 2956,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "gourmaggot",
-  "baseScale": 0.0979591836734694,
+  "baseScale": 0.15737704918032788,
   "cannotDynamax": false,
   "abilities": [
     "gluttony",
@@ -168,7 +168,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6632,
+  "nationalPokedexNumber": 6630,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

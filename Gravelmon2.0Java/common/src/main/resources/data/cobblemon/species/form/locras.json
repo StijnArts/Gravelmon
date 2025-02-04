@@ -67,7 +67,8 @@
   ],
   "labels": [
     "form",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.locras.desc"
@@ -91,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5078,
+  "nationalPokedexNumber": 5076,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

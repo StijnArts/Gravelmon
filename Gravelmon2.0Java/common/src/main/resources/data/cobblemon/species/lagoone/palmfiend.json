@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "dodonut",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.4105263157894737,
   "cannotDynamax": false,
   "abilities": [
     "naturalcure",
@@ -89,7 +89,7 @@
   "weight": 366,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1546,
+  "nationalPokedexNumber": 1544,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

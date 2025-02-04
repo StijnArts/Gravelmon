@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "glaburrow",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.6,
   "cannotDynamax": false,
   "abilities": [
     "unaware",
@@ -160,7 +160,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6638,
+  "nationalPokedexNumber": 6636,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

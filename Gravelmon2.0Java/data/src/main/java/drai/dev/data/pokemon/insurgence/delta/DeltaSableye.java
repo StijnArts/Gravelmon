@@ -169,7 +169,7 @@ public class DeltaSableye extends Pokemon {
         getPosingFileData().setProfileData( .95f, new Vector3(0, .4, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().clearPoseTypes(),
+                AnimationData.standingAnimation().withLook().markAsBackupPose(),
                 AnimationData.walkingAnimation().withLook()
         ));
         getPosingFileData().shoulderAnimations();

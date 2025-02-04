@@ -111,7 +111,7 @@ public class Dvaarak extends Pokemon {
         getPosingFileData().setProfileData( .7f, new Vector3(0, .6, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().clearPoseTypes(),
+                AnimationData.standingAnimation().withLook().markAsBackupPose(),
                 AnimationData.walkingAnimation().withLook()
         ));
     }

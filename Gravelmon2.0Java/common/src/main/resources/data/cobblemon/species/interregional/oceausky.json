@@ -7,7 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.7,
   "cannotDynamax": false,
   "abilities": [
     "swiftswim"
@@ -87,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1751,
+  "nationalPokedexNumber": 1749,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "drumbum",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.3333333333333333,
   "cannotDynamax": false,
   "abilities": [
     "magicbounce",
@@ -93,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2377,
+  "nationalPokedexNumber": 2375,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

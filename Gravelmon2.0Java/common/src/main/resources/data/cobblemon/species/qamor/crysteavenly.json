@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "chrystalis",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.4307692307692308,
   "cannotDynamax": false,
   "abilities": [
     "curiousmedicine"
@@ -91,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5376,
+  "nationalPokedexNumber": 5374,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

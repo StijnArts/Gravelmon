@@ -152,7 +152,7 @@ public class EghoCharizard extends Pokemon {
         getPosingFileData().setProfileData( 0.4f, new Vector3(-0.4, 1.2, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().clearPoseTypes()
+                AnimationData.standingAnimation().withLook().markAsBackupPose()
         ));
         getPosingFileData().setAnimationFileName("charizard_egho");
     }

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "polypod",
-  "baseScale": 0.4897959183673469,
+  "baseScale": 0.43243243243243246,
   "cannotDynamax": false,
   "abilities": [
     "torrent",
@@ -177,7 +177,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5153,
+  "nationalPokedexNumber": 5151,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

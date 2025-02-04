@@ -67,7 +67,8 @@
   ],
   "labels": [
     "not_modeled",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.majaite.desc"
@@ -76,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3583,
+  "nationalPokedexNumber": 3581,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

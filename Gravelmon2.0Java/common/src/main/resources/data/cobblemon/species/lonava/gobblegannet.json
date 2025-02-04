@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "seaguzzle",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.45,
   "cannotDynamax": false,
   "abilities": [
     "gluttony",
@@ -156,7 +156,7 @@
   "weight": 500,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4505,
+  "nationalPokedexNumber": 4503,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

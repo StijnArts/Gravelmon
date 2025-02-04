@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "tuburrow",
-  "baseScale": 0.6122448979591837,
+  "baseScale": 0.6451612903225806,
   "cannotDynamax": false,
   "abilities": [
     "solidrock",
@@ -137,7 +137,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4703,
+  "nationalPokedexNumber": 4701,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

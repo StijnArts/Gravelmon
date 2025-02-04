@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "gnarlic",
-  "baseScale": 0.46530612244897956,
+  "baseScale": 0.5629629629629629,
   "cannotDynamax": false,
   "abilities": [
     "cursedbody"
@@ -89,7 +89,7 @@
   "weight": 755,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5633,
+  "nationalPokedexNumber": 5631,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

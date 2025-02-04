@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "tennestrian",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.48571428571428565,
   "cannotDynamax": false,
   "abilities": [
     "ironfist",
@@ -82,7 +82,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6545,
+  "nationalPokedexNumber": 6543,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

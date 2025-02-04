@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "tentalum",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.4584269662921348,
   "cannotDynamax": false,
   "abilities": [
     "owntempo",
@@ -114,7 +114,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5240,
+  "nationalPokedexNumber": 5238,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

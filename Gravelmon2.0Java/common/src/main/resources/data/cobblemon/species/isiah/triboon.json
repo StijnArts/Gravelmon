@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "maskape",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.46027397260273967,
   "cannotDynamax": false,
   "abilities": [
     "intimidate",
@@ -85,7 +85,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5743,
+  "nationalPokedexNumber": 5741,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

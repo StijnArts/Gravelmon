@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "planebe",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.573134328358209,
   "cannotDynamax": false,
   "abilities": [
     "swiftswim",
@@ -173,7 +173,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4759,
+  "nationalPokedexNumber": 4757,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "incubat",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.4584269662921348,
   "cannotDynamax": false,
   "abilities": [
     "blaze"
@@ -166,7 +166,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6620,
+  "nationalPokedexNumber": 6618,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

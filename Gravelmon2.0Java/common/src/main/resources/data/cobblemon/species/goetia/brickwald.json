@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "brickabrack",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.5333333333333332,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -91,7 +91,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 7948,
+  "nationalPokedexNumber": 7946,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

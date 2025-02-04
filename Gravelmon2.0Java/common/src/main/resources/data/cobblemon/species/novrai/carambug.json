@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "ambug",
-  "baseScale": 0.4897959183673469,
+  "baseScale": 0.7272727272727273,
   "cannotDynamax": false,
   "abilities": [
     "gooey",
@@ -161,7 +161,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6781,
+  "nationalPokedexNumber": 6779,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

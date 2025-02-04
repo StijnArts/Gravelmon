@@ -67,7 +67,8 @@
     "fra",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.burrolar.desc"
@@ -76,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3894,
+  "nationalPokedexNumber": 3892,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

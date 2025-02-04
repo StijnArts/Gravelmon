@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.43636363636363634,
   "cannotDynamax": false,
   "abilities": [
     "limber",
@@ -194,7 +194,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4489,
+  "nationalPokedexNumber": 4487,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

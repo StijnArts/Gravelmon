@@ -67,7 +67,8 @@
     "not_modeled",
     "fakemon",
     "fakemonevolution",
-    "norse"
+    "norse",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.armoreleon.desc"
@@ -91,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3415,
+  "nationalPokedexNumber": 3413,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

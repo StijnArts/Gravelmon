@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "electeel",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.5760000000000001,
   "cannotDynamax": false,
   "abilities": [
     "torrent",
@@ -132,7 +132,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3132,
+  "nationalPokedexNumber": 3130,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

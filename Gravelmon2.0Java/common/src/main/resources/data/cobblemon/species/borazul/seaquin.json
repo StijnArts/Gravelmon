@@ -63,7 +63,8 @@
   ],
   "labels": [
     "borazul",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.seaquin.desc"
@@ -87,7 +88,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3911,
+  "nationalPokedexNumber": 3909,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

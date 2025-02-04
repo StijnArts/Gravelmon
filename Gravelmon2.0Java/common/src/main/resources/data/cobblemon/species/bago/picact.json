@@ -66,7 +66,8 @@
   ],
   "labels": [
     "bago",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.picact.desc"
@@ -90,7 +91,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3696,
+  "nationalPokedexNumber": 3694,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

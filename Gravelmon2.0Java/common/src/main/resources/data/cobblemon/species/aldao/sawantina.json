@@ -68,7 +68,8 @@
     "aldao",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.sawantina.desc"
@@ -77,7 +78,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3863,
+  "nationalPokedexNumber": 3861,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

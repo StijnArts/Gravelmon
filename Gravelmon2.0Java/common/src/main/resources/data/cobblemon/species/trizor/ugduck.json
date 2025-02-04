@@ -67,7 +67,8 @@
   ],
   "labels": [
     "not_modeled",
-    "trizor"
+    "trizor",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.ugduck.desc"
@@ -91,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3620,
+  "nationalPokedexNumber": 3618,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

@@ -110,7 +110,7 @@ public class GengarX extends Pokemon {
         getPosingFileData().setPortraitData( 1f, new Vector3(-.20, 2.4, 0));
         getPosingFileData().setProfileData( .5f, new Vector3(0, 1.55, -20));
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withBlink().clearPoseTypes(),
+                AnimationData.standingAnimation().withBlink().markAsBackupPose(),
                 AnimationData.walkingAnimation().withBlink()
         ));
     }

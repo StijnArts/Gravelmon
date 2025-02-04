@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "kirastrum",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.4645161290322581,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -87,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1738,
+  "nationalPokedexNumber": 1736,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

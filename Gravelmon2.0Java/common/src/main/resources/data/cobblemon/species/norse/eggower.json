@@ -64,7 +64,8 @@
   ],
   "labels": [
     "not_modeled",
-    "norse"
+    "norse",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.eggower.desc"
@@ -84,7 +85,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3430,
+  "nationalPokedexNumber": 3428,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

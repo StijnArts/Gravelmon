@@ -67,7 +67,8 @@
   ],
   "labels": [
     "aldao",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.vambat.desc"
@@ -95,7 +96,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3857,
+  "nationalPokedexNumber": 3855,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

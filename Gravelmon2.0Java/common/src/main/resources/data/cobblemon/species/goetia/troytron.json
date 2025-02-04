@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "woodron",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.6095238095238096,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -76,7 +76,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8189,
+  "nationalPokedexNumber": 8187,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

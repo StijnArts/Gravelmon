@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sliterfall",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.39,
   "cannotDynamax": false,
   "abilities": [
     "torrent",
@@ -104,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3096,
+  "nationalPokedexNumber": 3094,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

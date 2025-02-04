@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.45517241379310347,
   "cannotDynamax": false,
   "abilities": [
     "swiftswim",
@@ -176,7 +176,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6782,
+  "nationalPokedexNumber": 6780,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

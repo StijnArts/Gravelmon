@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "ogospiral",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.526829268292683,
   "cannotDynamax": false,
   "abilities": [
     "voltabsorb"
@@ -88,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1685,
+  "nationalPokedexNumber": 1683,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

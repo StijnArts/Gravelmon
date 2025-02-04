@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "bottoil",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.4253164556962025,
   "cannotDynamax": false,
   "abilities": [
     "aftermath"
@@ -111,7 +111,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3191,
+  "nationalPokedexNumber": 3189,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

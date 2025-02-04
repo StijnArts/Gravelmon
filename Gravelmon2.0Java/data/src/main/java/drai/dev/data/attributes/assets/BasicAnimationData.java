@@ -8,6 +8,7 @@ public abstract class BasicAnimationData {
     public String animationName;
     public String poseName;
     public List<String> animations = new ArrayList<>();
+    protected PosingFileData posingFileData;
 
     public BasicAnimationData(String animationName, List<String> animations) {
         this.animationName = animationName;
@@ -26,5 +27,13 @@ public abstract class BasicAnimationData {
         });
         jsonObject.add("animations", animationsJson);
         return jsonObject;
+    }
+
+    public PosingFileData getPosingFileData() {
+        return posingFileData;
+    }
+
+    public void setPosingFileData(PosingFileData posingFileData) {
+        this.posingFileData = posingFileData;
     }
 }

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "alkaalite",
-  "baseScale": 0.1714285714285714,
+  "baseScale": 0.27540983606557373,
   "cannotDynamax": false,
   "abilities": [
     "voltabsorb",
@@ -156,7 +156,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6714,
+  "nationalPokedexNumber": 6712,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

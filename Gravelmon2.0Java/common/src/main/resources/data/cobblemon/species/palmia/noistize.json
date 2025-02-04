@@ -64,7 +64,8 @@
   ],
   "labels": [
     "not_modeled",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.noistize.desc"
@@ -73,7 +74,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3581,
+  "nationalPokedexNumber": 3579,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

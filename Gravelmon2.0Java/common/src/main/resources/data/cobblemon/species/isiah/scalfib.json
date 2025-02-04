@@ -7,7 +7,7 @@
   "experienceGroup": "fluctuating",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.14693877551020407,
+  "baseScale": 0.31304347826086953,
   "cannotDynamax": false,
   "abilities": [
     "unnerve",
@@ -105,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5732,
+  "nationalPokedexNumber": 5730,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

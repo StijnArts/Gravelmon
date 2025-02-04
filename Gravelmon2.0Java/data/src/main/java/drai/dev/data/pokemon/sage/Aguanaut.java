@@ -149,7 +149,7 @@ public class Aguanaut extends Pokemon {
         getPosingFileData().setProfileData( .48f, new Vector3(0, 1.04, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().withBlink().clearPoseTypes()
+                AnimationData.standingAnimation().withLook().withBlink().markAsBackupPose()
         ));
     }
 }

@@ -92,8 +92,8 @@ public class SpiritombX extends Pokemon {
         getPosingFileData().setPortraitData( 1.3f, new Vector3(-0.35, 0.7, 0));
         getPosingFileData().setProfileData( .65f, new Vector3(0, .9, 0));
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().addAnimation("orbs").clearPoseTypes(),
-                AnimationData.walkingAnimation().addAnimation("orbs").clearPoseTypes()
+                AnimationData.standingAnimation().addAnimation("orbs").markAsBackupPose(),
+                AnimationData.walkingAnimation().addAnimation("orbs").markAsBackupPose()
         ));
     }
 }

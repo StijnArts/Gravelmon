@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_98_by_98.geo",
-      "poser": "cobblemon:cutout_gravelmon_98_by_98",
+      "model": "cobblemon:cutout_gravelmon_42_by_80.geo",
+      "poser": "cobblemon:cutout_gravelmon_42_by_80",
       "texture": "cobblemon:textures/pokemon/nosto/boodoir.png",
       "layers": [
         {

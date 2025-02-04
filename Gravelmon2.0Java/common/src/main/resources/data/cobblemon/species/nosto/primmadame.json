@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "primmella",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.6736842105263158,
   "cannotDynamax": false,
   "abilities": [
     "queenlymajesty"
@@ -133,7 +133,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4744,
+  "nationalPokedexNumber": 4742,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "fungotta",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.4869565217391304,
   "cannotDynamax": false,
   "abilities": [
     "effectspore",
@@ -160,7 +160,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5191,
+  "nationalPokedexNumber": 5189,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

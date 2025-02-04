@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.6666666666666666,
   "cannotDynamax": false,
   "abilities": [
     "sandveil",
@@ -96,7 +96,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4251,
+  "nationalPokedexNumber": 4249,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

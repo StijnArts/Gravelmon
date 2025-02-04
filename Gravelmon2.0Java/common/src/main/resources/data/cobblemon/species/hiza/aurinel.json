@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "heaxen",
-  "baseScale": 0.24489795918367346,
+  "baseScale": 0.3116883116883117,
   "cannotDynamax": false,
   "abilities": [
     "unburden",
@@ -89,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2914,
+  "nationalPokedexNumber": 2912,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -8,7 +8,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.0979591836734694,
+  "baseScale": 0.25263157894736843,
   "cannotDynamax": false,
   "abilities": [
     "earlybird",
@@ -184,7 +184,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6629,
+  "nationalPokedexNumber": 6627,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

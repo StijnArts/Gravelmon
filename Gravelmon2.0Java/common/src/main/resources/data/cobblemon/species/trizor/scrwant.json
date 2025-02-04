@@ -65,7 +65,8 @@
   ],
   "labels": [
     "not_modeled",
-    "trizor"
+    "trizor",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.scrwant.desc"
@@ -74,7 +75,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3679,
+  "nationalPokedexNumber": 3677,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

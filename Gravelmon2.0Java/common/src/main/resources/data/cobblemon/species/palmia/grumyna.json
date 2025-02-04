@@ -69,7 +69,8 @@
   ],
   "labels": [
     "not_modeled",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.grumyna.desc"
@@ -93,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3494,
+  "nationalPokedexNumber": 3492,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

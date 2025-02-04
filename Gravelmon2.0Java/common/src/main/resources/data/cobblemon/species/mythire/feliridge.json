@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "alpurr",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.3804878048780488,
   "cannotDynamax": false,
   "abilities": [
     "thickfat",
@@ -129,7 +129,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5224,
+  "nationalPokedexNumber": 5222,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

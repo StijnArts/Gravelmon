@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "splattod",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.3310344827586207,
   "cannotDynamax": false,
   "abilities": [
     "toxicdebris",
@@ -152,7 +152,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6704,
+  "nationalPokedexNumber": 6702,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

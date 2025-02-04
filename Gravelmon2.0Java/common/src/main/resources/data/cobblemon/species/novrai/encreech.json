@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "vileech",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.43278688524590164,
   "cannotDynamax": false,
   "abilities": [
     "keeneye",
@@ -150,7 +150,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6649,
+  "nationalPokedexNumber": 6647,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

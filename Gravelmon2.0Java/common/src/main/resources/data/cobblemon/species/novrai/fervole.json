@@ -7,7 +7,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.0979591836734694,
+  "baseScale": 0.23414634146341462,
   "cannotDynamax": false,
   "abilities": [
     "pickup",
@@ -166,7 +166,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6624,
+  "nationalPokedexNumber": 6622,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

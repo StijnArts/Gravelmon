@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "tasmimp",
-  "baseScale": 0.24489795918367346,
+  "baseScale": 0.27906976744186046,
   "cannotDynamax": false,
   "abilities": [
     "angerpoint",
@@ -91,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2922,
+  "nationalPokedexNumber": 2920,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

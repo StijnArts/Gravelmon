@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "nordirk",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.39069767441860465,
   "cannotDynamax": false,
   "abilities": [
     "levitate"
@@ -89,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5486,
+  "nationalPokedexNumber": 5484,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

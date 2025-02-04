@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "larvomit",
-  "baseScale": 0.24489795918367346,
+  "baseScale": 0.3870967741935484,
   "cannotDynamax": false,
   "abilities": [
     "levitate"
@@ -98,7 +98,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6091,
+  "nationalPokedexNumber": 6089,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

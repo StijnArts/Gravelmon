@@ -66,7 +66,8 @@
   ],
   "labels": [
     "not_modeled",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.bulblute.desc"
@@ -90,7 +91,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3462,
+  "nationalPokedexNumber": 3460,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

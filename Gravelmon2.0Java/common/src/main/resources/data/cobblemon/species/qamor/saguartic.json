@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "chillichoya",
-  "baseScale": 1.3224489795918368,
+  "baseScale": 1.7052631578947368,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -89,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5475,
+  "nationalPokedexNumber": 5473,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

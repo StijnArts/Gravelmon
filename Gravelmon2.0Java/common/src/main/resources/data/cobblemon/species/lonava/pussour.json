@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "whud",
-  "baseScale": 0.46530612244897956,
+  "baseScale": 0.7124999999999999,
   "cannotDynamax": false,
   "abilities": [
     "stench",
@@ -130,7 +130,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4518,
+  "nationalPokedexNumber": 4516,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

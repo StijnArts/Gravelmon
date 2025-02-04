@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 2.130612244897959,
+  "baseScale": 2.1978947368421053,
   "cannotDynamax": false,
   "abilities": [
     "grassysurge"
@@ -84,7 +84,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3107,
+  "nationalPokedexNumber": 3105,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "nepolyp",
-  "baseScale": 0.22040816326530613,
+  "baseScale": 0.432,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -94,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8030,
+  "nationalPokedexNumber": 8028,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

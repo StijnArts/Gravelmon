@@ -7,7 +7,7 @@
   "experienceGroup": "fluctuating",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.0979591836734694,
+  "baseScale": 0.28235294117647064,
   "cannotDynamax": false,
   "abilities": [
     "chlorophyll",
@@ -123,7 +123,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5779,
+  "nationalPokedexNumber": 5777,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

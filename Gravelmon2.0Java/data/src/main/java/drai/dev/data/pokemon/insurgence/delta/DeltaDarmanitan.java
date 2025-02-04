@@ -137,7 +137,7 @@ public class DeltaDarmanitan extends Pokemon {
         getPosingFileData().setPortraitData( 1.3f, new Vector3(0, 1.4, 0));
         getPosingFileData().setProfileData( .5f, new Vector3(0, 1.2, 0));
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().clearPoseTypes()
+                AnimationData.standingAnimation().markAsBackupPose()
         ));
     }
 }

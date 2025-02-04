@@ -448,7 +448,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "impidimp form=novran",
-      "baseScale": 0.0979591836734694,
+      "baseScale": 0.16551724137931034,
       "cannotDynamax": false,
       "abilities": [
         "prankster",
@@ -629,7 +629,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "impidimp form=varitasian",
-      "baseScale": 0.1959183673469388,
+      "baseScale": 0.29090909090909095,
       "cannotDynamax": false,
       "abilities": [
         "unburden",

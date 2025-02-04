@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "eice",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.2782608695652174,
   "cannotDynamax": false,
   "abilities": [
     "icebody",
@@ -104,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5764,
+  "nationalPokedexNumber": 5762,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "beastalk",
-  "baseScale": 0.563265306122449,
+  "baseScale": 0.6494117647058822,
   "cannotDynamax": false,
   "abilities": [
     "overgrow",
@@ -135,7 +135,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2890,
+  "nationalPokedexNumber": 2888,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

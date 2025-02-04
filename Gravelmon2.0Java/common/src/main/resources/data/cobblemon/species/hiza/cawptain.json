@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "cawlor",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.4740740740740741,
   "cannotDynamax": false,
   "abilities": [
     "pickpocket",
@@ -120,7 +120,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2899,
+  "nationalPokedexNumber": 2897,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

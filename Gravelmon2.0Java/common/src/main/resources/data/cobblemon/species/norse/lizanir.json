@@ -63,7 +63,8 @@
   ],
   "labels": [
     "not_modeled",
-    "norse"
+    "norse",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.lizanir.desc"
@@ -87,7 +88,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3361,
+  "nationalPokedexNumber": 3359,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

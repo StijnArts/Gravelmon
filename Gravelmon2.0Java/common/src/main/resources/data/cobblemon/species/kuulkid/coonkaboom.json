@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "krakoon",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.6260869565217392,
   "cannotDynamax": false,
   "abilities": [
     "blaze",
@@ -78,7 +78,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2715,
+  "nationalPokedexNumber": 2713,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

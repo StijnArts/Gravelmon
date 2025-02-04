@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "rotegg",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.31475409836065577,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -92,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 7982,
+  "nationalPokedexNumber": 7980,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

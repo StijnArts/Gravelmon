@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "bullama",
-  "baseScale": 0.5877551020408163,
+  "baseScale": 0.7291139240506329,
   "cannotDynamax": false,
   "abilities": [
     "skilllink"
@@ -87,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5758,
+  "nationalPokedexNumber": 5756,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

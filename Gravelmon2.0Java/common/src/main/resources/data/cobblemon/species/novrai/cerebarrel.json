@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "eyeti",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.5014925373134328,
   "cannotDynamax": false,
   "abilities": [
     "compoundeyes",
@@ -160,7 +160,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6670,
+  "nationalPokedexNumber": 6668,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

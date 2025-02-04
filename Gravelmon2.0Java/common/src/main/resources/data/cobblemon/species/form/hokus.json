@@ -72,7 +72,8 @@
     "form",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.hokus.desc"
@@ -91,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5045,
+  "nationalPokedexNumber": 5043,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "galactot",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.6736842105263158,
   "cannotDynamax": false,
   "abilities": [
     "strongjaw",
@@ -93,7 +93,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2880,
+  "nationalPokedexNumber": 2878,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

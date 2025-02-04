@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "gibboor",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.544,
   "cannotDynamax": false,
   "abilities": [
     "unnerve",
@@ -90,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5431,
+  "nationalPokedexNumber": 5429,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

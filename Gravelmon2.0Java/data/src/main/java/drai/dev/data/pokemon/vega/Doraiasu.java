@@ -88,7 +88,7 @@ public class Doraiasu extends Pokemon {
         getPosingFileData().setProfileData( .5f, new Vector3(0, 1, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().clearPoseTypes()
+                AnimationData.standingAnimation().withLook().markAsBackupPose()
         ));
     }
 }

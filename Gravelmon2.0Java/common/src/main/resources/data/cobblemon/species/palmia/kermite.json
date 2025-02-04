@@ -65,7 +65,8 @@
   ],
   "labels": [
     "not_modeled",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.kermite.desc"
@@ -135,7 +136,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3477,
+  "nationalPokedexNumber": 3475,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

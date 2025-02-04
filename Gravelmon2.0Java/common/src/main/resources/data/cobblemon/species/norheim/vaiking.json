@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "falinks form=norheiman",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.7285714285714285,
   "cannotDynamax": false,
   "abilities": [
     "battlearmor",
@@ -163,7 +163,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4195,
+  "nationalPokedexNumber": 4193,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

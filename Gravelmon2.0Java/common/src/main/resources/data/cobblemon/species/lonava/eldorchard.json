@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.41379310344827586,
   "cannotDynamax": false,
   "abilities": [
     "harvest",
@@ -89,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4540,
+  "nationalPokedexNumber": 4538,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

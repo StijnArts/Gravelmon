@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "bufierce",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.5260273972602739,
   "cannotDynamax": false,
   "abilities": [
     "rattled"
@@ -92,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2978,
+  "nationalPokedexNumber": 2976,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

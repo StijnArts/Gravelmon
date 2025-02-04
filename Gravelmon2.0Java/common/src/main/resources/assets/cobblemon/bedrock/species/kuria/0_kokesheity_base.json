@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_98_by_98.geo",
-      "poser": "cobblemon:cutout_gravelmon_98_by_98",
+      "model": "cobblemon:cutout_gravelmon_72_by_67.geo",
+      "poser": "cobblemon:cutout_gravelmon_72_by_67",
       "texture": "cobblemon:textures/pokemon/kuria/kokesheity.png",
       "layers": [
         {

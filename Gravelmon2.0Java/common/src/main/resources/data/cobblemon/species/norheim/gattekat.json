@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "freicat",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.51,
   "cannotDynamax": false,
   "abilities": [
     "overgrow",
@@ -104,7 +104,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4111,
+  "nationalPokedexNumber": 4109,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

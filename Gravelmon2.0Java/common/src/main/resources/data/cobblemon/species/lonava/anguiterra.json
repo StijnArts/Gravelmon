@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "lagerm",
-  "baseScale": 0.7346938775510203,
+  "baseScale": 0.8470588235294118,
   "cannotDynamax": false,
   "abilities": [
     "solidrock",
@@ -192,7 +192,7 @@
   "weight": 4000,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4509,
+  "nationalPokedexNumber": 4507,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pillunge",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.36164383561643837,
   "cannotDynamax": false,
   "abilities": [
     "battlearmor",
@@ -86,7 +86,7 @@
   "weight": 930,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1539,
+  "nationalPokedexNumber": 1537,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

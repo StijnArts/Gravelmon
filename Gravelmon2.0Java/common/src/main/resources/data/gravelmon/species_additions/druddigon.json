@@ -176,7 +176,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.4163265306122449,
+      "baseScale": 0.5037037037037037,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -263,7 +263,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.3918367346938776,
+      "baseScale": 0.4987012987012987,
       "cannotDynamax": false,
       "abilities": [
         "roughskin",
@@ -451,7 +451,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.36734693877551017,
+      "baseScale": 0.4864864864864865,
       "cannotDynamax": false,
       "abilities": [
         "stamina"

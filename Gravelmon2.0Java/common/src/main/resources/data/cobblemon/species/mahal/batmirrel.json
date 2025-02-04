@@ -69,7 +69,8 @@
   ],
   "labels": [
     "mahal",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.batmirrel.desc"
@@ -78,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7658,
+  "nationalPokedexNumber": 7656,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

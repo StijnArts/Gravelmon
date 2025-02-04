@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "cramic",
-  "baseScale": 0.22040816326530613,
+  "baseScale": 0.34285714285714286,
   "cannotDynamax": false,
   "abilities": [
     "hypercutter",
@@ -83,7 +83,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5753,
+  "nationalPokedexNumber": 5751,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

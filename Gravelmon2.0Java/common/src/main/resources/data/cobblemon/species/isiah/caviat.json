@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.0979591836734694,
+  "baseScale": 0.22325581395348837,
   "cannotDynamax": false,
   "abilities": [
     "runaway"
@@ -101,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5694,
+  "nationalPokedexNumber": 5692,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

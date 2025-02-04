@@ -240,7 +240,7 @@
 					"position": [0, 0, -0.4]
 				},
 				"segment5": {
-					"rotation": ["-25-1*math.sin(q.anim_time*90*4-30)", "", 0],
+					"rotation": ["-25-1*math.sin(q.anim_time*90*4-30)", 0, 0],
 					"position": [-0.3, -0.2, -0.2]
 				},
 				"segment6": {

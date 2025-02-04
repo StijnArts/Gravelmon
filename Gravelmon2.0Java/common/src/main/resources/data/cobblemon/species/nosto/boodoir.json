@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "vaniteeny",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.54,
   "cannotDynamax": false,
   "abilities": [
     "magicbounce"
@@ -89,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4776,
+  "nationalPokedexNumber": 4774,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

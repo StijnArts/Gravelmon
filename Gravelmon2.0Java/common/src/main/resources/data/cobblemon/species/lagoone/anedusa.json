@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "venemony",
-  "baseScale": 0.29387755102040813,
+  "baseScale": 0.3469879518072289,
   "cannotDynamax": false,
   "abilities": [
     "dryskin",
@@ -89,7 +89,7 @@
   "weight": 251,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1551,
+  "nationalPokedexNumber": 1549,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

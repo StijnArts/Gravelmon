@@ -69,7 +69,8 @@
   ],
   "labels": [
     "not_modeled",
-    "trizor"
+    "trizor",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.binthmar.desc"
@@ -93,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3622,
+  "nationalPokedexNumber": 3620,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

@@ -63,7 +63,8 @@
   ],
   "labels": [
     "bago",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.mawdile.desc"
@@ -87,7 +88,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3726,
+  "nationalPokedexNumber": 3724,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

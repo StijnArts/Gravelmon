@@ -119,7 +119,7 @@ public class EghoFearow extends Pokemon {
         getPosingFileData().setProfileData( 0.7f, new Vector3(-0.0, .6, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().clearPoseTypes().withBlink(),
+                AnimationData.standingAnimation().withLook().markAsBackupPose().withBlink(),
                 AnimationData.battleIdleAnimation()
         ));
         getPosingFileData().setAnimationFileName("fearow_egho");

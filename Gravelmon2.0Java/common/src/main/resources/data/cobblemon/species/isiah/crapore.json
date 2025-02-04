@@ -7,7 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.14693877551020407,
+  "baseScale": 0.20869565217391303,
   "cannotDynamax": false,
   "abilities": [
     "sniper",
@@ -102,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5736,
+  "nationalPokedexNumber": 5734,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

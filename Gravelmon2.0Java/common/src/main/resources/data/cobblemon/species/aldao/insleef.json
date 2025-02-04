@@ -68,7 +68,8 @@
     "aldao",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.insleef.desc"
@@ -92,7 +93,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3882,
+  "nationalPokedexNumber": 3880,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

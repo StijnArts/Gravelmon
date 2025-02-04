@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "biscaneer",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.24935064935064935,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -87,7 +87,7 @@
   "weight": 50,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1564,
+  "nationalPokedexNumber": 1562,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

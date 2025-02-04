@@ -70,7 +70,8 @@
     "borazul",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.apoiformer.desc"
@@ -79,7 +80,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3910,
+  "nationalPokedexNumber": 3908,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

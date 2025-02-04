@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "allywag",
-  "baseScale": 0.0979591836734694,
+  "baseScale": 0.22857142857142856,
   "cannotDynamax": false,
   "abilities": [
     "levitate",
@@ -150,7 +150,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6843,
+  "nationalPokedexNumber": 6841,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "crawlycan",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.48571428571428565,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -79,7 +79,7 @@
   "weight": 930,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1606,
+  "nationalPokedexNumber": 1604,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

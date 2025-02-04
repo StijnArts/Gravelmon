@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "cygnicuffs",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.3829787234042553,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -87,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4434,
+  "nationalPokedexNumber": 4432,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

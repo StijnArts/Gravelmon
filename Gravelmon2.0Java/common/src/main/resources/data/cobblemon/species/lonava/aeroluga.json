@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "balloonga",
-  "baseScale": 0.8816326530612245,
+  "baseScale": 0.9707865168539326,
   "cannotDynamax": false,
   "abilities": [
     "thickfat",
@@ -149,7 +149,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4531,
+  "nationalPokedexNumber": 4529,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

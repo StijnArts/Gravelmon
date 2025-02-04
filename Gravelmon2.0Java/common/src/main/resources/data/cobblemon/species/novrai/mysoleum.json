@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "whispore",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.5333333333333332,
   "cannotDynamax": false,
   "abilities": [
     "effectspore",
@@ -155,7 +155,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6653,
+  "nationalPokedexNumber": 6651,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

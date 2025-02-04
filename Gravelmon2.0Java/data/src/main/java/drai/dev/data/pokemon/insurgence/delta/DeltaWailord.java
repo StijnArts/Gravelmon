@@ -135,7 +135,7 @@ public class DeltaWailord extends Pokemon {
         getPosingFileData().setPortraitData( .47f, new Vector3(-.4, 1.2, 0));
         getPosingFileData().setProfileData( 0.25f, new Vector3(0, 1.2, 0));
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().clearPoseTypes(),
+                AnimationData.standingAnimation().withLook().markAsBackupPose(),
                 AnimationData.walkingAnimation().withLook(),
                 AnimationData.flyingAnimation().withLook().addPoseType(PoseType.HOVER)
         ));

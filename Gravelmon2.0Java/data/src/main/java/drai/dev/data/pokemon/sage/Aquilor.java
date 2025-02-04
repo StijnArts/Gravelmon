@@ -110,7 +110,7 @@ public class Aquilor extends Pokemon {
         getPosingFileData().setProfileData( 1f, new Vector3(0, 0, -20));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().notBattle().withLook().withBlink().clearPoseTypes(),
+                AnimationData.standingAnimation().notBattle().withLook().withBlink().markAsBackupPose(),
                 AnimationData.battleIdleAnimation().withLook().withBlink(),
                 AnimationData.walkingAnimation().withLook().withBlink(),
                 AnimationData.flyingAnimation().withLook().withBlink(),

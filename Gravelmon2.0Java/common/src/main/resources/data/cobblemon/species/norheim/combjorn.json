@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "bunbear",
-  "baseScale": 0.29387755102040813,
+  "baseScale": 0.5877551020408163,
   "cannotDynamax": false,
   "abilities": [
     "blaze",
@@ -110,7 +110,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4113,
+  "nationalPokedexNumber": 4111,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -64,7 +64,8 @@
   ],
   "labels": [
     "form",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.cubter.desc"
@@ -88,7 +89,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5106,
+  "nationalPokedexNumber": 5104,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

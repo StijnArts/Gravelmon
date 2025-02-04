@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "woomask",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.41250000000000003,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -75,7 +75,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6483,
+  "nationalPokedexNumber": 6481,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

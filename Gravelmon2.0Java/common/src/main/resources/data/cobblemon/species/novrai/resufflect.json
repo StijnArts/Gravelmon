@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "romirror",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.5793103448275861,
   "cannotDynamax": false,
   "abilities": [
     "mirrorarmor",
@@ -155,7 +155,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6821,
+  "nationalPokedexNumber": 6819,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

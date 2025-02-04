@@ -70,7 +70,8 @@
     "bago",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.foshino.desc"
@@ -79,7 +80,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3742,
+  "nationalPokedexNumber": 3740,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

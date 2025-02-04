@@ -65,7 +65,8 @@
   ],
   "labels": [
     "form",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.slugem.desc"
@@ -89,7 +90,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5118,
+  "nationalPokedexNumber": 5116,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

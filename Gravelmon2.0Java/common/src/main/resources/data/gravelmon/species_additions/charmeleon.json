@@ -1,25 +1,5 @@
 {
   "target": "cobblemon:charmeleon",
-  "evolutions": [
-    {
-      "id": "charmeleon_savazard",
-      "variant": "level_up",
-      "result": "savazard",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "biome",
-          "biomeCondition": "minecraft:cherry_grove"
-        },
-        {
-          "variant": "level",
-          "minLevel": "36"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Epoch",

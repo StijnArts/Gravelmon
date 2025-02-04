@@ -70,7 +70,8 @@
     "borazul",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.shelpa.desc"
@@ -94,7 +95,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3917,
+  "nationalPokedexNumber": 3915,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

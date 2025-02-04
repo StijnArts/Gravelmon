@@ -137,7 +137,7 @@ public class DeltaKoffing extends Pokemon {
         getPosingFileData().setProfileData( .8f, new Vector3(0, .4, 0));
         getPosingFileData().head = "koffing";
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().withBlink().clearPoseTypes(),
+                AnimationData.standingAnimation().withLook().withBlink().markAsBackupPose(),
                 AnimationData.walkingAnimation().withLook().withBlink()
         ));
     }

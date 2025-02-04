@@ -67,7 +67,8 @@
     "bago",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.cloacoon.desc"
@@ -91,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3703,
+  "nationalPokedexNumber": 3701,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

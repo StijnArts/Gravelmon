@@ -186,7 +186,7 @@ public class DeltaBlastoise extends Pokemon {
         getPosingFileData().setProfileData( .6f, new Vector3(0, 0.8, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().withBlink().clearPoseTypes(),
+                AnimationData.standingAnimation().withLook().withBlink().markAsBackupPose(),
                 AnimationData.walkingAnimation().withLook().withBlink(),
                 AnimationData.floatingAnimation().withBlink().withLook(),
                 AnimationData.swimmingAnimation().withBlink().withLook()

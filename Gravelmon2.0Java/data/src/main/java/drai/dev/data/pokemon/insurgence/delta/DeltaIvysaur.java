@@ -135,7 +135,7 @@ public class DeltaIvysaur extends Pokemon {
         getPosingFileData().setProfileData( .9f, new Vector3(0, .4, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().withBlink().clearPoseTypes(),
+                AnimationData.standingAnimation().withLook().withBlink().markAsBackupPose(),
                 AnimationData.walkingAnimation().withLook().withBlink()
         ));
         getPosingFileData().setFaint("bedrock("+this.getCleanName()+", faint)");

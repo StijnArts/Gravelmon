@@ -157,7 +157,7 @@ public class DeltaWartortle extends Pokemon {
         getPosingFileData().setProfileData( 0.7f, new Vector3(-.10, .7, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().clearPoseTypes(),
+                AnimationData.standingAnimation().withLook().markAsBackupPose(),
                 AnimationData.walkingAnimation().withLook(),
                 AnimationData.floatingAnimation().withLook(),
                 AnimationData.swimmingAnimation().withLook()

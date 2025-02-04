@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "chickoo",
-  "baseScale": 0.22040816326530613,
+  "baseScale": 0.3540983606557377,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -103,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5709,
+  "nationalPokedexNumber": 5707,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.5387755102040817,
+  "baseScale": 0.5866666666666667,
   "cannotDynamax": false,
   "abilities": [
     "damp",
@@ -87,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2996,
+  "nationalPokedexNumber": 2994,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

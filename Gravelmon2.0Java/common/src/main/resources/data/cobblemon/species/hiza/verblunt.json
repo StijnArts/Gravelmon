@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "folicero",
-  "baseScale": 0.29387755102040813,
+  "baseScale": 0.4114285714285714,
   "cannotDynamax": false,
   "abilities": [
     "overgrow",
@@ -103,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3090,
+  "nationalPokedexNumber": 3088,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

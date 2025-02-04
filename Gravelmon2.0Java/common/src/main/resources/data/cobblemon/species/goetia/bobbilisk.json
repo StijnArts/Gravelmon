@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "ragrand",
-  "baseScale": 0.5142857142857143,
+  "baseScale": 0.6222222222222222,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -77,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7974,
+  "nationalPokedexNumber": 7972,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

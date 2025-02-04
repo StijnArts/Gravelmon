@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "teslither",
-  "baseScale": 0.22040816326530613,
+  "baseScale": 0.27341772151898736,
   "cannotDynamax": false,
   "abilities": [
     "motordrive"
@@ -87,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2924,
+  "nationalPokedexNumber": 2922,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

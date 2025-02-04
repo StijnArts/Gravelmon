@@ -132,7 +132,7 @@ public class DeltaRiolu extends Pokemon {
         getPosingFileData().setProfileData( .9f, new Vector3(0, .4, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().clearPoseTypes().withLook().withBlink(),
+                AnimationData.standingAnimation().markAsBackupPose().withLook().withBlink(),
                 AnimationData.walkingAnimation().withLook().withBlink()
         ));
     }

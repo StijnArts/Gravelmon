@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "torkit",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.52,
   "cannotDynamax": false,
   "abilities": [
     "motordrive"

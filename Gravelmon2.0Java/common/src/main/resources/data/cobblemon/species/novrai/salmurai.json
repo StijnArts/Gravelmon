@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "roenin",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.4105263157894737,
   "cannotDynamax": false,
   "abilities": [
     "sharpness",
@@ -155,7 +155,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6810,
+  "nationalPokedexNumber": 6808,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "candhoul",
-  "baseScale": 0.6122448979591837,
+  "baseScale": 0.6666666666666666,
   "cannotDynamax": false,
   "abilities": [
     "flamebody",
@@ -93,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4771,
+  "nationalPokedexNumber": 4769,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

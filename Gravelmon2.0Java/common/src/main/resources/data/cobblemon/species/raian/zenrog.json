@@ -67,7 +67,8 @@
     "raian",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.zenrog.desc"
@@ -91,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3234,
+  "nationalPokedexNumber": 3232,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

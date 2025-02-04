@@ -69,7 +69,8 @@
   ],
   "labels": [
     "aldao",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.titanoth.desc"
@@ -78,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3833,
+  "nationalPokedexNumber": 3831,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

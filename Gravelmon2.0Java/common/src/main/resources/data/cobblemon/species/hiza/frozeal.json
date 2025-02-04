@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pupsicle",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.6101694915254238,
   "cannotDynamax": false,
   "abilities": [
     "icebody",
@@ -103,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3082,
+  "nationalPokedexNumber": 3080,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

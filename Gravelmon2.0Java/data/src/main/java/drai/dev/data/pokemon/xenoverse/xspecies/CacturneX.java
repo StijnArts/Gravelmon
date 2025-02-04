@@ -108,7 +108,7 @@ public class CacturneX extends Pokemon {
         getPosingFileData().setPortraitData( 1.9f, new Vector3(0, .5, 0));
         getPosingFileData().setProfileData( .72f, new Vector3(0, 0.6, 0));
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().clearPoseTypes(),
+                AnimationData.standingAnimation().withLook().markAsBackupPose(),
                 AnimationData.walkingAnimation().withLook()
         ));
     }

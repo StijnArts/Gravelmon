@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "ribone",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.48571428571428565,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -88,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5777,
+  "nationalPokedexNumber": 5775,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

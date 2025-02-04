@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "anemulp",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.48,
   "cannotDynamax": false,
   "abilities": [
     "swiftswim",
@@ -97,7 +97,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5782,
+  "nationalPokedexNumber": 5780,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

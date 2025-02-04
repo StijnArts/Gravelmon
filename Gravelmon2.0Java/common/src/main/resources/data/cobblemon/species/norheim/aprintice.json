@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "snovice",
-  "baseScale": 0.22040816326530613,
+  "baseScale": 0.48,
   "cannotDynamax": false,
   "abilities": [
     "snowwarning",
@@ -103,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4224,
+  "nationalPokedexNumber": 4222,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

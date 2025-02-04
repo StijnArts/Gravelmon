@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "candleru",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.41904761904761906,
   "cannotDynamax": false,
   "abilities": [
     "flashfire",
@@ -135,7 +135,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6676,
+  "nationalPokedexNumber": 6674,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

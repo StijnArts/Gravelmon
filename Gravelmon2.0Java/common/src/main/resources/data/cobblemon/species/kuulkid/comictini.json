@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "juggljelly",
-  "baseScale": 0.46530612244897956,
+  "baseScale": 0.6162162162162163,
   "cannotDynamax": false,
   "abilities": [
     "torrent",
@@ -78,7 +78,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2718,
+  "nationalPokedexNumber": 2716,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

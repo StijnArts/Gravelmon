@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "eosoli",
-  "baseScale": 0.4897959183673469,
+  "baseScale": 0.5714285714285714,
   "cannotDynamax": false,
   "abilities": [
     "soundproof",
@@ -89,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4205,
+  "nationalPokedexNumber": 4203,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

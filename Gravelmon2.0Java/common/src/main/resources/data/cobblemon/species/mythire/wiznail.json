@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "shpell",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.46363636363636357,
   "cannotDynamax": false,
   "abilities": [
     "magician",
@@ -108,7 +108,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5171,
+  "nationalPokedexNumber": 5169,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

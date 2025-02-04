@@ -140,7 +140,7 @@ public class DeltaAvalugg extends Pokemon {
                 0.0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().clearPoseTypes().withLook().withBlink(),
+                AnimationData.standingAnimation().markAsBackupPose().withLook().withBlink(),
                 AnimationData.walkingAnimation().withLook().withBlink()
         ));
         getPosingFileData().setAnimationFileName("avalugg");

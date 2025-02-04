@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "impyre",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.5714285714285714,
   "cannotDynamax": false,
   "abilities": [
     "blaze"
@@ -175,7 +175,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6619,
+  "nationalPokedexNumber": 6617,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

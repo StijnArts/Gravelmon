@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "spyaye",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.4394366197183099,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -76,7 +76,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8155,
+  "nationalPokedexNumber": 8153,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

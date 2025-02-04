@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "likandua",
-  "baseScale": 0.24489795918367346,
+  "baseScale": 0.3037974683544304,
   "cannotDynamax": false,
   "abilities": [
     "quickfeet",
@@ -85,7 +85,7 @@
   "weight": 400,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1541,
+  "nationalPokedexNumber": 1539,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

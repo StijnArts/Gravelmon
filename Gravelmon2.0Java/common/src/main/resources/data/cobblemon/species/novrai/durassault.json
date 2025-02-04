@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "oblittery",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.49756097560975604,
   "cannotDynamax": false,
   "abilities": [
     "voltabsorb",
@@ -150,7 +150,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6715,
+  "nationalPokedexNumber": 6713,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "seagulp",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.31475409836065577,
   "cannotDynamax": false,
   "abilities": [
     "thickfat",
@@ -156,7 +156,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4504,
+  "nationalPokedexNumber": 4502,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

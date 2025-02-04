@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "culponi",
-  "baseScale": 0.5387755102040817,
+  "baseScale": 0.6947368421052632,
   "cannotDynamax": false,
   "abilities": [
     "stamina",
@@ -87,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5405,
+  "nationalPokedexNumber": 5403,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

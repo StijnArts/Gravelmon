@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "leafrog",
-  "baseScale": 0.24489795918367346,
+  "baseScale": 0.3870967741935484,
   "cannotDynamax": false,
   "abilities": [
     "overgrow",
@@ -103,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1645,
+  "nationalPokedexNumber": 1643,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

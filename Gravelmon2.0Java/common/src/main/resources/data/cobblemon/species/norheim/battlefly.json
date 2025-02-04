@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "strikoon",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.5373134328358209,
   "cannotDynamax": false,
   "abilities": [
     "compoundeyes",
@@ -115,7 +115,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4132,
+  "nationalPokedexNumber": 4130,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

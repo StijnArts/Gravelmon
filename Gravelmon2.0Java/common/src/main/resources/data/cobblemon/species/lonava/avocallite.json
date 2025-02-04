@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "avocadoze",
-  "baseScale": 0.12244897959183673,
+  "baseScale": 0.23076923076923078,
   "cannotDynamax": false,
   "abilities": [
     "comatose"
@@ -87,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4471,
+  "nationalPokedexNumber": 4469,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

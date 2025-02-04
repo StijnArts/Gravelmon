@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.0979591836734694,
+  "baseScale": 0.24,
   "cannotDynamax": false,
   "abilities": [
     "corrosion"
@@ -89,7 +89,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2815,
+  "nationalPokedexNumber": 2813,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "halux",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.4864864864864865,
   "cannotDynamax": false,
   "abilities": [
     "pressure",
@@ -96,7 +96,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4728,
+  "nationalPokedexNumber": 4726,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

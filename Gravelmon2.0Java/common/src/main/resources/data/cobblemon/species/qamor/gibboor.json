@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "grimgrin",
-  "baseScale": 0.14693877551020407,
+  "baseScale": 0.1531914893617021,
   "cannotDynamax": false,
   "abilities": [
     "unnerve",
@@ -105,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5430,
+  "nationalPokedexNumber": 5428,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

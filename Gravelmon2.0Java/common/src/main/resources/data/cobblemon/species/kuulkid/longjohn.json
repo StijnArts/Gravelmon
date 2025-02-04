@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "noknok",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.4732394366197183,
   "cannotDynamax": false,
   "abilities": [
     "pickpocket"
@@ -75,7 +75,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2819,
+  "nationalPokedexNumber": 2817,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

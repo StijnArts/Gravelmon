@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "humini",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.4444444444444444,
   "cannotDynamax": false,
   "abilities": [
     "dancer"
@@ -98,7 +98,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6584,
+  "nationalPokedexNumber": 6582,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

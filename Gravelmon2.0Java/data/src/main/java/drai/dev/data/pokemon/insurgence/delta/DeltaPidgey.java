@@ -154,7 +154,7 @@ public class DeltaPidgey extends Pokemon {
         getPosingFileData().setProfileData( 1.2f, new Vector3(0, 0, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().clearPoseTypes().withLook(),
+                AnimationData.standingAnimation().markAsBackupPose().withLook(),
                 AnimationData.flyingAnimation().addPoseType(PoseType.HOVER).withLook().withBlink(),
                 AnimationData.sleepingAnimation()
         ));

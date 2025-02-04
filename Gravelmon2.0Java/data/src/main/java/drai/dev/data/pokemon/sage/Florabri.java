@@ -113,7 +113,7 @@ public class Florabri extends Pokemon {
         getPosingFileData().setProfileData( 1f, new Vector3(0.2, .3, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().withBlink().clearPoseTypes(),
+                AnimationData.standingAnimation().withLook().withBlink().markAsBackupPose(),
                 AnimationData.hoveringAnimation().withLook().withBlink(),
                 AnimationData.flyingAnimation().withLook().withBlink(),
                 AnimationData.sleepingAnimation()

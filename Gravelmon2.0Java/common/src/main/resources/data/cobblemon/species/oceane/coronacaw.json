@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "nauticaw",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.4235294117647059,
   "cannotDynamax": false,
   "abilities": [
     "swiftswim",
@@ -86,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2331,
+  "nationalPokedexNumber": 2329,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

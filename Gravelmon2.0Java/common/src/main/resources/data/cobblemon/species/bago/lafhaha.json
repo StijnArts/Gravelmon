@@ -64,7 +64,8 @@
   ],
   "labels": [
     "bago",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.lafhaha.desc"
@@ -73,7 +74,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3725,
+  "nationalPokedexNumber": 3723,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

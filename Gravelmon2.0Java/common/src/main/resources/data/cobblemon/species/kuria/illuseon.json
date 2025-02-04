@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.36164383561643837,
   "cannotDynamax": false,
   "abilities": [
     "magician",
@@ -122,7 +122,7 @@
   "weight": 377,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5643,
+  "nationalPokedexNumber": 5641,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

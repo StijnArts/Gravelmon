@@ -131,7 +131,7 @@ public class DeltaWailmer extends Pokemon {
         getPosingFileData().setProfileData( 0.8f, new Vector3(0, .3, 0));
         getPosingFileData().head = "wailmer";
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().clearPoseTypes(),
+                AnimationData.standingAnimation().withLook().markAsBackupPose(),
                 AnimationData.walkingAnimation().withLook(),
                 AnimationData.flyingAnimation().withLook().addPoseType(PoseType.HOVER)
         ));

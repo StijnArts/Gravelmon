@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "tomatoss",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.5176470588235295,
   "cannotDynamax": false,
   "abilities": [
     "merciless"
@@ -77,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2764,
+  "nationalPokedexNumber": 2762,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -66,7 +66,8 @@
     "bago",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.komoxic.desc"
@@ -90,7 +91,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3716,
+  "nationalPokedexNumber": 3714,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

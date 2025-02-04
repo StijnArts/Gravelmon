@@ -70,7 +70,8 @@
     "borazul",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.moskiringe.desc"
@@ -79,7 +80,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3918,
+  "nationalPokedexNumber": 3916,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

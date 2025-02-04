@@ -7,7 +7,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.6109090909090908,
   "cannotDynamax": false,
   "abilities": [
     "pickpocket",
@@ -90,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5255,
+  "nationalPokedexNumber": 5253,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

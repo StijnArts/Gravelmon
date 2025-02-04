@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "crashlad",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.42162162162162165,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -77,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2789,
+  "nationalPokedexNumber": 2787,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

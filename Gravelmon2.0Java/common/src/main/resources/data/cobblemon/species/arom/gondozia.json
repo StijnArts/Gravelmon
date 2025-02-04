@@ -65,7 +65,8 @@
   ],
   "labels": [
     "aroma",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.gondozia.desc"
@@ -74,7 +75,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7827,
+  "nationalPokedexNumber": 7825,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

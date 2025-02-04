@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "brewpod",
-  "baseScale": 0.22040816326530613,
+  "baseScale": 0.34838709677419355,
   "cannotDynamax": false,
   "abilities": [
     "flamebody",
@@ -91,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5401,
+  "nationalPokedexNumber": 5399,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

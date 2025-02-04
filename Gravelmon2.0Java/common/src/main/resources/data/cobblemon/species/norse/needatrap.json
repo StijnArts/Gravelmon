@@ -63,7 +63,8 @@
   ],
   "labels": [
     "not_modeled",
-    "norse"
+    "norse",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.needatrap.desc"
@@ -72,7 +73,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3407,
+  "nationalPokedexNumber": 3405,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

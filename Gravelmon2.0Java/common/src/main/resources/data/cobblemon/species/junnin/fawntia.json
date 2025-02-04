@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.29387755102040813,
+  "baseScale": 0.6260869565217391,
   "cannotDynamax": false,
   "abilities": [
     "slushrush",
@@ -162,7 +162,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3182,
+  "nationalPokedexNumber": 3180,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

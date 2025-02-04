@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "steetic",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.4915662650602409,
   "cannotDynamax": false,
   "abilities": [
     "static",
@@ -94,7 +94,7 @@
   "weight": 499,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5577,
+  "nationalPokedexNumber": 5575,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

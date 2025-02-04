@@ -63,7 +63,8 @@
   ],
   "labels": [
     "aldao",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.moorlock.desc"
@@ -83,7 +84,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3821,
+  "nationalPokedexNumber": 3819,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

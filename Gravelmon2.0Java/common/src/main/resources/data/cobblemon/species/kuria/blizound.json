@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "frostyke",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.5142857142857142,
   "cannotDynamax": false,
   "abilities": [
     "refrigerate"
@@ -87,7 +87,7 @@
   "weight": 1651,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5575,
+  "nationalPokedexNumber": 5573,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

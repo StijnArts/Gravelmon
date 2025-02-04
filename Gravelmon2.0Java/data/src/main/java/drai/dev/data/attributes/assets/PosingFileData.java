@@ -4,12 +4,13 @@ import com.cobblemon.mod.common.entity.*;
 import com.google.gson.*;
 
 import java.util.*;
+import java.util.stream.*;
 
 public class PosingFileData {
     public String animationFileName;
     public double profileScale = .22;
     public double portraitScale = .165;
-    public Vector3 profileCoords = new Vector3(0.0, 1.55, -20.0);
+    public Vector3 profileCoords = new Vector3(0.0, 1.8, 0.0);
     public Vector3 portraitCoords = new Vector3(0.0, 1.4, 0.0);
     public List<AnimationData> animations = new ArrayList<>();
     private String faint;
@@ -115,6 +116,7 @@ public class PosingFileData {
 
     public void addAnimations(List<AnimationData> animationData) {
         this.animations.addAll(animationData);
+        animations.forEach(animationData1 -> animationData1.setPosingFileData(this));
     }
 
     public void setAnimationFileName(String animationFileName) {
@@ -125,5 +127,12 @@ public class PosingFileData {
         var leftShoulder = new AnimationData("shoulder_left", List.of(PoseType.SHOULDER_LEFT), List.of("shoulder"), List.of(), 10);
         var rightShoulder = new AnimationData("shoulder_right", List.of(PoseType.SHOULDER_RIGHT), List.of("shoulder"), List.of(), 10);;
         animations.add(leftShoulder);
+    }
+
+    public List<PoseType> getUnusedPoseTypes() {
+        var poseTypes = new ArrayList<>(List.of(PoseType.values()));
+        var usedPoseTypes = animations.stream().flatMap(animationData -> animationData.poseTypes.stream()).collect(Collectors.toSet());
+        usedPoseTypes.forEach(poseTypes::remove);
+        return poseTypes;
     }
 }

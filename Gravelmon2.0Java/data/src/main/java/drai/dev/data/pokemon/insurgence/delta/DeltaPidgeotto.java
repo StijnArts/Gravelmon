@@ -156,7 +156,7 @@ public class DeltaPidgeotto extends Pokemon {
         getPosingFileData().setProfileData( 1f, new Vector3(0.1, 0.3, 0));
         getPosingFileData().head = "torso";
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().clearPoseTypes().withLook(),
+                AnimationData.standingAnimation().markAsBackupPose().withLook(),
                 AnimationData.flyingAnimation().addPoseType(PoseType.HOVER).withLook().withBlink(),
                 AnimationData.sleepingAnimation()
         ));

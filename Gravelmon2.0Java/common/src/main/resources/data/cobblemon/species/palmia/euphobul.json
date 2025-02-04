@@ -71,7 +71,8 @@
     "not_modeled",
     "fakemon",
     "fakemonevolution",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.euphobul.desc"
@@ -95,7 +96,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3463,
+  "nationalPokedexNumber": 3461,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

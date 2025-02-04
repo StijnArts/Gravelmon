@@ -66,7 +66,8 @@
     "not_modeled",
     "fakemon",
     "fakemonevolution",
-    "norse"
+    "norse",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.dimelf.desc"
@@ -75,7 +76,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3423,
+  "nationalPokedexNumber": 3421,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

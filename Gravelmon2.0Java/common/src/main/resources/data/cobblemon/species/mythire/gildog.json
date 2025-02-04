@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "glimruff",
-  "baseScale": 0.29387755102040813,
+  "baseScale": 0.44999999999999996,
   "cannotDynamax": false,
   "abilities": [
     "overgrow",
@@ -109,7 +109,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5146,
+  "nationalPokedexNumber": 5144,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

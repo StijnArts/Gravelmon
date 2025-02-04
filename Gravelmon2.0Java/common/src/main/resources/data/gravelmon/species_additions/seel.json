@@ -380,7 +380,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.24489795918367346,
+      "baseScale": 0.46153846153846156,
       "cannotDynamax": false,
       "abilities": [
         "waterbubble"
@@ -492,7 +492,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1714285714285714,
+      "baseScale": 0.3054545454545454,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"

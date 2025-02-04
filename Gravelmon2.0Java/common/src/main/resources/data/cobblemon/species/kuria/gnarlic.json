@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "gareed",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.3368421052631579,
   "cannotDynamax": false,
   "abilities": [
     "levitate",
@@ -105,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5632,
+  "nationalPokedexNumber": 5630,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

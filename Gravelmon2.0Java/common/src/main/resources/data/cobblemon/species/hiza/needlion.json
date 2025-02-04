@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "neeten",
-  "baseScale": 0.22040816326530613,
+  "baseScale": 0.30422535211267604,
   "cannotDynamax": false,
   "abilities": [
     "poisontouch",
@@ -101,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2916,
+  "nationalPokedexNumber": 2914,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

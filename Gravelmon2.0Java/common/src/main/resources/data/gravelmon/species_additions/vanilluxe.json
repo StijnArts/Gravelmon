@@ -299,7 +299,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "vanillish form=novran",
-      "baseScale": 0.3183673469387755,
+      "baseScale": 0.45217391304347826,
       "cannotDynamax": false,
       "abilities": [
         "ripen",

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "faeribou",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.561038961038961,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -77,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7888,
+  "nationalPokedexNumber": 7886,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

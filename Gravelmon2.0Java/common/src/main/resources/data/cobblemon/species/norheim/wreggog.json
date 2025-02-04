@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.5387755102040817,
   "cannotDynamax": false,
   "abilities": [
     "battlearmor",
@@ -99,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4248,
+  "nationalPokedexNumber": 4246,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

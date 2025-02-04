@@ -63,7 +63,8 @@
   ],
   "labels": [
     "not_modeled",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.hamoria.desc"
@@ -83,7 +84,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3482,
+  "nationalPokedexNumber": 3480,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

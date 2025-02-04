@@ -67,7 +67,8 @@
   ],
   "labels": [
     "elb",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.appafrigion.desc"
@@ -76,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7802,
+  "nationalPokedexNumber": 7800,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

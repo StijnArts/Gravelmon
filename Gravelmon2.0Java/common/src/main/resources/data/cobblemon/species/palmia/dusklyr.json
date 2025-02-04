@@ -64,7 +64,8 @@
   ],
   "labels": [
     "not_modeled",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.dusklyr.desc"
@@ -84,7 +85,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3541,
+  "nationalPokedexNumber": 3539,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

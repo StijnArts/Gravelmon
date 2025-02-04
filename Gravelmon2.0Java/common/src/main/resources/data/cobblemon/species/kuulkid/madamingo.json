@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "flamingle",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.5625,
   "cannotDynamax": false,
   "abilities": [
     "keeneye",
@@ -82,7 +82,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2832,
+  "nationalPokedexNumber": 2830,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

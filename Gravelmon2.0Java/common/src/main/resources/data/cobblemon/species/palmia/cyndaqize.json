@@ -63,7 +63,8 @@
   ],
   "labels": [
     "not_modeled",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.cyndaqize.desc"
@@ -87,7 +88,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3555,
+  "nationalPokedexNumber": 3553,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "gupplash",
-  "baseScale": 0.6612244897959184,
+  "baseScale": 0.9,
   "cannotDynamax": false,
   "abilities": [
     "swiftswim",

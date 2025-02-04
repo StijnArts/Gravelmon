@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "dusby",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.48000000000000004,
   "cannotDynamax": false,
   "abilities": [
     "keeneye",
@@ -176,7 +176,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6630,
+  "nationalPokedexNumber": 6628,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

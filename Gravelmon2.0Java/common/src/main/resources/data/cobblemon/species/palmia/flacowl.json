@@ -72,7 +72,8 @@
     "not_modeled",
     "fakemon",
     "fakemonevolution",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.flacowl.desc"
@@ -81,7 +82,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3536,
+  "nationalPokedexNumber": 3534,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

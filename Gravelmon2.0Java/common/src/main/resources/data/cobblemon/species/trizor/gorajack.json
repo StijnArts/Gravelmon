@@ -67,7 +67,8 @@
     "not_modeled",
     "fakemon",
     "fakemonevolution",
-    "trizor"
+    "trizor",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.gorajack.desc"
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3590,
+  "nationalPokedexNumber": 3588,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

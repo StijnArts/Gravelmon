@@ -70,7 +70,8 @@
       ],
       "labels": [
         "elb",
-        "not_modeled"
+        "not_modeled",
+        "instagram"
       ],
       "pokedex": [
         "cobblemon.species.elbianvigoking.desc"

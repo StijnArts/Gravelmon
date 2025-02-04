@@ -72,7 +72,8 @@
   ],
   "labels": [
     "not_modeled",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.marsheon.desc"
@@ -81,7 +82,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3490,
+  "nationalPokedexNumber": 3488,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

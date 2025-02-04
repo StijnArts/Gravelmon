@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "dashkite",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.3368421052631579,
   "cannotDynamax": false,
   "abilities": [
     "speedboost"
@@ -99,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5446,
+  "nationalPokedexNumber": 5444,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

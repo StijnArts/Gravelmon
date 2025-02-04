@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "psyduck form=qamoran",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.6580645161290323,
   "cannotDynamax": false,
   "abilities": [
     "oblivious",
@@ -93,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5413,
+  "nationalPokedexNumber": 5411,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

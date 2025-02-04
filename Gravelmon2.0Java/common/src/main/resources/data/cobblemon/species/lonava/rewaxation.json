@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "mellowick",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.4266666666666667,
   "cannotDynamax": false,
   "abilities": [
     "flashfire",
@@ -88,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4466,
+  "nationalPokedexNumber": 4464,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -66,7 +66,8 @@
     "bago",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.komodraco.desc"
@@ -75,7 +76,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3717,
+  "nationalPokedexNumber": 3715,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

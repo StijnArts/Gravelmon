@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "edglet",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.44799999999999995,
   "cannotDynamax": false,
   "abilities": [
     "rivalry",
@@ -92,7 +92,7 @@
   "weight": 355,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5560,
+  "nationalPokedexNumber": 5558,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

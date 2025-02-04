@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_98_by_98.geo",
-      "poser": "cobblemon:cutout_gravelmon_98_by_98",
+      "model": "cobblemon:cutout_gravelmon_94_by_104.geo",
+      "poser": "cobblemon:cutout_gravelmon_94_by_104",
       "texture": "cobblemon:textures/pokemon/lonava/morabyssal.png",
       "layers": [
         {

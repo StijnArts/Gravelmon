@@ -91,7 +91,7 @@ public class ElectabuzzX extends Pokemon {
         getPosingFileData().setProfileData( .8f, new Vector3(0, 0.55, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().clearPoseTypes()
+                AnimationData.standingAnimation().withLook().markAsBackupPose()
         ));
     }
 }

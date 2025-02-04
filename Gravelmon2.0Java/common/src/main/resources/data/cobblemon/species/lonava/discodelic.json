@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "fungroove",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.512,
   "cannotDynamax": false,
   "abilities": [
     "effectspore",
@@ -157,7 +157,7 @@
   "weight": 153,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4440,
+  "nationalPokedexNumber": 4438,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

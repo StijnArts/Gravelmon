@@ -99,7 +99,7 @@ public class SharpedoX extends Pokemon {
         getPosingFileData().setPortraitData( 1.4f, new Vector3(0, 0, 0));
         getPosingFileData().setProfileData( .6f, new Vector3(0, .8, 0));
         getPosingFileData().addAnimations(List.of(
-                AnimationData.floatingAnimation().clearPoseTypes()
+                AnimationData.floatingAnimation().markAsBackupPose()
         ));
     }
 }

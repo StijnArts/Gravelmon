@@ -69,7 +69,8 @@
     "not_modeled",
     "fakemon",
     "fakemonevolution",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.tenturog.desc"
@@ -78,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3504,
+  "nationalPokedexNumber": 3502,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

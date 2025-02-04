@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sunling",
-  "baseScale": 0.0979591836734694,
+  "baseScale": 0.12,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -79,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6528,
+  "nationalPokedexNumber": 6526,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

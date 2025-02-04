@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "magmead",
-  "baseScale": 0.29387755102040813,
+  "baseScale": 0.4114285714285714,
   "cannotDynamax": false,
   "abilities": [
     "keeneye",
@@ -86,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5442,
+  "nationalPokedexNumber": 5440,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

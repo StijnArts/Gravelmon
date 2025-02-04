@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "hoppiler",
-  "baseScale": 0.14693877551020407,
+  "baseScale": 0.36,
   "cannotDynamax": false,
   "abilities": [
     "shedskin",
@@ -116,7 +116,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3145,
+  "nationalPokedexNumber": 3143,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

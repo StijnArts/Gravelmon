@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "narysite",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.6171428571428572,
   "cannotDynamax": false,
   "abilities": [
     "dryskin",
@@ -156,7 +156,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6663,
+  "nationalPokedexNumber": 6661,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -69,7 +69,8 @@
   ],
   "labels": [
     "ivris",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.ciprowd.desc"
@@ -78,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4831,
+  "nationalPokedexNumber": 4829,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

@@ -68,7 +68,8 @@
     "form",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.sawtears.desc"
@@ -92,7 +93,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5089,
+  "nationalPokedexNumber": 5087,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

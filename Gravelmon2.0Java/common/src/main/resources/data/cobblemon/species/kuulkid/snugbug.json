@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "silkrinkle",
-  "baseScale": 0.1714285714285714,
+  "baseScale": 0.35,
   "cannotDynamax": false,
   "abilities": [
     "shielddust"
@@ -104,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2723,
+  "nationalPokedexNumber": 2721,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

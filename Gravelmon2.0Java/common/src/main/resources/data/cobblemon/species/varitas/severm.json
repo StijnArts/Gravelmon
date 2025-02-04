@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.14693877551020407,
+  "baseScale": 0.32,
   "cannotDynamax": false,
   "abilities": [
     "swarm",
@@ -129,7 +129,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2448,
+  "nationalPokedexNumber": 2446,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

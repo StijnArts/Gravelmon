@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "frirate",
-  "baseScale": 0.1714285714285714,
+  "baseScale": 0.227027027027027,
   "cannotDynamax": false,
   "abilities": [
     "superluck",
@@ -113,7 +113,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6010,
+  "nationalPokedexNumber": 6008,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

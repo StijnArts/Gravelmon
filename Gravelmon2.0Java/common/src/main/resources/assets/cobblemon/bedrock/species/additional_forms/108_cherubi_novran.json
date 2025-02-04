@@ -6,8 +6,8 @@
       "aspects": [
         "novran"
       ],
-      "model": "cobblemon:cutout_gravelmon_98_by_98.geo",
-      "poser": "cobblemon:cutout_gravelmon_98_by_98",
+      "model": "cobblemon:cutout_gravelmon_44_by_41.geo",
+      "poser": "cobblemon:cutout_gravelmon_44_by_41",
       "texture": "cobblemon:textures/pokemon/generation4/novrancherubi.png",
       "layers": [
         {

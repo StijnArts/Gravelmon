@@ -65,7 +65,8 @@
   ],
   "labels": [
     "borazul",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.drubat.desc"
@@ -89,7 +90,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3905,
+  "nationalPokedexNumber": 3903,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

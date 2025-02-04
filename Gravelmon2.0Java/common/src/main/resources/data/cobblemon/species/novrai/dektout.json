@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "riskard",
-  "baseScale": 0.12244897959183673,
+  "baseScale": 0.17142857142857143,
   "cannotDynamax": false,
   "abilities": [
     "superluck"
@@ -155,7 +155,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6839,
+  "nationalPokedexNumber": 6837,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

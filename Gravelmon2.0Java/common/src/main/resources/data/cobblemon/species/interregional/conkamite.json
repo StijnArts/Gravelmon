@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "hermish",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.49230769230769234,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -88,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1671,
+  "nationalPokedexNumber": 1669,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

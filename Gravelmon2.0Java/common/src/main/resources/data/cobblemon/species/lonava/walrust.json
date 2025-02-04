@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pinneral",
-  "baseScale": 0.5877551020408163,
+  "baseScale": 0.6260869565217391,
   "cannotDynamax": false,
   "abilities": [
     "roughskin",
@@ -206,7 +206,7 @@
   "weight": 4540,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4491,
+  "nationalPokedexNumber": 4489,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "audibaah",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.46265060240963857,
   "cannotDynamax": false,
   "abilities": [
     "keeneye",
@@ -96,7 +96,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1693,
+  "nationalPokedexNumber": 1691,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

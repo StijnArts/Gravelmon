@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "chelomat",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.5565217391304348,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -79,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8242,
+  "nationalPokedexNumber": 8240,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

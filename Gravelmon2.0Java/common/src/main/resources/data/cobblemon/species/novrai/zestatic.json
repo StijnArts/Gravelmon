@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "acipeasi",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.26301369863013696,
   "cannotDynamax": false,
   "abilities": [
     "battery",
@@ -154,7 +154,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6739,
+  "nationalPokedexNumber": 6737,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "woofurr",
-  "baseScale": 0.5142857142857143,
+  "baseScale": 0.6222222222222222,
   "cannotDynamax": false,
   "abilities": [
     "owntempo",
@@ -161,7 +161,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4291,
+  "nationalPokedexNumber": 4289,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

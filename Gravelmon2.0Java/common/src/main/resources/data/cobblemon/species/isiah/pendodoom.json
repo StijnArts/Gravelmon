@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "teekaboo",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.4307692307692308,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -89,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5818,
+  "nationalPokedexNumber": 5816,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

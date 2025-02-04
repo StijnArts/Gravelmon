@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "tingillar",
-  "baseScale": 0.14693877551020407,
+  "baseScale": 0.36,
   "cannotDynamax": false,
   "abilities": [
     "shedskin"
@@ -90,7 +90,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2919,
+  "nationalPokedexNumber": 2917,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -7,7 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.48000000000000004,
   "cannotDynamax": false,
   "abilities": [
     "intimidate",
@@ -95,7 +95,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1740,
+  "nationalPokedexNumber": 1738,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

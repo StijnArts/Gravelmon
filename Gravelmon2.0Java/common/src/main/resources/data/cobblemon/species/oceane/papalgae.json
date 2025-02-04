@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "grasstache",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.5,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -88,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2386,
+  "nationalPokedexNumber": 2384,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

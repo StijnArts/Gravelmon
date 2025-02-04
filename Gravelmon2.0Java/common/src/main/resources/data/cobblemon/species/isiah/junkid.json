@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.5617021276595745,
   "cannotDynamax": false,
   "abilities": [
     "weakarmor",
@@ -144,7 +144,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5803,
+  "nationalPokedexNumber": 5801,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "noviss",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.52,
   "cannotDynamax": false,
   "abilities": [
     "blaze",
@@ -132,7 +132,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5149,
+  "nationalPokedexNumber": 5147,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

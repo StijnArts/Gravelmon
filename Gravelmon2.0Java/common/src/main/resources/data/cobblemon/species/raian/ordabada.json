@@ -67,7 +67,8 @@
   ],
   "labels": [
     "raian",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.ordabada.desc"
@@ -76,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3335,
+  "nationalPokedexNumber": 3333,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

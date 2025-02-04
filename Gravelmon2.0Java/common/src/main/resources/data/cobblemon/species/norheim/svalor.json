@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "svalbat",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.5694915254237288,
   "cannotDynamax": false,
   "abilities": [
     "moxie",
@@ -93,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4210,
+  "nationalPokedexNumber": 4208,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

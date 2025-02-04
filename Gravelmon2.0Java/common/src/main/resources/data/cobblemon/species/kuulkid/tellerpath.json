@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "forseeth",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.5672727272727273,
   "cannotDynamax": false,
   "abilities": [
     "frisk"
@@ -75,7 +75,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2828,
+  "nationalPokedexNumber": 2826,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

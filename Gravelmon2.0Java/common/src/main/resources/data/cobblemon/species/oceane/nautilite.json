@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "bublit",
-  "baseScale": 0.22040816326530613,
+  "baseScale": 0.4075471698113208,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -100,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2310,
+  "nationalPokedexNumber": 2308,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

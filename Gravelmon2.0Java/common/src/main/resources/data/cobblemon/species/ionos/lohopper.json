@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "grubdew",
-  "baseScale": 0.1714285714285714,
+  "baseScale": 0.3,
   "cannotDynamax": false,
   "abilities": [
     "innerfocus",
@@ -106,7 +106,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6487,
+  "nationalPokedexNumber": 6485,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

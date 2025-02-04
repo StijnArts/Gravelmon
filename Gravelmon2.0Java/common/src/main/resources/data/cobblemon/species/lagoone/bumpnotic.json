@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "tidakeet",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.49411764705882355,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -89,7 +89,7 @@
   "weight": 720,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1571,
+  "nationalPokedexNumber": 1569,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

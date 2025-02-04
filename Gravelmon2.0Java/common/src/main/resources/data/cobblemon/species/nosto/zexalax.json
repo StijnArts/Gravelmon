@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "teslax",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.3157894736842105,
   "cannotDynamax": false,
   "abilities": [
     "levitate",
@@ -91,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4763,
+  "nationalPokedexNumber": 4761,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

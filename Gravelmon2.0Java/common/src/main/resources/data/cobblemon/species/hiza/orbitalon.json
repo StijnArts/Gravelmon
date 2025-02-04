@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "cometile",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.41600000000000004,
   "cannotDynamax": false,
   "abilities": [
     "lightmetal"
@@ -104,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3101,
+  "nationalPokedexNumber": 3099,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

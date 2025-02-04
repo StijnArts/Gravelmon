@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "araphosa",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.5037037037037037,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -79,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7999,
+  "nationalPokedexNumber": 7997,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

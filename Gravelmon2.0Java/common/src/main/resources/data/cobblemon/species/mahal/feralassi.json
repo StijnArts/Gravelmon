@@ -69,7 +69,8 @@
   ],
   "labels": [
     "mahal",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.feralassi.desc"
@@ -78,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7611,
+  "nationalPokedexNumber": 7609,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

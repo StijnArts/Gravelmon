@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "makrabla",
-  "baseScale": 0.4897959183673469,
+  "baseScale": 0.6,
   "cannotDynamax": false,
   "abilities": [
     "torrent",
@@ -102,7 +102,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5371,
+  "nationalPokedexNumber": 5369,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

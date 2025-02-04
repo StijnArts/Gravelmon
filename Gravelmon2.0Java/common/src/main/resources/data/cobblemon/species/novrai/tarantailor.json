@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "wibow",
-  "baseScale": 0.0979591836734694,
+  "baseScale": 0.15483870967741936,
   "cannotDynamax": false,
   "abilities": [
     "innerfocus",
@@ -154,7 +154,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6643,
+  "nationalPokedexNumber": 6641,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

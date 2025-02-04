@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "enduron",
-  "baseScale": 0.6857142857142856,
+  "baseScale": 0.7073684210526315,
   "cannotDynamax": false,
   "abilities": [
     "marvelscale",
@@ -117,7 +117,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5264,
+  "nationalPokedexNumber": 5262,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

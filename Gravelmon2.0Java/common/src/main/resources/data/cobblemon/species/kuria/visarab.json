@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "visacoon",
-  "baseScale": 0.46530612244897956,
+  "baseScale": 0.5302325581395348,
   "cannotDynamax": false,
   "abilities": [
     "intimidate",
@@ -90,7 +90,7 @@
   "weight": 733,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5683,
+  "nationalPokedexNumber": 5681,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

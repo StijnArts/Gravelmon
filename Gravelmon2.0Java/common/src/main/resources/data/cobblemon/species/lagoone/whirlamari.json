@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "squigill",
-  "baseScale": 0.24489795918367346,
+  "baseScale": 0.39344262295081966,
   "cannotDynamax": false,
   "abilities": [
     "torrent",
@@ -105,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1536,
+  "nationalPokedexNumber": 1534,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

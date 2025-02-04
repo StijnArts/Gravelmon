@@ -108,7 +108,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1714285714285714,
+      "baseScale": 0.39069767441860465,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -140,12 +140,12 @@
         }
       },
       "baseStats": {
-        "hp": 65,
-        "attack": 22,
-        "defence": 50,
-        "special_attack": 67,
-        "special_defence": 65,
-        "speed": 28
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
       },
       "evYield": {
         "hp": 0,

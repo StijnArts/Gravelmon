@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sphagern",
-  "baseScale": 0.7836734693877552,
+  "baseScale": 0.9142857142857143,
   "cannotDynamax": false,
   "abilities": [
     "waterabsorb",
@@ -138,7 +138,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4482,
+  "nationalPokedexNumber": 4480,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

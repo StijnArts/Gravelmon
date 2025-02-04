@@ -67,7 +67,8 @@
   ],
   "labels": [
     "ferran",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.morsterus.desc"
@@ -76,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7508,
+  "nationalPokedexNumber": 7506,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

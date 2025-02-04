@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "minore",
-  "baseScale": 0.1714285714285714,
+  "baseScale": 0.27540983606557373,
   "cannotDynamax": false,
   "abilities": [
     "levitate"
@@ -94,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6532,
+  "nationalPokedexNumber": 6530,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

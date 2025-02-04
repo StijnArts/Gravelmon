@@ -69,7 +69,8 @@
   ],
   "labels": [
     "aroma",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.breabecue.desc"
@@ -78,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7844,
+  "nationalPokedexNumber": 7842,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

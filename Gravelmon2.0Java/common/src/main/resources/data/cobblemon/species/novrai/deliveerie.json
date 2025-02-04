@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "paranormail",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.46027397260273967,
   "cannotDynamax": false,
   "abilities": [
     "wanderingspirit",
@@ -161,7 +161,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6819,
+  "nationalPokedexNumber": 6817,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

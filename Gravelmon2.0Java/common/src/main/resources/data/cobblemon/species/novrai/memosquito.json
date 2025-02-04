@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "cognisalis",
-  "baseScale": 0.0979591836734694,
+  "baseScale": 0.18113207547169813,
   "cannotDynamax": false,
   "abilities": [
     "unnerve",
@@ -160,7 +160,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6641,
+  "nationalPokedexNumber": 6639,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

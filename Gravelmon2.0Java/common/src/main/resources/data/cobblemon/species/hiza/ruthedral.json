@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "gargross",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.43636363636363634,
   "cannotDynamax": false,
   "abilities": [
     "unburden"
@@ -87,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3006,
+  "nationalPokedexNumber": 3004,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

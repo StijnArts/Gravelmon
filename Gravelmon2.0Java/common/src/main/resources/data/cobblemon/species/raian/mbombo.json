@@ -68,7 +68,8 @@
     "raian",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.mbombo.desc"
@@ -116,7 +117,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3273,
+  "nationalPokedexNumber": 3271,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

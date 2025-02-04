@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "toxedary",
-  "baseScale": 0.636734693877551,
+  "baseScale": 0.8788732394366198,
   "cannotDynamax": false,
   "abilities": [
     "poisontouch",
@@ -78,7 +78,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2783,
+  "nationalPokedexNumber": 2781,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

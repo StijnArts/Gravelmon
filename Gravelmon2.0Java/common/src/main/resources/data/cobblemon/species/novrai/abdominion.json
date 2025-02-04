@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "verminion",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.5468354430379747,
   "cannotDynamax": false,
   "abilities": [
     "defiant"
@@ -170,7 +170,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6743,
+  "nationalPokedexNumber": 6741,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

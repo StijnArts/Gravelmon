@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "encantomb",
-  "baseScale": 0.636734693877551,
+  "baseScale": 0.6857142857142857,
   "cannotDynamax": false,
   "abilities": [
     "dryskin"
@@ -95,7 +95,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5479,
+  "nationalPokedexNumber": 5477,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -69,7 +69,8 @@
   ],
   "labels": [
     "form",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.egloom.desc"
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5030,
+  "nationalPokedexNumber": 5028,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

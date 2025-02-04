@@ -186,7 +186,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "gligar form=hizian",
-      "baseScale": 0.4897959183673469,
+      "baseScale": 0.6,
       "cannotDynamax": false,
       "abilities": [
         "icescales"

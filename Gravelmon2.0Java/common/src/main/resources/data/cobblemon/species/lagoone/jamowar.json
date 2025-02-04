@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "grapearl",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.3473684210526316,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -77,7 +77,7 @@
   "weight": 183,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1602,
+  "nationalPokedexNumber": 1600,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

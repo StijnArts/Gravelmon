@@ -72,7 +72,8 @@
     "not_modeled",
     "fakemon",
     "fakemonevolution",
-    "trizor"
+    "trizor",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.kanazoni.desc"
@@ -81,7 +82,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3666,
+  "nationalPokedexNumber": 3664,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

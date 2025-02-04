@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "tottapotta",
-  "baseScale": 0.7346938775510203,
+  "baseScale": 0.8780487804878048,
   "cannotDynamax": false,
   "abilities": [
     "stormdrain",
@@ -88,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5440,
+  "nationalPokedexNumber": 5438,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -65,7 +65,8 @@
   ],
   "labels": [
     "not_modeled",
-    "trizor"
+    "trizor",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.dropico.desc"
@@ -89,7 +90,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3653,
+  "nationalPokedexNumber": 3651,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

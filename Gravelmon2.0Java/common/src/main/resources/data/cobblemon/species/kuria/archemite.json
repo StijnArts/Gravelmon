@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "conamite",
-  "baseScale": 0.5387755102040817,
+  "baseScale": 0.6439024390243903,
   "cannotDynamax": false,
   "abilities": [
     "solidrock",
@@ -89,7 +89,7 @@
   "weight": 2599,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5565,
+  "nationalPokedexNumber": 5563,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "knapback",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.5694915254237288,
   "cannotDynamax": false,
   "abilities": [
     "pickup",
@@ -174,7 +174,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6680,
+  "nationalPokedexNumber": 6678,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "mantilist",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.36129032258064514,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -78,7 +78,7 @@
   "weight": 720,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1615,
+  "nationalPokedexNumber": 1613,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

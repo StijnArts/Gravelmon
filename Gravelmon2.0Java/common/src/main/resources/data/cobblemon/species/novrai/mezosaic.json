@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "granvas",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.29090909090909095,
   "cannotDynamax": false,
   "abilities": [
     "trace",
@@ -178,7 +178,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6787,
+  "nationalPokedexNumber": 6785,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

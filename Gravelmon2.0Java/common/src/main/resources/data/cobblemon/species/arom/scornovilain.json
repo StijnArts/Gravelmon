@@ -65,7 +65,8 @@
   ],
   "labels": [
     "aroma",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.scornovilain.desc"
@@ -74,7 +75,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7769,
+  "nationalPokedexNumber": 7767,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

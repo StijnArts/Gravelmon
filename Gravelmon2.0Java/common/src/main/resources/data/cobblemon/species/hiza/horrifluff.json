@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "hairubb",
-  "baseScale": 1.1020408163265305,
+  "baseScale": 1.1368421052631579,
   "cannotDynamax": false,
   "abilities": [
     "fluffy",
@@ -88,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3015,
+  "nationalPokedexNumber": 3013,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

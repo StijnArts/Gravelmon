@@ -62,7 +62,8 @@
   "moves": [],
   "labels": [
     "ferran",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.romarlord.desc"
@@ -71,7 +72,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7512,
+  "nationalPokedexNumber": 7510,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

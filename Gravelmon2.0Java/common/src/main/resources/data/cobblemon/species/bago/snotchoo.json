@@ -68,7 +68,8 @@
     "bago",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.snotchoo.desc"
@@ -96,7 +97,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3746,
+  "nationalPokedexNumber": 3744,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

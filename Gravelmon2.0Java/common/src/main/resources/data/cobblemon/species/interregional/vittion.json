@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "onnibud",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.45714285714285713,
   "cannotDynamax": false,
   "abilities": [
     "stamina",
@@ -89,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1679,
+  "nationalPokedexNumber": 1677,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -63,7 +63,8 @@
   ],
   "labels": [
     "aroma",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.leektonik.desc"
@@ -72,7 +73,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7782,
+  "nationalPokedexNumber": 7780,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

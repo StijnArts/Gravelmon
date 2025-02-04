@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "kitterwaul",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.6171428571428572,
   "cannotDynamax": false,
   "abilities": [
     "soundproof",
@@ -160,7 +160,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6693,
+  "nationalPokedexNumber": 6691,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

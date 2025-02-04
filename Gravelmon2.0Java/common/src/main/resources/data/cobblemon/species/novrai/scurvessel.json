@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "avigate",
-  "baseScale": 0.9551020408163264,
+  "baseScale": 1.2648648648648648,
   "cannotDynamax": false,
   "abilities": [
     "sniper",
@@ -145,7 +145,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6844,
+  "nationalPokedexNumber": 6842,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

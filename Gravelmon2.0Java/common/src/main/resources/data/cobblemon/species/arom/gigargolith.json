@@ -67,7 +67,8 @@
   ],
   "labels": [
     "aroma",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.gigargolith.desc"
@@ -76,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7791,
+  "nationalPokedexNumber": 7789,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

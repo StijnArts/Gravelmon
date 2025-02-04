@@ -11,6 +11,14 @@ public class Form extends drai.dev.data.games.registry.Game {
     }
 //https://www.instagram.com/pformedition/
     @Override
+    public void init(String resourcesDir) {
+        super.init(resourcesDir);
+        newPokemon.forEach(pokemon1 -> {
+            pokemon1.getLabels().add(Label.INSTAGRAM);
+        });
+    }
+
+    @Override
     public void registerPokemon() {
         addPokedexPokemon("Bulbasaur-forman");
         addNewPokemon(new Spiksaur());

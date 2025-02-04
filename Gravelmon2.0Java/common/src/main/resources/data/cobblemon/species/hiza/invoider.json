@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "brainby",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.3473684210526316,
   "cannotDynamax": false,
   "abilities": [
     "analytic"
@@ -108,7 +108,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3074,
+  "nationalPokedexNumber": 3072,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

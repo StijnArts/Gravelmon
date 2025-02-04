@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "culprint",
-  "baseScale": 0.1714285714285714,
+  "baseScale": 0.22399999999999998,
   "cannotDynamax": false,
   "abilities": [
     "pickpocket",
@@ -156,7 +156,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6833,
+  "nationalPokedexNumber": 6831,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "varymite",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.5,
   "cannotDynamax": false,
   "abilities": [
     "wonderskin",
@@ -93,7 +93,7 @@
   "weight": 205,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5598,
+  "nationalPokedexNumber": 5596,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

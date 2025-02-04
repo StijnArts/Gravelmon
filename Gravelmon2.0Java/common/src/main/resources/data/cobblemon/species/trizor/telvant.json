@@ -69,7 +69,8 @@
   ],
   "labels": [
     "not_modeled",
-    "trizor"
+    "trizor",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.telvant.desc"
@@ -78,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3678,
+  "nationalPokedexNumber": 3676,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "ghoubloon",
-  "baseScale": 0.24489795918367346,
+  "baseScale": 0.3582089552238806,
   "cannotDynamax": false,
   "abilities": [
     "steelworker",
@@ -82,7 +82,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2358,
+  "nationalPokedexNumber": 2356,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

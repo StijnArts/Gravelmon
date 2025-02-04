@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "lundrey",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.6000000000000001,
   "cannotDynamax": false,
   "abilities": [
     "stench",
@@ -106,7 +106,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6087,
+  "nationalPokedexNumber": 6085,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

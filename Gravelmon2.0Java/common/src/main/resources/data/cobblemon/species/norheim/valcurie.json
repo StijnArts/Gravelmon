@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.5538461538461539,
   "cannotDynamax": false,
   "abilities": [
     "naturalcure",
@@ -91,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4306,
+  "nationalPokedexNumber": 4304,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

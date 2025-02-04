@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sunglew",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.5142857142857142,
   "cannotDynamax": false,
   "abilities": [
     "stickyhold",
@@ -168,7 +168,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6696,
+  "nationalPokedexNumber": 6694,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -76,7 +76,8 @@
   ],
   "labels": [
     "not_modeled",
-    "trizor"
+    "trizor",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.azagger.desc"
@@ -85,7 +86,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3642,
+  "nationalPokedexNumber": 3640,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

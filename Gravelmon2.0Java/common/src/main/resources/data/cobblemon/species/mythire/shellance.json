@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "mermor",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.5625,
   "cannotDynamax": false,
   "abilities": [
     "shellarmor",
@@ -100,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5201,
+  "nationalPokedexNumber": 5199,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

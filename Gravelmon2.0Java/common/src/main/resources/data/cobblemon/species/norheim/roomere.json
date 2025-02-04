@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "wispear",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.37714285714285717,
   "cannotDynamax": false,
   "abilities": [
     "levitate",
@@ -90,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4156,
+  "nationalPokedexNumber": 4154,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

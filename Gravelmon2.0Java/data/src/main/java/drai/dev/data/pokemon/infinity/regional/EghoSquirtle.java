@@ -113,7 +113,7 @@ public class EghoSquirtle extends Pokemon {
         getPosingFileData().setProfileData( .8f, new Vector3(-0.0, .4, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().clearPoseTypes().withBlink().withLook()
+                AnimationData.standingAnimation().withLook().markAsBackupPose().withBlink().withLook()
         ));
         getPosingFileData().setAnimationFileName("squirtle_egho");
     }

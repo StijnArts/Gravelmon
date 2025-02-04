@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "naiadawn",
-  "baseScale": 0.29387755102040813,
+  "baseScale": 0.4430769230769231,
   "cannotDynamax": false,
   "abilities": [
     "galewings",
@@ -104,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5180,
+  "nationalPokedexNumber": 5178,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

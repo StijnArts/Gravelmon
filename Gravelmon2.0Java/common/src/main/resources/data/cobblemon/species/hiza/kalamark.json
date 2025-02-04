@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "lurkitopi",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.2966292134831461,
   "cannotDynamax": false,
   "abilities": [
     "wonderskin",
@@ -90,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3077,
+  "nationalPokedexNumber": 3075,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

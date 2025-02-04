@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "bayby",
-  "baseScale": 0.22040816326530613,
+  "baseScale": 0.3375,
   "cannotDynamax": false,
   "abilities": [
     "torrent"
@@ -107,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4128,
+  "nationalPokedexNumber": 4126,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

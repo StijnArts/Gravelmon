@@ -100,7 +100,7 @@ public class PorygonWES extends Pokemon {
         getPosingFileData().setProfileData( .7f, new Vector3(0, 0.9, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().clearPoseTypes(),
+                AnimationData.standingAnimation().markAsBackupPose(),
                 AnimationData.walkingAnimation()
         ));
         getPosingFileData().setAnimationFileName("porygon_wes");

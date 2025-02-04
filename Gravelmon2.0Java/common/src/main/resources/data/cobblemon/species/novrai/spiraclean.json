@@ -8,7 +8,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.7304347826086955,
   "cannotDynamax": false,
   "abilities": [
     "sandspit",
@@ -153,7 +153,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6779,
+  "nationalPokedexNumber": 6777,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

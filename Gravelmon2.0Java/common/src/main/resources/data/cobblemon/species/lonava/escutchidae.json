@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "paloshield",
-  "baseScale": 0.1714285714285714,
+  "baseScale": 0.1909090909090909,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -91,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4423,
+  "nationalPokedexNumber": 4421,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

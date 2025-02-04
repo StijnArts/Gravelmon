@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sanderon",
-  "baseScale": 0.4897959183673469,
+  "baseScale": 0.5783132530120482,
   "cannotDynamax": false,
   "abilities": [
     "sandveil",
@@ -113,7 +113,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3168,
+  "nationalPokedexNumber": 3166,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

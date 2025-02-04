@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "helmarine",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.5625,
   "cannotDynamax": false,
   "abilities": [
     "battlearmor"
@@ -91,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3028,
+  "nationalPokedexNumber": 3026,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

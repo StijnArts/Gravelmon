@@ -257,7 +257,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "diglett form=nostan",
-      "baseScale": 0.22040816326530613,
+      "baseScale": 0.3724137931034483,
       "cannotDynamax": false,
       "abilities": [
         "leafguard",
@@ -422,7 +422,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "diglett form=norheiman",
-      "baseScale": 0.1714285714285714,
+      "baseScale": 0.27540983606557373,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"

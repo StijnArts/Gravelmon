@@ -7,7 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.12244897959183673,
+  "baseScale": 0.3,
   "cannotDynamax": false,
   "abilities": [
     "blaze",
@@ -112,7 +112,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5366,
+  "nationalPokedexNumber": 5364,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "plumeron",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.526829268292683,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -77,7 +77,7 @@
   "weight": 320,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1595,
+  "nationalPokedexNumber": 1593,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "nepixie",
-  "baseScale": 0.1714285714285714,
+  "baseScale": 0.29473684210526313,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -102,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8002,
+  "nationalPokedexNumber": 8000,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

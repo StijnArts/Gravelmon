@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "tulifun",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.29090909090909095,
   "cannotDynamax": false,
   "abilities": [
     "tangledfeet",
@@ -133,7 +133,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5730,
+  "nationalPokedexNumber": 5728,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

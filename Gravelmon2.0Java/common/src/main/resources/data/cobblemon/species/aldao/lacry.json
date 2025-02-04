@@ -67,7 +67,8 @@
   ],
   "labels": [
     "aldao",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.lacry.desc"
@@ -91,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3875,
+  "nationalPokedexNumber": 3873,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "kookabill",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.5513513513513514,
   "cannotDynamax": false,
   "abilities": [
     "unnerve",
@@ -92,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2968,
+  "nationalPokedexNumber": 2966,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -7,7 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.14693877551020407,
+  "baseScale": 0.32,
   "cannotDynamax": false,
   "abilities": [
     "megalauncher",
@@ -99,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5608,
+  "nationalPokedexNumber": 5606,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

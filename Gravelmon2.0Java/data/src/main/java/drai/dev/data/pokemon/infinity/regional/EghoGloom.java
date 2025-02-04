@@ -112,7 +112,7 @@ public class EghoGloom extends Pokemon {
         getPosingFileData().setProfileData( 1f, new Vector3(0, .6, -20));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().clearPoseTypes().withBlink(),
+                AnimationData.standingAnimation().withLook().markAsBackupPose().withBlink(),
                 AnimationData.walkingAnimation().withLook().withBlink(),
                 AnimationData.sleepingAnimation()
         ));

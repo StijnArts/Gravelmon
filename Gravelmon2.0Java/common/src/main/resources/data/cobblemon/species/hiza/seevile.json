@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.12244897959183673,
+  "baseScale": 0.32432432432432434,
   "cannotDynamax": false,
   "abilities": [
     "cutecharm",
@@ -105,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2971,
+  "nationalPokedexNumber": 2969,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -70,7 +70,8 @@
   ],
   "labels": [
     "bago",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.searpent.desc"
@@ -94,7 +95,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3690,
+  "nationalPokedexNumber": 3688,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

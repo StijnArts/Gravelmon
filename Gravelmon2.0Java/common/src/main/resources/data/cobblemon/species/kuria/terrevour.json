@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "chichaw",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.5760000000000001,
   "cannotDynamax": false,
   "abilities": [
     "sandforce",
@@ -92,7 +92,7 @@
   "weight": 781,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5649,
+  "nationalPokedexNumber": 5647,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

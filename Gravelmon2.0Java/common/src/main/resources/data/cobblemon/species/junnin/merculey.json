@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "burmurly",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.5164556962025316,
   "cannotDynamax": false,
   "abilities": [
     "blaze",
@@ -152,7 +152,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3120,
+  "nationalPokedexNumber": 3118,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

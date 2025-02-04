@@ -64,7 +64,8 @@
   ],
   "labels": [
     "bago",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.furtune.desc"
@@ -88,7 +89,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3705,
+  "nationalPokedexNumber": 3703,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

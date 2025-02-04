@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.12244897959183673,
+  "baseScale": 0.3,
   "cannotDynamax": false,
   "abilities": [
     "lightningrod",
@@ -87,7 +87,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6044,
+  "nationalPokedexNumber": 6042,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

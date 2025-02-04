@@ -269,7 +269,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "tyrogue form=qamoran",
-      "baseScale": 0.3428571428571428,
+      "baseScale": 0.6339622641509434,
       "cannotDynamax": false,
       "abilities": [
         "dancer"
@@ -377,7 +377,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "tyrogue form=varitasian",
-      "baseScale": 0.3428571428571428,
+      "baseScale": 0.46027397260273967,
       "cannotDynamax": false,
       "abilities": [
         "intimidate",

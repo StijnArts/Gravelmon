@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "justork",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.558904109589041,
   "cannotDynamax": false,
   "abilities": [
     "justified",
@@ -144,7 +144,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6628,
+  "nationalPokedexNumber": 6626,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

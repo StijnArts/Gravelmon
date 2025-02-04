@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "mustmite",
-  "baseScale": 0.1714285714285714,
+  "baseScale": 0.2507462686567164,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -80,7 +80,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8088,
+  "nationalPokedexNumber": 8086,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

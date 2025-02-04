@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "snootsnoot",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.4,
   "cannotDynamax": false,
   "abilities": [
     "snowcloak",
@@ -87,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4154,
+  "nationalPokedexNumber": 4152,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

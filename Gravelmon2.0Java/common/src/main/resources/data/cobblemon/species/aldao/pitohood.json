@@ -62,7 +62,8 @@
   "moves": [],
   "labels": [
     "aldao",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.pitohood.desc"
@@ -86,7 +87,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3782,
+  "nationalPokedexNumber": 3780,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

@@ -114,7 +114,7 @@ public class Warquila extends Pokemon {
         getPosingFileData().setProfileData( 1f, new Vector3(0, 0.8, -20));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().withBlink().clearPoseTypes(),
+                AnimationData.standingAnimation().withLook().withBlink().markAsBackupPose(),
                 AnimationData.flyingAnimation().addPoseType(PoseType.WALK).withLook().withBlink(),
                 AnimationData.hoveringAnimation().withLook().withBlink()
         ));

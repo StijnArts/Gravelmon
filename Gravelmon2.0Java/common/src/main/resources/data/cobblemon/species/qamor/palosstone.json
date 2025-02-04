@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sandygast form=qamoran",
-  "baseScale": 0.46530612244897956,
+  "baseScale": 0.5302325581395348,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -89,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5476,
+  "nationalPokedexNumber": 5474,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

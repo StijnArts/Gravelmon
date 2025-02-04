@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "menasuit",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.4173913043478261,
   "cannotDynamax": false,
   "abilities": [
     "shadowtag",
@@ -89,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2417,
+  "nationalPokedexNumber": 2415,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

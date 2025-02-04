@@ -7,7 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.14693877551020407,
+  "baseScale": 0.3428571428571428,
   "cannotDynamax": false,
   "abilities": [
     "steadfast",
@@ -104,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4293,
+  "nationalPokedexNumber": 4291,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

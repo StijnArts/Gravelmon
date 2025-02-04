@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "rokkap",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.41379310344827586,
   "cannotDynamax": false,
   "abilities": [
     "toughclaws",
@@ -116,7 +116,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5169,
+  "nationalPokedexNumber": 5167,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

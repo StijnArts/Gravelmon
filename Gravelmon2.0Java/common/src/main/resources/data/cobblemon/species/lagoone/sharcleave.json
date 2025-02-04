@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sharkage",
-  "baseScale": 0.46530612244897956,
+  "baseScale": 0.49565217391304345,
   "cannotDynamax": false,
   "abilities": [
     "overgrow",
@@ -88,7 +88,7 @@
   "weight": 440,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1531,
+  "nationalPokedexNumber": 1529,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "chicaw",
-  "baseScale": 0.24489795918367346,
+  "baseScale": 0.3333333333333333,
   "cannotDynamax": false,
   "abilities": [
     "keeneye",
@@ -126,7 +126,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2898,
+  "nationalPokedexNumber": 2896,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

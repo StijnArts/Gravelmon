@@ -69,7 +69,8 @@
   ],
   "labels": [
     "ivris",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.tortelizza.desc"
@@ -78,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4836,
+  "nationalPokedexNumber": 4834,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

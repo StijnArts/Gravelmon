@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "predictabun",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.3940298507462687,
   "cannotDynamax": false,
   "abilities": [
     "anticipation",
@@ -182,7 +182,7 @@
   "weight": 50,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4450,
+  "nationalPokedexNumber": 4448,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

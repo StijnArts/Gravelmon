@@ -70,7 +70,8 @@
     "bago",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.serfierno.desc"
@@ -79,7 +80,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3692,
+  "nationalPokedexNumber": 3690,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

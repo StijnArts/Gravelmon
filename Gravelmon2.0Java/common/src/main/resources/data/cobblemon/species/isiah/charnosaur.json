@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "lizmoke",
-  "baseScale": 0.4897959183673469,
+  "baseScale": 0.6075949367088608,
   "cannotDynamax": false,
   "abilities": [
     "battlearmor",
@@ -131,7 +131,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5810,
+  "nationalPokedexNumber": 5808,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

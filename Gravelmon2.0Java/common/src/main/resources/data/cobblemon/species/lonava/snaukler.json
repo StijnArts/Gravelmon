@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.3804878048780488,
   "cannotDynamax": false,
   "abilities": [
     "tangledfeet",
@@ -174,7 +174,7 @@
   "weight": 242,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4499,
+  "nationalPokedexNumber": 4497,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

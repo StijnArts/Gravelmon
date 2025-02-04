@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "budcheep",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.4051948051948052,
   "cannotDynamax": false,
   "abilities": [
     "tangledfeet",
@@ -116,7 +116,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4696,
+  "nationalPokedexNumber": 4694,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

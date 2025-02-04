@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "fowlkly",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.4666666666666666,
   "cannotDynamax": false,
   "abilities": [
     "tintedlens",
@@ -89,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2944,
+  "nationalPokedexNumber": 2942,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

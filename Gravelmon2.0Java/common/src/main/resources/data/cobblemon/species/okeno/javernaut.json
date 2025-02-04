@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "porklay",
-  "baseScale": 0.5142857142857143,
+  "baseScale": 0.6222222222222222,
   "cannotDynamax": false,
   "abilities": [
     "thickfat",
@@ -82,7 +82,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6029,
+  "nationalPokedexNumber": 6027,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

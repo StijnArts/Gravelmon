@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "fervole",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.30000000000000004,
   "cannotDynamax": false,
   "abilities": [
     "pickup",
@@ -160,7 +160,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6625,
+  "nationalPokedexNumber": 6623,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "psyclops",
-  "baseScale": 0.5387755102040817,
+  "baseScale": 0.66,
   "cannotDynamax": false,
   "abilities": [
     "noguard",
@@ -187,7 +187,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6881,
+  "nationalPokedexNumber": 6879,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

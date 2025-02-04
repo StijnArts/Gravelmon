@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "strigori",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.49756097560975604,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -81,7 +81,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7980,
+  "nationalPokedexNumber": 7978,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

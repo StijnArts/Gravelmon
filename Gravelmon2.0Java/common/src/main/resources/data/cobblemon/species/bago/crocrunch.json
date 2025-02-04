@@ -68,7 +68,8 @@
     "bago",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.crocrunch.desc"
@@ -77,7 +78,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3727,
+  "nationalPokedexNumber": 3725,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

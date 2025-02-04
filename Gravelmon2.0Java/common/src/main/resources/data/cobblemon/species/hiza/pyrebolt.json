@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "burstich",
-  "baseScale": 0.24489795918367346,
+  "baseScale": 0.32,
   "cannotDynamax": false,
   "abilities": [
     "blaze"
@@ -104,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3093,
+  "nationalPokedexNumber": 3091,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

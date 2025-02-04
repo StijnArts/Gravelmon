@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "giraze",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.5818181818181819,
   "cannotDynamax": false,
   "abilities": [
     "blaze",
@@ -108,7 +108,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1648,
+  "nationalPokedexNumber": 1646,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

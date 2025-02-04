@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "hairibble",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.3027027027027027,
   "cannotDynamax": false,
   "abilities": [
     "tanglinghair",
@@ -221,7 +221,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4711,
+  "nationalPokedexNumber": 4709,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

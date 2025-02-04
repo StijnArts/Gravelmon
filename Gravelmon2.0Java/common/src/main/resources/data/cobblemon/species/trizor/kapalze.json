@@ -63,7 +63,8 @@
   ],
   "labels": [
     "not_modeled",
-    "trizor"
+    "trizor",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.kapalze.desc"
@@ -87,7 +88,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3650,
+  "nationalPokedexNumber": 3648,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

@@ -63,7 +63,8 @@
   ],
   "labels": [
     "aldao",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.lakanlinog.desc"
@@ -72,7 +73,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3889,
+  "nationalPokedexNumber": 3887,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

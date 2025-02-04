@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "fawniler",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.4,
   "cannotDynamax": false,
   "abilities": [
     "intimidate",
@@ -155,7 +155,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3047,
+  "nationalPokedexNumber": 3045,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

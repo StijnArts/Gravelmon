@@ -69,7 +69,8 @@
     "raian",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.pentagle.desc"
@@ -78,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3292,
+  "nationalPokedexNumber": 3290,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

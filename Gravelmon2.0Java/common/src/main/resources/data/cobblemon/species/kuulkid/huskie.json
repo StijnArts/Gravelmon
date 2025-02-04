@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1714285714285714,
+  "baseScale": 0.35,
   "cannotDynamax": false,
   "abilities": [
     "sapsipper",
@@ -86,7 +86,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2784,
+  "nationalPokedexNumber": 2782,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

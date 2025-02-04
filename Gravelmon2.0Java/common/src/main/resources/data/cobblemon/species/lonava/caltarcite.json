@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "altarock",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.5032258064516129,
   "cannotDynamax": false,
   "abilities": [
     "rockhead",
@@ -132,7 +132,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4458,
+  "nationalPokedexNumber": 4456,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

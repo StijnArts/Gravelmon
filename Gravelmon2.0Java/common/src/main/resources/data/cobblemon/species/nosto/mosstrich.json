@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "phloxling",
-  "baseScale": 0.5142857142857143,
+  "baseScale": 0.525,
   "cannotDynamax": false,
   "abilities": [
     "overgrow",
@@ -146,7 +146,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4662,
+  "nationalPokedexNumber": 4660,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

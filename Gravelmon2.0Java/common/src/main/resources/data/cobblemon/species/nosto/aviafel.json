@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pitohood",
-  "baseScale": 0.46530612244897956,
+  "baseScale": 0.33043478260869563,
   "cannotDynamax": false,
   "abilities": [
     "poisonpoint",
@@ -145,7 +145,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4724,
+  "nationalPokedexNumber": 4722,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

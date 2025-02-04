@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "novil",
-  "baseScale": 0.14693877551020407,
+  "baseScale": 0.2618181818181818,
   "cannotDynamax": false,
   "abilities": [
     "cursedbody",
@@ -98,7 +98,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4773,
+  "nationalPokedexNumber": 4771,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

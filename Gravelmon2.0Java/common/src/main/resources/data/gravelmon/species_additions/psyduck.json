@@ -111,7 +111,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.0979591836734694,
+      "baseScale": 0.20869565217391306,
       "cannotDynamax": false,
       "abilities": [
         "poisontouch",
@@ -369,7 +369,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1959183673469388,
+      "baseScale": 0.3764705882352941,
       "cannotDynamax": false,
       "abilities": [
         "oblivious",

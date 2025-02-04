@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "campyre",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.526829268292683,
   "cannotDynamax": false,
   "abilities": [
     "flamebody",
@@ -128,7 +128,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3160,
+  "nationalPokedexNumber": 3158,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "steenee form=varitasian",
-  "baseScale": 0.29387755102040813,
+  "baseScale": 0.3031578947368421,
   "cannotDynamax": false,
   "abilities": [
     "unnerve",
@@ -157,7 +157,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2450,
+  "nationalPokedexNumber": 2448,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

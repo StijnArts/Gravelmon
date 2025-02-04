@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "frozeal",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.54,
   "cannotDynamax": false,
   "abilities": [
     "icebody",
@@ -92,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3083,
+  "nationalPokedexNumber": 3081,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

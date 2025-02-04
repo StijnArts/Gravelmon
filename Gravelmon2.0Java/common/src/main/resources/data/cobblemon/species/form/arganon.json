@@ -68,7 +68,8 @@
     "form",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.arganon.desc"
@@ -77,7 +78,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5082,
+  "nationalPokedexNumber": 5080,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

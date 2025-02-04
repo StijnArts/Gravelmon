@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "candelaria",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.42580645161290326,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -77,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8081,
+  "nationalPokedexNumber": 8079,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "shoul",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.36923076923076925,
   "cannotDynamax": false,
   "abilities": [
     "magicbounce",
@@ -102,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5595,
+  "nationalPokedexNumber": 5593,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -69,7 +69,8 @@
   ],
   "labels": [
     "raian",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.cheeda.desc"
@@ -93,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3253,
+  "nationalPokedexNumber": 3251,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

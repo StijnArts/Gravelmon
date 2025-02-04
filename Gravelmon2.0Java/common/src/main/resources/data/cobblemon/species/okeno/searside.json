@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.12244897959183673,
+  "baseScale": 0.27906976744186046,
   "cannotDynamax": false,
   "abilities": [
     "shellarmor",
@@ -159,7 +159,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6007,
+  "nationalPokedexNumber": 6005,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

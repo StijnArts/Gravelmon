@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "mushi",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.48750000000000004,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -79,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6576,
+  "nationalPokedexNumber": 6574,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

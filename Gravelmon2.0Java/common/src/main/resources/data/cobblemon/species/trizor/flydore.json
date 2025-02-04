@@ -67,7 +67,8 @@
     "not_modeled",
     "fakemon",
     "fakemonevolution",
-    "trizor"
+    "trizor",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.flydore.desc"
@@ -86,7 +87,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3635,
+  "nationalPokedexNumber": 3633,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "shiverchick",
-  "baseScale": 0.14693877551020407,
+  "baseScale": 0.29387755102040813,
   "cannotDynamax": false,
   "abilities": [
     "keeneye",
@@ -93,7 +93,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2834,
+  "nationalPokedexNumber": 2832,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

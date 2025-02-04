@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "froska",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.5837837837837838,
   "cannotDynamax": false,
   "abilities": [
     "forewarn",
@@ -130,7 +130,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5775,
+  "nationalPokedexNumber": 5773,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

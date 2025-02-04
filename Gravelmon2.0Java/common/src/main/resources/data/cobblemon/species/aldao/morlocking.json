@@ -66,7 +66,8 @@
     "aldao",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.morlocking.desc"
@@ -75,7 +76,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3822,
+  "nationalPokedexNumber": 3820,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

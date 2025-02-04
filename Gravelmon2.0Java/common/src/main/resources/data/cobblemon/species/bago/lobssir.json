@@ -70,7 +70,8 @@
     "bago",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.lobssir.desc"
@@ -79,7 +80,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3710,
+  "nationalPokedexNumber": 3708,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

@@ -64,7 +64,8 @@
   ],
   "labels": [
     "not_modeled",
-    "norse"
+    "norse",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.freytera.desc"
@@ -73,7 +74,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3384,
+  "nationalPokedexNumber": 3382,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

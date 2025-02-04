@@ -65,7 +65,8 @@
   ],
   "labels": [
     "form",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.tentalpha.desc"
@@ -89,7 +90,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5051,
+  "nationalPokedexNumber": 5049,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

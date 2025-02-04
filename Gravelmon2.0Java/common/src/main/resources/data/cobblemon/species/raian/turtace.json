@@ -67,7 +67,8 @@
     "raian",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.turtace.desc"
@@ -91,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3231,
+  "nationalPokedexNumber": 3229,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

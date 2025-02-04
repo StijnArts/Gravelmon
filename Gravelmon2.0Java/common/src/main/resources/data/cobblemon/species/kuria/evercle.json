@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "mojicle",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.5014925373134328,
   "cannotDynamax": false,
   "abilities": [
     "swiftswim",
@@ -95,7 +95,7 @@
   "weight": 346,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5615,
+  "nationalPokedexNumber": 5613,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

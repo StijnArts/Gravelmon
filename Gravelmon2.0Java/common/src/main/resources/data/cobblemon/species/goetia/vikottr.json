@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "vikitten",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.41250000000000003,
   "cannotDynamax": false,
   "abilities": [
     "snowcloak",
@@ -96,7 +96,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8224,
+  "nationalPokedexNumber": 8222,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

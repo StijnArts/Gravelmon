@@ -63,7 +63,8 @@
   ],
   "labels": [
     "aldao",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.hochiki.desc"
@@ -87,7 +88,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3827,
+  "nationalPokedexNumber": 3825,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

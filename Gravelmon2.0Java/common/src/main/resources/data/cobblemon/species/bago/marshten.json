@@ -67,7 +67,8 @@
     "bago",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.marshten.desc"
@@ -91,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3694,
+  "nationalPokedexNumber": 3692,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

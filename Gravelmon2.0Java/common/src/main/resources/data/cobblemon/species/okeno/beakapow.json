@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "barmor",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.32542372881355935,
   "cannotDynamax": false,
   "abilities": [
     "rockhead",
@@ -83,7 +83,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6031,
+  "nationalPokedexNumber": 6029,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

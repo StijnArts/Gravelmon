@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "droophant",
-  "baseScale": 0.5142857142857143,
+  "baseScale": 0.5478260869565218,
   "cannotDynamax": false,
   "abilities": [
     "torrent",
@@ -91,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1652,
+  "nationalPokedexNumber": 1650,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

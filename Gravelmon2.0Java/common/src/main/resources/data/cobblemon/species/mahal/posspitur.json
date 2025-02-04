@@ -69,7 +69,8 @@
   ],
   "labels": [
     "mahal",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.posspitur.desc"
@@ -78,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7680,
+  "nationalPokedexNumber": 7678,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

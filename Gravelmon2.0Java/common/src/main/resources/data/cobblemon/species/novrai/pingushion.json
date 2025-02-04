@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pinguin",
-  "baseScale": 0.3183673469387755,
+  "baseScale": 0.46567164179104475,
   "cannotDynamax": false,
   "abilities": [
     "snowwarning",
@@ -153,7 +153,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6877,
+  "nationalPokedexNumber": 6875,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

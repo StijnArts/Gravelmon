@@ -7,7 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.0979591836734694,
+  "baseScale": 0.18823529411764706,
   "cannotDynamax": false,
   "abilities": [
     "shadowtag",
@@ -101,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2415,
+  "nationalPokedexNumber": 2413,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

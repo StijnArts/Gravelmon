@@ -125,7 +125,7 @@ public class DeltaLanturn extends Pokemon {
         getPosingFileData().setPortraitData( 1.6f, new Vector3(-.6, -.6, 0));
         getPosingFileData().setProfileData( .6f, new Vector3(0, .7, 0));
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withBlink().clearPoseTypes(),
+                AnimationData.standingAnimation().withBlink().markAsBackupPose(),
                 AnimationData.hoveringAnimation().withBlink()
         ));
         getPosingFileData().setAnimationFileName("lanturn_delta");

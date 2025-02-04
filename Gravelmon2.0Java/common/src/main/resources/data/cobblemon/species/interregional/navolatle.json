@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "blastine",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.45176470588235296,
   "cannotDynamax": false,
   "abilities": [
     "aftermath",
@@ -89,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1699,
+  "nationalPokedexNumber": 1697,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

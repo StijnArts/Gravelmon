@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.9306122448979591,
+  "baseScale": 0.96,
   "cannotDynamax": false,
   "abilities": [
     "drought"
@@ -167,7 +167,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5270,
+  "nationalPokedexNumber": 5268,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "jigglwiggl",
-  "baseScale": 0.1714285714285714,
+  "baseScale": 0.2545454545454545,
   "cannotDynamax": false,
   "abilities": [
     "effectspore",
@@ -153,7 +153,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6766,
+  "nationalPokedexNumber": 6764,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

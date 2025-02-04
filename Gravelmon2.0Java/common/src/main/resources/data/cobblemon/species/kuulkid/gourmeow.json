@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "whiskitty",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.509090909090909,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -77,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2797,
+  "nationalPokedexNumber": 2795,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

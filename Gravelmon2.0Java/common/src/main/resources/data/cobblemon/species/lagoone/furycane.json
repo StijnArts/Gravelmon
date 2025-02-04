@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "tyfang",
-  "baseScale": 0.46530612244897956,
+  "baseScale": 0.5181818181818181,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -78,7 +78,7 @@
   "weight": 8,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1611,
+  "nationalPokedexNumber": 1609,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

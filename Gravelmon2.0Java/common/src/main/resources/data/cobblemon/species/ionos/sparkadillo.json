@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "radarent",
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.2742857142857143,
   "cannotDynamax": false,
   "abilities": [
     "blaze",
@@ -93,7 +93,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6468,
+  "nationalPokedexNumber": 6466,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

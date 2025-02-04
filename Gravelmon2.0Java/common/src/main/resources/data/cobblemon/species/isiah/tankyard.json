@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "junkid",
-  "baseScale": 0.7346938775510203,
+  "baseScale": 0.8999999999999999,
   "cannotDynamax": false,
   "abilities": [
     "weakarmor",
@@ -135,7 +135,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5804,
+  "nationalPokedexNumber": 5802,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

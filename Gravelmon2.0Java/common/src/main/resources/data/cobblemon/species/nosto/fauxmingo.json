@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "plasduck",
-  "baseScale": 0.2693877551020408,
+  "baseScale": 0.35675675675675683,
   "cannotDynamax": false,
   "abilities": [
     "keeneye",
@@ -164,7 +164,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4747,
+  "nationalPokedexNumber": 4745,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -65,7 +65,8 @@
   ],
   "labels": [
     "form",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.kurstraw.desc"
@@ -85,7 +86,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5110,
+  "nationalPokedexNumber": 5108,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

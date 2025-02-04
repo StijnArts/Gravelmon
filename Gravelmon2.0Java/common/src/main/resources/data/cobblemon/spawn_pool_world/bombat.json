@@ -11,12 +11,13 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 7.050000000000001,
+      "bucket": "uncommon",
+      "level": "5-25",
+      "weight": 7.3500000000000005,
       "condition": {
         "biomes": [
-          "#cobblemon:is_highlands"
+          "#cobblemon:is_highlands",
+          "#cobblemon:is_mountain"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -25,7 +26,7 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:white_wool"
+            "minecraft:magma_block"
           ]
         }
       }

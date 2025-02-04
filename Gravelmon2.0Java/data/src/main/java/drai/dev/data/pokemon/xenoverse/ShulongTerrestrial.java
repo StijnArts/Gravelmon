@@ -116,7 +116,7 @@ public class ShulongTerrestrial extends Pokemon {
         getPosingFileData().setProfileData( .9f, new Vector3(0, .40, 0));
         getPosingFileData().head = "head_2";
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().clearPoseTypes().withBlink(),
+                AnimationData.standingAnimation().markAsBackupPose().withBlink(),
                 AnimationData.walkingAnimation().withBlink(),
                 AnimationData.swimmingAnimation().withBlink(),
                 AnimationData.floatingAnimation().withBlink()

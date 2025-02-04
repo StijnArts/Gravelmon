@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.14693877551020407,
+  "baseScale": 0.2571428571428571,
   "cannotDynamax": false,
   "abilities": [
     "toughclaws",
@@ -102,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5610,
+  "nationalPokedexNumber": 5608,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

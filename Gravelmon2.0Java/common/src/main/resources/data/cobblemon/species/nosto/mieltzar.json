@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "mieltz",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.35744680851063826,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -90,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4694,
+  "nationalPokedexNumber": 4692,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -7,7 +7,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.14693877551020407,
+  "baseScale": 0.39999999999999997,
   "cannotDynamax": false,
   "abilities": [
     "rockhead",
@@ -140,7 +140,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5797,
+  "nationalPokedexNumber": 5795,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

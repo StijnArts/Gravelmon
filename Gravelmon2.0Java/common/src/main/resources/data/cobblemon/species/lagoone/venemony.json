@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 6.0,
+  "baseScale": 0.17647058823529413,
   "cannotDynamax": false,
   "abilities": [
     "dryskin",
@@ -123,7 +123,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1549,
+  "nationalPokedexNumber": 1547,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

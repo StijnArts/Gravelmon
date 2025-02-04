@@ -113,7 +113,7 @@ public class EghoSpearow extends Pokemon {
         getPosingFileData().setProfileData( 1.2f, new Vector3(-0.0, .0, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().clearPoseTypes().withBlink()
+                AnimationData.standingAnimation().withLook().markAsBackupPose().withBlink()
         ));
         getPosingFileData().setAnimationFileName("spearow_egho");
     }

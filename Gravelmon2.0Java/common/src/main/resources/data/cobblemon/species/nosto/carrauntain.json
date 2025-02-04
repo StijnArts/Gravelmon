@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sedinane",
-  "baseScale": 0.5142857142857143,
+  "baseScale": 0.6,
   "cannotDynamax": false,
   "abilities": [
     "soundproof",
@@ -149,7 +149,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4701,
+  "nationalPokedexNumber": 4699,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

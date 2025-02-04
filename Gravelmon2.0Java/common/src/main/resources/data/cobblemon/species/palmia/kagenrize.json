@@ -72,7 +72,8 @@
   ],
   "labels": [
     "not_modeled",
-    "palmia"
+    "palmia",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.kagenrize.desc"
@@ -81,7 +82,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3575,
+  "nationalPokedexNumber": 3573,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

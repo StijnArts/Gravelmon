@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "togetic form=varitasian",
-  "baseScale": 0.36734693877551017,
+  "baseScale": 0.4044943820224719,
   "cannotDynamax": false,
   "abilities": [
     "mirrorarmor",
@@ -173,7 +173,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2459,
+  "nationalPokedexNumber": 2457,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

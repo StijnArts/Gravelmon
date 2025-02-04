@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "fistiscuff",
-  "baseScale": 0.44081632653061226,
+  "baseScale": 0.6171428571428572,
   "cannotDynamax": false,
   "abilities": [
     "justified",
@@ -154,7 +154,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6753,
+  "nationalPokedexNumber": 6751,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

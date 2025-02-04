@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sniffreze",
-  "baseScale": 0.3428571428571428,
+  "baseScale": 0.41481481481481475,
   "cannotDynamax": false,
   "abilities": [
     "keeneye",
@@ -91,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1697,
+  "nationalPokedexNumber": 1695,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

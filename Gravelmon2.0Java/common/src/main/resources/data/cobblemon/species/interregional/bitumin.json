@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.0979591836734694,
+  "baseScale": 0.25263157894736843,
   "cannotDynamax": false,
   "abilities": [
     "flashfire",
@@ -99,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1686,
+  "nationalPokedexNumber": 1684,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

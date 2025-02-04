@@ -112,7 +112,7 @@ public class TrishoutTerrestrial extends Pokemon {
         getPosingFileData().setProfileData( .7f, new Vector3(0, 0.7, 0));
         getPosingFileData().head = "head_2";
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().withBlink().clearPoseTypes()
+                AnimationData.standingAnimation().withLook().withBlink().markAsBackupPose()
         ));
     }
 }

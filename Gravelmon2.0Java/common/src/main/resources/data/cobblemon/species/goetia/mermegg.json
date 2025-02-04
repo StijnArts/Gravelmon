@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.0979591836734694,
+  "baseScale": 0.18461538461538463,
   "cannotDynamax": false,
   "abilities": [
     "wonderskin",
@@ -101,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8254,
+  "nationalPokedexNumber": 8252,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

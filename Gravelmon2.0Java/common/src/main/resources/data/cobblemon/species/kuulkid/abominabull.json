@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "snowbull",
-  "baseScale": 0.3918367346938776,
+  "baseScale": 0.5647058823529413,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -77,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2795,
+  "nationalPokedexNumber": 2793,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

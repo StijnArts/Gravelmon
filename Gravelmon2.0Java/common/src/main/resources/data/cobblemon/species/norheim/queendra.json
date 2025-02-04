@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "seadra form=norheiman",
-  "baseScale": 0.4163265306122449,
+  "baseScale": 0.608955223880597,
   "cannotDynamax": false,
   "abilities": [
     "swiftswim",
@@ -89,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4236,
+  "nationalPokedexNumber": 4234,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -67,7 +67,8 @@
   ],
   "labels": [
     "raian",
-    "not_modeled"
+    "not_modeled",
+    "instagram"
   ],
   "pokedex": [
     "cobblemon.species.shielbow.desc"
@@ -91,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3286,
+  "nationalPokedexNumber": 3284,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

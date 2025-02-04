@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1959183673469388,
+  "baseScale": 0.35555555555555557,
   "cannotDynamax": false,
   "abilities": [
     "superluck",
@@ -102,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1547,
+  "nationalPokedexNumber": 1545,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,
