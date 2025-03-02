@@ -46,11 +46,7 @@ public class Delicida extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ACROBATICS,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), new PokemonSpawnDataBuilder().build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Delicida");

@@ -30,6 +30,10 @@ repositories {
         name = 'NeoForged'
         url = 'https://maven.neoforged.net/releases'
     }
+    maven {
+        name = 'Kotlin for Forge'
+        url = 'https://thedarkcolour.github.io/KotlinForForge/'
+    }
 }
 
 dependencies {
@@ -42,7 +46,9 @@ dependencies {
 
     modImplementation "com.cobblemon:neoforge:${cobblemon_file}"
     modImplementation "maven.modrinth:midnightlib:YeePowOJ"
-    modImplementation "maven.modrinth:kotlin-for-forge:${kotlin_forge_file}"
+    forgeRuntimeLibrary("thedarkcolour:kotlinforforge-neoforge:5.5.0") {
+        exclude group: "net.neoforged.fancymodloader", module: "loader"
+    }
     modImplementation "maven.modrinth:packet-fixer:${packet_fixer_neoforge_file}"
     modImplementation files("libs/gravels_extended_battles-neoforge-${gravelmon_file}.jar")
 }

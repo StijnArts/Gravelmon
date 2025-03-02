@@ -8,11 +8,9 @@ public record PokemonSpawnData(SpawnContext spawnContext, SpawnPool spawnPool, i
                                double spawnWeight, List<SpawnCondition> spawnConditions,
                                List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets, List<String> preferredBlocks) {
     public static List<PokemonSpawnData> placeholder() {
-        return new ArrayList<>(List.of(new PokemonSpawnData(SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL), new ArrayList<>())));
+        return new ArrayList<>(List.of(new PokemonSpawnData(SpawnContext.GROUNDED, SpawnPool.COMMON, 1,
+                1, 0, new ArrayList<>(), new ArrayList<>(),
+                new ArrayList<>(), new ArrayList<>())));
     }
 
     @Override
@@ -28,6 +26,14 @@ public record PokemonSpawnData(SpawnContext spawnContext, SpawnPool spawnPool, i
                 ", spawnPresets=" + listToString(spawnPresets) +
                 ", preferredBlocks=" + listToString(preferredBlocks) +
                 '}';
+    }
+
+    public BiomeSpawnCondition getBiomeSpawnCondition(){
+        var biomeSpawnConditionOptional = spawnConditions.stream().filter(spawnCondition -> spawnCondition.getConditionKind() == SpawnConditionType.BIOMES).findFirst();
+        if(biomeSpawnConditionOptional.isPresent()) return (BiomeSpawnCondition) biomeSpawnConditionOptional.get();
+        var biomeSpawnCondition = new BiomeSpawnCondition(new ArrayList<>());
+        spawnConditions.add(biomeSpawnCondition);
+        return biomeSpawnCondition;
     }
 
     private <T> String listToString(List<T> list) {
