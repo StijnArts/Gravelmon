@@ -1,0 +1,268 @@
+package drai.dev.data.pokemon;
+
+import drai.dev.data.attributes.*;
+import drai.dev.gravelmon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
+import org.apache.commons.lang3.*;
+
+import java.util.*;
+
+import static drai.dev.data.pokemon.AbstractPokemon.*;
+import static drai.dev.data.pokemon.Pokemon.*;
+
+public class PostRegistration {
+
+
+    public static void postRegistration() {
+        List<Pokemon> zeroStatPokemon = new ArrayList<>();
+        List<Pokemon> pokemonWithNoPreferredBlocks = new ArrayList<>();
+        var evaluatedMons = new ArrayList<>();
+        StringBuilder pokemonWithZeroCatchrate = new StringBuilder("Pokemon with 0 catch-rate: \n");
+        StringBuilder pokemonWithZeroBaseStats = new StringBuilder("Pokemon with 0 Base Stats: \n");
+        StringBuilder pokemonWithMoreThanTwoSpawnPresets = new StringBuilder("Pokemon with more than 1 spawn preset: \n");
+        var sortedPokemonList = POKEMON_REGISTRY.values().stream().sorted(Comparator.comparing(Pokemon::getPokedexNumber)).toList();
+        for (var pokemon : sortedPokemonList) {
+            if (pokemon.getCatchRate() == 0)
+                pokemonWithZeroCatchrate.append(pokemon.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ").append(pokemon.getCleanName()).append(",\n");
+            for (var spawnData : pokemon.getSpawnData()){
+                if (spawnData.spawnPresets().size() > 1) {
+                    pokemonWithMoreThanTwoSpawnPresets.append(pokemon.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ").append(pokemon.getCleanName()).append(", being: ");
+                    for (var preset : spawnData.spawnPresets()) {
+                        pokemonWithMoreThanTwoSpawnPresets.append(preset).append(",");
+                    }
+                    pokemonWithMoreThanTwoSpawnPresets.append("\n");
+                }
+                if(spawnData.preferredBlocks().isEmpty()){
+                    pokemonWithNoPreferredBlocks.add(pokemon);
+                }
+            }
+
+            if (pokemon.getEggGroups().isEmpty()) {
+                pokemon.eggGroups = new ArrayList<>(pokemon.eggGroups);
+                pokemon.eggGroups.add(EggGroup.FIELD);
+            }
+            if (pokemon.stats.isEmpty()) {
+                zeroStatPokemon.add(pokemon);
+            }
+
+            for (EvolutionEntry evolutionEntry : pokemon.getEvolutions()) {
+                Pokemon result = POKEMON_REGISTRY.values().stream().filter(p -> p.getName().equalsIgnoreCase(evolutionEntry.getResult())).findFirst().orElse(null);
+                if (result != null) {
+                    if (evolutionEntry.getRequiredContext() != null) {
+                        addItemAsDrop(pokemon, evolutionEntry.getRequiredContext(), result);
+                    } else {
+                        evolutionEntry.getRequirements().stream().filter(entry -> entry.getCondition().equals("itemCondition")).forEach(entry -> addItemAsDrop(pokemon, entry.getConditionParameter().replace("", ""), result));
+                    }
+                    if (result.getLangFileName() != null) {
+                        if (result.getLangFileName().equalsIgnoreCase(pokemon.getName())) continue;
+                        if (pokemon.getLangFileName() != null) {
+                            if (result.getLangFileName().equalsIgnoreCase(pokemon.getLangFileName())) continue;
+                        }
+                    } else if (pokemon.getLangFileName() != null) {
+                        if (pokemon.getLangFileName().equalsIgnoreCase(result.getName())) continue;
+                    }
+
+                    if (evaluatedMons.contains(result)) continue;
+                    evaluatedMons.add(result);
+                    if (result.getCleanName().equals(pokemon.getCleanName())) {
+                        pokemonThatEvolveIntoThemselves += pokemon.getCleanName() + ",\n";
+                    }
+
+                    if (result.preEvolution != null && Pokemon.isAnAdditionalForm(pokemon)) {
+                        continue;
+                    }
+                    if (!isBasedOnOriginalPokemon(pokemon)) {
+                        result.getLabels().add(Label.FAKEMON);
+                    }
+                    if (Pokemon.isAnAdditionalForm(pokemon)) {
+                        var resultName = getKeysByValue(ADDITIONAL_FORMS, pokemon).stream().findFirst();
+                        resultName.ifPresent(s -> result.setPreEvolution(s + " form=" + pokemon.getAdditionalAspect().name().toLowerCase()));
+                    } else {
+                        result.setPreEvolution(pokemon.getCleanName());
+                    }
+                }
+            }
+            var evaluatedForms = new ArrayList<>();
+            for (PokemonForm form : pokemon.getForms()) {
+                if (pokemon.getCatchRate() == 0)
+                    pokemonWithZeroCatchrate.append(pokemon.getCleanName()).append(", Aspect: ").append(form.getAspects()).append(",\n");
+                if (form.getStats().getTotal() == 0)
+                    pokemonWithZeroBaseStats.append(form.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ").append(pokemon.getCleanName()).append(", Aspect: ").append(form.getAspects()).append(",\n");
+                for (EvolutionEntry evolutionEntry : form.getEvolutions()) {
+                    String resultName = evolutionEntry.getResult();
+
+                    PokemonForm result = POKEMON_REGISTRY.values().stream().filter(p -> p.getName().equalsIgnoreCase(resultName)).map(Pokemon::getForms).flatMap(List::stream).filter(pokemonForm -> new HashSet<>(pokemonForm.getAspects()).containsAll(evolutionEntry.getAspects())).findFirst().orElse(null);
+                    if (result != null) {
+                        if (evolutionEntry.getRequiredContext() != null) {
+                            addItemAsDrop(form, evolutionEntry.getRequiredContext(), result);
+                        } else {
+                            evolutionEntry.getRequirements().stream().filter(entry -> entry.getCondition().equals("itemCondition")).forEach(entry -> addItemAsDrop(form, entry.getConditionParameter().replace("", ""), result));
+                        }
+
+
+                        if (evaluatedForms.contains(result)) continue;
+                        evaluatedForms.add(result);
+                        if (result.preEvolution != null) {
+                            continue;
+                        }
+                        if (result.getCleanName().equals(pokemon.getCleanName())) {
+                            pokemonThatEvolveIntoThemselves += pokemon.getCleanName() + ", Aspect: " + evolutionEntry.getAspects() + ",\n";
+                        }
+                        if (!isBasedOnOriginalPokemon(pokemon)) {
+                            result.getLabels().add(Label.FAKEMON);
+                        }
+                        String aspect = evolutionEntry.getAspects().stream().findFirst().isEmpty() ? "" : " form=" + evolutionEntry.getAspects().stream().findFirst().get().name();
+                        result.setPreEvolution(pokemon.getCleanName() + aspect);
+                    }
+                }
+            }
+        }
+        System.out.println(pokemonThatEvolveIntoThemselves);
+        System.out.println(pokemonWithMoreThanTwoSpawnPresets);
+        System.out.println("Evolution Items:");
+        for (String item : EVOLUTION_ITEMS) System.out.println(item + ",");
+
+        for (int i = zeroStatPokemon.size() - 1; i > -1; i--) {
+            var pokemon = zeroStatPokemon.get(i);
+            if (!pokemon.evolutions.isEmpty()) {
+                Optional<Pokemon> pokemonToCopy = pokemon.evolutions.stream().map(evolutionEntry -> evolutionEntry.getResult().toLowerCase())
+//                            .filter(result -> POKEMON_REGISTRY.containsKey(result))
+                        .map(result -> {
+                            Pokemon pokemon1 = POKEMON_REGISTRY.get(result);
+                            if(pokemon1 == null && result.contains(" ")){
+                                var split = result.split(" ");
+                                pokemon1 = POKEMON_REGISTRY.get(split[1]+split[0]);
+                            }
+                            return pokemon1;
+                        })
+                        .filter(Objects::nonNull)
+                        .min(Comparator.comparing(pokemon1 -> pokemon1.stats.getTotal()));
+
+                if (pokemonToCopy.isPresent()) {
+                    var evolutionStats = pokemonToCopy.get().stats;
+                    pokemon.stats = new Stats(evolutionStats, 0.7);
+                }
+            }
+        }
+
+        for (int i = pokemonWithNoPreferredBlocks.size() - 1; i > -1; i--) {
+            var pokemon = pokemonWithNoPreferredBlocks.get(i);
+            pokemon.spawnData.forEach(pokemonSpawnData -> {
+                if(pokemonSpawnData.preferredBlocks().isEmpty()) pokemonSpawnData.preferredBlocks().add(pokemon.primaryType.getPreferredBlock());
+            });
+        }
+        for (var pokemon : sortedPokemonList) {
+            for (EvolutionEntry evolutionEntry : pokemon.getEvolutions()) {
+                Pokemon result = POKEMON_REGISTRY.values().stream().filter(p -> p.getName().equalsIgnoreCase(evolutionEntry.getResult())).findFirst().orElse(null);
+                if (result != null) {
+                    if (isAnAdditionalForm(result)) {
+                        var resultName = getKeysByValue(ADDITIONAL_FORMS, result).stream().findFirst();
+                        resultName.ifPresent(s -> evolutionEntry.setResult(s + " " + result.getAdditionalAspect().name().toLowerCase()));
+                    }
+                } else {
+                    ADDITIONAL_PRE_EVOLUTIONS.put(evolutionEntry.getResult().toLowerCase(), pokemon.getCleanName());
+                }
+            }
+
+            for (var form : pokemon.getForms()) {
+                if (form.getAbilities().contains(form.getHiddenAbility())) {
+                    form.setHiddenAbility(null);
+                }
+                for (EvolutionEntry evolutionEntry : form.getEvolutions()) {
+                    Pokemon result = POKEMON_REGISTRY.values().stream().filter(p -> p.getName().equalsIgnoreCase(evolutionEntry.getResult())).findFirst().orElse(null);
+                    if (result != null) {
+                        if (isAnAdditionalForm(result)) {
+                            var resultName = getKeysByValue(ADDITIONAL_FORMS, result).stream().findFirst();
+                            resultName.ifPresent(s -> evolutionEntry.setResult(s + " " + result.getAdditionalAspect().name().toLowerCase()));
+                        }
+                    }
+                }
+            }
+        }
+
+        for (var pokemon : sortedPokemonList) {
+            if (pokemon.baseExperienceYield == 0) {
+                pokemon.baseExperienceYield = 512 / (pokemon.stats.getHP() / 255);
+            }
+            if (pokemon.stats.isEmpty()) {
+                pokemonWithZeroBaseStats.append(pokemon.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ").append(pokemon.getCleanName()).append(",\n");
+            }
+            if (pokemon.getAbilities().isEmpty()) pokemon.getAbilities().add(Ability.KEEN_EYE);
+            if (pokemon.getAbilities().contains(pokemon.hiddenAbility)) {
+                pokemon.hiddenAbility = null;
+            }
+
+            if (Gravelmon.FOSSIL_MAP.containsValue(pokemon.getCleanName()) || Gravelmon.FOSSIL_MAP.containsValue(pokemon.getPreEvolution())) {
+                FOSSIL_POKEMON.add(pokemon);
+            }
+
+            if (pokemon.getLearnSet().isEmpty() || pokemon.getLearnSet().stream().noneMatch(moveLearnSetEntry -> StringUtils.isNumeric(moveLearnSetEntry.getCondition()))) {
+                var newMoveSet = MoveListFiller.resolveMoveList(pokemon);
+                newMoveSet.addAll(pokemon.getLearnSet());
+                pokemon.setLearnSet(newMoveSet);
+            }
+
+            if (0 == pokemon.getCatchRate()) {
+                var baseStatTotal = pokemon.getStats().getTotal();
+                if (baseStatTotal == 600) {
+                    pokemon.setCatchRate(45);
+                } else if (baseStatTotal > 570) {
+                    pokemon.setCatchRate(3);
+                } else {
+                    pokemon.setCatchRate(resolveNumber(baseStatTotal));
+                }
+            }
+        }
+        System.out.println(pokemonWithZeroBaseStats);
+
+        for (var additionalEvolutionEntrySet : ADDITIONAL_EVOLUTIONS.entrySet()) {
+            var pokemon = POKEMON_REGISTRY.get(additionalEvolutionEntrySet.getKey());
+            for (var evolutionEntry : additionalEvolutionEntrySet.getValue()) {
+                Pokemon result = POKEMON_REGISTRY.values().stream().filter(p -> p.getName().equalsIgnoreCase(evolutionEntry.getResult())).findFirst().orElse(null);
+                if (result == null) continue;
+                if (pokemon == null) {
+                    if (evolutionEntry.getRequiredContext() != null) {
+                        addAdditionalItemDrop(additionalEvolutionEntrySet.getKey(), evolutionEntry.getRequiredContext(), result);
+                    } else {
+                        evolutionEntry.getRequirements().stream().filter(entry -> entry.getCondition().equals("itemCondition"))
+                                .forEach(entry -> addAdditionalItemDrop(additionalEvolutionEntrySet.getKey(), entry.getConditionParameter().replace("", ""), result));
+                    }
+                } else {
+                    if (evolutionEntry.getRequiredContext() != null) {
+                        addItemAsDrop(pokemon, evolutionEntry.getRequiredContext(), result);
+                    } else {
+                        evolutionEntry.getRequirements().stream().filter(entry -> entry.getCondition().equals("itemCondition"))
+                                .forEach(entry -> addItemAsDrop(pokemon, entry.getConditionParameter().replace("", ""), result));
+                    }
+
+                    if (Pokemon.isAnAdditionalForm(pokemon)) {
+                        var resultName = getKeysByValue(ADDITIONAL_FORMS, pokemon).stream().findFirst();
+                        resultName.ifPresent(s -> result.setPreEvolution(s + " form=" + pokemon.getAdditionalAspect().name().toLowerCase()));
+                    } else {
+                        result.setPreEvolution(pokemon.getCleanName());
+                    }
+                }
+            }
+        }
+    }
+
+    public static int resolveNumber(int inputNumber) {
+        // Define the input and output ranges
+        int inputMin = 180;
+        int inputMax = 570;
+        int outputMin = 30;
+        int outputMax = 255;
+
+        // Ensure the input number is within the expected range
+        if (inputNumber < inputMin) {
+            inputNumber = inputMin;
+        } else if (inputNumber > inputMax) {
+            inputNumber = inputMax;
+        }
+
+        // Calculate the output using linear interpolation
+        double outputNumber = outputMax - ((double) (inputNumber - inputMin) / (inputMax - inputMin)) * (outputMax - outputMin);
+
+        return (int) Math.round(outputNumber);
+    }
+}

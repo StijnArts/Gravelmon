@@ -5,13 +5,13 @@
       "name": "Mastenian",
       "primaryType": "psychic",
       "secondaryType": "normal",
-      "catchRate": 255,
+      "catchRate": 90,
       "maleRatio": 0.5,
       "baseExperienceYield": 60,
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.14545454545454548,
+      "baseScale": 0.32727272727272727,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -35,7 +35,7 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canSwimInLava": true,
+            "canSwimInLava": false,
             "canBreatheUnderlava": false,
             "canBreatheUnderwater": false,
             "canWalkOnLava": false
@@ -73,7 +73,7 @@
       "pokedex": [
         "cobblemon.species.masteniankomala.desc"
       ],
-      "height": 0,
+      "height": 9,
       "weight": 0,
       "aspects": [
         "mastenian"

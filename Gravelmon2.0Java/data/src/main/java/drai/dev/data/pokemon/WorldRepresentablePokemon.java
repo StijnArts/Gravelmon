@@ -84,8 +84,7 @@ public abstract class WorldRepresentablePokemon {
                     });
             posingFileData.animations.forEach(animationData -> {
                 animationData.animations.forEach(animation -> {
-                    if(!animationMap.containsKey(animation)
-                            || !animationMap.get(animation).equals(animationFileName)) {
+                    if(!animationMap.containsKey(animation) || !animationMap.get(animation).equals(animationFileName)) {
                         Cobblemon.LOGGER.warn("Animation {} is not present in {}", animation, animationFileName);
                     }
                 });
@@ -119,6 +118,7 @@ public abstract class WorldRepresentablePokemon {
         abstractPokemon.setHitbox(newHitboxWidth, newHitboxHeight);
         posingFileData.portraitScale *= factor;
         posingFileData.profileScale *= factor;
+//        recalculateXYZOffsets(factor);//TODO Test
     }
 
     int getPlaceholderImageWidth(AbstractPokemon abstractPokemon) {

@@ -57,18 +57,18 @@
       "id": "mastenian_lanturn-01",
       "pokemon": "lanturn mastenian",
       "presets": [
-        "natural"
+        "underwater"
       ],
       "type": "pokemon",
-      "context": "grounded",
+      "context": "submerged",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
+      "level": "27-43",
+      "weight": 1.6500000000000001,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "#minecraft:is_deep_ocean"
         ],
+        "maxY": 50,
         "minSkyLight": 8,
         "maxSkyLight": 15
       },

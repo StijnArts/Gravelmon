@@ -15,7 +15,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(deltawooper, ground_idle)"
+        "bedrock(wooper, ground_idle)"
       ],
       "poseTypes": [
         "STAND",

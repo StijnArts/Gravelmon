@@ -4,6 +4,7 @@ import com.cobblemon.mod.common.api.pokedex.entry.*;
 import drai.dev.data.games.registry.*;
 import drai.dev.data.jsonwriters.assets.*;
 import drai.dev.data.jsonwriters.data.*;
+import drai.dev.data.util.*;
 
 import static drai.dev.data.jsonwriters.assets.LanguageGenerator.*;
 
@@ -32,6 +33,7 @@ public class JSONOutputGenerator {
         LangJSONWriter.finalizeLang(resourcesDir);
         PokeDexWriter.finalizeDexes(resourcesDir);
         SpeciesFeaturesJSONWriter.writeFeatures(resourcesDir);
+//        FakemonExcelGenerator.generateExcel(resourcesDir);
     }
 
     private static void generateJsonFiles(Game game,String resourcesDir) {

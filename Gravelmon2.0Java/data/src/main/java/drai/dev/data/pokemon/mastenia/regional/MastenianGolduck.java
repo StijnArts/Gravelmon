@@ -16,8 +16,8 @@ public class MastenianGolduck extends drai.dev.data.pokemon.Pokemon {
                         90,
                         75),
                 List.of(Ability.POISON_TOUCH,Ability.TELEPATHY), Ability.CONTAMINATE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                17, 0,
+                new Stats(0,0,0,0,0,0), 70,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -27,13 +27,16 @@ public class MastenianGolduck extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MASTENIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 33, 45, .9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NATURAL, SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Golduck");
 
     }

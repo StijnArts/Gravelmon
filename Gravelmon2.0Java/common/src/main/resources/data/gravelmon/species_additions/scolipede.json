@@ -38,7 +38,7 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canSwimInLava": true,
+            "canSwimInLava": false,
             "canBreatheUnderlava": false,
             "canBreatheUnderwater": false,
             "canWalkOnLava": false
@@ -201,7 +201,7 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canSwimInLava": true,
+            "canSwimInLava": false,
             "canBreatheUnderlava": false,
             "canBreatheUnderwater": false,
             "canWalkOnLava": false
@@ -381,7 +381,7 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canSwimInLava": true,
+            "canSwimInLava": false,
             "canBreatheUnderlava": false,
             "canBreatheUnderwater": false,
             "canWalkOnLava": false

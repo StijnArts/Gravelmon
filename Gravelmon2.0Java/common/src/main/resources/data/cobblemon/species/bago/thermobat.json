@@ -7,7 +7,6 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "bombat",
   "baseScale": 0.0421875,
   "cannotDynamax": false,
   "abilities": [
@@ -32,7 +31,7 @@
       "swim": {
         "swimSpeed": 0.1,
         "canSwimInWater": true,
-        "canSwimInLava": true,
+        "canSwimInLava": false,
         "canBreatheUnderlava": false,
         "canBreatheUnderwater": false,
         "canWalkOnLava": false
@@ -66,8 +65,6 @@
   "labels": [
     "bago",
     "not_modeled",
-    "fakemon",
-    "fakemonevolution",
     "instagram"
   ],
   "pokedex": [
@@ -92,7 +89,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3733,
+  "nationalPokedexNumber": 2797,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

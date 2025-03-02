@@ -34,7 +34,7 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canSwimInLava": true,
+            "canSwimInLava": false,
             "canBreatheUnderlava": false,
             "canBreatheUnderwater": false,
             "canWalkOnLava": false
@@ -105,13 +105,13 @@
       "name": "Mastenian",
       "primaryType": "poison",
       "secondaryType": "psychic",
-      "catchRate": 174,
+      "catchRate": 230,
       "maleRatio": 0.5,
       "baseExperienceYield": 60,
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.20869565217391306,
+      "baseScale": 0.5739130434782609,
       "cannotDynamax": false,
       "abilities": [
         "poisontouch",
@@ -136,9 +136,9 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canSwimInLava": true,
+            "canSwimInLava": false,
             "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
+            "canBreatheUnderwater": true,
             "canWalkOnLava": false
           }
         }
@@ -174,12 +174,27 @@
       "pokedex": [
         "cobblemon.species.mastenianpsyduck.desc"
       ],
-      "height": 0,
+      "height": 11,
       "weight": 0,
       "aspects": [
         "mastenian"
       ],
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "mastenianpsyduck_golduck_mastenian",
+          "variant": "level_up",
+          "result": "golduck mastenian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "33"
+            }
+          ],
+          "permanent": true
+        }
+      ],
       "shoulderMountable": false,
       "hitbox": {
         "width": 3.0,
@@ -221,7 +236,7 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canSwimInLava": true,
+            "canSwimInLava": false,
             "canBreatheUnderlava": false,
             "canBreatheUnderwater": false,
             "canWalkOnLava": false
@@ -395,7 +410,7 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canSwimInLava": true,
+            "canSwimInLava": false,
             "canBreatheUnderlava": false,
             "canBreatheUnderwater": false,
             "canWalkOnLava": false

@@ -8,6 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "snotchoo",
   "baseScale": 0.051562500000000004,
   "cannotDynamax": false,
   "abilities": [
@@ -32,7 +33,7 @@
       "swim": {
         "swimSpeed": 0.1,
         "canSwimInWater": true,
-        "canSwimInLava": true,
+        "canSwimInLava": false,
         "canBreatheUnderlava": false,
         "canBreatheUnderwater": false,
         "canWalkOnLava": false
@@ -66,6 +67,8 @@
   "labels": [
     "bago",
     "not_modeled",
+    "fakemon",
+    "fakemonevolution",
     "instagram"
   ],
   "pokedex": [
@@ -75,7 +78,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3745,
+  "nationalPokedexNumber": 2805,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

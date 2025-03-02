@@ -34,7 +34,7 @@
       "swim": {
         "swimSpeed": 0.1,
         "canSwimInWater": true,
-        "canSwimInLava": true,
+        "canSwimInLava": false,
         "canBreatheUnderlava": false,
         "canBreatheUnderwater": false,
         "canWalkOnLava": false
@@ -144,7 +144,7 @@
   "weight": 723,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2249,
+  "nationalPokedexNumber": 1824,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.1,

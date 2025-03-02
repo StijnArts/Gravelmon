@@ -31,7 +31,7 @@
       "swim": {
         "swimSpeed": 0.1,
         "canSwimInWater": true,
-        "canSwimInLava": true,
+        "canSwimInLava": false,
         "canBreatheUnderlava": false,
         "canBreatheUnderwater": false,
         "canWalkOnLava": false
@@ -39,12 +39,12 @@
     }
   },
   "baseStats": {
-    "hp": 56,
-    "attack": 19,
-    "defence": 56,
-    "special_attack": 56,
-    "special_defence": 58,
-    "speed": 11
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "evYield": {
     "hp": 0,
@@ -59,8 +59,7 @@
   ],
   "drops": {},
   "moves": [
-    "1:absorb",
-    "1:synthesis"
+    "1:absorb"
   ],
   "labels": [
     "goetia",
@@ -88,7 +87,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 7887,
+  "nationalPokedexNumber": 5691,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

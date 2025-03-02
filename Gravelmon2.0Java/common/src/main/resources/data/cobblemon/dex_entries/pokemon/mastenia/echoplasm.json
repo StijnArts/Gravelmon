@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:echoplasm",
+  "speciesId": "cobblemon:echoplasm",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -35,7 +35,7 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canSwimInLava": true,
+            "canSwimInLava": false,
             "canBreatheUnderlava": false,
             "canBreatheUnderwater": true,
             "canWalkOnLava": false
@@ -135,7 +135,7 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canSwimInLava": true,
+            "canSwimInLava": false,
             "canBreatheUnderlava": false,
             "canBreatheUnderwater": true,
             "canWalkOnLava": false
@@ -207,13 +207,13 @@
       "name": "Mastenian",
       "primaryType": "dark",
       "secondaryType": "electric",
-      "catchRate": 255,
+      "catchRate": 210,
       "maleRatio": 0.5,
       "baseExperienceYield": 60,
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.2,
+      "baseScale": 0.35,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -232,25 +232,25 @@
           "canLook": true,
           "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
           },
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canSwimInLava": true,
+            "canSwimInLava": false,
             "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
+            "canBreatheUnderwater": true,
             "canWalkOnLava": false
           }
         }
       },
       "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
+        "hp": 70,
+        "attack": 47,
+        "defence": 37,
+        "special_attack": 32,
+        "special_defence": 44,
+        "speed": 37
       },
       "evYield": {
         "hp": 0,
@@ -275,12 +275,27 @@
       "pokedex": [
         "cobblemon.species.mastenianchinchou.desc"
       ],
-      "height": 0,
+      "height": 7,
       "weight": 0,
       "aspects": [
         "mastenian"
       ],
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "mastenianchinchou_lanturn_mastenian",
+          "variant": "level_up",
+          "result": "lanturn mastenian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "27"
+            }
+          ],
+          "permanent": true
+        }
+      ],
       "shoulderMountable": false,
       "hitbox": {
         "width": 3.0,
@@ -324,7 +339,7 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canSwimInLava": true,
+            "canSwimInLava": false,
             "canBreatheUnderlava": false,
             "canBreatheUnderwater": true,
             "canWalkOnLava": false
@@ -515,7 +530,7 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canSwimInLava": true,
+            "canSwimInLava": false,
             "canBreatheUnderlava": false,
             "canBreatheUnderwater": false,
             "canWalkOnLava": false
@@ -688,7 +703,7 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canSwimInLava": true,
+            "canSwimInLava": false,
             "canBreatheUnderlava": false,
             "canBreatheUnderwater": true,
             "canWalkOnLava": false

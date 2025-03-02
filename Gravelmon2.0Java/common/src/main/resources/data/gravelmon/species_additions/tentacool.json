@@ -36,7 +36,7 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canSwimInLava": true,
+            "canSwimInLava": false,
             "canBreatheUnderlava": false,
             "canBreatheUnderwater": true,
             "canWalkOnLava": false
@@ -110,13 +110,13 @@
       "name": "Mastenian",
       "primaryType": "psychic",
       "secondaryType": "water",
-      "catchRate": 255,
+      "catchRate": 190,
       "maleRatio": 0.5,
       "baseExperienceYield": 60,
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.17142857142857143,
+      "baseScale": 0.34285714285714286,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -135,25 +135,25 @@
           "canLook": true,
           "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
           },
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canSwimInLava": true,
+            "canSwimInLava": false,
             "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
+            "canBreatheUnderwater": true,
             "canWalkOnLava": false
           }
         }
       },
       "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
+        "hp": 62,
+        "attack": 33,
+        "defence": 54,
+        "special_attack": 93,
+        "special_defence": 60,
+        "speed": 54
       },
       "evYield": {
         "hp": 0,
@@ -178,12 +178,27 @@
       "pokedex": [
         "cobblemon.species.masteniantentacool.desc"
       ],
-      "height": 0,
+      "height": 8,
       "weight": 0,
       "aspects": [
         "mastenian"
       ],
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "masteniantentacool_tentarule",
+          "variant": "level_up",
+          "result": "tentarule",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "40"
+            }
+          ],
+          "permanent": true
+        }
+      ],
       "shoulderMountable": false,
       "hitbox": {
         "width": 3.0,
@@ -226,7 +241,7 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canSwimInLava": true,
+            "canSwimInLava": false,
             "canBreatheUnderlava": false,
             "canBreatheUnderwater": true,
             "canWalkOnLava": false
@@ -409,7 +424,7 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canSwimInLava": true,
+            "canSwimInLava": false,
             "canBreatheUnderlava": false,
             "canBreatheUnderwater": false,
             "canWalkOnLava": false
@@ -583,7 +598,7 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canSwimInLava": true,
+            "canSwimInLava": false,
             "canBreatheUnderlava": false,
             "canBreatheUnderwater": true,
             "canWalkOnLava": false
@@ -720,7 +735,7 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canSwimInLava": true,
+            "canSwimInLava": false,
             "canBreatheUnderlava": false,
             "canBreatheUnderwater": true,
             "canWalkOnLava": false

@@ -31,7 +31,7 @@
       "swim": {
         "swimSpeed": 0.1,
         "canSwimInWater": true,
-        "canSwimInLava": true,
+        "canSwimInLava": false,
         "canBreatheUnderlava": false,
         "canBreatheUnderwater": false,
         "canWalkOnLava": false
@@ -39,12 +39,12 @@
     }
   },
   "baseStats": {
-    "hp": 56,
-    "attack": 47,
-    "defence": 66,
-    "special_attack": 19,
-    "special_defence": 43,
-    "speed": 23
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "evYield": {
     "hp": 0,
@@ -59,9 +59,7 @@
   ],
   "drops": {},
   "moves": [
-    "1:powdersnow",
-    "1:bulkup",
-    "1:healbell"
+    "1:powdersnow"
   ],
   "labels": [
     "raian",
@@ -90,7 +88,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3261,
+  "nationalPokedexNumber": 2498,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

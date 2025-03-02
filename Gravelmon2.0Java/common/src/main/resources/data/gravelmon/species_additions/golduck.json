@@ -35,7 +35,7 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canSwimInLava": true,
+            "canSwimInLava": false,
             "canBreatheUnderlava": false,
             "canBreatheUnderwater": false,
             "canWalkOnLava": false
@@ -113,7 +113,8 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "preEvolution": "psyduck form=mastenian",
+      "baseScale": 0.425,
       "cannotDynamax": false,
       "abilities": [
         "poisontouch",
@@ -138,9 +139,9 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canSwimInLava": true,
+            "canSwimInLava": false,
             "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
+            "canBreatheUnderwater": true,
             "canWalkOnLava": false
           }
         }
@@ -171,12 +172,14 @@
       ],
       "labels": [
         "mastenia",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.masteniangolduck.desc"
       ],
-      "height": 0,
+      "height": 17,
       "weight": 0,
       "aspects": [
         "mastenian"
@@ -224,7 +227,7 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canSwimInLava": true,
+            "canSwimInLava": false,
             "canBreatheUnderlava": false,
             "canBreatheUnderwater": false,
             "canWalkOnLava": false

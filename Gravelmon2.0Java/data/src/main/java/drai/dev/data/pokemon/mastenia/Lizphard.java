@@ -11,8 +11,8 @@ public class Lizphard extends drai.dev.data.pokemon.Pokemon {
                 Type.DRAGON, Type.NORMAL,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                7, 0,
+                new Stats(0,0,0,0,0,0), 110,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -22,8 +22,8 @@ public class Lizphard extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MASTENIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 32, 2.76, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

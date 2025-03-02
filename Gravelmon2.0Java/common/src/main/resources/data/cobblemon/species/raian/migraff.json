@@ -31,7 +31,7 @@
       "swim": {
         "swimSpeed": 0.1,
         "canSwimInWater": true,
-        "canSwimInLava": true,
+        "canSwimInLava": false,
         "canBreatheUnderlava": false,
         "canBreatheUnderwater": false,
         "canWalkOnLava": false
@@ -39,12 +39,12 @@
     }
   },
   "baseStats": {
-    "hp": 49,
-    "attack": 39,
-    "defence": 56,
-    "special_attack": 32,
-    "special_defence": 47,
-    "speed": 32
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "evYield": {
     "hp": 0,
@@ -88,7 +88,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3198,
+  "nationalPokedexNumber": 2454,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,

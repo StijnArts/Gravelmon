@@ -35,7 +35,7 @@
       "swim": {
         "swimSpeed": 0.1,
         "canSwimInWater": true,
-        "canSwimInLava": true,
+        "canSwimInLava": false,
         "canBreatheUnderlava": false,
         "canBreatheUnderwater": false,
         "canWalkOnLava": false
@@ -182,7 +182,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1126,
+  "nationalPokedexNumber": 1079,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.125,
@@ -230,7 +230,7 @@
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canSwimInLava": true,
+            "canSwimInLava": false,
             "canBreatheUnderlava": false,
             "canBreatheUnderwater": false,
             "canWalkOnLava": false

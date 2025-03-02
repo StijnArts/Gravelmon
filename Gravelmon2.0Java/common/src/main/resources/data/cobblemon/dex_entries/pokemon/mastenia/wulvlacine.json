@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:wulvlacine",
+  "speciesId": "cobblemon:wulvlacine",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

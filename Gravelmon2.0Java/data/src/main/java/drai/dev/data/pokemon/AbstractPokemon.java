@@ -53,7 +53,7 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
     protected double wanderChance = 1;
     protected boolean canSleep = true;
     protected boolean canSwimInWater = true;
-    protected boolean canSwimInLava = true;
+    protected boolean canSwimInLava = false;
     protected boolean canLookAround = true;
     protected boolean willSleepOnBed = false;
     protected boolean canBreatheUnderwater = false;
@@ -72,9 +72,20 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
                            int height, int weight, SpawnContext spawnContext,
                            SpawnPool spawnPool, int minSpawnLevel, int maxSpawnLevel, double spawnWeight, List<SpawnCondition> spawnConditions,
                            List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets) {
-        this(name, stats, primaryType, abilities, hiddenAbility, catchRate, maleRatio, baseExperienceYield, experienceGroup,
-                eggCycles, eggGroups, dexEntries, evolutions, labels, dropAmount, drops, baseFriendship, evYield, learnSet, aspects, height, weight, spawnContext, spawnPool,
-                minSpawnLevel, maxSpawnLevel, spawnWeight, spawnConditions, spawnAntiConditions, spawnPresets);
+        this(name, stats, primaryType, secondaryType, abilities, hiddenAbility, catchRate, maleRatio, baseExperienceYield, experienceGroup, eggCycles, eggGroups, dexEntries, evolutions, labels, dropAmount, drops, baseFriendship,
+                evYield, learnSet, aspects, height, weight, List.of(
+                        new PokemonSpawnData(spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight*1.5, spawnConditions, spawnAntiConditions, spawnPresets, new ArrayList<>())
+                ));
+    }
+
+    public AbstractPokemon(String name, Stats stats, Type primaryType, Type secondaryType, List<Ability> abilities, Ability hiddenAbility,
+                           int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup,
+                           int eggCycles, List<EggGroup> eggGroups, List<String> dexEntries, List<EvolutionEntry> evolutions,
+                           List<Label> labels, int dropAmount, List<ItemDrop> drops, int baseFriendship,
+                           Stats evYield, List<MoveLearnSetEntry> learnSet, List<Aspect> aspects,
+                           int height, int weight, List<PokemonSpawnData> pokemonSpawnData) {
+        this(name, stats, primaryType, abilities, hiddenAbility, catchRate, maleRatio, baseExperienceYield, experienceGroup, eggCycles, eggGroups, dexEntries, evolutions, labels, dropAmount, drops, baseFriendship,
+                evYield, learnSet, aspects, height, weight, pokemonSpawnData);
         this.secondaryType = secondaryType;
     }
 
@@ -83,9 +94,7 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
                            int eggCycles, List<EggGroup> eggGroups, List<String> dexEntries, List<EvolutionEntry> evolutions,
                            List<Label> labels, int dropAmount, List<ItemDrop> drops, int baseFriendship,
                            Stats evYield, List<MoveLearnSetEntry> learnSet, List<Aspect> aspects,
-                           int height, int weight, SpawnContext spawnContext,
-                           SpawnPool spawnPool, int minSpawnLevel, int maxSpawnLevel, double spawnWeight, List<SpawnCondition> spawnConditions,
-                           List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets) {
+                           int height, int weight, List<PokemonSpawnData> pokemonSpawnData) {
         this.name = getClass().getSimpleName();
         this.stats = stats;
         this.primaryType = primaryType;
@@ -106,11 +115,11 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
         this.height = height;
         this.weight = weight;
         this.baseScale = Math.max((double) height / 10 / 4, 0.1);
-        this.spawnData.add(new PokemonSpawnData(spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight*1.5, spawnConditions, spawnAntiConditions, spawnPresets, new ArrayList<>()));
-        if(spawnPresets.contains(SpawnPreset.UNDERLAVA) || spawnPresets.contains(SpawnPreset.LAVA_SURFACE)){
+        this.spawnData.addAll(pokemonSpawnData);
+        if(spawnData.stream().anyMatch(pokemonSpawnData1 -> pokemonSpawnData1.spawnPresets().contains(SpawnPreset.UNDERLAVA) || pokemonSpawnData1.spawnPresets().contains(SpawnPreset.LAVA_SURFACE))){
             canSwimInLava = true;
             canBreatheUnderlava = true;
-            if(spawnPresets.contains(SpawnPreset.LAVA_SURFACE)){
+            if(spawnData.stream().anyMatch(pokemonSpawnData1 -> pokemonSpawnData1.spawnPresets().contains(SpawnPreset.LAVA_SURFACE))){
                 canWalkOnLava = true;
             }
         }
@@ -124,6 +133,20 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
         }
         this.hitboxWidth = 6;
         this.hitboxHeight = 6;
+    }
+
+    public AbstractPokemon(String name, Stats stats, Type primaryType, List<Ability> abilities, Ability hiddenAbility,
+                           int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup,
+                           int eggCycles, List<EggGroup> eggGroups, List<String> dexEntries, List<EvolutionEntry> evolutions,
+                           List<Label> labels, int dropAmount, List<ItemDrop> drops, int baseFriendship,
+                           Stats evYield, List<MoveLearnSetEntry> learnSet, List<Aspect> aspects,
+                           int height, int weight, SpawnContext spawnContext,
+                           SpawnPool spawnPool, int minSpawnLevel, int maxSpawnLevel, double spawnWeight, List<SpawnCondition> spawnConditions,
+                           List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets) {
+        this(name, stats, primaryType, abilities, hiddenAbility, catchRate, maleRatio, baseExperienceYield, experienceGroup, eggCycles, eggGroups, dexEntries, evolutions, labels, dropAmount, drops, baseFriendship,
+                evYield, learnSet, aspects, height, weight, List.of(
+                        new PokemonSpawnData(spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight*1.5, spawnConditions, spawnAntiConditions, spawnPresets, new ArrayList<>())
+                ));
     }
 
     public static boolean isAnAdditionalForm(String key) {
@@ -499,4 +522,10 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
     }
 
     public abstract Game getGame();
+
+    public List<Type> getTypes() {
+        var types = new ArrayList<>(List.of(primaryType));
+        if(secondaryType!=null) types.add(secondaryType);
+        return types;
+    }
 }

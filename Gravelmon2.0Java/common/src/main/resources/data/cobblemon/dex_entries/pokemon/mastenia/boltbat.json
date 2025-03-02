@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:boltbat",
+  "speciesId": "cobblemon:boltbat",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}
