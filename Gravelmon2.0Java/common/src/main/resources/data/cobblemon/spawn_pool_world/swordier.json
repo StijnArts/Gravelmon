@@ -7,7 +7,7 @@
       "id": "swordier-01",
       "pokemon": "swordier",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

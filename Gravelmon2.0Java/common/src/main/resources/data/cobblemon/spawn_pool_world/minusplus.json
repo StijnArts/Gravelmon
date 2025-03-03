@@ -7,7 +7,7 @@
       "id": "minusplus-01",
       "pokemon": "minusplus",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

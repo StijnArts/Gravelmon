@@ -7,7 +7,7 @@
       "id": "moorlock-01",
       "pokemon": "moorlock",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

@@ -7,7 +7,7 @@
       "id": "vipentide-01",
       "pokemon": "vipentide",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

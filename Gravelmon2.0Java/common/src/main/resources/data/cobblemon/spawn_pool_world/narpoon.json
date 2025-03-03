@@ -7,7 +7,7 @@
       "id": "narpoon-01",
       "pokemon": "narpoon",
       "presets": [
-        "underwater",
+        "water",
         "shipwreck"
       ],
       "type": "pokemon",

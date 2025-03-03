@@ -7,7 +7,7 @@
       "id": "fairny-01",
       "pokemon": "fairny",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

@@ -7,7 +7,7 @@
       "id": "delta_registeel-01",
       "pokemon": "registeel delta",
       "presets": [
-        "lava_surface"
+        "lava"
       ],
       "type": "pokemon",
       "context": "surface",

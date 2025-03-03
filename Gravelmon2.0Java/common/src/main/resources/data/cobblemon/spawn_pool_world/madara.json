@@ -7,7 +7,7 @@
       "id": "madara-01",
       "pokemon": "madara",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

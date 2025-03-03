@@ -7,7 +7,7 @@
       "id": "terrestrial_shulong-01",
       "pokemon": "shulong terrestrial",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -34,7 +34,7 @@
       "id": "xenoversal_shulong-01",
       "pokemon": "shulong xenoversal",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -61,7 +61,7 @@
       "id": "astral_shulong-01",
       "pokemon": "shulong astral",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -88,7 +88,7 @@
       "id": "x_shulong-01",
       "pokemon": "shulong x",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

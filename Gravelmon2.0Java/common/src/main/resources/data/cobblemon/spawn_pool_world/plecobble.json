@@ -6,9 +6,7 @@
     {
       "id": "plecobble-01",
       "pokemon": "plecobble",
-      "presets": [
-        "freshwater"
-      ],
+      "presets": [],
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "uncommon",
@@ -16,7 +14,8 @@
       "weight": 3.75,
       "condition": {
         "biomes": [
-          "#cobblemon:is_river"
+          "#cobblemon:is_river",
+          "#cobblemon:is_freshwater"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

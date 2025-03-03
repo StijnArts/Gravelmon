@@ -7,7 +7,7 @@
       "id": "astronotilus-01",
       "pokemon": "astronotilus",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

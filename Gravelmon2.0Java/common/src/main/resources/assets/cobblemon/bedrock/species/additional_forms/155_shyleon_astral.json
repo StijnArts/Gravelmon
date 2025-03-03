@@ -6,9 +6,41 @@
       "aspects": [
         "astral"
       ],
-      "model": "cobblemon:cutout_gravelmon_83_by_95.geo",
-      "poser": "cobblemon:cutout_gravelmon_83_by_95",
-      "texture": "cobblemon:textures/pokemon/xenoverse/shyleonastral.png",
+      "model": "cobblemon:xenoverse_shyleonastral.geo",
+      "poser": "cobblemon:xenoverse_shyleonastral",
+      "texture": "cobblemon:textures/pokemon/xenoverse/shyleonastral/shyleonastral.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "astral",
+        "shiny"
+      ],
+      "model": "cobblemon:xenoverse_shyleonastral.geo",
+      "poser": "cobblemon:xenoverse_shyleonastral",
+      "texture": "cobblemon:textures/pokemon/xenoverse/shyleonastral/shyleonastral_shiny.png",
       "layers": [
         {
           "name": "emissive"

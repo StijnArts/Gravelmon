@@ -6,9 +6,7 @@
     {
       "id": "elefin-01",
       "pokemon": "elefin",
-      "presets": [
-        "freshwater"
-      ],
+      "presets": [],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "rare",
@@ -16,7 +14,8 @@
       "weight": 6.8999999999999995,
       "condition": {
         "biomes": [
-          "#cobblemon:is_river"
+          "#cobblemon:is_river",
+          "#cobblemon:is_freshwater"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

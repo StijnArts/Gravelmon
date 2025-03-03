@@ -7,7 +7,7 @@
       "id": "charybyss-01",
       "pokemon": "charybyss",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

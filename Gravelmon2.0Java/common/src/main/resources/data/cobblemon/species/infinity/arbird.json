@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 39,
   "baseFriendship": 70,
-  "baseScale": 0.13333333333333333,
+  "baseScale": 1.0,
   "cannotDynamax": false,
   "abilities": [
     "keeneye",
@@ -120,8 +120,7 @@
     "egg:whirlwind"
   ],
   "labels": [
-    "infinity",
-    "not_modeled"
+    "infinity"
   ],
   "pokedex": [
     "cobblemon.species.arbird.desc"
@@ -145,11 +144,11 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1291,
+  "nationalPokedexNumber": 1293,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "features": [],

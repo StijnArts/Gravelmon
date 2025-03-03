@@ -33,7 +33,7 @@
       "id": "x_sharpedo-01",
       "pokemon": "sharpedo x",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

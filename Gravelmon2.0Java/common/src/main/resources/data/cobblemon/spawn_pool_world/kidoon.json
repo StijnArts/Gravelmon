@@ -7,7 +7,7 @@
       "id": "kidoon-01",
       "pokemon": "kidoon",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

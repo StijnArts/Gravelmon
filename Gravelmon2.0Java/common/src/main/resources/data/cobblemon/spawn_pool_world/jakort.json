@@ -7,7 +7,7 @@
       "id": "jakort-01",
       "pokemon": "jakort",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

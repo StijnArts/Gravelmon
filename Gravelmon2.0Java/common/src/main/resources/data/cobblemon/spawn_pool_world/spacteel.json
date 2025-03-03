@@ -7,7 +7,7 @@
       "id": "spacteel-01",
       "pokemon": "spacteel",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

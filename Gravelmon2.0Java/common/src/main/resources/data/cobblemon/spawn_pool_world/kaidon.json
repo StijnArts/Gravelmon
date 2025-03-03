@@ -7,7 +7,7 @@
       "id": "kaidon-01",
       "pokemon": "kaidon",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

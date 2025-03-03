@@ -6,9 +6,7 @@
     {
       "id": "granikan-01",
       "pokemon": "granikan",
-      "presets": [
-        "freshwater"
-      ],
+      "presets": [],
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "uncommon",
@@ -16,7 +14,8 @@
       "weight": 0.44999999999999996,
       "condition": {
         "biomes": [
-          "#cobblemon:is_river"
+          "#cobblemon:is_river",
+          "#cobblemon:is_freshwater"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

@@ -7,7 +7,7 @@
       "id": "dorsel-01",
       "pokemon": "dorsel",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

@@ -7,7 +7,7 @@
       "id": "nauticaw-01",
       "pokemon": "nauticaw",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

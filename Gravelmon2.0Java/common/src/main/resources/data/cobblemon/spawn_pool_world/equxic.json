@@ -7,7 +7,7 @@
       "id": "equxic-01",
       "pokemon": "equxic",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

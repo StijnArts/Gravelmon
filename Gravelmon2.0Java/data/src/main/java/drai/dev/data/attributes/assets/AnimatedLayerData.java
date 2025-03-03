@@ -28,7 +28,7 @@ public class AnimatedLayerData extends BasicLayerData {
     public static List<String> getFrames(String frameName, int i) {
         var frames  = new ArrayList<String>();
         for (int j = 0; j < i; j++) {
-            frames.add(frameName+i+1);
+            frames.add(frameName+(j+1));
         }
         return frames;
     }

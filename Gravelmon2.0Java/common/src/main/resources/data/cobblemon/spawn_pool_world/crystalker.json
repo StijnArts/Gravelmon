@@ -7,7 +7,7 @@
       "id": "crystalker-01",
       "pokemon": "crystalker",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

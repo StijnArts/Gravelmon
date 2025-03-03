@@ -7,7 +7,7 @@
       "id": "sermurgon-01",
       "pokemon": "sermurgon",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

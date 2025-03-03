@@ -7,7 +7,7 @@
       "id": "serpyre-01",
       "pokemon": "serpyre",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

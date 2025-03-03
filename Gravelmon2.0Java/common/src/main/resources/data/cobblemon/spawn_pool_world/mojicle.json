@@ -7,7 +7,7 @@
       "id": "mojicle-01",
       "pokemon": "mojicle",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

@@ -7,7 +7,7 @@
       "id": "furiousc-01",
       "pokemon": "furiousc",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

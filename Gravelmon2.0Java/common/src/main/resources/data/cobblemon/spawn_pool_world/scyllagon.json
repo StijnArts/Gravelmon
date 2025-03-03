@@ -7,7 +7,7 @@
       "id": "scyllagon-01",
       "pokemon": "scyllagon",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

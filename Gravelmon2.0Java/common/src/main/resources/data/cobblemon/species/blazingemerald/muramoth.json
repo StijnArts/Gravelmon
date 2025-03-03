@@ -9,7 +9,7 @@
   "eggCycles": 51,
   "baseFriendship": 70,
   "preEvolution": "venonat form=hoennian",
-  "baseScale": 0.27096774193548384,
+  "baseScale": 1.0,
   "cannotDynamax": false,
   "abilities": [
     "elusive",
@@ -97,7 +97,6 @@
   ],
   "labels": [
     "blazing_emerald",
-    "not_modeled",
     "fakemonevolution"
   ],
   "pokedex": [
@@ -107,11 +106,11 @@
   "weight": 379,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3768,
+  "nationalPokedexNumber": 3823,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "features": [],

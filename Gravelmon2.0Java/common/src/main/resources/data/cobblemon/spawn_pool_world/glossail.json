@@ -7,7 +7,7 @@
       "id": "glossail-01",
       "pokemon": "glossail",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

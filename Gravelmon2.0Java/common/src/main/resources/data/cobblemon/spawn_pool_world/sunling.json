@@ -7,7 +7,7 @@
       "id": "sunling-01",
       "pokemon": "sunling",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

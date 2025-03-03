@@ -115,7 +115,7 @@
   "weight": 59,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1779,
+  "nationalPokedexNumber": 1784,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,
@@ -139,7 +139,7 @@
       "experienceGroup": "slow",
       "eggCycles": 32,
       "baseFriendship": 70,
-      "baseScale": 0.21325435024065162,
+      "baseScale": 7.783783783783784,
       "cannotDynamax": false,
       "abilities": [
         "moldbreaker"
@@ -258,7 +258,7 @@
       "experienceGroup": "slow",
       "eggCycles": 32,
       "baseFriendship": 70,
-      "baseScale": 0.19705781731098188,
+      "baseScale": 7.783783783783784,
       "cannotDynamax": false,
       "abilities": [
         "moldbreaker"
@@ -377,7 +377,7 @@
       "experienceGroup": "slow",
       "eggCycles": 32,
       "baseFriendship": 70,
-      "baseScale": 0.1921921921921922,
+      "baseScale": 7.783783783783784,
       "cannotDynamax": false,
       "abilities": [
         "moldbreaker"

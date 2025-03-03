@@ -7,7 +7,7 @@
       "id": "curbludgeon-01",
       "pokemon": "curbludgeon",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

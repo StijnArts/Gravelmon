@@ -7,7 +7,7 @@
       "id": "nepolyp-01",
       "pokemon": "nepolyp",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

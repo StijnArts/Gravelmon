@@ -72,25 +72,6 @@
       ],
       "transformTicks": 10,
       "quirks": []
-    },
-    "battle-idle": {
-      "poseName": "battle-idle",
-      "animations": [
-        "bedrock(hoenniandrakloak, battle_idle)"
-      ],
-      "poseTypes": [
-        "STAND"
-      ],
-      "transformTicks": 10,
-      "isBattle": true,
-      "quirks": [
-        {
-          "animations": [
-            "bedrock(hoenniandrakloak, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
     }
   }
 }

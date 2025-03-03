@@ -7,7 +7,7 @@
       "id": "seaquin-01",
       "pokemon": "seaquin",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

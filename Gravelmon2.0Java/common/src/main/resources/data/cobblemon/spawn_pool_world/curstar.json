@@ -7,7 +7,7 @@
       "id": "curstar-01",
       "pokemon": "curstar",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

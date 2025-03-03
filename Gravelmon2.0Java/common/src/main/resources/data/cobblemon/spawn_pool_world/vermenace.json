@@ -7,7 +7,7 @@
       "id": "vermenace-01",
       "pokemon": "vermenace",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

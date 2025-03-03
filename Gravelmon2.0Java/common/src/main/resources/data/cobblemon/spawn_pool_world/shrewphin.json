@@ -7,7 +7,7 @@
       "id": "shrewphin-01",
       "pokemon": "shrewphin",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

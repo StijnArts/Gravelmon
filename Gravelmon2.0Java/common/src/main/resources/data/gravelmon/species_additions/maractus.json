@@ -304,7 +304,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "baseScale": 0.3490909090909091,
+      "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
         "chlorophyll",
@@ -397,8 +397,7 @@
       ],
       "labels": [
         "blazing_emerald",
-        "gen5",
-        "not_modeled"
+        "gen5"
       ],
       "pokedex": [
         "cobblemon.species.hoennianmaractus.desc"
@@ -411,8 +410,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 1.0,
+        "height": 1.0,
         "fixed": false
       }
     }

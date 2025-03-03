@@ -7,7 +7,7 @@
       "id": "plubus-01",
       "pokemon": "plubus",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

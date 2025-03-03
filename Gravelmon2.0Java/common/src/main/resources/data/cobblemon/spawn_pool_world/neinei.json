@@ -7,7 +7,7 @@
       "id": "neinei-01",
       "pokemon": "neinei",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

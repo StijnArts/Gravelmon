@@ -6,9 +6,41 @@
       "aspects": [
         "hoennian"
       ],
-      "model": "cobblemon:cutout_gravelmon_59_by_64.geo",
-      "poser": "cobblemon:cutout_gravelmon_59_by_64",
-      "texture": "cobblemon:textures/pokemon/generation1/hoennianpinsir.png",
+      "model": "cobblemon:generation1_hoennianpinsir.geo",
+      "poser": "cobblemon:generation1_hoennianpinsir",
+      "texture": "cobblemon:textures/pokemon/generation1/hoennianpinsir/hoennianpinsir.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "hoennian",
+        "shiny"
+      ],
+      "model": "cobblemon:generation1_hoennianpinsir.geo",
+      "poser": "cobblemon:generation1_hoennianpinsir",
+      "texture": "cobblemon:textures/pokemon/generation1/hoennianpinsir/hoennianpinsir_shiny.png",
       "layers": [
         {
           "name": "emissive"

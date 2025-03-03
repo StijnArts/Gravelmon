@@ -7,7 +7,7 @@
       "id": "shelmount-01",
       "pokemon": "shelmount",
       "presets": [
-        "underwater",
+        "water",
         "reef"
       ],
       "type": "pokemon",

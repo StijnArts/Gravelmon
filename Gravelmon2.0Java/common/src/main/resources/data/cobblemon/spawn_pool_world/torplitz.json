@@ -7,7 +7,7 @@
       "id": "torplitz-01",
       "pokemon": "torplitz",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

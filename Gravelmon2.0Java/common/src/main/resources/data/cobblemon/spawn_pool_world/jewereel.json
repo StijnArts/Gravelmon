@@ -7,7 +7,7 @@
       "id": "jewereel-01",
       "pokemon": "jewereel",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

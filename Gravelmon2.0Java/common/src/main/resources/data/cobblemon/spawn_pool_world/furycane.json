@@ -7,7 +7,7 @@
       "id": "furycane-01",
       "pokemon": "furycane",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

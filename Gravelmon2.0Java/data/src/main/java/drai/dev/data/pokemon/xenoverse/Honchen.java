@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.xenoverse;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -96,7 +97,17 @@ public class Honchen extends Pokemon {
                 List.of(SpawnPreset.WATER_SURFACE),
                 0.3, 0.3,
                 List.of());
-
+        this.setCanSwim(true);
+        this.setCanBreathUnderwater(true);
         this.setCanFly(true);
+
+        setBaseScale(1);
+        setHitbox(1,1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData(.88f, new Vector3(-0.4, 0.55, 0));
+        getPosingFileData().setProfileData(.51f, new Vector3(0.02, 1.06, 0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().markAsBackupPose().withBlink()
+        ));
     }
 }

@@ -7,7 +7,7 @@
       "id": "spectouch-01",
       "pokemon": "spectouch",
       "presets": [
-        "underwater",
+        "water",
         "shipwreck"
       ],
       "type": "pokemon",

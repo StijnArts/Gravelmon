@@ -7,7 +7,7 @@
       "id": "gulligull-01",
       "pokemon": "gulligull",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

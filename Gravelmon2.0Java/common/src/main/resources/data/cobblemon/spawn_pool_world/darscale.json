@@ -7,7 +7,7 @@
       "id": "darscale-01",
       "pokemon": "darscale",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

@@ -8,7 +8,7 @@
       "pokemon": "dragalge epoch",
       "presets": [
         "foliage",
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -33,7 +33,7 @@
       "id": "vesitan_dragalge-01",
       "pokemon": "dragalge vesitan",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

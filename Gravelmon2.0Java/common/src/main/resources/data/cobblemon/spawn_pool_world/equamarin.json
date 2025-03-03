@@ -7,7 +7,7 @@
       "id": "equamarin-01",
       "pokemon": "equamarin",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

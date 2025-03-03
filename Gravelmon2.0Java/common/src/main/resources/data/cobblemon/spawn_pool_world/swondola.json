@@ -7,7 +7,7 @@
       "id": "swondola-01",
       "pokemon": "swondola",
       "presets": [
-        "water_surface",
+        "water",
         "village"
       ],
       "type": "pokemon",

@@ -7,7 +7,7 @@
       "id": "sakanodon-01",
       "pokemon": "sakanodon",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

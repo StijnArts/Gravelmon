@@ -7,7 +7,7 @@
       "id": "ferossicle-01",
       "pokemon": "ferossicle",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

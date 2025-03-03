@@ -7,7 +7,7 @@
       "id": "drimp-01",
       "pokemon": "drimp",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

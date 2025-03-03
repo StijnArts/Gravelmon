@@ -7,7 +7,7 @@
       "id": "epoch_finneon-01",
       "pokemon": "finneon epoch",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -35,7 +35,7 @@
       "id": "lagoonan_finneon-01",
       "pokemon": "finneon lagoonan",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

@@ -7,7 +7,7 @@
       "id": "glavinug-01",
       "pokemon": "glavinug",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

@@ -7,7 +7,7 @@
       "id": "glauqua-01",
       "pokemon": "glauqua",
       "presets": [
-        "water_surface",
+        "water",
         "reef"
       ],
       "type": "pokemon",

@@ -8,7 +8,7 @@
       "pokemon": "akrilles",
       "presets": [
         "reef",
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

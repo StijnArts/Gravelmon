@@ -7,7 +7,7 @@
       "id": "mabalone-01",
       "pokemon": "mabalone",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

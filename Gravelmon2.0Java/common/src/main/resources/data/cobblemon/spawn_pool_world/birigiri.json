@@ -7,7 +7,7 @@
       "id": "birigiri-01",
       "pokemon": "birigiri",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

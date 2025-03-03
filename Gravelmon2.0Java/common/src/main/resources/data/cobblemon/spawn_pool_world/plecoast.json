@@ -7,7 +7,7 @@
       "id": "plecoast-01",
       "pokemon": "plecoast",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

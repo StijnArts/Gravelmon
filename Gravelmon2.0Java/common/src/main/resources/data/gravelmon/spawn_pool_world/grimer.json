@@ -62,7 +62,7 @@
       "id": "epoch_grimer-01",
       "pokemon": "grimer epoch",
       "presets": [
-        "lava_surface"
+        "lava"
       ],
       "type": "pokemon",
       "context": "surface",

@@ -6,22 +6,11 @@
     {
       "id": "fabelian_bidoof-01",
       "pokemon": "bidoof fabelian",
-      "presets": [
-        "natural"
-      ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
+      "level": "1-1",
+      "weight": 0.0,
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
@@ -61,9 +50,7 @@
     {
       "id": "kaskadian_bidoof-01",
       "pokemon": "bidoof kaskadian",
-      "presets": [
-        "freshwater"
-      ],
+      "presets": [],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
@@ -71,7 +58,10 @@
       "weight": 13.5,
       "condition": {
         "minSkyLight": 8,
-        "maxSkyLight": 15
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_freshwater"
+        ]
       },
       "anticondition": {
         "biomes": [

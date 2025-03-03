@@ -7,7 +7,7 @@
       "id": "drumbum-01",
       "pokemon": "drumbum",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

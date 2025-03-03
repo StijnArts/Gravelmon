@@ -7,7 +7,7 @@
       "id": "lansquid-01",
       "pokemon": "lansquid",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

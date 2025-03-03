@@ -7,7 +7,7 @@
       "id": "gangill-01",
       "pokemon": "gangill",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

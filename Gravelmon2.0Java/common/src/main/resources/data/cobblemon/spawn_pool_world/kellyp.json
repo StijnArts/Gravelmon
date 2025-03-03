@@ -8,7 +8,7 @@
       "pokemon": "kellyp",
       "presets": [
         "foliage",
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

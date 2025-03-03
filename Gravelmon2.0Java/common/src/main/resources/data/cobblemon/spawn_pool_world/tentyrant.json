@@ -7,7 +7,7 @@
       "id": "tentyrant-01",
       "pokemon": "tentyrant",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

@@ -7,7 +7,7 @@
       "id": "altarath-01",
       "pokemon": "altarath",
       "presets": [
-        "underwater",
+        "water",
         "near_magma"
       ],
       "type": "pokemon",

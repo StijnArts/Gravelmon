@@ -7,7 +7,7 @@
       "id": "twygnet-01",
       "pokemon": "twygnet",
       "presets": [
-        "water_surface",
+        "water",
         "village"
       ],
       "type": "pokemon",

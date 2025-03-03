@@ -7,7 +7,7 @@
       "id": "jaicicle-01",
       "pokemon": "jaicicle",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

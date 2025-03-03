@@ -32,7 +32,7 @@
       "id": "epoch_magcargo-01",
       "pokemon": "magcargo epoch",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

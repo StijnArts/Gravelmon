@@ -7,7 +7,7 @@
       "id": "welking-01",
       "pokemon": "welking",
       "presets": [
-        "underwater",
+        "water",
         "reef"
       ],
       "type": "pokemon",

@@ -7,7 +7,7 @@
       "id": "leaplip-01",
       "pokemon": "leaplip",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

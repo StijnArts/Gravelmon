@@ -7,7 +7,7 @@
       "id": "cetoacean-01",
       "pokemon": "cetoacean",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

@@ -7,7 +7,7 @@
       "id": "epoch_dusknoir-01",
       "pokemon": "dusknoir epoch",
       "presets": [
-        "lava_surface"
+        "lava"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,7 +32,7 @@
       "id": "avalossian_dusknoir-01",
       "pokemon": "dusknoir avalossian",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

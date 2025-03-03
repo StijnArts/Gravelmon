@@ -227,7 +227,7 @@ public class SpeciesDataJSONWriter {
         swim.addProperty("canSwimInLava", pokemon.isCanSwimInLava());
         swim.addProperty("canBreatheUnderlava", pokemon.isCanBreatheUnderlava());
         swim.addProperty("canBreatheUnderwater", pokemon.canBreathUnderwater());
-        if (pokemon.getSpawnData().stream().anyMatch(data -> data.spawnContext() == SpawnContext.SURFACE && data.spawnPresets().contains(SpawnPreset.WATER_SURFACE)))
+        if (pokemon.getSpawnData().stream().anyMatch(data -> data.getSpawnContext() == SpawnContext.SURFACE && data.getSpawnPresets().contains(SpawnPreset.WATER_SURFACE)))
             swim.addProperty("canWalkOnWater", true);
         swim.addProperty("canWalkOnLava", pokemon.isCanWalkOnLava());
         moving.add("swim", swim);

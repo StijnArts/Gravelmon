@@ -7,7 +7,7 @@
       "id": "crebb-01",
       "pokemon": "crebb",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

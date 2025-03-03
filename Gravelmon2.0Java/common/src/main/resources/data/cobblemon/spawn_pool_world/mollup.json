@@ -8,7 +8,7 @@
       "pokemon": "mollup",
       "presets": [
         "reef",
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

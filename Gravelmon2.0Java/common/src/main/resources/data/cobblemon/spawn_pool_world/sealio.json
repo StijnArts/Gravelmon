@@ -7,7 +7,7 @@
       "id": "sealio-01",
       "pokemon": "sealio",
       "presets": [
-        "underwater",
+        "water",
         "reef"
       ],
       "type": "pokemon",

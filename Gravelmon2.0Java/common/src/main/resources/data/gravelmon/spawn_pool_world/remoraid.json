@@ -7,7 +7,7 @@
       "id": "forman_remoraid-01",
       "pokemon": "remoraid forman",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -56,7 +56,7 @@
       "id": "epoch_remoraid-01",
       "pokemon": "remoraid epoch",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -83,7 +83,7 @@
       "id": "lagoonan_remoraid-01",
       "pokemon": "remoraid lagoonan",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -108,7 +108,7 @@
       "id": "delta_remoraid-01",
       "pokemon": "remoraid delta",
       "presets": [
-        "lava_surface"
+        "lava"
       ],
       "type": "pokemon",
       "context": "surface",

@@ -7,7 +7,7 @@
       "id": "bossmor-01",
       "pokemon": "bossmor",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

@@ -274,7 +274,7 @@ public class Pokemon extends AbstractPokemon {
     }
 
     public Pokemon setPreferredBlocks(String... preferredBlocks) {
-        this.spawnData.stream().filter(pokemonSpawnData -> pokemonSpawnData.spawnContext() != SpawnContext.FISHING).forEach(pokemonSpawnData -> pokemonSpawnData.preferredBlocks().addAll(List.of(preferredBlocks)));
+        this.spawnData.stream().filter(pokemonSpawnData -> pokemonSpawnData.getSpawnContext() != SpawnContext.FISHING).forEach(pokemonSpawnData -> pokemonSpawnData.getPreferredBlocks().addAll(List.of(preferredBlocks)));
         return this;
     }
 
@@ -302,10 +302,10 @@ public class Pokemon extends AbstractPokemon {
     public Pokemon fishingSpawnFromExisting(List<SpawnCondition> additionalConditions){
         var firstSpawnData = spawnData.get(0);
         if (firstSpawnData != null) {
-            var conditions = new ArrayList<>(filterConditionsForFishing(firstSpawnData.spawnConditions()));
+            var conditions = new ArrayList<>(filterConditionsForFishing(firstSpawnData.getSpawnConditions()));
             conditions.addAll(additionalConditions);
-            var antiConditions = new ArrayList<>(filterConditionsForFishing(firstSpawnData.spawnAntiConditions()));
-            createFishingSpawn(firstSpawnData.spawnPool(), firstSpawnData.minSpawnLevel(), firstSpawnData.maxSpawnLevel(), firstSpawnData.spawnWeight(), conditions, antiConditions);
+            var antiConditions = new ArrayList<>(filterConditionsForFishing(firstSpawnData.getSpawnAntiConditions()));
+            createFishingSpawn(firstSpawnData.getSpawnPool(), firstSpawnData.getMinSpawnLevel(), firstSpawnData.getMaxSpawnLevel(), firstSpawnData.getSpawnWeight(), conditions, antiConditions);
         }
         return this;
     }

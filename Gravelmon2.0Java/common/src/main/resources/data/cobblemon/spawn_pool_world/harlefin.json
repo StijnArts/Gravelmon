@@ -7,7 +7,7 @@
       "id": "harlefin-01",
       "pokemon": "harlefin",
       "presets": [
-        "underwater",
+        "water",
         "reef"
       ],
       "type": "pokemon",

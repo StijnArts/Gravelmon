@@ -7,7 +7,6 @@
       "id": "polebite-01",
       "pokemon": "polebite",
       "presets": [
-        "freshwater",
         "village"
       ],
       "type": "pokemon",
@@ -17,7 +16,8 @@
       "weight": 4.949999999999999,
       "condition": {
         "biomes": [
-          "#cobblemon:is_overworld"
+          "#cobblemon:is_overworld",
+          "#cobblemon:is_freshwater"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

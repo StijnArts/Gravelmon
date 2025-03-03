@@ -7,7 +7,7 @@
       "id": "sharog-01",
       "pokemon": "sharog",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

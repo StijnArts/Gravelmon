@@ -6,9 +6,7 @@
     {
       "id": "epoch_masquerain-01",
       "pokemon": "masquerain epoch",
-      "presets": [
-        "freshwater"
-      ],
+      "presets": [],
       "type": "pokemon",
       "context": "surface",
       "bucket": "rare",
@@ -16,7 +14,8 @@
       "weight": 0.44999999999999996,
       "condition": {
         "biomes": [
-          "#cobblemon:is_temperate"
+          "#cobblemon:is_temperate",
+          "#cobblemon:is_freshwater"
         ],
         "timeRange": "night"
       },
@@ -61,7 +60,7 @@
       "id": "norheiman_masquerain-01",
       "pokemon": "masquerain norheiman",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

@@ -7,7 +7,7 @@
       "id": "bublit-01",
       "pokemon": "bublit",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

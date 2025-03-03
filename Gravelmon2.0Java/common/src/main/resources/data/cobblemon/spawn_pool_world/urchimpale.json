@@ -7,7 +7,7 @@
       "id": "urchimpale-01",
       "pokemon": "urchimpale",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

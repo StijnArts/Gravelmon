@@ -7,7 +7,7 @@
       "id": "whave-01",
       "pokemon": "whave",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

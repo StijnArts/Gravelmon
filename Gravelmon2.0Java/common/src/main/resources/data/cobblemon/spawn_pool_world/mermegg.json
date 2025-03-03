@@ -7,7 +7,7 @@
       "id": "mermegg-01",
       "pokemon": "mermegg",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

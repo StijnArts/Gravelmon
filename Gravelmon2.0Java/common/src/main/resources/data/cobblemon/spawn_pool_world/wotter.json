@@ -7,7 +7,7 @@
       "id": "wotter-01",
       "pokemon": "wotter",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

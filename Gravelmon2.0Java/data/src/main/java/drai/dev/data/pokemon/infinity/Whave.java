@@ -1,6 +1,8 @@
 package drai.dev.data.pokemon.infinity;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -121,6 +123,21 @@ public class Whave extends Pokemon {
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setAvoidsLand(true);
+        setCanWalkOnWater(true);
 
+        setBaseScale(1);
+        setHitbox(1,1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData(1f, new Vector3(0, 0.5, 0));
+        getPosingFileData().setProfileData(1f, new Vector3(0, 0.5, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withBlink().withCry(),
+                AnimationData.walkingAnimation().withBlink().withCry(),
+                AnimationData.swimmingAnimation().withBlink().withCry(),
+                AnimationData.floatingAnimation().withBlink().withCry(),
+                AnimationData.surfaceFloatingAnimation().withBlink().withCry(),
+                AnimationData.surfaceSwimmingAnimation().withBlink().withCry()
+        ));
     }
 }

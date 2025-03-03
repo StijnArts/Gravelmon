@@ -7,7 +7,7 @@
       "id": "drifsea-01",
       "pokemon": "drifsea",
       "presets": [
-        "underwater",
+        "water",
         "foliage"
       ],
       "type": "pokemon",

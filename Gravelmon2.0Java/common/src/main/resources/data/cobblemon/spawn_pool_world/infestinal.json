@@ -7,7 +7,7 @@
       "id": "infestinal-01",
       "pokemon": "infestinal",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

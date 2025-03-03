@@ -7,7 +7,7 @@
       "id": "dragorai-01",
       "pokemon": "dragorai",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "grounded",

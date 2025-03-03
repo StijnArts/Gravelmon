@@ -7,7 +7,7 @@
       "id": "gumuppi-01",
       "pokemon": "gumuppi",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

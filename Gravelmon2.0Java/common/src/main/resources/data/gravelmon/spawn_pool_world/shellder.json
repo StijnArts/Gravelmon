@@ -54,7 +54,7 @@
       "id": "nostan_shellder-01",
       "pokemon": "shellder nostan",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",
@@ -108,7 +108,7 @@
       "id": "egho_shellder-01",
       "pokemon": "shellder egho",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

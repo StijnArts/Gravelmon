@@ -6,9 +6,7 @@
     {
       "id": "carapad-01",
       "pokemon": "carapad",
-      "presets": [
-        "freshwater"
-      ],
+      "presets": [],
       "type": "pokemon",
       "context": "surface",
       "bucket": "common",
@@ -16,7 +14,8 @@
       "weight": 7.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_forest"
+          "#cobblemon:is_forest",
+          "#cobblemon:is_freshwater"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

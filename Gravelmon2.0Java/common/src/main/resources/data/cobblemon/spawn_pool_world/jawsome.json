@@ -7,7 +7,7 @@
       "id": "jawsome-01",
       "pokemon": "jawsome",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

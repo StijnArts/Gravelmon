@@ -7,7 +7,7 @@
       "id": "moreel-01",
       "pokemon": "moreel",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

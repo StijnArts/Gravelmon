@@ -8,7 +8,7 @@
       "pokemon": "pollutail",
       "presets": [
         "near_magma",
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

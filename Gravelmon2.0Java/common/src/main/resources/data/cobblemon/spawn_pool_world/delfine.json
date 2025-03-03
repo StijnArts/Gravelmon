@@ -7,7 +7,7 @@
       "id": "delfine-01",
       "pokemon": "delfine",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

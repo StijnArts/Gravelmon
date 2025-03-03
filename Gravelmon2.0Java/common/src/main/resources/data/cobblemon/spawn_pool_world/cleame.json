@@ -7,7 +7,7 @@
       "id": "cleame-01",
       "pokemon": "cleame",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

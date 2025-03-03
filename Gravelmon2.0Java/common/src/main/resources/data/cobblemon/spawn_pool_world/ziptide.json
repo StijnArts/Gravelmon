@@ -7,7 +7,7 @@
       "id": "ziptide-01",
       "pokemon": "ziptide",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

@@ -7,7 +7,7 @@
       "id": "epoch_duskull-01",
       "pokemon": "duskull epoch",
       "presets": [
-        "lava_surface"
+        "lava"
       ],
       "type": "pokemon",
       "context": "surface",
@@ -32,7 +32,7 @@
       "id": "avalossian_duskull-01",
       "pokemon": "duskull avalossian",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

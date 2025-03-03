@@ -7,7 +7,7 @@
       "id": "glaslug-01",
       "pokemon": "glaslug",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

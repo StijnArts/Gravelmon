@@ -7,7 +7,7 @@
       "id": "kraklam-01",
       "pokemon": "kraklam",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

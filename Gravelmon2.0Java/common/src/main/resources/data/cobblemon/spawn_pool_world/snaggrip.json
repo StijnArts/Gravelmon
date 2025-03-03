@@ -7,7 +7,7 @@
       "id": "snaggrip-01",
       "pokemon": "snaggrip",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

@@ -6,12 +6,50 @@
       "aspects": [
         "hoennian"
       ],
-      "model": "cobblemon:cutout_gravelmon_34_by_46.geo",
-      "poser": "cobblemon:cutout_gravelmon_34_by_46",
-      "texture": "cobblemon:textures/pokemon/generation1/hoennianvenonat.png",
+      "model": "cobblemon:generation1_hoennianvenonat.geo",
+      "poser": "cobblemon:generation1_hoennianvenonat",
+      "texture": "cobblemon:textures/pokemon/generation1/hoennianvenonat/hoennianvenonat.png",
       "layers": [
         {
-          "name": "emissive"
+          "name": "emissive",
+          "emissive": true,
+          "translucent": false,
+          "texture": "cobblemon:textures/pokemon/generation1/hoennianvenonat/hoennianvenonat_emissive.png"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "hoennian",
+        "shiny"
+      ],
+      "model": "cobblemon:generation1_hoennianvenonat.geo",
+      "poser": "cobblemon:generation1_hoennianvenonat",
+      "texture": "cobblemon:textures/pokemon/generation1/hoennianvenonat/hoennianvenonat_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "translucent": false,
+          "texture": "cobblemon:textures/pokemon/generation1/hoennianvenonat/hoennianvenonat_emissive_shiny.png"
         },
         {
           "name": "transparentEmissive"

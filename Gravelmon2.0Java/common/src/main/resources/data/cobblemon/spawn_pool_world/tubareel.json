@@ -7,7 +7,7 @@
       "id": "tubareel-01",
       "pokemon": "tubareel",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

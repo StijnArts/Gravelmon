@@ -7,7 +7,7 @@
       "id": "kamurados-01",
       "pokemon": "kamurados",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

@@ -7,7 +7,7 @@
       "id": "palaeodox-01",
       "pokemon": "palaeodox",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

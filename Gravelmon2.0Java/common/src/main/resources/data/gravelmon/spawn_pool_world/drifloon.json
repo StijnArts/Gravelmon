@@ -7,7 +7,7 @@
       "id": "epoch_drifloon-01",
       "pokemon": "drifloon epoch",
       "presets": [
-        "lava_surface"
+        "lava"
       ],
       "type": "pokemon",
       "context": "surface",

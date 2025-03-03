@@ -7,7 +7,7 @@
       "id": "maelstream-01",
       "pokemon": "maelstream",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

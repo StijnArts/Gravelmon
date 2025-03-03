@@ -6,9 +6,7 @@
     {
       "id": "brackish-01",
       "pokemon": "brackish",
-      "presets": [
-        "freshwater"
-      ],
+      "presets": [],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "uncommon",
@@ -16,7 +14,8 @@
       "weight": 6.75,
       "condition": {
         "biomes": [
-          "#cobblemon:is_jungle"
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_freshwater"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

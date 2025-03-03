@@ -7,7 +7,7 @@
       "id": "detritan-01",
       "pokemon": "detritan",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

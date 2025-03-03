@@ -151,6 +151,7 @@
 			}
 		},
 		"animation.eghohoothoot.sleep": {
+			"loop": true,
 			"animation_length": 0.1667,
 			"bones": {
 				"eyes_closed": {

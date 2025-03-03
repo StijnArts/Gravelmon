@@ -6,9 +6,7 @@
     {
       "id": "epoch_surskit-01",
       "pokemon": "surskit epoch",
-      "presets": [
-        "freshwater"
-      ],
+      "presets": [],
       "type": "pokemon",
       "context": "surface",
       "bucket": "rare",
@@ -16,7 +14,8 @@
       "weight": 4.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_temperate"
+          "#cobblemon:is_temperate",
+          "#cobblemon:is_freshwater"
         ],
         "timeRange": "night"
       },

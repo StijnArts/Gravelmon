@@ -34,7 +34,7 @@
       "id": "epoch_muk-01",
       "pokemon": "muk epoch",
       "presets": [
-        "lava_surface"
+        "lava"
       ],
       "type": "pokemon",
       "context": "surface",

@@ -7,7 +7,7 @@
       "id": "spectrance-01",
       "pokemon": "spectrance",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

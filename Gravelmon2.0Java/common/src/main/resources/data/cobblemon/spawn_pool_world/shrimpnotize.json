@@ -7,7 +7,7 @@
       "id": "shrimpnotize-01",
       "pokemon": "shrimpnotize",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

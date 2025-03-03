@@ -7,7 +7,7 @@
       "id": "coldfin-01",
       "pokemon": "coldfin",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

@@ -7,7 +7,7 @@
       "id": "musshield-01",
       "pokemon": "musshield",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

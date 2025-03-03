@@ -395,7 +395,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "baseScale": 0.5217391304347826,
+      "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
         "runaway",
@@ -485,8 +485,7 @@
       ],
       "labels": [
         "blazing_emerald",
-        "gen1",
-        "not_modeled"
+        "gen1"
       ],
       "pokedex": [
         "cobblemon.species.hoennianvenonat.desc"
@@ -508,6 +507,10 @@
               "variant": "properties",
               "target": "gender=male",
               "contains": true
+            },
+            {
+              "variant": "level",
+              "minLevel": "31"
             }
           ],
           "permanent": true
@@ -523,6 +526,10 @@
               "variant": "properties",
               "target": "gender=female",
               "contains": true
+            },
+            {
+              "variant": "level",
+              "minLevel": "31"
             }
           ],
           "permanent": true
@@ -530,8 +537,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 1.0,
+        "height": 1.0,
         "fixed": false
       }
     },

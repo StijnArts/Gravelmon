@@ -7,7 +7,7 @@
       "id": "handren-01",
       "pokemon": "handren",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

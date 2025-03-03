@@ -21,6 +21,7 @@
       ],
       "poseTypes": [
         "STAND",
+        "SLEEP",
         "HOVER",
         "FLY",
         "FLOAT",
@@ -60,17 +61,6 @@
           "name": "blink"
         }
       ]
-    },
-    "sleeping": {
-      "poseName": "sleeping",
-      "animations": [
-        "bedrock(deltabuneary, sleep)"
-      ],
-      "poseTypes": [
-        "SLEEP"
-      ],
-      "transformTicks": 10,
-      "quirks": []
     }
   }
 }

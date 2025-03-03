@@ -25,14 +25,14 @@ public class PostRegistration {
             if (pokemon.getCatchRate() == 0)
                 pokemonWithZeroCatchrate.append(pokemon.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ").append(pokemon.getCleanName()).append(",\n");
             for (var spawnData : pokemon.getSpawnData()){
-                if (spawnData.spawnPresets().size() > 1) {
+                if (spawnData.getSpawnPresets().size() > 1) {
                     pokemonWithMoreThanTwoSpawnPresets.append(pokemon.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ").append(pokemon.getCleanName()).append(", being: ");
-                    for (var preset : spawnData.spawnPresets()) {
+                    for (var preset : spawnData.getSpawnPresets()) {
                         pokemonWithMoreThanTwoSpawnPresets.append(preset).append(",");
                     }
                     pokemonWithMoreThanTwoSpawnPresets.append("\n");
                 }
-                if(spawnData.preferredBlocks().isEmpty()){
+                if(spawnData.getPreferredBlocks().isEmpty()){
                     pokemonWithNoPreferredBlocks.add(pokemon);
                 }
             }
@@ -148,7 +148,7 @@ public class PostRegistration {
         for (int i = pokemonWithNoPreferredBlocks.size() - 1; i > -1; i--) {
             var pokemon = pokemonWithNoPreferredBlocks.get(i);
             pokemon.spawnData.forEach(pokemonSpawnData -> {
-                if(pokemonSpawnData.preferredBlocks().isEmpty()) pokemonSpawnData.preferredBlocks().add(pokemon.primaryType.getPreferredBlock());
+                if(pokemonSpawnData.getPreferredBlocks().isEmpty()) pokemonSpawnData.getPreferredBlocks().add(pokemon.primaryType.getPreferredBlock());
             });
         }
         for (var pokemon : sortedPokemonList) {

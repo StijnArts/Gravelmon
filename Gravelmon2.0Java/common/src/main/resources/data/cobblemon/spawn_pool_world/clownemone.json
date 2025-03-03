@@ -7,7 +7,7 @@
       "id": "clownemone-01",
       "pokemon": "clownemone",
       "presets": [
-        "underwater",
+        "water",
         "reef"
       ],
       "type": "pokemon",

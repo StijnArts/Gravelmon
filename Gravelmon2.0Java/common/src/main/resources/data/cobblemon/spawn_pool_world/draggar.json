@@ -7,7 +7,7 @@
       "id": "draggar-01",
       "pokemon": "draggar",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

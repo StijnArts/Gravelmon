@@ -32,7 +32,7 @@
       "id": "vesitan_bergmite-01",
       "pokemon": "bergmite vesitan",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

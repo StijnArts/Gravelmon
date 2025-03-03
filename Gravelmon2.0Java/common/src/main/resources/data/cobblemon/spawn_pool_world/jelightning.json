@@ -7,7 +7,7 @@
       "id": "jelightning-01",
       "pokemon": "jelightning",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

@@ -7,7 +7,7 @@
       "id": "jormydos-01",
       "pokemon": "jormydos",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

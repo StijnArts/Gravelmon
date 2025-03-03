@@ -7,7 +7,7 @@
       "id": "urtichum-01",
       "pokemon": "urtichum",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

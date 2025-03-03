@@ -7,7 +7,7 @@
       "id": "epoch_feebas-01",
       "pokemon": "feebas epoch",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -35,7 +35,7 @@
       "id": "epoch_feebas-01",
       "pokemon": "feebas epoch",
       "presets": [
-        "underlava"
+        "lava"
       ],
       "type": "pokemon",
       "context": "submerged",

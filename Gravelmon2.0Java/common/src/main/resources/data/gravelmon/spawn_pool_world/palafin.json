@@ -7,7 +7,7 @@
       "id": "epoch_palafin-01",
       "pokemon": "palafin epoch",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

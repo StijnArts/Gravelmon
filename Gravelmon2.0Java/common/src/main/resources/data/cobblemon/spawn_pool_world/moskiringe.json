@@ -6,9 +6,7 @@
     {
       "id": "moskiringe-01",
       "pokemon": "moskiringe",
-      "presets": [
-        "freshwater"
-      ],
+      "presets": [],
       "type": "pokemon",
       "context": "surface",
       "bucket": "uncommon",
@@ -16,7 +14,8 @@
       "weight": 0.30000000000000004,
       "condition": {
         "biomes": [
-          "#cobblemon:is_swamp"
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_freshwater"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

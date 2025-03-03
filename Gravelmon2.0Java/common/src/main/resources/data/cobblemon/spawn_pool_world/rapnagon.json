@@ -7,7 +7,7 @@
       "id": "rapnagon-01",
       "pokemon": "rapnagon",
       "presets": [
-        "nether_fortress"
+        "nether_structures"
       ],
       "type": "pokemon",
       "context": "grounded",

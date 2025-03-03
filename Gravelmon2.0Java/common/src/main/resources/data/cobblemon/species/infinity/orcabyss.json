@@ -8,7 +8,7 @@
   "eggCycles": 62,
   "baseFriendship": 70,
   "preEvolution": "whave",
-  "baseScale": 0.6,
+  "baseScale": 1.0,
   "cannotDynamax": false,
   "abilities": [
     "pressure",
@@ -159,7 +159,6 @@
   ],
   "labels": [
     "sage",
-    "not_modeled",
     "fakemon",
     "fakemonevolution"
   ],
@@ -170,11 +169,11 @@
   "weight": 7685,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1294,
+  "nationalPokedexNumber": 1296,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "features": [],

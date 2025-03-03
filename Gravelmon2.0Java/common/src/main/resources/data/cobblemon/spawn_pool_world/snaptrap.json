@@ -7,7 +7,7 @@
       "id": "snaptrap-01",
       "pokemon": "snaptrap",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

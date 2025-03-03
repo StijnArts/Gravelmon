@@ -8,7 +8,7 @@
       "pokemon": "illuquid",
       "presets": [
         "reef",
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

@@ -6,9 +6,7 @@
     {
       "id": "spinox-01",
       "pokemon": "spinox",
-      "presets": [
-        "freshwater"
-      ],
+      "presets": [],
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "rare",
@@ -16,7 +14,8 @@
       "weight": 1.35,
       "condition": {
         "biomes": [
-          "#cobblemon:is_river"
+          "#cobblemon:is_river",
+          "#cobblemon:is_freshwater"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

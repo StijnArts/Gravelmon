@@ -7,7 +7,7 @@
       "id": "cocarid-01",
       "pokemon": "cocarid",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

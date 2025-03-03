@@ -7,7 +7,7 @@
       "id": "spinostern-01",
       "pokemon": "spinostern",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

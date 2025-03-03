@@ -7,7 +7,7 @@
       "id": "mantilist-01",
       "pokemon": "mantilist",
       "presets": [
-        "underwater",
+        "water",
         "reef"
       ],
       "type": "pokemon",

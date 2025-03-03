@@ -7,7 +7,7 @@
       "id": "perilscope-01",
       "pokemon": "perilscope",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

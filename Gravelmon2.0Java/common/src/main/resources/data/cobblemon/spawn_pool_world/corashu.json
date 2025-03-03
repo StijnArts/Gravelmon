@@ -7,7 +7,7 @@
       "id": "corashu-01",
       "pokemon": "corashu",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

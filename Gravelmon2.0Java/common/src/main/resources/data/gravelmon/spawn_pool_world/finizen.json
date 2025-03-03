@@ -7,7 +7,7 @@
       "id": "epoch_finizen-01",
       "pokemon": "finizen epoch",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

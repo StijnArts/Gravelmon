@@ -7,7 +7,7 @@
       "id": "jaguatter-01",
       "pokemon": "jaguatter",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

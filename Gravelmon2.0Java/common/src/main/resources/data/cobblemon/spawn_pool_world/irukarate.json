@@ -7,7 +7,7 @@
       "id": "irukarate-01",
       "pokemon": "irukarate",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

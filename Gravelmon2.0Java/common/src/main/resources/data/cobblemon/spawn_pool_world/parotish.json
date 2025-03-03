@@ -7,7 +7,7 @@
       "id": "parotish-01",
       "pokemon": "parotish",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

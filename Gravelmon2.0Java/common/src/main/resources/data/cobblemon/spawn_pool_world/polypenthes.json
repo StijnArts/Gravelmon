@@ -7,7 +7,7 @@
       "id": "polypenthes-01",
       "pokemon": "polypenthes",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

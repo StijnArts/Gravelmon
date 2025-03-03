@@ -7,7 +7,7 @@
       "id": "heimdrake-01",
       "pokemon": "heimdrake",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

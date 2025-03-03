@@ -491,7 +491,7 @@
       "eggCycles": 41,
       "baseFriendship": 70,
       "preEvolution": "trishout",
-      "baseScale": 0.7591836734693878,
+      "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
         "voicetuning"
@@ -644,7 +644,6 @@
       ],
       "labels": [
         "xenoverse",
-        "not_modeled",
         "fakemon",
         "fakemonevolution"
       ],
@@ -697,8 +696,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 1.0,
+        "height": 1.0,
         "fixed": false
       }
     },

@@ -7,7 +7,7 @@
       "id": "tadilly-01",
       "pokemon": "tadilly",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

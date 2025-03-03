@@ -7,7 +7,7 @@
       "id": "crustocean-01",
       "pokemon": "crustocean",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

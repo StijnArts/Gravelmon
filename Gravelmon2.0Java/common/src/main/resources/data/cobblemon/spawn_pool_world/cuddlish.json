@@ -7,7 +7,7 @@
       "id": "cuddlish-01",
       "pokemon": "cuddlish",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

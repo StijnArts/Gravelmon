@@ -7,7 +7,7 @@
       "id": "goosea-01",
       "pokemon": "goosea",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

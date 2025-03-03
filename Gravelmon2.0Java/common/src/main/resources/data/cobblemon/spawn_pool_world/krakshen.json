@@ -7,7 +7,7 @@
       "id": "krakshen-01",
       "pokemon": "krakshen",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

@@ -7,7 +7,7 @@
       "id": "forman_diglett-01",
       "pokemon": "diglett forman",
       "presets": [
-        "underwater",
+        "water",
         "reef"
       ],
       "type": "pokemon",

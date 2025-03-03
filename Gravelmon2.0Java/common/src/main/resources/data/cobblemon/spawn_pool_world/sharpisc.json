@@ -7,7 +7,7 @@
       "id": "sharpisc-01",
       "pokemon": "sharpisc",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

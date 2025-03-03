@@ -7,7 +7,7 @@
       "id": "volcamone-01",
       "pokemon": "volcamone",
       "presets": [
-        "underwater",
+        "water",
         "reef"
       ],
       "type": "pokemon",

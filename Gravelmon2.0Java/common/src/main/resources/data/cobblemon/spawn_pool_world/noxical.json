@@ -7,7 +7,7 @@
       "id": "noxical-01",
       "pokemon": "noxical",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

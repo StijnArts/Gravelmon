@@ -7,7 +7,7 @@
       "id": "coronacaw-01",
       "pokemon": "coronacaw",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

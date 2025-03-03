@@ -7,7 +7,7 @@
       "id": "conium-01",
       "pokemon": "conium",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

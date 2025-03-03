@@ -7,7 +7,7 @@
       "id": "vicera-01",
       "pokemon": "vicera",
       "presets": [
-        "underwater",
+        "water",
         "natural"
       ],
       "type": "pokemon",

@@ -7,7 +7,7 @@
       "id": "magnitogre-01",
       "pokemon": "magnitogre",
       "presets": [
-        "lava_surface"
+        "lava"
       ],
       "type": "pokemon",
       "context": "grounded",

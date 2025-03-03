@@ -44,6 +44,7 @@ public class BlazingEmerald extends Game {
         addNewPokemon(new Bawlfrog());
         addPokedexPokemon("dreepy-hoennian, drakloak-hoennian, dragapult-hoennian, regigigas-hoennian");
         addNewPokemon(new Vitellion());
+        addNewPokemon(new Crawb());
         addNewPokemon(new Metunn());
     }
 }

@@ -7,7 +7,7 @@
       "id": "rayside-01",
       "pokemon": "rayside",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

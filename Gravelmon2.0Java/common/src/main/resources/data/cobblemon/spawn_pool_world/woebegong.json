@@ -6,9 +6,7 @@
     {
       "id": "woebegong-01",
       "pokemon": "woebegong",
-      "presets": [
-        "freshwater"
-      ],
+      "presets": [],
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "rare",
@@ -16,7 +14,8 @@
       "weight": 2.4000000000000004,
       "condition": {
         "biomes": [
-          "#cobblemon:is_badlands"
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_freshwater"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

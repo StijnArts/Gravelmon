@@ -7,7 +7,7 @@
       "id": "flopperoni-01",
       "pokemon": "flopperoni",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

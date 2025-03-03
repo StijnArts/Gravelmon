@@ -7,7 +7,7 @@
       "id": "lamnaw-01",
       "pokemon": "lamnaw",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

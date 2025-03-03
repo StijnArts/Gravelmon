@@ -9,7 +9,7 @@
   "eggCycles": 39,
   "baseFriendship": 70,
   "preEvolution": "mightyena",
-  "baseScale": 0.3493670886075949,
+  "baseScale": 1.0,
   "cannotDynamax": false,
   "abilities": [
     "intimidate",
@@ -185,7 +185,6 @@
   ],
   "labels": [
     "infinity",
-    "not_modeled",
     "fakemonevolution"
   ],
   "pokedex": [
@@ -195,11 +194,11 @@
   "weight": 1080,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1268,
+  "nationalPokedexNumber": 1270,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "features": [],

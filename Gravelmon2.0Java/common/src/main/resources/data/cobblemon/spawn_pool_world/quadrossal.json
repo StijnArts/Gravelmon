@@ -7,7 +7,7 @@
       "id": "quadrossal-01",
       "pokemon": "quadrossal",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "grounded",

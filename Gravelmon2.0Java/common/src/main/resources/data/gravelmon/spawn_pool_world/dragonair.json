@@ -6,22 +6,11 @@
     {
       "id": "mahalian_dragonair-01",
       "pokemon": "dragonair mahalian",
-      "presets": [
-        "natural"
-      ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
+      "level": "1-1",
+      "weight": 0.0,
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
@@ -37,14 +26,8 @@
       "type": "pokemon",
       "context": "fishing",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
-        ]
-      },
+      "level": "1-1",
+      "weight": 0.0,
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
@@ -58,7 +41,7 @@
       "id": "forman_dragonair-01",
       "pokemon": "dragonair forman",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -135,9 +118,7 @@
     {
       "id": "norheiman_dragonair-01",
       "pokemon": "dragonair norheiman",
-      "presets": [
-        "freshwater"
-      ],
+      "presets": [],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "rare",
@@ -145,7 +126,8 @@
       "weight": 1.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_taiga"
+          "#cobblemon:is_taiga",
+          "#cobblemon:is_freshwater"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

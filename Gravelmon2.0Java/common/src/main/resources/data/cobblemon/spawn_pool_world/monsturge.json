@@ -7,7 +7,7 @@
       "id": "monsturge-01",
       "pokemon": "monsturge",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

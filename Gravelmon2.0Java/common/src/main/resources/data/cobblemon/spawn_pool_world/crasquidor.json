@@ -8,7 +8,7 @@
       "pokemon": "crasquidor",
       "presets": [
         "reef",
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

@@ -7,7 +7,7 @@
       "id": "zapouch-01",
       "pokemon": "zapouch",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

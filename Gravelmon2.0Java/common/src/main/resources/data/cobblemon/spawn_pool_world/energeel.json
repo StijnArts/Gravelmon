@@ -7,7 +7,7 @@
       "id": "energeel-01",
       "pokemon": "energeel",
       "presets": [
-        "underwater",
+        "water",
         "reef"
       ],
       "type": "pokemon",

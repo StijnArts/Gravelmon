@@ -7,7 +7,7 @@
       "id": "albamate-01",
       "pokemon": "albamate",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

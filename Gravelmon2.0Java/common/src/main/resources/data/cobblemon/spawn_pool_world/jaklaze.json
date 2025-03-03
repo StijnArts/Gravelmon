@@ -7,7 +7,7 @@
       "id": "jaklaze-01",
       "pokemon": "jaklaze",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

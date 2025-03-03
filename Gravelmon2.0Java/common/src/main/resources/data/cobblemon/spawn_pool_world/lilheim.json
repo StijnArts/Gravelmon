@@ -7,7 +7,7 @@
       "id": "lilheim-01",
       "pokemon": "lilheim",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

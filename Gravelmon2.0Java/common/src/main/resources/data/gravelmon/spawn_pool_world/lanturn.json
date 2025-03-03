@@ -7,7 +7,7 @@
       "id": "raianian_lanturn-01",
       "pokemon": "lanturn raianian",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",
@@ -57,7 +57,7 @@
       "id": "mastenian_lanturn-01",
       "pokemon": "lanturn mastenian",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -135,7 +135,7 @@
       "id": "hoennian_lanturn-01",
       "pokemon": "lanturn hoennian",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

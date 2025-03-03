@@ -6,12 +6,50 @@
       "aspects": [
         "hoennian"
       ],
-      "model": "cobblemon:cutout_gravelmon_42_by_55.geo",
-      "poser": "cobblemon:cutout_gravelmon_42_by_55",
-      "texture": "cobblemon:textures/pokemon/generation5/hoennianmaractus.png",
+      "model": "cobblemon:generation5_hoennianmaractus.geo",
+      "poser": "cobblemon:generation5_hoennianmaractus",
+      "texture": "cobblemon:textures/pokemon/generation5/hoennianmaractus/hoennianmaractus.png",
       "layers": [
         {
-          "name": "emissive"
+          "name": "emissive",
+          "emissive": true,
+          "translucent": false,
+          "texture": "cobblemon:textures/pokemon/generation5/hoennianmaractus/hoennianmaractus_emissive.png"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "hoennian",
+        "shiny"
+      ],
+      "model": "cobblemon:generation5_hoennianmaractus.geo",
+      "poser": "cobblemon:generation5_hoennianmaractus",
+      "texture": "cobblemon:textures/pokemon/generation5/hoennianmaractus/hoennianmaractus_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "translucent": false,
+          "texture": "cobblemon:textures/pokemon/generation5/hoennianmaractus/hoennianmaractus_emissive_shiny.png"
         },
         {
           "name": "transparentEmissive"

@@ -169,8 +169,7 @@ public class DeltaBuneary extends Pokemon {
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
                 AnimationData.standingAnimation().withLook().markAsBackupPose().withBlink(),
-                AnimationData.walkingAnimation().withLook().withBlink(),
-                AnimationData.sleepingAnimation()
+                AnimationData.walkingAnimation().withLook().withBlink()
         ));
     }
 }

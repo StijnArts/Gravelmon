@@ -91,7 +91,7 @@ public class Mastenia extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Phanpunk());   
         addNewPokemon(new Banshriek(new Stats(490, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))));
         addNewPokemon(new Echoplasm(new Stats(490, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))));
-        addNewPokemon(new Leturte());   
+        addNewPokemon(new Leturte());
         addNewPokemon(new Morturtle(new Stats(470, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))));
         addNewPokemon(new Chickling());   
         addNewPokemon(new Strickhen(new Stats(440, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.HP))));

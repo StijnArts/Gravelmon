@@ -7,7 +7,7 @@
       "id": "vesitan_clawitzer-01",
       "pokemon": "clawitzer vesitan",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

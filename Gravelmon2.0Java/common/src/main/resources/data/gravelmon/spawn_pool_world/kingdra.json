@@ -7,7 +7,7 @@
       "id": "epoch_kingdra-01",
       "pokemon": "kingdra epoch",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -34,7 +34,6 @@
       "id": "epoch_kingdra-01",
       "pokemon": "kingdra epoch",
       "presets": [
-        "freshwater",
         "natural"
       ],
       "type": "pokemon",
@@ -44,7 +43,8 @@
       "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
-          "#cobblemon:is_jungle"
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_freshwater"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

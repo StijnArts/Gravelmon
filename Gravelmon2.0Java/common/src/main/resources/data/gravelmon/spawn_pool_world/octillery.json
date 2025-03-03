@@ -7,7 +7,7 @@
       "id": "epoch_octillery-01",
       "pokemon": "octillery epoch",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -34,7 +34,7 @@
       "id": "lagoonan_octillery-01",
       "pokemon": "octillery lagoonan",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

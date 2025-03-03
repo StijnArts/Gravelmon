@@ -7,7 +7,7 @@
       "id": "liviscous-01",
       "pokemon": "liviscous",
       "presets": [
-        "underwater",
+        "water",
         "foliage"
       ],
       "type": "pokemon",

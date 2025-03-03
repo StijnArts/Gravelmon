@@ -7,7 +7,7 @@
       "id": "rivotter-01",
       "pokemon": "rivotter",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

@@ -7,7 +7,7 @@
       "id": "salamink-01",
       "pokemon": "salamink",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

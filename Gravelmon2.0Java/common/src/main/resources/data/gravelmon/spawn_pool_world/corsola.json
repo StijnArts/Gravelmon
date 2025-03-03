@@ -54,9 +54,7 @@
     {
       "id": "epoch_corsola-01",
       "pokemon": "corsola epoch",
-      "presets": [
-        "freshwater"
-      ],
+      "presets": [],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "rare",
@@ -64,7 +62,8 @@
       "weight": 6.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_swamp"
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_freshwater"
         ]
       },
       "weightMultiplier": {

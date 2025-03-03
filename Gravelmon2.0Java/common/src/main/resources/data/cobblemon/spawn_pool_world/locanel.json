@@ -7,7 +7,7 @@
       "id": "locanel-01",
       "pokemon": "locanel",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

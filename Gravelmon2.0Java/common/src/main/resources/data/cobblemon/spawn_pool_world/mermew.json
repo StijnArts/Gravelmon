@@ -7,7 +7,7 @@
       "id": "mermew-01",
       "pokemon": "mermew",
       "presets": [
-        "underwater",
+        "water",
         "reef"
       ],
       "type": "pokemon",

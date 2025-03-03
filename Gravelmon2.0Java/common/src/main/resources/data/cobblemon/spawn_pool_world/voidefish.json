@@ -7,7 +7,7 @@
       "id": "voidefish-01",
       "pokemon": "voidefish",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

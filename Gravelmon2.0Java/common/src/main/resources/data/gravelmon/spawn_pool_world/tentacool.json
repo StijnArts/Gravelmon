@@ -35,7 +35,7 @@
       "id": "mastenian_tentacool-01",
       "pokemon": "tentacool mastenian",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -117,7 +117,7 @@
       "id": "hoennian_tentacool-01",
       "pokemon": "tentacool hoennian",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -168,7 +168,7 @@
       "id": "relic_tentacool-01",
       "pokemon": "tentacool relic",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

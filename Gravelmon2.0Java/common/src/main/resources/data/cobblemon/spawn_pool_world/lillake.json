@@ -7,7 +7,7 @@
       "id": "lillake-01",
       "pokemon": "lillake",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

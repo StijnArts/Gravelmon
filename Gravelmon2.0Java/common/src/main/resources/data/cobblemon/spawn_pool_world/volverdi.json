@@ -8,7 +8,7 @@
       "pokemon": "volverdi",
       "presets": [
         "foliage",
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

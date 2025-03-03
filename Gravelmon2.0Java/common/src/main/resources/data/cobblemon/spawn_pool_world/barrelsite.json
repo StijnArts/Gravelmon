@@ -7,7 +7,7 @@
       "id": "barrelsite-01",
       "pokemon": "barrelsite",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

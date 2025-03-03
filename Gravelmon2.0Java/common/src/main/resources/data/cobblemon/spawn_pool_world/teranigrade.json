@@ -7,7 +7,7 @@
       "id": "teranigrade-01",
       "pokemon": "teranigrade",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -34,7 +34,7 @@
       "id": "fire_teranigrade-01",
       "pokemon": "teranigrade fire",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -61,7 +61,7 @@
       "id": "ice_teranigrade-01",
       "pokemon": "teranigrade ice",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -88,7 +88,7 @@
       "id": "fire_teranigrade-01",
       "pokemon": "teranigrade fire",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

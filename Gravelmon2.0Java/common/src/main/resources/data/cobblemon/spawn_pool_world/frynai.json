@@ -7,7 +7,7 @@
       "id": "frynai-01",
       "pokemon": "frynai",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

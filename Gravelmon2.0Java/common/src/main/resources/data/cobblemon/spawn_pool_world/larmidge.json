@@ -6,9 +6,7 @@
     {
       "id": "larmidge-01",
       "pokemon": "larmidge",
-      "presets": [
-        "freshwater"
-      ],
+      "presets": [],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "common",
@@ -17,7 +15,8 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_forest",
-          "#cobblemon:is_grassland"
+          "#cobblemon:is_grassland",
+          "#cobblemon:is_freshwater"
         ]
       },
       "weightMultiplier": {

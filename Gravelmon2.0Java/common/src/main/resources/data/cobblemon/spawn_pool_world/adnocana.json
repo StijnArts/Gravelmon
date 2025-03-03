@@ -7,7 +7,7 @@
       "id": "adnocana-01",
       "pokemon": "adnocana",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

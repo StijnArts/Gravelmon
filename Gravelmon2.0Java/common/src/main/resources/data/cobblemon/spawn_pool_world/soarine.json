@@ -7,7 +7,7 @@
       "id": "soarine-01",
       "pokemon": "soarine",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

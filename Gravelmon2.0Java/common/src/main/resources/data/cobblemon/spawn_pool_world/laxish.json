@@ -7,7 +7,7 @@
       "id": "laxish-01",
       "pokemon": "laxish",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

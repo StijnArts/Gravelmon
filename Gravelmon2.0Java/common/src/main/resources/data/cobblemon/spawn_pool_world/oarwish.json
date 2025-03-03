@@ -7,7 +7,7 @@
       "id": "oarwish-01",
       "pokemon": "oarwish",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

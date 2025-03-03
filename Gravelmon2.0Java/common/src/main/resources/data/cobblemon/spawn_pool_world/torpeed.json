@@ -8,7 +8,7 @@
       "pokemon": "torpeed",
       "presets": [
         "natural",
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

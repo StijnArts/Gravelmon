@@ -7,7 +7,7 @@
       "id": "mermantic-01",
       "pokemon": "mermantic",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

@@ -34,7 +34,7 @@
       "id": "lagoonan_hatterene-01",
       "pokemon": "hatterene lagoonan",
       "presets": [
-        "underwater",
+        "water",
         "reef"
       ],
       "type": "pokemon",

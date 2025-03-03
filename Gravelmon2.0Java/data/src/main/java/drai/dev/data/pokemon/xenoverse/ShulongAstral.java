@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.xenoverse;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -100,5 +101,16 @@ public class ShulongAstral extends Pokemon {
 
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
+
+
+        setBaseScale(1);
+        setHitbox(1,1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData(1.32f, new Vector3(-0.74, 2, 0));
+        getPosingFileData().setProfileData(.48f, new Vector3(0, 1.01, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().markAsBackupPose().withLook()
+        ));
     }
 }

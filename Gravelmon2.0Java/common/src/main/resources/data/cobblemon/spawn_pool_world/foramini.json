@@ -7,7 +7,7 @@
       "id": "foramini-01",
       "pokemon": "foramini",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

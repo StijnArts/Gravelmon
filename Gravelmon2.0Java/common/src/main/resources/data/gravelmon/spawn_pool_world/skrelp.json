@@ -8,7 +8,7 @@
       "pokemon": "skrelp epoch",
       "presets": [
         "foliage",
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -33,7 +33,7 @@
       "id": "vesitan_skrelp-01",
       "pokemon": "skrelp vesitan",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

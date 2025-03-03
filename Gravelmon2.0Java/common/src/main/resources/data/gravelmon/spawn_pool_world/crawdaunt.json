@@ -39,7 +39,7 @@
       "id": "norheiman_crawdaunt-01",
       "pokemon": "crawdaunt norheiman",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

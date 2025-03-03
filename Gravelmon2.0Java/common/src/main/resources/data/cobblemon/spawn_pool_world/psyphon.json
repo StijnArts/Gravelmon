@@ -7,7 +7,7 @@
       "id": "psyphon-01",
       "pokemon": "psyphon",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

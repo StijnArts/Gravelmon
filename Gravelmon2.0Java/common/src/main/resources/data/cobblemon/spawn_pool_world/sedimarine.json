@@ -7,7 +7,7 @@
       "id": "sedimarine-01",
       "pokemon": "sedimarine",
       "presets": [
-        "underwater",
+        "water",
         "reef"
       ],
       "type": "pokemon",

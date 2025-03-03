@@ -7,7 +7,7 @@
       "id": "merluscious-01",
       "pokemon": "merluscious",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

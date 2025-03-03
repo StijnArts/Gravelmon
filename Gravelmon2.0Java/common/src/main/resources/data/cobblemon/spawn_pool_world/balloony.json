@@ -7,7 +7,7 @@
       "id": "balloony-01",
       "pokemon": "balloony",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

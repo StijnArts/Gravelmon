@@ -65,15 +65,15 @@ public class PosingFileData {
     }
 
     public void addCry(){
-        faint = "bedrock("+animationFileName+", cry)";
+        cry = "bedrock("+animationFileName+", cry)";
     }
 
     public void addPhysical(){
-        faint = "bedrock("+animationFileName+", physical)";
+        physical = "bedrock("+animationFileName+", physical)";
     }
 
     public void addSpecial(){
-        faint = "bedrock("+animationFileName+", special)";
+        special = "bedrock("+animationFileName+", special)";
     }
 
     public void setFaint(String faint) {

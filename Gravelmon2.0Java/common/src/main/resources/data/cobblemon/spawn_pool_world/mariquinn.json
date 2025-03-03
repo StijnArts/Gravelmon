@@ -7,7 +7,7 @@
       "id": "mariquinn-01",
       "pokemon": "mariquinn",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

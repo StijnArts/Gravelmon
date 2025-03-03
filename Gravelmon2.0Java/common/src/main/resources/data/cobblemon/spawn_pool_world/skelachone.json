@@ -7,7 +7,7 @@
       "id": "skelachone-01",
       "pokemon": "skelachone",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

@@ -8,7 +8,7 @@
       "pokemon": "caimar",
       "presets": [
         "natural",
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

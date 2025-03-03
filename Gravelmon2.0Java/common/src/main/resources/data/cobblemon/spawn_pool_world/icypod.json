@@ -7,7 +7,7 @@
       "id": "icypod-01",
       "pokemon": "icypod",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

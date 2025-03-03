@@ -7,7 +7,7 @@
       "id": "sableau-01",
       "pokemon": "sableau",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

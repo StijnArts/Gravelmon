@@ -7,7 +7,7 @@
       "id": "scubargon-01",
       "pokemon": "scubargon",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

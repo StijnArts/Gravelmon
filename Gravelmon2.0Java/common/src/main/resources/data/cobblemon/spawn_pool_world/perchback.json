@@ -7,7 +7,7 @@
       "id": "perchback-01",
       "pokemon": "perchback",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

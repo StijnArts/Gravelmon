@@ -7,7 +7,7 @@
       "id": "tentalcyon-01",
       "pokemon": "tentalcyon",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

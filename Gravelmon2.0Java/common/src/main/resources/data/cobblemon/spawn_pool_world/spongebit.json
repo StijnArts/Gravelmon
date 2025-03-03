@@ -7,7 +7,7 @@
       "id": "spongebit-01",
       "pokemon": "spongebit",
       "presets": [
-        "underwater",
+        "water",
         "reef"
       ],
       "type": "pokemon",

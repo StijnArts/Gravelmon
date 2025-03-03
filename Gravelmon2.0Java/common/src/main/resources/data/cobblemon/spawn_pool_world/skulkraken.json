@@ -7,7 +7,7 @@
       "id": "skulkraken-01",
       "pokemon": "skulkraken",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

@@ -7,7 +7,7 @@
       "id": "scubeel-01",
       "pokemon": "scubeel",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

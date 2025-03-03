@@ -62,7 +62,7 @@
       "pokemon": "koffing qamoran",
       "presets": [
         "near_magma",
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

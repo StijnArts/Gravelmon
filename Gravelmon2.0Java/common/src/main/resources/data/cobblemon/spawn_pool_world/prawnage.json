@@ -6,9 +6,7 @@
     {
       "id": "prawnage-01",
       "pokemon": "prawnage",
-      "presets": [
-        "freshwater"
-      ],
+      "presets": [],
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "uncommon",
@@ -16,7 +14,8 @@
       "weight": 1.0499999999999998,
       "condition": {
         "biomes": [
-          "#cobblemon:is_swamp"
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_freshwater"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

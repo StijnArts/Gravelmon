@@ -7,7 +7,7 @@
       "id": "corabdis-01",
       "pokemon": "corabdis",
       "presets": [
-        "underwater",
+        "water",
         "reef"
       ],
       "type": "pokemon",

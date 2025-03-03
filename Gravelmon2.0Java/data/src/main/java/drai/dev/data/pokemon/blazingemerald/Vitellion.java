@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.blazingemerald;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.data.util.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
@@ -55,5 +56,13 @@ public class Vitellion extends Pokemon {
                 0.19, 0.3,
                 List.of());
 
+        setBaseScale(1);
+        setHitbox(1,1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData(2.24f, new Vector3(0.08, -1.11, 0));
+        getPosingFileData().setProfileData(1f, new Vector3(0.0, .35, 0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().markAsBackupPose().withBlink()
+        ));
     }
 }

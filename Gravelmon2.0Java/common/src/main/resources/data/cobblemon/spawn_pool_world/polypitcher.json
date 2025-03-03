@@ -7,7 +7,7 @@
       "id": "polypitcher-01",
       "pokemon": "polypitcher",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

@@ -7,7 +7,7 @@
       "id": "posschest-01",
       "pokemon": "posschest",
       "presets": [
-        "underwater",
+        "water",
         "shipwreck"
       ],
       "type": "pokemon",

@@ -7,7 +7,7 @@
       "id": "jellysquish-01",
       "pokemon": "jellysquish",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

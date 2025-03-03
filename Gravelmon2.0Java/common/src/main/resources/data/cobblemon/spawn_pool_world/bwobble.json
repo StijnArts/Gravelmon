@@ -7,7 +7,7 @@
       "id": "bwobble-01",
       "pokemon": "bwobble",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

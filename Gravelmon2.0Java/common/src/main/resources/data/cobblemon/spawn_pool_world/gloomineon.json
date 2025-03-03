@@ -7,7 +7,7 @@
       "id": "gloomineon-01",
       "pokemon": "gloomineon",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

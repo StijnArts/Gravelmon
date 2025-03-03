@@ -1,6 +1,8 @@
 package drai.dev.data.pokemon.blazingemerald.regional;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.data.util.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
@@ -71,5 +73,17 @@ public class HoennianPinsir extends Pokemon {
                 List.of());
         this.setLangFileName("Pinsir");
 
+        setBaseScale(1);
+        setHitbox(1,1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("hoennianpinsir");
+        getPosingFileData().setPortraitData(1.8f, new Vector3(-.44, -0.07, 0));
+        getPosingFileData().setProfileData(.56f, new Vector3(0, 0.9, 0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().notBattle().withBlink().addPoseType(PoseType.FLOAT).addPoseType(PoseType.HOVER).addQuirk(Quirk.simpleQuirk("cry")),
+                AnimationData.walkingAnimation().withBlink().addPoseType(PoseType.SWIM).addPoseType(PoseType.FLY).addQuirk(Quirk.simpleQuirk("cry")),
+                AnimationData.sleepingAnimation(),
+                AnimationData.battleIdleAnimation().withBlink().addQuirk(Quirk.simpleQuirk("cry"))
+        ));
     }
 }

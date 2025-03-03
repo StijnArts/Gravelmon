@@ -33,7 +33,7 @@
       "id": "epoch_altaria-01",
       "pokemon": "altaria epoch",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

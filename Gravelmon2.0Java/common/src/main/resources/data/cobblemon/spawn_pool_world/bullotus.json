@@ -7,7 +7,7 @@
       "id": "bullotus-01",
       "pokemon": "bullotus",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",
@@ -35,7 +35,7 @@
       "id": "blue_bullotus-01",
       "pokemon": "bullotus blue",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

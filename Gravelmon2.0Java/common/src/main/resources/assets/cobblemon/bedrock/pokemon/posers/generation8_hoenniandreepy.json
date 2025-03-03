@@ -59,25 +59,6 @@
           "name": "blink"
         }
       ]
-    },
-    "battle-idle": {
-      "poseName": "battle-idle",
-      "animations": [
-        "bedrock(hoenniandreepy, battle_idle)"
-      ],
-      "poseTypes": [
-        "STAND"
-      ],
-      "transformTicks": 10,
-      "isBattle": true,
-      "quirks": [
-        {
-          "animations": [
-            "bedrock(hoenniandreepy, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
     }
   }
 }

@@ -7,7 +7,7 @@
       "id": "cerebarrel-01",
       "pokemon": "cerebarrel",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

@@ -7,7 +7,7 @@
       "id": "balanoral-01",
       "pokemon": "balanoral",
       "presets": [
-        "underwater",
+        "water",
         "reef"
       ],
       "type": "pokemon",

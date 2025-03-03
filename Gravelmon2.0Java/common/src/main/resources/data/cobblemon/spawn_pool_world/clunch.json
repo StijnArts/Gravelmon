@@ -7,7 +7,7 @@
       "id": "clunch-01",
       "pokemon": "clunch",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

@@ -4,9 +4,40 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_126_by_86.geo",
-      "poser": "cobblemon:cutout_gravelmon_126_by_86",
-      "texture": "cobblemon:textures/pokemon/infinity/whave.png",
+      "model": "cobblemon:infinity_whave.geo",
+      "poser": "cobblemon:infinity_whave",
+      "texture": "cobblemon:textures/pokemon/infinity/whave/whave.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "model": "cobblemon:infinity_whave.geo",
+      "poser": "cobblemon:infinity_whave",
+      "texture": "cobblemon:textures/pokemon/infinity/whave/whave_shiny.png",
       "layers": [
         {
           "name": "emissive"

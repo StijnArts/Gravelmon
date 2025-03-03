@@ -7,7 +7,7 @@
       "id": "chirmidge-01",
       "pokemon": "chirmidge",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

@@ -116,10 +116,10 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
         this.weight = weight;
         this.baseScale = Math.max((double) height / 10 / 4, 0.1);
         this.spawnData.addAll(pokemonSpawnData);
-        if(spawnData.stream().anyMatch(pokemonSpawnData1 -> pokemonSpawnData1.spawnPresets().contains(SpawnPreset.UNDERLAVA) || pokemonSpawnData1.spawnPresets().contains(SpawnPreset.LAVA_SURFACE))){
+        if(spawnData.stream().anyMatch(pokemonSpawnData1 -> pokemonSpawnData1.getSpawnPresets().contains(SpawnPreset.UNDERLAVA) || pokemonSpawnData1.getSpawnPresets().contains(SpawnPreset.LAVA_SURFACE))){
             canSwimInLava = true;
             canBreatheUnderlava = true;
-            if(spawnData.stream().anyMatch(pokemonSpawnData1 -> pokemonSpawnData1.spawnPresets().contains(SpawnPreset.LAVA_SURFACE))){
+            if(spawnData.stream().anyMatch(pokemonSpawnData1 -> pokemonSpawnData1.getSpawnPresets().contains(SpawnPreset.LAVA_SURFACE))){
                 canWalkOnLava = true;
             }
         }

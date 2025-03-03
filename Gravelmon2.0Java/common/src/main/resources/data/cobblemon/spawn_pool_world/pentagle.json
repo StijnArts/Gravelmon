@@ -7,7 +7,7 @@
       "id": "pentagle-01",
       "pokemon": "pentagle",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

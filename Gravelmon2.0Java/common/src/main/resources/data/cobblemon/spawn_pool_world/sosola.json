@@ -7,7 +7,7 @@
       "id": "sosola-01",
       "pokemon": "sosola",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

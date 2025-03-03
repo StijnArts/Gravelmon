@@ -16,7 +16,7 @@
       "poseName": "standing",
       "animations": [
         "look",
-        "bedrock(darumaka_egho, ground_idle)"
+        "bedrock(darumaka_delta, ground_idle)"
       ],
       "poseTypes": [
         "STAND",
@@ -37,13 +37,13 @@
       "quirks": [
         {
           "animations": [
-            "bedrock(darumaka_egho, blink)"
+            "bedrock(darumaka_delta, blink)"
           ],
           "name": "blink"
         },
         {
           "animations": [
-            "bedrock(darumaka_egho, cry)"
+            "bedrock(darumaka_delta, cry)"
           ],
           "name": "spook",
           "minSecondsBetweenOccurrences": 30

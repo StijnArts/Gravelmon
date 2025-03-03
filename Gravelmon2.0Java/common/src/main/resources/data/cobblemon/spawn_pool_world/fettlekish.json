@@ -7,7 +7,7 @@
       "id": "fettlekish-01",
       "pokemon": "fettlekish",
       "presets": [
-        "underwater",
+        "water",
         "reef"
       ],
       "type": "pokemon",

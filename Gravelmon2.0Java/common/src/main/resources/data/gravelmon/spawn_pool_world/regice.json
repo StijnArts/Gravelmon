@@ -7,7 +7,7 @@
       "id": "delta_regice-01",
       "pokemon": "regice delta",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

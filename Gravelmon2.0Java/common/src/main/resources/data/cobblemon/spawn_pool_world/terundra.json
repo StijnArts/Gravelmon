@@ -7,7 +7,7 @@
       "id": "terundra-01",
       "pokemon": "terundra",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

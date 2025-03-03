@@ -7,7 +7,7 @@
       "id": "morlocking-01",
       "pokemon": "morlocking",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

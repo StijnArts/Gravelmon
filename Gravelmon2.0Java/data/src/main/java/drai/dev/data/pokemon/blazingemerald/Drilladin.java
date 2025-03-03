@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.blazingemerald;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.data.util.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
@@ -66,5 +67,15 @@ public class Drilladin extends Pokemon {
         this.setCanFly(true);
         addAdditionalEvolution("kakuna", new EvolutionEntry("drilladin", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"160"))));
+
+        setBaseScale(1);
+        setHitbox(1,1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData(1f, new Vector3(0, 0.5, 0));
+        getPosingFileData().setProfileData(1f, new Vector3(0, 0.5, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().markAsBackupPose().withLook()
+        ));
     }
 }

@@ -7,7 +7,7 @@
       "id": "anglure-01",
       "pokemon": "anglure",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

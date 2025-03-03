@@ -7,7 +7,7 @@
   "experienceGroup": "slow",
   "eggCycles": 62,
   "baseFriendship": 70,
-  "baseScale": 0.20952380952380953,
+  "baseScale": 1.0,
   "cannotDynamax": false,
   "abilities": [
     "hydration",
@@ -150,8 +150,7 @@
     "egg:snarl"
   ],
   "labels": [
-    "sage",
-    "not_modeled"
+    "sage"
   ],
   "pokedex": [
     "cobblemon.species.whave.desc"
@@ -177,11 +176,11 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1294,
+  "nationalPokedexNumber": 1296,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "features": [],

@@ -1,0 +1,41 @@
+{
+  "head": "head",
+  "portraitScale": 1.25,
+  "portraitTranslation": [
+    0.14,
+    0.67,
+    0.0
+  ],
+  "profileScale": 0.6499999761581421,
+  "profileTranslation": [
+    0.0,
+    0.77,
+    0.0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "look",
+        "bedrock(muramoth, ground_idle)"
+      ],
+      "poseTypes": [
+        "STAND",
+        "WALK",
+        "SLEEP",
+        "HOVER",
+        "FLY",
+        "FLOAT",
+        "SWIM",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
+      ],
+      "transformTicks": 10,
+      "quirks": []
+    }
+  }
+}

@@ -7,7 +7,7 @@
       "id": "napohead-01",
       "pokemon": "napohead",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

@@ -8,7 +8,7 @@
       "pokemon": "siamouth",
       "presets": [
         "natural",
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

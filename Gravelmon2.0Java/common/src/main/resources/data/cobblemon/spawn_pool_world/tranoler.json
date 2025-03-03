@@ -7,7 +7,7 @@
       "id": "tranoler-01",
       "pokemon": "tranoler",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

@@ -6,9 +6,7 @@
     {
       "id": "lochnes-01",
       "pokemon": "lochnes",
-      "presets": [
-        "freshwater"
-      ],
+      "presets": [],
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "uncommon",
@@ -16,6 +14,7 @@
       "weight": 7.5,
       "condition": {
         "biomes": [
+          "#cobblemon:is_freshwater",
           "#cobblemon:is_freshwater"
         ],
         "minSkyLight": 8,

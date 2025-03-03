@@ -7,7 +7,7 @@
       "id": "nomstar-01",
       "pokemon": "nomstar",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

@@ -7,7 +7,7 @@
       "id": "loticus-01",
       "pokemon": "loticus",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

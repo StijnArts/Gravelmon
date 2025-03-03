@@ -7,7 +7,7 @@
       "id": "conkamite-01",
       "pokemon": "conkamite",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

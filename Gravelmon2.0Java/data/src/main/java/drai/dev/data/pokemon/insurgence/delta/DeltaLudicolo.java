@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
 
@@ -127,5 +128,13 @@ public class DeltaLudicolo extends Pokemon {
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Ludicolo");
+        setBaseScale(1.1);
+        setHitbox(1,1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData(2.51f, new Vector3(-0.29, -2.06, 0));
+        getPosingFileData().setProfileData(0.69f, new Vector3(-0.05, 0.75, 0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().markAsBackupPose()
+        ));
     }
 }

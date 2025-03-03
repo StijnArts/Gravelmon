@@ -7,7 +7,7 @@
       "id": "magukigai-01",
       "pokemon": "magukigai",
       "presets": [
-        "lava_surface"
+        "lava"
       ],
       "type": "pokemon",
       "context": "surface",

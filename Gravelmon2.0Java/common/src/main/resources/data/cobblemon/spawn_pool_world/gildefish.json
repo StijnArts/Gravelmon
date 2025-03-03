@@ -7,7 +7,7 @@
       "id": "gildefish-01",
       "pokemon": "gildefish",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

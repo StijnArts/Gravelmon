@@ -7,7 +7,7 @@
       "id": "gigantuna-01",
       "pokemon": "gigantuna",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

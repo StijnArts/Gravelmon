@@ -7,7 +7,7 @@
       "id": "worcane-01",
       "pokemon": "worcane",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "grounded",

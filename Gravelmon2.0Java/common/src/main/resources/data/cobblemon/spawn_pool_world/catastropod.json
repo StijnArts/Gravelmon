@@ -7,7 +7,7 @@
       "id": "catastropod-01",
       "pokemon": "catastropod",
       "presets": [
-        "underlava"
+        "lava"
       ],
       "type": "pokemon",
       "context": "surface",

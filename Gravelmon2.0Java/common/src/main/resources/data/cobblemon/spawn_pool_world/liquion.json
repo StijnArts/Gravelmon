@@ -7,7 +7,7 @@
       "id": "liquion-01",
       "pokemon": "liquion",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

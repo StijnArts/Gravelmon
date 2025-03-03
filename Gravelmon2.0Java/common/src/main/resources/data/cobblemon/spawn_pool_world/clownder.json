@@ -8,7 +8,7 @@
       "pokemon": "clownder",
       "presets": [
         "near_magma",
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

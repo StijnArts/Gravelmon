@@ -4,9 +4,40 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_76_by_90.geo",
-      "poser": "cobblemon:cutout_gravelmon_76_by_90",
-      "texture": "cobblemon:textures/pokemon/infinity/arbird.png",
+      "model": "cobblemon:infinity_arbird.geo",
+      "poser": "cobblemon:infinity_arbird",
+      "texture": "cobblemon:textures/pokemon/infinity/arbird/arbird.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "model": "cobblemon:infinity_arbird.geo",
+      "poser": "cobblemon:infinity_arbird",
+      "texture": "cobblemon:textures/pokemon/infinity/arbird/arbird_shiny.png",
       "layers": [
         {
           "name": "emissive"

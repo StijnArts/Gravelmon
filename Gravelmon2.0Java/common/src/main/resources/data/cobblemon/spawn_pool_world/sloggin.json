@@ -7,7 +7,7 @@
       "id": "sloggin-01",
       "pokemon": "sloggin",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

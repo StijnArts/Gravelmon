@@ -7,7 +7,7 @@
       "id": "eyeti-01",
       "pokemon": "eyeti",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

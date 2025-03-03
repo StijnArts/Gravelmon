@@ -65,6 +65,11 @@ public class AnimationData extends BasicAnimationData {
                 .notInWater().setPoseName("floating");
     }
 
+    public static AnimationData surfaceSwimmingAnimation(){
+        return new AnimationData("on_swimming", List.of(PoseType.FLOAT), List.of("surface_idle"), List.of(), 10)
+                .notInWater().setPoseName("swimming");
+    }
+
     public static AnimationData waterSleepingAnimation() {
         return new AnimationData("water_sleeping", List.of(PoseType.FLOAT), List.of("water_sleep"), List.of(), 10).inWater();
     }
@@ -95,6 +100,11 @@ public class AnimationData extends BasicAnimationData {
 
     public AnimationData withBlink(){
         quirks.add(Quirk.simpleQuirk("blink"));
+        return this;
+    }
+
+    public AnimationData withCry(){
+        quirks.add(Quirk.simpleQuirk("cry"));
         return this;
     }
 

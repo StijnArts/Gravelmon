@@ -143,7 +143,7 @@
       "id": "epoch_gible-01",
       "pokemon": "gible epoch",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

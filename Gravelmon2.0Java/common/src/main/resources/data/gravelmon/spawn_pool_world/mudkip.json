@@ -89,9 +89,7 @@
     {
       "id": "ayreian_mudkip-01",
       "pokemon": "mudkip ayreian",
-      "presets": [
-        "freshwater"
-      ],
+      "presets": [],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "ultra-rare",
@@ -99,7 +97,8 @@
       "weight": 13.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_freezing"
+          "#cobblemon:is_freezing",
+          "#cobblemon:is_freshwater"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

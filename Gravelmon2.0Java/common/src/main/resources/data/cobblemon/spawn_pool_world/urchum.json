@@ -7,7 +7,7 @@
       "id": "urchum-01",
       "pokemon": "urchum",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

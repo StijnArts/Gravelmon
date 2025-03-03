@@ -7,7 +7,7 @@
       "id": "mawasite-01",
       "pokemon": "mawasite",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

@@ -7,7 +7,7 @@
       "id": "tyfang-01",
       "pokemon": "tyfang",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

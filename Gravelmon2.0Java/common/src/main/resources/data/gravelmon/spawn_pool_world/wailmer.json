@@ -7,7 +7,7 @@
       "id": "epoch_wailmer-01",
       "pokemon": "wailmer epoch",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -34,7 +34,7 @@
       "id": "norheiman_wailmer-01",
       "pokemon": "wailmer norheiman",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

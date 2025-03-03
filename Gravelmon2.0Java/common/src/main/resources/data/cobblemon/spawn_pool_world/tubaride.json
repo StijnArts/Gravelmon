@@ -7,7 +7,7 @@
       "id": "tubaride-01",
       "pokemon": "tubaride",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

@@ -7,7 +7,7 @@
       "id": "lavoon-01",
       "pokemon": "lavoon",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

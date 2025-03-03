@@ -7,7 +7,7 @@
       "id": "bultin-01",
       "pokemon": "bultin",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

@@ -7,7 +7,7 @@
       "id": "bubbit-01",
       "pokemon": "bubbit",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

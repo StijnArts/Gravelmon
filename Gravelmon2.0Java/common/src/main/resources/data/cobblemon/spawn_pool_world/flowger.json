@@ -7,7 +7,7 @@
       "id": "flowger-01",
       "pokemon": "flowger",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",
@@ -58,7 +58,7 @@
       "id": "blue_flowger-01",
       "pokemon": "flowger blue",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

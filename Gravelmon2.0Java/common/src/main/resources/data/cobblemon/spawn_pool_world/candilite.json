@@ -7,7 +7,7 @@
       "id": "candilite-01",
       "pokemon": "candilite",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

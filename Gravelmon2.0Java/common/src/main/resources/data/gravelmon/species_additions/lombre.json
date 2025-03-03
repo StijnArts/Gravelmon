@@ -365,7 +365,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "lotad form=delta",
-      "baseScale": 0.29387755102040813,
+      "baseScale": 0.75,
       "cannotDynamax": false,
       "abilities": [
         "magicbounce",
@@ -509,7 +509,6 @@
       "labels": [
         "gen3",
         "insurgence",
-        "not_modeled",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -534,8 +533,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 1.0,
+        "height": 1.0,
         "fixed": false
       }
     }

@@ -7,7 +7,7 @@
       "id": "tuscal-01",
       "pokemon": "tuscal",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

@@ -91,8 +91,7 @@ public class HoennianDreepy extends Pokemon {
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
                 AnimationData.standingAnimation().notBattle().withBlink().addPoseType(PoseType.FLOAT).addPoseType(PoseType.HOVER),
-                AnimationData.walkingAnimation().withBlink().addPoseType(PoseType.SWIM).addPoseType(PoseType.FLY),
-                AnimationData.battleIdleAnimation().withBlink()
+                AnimationData.walkingAnimation().withBlink().addPoseType(PoseType.SWIM).addPoseType(PoseType.FLY)
         ));
         getPosingFileData().setCry("q.bedrock_stateful('hoenniandreepy', 'cry')");
     }

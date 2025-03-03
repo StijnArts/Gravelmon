@@ -7,7 +7,7 @@
       "id": "grumfish-01",
       "pokemon": "grumfish",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

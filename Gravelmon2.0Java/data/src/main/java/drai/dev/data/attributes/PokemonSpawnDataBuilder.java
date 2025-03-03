@@ -21,7 +21,7 @@ public class PokemonSpawnDataBuilder {
     }
 
     public PokemonSpawnDataBuilder mustHaveSkyAccess(boolean canSeeSky){
-        var opt = pokemonSpawnData.spawnConditions().stream().filter(spawnCondition -> spawnCondition.getConditionKind() == SpawnConditionType.CANSEESKY).findFirst();
+        var opt = pokemonSpawnData.getSpawnConditions().stream().filter(spawnCondition -> spawnCondition.getConditionKind() == SpawnConditionType.CANSEESKY).findFirst();
         if(opt.isPresent()) {
             opt.get().setCondition(canSeeSky + "");
             return this;

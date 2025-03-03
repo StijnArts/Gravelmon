@@ -7,7 +7,7 @@
       "id": "leptric-01",
       "pokemon": "leptric",
       "presets": [
-        "underwater",
+        "water",
         "reef"
       ],
       "type": "pokemon",

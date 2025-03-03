@@ -7,7 +7,7 @@
       "id": "golfish-01",
       "pokemon": "golfish",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

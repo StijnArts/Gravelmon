@@ -7,7 +7,7 @@
       "id": "elphish-01",
       "pokemon": "elphish",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

@@ -7,7 +7,7 @@
       "id": "kaliyote-01",
       "pokemon": "kaliyote",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

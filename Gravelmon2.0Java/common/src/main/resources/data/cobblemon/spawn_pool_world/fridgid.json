@@ -7,7 +7,7 @@
       "id": "fridgid-01",
       "pokemon": "fridgid",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

@@ -7,7 +7,7 @@
       "id": "spactrish-01",
       "pokemon": "spactrish",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

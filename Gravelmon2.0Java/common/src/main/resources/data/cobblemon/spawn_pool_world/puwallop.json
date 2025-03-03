@@ -7,7 +7,7 @@
       "id": "puwallop-01",
       "pokemon": "puwallop",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

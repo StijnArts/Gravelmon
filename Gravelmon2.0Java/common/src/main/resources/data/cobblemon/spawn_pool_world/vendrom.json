@@ -7,7 +7,7 @@
       "id": "vendrom-01",
       "pokemon": "vendrom",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

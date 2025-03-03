@@ -7,7 +7,7 @@
       "id": "ragnarow-01",
       "pokemon": "ragnarow",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

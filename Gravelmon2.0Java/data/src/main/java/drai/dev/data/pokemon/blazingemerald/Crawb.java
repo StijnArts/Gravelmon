@@ -1,4 +1,46 @@
 package drai.dev.data.pokemon.blazingemerald;
 
-public class Crawb {
+import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
+import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
+
+import java.util.*;
+
+public class Crawb extends Pokemon {
+    public Crawb() {
+        super("Crawb",
+                Type.STEEL, Type.WATER,
+                new Stats(100,120,120,80,100,80),
+                List.of(Ability.MAGNET_PULL, Ability.TACTICIAN), Ability.TACTICIAN,
+                5, 150,
+                new Stats(0,1,1,0,1,0), 3,
+                -1,
+                540, ExperienceGroup.SLOW,
+                70,
+                39, List.of(EggGroup.UNDISCOVERED),
+                List.of(""),
+                List.of(),
+                List.of(
+                ),
+                List.of(Label.BLAZING_EMERALD),
+                0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 33, 43, .0003, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.21, 0.3,
+                List.of());
+        setCanBreathUnderwater(true);
+
+        setLangFileName("C.R.A.W.B.");
+        setBaseScale(1);
+        setHitbox(1,1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData(1f, new Vector3(0, 0.5, 0));
+        getPosingFileData().setProfileData(1f, new Vector3(0, 0.5, 0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().markAsBackupPose()
+        ));
+    }
 }

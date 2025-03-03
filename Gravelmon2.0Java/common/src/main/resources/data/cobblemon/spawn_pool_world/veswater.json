@@ -7,7 +7,7 @@
       "id": "veswater-01",
       "pokemon": "veswater",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

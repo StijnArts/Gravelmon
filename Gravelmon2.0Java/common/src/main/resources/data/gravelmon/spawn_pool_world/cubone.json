@@ -34,7 +34,7 @@
       "pokemon": "cubone epoch",
       "presets": [
         "reef",
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

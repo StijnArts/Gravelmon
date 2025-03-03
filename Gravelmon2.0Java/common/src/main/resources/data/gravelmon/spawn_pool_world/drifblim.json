@@ -7,7 +7,7 @@
       "id": "epoch_drifblim-01",
       "pokemon": "drifblim epoch",
       "presets": [
-        "lava_surface"
+        "lava"
       ],
       "type": "pokemon",
       "context": "surface",

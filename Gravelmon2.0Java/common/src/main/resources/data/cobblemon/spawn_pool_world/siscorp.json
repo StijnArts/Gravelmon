@@ -7,7 +7,7 @@
       "id": "siscorp-01",
       "pokemon": "siscorp",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

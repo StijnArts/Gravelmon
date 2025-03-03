@@ -7,7 +7,7 @@
       "id": "tetoraito-01",
       "pokemon": "tetoraito",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

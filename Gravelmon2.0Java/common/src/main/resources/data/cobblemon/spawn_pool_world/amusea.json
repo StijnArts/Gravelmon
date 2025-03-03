@@ -7,7 +7,7 @@
       "id": "amusea-01",
       "pokemon": "amusea",
       "presets": [
-        "underwater",
+        "water",
         "reef"
       ],
       "type": "pokemon",

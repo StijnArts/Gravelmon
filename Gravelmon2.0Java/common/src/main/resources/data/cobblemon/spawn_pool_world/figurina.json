@@ -7,7 +7,7 @@
       "id": "figurina-01",
       "pokemon": "figurina",
       "presets": [
-        "underwater",
+        "water",
         "shipwreck"
       ],
       "type": "pokemon",

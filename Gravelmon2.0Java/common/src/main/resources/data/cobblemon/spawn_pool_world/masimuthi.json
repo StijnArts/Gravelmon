@@ -7,8 +7,7 @@
       "id": "masimuthi-01",
       "pokemon": "masimuthi",
       "presets": [
-        "natural",
-        "freshwater"
+        "natural"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -17,7 +16,8 @@
       "weight": 3.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_forest"
+          "#cobblemon:is_forest",
+          "#cobblemon:is_freshwater"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

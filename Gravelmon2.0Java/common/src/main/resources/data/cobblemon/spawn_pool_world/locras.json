@@ -7,7 +7,7 @@
       "id": "locras-01",
       "pokemon": "locras",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

@@ -7,7 +7,7 @@
       "id": "jellop-01",
       "pokemon": "jellop",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

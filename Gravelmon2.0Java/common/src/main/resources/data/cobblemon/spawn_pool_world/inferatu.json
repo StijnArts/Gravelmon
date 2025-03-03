@@ -7,7 +7,7 @@
       "id": "inferatu-01",
       "pokemon": "inferatu",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

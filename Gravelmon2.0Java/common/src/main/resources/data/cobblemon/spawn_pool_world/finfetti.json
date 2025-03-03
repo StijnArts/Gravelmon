@@ -7,7 +7,7 @@
       "id": "finfetti-01",
       "pokemon": "finfetti",
       "presets": [
-        "underwater",
+        "water",
         "reef"
       ],
       "type": "pokemon",

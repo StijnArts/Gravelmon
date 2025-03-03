@@ -7,7 +7,7 @@
       "id": "dradna-01",
       "pokemon": "dradna",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

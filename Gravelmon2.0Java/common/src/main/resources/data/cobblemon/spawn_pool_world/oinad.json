@@ -7,7 +7,7 @@
       "id": "oinad-01",
       "pokemon": "oinad",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

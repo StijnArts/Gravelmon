@@ -7,7 +7,7 @@
       "id": "amourish-01",
       "pokemon": "amourish",
       "presets": [
-        "underwater",
+        "water",
         "reef"
       ],
       "type": "pokemon",

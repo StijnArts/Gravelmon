@@ -7,7 +7,7 @@
       "id": "titanice-01",
       "pokemon": "titanice",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

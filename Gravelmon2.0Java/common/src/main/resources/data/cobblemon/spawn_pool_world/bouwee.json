@@ -7,7 +7,7 @@
       "id": "bouwee-01",
       "pokemon": "bouwee",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

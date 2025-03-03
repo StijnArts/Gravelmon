@@ -7,7 +7,7 @@
       "id": "honchen-01",
       "pokemon": "honchen",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

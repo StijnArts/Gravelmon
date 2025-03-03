@@ -7,7 +7,7 @@
       "id": "salpackin-01",
       "pokemon": "salpackin",
       "presets": [
-        "underwater",
+        "water",
         "ocean_monument"
       ],
       "type": "pokemon",

@@ -7,7 +7,7 @@
       "id": "nautilite-01",
       "pokemon": "nautilite",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

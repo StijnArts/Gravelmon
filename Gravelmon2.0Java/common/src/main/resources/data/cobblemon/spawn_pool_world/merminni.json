@@ -7,7 +7,7 @@
       "id": "merminni-01",
       "pokemon": "merminni",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

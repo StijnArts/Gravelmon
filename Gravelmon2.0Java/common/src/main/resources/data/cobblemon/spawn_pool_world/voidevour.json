@@ -7,7 +7,7 @@
       "id": "voidevour-01",
       "pokemon": "voidevour",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

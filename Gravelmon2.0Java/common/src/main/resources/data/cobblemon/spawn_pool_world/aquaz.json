@@ -7,7 +7,7 @@
       "id": "aquaz-01",
       "pokemon": "aquaz",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

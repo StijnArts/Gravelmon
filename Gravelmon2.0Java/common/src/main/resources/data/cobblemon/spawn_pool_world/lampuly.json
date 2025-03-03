@@ -7,7 +7,7 @@
       "id": "lampuly-01",
       "pokemon": "lampuly",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

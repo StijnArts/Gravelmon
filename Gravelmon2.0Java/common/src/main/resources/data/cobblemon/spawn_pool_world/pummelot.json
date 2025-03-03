@@ -7,7 +7,7 @@
       "id": "pummelot-01",
       "pokemon": "pummelot",
       "presets": [
-        "underwater",
+        "water",
         "reef"
       ],
       "type": "pokemon",

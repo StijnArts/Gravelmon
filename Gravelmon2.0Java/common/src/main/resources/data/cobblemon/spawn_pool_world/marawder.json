@@ -7,7 +7,7 @@
       "id": "marawder-01",
       "pokemon": "marawder",
       "presets": [
-        "underwater",
+        "water",
         "natural"
       ],
       "type": "pokemon",

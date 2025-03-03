@@ -1,17 +1,44 @@
 {
-  "portraitScale": 0.20081632653061224,
+  "portraitScale": 0.9795918367346939,
   "portraitTranslation": [
-    0.09,
-    1.25999,
+    0.0,
+    0.5,
     0.0
   ],
-  "profileScale": 0.21551020408163266,
+  "profileScale": 0.9795918367346939,
   "profileTranslation": [
     0.0,
-    1.8,
+    0.5,
     0.0
   ],
   "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "bedrock(cutout, ground_idle)"
+      ],
+      "poseTypes": [
+        "STAND",
+        "WALK",
+        "SLEEP",
+        "HOVER",
+        "FLY",
+        "FLOAT",
+        "SWIM",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT",
+        "OPEN"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(cutout, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    },
     "profile": {
       "poseName": "profile",
       "animations": [

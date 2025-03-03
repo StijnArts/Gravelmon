@@ -7,7 +7,7 @@
       "id": "underssey-01",
       "pokemon": "underssey",
       "presets": [
-        "underwater",
+        "water",
         "reef"
       ],
       "type": "pokemon",

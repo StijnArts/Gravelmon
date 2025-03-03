@@ -4,9 +4,40 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_52_by_49.geo",
-      "poser": "cobblemon:cutout_gravelmon_52_by_49",
-      "texture": "cobblemon:textures/pokemon/blazingemerald/vitellion.png",
+      "model": "cobblemon:blazingemerald_vitellion.geo",
+      "poser": "cobblemon:blazingemerald_vitellion",
+      "texture": "cobblemon:textures/pokemon/blazingemerald/vitellion/vitellion.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "model": "cobblemon:blazingemerald_vitellion.geo",
+      "poser": "cobblemon:blazingemerald_vitellion",
+      "texture": "cobblemon:textures/pokemon/blazingemerald/vitellion/vitellion_shiny.png",
       "layers": [
         {
           "name": "emissive"

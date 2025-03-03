@@ -7,7 +7,7 @@
       "id": "dumpback-01",
       "pokemon": "dumpback",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

@@ -7,7 +7,7 @@
       "id": "sharkerel-01",
       "pokemon": "sharkerel",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.xenoverse;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -95,5 +96,14 @@ public class ShyleonAstral extends Pokemon {
                 List.of());
         this.setLangFileName("Shyleon");
 
+        setBaseScale(1);
+        setHitbox(1,1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData(1.4f, new Vector3(-0.4, 2.08, 0));
+        getPosingFileData().setProfileData(.48f, new Vector3(0.01, 1.06, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().markAsBackupPose().withLook()
+        ));
     }
 }

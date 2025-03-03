@@ -7,7 +7,7 @@
       "id": "sweal-01",
       "pokemon": "sweal",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

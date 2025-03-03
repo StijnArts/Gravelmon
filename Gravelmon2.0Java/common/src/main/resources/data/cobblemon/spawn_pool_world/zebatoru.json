@@ -7,7 +7,7 @@
       "id": "zebatoru-01",
       "pokemon": "zebatoru",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

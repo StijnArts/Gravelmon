@@ -93,8 +93,7 @@ public class HoennianDragapult extends Pokemon {
         getPosingFileData().addAnimations(List.of(
                 AnimationData.standingAnimation().notBattle().withBlink(3).addPoseType(PoseType.FLOAT).addPoseType(PoseType.HOVER),
                 AnimationData.walkingAnimation().withBlink(3).addPoseType(PoseType.SWIM).addPoseType(PoseType.FLY),
-                AnimationData.sleepingAnimation(),
-                AnimationData.battleIdleAnimation().withBlink()
+                AnimationData.sleepingAnimation()
         ));
         getPosingFileData().setCry("q.bedrock_stateful('hoenniandragapult', 'cry')");
         getPosingFileData().setFaint("q.bedrock_primary('hoenniandragapult', 'faint', q.curve('one'))");

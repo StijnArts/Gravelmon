@@ -7,7 +7,7 @@
       "id": "dolpride-01",
       "pokemon": "dolpride",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

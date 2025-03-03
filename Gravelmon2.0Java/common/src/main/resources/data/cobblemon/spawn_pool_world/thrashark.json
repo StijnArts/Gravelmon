@@ -7,7 +7,7 @@
       "id": "thrashark-01",
       "pokemon": "thrashark",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

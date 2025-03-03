@@ -7,7 +7,7 @@
       "id": "epoch_milotic-01",
       "pokemon": "milotic epoch",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -35,7 +35,7 @@
       "id": "epoch_milotic-01",
       "pokemon": "milotic epoch",
       "presets": [
-        "underlava"
+        "lava"
       ],
       "type": "pokemon",
       "context": "submerged",

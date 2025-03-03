@@ -62,7 +62,7 @@
       "id": "hoennian_tentacruel-01",
       "pokemon": "tentacruel hoennian",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -96,7 +96,7 @@
       "id": "relic_tentacruel-01",
       "pokemon": "tentacruel relic",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

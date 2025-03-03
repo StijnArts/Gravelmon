@@ -7,7 +7,7 @@
       "id": "clampere-01",
       "pokemon": "clampere",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

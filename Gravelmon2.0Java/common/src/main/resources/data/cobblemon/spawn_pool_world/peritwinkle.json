@@ -7,7 +7,6 @@
       "id": "peritwinkle-01",
       "pokemon": "peritwinkle",
       "presets": [
-        "freshwater",
         "natural"
       ],
       "type": "pokemon",
@@ -19,7 +18,10 @@
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "timeRange": "night",
-        "isRaining": true
+        "isRaining": true,
+        "biomes": [
+          "#cobblemon:is_freshwater"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

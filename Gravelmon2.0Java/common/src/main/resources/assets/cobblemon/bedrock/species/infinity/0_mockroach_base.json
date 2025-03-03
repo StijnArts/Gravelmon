@@ -4,9 +4,40 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_92_by_124.geo",
-      "poser": "cobblemon:cutout_gravelmon_92_by_124",
-      "texture": "cobblemon:textures/pokemon/infinity/mockroach.png",
+      "model": "cobblemon:infinity_mockroach.geo",
+      "poser": "cobblemon:infinity_mockroach",
+      "texture": "cobblemon:textures/pokemon/infinity/mockroach/mockroach.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "model": "cobblemon:infinity_mockroach.geo",
+      "poser": "cobblemon:infinity_mockroach",
+      "texture": "cobblemon:textures/pokemon/infinity/mockroach/mockroach_shiny.png",
       "layers": [
         {
           "name": "emissive"

@@ -6,9 +6,7 @@
     {
       "id": "nematon-01",
       "pokemon": "nematon",
-      "presets": [
-        "freshwater"
-      ],
+      "presets": [],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "rare",
@@ -16,7 +14,8 @@
       "weight": 7.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_swamp"
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_freshwater"
         ],
         "minSkyLight": 0,
         "maxSkyLight": 7

@@ -7,7 +7,7 @@
       "id": "lyngortos-01",
       "pokemon": "lyngortos",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

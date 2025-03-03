@@ -7,7 +7,7 @@
       "id": "clownfisk-01",
       "pokemon": "clownfisk",
       "presets": [
-        "underwater",
+        "water",
         "reef"
       ],
       "type": "pokemon",

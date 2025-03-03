@@ -7,7 +7,7 @@
       "id": "hantom-01",
       "pokemon": "hantom",
       "presets": [
-        "underwater",
+        "water",
         "shipwreck"
       ],
       "type": "pokemon",

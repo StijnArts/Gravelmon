@@ -1,6 +1,8 @@
 package drai.dev.data.pokemon.blazingemerald;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.data.util.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
@@ -72,5 +74,21 @@ public class Lucemoth extends Pokemon {
                 0.19, 0.3,
                 List.of());
 
+        setBaseScale(1);
+        setHitbox(1,1);
+        getSpeciesFileData()
+                .addBasicVariation(this);
+        getPosingFileData().setPortraitData(1.81f, new Vector3(-0.3, -0.94, 0));
+        getPosingFileData().setProfileData(.69f, new Vector3(0, 0.62, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().notBattle().markAsBackupPose().addQuirk(Quirk.simpleQuirk("quirk")),
+                AnimationData.walkingAnimation().addPoseType(PoseType.SWIM).addQuirk(Quirk.simpleQuirk("quirk")),
+                AnimationData.battleIdleAnimation().addQuirk(Quirk.simpleQuirk("quirk")),
+                AnimationData.flyingAnimation().addQuirk(Quirk.simpleQuirk("quirk")),
+                AnimationData.hoveringAnimation().addQuirk(Quirk.simpleQuirk("quirk")),
+                AnimationData.sleepingAnimation()
+        ));
+        getPosingFileData().addCry();
     }
 }

@@ -7,7 +7,7 @@
       "id": "forman_horsea-01",
       "pokemon": "horsea forman",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -56,7 +56,7 @@
       "id": "epoch_horsea-01",
       "pokemon": "horsea epoch",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -83,7 +83,6 @@
       "id": "epoch_horsea-01",
       "pokemon": "horsea epoch",
       "presets": [
-        "freshwater",
         "natural"
       ],
       "type": "pokemon",
@@ -93,7 +92,8 @@
       "weight": 5.699999999999999,
       "condition": {
         "biomes": [
-          "#cobblemon:is_jungle"
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_freshwater"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

@@ -7,7 +7,7 @@
       "id": "sheltle-01",
       "pokemon": "sheltle",
       "presets": [
-        "underwater",
+        "water",
         "reef"
       ],
       "type": "pokemon",

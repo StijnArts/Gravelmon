@@ -6,9 +6,41 @@
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:cutout_gravelmon_154_by_146.geo",
-      "poser": "cobblemon:cutout_gravelmon_154_by_146",
-      "texture": "cobblemon:textures/pokemon/generation3/deltaludicolo.png",
+      "model": "cobblemon:generation3_deltaludicolo.geo",
+      "poser": "cobblemon:generation3_deltaludicolo",
+      "texture": "cobblemon:textures/pokemon/generation3/deltaludicolo/deltaludicolo.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:generation3_deltaludicolo.geo",
+      "poser": "cobblemon:generation3_deltaludicolo",
+      "texture": "cobblemon:textures/pokemon/generation3/deltaludicolo/deltaludicolo_shiny.png",
       "layers": [
         {
           "name": "emissive"

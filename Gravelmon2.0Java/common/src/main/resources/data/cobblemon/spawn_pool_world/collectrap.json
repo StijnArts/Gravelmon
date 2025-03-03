@@ -7,7 +7,7 @@
       "id": "collectrap-01",
       "pokemon": "collectrap",
       "presets": [
-        "nether_fortress"
+        "nether_structures"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,7 @@
       "id": "surgeskit-01",
       "pokemon": "surgeskit",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

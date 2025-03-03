@@ -7,7 +7,7 @@
       "id": "rayth-01",
       "pokemon": "rayth",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

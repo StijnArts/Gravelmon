@@ -7,7 +7,7 @@
       "id": "epoch_yanmega-01",
       "pokemon": "yanmega epoch",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",
@@ -34,7 +34,7 @@
       "id": "epoch_yanmega-01",
       "pokemon": "yanmega epoch",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

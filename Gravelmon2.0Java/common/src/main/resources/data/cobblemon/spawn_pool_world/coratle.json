@@ -7,7 +7,7 @@
       "id": "coratle-01",
       "pokemon": "coratle",
       "presets": [
-        "underwater",
+        "water",
         "reef"
       ],
       "type": "pokemon",

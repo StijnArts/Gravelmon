@@ -7,7 +7,7 @@
       "id": "starphin-01",
       "pokemon": "starphin",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

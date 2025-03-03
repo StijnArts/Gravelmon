@@ -7,7 +7,7 @@
       "id": "squeezoa-01",
       "pokemon": "squeezoa",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

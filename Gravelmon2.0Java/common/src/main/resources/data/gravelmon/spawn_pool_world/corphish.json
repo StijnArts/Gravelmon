@@ -39,7 +39,7 @@
       "id": "norheiman_corphish-01",
       "pokemon": "corphish norheiman",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

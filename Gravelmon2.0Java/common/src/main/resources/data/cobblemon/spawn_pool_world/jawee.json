@@ -7,7 +7,7 @@
       "id": "jawee-01",
       "pokemon": "jawee",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

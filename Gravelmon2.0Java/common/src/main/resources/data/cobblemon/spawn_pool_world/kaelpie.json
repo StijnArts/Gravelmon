@@ -7,7 +7,7 @@
       "id": "kaelpie-01",
       "pokemon": "kaelpie",
       "presets": [
-        "underwater",
+        "water",
         "foliage"
       ],
       "type": "pokemon",

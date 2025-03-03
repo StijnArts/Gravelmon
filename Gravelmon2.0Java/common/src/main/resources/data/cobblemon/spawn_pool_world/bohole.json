@@ -6,9 +6,7 @@
     {
       "id": "bohole-01",
       "pokemon": "bohole",
-      "presets": [
-        "freshwater"
-      ],
+      "presets": [],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "rare",
@@ -16,7 +14,8 @@
       "weight": 3.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_jungle"
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_freshwater"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

@@ -7,7 +7,7 @@
       "id": "nibblish-01",
       "pokemon": "nibblish",
       "presets": [
-        "underwater",
+        "water",
         "natural"
       ],
       "type": "pokemon",

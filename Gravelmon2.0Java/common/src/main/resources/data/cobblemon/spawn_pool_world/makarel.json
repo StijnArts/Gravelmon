@@ -6,9 +6,7 @@
     {
       "id": "makarel-01",
       "pokemon": "makarel",
-      "presets": [
-        "freshwater"
-      ],
+      "presets": [],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "rare",
@@ -16,7 +14,8 @@
       "weight": 0.75,
       "condition": {
         "biomes": [
-          "#cobblemon:is_river"
+          "#cobblemon:is_river",
+          "#cobblemon:is_freshwater"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

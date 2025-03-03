@@ -7,7 +7,7 @@
       "id": "relicore-01",
       "pokemon": "relicore",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

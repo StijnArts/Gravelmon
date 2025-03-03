@@ -26,6 +26,7 @@
         "FLY",
         "FLOAT",
         "SWIM",
+        "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
         "PORTRAIT",
@@ -43,17 +44,6 @@
       ],
       "poseTypes": [
         "WALK"
-      ],
-      "transformTicks": 10,
-      "quirks": []
-    },
-    "shoulder_left": {
-      "poseName": "shoulder_left",
-      "animations": [
-        "bedrock(deltasableye, shoulder)"
-      ],
-      "poseTypes": [
-        "SHOULDER_LEFT"
       ],
       "transformTicks": 10,
       "quirks": []

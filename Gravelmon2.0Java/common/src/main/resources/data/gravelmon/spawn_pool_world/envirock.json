@@ -61,7 +61,7 @@
       "id": "sea_envirock-01",
       "pokemon": "envirock sea",
       "presets": [
-        "underwater",
+        "water",
         "reef"
       ],
       "type": "pokemon",

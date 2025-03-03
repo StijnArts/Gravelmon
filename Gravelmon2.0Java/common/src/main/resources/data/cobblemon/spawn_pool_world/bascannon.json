@@ -6,9 +6,7 @@
     {
       "id": "bascannon-01",
       "pokemon": "bascannon",
-      "presets": [
-        "freshwater"
-      ],
+      "presets": [],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "rare",
@@ -16,7 +14,8 @@
       "weight": 0.44999999999999996,
       "condition": {
         "biomes": [
-          "#minecraft:is_ocean"
+          "#minecraft:is_ocean",
+          "#cobblemon:is_freshwater"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

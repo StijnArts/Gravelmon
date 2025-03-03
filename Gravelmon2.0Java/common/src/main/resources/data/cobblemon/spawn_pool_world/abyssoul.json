@@ -7,7 +7,7 @@
       "id": "abyssoul-01",
       "pokemon": "abyssoul",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

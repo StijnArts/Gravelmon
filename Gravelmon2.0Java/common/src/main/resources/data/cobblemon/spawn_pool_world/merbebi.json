@@ -7,7 +7,7 @@
       "id": "merbebi-01",
       "pokemon": "merbebi",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

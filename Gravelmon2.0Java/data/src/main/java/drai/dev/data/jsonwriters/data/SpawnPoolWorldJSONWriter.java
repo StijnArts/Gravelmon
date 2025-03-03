@@ -58,38 +58,42 @@ public class SpawnPoolWorldJSONWriter {
             JsonObject spawnJson = new JsonObject();
             spawnJson.addProperty("id", (formName!=null ? formName.toLowerCase() + "_": "") + pokemonName + "-"+i+1);
             spawnJson.addProperty("pokemon", pokemonName + (formName!=null ? " " + formName.toLowerCase() : ""));
-            if(!pokemonSpawnData.spawnPresets().isEmpty()){
+            if(!pokemonSpawnData.getSpawnPresets().isEmpty()){
                 var presets = new JsonArray();
                 spawnJson.add("presets", presets);
-                for(SpawnPreset spawnPreset : pokemonSpawnData.spawnPresets()){
+                for(SpawnPreset spawnPreset : pokemonSpawnData.getSpawnPresets()){
+                    if(spawnPreset == SpawnPreset.FRESHWATER) {
+                        pokemonSpawnData.getBiomeSpawnCondition().getBiomes().add(Biome.IS_FRESHWATER);
+                        continue;
+                    }
                     presets.add(spawnPreset.getName().toLowerCase());
                 }
             }
             spawnJson.addProperty("type", "pokemon");
-            spawnJson.addProperty("context", pokemonSpawnData.spawnContext().getName());
-            spawnJson.addProperty("bucket", pokemonSpawnData.spawnPool().getName());
-            spawnJson.addProperty("level", pokemonSpawnData.minSpawnLevel()+"-"+pokemonSpawnData.maxSpawnLevel());
-            spawnJson.addProperty("weight", pokemonSpawnData.spawnWeight());
-            if(!pokemonSpawnData.spawnConditions().isEmpty()){
+            spawnJson.addProperty("context", pokemonSpawnData.getSpawnContext().getName());
+            spawnJson.addProperty("bucket", pokemonSpawnData.getSpawnPool().getName());
+            spawnJson.addProperty("level", pokemonSpawnData.getMinSpawnLevel()+"-"+pokemonSpawnData.getMaxSpawnLevel());
+            spawnJson.addProperty("weight", pokemonSpawnData.getSpawnWeight());
+            if(!pokemonSpawnData.getSpawnConditions().isEmpty()){
                 var condition = new JsonObject();
                 spawnJson.add("condition", condition);
-                pokemonSpawnData.spawnConditions().forEach(spawnCondition -> processCondition(condition, spawnCondition));
+                pokemonSpawnData.getSpawnConditions().forEach(spawnCondition -> processCondition(condition, spawnCondition));
             }
-            if(!pokemonSpawnData.spawnAntiConditions().isEmpty()) {
+            if(!pokemonSpawnData.getSpawnAntiConditions().isEmpty()) {
                 var antiCondition = new JsonObject();
                 spawnJson.add("anticondition", antiCondition);
-                pokemonSpawnData.spawnAntiConditions().forEach(spawnCondition -> processCondition(antiCondition, spawnCondition));
+                pokemonSpawnData.getSpawnAntiConditions().forEach(spawnCondition -> processCondition(antiCondition, spawnCondition));
             }
-            if(!pokemonSpawnData.preferredBlocks().isEmpty()){
+            if(!pokemonSpawnData.getPreferredBlocks().isEmpty()){
                 var weightMultiplier = new JsonObject();
                 spawnJson.add("weightMultiplier", weightMultiplier);
                 weightMultiplier.addProperty("multiplier", 5.0f);
                 var condition = new JsonObject();
                 weightMultiplier.add("condition", condition);
-                if(!pokemonSpawnData.preferredBlocks().isEmpty()) {
+                if(!pokemonSpawnData.getPreferredBlocks().isEmpty()) {
                     var neededNearbyBlocks = new JsonArray();
                     condition.add("neededNearbyBlocks", neededNearbyBlocks);
-                    pokemonSpawnData.preferredBlocks().forEach(neededNearbyBlocks::add);
+                    pokemonSpawnData.getPreferredBlocks().forEach(neededNearbyBlocks::add);
                 }
             }
             spawns.add(spawnJson);

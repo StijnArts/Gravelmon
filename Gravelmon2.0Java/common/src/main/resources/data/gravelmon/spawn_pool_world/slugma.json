@@ -65,7 +65,7 @@
       "id": "epoch_slugma-01",
       "pokemon": "slugma epoch",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

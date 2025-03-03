@@ -7,7 +7,7 @@
       "id": "leonet-01",
       "pokemon": "leonet",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

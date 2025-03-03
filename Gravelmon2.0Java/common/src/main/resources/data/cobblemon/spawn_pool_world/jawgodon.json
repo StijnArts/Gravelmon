@@ -8,7 +8,7 @@
       "pokemon": "jawgodon",
       "presets": [
         "reef",
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

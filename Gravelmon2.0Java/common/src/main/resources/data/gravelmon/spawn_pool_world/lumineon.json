@@ -7,7 +7,7 @@
       "id": "epoch_lumineon-01",
       "pokemon": "lumineon epoch",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -35,7 +35,7 @@
       "id": "lagoonan_lumineon-01",
       "pokemon": "lumineon lagoonan",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

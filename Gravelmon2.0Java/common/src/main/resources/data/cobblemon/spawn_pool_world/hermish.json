@@ -7,7 +7,7 @@
       "id": "hermish-01",
       "pokemon": "hermish",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

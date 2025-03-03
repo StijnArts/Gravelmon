@@ -7,7 +7,7 @@
       "id": "floink-01",
       "pokemon": "floink",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",

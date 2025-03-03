@@ -7,7 +7,7 @@
       "id": "skyviator-01",
       "pokemon": "skyviator",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

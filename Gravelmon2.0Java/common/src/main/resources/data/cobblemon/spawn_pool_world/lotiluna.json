@@ -7,7 +7,7 @@
       "id": "lotiluna-01",
       "pokemon": "lotiluna",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

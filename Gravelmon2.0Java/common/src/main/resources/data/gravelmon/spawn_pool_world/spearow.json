@@ -35,7 +35,7 @@
       "id": "epoch_spearow-01",
       "pokemon": "spearow epoch",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",

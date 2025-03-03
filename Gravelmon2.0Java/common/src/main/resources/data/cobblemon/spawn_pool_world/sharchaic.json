@@ -7,7 +7,7 @@
       "id": "sharchaic-01",
       "pokemon": "sharchaic",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

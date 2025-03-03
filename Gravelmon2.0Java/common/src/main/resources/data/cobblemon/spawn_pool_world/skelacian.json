@@ -7,7 +7,7 @@
       "id": "skelacian-01",
       "pokemon": "skelacian",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

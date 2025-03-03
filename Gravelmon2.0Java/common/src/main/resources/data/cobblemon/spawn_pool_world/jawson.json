@@ -7,7 +7,7 @@
       "id": "jawson-01",
       "pokemon": "jawson",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",
