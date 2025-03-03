@@ -13,17 +13,16 @@ import net.minecraft.network.chat.*;
 import net.minecraft.resources.*;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.*;
+import net.neoforged.bus.*;
 import net.neoforged.bus.api.*;
 import net.neoforged.fml.common.*;
+import net.neoforged.fml.event.lifecycle.*;
 import net.neoforged.neoforge.client.event.*;
 
 import java.util.stream.*;
 
 @Mod(Gravelmon.MOD_ID)
 public class GravelmonForge {
-    public static boolean ICON_MIXIN_INIT = false;
-    public static boolean ICON_WIDGET_INIT = false;
-    public static int TYPE_COUNT = 18;
     public GravelmonForge() {
         Gravelmon.init();
         PlatformEvents.CLIENT_ITEM_TOOLTIP.subscribe(Priority.LOWEST, itemTooltipEvent -> {
@@ -51,9 +50,8 @@ public class GravelmonForge {
             }
             return Unit.INSTANCE;
         });
-        ComposterBlock.COMPOSTABLES.put(GravelmonItems.ORANGE_APRICORN.get(), .65f);
-        ComposterBlock.COMPOSTABLES.put(GravelmonItems.PURPLE_APRICORN.get(), .65f);
     }
+
     @SubscribeEvent
     public static void onRegisterNamedRenderTypes(RegisterNamedRenderTypesEvent event)
     {

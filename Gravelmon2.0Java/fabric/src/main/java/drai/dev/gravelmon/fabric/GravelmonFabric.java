@@ -15,7 +15,8 @@ public class GravelmonFabric implements ModInitializer {
         Gravelmon.init();
         GravelmonFeatures.registerFeatures();
         initCreativeTabs();
-        CompostingChanceRegistryImpl.INSTANCE.add(GravelmonItems.ORANGE_APRICORN.get(), .65f);
+        var orangeApp = GravelmonItems.ORANGE_APRICORN.get();
+        CompostingChanceRegistryImpl.INSTANCE.add(orangeApp, .65f);
         CompostingChanceRegistryImpl.INSTANCE.add(GravelmonItems.PURPLE_APRICORN.get(), .65f);
     }
 }
